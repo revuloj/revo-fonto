@@ -188,7 +188,7 @@
     <rim>
       Bricard <fnt><bib>MatTerm</bib><lok>p. 8</lok></fnt>
       nomis tion <ctl>raporto</ctl>, sed tiu uzo ne tre kongrua kun la baza
-      senco de la radiko ne disvasti&gcirc;is. 
+      senco de la radiko ne disvasti&gcirc;is.
     </rim>
     <trd lng="de">Verh&auml;ltnis</trd>
     <trd lng="fr">rapport<klr tip="ind"> (entre deux nombres)</klr></trd>
@@ -208,7 +208,9 @@
     <rim>
       Iam oni nomis <ctl><tld/>o</ctl> nur la <tld/>ojn de iu aro al
       &gcirc;i mem (nun: <ctl>interna <tld/>o</ctl>) kaj tiusence difinas
-      &gcirc;in PIV, sed okazis vastigo de la nocio.
+      &gcirc;in <fnt><bib>PIV1</bib></fnt>, sed okazis vastigo de la nocio.
+      Eblas difini anka&ubreve; <ctl>n-lokajn <tld/>ojn</ctl>: temas pri
+      subaroj de kartezia produto de n aroj.
     </rim>
     <rim>
       La matematika nocio <tld/>o servas por priskribi &ccirc;iutagajn
@@ -221,11 +223,23 @@
       estas tre oportuna por formaligi <ref cel="funkci.0o.MAT">funkciojn</ref>
       unu- a&ubreve; plur-sencajn.
     </rim>
+    <trdgrp lng="de">
+      <trd>Zuordnung</trd>
+      <trd>Relation</trd>,
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>correspondence</trd>
+      <trd>relation</trd>,
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>correspondance<klr tip="ind"> (math.)</klr></trd>,
       <trd>relation<klr tip="ind"> (d'un ensemble E &agrave; un ensemble F)</klr></trd>
     </trdgrp>
     <trd lng="nl">relatie</trd>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_o;&c_o;&c_t;&c_v;&c_je;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>,
+      <trd>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
+    </trdgrp>
   </snc>
   <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
@@ -283,13 +297,7 @@
 </drv>
 
 <drv mrk="rilat.ekvivalento0o">
-  <kap>
-  ekvivalento-<tld/>o,
-  ekvivalent<tld/>o
-  <fnt><bib>MatVort</bib></fnt>,
-  <tld/>o de ekvivalento
-  <fnt><bib>PIV1</bib></fnt>
-  </kap>
+  <kap>ekvivalento-<tld/>o, ekvivalent<tld/>o <fnt><bib>MatVort</bib></fnt>, <tld/>o de ekvivalento <fnt><bib>PIV1</bib></fnt></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -352,7 +360,10 @@
       <ref cel="transi1.0a.rilato">transitiva</ref>.
     </refgrp>
   </snc>
+  <trd lng="de">Relation<klr tip="ind"> (in einer Menge)</klr></trd>
+  <trd lng="en">relation<klr tip="ind"> (on a set)</klr></trd>
   <trd lng="fr">relation<klr tip="ind"> (sur un ensemble)</klr></trd>
+  <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_n;&c_a; &c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
 </drv>
 
 <drv mrk="rilat.inter0o">
@@ -374,15 +385,15 @@
 </drv>
 
 <drv mrk="rilat.inversa0o">
-  <kap>inversa <tld/>o, inverso (de <tld/>o)</kap>
+  <kap>inversa <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <ref tip="super" cel="rilat.0o.MAT">rilato</ref> <em>R</em> inter
+      <klr>(de <ref cel="rilat.0o.MAT">rilato</ref> <em>R</em> inter
       <em>E</em> kaj <em>F</em>)</klr>
       <tld lit="R"/>o inter <em>F</em> kaj <em>E</em>, kies elementojn oni
-      ricevas aliigante &ccirc;iun elementon de <em>R</em> al ties
-      <ref cel="par.inversa0o">inverso</ref>:
+      ricevas aliigante &ccirc;iun paron de <em>R</em> al ties
+      <ref cel="par.inversa0o">inversa paro</ref>:
     </dif>
     <ekz>
       la inversan <tld/>on de <em>R</em> oni signas per <em>R</em><sup>-1</sup>;
@@ -390,13 +401,11 @@
     <ekz>
       la inversa <tld/>o de <em>R</em><sup>-1</sup> egalas al <em>R</em>.
     </ekz>
+    <refgrp tip="vid">
+      Oni diras anka&ubreve;:
+      <ref cel="invers.0o.variaj">inverso</ref> de rilato;
+    </refgrp>
     <ref tip="sub" cel="bild.inversa0igo">inversa bildigo.</ref>
-    <rim>
-      Oni diras la&ubreve;pla&ccirc;e
-      <ctl><em>S</em> estas la inversa rilato de <em>R</em></ctl>,
-      a&ubreve;
-      <ctl><em>S</em> estas la inverso de rilato <em>R</em></ctl>.
-    </rim>
   </snc>
   <trd lng="fr">relation r&eacute;ciproque</trd>
 </drv>
@@ -451,13 +460,16 @@
 </art>
 <!--
 $Log$
-Revision 1.28  2002/01/28 17:32:05  revo
+Revision 1.29 2002/02/03 17:30:52 revo
+Marc Bavant: ~o (kvociento): -ref al proporcio, +rim
+
+Revision 1.28 2002/01/28 17:32:05 revo
 Yury Finkel: +trd ru
 
-Revision 1.27  2002/01/06 17:45:10  revo
+Revision 1.27 2002/01/06 17:45:10 revo
 Marc Bavant: mod ref cel al bildigo
 
-Revision 1.26  2002/01/04 17:33:52  revo
+Revision 1.26 2002/01/04 17:33:52 revo
 Marc Bavant: +klr en dif MAT; ~o (kvociento): +uzo MAT, +fnt; ~o MAT: +fnt, mod klr en dif, +refgrp, mod rim; ekvivalento-~o: mod kap, +trd en/de; ordo-~o: +trd en/de
 
 Revision 1.25 2001/11/15 19:15:17 revo
@@ -467,8 +479,5 @@ Paul Peeraerts: ald trd nl
 Revision 1.23 2001/09/17 18:15:36 revo
 Ulrich Fellmann: + 9 germ trdj
 Revision 1.22 2001/07/22 18:17:47 revo
-Marc Bavant: kor rim pri rilato
-Revision 1.21 2001/07/12 18:12:57 revo
-Marc Bavant: kosmetikaj sxangxoj cxe snc MAT kaj trd fr
 -->
 </vortaro>
