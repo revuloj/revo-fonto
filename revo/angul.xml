@@ -11,27 +11,11 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="angul.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <subsnc mrk="angul.0o.afina">
-      <uzo tip="klr">(afina geometrio)</uzo>
-      <dif>
-        Paro de <ref cel="rekt.duon0o">duonrektoj</ref>
-        <klr>
-        (&gcirc;iaj <ref tip="prt" cel="later.0o.angulo">lateroj</ref>)
-        </klr>
-        kun komuna origino
-        <klr>
-        (&gcirc;ia <ref tip="prt" cel="vertic.0o.angulo">vertico</ref>).
-        </klr>
-      </dif>
-    </subsnc>
     <subsnc mrk="angul.0o.figuro">
       <uzo tip="klr">(elementa geometrio)</uzo>
       <dif>
         Ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, kiun limas du
-        <ref cel="rekt.duon0o">duonrektoj</ref> kun komuna origino:
-        <ekz>
-          <tld/>o de <ref cel="rotaci.0o.afina">rotacio</ref>.
-        </ekz>
+        <ref cel="rekt.duon0o">duonrektoj</ref> kun komuna origino.
       </dif>
       <refgrp tip="vid">
         Ecoj de angulo:
@@ -49,18 +33,47 @@
         <ref cel="komple1.0a.angulo">komplementaj</ref>,
         <ref cel="suplem.0o.angulo">suplementaj</ref>.
       </refgrp>
-      <rim>
-        La difinon oni povas vastigi al la okazo, kiam la lateroj estas
-        kurbaj (ekz-e sfera <tld/>o).
-      </rim>
+    </subsnc>
+    <subsnc mrk="angul.0o.afina">
+      <uzo tip="klr">(afina geometrio)</uzo>
+      <dif>
+        Paro de <ref cel="rekt.duon0o">duonrektoj</ref>
+        <klr>
+        (&gcirc;iaj <ref tip="prt" cel="later.0o.angulo">lateroj</ref>)
+        </klr>
+        kun komuna origino
+        <klr>
+        (&gcirc;ia <ref tip="prt" cel="vertic.0o.angulo">vertico</ref>).
+        </klr>
+      </dif>
     </subsnc>
     <subsnc mrk="angul.0o.mezuro">
       <dif>
         Mezuro de <tld/>o:
         <ekz>
-          la sumo de la <tld/>oj de tri<tld/>o egalas al du ortoj.
+          <tld/>o de <ref cel="rotaci.0o.afina">rotacio</ref>;
+        </ekz>
+        <ekz>
+          la sumo de la <tld/>oj de tri<tld/>o egalas al du ortoj;
+        </ekz>
+        <ekz>
+          ebena <tld/>o esprimi&gcirc;as kiel rilato de la arko, kiun
+          &gcirc;i <ref cel="trancx.de0i.MAT">detran&ccirc;as</ref> sur cirklo 
+          kun centro en &gcirc;ia vertico al la radiuso de tiu cirklo;
+        </ekz>
+        <ekz>
+          solida <tld/>o esprimi&gcirc;as kiel rilato de la surfaco, kiun
+          &gcirc;i detran&ccirc;as sur sfero kun centro en &gcirc;ia
+          vertico al la kavadrato de la radiuso de tiu sfero.
         </ekz>
       </dif>
+      <refgrp tip="vid">
+        Mezurunuoj de angulo:
+        <ref cel="grad.0o.unuo">grado</ref>,
+        <ref cel="gradus.0o.unuo">graduso</ref>,
+        <ref cel="radian.0o">radiano</ref>,
+        <ref cel="sterad.0o">steradiano</ref>.
+      </refgrp>
     </subsnc>
   </snc>
   <snc>
@@ -158,6 +171,7 @@
       <ref cel="ort.mez0anto">mezortanto</ref>;
     </refgrp>
     <refgrp tip="vid">
+      Specialaj lateroj en triangulo:
       <ref cel="hipote1.0o">hipotenuzo</ref>,
       <ref cel="katet.0o">kateto</ref>.
     </refgrp>
@@ -168,9 +182,52 @@
   <trd
   lng="ru">&#1090;&#1088;&#1077;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1080;&#1082;</trd>
 </drv>
+<drv mrk="angul.centra0o">
+  <kap>centra <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(rilate al <ref cel="cirkl.0o.linio">cirklo</ref>)</klr>
+      <tld lit="A"/>o, kies vertico koincidas kun la centro de la cirklo.
+    </dif>
+  </snc>
+  <trd lng="de">Mittelpunktswinkel</trd>
+  <trd lng="en">central <ind>angle</ind></trd>
+  <trd lng="fr"><ind>angle</ind> au centre</trd>
+  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
+</drv>
+<drv mrk="angul.cirkonferenca0o">
+  <kap>cirkonferenca <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(rilate al <ref cel="cirkl.0o.linio">cirklo</ref>)</klr>
+      <tld lit="A"/>o, kies vertico situas sur la cirklo.
+    </dif>
+  </snc>
+  <trd lng="de">Umfangswinkel</trd>
+  <trd lng="en"><ind>angle</ind> at circumference</trd>
+  <trd lng="fr"><ind>angle</ind> inscrit</trd>
+  <trd lng="ru">&c_v;&c_p;&c_i;&c_s;&c_a;&c_n;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
+</drv>
+<drv mrk="angul.ebena0o">
+  <kap>ebena <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="dif" cel="angul.0o.afina"><tld/>o 
+    <sncref ref="angul.0o.MAT"/><sncref ref="angul.0o.afina"/>.</ref>
+  </snc>
+  <trd lng="de">ebener <ind>Winkel</ind></trd>
+  <trd lng="en">plane <ind>angle</ind></trd>
+  <trd lng="fr"><ind>angle</ind> plan</trd>
+  <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_i;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
+</drv>
 <drv mrk="angul.polusa0o">
   <kap>polusa <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
       <klr>(de punkto M en
@@ -189,11 +246,35 @@
     </dif>
   </snc>
   <trd lng="de">Polarwinkel</trd>
-  <trd lng="fr">angle polaire</trd>
+  <trd lng="fr"><ind>angle</ind> polaire</trd>
+</drv>
+<drv mrk="angul.solida0o">
+  <kap>solida <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, naskita de
+      &ccirc;iuj <ref cel="rekt.duon0o">duonrektoj</ref>
+      kun komuna origino O, trairantaj 
+      ian parton de <ref cel="sfer.0o.surfaco">sfero</ref> kun centro en O:
+      <ekz>
+        duedro, triedro, solido limata de duonkonusa surfaco estas solidaj 
+        <tld/>oj.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Raumwinkel</trd>
+  <trd lng="en">solid <ind>angle</ind></trd>
+  <trd lng="fr"><ind>angle</ind> solide</trd>
+  <trd lng="ru">&c_t;&c_je;&c_l;&c_je;&c_s;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.19  2001/06/09 18:49:39  revo
+Marc Bavant: +ekz kun ref al rotacio
+
 Revision 1.18  2001/05/13 18:42:31  revo
 Marc Bavant: +ref al konkava, konveksa
 
@@ -210,8 +291,5 @@ Marc Bavant: kor ref tip al n-latero
 Revision 1.12  2001/03/31 18:07:56  revo
 Marc Bavant: mod dif cxe tri~o, rekt~o
 Revision 1.11  2000/12/10 18:45:51  revo
-uzo tip=stl
-Revision 1.10  2000/09/17 16:16:04  revo
-Marc Bavant: aldono de franca traduko, de faka indiko por la derivajxoj, korekto de "ortan~ulo" al "ort~o", korekto de la difino
 -->
 </vortaro>
