@@ -9,12 +9,10 @@
   <fnt>Z</fnt>
 </kap>
 <drv mrk="later.0o">
-  <kap>
-    <tld/>o
-  </kap>
+  <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc mrk="later.0o.streko">
-    <fnt><bib>PV</bib></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 27, pri triangulo</lok></fnt>
     <dif>
       <ref tip="super" cel="strek.0o.segmento">Streko</ref>,
       limanta <ref cel="later.plur0o">plur<tld/>on</ref>; alternative,
@@ -28,12 +26,12 @@
         granda <tld/>o per la malgranda.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="flank.0o">flanko</ref>.
+    <refgrp tip="sin">
+      <ref cel="flank.0o.plurlatero">flanko</ref>.
     </refgrp>
   </snc>
   <snc mrk="later.0o.angulo">
-    <fnt><bib>PIV1</bib></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 26</lok></fnt>
     <dif>
       <klr>(de <ref cel="angul.0o.afina">angulo</ref>)</klr>
       &Ccirc;iu el la du duonrektoj, &gcirc;in limantaj.
@@ -50,9 +48,7 @@
 </drv>
 
 <drv mrk="later.egal0a">
-  <kap>
-    egal<tld/>a
-  </kap>
+  <kap>egal<tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib><lok>artikolo: angulo</lok></fnt>
   <snc>
@@ -71,9 +67,7 @@
 </drv>
 
 <drv mrk="later.plur0o">
-  <kap>
-    plur<tld/>o
-  </kap>
+  <kap>plur<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
   <snc>
@@ -94,7 +88,7 @@
       <ref cel="regul.0a.plurlatero">regula</ref>;
     </refgrp>
     <refgrp tip="prt">
-      Karakterizaj partoj de plurlateroj:
+      karakterizaj partoj de plurlateroj:
       <ref cel="apotem.0o.plurlatero">apotemo</ref>,
       <ref cel="centr.0o.plurlatero">centro</ref>,
       <ref cel="diagon.0o.plurlatero">diagonalo</ref>,
@@ -102,7 +96,7 @@
       <ref cel="vertic.0o.plurlatero">vertico</ref>;
     </refgrp>
     <refgrp tip="sub">
-      Ekzemploj de plurlateroj:
+      ekzemploj de plurlateroj:
       <ref cel="later.n0o">n-latero</ref>,
       <ref cel="angul.tri0o">triangulo</ref>,
       <ref cel="angul.rekt0o">rektangulo</ref>,
@@ -117,6 +111,15 @@
       ili, ke tri sinsekvaj verticoj ne estu
       <ref cel="rekt.sam0a">samrektaj</ref>.
     </rim>
+    <rim>
+      Bricard
+      <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>, kiel estas &ccirc;e li
+      kutime, uzas la prefikson <ctl>mult</ctl> anstata&ubreve; 
+      <ctl>plur</ctl>. 
+      Krome li aludas al senca diferenco inter <ctl>mult<tld/>o</ctl> kaj
+      <ctl>multangulo</ctl>, sed &scirc;ajnas, ke tiu diferenco validas nur
+      en kelkaj maloftaj figuroj, kiel la t.n. <ctl>plena kvarangulo</ctl>. 
+     </rim>
   </snc>
   <trd lng="en">polygon</trd>
   <trdgrp lng="de">
@@ -128,9 +131,7 @@
 </drv>
 
 <drv mrk="later.n0o">
-  <kap>
-    n-<tld/>o
-  </kap>
+  <kap>n-<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
   <snc>
@@ -204,34 +205,36 @@
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
   <snc mrk="later.sam0a.angulo">
-      <dif>
-        <klr>(p.p. du <ref cel="angul.0o.figuro">anguloj</ref>)</klr>
-        Havantaj la saman verticon kaj unu komunan lateron.
-      </dif>
-      <trd lng="de">anleigender<klr tip="amb"> (Winkel)</klr></trd>
-      <trd lng="en">adjacent<klr tip="ind"> (angle)</klr></trd>
-      <trd lng="fr"><klr tip="ind">(angle) </klr>adjacent</trd>
-      <trd lng="ru">&c_p;&c_r;&c_i;&c_l;&c_je;&c_zh;&c_a;&c_shch;&c_i;&c_j;<klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
+    <dif>
+      <klr>(p.p. du <ref cel="angul.0o.figuro">anguloj</ref>)</klr>
+      Havantaj la saman verticon kaj unu komunan lateron.
+    </dif>
+    <ref tip="vid" cel="apud.0a.angulo">apuda.</ref>
+    <trd lng="de">anleigender<klr tip="amb"> (Winkel)</klr></trd>
+    <trd lng="en">adjacent<klr tip="ind"> (angle)</klr></trd>
+    <trd lng="fr"><klr tip="ind">(angle) </klr>adjacent</trd>
+    <trd lng="ru">&c_p;&c_r;&c_i;&c_l;&c_je;&c_zh;&c_a;&c_shch;&c_i;&c_j;<klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
   </snc>
 </drv>
-
 </art>
 <!--
 $Log$
-Revision 1.14  2001/11/20 17:34:04  revo
+Revision 1.15 2001/12/16 08:30:41 revo
+Marc Bavant: +drv sam~a (pp angulo)
+Revision 1.14 2001/11/20 17:34:04 revo
 Marc Bavant: +drv egal~a; +fnt
-Revision 1.13  2001/11/14 19:14:20  revo
+Revision 1.13 2001/11/14 19:14:20 revo
 Yury Finkel: +trd ru
-Revision 1.12  2001/10/28 19:13:27  revo
+Revision 1.12 2001/10/28 19:13:27 revo
 Marc Bavant: mod ref cel al diagonalo
-Revision 1.11  2001/09/16 18:49:59  revo
+Revision 1.11 2001/09/16 18:49:59 revo
 Marc Bavant: mod ref cel al paralelogramo
-Revision 1.10  2001/09/02 18:16:58  revo
+Revision 1.10 2001/09/02 18:16:58 revo
 Marc Bavant: plur~o: +rim, mod ref; sxovis fakindikojn; kor trd lng cxe germana traduko de ~o
-Revision 1.9  2001/06/23 18:12:28  revo
+Revision 1.9 2001/06/23 18:12:28 revo
 Marc Bavant: +ref al apotemo
-Revision 1.8  2001/04/21 18:46:06  revo
+Revision 1.8 2001/04/21 18:46:06 revo
 Marc Bavant: +snc ~o (de angulo)
-Revision 1.7  2001/04/03 16:44:06  revo
+Revision 1.7 2001/04/03 16:44:06 revo
 -->
 </vortaro>
