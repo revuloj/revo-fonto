@@ -2,82 +2,110 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>fini</rad>/o <fnt>PIV</fnt>
-    </kap>
-    <drv mrk="fini.0o">
-      <kap><tld/>o</kap>
-      <snc>
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Nombro, punkto a&ubreve; simila objekto kies absoluta grando (ekz-e,
-          absoluta valoro, koordinatoj ktp) ne superas iun entjeron: 
-          <ekz>la nombroj 1, 2, 3.14, -100 estas <tld/>oj.</ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="de">
-        <trd>endliche Zahl</trd>,
-        <trd>finite Zahl</trd></trdgrp>
-      <trd lng="en">finite object</trd>
-      <trd lng="ru">&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x44b;&#x439; &#x43e;&#x431;&#x44a;&#x435;&#x43a;&#x442;</trd>
-    </drv>
-    <drv mrk="fini.0a">
-      <kap><tld/>a</kap>
-      <snc>
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Kies (absoluta) grando ne superas iun entjeron; kiu ne estas 
-          mal<tld/>a:
-          <ekz><tld/>a aro, grupo, vico;</ekz>
-          <ekz><tld/>a distanco</ekz>.
-        </dif>
-      </snc>
-      <ref tip="sin" cel="fin.0ita">finita</ref>
-      <trdgrp lng="de">
-        <trd>endlich</trd>,
-        <trd>finit</trd>,
-        <trd>begrenzt</trd></trdgrp>
-      <trd lng="en">finite</trd>
-      <trd lng="ru">&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x44b;&#x439;</trd>
-    </drv>
-    <drv mrk="fini.mal0o">
-      <kap>mal<tld/>o, ne<tld/>o</kap>
-      <snc>
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Objekto senlime granda a&ubreve; senlime malproksima; t.e.
-          limesa nombro a&ubreve; punkto, kiu ne estas <tld/>a:
-          <ekz>la signumhavaj mal<tld/>oj +&#x221e; kaj -&#x221e;;</ekz>
-          <ekz>la sensignuma mal<tld/>o &#x221e;</ekz>.
-        </dif>
-        <ref tip="sin" cel="infini.0o">infinito</ref>
-      </snc>
-      <trd lng="en">infinity</trd>
-      <trd lng="ru">&#x431;&#x435;&#x441;&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x43e;&#x441;&#x442;&#x44c;</trd>
-    </drv>
-    <drv mrk="fini.mal0a">
-      <kap>mal<tld/>a, ne<tld/>a</kap>
-      <snc>
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Senlime granda a&ubreve; senlime malproksima:
-          <ekz>la aro de la primoj estas ne<tld/>a.</ekz>
-        </dif>
-      </snc>
-      <ref tip="vid" cel="fin.sen0a">senfina</ref>
-      <ref tip="sin" cel="fin.ne0ita">nefinita</ref>
-      <trdgrp lng="de">
-        <trd>unendlich</trd>,
-        <trd>infinit</trd>,
-        <trd>unbegrenzt</trd></trdgrp>
-      <trd lng="en">infinite</trd>
-      <trd lng="ru">&#x431;&#x435;&#x441;&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x44b;&#x439;</trd>
-    </drv>
-  </art>
-
+<art mrk="$Id$">
+<kap>
+<rad>fini</rad>/o<fnt><bib>PIV1</bib></fnt>
+</kap>
+<drv mrk="fini.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Nombro, punkto a&ubreve; simila objekto kies absoluta grando (ekz-e,
+      absoluta valoro, koordinatoj ktp) ne superas iun entjeron:
+      <ekz>
+        la nombroj 1, 2, 3.14, -100 estas <tld/>oj.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>endliche Zahl</trd>,
+    <trd>finite Zahl</trd>
+  </trdgrp>
+  <trd lng="en">finite object</trd>
+  <trd lng="fr">objet <ind>fini</ind><klr tip="ind"> (math.)</klr></trd>
+  <trd lng="ru">&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x44b;&#x439; &#x43e;&#x431;&#x44a;&#x435;&#x43a;&#x442;</trd>
+</drv>
+<drv mrk="fini.0a">
+  <kap><tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Kies (absoluta) grando ne superas iun entjeron; kiu ne estas
+      mal<tld/>a:
+      <ekz>
+        <tld/>a aro, grupo, vico;
+      </ekz>
+      <ekz>
+        <tld/>a distanco.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="fin.0ita">finita.</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>endlich</trd>,
+    <trd>finit</trd>,
+    <trd>begrenzt</trd>
+  </trdgrp>
+  <trd lng="en">finite</trd>
+  <trd lng="fr">fini<klr tip="ind"> (math.)</klr></trd>
+  <trd lng="ru">&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x44b;&#x439;</trd>
+</drv>
+<drv mrk="fini.mal0o">
+  <kap>mal<tld/>o, ne<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Objekto senlime granda a&ubreve; senlime malproksima; t.e.
+      limesa nombro a&ubreve; punkto, kiu ne estas <tld/>a:
+      <ekz>
+        la signumhavaj mal<tld/>oj +&#x221e; kaj -&#x221e;;
+      </ekz>
+      <ekz>
+        la sensignuma mal<tld/>o &#x221e;.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="infini.0o">infinito.</ref>
+  </snc>
+  <trd lng="en">infinity</trd>
+  <trd lng="fr">infini<klr tip="ind"> (subst., math.)</klr></trd>
+  <trd lng="ru">&#x431;&#x435;&#x441;&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x43e;&#x441;&#x442;&#x44c;</trd>
+</drv>
+<drv mrk="fini.mal0a">
+  <kap>mal<tld/>a, ne<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Senlime granda a&ubreve; senlime malproksima:
+      <ekz>
+        la aro de la primoj estas ne<tld/>a.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="fin.sen0a">senfina.</ref>
+    <ref tip="sin" cel="fin.ne0ita">nefinita.</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>unendlich</trd>,
+    <trd>infinit</trd>,
+    <trd>unbegrenzt</trd>
+  </trdgrp>
+  <trd lng="en">infinite</trd>
+  <trd lng="fr">infini<klr tip="ind"> (adj., math.)</klr></trd>
+  <trd lng="ru">&#x431;&#x435;&#x441;&#x43a;&#x43e;&#x43d;&#x435;&#x447;&#x43d;&#x44b;&#x439;</trd>
+</drv>
+<adm>
+Mi ne scias, cxu vere indas aludi al "malfiniaj punktoj" aux
+"similaj objektoj" en cxi tiu artikolo. Cetere, en elementa
+matematiko, malfinioj ne estas veraj objektoj, sed nur
+oportunaj dirmanieroj. Por enkonduki fake akcepteblajn difinojn,
+necesus pliaj nocioj, kiuj nun mankas. <aut>MB</aut>
+</adm>
+</art>
 <!--
 $Log$
+Revision 1.3  2001/07/09 18:21:10  revo
+Ulrich Fellmann: + 8 germ trdj
+
 Revision 1.2  2000/05/15 17:01:31  revo
 Sergio Pokrovskij: tajpaj kaj kodaj eraroj.
 
