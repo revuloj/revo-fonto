@@ -1,58 +1,56 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-   <art mrk="$Id$">
-     <kap>
-       <rad>vektor</rad>/o
-     </kap>
-     <drv mrk="vektor.0o">
-       <kap><tld/>o</kap>
-       <snc mrk="vektor.0o.MAT">
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> de
-           <ref tip="malprt" cel="modul.0o.magmo">modulo</ref> a&ubreve;
-           <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>.
-         </dif>
+    <art mrk="$Id$">
+      <kap>
+        <rad>vektor</rad>/o
+      </kap>
+      <drv mrk="vektor.0o">
+        <kap><tld/>o</kap>
+        <snc mrk="vektor.0o.MAT">
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> de
+            <ref tip="malprt" cel="modul.0o.magmo">modulo</ref> a&ubreve;
+            <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>.
+          </dif>
+        </snc>
+        <snc mrk="vektor.0o.FIZ">
+          <uzo tip="fak">FIZ</uzo>
+          <dif>
+            Fizika grando, difinita per sia intenseco kaj direkto;
+            la <tld/>o <sncref ref="vektor.0o.MAT"/> (en la kutima
+            tri- a&ubreve; kvar-dimensia spaco) &gcirc;in reprezentanta:
+            <ekz>rapido-<tld/>o;</ekz> <ekz>ondo-vektoro.</ekz>
+          </dif>
+          <ref tip="ant" cel="skalar.0o.FIZ">skalaro.</ref>
        </snc>
-       <snc mrk="vektor.0o.FIZ">
-         <uzo tip="fak">FIZ</uzo>
+       <snc mrk="vektor.0o.KOMP">
+         <uzo tip="fak">KOMP</uzo>
          <dif>
-           <tld lit="V"/>o <sncref ref="vektor.0o.MAT"/> en la kutima
-           tri- a&ubreve; kvar-dimensia spaco, reprezentanta fizikan
-           grandon, difinitan per sia intenseco kaj direkto:
-           <ekz>rapido-<tld/>o;</ekz> <ekz>ondo-vektoro.</ekz>
+           Unudimensia <ref cel="tabel.0o.KOMP">tabelo</ref>.
          </dif>
-      </snc>
-      <snc mrk="vektor.0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Unudimensia <ref cel="tabel.0o.KOMP">tabelo</ref>.
-        </dif>
-        <ref tip="sub" cel="cxen.0o.KOMP">&ccirc;eno</ref>
-        <rim>
-          Iuj programlingvoj disponigas kaj <tld/>ojn, kaj
-          <ref cel="op.0o.vico">opojn</ref>; tiuj
-          lastaj, tamen, povas enteni diverstipajn anojn.
-        </rim>
-       </snc>
-       <trd lng="en">vector</trd>
-       <trd lng="fr">vecteur</trd>
-       <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
-     </drv>
-   </art>
-
+         <ref tip="sub" cel="cxen.0o.KOMP">&ccirc;eno</ref>
+         <rim>
+           Iuj programlingvoj disponigas kaj <tld/>ojn, kaj
+           <ref cel="op.0o.vico">opojn</ref>; tiuj
+           lastaj, tamen, povas enteni diverstipajn anojn.
+         </rim>
+        </snc>
+        <trd lng="en">vector</trd>
+        <trd lng="fr">vecteur</trd>
+        <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
+      </drv>
+    </art>
 <!--
 $Log$
+Revision 1.4  2000/11/08 17:11:34  revo
+Sergio Pokrovskij: reftip=sub
 Revision 1.3  2000/11/06 17:11:19  revo
 Sergio Pokrovskij: KOMP
-
 Revision 1.2  2000/11/05 17:12:37  revo
 Karlo Freeman: aldono de Angla traduko.
-
 Revision 1.1  2000/11/02 17:11:14  revo
 Marc Bavant: nova artikolo
-
 -->
 </vortaro>
