@@ -39,14 +39,15 @@
     <uzo tip="fak">MAT</uzo>
     <uzo tip="klr">(elementa analitiko)</uzo>
     <dif>
-      Senfina vico <frm>x<sub>1</sub>, x<sub>2</sub>, ...</frm>
-      <tld/>as al <frm>p</frm> se por ajna pozitiva reelo <frm>c</frm>
-      ekzistas tia numero <frm>n</frm>, ke
-      <frm>|p-x<sub>i</sub>| &#60; c</frm> por &ccirc;iu <frm>i&#62;n</frm>.
+      Senfina vico <frm><k>x</k><sub>1</sub>, <k>x</k><sub>2</sub>, ...</frm>
+      <tld/>as al <frm><k>p</k></frm> se por ajna pozitiva reelo
+      <frm><k>c</k></frm> ekzistas tia numero <frm><k>n</k></frm>, ke
+      <frm>|<k>p</k>-<k>x</k><sub><k>i</k></sub>| &#60; <k>c</k></frm> 
+      por &ccirc;iu <frm><k>i</k> &#62; <k>n</k></frm>.
     </dif>
     <rim>
       La nocion oni &gcirc;eneraligas por funkcioj kaj serioj.
-      Tia <frm>p</frm> estas nomata <ref cel="limes.0o">limeso</ref>.
+      Tia <frm><k>p</k></frm> estas nomata <ref cel="limes.0o">limeso</ref>.
     </rim>
   </snc>
   <snc mrk="konver.0i.MAT">
@@ -56,7 +57,7 @@
       <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> a&ubreve;
       <ref cel="filtr.0ilo.MAT">filtrilo</ref> super
       <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
-      Esti <tld/>a <sncref ref="konver.0a.MAT"/>:
+      Esti <ref cel="konver.0a.MAT"><tld/>a <sncref/></ref>:
       <ekz>
         la&ubreve;difine &ccirc;iuj ko&scirc;iaj vicoj <tld/>as
         en <ref cel="komple2.0a.spaco">kompleta</ref> spaco.
@@ -92,7 +93,8 @@
     <subsnc mrk="konver.0a.vico">
       <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
       <dif>
-        <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> (x<sub>n</sub>) en
+        <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> 
+        <frm>(<k>x</k><sub><k>n</k></sub>)</frm> en
         <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
         Tia, ke &ccirc;iuj &gcirc;iaj termoj (krom finia nombro da ili) apartenas
         al <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
@@ -105,9 +107,9 @@
         </ekz>
         <ekz>
           en <ref cel="spac.metrika0o">metrika spaco</ref>, la
-          distanco inter termo x<sub>n</sub> de <tld/>a vico kaj
-          &gcirc;ia limeso estas arbitre malgranda, se n estas sufi&ccirc;e
-          granda;
+          distanco inter termo <frm><k>x</k><sub><k>n</k></sub></frm> 
+          de <tld/>a vico kaj &gcirc;ia limeso estas arbitre malgranda,
+          se <frm><k>n</k></frm> estas sufi&ccirc;e granda;
         </ekz>
         <ekz>
           se vico akceptas <ref cel="adher.0a.vico">adheran</ref> punkton,
@@ -222,11 +224,11 @@
     <dif>
       <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico</ref>
       de <ref cel="variab.hazarda0o">hazardaj variabloj</ref>,
-      al limeso X)</klr>
+      al limeso <frm>X</frm>)</klr>
       Tia, ke la vico de iliaj
       <ref cel="distri.probablo0o">probablodistribuoj</ref> estas
       <ref cel="konver.simple0a">simple konver&gcirc;a</ref> al la
-      probablodistribuo de X:
+      probablodistribuo de <frm>X</frm>:
       <ekz>
         <tld/>o en probablo implicas <tld/>o en distribuo, sed ne inverse.
       </ekz>
@@ -246,11 +248,15 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
-      (f<sub>n</sub>) de <ref cel="spac.mezurhava0o">mezurhava spaco</ref>
-      al <ref cel="spac.metrika0o">metrika spaco</ref>, al limeso f)</klr>
-      Tia, ke por ajna reelo &epsilon; la mezuro de la aro de tiaj x, ke la
-      distanco de f<sub>n</sub>(x) al f(x) superas &epsilon;, strebas al nulo,
-      kiam n strebas al nefinio.
+      <frm>(<k>f</k><sub><k>n</k></sub>)</frm> de 
+      <ref cel="spac.mezurhava0o">mezurhava spaco</ref>
+      al <ref cel="spac.metrika0o">metrika spaco</ref>, 
+      al limeso <frm><k>f</k></frm>)</klr>
+      Tia, ke por ajna reelo <frm>&epsilon;</frm> la mezuro de la aro de tiaj 
+      <frm><k>x</k></frm>, ke la distanco de 
+      <frm><k>f</k><sub><k>n</k></sub>(<k>x</k>)</frm> 
+      al <frm><k>f</k>(<k>x</k>)</frm> superas <frm>&epsilon;</frm>, 
+      strebas al nulo, kiam <frm><k>n</k></frm> strebas al nefinio.
     </dif>
   </snc>
   <trd lng="de"><klr tip="amb">(Funktionfolge) </klr>konvergente dem Ma&szlig;e nach</trd>
@@ -268,9 +274,9 @@
     <dif>
       <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico</ref>
       de <ref cel="variab.hazarda0o">hazardaj variabloj</ref>,
-      al limeso X)</klr>
+      al limeso <frm>X</frm>)</klr>
       <ref tip="sin" cel="konver.0a.en_mezuro"><tld lit="K"/>a en
-      mezuro</ref> al X rilate al la
+      mezuro</ref> al <frm>X</frm> rilate al la
       <ref cel="probab.0o.mezuro">probablo</ref>.
     </dif>
   </snc>
@@ -333,9 +339,10 @@
     <dif>
       <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico</ref>
       de <ref cel="variab.hazarda0o">hazardaj variabloj</ref>
-      (X<sub>n</sub>), al limeso X)</klr>
-      Tia, ke la probablo de la aro de &ccirc;iuj &omega;, por kiuj la vico
-      X<sub>n</sub>(&omega;) ne <tld/>as al X(&omega;), estas nula:
+      <frm>(X<sub><k>n</k></sub>)</frm>, al limeso <frm>X</frm>)</klr>
+      Tia, ke la probablo de la aro de &ccirc;iuj <frm>&omega;</frm>, 
+      por kiuj la vico <frm>(X<sub><k>n</k></sub>(&omega;))</frm> 
+      ne <tld/>as al <frm>X(&omega;)</frm>, estas nula:
       <ekz>
         <tld/>o preska&ubreve; certa implicas <tld/>o en probablo.
       </ekz>
@@ -367,9 +374,11 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
-      (f<sub>n</sub>))</klr>
-      Tia, ke por ajna x la vico (f<sub>n</sub>(x))
-      <ref cel="konver.0i.MAT"><tld/>as</ref> al iu limeso f(x):
+      <frm>(<k>f</k><sub><k>n</k></sub>)</frm>)</klr>
+      Tia, ke por ajna <frm><k>x</k></frm> la vico 
+      <frm>(<k>f</k><sub><k>n</k></sub>(<k>x</k>))</frm> 
+      <ref cel="konver.0i.MAT"><tld/>as</ref> al iu limeso
+      <frm><k>f</k>(<k>x</k>)</frm>:
       <ekz>
         simple <tld/>i <klr>(esti simple <tld/>a)</klr>.
       </ekz>
@@ -399,9 +408,12 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
-      (f<sub>n</sub>) al <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
-      Tia, ke por iu funkcio f <klr>(&gcirc;ia limeso)</klr> veras, ke
-      la supremo de la distancoj inter f<sub>n</sub>(x) kaj f(x)
+      <frm>(<k>f</k><sub><k>n</k></sub>)</frm> al 
+      <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
+      Tia, ke por iu funkcio <frm><k>f</k></frm> <klr>(&gcirc;ia limeso)</klr>
+      veras, ke la supremo de la distancoj inter 
+      <frm><k>f</k><sub><k>n</k></sub>(<k>x</k>)</frm> 
+      kaj <frm><k>f</k>(<k>x</k>)</frm> 
       <ref cel="konver.0i.MAT"><tld/>as</ref> al nulo:
       <ekz>
         &ccirc;iu unuforme <tld/>a vico estas anka&ubreve; simple <tld/>a,
@@ -430,6 +442,8 @@
 </art>
 <!--
 $Log$
+Revision 1.21  2002/10/13 16:31:56  revo
+Marc Bavant: x-e ~a: kor trd ru
 Revision 1.20  2002/09/29 17:50:21  revo
 Marc Bavant: +drv ~a en mezuro, en probablo, en distribuo, preskaux certe; snc MAT: +trd pl
 Revision 1.19 2002/09/22 16:33:23 revo
@@ -447,7 +461,5 @@ Marc Bavant: mal~i: +uzo MAT
 Revision 1.13 2002/05/02 16:35:12 revo
 Marc Bavant: ~a: mod dif (certa)
 Revision 1.12 2002/03/01 17:33:12 revo
-Marc Bavant: mal~a: kor mrk
-Revision 1.11 2002/02/23 19:58:18 revo
 -->
 </vortaro>
