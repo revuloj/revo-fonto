@@ -129,6 +129,7 @@
       hierar&hcirc;ion a&ubreve; &gcirc;ia pozicio en tia klasifiko:
     </dif>
     <snc mrk="ord.0o.derivajxo">
+      <fnt><bib>PIV1</bib></fnt>
       <dif>
         <klr>(p.p. <ref cel="deriv.0ajxo.MAT">deriva&jcirc;o</ref>)</klr>:
         <ekz>
@@ -145,6 +146,8 @@
         Tia plej malgranda nenula pozitiva entjero n, ke a<sup>n</sup>
         egalas al la unuo.
       </dif>
+      <trd lng="de">Ordnung</trd>
+      <trd lng="en">order<klr tip="ind"> (of an element of a group)</klr></trd>
       <trd lng="fr">ordre<klr tip="ind"> (d'un &eacute;l&eacute;ment d'un groupe)</klr></trd>
       <trd lng="ru">&c_p;&c_o;&c_r;&c_ja;&c_d;&c_o;&c_k;<klr tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;&c_a; &c_g;&c_r;&c_u;&c_p;&c_p;&c_y;)</klr></trd>
     </snc>
@@ -178,6 +181,12 @@
         anstata&ubreve; paroli pri &gcirc;ia <ctl>ordo</ctl>.
       </rim>
     </snc>
+    <adm>
+    "~o de radiko" estas versxajne forigenda favore al "obleco".
+    Mi ne trovis apogon por "~o de elemento en grupo", "~o de grupo",
+    sed MatVort konas: ~o de kurbo/surfaco, ~o de cifero (en pozicia
+    frakcio), ~o de subdeterminanto, ~o de kontakto. <aut>MB</aut>
+    </adm>
   </subdrv>
   <trd lng="en">order</trd>
   <trd lng="es">orden</trd>
@@ -334,6 +343,39 @@
   <trd lng="fr">d&eacute;sordre</trd>
   <trd lng="nl">wanorde</trd>
 </drv>
+<drv mrk="ord.mal0ajxo">
+  <kap>mal<tld/>a&jcirc;o</kap>
+  <snc mrk="ord.mal0ajxo.KOMUNE">
+    <dif>
+      Io kontra&ubreve;a al la ordo.
+    </dif>
+  </snc>
+  <snc mrk="ord.mal0ajxo.permuto">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(de <ref cel="permut.0o">permuto</ref> &sigma; super
+      <ref cel="ord.0a.aro"><tld/>a</ref> aro)</klr>
+      &Ccirc;iu tia duopo (i,j), ke i&lt;j, kaj &sigma;(i)&gt;&sigma;(j):
+      <ekz>
+        la permuto abc&#x2192;bca enhavas unu mal<tld/>a&jcirc;on, nome (b,c).
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Inversion</trd>,
+      <trd>Derangement</trd></trdgrp> 
+    <trd lng="en">inversion<klr tip="ind"> (in a permutation)</klr></trd>
+    <trdgrp lng="fr">
+      <trd>inversion<klr tip="ind"> (dans une permutation)</klr></trd>,
+      <trd>d&eacute;rangement<klr tip="ind"> (dans une permutation)</klr></trd></trdgrp> 
+    <trd lng="ru">&c_b;&c_je;&c_s;&c_p;&c_o;&c_r;&c_ja;&c_d;&c_o;&c_k;</trd>
+    <adm>
+    Mi ne trovis fonton por tiu cxi termino. MatVort konas
+    "inversio", sed mi supozas, ke temas pri io alia.
+    <aut>MB</aut>
+    </adm>
+  </snc>
+</drv>
+
 <drv mrk="ord.re0igi">
   <kap>re<tld/>igi</kap>
   <snc>
@@ -468,6 +510,7 @@
   </snc>
   <snc mrk="ord.bon0a.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
     <dif>
       <klr>(p.p. <ref cel="ord.0a.aro"><tld/>a aro</ref>)</klr>
       Tia, ke &gcirc;ia <ref cel="ord.0o.rilato"><tld/>o</ref> estas
@@ -515,6 +558,9 @@
 </art>
 <!--
 $Log$
+Revision 1.20  2001/07/12 18:13:01  revo
+Marc Bavant: etaj kor cxe snc MAT, +uzo ARKI, +klr en trd fr/ru
+
 Revision 1.19  2001/05/02 16:12:29  revo
 Wolfram Diestel: rim che ordo BIO
 
@@ -531,8 +577,5 @@ Revision 1.15  2001/02/16 17:12:21  revo
 Marc Bavant: kor ekz cxe bon~a, +trd en,de,ru cxe bona ~o
 
 Revision 1.14  2001/02/10 20:07:21  revo
-Marc Bavant: +drv bon~a, bona ~o, kun ekz
-
-Revision 1.13  2001/02/04 17:17:28  revo
 -->
 </vortaro>
