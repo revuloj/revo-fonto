@@ -53,10 +53,10 @@
     <fnt><bib>EKV</bib><lok>&para;380</lok></fnt>
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra strukturo</ref>
-      <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>,
+      <frm>(<g>E</g>,&#8224;,&#215;)</frm>,
       ke <frm>(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm>&#xd7;</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm>&#215;</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al <frm>&#8224;</frm>:
       <ekz>
@@ -127,6 +127,10 @@
     <trd>kruh</trd>,
     <trd>obru&ccaron;</trd>
   </trdgrp>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_o;&c_l;&c_a;</trd>,
+    <trd>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;</trd>
+  </trdgrp>
   <trd lng="de">Ring</trd>
   <trd lng="en">ring</trd>
   <trd lng="fr">anneau</trd>
@@ -139,15 +143,15 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <tld/>o <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>)</klr>
+      <klr>(de <tld/>o <frm>(<g>E</g>,&#8224;,&#215;)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm>(<g>A</g>,&#8224;<sub>A</sub>,&#xd7;<sub>A</sub>)</frm>, ke
-      <frm><g>A</g>&#x2282;<g>E</g></frm>,
+      <frm>(<g>A</g>,&#8224;<sub>A</sub>,&#215;<sub>A</sub>)</frm>, ke
+      <frm><g>A</g>&#8834;<g>E</g></frm>,
       <frm>(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
       <ref cel="grup.sub0o">subgrupo</ref> de <frm>(<g>E</g>,&#8224;)</frm>
-      kaj <frm><k>x</k>&#xd7;<sub>A</sub><k>y</k> = 
-      <k>x</k>&#xd7;<k>y</k>&#x2208;A</frm> por &ccirc;iuj
-      <frm><k>x</k>, <k>y</k>&#x2208;A</frm>:
+      kaj <frm><k>x</k>&#215;<sub>A</sub><k>y</k> = 
+      <k>x</k>&#215;<k>y</k>&#8712;A</frm> por &ccirc;iuj
+      <frm><k>x</k>, <k>y</k>&#8712;A</frm>:
       <ekz>
         la aro konsistanta nur el la nulo kaj unuo
         de unuhava <tld/>o estas sub<tld/>o de &gcirc;i.
@@ -189,14 +193,14 @@
       <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref> <frm><g>R</g></frm>,
       konsiderata kune kun tia bildigo <frm>&phi;</frm>, ke al &ccirc;iu
       nenula elemento <frm><k>a</k></frm> &gcirc;i asocias entjeron
-      <frm>&phi;(<k>a</k>) &#x2265; 0</frm>, kaj ke
-      <frm>&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>,
+      <frm>&phi;(<k>a</k>) &#8805; 0</frm>, kaj ke
+      <frm>&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>,
       se <frm><k>a</k></frm> estas divizoro de <frm><k>b</k></frm>, kun la
       aldona kondi&ccirc;o, ke por &ccirc;iu paro
       <frm>(<k>a</k>,<k>b</k>)</frm> kun nenula <frm><k>b</k></frm> ekzistas
       almena&ubreve; unu tia paro <frm>(<k>q</k>,<k>r</k>)</frm>, ke
-      <frm><k>a</k> = <k>b</k>&#xd7;<k>q</k>+<k>r</k></frm> kaj
-      <frm>&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>:
+      <frm><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
+      <frm>&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
         <klr>(<frm>&phi;(<k>a</k>) = |<k>a</k>|</frm>)</klr>;
@@ -235,8 +239,8 @@
       de &gcirc;i)</klr>
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
       de <frm><g>R</g></frm> rilate al <frm><g>I</g></frm>, provizita per la 
-      multipliko <frm>(<k>a</k>+<g>I</g>)&#xd7;(<k>b</k>+<g>I</g>) =
-      (<k>a</k>&#xd7;<k>b</k>)+<g>I</g></frm>; 
+      multipliko <frm>(<k>a</k>+<g>I</g>)&#215;(<k>b</k>+<g>I</g>) =
+      (<k>a</k>&#215;<k>b</k>)+<g>I</g></frm>; 
       simb. <frm><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
@@ -281,6 +285,9 @@
 </art>
 <!--
 $Log$
+Revision 1.38  2003/04/21 16:34:57  revo
+Marc Bavant: +tld
+
 Revision 1.37  2003/04/11 16:32:59  revo
 Marc Bavant: ~o MAT: kor ekz
 Revision 1.36  2003/04/07 16:36:37  revo
@@ -297,8 +304,5 @@ Revision 1.31 2002/10/21 16:34:09 revo
 Marc Bavant: mod signon por operacio T; ~o MAT: mod dif
 Revision 1.30 2002/06/25 19:38:05 revo
 Marc Bavant: ~o MAT: +ref al nulpotenca
-Revision 1.29 2002/06/02 17:33:41 revo
-Marc Bavant: polinom~o: +ekz
-Revision 1.28 2002/05/27 17:19:52 revo
 -->
 </vortaro>
