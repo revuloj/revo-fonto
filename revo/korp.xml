@@ -49,7 +49,7 @@
       </ekz>
       <ekz>
         ili vivas per unu animo en du <tld/>oj
-	<fnt><bib>PrV</bib></fnt>;
+        <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
         li &ccirc;eestis per propra <tld/>o.
@@ -102,6 +102,7 @@
     </rim>
     <trd lng="de">K&ouml;rper</trd>
     <trd lng="en">field</trd>
+    <trd lng="pl">cia&lstroke;o</trd>
     <trd lng="hu">sz&aacute;mtest</trd>
   </snc>
   <snc mrk="korp.0o.solido">
@@ -109,10 +110,24 @@
     <uzo tip="stl">ARK</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 25</lok></fnt>
     <ref tip="dif" cel="solid.0o.geometrio">solido.</ref>
-    <trd lng="de">geometrischer <ind>K&ouml;rper</ind></trd>
-    <trd lng="en">geometric <ind>body</ind></trd>
-    <trd lng="fr">corps g&eacute;om&eacute;trique</trd>
-    <trd lng="ru">&c_g;&c_je;&c_o;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; <ind>&c_t;&c_je;&c_l;&c_o;</ind></trd>
+    <trdgrp lng="de">
+      <trd>K&ouml;rper</trd>,
+      <trd>geometrischer <ind>K&ouml;rper</ind></trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>geometric <ind>body</ind></trd>,
+      <trd>solid</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>solide<klr tip="ind"> (figure g&eacute;om&eacute;trique)</klr></trd>,
+      <trd>volume<klr tip="ind"> (figure g&eacute;om&eacute;trique)</klr></trd>,
+      <trd>corps g&eacute;om&eacute;trique</trd>
+    </trdgrp>
+    <trd lng="pl">bry&lstroke;a</trd>
+    <trdgrp lng="ru">
+      <trd>&c_t;&c_je;&c_l;&c_o;</trd>,
+      <trd>&c_g;&c_je;&c_o;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; <ind>&c_t;&c_je;&c_l;&c_o;</ind></trd>
+    </trdgrp>
   </snc>
   <trd lng="fr">corps</trd>
   <trd lng="hu">test</trd>
@@ -197,14 +212,17 @@
     <dif>
       <klr>(de <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
       <em>K</em>)</klr>
-      &Ccirc;iu unuhava <ref tip="super" cel="ring.sub0o">subringo</ref> 
+      &Ccirc;iu unuhava <ref tip="super" cel="ring.sub0o">subringo</ref>
       de &gcirc;i, kiu subringo estas anka&ubreve; <tld/>o.
     </dif>
   </snc>
-  <adm>Fonto trovenda, sed la formo estas tute regula. <aut>MB</aut></adm>
+  <adm>
+    Fonto trovenda, sed la formo estas tute regula. <aut>MB</aut>
+  </adm>
   <trd lng="de">Unterk&ouml;rper</trd>
   <trd lng="en">subfield</trd>
   <trd lng="fr">sous-corps</trd>
+  <trd lng="pl">podcia&lstroke;o</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_p;&c_o;&c_l;&c_je;</trd>
 </drv>
 
@@ -215,8 +233,18 @@
     <dif>
       <klr>(de <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
       <em>K</em>)</klr>
-      Tia <tld/>o, ke <em>K</em> estas sub<tld/>o de &gcirc;i.
+      Tia <tld/>o, ke <em>K</em> estas <ref cel="korp.sub0o">sub<tld/>o</ref>
+      de &gcirc;i.
     </dif>
+    <rim>
+      La naciaj lingvoj konas por &ccirc;i tiu nocio sinonimon signifantan
+      <ctl>vastiga&jcirc;o</ctl>. Efektive, la super<tld/>o ofte rezultas
+      el konscia klopodo konstrui ion pli vastan ol la baza korpo. Tial
+      trovi&gcirc;as en <fnt><bib>EKV</bib><lok>&para;234</lok></fnt> la
+      termino <ctl><tld/>opluiga&jcirc;o</ctl> (cetere kun iom pli abstrakta
+      difino, nome: paro de korpoj). La tempa nuanco entenata en
+      <ctl>pluigi</ctl> igas tamen la terminon iom mistrafa.
+    </rim>
   </snc>
   <adm>
     Fonto trovenda, sed la formo estas tute regula. Notu, ke EKV
@@ -226,14 +254,24 @@
   </adm>
   <trdgrp lng="de">
     <trd>Oberk&ouml;rper</trd>,
-    <trd>K&ouml;rpererweiterung</trd></trdgrp> 
+    <trd>K&ouml;rpererweiterung</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>overfield</trd>,
-    <trd>extension field</trd></trdgrp> 
+    <trd>extension field</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>sur-corps</trd>,
-    <trd>extension d'un corps</trd></trdgrp> 
-  <trd lng="ru">&c_n;&c_a;&c_d;&c_p;&c_o;&c_l;&c_je;</trd>
+    <trd>extension d'un corps</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>nadcia&lstroke;o</trd>,
+    <trd>rozszerzenie<klr tip="ind"> (cia&lstroke;a)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_a;&c_d;&c_p;&c_o;&c_l;&c_je;</trd>,
+    <trd>&c_r;&c_a;&c_s;&c_sh;&c_i;&c_r;&c_je;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_p;&c_o;&c_d;&c_p;&c_o;&c_l;&c_ja;)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="korp.galeza0o">
@@ -250,10 +288,63 @@
       <ref cel="galez.0o">Galezo</ref>.
     </refgrp>
   </snc>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
   <trd lng="de">Galoisfeld</trd>
   <trd lng="en">Galois['s] <ind>field</ind></trd>
   <trd lng="fr">corps de Galois</trd>
+  <trd lng="pl">cia&lstroke;o sko&nacute;czone</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_je; &c_G;&c_a;&c_l;&c_u;&c_a;</trd>
+</drv>
+
+<drv mrk="korp.galezasuper0o">
+  <kap>galeza super<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
+      <em>K</em>)</klr>
+      Tia <ref tip="super" cel="korp.super0o.MAT">super<tld/>o</ref>
+      <em>K'</em> de <em>K</em>, ke &gcirc;i havas finian
+      <ref cel="grad.0o.superkorpo">gradon</ref> kaj ke la
+      <ref cel="korp.invarianto0o">invariantokorpo</ref> de la
+      <ref cel="grup.galeza0o.de_superkorpo">galeza grupo</ref>
+      Gal(<em>K'</em>/<em>K</em>) egalas al <em>K</em>.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="galez.0o">Galezo</ref>.
+    </refgrp>
+  </snc>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
+  <trd lng="de">galoissche <ind>Erweiterung</ind></trd>
+  <trd lng="en">Galois['s] <ind>extension</ind></trd>
+  <trd lng="fr">extension galoisienne</trd>
+  <trd lng="pl">rozszerzenie Galois</trd>
+  <trd lng="ru">&c_r;&c_a;&c_s;&c_sh;&c_i;&c_r;&c_je;&c_n;&c_i;&c_je; &c_G;&c_a;&c_l;&c_u;&c_a;</trd>
+</drv>
+
+<drv mrk="korp.invarianto0o">
+  <kap>invarianto<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de grupo de <ref cel="auxtom2.0o">a&ubreve;tomorfioj</ref> super
+      <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref> <em>K</em>)</klr>
+      La sub<tld/>o de <em>K</em>, enhavanta la
+      <ref cel="invari.0o">invariantojn</ref> komunaj al &ccirc;iuj
+      a&ubreve;tomorfioj.
+    </dif>
+  </snc>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
+  <trd lng="de">Invariantenk&ouml;rper</trd>
+  <trd lng="en">fixed <ind>field</ind></trd>
+  <trd lng="fr">corps des invariants</trd>
+  <trd lng="ru">&c_p;&c_o;&c_l;&c_je; &c_i;&c_n;&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;&c_o;&c_v;</trd>
 </drv>
 
 <drv mrk="korp.radika0o">
@@ -261,9 +352,9 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <ref cel="polino.0o">polinomo</ref> <em>P</em> super 
+      <klr>(de <ref cel="polino.0o">polinomo</ref> <em>P</em> super
       <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref> <em>K</em>)</klr>
-      La plej malgranda super<tld/>o de <em>K</em> enhavanta &ccirc;iujn
+      La plej malgranda super<tld/>o de <em>K</em>, enhavanta &ccirc;iujn
       <ref cel="radik.0o.polinomo">radikojn</ref> de <em>P</em>:
       <ekz>
         la radika <tld/>o de la reela polinomo <em>X</em><sup>2</sup>+<em>1</em>
@@ -271,25 +362,26 @@
       </ekz>
     </dif>
   </snc>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
   <trd lng="de">W&uuml;rzelk&ouml;rper<klr tip="ind"> (eines Polynoms)</klr></trd>
   <trd lng="en">root <ind>field</ind><klr tip="ind"> (of a polynomial)</klr></trd>
   <trd lng="fr">corps des racines<klr tip="ind"> (d'un polyn&ocirc;me)</klr></trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_je; &c_r;&c_a;&c_z;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;<klr tip="ind"> (&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_a;)</klr></trd>
 </drv>
-
 </art>
 <!--
 $Log$
-Revision 1.19  2002/05/27 17:18:35  revo
+Revision 1.20 2002/08/05 17:31:53 revo
+Jozefo Horvath: +trd hu
+Revision 1.19 2002/05/27 17:18:35 revo
 Marc Bavant: ~o MAT: mod fnt; super~o: -adm, mod kap
-
-Revision 1.18  2002/03/17 17:31:15  revo
+Revision 1.18 2002/03/17 17:31:15 revo
 Marc Bavant: kor ref al subringo
-
-Revision 1.17  2002/03/11 17:32:37  revo
+Revision 1.17 2002/03/11 17:32:37 revo
 Marc Bavant: ~o (geom.): mod fnt, +trd
-
-Revision 1.16  2002/01/13 17:31:16  revo
+Revision 1.16 2002/01/13 17:31:16 revo
 Marc Bavant: ~o MAT: +fnt; +drv super~o, galeza ~o, radika ~o; sub~o: mod mrk, mod dif
 Revision 1.15 2002/01/11 19:09:38 revo
 fontindiko PrV per programo de Jerome
@@ -301,4 +393,3 @@ Revision 1.12 2001/11/02 19:12:45 revo
 Yury Finkel: +trd ru
 -->
 </vortaro>
-
