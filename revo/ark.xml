@@ -4,62 +4,74 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>*</ofc>
-<rad>ark</rad>/o
+  <ofc>*</ofc>
+  <rad>ark</rad>/o
 </kap>
 <drv mrk="ark.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="ark.0o.segmento">
+  <snc mrk="ark.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <ref cel="segmen.0o.linio">Segmento</ref> de 
-      <ref cel="kurb.0o.MAT">kurbo</ref>, precipe de
-      <ref cel="cirkl.0o.linio">cirklo</ref>:
-      <ekz>
-        <tld/>o estas &ccirc;iam pli longa ol 
-        <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref> kun samaj ekstremoj;
-      </ekz>
-      <ekz>
-        <ref cel="ort.0o">orto</ref>
-        <ref cel="trancx.de0i.MAT">detran&ccirc;as</ref> sur cirklo kun 
-        <ref cel="centr.0o.cirklo">centro</ref> en &gcirc;ia 
-        <ref cel="vertic.0o.angulo">vertico</ref>
-        <tld/>on egalan al kvarono de la tuta 
-        <ref cel="cirkon.0o">cirkonferenco</ref>.
-      </ekz>
-    </dif>
-    <rim>
-      Oni ne konfuzu la <tld/>on, segmento de cirkla linio, kaj 
-      la <ref cel="segmen.0o.cirklo">segmenton</ref> de 
-      <ref cel="cirkl.0o.surfaco">cirkla surfaco</ref>.
-    </rim>
-    <trdgrp lng="de">
-      <trd>Bogen<klr tip="ind"> (einer Kurve)</klr></trd>,
-      <trd>Kreisbogen</trd>,
-      <trd>Bogenlinie</trd>,
-      <trd>Kr&uuml;mmung</trd>
-    </trdgrp>
-    <trd lng="en">arc<klr tip="ind"> (of a curve)</klr></trd>
-    <trd lng="fr">arc<klr tip="ind"> (de courbe)</klr></trd>
-    <trd lng="nl">boog</trd>
-    <trd lng="ru">&c_d;&c_u;&c_g;&c_a;<klr tip="ind"> (&c_k;&c_r;&c_i;&c_v;&c_o;&c_j;)</klr></trd>
-  </snc>
-  <snc mrk="ark.0o.angulo">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="stl">EVI</uzo>
-    <dif>
-      <ref cel="ark.0o.segmento">Arko <sncref ref="ark.0o.segmento"/></ref>, 
-      <ref cel="trancx.de0i.MAT">detran&ccirc;ita</ref> sur cirklo fare de 
-      <ref cel="angul.centra0o">centra angulo</ref> kaj konvencie identigita 
-      kun &gcirc;i.
-    </dif>
-    <rim>
-      Tiu uzo restas nur en la nerigoraj kunmeta&jcirc;oj de la tipo
-      <ctl>arksinuso x</ctl>, kiuj estas interpretendaj kiel <ctl>la arko
-      (angulo), kies sinuso egalas al x</ctl>. &Ccirc;i-sence PIV registris
-      novan radikon arkus, kio ne aspektas tre utila por tiom mar&gcirc;ena
-      uzo.
-    </rim>
+    <subsnc mrk="ark.0o.segmento">
+      <fnt><bib>MatTerm</bib><lok>p. 28</lok></fnt>
+      <dif>
+        <ref cel="segmen.0o.linio">Segmento</ref> de
+        <ref cel="kurb.0o.MAT">kurbo</ref>, precipe de
+        <ref cel="cirkl.0o.linio">cirklo</ref>:
+        <ekz>
+          <tld/>o estas &ccirc;iam pli longa ol
+          <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref> kun samaj ekstremoj;
+        </ekz>
+        <ekz>
+          <ref cel="ort.0o">orto</ref>
+          <ref cel="trancx.de0i.MAT">detran&ccirc;as</ref> sur cirklo kun
+          <ref cel="centr.0o.cirklo">centro</ref> en &gcirc;ia
+          <ref cel="vertic.0o.angulo">vertico</ref>
+          <tld/>on egalan al kvarono de la tuta
+          <ref cel="cirkon.0o">cirkonferenco</ref>.
+        </ekz>
+      </dif>
+      <rim>
+        Oni ne konfuzu la <tld/>on, segmento de cirkla linio, kaj
+        la <ref cel="segmen.0o.cirklo">segmenton</ref> de
+        <ref cel="cirkl.0o.surfaco">cirkla surfaco</ref>.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Bogen<klr tip="ind"> (einer Kurve)</klr></trd>,
+        <trd>Kreisbogen</trd>,
+        <trd>Bogenlinie</trd>,
+        <trd>Kr&uuml;mmung</trd>
+      </trdgrp>
+      <trd lng="en">arc<klr tip="ind"> (of a curve)</klr></trd>
+      <trd lng="fr">arc<klr tip="ind"> (de courbe)</klr></trd>
+      <trd lng="nl">boog</trd>
+      <trd lng="ru">&c_d;&c_u;&c_g;&c_a;<klr tip="ind"> (&c_k;&c_r;&c_i;&c_v;&c_o;&c_j;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="ark.0o.angulo">
+      <uzo tip="stl">EVI</uzo>
+      <dif>
+        <ref cel="ark.0o.segmento">Arko <sncref ref="ark.0o.segmento"/></ref>,
+        <ref cel="trancx.de0i.MAT">detran&ccirc;ita</ref> sur cirklo fare de
+        <ref cel="angul.centra0o">centra angulo</ref> kaj konvencie identigita
+        kun &gcirc;i.
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="sinus.ark0o">arksinuso</ref>,
+        <ref cel="kosinu.ark0o">arkkosinuso</ref>,
+        <ref cel="tangen.ark0o">arktangento</ref>,
+        <ref cel="kotang.ark0o">arkkotangento</ref>,
+        <ref cel="sekant.ark0o">arksekanto</ref>,
+        <ref cel="koseka.ark0o">arkkosekanto</ref>.
+      </refgrp>
+      <rim>
+        Tiu senco aperas nur en neregulaj kunmeta&jcirc;oj de la tipo
+        <ctl>arksinuso x</ctl>, kiuj estas interpretendaj kiel <ctl>la arko
+        (angulo), kies sinuso egalas al x</ctl>. &Ccirc;i-sence
+        <fnt><bib>PIV1</bib></fnt> registris novan radikon <ctl>arkus</ctl>, 
+        kio ne aspektas tre utila por tiom mar&gcirc;ena uzo kaj neniel solvas
+        la &ccirc;efan problemon, t.e. la neregulecon de la kunmeta&jcirc;oj
+        uzantaj tiun nocion.
+      </rim>
+    </subsnc>
   </snc>
   <snc>
     <dif>
@@ -87,8 +99,8 @@
       Luma <tld/>o formi&gcirc;anta inter du apartigitaj karbaj polusoj:
       <ekz>
         <ind><tld/>lampo</ind>, <tld/>lumo.
-          <trd lng="en">arc lamp</trd>
-          <trd lng="fr">lampe &agrave; arc</trd>
+        <trd lng="en">arc lamp</trd>
+        <trd lng="fr">lampe &agrave; arc</trd>
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -102,6 +114,7 @@
   <trd lng="nl">boog</trd>
   <trd lng="ru">&#1076;&#1091;&#1075;&#1072;</trd>
 </drv>
+
 <drv mrk="ark.0ajxo">
   <kap><ofc>*</ofc><tld/>a&jcirc;o</kap>
   <uzo tip="fak">ARKI</uzo>
@@ -130,6 +143,7 @@
     <trd lng="ru">&#1072;&#1088;&#1082;&#1072;</trd>
   </snc>
 </drv>
+
 <drv mrk="ark.0ajxaro">
   <kap><tld/>a&jcirc;aro</kap>
   <uzo tip="fak">ARKI</uzo>
@@ -141,8 +155,9 @@
     </trdgrp>
     <trd lng="en">arcade</trd>
   </snc>
-<trd lng="nl">arcade</trd>
+  <trd lng="nl">arcade</trd>
 </drv>
+
 <drv mrk="ark.0igi">
   <kap><tld/>igi</kap>
   <snc>
@@ -169,13 +184,14 @@
     <trd>camber</trd>,
     <trd>curve</trd>,
     <trd>hump</trd>
-</trdgrp>
+  </trdgrp>
   <trd lng="fr">arquer</trd>
-<trdgrp lng="nl">
-   <trd>krommen</trd>,
-   <trd>buigen</trd>
-       </trdgrp>
+  <trdgrp lng="nl">
+    <trd>krommen</trd>,
+    <trd>buigen</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="ark.apog0o">
   <kap>apog<tld/>o</kap>
   <uzo tip="fak">ARKI</uzo>
@@ -192,12 +208,13 @@
   <trd lng="fr">arc-boutant</trd>
   <trd lng="nl">steunbeer</trd>
 </drv>
+
 <drv mrk="ark.cxiel0opluv0o">
   <kap>&ccirc;iel<tld/>o, pluv<tld/>o</kap>
   <uzo tip="fak">MET</uzo>
   <snc>
     <dif>
-      Sepkolora <tld/>o sur la &ccirc;ielo  post pluvo.
+      Sepkolora <tld/>o sur la &ccirc;ielo post pluvo.
     </dif>
   </snc>
   <trd lng="de">Regenbogen</trd>
@@ -206,6 +223,7 @@
   <trd lng="nl">regenboog</trd>
   <trd lng="ru">&#1088;&#1072;&#1076;&#1091;&#1075;&#1072;</trd>
 </drv>
+
 <drv mrk="ark.paf0o">
   <kap>paf<tld/>o</kap>
   <snc>
@@ -215,7 +233,7 @@
       <ekz>
         prenu do nun viajn armilojn, vian sagujon kaj vian paf<tld/>on,
         kaj iru sur la kampon kaj &ccirc;asu por mi &ccirc;asa&jcirc;on
-        <fnt><bib>M</bib>, <lok>&Gen; 27:3</lok></fnt>;
+        <fnt><bib>MT</bib>, <lok>&Gen; 27:3</lok></fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -233,6 +251,7 @@
   <trd lng="ru">&#1083;&#1091;&#1082;
   <klr>(&#1086;&#1088;&#1091;&#1078;&#1080;&#1077;)</klr></trd>
 </drv>
+
 <drv mrk="ark.pint0o">
   <kap>pint<tld/>o</kap>
   <uzo tip="fak">ARKI</uzo>
@@ -251,24 +270,20 @@
 </art>
 <!--
 $Log$
-Revision 1.14  2002/01/08 19:24:58  revo
+Revision 1.15 2002/02/14 17:35:51 revo
+Bart Demeyere: +<ofc>*
+Revision 1.14 2002/01/08 19:24:58 revo
 Karlo Freeman: +trd=en
-
-Revision 1.13  2001/10/17 18:13:09  revo
+Revision 1.13 2001/10/17 18:13:09 revo
 Paul Peeraerts: ald trd nl
-
-Revision 1.12  2001/09/10 18:13:55  revo
+Revision 1.12 2001/09/10 18:13:55 revo
 Marc Bavant: kor "principe" al "precipe"
-
-Revision 1.11  2001/06/23 18:12:38  revo
+Revision 1.11 2001/06/23 18:12:38 revo
 Marc Bavant: +snc MAT cxe ~o
-
-Revision 1.10  2001/06/17 18:13:40  revo
+Revision 1.10 2001/06/17 18:13:40 revo
 Marc Bavant: kor FIG en ekz cxe paf~o, kor dividon de ekz-oj cxe ~o 2; reverkis snc MAT de ~o 1 kaj adaptis ~o 2
-
-Revision 1.9  2001/03/11 18:56:51  revo
+Revision 1.9 2001/03/11 18:56:51 revo
 Ulrich Fellmann: + 17 germ trdj
-
-Revision 1.8  2001/03/05 17:13:07  revo
+Revision 1.8 2001/03/05 17:13:07 revo
 -->
 </vortaro>
