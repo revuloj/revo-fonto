@@ -2,50 +2,105 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>interpret</rad>/i
-</kap>
-<drv mrk="interp2.0i">
-<kap><tld/>i</kap>
-<gra><vspec>tr</vspec></gra>
-<snc num="1">
-<dif>
-Traduki al fremdulo ion el lingvo de li nekomprenata: <ekz>la kunveno da&ubreve;ris kvin horojn, sed la diskutado da&ubreve;ris efektive nur unu horon, &ccirc;ar estis necese <tld/>i &ccirc;iun paroladon.
-</ekz>
-</dif>
-</snc>
-<snc num="2">
-<dif>
-Klarigi ion dubsencan k malfacile kompreneblan: <ekz><tld/>i tekston, le&gcirc;on, son&gcirc;on
-</ekz>
-</dif>
-<refgrp tip="sin">
-<ref cel="koment1.0i">komentarii</ref>.
-</refgrp>
-</snc>
-<trd lng="en">interpret</trd>
-</drv>
-<drv mrk="interp2.0o">
-<kap><tld/>o</kap>
-<snc>
-<dif>
-Vortoj per kiuj oni <tld/>as: <ekz>duba <tld/>o de teksto
-</ekz>
-</dif>
-<refgrp tip="sin">
-<ref cel="glos.0o">gloso</ref>,
-<ref cel="koment1.0o">komentario</ref>.
-</refgrp>
-</snc>
-</drv>
-<drv mrk="interp2.0isto">
-<kap><tld/>isto</kap>
-<snc>
-<dif>
-Homo, kies profesio estas <tld/>i al fremduloj: <ekz>la interparolado estis afabla, tiom almena&ubreve; kiel &gcirc;i povas esti, kiam oni interparolas per <tld/>istoj.
-</ekz>
-</dif>
-</snc>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <rad>interpret</rad>/i
+    </kap>
+    <drv mrk="interp2.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc num="1">
+        <dif>
+          Bu&scirc;e traduki al fremdulo ion el lingvo de li nekomprenata:
+          <ekz>
+            la kunveno da&ubreve;ris kvin horojn, sed la diskutado da&ubreve;ris
+            efektive nur unu horon, &ccirc;ar estis necese <tld/>i &ccirc;iun
+            paroladon.
+          </ekz>
+        </dif>
+        <trd lng="ru">&#x43f;&#x435;&#x440;&#x435;&#x432;&#x43e;&#x434;&#x438;&#x442;&#x44c; <klr>(&#x443;&#x441;&#x442;&#x43d;&#x43e;)</klr></trd>
+      </snc>
+      <snc num="2">
+        <dif>
+          Klarigi, malka&scirc;i sencon de io:
+          <ekz><tld/>i tekston, le&gcirc;on, son&gcirc;on.</ekz>
+        </dif>
+        <refgrp tip="sin">
+          <ref cel="koment1.0i">komentarii</ref>.
+        </refgrp>
+        <trdgrp lng="ru">
+          <trd>&#x442;&#x43e;&#x43b;&#x43a;&#x43e;&#x432;&#x430;&#x442;&#x44c; <klr>(&#x447;&#x442;&#x43e;-&#x43b;.)</klr></trd>,
+          <trd>&#x438;&#x43d;&#x442;&#x435;&#x440;&#x43f;&#x440;&#x435;&#x442;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd>
+        </trdgrp>
+      </snc>
+      <snc num="3">
+        <dif>
+          En arta realigo, prezenti sencon de io (intencitan de la
+          a&ubreve;toro a&ubreve; version de la plenumanto):
+          <ekz>
+            iuj re&gcirc;isoroj <tld/>as Hamleton kiel fortan karakteron;
+            aliaj, kiel tre heziteman.
+          </ekz>
+        </dif>
+        <ref tip="super" cel="plen.um0i">plenumi</ref>
+        <ref tip="sin" cel="prezen1.0i">prezenti</ref>
+        <trdgrp lng="ru">
+          <trd>&#x442;&#x440;&#x430;&#x43a;&#x442;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd>,
+          <trd>&#x438;&#x43d;&#x442;&#x435;&#x440;&#x43f;&#x440;&#x435;&#x442;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd>
+        </trdgrp>
+      </snc>
+      <trd lng="en">interpret</trd>
+    </drv>
+    <drv mrk="interp2.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <dif>
+          Vortoj per kiuj oni <tld/>as: <ekz>duba <tld/>o de teksto
+          </ekz>
+        </dif>
+        <refgrp tip="sin">
+          <ref cel="glos.0o">gloso</ref>,
+          <ref cel="koment1.0o">komentario</ref>.
+        </refgrp>
+      </snc>
+    </drv>
+    <drv mrk="interp2.0ilo">
+      <kap><tld/>ilo</kap>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          Programa a&ubreve; aparata rimedo, kiu analizas komandojn a&ubreve;
+          frazojn de la programo kaj tuj plenumas ilin imitante la
+          funkciadon de virtuala komputilo kies komandoj estas la
+          frazoj de la koncerna programlingvo; &ccirc;iu komputilo estas
+          interpretilo por sia ma&scirc;inkodo (kontraste al
+          <ref cel="traduk.0ilo">tradukilo</ref>, kiu unue tradukas
+          la tutan programmodulon en la cellingvon por nur poste
+          &gcirc;in ruli).
+        </dif>
+      </snc>
+      <trd lng="en">interpreter</trd>
+      <trd lng="ru">&#x438;&#x43d;&#x442;&#x435;&#x440;&#x43f;&#x440;&#x435;&#x442;&#x430;&#x442;&#x43e;&#x440;</trd>
+    </drv>
+    <drv mrk="interp2.0isto">
+      <kap><tld/>isto</kap>
+      <snc>
+        <dif>
+          Homo, kies profesio estas <tld/>i al fremduloj:
+          <ekz>
+            la interparolado estis afabla, tiom almena&ubreve; kiel &gcirc;i povas
+            esti, kiam oni interparolas per <tld/>istoj.
+          </ekz>
+        </dif>
+      </snc>
+        <trdgrp lng="ru">
+          <trd>&#x442;&#x43e;&#x43b;&#x43c;&#x430;&#x447;</trd>,
+          <trd>&#x43f;&#x435;&#x440;&#x435;&#x432;&#x43e;&#x434;&#x447;&#x438;&#x43a;</trd>
+        </trdgrp>
+    </drv>
+  </art>
+
+<!--
+$Log$
+-->
+</vortaro>
