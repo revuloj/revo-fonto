@@ -9,19 +9,71 @@
 </kap>
 <drv mrk="sum.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="sum.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      Rezulto de <ref cel="adici.0o">adicio</ref>:
-      <ekz>
-        5 estas la <tld/>o de 3 kaj 2;
-      </ekz>
-      <ekz>
-        jen la <tld/>o de miaj penoj.
-      </ekz>
-    </dif>
+    <subsnc mrk="sum.0o.adicio">
+      <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
+      <dif>
+        Rezulto de <ref cel="adici.0o">adicio</ref>:
+        <ekz>
+          5 estas la <tld/>o de 3 kaj 2;
+        </ekz>
+        <ekz>
+          jen la <tld/>o de miaj penoj.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Summe<klr tip="ind"> (von Zahlen)</klr></trd>,
+        <trd>Ergebnis</trd></trdgrp> 
+      <trd lng="en">sum<klr tip="ind"> (of numbers)</klr></trd>
+      <trd lng="fr">somme<klr tip="ind"> (de nombres)</klr></trd>
+      <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;<klr tip="ind"> (&c_ch;&c_i;&c_s;&c_je;&c_l;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="sum.0o.serio">
+      <dif>
+        <klr>(de konver&gcirc;a <ref cel="seri.0o.MAT">serio</ref>)</klr>
+        <ref cel="limes.0o">Limeso</ref> de la vico de ties 
+        <ref cel="sum.parta0o">partaj sumoj</ref>:
+        <ekz>
+          se 0&lt;q&lt;1, la <tld/>o de la serio kun &gcirc;enerala termo
+          q<sup>n</sup> estas (1-q)<sup>-1</sup>.
+        </ekz>
+      </dif>
+      <rim>
+        <tld lit="S"/>o de serio estas konceptebla kiel sumo de senfina
+        nombro da termoj. Oni &gcirc;in ofte signas per
+        u<sub>0</sub>+u<sub>1</sub>+u<sub>2</sub>+...
+      </rim>
+      <trd lng="de">Summe<klr tip="ind"> (von einer Reihe)</klr></trd>
+      <trd lng="en">sum<klr tip="ind"> (of a series)</klr></trd>
+      <trd lng="fr">somme<klr tip="ind"> (d'une s&eacute;rie)</klr></trd>
+      <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;<klr tip="ind"> (&c_r;&c_ja;&c_d;&c_a;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="sum.0o.vektorasubspaco">
+      <dif>
+        <klr>(de <ref cel="spac.vektorasub0o">vektoraj subspacoj</ref>)</klr>
+        La vektora subspaco, <ref cel="nask.0i.MAT">naskita</ref> de ilia
+        <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref>:
+        <ekz>
+          &ccirc;iu elemento x de la <tld/>o de subspacoj (<em>U</em><sub>i</sub>)
+          esprimi&gcirc;as kiel sumo de finia nombro da vektoroj
+          x<sub>i</sub>&#8712;<em>U</em><sub>i</sub>;
+        </ekz>
+        <ekz>
+          la <tld/>o de du neegalaj <ref cel="rekt.vektora0o">rektoj</ref>
+          estas <ref cel="eben.vektora0o">ebeno</ref>.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="rekt.0a.sumo">rekta</ref>.
+      </refgrp>
+      <trd lng="de">Summe<klr tip="ind"> (von Teilr&auml;men)</klr></trd>
+      <trd lng="en">sum<klr tip="ind"> (of vector subspaces)</klr></trd>
+      <trd lng="fr">somme<klr tip="ind"> (de sous-espaces vectoriels)</klr></trd>
+      <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_y;&c_h; &c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;)</klr></trd>
+    </subsnc>
   </snc>
-  <snc>
+  <snc mrk="sim.0o.mono">
     <dif>
       Difinita kvanto da mono:
       <ekz>
@@ -30,48 +82,7 @@
       </ekz>
     </dif>
   </snc>
-  <snc mrk="sum.0o.serio">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      (de <ref cel="seri.0o.MAT">serio</ref>) <ref
-      cel="limes.0o">Limeso</ref>
-      de la vico de ties partaj sumoj:
-      <ekz>
-        se 0&lt;k&lt;1, la <tld/>o de la serio kun &gcirc;enerala termo
-        k<sup>n</sup> estas (1-k)<sup>-1</sup>.
-      </ekz>
-    </dif>
-    <rim>
-      <tld lit="S"/>o de serio estas konceptebla kiel sumo de senfina
-      nombro
-      da termoj. Oni &gcirc;in ofte signas per
-      u<sub>0</sub>+u<sub>1</sub>+u<sub>2</sub>+...
-    </rim>
-    <trd lng="fr">somme<klr tip="ind"> (d'une s&eacute;rie)</klr></trd>
-    <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a; &c_r;&c_ja;&c_d;&c_a;</trd>
-  </snc>
-  <snc mrk="sum.0o.vektorasubspaco">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(de <ref cel="spac.vektorasub0o">vektoraj subspacoj</ref>)</klr>
-      La vektora subspaco, <ref cel="nask.0i.MAT">naskita</ref> de ilia
-      <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref>:
-      <ekz>
-        &ccirc;iu elemento x de la <tld/>o de subspacoj (<em>U</em><sub>i</sub>)
-        esprimi&gcirc;as kiel sumo de finia nombro da vektoroj
-        x<sub>i</sub>&#8712;<em>U</em><sub>i</sub>;
-      </ekz>
-      <ekz>
-        la <tld/>o de du neegalaj <ref cel="rekt.vektora0o">rektoj</ref>
-        estas
-        <ref cel="eben.vektora0o">ebeno</ref>.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="rekt.0a.sumo">rekta</ref>.
-    </refgrp>
-  </snc>
-  <trd lng="de">Summme</trd>
+  <trd lng="de">Summe</trd>
   <trd lng="en">sum</trd>
   <trd lng="fr">somme</trd>
   <trd lng="nl">som</trd>
@@ -142,9 +153,9 @@
   <kap>re<tld/>o</kap>
   <snc>
     <dif>
-      Mallongigo de io pli longe dirita
+      Mallongigo de io pli longe dirita.
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="skem.0o">skemo</ref>,
       <ref cel="skiz.0o">skizo</ref>.
     </refgrp>
@@ -171,9 +182,9 @@
   <snc>
     <dif>
       Mallongige esprimi per malmultaj vortoj la esencon kaj la precipon
-      de tio, kio estis dirita pli longe
+      de tio, kio estis dirita pli longe.
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="redukt.0i">redukti</ref>.
     </refgrp>
   </snc>
@@ -216,28 +227,39 @@
     <trd>&c_k;&c_o;&c_r;&c_o;&c_ch;&c_je; &c_g;&c_o;&c_v;&c_o;&c_r;&c_ja;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="sum.parta0o">
+  <kap>parta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="seri.0o.MAT">serio</ref> u, je ordo n)</klr>
+      La sumo u<sub>0</sub>+u<sub>1</sub>+...+u<sub>n</sub>.
+    </dif>
+  </snc>
+  <trd lng="de">Teilsumme<klr tip="ind"> (von einer Reihe)</klr></trd>
+  <trd lng="en">partial <ind>sum</ind><klr tip="ind"> (of a series)</klr></trd>
+  <trd lng="fr">somme partielle<klr tip="ind"> (d'une s&eacute;rie)</klr></trd>
+  <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_s;&c_u;&c_m;&c_m;&c_a;</ind><klr tip="ind"> (&c_r;&c_ja;&c_d;&c_a;)</klr></trd>
+</drv>
+
 </art>
 <!--
 $Log$
-Revision 1.14  2002/02/27 18:00:57  revo
+Revision 1.15 2002/03/09 17:31:06 revo
+Bart Demeyere: en formulo: kaj -> k
+Revision 1.14 2002/02/27 18:00:57 revo
 Yury Finkel: +trd ru
-
 Revision 1.13 2002/02/02 20:45:02 revo
 Marc Bavant: +drv ~ero
-
 Revision 1.12 2001/10/01 18:14:55 revo
 Jerome Vachey: trd fr: r'esmu'e - r'esum'e
-
 Revision 1.11 2001/07/31 18:14:48 revo
 Dennis Wibrow: +trd germ
-
 Revision 1.10 2001/07/22 18:16:38 revo
 Marc Bavant: mod kunigajxo al kunajxo
-
 Revision 1.9 2001/04/21 18:46:04 revo
 Marc Bavant: +snc ~o (de vektoraj subspacoj); forigis troajn em cxe ~o (de
 serio)
-
 -->
 </vortaro>
-
