@@ -66,7 +66,7 @@
           <ref cel="part.0igi">dispartigi</ref>.
         </refgrp>
       </snc>
-      <snc mrk="divid.0i.mat">
+      <snc mrk="divid.0i.MAT">
         <uzo tip="fak">MAT</uzo>
         <dif>
           Plenumi la divido-operacion:
@@ -110,12 +110,32 @@
       <trd lng="en">divide</trd>
       <trd lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x44c;</trd>
     </drv>
+    
     <drv mrk="divid.0o">
       <kap><tld/>o</kap>
-      <snc mrk="divid.0o.mat">
+      <snc mrk="divid.0o.KOMUNE">
+        <dif>
+          Ago a&ubreve; rezulto <tld/>i:
+          <ekz>
+            fari traktaton pri la <tld/>o de la landoj, kiuj ku&scirc;as inter 
+            nia maro kaj la rivero E&ubreve;frato
+            <fnt><aut>&PtK;</aut>: <vrk>&Far1;</vrk>,
+                 <lok>&ccirc;ap.25</lok></fnt>;
+          </ekz>
+          <ekz>
+            la vorto de Dio estas [...] pli akra ol &ccirc;ia glavo
+            dutran&ccirc;a, kaj penetranta &gcirc;is divido de la animo 
+            kaj spirito
+            <fnt><vrk>&N;</vrk><lok>&Heb; 4:12</lok></fnt>.
+          </ekz>
+        </dif>
+      </snc>
+      
+      <snc mrk="divid.0o.MAT">
         <uzo tip="fak">MAT</uzo>
         <dif>
-          Operacio inversa al <ref cel="multip.0o">multipliko</ref>, t.e.
+          <ref tip="super" cel="operac.0o.MAT">Operacio</ref> inversa al 
+          <ref cel="multip.0o">multipliko</ref>, t.e.
           ebliganta per produto (<ref cel="divid.0ato">la dividato</ref>)
           kaj unu el la <ref cel="faktor.0o.multip">faktoroj</ref> 
           (<ref cel="divid.0anto">la dividanto</ref>) trovi la
@@ -123,7 +143,9 @@
         </dif>
         <rim>
           La kutimaj simboloj estas dupunkto (:) kaj
-          <ref tip="prt" cel="frakci.0streko">frakcistreko</ref>.
+          <ref tip="prt" cel="frakci.0streko">frakcistreko</ref>. Por distingi
+          &ccirc;i tiun operacion de la e&ubreve;klida <tld/>o, oni foje
+          kvalifikas &gcirc;in <ctl>ekzakta</ctl>.
         </rim>
         <refgrp tip="vid">
           <ref cel="frakci.0o.mat">frakcio</ref>,
@@ -181,6 +203,7 @@
       <kap><tld/>o kun resto</kap>
       <snc>
         <uzo tip="fak">MAT</uzo>
+        <uzo tip="klr">(elementa aritmetiko)</uzo>
         <dif>
           Matematika operacio kiu por donitaj entjeroj <frm>a</frm>
           kaj <frm>b</frm> trovas paron da nenegativaj entjeroj <frm>q</frm> kaj
@@ -197,14 +220,15 @@
           <frm>2x&#xb3;+5x&#xb2;-6x-5 = (x&#xb2;-3)(2x+5)+10</frm>.
         </rim>
         <adm>
-          Difini la nocion "e&ubreve;klida ringo" kaj meti referencon
-          al &gcirc;i en rimarkon. <aut>MB</aut>
+          &Scirc;ajnas, ke nun eblas kunfandi "~o kun resto" kun
+          "e&ubreve;klida ~o". Ja temas esence pri la sama afero.
+          <aut>MB</aut>
         </adm>
         <refgrp tip="vid">
           <ref cel="frakci.0o.mat">frakcio</ref>,
           <ref cel="numera1.0o">numeratoro</ref>,
           <ref cel="denom1.0o">denominatoro</ref>,
-          <ref cel="divid.0o.mat">divido <klr>(ekzakta)</klr></ref>,
+          <ref cel="divid.0o.MAT">divido <klr>(ekzakta)</klr></ref>,
           <ref cel="divizo.0o">divizoro</ref>
         </refgrp>
       </snc>
@@ -212,9 +236,46 @@
       <trd lng="fr">division avec reste</trd>
       <trd lng="ru">&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x441; &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x43e;&#x43c;</trd>
     </drv>
+
+    <drv mrk="divid.euxklida0o">
+      <kap>e&ubreve;klida <tld/>o</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(de du elementoj en 
+          <ref cel="ring.euxklida0o">e&ubreve;klida ringo</ref>)</klr>
+          Operacio, per kiu al la elementoj oni asocias paron konsistanta
+          el ilia <ref cel="kvocie.0o.euxklida">kvociento</ref> kaj 
+          <ref cel="rest.0o.euxklida">resto</ref>:
+          <ekz>
+            la e&ubreve;klida algoritmo konsistas el sinsekvaj
+            e&ubreve;klidaj <tld/>oj;
+          </ekz>
+          <ekz>
+            la paron (q,r) oni nomas rezulto de la e&ubreve;klida <tld/>o;
+          </ekz>
+          <ekz>
+            &ccirc;e e&ubreve;klida divido de <em>X</em><sup>2</sup>+<em>1</em> 
+            per <em>X</em> oni ricevas (<em>X</em>, <em>1</em>);
+          </ekz>
+          <ekz>
+            en la aro de entjeroj la rezulto de e&ubreve;klida <tld/>o
+            estas unika kun la aldona kondi&ccirc;o, ke r&#x2265;0.
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="euxkli.0o">E&ubreve;klido</ref>.
+        </refgrp>
+      </snc>
+      <trd lng="fr">division euclidienne</trd>
+    </drv>
+    
   </art>
   <!--
   $Log$
+  Revision 1.11  2001/02/04 17:17:17  revo
+  Marc Bavant: +ref al faktoro, kor ref al denominatoro, +trd fr, kompaktigo de la dif de ~o, +drv ~anto, ~ato, +adm
+
   Revision 1.10  2000/09/11 16:15:55  revo
   Sergio Pokrovskij: komoj inter ref-oj
 
