@@ -26,7 +26,7 @@
     <uzo tip="klr">(fakula &jcirc;argono en geometrio)</uzo>
     <dif>
       <klr>(p.p. <ref cel="lini.0o.MAT">linioj</ref>)</klr>
-      Havi komunan punkton: 
+      Havi komunan punkton:
       <ekz>
         &ccirc;iuj <ref cel="nask.0anto.rekto">naskantoj</ref> de
         <ref cel="konus.0o.surfaco">konuso</ref> <tld/>as
@@ -93,8 +93,8 @@
       <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
       Tia, ke &ccirc;iuj &gcirc;iaj termoj (krom finia nombro da ili) apartenas
       al <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
-      de iu punkto <klr>(&gcirc;ia 
-      <ref cel="limes.0o.vico">limeso</ref>)</klr>, kiel ajn oni elektas la 
+      de iu punkto <klr>(&gcirc;ia
+      <ref cel="limes.0o.vico">limeso</ref>)</klr>, kiel ajn oni elektas la
       &ccirc;irka&ubreve;a&jcirc;on:
       <ekz>
         <tld/>a <ref cel="seri.0o.MAT">serio</ref> <klr>(kies
@@ -107,7 +107,7 @@
         granda;
       </ekz>
       <ekz>
-        se vico akceptas <ref cel="adher.0a.vico">adheran punkton</ref>,
+        se vico akceptas <ref cel="adher.0a.vico">adheran</ref> punkton,
         ekzistas <tld/>a subvico de &gcirc;i.
       </ekz>
     </dif>
@@ -167,16 +167,154 @@
   <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
 </drv>
 
+<drv mrk="konver.absolute0a">
+  <kap>absolute <tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(p.p. reela a&ubreve; kompleksa 
+      <ref cel="vic.0o.MAT">vico</ref>)</klr>
+      Tia, ke <tld/>as la responda vico de 
+      <ref cel="valor.absoluta0o">absolutaj valoroj</ref> (a&ubreve; 
+      <ref cel="modul.0o.komplekso">moduloj</ref>) de &gcirc;iaj termoj:
+      <ekz>
+        &ccirc;iu absolute <tld/>a vico estas anka&ubreve; <tld/>a,
+        sed la malo ne veras;
+      </ekz>
+      <ekz>
+        absolute <tld/>a serio <klr>(kies responda serio de absolutaj valoroj
+        <tld/>as)</klr>;
+      </ekz>
+      <ekz>
+        absolute <tld/>a serio de funkcioj <klr>(absolute <tld/>a por &ccirc;iu
+        valoro de la argumento)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">absolut <ind>konvergent</ind></trd>
+  <trd lng="en">absolutely <ind>convergent</ind></trd>
+  <trd lng="fr">absolument <ind>convergent</ind></trd>
+  <trd lng="ru">&c_a;&c_b;&c_s;&c_o;&c_l;&c_ju;&c_t;&c_n;&c_o; <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</ind></trd>
+</drv>
+
+<drv mrk="konver.norme0a">
+  <kap>norme <tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> super
+      <ref cel="spac.normohava0o">normohava spaco</ref>)</klr>
+      Tia, ke <tld/>as la responda vico de <ref cel="norm.0o.MAT">normoj</ref> 
+      de &gcirc;iaj termoj:
+      <ekz>
+        norme <tld/>a serio <klr>(kies responda serio de normoj
+        <tld/>as)</klr>;
+      </ekz>
+      <ekz>
+        en <ref cel="komple2.0a.MAT">kompleta</ref> spaco 
+        &ccirc;iu norme <tld/>a vico estas anka&ubreve; <tld/>a.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">normal <ind>konvergent</ind></trd>
+  <trd lng="en">normally <ind>convergent</ind></trd>
+  <trd lng="fr">normalement <ind>convergent</ind></trd>
+  <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_o; <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</ind></trd>
+</drv>
+
+<drv mrk="konver.simple0a">
+  <kap>simple <tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
+      (f<sub>n</sub>))</klr>
+      Tia, ke por ajna x la vico (f<sub>n</sub>(x)) <tld/>as al iu
+      limeso f(x):
+      <ekz>
+        simple <tld/>i <klr>(esti simple <tld/>a)</klr>;
+      </ekz>
+      <ekz>
+        oni nomas <ind>topologio de simpla <tld/>o</ind> super
+        aro de funkcioj la topologion, rilate al kiu vico de funkcio estas
+        <ref cel="konver.0a.MAT"><tld/>a</ref>, se kaj nur se &gcirc;i estas
+        simple <tld/>a.
+        <trd lng="de">Topologie der punktweisen Konvergenz</trd>
+        <trd lng="en">topology of pointwise convergence</trd>
+        <trd lng="fr">topologie de la convergence simple</trd>
+        <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja; &c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j; &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>einfach <ind>konvergente</ind><klr tip="amb"> (Funktionfolge)</klr></trd>,
+    <trd>punktweise <ind>konvergente</ind><klr tip="amb"> (Funktionfolge)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>simply <ind>convergent</ind><klr tip="ind"> (function sequence)</klr></trd>,
+    <trd>pointwise <ind>convergent</ind><klr tip="ind"> (function sequence)</klr></trd>
+  </trdgrp>
+  <trd lng="fr"><klr tip="amb">(suite de fonctions) </klr>simplement <ind>convergente</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_o;&c_t;&c_o;&c_ch;&c_je;&c_ch;&c_n;&c_o; &c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;<klr tip="amb"> (&c_p;&c_o;&c_s;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>,
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_o; <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;</ind><klr tip="amb"> (&c_p;&c_o;&c_s;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="konver.unuforme0a">
+  <kap>unuforme <tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 19, p.p. serio</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
+      (f<sub>n</sub>) al <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
+      Tia, ke por iu funkcio f <klr>(&gcirc;ia limeso)</klr> veras, ke
+      la supremo de la distancoj inter f<sub>n</sub>(x) kaj f(x) strebas
+      al nulo:
+      <ekz>
+        &ccirc;iu unuforme <tld/>a vico estas anka&ubreve; simple <tld/>a,
+        sed la malo ne veras;
+      </ekz>
+      <ekz>
+        unuforme <tld/>i <klr>(esti unuforme <tld/>a)</klr>;
+      </ekz>
+      <ekz>
+        unuforme <tld/>a serio <klr>(kies
+        vico de partaj sumoj unuforme <tld/>as)</klr>;
+      </ekz>
+      <ekz>
+        oni nomas <ind>topologio de unuforma <tld/>o</ind> super
+        aro de funkcioj al metrika spaco la topologion, asociitan al la
+        metriko, kiu difinas distancon inter du funkcioj per la supremo
+        de la distancoj inter &gcirc;iaj valoroj.
+        <trd lng="de">Topologie der gleichm&auml;&szlig;en Konvergenz</trd>
+        <trd lng="en">topology of uniform convergence</trd>
+        <trd lng="fr">topologie de la convergence uniforme</trd>
+        <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja; &c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o;&c_j; &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
+      </ekz>
+    </dif>
+    <rim>
+      En <fnt><bib>EKV</bib><lok>&para;231</lok></fnt> troveblas
+      <ctl><tld/>egi</ctl> anstata&ubreve; <ctl>unuforme <tld/>i</ctl>.
+    </rim>
+  </snc>
+  <trd lng="de">gleichm&auml;&szlig;ig <ind>konvergente</ind><klr tip="amb"> (Funktionfolge)</klr></trd>
+  <trd lng="en">uniformly <ind>convergent</ind><klr tip="ind"> (function sequence)</klr></trd>
+  <trd lng="fr"><klr tip="amb">(suite de fonctions) </klr>uniform&eacute;ment <ind>convergente</ind></trd>
+  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o; <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;</ind><klr tip="amb"> (&c_p;&c_o;&c_s;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.13  2002/05/02 16:35:12  revo
+Revision 1.14 2002/05/12 16:35:00 revo
+Marc Bavant: mal~i: +uzo MAT
+Revision 1.13 2002/05/02 16:35:12 revo
 Marc Bavant: ~a: mod dif (certa)
-
-Revision 1.12  2002/03/01 17:33:12  revo
+Revision 1.12 2002/03/01 17:33:12 revo
 Marc Bavant: mal~a: kor mrk
-
-Revision 1.11  2002/02/23 19:58:18  revo
+Revision 1.11 2002/02/23 19:58:18 revo
 Marc Bavant: koherigis kun divergx; ~i: +mrk, sxovis materialon el ~i 3 al ~a, +snc (geometrio); ~i1: -uzo FIZ, mod mrk, +uzo FOT en ekz; +drv ~a, ~igi; ne~a/mal ~a; mal~i: mod dif, +trd de
 Revision 1.10 2001/04/14 17:24:55 revo
 Marc Bavant: vastigis la snc de ~i MAT al topologiaj spacoj, mod mrk; +ekz MAT cxe snc ~i 1
