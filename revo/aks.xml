@@ -37,8 +37,8 @@
       <dif>
         <ref tip="dif" cel="aks.simetri0o">simetri<tld/>o</ref>:
         <ekz>
-          <tld/>o de cirklo <klr>(rekto orta al &gcirc;ia ebeno kaj
-          trapasanta &gcirc;ian centron)</klr>;
+          <tld/>o de cirklo <klr>(i.a. rekto orta al &gcirc;ia ebeno kaj
+          trairanta &gcirc;ian centron)</klr>;
         </ekz>
         <ekz>
           <tld/>o de sfero <klr>(&ccirc;iu ajn el la rektoj enhavantaj
@@ -49,7 +49,7 @@
         </ekz>
         <ekz>
           fokusa a&ubreve; nefokusa <tld/>o de elipso <klr>(simetri<tld/>o,
-          trapasanta a&ubreve; ne &gcirc;iajn fokusojn)</klr>.
+          trairanta &gcirc;iajn fokusojn, a&ubreve; ne)</klr>.
         </ekz>
       </dif>
     </subsnc>
@@ -57,11 +57,19 @@
       <dif>
         <klr>(p.p. kartezia
         <ref cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
-        rekto, enhavanta la orginan punkton kaj direktata de unu
+        rekto, enhavanta la originan punkton kaj direktata de unu
         el la bazaj vektoroj:
         <ekz>
           la abscisa <tld/>o <klr>(direktata de la unua baza vektoro)</klr>.
         </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="aks.0o.polusa">
+      <dif>
+        <klr>(p.p. polusa
+        <ref cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
+        duonrekto, servanta por difini la
+        <ref cel="angul.polusa0o">polusan angulon</ref>.
       </dif>
     </subsnc>
     <adm>
@@ -155,9 +163,67 @@
   <trd lng="fr">axe de sym&eacute;trie</trd>
   <trd lng="pt">eixo de simetria</trd>
 </drv>
+<drv mrk="aks.grandaduon0o">
+  <kap>granda duon<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="elips.0o.linio">elipso</ref>)</klr>
+      &Ccirc;iu el la du <ref tip="super" cel="strek.0o.segmento">strekoj</ref>
+      de &gcirc;ia fokusa <ref cel="aks.0o.simetrio">akso</ref>, kunligantaj
+      la <ref cel="centr.0o.elipso">centron</ref> al la elipso; longo de tia
+      streko:
+      <ekz>
+        la <ref cel="kvadra1.0o.algebra">kvadratoj</ref> de periodo de
+        <ref cel="rivolu.0o.AST">rivoluo</ref> de du planedoj rilatas inter si,
+        kiel la <ref cel="kub.0o.algebra">kuboj</ref> de iliaj grandaj
+        duon<tld/>oj
+        <klr>(tria <ref cel="kepler.0a">keplera</ref> le&gcirc;o)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">grosse <ind>Halbachse</ind></trd>
+  <trdgrp lng="fr">
+    <trd>demi-axe focal</trd>,
+    <trd>demi grand <ind>axe</ind></trd>
+  </trdgrp>
+</drv>
+<drv mrk="aks.malgrandaduon0o">
+  <kap>malgranda duon<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="elips.0o.linio">elipso</ref>)</klr>
+      &Ccirc;iu el la du <ref tip="super" cel="strek.0o.segmento">strekoj</ref>
+      de &gcirc;ia nefokusa <ref cel="aks.0o.simetrio">akso</ref>, kunligantaj
+      la <ref cel="centr.0o.elipso">centron</ref> al la elipso; longo de tia
+      streko.
+    </dif>
+  </snc>
+  <trd lng="de">kleine <ind>Halbachse</ind></trd>
+  <trdgrp lng="fr">
+    <trd>demi-axe non focal</trd>,
+    <trd>demi petit <ind>axe</ind></trd>
+  </trdgrp>
+</drv>
+<drv mrk="aks.polusa0o">
+  <kap>polusa <tld/>o</kap>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <ref tip="dif" cel="aks.0o.polusa">akso
+    <sncref ref="aks.0o.MAT"/><sncref ref="aks.0o.polusa"/>.</ref>
+  </snc>
+  <trd lng="de">Polarachse</trd>
+  <trd lng="fr">axe polaire</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.16  2001/04/21 18:46:21  revo
+Marc Bavant: ~ingo: kor uzo TEK (ne trd); mod dif cxe aks.0o.mezo
+
 Revision 1.15  2001/04/20 17:14:08  revo
 Helio Jaques: trd pt
 
@@ -174,8 +240,5 @@ Revision 1.11  2001/03/22 17:41:51  revo
 Ulrich Fellmann: + 3 germ trdj
 
 Revision 1.10  2001/03/17 17:12:42  revo
-Sergio Pokrovskij: tajperaro
-
-Revision 1.9  2001/03/16 07:34:53  revo
 -->
 </vortaro>
