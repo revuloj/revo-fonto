@@ -2,23 +2,71 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>integral</rad>/o
-<fnt>Z</fnt>
-</kap>
-<drv mrk="integr2.0o">
-<kap><tld/>o</kap>
-<uzo tip="fak">MAT</uzo>
-<snc>
-<dif>
-Neapartigebla, nedividebla tuto.  
-</dif>
-<refgrp tip="vid">
-<ref cel="difere2.0o">diferencialo</ref>,
-<ref cel="difere1.0i">diferencii</ref>,
-<ref cel="integr1.0i">integri</ref>.
-</refgrp>
-</snc>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <rad>integral</rad>/o
+      <fnt>Z</fnt>
+    </kap>
+    <drv mrk="integr2.0o">
+      <kap><tld/>o</kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc mrk="integr2.0o.malderivajxo">
+        <dif>
+          <ref tip="dif" cel="deriv.mal0ajxo.mat">Malderiva&jcirc;oj</ref>.
+        </dif>
+      </snc>
+      <snc mrk="integr2.0o.sumo">
+        <dif>
+          Por reela <ref cel="funkci.0o.mat">funkcio</ref> <frm>f(x)</frm>,
+          &gcirc;ia <tld/>o sur intervalo <frm>[a,b]</frm> estas
+          <frm>&#x222b;<sub>a</sub><sup>b</sup>f(x)&#xa0;dx = F(b)-F(a)</frm>
+          kie <frm>F</frm> estas ajna
+          <ref tip="dif" cel="deriv.mal0ajxo.mat">malderiva&jcirc;o</ref> de
+          <frm>f</frm>.
+        </dif>
+        <rim>
+          Surbaze de pli longa difino per limeso,
+          <frm>&#x222b;<sub>a</sub><sup>b</sup>f(x)&#xa0;dx =
+            lim<sub>n&#x2192;&#x221e;</sub>&#xa0;[(b-a)/n]&#x2211;<sub>i=1</sub><sup>n</sup>&#xa0;f(a+i&#xd7;(b-a)/n)</frm>,
+          oni povas konsiderinde &gcirc;eneraligi la koncepton.
+        </rim>
+        <trd lng="en">integral</trd>
+        <trd lng="ru">&#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x451;&#x43d;&#x43d;&#x44b;&#x439; <ind>&#x438;&#x43d;&#x442;&#x435;&#x433;&#x440;&#x430;&#x43b;</ind></trd>
+      </snc>
+    </drv>
+    <drv mrk="integr2.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          Kalkuli <tld/>on:
+          <ekz>
+            <tld/>hava funkcio kiun oni <tld/>as estas la <tld/>ato;
+          </ekz><ekz>
+            <tld/>i la&ubreve;faktore.
+          </ekz>
+        </dif>
+        <rim>
+          PV, PIV kaj plimulto de matematikistoj preferas uzi verbon
+          <ref tip="sin" cel="integr1.0i">integri</ref>.  Tio havas du
+          malavanta&gcirc;ojn:
+          (1)&#xa0;la radiko <ctl>integr</ctl> homonimi&gcirc;as kaj ricevas
+          du malkoherajn signifojn (la deadjektiva <ctl>integri</ctl>
+          devas esti netransitiva, la matematika <ctl>integri</ctl>
+          estas transitiva); kaj
+          (2)&#xa0;la plej internacia kaj klare rekonebla radiko por
+          la matematika operacio estas <ctl>integral</ctl>, tial
+          <ctl>integrali</ctl> estas radik&scirc;para, preciza kaj sistema (kp
+          "<ref tip="vid" cel="difere2.0i">diferenciali</ref>").
+        </rim>
+      </snc>
+      <trd lng="en">integrate</trd>
+      <trd lng="ru">&#x438;&#x43d;&#x442;&#x435;&#x433;&#x440;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd>
+    </drv>
+  </art>
+
+<!--
+$Log$
+-->
+</vortaro>
