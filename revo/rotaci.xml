@@ -115,7 +115,7 @@
         <ref cel="spac.euxklida0o">e&ubreve;klida vektora spaco</ref>)</klr>
         <ref cel="izomet.0a.bildigo">Izometria</ref>
         <ref cel="auxtom2.0o">a&ubreve;tomorfio</ref> kun
-        <ref cel="determ.0anto.endomorfio">determinanto</ref> 
+        <ref cel="determ.0anto.endomorfio">determinanto</ref>
         egala al <frm>1</frm>.
       </dif>
       <ref tip="sin" cel="rotaci.vektora0o">vektora <tld/>o.</ref>
@@ -138,9 +138,9 @@
         </ekz>
         <ekz>
           se <frm>O</frm> estas la centro de <tld/>o kaj <frm>M'</frm> estas
-          la bildo per &gcirc;i de punkto <frm>M</frm>, la mezuro de la 
-          <ref cel="angul.0o.afina">angulo</ref> randata de duonrektoj 
-          <frm>OM</frm> kaj <frm>OM'</frm> ne dependas de <frm>M</frm> 
+          la bildo per &gcirc;i de punkto <frm>M</frm>, la mezuro de la
+          <ref cel="angul.0o.afina">angulo</ref> randata de duonrektoj
+          <frm>OM</frm> kaj <frm>OM'</frm> ne dependas de <frm>M</frm>
           kaj estas nomata la angulo de la <tld/>o;
         </ekz>
         <ekz>
@@ -153,7 +153,8 @@
     </subsnc>
     <trdgrp lng="de">
       <trd>Drehung</trd>,
-      <trd>Rotation</trd></trdgrp> 
+      <trd>Rotation</trd>
+    </trdgrp>
     <trd lng="en">rotation</trd>
     <trd lng="fr">rotation</trd>
     <trd lng="pl">obr&oacute;t</trd>
@@ -169,22 +170,16 @@
 <drv mrk="rotaci.0a">
   <kap><tld/>a</kap>
   <snc mrk="rotaci.0a.gxenerale">
+    <uzo tip="fak">TEK</uzo>
     <dif>
       <tld lit="R"/>anta; rilata al <tld/>o:
       <ekz>
-        <uzo tip="fak">TEK</uzo>
         <ind><tld/>a presilo</ind><fnt><bib>PIV1</bib></fnt>;
         <trd lng="fr">rotative<klr tip="ind"> (machine &agrave;
         imprimer)</klr></trd>
       </ekz>
       <ekz>
-        <uzo tip="fak">TEK</uzo>
-        <tld/>a akso de rado;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">MAT</uzo>
-        <tld/>a akso<fnt><bib>MatVort</bib></fnt>, centro
-        <klr>(akso, centro de <tld/>o)</klr>.
+        <tld/>a akso de rado.
       </ekz>
     </dif>
     <trdgrp lng="fr">
@@ -207,29 +202,44 @@
       Indus precizigi la difinon kaj trovi malpli ta&ubreve;tologian
       ekzemplon. Eble ~a motoro ta&ubreve;gus? <aut>MB</aut>
     </adm>
+    <trdgrp lng="nl">
+      <trd>roterend</trd>,
+      <trd>draaiend</trd>
+    </trdgrp>
+    <trd lng="ru">&c_v;&c_r;&c_a;&c_shch;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc mrk="rotaci.0a.rivolua">
+  <snc mrk="rotaci.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="solid.0o.geometrio">solido</ref> a&ubreve;
-      <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
-      <ref tip="dif" cel="rivolu.0a.figuro">Rivolua</ref>:
-      <ekz>
-        <tld/>a hiperboloido<fnt><bib>PV</bib></fnt>.
-      </ekz>
-    </dif>
-    <trd lng="de">Dreh-<klr tip="amb">(k&ouml;rper, fl&auml;che)</klr></trd>
-    <trd lng="en"><klr tip="amb">(body, surface) </klr>of <ind>revolution</ind></trd>
-    <trd lng="fr"><klr tip="amb">(solide, surface) </klr>de <ind>r&eacute;volution</ind></trd>
-    <trd lng="nl">omwentelings-</trd>
-    <trd lng="pl"><klr tip="amb">(bry&lstroke;a, powierzchnia) </klr>obrotowa</trd>
-    <trd lng="ru"><klr tip="amb">(&c_t;&c_je;&c_l;&c_o;, &c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;) </klr><ind>&c_v;&c_r;&c_a;&c_shch;&c_je;&c_n;&c_i;&c_ja;</ind></trd>
+    <subsnc mrk="rotaci.0a.rivolua">
+      <fnt><bib>PV</bib><lok>hiperboloido</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="solid.0o.geometrio">solido</ref> a&ubreve;
+        <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
+        <ref tip="dif" cel="rivolu.0a.figuro">Rivolua</ref>:
+        <ekz>
+          <tld/>a konuso.
+        </ekz>
+      </dif>
+      <trd lng="de">Dreh-<klr tip="amb">(k&ouml;rper, fl&auml;che)</klr></trd>
+      <trd lng="en"><klr tip="amb">(body, surface) </klr>of <ind>revolution</ind></trd>
+      <trdgrp lng="fr">
+        <trd><klr tip="amb">(solide) </klr>de <ind>r&eacute;volution</ind></trd>,
+        <trd><klr tip="amb">(surface) </klr>de <ind>r&eacute;volution</ind></trd>
+      </trdgrp>
+      <trd lng="nl">omwentelings-</trd>
+      <trdgrp lng="pl">
+        <trd><klr tip="amb">(bry&lstroke;a) </klr>obrotowa</trd>,
+        <trd><klr tip="amb">(powierzchnia) </klr>obrotowa</trd>
+      </trdgrp>
+      <trd lng="ru"><klr tip="amb">(&c_t;&c_je;&c_l;&c_o;, &c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;) </klr><ind>&c_v;&c_r;&c_a;&c_shch;&c_je;&c_n;&c_i;&c_ja;</ind></trd>
+    </subsnc>
+    <subsnc mrk="rotaci.0a.diversaj">
+      <refgrp tip="vid">
+        <ref cel="aks.rotacia0o"><tld/>a akso</ref>,
+        <ref cel="centr.rotacia0o"><tld/>a centro</ref>.
+      </refgrp>
+    </subsnc>
   </snc>
-  <trdgrp lng="nl">
-    <trd>roterend</trd>,
-    <trd>draaiend</trd>
-  </trdgrp>
-  <trd lng="ru">&c_v;&c_r;&c_a;&c_shch;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="rotaci.afina0o">
@@ -254,15 +264,17 @@
 </art>
 <!--
 $Log$
-Revision 1.16  2002/08/15 17:31:09  revo
+Revision 1.17 2002/11/30 17:38:05 revo
+Marc Bavant: +frm
+Revision 1.16 2002/08/15 17:31:09 revo
 Jozefo Horvath: +trd hu
-Revision 1.15  2002/05/27 17:19:54  revo
+Revision 1.15 2002/05/27 17:19:54 revo
 Marc Bavant: ~o (vektora, afina): +fnt
-Revision 1.14  2002/05/12 16:37:10  revo
+Revision 1.14 2002/05/12 16:37:10 revo
 Marc Bavant: ~a (rivolua): +trd; ~o MAT: +trd; ~o (afina): mod ekz
-Revision 1.13  2002/03/18 18:08:37  revo
+Revision 1.13 2002/03/18 18:08:37 revo
 Karlo Freeman: +trd=en
-Revision 1.12  2002/01/31 17:32:32  revo
+Revision 1.12 2002/01/31 17:32:32 revo
 Yury Finkel: +trd ru
 Revision 1.11 2002/01/06 17:44:57 revo
 Marc Bavant: mod ref cel al bildigo
