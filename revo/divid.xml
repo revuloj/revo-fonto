@@ -116,17 +116,19 @@
         <uzo tip="fak">MAT</uzo>
         <dif>
           Operacio inversa al <ref cel="multip.0o">multipliko</ref>, t.e.
-          ebliganta per produto kaj unu el la faktoroj trovi la
-          alian faktoron.  La donita produto estas <em>dividato</em>,
-          la donita faktoro estas <em>dividanto</em>, la ser&ccirc;ata
-          faktoro estas <ref tip="prt" cel="kvocie.0o">kvociento</ref>.
+          ebliganta per produto (<ref cel="divid.0ato">la dividato</ref>)
+          kaj unu el la <ref cel="faktor.0o.multip">faktoroj</ref> 
+          (<ref cel="divid.0anto">la dividanto</ref>) trovi la
+          alian faktoron (<ref tip="prt" cel="kvocie.0o">la kvocienton</ref>). 
+        </dif>
+        <rim>
           La kutimaj simboloj estas dupunkto (:) kaj
           <ref tip="prt" cel="frakci.0streko">frakcistreko</ref>.
-        </dif>
+        </rim>
         <refgrp tip="vid">
           <ref cel="frakci.0o.mat">frakcio</ref>,
           <ref cel="numera1.0o">numeratoro</ref>,
-          <ref cel="denomi1.0o">denominatoro</ref>,
+          <ref cel="denom1.0o">denominatoro</ref>,
           <ref cel="divid.0o.kun.resto">divido kun resto</ref>,
           <ref cel="divizo.0o">divizoro</ref>
         </refgrp>
@@ -135,6 +137,7 @@
       <trd lng="en">division</trd>
       <trd lng="ru">&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; <klr>(&#x442;&#x43e;&#x447;&#x43d;&#x43e;&#x435;)</klr></trd>
     </drv>
+    
     <drv mrk="divid.0ajxo">
       <kap><tld/>a&jcirc;o</kap>
       <snc>
@@ -151,6 +154,29 @@
       <trdgrp lng="ru"><trd>&#x434;&#x43e;&#x43b;&#x44f;</trd>,
         <trd>&#x447;&#x430;&#x441;&#x442;&#x44c;</trd></trdgrp>
     </drv>
+    
+    <drv mrk="divid.0anto">
+      <kap><tld/>anto</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          La nombro, per kiu oni dividas.
+        </dif>
+      </snc>
+      <trd lng="fr">diviseur</trd>
+    </drv>
+    
+    <drv mrk="divid.0ato">
+      <kap><tld/>ato</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          La nombro, kiun oni dividas.
+        </dif>
+      </snc>
+      <trd lng="fr">dividende <klr tip="ind">(division)</klr></trd>
+    </drv>
+    
     <drv mrk="divid.0o.kun.resto">
       <kap><tld/>o kun resto</kap>
       <snc>
@@ -163,27 +189,35 @@
           La donita&jcirc;oj <frm>a</frm> kaj <frm>b</frm> produto estas
           <em>dividato</em> kaj <em>dividanto</em>, <frm>q</frm> estas
           <em>parta kvociento</em>, <frm>r</frm> estas
-          <ref tip="prt" cel="rest.0o.mat">resto</ref>.
+          <ref tip="prt" cel="rest.0o.MAT">resto</ref>.
         </dif>
         <rim>
           La operacio estas &gcirc;eneraligebla al ajna <ctl>E&ubreve;klida
           ringo</ctl>, i.e. oni difinas &gcirc;in por la polinomoj, ekz-e
           <frm>2x&#xb3;+5x&#xb2;-6x-5 = (x&#xb2;-3)(2x+5)+10</frm>.
         </rim>
+        <adm>
+          Difini la nocion "e&ubreve;klida ringo" kaj meti referencon
+          al &gcirc;i en rimarkon. <aut>MB</aut>
+        </adm>
         <refgrp tip="vid">
           <ref cel="frakci.0o.mat">frakcio</ref>,
           <ref cel="numera1.0o">numeratoro</ref>,
-          <ref cel="denomi1.0o">denominatoro</ref>,
+          <ref cel="denom1.0o">denominatoro</ref>,
           <ref cel="divid.0o.mat">divido <klr>(ekzakta)</klr></ref>,
           <ref cel="divizo.0o">divizoro</ref>
         </refgrp>
       </snc>
       <trd lng="de">Division mit Rest</trd>
+      <trd lng="fr">division avec reste</trd>
       <trd lng="ru">&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x441; &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x43e;&#x43c;</trd>
     </drv>
   </art>
   <!--
   $Log$
+  Revision 1.10  2000/09/11 16:15:55  revo
+  Sergio Pokrovskij: komoj inter ref-oj
+
   Revision 1.9  2000/09/08 05:50:52  revo
   Sergio Pokrovskij: divido kun resto; trd
 
