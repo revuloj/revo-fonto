@@ -124,18 +124,21 @@
       <ref cel="term.0o.matrico">termo</ref>;
       
       atributoj de matrico:
+      <ref cel="dimens.0o.matrico">dimensioj</ref>,
       <ref cel="ajgen.0o">ajgeno</ref>,
-      <ref cel="determ.0anto.matrico">determinanto</ref>,
       <ref cel="rang.0o.matrico">rango</ref>,
       <ref cel="spur.0o.matrico">spuro</ref>,
-      <ref cel="dimens.0o.matrico">dimensioj</ref>;
+      <ref cel="determ.0anto.matrico">determinanto</ref>,
+      <ref cel="minor.0o">minoro</ref>,
+      <ref cel="kofakt.0o">kofaktoro</ref>;
       
       rimarkindaj ecoj de matrico:
+      <ref cel="kvadra1.0a.matrico">kvadrata</ref>,
       <ref cel="diagon.0a.matrico">diagonala</ref>,
       <ref cel="angul.tri0a.matrico">triangula</ref>,
       <ref cel="simetr.0a.matrico">simetria</ref>,
       <ref cel="hermit.0a.matrico">hermita</ref>,
-      <ref cel="kvadra1.0a.matrico">kvadrata</ref>;
+      <ref cel="regul.0a.matrico">regula</ref>;
       
       operacioj super matricoj:
       <ref cel="adici.matrica0o"><tld/>a adicio</ref>,
@@ -193,14 +196,16 @@
       <klr>(de <ref tip="super" cel="matric.n_p0o">(n,p)-<tld/>o</ref> A)</klr>
       Tia (n',p')-<tld/>o, ke (1) n'&#x2264;n kaj p'&#x2264;p, (2) la elemento
       de B kun indico (i,j) egalas al la elemento de A kun indico
-      (i+i<sub>0</sub>,j+j<sub>0</sub>), kie i<sub>0</sub>&#x2264;(n-n')
-      kaj j<sub>0</sub>&#x2264;(p-p'):
+      (&alfa;(i),&beta;(j)), kie &alfa; (resp. &beta;) estas strikte 
+      <ref cel="kresk.0anta.bildigo">kreskanta</ref> bildigo 
+      de {1, 2, ..., n'} al {1, 2, ..., n} 
+      (resp. de {1, 2, ..., p'} al {1, 2, ..., p}):
       <ekz>
         el (n,p)-<tld/>o oni povas formi p sub<tld/>ojn kun dimensioj (n,1);
       </ekz>
       <ekz>
-        eblas prezenti al si sub<tld/>on B per iu rektangula parto de la tabelo,
-        kiu prezentas <tld/>on A.
+        eblas prezenti al si sub<tld/>on B per tio, kio restas el <tld/>o, kiam
+        oni forstrekis iujn horizontalojn kaj vertikalojn de &gcirc;i.
       </ekz>
     </dif>
   </snc>
@@ -262,7 +267,7 @@
         la unuo<tld/>o;
       </ekz>
       <ekz>
-        la <tld/>o de kunligo de du homomorfioj egalas al la produto de
+        la <tld/>o de kunliga&jcirc;o de du homomorfioj egalas al la produto de
         la <tld/>oj de &ccirc;iu homomorfio.
       </ekz>
     </dif>
@@ -272,6 +277,9 @@
 </art>
 <!--
 $Log$
+Revision 1.10  2001/11/04 19:18:12  revo
+Marc Bavant: permutis dif de ~o MAT kaj (n,p)-~o; unuo~o, nul~o: mod ref al matrico; mod ref al multipliko per skalaro
+
 Revision 1.9  2001/11/02 19:13:41  revo
 Marc Bavant: ~o MAT: kor ekz, +ref al multipliko per skalaro, rango, spuro, determinanto, hermita; +drv ~o de homomorfio; sxovis ref al utero; (n,p)-~o: +sncref, mod ref tip al ~o; unuo~o: kor dif, +ekz
 Revision 1.8  2001/10/29 19:12:25  revo
