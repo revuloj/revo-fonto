@@ -71,7 +71,7 @@
 </drv>
 <drv mrk="bar.0o">
     <kap><tld/>o</kap>
-    <snc>
+    <snc mrk="bar.0o.KOMUNE">
       <dif>
         Io, kio <tld/>as a&ubreve; malhelpas:
         <ekz>
@@ -97,16 +97,47 @@
       <refgrp tip="vid">
         <ref cel="mur.0o">muro</ref>.
       </refgrp>
+      <trdgrp lng="cs">
+        <trd>hradba</trd>,
+        <trd>p&rcaron;ek&aacute;&zcaron;ka</trd>
+      </trdgrp>
+      <trdgrp lng="de"><trd>Sperre</trd>, <trd>Hindernis</trd></trdgrp>
+      <trdgrp lng="fr">
+        <trd>obstacle</trd>,
+        <trd>barri&egrave;re (fig.)</trd></trdgrp>
+      <trd lng="ru">&c_p;&c_r;&c_je;&c_g;&c_r;&c_a;&c_d;&c_a;</trd>
     </snc>
-    <trdgrp lng="cs">
-      <trd>hradba</trd>,
-      <trd>p&rcaron;ek&aacute;&zcaron;ka</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>obstacle</trd>,
-      <trd>barri&egrave;re (fig.)</trd></trdgrp>
-    <trdgrp lng="de"><trd>Sperre</trd>, <trd>Hindernis</trd></trdgrp>
-    <trd lng="ru">&c_p;&c_r;&c_je;&c_g;&c_r;&c_a;&c_d;&c_a;</trd>
+
+      <snc mrk="bar.0o.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <fnt>PIV</fnt>
+        <dif>
+          <klr>(de subaro <em>A</em> de orda aro (<em>E</em>, <em>R</em>))</klr>
+          Tia elemento b en <em>E</em>, ke por &ccirc;iu x en <em>A</em> 
+          validas x<em>R</em>b:
+          <ekz>
+            <ind>supra <tld/>o</ind> 
+            <klr>(kiam la rilato estas &#x2264;)</klr>;
+            <trd lng="fr">majorant</trd>
+          </ekz>
+          <ekz>
+            <ind>malsupra <tld/>o</ind> 
+            <klr>(kiam la rilato estas &#x2265;)</klr>;
+            <trd lng="fr">minorant</trd>
+          </ekz>
+          <ekz>
+            la aro de &ccirc;iuj malsupraj baroj de la reela intervalo
+            [0,1[ estas la aro de strikte negativaj reeloj; 
+          </ekz>
+          <ekz>
+            la aro de reeloj akceptas nek supran, nek malsupran <tld/>on.
+          </ekz>
+        </dif>
+        <refgrp tip="sub">
+          <ref cel="suprem.0o">supremo</ref>,
+          <ref cel="infim.0o">infimo</ref>.
+        </refgrp>
+      </snc>
 </drv>
 <drv mrk="bar.0ajxo">
     <kap><tld/>a&jcirc;o</kap>
@@ -171,7 +202,10 @@
         la aro de &ccirc;iuj reeloj inter 0 kaj 1 estas <tld/>ita;
       </ekz>
       <ekz>
-        la bildaro de la vico (1/n) ne estas <tld/>ita.
+        la bildaro de la vico (1/n) ne estas <tld/>ita;
+      </ekz>
+      <ekz>
+        <tld/>ita bildigo <klr>(t.e., kies bildaro estas <tld/>ita)</klr>.
       </ekz>
     </dif>
   </snc>
@@ -251,6 +285,9 @@ detran&ccirc;itaj
 </art>
 <!--
 $Log$
+Revision 1.13  2001/01/28 17:14:00  revo
+Marc Bavant: +drv ~ita kun senco MAT
+
 Revision 1.12  2000/12/10 18:45:55  revo
 uzo tip=stl
 
@@ -266,9 +303,6 @@ Yury Finkel: korekto de tajperaro en rusa trd
 
 Revision 1.8  2000/08/31 16:12:01  revo
 Yury Finkel: +rusa trd
-
-Revision 1.7  2000/03/28 20:05:12  revo
-Wolfram Diestel: aldonis ekz-fontojn, germ trd-ojn
 
 -->
 </vortaro>
