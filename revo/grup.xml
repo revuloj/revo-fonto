@@ -60,7 +60,7 @@
   </snc>
   <snc mrk="grup.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
     <dif>
       Tia <ref tip="super" cel="magm.0o.MAT">magmo</ref> (<em>E</em>,T),
       ke &gcirc;ia <ref cel="operac.0o.MAT">operacio</ref> T estas
@@ -69,8 +69,8 @@
       en <em>E</em>, kaj ke por &ccirc;iu elemento en <em>E</em> ekzistas
       &gcirc;ia <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>:
       <ekz>
-        <ind>adicia <tld/>o</ind> <klr>(kies operacio estas adicie
-        signata)</klr>
+        <ind>adicia <tld/>o</ind> <klr>(komuteca <tld/>o, kies operacio estas 
+        adicie signata)</klr>
         <fnt><bib>MatVort</bib></fnt>;
         <trd lng="de">additive <ind>Grup</ind></trd>
         <trd lng="en">additive <ind>group</ind></trd>
@@ -80,12 +80,7 @@
       <ekz>
         <tld/>o estas <ref tip="super" cel="monojd.0o">monojdo</ref>,
         kies &ccirc;iuj elementoj estas
-        <ref cel="neuxtr.0igebla.MAT">ne&ubreve;trigeblaj</ref>;
-      </ekz>
-      <ekz>
-        la aro de &ccirc;iuj <ref cel="jxet.dissur0o">bijekcioj</ref>
-        de iu aro al si mem, konsiderata kune kun
-        <ref cel="lig.kun0o.MAT">kunligo</ref> estas <tld/>o.
+        <ref cel="neuxtr.0igebla.MAT">ne&ubreve;trigeblaj</ref>.
       </ekz>
     </dif>
   </snc>
@@ -168,6 +163,24 @@
   <trd lng="fr">sous-groupe</trd>
   <trd lng="nl">ondergroep</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
+</drv>
+
+<drv mrk="grup.alterna0o">
+  <kap>alterna <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(de finia aro <em>E</em>)</klr>
+      Sub<tld/>o de ties simetria 
+      <ref tip="super" cel="grup.0o.MAT">grupo</ref>, konsistanta el la
+      <ref cel="par.0a.permuto">paraj</ref> permutoj.
+    </dif>
+  </snc>
+  <trd lng="de">alternierende <ind>Gruppe</ind></trd>
+  <trd lng="en">alternating <ind>group</ind></trd>
+  <trd lng="fr">groupe <ind>altern&eacute;</ind></trd>
+  <trd lng="ru">&c_z;&c_n;&c_a;&c_k;&c_o;&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="grup.arhximeda0o">
@@ -255,7 +268,7 @@
       </dif>
     </subsnc>
   </snc>
-  <trd lng="de">Galoissche <ind>Gruppe</ind><klr tip="ind"> (von K' uber
+  <trd lng="de">Galoissche <ind>Gruppe</ind><klr tip="ind"> (von K' &uuml;ber
   K, einer Gleichung)</klr></trd>
   <trd lng="en">Galois['s] <ind>group<klr tip="ind"> (of K' with respect
   to K, of an equation)</klr></ind></trd>
@@ -270,9 +283,32 @@
     Fonto trovenda. <aut>MB</aut>
   </adm>
 </drv>
+
+<drv mrk="grup.simetria0o">
+  <kap>simetria <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(de finia aro <em>E</em>)</klr>
+      <ref tip="super" cel="grup.0o.MAT">Grupo</ref>, konsistanta el la aro
+      de &ccirc;iuj <ref cel="bijekc.0o">bijekcioj</ref> super <em>E</em>, 
+      provizita per la operacio <ref cel="lig.kun0o.MAT">kunligo</ref>; 
+      alidire: <tld/>o de &ccirc;iuj <ref cel="substi.0o.MAT">substituoj</ref>
+      super <em>E</em>.
+    </dif>
+  </snc>
+  <trd lng="de">symmetrische <ind>Gruppe</ind></trd>
+  <trd lng="en">symmetric <ind>group</ind></trd>
+  <trd lng="fr">groupe <ind>sym&eacute;trique</ind></trd>
+  <trd lng="ru">&c_s;&c_i;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.19  2002/01/29 17:32:35  revo
+Paul Peeraerts: ald trd nl
+
 Revision 1.18 2002/01/13 17:31:15 revo
 Marc Bavant: +drv galeza ~o; sub~o: +fnt, +klr en dif
 
@@ -289,8 +325,5 @@ Revision 1.13 2001/05/27 18:19:32 revo
 Jose Martin del Pozo: trd es
 Revision 1.12 2001/05/21 18:14:30 revo
 Yury Finkel: +trd ru
-Revision 1.11 2001/03/31 18:08:06 revo
-Marc Bavant: +drv fundamenta ~o, +trd ru cxe MAT terminoj
-Revision 1.10 2001/01/09 21:52:32 revo
 -->
 </vortaro>
