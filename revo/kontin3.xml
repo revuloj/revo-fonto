@@ -4,22 +4,24 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
+<ofc>4</ofc>
 <rad>kontinu</rad>/a
 <fnt>Z</fnt>
 </kap>
 <drv mrk="kontin3.0a">
 <kap><tld/>a</kap>
+<snc>
 <dif>
-Konsistanta el eroj, kiuj formas seninterrompan, senmankan vicon:  
+Konsistanta el eroj, kiuj formas seninterrompan, senmankan vicon:
 </dif>
-<snc num="1">
+<subsnc>
 <dif>
 En tempo: <ekz><tld/>a pluvo, elektra fluo, febro, bruo;
 </ekz> <ekz>fulmoj <tld/>e zigzagas.
 </ekz>
 </dif>
-</snc>
-<snc num="2">
+</subsnc>
+<subsnc>
 <dif>
 En spaco: <ekz><tld/>a muro;
 </ekz> <ekz><tld/>a linio;
@@ -27,30 +29,86 @@ En spaco: <ekz><tld/>a muro;
 <klr>(ordigitaj la&ubreve; la ordo: a a b b c c)</klr>.
 (<refgrp tip="vid">
 <ref cel="altern">alterna</ref>,
-<ref cel="kruc.0a">kruca</ref>)
-</refgrp>.
+<ref cel="kruc.0a">kruca</ref>
+</refgrp>).
 </ekz>
 </dif>
-<refgrp tip="sin">
+</subsnc>
+<refgrp tip="vid">
 <ref cel="konsta.0a">konstanta</ref>,
-<ref cel="cxes.sen0a">sen&ccirc;esa</ref>, 
-<ref cel="halt.sen0a">senhalta</ref>, 
+<ref cel="cxes.sen0a">sen&ccirc;esa</ref>,
+<ref cel="halt.sen0a">senhalta</ref>,
 <ref cel="dauxr.0a">da&ubreve;ra</ref>.
 </refgrp>
 </snc>
+
+       <snc mrk="kontin3.0a.cxepunkto">
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           <klr>(p.p. <ref cel="bild.0igo">bildigo</ref> f de
+           <ref cel="spac.topologia0o">topologia spaco</ref> <em>E</em> al
+           topologia spaco <em>F</em>, &ccirc;e punkto
+           a&#x2208;<em>E</em>)</klr>
+           Tia, ke &ccirc;iu ajn
+           <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+           de f(a) inkluzivas la bildon per f de certa
+           &ccirc;irka&ubreve;a&jcirc;o de a.
+         </dif>
+         <rim>
+           En malpli faka lingva&jcirc;o : f(x) senlime proksimi&gcirc;as al
+           f(a), kiam x senlime proksimi&gcirc;as al a.
+         </rim>
+       </snc>
+
+       <snc mrk="kontin3.0a.cxie">
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           <klr>(p.p. <ref cel="bild.0igo">bildigo</ref> f de
+           <ref cel="spac.topologia0o">topologia spaco</ref> <em>E</em> al
+           topologia spaco <em>F</em>)</klr>
+           Tia, ke &gcirc;i estas <tld/>a <sncref ref="kontin3.0a.cxepunkto"/>
+           &ccirc;e &ccirc;iuj punktoj de <em>E</em>:
+           <ekz>
+             f estas <tld/>a, se kaj nur se la inversa bildo de &ccirc;iu ajn
+             <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref> de
+             <em>F</em> estas malfermita subaro de <em>E</em>;
+           </ekz>
+           <ekz>
+             la idento-bildigo de <em>E</em> al si mem (kun la sama topologio)
+             estas <tld/>a;
+           </ekz>
+           <ekz>
+             kiu ajn bildigo inter topologiaj spacoj kun diskreta topologio
+             estas <tld/>a.
+           </ekz>
+         </dif>
+       </snc>
+     <trd lng="fr">continu</trd>
+     <trd 
+lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
+
 </drv>
+
 <drv mrk="kontin3.0eco">
 <kap><tld/>eco</kap>
 <snc>
 <dif>
-Neinterrompita  interligo de partoj a&ubreve; periodoj: <ekz><tld/>eco de la spino;
+Eco de io <tld/>a; neinterrompita interligo de partoj a&ubreve; periodoj:
+<ekz><tld/>eco de la spino;
+</ekz> <ekz>esplori la <tld/>econ de funkcio<uzo tip="fak">MAT</uzo>
+;
 </ekz> <ekz>rompo de <tld/>eco;
 </ekz> <ekz>la <tld/>eco de tiu bruo estas netolerebla;
-</ekz> <ekz>nia lingvo, dank' al la reguleco de sia progresado,  neniam perdas la <tld/>econ kun la lingvo de tempo pli frua<fnt>Z</fnt>.
-</ekz> 
+</ekz> <ekz>nia lingvo, dank' al la reguleco de sia progresado,  neniam 
+perdas la <tld/>econ kun la lingvo de tempo pli frua<fnt>Z</fnt>.
+</ekz>
 </dif>
 </snc>
+<trd lng="fr">continuit&eacute;</trd>
+<trd 
+lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
 </drv>
+
 <drv mrk="kontin3.0i">
 <kap><tld/>i</kap>
 <gra><vspec>ntr</vspec></gra>
@@ -60,17 +118,28 @@ Esti <tld/>a: <ekz>la kolekto <tld/>as de la unua jaro &gcirc;is hodia&ubreve;.
 </ekz>
 </dif>
 </snc>
+<trdgrp lng="fr">
+   <trd>se <ind>poursuivre</ind></trd>,
+   <trd>continuer (intr.)</trd></trdgrp>
 </drv>
+
 <drv mrk="kontin3.0igi">
 <kap><tld/>igi<fnt>Z</fnt></kap>
 <snc>
 <dif>
-Fari, ke io estu <tld/>a: <ekz>li <tld/>igis la laboron de siaj anta&ubreve;intoj
+Fari, ke io estu <tld/>a: <ekz>li <tld/>igis la laboron de siaj 
+anta&ubreve;intoj
 </ekz>
 </dif>
 <refgrp tip="sin">
 <ref cel="dauxr.0igi">da&ubreve;rigi</ref>.
 </refgrp>
 </snc>
+<trd lng="fr">continuer (tr.)</trd>
 </drv>
-</art></vortaro>
+</art>
+
+<!--
+$Log$
+-->
+</vortaro>
