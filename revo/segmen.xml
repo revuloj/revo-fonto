@@ -12,80 +12,131 @@
   <uzo tip="fak">MAT</uzo>
   <snc mrk="segmen.0o.gxenerale">
     <dif>
-      <klr>(&gcirc;enerale, en elementa geometrio)</klr>
-      Certa parto de
-      <ref tip="malprt" cel="figur.geometria0o">geometria figuro</ref>.
+      <klr>(&gcirc;enerale, en geometrio)</klr>
+      Iu parto de
+      <ref tip="malprt" cel="figur.geometria0o">geometria figuro</ref>:
     </dif>
-  </snc>
-  <snc mrk="segmen.0o.linio">
-    <dif>
-      <klr>(de <ref tip="malprt" cel="lini.0o.MAT">linio</ref>)</klr>
-      Parto de &gcirc;i, entenata inter du &gcirc;iaj punktoj:
-      <ekz>
-        <tld/>o de hiperbolo;
-      </ekz>
-      <ekz>
-        <ind><tld/>o de rekto</ind>
-        <klr>(alidire: <ref cel="strek.0o.segmento">streko</ref>)</klr>;
-        <trd lng="de">Strecke</trd>
-        <trd lng="fr">segment de droite</trd>
-        <trd lng="ru">&c_o;&c_t;&c_r;&c_je;&c_z;&c_o;&c_k;</trd>
-      </ekz>
-      <ekz>
-        la du punktojn, limantajn <tld/>on, oni nomas &gcirc;iaj
-        <ref tip="prt" cel="ekstre.0o.segmento">ekstremoj</ref>.
-      </ekz>
-    </dif>
-    <rim>
-      La vorto <ctl>inter</ctl> en la difino supozigas, ke oni difinis
-      certan ordon, ekz-e la manieron trairi la linion, sed la <tld/>o
-      mem ne dependas de &gcirc;i.
-    </rim>
-    <trd lng="fr">segment<klr tip="amb"> (de courbe)</klr></trd>
-    <trd lng="ru">&c_k;&c_u;&c_s;&c_o;&c_k;<klr tip="amb"> (&c_k;&c_r;&c_i;&c_v;&c_o;&c_j;)</klr></trd>
-  </snc>
-  <snc mrk="segmen.0o.cirklo">
-    <fnt><bib>PV</bib></fnt>
-    <dif>
-      <klr>(de <ref cel="cirkl.0o.surfaco">cirklo</ref>)</klr>
-      Parto de &gcirc;i, entenata inter <tld/>o
-      <sncref ref="segmen.0o.linio"/> de &gcirc;ia
-      <ref cel="rand.0o.figuro">rando</ref> kaj la responda
-      <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref>.
-    </dif>
-    <trd lng="fr">segment<klr tip="amb"> (de cercle)</klr></trd>
-    <trd lng="ru">&c_s;&c_je;&c_g;&c_m;&c_je;&c_n;&c_t;</trd>
+    <subsnc mrk="segmen.0o.linio">
+      <dif>
+        <klr>(de <ref tip="malprt" cel="lini.0o.MAT">linio</ref>)</klr>
+        Parto de &gcirc;i, entenata inter du &gcirc;iaj punktoj:
+        <ekz>
+          <tld/>o de hiperbolo;
+        </ekz>
+        <ekz>
+          la du punktojn, limantajn <tld/>on, oni nomas &gcirc;iaj
+          <ref tip="prt" cel="ekstre.0o.segmento">ekstremoj</ref>.
+        </ekz>
+      </dif>
+      <adm>
+        Fonto trovenda. <aut>MB</aut>
+      </adm>
+      <rim>
+        La vorto <ctl>inter</ctl> en la difino supozigas, ke oni difinis
+        certan ordon, ekz-e la manieron trairi la linion, sed la <tld/>o
+        mem ne dependas de &gcirc;i.
+      </rim>
+      <trd lng="de">Kurvenst&uuml;ck</trd>
+      <trd lng="en">segment<klr tip="amb"> (of a curve)</klr></trd>
+      <trd lng="fr">segment<klr tip="amb"> (de courbe)</klr></trd>
+      <trd lng="ru">&c_k;&c_u;&c_s;&c_o;&c_k;<klr tip="amb"> (&c_k;&c_r;&c_i;&c_v;&c_o;&c_j;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="segmen.0o.rekto">
+      <fnt><bib>MatTerm</bib><lok>p. 22</lok></fnt>
+      <dif>
+        <klr>(de <ref tip="malprt" cel="rekt.0o.MAT">rekto</ref>)</klr>
+      </dif>
+      <ref tip="dif" cel="strek.0o.segmento">streko.</ref>
+      <trd lng="en">line <ind>segment</ind></trd>
+      <trd lng="de">Strecke</trd>
+      <trd lng="fr">segment de droite</trd>
+      <trd lng="ru">&c_o;&c_t;&c_r;&c_je;&c_z;&c_o;&c_k;</trd>
+    </subsnc>
+    <subsnc mrk="segmen.0o.cirklo">
+      <fnt><bib>MatTerm</bib><lok>p. 28</lok></fnt>
+      <dif>
+        <klr>(de <ref cel="cirkl.0o.surfaco">cirklo</ref>)</klr>
+        Parto de &gcirc;i, entenata inter <tld/>o
+        <sncref ref="segmen.0o.linio"/> de &gcirc;ia
+        <ref cel="rand.0o.figuro">rando</ref> kaj la responda
+        <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref>.
+      </dif>
+      <rim>
+        Oni ne konfuzu &ccirc;i-specan <tld/>on de cirkla surfaco kun la 
+        <tld/>o <sncref ref="segmen.0o.linio"/> de cirkla linio, kutime
+        nomata <ctl>arko</ctl>. Eble pro tio Werner
+        <fnt><bib>MatVort</bib></fnt> preferas la terminon 
+        <ctl>disko<tld/>o</ctl>.
+      </rim>
+      <trd lng="de">Kreisabschnitt</trd>
+      <trd lng="en">circular <ind>segment</ind></trd>
+      <trd lng="fr">segment<klr tip="amb"> (de cercle)</klr></trd>
+      <trd lng="ru">&c_k;&c_r;&c_u;&c_g;&c_o;&c_v;&c_o;&c_j; <ind>&c_s;&c_je;&c_g;&c_m;&c_je;&c_n;&c_t;</ind></trd>
+    </subsnc>
+    <subsnc mrk="segmen.0o.sfero">
+      <fnt><bib>MatVort</bib><lok>segmento de globo</lok></fnt>
+      <dif>
+        <klr>(de <ref tip="malprt" cel="sfer.0o.solido">sfera solido</ref>)</klr>
+        &Ccirc;iu el &gcirc;iaj partoj situantaj amba&ubreve;flanke de
+        &gcirc;in sekcanta ebeno.
+      </dif>
+      <refgrp tip="super">
+        <ref cel="tavol.glob0o">globtavolo</ref>.
+      </refgrp>
+      <rim>
+        Werner <fnt><bib>MatVort</bib></fnt> preferas la terminon 
+        <ctl>glob<tld/>o</ctl>.
+      </rim>
+      <trd lng="de">Kugelabschnitt</trd>
+      <trd lng="en">spherical <ind>segment</ind></trd>
+      <trd lng="fr">segment<klr tip="amb"> (sph&eacute;rique)</klr></trd>
+      <trd lng="ru">&c_sh;&c_a;&c_r;&c_o;&c_v;&c_o;&c_j; <ind>&c_s;&c_je;&c_g;&c_m;&c_je;&c_n;&c_t;</ind></trd>
+    </subsnc>
   </snc>
   <snc mrk="segmen.0o.reela">
     <dif>
       Fermita reela <ref cel="interv.0o">intervalo</ref>.
     </dif>
-    <trd lng="fr">segment<klr tip="amb"> (intervalle)</klr></trd>
+    <adm>
+      Fonto trovenda. <aut>MB</aut>
+    </adm>
+    <trdgrp lng="de">
+      <trd>abgeschlossenes <ind>Intervall</ind></trd>,
+      <trd>Segment<klr tip="ind"> (Intervall)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>closed <ind>interval</ind></trd>,
+      <trd>segment<klr tip="ind"> (interval)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>intervalle ferm&eacute;</trd>,
+      <trd>segment<klr tip="ind"> (intervalle)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_r;&c_v;&c_a;&c_l;</ind></trd>,
+      <trd>&c_o;&c_t;&c_r;&c_je;&c_z;&c_o;&c_k;<klr tip="ind"> (&c_i;&c_n;&c_t;&c_je;&c_r;&c_v;&c_a;&c_l;)</klr></trd>
+    </trdgrp>
   </snc>
-  <trd lng="de">Segment</trd>
   <trd lng="nl">segment</trd>
   <trd lng="ru">&c_s;&c_je;&c_g;&c_m;&c_je;&c_n;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.11 2002/02/07 17:32:41 revo
+Yury Finkel: +trd ru
 Revision 1.10 2001/10/22 18:12:42 revo
 Marc Bavant: mod fnt
-
 Revision 1.9 2001/09/05 19:06:39 revo
 Dennis Wibrow: +trd germ
-
 Revision 1.8 2001/07/01 18:13:53 revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.7 2001/04/21 18:45:48 revo
 Marc Bavant: mod rim cxe segmen.0o.linio
-
 Revision 1.6 2001/04/04 16:19:01 revo
 Marc Bavant: kor ref tip al geometria figuro cxe ~o 1; +ref tip (malprt)
 al linio cxe ~o 2; +ref tip (prt) al ekstremoj cxe ~o 2; -ref tip al
 streko cxe ekz rekta ~o
-
 Revision 1.5 2001/03/31 18:07:41 revo
 Marc Bavant: reverkis
 -->
