@@ -4,17 +4,19 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>simetri</rad>/o
+  <ofc>1</ofc>
+  <rad>simetri</rad>/o
 </kap>
 <drv mrk="simetr.0o">
-  <kap><tld/>o</kap>
+  <kap>
+    <tld/>o
+  </kap>
   <snc mrk="simetr.0o.BELA">
     <uzo tip="fak">BELA</uzo>
     <dif>
       Harmonio rezultanta el proporcieco kaj regula aran&gcirc;o de partoj:
       <ekz>
-        <tld/>o estas bazo de arkitekturo, same kiel ritmo estas 
+        <tld/>o estas bazo de arkitekturo, same kiel ritmo estas
         bazo de poezio a&ubreve; muziko.
       </ekz>
     </dif>
@@ -87,8 +89,11 @@
   <trd lng="fr">sym&eacute;trie</trd>
   <trd lng="nl">symmetrie</trd>
 </drv>
+
 <drv mrk="simetr.0a">
-  <kap><tld/>a</kap>
+  <kap>
+    <tld/>a
+  </kap>
   <snc>
     <dif>
       Havanta <tld/>on, aran&gcirc;ita kun <tld/>o:
@@ -103,61 +108,76 @@
       </ekz>
     </dif>
   </snc>
-  <snc mrk="simetr.0a.figuro">
+  <snc mrk="simetr.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
-    <dif>
-      <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
-      Tia, ke <tld/>o lasas &gcirc;in sen&scirc;an&gcirc;a; alidire:
-      per certa <tld/>o, la bildo de ajna punkto de &gcirc;i apartenas
-      al &gcirc;i:
-      <ekz>
-        sfero estas <tld/>a rilate al sia centro kaj al &ccirc;iu
-        rekto a&ubreve; ebeno enhavanta &gcirc;ian centron;
-      </ekz>
-      <ekz>
-        elipso estas <tld/>a rilate al siaj fokusa kaj nefokusa aksoj.
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="simetr.0a.rilato">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="rilat.interna0o">interna rilato</ref>
-      <em>R</em>)</klr>
-      Tia, ke &gcirc;i egalas al sia
-      <ref cel="rilat.inversa0o">inverso</ref> <em>R</em><sup>-1</sup>:
-      <ekz>
-        la <ref cel="rilat.idento0o">idento-rilato</ref> estas <tld/>a;
-      </ekz>
-      <ekz>
-        se <em>R</em> estas <tld/>a, de la fakto, ke x<em>R</em>y,
-        sekvas, ke y<em>R</em>x;
-      </ekz>
-      <ekz>
-        <tld/>eco estas nepra eco de
-        <ref cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>.
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="simetr.0a.bildigo">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="bild.0igo">bildigo</ref> de <em>E</em><sup>n</sup>
-      al <em>F</em>, kun n&#x2265;2)</klr>
-      Tia, ke &gcirc;i &jcirc;etas &ccirc;iujn opojn kun permutitaj
-      termoj al la sama bildo:
-      <ekz>
-        se n=2, f(x,y)=f(y,x) por &ccirc;iu ajn x,y.
-      </ekz>
-    </dif>
+    <subsnc mrk="simetr.0a.figuro">
+      <fnt><bib>PIV1</bib></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
+        Tia, ke <tld/>o lasas &gcirc;in sen&scirc;an&gcirc;a; alidire:
+        per certa <tld/>o, la bildo de ajna punkto de &gcirc;i apartenas
+        al &gcirc;i:
+        <ekz>
+          sfero estas <tld/>a rilate al sia centro kaj al &ccirc;iu
+          rekto a&ubreve; ebeno enhavanta &gcirc;ian centron;
+        </ekz>
+        <ekz>
+          elipso estas <tld/>a rilate al siaj fokusa kaj nefokusa aksoj.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="simetr.0a.matrico">
+      <fnt><bib>MatVort</bib></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="kvadra1.0a.matrico">kvadrata</ref>
+        <ref cel="matric.0o.MAT">matrico</ref>)</klr>
+        Tia, ke &ccirc;iu &gcirc;ia elemento kun indico (i,j) egalas
+        al tiu kun indico (j,i):
+        <ekz>
+          <tld/>a matrico egalas al sia transpona&jcirc;o.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="simetr.0a.rilato">
+      <dif>
+        <klr>(p.p. <ref cel="rilat.interna0o">interna rilato</ref>
+        <em>R</em>)</klr>
+        Tia, ke &gcirc;i egalas al sia
+        <ref cel="rilat.inversa0o">inverso</ref> <em>R</em><sup>-1</sup>:
+        <ekz>
+          la <ref cel="rilat.idento0o">idento-rilato</ref> estas <tld/>a;
+        </ekz>
+        <ekz>
+          se <em>R</em> estas <tld/>a, de la fakto, ke x<em>R</em>y,
+          sekvas, ke y<em>R</em>x;
+        </ekz>
+        <ekz>
+          <tld/>eco estas nepra eco de
+          <ref cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="simetr.0a.bildigo">
+      <dif>
+        <klr>(p.p. <ref cel="bild.0igo">bildigo</ref> de <em>E</em><sup>n</sup>
+        al <em>F</em>, kun n&#x2265;2)</klr>
+        Tia, ke &gcirc;i &jcirc;etas &ccirc;iujn opojn kun permutitaj
+        termoj al la sama bildo:
+        <ekz>
+          se n=2, f(x,y)=f(y,x) por &ccirc;iu ajn x,y.
+        </ekz>
+      </dif>
+    </subsnc>
   </snc>
   <trd lng="de">symmetrisch</trd>
   <trd lng="fr">sym&eacute;trique</trd>
   <trd lng="nl">symmetrisch</trd>
 </drv>
+
 <drv mrk="simetr.mal0a">
-  <kap>mal<tld/>a</kap>
+  <kap>
+    mal<tld/>a
+  </kap>
   <uzo tip="fak">MAT</uzo>
   <snc mrk="simetr.mal0a.rilato">
     <dif>
@@ -180,11 +200,13 @@
   </snc>
   <trd lng="de">asymmetrisch</trd>
   <trd lng="fr">antisym&eacute;trique</trd>
-  <trd
-  lng="ru">&c_a;&c_n;&c_t;&c_i;&c_s;&c_i;&c_m;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_a;&c_n;&c_t;&c_i;&c_s;&c_i;&c_m;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
 </drv>
+
 <drv mrk="simetr.0eco">
-  <kap><tld/>eco</kap>
+  <kap>
+    <tld/>eco
+  </kap>
   <snc>
     <dif>
       Eco de io <ref cel="simetr.0a">simetria</ref>:
@@ -201,24 +223,33 @@
   <trd lng="de">Symmetrie</trd>
   <trd lng="fr">sym&eacute;trie<klr tip="ind"> (qualit&eacute;)</klr></trd>
 </drv>
+
 <drv mrk="simetr.oblikva0o">
-  <kap>oblikva <tld/>o</kap>
+  <kap>
+    oblikva <tld/>o
+  </kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <ref tip="dif" cel="simetr.0o.oblikva"><tld/>o <sncref ref="simetr.0o.MAT"/><sncref ref="simetr.0o.oblikva"/>.</ref>
   </snc>
   <trd lng="fr">sym&eacute;trie oblique</trd>
 </drv>
+
 <drv mrk="simetr.orta0o">
-  <kap>orta <tld/>o</kap>
+  <kap>
+    orta <tld/>o
+  </kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <ref tip="dif" cel="simetr.0o.orta"><tld/>o <sncref ref="simetr.0o.MAT"/><sncref ref="simetr.0o.orta"/>.</ref>
   </snc>
   <trd lng="fr">sym&eacute;trie orthogonale</trd>
 </drv>
+
 <drv mrk="simetr.vektora0o">
-  <kap>vektora <tld/>o</kap>
+  <kap>
+    vektora <tld/>o
+  </kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <ref tip="dif" cel="simetr.0o.vektora"><tld/>o <sncref ref="simetr.0o.MAT"/><sncref ref="simetr.0o.vektora"/>.</ref>
@@ -228,24 +259,20 @@
 </art>
 <!--
 $Log$
+Revision 1.11  2001/10/22 18:13:04  revo
+Marc Bavant: ~o: +mrk; +fnt cxe snc MAT; kompletigis sncref cxe la 3 lastaj drv; sxovis iliajn fakindikojn
 Revision 1.10  2001/09/15 19:28:34  revo
 Dennis Wibrow: +trd germ
-
 Revision 1.9  2001/06/09 18:49:50  revo
 Marc Bavant: +drv ~eco; sxovis unuan snc de ~o al la dua loko (= ~eco); +ekz k uzo BELA por la nova unua snc; sxovis ekz-ojn kun ~a, ~e al ~a; kunigis snc-ojn MAT de ~o en unu; +trd fr
-
 Revision 1.8  2001/04/17 16:22:14  revo
 Marc Bavant: ~o: +snc MAT; ~a : +snc MAT; +drv oblikva, orta, vektora ~o; forigis troajn em
-
 Revision 1.7  2001/02/17 20:33:08  revo
 oficialeco per programo de JM Lugrin
-
 Revision 1.6  2000/11/24 17:11:47  revo
 Marc Bavant: +snc MAT cxe ~a (pp bildigo)
-
 Revision 1.5  2000/11/14 17:13:28  revo
 Joost Witteveen: +trd nl
-
 Revision 1.4  2000/10/02 16:13:51  revo
 -->
 </vortaro>
