@@ -29,42 +29,72 @@
       <ref tip="super" cel="homomo.0a.bildigo">Homomorfia</ref> rilate al
       la koncerna strukturo:
       <ekz>
-        por ke bildigo f inter vektoraj spacoj estu <tld/>a, sufi&ccirc;as, ke
-        f(x+&alfa;&#8729;y)=f(x)+&alfa;&#8729;f(y), kiuj ajn estas x, y kaj 
-        &alfa;.
+        por ke bildigo <frm><k>f</k></frm> inter vektoraj spacoj estu <tld/>a,
+        sufi&ccirc;as, ke
+        <frm><k>f</k>(<k>x</k>+&alfa;&#8729;<k>y</k>) =
+        <k>f</k>(<k>x</k>)+&alfa;&#8729;<k>f</k>(<k>y</k>)</frm>, kiuj ajn estas
+        <frm><k>x</k></frm>, <frm><k>y</k></frm> kaj <frm>&alfa;</frm>.
       </ekz>
     </dif>
   </snc>
   <snc mrk="linear.0a.reelafunkcio">
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(p.p. reela <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
-      Tia, ke f(x)=&alfa;.x.
+      <klr>(p.p. reela <ref cel="funkci.0o.MAT">funkcio</ref>
+      <frm><k>f</k></frm>)</klr>
+      Tia, ke <frm><k>f</k>(<k>x</k>) = &alfa;<k>x</k></frm>.
     </dif>
   </snc>
   <ref tip="sin" cel="lini.0a.MAT">linia.</ref>
+  <trd lng="de">linear</trd>
+  <trd lng="en">linear</trd>
   <trd lng="fr">lin&eacute;aire</trd>
   <trd lng="nl">lineair</trd>
   <trd lng="pt">linear</trd>
+  <trd lng="pl">liniowy</trd>
   <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
 </drv>
 
-<drv mrk="linear.plur0a">
-  <kap>plur<tld/>a, n-<tld/>a</kap>
+<drv mrk="linear.n0a">
+  <kap>n-<tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV2</bib></fnt>
+  <fnt><bib>PIV2</bib><lok>sub formo: &leftquot;du-, tri-, plur-&rightquot;</lok></fnt>
   <snc>
     <dif>
       <klr>(p.p. <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
       <ref cel="produt.kartezia0o">kartezia produto</ref>
-      de n <ref cel="modul.0o.strukt">moduloj</ref>
-      <em>E</em><sub>i</sub> al modulo <em>F</em>)</klr>
-      Tia, ke &ccirc;iu parta bildigo &phi;(x<sub>i</sub>)=
-      f(a<sub>1</sub>,...,x<sub>i</sub>,...a<sub>n</sub>)
-      estas homomorfio de <em>E</em><sub>i</sub> al <em>F</em>:
+      de <frm><k>n</k></frm> <ref cel="modul.0o.strukt">moduloj</ref>
+      <frm><g>E</g><sub><k>i</k></sub></frm>
+      al modulo <frm><g>F</g></frm>)</klr>
+      Tia, ke &ccirc;iu parta bildigo
+      <frm>&phi;(<k>x</k><sub><k>i</k></sub>) =
+      <k>f</k>(<k>a</k><sub>1</sub>,..., <k>x</k><sub><k>i</k></sub>,
+      ...<k>a</k><sub><k>n</k></sub>)</frm>
+      estas homomorfio de <frm><g>E</g><sub><k>i</k></sub></frm>
+      al <frm><g>F</g></frm>:
       <ekz>
-        la bildigo f(x,y)=x&#xd7;y super
-        <ref cel="algebr.lineara0o.strukturo">algebro</ref> estas du<tld/>a.
+        la bildigo
+        <frm><k>f</k>(<k>x</k>,<k>y</k>) = <k>x</k>&#xd7;<k>y</k></frm>
+        super <ref cel="algebr.lineara0o.strukturo">algebro</ref>
+        estas <ind>du<tld/>a</ind>;
+        <trd lng="de">bilinear</trd>
+        <trd lng="en">bilinear</trd>
+        <trd lng="fr">bilin&eacute;aire</trd>
+        <trd lng="pl">dwuliniowy</trd>
+        <trdgrp lng="ru">
+          <trd>&c_b;&c_i;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>,
+          <trd>&c_d;&c_v;&c_u;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        <ind>plur<tld/>a</ind> bildigo 
+        <klr>(kun <frm><k>n</k> &gt; 1</frm>)</klr>.
+        <trd lng="de">multilinear</trd>
+        <trd lng="en">multilinear</trd>
+        <trd lng="fr">multilin&eacute;aire</trd>
+        <trd lng="nl">multilineair</trd>
+        <trd lng="pl">wieloliniowy</trd>
+        <trd lng="ru">&c_m;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
       </ekz>
     </dif>
     <rim>
@@ -72,11 +102,11 @@
       <ctl>bilineara</ctl><fnt><bib>MatVort</bib></fnt>.
     </rim>
   </snc>
-  <trd lng="de">multilinear</trd>
-  <trd lng="en">multilinear</trd>
-  <trd lng="fr">multilin&eacute;aire</trd>
-  <trd lng="nl">multilineair</trd>
-  <trd lng="ru">&c_m;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
+  <trd lng="de">n-linear</trd>
+  <trd lng="en">n-linear</trd>
+  <trd lng="fr">n-lin&eacute;aire</trd>
+  <trd lng="pl">n-liniowy</trd>
+  <trd lng="ru">n-&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="linear.konjug0a">
@@ -84,12 +114,14 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(p.p. <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> f inter du
+      <klr>(p.p. <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
+      <frm><k>f</k></frm> inter du
       <ref cel="spac.vektora0o">vektoraj spacoj</ref> super la korpo
       de <ref cel="komple.0o.MAT">kompleksoj</ref>)</klr>
-      Tia, ke &gcirc;i &jcirc;etas x+&alfa;&#8729;y al 
-      f(x)+&kappa;(&alfa;)&#8729;f(y),
-      kie &kappa; signas la operacion de <ref cel="konjug.0o">konjugo</ref>:
+      Tia, ke &gcirc;i &jcirc;etas <frm><k>x</k>+&alfa;&#8729;<k>y</k></frm>
+      al <frm><k>f</k>(<k>x</k>)+&kappa;(&alfa;)&#8729;<k>f</k>(<k>y</k>)</frm>,
+      kie <frm>&kappa;</frm> signas la operacion
+      <ref cel="konjug.0o">konjugo</ref>:
       <ekz>
         la konjugo mem estas konjug<tld/>a bildigo de la aro de
         kompleksoj al &gcirc;i mem.
@@ -98,14 +130,14 @@
     <ref tip="vid" cel="seskvi.0a">seskvilineara.</ref>
     <rim>
       Ni ne trovis fonton por tiu termino. &Scirc;ajnas, ke la formo
-      <ctl>konjug<tld/>a</ctl> estas la 
+      <ctl>konjug<tld/>a</ctl> estas la
       plej logika, sed la naciaj lingvoj plimulte preferas formojn de la tipo
-      <ctl>kontra&ubreve;lineara</ctl> (kial?) a&ubreve; la metaforon 
+      <ctl>kontra&ubreve;lineara</ctl> (kial?) a&ubreve; la metaforon
       <ctl>duon<tld/>a</ctl>, kiu kalembure pravigas la terminon
       <ctl>seskvilineara</ctl> (etimologie: unu-kaj-duon-lineara).
-      La donitan difinon oni povas vastigi al la okazo, kiam la vektoraj 
-      spacoj estas super ajna korpo, provizita per involucia a&ubreve;tomorfio 
-      &kappa;. Tiusence, lineara bildigo inter reelaj spacoj povas esti 
+      La donitan difinon oni povas vastigi al la okazo, kiam la vektoraj
+      spacoj estas super ajna korpo, provizita per involucia a&ubreve;tomorfio
+      &kappa;. Tiusence, lineara bildigo inter reelaj spacoj povas esti
       kvalifikata anka&ubreve; konjuglineara.
     </rim>
   </snc>
@@ -130,24 +162,24 @@
 </art>
 <!--
 $Log$
-Revision 1.16  2002/09/05 17:31:56  revo
+Revision 1.17 2002/10/21 16:33:54 revo
+Marc Bavant: mod operacion *
+Revision 1.16 2002/09/05 17:31:56 revo
 Eduardo M. Kalinowski: ald trd pt
-Revision 1.15  2002/05/27 17:18:49  revo
+Revision 1.15 2002/05/27 17:18:49 revo
 Marc Bavant: plur~a: +fnt
-Revision 1.14  2002/05/21 16:33:48  revo
+Revision 1.14 2002/05/21 16:33:48 revo
 Marc Bavant: mod ref al funkcio
-Revision 1.13  2002/05/20 16:37:24  revo
+Revision 1.13 2002/05/20 16:37:24 revo
 Marc Bavant: mod fnt
-Revision 1.12  2002/05/12 16:38:03  revo
+Revision 1.12 2002/05/12 16:38:03 revo
 Marc Bavant: plur~a: +rim, -adm
-Revision 1.11  2002/05/02 16:38:13  revo
+Revision 1.11 2002/05/02 16:38:13 revo
 Marc Bavant: konjug~a: kor trd lng cxe trd en, mod rim, -adm
 Revision 1.10 2002/01/06 17:45:22 revo
 Marc Bavant: mod ref cel al bildigo
 Revision 1.9 2001/12/02 17:33:35 revo
 Marc Bavant: ~a 2: mod klr
 Revision 1.8 2001/09/29 18:13:06 revo
-Marc Bavant: sxovis fakindikon; ~a: mod fnt PIV, -rim, +ref al linia; ~a 2: mod dif; plur~a: +adm, +trd en/de; +drv kontraux~a
-Revision 1.7 2001/08/27 18:15:58 revo
 -->
 </vortaro>
