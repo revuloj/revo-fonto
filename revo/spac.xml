@@ -193,13 +193,15 @@
       <ref cel="afin.0a">afina</ref>;
     </refgrp>
     <refgrp tip="sub">
-      Rimarkindaj bildigoj super afina spaco:
+      Bildigoj super afina spaco, kun specifaj ecoj:
+      <ref cel="afin.0a.bildigo">afina</ref>,
+      <ref cel="konkav.0a.bildigo">konkava</ref>,
+      <ref cel="konvek.0a.bildigo">konveksa</ref>;
+      rimarkindaj bildigoj:
       <ref cel="homote.0o">homotetio</ref>,
       <ref cel="projek.0o.oblikva">projekcio</ref>,
-      <ref cel="rotaci.0o.afina">rotacio</ref>,
       <ref cel="simetr.0o.oblikva">simetrio</ref>,
-      <ref cel="simil.0eco.afina">simileco</ref>,
-      <ref cel="transl.0o">translacio</ref>;
+      <ref cel="transl.0o.MAT">translacio</ref>;
     </refgrp>
     <refgrp tip="sub">
       Ekzemploj de afina spaco:
@@ -284,6 +286,19 @@
     <refgrp tip="vid">
       <ref cel="euxkli.0o">E&ubreve;klido</ref>.
     </refgrp>
+    <refgrp tip="sub">
+      Bildigoj super e&ubreve;klida (afina) spaco, kun specifaj ecoj:
+      <ref cel="izomet.0o">izometrio</ref>,
+      <ref cel="lok.de0igo.MAT">delokigo</ref>;
+      rimarkindaj bildigoj super e&ubreve;klida (afina) spaco:
+      <ref cel="projek.0o.orta">projekcio</ref>,
+      <ref cel="rotaci.0o.afina">rotacio</ref>,
+      <ref cel="simetr.0o.orta">simetrio</ref>,
+      <ref cel="simil.0eco.afina">simileco</ref>;
+      rimarkindaj bildigoj super e&ubreve;klida (vektora) spaco:
+      <ref cel="rotaci.0o.vektora">rotacio</ref>,
+      <ref cel="simil.0eco.vektora">simileco</ref>.
+    </refgrp>
   </snc>
   <trd lng="de">Euklidischer <ind>Raum</ind></trd>
   <trd lng="en">Euclidean <ind>space</ind></trd>
@@ -365,7 +380,13 @@
       <ref cel="bar.0ita.metrikaspaco">barita</ref>,
       <ref cel="kompak.antaux0a.MAT">anta&ubreve;kompakta</ref>,
       <ref cel="kompak.0a.metrikaspaco">kompakta</ref>,
-      <ref cel="komple2.0a.MAT">kompleta</ref>.
+      <ref cel="komple2.0a.MAT">kompleta</ref>;
+    </refgrp>
+    <refgrp tip="sub">
+      Bildigoj super metrika spaco, kun specifaj ecoj:
+      <ref cel="izomet.0o">izometrio</ref>,
+      <ref cel="kontin3.0a.cxie">kontinua</ref>,
+      <ref cel="kontin3.0ega">kontinuega</ref>.
     </refgrp>
   </snc>
   <trd lng="de">metrischer <ind>Raum</ind></trd>
@@ -433,7 +454,13 @@
       <ref cel="algebr.banahxa0o">bana&hcirc;a algebro</ref>;
     </refgrp>
     <refgrp tip="vid">
-      Rimarkindaj bildigoj super afina spaco:
+      Bildigoj super vektora spaco, kun specifaj ecoj:
+      <ref cel="homomo.0o">homomorfio</ref>,
+      <ref cel="endomo.0o">endomorfio</ref>,
+      <ref cel="izomor1.0o">izomorfio</ref>,
+      <ref cel="auxtom2.0o">a&ubreve;tomorfio</ref>,
+      <ref cel="homoge.0a.funkcio">homogena</ref>;
+      rimarkindaj bildigoj:
       <ref cel="projek.0o.vektora">projekcio</ref>,
       <ref cel="rotaci.0o.vektora">rotacio</ref>,
       <ref cel="simetr.0o.vektora">simetrio</ref>,
@@ -517,7 +544,12 @@
       <ref cel="dens.0a.subaro">densa</ref> subaro,
       <ref cel="ferm.0ita.topologio">fermita</ref> subaro,
       <ref cel="kompak.kvazaux0a.MAT">kvaza&ubreve;kompakta</ref> subaro,
-      <ref cel="ferm.mal0ita.topologio">malfermita</ref> subaro.
+      <ref cel="ferm.mal0ita.topologio">malfermita</ref> subaro;
+    </refgrp>
+    <refgrp tip="sub">
+      Bildigoj super topologia spaco, kun specifaj ecoj:
+      <ref cel="homeom.0o">homeomorfio</ref>,
+      <ref cel="kontin3.0a.cxie">kontinua</ref>.
     </refgrp>
   </snc>
   <trd lng="de">topologischer <ind>Raum</ind></trd>
@@ -553,18 +585,16 @@
 </art>
 <!--
 $Log$
+Revision 1.44  2002/06/16 17:33:48  revo
+Marc Bavant: vektora sub~o: +ekz; vektora ~o: mod refgrp
 Revision 1.43  2002/06/03 20:23:24  revo
 Marc Bavant: topologia ~o: +ref al vojkoneksa k simple koneksa
-
 Revision 1.42  2002/05/27 17:20:01  revo
 Marc Bavant: Xa ~o: mod fnt
-
 Revision 1.41  2002/05/20 16:35:21  revo
 Marc Bavant: hermita ~o: koherigis trd de kun aliaj
-
 Revision 1.40  2002/05/12 16:35:34  revo
 Marc Bavant: snc MAT: reordigis refgrp; afina sub~o: kor ref al bildo
-
 Revision 1.39  2002/05/03 16:33:13  revo
 Marc Bavant: afina ~o: mod dif (certa); mod "limo" al "rando"
 Revision 1.38  2002/04/01 18:50:13  revo
