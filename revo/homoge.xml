@@ -9,52 +9,65 @@
 </kap>
 <drv mrk="homoge.0a">
   <kap><tld/>a</kap>
-  <snc num="1">
+  <snc>
     <uzo tip="fak">SCI</uzo>
     <dif>
       Kies &ccirc;iuj partoj havas saman naturon, konsiston:
-      <ekz><tld/>a fanda&jcirc;o.</ekz>
+      <ekz>
+        <tld/>a fanda&jcirc;o.
+      </ekz>
     </dif>
     <refgrp tip="ant">
       <ref cel="hetero.0a">heterogena</ref>.
     </refgrp>
     <trdgrp lng="de">
-       <trd>homogen</trd>,
-       <trd>gleichm&auml;&szlig;ig</trd>
+      <trd>homogen</trd>,
+      <trd>gleichm&auml;&szlig;ig</trd>
     </trdgrp>
     <trdgrp lng="nl">
-       <trd>homogeen</trd>,
-       <trd>gelijkmatig</trd>
+      <trd>homogeen</trd>,
+      <trd>gelijkmatig</trd>
     </trdgrp>
     <trd lng="sv">homogen</trd>
   </snc>
-  <snc mrk="homoge.0a.polinomo">
+  <snc mrk="homoge.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="polino.0o">polinomo</ref>)</klr>
-      Kies &ccirc;iuj termoj estas samgradaj. 
-    </dif>
-  </snc>
-  <snc mrk="homoge.0a.ekvacio">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
-    <dif>
-      <klr>(p.p. <ref cel="ekvaci.0o">ekvacio</ref>)</klr>
-      Kies desktra <ref cel="flank.0o.ekvacio">flanko</ref> estas 0:
-      <ekz>
-        por solvi ne<tld/>an diferencialan ekvacion, ofte utilas solvi
-        la respondan <tld/>an ekvacion.
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="homoge.0a.funkcio">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> f inter du
-      <ref cel="spac.vektora0o">vektoraj spacoj</ref>)</klr>
-      Tia, ke por certa nombro &alfa; &ccirc;iam veras, ke 
-      f(&lambda;*x)&#xa0;=&#xa0;&lambda;<sup>&alfa;</sup>*f(x).
-    </dif>
+    <subsnc mrk="homoge.0a.polinomo">
+      <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="polino.0o">polinomo</ref>)</klr>
+        Kies &ccirc;iuj termoj estas samgradaj:
+        <ekz>
+          &ccirc;iuj <tld/>aj polinomoj de unu variablo estas de la tipo
+          a<em>X</em>;
+        </ekz>
+        <ekz>
+          <em>X</em><sup>2</sup>+<em>XY</em>+<em>Y</em><sup>2</sup> estas
+          duagrada <tld/>a polinomo de du variabloj.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="homoge.0a.ekvacio">
+      <fnt><bib>MatVort</bib></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="ekvaci.0o">ekvacio</ref>)</klr>
+        Kies desktra <ref cel="flank.0o.ekvacio">flanko</ref> estas 0:
+        <ekz>
+          por solvi ne<tld/>an diferencialan ekvacion, ofte utilas solvi
+          la respondan <tld/>an ekvacion.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="homoge.0a.funkcio">
+      <dif>
+        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> f inter du
+        <ref cel="spac.vektora0o">vektoraj spacoj</ref>)</klr>
+        Tia, ke por iu nombro &alfa; &ccirc;iam veras, ke
+        f(&lambda;*x)&#xa0;=&#xa0;&lambda;<sup>&alfa;</sup>*f(x).
+      </dif>
+    </subsnc>
+    <trd lng="de">homogen</trd>
+    <trd lng="en">homogeneous</trd>
   </snc>
   <trd lng="fr">homog&egrave;ne</trd>
   <trdgrp lng="ru">
@@ -65,20 +78,17 @@
 </art>
 <!--
 $Log$
-Revision 1.8  2001/11/29 17:31:38  revo
+Revision 1.9 2002/01/06 17:45:40 revo
+Marc Bavant: mod ref cel al bildigo
+Revision 1.8 2001/11/29 17:31:38 revo
 Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/09/09 18:17:42  revo
+Revision 1.7 2001/09/09 18:17:42 revo
 Marc Bavant: +trd fr; sxovis ref al "heterogena" al snc 1, mod ref tip al ant, mod dif snc 2; +2 snc MAT
-
-Revision 1.6  2001/08/31 18:15:32  revo
+Revision 1.6 2001/08/31 18:15:32 revo
 Ulrich Fellmann: + 2 germ trdj
-
-Revision 1.5  2001/05/29 18:18:15  revo
+Revision 1.5 2001/05/29 18:18:15 revo
 Yury Finkel: +trd ru
-
-Revision 1.4  2001/03/08 17:11:46  revo
+Revision 1.4 2001/03/08 17:11:46 revo
 Jerano Zachrisson: +trd sv
-
 -->
 </vortaro>
