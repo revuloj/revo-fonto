@@ -8,32 +8,44 @@
 </kap>
 <drv mrk="centr.0o">
   <kap><tld/>o</kap>
-  <snc mrk="centr.0o.cirklo">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(elementa geometrio)</uzo>
-    <dif>
-      <klr>(de <ref cel="cirkl.0o.linio">cirklo</ref> a&ubreve;
-      <ref cel="sfer.0o.surfaco">sfero</ref>)</klr>
-      Tiu punkto egaldistanca de &ccirc;iuj punktoj de la koncerna figuro.
-    </dif>
-    <adm>
-    Mi korektis "egaldistanca al" al "egaldistanca de" por koherigi kun
-    la difino de "mezo"... sed mi preferas al unuan dirmanieron. Rekontroli
-    post momento. <aut>MB</aut>
-    </adm>
-  </snc>
-  <snc mrk="centr.0o.elipso">
+  <snc mrk="centr.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <ref cel="elips.0o.linio">elipso</ref>)</klr>
-      Intersekco de &gcirc;iaj du <ref cel="aks.simetri0o">simetriaksoj</ref>.
+      Rimarkinda <ref tip="super" cel="punkt.0o.spaco">punkto</ref>
+      kaj interalie:
     </dif>
+    <subsnc mrk="centr.0o.cirklo">
+      <uzo tip="klr">(elementa geometrio)</uzo>
+      <dif>
+        <klr>(p.p. <ref cel="cirkl.0o.linio">cirklo</ref> a&ubreve;
+        <ref cel="sfer.0o.surfaco">sfero</ref>)</klr>
+        tiu punkto egaldistanca de &ccirc;iuj punktoj de la koncerna figuro;
+      </dif>
+      <adm>
+      Mi korektis "egaldistanca al" al "egaldistanca de" por koherigi kun
+      la difino de "mezo"... sed mi preferas al unuan dirmanieron. Rekontroli
+      post momento. <aut>MB</aut>
+      </adm>
+    </subsnc>
+    <subsnc mrk="centr.0o.elipso">
+      <dif>
+        <klr>(p.p. <ref cel="elips.0o.linio">elipso</ref>)</klr>
+        intersekco de &gcirc;iaj du <ref cel="aks.simetri0o">simetriaksoj</ref>;
+      </dif>
+    </subsnc>
+    <subsnc mrk="centr.0o.rotacio">
+      <dif>
+        <klr>(p.p. <ref cel="rotaci.0o.afina">afina rotacio</ref>
+        en ebeno)</klr>
+        la nura punkto sen&scirc;an&gcirc;a per &gcirc;i.
+      </dif>
+    </subsnc>
   </snc>
   <snc>
     <dif>
       Meza parto de objekto a&ubreve; loko:
       <ekz>
-        <tld/>o de rado, de korto, de urbo
+        <tld/>o de rado, de korto, de urbo.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -46,8 +58,7 @@
     <dif>
       &Ccirc;efa punkto, fokuso, plej aktiva parto:
       <ekz>
-        <tld/>o de komerco,
-        de societo, de ribelo;
+        <tld/>o de komerco, de societo, de ribelo;
       </ekz>
       <ekz>
         Londono fari&gcirc;os unu el la plej gravaj <tld/>oj de nia
@@ -76,9 +87,13 @@
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Estanta en <tld/>o:
+      Rilata al <tld/>o; estanta &ccirc;e la <tld/>o:
       <ekz>
-        <tld/>a punkto, kvartalo, regantaro.
+        <tld/>a punkto, kvartalo, regantaro;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">MAT</uzo>
+        <ref cel="simetr.0o.orta"><tld/>a simetrio</ref>.
       </ekz>
     </dif>
   </snc>
@@ -140,7 +155,6 @@
   </snc>
   <snc mrk="centr.pezo0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
     <dif>
       <klr>(de n punktoj (M<sub>i</sub>) en 
       <ref cel="spac.afina0o">afina spaco</ref>, kun respektivaj 
@@ -177,6 +191,7 @@
 <drv mrk="centr.simetri0o">
   <kap>simetri<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
       <ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, kiu difinas
@@ -185,7 +200,7 @@
   </snc>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
+      <klr>(de <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
       <ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, rilate al kiu
       la figuro estas <ref cel="simetr.0a.figuro">simetria</ref>.
     </dif>
@@ -195,24 +210,20 @@
 </art>
 <!--
 $Log$
+Revision 1.14  2001/05/13 18:42:38  revo
+Marc Bavant: +drv pezo~o
 Revision 1.13  2001/05/06 19:16:14  revo
 Marc Bavant: reverkis snc MAT; +snc ~o (de elipso); forigis atributojn num en snc
-
 Revision 1.12  2001/04/17 16:21:54  revo
 Marc Bavant: +drv simetri~o; dis~eco: +rim, +trd de/ru
-
 Revision 1.11  2001/04/10 19:09:34  revo
 Marc Bavant: kor dif de dis~eco, kor trd fr
-
 Revision 1.10  2001/04/09 17:09:55  revo
 Marc Bavant: +drv dis~eco
-
 Revision 1.9  2001/02/21 20:08:27  revo
 Marc Bavant: +adm, kor ref tip sin, +uzo POL
-
 Revision 1.8  2001/02/09 11:26:38  revo
 oficialeco-indiko per programo de J.M. Lugrin
-
 Revision 1.7  2001/01/14 17:14:23  revo
 -->
 </vortaro>
