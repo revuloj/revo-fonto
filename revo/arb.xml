@@ -21,8 +21,32 @@
       </ekz>
     </dif>
   </snc>
-  <snc mrk="arb.0o.MAT">
+  <snc mrk="arb.0o.grafeo">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <dif>
+      <ref cel="koneks.0a.grafeo">Koneksa</ref> kaj
+      <ref cel="cikl.sen0a.grafeo">sencikla</ref>
+      <ref tip="super" cel="grafe.0o.strukturo">grafeo</ref>:
+      <ekz>
+        grafeo estas <tld/>o, se kaj nur se du ajnajn verticojn de &gcirc;i 
+        ligas nur unu &ccirc;eno;
+      </ekz>
+      <ekz>
+        <tld/>o kun n verticoj havas n-1 e&gcirc;ojn;
+      </ekz>
+      <ekz>
+        orientita <tld/>o ne nepre havas 
+        <ref cel="radik.0o.grafeo">radikon</ref>.
+      </ekz>
+    </dif>
+    <trd lng="de">Baum</trd>
+    <trd lng="en">tree</trd>
+    <trd lng="fr">arbre<klr tip="ind"> (graphe)</klr></trd>
+    <trd lng="pl">drzewo<klr tip="ind"> (graf)</klr></trd>
+    <trd lng="ru">&c_d;&c_je;&c_r;&c_je;&c_v;&c_o;<klr tip="ind"> (&c_g;&c_r;&c_a;&c_f;)</klr></trd>
+  </snc>
+  <snc mrk="arb.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Finia aro, en kiu unu elementon oni rigardas <em>radiko</em>,
@@ -62,6 +86,13 @@
       <klr>(ekz-e genealogia <tld/>o prezentanta la posteularon
         de koncerna individuo)</klr>.
     </rim>
+    <adm>
+      Mi lasis cxi tiun redakton de Sergio, sed gxi ne koheras kun la nuna
+      matematika senco. La rekursia difino per radiko kaj subarboj estas
+      interesa, sed malpli vasta ol la gxenerale akceptita, ja la nocio 
+      "radiko" havas sencon nur en orientitaj grafeoj, kaj orientitaj arboj
+      povas ne posedi radikon. <aut>MB</aut>
+    </adm>
   </snc>
   <trd lng="be">&c_d;&c_r;&c_e;&c_v;&c_a;</trd>
   <trd lng="cs">strom</trd>
@@ -94,17 +125,20 @@
 
 <drv mrk="arb.sub0o">
   <kap>sub<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">KOMP</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="fak">KOMP</uzo>
     <dif>
-      <ref tip="malprt" cel="arb.0o.MAT">Arbo</ref> konsiderata
-      kiel parto de alia arbo.
+      <ref cel="grafe.sub0o">Subgrafeo</ref> de 
+      <ref tip="super" cel="arb.0o.grafeo"><tld/>o</ref>, kiu mem
+      estas <tld/>o.
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_d;&c_d;&c_r;&c_e;&c_v;&c_a;</trd>
   <trd lng="de">Teilbaum</trd>
   <trd lng="en">subtree</trd>
+  <trd lng="fr">sous-arbre</trd>
+  <trd lng="pl">poddrzewo</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
   <trd lng="sk">podstrom</trd>
   <trd lng="sv">deltr&auml;d</trd>
@@ -176,28 +210,22 @@
 </art>
 <!--
 $Log$
+Revision 1.18  2002/10/23 20:37:39  revo
+aktualigo de malnovaj fnt-indikoj enkondukante <bib>
 Revision 1.17  2002/09/09 19:48:19  revo
 Viliam Bur: +trd sk
-
 Revision 1.16  2002/05/15 16:43:09  revo
 Alejandro Mejia Greene: ald 2 his trd
-
 Revision 1.15  2002/03/21 18:37:47  revo
 Zmicier Lapcionak: + trd be
-
 Revision 1.14  2002/02/14 17:35:49  revo
 Bart Demeyere: +<ofc>*
-
 Revision 1.13  2001/10/03 18:18:47  revo
 Marc Bavant: kor ref cel al grafeiko
-
 Revision 1.12  2001/07/24 13:36:46  revo
 Jerano Zachrisson: +trd sv
-
 Revision 1.11  2001/05/05 16:11:14  revo
 Sergio Pokrovskij: TEZ
-
 Revision 1.10  2000/12/20 21:32:09  revo
 -->
 </vortaro>
-
