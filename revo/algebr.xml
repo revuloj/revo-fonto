@@ -106,7 +106,7 @@
         </ekz>
         <ekz>
           la aro de &ccirc;iuj <tld/>aj nombroj konsistigas <tld/>e
-          fermitan, nombreblan subkorpon de la korpo de kompleksoj.
+          fermitan, numereblan subkorpon de la korpo de kompleksoj.
         </ekz>
       </dif>
       <ref tip="ant" cel="transc.0a.nombro">transcenda.</ref>
@@ -210,13 +210,14 @@
   </snc>
   <snc mrk="algebr.lineara0o.strukturo">
     <dif>
-      <klr>(super korpo <em>K</em>)</klr>
+      <klr>(super korpo (<em>K</em>,+,&#215;))</klr>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
       (<em>A</em>,+,&#215;,*), ke (<em>A</em>,+,&#215;) estas
-      <ref tip="super" cel="ring.0o.MAT">ringo</ref> kaj
-      (<em>A</em>,+,*) estas
+      <ref tip="super" cel="ring.0o.MAT">ringo</ref>, (<em>A</em>,+,*) estas
       <ref tip="super" cel="spac.vektora0o">vektora spaco</ref> super
-      <em>K</em>:
+      <em>K</em>, kaj la tri koncernaj multiplikoj verigas, ke
+      (&alfa;*x)&#215;(&beta;*y)&#xa0;=&#xa0;(&alfa;&#215;&beta;)*(x&#215;y)
+      por ajnaj skalaroj &alfa;, &beta; kaj vektoroj x, y:
       <ekz>
         la polinomringo de korpo <em>K</em> estas lineara <tld/>o super
         &gcirc;i.
@@ -249,12 +250,12 @@
       &gcirc;i enhavas la <ref cel="komple1.0o.aro">komplementon</ref> de
       &ccirc;iu sia elemento, kaj la
       <ref cel="kun.0ajxo.aro">kuna&jcirc;on</ref> de &ccirc;iu sia
-      <ref cel="nombr.0ebla.MAT">nombrebla</ref> subaro:
+      <ref cel="numer.0ebla.MAT">numereblan</ref> subaro:
       <ekz>
         eblas demonstri, ke &sigma;-<tld/>o nepre enhavas <em>&Omega;</em>,
         la malplenan aron kaj la
         <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu sia
-        nombrebla subaro;
+        numerebla subaro;
       </ekz>
       <ekz>
         la aro de &ccirc;iuj subaroj de <em>&Omega;</em> estas &sigma;-<tld/>o;
@@ -313,6 +314,9 @@
 </art>
 <!--
 $Log$
+Revision 1.26 2002/06/02 17:32:11 revo
+Marc Bavant: ~a 2: reverkis
+
 Revision 1.25 2002/05/27 17:16:46 revo
 Marc Bavant: ~a (elemento): mod fnt, mod dif
 Revision 1.24 2002/05/20 16:35:10 revo
@@ -329,7 +333,5 @@ Revision 1.19 2002/03/24 17:31:08 revo
 Marc Bavant: +fnt, +trd de/en/ru, +adm
 Revision 1.18 2002/02/15 17:36:32 revo
 Yury Finkel: formatigis
-Revision 1.17 2002/01/27 17:31:34 revo
-Marc Bavant: bulea ~o: mod distribuebla, +ref en dif
 -->
 </vortaro>
