@@ -8,9 +8,7 @@
   <rad>kurb</rad>/a
 </kap>
 <drv mrk="kurb.0a">
-  <kap>
-    <ofc>*</ofc><tld/>a
-  </kap>
+  <kap><ofc>*</ofc><tld/>a</kap>
   <snc>
     <dif>
       Kvalifikas linion a&ubreve; objekton, kiu estas nek rekta,
@@ -39,8 +37,7 @@
      <trd>kurvig</trd>,
      <trd>kurvenf&ouml;rmig</trd>,
      <trd>gekr&uuml;mmt</trd>
-  </trdgrp>
-  <trdgrp lng="en">
+  </trdgrp>  <trdgrp lng="en">
     <trd>curved</trd>,
     <trd>bandy</trd>,
     <trd>bow(ed)</trd>,
@@ -61,9 +58,7 @@
 </drv>
 
 <drv mrk="kurb.0o">
-  <kap>
-    <tld/>o
-  </kap>
+  <kap><tld/>o</kap>
   <snc mrk="kurb.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 31</lok></fnt>
@@ -81,7 +76,7 @@
         polusa, kartezia <ref cel="ekvaci.0o">ekvacio</ref> de <tld/>o;
       </ekz>
       <ekz>
-        algebra, transcenda <tld/>o <klr>(kies kartezia ekvacio estas 
+        algebra, transcenda <tld/>o <klr>(kies kartezia ekvacio estas
         algebra, transcenda)</klr>;
       </ekz>
       <ekz>
@@ -91,6 +86,7 @@
     </dif>
     <ref tip="super" cel="figur.geometria0o">geometria figuro;</ref>
     <refgrp tip="sub">
+      specifaj ebenaj kurboj:
       <ref cel="spiral.arhximeda0o">ar&hcirc;imeda spiralo</ref>,
       <ref cel="cikloi.0o">cikloido</ref>,
       <ref cel="cirkl.0o.linio">cirklo</ref>,
@@ -107,12 +103,31 @@
       <ref cel="limak.paskala0o">paskala limako</ref>,
       <ref cel="oval.kartezia0o">kartezia ovalo</ref>,
       <ref cel="konik.0o">koniko</ref>,
-      <ref cel="strofo.0o">strofoido</ref>.
+      <ref cel="strofo.0o">strofoido</ref>,
+      <ref cel="trakto1.0o">traktorio</ref>;
+    </refgrp>
+    <refgrp tip="sub">
+      specifa neebena kurbo:
+      <ref cel="helic.0o.MAT">helico</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      karakteriza&jcirc;oj de ebena kurbo:
+      <ref cel="kurb.0eco.de_ebena_kurbo">kurbeco</ref>,
+      <ref cel="centr.kurbeco0o.de_ebena_kurbo">kurbecocentro</ref>,
+      <ref cel="radius.kurbeco0o.de_ebena_kurbo">kurbecoradiuso</ref>;
+    </refgrp>
+    <refgrp tip="sub">
+      derivitaj kurboj:
+      <ref cel="volv.el0anto">elvolvanto</ref>,
+      <ref cel="volv.el0ato">elvolvato</ref>,
+      <ref cel="volv.en0ajxo.de_kurboj">envolva&jcirc;o</ref>,
+      <ref cel="konhxo.0o">kon&hcirc;oido</ref>,
+      <ref cel="podajr.0o">podajro</ref>.
     </refgrp>
     <rim>
       <tld lit="K"/>ojn oni studas &ccirc;efe surbaze de
       la analitikaj ecoj de iliaj ekvacioj a&ubreve; de iliaj parametraj
-      reprezentoj.
+      prezentoj.
     </rim>
     <trd lng="de">Kurve</trd>
     <trd lng="en">curve</trd>
@@ -134,17 +149,44 @@
       <trd>Graph</trd>,
       <trd>Grafik</trd>,
       <trd>Linie</trd>
-    </trdgrp>
-  </snc>
+    </trdgrp>  </snc>
   <trd lng="fr">courbe<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="ru">&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</trd>
   <trd lng="sv">kurva</trd>
 </drv>
 
+<drv mrk="kurb.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="kurb.0eco.KOMUNE">
+    <dif>
+      Eco de io <tld/>a:
+      <ekz>
+        la <tld/>eco de la tero <klr>(la fakto, ke &gcirc;i ne
+        estas ebena)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="kurb.0eco.de_ebena_kurbo">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 38</lok></fnt>
+    <dif>
+      <klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>, &ccirc;e punkto a
+      de &gcirc;i)</klr>
+      La <ref cel="invers.0o.neuxtriganto">inverso</ref> de &gcirc;ia
+      <ref cel="radius.kurbeco0o.de_ebena_kurbo"><tld/>ecoradiuso</ref>:
+      <ekz>
+        la <tld/>eco de <ref cel="rekt.0o.MAT">rekto</ref> estas nula.
+      </ekz>
+    </dif>
+    <trd lng="de">Kr&uuml;mmung</trd>
+    <trd lng="en">curvature</trd>
+    <trd lng="fr">courbure</trd>
+    <trd lng="ru">&c_k;&c_r;&c_i;&c_v;&c_i;&c_z;&c_n;&c_a;</trd>
+  </snc>
+</drv>
+
 <drv mrk="kurb.0igi">
-  <kap>
-    <tld/>igi
-  </kap>
+  <kap><tld/>igi</kap>
   <snc>
     <dif>
       Fari ion momente a&ubreve; definitive <tld/>a:
@@ -165,21 +207,21 @@
       </ekz>
       <ekz>
         <tld/>i&gcirc;i anta&ubreve; iu
-        (
-        <refgrp tip="vid">
+        (<refgrp tip="vid">
           <ref cel="rivere.0i">riverenci</ref>,
           <ref cel="klin.0igxi">klini&gcirc;i</ref>
-        </refgrp>
-        );
+        </refgrp>);
       </ekz>
       <ekz>
         ne <tld/>i&gcirc;i sub la jugo de despotismo;
       </ekz>
-      <ekz><tld/>i&gcirc;adi <klr>(skui&gcirc;i, barakti)</klr>
+      <ekz>
+        <tld/>i&gcirc;adi <klr>(skui&gcirc;i, barakti)</klr>
         kiel diablo en akvo benita
-        <fnt><bib>PrV</bib></fnt>.</ekz>
-      <ref tip="vid" cel="fleks.0i">fleksi</ref>.
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
     </dif>
+    <ref tip="vid" cel="fleks.0i">fleksi.</ref>
   </snc>
   <trdgrp lng="de">
       <trd>biegen</trd>,
@@ -206,9 +248,7 @@
 </drv>
 
 <drv mrk="kurb.0igxo">
-  <kap>
-    <tld/>i&gcirc;o
-  </kap>
+  <kap><tld/>i&gcirc;o</kap>
   <snc>
     <dif>
       <tld lit="K"/>a parto de io:
@@ -216,7 +256,8 @@
         <tld/>i&gcirc;o de vojo, de rivero;
       </ekz>
       <ekz>
-        la vojeto grimpis per multaj <tld/>i&gcirc;oj &gcirc;is la supro de la monto
+        la vojeto grimpis per multaj <tld/>i&gcirc;oj &gcirc;is la supro de 
+        la monto.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -252,25 +293,24 @@
 </art>
 <!--
 $Log$
-Revision 1.13  2002/04/01 18:49:47  revo
+Revision 1.14  2002/04/02 17:56:11  revo
+Ulrich Fellmann: + 15 germ trdj
+Revision 1.13 2002/04/01 18:49:47 revo
 Marc Bavant: ~o MAT: +fnt, +ekz, +trd de/en, +refgrp
-
-Revision 1.12  2002/01/11 19:09:47  revo
+Revision 1.12 2002/01/11 19:09:47 revo
 fontindiko PrV per programo de Jerome
-Revision 1.11  2001/11/11 19:15:45  revo
+Revision 1.11 2001/11/11 19:15:45 revo
 Yury Finkel: +trd ru
-Revision 1.10  2001/08/03 18:13:09  revo
+Revision 1.10 2001/08/03 18:13:09 revo
 Jerano Zachrisson: +trd sv
-Revision 1.9  2001/07/03 18:14:55  revo
+Revision 1.9 2001/07/03 18:14:55 revo
 Karlo Freeman: +trd=en @ ~igi, ~igxo
-Revision 1.8  2001/07/02 18:20:06  revo
+Revision 1.8 2001/07/02 18:20:06 revo
 Karlo Freeman: +trd=en @ ~a
-Revision 1.7  2001/04/04 16:19:25  revo
+Revision 1.7 2001/04/04 16:19:25 revo
 Marc Bavant: +ref al geometria figuro cxe ~o MAT, mod rim
-Revision 1.6  2001/03/30 17:19:19  revo
+Revision 1.6 2001/03/30 17:19:19 revo
 Marc Bavant: +drv ~o, +trd fr, kor ref tip sin
-Revision 1.5  2001/02/21 20:09:17  revo
-Paul Peeraerts: ald trd nl
+Revision 1.5 2001/02/21 20:09:17 revo
 -->
 </vortaro>
-
