@@ -131,17 +131,147 @@
   <trd lng="en">equivalence <ind>class</ind></trd>
   <trd lng="fr">classe d'&eacute;quivalence</trd>
   <trd lng="hu">ekvivalenciaoszt&aacute;ly</trd>
+  <trdgrp lng="pl">
+    <trd>klasa abstrakcji</trd>,
+    <trd>warstwa<klr tip="ind"> (relacji r&oacute;wnowa&zdot;no&sacute;ci)</klr></trd></trdgrp> 
   <trd lng="ru">&c_k;&c_l;&c_a;&c_s;&c_s; &c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
 </drv>
+
+<drv mrk="klas.dekstra0o">
+  <kap>dekstra <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="grup.0o.MAT">grupo</ref> G rilate al subgrupo H de 
+      &gcirc;i kaj elemento a&#8712;G)</klr>
+      Aro de &ccirc;iuj elementoj de la tipo h.a, kie h&#8712;H; simb. Ha:
+      <ekz>
+        dekstra <tld/>o estas ekvivalento-<tld/>o la&ubreve; la rilato
+        x.y<sup>-1</sup>&#8712;H.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="klas.flanka0o">flanka <tld/>o;</ref>
+    <refgrp tip="vid">
+      <ref cel="klas.maldekstra0o">maldekstra <tld/>o</ref>,
+      <ref cel="invari.0a.subgrupo">invarianta</ref> subgrupo.
+    </refgrp>
+  </snc>
+  <adm>
+    Proponita termino. <aut>MB</aut>
+  </adm>
+  <trdgrp lng="de">
+    <trd>recht<klr tip="amb">(seitig)</klr>e <ind>Nebenklasse</ind></trd>,
+    <trd>recht<klr tip="amb">(seitig)</klr>e <ind>Restklasse</ind></trd></trdgrp> 
+  <trd lng="en">right <ind>coset</ind></trd>
+  <trd lng="fr">classe<klr tip="amb"> (lat&eacute;rale)</klr> &agrave; droite</trd>
+  <trd lng="pl">warstwa prawostronna</trd>
+  <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_o;&c_s;&c_t;&c_o;&c_r;&c_o;&c_n;&c_n;&c_i;&c_j; &c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j; <ind>&c_k;&c_l;&c_a;&c_s;</ind></trd>
+</drv>
+
+<drv mrk="klas.maldekstra0o">
+  <kap>maldekstra <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="grup.0o.MAT">grupo</ref> G rilate al subgrupo H de 
+      &gcirc;i kaj elemento a&#8712;G)</klr>
+      Aro de &ccirc;iuj elementoj de la tipo a.h, kie h&#8712;H; simb. aH:
+      <ekz>
+        maldekstra <tld/>o estas ekvivalento-<tld/>o la&ubreve; la rilato
+        x<sup>-1</sup>.y&#8712;H.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="klas.flanka0o">flanka <tld/>o;</ref>
+    <refgrp tip="vid">
+      <ref cel="klas.dekstra0o">dekstra <tld/>o</ref>,
+      <ref cel="invari.0a.subgrupo">invarianta</ref> subgrupo.
+    </refgrp>
+  </snc>
+  <adm>
+    Proponita termino. <aut>MB</aut>
+  </adm>
+  <trdgrp lng="de">
+    <trd>link<klr tip="amb">(seitig)</klr>e <ind>Nebenklasse</ind></trd>,
+    <trd>link<klr tip="amb">(seitig)</klr>e <ind>Restklasse</ind></trd></trdgrp> 
+  <trd lng="en">left <ind>coset</ind></trd>
+  <trd lng="fr">classe<klr tip="amb"> (lat&eacute;rale)</klr> &agrave; gauche</trd>
+  <trd lng="pl">warstwa lewostronna</trd>
+  <trd lng="ru">&c_l;&c_je;&c_v;&c_o;&c_s;&c_t;&c_o;&c_r;&c_o;&c_n;&c_n;&c_i;&c_j; &c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j; <ind>&c_k;&c_l;&c_a;&c_s;</ind></trd>
+</drv>
+
+<drv mrk="klas.flanka0o">
+  <kap>flanka <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <refgrp tip="sub">
+      <ref cel="klas.dekstra0o">dekstra <tld/>o</ref>,
+      <ref cel="klas.maldekstra0o">maldekstra <tld/>o</ref>;
+    </refgrp>
+    <ref tip="malprt" cel="grup.kvocienta0o">kvocienta grupo.</ref>
+    <rim>
+      &Ccirc;i tiu termino trovas apogon en pluraj naciaj lingvoj. Ni preferas
+      &gcirc;in al <ctl>koaro</ctl>
+      <fnt><bib>MatStokTerm</bib><lok>p. 19</lok></fnt>, a&ubreve;
+      <ctl>kunaro</ctl> <fnt><bib>PIV2</bib></fnt>, dubindaj kunmeta&jcirc;oj,
+      kiuj mallerte pa&ubreve;sas la anglan terminon.
+    </rim>
+  </snc>
+  <adm>
+    Proponita termino. <aut>MB</aut>
+  </adm>
+  <trdgrp lng="de">
+    <trd>Nebenklasse</trd>,
+    <trd>Restklasse</trd></trdgrp> 
+  <trd lng="en">coset</trd>
+  <trd lng="fr">classe lat&eacute;rale</trd>
+  <trd lng="pl">warstwa</trd>
+  <trd lng="ru">&c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j; <ind>&c_k;&c_l;&c_a;&c_s;</ind></trd>
+</drv>
+
+<drv mrk="klas.nmodularesto0o">
+  <kap>n-modula resto<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(por <ref cel="entjer.0o">entjero</ref> n>1)</klr>
+      &Ccirc;iu el la n 
+      <ref cel="klas.ekvivalento0o">ekvivalento-<tld/>oj</ref> por la rilato 
+      &leftquot;<ref cel="kongru.0a.module">kongrua module n</ref>&rightquot;
+      super la aro de entjeroj:
+      <ekz>
+        la n-modula resto<tld/>o de nombro p oni signas per p+n<em>Z</em> 
+        a&ubreve; per p&#775;.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="grup.0o_de_nmodulaj_restoklasoj">grupo de n-modulaj
+    resto<tld/>oj.</ref>
+    <rim>
+      Kvankam la skriba&jcirc;o n<em>Z</em> memorigas pri tiu por la flankaj 
+      <tld/>oj, oni tamen memoru, ke <em>Z</em> ne estas multiplika grupo.
+      Kaj n<em>Z</em>, kaj p+n<em>Z</em> estas ekvivalento-<tld/>oj, sed ne
+      la&ubreve; la samaj rilatoj.
+    </rim>
+  </snc>
+  <adm>
+    Proponita termino. <aut>MB</aut>
+  </adm>
+  <trd lng="de">Restklasse<klr tip="ind"> (modulo n)</klr></trd>
+  <trd lng="en">residue <ind>class</ind><klr tip="ind"> (modulo n)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>classe r&eacute;siduelle<klr tip="ind"> (modulo n)</klr></trd>,
+    <trd>entier modulo n</trd></trdgrp> 
+  <trd lng="ru">&c_k;&c_l;&c_a;&c_s; &c_v;&c_y;&c_ch;&c_e;&c_t;&c_o;&c_v;<klr tip="ind"> (&c_p;&c_o; &c_m;&c_o;&c_d;&c_u;&c_l;&c_ju; n)</klr></trd>
+</drv>
+
 </art>
 <!--
 $Log$
+Revision 1.18  2002/07/04 19:10:47  revo
+Jozefo Horvath: +trd hu
 Revision 1.17  2002/05/27 17:18:21  revo
 Marc Bavant: ekvivalento~o: mod fnt
-
 Revision 1.16  2002/05/02 16:37:32  revo
 Marc Bavant: ekvivalento-~o: sxovis fnt
-
 Revision 1.15 2001/10/23 18:34:06 revo
 Paul Peeraerts: aldonis nl trd
 Revision 1.14 2001/09/25 18:18:16 revo
@@ -157,4 +287,3 @@ Wolfram Diestel: korektis ref-oj en snc BIO
 Revision 1.9 1999/12/21 20:42:56 revo
 -->
 </vortaro>
-
