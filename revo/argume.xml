@@ -38,11 +38,11 @@
         <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> a&ubreve;
         <ref cel="operac.0o.MAT">operacio</ref>)</klr>:
         <ekz>
-          la esprimo <frm>f(x,y+z)</frm> havas du <tld/>ojn,
-          <frm>x</frm> kaj <frm>y+z</frm>;
+          la esprimo <frm><k>f</k>(<k>x</k>,<k>y</k>+<k>z</k>)</frm> havas du
+          <tld/>ojn, nome <frm><k>x</k></frm> kaj <frm><k>y</k>+<k>z</k></frm>;
         </ekz>
         <ekz>
-          <frm>f</frm> estas du<tld/>a funkcio.
+          <frm><k>f</k></frm> estas du<tld/>a funkcio.
         </ekz>
       </dif>
       <ref tip="vid" cel="parame.0o.MAT">parametro.</ref>
@@ -56,23 +56,28 @@
       <trd lng="de">Argument<klr tip="ind"> (unabh&auml;ngige Variable)</klr></trd>
       <trd lng="en">argument<klr tip="ind"> (independant variable)</klr></trd>
       <trd lng="fr">argument<klr tip="ind"> (variable ind&eacute;pendante)</klr></trd>
+      <trd lng="pl">argument<klr tip="ind"> (zmienna niezale&zdot;na)</klr></trd>
       <trd lng="hu">f&uuml;ggetlen <ind>v&aacute;ltoz&oacute;</ind><klr tip="ind"> (f&uuml;ggv&eacute;nyben)</klr></trd>
       <trd lng="ru">&c_a;&c_r;&c_g;&c_u;&c_m;&c_je;&c_n;&c_t;<klr tip="ind"> (&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja; &c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;)</klr></trd>
     </subsnc>
     <subsnc mrk="argume.0o.komplekso">
       <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
       <dif>
-        <klr>(de <ref cel="komple.0o.MAT">komplekso</ref> z)</klr>
-        Tia reelo &theta;, ke z = |z|.(cos&theta; + i.sin&theta;), kie
-        |z| reprezentas la <ref cel="modul.0o.komplekso">modulon</ref> de
-        z:
+        <klr>(de <ref cel="komple.0o.MAT">komplekso</ref>
+        <frm><k>z</k></frm>)</klr>
+        Tia reelo <frm>&theta;</frm>, ke 
+        <frm><k>z</k> = |<k>z</k>|.(cos&theta; + <k>i</k>.sin&theta;)</frm>, 
+        kie <frm>|<k>z</k>|</frm> prezentas la 
+        <ref cel="modul.0o.komplekso">modulon</ref> de <frm><k>z</k></frm>:
         <ekz>
-          la <tld/>on oni kutime prenas en la intervalo ]-&pi;,+&pi;]
-          kaj foje signas per Arg z;
+          la <tld/>on oni kutime prenas en la 
+          intervalo<frm>]-&pi;,+&pi;]</frm> kaj foje signas per 
+          <frm>Arg&#xa0;<k>z</k></frm>;
         </ekz>
         <ekz>
-          la <tld/>o de nenula reelo egalas al 0 <klr>(se pozitiva)</klr>
-          a&ubreve; &pi; <klr>(se negativa)</klr>.
+          la <tld/>o de nenula reelo egalas al <frm>0</frm> 
+          <klr>(se pozitiva)</klr> a&ubreve; <frm>&pi;</frm> 
+          <klr>(se negativa)</klr>.
         </ekz>
       </dif>
       <trd lng="de">Argument</trd>
@@ -82,6 +87,7 @@
         <trd>argumentum<klr tip="ind"> (komplex sz&aacute;m&eacute;)</klr></trd>,
         <trd>amplit&uacute;d&oacute;<klr tip="ind"> (komplex sz&aacute;m&eacute;)</klr></trd>
       </trdgrp>
+      <trd lng="pl">argument<klr tip="ind"> (liczby zespolonej)</klr></trd>
       <trd lng="ru">&c_a;&c_r;&c_g;&c_u;&c_m;&c_je;&c_n;&c_t;<klr tip="ind"> (&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_i;&c_s;&c_l;&c_a;)</klr></trd>
     </subsnc>
     <subsnc mrk="argume.0o.polinomo">
@@ -97,6 +103,7 @@
       <trd lng="de">Unbestimmte</trd>
       <trd lng="en">indeterminate</trd>
       <trd lng="fr">ind&eacute;termin&eacute;e</trd>
+      <trd lng="pl">niezmienna<klr tip="ind"> (wielomianu)</klr></trd>
       <trd lng="ru">&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_a;&c_ja;</trd>
     </subsnc>
   </snc>
@@ -130,15 +137,14 @@
 </art>
 <!--
 $Log$
+Revision 1.20  2002/10/29 18:00:47  revo
+Christopher Zervic: + ang
 Revision 1.19  2002/09/25 16:32:48  revo
 Jozefo Horvath: +trd hu
-
 Revision 1.18  2002/09/09 19:48:37  revo
 Viliam Bur: +trd sk
-
 Revision 1.17  2002/06/02 17:32:18  revo
 Marc Bavant: ~o MAT: +subsnc
-
 Revision 1.16  2002/05/20 16:35:56  revo
 Marc Bavant: ~o (komplekso): mod fnt
 Revision 1.15  2002/05/15 16:42:52  revo
@@ -151,4 +157,3 @@ Revision 1.12 2002/03/20 17:36:05 revo
 Yury Finkel: formatigis
 -->
 </vortaro>
-
