@@ -8,24 +8,136 @@
 </kap>
 <drv mrk="potenc1.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ELE</uzo>
+  <snc mrk="potenc1.0o.ELE">
+    <uzo tip="fak">ELE</uzo>
+    <dif>
+      <tld lit="P"/>o <sncref ref="potenc1.0o.MAT"/> de
+      <ref cel="elektr.0akampo">elektra kampo</ref>; simb. U:
+      <ekz>
+        <ind>falo de <tld/>o</ind> <klr>(observebla, la&ubreve;mezure
+        kiam oni malproksimi&gcirc;as de la &scirc;argoj)</klr>.
+        <trd lng="fr">chute de potentiel</trd>
+      </ekz>
+    </dif>
+    <trd lng="de">Potential</trd>
+    <trd lng="fr">potentiel<klr tip="ind"> (&eacute;lec.)</klr></trd>
+    <trd lng="nl">potentiaal</trd>
+    <trd lng="ru">&c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</trd>
+  </snc>
+  <snc mrk="potenc1.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
+    <dif>
+      <klr>(de vektora <ref tip="super" cel="kamp.0o.MAT">kampo</ref> E)</klr>
+      Tia skalara kampo U, se &gcirc;i ekzistas, ke E egalas al negativo
+      de la <ref cel="gradient.0o">gradiento</ref> de U;
+      simb. E&#xa0;=&#xa0;-grad&#xa0;U:
+      <ekz>
+        iuj me&hcirc;anikaj fortoj akceptas <tld/>on, kiu nomi&gcirc;as
+        <tld/>a energio.
+      </ekz>
+    </dif>
+    <trd lng="fr">potentiel<klr tip="ind"> (d'un champ vectoriel)</klr></trd>
+    <trd lng="ru">&c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_o;&c_g;&c_o; &c_p;&c_o;&c_l;&c_ja;)</klr></trd>
+  </snc>
+</drv>
+
+<drv mrk="potenc1.0hava">
+  <kap><tld/>hava</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Mezuro de la energio entenata en kondukilo:
+      <klr>(p.p. vektora <ref tip="super" cel="kamp.0o.MAT">kampo</ref> E)</klr>
+      Tia, ke ekzistas <tld/>o de &gcirc;i:
       <ekz>
-        <ind><tld/>a diferenco</ind>
-        <klr>(= tensio)</klr>.
-        <trd lng="ru">&c_r;&c_a;&c_z;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_o;&c_v;</trd>
+        kampo estas <tld/>hava, nur se &gcirc;i estas
+        <ref cel="kirl.sen0a.MAT">senkirla</ref>.
+      </ekz>
+    </dif>
+    <rim>
+      Se kampo E estas <tld/>hava, oni diras, anka&ubreve; ke E
+      &leftquot;akceptas <tld/>on&rightquot; a&ubreve;
+      &leftquot;derivi&gcirc;as de <tld/>o&rightquot;.
+    </rim>
+  </snc>
+  <adm>
+    Mi ne trovis auxtoritatan fonton. <aut>MB</aut>
+  </adm>
+  <trd lng="de">potentiales<klr tip="amb"> (Vektorfeld)</klr></trd>
+  <trd lng="en">potential<klr tip="ind"> (field)</klr></trd>
+  <trdgrp lng="fr">
+    <trd><klr tip="ind">(champ) </klr>lamellaire</trd>,
+    <trd><klr tip="ind">(champ) </klr>potentiel</trd>,
+    <trd><klr tip="ind">(champ) </klr>de <ind>gradient</ind></trd>,
+    <trd><klr tip="ind">(champ) </klr>de <ind>potentiel</ind></trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_o;&c_l;&c_je;)</klr></trd>
+</drv>
+
+<drv mrk="potenc1.0adiferenco">
+  <kap><tld/>a diferenco</kap>
+  <uzo tip="fak">ELE</uzo>
+  <fnt><bib>PV</bib></fnt>
+  <snc>
+    <ref tip="dif" cel="tensi.0o.ELE">tensio.</ref>
+  </snc>
+  <adm>
+    Uzata ankaux en grafeiko. <aut>MB</aut>
+  </adm>
+  <trd lng="de">Spannung</trd>
+  <trdgrp lng="en">
+    <trd>potential difference</trd>,
+    <trd>tension</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>diff&eacute;rence de <ind>potentiel</ind></trd>,
+    <trd>tension<klr tip="ind"> (&eacute;lec.)</klr></trd>,
+    <trd>voltage</trd></trdgrp>
+  <trd lng="ru">&c_r;&c_a;&c_z;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_o;&c_v;</trd>
+</drv>
+
+<drv mrk="potenc1.skalara0o">
+  <kap>skalara <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="dif" cel="potenc1.0o.MAT"><tld/>o <sncref ref="potenc1.0o.MAT"/>.</ref>
+  </snc>
+  <adm>
+    Mi ne trovis auxtoritatan fonton, sed la koincido de la
+    fr/ru ekvivalentoj pledas por minimuma internacieco. <aut>MB</aut>
+  </adm>
+  <trd lng="fr">potentiel scalaire</trd>
+  <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j; <ind>&c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</ind></trd>
+</drv>
+
+<drv mrk="potenc1.vektora0o">
+  <kap>vektora <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de vektora <ref tip="super" cel="kamp.0o.MAT">kampo</ref> E)</klr>
+      Tia vektora kampo A, se &gcirc;i ekzistas, ke E egalas al
+      la <ref cel="kirl.0o.MAT">kirlo</ref> de A;
+      simb. E&#xa0;=&#xa0;rot&#xa0;A:
+      <ekz>
+        kampo akceptas vektoran <tld/>on, nur se &gcirc;i estas
+        <ref cel="diverg1.sen0a">sendiver&gcirc;enca</ref>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">Potential</trd>
-  <trd lng="nl">potentiaal</trd>
-  <trd lng="ru">&c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</trd>
+  <adm>
+    Mi ne trovis auxtoritatan fonton, sed la koincido de la
+    fr/ru ekvivalentoj pledas por minimuma internacieco. <aut>MB</aut>
+  </adm>
+  <trd lng="fr">potentiel vecteur</trd>
+  <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_y;&c_j; <ind>&c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.6  2001/12/21 17:31:26  revo
+Yury Finkel: +trd ru
+
 Revision 1.5 2001/07/01 18:12:19 revo
 Paul Peeraerts: ald trd nl
 
