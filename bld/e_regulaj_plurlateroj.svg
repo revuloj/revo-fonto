@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY offset_1 "200">
+  <!ENTITY offset_2 "400">
+]>
+
+<svg version="1.1" 
+  width="15cm" height="10cm" 
+  viewBox="0 0 600 400"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Regulaj plurlateroj</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+
+        function plurlatero(numero, theta0, nombro, scale_xy, komento) {
+          
+          // Lateroj
+          var objet = svgdoc.getElementById("lateroj_"+numero);
+          var dtheta = -2*Math.PI/nombro;
+          var points = "";
+          for (var i=0; i<nombro; i++) {
+            points += 
+              scale_xy*Math.cos(theta0+i*dtheta)+" "+
+              (scale_xy*Math.sin(theta0+i*dtheta)-20)+" ";
+          }
+          objet.setAttribute ("points", points); 
+          
+          // Komento
+          var objet = svgdoc.getElementById("komento_"+numero);
+          objet.setAttribute ("y", 80); 
+          if (komento) {
+            var objet_komento = svgdoc.createTextNode(komento);
+            objet.appendChild(objet_komento);
+          }
+
+          // Konstruelementoj
+          if (numero == 5) {
+            var objet = svgdoc.getElementById("ĉc_"+numero);
+            objet.setAttribute ("d", 
+              "M "+(-scale_xy)+" -20 a "+scale_xy+" "+scale_xy+
+              " 0 1 1 0 0.0001 z"
+            ); 
+            var objet = svgdoc.getElementById("ec_"+numero);
+            var radiuso_ec = Math.abs(scale_xy*Math.cos(Math.PI/nombro));
+            objet.setAttribute ("d", 
+              "M "+(-radiuso_ec)+" -20 a "+radiuso_ec+" "+radiuso_ec+
+              " 0 1 1 0 0.0001 z"
+            ); 
+            var objet = svgdoc.getElementById("apotemo_"+numero);
+            //window.alert(
+            objet.setAttribute ("d",
+              "M "+radiuso_ec*Math.cos(theta0-7*Math.PI/nombro)+" "+ 
+              (-20+radiuso_ec*Math.sin(theta0-7*Math.PI/nombro))+" L 0 -20"
+            );
+          }
+        }
+
+        plurlatero("1", Math.PI/6, 3, 75,"egallatera triangulo");
+        plurlatero("2", Math.PI/4, 4, 80, "kvadrato");
+        plurlatero("3", 3*Math.PI/10, 5, 70, "regula kvinlatero");
+
+        plurlatero("4", Math.PI/3, 6, 70, "regula seslatero");
+        plurlatero("5", Math.PI/3, 6, 110, "");
+        plurlatero("6", Math.PI/12, 12, 70, "regula dekdulatero");
+        
+      }
+    ]]></script>
+  </defs>
+
+  <g transform="translate(0,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_1" points="" class="kurbo"/>
+      <text id="komento_1" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_2" points="" class="kurbo"/>
+      <text id="komento_2" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_3" points="" class="kurbo"/>
+      <text id="komento_3" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(0,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_4" points="" class="kurbo"/>
+      <text id="komento_4" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <g transform="translate(45,50)">
+        <!--
+          Elementoj de konstruo
+        -->
+        <path id="ĉc_5" d=""
+          style="fill:none; stroke-width:2" class="streketita"/>
+        <text class="nomo">
+          <textPath xlink:href="#ĉc_5" dy="-5" startOffset="0%">ĉirkaŭskribita cirklo</textPath>
+        </text>
+        <path id="ec_5" d=""
+          style="fill:none; stroke-width:2" class="streketita"/>
+        <text class="nomo">
+          <textPath xlink:href="#ec_5" dy="17" startOffset="15%">enskribita cirklo</textPath>
+        </text>
+
+        <path id="apotemo_5" d=""
+          style="fill:none; stroke-width:2" class="streketita"/>
+        <text class="nomo" text-anchor="middle">
+          <textPath xlink:href="#apotemo_5" dy="-5" startOffset="50%">apotemo</textPath>
+        </text>
+        <circle cx="0" cy="-20" r="3" class="konstrupunkto"/>
+        <text x="0" y="0" class="nomo" text-anchor="middle">centro</text>
+        <polygon id="lateroj_5" points="" class="kurbo"/>
+      </g>
+      <text id="komento_5" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_6" points="" class="kurbo"/>
+      <text id="komento_6" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+</svg>

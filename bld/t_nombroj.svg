@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="0 0 &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Nombro-aroj</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgroot = svgdoc.getDocumentElement();
+        var nb_lin = 6, nb_kol = 2;
+
+        function tabelo(x0, y0, larĝo, alto, enhavo) {
+          var rect = svgdoc.createElement("rect");
+          rect.setAttribute ("x", x0);
+          rect.setAttribute ("y", y0); 
+          rect.setAttribute ("width", larĝo);
+          rect.setAttribute ("height", alto);
+          rect.setAttribute ("class", "kadro");
+          svgroot.appendChild(rect);
+
+          for (var i=1; i<nb_lin; i++) {
+            var line = svgdoc.createElement("line");
+            line.setAttribute ("x1", x0);
+            line.setAttribute ("y1", y0+i*alto/nb_lin); 
+            line.setAttribute ("x2", x0+larĝo);
+            line.setAttribute ("y2", y0+i*alto/nb_lin); 
+            if (i == 1){
+              line.setAttribute ("style", "stroke-width:2"); 
+            }
+            line.setAttribute ("class", "kadro");
+            svgroot.appendChild(line);
+          }
+
+          for (var j=1; j<nb_kol; j++) {
+            var line = svgdoc.createElement("line");
+            line.setAttribute ("x1", x0+j*larĝo/nb_kol); 
+            line.setAttribute ("y1", y0);
+            line.setAttribute ("x2", x0+j*larĝo/nb_kol); 
+            line.setAttribute ("y2", y0+alto);
+            line.setAttribute ("class", "kadro");
+            svgroot.appendChild(line);
+          }
+
+          for (var i=0; i<nb_lin; i++) {
+            for (var j=0; j<nb_kol; j++) {
+              if (i == 0) {
+                var text = svgdoc.getElementById("f"+j);
+                text.setAttribute ("x", x0+(j+0.5)*larĝo/nb_kol); 
+                text.setAttribute ("y", y0+(i+0.7)*alto/nb_lin);
+              } else {
+                var text = svgdoc.createElement("text");
+                text.setAttribute ("x", x0+(j+0.5)*larĝo/nb_kol); 
+                text.setAttribute ("y", y0+(i+0.7)*alto/nb_lin);
+                text.setAttribute ("text-anchor", "middle");
+                text.setAttribute ("class", "nomo");
+                if (j == 0) {
+                  text.setAttribute ("style", "font-family:\'Lucida Sans Unicode\'");
+                }
+                var fako = svgdoc.createTextNode(enhavo[i][j]);
+                text.appendChild(fako);
+                svgroot.appendChild(text);
+              }
+            }
+          }
+        }
+
+        tabelo(10, 30, 380, 180,
+        [['', ''],
+         ['ℕ', 'naturaj entjeroj'],
+         ['ℤ', 'entjeroj'],
+         ['ℚ', 'racionaloj'],
+         ['ℝ', 'reeloj'],
+         ['ℂ', 'kompleksoj']
+        ]
+         );
+
+      }
+    ]]></script>
+  </defs>
+
+  <!--
+    Titollinio
+  -->
+
+  <text id="f0" x="" y="" text-anchor="middle" class="nomo">Simbolo de la aro</text>
+  <text id="f1" x="" y="" text-anchor="middle" class="nomo">Speco de nombroj</text>
+
+</svg>

@@ -12,32 +12,21 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
 
-  <title>Bazaj hiperbolaj trigonometriaj funkcioj</title>
+  <title>Bazaj potencoj</title>
   <desc>
-    Grafika prezento de funkcioj hiperbola sinuso, hiperbola kosinuso kaj hiperbola tangento
+    Grafika prezento de potencofunkcio por eksponento egala al
+    1, 2, 3, 0, 1/2, 1/3
   </desc>
   
   <defs>
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function ch(x) {
-          return (Math.exp(x)+Math.exp(-x))/2
-        }
-        
-        function sh(x) {
-          return (Math.exp(x)-Math.exp(-x))/2
-        }
-        
-        function th(x) {
-          return sh(x)/ch(x)
-        }
+        function path_data(n, x0, x1) {
+          function f(x) {
+            return Math.pow(x,n);
+          }
 
-        function coth(x) {
-          return ch(x)/sh(x)
-        }
-        
-        function path_data(f, x0, x1) {
           var d = "M "; 
           for (x=x0; x<=x1; x+=inc) {
             if (!(Math.abs(f(x)) > scale/scale_y) &&
@@ -48,25 +37,8 @@
           return d;
         }
 
-        /*
-        function path_data(f, x0, x1) {
-          var first = true; 
-          for (x=x0; x<=x1; x+=inc) {
-            if (!(Math.abs(f(x)) > scale/scale_y)) {
-              if (first)  {
-                first = false;
-                d = "M " + scale_x*x + " " + (-scale_y)*f(x) + "L";
-              } else {
-                d += " " + scale_x*x + " " + (-scale_y)*f(x)
-              }
-            }
-          }
-          return d;
-        }
-        */
-
         var x0 = -3, x1 = 3, y0 = -3, y1 = 3;
-        var inc = (x1-x0)/200;
+        var inc = (x1-x0)/500;
         scale_x = scale_y = 0.93*Math.min(2*scale/(x1-x0), 2*scale/(y1-y0));
 
         var svgdoc = evt.getTarget().getOwnerDocument();
@@ -86,24 +58,21 @@
 
         // Desegni la funkciojn
         var objet = svgdoc.getElementById("kurbo1");
-        objet.setAttribute ("d",path_data(sh, -3, 3));
+        objet.setAttribute ("d",path_data(1, -3, 3));
         var objet = svgdoc.getElementById("kurbo2");
-        objet.setAttribute ("d",path_data(ch, -3, 3));
+        objet.setAttribute ("d",path_data(2, -3, 3));
         var objet = svgdoc.getElementById("kurbo3");
-        objet.setAttribute ("d",path_data(th, -3, 3));
+        objet.setAttribute ("d",path_data(5, -3, 3));
         var objet = svgdoc.getElementById("kurbo4");
+        objet.setAttribute ("d",path_data(0, 0, 3));
+        var objet = svgdoc.getElementById("kurbo5");
+        objet.setAttribute ("d",path_data(0.5, 0, 3));
+        var objet = svgdoc.getElementById("kurbo6");
         objet.setAttribute ("d",
-          path_data(coth, -3, 0)+
-          path_data(coth, 0, 3)
+          path_data(-1, -3, 0)+
+          path_data(-1, 0.2, 3)
         );
-        
 
-        // Tiri la asimptotojn de tangento
-        var objet = svgdoc.getElementById("asimptotoj");
-        objet.setAttribute ("d", 
-          "M "  + -1*scale + " " + +1*scale_y + " h " + 2*scale +
-          " M " + -1*scale + " " + -1*scale_y + " h " + 2*scale
-        );
       }
     ]]></script>
   </defs>
@@ -134,45 +103,48 @@
   <path id="kurbo2" class="kurbo" d=""/>
   <path id="kurbo3" class="kurbo" d=""/>
   <path id="kurbo4" class="kurbo" d=""/>
+  <path id="kurbo5" class="kurbo" d=""/>
+  <path id="kurbo6" class="kurbo" d=""/>
 
   <text class="parametro">
-    <textPath xlink:href="#kurbo1" dy="-5" startOffset="10%">
-      sh(<tspan style="font-style: italic">x</tspan>)
+    <textPath xlink:href="#kurbo1" dy="-5" startOffset="2%">
+      <tspan style="font-style: italic">x</tspan>
     </textPath>
-    <textPath xlink:href="#kurbo1" dy="15" startOffset="80%">
-      sh(<tspan style="font-style: italic">x</tspan>)
+    <textPath xlink:href="#kurbo1" dy="-5" startOffset="95%">
+      <tspan style="font-style: italic">x</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo2" dy="-5" startOffset="2%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">2</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo2" dy="-5" startOffset="95%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">2</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo3" dy="-5" startOffset="2%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">5</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo3" dy="-5" startOffset="95%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">5</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo4" dy="-5" startOffset="90%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">0</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo5" dy="-5" startOffset="90%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">½</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo6" dy="-5" startOffset="2%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">-1</tspan>
+    </textPath>
+    <textPath xlink:href="#kurbo6" dy="-5" startOffset="95%">
+      <tspan style="font-style: italic">x</tspan>
+      <tspan baseline-shift="50%" class="eksponento">-1</tspan>
     </textPath>
   </text>
-  <text class="parametro">
-    <textPath xlink:href="#kurbo2" dy="-5" startOffset="10%">
-      ch(<tspan style="font-style: italic">x</tspan>)
-    </textPath>
-    <textPath xlink:href="#kurbo2" dy="-5" startOffset="80%">
-      ch(<tspan style="font-style: italic">x</tspan>)
-    </textPath>
-  </text>
-  <text class="parametro">
-    <textPath xlink:href="#kurbo3" dy="-5" startOffset="20%">
-      th(<tspan style="font-style: italic">x</tspan>)
-    </textPath>
-    <textPath xlink:href="#kurbo3" dy="15" startOffset="80%">
-      th(<tspan style="font-style: italic">x</tspan>)
-    </textPath>
-  </text>
-  <text class="parametro">
-    <textPath xlink:href="#kurbo4" dy="-5" startOffset="30%">
-      coth(<tspan style="font-style: italic">x</tspan>)
-    </textPath>
-    <textPath xlink:href="#kurbo4" dy="-5" startOffset="55%">
-      coth(<tspan style="font-style: italic">x</tspan>)
-    </textPath>
-  </text>
-
-  <!--
-    Asimptotoj
-  -->
-
-  <path id="asimptotoj" class="streketita" d=""/>
-
 
 </svg>

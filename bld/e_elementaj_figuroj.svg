@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY offset_1 "200">
+  <!ENTITY offset_2 "400">
+  <!ENTITY offset_3 "600">
+]>
+
+<svg version="1.1" 
+  width="20cm" height="20cm" 
+  viewBox="0 0 800 800"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Elementaj figuroj</title>
+  <desc>
+    Punkto, streko, rekto ktp
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var scale_xy = 80;
+
+
+      }
+    ]]></script>
+
+    <g id="orto">
+      <path d="M 20 0 A 20 20 0 0 0 0 -20 M 5 -5 L 5 -7 7 -7 7 -5 5 -5" 
+        style="stroke:magenta"/>
+    </g>
+
+  </defs>
+
+  <g transform="translate(&offset_0;,&offset_0;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Figuro
+      -->
+
+      <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">punkto</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_0;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Figuro
+      -->
+
+      <g transform="rotate(-10)">
+        <line x1="-60" y1="0" x2="60" y2="0" class="kurbo"/>
+        <circle cx="-60" cy="0" r="4" class="konstrupunkto"/>
+        <circle cx="60" cy="0" r="4" class="konstrupunkto"/>
+      </g>
+      <text x="-65" y="30" class="punkto">A</text>
+      <text x="60" y="10" class="punkto">B</text>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">streko</text>
+
+      <!--
+        Klarigo
+      -->
+
+      <rect x="-98" y="-98" width="100" height="30" class="klarigo" style="fill-opacity: 0.8" />
+      <text x="-90" y="-80" class="klarigo">A, B : randoj</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_0;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+     <!--
+        Figuro
+      -->
+
+      <g transform="rotate(10)">
+        <line x1="-60" y1="0" x2="110" y2="0" class="kurbo"/>
+        <circle cx="-60" cy="0" r="4" class="konstrupunkto"/>
+      </g>
+      <text x="-65" y="20" class="punkto">O</text>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">duonrekto</text>
+
+      <!--
+        Klarigo
+      -->
+
+      <rect x="-98" y="-98" width="85" height="30" class="klarigo" style="fill-opacity: 0.8" />
+      <text x="-90" y="-80" class="klarigo">O : origino</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_3;,&offset_0;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+    
+     <!--
+        Figuro
+      -->
+
+      <g id="angulo" transform="rotate(10)">
+        <g transform="translate(-60 0)">
+          <path d="M 0 0 L 80 0 A 80 80 0 0 0 56 -56 z" class="surfaco"/>
+        </g>
+        <line id="latero_1" x1="-60" y1="0" x2="110" y2="0" class="kurbo"/>
+        <g transform="translate(-60 0) rotate(-45) translate(60 0)">
+          <use xlink:href="#latero_1"/>
+        </g>
+        <circle cx="-60" cy="0" r="4" class="konstrupunkto"/>
+      </g>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">angulo</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_0;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+    <!--
+        Figuro
+      -->
+
+      <g id="rekto" transform="rotate(-45)">
+        <line x1="-100" y1="0" x2="100" y2="0" class="kurbo"/>
+      </g>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">rekto</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+     <!--
+        Figuro
+      -->
+
+      <g transform="rotate(45)">
+        <line id="linio_1" x1="-100" y1="0" x2="100" y2="0" class="kurbo"/>
+        <g transform="translate(0 -30)">
+          <use xlink:href="#linio_1"/>
+        </g>
+      </g>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">paraleloj</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+    <!--
+        Figuro
+      -->
+
+      <g transform="rotate(-45)">
+        <line id="linio_1" x1="-100" y1="0" x2="100" y2="0" class="kurbo"/>
+        <g transform="rotate(30)">
+          <use xlink:href="#linio_1"/>
+        </g>
+        <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+      </g>
+      <text x="-2" y="20" class="punkto">O</text>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">sekcantoj</text>
+
+      <!--
+        Klarigo
+      -->
+
+      <rect x="-98" y="-98" width="110" height="30" class="klarigo" style="fill-opacity: 0.8" />
+      <text x="-90" y="-80" class="klarigo">O : intersekco</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_3;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+    <!--
+        Figuro
+      -->
+
+      <g transform="rotate(-45)">
+        <use xlink:href="#orto"/>
+        <line id="linio_1" x1="-100" y1="0" x2="100" y2="0" class="kurbo"/>
+        <g transform="rotate(90)">
+          <use xlink:href="#linio_1"/>
+        </g>
+      </g>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">ortantoj</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_0;,&offset_2;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+     <!--
+        Figuro
+      -->
+
+      <g id="rompita_linio" transform="rotate(0)">
+        <line x1="-60" y1="0" x2="-20" y2="10" class="kurbo"/>
+        <line x1="-20" y1="10" x2="30" y2="-20" class="kurbo"/>
+        <line x1="30" y1="-20" x2="40" y2="20" class="kurbo"/>
+        <line x1="40" y1="20" x2="50" y2="-80" class="kurbo"/>
+        <circle cx="-60" cy="0" r="4" class="konstrupunkto"/>
+        <circle cx="-20" cy="10" r="4" class="konstrupunkto"/>
+        <circle cx="30" cy="-20" r="4" class="konstrupunkto"/>
+        <circle cx="40" cy="20" r="4" class="konstrupunkto"/>
+        <circle cx="50" cy="-80" r="4" class="konstrupunkto"/>
+      </g>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">rompita linio</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_2;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Figuro
+      -->
+
+      <g transform="translate(0, -50) rotate(30)" class="kurbo">
+        <polygon id="plurlatero" points="0 -30 -60 40 0 50 30 40 70 -10 20 0"/>
+      </g>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">plurlatero</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_2;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Figuro
+      -->
+
+      <path id="kurbo" d="M -30 50 S 30 30 -34 40 30 0 40 -10 -35 10 -50 -80" class="kurbo"/>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">kurbo</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_3;,&offset_2;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Figuro
+      -->
+
+      <g class="kurbo">
+        <circle id="cirklo" cx="0" cy="-20" r="60"/>
+      </g>
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">cirklo</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_0;,&offset_3;)">
+    <svg version="1.1" 
+      width="10cm" height="5cm" 
+      viewBox="-&scale_2; -&scale; &scale_4; &scale_2;">
+
+      <!--
+        Figuro
+      -->
+
+      <g transform="translate(-150, 0) scale(0.7,0.7)">
+        <use xlink:href="#rompita_linio"/>
+      </g>
+      <g transform="translate(-50, 0) scale(0.7,0.7)">
+        <use xlink:href="#cirklo" class="kurbo"/>
+      </g>
+      <g transform="translate(50, -40) scale(0.7,0.7)">
+        <use xlink:href="#rekto"/>
+      </g>
+      <g transform="translate(120, 0) scale(0.7,0.7)">
+        <use xlink:href="#kurbo"/>
+      </g>
+
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">---------- linioj ----------</text>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_3;)">
+    <svg version="1.1" 
+      width="10cm" height="5cm" 
+      viewBox="-&scale_2; -&scale; &scale_4; &scale_2;">
+
+      <!--
+        Figuro
+      -->
+
+      <g transform="translate(-150, -20) scale(0.7,1.2)">
+        <use xlink:href="#plurlatero" 
+          class="surfaco" style="stroke: black; stroke-width: 1"/>
+      </g>
+      <g transform="translate(-50, -40) scale(0.7,0.7)">
+        <use xlink:href="#cirklo"
+          class="surfaco" style="stroke: black; stroke-width: 1"/>
+      </g>
+      <g transform="translate(50, 0) scale(0.7,0.7)">
+        <g transform="translate(-60 0)">
+          <path d="M 0 0 L 200 0 A 200 200 0 0 0 140 -140 z" class="surfaco"/>
+          <path d="M 200 0 L 0 0 140 -140" style="stroke: black; stroke-width: 1"/>
+        </g>
+      </g>
+
+
+      <!--
+        Komento
+      -->
+
+      <text x="0" y="70" text-anchor="middle" class="nomo">---------- surfacoj ----------</text>
+
+    </svg>
+  </g>
+
+</svg>

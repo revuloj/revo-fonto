@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
   <!ENTITY scale "200">
   <!ENTITY scale_2 "400">
 ]>
@@ -57,8 +57,14 @@
         
         //  Direktanto
         var objet = svgdoc.getElementById("direktanto");
-        objet.setAttribute ("d", 
-          "M "+scale_xy*(xf+1)+" "+scale+" v "+(-2*scale));
+        objet.setAttribute ("x1", scale_xy*(xf+1));
+        objet.setAttribute ("y1", scale);
+        objet.setAttribute ("x2", scale_xy*(xf+1));
+        objet.setAttribute ("y2", -scale);
+        var objet = svgdoc.getElementById("direktanto_nomo");
+        objet.setAttribute ("x", scale_xy*(xf+1)-20);
+        objet.setAttribute ("y", 90);
+
 
         //  Kuranta punkto
         var theta = -Math.PI/3;
@@ -122,10 +128,9 @@
   <line id="streko_al_direktanto" x1="" y1="" x2="" y2="" 
     style="stroke-width:2" class="streketita"/>
 
-  <path id="direktanto" d="" class="streketita"/>
-  <text class="nomo">
-    <textPath xlink:href="#direktanto" dy="-5" startOffset="76.5%">direktanto</textPath>
-  </text>
+  <line id="direktanto" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <text id="direktanto_nomo" x="" y="" class="nomo">d</text>
 
   <circle id="fokuso" cx="" cy="" r="4" class="konstrupunkto"/>
   <text id="fokuso_nomo" x="" y="" class="punkto">F</text>
@@ -140,8 +145,9 @@
     Klarigo
   -->
 
-  <rect x="-248" y="-198" width="90" height="60" class="klarigo"/>
+  <rect x="-248" y="-198" width="100" height="70" class="klarigo"/>
   <text x="-240" y="-180" class="klarigo">F : fokuso</text>
-  <text x="-240" y="-150" class="klarigo">MF = MD</text>
+  <text x="-240" y="-160" class="klarigo">d : direktanto</text>
+  <text x="-240" y="-140" class="klarigo">MF = MD</text>
 
 </svg>

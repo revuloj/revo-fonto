@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Transfleksiĝa punkto de kurbo</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        function f(x) {
+          return (0.25*Math.pow(x,4)-(2/3)*Math.pow(x,3)-(19/2)*x*x+20*x+90)/1.5;
+        }
+        
+        function f_1(x) {
+          return (Math.pow(x,3)-2*x*x-19*x+20)/1.5;
+        }
+        
+        function path_data(f, x0, x1) {
+          var d = "M "; 
+          for (x=x0; x<=x1; x+=inc) {
+            if (!(Math.abs(f(x)) > scale/scale_y)) {
+              d += " " + scale_x*x + " " + (-scale_y)*f(x) 
+            }
+          }
+          return d;
+        }
+
+        var x0 = -5, x1 = 3, y0 = -100, y1 = 100;
+        var inc = (x1-x0)/500;
+        scale_y = 0.93*Math.min(2*scale/(x1-x0), 2*scale/(y1-y0));
+        scale_x = 18*scale_y;
+        scale_x = 1.5*scale_x;
+        scale_y = 1.5*scale_y;
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgroot = svgdoc.getDocumentElement();
+
+        // Desegni la kurbon
+        var objet = svgdoc.getElementById("kurbo2");
+        objet.setAttribute ("d",path_data(f, x0, x1));
+
+        // Transfleksiĝa punkto
+        function transfleks(numero, x, minmaks) {
+          // Punkto mem
+          var objet = svgdoc.getElementById("transfleks_"+numero);
+          objet.setAttribute ("cx", x*scale_x);
+          objet.setAttribute ("cy", -f(x)*scale_y);
+          
+          // Nomo de la punkto
+          var objet = svgdoc.getElementById("transfleksnomo_"+numero);
+          objet.setAttribute ("x", x*scale_x+minmaks*20);
+          objet.setAttribute ("y", -f(x)*scale_y);
+
+          // Tanĝanto
+          var inklino = f_1(x);
+          var objet = svgdoc.getElementById("transflekstanĝanto_"+numero);
+          objet.setAttribute ("x1", x*scale_x-100);
+          objet.setAttribute ("y1", -(f(x)-inklino*100/scale_x)*scale_y);
+          objet.setAttribute ("x2", x*scale_x+100);
+          objet.setAttribute ("y2", -(f(x)+inklino*100/scale_x)*scale_y);
+        }
+
+        transfleks(1, (2-Math.sqrt(61))/3, -1)
+
+       }
+    ]]></script>
+  </defs>
+
+  <!--
+    Kurbo
+  -->
+
+  <g transform="translate(70,0)">
+    <path id="kurbo2" class="kurbo" d=""/>
+
+    <!--
+      Transfleksiĝaj punktoj
+    -->
+
+    <text id="transfleksnomo_1" x="" y="" text-anchor="middle" class="punkto">T</text>
+    <line id="transflekstanĝanto_1" x1="" y1="" x2="" y2=""
+      style="stroke-width:2" class="streketita"/>
+    <circle id="transfleks_1" cx="" cy="" r="4" 
+      class="konstrupunkto"/>
+  </g>
+
+</svg>

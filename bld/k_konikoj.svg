@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+  <!ENTITY scale_3 "600">
+]>
+
+<svg version="1.1" 
+  width="15cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_3; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Konikoj</title>
+  <desc>
+    Montras variajn tipojn de konikoj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var xd = 30;
+        var scale_xy = 2;
+
+        function rho(t, exc, param) {
+          return param/(1+exc*Math.cos(t));
+        }
+        
+        function path_data(exc, t0, t1, nb_points) {
+          // exc = discentreco
+          // param = parametro
+
+          var param;
+          var d = "M "; 
+          var inc = (t1-t0)/nb_points;
+          switch (exc) {
+            case 0:
+              // Dubinda! Fakte se la direktanto troviĝas je finia distanco,
+              // la parametro (radiuso de la cirklo) devas nuli!
+              param = 1;
+              break;
+            case 1:
+              param = xd;
+              break;
+            default:
+              param = xd*exc
+          }
+          for (var t=t1; t>=t0; t-=inc) {
+            if (isFinite(rho(t,exc,param)) && !isNaN(rho(t,exc,param))) {
+              d += " " + scale_xy*rho(t,exc,param)*Math.cos(t) + " " + 
+                (-scale_xy)*rho(t,exc,param)*Math.sin(t) 
+            }
+          }
+          return d;
+        }
+
+        var t0 = -Math.PI, t1 = Math.PI;
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        
+        // Desegni la kurbojn
+
+        var objet = svgdoc.getElementById("kurbo2");
+        objet.setAttribute ("d", path_data(0.7, t0, t1, 500) +" z");
+
+        var objet = svgdoc.getElementById("kurbo3");
+        objet.setAttribute ("d", path_data(1, -0.8*Math.PI, 0.8*Math.PI, 500));
+        
+
+        var objet = svgdoc.getElementById("kurbo4");
+        objet.setAttribute ("d", 
+          path_data(1.6, -0.65*Math.PI, 0.65*Math.PI, 500) +
+          path_data(1.6, 0.80*Math.PI, 1.22*Math.PI, 500) 
+        );
+       
+        // Elementoj de konstruo
+        //  Fokusoj
+        var xf1 = 0, yf1 = 0;
+        var objet = svgdoc.getElementById("fokuso");
+        objet.setAttribute ("cx", scale_xy*xf1);
+        objet.setAttribute ("cy", scale_xy*yf1);
+        var objet = svgdoc.getElementById("fokuso_nomo");
+        objet.setAttribute ("x", scale_xy*xf1+10);
+        objet.setAttribute ("y", scale_xy*yf1+20);
+
+        // Direktanto
+        var objet = svgdoc.getElementById("direktanto");
+        objet.setAttribute ("x1", xd*scale_xy);
+        objet.setAttribute ("y1", scale);
+        objet.setAttribute ("x2", xd*scale_xy);
+        objet.setAttribute ("y2", -scale);
+        var objet = svgdoc.getElementById("direktanto_nomo");
+        objet.setAttribute ("x", xd*scale_xy-20);
+        objet.setAttribute ("y", -150);
+
+        //  Kuranta punkto
+        var theta = Math.PI/1.7, exc = 1.6, param = xd*exc;
+        var
+          xr = rho(theta,exc,param)*Math.cos(theta), 
+          yr = rho(theta,exc,param)*Math.sin(theta); 
+        var objet = svgdoc.getElementById("kuranta_punkto");
+        objet.setAttribute ("cx", scale_xy*xr);
+        objet.setAttribute ("cy", scale_xy*yr);
+        var objet = svgdoc.getElementById("kurantapunkto_nomo");
+        objet.setAttribute ("x", scale_xy*xr-10);
+        objet.setAttribute ("y", scale_xy*yr-20);
+
+        //  Radiusvektoroj
+        var objet = svgdoc.getElementById("radiusvektoro");
+        objet.setAttribute ("x1", 0);
+        objet.setAttribute ("y1", 0);
+        objet.setAttribute ("x2", scale_xy*xr);
+        objet.setAttribute ("y2", scale_xy*yr);
+         
+        var objet = svgdoc.getElementById("projekciaĵo");
+        objet.setAttribute ("cx", scale_xy*xd);
+        objet.setAttribute ("cy", scale_xy*yr);
+        var objet = svgdoc.getElementById("projekciaĵo_nomo");
+        objet.setAttribute ("x", scale_xy*xd-15);
+        objet.setAttribute ("y", scale_xy*yr-20);
+
+        var objet = svgdoc.getElementById("strekoprojekciaĵo");
+        objet.setAttribute ("x1", scale_xy*xr);
+        objet.setAttribute ("y1", scale_xy*yr);
+        objet.setAttribute ("x2", scale_xy*xd);
+        objet.setAttribute ("y2", scale_xy*yr);
+
+      }
+    ]]></script>
+  </defs>
+
+  <!--
+    Kurboj
+  -->
+
+  <path id="kurbo2" class="kurbo" d=""/>
+  <text class="parametro">
+    <textPath xlink:href="#kurbo2" dy="-5" startOffset="0%">
+      elipso (<tspan style="font-style: italic">e</tspan> = 0,7)
+    </textPath>
+  </text>
+
+  <path id="kurbo3" class="kurbo" d=""/>
+  <text class="parametro">
+    <textPath xlink:href="#kurbo3" dy="-5" startOffset="15%">
+      parabolo (<tspan style="font-style: italic">e</tspan> = 1)
+    </textPath>
+  </text>
+
+  <path id="kurbo4" class="kurbo" d=""/>
+  <text class="parametro">
+    <textPath xlink:href="#kurbo4" dy="-5" startOffset="13%">
+      hiperbolo (<tspan style="font-style: italic">e</tspan> = 1,6)
+    </textPath>
+  </text>
+  <text class="parametro">
+    <textPath xlink:href="#kurbo4" dy="-5" startOffset="85%">
+      hiperbolo (<tspan style="font-style: italic">e</tspan> = 1,6)
+    </textPath>
+  </text>
+
+  <!--
+    Elementoj de konstruo
+  -->
+
+  <line id="direktanto" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <text id="direktanto_nomo" x="" y="" class="nomo">d</text>
+
+  <line id="radiusvektoro" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="strekoprojekciaĵo" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+
+  <circle id="projekciaĵo" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="projekciaĵo_nomo" x="" y="" class="punkto">D</text>
+  <circle id="kuranta_punkto" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo" x="" y="" text-anchor="middle" class="punkto">M</text>
+
+  <circle id="fokuso" cx="0" cy="0" r="4" class="konstrupunkto"/>
+  <text id="fokuso_nomo" x="" y="" text-anchor="middle" class="punkto">F</text>
+
+  <!--
+    Klarigo
+  -->
+
+  <rect x="88" y="-198" width="100" height="70" class="klarigo" style="fill-opacity: 0.8" />
+
+  <text x="90" y="-180" class="klarigo">F : fokuso</text>
+  <text x="90" y="-160" class="klarigo">d : direktanto</text>
+  <text x="90" y="-140" class="klarigo">
+    MF / MD = <tspan style="font-style:italic">e</tspan>
+  </text>
+
+
+</svg>

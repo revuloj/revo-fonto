@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY offset_0 "0">
+  <!ENTITY offset_1 "200">
+  <!ENTITY offset_2 "400">
+]>
+
+<svg version="1.1" 
+  width="15cm" height="10cm" 
+  viewBox="0 0 600 400"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Arteoriaj operacioj</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        
+      }
+    ]]></script>
+  </defs>
+
+  <svg version="1.1" 
+    width="5cm" height="5cm" 
+    viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+    <!--
+      Kadro
+    -->
+
+    <rect x="-90" y="-90" width="180" height="140" 
+      style="fill:white; stroke-width:2; stroke:black"/>
+
+    <!-- 
+      Aroj
+    -->
+
+    <g id="aroj">
+      <path d="M -20 -40 A 50 30 0 1 1 20 00"
+        style="fill:none; stroke-width:2; stroke:black"/>
+      <path d="M -20 -40 A 50 30 0 0 1 20 00"
+        style="fill:none; stroke-width:2; stroke:black"/>
+      <path d="M -20 -40 A 50 30 0 1 0 20 00"
+        style="fill:none; stroke-width:2; stroke:black"/>
+      <path d="M -20 -40 A 50 30 0 0 0 20 00"
+        style="fill:none; stroke-width:2; stroke:black"/>
+      <text x="-60" y="-50" class="nomo">A</text>
+      <text x="60" y="20" class="nomo">B</text>
+    </g>
+
+    <path d="M -20 -40 A 50 30 0 0 1 20 00 M -20 -40 A 50 30 0 0 0 20 00"
+      style="fill:rgb(200,200,200); stroke-width:2; stroke:black"/>
+
+    <!-- 
+      Komento
+    -->
+
+    <text x="0" y="80" text-anchor="middle" class="nomo">
+      kunaĵo 
+      (A<tspan style="font-family:'Lucida Sans Unicode'">&#8745;</tspan>B)
+    </text>
+  </svg>
+
+  <g transform="translate(&offset_1;,&offset_0;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <rect x="-90" y="-90" width="180" height="140" 
+        style="fill:white; stroke-width:2; stroke:black"/>
+
+      <use xlink:href="#aroj"/>
+
+      <path d="M -20 -40 A 50 30 0 1 0 20 00 M -20 -40 A 50 30 0 1 1 20 00"
+        style="fill:rgb(200,200,200); stroke-width:2; stroke:black; fill-opacity: 0.7"/>
+
+      <text x="0" y="80" text-anchor="middle" class="nomo">
+        komunaĵo
+        (A<tspan style="font-family:'Lucida Sans Unicode'">&#8746;</tspan>B)
+      </text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_0;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <rect x="-90" y="-90" width="180" height="140" 
+        style="fill:rgb(200,200,200); stroke-width:2; stroke:black"/>
+      <text x="-60" y="-50" class="nomo">A</text>
+      <path d="M -20 -40 A 50 30 0 1 0 20 00 M -20 -40 A 50 30 0 0 1 20 00"
+        style="fill:white; stroke-width:2; stroke:black"/>
+
+      <text x="0" y="80" text-anchor="middle" class="nomo">
+        komplemento
+        (<tspan style="font-family:'Lucida Sans Unicode'">&#8705;</tspan>A)
+      </text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_0;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <rect x="-90" y="-90" width="180" height="140" 
+        style="fill:white; stroke-width:2; stroke:black"/>
+
+      <use xlink:href="#aroj"/>
+
+      <path d="M -20 -40 A 50 30 0 1 0 20 00 M -20 -40 A 50 30 0 0 0 20 00"
+        style="fill:rgb(200,200,200); stroke-width:2; stroke:black"/>
+      <path d="M -20 -40 A 50 30 0 0 1 20 00 M -20 -40 A 50 30 0 0 0 20 00"
+        style="fill:white; stroke-width:2; stroke:black"/><!-- ruzaĵo -->
+
+      <text x="0" y="80" text-anchor="middle" class="nomo">
+        diferenco
+        (A\B)
+      </text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <rect x="-90" y="-90" width="180" height="140" 
+        style="fill:white; stroke-width:2; stroke:black"/>
+
+      <use xlink:href="#aroj"/>
+
+      <path d="M -20 -40 A 50 30 0 1 0 20 00 M -20 -40 A 50 30 0 1 1 20 00"
+        style="fill:rgb(200,200,200); stroke-width:2; stroke:black"/>
+      <path d="M -20 -40 A 50 30 0 0 1 20 00 M -20 -40 A 50 30 0 0 0 20 00"
+        style="fill:white; stroke-width:2; stroke:black"/><!-- ruzaĵo -->
+
+      <text x="0" y="80" text-anchor="middle" class="nomo">
+        simetria diferenco
+        (A<tspan style="font-family:'Lucida Sans Unicode'">&#8710;</tspan>B)
+      </text>
+    </svg>
+  </g>
+</svg>

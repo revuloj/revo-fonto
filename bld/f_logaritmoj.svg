@@ -8,50 +8,37 @@
 
 <svg version="1.1" 
   width="10cm" height="10cm" 
-  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  viewBox="-10 -&scale; &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
 
-  <title>Gaŭsa kurbo</title>
-  <desc/>
+  <title>Logaritmoj</title>
+  <desc>
+    Grafika prezento de logaritmo por bazo egala al
+    e, 10
+  </desc>
   
   <defs>
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function yy(x) {
-          return 2*Math.exp(-x*x/2);
-        }
-        
-        function path_data(f, x0, x1) {
+        function path_data(n, x0, x1) {
+          function f(x) {
+            return Math.log(x)/Math.log(n);
+          }
+
           var d = "M "; 
           for (x=x0; x<=x1; x+=inc) {
-            if (!(Math.abs(f(x)) > scale/scale_y)) {
+            if (!(Math.abs(f(x)) > scale/scale_y) &&
+                !isNaN(f(x))) {
               d += " " + scale_x*x + " " + (-scale_y)*f(x) 
             }
           }
           return d;
         }
 
-        /*
-        function path_data(f, x0, x1) {
-          var first = true; 
-          for (x=x0; x<=x1; x+=inc) {
-            if (!(Math.abs(f(x)) > scale/scale_y)) {
-              if (first)  {
-                first = false;
-                d = "M " + scale_x*x + " " + (-scale_y)*f(x) + "L";
-              } else {
-                d += " " + scale_x*x + " " + (-scale_y)*f(x)
-              }
-            }
-          }
-          return d;
-        }
-        */
-
         var x0 = -3, x1 = 3, y0 = -3, y1 = 3;
-        var inc = (x1-x0)/100;
+        var inc = (x1-x0)/500;
         scale_x = scale_y = 0.93*Math.min(2*scale/(x1-x0), 2*scale/(y1-y0));
 
         var svgdoc = evt.getTarget().getOwnerDocument();
@@ -70,23 +57,27 @@
         objet.setAttribute ("y",-0.95*scale);
 
         // Desegni la funkciojn
+        var objet = svgdoc.getElementById("kurbo1");
+        objet.setAttribute ("d",path_data(Math.E, 0.05, 6));
         var objet = svgdoc.getElementById("kurbo2");
-        objet.setAttribute ("d",path_data(yy, -3, 3));
+        objet.setAttribute ("d",path_data(10, 0.01, 6));
+        var objet = svgdoc.getElementById("kurbo3");
+        objet.setAttribute ("d",path_data(0.5, 0.15, 6));
 
       }
     ]]></script>
   </defs>
-
-  <!-- rect class="fenestro" x="-&scale;" y="-&scale;" width="&scale_2;" height="&scale_2;"/ -->
 
   <!--
     Aksoj
   -->
   
   <g id="x_akso">
-    <path class="akso" d="M -&scale; 0 H &scale;"/>
-    <polygon id="x_akso_pinto" class="pinto" points=""/>
-    <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+    <path class="akso" d="M -10 0 h &scale_2;"/>
+    <g transform="translate(190)">
+      <polygon id="x_akso_pinto" class="pinto" points=""/>
+      <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+    </g>
   </g>
 
   <g id="y_akso">
@@ -99,7 +90,26 @@
     Funkcioj
   -->
 
+  <path id="kurbo1" class="kurbo" d=""/>
   <path id="kurbo2" class="kurbo" d=""/>
+  <path id="kurbo3" class="kurbo" d=""/>
 
+  <text class="parametro">
+    <textPath xlink:href="#kurbo1" dy="-15" startOffset="85%">
+      log
+      <tspan baseline-shift="-50%" style="font-style: italic" class="indico">e</tspan>
+      (<tspan style="font-style: italic">x</tspan>)
+    </textPath>
+    <textPath xlink:href="#kurbo2" dy="-15" startOffset="85%">
+      log
+      <tspan baseline-shift="-50%" class="indico">10</tspan>
+      (<tspan style="font-style: italic">x</tspan>)
+    </textPath>
+    <textPath xlink:href="#kurbo3" dy="-15" startOffset="85%">
+      log
+      <tspan baseline-shift="-50%" class="indico">½</tspan>
+      (<tspan style="font-style: italic">x</tspan>)
+    </textPath>
+  </text>
 
 </svg>

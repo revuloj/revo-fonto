@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
   <!ENTITY scale "200">
   <!ENTITY scale_2 "400">
 ]>
@@ -20,6 +20,8 @@
       function start(evt, scale) {
 
         function rho(t) {
+          // parm = discentreco
+          // parametro = 1
           return 1/(1+parm*Math.cos(t));
         }
         
@@ -37,11 +39,10 @@
         var t0 = -Math.PI, t1 = Math.PI;
 
         var svgdoc = evt.getTarget().getOwnerDocument();
-
         
         // Desegni la kurbon
         var objet = svgdoc.getElementById("kurbo1");
-        var scale_xy = 100, parm = 0.6;
+        var scale_xy = 65, parm = 0.7;
         objet.setAttribute ("d",
           path_data(rho, t0, t1, 1000, scale_xy) +" z"
         );
@@ -53,18 +54,18 @@
         objet.setAttribute ("cx", scale_xy*xf1);
         objet.setAttribute ("cy", scale_xy*yf1);
         var objet = svgdoc.getElementById("fokuso_nomo_1");
-        objet.setAttribute ("x", scale_xy*xf1*0.98);
+        objet.setAttribute ("x", scale_xy*xf1);
         objet.setAttribute ("y", scale_xy*yf1+20);
 
         var objet = svgdoc.getElementById("fokuso_2");
         objet.setAttribute ("cx", scale_xy*xf2);
         objet.setAttribute ("cy", scale_xy*yf2);
         var objet = svgdoc.getElementById("fokuso_nomo_2");
-        objet.setAttribute ("x", scale_xy*xf2*0.98);
+        objet.setAttribute ("x", scale_xy*xf2);
         objet.setAttribute ("y", scale_xy*yf2+20);
 
         //  Kuranta punkto
-        var theta = -Math.PI/3;
+        var theta = -Math.PI/1.7;
         var
           xr = rho(theta)*Math.cos(theta), 
           yr = rho(theta)*Math.sin(theta); 
@@ -117,6 +118,39 @@
         objet.setAttribute ("x", scale_xy*xo-15);
         objet.setAttribute ("y", scale_xy*yo+20);
 
+        // Direktantoj
+        var xd1 = xo+(xa-xo)/parm;
+        var objet = svgdoc.getElementById("direktanto_1");
+        objet.setAttribute ("x1", scale_xy*xd1);
+        objet.setAttribute ("y1", scale);
+        objet.setAttribute ("x2", scale_xy*xd1);
+        objet.setAttribute ("y2", -scale);
+        var objet = svgdoc.getElementById("direktanto_nomo_1");
+        objet.setAttribute ("x", scale_xy*xd1-20);
+        objet.setAttribute ("y", 90);
+
+        var xd2 = xo-(xa-xo)/parm;
+        var objet = svgdoc.getElementById("direktanto_2");
+        objet.setAttribute ("x1", scale_xy*xd2);
+        objet.setAttribute ("y1", scale);
+        objet.setAttribute ("x2", scale_xy*xd2);
+        objet.setAttribute ("y2", -scale);
+        var objet = svgdoc.getElementById("direktanto_nomo_2");
+        objet.setAttribute ("x", scale_xy*xd2-20);
+        objet.setAttribute ("y", 90);
+
+        var objet = svgdoc.getElementById("projekciaĵo");
+        objet.setAttribute ("cx", scale_xy*xd1);
+        objet.setAttribute ("cy", scale_xy*yr);
+        var objet = svgdoc.getElementById("projekciaĵo_nomo");
+        objet.setAttribute ("x", scale_xy*xd1-15);
+        objet.setAttribute ("y", scale_xy*yr-20);
+
+        var objet = svgdoc.getElementById("strekoprojekciaĵo");
+        objet.setAttribute ("x1", scale_xy*xr);
+        objet.setAttribute ("y1", scale_xy*yr);
+        objet.setAttribute ("x2", scale_xy*xd1);
+        objet.setAttribute ("y2", scale_xy*yr);
       }
     ]]></script>
   </defs>
@@ -144,11 +178,11 @@
     style="stroke-width:2" class="streketita"/>
 
   <circle id="fokuso_1" cx="" cy="" r="4" class="konstrupunkto"/>
-  <text id="fokuso_nomo_1" x="" y="" class="punkto">
+  <text id="fokuso_nomo_1" x="" y="" text-anchor="middle" class="punkto">
     F<tspan baseline-shift="-50%" class="indico">1</tspan>
   </text>
   <circle id="fokuso_2" cx="" cy="" r="4" class="konstrupunkto"/>
-  <text id="fokuso_nomo_2" x="" y="" class="punkto">
+  <text id="fokuso_nomo_2" x="" y="" text-anchor="middle" class="punkto">
     F<tspan baseline-shift="-50%" class="indico">2</tspan>
   </text>
 
@@ -159,14 +193,29 @@
   <circle id="ekstremo_2" cx="" cy="" r="4" class="konstrupunkto"/>
   <text id="ekstremo_nomo_2" x="" y="" class="punkto">B</text>
 
+  <line id="direktanto_1" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <text id="direktanto_nomo_1" x="" y="" class="nomo">
+    d<tspan baseline-shift="-50%" class="indico">1</tspan>
+  </text>
+  <line id="direktanto_2" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <text id="direktanto_nomo_2" x="" y="" class="nomo">
+    d<tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+  <text id="projekciaĵo_nomo" x="" y="" class="punkto">D</text>
+  <line id="strekoprojekciaĵo" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <circle id="projekciaĵo" cx="" cy="" r="4" class="konstrupunkto"/>
+
   <circle id="kuranta_punkto" cx="" cy="" r="4" class="konstrupunkto"/>
-  <text id="kurantapunkto_nomo" x="" y="" class="punkto">M</text>
-  
+  <text id="kurantapunkto_nomo" x="" y="" text-anchor="middle" class="punkto">M</text>
+
   <!--
     Klarigo
   -->
 
-  <rect x="-298" y="-198" width="190" height="90" class="klarigo" style="fill-opacity: 0.8" />
+  <rect x="-298" y="-198" width="190" height="130" class="klarigo" style="fill-opacity: 0.8" />
 
   <text x="-290" y="-180" class="klarigo">
     F<tspan baseline-shift="-50%" class="indico">1</tspan>,
@@ -174,12 +223,21 @@
   </text>
 
   <text x="-290" y="-160" class="klarigo">
+    d<tspan baseline-shift="-50%" class="indico">1</tspan>, 
+    d<tspan baseline-shift="-50%" class="indico">2</tspan> : direktantoj
+  </text>
+
+  <text x="-290" y="-140" class="klarigo">OA : granda duonakso</text>
+  <text x="-290" y="-120" class="klarigo">OB : malgranda duonakso</text>
+
+  <text x="-290" y="-100" class="klarigo">
     MF<tspan baseline-shift="-50%" class="indico">1</tspan> + 
     MF<tspan baseline-shift="-50%" class="indico">2</tspan> = konstanto 
   </text>
 
-  <text x="-290" y="-140" class="klarigo">OA : granda duonakso</text>
-
-  <text x="-290" y="-120" class="klarigo">OB : malgranda duonakso</text>
+  <text x="-290" y="-080" class="klarigo">
+    MF<tspan baseline-shift="-50%" class="indico">1</tspan> / MD =
+    discentreco
+  </text>
 
 </svg>

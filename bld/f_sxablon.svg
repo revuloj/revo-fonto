@@ -12,30 +12,31 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
 
-  <title>Hiperbola spiralo</title>
-  <desc/>
+  <title></title>
+  <desc>
+    Grafika prezento de 
+  </desc>
   
   <defs>
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function rho(t) {
-          return 1/t;
+        function yy(x) {
         }
-        
-        function path_data(f, t0, t1, nb_points, scale_xy) {
+       
+        function path_data(f, x0, x1) {
           var d = "M "; 
-          var inc = (t1-t0)/nb_points;
-          for (var t=t0; t<=t1; t+=inc) {
-            if (!(Math.abs(f(t)*Math.cos(t)) > scale/scale_xy) &&
-              !(Math.abs(f(t)*Math.sin(t)) > scale/scale_xy)) {
-              d += " " + scale_xy*f(t)*Math.cos(t) + " " + (-scale_xy)*f(t)*Math.sin(t) 
+          for (x=x0; x<=x1; x+=inc) {
+            if (!(Math.abs(f(x)) > scale/scale_y)) {
+              d += " " + scale_x*x + " " + (-scale_y)*f(x) 
             }
           }
           return d;
         }
 
-        var t0 = 0, t1 = 6*Math.PI;
+        var x0 = -3, x1 = 3, y0 = -3, y1 = 3;
+        var inc = (x1-x0)/100;
+        scale_x = scale_y = 0.93*Math.min(2*scale/(x1-x0), 2*scale/(y1-y0));
 
         var svgdoc = evt.getTarget().getOwnerDocument();
 
@@ -52,18 +53,17 @@
         objet.setAttribute ("x",0.05*scale);
         objet.setAttribute ("y",-0.95*scale);
 
-        // Desegni la kurbon
+        // Desegni la funkciojn
         var objet = svgdoc.getElementById("kurbo1");
-        var scale_xy = 160;
-        objet.setAttribute ("d",
-          path_data(rho, t0, t1, 1000, scale_xy)
-        );
+        objet.setAttribute ("d",path_data(yy, x0, x1));
 
-        // Tiri la asimptoton 
+
+        // Tiri la asimptotojn de tangento
         var objet = svgdoc.getElementById("asimptotoj");
         objet.setAttribute ("d", 
-          "M " +  (-scale) + " " + (-scale_xy) + " " + " h " + 2*scale);
- 
+          "M "  + -1*scale + " " + +1*scale_y + " h " + 2*scale +
+          " M " + -1*scale + " " + -1*scale_y + " h " + 2*scale
+        );
       }
     ]]></script>
   </defs>
@@ -71,7 +71,7 @@
   <!-- rect class="fenestro" x="-&scale;" y="-&scale;" width="&scale_2;" height="&scale_2;"/ -->
 
   <!--
-    Aksoj kaj titolo
+    Aksoj
   -->
   
   <g id="x_akso">
@@ -86,19 +86,23 @@
     <text id="y_akso_indiko" class="akso" x="" y="">y</text>
   </g>
 
-  <!-- circle cx="0" cy="&scale;" r="20" style="fill:white" opacity="1"/>
-  <text x="0" y="&scale;" class="komento" text-anchor="middle">Arĥimeda spiralo</text -->
-
   <!--
-    Kurbo
+    Funkcioj
   -->
 
   <path id="kurbo1" class="kurbo" d=""/>
 
+  <text>
+    <textPath xlink:href="#kurbo1" dy="-5" startOffset="10%">
+      func(<tspan style="font-style: italic">x</tspan>)
+    </textPath>
+  </text>
+
   <!--
-    Asimptoto
+    Asimptotoj
   -->
 
-  <path id="asimptotoj" class="streketita" transform="" d=""/>
+  <path id="asimptotoj" class="streketita" d=""/>
+
 
 </svg>

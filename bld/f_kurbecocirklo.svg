@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Kurbecocirklo de kurbo kaj aliaj diferencialaj nocioj</title>
+  <desc>
+    Montras la tanĝanton, la normalon kaj la kurbecocirklon
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        function f(x) {
+          return (Math.pow(x,3)+0.5);
+        }
+        
+        function f_1(x) {
+          return 3*x*x;
+        }
+        
+        function f_2(x) {
+          return 6*x;
+        }
+        
+        function path_data(f, x0, x1) {
+          var d = "M "; 
+          for (x=x0; x<=x1; x+=inc) {
+            if (!(Math.abs(f(x)) > scale/scale_xy)) {
+              d += " " + scale_xy*x + " " + (-scale_xy)*f(x) 
+            }
+          }
+          return d;
+        }
+
+        var x0 = -3, x1 = 3, y0 = -100, y1 = 100;
+        var inc = (x1-x0)/500;
+        scale_xy = 130;
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgroot = svgdoc.getDocumentElement();
+
+        // Montri la aksojn
+        var objet = svgdoc.getElementById("x_akso_pinto");
+        var points = 0.95*scale + " " + (-0.015*scale) + " " + 0.999*scale + " 0 " +
+                     0.95*scale + " " + 0.015*scale; 
+        objet.setAttribute ("points",points);
+
+        var objet = svgdoc.getElementById("x_akso_indiko");
+        objet.setAttribute ("x",0.95*scale);
+        objet.setAttribute ("y",0.10*scale);
+
+        // Desegni la kurbon
+        var objet = svgdoc.getElementById("kurbo");
+        objet.setAttribute ("d",path_data(f, x0, x1));
+
+
+        // Kuranta punkto
+        var xr = 0.55, yr = f(xr);
+        var objet = svgdoc.getElementById("kuranta_punkto");
+        objet.setAttribute ("cx", xr*scale_xy);
+        objet.setAttribute ("cy", -yr*scale_xy);
+
+        var objet = svgdoc.getElementById("kurantapunkto_nomo");
+        objet.setAttribute ("x", xr*scale_xy+20);
+        objet.setAttribute ("y", -yr*scale_xy+5);
+
+        // Absciso de la kuranta punkto
+        var objet = svgdoc.getElementById("kurantapunkto_absciso");
+        objet.setAttribute ("x1", xr*scale_xy);
+        objet.setAttribute ("x2", xr*scale_xy);
+        objet.setAttribute ("y1", 5);
+        objet.setAttribute ("y2", -5);
+
+        var objet = svgdoc.getElementById("kurantapunkto_abscisnomo");
+        objet.setAttribute ("x", xr*scale_xy);
+        objet.setAttribute ("y", 20);
+      
+        // Tanĝanto kaj ortanto
+        var inklino = f_1(xr), dekstra = 100, maldekstra = 150;
+        var objet = svgdoc.getElementById("tanĝanto");
+        objet.setAttribute ("d",
+          "M " + (xr*scale_xy-maldekstra) +" "+ -(yr-inklino*maldekstra/scale_xy)*scale_xy +
+          " L " + (xr*scale_xy+dekstra) + " " + -(yr+inklino*dekstra/scale_xy)*scale_xy
+        );
+
+        var inklino = -1/inklino, dekstra = 100, maldekstra = 68;
+        var objet = svgdoc.getElementById("ortanto");
+        objet.setAttribute ("d",
+          "M " + (xr*scale_xy-maldekstra) +" "+ -(yr-inklino*maldekstra/scale_xy)*scale_xy +
+          " L " + (xr*scale_xy+dekstra) + " " + -(yr+inklino*dekstra/scale_xy)*scale_xy
+        );
+
+        // Orto ĉe ilia intersekco
+        var objet = svgdoc.getElementById("orto_kuranta");
+        objet.setAttribute ("transform", 
+          "translate(" + xr*scale_xy + "," + (-yr)*scale_xy + ") "+
+          "rotate(" + -180*Math.atan(f_1(xr))/Math.PI + ")"
+        );
+
+        // Inklina angulo
+        var objet = svgdoc.getElementById("inklina_angulo");
+        var angul = Math.atan(f_1(xr));
+        objet.setAttribute ("d",
+          "M 20 0 A 20 20 0 0 0 "+
+          20*Math.cos(angul) + " " + 20*Math.sin(-angul)
+        );
+        objet.setAttribute ("transform", 
+          "translate(" + (xr-yr/f_1(xr))*scale_xy + ",0)"
+        );
+
+        var objet = svgdoc.getElementById("inklinaangulo_nomo");
+        objet.setAttribute ("x", (xr-yr/f_1(xr))*scale_xy+30);
+        objet.setAttribute ("y", -0*scale_xy-7);
+
+        // Kurbecocentro
+        var 
+          ypr = f_1(xr),
+          xc = xr - ypr*(1+ypr*ypr)/f_2(xr),
+          yc = yr + (1+ypr*ypr)/f_2(xr),
+          kc = Math.sqrt(Math.pow(1+ypr*ypr,3))/f_2(xr);
+        var objet = svgdoc.getElementById("kurbecocentro");
+        objet.setAttribute ("cx", xc*scale_xy);
+        objet.setAttribute ("cy", -yc*scale_xy);
+
+        var objet = svgdoc.getElementById("kurbecocentro_nomo");
+        objet.setAttribute ("x", xc*scale_xy-10);
+        objet.setAttribute ("y", -yc*scale_xy-10);
+
+        // Kurbecocirklo
+        var objet = svgdoc.getElementById("kurbecocirklo");
+        objet.setAttribute ("d", 
+          "M " + xr*scale_xy + " " + (-yr*scale_xy) +
+          " a " + Math.abs(kc)*scale_xy + " " + 
+          Math.abs(kc)*scale_xy+" 0 1 0 -0.001 0.001"
+        );
+
+      }
+    ]]></script>
+
+    <g id="orto">
+      <path d="M 20 0 A 20 20 0 0 0 0 -20 M 5 -5 L 5 -7 7 -7 7 -5 5 -5" 
+        style="stroke:magenta"/>
+    </g>
+  </defs>
+
+  <g transform="translate(-45,60)">
+    <!--
+      Aksoj
+    -->
+    
+    <g id="x_akso">
+      <path class="akso" d="M -&scale; 0 H &scale;"/>
+      <polygon id="x_akso_pinto" class="pinto" points=""/>
+      <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+    </g>
+
+
+    <!--
+      Diferencialaj elementoj
+    -->
+
+    <path id="tanĝanto" d=""
+      style="stroke-width:2" class="streketita"/>
+    <text class="nomo">
+      <textPath xlink:href="#tanĝanto" dy="-5" startOffset="21%">tanĝanto</textPath>
+    </text>
+
+    <path id="ortanto" d=""
+      style="stroke-width:2" class="streketita"/>
+    <text class="nomo">
+      <textPath xlink:href="#ortanto" dy="-5" startOffset="55%">ortanto</textPath>
+    </text>
+
+
+    <g id="orto_kuranta" transform="">
+      <use xlink:href="#orto"/>
+    </g>
+    <path id="inklina_angulo" transform="" d="" 
+      style="stroke:magenta"/>
+    <text id="inklinaangulo_nomo" x="" y=""
+      text-anchor="middle" class="nomo">
+      α
+    </text>
+
+    <path id="kurbecocirklo" d=""
+      style="fill:none; stroke-width:2" class="streketita"/>
+    <text class="nomo">
+      <textPath xlink:href="#kurbecocirklo" dy="-5" startOffset="65%">kurbecocirklo</textPath>
+    </text>
+
+
+    <!--
+      Kurbo
+    -->
+
+    <path id="kurbo" class="kurbo" d=""/>
+    <text class="parametro">
+      <textPath xlink:href="#kurbo" dy="-5" startOffset="21%">
+        <tspan style="font-style: italic">y</tspan> = 
+        <tspan style="font-style: italic">f</tspan>(<tspan style="font-style: italic">x</tspan>)
+      </textPath>
+    </text>
+
+    <circle id="kuranta_punkto" cx="" cy="" r="4" 
+      class="konstrupunkto"/>
+    <text id="kurantapunkto_nomo" x="" y=""
+      text-anchor="middle" class="punkto">
+      M
+    </text>
+    <line id="kurantapunkto_absciso" x1="" x2="" y1="" y2="" class="akso"/>
+    <text id="kurantapunkto_abscisnomo" x="" y=""
+      text-anchor="middle" class="nomo">
+      <tspan style="font-style: italic">x</tspan><tspan baseline-shift="-50%" class="indico">0</tspan>
+    </text>
+
+    <circle id="kurbecocentro" cx="" cy="" r="4" 
+      class="konstrupunkto"/>
+    <text id="kurbecocentro_nomo" x="" y=""
+      text-anchor="middle" class="punkto">
+      C
+    </text>
+
+  </g>
+
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-8" y="120" width="150" height="75" class="klarigo" style="fill-opacity: 0.9" />
+
+  <text x="-5" y="140" class="klarigo">
+    C : kurbecocentro 
+  </text>
+
+  <text x="-5" y="160" class="klarigo">
+    CM : kurbecoradiuso
+  </text>
+
+  <text x="-5" y="180" class="klarigo">
+    tg α = 
+    <tspan style="font-style: italic">f</tspan> &#8242;(<tspan style="font-style: italic">x</tspan><tspan baseline-shift="-50%" class="indico">0</tspan>)
+  </text>
+
+</svg>
