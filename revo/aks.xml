@@ -2,88 +2,177 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>*</ofc>
-      <rad>aks</rad>/o
-    </kap>
-    <drv mrk="aks.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <snc mrk="aks.0o.rotacia">
-        <dif>
-          Linio, &ccirc;irka&ubreve; kiu turni&gcirc;as korpo:
-          <ekz>
-            la <tld/>o de nia 
-            globo trairas tra amba&ubreve; polusoj;
-          </ekz><ekz>
-            <tld/>o de rado.
-          </ekz>
-        </dif>
-        <trd lng="de">Achse</trd>
-      </snc>
-      <snc mrk="aks.0o.de.simetrio">
-        <dif>
-          Centra, al randoj paralela linio:
-          <ekz>
-            <tld/>o de vojo.
-          </ekz>
-        </dif>
-        <trd lng="de">Mittellinie</trd>
-      </snc>
-      <snc mrk="aks.0o.FIG">
-        <uzo tip="stl">FIG</uzo><dif>
-          Centra, plej grava organo en iu organizo:
-          <ekz>
-            tiu komitato estas la 
-            &ccirc;efa  <tld/>o de la societo.
-          </ekz>
-        </dif>
-        <trd lng="de">tragende S&auml;ule</trd>
-      </snc>
-      <trd lng="fr">axe</trd>
-      <trd lng="ru">&c_o;&c_s;&c_mol;</trd>
-      <trd lng="sv">axel</trd>
-    </drv>
-    <drv mrk="aks.0ingo">
-      <kap><tld/>ingo</kap>
-      <snc>
-        <dif>
-          Muntopeco entenanta <tld/>an aperturon por alia muntopeco.
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="pivot.0o">pivoto</ref>.
-        </refgrp>
-      </snc>
-      <trd lng="fr">moyeu</trd>
-      <trdgrp lng="ru">
-        <trd>&c_v;&c_t;&c_u;&c_l;&c_k;&c_a;</trd>,
-        <trd>&c_s;&c_t;&c_u;&c_p;&c_i;&c_c;&c_a;</trd>
-      </trdgrp>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.11  2001/03/22 17:41:51  revo
-  Ulrich Fellmann: + 3 germ trdj
+<art mrk="$Id$">
+<kap>
+  <ofc>*</ofc>
+  <rad>aks</rad>/o
+</kap>
+<drv mrk="aks.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="aks.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Cilindroforma stango, &ccirc;irka&ubreve; kiu turni&gcirc;as peco
+      de ma&scirc;ino:
+      <ekz>
+        <tld/>o de rado, pulio, ekscentriko.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="aks.0o.rotacia">
+    <dif>
+      Imaga rekto, &ccirc;irka&ubreve; kiu turni&gcirc;as korpo:
+      <ekz>
+        la <tld/>o de nia terglobo trairas tra amba&ubreve; polusoj.
+      </ekz>
+    </dif>
+    <trd lng="de">Achse</trd>
+  </snc>
+  <snc mrk="aks.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Rimarkinda <ref tip="super" cel="rekt.0o.MAT">rekto</ref> kaj interalie:
+    </dif>
+    <subsnc mrk="aks.0o.simetrio">
+      <dif>
+        <ref tip="dif" cel="aks.simetria0o">simetri<tld/>o</ref>:
+        <ekz>
+          <tld/>o de cirklo <klr>(rekto orta al &gcirc;ia ebeno kaj
+          trapasanta &gcirc;ian centron)</klr>;
+        </ekz>
+        <ekz>
+          <tld/>o de sfero <klr>(&ccirc;iu ajn el la rektoj enhavantaj
+          &gcirc;ian centron)</klr>;
+        </ekz>
+        <ekz>
+          rivolua <tld/>o <klr>(simetri<tld/>o de rivolua surfaco)</klr>;
+        </ekz>
+        <ekz>
+          fokusa a&ubreve; nefokusa <tld/>o de elipso <klr>(simetri<tld/>o, 
+          trapasanta a&ubreve; ne &gcirc;iajn fokusojn)</klr>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="aks.0o.koordinato">
+      <dif>
+        <klr>(p.p. kartezia 
+        <ref cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
+        rekto, enhavanta la orginan punkton kaj direktata de unu
+        el la bazaj vektoroj:
+        <ekz>
+          la abscisa <tld/>o <klr>(direktata de la unua baza vektoro)</klr>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <adm>
+      Enkonduki : ~o de rotacio (en 3-dimensia spaco).
+      <aut>MB</aut>
+    </adm>
+  </snc>
+  <snc mrk="aks.0o.mezo">
+    <dif>
+      Meza linio, e&ccirc; ne rekta, de io, konsiderata la&ubreve;longe:
+      <ekz>
+        <tld/>o de vojo.
+      </ekz>
+    </dif>
+    <trd lng="de">Mittellinie</trd>
+  </snc>
+  <snc mrk="aks.0o.gravaorgano">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Centra, plej grava organo en iu organizo:
+      <ekz>
+        tiu komitato estas la &ccirc;efa <tld/>o de la societo.
+      </ekz>
+    </dif>
+    <trd lng="de">tragende S&auml;ule</trd>
+  </snc>
+  <snc mrk="aks.0o.alianco">
+    <uzo tip="stl">FIG</uzo>
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Politika alianco, a&ubreve; simpla interkonsento pri certa punkto:
+      <ekz>
+        la <tld lit="A"/>o <klr>(Germanio kaj &gcirc;iaj aliancanoj
+        dum la 2-a mondmilito)</klr>;
+      </ekz>
+      <ekz>
+        la <tld/>o Parizo-Berlino <klr>(ekz-e en e&ubreve;ropaj aferoj)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+    PIV1 citas plurajn aliajn sencojn el la fakoj: BOT, ANA, OPTiko.
+    Ekzistas aliaj figuraj sencoj en la franca, kiuj eble trovi&gcirc;as
+    anka&ubreve; en E-o:
+    (a) longa, grava parto de io : cerbospina "~o";
+    (b) grava trafikvojo : fervoja "~o";
+    (c) gravaj linioj de projekto, politiko : nia &ccirc;efa "~o" koncernas
+    senlaborecon.
+    <aut>MB</aut>
+  </adm>
+  <trd lng="fr">axe</trd>
+  <trd lng="ru">&c_o;&c_s;&c_mol;</trd>
+  <trd lng="sv">axel</trd>
+</drv>
+<drv mrk="aks.0ingo">
+  <kap><tld/>ingo</kap>
+  <trd lng="fr">TEK</trd>
+  <snc>
+    <dif>
+      Muntopeco entenanta <tld/>an aperturon por alia muntopeco.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="nab.0o">nabo</ref>,
+      <ref cel="pivot.0o">pivoto</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="fr">moyeu</trd>
+  <trdgrp lng="ru">
+    <trd>&c_v;&c_t;&c_u;&c_l;&c_k;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_u;&c_p;&c_i;&c_c;&c_a;</trd>
+  </trdgrp>
+</drv>
+<drv mrk="aks.simetri0o">
+  <kap>simetri<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="rekt.0o.MAT">Rekto</ref>, kiu difinas 
+      <ref cel="simetr.0o.orta"><tld/>an simetrion</ref>.
+    </dif>
+  </snc>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
+      <ref tip="super" cel="rekt.0o.MAT">Rekto</ref>, rilate al kiu 
+      la figuro estas <ref cel="simetr.0a.figuro">simetria</ref>.
+    </dif>
+  </snc>
+  <trd lng="fr">axe de sym&eacute;trie</trd>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.12  2001/03/25 08:43:42  revo
+Ulrich Fellmann: kor de germ skriberaro
 
-  Revision 1.10  2001/03/17 17:12:42  revo
-  Sergio Pokrovskij: tajperaro
+Revision 1.11  2001/03/22 17:41:51  revo
+Ulrich Fellmann: + 3 germ trdj
 
-  Revision 1.9  2001/03/16 07:34:53  revo
-  Jerano Zachrisson: +trd sv
+Revision 1.10  2001/03/17 17:12:42  revo
+Sergio Pokrovskij: tajperaro
 
-  Revision 1.8  2001/03/14 17:12:33  revo
-  Sergio Pokrovskij: dif{aksingo}
+Revision 1.9  2001/03/16 07:34:53  revo
+Jerano Zachrisson: +trd sv
 
-  Revision 1.7  2000/12/10 18:45:50  revo
-  uzo tip=stl
+Revision 1.8  2001/03/14 17:12:33  revo
+Sergio Pokrovskij: dif{aksingo}
 
-  Revision 1.6  2000/09/11 16:14:33  revo
-  Marc Bavant: aldono de franca traduko
+Revision 1.7  2000/12/10 18:45:50  revo
+uzo tip=stl
 
-  Revision 1.5  2000/08/04 12:13:15  revo
-  Yury Finkel: aldono de rusa traduko
-
-  -->
+Revision 1.6  2000/09/11 16:14:33  revo
+-->
 </vortaro>
-
