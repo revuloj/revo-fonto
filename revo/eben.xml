@@ -22,11 +22,15 @@
          mal<tld/>a regiono.
        </ekz>
      </dif>
-     <refgrp tip="sin">
+     <refgrp tip="vid">
        <ref cel="plat.0a">plata</ref>,
        <ref cel="glat.0a">glata</ref>.
      </refgrp>
      <trd lng="de">eben</trd>
+     <trdgrp lng="fr">
+       <trd>&eacute;gal<klr tip="ind"> (plan)</klr></trd>,
+       <trd>plan<klr tip="ind"> (adj.)</klr></trd>,
+       <trd>plat<klr tip="ind"> (adj.)</klr></trd></trdgrp> 
      <trdgrp lng="ru">
        <trd>&c_p;&c_l;&c_o;&c_s;&c_k;&c_i;&c_j;</trd>,
        <trd>&c_r;&c_o;&c_v;&c_n;&c_y;&c_j;</trd>
@@ -40,9 +44,10 @@
          flua k <tld/>a stilo.
        </ekz>
      </dif>
-     <refgrp tip="sin">
+     <refgrp tip="vid">
        <ref cel="glat.0a">glata</ref>.
      </refgrp>
+     <trd lng="fr">lisse</trd>
    </snc>
    <trd lng="de">glatt</trd>
    <trd lng="en">even</trd>
@@ -61,7 +66,6 @@
          tra tri punktoj povas pasi nur unu <tld/>o.
        </ekz>
      </dif>
-     <trd lng="fr">plan</trd>
    </snc>
 
    <snc mrk="eben.0o.MAT">
@@ -73,6 +77,7 @@
    </snc>
 
    <trd lng="de">Ebene</trd>
+   <trd lng="fr">plan<klr tip="ind"> (subst., g&eacute;om.)</klr></trd>
    <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
 </drv>
 
@@ -91,6 +96,7 @@
      </dif>
    </snc>
    <trd lng="de">Ebene</trd>
+   <trd lng="fr">plateau<klr tip="ind"> (g&eacute;og.)</klr></trd>
    <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_i;&c_n;&c_a;</trd>
 </drv>
 <drv mrk="eben.0igi">
@@ -107,53 +113,73 @@
          Malnova domo</vrk>)</fnt>;
        </ekz>
        <ekz>
-         <tld/>igi &ccirc;iujn maljacila&jcirc;ojn
+         <tld/>igi &ccirc;iujn malfacila&jcirc;ojn
        </ekz>
      </dif>
-     <refgrp tip="sin">
+     <refgrp tip="vid">
        <ref cel="glat.0igi">glatigi</ref>.
      </refgrp>
    </snc>
    <trd lng="de">ebenen</trd>
+   <trd lng="fr">aplanir</trd>
    <trd lng="ru">&c_r;&c_a;&c_z;&c_r;&c_o;&c_v;&c_n;&c_ja;&c_t;&c_mol;</trd>
 </drv>
 <drv mrk="eben.0bati">
    <kap><tld/>bati<fnt>Z</fnt></kap>
    <snc>
      <dif>
-       <tld/>igi batante.
+       <tld lit="E"/>igi batante.
      </dif>
    </snc>
    <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_l;&c_ju;&c_shch;&c_i;&c_t;&c_mol;</trd>
 </drv>
 
-     <drv mrk="eben.afina0o">
-       <kap>afina <tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <ref cel="dimens.n0a">Dudimensia</ref>
-           <ref cel="spac.afina0o">afina spaco</ref>.
-         </dif>
-       </snc>
-       <trd lng="fr">plan affine</trd>
-     </drv>
-
-     <drv mrk="eben.vektora0o">
-       <kap>vektora <tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <ref cel="dimens.n0a">Dudimensia</ref>
-           <ref cel="spac.vektora0o">vektora spaco</ref>.
-         </dif>
-       </snc>
-       <trd lng="fr">plan vectoriel</trd>
-     </drv>
-
+<drv mrk="eben.afina0o">
+ <kap>afina <tld/>o</kap>
+ <snc>
+   <uzo tip="fak">MAT</uzo>
+   <dif>
+     <ref cel="dimens.n0a">Dudimensia</ref>
+     <ref cel="spac.afina0o">afina spaco</ref>.
+   </dif>
+ </snc>
+ <trd lng="fr">plan affine</trd>
+</drv>
+<drv mrk="eben.simetri0o">
+  <kap>simetri<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="eben.0o.MAT"><tld lit="E"/>o</ref>, kiu difinas 
+      <ref cel="simetr.0o.orta"><tld/>an simetrion</ref>.
+    </dif>
+  </snc>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
+      <ref tip="super" cel="eben.0o.MAT"><tld lit="E"/>o</ref>, rilate al kiu 
+      la figuro estas <ref cel="simetr.0a.figuro">simetria</ref>.
+    </dif>
+  </snc>
+  <trd lng="fr">plan de sym&eacute;trie</trd>
+</drv>
+<drv mrk="eben.vektora0o">
+ <kap>vektora <tld/>o</kap>
+ <snc>
+   <uzo tip="fak">MAT</uzo>
+   <dif>
+     <ref cel="dimens.n0a">Dudimensia</ref>
+     <ref cel="spac.vektora0o">vektora spaco</ref>.
+   </dif>
+ </snc>
+ <trd lng="fr">plan vectoriel</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.10  2001/04/04 16:19:42  revo
+Yury Finkel: +trd ru
+
 Revision 1.9  2001/02/24 17:56:14  revo
 Marc Bavant: +ref al surfaco
 
