@@ -186,6 +186,32 @@
   </snc>
   <snc mrk="voj.0o.MAT">
     <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="voj.0o.bildigo">
+      <fnt><bib>EKV</bib><lok>&para;459</lok></fnt>
+      <dif>
+        <klr>(en <ref cel="spac.topologia0o">topologia spaco</ref>
+        <em>E</em>)</klr>
+        <ref cel="kontin3.0a.cxie">Kontinua</ref>
+        <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> &phi; de
+        la reela <ref cel="interv.0o.MAT">intervalo</ref> [0,1] al
+        <em>E</em>:
+        <ekz>
+          la punkton &phi;(0) oni nomas komenca punkto de la <tld/>o, kaj
+          la punkton &phi;(1) oni nomas &gcirc;ia fina punkto.
+        </ekz>
+      </dif>
+      <refgrp tip="sub">
+        <ref cel="voj.fermita0o">fermita <tld/>o</ref>;
+      </refgrp>
+      <refgrp tip="vid">
+        <ref cel="lig.kun0ajxo.vojoj">kunliga&jcirc;o</ref>,
+        <ref cel="homoto.0a.vojoj">homotopa</ref>.
+      </refgrp>
+      <trd lng="de">Weg<klr tip="ind"> (in einem topologischen Raum)</klr></trd>
+      <trd lng="en">path<klr tip="ind"> (in a topological space)</klr></trd>
+      <trd lng="fr">chemin<klr tip="ind"> (dans un espace topologique)</klr></trd>
+      <trd lng="ru">&c_p;&c_u;&c_t;&c_mol;<klr tip="ind"> (&c_v; &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_m; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;)</klr></trd>
+    </subsnc>
     <subsnc mrk="voj.0o.grafeo">
       <dif>
         <klr>(en <ref cel="grafe.0o">grafeo</ref>)</klr>
@@ -209,8 +235,8 @@
         verticon</ctl>) por signifi, ke la koncerna e&gcirc;o estas termo
         de &gcirc;i (resp. la vertico estas rando de unu el &gcirc;iaj
         termoj). Notu, ke Werner <fnt><bib>MatVort</bib></fnt> por
-        <ctl><tld/>o</ctl> aldonas rimarkon, ke <ctl>strekoj kaj nodoj ne 
-        ripeti&gcirc;as</ctl>, kio la&ubreve; ni validu nur por elementaj 
+        <ctl><tld/>o</ctl> aldonas rimarkon, ke <ctl>strekoj kaj nodoj ne
+        ripeti&gcirc;as</ctl>, kio la&ubreve; ni validu nur por elementaj
         <tld/>oj, kaj konas <ctl>&ccirc;eno</ctl> (la&ubreve; ni: <ctl>simpla
         <tld/>o</ctl>). Pokrovskij <fnt><bib>KompLeks</bib></fnt> donas difinon
         de <ctl><tld/>o</ctl>, kiu la&ubreve;cele kongruas kun la nia, kaj
@@ -218,7 +244,7 @@
         <tld/>o</ctl>. Por kompletigi la aspekton de &hcirc;aoso sufi&ccirc;as
         aldoni, ke la franca vorto signifanta <ctl>&ccirc;eno</ctl> servas
         por montri grafean nocion, respondantan nek al la postuloj de
-        Werner, nek al tiuj de Pokrovskij. &Ccirc;ar simila &hcirc;aoso 
+        Werner, nek al tiuj de Pokrovskij. &Ccirc;ar simila &hcirc;aoso
         ekzistas anka&ubreve; en nacilingvaj terminologioj, la donitaj tradukoj
         estas nur indikaj.
       </rim>
@@ -226,14 +252,6 @@
       <trd lng="en">path</trd>
       <trd lng="fr">chemin</trd>
       <trd lng="ru">&c_p;&c_u;&c_t;&c_mol;</trd>
-    </subsnc>
-    <subsnc mrk="voj.0o.bildigo">
-      <fnt><bib>EKV</bib><lok>&para;459</lok></fnt>
-      <ref tip="dif" cel="ir.0ejo.MAT">irejo.</ref>
-      <trd lng="de">Weg<klr tip="ind"> (in einem topologischen Raum)</klr></trd>
-      <trd lng="en">path<klr tip="ind"> (in a topological space)</klr></trd>
-      <trd lng="fr">chemin<klr tip="ind"> (dans un espace topologique)</klr></trd>
-      <trd lng="ru">&c_p;&c_u;&c_t;&c_mol;<klr tip="ind"> (&c_v; &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_m; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;)</klr></trd>
     </subsnc>
   </snc>
   <trd lng="be">&c_sh;&c_l;&c_ja;&c_h;</trd>
@@ -369,27 +387,48 @@
     <trd>mettre sur la <ind>voie</ind></trd>
   </trdgrp>
 </drv>
+
+<drv mrk="voj.fermita0o">
+  <kap>fermita <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>EKV</bib><lok>&para;459</lok></fnt>
+  <snc>
+    <dif>
+      <tld lit="V"/>o <sncref ref="voj.0o.bildigo"/>, kies komenca
+      kaj fina punktoj estas egalaj.
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>loop</trd>,
+    <trd>closed <ind>path</ind></trd>
+  </trdgrp>
+  <trd lng="de">geschlossener <ind>Weg</ind></trd>
+  <trdgrp lng="fr">
+    <trd>lacet<klr tip="ind"> (math.)</klr></trd>,
+    <trd>chemin ferm&eacute;<klr tip="ind"> (math.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_je;&c_t;&c_l;&c_ja;<klr tip="ind"> (&c_m;&c_a;&c_t;.)</klr></trd>,
+    <trd>&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_y;&c_j; <ind>&c_p;&c_u;&c_t;&c_mol;</ind><klr tip="ind"> (&c_m;&c_a;&c_t;)</klr></trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.19  2002/05/18 16:33:20  revo
-Alejandro Mejia Greene: ald 1 his trd_________________________________________________________Do You Yahoo!?Get your free @yahoo.com address at http://mail.yahoo.com
-
-Revision 1.18  2002/05/03 16:33:36  revo
+Revision 1.20 2002/05/27 17:20:17 revo
+Marc Bavant: ~o MAT: +fnt
+Revision 1.19 2002/05/18 16:33:20 revo
+Alejandro Mejia Greene: ald 1 his trd
+Revision 1.18 2002/05/03 16:33:36 revo
 Marc Bavant: ~o: +snc MAT
-
 Revision 1.17 2002/02/23 19:54:41 revo
 Alejandro Mejia Greene: ald his trd
-
 Revision 1.16 2002/01/21 21:48:51 revo
 fontindiko PrV per programo de Jerome
-
 Revision 1.15 2002/01/04 17:36:03 revo
 Yury Finkel: +trd ru, konvertis (f)
-
 Revision 1.14 2001/10/31 19:14:39 revo
 Jerome Vachey: + "," inter trd fr
-
 Revision 1.13 2001/10/29 19:12:18 revo
 -->
 </vortaro>
