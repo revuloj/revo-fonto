@@ -50,22 +50,54 @@
       <ekz>
         <ind>maldiskreta <tld/>o</ind> <klr>(konsistanta nur el <em>E</em>
         kaj la malplena aro)</klr>
-        <fnt><bib>MatVort</bib></fnt>.
+        <fnt><bib>MatVort</bib></fnt>;
         <trdgrp lng="de">
           <trd>indiskrete <ind>Topologie</ind></trd>,
-          <trd>triviale <ind>Topologie</ind></trd></trdgrp> 
+          <trd>triviale <ind>Topologie</ind></trd>
+        </trdgrp>
         <trdgrp lng="en">
           <trd>indiscrete <ind>topology</ind></trd>,
-          <trd>trivial <ind>topology</ind></trd></trdgrp> 
+          <trd>trivial <ind>topology</ind></trd>
+        </trdgrp>
         <trd lng="fr">topologie grossi&egrave;re</trd>
         <trd lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+      </ekz>
+      <ekz>
+        <tld/>o difinita per <ref cel="metrik.0o.MAT">metriko</ref>,
+      </ekz>
+      <ekz>
+        per <ref cel="norm.0o.MAT">normo</ref>,
+      </ekz>
+      <ekz>
+        per aro de <ref cel="norm.duon0o">duon<tld/>oj</ref>.
+      </ekz>
+      <ekz>
+        <tld/>o super <em>E</em>, difinita per aro <em>A</em> de subaroj de
+        <em>E</em> <klr>(<tld/>o, kies bazon konsistigas &ccirc;iuj finiaj
+        komuna&jcirc;oj de elementoj en
+        <em>A</em>&#8746;{&#8709;,<em>E</em>})</klr>;
+      </ekz>
+      <ekz>
+        <tld/>o super <em>E</em>, difinita per aro de bildigoj al iu
+        <tld/>a spaco <klr>(<tld/>o, kies bazon konsistigas &ccirc;iuj
+        inversaj bildoj de malfermita aro per bildigo el la aro)</klr>.
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="strukt.topologia0o"><tld/>a strukturo</ref>;
     </refgrp>
+    <refgrp tip="super">
+      Specifaj topologioj:
+      <ref cel="topolo.0o.de_simpla_konvergxo"><tld/>o de simpla konver&gcirc;o</ref>,
+      <ref cel="topolo.0o.de_unuforma_konvergxo"><tld/>o de unuforma konver&gcirc;o</ref>,
+      <ref cel="topolo.malforta0o">malforta <tld/>o</ref>,
+      <ref cel="topolo.dualmalforta0o">dualmalforta <tld/>o</ref>;
+    </refgrp>
     <refgrp tip="vid">
-      Derivitaj nocioj:
+      Rilataj nocioj:
+      <ref cel="baz.0o.topologio">bazo</ref>,
+      <ref cel="fajn.pli0a.topologio">pli fajna</ref>;
+      rilataj subaroj:
       <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref>,
       <ref cel="ferm.0ita.topologio">fermita subaro</ref>,
       <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>.
@@ -133,10 +165,122 @@
     <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   </snc>
 </drv>
+
+<drv mrk="topolo.malforta0o">
+  <kap>malforta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(super <ref cel="topolo.0a.modulo"><tld/>a</ref>
+      <ref cel="spac.vektora0o">vektora spaco</ref> <em>E</em>)</klr>
+      La <ref tip="super" cel="topolo.0o.strukturo"><tld/>o</ref>,
+      difinita per la aro de &ccirc;iuj
+      <ref cel="kontin3.0a.cxie">kontinuaj</ref>
+      <ref cel="linear.0a.homomorfio">linearaj</ref>
+      <ref cel="form.0o.bildigo">formoj</ref> super &gcirc;i <klr>(alidire: per
+      &gcirc;ia <ref cel="dual.topologia0o"><tld/>a dualo</ref>)</klr>:
+      <ekz>
+        la malforta <tld/>o estas la malplej fajna <tld/>o, kiu igas
+        kontinuaj la elementojn de la topologia dualo <em>E</em>';
+      </ekz>
+      <ekz>
+        por finidimensia normohava spaco la malforta <tld/>o identas kun tiu,
+        difinita per la normo;
+      </ekz>
+    </dif>
+    <rim>
+      Kontraste kun la malforta, oni ofte referencas al la origina
+      <tld/>o de <em>E</em> nomante &gcirc;in <ctl>forta</ctl>. En multaj
+      aplikoj la forta <tld/>o estas difinita per normo.
+    </rim>
+  </snc>
+  <trd lng="de">schwache <ind>Topologie</ind></trd>
+  <trd lng="en">weak <ind>topology</ind></trd>
+  <trd lng="fr">topologie faible</trd>
+  <trd lng="ru">&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja; <ind>&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</ind></trd>
+</drv>
+
+<drv mrk="topolo.dualmalforta0o">
+  <kap>dualmalforta <tld/>o, *-malforta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(super <ref cel="dual.topologia0o"><tld/>a dualo</ref> de
+      <em>E</em>')</klr>
+      La <ref tip="super" cel="topolo.0o.strukturo"><tld/>o</ref>,
+      difinita per la aro de &ccirc;iuj bildigoj
+      &theta;<sub>x</sub> (x&#8712;<em>E</em>), kiuj &jcirc;etas elementon
+      &phi; de la dualo al &phi;(x):
+      <ekz>
+        la dualmalforta <tld/>o identas kun la <tld/>o de simpla
+        konver&gcirc;o;
+      </ekz>
+      <ekz>
+        la origina topologio de la topologia dualo de normohava spaco estas
+        pli fajna, ol la dualmalforta.
+      </ekz>
+    </dif>
+    <rim>
+      La naciaj lingvoj &scirc;ajnas heziti, &ccirc;u la stelo simbolanta
+      dualecon apliki&gcirc;as al <ctl>topologio</ctl> a&ubreve;
+      <ctl>malforta</ctl>. Ni preferis la duan solvon por eviti, ke
+      krei&gcirc;u termino <ctl>dual<tld/>o</ctl> sen aparta memstara
+      senco, krom eble <ctl><tld/>o de la dualo</ctl>, kiu estus
+      problema, &ccirc;ar <ctl>malforta <tld/>o de la dualo</ctl> kaj
+      <ctl>dualmalforta <tld/>o</ctl> ne nepre identas. Sed necesas agnoski,
+      ke <ctl>dualmalforta</ctl> ne estas kontentiga kunmeta&jcirc;o.
+    </rim>
+  </snc>
+  <trd lng="de">schwache *-<ind>Topologie</ind></trd>
+  <trd lng="en">weak* <ind>topology</ind></trd>
+  <trdgrp lng="fr">
+    <trd>topologie *-faible</trd>,
+    <trd>topologie faible *</trd>
+  </trdgrp>
+  <trd lng="ru">&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja; * <ind>&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</ind></trd>
+</drv>
+
+<drv mrk="topolo.0o.de_simpla_konvergxo">
+  <kap><tld/>o de simpla konver&gcirc;o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(super aro de funkcioj)</klr>
+      <ref tip="super" cel="topolo.0o.strukturo"><tld lit="T"/>o</ref>,
+      rilate al kiu vico de funkcio estas
+      <ref cel="konver.0a.MAT">konver&gcirc;a</ref>, se kaj nur se &gcirc;i
+      estas <ref cel="konver.simple0a">simple konver&gcirc;a</ref>.
+    </dif>
+  </snc>
+  <trd lng="de">Topologie der punktweisen Konvergenz</trd>
+  <trd lng="en">topology of pointwise convergence</trd>
+  <trd lng="fr">topologie de la convergence simple</trd>
+  <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja; &c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j; &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
+</drv>
+
+<drv mrk="topolo.0o.de_unuforma_konvergxo">
+  <kap><tld/>o de unuforma konver&gcirc;o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(super aro de funkcioj al metrika spaco)</klr>
+      <ref tip="super" cel="topolo.0o.strukturo"><tld lit="T"/>o</ref>,
+      difinita per la metriko, kiu difinas distancon inter du funkcioj per
+      la supremo de la distancoj inter &gcirc;iaj valoroj.
+    </dif>
+    <ref tip="vid" cel="konver.unuforme0a">unuforme konver&gcirc;a.</ref>
+  </snc>
+  <trd lng="de">Topologie der gleichm&auml;&szlig;en Konvergenz</trd>
+  <trd lng="en">topology of uniform convergence</trd>
+  <trd lng="fr">topologie de la convergence uniforme</trd>
+  <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja; &c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o;&c_j; &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.12  2002/05/04 16:32:05  revo
+Revision 1.13 2002/05/12 16:36:13 revo
+Marc Bavant: ~o: +fnt; ~a: +fnt, +trd
+Revision 1.12 2002/05/04 16:32:05 revo
 Marc Bavant: ~o: +trd en ekz; mod "kruda" al "maldiskreta"
 Revision 1.11 2001/07/22 18:16:49 revo
 Marc Bavant: mod kunigajxo al kunajxo
@@ -147,7 +291,7 @@ Dennis Wibrow: +trd germ
 Revision 1.8 2001/02/25 17:11:54 revo
 Marc Bavant: +ref al matematiko
 Revision 1.7 2001/01/28 17:13:52 revo
-Marc Bavant: mod ekz (kruda k diskreta ~o), +trd fr ru
+Marc Bavant: mod ekz (kruda kaj diskreta ~o), +trd fr ru
 Revision 1.6 2001/01/13 18:46:42 revo
 Marc Bavant: mod ref cel al modulo
 Revision 1.5 2000/12/02 17:11:34 revo
