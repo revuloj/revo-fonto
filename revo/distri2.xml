@@ -15,17 +15,37 @@
       <ref cel="kontin3.0a.cxie">Kontinua</ref> 
       <ref cel="linear.0a.homomorfio">lineara</ref>
       <ref tip="super" cel="form.0o.bildigo">formo</ref> super iu
-      vektora spaco el reelaj funkcioj:
+      vektora spaco el reelaj funkcioj <klr>(la testaj funkcioj)</klr>:
       <ekz>
-        la <tld/>o T<sub>h</sub>, asociita al funkcio h, kiu &jcirc;etas
-        &ccirc;iun funkcion &phi; al T<sub>h</sub>(&phi;) =
-        &#x222b;<sub>]-&#8734;,+&#8734;[</sub>h(t)&phi;(t)dt;
+        la bildon de testa funkcio &phi; per <tld/>o T oni ofte signas
+        per &lt;T,&phi;&gt; anstata&ubreve; T(&phi;);
       </ekz>
       <ekz>
-        ne &ccirc;iu <tld/>o estas egala al iu T<sub>h</sub>. 
+        <ref cel="regul.0a.distribucio">regula</ref> <tld/>o;
+      </ekz>
+      <ekz>
+        ne &ccirc;iu <tld/>o estas regula;
+      </ekz>
+      <ekz>
+        oni diras, ke <tld/>o estas nula super subaro V de la fonto-aro de
+        &gcirc;iaj testaj funkcioj, se la bildo per &gcirc;i de &ccirc;iu
+        testa funkcio kun subtenanto inkluzivita en V estas nula.
       </ekz>
     </dif>
     <ref tip="sin" cel="funkci.gxeneraligita0o">&gcirc;eneraligita funkcio.</ref>
+    <refgrp tip="vid">
+      <ref cel="deriv.0ajxo.distribucio">deriva&jcirc;o</ref>,
+      <ref cel="funkci.testa0o">testa funkcio</ref>.
+    </refgrp>
+    <rim>
+      La difino implicas, ke la vektora spaco de <tld/>oj estas la 
+      <ref cel="dual.topologia0o">topologia dualo</ref> de iu spaco de
+      testaj funkcioj. Tiun &ccirc;i spacon eblas elekti diversmaniere kaj ju 
+      oni postulas drastajn ecojn por la testaj funkcioj, des pli oni ricevas
+      vastan spacon de <tld/>oj. Oni ofte elektas la spacon de reelaj funkcioj
+      kun unu a&ubreve; pluraj reelaj argumentoj, senfine deriveblaj kaj kun 
+      barita <ref cel="ten.sub0anto.MAT">subtenanto</ref>.
+    </rim>
   </snc>
   <trd lng="de">Distribution<klr tip="ind"> (verallgemeinerte Funktion)</klr></trd>
   <trd lng="en">distribution<klr tip="ind"> (generalized function)</klr></trd>
@@ -37,7 +57,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(&ccirc;e reelo a)</klr>
+      <klr>(&ccirc;e punkto a)</klr>
       <tld lit="D"/>o, kiu &jcirc;etas funkcion &phi; al &phi;(a):
       <ekz>
         la dirakan <tld/>on &ccirc;e punkto a oni kutime signas per
@@ -67,6 +87,9 @@
 
 <!--
 $Log$
+Revision 1.2  2001/07/15 18:11:46  revo
+Marc Bavant: +ref al gxeneraligita funkcio
+
 Revision 1.1  2001/07/12 18:12:32  revo
 Marc Bavant: nova artikolo
 
