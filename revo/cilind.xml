@@ -4,62 +4,90 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>cilindr</rad>/o
+  <ofc>1</ofc>
+  <rad>cilindr</rad>/o
 </kap>
 <drv mrk="cilind.0o">
   <kap><tld/>o</kap>
-  <snc mrk="cilind.0o.surfaco">
+  <snc mrk="cilind.0o.MAT">
     <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="cilind.0o.surfaco">
+      <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+      <dif>
+        <ref tip="super" cel="surfac.0o.MAT">Surfaco</ref>, naskita de
+        &ccirc;iuj paralelaj rektoj
+        <klr>(&gcirc;iaj
+        <ref tip="prt" cel="nask.0anto.rekto">naskantoj</ref>)</klr>,
+        kiuj sekcas fiksan linion
+        <klr>(&gcirc;ian
+        <ref tip="prt" cel="direkt.0anto.linio">direktanton</ref>)</klr>:
+        <ekz>
+          cirkla, elipsa, kvadrata ks <tld/>o <klr>(kies direktanto estas 
+          cirklo, elipso, kvadrato ks orta al la naskanto)</klr>;
+        </ekz>
+        <ekz>
+          <tld/>a surfaco <fnt><bib>PIV1</bib></fnt>
+          <klr>(<tld/>o <sncref ref="cilind.0o.surfaco"/>, por
+          distingi &gcirc;in de <tld/>o <sncref ref="cilind.0o.solido"/>)</klr>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="rekt.0ara.surfaco">rektara.</ref>
+      <trdgrp lng="de">
+        <trd>Zylinder</trd>,
+        <trd>Zylinderfl&auml;che</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>cylinder</trd>,
+        <trd>cylindrical <ind>surface</ind></trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>cylindre</trd>,
+        <trd>surface cylindrique</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_c;&c_i;&c_l;&c_i;&c_n;&c_d;&c_r;</trd>,
+        <trd>&c_c;&c_i;&c_l;&c_i;&c_n;&c_d;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="cilind.0o.solido">
+      <fnt><bib>VdE</bib></fnt>
+      <dif>
+        <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun limas
+        <ref cel="cilind.0o.surfaco"><tld/>a surfaco</ref>
+        <klr>(&gcirc;ia <ref tip="prt" cel="flank.0o">flanko</ref>)</klr> kaj 
+        du ebenaj surfacoj <klr>(la
+        <ref tip="prt" cel="baz.0o.figuro">bazoj</ref>)</klr>,
+        kiuj sekcas la <tld/>an surfacon la&ubreve; fermita linio.
+      </dif>
+    </subsnc>
+    <rim>
+      Pro la komunuza senco de <ctl><tld/>o</ctl> la vortaroj emas
+      difini &gcirc;in fake kiel solidon (vd <fnt><bib>PIV1</bib></fnt>).
+      &Scirc;ajnas al ni, ke tio estas tro pedanta, &ccirc;ar la naciaj 
+      lingvoj kutime akceptas amba&ubreve; fakajn sencojn. Oni uzu 
+      <ctl><tld/>a surfaco</ctl> a&ubreve; <ctl><tld/>a solido</ctl> en 
+      dubaj okazoj.
+    </rim>
+    <trd lng="en">cylinder</trd>
+  </snc>
+  <snc mrk="cilind.0o.KOMUNE">
     <dif>
-      <ref tip="super" cel="surfac.0o.MAT">Surfaco</ref>, naskita de
-      &ccirc;iuj paralelaj rektoj
-      <klr>(&gcirc;iaj 
-      <ref tip="prt" cel="nask.0anto.rekto">naskantoj</ref>)</klr>, 
-      kiuj sekcas fiksan linion 
-      <klr>(&gcirc;ian 
-      <ref tip="prt" cel="direkt.0anto.linio">direktanton</ref>)</klr>:
+      Samforma objekto:
       <ekz>
-        cirkla, elipsa, kvadrata ks <tld/>o <klr>(kies direktanto estas cirklo,
-        elipso, kvadrato ks orta al la naskanto)</klr>;
+        <tld/>a &ccirc;apelo;
       </ekz>
       <ekz>
-        <tld/>a surfaco <fnt><bib>PIV1</bib></fnt>
-        <klr>(<tld/>o <sncref ref="cilind.0o.surfaco"/>, por 
-        distingi &gcirc;in de <tld/>o <sncref ref="cilind.0o.solido"/>)</klr>.
+        rul<tld/>o por enpremi &scirc;tonojn sur vojoj.
       </ekz>
     </dif>
-    <adm>
-    PIV1 nomas tion "~a surfaco", rezervante la nomon "~o" al
-    la solido, sed sxajnas al mi, ke tio estas tro pedanta,
-    cxar la naciaj lingvoj kutime akceptas ambaux sencojn. Oni 
-    uzu "~a surfaco" aux "~a solido" en dubaj okazoj. <aut>MB</aut>
-    </adm>
   </snc>
-  <snc mrk="cilind.0o.solido">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><aut>&B;</aut><vrk>Vortaro de Esperanto</vrk></fnt>
-    <dif>
-      <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun limas
-      <ref cel="cilind.0o.surfaco"><tld/>a surfaco</ref> 
-      <klr>(&gcirc;ia <ref tip="prt" cel="flank.0o">flanko</ref>)</klr> kaj du
-      ebenaj surfacoj <klr>(la 
-      <ref tip="prt" cel="baz.0o.figuro">bazoj</ref>)</klr>, 
-      kiuj sekcas la <tld/>an surfacon la&ubreve; fermita linio.
-    </dif>
-  </snc>
-  <snc num="2">
-    <dif>
-      Samforma objekto: 
-      <ekz><tld/>a &ccirc;apelo;</ekz> 
-      <ekz>rul<tld/>o por enpremi &scirc;tonojn sur vojoj.</ekz>
-    </dif>
-  </snc>
-  <snc num="3">
+  <snc mrk="cilind.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Samforma ujo, en kiu sin movas pi&scirc;to: 
-      <ekz>pumpila, motora <tld/>o.</ekz>
+      Samforma ujo, en kiu sin movas pi&scirc;to:
+      <ekz>
+        pumpila, motora <tld/>o.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">Zylinder</trd>
@@ -71,24 +99,20 @@
 </art>
 <!--
 $Log$
-Revision 1.10  2001/06/23 18:12:06  revo
+Revision 1.11 2001/12/17 17:31:33 revo
+Marc Bavant: ~o 1: +ekz, +adm; ~o 2: +fnt; ~o 3: +uzo TEK
+Revision 1.10 2001/06/23 18:12:06 revo
 Marc Bavant: mod ref cel al bazo, mod ref tip al karakterizaj elementoj de ~o
-
-Revision 1.9  2001/04/02 16:22:17  revo
+Revision 1.9 2001/04/02 16:22:17 revo
 Marc Bavant: reverkis la MAT snc
-
-Revision 1.8  2001/02/09 11:26:38  revo
+Revision 1.8 2001/02/09 11:26:38 revo
 oficialeco-indiko per programo de J.M. Lugrin
-
-Revision 1.7  2001/01/28 20:42:34  revo
+Revision 1.7 2001/01/28 20:42:34 revo
 Jean-Marc Lugrin: +franca trd
-
-Revision 1.6  2000/09/29 16:12:56  revo
+Revision 1.6 2000/09/29 16:12:56 revo
 Yury Finkel: +rusa trd
-
-Revision 1.5  2000/04/28 15:46:07  revo
+Revision 1.5 2000/04/28 15:46:07 revo
 Paul Peeraerts: ald trad nl
-
-Revision 1.4  2000/02/08 15:57:17  revo
+Revision 1.4 2000/02/08 15:57:17 revo
 -->
 </vortaro>
