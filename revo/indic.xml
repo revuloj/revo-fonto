@@ -24,12 +24,11 @@
         en la skriba&jcirc;oj
         <frm>H<sub>2</sub>O</frm>,
         <frm>a<sub>1</sub>, a<sub>2</sub>, ... a<sub>n+1</sub></frm>
-        la ciferoj kaj la esprimo <frm>n+1</frm> estas
-        <ind>sibaj <tld/>oj</ind>
+        &ccirc;iu el la nombroj kaj la esprimo <frm>n+1</frm> estas
+        <ind>suba <tld/>o</ind>
         <trd lng="en">subscript</trd>
         <trd lng="ru">&c_n;&c_i;&c_zh;&c_n;&c_i;&c_j; &c_i;&c_n;&c_d;&c_je;&c_k;&c_s;</trd>
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         en PIV-aj kapvortoj la numeron de la Oficiala Aldono
         oficialiginta la vorton indikas <ind>supra <tld/>o</ind>.
         <trd lng="en">superscript</trd>
@@ -37,6 +36,20 @@
       </ekz>
     </dif>
     <trd lng="ru">&c_i;&c_n;&c_d;&c_je;&c_k;&c_s;</trd>
+  </snc>
+
+  <snc mrk="indic.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      En programlingvoj, esprimo indikanta la numeron de elemento
+      de <ref cel="tabel.0o.KOMP">tabelo</ref> en la koncerna
+      <ref cel="dimens.0o.KOMP">dimensio</ref> &dash;
+      linion (horizontalon), kolumnon (vertikalon), pa&gcirc;on ktp:
+      <ekz>
+        en C la <tld/>oj aperas inter ortaj krampoj, kiel en
+        <frm>a[i,j+1]</frm>.
+      </ekz>
+    </dif>
   </snc>
 
   <snc mrk="indic.0o.familio">
@@ -66,26 +79,43 @@
     <trd lng="ru">&c_i;&c_n;&c_d;&c_je;&c_k;&c_s;</trd>
   </snc>
 
-  <snc>
-    <uzo tip="fak">FIZ</uzo>
-    <dif>
-      Rilato de la sinuso de la incida angulo al la sinuso de la
-      refrakta angulo.
-    </dif>
-    <trd lng="nl">index</trd>
-    <trd lng="ru">&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol; <klr>(&c_p;&c_r;&c_je;&c_l;&c_o;&c_m;&c_l;&c_je;&c_n;&c_i;&c_ja; &c_i; &c_t;.&c_p;.)</klr></trd>
-  </snc>
-
-  <snc>
+  <snc mrk="indic.0o.SCI">
     <uzo tip="fak">KEM</uzo>
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Nombro, karakterizanta substancon la&ubreve; &gcirc;ia &hcirc;emia
-      a&ubreve; fizika eco kaj kiun oni metas apud &gcirc;i en krampoj a&ubreve;
-      parentezoj.
+      Nombro, plej ofte kvociento, ricevita per serio da
+      observa&jcirc;oj, karakterizanta substancon, procezon a&ubreve;
+      fenomenon:
+    <ekz>
+      <uzo tip="fak">FIZ</uzo>
+      refrakta <tld/>o
+      <klr>(kvociento de la sinuso de la incida angulo
+          per la sinuso de la refrakta angulo)</klr>;
+      <trd lng="nl">index</trd>
+      <trd lng="ru">&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol; &c_p;&c_r;&c_je;&c_l;&c_o;&c_m;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
+      </ekz><ekz>
+        <uzo tip="fak">EKON</uzo>
+        vivkosta <tld/>o.
+      </ekz>
     </dif>
+    <rim>
+      Pli trafa nomo por tiu nocio estus
+      <ref cel="indik.0ilo">indikilo</ref>;
+      tio klaras en la ekzemplo
+      <ekz>
+        la <tld/>o <em>Nikkei</em> estas barometro de la Tokia borso,
+      </ekz>
+      en kiu <tld/>o kompari&gcirc;as al la indikilo de aerpremo/vetero.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+    <trdgrp lng="en">
+      <trd>index</trd>,
+      <trd>indicant</trd>,
+      <trd>indator</trd></trdgrp>
     <trd lng="nl">index</trd>
-    <trd lng="ru">&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
+      <trd>&c_i;&c_n;&c_d;&c_je;&c_k;&c_s;</trd></trdgrp>
   </snc>
 
   <snc mrk="indic.0o.indikajxo">
@@ -116,6 +146,9 @@
 </art>
 <!--
 $Log$
+Revision 1.9  2001/10/31 19:14:31  revo
+Sergio Pokrovskij: +KOMP, rearangxo (formovo al indikajxo)
+
 Revision 1.8  2001/10/28 19:13:38  revo
 Marc Bavant: ~o: mod snc MAT (de familio)
 
