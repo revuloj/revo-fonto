@@ -88,15 +88,14 @@
       aron <em>B</em> la <tld/>ita aro:
       <ekz>
         la <ref cel="ideal.0o.MAT">idealo</ref> <tld/>ita en ringo
-        per <tld/>anta aro {a, b} estas aro de &ccirc;iuj elementoj
-        p.a+q.b;
+        per <tld/>anta aro {a,b} estas aro de &ccirc;iuj elementoj
+        p&#xd7;a+q&#xd7;b;
       </ekz>
       <ekz>
         en <ref cel="modul.0o.strukt">modulo</ref> a&ubreve;
         <ref cel="spac.vektora0o">vektora spaco</ref>, la subaro
         <tld/>ita de <em>A</em> estas la subaro de &ccirc;iuj
-        <ref cel="kombin.lineara0ajxo">linearaj
-        kombin(a&jcirc;)oj</ref>
+        <ref cel="kombin.lineara0ajxo">linearaj kombina&jcirc;oj</ref>
         el elementoj de <em>A</em>;
       </ekz>
       <ekz>
@@ -104,6 +103,7 @@
         <tld/>antoj.
       </ekz>
     </dif>
+    <ref tip="sin" cel="gener.0i.MAT">generi.</ref>
     <trdgrp lng="de">
       <trd>erzeugen</trd>,
       <trd>bestimmen</trd>,
@@ -156,39 +156,42 @@
   </snc>
   <snc mrk="nask.0anto.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      Elemento de aro, kiu <tld/>as <sncref ref="nask.0i.MAT"/> alian aron:
-      <ekz>
-        la bazaj vektoroj estas <tld/>antoj de la tuta vektora spaco.
-      </ekz>
-    </dif>
-    <trd lng="de">Erzeugende</trd>
-    <trd lng="en">generator</trd>
-    <trd lng="fr">g&eacute;n&eacute;rateur<klr tip="ind"> (math.)</klr></trd>
-    <trd lng="ru">&c_p;&c_o;&c_r;&c_o;&c_zh;&c_d;&c_a;&c_ju;&c_shch;&c_i;&c_j; <ind>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</ind></trd>
-  </snc>
-  <snc mrk="nask.0anto.rekto">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
-    <dif>
-      <klr>(de <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
-      &Ccirc;iu el la rektoj, kiuj <tld/>as iujn surfacojn:
-      <ekz>
-        <tld/>antoj de
-        <ref cel="konus.0o.surfaco">konuso</ref>,
-        <ref cel="cilind.0o.surfaco">cilindro</ref>.
-      </ekz>
-    </dif>
-    <rim>
-      Oni diras anka&ubreve; <ctl>generanto</ctl> a&ubreve;
-      <ctl>estiganto</ctl><fnt><bib>MatStokTerm</bib><lok>p. 16</lok></fnt>.
-    </rim>
-    <trdgrp lng="de">
-      <trd>Erzeugende</trd>,
-      <trd>Mantellinie</trd></trdgrp> 
-    <trd lng="en">generator</trd>
-    <trd lng="fr">g&eacute;n&eacute;ratrice<klr tip="ind"> (d'une surface r&eacute;gl&eacute;e)</klr></trd>
-    <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_z;&c_u;&c_ju;&c_shch;&c_a;&c_ja;</trd>
+    <subsnc mrk="nask.0anto.elemento">
+      <dif>
+        Elemento de aro, kiu <tld/>as <sncref ref="nask.0i.MAT"/> alian aron:
+        <ekz>
+          la bazaj vektoroj estas <tld/>antoj de la tuta vektora spaco.
+        </ekz>
+      </dif>
+      <trd lng="de">Erzeugende</trd>
+      <trd lng="en">generator</trd>
+      <trd lng="fr">g&eacute;n&eacute;rateur<klr tip="ind"> (math.)</klr></trd>
+      <trd lng="ru">&c_p;&c_o;&c_r;&c_o;&c_zh;&c_d;&c_a;&c_ju;&c_shch;&c_i;&c_j; <ind>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</ind></trd>
+    </subsnc>
+    <subsnc mrk="nask.0anto.rekto">
+      <fnt><bib>PIV1</bib></fnt>
+      <dif>
+        <klr>(de <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
+        &Ccirc;iu el la rektoj, kiuj <tld/>as iujn surfacojn:
+        <ekz>
+          <tld/>antoj de
+          <ref cel="konus.0o.surfaco">konuso</ref>,
+          <ref cel="cilind.0o.surfaco">cilindro</ref>.
+        </ekz>
+      </dif>
+      <rim>
+        Oni diras anka&ubreve; <ctl>generanto</ctl><fnt><bib>PIV1</bib></fnt>
+        a&ubreve;
+        <ctl>estiganto</ctl><fnt><bib>MatStokTerm</bib><lok>p. 16</lok></fnt>.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Erzeugende</trd>,
+        <trd>Mantellinie</trd>
+      </trdgrp>
+      <trd lng="en">generator</trd>
+      <trd lng="fr">g&eacute;n&eacute;ratrice<klr tip="ind"> (d'une surface r&eacute;gl&eacute;e)</klr></trd>
+      <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_z;&c_u;&c_ju;&c_shch;&c_a;&c_ja;</trd>
+    </subsnc>
   </snc>
 </drv>
 
@@ -350,7 +353,10 @@
 </art>
 <!--
 $Log$
-Revision 1.25  2002/05/03 16:36:14  revo
+Revision 1.26 2002/05/12 16:39:32 revo
+Marc Bavant: ~anto: mod rim
+
+Revision 1.25 2002/05/03 16:36:14 revo
 Marc Bavant: snc MAT: +trd
 
 Revision 1.24 2002/05/02 16:35:10 revo
@@ -366,8 +372,5 @@ Revision 1.21 2001/12/07 17:30:53 revo
 Paul Peeraerts: ald plian trd nl
 
 Revision 1.20 2001/11/29 17:33:33 revo
-Yury Finkel: +trd ru
-
-Revision 1.19 2001/11/07 19:14:34 revo
 -->
 </vortaro>
