@@ -119,81 +119,79 @@
       <trd>&c_l;&c_i;&c_p;&c_k;&c_i;&c_j;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="adher.0a.punkto">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> x en
-      <ref cel="spac.topologia0o">topologia spaco</ref>, rilate
-      al subaro <em>A</em> de &gcirc;i)</klr>
-      Tia, ke &ccirc;iu
-      <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
-      de x enhavas punktojn en <em>A</em>:
-      <ekz>
-        &ccirc;iuj punktoj en <em>A</em> estas <tld/>aj al <em>A</em>;
-      </ekz>
-      <ekz>
-        <tld/>a punkto de subaro estas a&ubreve; akumuli&gcirc;a,
-        a&ubreve; izolita punkto de &gcirc;i.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="akumul.0igxa.punkto">akumuli&gcirc;a</ref>,
-      <ref cel="dens.0a.subaro">densa</ref>,
-      <ref cel="izol.0ita.punkto">izolita</ref>.
-    </refgrp>
-    <trdgrp lng="de">
-      <trd>Limes-<klr tip="amb">(punkt)</klr></trd>,
-      <trd>adh&auml;renter<klr tip="amb"> (Punkt)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd><klr tip="amb">(point) </klr>of <ind>closure</ind></trd>,
-      <trd>adherent<klr tip="amb"> (point)</klr></trd>
-    </trdgrp>
-    <trd lng="fr"><klr tip="amb">(point) </klr><ind>adh&eacute;rent</ind><klr
-    tip="ind"> (&agrave; un sous-ensemble)</klr></trd>
-    <trd lng="ru"><klr tip="amb">(&c_t;&c_o;&c_ch;&c_k;&c_a;) </klr>&c_p;&c_r;&c_i;&c_k;&c_o;&c_s;&c_n;&c_o;&c_v;&c_je;&c_n;&c_i;&c_ja;</trd>
+  <snc mrk="adher.0a.MAT">
+    <subsnc mrk="adher.0a.punkto">
+      <uzo tip="fak">MAT</uzo>
+      <dif>
+        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> x en
+        <ref cel="spac.topologia0o">topologia spaco</ref>, rilate
+        al subaro <em>A</em> de &gcirc;i)</klr>
+        Tia, ke &ccirc;iu
+        <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+        de x enhavas punktojn en <em>A</em>:
+        <ekz>
+          &ccirc;iuj punktoj en <em>A</em> estas <tld/>aj al <em>A</em>;
+        </ekz>
+        <ekz>
+          <tld/>a punkto de subaro estas a&ubreve; akumuli&gcirc;a,
+          a&ubreve; izolita punkto de &gcirc;i.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="akumul.0igxa.punkto">akumuli&gcirc;a</ref>,
+        <ref cel="dens.0a.subaro">densa</ref>,
+        <ref cel="izol.0ita.punkto">izolita</ref>.
+      </refgrp>
+      <trdgrp lng="de">
+        <trd>Limes-<klr tip="amb">(punkt)</klr></trd>,
+        <trd>adh&auml;renter<klr tip="amb"> (Punkt)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd><klr tip="amb">(point) </klr>of <ind>closure</ind></trd>,
+        <trd>adherent<klr tip="amb"> (point)</klr></trd>
+      </trdgrp>
+      <trd lng="fr"><klr tip="amb">(point) </klr><ind>adh&eacute;rent</ind><klr
+      tip="ind"> (&agrave; un sous-ensemble)</klr></trd>
+      <trd lng="ru"><klr tip="amb">(&c_t;&c_o;&c_ch;&c_k;&c_a;) </klr>&c_p;&c_r;&c_i;&c_k;&c_o;&c_s;&c_n;&c_o;&c_v;&c_je;&c_n;&c_i;&c_ja;</trd>
+    </subsnc>
+    <subsnc mrk="adher.0a.vico">
+      <uzo tip="fak">MAT</uzo>
+      <dif>
+        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> x
+        en <ref cel="spac.metrika0o">metrika spaco</ref>, rilate
+        al <ref cel="vic.0o.MAT">vico</ref>)</klr>
+        Tia, ke <ref cel="vic.sub0o">subvico</ref> de la konsiderata vico
+        <ref cel="konver.0i">konver&gcirc;as</ref> al x:
+        <ekz>
+          la vico, kies &gcirc;enerala termo estas
+          u<sub>n</sub>=(-1)<sup>n</sup>a, ne konver&gcirc;as, sed
+          akceptas du <tld/>ajn punktojn: 1 kaj -1.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Adh&auml;renz-<klr tip="amb">(punkt)</klr></trd>,
+        <trd>Ber&uuml;hrungs-<klr tip="amb">(punkt)</klr></trd>,
+        <trd>H&auml;ufungs-<klr tip="amb">(punkt)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd><klr tip="amb">(point) </klr>of <ind>adherence</ind></trd>
+      </trdgrp>
+      <trd lng="fr"><klr tip="amb">(valeur) </klr>d'<ind>adh&eacute;rence</ind><klr tip="ind"> (d'une suite)</klr></trd>
+      <trdgrp lng="hu">
+        <trd>&eacute;rint&eacute;si</trd>,
+        <trd>&eacute;rintkez&eacute;si</trd>
+      </trdgrp>
+      <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;<klr tip="amb"> (&c_t;&c_o;&c_ch;&c_k;&c_a;)</klr></trd>
+    </subsnc>
+    <rim>
+      Ni ne trovis fonton por &ccirc;i tiuj terminoj, sed &scirc;ajnas,
+      ke la uzo de radiko <ctl>adher</ctl> estas sufi&ccirc;e internacia
+      kaj ebligas eviti la ambiguecon de aliaj nacilingvaj metaforoj de
+      la tipo <ctl>limesa punkto</ctl> (kiuj estas foje aplikata
+      anka&ubreve; al akumuli&gcirc;a punkto) a&ubreve; <ctl>kontakta
+      punkto</ctl> (kiu memorigas pri kontakto de kurboj).
+    </rim>
   </snc>
-  <snc mrk="adher.0a.vico">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> x
-      en <ref cel="spac.metrika0o">metrika spaco</ref>, rilate
-      al <ref cel="vic.0o.MAT">vico</ref>)</klr>
-      Tia, ke <ref cel="vic.sub0o">subvico</ref> de la konsiderata vico
-      <ref cel="konver.0i">konver&gcirc;as</ref> al x:
-      <ekz>
-        la vico, kies &gcirc;enerala termo estas
-        u<sub>n</sub>=(-1)<sup>n</sup>a, ne konver&gcirc;as, sed
-        akceptas du <tld/>ajn punktojn: 1 kaj -1.
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>Adh&auml;renz-<klr tip="amb">(punkt)</klr></trd>,
-      <trd>Ber&uuml;hrungs-<klr tip="amb">(punkt)</klr></trd>,
-      <trd>H&auml;ufungs-<klr tip="amb">(punkt)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd><klr tip="amb">(point) </klr>of <ind>adherence</ind></trd>
-    </trdgrp>
-    <trd lng="fr"><klr tip="amb">(valeur) </klr>d'<ind>adh&eacute;rence</ind><klr
-    tip="ind"> (d'une suite)</klr></trd>
-    <trdgrp lng="hu">
-      <trd>&eacute;rint&eacute;si</trd>,
-      <trd>&eacute;rintkez&eacute;si</trd>
-    </trdgrp>
-    <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;<klr tip="amb"> (&c_t;&c_o;&c_ch;&c_k;&c_a;)</klr></trd>
-  </snc>
-  <adm>
-    Mi trovis pravigojn de la du matematikaj terminoj nek en PIV1,
-    nek en MatVort. Sxajnas al mi, ke la uzo de "adher" estas suficxe
-    internacia kaj ebligas eviti la ambiguecojn ligitajn kun esprimoj
-    de la tipo "limesa punkto" (Limespunkt, pridel'naja tochka), kiuj
-    aplikigxas jen al adheraj punktoj de subaro, jen al adheraj punktoj
-    de vico, jen al akumuligxaj punktoj... La esprimoj de la tipo
-    "kontakta punkto" (Ber&uuml;hrungspunkt, tochka prikosnovenija)
-    memorigas pri kontakto de du kurboj. Vd ankaux adm sub "akumuligxa".
-    <aut>MB</aut>
-  </adm>
 </drv>
 
 <drv mrk="adher.0ajxo">
@@ -229,25 +227,32 @@
         <ref cel="ferm.0ajxo.MAT">ferma&jcirc;o</ref>.
       </ekz>
     </dif>
-    <adm>
-      Same kiel por ~a, mi ne trovis pravigojn. La lingvoj de/en/fr
-      ja havas similan formon, sed en praktiko, la angla kaj la
-      germana preferas uzi "closure", "Abschlu&szlig;" t.e. la terminon
-      por "fermajxo", same kiel la rusa. <aut>MB</aut>
-    </adm>
-    <trd lng="de">Adh&auml;renz</trd>
-    <trd lng="en">adherence</trd>
-    <trd lng="fr">adh&eacute;rence</trd>
+    <rim>
+      Same kiel por <ctl><tld/>a</ctl> la fontoj mankas, eble pro la
+      sinonimeco kun <ctl>ferma&jcirc;o</ctl>.
+    </rim>
+    <trdgrp lng="de">
+      <trd>Adh&auml;renz</trd>,
+      <trd>Abschlu&szlig;</trd></trdgrp> 
+    <trdgrp lng="en">
+      <trd>adherence</trd>,
+      <trd>closure</trd></trdgrp> 
+    <trdgrp lng="fr">
+      <trd>adh&eacute;rence</trd>,
+      <trd>fermeture</trd></trdgrp> 
     <trd lng="ru">&c_z;&c_a;&c_m;&c_y;&c_k;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_m;&c_a;&c_t;)</klr></trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.18  2002/04/22 16:32:20  revo
+Revision 1.19 2002/05/02 16:35:15 revo
+Marc Bavant: mod "izola" al "izolita"
+
+Revision 1.18 2002/04/22 16:32:20 revo
 Alejandro Mejia Greene: ald his trd
 
-Revision 1.17  2002/02/14 17:37:50  revo
+Revision 1.17 2002/02/14 17:37:50 revo
 Yury Finkel: +trd ru, formatigis, -adm pri protezo
 
 Revision 1.16 2002/01/09 17:32:21 revo
@@ -260,8 +265,5 @@ Revision 1.14 2001/07/23 13:08:13 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.13 2001/06/08 18:14:56 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.12 2001/04/21 18:46:26 revo
 -->
 </vortaro>
