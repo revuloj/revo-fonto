@@ -10,7 +10,7 @@
   <dif>
     Prepozicio montranta:  
   </dif>
-  <snc num="1" mrk="al.0.prep_proksimigxo">
+  <snc mrk="al.0.prep_proksimigxo">
     <dif>
       Fizikan proksimi&gcirc;on en ia  direkto:
       <ekz>
@@ -56,7 +56,7 @@
       </ekz>  
     </dif>
   </snc>
-  <snc num="2" mrk="al.0.prep_celo">
+  <snc mrk="al.0.prep_celo">
     <dif>
       Direkton a&ubreve; celon de ia movo, ago, sento,  penso, volo:
       <ekz>
@@ -169,7 +169,7 @@
       Tia uzo, influata de naciismoj, estas evitinda.  
     </rim>
   </snc>
-  <snc num="3" mrk="al.0.prep_atributo">
+  <snc mrk="al.0.prep_atributo">
     <dif>
       Atributon, destinon,  apartenecon:
       <ekz>
@@ -270,7 +270,7 @@
       </ekz>  
     </dif>
   </snc>
-  <snc num="4" mrk="al.0.prep_koncerno">
+  <snc mrk="al.0.prep_koncerno">
     <dif>
       Koncernatecon,  interesatecon:
       <ekz>
@@ -341,7 +341,7 @@
       <ref cel="kontraux">kontra&ubreve;</ref>.
     </refgrp>
   </snc>
-  <snc num="5" mrk="al.0.prep_aldono">
+  <snc mrk="al.0.prep_aldono">
     <dif>
       Adicion, kompletigon:
       <ekz>
@@ -362,7 +362,7 @@
       <ref cel="plus.0">plus</ref>.
     </refgrp>
   </snc>
-  <snc num="6" mrk="al.0.prep_de">
+  <snc mrk="al.0.prep_de">
     <dif>
       Gramatikan rilaton  inter subst. el verba deveno a&ubreve; kun verba
       signifo k ties  objekta komplemento:
@@ -430,7 +430,7 @@
       <ref cel="de">de 8</ref>.
     </refgrp>
   </snc>
-  <snc num="7" mrk="al.0.prep_postadj">
+  <snc mrk="al.0.prep_postadj">
     <dif>
       Post adj. a&ubreve; adv. pli malpli precizan rilaton pri metafora
       proksimeco a&ubreve; malproksimeco:
@@ -457,7 +457,11 @@
 <subart>
   <snc>
     <dif>
-      Vortero kun la sencoj 1, 2, 6 de la prep.: 
+      Vortero kun la sencoj 
+      <sncref ref="al.0.prep_proksimigxo"/>, 
+      <sncref ref="al.0.prep_celo"/>, 
+      <sncref ref="al.0.prep_de"/>
+      de la prep.: 
     </dif>
     <ekz>
       <tld/>a&jcirc;o
@@ -499,19 +503,24 @@
 </subart>
 <subart>
   <dif>
-    Prefikso kun la sencoj 1, 2, 4, 6 de la prepozicio: 
+    Prefikso kun la sencoj
+    <sncref ref="al.0.prep_proksimigxo"/>, 
+    <sncref ref="al.0.prep_celo"/>, 
+    <sncref ref="al.0.prep_koncerno"/>,
+    <sncref ref="al.0.prep_de"/> de la
+    prepozicio:
   </dif>
-  <snc num="1" ref="al.0.prep_proksimigxo">
+  <snc ref="al.0.prep_proksimigxo">
     <ekz>
       <tld/>veni, <tld/>kuri <tld/>porti, <tld/>esti.
     </ekz>
   </snc>
-  <snc num="2" ref="al.0.prep_celo">
+  <snc ref="al.0.prep_celo">
     <ekz>
       <tld/>konduki, <tld/>sekvi, <tld/>rigardi.
     </ekz>
   </snc>
-  <snc num="4" ref="al.0.prep_koncerno">
+  <snc ref="al.0.prep_koncerno">
     <ekz>
       <tld/>proprigi;
     </ekz>
@@ -525,7 +534,7 @@
       <tld/>&gcirc;ustigi.
     </ekz>
   </snc>
-  <snc num="6" ref="al.0.prep_de">
+  <snc ref="al.0.prep_de">
     <ekz>
       <tld/>doni <klr>(doni plie, adicii)</klr>;
     </ekz>
@@ -543,6 +552,9 @@
 </art>
 <!--
 $Log$
+Revision 1.8  2000/05/27 19:04:54  revo
+Wolfram Diestel: uzo de la nova atributo ref en snc, prepareal automata senconumerado.
+
 Revision 1.7  2000/03/19 11:07:59  revo
 Wolfram Diestel: aldonis pli da ekz-fontojn
 
