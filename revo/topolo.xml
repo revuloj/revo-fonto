@@ -1,122 +1,134 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-     <art mrk="$Id$">
-       <kap>
-         <rad>topologi</rad>/o
-       </kap>
-       <drv mrk="topolo.0o">
-         <kap><tld/>o</kap>
-         <uzo tip="fak">MAT</uzo>
-         <snc mrk="topolo.0o.fako">
-           <dif>
-             Matematika bran&ccirc;o, kiu okupi&gcirc;as &ccirc;efe
-             pri kontinueco, limeso, konver&gcirc;o k.s.
-           </dif>
-         </snc>
-         <snc mrk="topolo.0o.strukturo">
-           <dif>
-             (super aro <em>E</em>)
-             Tia <ref tip="super" cel="ar.0o.MAT">aro</ref> <em>T</em> da
-             subaroj de <em>E</em>, ke
-             la malplena aro kaj <em>E</em> apartenas al &gcirc;i,
-             kaj ke &ccirc;iu <ref cel="kun.0igajxo.aro">kuniga&jcirc;o</ref>
-             de arbitra nombro da &gcirc;iaj elementoj kaj &ccirc;iu
-             <ref cel="komun.0ajxo.aro">komuna&jcirc;o</ref> de finia nombro
-             da &gcirc;iaj elementoj apartenas al &gcirc;i:
-             <ekz>
-               la elementojn de <tld/>o oni nomas malfermitaj subaroj;
-             </ekz>
-             <ekz>
-               <ind>diskreta <tld/>o</ind> <klr>(konsistanta el &ccirc;iuj
-               subaroj de <em>E</em>)</klr>;
-               <trd lng="fr">topologie discr&egrave;te</trd>
-               <trd lng="ru">&c_d;&c_i;&c_s;&c_k;&c_r;&c_je;&c_t;&c_n;&c_a;&c_ja; &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
-             </ekz>
-             <ekz>
-               <ind>kruda <tld/>o</ind> <klr>(konsistanta nur el <em>E</em>
-               kaj la malplena aro)</klr>.
-               <trd lng="fr">topologie grossi&egrave;re</trd>
-               <trd lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;  &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
-             </ekz>
-           </dif>
-           <refgrp tip="sin">
-             <ref cel="strukt.topologia0o"><tld/>a strukturo</ref>;
-           </refgrp>
-           <refgrp tip="vid">
-             derivitaj nocioj:
-             <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref>,
-             <ref cel="ferm.0ita.topologio">fermita subaro</ref>,
-             <ref
+  <art mrk="$Id$">
+    <kap>
+      <rad>topologi</rad>/o
+    </kap>
+    <drv mrk="topolo.0o">
+      <kap><tld/>o</kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc mrk="topolo.0o.fako">
+        <dif>
+          Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
+          kiu okupi&gcirc;as &ccirc;efe pri distanco, kontinueco, limeso, 
+          konver&gcirc;o, k.s.
+        </dif>
+        <rim>
+          Historie <tld/>o studis, kiel konservi&gcirc;as la ecoj de
+          geometriaj figuroj dum kontinuaj transformi&gcirc;oj. Danke al
+          la nocio <ctl>topologia strukturo</ctl> nun eblas paroli pri
+          kontinueco anka&ubreve; en spacoj pli &gcirc;eneralaj ol la metrikaj.
+          <tld lit="T"/>o provizas gravajn ilojn kaj nociojn al aliaj
+          matematikaj bran&ccirc;oj, precipe al analitiko.
+        </rim>
+      </snc>
+      <snc mrk="topolo.0o.strukturo">
+        <dif>
+          (super aro <em>E</em>)
+          Tia <ref tip="super" cel="ar.0o.MAT">aro</ref> <em>T</em> da
+          subaroj de <em>E</em>, ke
+          la malplena aro kaj <em>E</em> apartenas al &gcirc;i,
+          kaj ke &ccirc;iu <ref cel="kun.0igajxo.aro">kuniga&jcirc;o</ref>
+          de arbitra nombro da &gcirc;iaj elementoj kaj &ccirc;iu
+          <ref cel="komun.0ajxo.aro">komuna&jcirc;o</ref> de finia nombro
+          da &gcirc;iaj elementoj apartenas al &gcirc;i:
+          <ekz>
+            la elementojn de <tld/>o oni nomas malfermitaj subaroj;
+          </ekz>
+          <ekz>
+            <ind>diskreta <tld/>o</ind> <klr>(konsistanta el &ccirc;iuj
+            subaroj de <em>E</em>)</klr>;
+            <trd lng="fr">topologie discr&egrave;te</trd>
+            <trd lng="ru">&c_d;&c_i;&c_s;&c_k;&c_r;&c_je;&c_t;&c_n;&c_a;&c_ja; &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+          </ekz>
+          <ekz>
+            <ind>kruda <tld/>o</ind> <klr>(konsistanta nur el <em>E</em>
+            kaj la malplena aro)</klr>.
+            <trd lng="fr">topologie grossi&egrave;re</trd>
+            <trd lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;  &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+          </ekz>
+        </dif>
+        <refgrp tip="sin">
+          <ref cel="strukt.topologia0o"><tld/>a strukturo</ref>;
+        </refgrp>
+        <refgrp tip="vid">
+          derivitaj nocioj:
+          <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref>,
+          <ref cel="ferm.0ita.topologio">fermita subaro</ref>,
+          <ref
 cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>.
-           </refgrp>
-         </snc>
-         <trd lng="en">topology</trd>
-         <trd lng="fr">topologie</trd>
-         <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
-       </drv>
+        </refgrp>
+      </snc>
+      <trd lng="en">topology</trd>
+      <trd lng="fr">topologie</trd>
+      <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+    </drv>
 
-       <drv mrk="topolo.0a">
-         <kap><tld/>a</kap>
-         <uzo tip="fak">MAT</uzo>
-         <snc mrk="topolo.0a.gxenerale">
-           <dif>
-             Rilata al <tld/>o <sncref ref="topolo.0o.fako"/>
-             a&ubreve; al la karakterizaj ecoj,
-             pri kiuj tiu &ccirc;i fako okupi&gcirc;as:
-             <ekz>
-               kontinueco estas <tld/>a eco de bildigo.
-             </ekz>
-           </dif>
-         </snc>
-         <snc mrk="topolo.0a.spaco">
-           <dif>
-             <klr>(p.p. spaco)</klr>
-           </dif>
-           <ref tip="vid" cel="spac.topologia0o"><tld/>a spaco.</ref>
-         </snc>
+    <drv mrk="topolo.0a">
+      <kap><tld/>a</kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc mrk="topolo.0a.gxenerale">
+        <dif>
+          Rilata al <tld/>o <sncref ref="topolo.0o.fako"/>
+          a&ubreve; al la karakterizaj ecoj,
+          pri kiuj tiu &ccirc;i fako okupi&gcirc;as:
+          <ekz>
+            kontinueco estas <tld/>a eco de bildigo.
+          </ekz>
+        </dif>
+      </snc>
+      <snc mrk="topolo.0a.spaco">
+        <dif>
+          <klr>(p.p. spaco)</klr>
+        </dif>
+        <ref tip="vid" cel="spac.topologia0o"><tld/>a spaco.</ref>
+      </snc>
 
-         <snc>
-           <dif>
-             Provizita per tia
-             <ref cel="topolo.0o.strukturo">
-             <tld/>o <sncref ref="topolo.0o.strukturo"/>
-             </ref>, ke:
-           </dif>
-           <subsnc mrk="topolo.0a.grupo">
-             <dif>
-               <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
-               la bildigo xTy<sup>-1</sup> estu
-               <ref cel="kontin3.0a.cxie">kontinua</ref>;
-             </dif>
-           </subsnc>
+      <snc>
+        <dif>
+          Provizita per tia
+          <ref cel="topolo.0o.strukturo">
+          <tld/>o <sncref ref="topolo.0o.strukturo"/>
+          </ref>, ke:
+        </dif>
+        <subsnc mrk="topolo.0a.grupo">
+          <dif>
+            <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
+            la bildigo xTy<sup>-1</sup> estu
+            <ref cel="kontin3.0a.cxie">kontinua</ref>;
+          </dif>
+        </subsnc>
 
-           <subsnc mrk="topolo.0a.ringo">
-             <dif>
-               <klr>(p.p. <ref cel="ring.0o.MAT">ringo</ref>)</klr>
-               la bildigoj xT(-y) kaj x*y estu
-               <ref cel="kontin3.0a.cxie">kontinuaj</ref>;
-             </dif>
-           </subsnc>
+        <subsnc mrk="topolo.0a.ringo">
+          <dif>
+            <klr>(p.p. <ref cel="ring.0o.MAT">ringo</ref>)</klr>
+            la bildigoj xT(-y) kaj x*y estu
+            <ref cel="kontin3.0a.cxie">kontinuaj</ref>;
+          </dif>
+        </subsnc>
 
-           <subsnc mrk="topolo.0a.modulo">
-             <dif>
-               <klr>(p.p. <ref cel="modul.0o.strukt">modulo</ref>
-               super <ref cel="topolo.0a.ringo"><tld/>a</ref> ringo)</klr>
-               la bildigoj x-y kaj &alfa;*x estu
-               <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
-             </dif>
-           </subsnc>
+        <subsnc mrk="topolo.0a.modulo">
+          <dif>
+            <klr>(p.p. <ref cel="modul.0o.strukt">modulo</ref>
+            super <ref cel="topolo.0a.ringo"><tld/>a</ref> ringo)</klr>
+            la bildigoj x-y kaj &alfa;*x estu
+            <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
+          </dif>
+        </subsnc>
 
-         </snc>
-         <trd lng="fr">topologique</trd>
-         <trd 
+      </snc>
+      <trd lng="fr">topologique</trd>
+      <trd 
 lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
-       </drv>
+    </drv>
 
-     </art>
+  </art>
 <!--
 $Log$
+Revision 1.7  2001/01/28 17:13:52  revo
+Marc Bavant: mod ekz (kruda k diskreta ~o), +trd fr ru
+
 Revision 1.6  2001/01/13 18:46:42  revo
 Marc Bavant: mod ref cel al modulo
 
