@@ -8,16 +8,21 @@
   <rad>distribu</rad>/i
   <fnt>Z</fnt>
 </kap>
-
 <drv mrk="distri.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
       Disdividi, disdoni, dispartigi:
-      <ekz>li <tld/>is grandajn sumojn al la mizeruloj;</ekz>
-      <ekz>la leterportisto <tld/>as la leterojn;</ekz>
-      <ekz><tld/>i laboron inter &ccirc;iuj.</ekz>
+      <ekz>
+        li <tld/>is grandajn sumojn al la mizeruloj;
+      </ekz>
+      <ekz>
+        la leterportisto <tld/>as la leterojn;
+      </ekz>
+      <ekz>
+        <tld/>i laboron inter &ccirc;iuj.
+      </ekz>
     </dif>
   </snc>
   <trd lng="en">distribute</trd>
@@ -27,7 +32,7 @@
 
 <drv mrk="distri.0ebla">
   <kap><tld/>ebla</kap>
-  <snc num="1">
+  <snc>
     <dif>
       Tia, ke eblas &gcirc;in distribui.
     </dif>
@@ -36,47 +41,65 @@
   <snc mrk="distri.0ebla.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>KompLeks</bib></fnt>
+    <ref tip="dif" cel="distri.0eca.MAT"><tld/>eca.</ref>
+    <trd lng="fr">distributif</trd>
+    <trd lng="ru">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
+  </snc>
+</drv>
+
+<drv mrk="distri.0eca">
+  <kap><tld/>eca</kap>
+  <snc mrk="distri.0eca.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
     <dif>
-      <klr>
-        (p.p. pri <ref cel="operac.0o.MAT">operacio</ref> *
-        rilate al operacio T)
-      </klr>
+      <klr>(p.p. pri <ref cel="operac.0o.MAT">operacio</ref> *
+      rilate al operacio T)</klr>
       Tia, ke por &ccirc;iuj x, y, z veras la egala&jcirc;oj
-            x*(yTz) = (x*y)T(x*z) kaj
-            (yTz)*x = (y*x)T(z*x):
+      x*(yTz) = (x*y)T(x*z) kaj
+      (yTz)*x = (y*x)T(z*x):
       <ekz>
-        en la aro de reeloj la multipliko estas <tld/>ebla
-        rilate al la adicio.
+        en la aro de reeloj la multipliko estas <tld/>eca
+        rilate al la adicio;
+      </ekz>
+      <ekz>
+        <ind><tld/>eco</ind> de unu operacio rilate al dua.
+        <trd lng="de">Distributivit&auml;t</trd>
+        <trd lng="en">distributivity</trd>
+        <trd lng="fr">distributivit&eacute;</trd>
+        <trd lng="ru">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;&c_i;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
       </ekz>
     </dif>
     <adm>
+      Vd adm sub "komuteca" pri la problemo de tiaj formoj.
       Pluraj alilingvaj ekvivalentoj estas tradukeblaj per "~iva"
       (kapabla ~i) surbaze de la sekva metaforo : la operacio
       kapablas ~i sian efikon sur la termojn de la dua operacio.
       PIV1 ne konas tiun sencon kaj MatVort uzas "distributa", kio
-      enkondukas novan radikon sen evidenta bezono.
+      enkondukas novan radikon sen evidenta bezono. KompLeks donas
+      "~ebla".
       <aut>MB</aut>
     </adm>
+    <trd lng="de">distributiv</trd>
+    <trd lng="en">distributive</trd>
     <trd lng="fr">distributif</trd>
     <trd lng="ru">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
   </snc>
 </drv>
 </art>
-
 <!--
 $Log$
-Revision 1.9  2001/03/30 17:18:31  revo
+Revision 1.10 2001/07/12 18:12:30 revo
+Marc Bavant: ~ebla: mod dif, mod fnt, mod adm
+Revision 1.9 2001/03/30 17:18:31 revo
 Yury Finkel: +trd ru
-
-Revision 1.8  2001/02/09 19:52:44  revo
+Revision 1.8 2001/02/09 19:52:44 revo
 oficialeco-indiko per programo de Lugrin
-
-Revision 1.7  2001/02/04 17:16:30  revo
+Revision 1.7 2001/02/04 17:16:30 revo
 Marc Bavant: forigo de troaj em cxe ~ebla, +fnt KompLeks
-
-Revision 1.6  2000/10/29 17:13:32  revo
+Revision 1.6 2000/10/29 17:13:32 revo
 Marc Bavant: kor ref al operacio, modif de rim al adm
-Revision 1.5  2000/10/15 17:36:40  revo
+Revision 1.5 2000/10/15 17:36:40 revo
 Marc Bavant: +drv snc MAT ~ebla
 -->
 </vortaro>
