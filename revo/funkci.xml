@@ -172,6 +172,7 @@
       </rim>
     </subsnc>
     <trd lng="de">Funktion</trd>
+    <trd lng="pl">funkcja</trd>
     <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
   </snc>
   <snc mrk="funkci.0o.komp">
@@ -262,10 +263,64 @@
     <trd lng="en">analytic <ind>function</ind></trd>
     <trd lng="fr">fonction analytique</trd>
     <trd lng="nl">analytische <ind>functie</ind></trd>
+    <trd lng="pl">funkcja analityczna</trd>
     <trd
     lng="ru">&c_a;&c_n;&c_a;&c_l;&c_i;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
     <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
   </snc>
+</drv>
+
+<drv mrk="funkci.cirkla0o">
+  <kap>cirkla <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="stl">ARK</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="funkci.trigonometria0o">trigonometria <tld/>o.</ref>
+    <rim>
+      Notu, ke iuj lingvoj uzas similan terminon (ekz-e 
+      <ekz>
+        funkcja ko&lstroke;owa
+      </ekz>
+      en la pola) por signifi <ref cel="funkci.ciklometria0o">ciklometrian funkcion</ref>.
+    </rim>
+  </snc>
+</drv>
+
+<drv mrk="funkci.ciklometria0o">
+  <kap>ciklometria <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <uzo tip="stl">EVI</uzo>
+  <snc>
+    <ref tip="dif" cel="funkci.inversa_trigonometria0o">inversa trigonometria <tld/>o.</ref>
+  </snc>
+</drv>
+
+<drv mrk="funkci.elementa0o">
+  <kap>elementa <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      &Ccirc;iu reela <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>
+      kun reela argumento, prenita en la sekva vico:
+      <refgrp tip="sub">
+        <ref cel="potenc.0o.per_entjero">potencoj</ref>,
+        <ref cel="ekspon1.0o">eksponencialoj</ref>,
+        <ref cel="funkci.trigonometria0o">trigonometriaj <tld/>oj</ref>,
+      </refgrp>
+      a&ubreve; rezultanta el apliko de aritmetikaj operacioj, multipliko
+      per konstanto, malvastigo, kunligo a&ubreve; inversigo al tiuj
+      funkcioj:
+      <ekz>
+        polinomaj <tld/>oj, logaritmoj, hiperbolaj <tld/>oj estas
+        elementaj <tld/>oj.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">fonction &eacute;l&eacute;mentaire</trd>
+  <trd lng="pl">funkcja elementarna</trd>
+  <adm>Fonto k trd trovendaj.<aut>MB</aut></adm>
 </drv>
 
 <drv mrk="funkci.gxeneraligita0o">
@@ -279,6 +334,7 @@
   <trd lng="en">generalized <ind>function</ind></trd>
   <trd lng="fr">fonction g&eacute;n&eacute;ralis&eacute;e</trd>
   <trd lng="nl">veralgemeende <ind>functie</ind></trd>
+  <trd lng="pl">funkcja uog&oacute;lniona</trd>
   <trd lng="ru">&c_o;&c_b;&c_o;&c_b;&c_shch;&c_jo;&c_n;&c_n;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -309,6 +365,127 @@
   &c_H;&c_je;&c_v;&c_i;&c_s;&c_a;&c_j;&c_d;&c_a;</trd>
 </drv>
 
+<drv mrk="funkci.hiperbola0o">
+  <kap>hiperbola <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="funkci.0o.MAT"><tld lit="F"/>o</ref> el la vico:
+      <refgrp tip="vid">
+        <ref cel="sinus.hiperbola0o">hiperbola sinuso</ref>,
+        <ref cel="kosinu.hiperbola0o">hiperbola kosinuso</ref>,
+        <ref cel="tangen.hiperbola0o">hiperbola tangento</ref>,
+        <ref cel="kotang.hiperbola0o">hiperbola kotangento</ref>.
+      </refgrp>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>hyperbolische <ind>Funktion</ind></trd>,
+    <trd>Hyperbelfunktion</trd>
+  </trdgrp>
+  <trd lng="en">hyperbolic <ind>function</ind></trd>
+  <trd lng="fr">fonction hyperbolique</trd>
+  <trd lng="pl">funkcja hiperboliczna</trd>
+  <trd lng="ru">&c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+  <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
+
+<drv mrk="funkci.inversa_hiperbola0o">
+  <kap>inversa hiperbola <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="funkci.0o.MAT"><tld lit="F"/>o</ref> el la vico:
+      <refgrp tip="vid">
+        <ref cel="sinus.inversa_hiperbola0o">inversa hiperbola sinuso</ref>,
+        <ref cel="kosinu.inversa_hiperbola0o">inversa hiperbola kosinuso</ref>,
+        <ref cel="tangen.inversa_hiperbola0o">inversa hiperbola tangento</ref>,
+        <ref cel="kotang.inversa_hiperbola0o">inversa hiperbola kotangento</ref>.
+      </refgrp>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>inverse hyperbolische <ind>Funktion</ind></trd>,
+    <trd>inverse <ind>Hyperbelfunktion</ind></trd>,
+    <trd>Areafunktion</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>inverse hyperbolic <ind>function</ind></trd>,
+    <trd>area-hyperbolic <ind>function</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>fonction hyperbolique r&eacute;ciproque</trd>,
+    <trd>fonction hyperbolique inverse</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>funkcja hiperboliczna odwrotna</trd>,
+    <trd>funkcja polowa</trd></trdgrp> 
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja;
+    &c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+    <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
+    <trd>&c_a;&c_r;&c_je;&c_a;-&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="funkci.inversa_trigonometria0o">
+  <kap>inversa trigonometria <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="funkci.0o.MAT"><tld lit="F"/>o</ref> el la vico:
+      <refgrp tip="vid">
+        <ref cel="sinus.ark0o">arksinuso</ref>,
+        <ref cel="kosinu.ark0o">arkkosinuso</ref>,
+        <ref cel="tangen.ark0o">arktangento</ref>,
+        <ref cel="kotang.ark0o">arkkotangento</ref>,
+        <ref cel="sekant.ark0o">arksekanto</ref>,
+        <ref cel="koseka.ark0o">arkkosekanto</ref>.
+      </refgrp>
+    </dif>
+    <rim>
+      En <fnt><bib>MatVort</bib></fnt> trovi&gcirc;as la sinonimoj
+      <ctl>arkusa <tld/>o</ctl> kaj <ctl>ciklometria <tld/>o</ctl>.
+      Koncerne la unuan vd rimarkon sub <ref cel="ark.0o.angulo">arko</ref>.
+      La dua ricevis iom da a&ubreve;toritateco pro tio, ke 
+      <fnt><bib>PIV2</bib></fnt> enkondukis la radikon 
+      &leftquot;<ref cel="ciklom">ciklometri</ref>&rightquot;, sed 
+      tiu radiko restas tute senutila.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>inverse trigonometrische <ind>Funktion</ind></trd>,
+    <trd>inverse <ind>Kreisfunktion</ind></trd>,
+    <trd>Arkusfunktion</trd>,
+    <trd>zyklometrische <ind>Funktion</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>inverse trigonometric <ind>function</ind></trd>,
+    <trd>inverse circular <ind>function</ind></trd>,
+    <trd>cyclometric <ind>function</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>fonction trigonom&eacute;trique r&eacute;ciproque</trd>,
+    <trd>fonction circulaire r&eacute;ciproque</trd>,
+    <trd>fonction cyclom&eacute;trique</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>funkcja trygonometryczna odwrotna</trd>,
+    <trd>funkcja ko&lstroke;owa</trd>,
+    <trd>funkcja cyklometryczna</trd></trdgrp> 
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja;
+    &c_t;&c_r;&c_i;&c_g;&c_o;&c_n;&c_o;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+    <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
+    <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja; &c_k;&c_r;&c_u;&c_g;&c_o;&c_v;&c_a;&c_ja;
+    <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
+    <trd>&c_c;&c_i;&c_k;&c_l;&c_o;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+    <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="funkci.karakteriza0o">
   <kap>karakteriza <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -330,6 +507,7 @@
   <trd lng="en">characteristic <ind>function</ind></trd>
   <trd lng="fr">fonction caract&eacute;ristique</trd>
   <trd lng="nl">karakteristieke <ind>functie</ind></trd>
+  <trd lng="pl">funkcja charakterystyczna</trd>
   <trd
   lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
@@ -365,6 +543,7 @@
   <trd lng="en">function of n variables</trd>
   <trd lng="fr">fonction de n variables</trd>
   <trd lng="nl">functie van n variabelen</trd>
+  <trd lng="pl">funkcja n zmiennych</trd>
   <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja; &c_o;&c_t; n
   &c_a;&c_r;&c_g;&c_u;&c_m;&c_je;&c_n;&c_t;&c_o;&c_v;</trd>
 </drv>
@@ -375,7 +554,8 @@
   <snc>
     <uzo tip="klr">(elementa matematiko)</uzo>
     <dif>
-      <tld lit="F"/>o de unu a&ubreve; pluraj argumentoj, kies valoro
+      <ref tip="super" cel="funkci.0o.MAT"><tld lit="F"/>o</ref>
+      de unu a&ubreve; pluraj argumentoj, kies valoro
       estas esprimo, en kiu aperas, krom konstantoj, nur potencoj de la
       argumentoj kun pozitivaj entjeraj eksponentoj, kombinitaj per
       multipliko
@@ -410,6 +590,7 @@
   <trd lng="en">polynomial <ind>function</ind></trd>
   <trd lng="fr">fonction polynomiale</trd>
   <trd lng="nl">polynomiale <ind>functie</ind></trd>
+  <trd lng="pl">funkcja wielomaniowa</trd>
   <trd
   lng="ru">&c_p;&c_o;&c_l;&c_i;&c_n;&c_o;&c_m;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
@@ -426,10 +607,12 @@
       <ref cel="funkci.0o.MAT.elemente"><tld/>o</ref>, sed difinanta por
       elemento de fonta aro plurajn elementojn en la cela aro:
       <ekz>
-        la plursenca <tld/>o <ctl>kvadrata radiko</ctl> <klr>(kiu asocias
-        al
+        la plursenca <tld/>o <ctl>kvadrata radiko</ctl> <klr>(kiu asocias al
         pozitiva nombro x &gcirc;iajn du kvadratajn radikojn: -&#8730;x kaj
-        &#8730;x)</klr>, <ctl>argumento</ctl> <klr>(kiu asocias al komplekso
+        &#8730;x)</klr>,
+      </ekz>
+      <ekz>
+        <ctl>argumento</ctl> <klr>(kiu asocias al komplekso
         z &ccirc;iujn reelojn de la tipo Arg&#160;z+2k&pi;)</klr>.
       </ekz>
     </dif>
@@ -470,6 +653,7 @@
     <trd>fonction multiforme</trd>,
     <trd>fonction multivoque</trd>
   </trdgrp>
+  <trd lng="pl">funkcja wielowarto&sacute;ciowa</trd>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -502,6 +686,7 @@
   <trd lng="de">einfache <ind>Funktion</ind></trd>
   <trd lng="fr">fonction &eacute;tag&eacute;e</trd>
   <trd lng="nl">eenvoudige <ind>functie</ind></trd>
+  <trd lng="pl">funkcja prosta</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_t;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -530,6 +715,7 @@
   <trd lng="en">step <ind>function</ind></trd>
   <trd lng="fr">fonction en escalier</trd>
   <trd lng="nl">trapfunctie</trd>
+  <trd lng="pl">funkcja schodkowa</trd>
   <trd lng="ru">&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_ch;&c_a;&c_t;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -593,6 +779,7 @@
     <trd>fonction trigonom&eacute;trique</trd>,
     <trd>fonction circulaire</trd>
   </trdgrp>
+  <trd lng="pl">funkcja trygonometryczna</trd>
   <trdgrp lng="ru">
     <trd>&c_t;&c_r;&c_i;&c_g;&c_o;&c_n;&c_o;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
     <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
@@ -607,9 +794,7 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <uzo tip="klr">(elementa matematiko, kontraste kun plursenca)</uzo>
-    <ref tip="dif" cel="funkci.0o.MAT.elemente">
-    <tld/>o <sncref ref="funkci.0o.MAT.elemente"/>.
-    </ref>
+    <ref tip="dif" cel="funkci.0o.MAT"><tld/>o <sncref/>.</ref>
   </snc>
   <trd lng="de">eindeutige <ind>Funktion</ind></trd>
   <trd lng="en">single-valued <ind>function</ind></trd>
@@ -623,6 +808,8 @@
 </art>
 <!--
 $Log$
+Revision 1.32  2002/08/11 17:32:22  revo
+Marc Bavant: mod Hevisajdo al Hevisido
 Revision 1.31  2002/07/05 20:01:10  revo
 Wolfram Diestel: kor. ref-cel
 Revision 1.30  2002/06/25 19:37:50  revo
@@ -640,7 +827,5 @@ Marc Bavant: ~o MAT: mod mrk, kor citilojn en rim
 Revision 1.24 2002/03/11 17:33:06 revo
 Paul Peeraerts: ald trd nl + belarangho
 Revision 1.23 2002/03/09 17:32:01 revo
-Marc Bavant: analitika ~o: mod fnt; plursenca ~o: mod rim, -adm
-Revision 1.22 2002/03/01 17:33:14 revo
 -->
 </vortaro>
