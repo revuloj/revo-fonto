@@ -10,8 +10,8 @@
 <drv mrk="algebr.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
-  <snc>
+  <snc mrk="algebr.0o.fako">
+    <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
     <dif>
       Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
       kiu etendas la aritmetikajn kalkulojn al grandoj signitaj per
@@ -19,16 +19,33 @@
       ekvacioj.
     </dif>
     <rim>
-      La <ctl>kvantoj</ctl>, kiujn la moderna <tld/>o manipulas, ne plu
+      La <ctl>grandoj</ctl>, kiujn la moderna <tld/>o manipulas, ne plu
       limi&gcirc;as al nombroj. &Gcirc;ia agokampo nun ampleksas
       la <ref cel="strukt.algebra0o"><tld/>ajn strukturojn</ref>
       (arojn, provizitajn per operacioj kun aksiome difinitaj ecoj,
       pli-malpli similaj al tiuj de la aritmetikaj operacioj).
     </rim>
   </snc>
+  <snc mrk="algebr.0o.strukturo">
+    <fnt><bib>MatVort</bib></fnt>
+    <refgrp tip="sub">
+      <ref cel="algebr.banahxa0o">bana&hcirc;a <tld/>o</ref>,
+      <ref cel="algebr.bulea0o.strukturo">bulea <tld/>o</ref>,
+      <ref cel="algebr.lineara0o.strukturo">lineara <tld/>o</ref>,
+      <ref cel="algebr.sigma0o">sigma-<tld/>o</ref>.
+    </refgrp>
+    <rim>
+      Oni donas la nomon <ctl><tld/>o</ctl> al kelkaj <tld/>aj
+      strukturoj. Por &ccirc;i tiu senco iuj proponis paronimajn
+      terminojn por eviti kolizion kun la fako: <ctl>al&gcirc;ebro</ctl>
+      a&ubreve; <ctl>algebrao</ctl> (kiel &ccirc;e
+      <fnt><bib>MatStokTerm</bib><lok>p. 6</lok></fnt> a&ubreve;
+      <fnt><bib>Deneva</bib></fnt>). Tio ne &scirc;ajnas al ni utila.
+    </rim>
+  </snc>
   <trd lng="de">Algebra</trd>
   <trd lng="en">algebra</trd>
-  <trd lng="fr">alg&egrave;bre<klr tip="ind"> (discipline)</klr></trd>
+  <trd lng="fr">alg&egrave;bre</trd>
   <trd lng="nl">algebra</trd>
   <trd lng="pt">&aacute;lgebra</trd>
   <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</trd>
@@ -71,7 +88,27 @@
   <trd lng="de">algebraisch</trd>
   <trd lng="en">algebraic</trd>
   <trd lng="fr">alg&eacute;brique</trd>
-  <trd lng="ru"> &c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+</drv>
+
+<drv mrk="algebr.banahxa0o">
+  <kap>bana&hcirc;a <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref cel="norm.0hava">Normohava</ref>
+      <ref cel="komple2.0a.MAT">kompleta</ref>
+      <ref cel="algebr.lineara0o.strukturo">lineara <tld/>o</ref>.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="banahx.0o">Bana&hcirc;o</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">Banach-Algebra</trd>
+  <trd lng="en">Banach <ind>algebra</ind></trd>
+  <trd lng="fr">alg&egrave;bre de Banach</trd>
+  <trd lng="ru">&c_b;&c_a;&c_n;&c_a;&c_h;&c_o;&c_v;&c_a; <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="algebr.bulea0o">
@@ -123,14 +160,14 @@
       <ref cel="spac.vektora0o">vektoraj spacoj</ref> kaj
       iliaj <ref cel="homomo.0o">homomorfioj</ref>.
     </dif>
-    <ref tip="vid" cel="linear.0a">lineara.</ref>
+    <ref tip="vid" cel="linear.0a.gxenerala">lineara.</ref>
     <trd lng="de">lineare <ind>Algebra</ind></trd>
     <trd lng="en">linear <ind>algebra</ind></trd>
     <trd lng="fr">alg&egrave;bre lin&eacute;aire<klr tip="ind"> (discipline)</klr></trd>
     <trd lng="nl">lineaire <ind>algebra</ind></trd>
     <trd lng="pt">&aacute;lgebra linear</trd>
     <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
-    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;<klr tip="ind"> (&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</klr></ind></trd>
+    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind"> (&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</klr></trd>
   </snc>
   <snc mrk="algebr.lineara0o.strukturo">
     <dif>
@@ -146,15 +183,10 @@
         &gcirc;i.
       </ekz>
     </dif>
-    <rim>
-      Por eviti kolizion inter sencoj <sncref ref="algebr.lineara0o.fako"/>
-      kaj <sncref ref="algebr.lineara0o.strukturo"/> kelkaj proponas uzi la
-      paronimon <ctl>al&gcirc;ebro</ctl> por la dua nocio.
-    </rim>
     <adm>
       Malfacilas trovi fontojn. MatVort konas iun strangan
       "lineara asocieca algebro" kaj "vektora algebro", sed 
-      ne klaras, pri kio temas.
+      ne klaras, pri kio temas. Ekzistas ankaux "~o de Banach".
       <aut>MB</aut>
     </adm>
     <trd lng="de">lineare <ind>Algebra</ind><klr tip="ind"> (&uuml;ber
@@ -242,6 +274,8 @@
 </art>
 <!--
 $Log$
+Revision 1.21  2002/04/02 17:58:17  revo
+Marc Bavant: ~o: -adm; lineara ~o: kor sncref ref en rim
 Revision 1.20  2002/04/01 18:49:38  revo
 Marc Bavant: ~o: kor fnt
 Revision 1.19  2002/03/24 17:31:08  revo
@@ -259,7 +293,5 @@ Marc Bavant: lineara ~o 2: mod dif, +trd; lineara ~o: mod mrk; +drv
 sigma-~o, bulea ~o
 Revision 1.13 2001/04/28 19:15:25 revo
 Helio Jaques: trd pt
-Revision 1.12 2001/03/17 17:13:03 revo
-Marc Bavant: kor trd fr de lineara ~o 2, kor "artimetika"
 -->
 </vortaro>
