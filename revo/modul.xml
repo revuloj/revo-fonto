@@ -2,155 +2,185 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-     <art mrk="$Id$">
-       <kap>
-         <ofc>1</ofc>
-         <rad>modul</rad>/i
-       </kap>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>1</ofc>
+      <rad>modul</rad>/i
+    </kap>
 
-       <drv mrk="modul.0i">
-         <kap><tld/>i</kap>
-         <gra><vspec>tr</vspec></gra>
-         <snc mrk="modul.0i.MUZ">
-           <uzo tip="fak">MUZ</uzo>
-             <dif>
-               Variigi la tonojn.
-             </dif>
-         </snc>
-         <snc mrk="modul.0i.vocx">
-           <uzo tip="stl">FIG</uzo>
-           <dif>
-             Variigi, nuanci la vo&ccirc;on.
-           </dif>
-         </snc>
-         <snc mrk="modul.0i.TEL">
-           <uzo tip="fak">TEL</uzo>
-           <uzo tip="fak">ELE</uzo>
-           <dif>
-             Variigi karakterizan grandon de oscilo konforme al
-             transsendota signalo:
-             <ekz>
-               frekvenca, amplituda, faza <tld/>ado.
-             </ekz>
-           </dif>
-           <adm>
-             La difino postulus te&hcirc;nikan difinon de amaso da
-             nocioj, kiuj ankora&ubreve; ne estas en REVO: "grando",
-             "oscilo", "signalo", "fazo"... kaj revizio de
-             "amplitudo". Cetere indus enkonduki anka&ubreve; la
-             plej modernajn konceptojn pri ~ado. (MB)
-           </adm>
-         </snc>
-         <trd lng="fr">moduler</trd>
-       </drv>
-       <drv mrk="modul.0ado">
-         <kap><tld/>ado</kap>
-         <snc>
-           <dif>
-             La ago <tld/>i (
-             <sncref ref="modul.0i.MUZ"/>,
-             <sncref ref="modul.0i.vocx"/>,
-             <sncref ref="modul.0i.TEL"/>
-             ) a&ubreve; &gcirc;ia rezulto.
-           </dif>
-         </snc>
-         <trd lng="fr">modulation</trd>
-       </drv>
-       <drv mrk="modul.0o">
-         <kap><tld/>o</kap>
-         <snc>
-           <dif>
-             <ref tip="dif" cel="modul.0ado">modulado</ref>.
-           </dif>
-         </snc>
+    <drv mrk="modul.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc mrk="modul.0i.MUZ">
+        <uzo tip="fak">MUZ</uzo>
+        <dif>
+          Variigi la tonojn.
+        </dif>
+      </snc>
+      <snc mrk="modul.0i.vocx">
+        <uzo tip="stl">FIG</uzo>
+        <dif>
+          Variigi, nuanci la vo&ccirc;on.
+        </dif>
+      </snc>
+      <snc mrk="modul.0i.TEL">
+        <uzo tip="fak">TEL</uzo>
+        <uzo tip="fak">ELE</uzo>
+        <dif>
+          Variigi karakterizan grandon de oscilo konforme al
+          transsendota signalo:
+          <ekz>
+            frekvenca, amplituda, faza <tld/>ado.
+          </ekz>
+        </dif>
+        <adm>
+          La difino postulus te&hcirc;nikan difinon de amaso da
+          nocioj, kiuj ankora&ubreve; ne estas en REVO: "grando",
+          "oscilo", "signalo", "fazo"... kaj revizio de
+          "amplitudo". Cetere indus enkonduki anka&ubreve; la
+          plej modernajn konceptojn pri ~ado. (MB)
+        </adm>
+      </snc>
+      <rim>
+        La verbaj sencoj de la radiko <tld/> estas absolute
+        senrilataj al la substantivaj; fakte temas pri beda&ubreve;rinda
+        homonimio, evitebla per aparta radiko
+        <ref tip="sin" cel="modul4.0i">modulacio, modulacii</ref>,
+        kiu internacie havas la &ccirc;i-supre difinatajn signifojn
+        <em>kaj nur ilin</em>. <aut>Sergio Pokrivskij</aut>
+      </rim>
+      <trd lng="fr">moduler</trd>
+    </drv>
+    <drv mrk="modul.0ado">
+      <kap><tld/>ado</kap>
+      <snc>
+        <dif>
+          La ago <tld/>i (
+          <sncref ref="modul.0i.MUZ"/>,
+          <sncref ref="modul.0i.vocx"/>,
+          <sncref ref="modul.0i.TEL"/>
+          ) a&ubreve; &gcirc;ia rezulto.
+        </dif>
+        <ref tip="sin" cel="modul4.0o">modulacio</ref>
+      </snc>
+      <trd lng="fr">modulation</trd>
+    </drv>
+    <drv mrk="modul.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <dif>
+          <ref tip="dif" cel="modul.0ado">modulado</ref>.
+        </dif>
+      </snc>
 
-         <snc mrk="modul.0o.strukt">
-           <uzo tip="fak">MAT</uzo>
-           <dif>
-             <klr>(super <ref cel="unu.0hava">unuhava</ref>
-             <ref cel="ring.0o.MAT">ringo</ref> <em>R</em>)</klr>
-             Tia <ref tip="super" cel="strukt.algebra0o">strukturo</ref>
-             (<em>M</em>,+,*), ke (<em>M</em>,+) estas
-             <ref cel="komut.0eca.magmo">komut(ec)a</ref>
-             <ref cel="grup.0o.MAT">grupo</ref>; * estas
-             <ref cel="operac.ekstera0o">ekstera operacio</ref>
-             de <em>R</em> super <em>M</em>; kaj por
-             &ccirc;iuj &alfa;, &beta;&#x2208;<em>R</em> kaj
-             x, y&#x2208;<em>M</em> veras, ke : (&alfa;+&beta;)*x =
-             &alfa;*x+&beta;*x, &alfa;*(x+y) = &alfa;*x+&alfa;*y,
-             (&alfa;.&beta;)*x = &alfa;*(&beta;*x), 1*x=x.
-           </dif>
-           <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
-           <ref tip="sub" cel="spac.vektora0o">vektora spaco.</ref>
-           <trd lng="fr">module</trd>
-           <rim>
-             Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
-             sub la sama tegmenta nocio <ctl>vektora spaco</ctl> kun
-             distingo <ctl>super ringo</ctl> a&ubreve; <ctl>super korpo</ctl>.
-           </rim>
-         </snc>
+      <snc mrk="modul.0o.strukt">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(super <ref cel="unu.0hava">unuhava</ref>
+            <ref cel="ring.0o.MAT">ringo</ref> <em>R</em>)</klr>
+          Tia <ref tip="super" cel="strukt.algebra0o">strukturo</ref>
+          (<em>M</em>,+,*), ke (<em>M</em>,+) estas
+          <ref cel="komut.0eca.magmo">komut(ec)a</ref>
+          <ref cel="grup.0o.MAT">grupo</ref>; * estas
+          <ref cel="operac.ekstera0o">ekstera operacio</ref>
+          de <em>R</em> super <em>M</em>; kaj por
+          &ccirc;iuj &alfa;, &beta;&#x2208;<em>R</em> kaj
+          x, y&#x2208;<em>M</em> veras, ke : (&alfa;+&beta;)*x =
+          &alfa;*x+&beta;*x, &alfa;*(x+y) = &alfa;*x+&alfa;*y,
+          (&alfa;.&beta;)*x = &alfa;*(&beta;*x), 1*x=x.
+        </dif>
+        <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
+        <ref tip="sub" cel="spac.vektora0o">vektora spaco.</ref>
+        <trd lng="fr">module</trd>
+        <rim>
+          Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
+          sub la sama tegmenta nocio <ctl>vektora spaco</ctl> kun
+          distingo <ctl>super ringo</ctl> a&ubreve; <ctl>super korpo</ctl>.
+        </rim>
+      </snc>
 
-         <snc mrk="modul.0o.komplekso">
-           <uzo tip="fak">MAT</uzo>
-           <dif>
-             <klr>(de <ref cel="komple.0o.MAT">komplekso</ref> a+ib)</klr>
-             La kvadrata radiko de a<sup>2</sup>+b<sup>2</sup>:
-             <ekz>
-               la kompleksoj kun <tld/>o &rho; estas reprezenteblaj per
-               &rho;e<sup>i&theta;</sup>;
-             </ekz>
-             <ekz>
-               la <tld/>on de z oni signas per |z|;
-             </ekz>
-             <ekz>
-               la <tld/>o de reelo egalas al &gcirc;ia
-               <ref cel="valor.absoluta0o">absoluta valoro</ref>.
-             </ekz>
-           </dif>
-         </snc>
+      <snc mrk="modul.0o.komplekso">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(de <ref cel="komple.0o.MAT">komplekso</ref> a+ib)</klr>
+          La kvadrata radiko de a<sup>2</sup>+b<sup>2</sup>:
+          <ekz>
+            la kompleksoj kun <tld/>o &rho; estas reprezenteblaj per
+            &rho;e<sup>i&theta;</sup>;
+          </ekz>
+          <ekz>
+            la <tld/>on de z oni signas per |z|;
+          </ekz>
+          <ekz>
+            la <tld/>o de reelo egalas al &gcirc;ia
+            <ref cel="valor.absoluta0o">absoluta valoro</ref>.
+          </ekz>
+        </dif>
+      </snc>
 
-       </drv>
+      <snc mrk="modul.0o.bloko">
+        <uzo tip="fak">TEK</uzo>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Granda a&ubreve;tonoma parto de programo a&ubreve; aparato (kutime pli
+          altranga ol <ref tip="sin" cel="blok.0o.agregato">bloko</ref>):
+          <ekz>
+            <uzo tip="fak">KOMP</uzo> <ind>&scirc;argomodulo</ind>,
+            <trd lng="en">load module</trd>
+            <trd lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j; &c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
+          </ekz><ekz>
+            <uzo tip="fak">KOMP</uzo> <ind>celmodulo</ind>.
+            <trd lng="en">object module</trd>
+            <trd lng="ru">&c_o;&c_b;&c_malmol;&c_je;&c_k;&c_t;&c_n;&c_y;&c_j; &c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
+          </ekz>
+        </dif>
+      </snc>
 
-       <drv mrk="modul.sub0o">
-         <kap>sub<tld/>o</kap>
-         <snc mrk="modul.sub0o.strukt">
-           <uzo tip="fak">MAT</uzo>
-           <dif>
-             <klr>(de <ref cel="modul.0o.strukt"><tld/>o</ref>
-             (<em>M</em>,+,*))</klr>
-             Tia subaro de <em>M</em>, ke &gcirc;i egalas al la subaro, kiun
-             &gcirc;i <ref cel="nask.0i.MAT">naskas</ref>:
-             <ekz>
-               la <ref cel="kern.0o.homomorfio">kerno</ref> kaj
-               <ref cel="bild.0aro">bildaro</ref> de
-               <ref cel="homomo.0o">homomorfio</ref> inter <tld/>oj
-               estas sub<tld/>oj respektive de &gcirc;iaj fonto-aro
-               kaj celo-aro;
-             </ekz>
-             <ekz>
-               sub<tld/>o estas mem <tld/>o.
-             </ekz>
-           </dif>
-           <trd lng="fr">sous-module</trd>
-         </snc>
-       </drv>
+    </drv>
 
-     </art>
+    <drv mrk="modul.sub0o">
+      <kap>sub<tld/>o</kap>
+      <snc mrk="modul.sub0o.strukt">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(de <ref cel="modul.0o.strukt"><tld/>o</ref>
+            (<em>M</em>,+,*))</klr>
+          Tia subaro de <em>M</em>, ke &gcirc;i egalas al la subaro, kiun
+          &gcirc;i <ref cel="nask.0i.MAT">naskas</ref>:
+          <ekz>
+            la <ref cel="kern.0o.homomorfio">kerno</ref> kaj
+            <ref cel="bild.0aro">bildaro</ref> de
+            <ref cel="homomo.0o">homomorfio</ref> inter <tld/>oj
+            estas sub<tld/>oj respektive de &gcirc;iaj fonto-aro
+            kaj celo-aro;
+          </ekz>
+          <ekz>
+            sub<tld/>o estas mem <tld/>o.
+          </ekz>
+        </dif>
+        <trd lng="fr">sous-module</trd>
+      </snc>
+    </drv>
 
-<!--
-$Log$
-Revision 1.7  2000/12/10 18:46:41  revo
-uzo tip=stl
+  </art>
 
-Revision 1.6  2000/12/03 18:58:40  revo
-Marc Bavant: +drv sub~o, +snc MAT cxe ~o (~o de komplekso)
+  <!--
+  $Log$
+  Revision 1.8  2001/01/13 18:46:46  revo
+  Marc Bavant: magmo -> algebra strukturo
 
-Revision 1.5  2000/11/02 17:11:19  revo
-Marc Bavant: +ref al vektoro, vektora spaco; sxangxo de mrk de la MAT senco 
-de ~o
+  Revision 1.7  2000/12/10 18:46:41  revo
+  uzo tip=stl
 
-Revision 1.4  2000/10/29 17:13:27  revo
-Marc Bavant: +snc TEL por ~i (dauxrigota), +drv ~ado, +drv MAT ~o
+  Revision 1.6  2000/12/03 18:58:40  revo
+  Marc Bavant: +drv sub~o, +snc MAT cxe ~o (~o de komplekso)
 
--->
+  Revision 1.5  2000/11/02 17:11:19  revo
+  Marc Bavant: +ref al vektoro, vektora spaco; sxangxo de mrk de la MAT senco 
+  de ~o
+
+  Revision 1.4  2000/10/29 17:13:27  revo
+  Marc Bavant: +snc TEL por ~i (dauxrigota), +drv ~ado, +drv MAT ~o
+
+  -->
 </vortaro>
