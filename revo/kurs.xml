@@ -2,89 +2,120 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>1</ofc>
-      <rad>kurs</rad>/o
-    </kap>
-    <drv mrk="kurs.0o">
-      <kap><tld/>o</kap>
-      <snc num="1" mrk="kurs.0o.lerna">
-        <dif>
-          Serio da lecionoj, konsistiganta regulan instruon pri
-          scienco, arto a&ubreve; metio: <ekz><tld/>o pri fiziko.
-          </ekz>
-        </dif>
-        <trd lng="nl">cursus</trd>
-        <trd lng="ru">&#x43a;&#x443;&#x440;&#x441;</trd>
-      </snc>
-      <snc num="2">
-        <uzo tip="stl">EVI</uzo>
-        <dif>
-          <ref tip="sin" cel="kurz.0o">kurzo</ref>.
-        </dif>
-      </snc>
-      <snc num="3" mrk="kurs.0o.voja">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Vojlinio la&ubreve; kiu io movi&gcirc;as a&ubreve; voja&gcirc;as:
-          <ekz>la po&scirc;ta&jcirc;oj estas specigitaj la&ubreve; la germanaj <tld/>oj
-            ... la po&scirc;tistoj devas scii, al kiu <tld/>o &gcirc;i
-            <klr>(la loko indikita en letera adreso)</klr>
-            apartenas<fnt><aut>&Z;</aut>: <vrk>Fundamenta Krestomatio</vrk>,
-              <lok>El la po&scirc;to</lok></fnt>;</ekz>
-          <ekz>la <tld/>o de a&ubreve;tobuso<fnt>PIV</fnt>,</ekz>
-          <ekz>la &scirc;ipo tenis sian <tld/>on norden<fnt>PIV</fnt>.</ekz>
-        </dif>
-        <trd lng="nl">koers<klr tip="ind"> (v. boot bijv.)</klr></trd>
-        <trdgrp lng="ru"><trd>&#x43a;&#x443;&#x440;&#x441;</trd>, <trd>&#x43c;&#x430;&#x440;&#x448;&#x440;&#x443;&#x442;</trd></trdgrp>
-      </snc>
-      <trd lng="cs">kurz (&scaron;kolen&iacute;)</trd>
-      <trd lng="en">course</trd>
-      <trd lng="sv">kurs</trd>
-    </drv>
-    <drv mrk="kurs.0ano">
-      <kap><tld/>ano</kap>
-      <snc>
-        <dif>Lernanto de <ref cel="kurs.0o.lerna">kurso</ref>.</dif>
-        <trdgrp lng="ru">
-          <trd>&#x441;&#x43b;&#x443;&#x448;&#x430;&#x442;&#x435;&#x43b;&#x44c; &#x43a;&#x443;&#x440;&#x441;&#x430;</trd>, <trd>&#x43a;&#x443;&#x440;&#x441;&#x430;&#x43d;&#x442;</trd>
-        </trdgrp>
-      </snc>
-      <trd lng="nl">cursist</trd>
-    </drv>
-    <drv mrk="kurs.en0igi">
-      <kap>en<tld/>igi</kap>
-      <fnt>PIV</fnt>
-      <snc>
-        <dif>Zorgi ke leteroj iru la&ubreve; sia <ref
-        cel="kurs.0o.voja">kurso</ref>.</dif>
-      </snc>
-    <trd lng="nl">in <ind>omloop</ind> brengen</trd>
-    </drv>
-    <drv mrk="kurs.en0igilo">
-      <kap>en<tld/>igilo, <tld/>ilo</kap>
-      <fnt><lok><url
-             ref="&KompLeks;/E.html#ENKURSIGILO">KompLeks</url></lok></fnt>
-      <snc>
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          En komputila reto, aran&gcirc;a&jcirc;o ricevanta mesa&gcirc;ojn (paka&jcirc;ojn), kaj
-          plusendanta ilin al la celata komputilo per preferinda vojo
-          (<ref cel="kurs.0o.voja">kurso</ref>).
-        </dif>
-        <ref tip="vid" cel="kluz.0o">kluzo</ref>
-      </snc>
-      <trd lng="en">router</trd>
-      <trd lng="fr">routeur</trd>
-      <trdgrp lng="nl"><trd>router</trd>,
-        <trd>verkeerswisselaar</trd></trdgrp>
-      <trd lng="ru">&#x43c;&#x430;&#x440;&#x448;&#x440;&#x443;&#x442;&#x438;&#x437;&#x430;&#x442;&#x43e;&#x440;</trd>
-    </drv>
-  </art>
+<art mrk="$Id$">
+<kap>
+  <ofc>1</ofc>
+  <rad>kurs</rad>/o
+</kap>
+<drv mrk="kurs.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="kurs.0o.lerna">
+    <dif>
+      Serio da lecionoj, konsistiganta regulan instruon pri
+      scienco, arto a&ubreve; metio:
+      <ekz>
+        <tld/>o pri fiziko.
+      </ekz>
+    </dif>
+    <trd lng="nl">cursus</trd>
+    <trd lng="ru">&c_k;&c_u;&c_r;&c_s;</trd>
+  </snc>
+  <snc>
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <ref tip="sin" cel="kurz.0o">kurzo</ref>.
+    </dif>
+  </snc>
+  <snc mrk="kurs.0o.voja">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Vojlinio la&ubreve; kiu io movi&gcirc;as a&ubreve; voja&gcirc;as:
+      <ekz>
+        la po&scirc;ta&jcirc;oj estas specigitaj la&ubreve; la germanaj <tld/>oj
+        ... la po&scirc;tistoj devas scii, al kiu <tld/>o &gcirc;i
+        <klr>(la loko indikita en letera adreso)</klr>
+        apartenas<fnt><aut>&Z;</aut>: <vrk>Fundamenta Krestomatio</vrk>,
+        <lok>El la po&scirc;to</lok></fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o de a&ubreve;tobuso<fnt>PIV</fnt>,
+      </ekz>
+      <ekz>
+        la &scirc;ipo tenis sian <tld/>on norden<fnt>PIV</fnt>.
+      </ekz>
+    </dif>
+    <trd lng="nl">koers<klr tip="ind"> (v. boot bijv.)</klr></trd>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_u;&c_r;&c_s;</trd>,
+      <trd>&c_m;&c_a;&c_r;&c_sh;&c_r;&c_u;&c_t;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="cs">kurz (&scaron;kolen&iacute;)</trd>
+  <trd lng="en">course</trd>
+  <trd lng="sv">kurs</trd>
+</drv>
 
+<drv mrk="kurs.0ano">
+  <kap>
+    <tld/>ano
+  </kap>
+  <snc>
+    <dif>
+      Lernanto de <ref cel="kurs.0o.lerna">kurso</ref>.
+    </dif>
+  </snc>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_l;&c_u;&c_sh;&c_a;&c_t;&c_je;&c_l;&c_mol; &c_k;&c_u;&c_r;&c_s;&c_a;</trd>,
+    <trd>&c_k;&c_u;&c_r;&c_s;&c_a;&c_n;&c_t;</trd>
+  </trdgrp>
+  <trd lng="nl">cursist</trd>
+</drv>
+
+<drv mrk="kurs.en0igi">
+  <kap>
+    en<tld/>igi
+  </kap>
+  <fnt>PIV</fnt>
+  <snc>
+    <dif>
+      Zorgi ke leteroj iru la&ubreve; sia
+      <ref cel="kurs.0o.voja">kurso</ref>.
+    </dif>
+  </snc>
+  <trd lng="nl">in <ind>omloop</ind> brengen</trd>
+</drv>
+
+<drv mrk="kurs.en0igilo">
+  <kap>
+    en<tld/>igilo, <tld/>ilo
+  </kap>
+  <fnt><lok><url
+  ref="&KompLeks;/E.html#ENKURSIGILO">KompLeks</url></lok></fnt>
+  <snc>
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      En komputila reto, aran&gcirc;a&jcirc;o ricevanta mesa&gcirc;ojn (paka&jcirc;ojn), kaj
+      plusendanta ilin al la celata komputilo per preferinda vojo
+      (<ref cel="kurs.0o.voja">kurso</ref>).
+    </dif>
+    <ref tip="vid" cel="kluz.0o">kluzo</ref>
+  </snc>
+  <trd lng="en">router</trd>
+  <trd lng="fr">routeur</trd>
+  <trdgrp lng="nl">
+    <trd>router</trd>,
+    <trd>verkeerswisselaar</trd>
+  </trdgrp>
+  <trd lng="ru">&c_m;&c_a;&c_r;&c_sh;&c_r;&c_u;&c_t;&c_i;&c_z;&c_a;&c_t;&c_o;&c_r;</trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.10  2001/10/07 18:21:35  revo
+Jerome Vachey: perferinda - preferinda
+
 Revision 1.9  2001/10/03 18:18:21  revo
 Jerome Vachey: uzo klr (Evi.)- uzo stl EVI
 
@@ -99,4 +130,3 @@ Sergio Pokrovskij: cxio reverkita krom kurso.1.
 
 -->
 </vortaro>
-
