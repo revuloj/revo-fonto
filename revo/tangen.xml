@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>2</ofc>
-<rad>tangent</rad>/o
+  <ofc>2</ofc>
+  <rad>tangent</rad>/o
 </kap>
 <drv mrk="tangen.0o">
   <kap><tld/>o</kap>
@@ -15,14 +15,14 @@
     <dif>
       <klr>(de <ref cel="angul.0o.MAT">angulo</ref> &alfa;)</klr>
       Kvociento de &gcirc;ia
-      <ref cel="sinus.0o">sinuso</ref> per &gcirc;ia 
-      <ref cel="kosinu.0o">kosinuso</ref>; simb. tg&#xa0;&alfa;, 
+      <ref cel="sinus.0o">sinuso</ref> per &gcirc;ia
+      <ref cel="kosinu.0o">kosinuso</ref>; simb. tg&#xa0;&alfa;,
       tang&#xa0;&alfa; a&ubreve; tan&#xa0;&alfa; :
       <ekz>
         la <tld/>o de orto estas nefinia;
       </ekz>
       <ekz>
-        la <tld/>o de angulo egalas al la kontra&ubreve;egalo de la <tld/>o de 
+        la <tld/>o de angulo egalas al la kontra&ubreve;egalo de la <tld/>o de
         &gcirc;ia <ref cel="suplem.0o.angulo">suplemento</ref>;
       </ekz>
       <ekz>
@@ -36,7 +36,7 @@
     </refgrp>
     <bld lok="../bld/trigo.jpg">
       la <tld/>o de angulo &alfa; egalas al AT/OM
-    </bld>    
+    </bld>
   </snc>
   <snc mrk="tangen.0o.funkcio">
     <dif>
@@ -45,7 +45,7 @@
       de angulo, kies mezuro en <ref cel="radian.0o">radianoj</ref> diferencas
       de x per oblo de &pi;; simb. tg a&ubreve; tan:
       <ekz>
-        <tld/>o estas perioda funkcio, kun 
+        <tld/>o estas perioda funkcio, kun
         <ref cel="period.0o.funkcio">periodo <sncref/></ref> &pi;;
       </ekz>
       <ekz>
@@ -57,8 +57,21 @@
   <trd lng="en">tangent</trd>
   <trd lng="fr">tangente<klr tip="ind"> (trigo.)</klr></trd>
   <trd lng="nl">tangens</trd>
+  <trd lng="pl">tangens</trd>
   <trd lng="ru">&c_t;&c_a;&c_n;&c_g;&c_je;&c_n;&c_s;</trd>
 </drv>
+
+<drv mrk="tangen.are0o">
+  <kap>are<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="dif" cel="tangen.inversa_hiperbola0o">inversa hiperbola <tld/>o.</ref>
+    <rim>
+      Vd rimarkon sub <ref cel="are.0o.argumento">areo</ref>.
+    </rim>
+  </snc>
+</drv>
+
 <drv mrk="tangen.ark0o">
   <kap>ark<tld/>o, arko<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -67,7 +80,8 @@
     <dif>
       <ref cel="bild.inversa0igo">Inversa bildigo</ref> de
       la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
-      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> <tld/>o al la
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
+      <ref cel="tangen.0o.funkcio"><tld/>o</ref> al la
       intervalo ]-&pi;/2,&pi;/2[; simb. arc tg, arc tan a&ubreve; ark tang:
       <ekz>
         ark<tld/>o de 1 egalas al &pi;/4.
@@ -80,27 +94,72 @@
   <trd lng="de">Arkustangens</trd>
   <trd lng="en">arc tangent</trd>
   <trd lng="fr">arc tangente</trd>
+  <trd lng="pl">arcus tangens</trd>
   <trd lng="ru">&c_a;&c_r;&c_k;&c_t;&c_a;&c_n;&c_g;&c_je;&c_n;&c_s;</trd>
-</drv></art>
+</drv>
+
+<drv mrk="tangen.hiperbola0o">
+  <kap>hiperbola <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
+      reelon x al sinh&#160;x/cosh&#160;x; simb. tanh a&ubreve; tgh.
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Hyperbeltangens</trd>,
+    <trd>hyperbolischer <ind>Tangens</ind></trd>
+  </trdgrp>
+  <trd lng="en">hyperbolic <ind>tangent</ind></trd>
+  <trd lng="fr">tangente hyperbolique</trd>
+  <trd lng="pl">tangens hiperboliczny</trd>
+  <trd lng="ru">&c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_t;&c_a;&c_n;&c_g;&c_je;&c_n;&c_s;</ind></trd>
+</drv>
+
+<drv mrk="tangen.inversa_hiperbola0o">
+  <kap>inversa hiperbola <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref cel="bild.inversa0igo">Inversa bildigo</ref> de
+      la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
+      <ref cel="tangen.hiperbola0o">hiperbola <tld/>o</ref> al la
+      intervalo [0,+&#8734;[; simb. artanh a&ubreve; artgh.
+    </dif>
+  </snc>
+  <trd lng="de">Areatangens</trd>
+  <trdgrp lng="en">
+    <trd>area-hyperbolic tangent</trd>,
+    <trd>inverse hyperbolic tangent</trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>argument de la <ind>tangente</ind> hyperbolique</trd>,
+    <trd>tangente hyperbolique inverse</trd>
+  </trdgrp>
+  <trd lng="pl">area tangens hiperboliczny</trd>
+  <trdgrp lng="ru">
+    <trd>&c_a;&c_r;&c_je;&c_a;-&c_t;&c_a;&c_n;&c_g;&c_je;&c_n;&c_s; &c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
+    <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j; &c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_t;&c_a;&c_n;&c_g;&c_je;&c_n;&c_s;</ind></trd>
+  </trdgrp>
+</drv>
+</art>
 <!--
 $Log$
-Revision 1.10  2002/05/12 16:38:45  revo
+Revision 1.11 2002/07/29 18:14:03 revo
+Marc Bavant: +ref al periodo
+Revision 1.10 2002/05/12 16:38:45 revo
 Marc Bavant: mod "negativo" al "kontrauxegalo"
-
-Revision 1.9  2002/02/23 19:57:38  revo
+Revision 1.9 2002/02/23 19:57:38 revo
 Marc Bavant: ~o: +fnt, nova simb.
-
-Revision 1.8  2001/06/23 18:12:17  revo
+Revision 1.8 2001/06/23 18:12:17 revo
 Marc Bavant: ~o: +snc funkcio; +drv ark~o
-
-Revision 1.7  2001/05/27 18:18:45  revo
+Revision 1.7 2001/05/27 18:18:45 revo
 Paul Peeraerts: ald trd nl
-
-Revision 1.6  2001/05/19 19:42:05  revo
+Revision 1.6 2001/05/19 19:42:05 revo
 Marc Bavant: reverkis, transportis la jamajn trd al tangxi
-
-Revision 1.5  2001/05/02 16:11:39  revo
+Revision 1.5 2001/05/02 16:11:39 revo
 Dennis Wibrow: +trd germ
-
 -->
 </vortaro>

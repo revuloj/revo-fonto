@@ -4,7 +4,7 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>kosinus</rad>/o
+  <rad>kosinus</rad>/o
 </kap>
 <drv mrk="kosinu.0o">
   <kap><tld/>o</kap>
@@ -13,20 +13,20 @@
   <snc mrk="kosinu.0o.entriangulo">
     <dif>
       <klr>(de <ref cel="angul.0o.MAT">angulo</ref> &alfa;)</klr>
-      <ref cel="sinus.0o">Sinuso</ref> de &gcirc;ia 
-      <ref cel="komple1.0o.angulo">komplemento</ref>; simb. cos&#xa0;&alfa; 
+      <ref cel="sinus.0o">Sinuso</ref> de &gcirc;ia
+      <ref cel="komple1.0o.angulo">komplemento</ref>; simb. cos&#xa0;&alfa;
       a&ubreve; kos&#xa0;&alfa;:
       <ekz>
         la <tld/>o de orto egalas al 0;
       </ekz>
       <ekz>
-        la <tld/>o de angulo egalas al la kontra&ubreve;egalo de la <tld/>o de 
+        la <tld/>o de angulo egalas al la kontra&ubreve;egalo de la <tld/>o de
         &gcirc;ia <ref cel="suplem.0o.angulo">suplemento</ref>.
       </ekz>
     </dif>
     <bld lok="../bld/trigo.jpg">
       la <tld/>o de angulo &alfa; egalas al OK/OM
-    </bld>    
+    </bld>
   </snc>
   <snc mrk="kosinu.0o.funkcio">
     <dif>
@@ -43,8 +43,21 @@
   <trd lng="en">cosine</trd>
   <trd lng="de">Kosinus</trd>
   <trd lng="fr">cosinus</trd>
+  <trd lng="pl">cosinus</trd>
   <trd lng="ru">&c_k;&c_o;&c_s;&c_i;&c_n;&c_u;&c_s;</trd>
 </drv>
+
+<drv mrk="kosinu.are0o">
+  <kap>are<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="dif" cel="kosinu.inversa_hiperbola0o">inversa hiperbola <tld/>o.</ref>
+    <rim>
+      Vd rimarkon sub <ref cel="are.0o.argumento">areo</ref>.
+    </rim>
+  </snc>
+</drv>
+
 <drv mrk="kosinu.ark0o">
   <kap>ark<tld/>o, arko<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -53,7 +66,8 @@
     <dif>
       <ref cel="bild.inversa0igo">Inversa bildigo</ref> de
       la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
-      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> <tld/>o al la
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
+      <ref cel="kosinu.0o.funkcio"><tld/>o</ref> al la
       intervalo [0,&pi;]; simb. arc cos a&ubreve; ark kos:
       <ekz>
         ark<tld/>o de 0 egalas al &pi;/2.
@@ -66,25 +80,70 @@
   <trd lng="de">Arkuskosinus</trd>
   <trd lng="en">arc cosine</trd>
   <trd lng="fr">arc cosinus</trd>
+  <trd lng="pl">arcus cosinus</trd>
   <trd lng="ru">&c_a;&c_r;&c_k;&c_k;&c_o;&c_s;&c_i;&c_n;&c_u;&c_s;</trd>
+</drv>
+
+<drv mrk="kosinu.hiperbola0o">
+  <kap>hiperbola <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
+      reelon x al &#189;(e<sup>x</sup>+e<sup>-x</sup>); simb. cosh a&ubreve; kosh.
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Hyperbelkosinus</trd>,
+    <trd>hyperbolischer <ind>Kosinus</ind></trd>
+  </trdgrp>
+  <trd lng="en">hyperbolic <ind>cosine</ind></trd>
+  <trd lng="fr">cosinus hyperbolique</trd>
+  <trd lng="pl">cosinus hiperboliczny</trd>
+  <trd lng="ru">&c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_k;&c_o;&c_s;&c_i;&c_n;&c_u;&c_s;</ind></trd>
+</drv>
+
+<drv mrk="kosinu.inversa_hiperbola0o">
+  <kap>inversa hiperbola <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref cel="bild.inversa0igo">Inversa bildigo</ref> de
+      la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> 
+      <ref cel="kosinu.hiperbola0o">hiperbola <tld/>o</ref> al la
+      intervalo [0,+&#8734;[; simb. arcosh a&ubreve; arkosh.
+    </dif>
+  </snc>
+  <trd lng="de">Areakosinus</trd>
+  <trdgrp lng="en">
+    <trd>area-hyperbolic cosine</trd>,
+    <trd>inverse hyperbolic cosine</trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>argument du <ind>cosinus</ind> hyperbolique</trd>,
+    <trd>cosinus hyperbolique inverse</trd>
+  </trdgrp>
+  <trd lng="pl">area cosinus hiperboliczny</trd>
+  <trdgrp lng="ru">
+    <trd>&c_a;&c_r;&c_je;&c_a;-&c_k;&c_o;&c_s;&c_i;&c_n;&c_u;&c_s; &c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
+    <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j; &c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_k;&c_o;&c_s;&c_i;&c_n;&c_u;&c_s;</ind></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.8  2002/05/12 16:38:49  revo
+Revision 1.9 2002/07/29 18:13:37 revo
+Marc Bavant: +ref al periodo
+Revision 1.8 2002/05/12 16:38:49 revo
 Marc Bavant: mod "negativo" al "kontrauxegalo"
-
-Revision 1.7  2002/02/23 19:57:41  revo
+Revision 1.7 2002/02/23 19:57:41 revo
 Marc Bavant: ~o: +fnt, nova simb.
-
-Revision 1.6  2001/06/23 18:12:03  revo
+Revision 1.6 2001/06/23 18:12:03 revo
 Marc Bavant: ~o: +snc funkcio; +drv ark~o
-
-Revision 1.5  2001/05/19 19:42:00  revo
+Revision 1.5 2001/05/19 19:42:00 revo
 Marc Bavant: +trd, +ref, +bld
-
-Revision 1.4  2001/05/04 16:12:25  revo
+Revision 1.4 2001/05/04 16:12:25 revo
 Karlo Freeman: +trd=en
-
 -->
 </vortaro>
