@@ -32,32 +32,50 @@
     </refgrp>
     <refgrp tip="sub">
       Specifaj polinomoj:
-      <ref cel="polino.konstanta0o">konstanta polinomo</ref>,
+      <ref cel="polino.nul0o">nul<tld/>o</ref>,
+      <ref cel="polino.unuo0o">unuo<tld/>o</ref>,
       <ref cel="monom.0o">monomo</ref>,
       <ref cel="binom.0o">binomo</ref>;
     </refgrp>
     <refgrp tip="vid">
-      Atributoj de polinomo:
+      atributoj de polinomo:
+      <ref cel="konsta.0a.polinomo">konstanta</ref>,
       <ref cel="koefic.0o.polinomo">koeficiento</ref>,
       <ref cel="term.0o.polinomo">termo</ref>,
       <ref cel="grad.0o.polinomo">grado</ref>,
       <ref cel="radik.0o.polinomo">radiko</ref>;
-      Rilataj algebraj strukturoj:
-      <ref cel="ring.polinom0o">polinom-ringo</ref>.
+
+      rilataj algebraj strukturoj:
+      <ref cel="ring.polinom0o">polinomringo</ref>.
     </refgrp>
   </snc>
   <snc mrk="polino.0o.funkcio">
     <ref tip="dif" cel="funkci.polinoma0o"><tld/>a funkcio.</ref>
   </snc>
   <rim>
+    Bricard <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt> proponis la
+    formon <ctl>polinomjo</ctl> kaj vicon da similaj terminoj, derivitaj 
+    a&ubreve; ne de radiko <ctl>nomj</ctl>:
+    <ekz>
+      ununomjo,
+    </ekz>
+    <ekz>
+      monomjo,
+    </ekz>
+    <ekz>
+      dunomjo...
+    </ekz>
+    Tiuj &ccirc;i formoj ne enradiki&gcirc;is. Vd anka&ubreve; la
+    rimarkon sub <ref cel="term.plur0o">plurtermo</ref>.
+  </rim>
+  <rim>
     La nocio <tld/>o historie fontas el la <tld/>aj funkcioj, kiel
-    ekz-e x<sup>2</sup>+3.x+7. La &ccirc;i-supra difino koncernas
-    formalajn polinomojn. &Gcirc;i prisilentas
-    la analitikan fonon de la nocio kaj okupi&gcirc;as nur pri
-    la vico de <ctl>koeficientoj</ctl>. En multaj kutimaj kuntekstoj
-    la bildigo inter <tld/>oj kaj <tld/>aj funkcioj estas
-    bijekcia, sed ne &ccirc;iam. Same kiel ekzistas plurargumentaj
-    <tld/>aj funkcioj, la &ccirc;i-supra formala nocio estas
+    ekz-e x<sup>2</sup>+3.x+7. La unua senco koncernas
+    formalajn <tld/>ojn kaj prisilentas la analitikan fonon de la nocio,
+    okupi&gcirc;ante nur pri la vico de <ctl>koeficientoj</ctl>. 
+    En multaj kutimaj kuntekstoj la bildigo inter <tld/>oj kaj <tld/>aj 
+    funkcioj estas bijekcia, sed ne &ccirc;iam. Same kiel ekzistas 
+    plurargumentaj <tld/>aj funkcioj, la &ccirc;i-supra formala nocio estas
     vastigebla anka&ubreve; al pluraj <ctl>argumentoj</ctl>.
   </rim>
   <trd lng="de">Polynom</trd>
@@ -130,49 +148,61 @@
   <trd lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</ind></trd>
 </drv>
 
-<drv mrk="polino.konstanta0o">
-  <kap>konstanta <tld/>o</kap>
+<drv mrk="polino.nul0o">
+  <kap>nul<tld/>o, <tld/>a nulo</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Tia <ref tip="super" cel="polino.0o"><tld/>o</ref>, ke nur
-      &gcirc;ia termo kun <ref cel="indic.0o.familio">indico</ref>
-      0 estas eble nenula:
+      <ref cel="konsta.0a.polinomo">Konstanta</ref>
+      <ref tip="super" cel="polino.0o.formala"><tld/>o</ref>,
+      kies &ccirc;iuj termoj egalas al la nulo de la ringo:
       <ekz>
-        nulo-<tld/>o <klr>(kun &ccirc;iuj termoj egalaj al la nulo)</klr>;
-      </ekz>
-      <ekz>
-        unuo-<tld/>o <klr>(kun &gcirc;ia nenula termo egala al la unuo)</klr>.
+        la nul<tld/>o estas nulo de la <tld/>ringo.
       </ekz>
     </dif>
-    <rim>
-      Kvankam <tld/>o ja estas vico, konstanta <tld/>o ne estas
-      konstanta vico! La termino restas influata de la historia deveno
-      de la nocio <tld/>o.
-    </rim>
   </snc>
-  <trd lng="fr">polyn&ocirc;me constant</trd>
-  <trd lng="es">polinomio constante</trd>
+  <trd lng="de">Nullpolynom</trd>
+  <trd lng="en">null <ind>polynomial</ind></trd>
+  <trd lng="fr">polyn&ocirc;me nul</trd>
+  <trd lng="ru">&c_n;&c_u;&c_l;&c_mol;-&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</trd>
 </drv>
+
+<drv mrk="polino.unuo0o">
+  <kap>unuo<tld/>o, <tld/>a unuo</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref cel="konsta.0a.polinomo">Konstanta</ref>
+      <ref tip="super" cel="polino.0o.formala"><tld/>o</ref>,
+      kies nenula termo egalas al la unuo de la ringo:
+      <ekz>
+        la unuo<tld/>o estas unuo de la <tld/>ringo.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>Kontroli trd de/en/ru. <aut>MB</aut></adm>
+  <trd lng="de">Einheitspolynom</trd>
+  <trd lng="en">unit <ind>polynomial</ind></trd>
+  <trd lng="fr">polyn&ocirc;me unit&eacute;</trd>
+  <trd lng="ru">&c_je;&c_d;&c_i;&c_n;&c_i;&c_ch;&c_n;&c_y;&c_j; <ind>&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</ind></trd>
+</drv>
+
 </art>
 <!--
 $Log$
+Revision 1.13  2001/12/20 17:34:32  revo
+Yury Finkel: +trd ru
 Revision 1.12 2001/11/04 19:18:30 revo
 Ulrich Fellmann: ort kor en germ trd charakteristiches ->
 charakteristisches
-
 Revision 1.11 2001/11/02 20:25:58 revo
 Fernando Gonzalez del Cueto: traduko al hispana-lingvo.
-
 Revision 1.10 2001/10/22 18:12:59 revo
 Marc Bavant: mod ref cel al "nulo" per ref al "radiko"
-
 Revision 1.9 2001/09/16 18:50:01 revo
 Marc Bavant: karakteriza ~o: +ref al ajgeno kaj radiko
-
 Revision 1.8 2001/09/15 19:28:18 revo
 Marc Bavant: +drv karakteriza ~o
-
 Revision 1.7 2001/09/02 18:16:45 revo
 Marc Bavant: ~o: +fnt, mod mrk, mod ref tip al ~a funkcio, +ref al
 plurtermo; sxovis fakindikojn; +trd de/en/ru
