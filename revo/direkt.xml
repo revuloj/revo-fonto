@@ -231,6 +231,10 @@
     <adm>
     Mi ne trovis auxtoritatan fonton. <aut>MB</aut>
     </adm>
+    <trd lng="de">Richtung</trd>
+    <trd lng="en">direction<klr tip="ind"> (of an affine space)</klr></trd>
+    <trd lng="fr">direction<klr tip="ind"> (d'un espace affine)</klr></trd>
+    <trd lng="ru">&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;<klr tip="ind"> (&c_a;&c_f;&c_f;&c_i;&c_n;&c_n;&c_o;&c_g;&c_o; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
   </snc>
   <trd lng="cs">sm&ecaron;r</trd>
   <trd lng="fr">direction</trd>
@@ -248,12 +252,17 @@
 
 <drv mrk="direkt.0anto">
   <kap><tld/>anto</kap>
+  <snc mrk="direkt.0anto.KOMUNE">
+    <dif>
+      Iu, kiu <tld/>as.
+    </dif>
+  </snc>
   <snc mrk="direkt.0anto.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
     <subsnc mrk="direkt.0anto.linio">
+      <fnt><bib>PIV1</bib></fnt>
       <dif>
-        <klr>(de <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
+        <klr>(de rektara <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
         &Ccirc;iu el la linioj, sekcataj de la generantoj de iuj surfacoj:
         <ekz>
           <tld/>antoj de
@@ -261,19 +270,28 @@
           <ref cel="cilind.0o.surfaco">cilindro</ref>.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Direktrix</trd>,
+        <trd>Leitkurve</trd></trdgrp> 
+      <ref tip="sin" cel="direkt3.0o.linio">direktrico.</ref>
       <trd lng="ru">&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;</trd>
     </subsnc>
     <subsnc mrk="direkt.0anto.koniko">
+      <fnt><bib>PIV1</bib><lok>alude</lok></fnt>
       <dif>
         <klr>(de <ref cel="konik.0o">koniko</ref>)</klr>
         Tia <ref tip="super" cel="rekt.0o.MAT">rekto</ref>, ke la rilato
         inter la distanco de &ccirc;iu punkto de la koniko al &gcirc;ia fokuso
         kaj la distanco de la sama punkto al la rekto egalas al la discentreco.
       </dif>
+      <ref tip="sin" cel="direkt3.0o.koniko">direktrico.</ref>
+      <trdgrp lng="de">
+        <trd>Direktrix</trd>,
+        <trd>Leitlinie</trd></trdgrp> 
       <trd lng="ru">&c_d;&c_i;&c_r;&c_je;&c_k;&c_t;&c_r;&c_i;&c_s;&c_a;</trd>
     </subsnc>
-    <ref tip="sin" cel="direkt3.0o">direktrico.</ref>
-    <trd lng="fr">directrice<klr tip="ind"> (d'une surface, d'une conique)</klr></trd>
+    <trd lng="en">directrix</trd>
+    <trd lng="fr">directrice</trd>
   </snc>
 </drv>
 
@@ -346,6 +364,9 @@
 </art>
 <!--
 $Log$
+Revision 1.20  2002/02/14 17:35:59  revo
+Bart Demeyere: +<ofc>*
+
 Revision 1.19  2002/01/09 20:23:38  revo
 fontindiko PrV per programo de Jerome
 
@@ -362,8 +383,5 @@ Revision 1.15 2001/05/14 19:07:38 revo
 Marc Bavant: +ekz cxe ~ilo, ~ilisto; +trd fr
 
 Revision 1.14 2001/04/12 16:12:08 revo
-Marc Bavant: ~anto MAT : +trd ru el "direktrico", sxangxis snc al subsnc por ebligi komunan markon al cxiuj matematikaj snc
-
-Revision 1.13 2001/04/10 19:09:43 revo
 -->
 </vortaro>
