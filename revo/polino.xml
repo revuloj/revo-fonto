@@ -3,7 +3,9 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap><rad>polinom</rad>/o</kap>
+<kap>
+  <rad>polinom</rad>/o
+</kap>
 <drv mrk="polino.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -17,12 +19,12 @@
       la nombro de &gcirc;iaj <ref cel="nul0.0a.MAT">nenulaj</ref>
       termoj estas finia:
       <ekz>
-        oni signas per <em>X</em><sup>i</sup> la <tld/>on, kies j-a termo egalas
-        al la unuo de la ringo, se i=j, kaj al ties nulo aliokaze;
+        oni signas per <em>X</em><sup>i</sup> la <tld/>on, kies j-a termo
+        egalas al la unuo de la ringo, se i=j, kaj al ties nulo aliokaze;
       </ekz>
       <ekz>
-        la <tld/>on (a<sub>i</sub>)<sub>i&#x2208;N</sub> oni ofte signas
-        per &#x2211;a<sub>i</sub><em>X</em><sup>i</sup>.
+        la <tld/>on (a<sub>i</sub>)<sub>i&#8712;N</sub> oni ofte signas
+        per &#8721;a<sub>i</sub><em>X</em><sup>i</sup>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -40,7 +42,6 @@
       <ref cel="term.0o.polinomo">termo</ref>,
       <ref cel="grad.0o.polinomo">grado</ref>,
       <ref cel="radik.0o.polinomo">radiko</ref>;
-      
       Rilataj algebraj strukturoj:
       <ref cel="ring.polinom0o">polinom-ringo</ref>.
     </refgrp>
@@ -63,8 +64,12 @@
   <trd lng="en">polynomial</trd>
   <trd lng="es">polinomio</trd>
   <trd lng="fr">polyn&ocirc;me</trd>
-  <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</trd>,
+    <trd>&c_p;&c_o;&c_l;&c_i;&c_n;&c_o;&c_m;</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="polino.0a">
   <kap><tld/>a</kap>
   <snc>
@@ -81,14 +86,18 @@
   <trd lng="en">polynomial</trd>
   <trd lng="es">polinomial</trd>
   <trd lng="fr">polynomial</trd>
-  <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_p;&c_o;&c_l;&c_i;&c_n;&c_o;&c_m;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="polino.formala0o">
   <kap>formala <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <ref tip="dif" cel="polino.0o.formala"><tld/>o
-    <sncref ref="polino.0o.formala"/>.</ref> 
+    <sncref ref="polino.0o.formala"/>.</ref>
   </snc>
   <trd lng="de">formales <ind>Polynom</ind></trd>
   <trd lng="en">formal <ind>polynomial</ind></trd>
@@ -96,6 +105,7 @@
   <trd lng="fr">polyn&ocirc;me formel</trd>
   <trd lng="ru">&c_f;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_p;&c_o;&c_l;&c_i;&c_n;&c_o;&c_m;</ind></trd>
 </drv>
+
 <drv mrk="polino.karakteriza0o">
   <kap>karakteriza <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -107,8 +117,9 @@
       <ref cel="determ.0anto.endomorfio">Determinanto</ref> de
       f-&lambda;.<em>id</em>:
       <ekz>
-        la <ref cel="ajgen.0o">ajgenoj</ref> de endomorfio estas la 
-        <ref cel="radik.0o.polinomo">radikoj</ref> de ties karakteriza <tld/>o.
+        la <ref cel="ajgen.0o">ajgenoj</ref> de endomorfio estas la
+        <ref cel="radik.0o.polinomo">radikoj</ref> de ties karakteriza
+        <tld/>o.
       </ekz>
     </dif>
   </snc>
@@ -118,6 +129,7 @@
   <trd lng="es"><ind>polinomio</ind> caracter&iacute;stico</trd>
   <trd lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</ind></trd>
 </drv>
+
 <drv mrk="polino.konstanta0o">
   <kap>konstanta <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -145,25 +157,24 @@
 </art>
 <!--
 $Log$
-Revision 1.11  2001/11/02 20:25:58  revo
+Revision 1.12 2001/11/04 19:18:30 revo
+Ulrich Fellmann: ort kor en germ trd charakteristiches ->
+charakteristisches
+
+Revision 1.11 2001/11/02 20:25:58 revo
 Fernando Gonzalez del Cueto: traduko al hispana-lingvo.
 
-Revision 1.10  2001/10/22 18:12:59  revo
+Revision 1.10 2001/10/22 18:12:59 revo
 Marc Bavant: mod ref cel al "nulo" per ref al "radiko"
 
-Revision 1.9  2001/09/16 18:50:01  revo
-Marc Bavant: karakteriza ~o: +ref al ajgeno k radiko
+Revision 1.9 2001/09/16 18:50:01 revo
+Marc Bavant: karakteriza ~o: +ref al ajgeno kaj radiko
 
-Revision 1.8  2001/09/15 19:28:18  revo
+Revision 1.8 2001/09/15 19:28:18 revo
 Marc Bavant: +drv karakteriza ~o
 
-Revision 1.7  2001/09/02 18:16:45  revo
-Marc Bavant: ~o: +fnt, mod mrk, mod ref tip al ~a funkcio, +ref al plurtermo; sxovis fakindikojn; +trd de/en/ru
-
-Revision 1.6  2001/06/21 18:13:14  revo
-Dennis Wibrow: +trd germ
-Revision 1.5  2001/02/17 20:33:06  revo
-oficialeco per programo de JM Lugrin
+Revision 1.7 2001/09/02 18:16:45 revo
+Marc Bavant: ~o: +fnt, mod mrk, mod ref tip al ~a funkcio, +ref al
+plurtermo; sxovis fakindikojn; +trd de/en/ru
 -->
 </vortaro>
-
