@@ -9,45 +9,48 @@
 </kap>
 <drv mrk="sfer.0o">
   <kap><tld/>o</kap>
-  <snc mrk="sfer.0o.surfaco">
+  <snc mrk="sfer.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
-    <dif>
-      Tridimensia <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>,
-      konsistanta el
-      &ccirc;iuj punktoj, kies distanco al iu punkto <klr>(&gcirc;ia
-      centro)</klr> egalas al iu valoro <klr>(&gcirc;ia radiuso)</klr>.
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="centr.0o.cirklo">centro</ref>,
-      <ref cel="diamet.0o.cirklo">diametro</ref>,
-      <ref cel="radius.0o.cirklo">radiuso</ref>;
-    </refgrp>
-    <refgrp tip="prt">
-      <ref cel="zon.0o.MAT">zono</ref>,
-      <ref cel="cxap.verto0o.MAT">verto&ccirc;apo</ref>,
-      <ref cel="kalot.0o">kaloto</ref>.
-    </refgrp>
-    <trd lng="de">Kugeloberfl&auml;che</trd>
-    <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_a;</trd>
-  </snc>
-  <snc mrk="sfer.0o.solido">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>VdE</bib></fnt>
-    <dif>
-      <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun
-      limas <tld/>o <sncref ref="sfer.0o.surfaco"/>.
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="glob.0o.sfero">globo</ref>;
-    </refgrp>
-    <refgrp tip="prt">
-      <ref cel="segmen.0o.sfero">segmento</ref>,
-      <ref cel="tavol.glob0o">globtavolo</ref>,
-      <ref cel="disk.sfer0o"><tld/>disko</ref>.
-    </refgrp>
-    <trd lng="de">Kugel</trd>
-    <trd lng="ru">&c_sh;&c_a;&c_r;</trd>
+    <subsnc mrk="sfer.0o.surfaco">
+      <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+      <dif>
+        Tridimensia <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>,
+        konsistanta el
+        &ccirc;iuj punktoj, kies distanco al iu punkto <klr>(&gcirc;ia
+        centro)</klr> egalas al iu valoro <klr>(&gcirc;ia radiuso)</klr>.
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="centr.0o.cirklo">centro</ref>,
+        <ref cel="diamet.0o.cirklo">diametro</ref>,
+        <ref cel="radius.0o.cirklo">radiuso</ref>;
+      </refgrp>
+      <refgrp tip="prt">
+        <ref cel="zon.0o.MAT">zono</ref>,
+        <ref cel="cxap.verto0o.MAT">verto&ccirc;apo</ref>,
+        <ref cel="kalot.0o">kaloto</ref>.
+      </refgrp>
+      <trd lng="de">Kugeloberfl&auml;che</trd>
+      <trd lng="pl">sfera</trd>
+      <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_a;</trd>
+    </subsnc>
+    <subsnc mrk="sfer.0o.solido">
+      <fnt><bib>VdE</bib></fnt>
+      <dif>
+        <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun
+        limas <tld/>o <sncref ref="sfer.0o.surfaco"/>.
+      </dif>
+      <refgrp tip="sin">
+        <ref cel="glob.0o.sfero">globo</ref>;
+      </refgrp>
+      <refgrp tip="prt">
+        <ref cel="segmen.0o.sfero">segmento</ref>,
+        <ref cel="tavol.glob0o">globtavolo</ref>,
+        <ref cel="disk.sfer0o"><tld/>disko</ref>.
+      </refgrp>
+      <trd lng="de">Kugel</trd>
+      <trd lng="pl">kula</trd>
+      <trd lng="ru">&c_sh;&c_a;&c_r;</trd>
+    </subsnc>
   </snc>
   <snc mrk="sfer.0o.KOMUNE">
     <dif>
@@ -104,7 +107,7 @@
     <dif>
       Rilata al <tld/>o:
       <ekz>
-        <tld/>aj koordinatoj;
+        <tld/>aj koordinatoj.
       </ekz>
     </dif>
   </snc>
@@ -133,15 +136,18 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      &Ccirc;iu el la du partoj de sfero, apartigitaj per ebeno trapasanta
-      &gcirc;ian centron.
+      &Ccirc;iu el la du partoj de <ref cel="sfer.0o.MAT"><tld/>o</ref>,
+      apartigitaj per ebeno trapasanta &gcirc;ian centron.
     </dif>
     <ref tip="sin" cel="hemisf.0o.MAT">hemisfero.</ref>
   </snc>
-  <adm>Kontroli trd de/en. <aut>MB</aut></adm>
+  <adm>
+    Kontroli trd de/en. <aut>MB</aut>
+  </adm>
   <trd lng="de">Halbkugel</trd>
   <trd lng="en">half <ind>sphere</ind></trd>
   <trd lng="fr">demie <ind>sph&egrave;re</ind></trd>
+  <trd lng="pl">p&oacute;&lstroke;sfera</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
     <trd>&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
@@ -150,24 +156,20 @@
 </art>
 <!--
 $Log$
-Revision 1.15  2002/03/09 17:31:49  revo
+Revision 1.16 2002/05/02 16:35:05 revo
+Marc Bavant: ~o: mod dif (certa)
+Revision 1.15 2002/03/09 17:31:49 revo
 Marc Bavant: ~o (surfaco): +ref al vertocxapo, kaloto, zono; ~o (solido): +ref al segmento, sferdisko, globtavolo; ~o: +fnt; duon~o: +trd en/de
-
-Revision 1.14  2002/02/08 17:33:06  revo
+Revision 1.14 2002/02/08 17:33:06 revo
 Yury Finkel: +trd ru
-
 Revision 1.13 2001/10/09 18:46:27 revo
 Jerome Vachey: trimensia - tridimensia
-
 Revision 1.12 2001/09/10 18:13:21 revo
 Marc Bavant: +duon~o
-
 Revision 1.11 2001/09/08 19:13:06 revo
 Dennis Wibrow: +trd germ
-
 Revision 1.10 2001/07/25 18:14:35 revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.9 2001/05/08 17:54:06 revo
 -->
 </vortaro>
