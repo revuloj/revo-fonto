@@ -30,8 +30,6 @@
           </ekz><ekz>
             <tld/>a sufikso;
           </ekz><ekz>
-            <tld/>ebla nombro;
-          </ekz><ekz>
             la homaro <tld/>is sin batale<fnt>Z</fnt>;
           </ekz><ekz>
             Nilo <tld/>i&gcirc;as en kelke da brakoj
@@ -199,7 +197,36 @@
       <trd lng="fr">dividende <klr tip="ind">(division)</klr></trd>
     </drv>
     
-    <drv mrk="divid.0o.kun.resto">
+    <drv mrk="divid.0ebla">
+      <kap><tld/>ebla</kap>
+      <snc mrk="divid.0ebla.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(p.p. du elementoj a kaj b de 
+          <ref cel="ring.0o.MAT">ringo</ref>)</klr>
+          Oni diras, ke a estas <tld/>ebla per b, se b estas
+          <ref cel="divizo.0o.ringo">divizoro</ref> de b:
+          <ekz>
+            se a estas <tld/>ebla per b, oni signas tion per 
+            la skriba&jcirc;o b|a;
+          </ekz>
+          <ekz>
+            dekuma nombro estas <tld/>ebla per 5, se &gcirc;ia lasta
+            cifero estas 0 a&ubreve; 5;
+          </ekz>
+          <ekz>
+            kriterioj pri <ind><tld/>eblo</ind>.
+            <trd lng="fr">divisibili&eacute;</trd>
+            <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;</trd>
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="de">teilbar</trd>
+      <trd lng="fr">divisible</trd>
+      <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_m;&c_y;&c_j;</trd>
+    </drv>
+    
+    <!-- drv mrk="divid.0o.kun.resto">
       <kap><tld/>o kun resto</kap>
       <snc>
         <uzo tip="fak">MAT</uzo>
@@ -235,18 +262,24 @@
       <trd lng="de">Division mit Rest</trd>
       <trd lng="fr">division avec reste</trd>
       <trd lng="ru">&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x441; &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x43e;&#x43c;</trd>
-    </drv>
+    </drv -->
 
     <drv mrk="divid.euxklida0o">
-      <kap>e&ubreve;klida <tld/>o</kap>
+      <kap>e&ubreve;klida <tld/>o, <tld/>o kun resto</kap>
       <snc>
         <uzo tip="fak">MAT</uzo>
         <dif>
-          <klr>(de du elementoj en 
-          <ref cel="ring.euxklida0o">e&ubreve;klida ringo</ref>)</klr>
-          Operacio, per kiu al la elementoj oni asocias paron konsistanta
-          el ilia <ref cel="kvocie.0o.euxklida">kvociento</ref> kaj 
+          <klr>(de elemento a de 
+          <ref cel="ring.euxklida0o">e&ubreve;klida ringo</ref>
+          per elemento b)</klr>
+          Operacio, per kiu al la paro (a,b) oni asocias paron (q,r),
+          konsistanta el ilia <ref cel="kvocie.0o.euxklida">kvociento</ref> kaj 
           <ref cel="rest.0o.euxklida">resto</ref>:
+          <ekz>
+            kadre de elementa artimetiko, la e&ubreve;klida <tld/>o
+            de entjero a per entjero b ebligas trovi
+            du tiajn entjerojn q kaj r, ke a = b.q+r kaj 0&#x2264;|r|&lt;b;
+          </ekz>
           <ekz>
             la e&ubreve;klida algoritmo konsistas el sinsekvaj
             e&ubreve;klidaj <tld/>oj;
@@ -267,12 +300,17 @@
           <ref cel="euxkli.0o">E&ubreve;klido</ref>.
         </refgrp>
       </snc>
+      <trd lng="de">Division mit Rest</trd>
       <trd lng="fr">division euclidienne</trd>
+      <trd lng="ru">&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x441; &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x43e;&#x43c;</trd>
     </drv>
     
   </art>
   <!--
   $Log$
+  Revision 1.13  2001/02/12 07:33:42  revo
+  Marc Bavant: kor ref al denominatoro kaj resto
+
   Revision 1.12  2001/02/10 20:07:47  revo
   Marc Bavant: ~o MAT: +ref al operacio, mod mrk cxe snc MAT; +snc KOMUNE por ~o, kun ekz; +drv euxklida ~o, mod adm cxe ~o kun resto
 
@@ -293,4 +331,3 @@
 
   -->
 </vortaro>
-
