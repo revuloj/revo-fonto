@@ -2,36 +2,105 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<ofc>1</ofc>
-<rad>bibli</rad>/o
-</kap>
-<uzo tip="fak">BIB</uzo>
-<uzo tip="fak">REL</uzo>
-<drv mrk="bibli.0o">
-<kap><tld/>o</kap>
-<snc>
-<dif>
-La sankta libraro de hebreoj kaj kristanoj.  
-</dif>
-</snc>
-<trd lng="fr">bible</trd>
-<trd lng="ru">&c_b;&c_i;&c_b;&c_l;&c_i;&c_ja;</trd>
-<trd lng="tr">incil</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.6  2000/12/12 17:11:14  revo
-Marc Bavant: +trd fr, +ofc
+  <art mrk="$Id$">
+    <kap>
+      <ofc>1</ofc>
+      <rad>Bibli</rad>/o
+    </kap>
+    <uzo tip="fak">BIB</uzo>
+    <uzo tip="fak">REL</uzo>
 
-Revision 1.5  2000/09/06 16:13:39  revo
-Yury Finkel: +rusa trd
+    <drv mrk="bibli.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="bibli.B0o">
+	<dif>
+	  Kolekto da antikvaj tekstoj, kies konsisto iom varias la&ubreve; la
+	  konfesioj, akceptita en judismo, kristanismo (kaj, certagrade,
+	  anka&ubreve; en islamo) kiel Die inspirita sankta skribo.
+	</dif>
+	<subsnc mrk="bibli.B0o.hebrea">
+	  <dif>
+	    <ref tip="dif" cel="bibli.HebreaB0o">Hebrea <tld/>o</ref>.
+	  </dif>
+	</subsnc>
+	<subsnc mrk="bibli.B0o.KRI">
+	  <dif>
+	    La sankta libro de
+	    <ref tip="malprt" cel="krist.0o">kristanismo</ref>,
+	    konsistanta el la Malnova kaj la Nova
+	    <ref tip="prt" cel="testam.0o.BIB">Testamentoj</ref>.
+	  </dif>
+	</subsnc>
+	<trd lng="ru">&c_B;&c_i;&c_b;&c_l;&c_i;&c_ja;</trd>
+      </snc>
+      <snc mrk="bibli.0o.ekz">
+	<dif>
+	  Ekzemplero de tiu libro:
+	  <ekz>
+	    &Scirc;i prenis nur unu solan el la verdaj folioj,
+	    portis &gcirc;in hejmen, metis &gcirc;in en sian <tld/>on,
+	    kaj tie &gcirc;i ku&scirc;is, fre&scirc;a, &ccirc;iam fre&scirc;a,
+	    kaj nevelkanta
+	    <fnt><bib>Fab3</bib>,
+	      <lok>Folio el la &ccirc;ielo</lok></fnt>.
+	  </ekz>
+	</dif>
+	<trd lng="ru">&c_b;&c_i;&c_b;&c_l;&c_i;&c_ja;</trd>
+      </snc>
+      <rim>
+	<tld/>o,<sncref ref="bibli.B0o"/> estas propra nomo, do la&ubreve;
+	gramatiko &gcirc;i devus esti senartikola kaj kun la majuskla B;
+	<tld lit="b"/>o,<sncref ref="bibli.0o.ekz"/> estas nomo komuna kaj
+	nombrebla:
+	<ekz>li disdonis la <tld lit="b"/>ojn al la lernantoj.</ekz>
+      </rim>
+      <trd lng="fr">bible</trd>
+      <trd lng="tr">incil</trd>
+      <adm>
+	Mi dubas pri trd=tr; kiom mi komprenas, &Idot;ncil estas Evangelio,
+	kaj Biblio devus esti "mukaddes kitap" (la sankta libro).  &Ccirc;u?
+	<aut>Sergio</aut>
+      </adm>
+    </drv>
 
-Revision 1.4  1999/12/07 17:49:09  revo
-Lars Soezueer: REL, tr.trd.
+    <drv mrk="bibli.HebreaB0o">
+      <kap>Hebrea <tld/>o<fnt>PIV</fnt></kap>
+      <uzo tip="fak">BIB</uzo>
+      <uzo tip="fak">REL</uzo>
+      <snc>
+	<dif>
+	  Krestomatio de malnovhebrea literaturo (39 <ctl>libroj</ctl>
+	  religiaj, moralaj, folkloraj, poeziaj, historiaj, higienaj,
+	  politikaj k.a.), en la lingvoj hebrea kaj parte aramea,
+	  komuna al <ref tip="malprt" cel="jud.0ismo">judismo</ref>
+	  kaj kristanismo.
+	</dif>
+	<ref tip="sub" cel="septuagint.0o">Septuaginto</ref>
+	<ref tip="vid" cel="masor.0o">masoro</ref>
+	<rim>
+	  En tradicia kristanismo iom pli ampleksa versio de tiu
+	  kolekto estas konata kiel la
+	  <ref tip="sin" cel="testam.Malnova0o">Malnova Testamento</ref>.
+	</rim>
+	<trdgrp lng="ru">
+	  <trd>&c_je;&c_v;&c_r;&c_je;&c_j;&c_s;&c_k;&c_a;&c_ja; &c_B;&c_i;&c_b;&c_l;&c_i;&c_ja;</trd>,
+	  <trd>&c_T;&c_a;&c_n;&c_a;&c_h;</trd></trdgrp>
+      </snc>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.7  2001/10/15 18:21:27  revo
+  Jerome Vachey: + fak bib
 
--->
+  Revision 1.6  2000/12/12 17:11:14  revo
+  Marc Bavant: +trd fr, +ofc
+
+  Revision 1.5  2000/09/06 16:13:39  revo
+  Yury Finkel: +rusa trd
+
+  Revision 1.4  1999/12/07 17:49:09  revo
+  Lars Soezueer: REL, tr.trd.
+
+  -->
 </vortaro>
-
