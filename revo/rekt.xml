@@ -40,11 +40,10 @@ scienculo<fnt>Z</fnt>;
 <trd lng="de">direkt</trd>
 <trd lng="es">directo</trd>
 </snc>
-<snc num="3">
-<uzo tip="klr">(pp angulo)</uzo><dif>
-Kies flankoj estas perpendikularaj unu al alia; <ref tip="dif" 
-cel="ort.0a">orta</ref>.
-</dif>
+<snc mrk="rekt.0a.orta">
+<uzo tip="fak">MAT</uzo>
+<uzo tip="klr">(p.p. angulo)</uzo>
+<ref tip="dif" cel="ort.0a.angulo">orta.</ref>
 <trd lng="de">recht</trd>
 <trd lng="es">recto</trd>
 </snc>
@@ -80,57 +79,105 @@ Senmetafora: <ekz><tld/>a stilo.
 </snc>
 <trd lng="cs">p&rcaron;&iacute;m&yacute;</trd>
 <trd lng="en">straight</trd>
+<trdgrp lng="fr">
+  <trd>droit<klr tip="ind"> (adj.)</klr></trd>,
+  <trd>direct</trd></trdgrp> 
 <trd lng="nl">recht</trd>
 </drv>
 <drv mrk="rekt.0o">
-<kap><tld/>o</kap>
-<uzo tip="fak">MAT</uzo>
-<snc mrk="rekt.0o.elementa">
-<uzo tip="klr">(elementa geometrio)</uzo>
-<dif>
-Nekurba linio, kiun naskas punkto, sin movanta &ccirc;iam la&ubreve; iu 
-sama direkto.
-</dif>
-<trd lng="de">Gerade</trd>
-<trd lng="es">recta</trd>
-<trd lng="fr">droite</trd>
-</snc>
-       <snc mrk="rekt.0o.MAT">
-         <dif>
-            <ref cel="rekt.afina0o">Afina rekto</ref> a&ubreve;
-            <ref cel="rekt.vektora0o">vektora rekto</ref>,
-            la&ubreve; la kunteksto.
-         </dif>
-       </snc>
-
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="rekt.0o.elementa">
+    <uzo tip="klr">(elementa geometrio)</uzo>
+    <dif>
+      Nekurba linio, kiun naskas punkto, sin movanta &ccirc;iam la&ubreve; iu 
+      sama direkto.
+    </dif>
+    <trd lng="de">Gerade</trd>
+    <trd lng="es">recta</trd>
+  </snc>
+  <snc mrk="rekt.0o.MAT">
+    <dif>
+       <ref cel="rekt.afina0o">Afina rekto</ref> a&ubreve;
+       <ref cel="rekt.vektora0o">vektora rekto</ref>, la&ubreve; la 
+       kunteksto.
+    </dif>
+  </snc>
+  <trd lng="fr">droite<klr tip="ind"> (g&eacute;om.)</klr></trd>
 </drv>
-
-     <drv mrk="rekt.afina0o">
-       <kap>afina <tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <ref cel="dimens.n0a">Unudimensia</ref>
-           <ref cel="spac.afina0o">afina spaco</ref>.
-         </dif>
-       </snc>
-       <trd lng="fr">droite affine</trd>
-     </drv>
-
-     <drv mrk="rekt.vektora0o">
-       <kap>vektora <tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <ref cel="dimens.n0a">Unudimensia</ref>
-           <ref cel="spac.vektora0o">vektora spaco</ref>.
-         </dif>
-       </snc>
-       <trd lng="fr">droite vectorielle</trd>
-     </drv>
+<drv mrk="rekt.0ara">
+  <kap><tld/>ara<fnt><bib>Werner</bib></fnt></kap>
+  <snc mrk="rekt.0ara.surfaco">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(p.p. neebena <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
+      Egala al la kuniga&jcirc;o de &ccirc;iuj rektoj, inkluzivataj
+      en &gcirc;i:
+      <ekz>
+        <tld/>aran surfacon oni povas intuicie prezenti al si kiel
+        la spuron de certa rekto, kiu movi&gcirc;as en la spaco;
+      </ekz>
+      <ekz>
+        <ref cel="cilind.0o.surfaco">cilindroj</ref> kaj
+        <ref cel="konus.0o.surfaco">konusoj</ref> la&ubreve;difine estas 
+        <tld/>araj surfacoj.
+      </ekz>
+    </dif>
+    <rim>
+      La termino ne estas tre rigora, &ccirc;ar <tld/>ara surfaco ne estas
+      <ctl>aro da <tld/>oj</ctl>, sed ja aro de la punktoj de &ccirc;iuj 
+      &ccirc;i <tld/>oj. La metaforo per <ctl><tld/>ilo</ctl>, kiun uzas la 
+      franca kaj la rusa povus esti pli bona bazo por la koncerna termino.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>geradlinige<klr tip="amb"> (Fl&auml;che)</klr></trd>,
+    <trd>Regel-<klr tip="ind">(-fl&auml;che)</klr></trd></trdgrp> 
+  <trd lng="en">ruled<klr tip="amb"> (surface)</klr></trd>
+  <trd lng="fr">r&eacute;gl&eacute;e<klr tip="ind"> (en p. d'une surface)</klr></trd>
+  <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_ch;&c_a;&c_t;&c_a;&c_ja;<klr tip="amb"> (&c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;)</klr></trd>
+</drv>
+<drv mrk="rekt.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc>
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Ilo, uzata por desegni <tld/>ajn liniojn:
+      <ekz>
+        T-kapa <tld/>ilo<fnt>PIV1</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">r&egrave;gle<klr tip="ind"> (&agrave; dessin)</klr></trd>
+</drv>
+<drv mrk="rekt.afina0o">
+  <kap>afina <tld/>o</kap>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <ref cel="dimens.n0a">Unudimensia</ref>
+      <ref cel="spac.afina0o">afina spaco</ref>.
+    </dif>
+  </snc>
+  <trd lng="fr">droite affine</trd>
+</drv>
+<drv mrk="rekt.vektora0o">
+  <kap>vektora <tld/>o</kap>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <ref cel="dimens.n0a">Unudimensia</ref>
+      <ref cel="spac.vektora0o">vektora spaco</ref>.
+    </dif>
+  </snc>
+  <trd lng="fr">droite vectorielle</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.11  2001/02/26 19:31:12  revo
+Dennis Wibrow: +trd germ
+
 Revision 1.10  2000/12/12 17:11:35  revo
 Marc Bavant: kor mrk
 
@@ -145,4 +192,3 @@ Jose Martin: Aldono de hispana traduko
 
 -->
 </vortaro>
-
