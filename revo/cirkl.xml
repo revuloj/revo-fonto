@@ -8,11 +8,11 @@
   <kap><tld/>o</kap>
   <snc mrk="cirkl.0o.linio">
     <uzo tip="fak">MAT</uzo>
-    <fnt><aut>&B;</aut><vrk>Vortaro de Esperanto</vrk></fnt>
+    <fnt><bib>VdE</bib></fnt>
     <dif>
       Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>, konsistanta el
-      &ccirc;iuj punktoj, kies distanco al certa punkto <klr>(&gcirc;ia
-      centro)</klr> egalas al certa valoro <klr>(&gcirc;ia radiuso)</klr>:
+      &ccirc;iuj punktoj, kies distanco al iu punkto <klr>(&gcirc;ia
+      centro)</klr> egalas al iu valoro <klr>(&gcirc;ia radiuso)</klr>:
       <ekz>
         <tld/>o estas <ref tip="super" cel="konik.0o">koniko</ref> kun
         nula discentreco kaj senlime malproksima direktanto;
@@ -26,7 +26,10 @@
       <ref cel="centr.0o.cirklo">centro</ref>,
       <ref cel="cirkon.0o">cirkonferenco</ref>,
       <ref cel="diamet.0o.cirklo">diametro</ref>,
-      <ref cel="radius.0o.cirklo">radiuso</ref>.
+      <ref cel="radius.0o.cirklo">radiuso</ref>;
+    </refgrp>
+    <refgrp tip="prt">
+      <ref cel="ark.0o.segmento">arko</ref>.
     </refgrp>
     <trd lng="de">Kreislinie</trd>
   </snc>
@@ -38,7 +41,10 @@
       limas <tld/>o <sncref ref="cirkl.0o.linio"/>.
     </dif>
     <refgrp tip="sin">
-      <ref cel="disk.0o.cirklo">disko</ref>.
+      <ref cel="disk.0o.cirklo">disko</ref>;
+    </refgrp>
+    <refgrp tip="prt">
+      <ref cel="segmen.0o.cirklo">segmento</ref>.
     </refgrp>
     <trd lng="de">Kreisscheibe</trd>
   </snc>
@@ -86,9 +92,15 @@
       </ekz>
     </dif>
     <ref tip="sin" cel="cirkl.0ego"><tld/>ego.</ref>
+    <rim>
+      Bricard <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt> nomas
+      tion <ctl>&ccirc;efa <tld/>o</ctl>.
+    </rim>
   </snc>
   <trd lng="de">Hauptkreis</trd>
+  <trd lng="en">great <ind>circle</ind></trd>
   <trd lng="fr">grand <ind>cercle</ind></trd>
+  <trd lng="ru">&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_o;&c_j; <ind>&c_k;&c_r;&c_u;&c_g;</ind></trd>
 </drv>
 
 <drv mrk="cirkl.0ego">
@@ -99,29 +111,50 @@
     <ref tip="dif" cel="cirkl.cxef0o">&ccirc;ef<tld/>o.</ref>
   </snc>
   <trd lng="de">Hauptkreis</trd>
+  <trd lng="en">great <ind>circle</ind></trd>
   <trd lng="fr">grand <ind>cercle</ind></trd>
+  <trd lng="ru">&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_o;&c_j; <ind>&c_k;&c_r;&c_u;&c_g;</ind></trd>
 </drv>
+
+<drv mrk="cirkl.konver&gcirc;o0o">
+  <kap>konver&gcirc;o<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(de kompleksa <ref cel="seri.potenco0o">potencoserio</ref> 
+      S(z))</klr>
+      Tia <tld/>o <sncref ref="cirkl.0o.surfaco"/> de la kompleksa ebeno, 
+      kun centro en 0, ke por &ccirc;iu valoro z de &gcirc;ia malferma&jcirc;o 
+      S(z) konver&gcirc;as.
+    </dif>
+    <rim>
+      Eblas diri anka&ubreve; <ctl>konver&gcirc;odisko</ctl>.
+    </rim>
+  </snc>
+  <trd lng="de">Konvergenzkreis</trd>
+  <trd lng="en">circle of convergence</trd>
+  <trd lng="fr">cercle de convergence</trd>
+  <trd lng="ru">&c_k;&c_r;&c_u;&c_g; &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+Revision 1.15  2001/12/17 17:31:53  revo
+Marc Bavant: ~o: +fnt; cxef~o: splitis, kor fnt; mod ref al meridiano
 Revision 1.14 2001/05/12 18:17:09 revo
 Ulrich Fellmann: + 4 germ trdj
-
 Revision 1.13 2001/05/08 17:54:18 revo
 Marc Bavant: +ref al cirkonferenco, disko
-
 Revision 1.12 2001/05/06 19:15:45 revo
 Marc Bavant: mod "radio" al "radiuso"
-
 Revision 1.11 2001/04/27 16:12:15 revo
 Marc Bavant: +drv cef~o
-
 Revision 1.10 2001/04/10 19:09:30 revo
 Marc Bavant: +aludo al koniko
-
 Revision 1.9 2001/03/31 18:07:40 revo
 Marc Bavant: reverkis
-
 Revision 1.8 2001/02/09 11:26:38 revo
 -->
 </vortaro>
