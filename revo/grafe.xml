@@ -15,10 +15,15 @@
     <lok><url ref="&KompLeks;/G.html#GRAFEO">TTT</url></lok>
     </fnt>
     <dif>
-      Matematika strukturo prezentebla per aro da punktoj
-      (<ref tip="prt" cel="vertic.0o.grafeo">verticoj</ref>)
-      ligitaj per linioj a&ubreve; sagoj
-      (<ref tip="prt" cel="egx.0o.grafeo">e&gcirc;oj</ref>):
+      Tia matematika strukturo (<em>E</em>,U), ke <em>E</em> estas
+      <ref cel="ar.0o.MAT">aro</ref> (aro de la verticoj) kaj U estas 
+      <ref cel="vic.0o.MAT">vico</ref>, kies termoj estas 
+      <ref cel="op.n0o">duopoj</ref> el elementoj en <em>E</em> (vico de 
+      &gcirc;iaj e&gcirc;oj):
+      <ekz>
+        <tld/>o estas prezentebla per aro da punktoj (la verticoj), ligitaj
+        per linioj a&ubreve; sagoj (la e&gcirc;oj);
+      </ekz>
       <ekz>
         ebena <tld/>o <klr>(desegnebla sur ebeno sen
         interkruci&gcirc;oj)</klr>;
@@ -26,31 +31,113 @@
       <ekz>
         plena <tld/>o <klr>(en kiu &ccirc;iuj verticoj estas najbaraj)</klr>;
       </ekz>
-      <ekz>
-        &ccirc;ar la <frm>S</frm>-<tld/>o konsistas el nodoj kaj e&gcirc;oj,
-        ni difinis du malsamajn datumstrukturojn por tiuj objektoj
-        <fnt>
-        <aut>Heinz-Dieter Maas</aut>:
-        <vrk>Pri kelkaj strategioj por fraz-analizo</vrk>.
-        <lok>En: Perkomputila tekstoprilaboro.
-        Budapest: SEC, 1985. P. 188.</lok></fnt>.
-      </ekz>
+      <!-- ekz>
+      <adm>
+        &Ccirc;i tiun ekzemplon mi preferas forigi, &ccirc;ar &gcirc;i uzas
+        nedifinitajn terminojn "S-grafeo", "nodo"... <aut>MB</aut>
+      </adm>
+      &ccirc;ar la <frm>S</frm>-<tld/>o konsistas el nodoj kaj e&gcirc;oj,
+      ni difinis du malsamajn datumstrukturojn por tiuj objektoj
+      <fnt>
+      <aut>Heinz-Dieter Maas</aut>:
+      <vrk>Pri kelkaj strategioj por fraz-analizo</vrk>.
+      <lok>En: Perkomputila tekstoprilaboro.
+      Budapest: SEC, 1985. P. 188.</lok></fnt>.
+      </ekz -->
     </dif>
+    <ref tip="sin" cel="graf1.0o.grafeo">grafo;</ref>
     <refgrp tip="vid">
-      <ref cel="incid.0a.grafee">incida</ref>;
+      Atributoj:
+      <ref cel="vertic.0o.grafeo">vertico</ref>,
+      <ref cel="egx.0o.grafeo">e&gcirc;o</ref>,
+      <ref cel="bukl.0o.grafeo">buklo</ref>,
+      <ref cel="ord.0o.grafeo">ordo</ref>;
+      <!--
+      <ref cel="">nombre cyclomatique</ref>,
+      <ref cel="">nombre chromatique</ref>,
+      <ref cel=""></ref>,
+      -->
     </refgrp>
     <refgrp tip="sub">
-      <ref cel="arb.0o.MAT">arbo</ref>.
+      Specifaj grafeoj:
+      <ref cel="grafe.orientita0o">orientita <tld/>o</ref>,
+      <ref cel="grafe.neorientita0o">neorientita <tld/>o</ref>,
+      <ref cel="grafe.simpla0o">simpla <tld/>o</ref>,
+      <ref cel="grafe.n0o">n-<tld/>o</ref>,
+      <ref cel="arb.0o.grafeo">arbo</ref>;
+      <!--
+      <ref cel=""></ref>,
+      Derivitaj grafeoj:
+      <ref cel="">graphe compl&eacute;mentaire</ref>,
+      <ref cel="">line-graph</ref>,
+      <ref cel="">graphe dual</ref>,
+      <ref cel=""></ref>,
+      -->
+    </refgrp>
+    <refgrp tip="vid">
+      Specifaj ecoj de grafeo:
+      <ref cel="egx.nop0a">n-ope&gcirc;a</ref>,
+      <ref cel="bukl.sen0a.grafeo">senbukla</ref>,
+      <ref cel="koneks.0a.grafeo">koneksa</ref>,
+      <ref cel="cikl.sen0a.grafeo">sencikla</ref>;
+      <!--
+      <ref cel="">ebena (planaire)</ref>,
+      <ref cel="">plena (complet)</ref>,
+      <ref cel="">fortement connexe</ref>,
+      <ref cel="">quasi fortement connexe</ref>,
+      <ref cel="">connexe</ref>,
+      <ref cel="">eul&eacute;rien/unicursal/jednobie&zacute;ny</ref>,
+      <ref cel=""></ref>,
+      <ref cel=""></ref>,
+      <ref cel=""></ref>,
+      -->
+    </refgrp>
+    <refgrp tip="vid">
+      Koneksaj nocioj:
+      <ref cel="cxen.0o.grafeo">&ccirc;eno</ref>,
+      <ref cel="cikl.0o.grafeo">ciklo</ref>,
+      <ref cel="voj.0o.grafeo">vojo</ref>,
+      <ref cel="cirkvi.0o.grafeo">cirkvito</ref>.
+      <!--
+      <ref cel="">cycle &eacute;l&eacute;mentaire, cycle eul&eacute;rien</ref>,
+      <ref cel="">cocycle, cocycle &eacute;l&eacute;mentaire</ref>,
+      <ref cel="">isomorphie de graphes</ref>,
+      <ref cel="">relation d'incidence</ref>,
+      <ref cel=""></ref>,
+      <ref cel=""></ref>,
+      -->
     </refgrp>
     <rim>
-      Oni anka&ubreve; trovas la vorton <ctl>grafo</ctl> uzatan tiusence.
-      Nemulte gravas &gcirc;ia koincido kun la nobeltitolo, pli
-      malbonas ke &gcirc;i (kaj la alia propono, <ctl>grafio</ctl>)
-      povas kolizii kun la kvaza&ubreve;sufikso(j)
-      <ctl>-graf(i)</ctl> &dash; ekz-e en <ctl>terminograf(i)o</ctl>
-      (grafeo de terminoj? terminologi[ist]o?). Etimologie &gcirc;i
-      devenas el la greka &gamma;&rho;&alfa;&phi;&#x3ae; (desegno).
+      Oni anka&ubreve; trovas la vorton <ctl>grafo</ctl> uzatan tiusence,
+      ekz-e en <fnt><bib>MatVort</bib></fnt> kaj <fnt><bib>PIV2</bib></fnt>.
+      Nemulte gravas &gcirc;ia koincido kun la nobeltitolo, pli malbonas, ke
+      &gcirc;i povas kolizii kun la kvaza&ubreve;sufikso <ctl>-graf</ctl>.
+      &Ccirc;ar ankora&ubreve; ne ekzistas firma tradicio en la kampo, kaj
+      &ccirc;ar <ctl><tld/>o</ctl> jam aperis en pluraj verkoj, ni favoras
+      tiun iom pli oportunan terminon.
     </rim>
+    <rim>
+      Ekzistas pluraj ekvivalentaj difinoj, provantaj pli-malpli bone ampleksi
+      la diversajn tipojn de <tld/>oj: orientitaj a&ubreve; ne, unuope&gcirc;aj
+      a&ubreve; plurope&gcirc;aj ktp. Ni elektis difinon, kiu favoras la nocion
+      de plurope&gcirc;a orientita <tld/>o. Notu, ke en plurope&gcirc;a <tld/>o
+      oni nomas e&gcirc;o ne nur la duopon el verticoj, sed foje anka&ubreve;
+      tian duopon, konsideratan kune kun &gcirc;ia indico en la vico U.
+      Tiamaniere eblas pravigi esprimojn de la tipo
+      <ekz>
+        paralelaj e&gcirc;oj <klr>(e&gcirc;oj kun samaj randoj)</klr>
+      </ekz>
+      a&ubreve;
+      <ekz>
+        du e&gcirc;oj ligas verticojn v<sub>1</sub> kaj v<sub>2</sub>.
+      </ekz>
+    </rim>
+    <trd lng="de">Graph</trd>
+    <trd lng="en">graph</trd>
+    <trd lng="fr">graphe<klr tip="ind"> (sommets et ar&ecirc;tes)</klr></trd>
+    <trd lng="nl">graaf<klr tip="ind"> (wisk.)</klr></trd>
+    <trd lng="pl">graf</trd>
+    <trd lng="ru">&c_g;&c_r;&c_a;&c_f;</trd>
   </snc>
   <snc mrk="grafe.0o.rilato">
     <dif>
@@ -73,18 +160,58 @@
     <trd lng="ru">&c_g;&c_r;&c_a;&c_f;<klr tip="ind"> (&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_ja;
     )</klr></trd>
   </snc>
-  <ref tip="sin" cel="graf1.0o.grafeo">grafo</ref>
-  <adm>
-    La terminologio devenas de Sergio. Mi konsentas, ke "grafeo" estas
-    preferinda al "grafo", sed tio ne estas la nura punkto, cxe kiu
-    tiu terminologio distancigxas de MatVort. Ekz-e cxi-lasta uzas
-    "nodo" kaj "streko" anstataux "vertico" kaj "egxo". <aut>MB</aut>
-  </adm>
-  <trd lng="de">Graph</trd>
-  <trd lng="en">graph</trd>
-  <trd lng="fr">graphe<klr tip="ind"> (sommets et ar&ecirc;tes)</klr></trd>
-  <trd lng="nl">graaf<klr tip="ind"> (wisk.)</klr></trd>
-  <trd lng="ru">&c_g;&c_r;&c_a;&c_f;</trd>
+</drv>
+
+<drv mrk="grafe.n0o">
+  <kap>n-<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>KompLeks</bib><lok>sub formo: &leftquot;unugrafeo&rightquot;</lok></fnt>
+  <snc>
+    <dif>
+      <ref cel="egx.nop0a">n-ope&gcirc;a</ref>
+      <ref tip="super" cel="grafe.0o.strukturo"><tld/>o</ref>.
+    </dif>
+  </snc>
+  <trd lng="fr">n-graphe</trd>
+</drv>
+
+<drv mrk="grafe.sub0o">
+  <kap>sub<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>KompLeks</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de <ref tip="super" cel="grafe.0o.strukturo"><tld/>o</ref>
+      (<em>E</em>,U))</klr>
+      Tia <tld/>o (<em>F</em>,V), ke <em>F</em> estas subaro de <em>E</em> kaj
+      V estas subvico de U:
+      <ekz>
+        la sub<tld/>o naskita de subaro de verticoj <klr>(tia, ke V enhavas
+        &ccirc;iujn termojn de U, kies randoj apartenas al la koncerna
+        subaro)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Untergraph</trd>
+  <trd lng="en">subgraph</trd>
+  <trd lng="fr">sous-graphe</trd>
+  <trd lng="pl">podgraf</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_g;&c_r;&c_a;&c_f;</trd>
+</drv>
+
+<drv mrk="grafe.super0o">
+  <kap>super<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref tip="super" cel="grafe.0o.strukturo"><tld/>o</ref>
+      (<em>E</em>,U))</klr>
+      Tia <tld/>o, ke (<em>E</em>,U) estas
+      <ref cel="grafeo.sub0o">sub<tld/>o</ref> de &gcirc;i.
+    </dif>
+  </snc>
+  <trd lng="fr">sur-graphe</trd>
+  <trd lng="pl">nadgraf</trd>
 </drv>
 
 <drv mrk="grafe.0teorio">
@@ -103,9 +230,125 @@
   <trd lng="nl">grafentheorie</trd>
   <trd lng="ru">&c_t;&c_je;&c_o;&c_r;&c_i;&c_ja; &c_g;&c_r;&c_a;&c_f;&c_o;&c_v;</trd>
 </drv>
+
+<drv mrk="grafe.orientita0o">
+  <kap>orientita <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib><lok>sub formo: orientita grafo</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="grafe.0o.strukturo"><tld/>o.</ref>
+    <rim>
+      Kongrue kun la nacilingva &hcirc;aoso eblus uzi anka&ubreve; la
+      adjektivon <ctl>direktita</ctl> anstata&ubreve; <ctl>orientita</ctl>,
+      kiel aperas en
+      <fnt><bib>MatVort</bib><lok>sub formo: direktita grafo</lok></fnt>,
+      a&ubreve; e&ccirc; <ctl>digrafo</ctl> (samloke).
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>orientierter <ind>Graph</ind></trd>,
+    <trd>gerichteter <ind>Graph</ind></trd>,
+    <trd>Digraph</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>oriented <ind>graph</ind></trd>,
+    <trd>directed <ind>graph</ind></trd>,
+    <trd>digraph</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>graphe orient&eacute;</trd>,
+    <trd>graphe dirig&eacute;</trd>,
+    <trd>digraphe</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>graf zorientowany</trd>,
+    <trd>graf skierowany</trd>,
+    <trd>digraf</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_r;&c_i;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j; <ind>&c_g;&c_r;&c_a;&c_f;</ind></trd>,
+    <trd>&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j; <ind>&c_g;&c_r;&c_a;&c_f;</ind></trd>,
+    <trd>&c_o;&c_r;&c_g;&c_r;&c_a;&c_f;</trd>,
+    <trd>&c_d;&c_i;&c_g;&c_r;&c_a;&c_f;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="grafe.neorientita0o">
+  <kap>neorientita <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib><lok>sub formo: neorientita grafo</lok></fnt>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="grafe.0o.strukturo"><tld lit="G"/>o</ref>, por kiu
+      oni konvencie identigas la inversajn e&gcirc;ojn (x,y) kaj (y,x); alidire:
+      la e&gcirc;oj de neorientita <tld/>o ne estas duopoj, sed du- a&ubreve;
+      unu-elementaj subaroj de la aro de verticoj.
+    </dif>
+    <rim>
+      Al neorientita <tld/>o &ccirc;iam eblas asocii orientitan. Sufi&ccirc;as
+      konsideri, ke la e&gcirc;o {x,y} respondas al la du e&gcirc;oj (x,y) kaj
+      (y,x), kaj ke la buklo {x} respondas al (x,x). Danke al tiu konvencio,
+      &ccirc;io, kio validas por orientita <tld/>o ricevas signifon
+      anka&ubreve; por neorientita.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>nichtorientierter <ind>Graph</ind></trd>,
+    <trd>ungerichteter <ind>Graph</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>non-oriented <ind>graph</ind></trd>,
+    <trd>non-directed <ind>graph</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>graphe non orient&eacute;</trd>,
+    <trd>graphe non dirig&eacute;</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>graf niezorientowany</trd>,
+    <trd>graf nieskierowany</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_je;&c_o;&c_r;&c_i;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j; <ind>&c_g;&c_r;&c_a;&c_f;</ind></trd>,
+    <trd>&c_n;&c_je;&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j; <ind>&c_g;&c_r;&c_a;&c_f;</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="grafe.simpla0o">
+  <kap>simpla <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="grafe.neorientita0o">Neorientita <tld/>o</ref>, kiu
+      estas <ref cel="egx.nop0a">unuope&gcirc;a</ref> kaj
+      <ref cel="bukl.sen0a.grafeo">senbukla</ref>.
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>einfacher <ind>Graph</ind></trd>,
+    <trd>schlichter <ind>Graph</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>ordinary <ind>graph</ind></trd>,
+    <trd>simple <ind>graph</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>graphe simple</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>graf prosty</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j; <ind>&c_g;&c_r;&c_a;&c_f;</ind></trd>,
+    <trd>&c_o;&c_b;&c_y;&c_k;&c_n;&c_o;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j; <ind>&c_g;&c_r;&c_a;&c_f;</ind></trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.11 2002/08/04 17:33:05 revo
+Marc Bavant: ~o: +snc, +mrk
 Revision 1.10 2002/03/17 17:31:19 revo
 Marc Bavant: kor fnt KompLeks
 Revision 1.9 2002/01/24 17:33:39 revo
