@@ -2,66 +2,82 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>procez</rad>/o
-    </kap>
-    <drv mrk="procez.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="procez.0o.SCI">
-        <uzo tip="fak">SCI</uzo>
-        <dif>
-          Natura sinsekvo de fenomenoj disvolvi&gcirc;anta sen ago de
-          ekstera forto kaj konsiderata en sia tuteco, en sia
-          iompostioma progresado kaj en siaj rezultoj:
-          <ekz>
-            biologia, historia <tld/>o;
-          </ekz><ekz>
-            digesta <tld/>o;
-          </ekz><ekz>
-            <uzo tip="fak">MED</uzo>
-            inflama, kancera <tld/>o.
-          </ekz>
-        </dif>
-        <ref tip="sin" cel="proces.0o.SCI">proceso</ref>
-      </snc>
-      <snc mrk="procez.0o.TEK">
-        <uzo tip="fak">TEK</uzo>
-        <dif>
-          Sinsekvo da anta&ubreve;planitaj okazoj, dependa de objekto a&ubreve;
-          fenomeno, kaj reali&gcirc;anta en determinitaj kondi&ccirc;oj:
-          <ekz>
-            Bessemera <tld/>o <klr>(por produkti gisferon)</klr>;
-          </ekz><ekz>
-            en fi&scirc;kaptado li pli &scirc;atis la <tld/>on ol la rezulton.
-          </ekz>
-        </dif>
-        <ref tip="vid" cel="proced.0o">procedo</ref>
-      </snc>
-      <snc mrk="procez.0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Sinsekvo da operacioj (komandoj) esti&gcirc;anta dum plenumo de
-          programo a&ubreve; de parto de programo kaj konsiderata kun la datumoj
-          uzataj kaj produktataj de tiuj operacioj.
-        </dif>
-        <ref tip="sin" cel="task.0o.KOMP">tasko</ref>
-      </snc>
-      <trd lng="de">Prozess</trd>
-      <trd lng="en">process</trd>
-      <trd lng="ru">&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;</trd>
-      <trd lng="sv">process</trd>
-    </drv>
-  </art>
+<art mrk="$Id$">
+<kap><rad>procez</rad>/o</kap>
+<drv mrk="procez.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="procez.0o.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Natura sinsekvo de fenomenoj disvolvi&gcirc;anta sen ago de
+      ekstera forto kaj konsiderata en sia tuteco, en sia
+      iompostioma progresado kaj en siaj rezultoj:
+      <ekz>
+        biologia, historia <tld/>o;
+      </ekz>
+      <ekz>
+        digesta <tld/>o;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">MED</uzo>
+        inflama, kancera <tld/>o.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="proces.0o.SCI">proceso</ref>
+    <trdgrp lng="nl">
+      <trd>verloop</trd>,
+      <trd>proces<klr tip="ind"> (medisch, biologisch
+      bijv.)</klr></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="procez.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Sinsekvo da anta&ubreve;planitaj okazoj, dependa de objekto a&ubreve;
+      fenomeno, kaj reali&gcirc;anta en determinitaj kondi&ccirc;oj:
+      <ekz>
+        Bessemera <tld/>o <klr>(por produkti gisferon)</klr>;
+      </ekz>
+      <ekz>
+        en fi&scirc;kaptado li pli &scirc;atis la <tld/>on ol la rezulton.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="proced.0o">procedo</ref>
+    <trd lng="nl">procedure</trd>
+    <trdgrp lng="nl">
+      <trd>proc&eacute;d&eacute;</trd>,
+      <trd>procedure</trd>,
+      <trd>werkwijze</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="procez.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Sinsekvo da operacioj (komandoj) esti&gcirc;anta dum plenumo de
+      programo a&ubreve; de parto de programo kaj konsiderata kun la datumoj
+      uzataj kaj produktataj de tiuj operacioj.
+    </dif>
+    <ref tip="sin" cel="task.0o.KOMP">tasko</ref>
+    <trd lng="nl">proces<klr tip="ind"> (informatica)</klr></trd>
+  </snc>
+  <trd lng="de">Prozess</trd>
+  <trd lng="en">process</trd>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;</trd>
+  <trd lng="sv">process</trd>
+</drv>
+</art>
 <!--
 $Log$
-Revision 1.6  2001/10/31 19:16:46  revo
+Revision 1.7 2001/12/10 18:25:59 revo
++drv-mrk
+
+Revision 1.6 2001/10/31 19:16:46 revo
 Jerano Zachrisson: +trd sv
 
-Revision 1.5  2001/05/29 18:19:15  revo
+Revision 1.5 2001/05/29 18:19:15 revo
 Dennis Wibrow: +trd germ
 
-Revision 1.4  2000/11/13 17:12:44  revo
+Revision 1.4 2000/11/13 17:12:44 revo
 Sergio Pokrovskij: importo el proceso.2 +TEK +KOMP +trd={ru,en}
 
 -->
