@@ -2,56 +2,77 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>dilu</rad>/i
-    </kap>
+<art mrk="$Id$">
+<kap>
+  <rad>dilu</rad>/i
+</kap>
+<drv mrk="dilu.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <uzo tip="fak">FIZ</uzo>
+  <uzo tip="fak">KEM</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="koncen.mal0i">Malkoncentri</ref>
+      solva&jcirc;on per solvilo:
+      <ekz>
+        la analizenda materialo <klr>(urino)</klr> estis malnova kaj
+        tre <tld/>ita
+        <fnt><bib>UrdHadda</bib>, <lok>p. 27</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_r;&c_a;&c_z;&c_b;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd>verd&uuml;nnen</trd>,
+    <trd>verw&auml;ssern</trd>
+  </trdgrp>
+  <trd lng="es">diluir</trd>
+  <trdgrp lng="fr">
+    <trd>diluer</trd>,
+    <trd>allonger<klr tip="ind"> (diluer)</klr></trd>,
+    <trd>couper<klr tip="ind"> (diluer)</klr></trd>,
+    <trd>d&eacute;layer</trd>,
+    <trd>&eacute;tendre<klr tip="ind"> (diluer)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_r;&c_a;&c_z;&c_b;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_mol;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_zh;&c_i;&c_zh;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="dilu.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <uzo tip="fak">FIZ</uzo>
-      <uzo tip="fak">KEM</uzo>
-      <snc>
-	<dif>
-	  <ref tip="super" cel="koncen.mal0i">Malkoncentri</ref>
-	  solva&jcirc;on per solvilo:  
-	  <ekz>
-	    la analizenda materialo <klr>(urino)</klr> estis malnova kaj
-	    tre <tld/>ita
-	    <fnt><bib>UrdHadda</bib>, <lok>p. 27</lok></fnt>.
-	  </ekz>
-	</dif>
-      </snc>
-      <trd lng="be">&c_r;&c_a;&c_z;&c_b;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
-      <trdgrp lng="de">
-	<trd>verd&uuml;nnen</trd>,
-	<trd>verw&auml;ssern</trd>
-      </trdgrp>
-      <trd lng="es">diluir</trd>
-      <trd lng="fr">diluer</trd>
-      <trdgrp lng="ru">
-	<trd>&c_r;&c_a;&c_z;&c_b;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_mol;</trd>,
-	<trd>&c_r;&c_a;&c_z;&c_zh;&c_i;&c_zh;&c_a;&c_t;&c_mol;</trd>
-      </trdgrp>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.8  2003/12/13 17:33:34  revo
-  Dmitri Gabinski: +trd be
+<drv mrk="dilu.mal0i">
+  <kap>mal<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <ref tip="ant" cel="dilu.0i"><tld/>i</ref>
+    <ref tip="dif" cel="koncen.0i.KEM">koncentri <sncref/></ref>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>concentrer<klr tip="ind"> (chim.)</klr></trd>,
+    <trd>r&eacute;duire<klr tip="ind"> (tr., cuis.)</klr></trd>
+  </trdgrp>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.9 2004/02/22 17:31:08 revo
+Sergio Pokrovskij: dif (maldensigi => malkoncentri)
 
-  Revision 1.7  2002/05/23 20:33:43  revo
-  Alejandro Mejia Greene: ald 1 his trd
+Revision 1.8 2003/12/13 17:33:34 revo
+Dmitri Gabinski: +trd be
 
-  Revision 1.6  2002/05/03 16:34:21  revo
-  Ulrich Fellmann: + 2 trd de
+Revision 1.7 2002/05/23 20:33:43 revo
+Alejandro Mejia Greene: ald 1 his trd
 
-  Revision 1.5  2001/05/12 18:15:40  revo
-  Marc Bavant: +trd fr
+Revision 1.6 2002/05/03 16:34:21 revo
+Ulrich Fellmann: + 2 trd de
 
-  Revision 1.4  2001/03/29 16:17:03  revo
-  Yury Finkel: +trd ru
+Revision 1.5 2001/05/12 18:15:40 revo
+Marc Bavant: +trd fr
 
-  -->
+Revision 1.4 2001/03/29 16:17:03 revo
+Yury Finkel: +trd ru
+
+-->
 </vortaro>
