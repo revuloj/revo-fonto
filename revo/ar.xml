@@ -85,7 +85,13 @@
           entjerojn;
         </ekz>
         <ekz>
-          la kolekto de &ccirc;iuj <tld/>oj mem ne estas <tld/>o.
+          la kolekto de &ccirc;iuj <tld/>oj mem ne estas <tld/>o;
+        </ekz>
+        <ekz>
+          la <tld/>on de &ccirc;iuj elementoj verigantaj predikaton
+          <frm><k>P</k></frm> oni signas per
+          <frm>{<k>x</k> / <k>P</k>(<k>x</k>)}</frm> 
+          <klr>(legu: aro de tiaj iksoj, ke po de ikso)</klr>.
         </ekz>
       </dif>
       <ref tip="prt" cel="elemen.0o.MAT">elemento;</ref>
@@ -117,7 +123,9 @@
       </adm>
       <trd lng="fr">ensemble<klr tip="ind"> (math.)</klr></trd>
       <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;<klr tip="ind"> (&c_m;&c_a;&c_t;.)</klr></trd>
-      <trd lng="pl">zbi&oacute;r</trd>
+      <trdgrp lng="pl">
+        <trd>zbi&oacute;r</trd>,
+        <trd>mnogo&sacute;&cacute;</trd></trdgrp> 
     </snc>
     <trd lng="cs">souhrn</trd>
     <trd lng="de">Menge</trd>
@@ -178,6 +186,7 @@
           <trd lng="de">mengentheoretisch</trd>
           <trd lng="en">set-theoretical</trd>
           <trd lng="fr">ensembliste</trd>
+          <trd lng="pl">mnogo&sacute;ciowy</trd>
           <trd lng="ru">&c_t;&c_je;&c_o;&c_r;&c_je;&c_t;&c_i;&c_k;&c_o;-&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
         </ekz>
       </dif>
@@ -201,6 +210,7 @@
         <ref cel="produt.kartezia0o">kartezia produto</ref>,
         kies sub<tld/>o &gcirc;i estas.
       </dif>
+    </snc>
       <rim>
         Tiu termino &scirc;ajnas preferinda al <ctl>cel<tld/>o</ctl>
         <fnt><bib>MatStokTerm</bib><lok>p. 33</lok></fnt>, &ccirc;ar
@@ -210,7 +220,6 @@
         kunmeta&jcirc;ojn sen emfazo pri tio, ke ne temas pri sufiksoida
         uzo.
       </rim>
-    </snc>
     <trd lng="de">Zielbereich</trd>
     <trd lng="en">codomain</trd>
     <trd lng="fr">ensemble d'arriv&eacute;e</trd>
@@ -260,16 +269,18 @@
           <frm><g>E</g></frm> oni signas per <frm><g>E</g>/<g>R</g></frm>.
         </ekz>
       </dif>
+    </snc>
       <rim>
         Troveblas &ccirc;i-sence anka&ubreve; <ctl>kvocient<tld/>o</ctl>
         (en <fnt><bib>MatVort</bib></fnt>), kiun ni ne konsideras bone formita,
         a&ubreve; <ctl>kvocienta spaco</ctl> (en <fnt><bib>PIV2</bib></fnt>).
       </rim>
-    </snc>
     <trd lng="de">Quotientmenge</trd>
     <trd lng="en">quotient set</trd>
     <trd lng="fr">ensemble quotient</trd>
-    <trd lng="pl">iloraz<klr tip="ind"> (zbioru przez relacj&eogonek; r&oacute;wnowa&zdot;no&sacute;ci)</klr></trd>
+    <trdgrp lng="pl">
+      <trd>iloraz<klr tip="ind"> (zbioru przez relacj&eogonek; r&oacute;wnowa&zdot;no&sacute;ci)</klr></trd>,
+      <trd>przestrze&nacute; ilorazowa</trd></trdgrp> 
     <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;-&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
   </drv>
   <drv mrk="ar.malplena0o">
@@ -352,25 +363,21 @@
         <frm><g>A</g></frm>, kies <ref cel="elemen.0o.MAT">elementoj</ref> 
         apartenas al <frm><g>E</g></frm>:
         <ekz>
-          la fakton, ke <frm><g>A</g></frm> estas sub<tld/>o de 
-          <frm><g>E</g></frm>, oni signas per 
-          <frm><g>A</g>&#8834;<g>E</g></frm>;
+          &ccirc;iu <tld/>o estas sub<tld/>o de si mem;
         </ekz>
         <ekz>
           la sub<tld/>oj de <frm><g>E</g></frm> konsistigas <tld/>on, nomatan
           <ind>aro de &ccirc;iuj sub<tld/>oj</ind>
           <fnt><bib>EKV</bib><lok>&para;32</lok></fnt> de <frm><g>E</g></frm> 
-          kaj foje signatan per <frm>2<sup><g>E</g></sup></frm>;
+          kaj foje signatan per <frm>2<sup><g>E</g></sup></frm>.
           <trd lng="de">Potenzmenge</trd>
           <trdgrp lng="en">
             <trd>power <ind>set</ind></trd>,
             <trd>set of all subsets</trd>
           </trdgrp>
           <trd lng="fr">ensemble des sous-ensembles</trd>
+          <trd lng="pl">zbi&oacute;r wszystkich podzbior&oacute;w</trd>
           <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o; &c_v;&c_s;&c_je;&c_h; &c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;</trd>
-        </ekz>
-        <ekz>
-          &ccirc;iu <tld/>o estas sub<tld/>o de si mem.
         </ekz>
       </dif>
       <ref tip="vid" cel="inkluz.0i.aro">inkluzivi.</ref>
@@ -384,7 +391,9 @@
       <trd>sous-ensemble</trd>,
       <trd>partie<klr tip="ind"> (sous-ensemble)</klr></trd>
     </trdgrp>
-    <trd lng="pl">podzbi&oacute;r</trd>
+    <trdgrp lng="pl">
+      <trd>podzbi&oacute;r</trd>,
+      <trd>cz&eogonek;&sacute;&cacute;<klr tip="ind"> (podzbi&oacute;r)</klr></trd></trdgrp> 
     <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
   </drv>
   <drv mrk="ar.super0o">
@@ -409,6 +418,8 @@
 </art>
 <!--
 $Log$
+Revision 1.39  2002/12/15 19:51:28  revo
+Marc Bavant: super~o: kor frm
 Revision 1.38  2002/11/18 17:33:10  revo
 Marc Bavant: +frm
 Revision 1.37  2002/09/22 16:33:04  revo
@@ -426,7 +437,5 @@ Marc Bavant: kvocienta ~o: +rim, -adm; malplena ~o, sub~o: mod fnt
 Revision 1.31 2002/05/20 16:37:20 revo
 Marc Bavant: ~teorio: +fnt; malplena ~o: mod ekz
 Revision 1.30 2002/05/12 16:35:15 revo
-Marc Bavant: ~o: mor rim; sub~o: kor lng cxe trd de; celo-~o, fonto-~o: +rim, -adm
-Revision 1.29 2002/05/02 16:35:23 revo
 -->
 </vortaro>
