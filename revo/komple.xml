@@ -2,179 +2,197 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>kompleks</rad>/a
-      <fnt>Z</fnt>
-    </kap>
+<art mrk="$Id$">
+<kap>
+  <rad>kompleks</rad>/a
+  <fnt>Z</fnt>
+</kap>
+<drv mrk="komple.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="komple.0a.malsimpla">
+    <dif>
+      <ref tip="sin" cel="simpl.mal0a.plurpeca">Malsimpla</ref>,
+      enhavanta en si malsamajn elementojn:
+      <ekz>
+        <tld/>a ideo, demando, karaktero.
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+      <ref cel="simpl.0a.unuspeca">simpla</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="konfuz.0a">konfuza</ref>.
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>verwickelt</trd>,
+      <trd>zusammengesetzt</trd>,
+      <trd>komplex</trd>,
+      <trd>kompliziert</trd>
+    </trdgrp>
+    <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_n;&c_y;&c_j;</trd>
+  </snc>
+  <snc mrk="komple.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
+    <dif>
+      <klr>(p.p. <ref cel="nombr.0o.MAT">nombro</ref>)</klr>
+      De la tipo a+i.b, kie a, b estas <ref cel="reel.0o.MAT">reeloj</ref> kaj
+      i<sup>2</sup>=-1; rilata al tia nombro:
+      <ekz>
+        la aro <em>C</em> de &ccirc;iuj <tld/>aj nombroj konsistigas <ref
+        cel="korp.0o.MAT">korpon</ref>, kiu samtempe estas dudimensia reela
+        <ref cel="spac.vektora0o">vektora spaco</ref>;
+      </ekz>
+      <ekz>
+        <tld/>a funkcio <klr>(kies valoroj estas <tld/>aj)</klr>, ebeno
+        <klr>(e&ubreve;klida afina ebeno, uzata por doni geometrian
+        reprezenton de la <tld/>aj nombroj)</klr>, <ref
+        cel="spac.vektora0o">vektora spaco</ref> <klr>(super la korpo de
+        <tld/>aj nombroj)</klr>.
+      </ekz>
+    </dif>
+    <trd lng="de">komplex</trd>
+  </snc>
+  <snc mrk="komple.0a.aritmetiko">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="stl">ARK</uzo>
+    <uzo tip="klr">(elementa aritmetiko)</uzo>
+    <dif>
+      <klr>(p.p. <ref cel="nombr.0o.MAT">nombro</ref>)</klr>
+      Tia, ke &gcirc;in formas pluraj partoj, kiujn necesas pritrakti
+      aparte dum kalkuloj; kvalifikas anka&ubreve; la operaciojn super tiaj
+      nombroj.
+    </dif>
+    <rim>
+      Historie temas pri nombroj esprimitaj en bazo alia ol la dekuma, kiel
+      ekz-e la tempo (horoj, minutoj, sekundoj) a&ubreve; la angulmezuroj.
+    </rim>
+  </snc>
+  <trd lng="de">komplex</trd>
+  <trd lng="en">complex</trd>
+  <trd lng="fr">complexe</trd>
+  <trdgrp lng="nl">
+    <trd>complex</trd>,
+    <trd>samengesteld</trd>
+  </trdgrp>
+  <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_y;&c_j;</trd>
+</drv>
 
-    <drv mrk="komple.0a">
-      <kap><tld/>a</kap>
-      <snc mrk="komple.0a.malsimpla">
-        <dif>
-          <ref tip="sin" cel="simpl.mal0a.plurpeca">Malsimpla</ref>,
-          enhavanta en si malsamajn elementojn:
-          <ekz>
-            <tld/>a ideo, demando, karaktero.
-          </ekz>
-        </dif>
-        <refgrp tip="ant">
-          <ref cel="simpl.0a.unuspeca">simpla</ref>;
-        </refgrp>
-        <refgrp tip="vid">
-          <ref cel="konfuz.0a">konfuza</ref>.
-        </refgrp>
-        <trdgrp lng="de">
-           <trd>verwickelt</trd>,
-           <trd>zusammengesetzt</trd>,
-           <trd>komplex</trd>,
-           <trd>kompliziert</trd>
-        </trdgrp>
-        <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_n;&c_y;&c_j;</trd>
-      </snc>
-      <snc mrk="komple.0a.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          <klr>(p.p. <ref cel="nombr.0o.MAT">nombro</ref>)</klr>
-          De la tipo a+i.b, kie a, b estas <ref cel="reel.0o.MAT">reeloj</ref>
-          kaj i<sup>2</sup>=-1; rilata al tia nombro:
-          <ekz>
-            la aro <em>C</em> de &ccirc;iuj <tld/>aj nombroj konsistigas <ref
-              cel="korp.0o.MAT">korpon</ref>, kiu samtempe estas dudimensia reela
-            <ref cel="spac.vektora0o">vektora spaco</ref>;
-          </ekz><ekz>
-            <tld/>a funkcio <klr>(kies valoroj estas <tld/>aj)</klr>, ebeno
-            <klr>(e&ubreve;klida afina ebeno, uzata por doni geometrian
-              reprezenton de la <tld/>aj nombroj)</klr>, <ref
-              cel="spac.vektora0o">vektora spaco</ref> <klr>(super la korpo de
-              <tld/>aj nombroj)</klr>.
-          </ekz>
-        </dif>
-        <trd lng="de">komplex</trd>
-      </snc>
-      <snc mrk="komple.0a.aritmetiko">
-        <uzo tip="fak">MAT</uzo>
-        <uzo tip="klr">(ark., elementa aritmetiko)</uzo>
-        <dif>
-          <klr>(p.p. <ref cel="nombr.0o.MAT">nombro</ref>)</klr>
-          Tia, ke &gcirc;in formas pluraj partoj, kiujn necesas pritrakti
-          aparte dum kalkuloj; kvalifikas anka&ubreve; la operaciojn super tiaj
-          nombroj.
-        </dif>
-        <rim>
-          Historie temas pri nombroj esprimitaj en bazo alia ol la dekuma, kiel
-          ekz-e la tempo (horoj, minutoj, sekundoj) a&ubreve; la angulmezuroj.
-        </rim>
-      </snc>
-      <trd lng="de">komplex</trd>
-      <trd lng="en">complex</trd>
-      <trd lng="fr">complexe</trd>
-      <trdgrp lng="nl">
-        <trd>complex</trd>,
-        <trd>samengesteld</trd>
-      </trdgrp>
-      <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_y;&c_j;</trd>
-    </drv>
+<drv mrk="komple.0o">
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+      Tuta&jcirc;o da malsama&jcirc;oj unuigitaj por unu sama celo:
+      <ekz>
+        la vivo estas <tld/>o da fortoj batalantaj kontra&ubreve; la morto.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Komplex</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;</trd>,
+      <trd>&c_s;&c_o;&c_v;&c_o;&c_k;&c_u;&c_p;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="komple.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <ref cel="komple.0a.MAT"><tld lit="K"/>a
+      <sncref ref="komple.0a.MAT"/></ref>
+      <ref tip="super" cel="nombr.0o.MAT">nombro</ref>.
+    </dif>
+    <refgrp tip="sin">
+      Preska&ubreve;a sinonimo:
+      <ref cel="imagin.0o">imaginaro</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      atributoj de komplekso:
+      <ref cel="part.reela0o">reela parto</ref>,
+      <ref cel="part.imaginara0o">imaginara parto</ref>,
+      <ref cel="modul.0o.komplekso">modulo</ref>,
+      <ref cel="argume.0o.komplekso">argumento</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      rilatantaj nocioj:
+      <ref cel="konjug.0ito.MAT">konjugito</ref>.
+    </refgrp>
+    <rim>
+      Bricard <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt> nomas tiujn
+      nombrojn <ctl>imaginaroj</ctl>. Li krome enkondukas la terminon
+      <ctl><tld/>a nombro</ctl>, kiel nocion iom pli vastan, nome linearaj
+      kombina&jcirc;oj de pluraj <ctl>unuoj</ctl> i<sub>1</sub>,i<sub>2</sub>,
+      ...i<sub>n</sub>, al kiuj oni altrudas specifan multiplikan operacion
+      (nun oni nomas tiajn nombrojn hiperkompleksaj).
+      Se la multipliko estas komuteca, oni ricevas la kutimajn imaginarojn.
+      Oni poste &ccirc;esis uzi <ctl>imaginaro</ctl> kaj parolis
+      anstata&ubreve;e pri <ctl><tld/>a nombro</ctl>. Estas mirinde, kial
+      la termino <ctl><tld/>o</ctl> aperas &ccirc;i-sence nek en Plena Ilustrita
+      Vortaro <fnt><bib>PIV1</bib></fnt>, nek &ccirc;e Werner
+      <fnt><bib>MatVort</bib></fnt>, kvankam la matematika lingva&jcirc;o
+      tre kutimas al tiaj rektaj substantivigoj de adjektiva radiko
+      (
+      <ekz>
+        racionalo, imaginaro, rekto...
+      </ekz>
+      ). &Ccirc;e tiuj a&ubreve;toroj
+      la termino <ctl><tld/>o</ctl> referencas alian aferon, en la kampo de
+      geometrio, elementa aritmetiko, algebra topologio ktp.
+      &Ccirc;ar la termino estas jam ege multsenca, &scirc;ajnas, ke
+      mankas pravigo por da&ubreve;re eksterlasi la sencon
+      <ctl><tld/>a nombro</ctl>, cetere tre oportunan kaj preska&ubreve;
+      trudatan de la adjektiva uzo de <ctl><tld/>a</ctl> kun la senco
+      <ctl>rilata al <tld/>a nombro</ctl>.
+    </rim>
+    <trd lng="en">complex number</trd>
+    <trd lng="fr">nombre complexe</trd>
+    <trd lng="nl">samengesteld <ind>getal</ind></trd>
+    <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_je; <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
+  </snc>
+  <snc mrk="komple.0o.aritmetiko">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="stl">ARK</uzo>
+    <uzo tip="klr">(elementa aritmetiko)</uzo>
+    <fnt><bib>PIV1</bib></fnt>
+    <dif>
+      <ref cel="komple.0a.aritmetiko"><tld lit="K"/>a
+      <sncref ref="komple.0a.aritmetiko"/></ref> nombro.
+    </dif>
+  </snc>
+  <snc mrk="komple.0o.geometrio">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 37</lok></fnt>
+    <dif>
+      Aro da <ref cel="rekt.0o.MAT">rektoj</ref>, kiuj dependas de tri
+      parametroj.
+    </dif>
+    <trd lng="de">Geradenkomplex</trd>
+    <trd lng="en">complex of lines</trd>
+    <trd lng="fr">complexe de droites</trd>
+    <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s; &c_p;&c_r;&c_ja;&c_m;&c_y;&c_h;</trd>
+  </snc>  
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.15 2002/02/06 17:32:27 revo
+Ulrich Fellmann: + 1 plia germ trd
 
-    <drv mrk="komple.0o">
-      <kap><tld/>o</kap>
-      <snc>
-        <dif>
-          Tuta&jcirc;o da malsama&jcirc;oj unuigitaj por unu sama celo:
-          <ekz>
-            la vivo estas <tld/>o da fortoj batalantaj kontra&ubreve; la morto.
-          </ekz>
-        </dif>
-        <trdgrp lng="de">
-           <trd>Komplex</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;</trd>,
-          <trd>&c_s;&c_o;&c_v;&c_o;&c_k;&c_u;&c_p;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="komple.0o.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          <ref cel="komple.0a.aritmetiko"><tld lit="K"/>a
-            <sncref ref="komple.0a.MAT"/></ref> nombro.
-        </dif>
-        <refgrp tip="vid">
-          Atributoj de komplekso:
-          <ref cel="part.reela0o">reela parto</ref>,
-          <ref cel="part.imaginara0o">imaginara parto</ref>,
-          <ref cel="modul.0o.komplekso">modulo</ref>,
-          <ref cel="argume.0o.komplekso">argumento</ref>;
-        </refgrp>
-        <refgrp tip="vid">
-          Rilatantaj nocioj:
-          <ref cel="imagin.0a">imaginara</ref>,
-          <ref cel="konjug.0ito.MAT">konjugito</ref>.
-        </refgrp>
-        <rim>
-          Ni ne trovis a&ubreve;toritatan fonton por tiu termino. Kaj PIV, kaj Jan
-          Werner parolas nur pri <ctl><tld/>a nombro</ctl>. &Ccirc;e ili, la
-          termino <ctl><tld/>o</ctl> referencas alian aferon, en la kampo de
-          geometrio, elementa aritmetiko, algebra topologio ktp. &Ccirc;ar la
-          termino estas jam ege multsenca, &scirc;ajnas, ke mankas pravigo por
-          da&ubreve;re eksterlasi la &ccirc;i-supran sencon, cetere tre oportunan
-          kaj preska&ubreve; trudatan de la adjektiva uzo de <ctl><tld/>a</ctl>
-          kun la senco <ctl>rilata al <tld/>a nombro</ctl>.
-        </rim>
-        <trd lng="de">komplexe Zahl</trd>
-        <trd lng="en">complex number</trd>
-        <trd lng="fr">nombre complexe</trd>
-        <trd lng="nl">samengesteld <ind>getal</ind></trd>
-        <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_je; <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
-      </snc>
-      <snc mrk="komple.0o.aritmetiko">
-        <uzo tip="fak">MAT</uzo>
-        <uzo tip="klr">(ark., elementa aritmetiko)</uzo>
-        <fnt><bib>PIV1</bib></fnt>
-        <dif>
-          <ref cel="komple.0a.aritmetiko"><tld lit="K"/>a
-            <sncref ref="komple.0a.aritmetiko"/></ref> nombro.
-        </dif>
-      </snc>
-      <snc>
-        <uzo tip="fak">MAT</uzo>
-        <fnt><bib>PIV1</bib></fnt>
-        <dif>
-          Aro da rektoj, kiuj dependas de tri parametroj.
-        </dif>
-      </snc>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.14  2002/02/04 17:31:15  revo
-  Ulrich Fellmann: + 7 germ trdj
+Revision 1.14 2002/02/04 17:31:15 revo
+Ulrich Fellmann: + 7 germ trdj
 
-  Revision 1.13  2002/02/01 17:32:02  revo
-  Sergio Pokrovskij: TEZ
+Revision 1.13 2002/02/01 17:32:02 revo
+Sergio Pokrovskij: TEZ
 
-  Revision 1.12  2002/01/23 17:33:36  revo
-  Jerome Vachey: precizigis ref ant al simpla
+Revision 1.12 2002/01/23 17:33:36 revo
+Jerome Vachey: precizigis ref ant al simpla
 
-  Revision 1.11 2001/11/04 19:16:19 revo
-  Paul Peeraerts: ald trd nl
+Revision 1.11 2001/11/04 19:16:19 revo
+Paul Peeraerts: ald trd nl
 
-  Revision 1.10 2001/10/09 18:45:41 revo
-  Yury Finkel: +trd ru
+Revision 1.10 2001/10/09 18:45:41 revo
+Yury Finkel: +trd ru
 
-  Revision 1.9 2001/05/02 16:12:19 revo
-  Marc Bavant: kor ref cel al nombro
-
-  Revision 1.8 2001/05/01 18:09:14 revo
-  Marc Bavant: reredaktis la snc MAT
-
-  Revision 1.7 2001/03/03 07:46:34 revo
-  Karlo Freeman: +trd=en
-
-  Revision 1.6 2000/12/04 17:11:14 revo
-  Marc Bavant: kor trd fr
-
-  Revision 1.5 2000/12/03 18:58:33 revo
-  -->
+Revision 1.9 2001/05/02 16:12:19 revo
+-->
 </vortaro>
-
