@@ -45,7 +45,8 @@
     </dif>
     <trdgrp lng="fr">
       <trd>fonctionner</trd>,
-      <trd>marcher<klr tip="ind"> (fonctionner)</klr></trd></trdgrp> 
+      <trd>marcher<klr tip="ind"> (fonctionner)</klr></trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_r;&c_a;&c_b;&c_o;&c_t;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -89,44 +90,106 @@
         kiujn ni povas postuli de lingvo internacia<fnt>Z</fnt>;
       </ekz>
       <ekz>
+        <uzo tip="fak">GRA</uzo>
         la diversaj <tld/>oj de vorto en la frazo
         <klr>(subjekto, predikato,  komplemento)</klr>.
       </ekz>
     </dif>
     <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
   </snc>
+  <!-- snc mrk="funkci.0o.MAT">
+  <uzo tip="fak">MAT</uzo>
+  <dif>
+    &Gcirc;enerala regulo difinanta por elemento de <em>fonta aro</em>
+    <frm>A</frm> elementon en <em>cela aro</em> <frm>B</frm>;
+    simbole <frm>f:A&#x2192;B</frm> <klr>(legu: fo &jcirc;etas el A en
+    B-on)</klr>, a&ubreve; por individuaj elementoj <frm>b=f(a)</frm>
+    <klr>(legu: bo egalas a de bo)</klr>:
+    <ekz>
+      en la <tld/>a skribo <frm>b=f(a)</frm> la elementon
+      <frm>a</frm> de la fonta aro oni nomas
+      "<ref tip="prt" cel="argume.0o.funkcia">argumento</ref>",
+      kaj la elementon <frm>b</frm> de la cela aro oni nomas
+      "<ref tip="prt" cel="rezult.0o.funkcia">rezulto</ref>"
+      a&ubreve; "<ref tip="vid"
+      cel="bild.rekta0o.elemento">bildo</ref>";
+    </ekz>
+    <ekz>
+      <tld/>o kontinua, analitika, entjera, reela, nombra;
+    </ekz>
+    <ekz>
+      <ref tip="prt" cel="lok.0nombro">loknombro</ref> de <tld/>o.
+    </ekz>
+  </dif>
+  <rim>
+    Diversaj skoloj kaj bran&ccirc;oj de matematiko malsame difinas
+    tiun nocion; oni ofte limigas la terminon <tld/>o por la situacio
+    kie la fonta kaj cela aroj estas nombroj, kaj uzas aliajn
+    terminojn (funkcionalo, operatoro kaj plej &gcirc;enerale &dash;
+    <ref tip="super" cel="jxet.0o.mat">&jcirc;eto</ref> a&ubreve;
+    <ref tip="vid" cel="bild.0igo">bildigo</ref>) por la aliaj
+    situacioj.
+  </rim>
+  <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+  </snc -->
   <snc mrk="funkci.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      &Gcirc;enerala regulo difinanta por elemento de <em>fonta aro</em>
-      <frm>A</frm> elementon en <em>cela aro</em> <frm>B</frm>;
-      simbole <frm>f:A&#x2192;B</frm> <klr>(legu: fo &jcirc;etas el A en
-      B-on)</klr>, a&ubreve; por individuaj elementoj <frm>b=f(a)</frm>
-      <klr>(legu: bo egalas a de bo)</klr>:
-      <ekz>
-        en la <tld/>a skribo <frm>b=f(a)</frm> la elementon
-        <frm>a</frm> de la fonta aro oni nomas
-        "<ref tip="prt" cel="argume.0o.funkcia">argumento</ref>",
-        kaj la elementon <frm>b</frm> de la cela aro oni nomas
-        "<ref tip="prt" cel="rezult.0o.funkcia">rezulto</ref>"
-        a&ubreve; "<ref tip="vid"
-        cel="bild.rekta0o.elemento">bildo</ref>";
-      </ekz>
-      <ekz>
-        <tld/>o kontinua, analitika, entjera, reela, nombra;
-      </ekz>
-      <ekz>
-        <ref tip="prt" cel="lok.0nombro">loknombro</ref> de <tld/>o.
-      </ekz>
-    </dif>
+    <subsnc mrk="funkci.0o.MAT.elemente">
+      <uzo tip="klr">(elementa matematiko)</uzo>
+      <dif>
+        &Gcirc;enerala regulo, difinanta por elemento de <ctl>fonta aro</ctl>
+        <em>A</em> elementon en <ctl>cela aro</ctl> <em>B</em>;
+        simbole f:<em>A</em>&#x2192;<em>B</em> <klr>(legu: fo &jcirc;etas el 
+        <em>A</em> en <em>B</em>-on)</klr>, a&ubreve; por individuaj elementoj 
+        b=f(a) <klr>(legu: bo egalas fo de a)</klr>:
+        <ekz>
+          en la <tld/>a skriba&jcirc;o b=f(a) la elementon
+          a de la fonta aro oni nomas
+          "<ref tip="prt" cel="argume.0o.funkcia">argumento</ref>"
+          a&ubreve; "<ref tip="prt" cel="variab.0o.mat">variablo</ref>",
+          kaj la elementon b de la cela aro oni nomas
+          "<ref tip="prt" cel="rezult.0o.funkcia">rezulto</ref>" a&ubreve;
+          "<ref tip="prt" cel="valor.0o.mat">valoro</ref>" de la <tld/>o,
+          a&ubreve; "<ref tip="vid" cel="bild.rekta0o.elemento">bildo</ref>"
+          de la argumento per la <tld/>o;
+        </ekz>
+        <ekz>
+          <ref tip="prt" cel="lok.0nombro">loknombro</ref> de <tld/>o.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="funkci.0o.MAT.gxenerale">
+      <uzo tip="klr">(pli &gcirc;enerale)</uzo>
+      <dif>
+        <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref>, precipe (sed ne nur)
+        kiam la fonta kaj cela aroj konsistas el nombroj:
+        <ekz>
+          <tld/>o entjera, reela, kompleksa <klr>(kun entjeraj, reelaj,
+          kompleksaj rezultoj)</klr>;
+        </ekz>
+        <ekz>
+          kompleksa <tld/>o kun reelaj argumentoj;
+        </ekz>
+        <ekz>
+          <tld/>o derivebla, analitika, integralebla.
+        </ekz>
+      </dif>
+    </subsnc>
     <rim>
-      Diversaj skoloj kaj bran&ccirc;oj de matematiko malsame difinas
-      tiun nocion; oni ofte limigas la terminon <tld/>o por la situacio
-      kie la fonta kaj cela aroj estas nombroj, kaj uzas aliajn
-      terminojn (funkcionalo, operatoro kaj plej &gcirc;enerale &dash;
-      <ref tip="super" cel="jxet.0o.mat">&jcirc;eto</ref> a&ubreve;
-      <ref tip="vid" cel="bild.0igo">bildigo</ref>) por la aliaj
-      situacioj.
+      Pro &gcirc;ia intuicia difino en elementa matematiko <ctl><tld/>o</ctl>
+      povas esti konsiderata pli fundamenta ol <ctl>bildigo</ctl>, 
+      kiu bazi&gcirc;as sur rilatoj, paroj, kaj arteorio entute. 
+
+      La termino <ctl><tld/>o</ctl> estas vaste uzata en analitiko, sed
+      depende de la bran&ccirc;o de matematiko oni pli volonte
+      parolos pri "bildigo" 
+      (a&ubreve; "<ref cel="jxet.0o.mat">&jcirc;eto</ref>"),
+      "<ref cel="funkci1.0o">funkcionalo</ref>", 
+      "operatoro", 
+      "<ref cel="form.0o.bildigo">formo</ref>", 
+      "<ref cel="operac.0o.MAT">operacio</ref>", 
+      "transformo"... Ni do ricevis tutan 
+      serion da sinonimaj terminoj, tamen kun malsama historia fono.
     </rim>
     <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
   </snc>
@@ -170,8 +233,7 @@
         kongresoj;
       </ekz>
       <ekz>
-        la komisiono postulas la mal<tld/>adon de &ccirc;iuj
-        armilfabrikoj.
+        la komisiono postulas la mal<tld/>adon de &ccirc;iuj armilfabrikoj.
       </ekz>
     </dif>
   </snc>
@@ -189,7 +251,8 @@
     </dif>
     <trdgrp lng="fr">
       <trd>employ&eacute;</trd>,
-      <trd>fonctionnaire</trd></trdgrp> 
+      <trd>fonctionnaire</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;
       <ind>&c_r;&c_a;&c_b;&c_o;&c_t;&c_n;&c_i;&c_k;</ind></trd>,
@@ -203,7 +266,7 @@
   <snc>
     <dif>
       Kompleksa <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>,
-      elvolvebla en potencoserion en &ccirc;irka&ubreve;a&jcirc;o de 
+      elvolvebla en potencoserion en &ccirc;irka&ubreve;a&jcirc;o de
       &ccirc;iu punkto de &gcirc;ia fonto-aro.
     </dif>
     <adm>
@@ -221,17 +284,42 @@
   <snc>
     <ref tip="dif" cel="distri2.0o">distribucio.</ref>
   </snc>
+  <trd lng="de">verallgemeinerte <ind>Funktion</ind></trd>
+  <trd lng="en">generalized <ind>function</ind></trd>
+  <trd lng="fr">fonction g&eacute;n&eacute;ralis&eacute;e</trd>
+  <trd lng="ru">&c_o;&c_b;&c_o;&c_b;&c_shch;&c_jo;&c_n;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
+<drv mrk="funkci.hevisajda0o">
+  <kap>hevisajda <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Reela <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>, kiuj &jcirc;etas
+      strikte negativan argumenton al 0 kaj pozitivan al 1:
+      <ekz>
+        la hevisajdan <tld/>on oni foje signas per H(x) a&ubreve; Y(x) kaj
+        foje nomas anka&ubreve; <ctl>unuo-&scirc;tupo</ctl>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="hevisa.0o">Hevisajdo.</ref>
+  </snc>
+  <trd lng="de">Heavisidesche <ind>Funktion</ind></trd>
+  <trd lng="en">Heaviside['s] <ind>function</ind></trd>
+  <trdgrp lng="fr">
+    <trd>fonction de Heaviside</trd>,
+    <trd>&eacute;chelon unit&eacute;</trd></trdgrp> 
+  <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja; &c_H;&c_je;&c_v;&c_i;&c_s;&c_a;&c_j;&c_d;&c_a;</trd>
 </drv>
 <drv mrk="funkci.polinoma0o">
   <kap>polinoma <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
-    <uzo tip="klr">(elementa analitiko)</uzo>
+    <uzo tip="klr">(elementa matematiko)</uzo>
     <dif>
       <tld lit="F"/>o de unu a&ubreve; pluraj argumentoj, kies valoro
-      estas esprimo, en kiu aperas, krom
-      konstantoj, nur potencoj de la argumentoj kun pozitivaj entjeraj
-      eksponentoj, kombinitaj per multipliko kaj adicio:
+      estas esprimo, en kiu aperas, krom konstantoj, nur potencoj de la 
+      argumentoj kun pozitivaj entjeraj eksponentoj, kombinitaj per multipliko 
+      kaj adicio:
       <ekz>
         x<sup>2</sup>.y+x.y<sup>2</sup>-7 estas polinoma <tld/>o de
         du variabloj;
@@ -246,9 +334,8 @@
     <dif>
       (responda al <ref cel="polino.0o">polinomo</ref> <em>P</em> super
       <ref cel="ring.0o.MAT">ringo</ref> <em>R</em>)
-      Tia <ref tip="super" cel="bild.0igo">bildigo</ref> de
-      <em>R</em> al <em>R</em>, ke la bildo per &gcirc;i
-      de elemento x egalas al
+      Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
+      <em>R</em> al <em>R</em>, ke la bildo per &gcirc;i de elemento x egalas al
       &#x2211;<em>P</em><sub>i</sub>.x<sup>i</sup>.
     </dif>
     <rim>
@@ -259,9 +346,95 @@
   </snc>
   <trd lng="fr">fonction polynomiale</trd>
 </drv>
+<drv mrk="funkci.plursenca0o">
+  <kap>plursenca <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <uzo tip="klr">(elementa matematiko)</uzo>
+    <dif>
+        &Gcirc;enerala regulo, simila al 
+        <ref cel="funkci.0o.MAT.elemente"><tld/>o</ref>, sed difinanta por 
+        elemento de fonta aro plurajn elementojn en la cela aro:
+        <ekz>
+          la plursenca <tld/>o <ctl>kvadrata radiko</ctl> <klr>(kiu asocias al
+          pozitiva nombro x &gcirc;iajn du kvadratajn radikojn: -&#x221a;x kaj
+          &#x221a;x)</klr>, <ctl>argumento</ctl> <klr>(kiu asocias al komplekso
+          z &ccirc;iujn reelojn de la tipo Arg&#xa0;z+2k&pi;)</klr>.
+        </ekz>
+    </dif>
+    <rim>
+      En rigora lingva&jcirc;o ne temas pri funkcioj, sed pri 
+      <ref tip="super" cel="rilat.0o.MAT">rilatoj</ref>. Tamen
+      kelkaj el la analitikaj ecoj de <tld/>oj validas anka&ubreve; por ili.
+    </rim>
+  </snc>
+  <adm>
+  Estas malfacile pravigi la adjektivon "plursenca", cxar oni ne
+  parolas pri "senco de funkcio", sed pri "valoro" aux "rezulto". 
+  La rusa termino tre proksimas al la E-a, sed gxi estas kohera
+  kun la esprimo "znacxenie funkcii" ("signifo" de funkcio). 
+  "Plurvalora" estus multe pli logika. <aut>MB</aut>
+  </adm>
+  <trd lng="de">mehrdeutige <ind>Funktion</ind></trd>
+  <trd lng="en">multiple-valued <ind>function</ind></trd>
+  <trdgrp lng="fr">
+    <trd>fonction multiforme</trd>,
+    <trd>fonction multivoque</trd></trdgrp> 
+  <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_a;&c_ja;
+  <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
+<drv mrk="funkci.testa0o">
+  <kap>testa <tld/>o, testo<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, apartenanta
+      al la <ref cel="ar.fonto0o">fonto-aro</ref> de 
+      <ref cel="distri2.0o">distribucio</ref>. 
+    </dif>
+    <rim>
+      La termino aspektas absurda, sed &gcirc;i estas internacia. Oni &gcirc;in
+      uzas, kiam necesas atentigi, ke la vorto <ctl><tld/>o</ctl> ne signifas
+      "&gcirc;eneraligita <tld/>o" a&ubreve; 
+      "<ref cel="regul.0a.distribucio">regula</ref> distribucio, konvencie
+      identigita kun la <tld/>o al &gcirc;i asociita", kio ofte okazas.
+    </rim>
+  </snc>
+  <adm>
+  Mi ne trovis fonton por tiu termino kaj kreis gxin laux la
+  konvergxaj nacilingvaj formoj. <aut>MB</aut>
+  </adm>
+  <trd lng="de">Testfunktion</trd>
+  <trd lng="en">test <ind>function</ind></trd>
+  <trd lng="fr">fonction test</trd>
+  <trd lng="ru">&c_t;&c_je;&c_s;&c_t;-&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+</drv>
+<drv mrk="funkci.unusenca0o">
+  <kap>unusenca <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <uzo tip="klr">(elementa matematiko, kontraste kun plursenca)</uzo>
+    <ref tip="dif" cel="funkci.0o.MAT.elemente">
+      <tld/>o 
+      <sncref ref="funkci.0o.MAT"/><sncref ref="funkci.0o.MAT.elemente"/>.
+    </ref>
+  </snc>
+  <trd lng="de">eindeutige <ind>Funktion</ind></trd>
+  <trd lng="en">single-valued <ind>function</ind></trd>
+  <trdgrp lng="fr">
+    <trd>fonction uniforme</trd>,
+    <trd>fonction univoque</trd></trdgrp> 
+  <trd lng="ru">&c_o;&c_d;&c_n;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_a;&c_ja;
+  <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.13  2001/07/15 18:12:12  revo
+Marc Bavant: +drv gxeneraligita ~o
+
 Revision 1.12  2001/07/12 18:12:44  revo
 Marc Bavant: +drv analitika ~o el "analitiko"; +ekz cxe polinoma ~o; +trd fr
 
@@ -278,8 +451,5 @@ Revision 1.8  2000/10/22 16:11:14  revo
 Marc Bavant: +drv polinoma ~o, korekto de ref al bildo kaj bildigo
 
 Revision 1.7  2000/09/12 16:12:17  revo
-Sergio Pokrovskij: tajperaroj
-
-Revision 1.6  2000/09/11 16:15:48  revo
 -->
 </vortaro>
