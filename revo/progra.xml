@@ -99,7 +99,7 @@
     <drv mrk="progra.0ado">
       <kap><tld/>ado</kap>
       <gra><vspec>tr</vspec></gra>
-      <snc>
+      <snc mrk="progra.0ado.KOMP">
         <uzo tip="fak">KOMP</uzo>
         <dif>
           Projektado, verkado, dokumentado kaj vartado de komputilaj
@@ -117,7 +117,7 @@
         </trdgrp>
         <trd lng="ru">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
       </snc>
-      <snc>
+      <snc mrk="progra.0ado.MAT">
         <uzo tip="fak">MAT</uzo>
         <dif>
           <klr>(anka&ubreve; <ctl>matematika <tld/>ado</ctl>)</klr> Parto
@@ -146,23 +146,11 @@
         <dif>
           La programoj uzataj en komputilo (ofte kontraste al
           <ref tip="ant" cel="aparat.0aro.KOMP">aparataro</ref>):
-          <ekz mrk="progra.sistema.0aro">
-            <ind>sistema <tld/>aro</ind>
-            <klr>(<ref cel="progra.il0o">il<tld/>oj</ref> de
-              <ref cel="komput.0a.sistemo">komputa sistemo</ref>
-              necesaj por funkciigi
-              <ref cel="progra.aplika.0o">aplikajn <tld/>ojn</ref>)</klr>;
-            <trd lng="en">system software</trd>
-            <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_n;&c_o;&c_je; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_n;&c_o;&c_je; &c_o;&c_b;&c_je;&c_s;&c_p;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
-          </ekz>
-          <ekz mrk="progra.aplika.0aro">
-            <ind>aplika <tld/>aro</ind>
-            <klr>(<ref cel="progra.aplika.0o">aplikaj <tld/>oj</ref>
-              por iu ekstera aplika tereno)</klr>;
-            <trd lng="en">application software</trd>
-            <trd lng="ru">&c_p;&c_r;&c_i;&c_k;&c_l;&c_a;&c_d;&c_n;&c_o;&c_je; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_n;&c_o;&c_je; &c_o;&c_b;&c_je;&c_s;&c_p;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
-          </ekz>
           <ekz>
+            <ref tip="sub" cel="progra.sistema.0aro">sistema <tld/>aro</ref>
+          </ekz><ekz>
+            <ref tip="sub" cel="progra.aplika.0aro">aplika <tld/>aro</ref>
+          </ekz><ekz>
             komerca, &ccirc;iesa, senpaga, libera <tld/>aro;
           </ekz>
           <ekz>
@@ -223,9 +211,39 @@
       <trd lng="en">source program</trd>
       <trd lng="ru">&c_i;&c_s;&c_h;&c_o;&c_d;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;</trd>
     </drv>
+    <drv mrk="progra.sistema.0aro">
+      <kap>sistema <tld/>aro</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          <ref cel="progra.il0o">Il<tld/>oj</ref> de
+          <ref cel="komput.0a.sistemo">komputa sistemo</ref>
+          necesaj por funkciigi
+          <ref cel="progra.aplika.0o">aplikajn <tld/>ojn</ref>.
+        </dif> 
+      </snc>
+      <trd lng="en">system software</trd>
+      <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_n;&c_o;&c_je; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_n;&c_o;&c_je; &c_o;&c_b;&c_je;&c_s;&c_p;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+    </drv>
+    <drv mrk="progra.aplika.0aro">
+      <kap>aplika <tld/>aro</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Kolekto da <ref cel="progra.aplika.0o">aplikaj <tld/>oj</ref>
+          por iu ekstera aplika tereno (kontraste al
+          <ref cel="progra.sistema.0aro">sistema <tld/>aro</ref>).
+       </dif>
+      </snc>
+      <trd lng="en">application software</trd>
+      <trd lng="ru">&c_p;&c_r;&c_i;&c_k;&c_l;&c_a;&c_d;&c_n;&c_o;&c_je; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_n;&c_o;&c_je; &c_o;&c_b;&c_je;&c_s;&c_p;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+    </drv>
   </art>
   <!--
   $Log$
+  Revision 1.10  2000/12/01 17:11:23  revo
+  Sergio Pokrovskij: trd en ekz
+
   Revision 1.9  2000/11/30 17:12:26  revo
   Alain Fagot: cel="aparat.0aro"
 
