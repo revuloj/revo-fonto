@@ -8,8 +8,9 @@
      </kap>
      <drv mrk="divizo.0o">
        <kap><tld/>o</kap>
-       <uzo tip="fak">MAT</uzo>
-       <snc>
+       <snc mrk="divizo.0o.aritmetiko">
+         <uzo tip="fak">MAT</uzo>
+         <uzo tip="klr">(elementa aritmetiko)</uzo>
          <dif>
            Entjero <frm>z</frm> estas <tld/>o de entjero <frm>a</frm>
            se <frm>a</frm> estas <ref cel="obl.0o">oblo</ref> de
@@ -21,11 +22,35 @@
            </ekz>
          </dif>
        </snc>
+
+      <snc mrk="divizo.0o.ringo">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(de elemento a en <ref cel="ring.0o.MAT">ringo</ref>
+          a&ubreve; multiplike signata <ref cel="monojd.0o">monojdo</ref>)</klr>
+          Tia elemento b, ke por certa q, a=b.q (maldekstra <tld/>o) a&ubreve;
+          a=q.b (dekstra <tld/>o):
+          <ekz>
+            la reela polinomo <em>X</em><sup>2</sup>+<em>1</em> ne havas
+            <ref cel="redukt.ne0ebla">neredukteblajn</ref> <tld/>ojn;
+          </ekz>
+          <ekz>
+            la <ind>plej granda komuna <tld/>o</ind> de 24 kaj 30 estas
+            6.
+            <trdgrp lng="fr">
+              <trd>plus grand commun <ind>diviseur</ind></trd>,
+              <trd>P.G.C.D.</trd></trdgrp> 
+          </ekz>
+        </dif>
+      </snc>
+    
        <ref tip="vid" cel="faktor.0o">faktoro</ref>
        <trd lng="en">divisor</trd>
+       <trd lng="fr">diviseur</trd>
        <trd 
 lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
      </drv>
+     
      <drv mrk="divizo.0i">
        <kap><tld/>i</kap>
        <gra><vspec>ntr</vspec></gra>
@@ -50,7 +75,17 @@ lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
 &ccirc;i-lastan oni diru
          "<tld/>hava").
        </rim>
+       <adm>
+         &Scirc;ajnas al mi, ke la senco "esti ~o de" ne 
+         malebligas, ke oni konsideru la verbon transitiva. 
+         Ja la ekz-oj de la tipo "2 divizoras en la paraj nombroj" 
+         ne aspektas tre nature kaj transitiva verbo estus 
+         oportuna por traduki el la nacilingvoj, kiuj
+         &ccirc;isence uzas "dividi".
+         <aut>MB</aut>
+       </adm>
        <trd lng="en">divide</trd>
+       <trd lng="fr">diviser <klr tip="ind">(&ecirc;tre diviseur de)</klr></trd>
        <trd lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x44c; 
 <klr>(&#x431;&#x435;&#x437; 
 &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x430;)</klr></trd>
@@ -82,6 +117,9 @@ lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
    </art>
 <!--
 $Log$
+Revision 1.5  2000/11/30 17:12:11  revo
+Alain Fagot: mrk="divizo.0o" + mrk="divizo.0i"
+
 Revision 1.4  2000/11/01 17:11:29  revo
 Marc Bavant: +drv nul~o
 
@@ -96,4 +134,3 @@ Sergio Pokrovskij: nova artikolo
 
 -->
 </vortaro>
-
