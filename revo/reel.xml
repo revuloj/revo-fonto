@@ -2,49 +2,60 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>reel</rad>o<fnt>SPIV</fnt></kap>
-    <drv mrk="reel.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="reel.0o.mat">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          &Ccirc;ia <ref tip="super" cel="nombr.0o.mat">nombro</ref>
-          prezentebla per sumo de entjero kaj
-          <ref cel="frakci.0o.pozicia">pozicia frakcio</ref>:
-          <ekz><frm>&#x221a;2</frm> <klr>(la kvadrata radiko de 2)</klr>
-              estas <tld/>o neraciona;
-          </ekz><ekz>
-            la nombro <frm>&#x3c0;</frm> estas <tld/>o kies prezento per
-            senfina <ref cel="dek.0uma.frakcio">dekuma frakcio</ref>
-            komenci&gcirc;as tiel: 3,14159...
-          </ekz>
-        </dif>
-        <rim>
-          PIV proponas por tiu senco <ctl>reala nombro</ctl> &dash; &gcirc;i
-          ne estas uzata; PIV-2 havos <ctl>reelo</ctl>n.
-        </rim>
-        <ref tip="sub" cel="racio5.0o">raciono</ref>
-      <trdgrp lng="ru"><trd>&c_v;&c_je;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>,
-        <trd>&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_o;</trd></trdgrp>
-      </snc>
-      <snc mrk="reel.0o.komp">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          En programlingvoj, <ref cel="racio5.0o">raciono</ref> uzata
-          por aproksimi reelan grandon.
-        </dif>
-        <ref tip="super" cel="tip.datum0o">datumtipo</ref>
-        <trd lng="ru">&c_v;&c_je;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
-      </snc>
-      <trd lng="en">real number</trd>
-      <trd lng="fr"><klr>(nombre)</klr> r&eacute;el</trd>
-    </drv>
-  </art>
-
+<art mrk="$Id$">
+<kap>
+<rad>reel</rad>/o<fnt>SPIV</fnt></kap>
+<drv mrk="reel.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="reel.0o.mat">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      &Ccirc;ia <ref tip="super" cel="nombr.0o.mat">nombro</ref>
+      prezentebla per sumo de entjero kaj
+      <ref cel="frakci.0o.pozicia">pozicia frakcio</ref>:
+      <ekz>
+        <frm>&#x221a;2</frm> <klr>(la kvadrata radiko de 2)</klr>
+        estas <tld/>o neraciona;
+      </ekz>
+      <ekz>
+        la nombro <frm>&#x3c0;</frm> estas <tld/>o kies prezento per
+        senfina <ref cel="dek.0uma.frakcio">dekuma frakcio</ref>
+        komenci&gcirc;as tiel: 3,14159...
+      </ekz>
+    </dif>
+    <rim>
+      PIV proponas por tiu senco <ctl>reala nombro</ctl> &dash; &gcirc;i
+      ne estas uzata; PIV-2 havos <ctl>reelo</ctl>n.
+    </rim>
+    <ref tip="sub" cel="racio5.0o">raciono</ref>
+    <trdgrp lng="ru">
+      <trd>&c_v;&c_je;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
+      &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>,
+      <trd>&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;
+      &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
+    </trdgrp>
+    <trd lng="de">reele Zahl</trd>
+  </snc>
+  <snc mrk="reel.0o.komp">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      En programlingvoj, <ref cel="racio5.0o">raciono</ref> uzata
+      por aproksimi reelan grandon.
+    </dif>
+    <ref tip="super" cel="tip.datum0o">datumtipo</ref>
+    <trd
+    lng="ru">&c_v;&c_je;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
+    &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
+  </snc>
+  <trd lng="en">real number</trd>
+  <trd lng="fr"><klr>(nombre)</klr> r&eacute;el</trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.5  2000/11/14 17:12:50  revo
+Sergio Pokrovskij: KOMP: ref-super=>datumtipo
+
 Revision 1.4  2000/09/14 16:11:20  revo
 Sergio Pokrovskij: raci5.0o=>racio5.0o
 
