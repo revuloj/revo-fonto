@@ -2,20 +2,61 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>diferencial</rad>/o
-</kap>
-<drv mrk="difere2.0o">
-<kap><tld/>o</kap>
-<uzo tip="fak">MAT</uzo>
-<snc>
-<dif>
-Infinitezima elemento de la variado de funkcio. 
-</dif>
-<refgrp tip="vid">
-<ref cel="integr1.0i">integri</ref>.
-</refgrp>
-</snc>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <rad>diferencial</rad>/o
+    </kap>
+    <drv mrk="difere2.0o">
+      <kap><tld/>o</kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          Por <ref tip="prt" cel="deriv.0i.mat">derivebla</ref>
+          <ref cel="funkci.0o.mat">funkcio</ref> <frm>y=f(x)</frm>,
+          la <tld/>o de la argumento &ccirc;e punkto <frm>x<sub>0</sub></frm> estas
+          la diferenco <frm>dx = x<sub>0</sub>-x</frm>;
+          la <tld/>o de la funkcio mem estas lineara funkcio
+          <frm>dy = f&#x2032;(x<sub>0</sub>)&#xd7;dx</frm>
+          <klr>(la <ref tip="prt" cel="deriv.0ajxo.mat">deriva&jcirc;o</ref>
+            multiplikita per la <tld/>o de la argumento)</klr>.
+        </dif>
+        <rim>
+          La nocio estas &gcirc;eneraligebla por plurargumentaj funkcioj en
+          vektoraj spacoj; <ekz>oni povas uzi <tld/>alajn formojn</ekz>.
+        </rim>
+        <ref tip="ant" cel="integr2.0o">integralo</ref>
+      </snc>
+      <trd lng="en">differential</trd>
+      <trd lng="ru">&#x434;&#x438;&#x444;&#x444;&#x435;&#x440;&#x435;&#x43d;&#x446;&#x438;&#x430;&#x43b;</trd>
+    </drv>
+    <drv mrk="difere2.0i">
+      <kap><tld/>i</kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+           Trovi <tld/>on de funkcio.
+        </dif>
+        <ref tip="prt" cel="deriv.0i.mat">derivi</ref>
+        <ref tip="ant" cel="integr2.0i">integrali</ref>
+      </snc>
+      <trd lng="en">differentiate</trd>
+      <trd lng="ru">&#x434;&#x438;&#x444;&#x444;&#x435;&#x440;&#x435;&#x43d;&#x446;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd>
+    </drv>
+    <drv mrk="difere2.0a.ekvacio">
+      <kap><tld/>a ekvacio</kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          <ref tip="super" cel="ekvaci.0o">Ekvacio</ref> entenanta
+          <ref tip="prt" cel="deriv.0ajxo.mat">deriva&jcirc;ojn</ref> a&ubreve;
+          <tld/>jon: <ekz>parta <tld/>a ekvacio elipsa</ekz>.
+        </dif>
+      </snc>
+      <trd lng="en">differential equation</trd>
+      <trd lng="ru">&#x434;&#x438;&#x444;&#x444;&#x435;&#x440;&#x435;&#x43d;&#x446;&#x438;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x435; &#x443;&#x440;&#x430;&#x432;&#x43d;&#x435;&#x43d;&#x438;&#x435;</trd>
+    </drv>
+  </art>
+<!--
+$Log$
+-->
+</vortaro>
