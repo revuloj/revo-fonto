@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>*</ofc>
-<rad>bar</rad>/i
+  <ofc>*</ofc>
+  <rad>bar</rad>/i
 </kap>
 <drv mrk="bar.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -40,7 +40,7 @@
     <dif>
       Malhelpi:
       <ekz>
-        <tld/>i la progreson al la konkurenco, al la  kalumnio;
+        <tld/>i la progreson al la konkurenco, al la kalumnio;
       </ekz>
       <ekz>
         kio <tld/>as la re&gcirc;an ordonon?<fnt>Z</fnt>
@@ -72,16 +72,21 @@
     <trd>&c_z;&c_a;&c_g;&c_o;&c_r;&c_a;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="bar.0o">
   <kap><tld/>o</kap>
   <snc mrk="bar.0o.KOMUNE">
     <dif>
       Io, kio <tld/>as a&ubreve; malhelpas:
-      <ekz>pro limoj kaj <tld/>oj malpacas najbaroj<fnt><bib>PrV</bib></fnt>;</ekz>
-      <ekz>gardu vin du <tld/>oj, lipoj kaj dentaroj
-        <klr>(parolu nur singarde)</klr><fnt><bib>PrV</bib></fnt>;</ekz>
       <ekz>
-        esp-o forigas la lingvajn <tld/>ojn;
+        pro limoj kaj <tld/>oj malpacas najbaroj<fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        gardu vin du <tld/>oj, lipoj kaj dentaroj
+        <klr>(parolu nur singarde)</klr><fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        Esperanto forigas la lingvajn <tld/>ojn;
       </ekz>
       <ekz>
         la Fundamento ne prezentas ian <tld/>on kontra&ubreve; la
@@ -116,18 +121,10 @@
       Tia elemento b en <em>E</em>, ke por &ccirc;iu x en <em>A</em>
       validas x<em>R</em>b:
       <ekz>
-        <ind>supera <tld/>o</ind>
-        <klr>(kiam la rilato estas &#x2264;)</klr>;
-        <trd lng="fr">majorant</trd>
+        <ref tip="sub" cel="bar.suba0o">suba <tld/>o</ref>;
       </ekz>
       <ekz>
-        <ind>suba <tld/>o</ind>
-        <klr>(kiam la rilato estas &#x2265;)</klr>;
-        <trd lng="fr">minorant</trd>
-      </ekz>
-      <ekz>
-        la aro de &ccirc;iuj subaj baroj de la reela intervalo
-        [0,1[ estas la aro de strikte negativaj reeloj;
+        <ref tip="sub" cel="bar.supera0o">supera <tld/>o</ref>;
       </ekz>
       <ekz>
         la aro de reeloj akceptas nek superan, nek suban <tld/>on;
@@ -138,11 +135,15 @@
     </dif>
     <refgrp tip="sub">
       <ref cel="suprem.0o">supremo</ref>,
-      <ref cel="infim.0o">infimo</ref>.
+      <ref cel="infim.0o">infimo</ref>;
     </refgrp>
-    <trd lng="fr">borne<klr tip="ind"> (math.)</klr></trd>
+    <refgrp tip="vid">
+      <ref cel="maksim1.0o">maksimumo</ref>,
+      <ref cel="minimu.0o">minimumo</ref>.
+    </refgrp>
   </snc>
 </drv>
+
 <drv mrk="bar.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
   <snc>
@@ -171,12 +172,15 @@
     <trd>&c_z;&c_a;&c_g;&c_r;&c_a;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="bar.0ilo">
   <kap><tld/>ilo</kap>
   <snc>
     <dif>
       Palisaro, krado, muro apartiganta lokon de alia:
-      <ekz>malanta&ubreve; <tld/>ilo kura&gcirc;o estas facila<fnt><bib>PrV</bib></fnt></ekz>
+      <ekz>
+        malanta&ubreve; <tld/>ilo kura&gcirc;o estas facila<fnt><bib>PrV</bib></fnt>
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="barier.0o">bariero</ref>,
@@ -196,6 +200,7 @@
     <trd>&c_z;&c_a;&c_b;&c_o;&c_r;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="bar.0ita">
   <kap><tld/>ita</kap>
   <snc mrk="bar.0ita.KOMUNE">
@@ -205,24 +210,58 @@
       </ekz>
     </dif>
   </snc>
-  <snc mrk="bar.0ita.metrikaspaco">
+  <snc mrk="bar.0ita.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. subaro de <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
-      Tia, ke &gcirc;in inkluzivas <ref cel="glob.0o.metrikaspaco">globo</ref>:
-      <ekz>
-        la aro de &ccirc;iuj reeloj inter 0 kaj 1 estas <tld/>ita;
-      </ekz>
-      <ekz>
-        la bildaro de la vico (1/n) ne estas <tld/>ita;
-      </ekz>
-      <ekz>
-        <tld/>ita bildigo <klr>(t.e., kies bildaro estas <tld/>ita)</klr>.
-      </ekz>
-    </dif>
+    <fnt><bib>MatVort</bib></fnt>
+    <subsnc mrk="bar.0ita.subaro">
+      <dif>
+        <klr>(p.p. subaro <em>A</em> de
+        <ref cel="ord.0a.aro">orda aro</ref>)</klr>
+        Tia, ke &gcirc;i akceptas <tld/>on:
+        <ekz>
+          &ccirc;iu <tld/>ita subaro de la aro de naturaj entjeroj akceptas
+          maksimumon;
+        </ekz>
+        <ekz>
+          la aro de &ccirc;iuj reeloj inter 0 kaj 1 estas <tld/>ita.
+        </ekz>
+      </dif>
+      <rim>
+        Se la konsiderata ordo-rilato estas
+        <ref cel="tut.0eca.rilato">tuteca</ref> kaj signata per &#x2264;, oni
+        kutime postulas, ke la subaro akceptu kaj superan kaj suban <tld/>ojn.
+      </rim>
+    </subsnc>
+    <subsnc mrk="bar.0ita.bildigo">
+      <dif>
+        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> al
+        <ref cel="ord.0a.aro">orda aro</ref>)</klr>
+        Tia, ke &gcirc;ia bildaro estas <tld/>ita
+        <sncref ref="bar.0ita.subaro"/>.
+      </dif>
+    </subsnc>
+    <subsnc mrk="bar.0ita.metrikaspaco">
+      <dif>
+        <klr>(p.p. subaro de <ref cel="spac.metrika0o">metrika
+        spaco</ref>)</klr>
+        Tia, ke &gcirc;in inkluzivas
+        <ref cel="glob.0o.metrikaspaco">globo</ref>.
+      </dif>
+    </subsnc>
+    <rim>
+      Werner ne precizigas, kiujn subsencojn de la termino li celas.
+      Reiers&oslash;l
+      <fnt><bib>MatStokTerm</bib><lok>p. 8</lok></fnt>
+      montras, ke la termino estas vastsenca, sed uzas la formon
+      <ctl><tld/>ata</ctl>.
+    </rim>
+    <trd lng="de">beschr&auml;nkt</trd>
+    <trd lng="en">bounded</trd>
     <trd lng="fr">born&eacute;<klr tip="ind"> (math.)</klr></trd>
+    <trd lng="ru">&c_o;&c_g;&c_r;&c_a;&c_n;&c_i;&c_ch;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
 </drv>
+
 <drv mrk="bar.cxirkaux0i">
   <kap>&ccirc;irka&ubreve;<tld/>i</kap>
   <snc>
@@ -252,6 +291,7 @@
     <trd>&c_o;&c_g;&c_o;&c_r;&c_a;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="bar.dis0i">
   <kap>dis<tld/>i<fnt>Z</fnt></kap>
   <snc>
@@ -263,6 +303,7 @@
   <trd
   lng="ru">&c_r;&c_a;&c_z;&c_g;&c_o;&c_r;&c_a;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
+
 <drv mrk="bar.plekto0ilo">
   <kap>plekto<tld/>ilo</kap>
   <snc>
@@ -281,6 +322,7 @@
   </trdgrp>
   <trd lng="ru">&c_i;&c_z;&c_g;&c_o;&c_r;&c_o;&c_d;&c_mol;</trd>
 </drv>
+
 <drv mrk="bar.tabul0ilo">
   <kap>tabul<tld/>ilo</kap>
   <snc>
@@ -295,27 +337,72 @@
   </snc>
   <trd lng="fr">palissade<klr tip="ind"> (de planches)</klr></trd>
 </drv>
+
+<drv mrk="bar.suba0o">
+  <kap>suba <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de subaro <em>A</em> de
+      <ref cel="ord.0a.aro">orda aro</ref> (<em>E</em>, &#x2264;))</klr>
+      <ref tip="super" cel="bar.0o.MAT"><tld lit="B"/>o</ref> de la sama
+      aro, provizita per la inversa rilato:
+      <ekz>
+        la aro de &ccirc;iuj subaj baroj de la reela intervalo
+        [0,1[ estas la aro de strikte negativaj reeloj.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">untere <ind>Schranke</ind></trd>
+  <trd lng="en">lower <ind>bound</ind></trd>
+  <trd lng="fr">minorant</trd>
+  <trd lng="ru">&c_n;&c_i;&c_zh;&c_n;&c_ja;&c_ja; <ind>&c_g;&c_r;&c_a;&c_n;&c_mol;</ind></trd>
+</drv>
+
+<drv mrk="bar.supera0o">
+  <kap>supera <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de subaro <em>A</em> de
+      <ref cel="ord.0a.aro">orda aro</ref> (<em>E</em>, &#x2264;))</klr>
+      <ref tip="super" cel="bar.0o.MAT"><tld lit="B"/>o</ref> de &gcirc;i:
+      <ekz>
+        &ccirc;iu pozitiva reelo estas supera <tld/>o de la aro de
+        negativaj reeloj.
+      </ekz>
+    </dif>
+    <rim>
+      La epitetoj <ctl>supera</ctl> a&ubreve; <ctl>suba</ctl> rilatas al ia
+      intuicia prezento de la koncerna aro kaj de &gcirc;ia ordo. La&ubreve;
+      la kunteksto eblas inter&scirc;an&gcirc;i ilian signifon, a&ubreve;
+      paroli pri <ctl>dekstra <tld/>o</ctl>, <ctl>maldekstra <tld/>o</ctl> ks.
+    </rim>
+  </snc>
+  <trd lng="de">obere <ind>Schranke</ind></trd>
+  <trd lng="en">upper <ind>bound</ind></trd>
+  <trd lng="fr">majorant</trd>
+  <trd lng="ru">&c_v;&c_je;&c_r;&c_h;&c_n;&c_ja;&c_ja; <ind>&c_g;&c_r;&c_a;&c_n;&c_mol;</ind></trd>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.20  2002/01/09 20:23:21  revo
+Revision 1.21 2002/02/14 17:35:53 revo
+Bart Demeyere: +<ofc>*
+Revision 1.20 2002/01/09 20:23:21 revo
 fontindiko PrV per programo de Jerome
-
-Revision 1.19  2001/09/10 18:14:03  revo
+Revision 1.19 2001/09/10 18:14:03 revo
 Marc Bavant: kor "supra/malsupra ~o" al "supera/suba ~o" laux MatVort
-
-Revision 1.18  2001/07/12 18:12:47  revo
+Revision 1.18 2001/07/12 18:12:47 revo
 Marc Bavant: kor fnt PIV, +snc komunuza cxe ~ita
-
-Revision 1.17  2001/02/28 17:13:47  revo
+Revision 1.17 2001/02/28 17:13:47 revo
 Marc Bavant: kor klr cxe trd fr
-
-Revision 1.16  2001/02/10 20:07:46  revo
+Revision 1.16 2001/02/10 20:07:46 revo
 Marc Bavant: +ekz pri ~o de bildigo
-
-Revision 1.15  2001/02/05 17:14:37  revo
+Revision 1.15 2001/02/05 17:14:37 revo
 Marc Bavant: +ref al orda aro
-
-Revision 1.14  2001/02/04 17:17:18  revo
+Revision 1.14 2001/02/04 17:17:18 revo
 -->
 </vortaro>
