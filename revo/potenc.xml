@@ -111,7 +111,7 @@
     <subsnc mrk="potenc.0o.per_reelo">
       <fnt><bib>EKV</bib><lok>&para;347</lok></fnt>
       <dif>
-        <klr>(de pozitiva <ref cel="reel.0o.MAT">reelo</ref> x per 
+        <klr>(de pozitiva <ref cel="reel.0o.MAT">reelo</ref> x per
         reelo y)</klr>
         La <ref cel="ekspon1.0o">eksponencialo</ref> de y kun bazo
         x; alidire: e<sup>y.ln x</sup>.
@@ -347,18 +347,69 @@
       <ref cel="kvadra1.0o.algebra">kvadrato</ref>,
       <ref cel="kub.0o.algebra">kubo</ref>.
     </refgrp>
-    <trd lng="de">n-te <ind>Potenz</ind></trd>
-    <trd lng="en">n-th <ind>power</ind></trd>
-    <trd lng="fr">puissance n<klr tip="ind"> (d'un nombre)</klr></trd>
-    <trd lng="ru">n-&c_ja; <ind>&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</ind></trd>
+    <rim>
+      Tiu difino estas vastigebla al elementoj de ajna
+      <ref cel="monoid.0o">monoido</ref> kun multiplike signata operacio:
+      <ekz>
+        n-a <tld/>o de entjero,
+      </ekz>
+      <ekz>
+        de matrico,
+      </ekz>
+      <ekz>
+        de endomorfio <klr>(konsiderante la operacion kunligo)</klr>...
+      </ekz>
+    </rim>
   </snc>
+  <trd lng="de">n-te <ind>Potenz</ind></trd>
+  <trd lng="en">n-th <ind>power</ind></trd>
+  <trd lng="fr">puissance n<klr tip="ind"> (d'un nombre)</klr></trd>
+  <trd lng="ru">n-&c_ja; <ind>&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</ind></trd>
 </drv>
+
+<drv mrk="potenc.nul0a">
+  <kap>nul<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. nenula elemento x de <ref cel="ring.0o.MAT">ringo</ref>)</klr>
+      Tia, ke iu <ref cel="potenc.noa0o">n-a <tld/>o</ref> de &gcirc;i egalas
+      al la nulo:
+      <ekz>
+        &ccirc;iu nul<tld/>a elemento estas anka&ubreve; 
+        <ref cel="divizo.nul0o">nuldivizoro</ref>;
+      </ekz>
+      <ekz>
+        <ref cel="ajgen.0o">ajgeno</ref> de nul<tld/>a endomorfio estas
+        nepre nula;
+      </ekz>
+      <ekz>
+        nul<tld/>a matrico;
+      </ekz>
+      <ekz>
+        la sumo de du komuti&gcirc;antaj nul<tld/>aj elementoj estas 
+        anka&ubreve; nul<tld/>a.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="nilpot.0a">nilpotenta.</ref>
+    <rim>
+      Estas strange, ke &ccirc;i tiu simpla kaj travidebla kunmeta&jcirc;o 
+      ne aperas en niaj fontoj. 
+    </rim>
+  </snc>
+  <trd lng="de">nilpotent</trd>
+  <trd lng="en">nilpotent</trd>
+  <trd lng="fr">nilpotent</trd>
+  <trd lng="ru">&c_n;&c_i;&c_l;&c_mol;&c_p;&c_o;&c_t;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
+</drv>
+
 </art>
 <!--
 $Log$
-Revision 1.16  2002/05/12 16:37:22  revo
+Revision 1.17 2002/05/27 17:19:30 revo
+Marc Bavant: ~o (per reelo): +fnt
+Revision 1.16 2002/05/12 16:37:22 revo
 Marc Bavant: ~o MAT: +fnt, splitis, mod dif, +trd en/fr; ~i: sxovis trd de; ~igi: mod rim, mod ekz, +trd en/fr; ~iganto: kor dif; +drv n-a ~o; ~igo: mod dif, +trd; ~iga(n)to: +trd
-
 Revision 1.15 2002/02/12 17:31:38 revo
 Sergio Pokrovskij: ~as => ~igas
 Revision 1.14 2002/02/02 20:44:30 revo
@@ -374,6 +425,5 @@ Paul Peeraerts: ald pliajn trd nl
 Revision 1.9 2001/06/18 18:27:11 revo
 Dennis Wibrow: +trd germ
 Revision 1.8 2001/02/18 17:15:07 revo
-Sergio Pokrovskij: snc-mrk, fak{JUR,POL}, dif, ekz
 -->
 </vortaro>
