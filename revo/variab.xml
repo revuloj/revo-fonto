@@ -4,7 +4,7 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>variabl</rad>/o
+  <rad>variabl</rad>/o
 </kap>
 <drv mrk="variab.0o">
   <kap><tld/>o</kap>
@@ -66,27 +66,90 @@
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</trd>
   <trd lng="sk">premenn&aacute;</trd>
 </drv>
+
+<drv mrk="variab.hazarda0o">
+  <kap>hazarda <tld/>o, loteca <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(super <ref cel="spac.probablo0o">probablospaco</ref>
+      (<em>&Omega;</em>,<em>A</em>,P))</klr>
+      <ref cel="mezur.0ebla.MAT">Mezurebla</ref>
+      <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> X de la probablospaco
+      al la aro de reeloj, provizita per la
+      <ref cel="algebr.borelasigma0o">borela &sigma;-algebro</ref>; alidire:
+      tia funkcio X, ke la inversa bildo per &gcirc;i de ajna intervalo
+      ]-&#8734;,x[ estas <ref cel="okaz.0o.MAT">okazo</ref>, ofte signata
+      per (X&lt;x):
+      <ekz>
+        hazarda variablo X difinas probablon P<sub>X</sub>=PoX<sup>-1</sup>
+        sur la aro de reeloj provizita per la borela &sigma;-algebro.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="variab.stokasta0o">stokasta <tld/>o.</ref>
+    <refgrp tip="vid">
+      <ref cel="distri.probablo0o">probablodistribuo</ref>,
+      <ref cel="dens.probablo0o">probablodenso</ref>,
+      <ref cel="momant.noa0o">momanto</ref>,
+      <ref cel="ekspek.0o">ekspekto</ref>,
+      <ref cel="varian1.0o">varianco</ref>,
+      <ref cel="devi.varianca0o">varianca devio</ref>.
+    </refgrp>
+    <rim>
+      La formoj <ctl>hazarda <tld/>o</ctl> kaj <ctl>loteca <tld/>o</ctl> ne
+      troveblas en niaj fontoj, sed ni opinias ilin preferindaj al la sinonima
+      <ctl>stokasta <tld/>o</ctl>, &ccirc;ar la bezono por aparta
+      radiko &leftquot;<ref cel="stokas">stokast</ref>&rightquot; ne
+      &scirc;ajnas al ni pravigebla &ccirc;i-okaze.
+    </rim>
+  </snc>
+  <trd lng="de">zuf&auml;llige <ind>Variable</ind></trd>
+  <trdgrp lng="en">
+    <trd>variate</trd>,
+    <trd>random <ind>variable</ind></trd>
+  </trdgrp>
+  <trd lng="fr">variable al&eacute;atoire</trd>
+  <trd lng="pl">zmienna losowa</trd>
+  <trd lng="ru">&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_n;&c_a;</ind></trd>
+</drv>
+
+<drv mrk="variab.stokasta0o">
+  <kap>stokasta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <ref tip="dif" cel="variab.hazarda0o">hazarda <tld/>o.</ref>
+  </snc>
+  <trd lng="de">zuf&auml;llige <ind>Variable</ind></trd>
+  <trdgrp lng="en">
+    <trd>variate</trd>,
+    <trd>random <ind>variable</ind></trd>
+  </trdgrp>
+  <trd lng="fr">variable al&eacute;atoire</trd>
+  <trd lng="pl">zmienna losowa</trd>
+  <trd lng="ru">&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_n;&c_a;</ind></trd>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.12  2002/08/04 17:33:46  revo
+Revision 1.13 2002/09/09 19:47:02 revo
+Viliam Bur: +sk trd
+Revision 1.12 2002/08/04 17:33:46 revo
 Marc Bavant: ~o MAT: +rim
-
-Revision 1.11  2002/07/25 17:34:00  revo
+Revision 1.11 2002/07/25 17:34:00 revo
 Eduardo M. Kalinowski: ald trd pt
-Revision 1.10  2002/05/16 16:33:39  revo
+Revision 1.10 2002/05/16 16:33:39 revo
 Zmicier Lapcionak: + trd be
-Revision 1.9  2002/05/12 16:36:17  revo
+Revision 1.9 2002/05/12 16:36:17 revo
 Marc Bavant: +fnt
-Revision 1.8  2002/03/20 17:37:11  revo
+Revision 1.8 2002/03/20 17:37:11 revo
 Jose Martin del Pozo: +trd es
-Revision 1.7  2002/02/23 19:57:04  revo
+Revision 1.7 2002/02/23 19:57:04 revo
 Marc Bavant: ~o MAT: mod mrk, mod dif, mod ekz
-Revision 1.6  2001/10/14 08:48:08  revo
+Revision 1.6 2001/10/14 08:48:08 revo
 Paul Peeraerts: ald trd nl
-Revision 1.5  2001/06/23 18:11:35  revo
+Revision 1.5 2001/06/23 18:11:35 revo
 Marc Bavant: mod ref cel al funkcio MAT
-Revision 1.4  2001/05/15 18:14:17  revo
-Sergio Pokrovskij: TEZ
+Revision 1.4 2001/05/15 18:14:17 revo
 -->
 </vortaro>
