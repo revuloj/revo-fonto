@@ -4,12 +4,14 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>8</ofc>
-<rad>multiplik</rad>/i
-<fnt>Z</fnt>
+  <ofc>8</ofc>
+  <rad>multiplik</rad>/i
+  <fnt>Z</fnt>
 </kap>
 <drv mrk="multip.0i">
-  <kap><tld/>i</kap>
+  <kap>
+    <tld/>i
+  </kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <uzo tip="fak">MAT</uzo>
@@ -31,10 +33,13 @@
   <trd lng="nl">vermenigvuldigen</trd>
   <trd lng="sv">multiplicera</trd>
 </drv>
+
 <drv mrk="multip.0o">
-  <kap><tld/>o</kap>
-  <snc>
-    <uzo tip="fak">MAT</uzo>
+  <kap>
+    <tld/>o
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="multip.0o.elementa">
     <uzo tip="klr">(elementa aritmetiko)</uzo>
     <dif>
       La operacio <ref cel="multip.0i">multipliki</ref>:
@@ -48,118 +53,173 @@
       <ref cel="multip.0anto">multiplikanto</ref>.
     </refgrp>
   </snc>
-  <snc mrk="multip.0o.ringo">
-    <uzo tip="fak">MAT</uzo>
+  <snc mrk="multip.0o.neelementa">
     <dif>
-      (en <ref cel="ring.0o.MAT">ringo</ref>) &Gcirc;ia dua
-      <ref tip="super" cel="operac.0o.MAT">operacio</ref>.
+      Simila operacio, kaj pli precize:
     </dif>
-  </snc>
-  <refgrp tip="vid">
-    <ref cel="faktor.0o.multip">faktoro</ref>,
-    <ref cel="produt.0o">produto</ref>
-  </refgrp>
-  <trd lng="fr">multiplication</trd>
-  <trd lng="nl">vermenigvuldiging</trd>
-  <trd lng="sv">multiplikation</trd>
+    <subsnc mrk="multip.0o.ringo">
+      <dif>
+        <klr>(en <ref cel="ring.0o.MAT">ringo</ref>)</klr> &gcirc;ia dua
+        <ref tip="super" cel="operac.0o.MAT">operacio</ref>;
+      </dif>
+    </subsnc>
+    <subsnc mrk="multip.0o.modulo">
+      <dif>
+        <klr>(en <ref cel="modul.0o.MAT">modulo</ref> a&ubreve;
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr> &gcirc;ia
+        <ref tip="super" cel="operac.ekstera0o.aro">ekstera operacio</ref>;
+      </dif>
+    </subsnc>
+    <subsnc mrk="multip.0o.de_matrico_per_skalaro">
+      <dif>
+        <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> A super <em>K</em>
+        per elemento &lambda; de <em>K</em>)</klr>
+        <ref tip="super" cel="operac.ekstera0o.aro">ekstera operacio</ref>, kies
+        rezulto estas (n,p)-matrico kun &gcirc;enerala elemento
+        &lambda;.a<sub>ij</sub>:
+      <ekz>
+        <tld/>o de matrico de A per skalaro &lambda; havas saman rezulton kiel
+        dekstra a&ubreve; maldekstra <tld/>o per diagonala matrico, kies
+        &ccirc;iuj diagonalaj elementoj egalas al &lambda;;
+      </ekz>
+      <ekz>
+        provizite per <tld/>o per skalaro, la adicia grupo de (n,p)-matricoj
+        fari&gcirc;as np-dimensia <ref cel="spac.vektora0o">vektora spaco</ref>,
+        kaj la ringo de (n,n)-matricoj fari&gcirc;as n<sup>2</sup>-dimensia
+        <ref cel="algebr.lineara0o.strukturo">lineara algebro</ref>;
+      </ekz>
+    </dif>
+  </subsnc>
+  <subsnc mrk="multi.0o.de_matricoj">
+    <dif>
+      <klr>(de matricoj)</klr>
+    </dif>
+    <ref tip="dif" cel="multip.matrica0o">matrica <tld/>o.</ref>
+  </subsnc>
+</snc>
+<refgrp tip="vid">
+  <ref cel="faktor.0o.multip">faktoro</ref>,
+  <ref cel="produt.0o">produto</ref>
+</refgrp>
+<trd lng="fr">multiplication</trd>
+<trd lng="nl">vermenigvuldiging</trd>
+<trd lng="sv">multiplikation</trd>
 </drv>
+
 <drv mrk="multip.0anto">
-  <kap><tld/>anto</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      Nombro, per kiu oni <tld/>as alian nombron.
-    </dif>
-  </snc>
-  <trd lng="fr">multiplicateur</trd>
+<kap>
+  <tld/>anto
+</kap>
+<uzo tip="fak">MAT</uzo>
+<snc>
+  <dif>
+    Nombro, per kiu oni <tld/>as alian nombron.
+  </dif>
+</snc>
+<trd lng="fr">multiplicateur</trd>
 <trd lng="nl">vermenigvuldiger</trd>
 </drv>
+
 <drv mrk="multip.0ato">
-  <kap><tld/>ato</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <snc>
-    <dif>
-      Nombro, kiun oni <tld/>as per alia nombro.
-    </dif>
-    <ref tip="sin" cel="multip1.0o">multiplikendo.</ref>
-    <rim>
+<kap>
+  <tld/>ato
+</kap>
+<uzo tip="fak">MAT</uzo>
+<fnt><bib>PIV1</bib></fnt>
+<snc>
+  <dif>
+    Nombro, kiun oni <tld/>as per alia nombro.
+  </dif>
+  <ref tip="sin" cel="multip1.0o">multiplikendo.</ref>
+  <rim>
     La&ubreve; la donitaj difinoj estas malfacile distingi <tld/>anton kaj
-    <tld/>aton, &ccirc;ar &ccirc;iu el ili respondas al la difino de la alia. 
+    <tld/>aton, &ccirc;ar &ccirc;iu el ili respondas al la difino de la alia.
     Pli oportune estus paroli pri <ctl>dekstra</ctl> a&ubreve; <ctl>maldekstra
     <tld/>anto</ctl>.
-    </rim>
-  </snc>
-  <trd lng="fr">multiplicande</trd>
+  </rim>
+</snc>
+<trd lng="fr">multiplicande</trd>
 <trd lng="nl">vermenigvuldigtal</trd>
 </drv>
+
 <drv mrk="multip.matrica0o">
-  <kap>matrica <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> A per
-      (p,q)-matrico B)</klr>
-      <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kies rezulto estas
-      (n,q)-matrico C kun &gcirc;enerala elemento 
-      c<sub>ij</sub>=&#x2211;a<sub>ik</sub>.b<sub>kj</sub>, kie k varias inter
-      1 kaj p:
-      <ekz>
-        la matrica <tld/>o ne estas difinita por ajna paro de matricoj;
-      </ekz>
-      <ekz>
-        la aro de &ccirc;iuj (n,n)-matricoj, povizite per matricaj adicio kaj
-        <tld/>o, ricevas la strukturon de nekomuteca ringo, kies unuo estas
-        la <ref cel="matric.unuo0o">unuomatrico</ref>. 
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="fr">multiplication matricielle</trd>
+<kap>
+  matrica <tld/>o
+</kap>
+<uzo tip="fak">MAT</uzo>
+<snc>
+  <dif>
+    <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> A per
+    (p,q)-matrico B)</klr>
+    <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kies rezulto estas
+    (n,q)-matrico C kun &gcirc;enerala elemento
+    c<sub>ij</sub>=&#x2211;a<sub>ik</sub>.b<sub>kj</sub>, kie kaj varias inter
+    1 kaj p:
+    <ekz>
+      la matrica <tld/>o ne estas difinita por ajna paro de matricoj;
+    </ekz>
+    <ekz>
+      la aro de &ccirc;iuj (n,n)-matricoj, povizite per matricaj adicio kaj
+      <tld/>o, ricevas la strukturon de nekomuteca ringo, kies unuo estas
+      la <ref cel="matric.unuo0o">unuomatrico</ref>.
+    </ekz>
+  </dif>
+</snc>
+<trd lng="fr">multiplication matricielle</trd>
 </drv>
+
 <drv mrk="multip.polinoma0o">
-  <kap>polinoma <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      Dua <ref tip="super" cel="operac.0o.MAT">operacio</ref> en
-      <ref cel="ring.polinom0o">polinom-ringo</ref>:
-      <ekz>
-        la &gcirc;enerala termo <em>S</em><sub>n</sub> de la rezulto
-        de <tld/>o de <em>P</em> kun <em>Q</em> estas
-        &#x2211;<sub>p+q=n</sub>
-        <em>P</em><sub>p</sub>.<em>Q</em><sub>q</sub>;
-      </ekz>
-      <ekz>
-        la rezulto de <tld/>o de <em>X</em><sup>i</sup> per
-        <em>X</em><sup>j</sup> estas <em>X</em><sup>i+j</sup>;
-      </ekz>
-      <ekz>
-        la konstanta polinomo <em>X</em><sup>0</sup> (pli kutime signata
-        per <em>1</em>) estas ne&ubreve;tra elemento rilate <tld/>on.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="fr">multiplication polynomiale</trd>
-  <trd lng="sv">polynommultiplikation</trd>
+<kap>
+  polinoma <tld/>o
+</kap>
+<uzo tip="fak">MAT</uzo>
+<snc>
+  <dif>
+    Dua <ref tip="super" cel="operac.0o.MAT">operacio</ref> en
+    <ref cel="ring.polinom0o">polinom-ringo</ref>:
+    <ekz>
+      la &gcirc;enerala termo <em>S</em><sub>n</sub> de la rezulto
+      de <tld/>o de <em>P</em> kun <em>Q</em> estas
+      &#x2211;<sub>p+q=n</sub>
+      <em>P</em><sub>p</sub>.<em>Q</em><sub>q</sub>;
+    </ekz>
+    <ekz>
+      la rezulto de <tld/>o de <em>X</em><sup>i</sup> per
+      <em>X</em><sup>j</sup> estas <em>X</em><sup>i+j</sup>;
+    </ekz>
+    <ekz>
+      la konstanta polinomo <em>X</em><sup>0</sup> (pli kutime signata
+      per <em>1</em>) estas ne&ubreve;tra elemento rilate <tld/>on.
+    </ekz>
+  </dif>
+</snc>
+<trd lng="fr">multiplication polynomiale</trd>
+<trd lng="sv">polynommultiplikation</trd>
 </drv>
+
 <drv mrk="multip.skalara0o">
-  <kap>skalara <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-      <ref tip="dif" cel="produt.skalara0o.operacio">skalara
-      produto.</ref>
-  </snc>
-  <rim>
-    La uzo de <ctl>skalara <tld/>o</ctl> anstata&ubreve;
-    <ctl>skalara produto</ctl> estas pli logika, sed
-    ne kutima en naciaj lingvoj.
-  </rim>
-  <trd lng="fr">produit scalaire</trd>
-  <trd lng="sv">skal&auml;rmultiplikation</trd>
+<kap>
+  skalara <tld/>o
+</kap>
+<uzo tip="fak">MAT</uzo>
+<snc>
+  <ref tip="dif" cel="produt.skalara0o.operacio">skalara
+  produto.</ref>
+</snc>
+<rim>
+  La uzo de <ctl>skalara <tld/>o</ctl> anstata&ubreve;
+  <ctl>skalara produto</ctl> estas pli logika, sed
+  ne kutima en naciaj lingvoj.
+</rim>
+<trd lng="fr">produit scalaire</trd>
+<trd lng="sv">skal&auml;rmultiplikation</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.15  2001/10/28 19:13:19  revo
+Marc Bavant: +drv matrica ~o
+
 Revision 1.14  2001/09/25 18:18:51  revo
 Paul Peeraerts: kor en nl
 
@@ -176,8 +236,5 @@ Revision 1.10  2001/03/11 18:56:20  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.9  2001/02/27 17:12:38  revo
-Marc Bavant: kor ref cel al faktoro
-
-Revision 1.8  2001/02/15 09:51:16  revo
 -->
 </vortaro>
