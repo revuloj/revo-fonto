@@ -89,34 +89,65 @@
       <trd>pr&oacute;ximo</trd>
     </trdgrp>
   </snc>
-  <snc mrk="najbar.0a.en_orda_aro">
+  <snc mrk="najbar.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>EKV</bib><lok>&para;288</lok></fnt>
-    <dif>
-      <klr>(p.p. elementoj a kaj b de <ref cel="ar.orda0o">orda aro</ref>
-      (<em>E</em>,&#x2264;))</klr>
-      Tiaj, ke ne ekzistas tia elemento c, ke a&lt;c&lt;b a&ubreve;
-      b&lt;c&lt;a:
-      <ekz>
-        entjero n estas <tld/>a nur kun n+1 kaj n-1;
-      </ekz>
-      <ekz>
-        du racionaloj neniam povas esti <tld/>aj.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="antaux.0anto.MAT">anta&ubreve;anto</ref>,
-      <ref cel="post.0anto.MAT">postanto</ref>.
-    </refgrp>
-    <trd lng="de">benachbart</trd>
-    <trdgrp lng="en">
-      <trd>neighbouring</trd>,
-      <trd>consecutive</trd></trdgrp>
-    <trdgrp lng="fr">
-      <trd>adjacent</trd>,
-      <trd>cons&eacute;cutif</trd>,
-      <trd>voisin<klr tip="ind"> (adj.)</klr></trd></trdgrp>
-    <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    <subsnc mrk="najbar.0a.en_orda_aro">
+      <fnt><bib>EKV</bib><lok>&para;288</lok></fnt>
+      <dif>
+        <klr>(p.p. elementoj a kaj b de <ref cel="ar.orda0o">orda aro</ref>
+        (<em>E</em>,&#x2264;))</klr>
+        Tiaj, ke ne ekzistas tia elemento c, ke a&lt;c&lt;b a&ubreve;
+        b&lt;c&lt;a:
+        <ekz>
+          entjero n estas <tld/>a nur kun n+1 kaj n-1;
+        </ekz>
+        <ekz>
+          du racionaloj neniam povas esti <tld/>aj.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="antaux.0anto.MAT">anta&ubreve;anto</ref>,
+        <ref cel="post.0anto.MAT">postanto</ref>.
+      </refgrp>
+      <trd lng="de">benachbart</trd>
+      <trdgrp lng="en">
+        <trd>neighbouring</trd>,
+        <trd>consecutive</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>adjacent</trd>,
+        <trd>cons&eacute;cutif</trd>,
+        <trd>voisin<klr tip="ind"> (adj., math.)</klr></trd>
+      </trdgrp>
+      <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    </subsnc>
+    <subsnc mrk="najbar.0a.grafee">
+      <fnt><bib>KompLeks</bib></fnt>
+      <dif>
+        <klr>(p.p. pri du verticoj en
+        <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
+        Tiaj, ke ekzistas e&gcirc;o, kies
+        <ref cel="rand.0o.grafea_egxo">randoj</ref> ili estas;
+        <klr>(p.p. pri du e&gcirc;oj en
+        <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
+        Havantaj komunan randon.
+      </dif>
+      <trdgrp lng="de">
+        <trd>benachbart</trd>,
+        <trd>adjacent</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>adjacent</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>voisin<klr tip="ind"> (adj., math.)</klr></trd>,
+        <trd>adjacent</trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>s&aogonek;siedni</trd>,
+        <trd>przyleg&lstroke;y</trd></trdgrp> 
+      <trd lng="ru">&c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
+    </subsnc>
   </snc>
   <trdgrp lng="nl">
     <trd>aangrenzend</trd>,
@@ -170,12 +201,15 @@
 </art>
 <!--
 $Log$
-Revision 1.14  2002/06/02 17:33:17  revo
+Revision 1.15 2002/06/07 17:31:19 revo
+Eduardo M. Kalinowski: ald trd pt
+
+Revision 1.14 2002/06/02 17:33:17 revo
 Marc Bavant: ~a: +snc MAT
 
-Revision 1.13  2002/03/07 18:11:44  revo
+Revision 1.13 2002/03/07 18:11:44 revo
 Alejandro Mejia Greene: ald his trd
-Revision 1.12  2002/02/23 19:56:02  revo
+Revision 1.12 2002/02/23 19:56:02 revo
 Yury Finkel: konv (f)
 Revision 1.11 2002/01/18 21:59:44 revo
 fontindiko PrV per programo de Jerome
@@ -186,7 +220,5 @@ Paul Peeraerts: ald plian trd nl
 Revision 1.8 2001/11/29 17:33:49 revo
 Yury Finkel: +trd ru
 Revision 1.7 2001/05/01 18:09:11 revo
-Paul Peeraerts: ald trd nl
-Revision 1.6 2001/03/12 17:14:30 revo
 -->
 </vortaro>
