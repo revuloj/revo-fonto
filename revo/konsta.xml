@@ -8,9 +8,7 @@
   <rad>konstant</rad>/a
 </kap>
 <drv mrk="konsta.0a">
-  <kap>
-    <ofc>*</ofc><tld/>a
-  </kap>
+  <kap><ofc>*</ofc><tld/>a</kap>
   <snc>
     <dif>
       Karakterizas ion, kiu ne &ccirc;esas esti la sama; sen&scirc;an&gcirc;a, sen&ccirc;esa,
@@ -48,7 +46,7 @@
         resti en <tld/>a loko<fnt>Z</fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="halt.sen0a">senhalta</ref>,
       <ref cel="dauxr.0a">da&ubreve;ra</ref>,
       <ref cel="pas">nepasa</ref>,
@@ -75,8 +73,60 @@
       <trd>beharrlich</trd>
     </trdgrp>
   </snc>
+  <snc mrk="konsta.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="konsta.0a.gxenerale">
+      <dif>
+        Estanta <tld/>o <sncref ref="konsta.0o.MAT"/>:
+        <ekz>
+          la <tld/>a termo de ekvacio.
+        </ekz>
+      </dif>
+      <ref tip="ant" cel="vari.0a">varia.</ref>
+    </subsnc>
+    <subsnc mrk="konsta.0a.bildigo">
+      <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>)</klr>
+        Tia, ke &gcirc;ia bildaro enhavas nur unu elementon:
+        <ekz>
+          la polinoma funkcio x<sup>2</sup>+x ne estas <tld/>a, se konsiderata
+          kiel reela funkcio, sed ja estas, se konsiderata kiel funkcio
+          super la korpo de 2-modulaj entjeroj;
+        </ekz>
+        <ekz>
+          <tld/>a <ref cel="ir.0ejo.MAT">irejo</ref>;
+        </ekz>
+        <ekz>
+          <tld/>a <ref cel="vic.0o.MAT">vico</ref> <klr>(kies &ccirc;iuj
+          termoj estas inter si egalaj)</klr>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="konsta.0a.polinomo">
+      <dif>
+        <klr>(p.p. <ref cel="polino.0o.formala">polinomo</ref>)</klr>
+        Tia, ke nur &gcirc;ia termo kun <ref cel="indic.0o.familio">indico</ref>
+        0 estas eble nenula:
+        <ekz>
+          <ref cel="polino.nul0o">nulpolinomo</ref> kaj 
+          <ref cel="polino.unuo0o">unuopolinomo</ref> estas <tld/>aj.
+        </ekz>
+      </dif>
+      <rim>
+        Atentu: kvankam polinomo ja estas vico, <tld/>a polinomo ne estas
+        <tld/>a vico! La termino transiris al polinomoj pere de la
+        reelaj polinomaj funkcioj.
+      </rim>
+    </subsnc>
+    <trd lng="de">konstant</trd>
+    <trd lng="en">constant</trd>
+    <trd lng="fr">constant</trd>
+    <trd lng="ru">&c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_y;&c_j;</trd>
+  </snc>
   <trd lng="cs">st&aacute;l&yacute;</trd>
   <trd lng="en">constant</trd>
+  <trd lng="es">constante</trd>
   <trd lng="nl">constant</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_y;&c_j;</trd>,
@@ -84,14 +134,55 @@
   </trdgrp>
 </drv>
 
+<drv mrk="konsta.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="konsta.0o.KOMUNE">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      Fizika grando, kiu ne varias la&ubreve; la tempo:
+      <ekz>
+        gravita <tld/>o.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="konsta.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <dif>
+      Io, konsiderata nevaria <klr>(ekz-e nombro, <tld/>a funkcio, 
+      <tld/>a polinomo)</klr>, kontraste kun 
+      <ref cel="variab.0o">variabloj</ref>, 
+      <ref cel="funkci.0o.MAT">funkcioj</ref> ks:
+      <ekz>
+        la deriva&jcirc;o de lineara funkcio estas <tld/>o;
+      </ekz>
+      <ekz>
+        <ind>variigo de <tld/>oj</ind> <klr>(ilia anstata&ubreve;igo per
+        funkcioj)</klr>.
+        <trd lng="de">Variation des Konstanten</trd>
+        <trd lng="en">variation of constants</trd>
+        <trd lng="fr">variation des constantes</trd>
+        <trd lng="ru">&c_v;&c_a;&c_r;&c_i;&c_ja;&c_c;&c_i;&c_ja; &c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_y;&c_h;</trd>
+      </ekz>
+    </dif>
+    <ref tip="ant" cel="variab.0o">variablo.</ref>
+    <trd lng="de">Konstante</trd>
+    <trd lng="en">constant</trd>
+    <trd lng="fr">constante</trd>
+    <trd lng="ru">&c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_a;&c_ja;</trd>
+  </snc>
+</drv>
+
 <drv mrk="konsta.0e">
-  <kap>
-    <tld/>e
-  </kap>
+  <kap><tld/>e</kap>
   <snc>
     <dif>
       Sen&ccirc;ese, da&ubreve;re:
-      <ekz>ne sama la vento blovas <tld/>e<fnt><bib>PrV</bib></fnt>;</ekz>
+      <ekz>
+        ne sama la vento blovas
+        <tld/>e<fnt><bib>PrV</bib></fnt>;
+      </ekz>
       <ekz>
         la homaro <tld/>e kaj senfine perfekti&gcirc;adas<fnt>Z</fnt>;
       </ekz>
@@ -114,7 +205,10 @@
       <ekz>
         <tld/>e kriadi;
       </ekz>
-      <ekz>kiu <tld/>e lokon &scirc;an&gcirc;as, neniam sin aran&gcirc;as<fnt><bib>PrV</bib></fnt>.</ekz>
+      <ekz>
+        kiu <tld/>e lokon &scirc;an&gcirc;as, neniam sin aran&gcirc;as
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>dauernd</trd>,
@@ -130,7 +224,7 @@
         &ccirc;u estas viro, kiu amas <tld/>e?
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="persis">persiste</ref>.
     </refgrp>
     <trdgrp lng="de">
@@ -146,15 +240,13 @@
 </art>
 <!--
 $Log$
-Revision 1.9  2002/01/11 19:09:37  revo
+Revision 1.10  2002/02/14 17:34:04  revo
+Ulrich Fellmann: + 12 germ trdj
+Revision 1.9 2002/01/11 19:09:37 revo
 fontindiko PrV per programo de Jerome
-
-Revision 1.8  2001/10/23 18:34:10  revo
+Revision 1.8 2001/10/23 18:34:10 revo
 Yury Finkel: +trd ru
-
-Revision 1.7  2001/03/23 17:45:20  revo
+Revision 1.7 2001/03/23 17:45:20 revo
 Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>
-
