@@ -3,65 +3,77 @@
 
 <vortaro>
 <art mrk="$Id$">
-  <kap>
-    <rad>entjer</rad>/o
-  </kap>
-  <drv mrk="entjer.0o">
-    <kap><tld/>o</kap>
-    <uzo tip="fak">MAT</uzo>
-    <snc>
-      <dif>
-        Nombro el la vico <frm>0, 1, 2, 3 ...</frm>
-        a&ubreve; el la vico <frm>-1, -2, -3 ...</frm>
-        <ekz>
-          la aron de <tld/>oj oni signas per <em>Z</em>.
-        </ekz>
-      </dif>
-      <ref tip="malprt" cel="aritme.0o">aritmetiko</ref>
-      <ref tip="super" cel="racio5.0o">raciono</ref>
-      <ref tip="vid" cel="kardin.0o">kardinalo</ref>
-    </snc>
-    <trd lng="en">integer</trd>
-    <trdgrp lng="fr">
-      <trd>entier <klr tip="ind">(nombre)</klr></trd>,
-      <trd>nombre entier</trd>,
-      <trd>entier relatif</trd>,
-      <trd>entier rationnel</trd></trdgrp> 
-    <trd lng="ru">&#x446;&#x435;&#x43b;&#x43e;&#x435; &#x447;&#x438;&#x441;&#x43b;&#x43e;</trd>
-  </drv>
-  <drv mrk="entjer.natura0o">
-    <kap>natura <tld/>o</kap>
-    <uzo tip="fak">MAT</uzo>
-    <snc>
-      <dif>
-        <ref cel="negati.ne0a">Nenegativa</ref> <tld/>o (t.e. 0, 1, 2, 3...):
-        <ekz>
-          la aron de naturaj <tld/>oj oni signas per <em>N</em>,
-          kaj tiun de strikte pozitivaj <tld/>oj per <em>N</em><sup>*</sup>.
-        </ekz>
-      </dif>
-      <rim>
-        En elementa aritmetiko, oni ofte lasas la nombron 0 ekster
-        la aro de naturaj <tld/>oj. 
-      </rim>
-    </snc>
-    <trd lng="en">natural number</trd>
-    <trd lng="fr">entier naturel</trd>
-  </drv>
-</art>
+<kap>
+  <rad>entjer</rad>/o
+</kap>
+<drv mrk="entjer.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="nombr.0o.MAT">Nombro</ref> el la sinsekvo 0, 1, 
+      2, 3... a&ubreve; el la sinsekvo -1, -2, -3...:
+      <ekz>
+        la aron de <tld/>oj oni signas per <em>Z</em>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="racio5.0o">raciono;</ref>
+    <refgrp tip="vid">
+      <ref cel="aritme.0o">aritmetiko</ref>,
+      <ref cel="kardin.0o.MAT">kardinalo</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">ganze <ind>Zahl</ind></trd>
+  <trd lng="en">integer</trd>
+  <trdgrp lng="fr">
+    <trd>entier<klr tip="ind"> (nombre)</klr></trd>,
+    <trd>nombre entier</trd>,
+    <trd>entier relatif</trd>,
+    <trd>entier rationnel</trd>
+  </trdgrp>
+  <trd lng="ru">&c_c;&c_je;&c_l;&c_o;&c_je; <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
+</drv>
 
+<drv mrk="entjer.natura0o">
+  <kap>natura <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
+  <snc>
+    <dif>
+      <ref cel="negati.ne0a">Nenegativa</ref> 
+      <ref tip="super" cel="entjer.0o"><tld/>o</ref> (t.e. 0, 1, 2, 3...):
+      <ekz>
+        la aron de naturaj <tld/>oj oni signas per <em>N</em>,
+        kaj tiun de strikte pozitivaj <tld/>oj per <em>N</em><sup>*</sup>.
+      </ekz>
+    </dif>
+    <rim>
+      En elementa aritmetiko, oni ofte lasas la nombron 0 ekster
+      la aro de naturaj <tld/>oj.
+    </rim>
+  </snc>
+  <trd lng="de">nat&uuml;rliche <ind>Zahl</ind></trd>
+  <trd lng="en">natural <ind>number</ind></trd>
+  <trd lng="fr">entier naturel</trd>
+  <trd lng="ru">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
+</drv>
+</art>
 <!--
 $Log$
-Revision 1.8  2001/04/14 17:24:23  revo
+Revision 1.9 2001/06/27 18:12:35 revo
+Marc Bavant: sxovis fakindikon ekster snc
+
+Revision 1.8 2001/04/14 17:24:23 revo
 Marc Bavant: +rim cxe natura ~o
 
-Revision 1.7  2001/02/16 17:11:49  revo
+Revision 1.7 2001/02/16 17:11:49 revo
 Marc Bavant: +trd fr, +drv natura ~o, +ekz
 
-Revision 1.6  2000/08/26 07:17:24  revo
+Revision 1.6 2000/08/26 07:17:24 revo
 Sergio Pokrovskij: ref tip="vid"
 
-Revision 1.5  2000/08/24 17:48:30  revo
+Revision 1.5 2000/08/24 17:48:30 revo
 Sergio Pokrovskij: reverko, trd
 
 -->
