@@ -7,24 +7,36 @@
 <ofc>*</ofc>
 <rad>mez</rad>/o
 </kap>
+
 <drv mrk="mez.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="mez.0o.punkto">
     <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(elementa geometrio)</uzo>
-    <dif>
-      <klr>(de <ref cel="strek.0o.segmento">streko</ref>)</klr>
-      <ref tip="super" cel="punkt.0o.spaco">Punkto</ref> egaldistanca
-      de &gcirc;iaj du <ref cel="ekstre.0o.segmento">ekstremoj</ref>:
-      <ekz>
-        la du strekoj, kiuj ligas la <tld/>on al la ekstremoj de la
-        originala streko, estas <ref cel="egal.0a.izometria">egalaj</ref>.
-      </ekz>
-    </dif>
+    <subsnc mrk="mez.0o.punkto.elementa">
+      <uzo tip="klr">(elementa geometrio)</uzo>
+      <dif>
+        <klr>(de <ref cel="strek.0o.segmento">streko</ref>)</klr>
+        <ref tip="super" cel="punkt.0o.spaco">Punkto</ref> egaldistanca
+        de &gcirc;iaj du <ref cel="ekstre.0o.segmento">ekstremoj</ref>:
+        <ekz>
+          la du strekoj, kiuj ligas la <tld/>on al la ekstremoj de la
+          originala streko, estas <ref cel="egal.0a.izometria">egalaj</ref>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="mez.0o.punkto.afina">
+      <uzo tip="klr">(afina geometrio)</uzo>
+      <dif>
+        <klr>(de du punktoj en <ref cel="spac.afina0o">afina spaco</ref>)</klr>
+        Ilia <ref tip="super" cel="centr.pezo0o.MAT">pezocentro</ref> kun
+        egalaj koeficientoj.
+      </dif>
+    </subsnc>
   </snc>
   <snc>
     <dif>
-      Punkto egaldistanca de du ekstremoj, de du limoj, en spaco a&ubreve; tempo:
+      Punkto egaldistanca de du ekstremoj, de du limoj, en spaco a&ubreve; 
+      tempo:
       <ekz>
         <tld/>o de bastono, strato, rivero, urbo;
       </ekz>
@@ -32,7 +44,7 @@
         <tld/>o de la nokto, jaro, vivo;
       </ekz>
       <ekz>
-        <tld/>o de voja&gcirc;o, romano, kanto
+        <tld/>o de voja&gcirc;o, romano, kanto.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -55,6 +67,7 @@
   <trd lng="cs">st&rcaron;ed</trd>
   <trd lng="de">Mitte</trd>
   <trd lng="en">middle</trd>
+  <trd lng="fr">milieu</trd>
 </drv>
 <drv mrk="mez.0a">
   <kap><tld/>a</kap>
@@ -68,7 +81,7 @@
         <tld/>a pezo, kresko, lernejo;
       </ekz>
       <ekz>
-        <tld/>kvalita lano
+        <tld/>kvalita lano.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -79,6 +92,7 @@
       <ref cel="pont.0o">ponto</ref>.
     </refgrp>
   </snc>
+  <trd lng="fr">moyen</trd>
 </drv>
 <drv mrk="mez.0e">
   <kap><tld/>e de, <tld/>e en, <tld/>e inter, en la <tld/>o de</kap>
@@ -119,14 +133,20 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="fr">
+    <trd>au <ind>milieu</ind> de</trd>,
+    <trd>parmi</trd></trdgrp> 
 </drv>
 <drv mrk="mez.0epoko">
   <kap><tld/>epoko</kap>
   <snc>
     <dif>
-      Epoko inter la antikva kaj la moderna historio,  de post falo de la okcidenta romana imperio (475) &gcirc;is venka eniro de Turkoj en Konstantinoplon (i453).
+      Epoko inter la antikva kaj la moderna historio,  de post falo de la 
+      okcidenta romana imperio (475) &gcirc;is venka eniro de Turkoj en 
+      Konstantinoplon (1453).
     </dif>
   </snc>
+  <trd lng="fr">moyen-&acirc;ge</trd>
 </drv>
 <drv mrk="mez.0nombro">
   <kap><tld/>kvanto, <tld/>nombro</kap>
@@ -139,14 +159,19 @@
     </dif>
   </snc>
   <snc>
+    <uzo tip="fak">MAT</uzo>
     <dif>
       Sumo de pluraj kvantoj dividite per ilia nombro.
     </dif>
   </snc>
+  <trd lng="fr">moyenne</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.8  2001/05/01 18:08:59  revo
+Marc Bavant: +snc MAT
+
 Revision 1.7  2001/03/12 17:14:39  revo
 Dennis Wibrow: +trd germ
 
