@@ -26,12 +26,15 @@
   </snc>
   <snc mrk="deriv.0i.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
     <uzo tip="klr">(fakula &jcirc;argono)</uzo>
     <dif>
       <klr>(<ref cel="funkci.0o.MAT">funkcion</ref>)</klr>
       Kalkuli ties <tld/>a&jcirc;on.
     </dif>
+    <trdgrp lng="de">
+      <trd>ableiten</trd>,
+      <trd>differenzieren</trd></trdgrp> 
     <trd lng="en">differentiate</trd>
     <trdgrp lng="ru">
       <trd>&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -57,7 +60,7 @@
   </snc>
   <snc mrk="deriv.0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
     <subsnc mrk="deriv.0ajxo.cxepunkto">
       <dif>
         <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
@@ -111,13 +114,16 @@
         </ekz>
       </dif>
     </subsnc>
+    <trd lng="de">Ableitung</trd>
     <trd lng="en">derivative</trd>
     <trd lng="fr">d&eacute;riv&eacute;e<klr tip="ind"> (d'une fonction, distribution)</klr></trd>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_a;&c_ja;</trd>
   </snc>
   <snc mrk="deriv.0ajxo.diferencialo">
     <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(de bildigo, kies argumento ne estas skalaro)</uzo>
+    <dif>
+    <klr>(de bildigo, kies argumento ne estas skalaro)</klr>
+    </dif>
     <ref tip="dif" cel="difere2.0o">diferencialo.</ref>
   </snc>
 </drv>
@@ -138,7 +144,10 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="holomo.0a">holomorfa.</ref>
+    <trd lng="de">differenzierbar</trd>
+    <trd lng="en">differentiable</trd>
     <trd lng="fr">d&eacute;rivable</trd>
+    <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
   </snc>
 </drv>
 
@@ -153,6 +162,9 @@
       Funkcio g, kies <tld/>a&jcirc;o egalas al f, t.e. g&#x2032;=f.
     </dif>
     <ref tip="sin" cel="integr2.0o.malderivajxo">integralo.</ref>
+    <trdgrp lng="de">
+      <trd>Stammfunktion</trd>,
+      <trd>unbestimmtes <ind>Integral</ind></trd></trdgrp> 
     <trdgrp lng="en">
       <trd>antiderivative</trd>,
       <trd>primitive</trd>,
@@ -165,7 +177,7 @@
     <trdgrp lng="ru">
       <trd>&c_p;&c_je;&c_r;&c_v;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
       <trd>&c_p;&c_r;&c_i;&c_m;&c_i;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
-      <trd>&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&#x451;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
+      <trd>&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
     </trdgrp>
   </snc>
   <snc mrk="deriv.mal0ajxo.LIN">
@@ -200,7 +212,7 @@
 <drv mrk="deriv.parta0ajxo">
   <kap>parta <tld/>a&jcirc;o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
+  <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
   <snc>
     <dif>
       <klr>(de <ref cel="funkci.n-argumenta0o">plurargumenta
@@ -235,6 +247,9 @@
 </art>
 <!--
 $Log$
+Revision 1.18  2001/12/17 17:31:31  revo
+Marc Bavant: drv MAT: +fnt
+
 Revision 1.17 2001/10/20 18:52:19 revo
 Marc Bavant: kor kap cxe parta ~ajxo
 Revision 1.16 2001/09/30 19:14:35 revo
