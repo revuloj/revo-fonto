@@ -3,10 +3,8 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap>
-  <ofc>*</ofc>
-  <rad>grup</rad>/o
-</kap>
+<kap><ofc>*</ofc>
+<rad>grup</rad>/o</kap>
 <drv mrk="grup.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
@@ -71,7 +69,7 @@
       en <em>E</em>, kaj ke por &ccirc;iu elemento en <em>E</em> ekzistas
       &gcirc;ia <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>:
       <ekz>
-        <ind>adicia <tld/>o</ind> <klr>(kies operacio estas adicie 
+        <ind>adicia <tld/>o</ind> <klr>(kies operacio estas adicie
         signata)</klr>
         <fnt><bib>MatVort</bib></fnt>;
         <trd lng="de">additive <ind>Grup</ind></trd>
@@ -96,6 +94,7 @@
   <trd lng="en">group</trd>
   <trd lng="es">grupo</trd>
   <trd lng="fr">groupe</trd>
+  <trd lng="nl">groep</trd>
   <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
 </drv>
 
@@ -121,6 +120,7 @@
   </snc>
   <trd lng="de">gruppieren</trd>
   <trd lng="fr">grouper</trd>
+  <trd lng="nl">groeperen</trd>
   <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
@@ -136,6 +136,7 @@
   </snc>
   <trd lng="de">Bande</trd>
   <trd lng="fr">bande<klr tip="ind"> (groupe)</klr></trd>
+  <trd lng="nl">bende</trd>
   <trdgrp lng="ru">
     <trd>&c_sh;&c_a;&c_j;&c_k;&c_a;</trd>,
     <trd>&c_b;&c_a;&c_n;&c_d;&c_a;</trd>,
@@ -165,6 +166,7 @@
   </snc>
   <trd lng="de">Untergruppe</trd>
   <trd lng="fr">sous-groupe</trd>
+  <trd lng="nl">ondergroep</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
 </drv>
 
@@ -173,11 +175,12 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Tia adicia <ref tip="super" cel="grup.0o.MAT">grupo</ref>, provizita per
-      <ref cel="tut.0eca.rilato">tuteca</ref> 
-      <ref cel="rilat.ordo0o">ordo-rilato</ref>, ke por &ccirc;iuj du strikte 
+      Tia adicia <ref tip="super" cel="grup.0o.MAT">grupo</ref>, provizita
+      per
+      <ref cel="tut.0eca.rilato">tuteca</ref>
+      <ref cel="rilat.ordo0o">ordo-rilato</ref>, ke por &ccirc;iuj du strikte
       <ref cel="poziti.0a.nombro">pozitivaj</ref> elementoj x kaj y en &gcirc;i
-      ekzistas tia entjero n, ke n.x&#x2265;y:
+      ekzistas tia entjero n, ke n.x&#8805;y:
       <ekz>
         la reeloj konsistigas ar&hcirc;imedan <tld/>on.
       </ekz>
@@ -186,10 +189,13 @@
       <ref cel="arhxim.0o">Ar&hcirc;imedo</ref>.
     </refgrp>
   </snc>
-  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
   <trd lng="de">archimedisch geordnete <ind>Gruppe</ind></trd>
   <trd lng="en">Archimedean <ind>group</ind></trd>
   <trd lng="fr">groupe archim&eacute;dien</trd>
+  <trd lng="nl">Archimedische <ind>groep</ind></trd>
   <trd lng="ru">&c_a;&c_r;&c_h;&c_i;&c_m;&c_je;&c_d;&c_o;&c_v;&c_a; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
 </drv>
 
@@ -208,7 +214,9 @@
       <ref cel="lig.kun0o.MAT">kunligo</ref>.
     </dif>
   </snc>
-  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
   <trd lng="de">Fundamentalgruppe</trd>
   <trd lng="en">fundamental <ind>group</ind></trd>
   <trdgrp lng="fr">
@@ -247,20 +255,30 @@
       </dif>
     </subsnc>
   </snc>
-  <trd lng="de">Galoissche <ind>Gruppe</ind><klr tip="ind"> (von K' uber K, einer Gleichung)</klr></trd>
-  <trd lng="en">Galois['s] <ind>group<klr tip="ind"> (of K' with respect to K, of an equation)</klr></ind></trd>
-  <trd lng="fr">groupe de Galois<klr tip="ind"> (de K' sur K, d'une &eacute;quation)</klr></trd>
-  <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a; &c_G;&c_a;&c_l;&c_u;&c_a;<klr tip="ind"> (K' &c_n;&c_a;&c_d; K, &c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
+  <trd lng="de">Galoissche <ind>Gruppe</ind><klr tip="ind"> (von K' uber
+  K, einer Gleichung)</klr></trd>
+  <trd lng="en">Galois['s] <ind>group<klr tip="ind"> (of K' with respect
+  to K, of an equation)</klr></ind></trd>
+  <trd lng="fr">groupe de Galois<klr tip="ind"> (de K' sur K, d'une
+  &eacute;quation)</klr></trd>
+  <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a; &c_G;&c_a;&c_l;&c_u;&c_a;<klr tip="ind"> (K' &c_n;&c_a;&c_d; K,
+  &c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
   <refgrp tip="vid">
     <ref cel="galez.0o">Galezo</ref>.
   </refgrp>
-  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.17  2002/01/07 17:31:38  revo
-Marc Bavant: ~o: +ekz, +fnt; +drv arhximeda ~o; fundamenda ~o: +adm, +trd de/en
+Revision 1.18 2002/01/13 17:31:15 revo
+Marc Bavant: +drv galeza ~o; sub~o: +fnt, +klr en dif
+
+Revision 1.17 2002/01/07 17:31:38 revo
+Marc Bavant: ~o: +ekz, +fnt; +drv arhximeda ~o; fundamenda ~o: +adm, +trd
+de/en
 Revision 1.16 2001/11/11 19:21:43 revo
 Marc Bavant: mod ref al kunligo
 Revision 1.15 2001/11/03 19:11:44 revo
@@ -274,7 +292,5 @@ Yury Finkel: +trd ru
 Revision 1.11 2001/03/31 18:08:06 revo
 Marc Bavant: +drv fundamenta ~o, +trd ru cxe MAT terminoj
 Revision 1.10 2001/01/09 21:52:32 revo
-Wolfram Diestel: ekz-fnt, germ trd
-Revision 1.9 2000/11/11 18:38:09 revo
 -->
 </vortaro>
