@@ -62,27 +62,46 @@
   </snc>
   <snc mrk="deriv.0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
-      kun reela a&ubreve; kompleksa argumento)</klr>
-      Tia funkcio f&#x2032;, ke
-      f&#x2032;(x) = lim<sub>h&#x2192;0</sub>&#xa0;[f(x+h)-f(x)]/h,
-      se tia <ref cel="limes.0o.bildigo">limeso</ref> ekzistas:
-      <ekz>
-        unua (<frm>f&#x2032;</frm>), dua (<frm>f&#x2033;</frm>)
-        tria (<frm>f&#x2034;</frm>) <tld/>a&jcirc;oj;
-      </ekz>
-      <ekz>
-        la funkcio kosinuso estas <tld/>a&jcirc;o de sinuso;
-      </ekz>
-      <ekz>
-        parta <tld/>a&jcirc;o <klr>(pri funkcio plurargumenta, kiam nur unu
-        argumento varias)</klr>.
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="difere2.0o">diferencialo.</ref>
+    <subsnc mrk="deriv.0ajxo.funkcio">
+      <dif>
+        <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
+        kun reela a&ubreve; kompleksa argumento)</klr>
+        Tia funkcio f&#x2032;, ke
+        f&#x2032;(x) = lim<sub>h&#x2192;0</sub>&#xa0;[f(x+h)-f(x)]/h,
+        se tia <ref cel="limes.0o.bildigo">limeso</ref> ekzistas:
+        <ekz>
+          unua (<frm>f&#x2032;</frm>), dua (<frm>f&#x2033;</frm>)
+          tria (<frm>f&#x2034;</frm>),... n-a (<frm>f<sup>(n)</sup></frm>)
+          <tld/>a&jcirc;oj;
+        </ekz>
+        <ekz>
+          la funkcio kosinuso estas <tld/>a&jcirc;o de sinuso;
+        </ekz>
+        <ekz>
+          parta <tld/>a&jcirc;o <klr>(pri funkcio plurargumenta, kiam nur unu
+          argumento varias)</klr>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="difere2.0o">diferencialo.</ref>
+    </subsnc>
+    <subsnc mrk="deriv.0ajxo.distribucio">
+      <dif>
+        <klr>(de <ref cel="distri2.0o">distribucio</ref> T)</klr>
+        La distribucio T&#x2032;, difinita per T&#x2032;(&phi;)=
+        -T(&phi;&#x2032;):
+        <ekz>
+          la hevisajda funkcio ne estas <tld/>ebla kiel funkcio, sed
+          &gcirc;ia distribucia <tld/>a&jcirc;o estas la
+          <ref cel="distri2.diraka0o">diraka distribucio</ref>;
+        </ekz>
+        <ekz>
+          la n-a <tld/>a&jcirc;o de la diraka distribucio &jcirc;etas
+          &phi; al (-1)<sup>n</sup> &phi;<sup>(n)</sup>(0).
+        </ekz>
+      </dif>
+    </subsnc>
     <trd lng="en">derivative</trd>
-    <trd lng="fr">d&eacute;riv&eacute;e<klr tip="ind"> (fonction)</klr></trd>
+    <trd lng="fr">d&eacute;riv&eacute;e<klr tip="ind"> (fonction, distribution)</klr></trd>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_a;&c_ja;</trd>
   </snc>
   <snc mrk="deriv.0ajxo.diferencialo">
@@ -147,6 +166,9 @@
 </art>
 <!--
 $Log$
+Revision 1.11  2001/06/23 18:12:34  revo
+Marc Bavant: mod ref cel al funkcio MAT
+
 Revision 1.10  2001/03/14 19:17:12  revo
 korektis trd lng='klr' => uzo tip='klr'
 
@@ -163,8 +185,5 @@ Revision 1.6  2000/09/13 16:11:22  revo
 Sergio Pokrovskij: +malderivajxo
 
 Revision 1.5  2000/09/12 16:12:01  revo
-Sergio Pokrovskij: ":"
-
-Revision 1.4  2000/09/11 16:15:21  revo
 -->
 </vortaro>
