@@ -53,13 +53,15 @@ kelkaj mejloj<fnt>B</fnt>.
 </dif>
 </snc>
 
-    <snc num="5">
-      <uzo tip="fak">MAT</uzo>
-      <dif>
-        Alia nomo por aro, provizita per matematika strukturo, kiu donas al
-        &gcirc;i ian similecon kun la fizika spaco.
-      </dif>
-    </snc>
+     <snc mrk="spac.0o.MAT">
+       <uzo tip="fak">MAT</uzo>
+       <dif>
+         Alia nomo por <ref cel="ar.0o.MAT">aro</ref>, provizita per
+         matematika strukturo, kiu donas al &gcirc;i ian similecon kun la
+         fizika <tld/>o.
+       </dif>
+       <ref tip="vid" cel="punkt.0o.spaco">punkto.</ref>
+     </snc>
 
 <trd lng="fr">espace</trd>
 </drv>
@@ -93,42 +95,65 @@ granda inter<tld/>o<fnt>Z</fnt>.
 </dif>
 </snc>
 <trdgrp lng="fr">
-    <trd>espace</trd>,
-    <trd>intervalle</trd></trdgrp>
+     <trd>espace</trd>,
+     <trd>intervalle</trd></trdgrp>
 </drv>
 
-     <drv mrk="spac.metrika0o">
-       <kap>metrika <tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           Aro <em>M</em>, konsiderata kune kun
-           <ref cel="metrik.0o.MAT">metriko</ref> en <em>M</em>.
-         </dif>
-       </snc>
-       <trd lng="fr">espace m&eacute;trique</trd>
-     </drv>
+      <drv mrk="spac.metrika0o">
+        <kap>metrika <tld/>o</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            Aro <em>M</em>, konsiderata kune kun
+            <ref cel="metrik.0o.MAT">metriko</ref> en <em>M</em>.
+          </dif>
+        </snc>
+        <trd lng="fr">espace m&eacute;trique</trd>
+      </drv>
 
-     <drv mrk="spac.vektora0o">
-       <kap>vektora <tld/>o, vektor<tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <klr>(super <ref cel="korp.0o.MAT">korpo</ref> <em>K</em>)</klr>
-           <ref tip="super" cel="modul.0o.MAT">Modulo</ref>
-           super <em>K</em>.
-         </dif>
-       </snc>
-       <trd lng="en">vector space</trd>
-       <trd lng="fr">espace vectoriel</trd>
-       <trd lng="ru">(&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_je;) 
-<ind>&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_o;&c_je;</ind> 
+      <drv mrk="spac.vektora0o">
+        <kap>vektora <tld/>o, vektor<tld/>o</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            <klr>(super <ref cel="korp.0o.MAT">korpo</ref> <em>K</em>)</klr>
+            <ref tip="super" cel="modul.0o.magmo">Modulo</ref>
+            super <em>K</em>.
+          </dif>
+          <ref tip="prt" cel="vektor.0o.MAT">vektoro.</ref>
+        </snc>
+        <trd lng="en">vector space</trd>
+        <trd lng="fr">espace vectoriel</trd>
+        <trd lng="ru">(&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_je;)
+<ind>&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_o;&c_je;</ind>
 &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
-     </drv>
+      </drv>
+
+      <drv mrk="spac.topologia0o">
+        <kap>topologia <tld/>o</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            <ref tip="super" cel="ar.0o.MAT">Aro</ref> <em>E</em>, konsiderata
+            kune kun <ref cel="topolo.0o.strukturo">topologio</ref> <em>T</em>
+            super <em>E</em>:
+            <ekz>
+              tian topologian <tld/>on oni signas per (<em>E</em>, <em>T</em>).
+            </ekz>
+          </dif>
+        </snc>
+        <trd lng="fr">espace topologique</trd>
+        <trd 
+lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_k;&c_o;&c_je; 
+&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
+      </drv>
 
 </art>
 <!--
 $Log$
+Revision 1.6  2000/10/29 17:13:20  revo
+Marc Bavant: +drv vektor~o
+
 Revision 1.5  2000/10/02 16:13:47  revo
 Marc Bavant: +snc MAT, +drv metrika ~o
 
