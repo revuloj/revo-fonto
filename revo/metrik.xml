@@ -19,13 +19,16 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(en aro <em>M</em>)</klr>
+      <klr>(en aro <frm><g>M</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      d de <em>M</em>&#xd7;<em>M</em> al la aro de pozitivaj reeloj, ke por
-      &ccirc;iuj elementoj x, y, z&#x2208;<em>M</em> validas
-      d(x,y) = 0, se kaj nur se x=y;
-      d(x,y) = d(y,x);
-      d(x,z) &#x2264; d(x,y)+d(y,z):
+      d de <frm><g>M</g>&#xd7;<g>M</g></frm> al la aro de 
+      pozitivaj reeloj, ke por &ccirc;iuj elementoj 
+      <frm><k>x</k>, <k>y</k>, <k>z</k>&#x2208;<g>M</g></frm> veras, ke:
+      (1) <frm>d(<k>x</k>,<k>y</k>) = 0</frm>, 
+         se kaj nur se <frm><k>x</k> = <k>y</k></frm>;
+      (2) <frm>d(<k>x</k>,<k>y</k>) = d(<k>y</k>,<k>x</k>)</frm>;
+      (3) <frm>d(<k>x</k>,<k>z</k>) &#x2264; 
+      d(<k>x</k>,<k>y</k>)+d(<k>y</k>,<k>z</k>)</frm>:
       <ekz>
         la <ref cel="valor.absoluta0o">absoluta valoro</ref> de la diferenco 
         inter du nombroj estas <tld/>o en la aro de la koncernaj nombroj.
@@ -38,27 +41,30 @@
     </refgrp>
     <rim>
       <tld lit="M"/>o estas matematika formaligo de la nocio distanco.
-      La valoron d(x,y) oni kutime nomas distanco inter <ctl>punktoj</ctl> 
-      x kaj y. La tria aksiomo, foje nomata <ctl>triangula 
+      La valoron <frm>d(<k>x</k>,<k>y</k>)</frm> oni kutime nomas distanco 
+      inter <ctl>punktoj</ctl> <frm><k>x</k></frm> kaj <frm><k>y</k></frm>. 
+      La tria aksiomo, foje nomata <ctl>triangula 
       neegala&jcirc;o</ctl>, signifas, ke la <ctl>rekta</ctl> vojo de iu punkto 
       al alia estas anka&ubreve; la malplej longa.
     </rim>
+    <trdgrp lng="fr">
+      <trd>distance</trd>,
+      <trd>m&eacute;trique<klr tip="ind"> (math.)</klr></trd>
+    </trdgrp>
+    <trd lng="pl">metryka</trd>
   </snc>
   <trd lng="de">Metrik</trd>
   <trd lng="en">metric</trd>
-  <trdgrp lng="fr">
-    <trd>distance</trd>,
-    <trd>m&eacute;trique</trd>
-  </trdgrp>
   <trd lng="nl">metriek</trd>
   <trd lng="ru">&c_m;&c_je;&c_t;&c_r;&c_i;&c_k;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.13  2002/06/02 17:33:15  revo
+Marc Bavant: kor "sse"
 Revision 1.12  2002/05/02 16:38:25  revo
 Marc Bavant: ~o MAT: +trd en
-
 Revision 1.11  2002/03/07 18:12:21  revo
 Dennis Wibrow: +trd germ
 Revision 1.10  2002/01/06 17:46:10  revo
@@ -74,6 +80,5 @@ Marc Bavant: ref tip, +trd ru
 Revision 1.5  2000/10/03 19:50:01  revo
 Marc Bavant: kor malpli longa -> malplej
 Revision 1.4  2000/10/02 16:13:21  revo
-Marc Bavant: +snc MAT
 -->
 </vortaro>
