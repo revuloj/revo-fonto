@@ -2,33 +2,134 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>redakt</rad>/i
-</kap>
-<drv mrk="redakt.0i">
-<kap><tld/>i</kap>
-<gra><vspec>tr</vspec></gra>
-<snc>
-<dif>
-Skribe esprimi en definitiva  k la&ubreve;cela formo: <ekz><tld/>i artikolon, raporton, cirkuleron, leteron, oficialan akton<fnt>B</fnt>,
-</ekz> <ekz>siajn memora&jcirc;ojn, siajn pensojn<fnt>B</fnt>.
-</ekz> 
-</dif>
-<refgrp tip="sin">
-<ref cel="verk.0i">verki</ref>,
-<ref cel="formul.0i">formuli</ref>,
-<ref cel="vort.0igi">vortigi</ref>.
-</refgrp>
-</snc>
-<trd lng="en">edit</trd>
-</drv>
-<drv mrk="redakt.0ejo">
-<kap><tld/>ejo</kap>
-<snc>
-<dif>
-Redakcio 2.  
-</dif>
-</snc>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>1</ofc>
+      <rad>redakt</rad>/i
+    </kap>
+    <drv mrk="redakt.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc mrk="redakt.0i.tekston">
+        <dif>
+          Skribe esprimi en definitiva kaj la&ubreve;cela formo:
+          <ekz>
+            <tld/>i artikolon, raporton, cirkuleron, leteron,
+            oficialan akton<fnt>B</fnt>,
+          </ekz><ekz>
+            siajn memora&jcirc;ojn, siajn pensojn<fnt>B</fnt>.
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="verk.0i">verki</ref>,
+          <ref cel="formul.0i">formuli</ref>,
+          <ref cel="vort.0igi">vortigi</ref>.
+        </refgrp>
+      </snc>
+      <snc mrk="redakt.0i.gazeton">
+        <dif>
+          Direkti publikigon de gazeto, artikolaro ktp, elektante
+          publikigotajn erojn, reviziante kaj korektante ilin:
+          <ekz>
+            en la fino de tiu jaro li venis al &Scirc;anhajo por fikslo&gcirc;i kaj
+            <tld/>is la literaturajn gazetojn Ju Si kaj Ben Li&ubreve;
+            <fnt>
+              <vrk>&Ccirc;ina Antologio (1919-1949)</vrk>,
+              <lok>Pekino: &Ccirc;ina Esperanto-Eldonejo, 1986, p.
+                3-14 (Noto pri Lusin).</lok></fnt>;
+          </ekz><ekz>
+            distingita pro ... la Hejma vortaro, <tld/>ita de li
+            <fnt>
+              <vrk>La Esperantisto de la Jaro 2000</vrk>,
+              <lok>LOdE, 2001:1(75).</lok></fnt>.
+          </ekz>
+        </dif>
+      </snc>
+      <snc mrk="redakt.0i.KOMP">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Enigi, movi, kopii, forigi, &scirc;an&gcirc;i partojn de teksto, bildo
+          a&ubreve; alia datumaro, &scirc;an&gcirc;i &gcirc;ian aran&gcirc;on a&ubreve; prezenton:
+          <ekz>
+            <tld/>i unikodan tekstodosieron, programon;
+          </ekz><ekz>
+            for<tld/>i <klr>(forigi per <tld/>ado)</klr> la HTML-markojn.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">edit</trd>
+      <trd lng="ru">&c_r;&c_je;&c_d;&c_a;&c_k;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    </drv>
+    <drv mrk="redakt.0ejo">
+      <kap><tld/>ejo</kap>
+      <snc>
+        <dif>
+          Loko kie gazeto estas redaktata:
+          <ekz>
+            bona verkisto penas por eviti penon al la leganto &dash;
+            kaj plie ne forgesas, ke la unua trovi&gcirc;as en la <tld/>ejo
+            <fnt>
+              <aut>Lanti</aut>: <vrk>Pensoj (26)</vrk>.</fnt>;
+          </ekz><ekz>
+            gazetistoj forveturis &ccirc;iu en sian <tld/>ejon por verki
+            nekrologon
+            <fnt>
+              <aut>M. Bulgakov, trad. S. Pokrovskij</aut>:
+              <vrk>La maistro kaj Margarita</vrk>,
+              <lok>&ccirc;ap. 5</lok>.</fnt>.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="ru">&c_r;&c_je;&c_d;&c_a;&c_k;&c_c;&c_i;&c_ja;</trd>
+    </drv>
+    <drv mrk="redakt.0ilo">
+      <kap><tld/>ilo</kap>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          Programaro por <tld/>i <sncref ref="redakt.0i.KOMP"/>:
+          <ekz>
+            <ind>teksta <tld/>ilo</ind>
+            <klr>(por redakti tekstajn dosierojn)</klr>;
+            <trd lng="en">text editor</trd>
+            <trd lng="ru">&c_t;&c_je;&c_k;&c_s;&c_t;&c_o;&c_v;&c_o;&c_j; &c_r;&c_je;&c_d;&c_a;&c_k;&c_t;&c_o;&c_r;</trd>
+          </ekz><ekz>
+            <ind>grafika <tld/>ilo</ind>
+            <klr>(por redakti bildojn, grafikajn dosierojn)</klr>;
+            <trd lng="en">graphics editor</trd>
+            <trd lng="ru">&c_g;&c_r;&c_a;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_r;&c_je;&c_d;&c_a;&c_k;&c_t;&c_o;&c_r;</trd>
+          </ekz><ekz>
+            <ind>tipar<tld/>ilo</ind>
+            <klr>(por redakti tiparojn, ekz-e por
+              aldoni la &ccirc;apelitajn literojn)</klr>.
+            <trd lng="en">font editor</trd>
+            <trd lng="ru">&c_r;&c_je;&c_d;&c_a;&c_k;&c_t;&c_o;&c_r; &c_sh;&c_r;&c_i;&c_f;&c_t;&c_o;&c_v;</trd>
+          </ekz><ekz>
+            <em>UniRed</em> estas <tld/>ilo de simpla unikoda teksto
+            <fnt>
+              <aut>J. Finkel</aut>:
+              <lok><url
+               ref="http://www.esperanto.mv.ru/UniRed/UTF8/index.html">UniRed
+                  &dash; unikoda tekstoredaktilo por Vindozo 9x/NT</url></lok>.</fnt>.
+          </ekz><ekz>
+            Simredo 3.3 &dash; Unikoda <tld/>ilo verkita per &Gcirc;avo
+            <fnt>
+              <aut>Klivo Lendon</aut>:
+              <lok><url
+              ref="http://purl.oclc.org/net/klivo/simredo">Hejmpa&gcirc;o
+                  de Simredo</url></lok>.</fnt>.
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="liter.0umilo">literumilo</ref>,
+          <ref cel="verk.0ilo">verkilo</ref>.
+        </refgrp>
+      </snc>
+      <trd lng="en">editor</trd>
+      <trd lng="ru">&c_r;&c_je;&c_d;&c_a;&c_k;&c_t;&c_o;&c_r;</trd>
+    </drv>
+  </art>
+<!--
+$Log$
+-->
+</vortaro>
