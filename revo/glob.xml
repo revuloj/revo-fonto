@@ -3,8 +3,10 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap><ofc>*</ofc>
-<rad>glob</rad>/o</kap>
+<kap>
+  <ofc>*</ofc>
+  <rad>glob</rad>/o
+</kap>
 <drv mrk="glob.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
@@ -53,35 +55,39 @@
       <trd>bol</trd>
     </trdgrp>
   </snc>
-  <snc mrk="glob.0o.metrikaspaco">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(kun centro a kaj radiuso &rho;, en
-      <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
-      Subaro konsistanta el &ccirc;iuj
-      <ref cel="punkt.0o.spaco">punktoj</ref>, kies
-      <ref cel="distan.0o.MAT">distanco</ref> al a estas malpli granda
-      ol &rho;:
-      <ekz>
-        <tld/>oj estas
-        <ref cel="ferm.mal0ita.metrikaspaco">malfermitaj</ref> subaroj.
-      </ekz>
-    </dif>
-    <rim>
-      Eblas difini anka&ubreve; <ctl>fermitajn <tld/>ojn</ctl>, se oni
-      allasas, ke la distanco al la centro egalu la radiuson. Kontrastcele
-      oni foje nomas la &ccirc;i-supre difinitajn <tld/>ojn malfermitaj.
-    </rim>
-    <trd lng="fr">boule<klr tip="ind">
-    (dans un espace m&eacute;trique)</klr></trd>
-    <trd lng="ru">&c_sh;&c_a;&c_r;<klr tip="ind">
-    (&c_v; &c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_m; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;)</klr></trd>
-  </snc>
-  <snc mrk="glob.0o.sfero">
+  <snc mrk="glob.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatVort</bib></fnt>
-    <ref tip="dif" cel="sfer.0o.solido">sfera solido.</ref>
-    <trd lng="fr">boule<klr tip="ind"> (volume sph&eacute;rique)</klr></trd>
+    <subsnc mrk="glob.0o.metrikaspaco">
+      <dif>
+        <klr>(kun centro a kaj radiuso &rho;, en
+        <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
+        Subaro konsistanta el &ccirc;iuj
+        <ref cel="punkt.0o.spaco">punktoj</ref>, kies
+        <ref cel="distan.0o.MAT">distanco</ref> al a estas malpli granda
+        ol &rho;:
+        <ekz>
+          <tld/>oj estas
+          <ref cel="ferm.mal0ita.metrikaspaco">malfermitaj</ref> subaroj.
+        </ekz>
+      </dif>
+      <rim>
+        Eblas difini anka&ubreve; <ctl>fermitajn <tld/>ojn</ctl>, se oni
+        allasas, ke la distanco al la centro egalu la radiuson. Kontrastcele
+        oni foje nomas la &ccirc;i-supre difinitajn <tld/>ojn <ctl>malfermitaj
+        <tld/>oj</ctl>.
+      </rim>
+      <trd lng="de">Kugel</trd>
+      <trd lng="en">ball<klr tip="ind"> (in a metric space)</klr></trd>
+      <trd lng="fr">boule<klr tip="ind"> (dans un espace m&eacute;trique)</klr></trd>
+      <trd lng="ru">&c_sh;&c_a;&c_r;<klr tip="ind"> (&c_v; &c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_m; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="glob.0o.sfero">
+      <refgrp tip="dif">
+        <ref cel="sfer.0o.solido">sfero</ref> (kiel solido).
+      </refgrp>
+      <trd lng="fr">boule<klr tip="ind"> (volume sph&eacute;rique)</klr></trd>
+    </subsnc>
   </snc>
   <trd lng="nl">bol</trd>
   <trd lng="ru">&c_sh;&c_a;&c_r;</trd>
@@ -173,6 +179,7 @@
     </dif>
   </snc>
   <trd lng="en">hemisphere</trd>
+  <trd lng="fr">h&eacute;misph&egrave;re</trd>
   <trdgrp lng="nl">
     <trd>halfrond</trd>,
     <trd>hemisfeer</trd>
@@ -205,31 +212,26 @@
     </dif>
   </snc>
   <trd lng="de">Weltkarte</trd>
-  <trd lng="nl">wereldkaart</trd>
   <trd lng="fr">planisph&egrave;re</trd>
+  <trd lng="nl">wereldkaart</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.12  2002/01/06 17:47:27  revo
+Revision 1.13 2002/01/07 17:31:52 revo
+Paul Peeraerts: kor en nl
+Revision 1.12 2002/01/06 17:47:27 revo
 Paul Peeraerts: aldonis nederland trd
-
 Revision 1.11 2001/12/02 17:32:05 revo
 Sergio Pokrovskij: +duonglobo
-
 Revision 1.10 2001/10/11 18:19:19 revo
 Marc Bavant: +trd fr; ~o: +uzo GEOG/ANA/SPO en ekz; plat~o: +uzo GEOG, mod
 dif; ~eto: +uzo MED/BIO en ekz, +adm
-
 Revision 1.9 2001/05/27 18:19:21 revo
 Ulrich Fellmann: + 5 germ trdj
-
 Revision 1.8 2001/05/18 18:14:10 revo
 Yury Finkel: +trd ru
-
 Revision 1.7 2001/05/06 19:15:41 revo
 Marc Bavant: +snc MAT (solido); +trd fr; faden~o: modifis, +adm
-
 -->
 </vortaro>
-
