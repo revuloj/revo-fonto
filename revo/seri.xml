@@ -133,7 +133,7 @@
   </snc>
   <snc mrk="seri.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
     <dif>
       <ref tip="super" cel="vic.0o.MAT">Vico</ref> u, konsiderata kune kun
       ties vico v de partaj sumoj <klr>(v<sub>n</sub>=
@@ -160,6 +160,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="sum.0o.serio">sumo</ref> de serio,
+      <ref cel="term.0o.serio">termo</ref>,
       <ref cel="konver.0i.MAT">konver&gcirc;i</ref>.
     </refgrp>
     <rim>
@@ -168,12 +169,15 @@
       aperas nur, kiam temas pri konver&gcirc;o, &ccirc;ar por <tld/>o oni
       interesi&gcirc;as pli pri la konver&gcirc;o de la vico v, ol pri tiu de u.
     </rim>
+    <adm>
+    Mi permesis al mi forpreni la rusan tradukon  
+    &c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;, kiu ne sxajnas al 
+    mi fake gxusta, ecx se veras, ke oni foje ne 
+    distingas "vico" kaj "serio". <aut>MB</aut>
+    </adm>
     <trd lng="de">Reihe</trd>
     <trd lng="fr">s&eacute;rie<klr tip="ind"> (math.)</klr></trd>
-    <trdgrp lng="ru">
-      <trd>&c_r;&c_ja;&c_d;</trd>,
-      <trd>&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-    </trdgrp>
+    <trd lng="ru">&c_r;&c_ja;&c_d;<klr tip="ind"> (&c_m;&c_a;&c_t;)</klr></trd>
   </snc>
   <trd lng="de">Serie</trd>
   <trd lng="en">series</trd>
@@ -203,27 +207,73 @@
   <trd lng="fr">publication en s&eacute;rie</trd>
   <trd lng="ru">&c_s;&c_je;&c_r;&c_i;&c_a;&c_l;</trd>
 </drv>
+
+<drv mrk="seri.potenco0o">
+  <kap>potenco<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="seri.0o_de_funkcioj"><tld lit="S"/>o de 
+      funkcioj</ref>, kies &gcirc;enerala termo u<sub>n</sub>(x) havas
+      formon a<sub>n</sub>x<sup>n</sup>:
+      <ekz>
+        la partaj sumoj de potenco<tld/>o estas polinomaj funkcioj;
+      </ekz>
+      <ekz>
+        elvolvi funkcion en potenco<tld/>on.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Potenzreihe</trd>
+  <trd lng="en">power <ind>series</ind></trd>
+  <trd lng="fr">s&eacute;rie <ind>enti&egrave;re</ind></trd>
+  <trd lng="ru">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_n;&c_o;&c_j; <ind>&c_r;&c_ja;&c_d;</ind></trd>
+</drv>
+
+<drv mrk="seri.0o_de_funkcioj">
+  <kap><tld/>o de funkcioj, funkci<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="seri.0o.MAT"><tld lit="S"/>o</ref>, kies
+      termoj estas reelaj a&ubreve; kompleksaj 
+      <ref cel="funkci.0o.MAT">funkcioj</ref>.
+    </dif>
+  </snc>
+  <trd lng="de">Funktionreihe</trd>
+  <trd lng="en">function <ind>series</ind></trd>
+  <trd lng="fr">s&eacute;rie de fonctions</trd>
+  <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_r;&c_ja;&c_d;</ind></trd>
+</drv>
+
+<drv mrk="seri.entjera0o">
+  <kap>entjera <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="stl">ARK</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="seri.potenco0o">potenco<tld/>o.</ref>
+  </snc>
+</drv>
+
 </art>
 <!--
 $Log$
+Revision 1.15  2002/02/08 17:32:42  revo
+Yury Finkel: +trd ru
 Revision 1.14 2002/01/12 17:31:42 revo
 Marc Bavant: ~o MAT: +ekz
-
 Revision 1.13 2001/11/18 19:12:24 revo
 Marc Bavant: ~o MAT: +ekz kun harmona ~o, +trd de/ru, +fnt
-
 Revision 1.12 2001/10/22 18:12:43 revo
 Marc Bavant: ~o MAT: forigis em; ~ajxo: sxovis fakidikon kaj refgrp
-
 Revision 1.11 2001/09/06 18:13:39 revo
 Dennis Wibrow: +trd germ
-
 Revision 1.10 2001/07/03 18:15:03 revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.9 2001/02/23 17:13:57 revo
 Philippe Combot: Aldono de ref al biblio1.0o en "seri.0o.aroTIP"
-
 Revision 1.8 2001/02/21 20:09:52 revo
 -->
 </vortaro>
