@@ -7,9 +7,7 @@
   <rad>ring</rad>/o
 </kap>
 <drv mrk="ring.0o">
-  <kap>
-    <ofc>*</ofc><tld/>o
-  </kap>
+  <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
     <dif>
       Cirkloforma peco el malmola materio:
@@ -56,14 +54,14 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra strukturo</ref>
       <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>,
-      ke <frm>(<g>E</g>,&#8224;)</frm> estas 
+      ke <frm>(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.magmo">komuteca</ref>
       <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm>&#xd7;</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al <frm>&#8224;</frm>:
       <ekz>
         la <tld/>o <frm>(<g>E</g><sup><g>E</g></sup>,+,o)</frm> de la
-        <ref cel="bild.0igo.MAT">bildigoj</ref> de komuta grupo 
+        <ref cel="bild.0igo.MAT">bildigoj</ref> de komuta grupo
         <frm>(<g>E</g>,+)</frm> al si mem;
       </ekz>
       <ekz>
@@ -77,8 +75,9 @@
     </dif>
     <refgrp tip="sub">
       Specifaj ringoj:
+      <ref cel="ring.0o_de_nmodulaj_restoklasoj"><tld/>o de n-modulaj restoklasoj</ref>,
       <ref cel="ring.euxklida0o">e&ubreve;klida <tld/>o</ref>,
-      <ref cel="ring.faktoreca0o">faktoreca <tld/>o</ref>,
+      <ref cel="ring.kvocienta0o">kvocienta <tld/>o</ref>,
       <ref cel="korp.0o.MAT">korpo</ref>,
       <ref cel="algebr.lineara0o.strukturo">lineara algebro</ref>;
     </refgrp>
@@ -86,6 +85,7 @@
       Epitetoj por ringo:
       <ref cel="integr.0a.MAT">integra</ref>,
       <ref cel="ideal.cxef0a.MAT">&ccirc;efideala</ref>,
+      <ref cel="faktor.0eca.MAT">faktoreca</ref>,
       <ref cel="komut.0eca.ringo">komuteca</ref>,
       <ref cel="unu.0hava">unuhava</ref>;
       atributo de ringo:
@@ -120,6 +120,7 @@
       elementon (t.e. unuon). Tiajn <tld/>ojn ni nomas
       unuhavaj.
     </rim>
+    <trd lng="pl">pier&sacute;cie&nacute;<klr tip="ind"> (struktura algebraiczna)</klr></trd>
   </snc>
   <trdgrp lng="cs">
     <trd>prsten</trd>,
@@ -133,33 +134,75 @@
   <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 </drv>
 
+<drv mrk="ring.sub0o">
+  <kap>sub<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <tld/>o <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>)</klr>
+      Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
+      <frm>(<g>A</g>,&#8224;<sub>A</sub>,&#xd7;<sub>A</sub>)</frm>, ke
+      <frm><g>A</g>&#x2282;<g>E</g></frm>,
+      <frm>(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
+      <ref cel="grup.sub0o">subgrupo</ref> de <frm>(<g>E</g>,&#8224;)</frm>
+      kaj <frm>x&#xd7;<sub>A</sub>y = x&#xd7;y&#x2208;A</frm> por &ccirc;iuj
+      <frm>x,y&#x2208;A</frm>:
+      <ekz>
+        la aro konsistanta nur el la nulo kaj unuo
+        de unuhava <tld/>o estas sub<tld/>o de &gcirc;i.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Unterring</trd>
+  <trd lng="en">subring</trd>
+  <trd lng="fr">sous-anneau</trd>
+  <trd lng="pl">podpier&sacute;cie&nacute;</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
+</drv>
+
+<drv mrk="ring.0o_de_nmodulaj_restoklasoj">
+  <kap><tld/>o de n-modulaj restoklasoj</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(por <ref cel="entjer.0o">entjero</ref>
+      <frm><k>n</k> &gt; 1</frm>)</klr>
+      <ref cel="ring.kvocienta0o">Kvocienta <tld/>o</ref> de la
+      <tld/>o de entjeroj per la idealo de <frm><k>n</k></frm>-obloj. 
+    </dif>
+  </snc>
+  <trd lng="de">Restklassenring</trd>
+  <trd lng="en">residue class <ind>ring</ind></trd>
+  <trd lng="fr">anneau des classes r&eacute;siduelles</trd>
+  <trd lng="pl">pier&sacute;cie&nacute; reszt</trd>
+  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o; &c_v;&c_y;&c_ch;&c_je;&c_t;&c_o;&c_v;</trd>
+</drv>
+
 <drv mrk="ring.euxklida0o">
-  <kap>
-    e&ubreve;klida <tld/>o
-  </kap>
+  <kap>e&ubreve;klida <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       <ref cel="komut.0eca.ringo">Komuteca</ref>,
       <ref cel="integr.0a.MAT">integra</ref>
-      <ref tip="super" cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>, 
-      konsiderata kune kun tia bildigo <frm>&phi;</frm>, ke al &ccirc;iu 
-      nenula elemento<frm><k>a</k></frm> &gcirc;i asocias entjeron 
-      <frm>&phi;(<k>a</k>)&#x2265;0</frm>, kaj ke
-      <frm>&phi;(<k>a</k>)&#x2264;&phi;(<k>b</k>)</frm>, 
+      <ref tip="super" cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>,
+      konsiderata kune kun tia bildigo <frm>&phi;</frm>, ke al &ccirc;iu
+      nenula elemento <frm><k>a</k></frm> &gcirc;i asocias entjeron
+      <frm>&phi;(<k>a</k>) &#x2265; 0</frm>, kaj ke
+      <frm>&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>,
       se <frm><k>a</k></frm> estas divizoro de <frm><k>b</k></frm>, kun la
-      aldona kondi&ccirc;o, ke por &ccirc;iu paro 
+      aldona kondi&ccirc;o, ke por &ccirc;iu paro
       <frm>(<k>a</k>,<k>b</k>)</frm> kun nenula <frm><k>b</k></frm> ekzistas
-      almena&ubreve; unu tia paro <frm>(<k>q</k>,<k>r</k>)</frm>, ke 
-      <frm><k>a</k>=<k>b</k>.<k>q</k>+<k>r</k></frm> kaj
-      <frm>&phi;(<k>a</k>)&#x2264;&phi;(<k>b</k>)</frm>:
+      almena&ubreve; unu tia paro <frm>(<k>q</k>,<k>r</k>)</frm>, ke
+      <frm><k>a</k> = <k>b</k>.<k>q</k>+<k>r</k></frm> kaj
+      <frm>&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
-        <klr>(<frm>&phi;(<k>a</k>)=|<k>a</k>|</frm>)</klr>;
+        <klr>(<frm>&phi;(<k>a</k>) = |<k>a</k>|</frm>)</klr>;
       </ekz>
       <ekz>
         &ccirc;iu <ref cel="ring.polinom0o">polinom<tld/>o</ref>
-        estas e&ubreve;klida <tld/>o, konsiderante la bildigon 
+        estas e&ubreve;klida <tld/>o, konsiderante la bildigon
         <frm>&phi;</frm>, kiu al polinomo asocias &gcirc;ian gradon;
       </ekz>
       <ekz>
@@ -177,47 +220,38 @@
   <trd lng="de">Euklidischer <ind>Ring</ind></trd>
   <trd lng="en">Euclidean <ind>ring</ind></trd>
   <trd lng="fr">anneau euclidien</trd>
+  <trd lng="pl">pier&sacute;cie&nacute; euklidesowy</trd>
   <trd lng="ru">&c_je;&c_v;&c_k;&c_l;&c_i;&c_d;&c_o;&c_v;&c_o; <ind>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</ind></trd>
 </drv>
 
-<drv mrk="ring.faktoreca0o">
-  <kap>
-    faktoreca <tld/>o
-  </kap>
+<drv mrk="ring.kvocienta0o">
+  <kap>kvocienta <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Tia <ref cel="komut.0eca.ringo">komuteca</ref>,
-      <ref cel="integr.0a.MAT">integra</ref>,
-      <ref cel="unu.0hava">unuhava</ref>
-      <ref tip="super" cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>,
-      ke &ccirc;iu &gcirc;ia elemento esprimi&gcirc;as 
-      unike kiel produto de <ref cel="redukt.ne0ebla">neredukteblaj</ref>
-      <ref cel="faktor.0o.multip">faktoroj</ref>:
-      <ekz>
-        la <tld/>o de entjeroj estas faktoreca <tld/>o;
-      </ekz>
-      <ekz>
-        &ccirc;iu <ref cel="ideal.cxef0a.MAT">&ccirc;efideala</ref>
-        <tld/>o estas faktoreca.
-      </ekz>
+      <klr>(de <ref cel="ring.0o.MAT"><tld/>o</ref> <frm><g>R</g></frm> rilate
+      al <ref cel="ideal.0o.MAT">idealo</ref> <frm><g>I</g></frm> 
+      de &gcirc;i)</klr>
+      La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
+      de <frm><g>R</g></frm> rilate al <frm><g>I</g></frm>, provizita per la 
+      multipliko <frm>(<k>a</k>+<g>I</g>)&#xd7;(<k>b</k>+<g>I</g>) =
+      (<k>a</k>&#xd7;<k>b</k>)+<g>I</g></frm>; 
+      simb. <frm><g>R</g>/<g>I</g></frm>.
     </dif>
-    <rim>
-      La unikeco ne estas absoluta. La faktoroj en du malkomponi&gcirc;oj
-      de la sama elemento povas diferenci per inversigebla faktoro. Ekz-e
-      <frm>6 = 2&#xd7;3 = (-2)&#xd7;(-3)</frm>.
-    </rim>
   </snc>
-  <trd lng="de">ZPE-<ind>Ring</ind></trd>
-  <trd lng="en">factorial <ind>ring</ind></trd>
-  <trd lng="fr">anneau factoriel</trd>
-  <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</ind></trd>
+  <trdgrp lng="de">
+    <trd>Quotientenring</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>quotient <ind>ring</ind></trd>
+  </trdgrp>
+  <trd lng="fr">anneau quotient</trd>
+  <trd lng="pl">pier&sacute;cie&nacute; ilorazowy</trd>
+  <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;-&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 </drv>
 
 <drv mrk="ring.polinom0o">
-  <kap>
-    polinom<tld/>o
-  </kap>
+  <kap>polinom<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -239,56 +273,31 @@
   <trd lng="de">Polynomring</trd>
   <trd lng="en">polynomial ring</trd>
   <trd lng="fr">anneau des polyn&ocirc;mes</trd>
+  <trd lng="pl">pier&sacute;cie&nacute; wielomian&oacute;w</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o; &c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_o;&c_v;</trd>
 </drv>
 
-<drv mrk="ring.sub0o">
-  <kap>
-    sub<tld/>o
-  </kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      <klr>(de <tld/>o <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>)</klr>
-      Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm>(<g>A</g>,&#8224;<sub>A</sub>,&#xd7;<sub>A</sub>)</frm>, ke
-      <frm><g>A</g>&#x2282;<g>E</g></frm>, 
-      <frm>(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas 
-      <ref cel="grup.sub0o">subgrupo</ref> de <frm>(<g>E</g>,&#8224;)</frm> 
-      kaj <frm>x&#xd7;<sub>A</sub>y = x&#xd7;y&#x2208;A</frm> por &ccirc;iuj
-      <frm>x,y&#x2208;A</frm>:
-      <ekz>
-        la aro konsistanta nur el la nulo kaj unuo
-        de unuhava <tld/>o estas sub<tld/>o de &gcirc;i.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="de">Unterring</trd>
-  <trd lng="en">subring</trd>
-  <trd lng="fr">sous-anneau</trd>
-  <trd lng="ru">&c_p;&c_o;&c_d;&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
-</drv>
 </art>
 <!--
 $Log$
-Revision 1.31  2002/10/21 16:34:09  revo
+Revision 1.32 2002/11/22 17:32:02 revo
+Marc Bavant: +frm
+Revision 1.31 2002/10/21 16:34:09 revo
 Marc Bavant: mod signon por operacio T; ~o MAT: mod dif
-Revision 1.30  2002/06/25 19:38:05  revo
+Revision 1.30 2002/06/25 19:38:05 revo
 Marc Bavant: ~o MAT: +ref al nulpotenca
-Revision 1.29  2002/06/02 17:33:41  revo
+Revision 1.29 2002/06/02 17:33:41 revo
 Marc Bavant: polinom~o: +ekz
-Revision 1.28  2002/05/27 17:19:52  revo
+Revision 1.28 2002/05/27 17:19:52 revo
 Marc Bavant: ~o MAT: mod fnt
-Revision 1.27  2002/05/13 16:32:30  revo
+Revision 1.27 2002/05/13 16:32:30 revo
 Marc Bavant: ~o MAT: +ref al karakteristiko
-Revision 1.26  2002/05/12 16:35:13  revo
+Revision 1.26 2002/05/12 16:35:13 revo
 Marc Bavant: polinom~o: mod ekz; ~o MAT: splitis refgrp; mod "cxefa" al "cxefideala"
-Revision 1.25  2002/05/02 16:34:57  revo
+Revision 1.25 2002/05/02 16:34:57 revo
 Marc Bavant: snc MAT: +trd
-Revision 1.24  2002/01/27 17:31:35  revo
+Revision 1.24 2002/01/27 17:31:35 revo
 Marc Bavant: ~o MAT: mod distribuebla
-Revision 1.23  2002/01/13 17:31:21  revo
-Marc Bavant: sub~o: mod mrk
-Revision 1.22  2002/01/06 17:45:37  revo
+Revision 1.23 2002/01/13 17:31:21 revo
 -->
 </vortaro>
