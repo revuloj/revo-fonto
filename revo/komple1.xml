@@ -40,76 +40,75 @@
       <trd>Erg&auml;nzungsteil</trd>
     </trdgrp>
   </snc>
-  <snc mrk="komple1.0o.aro">
+  <snc mrk="komple1.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
-    <dif>
-      <klr>(de subaro <em>A</em>&#8834;<em>E</em> rilate al
-      <em>E</em>)</klr>
-      La <ref tip="super" cel="ar.0o.MAT">aro</ref>,
-      kies elementoj apartenas al <em>E</em>, sed ne al <em>A</em>:
-      <ekz>
-        la <tld/>on oni foje signas per &#8705;<sub>E</sub><em>A</em>;
-      </ekz>
-      <ekz>
-        la <tld/>o de <em>E</em> rilate al si mem estas la malplena aro.
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>Komplement</trd>,
-      <trd>Komplement&auml;rmenge</trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd>complement<klr tip="ind"> (complementary set)</klr></trd>,
-      <trd>complementary <ind>set</ind></trd>
-    </trdgrp>
-    <trd lng="fr">compl&eacute;mentaire<klr tip="ind"> (d'un ensemble)</klr></trd>
-    <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
-  </snc>
-  <snc mrk="komple1.0o.angulo">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
-    <dif>
-      <klr>(de <ref tip="super" cel="angul.0o.MAT">angulo</ref>)</klr>
-      Angulo, kies sumo kun la koncerna angulo egalas al
-      <ref cel="ort.0o">orto</ref>:
-      <ekz>
-        la sinuso de la <tld/>o egalas al la kosinuso de la originalo
-        <klr>(sin(&pi;/2-&theta;) = cos&theta;)</klr>.
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>Komplement</trd>,
-      <trd>Komplementwinkel</trd>
-    </trdgrp>
-    <trd lng="en">complementary <ind>angle</ind></trd>
-    <trdgrp lng="fr">
-      <trd>compl&eacute;ment<klr tip="ind"> (d'un angle)</klr></trd>,
-      <trd>angle compl&eacute;mentaire</trd>
-    </trdgrp>
-    <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
-  </snc>
-  <snc mrk="komple1.0o.vektorasubspaco">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(de <ref tip="super" cel="spac.vektorasub0o">vektora
-      subspaco</ref>)</klr>
-      Subspaco, al kiu &gcirc;i estas <tld/>a
-      <sncref ref="komple1.0a.vektorasubspaco"/>:
-      <ekz>
-        ajna <tld/>o de la <ref cel="kern.0o.homomorfio">kerno</ref>
-        de homomorfio estas <ref cel="izomor1.0a">izomorfia</ref>
-        al ties <ref cel="bild.rekta0o.subaro">bildo</ref>.
-      </ekz>
-    </dif>
-    <trd lng="en">complement<klr tip="ind"> (of a vector subspace)</klr></trd>
-    <trdgrp lng="de">
-      <trd>Supplement&auml;rraum<klr tip="ind"> (eines Unterraums)</klr></trd>,
-      <trd>Komplement&auml;rraum<klr tip="ind"> (eines Unterraums)</klr></trd>
-    </trdgrp>
-    <trd lng="fr">suppl&eacute;mentaire<klr tip="ind"> (d'un sous-espace)</klr></trd>
-    <trd lng="nl">complementair</trd>
-    <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
+    <subsnc mrk="komple1.0o.angulo">
+      <fnt><bib>PIV1</bib></fnt>
+      <dif>
+        <klr>(de <ref cel="angul.0o.figuro">angulo</ref>)</klr>
+        Angulo <tld/>a <sncref ref="komple1.0a.angulo"/> al &gcirc;i:
+        <ekz>
+          la sinuso de la <tld/>o egalas al la kosinuso de la originalo
+          <klr>(sin(&pi;/2-&theta;) = cos&theta;)</klr>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Komplement</trd>,
+        <trd>Komplementwinkel</trd>
+      </trdgrp>
+      <trd lng="en">complementary <ind>angle</ind></trd>
+      <trdgrp lng="fr">
+        <trd>compl&eacute;ment<klr tip="ind"> (d'un angle)</klr></trd>,
+        <trd>angle compl&eacute;mentaire</trd>
+      </trdgrp>
+      <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
+    </subsnc>
+    <subsnc mrk="komple1.0o.aro">
+      <fnt><bib>MatVort</bib></fnt>
+      <dif>
+        <klr>(de subaro <em>A</em>&#8834;<em>E</em> rilate al
+        <em>E</em>)</klr>
+        La <ref tip="super" cel="ar.0o.MAT">aro</ref>,
+        kies elementoj apartenas al <em>E</em>, sed ne al <em>A</em>:
+        <ekz>
+          la <tld/>on oni foje signas per &#8705;<sub>E</sub><em>A</em>;
+        </ekz>
+        <ekz>
+          la <tld/>o de <em>E</em> rilate al si mem estas la malplena aro.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Komplement</trd>,
+        <trd>Komplement&auml;rmenge</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>complement<klr tip="ind"> (complementary set)</klr></trd>,
+        <trd>complementary <ind>set</ind></trd>
+      </trdgrp>
+      <trd lng="fr">compl&eacute;mentaire<klr tip="ind"> (d'un ensemble)</klr></trd>
+      <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
+    </subsnc>
+    <subsnc mrk="komple1.0o.vektorasubspaco">
+      <dif>
+        <klr>(de <ref tip="super" cel="spac.vektorasub0o">vektora
+        subspaco</ref>)</klr>
+        Subspaco, al kiu &gcirc;i estas <tld/>a
+        <sncref ref="komple1.0a.vektorasubspaco"/>:
+        <ekz>
+          ajna <tld/>o de la <ref cel="kern.0o.homomorfio">kerno</ref>
+          de homomorfio estas <ref cel="izomor1.0a">izomorfia</ref>
+          al ties <ref cel="bild.0o.MAT">bildo</ref>.
+        </ekz>
+      </dif>
+      <trd lng="en">complement<klr tip="ind"> (of a vector subspace)</klr></trd>
+      <trdgrp lng="de">
+        <trd>Supplement&auml;rraum<klr tip="ind"> (eines Unterraums)</klr></trd>,
+        <trd>Komplement&auml;rraum<klr tip="ind"> (eines Unterraums)</klr></trd>
+      </trdgrp>
+      <trd lng="fr">suppl&eacute;mentaire<klr tip="ind"> (d'un sous-espace)</klr></trd>
+      <trd lng="nl">complementair</trd>
+      <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
+    </subsnc>
   </snc>
   <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
@@ -158,7 +157,7 @@
       <tld lit="K"/>o montranta unu el la cirkonstancoj de la ago a&ubreve; stato
       esprimata de la verbo:
       <ekz>
-        en E-o ekzistas cirkonstancaj <tld/>oj rektaj
+        en Esperanto ekzistas cirkonstancaj <tld/>oj rektaj
         (la tutan tagon li dormas), kaj nerektaj (dum la tuta tago li dormas).
       </ekz>
     </dif>
@@ -173,45 +172,61 @@
       Kompletiga; rilata al <tld/>o.
     </dif>
     <trd lng="fr">compl&eacute;mentaire</trd>
+    <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc mrk="komple1.0a.angulo">
+  <snc mrk="komple1.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
-    <dif>
-      <klr>(p.p. du <ref cel="angul.0o.MAT">anguloj</ref>)</klr>
-      Kies sumo egalas al <ref cel="ort.0o">orto</ref>.
-    </dif>
-    <trd lng="de">Komplement-<klr tip="amb">(winkel)</klr></trd>
-    <trd lng="en">complementary<klr tip="ind"> (angle)</klr></trd>
-    <trd lng="fr"><klr tip="ind">(angle) </klr>compl&eacute;mentaire</trd>
-    <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
+    <subsnc mrk="komple1.0a.angulo">
+      <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
+      <dif>
+        <klr>(p.p. du <ref cel="angul.0o.figuro">anguloj</ref>)</klr>
+        Kies sumo egalas al <ref cel="ort.0o">orto</ref>.
+      </dif>
+      <trd lng="de">Komplement-<klr tip="amb">(winkel)</klr></trd>
+      <trd lng="en">complementary<klr tip="ind"> (angle)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(angle) </klr>compl&eacute;mentaire</trd>
+      <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="komple1.0a.subaro">
+      <dif>
+        <klr>(p.p. du subaroj de <em>E</em>)</klr>
+        Tiaj, ke ili estas <ref cel="dis.0a.aroj">disaj</ref>, kaj ke
+        ilia <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref> egalas al 
+        <em>E</em>.
+      </dif>
+      <trd lng="de">komplement&auml;re <ind>Untermenge</ind></trd>
+      <trd lng="en">complementary<klr tip="ind"> (subset)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(sous-ensemble) </klr>suppl&eacute;mentaire</trd>
+      <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="komple1.0a.vektorasubspaco">
+      <dif>
+        <klr>(p.p. <ref cel="spac.vektorasub0o">subspacoj</ref>
+        de <ref cel="spac.vektora0o">vektora spaco</ref> <em>E</em>)</klr>
+        Tiaj, ke ilia <ref cel="sum.0o.vektorasubspaco">sumo</ref> egalas
+        al <em>E</em> kaj estas <ref cel="rekt.0a.sumo">rekta</ref>:
+        <ekz>
+          en tridimensia vektora spaco ajna
+          <ref cel="eben.vektora0o">ebeno</ref> estas <tld/>a al ajna
+          <ref cel="rekt.vektora0o">rekto</ref>, kiun &gcirc;i ne inkluzivas.
+        </ekz>
+      </dif>
+      <trd lng="en">complementary<klr tip="ind"> (subspace)</klr></trd>
+      <trdgrp lng="de">
+        <trd>supplement&auml;rer<klr tip="amb"> (Unterraum)</klr></trd>,
+        <trd>komplement&auml;rer<klr tip="amb"> (Unterraum)</klr></trd>
+      </trdgrp>
+      <trd lng="fr"><klr tip="ind">(sous-espace) </klr>suppl&eacute;mentaire</trd>
+      <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+    </subsnc>
   </snc>
-  <snc mrk="komple1.0a.vektorasubspaco">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="spac.vektorasub0o">subspacoj</ref>
-      de <ref cel="spac.vektora0o">vektora spaco</ref> <em>E</em>)</klr>
-      Tiaj, ke ilia <ref cel="sum.0o.vektorasubspaco">sumo</ref> egalas
-      al <em>E</em> kaj estas <ref cel="rekt.0a.sumo">rekta</ref>:
-      <ekz>
-        en tridimensia vektora spaco ajna
-        <ref cel="eben.vektora0o">ebeno</ref> estas <tld/>a al ajna
-        <ref cel="rekt.vektora0o">rekto</ref>, kiun &gcirc;i ne inkluzivas.
-      </ekz>
-    </dif>
-    <trd lng="en">complementary<klr tip="ind"> (subspace)</klr></trd>
-    <trdgrp lng="de">
-      <trd>supplement&auml;rer<klr tip="amb"> (Unterraum)</klr></trd>,
-      <trd>komplement&auml;rer<klr tip="amb"> (Unterraum)</klr></trd>
-    </trdgrp>
-    <trd lng="fr"><klr tip="ind">(sous-espace) </klr>suppl&eacute;mentaire</trd>
-    <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
-  </snc>
-  <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.19 2002/03/12 17:33:28 revo
+Marc Bavant: ~o (de aro): +fnt, +trd de/en/ru; ~o (de angulo): +fnt, +trd de/en/ru; ~o (de subspaco): mod trd en/de/ru; ~a (angulo): mod fnt, +trd de/en/ru; ~a (subspaco): mod trd de
+
 Revision 1.18 2002/02/06 17:32:24 revo
 Ulrich Fellmann: + 1 plia germ trd
 Revision 1.17 2002/02/04 17:31:18 revo
