@@ -4,14 +4,16 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>diagonal</rad>/o
+  <ofc>1</ofc>
+  <rad>diagonal</rad>/o
 </kap>
 <drv mrk="diagon.0o">
-  <kap><tld/>o</kap>
+  <kap>
+    <tld/>o
+  </kap>
   <uzo tip="fak">MAT</uzo>
-  <uzo tip="klr">(elementa geometrio)</uzo>
-  <snc>
+  <snc mrk="diagon.0o.plurlatero">
+    <uzo tip="klr">(elementa geometrio)</uzo>
     <dif>
       <klr>(de <ref cel="later.plur0o">plurlatero</ref>)</klr>
       <ref cel="rekt.0o.elementa">Rekto</ref> a&ubreve;
@@ -33,11 +35,57 @@
       <ref cel="transv.0a">transversa</ref>.
     </refgrp>
   </snc>
+  <snc mrk="diagon.0o.de_matrico">
+    <dif>
+      <klr>(de <ref cel="matric.n_p0o">(n,n)-matrico</ref>)</klr>
+      La n-opo, konsistanta el &ccirc;iuj &gcirc;iaj elementoj kun indico (i,i).
+    </dif>
+  </snc>
   <trd lng="fr">diagonale</trd>
   <trd lng="ru">&c_d;&c_i;&c_a;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;</trd>
 </drv>
+
+<drv mrk="diagon.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="diagon.0a.streko">
+    <dif>
+      <klr>(p.p. <ref cel="strek.0o.segmento">streko</ref> a&ubreve;
+      <ref cel="rekt.0o.MAT">rekto</ref>)</klr>
+      Samdirekta kiel la <tld/>o <sncref ref="diagon.0o.plurlatero"/>.
+    </dif>
+  </snc>
+  <snc>
+    <subsnc mrk="diagon.0a.elemento">
+      <dif>
+        <klr>(p.p. <ref cel="elemen.0o.matrico">elemento</ref> de 
+        kvadrata matrico)</klr>
+        Estanta sur &gcirc;ia <tld/>o <sncref ref="diagon.0o.de_matrico"/>:
+        <ekz>
+          matrico kun egalaj <tld/>aj elementoj.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="diagon.0a.matrico">
+      <dif>
+        <klr>(p.p. <ref cel="kvadra1.0a.matrico">kvadrata</ref>
+        <ref cel="matric.0o.MAT">matrico</ref>)</klr>
+        Kies &ccirc;iuj elementoj estas nulaj, krom tiuj situantaj
+        sur &gcirc;ia <tld/>o <sncref ref="diagon.0o.de_matrico"/>:
+        <ekz>
+          la unuomatrico estas <tld/>a.
+        </ekz>
+      </dif>
+    </subsnc>
+  </snc>
+</drv>
+
 <drv mrk="diagon.0igebla">
-  <kap><tld/>igebla</kap>
+  <kap>
+    <tld/>igebla
+  </kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -57,6 +105,9 @@
 </art>
 <!--
 $Log$
+Revision 1.8  2001/05/08 17:53:52  revo
+Marc Bavant: kor dif de ~igebla; +trd ru/de/en
+
 Revision 1.7  2001/05/02 16:12:18  revo
 Marc Bavant: kor mrk cxe ~igebla
 
