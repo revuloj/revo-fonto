@@ -4,7 +4,7 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>faks</rad>/i
+  <rad>faks</rad>/i
 </kap>
 <drv mrk="faks.0i">
   <kap><tld/>i</kap>
@@ -35,12 +35,15 @@
 
 <drv mrk="faks.0o">
   <kap><tld/>o</kap>
-  <snc mrk="faks.0o.letero">
+  <snc mrk="faks.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      <ref tip="super" cel="leter.0o">Letero</ref>
-      sendita per <tld/>ilo.
+      Procedo kaj rimedoj por printi kopiojn de dokumentoj en malproksimaj
+      lokoj, sendante ciferecajn bildojn de ili tra telekomunikaj retoj.
     </dif>
-    <ref tip="sin" cel="telekopi.0o">telekopio</ref>
+  </snc>
+  <snc mrk="faks.0o.letero">
+    <ref tip="dif" cel="faks.0ajxo"><tld/>a&jcirc;o</ref>
     <trdgrp lng="ca">
       <trd>fax</trd>,
       <trd>facs&iacute;mil</trd>
@@ -50,10 +53,6 @@
       <trd>Fax</trd>
     </trdgrp>
     <trd lng="en">fax message</trd>
-    <trdgrp lng="fr">
-      <trd>fax<klr tip="ind"> (t&eacute;l&eacute;copie)</klr></trd>,
-      <trd>t&eacute;l&eacute;copie</trd>
-    </trdgrp>
     <trd lng="hu">fax</trd>
     <trd lng="nl">faxbericht</trd>
     <trd lng="ru">&c_f;&c_a;&c_k;&c_s;
@@ -62,6 +61,33 @@
   <snc mrk="faks.0o.numero">
     <ref tip="dif" cel="faks.0numero"><tld/>numero</ref>
   </snc>
+  <ref tip="sin" cel="telekopi.0o">telekopio</ref>
+  <trdgrp lng="fr">
+    <trd>fax<klr tip="ind"> (t&eacute;l&eacute;copie)</klr></trd>,
+    <trd>t&eacute;l&eacute;copie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="faks.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="leter.0o">Letero</ref>
+      sendita per <tld/>ilo:
+      <ekz>oni povas <klr>...</klr> samtempe printi leteron kaj ricevi <tld/>a&jcirc;on
+      <fnt>
+        <aut>Klivo</aut>,
+        <vrk>Kio estas Javo?</vrk>,
+        <bib>Monato</bib>, <lok>jaro 1998a, numero 5a, p. 13a</lok>
+      </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="faks.0o.letero">fakso <sncref/></ref>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>fax<klr> (document)</klr></trd>,
+    <trd>t&eacute;l&eacute;copie<klr> (document)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="faks.0ilo">
@@ -74,13 +100,13 @@
       paperon &ccirc;e la sendanto kaj represante &gcirc;in
       &ccirc;e la ricevanto.
     </dif>
-    <ref tip="vid" cel="telekopi.0ilo">telekopiilo</ref>
+    <ref tip="sin" cel="telekopi.0ilo">telekopiilo</ref>
   </snc>
   <adm>
-  La vorto "telefonlineo" postulas krei novan artikolon "lineo". Gxis
-  nun REVO uzas "linio 3" cxi-sence kaj tiel aspektas al mi pli bone,
-  precipe kiam ekzistas preciziga elemento: fervoja, bus-, telefon- ks.
-  <aut>MB</aut>
+    La vorto "telefonlineo" postulas krei novan artikolon "lineo". &Gcirc;is
+    nun REVO uzas "linio 3" &ccirc;i-sence kaj tiel aspektas al mi pli bone,
+    precipe kiam ekzistas preciziga elemento: fervoja, bus-, telefon- ks.
+    <aut>MB</aut>
   </adm>
   <trd lng="ca">fax</trd>
   <trdgrp lng="de">
@@ -110,17 +136,17 @@
       <ekz>
         Alma diktis siavice iun <tld/>onumeron per kiu oni povas kontakti
         &scirc;in
-        <fnt><aut>Spomenka &Scaron;timec</aut>:
+        <fnt><aut>Spomenka &Scaron;timec</aut>,
         <vrk>
         <url ref="&Monato;/002002.html">Saluton el Absurdistano</url></vrk>,
         <bib>Monato</bib>,
-        <lok>n-ro 12/1993</lok>
+        <lok>n-ro 12/1993, p. 9a</lok>
         </fnt>;
       </ekz>
       <ekz>
         ne mankas la nomoj kaj adresoj de &ccirc;iuj liverantoj
         kun telefon- kaj <tld/>-numeroj kaj la elektronikaj adresoj
-        <fnt><aut>Paul Peeraerts</aut>:
+        <fnt><aut>Paul Peeraerts</aut>,
         <vrk>
         <url ref="&Monato;/004514.html">Por lingvemaj komputilemuloj
         ...</url></vrk>,
@@ -129,43 +155,43 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="faks.0o.numero">fakso <sncref/></ref>
   </snc>
   <trd lng="ca">n&uacute;mero de fax</trd>
   <trdgrp lng="fr">
     <trd>num&eacute;ro de fax</trd>,
-    <trd>nim&eacute;ro de t&eacute;l&eacute;copieur</trd>
+    <trd>num&eacute;ro de t&eacute;l&eacute;copieur</trd>
   </trdgrp>
   <trd lng="hu">faxsz&aacute;m</trd>
   <trd lng="nl">faxnummer</trd>
 </drv>
 <adm>
-Mi dubas, cxu la dua senco de ~o estas vere uzata. Cetere mi
-havas la impreson, ke ~o povus aplikigxi ankaux al la ago aux tehxniko
-(sendi per fakso).
-Por la ~e ricevita letero mi pli ofte auxdis "~ajxo". <aut>MB</aut>
+  Mi dubas, &ccirc;u la lasta senco de ~o (= ~numero) estas vere uzata. Cetere mi
+  havas la impreson, ke ~o povus apliki&gcirc;i anka&ubreve; al la ago a&ubreve; te&hcirc;niko
+  (sendi per fakso).
+  Por la ~e ricevita letero mi pli ofte a&ubreve;dis "~a&jcirc;o". <aut>MB</aut>
 </adm>
 </art>
 <!--
 $Log$
-Revision 1.10  2002/08/11 17:32:43  revo
+Revision 1.11 2002/10/21 16:35:33 revo
+Oscar Puig: + trd ca
+
+Revision 1.10 2002/08/11 17:32:43 revo
 Jozefo Horvath: +trd hu
 
-Revision 1.9  2002/07/05 20:01:07  revo
+Revision 1.9 2002/07/05 20:01:07 revo
 Wolfram Diestel: kor. ref-cel
 
-Revision 1.8  2002/01/27 17:30:57  revo
+Revision 1.8 2002/01/27 17:30:57 revo
 Karlo Freeman: +trd=en @ ~ilo
 
-Revision 1.7  2001/10/03 18:18:33  revo
+Revision 1.7 2001/10/03 18:18:33 revo
 Paul Peeraerts: ald plian trd nl
 
-Revision 1.6  2001/07/22 18:16:35  revo
+Revision 1.6 2001/07/22 18:16:35 revo
 Marc Bavant: +trd fr, +gra tr, +adm
 
-Revision 1.5  2001/05/08 17:54:33  revo
-Paul Peeraerts: kor de tajperaro
-
-Revision 1.4  2001/04/03 16:43:52  revo
+Revision 1.5 2001/05/08 17:54:33 revo
 -->
 </vortaro>
-
