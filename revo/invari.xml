@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id$">
+<kap>
+  <rad>invariant</rad>/o
+</kap>
+<drv mrk="invari.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+  <snc>
+    <dif>
+      Propra&jcirc;o de matematika objekto,
+      kiu restas sen&scirc;an&gcirc;a, kiam oni aplikas al &gcirc;i iujn
+      <ref cel="bild.0igo.MAT">bildigojn</ref>; la sen&scirc;an&gcirc;a 
+      objekto mem:
+      <ekz>
+        <ref cel="are.0o.mezuro">areo</ref> estas <tld/>o de geometriaj figuroj
+        <klr>(rilate izometrioj)</klr>;
+      </ekz>
+      <ekz>
+        la <ref cel="spur.0o.matrico">spuro</ref> de la matrico de
+        endomorfio estas <tld/>o <klr>(rilate al la &scirc;an&gcirc;o
+        de bazoj)</klr>;
+      </ekz>
+      <ekz>
+        la centro de ebena <ref cel="rotaci.0o.afina">rotacio</ref> estas
+        <tld/>o de &gcirc;i <klr>(a&ubreve;: per &gcirc;i)</klr>;
+      </ekz>
+      <ekz>
+        <ref cel="korp.invarianto0o"><tld/>okorpo</ref>.
+      </ekz>
+    </dif>
+    <rim>
+      Tiu termino devus havi pli skemismajn ekvivalentojn, kiel
+      <ekz>
+        nevarianto<fnt><bib>PIV2</bib><lok>artikolo: invarianto</lok></fnt>,
+      </ekz>
+      <ekz>
+        sen&scirc;an&gcirc;a&jcirc;o,
+      </ekz>
+      a&ubreve; e&ccirc;
+      <ekz>
+        sen&scirc;an&gcirc;ulo,
+      </ekz>
+      sed ial ili ne aspektas kutimaj.
+    </rim>
+  </snc>
+  <trd lng="de">Invariante</trd>
+  <trd lng="en">invariant</trd>
+  <trd lng="fr">invariant<klr tip="ind"> (subst.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>inwariant</trd>,
+    <trd>niezmiennik</trd>
+  </trdgrp>
+  <trd lng="ru">&c_i;&c_n;&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;</trd>
+</drv>
+
+<drv mrk="invari.0a">
+  <kap><tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="invari.0a.gxenerale">
+    <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+    <dif>
+      Estanta <tld/>o:
+      <ekz>
+        figuro <tld/>a per iu transformo <klr>(egala al sia
+        bildo per &gcirc;i)</klr>.
+      </ekz>
+    </dif>
+    <trd lng="de">invariant</trd>
+    <trd lng="en">invariant</trd>
+    <trd lng="fr">invariant<klr tip="ind"> (adj.)</klr></trd>
+    <trdgrp lng="pl">
+      <trd>inwariantny</trd>,
+      <trd>niezmienniczy</trd>
+    </trdgrp>
+    <trd lng="ru">&c_i;&c_n;&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
+  </snc>
+  <snc mrk="invari.0a.subgrupo">
+    <fnt><bib>EKV</bib><lok>&para;182</lok></fnt>
+    <dif>
+      <klr>(p.p. <ref cel="grup.sub0o">subgrupo</ref> H de grupo G)</klr>
+      <tld lit="I"/>a <sncref ref="invari.0a.gxenerale"/> per &ccirc;iu
+      <ref cel="auxtom2.interna0o">interna a&ubreve;tomorfio</ref>
+      de G; alidire: tia, ke a.x.a<sup>-1</sup>&#8712;H por &ccirc;iuj
+      x&#8712;H kaj a&#8712;G:
+      <ekz>
+        &ccirc;iuj subgrupoj de komuteca grupo estas <tld/>aj;
+      </ekz>
+      <ekz>
+        H estas <tld/>a subgrupo de G, se kaj nur se &ccirc;iu
+        <ref cel="klas.dekstra0o">dekstra klaso</ref> de G rilate al H
+        estas anka&ubreve; <ref cel="klas.maldekstra0o">maldekstra klaso</ref>
+        kaj inverse.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="normal.0a.subgrupo">normala</ref>,
+      <ref cel="konjug.mem0ita.subgrupo">memkonjugita</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="simpl.0a.grupo">simpla</ref> subgrupo.
+    </refgrp>
+    <rim>
+      Krom la du cititaj sinonimoj toveblas anka&ubreve; 
+      <ctl>simetria subgrupo</ctl>, ekz-e en
+      <fnt><bib>MatStokTerm</bib><lok>p. 19</lok></fnt>, kiu termino estas
+      maloportuna pro la eventuala konfuzo kun
+      <ref cel="grup.simetria0o">simetria grupo</ref>.
+    </rim>
+    <trdgrp lng="de">
+      <trd>invariante<klr tip="amb"> (Untergruppe)</klr></trd>,
+      <trd>Normal-<klr tip="amb">(teiler)</klr></trd>,
+      <trd>selbst-konjugierte<klr tip="amb"> (Untergruppe)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>invariant<klr tip="amb"> (subgroup)</klr></trd>,
+      <trd>normal<klr tip="amb"> (subgroup)</klr></trd>,
+      <trd>distinguished<klr tip="amb"> (subgroup)</klr></trd>,
+      <trd>self-conjugate<klr tip="amb"> (subgroup)</klr></trd>,
+      <trd>normal<klr tip="amb"> (divisor)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd><klr tip="ind">(sous-groupe) </klr>invariant</trd>,
+      <trd><klr tip="ind">(sous-groupe) </klr>normal</trd>,
+      <trd><klr tip="ind">(sous-groupe) </klr>distingu&eacute;</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd><klr tip="amb">(podgrupa) </klr>niezmiennicza</trd>,
+      <trd><klr tip="amb">(podgrupa) </klr>normalna</trd>,
+      <trd><klr tip="amb">(dzielnik) </klr>normalny</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_i;&c_n;&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;&c_n;&c_a;&c_ja;
+      <klr tip="amb"> (&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)</klr></trd>,
+      <trd>&c_n;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
+      <klr tip="amb"> (&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)</klr></trd>,
+      <trd>&c_s;&c_a;&c_m;&c_o;&c_s;&c_o;&c_p;&c_r;&c_ja;&c_zh;&c_jo;&c_n;&c_n;&c_a;&c_ja;
+      <klr tip="amb"> (&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)</klr></trd>,
+      <trd>&c_n;&c_o;&c_r;&c_m;&c_a;&c_l;&c_n;&c_y;&c_j;<klr tip="amb"> (&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;)</klr> </trd>
+    </trdgrp>
+  </snc>
+</drv>
+</art>
+
+<!--
+$Log$
+-->
+</vortaro>
