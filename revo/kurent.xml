@@ -2,89 +2,144 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<ofc>8</ofc>
-<rad>kurent</rad>/o
-</kap>
-<drv mrk="kurent.0o">
-  <kap><tld/>o</kap>
-  <uzo tip="fak">FIZ</uzo>
-  <uzo tip="fak">ELE</uzo>
-  <snc>
-    <dif>
-      Fluo de <ref cel="elektr.0o">elektro</ref> tra 
-      <ref cel="konduk.0ilo.FIZ">kondukilo</ref>.
-    </dif>
-  </snc>
-  <trd lng="fr">courant<klr tip="ind"> (&eacute;lectrique)</klr></trd>
-  <trd lng="nl">stroom</trd>
-  <trd lng="ru"><klr tip="ind">(&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_y;&c_j;) </klr>&c_t;&c_o;&c_k;</trd>
-  <trd lng="sv">str&ouml;m</trd>
-</drv>
-<drv mrk="kurent.0intenso">
-  <kap><tld/>intenso</kap>
-  <uzo tip="fak">FIZ</uzo>
-  <uzo tip="fak">ELE</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <snc>
-    <dif>
-      Baza <ref tip="super" cel="grand.fizika0o">fizika grando</ref>,
-      esprimanta la intenson de <tld/>o:
-      <ekz>
-        la <ref cel="dimens.0o.FIZ">dimensioj</ref> de <tld/>intenso estas
-        <frm>M<sup>0</sup>L<sup>0</sup>T<sup>0</sup>I<sup>1</sup></frm>.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="amper.a0o">ampero</ref>.
-    </refgrp>
-  </snc>
-  <adm>
-  Tio estas unu el la malmultaj okazoj, kiam la fizika grando kaj
-  la fizika fenomeno havas malsaman nomon. Mi ne vidas klaran kialon
-  por tio, krom se konsideri la nacilingvajn kutimojn. Sama problemo 
-  okazas kun "elektra kampo" ks, kaj ne estas al mi klare, cxu ankaux
-  la vektora grando devas ricevi la nomo "intenso de la elektra kampo".
-  <aut>MB</aut>
-  </adm>
-  <trd lng="fr"><klr tip="amb">(intensit&eacute; du) </klr>courant</trd>
-  <trd lng="ru">&c_s;&c_i;&c_l;&c_a; &c_t;&c_o;&c_k;&c_a;</trd>
-</drv>
-<drv mrk="kurent.alterna0o">
-  <kap>alterna <tld/>o</kap>
-  <uzo tip="fak">ELE</uzo>
-  <snc>
-    <dif>
-      Kurento karakterizata per rapida sinsekvo de pozitivaj kaj negativaj 
-      alternancoj, dum kiuj la <tld/>o trafluas tien kaj reen.
-    </dif>
-  </snc>
-  <trd lng="fr">courant alternatif</trd>
-  <trd lng="nl">wisselstroom</trd>
-  <trd lng="sv">v&auml;xelstr&ouml;m</trd>
-</drv>
-<drv mrk="kurent.kontinua0o">
-  <kap>kontinua <tld/>o</kap>
-  <uzo tip="fak">ELE</uzo>
-  <snc>
-    <dif>
-      Kurento fluanta konstante tra cirkvito en la saman direkton kaj kies 
-      intenso restas konstanta.
-    </dif>
-  </snc>
-  <trd lng="fr">courant continue</trd>
-  <trd lng="nl">gelijkstroom</trd>
-  <trd lng="sv">likstr&ouml;m</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.6  2001/07/28 19:05:00  revo
-Marc Bavant: ~o: mod dif, +trd fr/ru; +drv ~intenso
+  <art mrk="$Id$">
+    <kap>
+      <ofc>8</ofc>
+      <rad>kurent</rad>/o
+    </kap>
+    <drv mrk="kurent.0o">
+      <kap><tld/>o</kap>
+      <uzo tip="fak">FIZ</uzo>
+      <uzo tip="fak">ELE</uzo>
+      <snc>
+        <dif>
+          Fluo de <ref cel="elektr.0o">elektro</ref> tra 
+          <ref cel="konduk.0ilo.FIZ">kondukilo</ref>.
+        </dif>
+      </snc>
+      <trd lng="fr">courant<klr tip="ind"> (&eacute;lectrique)</klr></trd>
+      <trd lng="nl">stroom</trd>
+      <trd lng="ru"><klr tip="ind">(&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_y;&c_j;) </klr>&c_t;&c_o;&c_k;</trd>
+      <trd lng="sv">str&ouml;m</trd>
+    </drv>
+    <drv mrk="kurent.0intenso">
+      <kap><tld/>intenso</kap>
+      <uzo tip="fak">FIZ</uzo>
+      <uzo tip="fak">ELE</uzo>
+      <fnt><bib>PIV1</bib></fnt>
+      <snc>
+        <dif>
+          Baza <ref tip="super" cel="grand.fizika0o">fizika grando</ref>,
+          esprimanta la intenson de <tld/>o:
+          <ekz>
+            la <ref cel="dimens.0o.FIZ">dimensioj</ref> de
+            <tld/>intenso estas
+            <frm>M<sup>0</sup>L<sup>0</sup>T<sup>0</sup>I<sup>1</sup></frm>.
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="amper.a0o">ampero</ref>.
+        </refgrp>
+      </snc>
+      <adm>
+        Tio estas unu el la malmultaj okazoj, kiam la fizika grando kaj
+        la fizika fenomeno havas malsaman nomon. Mi ne vidas klaran kialon
+        por tio, krom se konsideri la nacilingvajn kutimojn. Sama problemo 
+        okazas kun "elektra kampo" ks, kaj ne estas al mi klare, cxu ankaux
+        la vektora grando devas ricevi la nomo "intenso de la elektra
+        kampo".
+        <aut>MB</aut>
+      </adm>
+      <adm>
+        Mi ne komprenas tiun noton de MB.  Tensio estas ne malpli
+        grava karakterizo ol intenso, do oni devas havi terminon por
+        &ccirc;iu el ili.
+        <aut>Sergio</aut>
+      </adm>
+      <trd lng="fr"><klr tip="amb">(intensit&eacute; du) </klr>courant</trd>
+      <trd lng="ru">&c_s;&c_i;&c_l;&c_a; &c_t;&c_o;&c_k;&c_a;</trd>
+    </drv>
+    <drv mrk="kurent.alterna0o">
+      <kap>alterna <tld/>o</kap>
+      <uzo tip="fak">ELE</uzo>
+      <snc>
+        <dif>
+          Kurento karakterizata per rapida sinsekvo de pozitivaj
+          kaj negativaj alternancoj, dum kiuj la <tld/>o trafluas
+          tien kaj reen.
+        </dif>
+      </snc>
+      <trd lng="fr">courant alternatif</trd>
+      <trd lng="nl">wisselstroom</trd>
+      <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_j; &c_t;&c_o;&c_k;</trd>
+      <trd lng="sv">v&auml;xelstr&ouml;m</trd>
+    </drv>
+    <drv mrk="kurent.kontinua0o">
+      <kap>kontinua <tld/>o<fnt>PIV</fnt></kap>
+      <uzo tip="fak">ELE</uzo>
+      <uzo tip="stl">EVI</uzo>
+      <snc>
+        <dif>
+          <ref tip="dif" cel="kurent.konstanta0o">Konstanta <tld/>o</ref>.
+        </dif>
+      </snc>
+      <rim>
+        Tiu terminformo estas tute maltrafa kaj misgvida: anka&ubreve; la
+        norma alterna <tld/>o estas kontinua (la&ubreve; la normala senco de
+        la vortoj), kaj regula kontra&ubreve;o de <ctl>kontinua</ctl>
+        en elektrote&hcirc;niko estas ne <ctl>alterna</ctl> sed
+        <ctl>impulsa</ctl>.
+        <aut>Sergio Pokrovskij</aut>
+      </rim>
+    </drv>
+    <drv mrk="kurent.rekta0o">
+      <kap>rekta <tld/>o</kap>
+      <uzo tip="fak">ELE</uzo>
+      <snc>
+        <dif>
+          <tld lit="K"/>o fluanta unudirekte:
+          <ekz>
+            per rektigilo oni povas transformi
+            <ref cel="kurent.alterna0o">alternan <tld/>on</ref>
+            en <tld/>on rektan.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">direct current</trd>
+      <trdgrp lng="ru">
+        <trd>&c_p;&c_r;&c_ja;&c_m;&c_o;&c_j; &c_t;&c_o;&c_k;</trd>,
+        <trd>&c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_y;&c_j; &c_t;&c_o;&c_k;</trd></trdgrp>
+    </drv>
+    <drv mrk="kurent.konstanta0o">
+      <kap>konstanta <tld/>o</kap>
+      <uzo tip="fak">ELE</uzo>
+      <snc>
+        <dif>
+          <ref tip="super" cel="kurent.rekta0o">Rekta <tld/>o</ref>
+          fluanta tra cirkvito kun konstanta
+          <ref cel="tensi.0o">tensio</ref>:
+          <ekz>
+            sur la elektraj juntoj oni ofte markas la konstantan
+            <tld/>on per egalsigno <frm>=</frm>.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="fr">courant continue</trd>
+      <trd lng="nl">gelijkstroom</trd>
+      <trd lng="ru">&c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_y;&c_j; &c_t;&c_o;&c_k;</trd>
+      <trd lng="sv">likstr&ouml;m</trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.7  2001/09/05 19:06:18  revo
+  Jerano Zachrisson: +trd sv
 
-Revision 1.5  2001/02/21 20:08:13  revo
-Paul Peeraerts: ald trd nl
+  Revision 1.6  2001/07/28 19:05:00  revo
+  Marc Bavant: ~o: mod dif, +trd fr/ru; +drv ~intenso
 
--->
+  Revision 1.5  2001/02/21 20:08:13  revo
+  Paul Peeraerts: ald trd nl
+
+  -->
 </vortaro>
