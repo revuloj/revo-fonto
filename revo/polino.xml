@@ -2,93 +2,112 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-   <art mrk="$Id$">
-     <kap>
-       <rad>polinom</rad>/o
-       <ofc></ofc>
-     </kap>
-     <drv mrk="polino.0o">
-       <kap><tld/>o</kap>
-       <uzo tip="fak">MAT</uzo>
-       <snc num="1">
-         <dif>
-           (super <ref cel="ring.0o.MAT">ringo</ref> R)
-           Tia <ref tip="super" cel="vic.0o.MAT">vico</ref> en <em>R</em>, ke
-           la nombro de &gcirc;iaj <ref cel="nul0.0a.MAT">nenulaj</ref>
-           termoj estas finia:
-           <ekz>
-             oni signas per <em>X</em><sup>i</sup> la <tld/>on, kies j-a
-             termino egalas al la unuo de la ringo, se i=j, kaj al ties nulo
-             aliokaze;
-           </ekz>
-           <ekz>
-             la <tld/>on (a<sub>i</sub>)<sub>i&#x2208;N</sub> oni ofte signas
-             per &#x2211;a<sub>i</sub><em>X</em><sup>i</sup>.
-           </ekz>
-         </dif>
-         <refgrp tip="vid">
-           <ref cel="term.0o.polinomo">termo de polinomo</ref>,
-           <ref cel="grad.0o.polinomo">grado de polinomo</ref>,
-           <ref cel="nul0.0o.polinomo">nulo de polinomo</ref>,
-           <ref cel="ring.polinom0o">polinom-ringo</ref>.
-         </refgrp>
-       </snc>
-       <snc num="2">
-         <ref tip="sin" cel="funkci.polinoma0o">polinoma funkcio.</ref>
-       </snc>
-       <rim>
-         La nocio <tld/>o historie fontas el la <tld/>aj funkcioj, kiel
-         ekz-e x<sup>2</sup>+3.x+7. La &ccirc;i-supra difino koncernas
-         formalajn polinomojn. &Gcirc;i prisilentas
-         la analitikan fonon de la nocio kaj okupi&gcirc;as nur pri
-         la vico de <ctl>koeficientoj</ctl>. Tamen en ringo kun nula
-         karakteristiko la bildigo inter <tld/>oj kaj <tld/>aj funkcioj estas
-         bijekcia. Same kiel ekzistas plurargumentaj <tld/>aj funkcioj,
-         la &ccirc;i-supra formala nocio estas vastigebla anka&ubreve; al
-         pluraj <ctl>argumentoj</ctl>.
-       </rim>
-       <trd lng="en">polynomial</trd>
-       <trd lng="fr">polyn&ocirc;me</trd>
-       <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</trd>
-     </drv>
+    <art mrk="$Id$">
+      <kap>
+        <rad>polinom</rad>/o
+        <ofc></ofc>
+      </kap>
+      <drv mrk="polino.0o">
+        <kap><tld/>o</kap>
+        <uzo tip="fak">MAT</uzo>
+        <snc num="1" mrk="polino.0o.1">
+          <dif>
+            <klr>(super <ref cel="unu.0hava">unuhava</ref>
+            <ref cel="komut.0eca.ringo">komut(ec)a</ref>
+            <ref cel="ring.0o.MAT">ringo</ref> R)</klr>
+            Tia <ref tip="super" cel="vic.0o.MAT">vico</ref> en <em>R</em>, ke
+            la nombro de &gcirc;iaj <ref cel="nul0.0a.MAT">nenulaj</ref>
+            termoj estas finia:
+            <ekz>
+              oni signas per <em>X</em><sup>i</sup> la <tld/>on, kies j-a
+              termino egalas al la unuo de la ringo, se i=j, kaj al ties nulo
+              aliokaze;
+            </ekz>
+            <ekz>
+              la <tld/>on (a<sub>i</sub>)<sub>i&#x2208;N</sub> oni ofte signas
+              per &#x2211;a<sub>i</sub><em>X</em><sup>i</sup>.
+            </ekz>
+          </dif>
+          <refgrp tip="vid">
+            <ref cel="term.0o.polinomo">termo de polinomo</ref>,
+            <ref cel="grad.0o.polinomo">grado de polinomo</ref>,
+            <ref cel="nul0.0o.polinomo">nulo de polinomo</ref>,
+            <ref cel="ring.polinom0o">polinom-ringo</ref>.
+          </refgrp>
+        </snc>
+        <snc num="2">
+          <ref tip="sin" cel="funkci.polinoma0o">polinoma funkcio.</ref>
+        </snc>
+        <rim>
+          La nocio <tld/>o historie fontas el la <tld/>aj funkcioj, kiel
+          ekz-e x<sup>2</sup>+3.x+7. La &ccirc;i-supra difino koncernas
+          formalajn polinomojn. &Gcirc;i prisilentas
+          la analitikan fonon de la nocio kaj okupi&gcirc;as nur pri
+          la vico de <ctl>koeficientoj</ctl>. Tamen en ringo kun nula
+          karakteristiko la bildigo inter <tld/>oj kaj <tld/>aj funkcioj estas
+          bijekcia. Same kiel ekzistas plurargumentaj <tld/>aj funkcioj,
+          la &ccirc;i-supra formala nocio estas vastigebla anka&ubreve; al
+          pluraj <ctl>argumentoj</ctl>.
+        </rim>
+        <trd lng="en">polynomial</trd>
+        <trd lng="fr">polyn&ocirc;me</trd>
+        <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;</trd>
+      </drv>
 
-     <drv mrk="polino.0a">
-       <kap><tld/>a</kap>
-       <snc>
-         <dif>
-           Rilata al <tld/>o.
-         </dif>
-         <refgrp tip="vid">
-           <ref cel="funkci.polinoma0o">polinoma funkcio</ref>,
-           <ref cel="adici.polinoma0o">polinoma adicio</ref>,
-           <ref cel="multip.polinoma0o">polinoma multipliko</ref>.
-         </refgrp>
-       </snc>
-       <trd lng="fr">polynomial</trd>
-     </drv>
+      <drv mrk="polino.0a">
+        <kap><tld/>a</kap>
+        <snc>
+          <dif>
+            Rilata al <tld/>o.
+          </dif>
+          <refgrp tip="vid">
+            <ref cel="funkci.polinoma0o">polinoma funkcio</ref>,
+            <ref cel="adici.polinoma0o">polinoma adicio</ref>,
+            <ref cel="multip.polinoma0o">polinoma multipliko</ref>.
+          </refgrp>
+        </snc>
+        <trd lng="fr">polynomial</trd>
+      </drv>
 
-     <drv mrk="polino.konstanta0o">
-       <kap>konstanta <tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           Tia <ref tip="super" cel="polino.0o"><tld/>o</ref>, ke nur
-           &gcirc;ia termo kun indico 0 estas nenula:
-           <ekz>
-             nulo-<tld/>o <klr>(kun &ccirc;iuj termoj egalaj al la nulo)</klr>;
-           </ekz>
-           <ekz>
-             unuo-<tld/>o <klr>(kun &gcirc;ia nenula termo egala al la 
+      <drv mrk="polino.formala0o">
+        <kap>formala <tld/>o</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            <ref tip="dif" cel="polino.0o.1"><tld/>o <sncref 
+ref="polino.0o.1"/>
+            </ref> <klr>(kontraste kun <tld/>a funkcio)</klr>.
+          </dif>
+        </snc>
+        <trd lng="fr">polyn&ocirc;me formel</trd>
+      </drv>
+
+      <drv mrk="polino.konstanta0o">
+        <kap>konstanta <tld/>o</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            Tia <ref tip="super" cel="polino.0o"><tld/>o</ref>, ke nur
+            &gcirc;ia termo kun indico 0 estas eble nenula:
+            <ekz>
+              nulo-<tld/>o <klr>(kun &ccirc;iuj termoj egalaj al la 
+nulo)</klr>;
+            </ekz>
+            <ekz>
+              unuo-<tld/>o <klr>(kun &gcirc;ia nenula termo egala al la
 unuo)</klr>;
-           </ekz>
-         </dif>
-       </snc>
-       <trd lng="fr">polyn&ocirc;me constant</trd>
-     </drv>
+            </ekz>
+          </dif>
+        </snc>
+        <trd lng="fr">polyn&ocirc;me constant</trd>
+      </drv>
 
-   </art>
+    </art>
 
 <!--
 $Log$
+Revision 1.1  2000/10/22 16:11:24  revo
+Marc Bavant: nova artikolo
+
 -->
 </vortaro>
