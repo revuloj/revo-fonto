@@ -4,18 +4,38 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>demonstr</rad>/i
+  <rad>demonstr</rad>/i
 </kap>
 <drv mrk="demons.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Plene kaj nepre pruvi per dedukto:
+      Plene kaj nepre <ref cel="pruv.0i">pruvi</ref> per dedukto.
+    </dif>
+  </snc>
+  <snc mrk="demons.0i.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <dif>
+      Matematike <ref tip="dif" cel="pruv.0i.MAT">pruvi</ref>:
       <ekz>
-        la e&ubreve;klida postulato ne estas <tld/>ebla.
+        <tld/>u, ke la produto de du diagonalaj matricoj ne dependas
+        de la ordo de ties faktoroj;
+      </ekz>
+      <ekz>
+        la e&ubreve;klida postulato ne estas <ind><tld/>ebla</ind>.
+        <trd lng="de">beweisbar</trd>
+        <trd lng="en">provable</trd>
+        <trdgrp lng="fr">
+          <trd>d&eacute;montrable</trd>,
+          <trd>prouvable</trd>
+        </trdgrp>
+        <trd lng="en">prove</trd>
+        <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
       </ekz>
     </dif>
+    <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <trdgrp lng="fr">
     <trd>d&eacute;montrer</trd>,
@@ -26,38 +46,50 @@
     <trd>(be)bizony&iacute;t</trd>
   </trdgrp>
   <trdgrp lng="ru">
- 
-<trd>&c_d;&c_je;&c_m;&c_o;&c_n;&c_s;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;
-&c_mol;</trd>,
+    <trd>&c_d;&c_je;&c_m;&c_o;&c_n;&c_s;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_k;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="demons.0o">
   <kap><tld/>o</kap>
   <snc>
     <dif>
       Nepra pruvo per dedukto.
     </dif>
-    <ref tip="sin" cel="demons1.0o.dedukto">demonstracio 1.</ref>
   </snc>
+  <snc mrk="demons.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Matematika <ref tip="dif" cel="pruv.0o.MAT">pruvo</ref>:
+      <ekz>
+        eraro englitis en vian <tld/>on.
+      </ekz>
+    </dif>
+    <trd lng="en">proof</trd>
+    <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
+  </snc>
+  <ref tip="sin" cel="demons1.0o.dedukto">demonstracio 1.</ref>
   <trdgrp lng="fr">
-    <trd>d&eacute;monstration<klr tip="ind"> (raisonnement)</klr></trd>,
-    <trd>raisonnement</trd>
+    <trd>d&eacute;monstration<klr tip="ind"> (preuve)</klr></trd>,
+    <trd>preuve<klr tip="ind"> (d&eacute;monstration)</klr></trd>
   </trdgrp>
   <trd lng="hu">bizony&iacute;t&aacute;s</trd>
   <trdgrp lng="ru">
- 
-<trd>&c_d;&c_je;&c_m;&c_o;&c_n;&c_s;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>,
+    <trd>&c_d;&c_je;&c_m;&c_o;&c_n;&c_s;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_p;&c_o;&c_k;&c_a;&c_z;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.5  2001/04/23 17:06:10  revo
+Revision 1.6 2001/09/12 18:57:21 revo
+Jozefo Horvath: +trd hu
+
+Revision 1.5 2001/04/23 17:06:10 revo
 Marc Bavant: +trd fr; mod dif ~o
 
-Revision 1.4  2001/03/26 20:36:22  revo
+Revision 1.4 2001/03/26 20:36:22 revo
 Yury Finkel: +trd ru
 
 -->
