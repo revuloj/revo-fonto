@@ -35,16 +35,26 @@
             <ref cel="redukt.ne0ebla">neredukteblajn</ref> <tld/>ojn;
           </ekz>
           <ekz>
+            la <tld/>oj de la <ref cel="unu.0o.neuxtra">unuo</ref> estas
+            la <ref cel="invers.0igebla">inversigeblaj</ref> elementoj;
+          </ekz>
+          <ekz>
             la <ind>plej granda komuna <tld/>o</ind> de 24 kaj 30 estas
             6.
+            <trd lng="fr">greatest common <ind>divisor</ind></trd>
+            <trd lng="de">gr&ouml;&szlig;ter <ind>Gemeinteiler</ind></trd>
             <trdgrp lng="fr">
               <trd>plus grand commun <ind>diviseur</ind></trd>,
               <trd>P.G.C.D.</trd></trdgrp> 
+            <trd lng="ru">&c_n;&c_a;&c_i;&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_i;&c_j; &c_o;&c_b;&c_shch;&c_i;&c_j; <ind>&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;</ind></trd>
           </ekz>
         </dif>
       </snc>
-    
-       <ref tip="vid" cel="faktor.0o">faktoro</ref>
+       <refgrp tip="vid">
+         <ref cel="faktor.0o">faktoro</ref>,
+         <ref cel="obl.0o">oblo</ref>.
+       </refgrp>
+       <trd lng="de">Teiler</trd>
        <trd lng="en">divisor</trd>
        <trd lng="fr">diviseur</trd>
        <trd 
@@ -59,8 +69,7 @@ lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
          <dif>
            Esti <tld/>o:
            <ekz>2 <tld/>as en &ccirc;iu para entjero (a&ubreve; 
-<ctl>&ccirc;iun paran
-               entjeron</ctl>);
+           <ctl>&ccirc;iun paran entjeron</ctl>);
            </ekz><ekz>
              komuna <tld/>o de pluraj entjeroj estas entjero kiu
              <tld/>as &ccirc;iun el ili.
@@ -76,12 +85,12 @@ lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
          "<tld/>hava").
        </rim>
        <adm>
-         &Scirc;ajnas al mi, ke la senco "esti ~o de" ne 
+         &Scirc;ajnas al mi, ke la senco "esti ~o de" ne tute
          malebligas, ke oni konsideru la verbon transitiva. 
          Ja la ekz-oj de la tipo "2 divizoras en la paraj nombroj" 
          ne aspektas tre nature kaj transitiva verbo estus 
          oportuna por traduki el la nacilingvoj, kiuj
-         &ccirc;isence uzas "dividi".
+         &ccirc;isence uzas "dividi" metafore.
          <aut>MB</aut>
        </adm>
        <trd lng="en">divide</trd>
@@ -109,14 +118,47 @@ lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
            <ref cel="integr.0a.MAT">integra</ref>.
          </refgrp>
        </snc>
+       <trd lng="en">zero divisor</trd>
+       <trd lng="de">Nullteiler</trd>
        <trd lng="fr">diviseur de z&eacute;ro</trd>
        <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol; 
 &c_n;&c_u;&c_l;&c_ja;</trd>
      </drv>
 
+    <drv mrk="divizo.propra0o">
+      <kap>propra <tld/>o</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(de elemento a en <ref cel="ring.0o.MAT">ringo</ref>)</klr>
+          Tia <tld/>o, ke &gcirc;i estas nek
+          <ref cel="invers.0igebla.MAT">inversigebla</ref>, nek
+          <ref cel="divid.0ebla.MAT">dividebla</ref> per a:
+          <ekz>
+            prima nombro ne havas proprajn <tld/>ojn.
+          </ekz>
+        </dif>
+      </snc>
+      <adm>
+        &Ccirc;u "pura divizoro" ne estus pli &gcirc;usta? Ja
+        la senco de tiu deriva&jcirc;o ne bone akordi&gcirc;as kun
+        la senco de "propra". La "propraj" divizoroj de 10 ne apartenas
+        ekskluzive al &ccirc;i tiu nombro! Mi timas, ke la adjektivo
+        "propra" en&scirc;teli&gcirc;is &ccirc;i tien, kiel mallongigo
+        de "divizoro proprasence". <aut>MB</aut>
+      </adm>
+      <trd lng="en">proper <ind>divisor</ind></trd>
+      <trd lng="de">echter <ind>Teiler</ind></trd>
+      <trd lng="fr">diviseur propre</trd>
+      <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j; &c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+    </drv>
+    
    </art>
 <!--
 $Log$
+Revision 1.6  2001/02/10 20:07:38  revo
+Marc Bavant: +snc plia cxe ~o, +adm cxe ~i
+
 Revision 1.5  2000/11/30 17:12:11  revo
 Alain Fagot: mrk="divizo.0o" + mrk="divizo.0i"
 
