@@ -9,7 +9,7 @@
 <drv mrk="kosinu.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="kosinu.0o.entriangulo">
     <dif>
       <klr>(de <ref cel="angul.0o.MAT">angulo</ref> &alfa;)</klr>
       <ref cel="sinus.0o">Sinuso</ref> de &gcirc;ia 
@@ -22,18 +22,55 @@
         <ref cel="suplem.0o.angulo">suplemento</ref>.
       </ekz>
     </dif>
+    <bld lok="../bld/trigo.jpg">
+      la <tld/>o de angulo &alfa; egalas al OK/OM
+    </bld>    
   </snc>
-  <bld lok="../bld/trigo.jpg">
-    la <tld/>o de angulo &alfa; egalas al OK/OM
-  </bld>    
+  <snc mrk="kosinu.0o.funkcio">
+    <dif>
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
+      reelon x al la <tld/>o <sncref ref="kosinu.0o.entriangulo"/>
+      de angulo, kies mezuro en <ref cel="radian.0o">radianoj</ref> diferencas
+      de x per oblo de 2&pi;; simb. cos:
+      <ekz>
+        <tld/>o estas perioda funkcio, kun periodo 2&pi;.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="en">cosine</trd>
   <trd lng="de">Kosinus</trd>
   <trd lng="fr">cosinus</trd>
   <trd lng="ru">&c_k;&c_o;&c_s;&c_i;&c_n;&c_u;&c_s;</trd>
 </drv>
+<drv mrk="kosinu.ark0o">
+  <kap>ark<tld/>o, arko<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref cel="bild.inversa0igo">Inversa bildigo</ref> de
+      la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> <tld/>o al la
+      intervalo [0,&pi;]; simb. arc cos:
+      <ekz>
+        ark<tld/>o de 0 egalas al &pi;/2.
+      </ekz>
+    </dif>
+    <rim>
+      Vd rimarkon sub <ref cel="ark.0o.angulo">arko</ref>.
+    </rim>
+  </snc>
+  <trd lng="de">Arkuskosinus</trd>
+  <trd lng="en">arc cosine</trd>
+  <trd lng="fr">arc cosinus</trd>
+  <trd lng="ru">&c_a;&c_r;&c_k;&c_k;&c_o;&c_s;&c_i;&c_n;&c_u;&c_s;</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.5  2001/05/19 19:42:00  revo
+Marc Bavant: +trd, +ref, +bld
+
 Revision 1.4  2001/05/04 16:12:25  revo
 Karlo Freeman: +trd=en
 

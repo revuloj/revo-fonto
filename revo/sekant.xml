@@ -9,29 +9,66 @@
 <drv mrk="sekant.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="sekant.0o.entriangulo">
     <dif>
       <klr>(de <ref cel="angul.0o.MAT">angulo</ref> &alfa;)</klr>
       Inverso de &gcirc;ia <ref cel="kosinu.0o">kosinuso</ref>; 
       simb. sec&#xa0;&alfa;.
-  </dif>
+    </dif>
+    <bld lok="../bld/trigo.jpg">
+      la <tld/>o de angulo &alfa; egalas al OT/OM
+    </bld>    
     <trd lng="de">Sekans</trd>
     <trd lng="en">secant</trd>
     <trd lng="fr">s&eacute;cante<klr tip="ind"> (trigo.)</klr></trd>
     <trd lng="ru">&c_s;&c_je;&c_k;&c_a;&c_n;&c_s;</trd>
+  </snc>
+  <snc mrk="sekant.0o.funkcio">
+    <dif>
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
+      reelon x al la <tld/>o <sncref ref="sinus.0o.entriangulo"/>
+      de angulo, kies mezuro en <ref cel="radian.0o">radianoj</ref> diferencas
+      de x per oblo de 2&pi;; simb. sec:
+      <ekz>
+        <tld/>o estas perioda funkcio, kun periodo 2&pi;.
+      </ekz>
+    </dif>
   </snc>
   <snc>
     <uzo tip="stl">ARK</uzo>
     <fnt><bib>PV</bib></fnt>
     <ref tip="dif" cel="sekc.0anto">sekcanto.</ref>
   </snc>
-  <bld lok="../bld/trigo.jpg">
-    la <tld/>o de angulo &alfa; egalas al OT/OM
-  </bld>    
+</drv>
+<drv mrk="sekant.ark0o">
+  <kap>ark<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref cel="bild.inversa0igo">Inversa bildigo</ref> de
+      la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> <tld/>o al la
+      intervalo ]-&pi;/2,&pi;/2[; simb. arc sec:
+      <ekz>
+        ark<tld/>o de 1 egalas al 0.
+      </ekz>
+    </dif>
+    <rim>
+      Vd rimarkon sub <ref cel="ark.0o.angulo">arko</ref>.
+    </rim>
+  </snc>
+  <trd lng="de">Arkussekans</trd>
+  <trd lng="en">arc secant</trd>
+  <trd lng="fr">arc s&eacute;cante</trd>
+  <trd lng="ru">&c_a;&c_r;&c_k;&c_s;&c_je;&c_k;&c_a;&c_n;&c_s;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+Revision 1.4  2001/05/19 19:41:58  revo
+Marc Bavant: reverkis
+
 -->
 </vortaro>

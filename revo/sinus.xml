@@ -10,7 +10,7 @@
 <drv mrk="sinus.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="sinus.0o.entriangulo">
     <dif>
       <klr>(de akuta <ref cel="angul.0o.MAT">angulo</ref> &alfa; en
       orta triangulo)</klr>
@@ -22,22 +22,62 @@
         la <tld/>o de orto egalas al 1;
       </ekz>
       <ekz>
-        la <tld/>o de obtuza angulo difini&gcirc;as kiel la <tld/>o de 
+        la <tld/>o de obtuza angulo difini&gcirc;as kiel la <tld/>o de
         &gcirc;ia <ref cel="suplem.0o.angulo">suplemento</ref>.
       </ekz>
     </dif>
+    <bld lok="../bld/trigo.jpg">
+      la <tld/>o de angulo &alfa; egalas al KM/OM
+    </bld>
   </snc>
-  <bld lok="../bld/trigo.jpg">
-    la <tld/>o de angulo &alfa; egalas al KM/OM
-  </bld>
+  <snc mrk="sinus.0o.funkcio">
+    <dif>
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
+      reelon x al la <tld/>o <sncref ref="sinus.0o.entriangulo"/>
+      de angulo, kies mezuro en <ref cel="radian.0o">radianoj</ref> diferencas
+      de x per oblo de 2&pi;; simb. sin:
+      <ekz>
+        <tld/>o estas perioda funkcio, kun periodo 2&pi;;
+      </ekz>
+      <ekz>
+        la rilato de <tld/>o al &gcirc;ia argumento strebas al 1, kiam
+        la argumento strebas al 0.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="de">Sinus</trd>
   <trd lng="en">sine</trd>
   <trd lng="fr">sinus</trd>
   <trd lng="ru">&c_s;&c_i;&c_n;&c_u;&c_s;</trd>
 </drv>
+<drv mrk="sinus.ark0o">
+  <kap>ark<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref cel="bild.inversa0igo">Inversa bildigo</ref> de
+      la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> <tld/>o al la
+      intervalo [-&pi;/2,&pi;/2]; simb. arc sin:
+      <ekz>
+        ark<tld/>o de 1 egalas al &pi;/2.
+      </ekz>
+    </dif>
+    <rim>
+      Vd rimarkon sub <ref cel="ark.0o.angulo">arko</ref>.
+    </rim>
+  </snc>
+  <trd lng="de">Arkussinus</trd>
+  <trd lng="en">arc sine</trd>
+  <trd lng="fr">arc sinus</trd>
+  <trd lng="ru">&c_a;&c_r;&c_k;&c_s;&c_i;&c_n;&c_u;&c_s;</trd>
+</drv>
 </art>
-
 <!--
 $Log$
+Revision 1.4  2001/05/19 19:42:02  revo
+Marc Bavant: reverkis
+
 -->
 </vortaro>
