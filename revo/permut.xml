@@ -25,19 +25,23 @@
 <drv mrk="permut.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
+  <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
   <snc>
     <dif>
       <ref tip="super" cel="bijekc.0o">Bijekcio</ref> de aro al
       &gcirc;i mem; pli speciale: bijekcio de {1, 2, ..., n} al &gcirc;i mem:
       <ekz>
-        la nombro de <tld/>oj de {1, 2, ..., n} estas
-        <ref cel="faktor5.0o">faktorialo</ref> de n;
+        <ind>cikla <tld/>o</ind> <klr>(kiu &jcirc;etas 1 al k, 2 al k+1,... ,
+        (n-k+2) al 1,... , n al k-1)</klr>;
+        <trd lng="de">zyklische <ind>Vertauschung</ind></trd>
+        <trd lng="en">cyclic <ind>permutation</ind></trd>
+        <trd lng="fr">permutation circulaire</trd>
+        <trd lng="ru">&c_c;&c_i;&c_k;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_k;&c_a;</ind></trd>
       </ekz>
       <ekz>
         la <ref cel="rang.0o.matrico">rango</ref> de matrico ne
         &scirc;an&gcirc;i&gcirc;as, se oni aplikas <tld/>on al la indicoj
-        de &gcirc;iaj vertikaloj a&ubreve; de &gcirc;iaj vertikaloj.
+        de &gcirc;iaj vertikaloj a&ubreve; de &gcirc;iaj horizontaloj.
       </ekz>
     </dif>
     <ref tip="sub" cel="substi.0o.MAT">substituo;</ref>
@@ -56,51 +60,49 @@
   <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
   <snc>
     <dif>
-      &Ccirc;iu el la diversaj manieroj vicigi la elementojn de iu
-      aro:
+      <klr>(de n elementoj)</klr>
+      &Ccirc;iu el la diversaj manieroj vicigi la elementojn de n-elementa aro:
       <ekz>
-        la diversaj permuta&jcirc;oj de la objektoj a, b, c
+        la nombro de <tld/>a&jcirc;oj de n elementoj estas
+        <ref cel="faktor5.0o">faktorialo</ref> de n;
+      </ekz>
+      <ekz>
+        la diversaj <tld/>a&jcirc;oj de la aro {a,b,c}
         estas: abc, acb, bac, bca, cab, cba.
       </ekz>
     </dif>
-    <ref tip="super" cel="kombinrk.0ajxo">kombinatorika&jcirc;o;</ref>
     <refgrp tip="vid">
-      <ref cel="arangx.0ajxo">aran&gcirc;a&jcirc;o</ref>,
-      <ref cel="kombin.0ajxo.mat">kombina&jcirc;o</ref>,
-      <ref cel="faktor5.0o">faktorialo</ref>.
+      <ref cel="arangx.0ajxo.MAT">aran&gcirc;a&jcirc;o</ref>,
+      <ref cel="kombin.0ajxo.MAT">kombina&jcirc;o</ref>.
     </refgrp>
+    <rim>
+      <ctl>Maniero vicigi elementojn</ctl> ne estas matematika objekto.
+      Temas pri tradicia lingva&jcirc;o, kiu fakte referencas al la
+      <tld/>o: per <ctl><tld/>a&jcirc;o acb</ctl>, konkreta skriba&jcirc;o,
+      oni fakte aludas al la <tld/>o, kiu &jcirc;etas a al a, b al c kaj
+      c al b.
+    </rim>
   </snc>
-  <adm>
-    "Maniero vicigi elementojn" ne estas matematika objekto. Se
-    konsideri, ke la derivajxo per ~ajxo ofte signas la rezulton
-    de bildigo aux operacio, ni devas konstati, ke tiu vorto
-    rompas la regulon, cxar gxi esence montras la saman aferon
-    kiel ~o: pp "la ~ajxo bca" ni simple aludas al la bijekcio, kiu
-    jxetas a al b, b al c kaj c al a. <aut>MB</aut>
-  </adm>
-  <trd lng="de">Permutation</trd>
-  <trd lng="en">permutation</trd>
-  <trd lng="fr">permutation</trd>
+  <trd lng="de">Permutation<klr tip="amb"> (von n Elementen)</klr></trd>
+  <trd lng="en">permutation<klr tip="amb"> (of n things)</klr></trd>
+  <trd lng="fr">permutation<klr tip="amb"> (de n &eacute;l&eacute;ments)</klr></trd>
   <trd lng="nl">permutatie</trd>
-  <trd lng="ru">&#x43f;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x43d;&#x43e;&#x432;&#x43a;&#x430;</trd>
+  <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_k;&c_a;<klr tip="amb"> (&c_i;&c_z; n &c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;&c_o;&c_v;)</klr> </trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.9  2002/02/03 17:30:57  revo
+Marc Bavant: mod fnt MAT, +ref al substituo
 Revision 1.8 2001/11/11 19:21:23 revo
 Marc Bavant: ~ajxo: +fnt
-
 Revision 1.7 2001/07/29 19:28:08 revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.6 2001/07/09 18:19:59 revo
 Dennis Wibrow: +trd germ
-
 Revision 1.5 2000/09/05 16:12:48 revo
 Sergio Pokrovskij: -malprt
-
 Revision 1.4 2000/07/11 17:04:26 revo
 Sergio Pokrovskij: trad; +permutajxo
-
 -->
 </vortaro>
