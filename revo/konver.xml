@@ -2,83 +2,100 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>konver&gcirc;</rad>/i
-      <fnt>Z</fnt>
-    </kap>
-    <drv mrk="konver.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>ntr</vspec></gra>
-      <snc mrk="konver.0i.FIZ">
-        <uzo tip="fak">FIZ</uzo>
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Celi al sama punkto:
-          <ekz>la sunaj radioj, trapasinte konveksan lenson,
-            <tld/>as al &gcirc;ia fokuso<fnt>B</fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc>
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Senfina vico <frm>x<sub>1</sub>, x<sub>2</sub>, ...</frm>
-          <tld/>as al <frm>p</frm> se por ajna pozitiva reelo <frm>c</frm>
-          ekzistas tia numero <frm>n</frm>, ke
-          <frm>|p-x<sub>i</sub>| &#60; c</frm> por &ccirc;iu <frm>i&#62;n</frm>.
-        </dif>
-        <rim>
-          La nocion oni &gcirc;eneraligas por funkcioj kaj serioj.
-          Tia <frm>p</frm> estas nomata <ref cel="limes.0o">limeso</ref>.
-        </rim>
-      </snc>
-      <snc mrk="konver.0i.metrikaspaco">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> (x<sub>n</sub>) en
-          <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
-          Esti tia, ke por &gcirc;i ekzistas certa punkto (&gcirc;ia
-          <ref cel="limes.0o.vico">limeso</ref>), al kiu la 
-          <ref cel="distan.0o.MAT">distanco</ref> de x<sub>n</sub>
-          estas arbitre malgranda, se n estas sufi&ccirc;e granda:
-          <ekz>
-            la&ubreve;difine &ccirc;iuj ko&scirc;iaj vicoj <tld/>as
-            en <ref cel="komple2.0a.MAT">kompleta</ref> spaco;
-          </ekz>
-          <ekz>
-            se vico akceptas <ref cel="adher.0a.punkto">adheran punkton</ref>, 
-            ekzistas <tld/>anta subvico de &gcirc;i.
-          </ekz>
-        </dif>
-        <rim>
-          Kvankam la verbo enhavas ideon pri ago, &gcirc;ia matematika
-          uzo simple parolas pri eco de la koncerna vico. Oni diras
-          sendistinge <ctl>konver&gcirc;i</ctl> a&ubreve; <ctl>esti
-          konver&gcirc;(ant)a</ctl>.
-        </rim>
-      </snc>
-    
-      <trd lng="en">converge</trd>
-      <trd lng="fr">converger</trd>
-      <trd lng="ru">&#x441;&#x445;&#x43e;&#x434;&#x438;&#x442;&#x44c;&#x441;&#x44f;</trd>
-    </drv>
-    <drv mrk="konver.mal0i">
-      <kap>mal<tld/>i</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          Ne <tld/>i, ne esti <tld/>anta.
-        </dif>
-        <ref tip="sin" cel="diverg.0i.MAT">diver&gcirc;i.</ref>
-      </snc>
-      <trd lng="en">diverge</trd>
-      <trd lng="fr">diverger</trd>
-      <trd lng="ru">&#x440;&#x430;&#x441;&#x445;&#x43e;&#x434;&#x438;&#x442;&#x44c;&#x441;&#x44f;</trd>
-    </drv>
-  </art>
+<art mrk="$Id$">
+<kap>
+  <rad>konver&gcirc;</rad>/i
+  <fnt>Z</fnt>
+</kap>
+<drv mrk="konver.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="konver.0i.FIZ">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      Celi al sama punkto:
+      <ekz>la sunaj radioj, trapasinte konveksan lenson,
+        <tld/>as al &gcirc;ia fokuso<fnt>B</fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj <ref cel="nask.0anto.rekto">naskantoj</ref> de
+        <ref cel="konus.0o.surfaco">konuso</ref> <tld/>as
+        <klr>(intersekci&gcirc;as)</klr> &ccirc;e &gcirc;ia 
+        <ref cel="vertic.0o.konuso">vertico</ref>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="klr">(elementa analitiko)</uzo>
+    <dif>
+      Senfina vico <frm>x<sub>1</sub>, x<sub>2</sub>, ...</frm>
+      <tld/>as al <frm>p</frm> se por ajna pozitiva reelo <frm>c</frm>
+      ekzistas tia numero <frm>n</frm>, ke
+      <frm>|p-x<sub>i</sub>| &#60; c</frm> por &ccirc;iu <frm>i&#62;n</frm>.
+    </dif>
+    <rim>
+      La nocion oni &gcirc;eneraligas por funkcioj kaj serioj.
+      Tia <frm>p</frm> estas nomata <ref cel="limes.0o">limeso</ref>.
+    </rim>
+  </snc>
+  <snc mrk="konver.0i.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> (x<sub>n</sub>) en
+      <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
+      Esti tia, ke &ccirc;iuj &gcirc;iaj termoj (krom finia nombro
+      da ili) apartenas al 
+      <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref> 
+      de certa 
+      punkto (&gcirc;ia <ref cel="limes.0o.vico">limeso</ref>), kiel ajn
+      oni elektas la &ccirc;irka&ubreve;a&jcirc;on:
+      <ekz>
+        en <ref cel="spac.metrika0o">metrika spaco</ref>, la
+        distanco inter termo x<sub>n</sub> de <tld/>anta vico kaj
+        &gcirc;ia limeso estas arbitre malgranda, se n estas sufi&ccirc;e 
+        granda;
+      </ekz>
+      <ekz>
+        la&ubreve;difine &ccirc;iuj ko&scirc;iaj vicoj <tld/>as
+        en <ref cel="komple2.0a.MAT">kompleta</ref> spaco;
+      </ekz>
+      <ekz>
+        se vico akceptas <ref cel="adher.0a.vico">adheran punkton</ref>, 
+        ekzistas <tld/>anta subvico de &gcirc;i.
+      </ekz>
+    </dif>
+    <rim>
+      Kvankam la verbo enhavas ideon pri ago, &gcirc;ia matematika
+      uzo simple parolas pri eco de la koncerna vico. Oni diras
+      sendistinge <ctl>konver&gcirc;i</ctl> a&ubreve; <ctl>esti
+      konver&gcirc;(ant)a</ctl>.
+    </rim>
+  </snc>
+  <trd lng="en">converge</trd>
+  <trd lng="fr">converger</trd>
+  <trd lng="ru">&#x441;&#x445;&#x43e;&#x434;&#x438;&#x442;&#x44c;&#x441;&#x44f;</trd>
+</drv>
+<drv mrk="konver.mal0i">
+  <kap>mal<tld/>i</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Ne <tld/>i, ne esti <tld/>anta.
+    </dif>
+    <ref tip="sin" cel="diverg.0i.MAT">diver&gcirc;i.</ref>
+  </snc>
+  <trd lng="en">diverge</trd>
+  <trd lng="fr">diverger</trd>
+  <trd lng="ru">&#x440;&#x430;&#x441;&#x445;&#x43e;&#x434;&#x438;&#x442;&#x44c;&#x441;&#x44f;</trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.9  2001/03/17 17:12:59  revo
+Marc Bavant: +uzo MAT cxe mal~i, +mrk
+
 Revision 1.8  2001/03/11 18:56:10  revo
 Marc Bavant: kor ref cel al limeso
 
