@@ -17,19 +17,35 @@
     </dif>
     <trd lng="ru">&c_v;&c_z;&c_a;&c_i;&c_m;&c_o;&c_s;&c_v;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc mrk="koneks.0a.topologio">
+  <snc mrk="koneks.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>EKV</bib><lok>&para;217</lok></fnt>
-    <dif>
-      <klr>(p.p. <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
-      Tia, ke nur la tuta spaco kaj la malplena aro estas samtempe
-      <ref cel="ferm.mal0ita.topologio">malfermitaj</ref>
-      kaj <ref cel="ferm.0ita.topologio">fermitaj</ref>.
-    </dif>
-    <trd lng="de">zusammenh&auml;ngender<klr tip="amb"> (topologischer Raum)</klr></trd>
-    <trd lng="en">connected<klr tip="ind"> (topological space)</klr></trd>
-    <trd lng="fr"><klr tip="ind">(espace topologique) </klr>connexe</trd>
-    <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+    <subsnc mrk="koneks.0a.topologio">
+      <fnt><bib>EKV</bib><lok>&para;217</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
+        Tia, ke nur la tuta spaco kaj la malplena aro estas samtempe
+        <ref cel="ferm.mal0ita.topologio">malfermitaj</ref>
+        kaj <ref cel="ferm.0ita.topologio">fermitaj</ref>.
+      </dif>
+      <trd lng="de">zusammenh&auml;ngender<klr tip="amb"> (topologischer Raum)</klr></trd>
+      <trd lng="en">connected<klr tip="ind"> (topological space)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(espace topologique) </klr>connexe</trd>
+      <trd lng="pl"><klr tip="amb">(przestrze&nacute; topologiczna) </klr>sp&oacute;jna</trd>
+      <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="koneks.0a.grafeo">
+      <fnt><bib>KompLeks</bib></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
+        Tia, ke por ajnaj du verticoj de &gcirc;i &ccirc;iam ekzistas 
+        <ref cel="cxen.0o.grafeo">&ccirc;eno</ref>, kiu ilin ligas.
+      </dif>
+      <trd lng="de">zusammenh&auml;ngender<klr tip="amb"> (Graph)</klr></trd>
+      <trd lng="en">connected<klr tip="ind"> (graph)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(graphe) </klr>connexe</trd>
+      <trd lng="pl"><klr tip="ind">(graf) </klr>sp&oacute;jny</trd>
+      <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_g;&c_r;&c_a;&c_f;)</klr></trd>
+    </subsnc>
   </snc>
   <trdgrp lng="de">
     <trd>verbunden</trd>,
@@ -64,15 +80,15 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
-      Tia, ke por ajnaj du punktoj a kaj b de &gcirc;i ekzistas 
+      Tia, ke por ajnaj du punktoj a kaj b de &gcirc;i ekzistas
       <ref cel="voj.0o.bildigo">vojo</ref> en tiu spaco, kies komenca kaj
       fina punktoj estas a kaj b:
       <ekz>
-        <ref cel="konvek.0a.subaro">konveksa</ref> spaco estas 
+        <ref cel="konvek.0a.subaro">konveksa</ref> spaco estas
         voj<tld/>a;
       </ekz>
       <ekz>
-        voj<tld/>a spaco estas anka&ubreve; 
+        voj<tld/>a spaco estas anka&ubreve;
         <ref cel="koneks.0a.topologio"><tld/>a</ref>.
       </ekz>
     </dif>
@@ -80,18 +96,22 @@
   <trd lng="de">wegzusammenh&auml;ngender<klr tip="amb"> (Raum)</klr></trd>
   <trdgrp lng="en">
     <trd>path-connected<klr tip="ind"> (space)</klr></trd>,
-    <trd>pathwise <ind>connected</ind><klr tip="ind"> (space)</klr></trd></trdgrp> 
+    <trd>pathwise <ind>connected</ind><klr tip="ind"> (space)</klr></trd>
+  </trdgrp>
   <trd lng="fr"><klr tip="ind">(espace) </klr>connexe par arcs</trd>
+  <trd lng="pl"><klr tip="amb">(przestrze&nacute;) </klr>sp&oacute;jna &lstroke;ukowo</trd>
   <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_s;&c_v;&c_ja;&c_z;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.12  2002/06/16 17:33:20  revo
+Revision 1.13 2002/08/25 19:01:27 revo
+Marc Bavant: +ref interna
+Revision 1.12 2002/06/16 17:33:20 revo
 Marc Bavant: voj~a: +ekz
-Revision 1.11  2002/06/03 20:23:26  revo
+Revision 1.11 2002/06/03 20:23:26 revo
 Marc Bavant: simple ~a: kor fnt; voj~a: kor trd
-Revision 1.10  2002/06/02 17:32:57  revo
+Revision 1.10 2002/06/02 17:32:57 revo
 Marc Bavant: +drv simple ~a, voj~a
 Revision 1.9 2002/05/27 17:18:30 revo
 Marc Bavant: ~a MAT: mod fnt
@@ -104,6 +124,5 @@ Yury Finkel: +trd ru
 Revision 1.5 2001/03/16 07:36:49 revo
 Paul Peeraerts: ald trd nl
 Revision 1.4 2001/01/28 20:42:36 revo
-Marc Bavant: +snc MAT
 -->
 </vortaro>
