@@ -16,13 +16,23 @@
       objekton, plejofte elemento de la fonto-aro de
       <ref cel="bild.0igo.MAT">bildigo</ref>:
       <ekz>
-        en la skriba&jcirc;o y=f(x), x estas la nedependa <tld/>o
+        en la skriba&jcirc;o y=f(x), x estas la <ind>nedependa <tld/>o</ind>
         <klr>(indikanta la <ref cel="argume.0o.donitajxo">argumenton</ref> de
         <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>,
+        <trd lng="de">unabh&auml;ngige <ind>Variable</ind></trd>
+        <trd lng="en">independent <ind>variable</ind></trd>
+        <trd lng="fr">variable ind&eacute;pendante</trd>
+        <trd lng="pl">zmienna niezale&zdot;na</trd>
+        <trd lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja; <ind>&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
       </ekz>
       <ekz>
-        kaj y la dependa <tld/>o <klr>(indikanta la valoron de la
+        kaj y la <ind>dependa <tld/>o</ind> <klr>(indikanta la valoron de la
         funkcio)</klr>;
+        <trd lng="de">abh&auml;ngige <ind>Variable</ind></trd>
+        <trd lng="en">dependent <ind>variable</ind></trd>
+        <trd lng="fr">variable d&eacute;pendante</trd>
+        <trd lng="pl">zmienna zale&zdot;na</trd>
+        <trd lng="ru">&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja; <ind>&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
       </ekz>
       <ekz>
         ligita, libera <tld/>oj <klr>(en logiko)</klr>.
@@ -39,6 +49,7 @@
       </ekz>
       .
     </rim>
+    <trd lng="pl">zmienna</trd>
   </snc>
   <snc mrk="variab.0o.komp">
     <uzo tip="fak">KOMP</uzo>
@@ -93,7 +104,12 @@
       <ref cel="momant.noa0o">momanto</ref>,
       <ref cel="ekspek.0o">ekspekto</ref>,
       <ref cel="varian1.0o">varianco</ref>,
-      <ref cel="devi.varianca0o">varianca devio</ref>.
+      <ref cel="devi.varianca0o">varianca devio</ref>,
+      <ref cel="varian1.kun0o">kunvarianco</ref>,
+      <ref cel="korela1.0o">korelacio</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="pend.nede0a.hazardaj_variabloj">nedependa</ref>.
     </refgrp>
     <rim>
       La formoj <ctl>hazarda <tld/>o</ctl> kaj <ctl>loteca <tld/>o</ctl> ne
@@ -103,14 +119,20 @@
       &scirc;ajnas al ni pravigebla &ccirc;i-okaze.
     </rim>
   </snc>
-  <trd lng="de">Zufallsvariable</trd>
+  <trdgrp lng="de">
+    <trd>Zufallsvariable</trd>,
+    <trd>Zufallsgr&ouml;&szlig;e</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>variate</trd>,
     <trd>random <ind>variable</ind></trd>
   </trdgrp>
   <trd lng="fr">variable al&eacute;atoire</trd>
   <trd lng="pl">zmienna losowa</trd>
-  <trd lng="ru">&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_n;&c_a;</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_n;&c_a;</ind></trd>,
+    <trd>&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="variab.stokasta0o">
@@ -120,21 +142,28 @@
   <snc>
     <ref tip="dif" cel="variab.hazarda0o">hazarda <tld/>o.</ref>
   </snc>
-  <trd lng="de">Zufallsvariable</trd>
+  <trdgrp lng="de">
+    <trd>Zufallsvariable</trd>,
+    <trd>Zufallsgr&ouml;&szlig;e</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>variate</trd>,
     <trd>random <ind>variable</ind></trd>
   </trdgrp>
   <trd lng="fr">variable al&eacute;atoire</trd>
   <trd lng="pl">zmienna losowa</trd>
-  <trd lng="ru">&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_n;&c_a;</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_n;&c_a;</ind></trd>,
+    <trd>&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_a;&c_ja; <ind>&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.14  2002/09/22 16:33:47  revo
+Revision 1.15  2002/09/28 16:37:49  revo
+Ulrich Fellmann: sxangxo de germ trd (zufaellige Variable -> Zufallsvariable)
+Revision 1.14 2002/09/22 16:33:47 revo
 Marc Bavant: +drv hazarda ~o
-
 Revision 1.13 2002/09/09 19:47:02 revo
 Viliam Bur: +sk trd
 Revision 1.12 2002/08/04 17:33:46 revo
@@ -150,7 +179,5 @@ Jose Martin del Pozo: +trd es
 Revision 1.7 2002/02/23 19:57:04 revo
 Marc Bavant: ~o MAT: mod mrk, mod dif, mod ekz
 Revision 1.6 2001/10/14 08:48:08 revo
-Paul Peeraerts: ald trd nl
 -->
 </vortaro>
-
