@@ -1,26 +1,24 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
 <art mrk="$Id$">
 <kap>
 <rad>refleksiv</rad>/o
 </kap>
 <drv mrk="reflek1.0o">
-   <kap><tld/>o</kap>
-   <uzo tip="fak">GRA</uzo>
-   <snc>
-     <dif>
-       Persona pronomo a&ubreve; poseda adjektivo, kiu resendas al la
-       subjekto de la koncerna ago:
-     </dif>
-     <ekz>
-       en Esperanto la <tld/>oj <ctl>si</ctl> kaj <ctl>sia</ctl> estas
-       uzataj nur &ccirc;e la tria persono.
-     </ekz>
-   </snc>
+    <kap><tld/>o</kap>
+    <uzo tip="fak">GRA</uzo>
+    <snc>
+      <dif>
+        Persona pronomo a&ubreve; poseda adjektivo, kiu resendas al la
+        subjekto de la koncerna ago:
+      </dif>
+      <ekz>
+        en Esperanto la <tld/>oj <ctl>si</ctl> kaj <ctl>sia</ctl> estas
+        uzataj nur &ccirc;e la tria persono.
+      </ekz>
+    </snc>
 </drv>
-
 <drv mrk="reflek1.0a">
    <kap><tld/>a</kap>
    <snc num="1">
@@ -35,16 +33,44 @@
        <tld/>a poseda adjektivo.
      </ekz>
    </snc>
-
-   <snc num="2">
+   <snc mrk="reflek1.0a.rilato">
      <uzo tip="fak">MAT</uzo>
-     <ref tip="vid" cel="rilat.refleksiva0o">refleksiva rilato</ref>
+     <dif>
+       (p. p. <ref cel="rilat.interna0o">interna rilato</ref> <em>R</em>)
+       Tia, ke la <ref cel="rilat.idento0o">idento-rilato</ref> estas
+       subaro de <em>R</em> (<em>id</em><sub>E</sub> &#x2282; <em>R</em>):
+       <ekz>
+         la <ref cel="rilat.idento0o">idento-rilato</ref> estas <tld/>a;
+       </ekz>
+       <ekz>
+         se <em>R</em> estas <tld/>a, sekvas, ke por &ccirc;iu elemento
+         <em>x</em> validas <em>x R x</em>.
+       </ekz>
+     </dif>
+   </snc>
+   <trd lng="fr">r&eacute;flexif</trd>
+   <trd 
+lng="ru">&c_r;&c_je;&c_f;&c_l;&c_je;&c_k;&c_s;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
+</drv>
+<drv mrk="reflek1.mal0a.rilato">
+   <kap>mal<tld/>a</kap>
+   <snc>
+     <uzo tip="fak">MAT</uzo>
+     <dif>
+        (p. p. <ref cel="rilat.interna0o">interna rilato</ref> <em>R</em>)
+        Tia, ke &gcirc;ia <ref cel="komun.0ajxo.aro">komuna&jcirc;o</ref>
+        kun la <ref cel="rilat.idento0o">idento-rilato</ref> estas malplena
+        (<em>R</em>&#x2229;<em>id</em><sub>E</sub> = &#x2205;):
+     <ekz>
+       la rilato <ctl>pli granda ol</ctl> estas mal<tld/>a.
+     </ekz>
+     </dif>
    </snc>
 </drv>
-
 </art>
-
 <!--
 $Log$
+Revision 1.1  2000/09/25 16:10:34  revo
+Marc Bavant: nova artikolo
 -->
 </vortaro>
