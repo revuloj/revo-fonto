@@ -212,18 +212,18 @@
     <bib>KompLeks</bib>
     <lok><url ref="&KompLeks;/JX.html#JxETO">TTT</url></lok>
     </fnt>
-    <dif>
-      <ref tip="sin" cel="funkci.0o.MAT.gxenerale">Funkcio</ref> <klr>(en
-      ties plej &gcirc;enerala, ne nepre nombra senco)</klr>.
-    </dif>
+    <ref tip="dif" cel="bild.0igo.MAT">bildigo.</ref>
     <rim>
       Tiu termin-formo nature sekvas el la &gcirc;enerale akceptita legmaniero
-      <ctl>f &jcirc;etas A en B</ctl> kaj ebligas &scirc;pari radikon en la
-      terminoj &leftquot;sur<tld/>o&rightquot;, &leftquot;dis<tld/>o&leftquot;, &rightquot;dissur<tld/>o&leftquot; (por kiuj la
-      naturismaj sinonimoj estas &rightquot;surjekcio&rightquot;, &leftquot;enjekcio&rightquot;, &leftquot;bijekcio&rightquot; kun la
-      etimologie "<tld/>a&leftquot; vortero &rightquot;-jekcio&leftquot;). Tamen iuj preferas por tiu
-      signifo la vortojn &rightquot;<ref tip="sin" cel="bild.0igo.MAT">bildigo</ref>&leftquot;
-      a&ubreve; &rightquot;mapo".
+      <ctl>f &jcirc;etas A al B</ctl> kaj ebligas &scirc;pari radikon en la
+      serio 
+      <refgrp tip="sub">
+        <ref cel="jxet.sur0o">sur<tld/>o</ref>, 
+        <ref cel="jxet.dis0o">dis<tld/>o</ref>, 
+        <ref cel="jxet.dissur0o">dissur<tld/>o</ref>
+      </refgrp>
+      (por kiuj la naturismaj sinonimoj estas  formataj per la vortero 
+      <ctl>-jekcio</ctl>).
     </rim>
     <trd lng="de">Abbildung</trd>
     <trd lng="en">mapping</trd>
@@ -357,25 +357,30 @@
   <lok><url ref="&KompLeks;/JX.html#JxETO">TTT</url></lok>
   </fnt>
   <snc>
-    <dif>
-      <ref tip="super" cel="jxet.0o.MAT">&Jcirc;eto</ref> atribuanta
-      al malsamaj
-      argumentoj malsamajn bildojn, kiu nenion <ctl>kungluas</ctl>.
-    </dif>
-    <ref tip="sin" cel="enjekc.0o">enjekcio.</ref>
+    <ref tip="dif" cel="enjekc.0o">enjekcio.</ref>
   </snc>
-  <rim>
-    La prefikso en- de la internacia&jcirc;oj &leftquot;en&jcirc;eto&rightquot;, &leftquot;enjekcio&rightquot; estas
-    mallogika kaj erariga: &ccirc;ar sur<tld/>o estas &leftquot;<tld/>o <em>sur</em> la
-    celan aron&rightquot;, tial &leftquot;en&jcirc;eto&rightquot; devus esti &leftquot;<tld/>o <em>en</em> la celan
-    aron&rightquot; &dash; sed tiel ne estas.
-  </rim>
+  <trd lng="de">Injektion</trd>
   <trd lng="en">injection</trd>
-  <trd lng="fr">injection</trd>
+  <trdgrp lng="fr">
+    <trd>injection</trd>,
+    <trd>application injective</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_i;&c_n;&c_malmol;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="jxet.dis0a">
+  <kap>dis<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="dif" cel="enjekc.0a">enjekcia.</ref>
+  </snc>
+  <trd lng="en">injective</trd>
+  <trd lng="de">injektiv</trd>
+  <trd lng="fr">injectif</trd>
+  <trd lng="ru">&c_i;&c_n;&c_malmol;&c_je;&c_k;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="jxet.dissur0o">
@@ -386,28 +391,43 @@
   <lok><url ref="&KompLeks;/DI.html#DISSURJxETO">TTT</url></lok>
   </fnt>
   <snc>
-    <dif>
-      <ref cel="jxet.0o.MAT">&Jcirc;eto</ref>, kiu estas
-      <ref tip="super" cel="jxet.dis0o">dis&jcirc;eto</ref> kaj
-      <ref tip="super" cel="jxet.sur0o">sur&jcirc;eto</ref>:
-      <ekz>
-        dissur<tld/>o &ccirc;iam estas inversigebla.
-      </ekz>
-    </dif>
-    <ref tip="sin" cel="bijekc.0o">bijekcio.</ref>
+    <ref tip="dif" cel="bijekc.0o">bijekcio.</ref>
   </snc>
+  <trd lng="de">Bijektion</trd>
   <trdgrp lng="en">
     <trd>bijection</trd>,
     <trd>biunique correspondence</trd>,
     <trd>one-to-one mapping</trd>
   </trdgrp>
-  <trd lng="fr">bijection</trd>
-  <trdgrp
-    lng="ru">
+  <trdgrp lng="fr">
+    <trd>bijection</trd>,
+    <trd>application bijective</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
     <trd>&c_v;&c_z;&c_a;&c_i;&c_m;&c_n;&c_o;-&c_o;&c_d;&c_n;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_o;&c_je;
     &c_s;&c_o;&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>,
     <trd>&c_b;&c_i;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
+  </trdgrp></drv>
+
+<drv mrk="jxet.dissur0a">
+  <kap>dissur<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="dif" cel="bijekc.0a">bijekcia.</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>bijektiv</trd>,
+    <trd>eineindeutig</trd></trdgrp> 
+  <trdgrp lng="en">
+    <trd>bijective</trd>,
+    <trd>one-to-one</trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>bijectif</trd>,
+    <trd>biunivoque</trd>
   </trdgrp>
+  <trdgrp lng="ru">
+    <trd> &c_b;&c_i;&c_je;&c_k;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j; </trd>,
+    <trd>&c_v;&c_z;&c_a;&c_i;&c_m;&c_n;&c_o; <ind>&c_o;&c_d;&c_n;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_y;&c_j;</ind></trd></trdgrp>
 </drv>
 
 <drv mrk="jxet.ek0i">
@@ -461,20 +481,30 @@
   </snc>
 </drv>
 
-<drv mrk="jxet.en0a">
-  <kap>en<tld/>a</kap>
+<drv mrk="jxet.en0o">
+  <kap>en<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
   <fnt><vrk>EK-Vortaro de matematikaj terminoj / Hrsg.
   R. Hilders-Yashovardhan. Paderborn: Leuchtturm-Verlag, 1980</vrk>,
   <lok>&para;120</lok></fnt>
   <snc>
-    <dif>
-      <klr>(p.p. <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
-      <ref tip="dif" cel="enjekc.0a">Enjekcia</ref>.
-    </dif>
+    <ref tip="dif" cel="enjekc.0o">enjekcio.</ref>
+    <rim>
+      Koncerne la uzon de prefikso <ctl>en</ctl> vd rimarkon sub 
+      <ref cel="enjekc.0o">enjekcio</ref>.
+    </rim>
   </snc>
-  <trd lng="fr">injectif</trd>
+</drv>
+
+<drv mrk="jxet.en0a">
+  <kap>en<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><vrk>EK-Vortaro de matematikaj terminoj / Hrsg.
+  R. Hilders-Yashovardhan. Paderborn: Leuchtturm-Verlag, 1980</vrk>,
+  <lok>&para;120</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="enjekc.0a">enjekcia.</ref>
+  </snc>
 </drv>
 
 <drv mrk="jxet.for0i">
@@ -558,20 +588,26 @@
   <lok><url ref="&KompLeks;/SO.html#SURJxETO">TTT</url></lok>
   </fnt>
   <snc>
-    <dif>
-      Tia <ref tip="super" cel="jxet.0o.MAT">&jcirc;eto</ref> ke &ccirc;iu
-      elemento de la cela aro estas bildo de iu elemento el la
-      fonta aro.
-    </dif>
-    <ref tip="sin" cel="surjek.0o">surjekcio.</ref>
+    <ref tip="dif" cel="surjek.0o">surjekcio.</ref>
   </snc>
+  <rim>
+    Por pravigi &ccirc;i tiun terminon necesas akcepti neordinaran metaforan
+    sencon de prepozicio <ctl>sur</ctl>: la &jcirc;eto kvaza&ubreve; kovras
+    la tutan celo-aron. Tian sencon la prepozicio ne havas en <ekz>&jcirc;eti
+    pilkon sur tablon</ekz> a&ubreve; <ekz>surmeti &ccirc;apelon</ekz>.
+    La prefiksa uzo de <ctl>pri</ctl> eble pli ta&ubreve;gus, sed la &hcirc;aoso
+    jam sufi&ccirc;e vastas...
+  </rim>
+  <trd lng="de">Surjektion</trd>
   <trdgrp lng="en">
     <trd>surjection</trd>,
     <trd>onto <ind>function</ind></trd>
   </trdgrp>
-  <trd lng="fr">surjection</trd>
-  <trdgrp
-    lng="ru">
+  <trdgrp lng="fr">
+    <trd>surjection</trd>,
+    <trd>application surjective</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
     <trd>&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;
     &leftquot;&c_n;&c_a;&rightquot;</trd>,
     <trd>&c_s;&c_ju;&c_r;&c_malmol;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
@@ -581,17 +617,16 @@
 <drv mrk="jxet.sur0a">
   <kap>sur<tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
   <fnt><vrk>EK-Vortaro de matematikaj terminoj / Hrsg.
   R. Hilders-Yashovardhan. Paderborn: Leuchtturm-Verlag, 1980</vrk>,
   <lok>&para;421</lok></fnt>
   <snc>
-    <dif>
-      <klr>(p.p. <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
-      <ref tip="dif" cel="surjek.0a">Surjekcia</ref>.
-    </dif>
+    <ref tip="dif" cel="surjek.0a">surjekcia.</ref>
   </snc>
+  <trd lng="en">surjective</trd>
+  <trd lng="de">surjektiv</trd>
   <trd lng="fr">surjectif</trd>
+  <trd lng="ru">&c_s;&c_ju;&c_r;&c_malmol;&c_je;&c_k;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="jxet.0kubo">
@@ -631,6 +666,8 @@
 </art>
 <!--
 $Log$
+Revision 1.27  2002/03/17 17:32:13  revo
+Marc Bavant: kor fnt al KompLeks
 Revision 1.26 2002/01/11 19:09:24 revo
 fontindiko PrV per programo de Jerome
 Revision 1.25 2002/01/08 19:26:26 revo
@@ -648,7 +685,5 @@ Paul Peeraerts: ald plurajn trd nl
 Revision 1.19 2001/09/28 18:16:33 revo
 Jerome Vachey: lacegita - lacigita
 Revision 1.18 2001/06/23 18:12:48 revo
-Marc Bavant: mod ref cel al funkcio MAT
-Revision 1.17 2001/05/02 16:12:31 revo
 -->
 </vortaro>
