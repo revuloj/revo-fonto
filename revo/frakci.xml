@@ -28,11 +28,10 @@
           </ekz>
         </dif>
         <trd lng="ru">&#x434;&#x440;&#x43e;&#x431;&#x44c;</trd>
-        <refgrp tip="sin">
-          <ref cel="on.0onombr0o">ono</ref>,
-          <!-- ref cel="part.0umo">partumo -->
-          <ref cel="racio5.0o">raciono</ref>.
-        </refgrp>
+        <ref tip="sub" cel="on.0onombr0o">ono</ref>
+        <refgrp tip="sin" cel="racio5.0o"><ref>raciono</ref>,
+          <ref cel="frakci.0o.m.kvocienta">kvocienta frakcio</ref></refgrp>
+        <ref tip="vid" cel="frakci.0o.pozicia">pozicia frakcio</ref>
       </snc>
       <snc mrk="frakci.0o.pol">
         <uzo tip="fak">POL</uzo>
@@ -51,12 +50,45 @@
         </dif>
       </snc>
     </drv>
-    <drv mrk="frakci.um0o">
-      <kap>um<tld/>o</kap>
+    <drv mrk="frakci.0streko">
+      <kap><tld/>streko</kap>
+      <snc>
+        <dif>
+          Signo uzata por apartigi la numeratoron disde la denominatoro
+          en <ref tip="malprt" cel="frakci.0o.mat">frakcio</ref>.
+        </dif>
+        <rim>
+          &Gcirc;i povas esti horizontala a&ubreve; oblikva; la oblikva
+          (la <ref tip="sub" cel="oblikv.0o">oblikvo</ref>)
+          estas parto de <ref tip="malprt" cel="aski.0o">Askio</ref>.
+        </rim>
+        <trdgrp lng="en">
+          <trd>forward <ind>slash</ind></trd>,
+          <trd>fraction bar</trd></trdgrp>
+      </snc>
+    </drv>
+    <drv mrk="frakci.0o.kvocienta">
+      <kap>kvocienta <tld/>o</kap>
+      <uzo tip="fak">MAT</uzo>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          <ref tip="dif" cel="frakci.0o.mat">Frakcio</ref> prezentita
+          per numeratoro kaj denominatoro <klr>(kontraste al
+            <ref cel="frakci.0o.pozicia">pozicia frakcio</ref>)</klr>.
+        </dif>
+      </snc>
+      <trdgrp lng="en"><trd>common <ind>fraction</ind></trd>,
+        <trd>vulgar f<ind>raction</ind></trd></trdgrp>
+      <trd lng="ru">&#x43f;&#x440;&#x43e;&#x441;&#x442;&#x430;&#x44f; <ind>&#x434;&#x440;&#x43e;&#x431;&#x44c;</ind></trd>
+    </drv>
+    <drv mrk="frakci.0o.pozicia">
+      <kap>pozicia <tld/>o</kap>
       <snc>
         <uzo tip="fak">MAT</uzo>
+        <uzo tip="fak">KOMP</uzo>
         <dif>
-          Por <frm>b</frm>-uma
+          Por <frm>b</frm>-uma pozicia
           <ref tip="malprt" cel="nombr.0osistemo">nombrosistemo</ref>
           kaj sinsekvo da <frm>b</frm>-aj ciferoj, la sumo
           <frm>c<sub>1</sub>/b + c<sub>2</sub>/b<sup>2</sup> +
@@ -66,12 +98,12 @@
           (uzante la <ref tip="prt" cel="on.0punkto.komo">onpunkton</ref>), a&ubreve;
           <frm>0,c<sub>1</sub>c<sub>2</sub>...c<sub>n</sub>...</frm>
           (uzante la onkomon):
-          <ekz>el &ccirc;iaj um<tld/>oj por komputiko plej gravas la dekumaj,
+          <ekz>el &ccirc;iaj poziciaj <tld/>oj por komputiko plej gravas la dekumaj,
             kiel 0.75, kaj la duumaj, kiel 0.11 <klr>(tiuj du
-            um<tld/>oj prezentas unu saman nombron &#xbe; en siaj respektivaj
-            nombrosistemoj)</klr>;
+            poziciaj <tld/>oj prezentas unu saman nombron &#xbe;
+            en siaj respektivaj nombrosistemoj)</klr>;
           </ekz><ekz>
-            perioda um<tld/>o <klr>(senfina um<tld/>o kies vosto
+            pozicia <tld/>o perioda <klr>(senfina pozicia <tld/>o kies vosto
             konsistas el unu sama cifergrupo senfine ripeti&gcirc;anta)</klr>.
           </ekz>
         </dif>
@@ -85,6 +117,9 @@
 
 <!--
 $Log$
+Revision 1.5  2000/09/03 16:17:13  revo
+Sergio Pokrovskij: -tajperaroj +strukturaj ref-oj
+
 Revision 1.4  2000/09/02 16:12:17  revo
 Sergio Pokrovskij: dif-oj; POL; umfrakcio
 
