@@ -3,8 +3,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>2</ofc>
-<rad>norm</rad>/o
+  <ofc>2</ofc>
+  <rad>norm</rad>/o
 </kap>
 <drv mrk="norm.0o">
   <kap><tld/>o</kap>
@@ -22,13 +22,16 @@
       <trd>Regel</trd>
     </trdgrp>
     <trd lng="nl">norm</trd>
+    <trdgrp lng="ru">
+      <trd>&c_n;&c_o;&c_r;&c_m;&c_a;</trd>,
+      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;</trd>
+    </trdgrp>
   </snc>
   <snc>
     <dif>
       Natura le&gcirc;o reganta iun specon:
       <ekz>
-        sam<tld/>igi &ccirc;iujn
-        fabrika&jcirc;ojn, laborilojn.
+        sam<tld/>igi &ccirc;iujn fabrika&jcirc;ojn, laborilojn.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -38,6 +41,10 @@
       <ref cel="kvant.mez0o">mezkvanto</ref>.
     </refgrp>
     <trd lng="nl">regel</trd>
+    <trdgrp lng="ru">
+      <trd>&c_n;&c_o;&c_r;&c_m;&c_a;</trd>,
+      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="norm.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -50,8 +57,8 @@
       &ccirc;iuj ajn <ref cel="vektor.0o.MAT">vektoroj</ref> x, y,
       kaj por &ccirc;iu ajn <ref cel="skalar.0o.MAT">skalaro</ref>
       &alfa;:
-      (1) p(x)&#x2265;0; (2) p(x)=0, nur se x=0;
-      (3) p(&alfa;*x)=|&alfa;|.p(x); kaj (4) p(x+y)&#x2264;p(x)+p(y):
+      (1) p(x)&#8805;0; (2) p(x)=0, nur se x=0;
+      (3) p(&alfa;*x)=|&alfa;|.p(x); kaj (4) p(x+y)&#8804;p(x)+p(y):
       <ekz>
         la <tld/>on de vektoro x oni ofte signas per ||x||;
       </ekz>
@@ -61,12 +68,13 @@
         <ref cel="valor.absoluta0o">absoluta valoro</ref>;
       </ekz>
       <ekz>
-        por <tld/>oj super <ref cel="algebr.lineara0o.strukturo">algebroj</ref>
-        oni plie postulas, ke p(x&#xD7;y)&#x2264;p(x).p(y);
+        por <tld/>oj super <ref
+        cel="algebr.lineara0o.strukturo">algebroj</ref>
+        oni plie postulas, ke p(x&#215;y)&#8804;p(x).p(y);
       </ekz>
       <ekz>
         en spaco provizita per <ref cel="produt.skalara0o">skalara
-        produto</ref>, la bildigo p(x)=&#x221a;&lt;x|x&gt; estas
+        produto</ref>, la bildigo p(x)=&#8730;&lt;x|x&gt; estas
         <tld/>o, nomata e&ubreve;klida <tld/>o;
       </ekz>
       <ekz>
@@ -78,6 +86,7 @@
     <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
   </snc>
 </drv>
+
 <drv mrk="norm.0a">
   <kap><tld/>a</kap>
   <snc>
@@ -96,12 +105,18 @@
       <trd>normiert</trd>,
       <trd>genormt</trd>
     </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_n;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+      <trd>&c_s;&c_o;&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_u;&c_ju;&c_shch;&c_i;&c_j; <ind>&c_n;&c_o;&c_r;&c_m;&c_je;</ind></trd>,
+      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>      
+    </trdgrp>
   </snc>
   <trdgrp lng="nl">
     <trd>normaal</trd>,
     <trd>standaard-</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="norm.0hava">
   <kap><tld/>ohava, <tld/>ita</kap>
   <uzo tip="fak">MAT</uzo>
@@ -123,21 +138,20 @@
     <ref tip="vid" cel="spac.normohava0o">normohava spaco.</ref>
   </snc>
   <adm>
-  "~ita" sugestas, ke ~i povus signifi "provizi per ~o", kio 
-  ne malobeas la gxeneralajn derivregulojn. Tamen nek PIV1, 
-  nek MatVort konsentas pri tio. Neniu konas ~i. MatVort uzas 
-  "~igi" por "provizi per ~o" kaj PIV1 donas alian sencon al
-  tiu termino. Tre konsekvence, MatVort do uzas "~igita spaco"
-  anstataux nia "~ohava". Cxi-kuntekste, "~ohava" kaj "~ita"
-  estas nur proponoj, kiujn indus modifi, se evidentigxus, ke
-  pli bona solvo aperis en auxtoritataj fontoj. <aut>MB</aut>
-  
+    "~ita" sugestas, ke ~i povus signifi "provizi per ~o", kio
+    ne malobeas la gxeneralajn derivregulojn. Tamen nek PIV1,
+    nek MatVort konsentas pri tio. Neniu konas ~i. MatVort uzas
+    "~igi" por "provizi per ~o" kaj PIV1 donas alian sencon al
+    tiu termino. Tre konsekvence, MatVort do uzas "~igita spaco"
+    anstataux nia "~ohava". Cxi-kuntekste, "~ohava" kaj &leftquot;~ita&rightquot;
+    estas nur proponoj, kiujn indus modifi, se evidentigxus, ke
+    pli bona solvo aperis en auxtoritataj fontoj. <aut>MB</aut>
   </adm>
   <trd lng="fr">norm&eacute;<klr tip="ind"> (espace)</klr></trd>
   <trd lng="nl">genormeerd</trd>
-  <trd
-  lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
 </drv>
+
 <drv mrk="norm.duon0o">
   <kap>duon<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -153,6 +167,7 @@
   </snc>
   <trd lng="fr">semi-norme</trd>
 </drv>
+
 <drv mrk="norm.unu0a">
   <kap>unu<tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
@@ -165,7 +180,7 @@
     </dif>
   </snc>
   <adm>
-  PIV1 kaj MatVort preferas "~umita". Vd rim sub unu~igi. <aut>MB</aut>
+    PIV1 kaj MatVort preferas &leftquot;~umita&rightquot;. Vd rim sub unu~igi. <aut>MB</aut>
   </adm>
   <trd lng="de">nomierter<klr tip="amb"> (Vektor)</klr></trd>
   <trd lng="en">normalized<klr tip="ind"> (vector)</klr></trd>
@@ -175,6 +190,7 @@
   </trdgrp>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;)</klr></trd>
 </drv>
+
 <drv mrk="norm.unu0igi">
   <kap>unu<tld/>igi, <tld/>umi<fnt><bib>PIV1</bib></fnt></kap>
   <uzo tip="fak">MAT</uzo>
@@ -206,24 +222,24 @@
 </art>
 <!--
 $Log$
-Revision 1.13  2001/09/09 18:18:34  revo
+Revision 1.14 2001/09/29 18:13:19 revo
+Marc Bavant: ~o MAT: kor ekz
+
+Revision 1.13 2001/09/09 18:18:34 revo
 Marc Bavant: mod ref cel al mezkvanto
 
-Revision 1.12  2001/07/22 18:17:17  revo
+Revision 1.12 2001/07/22 18:17:17 revo
 Marc Bavant: mod ref cel al lineara algebro
 
-Revision 1.11  2001/07/16 18:12:18  revo
-Marc Bavant: sxovis fakindikojn MAT, mod fnt PIV1, +klr en trd fr, +trd cxe unu~a, +adm pri ~ohava/~ita
+Revision 1.11 2001/07/16 18:12:18 revo
+Marc Bavant: sxovis fakindikojn MAT, mod fnt PIV1, +klr en trd fr, +trd
+cxe unu~a, +adm pri ~ohava/~ita
 
-Revision 1.10  2001/06/08 18:14:59  revo
+Revision 1.10 2001/06/08 18:14:59 revo
 Ulrich Fellmann: + 8 germ trdj
-Revision 1.9  2001/06/07 18:14:14  revo
+Revision 1.9 2001/06/07 18:14:14 revo
 Paul Peeraerts: ald trd nl
-Revision 1.8  2001/02/10 20:07:43  revo
+Revision 1.8 2001/02/10 20:07:43 revo
 Marc Bavant: kor ekz cxe euxklida ~o
-Revision 1.7  2001/01/13 18:46:47  revo
-Marc Bavant: mod ref cel al algebro
-Revision 1.6  2000/12/10 17:11:54  revo
-Marc Bavant: +ref en la dif de duon~o, +drv unu~a, reverko de ~umi/unu~igi, mod mrk cxe ~hava
 -->
 </vortaro>
