@@ -10,15 +10,18 @@
 <drv mrk="strukt.0o">
   <kap><tld/>o</kap>
   <snc>
+    <uzo tip="fak">SCI</uzo>
     <dif>
       Maniero, la&ubreve; kiu estas kunaran&gcirc;itaj la diversaj partoj de
-      konstruo, ma&scirc;ino,  organismo, a&ubreve; la diversaj eroj de
+      konstruo, ma&scirc;ino, organismo, a&ubreve; la diversaj eroj de
       &hcirc;emia substanco:
       <ekz>
-        bel<tld/>a viro;
+        konservas e&ccirc; karbo la <tld/>on de l' arbo<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        konservas e&ccirc; karbo la <tld/>on de l' arbo<fnt>Z</fnt>.
+        <uzo tip="stl">FIG</uzo>
+        <ind>bel<tld/>a</ind> viro.
+        <trd lng="fr">bien <ind>charpent&eacute;</ind></trd>
       </ekz>
     </dif>
   </snc>
@@ -33,17 +36,51 @@
       <ref cel="arangx">aran&gcirc;o</ref>.
     </refgrp>
   </snc>
+  <snc mrk="strukt.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+    <dif>
+      Tuto de la <ref cel="rilat.0o.MAT">rilatoj</ref>,
+      <ref cel="operac.0o.MAT">operacioj</ref>,
+      <ref cel="topolo.0o.strukturo">topologioj</ref> ks,
+      per kiuj oni provizas <ref cel="ar.0o.MAT">aron</ref> por doni al 
+      &gcirc;i interesajn matematikajn ecojn; alternative, oni nomas
+      <tld/>o anka&ubreve; la tiamaniere provizitan aron kaj la tuton de 
+      &gcirc;iaj ecoj:
+      <ekz>
+        provizite per adicio kaj multipliko, la aro de
+        <ref cel="polino.0o">polinomoj</ref> havas ringan <tld/>on;
+      </ekz>
+      <ekz>
+        <ref cel="metrik.0o.MAT">metriko</ref> donas al aro topologian 
+        <tld/>on, sed ne &ccirc;iu topologia spaco havas metrikan <tld/>on;
+      </ekz>
+      <ekz>
+        kian <tld/>on havas la aro de <ref cel="frakci.0o.MAT">frakcioj</ref>
+        super la polinoma ringo?.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="strukt.algebra0o">algebra <tld/>o</ref>,
+      <ref cel="strukt.topologia0o">topologia <tld/>o</ref>.
+    </refgrp>
+  </snc>
   <trd lng="de">Struktur</trd>
   <trd lng="fr">structure</trd>
   <trd lng="nl">struktuur</trd>
 </drv>
 <drv mrk="strukt.algebra0o">
-  <kap>(algebra) <tld/>o</kap>
+  <kap>algebra <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <ref tip="super" cel="ar.0o.MAT">Aro</ref> konsiderata kune kun
-      almena&ubreve; unu <ref cel="operac.0o.MAT">operacio</ref> en &gcirc;i.
+      <ref tip="super" cel="ar.0o.MAT">Aro</ref>, konsiderata kune kun
+      almena&ubreve; unu <ref cel="operac.0o.MAT">operacio</ref> en &gcirc;i:
+      <ekz>
+        algebran <tld/>on oni ofte signas per opo de la tipo (<em>E</em>,T,*),
+        kies unua termo montras la aron kaj la pluaj la operaciojn.
+      </ekz>
     </dif>
     <refgrp tip="sub">
       <ref cel="magm.0o.MAT">magmo</ref>,
@@ -56,17 +93,6 @@
       <ref cel="spac.afina0o">afina spaco</ref>,
       <ref cel="algebr.lineara0o.strukturo">lineara algebro</ref>.
     </refgrp>
-    <rim>
-      Algebran <tld/>on oni ofte signas per opo de la tipo (<em>E</em>,T,*),
-      kies unua termo montras la aron kaj la pluaj montras la operaciojn. La
-      termino devenas de tio, ke konsiderante operaciojn kun difinitaj ecoj
-      super aro oni kvaza&ubreve; pliri&ccirc;igas la senforman aron per ia
-      <tld/>o. Ekzistas tendenco en la fakula lingva&jcirc;o paroli
-      &ccirc;i-sence pri la <tld/>o de iu matematika objekto. Ekz-e eblas
-      diri, ke <ctl>la aro de entjeroj havas ringan <tld/>on</ctl>
-      anstata&ubreve; diri, ke la koncerna aro, provizita per la kutimaj
-      adicio kaj multipliko estas <tld/>o de la tipo ringo.
-    </rim>
   </snc>
   <trd lng="fr">structure alg&eacute;brique</trd>
 </drv>
@@ -81,9 +107,10 @@
 </art>
 <!--
 $Log$
+Revision 1.11  2001/08/03 18:13:15  revo
+Dennis Wibrow: +trd germ
 Revision 1.10  2001/07/22 18:16:17  revo
 Marc Bavant: mod ref cel al lineara algebro
-
 Revision 1.9  2001/06/18 18:26:35  revo
 Marc Bavant: kor lokon de fakindiko
 Revision 1.8  2001/01/20 18:39:31  revo
@@ -99,4 +126,3 @@ Marc Bavant: +drv algebra ~o, topologia ~o
 
 -->
 </vortaro>
-
