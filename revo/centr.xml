@@ -1,502 +1,985 @@
 <?xml version="1.0"?>
+
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
+
 <art mrk="$Id$">
+
 <kap>
-  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
-  <rad>centr</rad>/o
+
+<ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
+
+<rad>centr</rad>/o
+
 </kap>
+
 <drv mrk="centr.0o">
-  <kap><tld/>o</kap>
-  <snc mrk="centr.0o.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      Rimarkinda <ref tip="super" cel="punkt.0o.spaco">punkto</ref>,
-      interalie:
-    </dif>
-    <subsnc mrk="centr.0o.cirklo">
-      <fnt><bib>MatTerm</bib><lok>p. 28</lok></fnt>
-      <dif>
-        <klr>(de <ref cel="cirkl.0o.linio">cirklo</ref> a&ubreve;
-        <ref cel="sfer.0o.surfaco">sfero</ref>)</klr>
-        Tiu punkto egaldistanca de &ccirc;iuj punktoj de la koncerna figuro.
-      </dif>
-      <adm>
-        Mi korektis "egaldistanca al" al "egaldistanca de" por koherigi kun
-        la difino de "mezo"... sed mi preferas al unuan dirmanieron.
-        Rekontroli post momento. <aut>MB</aut>
-      </adm>
-      <trd lng="de">Mittelpunkt</trd>
-      <trd lng="en">center</trd>
-    </subsnc>
-    <subsnc mrk="centr.0o.plurlatero">
-      <dif>
-        <klr>(de <ref cel="angul.tri0o">triangulo</ref> a&ubreve; regula
-        <ref cel="later.plur0o">plurlatero</ref>)</klr>
-        La <tld/>o <sncref ref="centr.0o.cirklo"/> de &gcirc;ia
-        <ref cel="skrib.en0ita">enskribita</ref> cirklo.
-      </dif>
-      <trd lng="de">Inkreismittelpunkt</trd>
-      <trdgrp lng="en">
-        <trd>center</trd>,
-        <trd>incenter<klr tip="ind"> (of a regular polygon)</klr></trd>
-      </trdgrp>
-    </subsnc>
-    <subsnc mrk="centr.0o.elipso">
-      <dif>
-        <klr>(de <ref cel="elips.0o.linio">elipso</ref>)</klr>
-        Intersekco de &gcirc;iaj du <ref cel="aks.simetri0o">simetriaksoj</ref>.
-      </dif>
-      <trd lng="de">Mittelpunkt</trd>
-      <trd lng="en">center</trd>
-    </subsnc>
-    <subsnc mrk="centr.0o.rotacio">
-      <dif>
-        <klr>(de <ref cel="rotaci.0o.afina">afina rotacio</ref>
-        en ebeno)</klr>
-        La nura punkto sen&scirc;an&gcirc;a per &gcirc;i.
-      </dif>
-      <trd lng="de">Drehpunkt</trd>
-      <trd lng="en">center</trd>
-    </subsnc>
-    <subsnc mrk="centr.0o.diversaj">
-      <refgrp tip="vid">
-        <ref cel="projek.centra0o"><tld/>a projekcio</ref>,
-        <ref cel="glob.0o.metrikaspaco">globo</ref>,
-        <ref cel="homote.0o">homotetio</ref>,
-        <ref cel="invers.0igo.transformo">inversigo</ref>,
-        <ref cel="simetr.orta0o">orta simetrio</ref>,
-        <ref cel="centr.simetri0o">simetri<tld/>o</ref>.
-      </refgrp>
-      <trdgrp lng="de">
-        <trd>Mittelpunkt</trd>,
-        <trd>Zentrum</trd>
-      </trdgrp>
-    </subsnc>
-    <trd lng="pl">&sacute;rodek</trd>
-  </snc>
-  <snc mrk="centr.0o.mezo">
-    <dif>
-      Meza parto de objekto a&ubreve; loko:
-      <ekz>
-        <tld/>o de rado, de korto, de urbo.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="mez.0o">mezo</ref>,
-      <ref cel="aks.0o">akso</ref>,
-      <ref cel="pivot.0o">pivoto</ref>.
-    </refgrp>
-  </snc>
-  <snc mrk="centr.0o.cxefajxo">
-    <dif>
-      &Ccirc;efa punkto, fokuso, plej aktiva parto:
-      <ekz>
-        <tld/>o de komerco, de societo, de ribelo;
-      </ekz>
-      <ekz>
-        Londono fari&gcirc;os unu el la plej gravaj <tld/>oj de nia
-        afero<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="kern.0o">kerno</ref>,
-      <ref cel="kor.0o">koro</ref>,
-      <ref cel="anim.0o">animo</ref>,
-      <ref cel="esenc.0o">esenco</ref>.
-    </refgrp>
-  </snc>
-  <snc mrk="centr.0o.partio">
-    <uzo tip="fak">POL</uzo>
-    <dif>
-      Modera partio, kiu sidas meze inter la ekstremoj.
-    </dif>
-  </snc>
-  <trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_a;&c_r;</trd>
-  <trd lng="cs">centrum</trd>
-  <trd lng="el">&kappa;&epsilon_ton;&ny;&tau;&rho;&omikron;</trd>
-  <trd lng="en">center</trd>
-  <trd lng="es">centro</trd>
-  <trd lng="fr">centre</trd>
-  <trdgrp lng="hu">
-    <trd>k&ouml;zpont</trd>,
-    <trd>centrum</trd>
-  </trdgrp>
-  <trd lng="pt">centro</trd>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;</trd>
-  <trdgrp lng="sk">
-    <trd>stred</trd>,
-    <trd>centrum</trd>
-  </trdgrp>
-  <trd lng="zh">&#20013;&#24515;<klr> [zh&#333;ngx&#299;n]</klr></trd>
+
+<kap><tld/>o</kap>
+
+<snc mrk="centr.0o.MAT">
+
+<uzo tip="fak">MAT</uzo>
+
+<dif>
+
+Rimarkinda <ref tip="super" cel="punkt.0o.spaco">punkto</ref>,
+
+interalie:
+
+</dif>
+
+<subsnc mrk="centr.0o.cirklo">
+
+<fnt><bib>MatTerm</bib><lok>p. 28</lok></fnt>
+
+<dif>
+
+<klr>(de <ref cel="cirkl.0o.linio">cirklo</ref> a&ubreve;
+
+<ref cel="sfer.0o.surfaco">sfero</ref>)</klr>
+
+Tiu punkto egaldistanca de &ccirc;iuj punktoj de la koncerna figuro.
+
+</dif>
+
+<adm>
+
+Mi korektis "egaldistanca al" al "egaldistanca de" por koherigi kun
+
+la difino de "mezo"... sed mi preferas al unuan dirmanieron.
+
+Rekontroli post momento. <aut>MB</aut>
+
+</adm>
+
+<trd lng="de">Mittelpunkt</trd>
+
+<trd lng="en">center</trd>
+
+</subsnc>
+
+<subsnc mrk="centr.0o.plurlatero">
+
+<dif>
+
+<klr>(de <ref cel="angul.tri0o">triangulo</ref> a&ubreve; regula
+
+<ref cel="later.plur0o">plurlatero</ref>)</klr>
+
+La <tld/>o <sncref ref="centr.0o.cirklo"/> de &gcirc;ia
+
+<ref cel="skrib.en0ita">enskribita</ref> cirklo.
+
+</dif>
+
+<trd lng="de">Inkreismittelpunkt</trd>
+
+<trdgrp lng="en">
+
+<trd>center</trd>,
+
+<trd>incenter<klr tip="ind"> (of a regular polygon)</klr></trd>
+
+</trdgrp>
+
+</subsnc>
+
+<subsnc mrk="centr.0o.elipso">
+
+<dif>
+
+<klr>(de <ref cel="elips.0o.linio">elipso</ref>)</klr>
+
+Intersekco de &gcirc;iaj du <ref cel="aks.simetri0o">simetriaksoj</ref>.
+
+</dif>
+
+<trd lng="de">Mittelpunkt</trd>
+
+<trd lng="en">center</trd>
+
+</subsnc>
+
+<subsnc mrk="centr.0o.rotacio">
+
+<dif>
+
+<klr>(de <ref cel="rotaci.0o.afina">afina rotacio</ref>
+
+en ebeno)</klr>
+
+La nura punkto sen&scirc;an&gcirc;a per &gcirc;i.
+
+</dif>
+
+<trd lng="de">Drehpunkt</trd>
+
+<trd lng="en">center</trd>
+
+</subsnc>
+
+<subsnc mrk="centr.0o.diversaj">
+
+<refgrp tip="vid">
+
+<ref cel="projek.centra0o"><tld/>a projekcio</ref>,
+
+<ref cel="glob.0o.metrikaspaco">globo</ref>,
+
+<ref cel="homote.0o">homotetio</ref>,
+
+<ref cel="invers.0igo.transformo">inversigo</ref>,
+
+<ref cel="simetr.orta0o">orta simetrio</ref>,
+
+<ref cel="centr.simetri0o">simetri<tld/>o</ref>.
+
+</refgrp>
+
+<trdgrp lng="de">
+
+<trd>Mittelpunkt</trd>,
+
+<trd>Zentrum</trd>
+
+</trdgrp>
+
+</subsnc>
+
+<trd lng="pl">&sacute;rodek</trd>
+
+</snc>
+
+<snc mrk="centr.0o.mezo">
+
+<dif>
+
+Meza parto de objekto a&ubreve; loko:
+
+<ekz>
+
+<tld/>o de rado, de korto, de urbo.
+
+</ekz>
+
+</dif>
+
+<refgrp tip="vid">
+
+<ref cel="mez.0o">mezo</ref>,
+
+<ref cel="aks.0o">akso</ref>,
+
+<ref cel="pivot.0o">pivoto</ref>.
+
+</refgrp>
+
+</snc>
+
+<snc mrk="centr.0o.cxefajxo">
+
+<dif>
+
+&Ccirc;efa punkto, fokuso, plej aktiva parto:
+
+<ekz>
+
+<tld/>o de komerco, de societo, de ribelo;
+
+</ekz>
+
+<ekz>
+
+Londono fari&gcirc;os unu el la plej gravaj <tld/>oj de nia
+
+afero<fnt>Z</fnt>.
+
+</ekz>
+
+</dif>
+
+<refgrp tip="vid">
+
+<ref cel="kern.0o">kerno</ref>,
+
+<ref cel="kor.0o">koro</ref>,
+
+<ref cel="anim.0o">animo</ref>,
+
+<ref cel="esenc.0o">esenco</ref>.
+
+</refgrp>
+
+</snc>
+
+<snc mrk="centr.0o.partio">
+
+<uzo tip="fak">POL</uzo>
+
+<dif>
+
+Modera partio, kiu sidas meze inter la ekstremoj.
+
+</dif>
+
+</snc>
+
+<trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_a;&c_r;</trd>
+
+<trd lng="br">kreizenn</trd>
+
+<trd lng="cs">centrum</trd>
+
+<trd lng="el">&kappa;&epsilon_ton;&ny;&tau;&rho;&omikron;</trd>
+
+<trd lng="en">center</trd>
+
+<trd lng="es">centro</trd>
+
+<trd lng="fr">centre</trd>
+
+<trdgrp lng="hu">
+
+<trd>k&ouml;zpont</trd>,
+
+<trd>centrum</trd>
+
+</trdgrp>
+
+<trd lng="pt">centro</trd>
+
+<trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;</trd>
+
+<trdgrp lng="sk">
+
+<trd>stred</trd>,
+
+<trd>centrum</trd>
+
+</trdgrp>
+
+<trd lng="zh">&#20013;&#24515;<klr> [zh&#333;ngx&#299;n]</klr></trd>
+
 </drv>
 
 <drv mrk="centr.0a">
-  <kap><tld/>a</kap>
-  <snc>
-    <dif>
-      Rilata al <tld/>o; estanta &ccirc;e la <tld/>o:
-      <ekz>
-        <tld/>a punkto, kvartalo, regantaro;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">MAT</uzo>
-        <ref cel="angul.centra0o"><tld/>a angulo</ref>;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">MAT</uzo>
-        <ref cel="simetr.0o.orta"><tld/>a simetrio</ref>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
-  <trd lng="cs">&uacute;st&rcaron;edn&iacute;</trd>
-  <trdgrp lng="el">
-    <trd>&kappa;&epsilon;&ny;&tau;&rho;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>,
-    <trd>&kappa;&epsilon;&ny;&tau;&rho;&omega_ton;&omikron;&sigma_fina;</trd>
-  </trdgrp>
-  <trd lng="fr">central</trd>
-  <trdgrp lng="hu">
-    <trd>k&ouml;zponti</trd>,
-    <trd>centr&aacute;lis</trd>
-  </trdgrp>
-  <trd lng="pt">central</trd>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">stredov&yacute;</trd>
+
+<kap><tld/>a</kap>
+
+<snc>
+
+<dif>
+
+Rilata al <tld/>o; estanta &ccirc;e la <tld/>o:
+
+<ekz>
+
+<tld/>a punkto, kvartalo, regantaro;
+
+</ekz>
+
+<ekz>
+
+<uzo tip="fak">MAT</uzo>
+
+<ref cel="angul.centra0o"><tld/>a angulo</ref>;
+
+</ekz>
+
+<ekz>
+
+<uzo tip="fak">MAT</uzo>
+
+<ref cel="simetr.0o.orta"><tld/>a simetrio</ref>.
+
+</ekz>
+
+</dif>
+
+</snc>
+
+<trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+
+<trd lng="br">-<ind>kreiz</ind></trd>
+
+<trd lng="cs">&uacute;st&rcaron;edn&iacute;</trd>
+
+<trdgrp lng="el">
+
+<trd>&kappa;&epsilon;&ny;&tau;&rho;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>,
+
+<trd>&kappa;&epsilon;&ny;&tau;&rho;&omega_ton;&omikron;&sigma_fina;</trd>
+
+</trdgrp>
+
+<trd lng="fr">central</trd>
+
+<trdgrp lng="hu">
+
+<trd>k&ouml;zponti</trd>,
+
+<trd>centr&aacute;lis</trd>
+
+</trdgrp>
+
+<trd lng="pt">central</trd>
+
+<trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+
+<trd lng="sk">stredov&yacute;</trd>
+
 </drv>
 
 <drv mrk="centr.al0igikun0igi">
-  <kap><tld/>i<fnt>Z</fnt>, <tld/>igi<fnt>Z</fnt>, al<tld/>igi,
-  kun<tld/>igi</kap>
-  <snc>
-    <dif>
-      Centralizi, koncentrigi.
-    </dif>
-  </snc>
-  <trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trdgrp lng="el">
-    <trd>&sigma;&ypsilon;&gamma;&kappa;&epsilon;&ny;&tau;&rho;&omega_ton;&ny;&omega;</trd>,
-    <trd>&kappa;&epsilon;&ny;&tau;&rho;&omikron;&theta;&epsilon;&tau;&omega_ton;</trd>
-  </trdgrp>
-  <trd lng="fr">centrer</trd>
-  <trdgrp lng="hu">
-    <trd>k&ouml;zpontos&iacute;t</trd>,
-    <trd>centraliz&aacute;l</trd>
-  </trdgrp>
-  <trdgrp lng="pt">
-    <trd>centrar</trd>,
-    <trd>centralizar</trd>
-  </trdgrp>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <adm>
-    Precizigi la sencon. Mi ne certas, ke &ccirc;iuj vortoj havas la
-    saman. "Centri" povus signifi "meti en la centron".
-    <aut>MB</aut>
-  </adm>
+
+<kap><tld/>i<fnt>Z</fnt>, <tld/>igi<fnt>Z</fnt>, al<tld/>igi,
+
+kun<tld/>igi</kap>
+
+<snc>
+
+<dif>
+
+Centralizi, koncentrigi.
+
+</dif>
+
+</snc>
+
+<trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+
+<trd lng="br">kreizenna&ntilde;</trd>
+
+<trdgrp lng="el">
+
+<trd>&sigma;&ypsilon;&gamma;&kappa;&epsilon;&ny;&tau;&rho;&omega_ton;&ny;&omega;</trd>,
+
+<trd>&kappa;&epsilon;&ny;&tau;&rho;&omikron;&theta;&epsilon;&tau;&omega_ton;</trd>
+
+</trdgrp>
+
+<trd lng="fr">centrer</trd>
+
+<trdgrp lng="hu">
+
+<trd>k&ouml;zpontos&iacute;t</trd>,
+
+<trd>centraliz&aacute;l</trd>
+
+</trdgrp>
+
+<trdgrp lng="pt">
+
+<trd>centrar</trd>,
+
+<trd>centralizar</trd>
+
+</trdgrp>
+
+<trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+
+<adm>
+
+Precizigi la sencon. Mi ne certas, ke &ccirc;iuj vortoj havas la
+
+saman. "Centri" povus signifi "meti en la centron".
+
+<aut>MB</aut>
+
+</adm>
+
 </drv>
 
 <drv mrk="centr.alto0o">
-  <kap>alto<tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV2</bib></fnt>
-  <snc mrk="centr.alto0o.MAT">
-    <ref tip="dif" cel="ortoce.0o">ortocentro.</ref>
-  </snc>
-  <trd lng="be">&c_a;&c_r;&c_t;&c_a;&c_c;&c_e;&c_n;&c_t;&c_a;&c_r;</trd>
-  <trdgrp lng="de">
-    <trd>H&ouml;henpunkt</trd>,
-    <trd>Orthozentrum</trd>
-  </trdgrp>
-  <trd lng="en">orthocenter</trd>
-  <trd lng="fr">orthocentre</trd>
-  <trdgrp lng="hu">
-    <trd>magass&aacute;gi <ind>pont</ind></trd>,
-    <trd>ortocentrum</trd>
-  </trdgrp>
-  <trd lng="pl">ortocentrum</trd>
-  <trd lng="pt">ortocentro</trd>
-  <trd lng="ru">&c_o;&c_r;&c_t;&c_o;&c_c;&c_je;&c_n;&c_t;&c_r;</trd>
+
+<kap>alto<tld/>o</kap>
+
+<uzo tip="fak">MAT</uzo>
+
+<fnt><bib>PIV2</bib></fnt>
+
+<snc mrk="centr.alto0o.MAT">
+
+<ref tip="dif" cel="ortoce.0o">ortocentro.</ref>
+
+</snc>
+
+<trd lng="be">&c_a;&c_r;&c_t;&c_a;&c_c;&c_e;&c_n;&c_t;&c_a;&c_r;</trd>
+
+<trdgrp lng="de">
+
+<trd>H&ouml;henpunkt</trd>,
+
+<trd>Orthozentrum</trd>
+
+</trdgrp>
+
+<trd lng="br">ortokreizenn</trd>
+
+<trd lng="en">orthocenter</trd>
+
+<trd lng="fr">orthocentre</trd>
+
+<trdgrp lng="hu">
+
+<trd>magass&aacute;gi <ind>pont</ind></trd>,
+
+<trd>ortocentrum</trd>
+
+</trdgrp>
+
+<trd lng="pl">ortocentrum</trd>
+
+<trd lng="pt">ortocentro</trd>
+
+<trd lng="ru">&c_o;&c_r;&c_t;&c_o;&c_c;&c_je;&c_n;&c_t;&c_r;</trd>
+
 </drv>
 
 <drv mrk="centr.dis0ael0a">
-  <kap>dis<tld/>a, el<tld/>a</kap>
-  <uzo tip="fak">TEK</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <snc>
-    <dif>
-      Kies <tld/>o ne koincidas kun la <tld/>o de aliaj pecoj:
-      <ekz>
-        dis<tld/>a rado <klr>(movata per &scirc;afto ne trairanta &gcirc;ian
-        centron)</klr>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_e;&c_k;&c_s;&c_c;&c_e;&c_n;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y; <klr tip="amb">(&c_t;&c_e;&c_h;&c_n;.)</klr></trd>
-  <trdgrp lng="fr">
-    <trd>excentrique<klr tip="ind"> (subst., tech.)</klr></trd>,
-    <trd>excentr&eacute;<klr tip="ind"> (tech.)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>excentrikus</trd>,
-    <trd>k&uuml;lpontos</trd>,
-    <trd>k&ouml;rhagy&oacute;</trd>
-  </trdgrp>
-  <trd lng="ru">&c_e;&c_k;&c_s;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;<klr tip="amb"> (&c_t;&c_je;&c_h;.)</klr></trd>
+
+<kap>dis<tld/>a, el<tld/>a</kap>
+
+<uzo tip="fak">TEK</uzo>
+
+<fnt><bib>PIV1</bib></fnt>
+
+<snc>
+
+<dif>
+
+Kies <tld/>o ne koincidas kun la <tld/>o de aliaj pecoj:
+
+<ekz>
+
+dis<tld/>a rado <klr>(movata per &scirc;afto ne trairanta &gcirc;ian
+
+centron)</klr>.
+
+</ekz>
+
+</dif>
+
+</snc>
+
+<trd lng="be">&c_e;&c_k;&c_s;&c_c;&c_e;&c_n;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y; <klr tip="amb">(&c_t;&c_e;&c_h;&c_n;.)</klr></trd>
+
+<trd lng="br">eskreizek</trd>
+
+<trdgrp lng="fr">
+
+<trd>excentrique<klr tip="ind"> (subst., tech.)</klr></trd>,
+
+<trd>excentr&eacute;<klr tip="ind"> (tech.)</klr></trd>
+
+</trdgrp>
+
+<trdgrp lng="hu">
+
+<trd>excentrikus</trd>,
+
+<trd>k&uuml;lpontos</trd>,
+
+<trd>k&ouml;rhagy&oacute;</trd>
+
+</trdgrp>
+
+<trd lng="ru">&c_e;&c_k;&c_s;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;<klr tip="amb"> (&c_t;&c_je;&c_h;.)</klr></trd>
+
 </drv>
 
 <drv mrk="centr.dis0eco">
-  <kap>dis<tld/>eco</kap>
-  <snc mrk="centr.dis0eco.TEK">
-    <uzo tip="fak">TEK</uzo>
-    <dif>
-      Eco de io dis<tld/>a.
-    </dif>
-    <trd lng="fr">excentricit&eacute;<klr tip="ind"> (tech.)</klr></trd>
-  </snc>
-  <snc mrk="centr.dis0eco.koniko">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
-    <dif>
-      <klr>(de <ref cel="konik.0o">koniko</ref>)</klr>
-      La konstanta rilato inter la distanco de &ccirc;iu punkto de la
-      koniko al &gcirc;ia fokuso kaj la distanco de tiu punkto al
-      la direktanto.
-    </dif>
-    <rim>
-      En <fnt><bib>MatVort</bib></fnt> troveblas du sinonimoj:
-      <ctl>disfokuseco</ctl> (uzata en <fnt><bib>PIV1</bib></fnt>)
-      kaj <ctl>fokusdiseco</ctl> (uzata en <fnt><bib>PIV2</bib></fnt>).
-      Bricard <fnt><bib>MatTerm</bib><lok>p. 34</lok></fnt> uzas
-      <ctl>de<tld/>eco</ctl>, kiu &scirc;ajne ne konservi&gcirc;is.
-      <ctl>Dis<tld/>eco</ctl> havas la avanta&gcirc;on de proksimeco kun la
-      nacilingvaj ekvivalentoj kaj la intuicia sento, ke &gcirc;i mezuras
-      la malproksimecon de la fokuso al la simetri<tld/>o.
-    </rim>
-    <trd lng="en">eccentricity</trd>
-    <trd lng="de">Exzentrizit&auml;t</trd>
-    <trd lng="fr">excentricit&eacute;<klr tip="ind"> (d'une conique)</klr></trd>
-    <trd lng="pl">mimo&sacute;r&oacute;d</trd>
-    <trd lng="pt">excentricidade</trd>
-  </snc>
-  <trdgrp lng="hu">
-    <trd>excentricit&aacute;s</trd>,
-    <trd>k&uuml;lpontoss&aacute;g</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_e;&c_k;&c_s;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_c;&c_i;&c_t;&c_je;&c_t;</trd>,
-    <trd>&c_e;&c_k;&c_s;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_s;&c_i;&c_t;&c_je;&c_t;</trd>
-  </trdgrp>
+
+<kap>dis<tld/>eco</kap>
+
+<snc mrk="centr.dis0eco.TEK">
+
+<uzo tip="fak">TEK</uzo>
+
+<dif>
+
+Eco de io dis<tld/>a.
+
+</dif>
+
+<trd lng="fr">excentricit&eacute;<klr tip="ind"> (tech.)</klr></trd>
+
+</snc>
+
+<snc mrk="centr.dis0eco.koniko">
+
+<uzo tip="fak">MAT</uzo>
+
+<fnt><bib>MatVort</bib></fnt>
+
+<dif>
+
+<klr>(de <ref cel="konik.0o">koniko</ref>)</klr>
+
+La konstanta rilato inter la distanco de &ccirc;iu punkto de la
+
+koniko al &gcirc;ia fokuso kaj la distanco de tiu punkto al
+
+la direktanto.
+
+</dif>
+
+<rim>
+
+En <fnt><bib>MatVort</bib></fnt> troveblas du sinonimoj:
+
+<ctl>disfokuseco</ctl> (uzata en <fnt><bib>PIV1</bib></fnt>)
+
+kaj <ctl>fokusdiseco</ctl> (uzata en <fnt><bib>PIV2</bib></fnt>).
+
+Bricard <fnt><bib>MatTerm</bib><lok>p. 34</lok></fnt> uzas
+
+<ctl>de<tld/>eco</ctl>, kiu &scirc;ajne ne konservi&gcirc;is.
+
+<ctl>Dis<tld/>eco</ctl> havas la avanta&gcirc;on de proksimeco kun la
+
+nacilingvaj ekvivalentoj kaj la intuicia sento, ke &gcirc;i mezuras
+
+la malproksimecon de la fokuso al la simetri<tld/>o.
+
+</rim>
+
+<trd lng="br">eskreizegezh</trd>
+
+<trd lng="en">eccentricity</trd>
+
+<trd lng="de">Exzentrizit&auml;t</trd>
+
+<trd lng="fr">excentricit&eacute;<klr tip="ind"> (d'une conique)</klr></trd>
+
+<trd lng="pl">mimo&sacute;r&oacute;d</trd>
+
+<trd lng="pt">excentricidade</trd>
+
+</snc>
+
+<trdgrp lng="hu">
+
+<trd>excentricit&aacute;s</trd>,
+
+<trd>k&uuml;lpontoss&aacute;g</trd>
+
+</trdgrp>
+
+<trdgrp lng="ru">
+
+<trd>&c_e;&c_k;&c_s;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_c;&c_i;&c_t;&c_je;&c_t;</trd>,
+
+<trd>&c_e;&c_k;&c_s;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_s;&c_i;&c_t;&c_je;&c_t;</trd>
+
+</trdgrp>
+
 </drv>
 
 <drv mrk="centr.kun0igxi">
-  <kap>kun<tld/>i&gcirc;i</kap>
-  <snc>
-    <ref tip="dif" cel="koncen.0igxi">koncentri&gcirc;i</ref>
-    <ekz>
-      en literaturo kaj eklezio kun<tld/>i&gcirc;as la naciaj sentoj
-      <fnt><bib>VivZam</bib> <lok>&ccirc;apitro 7a, p. 73a</lok></fnt>.
-    </ekz>
-  </snc>
-  <trd lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
-  <trdgrp lng="fr">
-    <trd>se concentrer</trd>
-  </trdgrp>
-  <trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+
+<kap>kun<tld/>i&gcirc;i</kap>
+
+<snc>
+
+<ref tip="dif" cel="koncen.0igxi">koncentri&gcirc;i</ref>
+
+<ekz>
+
+en literaturo kaj eklezio kun<tld/>i&gcirc;as la naciaj sentoj
+
+<fnt><bib>VivZam</bib> <lok>&ccirc;apitro 7a, p. 73a</lok></fnt>.
+
+</ekz>
+
+</snc>
+
+<trd lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+
+<trdgrp lng="fr">
+
+<trd>se concentrer</trd>
+
+</trdgrp>
+
+<trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+
 </drv>
 
 <drv mrk="centr.kurbeco0o">
-  <kap>kurbeco<tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatTerm</bib><lok>p. 38</lok></fnt>
-  <snc mrk="centr.kurbeco0o.de_ebena_kurbo">
-    <dif>
-      <klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>,
-      &ccirc;e punkto <frm><k>a</k></frm> de &gcirc;i)</klr>
-      Intersekcopunkto de la <ref cel="ort.0anto">ortanto</ref>
-      &ccirc;e <frm><k>a</k></frm> kaj de la ortanto &ccirc;e punkto
-      <ctl>tre proksima</ctl> al <frm><k>a</k></frm>:
-      <ekz>
-        la kurbeco<tld/>o de cirklo &ccirc;e ajna punkto de &gcirc;i estas
-        &gcirc;ia <tld/>o.
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="kurb.0eco.de_ebena_kurbo">kurbeco.</ref>
-    <rim>
-      En <fnt><bib>MatVort</bib></fnt> kaj
-      <fnt><bib>PIV1</bib><lok>kurb</lok></fnt>
-      aperas la sinonima formo <ctl><tld/>o de kurbeco</ctl>.
-    </rim>
-  </snc>
-  <trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_a;&c_r; &c_k;&c_r;&c_y;&c_v;&c_ib;&c_n;&c_ib;</trd>
-  <trd lng="de">Kr&uuml;mmungsmittelpunkt</trd>
-  <trd lng="en">center of curvature</trd>
-  <trd lng="fr">centre de courbure</trd>
-  <trd lng="hu">g&ouml;rb&uuml;leti <ind>k&ouml;z&eacute;ppont</ind></trd>
-  <trd lng="pl">&sacute;rodek krzywizny</trd>
-  <trd lng="pt">centro de curvatura</trd>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r; &c_k;&c_r;&c_i;&c_v;&c_i;&c_z;&c_n;&c_y;</trd>
+
+<kap>kurbeco<tld/>o</kap>
+
+<uzo tip="fak">MAT</uzo>
+
+<fnt><bib>MatTerm</bib><lok>p. 38</lok></fnt>
+
+<snc mrk="centr.kurbeco0o.de_ebena_kurbo">
+
+<dif>
+
+<klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>,
+
+&ccirc;e punkto <frm><k>a</k></frm> de &gcirc;i)</klr>
+
+Intersekcopunkto de la <ref cel="ort.0anto">ortanto</ref>
+
+&ccirc;e <frm><k>a</k></frm> kaj de la ortanto &ccirc;e punkto
+
+<ctl>tre proksima</ctl> al <frm><k>a</k></frm>:
+
+<ekz>
+
+la kurbeco<tld/>o de cirklo &ccirc;e ajna punkto de &gcirc;i estas
+
+&gcirc;ia <tld/>o.
+
+</ekz>
+
+</dif>
+
+<ref tip="vid" cel="kurb.0eco.de_ebena_kurbo">kurbeco.</ref>
+
+<rim>
+
+En <fnt><bib>MatVort</bib></fnt> kaj
+
+<fnt><bib>PIV1</bib><lok>kurb</lok></fnt>
+
+aperas la sinonima formo <ctl><tld/>o de kurbeco</ctl>.
+
+</rim>
+
+</snc>
+
+<trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_a;&c_r; &c_k;&c_r;&c_y;&c_v;&c_ib;&c_n;&c_ib;</trd>
+
+<trd lng="br">kreizenn krommder</trd>
+
+<trd lng="de">Kr&uuml;mmungsmittelpunkt</trd>
+
+<trd lng="en">center of curvature</trd>
+
+<trd lng="fr">centre de courbure</trd>
+
+<trd lng="hu">g&ouml;rb&uuml;leti <ind>k&ouml;z&eacute;ppont</ind></trd>
+
+<trd lng="pl">&sacute;rodek krzywizny</trd>
+
+<trd lng="pt">centro de curvatura</trd>
+
+<trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r; &c_k;&c_r;&c_i;&c_v;&c_i;&c_z;&c_n;&c_y;</trd>
+
 </drv>
 
 <drv mrk="centr.pezo0o">
-  <kap>pezo<tld/>o</kap>
-  <snc mrk="centr.pezo0o.FIZ">
-    <uzo tip="fak">FIZ</uzo>
-    <dif>
-      La punkto, en kiu oni povas imagi koncentrita la tutan pezon
-      a&ubreve; mason de korpo.
-    </dif>
-    <adm>
-      Mi simple reprenis la difinon de PIV1, sed necesas &gcirc;in
-      fake plibonigi, konsiderante anka&ubreve; la proksimajn terminojn:
-      masocentro, gravitocentro. <aut>MB</aut>
-    </adm>
-    <trd lng="fr"><ind>centre</ind> de gravit&eacute;</trd>
-    <trd lng="ru"><ind>&c_c;&c_je;&c_n;&c_t;&c_r;</ind> &c_t;&c_ja;&c_zh;&c_je;&c_s;&c_t;&c_i;</trd>
-  </snc>
-  <snc mrk="centr.pezo0o.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
-    <dif>
-      <klr>(de <frm><k>n</k></frm> punktoj
-      <frm>(M<sub><k>i</k></sub>)</frm>
-      en <ref cel="spac.afina0o">afina spaco</ref>, kun respektivaj
-      skalaraj koeficientoj <frm>(&alfa;<sub><k>i</k></sub>)</frm>,
-      kies sumo ne egalas <frm>0</frm>)</klr>
-      La ununura punkto <frm>G</frm>, veriganta
-      <frm>&Sigma;<sub><k>i</k></sub>
-      &alfa;<sub><k>i</k></sub>&#8729;(M<sub><k>i</k></sub>-G) = 0</frm>:
-      <ekz>
-        kiam
-        <frm>&Sigma;<sub><k>i</k></sub> &alfa;<sub><k>i</k></sub> = 1</frm>,
-        tian pezo<tld/>on oni foje simbole signas per
-        <frm>&Sigma;<sub><k>i</k></sub>
-        &alfa;<sub><k>i</k></sub>&#8729;M<sub><k>i</k></sub></frm>;
-      </ekz>
-      <ekz>
-        la pezo<tld/>o de du punktoj kun egalaj koeficientoj estas
-        la <ref cel="mez.0o.punkto">mezo</ref> de la streko, kies randoj
-        ili estas;
-      </ekz>
-      <ekz>
-        pezo<tld/>o de plurlatero a&ubreve; pluredro <klr>(pezo<tld/>o de
-        &gcirc;iaj verticoj kun egalaj koeficientoj)</klr>;
-      </ekz>
-      <ekz>
-        la aron de &ccirc;iuj pezo<tld/>oj de <frm><k>n</k></frm> punktoj oni
-        nomas afina subspaco naskita de tiuj punktoj.
-      </ekz>
-    </dif>
-    <rim>
-      Kvankam la terminologio devenas de fiziko, la matematika nocio tute
-      ne rilatas al pezo a&ubreve; maso. &Gcirc;i estas pure afina nocio,
-      ne bezonanta metrikan strukturon, kvankam en elementa geometrio
-      similaj nocioj estas difinitaj uzante distancojn. Cetere, notu, ke Bricard
-      <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt> &ccirc;i-sence proponis
-      la &scirc;ajne internacian terminon <ctl>baricentro</ctl>, kiu
-      ne enradiki&gcirc;is, kaj samtempe uzis <ctl>pezo<tld/>o</ctl>
-      aliloke <fnt><bib>MatTerm</bib><lok>p. 43</lok></fnt> en kunteksto
-      pli fizika.
-    </rim>
-    <trd lng="en">centroid<klr tip="ind"> (of n points)</klr></trd>
-    <trd lng="de">Schwerpunkt<klr tip="ind"> (von n Punkten)</klr></trd>
-    <trd lng="fr">barycentre<klr tip="ind"> (de n points)</klr></trd>
-    <trd lng="pl">&sacute;rodek ci&eogonek;&zdot;ko&sacute;ci</trd>
-    <trd lng="ru"><ind>&c_c;&c_je;&c_n;&c_t;&c_r;</ind> &c_t;&c_ja;&c_zh;&c_je;&c_s;&c_t;&c_i;<klr tip="ind"> (n
-    &c_t;&c_o;&c_ch;&c_je;&c_k;)</klr></trd>
-    <trd lng="sk">&tcaron;a&zcaron;isko</trd>
-  </snc>
-  <trd lng="hu">s&uacute;lypont</trd>
+
+<kap>pezo<tld/>o</kap>
+
+<snc mrk="centr.pezo0o.FIZ">
+
+<uzo tip="fak">FIZ</uzo>
+
+<dif>
+
+La punkto, en kiu oni povas imagi koncentrita la tutan pezon
+
+a&ubreve; mason de korpo.
+
+</dif>
+
+<adm>
+
+Mi simple reprenis la difinon de PIV1, sed necesas &gcirc;in
+
+fake plibonigi, konsiderante anka&ubreve; la proksimajn terminojn:
+
+masocentro, gravitocentro. <aut>MB</aut>
+
+</adm>
+
+<trd lng="br">kreizenn gravitet</trd>
+
+<trd lng="fr"><ind>centre</ind> de gravit&eacute;</trd>
+
+<trd lng="ru"><ind>&c_c;&c_je;&c_n;&c_t;&c_r;</ind> &c_t;&c_ja;&c_zh;&c_je;&c_s;&c_t;&c_i;</trd>
+
+</snc>
+
+<snc mrk="centr.pezo0o.MAT">
+
+<uzo tip="fak">MAT</uzo>
+
+<fnt><bib>MatVort</bib></fnt>
+
+<dif>
+
+<klr>(de <frm><k>n</k></frm> punktoj
+
+<frm>(M<sub><k>i</k></sub>)</frm>
+
+en <ref cel="spac.afina0o">afina spaco</ref>, kun respektivaj
+
+skalaraj koeficientoj <frm>(&alfa;<sub><k>i</k></sub>)</frm>,
+
+kies sumo ne egalas <frm>0</frm>)</klr>
+
+La ununura punkto <frm>G</frm>, veriganta
+
+<frm>&Sigma;<sub><k>i</k></sub>
+
+&alfa;<sub><k>i</k></sub>&#8729;(M<sub><k>i</k></sub>-G) = 0</frm>:
+
+<ekz>
+
+kiam
+
+<frm>&Sigma;<sub><k>i</k></sub> &alfa;<sub><k>i</k></sub> = 1</frm>,
+
+tian pezo<tld/>on oni foje simbole signas per
+
+<frm>&Sigma;<sub><k>i</k></sub>
+
+&alfa;<sub><k>i</k></sub>&#8729;M<sub><k>i</k></sub></frm>;
+
+</ekz>
+
+<ekz>
+
+la pezo<tld/>o de du punktoj kun egalaj koeficientoj estas
+
+la <ref cel="mez.0o.punkto">mezo</ref> de la streko, kies randoj
+
+ili estas;
+
+</ekz>
+
+<ekz>
+
+pezo<tld/>o de plurlatero a&ubreve; pluredro <klr>(pezo<tld/>o de
+
+&gcirc;iaj verticoj kun egalaj koeficientoj)</klr>;
+
+</ekz>
+
+<ekz>
+
+la aron de &ccirc;iuj pezo<tld/>oj de <frm><k>n</k></frm> punktoj oni
+
+nomas afina subspaco naskita de tiuj punktoj.
+
+</ekz>
+
+</dif>
+
+<rim>
+
+Kvankam la terminologio devenas de fiziko, la matematika nocio tute
+
+ne rilatas al pezo a&ubreve; maso. &Gcirc;i estas pure afina nocio,
+
+ne bezonanta metrikan strukturon, kvankam en elementa geometrio
+
+similaj nocioj estas difinitaj uzante distancojn. Cetere, notu, ke Bricard
+
+<fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt> &ccirc;i-sence proponis
+
+la &scirc;ajne internacian terminon <ctl>baricentro</ctl>, kiu
+
+ne enradiki&gcirc;is, kaj samtempe uzis <ctl>pezo<tld/>o</ctl>
+
+aliloke <fnt><bib>MatTerm</bib><lok>p. 43</lok></fnt> en kunteksto
+
+pli fizika.
+
+</rim>
+
+<trd lng="br">barikreizenn</trd>
+
+<trd lng="en">centroid<klr tip="ind"> (of n points)</klr></trd>
+
+<trd lng="de">Schwerpunkt<klr tip="ind"> (von n Punkten)</klr></trd>
+
+<trd lng="fr">barycentre<klr tip="ind"> (de n points)</klr></trd>
+
+<trd lng="pl">&sacute;rodek ci&eogonek;&zdot;ko&sacute;ci</trd>
+
+<trd lng="ru"><ind>&c_c;&c_je;&c_n;&c_t;&c_r;</ind> &c_t;&c_ja;&c_zh;&c_je;&c_s;&c_t;&c_i;<klr tip="ind"> (n
+
+&c_t;&c_o;&c_ch;&c_je;&c_k;)</klr></trd>
+
+<trd lng="sk">&tcaron;a&zcaron;isko</trd>
+
+</snc>
+
+<trd lng="hu">s&uacute;lypont</trd>
+
 </drv>
 
 <drv mrk="centr.rotacia0o">
-  <kap>rotacia <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <ref tip="dif" cel="centr.0o.rotacio"><tld/>o <sncref/></ref>
-  </snc>
-  <trd lng="de">Drehpunkt</trd>
-  <trd lng="en">center of rotation</trd>
-  <trd lng="fr">centre de rotation</trd>
-  <trd lng="pl">&sacute;rodek obrotu</trd>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r; &c_v;&c_r;&c_a;&c_shch;&c_je;&c_n;&c_i;&c_ja;</trd>
+
+<kap>rotacia <tld/>o</kap>
+
+<uzo tip="fak">MAT</uzo>
+
+<snc>
+
+<ref tip="dif" cel="centr.0o.rotacio"><tld/>o <sncref/></ref>
+
+</snc>
+
+<trd lng="br">kreizenn troiadur</trd>
+
+<trd lng="de">Drehpunkt</trd>
+
+<trd lng="en">center of rotation</trd>
+
+<trd lng="fr">centre de rotation</trd>
+
+<trd lng="pl">&sacute;rodek obrotu</trd>
+
+<trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r; &c_v;&c_r;&c_a;&c_shch;&c_je;&c_n;&c_i;&c_ja;</trd>
+
 </drv>
 
 <drv mrk="centr.simetri0o">
-  <kap>simetri<tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
-  <snc mrk="centr.simetri0o.de_simetrio">
-    <dif>
-      <ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, kiu difinas
-      <tld/>an <ref cel="simetr.0o.orta">simetrion</ref>.
-    </dif>
-  </snc>
-  <snc mrk="centr.simetri0o.de_figuro">
-    <dif>
-      <klr>(de <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
-      <ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, rilate al kiu
-      la figuro estas <ref cel="simetr.0a.figuro">simetria</ref>.
-    </dif>
-  </snc>
-  <trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_a;&c_r; &c_s;&c_y;&c_m;&c_e;&c_t;&c_r;&c_y;&c_ib;</trd>
-  <trd lng="de">Symmetriezentrum</trd>
-  <trd lng="en">symmetry <ind>center</ind></trd>
-  <trd lng="fr">centre de sym&eacute;trie</trd>
-  <trd lng="hu">szimmetria-k&ouml;z&eacute;ppont</trd>
-  <trd lng="pl">&sacute;rodek symetrii</trd>
-  <trd lng="pt">centro de simetria</trd>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r; &c_s;&c_i;&c_m;&c_m;&c_je;&c_t;&c_r;&c_i;&c_i;</trd>
-  <trd lng="sk">stred s&uacute;mernosti</trd>
+
+<kap>simetri<tld/>o</kap>
+
+<uzo tip="fak">MAT</uzo>
+
+<fnt><bib>MatVort</bib></fnt>
+
+<snc mrk="centr.simetri0o.de_simetrio">
+
+<dif>
+
+<ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, kiu difinas
+
+<tld/>an <ref cel="simetr.0o.orta">simetrion</ref>.
+
+</dif>
+
+</snc>
+
+<snc mrk="centr.simetri0o.de_figuro">
+
+<dif>
+
+<klr>(de <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
+
+<ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, rilate al kiu
+
+la figuro estas <ref cel="simetr.0a.figuro">simetria</ref>.
+
+</dif>
+
+</snc>
+
+<trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_a;&c_r; &c_s;&c_y;&c_m;&c_e;&c_t;&c_r;&c_y;&c_ib;</trd>
+
+<trd lng="br">kreizenn simetriezh</trd>
+
+<trd lng="de">Symmetriezentrum</trd>
+
+<trd lng="en">symmetry <ind>center</ind></trd>
+
+<trd lng="fr">centre de sym&eacute;trie</trd>
+
+<trd lng="hu">szimmetria-k&ouml;z&eacute;ppont</trd>
+
+<trd lng="pl">&sacute;rodek symetrii</trd>
+
+<trd lng="pt">centro de simetria</trd>
+
+<trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r; &c_s;&c_i;&c_m;&c_m;&c_je;&c_t;&c_r;&c_i;&c_i;</trd>
+
+<trd lng="sk">stred s&uacute;mernosti</trd>
+
 </drv>
 
 <drv mrk="centr.sam0a">
-  <kap>sam<tld/>a</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <snc>
-    <dif>
-      <klr>(p.p. <ref cel="figur.geometria0o">geometriaj
-      figuroj</ref> kun <tld/>o)</klr>
-      Havantaj saman <ref cel="centr.0o.MAT"><tld/>on</ref>:
-      <ekz>
-        sam<tld/>aj cirkloj,
-      </ekz>
-      <ekz>
-        kvadratoj,
-      </ekz>
-      <ekz>
-        sferoj...
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y;</trd>
-  <trd lng="de">konzentrisch</trd>
-  <trd lng="en">concentric</trd>
-  <trd lng="fr">concentrique</trd>
-  <trd lng="pl">wsp&oacute;&lstroke;&sacute;rodkowy</trd>
-  <trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+
+<kap>sam<tld/>a</kap>
+
+<uzo tip="fak">MAT</uzo>
+
+<fnt><bib>PIV1</bib></fnt>
+
+<snc>
+
+<dif>
+
+<klr>(p.p. <ref cel="figur.geometria0o">geometriaj
+
+figuroj</ref> kun <tld/>o)</klr>
+
+Havantaj saman <ref cel="centr.0o.MAT"><tld/>on</ref>:
+
+<ekz>
+
+sam<tld/>aj cirkloj,
+
+</ekz>
+
+<ekz>
+
+kvadratoj,
+
+</ekz>
+
+<ekz>
+
+sferoj...
+
+</ekz>
+
+</dif>
+
+</snc>
+
+<trd lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y;</trd>
+
+<trd lng="br">kengreiz</trd>
+
+<trd lng="de">konzentrisch</trd>
+
+<trd lng="en">concentric</trd>
+
+<trd lng="fr">concentrique</trd>
+
+<trd lng="pl">wsp&oacute;&lstroke;&sacute;rodkowy</trd>
+
+<trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+
 </drv>
+
 </art>
+
 <!--
+
 $Log$
-Revision 1.45  2003/11/09 17:30:51  revo
+
+Revision 1.46 2004/08/14 16:31:10 revo
+
+Dmitri Gabinski: +trd be
+
+Revision 1.45 2003/11/09 17:30:51 revo
+
 Bart Demeyere: +mrkoj
 
-Revision 1.44  2003/08/29 16:32:28  revo
+Revision 1.44 2003/08/29 16:32:28 revo
+
 Yury Finkel: +trd ru, zh
 
-Revision 1.43  2003/04/21 16:33:52  revo
+Revision 1.43 2003/04/21 16:33:52 revo
+
 Marc Bavant: ~o (plurlatero): mod trd en
 
-Revision 1.42  2003/04/07 16:34:13  revo
-Marc Bavant: alto~o: mod trd en
-Revision 1.41  2003/03/30 16:30:59  revo
-Marc Bavant: alto~o: +trd de
-Revision 1.40  2003/03/10 17:32:48  revo
-Marc Bavant: rotacia ~o: mod trd en
-Revision 1.39  2003/01/27 17:31:42  revo
-Marc Bavant: +drv sam~a
-Revision 1.38  2003/01/25 17:31:49  revo
-Jeromo Vasxe: + kun~igxi
+Revision 1.42 2003/04/07 16:34:13 revo
+
 -->
+
 </vortaro>
