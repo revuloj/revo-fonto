@@ -193,6 +193,7 @@
     <trd lng="de">Verh&auml;ltnis</trd>
     <trd lng="fr">rapport<klr tip="ind"> (entre deux nombres)</klr></trd>
     <trd lng="nl">verhouding</trd>
+    <trd lng="pl">iloraz</trd>
     <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
   <snc mrk="rilat.0o.MAT">
@@ -209,10 +210,12 @@
     <rim>
       Iam oni nomis <ctl><tld/>o</ctl> nur la <tld/>ojn de iu aro al
       &gcirc;i mem (nun: <ctl>interna <tld/>o</ctl>) kaj tiusence difinas
-      &gcirc;in <fnt><bib>PIV1</bib></fnt>, sed okazis vastigo de la nocio,
+      &gcirc;in la citita fonto, sed okazis vastigo de la nocio,
       videbla ekz-e en <fnt><bib>EKV</bib><lok>&para;379</lok></fnt>.
-      Eblas difini anka&ubreve; <ctl>n-lokajn <tld/>ojn</ctl>: temas pri
-      subaroj de kartezia produto de n aroj.
+      La &ccirc;i-supra difino pli precize koncernas la <ctl>duargumentajn
+      <tld/>ojn</ctl>, sed eblas difini anka&ubreve;
+      &leftquot;<ref cel="rilat.n-argumenta0o">n-argumentajn
+      <tld/>ojn</ref>&rightquot;.
     </rim>
     <rim>
       La matematika nocio <tld/>o servas por priskribi &ccirc;iutagajn
@@ -238,6 +241,7 @@
       <trd>relation<klr tip="ind"> (d'un ensemble E &agrave; un ensemble F)</klr></trd>
     </trdgrp>
     <trd lng="nl">relatie</trd>
+    <trd lng="pl">relacja</trd>
     <trdgrp lng="ru">
       <trd>&c_s;&c_o;&c_o;&c_t;&c_v;&c_je;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>,
       <trd>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
@@ -316,6 +320,10 @@
     <trd lng="de">&Auml;quivalenzrelation</trd>
     <trd lng="en">equivalence relation</trd>
     <trd lng="fr">relation d'<ind>&eacute;quivalence</ind></trd>
+    <trdgrp lng="pl">
+      <trd>relacja r&oacute;wnowa&zdot;no&sacute;ciowa</trd>,
+      <trd>relacja r&oacute;wnowa&zdot;no&sacute;ci</trd>
+    </trdgrp>
     <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je; &c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
   </snc>
 </drv>
@@ -362,10 +370,11 @@
       <ref cel="transi1.0a.rilato">transitiva</ref>.
     </refgrp>
   </snc>
-  <trd lng="de">Relation<klr tip="ind"> (in einer Menge)</klr></trd>
-  <trd lng="en">relation<klr tip="ind"> (on a set)</klr></trd>
-  <trd lng="fr">relation<klr tip="ind"> (sur un ensemble)</klr></trd>
-  <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_n;&c_a; &c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+  <trd lng="de">Relation<klr tip="amb"> (in einer Menge)</klr></trd>
+  <trd lng="en">relation<klr tip="amb"> (on a set)</klr></trd>
+  <trd lng="fr">relation<klr tip="amb"> (sur un ensemble)</klr></trd>
+  <trd lng="pl">relacja<klr tip="amb"> (w zbiorze)</klr></trd>
+  <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;<klr tip="amb"> (&c_n;&c_a; &c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
 </drv>
 
 <drv mrk="rilat.inter0o">
@@ -409,7 +418,59 @@
     </refgrp>
     <ref tip="sub" cel="bild.inversa0igo">inversa bildigo.</ref>
   </snc>
+  <trdgrp lng="de">
+    <trd>konverse <ind>Relation</ind></trd>,
+    <trd>inverse <ind>Relation</ind></trd>,
+    <trd>Umkehrrelation</trd>
+  </trdgrp>
+  <trd lng="en">inverse <ind>relation</ind></trd>
   <trd lng="fr">relation r&eacute;ciproque</trd>
+  <trd lng="pl">relacja odwrotna</trd>
+  <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_o;&c_je; <ind>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+</drv>
+
+<drv mrk="rilat.n-argumenta0o">
+  <kap>n-argumenta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(inter elementoj de n aroj <em>E</em><sub>i</sub>)</klr>
+      <ref cel="ar.sub0o">Subaro</ref>
+      de la <ref tip="malprt" cel="produt.kartezia0o">kartezia produto</ref>
+      <em>E</em><sub>1</sub>&#215;<em>E</em><sub>2</sub>...&#215;<em>E</em><sub>n</sub>:
+      <ekz>
+        <ind>duargumenta <tld/>o</ind>
+        <klr>(= <ref cel="rilat.0o.MAT"><tld/>o <sncref/></ref>)</klr>;
+        <trd lng="de">zweistellige <ind>Relation</ind></trd>
+        <trd lng="en">binary <ind>relation</ind></trd>
+        <trd lng="fr">relation binaire</trd>
+        <trdgrp lng="pl">
+          <trd>relacja binarna</trd>,
+          <trd>relacja dwuargumentowa</trd>,
+          <trd>relacja dwucz&lstroke;onowa</trd>
+        </trdgrp>
+        <trdgrp lng="ru">
+          <trd>&c_b;&c_i;&c_n;&c_a;&c_r;&c_n;&c_o;&c_je; <ind>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</ind></trd>,
+          <trd>&c_d;&c_v;&c_u;&c_m;&c_je;&c_s;&c_t;&c_n;&c_o;&c_je; <ind>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        la triargumenta rilato <ctl>M situas inter N kaj P</ctl>,
+        difinita inter la punktoj de rekto.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">n-stellige <ind>Relation</ind></trd>
+  <trd lng="en">n-ary <ind>relation</ind></trd>
+  <trd lng="fr">relation n-aire</trd>
+  <trdgrp lng="pl">
+    <trd>relacja n-argumentowa</trd>,
+    <trd>relacja n-cz&lstroke;onowa</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>n-&c_a;&c_r;&c_n;&c_o;&c_je; <ind>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</ind></trd>,
+    <trd>n-&c_m;&c_je;&c_s;&c_t;&c_n;&c_o;&c_je; <ind>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rilat.ordo0o">
@@ -433,6 +494,9 @@
         inverson per &#8805; <klr>(legu: pli granda ol)</klr>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="ord.0o.rilato">ordo <sncref/></ref>;
+    </refgrp>
     <refgrp tip="vid">
       Ecoj de ordo-rilato:
       <ref cel="tut.0eca.rilato">tuteca</ref>,
@@ -457,30 +521,31 @@
     <trd lng="de">Ordnungsrelation</trd>
     <trd lng="en">order relation</trd>
     <trd lng="fr">relation d'<ind>ordre</ind></trd>
+    <trdgrp lng="pl">
+      <trd>relacja porz&aogonek;dkowa</trd>,
+      <trd>relacja porz&aogonek;dku</trd>,
+      <trd>porz&aogonek;dek</trd>
+    </trdgrp>
     <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je; &c_p;&c_o;&c_r;&c_ja;&c_d;&c_k;&c_a;</trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.33  2002/05/27 17:19:48  revo
+Revision 1.34 2002/08/04 17:33:39 revo
+Marc Bavant: ~o (kvociento): kor dif; ~o MAT: +ref al grafeo; ordo-~o: kor dif; idento-~o: kor strukturon
+Revision 1.33 2002/05/27 17:19:48 revo
 Marc Bavant: ~o MAT: mod rim1; ekvivalento~o: mod fnt
-
-Revision 1.32  2002/05/20 16:36:59  revo
+Revision 1.32 2002/05/20 16:36:59 revo
 Marc Bavant: ~o MAT: mod rim
-
-Revision 1.31  2002/05/12 16:38:35  revo
+Revision 1.31 2002/05/12 16:38:35 revo
 Marc Bavant: ordo~o: mod kap, +fnt, mod refgrp
-
-Revision 1.30  2002/05/03 16:33:08  revo
+Revision 1.30 2002/05/03 16:33:08 revo
 Marc Bavant: ~o MAT: mod rim, +trd; interna ~o: +trd; inversa ~o: mod kap, mod dif, +ref al inverso
-
 Revision 1.29 2002/02/03 17:30:52 revo
 Marc Bavant: ~o (kvociento): -ref al proporcio, +rim
-
 Revision 1.28 2002/01/28 17:32:05 revo
 Yury Finkel: +trd ru
-
 Revision 1.27 2002/01/06 17:45:10 revo
 -->
 </vortaro>
