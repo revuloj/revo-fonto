@@ -19,6 +19,10 @@
       <ref tip="super" cel="later.n0o">kvarlatero</ref>.
     </dif>
     <trd lng="nl">vierkant</trd>
+    <trdgrp lng="pl">
+      <trd>czworok&aogonek;nt</trd>,
+      <trd>czworobok</trd>,
+      <trd>kwadrat<klr tip="ind"> (czworok&aogonek;t)</klr></trd></trdgrp> 
   </snc>
   <snc mrk="kvadra1.0o.algebra">
     <uzo tip="fak">MAT</uzo>
@@ -27,7 +31,7 @@
       La dua <ref tip="super" cel="potenc.0o.per_entjero">potenco</ref>;
       nombro multiplikita per si mem:
       <ekz>
-        la esprimon <frm>3&quadrat;=9</frm> oni vo&ccirc;legu
+        la esprimon <frm>3&quadrat; = 9</frm> oni vo&ccirc;legu
         <ctl>tri kvadrate (a&ubreve;: tri je kvadrato) estas na&ubreve;</ctl>;
       </ekz>
       <ekz>
@@ -37,6 +41,9 @@
       </ekz>
     </dif>
     <trd lng="nl">kwadraat</trd>
+    <trdgrp lng="pl">
+      <trd>kwadrat<klr tip="ind"> (druga pot&eogonek;ga)</klr></trd>,
+      <trd>druga pot&eogonek;ga<klr tip="ind"> (liczby)</klr></trd></trdgrp> 
   </snc>
   <trd lng="de">Quadrat</trd>
   <trd lng="en">square</trd>
@@ -90,11 +97,12 @@
     <fnt><bib>EKV</bib><lok>&para;270</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
-      Tia, ke n=p.
+      Tia, ke <frm><k>n</k> = <k>p</k></frm>.
     </dif>
     <trd lng="de">quadratische<klr tip="amb"> (Matrix)</klr></trd>
     <trd lng="en">square<klr tip="ind"> (matrix)</klr></trd>
     <trd lng="fr"><klr tip="amb">(matrice) </klr>carr&eacute;e</trd>
+    <trd lng="pl"><klr tip="amb">(macierz) </klr>kwadratowa</trd>
     <trd lng="ru">&c_k;&c_v;&c_a;&c_d;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja;<klr tip="amb"> (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;)</klr></trd>
   </snc>
   <trdgrp lng="de">
@@ -187,12 +195,14 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(p.p. elemento x de <ref cel="monoid.0o">monoido</ref> kun
-      multiplike signata operacio *)</klr>
-      Tia, ke x*x = x; alidire: egala al &gcirc;ia
-      <ref cel="kvadra1.0o.algebra"><tld/>o</ref>:
+      <klr>(p.p. elemento <frm><k>x</k></frm> 
+      de <ref cel="monoid.0o">monoido</ref> kun
+      multiplike signata operacio <frm>*</frm>)</klr>
+      Tia, ke <frm><k>x</k>*<k>x</k> = <k>x</k></frm>; alidire: egala
+      al &gcirc;ia <ref cel="kvadra1.0o.algebra"><tld/>o</ref>:
       <ekz>
-        kiu ajn estas entjero n, la <ref cel="potenc.noa0o">n-a potenco</ref>
+        kiu ajn estas entjero <frm><k>n</k></frm>, 
+        la <ref cel="potenc.noa0o">n-a potenco</ref>
         de <tld/>egala elemento egalas al &gcirc;i mem;
       </ekz>
       <ekz>
@@ -203,7 +213,8 @@
         <tld/>egala matrico;
       </ekz>
       <ekz>
-        en la aro de kompleksoj <tld/>egalaj estas nur 0 kaj 1.
+        en la aro de kompleksoj <tld/>egalaj estas nur
+        <frm>0</frm> kaj <frm>1</frm>.
       </ekz>
     </dif>
     <rim>
@@ -222,6 +233,8 @@
 </art>
 <!--
 $Log$
+Revision 1.20  2002/09/29 17:50:32  revo
+Marc Bavant: mod ref cel al potenco
 Revision 1.19  2002/06/25 19:37:56  revo
 Marc Bavant: +drv ~egala
 Revision 1.18  2002/05/27 17:18:45  revo
@@ -239,7 +252,5 @@ Marc Bavant: ~a: +snc MAT (matrico)
 Revision 1.12 2001/09/10 18:13:46 revo
 Marc Bavant: ~o (figuro): iom mod dif; ~a: mod laux "kuba"; +trd fr
 Revision 1.11 2001/09/05 19:03:09 revo
-Jerano Zachrisson: +trd sv
-Revision 1.10 2001/04/02 16:22:52 revo
 -->
 </vortaro>
