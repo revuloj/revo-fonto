@@ -145,7 +145,7 @@
         <ekz>
           en la <tld/>a skriba&jcirc;o b=f(a) la elementon
           a de la fonta aro oni nomas
-          "<ref tip="prt" cel="argume.0o.funkcia">argumento</ref>"
+          "<ref tip="prt" cel="argume.0o.donitajxo">argumento</ref>"
           a&ubreve; "<ref tip="prt" cel="variab.0o.mat">variablo</ref>",
           kaj la elementon b de la cela aro oni nomas
           "<ref tip="prt" cel="rezult.0o.funkcia">rezulto</ref>" a&ubreve;
@@ -185,7 +185,7 @@
       parolos pri "bildigo" 
       (a&ubreve; "<ref cel="jxet.0o.mat">&jcirc;eto</ref>"),
       "<ref cel="funkci1.0o">funkcionalo</ref>", 
-      "operatoro", 
+      "<ref cel="operat.0o">operatoro</ref>", 
       "<ref cel="form.0o.bildigo">formo</ref>", 
       "<ref cel="operac.0o.MAT">operacio</ref>", 
       "transformo"... Ni do ricevis tutan 
@@ -330,6 +330,36 @@
   <trd lng="en">characteristic <ind>function</ind></trd>
   <trd lng="fr">fonction caract&eacute;ristique</trd>
   <trd lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
+<drv mrk="funkci.n-argumenta0o">
+  <kap>n-argumenta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="funkci.0o.MAT">Funkcio</ref>, kies fonto-aro
+      konsistas el <ref cel="op.n0o">n-opoj</ref>:
+      <ekz>
+        la bildo per n-argumenta <tld/>o f de n-opo 
+        (x<sub>1</sub>,x<sub>2</sub>,...x<sub>n</sub>)
+        oni kutime signas per f(x<sub>1</sub>,x<sub>2</sub>,...x<sub>n</sub>);
+      </ekz>
+      <ekz>
+        la duargumenta <tld/>o f(x,y)=arc tan(y/x) donas la 
+        <ref cel="argume.0o.komplekso">argumenton</ref> de komplekso x+i.y.
+      </ekz>
+    </dif>
+    <rim>
+      La diferenco inter unu- a&ubreve; plur-argumenta <tld/>o estas pure
+      konvencia. Ekz-e, depende de la kunteksto, oni preferos konsideri 
+      funkcion kun kompleksa argumento kiel unuargumentan, a&ubreve; kiel 
+      duargumentan funkcion kun du reelaj argumentoj.
+    </rim>
+  </snc>
+  <trd lng="de">Funktion n Ver&auml;nderlicher</trd>
+  <trd lng="en">function of n variables</trd>
+  <trd lng="fr">fonction de n variables</trd>
+  <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja; &c_o;&c_t; &c_a;&c_r;&c_g;&c_u;&c_m;&c_je;&c_n;&c_t;&c_o;&c_v;</trd>
 </drv>
 <drv mrk="funkci.polinoma0o">
   <kap>polinoma <tld/>o</kap>
@@ -507,6 +537,9 @@
 </art>
 <!--
 $Log$
+Revision 1.16  2001/07/28 19:05:24  revo
+Marc Bavant: simpla ~o: mod dif
+
 Revision 1.15  2001/07/24 13:36:52  revo
 Marc Bavant: +drv karakteriza ~o, simpla ~o, sxtupara ~o
 
@@ -523,8 +556,5 @@ Revision 1.11  2001/06/23 18:12:39  revo
 Marc Bavant: mod mrk cxe ~o MAT
 
 Revision 1.10  2001/02/11 12:38:23  revo
-oficialeco per programo de Lugrin
-
-Revision 1.9  2000/12/02 17:11:43  revo
 -->
 </vortaro>
