@@ -2,39 +2,67 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <rad>konzol</rad>/o
-</kap>
-<drv mrk="konzol.0o">
-  <kap>
-    <tld/>o
-  </kap>
-  <snc>
-    <uzo tip="fak">ARKI</uzo>
-    <dif>
-      Elstaranta &scirc;tona, metala a&ubreve; ligna peco, kurbigita la&ubreve; S-formo,
-      fiksita al muro, kaj destinita por subporti balkonon, kornicon,
-      statuon ktp.
-    </dif>
-  </snc>
-  <snc>
-    <uzo tip="fak">ARKI</uzo>
-    <dif>
-      Ornama meblo, metita &ccirc;e muro, kaj destinita por subporti vazojn,
-      kalikojn, statuetojn ktp.
-    </dif>
-  </snc>
-  <trdgrp lng="ru">
-    <trd>&c_k;&c_o;&c_n;&c_s;&c_o;&c_l;&c_mol;</trd>,
-    <trd>&c_k;&c_r;&c_o;&c_n;&c_sh;&c_t;&c_je;&c_j;&c_n;</trd>
-  </trdgrp>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.4  2001/09/25 18:15:28  revo
-Jerome Vachey: fak bele(tro) - arki(tekturo)
+  <art mrk="$Id$">
+    <kap>
+      <rad>konzol</rad>/o
+    </kap>
 
--->
+    <drv mrk="konzol.0o">
+      <kap>
+        <tld/>o
+      </kap>
+      <snc mrk="konzol.0o.ARKI">
+        <uzo tip="fak">ARKI</uzo>
+        <uzo tip="fak">TEK</uzo>
+        <dif>
+          &Scirc;tona, metala a&ubreve; ligna peco, kies unu flanko
+          estas fiksita al muro kaj la alia libere elstaras
+          eksteren, destinita por subporti balkonon,
+          kornicon, statuon ktp.
+        </dif>
+        <trdgrp lng="ru">
+          <trd>&c_k;&c_o;&c_n;&c_s;&c_o;&c_l;&c_mol;</trd>,
+          <trd>&c_k;&c_r;&c_o;&c_n;&c_sh;&c_t;&c_je;&c_j;&c_n;</trd>
+        </trdgrp>
+      </snc>
+      <snc mrk="konzol.0o.meblo">
+        <uzo tip="fak">ARKI</uzo>
+        <dif>
+          Ornama meblo, metita &ccirc;e muro, kaj destinita por subporti vazojn,
+          kalikojn, statuetojn ktp; tablo apogita per du a&ubreve; pli da
+          <tld/>oj<sncref ref="konzol.0o.ARKI"/>, kiuj anstata&ubreve;as krurojn.
+        </dif>
+        <ref tip="vid" cel="bret.0o">breto</ref>
+        <trd lng="ru">&c_k;&c_o;&c_n;&c_s;&c_o;&c_l;&c_mol;</trd>
+      </snc>
+      <snc mrk="konzol.0o.KOMP">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          <ref tip="super" cel="terminal.0o.KOMP">Terminalo</ref>
+          a&ubreve; imitanta &gcirc;in
+          <ref tip="super" cel="fenestr.0o.KOMP">fenestro</ref>,
+          kiu dispogas la specialajn rajtojn plenumi operaciumajn
+          komandojn rezervitajn al la &ccirc;efuzanto.
+        </dif>
+        <rim>
+          La termino konservas rememoron pri epoko kiam <tld/>o estis
+          speco de pupitro per kiu operatoro manipulis komputilegon.
+        </rim>
+        <trdgrp lng="ru">
+          <trd>&c_k;&c_o;&c_n;&c_s;&c_o;&c_l;&c_mol;</trd>,
+          <trd>&c_p;&c_u;&c_l;&c_mol;&c_t; &c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
+        </trdgrp>
+      </snc>
+      <trd lng="en">a <ind>console</ind></trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.5  2001/10/31 19:13:59  revo
+  Yury Finkel: +trd ru
+
+  Revision 1.4  2001/09/25 18:15:28  revo
+  Jerome Vachey: fak bele(tro) - arki(tekturo)
+
+  -->
 </vortaro>
