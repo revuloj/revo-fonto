@@ -1,109 +1,217 @@
 <?xml version="1.0"?>
+
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>*</ofc>
-      <rad>bind</rad>/i
-    </kap>
-    <drv mrk="bind.0i">
-      <kap><ofc>*</ofc><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="bind.0i.TIP">
-        <uzo tip="fak">TIP</uzo>
-        <dif>
-          Kunkudri la foliojn de libro kaj surmeti sur ilin rigidan kovrilon. 
-        </dif>
-        <trd lng="es">encuadernar</trd>
-        <trd lng="fr">relier <klr tip="ind">(assembler des feuilles)</klr></trd>
-        <trd lng="hu">k&ouml;t <klr tip="ind">(k&ouml;nyvet)</klr></trd>
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
-          <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_s;&c_t;&c_i;</trd></trdgrp>
-      </snc>
-      <snc mrk="bind.0i.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Konstrui <ref cel="sxarg.0i.KOMP">&scirc;argeblan</ref> a&ubreve;
-          plenumeblan programon el tradukitaj programpartoj (celmoduloj),
-          &scirc;topante la intermodulajn ligilojn; interalie, en&scirc;ovi la
-          programojn realigantajn la bibliotekajn funkciojn:
-          <ekz>
-            <ind>statika <tld/>ado</ind>;
-            <trdgrp lng="en">
-              <trd>static binding</trd>,
-              <trd>early binding</trd></trdgrp>
-            <trd lng="hu">statikus k&ouml;t&eacute;s</trd>
-            <trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i; &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja; &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
-          </ekz><ekz>
-            <ind>dinamike <tld/>ebla biblioteko</ind>.
-            <trdgrp lng="en">
-              <trd>dynamic link library</trd>,
-              <trd>DLL</trd>,
-              <trd>shared library</trd></trdgrp>
-            <trdgrp lng="hu">
-              <trd>dinamikusan l&aacute;ncolt k&ouml;nyvt&aacute;r</trd>,
-              <trd>dinamikusan &ouml;sszekapcsolhat&oacute; k&ouml;nyvt&aacute;r</trd>,
-              <trd>DLL</trd></trdgrp>
-            <trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i; &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja; &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
-          </ekz>
-        </dif>
-        <trd lng="en">link <klr tip="ind">(a program)</klr></trd>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-          <trd>&c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_o;&c_b;&c_malmol;&c_je;&c_k;&c_t;&c_n;&c_y;&c_je; &c_m;&c_o;&c_d;&c_u;&c_l;&c_i;)</klr></trd></trdgrp>
-      </snc>
-      <trd lng="en">bind</trd>
-    </drv>
-    <drv mrk="bind.0ajxo">
-      <kap><tld/>a&jcirc;o</kap>
-      <uzo tip="fak">TIP</uzo>
-      <snc>
-        <dif>
-          Librokovrilo.  
-        </dif>
-      </snc>
-      <trd lng="fr">reliure</trd>
-      <trd lng="hu">k&ouml;t&eacute;s<klr tip="ind"> (k&ouml;nyv&eacute;)</klr></trd>
-      <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&#x451;&c_t;</trd>
-    </drv>
-    <drv mrk="bind.0ilo">
-      <kap><tld/>ilo</kap>
-      <snc mrk="bind.0ilo.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          <ref tip="malprt" cel="operac.0umo">Operaciuma</ref>
-          programo konstruanta plenumeblan programon (a&ubreve; &scirc;argmodulon)
-          el tradukitaj pecoj (celmoduloj).
-        </dif>
-        <ref tip="vid" cel="sxarg.0ilo">&scirc;argilo</ref>
-      </snc>
-      <trd lng="de">Binder</trd>
-      <trdgrp lng="en">
-        <trd>linker</trd>, <trd>linkage editor</trd>, <trd>binder</trd></trdgrp>
-      <trd lng="fr">&eacute;diteur de liens</trd>
-      <trd lng="hu">kapcsolatszerkeszt&odblac;</trd>
-      <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.10  2002/05/16 16:34:45  revo
-  Alejandro Mejia Greene: ald 1 his trd
 
-  Revision 1.9  2001/05/16 18:13:06  revo
-  Sergio Pokrovskij: KOMP
+<art mrk="$Id$">
 
-  Revision 1.8  2001/03/01 20:04:29  revo
-  Marc Bavant: kor ref tip; +uzo TIP
+<kap>
 
-  Revision 1.7  2001/01/14 17:13:39  revo
-  Marc Bavant: +trd fr
+<ofc>*</ofc>
 
-  Revision 1.6  2000/09/06 16:14:49  revo
-  Yury Finkel: +rusa trd
+<rad>bind</rad>/i
 
-  -->
+</kap>
+
+<drv mrk="bind.0i">
+
+<kap><ofc>*</ofc><tld/>i</kap>
+
+<gra><vspec>tr</vspec></gra>
+
+<snc mrk="bind.0i.TIP">
+
+<uzo tip="fak">TIP</uzo>
+
+<dif>
+
+Kunkudri la foliojn de libro kaj surmeti sur ilin rigidan kovrilon. 
+
+</dif>
+
+<trdgrp lng="br">
+
+<trd>keina&ntilde;<klr tip="ind"> (ul levr)</klr></trd>,
+
+<trd>koubla&ntilde;<klr tip="ind"> (ul levr)</klr></trd>
+
+</trdgrp>
+
+<trd lng="es">encuadernar</trd>
+
+<trd lng="fr">relier <klr tip="ind">(assembler des feuilles)</klr></trd>
+
+<trd lng="hu">k&ouml;t <klr tip="ind">(k&ouml;nyvet)</klr></trd>
+
+<trdgrp lng="ru">
+
+<trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
+
+<trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_s;&c_t;&c_i;</trd></trdgrp>
+
+</snc>
+
+<snc mrk="bind.0i.KOMP">
+
+<uzo tip="fak">KOMP</uzo>
+
+<dif>
+
+Konstrui <ref cel="sxarg.0i.KOMP">&scirc;argeblan</ref> a&ubreve;
+
+plenumeblan programon el tradukitaj programpartoj (celmoduloj),
+
+&scirc;topante la intermodulajn ligilojn; interalie, en&scirc;ovi la
+
+programojn realigantajn la bibliotekajn funkciojn:
+
+<ekz>
+
+<ind>statika <tld/>ado</ind>;
+
+<trdgrp lng="en">
+
+<trd>static binding</trd>,
+
+<trd>early binding</trd></trdgrp>
+
+<trd lng="hu">statikus k&ouml;t&eacute;s</trd>
+
+<trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i; &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja; &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
+
+</ekz><ekz>
+
+<ind>dinamike <tld/>ebla biblioteko</ind>.
+
+<trdgrp lng="en">
+
+<trd>dynamic link library</trd>,
+
+<trd>DLL</trd>,
+
+<trd>shared library</trd></trdgrp>
+
+<trdgrp lng="hu">
+
+<trd>dinamikusan l&aacute;ncolt k&ouml;nyvt&aacute;r</trd>,
+
+<trd>dinamikusan &ouml;sszekapcsolhat&oacute; k&ouml;nyvt&aacute;r</trd>,
+
+<trd>DLL</trd></trdgrp>
+
+<trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i; &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja; &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
+
+</ekz>
+
+</dif>
+
+<trd lng="en">link <klr tip="ind">(a program)</klr></trd>
+
+<trdgrp lng="ru">
+
+<trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+
+<trd>&c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_o;&c_b;&c_malmol;&c_je;&c_k;&c_t;&c_n;&c_y;&c_je; &c_m;&c_o;&c_d;&c_u;&c_l;&c_i;)</klr></trd></trdgrp>
+
+</snc>
+
+<trd lng="en">bind</trd>
+
+</drv>
+
+<drv mrk="bind.0ajxo">
+
+<kap><tld/>a&jcirc;o</kap>
+
+<uzo tip="fak">TIP</uzo>
+
+<snc>
+
+<dif>
+
+Librokovrilo. 
+
+</dif>
+
+</snc>
+
+<trdgrp lng="br">
+
+<trd>keinadur<klr tip="ind"> (ul levr)</klr></trd>,
+
+<trd>koubladur<klr tip="ind"> (ul levr)</klr></trd>
+
+</trdgrp>
+
+<trd lng="fr">reliure</trd>
+
+<trd lng="hu">k&ouml;t&eacute;s<klr tip="ind"> (k&ouml;nyv&eacute;)</klr></trd>
+
+<trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_jo;&c_t;</trd>
+
+</drv>
+
+<drv mrk="bind.0ilo">
+
+<kap><tld/>ilo</kap>
+
+<snc mrk="bind.0ilo.KOMP">
+
+<uzo tip="fak">KOMP</uzo>
+
+<dif>
+
+<ref tip="malprt" cel="operac.0umo">Operaciuma</ref>
+
+programo konstruanta plenumeblan programon (a&ubreve; &scirc;argmodulon)
+
+el tradukitaj pecoj (celmoduloj).
+
+</dif>
+
+<ref tip="vid" cel="sxarg.0ilo">&scirc;argilo</ref>
+
+</snc>
+
+<trd lng="de">Binder</trd>
+
+<trdgrp lng="en">
+
+<trd>linker</trd>, <trd>linkage editor</trd>, <trd>binder</trd></trdgrp>
+
+<trd lng="fr">&eacute;diteur de liens</trd>
+
+<trd lng="hu">kapcsolatszerkeszt&odblac;</trd>
+
+<trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>
+
+</drv>
+
+</art>
+
+<!--
+
+$Log$
+
+Revision 1.11 2003/01/15 17:32:22 revo
+
+Jozefo Horvath: +trd hu
+
+Revision 1.10 2002/05/16 16:34:45 revo
+
+Alejandro Mejia Greene: ald 1 his trd
+
+Revision 1.9 2001/05/16 18:13:06 revo
+
+Sergio Pokrovskij: KOMP
+
+Revision 1.8 2001/03/01 20:04:29 revo
+
+Marc Bavant: kor ref tip; +uzo TIP
+
+Revision 1.7 2001/01/14 17:13:39 revo
+
+-->
+
 </vortaro>
-
