@@ -2,119 +2,111 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>limes</rad>/o <fnt>PIV</fnt>
-    </kap>
-    <drv mrk="limes.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc mrk="limes.0o.vico">
-        <dif>
-          <klr>(de <ref cel="vic.0o.MAT">vico</ref> (u<sub>n</sub>))</klr>
-          Punkto p, al kiu &gcirc;i 
-          <ref cel="konver.0i.MAT">konver&gcirc;as</ref>;
-          simb. p = lim&#xa0;(u<sub>n</sub>):
-          <ekz>
-            la <tld/>o de (1/n)<sub>n&gt;0</sub> estas 0;
-          </ekz>
-          <ekz>
-            la vico ((-1)<sup>n</sup>)<sub>n&gt;0</sub> ne akceptas <tld/>on
-            <klr>(ne konver&gcirc;as)</klr>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="limes.0o.bildigo">
-        <dif>
-          <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref> f inter
-          du <ref cel="spac.topologia0o">topologiaj spacoj</ref>, &ccirc;e  
-          <ref cel="akumul.0igxa.punkto">akumuli&gcirc;a</ref> punkto
-          a de la fonto-aro)</klr>
-          Tia punkto b de la celo-aro, ke por &ccirc;iu &gcirc;ia
-          <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
-          <em>W</em>, ekzistas responda &ccirc;irka&ubreve;a&jcirc;o 
-          <em>V</em> de a, kies <ref cel="bild.rekta0o.subaro">bildo</ref> 
-          per f estas inkluzivata en <em>W</em>; 
-          simb. b = lim<sub>x&#x2192;a</sub>&#xa0;f(x):
-          <ekz>
-            bildigo povas havi <tld/>on &ccirc;e punkto, en kiu &gcirc;i
-            ne estas difinita;
-          </ekz>
-          <ekz>
-            la <tld/>o &ccirc;e 0 de x.sin(1/x) estas 0; 
-          </ekz>
-          <ekz>
-            se la <tld/>o de f &ccirc;e a egalas al f(a), tiam oni diras,
-            ke f estas <ref cel="kontin3.0a.cxepunkto">kontinua</ref> 
-            &ccirc;e a;
-          </ekz>
-          <ekz>
-            se vico (u<sub>n</sub>) konver&gcirc;as al a, kaj se b estas
-            <tld/>o de f &ccirc;e a, tiam &gcirc;i anka&ubreve; estas
-            <tld/>o de la vico (f(u<sub>n</sub>));
-          </ekz>
-          <klr>(p.p. bildigoj kun reela fonto-aro)</klr>
-          <ekz>
-            <tld/>o &ccirc;e malfinio;
-          </ekz>
-          <ekz>
-            dekstra, maldekstra <tld/>o
-            <klr>(la konsiderata &ccirc;irka&ubreve;a&jcirc;o <em>V</em>
-            devas akcepti a kiel infimon a&ubreve; supremon, respektive)</klr>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="analit.0o">analitiko</ref>,
-          <ref cel="streb.0i.MAT">strebi</ref>.
-        </refgrp>
-        <rim>
-          Oni diras sendistinge, ke <ctl>b estas <tld/>o de f &ccirc;e
-          punkto a</ctl>, <ctl>f akceptas <tld/>on b &ccirc;e
-          punkto a</ctl>, a&ubreve; ke <ctl>f(x) strebas al b, kiam x strebas
-          al a</ctl>.
-        </rim>
-      </snc>
-      
-      
-      <!-- snc>
-        <dif>
-          Nombro (a&ubreve; punkto) <frm>p</frm> estas <tld/>o de vico
-          <frm>x<sub>1</sub>, x<sub>2</sub>, ...</frm>, se la vico
-          <ref tip="vid" cel="konver.0i">konver&gcirc;as</ref> al <frm>p</frm>;
-          simbole <frm>p = lim&#xa0;x<sub>i</sub></frm>.
-
-          Nombro (a&ubreve; punkto) <frm>p</frm> estas <tld/>o de funkcio
-          <frm>f(x)</frm> kiam <frm>x</frm> <ctl>strebas al</ctl>
-          <frm>a</frm>, simbole
-          <frm>p = lim<sub>x&#x2192;a</sub>&#xa0;f(x)</frm>,
-          se por &ccirc;iu vico <frm>x<sub>1</sub>, x<sub>2</sub>, ...</frm>
-          konver&gcirc;anta al <frm>a</frm>, la vico
-          <frm>f(x<sub>1</sub>), f(x<sub>2</sub>), ...</frm> konver&gcirc;as
-          al <frm>p</frm>.
-        </dif>
-        <ref tip="malprt" cel="analit.0o">analitiko</ref>
-      </snc -->
-      <trd lng="en">limit</trd>
-      <trd lng="fr">limite<klr tip="ind"> (math.)</klr></trd>
-      <trd lng="nl">limiet<klr tip="ind"> (wisk.)</klr></trd>
-      <trd lng="ru">&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;</trd>
-    </drv>
-  </art>
+<art mrk="$Id$">
+<kap>
+  <rad>limes</rad>/o
+</kap>
+<drv mrk="limes.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc mrk="limes.0o.vico">
+    <dif>
+      <klr>(de <ref cel="vic.0o.MAT">vico</ref> (u<sub>n</sub>))</klr>
+      Punkto p, al kiu &gcirc;i
+      <ref cel="konver.0i.MAT">konver&gcirc;as</ref>;
+      simb. p = lim&#xa0;(u<sub>n</sub>):
+      <ekz>
+        la <tld/>o de (1/n)<sub>n&gt;0</sub> estas 0;
+      </ekz>
+      <ekz>
+        la vico ((-1)<sup>n</sup>)<sub>n&gt;0</sub> ne akceptas <tld/>on
+        <klr>(ne konver&gcirc;as)</klr>.
+      </ekz>
+    </dif>
+    <rim>
+      Por &ccirc;i tiu nocio Bricard
+      <fnt><bib>MatTerm</bib><lok>p. 17</lok></fnt> kontenti&gcirc;is je
+      <ctl>limo</ctl>.
+    </rim>
+  </snc>
+  <snc mrk="limes.0o.bildigo">
+    <dif>
+      <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref> f inter
+      du <ref cel="spac.topologia0o">topologiaj spacoj</ref>, &ccirc;e
+      <ref cel="akumul.0igxa.punkto">akumuli&gcirc;a</ref> punkto
+      a de la fonto-aro)</klr>
+      Tia punkto b de la celo-aro, ke por &ccirc;iu &gcirc;ia
+      <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+      <em>W</em>, ekzistas responda &ccirc;irka&ubreve;a&jcirc;o
+      <em>V</em> de a, kies <ref cel="bild.rekta0o.subaro">bildo</ref>
+      per f estas inkluzivata en <em>W</em>;
+      simb. b = lim<sub>x&#x2192;a</sub>&#xa0;f(x):
+      <ekz>
+        bildigo povas havi <tld/>on &ccirc;e punkto, en kiu &gcirc;i
+        ne estas difinita;
+      </ekz>
+      <ekz>
+        la <tld/>o &ccirc;e 0 de x.sin(1/x) estas 0;
+      </ekz>
+      <ekz>
+        se la <tld/>o de f &ccirc;e a egalas al f(a), tiam oni diras,
+        ke f estas <ref cel="kontin3.0a.cxepunkto">kontinua</ref>
+        &ccirc;e a;
+      </ekz>
+      <ekz>
+        se vico (u<sub>n</sub>) konver&gcirc;as al a, kaj se b estas
+        <tld/>o de f &ccirc;e a, tiam &gcirc;i anka&ubreve; estas
+        <tld/>o de la vico (f(u<sub>n</sub>)).
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="analit.0o">analitiko</ref>,
+      <ref cel="streb.0i.MAT">strebi</ref>.
+    </refgrp>
+    <rim>
+      En la kadro de reelaj funkcioj oni parolas anka&ubreve; pri
+      <ekz>
+        <tld/>o &ccirc;e malfinio;
+      </ekz>
+      <ekz>
+        dekstra, maldekstra <tld/>o
+        <klr>(la konsiderata &ccirc;irka&ubreve;a&jcirc;o <em>V</em>
+        devas akcepti a kiel infimon a&ubreve; supremon, respektive)</klr>.
+      </ekz>
+    </rim>
+    <rim>
+      Oni diras sendistinge, ke <ctl>b estas <tld/>o de f &ccirc;e
+      punkto a</ctl>, <ctl>f akceptas <tld/>on b &ccirc;e
+      punkto a</ctl>, a&ubreve; ke <ctl>f(x) strebas al b, kiam x strebas
+      al a</ctl>.
+    </rim>
+  </snc>
+  <trd lng="de">Limes</trd>
+  <trd lng="en">limit</trd>
+  <trd lng="fr">limite<klr tip="ind"> (math.)</klr></trd>
+  <trd lng="nl">limiet<klr tip="ind"> (wisk.)</klr></trd>
+  <trd lng="ru">&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;</trd>
+</drv>
+</art>
 <!--
 $Log$
-Revision 1.5  2001/04/21 18:45:05  revo
+Revision 1.6 2002/01/06 17:45:11 revo
+Marc Bavant: mod ref cel al bildigo
+
+Revision 1.5 2001/04/21 18:45:05 revo
 Paul Peeraerts: ald trd nl
 
-Revision 1.4  2001/04/14 17:25:04  revo
+Revision 1.4 2001/04/14 17:25:04 revo
 Marc Bavant: mod ref cel al konvergxi
 
-Revision 1.3  2001/03/30 17:19:29  revo
+Revision 1.3 2001/03/30 17:19:29 revo
 Marc Bavant: precizigis la trd fr
 
-Revision 1.2  2001/03/11 18:56:22  revo
-Marc Bavant: reverkis la artikolon, uzante ref al jam difinitaj konceptoj k apartigante la du sencojn; mod ref tip al analitiko
+Revision 1.2 2001/03/11 18:56:22 revo
+Marc Bavant: reverkis la artikolon, uzante ref al jam difinitaj konceptoj kaj apartigante la du sencojn; mod ref tip al analitiko
 
-Revision 1.1  2000/09/12 16:11:40  revo
+Revision 1.1 2000/09/12 16:11:40 revo
 Sergio Pokrovskij: nova artikolo
 
 -->
