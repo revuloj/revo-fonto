@@ -3,8 +3,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>bild</rad>/o
+  <ofc>1</ofc>
+  <rad>bild</rad>/o
 </kap>
 <drv mrk="bild.0o">
   <kap><tld/>o</kap>
@@ -80,13 +80,14 @@
   </snc>
   <snc mrk="bild.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-      <refgrp tip="sin">
-        <ref cel="bild.rekta0o.subaro">rekta <tld/>o
-        <sncref ref="bild.rekta0o.subaro"/></ref> 
-        a&ubreve;
-        <ref cel="bild.rekta0o.elemento">rekta <tld/>o
-        <sncref ref="bild.rekta0o.elemento"/></ref>.
-      </refgrp>
+    <fnt><bib>MatVort</bib></fnt>
+    <refgrp tip="sin">
+      <ref cel="bild.rekta0o.subaro">rekta <tld/>o
+      <sncref ref="bild.rekta0o.subaro"/></ref>
+      a&ubreve;
+      <ref cel="bild.rekta0o.elemento">rekta <tld/>o
+      <sncref ref="bild.rekta0o.elemento"/></ref>.
+    </refgrp>
   </snc>
   <refgrp tip="vid">
     <ref cel="figur.0o">figuro</ref>,
@@ -106,18 +107,24 @@
     <trd>&c_o;&c_b;&c_r;&c_a;&c_z;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="bild.0aro">
   <kap><tld/>aro</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      (de <ref cel="bild.0igo"><tld/>igo</ref> f)
+      <klr>(de <ref cel="bild.0igo"><tld/>igo</ref> f)</klr>
       La <ref cel="bild.rekta0o">rekta <tld/>o</ref> de &gcirc;ia
       <ref cel="ar.fonto0o">fonto-aro</ref>.
     </dif>
   </snc>
-  <trd lng="fr">image <klr tip="amb">(d'une application)</klr></trd>
+  <trd lng="de">Bildmenge<klr tip="ind"> (einer Abbildung)</klr></trd>
+  <trd lng="en">image set<klr tip="ind"> (of a mapping)</klr></trd>
+  <trd lng="fr">image<klr tip="amb"> (d'une application)</klr></trd>
+  <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o; &c_o;&c_b;&c_r;&c_a;&c_z;&c_o;&c_v;<klr tip="ind"> (&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
 </drv>
+
 <drv mrk="bild.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
@@ -178,16 +185,22 @@
       <trd>&c_v;&c_i;&c_z;&c_u;&c_a;&c_l;&c_i;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="fr">
+    <trd>repr&eacute;senter</trd>,
+    <trd>rendre<klr tip="ind"> (reproduire)</klr></trd>,
+    <trd>visualiser</trd></trdgrp> 
 </drv>
+
 <drv mrk="bild.0igo">
   <kap><tld/>igo</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc mrk="bild.0igo.MAT">
     <dif>
-      (de aro <em>E</em> al aro <em>F</em>) Tia <ref cel="rilat.0o.MAT">
-      rilato</ref> f inter <em>E</em> kaj <em>F</em>, ke por &ccirc;iu elemento
-      a en <em>E</em> ekzistas en f nur unu <ref cel="par.0o.MAT">paro</ref>,
-      kies unua termo estas a:
+      <klr>(de aro <em>E</em> al aro <em>F</em>)</klr> 
+      Tia <ref cel="rilat.0o.MAT">rilato</ref> f de <em>E</em> al <em>F</em>, 
+      ke por &ccirc;iu elemento a en <em>E</em> ekzistas en f nur unu 
+      <ref cel="par.0o.MAT">paro</ref>, kies unua termo estas a:
       <ekz>
         se &ccirc;iuj paroj en f havas la saman duan termon, oni
         kvalifikas la <tld/>igon konstanta;
@@ -198,7 +211,7 @@
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="jxet.0o.mat">&jcirc;eto</ref>,
+      <ref cel="jxet.0o.MAT">&jcirc;eto</ref>,
       <ref cel="famili.0o.bildigo">familio</ref>;
     </refgrp>
     <refgrp tip="sub">
@@ -207,6 +220,7 @@
       <ref cel="funkci.0o.MAT">funkcio</ref>,
       <ref cel="operac.0o.MAT">operacio</ref>,
       <ref cel="vic.0o.MAT">vico</ref>;
+
       bildigoj kun specifaj ecoj:
       <ref cel="enjekc.0o">enjekcio</ref>,
       <ref cel="surjek.0o">surjekcio</ref>,
@@ -219,7 +233,7 @@
       <ref cel="bild.0aro">bildaro</ref>.
     </refgrp>
     <rim>
-      Anstata&ubreve; diri, ke <ctl>(a, b) apartenas al <tld/>igo f</ctl>, oni
+      Anstata&ubreve; diri, ke <ctl>(a,b) apartenas al <tld/>igo f</ctl>, oni
       preferas diri, ke <ctl>f &jcirc;etas (a&ubreve; transformas, a&ubreve;
       <tld/>igas) a al b</ctl>, ke <ctl>f asocias b kun a</ctl>, ke <ctl>b
       estas la valoro de f &ccirc;e a</ctl>, ke <ctl>b estas la bildo de a per
@@ -232,6 +246,7 @@
   <trd lng="fr">application<klr tip="ind"> (math.)</klr></trd>
   <trd lng="ru">&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
+
 <drv mrk="bild.idento0igo">
   <kap>idento-<tld/>igo</kap>
   <uzo tip="fak">MAT</uzo>
@@ -246,14 +261,16 @@
       <ref cel="rilat.idento0o">idento-rilato</ref>.
     </refgrp>
   </snc>
+  <adm>Fonto trovenda. <aut>MB</aut></adm>
   <trd lng="en">identity <ind>mapping</ind></trd>
   <trd lng="de">identische <ind>Abbildung</ind></trd>
   <trdgrp lng="fr">
     <trd>identit&eacute;<klr tip="ind"> (application)</klr></trd>,
-    <trd><ind>application</ind> identique</trd>
+    <trd>application identique</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je; <ind>&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
 </drv>
+
 <drv mrk="bild.sub0igo">
   <kap>sub<tld/>igo</kap>
   <uzo tip="fak">MAT</uzo>
@@ -264,101 +281,115 @@
       de la bildigo la&ubreve; certa subaro de &gcirc;ia fonto-aro.
     </dif>
   </snc>
+  <adm>Fonto trovenda. <aut>MB</aut></adm>
   <trdgrp lng="fr">
     <trd>restriction<klr tip="ind"> (d'une application)</klr></trd>,
     <trd>sous-application</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="bild.inversa0igo">
   <kap>inversa <tld/>igo, inverso (de <tld/>igo)</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      (de <tld/>igo f) <ref cel="rilat.inversa0o">Inverso</ref>
-      de rilato f, se anka&ubreve; &gcirc;i estas <tld/>igo.
+      <klr>(de <tld/>igo f)</klr> 
+      <ref cel="rilat.inversa0o">Inverso</ref> de rilato f, se anka&ubreve; 
+      &gcirc;i estas <tld/>igo.
     </dif>
   </snc>
+  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <trd lng="de">inverse <ind>Abbildung</ind></trd>
+  <trd lng="en">inverse mapping</trd>
   <trd lng="fr">application r&eacute;ciproque</trd>
+  <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_o;&c_je; <ind>&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
 </drv>
+
 <drv mrk="bild.inversa0o">
   <kap>inversa <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc  mrk="bild.inversa0o.subaro">
+  <snc mrk="bild.inversa0o.subaro">
     <dif>
-      (de subaro <em>B</em>&#x2282;<em>F</em> per <ref cel="rilat.0o.MAT">
-      rilato</ref> <em>R</em>&#x2282;<em>E</em>&#xd7;<em>F</em>)
+      <klr>(de subaro <em>B</em>&#x2282;<em>F</em> per <ref cel="rilat.0o.MAT">
+      rilato</ref> <em>R</em>&#x2282;<em>E</em>&#xd7;<em>F</em>)</klr>
       Tia subaro de <em>E</em>, ke por &ccirc;iu &gcirc;ia elemento ekzistas
       almena&ubreve; unu paro en <em>R</em>, kies unua termo &gcirc;i estas kaj
       kies dua termo apartenas al <em>B</em>:
     </dif>
     <ekz>
       la inversan <tld/>on de <em>B</em> per <em>R</em> oni signas per
-      <em>R</em><sup>-1</sup><em>(B)</em>.
+      <em>R</em><sup>-1</sup>(<em>B</em>).
     </ekz>
-    <trd lng="fr">image r&eacute;ciproque
-    <klr tip="ind">(d'un sous-ensemble)</klr></trd>
   </snc>
-  <snc  mrk="bild.inversa0o.elemento">
+  <snc mrk="bild.inversa0o.elemento">
     <dif>
-      (de elemento b&#x2208;<em>F</em> per <ref cel="bild.0igo">
-      <tld/>igo</ref> f de <em>E</em> al <em>F</em>)
+      <klr>(de elemento b&#x2208;<em>F</em> per
+      <ref cel="bild.0igo"><tld/>igo</ref> f de <em>E</em> al <em>F</em>)</klr>
       La inversa <tld/>o de subaro {b} per f.
     </dif>
-    <trd lng="fr">image r&eacute;ciproque
-    <klr tip="ind">(d'un &eacute;l&eacute;ment)</klr></trd>
   </snc>
+  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <trd lng="en">inverse <ind>image</ind></trd>
+  <trdgrp lng="de">
+    <trd>Urbild</trd>,
+    <trd>inverses <ind>Bild</ind></trd></trdgrp> 
+    <trd lng="fr">image r&eacute;ciproque<klr tip="ind"> (math.)</klr></trd>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;</trd>
 </drv>
+
 <drv mrk="bild.rekta0o">
   <kap>rekta <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc  mrk="bild.rekta0o.subaro">
+  <snc mrk="bild.rekta0o.subaro">
     <dif>
-      (de subaro <em>A</em>&#x2282;<em>E</em> per <ref cel="rilat.0o.MAT">
-      rilato</ref> <em>R</em>&#x2282;<em>E</em>&#xd7;<em>F</em>)
+      <klr>(de subaro <em>A</em>&#x2282;<em>E</em> per <ref cel="rilat.0o.MAT">
+      rilato</ref> <em>R</em>&#x2282;<em>E</em>&#xd7;<em>F</em>)</klr>
       Tia subaro de <em>F</em>, ke por &ccirc;iu &gcirc;ia elemento ekzistas
       almena&ubreve; unu paro en <em>R</em>, kies dua termo &gcirc;i estas kaj
       kies unua termo apartenas al <em>A</em>:
       <ekz>
-        la <tld/>on de <em>A</em> per <em>R</em> oni signas per <em>R(A)</em>.
+        la <tld/>on de <em>A</em> per <em>R</em> oni signas per 
+	<em>R</em>(<em>A</em>).
       </ekz>
     </dif>
-    <trd lng="fr">image (directe)<klr tip="ind"> (d'un sous-ensemble)</klr></trd>
   </snc>
   <snc mrk="bild.rekta0o.elemento">
     <dif>
-      (de elemento a&#x2208;<em>E</em> per <ref cel="bild.0igo">
-      <tld/>igo</ref> f de <em>E</em> al <em>F</em>)
+      <klr>(de elemento a&#x2208;<em>E</em> per <ref cel="bild.0igo">
+      <tld/>igo</ref> f de <em>E</em> al <em>F</em>)</klr>
       La elemento f(a) en <em>F</em>.
     </dif>
     <rim>
       La&ubreve; la difina eco de <tld/>igoj la <tld/>o de a estas
       anka&ubreve; la nura elemento de la <tld/>o de subaro {a}.
     </rim>
-    <trd lng="fr">image (directe)<klr tip="ind">(d'un &eacute;l&eacute;ment)</klr></trd>
   </snc>
+  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <trd lng="en">image<klr tip="ind"> (by a mapping)</klr></trd>
+  <trd lng="de">Bild</trd>
+  <trd lng="fr">image (directe)<klr tip="ind">(par une application)</klr></trd>
+  <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_z;</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.23  2001/07/12 18:12:54  revo
+Revision 1.24 2001/12/10 17:32:13 revo
+Bart Demeyere: +mrkoj
+Revision 1.23 2001/07/12 18:12:54 revo
 Marc Bavant: ~o: +snc MAT = rekta ~o; ~igo: +mrk ; sxovis fakindikojn ekster snc
-
-Revision 1.22  2001/06/23 18:12:46  revo
+Revision 1.22 2001/06/23 18:12:46 revo
 Marc Bavant: mod ref cel al funkcio MAT
-
-Revision 1.21  2001/05/01 18:09:58  revo
+Revision 1.21 2001/05/01 18:09:58 revo
 Marc Bavant: +drv idento-~igo
-
-Revision 1.20  2001/03/01 20:07:02  revo
+Revision 1.20 2001/03/01 20:07:02 revo
 Marc Bavant: kor klr cxe trd fr
-Revision 1.19  2001/02/11 19:17:51  revo
+Revision 1.19 2001/02/11 19:17:51 revo
 stl-igis KOMUNE
-Revision 1.18  2001/02/11 12:06:47  revo
+Revision 1.18 2001/02/11 12:06:47 revo
 Sergio Pokrovskij: interpunkcio
-Revision 1.17  2001/02/10 20:07:20  revo
+Revision 1.17 2001/02/10 20:07:20 revo
 Sergio Pokrovskij: KOMUNE+KOMP
-Revision 1.16  2001/01/28 17:14:01  revo
+Revision 1.16 2001/01/28 17:14:01 revo
 Marc Bavant: mod de la hxaosa indent, +drv sub~igo
 -->
 </vortaro>
-
