@@ -74,16 +74,19 @@
         elemento rilate la unuan (resp. duan) operacion.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      Specifaj ringoj:
+      <ref cel="ring.euxklida0o">e&ubreve;klida <tld/>o</ref>,
+      <ref cel="ring.faktoreca0o">faktoreca <tld/>o</ref>,
+      <ref cel="korp.0o.MAT">korpo</ref>,
+      <ref cel="algebr.lineara0o.strukturo">lineara algebro</ref>;
+    </refgrp>
     <refgrp tip="vid">
       Epitetoj por ringo:
       <ref cel="integr.0a.MAT">integra</ref>,
       <ref cel="cxef.0a.ringo">&ccirc;efa</ref>,
-      <ref cel="ring.euxklida0o">e&ubreve;klida</ref>,
-      <ref cel="ring.faktoreca0o">faktoreca</ref>,
       <ref cel="komut.0eca.ringo">komuteca</ref>,
       <ref cel="unu.0hava">unuhava</ref>;
-    </refgrp>
-    <refgrp tip="vid">
       epitetoj por elemento en ringo:
       <ref cel="invers.0igebla.MAT">inversigebla</ref>,
       <ref cel="invers.0hava">invershava</ref>,
@@ -91,27 +94,16 @@
       <ref cel="redukt.0ebla.enringo">reduktebla</ref>,
       <ref cel="redukt.ne0ebla.MAT">nereduktebla</ref>,
       <ref cel="prim.0a.elemento">prima</ref>;
-    </refgrp>
-    <refgrp tip="vid">
       rimarkindaj elementoj:
       <ref cel="nul0.0o.neuxtra">nulo</ref>,
       <ref cel="unu.0o.neuxtra">unuo</ref>,
       <ref cel="divizo.nul0o">nuldivizoro</ref>;
-    </refgrp>
-    <refgrp tip="vid">
       operacioj en ringo:
       <ref cel="adici.0o.ringo">adicio</ref>,
       <ref cel="multip.0o.ringo">multipliko</ref>;
-    </refgrp>
-    <refgrp tip="vid">
       substrukturoj:
       <ref cel="ideal.0o.MAT">idealo</ref>,
       <ref cel="ring.sub0o">subringo</ref>;
-    </refgrp>
-    <refgrp tip="sub">
-      specifaj ringoj:
-      <ref cel="korp.0o.MAT">korpo</ref>,
-      <ref cel="algebr.lineara0o.strukturo">lineara algebro</ref>.
     </refgrp>
     <rim>
       Kelkaj postulas, ke la dua operacio havu ne&ubreve;tran
@@ -127,8 +119,8 @@
   <trd lng="de">Ring</trd>
   <trd lng="en">ring</trd>
   <trd lng="fr">anneau</trd>
-  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
   <trd lng="nl">ring</trd>
+  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 </drv>
 
 <drv mrk="ring.euxklida0o">
@@ -168,7 +160,10 @@
       <ref cel="rest.0o.euxklida">resto</ref>.
     </refgrp>
   </snc>
+  <trd lng="de">Euklidischer <ind>Ring</ind></trd>
+  <trd lng="en">Euclidean <ind>ring</ind></trd>
   <trd lng="fr">anneau euclidien</trd>
+  <trd lng="ru">&c_je;&c_v;&c_k;&c_l;&c_i;&c_d;&c_o;&c_v;&c_o; <ind>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</ind></trd>
 </drv>
 
 <drv mrk="ring.faktoreca0o">
@@ -182,8 +177,8 @@
       <ref cel="integr.0a.MAT">integra</ref>,
       <ref cel="unu.0hava">unuhava</ref>
       <ref tip="super" cel="ring.0o.MAT">ringo</ref> <em>R</em>,
-      ke &ccirc;iu &gcirc;ia elemento esprimi&gcirc;as kiel
-      unika produto de <ref cel="redukt.ne0ebla">neredukteblaj</ref>
+      ke &ccirc;iu &gcirc;ia elemento esprimi&gcirc;as 
+      unike kiel produto de <ref cel="redukt.ne0ebla">neredukteblaj</ref>
       <ref cel="faktor.0o.multip">faktoroj</ref>:
       <ekz>
         la <tld/>o de entjeroj estas faktoreca <tld/>o;
@@ -199,12 +194,15 @@
       6=2&#xd7;3=(-2)&#xd7;(-3).
     </rim>
   </snc>
+  <trd lng="de">ZPE-<ind>Ring</ind></trd>
+  <trd lng="en">factorial <ind>ring</ind></trd>
   <trd lng="fr">anneau factoriel</trd>
+  <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</ind></trd>
 </drv>
 
 <drv mrk="ring.polinom0o">
   <kap>
-    polinom-<tld/>o
+    polinom<tld/>o
   </kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
@@ -219,7 +217,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Polynomring</trd>
+  <trd lng="en">polynomial ring</trd>
   <trd lng="fr">anneau des polyn&ocirc;mes</trd>
+  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o; &c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_o;&c_v;</trd>
 </drv>
 
 <drv mrk="ring.sub0o">
@@ -242,30 +243,28 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Unterring</trd>
+  <trd lng="en">subring</trd>
   <trd lng="fr">sous-anneau</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.24  2002/01/27 17:31:35  revo
+Marc Bavant: ~o MAT: mod distribuebla
 Revision 1.23  2002/01/13 17:31:21  revo
 Marc Bavant: sub~o: mod mrk
-
 Revision 1.22  2002/01/06 17:45:37  revo
 Marc Bavant: mod ref cel al bildigo
-
 Revision 1.21  2001/11/11 19:21:48  revo
 Marc Bavant: kor ref cel al nereduktebla
-
 Revision 1.20  2001/11/04 19:17:38  revo
 Marc Bavant: kor komut(ec)a, mod "*" al "x"; ~o MAT: mod ref al nereduktebla, +ref al invershava, korpo
-
 Revision 1.19  2001/10/22 18:13:29  revo
 Marc Bavant: ~o MAT: kor interpunkcion en refgrp
-
 Revision 1.18  2001/09/02 18:17:08  revo
 Marc Bavant: sxovis fakindikojn; ~o MAT: +fnt
-
 Revision 1.17  2001/05/30 18:13:54  revo
 -->
 </vortaro>
