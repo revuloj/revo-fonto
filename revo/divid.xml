@@ -73,7 +73,7 @@
           <ekz>
             <tld/>i 10 per 2;
           </ekz><ekz>
-            5 dividite per 2 estas 2&#xbd;;
+            5 dividite per 2 estas 2&#xbd;.
           </ekz>
         </dif>
       <trd lng="de">dividieren</trd>
@@ -108,10 +108,12 @@
         <!-- trd>dividieren <klr>(en matematiko)</klr></trd -->
       </trdgrp>
       <trd lng="en">divide</trd>
+      <trd lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x44c;</trd>
     </drv>
     <drv mrk="divid.0o">
       <kap><tld/>o</kap>
       <snc mrk="divid.0o.mat">
+        <uzo tip="fak">MAT</uzo>
         <dif>
           Operacio inversa al <ref cel="multip.0o">multipliko</ref>, t.e.
           ebliganta per produto kaj unu el la faktoroj trovi la
@@ -125,10 +127,13 @@
           <ref cel="frakci.0o.mat">frakcio</ref>,
           <ref cel="numera1.0o">numeratoro</ref>,
           <ref cel="denomi1.0o">denominatoro</ref>,
+          <ref cel="divid.0o.kun.resto">divido kun resto</ref>
           <ref cel="divizo.0o">divizoro</ref>
         </refgrp>
       </snc>
-      <trd lng="de">Teil</trd>
+      <trd lng="de">Division</trd>
+      <trd lng="en">division</trd>
+      <trd lng="ru">&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; <klr>(&#x442;&#x43e;&#x447;&#x43d;&#x43e;&#x435;)</klr></trd>
     </drv>
     <drv mrk="divid.0ajxo">
       <kap><tld/>a&jcirc;o</kap>
@@ -143,10 +148,45 @@
         </refgrp>
       </snc>
       <trd lng="de">Teil</trd>
+      <trdgrp lng="ru"><trd>&#x434;&#x43e;&#x43b;&#x44f;</trd>,
+        <trd>&#x447;&#x430;&#x441;&#x442;&#x44c;</trd></trdgrp>
+    </drv>
+    <drv mrk="divid.0o.kun.resto">
+      <kap><tld/>o kun resto</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Matematika operacio kiu por donitaj entjeroj <frm>a</frm>
+          kaj <frm>b</frm> trovas paron da nenegativaj entjeroj <frm>q</frm> kaj
+          <frm>r</frm> tiaj ke
+          <frm>a = bq+r</frm> kaj <frm>0&#x2264;r&lt;|q|</frm>.
+          La donita&jcirc;oj <frm>a</frm> kaj <frm>b</frm> produto estas
+          <em>dividato</em> kaj <em>dividanto</em>, <frm>q</frm> estas
+          <em>parta kvociento</em>, <frm>r</frm> estas
+          <ref tip="prt" cel="rest.0o.mat">resto</ref>.
+        </dif>
+        <rim>
+          La operacio estas &gcirc;eneraligebla al ajna <ctl>E&ubreve;klida
+          ringo</ctl>, i.e. oni difinas &gcirc;in por la polinomoj, ekz-e
+          <frm>2x&#xb3;+5x&#xb2;-6x-5 = (x&#xb2;-3)(2x+5)+10</frm>.
+        </rim>
+        <refgrp tip="vid">
+          <ref cel="frakci.0o.mat">frakcio</ref>,
+          <ref cel="numera1.0o">numeratoro</ref>,
+          <ref cel="denomi1.0o">denominatoro</ref>,
+          <ref cel="divid.0o.mat">divido <klr>(ekzakta)</klr></ref>
+          <ref cel="divizo.0o">divizoro</ref>
+        </refgrp>
+      </snc>
+      <trd lng="de">Division mit Rest</trd>
+      <trd lng="ru">&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x441; &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x43e;&#x43c;</trd>
     </drv>
   </art>
   <!--
   $Log$
+  Revision 1.8  2000/09/06 16:17:31  revo
+  Sergio Pokrovskij: departementojN; al cxiu Lian parton; MAT; disigis trd=de(mat)
+
   Revision 1.7  2000/04/06 12:20:54  revo
   Wolfram Diestel: aldonis ekz-fnt, germ trd
 
