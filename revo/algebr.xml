@@ -2,71 +2,81 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<ofc>1</ofc>
-<rad>algebr</rad>/o
-</kap>
-<drv mrk="algebr.0o">
-<kap><tld/>o</kap>
-<snc>
-<dif>
-Scienco de kalkulado pri la kvantoj, reprezentataj  per literoj k ne per
-ciferoj.
-</dif>
-<trd lng="fr">alg&egrave;bre (discipline)</trd>
-<trd lng="ru">&#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;</trd>
-</snc>
-</drv>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>1</ofc>
+      <rad>algebr</rad>/o
+    </kap>
+    <drv mrk="algebr.0o">
+      <kap><tld/>o</kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
+          kiu etendas la artimetikajn kalkulojn al grandoj signitaj per
+          literoj, ne nur ciferoj, kaj tiamaniere ebligas solvadon de
+          ekvacioj.
+        </dif>
+        <rim>
+          La <ctl>kvantoj</ctl>, kiujn la moderna <tld/>o manipulas, ne plu 
+          limi&gcirc;as al nombroj. &Gcirc;ia agokampo nun ampleksas
+          la <ref cel="strukt.algebra0o"><tld/>ajn strukturojn</ref>
+          (arojn, provizitajn per operacioj kun aksiome difinitaj ecoj, 
+          pli-malpli similaj al tiuj de la aritmetikaj operacioj).
+        </rim>
+      </snc>
+      <trd lng="fr">alg&egrave;bre<klr tip="ind"> (discipline)</klr></trd>
+      <trd lng="ru">&#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;</trd>
+    </drv>
 
-      <drv mrk="algebr.0o.lineara">
-        <kap>lineara <tld/>o</kap>
-        <snc mrk="algebr.0o.lin-fako">
-          <uzo tip="fak">MAT</uzo>
-          <dif>
-            Bran&ccirc;o de matematiko, kiu okupi&gcirc;as pri la
-            ecoj de
-            <ref cel="modul.0o.strukt">moduloj</ref>,
-            <ref cel="spac.vektora0o">vektoraj spacoj</ref> kaj
-            iliaj <ref cel="homomo.0o">homomorfioj</ref>.
-          </dif>
-          <trd lng="fr">alg&egrave;bre lin&eacute;aire (discipline)</trd>
-          <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
-<ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;
-(&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</ind></trd>
-        </snc>
+    <drv mrk="algebr.0o.lineara">
+      <kap>lineara <tld/>o</kap>
+      <snc mrk="algebr.0o.lin-fako">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Bran&ccirc;o de <ref tip="malprt" cel="algebr.0o">algebro</ref>,
+          kiu okupi&gcirc;as pri la ecoj de
+          <ref cel="modul.0o.strukt">moduloj</ref>,
+          <ref cel="spac.vektora0o">vektoraj spacoj</ref> kaj
+          iliaj <ref cel="homomo.0o">homomorfioj</ref>.
+        </dif>
+        <ref tip="vid" cel="linear.0a">lineara.</ref>
+        <trd lng="fr">alg&egrave;bre lin&eacute;aire<klr tip="ind"> (discipline)</klr></trd>
+        <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
+<ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;<klr tip="ind"> (&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</klr></ind></trd>
+      </snc>
 
-        <snc mrk="algebr.0o.lin-strukt">
-          <uzo tip="fak">MAT</uzo>
-          <dif>
-            <klr>(super ringo <em>R</em>)</klr>
-            Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-            (<em>A</em>,+,x,*), ke (<em>A</em>,+,x) estas
-            <ref tip="super" cel="ring.0o.MAT">ringo</ref> kaj
-            (<em>A</em>,+,*) estas
-            <ref tip="super" cel="modul.0o.strukt">modulo</ref> super 
-<em>R</em>:
-            <ekz>
-              la polinomringo de ringo <em>R</em> estas <tld/>o super &gcirc;i.
-            </ekz>
-          </dif>
-          <trd lng="fr">alg&egrave;bre lin&eacute;aire (structure)</trd>
-          <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
-<ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind>
-(&c_s;&c_t;&c_r;&c_u;&c_k;&c_t;&c_u;&c_r;&c_a;)</trd>
-        </snc>
+      <snc mrk="algebr.0o.lin-strukt">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(super ringo <em>R</em>)</klr>
+          Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
+          (<em>A</em>,+,x,*), ke (<em>A</em>,+,x) estas
+          <ref tip="super" cel="ring.0o.MAT">ringo</ref> kaj
+          (<em>A</em>,+,*) estas
+          <ref tip="super" cel="modul.0o.strukt">modulo</ref> super <em>R</em>:
+          <ekz>
+            la polinomringo de ringo <em>R</em> estas lineara <tld/>o super 
+            &gcirc;i.
+          </ekz>
+        </dif>
         <rim>
           Por eviti beda&ubreve;rindan kolizion inter sencoj
           <sncref ref="algebr.0o.lin-fako"/>
-          kaj <sncref ref="algebr.0o.lin-strukt"/>
-          kelkaj proponas uzi la paronimon <ctl>al&gcirc;ebro</ctl>
-          por la dua nocio.
+          kaj <sncref ref="algebr.0o.lin-strukt"/> kelkaj proponas uzi la 
+          paronimon <ctl>al&gcirc;ebro</ctl> por la dua nocio.
         </rim>
-      </drv>
+        <trd lng="fr">alg&egrave;bre lin&eacute;aire<klr tip="ind"> (structure)</klr></trd>
+        <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
+<ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind"> (&c_s;&c_t;&c_r;&c_u;&c_k;&c_t;&c_u;&c_r;&c_a;)</klr></trd>
+      </snc>
+    </drv>
 
-</art>
+  </art>
 <!--
 $Log$
+Revision 1.8  2001/01/13 18:46:31  revo
+Marc Bavant: magmo -> algebra strukturo
 Revision 1.7  2000/12/08 17:10:46  revo
 Marc Bavant: plibonigo de dif de lineara ~o (fako)
 Revision 1.6  2000/11/02 17:11:31  revo
