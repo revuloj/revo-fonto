@@ -23,11 +23,14 @@
     <trd>movie projector</trd>,
     <trd>motion picture projector</trd>
   </trdgrp>
-  <trd lng="fr">cin&eacute;matographe</trd>
+  <trdgrp lng="fr">
+    <trd>cin&eacute;matographe<klr tip="ind"> (projecteur)</klr></trd>,
+    <trd>projecteur de cin&eacute;ma</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>filmvet&iacute;t&odblac; g&eacute;p</trd>,
     <trd>kinematogr&aacute;f</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_i;&c_n;&c_je;&c_m;&c_a;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>,
     <trd>&c_k;&c_i;&c_n;&c_o;&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
@@ -45,8 +48,11 @@
     <trd>Kino</trd>,
     <trd>Filmtheater</trd>
   </trdgrp>
-  <trd lng="fr">cin&eacute;ma<klr> (lieu)</klr></trd>
-  <trd lng="hu">filmsz&iacute;nh&aacute;z</trd>  
+  <trdgrp lng="fr">
+    <trd>cin&eacute;ma<klr tip="ind"> (lieu)</klr></trd>,
+    <trd>salle de <ind>cin&eacute;ma</ind></trd>
+  </trdgrp>
+  <trd lng="hu">filmsz&iacute;nh&aacute;z</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_i;&c_n;&c_o;&c_t;&c_je;&c_a;&c_t;&c_r;</trd>
   </trdgrp>
@@ -61,30 +67,52 @@
   <trd lng="be">&c_k;&c_ib;&c_n;&c_a;&c_f;&c_ib;&c_l;&c_mol;&c_m;</trd>
   <trd lng="de">Film</trd>
   <trdgrp lng="fr">
-    <trd>film<klr> (oeuvre cin&eacute;matographique)</klr></trd>,
-    <trd>oeuvre cin&eacute;matographique</trd>
+    <trd>film<klr tip="ind"> (&oelig;uvre cin&eacute;matographique)</klr></trd>,
+    <trd>&oelig;uvre cin&eacute;matographique</trd>
   </trdgrp>
-  <trd lng="hu">mozifilm</trd>  
+  <trd lng="hu">mozifilm</trd>
   <trd lng="ru">&c_k;&c_i;&c_n;&c_o;&c_f;&c_i;&c_l;&c_mol;&c_m;</trd>
 </drv>
 
 <drv mrk="kinema1.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <uzo tip="fak">KIN</uzo>
-  <snc>
+  <snc mrk="kinema1.0i.projekcii">
+    <uzo tip="fak">KIN</uzo>
+    <fnt><bib>PV</bib></fnt>
     <dif>
       <ref tip="super" cel="projek.0i.FOT">Projekcii</ref> <tld/>ajn bildojn.
     </dif>
+    <trd lng="be">&c_p;&c_a;&c_k;&c_a;&c_z;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_k;&c_ib;&c_n;&c_a;&c_f;&c_ib;&c_l;&c_mol;&c_m;)</klr></trd>
+    <trd lng="fr">projeter<klr tip="ind"> (un film)</klr></trd>
+    <trd lng="hu">filmet vet&iacute;t</trd>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_k;&c_a;&c_z;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_k;&c_ib;&c_n;&c_a;&c_f;&c_ib;&c_l;&c_mol;&c_m;)</klr></trd>
-  <trd lng="fr">projeter<klr> (un film)</klr></trd>
-  <trd lng="hu">filmet vet&iacute;t</trd>  
+  <snc mrk="kinema1.0i.">
+    <uzo tip="fak">KIN</uzo>
+    <fnt><bib>PIV1</bib></fnt>
+    <dif>
+      Registri <tld/>ajn bildojn.
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="film.0i">filmi</ref>,
+      <ref cel="kamera.0i">kamerai</ref>.
+    </refgrp>
+    <trd lng="fr">filmer</trd>
+  </snc>
+  <adm>
+    Eblas supozi, ke la unua senco estas ARK, sed la dua, kvankam pli
+    nova, estas senutila... Cetere, se ~i sinonimas kun "kamerai", eblas
+    konjekti, ke ~o ne estas nur projekciilo, sed povas esti ankaux kamerao.
+    <aut>MB</aut>
+  </adm>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.9  2003/10/10 17:00:43  revo
+Revision 1.10 2004/05/14 17:48:07 revo
+Jozefo Horvath: +trd hu
+
+Revision 1.9 2003/10/10 17:00:43 revo
 Jeromo Vasxe: fak - tea + kin, + tez + ref dif kinejo/ajxo, + trd fr
 
 Revision 1.8 2002/10/28 19:21:04 revo
@@ -100,7 +128,5 @@ Revision 1.5 2001/09/18 18:19:34 revo
 Yury Finkel: +trd ru
 
 Revision 1.4 2001/02/14 11:58:38 revo
-Karlo Freeman: +trdgrp=en @ ~o
-
 -->
 </vortaro>
