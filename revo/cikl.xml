@@ -62,28 +62,75 @@
       sed velocipedo la&ubreve;difine estas movata per piedoj. <aut>MB</aut>
     </adm>
   </snc>
-  <snc mrk="cikl.0o.grafeo">
+  <snc mrk="cikl.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>KompLeks</bib></fnt>
-    <dif>
-      <klr>(de <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
-      Tia simpla <ref tip="super" cel="cxen.0o.grafeo">&ccirc;eno</ref>, ke
-      &gcirc;iaj komenca kaj fina verticoj koincidas; alidire: fermita
-      &ccirc;eno.
-    </dif>
-    <refgrp tip="sub">
-      <ref cel="cirkvi.0o.grafeo">cirkvito</ref>.
-    </refgrp>
-    <rim>
-      La citita fonto donas neekvivalentan difinon.
-    </rim>
-    <trdgrp lng="de">
-      <trd>Kreis</trd>,
-      <trd>Zyklus</trd></trdgrp> 
-    <trd lng="en">cycle</trd>
-    <trd lng="fr">cycle<klr tip="ind"> (dans un graphe)</klr></trd>
-    <trd lng="pl">cykl<klr tip="ind"> (w grafie)</klr></trd>
-    <trd lng="ru">&c_c;&c_i;&c_k;&c_l;<klr tip="ind"> (&c_v; &c_g;&c_r;&c_a;&c_f;&c_je;)</klr></trd>
+    <subsnc mrk="cikl.0o.permuto">
+      <fnt><bib>EKV</bib><lok>&para;58</lok></fnt>
+      <dif>
+        <klr>(je longo <frm><k>n</k></frm>, alidire: 
+        <frm><k>n</k></frm>-elementa)</klr>
+        Tia <ref tip="super" cel="permut.0o.bijekcio">permuto</ref> 
+        <frm><k>f</k></frm>, ke &gcirc;i lasas &ccirc;iujn elementojn 
+        sen&scirc;an&gcirc;aj, krom <frm><k>n</k></frm> elementojn 
+        <frm>{<k>a</k><sub>1</sub>,<k>a</k><sub>2</sub>,... 
+        <k>a</k><sub><k>n</k></sub>}</frm>, por kiuj 
+        <frm><k>f</k>(<k>a</k><sub><k>i</k></sub>) = 
+        <k>a</k><sub><k>i</k>+1</sub></frm> 
+        (se <frm><k>i</k> &lt; <k>n</k></frm>) kaj
+        <frm><k>f</k>(<k>a</k><sub><k>n</k></sub>) = 
+        <k>a</k><sub>1</sub></frm>:
+        <ekz>
+          <frm><k>n</k></frm>-elementan <tld/>on oni foje nomas 
+          <ind>n-<tld/>o</ind>;
+          <trd lng="de">n-Zykel</trd>
+          <trd lng="en">n-cycle</trd>
+          <trd lng="fr">n-cycle</trd>
+          <trd lng="pl">n-cykl</trd>
+          <trd lng="ru">n-&c_c;&c_i;&c_k;&c_l;</trd>
+        </ekz>
+        <ekz>
+          la malvastiga&jcirc;o de <tld/>o al la elementoj, kiujn &gcirc;i
+          &scirc;an&gcirc;as, estas 
+          <ref cel="permut.0o.bijekcio">cikla permuto</ref>;
+        </ekz>
+        <ekz>
+          <frm><k>n</k></frm>-elementa <tld/>o havas 
+          <ref cel="ord.0o.engrupo">ordon</ref> <frm><k>n</k></frm>;
+        </ekz>
+        <ekz>
+          &ccirc;iu permuto super finia aro estas malkomponebla en
+          kunliga&jcirc;on de duelementaj <tld/>oj.
+        </ekz>
+      </dif>
+      <trd lng="de">Zykel<klr tip="ind"> (Vertauschung)</klr></trd>
+      <trd lng="en">cycle<klr tip="ind"> (permutation)</klr></trd>
+      <trd lng="fr">cycle<klr tip="ind"> (permutation)</klr></trd>
+      <trd lng="pl">cykl<klr tip="ind"> (permutacja)</klr></trd>
+      <trd lng="ru">&c_c;&c_i;&c_k;&c_l;<klr tip="ind"> (&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_k;&c_a;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="cikl.0o.grafeo">
+      <fnt><bib>KompLeks</bib></fnt>
+      <dif>
+        <klr>(de <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
+        Tia simpla <ref tip="super" cel="cxen.0o.grafeo">&ccirc;eno</ref>, ke
+        &gcirc;iaj komenca kaj fina verticoj koincidas; alidire: fermita
+        &ccirc;eno.
+      </dif>
+      <refgrp tip="sub">
+        <ref cel="cirkvi.0o.grafeo">cirkvito</ref>.
+      </refgrp>
+      <rim>
+        La citita fonto donas neekvivalentan difinon.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Kreis</trd>,
+        <trd>Zyklus</trd>
+      </trdgrp>
+      <trd lng="en">cycle<klr tip="ind"> (in a graph)</klr></trd>
+      <trd lng="fr">cycle<klr tip="ind"> (dans un graphe)</klr></trd>
+      <trd lng="pl">cykl<klr tip="ind"> (w grafie)</klr></trd>
+      <trd lng="ru">&c_c;&c_i;&c_k;&c_l;<klr tip="ind"> (&c_v; &c_g;&c_r;&c_a;&c_f;&c_je;)</klr></trd>
+    </subsnc>
   </snc>
   <trd lng="en">cycle</trd>
   <trd lng="fr">cycle</trd>
@@ -104,13 +151,13 @@
         <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
         Naskita de nur unu elemento:
         <ekz>
-          la <ref cel="grup.0o_de_nmodulaj_restoklasoj">grupo de 
+          la <ref cel="grup.0o_de_nmodulaj_restoklasoj">grupo de
           n-modulaj restoklasoj</ref> estas <tld/>a grupo,
           naskita de la ekvivalento-klaso de <frm>1</frm>;
         </ekz>
         <ekz>
           &ccirc;iu <tld/>a grupo estas izomorfia al <frm><g>Z</g></frm>
-          a&ubreve;, se finia, al <frm><g>Z</g><sub><k>n</k></sub></frm>, 
+          a&ubreve;, se finia, al <frm><g>Z</g><sub><k>n</k></sub></frm>,
           kie <frm><k>n</k></frm> signas &gcirc;ian ordon.
         </ekz>
       </dif>
@@ -130,7 +177,7 @@
         <frm><g>K</g></frm>)</klr>
         Tia, ke &gcirc;ia
         <ref cel="grup.galeza0o.de_superkorpo">galeza grupo</ref>
-        <frm>Gal(<g>K'</g>/<g>K</g>)</frm> estas 
+        <frm>Gal(<g>K'</g>/<g>K</g>)</frm> estas
         <tld/>a <sncref ref="cikl.0a.grupo"/>.
       </dif>
       <trd lng="de">zyklische<klr tip="amb"> (Erweiterung)</klr></trd>
@@ -141,7 +188,7 @@
     </subsnc>
     <subsnc mrk="cikl.0a.diversaj">
       <refgrp tip="vid">
-        <ref cel="permut.0o"><tld/>a permuto</ref>.
+        <ref cel="permut.0o.bijekcio"><tld/>a permuto</ref>.
       </refgrp>
     </subsnc>
   </snc>
@@ -243,15 +290,17 @@
       Tia, ke neniu <ref cel="cxen.0o.grafeo">&ccirc;eno</ref> en
       &gcirc;i estas <ref cel="cikl.0o.grafeo"><tld/>o <sncref/></ref>.
     </dif>
+    <trd lng="fr"><klr tip="ind">(graphe) </klr>sans cycle</trd>
   </snc>
 </drv>
-
 </art>
 <!--
 $Log$
-Revision 1.21  2002/11/01 22:04:01  revo
+Revision 1.22 2002/11/18 17:33:31 revo
+Marc Bavant: +frm
+Revision 1.21 2002/11/01 22:04:01 revo
 bib-igis fnt-ojn precipe MT
-Revision 1.20  2002/10/27 17:13:10  revo
+Revision 1.20 2002/10/27 17:13:10 revo
 Marc Bavant: ~o: +snc MAT
 Revision 1.19 2002/09/20 16:33:08 revo
 Jozefo Horvath: +trd hu
@@ -266,7 +315,5 @@ Alejandro Mejia Greene: ald 5 his trd
 Revision 1.14 2001/11/21 17:44:05 revo
 Jerome Vachey: motorciklo + sin motociklo
 Revision 1.13 2001/10/03 18:18:04 revo
-Yury Finkel: +trd ru, TEZ
-Revision 1.12 2001/06/28 18:14:23 revo
 -->
 </vortaro>
