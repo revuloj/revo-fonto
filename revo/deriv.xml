@@ -64,11 +64,12 @@
     <subsnc mrk="deriv.0ajxo.cxepunkto">
       <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
       <dif>
-        <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
-        kun reela a&ubreve; kompleksa argumento, &ccirc;e punkto a de
-        &gcirc;ia fonto-aro)</klr>
+        <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
+        <frm><k>f</k></frm> kun reela a&ubreve; kompleksa argumento, &ccirc;e 
+        punkto <frm><k>a</k></frm> de &gcirc;ia fonto-aro)</klr>
         La <ref cel="limes.0o.bildigo">limeso</ref>
-        lim<sub>h&#x2192;0</sub>&#xa0;[f(a+h)-f(a)]/h, se &gcirc;i ekzistas:
+        <frm>lim<sub><k>h</k>&#x2192;0</sub>&#xa0;[<k>f</k>(<k>a</k>+<k>h</k>)-<k>f</k>(<k>a</k>)]/<k>h</k></frm>, 
+        se &gcirc;i ekzistas:
         <ekz>
           por studi funkcion, oni ofte ser&ccirc;as la punktojn, &ccirc;e kiuj
           la funkcio havas nulan <tld/>a&jcirc;on.
@@ -78,21 +79,28 @@
     <subsnc mrk="deriv.0ajxo.funkcio">
       <fnt><bib>EKV</bib><lok>&para;74</lok></fnt>
       <dif>
-        <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
-        kun reela a&ubreve; kompleksa argumento)</klr>
-        Tia funkcio f&#x2032;, ke f&#x2032;(x) egalas al la <tld/>a&jcirc;o
-        <sncref ref="deriv.0ajxo.cxepunkto"/> de f &ccirc;e punkto x:
+        <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> 
+        <frm><k>f</k></frm> kun reela a&ubreve; kompleksa argumento)</klr>
+        Tia funkcio <frm><k>f</k>&#x2032;</frm>, ke 
+        <frm><k>f</k>&#x2032;(<k>x</k>)</frm> egalas al la <tld/>a&jcirc;o
+        <sncref ref="deriv.0ajxo.cxepunkto"/> de <frm><k>f</k></frm> &ccirc;e 
+        punkto <frm><k>x</k></frm>:
         <ekz>
-          la <tld/>a&jcirc;on de f oni kutime signas per f&#x2032; a&ubreve;
-          df/dx;
+          la <tld/>a&jcirc;on de <frm><k>f</k></frm> oni kutime signas per 
+          <frm><k>f</k>&#x2032;</frm> a&ubreve;
+          <frm>d<k>f</k>/d<k>x</k></frm>;
         </ekz>
         <ekz>
-          unua (<frm>f&#x2032;</frm>), dua (<frm>f&#x2033;</frm>),
-          tria (<frm>f&#x2034;</frm>),... n-a (<frm>f<sup>(n)</sup></frm>)
+          unua (<frm><k>f</k>&#x2032;</frm>), 
+          dua (<frm><k>f</k>&#x2033;</frm>),
+          tria (<frm><k>f</k>&#x2034;</frm>),... 
+          <frm><k>n</k></frm>-a (<frm><k>f</k><sup>(<k>n</k>)</sup></frm>)
           <tld/>a&jcirc;oj;
         </ekz>
         <ekz>
-          la <tld/>a&jcirc;o de f(x)=ax<sup>2</sup> estas f&#x2032;(x)=2ax;
+          la <tld/>a&jcirc;o de 
+          <frm><k>f</k>(<k>x</k>)=<k>a</k><k>x</k><sup>2</sup></frm> estas 
+          <frm><k>f</k>&#x2032;(<k>x</k>)=2<k>a</k><k>x</k></frm>;
         </ekz>
         <ekz>
           la funkcio kosinuso estas <tld/>a&jcirc;o de sinuso.
@@ -102,23 +110,25 @@
     </subsnc>
     <subsnc mrk="deriv.0ajxo.distribucio">
       <dif>
-        <klr>(de <ref cel="distri2.0o">distribucio</ref> T)</klr>
-        La distribucio T&#x2032;, difinita per T&#x2032;(&phi;)=
-        -T(&phi;&#x2032;):
+        <klr>(de <ref cel="distri2.0o">distribucio</ref> <frm>T</frm>)</klr>
+        La distribucio <frm>T&#x2032;</frm>, difinita per 
+        <frm>T&#x2032;(&phi;) = -T(&phi;&#x2032;)</frm>:
         <ekz>
           la <ref cel="funkci.hevisida0o">hevisida funkcio</ref> ne estas
           <tld/>ebla kiel funkcio, sed &gcirc;ia distribucia <tld/>a&jcirc;o
           estas la <ref cel="distri2.diraka0o">diraka distribucio</ref>;
         </ekz>
         <ekz>
-          la n-a <tld/>a&jcirc;o de la diraka distribucio &jcirc;etas
-          &phi; al (-1)<sup>n</sup> &phi;<sup>(n)</sup>(0).
+          la <frm><k>n</k></frm>-a <tld/>a&jcirc;o de la diraka distribucio 
+          &jcirc;etas <frm>&phi;</frm> al 
+          <frm>(-1)<sup><k>n</k></sup>&phi;<sup>(<k>n</k>)</sup>(0)</frm>.
         </ekz>
       </dif>
     </subsnc>
     <trd lng="de">Ableitung</trd>
     <trd lng="en">derivative</trd>
     <trd lng="fr">d&eacute;riv&eacute;e<klr tip="ind"> (d'une fonction, distribution)</klr></trd>
+    <trd lng="pl">pochodna</trd>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_a;&c_ja;</trd>
   </snc>
   <snc mrk="deriv.0ajxo.diferencialo">
@@ -164,6 +174,7 @@
     <trd lng="de">differenzierbar</trd>
     <trd lng="en">differentiable</trd>
     <trd lng="fr">d&eacute;rivable</trd>
+    <trd lng="pl">r&oacute;&zdot;niczkowalny</trd>
     <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
   </snc>
   <trd lng="sk">derivovate&lcaron;n&yacute;</trd>
@@ -175,11 +186,11 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
-      kun reela a&ubreve; kompleksa argumento)</klr>
-      Tia funkcio g, ke &gcirc;ia 
-      <ref cel="deriv.0ajxo.MAT"><tld/>a&jcirc;o</ref> egalas al f, 
-      t.e. g&#x2032;=f.
+      <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
+      <frm><k>f</k></frm> kun reela a&ubreve; kompleksa argumento)</klr>
+      &Ccirc;iu funkcio <frm><k>g</k></frm>, kies
+      <ref cel="deriv.0ajxo.MAT"><tld/>a&jcirc;o</ref> egalas al 
+      <frm><k>f</k></frm>, t.e. <frm><k>g</k>&#x2032; = <k>f</k></frm>.
     </dif>
     <ref tip="sin" cel="integr2.0o.malderivajxo">integralo.</ref>
     <trdgrp lng="de">
@@ -194,6 +205,7 @@
       <trd>primitive</trd>,
       <trd>int&eacute;grale ind&eacute;finie</trd>
     </trdgrp>
+    <trd lng="pl">ca&lstroke;ka nieoznaczona</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_je;&c_r;&c_v;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
       <trd>&c_p;&c_r;&c_i;&c_m;&c_i;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
@@ -237,42 +249,52 @@
   <snc>
     <dif>
       <klr>(de <ref cel="funkci.n-argumenta0o">plurargumenta
-      funkcio</ref>, la&ubreve; la i-a argumento)</klr>
+      funkcio</ref>, la&ubreve; la <frm><k>i</k></frm>-a argumento)</klr>
       <ref cel="deriv.0ajxo.MAT"><tld lit="D"/>a&jcirc;o</ref>
       <sncref ref="deriv.0ajxo.cxepunkto"/> a&ubreve;
       <sncref ref="deriv.0ajxo.funkcio"/> la&ubreve; unu el la argumentoj, kiam
       la ceteraj restas konstantaj:
       <ekz>
-        la partan <tld/>a&jcirc;on de f la&ubreve; la i-a argumento
-        x<sub>i</sub>oni kutime signas per f&#x2032;<sub>i</sub>,
-        &#x2202;<sub>i</sub>f a&ubreve; &#x2202;f/&#x2202;x<sub>i</sub>;
+        la partan <tld/>a&jcirc;on de <frm><k>f</k></frm> la&ubreve; la 
+        <frm><k>i</k></frm>-a argumento <frm><k>x</k><sub><k>i</k></sub></frm>
+        oni kutime signas per <frm><k>f</k>&#x2032;<sub><k>i</k></sub></frm>,
+        <frm>&#x2202;<sub><k>i</k></sub><k>f</k></frm> a&ubreve; 
+        <frm>&#x2202;<k>f</k>/&#x2202;<k>x</k><sub><k>i</k></sub></frm>;
       </ekz>
       <ekz>
-        dua <tld/>a&jcirc;o de f la&ubreve; la i-a argumento
-        (&#x2202;<sup>2</sup><sub>i</sub>f),
-        la&ubreve; la i-a kaj la j-a argumentoj
-        (&#x2202;<sup>2</sup><sub>i,j</sub>f);
+        dua <tld/>a&jcirc;o de <frm><k>f</k></frm> la&ubreve; la 
+        <frm><k>i</k></frm>-a argumento
+        (<frm>&#x2202;<sup>2</sup><sub><k>i</k></sub><k>f</k></frm>),
+        la&ubreve; la <frm><k>i</k></frm>-a kaj 
+        la <frm><k>j</k></frm>-a argumentoj
+        (<frm>&#x2202;<sup>2</sup><sub><k>i</k>,<k>j</k></sub><k>f</k></frm>);
       </ekz>
       <ekz>
-        la parta <tld/>a&jcirc;o de f(x,y)=x<sup>2</sup>y la&ubreve; x estas
-        &#x2202;<sub>x</sub>f(x,y)=2xy kaj la parta <tld/>a&jcirc;o de la
-        sama funkcio la&ubreve; y estas
-        &#x2202;<sub>y</sub>f(x,y)=x<sup>2</sup>.
+        la parta <tld/>a&jcirc;o de 
+        <frm><k>f</k>(<k>x</k>,<k>y</k>)=<k>x</k><sup>2</sup><k>y</k></frm> 
+        la&ubreve; <frm><k>x</k></frm> estas
+        <frm>&#x2202;<sub><k>x</k></sub><k>f</k>(<k>x</k>,<k>y</k>) =
+        2<k>x</k><k>y</k></frm> kaj la parta <tld/>a&jcirc;o de la
+        sama funkcio la&ubreve; <frm><k>y</k></frm> estas
+        <frm>&#x2202;<sub><k>y</k></sub><k>f</k>(<k>x</k>,<k>y</k>) =
+        <k>x</k><sup>2</sup></frm>.
       </ekz>
     </dif>
   </snc>
   <trd lng="de">partielle <ind>Ableitung</ind></trd>
   <trd lng="en">partial <ind>derivative</ind></trd>
   <trd lng="fr">d&eacute;riv&eacute;e partielle</trd>
+  <trd lng="pl">pochodna cz&aogonek;stkowa</trd>
   <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_a;&c_ja;</ind></trd>
   <trd lng="sk">parci&aacute;lna <ind>deriv&aacute;cia</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.25  2002/09/13 16:34:19  revo
+Viliam Bur: +trd sk
 Revision 1.24  2002/08/25 19:00:51  revo
 Marc Bavant: +ref internaj; mal~ajxo MAT: mod dif
-
 Revision 1.23  2002/08/11 17:32:12  revo
 Marc Bavant: mod Hevisajdo al Hevisido
 Revision 1.22  2002/06/16 17:32:58  revo
@@ -288,7 +310,5 @@ Marc Bavant: drv MAT: +fnt
 Revision 1.17 2001/10/20 18:52:19 revo
 Marc Bavant: kor kap cxe parta ~ajxo
 Revision 1.16 2001/09/30 19:14:35 revo
-Marc Bavant: +drv parta ~ajxo; ~ajxo: splitis ~ajxo cxe punkto / ~ajxo-funkcio
 -->
 </vortaro>
-
