@@ -10,8 +10,8 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="nul0.0o.cifero">
     <dif>
-      Cifero <frm>0</frm>, kiu montras la kvanton <ctl>neniu</ctl>, kaj 
-      obligas la valoron de cifero, &ccirc;e kies dekstro &gcirc;i estas 
+      Cifero <frm>0</frm>, kiu montras la kvanton <ctl>neniu</ctl>, kaj
+      obligas la valoron de cifero, &ccirc;e kies dekstro &gcirc;i estas
       lokita:
       <ekz>
         la nombro <frm>0</frm> estas elparolata <tld/>
@@ -56,10 +56,12 @@
     <trd lng="de">Nullelement</trd>
     <trdgrp lng="en">
       <trd>null element</trd>,
-      <trd>zero</trd></trdgrp>
+      <trd>zero</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>&eacute;l&eacute;ment nul</trd>,
-      <trd>z&eacute;ro</trd></trdgrp>
+      <trd>z&eacute;ro</trd>
+    </trdgrp>
     <trd lng="pl">zero</trd>
     <trd lng="ru">&c_n;&c_u;&c_l;&c_mol;</trd>
   </snc>
@@ -93,27 +95,38 @@
       <ref cel="van.0a">vana</ref>,
       <ref cel="frukt.sen0a">senfrukta</ref>
     </refgrp>
+    <trd lng="fr">nul</trd>
+    <trd lng="ru">&c_n;&c_u;&c_l;&c_je;&c_v;&c_o;&c_j;</trd>
   </snc>
   <snc mrk="nul0.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      Egala al <ref cel="nul0.0o.neuxtra"><tld/>o</ref>;
-      <klr>(p.p. <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
-      alprenanta la valoron <tld/>o.
-    </dif>
+    <subsnc mrk="nul0.0a.elemento">
+      <dif>
+        Egala al <ref cel="nul0.0o.neuxtra"><tld/>o</ref>;
+        <klr>(p.p. <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
+        alprenanta la valoron <tld/>o.
+      </dif>
+    </subsnc>
+    <subsnc mrk="nul0.0a.angulo">
+      <dif>
+        <klr>(p.p. <ref cel="angul.0o.figuro">angulo</ref>)</klr>
+        Situanta inter du egalaj lateroj, do malplena; kies mezuro
+        egalas al 0&ring;.
+      </dif>
+    </subsnc>
     <trd lng="de">Null-</trd>
     <trdgrp lng="en">
       <trd>null</trd>,
       <trd>zero</trd>
     </trdgrp>
+    <trd lng="fr">nul</trd>
     <trd lng="pl">zerowy</trd>
+    <trd lng="ru">&c_n;&c_u;&c_l;&c_je;&c_v;&c_o;&c_j;</trd>
   </snc>
   <trd lng="es">nulo</trd>
-  <trd lng="fr">nul</trd>
   <trd lng="he">&alef;&pe;&samekh;&yod;</trd>
   <trd lng="nl">waardeloos</trd>
   <trd lng="pt">nulo</trd>
-  <trd lng="ru">&c_n;&c_u;&c_l;&c_je;&c_v;&c_o;&c_j;</trd>
 </drv>
 
 <drv mrk="nul0.0i">
@@ -230,7 +243,8 @@
       <trd lng="de">Nullstelle</trd>
       <trdgrp lng="en">
         <trd>null<klr tip="ind"> (of a function)</klr></trd>,
-        <trd>zero<klr tip="ind"> (of a function)</klr></trd></trdgrp>
+        <trd>zero<klr tip="ind"> (of a function)</klr></trd>
+      </trdgrp>
       <trdgrp lng="fr">
         <trd>z&eacute;ro <klr tip="ind">(d'une fonction)</klr></trd>
       </trdgrp>
@@ -245,9 +259,9 @@
     <subsnc mrk="nul0.0iganto.de_elemento">
       <fnt><bib>PIV2</bib></fnt>
       <dif>
-        <klr>(de elemento <frm><k>a</k></frm> en 
+        <klr>(de elemento <frm><k>a</k></frm> en
         <ref cel="ring.0o.MAT">ringo</ref>)</klr>
-        &Ccirc;iu elemento, kiu multiplikite per <frm><k>a</k></frm> donas 
+        &Ccirc;iu elemento, kiu multiplikite per <frm><k>a</k></frm> donas
         <tld/>an rezulton:
         <ekz>
           en la ringo de <frm>6</frm>-modulaj restoklasoj
@@ -258,10 +272,10 @@
       <ref tip="vid" cel="divizo.nul0o">nuldivizoro.</ref>
     </subsnc>
     <rim>
-      Senco <sncref ref="nul0.0iganto.de_elemento"/> povas vasti&gcirc;i 
-      anka&ubreve; p.p. skalaro rilate al elemento de 
+      Senco <sncref ref="nul0.0iganto.de_elemento"/> povas vasti&gcirc;i
+      anka&ubreve; p.p. skalaro rilate al elemento de
       <ref cel="modul.0o.strukt">modulo</ref> a&ubreve; e&ccirc;
-      p.p. funkcio rilate al elemento de &gcirc;ia fonto-aro: 
+      p.p. funkcio rilate al elemento de &gcirc;ia fonto-aro:
       <ekz>
         la karakteriza polinomo de endormorfio <klr>(konsiderata kiel
         polinoma funkcio super la aro de endomorfioj)</klr> estas
@@ -269,7 +283,7 @@
       </ekz>
       La du subsencoj respegulas dualan aliron al la fenomeno: funkcio
       nuligas sian argumenton, a&ubreve; argumento nuligas la funkcion. Oni
-      tiam atentu, ke amba&ubreve; sencoj ne koliziu, kiam anka&ubreve; la 
+      tiam atentu, ke amba&ubreve; sencoj ne koliziu, kiam anka&ubreve; la
       argumentoj estas funkcioj.
     </rim>
   </snc>
@@ -311,24 +325,24 @@
 </art>
 <!--
 $Log$
-Revision 1.25  2003/01/17 17:33:55  revo
+Revision 1.26 2003/02/01 17:33:42 revo
+Marc Bavant: +trd pl
+Revision 1.25 2003/01/17 17:33:55 revo
 Marc Bavant: ~iganto: kor rim
-Revision 1.24  2003/01/02 17:49:08  revo
+Revision 1.24 2003/01/02 17:49:08 revo
 Marc Bavant: +frm, +trd pl; ~o: koherigis simb, -adm; ~o (neuxtra): sxovis trd fr; mod fnt "artikolo"
-Revision 1.23  2002/08/24 17:32:47  revo
+Revision 1.23 2002/08/24 17:32:47 revo
 Allon Rothfarb: +trd he
-Revision 1.22  2002/08/11 17:32:35  revo
+Revision 1.22 2002/08/11 17:32:35 revo
 Marc Bavant: ~iganto 1: +rim; +drv ~ejo
-Revision 1.21  2002/08/04 17:33:29  revo
+Revision 1.21 2002/08/04 17:33:29 revo
 Marc Bavant: ~iganto MAT: +fnt, -adm, mod rim
-Revision 1.20  2002/06/25 19:40:06  revo
+Revision 1.20 2002/06/25 19:40:06 revo
 Eduardo M. Kalinowski: ald trd pt
-Revision 1.19  2002/05/02 16:38:36  revo
+Revision 1.19 2002/05/02 16:38:36 revo
 Marc Bavant: ~o (cifero): aldonis citilojn en dif, +adm; ~i MAT: +rim; ~a MAT: mod dif
-Revision 1.18  2002/04/02 17:56:51  revo
+Revision 1.18 2002/04/02 17:56:51 revo
 Ulrich Fellmann: + " Matematika simbolo 0" + sxangxo de la difino: "kiu montras per si mem neniun kvanton" -> "kiu montras la kvanton neniu"
-Revision 1.17  2002/02/23 19:57:56  revo
-Marc Bavant: ~o: +mrk, +ekz, +trd fr; ~o MAT: +trd de/en/ru; ~a: +trd de/en; ~igxi MAT: +fnt, +trd en/de; ~iganto2: +trd en; ~iganto 1: mod fnt, +trd de/en
-Revision 1.16  2002/01/18 21:59:45  revo
+Revision 1.17 2002/02/23 19:57:56 revo
 -->
 </vortaro>
