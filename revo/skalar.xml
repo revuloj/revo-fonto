@@ -2,49 +2,69 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-   <art mrk="$Id$">
-    <kap>
-      <rad>skalar</rad>/o
-    </kap>
-    <drv mrk="skalar.0o">
-      <kap><tld/>o<fnt>PIV</fnt></kap>
-      <snc mrk="skalar.0o.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> de
-          <ref tip="malprt" cel="ring.0o.MAT">ringo</ref> a&ubreve;
-          <ref tip="malprt" cel="korp.0o.MAT">korpo</ref>, kiu operacias
-          super
-          <ref cel="modul.0o.strukt">modulo</ref> a&ubreve;
-          <ref cel="spac.vektora0o">vektora spaco</ref>.
-        </dif>
-        <trd lng="de">Skalar</trd>
-      </snc>
-      <snc mrk="skalar.0o.FIZ">
-        <uzo tip="fak">FIZ</uzo>
-        <dif>
-          Fizika grando, kiu ne havas direkton; la reelo &gcirc;in
-          reprezentanta:
-          <ekz>
-            la grando temperaturo estas <tld/>o.
-          </ekz>
-        </dif>
-        <ref tip="ant" cel="vektor.0o.FIZ">vektoro.</ref>
-        <trdgrp lng="de">
-          <trd>Skalar</trd>,
-          <trd>skalare Gr&ouml;&szlig;e</trd></trdgrp>
-      </snc>
-      <trd lng="fr">scalaire</trd>
-      <trd lng="nl">scalar</trd>
-      <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;</trd>
-      <trd lng="sv">skal&auml;r</trd>
-    </drv>
-
-   </art>
-
-
+<art mrk="$Id$">
+<kap>
+<rad>skalar</rad>/o
+</kap>
+<drv mrk="skalar.0o">
+  <kap><tld/>o</kap>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc mrk="skalar.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> de
+      <ref tip="malprt" cel="ring.0o.MAT">ringo</ref> a&ubreve;
+      <ref tip="malprt" cel="korp.0o.MAT">korpo</ref>, kiu operacias
+      super
+      <ref cel="modul.0o.strukt">modulo</ref> a&ubreve;
+      <ref cel="spac.vektora0o">vektora spaco</ref>.
+    </dif>
+    <trd lng="de">Skalar</trd>
+  </snc>
+  <snc mrk="skalar.0o.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      Fizika grando, kiu ne havas direkton; la reelo &gcirc;in
+      reprezentanta:
+      <ekz>
+        la grando temperaturo estas <tld/>o.
+      </ekz>
+    </dif>
+    <ref tip="ant" cel="vektor.0o.FIZ">vektoro.</ref>
+    <trdgrp lng="de">
+      <trd>Skalar</trd>,
+      <trd>skalare Gr&ouml;&szlig;e</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="fr">scalaire<klr tip="ind"> (subst.)</klr></trd>
+  <trd lng="nl">scalar</trd>
+  <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;</trd>
+  <trd lng="sv">skal&auml;r</trd>
+</drv>
+<drv mrk="skalar.0a">
+  <kap><tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">FIZ</uzo>
+  <snc>
+    <dif>
+      Rilata al <tld/>o; estanta <tld/>o:
+      <ekz>
+        <tld/>a grando, <ref cel="kamp.0o.MAT">kampo</ref>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="produt.skalara0o"><tld/>a produto</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="fr">scalaire<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j;</trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.7  2001/09/05 19:05:45  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.6  2001/07/27 19:37:42  revo
 Paul Peeraerts: ald trd nl
 
@@ -61,7 +81,5 @@ Revision 1.2  2000/11/15 17:12:40  revo
 Marc Bavant: kor ref
 
 Revision 1.1  2000/11/11 18:37:58  revo
-Marc Bavant: nova artikolo
-
 -->
 </vortaro>
