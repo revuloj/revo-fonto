@@ -3,7 +3,9 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap><ofc>8</ofc> <rad>cirkl</rad>/o <fnt>Z</fnt></kap>
+<kap>
+  <ofc>8</ofc> <rad>cirkl</rad>/o <fnt>Z</fnt>
+</kap>
 <drv mrk="cirkl.0o">
   <kap><tld/>o</kap>
   <snc mrk="cirkl.0o.linio">
@@ -119,10 +121,10 @@
   <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
   <snc>
     <dif>
-      <klr>(de kompleksa <ref cel="seri.potenco0o">potencoserio</ref> 
+      <klr>(de kompleksa <ref cel="seri.potenco0o">potencoserio</ref>
       S(z))</klr>
-      Tia <tld/>o <sncref ref="cirkl.0o.surfaco"/> de la kompleksa ebeno, 
-      kun centro en 0, ke por &ccirc;iu valoro z de &gcirc;ia malferma&jcirc;o 
+      Tia <tld/>o <sncref ref="cirkl.0o.surfaco"/> de la kompleksa ebeno,
+      kun centro en 0, ke por &ccirc;iu valoro z de &gcirc;ia malferma&jcirc;o
       S(z) konver&gcirc;as.
     </dif>
     <rim>
@@ -135,15 +137,53 @@
   <trd lng="ru">&c_k;&c_r;&c_u;&c_g; &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
 </drv>
 
+<drv mrk="cirkl.kurbeco0o">
+  <kap>kurbeco<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 38</lok></fnt>
+  <snc mrk="cirkl.kurbeco0o.de_ebena_kurbo">
+    <dif>
+      <klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>, &ccirc;e punkto 
+      de &gcirc;i)</klr>
+      La <tld/>o difinita de la
+      <ref cel="centr.kurbeco0o.de_ebena_kurbo">kurbecocentro</ref> kaj la
+      <ref cel="radius.kurbeco0o.de_ebena_kurbo">kurbecoradiuso</ref> de la
+      kurbo &ccirc;e tiu punkto.
+    </dif>
+    <rim>
+      &Ccirc;i-sence oni uzas anka&ubreve; 
+      <ctl>oskul<tld/>o</ctl><fnt><bib>MatTerm</bib><lok>p. 38</lok></fnt> kaj
+      <ctl>oskula
+      <tld/>o</ctl><fnt><bib>PIV2</bib><lok>artikolo: oskuli</lok></fnt>.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Kr&uuml;mmungskreis</trd>,
+    <trd>Oskulationskreis</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>circle of curvature</trd>,
+    <trd>osculating <ind>circle</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>cercle de courbure</trd>,
+    <trd>cercle osculateur</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_k;&c_r;&c_u;&c_g; &c_k;&c_r;&c_i;&c_v;&c_i;&c_z;&c_n;&c_y;</trd>,
+    <trd>&c_s;&c_o;&c_p;&c_r;&c_i;&c_k;&c_a;&c_s;&c_a;&c_ju;&c_shch;&c_i;&c_j;&c_s;&c_ja; <ind>&c_k;&c_r;&c_u;&c_g;</ind></trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.17  2002/03/12 17:33:34  revo
+Revision 1.18 2002/05/02 16:34:20 revo
+Marc Bavant: cxef~o: igis dif pli klara, -rim, +ref al cxefa
+Revision 1.17 2002/03/12 17:33:34 revo
 Marc Bavant: konvergxo ~o: kor mrk
-
-Revision 1.16  2002/03/09 17:31:40  revo
+Revision 1.16 2002/03/09 17:31:40 revo
 Marc Bavant: ~o: mod fnt, mod dif (certa); ~o (linio): +ref al arko; ~o (surfaco): +ref al segmento; cxef~o: +rim, +trd en/ru; ~ego: +trd en/ru; +drv konvergxo~o
-Revision 1.15  2001/12/17 17:31:53  revo
+Revision 1.15 2001/12/17 17:31:53 revo
 Marc Bavant: ~o: +fnt; cxef~o: splitis, kor fnt; mod ref al meridiano
 Revision 1.14 2001/05/12 18:17:09 revo
 Ulrich Fellmann: + 4 germ trdj
@@ -156,6 +196,5 @@ Marc Bavant: +drv cef~o
 Revision 1.10 2001/04/10 19:09:30 revo
 Marc Bavant: +aludo al koniko
 Revision 1.9 2001/03/31 18:07:40 revo
-Marc Bavant: reverkis
 -->
 </vortaro>
