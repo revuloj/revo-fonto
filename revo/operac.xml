@@ -2,527 +2,533 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>operaci</rad>/o
-      <ofc>1</ofc>
-    </kap>
-
-    <drv mrk="operac.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="operac.0o.MED">
-	<uzo tip="fak">MED</uzo>
-	<dif>
-	  Me&hcirc;anika &hcirc;irurgia procedo, farata per manoj kaj per
-	  instrumentoj, por modifi la staton de organo, a&ubreve; por
-	  fortran&ccirc;i malsanan nekuraceblan parton de korpo.
-	</dif>
-	<trdgrp lng="de">
-	  <trd>Operation</trd>,
-	  <trd>Eingriff</trd>
-	</trdgrp>
-	<trdgrp lng="nl">
-	  <trd>operatie</trd>,
-	  <trd>ingreep<klr tip="ind"> (heelkunde)</klr>
-	  </trd>
-	</trdgrp>
-	<trd lng="sv">operation</trd>
-      </snc>
-      <snc mrk="operac.0o.EKON">
-	<uzo tip="fak">EKON</uzo>
-	<dif>
-	  Aro da rimedoj, kiujn oni kombinas por akiri profitojn:
-	  <ekz>
-	    komercaj, financaj<fnt>B</fnt>,
-	  </ekz><ekz>
-	    borsaj <tld/>oj.
-	  </ekz>
-	</dif>
-	<trdgrp lng="de">
-	  <trd>Vorgehen</trd>,
-	  <trd>Vorgehensweise</trd>
-	</trdgrp>
-	<trd lng="nl">handeling</trd>
-      </snc>
-      <snc mrk="operac.0o.MIL">
-	<uzo tip="fak">MIL</uzo>
-	<dif>
-	  Movoj de trupoj destinitaj por sukcesigi atakon a&ubreve;
-	  defendon.
-	</dif>
-	<trdgrp lng="de">
-	  <trd>Operation</trd>,
-	  <trd>Truppenbewegung</trd>
-	</trdgrp>
-	<trd lng="nl">operatie</trd>
-      </snc>
-      <snc mrk="operac.0o.MAT_supersenco">
-	<uzo tip="fak">MAT</uzo>
-	<adm>
-	  Iam indos sxangxi la markojn
-	  operac.0o.MAT_supersenco al operac.0o.MAT
-	  operac.0o.MAT al operac.0o.bildigo
-	  <aut>MB</aut>
-	</adm>
-	<subsnc mrk="operac.0o.elementa">
-	  <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
-	  <dif>
-	    Kalkulo, plenumata super konataj kvantoj por eltrovi unu a&ubreve;
-	    plurajn kvantojn nekonatajn:
-	    <ekz>
-	      la kvar bazaj <tld/>oj aritmetikaj estas 
-	      <refgrp tip="vid">
-		<ref cel="adici.0o.elementa">adicio</ref>,
-		<ref cel="subtra.0o.elementa">subtraho</ref>, 
-		<ref cel="multip.0o.elementa">multipliko</ref> kaj 
-		<ref cel="divid.0o.MAT">divido</ref>.
-	      </refgrp>
-	    </ekz>
-	  </dif>
-	  <trdgrp lng="de">
-	    <trd>Rechenart</trd>,
-	    <trd>Rechenoperation</trd>
-	  </trdgrp>
-	  <trd lng="nl">bewerking<klr tip="ind"> (rekenk.)</klr></trd>
-	  <trd lng="pl">dzia&lstroke;anie</trd>
-	  <trd lng="sv">operation</trd>
-	</subsnc>
-	<subsnc mrk="operac.0o.MAT">
-	  <fnt><bib>MatStokTerm</bib><lok>p. 38</lok></fnt>
-	  <dif>
-	    <klr>(en <ref cel="ar.0o.MAT">aro</ref> <frm><g>E</g></frm>)</klr>
-	    <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-	    <frm><g>E</g>&#xd7;<g>E</g></frm> al <frm><g>E</g></frm>:
-	    <ekz>
-	      la aritmetika adicio estas <tld/>o, kiu al &ccirc;iu duopo
-	      de entjeroj asocias la sumon de ties termoj;
-	    </ekz><ekz>
-	      la <ref cel="lig.kun0o.MAT">kunligo</ref> de
-	      <ref cel="rilat.interna0o">internaj rilatoj</ref> estas <tld/>o.
-	    </ekz>
-	  </dif>
-	  <refgrp tip="vid">
-	    Apartaj ecoj de operacio:
-	    <ref cel="asoci.0eca.operacio">asocieca</ref>,
-	    <ref cel="komut.0eca.operacio">komuteca</ref>,
-	    <ref cel="distri.0eca.MAT">distribueca</ref>;
-	    elementoj kun aparta konduto rilate al la operacio:
-	    <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref>,
-	    <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>;
-	    strukturoj:
-	    <ref cel="strukt.algebra0o">algebra strukturo</ref>.
-	  </refgrp>
-	  <rim>
-	    Tiu &ccirc;i difino estas formaligo kaj plivastigo de la kutima
-	    nocio <ctl>aritmetika <tld/>o</ctl>. Por tion &ccirc;i respeguli,
-	    la <ref cel="bild.rekta0o">bildon</ref> de paro
-	    <frm>(<k>x</k>,<k>y</k>)</frm> per <tld/>o <frm>T</frm> oni prefere
-	    signas per <frm><k>x</k>T<k>y</k></frm> anstata&ubreve;
-	    <frm>T(<k>x</k>,<k>y</k>)</frm> kaj oni &gcirc;in nomas
-	    <ctl>rezulto de la <tld/>o</ctl>.
-	    La <tld/>on mem oni ofte signas adicie:
-	    <ekz>
-	      <frm><k>x</k>+<k>y</k></frm>
-	    </ekz>
-	    , multiplike:
-	    <ekz>
-	      <frm><k>x</k>&#xd7;<k>y</k></frm>,
-	    </ekz><ekz>
-	      <frm><k>x</k>&#x2219;<k>y</k></frm>,
-	    </ekz><ekz>
-	      <frm><k>x</k><k>y</k></frm>
-	    </ekz>
-	    a&ubreve; per ajna ta&ubreve;ga signo
-	    <ekz>
-	      <frm><k>x</k>&#x2020;<k>y</k></frm>,
-	    </ekz><ekz>
-	      <frm><k>x</k>&#x2666;<k>y</k></frm>,
-	    </ekz><ekz>
-	      <frm><k>x</k>*<k>y</k></frm>...
-	    </ekz>
-	    La nocio <tld/>o estas vastigebla anka&ubreve; al bildigoj, kies
-	    <ref cel="ar.fonto0o">fonto-aro</ref> estas
-	    <ref cel="produt.kartezia0o">kartezia produto</ref>
-	    de pli ol du identaj aroj. Oni tiam
-	    parolas pri <ctl>triargumenta</ctl>, <ctl>kvarargumenta</ctl>
-	    a&ubreve; &gcirc;enerale <ctl><frm><k>n</k></frm>-argumenta 
-	      <tld/>o</ctl>.
-	  </rim>
-	  <trdgrp lng="de">
-	    <trd>Operation</trd>,
-	    <trd>Verkn&uuml;pfung</trd>,
-	    <trd>Verkn&uuml;pfungsgesetz</trd>
-	  </trdgrp>
-	  <trdgrp lng="en">
-	    <trd>composition <ind>law</ind></trd>,
-	    <trd>operation</trd>
-	  </trdgrp>
-	  <trdgrp lng="fr">
-	    <trd>loi de composition</trd>,
-	    <trd>op&eacute;ration</trd>
-	  </trdgrp>
-	  <trd lng="pl">dzia&lstroke;anie</trd>
-	  <trdgrp lng="ru">
-	    <trd>&c_z;&c_a;&c_k;&c_o;&c_n; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>,
-	    <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
-	  </trdgrp>
-	</subsnc>
-      </snc>
-      <snc mrk="operac.0o.KOMP">
-	<uzo tip="fak">KOMP</uzo>
-	<dif>
-	  Ago plenumata de unuopa komputila komando.
-	  <ekz>
-	    la komputilo plenumas po 700 miliardoj da glitpunktaj
-	    <tld/>oj sekunde.
-	  </ekz>
-	</dif>
-	<trd lng="nl">bewerking</trd>
-      </snc>
-      <snc>
-	<dif>
-	  Tasko kiun unu a&ubreve; pluraj laboristoj a&ubreve; oficistoj
-	  plenumas sur
-	  unu laborloko kiel parton de fabrikada procezo, de funkciado
-	  de ofico ktp:
-	  <ekz>
-	    munta <tld/>o;
-	  </ekz><ekz>
-	    banka, po&scirc;ta <tld/>o
-	    <ref tip="vid" cel="transa.0o">transakcio</ref>
-	  </ekz>
-	  .
-	</dif>
-	<trd lng="nl">handeling</trd>
-      </snc>
-      <trd lng="en">operation</trd>
-      <trd lng="fr">op&eacute;ration</trd>
-      <trd lng="pt">opera&ccedil;&atilde;o</trd>
-      <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
-      <trd lng="sv">operation</trd>
-    </drv>
-
-    <drv mrk="operac.0i">
-      <kap><tld/>i</kap>
-      <snc mrk="operac.0i.MED">
-	<uzo tip="fak">MED</uzo>
-	<gra><vspec>tr</vspec></gra>
-	<dif>
-	  Fari &hcirc;irurgian <tld/>on:
-	  <ekz>
-	    oni <tld/>is mian fraton pri apendicito.
-	  </ekz>
-	</dif>
-	<trd lng="de">operieren</trd>
-	<trd lng="nl">opereren</trd>
-	<trd lng="sv">operera</trd>
-      </snc>
-      <snc mrk="operac.0i.manipuli">
-	<gra><vspec>ntr</vspec></gra>
-	<dif>
-	  Funkcii, manipuli plenumante <tld/>ojn:
-	  <ekz>
-	    la programo <tld/>as per longaj reeloj,
-	  </ekz><ekz>
-	    <tld/>i per algebraj kvantoj.
-	  </ekz>
-	</dif>
-	<trd lng="de">arbeiten</trd>
-	<trd lng="nl">werken</trd>
-      </snc>
-      <snc mrk="operac.0i.MAT">
-	<gra><vspec>ntr</vspec></gra>
-	<uzo tip="fak">MAT</uzo>
-	<uzo tip="klr">(fakula &jcirc;argono)</uzo>
-	<dif>
-	  Diri, ke aro <frm><g>R</g></frm> <tld/>as super aro
-	  <frm><g>E</g></frm>, signifas, ke ekzistas iu
-	  <ref cel="operac.ekstera0o.aro">ekstera <tld/>o
-	    <sncref ref="operac.ekstera0o.aro"/></ref> de
-	  <frm><g>R</g></frm> super <frm><g>E</g></frm>, pri kiu oni
-	  fokusi&gcirc;as:
-	  <ekz>
-	    la <ref cel="ring.0o.MAT">ringo</ref>, kiu <tld/>as super
-	    <ref cel="modul.0o.strukt">modulo</ref>;
-	  </ekz><ekz>
-	    la <ref cel="spac.vektora0o">vektora spaco</ref>, kiu <tld/>as
-	    super <ref cel="spac.afina0o">afina spaco</ref>.
-	  </ekz>
-	  Simila metaforo validas anka&ubreve; por la elementoj de
-	  <frm><g>R</g></frm>, kiam oni parolas pri ilia
-	  <ref cel="operac.ekstera0o.elemento">ekstera <tld/>o <sncref/></ref>
-	  super <frm><g>E</g></frm>:
-	  <ekz>
-	    &ccirc;iu vektoro <tld/>as enjekcie super
-	    <ref cel="spac.afina0o">afina spaco</ref>.
-	  </ekz>
-	</dif>
-	<trd lng="de">operieren</trd>
-	<trdgrp lng="en">
-	  <trd>act</trd>,
-	  <trd>operate</trd>
-	</trdgrp>
-	<trd lng="ru">&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-      </snc>
-      <trd lng="en">operate</trd>
-      <trd lng="fr">op&eacute;rer</trd>
-      <trd lng="pt">operar</trd>
-      <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="operac.0ato">
-      <kap><tld/>ato</kap>
-      <uzo tip="fak">MED</uzo>
-      <snc mrk="operac.0ato.MED">
-	<dif>
-	  Paciento sur la <tld/>a tablo.
-	</dif>
-	<trd lng="de">Operierter</trd>
-	<trd lng="nl">pati&euml;nt<klr tip="ind"> (bij operatie)</klr></trd>
-	<trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
-      </snc>
-      <snc mrk="operac.0ato.MAT">
-	<uzo tip="fak">MAT</uzo>
-	<uzo tip="stl">EVI</uzo>
-	<fnt><bib>KompLeks</bib><lok>operando</lok></fnt>
-	<dif>
-	  <ref tip="dif" cel="argume.0o.donitajxo">Argumento</ref> de <tld/>o.
-	</dif>
-	<rim>
-	  Tiu formo devenas analogie de <ctl>dividato</ctl>, <ctl>adiciato</ctl>
-	  ks, kaj respegulas similajn formojn en naciaj lingvoj, sed &gcirc;enas
-	  la fakto, ke neniu verba senco pravigas tiun pasivan formon. Ja
-	  <ctl><tld/>i</ctl> havas alian sencon, cetere netransitivan.
-	  &Scirc;ajnas do, ke <ctl>argumento</ctl> sufi&ccirc;as.
-	</rim>
-	<trd lng="de">Operand</trd>
-	<trd lng="en">operand</trd>
-	<trd lng="fr">op&eacute;rande</trd>
-	<trd lng="pl">argument dzia&lstroke;ania</trd>
-	<trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_n;&c_d;</trd>
-      </snc>
-    </drv>
-
-    <drv mrk="operac.0ejo">
-      <kap><tld/>ejo</kap>
-      <snc>
-	<dif>
-	  Loko (salono, &ccirc;ambro) ekipita kaj destinita por <tld/>ado.
-	</dif>
-      </snc>
+<art mrk="$Id$">
+<kap>
+  <rad>operaci</rad>/o
+  <ofc>1</ofc>
+</kap>
+<drv mrk="operac.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="operac.0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Me&hcirc;anika &hcirc;irurgia procedo, farata per manoj kaj per
+      instrumentoj, por modifi la staton de organo, a&ubreve; por
+      fortran&ccirc;i malsanan nekuraceblan parton de korpo.
+    </dif>
+    <trdgrp lng="de">
+      <trd>Operation</trd>,
+      <trd>Eingriff</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>operatie</trd>,
+      <trd>ingreep<klr tip="ind"> (heelkunde)</klr>
+      </trd>
+    </trdgrp>
+    <trd lng="sv">operation</trd>
+  </snc>
+  <snc mrk="operac.0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Aro da rimedoj, kiujn oni kombinas por akiri profitojn:
+      <ekz>
+        komercaj, financaj<fnt>B</fnt>,
+      </ekz>
+      <ekz>
+        borsaj <tld/>oj.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Vorgehen</trd>,
+      <trd>Vorgehensweise</trd>
+    </trdgrp>
+    <trd lng="nl">handeling</trd>
+  </snc>
+  <snc mrk="operac.0o.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      Movoj de trupoj destinitaj por sukcesigi atakon a&ubreve;
+      defendon.
+    </dif>
+    <trdgrp lng="de">
+      <trd>Operation</trd>,
+      <trd>Truppenbewegung</trd>
+    </trdgrp>
+    <trd lng="nl">operatie</trd>
+  </snc>
+  <snc mrk="operac.0o.MAT_supersenco">
+    <uzo tip="fak">MAT</uzo>
+    <adm>
+      Iam indos sxangxi la markojn
+      operac.0o.MAT_supersenco al operac.0o.MAT
+      operac.0o.MAT al operac.0o.bildigo
+      <aut>MB</aut>
+    </adm>
+    <subsnc mrk="operac.0o.elementa">
+      <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
+      <dif>
+        Kalkulo, plenumata super konataj kvantoj por eltrovi unu a&ubreve;
+        plurajn kvantojn nekonatajn:
+        <ekz>
+          la kvar bazaj <tld/>oj aritmetikaj estas
+          <refgrp tip="vid">
+            <ref cel="adici.0o.elementa">adicio</ref>,
+            <ref cel="subtra.0o.elementa">subtraho</ref>,
+            <ref cel="multip.0o.elementa">multipliko</ref> kaj
+            <ref cel="divid.0o.MAT">divido</ref>.
+          </refgrp>
+        </ekz>
+      </dif>
       <trdgrp lng="de">
-	<trd>Operationssaal</trd>,
-	<trd>Operationsraum</trd>
+        <trd>Rechenart</trd>,
+        <trd>Rechenoperation</trd>
       </trdgrp>
-      <trd lng="nl">operatiekamer</trd>
-      <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_a;&c_ja;</trd>
-    </drv>
-
-    <drv mrk="operac.0umo">
-      <kap><tld/>umo <fnt><aut>Chr. Bertin</aut>: <vrk>Computer Dictionary, English-Esperanto</vrk></fnt></kap>
-      <uzo tip="fak">KOMP</uzo>
-      <snc>
-	<dif>
-	  Programaro organizanta la funkciadon de komputilo,
-	  sendependa de la aplikaj programoj sed necesa por ilia
-	  rulado. <tld lit="O"/>umo administras la aparatajn
-	  dispona&jcirc;ojn de komputilo, aran&gcirc;as interagon de la
-	  programaj
-	  procezoj (taskoj) kun la aparataro, aliaj procezoj kaj kun
-	  la uzantoj. <tld lit="O"/>umo zorgas pri memoradministrado,
-	  eneligoj, dosieradministrado, vicigo de taskoj kaj mendoj,
-	  datumprotekto, kontado, prilaboro de la ordonoj de la
-	  laboradministra lingvo. Iam anka&ubreve; aliajn servoprogramojn
-	  (utila&jcirc;ojn) kaj tradukilojn oni rigardas parto de
-	  <tld/>umo.
-	  <ekz>
-	    La normo IEEE 1003.1 difinas Uniksecan
-	    <tld/>uman interfacon;
-	  </ekz><ekz>
-	    la &scirc;elo estas
-	    interpretilo transmetanta <tld/>umajn komandojn al la
-	    <tld/>umkerno
-	  </ekz>
-	</dif>
-	<ref tip="malprt" cel="progra.0aro.sistema">sistema programaro</ref>
-	<rim>
-	  Alia uzata termino estas
-	  <ref tip="sin" cel="mastr.0uma.sistemo">mastruma
-	    sistemo</ref>. Verdire, <ctl>mastrumado</ctl> estas nur
-	  unu el la multaj funkcioj de <tld/>umo, kaj ne la plej
-	  grava funkcio (la celatan sencon pli trafe esprimus
-	  <ctl>administra sistemo</ctl>). Trovi vorto(j)n kiu(j)
-	  precize priskribus la tutan nocion estas afero malfacila a&ubreve;
-	  malebla; tial aperis la formo <ctl>operaciumo</ctl>, kiu
-	  utiligas la pli internacian parton de la termino kaj havas
-	  la avanta&gcirc;on de unuvorteco. Nur la vivo povas decidi, kiu
-	  formo venkos.
-	</rim>
-	<trd lng="cs">opera&ccaron;n&iacute; syst&eacute;m</trd>
-	<trd lng="de">Betriebssystem</trd>
-	<trd lng="en">operating system</trd>
-	<trd lng="fr">syst&egrave;me d'exploitation</trd>
-	<trd lng="nl">besturingssysteem</trd>
-	<trd lng="pt">sistema operacional</trd>
-	<trd lng="hu">oper&aacute;ci&oacute;s rendszer</trd>
-	<trd lng="pl">system operacyjny</trd>
-	<trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_a;&c_ja; &c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;</trd>
-	<trd lng="sv">operativsystem</trd>
-      </snc>
-    </drv>
-
-    <drv mrk="operac.0esploro">
-      <kap><tld/>esploro</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-	<dif>
-	  Matematika fako studanta metodojn por prepari decidojn
-	  per matematika priskribo de la esencaj faktoroj rolantaj en
-	  malsimplaj sistemoj el diversaj terenoj de la homa agado
-	  (militaj, ekonomiaj, industriaj).
-	</dif>
-      </snc>
+      <trd lng="nl">bewerking<klr tip="ind"> (rekenk.)</klr></trd>
+      <trd lng="pl">dzia&lstroke;anie</trd>
+      <trd lng="sv">operation</trd>
+    </subsnc>
+    <subsnc mrk="operac.0o.MAT">
+      <fnt><bib>MatStokTerm</bib><lok>p. 38</lok></fnt>
+      <dif>
+        <klr>(en <ref cel="ar.0o.MAT">aro</ref> <frm><g>E</g></frm>)</klr>
+        <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
+        <frm><g>E</g>&#xd7;<g>E</g></frm> al <frm><g>E</g></frm>:
+        <ekz>
+          la aritmetika adicio estas <tld/>o, kiu al &ccirc;iu duopo
+          de entjeroj asocias la sumon de ties termoj;
+        </ekz>
+        <ekz>
+          la <ref cel="lig.kun0o.MAT">kunligo</ref> de
+          <ref cel="rilat.interna0o">internaj rilatoj</ref> estas <tld/>o.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        Apartaj ecoj de operacio:
+        <ref cel="asoci.0eca.operacio">asocieca</ref>,
+        <ref cel="komut.0eca.operacio">komuteca</ref>,
+        <ref cel="distri.0eca.MAT">distribueca</ref>;
+        elementoj kun aparta konduto rilate al la operacio:
+        <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref>,
+        <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>;
+        strukturoj:
+        <ref cel="strukt.algebra0o">algebra strukturo</ref>.
+      </refgrp>
+      <rim>
+        Tiu &ccirc;i difino estas formaligo kaj plivastigo de la kutima
+        nocio <ctl>aritmetika <tld/>o</ctl>. Por tion &ccirc;i respeguli,
+        la <ref cel="bild.rekta0o">bildon</ref> de paro
+        <frm>(<k>x</k>,<k>y</k>)</frm> per <tld/>o <frm>T</frm> oni prefere
+        signas per <frm><k>x</k>T<k>y</k></frm> anstata&ubreve;
+        <frm>T(<k>x</k>,<k>y</k>)</frm> kaj oni &gcirc;in nomas
+        <ctl>rezulto de la <tld/>o</ctl>.
+        La <tld/>on mem oni ofte signas adicie:
+        <ekz>
+          <frm><k>x</k>+<k>y</k></frm>
+        </ekz>
+        , multiplike:
+        <ekz>
+          <frm><k>x</k>&#xd7;<k>y</k></frm>,
+        </ekz>
+        <ekz>
+          <frm><k>x</k>&#x2219;<k>y</k></frm>,
+        </ekz>
+        <ekz>
+          <frm><k>x</k><k>y</k></frm>
+        </ekz>
+        a&ubreve; per ajna ta&ubreve;ga signo
+        <ekz>
+          <frm><k>x</k>&#x2020;<k>y</k></frm>,
+        </ekz>
+        <ekz>
+          <frm><k>x</k>&#x2666;<k>y</k></frm>,
+        </ekz>
+        <ekz>
+          <frm><k>x</k>*<k>y</k></frm>...
+        </ekz>
+        La nocio <tld/>o estas vastigebla anka&ubreve; al bildigoj, kies
+        <ref cel="ar.fonto0o">fonto-aro</ref> estas
+        <ref cel="produt.kartezia0o">kartezia produto</ref>
+        de pli ol du identaj aroj. Oni tiam
+        parolas pri <ctl>triargumenta</ctl>, <ctl>kvarargumenta</ctl>
+        a&ubreve; &gcirc;enerale <ctl><frm><k>n</k></frm>-argumenta
+        <tld/>o</ctl>.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Operation</trd>,
+        <trd>Verkn&uuml;pfung</trd>,
+        <trd>Verkn&uuml;pfungsgesetz</trd>
+      </trdgrp>
       <trdgrp lng="en">
-	<trd>operational research</trd>,
-	<trd>operations research</trd>
+        <trd>composition <ind>law</ind></trd>,
+        <trd>operation</trd>
       </trdgrp>
-      <trd lng="fr">recherche op&eacute;rationnelle</trd>
-      <trd lng="ru">&c_i;&c_s;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je; &c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_j;</trd>
-    </drv>
-
-    <drv mrk="operac.interna0o">
-      <kap>interna <tld/>o<fnt><bib>Deneva</bib></fnt>, ena <tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-	<dif>
-	  <ref tip="dif" cel="operac.0o.MAT"><tld lit="O"/>o <sncref/></ref>
-	  <klr>(kontraste al
-	    <ref cel="operac.ekstera0o.aro">ekstera <tld/>o</ref>)</klr>.
-	</dif>
-      </snc>
-      <trd lng="de">innere <ind>Verkn&uuml;pfung</ind></trd>
-      <trd lng="en">internal composition <ind>law</ind></trd>
-      <trd lng="fr">loi de composition interne</trd>
-      <trd lng="pl">dzia&lstroke;anie wewn&eogonek;trzne</trd>
-      <trd lng="ru">&c_z;&c_a;&c_k;&c_o;&c_n; &c_v;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_je;&c_j; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>
-    </drv>
-
-    <drv mrk="operac.ekstera0o">
-      <kap>ekstera <tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc mrk="operac.ekstera0o.aro">
-	<fnt><bib>EKV</bib><lok>&para;110</lok></fnt>
-	<dif>
-	  <klr>(de <ref cel="ar.0o.MAT">aro</ref> <frm><g>R</g></frm>
-	    super aro <frm><g>E</g></frm>)</klr>
-	  <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-	  <frm><g>R</g>&#xd7;<g>E</g></frm> al <frm><g>E</g></frm>:
-	  <ekz>
-	    la bildigo, kiu al entjero <frm><k>n</k></frm> kaj
-	    elemento <frm><k>x</k></frm> de grupoido <frm>(<g>E</g>,&#x2020;)</frm>
-	    asocias <frm><k>n</k>&#x2219;<k>x</k> =
-	      <k>x</k>&#x2020;<k>x</k>&#x2020;....&#x2020;<k>x</k></frm>
-	    <klr>(<frm><k>n</k></frm> termoj en la dekstra flanko)</klr>, estas 
-	    ekstera <tld/>o de la entjeroj super <frm><g>E</g></frm>.
-	  </ekz>
-	</dif>
-	<trd lng="de">&auml;u&szlig;ere <ind>Verkn&uuml;pfung</ind></trd>
-	<trd lng="en">external composition <ind>law</ind></trd>
-	<trd lng="fr">loi de composition externe</trd>
-	<trd lng="pl">dzia&lstroke;anie zewn&eogonek;trzne</trd>
-	<trd lng="ru">&c_z;&c_a;&c_k;&c_o;&c_n; &c_v;&c_n;&c_je;&c_sh;&c_n;&c_je;&c_j; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>
-      </snc>
-      <snc mrk="operac.ekstera0o.elemento">
-	<dif>
-	  <klr>(de <frm>&tau;&#x2208;<g>R</g></frm> super
-	    <ref cel="ar.0o.MAT">aro</ref> <frm><g>E</g></frm>, kadre de
-	    ekstera <tld/>o <sncref ref="operac.ekstera0o.aro"/> <frm>&#x2219;</frm>
-	    de <frm><g>R</g></frm> super <frm><g>E</g></frm>)</klr>
-	  Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
-	  <frm><g>E</g></frm> al si mem, ke la bildo de <frm><k>x</k></frm>
-	  estas <frm>&tau;&#x2219;<k>x</k></frm>:
-	  <ekz>
-	    la ekstera <tld/>o de <ref cel="vektor.nul0o">nulvektoro</ref> super
-	    <ref cel="spac.afina0o">afina spaco</ref>
-	    <frm><g>E</g></frm> estas <frm>id<sub><g>E</g></sub></frm>.
-	  </ekz>
-	</dif>
-      </snc>
-    </drv>
-
-    <drv mrk="operac.logika0o">
-      <kap>logika <tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>MatVort</bib></fnt>
-      <snc>
-	<dif>
-	  Regulo, kiu asocias <ref cel="propoz.0o.aserto">propozicion</ref>
-	  al unu a&ubreve; pluraj propozicioj, difinante &gcirc;ian
-	  <ref cel="valor.ver0o">vervaloron</ref> &dash; depende de la vervaloro de
-	  la argumentoj &dash; per iu <ref cel="tabel.ver0o">vertabelo</ref>:
-	  <ekz>
-	    ekzistas <frm>4</frm> eblaj unuargumentaj logikaj <tld/>oj
-	    kaj <frm>16</frm> duargumentaj.
-	  </ekz>
-	</dif>
-	<rim>
-	  Logikajn <tld/>ojn eblus difini kiel
-	  <ref cel="operac.0o.MAT"><tld/>ojn</ref> super iu duelementa aro,
-	  prezentanta la eblajn vervalorojn, kaj efektive tia aro, provizite
-	  per konjunkcio, disjunkcio kaj negacio, ricevas strukturon de
-	  <ref cel="algebr.bulea0o.strukturo">bulea algebro</ref>.
-	  Sed por difini logikajn operaciojn ne estus tre
-	  konsekvence uzi tiajn nociojn, kiaj estas aroj a&ubreve; bildigoj, kiuj
-	  ja bazi&gcirc;as sur rezonadoj uzantaj la koncernajn operaciojn.
-	  &Scirc;ajnas pli bonorde difini tian operacion per &gcirc;ia
-	  vertabelo (intuicia nocio), kiu por &ccirc;iu vervaloro de la
-	  <ctl>argumentoj</ctl> donas la vervaloron de la <ctl>rezulto</ctl>.
-	</rim>
-	<refgrp tip="sub">
-	  Unuargumenta operacio:
-	  <ref cel="negaci.0o.logika">negacio</ref>;
-	  duargumentaj operacioj:
-	  <ref cel="disjun.0o.logika">disjunkcio</ref>,
-	  <ref cel="disjun.ekskluziva0o">ekskluziva disjunkcio</ref>,
-	  <ref cel="konjun.0o.logika">konjunkcio</ref>,
-	  <ref cel="implic.0o.logika">implico</ref>,
-	  <ref cel="implic.duobla0o">duobla implico</ref>,
-	  <ref cel="ekviva.0o.logika">ekvivalento</ref>.
-	</refgrp>
-      </snc>
-      <trd lng="de">logische <ind>Operation</ind></trd>
-      <trd lng="en">logical <ind>operation</ind></trd>
       <trdgrp lng="fr">
-	<trd>op&eacute;ration logique</trd>,
-	<trd>fonction logique</trd>
+        <trd>loi de composition</trd>,
+        <trd>op&eacute;ration</trd>
       </trdgrp>
-      <trd lng="pl">sp&oacute;jnik logiczny</trd>
-      <trd lng="ru">&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</ind></trd>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.43  2003/05/13 16:32:56  revo
-  Marc Bavant: mod "oni diras"
+      <trd lng="pl">dzia&lstroke;anie</trd>
+      <trdgrp lng="ru">
+        <trd>&c_z;&c_a;&c_k;&c_o;&c_n; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>,
+        <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+      </trdgrp>
+    </subsnc>
+  </snc>
+  <snc mrk="operac.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Ago plenumata de unuopa komputila komando.
+      <ekz>
+        la komputilo plenumas po 700 miliardoj da glitpunktaj
+        <tld/>oj sekunde.
+      </ekz>
+    </dif>
+    <trd lng="nl">bewerking</trd>
+  </snc>
+  <snc>
+    <dif>
+      Tasko kiun unu a&ubreve; pluraj laboristoj a&ubreve; oficistoj
+      plenumas sur
+      unu laborloko kiel parton de fabrikada procezo, de funkciado
+      de ofico ktp:
+      <ekz>
+        munta <tld/>o;
+      </ekz>
+      <ekz>
+        banka, po&scirc;ta <tld/>o
+        <ref tip="vid" cel="transa.0o">transakcio</ref>
+      </ekz>
+      .
+    </dif>
+    <trd lng="nl">handeling</trd>
+  </snc>
+  <trd lng="en">operation</trd>
+  <trd lng="fr">op&eacute;ration</trd>
+  <trd lng="pt">opera&ccedil;&atilde;o</trd>
+  <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="sv">operation</trd>
+</drv>
 
-  Revision 1.42  2003/05/09 16:31:33  revo
-  Marc Bavant: ekstera ~o: kor interpunkcion en ekz
-  Revision 1.41  2003/04/11 16:32:43  revo
-  Marc Bavant: ~o (elementa): mod dif, +frm en rim
-  Revision 1.40  2003/04/07 16:36:21  revo
-  Marc Bavant: sxangxis magmo al grupoido; ekstera ~o: mod ekz
-  Revision 1.39  2003/02/24 17:34:02  revo
-  Marc Bavant: logika ~o: +ref al ekskluziva disjunkcio
-  Revision 1.38  2003/01/26 17:34:41  revo
-  Marc Bavant: logika ~o: kor dif
-  Revision 1.37  2003/01/02 17:49:17  revo
-  Marc Bavant: ~o (elementa): +refgrp en ekz, +trd pl; ~ato: mod mrk, +uzo MED; ~i MAT: kor ekz; mod fnt "artikolo"
-  Revision 1.36 2002/12/09 17:32:37 revo
-  Marc Bavant: ~o: mod rim; ekstera ~o: mod dif
-  Revision 1.35 2002/11/24 17:34:57 revo
-  Marc Bavant: mod frm; +trd pl
-  Revision 1.34 2002/11/19 17:31:50 revo
-  Marc Bavant: +frm; ~i: mod ekz
-  Revision 1.33 2002/11/05 17:31:56 revo
-  -->
+<drv mrk="operac.0i">
+  <kap><tld/>i</kap>
+  <snc mrk="operac.0i.MED">
+    <uzo tip="fak">MED</uzo>
+    <gra><vspec>tr</vspec></gra>
+    <dif>
+      Fari &hcirc;irurgian <tld/>on:
+      <ekz>
+        oni <tld/>is mian fraton pri apendicito.
+      </ekz>
+    </dif>
+    <trd lng="de">operieren</trd>
+    <trd lng="nl">opereren</trd>
+    <trd lng="sv">operera</trd>
+  </snc>
+  <snc mrk="operac.0i.manipuli">
+    <gra><vspec>ntr</vspec></gra>
+    <dif>
+      Funkcii, manipuli plenumante <tld/>ojn:
+      <ekz>
+        la programo <tld/>as per longaj reeloj,
+      </ekz>
+      <ekz>
+        <tld/>i per algebraj kvantoj.
+      </ekz>
+    </dif>
+    <trd lng="de">arbeiten</trd>
+    <trd lng="nl">werken</trd>
+  </snc>
+  <snc mrk="operac.0i.MAT">
+    <gra><vspec>ntr</vspec></gra>
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+    <dif>
+      Diri, ke aro <frm><g>R</g></frm> <tld/>as super aro
+      <frm><g>E</g></frm>, signifas, ke ekzistas iu
+      <ref cel="operac.ekstera0o.aro">ekstera <tld/>o
+      <sncref ref="operac.ekstera0o.aro"/></ref> de
+      <frm><g>R</g></frm> super <frm><g>E</g></frm>, pri kiu oni
+      fokusi&gcirc;as:
+      <ekz>
+        la <ref cel="ring.0o.MAT">ringo</ref>, kiu <tld/>as super
+        <ref cel="modul.0o.strukt">modulo</ref>;
+      </ekz>
+      <ekz>
+        la <ref cel="spac.vektora0o">vektora spaco</ref>, kiu <tld/>as
+        super <ref cel="spac.afina0o">afina spaco</ref>.
+      </ekz>
+      Simila metaforo validas anka&ubreve; por la elementoj de
+      <frm><g>R</g></frm>, kiam oni parolas pri ilia
+      <ref cel="operac.ekstera0o.elemento">ekstera <tld/>o <sncref/></ref>
+      super <frm><g>E</g></frm>:
+      <ekz>
+        &ccirc;iu vektoro <tld/>as enjekcie super
+        <ref cel="spac.afina0o">afina spaco</ref>.
+      </ekz>
+    </dif>
+    <trd lng="de">operieren</trd>
+    <trdgrp lng="en">
+      <trd>act</trd>,
+      <trd>operate</trd>
+    </trdgrp>
+    <trd lng="ru">&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+  <trd lng="en">operate</trd>
+  <trd lng="fr">op&eacute;rer</trd>
+  <trd lng="pt">operar</trd>
+  <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+</drv>
+
+<drv mrk="operac.0ato">
+  <kap><tld/>ato</kap>
+  <uzo tip="fak">MED</uzo>
+  <snc mrk="operac.0ato.MED">
+    <dif>
+      Paciento sur la <tld/>a tablo.
+    </dif>
+    <trd lng="de">Operierter</trd>
+    <trd lng="nl">pati&euml;nt<klr tip="ind"> (bij operatie)</klr></trd>
+    <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
+  </snc>
+  <snc mrk="operac.0ato.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="stl">EVI</uzo>
+    <fnt><bib>KompLeks</bib><lok>operando</lok></fnt>
+    <dif>
+      <ref tip="dif" cel="argume.0o.donitajxo">Argumento</ref> de <tld/>o.
+    </dif>
+    <rim>
+      Tiu formo devenas analogie de <ctl>dividato</ctl>, <ctl>adiciato</ctl>
+      ks, kaj respegulas similajn formojn en naciaj lingvoj, sed &gcirc;enas
+      la fakto, ke neniu verba senco pravigas tiun pasivan formon. Ja
+      <ctl><tld/>i</ctl> havas alian sencon, cetere netransitivan.
+      &Scirc;ajnas do, ke <ctl>argumento</ctl> sufi&ccirc;as.
+    </rim>
+    <trd lng="de">Operand</trd>
+    <trd lng="en">operand</trd>
+    <trd lng="fr">op&eacute;rande</trd>
+    <trd lng="pl">argument dzia&lstroke;ania</trd>
+    <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_n;&c_d;</trd>
+  </snc>
+</drv>
+
+<drv mrk="operac.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc>
+    <dif>
+      Loko (salono, &ccirc;ambro) ekipita kaj destinita por <tld/>ado.
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Operationssaal</trd>,
+    <trd>Operationsraum</trd>
+  </trdgrp>
+  <trd lng="nl">operatiekamer</trd>
+  <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_a;&c_ja;</trd>
+</drv>
+
+<drv mrk="operac.0umo">
+  <kap><tld/>umo <fnt><aut>Chr. Bertin</aut>: <vrk>Computer Dictionary, English-Esperanto</vrk></fnt></kap>
+  <uzo tip="fak">KOMP</uzo>
+  <snc>
+    <dif>
+      Programaro organizanta la funkciadon de komputilo,
+      sendependa de la aplikaj programoj sed necesa por ilia
+      rulado. <tld lit="O"/>umo administras la aparatajn
+      dispona&jcirc;ojn de komputilo, aran&gcirc;as interagon de la
+      programaj
+      procezoj (taskoj) kun la aparataro, aliaj procezoj kaj kun
+      la uzantoj. <tld lit="O"/>umo zorgas pri memoradministrado,
+      eneligoj, dosieradministrado, vicigo de taskoj kaj mendoj,
+      datumprotekto, kontado, prilaboro de la ordonoj de la
+      laboradministra lingvo. Iam anka&ubreve; aliajn servoprogramojn
+      (utila&jcirc;ojn) kaj tradukilojn oni rigardas parto de
+      <tld/>umo.
+      <ekz>
+        La normo IEEE 1003.1 difinas Uniksecan
+        <tld/>uman interfacon;
+      </ekz>
+      <ekz>
+        la &scirc;elo estas
+        interpretilo transmetanta <tld/>umajn komandojn al la
+        <tld/>umkerno
+      </ekz>
+    </dif>
+    <ref tip="malprt" cel="progra.0aro.sistema">sistema programaro</ref>
+    <rim>
+      Alia uzata termino estas
+      <ref tip="sin" cel="mastr.0uma.sistemo">mastruma
+      sistemo</ref>. Verdire, <ctl>mastrumado</ctl> estas nur
+      unu el la multaj funkcioj de <tld/>umo, kaj ne la plej
+      grava funkcio (la celatan sencon pli trafe esprimus
+      <ctl>administra sistemo</ctl>). Trovi vorto(j)n kiu(j)
+      precize priskribus la tutan nocion estas afero malfacila a&ubreve;
+      malebla; tial aperis la formo <ctl>operaciumo</ctl>, kiu
+      utiligas la pli internacian parton de la termino kaj havas
+      la avanta&gcirc;on de unuvorteco. Nur la vivo povas decidi, kiu
+      formo venkos.
+    </rim>
+    <trd lng="cs">opera&ccaron;n&iacute; syst&eacute;m</trd>
+    <trd lng="de">Betriebssystem</trd>
+    <trd lng="en">operating system</trd>
+    <trd lng="fr">syst&egrave;me d'exploitation</trd>
+    <trd lng="nl">besturingssysteem</trd>
+    <trd lng="pt">sistema operacional</trd>
+    <trd lng="hu">oper&aacute;ci&oacute;s rendszer</trd>
+    <trd lng="pl">system operacyjny</trd>
+    <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_a;&c_ja; &c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;</trd>
+    <trd lng="sv">operativsystem</trd>
+  </snc>
+</drv>
+
+<drv mrk="operac.0esploro">
+  <kap><tld/>esploro</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Matematika fako studanta metodojn por prepari decidojn
+      per matematika priskribo de la esencaj faktoroj rolantaj en
+      malsimplaj sistemoj el diversaj terenoj de la homa agado
+      (militaj, ekonomiaj, industriaj).
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>operational research</trd>,
+    <trd>operations research</trd>
+  </trdgrp>
+  <trd lng="fr">recherche op&eacute;rationnelle</trd>
+  <trd lng="ru">&c_i;&c_s;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je; &c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_j;</trd>
+</drv>
+
+<drv mrk="operac.interna0o">
+  <kap>interna <tld/>o<fnt><bib>Deneva</bib></fnt>, ena <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="operac.0o.MAT"><tld lit="O"/>o <sncref/></ref>
+      <klr>(kontraste al
+      <ref cel="operac.ekstera0o.aro">ekstera <tld/>o</ref>)</klr>.
+    </dif>
+  </snc>
+  <trd lng="de">innere <ind>Verkn&uuml;pfung</ind></trd>
+  <trd lng="en">internal composition <ind>law</ind></trd>
+  <trd lng="fr">loi de composition interne</trd>
+  <trd lng="pl">dzia&lstroke;anie wewn&eogonek;trzne</trd>
+  <trd lng="ru">&c_z;&c_a;&c_k;&c_o;&c_n; &c_v;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_je;&c_j; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>
+</drv>
+
+<drv mrk="operac.ekstera0o">
+  <kap>ekstera <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="operac.ekstera0o.aro">
+    <fnt><bib>EKV</bib><lok>&para;110</lok></fnt>
+    <dif>
+      <klr>(de <ref cel="ar.0o.MAT">aro</ref> <frm><g>R</g></frm>
+      super aro <frm><g>E</g></frm>)</klr>
+      <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
+      <frm><g>R</g>&#xd7;<g>E</g></frm> al <frm><g>E</g></frm>:
+      <ekz>
+        la bildigo, kiu al entjero <frm><k>n</k></frm> kaj
+        elemento <frm><k>x</k></frm> de grupoido <frm>(<g>E</g>,&#x2020;)</frm>
+        asocias <frm><k>n</k>&#x2219;<k>x</k> =
+        <k>x</k>&#x2020;<k>x</k>&#x2020;...&#x2020;<k>x</k></frm>
+        <klr>(<frm><k>n</k></frm> termoj en la dekstra flanko)</klr>, estas
+        ekstera <tld/>o de la entjeroj super <frm><g>E</g></frm>.
+      </ekz>
+    </dif>
+    <trd lng="de">&auml;u&szlig;ere <ind>Verkn&uuml;pfung</ind></trd>
+    <trd lng="en">external composition <ind>law</ind></trd>
+    <trd lng="fr">loi de composition externe</trd>
+    <trd lng="pl">dzia&lstroke;anie zewn&eogonek;trzne</trd>
+    <trd lng="ru">&c_z;&c_a;&c_k;&c_o;&c_n; &c_v;&c_n;&c_je;&c_sh;&c_n;&c_je;&c_j; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>
+  </snc>
+  <snc mrk="operac.ekstera0o.elemento">
+    <dif>
+      <klr>(de <frm>&tau;&#x2208;<g>R</g></frm> super
+      <ref cel="ar.0o.MAT">aro</ref> <frm><g>E</g></frm>, kadre de
+      ekstera <tld/>o <sncref ref="operac.ekstera0o.aro"/> <frm>&#x2219;</frm>
+      de <frm><g>R</g></frm> super <frm><g>E</g></frm>)</klr>
+      Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
+      <frm><g>E</g></frm> al si mem, ke la bildo de <frm><k>x</k></frm>
+      estas <frm>&tau;&#x2219;<k>x</k></frm>:
+      <ekz>
+        la ekstera <tld/>o de <ref cel="vektor.nul0o">nulvektoro</ref> super
+        <ref cel="spac.afina0o">afina spaco</ref>
+        <frm><g>E</g></frm> estas <frm>id<sub><g>E</g></sub></frm>.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="operac.logika0o">
+  <kap>logika <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Regulo, kiu asocias <ref cel="propoz.0o.aserto">propozicion</ref>
+      al unu a&ubreve; pluraj propozicioj, difinante &gcirc;ian
+      <ref cel="valor.ver0o">vervaloron</ref> &dash; depende de la vervaloro de
+      la argumentoj &dash; per iu <ref cel="tabel.ver0o">vertabelo</ref>:
+      <ekz>
+        ekzistas <frm>4</frm> eblaj unuargumentaj logikaj <tld/>oj
+        kaj <frm>16</frm> duargumentaj.
+      </ekz>
+    </dif>
+    <rim>
+      Logikajn <tld/>ojn eblus difini kiel
+      <ref cel="operac.0o.MAT"><tld/>ojn</ref> super iu duelementa aro,
+      prezentanta la eblajn vervalorojn, kaj efektive tia aro, provizite
+      per konjunkcio, disjunkcio kaj negacio, ricevas strukturon de
+      <ref cel="algebr.bulea0o.strukturo">bulea algebro</ref>.
+      Sed por difini logikajn operaciojn ne estus tre
+      konsekvence uzi tiajn nociojn, kiaj estas aroj a&ubreve; bildigoj, kiuj
+      ja bazi&gcirc;as sur rezonadoj uzantaj la koncernajn operaciojn.
+      &Scirc;ajnas pli bonorde difini tian operacion per &gcirc;ia
+      vertabelo (intuicia nocio), kiu por &ccirc;iu vervaloro de la
+      <ctl>argumentoj</ctl> donas la vervaloron de la <ctl>rezulto</ctl>.
+    </rim>
+    <refgrp tip="sub">
+      Unuargumenta operacio:
+      <ref cel="negaci.0o.logika">negacio</ref>;
+      duargumentaj operacioj:
+      <ref cel="disjun.0o.logika">disjunkcio</ref>,
+      <ref cel="disjun.ekskluziva0o">ekskluziva disjunkcio</ref>,
+      <ref cel="konjun.0o.logika">konjunkcio</ref>,
+      <ref cel="implic.0o.logika">implico</ref>,
+      <ref cel="implic.duobla0o">duobla implico</ref>,
+      <ref cel="ekviva.0o.logika">ekvivalento</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">logische <ind>Operation</ind></trd>
+  <trd lng="en">logical <ind>operation</ind></trd>
+  <trdgrp lng="fr">
+    <trd>op&eacute;ration logique</trd>,
+    <trd>fonction logique</trd>
+  </trdgrp>
+  <trd lng="pl">sp&oacute;jnik logiczny</trd>
+  <trd lng="ru">&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.44 2003/05/16 16:30:51 revo
+Sergio Pokrovskij: snc-mrk
+
+Revision 1.43 2003/05/13 16:32:56 revo
+Marc Bavant: mod "oni diras"
+
+Revision 1.42 2003/05/09 16:31:33 revo
+Marc Bavant: ekstera ~o: kor interpunkcion en ekz
+Revision 1.41 2003/04/11 16:32:43 revo
+Marc Bavant: ~o (elementa): mod dif, +frm en rim
+Revision 1.40 2003/04/07 16:36:21 revo
+Marc Bavant: sxangxis magmo al grupoido; ekstera ~o: mod ekz
+Revision 1.39 2003/02/24 17:34:02 revo
+Marc Bavant: logika ~o: +ref al ekskluziva disjunkcio
+Revision 1.38 2003/01/26 17:34:41 revo
+Marc Bavant: logika ~o: kor dif
+Revision 1.37 2003/01/02 17:49:17 revo
+Marc Bavant: ~o (elementa): +refgrp en ekz, +trd pl; ~ato: mod mrk, +uzo MED; ~i MAT: kor ekz; mod fnt "artikolo"
+Revision 1.36 2002/12/09 17:32:37 revo
+-->
 </vortaro>
