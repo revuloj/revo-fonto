@@ -7,25 +7,14 @@
 <drv mrk="integr2.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PV</bib></fnt>
+  <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
   <snc mrk="integr2.0o.malderivajxo">
     <dif>
       <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
       Ajna <ref tip="dif" cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de
       &gcirc;i; simb. &#x222b;f(x)dx:
       <ekz>
-        du <tld/>oj de unu sama funkcio diferencas per konstanto;
-      </ekz>
-      <ekz>
-        la signon &#x222b; oni nomas <ind><tld/>signo</ind>.
-        <trd lng="de">Integralzeichen</trd>
-        <trd lng="en">integral <ind>sign</ind></trd>
-        <trdgrp lng="fr">
-          <trd>signe d'int&eacute;gration</trd>,
-          <trd>signe somme<klr tip="ind"> (signe d'int&eacute;gration)</klr></trd>
-        </trdgrp>
-        <trd lng="nl">integraalteken</trd>
-        <trd lng="ru">&c_z;&c_n;&c_a;&c_k; &c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
+        du <tld/>oj de unu sama funkcio diferencas per konstanto.
       </ekz>
     </dif>
   </snc>
@@ -45,6 +34,13 @@
         la <tld/>o de la deriva&jcirc;o de f inter a kaj b egalas f(b)-f(a).
       </ekz>
     </dif>
+    <adm>
+      Kiel nomi a kaj b? Bricard (p. 21) nomas ilin "randoj", sed
+      lia uzo de tiu termino en aliaj kampoj (vd p. 17) similas al
+      niaj "baro", "infimo", "supremo"..., aux (vd p. 26) al nia
+      "ekstremo".
+      <aut>MB</aut>
+    </adm>
     <rim>
       Surbaze de pli komplika difino oni povas konsiderinde &gcirc;eneraligi la
       koncepton. Vd
@@ -88,12 +84,16 @@
       (2)&#xa0;la plej internacia kaj klare rekonebla radiko por
       la matematika operacio estas <ctl>integral</ctl>, tial
       <ctl>integrali</ctl> estas radik&scirc;para, preciza kaj sistema (kp
-      "<ref tip="vid" cel="difere2.0i">diferenciali</ref>&leftquot;).
+      &leftquot;<ref tip="vid" cel="difere2.0i">diferenciali</ref>&rightquot;).
     </rim>
     <adm>
-      La alvoko al &rightquot;diferenciali" por pravigi "integrali" ne estas
+      (1) La alvoko al "diferenciali" por pravigi "integrali" ne estas
       tre konvinka. Per samspeca argumento eblus diri, ke "integri"
-      estas pli bona, cxar paralela al "derivi". <aut>MB</aut>
+      estas pli bona, cxar paralela al "derivi". 
+      (2) Bricard uzas "integri" kaj "integralo" (p. 22,23) en la
+      kampo de diferencialaj ekvacioj por signifi: "trovi solvon" kaj
+      "solvo". Cxu indas enkonduki tiajn sencojn en REVO?
+      <aut>MB</aut>
     </adm>
   </snc>
   <trd lng="de">integrieren</trd>
@@ -106,7 +106,7 @@
 <drv mrk="integr2.0a">
   <kap><tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib><lok>artikolo: kalkulo</lok></fnt>
+  <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
   <snc>
     <dif>
       Rilata al <tld/>oj kaj <tld/>ado.
@@ -181,10 +181,32 @@
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
 </drv>
 
+<drv mrk="integr2.0signo">
+  <kap><tld/>signo</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Signo &#x222b;, aperanta en skriba&jcirc;oj pri <tld/>oj:
+      <ekz>
+        derivi sub la <tld/>signo.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Integralzeichen</trd>
+  <trd lng="en">integral <ind>sign</ind></trd>
+  <trdgrp lng="fr">
+    <trd>signe d'int&eacute;gration</trd>,
+    <trd>signe somme<klr tip="ind"> (signe d'int&eacute;gration)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">integraalteken</trd>
+  <trd lng="ru">&c_z;&c_n;&c_a;&c_k; &c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
+</drv>
+
 <drv mrk="integr2.difinita0o">
   <kap>difinita <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
+  <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
   <snc>
     <ref tip="dif" cel="integr2.0o.sumo"><tld/>o
     <sncref ref="integr2.0o.sumo"/>.</ref>
@@ -252,7 +274,7 @@
 <drv mrk="integr2.nedifinita0o">
   <kap>nedifinita <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
+  <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
   <snc>
     <ref tip="dif" cel="integr2.0o.malderivajxo"><tld/>o
     <sncref ref="integr2.0o.malderivajxo"/>.</ref>
@@ -302,6 +324,8 @@
 </art>
 <!--
 $Log$
+Revision 1.12  2001/12/17 17:32:50  revo
+Marc Bavant: +fnt, -komento
 Revision 1.11 2001/11/11 19:20:34 revo
 Paul Peeraerts: ald trd nl
 Revision 1.10 2001/07/29 19:28:35 revo
