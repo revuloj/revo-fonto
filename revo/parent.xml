@@ -2,33 +2,40 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<ofc>*</ofc>
-<rad>parentez</rad>/o
-</kap>
-<drv mrk="parent.0o">
-<kap><ofc>*</ofc><tld/>o</kap>
-<snc num="1">
-<dif>
-Signoj per kiuj oni apartigas de la kunteksto kompletigan a&ubreve; klarigan frazon a&ubreve; vorton. 
-</dif>
-<refgrp tip="sin">
-<ref cel="kramp.0o">krampo</ref>.
-</refgrp>
-<trd lng="nl">haakje</trd>
-</snc>
-<snc num="2">
-<dif>
-Frazo a&ubreve; vorto tiele apartigita.  
-</dif>
-<trd lng="nl">parenthese</trd>
-</snc>
-<trd lng="en">parenthesis</trd>
-</drv>
-</art>
-<!--
-$Log$
--->
-</vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>parentez</rad>/o
+    </kap>
+    <drv mrk="parent.0o">
+      <kap><ofc>*</ofc><tld/>o</kap>
+      <snc mrk="parent.0o.subfrazo">
+        <uzo tip="fak">GRA</uzo>
+        <dif>
+          Klariga kromparto de teksto (vorto, subfrazo a&ubreve; frazoj),
+          apartigita per specialaj interpunkciaj signoj, kutime
+          <ref cel="kramp.0o.TIP">krampoj</ref> a&ubreve; haltostrekoj.
+        </dif>
+        <trd lng="nl">parenthese</trd>
+        <trd lng="ru">&c_t;&c_je;&c_k;&c_s;&c_t; &c_v; <ind>&c_s;&c_k;&c_o;&c_b;&c_k;&c_a;&c_h;</ind></trd>
+      </snc>
+      <snc mrk="parent.0o.krampo">
+        <uzo tip="fak">TIP</uzo>
+        <dif>
+          <ref tip="dif" cel="kramp.0o.TIP">Krampo</ref>.
+        </dif>
+        <refgrp tip="sin">
+          <ref cel="kramp.0o">krampo</ref>.
+        </refgrp>
+        <trd lng="nl">haakje</trd>
+      </snc>
+      <trd lng="en">parenthesis</trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.6  2001/08/22 18:14:31  revo
+  Paul Peeraerts: ald trd nl
 
+  -->
+</vortaro>
