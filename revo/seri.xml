@@ -216,9 +216,10 @@
   <fnt><bib>EKV</bib><lok>&para;348</lok></fnt>
   <snc>
     <dif>
-      <ref tip="super" cel="seri.0o_de_funkcioj"><tld lit="S"/>o de 
+      <klr>(&ccirc;irka&ubreve; punkto x<sub>0</sub>)</klr>
+      <ref tip="super" cel="seri.0o.de_funkcioj"><tld lit="S"/>o de 
       funkcioj</ref>, kies &gcirc;enerala termo u<sub>n</sub>(x) havas
-      formon a<sub>n</sub>x<sup>n</sup>:
+      formon a<sub>n</sub>(x-x<sub>0</sub>)<sup>n</sup>:
       <ekz>
         la partaj sumoj de potenco<tld/>o estas polinomaj funkcioj;
       </ekz>
@@ -226,6 +227,11 @@
         elvolvi funkcion en potenco<tld/>on.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="cirkl.konvergxo0o">konver&gcirc;ocirklo</ref>,
+       <ref cel="interv.konvergx0o">konver&gcirc;intervalo</ref>,
+       <ref cel="radius.konvergxo0o">konver&gcirc;oradiuso</ref>.
+    </refgrp>
   </snc>
   <trd lng="de">Potenzreihe</trd>
   <trd lng="en">power <ind>series</ind></trd>
@@ -233,7 +239,7 @@
   <trd lng="ru">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_n;&c_o;&c_j; <ind>&c_r;&c_ja;&c_d;</ind></trd>
 </drv>
 
-<drv mrk="seri.0o_de_funkcioj">
+<drv mrk="seri.0o.de_funkcioj">
   <kap><tld/>o de funkcioj<fnt><bib>MatStokTerm</bib><lok>p. 28</lok></fnt>, 
   funkci<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -263,15 +269,14 @@
 </art>
 <!--
 $Log$
+Revision 1.20  2002/06/02 17:33:45  revo
+Marc Bavant: kor "sse"
 Revision 1.19  2002/05/27 17:19:56  revo
 Marc Bavant: potenco~o: mod fnt
-
 Revision 1.18  2002/05/12 16:36:15  revo
 Marc Bavant: funkci~o: +fnt en kap
-
 Revision 1.17  2002/03/11 17:32:05  revo
 Marc Bavant: ~o MAT: +ref al resto, parta sumo, konvergxA
-
 Revision 1.16  2002/02/23 19:57:25  revo
 Marc Bavant: ~o MAT: +fnt, mod trd ru, +adm; +drv ~o de funkcioj, potenco~o, entjera ~o
 Revision 1.15  2002/02/08 17:32:42  revo
