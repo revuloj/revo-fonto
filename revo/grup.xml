@@ -3,8 +3,10 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap><ofc>*</ofc>
-<rad>grup</rad>/o</kap>
+<kap>
+  <ofc>*</ofc>
+  <rad>grup</rad>/o
+</kap>
 <drv mrk="grup.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
@@ -69,20 +71,22 @@
       en <em>E</em>, kaj ke por &ccirc;iu elemento en <em>E</em> ekzistas
       &gcirc;ia <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>:
       <ekz>
-        <ind>adicia <tld/>o</ind> <klr>(komuteca <tld/>o, kies operacio estas 
+        <ind>adicia <tld/>o</ind> <klr>(komuteca <tld/>o, kies operacio estas
         adicie signata)</klr>
         <fnt><bib>MatVort</bib></fnt>;
         <trd lng="de">additive <ind>Gruppe</ind></trd>
         <trd lng="en">additive <ind>group</ind></trd>
         <trd lng="fr">groupe additif</trd>
+        <trd lng="pl">grupa addytywna</trd>
         <trd lng="ru">&c_a;&c_d;&c_d;&c_i;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
       </ekz>
       <ekz>
-        <ind>multiplika <tld/>o</ind> <klr>(<tld/>o, kies operacio estas 
+        <ind>multiplika <tld/>o</ind> <klr>(<tld/>o, kies operacio estas
         multiplike signata)</klr>;
         <trd lng="de">multiplikative <ind>Gruppe</ind></trd>
         <trd lng="en">multiplicative <ind>group</ind></trd>
         <trd lng="fr">groupe multiplicatif</trd>
+        <trd lng="pl">grupa multiplikatywna</trd>
         <trd lng="ru">&c_m;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_p;&c_l;&c_i;&c_k;&c_a;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
       </ekz>
       <ekz>
@@ -91,6 +95,29 @@
         <ref cel="neuxtr.0igebla.MAT">ne&ubreve;trigeblaj</ref>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      Specifaj grupoj:
+      <ref cel="grup.0o_de_nmodulaj_restoklasoj"><tld/>o de n-modulaj restoklasoj</ref>,
+      <ref cel="grup.alterna0o">alterna <tld/>o</ref>,
+      <ref cel="grup.fundamenta0o">fundamenta <tld/>o</ref>,
+      <ref cel="grup.galeza0o">galeza <tld/>o</ref>,
+      <ref cel="grup.simetria0o">simetria <tld/>o</ref>,
+      <ref cel="grup.kvocienta0o">kvocienta <tld/>o</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      Atributo de grupo:
+      <ref cel="ord.0o.grupo">ordo <sncref/></ref>;
+      specifaj ecoj de grupo:
+      <ref cel="abel1.a0a">abela</ref>,
+      <ref cel="arhxim.a0a.grupo">ar&hcirc;imeda</ref>,
+      <ref cel="cikl.0a.grupo">cikla</ref>,
+      <ref cel="komut.0eca.magmo">komuteca</ref>,
+      <ref cel="ord.0a.aro">orda</ref>,
+      <ref cel="simpl.0a.grupo">simpla</ref>,
+      <ref cel="topolo.0a.grupo">topologia</ref>,
+      <ref cel="transi1.0a.grupo">transitiva</ref>.
+    </refgrp>
+    <trd lng="pl">grupa<klr tip="ind"> (struktura algebraiczna)</klr></trd>
   </snc>
   <trd lng="cs">skupina</trd>
   <trd lng="de">Gruppe</trd>
@@ -171,6 +198,7 @@
     <trd>demi-groupe</trd>,
     <trd>semi-groupe</trd>
   </trdgrp>
+  <trd lng="pl">p&oacute;&lstroke;grupa</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_o;&c_n;&c_o;&c_i;&c_d;</trd>,
     <trd>&c_p;&c_o;&c_l;&c_u;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
@@ -201,7 +229,42 @@
   <trd lng="es">subconjunto</trd>
   <trd lng="fr">sous-groupe</trd>
   <trd lng="nl">ondergroep</trd>
+  <trd lng="pl">podgrupa</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
+</drv>
+
+<drv mrk="grup.faktor0o">
+  <kap>faktor<tld/>o</kap>
+    <uzo tip="fak">MAT</uzo>
+  <fnt><bib>EKV</bib><lok>&para;126</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="grup.kvocienta0o">kvociento-<tld/>o.</ref>
+  </snc>
+</drv>
+
+<drv mrk="grup.0o_de_nmodulaj_restoklasoj">
+  <kap><tld/>o de n-modulaj restoklasoj</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(por <ref cel="entjer.0o">entjero</ref> n>1)</klr>
+      <ref cel="grup.kvocienta0o">Kvocienta <tld/>o</ref> de la
+      adicia <tld/>o de entjeroj per la sub<tld/>o de n-obloj; alidire:
+      aro de &ccirc;iuj 
+      <ref cel="klas.nmodularesto0o">n-modulaj restoklasoj</ref>, provizita
+      per la adicio (p+n<em>Z</em>)+(q+n<em>Z</em>)=(p+q)+n<em>Z</em>:
+      <ekz>
+        la <tld/>on de n-modulaj restoklasoj oni signas per 
+        <em>Z</em><sub>n</sub> a&ubreve; <em>Z</em>/n<em>Z</em>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="cikl.0a.grupo">cikla.</ref>
+  </snc>
+  <trd lng="de">Restklassengruppe</trd>
+  <trd lng="en">residue class <ind>group</ind></trd>
+  <trd lng="fr">groupe des classes r&eacute;siduelles</trd>
+  <trd lng="pl">grupa reszt</trd>
+  <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_a; &c_v;&c_y;&c_ch;&c_je;&c_t;&c_o;&c_v;</trd>
 </drv>
 
 <drv mrk="grup.alterna0o">
@@ -219,36 +282,8 @@
   <trd lng="de">alternierende <ind>Gruppe</ind></trd>
   <trd lng="en">alternating <ind>group</ind></trd>
   <trd lng="fr">groupe <ind>altern&eacute;</ind></trd>
+  <trd lng="pl">grupa alternuj&aogonek;ca</trd>
   <trd lng="ru">&c_z;&c_n;&c_a;&c_k;&c_o;&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
-</drv>
-
-<drv mrk="grup.arhximeda0o">
-  <kap>ar&hcirc;imeda <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      Tia adicia <ref tip="super" cel="grup.0o.MAT">grupo</ref>, provizita
-      per
-      <ref cel="tut.0eca.rilato">tuteca</ref>
-      <ref cel="rilat.ordo0o">ordo-rilato</ref>, ke por &ccirc;iuj du strikte
-      <ref cel="poziti.0a.nombro">pozitivaj</ref> elementoj x kaj y en &gcirc;i
-      ekzistas tia entjero n, ke n.x&#8805;y:
-      <ekz>
-        la reeloj konsistigas ar&hcirc;imedan <tld/>on.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="arhxim.0o">Ar&hcirc;imedo</ref>.
-    </refgrp>
-  </snc>
-  <adm>
-    Fonto trovenda. <aut>MB</aut>
-  </adm>
-  <trd lng="de">archimedisch geordnete <ind>Gruppe</ind></trd>
-  <trd lng="en">Archimedean <ind>group</ind></trd>
-  <trd lng="fr">groupe archim&eacute;dien</trd>
-  <trd lng="nl">Archimedische <ind>groep</ind></trd>
-  <trd lng="ru">&c_a;&c_r;&c_h;&c_i;&c_m;&c_je;&c_d;&c_o;&c_v;&c_a; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="grup.fundamenta0o">
@@ -276,6 +311,9 @@
     <trd>groupe fondamental</trd>,
     <trd>groupe de Poincar&eacute;</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>grupa podstawowa</trd>,
+    <trd>grupa fundamentalna</trd></trdgrp> 
   <trdgrp lng="ru">
     <trd>&c_f;&c_u;&c_n;&c_d;&c_a;&c_m;&c_je;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>,
     <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a; &c_P;&c_u;&c_a;&c_n;&c_k;&c_a;&c_r;&c_je;</trd>
@@ -314,6 +352,7 @@
   to K, of an equation)</klr></ind></trd>
   <trd lng="fr">groupe de Galois<klr tip="ind"> (de K' sur K, d'une
   &eacute;quation)</klr></trd>
+  <trd lng="pl">grupa Galois</trd>
   <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a; &c_G;&c_a;&c_l;&c_u;&c_a;<klr tip="ind"> (K' &c_n;&c_a;&c_d; K,
   &c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
   <refgrp tip="vid">
@@ -324,6 +363,39 @@
   </adm>
 </drv>
 
+<drv mrk="grup.kvocienta0o">
+  <kap>kvocienta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV2</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="grup.0o.MAT">grupo</ref> G rilate al
+      <ref cel="invari.0a.subgrupo">invarianta</ref> subgrupo H de
+      &gcirc;i)</klr>
+      La aro de &ccirc;iuj 
+      <ref tip="prt" cel="klas.flanka0o">flankaj klasoj</ref>
+      de G rilate al H, provizita per la operacio (aH).(bH)=(a.b)H; simb. G/H.
+    </dif>
+    <rim>
+      Ni preferas tiun terminon al la sinonima, malpli travidebla
+      <ref tip="sin" cel="grup.faktor0o">faktor<tld/>o</ref>. Notindas, ke 
+      trovi&gcirc;as anka&ubreve; <ctl>kvociento<tld/>o</ctl> en
+      <fnt><bib>MatStokTerm</bib><lok>p. 19</lok></fnt>.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Quotientengruppe</trd>,
+    <trd>Faktorgruppe</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>quotient <ind>group</ind></trd>,
+    <trd>factor <ind>group</ind></trd>
+  </trdgrp>
+  <trd lng="fr">groupe quotient</trd>
+  <trd lng="pl">grupa ilorazowa</trd>
+  <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;-&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
+</drv>
+
 <drv mrk="grup.simetria0o">
   <kap>simetria <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -332,33 +404,34 @@
     <dif>
       <klr>(de finia aro <em>E</em>)</klr>
       <ref tip="super" cel="grup.0o.MAT">Grupo</ref>, konsistanta el la aro
-      de &ccirc;iuj <ref cel="bijekc.0o">bijekcioj</ref> super <em>E</em>, 
-      provizita per la operacio <ref cel="lig.kun0o.MAT">kunligo</ref>; 
+      de &ccirc;iuj <ref cel="bijekc.0o">bijekcioj</ref> super <em>E</em>,
+      provizita per la operacio <ref cel="lig.kun0o.MAT">kunligo</ref>;
       alidire: <tld/>o de &ccirc;iuj <ref cel="substi.0o.MAT">substituoj</ref>
       super <em>E</em>.
     </dif>
   </snc>
   <trd lng="de">symmetrische <ind>Gruppe</ind></trd>
   <trd lng="en">symmetrical <ind>group</ind></trd>
-  <trd lng="fr">groupe <ind>sym&eacute;trique</ind></trd>
+  <trd lng="fr">groupe sym&eacute;trique</trd>
+  <trd lng="pl">grupa symetryczna</trd>
   <trd lng="ru">&c_s;&c_i;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.24  2002/06/02 17:32:45  revo
+Revision 1.25 2002/07/09 17:34:29 revo
+Alejandro Mejia Greene: ald 3 his trd
+Revision 1.24 2002/06/02 17:32:45 revo
 Marc Bavant: fundamenta ~o: mod "irejo" al "vojo", "lacxo" al "fermita vojo"
-
-Revision 1.23  2002/05/13 16:32:26  revo
+Revision 1.23 2002/05/13 16:32:26 revo
 Marc Bavant: fundamenta ~o: kor trd fr; +drv duon~o
-
-Revision 1.22  2002/05/12 16:35:22  revo
+Revision 1.22 2002/05/12 16:35:22 revo
 Marc Bavant: ~o MAT: +ekz; simetria ~o: mod trd en; sub~o: +trd en; alterna ~o: kor ref al simetria ~o
-Revision 1.21  2002/05/03 16:36:12  revo
+Revision 1.21 2002/05/03 16:36:12 revo
 Marc Bavant: mod "monojdo" al "monoido"
-Revision 1.20  2002/02/04 17:30:59  revo
+Revision 1.20 2002/02/04 17:30:59 revo
 Marc Bavant: ~o MAT: mod fnt; galeza ~o: kor trd de; +drv simetria ~o, alterna ~o
-Revision 1.19  2002/01/29 17:32:35  revo
+Revision 1.19 2002/01/29 17:32:35 revo
 Paul Peeraerts: ald trd nl
 Revision 1.18 2002/01/13 17:31:15 revo
 Marc Bavant: +drv galeza ~o; sub~o: +fnt, +klr en dif
@@ -367,4 +440,3 @@ Marc Bavant: ~o: +ekz, +fnt; +drv arhximeda ~o; fundamenda ~o: +adm, +trd
 de/en
 -->
 </vortaro>
-
