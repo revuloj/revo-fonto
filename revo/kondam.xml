@@ -1,141 +1,605 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>*</ofc>
-      <rad>kondamn</rad>/i
-    </kap>
-    <drv mrk="kondam.0i">
-      <kap><ofc>*</ofc><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
- <dif>
-   Ju&gcirc;e deklari iun kulpa kaj difini la merititan punon:
-   <ekz>
-     <tld/>i iun al monpuno, al morto<fnt>Z</fnt>,
-   </ekz><ekz>
-     al la ju&gcirc;okostoj;
-   </ekz><ekz>
-     <uzo tip="stl">FIG</uzo>
-     mi estas <tld/>ita <klr>(nepre devigita)</klr> longan tempon
-     vagadi en la nokto<fnt>Z</fnt>;
-   </ekz><ekz>
-     <uzo tip="stl">FIG</uzo>
-     mi estis <tld/>ita de la malsano resti du semajnojn en la lito;
-   </ekz><ekz>
-     <uzo tip="stl">FIG</uzo>
-     &ccirc;iuj niaj tiucelaj projektoj estas <tld/>itaj al malsukceso;
-   </ekz><ekz>
-     <uzo tip="stl">FIG</uzo>
-     viaj kalkuloj estas <tld/>itaj al mal&gcirc;usteco
-     <klr>(neeviteble, nepre mal&gcirc;ustaj)</klr>.
-   </ekz>
- </dif>
- <refgrp tip="sin">
-   <ref cel="verdik.0i">verdikti</ref>.
- </refgrp>
- <trd lng="de">verurteilen</trd>
- <trdgrp lng="en">
-   <trd>convict</trd>,
-   <trd>sentence</trd>,
-   <trd>issue <ind>judgement</ind> against<klr> (p.p. nekrima
-       procedo)</klr></trd>,
-   <trd>find <ind>guilty</ind></trd>
- </trdgrp>
-      </snc>
-      <snc>
- <dif>
-   Jure deklari ion sufi&ccirc;a motivo, por ke la farinto estu le&gcirc;e punata:
-   <ekz>
-     <tld/>i malbonan libron;
-   </ekz><ekz>
-     la kodekso <tld/>as la malveran ateston;
-   </ekz><ekz>
-     estas agoj, kiujn la moralo <tld/>as, sed kiujn ne <tld/>as la
-     le&gcirc;o.
-   </ekz>
- </dif>
- <trd lng="de">verdammen</trd>
-      </snc>
-      <snc>
- <dif>
-   Deklari iun malprava, ion ripro&ccirc;inda:
-   <ekz>
-     ne a&ubreve;skultinte ne <tld/>u<fnt><bib>PrV</bib></fnt>;
-   </ekz><ekz>
-     <tld/>i projekton, parolon malican;
-   </ekz><ekz>
-     vi <tld/>as vin mem per tiu konfeso;
-   </ekz><ekz>
-     tiu doktrino estas <tld/>ita de la faktoj, de siaj konsekvencoj.
-   </ekz>
- </dif>
- <trd lng="de">ablehnen</trd>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_a;&c_s;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_y;&c_s;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
+<art mrk="$Id$">
+<kap>
+  <ofc>*</ofc>
+  <rad>kondamn</rad>/i
+</kap>
+<drv mrk="kondam.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="kondam.0i.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <subsnc mrk="kondam.0i.deklari_iun_puninda">
+      <uzo tip="klr">(iun)</uzo>
+      <dif>
+        Per ju&gcirc;o pruvi
+        <ref cel="pun.0inda.malbonaginto">puninda <sncref/></ref>
+        kaj difini la merititan punon:
+        <ekz>
+          <ind><tld/>i al morto</ind>,
+          <trdgrp lng="fr">
+            <trd><ind>condamner</ind> &agrave; mort</trd>,
+            <trd><ind>condamner</ind> &agrave; la peine capitale</trd>
+          </trdgrp>
+        </ekz>
+        <ekz>
+          al <ref cel="pun.mon0o">monpuno</ref>,
+        </ekz>
+        <ekz>
+          al la <ref cel="jugx.0okostoj">ju&gcirc;okostoj</ref>;
+        </ekz>
+        <ekz>
+          unu atestanto ne sufi&ccirc;as, por <tld/>i homon al morto
+          <fnt><bib>MT</bib><lok>&Nom; 35:30</lok></fnt>;
+        </ekz>
+        <ekz>
+          ili <tld/>u lin al <ref cel="pag.pun0o.monpuno">punpago</ref>
+          de cent ar&gcirc;entaj moneroj
+          <fnt><bib>MT</bib><lok>&Rea; 22:19</lok></fnt>;
+        </ekz>
+        <ekz>
+          mi <tld/>is kelkajn kulpajn <klr>[sakrilegiulojn]</klr> al la sufoko,
+          multajn en la minejojn <klr>(al <ref cel="labor.pun0o">punlaboro</ref>
+          en minejoj)</klr>, &ccirc;iujn al la bastonado
+          <fnt><bib>Far1</bib><lok>&ccirc;ap. 23</lok></fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="verdik.0i">verdikti</ref>.
+      </refgrp>
+      <rim>
+        La subjekto de la verbo ofte indikas ju&gcirc;anton, tribunalon
+        a&ubreve; le&gcirc;on, sed povas montri anka&ubreve; la verdikton
+        (
+        <ekz>
+          mi ne opinias, ke li havas la rajton elparoli verdikton,
+          kiu <tld/>as milojn da malfeli&ccirc;aj esta&jcirc;oj
+          <fnt><bib>Marta</bib></fnt>
+        </ekz>
+        )
+        a&ubreve; (metafore kaj malofte) la faktojn, kiuj pruvas la kulpon
+        (
+        <ekz>
+          vin <tld/>as via bu&scirc;o <klr>(viaj diroj)</klr>, ne mi
+          <fnt><bib>MT</bib><lok>&Ijo; 15:6</lok></fnt>
+        </ekz>
+        ).
+      </rim>
+      <adm>
+        Necesas trovi pli konvinkajn ekz-ojn de okazo, kiam la subjekto
+        montras pruvojn de la kulpo, de la tipo: "jen la pruvoj, kiuj
+        vin ~as", aux forigi la koncernan parton de la rimarko.
+        <aut>MB</aut>
+      </adm>
+      <trdgrp lng="fr">
+        <trd>condamner<klr tip="ind"> (qn par jugement)</klr></trd>,
+        <trd>accabler<klr tip="ind"> (prouver la culpabilit&eacute;)</klr></trd>,
+        <trd>convaincre<klr tip="ind"> (prouver coupable)</klr></trd>,
+        <trd>d&eacute;clarer <ind>coupable</ind></trd>,
+        <trd>punir</trd>
       </trdgrp>
-      <trd lng="en">condemn</trd>
-      <trd lng="nl">veroordelen</trd>
-      <trdgrp lng="ru">
-        <trd>&c_o;&c_s;&c_u;&c_d;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_o;&c_b;&c_r;&c_je;&c_ch;&c_mol;<klr> (f)</klr></trd>
+    </subsnc>
+    <subsnc mrk="kondam.0i.deklari_ion_puninda">
+      <uzo tip="klr">(ion)</uzo>
+      <dif>
+        Deklari <ref cel="pun.0inda.malbonago">puninda <sncref/></ref>:
+        <ekz>
+          <tld/>i malbonan libron;
+        </ekz>
+        <ekz>
+          la kodekso <tld/>as la malveran ateston;
+        </ekz>
+        <ekz>
+          estas agoj, kiujn la moralo <tld/>as, sed kiujn ne <tld/>as la
+          le&gcirc;o.
+        </ekz>
+      </dif>
+      <trd lng="de">verdammen</trd>
+      <trdgrp lng="fr">
+        <trd>condamner<klr tip="ind"> (d&eacute;clarer ill&eacute;gal)</klr></trd>,
+        <trd>censurer</trd>,
+        <trd>d&eacute;fendre<klr tip="ind"> (interdire)</klr></trd>,
+        <trd>interdire</trd>,
+        <trd>prohiber</trd>,
+        <trd>proscrire</trd>,
+        <trd>punir</trd>,
+        <trd>r&eacute;primer<klr tip="ind"> (prohiber)</klr></trd>
       </trdgrp>
-    </drv>
-    <drv mrk="kondam.mal0i">
-      <kap>mal<tld/>i<fnt>Z</fnt></kap>
-      <snc>
-        <uzo tip="fak">JUR</uzo>
-        <dif>
-          Ju&gcirc;e deklari iun senkulpa:
-          <ekz>
-            Kozumi kaj Perlamoto estos mal<tld/>itaj anta&ubreve; tribunalo,
-            sed la popolo opinios ilin kulpaj.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_a;&c_p;&c_r;&c_a;&c_w;&c_d;&c_v;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_a;&c_p;&c_r;&c_a;&c_w;&c_d;&c_a;&c_c;&c_mol;</trd>
+    </subsnc>
+    <subsnc mrk="kondam.0i.devigi_destini">
+      <uzo tip="stl">FIG</uzo>
+      <dif>
+        Nepre <ref cel="dev.0igi">devigi</ref> <klr>(iun)</klr>;
+        neflekseble <ref cel="destin.0i.decidi_sorton">destini</ref>
+        <klr>(ion)</klr>:
+        <ekz>
+          mi estas <tld/>ita longan tempon
+          vagadi en la nokto<fnt>Z</fnt>;
+        </ekz>
+        <ekz>
+          mi estis <tld/>ita de la malsano resti du semajnojn en la lito;
+        </ekz>
+        <ekz>
+          &ccirc;iuj niaj tiucelaj projektoj estas <tld/>itaj al malsukceso;
+        </ekz>
+        <ekz>
+          viaj kalkuloj estas <tld/>itaj al mal&gcirc;usteco
+          <klr>(neeviteble, nepre mal&gcirc;ustaj)</klr>.
+        </ekz>
+      </dif>
+      <trdgrp lng="fr">
+        <trd>condamner<klr tip="ind"> (contraindre, vouer)</klr></trd>,
+        <trd>destiner</trd>,
+        <trd>astreindre</trd>,
+        <trd>contraindre</trd>,
+        <trd>forcer</trd>,
+        <trd>obliger<klr tip="ind"> (contraindre)</klr></trd>,
+        <trd>vouer<klr tip="ind"> (destiner)</klr></trd>
       </trdgrp>
-      <trdgrp lng="de">
-        <trd>freisprechen</trd>,
-        <trd>entlasten</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>acquit</trd>,
-        <trd>find not guilty</trd>,
-        <trd>issue <ind>judgement</ind> for <klr>(p.p. nekrima
-            procedo)</klr></trd>
-      </trdgrp>
-      <trd lng="nl">vergeven</trd>
-      <trd lng="ru">&c_o;&c_p;&c_r;&c_a;&c_v;&c_d;&c_a;&c_t;&c_mol;</trd>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.17  2004/10/09 16:31:43  revo
-  Sergio Pokrovskij: +trd=ru
+    </subsnc>
+    <trd lng="de">verurteilen</trd>
+    <trdgrp lng="en">
+      <trd>convict</trd>,
+      <trd>sentence</trd>,
+      <trd>issue <ind>judgement</ind> against<klr> (p.p. nekrima
+      procedo)</klr></trd>,
+      <trd>find <ind>guilty</ind></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="kondam.0i.deklari_malprava_riprocxinda">
+    <dif>
+      Deklari iun malprava, ion ripro&ccirc;inda:
+      <ekz>
+        ne a&ubreve;skultinte, ne <tld/>u
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        ne <tld/>u alian, oni vin ne <tld/>os
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i projekton, parolon malican;
+      </ekz>
+      <ekz>
+        tiu doktrino estas <tld/>ita de la faktoj, de siaj konsekvencoj.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="lauxd.mal0i">malla&ubreve;di</ref>
+    <trd lng="de">ablehnen</trd>
+    <trdgrp lng="fr">
+      <trd>condamner<klr tip="ind"> (r&eacute;prouver)</klr></trd>,
+      <trd>anath&eacute;matiser</trd>,
+      <trd>bl&acirc;mer</trd>,
+      <trd>critiquer</trd>,
+      <trd>d&eacute;sapprouver</trd>,
+      <trd>d&eacute;savouer</trd>,
+      <trd>r&eacute;prouver</trd>,
+      <trd>stigmatiser</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_s;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_s;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="en">condemn</trd>
+  <trd lng="nl">veroordelen</trd>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_s;&c_u;&c_d;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_o;&c_b;&c_r;&c_je;&c_ch;&c_mol;<klr> (f)</klr></trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.16  2003/07/13 16:31:33  revo
-  Sergio Pokrovskij: dif mal~i
-  Revision 1.15  2002/06/02 06:28:19  revo
-  Eduardo M. Kalinowski: kor trd en
-  Revision 1.14  2002/02/12 17:31:42  revo
-  Yury Finkel: kor trd ru
-  Revision 1.13  2002/02/11 17:30:37  revo
-  Yury Finkel: konv (f), kor trd ru
-  Revision 1.12 2002/01/28 17:31:12 revo
-  Ulrich Fellmann: + 2 germ trd
-  Revision 1.11 2002/01/11 19:09:36 revo
-  fontindiko PrV per programo de Jerome
-  Revision 1.10 2001/11/08 19:12:28 revo
-  Karlo Freeman: +trd = en @ mal~i
-  Revision 1.9 2001/11/07 19:19:05 revo
-  Karlo Freeman: +trd = en
-  Revision 1.8 2001/11/04 19:16:44 revo
-  -->
+<drv mrk="kondam.sin0i">
+  <kap>sin <tld/>i</kap>
+  <snc>
+    <dif>
+      I&gcirc;i <tld/>ita de si mem, a&ubreve; de aliaj pro pruvo
+      donita de si mem:
+      <ekz>
+        la supera organo de UEA ne <tld/>is <klr>[la na&ubreve;zajn
+        nigrigojn de mia nomo]</klr> &dash; kaj kun tia plimulto evidente
+        ne povis <tld/>i sen <tld/>i sin mem
+        <fnt>
+        <aut>I. Lapenna</aut>
+        <vrk>Esencaj ka&ubreve;zoj de mia eksi&gcirc;o</vrk>
+        <lok><url ref="http://www.algonet.se/~kallekn/folio/lapenna.html">Libera Folio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la viro <tld/>as sin, ke li lasis &scirc;in morti
+        <fnt>
+        <aut>D. Broadribb</aut>
+        <vrk>Ne al &ccirc;iuj pla&ccirc;os &ccirc;i literatura gemeto</vrk>
+        <lok><url ref="http://www.esperanto.be/fel/2003/007837.html">Monato</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi <tld/>as vin mem per tiu konfeso;
+      </ekz>
+      <ekz>
+        demokratio, kiu ne kritikas sin mem, <tld/>as sin al paralizo
+        <fnt>
+        <aut>trad J. Hasbun</aut>
+        <vrk>Le Monde Diplomatique en Esperanto</vrk>
+        <lok><url ref="http://eo.mondediplo.com/article926.html">2004-08</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[suferanto, kiu]</klr> estis certa, ke li trovos en morto
+        forgeson kaj ripozon, kaj kiu tamen sin <tld/>is al vivo
+        pro devo kaj pro elpago
+        <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk>&Ccirc;u li?</vrk><lok>&ccirc;ap. 14</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>se <ind>condamner</ind></trd>,
+    <trd>se <ind>punir</ind></trd>,
+    <trd>s'<ind>astreindre</ind></trd>,
+    <trd>se <ind>contraindre</ind></trd>,
+    <trd>se <ind>forcer</ind></trd>,
+    <trd>s'<ind>obliger</ind><klr tip="ind"> (se contraindre)</klr></trd>,
+  </trdgrp>
+</drv>
+
+<drv mrk="kondam.0o">
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+      Ago <tld/>i:
+    </dif>
+    <subsnc ref="kondam.0i.deklari_iun_puninda">
+      <ekz>
+        <ind><tld/>o al morto</ind>;
+        <trdgrp lng="fr">
+          <trd><ind>condamnation</ind> &agrave; mort</trd>,
+          <trd><ind>peine</ind> capitale</trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        li ricevis <tld/>on pro trafik-akcidento kun vunditoj
+        <fnt><bib>UrdHadda</bib><lok>p. 16</lok></fnt>;
+      </ekz>
+      <trdgrp lng="fr">
+        <trd>condamnation<klr tip="ind"> (&agrave; une peine)</klr></trd>,
+        <trd>peine</trd>,
+        <trd>punition</trd>,
+        <trd>sanction</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc ref="kondam.0i.deklari_ion_puninda">
+      <ekz>
+        malgra&ubreve; la papa <tld/>o de 1759, la presado
+        de la enciklopedio atingis la finon en 1772
+        <fnt>
+        <aut>E. Pauli</aut>
+        <vrk> Franca Enciklopedio</vrk>
+        <lok><url ref="http://www.cfh.ufsc.br/~simpozio/Esperanto/ENCIKLOPEDIO.html">http://www.cfh.ufsc.br/~simpozio/Esperanto/ENCIKLOPEDIO.html</url></lok>
+        </fnt>;
+      </ekz>
+      <trdgrp lng="fr">
+        <trd>condamnation<klr tip="ind"> (interdiction)</klr></trd>,
+        <trd>anath&eacute;misation</trd>,
+        <trd>censure</trd>,
+        <trd>d&eacute;fense<klr tip="ind"> (interdiction)</klr></trd>,
+        <trd>interdiction</trd>,
+        <trd>prohibition</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc ref="kondam.0i.devigi_destini">
+      <ekz>
+        <klr>[la fakto, ke la indi&gcirc;enoj devas asimili
+        la nacian kulturon]</klr> estas indikilo de la <tld/>o
+        al malapero kiun la moderneco dekretis kontra&ubreve;
+        la indi&gcirc;enaj kulturoj
+        <fnt>
+        <vrk>Elpa&scirc;i en la defendo de la lingvaj rajtoj</vrk>
+        <lok><url ref="http://www.esperantomex.org/esperanto/red/rajtoj.html">http://www.esperantomex.org/esperanto/red/rajtoj.html</url></lok>
+        </fnt>;
+      </ekz>
+      <trdgrp lng="fr">
+        <trd>condamnation<klr tip="ind"> (&agrave; un destin, obligation)</klr></trd>,
+        <trd>obligation</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc ref="kondam.0i.deklari_malprava_riprocxinda">
+      <ekz>
+        mi prenis krajonon en la manon por noti multajn punktojn
+        de kritiko kaj <tld/>o
+        <fnt>
+        <bib>Voja&gcirc;o</bib>
+        <aut>L. Friis</aut>
+        <vrk> Kiel mi fari&gcirc;is Esperantisto</vrk><lok>leciono 8a</lok>
+        </fnt>.
+      </ekz>
+      <trdgrp lng="fr">
+        <trd>condamnation<klr tip="ind"> (d&eacute;sapprobation)</klr></trd>,
+        <trd>bl&acirc;me</trd>,
+        <trd>critique</trd>,
+        <trd>d&eacute;sapprobation</trd>,
+        <trd>r&eacute;probation</trd>,
+      </trdgrp>
+    </subsnc>
+  </snc>
+</drv>
+
+<drv mrk="kondam.0a">
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+      Rilata al <tld/>o; <tld/>anta:
+      <ekz>
+        tiu <tld/>a verdikto, kiu pendas super li, anstata&ubreve;
+        &scirc;in malinklinigi de li, pro la nura kompato faras lin
+        al &scirc;i ankora&ubreve; pli kara
+        <fnt>
+        <aut>H. Sienkiewicz trad. L. Zamenhof</aut>
+        <vrk>Quo vadis?</vrk>
+        <lok>&ccirc;ap. 27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &scirc;tato faris akuzojn tiom <tld/>ajn, ke nenia defendo
+        iel ajn povus respondi
+        <fnt><bib>&Scirc;talrato</bib><lok>&ccirc;ap. 10</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi a&ubreve;dis mian <tld/>an <klr>[verdikton]</klr>, ne suspektante,
+        ke mi posedas preska&ubreve; nerefuteblan pruvon
+        <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk>&Ccirc;u li?</vrk><lok>&ccirc;ap. 13</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>condamnatoire</trd>,
+    <trd>de <ind>condamnation</ind></trd>,
+    <trd>qui <ind>condamne</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kondam.0i&gcirc;i">
+  <kap><tld/>i&gcirc;i</kap>
+  <snc>
+    <dif>
+      I&gcirc;i <tld/>ita.
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="kondam.0inda">
+  <kap><tld/>inda</kap>
+  <snc>
+    <dif>
+      Inda je <tld/>o:
+      <ekz>
+        al morto estas <tld/>inda &ccirc;i tiu homo, &ccirc;ar li profetis
+        kontra&ubreve; &ccirc;i tiu urbo
+        <fnt><bib>MT</bib><lok>&Jer; 26:11</lok></fnt>;
+      </ekz>
+      <ekz>
+        la ambasadoro de la plej potenca re&gcirc;o Assar havas aferojn kun
+        Fenicianoj, kaj, tio estas ankora&ubreve; pli <tld/>inda, vizitas ilin sola
+        <fnt><bib>Far1</bib><lok>&ccirc;ap. 11</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>condamnable</trd>,
+    <trd>bl&acirc;mable</trd>,
+    <trd>criticable</trd>,
+    <trd>d&eacute;fendu<klr tip="ind"> (interdit)</klr></trd>,
+    <trd>d&eacute;lictueux</trd>,
+    <trd>interdit</trd>,
+    <trd>fautif</trd>,
+    <trd>prohib&eacute;</trd>,
+    <trd>proscrit<klr tip="ind"> (adj.)</klr></trd>,
+    <trd>r&eacute;pr&eacute;hensible</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kondam.0ito">
+  <kap><tld/>ito</kap>
+  <snc>
+    <dif>
+      Iu, kiun oni <tld/>is:
+      <ekz>
+        se ia timo kaptis la korojn <klr>(de la spektantoj en la areno)</klr>,
+        &gcirc;i estis nur la timo, &ccirc;u la turmentoj egalos la krimojn
+        de tiuj malhumanaj <tld/>itoj
+        <fnt>
+        <aut>H. Sienkiewicz trad. L. Zamenhof</aut>
+        <vrk>Quo vadis?</vrk><lok>&ccirc;ap. 56</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vorto ju&gcirc;istaro estis vorto, kiun la <ind>eks<tld/>ito</ind>
+        <klr>(persono <tld/>ita kaj poste mal<tld/>ita a&ubreve; plenuminta
+        sian punon)</klr>
+        ne povis a&ubreve;di sen impreso de timado
+        <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk>Kastelo de Prelongo</vrk><lok>&ccirc;ap. 11</lok>
+        </fnt>;
+        <trdgrp lng="fr">
+          <trd>ex-<ind>condamn&eacute;</ind></trd>,
+          <trd>ancien <ind>condamn&eacute;</ind></trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        <uzo tip="stl">RAR</uzo>
+        kiam mi pensas, ke <klr>[...]</klr> tiu krimulo estas honorita
+        de la tuta societo, mi trovas, ke la <tld/>itejoj estas lo&gcirc;ataj
+        de honestaj homoj
+        <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk>Kastelo de Prelongo</vrk>
+        <lok>&ccirc;ap. 16</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">condamn&eacute;<klr tip="ind"> (subst.)</klr></trd>
+</drv>
+
+<drv mrk="kondam.mal0i">
+  <kap>mal<tld/>i<fnt>Z</fnt></kap>
+  <uzo tip="fak">JUR</uzo>
+  <snc>
+    <dif>
+      Ju&gcirc;e deklari iun senkulpa:
+      <ekz>
+        tial ke la junulo estis <tld/>ita la&ubreve; regula ju&gcirc;o,
+        nur dua ju&gcirc;o povis lin mal<tld/>i
+        <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk>&Ccirc;u li?</vrk><lok>&ccirc;ap. 13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Kozumi kaj Perlamoto estos mal<tld/>itaj anta&ubreve; tribunalo,
+        sed la popolo opinios ilin kulpaj;
+      </ekz>
+      <ekz>
+        se li povas prezenti kiel pruvon de sia senkulpeco nur tiujn
+        iom abstraktajn konsiderojn, <klr>[...]</klr> nenio estas pli
+        necerta ol lia <ind>mal<tld/>o</ind>
+        <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk>&Ccirc;u li?</vrk><lok>&ccirc;ap. 15</lok>
+        </fnt>.
+        <trdgrp lng="fr">
+          <trd>absolution<klr tip="ind"> (jur.)</klr></trd>,
+          <trd>acquittement<klr tip="ind"> (jur.)</klr></trd>,
+          <trd>disculpation<klr tip="ind"> (jur.)</klr></trd>,
+          <trd>innocentement<klr tip="ind"> (jur.)</klr></trd>
+        </trdgrp>
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+    * La indiko pri &Z;eco malaperis en eldonoj post PV kaj mi
+    ne trovis spuron de tio en mia tekstaro. Gxi do sxajnas
+    dubinda.
+    * Mi iom hezitis, cxu "mal~i" ne havu la signifon "deklari
+    senkulpa post ~o" (kio respondas al la situacio en la ekz-oj
+    de Vallienne), sed sxajnas, ke la senco estas pli vasta.
+    <aut>MB</aut>
+  </adm>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_p;&c_r;&c_a;&c_w;&c_d;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_p;&c_r;&c_a;&c_w;&c_d;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>freisprechen</trd>,
+    <trd>entlasten</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>absoudre<klr tip="ind"> (jur.)</klr></trd>,
+    <trd>acquitter<klr tip="ind"> (jur.)</klr></trd>,
+    <trd>blanchir<klr tip="ind"> (jur.)</klr></trd>,
+    <trd>disculper<klr tip="ind"> (jur.)</klr></trd>,
+    <trd>innocenter<klr tip="ind"> (jur.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>acquit</trd>,
+    <trd>find not guilty</trd>,
+    <trd>issue <ind>judgement</ind> for <klr>(p.p. nekrima
+    procedo)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">vergeven</trd>
+  <trd lng="ru">&c_o;&c_p;&c_r;&c_a;&c_v;&c_d;&c_a;&c_t;&c_mol;</trd>
+</drv>
+
+<drv mrk="kondam.mem0ita">
+  <kap>mem<tld/>ita</kap>
+  <snc>
+    <dif>
+      <tld lit="K"/>ita de si mem.
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="kondam.mort0i">
+  <kap>mort<tld/>i, morto<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      <tld lit="K"/>i al morto:
+      <ekz>
+        se la enketo pruvas, ke la gardisto estis mortigita,
+        <klr>[la akuzito]</klr> estos mort<tld/>ita kaj fatale ekzekutita
+        <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk>&Ccirc;u li?</vrk><lok>&ccirc;ap. 5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tute ne kompreninte kiel prava Sokrato estas,
+        la ju&gcirc;istoj mort<tld/>is lin
+        <fnt>
+        <aut>I. Kellerman</aut>
+        <vrk>A complete grammar of Esperanto</vrk>
+        <lok><url ref="http://www.gutenberg.org/dirs/etext05/esper10h.htm">http://www.gutenberg.org/dirs/etext05/esper10h.htm</url></lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        oni ne povas rigore kaj drakone mort<tld/>i &ccirc;iun novan vorton
+        <fnt>
+        <aut>E. Urbanová</aut>
+        <vrk>Kiel vera pa&ccirc;jo</vrk>
+        <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr65/pacxjo.html">Nica Literatura Revuo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro la <ind>mort<tld/>o</ind> de la kvarcent sklavoj
+        de la prefekto Pedanius Secundus, preska&ubreve; eksplodis
+        ribelo kaj civila milito
+        <fnt>
+        <aut>H. Sienkiewicz trad. L. Zamenhof</aut>
+        <vrk>Quo vadis?</vrk><lok>&ccirc;ap. 43</lok>
+        </fnt>.
+        <trdgrp lng="fr">
+          <trd><ind>condamnation</ind> &agrave; mort</trd>,
+          <trd><ind>peine</ind> capitale</trd>
+        </trdgrp>
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd><ind>condamner</ind> &agrave; mort</trd>,
+    <trd><ind>condamner</ind> &agrave; la peine capitale</trd>
+  </trdgrp>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.18 2004/11/26 17:32:36 revo
+Dmitri Gabinski: +trd be
+Revision 1.17 2004/10/09 16:31:43 revo
+Sergio Pokrovskij: +trd=ru
+Revision 1.16 2003/07/13 16:31:33 revo
+Sergio Pokrovskij: dif mal~i
+Revision 1.15 2002/06/02 06:28:19 revo
+Eduardo M. Kalinowski: kor trd en
+Revision 1.14 2002/02/12 17:31:42 revo
+Yury Finkel: kor trd ru
+Revision 1.13 2002/02/11 17:30:37 revo
+Yury Finkel: konv (f), kor trd ru
+Revision 1.12 2002/01/28 17:31:12 revo
+Ulrich Fellmann: + 2 germ trd
+Revision 1.11 2002/01/11 19:09:36 revo
+fontindiko PrV per programo de Jerome
+Revision 1.10 2001/11/08 19:12:28 revo
+Karlo Freeman: +trd = en @ mal~i
+Revision 1.9 2001/11/07 19:19:05 revo
+-->
 </vortaro>
