@@ -7,8 +7,9 @@
 <rad>linear</rad>/a
 </kap>
 <drv mrk="linear.0a">
-  <kap><tld/>a<fnt>PIV</fnt></kap>
+  <kap><tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
   <snc mrk="linear.0a.gxenerala">
     <uzo tip="klr">(fakula &jcirc;argono)</uzo>
     <dif>
@@ -24,7 +25,8 @@
     <uzo tip="klr">(p.p. bildigo inter moduloj a&ubreve;
     vektoraj spacoj)</uzo>
     <dif>
-      <ref tip="super" cel="homomo.0o">Homomorfio</ref>:
+      <ref tip="super" cel="homomo.0a.bildigo">Homomorfia</ref> rilate al
+      la vektorspaca strukturo:
       <ekz>
         por ke bildigo f inter vektoraj spacoj estu <tld/>a,
         sufi&ccirc;as, ke f(x+&alfa;*y)=f(x)+&alfa;*f(y),
@@ -38,20 +40,15 @@
       Tia, ke f(x)=&alfa;.x.
     </dif>
   </snc>
+  <ref tip="sin" cel="lini.0a.MAT">linia.</ref>
   <trd lng="fr">lin&eacute;aire</trd>
   <trd lng="nl">lineair</trd>
   <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
-  <rim>
-    En multaj lingvoj ne ekzistas diferenco inter la termino por
-    <ctl>lineara</ctl> kaj tiu por <ctl>linia</ctl>. Povus esti
-    bona ideo promocii la uzon de &ccirc;i-lasta, &ccirc;ar riskoj
-    de ambigueco apena&ubreve; ekzistas.
-  </rim>
 </drv>
 <drv mrk="linear.plur0a">
   <kap>plur<tld/>a, n-<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(p.p. <ref tip="super" cel="bild.0igo">bildigo</ref> de
       <ref cel="produt.kartezia0o">kartezia produto</ref>
@@ -61,18 +58,71 @@
       f(a<sub>1</sub>,...,x<sub>i</sub>,...a<sub>n</sub>)
       estas homomorfio de <em>E</em><sub>i</sub> al <em>F</em>:
       <ekz>
-        la bildigo f(x,y)=xy super <ref cel="algebr.lineara0o.strukturo">algebro</ref> estas du<tld/>a.
+        la bildigo f(x,y)=xy super 
+        <ref cel="algebr.lineara0o.strukturo">algebro</ref> estas du<tld/>a.
       </ekz>
     </dif>
   </snc>
+  <adm>
+  Mi ne trovis fonton por cxi tiu termino, nek por "mult~a".
+  MatVort citas nur bilineara k trilineara. <aut>MB</aut>
+  </adm>
+  <trd lng="de">multilinear</trd>
+  <trd lng="en">multilinear</trd>
   <trd lng="fr">multilin&eacute;aire</trd>
   <trd lng="nl">multilineair</trd>
-  <trd
-  lng="ru">&c_m;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_m;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
+</drv>
+<drv mrk="linear.konjug0a">
+  <kap>konjug<tld/>a, duon<tld/>a, kontra&ubreve;<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref tip="super" cel="bild.0igo">bildigo</ref> f inter du
+      <ref cel="spac.vektora0o">vektoraj spacoj</ref> super la korpo
+      de <ref cel="komple.0o.MAT">kompleksoj</ref>)</klr>
+      Tia, ke &gcirc;i &jcirc;etas x+&alfa;*y al f(x)+&kappa;(&alfa;)*f(y),
+      kie &kappa; signas la operacion de <ref cel="konjug.0o">konjugo</ref>:
+      <ekz>
+        la konjugo mem estas konjug<tld/>a bildigo de la aro de
+        kompleksoj al &gcirc;i mem.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="seskvi.0a">seskvilineara.</ref>
+    <rim>
+      Tiun difinon oni povas vastigi al la okazo, kiam la vektoraj spacoj estas
+      super ajna korpo, provizita per involucia a&ubreve;tomorfio &kappa;. 
+      Tiusence, lineara bildigo inter reelaj spacoj povas esti kvalifikata
+      anka&ubreve; konjuglineara.
+    </rim>
+  </snc>
+  <adm>
+  Mi ne trovis fonton por tio. &Scirc;ajnas, ke la termino
+  konjug~a estas la plej logika, sed la naciaj lingvoj multe
+  uzis la metaforon "duon~a" por kalembure krei la terminon
+  "seskvilineara" (t.e. unu-kaj-duon-lineara).
+  <aut>MB</aut>
+  </adm>
+  <trdgrp lng="de">
+    <trd>antilinear</trd>,
+    <trd>halblinear</trd>,
+    <trd>konjugiert linear</trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>antilinear</trd>,
+    <trd>semilinear</trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>antilin&eacute;aire</trd>,
+    <trd>semi-lin&eacute;aire</trd></trdgrp> 
+  <trdgrp lng="ru">
+    <trd>&c_a;&c_n;&c_t;&c_i;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_p;&c_o;&c_l;&c_u;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd></trdgrp> 
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.7  2001/08/27 18:15:58  revo
+Marc Bavant: ~a (funkcio): -uzo klr, +klr
+
 Revision 1.6  2001/07/22 18:16:06  revo
 Marc Bavant: mod ref cel al lineara algebro
 
@@ -89,7 +139,5 @@ Revision 1.2  2000/11/11 18:38:06  revo
 Marc Bavant: kor en ekz.
 
 Revision 1.1  2000/11/05 17:12:56  revo
-Marc Bavant: nova artikolo
-
 -->
 </vortaro>
