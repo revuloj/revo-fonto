@@ -2,30 +2,80 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>protokol</rad>/o
-</kap>
-<drv mrk="protok.0o">
-<kap><tld/>o</kap>
-<snc>
-<dif>
-Oficiala raporto, per kiu rajtigita a&ubreve; kompetenta persono konstatas,  kion li faris, vidis, a&ubreve;skultis: <ekz>fari <tld/>on pri &scirc;telado, arestado;
-</ekz> <ekz>legi, akcepti la <tld/>on de la anta&ubreve;a kunsido.
-</ekz>
-</dif>
-</snc>
-<trd lng="en">minutesOfMeeting</trd>
-</drv>
-<drv mrk="protok.0i">
-<kap><tld/>i</kap>
-<gra><vspec>x</vspec></gra>
-<snc>
-<dif>
-Fari <tld/>on pri: <ekz>tio ka&ubreve;zis grandan skandalon,  pri kiu
-oni <tld/>is.
-</ekz>
-</dif>
-</snc>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <rad>protokol</rad>/o
+    </kap>
+    <drv mrk="protok.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="protok.0o.raporto">
+        <dif>
+          Oficiala raporto, per kiu rajtigita a&ubreve; kompetenta persono
+          konstatas, kion li faris, vidis, a&ubreve;skultis:
+          <ekz>
+            fari <tld/>on pri &scirc;telado, arestado;
+          </ekz><ekz>
+            legi, akcepti la <tld/>on de la anta&ubreve;a kunsido.
+          </ekz>
+        </dif>
+        <trd lng="en">minutes <klr>(of a meeting)</klr></trd>
+      </snc>
+      <snc mrk="protok.0o.KOMP.raporto">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Dosiero pri dialoga <ref tip="malprt"
+          cel="seanc.0o.komp">seanco</ref>, pri tradukado de programo,
+          pri transakcio kun datumbazo ktp &dash; speco de raporto en
+          kiu programo notas eventojn okazintajn dum &gcirc;ia rulado.
+        </dif>
+        <trd lng="en">log file</trd>
+      </snc>
+      <snc mrk="protok.0o.KOMP.regularo">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Aro da reguloj pri formo kaj maniero de datumtransmeto en
+          <ref tip="malprt" cel="ret.komputila0o">komputila reto</ref>:
+          <ekz>
+            la retumado en <ref cel="ttt.0">TTT</ref> estas bazita sur
+            la <tld/>o <ctl>HTTP</ctl>.
+          </ekz>
+        </dif>
+        <trd lng="en">communications <ind>protocol</ind></trd>
+      </snc>
+      <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_o;&c_k;&c_o;&c_l;</trd>
+    </drv>
+    <drv mrk="protok.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>x</vspec></gra>
+      <snc>
+        <dif>
+          Fari <tld/>on pri:
+          <ekz>
+            tio ka&ubreve;zis grandan skandalon, pri kiu oni <tld/>is.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_o;&c_k;&c_o;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    </drv>
+    <drv mrk="protok.vivo0o">
+      <kap>vivo<tld/>o</kap>
+      <snc>
+        <dif>
+          Listo de oficoj kaj profesiaj atingoj kiujn dungoto a&ubreve;
+          kandidato prezentas al la koncerna instantco:
+          <ekz>
+            la novaj kandidatoj de la akademiaj elektoj devas
+            prezenti, krom sia konsento kandidati, anka&ubreve; sian
+            vivo<tld/>on.
+          </ekz>
+        </dif>
+      </snc>
+      <trdgrp lng="en">
+        <trd>curriculum vitae</trd>, <trd>resume</trd></trdgrp>
+      <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_u;&c_zh;&c_n;&c_o;&c_j; &c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>
+    </drv>
+  </art>
+<!--
+$Log$
+-->
+</vortaro>
