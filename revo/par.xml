@@ -47,7 +47,7 @@
   <snc mrk="par.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><vrk>EK-Vortaro de matematikaj terminoj / Hrsg.
-    R. Hilders-Yashovardhan. Paderborn: Leuchtturm-Verlag, 1980</vrk>,
+    R. Hilders-Yashovardhan. Paderborn: Leuchtturm-Verlag, 1980</vrk>
     <lok>&para;287</lok></fnt>
     <dif>
       Matematika objekto, konsistanta el du objektoj prenitaj la&ubreve;
@@ -79,10 +79,13 @@
       de J. Werner sekvas &ccirc;i tiun konvencion, sed &scirc;ajnas al ni
       preferinde konsideri, ke la baza senco estas duopo.
     </rim>
-    <trd lng="en">couple</trd>
-    <trd lng="de">geordnetes <ind>Paar</ind></trd>
+    <trd lng="de"><klr tip="amb">(geordnetes) </klr>Paar</trd>
+    <trdgrp lng="en">
+      <trd>couple</trd>,
+      <trd>ordered <ind>pair</ind></trd></trdgrp> 
     <trd lng="fr">couple<klr tip="ind"> (math.)</klr></trd>
-    <trd lng="ru">&c_u;&c_p;&c_o;&c_r;&c_ja;&c_d;&c_o;&c_ch;&c_je;&c_n;&c_n;&c_a;&c_ja; <ind>&c_p;&c_a;&c_r;&c_a;</ind></trd>
+    <trd lng="nl">paar<klr tip="ind"> (z.nw.)</klr></trd>
+    <trd lng="ru"><klr tip="amb">(&c_u;&c_p;&c_o;&c_r;&c_ja;&c_d;&c_o;&c_ch;&c_e;&c_n;&c_n;&c_a;&c_ja;) </klr>&c_p;&c_a;&c_r;&c_a;</trd>
   </snc>
   <trd lng="de">Paar</trd>
   <trd lng="en">pair</trd>
@@ -138,6 +141,7 @@
   <snc mrk="par.0a.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="par.0a.entjero">
+      <fnt><bib>VdE</bib></fnt>
       <dif>
         <klr>(p.p. <ref cel="entjer.0o">entjero</ref>)</klr>
         <ref cel="divid.0ebla.MAT">Dividebla</ref> per 2:
@@ -147,6 +151,7 @@
       </dif>
     </subsnc>
     <subsnc mrk="par.0a.funkcio">
+      <fnt><bib>MatVort</bib></fnt>
       <dif>
         <klr>(p.p. <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
         Tia, ke &gcirc;i alprenas egalajn valorojn &ccirc;e
@@ -176,7 +181,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc mrk="par.ne0a.MAT">
     <subsnc mrk="par.ne0a.entjero">
-      <fnt><bib>PIV1</bib></fnt>
+      <fnt><bib>VdE</bib><lok>duvorte</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="entjer.0o">entjero</ref>)</klr>
         Ne <ref cel="divid.0ebla.MAT">dividebla</ref> per 2:
@@ -211,6 +216,7 @@
 
 <drv mrk="par.0eco">
   <kap><tld/>eco</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       Eco de io <tld/>a:
@@ -231,10 +237,19 @@
     MatVort konas &leftquot;signaturo&rightquot;, sed povas temi pri io alia.
     <aut>MB</aut>
   </adm>
+  <trdgrp lng="de">
+    <trd>Parit&auml;t</trd>,
+    <trd>Signatur</trd></trdgrp> 
+  <trdgrp lng="en">
+    <trd>parity</trd>,
+    <trd>sign<klr tip="ind"> (of a permutation)</klr></trd></trdgrp> 
   <trdgrp lng="fr">
     <trd>parit&eacute;</trd>,
     <trd>signature<klr tip="ind"> (d'une permutation)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_ch;&c_jo;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_z;&c_n;&c_a;&c_k;<klr tip="ind"> (&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_k;&c_i;)</klr></trd></trdgrp> 
 </drv>
 
 <drv mrk="par.0igi">
@@ -262,19 +277,24 @@
       <ref cel="ekvipo.0a.punktoparoj">ekvipolenta</ref>.
     </refgrp>
   </snc>
-  <adm>
-    Mi ne trovis pravigon por cxi tiu termino. Verdire gxi
-    estas absolute logika. Ebla anstatauxajxo povus esti
-    &leftquot;dupunkto&rightquot;. <aut>MB</aut>
-  </adm>
+  <rim>
+    Ni ne trovis a&ubreve;toritatan terminon por tiu nocio. &Scirc;ajnas,
+    ke <ctl>punkto<tld/>o</ctl> estas bona, &ccirc;ar priskriba. Ebla
+    anstata&ubreve;a&jcirc;o povus esti <ctl>dupunkto</ctl>.
+  </rim>
+  <trd lng="de">gebundener <ind>Vektor</ind></trd>
+  <trd lng="en">bound <ind>vector</ind></trd>
   <trdgrp lng="fr">
     <trd>bipoint</trd>,
     <trd>vecteur li&eacute;</trd>
   </trdgrp>
+  <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_y;&c_j; <ind>&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.21  2002/05/04 16:31:09  revo
+Marc Bavant: ne~a: +fnt
 Revision 1.20 2002/05/03 16:32:45 revo
 Marc Bavant: inversa ~o: mod kap, mod dif, +ref al inverso
 Revision 1.19 2002/02/23 19:57:12 revo
