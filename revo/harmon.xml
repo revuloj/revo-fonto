@@ -23,6 +23,7 @@
   <trd lng="nl">bijtoon</trd>
   <trd lng="ru">&c_o;&c_b;&c_je;&c_r;&c_t;&c_o;&c_n;</trd>
 </drv>
+
 <drv mrk="harmon.0a">
   <kap><tld/>a</kap>
   <snc mrk="harmon.0a.gxenerale">
@@ -31,7 +32,7 @@
     </dif>
     <trd lng="fr">harmonique<klr tip="ind"> (adj., acoustique)</klr></trd>
   </snc>
-  <snc mrk="harmon.0a.MAT">
+  <snc>
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatVort</bib></fnt>
     <subsnc mrk="harmon.0a.funkcio">
@@ -51,11 +52,12 @@
       <trd lng="fr"><klr tip="ind">(fonction) </klr>harmonique</trd>
       <trd lng="ru">&c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_ja;<klr tip="amb"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr></trd>
     </subsnc>
-    <subsnc mrk="harmon.0a.meznombro">
-      <ref  tip="vid" cel="nombr.mez0o">meznombro;</ref>
-    </subsnc>
-    <subsnc mrk="harmon.0a.serio">
-      <ref  tip="vid" cel="seri.0o.MAT">serio.</ref>
+    <subsnc>
+      <refgrp  tip="vid">
+        <ref cel="nombr.mez0o">meznombro</ref>,
+        <ref cel="progre1.harmona0o"><tld/>a progresio</ref>,
+        <ref cel="seri.0o.MAT">serio</ref>.
+      </refgrp>
     </subsnc>
   </snc>
 </drv>
@@ -63,6 +65,9 @@
 </art>
 <!--
 $Log$
+Revision 1.9  2001/12/26 17:31:02  revo
+Marc Bavant: +trd fr; ~a 2: +ref al potencialo
+
 Revision 1.8  2001/11/22 17:32:17  revo
 Paul Peeraerts: ald plian trd nl
 
