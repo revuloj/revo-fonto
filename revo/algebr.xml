@@ -29,7 +29,7 @@
   <trd lng="fr">alg&egrave;bre<klr tip="ind"> (discipline)</klr></trd>
   <trd lng="nl">algebra</trd>
   <trd lng="pt">&aacute;lgebra</trd>
-  <trd lng="ru">&#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;</trd>
+  <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</trd>
   <trd lng="sv">algebra</trd>
 </drv>
 
@@ -82,16 +82,17 @@
   <snc mrk="algebr.bulea0o.strukturo">
     <dif>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      (<em>A</em>,&#x2228;,&#x2227;,f), kie f estas
-      <ref cel="involu1.0o">involucio</ref> <klr>(nomata komplemento)</klr>, ke
+      (<em>A</em>,&#8744;,&#8743;,f), kie f estas
+      <ref cel="involu1.0o">involucio</ref> <klr>(nomata
+      komplemento)</klr>, ke
       (1) amba&ubreve; operacioj estas asociecaj kaj komutecaj;
       (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio <klr>(signataj
-      per 0 por &#x2228;, kaj 1 por &#x2227;)</klr>;
+      per 0 por &#8744;, kaj 1 por &#8743;)</klr>;
       (3) &ccirc;iu operacio estas distribueca rilate al la alia;
-      (4) x&#x2227;x = x&#x2228;x = x, x&#x2228;f(x) = 1 kaj x&#x2227;f(x) = 0,
-      kiu ajn estas x&#x2208;<em>A</em>;
-      (5) f(x&#x2228;y) = f(x)&#x2227;f(y) kaj f(x&#x2227;y) = f(x)&#x2228;f(y),
-      kiuj ajn estas x,y&#x2208;<em>A</em>.
+      (4) x&#8743;x = x&#8744;x = x, x&#8744;f(x) = 1 kaj x&#8743;f(x) = 0,
+      kiu ajn estas x&#8712;<em>A</em>;
+      (5) f(x&#8744;y) = f(x)&#8743;f(y) kaj f(x&#8743;y) = f(x)&#8744;f(y),
+      kiuj ajn estas x,y&#8712;<em>A</em>.
     </dif>
     <trd lng="de">Boolesche <ind>Algebra</ind></trd>
     <trd lng="en">Boolean <ind>algebra</ind></trd>
@@ -101,7 +102,8 @@
   <refgrp tip="vid">
     <ref cel="bule1.0o">Buleo</ref>.
   </refgrp>
-  <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline, structure)</klr></trd>
+  <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline,
+  structure)</klr></trd>
 </drv>
 
 <drv mrk="algebr.lineara0o">
@@ -127,7 +129,7 @@
     <dif>
       <klr>(super korpo <em>K</em>)</klr>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      (<em>A</em>,+,&#xd7;,*), ke (<em>A</em>,+,&#xd7;) estas
+      (<em>A</em>,+,&#215;,*), ke (<em>A</em>,+,&#215;) estas
       <ref tip="super" cel="ring.0o.MAT">ringo</ref> kaj
       (<em>A</em>,+,*) estas
       <ref tip="super" cel="spac.vektora0o">vektora spaco</ref> super
@@ -142,8 +144,10 @@
       kaj <sncref ref="algebr.0o.lin-strukt"/> kelkaj proponas uzi la
       paronimon <ctl>al&gcirc;ebro</ctl> por la dua nocio.
     </rim>
-    <trd lng="de">lineare <ind>Algebra</ind><klr tip="ind"> (&uuml;ber K)</klr></trd>
-    <trd lng="en">linear <ind>algebra</ind><klr tip="ind"> (over K)</klr></trd>
+    <trd lng="de">lineare <ind>Algebra</ind><klr tip="ind"> (&uuml;ber
+    K)</klr></trd>
+    <trd lng="en">linear <ind>algebra</ind><klr tip="ind"> (over
+    K)</klr></trd>
     <trd lng="fr">alg&egrave;bre<klr tip="ind"> (sur K)</klr></trd>
     <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
     <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind"> (&c_n;&c_a;&c_d; K)</klr></trd>
@@ -220,6 +224,9 @@
 </art>
 <!--
 $Log$
+Revision 1.17 2002/01/27 17:31:34 revo
+Marc Bavant: bulea ~o: mod distribuebla, +ref en dif
+
 Revision 1.16 2001/09/15 19:28:29 revo
 Marc Bavant: +drv ~a
 
@@ -227,7 +234,8 @@ Revision 1.15 2001/08/01 18:14:31 revo
 Paul Peeraerts: ald trd nl
 
 Revision 1.14 2001/07/22 18:17:16 revo
-Marc Bavant: lineara ~o 2: mod dif, +trd; lineara ~o: mod mrk; +drv sigma-~o, bulea ~o
+Marc Bavant: lineara ~o 2: mod dif, +trd; lineara ~o: mod mrk; +drv
+sigma-~o, bulea ~o
 
 Revision 1.13 2001/04/28 19:15:25 revo
 Helio Jaques: trd pt
@@ -235,9 +243,5 @@ Revision 1.12 2001/03/17 17:13:03 revo
 Marc Bavant: kor trd fr de lineara ~o 2, kor "artimetika"
 Revision 1.11 2001/03/12 17:15:06 revo
 Ulrich Fellmann: + 2 germ trdj
-Revision 1.10 2001/03/11 18:57:49 revo
-Jerano Zachrisson: +trd sv
-Revision 1.9 2001/02/25 17:11:40 revo
-Marc Bavant: reverkis ~o
 -->
 </vortaro>
