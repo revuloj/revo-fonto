@@ -4,24 +4,25 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>divizor</rad>/o <fnt>PIV</fnt>
+<rad>divizor</rad>/o
 </kap>
 <drv mrk="divizo.0o">
   <kap><tld/>o</kap>
+  <fnt><bib>PIV1</bib></fnt>
   <snc mrk="divizo.0o.aritmetiko">
     <uzo tip="fak">MAT</uzo>
     <uzo tip="klr">(elementa aritmetiko)</uzo>
     <dif>
-      Entjero <frm>z</frm> estas <tld/>o de entjero <frm>a</frm>
-      se <frm>a</frm> estas <ref cel="obl.0o">oblo</ref> de
-      <frm>z</frm>; simbole <frm>a&#x2223;z</frm>:
+      <klr>(de <ref cel="entjer.0o">entjero</ref> a)</klr>
+      Tia entjero b, ke a estas &gcirc;ia <ref cel="obl.0o">oblo</ref>:
       <ekz>
         la avanta&gcirc;o de la dekduuma mezursistemo estas ke 12
         havas pli da oportunaj <tld/>oj: 2, 3, 4, 6, dum la
-        kutima 10 havas nur 2 kaj 5 (sen kalkuli la neproprajn
-        <tld/>ojn 1 kaj memo).
+        kutima 10 havas nur 2 kaj 5 (sen kalkuli la neproprajn <tld/>ojn 1 kaj 
+        memo).
       </ekz>
     </dif>
+    <ref tip="vid" cel="alikvo.0o">alikvoto.</ref>
   </snc>
   <snc mrk="divizo.0o.ringo">
     <uzo tip="fak">MAT</uzo>
@@ -65,9 +66,13 @@
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
       Esti <tld/>o:
+      <ekz>
+        la fakton, ke b <tld/>as en a, oni simbole skribas b|a;
+      </ekz>
       <ekz>
         2 <tld/>as en &ccirc;iu para entjero (a&ubreve;
         <ctl>&ccirc;iun paran entjeron</ctl>);
@@ -77,15 +82,14 @@
         <tld/>as &ccirc;iun el ili.
       </ekz>
     </dif>
+    <rim>
+      La&ubreve; sia senco la verbo estas netransitiva (en la
+      &ccirc;i-supraj ekzemploj akuzativo anstata&ubreve;as prepozicion), tial 
+      oni teorie ne povus diri <ctl><tld/>ata</ctl> a&ubreve; 
+      <ctl><tld/>ebla</ctl> (anstata&ubreve; &ccirc;i-lastan oni diru 
+      <ctl><tld/>hava</ctl> a&ubreve; <ctl>dividebla</ctl>).
+    </rim>
   </snc>
-  <rim>
-    La&ubreve; sia senco la verbo estas netransitiva (en la
-    &ccirc;i-supraj
-    ekzemploj akuzativo anstata&ubreve;as prepozicion), tial oni ne povas
-    diri "<tld/>ata" a&ubreve; "<tld/>ebla" (anstata&ubreve;
-    &ccirc;i-lastan oni diru
-    "<tld/>hava").
-  </rim>
   <adm>
   &Scirc;ajnas al mi, ke la senco "esti ~o de" ne tute malebligas, 
   ke oni konsideru la verbon transitiva. Ja la ekz-oj de la tipo 
@@ -99,8 +103,8 @@
 
   Anstataux "~ebla" mi uzis "dividebla" (vd adm sub cxi-lasta), kiel
   oftan kaj internacie kompreneblan mallongigon de "ekzakte dividebla".
-  Male al kio estas en la rimarko, mi ne konsentas, ke "~hava" kontentige 
-  anstatauxus "~ebla" por la senco, kiun PIV1 donas al gxi.
+  Mi enkondukis "~hava", kiu estis en la originala rimarko de Sergio,
+  k fakte povas anstatauxi "~ebla" en specifa kunteksto.
   
   <aut>MB</aut>
   </adm>
@@ -110,9 +114,52 @@
   <klr>(&#x431;&#x435;&#x437;
   &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x430;)</klr></trd>
 </drv>
+<drv mrk="divizo.0ebla">
+  <kap><tld/>ebla</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <uzo tip="stl">EVI</uzo>
+    <ref tip="dif" cel="divid.0ebla.MAT">dividebla.</ref>
+  </snc>
+</drv>
+<drv mrk="divizo.0hava">
+  <kap><tld/>hava</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. elemento en <ref cel="ring.0o.MAT">ringo</ref>)</klr>
+      Tia, ke ekzistas <ref cel="divizo.propra0o">propra <tld/>o</ref>
+      de &gcirc;i:
+      <ekz>
+        por ke entjero estu <tld/>hava, sufi&ccirc;as, ke &gcirc;i ne
+        estu primo;
+      </ekz>
+      <ekz>
+        <ind><tld/>hava <tld/>o</ind>.
+        <trd lng="de">zusammengesetzter <ind>Divisor</ind></trd>
+        <trd lng="en">non-prime <ind>divisor</ind></trd>
+        <trd lng="fr">diviseur compos&eacute;</trd>
+        <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j; <ind>&c_d;&c_i;&c_v;&c_i;&c_z;&c_o;&c_r;</ind></trd>
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+<drv mrk="divizo.ne0o">
+  <kap>ne<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Elemento, kiu ne estas <tld/>o.
+    </dif>
+    <ref tip="vid" cel="alikva.0o">alikvanto.</ref>
+  </snc>
+</drv>
 <drv mrk="divizo.nul0o">
   <kap>nul<tld/>o, <tld/>o de nulo</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
       Tia nenula elemento p en <ref cel="ring.0o.MAT">ringo</ref>,
@@ -145,7 +192,11 @@
       <ref cel="invers.0igebla.MAT">inversigebla</ref>, nek
       <ref cel="divid.0ebla.MAT">dividebla</ref> per a:
       <ekz>
-        prima nombro ne havas proprajn <tld/>ojn.
+        propraj <tld/>oj de natura entjero estas &ccirc;iuj &gcirc;iaj <tld/>oj
+        krom &gcirc;i kaj 1;
+      </ekz>
+      <ekz>
+        primo ne havas proprajn <tld/>ojn.
       </ekz>
     </dif>
   </snc>
@@ -165,6 +216,9 @@
 </art>
 <!--
 $Log$
+Revision 1.11  2001/08/27 18:17:07  revo
+Marc Bavant: ~i: mod adm
+
 Revision 1.10  2001/06/24 18:57:14  revo
 Marc Bavant: kor ekz cxe nul~o
 
@@ -181,8 +235,5 @@ Revision 1.6  2001/02/10 20:07:38  revo
 Marc Bavant: +snc plia cxe ~o, +adm cxe ~i
 
 Revision 1.5  2000/11/30 17:12:11  revo
-Alain Fagot: mrk="divizo.0o" + mrk="divizo.0i"
-
-Revision 1.4  2000/11/01 17:11:29  revo
 -->
 </vortaro>
