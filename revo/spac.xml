@@ -84,6 +84,7 @@
     <ref tip="prt" cel="punkt.0o.spaco">punkto.</ref>
     <trd lng="de">Raum</trd>
     <trd lng="en">space</trd>
+    <trd lng="pl">przestrze&nacute;</trd>
   </snc>
   <trd lng="fr">espace</trd>
   <trd lng="nl">ruimte</trd>
@@ -213,6 +214,7 @@
   <trd lng="de">affiner <ind>Raum</ind></trd>
   <trd lng="en">affine <ind>space</ind></trd>
   <trd lng="fr">espace affine</trd>
+  <trd lng="pl">przestrze&nacute; afiniczna</trd>
   <trd lng="ru">&c_a;&c_f;&c_f;&c_i;&c_n;&c_n;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
 </drv>
 
@@ -247,6 +249,7 @@
   <trd lng="de">affine <ind>Manigfaltigkeit</ind></trd>
   <trd lng="en">affine <ind>variety</ind></trd>
   <trd lng="fr">vari&eacute;t&eacute; affine</trd>
+  <trd lng="pl">podprzestrze&nacute; afiniczna</trd>
   <trd lng="ru">&c_a;&c_f;&c_f;&c_i;&c_n;&c_n;&c_o;&c_je; <ind>&c_m;&c_n;&c_o;&c_g;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_i;&c_je;</ind></trd>
 </drv>
 
@@ -257,7 +260,7 @@
   <snc>
     <dif>
       <ref cel="norm.0hava">Normohava</ref>
-      <ref cel="komple2.0a.MAT">kompleta</ref>
+      <ref cel="komple2.0a.spaco">kompleta</ref>
       <ref cel="spac.vektora0o">vektora <tld/>o</ref>.
     </dif>
     <refgrp tip="vid">
@@ -267,6 +270,7 @@
   <trd lng="de">Banach-Raum</trd>
   <trd lng="en">Banach <ind>space</ind></trd>
   <trd lng="fr">espace de Banach</trd>
+  <trd lng="pl">przestrze&nacute; Banacha</trd>
   <trd lng="ru">&c_b;&c_a;&c_n;&c_a;&c_h;&c_o;&c_v;&c_o; <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
 </drv>
 
@@ -303,6 +307,7 @@
   <trd lng="de">Euklidischer <ind>Raum</ind></trd>
   <trd lng="en">Euclidean <ind>space</ind></trd>
   <trd lng="fr">espace euclidien</trd>
+  <trd lng="pl">przestrze&nacute; euklidesowa</trd>
   <trd lng="ru">&c_je;&c_v;&c_k;&c_l;&c_i;&c_d;&c_o;&c_v;&c_o;
   <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
 </drv>
@@ -338,7 +343,7 @@
     <dif>
       <ref cel="komple2.0a.MAT">Kompleta</ref>
       <ref cel="spac.hermita0o">hermita <tld/>o</ref> a&ubreve;
-      <ref cel="komple2.0a.MAT">kompleta</ref>
+      <ref cel="komple2.0a.spaco">kompleta</ref>
       <ref cel="spac.euxklida0o">e&ubreve;klida <tld/>o</ref>.
     </dif>
     <refgrp tip="vid">
@@ -353,6 +358,7 @@
   <trd lng="de">Hilbert-Raum</trd>
   <trd lng="en">Hilbert space</trd>
   <trd lng="fr">espace hilbertien</trd>
+  <trd lng="pl">przestrze&nacute; Hilberta</trd>
   <trd lng="ru">&c_g;&c_i;&c_l;&c_mol;&c_b;&c_je;&c_r;&c_t;&c_o;&c_v;&c_o; <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
 </drv>
 
@@ -380,7 +386,7 @@
       <ref cel="bar.0ita.metrikaspaco">barita</ref>,
       <ref cel="kompak.antaux0a.MAT">anta&ubreve;kompakta</ref>,
       <ref cel="kompak.0a.metrikaspaco">kompakta</ref>,
-      <ref cel="komple2.0a.MAT">kompleta</ref>;
+      <ref cel="komple2.0a.spaco">kompleta</ref>;
     </refgrp>
     <refgrp tip="sub">
       Bildigoj super metrika spaco, kun specifaj ecoj:
@@ -392,8 +398,30 @@
   <trd lng="de">metrischer <ind>Raum</ind></trd>
   <trd lng="en">metric <ind>space</ind></trd>
   <trd lng="fr">espace m&eacute;trique</trd>
+  <trd lng="pl">przestrze&nacute; metryczna</trd>
   <trd lng="ru">&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
   <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
+</drv>
+
+<drv mrk="spac.mezurhava0o">
+  <kap>mezurhava <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref cel="ar.0o.MAT">Aro</ref> <em>&Omega;</em>, konsiderata kune kun
+      <ref cel="algebr.sigma0o">&sigma;-algebro</ref> <em>A</em> super &gcirc;i
+      kaj <ref cel="mezur.0o.MAT">mezuro</ref> &my; super <em>A</em>:
+      <ekz>
+        mezurhavan <tld/>on oni kutime signas per triopo
+        (<em>&Omega;</em>,<em>A</em>,&my;).
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Ma&szlig;raum</trd>
+  <trd lng="en">measure <ind>space</ind></trd>
+  <trd lng="fr">espace mesur&eacute;</trd>
+  <trd lng="pl">przestrze&nacute; z miar&aogonek;</trd>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o; &c_s; &c_m;&c_je;&c_r;&c_o;&c_j;</trd>
 </drv>
 
 <drv mrk="spac.normohava0o">
@@ -417,14 +445,42 @@
         la <ref cel="dual.topologia0o">topologia dualo</ref> de normohava
         <tld/>o estas normohava <klr>(la normo de lineara formo
         &phi; difini&gcirc;as kiel la supremo de ||&phi;(x)||, kiam
-        ||x||&#8804;1)</klr> kaj <ref cel="komple2.0a.MAT">kompleta</ref>. 
+        ||x||&#8804;1)</klr> kaj <ref cel="komple2.0a.spaco">kompleta</ref>.
       </ekz>
     </dif>
   </snc>
   <trd lng="de">normierter <ind>Raum</ind></trd>
   <trd lng="en">normed <ind>space</ind></trd>
   <trd lng="fr">espace norm&eacute;</trd>
+  <trd lng="pl">przestrze&nacute; unormowana</trd>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_je;
+  <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
+</drv>
+
+<drv mrk="spac.probablo0o">
+  <kap>probablo<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Tia <ref tip="super" cel="spac.mezurhava0o">mezurhava <tld/>o</ref>
+      (<em>&Omega;</em>,<em>A</em>,P), ke P estas
+      <ref cel="probab.0o.mezuro">probablo</ref>.
+    </dif>
+    <refgrp tip="vid">
+      Koneksaj nocioj:
+      <ref cel="okaz.0o.MAT">okazo</ref>,
+      <ref cel="algebr.okaz0o">okazalgebro</ref>,
+      <ref cel="variab.hazarda0o">hazarda variablo</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">Wahrscheinlichkeitsraum</trd>
+  <trd lng="en">probability <ind>space</ind></trd>
+  <trdgrp lng="fr">
+    <trd>espace de probabilit&eacute;</trd>,
+    <trd>espace probabilis&eacute;</trd>
+  </trdgrp>
+  <trd lng="pl">pzestrze&nacute; probabilistyczna</trd>
+  <trd lng="ru">&c_v;&c_je;&c_r;&c_o;&c_ja;&c_t;&c_n;&c_o;&c_s;&c_t;&c_n;&c_o;&c_je;
   <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
 </drv>
 
@@ -485,6 +541,9 @@
   <trd lng="de">Vektorraum</trd>
   <trd lng="en">vector <ind>space</ind></trd>
   <trd lng="fr">espace vectoriel</trd>
+  <trdgrp lng="pl">
+    <trd>przestrze&nacute; wektorowa</trd>,
+    <trd>przestrze&nacute; liniowa</trd></trdgrp> 
   <trdgrp lng="ru">
     <trd>&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_je;
     <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>,
@@ -510,6 +569,7 @@
   <trd lng="de">Untervektorraum</trd>
   <trd lng="en">vector subspace</trd>
   <trd lng="fr">sous-espace vectoriel</trd>
+  <trd lng="pl">podprzestrze&nacute; liniowa</trd>
   <trdgrp lng="ru">
     <trd>&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_je; <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>,
     <trd>&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_o;&c_je; <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
@@ -566,6 +626,7 @@
   <trd lng="de">topologischer <ind>Raum</ind></trd>
   <trd lng="en">topological <ind>space</ind></trd>
   <trd lng="fr">espace topologique</trd>
+  <trd lng="pl">przestrze&nacute; topologiczna</trd>
   <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
 </drv>
 
@@ -591,29 +652,30 @@
   <trd lng="de">topologischer <ind>Unterraum</ind></trd>
   <trd lng="en">topological <ind>subspace</ind></trd>
   <trd lng="fr">sous-espace topologique</trd>
+  <trd lng="pl">podprzestrze&nacute; topologiczna</trd>
   <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.46  2002/08/04 17:33:41  revo
-Marc Bavant: normohava ~o: +ekz
-
-Revision 1.45  2002/07/29 18:14:00  revo
-Marc Bavant: kompletigis refgrp por iuj ~oj
-Revision 1.44  2002/06/16 17:33:48  revo
-Marc Bavant: vektora sub~o: +ekz; vektora ~o: mod refgrp
-Revision 1.43  2002/06/03 20:23:24  revo
-Marc Bavant: topologia ~o: +ref al vojkoneksa k simple koneksa
-Revision 1.42  2002/05/27 17:20:01  revo
-Marc Bavant: Xa ~o: mod fnt
-Revision 1.41  2002/05/20 16:35:21  revo
-Marc Bavant: hermita ~o: koherigis trd de kun aliaj
-Revision 1.40  2002/05/12 16:35:34  revo
-Marc Bavant: snc MAT: reordigis refgrp; afina sub~o: kor ref al bildo
-Revision 1.39  2002/05/03 16:33:13  revo
-Marc Bavant: afina ~o: mod dif (certa); mod "limo" al "rando"
-Revision 1.38  2002/04/01 18:50:13  revo
+Revision 1.47 2002/08/11 17:32:38 revo
 Marc Bavant: hilberta ~o: kor rim
+Revision 1.46 2002/08/04 17:33:41 revo
+Marc Bavant: normohava ~o: +ekz
+Revision 1.45 2002/07/29 18:14:00 revo
+Marc Bavant: kompletigis refgrp por iuj ~oj
+Revision 1.44 2002/06/16 17:33:48 revo
+Marc Bavant: vektora sub~o: +ekz; vektora ~o: mod refgrp
+Revision 1.43 2002/06/03 20:23:24 revo
+Marc Bavant: topologia ~o: +ref al vojkoneksa kaj simple koneksa
+Revision 1.42 2002/05/27 17:20:01 revo
+Marc Bavant: Xa ~o: mod fnt
+Revision 1.41 2002/05/20 16:35:21 revo
+Marc Bavant: hermita ~o: koherigis trd de kun aliaj
+Revision 1.40 2002/05/12 16:35:34 revo
+Marc Bavant: snc MAT: reordigis refgrp; afina sub~o: kor ref al bildo
+Revision 1.39 2002/05/03 16:33:13 revo
+Marc Bavant: afina ~o: mod dif (certa); mod "limo" al "rando"
+Revision 1.38 2002/04/01 18:50:13 revo
 -->
 </vortaro>
