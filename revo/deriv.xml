@@ -58,28 +58,39 @@
   </snc>
   <snc mrk="deriv.0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="deriv.0ajxo.cxepunkto">
+      <dif>
+        <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
+        kun reela a&ubreve; kompleksa argumento, &ccirc;e punkto a de 
+        &gcirc;ia fonto-aro)</klr>
+        La <ref cel="limes.0o.bildigo">limeso</ref>
+        lim<sub>h&#x2192;0</sub>&#xa0;[f(a+h)-f(a)]/h, se &gcirc;i ekzistas:
+        <ekz>
+          por studi funkcion, oni ofte ser&ccirc;as la punktojn, &ccirc;e kiuj
+          la funkcio havas nulan <tld/>a&jcirc;on.
+        </ekz>
+      </dif>
+    </subsnc>
     <subsnc mrk="deriv.0ajxo.funkcio">
       <dif>
         <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
         kun reela a&ubreve; kompleksa argumento)</klr>
-        Tia funkcio f&#x2032;, ke
-        f&#x2032;(x) = lim<sub>h&#x2192;0</sub>&#xa0;[f(x+h)-f(x)]/h,
-        se tia <ref cel="limes.0o.bildigo">limeso</ref> ekzistas:
+        Tia funkcio f&#x2032;, ke f&#x2032;(x) egalas al la <tld/>a&jcirc;o
+        <sncref ref="deriv.0ajxo.cxepunkto"/> de f &ccirc;e punkto x:
+        <ekz>
+          la <tld/>a&jcirc;on de f oni kutime signas per f&#x2032; a&ubreve;
+          df/dx;
+        </ekz>
         <ekz>
           unua (<frm>f&#x2032;</frm>), dua (<frm>f&#x2033;</frm>)
           tria (<frm>f&#x2034;</frm>),... n-a (<frm>f<sup>(n)</sup></frm>)
           <tld/>a&jcirc;oj;
         </ekz>
         <ekz>
-          la funkcio kosinuso estas <tld/>a&jcirc;o de sinuso;
+          la <tld/>a&jcirc;o de f(x)=ax<sup>2</sup> estas f&#x2032;(x)=2ax;
         </ekz>
         <ekz>
-          <tld/>a&jcirc;o de funkcio &ccirc;e punkto a de &gcirc;ia
-          fonto-aro <klr>(valoro de la &ccirc;i-supra limeso, kiam x=a)</klr>;
-        </ekz>
-        <ekz>
-          parta <tld/>a&jcirc;o <klr>(pri funkcio plurargumenta, kiam nur unu
-          argumento varias)</klr>.
+          la funkcio kosinuso estas <tld/>a&jcirc;o de sinuso.
         </ekz>
       </dif>
       <ref tip="vid" cel="difere2.0o">diferencialo.</ref>
@@ -181,9 +192,47 @@
   <aut>MB</aut>
   </adm>
 </drv>
+<drv mrk="deriv.parta0ajxo">
+  <kap>parta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="funkci.n-argumenta0o">plurargumenta 
+      funkcio</ref>, la&ubreve; la i-a argumento)</klr>
+      <tld lit="D"/>a&jcirc;o <sncref ref="deriv.0ajxo.cxepunkto"/> a&ubreve;
+      <sncref ref="deriv.0ajxo.funkcio"/> la&ubreve; unu el la argumentoj, kiam 
+      la ceteraj restas konstantaj:
+      <ekz>
+        la partan <tld/>a&jcirc;on de f la&ubreve; la i-a argumento 
+        x<sub>i</sub>oni kutime signas per f&#x2032;<sub>i</sub>, 
+        &#x2202;<sub>i</sub>f a&ubreve; &#x2202;f/&#x2202;x<sub>i</sub>;
+      </ekz>
+      <ekz>
+        dua <tld/>a&jcirc;o de f la&ubreve; la i-a argumento
+        (&#x2202;<sup>2</sup><sub>i</sub>f),
+        la&ubreve; la i-a kaj la j-a argumentoj
+        (&#x2202;<sup>2</sup><sub>i,j</sub>f);
+      </ekz>
+      <ekz>
+        la parta <tld/>a&jcirc;o de f(x,y)=x<sup>2</sup>y la&ubreve; x estas
+        &#x2202;<sub>x</sub>f(x,y)=2xy kaj la parta <tld/>a&jcirc;o de la
+        sama funkcio la&ubreve; y estas 
+        &#x2202;<sub>y</sub>f(x,y)=x<sup>2</sup>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">partielle <ind>Ableitung</ind></trd>
+  <trd lng="en">partial <ind>derivative</ind></trd>
+  <trd lng="fr">d&eacute;riv&eacute;e partielle</trd>
+  <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_a;&c_ja;</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.15  2001/09/29 18:13:17  revo
+Marc Bavant: +ref al holomorfa
+
 Revision 1.14  2001/08/20 20:33:51  revo
 Marc Bavant: kor ref cel al funkcio
 
@@ -200,8 +249,5 @@ Revision 1.10  2001/03/14 19:17:12  revo
 korektis trd lng='klr' => uzo tip='klr'
 
 Revision 1.9  2001/03/11 18:56:44  revo
-Marc Bavant: koherigis redakton de snc MAT kun proksimaj artikoloj; mod mrk mat->MAT; sxovis la trd es de ~ajxo al la nura gramatika snc (cxu prave?); rearangxo de la ref al ant "integral"; +trd fr
-
-Revision 1.8  2000/10/24 16:12:12  revo
 -->
 </vortaro>
