@@ -2,62 +2,88 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <ofc>*</ofc>
-  <rad>polus</rad>/o
-</kap>
-<drv mrk="polus.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="polus.0o.de_sfero">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="fak">GEOG</uzo>
-    <dif>
-      &Ccirc;iu el la du punktoj, je kiuj
-      <ref cel="aks.0o.rotacia">akso</ref> de sfero sekcas &gcirc;ian
-      surfacon:
-      <ekz>
-        suda <tld/>o de la tero.
-      </ekz>
-    </dif>
-    <trd lng="de">Pol</trd>
-    <trd lng="en">pole</trd>
-    <trd lng="nl">pool</trd>
-  </snc>
-  <snc mrk="polus.0o.FIZ">
-    <dif>
-      &Ccirc;iu el la du punktoj de pilo, baterio, magneto, &ccirc;e kiuj
-      aperas kontra&ubreve;aj fortoj.
-    </dif>
-  </snc>
-  <snc>
-    <uzo tip="fak">MAT</uzo>
-    <subsnc mrk="polus.0o.koordinatsistemo">
-      <fnt><bib>PIV1</bib></fnt>
-      <dif>
-        <klr>(de <tld/>a <ref
-        cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
-        &Gcirc;ia <ref cel="origin.0o.de_polusa_koordinatsistemo">origino</ref>.
-      </dif>
-    </subsnc>
-  </snc>
-  <trd lng="fr">p&ocirc;le</trd>
-  <trd lng="ru">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.8 2001/11/03 19:11:08 revo
-Marc Bavant: ~o: +snc MAT
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>polus</rad>/o
+    </kap>
 
-Revision 1.7 2001/09/10 18:11:56 revo
-Marc Bavant: +uzo MAT/GEOG, reverkis, +snc FIZ
+    <drv mrk="polus.0o">
+      <kap><ofc>*</ofc><tld/>o</kap>
+      <snc mrk="polus.0o.de_sfero">
+	<uzo tip="fak">MAT</uzo>
+	<uzo tip="fak">GEOG</uzo>
+	<dif>
+	  &Ccirc;iu el la du punktoj, je kiuj
+	  <ref cel="aks.0o.rotacia">akso</ref> de sfero sekcas &gcirc;ian
+	  surfacon:
+	  <ekz>
+	    suda <tld/>o de la tero.
+	  </ekz>
+	</dif>
+	<trd lng="de">Pol</trd>
+	<trd lng="en">pole</trd>
+	<trd lng="nl">pool</trd>
+      </snc>
+      <snc mrk="polus.0o.FIZ">
+	<dif>
+	  &Ccirc;iu el la du punktoj de pilo, baterio, magneto, &ccirc;e kiuj
+	  aperas kontra&ubreve;aj fortoj.
+	</dif>
+      </snc>
+      <snc>
+	<uzo tip="fak">MAT</uzo>
+	<subsnc mrk="polus.0o.koordinatsistemo">
+	  <fnt><bib>PIV1</bib></fnt>
+	  <dif>
+	    <klr>(de <tld/>a <ref
+		cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
+	    &Gcirc;ia <ref cel="origin.0o.de_polusa_koordinatsistemo">origino</ref>.
+	  </dif>
+	</subsnc>
+      </snc>
+      <trd lng="fr">p&ocirc;le</trd>
+      <trd lng="ru">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
+    </drv>
 
-Revision 1.6 2001/07/25 18:13:28 revo
-Paul Peeraerts: ald trd nl
+    <drv mrk="polus.P0astelo">
+      <kap><tld lit="P"/>a stelo</kap>
+      <snc>
+	<uzo tip="fak">AST</uzo>
+	<dif>
+	  Stelo en la stelaro
+	  <ref tip="malprt" cel="urs.MalfrandaU0ino">Malgranda Ursino</ref>,
+	  <trd lng="la">&alfa; Ursae Minoris</trd>,
+	  el la helaj steloj la plej proksima al la &ccirc;iela nord<tld/>o
+	  (je proks. 1&ring;).
+	</dif>
+      </snc>
+      <trdgrp lng="en">
+        <trd>North star</trd>,
+        <trd>polestar</trd>,
+        <trd>Cynosura</trd>,
+        <trd>Polaris</trd>
+      </trdgrp>
+      <trd lng="ru">&c_P;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja; &c_z;&c_v;&c_je;&c_z;&c_d;&c_a;</trd>
+    </drv>
 
-Revision 1.5 2001/06/20 18:11:18 revo
-Dennis Wibrow: +trd germ kaj angl
+  </art>
+  <!--
+  $Log$
+  Revision 1.9  2001/12/20 17:35:26  revo
+  Yury Finkel: +trd ru
 
--->
+  Revision 1.8 2001/11/03 19:11:08 revo
+  Marc Bavant: ~o: +snc MAT
+
+  Revision 1.7 2001/09/10 18:11:56 revo
+  Marc Bavant: +uzo MAT/GEOG, reverkis, +snc FIZ
+
+  Revision 1.6 2001/07/25 18:13:28 revo
+  Paul Peeraerts: ald trd nl
+
+  Revision 1.5 2001/06/20 18:11:18 revo
+  Dennis Wibrow: +trd germ kaj angl
+
+  -->
 </vortaro>
