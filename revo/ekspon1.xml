@@ -11,18 +11,39 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <ref tip="super" cel="funkci.0o.MAT">Funkcio</ref>, kies valoroj
-      varias la&ubreve; geometria progresio, kiam la variablo
-      varias la&ubreve; aritmetika progresio:
+      <klr>(kun <ref cel="baz.0o.logaritmo">bazo</ref> a)</klr>
+      Tia <ref cel="kontin3.0a.cxie">kontinua</ref> reela 
+      <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f, ke
+      f(x+y)=f(x).f(y) kaj f(1)=a:
       <ekz>
-        <tld/>o de x kun bazo a oni kutime signas per a<sup>x</sup> a&ubreve;
-        exp<sub>a</sub>(x);
+        <tld/>on de x kun bazo a oni kutime signas per exp<sub>a</sub>(x)
+        a&ubreve; a<sup>x</sup>; 
+      </ekz>
+      <ekz>
+        la&ubreve;difine, <tld/>o de sumo egalas al produto de <tld/>oj de la 
+        apartaj termoj, kaj <tld/>o de 1 egalas al la bazo;
+      </ekz>
+      <ekz>
+         <tld/>o de logaritmo de x egalas al x;
+      </ekz>
+      <ekz>
+        la <tld/>o de aritmetika <ref cel="progre1.0o">progresio</ref>
+        estas geometria progresio;
       </ekz>
       <ekz>
         <ind><tld/>a</ind> kresko.
         <trd lng="fr">exponentiel<klr tip="ind"> (adj.)</klr></trd>
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ekspon2.0o.algebra">eksponento</ref>,
+      <ref cel="logari.0o">logaritmo</ref>.
+    </refgrp>
+    <rim>
+      Eblas vastigi tiun funkcion al kompleksoj, uzante la identa&jcirc;on
+      e<sup>x+i.y</sup>=e<sup>x</sup>(cos y + i.sin y), en kiu e estas la
+      bazo de naturaj logaritmoj.
+    </rim>
   </snc>
   <trd lng="fr">exponentielle<klr tip="ind"> (subst.)</klr></trd>
   <trdgrp lng="ru">
@@ -33,6 +54,9 @@
 </art>
 <!--
 $Log$
+Revision 1.6  2001/06/23 18:11:18  revo
+Marc Bavant: mod ref cel al funkcio MAT
+
 Revision 1.5  2001/06/18 18:25:27  revo
 Marc Bavant: +trd fr, mod dif (provizore), +ekz, +ref al funkcio
 
