@@ -310,6 +310,27 @@
     <trd>&eacute;chelon unit&eacute;</trd></trdgrp> 
   <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja; &c_H;&c_je;&c_v;&c_i;&c_s;&c_a;&c_j;&c_d;&c_a;</trd>
 </drv>
+<drv mrk="funkci.karakteriza0o">
+  <kap>karakteriza <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de subaro <em>A</em> de aro <em>E</em>)</klr>
+      <ref tip="super" cel="funkci.0o.MAT"><tld lit="F"/>o</ref> kun fonto-aro
+      <em>E</em>, kiu alprenas valoron 1 en &ccirc;iu punkto de <em>A</em>
+      kaj 0 en &ccirc;iu punkto de &gcirc;ia komplemento:
+      <ekz>
+        la karakterizan <tld/>on de <em>A</em> oni ofte signas per
+        &chi;<sub>A</sub>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">charakteristische <ind>Funktion</ind></trd>
+  <trd lng="en">characteristic <ind>function</ind></trd>
+  <trd lng="fr">fonction caract&eacute;ristique</trd>
+  <trd lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
 <drv mrk="funkci.polinoma0o">
   <kap>polinoma <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -384,6 +405,59 @@
   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
+<drv mrk="funkci.simpla0o">
+  <kap>simpla <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(la&ubreve; <ref cel="algebr.sigma0o">&sigma;-algebro</ref>
+      <em>A</em>)</klr>
+      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref> s, kiu
+      povas prezenti&gcirc;i kiel s = &#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub>,
+      kie a<sub>i</sub> estas nombro kaj &chi;<sub>Ai</sub> estas la
+      <ref cel="funkci.karakteriza0o">karakteriza <tld/>o</ref> de iu 
+      <em>A</em><sub>i</sub>&#x2208;<em>A</em>:
+      <ekz>
+        &scirc;tupara <tld/>o kun finia nombro da valoroj estas simpla
+        <tld/>o la&ubreve; la borela &sigma;-algebro super la aro de reeloj, 
+        sed la malo ne validas.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+  Mi ne trovis fonton por tiu cxi termino, sed ne multe hezitis
+  gxin enkonduki pro gxia internacieco. <aut>MB</aut>
+  </adm>
+  <trd lng="en">simple <ind>function</ind></trd>
+  <trd lng="de">einfache <ind>Funktion</ind></trd>
+  <trd lng="fr">fonction &eacute;tag&eacute;e</trd>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_t;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
+<drv mrk="funkci.sxtupara0o">
+  <kap>&scirc;tupara <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref> &scirc;
+      kun reela argumento, kiu povas prezenti&gcirc;i kiel 
+      &scirc; = &#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub>, kie a<sub>i</sub>
+      estas nombro kaj &chi;<sub>Ai</sub> estas la 
+      <ref cel="funkci.karakteriza0o">karakteriza <tld/>o</ref> de iu 
+      aro <em>A</em><sub>i</sub> apartenanta al 
+      <ref cel="part.dis0igo.MAT">dispartigo</ref> de la aro de reeloj en 
+      intervalojn:
+      <ekz>
+        la <tld/>o, kiu &jcirc;etas reelon al &gcirc;ia entjera parto estas
+        &scirc;tupara <tld/>o.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Treppenfunktion</trd>
+  <trd lng="en">step <ind>function</ind></trd>
+  <trd lng="fr">fonction en escalier</trd>
+  <trd lng="ru">&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_ch;&c_a;&c_t;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
 <drv mrk="funkci.testa0o">
   <kap>testa <tld/>o, testo<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -432,6 +506,9 @@
 </art>
 <!--
 $Log$
+Revision 1.14  2001/07/22 18:17:53  revo
+Marc Bavant: ~o MAT: provo koherigi kun aliaj artikoloj kaj senrompe reredakti; +drv unusenca ~o, plursenca ~o, hevisajda ~o, testa ~o
+
 Revision 1.13  2001/07/15 18:12:12  revo
 Marc Bavant: +drv gxeneraligita ~o
 
@@ -448,8 +525,5 @@ Revision 1.9  2000/12/02 17:11:43  revo
 Sergio Pokrovskij: ref-malprt{programlingvo}
 
 Revision 1.8  2000/10/22 16:11:14  revo
-Marc Bavant: +drv polinoma ~o, korekto de ref al bildo kaj bildigo
-
-Revision 1.7  2000/09/12 16:12:17  revo
 -->
 </vortaro>
