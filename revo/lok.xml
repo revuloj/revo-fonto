@@ -214,6 +214,62 @@
   </snc>
 </drv>
 
+<drv mrk="lok.de0i">
+  <kap>de<tld/>i</kap>
+  <snc>
+    <dif>
+      Meti en alian <tld/>on.
+    </dif>
+    <trd lng="ru">&c_s;&c_m;&c_je;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>
+  </snc>
+  <trd lng="nl">verplaatsen</trd>
+</drv>
+
+<drv mrk="lok.de0igo">
+  <kap>de<tld/>igo</kap>
+  <snc mrk="lok.de0igo.KOMUNE">
+    <dif>
+      Ago de<tld/>igi.
+    </dif>
+  </snc>
+  <snc mrk="lok.de0igo.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 25</lok></fnt>
+    <dif>
+      <ref cel="poziti.0a.izometrio">Pozitiva</ref>
+      <ref cel="afin.0a.bildigo">afina</ref>
+      <ref tip="super" cel="izomet.0o">izometrio</ref>:
+      <ekz>
+        &ccirc;iu de<tld/>igo en e&ubreve;klida ebeno estas 
+        <ref cel="lig.kun0ajxo.rilatoj">kunliga&jcirc;o</ref> de
+        <ref cel="transl.0o.MAT">translacio</ref> kaj
+        <ref cel="rotaci.0o.afina">rotacio</ref>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="koinci.0i.figuroj_ka">koincidigebla.</ref>
+    <rim>
+      Pluraj naciaj lingvoj sugestas, ke <ctl>movo</ctl> povus esti
+      bona anstata&ubreve;anto, sed &gcirc;ia proksimeco kun
+      <ctl>movado</ctl> (en cinematiko) iom malhelpas, kaj 
+      <ctl>de<tld/>igo</ctl> havas a&ubreve;toritatajn fontojn 
+      (Bricard, Werner). Plie, en la koncernaj lingvoj, la termino
+      <ctl>movo</ctl> ofte fari&gcirc;as nura sinonimo de <ctl>afina
+      izometrio</ctl> kaj oni sentas bezonon aldoni precizigan adjektivon
+      de la tipo <ctl>pozitiva</ctl>, <ctl>propra</ctl> a&ubreve; simile.
+    </rim>
+    <trd lng="de"><klr tip="ind">(eigentliche) </klr>Bewegung</trd>
+    <trdgrp lng="en">
+      <trd>displacement</trd>,
+      <trd><klr tip="ind">(proper) </klr>motion</trd>,
+      <trd><klr tip="ind">(proper) </klr>movement</trd></trdgrp> 
+    <trdgrp lng="fr">
+      <trd>d&eacute;placement</trd>,
+      <trd>isom&eacute;trie directe</trd>,
+      <trd>isom&eacute;trie positive</trd></trdgrp> 
+    <trd lng="ru"><klr tip="ind">(&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;) </klr>&c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  </snc>
+</drv>
+
 <drv mrk="lok.dis0i">
   <kap>dis<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
@@ -233,17 +289,6 @@
     </trdgrp>
   </snc>
   <trd lng="nl">verdelen</trd>
-</drv>
-
-<drv mrk="lok.de0i">
-  <kap>de<tld/>i</kap>
-  <snc>
-    <dif>
-      Meti en alian <tld/>on.
-    </dif>
-    <trd lng="ru">&c_s;&c_m;&c_je;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>
-  </snc>
-  <trd lng="nl">verplaatsen</trd>
 </drv>
 
 <drv mrk="lok.mal0a">
@@ -346,9 +391,9 @@
 
 <drv mrk="lok.0nombro">
   <kap><tld/>nombro</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">KOMP</uzo>
   <snc mrk="lok.0nombro.argumenta">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="fak">KOMP</uzo>
     <dif>
       Nombro indikanta kiom da argumentoj akceptas operacio,
       funkcio, rilato, predikato, proceduro ktp &dash; a&ubreve; simbolo
@@ -371,9 +416,10 @@
 
 <drv mrk="lok.du0a">
   <kap>du<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">KOMP</uzo>
+  <fnt><bib>KompLeks</bib></fnt>
   <snc mrk="lok.du0a.operacio">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="fak">KOMP</uzo>
     <dif>
       Kies <ref cel="lok.0nombro.argumenta">loknombro</ref> estas 2:
       <ekz>
@@ -398,9 +444,10 @@
 
 <drv mrk="lok.unu0a">
   <kap>unu<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">KOMP</uzo>
+  <fnt><bib>KompLeks</bib></fnt>
   <snc mrk="lok.unu0a.operacio">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="fak">KOMP</uzo>
     <dif>
       Kies <ref cel="lok.0nombro.argumenta">loknombro</ref> estas 1:
       <ekz>
@@ -422,24 +469,20 @@
 </art>
 <!--
 $Log$
+Revision 1.18  2002/02/27 18:00:05  revo
+Yury Finkel: konv (f)
 Revision 1.17 2002/01/27 17:31:03 revo
 Sergio Pokrovskij: +lokajx(ar)o
-
 Revision 1.16 2002/01/14 20:08:07 revo
 fontindiko PrV per programo de Jerome
-
 Revision 1.15 2001/11/20 17:35:01 revo
 Yury Finkel: reformatigis
-
 Revision 1.14 2001/09/24 18:13:45 revo
 Jerome Vachey: filozojoj - filozofoj
-
 Revision 1.13 2001/04/22 17:44:43 revo
 Paul Peeraerts: ald trd nl + forigo de 2 malghustaj -ig
-
 Revision 1.12 2001/03/06 17:12:40 revo
 Ulrich Fellmann: kor de skriberaro en germ trd
-
 Revision 1.11 2000/12/10 18:46:38 revo
 -->
 </vortaro>
