@@ -69,136 +69,137 @@
     lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;
     <klr>(&c_h;&c_i;&c_m;.)</klr></trd>
   </snc>
-  <snc mrk="baz.0o.nombrosistema">
+  <snc mrk="baz.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <uzo tip="fak">KOMP</uzo>
-    <fnt><bib>PIV1</bib></fnt>
-    <dif>
-      En pozicia nombrosistemo, nombro de unuoj de ciferpozicio,
-      konstituanta unuon de la najbara pli peza ciferpozicio:
-      <ekz>
-        la <tld/>o de nia kutima dekuma nombrosistemo estas 10;
-        la komputikistoj uzas la nombrosistemojn kun la bazoj 2, 8,
-        16 <klr>(duuman, okuman kaj deksesuman nombrosistemojn)</klr>.
-      </ekz>
-    </dif>
-    <ref tip="malprt" cel="nombr.0osistemo">nombrosistemo;</ref>
-    <ref tip="vid" cel="um.0.nombrosistemo">-um.</ref>
-    <trd lng="de">Basis</trd>
-    <trd lng="en">radix</trd>
-    <trd lng="fr">base<klr tip="ind"> (de num&eacute;ration)</klr></trd>
-    <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_y; &c_s;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
+    <subsnc mrk="baz.0o.nombrosistema">
+      <uzo tip="fak">KOMP</uzo>
+      <fnt><bib>PIV1</bib></fnt>
+      <dif>
+        <klr>(de pozicia <ref cel="nombr.0osistemo">nombrosistemo</ref>)</klr>
+        Nombro de eblaj valoroj por &ccirc;iu 
+        <ref cel="cifer.0o">cifero</ref>, uzata en prezentado de nombro:
+        <ekz>
+          la <tld/>o de nia kutima nombrosistemo estas 10 <klr>(la ciferoj
+          alprenas unu el la dek valoroj de 0 &gcirc;is 9)</klr>;
+        </ekz>
+        <ekz>
+          la komputikistoj uzas la nombrosistemojn kun la <tld/>oj 2, 8,
+          16 <klr>(duuman, okuman kaj deksesuman nombrosistemojn)</klr>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="um.0.nombrosistemo">-um.</ref>
+      <trd lng="de">Basis</trd>
+      <trd lng="en">radix</trd>
+      <trd lng="fr">base<klr tip="ind"> (de num&eacute;ration)</klr></trd>
+      <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_y; &c_s;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="baz.0o.logaritmo">
+      <fnt><bib>PIV1</bib></fnt>
+      <dif>
+        <klr>(de <ref cel="logari.0o">logaritmo</ref> a&ubreve;
+        <ref cel="ekspon1.0o">eksponencialo</ref>)</klr>
+        La nombro, kies logaritmo egalas 1, a&ubreve; la bildo de 1 per
+        eksponencialo:
+        <ekz>
+          <ind><tld/>o de naturaj logaritmoj</ind>
+          <fnt><bib>MatVort</bib></fnt>.
+          <trd lng="de">Basis der nat&uuml;rlichen Logarithmen</trd>
+          <trd lng="en">base of natural logarithms</trd>
+          <trd lng="fr">base des logarithmes naturels</trd>
+          <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je; &c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_h; &c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_o;&c_v;</trd>
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="um.0.logaritmo">-um.</ref>
+      <trd lng="de">Basis</trd>
+      <trd lng="en">base<klr tip="ind"> (of logarithm)</klr></trd>
+      <trd lng="fr">base<klr tip="ind"> (d'un logarithme)</klr></trd>
+      <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_a;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="baz.0o.figuro">
+      <fnt><bib>MatTerm</bib><lok>p. 7, p.p. triangulo</lok></fnt>
+      <dif>
+        <klr>(de <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
+        Konvencie elektita <ref tip="super" cel="later.0o">latero</ref>
+        a&ubreve; <ref tip="super" cel="fac.0o.pluredro">faco</ref>, kiu limas
+        la figuron; la longo de tia latero a&ubreve; la areo de tia faco:
+        <ekz>
+          <tld/>o de
+          <refgrp tip="malprt">
+            <ref cel="angul.tri0o">triangulo</ref>,
+            <ref cel="pirami.0o.figuro">piramido</ref>,
+            <ref cel="cilind.0o.solido">cilindro</ref>,
+            <ref cel="konus.0o.solido">konuso</ref>
+          </refgrp>;
+        </ekz>
+        <ekz>
+          <tld/>oj de <ref tip="malprt" cel="prism.0o">prismo</ref>
+          <klr>(&ccirc;iu el &gcirc;iaj du paralelaj kaj samareaj facoj)</klr>;
+        </ekz>
+        <ekz>
+          areo de <ref cel="parale2.0o">paralelogramo</ref>
+          egalas al la produto de unu &gcirc;ia <tld/>o per la responda
+          <ref cel="alt.0o.MAT">alto</ref>.
+        </ekz>
+      </dif>
+      <trd lng="de">Basis<klr tip="ind"> (von einem Vieleck)</klr></trd>
+      <trd lng="en">base<klr tip="ind"> (of a polygon)</klr></trd>
+      <trd lng="fr">base<klr tip="ind"> (d'un polygone)</klr></trd>
+      <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_m;&c_n;&c_o;&c_g;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;&c_a;) </klr></trd>
+    </subsnc>
+    <subsnc mrk="baz.0o.vektoraspaco">
+      <fnt><bib>MatStokTerm</bib><lok>p. 111</lok></fnt>
+      <dif>
+        <klr>(de <ref cel="modul.0o.strukt">modulo</ref> a&ubreve;
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+        <ref cel="liber.0a.lineare">Libera</ref> subaro, kiu
+        <ref cel="nask.0i.MAT">naskas</ref> la tutan spacon:
+        <ekz>
+          se vektora spaco havas finian <tld/>on, &ccirc;iuj
+          &gcirc;iaj <tld/>oj havas samtiom da elementoj;
+        </ekz>
+        <ekz>
+          se naskanta subaro N de vektora spaco inkluzivas liberan subaron L,
+          ekzistas <tld/>o inkluzivanta L kaj inkluzivita de N.
+        </ekz>
+      </dif>
+      <rim>
+        Kelkaj a&ubreve;toroj preferas difini <tld/>on kiel <ref
+        cel="famili.0o.bildigo">familion</ref>. Tio fontas el la fakto, ke por
+        kelkaj aplikoj estas oportune uzi indican skriba&jcirc;on de la tipo
+        &#x2211;&alfa;<sub>i</sub>*<em>e</em><sub>i</sub> kaj tio ebligas ordigi
+        la <tld/>vektorojn.
+      </rim>
+      <refgrp tip="vid">
+        <ref cel="dimens.0o.vektoraspaco">dimensio</ref>,
+        <ref cel="ort.0a.vektoroj">orta</ref>,
+        <ref cel="norm.unu0a">ununorma</ref>.
+      </refgrp>
+      <trd lng="de">Basis</trd>
+      <trd lng="en">basis</trd>
+      <trd lng="fr">base</trd>
+      <trd lng="ru">&c_b;&c_a;&c_z;&c_i;&c_s;<klr tip="ind"> (&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="baz.0o.topologio">
+      <dif>
+        <klr>(de <ref cel="topolo.0o.strukturo">topologio</ref>
+        <em>T</em>)</klr>
+        Tia subaro de <em>T</em>, ke &ccirc;iu elemento de <em>T</em> estas
+        kuna&jcirc;o de elementoj el la <tld/>o:
+        <ekz>
+          en <ref cel="spac.metrika0o">metrika spaco</ref>, la aro de &ccirc;iuj
+          <ref cel="glob.0o.metrikaspaco">globoj</ref> estas <tld/>o.
+        </ekz>
+      </dif>
+      <trd lng="de">Basis</trd>
+      <trd lng="en">basis</trd>
+      <trd lng="fr">base</trd>
+      <trd lng="ru">&c_b;&c_a;&c_z;&c_a;</trd>
+      <adm>
+        Mi ne trovis fonton por "~o de topologio",
+        sed sxajnas, ke gxi estas suficxe internacia. <aut>MB</aut>
+      </adm>
+    </subsnc>
   </snc>
-  <snc mrk="baz.0o.logaritmo">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
-    <dif>
-      <klr>(de <ref cel="logari.0o">logaritmo</ref> a&ubreve;
-      <ref cel="ekspon1.0o">eksponencialo</ref>)</klr>
-      La nombro, kies logaritmo egalas 1, a&ubreve; la bildo de 1 per
-      eksponencialo:
-      <ekz>
-        <ind><tld/>o de naturaj logaritmoj</ind>
-        <fnt><bib>MatVort</bib></fnt>.
-        <trd lng="de">Basis der nat&uuml;rlichen Logarithmen</trd>
-        <trd lng="en">base of natural logarithms</trd>
-        <trd lng="fr">base des logarithmes naturels</trd>
-        <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je; &c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_h; &c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_o;&c_v;</trd>
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="um.0.logaritmo">-um.</ref>
-    <trd lng="de">Basis</trd>
-    <trd lng="en">base<klr tip="ind"> (of logarithm)</klr></trd>
-    <trd lng="fr">base<klr tip="ind"> (d'un logarithme)</klr></trd>
-    <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_a;)</klr></trd>
-  </snc>
-  <snc mrk="baz.0o.figuro">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 7, p.p. triangulo</lok></fnt>
-    <dif>
-      <klr>(de <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
-      Konvencie elektita <ref tip="super" cel="later.0o">latero</ref>
-      a&ubreve; <ref tip="super" cel="fac.0o.pluredro">faco</ref>, kiu limas
-      la figuron; la longo de tia latero a&ubreve; la areo de tia faco:
-      <ekz>
-        <tld/>o de
-        <refgrp tip="malprt">
-          <ref cel="angul.tri0o">triangulo</ref>,
-          <ref cel="pirami.0o.figuro">piramido</ref>,
-          <ref cel="cilind.0o.solido">cilindro</ref>,
-          <ref cel="konus.0o.solido">konuso</ref>
-        </refgrp>;
-      </ekz>
-      <ekz>
-        <tld/>oj de <ref tip="malprt" cel="prism.0o">prismo</ref>
-        <klr>(&ccirc;iu el &gcirc;iaj du paralelaj kaj samareaj facoj)</klr>;
-      </ekz>
-      <ekz>
-        areo de <ref cel="parale2.0o">paralelogramo</ref>
-        egalas al la produto de unu &gcirc;ia <tld/>o per la responda
-        <ref cel="alt.0o.MAT">alto</ref>.
-      </ekz>
-    </dif>
-    <trd lng="de">Basis<klr tip="ind"> (von einem Vieleck)</klr></trd>
-    <trd lng="en">base<klr tip="ind"> (of a polygon)</klr></trd>
-    <trd lng="fr">base<klr tip="ind"> (d'un polygone)</klr></trd>
-    <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_m;&c_n;&c_o;&c_g;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;&c_a;) </klr></trd>
-  </snc>
-  <snc mrk="baz.0o.vektoraspaco">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatStokTerm</bib><lok>p. 111</lok></fnt>
-    <dif>
-      <klr>(de <ref cel="modul.0o.strukt">modulo</ref> a&ubreve;
-      <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-      <ref cel="liber.0a.lineare">Libera</ref> subaro, kiu
-      <ref cel="nask.0i.MAT">naskas</ref> la tutan spacon:
-      <ekz>
-        se vektora spaco havas finian <tld/>on, &ccirc;iuj
-        &gcirc;iaj <tld/>oj havas samtiom da elementoj;
-      </ekz>
-      <ekz>
-        se naskanta subaro N de vektora spaco inkluzivas liberan subaron L,
-        ekzistas <tld/>o inkluzivanta L kaj inkluzivita de N.
-      </ekz>
-    </dif>
-    <rim>
-      Kelkaj a&ubreve;toroj preferas difini <tld/>on kiel <ref
-      cel="famili.0o.bildigo">familion</ref>. Tio fontas el la fakto, ke por
-      kelkaj aplikoj estas oportune uzi indican skriba&jcirc;on de la tipo
-      &#x2211;&alfa;<sub>i</sub>*<em>e</em><sub>i</sub> kaj tio ebligas ordigi
-      la <tld/>vektorojn.
-    </rim>
-    <refgrp tip="vid">
-      <ref cel="dimens.0o.vektoraspaco">dimensio</ref>,
-      <ref cel="ort.0a.vektoroj">orta</ref>,
-      <ref cel="norm.unu0a">ununorma</ref>.
-    </refgrp>
-    <trd lng="de">Basis</trd>
-    <trd lng="en">basis</trd>
-    <trd lng="fr">base</trd>
-    <trd lng="ru">&c_b;&c_a;&c_z;&c_i;&c_s;<klr tip="ind"> (&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;)</klr></trd>
-  </snc>
-  <snc mrk="baz.0o.topologio">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(de <ref cel="topolo.0o.strukturo">topologio</ref>
-      <em>T</em>)</klr>
-      Tia subaro de <em>T</em>, ke &ccirc;iu elemento de <em>T</em> estas
-      kuna&jcirc;o de elementoj el la <tld/>o:
-      <ekz>
-        en <ref cel="spac.metrika0o">metrika spaco</ref>, la aro de &ccirc;iuj
-        <ref cel="glob.0o.metrikaspaco">globoj</ref> estas <tld/>o.
-      </ekz>
-    </dif>
-    <trd lng="de">Basis</trd>
-    <trd lng="en">basis</trd>
-    <trd lng="fr">base</trd>
-    <trd lng="ru">&c_b;&c_a;&c_z;&c_a;</trd>
-  </snc>
-  <adm>
-    Mi ne trovis fonton por "~o de topologio",
-    sed sxajnas, ke gxi estas suficxe internacia. <aut>MB</aut>
-  </adm>
   <trd lng="en">base</trd>
   <trd lng="es">base</trd>
   <trd lng="fr">base</trd>
@@ -307,7 +308,9 @@
       egalas al 1, nur se i=j, kaj egalas al 0 aliokaze.
     </dif>
   </snc>
-  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
   <trd lng="de">duale <ind>Basis</ind></trd>
   <trd lng="en">dual <ind>basis</ind></trd>
   <trd lng="fr">base duale</trd>
@@ -335,7 +338,9 @@
       </ekz>
     </dif>
   </snc>
-  <adm>Fonto trovenda. <aut>MB</aut></adm>
+  <adm>
+    Fonto trovenda. <aut>MB</aut>
+  </adm>
   <trd lng="de">kanonische <ind>Basis</ind></trd>
   <trd lng="en">canonical <ind>basis</ind></trd>
   <trd lng="fr">base canonique</trd>
@@ -344,13 +349,16 @@
 </art>
 <!--
 $Log$
-Revision 1.27  2002/05/12 16:35:08  revo
+Revision 1.28 2002/05/15 16:43:58 revo
+Alejandro Mejia Greene: ald 1 his trd
+
+Revision 1.27 2002/05/12 16:35:08 revo
 Marc Bavant: ~o (log): +ref al "um"
 
-Revision 1.26  2002/04/11 16:31:03  revo
+Revision 1.26 2002/04/11 16:31:03 revo
 Marc Bavant: duala ~o: mod ref
 
-Revision 1.25  2002/03/13 17:36:13  revo
+Revision 1.25 2002/03/13 17:36:13 revo
 Marc Bavant: ald/mod fnt; ~o (de nombrosistemo): +trd fr; ~o (de plurlatero, de vektorspaco, de topologio): +trd de/en/fr/ru; ~o: mod adm; duala ~o: +trd, +adm; kanona ~o: +trd, +adm
 Revision 1.24 2002/03/01 17:33:08 revo
 Marc Bavant: kor ref cel al -um
@@ -360,9 +368,5 @@ Revision 1.22 2001/10/22 18:13:09 revo
 Marc Bavant: ~o (de figuro): mod dif, +ekz
 Revision 1.21 2001/09/30 19:10:47 revo
 Sergio Pokrovskij: snc-mrk
-Revision 1.20 2001/09/16 18:50:11 revo
-Marc Bavant: ~o: +snc (~o de logaritmo/eksponencialo)
-Revision 1.19 2001/07/22 18:17:39 revo
 -->
 </vortaro>
-
