@@ -2,72 +2,235 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>matric</rad>/o
-      <fnt>Z</fnt>
-    </kap>
-    <drv mrk="matric.0o">
-      <kap><tld/>o</kap>
-      <snc>
-        <uzo tip="fak">TEK</uzo>
-        <dif>
-          Gravurita metala bulo, peco a&ubreve; muldilo, per kiu oni povas
-          fabriki similajn pecojn per fandado, frapo, giso, premo:
-          <ekz>monerojn oni frapas per <tld/>o.
-          </ekz>
-        </dif>
-      <trd lng="nl">matrijs</trd>
-      </snc>
-      <snc>
-        <uzo tip="fak">TIP</uzo>
-        <dif>
-          Formo por gisi litertipojn. 
-        </dif>
-      <trd lng="nl">matrijs</trd>
-      </snc>
-      <snc>
-        <dif>
-          Kartona formo preme reproduktita de komposta&jcirc;o kaj per kiu oni
-          povas gisi stereotipojn.
-        </dif>
-      <trd lng="nl">matrijs</trd>
-      </snc>
-      <snc>
-        <uzo tip="klr">(en galvanoplastiko)</uzo><dif>
-          Formo, kiu kovri&gcirc;as per maldika tavolo de metalo. 
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="patric.0o">patrico</ref>,
-          <ref cel="uter.0o">utero</ref>.
-        </refgrp>
-      <trd lng="nl">matrijs</trd>
-      </snc>
-      <snc mrk="matric.0o.KOMP">
-        <uzo tip="fak">MAT</uzo>
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Dudimensia <ref tip="super" cel="tabel.0o.KOMP">tabelo</ref> kies
-          elementoj estas aran&gcirc;itaj en vertikalojn kaj horizontalojn:
-          <ekz>
-            kvadrata, diagonala, rubanda, triangula <tld/>o;
-          </ekz><ekz>
-            unuomatrico, identomatrico
-            <klr>(kiu estas unuo rilate al matrica multipliko)</klr>.
-          </ekz>
-        </dif>
-        <ref tip="vid" cel="vektor.0o.KOMP">vektoro</ref>
-      <trd lng="nl">matrix</trd>
-      </snc>
-      <trd lng="en">matrix</trd>
-      <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
-    </drv>
-  </art>
+<art mrk="$Id$">
+<kap>
+  <rad>matric</rad>/o
+  <fnt>Z</fnt>
+</kap>
+<drv mrk="matric.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc>
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Gravurita metala bulo, peco a&ubreve; muldilo, per kiu oni povas
+      fabriki similajn pecojn per fandado, frapo, giso, premo:
+      <ekz>
+        monerojn oni frapas per <tld/>o.
+      </ekz>
+    </dif>
+    <trd lng="nl">matrijs</trd>
+  </snc>
+  <snc>
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      Formo por gisi litertipojn.
+    </dif>
+    <trd lng="nl">matrijs</trd>
+  </snc>
+  <snc>
+    <dif>
+      Kartona formo preme reproduktita de komposta&jcirc;o kaj per kiu oni
+      povas gisi stereotipojn.
+    </dif>
+    <trd lng="nl">matrijs</trd>
+  </snc>
+  <snc>
+    <uzo tip="klr">(en galvanoplastiko)</uzo>
+    <dif>
+      Formo, kiu kovri&gcirc;as per maldika tavolo de metalo.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="patric.0o">patrico</ref>.
+    </refgrp>
+    <trd lng="nl">matrijs</trd>
+  </snc>
+  <snc mrk="matric.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
+    <dif>
+      <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
+      <ref cel="korp.0o.MAT">korpo</ref> <em>K</em>, kun
+      n vertikaloj kaj p horizontaloj)</klr>
+      <ref tip="super" cel="bild.0igo">Bildigo</ref> de
+      <em>I</em>&#xd7;<em>J</em> al <em>K</em>, kie
+      <em>I</em>={1, 2, ..., n} kaj
+      <em>J</em>={1, 2, ..., p}:
+      <ekz>
+        <tld/>on A oni kutime signas kiel
+        <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e. per
+        skriba&jcirc;o (a<sub>ij</sub>)<sub>(i,j)&#x2208;I&#xd7;J</sub>,
+        kie a<sub>ij</sub> signas la bildon de (i,j) per A kaj estas nomata
+        elemento (a&ubreve; koeficiento) de A kun indico (i,j);
+      </ekz>
+      <ekz>
+        la nombro de horizontaloj kaj vertikaloj de <tld/>o oni nomas
+        ties dimensioj kaj signas ilin per skriba&jcirc;o de la tipo (n,p)
+        a&ubreve; n&#xd7;p;
+      </ekz>
+      <ekz>
+        eblas prezenti al si <tld/>on A per rektangula tabelo, &ccirc;e la
+        interkruci&gcirc;o de kies i-a horizontalo kaj j-a vertikalo staras
+        la elemento de A kun indico (i,j).
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      Partoj de matrico:
+      <ref cel="horizo1.0o.de_matrico">horizontalo</ref>,
+      <ref cel="vertik.0o.de_matrico">vertikalo</ref>,
+      <ref cel="diagon.0o.de_matrico">diagonalo</ref>,
+      <ref cel="matric.sub0o">sub<tld/>o</ref>;
+      
+      atributoj de matrico:
+      <ref cel="elemen.0o.matrico">elemento</ref>,
+      <ref cel="indic.0o.familio">indico de elemento</ref>,
+      <ref cel="koefic.0o.matrico">koeficiento</ref>,
+      <ref cel="term.0o.matrico">termo</ref>,
+      <ref cel="dimens.0o.matrico">dimensioj</ref>;
+      
+      rimarkindaj ecoj de matrico:
+      <ref cel="diagon.0a.matrico">diagonala</ref>,
+      <ref cel="angul.tri0a.matrico">triangula</ref>,
+      <ref cel="simetr.0a.matrico">simetria</ref>,
+      <!--ref cel="hermit.0a.matrico"-->hermita<!--/ref-->,
+      <ref cel="kvadra1.0a.matrico">kvadrata</ref>;
+      
+      operacioj super matrico:
+      <ref cel="adici.matrica0o"><tld/>a adicio</ref>,
+      <ref cel="multip.matrica0o"><tld/>a multipliko</ref>,
+      <ref cel="transp.0o">transpono</ref>;
+    </refgrp>
+    <refgrp tip="sub">
+      Specifaj matricoj:
+      <ref cel="matric.unuo0o">unuo<tld/>o</ref>,
+      <ref cel="matric.nul0o">nul<tld/>o</ref>,
+      <ref cel="horizo1.0o.matrico">horizontalo</ref>,
+      <ref cel="vertik.0o.matrico">vertikalo</ref>.
+    </refgrp>
+    <rim>
+      Multaj fakaj terminoj rilatantaj al <tld/>oj bazi&gcirc;as sur la
+      &ccirc;i-supra tabela metaforo.
+    </rim>
+    <trd lng="nl">matrix</trd>
+  </snc>
+  <snc mrk="matric.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Dudimensia <ref tip="super" cel="tabel.0o.KOMP">tabelo</ref>.
+    </dif>
+    <ref tip="vid" cel="vektor.0o.KOMP">vektoro</ref>
+    <trd lng="nl">matrix</trd>
+  </snc>
+  <trd lng="en">matrix</trd>
+  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
+</drv>
+
+<drv mrk="matric.n_p0o">
+  <kap>
+    (n,p)-<tld/>o
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="matric.0o.MAT"><tld lit="M"/>o</ref>
+      kun n horizontaloj kaj p vertikaloj.
+    </dif>
+  </snc>
+  <trd lng="de">(n,p)-<ind>Matrix</ind></trd>
+  <trd lng="en">n-by-p <ind>matrix</ind></trd>
+  <trd lng="fr">matrice n&#xd7;p</trd>
+  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n&#xd7;p</trd>
+</drv>
+
+<drv mrk="matric.nul0o">
+  <kap>
+    nul<tld/>o
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="matric.0o.MAT"><tld lit="M"/>o</ref>, kies
+      &ccirc;iuj elementoj estas nulaj:
+      <ekz>
+        nul<tld/>o estas <ref cel="nul0.0o.neuxtra">nulo</ref> rilate al la
+        <tld/>a adicio.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Nullmatrix</trd>
+  <trd lng="en">null <ind>matrix</ind></trd>
+  <trd lng="fr">matrice nulle</trd>
+  <trd lng="ru">&c_n;&c_u;&c_l;&c_mol;&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
+</drv>
+
+<drv mrk="matric.sub0o">
+  <kap>
+    sub<tld/>o
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref tip="super" cel="matric.n_p0o">(n,p)-<tld/>o</ref> A)</klr>
+      Tia (n',p')-<tld/>o, ke (1) n'&#x2264;n kaj p'&#x2264;p, (2) la elemento
+      de B kun indico (i,j) egalas al la elemento de A kun indico
+      (i+i<sub>0</sub>,j+j<sub>0</sub>), kie i<sub>0</sub>&#x2264;(n-n')
+      kaj j<sub>0</sub>&#x2264;(p-p'):
+      <ekz>
+        el (n,p)-<tld/>o oni povas formi p sub<tld/>ojn kun dimensioj (n,1);
+      </ekz>
+      <ekz>
+        eblas prezenti al si sub<tld/>on B per iu rektangula parto de la tabelo,
+        kiu prezentas <tld/>on A.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Untermatrix</trd>
+  <trd lng="en">submatrix</trd>
+  <trd lng="fr">sous-matrice</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
+</drv>
+
+<drv mrk="matric.unuo0o">
+  <kap>
+    unuo<tld/>o
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="matric.0o.MAT"><tld lit="M"/>o</ref>, kies
+      &ccirc;iuj termoj estas nulaj, krom la diagonalaj, kiu egalas al unu:
+      <ekz>
+        unuo<tld/>o estas <ref cel="unu.0o.neuxtra">unuo</ref> rilate al la
+        <tld/>a multipliko.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Einheitsmatrix</trd>
+  <trd lng="en">unit <ind>matrix</ind></trd>
+  <trd lng="fr">matrice unit&eacute;</trd>
+  <trd lng="ru">&c_je;&c_d;&c_i;&c_n;&c_i;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</ind></trd>
+  <adm>
+  Mi ne trovis auxtoritatan fonton por tiu termino. MatVort
+  havas "~a unito" kaj "~unito", kiun mi opinias duoble
+  nekonvenaj: unue pro la uzo de "unito" kaj due pro la ordo
+  de elementoj. Mi preferis terminon paralelan al "nulmatrico",
+  "nulvektoro". <aut>MB</aut>
+  </adm>
+</drv>
+<refgrp tip="vid">
+  Ne konfuzu kun:
+  <ref cel="uter.0o">utero</ref>.
+</refgrp>
+</art>
 <!--
 $Log$
+Revision 1.6  2001/09/02 18:16:25  revo
+Paul Peeraerts: ald trd nl
+
 Revision 1.5  2000/11/07 18:31:32  revo
 Sergio Pokrovskij: KOMP/MAT
 
 -->
 </vortaro>
-
