@@ -2,38 +2,175 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>program</rad>/o
-</kap>
-<drv mrk="progra.0o">
-<kap><tld/>o</kap>
-<snc num="1">
-<dif>
-Tabelo anoncanta la detalojn  de teatra&jcirc;o, koncerto, ceremonio, festo ktp. 
-</dif>
-</snc>
-<snc num="2">
-<dif>
-Tabelo de la temoj pritraktotaj  en kurso a&ubreve; pridemandotaj en ekzameno. 
-</dif>
-</snc>
-<snc num="3">
-<dif>
-Tabelo de la demandoj pridiskutotaj en kunveno.  
-</dif>
-</snc>
-<snc num="4">
-<dif>
-Resumo de la politikaj intencoj de partio, ministraro a&ubreve; individuo. 
-</dif>
-<refgrp tip="sin">
-<ref cel="deviz.0o">devizo</ref>,
-<ref cel="ord.tag0o">tagordo</ref>,
-<ref cel="cel.0o">celo</ref>,
-<ref cel="plan.0o">plano 2</ref>.
-</refgrp>
-</snc>
-<trd lng="en">program</trd>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <rad>program</rad>/o
+    </kap>
+    <drv mrk="progra.0o">
+      <kap><tld/>o</kap>
+      <snc num="1">
+        <dif>
+          Tabelo anoncanta la detalojn  de teatra&jcirc;o, koncerto,
+          ceremonio, festo ktp. 
+        </dif>
+      </snc>
+      <snc num="2">
+        <dif>
+          Tabelo de la temoj pritraktotaj  en kurso a&ubreve; pridemandotaj
+          en ekzameno (instru<tld/>o, lerno<tld/>o). 
+        </dif>
+      </snc>
+      <snc num="3">
+        <dif>
+          Listo de la demandoj pridiskutotaj en kunveno.  
+        </dif>
+        <ref tip="sin" cel="ord.tag0o">tagordo</ref>
+      </snc>
+      <snc num="4">
+        <dif>
+          Resumo de la politikaj intencoj de partio, ministraro a&ubreve;
+          individuo. 
+        </dif>
+        <refgrp tip="sin">
+          <ref cel="deviz.0o">devizo</ref>,
+          <ref cel="cel.0o">celo</ref>,
+          <ref cel="plan.0o">plano 2</ref>.
+        </refgrp>
+      </snc>
+      <snc num="5">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Priskribo de la agoj plenumotaj de komputilo, en
+          programlingvo akceptata tiu komputilo a&ubreve; en &gcirc;ia ma&scirc;inkodo:
+          <ekz>verki <tld/>on en C;</ekz>
+          <ekz>traduki <tld/>on el C;</ekz>
+          <ekz>bindi <tld/>on el moduloj;</ekz>
+          <ekz>lan&ccirc;i, plenumi, ruli <tld/>on;</ekz>
+          <ekz>aplika <tld/>o <klr>(kiun uzas ne<tld/>istoj)</klr>;</ekz>
+          <ekz>il<tld/>o <klr>(uzata por fari a&ubreve; funkciigi
+              aplikajn <tld/>ojn)</klr>.</ekz>
+        </dif>
+        <ref tip="super" cel="algor.0o">algoritmo</ref>
+        <refgrp tip="vid">
+          <ref cel="traduk.0ilo">tradukilo</ref>,
+          <ref cel="interp2.0ilo">interpretilo</ref>,
+          <ref cel="bind.0ilo">bindilo</ref>.
+        </refgrp>
+      </snc>
+      <trd lng="en">program</trd>
+      <trd lng="ru">&#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x430;</trd>
+    </drv>
+    <drv mrk="progra.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Verki <tld/>on kiu faru ion:
+          <ekz><tld/>i sintaksan analizon, formorekonon;</ekz>
+          <ekz><tld/>i por (sub, en) Unikso en C;</ekz>
+          <ekz>&ccirc;u tiu funkcio estas <tld/>ita a&ubreve; realigita aparate?</ekz>
+        </dif>
+      </snc>
+      <trd lng="en">program</trd>
+      <trd lng="ru">&#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd>
+    </drv>
+    <drv mrk="progra.0ado">
+      <kap><tld/>ado</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc num="1">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Projektado, verkado, dokumentado kaj vartado de komputilaj
+          <tld/>oj:
+          <ekz>metodoj de <tld/>ado;</ekz>
+          <ekz>strukturema, modulema, objektema <tld/>o.</ekz>
+        </dif>
+        <trdgrp lng="en">
+          <trd>programming</trd>,
+          <trd>software engineering</trd>
+        </trdgrp>
+        <trd lng="ru">&#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;</trd>
+      </snc>
+      <snc num="2">
+        <uzo tip="fak">MAT</uzo>
+        <dif> <klr>(anka&ubreve; <ctl>matematika <tld/>ado</ctl>)</klr> Parto
+          de <ref tip="super" cel="operac.0esploro">operaciesploro</ref>,
+          studanta problemojn pri funkciekstremoj super aroj de
+          finidimensia vektorspaco, kiujn arojn difinas egala&jcirc;oj a&ubreve;
+          kompara&jcirc;oj: <ekz>la
+            <ctl>dorssakproblemo</ctl> kaj <ctl>la problemo pri
+              voja&gcirc;a komizo</ctl> estas konataj problemoj de
+            matematika <tld/>ado;</ekz> <ekz>dinamika, diskreta,
+            konkava, konveksa, lineara, nelineara <tld/>o.</ekz>
+        </dif>
+        <trd lng="en">mathematical programming</trd>
+        <trd lng="ru">&#x43c;&#x430;&#x442;&#x435;&#x43c;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x43e;&#x435; &#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;</trd>
+      </snc>
+    </drv>
+    <drv mrk="progra.0aro">
+      <kap><tld/>aro</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          La programoj uzataj en komputila sistemo (ofte kontraste al
+          <ref tip="ant" cel="aparat.ar0o"></ref>):
+          <ekz>komerca, &ccirc;iesa, senpaga, libera <tld/>aro;</ekz>
+          <ekz>portebla <tld/>aro;</ekz>
+          <ekz>vivciklo de <tld/>aro;</ekz>
+          <ekz><tld/>ara krizo.</ekz>
+        </dif>
+      </snc>
+      <trd lng="en">software</trd>
+      <trd lng="fr">logiciel</trd>
+      <trd lng="pl">oprogramowanie</trd>
+      <trd lng="ru">&#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x43d;&#x43e;&#x435; &#x43e;&#x431;&#x435;&#x441;&#x43f;&#x435;&#x447;&#x435;&#x43d;&#x438;&#x435;</trd>
+      <trd lng="tr">yaz&inodot;l&inodot;m</trd>
+    </drv>
+    <drv mrk="progra.0isto">
+      <kap><tld/>isto</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Fakulo pri <tld/>ado.
+        </dif>
+      </snc>
+      <trd lng="en">programmer</trd>
+      <trd lng="ru">&#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x438;&#x441;&#x442;</trd>
+    </drv>
+    <drv mrk="progra.cel0o">
+      <kap>cel<tld/>o</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Komputila <tld/>o produkita per
+          <ref tip="vid" cel="traduk.0ilo">tradukilo</ref> el
+          <ref tip="ant" cel="program.font0o">fontprogramo</ref>.
+        </dif>
+      </snc>
+      <trdgrp lng="en">
+        <trd>object program</trd>
+        <trd>target program</trd>
+      </trdgrp>
+      <trd lng="ru">&#x432;&#x44b;&#x445;&#x43e;&#x434;&#x43d;&#x430;&#x44f; &#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x430;</trd>
+    </drv>
+    <drv mrk="progra.font0o">
+      <kap>font<tld/>o</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Komputila <tld/>o verkita en programlingvo, kiun
+          <ref tip="vid" cel="traduk.0ilo">tradukilo</ref>
+          transformas en
+          <ref tip="ant" cel="program.font0o">fontprogramon</ref>.
+        </dif>
+      </snc>
+      <trd lng="en">source program</trd>
+      <trd lng="ru">&#x438;&#x441;&#x445;&#x43e;&#x434;&#x43d;&#x430;&#x44f; &#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x430;</trd>
+    </drv>
+  </art>
+
+<!--
+$Log$
+-->
+</vortaro>
