@@ -1,164 +1,183 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-    <art mrk="$Id$">
-      <kap>
-        <ofc>4</ofc>
-        <rad>dimensi</rad>/o
-      </kap>
-      <drv mrk="dimens.0o">
-        <kap><tld/>o</kap>
-        <snc mrk="dimens.0o.ampleksa">
-          <uzo tip="fak">TEK</uzo>
-          <dif>
-            &Ccirc;iu el la grandoj uzataj por priskribi objekton; kutime
-            temas pri longo, lar&gcirc;o (a&ubreve; diko, diametro), alteco:
-            <ekz>
-              doni la <tld/>ojn de &scirc;ranko, barelo, a&ubreve;tomobilo
+     <art mrk="$Id$">
+       <kap>
+         <ofc>4</ofc>
+         <rad>dimensi</rad>/o
+       </kap>
+       <drv mrk="dimens.0o">
+         <kap><tld/>o</kap>
+         <snc mrk="dimens.0o.ampleksa">
+           <uzo tip="fak">TEK</uzo>
+           <dif>
+             &Ccirc;iu el la grandoj uzataj por priskribi objekton; kutime
+             temas pri longo, lar&gcirc;o (a&ubreve; diko, diametro), alteco:
+             <ekz>
+               doni la <tld/>ojn de &scirc;ranko, barelo, a&ubreve;tomobilo
 <fnt>PIV</fnt>.
-            </ekz>
-          </dif>
-          <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r; <klr>(&c_p;&c_o;
+             </ekz>
+           </dif>
+           <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r; <klr>(&c_p;&c_o;
 &c_k;&c_a;&c_zh;&c_d;&c_o;&c_m;&c_u;
 &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ju;)</klr></trd>
-        </snc>
-        <snc mrk="dimens.0o.direkta">
-          <uzo tip="fak">MAT</uzo>
-          <!--
-          <dif>
-            &Ccirc;iu el la sendependaj direktoj en
-            <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>:
-            <ekz>tri<tld/>a kurbo <klr>(kiu apartenas al tia spaco kaj
-            ne estas lokebla sur du<tld/>a ebeno)</klr></ekz>.
-          </dif>
-          <adm>
-            Kio estas "direkto en vektora spaco"? Kion signifas "sendependaj"
-            p.p. direktoj? (MB)
-          </adm>
-          -->
-          <dif>
-            <klr>(en <ref cel="spac.vektora0o">vektora spaco</ref>,
-            rilate <ref cel="baz.0o.vektoraspaco">bazon</ref> super &gcirc;i)
-            </klr>
-            &Ccirc;iu el la bazaj vektoroj a&ubreve; &ccirc;iu rekto,
-            direktata de tia vektoro:
-            <ekz>
-              en afina ebeno oni ofte signas per x la koordinaton la&ubreve; la
-              unua <tld/>o, kaj per y la&ubreve; la dua.
-            </ekz>
-          </dif>
-          <rim>
-            Tiu senco estas limigita nur al kelkaj &scirc;toni&gcirc;intaj
-            esprimoj. &Gcirc;i tamen estas grava pro sia rolo en elementa
-            geometrio kaj pro la evidenta rilato
-            kun la komunuza <tld/>o <sncref ref="dimens.0o.ampleksa"/>.
-          </rim>
-          <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
-        </snc>
-
-        <snc mrk="dimens.0o.vektoraspaco">
-          <uzo tip="fak">MAT</uzo>
-          <dif>
-            <klr>(de <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-            Nombro de elementoj en &gcirc;iaj
-            <ref cel="baz.0o.vektoraspaco">bazoj</ref>, se &gcirc;i estas
-            finia, a&ubreve; malfinio aliokaze:
-            <ekz>
-              fini<tld/>a, n-<tld/>a, malfini<tld/>a vektorspaco;
-            </ekz>
-            <ekz>
-              <tld/>o de <ref cel="spac.afina0o">afina spaco</ref>
-              <klr>(= <tld/>o de &gcirc;ia asociata vektora spaco)</klr>;
-            </ekz>
-            <ekz>
-              tri<tld/>a kurbo <klr>(kiu apartenas al tia spaco kaj
-              ne estas lokebla sur du<tld/>a ebeno)</klr>.
-            </ekz>
-          </dif>
-          <ref tip="sin" cel="dimens.0nombro.MAT">
-          <tld/>nombro <sncref ref="dimens.0nombro.MAT"/>.</ref>
-          <rim>
-            Oni diras egale, ke spaco <ctl>havas <tld/>on n</ctl>,
-            <ctl>estas n-<tld/>a</ctl>,
-            a&ubreve; <ctl>havas n <tld/>ojn</ctl>. Tiaj ekvivalentoj
-            emfazas, ke la nocio "<tld/>o
-            <sncref ref="dimens.0o.vektoraspaco"/>" sinonimas kun
-            "nombro da <tld/>oj <sncref ref="dimens.0o.direkta"/>".
-            Tial kelkaj preferas paroli pri la <ctl><tld/>nombro</ctl>
-            a&ubreve; <ctl><tld/>eco</ctl> de spaco.
-          </rim>
-          <trd lng="en">dimension (of a vector space)</trd>
-          <trd lng="de">Dimension (eines Vektorraumes)</trd>
-          <trd 
-lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol; 
-(&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_g;&c_o; 
+         </snc>
+         <snc mrk="dimens.0o.direkta">
+           <uzo tip="fak">MAT</uzo>
+           <!--
+           <dif>
+             &Ccirc;iu el la sendependaj direktoj en
+             <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>:
+             <ekz>tri<tld/>a kurbo <klr>(kiu apartenas al tia spaco kaj
+             ne estas lokebla sur du<tld/>a ebeno)</klr></ekz>.
+           </dif>
+           <adm>
+             Kio estas "direkto en vektora spaco"? Kion signifas "sendependaj"
+             p.p. direktoj? (MB)
+           </adm>
+           -->
+           <dif>
+             <klr>(en <ref cel="spac.vektora0o">vektora spaco</ref>,
+             rilate <ref cel="baz.0o.vektoraspaco">bazon</ref> super &gcirc;i)
+             </klr>
+             &Ccirc;iu el la vektoroj de la bazo a&ubreve; &ccirc;iu rekto,
+             direktata de tia vektoro:
+             <ekz>
+               en afina ebeno oni ofte signas per x la koordinaton 
+la&ubreve; la
+               unua <tld/>o, kaj per y la&ubreve; la dua.
+             </ekz>
+           </dif>
+           <rim>
+             Tiu senco estas limigita nur al kelkaj &scirc;toni&gcirc;intaj
+             esprimoj. &Gcirc;i tamen estas grava pro sia rolo en elementa
+             geometrio kaj pro la evidenta rilato
+             kun la komunuza <tld/>o <sncref ref="dimens.0o.ampleksa"/>.
+           </rim>
+           <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
+         </snc>
+         <snc mrk="dimens.0o.vektoraspaco">
+           <uzo tip="fak">MAT</uzo>
+           <dif>
+             <klr>(de <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+             Nombro de elementoj en &gcirc;iaj
+             <ref cel="baz.0o.vektoraspaco">bazoj</ref>, se &gcirc;i estas
+             finia, a&ubreve; malfinio aliokaze:
+             <ekz>
+               <tld/>o de <ref cel="spac.afina0o">afina spaco</ref>
+               <klr>(= <tld/>o de &gcirc;ia
+               <ref cel="direkt.0o.afinaspaco">direkto</ref>)</klr>;
+             </ekz>
+             <ekz>
+               tri<tld/>a kurbo <klr>(kiu apartenas al tia spaco kaj
+               ne estas lokebla sur du<tld/>a ebeno)</klr>.
+             </ekz>
+           </dif>
+           <ref tip="sin" cel="dimens.0nombro.MAT">
+           <tld/>nombro <sncref ref="dimens.0nombro.MAT"/>.</ref>
+           <rim>
+             Oni diras egale, ke spaco <ctl>havas <tld/>on n</ctl>,
+             <ctl>estas n-<tld/>a</ctl>,
+             a&ubreve; <ctl>havas n <tld/>ojn</ctl>. Tiaj ekvivalentoj
+             emfazas, ke la nocio "<tld/>o
+             <sncref ref="dimens.0o.vektoraspaco"/>" sinonimas kun
+             "nombro da <tld/>oj <sncref ref="dimens.0o.direkta"/>".
+             Tial kelkaj preferas paroli pri la <ctl><tld/>nombro</ctl>
+             a&ubreve; <ctl><tld/>eco</ctl> de spaco.
+           </rim>
+           <trd lng="en">dimension (of a vector space)</trd>
+           <trd lng="de">Dimension (eines Vektorraumes)</trd>
+           <trd
+lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;
+(&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_g;&c_o;
 &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_a;)</trd>
-        </snc>
-
-        <snc mrk="dimens.0o.FIZ">
-          <uzo tip="fak">SCI</uzo>
-          <dif>
-            Grado (eventuale, nul) je kiu baza mezurunuo aperas en
-            derivita mezurunuo:
-            <ekz>
-              la dimensioj de la energio estas
+         </snc>
+         <snc mrk="dimens.0o.FIZ">
+           <uzo tip="fak">SCI</uzo>
+           <dif>
+             Grado (eventuale, nul) je kiu baza mezurunuo aperas en
+             derivita mezurunuo:
+             <ekz>
+               la dimensioj de la energio estas
 <frm>kg&#xd7;m&quadrat;/s&quadrat;</frm>.
-            </ekz>
-          </dif>
-          <trd
+             </ekz>
+           </dif>
+           <trd
 lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-        </snc>
-        <snc mrk="dimens.0o.KOMP">
-          <uzo tip="fak">KOMP</uzo>
-          <dif>
-            &Ccirc;iu el la intervaloj en kiuj varias indicoj de
-            <ref cel="tabel.0o.KOMP">tabelo</ref>.
-          </dif>
-          <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
-        </snc>
-        <trd lng="en">dimension</trd>
-        <trd lng="fr">dimension</trd>
-      </drv>
-      <drv mrk="dimens.0nombro">
-        <kap><tld/>nombro</kap>
-        <snc mrk="dimens.0nombro.KOMP">
-          <uzo tip="fak">KOMP</uzo>
-          <dif>
-            La nombro de indicpozicioj necesaj por atingi elementon de
-            <ref cel="tabel.0o.KOMP">tabelo</ref>: 1 por vektoro, 2 por
-            matrico ktp.
-          </dif>
-          <trd lng="en">dimensionality</trd>
-          <trd lng="fr">dimension</trd>
-          <trd 
-lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-        </snc>
-        <snc mrk="dimens.0nombro.MAT">
-          <uzo tip="fak">MAT</uzo>
-          <dif>
-            <ref tip="dif" cel="dimens.0o.vektoraspaco">
-              <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
-            </ref>
-          </dif>
-        </snc>
+         </snc>
+         <snc mrk="dimens.0o.KOMP">
+           <uzo tip="fak">KOMP</uzo>
+           <dif>
+             &Ccirc;iu el la intervaloj en kiuj varias indicoj de
+             <ref cel="tabel.0o.KOMP">tabelo</ref>.
+           </dif>
+           <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
+         </snc>
+         <trd lng="en">dimension</trd>
+         <trd lng="fr">dimension</trd>
        </drv>
-    </art>
+       <drv mrk="dimens.0nombro">
+         <kap><tld/>nombro</kap>
+         <snc mrk="dimens.0nombro.KOMP">
+           <uzo tip="fak">KOMP</uzo>
+           <dif>
+             La nombro de indicpozicioj necesaj por atingi elementon de
+             <ref cel="tabel.0o.KOMP">tabelo</ref>: 1 por vektoro, 2 por
+             matrico ktp.
+           </dif>
+           <trd lng="en">dimensionality</trd>
+           <trd lng="fr">dimension</trd>
+           <trd
+lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+         </snc>
+         <snc mrk="dimens.0nombro.MAT">
+           <uzo tip="fak">MAT</uzo>
+           <dif>
+             <ref tip="dif" cel="dimens.0o.vektoraspaco">
+               <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
+             </ref>
+           </dif>
+         </snc>
+        </drv>
 
+       <drv mrk="dimens.n0a">
+         <kap>n-<tld/>a</kap>
+         <snc>
+           <uzo tip="fak">MAT</uzo>
+           <dif>
+             <klr>(p.p.
+             <ref cel="spac.vektora0o">vektora spaco</ref> a&ubreve;
+             <ref cel="spac.afina0o">afina spaco</ref>)</klr>
+             Kies <ref cel="dimens.0o.vektoraspaco"><tld/>o
+             <sncref ref="dimens.0o.vektoraspaco"/></ref> egalas al n; kiu
+             havas n <ref cel="dimens.0o.direkta"><tld/>ojn
+             <sncref ref="dimens.0o.direkta"/></ref>:
+             <ekz>
+               unu<tld/>a spaco estas nomata <ref 
+cel="rekt.0o.MAT">rekto</ref>;
+             </ekz>
+             <ekz>
+               fini<tld/>a, malfini<tld/>a vektorspaco.
+             </ekz>
+           </dif>
+         </snc>
+         <trd lng="fr">&agrave; n <ind>dimension</ind></trd>
+       </drv>
+
+
+     </art>
 <!--
 $Log$
+Revision 1.8  2000/12/07 17:10:21  revo
+Marc Bavant: Rekorekto de cel="tabel.0o.KOMP"
 Revision 1.7  2000/12/03 18:58:42  revo
-Marc Bavant: +rim, +snc MAT cxe ~nombro, mod dif cxe ~o 2, sxovis unu ekz-on de 2 al 3, sxovo de la fr trd por snc 1 de ~o al la tuta drv
-
+Marc Bavant: +rim, +snc MAT cxe ~nombro, mod dif cxe ~o 2, sxovis unu 
+ekz-on de 2 al 3, sxovo de la fr trd por snc 1 de ~o al la tuta drv
 Revision 1.6  2000/11/30 17:12:17  revo
 Alain Fagot: fr trd + cel="tabel.0o.KOMP"
-
 Revision 1.5  2000/11/26 17:12:45  revo
 Marc Bavant: +snc MAT pp vektora spaco, +adm
-
 Revision 1.4  2000/11/08 17:11:32  revo
 Sergio Pokrovskij: reverkita
-
 -->
 </vortaro>
-
