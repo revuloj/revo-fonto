@@ -85,20 +85,29 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>EKV</bib><lok>&para;233</lok></fnt>
     <dif>
-      Tia <ref cel="unu.0hava">unuhava</ref> 
-      <ref tip="super" cel="ring.0o.MAT">ringo</ref> 
+      Tia <ref cel="unu.0hava">unuhava</ref>
+      <ref tip="super" cel="ring.0o.MAT">ringo</ref>
       <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>, ke krom la
-      <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref> 
+      <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref>
       de <frm>&#8224;</frm> &ccirc;iuj aliaj elementoj estas
-      <ref cel="neuxtr.0igebla.MAT">ne&ubreve;trigeblaj</ref> 
+      <ref cel="neuxtr.0igebla.MAT">ne&ubreve;trigeblaj</ref>
       rilate al <frm>&#xd7;</frm>:
       <ekz>
         la <tld/>o de racionalaj nombroj.
       </ekz>
     </dif>
-    <ref tip="super" cel="strukt.algebra0o">algebra strukturo.</ref>
+    <ref tip="super" cel="strukt.algebra0o">algebra strukturo;</ref>
+    <refgrp tip="sub">
+      <ref cel="korp.frakci0o">frakci<tld/>o</ref>,
+      <ref cel="korp.galeza0o">galeza <tld/>o</ref>,
+      <ref cel="korp.galezasuper0o">galeza super<tld/>o</ref>,
+      <ref cel="korp.invarianto0o">invarianto<tld/>o</ref>,
+      <ref cel="korp.radika0o">radika <tld/>o</ref>,
+      <ref cel="korp.sub0o">sub<tld/>o</ref>,
+      <ref cel="korp.super0o">super<tld/>o</ref>.
+    </refgrp>
     <rim>
-      La&ubreve; kelkaj la komuteco de operacio <frm>&#xd7;</frm> estas 
+      La&ubreve; kelkaj la komuteco de operacio <frm>&#xd7;</frm> estas
       deviga en la difino de <tld/>o. Aliaj preferas nomi <ctl>kampoj</ctl>
       la <ref cel="komut.0eca.ringo">komutecajn</ref> <tld/>ojn.
     </rim>
@@ -235,7 +244,7 @@
     <dif>
       <klr>(de <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
       <frm><g>K</g></frm>)</klr>
-      Tia <tld/>o, ke <frm><g>K</g></frm> estas 
+      Tia <tld/>o, ke <frm><g>K</g></frm> estas
       <ref cel="korp.sub0o">sub<tld/>o</ref> de &gcirc;i.
     </dif>
     <rim>
@@ -276,6 +285,40 @@
   </trdgrp>
 </drv>
 
+<drv mrk="korp.frakci0o">
+  <kap>frakci<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="komut.0eca.ringo">komuteca</ref>
+      <ref cel="integr.0a.MAT">integra</ref>
+      <ref cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>)</klr>
+      <ref tip="super" cel="korp.0o.MAT"><tld lit="K"/>o</ref>, konstruita
+      super <frm><g>R</g></frm> la&ubreve; maniero simila al la maniero
+      konstrui la korpon de racionaloj super la ringo de entjeroj, t.e. uzante
+      <ref cel="frakci.0o.MAT">frakciojn</ref>:
+      <ekz>
+        la frakci<tld/>on de la polinomringo <frm><g>R</g>[<g>X</g>]</frm>
+        oni kutime signas per <frm><g>R</g>(<g>X</g>)</frm>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Quotientenk&ouml;rper</trd>,
+    <trd>K&ouml;rper der Br&uuml;che</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>quotient <ind>field</ind></trd>,
+    <trd>fraction <ind>field</ind></trd>
+  </trdgrp>
+  <trd lng="fr">corps des fractions</trd>
+  <trd lng="pl">cia&lstroke;o u&lstroke;amk&oacute;w</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_o;&c_l;&c_je; &c_ch;&c_a;&c_s;&c_t;&c_n;&c_y;&c_h;</trd>,
+    <trd>&c_p;&c_o;&c_l;&c_je; &c_d;&c_r;&c_o;&c_b;&c_je;&c_j;</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="korp.galeza0o">
   <kap>galeza <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -308,7 +351,7 @@
       <klr>(de <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
       <frm><g>K</g></frm>)</klr>
       Tia <ref tip="super" cel="korp.super0o">super<tld/>o</ref>
-      <frm><g>K'</g></frm> de <frm><g>K</g></frm>, ke &gcirc;i havas 
+      <frm><g>K'</g></frm> de <frm><g>K</g></frm>, ke &gcirc;i havas
       finian <ref cel="grad.0o.superkorpo">gradon</ref> kaj ke la
       <ref cel="korp.invarianto0o">invariantokorpo</ref> de la
       <ref cel="grup.galeza0o.de_superkorpo">galeza grupo</ref>
@@ -356,14 +399,14 @@
   <snc>
     <dif>
       <klr>(de <ref cel="polino.0o">polinomo</ref> <frm><g>P</g></frm> super
-      <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref> 
+      <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
       <frm><g>K</g></frm>)</klr>
-      La plej malgranda super<tld/>o de <frm><g>K</g></frm>, enhavanta 
-      &ccirc;iujn <ref cel="radik.0o.polinomo">radikojn</ref> 
+      La plej malgranda super<tld/>o de <frm><g>K</g></frm>, enhavanta
+      &ccirc;iujn <ref cel="radik.0o.polinomo">radikojn</ref>
       de <frm><g>P</g></frm>:
       <ekz>
         la radika <tld/>o de la reela polinomo
-        <frm><g>X</g><sup>2</sup>+<g>1</g></frm> 
+        <frm><g>X</g><sup>2</sup>+<g>1</g></frm>
         estas la korpo de kompleksoj.
       </ekz>
     </dif>
@@ -379,15 +422,17 @@
 </art>
 <!--
 $Log$
-Revision 1.25  2002/10/21 16:33:52  revo
+Revision 1.26 2002/11/22 17:32:34 revo
+Marc Bavant: +frm; invarianto~o: kor dif
+Revision 1.25 2002/10/21 16:33:52 revo
 Marc Bavant: mod signon por operacio T; ~o MAT: +ref al algebra strukturo
-Revision 1.24  2002/09/14 18:53:06  revo
+Revision 1.24 2002/09/14 18:53:06 revo
 Marc Bavant: galeza ~o: kor ref cel al ~o
-Revision 1.23  2002/09/11 17:32:58  revo
+Revision 1.23 2002/09/11 17:32:58 revo
 Marc Bavant: galeza super~o: kor ref cel al super~o (denove!)
-Revision 1.22  2002/09/09 19:52:03  revo
+Revision 1.22 2002/09/09 19:52:03 revo
 Marc Bavant: galeza super~o: kor ref cel al super~o
-Revision 1.21  2002/09/08 18:05:45  revo
+Revision 1.21 2002/09/08 18:05:45 revo
 Marc Bavant: +drv galeza super~o, invarianto~o; super~o: +ref internaj, +rim, mod trd ru; snc MAT: +trd pl, +adm
 Revision 1.20 2002/08/05 17:31:53 revo
 Jozefo Horvath: +trd hu
@@ -396,7 +441,5 @@ Marc Bavant: ~o MAT: mod fnt; super~o: -adm, mod kap
 Revision 1.18 2002/03/17 17:31:15 revo
 Marc Bavant: kor ref al subringo
 Revision 1.17 2002/03/11 17:32:37 revo
-Marc Bavant: ~o (geom.): mod fnt, +trd
-Revision 1.16 2002/01/13 17:31:16 revo
 -->
 </vortaro>
