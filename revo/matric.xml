@@ -50,75 +50,9 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
-      <ref cel="korp.0o.MAT">korpo</ref> <em>K</em>, kun
-      n vertikaloj kaj p horizontaloj)</klr>
-      <ref tip="super" cel="bild.0igo">Bildigo</ref> de
-      <em>I</em>&#xd7;<em>J</em> al <em>K</em>, kie
-      <em>I</em>={1, 2, ..., n} kaj
-      <em>J</em>={1, 2, ..., p}:
-      <ekz>
-        <tld/>on A oni kutime signas kiel
-        <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e. per
-        skriba&jcirc;o (a<sub>ij</sub>)<sub>(i,j)&#x2208;I&#xd7;J</sub>,
-        kie a<sub>ij</sub> signas la bildon de (i,j) per A kaj estas nomata
-        elemento (a&ubreve; koeficiento) de A kun indico (i,j);
-      </ekz>
-      <ekz>
-        la nombron de horizontaloj kaj vertikaloj de <tld/>o oni nomas
-        ties dimensioj kaj signas ilin per skriba&jcirc;o de la tipo (n,p)
-        a&ubreve; n&#xd7;p;
-      </ekz>
-      <ekz>
-        eblas prezenti al si <tld/>on A per rektangula tabelo, &ccirc;e la
-        interkruci&gcirc;o de kies i-a horizontalo kaj j-a vertikalo staras
-        la elemento de A kun indico (i,j).
-      </ekz>
+      <klr>(kun n horizontaloj kaj p vertikaloj)</klr>
     </dif>
-    <refgrp tip="vid">
-      Partoj de matrico:
-      <ref cel="horizo1.0o.de_matrico">horizontalo</ref>,
-      <ref cel="vertik.0o.de_matrico">vertikalo</ref>,
-      <ref cel="diagon.0o.de_matrico">diagonalo</ref>,
-      <ref cel="matric.sub0o">sub<tld/>o</ref>;
-      
-      <ref cel="elemen.0o.matrico">elemento</ref>,
-      <ref cel="indic.0o.familio">indico de elemento</ref>,
-      <ref cel="koefic.0o.matrico">koeficiento</ref>,
-      <ref cel="term.0o.matrico">termo</ref>;
-      
-      atributoj de matrico:
-      <ref cel="ajgen.0o">ajgeno</ref>,
-      <ref cel="determ.0anto.matrico">determinanto</ref>,
-      <ref cel="rang.0o.matrico">rango</ref>,
-      <ref cel="spur.0o.matrico">spuro</ref>,
-      <ref cel="dimens.0o.matrico">dimensioj</ref>;
-      
-      rimarkindaj ecoj de matrico:
-      <ref cel="diagon.0a.matrico">diagonala</ref>,
-      <ref cel="angul.tri0a.matrico">triangula</ref>,
-      <ref cel="simetr.0a.matrico">simetria</ref>,
-      <ref cel="hermit.0a.matrico">hermita</ref>,
-      <ref cel="kvadra1.0a.matrico">kvadrata</ref>;
-      
-      operacioj super matrico:
-      <ref cel="adici.matrica0o"><tld/>a adicio</ref>,
-      <ref cel="multip.matrica0o"><tld/>a multipliko</ref>,
-      <ref cel="multip.0o.de_matrico_per_sklarao">multipliko de <tld/>o per skalaro</ref>,
-      <ref cel="transp.0o">transpono</ref>;
-    </refgrp>
-    <refgrp tip="sub">
-      Specifaj matricoj:
-      <ref cel="matric.unuo0o">unuo<tld/>o</ref>,
-      <ref cel="matric.nul0o">nul<tld/>o</ref>,
-      <ref cel="matric.0o.homomorfio"><tld/>o de homomorfio</ref>,
-      <ref cel="horizo1.0o.matrico">horizontalo</ref>,
-      <ref cel="vertik.0o.matrico">vertikalo</ref>.
-    </refgrp>
-    <rim>
-      Multaj fakaj terminoj rilatantaj al <tld/>oj bazi&gcirc;as sur la
-      &ccirc;i-supra tabela metaforo.
-    </rim>
+    <ref tip="dif" cel="matric.n_p0o">(n,p)-<tld/>o.</ref>
     <trd lng="nl">matrix</trd>
   </snc>
   <snc mrk="matric.0o.KOMP">
@@ -144,9 +78,79 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <ref tip="super" cel="matric.0o.MAT"><tld lit="M"/>o
-      <sncref ref="matric.0o.MAT"/></ref> kun n horizontaloj kaj p vertikaloj.
+      <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
+      <ref cel="korp.0o.MAT">korpo</ref> <em>K</em>)</klr>
+      <ref tip="super" cel="bild.0igo">Bildigo</ref> de
+      <em>I</em>&#xd7;<em>J</em> al <em>K</em>, kie
+      <em>I</em>={1, 2, ..., n} kaj
+      <em>J</em>={1, 2, ..., p}:
+      <ekz>
+        <tld/>on A oni kutime signas kiel
+        <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e. per
+        skriba&jcirc;o (a<sub>ij</sub>)<sub>(i,j)&#x2208;I&#xd7;J</sub>,
+        kie a<sub>ij</sub> signas la bildon de (i,j) per A kaj estas nomata
+        elemento (a&ubreve; koeficiento) de A kun indico (i,j);
+      </ekz>
+      <ekz>
+        la nombron de horizontaloj kaj vertikaloj de (n,p)-<tld/>o oni nomas
+        ties dimensioj kaj signas ilin per skriba&jcirc;o de la tipo (n,p)
+        a&ubreve; n&#xd7;p;
+      </ekz>
+      <ekz>
+        eblas prezenti al si (n,p)-<tld/>on A per rektangula tabelo, &ccirc;e la
+        interkruci&gcirc;o de kies i-a horizontalo kaj j-a vertikalo staras
+        la elemento de A kun indico (i,j).
+      </ekz>
     </dif>
+    <rim>
+      Multaj fakaj terminoj rilatantaj al <tld/>oj bazi&gcirc;as sur la
+      &ccirc;i-supra tabela metaforo.
+    </rim>
+    <refgrp tip="sin">
+      Malpli fakece:
+      <ref cel="matric.0o.MAT"><tld/>o</ref> kun n horizontaloj 
+      kaj p vertikaloj; 
+    </refgrp>
+    <refgrp tip="vid">
+      partoj de matrico:
+      <ref cel="horizo1.0o.de_matrico">horizontalo</ref>,
+      <ref cel="vertik.0o.de_matrico">vertikalo</ref>,
+      <ref cel="diagon.0o.de_matrico">diagonalo</ref>,
+      <ref cel="matric.sub0o">sub<tld/>o</ref>;
+      
+      <ref cel="elemen.0o.matrico">elemento</ref>,
+      <ref cel="indic.0o.familio">indico de elemento</ref>,
+      <ref cel="koefic.0o.matrico">koeficiento</ref>,
+      <ref cel="term.0o.matrico">termo</ref>;
+      
+      atributoj de matrico:
+      <ref cel="ajgen.0o">ajgeno</ref>,
+      <ref cel="determ.0anto.matrico">determinanto</ref>,
+      <ref cel="rang.0o.matrico">rango</ref>,
+      <ref cel="spur.0o.matrico">spuro</ref>,
+      <ref cel="dimens.0o.matrico">dimensioj</ref>;
+      
+      rimarkindaj ecoj de matrico:
+      <ref cel="diagon.0a.matrico">diagonala</ref>,
+      <ref cel="angul.tri0a.matrico">triangula</ref>,
+      <ref cel="simetr.0a.matrico">simetria</ref>,
+      <ref cel="hermit.0a.matrico">hermita</ref>,
+      <ref cel="kvadra1.0a.matrico">kvadrata</ref>;
+      
+      operacioj super matricoj:
+      <ref cel="adici.matrica0o"><tld/>a adicio</ref>,
+      <ref cel="multip.matrica0o"><tld/>a multipliko</ref>,
+      <ref cel="multip.0o.de_matrico_per_skalaro">multipliko de <tld/>o per skalaro</ref>,
+      <ref cel="transp.0o">transpono</ref>;
+    </refgrp>
+    <refgrp tip="sub">
+      Specifaj matricoj:
+      <ref cel="matric.unuo0o">unuo<tld/>o</ref>,
+      <ref cel="matric.nul0o">nul<tld/>o</ref>,
+      <ref cel="matric.0o.homomorfio"><tld/>o de homomorfio</ref>,
+      <ref cel="horizo1.0o.matrico">horizontalo</ref>,
+      <ref cel="vertik.0o.matrico">vertikalo</ref>.
+    </refgrp>
   </snc>
   <bld lok="../bld/matric.gif">
     (n,p)-<tld/>o
@@ -165,7 +169,7 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      <ref tip="super" cel="matric.0o.MAT"><tld lit="M"/>o</ref>, kies
+      <ref tip="super" cel="matric.n_p0o">(n,p)-<tld lit="M"/>o</ref>, kies
       &ccirc;iuj elementoj estas nulaj:
       <ekz>
         nul<tld/>o estas <ref cel="nul0.0o.neuxtra">nulo</ref> rilate al la
@@ -213,8 +217,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <ref cel="kvadra1.0a.matrico">Kvadrata</ref>
-      <ref tip="super" cel="matric.0o.MAT"><tld lit="M"/>o</ref>, kies
+      <ref tip="super" cel="matric.0o.MAT">(n,p)-<tld lit="M"/>o</ref>, kies
       &ccirc;iuj termoj estas nulaj, krom la diagonalaj, kiuj egalas al unu:
       <ekz>
         la unuo<tld/>on oni kutime signas per I;
@@ -269,15 +272,14 @@
 </art>
 <!--
 $Log$
+Revision 1.9  2001/11/02 19:13:41  revo
+Marc Bavant: ~o MAT: kor ekz, +ref al multipliko per skalaro, rango, spuro, determinanto, hermita; +drv ~o de homomorfio; sxovis ref al utero; (n,p)-~o: +sncref, mod ref tip al ~o; unuo~o: kor dif, +ekz
 Revision 1.8  2001/10/29 19:12:25  revo
 Marc Bavant: +bld
-
 Revision 1.7  2001/10/28 19:13:22  revo
 Marc Bavant: ~o: splitis KOMP/MAT; sxovis ref al utero; +drv sub~o
-
 Revision 1.6  2001/09/02 18:16:25  revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.5  2000/11/07 18:31:32  revo
 Sergio Pokrovskij: KOMP/MAT
 
