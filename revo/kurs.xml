@@ -2,28 +2,80 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>kurs</rad>/o
-</kap>
-<drv mrk="kurs.0o">
-<kap><tld/>o</kap>
-<snc num="1">
-<dif>
-Serio da lecionoj, konsistiganta regulan instruon pri scienco, arto a&ubreve; metio: <ekz><tld/>o pri fiziko.
-</ekz>
-</dif>
-</snc>
-<snc num="2">
-<dif>
-Takso, la&ubreve; kiu a&ccirc;eti&gcirc;as a&ubreve; vendi&gcirc;as tio, kio estas objekto por inter&scirc;an&gcirc;o: <ekz>vendi la&ubreve; la <tld/>o de l' merkato;
-</ekz> <ekz>la <tld/>o de akcio, kambio, eksterlanda mono;
-</ekz> <ekz>a&ccirc;eti je la meza <tld/>o
-<klr>(kurzo)</klr>.
-</ekz>  
-</dif>
-</snc>
-<trd lng="cs">kurz (&scaron;kolen&iacute;)</trd>
-<trd lng="en">course</trd>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>1</ofc>
+      <rad>kurs</rad>/o
+    </kap>
+    <drv mrk="kurs.0o">
+      <kap><tld/>o</kap>
+      <snc num="1" mrk="kurs.0o.lerna">
+        <dif>
+          Serio da lecionoj, konsistiganta regulan instruon pri
+          scienco, arto a&ubreve; metio: <ekz><tld/>o pri fiziko.
+          </ekz>
+        </dif>
+        <trd lng="ru">&#x43a;&#x443;&#x440;&#x441;</trd>
+      </snc>
+      <snc num="2">
+        <uzo tip="klr">(Evi.)</uzo>
+        <dif>
+          <ref tip="sin" cel="kurz.0o">kurzo</ref>.
+        </dif>
+      </snc>
+      <snc num="3" mrk="kurs.0o.voja">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Vojlinio la&ubreve; kiu io movi&gcirc;as a&ubreve; voja&gcirc;as:
+          <ekz>la po&scirc;ta&jcirc;oj estas specigitaj la&ubreve; la germanaj <tld/>oj
+            ... la po&scirc;tistoj devas scii, al kiu <tld/>o &gcirc;i
+            <klr>(la loko indikita en letera adreso)</klr>
+            apartenas<fnt><aut>&Z;</aut>: <vrk>Fundamenta Krestomatio</vrk>,
+              <lok>El la po&scirc;to</lok></fnt>;</ekz>
+          <ekz>la <tld/>o de a&ubreve;tobuso<fnt>PIV</fnt>,</ekz>
+          <ekz>la &scirc;ipo tenis sian <tld/>on norden<fnt>PIV</fnt>.</ekz>
+        </dif>
+        <trdgrp lng="ru"><trd>&#x43a;&#x443;&#x440;&#x441;</trd>, <trd>&#x43c;&#x430;&#x440;&#x448;&#x440;&#x443;&#x442;</trd></trdgrp>
+      </snc>
+      <trd lng="cs">kurz (&scaron;kolen&iacute;)</trd>
+      <trd lng="en">course</trd>
+    </drv>
+    <drv mrk="kurs.0ano">
+      <kap><tld/>ano</kap>
+      <snc>
+        <dif>Lernanto de <ref cel="kurs.0o.lerna">kurso</ref>.</dif>
+        <trdgrp lng="ru">
+          <trd>&#x441;&#x43b;&#x443;&#x448;&#x430;&#x442;&#x435;&#x43b;&#x44c; &#x43a;&#x443;&#x440;&#x441;&#x430;</trd>, <trd>&#x43a;&#x443;&#x440;&#x441;&#x430;&#x43d;&#x442;</trd>
+        </trdgrp>
+      </snc>
+    </drv>
+    <drv mrk="kurs.en0igi">
+      <kap>en<tld/>igi</kap>
+      <fnt>PIV</fnt>
+      <snc>
+        <dif>Zorgi ke leteroj iru la&ubreve; sia <ref
+        cel="kurs.0o.voja">kurso</ref>.</dif>
+      </snc>
+    </drv>
+    <drv mrk="kurs.en0igilo">
+      <kap>en<tld/>igilo, <tld/>ilo</kap>
+      <fnt><lok><url
+             ref="&KompLeks;/E.html#ENKURSIGILO">KompLeks</url></lok></fnt>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          En komputila reto, aran&gcirc;a&jcirc;o ricevanta mesa&gcirc;ojn (paka&jcirc;ojn), kaj
+          plusendanta ilin al la celata komputilo per perferinda vojo
+          (<ref cel="kurs.0o.voja">kurso</ref>).
+        </dif>
+        <ref tip="vid" cel="kluz.0o">kluzo</ref>
+      </snc>
+      <trd lng="en">router</trd>
+      <trd lng="ru">&#x43c;&#x430;&#x440;&#x448;&#x440;&#x443;&#x442;&#x438;&#x437;&#x430;&#x442;&#x43e;&#x440;</trd>
+    </drv>
+  </art>
+
+<!--
+$Log$
+-->
+</vortaro>
