@@ -2,56 +2,89 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>divizor</rad>/o <fnt>PIV</fnt>
-    </kap>
-    <drv mrk="divizor.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          Entjero <frm>z</frm> estas <tld/>o de entjero <frm>a</frm>
-          se <frm>a</frm> estas <ref cel="obl.0o">oblo</ref> de
-          <frm>z</frm>; simbole <frm>a&#x2223;z</frm>:
-          <ekz>la avanta&gcirc;o de la dekduuma mezursistemo estas ke 12
-             havas pli da oportunaj <tld/>oj: 2, 3, 4, 6, dum la
-             kutima 10 havas nur 2 kaj 5 (sen kalkuli la neproprajn
-             <tld/>ojn 1 kaj memo).
-          </ekz>
-        </dif>
-      </snc>
-      <ref tip="vid" cel="faktor.0o">faktoro</ref>
-      <trd lng="en">divisor</trd>
-      <trd lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
-    </drv>
-    <drv mrk="divizor.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>ntr</vspec></gra>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          Esti <tld/>o:
-          <ekz>2 <tld/>as en &ccirc;iu para entjero (a&ubreve; <ctl>&ccirc;iun paran
-              entjeron</ctl>);
-          </ekz><ekz>
-            komuna <tld/>o de pluraj entjeroj estas entjero kiu
-            <tld/>as &ccirc;iun el ili.
-          </ekz>
-        </dif>
-      </snc>
-      <rim>
-        La&ubreve; sia senco la verbo estas netransitiva (en la &ccirc;i-supraj
-        ekzemploj akuzativo anstata&ubreve;as prepozicion), tial oni ne povas
-        diri "<tld/>ata" a&ubreve; "<tld/>ebla" (anstata&ubreve; &ccirc;i-lastan oni diru
-        "<tld/>hava").
-      </rim>
-      <trd lng="en">divide</trd>
-      <trd lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x44c; <klr>(&#x431;&#x435;&#x437; &#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x430;)</klr></trd>
-    </drv>
-  </art>
+   <art mrk="$Id$">
+     <kap>
+       <rad>divizor</rad>/o <fnt>PIV</fnt>
+     </kap>
+     <drv mrk="divizor.0o">
+       <kap><tld/>o</kap>
+       <uzo tip="fak">MAT</uzo>
+       <snc>
+         <dif>
+           Entjero <frm>z</frm> estas <tld/>o de entjero <frm>a</frm>
+           se <frm>a</frm> estas <ref cel="obl.0o">oblo</ref> de
+           <frm>z</frm>; simbole <frm>a&#x2223;z</frm>:
+           <ekz>la avanta&gcirc;o de la dekduuma mezursistemo estas ke 12
+              havas pli da oportunaj <tld/>oj: 2, 3, 4, 6, dum la
+              kutima 10 havas nur 2 kaj 5 (sen kalkuli la neproprajn
+              <tld/>ojn 1 kaj memo).
+           </ekz>
+         </dif>
+       </snc>
+       <ref tip="vid" cel="faktor.0o">faktoro</ref>
+       <trd lng="en">divisor</trd>
+       <trd 
+lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x435;&#x43b;&#x44c;</trd>
+     </drv>
+     <drv mrk="divizor.0i">
+       <kap><tld/>i</kap>
+       <gra><vspec>ntr</vspec></gra>
+       <uzo tip="fak">MAT</uzo>
+       <snc>
+         <dif>
+           Esti <tld/>o:
+           <ekz>2 <tld/>as en &ccirc;iu para entjero (a&ubreve; 
+<ctl>&ccirc;iun paran
+               entjeron</ctl>);
+           </ekz><ekz>
+             komuna <tld/>o de pluraj entjeroj estas entjero kiu
+             <tld/>as &ccirc;iun el ili.
+           </ekz>
+         </dif>
+       </snc>
+       <rim>
+         La&ubreve; sia senco la verbo estas netransitiva (en la 
+&ccirc;i-supraj
+         ekzemploj akuzativo anstata&ubreve;as prepozicion), tial oni ne povas
+         diri "<tld/>ata" a&ubreve; "<tld/>ebla" (anstata&ubreve; 
+&ccirc;i-lastan oni diru
+         "<tld/>hava").
+       </rim>
+       <trd lng="en">divide</trd>
+       <trd lng="ru">&#x434;&#x435;&#x43b;&#x438;&#x442;&#x44c; 
+<klr>(&#x431;&#x435;&#x437; 
+&#x43e;&#x441;&#x442;&#x430;&#x442;&#x43a;&#x430;)</klr></trd>
+     </drv>
+
+     <drv mrk="divizo.nul0o">
+       <kap>nul<tld/>o, <tld/>o de nulo</kap>
+       <snc>
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           Tia nenula elemento p en <ref cel="ring.0o.MAT">ringo</ref>,
+           ke por nenula elemento q veras, ke p.q a&ubreve; q.p egalas al
+           <ref cel="nul0.0o.neuxtra">nulo</ref>:
+           <ekz>
+             &ccirc;iu nenula bildigo <em>p</em> de la grupo (<em>E</em>,+) al
+             si mem estas nul<tld/>o kadre de (<em>E</em><sup>E</sup>,+,o),
+             &ccirc;ar <em>p</em>o(<em>id</em><sub>E</sub>-<em>p</em>)=0.
+           </ekz>
+         </dif>
+         <refgrp tip="vid">
+           <ref cel="integr.0a.MAT">integra</ref>.
+         </refgrp>
+       </snc>
+       <trd lng="fr">diviseur de z&eacute;ro</trd>
+       <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol; 
+&c_n;&c_u;&c_l;&c_ja;</trd>
+     </drv>
+
+   </art>
 <!--
 $Log$
+Revision 1.3  2000/09/12 16:11:58  revo
+Sergio Pokrovskij: cxi-lastaN
+
 Revision 1.2  2000/09/08 05:50:44  revo
 Sergio Pokrovskij: cel="faktor.0o"
 
