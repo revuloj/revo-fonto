@@ -55,15 +55,16 @@
     <fnt><bib>EKV</bib><lok>&para;380</lok></fnt>
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra strukturo</ref>
-      (<em>E</em>,&#8224;,&#xd7;),
-      ke (<em>E</em>,&#8224;) estas <ref cel="komut.0eca.magmo">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj &#xd7; estas
+      <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>,
+      ke <frm>(<g>E</g>,&#8224;)</frm> estas 
+      <ref cel="komut.0eca.magmo">komuteca</ref>
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm>&#xd7;</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
-      <ref cel="distri.0eca.MAT">distribueca</ref> rilate al &#8224;:
+      <ref cel="distri.0eca.MAT">distribueca</ref> rilate al <frm>&#8224;</frm>:
       <ekz>
-        la <tld/>o (<em>E</em><sup>E</sup>,+,o) de la
-        <ref cel="bild.0igo.MAT">bildigoj</ref> de komuta grupo (<em>E</em>,+)
-        al si mem;
+        la <tld/>o <frm>(<g>E</g><sup><g>E</g></sup>,+,o)</frm> de la
+        <ref cel="bild.0igo.MAT">bildigoj</ref> de komuta grupo 
+        <frm>(<g>E</g>,+)</frm> al si mem;
       </ekz>
       <ekz>
         la unuan operacion de <tld/>o oni kutime signas adicie kaj la duan
@@ -141,21 +142,25 @@
     <dif>
       <ref cel="komut.0eca.ringo">Komuteca</ref>,
       <ref cel="integr.0a.MAT">integra</ref>
-      <ref tip="super" cel="ring.0o.MAT">ringo</ref> <em>R</em>, konsiderata
-      kune kun tia bildigo &phi;, ke al &ccirc;iu nenula elemento a
-      &gcirc;i asocias entjeron &phi;(a)&#x2265;0, kaj ke
-      &phi;(a)&#x2264;&phi;(b) se a estas divizoro de b, kun la aldona
-      kondi&ccirc;o, ke por &ccirc;iu paro (a,b) kun nenula b ekzistas
-      almena&ubreve; unu tia paro (q,r), ke a=b.q+r kaj
-      &phi;(a)&#x2264;&phi;(b):
+      <ref tip="super" cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>, 
+      konsiderata kune kun tia bildigo <frm>&phi;</frm>, ke al &ccirc;iu 
+      nenula elemento<frm><k>a</k></frm> &gcirc;i asocias entjeron 
+      <frm>&phi;(<k>a</k>)&#x2265;0</frm>, kaj ke
+      <frm>&phi;(<k>a</k>)&#x2264;&phi;(<k>b</k>)</frm>, 
+      se <frm><k>a</k></frm> estas divizoro de <frm><k>b</k></frm>, kun la
+      aldona kondi&ccirc;o, ke por &ccirc;iu paro 
+      <frm>(<k>a</k>,<k>b</k>)</frm> kun nenula <frm><k>b</k></frm> ekzistas
+      almena&ubreve; unu tia paro <frm>(<k>q</k>,<k>r</k>)</frm>, ke 
+      <frm><k>a</k>=<k>b</k>.<k>q</k>+<k>r</k></frm> kaj
+      <frm>&phi;(<k>a</k>)&#x2264;&phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
-        <klr>(&phi;(a)=|a|)</klr>;
+        <klr>(<frm>&phi;(<k>a</k>)=|<k>a</k>|</frm>)</klr>;
       </ekz>
       <ekz>
         &ccirc;iu <ref cel="ring.polinom0o">polinom<tld/>o</ref>
-        estas e&ubreve;klida <tld/>o, konsiderante la bildigon &phi;, kiu
-        al polinomo asocias &gcirc;ian gradon;
+        estas e&ubreve;klida <tld/>o, konsiderante la bildigon 
+        <frm>&phi;</frm>, kiu al polinomo asocias &gcirc;ian gradon;
       </ekz>
       <ekz>
         &ccirc;iu e&ubreve;klida ringo estas
@@ -185,7 +190,7 @@
       Tia <ref cel="komut.0eca.ringo">komuteca</ref>,
       <ref cel="integr.0a.MAT">integra</ref>,
       <ref cel="unu.0hava">unuhava</ref>
-      <ref tip="super" cel="ring.0o.MAT">ringo</ref> <em>R</em>,
+      <ref tip="super" cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>,
       ke &ccirc;iu &gcirc;ia elemento esprimi&gcirc;as 
       unike kiel produto de <ref cel="redukt.ne0ebla">neredukteblaj</ref>
       <ref cel="faktor.0o.multip">faktoroj</ref>:
@@ -200,7 +205,7 @@
     <rim>
       La unikeco ne estas absoluta. La faktoroj en du malkomponi&gcirc;oj
       de la sama elemento povas diferenci per inversigebla faktoro. Ekz-e
-      6=2&#xd7;3=(-2)&#xd7;(-3).
+      <frm>6 = 2&#xd7;3 = (-2)&#xd7;(-3)</frm>.
     </rim>
   </snc>
   <trd lng="de">ZPE-<ind>Ring</ind></trd>
@@ -216,18 +221,18 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <tld/>o <em>R</em>)</klr>
+      <klr>(de <tld/>o <frm><g>R</g></frm>)</klr>
       <ref tip="super" cel="ring.0o.MAT"><tld lit="R"/>o</ref>
       de &ccirc;iuj
-      <ref cel="polino.0o">polinomoj</ref> super <em>R</em>:
+      <ref cel="polino.0o">polinomoj</ref> super <frm><g>R</g></frm>:
       <ekz>
-        la polinom<tld/>on de <em>R</em> oni ofte signas per
-        <em>R</em>[<em>X</em>];
+        la polinom<tld/>on de <frm><g>R</g></frm> oni ofte signas per
+        <frm><g>R</g>[<g>X</g>]</frm>;
       </ekz>
       <ekz>
-        la polinom<tld/>on de <em>R</em>[<em>X</em>] oni ofte signas per
-        <em>R</em>[<em>X</em>,<em>Y</em>] <klr>(<tld/>o de duargumentaj
-        polinomoj super <em>R</em>)</klr>.
+        la polinom<tld/>on de <frm><g>R</g>[<g>X</g>]</frm> oni ofte signas per
+        <frm><g>R</g>[<g>X</g>,<g>Y</g>]</frm> <klr>(<tld/>o de duargumentaj
+        polinomoj super <frm><g>R</g></frm>)</klr>.
       </ekz>
     </dif>
   </snc>
@@ -244,12 +249,14 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <tld/>o (<em>E</em>,&#8224;,&#xd7;))</klr>
+      <klr>(de <tld/>o <frm>(<g>E</g>,&#8224;,&#xd7;)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      (<em>A</em>,&#8224;<sub>A</sub>,&#xd7;<sub>A</sub>), ke
-      <em>A</em>&#x2282;<em>E</em>, (<em>A</em>,&#8224;<sub>A</sub>) estas 
-      <ref cel="grup.sub0o">subgrupo</ref> de (<em>E</em>,&#8224;) kaj 
-      x&#xd7;<sub>A</sub>y = x&#xd7;y&#x2208;A por &ccirc;iuj x, y&#x2208;A:
+      <frm>(<g>A</g>,&#8224;<sub>A</sub>,&#xd7;<sub>A</sub>)</frm>, ke
+      <frm><g>A</g>&#x2282;<g>E</g></frm>, 
+      <frm>(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas 
+      <ref cel="grup.sub0o">subgrupo</ref> de <frm>(<g>E</g>,&#8224;)</frm> 
+      kaj <frm>x&#xd7;<sub>A</sub>y = x&#xd7;y&#x2208;A</frm> por &ccirc;iuj
+      <frm>x,y&#x2208;A</frm>:
       <ekz>
         la aro konsistanta nur el la nulo kaj unuo
         de unuhava <tld/>o estas sub<tld/>o de &gcirc;i.
@@ -264,6 +271,8 @@
 </art>
 <!--
 $Log$
+Revision 1.31  2002/10/21 16:34:09  revo
+Marc Bavant: mod signon por operacio T; ~o MAT: mod dif
 Revision 1.30  2002/06/25 19:38:05  revo
 Marc Bavant: ~o MAT: +ref al nulpotenca
 Revision 1.29  2002/06/02 17:33:41  revo
@@ -281,7 +290,5 @@ Marc Bavant: ~o MAT: mod distribuebla
 Revision 1.23  2002/01/13 17:31:21  revo
 Marc Bavant: sub~o: mod mrk
 Revision 1.22  2002/01/06 17:45:37  revo
-Marc Bavant: mod ref cel al bildigo
-Revision 1.21  2001/11/11 19:21:48  revo
 -->
 </vortaro>

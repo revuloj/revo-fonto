@@ -13,17 +13,22 @@
   <snc mrk="integr2.0o.sumo">
     <uzo tip="klr">(naiva prezento)</uzo>
     <dif>
-      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f
-      inter a kaj b)</klr>
-      La diferenco F(b)-F(a), kie F estas ajna
-      <ref cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de f;
-      simb. &#x222b;<sub>a</sub><sup>b</sup>f(x)dx:
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref>
+      <frm><k>f</k></frm> 
+      inter <frm><k>a</k></frm> kaj <frm><k>b</k></frm>)</klr>
+      La diferenco <frm>F(<k>b</k>)-F(<k>a</k>)</frm>, kie <frm>F</frm> 
+      estas ajna <ref cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> 
+      de <frm><k>f</k></frm>; 
+      simb. <frm>&#x222b;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>:
       <ekz>
         la <tld/>o de funkcio <ref cel="sinus.0o.funkcio">sinuso</ref>
-        inter 0 kaj &pi; egalas -cos&pi;+cos0=2;
+        inter <frm>0</frm> kaj <frm>&pi;</frm> egalas 
+        <frm>-cos&pi;+cos0</frm>, t.e. <frm>2</frm>;
       </ekz>
       <ekz>
-        la <tld/>o de la deriva&jcirc;o de f inter a kaj b egalas f(b)-f(a).
+        la <tld/>o de la deriva&jcirc;o de <frm><k>f</k></frm> inter 
+        <frm><k>a</k></frm> kaj <frm><k>b</k></frm> egalas 
+        <frm><k>f</k>(<k>b</k>)-<k>f</k>(<k>a</k>)</frm>.
       </ekz>
     </dif>
     <adm>
@@ -44,9 +49,10 @@
   </snc>
   <snc mrk="integr2.0o.malderivajxo">
     <dif>
-      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref>
+      <frm><k>f</k></frm>)</klr>
       Ajna <ref tip="dif" cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de
-      &gcirc;i; simb. &#x222b;f(x)dx:
+      &gcirc;i; simb. <frm>&#x222b;<k>f</k>(<k>x</k>)d<k>x</k></frm>:
       <ekz>
         du <tld/>oj de unu sama funkcio diferencas per konstanto.
       </ekz>
@@ -128,8 +134,10 @@
     <dif>
       Ago, maniero <ref cel="integr2.0i"><tld/>i</ref>:
       <ekz>
-        <ind>la&ubreve;faktora <tld/>ado, poparta <tld/>ado</ind> <klr>(uzante la econ, ke
-        malderiva&jcirc;o de fg&#x2032; estas fg-gf&#x2032;)</klr>.
+        <ind>la&ubreve;faktora <tld/>ado, poparta <tld/>ado</ind> 
+        <klr>(uzante la econ, ke malderiva&jcirc;o de 
+        <frm><k>f</k><k>g</k>&#x2032;</frm> estas 
+        <frm><k>f</k><k>g</k>-<k>g</k><k>f</k>&#x2032;</frm>)</klr>.
         <trd lng="de">Integration nach Teilen</trd>
         <trd lng="en">integration by parts</trd>
         <trd lng="fr">int&eacute;gration par parties</trd>
@@ -177,7 +185,7 @@
       <ekz>
         <ref cel="ekspon1.0o">eksponencialo</ref> estas <tld/>ebla en
         &ccirc;iu finia intervalo, sed ne estas en intervaloj de la tipo
-        [a, +&#x221e;[;
+        <frm>[<k>a</k>, +&#x221e;[</frm>;
       </ekz>
       <ekz>
         la karakteriza funkcio de la aro de racionalaj nombroj ne estas
@@ -199,7 +207,7 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      Signo &#x222b;, aperanta en skriba&jcirc;oj pri 
+      Signo <frm>&#x222b;</frm>, aperanta en skriba&jcirc;oj pri 
       <ref cel="integr2.0o"><tld/>oj</ref>:
       <ekz>
         derivi sub la <tld/>signo.
@@ -238,14 +246,17 @@
   <snc mrk="integr2.lebega0o.de_simpla_funkcio">
     <dif>
       <klr>(de <ref cel="funkci.simpla0o">simpla funkcio</ref>
-      f=&#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub>
-      la&ubreve; <ref cel="mezur.0o.MAT">mezuro</ref> &my;
-      super <ref cel="algebr.sigma0o">&sigma;-algebro</ref> <em>A</em>)</klr>
-      La sumo &#x2211;a<sub>i</sub>.&my;(A<sub>i</sub>);
-      simb. &#x222b;fd&my;:
+      <frm><k>f</k> = 
+      &#x2211;<k>a</k><sub><k>i</k></sub>.&chi;<sub><g>A</g><k>i</k></sub></frm> 
+      la&ubreve; <ref cel="mezur.0o.MAT">mezuro</ref> <frm>&my;</frm> 
+      super <ref cel="algebr.sigma0o">&sigma;-algebro</ref> 
+      <frm><g>A</g></frm>)</klr>
+      La sumo 
+      <frm>&#x2211;<k>a</k><sub><k>i</k></sub>.&my;(<g>A</g><sub><k>i</k></sub>)</frm>;
+      simb. <frm>&#x222b;<k>f</k>d&my;</frm>:
       <ekz>
-        la lebega <tld/>o de karakteriza funkcio de ajna elemento de <em>A</em>
-        egalas al &gcirc;ia mezuro;
+        la lebega <tld/>o de karakteriza funkcio de ajna elemento de
+        <frm><g>A</g></frm> egalas al &gcirc;ia mezuro;
       </ekz>
       <ekz>
         kvankam simpla funkcio povas prezenti&gcirc;i diversmaniere kiel lineara
@@ -256,27 +267,32 @@
   </snc>
   <snc mrk="integr2.lebega0o.de_funkcio">
     <dif>
-      <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
+      <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> 
+      <frm><k>f</k></frm>)</klr>
       La komuna valoro, se &gcirc;i ekzistas, de la
       <ref cel="suprem.0o">supremo</ref> de la <tld/>oj de simplaj funkcioj
-      malpli grandaj ol f kaj de la <ref cel="infim.0o">infimo</ref>
-      de la <tld/>oj de simplaj funkcioj pli grandaj ol f;
-      simb. &#x222b;fd&my;:
+      malpli grandaj ol <frm><k>f</k></frm> kaj de la 
+      <ref cel="infim.0o">infimo</ref> de la <tld/>oj de simplaj funkcioj
+      pli grandaj ol <frm><k>f</k></frm>;
+      simb. <frm>&#x222b;<k>f</k>d&my;</frm>:
       <ekz>
-        la lebega <tld/>o de ajna funkcio f la&ubreve; la diraka mezuro &ccirc;e
-        punkto a egalas al f(a);
+        la lebega <tld/>o de ajna funkcio <frm><k>f</k></frm> la&ubreve; la 
+        diraka mezuro &ccirc;e punkto <frm><k>a</k></frm> egalas al 
+        <frm><k>f</k>(<k>a</k>)</frm>;
       </ekz>
       <ekz>
-        la lebega <tld/>o de funkcio f en subaro <em>V</em> <klr>(la <tld/>o de
-        f.&chi;<sub>V</sub>; simb. &#x222b;<sub>V</sub>fd&my;)</klr>.
+        la lebega <tld/>o de funkcio <frm><k>f</k></frm> en subaro 
+        <frm><g>V</g></frm> 
+        <klr>(la <tld/>o de <frm><k>f</k>.&chi;<sub><g>V</g></sub></frm>; 
+        simb. <frm>&#x222b;<sub><g>V</g></sub><k>f</k>d&my;</frm>)</klr>.
       </ekz>
     </dif>
   </snc>
   <rim>
-    Parolante pri la lebega <tld/>o la&ubreve; mezuro &my; oni ofte ellasas
-    la adjektivon <ctl>lebega</ctl>. Inverse, se oni parolas pri la lebega
-    <tld/>o sen precizigi la mezuron, tiam temas pri <tld/>o la&ubreve; la
-    lebega mezuro super la borela &sigma;-algebro.
+    Parolante pri la lebega <tld/>o la&ubreve; mezuro <frm>&my;</frm>, oni 
+    ofte ellasas la adjektivon <ctl>lebega</ctl>. Inverse, se oni parolas 
+    pri la lebega <tld/>o sen precizigi la mezuron, tiam temas pri <tld/>o 
+    la&ubreve; la lebega mezuro super la borela &sigma;-algebro.
   </rim>
   <ref tip="vid" cel="lebeg.0o">Lebego.</ref>
   <trd lng="de">Lebesguesches <ind>Integral</ind></trd>
@@ -325,24 +341,33 @@
   <snc mrk="integr2.rimana0o.de_sxtupara_funkcio">
     <dif>
       <klr>(de reela <ref cel="funkci.sxtupara0o">&scirc;tupara funkcio</ref>
-      f=&#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub> en intervalo [a,b])</klr>
-      La sumo &#x2211;a<sub>i</sub>.l<sub>i</sub>, kie l<sub>i</sub>
-      signas la longon de intervalo A<sub>i</sub>;
-      simb. &#x222b;<sub>a</sub><sup>b</sup>f(x)dx.
+      <frm><k>f</k> = 
+      &#x2211;<k>a</k><sub><k>i</k></sub>.&chi;<sub><g>A</g><k>i</k></sub></frm>
+      en intervalo <frm>[<k>a</k>,<k>b</k>]</frm>)</klr>
+      La sumo 
+      <frm>&#x2211;<k>a</k><sub><k>i</k></sub>.<k>l</k><sub><k>i</k></sub></frm>, 
+      kie <frm><k>l</k><sub>i</sub></frm> signas la longon de intervalo 
+      <frm><g>A</g><sub><k>i</k></sub></frm>;
+      simb. <frm>&#x222b;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>.
     </dif>
   </snc>
   <snc mrk="integr2.rimana0o.de_funkcio">
     <dif>
-      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f en intervalo
-      [a,b])</klr>
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> 
+      <frm><k>f</k></frm> en intervalo
+      <frm>[<k>a</k>,<k>b</k>]</frm>)</klr>
       La komuna valoro, se &gcirc;i ekzistas, de la
       <ref cel="suprem.0o">supremo</ref> de la <tld/>oj en
-      [a,b] de &scirc;tuparaj funkcioj malpli grandaj ol f kaj de la
-      <ref cel="infim.0o">infimo</ref>
-      de la <tld/>oj en [a,b] de &scirc;tuparaj funkcioj pli grandaj ol f;
-      alidire
-      lim<sub>n&#x2192;&#x221e;</sub>&#xa0;[(b-a)/n]&#x2211;<sub>i=1</sub><sup>n</sup>&#xa0;f(a+i&#xd7;(b-a)/n);
-      simb. &#x222b;<sub>a</sub><sup>b</sup>f(x)dx:
+      <frm>[<k>a</k>,<k>b</k>]</frm> de &scirc;tuparaj funkcioj 
+      malpli grandaj ol <frm><k>f</k></frm> kaj de la
+      <ref cel="infim.0o">infimo</ref> de la <tld/>oj en 
+      <frm>[<k>a</k>,<k>b</k>]</frm> de &scirc;tuparaj funkcioj 
+      pli grandaj ol <frm><k>f</k></frm>; alidire
+      <frm>lim<sub><k>n</k>&#x2192;&#x221e;</sub> 
+        [(<k>b</k>-<k>a</k>)/<k>n</k>] 
+        &#x2211;<sub><k>i</k>=1</sub><sup><k>n</k></sup> 
+        <k>f</k>(<k>a</k>+<k>i</k>.(<k>b</k>-<k>a</k>)/<k>n</k>)</frm>;
+      simb. <frm>&#x222b;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>:
       <ekz>
         la rimana <tld/>o, kiam &gcirc;i ekzistas, egalas al la lebega.
       </ekz>
@@ -359,6 +384,8 @@
 </art>
 <!--
 $Log$
+Revision 1.15  2002/08/25 19:01:15  revo
+Marc Bavant: ~o: intersxangxis la du snc; ~i: sxovis ~i lauxfaktore al sub ~ado; ~ado: +fnt, kor mrk; +trd pl; nedifinita ~o: kompletigis trd; rimana, lebega ~o (de funkcio): kor mrk; +ref internaj
 Revision 1.14 2002/05/02 16:37:02 revo
 Marc Bavant: ~i: +fnt, mod rim, mod adm; ~ato: +fnt
 Revision 1.13 2002/02/24 17:31:22 revo
@@ -376,7 +403,5 @@ Marc Bavant: mod ref cel al funkcio MAT
 Revision 1.7 2001/03/11 18:56:12 revo
 Marc Bavant: mod ref cel al derivajxo, +trd fr
 Revision 1.6 2001/02/01 17:12:40 revo
-Dennis Wibrow: +trd germ
-Revision 1.5 2000/09/13 16:11:26 revo
 -->
 </vortaro>
