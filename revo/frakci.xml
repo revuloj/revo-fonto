@@ -13,10 +13,12 @@
   <snc mrk="frakci.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <ref tip="super" cel="nombr.0o.MAT">Nombro</ref>, prezentita
-      kiel kvociento de entjero (la <ref tip="prt"
-      cel="numera1.0o">numeratoro</ref>) dividita per nenula entjero (la <ref
-      tip="prt" cel="denomi.0o">denominatoro</ref>):
+      <ref tip="super" cel="nombr.0o.MAT">Nombro</ref>, prezentita kiel 
+      kvociento de entjero <frm><k>a</k></frm> 
+      (la <ref tip="prt" cel="numera1.0o">numeratoro</ref>) 
+      per nenula entjero <frm><k>b</k></frm> 
+      (la <ref tip="prt" cel="denomi.0o">denominatoro</ref>); 
+      simb. <frm><k>a</k>/<k>b</k></frm> (legu: a sur bo):
       <ekz>
         norma, vera <fnt><bib>MatVort</bib></fnt> a&ubreve;
         <ind>propra <tld/>o</ind>
@@ -51,7 +53,7 @@
         <ind>reduktebla <tld/>o</ind>
         <fnt><bib>MatVort</bib></fnt>
         <klr>(kies numeratoro kaj denominatoro havas komunan
-        divizoron pli grandan ol 1: 
+        divizoron pli grandan ol <frm>1</frm>: 
         <frm><sup>4</sup>/<sub>12</sub></frm>, 
         <frm><sup>8</sup>/<sub>4</sub></frm> ktp)</klr>;
         <trd lng="de">k&uuml;rzbarer <ind>Bruch</ind></trd>
@@ -80,9 +82,8 @@
         <ind>&c_d;&c_r;&c_o;&c_b;&c_mol;</ind></trd>
       </ekz>
       <ekz>
-        miksita <fnt><bib>PIV1</bib></fnt>,
         <ind>miksa <tld/>o</ind> <fnt><bib>PIV1</bib></fnt>
-        a&ubreve; <tld/>a nombro
+        a&ubreve; <tld/>a nombro <fnt><bib>PIV2</bib></fnt>
         <klr>(konsistanta el entjera kaj frakcia partoj, 
         ekz-e <frm>2&#xbd;</frm> ktp)</klr>.
         <trd lng="de">gemischter <ind>Bruch</ind></trd>
@@ -115,17 +116,21 @@
       La tradicia matematika lingva&jcirc;o ne rigore distingas inter la
       skriba&jcirc;o montranta dividon de numeratoro per denominatoro, kaj
       la racionala nombro rezultanta el tia divido. Depende de la vidpunktoj
-      eblas do diri, ke 1/2 kaj 2/4 estas identaj a&ubreve; ne. En pli rigora
-      lingva&jcirc;o oni nomas <tld/>o la paron (p,q) kaj racionala nombro
-      la ekvivalentoklason de &ccirc;iuj tiaj <tld/>oj (P,Q), ke pQ=Pq.
+      eblas do diri, ke <frm><sup>1</sup>/<sub>2</sub></frm> kaj 
+      <frm><sup>2</sup>/<sub>4</sub></frm> estas identaj 
+      a&ubreve; ne. En pli rigora lingva&jcirc;o oni nomas <tld/>o la paron
+      <frm>(<k>p</k>,<k>q</k>)</frm> kaj racionala nombro
+      la ekvivalentoklason de &ccirc;iuj tiaj <tld/>oj 
+      <frm>(<k>P</k>,<k>Q</k>)</frm>, ke 
+      <frm><k>pQ</k> = <k>Pq</k></frm>.
     </rim>
     <rim>
       La maniero, la&ubreve; kiu oni kreis la
       <ref cel="korp.0o.MAT">korpon</ref> de racionalaj nombroj surbaze de
       la <ref cel="ring.0o.MAT">ringo</ref> de entjeroj, estas aplikebla
       anka&ubreve; al aliaj ringoj (ekz-e la polinomringoj): la tiel
-      konstruitaj korpoj nomi&gcirc;as la <tld/>korpo de la koncerna
-      ringo.
+      konstruita korpo nomi&gcirc;as la 
+      <ref cel="korp.frakci0o"><tld/>korpo</ref> de la koncerna ringo.
     </rim>
     <trd lng="de">Bruch</trd>
     <trd lng="fr">fraction</trd>
@@ -170,6 +175,7 @@
 <drv mrk="frakci.0streko">
   <kap><tld/>streko</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV2</bib></fnt>
   <uzo tip="fak">KOMP</uzo>
   <snc>
     <dif>
@@ -248,9 +254,10 @@
     <dif>
       <ref tip="super" cel="vic.0o.MAT">Vico</ref> <frm><k>u</k></frm> de 
       nenulaj pozitivaj <ref cel="entjer.0o">entjeroj</ref>, konsiderata kune 
-      kun la vico <frm><k>v</k></frm>, kies n-a termo estas
-      <frm><k>v</k><sub>n</sub> = <k>u</k><sub>0</sub>+(<k>u</k><sub>1</sub>+(...
-      +(<k>u</k><sub>n</sub>)<sup>-1</sup>...)<sup>-1</sup>)<sup>-1</sup></frm>:
+      kun la vico <frm><k>v</k></frm>, kies <frm><k>n</k></frm>-a termo estas
+      <frm><k>v</k><sub><k>n</k></sub> = 
+      <k>u</k><sub>0</sub>+(<k>u</k><sub>1</sub>+(...
+      +(<k>u</k><sub><k>n</k></sub>)<sup>-1</sup>...)<sup>-1</sup>)<sup>-1</sup></frm>:
       <ekz>
         &ccirc;en<tld/>on oni ofte signas per skriba&jcirc;o de la tipo
         <frm><k>u</k><sub>0</sub>+(<k>u</k><sub>1</sub>+(<k>u</k><sub>2</sub>+...)<sup>-1</sup>)<sup>-1</sup></frm>,
@@ -411,9 +418,41 @@
     </adm>
   </snc>
 </drv>
+
+<drv mrk="frakci.racionala0o">
+  <kap>racionala <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Elemento en la <ref cel="korp.frakci0o"><tld/>korpo</ref> de 
+      <ref cel="ring.polinom0o">polinomringo</ref>:
+      <ekz>
+        la racionala <tld/>o <frm><g>1</g>/<g>X</g></frm> estas la 
+        ekvivalento-klaso de &ccirc;iuj tiaj polinom-paroj 
+        <frm>(<g>P</g>,<g>Q</g>)</frm>, ke 
+        <frm><g>P</g>&#xd7;<g>X</g> = <g>Q</g></frm>.
+      </ekz>
+    </dif>
+    <rim>
+      La epiteto <ctl>racionala</ctl> resendas al la maniero konstrui la aron
+      de racionalaj nombroj, sed tiun nocion oni povus nomi anka&ubreve; 
+      <ctl>polinoma <tld/>o</ctl>. Same kiel oni ofte ne distingas inter
+      polinomoj kaj polinomaj funkcioj, oni en nerigora lingva&jcirc;o 
+      identigas racionalajn <tld/>ojn kun 
+      <ref cel="funkci.racionala0o">racionalaj funkcioj</ref>.
+    </rim>
+  </snc>
+  <trd lng="de">rationaler <ind>Bruch</ind></trd>
+  <trd lng="en">rational <ind>fraction</ind></trd>
+  <trd lng="fr">fraction rationnelle</trd>
+  <trd lng="ru">&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_d;&c_r;&c_o;&c_b;&c_mol;</ind></trd>
+</drv>
+
 </art>
 <!--
 $Log$
+Revision 1.30  2002/11/30 17:35:13  revo
+Marc Bavant: +frm
 Revision 1.29  2002/11/24 17:33:56  revo
 Marc Bavant: mod frm
 Revision 1.28  2002/11/18 17:34:07  revo
@@ -431,7 +470,5 @@ Marc Bavant: ~o: mod fnt en ekz, mod rim; +drv ~-uma frakcio (kunfandis
 dekuma, duuma ~o); pozicia ~o: -adm, mod trd en
 Revision 1.22 2002/05/02 16:36:28 revo
 Marc Bavant: dekuma frakcio: mod rim; ~streko: mod rim, mod trd fr
-Revision 1.21 2002/02/24 17:31:19 revo
-Marc Bavant: snc MAT: +fnt; ~o MAT: +rim
 -->
 </vortaro>
