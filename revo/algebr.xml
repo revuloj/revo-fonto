@@ -72,7 +72,7 @@
       </ekz>
       <ekz>
         <ind><tld/>a prezento</ind> de <ref cel="komple.0o.MAT">komplekso</ref>
-        <klr>(sub formo a+i.b)</klr>.
+        <klr>(sub formo <frm><k>a</k>+<k>i</k>.<k>b</k></frm>)</klr>.
         <trd lng="de">algebraische <ind>Form</ind></trd>
         <trd lng="en">algebraic <ind>form</ind></trd>,
         <trd lng="fr">forme alg&eacute;brique</trd>
@@ -90,14 +90,14 @@
     <subsnc mrk="algebr.0a.rilate_subkorpon">
       <fnt><bib>EKV</bib><lok>&para;14</lok></fnt>
       <dif>
-        <klr>(p.p. elemento de <ref cel="korp.0o.MAT">korpo</ref> <em>K'</em>,
-        super subkorpo <em>K</em>)</klr>
+        <klr>(p.p. elemento de <ref cel="korp.0o.MAT">korpo</ref> 
+        <frm><g>K'</g></frm>, super subkorpo <frm><g>K</g></frm>)</klr>
         Estanta <ref cel="radik.0o.polinomo">radiko</ref> de iu polinomo
-        super <em>K</em>:
+        super <frm><g>K</g></frm>:
         <ekz>
-          se ne ekzistas <tld/>aj super <em>K</em> elementoj
-          krom tiuj de <em>K</em> mem, oni diras, ke <em>K</em> estas
-          <ind><tld/>e fermita</ind>.
+          se ne ekzistas <tld/>aj super <frm><g>K</g></frm> elementoj
+          krom tiuj de <frm><g>K</g></frm> mem, oni diras, ke 
+          <frm><g>K</g></frm> estas <ind><tld/>e fermita</ind>.
           <trd lng="de">algebraisch <ind>abgeschlossener</ind><klr tip="amb"> (K&ouml;rper)</klr></trd>
           <trd lng="en">algebraically closed<klr tip="ind"> (field)</klr></trd>
           <trd lng="fr"><klr tip="ind">(corps) </klr>alg&eacute;briquement <ind>clos</ind></trd>
@@ -130,9 +130,9 @@
       <fnt><bib>EKV</bib><lok>&para;17</lok></fnt>
       <dif>
         <klr>(p.p. superkorpo de <ref cel="korp.0o.MAT">korpo</ref>
-        <em>K</em>)</klr>
+        <frm><g>K</g></frm>)</klr>
         Kies &ccirc;iuj elementoj estas <tld/>aj
-        <sncref ref="algebr.0a.rilate_subkorpo"/> super <em>K</em>:
+        <sncref ref="algebr.0a.rilate_subkorpo"/> super <frm><g>K</g></frm>:
         <ekz>
           la korpo de reeloj ne estas <tld/>a superkorpo de la korpo de
           racionaloj.
@@ -182,17 +182,25 @@
   <snc mrk="algebr.bulea0o.strukturo">
     <dif>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      (<em>A</em>,&#8744;,&#8743;,f), kie f estas
+      <frm>(<g>A</g>,&#8744;,&#8743;,<k>f</k>)</frm>, kie 
+      <frm><k>f</k></frm> estas
       <ref cel="involu1.0o">involucio</ref> <klr>(nomata
       komplemento)</klr>, ke
       (1) amba&ubreve; operacioj estas asociecaj kaj komutecaj;
       (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio <klr>(signataj
-      per 0 por &#8744;, kaj 1 por &#8743;)</klr>;
+      per <frm>0</frm> por <frm>&#8744;</frm>, 
+      kaj <frm>1</frm> por <frm>&#8743;</frm>)</klr>;
       (3) &ccirc;iu operacio estas distribueca rilate al la alia;
-      (4) x&#8743;x = x&#8744;x = x, x&#8744;f(x) = 1 kaj x&#8743;f(x) = 0,
-      kiu ajn estas x&#8712;<em>A</em>;
-      (5) f(x&#8744;y) = f(x)&#8743;f(y) kaj f(x&#8743;y) = f(x)&#8744;f(y),
-      kiuj ajn estas x,y&#8712;<em>A</em>.
+      (4) 
+      <frm><k>x</k>&#8743;<k>x</k> = <k>x</k>&#8744;<k>x</k> = <k>x</k></frm>, 
+      <frm><k>x</k>&#8744;<k>f</k>(<k>x</k>) = 1</frm> kaj 
+      <frm><k>x</k>&#8743;<k>f</k>(<k>x</k>) = 0</frm>,
+      kiu ajn estas <frm><k>x</k>&#8712;<g>A</g></frm>;
+      (5) <frm><k>f</k>(<k>x</k>&#8744;<k>y</k>) = 
+      <k>f</k>(<k>x</k>)&#8743;<k>f</k>(<k>y</k>)</frm> 
+      kaj <frm><k>f</k>(<k>x</k>&#8743;<k>y</k>) = 
+      <k>f</k>(<k>x</k>)&#8744;<k>f</k>(<k>y</k>)</frm>,
+      kiuj ajn estas <frm><k>x</k>,<k>y</k>&#8712;<g>A</g></frm>.
     </dif>
     <trd lng="de">Boolesche <ind>Algebra</ind></trd>
     <trd lng="en">Boolean <ind>algebra</ind></trd>
@@ -229,16 +237,20 @@
   </snc>
   <snc mrk="algebr.lineara0o.strukturo">
     <dif>
-      <klr>(super korpo (<em>K</em>,+,&#215;))</klr>
+      <klr>(super korpo <frm>(<g>K</g>,+,&#215;)</frm>)</klr>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      (<em>A</em>,+,&#215;,&#8729;), ke (<em>A</em>,+,&#215;) estas
-      <ref tip="super" cel="ring.0o.MAT">ringo</ref>, (<em>A</em>,+,&#8729;) 
+      <frm>(<g>A</g>,+,&#215;,&#8729;)</frm>, ke 
+      <frm>(<g>A</g>,+,&#215;)</frm> estas 
+      <ref tip="super" cel="ring.0o.MAT">ringo</ref>, 
+      <frm>(<g>A</g>,+,&#8729;)</frm> 
       estas <ref tip="super" cel="spac.vektora0o">vektora spaco</ref> super
-      <em>K</em>, kaj la tri koncernaj multiplikoj verigas, ke
-      (&alfa;&#8729;x)&#215;(&beta;&#8729;y)&#xa0;=&#xa0;(&alfa;&#215;&beta;)&#8729;(x&#215;y)
-      por ajnaj skalaroj &alfa;, &beta; kaj vektoroj x, y:
+      <frm><g>K</g></frm>, kaj la tri koncernaj multiplikoj verigas, ke
+      <frm>(&alfa;&#8729;<k>x</k>)&#215;(&beta;&#8729;<k>y</k>) = 
+      (&alfa;&#215;&beta;)&#8729;(<k>x</k>&#215;<k>y</k>)</frm> por ajnaj 
+      skalaroj <frm>&alfa;</frm>, <frm>&beta;</frm> kaj vektoroj 
+      <frm><k>x</k></frm>, <frm><k>y</k></frm>:
       <ekz>
-        la polinomringo de korpo <em>K</em> estas lineara <tld/>o super
+        la polinomringo de korpo <frm><g>K</g></frm> estas lineara <tld/>o super
         &gcirc;i.
       </ekz>
     </dif>
@@ -267,9 +279,9 @@
   <snc>
     <dif>
       <klr>(kadre de iu <ref cel="spac.probablo0o">probablospaco</ref>
-      (<em>&Omega;</em>,<em>A</em>,P))</klr>
+      <frm>(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
       La <ref tip="super" cel="algebr.sigma0o">&sigma;-<tld/>o</ref> 
-      <em>A</em>.
+      <frm><g>A</g></frm>.
     </dif>
     <rim>
       La termino trovi&gcirc;as en 
@@ -293,20 +305,22 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(super <ref cel="ar.0o.MAT">aro</ref> <em>&Omega;</em>)</klr>
-      Tia ne malplena aro el subaroj de <em>&Omega;</em>, ke
+      <klr>(super <ref cel="ar.0o.MAT">aro</ref>
+      <frm><g>&Omega;</g></frm>)</klr>
+      Tia ne malplena aro el subaroj de <frm><g>&Omega;</g></frm>, ke
       &gcirc;i enhavas la <ref cel="komple1.0o.aro">komplementon</ref> de
       &ccirc;iu sia elemento, kaj la
       <ref cel="kun.0ajxo.aro">kuna&jcirc;on</ref> de &ccirc;iu sia
       <ref cel="numer.0ebla.MAT">numereblan</ref> subaro:
       <ekz>
-        eblas demonstri, ke &sigma;-<tld/>o nepre enhavas <em>&Omega;</em>,
-        la malplenan aron kaj la
+        eblas demonstri, ke &sigma;-<tld/>o nepre enhavas
+        <frm><g>&Omega;</g></frm>, la malplenan aron kaj la
         <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu sia
         numerebla subaro;
       </ekz>
       <ekz>
-        la aro de &ccirc;iuj subaroj de <em>&Omega;</em> estas &sigma;-<tld/>o;
+        la aro de &ccirc;iuj subaroj de <frm><g>&Omega;</g></frm> estas 
+        &sigma;-<tld/>o;
       </ekz>
       <ekz>
         &sigma;-<tld/>o naskita de aro el subaroj <klr>(komuna&jcirc;o de
@@ -366,6 +380,8 @@
 </art>
 <!--
 $Log$
+Revision 1.33  2002/10/21 16:33:28  revo
+Marc Bavant: mod operacion *
 Revision 1.32  2002/10/13 16:31:47  revo
 Marc Bavant: ~e fermita: kor trd klr tip cxe trd pl
 Revision 1.31  2002/09/22 16:33:02  revo
@@ -383,7 +399,5 @@ Marc Bavant: ~a 2: reverkis
 Revision 1.25 2002/05/27 17:16:46 revo
 Marc Bavant: ~a (elemento): mod fnt, mod dif
 Revision 1.24 2002/05/20 16:35:10 revo
-Marc Bavant: ~o (strukturo): mod dif; ~a: mod ekz
-Revision 1.23 2002/05/12 16:35:25 revo
 -->
 </vortaro>
