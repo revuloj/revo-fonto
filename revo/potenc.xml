@@ -99,7 +99,7 @@
     <trd lng="nl">macht</trd>
     <trd lng="ru">&c_d;&c_je;&c_r;&c_zh;&c_a;&c_v;&c_a;</trd>
   </snc>
-  <snc mrk="potenc.0o.algebra">
+  <snc mrk="potenc.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="potenc.0o.per_entjero">
       <fnt><bib>MatTerm</bib><lok>p. 10</lok></fnt>
@@ -117,10 +117,16 @@
         x; alidire: e<sup>y.ln x</sup>.
       </dif>
     </subsnc>
+    <subsnc>
+      <refgrp tip="vid">
+        <ref cel="invers.0igo.transformo">inversigo</ref>.
+      </refgrp>
+    </subsnc>
     <trd lng="de">Potenz</trd>
     <trd lng="en">power</trd>
     <trd lng="fr">puissance<klr tip="ind"> (d'un nombre)</klr></trd>
     <trd lng="nl">macht</trd>
+    <trd lng="pl">pot&eogonek;ga</trd>
     <trd lng="ru">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</trd>
   </snc>
 </drv>
@@ -224,8 +230,10 @@
     <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(reelon x per entjero n a&ubreve; reelo y)</klr>
-      Kalkuli &gcirc;ian <ref cel="potenc.0o.algebra"><tld/>on
-      <sncref ref="potenc.0o.algebra"/></ref>:
+      Kalkuli &gcirc;ian 
+      <ref cel="potenc.0o.per_entjero"><tld/>on <sncref/></ref>
+      a&ubreve; 
+      <ref cel="potenc.0o.per_reelo"><sncref/></ref>:
       <ekz>
         2<sup>3</sup> = 8 <klr>(legu: 2 <tld/>igite per 3 estas 8)</klr>;
       </ekz>
@@ -264,6 +272,7 @@
     <trd lng="en">raise to a power</trd>
     <trd lng="fr">&eacute;lever &agrave; une puissance</trd>
     <trd lng="nl">in de <ind>macht</ind> verheffen</trd>
+    <trd lng="pl">pot&eogonek;gowa&cacute;</trd>
     <trd lng="ru">&c_v;&c_o;&c_z;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; &c_v; &c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</trd>
   </snc>
 </drv>
@@ -289,6 +298,7 @@
     <trd>&eacute;l&eacute;vation &agrave; une puissance</trd>,
     <trd>exponentiation</trd>
   </trdgrp>
+  <trd lng="pl">pot&eogonek;gowanie</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_o;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je; &c_v; &c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_t;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
@@ -308,6 +318,7 @@
   <trd lng="de">Exponent</trd>
   <trd lng="en">exponent</trd>
   <trd lng="fr">exposant<klr tip="ind"> (math., info.)</klr></trd>
+  <trd lng="pl">wyk&lstroke;adnik<klr tip="ind"> (pot&eogonek;gi)</klr></trd>
   <trd lng="ru">&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol; &c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_i;</trd>
 </drv>
 
@@ -325,6 +336,7 @@
   <trd lng="de">Basis</trd>
   <trd lng="en">base<klr tip="ind"> (of exponential)</klr></trd>
   <trd lng="fr">base<klr tip="ind"> (d'une exponentielle)</klr></trd>
+  <trd lng="pl">podstawa<klr tip="ind"> (pot&eogonek;gi)</klr></trd>
   <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
 </drv>
 
@@ -364,6 +376,7 @@
   <trd lng="de">n-te <ind>Potenz</ind></trd>
   <trd lng="en">n-th <ind>power</ind></trd>
   <trd lng="fr">puissance n<klr tip="ind"> (d'un nombre)</klr></trd>
+  <trd lng="pl">n-ta <ind>pot&eogonek;ga</ind><klr tip="ind"> (liczby)</klr></trd>
   <trd lng="ru">n-&c_ja; <ind>&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</ind></trd>
 </drv>
 
@@ -406,6 +419,8 @@
 </art>
 <!--
 $Log$
+Revision 1.18  2002/06/25 19:38:04  revo
+Marc Bavant: n-a ~o: +rim; +drv nul~a
 Revision 1.17 2002/05/27 17:19:30 revo
 Marc Bavant: ~o (per reelo): +fnt
 Revision 1.16 2002/05/12 16:37:22 revo
@@ -423,7 +438,5 @@ Marc Bavant: kor ref cel al kvadrato
 Revision 1.10 2001/07/01 18:14:20 revo
 Paul Peeraerts: ald pliajn trd nl
 Revision 1.9 2001/06/18 18:27:11 revo
-Dennis Wibrow: +trd germ
-Revision 1.8 2001/02/18 17:15:07 revo
 -->
 </vortaro>
