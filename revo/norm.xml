@@ -82,6 +82,8 @@
         <ref cel="metrik.0o.MAT">metriko</ref>.
       </ekz>
     </dif>
+    <trd lng="de">Norm</trd>
+    <trd lng="en">norm</trd>
     <trd lng="fr">norme<klr tip="ind"> (d'un vecteur)</klr></trd>
     <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
   </snc>
@@ -117,8 +119,42 @@
   </trdgrp>
 </drv>
 
+<drv mrk="norm.0i">
+  <kap><tld/>i, <tld/>igi<fnt><bib>MatVort</bib></fnt></kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+  <snc>
+    <dif>
+      <klr>(<ref cel="spac.vektora0o">vektoran spacon</ref>)</klr>
+      Provizi &gcirc;in per
+      <ref cel="norm.0o.MAT"><tld/>o <sncref ref="norm.0o.MAT"/></ref>.
+    </dif>
+    <rim>
+      Ial Werner preferis uzi <em>ig-</em>deriva&jcirc;on, dum &scirc;ajnas,
+      ke la senpera verba deriva&jcirc;o sufi&ccirc;as. Notindas, ke
+      <ctl><tld/>igi</ctl> jam ekzistas en <fnt><bib>PIV1</bib></fnt>, sed
+      kun malpreciza difino, kiu sugestas uzeblecon en kuntekstoj de la tipo
+      <ekz>
+        <tld/>igi polinomon <klr>(dividi &gcirc;in per la altgrada 
+        koeficiento)</klr>
+      </ekz>
+      a&ubreve;
+      <ekz>
+        <tld/>igi nombron <klr>(prezenti &gcirc;in sub la&ubreve;norma
+        formo mantiso kaj eksponento)</klr>.
+      </ekz>
+      &Ccirc;iuokaze oni atentu ne konfuzi <ctl><tld/>(ig)i</ctl> kaj
+      <ctl><tld/>umi</ctl>, kiuj ofte koincidas en nacilingvaj tradukoj.
+    </rim>
+  </snc>
+  <trd lng="en">normieren</trd>
+  <trd lng="en">norm</trd>
+  <trd lng="fr">normer<klr tip="ind"> (espace)</klr></trd>
+  <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+</drv>
+
 <drv mrk="norm.0hava">
-  <kap><tld/>ohava, <tld/>ita</kap>
+  <kap><tld/>ohava, <tld/>ita, <tld/>igita<fnt><bib>MatVort</bib></fnt></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -137,16 +173,8 @@
     </dif>
     <ref tip="vid" cel="spac.normohava0o">normohava spaco.</ref>
   </snc>
-  <adm>
-    "~ita" sugestas, ke ~i povus signifi "provizi per ~o", kio
-    ne malobeas la gxeneralajn derivregulojn. Tamen nek PIV1,
-    nek MatVort konsentas pri tio. Neniu konas ~i. MatVort uzas
-    "~igi" por "provizi per ~o" kaj PIV1 donas alian sencon al
-    tiu termino. Tre konsekvence, MatVort do uzas "~igita spaco"
-    anstataux nia "~ohava". Cxi-kuntekste, "~ohava" kaj &leftquot;~ita&rightquot;
-    estas nur proponoj, kiujn indus modifi, se evidentigxus, ke
-    pli bona solvo aperis en auxtoritataj fontoj. <aut>MB</aut>
-  </adm>
+  <trd lng="en">normiert</trd>
+  <trd lng="en">normed</trd>
   <trd lng="fr">norm&eacute;<klr tip="ind"> (espace)</klr></trd>
   <trd lng="nl">genormeerd</trd>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
@@ -165,11 +193,14 @@
       krom ke la bildo de nenula vektoro rajtas esti nula.
     </dif>
   </snc>
+  <trd lng="de">Halbnorm</trd>
+  <trd lng="en">semi-norm</trd>
   <trd lng="fr">semi-norme</trd>
+  <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_n;&c_o;&c_r;&c_m;&c_a;</trd>
 </drv>
 
 <drv mrk="norm.unu0a">
-  <kap>unu<tld/>a</kap>
+  <kap>unu<tld/>a, <tld/>umita<fnt><bib>MatVort</bib></fnt></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -178,10 +209,13 @@
       <klr>(p.p. <ref cel="baz.0o.vektoraspaco">bazo</ref>)</klr>
       la <tld/>o de kies vektoroj egalas al 1.
     </dif>
+    <rim>
+      La formo <ctl>unu<tld/>a</ctl> suferas problemeton, nome oni povus 
+      kompreni &gcirc;in kiel <ctl>havanta unu normon</ctl>. Tamen tiu principa 
+      ambigueco &scirc;ajnas apena&ubreve; ebla kaj jam ekzistas precedenco de 
+      tiaj kunmeta&jcirc;oj (ekz-e <ctl>unuvalenta</ctl>).    
+    </rim>
   </snc>
-  <adm>
-    PIV1 kaj MatVort preferas &leftquot;~umita&rightquot;. Vd rim sub unu~igi. <aut>MB</aut>
-  </adm>
   <trd lng="de">nomierter<klr tip="amb"> (Vektor)</klr></trd>
   <trd lng="en">normalized<klr tip="ind"> (vector)</klr></trd>
   <trdgrp lng="fr">
@@ -194,8 +228,8 @@
 <drv mrk="norm.unu0igi">
   <kap>unu<tld/>igi, <tld/>umi<fnt><bib>PIV1</bib></fnt></kap>
   <uzo tip="fak">MAT</uzo>
+  <uzo tip="klr">(fakula &jcirc;argono)</uzo>
   <snc>
-    <uzo tip="klr">(fakula &jcirc;argono)</uzo>
     <dif>
       <klr>(vektoron)</klr>
       Dividi &gcirc;in per &gcirc;ia
@@ -203,18 +237,14 @@
       por ricevi unu<tld/>an rezulton.
     </dif>
     <rim>
-      PIV1 konas la varia&jcirc;on <ctl><tld/>umi</ctl>, kiu ne estas tre
-      oportuna,
-      &ccirc;ar la &ccirc;efa koncepto ja estas <ctl>vektoro, kies
-      <tld/>o egalas al 1</ctl>: estas malfacile signifi tion per
-      deriva&jcirc;o de <tld/>umi. <ctl><tld lit="N"/>umita</ctl> ne
-      tre ta&ubreve;gas logike, &ccirc;ar la <tld/>umota kaj <tld/>umita
-      vektoroj ne estas identaj. Anka&ubreve; la formo
-      <ctl>unu<tld/>a</ctl>, prezentata &ccirc;i-supre, suferas
-      problemeton: oni povas kompreni &gcirc;in kiel <ctl>havanta
-      unu normon</ctl>. Tamen tiu principa ambigueco &scirc;ajnas
-      apena&ubreve; ebla kaj jam ekzistas precedenco de tiaj
-      kunmeta&jcirc;oj (ekz-e <ctl>unuvalenta</ctl>).
+      <ctl><tld lit="N"/>umi</ctl> estas agnoskita de Werner kaj Deneva,
+      sed &gcirc;i ne estas tre logika: la &ccirc;efa koncepto ja estas 
+      <ctl>vektoro, kies <tld/>o egalas al 1</ctl>. Estas malfacile signifi 
+      tion per deriva&jcirc;o de <ctl><tld/>umi</ctl>. Efektive,
+      <ctl><tld/>umita</ctl> ne tre ta&ubreve;gas logike, &ccirc;ar la 
+      <tld/>umota kaj <tld/>umita vektoroj ne estas identaj. Tial ni proponas
+      <ctl>unu<tld/>igita</ctl>, travidebla pluderiva&jcirc;o de
+      <ctl>unu<tld/>a</ctl>.
     </rim>
     <trd lng="fr">normer<klr tip="ind"> (un vecteur)</klr></trd>
   </snc>
@@ -222,22 +252,18 @@
 </art>
 <!--
 $Log$
+Revision 1.16  2002/01/06 17:45:25  revo
+Marc Bavant: mod ref cel al bildigo
 Revision 1.15  2001/11/30 17:35:36  revo
 Yury Finkel: +trd ru
-
 Revision 1.14 2001/09/29 18:13:19 revo
 Marc Bavant: ~o MAT: kor ekz
-
 Revision 1.13 2001/09/09 18:18:34 revo
 Marc Bavant: mod ref cel al mezkvanto
-
 Revision 1.12 2001/07/22 18:17:17 revo
 Marc Bavant: mod ref cel al lineara algebro
-
 Revision 1.11 2001/07/16 18:12:18 revo
-Marc Bavant: sxovis fakindikojn MAT, mod fnt PIV1, +klr en trd fr, +trd
-cxe unu~a, +adm pri ~ohava/~ita
-
+Marc Bavant: sxovis fakindikojn MAT, mod fnt PIV1, +klr en trd fr, +trd cxe unu~a, +adm pri ~ohava/~ita
 Revision 1.10 2001/06/08 18:14:59 revo
 Ulrich Fellmann: + 8 germ trdj
 Revision 1.9 2001/06/07 18:14:14 revo
