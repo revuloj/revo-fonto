@@ -2,26 +2,45 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-   <art mrk="$Id$">
-     <kap>
-       <rad>a&ubreve;tomorfi</rad>/o
-     </kap>
-     <drv mrk="auxtom2.0o">
-       <kap><tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <ref cel="bijekc.0a">Bijekcia</ref>
-           <ref tip="super" cel="endomo.0o">endomorfio</ref>.
-         </dif>
-       </snc>
-       <trd lng="fr">automorphisme</trd>
-       <trd 
-lng="ru">&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;</trd>
-     </drv>
-   </art>
-
+<art mrk="$Id$">
+<kap>
+<rad>a&ubreve;tomorfi</rad>/o
+</kap>
+<drv mrk="auxtom2.0o">
+  <kap><tld/>o</kap>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <ref cel="bijekc.0a">Bijekcia</ref>
+      <ref tip="super" cel="endomo.0o">endomorfio</ref>.
+    </dif>
+  </snc>
+  <trd lng="en">automorphism</trd>
+  <trd lng="de">Automorphismus</trd>
+  <trd lng="fr">automorphisme</trd>
+  <trd
+  lng="ru">&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;</trd>
+</drv>
+<drv mrk="auxtom2.interna0o">
+  <kap>interna <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(en <ref cel="grup.0o.MAT">grupo</ref>)</klr>
+      <tld lit="A"/>o de la tipo f(x) = a.x.a<sup>-1</sup> por certa a.
+    </dif>
+    <ref tip="vid" cel="konjug.0ita.subgrupo">konjugita.</ref>
+  </snc>
+  <trd lng="en">inner <ind>automorphism</ind></trd>
+  <trd lng="de">innerer <ind>Automorphismus</ind></trd>
+  <trd lng="fr"><ind>automorphisme</ind> int&eacute;rieur</trd>
+  <trd lng="ru">&c_v;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j; <ind>&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;</ind></trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.1  2000/11/05 17:13:02  revo
+Marc Bavant: nova artikolo
+
 -->
 </vortaro>
