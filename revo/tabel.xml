@@ -2,33 +2,67 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<ofc>*</ofc>
-<rad>tabel</rad>/o
-</kap>
-<drv mrk="tabel.0o">
-<kap><ofc>*</ofc><tld/>o</kap>
-<snc num="1">
-<dif>
-Metoda aran&gcirc;o k ordigo de nomoj, nombroj a&ubreve; signoj sur paperfolio tiamaniere, ke oni povas &ccirc;irka&ubreve;preni la tuton per unu rigardo. 
-</dif>
-<refgrp tip="sin">
-<ref cel="etat.0o">etato</ref>,
-<ref cel="skem.0o">skemo</ref>.
-</refgrp>
-</snc>
-<snc num="2">
-<dif>
-Metoda listo da nomoj, nombroj a&ubreve; vortoj aran&gcirc;ita tiamaniere, ke oni povas facile trovi &ccirc;iun el ili: <ekz><tld/>o de man&gcirc;a&jcirc;oj
-<klr>(menuo)</klr>;
-</ekz> <ekz><tld/>o de multobligado, de logaritmoj,  de la enhavo.
-</ekz>
-</dif>
-<refgrp tip="sin">
-<ref cel="indeks.0o">indekso</ref>,
-<ref cel="regist.0o">registro</ref>.
-</refgrp>
-</snc>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>tabel</rad>/o
+    </kap>
+    <drv mrk="tabel.0o">
+      <kap><ofc>*</ofc><tld/>o</kap>
+      <snc>
+        <dif>
+          Metoda aran&gcirc;o kaj ordigo de nomoj, nombroj a&ubreve; signoj sur
+          paperfolio tiamaniere, ke oni povas &ccirc;irka&ubreve;preni la tuton per
+          unu rigardo.
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="etat.0o">etato</ref>,
+          <ref cel="skem.0o">skemo</ref>.
+        </refgrp>
+        <trd lng="en">table</trd>
+        <trd lng="ru">&c_t;&c_a;&c_b;&c_l;&c_i;&c_c;&c_a;</trd>
+      </snc>
+      <snc>
+        <dif>
+          Metoda listo da nomoj, nombroj a&ubreve; vortoj aran&gcirc;ita
+          tiamaniere, ke oni povas facile trovi &ccirc;iun el ili:
+          <ekz>
+            <tld/>o de man&gcirc;a&jcirc;oj <klr>(menuo)</klr>;
+          </ekz><ekz>
+            <tld/>o de multobligado, de logaritmoj, de la enhavo.
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="indeks.0o">indekso</ref>,
+          <ref cel="regist.0o">registro</ref>.
+        </refgrp>
+        <trd lng="en">table</trd>
+        <trd lng="ru">&c_t;&c_a;&c_b;&c_l;&c_i;&c_c;&c_a;</trd>
+      </snc>
+      <snc mrk="tabel.0o.KOMP">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Malsimpla datumo kies komponantoj (kutime samtipaj) estas
+          atingeblaj per unu a&ubreve; pluraj indicoj (plej ofte, entjeraj numeroj):
+          <ekz>
+            unudimensian <tld/>on oni nomas <ref tip="sub" cel="vektor.0o">vektoro</ref>;
+          </ekz><ekz>
+            per dudimensia <tld/>o oni povas prezenti
+            <ref tip="sub" cel="matric.0o">matricon</ref>.
+          </ekz>
+        </dif>
+        <ref tip="vid" cel="cxeno">&ccirc;eno</ref>
+        <ref cel="tip.datum0o">datumtipo</ref>
+        <trd lng="de">Feld</trd>
+        <trd lng="en">array</trd>
+        <trd lng="fr">tableau</trd>
+        <trd lng="ru">&c_m;&c_a;&c_s;&c_s;&c_i;&c_v;</trd>
+      </snc>
+      <trd lng="pl">tablica</trd>
+    </drv>
+  </art>
+
+<!--
+$Log$
+-->
+</vortaro>
