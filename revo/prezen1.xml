@@ -344,6 +344,48 @@
   </adm>
 </drv>
 
+<drv mrk="prezen1.grafika0o">
+  <kap>grafika <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref>
+      <frm><k>f</k></frm>)</klr>
+      Tia <ref cel="kurb.0o.MAT">ebena kurbo</ref>, ke la paro de
+      karteziaj koordinatoj <frm>(<k>x</k>,<k>y</k>)</frm> de &ccirc;iu
+      punkto de &gcirc;i apartenas al la
+      <ref cel="grafik.0ajxo.MAT">grafika&jcirc;o</ref>
+      de <frm><k>f</k></frm> kaj inverse:
+      <ekz>
+        la grafika <tld/>o de funkcio <frm><k>x</k><sup>2</sup></frm> estas
+        <ref cel="parabo.0o.linio">parabolo</ref>.
+      </ekz>
+    </dif>
+    <rim>
+      Ne ekzistas esenca diferenco inter &ccirc;i tiu nocio kaj
+      <ctl>grafika&jcirc;o</ctl>.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>graphische <ind>Darstellung</ind><klr tip="ind"> (einer Funktion)</klr></trd>,
+    <trd>Bildkurve<klr tip="ind"> (einer Funktion)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>graphic <ind>representation</ind><klr tip="ind"> (of a function)</klr></trd>,
+    <trd>plot<klr tip="ind"> (of a function)</klr></trd>,
+    <trd>image curve<klr tip="ind"> (of a function)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>repr&eacute;sentation graphique<klr tip="ind"> (d'une fonction)</klr></trd>,
+    <trd>graphe<klr tip="ind"> (d'une fonction)</klr></trd>
+  </trdgrp>
+  <trd lng="pl">wykres<klr tip="ind"> (funkcji)</klr></trd>
+  <trdgrp lng="ru">
+    <trd>&c_g;&c_r;&c_a;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; <ind>&c_i;&c_z;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</ind><klr tip="ind"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_i;)</klr></trd>,
+    <trd>&c_g;&c_r;&c_a;&c_f;&c_i;&c_k;<klr tip="ind"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_i;)</klr></trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="prezen1.numa0o">
   <kap>n-uma <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -351,18 +393,18 @@
     <subsnc mrk="prezen1.numa0o.entjero">
       <dif>
         <klr>(de <ref cel="entjer.0o">entjero</ref> la&ubreve;
-        <ref cel="baz.0o.nombrosistema">bazo <sncref/></ref> 
+        <ref cel="baz.0o.nombrosistema">bazo <sncref/></ref>
         <frm><k>n</k></frm>)</klr>
-        Skriba&jcirc;o de la tipo 
+        Skriba&jcirc;o de la tipo
         <frm><k>c</k><sub><k>p</k></sub>...<k>c</k><sub>1</sub><k>c</k><sub>0</sub></frm>,
-        konsistanta el ciferoj <frm><k>c</k><sub><k>i</k></sub></frm> 
+        konsistanta el ciferoj <frm><k>c</k><sub><k>i</k></sub></frm>
         inter <frm>0</frm> kaj <frm><k>n</k>-1</frm>, kaj prezentanta
-        la nombron 
-        <frm><k>c</k><sub><k>p</k></sub><k>n</k><sup><k>p</k></sup> +... + 
+        la nombron
+        <frm><k>c</k><sub><k>p</k></sub><k>n</k><sup><k>p</k></sup> +... +
         <k>c</k><sub>2</sub><k>n</k><sup>2</sup> +
         <k>c</k><sub>1</sub><k>n</k> + <k>c</k><sub>0</sub></frm>:
         <ekz>
-          la dekuma <tld/>o de la nombro cent estas <frm>100</frm>, kaj 
+          la dekuma <tld/>o de la nombro cent estas <frm>100</frm>, kaj
           &gcirc;ia okuma <tld/>o estas <frm>144</frm>.
         </ekz>
       </dif>
@@ -370,36 +412,36 @@
     <subsnc mrk="prezen1.numa0o.reelo">
       <dif>
         <klr>(de <ref cel="reel.0o.MAT">reelo</ref> la&ubreve;
-        <ref cel="baz.0o.nombrosistema">bazo <sncref/></ref> 
+        <ref cel="baz.0o.nombrosistema">bazo <sncref/></ref>
         <frm><k>n</k></frm>)</klr>
         Skriba&jcirc;o de la tipo
         <frm><k>c</k><sub><k>p</k></sub>...<k>c</k><sub>1</sub><k>c</k><sub>0</sub>,<k>c</k><sub>-1</sub><k>c</k><sub>-2</sub>...<k>c</k><sub>-<k>k</k></sub>...</frm>,
         a&ubreve;
         <frm><k>c</k><sub><k>p</k></sub>...<k>c</k><sub>1</sub><k>c</k><sub>0</sub>.<k>c</k><sub>-1</sub><k>c</k><sub>-2</sub>...<k>c</k><sub>-<k>k</k></sub>...</frm>,
-        konsistanta el ciferoj <frm><k>c</k><sub><k>i</k></sub></frm> 
+        konsistanta el ciferoj <frm><k>c</k><sub><k>i</k></sub></frm>
         inter <frm>0</frm> kaj <frm><k>n</k>-1</frm>, kaj prezentanta
-        la nombron 
+        la nombron
         <frm><k>c</k><sub><k>p</k></sub><k>n</k><sup><k>p</k></sup> +... +
         <k>c</k><sub>2</sub><k>n</k><sup>2</sup> +
-        <k>c</k><sub>1</sub><k>n</k> + <k>c</k><sub>0</sub> + 
+        <k>c</k><sub>1</sub><k>n</k> + <k>c</k><sub>0</sub> +
         <k>c</k><sub>-1</sub>/<k>n</k> +
         <k>c</k><sub>-2</sub>/<k>n</k><sup>2</sup> + ... +
         <k>c</k><sub><k>k</k></sub>/<k>n</k><sup><k>k</k></sup>...</frm>:
         <ekz>
-          la triuma <tld/>o de <frm>&#8531;</frm> estas <frm>0,1</frm>, sed 
+          la triuma <tld/>o de <frm>&#8531;</frm> estas <frm>0,1</frm>, sed
           &gcirc;ia dekuma <tld/>o estas senfina <frm>0,3333...</frm>;
         </ekz>
         <ekz>
           la duuma prezento de <frm>&pi;</frm> estas
-          <frm>11,0010010000111111011010101000...</frm> 
+          <frm>11,0010010000111111011010101000...</frm>
         </ekz>
       </dif>
       <ref tip="sub" cel="frakci.pozicia0o">pozicia frakcio.</ref>
     </subsnc>
     <rim>
-      La rangon de cifero <frm><k>c</k><sub><k>i</k></sub></frm> a&ubreve; 
+      La rangon de cifero <frm><k>c</k><sub><k>i</k></sub></frm> a&ubreve;
       <frm><k>c</k><sub>-<k>i</k></sub></frm> oni kutime
-      referencas pere de la nombro <frm><k>n</k><sup><k>i</k></sup></frm> a&ubreve; 
+      referencas pere de la nombro <frm><k>n</k><sup><k>i</k></sup></frm> a&ubreve;
       <frm>1/<k>n</k><sup><k>i</k></sup></frm>,
       kiun &gcirc;i multiplikas. Ekz-e en la dekuma prezento oni havas
       la sekvan sistemon:
@@ -438,13 +480,15 @@
 </art>
 <!--
 $Log$
-Revision 1.15  2002/10/27 17:13:38  revo
+Revision 1.16 2003/01/02 17:50:11 revo
+Marc Bavant: +frm
+Revision 1.15 2002/10/27 17:13:38 revo
 Marc Bavant: n-uma ~o: kor trd fr
-Revision 1.14  2002/09/30 16:33:06  revo
+Revision 1.14 2002/09/30 16:33:06 revo
 Alejandro Mejia Greene: ald 2 his trd
-Revision 1.13  2002/09/01 19:10:23  revo
+Revision 1.13 2002/09/01 19:10:23 revo
 Marc Bavant: n-uma ~o: +trd pl
-Revision 1.12  2002/08/29 17:36:53  revo
+Revision 1.12 2002/08/29 17:36:53 revo
 Marc Bavant: n-uma ~o: mod dif, sxovis ref al pozicia frakcio, +rim
 Revision 1.11 2002/07/29 18:13:54 revo
 Marc Bavant: +drv n-uma ~o
@@ -455,6 +499,5 @@ Sergio Pokrovskij: formovo de REPREZENT, disaj korektoj
 Revision 1.8 2001/06/24 18:57:35 revo
 Paul Peeraerts: ald trd nl
 Revision 1.7 2001/06/01 18:12:09 revo
-Dennis Wibrow: +trd germ
 -->
 </vortaro>
