@@ -58,10 +58,10 @@
   <snc mrk="operac.0o.MAT_supersenco">
     <uzo tip="fak">MAT</uzo>
     <adm>
-    Iam indos sxangxi la markojn
-      operac.0o.MAT_supersenco    al   operac.0o.MAT
-      operac.0o.MAT               al   operac.0o.bildigo
-    <aut>MB</aut>
+      Iam indos sxangxi la markojn
+      operac.0o.MAT_supersenco al operac.0o.MAT
+      operac.0o.MAT al operac.0o.bildigo
+      <aut>MB</aut>
     </adm>
     <subsnc mrk="operac.0o.elementa">
       <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
@@ -415,16 +415,64 @@
     </dif>
   </snc>
 </drv>
+
+<drv mrk="operac.logika0o">
+  <kap>logika <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Regulo, kiu asocias <ref cel="propoz.0o.aserto">propozicion</ref>
+      al unu a&ubreve; pluraj propozicioj, difinante &gcirc;ian 
+      <ref cel="valor.ver0o">vervaloron</ref> &dash; depende la vervaloro de
+      la argumentoj &dash; per iu <ref cel="tabel.ver0o">vertabelo</ref>:
+      <ekz>
+        ekzistas 4 eblaj unuargumentaj logikaj <tld/>oj kaj 16 duargumentaj.
+      </ekz>
+    </dif>
+    <rim>
+      Logikajn <tld/>ojn eblus difini kiel
+      <ref cel="operac.0o.MAT"><tld/>ojn</ref> super iu duelementa aro,
+      prezentanta la eblajn vervalorojn, kaj efektive tia aro, provizite
+      per konjunkcio, disjunkcio kaj negacio, ricevas strukturon de
+      <ref cel="algebr.bulea0o.strukturo">bulea algebro</ref>.
+      Sed por difini logikajn operaciojn ne estus tre
+      konsekvence uzi tiajn nociojn, kiaj estas aroj a&ubreve; bildigoj, kiuj
+      ja bazi&gcirc;as sur rezonadoj uzantaj la koncernajn operaciojn.
+      &Scirc;ajnas pli bonorde difini tian operacion per &gcirc;ia
+      vertabelo (intuicia nocio), kiu por &ccirc;iu vervaloro de la
+      <ctl>argumentoj</ctl> donas la vervaloron de la <ctl>rezulto</ctl>.
+    </rim>
+    <refgrp tip="sub">
+      Unuargumenta operacio:
+      <ref cel="negaci.0o.logika">negacio</ref>;
+
+      duargumentaj operacioj:
+      <ref cel="disjun.0o.logika">disjunkcio</ref>,
+      <ref cel="konjun.0o.logika">konjunkcio</ref>,
+      <ref cel="implic.0o.logika">implico</ref>,
+      <ref cel="implic.duobla0o">duobla implico</ref>,
+      <ref cel="ekviva.0o.logika">ekvivalento</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">logische <ind>Operation</ind></trd>
+  <trd lng="en">logical <ind>operation</ind></trd>
+  <trdgrp lng="fr">
+    <trd>op&eacute;ration logique</trd>,
+    <trd>fonction logique</trd>
+  </trdgrp>
+  <trd lng="ru">&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</ind></trd>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.29  2002/05/27 17:19:09  revo
+Revision 1.30 2002/06/01 05:59:37 revo
+Eduardo M. Kalinowski: ald trd pt
+Revision 1.29 2002/05/27 17:19:09 revo
 Marc Bavant: ekstera ~o: mod fnt
-
-Revision 1.28  2002/05/14 16:31:38  revo
+Revision 1.28 2002/05/14 16:31:38 revo
 Marc Bavant: ena ~o: mod kap, mor mrk
-
-Revision 1.27  2002/05/12 16:35:49  revo
+Revision 1.27 2002/05/12 16:35:49 revo
 Marc Bavant: ~o MAT: +fnt, reordigis al subsnc
 Revision 1.26 2002/05/02 16:34:44 revo
 Marc Bavant: snc MAT: +fnt, +trd de/en/ru; ~i MAT: mod dif (certa); ~o MAT: mod dif; ekstera ~o: mod ekz
