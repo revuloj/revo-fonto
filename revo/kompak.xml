@@ -13,9 +13,88 @@
 <dif>
 Densa k nedisi&gcirc;ema: <ekz><tld/>a amaso, grundo;
 </ekz> <ekz>mal<tld/>a tero<fnt>Z</fnt>;
-</ekz> <ekz>mal<tld/>a aera k lansimila floro<fnt>Z</fnt>.
+</ekz> <ekz>mal<tld/>a, aera k lansimila floro<fnt>Z</fnt>.
 </ekz>  
 </dif>
 </snc>
+
+  <snc mrk="kompak.0a.topologiaspaco">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(p.p. <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
+      <ref cel="apart.0iga.topologio">Apartiga</ref> kaj
+      <ref cel="kompak.kvazaux0a.MAT">kvaza&ubreve;kompakta</ref>.
+    </dif>
+  </snc>
+  
+  <snc mrk="kompak.0a.metrikaspaco">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(p.p. subaro <em>A</em> de 
+      <ref cel="spac.metrika0o">metrika spaco</ref> <em>E</em>)</klr>
+      Tia, ke rilate &ccirc;iun <ref cel="vic.0o.MAT">vicon</ref>
+      en <em>A</em> ekzistas almena&ubreve; unu 
+      <ref cel="adher.0a.vico">adhera</ref> punkto en <em>A</em>:
+      <ekz>
+        &ccirc;iu <tld/>a subaro de metrika spaco estas 
+        <ref cel="ferm.0ita.topologio">fermita</ref> kaj
+        <ref cel="bar.0ita.metrikaspaco">barita</ref>;
+      </ekz>
+      <ekz>
+        la <tld/>aj subaroj de finidimensia 
+        <ref cel="spac.normohava0o">normohava spaco</ref> estas &gcirc;iaj 
+        fermitaj kaj baritaj subaroj;
+      </ekz>
+      <ekz>
+        &ccirc;iu finia subaro de metrika spaco estas <tld/>a.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">compact</trd>
 </drv>
-</art></vortaro>
+
+<drv mrk="kompak.kvazaux0a">
+  <kap>kvaza&ubreve;<tld/>a</kap>
+  <snc mrk="kompak.kvazaux0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(p.p. subaro de 
+      <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
+      Tia, ke el &ccirc;iu <ref cel="kovr.0ajxo.familio">kovra&jcirc;o</ref>
+      per <ref cel="ferm.mal0ita.topologio">malfermitaj</ref> subaroj eblas
+      tiri finian subkovra&jcirc;on:
+      <ekz>
+        &ccirc;iu kvaza&ubreve;<tld/>a subaro de metrika spaco estas
+        anka&ubreve; <tld/>a <sncref ref="kompak.0a.metrikaspaco"/>. 
+      </ekz>
+    </dif>
+    <trd lng="fr">quasi-compact</trd>
+  </snc>
+</drv>
+
+<drv mrk="kompak.pra0a">
+  <kap>pra<tld/>a</kap>
+  <snc mrk="kompak.pra0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(p.p. subaro de <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
+      Tia, ke por &ccirc;iu reelo &epsilon; ekzistas finia
+      <ref cel="kovr.0ajxo.familio">kovra&jcirc;o</ref> de &gcirc;i
+      per <ref cel="glob.0o.metrikaspaco">globoj</ref> kun radiuso &epsilon;:
+      <ekz>
+        subaro de metrika spaco estas 
+        <tld/>a <sncref ref="kompak.0a.metrikaspaco"/>, 
+        nur se &gcirc;i estas pra<tld/>a kaj 
+        <ref cel="komple2.0a.MAT">kompleta</ref>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">pr&eacute;compact</trd>
+</drv>
+
+</art>
+
+<!--
+$Log$
+-->
+</vortaro>
