@@ -4,16 +4,16 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>grafe</rad>/o
+  <rad>grafe</rad>/o
 </kap>
 <drv mrk="grafe.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt>
-    <bib>KompLeks</bib> 
+  <snc mrk="grafe.0o.strukturo">
+    <fnt>
+    <bib>KompLeks</bib>
     <lok><url ref="&KompLeks;/G.html#GRAFEO">TTT</url></lok>
-  </fnt>
-  <snc>
+    </fnt>
     <dif>
       Matematika strukturo prezentebla per aro da punktoj
       (<ref tip="prt" cel="vertic.0o.grafeo">verticoj</ref>)
@@ -36,28 +36,49 @@
         Budapest: SEC, 1985. P. 188.</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="graf1.0o.grafeo">grafo</ref>
-    <rim>
-      Oni anka&ubreve; trovas la vorton <ctl>grafo</ctl> uzatan tiusence.
-      Nemulte gravas &gcirc;ia koincido kun la nobeltitolo, pli
-      malbonas ke &gcirc;i (kaj la alia propono, <ctl>grafio</ctl>)
-      povas kolizii kun la kvaza&ubreve;sufikso(j)
-      <ctl>-graf(i)</ctl> &dash; ekz-e en <ctl>terminograf(i)o</ctl>
-      (grafeo de terminoj?  terminologi[ist]o?).  Etimologie &gcirc;i
-      devenas el la greka &gamma;&rho;&alfa;&phi;&#x3ae; (desegno).
-    </rim>
     <refgrp tip="vid">
       <ref cel="incid.0a.grafee">incida</ref>;
     </refgrp>
     <refgrp tip="sub">
       <ref cel="arb.0o.MAT">arbo</ref>.
     </refgrp>
+    <rim>
+      Oni anka&ubreve; trovas la vorton <ctl>grafo</ctl> uzatan tiusence.
+      Nemulte gravas &gcirc;ia koincido kun la nobeltitolo, pli
+      malbonas ke &gcirc;i (kaj la alia propono, <ctl>grafio</ctl>)
+      povas kolizii kun la kvaza&ubreve;sufikso(j)
+      <ctl>-graf(i)</ctl> &dash; ekz-e en <ctl>terminograf(i)o</ctl>
+      (grafeo de terminoj? terminologi[ist]o?). Etimologie &gcirc;i
+      devenas el la greka &gamma;&rho;&alfa;&phi;&#x3ae; (desegno).
+    </rim>
   </snc>
+  <snc mrk="grafe.0o.rilato">
+    <dif>
+      <klr>(de <ref cel="rilat.0o.MAT">rilato <sncref/></ref>)</klr>
+      Diagramo, foje uzata por &gcirc;in prezenti, konsistanta el
+      sagoj, kies randoj prezentas tiajn elementojn a kaj b, ke
+      (a,b) estas elemento de la rilato:
+      <ekz>
+        en la <tld/>o de <ref cel="simetr.0a.rilato">simetria</ref> rilato,
+        al &ccirc;iu sago respondas sago kun samaj randoj kaj kontra&ubreve;a
+        direkto.
+      </ekz>
+    </dif>
+    <trd lng="de">Graph<klr tip="ind"> (einer Relation)</klr></trd>
+    <trd lng="en">graph<klr tip="ind"> (of a relation)</klr></trd>
+    <trdgrp lng="fr">
+      <trd>graphe<klr tip="ind"> (d'une relation)</klr></trd>,
+      <trd>diagramme sagittal</trd>
+    </trdgrp>
+    <trd lng="ru">&c_g;&c_r;&c_a;&c_f;<klr tip="ind"> (&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_ja;
+    )</klr></trd>
+  </snc>
+  <ref tip="sin" cel="graf1.0o.grafeo">grafo</ref>
   <adm>
-  La terminologio devenas de Sergio. Mi konsentas, ke "grafeo" estas
-  preferinda al "grafo", sed tio ne estas la nura punkto, cxe kiu
-  tiu terminologio distancigxas de MatVort. Ekz-e cxi-lasta uzas
-  "nodo" kaj "streko" anstataux "vertico" kaj "egxo". <aut>MB</aut>
+    La terminologio devenas de Sergio. Mi konsentas, ke "grafeo" estas
+    preferinda al "grafo", sed tio ne estas la nura punkto, cxe kiu
+    tiu terminologio distancigxas de MatVort. Ekz-e cxi-lasta uzas
+    "nodo" kaj "streko" anstataux "vertico" kaj "egxo". <aut>MB</aut>
   </adm>
   <trd lng="de">Graph</trd>
   <trd lng="en">graph</trd>
@@ -65,12 +86,13 @@
   <trd lng="nl">graaf<klr tip="ind"> (wisk.)</klr></trd>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_f;</trd>
 </drv>
+
 <drv mrk="grafe.0teorio">
   <kap><tld/>teorio</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt>
-    <bib>KompLeks</bib> 
-    <lok><url ref="&KompLeks;/G.html#GRAFEIKO">TTT</url></lok>
+  <bib>KompLeks</bib>
+  <lok><url ref="&KompLeks;/G.html#GRAFEIKO">TTT</url></lok>
   </fnt>
   <snc>
     <ref tip="dif" cel="grafei.0o">grafeiko</ref>
@@ -84,20 +106,22 @@
 </art>
 <!--
 $Log$
-Revision 1.9  2002/01/24 17:33:39  revo
+Revision 1.10 2002/03/17 17:31:19 revo
+Marc Bavant: kor fnt KompLeks
+Revision 1.9 2002/01/24 17:33:39 revo
 Marc Bavant: mod ref tip al incida
-Revision 1.8  2002/01/11 17:33:23  revo
+Revision 1.8 2002/01/11 17:33:23 revo
 Paul Peeraerts: ald trd nl
-Revision 1.7  2001/09/29 18:12:53  revo
+Revision 1.7 2001/09/29 18:12:53 revo
 Marc Bavant: +ref al grafo; +drv ~teorio (= grafeiko); -drv ~iko
-Revision 1.6  2001/09/16 18:49:48  revo
+Revision 1.6 2001/09/16 18:49:48 revo
 Marc Bavant: +trd fr, sxovis fnt; ~o; mod ref cel al egxo kaj vertico, +adm; ~iko: mod dif laux geometrio, kor ekz, +adm
-Revision 1.5  2001/05/20 18:13:51  revo
+Revision 1.5 2001/05/20 18:13:51 revo
 Ulrich Fellmann: + 2 germ trdj
-Revision 1.4  2001/05/16 18:13:01  revo
+Revision 1.4 2001/05/16 18:13:01 revo
 Sergio Pokrovskij: cel="incid.0a.grafee"
-Revision 1.3  2000/11/29 17:13:56  revo
+Revision 1.3 2000/11/29 17:13:56 revo
 Sergio Pokrovskij: ekz-1985
-Revision 1.2  2000/10/03 19:50:08  revo
+Revision 1.2 2000/10/03 19:50:08 revo
 -->
 </vortaro>
