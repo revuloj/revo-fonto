@@ -36,20 +36,8 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      Estanta <tld/>o:
-      <ekz>
-        <tld/>a matrico;
-      </ekz>
-      <ekz>
-        <tld/>a bildigo.
-      </ekz>
+      Estanta <tld/>o.
     </dif>
-    <rim>
-      Bricard <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt> uzas
-      <ctl>reciprokaj</ctl> p.p. funkcioj, kiel faras pluraj
-      naciaj lingvoj, sed tiu uzo &scirc;ajne ne disvasti&gcirc;is kaj
-      Werner tute ignoras &gcirc;in.
-    </rim>
     <trd lng="de">inverse</trd>
     <trd lng="en">inverse</trd>
     <trd lng="fr">inverse</trd>
@@ -83,34 +71,46 @@
       <trd>&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_n;&c_o;&c_je; <klr>(&c_s;&c_u;&c_shch;.)</klr></trd>
     </trdgrp>
   </snc>
-  <snc mrk="invers.0o.neuxtriganto">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
-    <dif>
-      <ref cel="neuxtr.0iganto.MAT">Ne&ubreve;triganto</ref> rilate
-      al multiplike signata <ref cel="operac.0o.MAT">operacio</ref>.
-    </dif>
-    <rim>
-      Verdire Bricard kaj Werner limigas la nocion al <tld/>oj de
-      nombroj, sed &gcirc;i nature vasti&gcirc;as al &ccirc;ia 
-      multipliko.
-    </rim>
-    <trdgrp lng="de">
-      <trd>Inverses</trd>,
-      <trd>Reziprokes</trd></trdgrp> 
-    <trdgrp lng="en">
-      <trd>inverse <ind>element</ind></trd>,
-      <trd>reciprocal <ind>element</ind></trd></trdgrp> 
-    <trd lng="fr">&eacute;l&eacute;ment inverse</trd>
-    <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j; <ind>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</ind></trd>
-  </snc>
   <snc mrk="invers.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <refgrp tip="vid">
-      <ref cel="par.inversa0o">inverso (de paro)</ref>,
-      <ref cel="rilat.inversa0o">inverso (de rilato)</ref>,
-      <ref cel="bild.inversa0igo">inverso (de bildigo)</ref>.
-    </refgrp>
+    <subsnc mrk="invers.0o.neuxtriganto">
+      <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
+      <dif>
+        <ref cel="neuxtr.0iganto.MAT">Ne&ubreve;triganto</ref> rilate
+        al multiplike signata <ref cel="operac.0o.MAT">operacio</ref>:
+        <ekz>
+          la <tld/>o de 3 estas &#x2153;;
+        </ekz>
+        <ekz>
+          por &ccirc;iu elemento de grupo ekzistas &gcirc;ia <tld/>o.
+        </ekz>
+      </dif>
+      <rim>
+        Verdire Bricard kaj Werner limigas la nocion al <tld/>oj de
+        nombroj, sed &gcirc;i nature vasti&gcirc;as al &ccirc;ia
+        multipliko, kiel aperas en
+        <fnt><bib>MatSTokTerm</bib><lok>p. 23</lok></fnt>.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Inverses</trd>,
+        <trd>Reziprokes</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>inverse <ind>element</ind></trd>,
+        <trd>reciprocal <ind>element</ind></trd>
+      </trdgrp>
+      <trd lng="fr">&eacute;l&eacute;ment inverse</trd>
+      <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j; <ind>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</ind></trd>
+    </subsnc>
+    <subsnc mrk="invers.0o.variaj">
+      <refgrp tip="vid">
+        <ref cel="par.inversa0o"><tld/>a paro</ref>,
+        <ref cel="rilat.inversa0o"><tld/>a rilato</ref>,
+        <ref cel="bild.inversa0o.elemento"><tld/>a bildo</ref> de elemento,
+        <ref cel="bild.inversa0o.subaro"><tld/>a bildo</ref> de subaro,
+        <ref cel="bild.inversa0igo"><tld/>a bildigo</ref>.
+      </refgrp>
+    </subsnc>
   </snc>
 </drv>
 
@@ -169,9 +169,9 @@
     <fnt><bib>MatVort</bib></fnt>
     <dif>
       <klr>(p.p. elemento en multiplike signata
-      <ref cel="grup.0o.MAT">grupo</ref> a&ubreve; en 
+      <ref cel="grup.0o.MAT">grupo</ref> a&ubreve; en
       <ref cel="ring.0o.MAT">ringo</ref>)</klr>
-      Tia, ke ekzistas &gcirc;ia 
+      Tia, ke ekzistas &gcirc;ia
       <ref cel="invers.0o.neuxtriganto"><tld/>o</ref>:
       <ekz>
         en la ringo de entjeroj nur 1 kaj -1 estas <tld/>igeblaj.
@@ -236,7 +236,10 @@
 </art>
 <!--
 $Log$
-Revision 1.11  2001/12/02 17:33:39  revo
+Revision 1.12 2002/02/23 19:57:54 revo
+Marc Bavant: ~a: +snc MAT; ~o MAT: +trd de/en/fr, mod trd ru, +rim; ~igebla: +fnt, -adm, +trd en/ru; ne~igebla: +trd en/ru; +drv ne~hava
+
+Revision 1.11 2001/12/02 17:33:39 revo
 Marc Bavant: ~igebla MAT: kor klr
 Revision 1.10 2001/11/12 19:12:58 revo
 Paul Peeraerts: ald trd nl
