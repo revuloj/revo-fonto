@@ -9,28 +9,26 @@
 </kap>
 <drv mrk="projek.0o">
   <kap><tld/>o</kap>
-  <snc mrk="projek.0o.kanona">
+  <snc mrk="projek.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <ref cel="produt.kartezia0o">kartezia produto</ref> de pluraj aroj
-      al la p-a inter ili, kiu &jcirc;etas &ccirc;iun opon al &gcirc;ia
-      p-a <ref cel="term.0o.opo">termo</ref>:
-      <ekz>
-        tian bildigon oni nomas <ref cel="kanon.0a.MAT">kanona</ref>
-        <tld/>o al la p-a faktoro;
-      </ekz>
-      <ekz>
-        en vektora spaco <em>K</em><sup>n</sup> la <tld/>o
-        <sncref ref="projek.0o.kanona"/> al ajna el la n faktoroj &jcirc;etas
-        vektoron al &gcirc;ia p-a komponanto la&ubreve; la
-        <ref cel="baz.kanona0o">kanona bazo</ref>.
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="projek.0o.geometria">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
+    <subsnc mrk="projek.0o.kanona">
+      <dif>
+        <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
+        <ref cel="produt.kartezia0o">kartezia produto</ref> de pluraj aroj
+        al la p-a inter ili, kiu &jcirc;etas &ccirc;iun opon al &gcirc;ia
+        p-a <ref cel="term.0o.opo">termo</ref>:
+        <ekz>
+          tian bildigon oni nomas <ref cel="kanon.0a.MAT">kanona</ref>
+          <tld/>o al la p-a faktoro;
+        </ekz>
+        <ekz>
+          en vektora spaco <em>K</em><sup>n</sup> la <tld/>o
+          <sncref ref="projek.0o.kanona"/> al ajna el la n faktoroj &jcirc;etas
+          vektoron al &gcirc;ia p-a komponanto la&ubreve; la
+          <ref cel="baz.kanona0o">kanona bazo</ref>.
+        </ekz>
+      </dif>
+    </subsnc>
     <subsnc mrk="projek.0o.vektora">
       <dif>
         <klr>(en <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
@@ -62,6 +60,7 @@
       <ref tip="sin" cel="projek.oblikva0o">oblikva <tld/>o.</ref>
     </subsnc>
     <subsnc mrk="projek.0o.orta">
+      <fnt><bib>PIV1</bib></fnt>
       <dif>
         <klr>
         (en <ref cel="spac.euxklida0o">e&ubreve;klida afina spaco</ref>)
@@ -72,6 +71,8 @@
       </dif>
       <ref tip="sin" cel="projek.orta0o">orta projekcio.</ref>
     </subsnc>
+    <trd lng="de">Projektion</trd>
+    <trd lng="en">projection</trd>
   </snc>
   <snc mrk="projek.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
@@ -146,8 +147,12 @@
       <fnt><bib>MatTerm</bib><lok>p. 26</lok></fnt> konas la terminon,
       sed sub formo <ctl>projecia&jcirc;o</ctl>. Cetere,
       ekster la rigora faka lingva&jcirc;o, eblas konsideri, ke anka&ubreve;
-      <ctl><tld/>o</ctl> havas &ccirc;i tiun sencon. 
+      <ctl><tld/>o</ctl> havas &ccirc;i tiun sencon.
     </rim>
+    <trd lng="de">Projektion</trd>
+    <trd lng="en">projection</trd>
+    <trd lng="fr">projection</trd>
+    <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
   </snc>
   <snc mrk="projek.0ajxo.FOT">
     <uzo tip="fak">FOT</uzo>
@@ -207,7 +212,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Zentralprojektion</trd>
+  <trd lng="en">central <ind>projection</ind></trd>
   <trd lng="fr">projection centrale</trd>
+  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 
 <drv mrk="projek.kanona0o">
@@ -217,7 +225,14 @@
     <ref tip="dif" cel="projek.0o.kanona"><tld/>o <sncref
     ref="projek.0o.kanona"/>.</ref>
   </snc>
+  <rim>
+    Trovi&gcirc;as &ccirc;e Werner <fnt><bib>MatVort</bib></fnt> la termino
+    <ctl>ar-teoria <tld/>o</ctl>, supozeble kun la sama signifo.
+  </rim>
+  <trd lng="de">kanonische <ind>Projektion</ind></trd>
+  <trd lng="en">canonical <ind>projection</ind></trd>
   <trd lng="fr">projection canonique</trd>
+  <trd lng="ru">&c_k;&c_a;&c_n;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 
 <drv mrk="projek.oblikva0o">
@@ -228,18 +243,29 @@
     <ref tip="dif" cel="projek.0o.oblikva"><tld/>o <sncref
     ref="projek.0o.oblikva"/>.</ref>
   </snc>
+  <rim>
+    En sia difino de <ctl>orta <tld/>o</ctl>
+    <fnt><bib>PIV1</bib></fnt> uzas terminon <ctl>paralel<tld/>o</ctl>
+    &scirc;ajne sinonima al nia <ctl>oblikva <tld/>o</ctl>.
+  </rim>
+  <trd lng="de">schiefe <ind>Projektion</ind></trd>
+  <trd lng="en">skew <ind>projection</ind></trd>
   <trd lng="fr">projection oblique</trd>
+  <trd lng="ru">&c_k;&c_o;&c_s;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 
 <drv mrk="projek.orta0o">
   <kap>orta <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
+  <fnt><bib>PIV1</bib></fnt>
   <snc>
     <ref tip="dif" cel="projek.0o.orta"><tld/>o <sncref
     ref="projek.0o.orta"/>.</ref>
   </snc>
+  <trd lng="de">orthogonale <ind>Projektion</ind></trd>
+  <trd lng="en">orthogonal <ind>projection</ind></trd>
   <trd lng="fr">projection orthogonale</trd>
+  <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 
 <drv mrk="projek.vektora0o">
@@ -249,32 +275,31 @@
     <ref tip="dif" cel="projek.0o.vektora"><tld/>o <sncref
     ref="projek.0o.vektora"/>.</ref>
   </snc>
+  <trd lng="de">Projektor</trd>
+  <trd lng="en">projector</trd>
   <trdgrp lng="fr">
     <trd>projection vectorielle</trd>,
     <trd>projecteur<klr tip="ind"> (math.)</klr></trd>
   </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.14  2002/01/06 17:45:00  revo
+Revision 1.15 2002/03/12 17:33:30 revo
+Marc Bavant: ~ajxo MAT: +rim
+Revision 1.14 2002/01/06 17:45:00 revo
 Marc Bavant: mod ref cel al bildigo
-
-Revision 1.13  2001/12/26 17:31:13  revo
+Revision 1.13 2001/12/26 17:31:13 revo
 Yury Finkel: +trd ru
-
 Revision 1.12 2001/12/24 19:31:42 revo
 Marc Bavant: forigis duoblajn sncref
-
 Revision 1.11 2001/11/11 19:21:38 revo
 Marc Bavant: kor kunligo al kunligajxo
-
 Revision 1.10 2001/10/22 18:13:03 revo
 Marc Bavant: +fnt cxe snc MAT, sxovis fakindikojn; retro~ilo: +trd fr;
 retro~ilo: +trd fr
-
 Revision 1.9 2001/09/10 18:13:56 revo
 Marc Bavant: ~o 2: +mrk; +sncref en ref al subsnc
-
 -->
 </vortaro>
