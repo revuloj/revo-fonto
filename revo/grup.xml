@@ -147,9 +147,10 @@
 <drv mrk="grup.sub0o">
   <kap>sub<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc mrk="grup.sub0o.MAT">
     <dif>
-      (de <tld/>o (<em>E</em>,T))
+      <klr>(de <tld/>o (<em>E</em>,T))</klr>
       Tia <ref tip="super" cel="grup.0o.MAT"><tld/>o</ref>
       (<em>A</em>,T<sub>A</sub>), ke
       <em>A</em>&#8834;<em>E</em> kaj
@@ -219,9 +220,47 @@
     <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a; &c_P;&c_u;&c_a;&c_n;&c_k;&c_a;&c_r;&c_je;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="grup.galeza0o">
+  <kap>galeza <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <subsnc mrk="grup.galeza0o.de_superkorpo">
+      <dif>
+        <klr>(de <ref cel="korp.super0o">superkorpo</ref> <em>K'</em> de
+        <ref cel="korp.0o.MAT">korpo</ref> <em>K</em>)</klr>
+        <ref tip="super" cel="grup.0o.MAT"><tld lit="G"/>o</ref> de &ccirc;iuj
+        <ref cel="auxtom2.0o">a&ubreve;tomorfioj</ref> de <em>K'</em>, kiuj
+        lasas la elementojn de <em>K</em> sen&scirc;an&gcirc;aj:
+        <ekz>
+          la galezan <tld/>on de superkorpo <em>K'</em> de <em>K</em> oni
+          foje signas per Gal(<em>K'</em>/<em>K</em>).
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="grup.galeza0o.de_polinomo">
+      <dif>
+        <klr>(de <ref cel="polino.0o">polinomo</ref>, a&ubreve;
+        algebra <ref cel="ekvaci.0o">ekvacio</ref>)</klr>
+        Galeza <tld/>o <sncref ref="grup.galeza0o.de_superkorpo"/> de la
+        <ref cel="korp.radika0o">radika korpo</ref> de la polinomo.
+      </dif>
+    </subsnc>
+  </snc>
+  <trd lng="de">Galoissche <ind>Gruppe</ind><klr tip="ind"> (von K' uber K, einer Gleichung)</klr></trd>
+  <trd lng="en">Galois['s] <ind>group<klr tip="ind"> (of K' with respect to K, of an equation)</klr></ind></trd>
+  <trd lng="fr">groupe de Galois<klr tip="ind"> (de K' sur K, d'une &eacute;quation)</klr></trd>
+  <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a; &c_G;&c_a;&c_l;&c_u;&c_a;<klr tip="ind"> (K' &c_n;&c_a;&c_d; K, &c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
+  <refgrp tip="vid">
+    <ref cel="galez.0o">Galezo</ref>.
+  </refgrp>
+  <adm>Fonto trovenda. <aut>MB</aut></adm>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.17  2002/01/07 17:31:38  revo
+Marc Bavant: ~o: +ekz, +fnt; +drv arhximeda ~o; fundamenda ~o: +adm, +trd de/en
 Revision 1.16 2001/11/11 19:21:43 revo
 Marc Bavant: mod ref al kunligo
 Revision 1.15 2001/11/03 19:11:44 revo
