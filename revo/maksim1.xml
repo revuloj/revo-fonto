@@ -28,6 +28,7 @@
         <tld/>a justeco estas maljusteco
       </ekz>
     </dif>
+    <ref tip="ant" cel="minimu.0o.KOMUNE">minimumo.</ref>
   </snc>
   <snc mrk="maksim1.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -48,18 +49,16 @@
       </ekz>
       <ekz>
         (relativa) <tld/>o de funkcio
-        <klr>(t.e. de la bildo de certa &ccirc;irka&ubreve;a&jcirc;o)</klr>.
+        <klr>(t.e. de la bildo de iu &ccirc;irka&ubreve;a&jcirc;o)</klr>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="minimu.0o.MAT">minimumo.</ref>
     <rim>
       La difino de Bricard estas pli lar&gcirc;a ol nia. Li distingas
       inter <ctl>tu&scirc;ata <tld/>o</ctl> (nia <ctl><tld/>o</ctl>) kaj
       <ctl>netu&scirc;ata <tld/>o</ctl> (nia <ctl>supremo</ctl>).
     </rim>
   </snc>
-  <refgrp tip="ant">
-    <ref cel="minimu.0o">minimumo</ref>.
-  </refgrp>
   <trdgrp lng="de">
     <trd>Maximum</trd>,
     <trd>H&ouml;chststand</trd>,
@@ -88,6 +87,7 @@
         </trdgrp>
       </ekz>
     </dif>
+    <ref tip="ant" cel="minimu.0a.KOMUNE">minimuma.</ref>
     <trd lng="fr">maximal</trd>
     <trd lng="de">maximal</trd>
     <trd lng="en">maximal</trd>
@@ -97,40 +97,46 @@
       <trd>&c_n;&c_a;&c_i;&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_i;&c_j;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="maksim1.0a.elemento">
+  <snc mrk="maksim1.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. elemento de <ref cel="ord.0a.aro">orda aro</ref>
-      (<em>E</em>, &#8804;))</klr>
-      Tia, ke ne ekzistas elemento de <em>E</em> strikte pli granda
-      ol &gcirc;i:
-      <ekz>
-        la eventuala <tld/>o de orda aro estas <tld/>a, sed <tld/>a
-        elemento ne nepre estas <tld/>o.
-      </ekz>
-    </dif>
-    <trd lng="de">maximales<klr tip="amb"> (Element)</klr></trd>
-    <trd lng="en">maximal<klr tip="ind"> (element)</klr></trd>
-    <trd lng="fr"><klr tip="ind">(&eacute;l&eacute;ment) </klr> maximal</trd>
-    <trd lng="ru">&c_m;&c_a;&c_k;&c_s;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
+    <subsnc mrk="maksim1.0a.elemento">
+      <dif>
+        <klr>(p.p. elemento de <ref cel="ord.0a.aro">orda aro</ref>
+        (<em>E</em>, &#8804;))</klr>
+        Tia, ke ne ekzistas elemento de <em>E</em> strikte pli granda
+        ol &gcirc;i:
+        <ekz>
+          la eventuala <tld/>o de orda aro estas <tld/>a, sed <tld/>a
+          elemento ne nepre estas <tld/>o.
+        </ekz>
+      </dif>
+      <ref tip="ant" cel="minimu.0a.elemento">minimuma.</ref>
+      <trd lng="de">maximales<klr tip="amb"> (Element)</klr></trd>
+      <trd lng="en">maximal<klr tip="ind"> (element)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(&eacute;l&eacute;ment) </klr> maximal</trd>
+      <trd lng="ru">&c_m;&c_a;&c_k;&c_s;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="maksim1.0a.idealo">
+      <dif>
+        <klr>(p.p. <ref cel="ideal.0o.MAT">idealo</ref> de ringo
+        <em>R</em>)</klr>
+        Tia, ke &gcirc;i estas <tld/>a <sncref ref="maksim1.0a.elemento"/>
+        en la aro de &ccirc;iuj idealoj de <em>R</em>, provizita per
+        ordo-rilato inkluziveco.
+      </dif>
+      <trd lng="de">maximales<klr tip="amb"> (Ideal)</klr></trd>
+      <trd lng="en">maximal<klr tip="ind"> (ideal)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(id&eacute;al) </klr> maximal</trd>
+      <trd lng="ru">&c_m;&c_a;&c_k;&c_s;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_i;&c_d;&c_je;&c_a;&c_l;)</klr></trd>
+    </subsnc>
+    <rim>
+      Werner <fnt><bib>MatVort</bib></fnt> mencias la terminon, sed
+      sen difino estas malfacile taksi, &ccirc;u la intencata senco estas
+      nur <ctl>plej granda, estanta <tld/>o</ctl> (kiel en <ctl>ekvaciaro
+      de <tld/>a ordo</ctl>), a&ubreve; &ccirc;u &gcirc;i povas apliki&gcirc;i
+      anka&ubreve; en la supre menciitaj kuntekstoj.
+    </rim>
   </snc>
-  <snc mrk="maksim1.0a.idealo">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="ideal.0o.MAT">idealo</ref> de ringo
-      <em>R</em>)</klr>
-      Tia, ke &gcirc;i estas <tld/>a <sncref ref="maksim1.0a.elemento"/>
-      en la aro de &ccirc;iuj idealoj de <em>R</em>, provizita per
-      ordo-rilato inkluziveco.
-    </dif>
-    <trd lng="de">maximales<klr tip="amb"> (Ideal)</klr></trd>
-    <trd lng="en">maximal<klr tip="ind"> (ideal)</klr></trd>
-    <trd lng="fr"><klr tip="ind">(id&eacute;al) </klr> maximal</trd>
-    <trd lng="ru">&c_m;&c_a;&c_k;&c_s;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_i;&c_d;&c_je;&c_a;&c_l;)</klr></trd>
-  </snc>
-  <refgrp tip="ant">
-    <ref cel="minimu.0a">minimuma</ref>.
-  </refgrp>
 </drv>
 
 <drv mrk="maksim1.0iganto">
@@ -153,7 +159,10 @@
 </art>
 <!--
 $Log$
-Revision 1.13  2002/02/23 19:58:29  revo
+Revision 1.14 2002/04/01 18:49:40 revo
+Marc Bavant: ~o MAT: +rim
+
+Revision 1.13 2002/02/23 19:58:29 revo
 Marc Bavant: ~o: mod fnt; ~iganto: mod fnt; ~a MAT: +trd de/en/fr/ru, sxovis drv/trd al komuna senco
 
 Revision 1.12 2002/01/06 17:45:34 revo
@@ -169,7 +178,5 @@ Paul Peeraerts: ald trd nl
 Revision 1.7 2001/09/09 18:18:05 revo
 Marc Bavant: +drv ~iganto
 Revision 1.6 2001/03/31 18:07:53 revo
-Marc Bavant: +drv ~a
-Revision 1.5 2001/02/04 17:16:13 revo
 -->
 </vortaro>
