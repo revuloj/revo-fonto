@@ -94,30 +94,57 @@
 <drv mrk="determ.0anto">
   <kap><tld/>anto</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc mrk="determ.0anto.vektoroj">
-    <dif>
-      <klr>(de n vektoroj de <ref cel="dimens.n0a">n-dimensia</ref>
-      <ref cel="spac.vektora0o">vektora spaco</ref>, rilate al 
-      <ref cel="baz.0o.vektoraspaco">bazo</ref>)</klr>
-      Ilia bildo per la ununura <ref cel="linear.plur0a">n-lineara</ref>,
-      <ref cel="altern.0a.formo">alterna</ref>
-      <ref cel="form.0o.bildigo">formo</ref>, kiu &jcirc;etas la
-      opon de bazaj vektoroj al 1.
-    </dif>
-  </snc>
-  <snc mrk="determ.0anto.endomorfio">
-    <dif>
-      <klr>(de <ref cel="endomo.0o">endomorfio</ref> en
-      <ref cel="dimens.n0a">finidimensia</ref>
-      <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-      <ref cel="determ.0anto.vektoroj"><tld lit="D"/>anto 
-      <sncref ref="determ.0anto.vektoroj"/></ref> de la
-      bildoj per &gcirc;i de &ccirc;iu vektoro de ajna bazo, rilate al
-      la sama bazo:
-      <ekz>
-        la <tld/>anto ne dependas de la elektita bazo.
-      </ekz>
-    </dif>
+  <snc mrk="determ.0anto.MAT">
+    <subsnc mrk="determ.0anto.vektoroj">
+      <dif>
+        <klr>(de n vektoroj de <ref cel="dimens.n0a">n-dimensia</ref>
+        <ref cel="spac.vektora0o">vektora spaco</ref>, rilate al 
+        <ref cel="baz.0o.vektoraspaco">bazo</ref>)</klr>
+        Ilia bildo per la ununura <ref cel="linear.plur0a">n-lineara</ref>,
+        <ref cel="altern.0a.formo">alterna</ref>
+        <ref cel="form.0o.bildigo">formo</ref>, kiu &jcirc;etas la
+        opon de bazaj vektoroj al 1.
+      </dif>
+    </subsnc>
+    <subsnc mrk="determ.0anto.matrico">
+      <dif>
+        <klr>(de <ref cel="matric.n_p0o">(n,n)-matrico</ref> A super 
+        korpo <em>K</em>)</klr>
+        <tld lit="D"/>anto 
+        <sncref ref="determ.0anto.MAT"/><sncref ref="determ.0anto.vektoroj"/>
+        de &gcirc;iaj n vertikaloj, konsiderataj kiel vektoroj de 
+        <em>K</em><sup>n</sup>, rilate al ties 
+        <ref cel="baz.kanona0o">kanona bazo</ref>; simb det&#xa0;A:
+        <ekz>
+          la <tld/>anto de matrico egalas al la <tld/>anto de &gcirc;ia
+          transpona&jcirc;o;
+        </ekz>
+        <ekz>
+          matrico estas inversigebla, nur se &gcirc;ia <tld/>anto ne
+          estas nula.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="determ.0anto.endomorfio">
+      <dif>
+        <klr>(de <ref cel="endomo.0o">endomorfio</ref> en
+        <ref cel="dimens.n0a">finidimensia</ref>
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+        <tld lit="D"/>anto 
+        <sncref ref="determ.0anto.MAT"/><sncref ref="determ.0anto.vektoroj"/>
+        de la bildoj per &gcirc;i de &ccirc;iu vektoro de ajna bazo, rilate al
+        la sama bazo:
+        <ekz>
+          la <tld/>anto de endomorfio ne dependas de la elektita bazo;
+        </ekz>
+        <ekz>
+          la <tld/>anto de endomorfio egalas al <tld/>anto 
+          <sncref ref="determ.0anto.MAT"/><sncref ref="determ.0anto.matrico"/>
+          de &gcirc;ia <ref cel="matric.0o.homomorfio">matrico</ref> rilate 
+          al kiu ajn bazo.
+        </ekz>
+      </dif>
+    </subsnc>
   </snc>
   <trd lng="en">determinant</trd>
   <trd lng="de">Determinante</trd>
@@ -127,6 +154,9 @@
 </art>
 <!--
 $Log$
+Revision 1.8  2001/06/09 18:49:19  revo
+Marc Bavant: rafinis ~anto MAT
+
 Revision 1.7  2001/05/08 17:54:23  revo
 Marc Bavant: +trd fr; kor ref al enklasigi, +ref al decidi, destini; +ekz; +drv ~anto; +adm
 
