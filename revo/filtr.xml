@@ -4,16 +4,16 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>*</ofc>
-<rad>filtr</rad>/i
+  <ofc>*</ofc>
+  <rad>filtr</rad>/i
 </kap>
 <drv mrk="filtr.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc num="1">
+  <snc>
     <dif>
       Pasigi tra penetrebla tavolo flua&jcirc;on por &gcirc;in purigi,
-      k eligi la restantajn solidajn pulvorecajn partojn, fe&ccirc;ojn ktp. 
+      kaj eligi la restantajn solidajn pulvorecajn partojn, fe&ccirc;ojn ktp.
     </dif>
     <refgrp tip="vid">
       <ref cel="kribr.0i">kribri</ref>.
@@ -21,10 +21,10 @@
     <trd lng="de">filtern</trd>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_c;&c_je;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
-  <snc num="2">
+  <snc>
     <uzo tip="fak">FOT</uzo>
     <dif>
-      Traigi la lumon tra ekrano por haltigi parton de la kolorradioj. 
+      Traigi la lumon tra ekrano por haltigi parton de la kolorradioj.
     </dif>
   </snc>
   <trd lng="es">filtrar</trd>
@@ -34,24 +34,58 @@
     <trd>&c_p;&c_r;&c_o;&c_f;&c_i;&c_l;&c_mol;&c_t;&c_r;&c_o;&c_v;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="filtr.0ilo">
   <kap><tld/>ilo</kap>
-  <snc>
+  <snc mrk="filtr.0ilo.KOMUNE">
     <dif>
       Aparato por <tld/>i:
-      <ekz>papera <tld/>ilo;</ekz>
-      <ekz>Pasteur'a <tld/>ilo;</ekz>
-      <ekz><tld/>ilo por kafo.</ekz>
+      <ekz>
+        papera <tld/>ilo;
+      </ekz>
+      <ekz>
+        Pasteur'a <tld/>ilo;
+      </ekz>
+      <ekz>
+        <tld/>ilo por kafo.
+      </ekz>
     </dif>
+  </snc>
+  <snc mrk="filtr.0ilo.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>EKV</bib><lok>&para;131, sub formo 
+    &leftquot;filtro&rightquot;</lok></fnt>
+    <dif>
+      <klr>(super aro <em>E</em>)</klr>
+      Tia nemalplena <ref tip="super" cel="ar.0o.MAT">aro</ref> de
+      subaroj de <em>E</em>, ke:
+      (1) la maplena aro ne apartenas al &gcirc;i;
+      (2) &ccirc;iu superaro de iu ajn el &gcirc;iaj elementoj apartenas
+      al &gcirc;i;
+      (3) &ccirc;iu <ref cel="komun.0ajxo.aro">komuna&jcirc;o</ref> de finia
+      nombro da &gcirc;iaj elementoj apartenas al &gcirc;i:
+      <ekz>
+        la aro de &ccirc;iuj
+        <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;oj</ref>
+        de punkto x de topologia spaco estas <tld/>ilo.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="fajn.pli0a.aro_de_subaroj">pli fajna</ref>,
+      <ref cel="konver.0a.filtrilo">konver&gcirc;a</ref>.
+    </refgrp>
+    <trd lng="de">Filter</trd>
+    <trd lng="en">filter</trd>
   </snc>
   <trd lng="de">Filter</trd>
   <trd lng="es">filtro</trd>
   <trd lng="fr">filtre</trd>
   <trd lng="ru">&c_f;&c_i;&c_l;&c_mol;&c_t;&c_r;</trd>
 </drv>
+
 <drv mrk="filtr.0igxi">
   <kap><tld/>i&gcirc;i</kap>
-  <snc num="1">
+  <snc>
     <dif>
       Klari&gcirc;i a&ubreve; puri&gcirc;i per <tld/>ado.
     </dif>
@@ -60,12 +94,16 @@
     </refgrp>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_f;&c_i;&c_l;&c_mol;&c_t;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
-  <snc num="2">
+  <snc>
     <uzo tip="stl">FIG</uzo>
     <dif>
       Diseri&gcirc;e trairi kvaza&ubreve; tra <tld/>ilo:
-      <ekz>lumo <tld/>i&gcirc;as tra kurtenoj de fenestro;</ekz>
-      <ekz>flustra interparolado <tld/>i&gcirc;is tra la fermita pordo.</ekz>
+      <ekz>
+        lumo <tld/>i&gcirc;as tra kurtenoj de fenestro;
+      </ekz>
+      <ekz>
+        flustra interparolado <tld/>i&gcirc;is tra la fermita pordo.
+      </ekz>
     </dif>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_o;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
@@ -74,21 +112,17 @@
 </art>
 <!--
 $Log$
-Revision 1.9  2001/08/23 18:49:46  revo
+Revision 1.10 2002/06/26 19:29:12 revo
+Alejandro Mejia Greene: ald 2 his trd
+Revision 1.9 2001/08/23 18:49:46 revo
 Marc Bavant: mod trd fr
-
-Revision 1.8  2001/05/07 16:14:48  revo
+Revision 1.8 2001/05/07 16:14:48 revo
 Ulrich Fellmann: + 2 germ trdj
-
-Revision 1.7  2001/05/04 16:13:21  revo
+Revision 1.7 2001/05/04 16:13:21 revo
 Yury Finkel: +trd ru
-
-Revision 1.6  2000/12/10 18:46:13  revo
+Revision 1.6 2000/12/10 18:46:13 revo
 uzo tip=stl
-
-Revision 1.5  1999/12/02 16:29:24  revo
+Revision 1.5 1999/12/02 16:29:24 revo
 Alain Fagot: fr. trd.
-
 -->
 </vortaro>
-
