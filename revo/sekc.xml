@@ -59,8 +59,8 @@
 </drv>
 <drv mrk="sekc.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">TEK</uzo>
   <snc mrk="sekc.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
       Bildo, kiu prezentas la internon de objekto (ekz-e konstrua&jcirc;o,
       organo, ks), desegnante &gcirc;in tia, kia &gcirc;i aperus, se oni
@@ -70,20 +70,39 @@
       </ekz>
     </dif>
   </snc>
+  <snc mrk="sekc.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <dif>
+      <klr>(de <ref cel="surfac.0o.MAT">surfaco</ref> a&ubreve;
+      <ref cel="solid.0o.MAT">solido</ref>)</klr>
+      Inter<tld/>o inter la koncerna figuro kaj alia, plejofte ebeno:
+      <ekz>
+        &ccirc;iuj ebenaj <tld/>oj de sfero estas cirkloj;
+      </ekz>
+      <ekz>
+        la ebenaj <tld/>oj de cirkla konuso estas nomataj 
+        <ref cel="konik.0o">konikoj</ref>.
+      </ekz>
+    </dif>
+    <trd lng="de">Schnitt</trd>
+    <trd lng="en">section</trd>
+    <trd lng="ru">&c_s;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+  </snc>
   <trd lng="nl">sectie</trd>
   <trdgrp lng="fr">
-    <trd>section<klr tip="ind"> (dessein en coupe)</klr></trd>,
+    <trd>section<klr tip="ind"> (dessein en coupe, intersection)</klr></trd>,
     <trd>coupe<klr tip="ind"> (dessein)</klr></trd>
   </trdgrp>
 </drv>
 <drv mrk="sekc.0anto">
   <kap><tld/>anto</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="klr">(elementa geometrio)</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(elementa geometrio)</uzo>
     <dif>
       <ref tip="super" cel="rekt.0o.elementa">Rekto</ref>, kiu <tld/>as ion
-      (linion, surfacon, strekon, angulon, k.s.):
+      (linion, surfacon, strekon, angulon ks):
       <ekz>
         <tld/>anton ortan al la mezo de streko oni nomas mezortanto;
       </ekz>
@@ -93,7 +112,7 @@
     </dif>
     <rim>
       Oni kutime ne nomas <tld/>anto de surfaco rekton, kiu &gcirc;in
-      tan&gcirc;as.
+      <ref cel="tangx.0i.MAT">tan&gcirc;as</ref>.
     </rim>
   </snc>
   <trd lng="fr">s&eacute;cante<klr tip="ind"> (droite)</klr></trd>
@@ -101,17 +120,17 @@
 <drv mrk="sekc.du0i">
   <kap>du<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <uzo tip="klr">(elementa geometrio)</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
-    <uzo tip="klr">(elementa geometrio)</uzo>
     <dif>
       <klr>(<ref cel="angul.0o.figuro">angulon</ref>)</klr>
       <ref cel="sekc.0i.dividi"><tld lit="S"/>i</ref> &gcirc;in en
       du <ref cel="egal.0a.izometria">egalajn</ref> partojn:
       <ekz>
         &ccirc;iu mezortanto de regula triangulo du<tld/>as la
-        kontra&ubreve;an angulon;
+        kontra&ubreve;an angulon.
       </ekz>
     </dif>
     <ref tip="sin" cel="bisekc.0i">bisekci</ref>
@@ -120,9 +139,9 @@
 <drv mrk="sekc.du0anto">
   <kap>du<tld/>anto</kap>
   <gra><vspec>tr</vspec></gra>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="klr">(elementa geometrio)</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(elementa geometrio)</uzo>
     <dif>
       <klr>(de <ref cel="angul.0o.figuro">angulo</ref>, a&ubreve; de
       <ref cel="later.plur0o">plurlatero</ref>)</klr>
@@ -147,9 +166,9 @@
 <drv mrk="sekc.inter0isin">
   <kap>inter<tld/>i sin</kap>
   <gra><vspec>ntr</vspec></gra>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="klr">(elementa geometrio)</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(elementa geometrio)</uzo>
     <dif>
       <klr>(p.p. pri du
       <ref cel="figur.geometria0o">geometriaj figuroj</ref>)</klr>
@@ -177,12 +196,11 @@
 </art>
 <!--
 $Log$
+Revision 1.8  2001/07/03 18:15:12  revo
+Paul Peeraerts: ald trd nl
 Revision 1.7  2001/05/01 18:09:24  revo
 Marc Bavant: +drv ~anto, du~i; mod uzo klr cxe MAT terminoj
-
 Revision 1.6  2001/04/02 16:22:35  revo
 Marc Bavant: +snc MAT cxe ~i; +drv inter~i, ~o
-
 -->
 </vortaro>
-
