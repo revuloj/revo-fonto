@@ -5,7 +5,7 @@
 <art mrk="$Id$">
 <kap>
   <ofc>8</ofc>
-  <rad>ort</rad>/a
+  <rad>ort</rad>/o
 </kap>
 <drv mrk="ort.0o">
   <kap><tld/>o</kap>
@@ -33,95 +33,126 @@
   <kap><tld/>a<fnt>Z</fnt></kap>
   <uzo tip="fak">MAT</uzo>
   <snc mrk="ort.0a.angulo">
+    <fnt><bib>MatTerm</bib><lok>p. 26</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="angul.0o.figuro">angulo</ref>)</klr>
       Estanta <tld/>o; kies mezuro egalas al 90&ring;:
       <ekz>
-        rektangulo oni nomas kvarlateron, kies almena&ubreve; unu
+        rektangulo oni nomas paralelogramon, kies almena&ubreve; unu
         angulo estas <tld/>a.
       </ekz>
     </dif>
     <ref tip="sin" cel="rekt.0a.orta">rekta.</ref>
+    <trd lng="de">rechter<klr tip="amb"> (Winkel)</klr></trd>
+    <trd lng="en">right<klr tip="ind"> (angle)</klr></trd>
     <trd lng="fr"><klr tip="ind">(angle) </klr><ind>droit</ind></trd>
-    <trd lng="nl">rechthoekig</trd>
+    <trd lng="nl">rechte<klr tip="amb"> (hoek)</klr></trd>
+    <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_j;<klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
   </snc>
-  <snc mrk="ort.0a.figuroj">
+  <snc mrk="ort.0a.plurlatero">
+    <uzo tip="stl">EVI</uzo>
+    <fnt><bib>PV</bib></fnt>
     <dif>
-      <klr>(p.p. <ref cel="figur.geometria0o">geometriaj figuroj</ref>)</klr>
-      Tiaj, ke ili sin intersekcas formante <tld/>on:
-      <ekz>
-        la teraj meridianoj kaj paraleloj estas inter si <tld/>aj;
-      </ekz>
-      <ekz>
-        ebeno orta al lumradio.
-      </ekz>
+      <klr>(p.p. <ref cel="later.plur0o">plurlatero</ref> a&ubreve;
+      <ref cel="edr.plur0o">pluredro</ref>)</klr>
     </dif>
-    <adm>
-      PIV1 enkondukis "inter~aj", specife kun tia senco kaj
-      MatVort subtenas gxin. PIV2 sxajne ne havos tiun
-      ne tre utilan derivajxon.
-      Enkonduki la geografian sencon de "paralelo" en la
-      artikolo "paralela". <aut>MB</aut>
-    </adm>
-    <ref tip="sin" cel="perpen1.0a">perpendikulara.</ref>
+    <ref tip="dif" cel="angul.ort0a"><tld/>angula.</ref>
+    <rim>
+      &Ccirc;i tiu senco povas esti konsiderata kiel mallongigo, foje bonvena:
+      <ekz>
+        <tld/>a triangulo
+      </ekz>
+      estas pli malpeza ol
+      <ekz>
+        <tld/>angula triangulo.
+      </ekz>
+      Werner <fnt><bib>MatVort</bib><lok>paralelepipedo, - orta</lok></fnt>
+      nerekte agnoskas &gcirc;in. &Gcirc;i tamen restas malofta kaj evitinda.
+    </rim>
+    <trd lng="de">rechwinklig</trd>
+    <trd lng="en">right-angled</trd>
+    <trd lng="fr">rectangle<klr tip="ind"> (adj.)</klr></trd>
+    <trd lng="nl">rechthoekig</trd>
+    <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  </snc>
+  <snc>
+    <subsnc mrk="ort.0a.figuroj">
+      <fnt><bib>PIV1</bib></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="figur.geometria0o">geometriaj figuroj</ref>)</klr>
+        Tiaj, ke ili sin intersekcas formante <tld/>on:
+        <ekz>
+          ortaj rektoj, cirkloj, ebenoj;
+        </ekz>
+        <ekz>
+          la teraj meridianoj kaj paraleloj estas inter si <tld/>aj;
+        </ekz>
+        <ekz>
+          ebeno orta al lumradio.
+        </ekz>
+      </dif>
+      <adm>
+        PIV1 enkondukis "inter~aj", specife kun tia senco kaj
+        MatVort subtenas gxin. PIV2 sxajne ne havos tiun
+        ne tre utilan derivajxon.
+        <aut>MB</aut>
+      </adm>
+      <ref tip="sin" cel="perpen1.0a">perpendikulara.</ref>
+      <trd lng="nl">loodrecht</trd>
+    </subsnc>
+    <subsnc mrk="ort.0a.vektoroj">
+      <dif>
+        <klr>(p.p. vektoroj en
+        <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>)</klr>
+        Tiaj, ke ilia <ref cel="produt.skalara0o">skalara produto</ref>
+        egalas al nulo:
+        <ekz>
+          se x estas <tld/>a al y, validas la pitagora teoremo:
+          ||x+y||<sup>2</sup>=||x||<sup>2</sup>+||y||<sup>2</sup>;
+        </ekz>
+        <ekz>
+          <tld/>a <ref cel="baz.0o.vektoraspaco">bazo</ref> estas bazo,
+          kies &ccirc;iuj vektoroj estas <tld/>aj inter si;
+        </ekz>
+        <ekz>
+          oni diras, ke vektoro estas <tld/>a al subaro, se &gcirc;i estas
+          <tld/>a al &ccirc;iu &gcirc;ia elemento.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="ort.0a.aro">
+      <dif>
+        <klr>(p.p. subaro de
+        <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>,
+        rilate al alia subaro <em>A</em>)</klr>
+        Tia, ke &ccirc;iuj &gcirc;iaj elementoj estas
+        <ref cel="ort.0a.vektoroj"><tld/>aj
+        <sncref ref="ort.0a.vektoroj"/></ref>
+        al tiuj de <em>A</em>:
+        <ekz>
+          la <tld/>a aro de subaro estas fermita vektora subspaco.
+        </ekz>
+      </dif>
+    </subsnc>
+    <trdgrp lng="de">
+      <trd>orthogonal</trd>,
+      <trd>senkrecht</trd></trdgrp> 
+    <trdgrp lng="en">
+      <trd>orthogonal</trd>,
+      <trd>perpendicular</trd></trdgrp> 
     <trdgrp lng="fr">
       <trd>orthogonal</trd>,
       <trd>perpendiculaire<klr tip="ind"> (adj.)</klr></trd>
     </trdgrp>
-    <trd lng="nl">loodrecht</trd>
+    <trdgrp lng="ru">
+      <trd>&c_o;&c_r;&c_t;&c_o;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+      <trd>&c_p;&c_je;&c_r;&c_p;&c_je;&c_n;&c_d;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j;
+      </trd></trdgrp> 
   </snc>
-  <snc mrk="ort.0a.plurlatero">
-    <uzo tip="stl">EVI</uzo>
-    <dif>
-      <klr>(p.p. <ref cel="later.plur0o">plurlatero</ref> a&ubreve;
-      <ref cel="edr.plur0o">pluredro</ref>)</klr>
-      <ref tip="dif" cel="angul.ort0a"><tld lit="O"/>angula</ref>:
-      <ekz>
-        <tld/>a triangulo, prismo.
-      </ekz>
-    </dif>
-    <adm>
-      Cxi tiu senco mankas en PIV1, sed ekzistas en MatVort pro la
-      traduko "rechtwinklig". Mi tamen konsideras gxin evitinda.
-      <aut>MB</aut>
-    </adm>
-  </snc>
-  <snc mrk="ort.0a.vektoroj">
-    <dif>
-      <klr>(p.p. vektoroj en
-      <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>)</klr>
-      Tiaj, ke ilia <ref cel="produt.skalara0o">skalara produto</ref>
-      egalas al nulo:
-      <ekz>
-        se x estas <tld/>a kun y, validas la pitagora teoremo:
-        ||x+y||<sup>2</sup>=||x||<sup>2</sup>+||y||<sup>2</sup>;
-      </ekz>
-      <ekz>
-        <tld/>a <ref cel="baz.0o.vektoraspaco">bazo</ref> estas bazo,
-        kies &ccirc;iuj vektoroj estas <tld/>aj inter si;
-      </ekz>
-      <ekz>
-        oni diras, ke vektoro estas <tld/>a kun subaro, se &gcirc;i estas
-        <tld/>a kun &ccirc;iu &gcirc;ia elemento.
-      </ekz>
-    </dif>
-    <trd lng="fr">orthogonal</trd>
-  </snc>
-  <snc mrk="ort.0a.aro">
-    <dif>
-      <klr>(p.p. subaro de
-      <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>,
-      rilate al alia subaro <em>A</em>)</klr>
-      Tia, ke &ccirc;iuj &gcirc;iaj elementoj estas
-      <ref cel="ort.0a.vektoroj"><tld/>aj
-      <sncref ref="ort.0a.vektoroj"/></ref>
-      kun tiuj de <em>A</em>:
-      <ekz>
-        la <tld/>a aro de subaro estas fermita vektora subspaco.
-      </ekz>
-    </dif>
-    <trd lng="fr">orthogonal</trd>
-  </snc>
+  <refgrp tip="vid">
+    <ref cel="projek.orta0o"><tld/>a projekcio</ref>,
+    <ref cel="simetr.orta0o"><tld/>a simetrio</ref>.
+  </refgrp>
 </drv>
 
 <drv mrk="ort.0anto">
@@ -138,8 +169,10 @@
       <ref cel="perpen1.0o">perpendikularo</ref>.
     </refgrp>
     <rim>
-      Tiu &ccirc;i termino aperis anka&ubreve; en PV kaj &ccirc;e Bricard,
+      Tiu &ccirc;i termino aperis anka&ubreve; &ccirc;e Bricard,
+      <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
       sed kun malpli vasta senco, nome: <ref cel="alt.0o.MAT">alto</ref>.
+      La malnova senco konservi&gcirc;is &gcirc;is en <fnt><bib>PV</bib></fnt>.
     </rim>
   </snc>
   <trd lng="de">Senkrechte</trd>
@@ -151,6 +184,7 @@
 <drv mrk="ort.mez0anto">
   <kap>mez<tld/>anto</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
       <klr>(de <ref cel="strek.0o.segmento">streko</ref>)</klr>
@@ -173,24 +207,20 @@
 </art>
 <!--
 $Log$
+Revision 1.11 2002/01/27 17:31:23 revo
+Marc Bavant: +fnt; ~anto: mod rim
 Revision 1.10 2001/08/27 18:17:05 revo
 Marc Bavant: ~o: sxovis fakindikon, mod ref al angulo; -drv ~angulo (jam sub angulo); ~a: +ref al rekta, perpendikulara, +snc, +adm pri inter~a; ~anto: +rim, +ref al perpendiklo, perpendikularo; kompletigis trd MAT
-
 Revision 1.9 2001/05/13 18:42:26 revo
 Marc Bavant: +ref en ekz cxe ~o; mod ref cel al rekto
-
 Revision 1.8 2001/04/27 16:12:20 revo
 Marc Bavant: +drv mez~anto
-
 Revision 1.7 2001/04/22 17:44:28 revo
 Marc Bavant: kor ref cel al angulo
-
 Revision 1.6 2001/04/21 18:45:56 revo
 Marc Bavant: koherigis post reverkado de angulo; kor dif de ~anto kaj sxovis la antauxan difinon al "alto"; mod mrk cxe orta.0a.kurbo
-
 Revision 1.5 2001/03/28 20:04:28 revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.4 2000/12/06 17:10:38 revo
 -->
 </vortaro>
