@@ -10,7 +10,7 @@
 <drv mrk="indukt.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="indukt.0i.KOMUNE">
     <dif>
       Rezoni, konkludante el apartaj faktoj al &gcirc;enerala le&gcirc;o, el
       specoj al specaro, el efikoj al ka&ubreve;zo:
@@ -22,16 +22,15 @@
       <ref cel="dedukt.0i">dedukti</ref>.
     </refgrp>
     <trd lng="de">verallgemeinern</trd>
-        <trdgrp lng="ru">
+    <trdgrp lng="ru">
       <trd>&c_v;&c_y;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; &c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_z;&c_a;&c_k;&c_l;&c_ju;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; &c_v;&c_y;&c_v;&c_o;&c_d;&c_y; <klr>(&c_o;&c_t; &c_ch;&c_a;&c_s;&c_t;&c_n;&c_o;&c_g;&c_o; &c_k; &c_o;&c_b;&c_shch;&c_je;&c_m;&c_u;)</klr></trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="indukt.0i.ELE">
     <uzo tip="fak">ELE</uzo>
     <dif>
-      Produkti elektran fluon per distanca efiko de magneto a&ubreve; de alia
-      apuda elektrofluo.
+      Produkti kurenton per <tld/>o <sncref ref="indukt.0o.ELE"/>.
     </dif>
     <trdgrp lng="ru">
       <trd>&c_i;&c_n;&c_d;&c_u;&c_k;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -40,8 +39,53 @@
     </trdgrp>
   </snc>
   <trd lng="de">induzieren</trd>
+  <trd lng="fr">induire</trd>
   <trd lng="nl">induceren</trd>
 </drv>
+
+<drv mrk="indukt.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="indukt.0o.KOMUNE">
+    <dif>
+      Ago <tld/>i <sncref ref="indukt.0i.KOMUNE"/>.
+    </dif>
+  </snc>
+  <snc mrk="indukt.0o.ELE">
+    <uzo tip="fak">ELE</uzo>
+    <dif>
+      Fenomeno, per kiu kurento a&ubreve; movi&gcirc;anta magneto produktas
+      kurenton en apuda kondukilo.
+    </dif>
+  </snc>
+  <snc mrk="indukt.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <dif>
+      Maniero <ref cel="pruv.0i.MAT">pruvi</ref>, ke
+      <ref cel="propoz.0o.teoremo">propozicio</ref> veras por &ccirc;iu
+      natura entjero n, montrante ke &gcirc;i veras por n=0, kaj ke
+      se &gcirc;i veras por iu n, &gcirc;i veras anka&ubreve; por n+1:
+      <ekz>
+        <ind>aksiomo de (matematika) <tld/>o</ind>
+        <fnt><bib>MatVort</bib></fnt>;
+        <trd lng="de">Induktionsaxiom</trd>
+        <trd lng="en">axiom of complete induction</trd>
+        <trd lng="fr">axiome d'induction</trd>
+        <trd lng="ru">&c_a;&c_k;&c_s;&c_i;&c_o;&c_m; &c_m;&c_a;&c_t;&c_je;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_j; &c_i;&c_n;&c_d;&c_u;&c_k;&c_c;&c_i;&c_i;</trd>
+      </ekz>
+      <ekz>
+        pruvu per <tld/>o, ke la &gcirc;enerala termo u<sub>n</sub> de geometria
+        <ref cel="progre1.0o">progresio</ref> egalas al
+        u<sub>0</sub>q<sup>n</sup>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>induction<klr tip="ind"> (raisonnement, &eacute;lec., math.)</klr></trd>,
+    <trd>r&eacute;currence<klr tip="ind"> (math.)</klr></trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="indukt.0a">
   <kap><tld/>a</kap>
   <dif>
@@ -49,7 +93,7 @@
   </dif>
   <snc>
     <ekz>
-      <tld/>a rezonado, metodo.
+      <tld/>a rezonado, metodo;
     </ekz>
     <trd lng="de">induktiv</trd>
   </snc>
@@ -58,6 +102,11 @@
       <tld/>a bobeno, fluo.
     </ekz>
   </snc>
+  <trdgrp lng="fr">
+    <trd>inductif</trd>,
+    <trd>r&eacute;current<klr tip="ind"> (math.)</klr></trd>,
+    <trd>d'<ind>induction</ind></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>inductief</trd>,
     <trd>inductie-</trd>
@@ -67,21 +116,23 @@
 </art>
 <!--
 $Log$
-Revision 1.8  2001/06/07 18:13:04  revo
+Revision 1.9 2001/11/11 19:19:49 revo
+Paul Peeraerts: ald trd nl
+
+Revision 1.8 2001/06/07 18:13:04 revo
 Yury Finkel: korekto de rusa trd
 
-Revision 1.7  2001/06/06 18:11:37  revo
+Revision 1.7 2001/06/06 18:11:37 revo
 Yury Finkel: +trd ru
 
-Revision 1.6  2001/02/12 08:18:25  revo
+Revision 1.6 2001/02/12 08:18:25 revo
 oficialeco per programo de Lugrin
 
-Revision 1.5  2001/01/30 17:11:02  revo
+Revision 1.5 2001/01/30 17:11:02 revo
 Wolfram Diestel: plia germ trd
 
-Revision 1.4  2001/01/18 17:11:21  revo
+Revision 1.4 2001/01/18 17:11:21 revo
 Dennis Wibrow: +trd germ
 
 -->
 </vortaro>
-
