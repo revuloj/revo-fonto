@@ -3,21 +3,13 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap><rad>integral</rad>/o <fnt>Z</fnt></kap>
+<kap>
+  <rad>integral</rad>/o <fnt>Z</fnt>
+</kap>
 <drv mrk="integr2.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
-  <snc mrk="integr2.0o.malderivajxo">
-    <dif>
-      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
-      Ajna <ref tip="dif" cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de
-      &gcirc;i; simb. &#x222b;f(x)dx:
-      <ekz>
-        du <tld/>oj de unu sama funkcio diferencas per konstanto.
-      </ekz>
-    </dif>
-  </snc>
   <snc mrk="integr2.0o.sumo">
     <uzo tip="klr">(naiva prezento)</uzo>
     <dif>
@@ -50,9 +42,20 @@
       </refgrp>
     </rim>
   </snc>
+  <snc mrk="integr2.0o.malderivajxo">
+    <dif>
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
+      Ajna <ref tip="dif" cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de
+      &gcirc;i; simb. &#x222b;f(x)dx:
+      <ekz>
+        du <tld/>oj de unu sama funkcio diferencas per konstanto.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="de">Integral</trd>
   <trd lng="en">integral</trd>
   <trd lng="fr">int&eacute;grale<klr tip="ind"> (math.)</klr></trd>
+  <trd lng="pl">ca&lstroke;ka</trd>
   <trd lng="nl">integraal</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</trd>
 </drv>
@@ -65,14 +68,7 @@
   <uzo tip="klr">(fakula &jcirc;argono)</uzo>
   <snc>
     <dif>
-      Kalkuli <tld/>on:
-      <ekz>
-        <ind><tld/>i la&ubreve;faktore, poparte</ind> <klr>(uzante la econ, ke
-        malderiva&jcirc;o de fg&#x2032; estas fg-gf&#x2032;)</klr>.
-        <trd lng="en">integrate by parts</trd>
-        <trd lng="fr">int&eacute;grer par parties</trd>
-        <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol; &c_p;&c_o; &c_ch;&c_a;&c_s;&c_t;&c_ja;&c_m;</trd>
-      </ekz>
+      Kalkuli <ref cel="integr2.0o"><tld/>on</ref>.
     </dif>
     <rim>
       Plimulto de matematikistoj, same kiel <fnt><bib>PIV1</bib></fnt>,
@@ -87,7 +83,7 @@
     <adm>
       (1) La alvoko al "diferenciali" por pravigi "integrali" ne estis
       tre konvinka. Per samspeca argumento eblus diri, ke "integri"
-      estas pli bona, cxar paralela al "derivi". 
+      estas pli bona, cxar paralela al "derivi".
       (2) Bricard uzas "integri" kaj "integralo" (p. 22,23) en la
       kampo de diferencialaj ekvacioj por signifi: "trovi solvon" kaj
       "solvo". Cxu indas enkonduki tiajn sencojn en REVO?
@@ -98,6 +94,7 @@
   <trd lng="en">integrate</trd>
   <trd lng="fr">int&eacute;grer<klr tip="ind"> (math.)</klr></trd>
   <trd lng="nl">integreren</trd>
+  <trd lng="pl">ca&lstroke;kowa&cacute;</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
@@ -107,7 +104,8 @@
   <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
   <snc>
     <dif>
-      Rilata al <tld/>oj kaj <tld/>ado.
+      Rilata al <ref cel="integr2.0o"><tld/>oj</ref> kaj 
+      <ref cel="integr2.0ado"><tld/>ado</ref>.
     </dif>
     <refgrp tip="vid">
       <ref cel="ekvaci.integrala0o"><tld/>a ekvacio</ref>,
@@ -118,24 +116,36 @@
   <trd lng="en">integral</trd>
   <trd lng="fr">int&eacute;gral<klr tip="ind"> (math.)</klr></trd>
   <trd lng="nl">integraal-</trd>
+  <trd lng="pl">ca&lstroke;kowy</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="integr2.0ado">
   <kap><tld/>ado</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc mrk="integr2.0o.ago">
+  <snc mrk="integr2.0ado.ago">
+    <fnt><bib>MatStokTerm</bib><lok>p. 22</lok></fnt>
     <dif>
-      Ago, maniero <tld/>i.
+      Ago, maniero <ref cel="integr2.0i"><tld/>i</ref>:
+      <ekz>
+        <ind>la&ubreve;faktora <tld/>ado, poparta <tld/>ado</ind> <klr>(uzante la econ, ke
+        malderiva&jcirc;o de fg&#x2032; estas fg-gf&#x2032;)</klr>.
+        <trd lng="de">Integration nach Teilen</trd>
+        <trd lng="en">integration by parts</trd>
+        <trd lng="fr">int&eacute;gration par parties</trd>
+        <trd lng="pl">ca&lstroke;kowanie przez cz&eogonek;&sacute;ci</trd>
+        <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je; &c_p;&c_o; &c_ch;&c_a;&c_s;&c_t;&c_ja;&c_m;</trd>
+      </ekz>
     </dif>
   </snc>
-  <snc mrk="integr2.0o.teorio">
+  <snc mrk="integr2.0ado.teorio">
     <ref tip="dif" cel="kalkul.integrala0o"><tld/>a kalkulo.</ref>
   </snc>
   <trd lng="de">Integration</trd>
   <trd lng="en">integration</trd>
   <trd lng="fr">int&eacute;gration</trd>
   <trd lng="nl">integratie</trd>
+  <trd lng="pl">ca&lstroke;kowanie</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
 </drv>
 
@@ -145,13 +155,15 @@
   <fnt><bib>MatStokTerm</bib><lok>p. 22</lok></fnt>
   <snc>
     <dif>
-      La funkcio, kiu aperas <ctl>sub</ctl> la <tld/>signo.
+      La funkcio, kiu aperas <ctl>sub</ctl> la 
+      <ref cel="integr2.0signo"><tld/>signo</ref>.
     </dif>
   </snc>
   <trd lng="de">Integrand</trd>
   <trd lng="en">integrand</trd>
   <trd lng="fr">int&eacute;grande</trd>
   <trd lng="nl">integrand</trd>
+  <trd lng="pl">funkcja podca&lstroke;kowa</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_y;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 
@@ -161,7 +173,7 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
-      Posedanta <tld/>on:
+      Posedanta <ref cel="integr2.0o"><tld/>on</ref>:
       <ekz>
         <ref cel="ekspon1.0o">eksponencialo</ref> estas <tld/>ebla en
         &ccirc;iu finia intervalo, sed ne estas en intervaloj de la tipo
@@ -177,6 +189,7 @@
   <trd lng="en">integrable</trd>
   <trd lng="fr">int&eacute;grable</trd>
   <trd lng="nl">integreerbaar</trd>
+  <trd lng="pl">ca&lstroke;kowalny</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
 </drv>
 
@@ -186,7 +199,8 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      Signo &#x222b;, aperanta en skriba&jcirc;oj pri <tld/>oj:
+      Signo &#x222b;, aperanta en skriba&jcirc;oj pri 
+      <ref cel="integr2.0o"><tld/>oj</ref>:
       <ekz>
         derivi sub la <tld/>signo.
       </ekz>
@@ -199,6 +213,7 @@
     <trd>signe somme<klr tip="ind"> (signe d'int&eacute;gration)</klr></trd>
   </trdgrp>
   <trd lng="nl">integraalteken</trd>
+  <trd lng="pl">znak ca&lstroke;ki</trd>
   <trd lng="ru">&c_z;&c_n;&c_a;&c_k; &c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
 </drv>
 
@@ -213,13 +228,14 @@
   <trd lng="de">bestimmtes <ind>Integral</ind></trd>
   <trd lng="en">definite <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale d&eacute;finie</trd>
+  <trd lng="pl">ca&lstroke;ka oznaczona</trd>
   <trd lng="ru">&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
 </drv>
 
 <drv mrk="integr2.lebega0o">
   <kap>lebega <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc mrk="integr2.lebega0o.de_simpla_funckio">
+  <snc mrk="integr2.lebega0o.de_simpla_funkcio">
     <dif>
       <klr>(de <ref cel="funkci.simpla0o">simpla funkcio</ref>
       f=&#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub>
@@ -238,7 +254,7 @@
       </ekz>
     </dif>
   </snc>
-  <snc mrk="integr2.lebega0o.de_funckio">
+  <snc mrk="integr2.lebega0o.de_funkcio">
     <dif>
       <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
       La komuna valoro, se &gcirc;i ekzistas, de la
@@ -267,6 +283,7 @@
   <trd lng="en">Lebesgue['s] <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale de Lebesgue</trd>
   <trd lng="nl">Lebesgue-<ind>integraal</ind></trd>
+  <trd lng="pl">ca&lstroke;ka Lebesgue'a</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_L;&c_je;&c_b;&c_je;&c_g;&c_a;</trd>
 </drv>
 
@@ -278,16 +295,34 @@
     <ref tip="dif" cel="integr2.0o.malderivajxo"><tld/>o
     <sncref ref="integr2.0o.malderivajxo"/>.</ref>
   </snc>
-  <trd lng="de">unbestimmtes <ind>Integral</ind></trd>
-  <trd lng="en">indefinite <ind>integral</ind></trd>
-  <trd lng="fr">int&eacute;grale ind&eacute;finie</trd>
-  <trd lng="ru">&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
+  <trdgrp lng="de">
+    <trd>Stammfunktion</trd>,
+    <trd>unbestimmtes <ind>Integral</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>antiderivative</trd>,
+    <trd>primitive</trd>,
+    <trd>indefinite <ind>integral</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>primitive<klr tip="ind"> (subst., math.)</klr></trd>,
+    <trd>int&eacute;grale ind&eacute;finie</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ca&lstroke;ka nieoznaczona</trd>,
+    <trd>funkcja pierwotna</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_je;&c_r;&c_v;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
+    <trd>&c_p;&c_r;&c_i;&c_m;&c_i;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
+    <trd>&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="integr2.rimana0o">
   <kap>rimana <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc mrk="integr2.rimana0o.de_sxtupara_funckio">
+  <snc mrk="integr2.rimana0o.de_sxtupara_funkcio">
     <dif>
       <klr>(de reela <ref cel="funkci.sxtupara0o">&scirc;tupara funkcio</ref>
       f=&#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub> en intervalo [a,b])</klr>
@@ -296,7 +331,7 @@
       simb. &#x222b;<sub>a</sub><sup>b</sup>f(x)dx.
     </dif>
   </snc>
-  <snc mrk="integr2.rimana0o.de_funckio">
+  <snc mrk="integr2.rimana0o.de_funkcio">
     <dif>
       <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f en intervalo
       [a,b])</klr>
@@ -318,14 +353,17 @@
   <trd lng="en">Riemann['s] <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale de Riemann</trd>
   <trd lng="nl">Riemann-<ind>integraal</ind></trd>
+  <trd lng="pl">ca&lstroke;ka Riemanna</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_R;&c_i;&c_m;&c_a;&c_n;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.13  2002/02/24 17:31:22  revo
+Revision 1.14 2002/05/02 16:37:02 revo
+Marc Bavant: ~i: +fnt, mod rim, mod adm; ~ato: +fnt
+Revision 1.13 2002/02/24 17:31:22 revo
 Marc Bavant: +drv ~signo; snc MAT: mod fnt; ~o 2: +adm; ~i: +adm
-Revision 1.12  2001/12/17 17:32:50  revo
+Revision 1.12 2001/12/17 17:32:50 revo
 Marc Bavant: +fnt, -komento
 Revision 1.11 2001/11/11 19:20:34 revo
 Paul Peeraerts: ald trd nl
@@ -340,7 +378,5 @@ Marc Bavant: mod ref cel al derivajxo, +trd fr
 Revision 1.6 2001/02/01 17:12:40 revo
 Dennis Wibrow: +trd germ
 Revision 1.5 2000/09/13 16:11:26 revo
-Sergio Pokrovskij: tajperaroj
-Revision 1.4 2000/09/12 16:11:55 revo
 -->
 </vortaro>
