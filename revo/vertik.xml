@@ -4,11 +4,13 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>*</ofc>
-<rad>vertikal</rad>/a
+  <ofc>*</ofc>
+  <rad>vertikal</rad>/a
 </kap>
 <drv mrk="vertik.0a">
-  <kap><ofc>*</ofc><tld/>a</kap>
+  <kap>
+    <ofc>*</ofc><tld/>a
+  </kap>
   <snc mrk="vertik.0a.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <uzo tip="fak">TEK</uzo>
@@ -42,8 +44,8 @@
       </ekz>
     </dif>
     <adm>
-    "La ebeno de la horizonto" en PV-a kaj PIV1-a difinoj ne estis 
-    tre klara nocio (precipe en urbo aux en montara valo). 
+    "La ebeno de la horizonto" en PV-a kaj PIV1-a difinoj ne estis
+    tre klara nocio (precipe en urbo aux en montara valo).
     <aut>MB</aut>
     </adm>
   </snc>
@@ -69,8 +71,11 @@
   <trd lng="nl">verticaal</trd>
   <trd lng="ru">&c_v;&c_je;&c_r;&c_t;&c_i;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
+
 <drv mrk="vertik.0o">
-  <kap><tld/>o</kap>
+  <kap>
+    <tld/>o
+  </kap>
   <snc mrk="vertik.0o.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
@@ -82,6 +87,7 @@
         ke &ccirc;iuj &gcirc;iaj <tld/>oj estas paralelaj.
       </ekz>
     </dif>
+    <trd lng="fr">verticale<klr tip="ind"> (d'un lieu)</klr></trd>
     <trd lng="ru">&c_v;&c_je;&c_r;&c_t;&c_i;&c_k;&c_a;&c_l;&c_mol;</trd>
   </snc>
   <snc mrk="vertik.0o.kolumno">
@@ -95,18 +101,63 @@
         movi la turon sur la re&gcirc;an <tld/>on.
       </ekz>
     </dif>
+    <trdgrp lng="fr">
+      <trd>rang&eacute;e verticale<klr tip="ind"> (dans un tableau)</klr></trd>
+      <trd>colonne<klr tip="ind"> (dans un tableau)</klr></trd></trdgrp> 
     <trd lng="ru">&c_v;&c_je;&c_r;&c_t;&c_i;&c_k;&c_a;&c_l;&c_mol;</trd>
   </snc>
   <snc mrk="vertik.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(elementa geometrio)</uzo>
-    <dif>
-      <ref tip="super" cel="rekt.0o.MAT">Rekto</ref> kun konvencie elektita
-      direkto <klr>(ofte tiu de la "lasta" kartezia akso)</klr>:
-      <ekz>
-        la ekvacio de la <tld/>o trairanta punkton (5,7) estas x=5.
-      </ekz>
-    </dif>
+    <subsnc mrk="vertik.0o.rekto">
+      <uzo tip="klr">(elementa geometrio)</uzo>
+      <dif>
+        <ref tip="super" cel="rekt.0o.MAT">Rekto</ref> kun konvencie elektita
+        direkto <klr>(ofte tiu de la "lasta" kartezia akso)</klr>:
+        <ekz>
+          la ekvacio de la <tld/>o trairanta punkton (5,7) estas x=5.
+        </ekz>
+      </dif>
+      <trd lng="fr">horizontale<klr tip="ind"> (math., droite)</klr></trd>
+    </subsnc>
+    <subsnc mrk="vertik.0o.matrico">
+      <dif>
+        &Ccirc;iu <ref tip="super" cel="matric.n_p0o">(n,1)-matrico</ref>:
+        <ekz>
+          <tld/>o kun n horizontaloj ekvivalentas al n-opo.
+        </ekz>
+      </dif>
+      <adm>
+      Mi ne trovis fonton por tiu termino. Se sekvi la naciajn
+      lingvojn, pli natura estus "kolumno-matrico", sed aperas
+      problemo por la duala "horizontalo". <aut>MB</aut>
+      </adm>
+      <trd lng="de">Spaltenmatrix</trd>
+      <trd lng="en">column <ind>matrix</ind></trd>
+      <trd lng="fr">matrice-colonne</trd>
+      <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;-&c_s;&c_t;&c_o;&c_l;&c_b;&c_je;&c_c;</trd>
+    </subsnc>
+    <subsnc mrk="vertik.0o.de_matrico">
+      <dif>
+        <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
+        &Ccirc;iu el &gcirc;iaj p (n,1)-submatricoj.
+      </dif>
+      <trdgrp lng="de">
+        <trd>Spalte<klr tip="ind"> (einer Matrix)</klr></trd>,
+        <trd>Vertikalreihe<klr tip="ind"> (einer Matrix)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>column<klr tip="ind"> (of a matrix)</klr></trd>,
+        <trd><klr tip="amb">(vertical) </klr>row<klr tip="ind"> (of a matrix)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>colonne<klr tip="ind"> (d'une matrice)</klr></trd>,
+        <trd>rang&eacute;e verticale<klr tip="ind"> (d'une matrice)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_s;&c_t;&c_o;&c_l;&c_b;&c_je;&c_c;<klr tip="ind"> (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>,
+        <trd>&c_v;&c_je;&c_r;&c_t;&c_i;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_r;&c_ja;&c_d;</ind><klr tip="ind"> (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>
+      </trdgrp>
+    </subsnc>
   </snc>
   <snc mrk="vertik.0o.0ilo">
     <uzo tip="stl">ARK</uzo>
@@ -124,15 +175,18 @@
     </rim>
   </snc>
 </drv>
+
 <drv mrk="vertik.0ilo">
-  <kap><tld/>ilo</kap>
+  <kap>
+    <tld/>ilo
+  </kap>
   <uzo tip="fak">TEK</uzo>
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
       &Scirc;nuro, &ccirc;e kies ekstremo pendas peza objekto,
-      uzata por tiri <ref cel="vertik.0o.FIZ"><tld/>ojn</ref> kaj 
-      kontroli <tld/>econ. 
+      uzata por tiri <ref cel="vertik.0o.FIZ"><tld/>ojn</ref> kaj
+      kontroli <tld/>econ.
     </dif>
     <refgrp tip="sin">
       <ref cel="vertik.0o.0ilo"><tld/>o <sncref ref="vertik.0o.0ilo"/></ref>,
@@ -140,9 +194,9 @@
     </refgrp>
   </snc>
   <adm>
-  Ne ekzistas senca diferenco inter ~ilo k plumbofadeno. Cxi-lasta
+  Ne ekzistas senca diferenco inter ~ilo kaj plumbofadeno. Cxi-lasta
   aspektas pauxsajxo de la franca kaj eble tial PIV1 enkondukis
-  ~ilo, kiu pli proksimigxas al la Biblia uzo. 
+  ~ilo, kiu pli proksimigxas al la Biblia uzo.
   PV donis "rektosxnuro" kiel kvazauxsinonimon, kio estas malgxusta.
   Indas rimarki, ke malgraux la simetrio, neniu proponas "horizontalilo"
   anstataux "nivelilo"...
@@ -152,10 +206,12 @@
   <trd lng="nl">schietlood</trd>
   <trd lng="ru">&c_o;&c_t;&c_v;&c_je;&c_s;</trd>
 </drv>
-
 </art>
 <!--
 $Log$
+Revision 1.9  2001/07/22 18:16:50  revo
+Marc Bavant: +trd fr; ~a: mod dif, +ekz, +ekz kun ~eco kaj ~igi, +ref al horizontala, oblikva; ~o: +snc MAT; ~o FIZ: mod dif, +ekz; ~o=~ilo: +ARK, mod ekz; +drv ~ilo kun ref al plumbofadeno; +uzo SPO/KOMP/FIZ/TIP
+
 Revision 1.8  2001/06/04 18:42:59  revo
 Paul Peeraerts: kor en nl
 
