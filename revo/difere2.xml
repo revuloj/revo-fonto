@@ -2,150 +2,153 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>diferencial</rad>/o
-    </kap>
-    <drv mrk="difere2.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc mrk="difere2.0o.cxepunkto">
-        <dif>
-          <klr>(de <ref cel="bild.0igo">bildigo</ref> f inter du
-          <ref cel="spac.normohava0o">normohavaj spacoj</ref>, &ccirc;e 
-          punkto a de la fonto-aro)</klr>
-          Tia <ref cel="kontin3.0a.cxie">kontinua</ref>
-          <ref tip="super" cel="homomo.0o">homomorfio</ref> u, ke 
-          f(a+h)-f(a)=u(h)+||h||.&epsilon;(h), kie la bildigo &epsilon; 
-          <ref cel="streb.0i.MAT">strebas</ref> al nulo, kiam h strebas al nulo:
-          <ekz>
-            la <tld/>on de f &ccirc;e a oni plejofte signas per df(a),
-            df<sub>a</sub>, a&ubreve; f&#x2032;(a);
-          </ekz>
-          <ekz>
-            la <tld/>o &ccirc;e punkto a de reela 
-            <ref cel="deriv.0i.MAT">derivebla</ref>
-            <ref cel="funkci.0o.mat">funkcio</ref> y=f(x)
-            estas la lineara funkcio, kiu
-            &jcirc;etas ajnan nombron dx <klr>(nomatan <tld/>o de la
-            argumento)</klr> al dy = f&#x2032;(a).dx.
-          </ekz>
-        </dif>
-      </snc>
-      
-      <snc mrk="difere2.0o.bildigo">
-        <dif>
-          <klr>(de <ref tip="super" cel="bild.0igo">bildigo</ref> f inter du
-          <ref cel="spac.normohava0o">normohavaj spacoj</ref>)</klr>
-          La bildigo, kiu &jcirc;etas &ccirc;iun punkton de la fonto-aro
-          de f al la <ref cel="difere2.0o.cxepunkto"><tld/>o
-          <sncref ref="difere2.0o.cxepunkto"/></ref> de f &ccirc;e tiu
-          punkto:
-          <ekz>
-            dua <tld/>o <klr>(<tld/>o de la <tld/>o)</klr>,
-            tria <tld/>o <klr>(<tld/>o de la dua)</klr>,
-            ... N-a <tld/>o.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="form.diferenciala0o"><tld/>a formo</ref>.
-        </refgrp>
-      </snc>
-      
-      <!-- snc>
-        <dif>
-          Por <ref tip="prt" cel="deriv.0i.mat">derivebla</ref>
-          <ref cel="funkci.0o.mat">funkcio</ref> <frm>y=f(x)</frm>,
-          la <tld/>o de la argumento &ccirc;e punkto <frm>x<sub>0</sub></frm> estas
-          la diferenco <frm>dx = x<sub>0</sub>-x</frm>;
-          la <tld/>o de la funkcio mem estas lineara funkcio
-          <frm>dy = f&#x2032;(x<sub>0</sub>)&#xd7;dx</frm>
-          <klr>(la <ref tip="prt" cel="deriv.0ajxo.mat">deriva&jcirc;o</ref>
-            multiplikita per la <tld/>o de la argumento)</klr>.
-        </dif>
-        <rim>
-          La nocio estas &gcirc;eneraligebla por plurargumentaj funkcioj en
-          vektoraj spacoj; <ekz>oni povas uzi <tld/>alajn formojn</ekz>.
-        </rim>
-        <ref tip="ant" cel="integr2.0o">integralo</ref>
-      </snc -->
-      
-      <trd lng="en">differential</trd>
-      <trd lng="fr">diff&eacute;rentielle<klr tip="ind"> (math.)</klr></trd>
-      <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</trd>
-    </drv>
-    
-    <drv mrk="difere2.0i">
-      <kap><tld/>i</kap>
-      <uzo tip="fak">MAT</uzo>
-      <uzo tip="klr">(fakula &jcirc;argono)</uzo>
-      <snc>
-        <dif>
-           Trovi <tld/>on de funkcio:
-           <ekz>
-             <ind><tld/>ado</ind>.
-             <trd lng="fr">diff&eacute;rentiation<klr tip="ind"> (math.)</klr></trd>
-             <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
-           </ekz>
-        </dif>
-        <ref tip="vid" cel="deriv.0i.MAT">derivi,</ref>
-        <ref tip="ant" cel="integr2.0i">integrali.</ref>
-      </snc>
-      <trd lng="en">differentiate</trd>
-      <trd lng="fr">diff&eacute;rentier</trd>
-      <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="difere2.0ebla">
-      <kap><tld/>ebla</kap>
-      <snc>
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          <klr>(p.p. <ref cel="bild.0igo">bildigo</ref> f inter du
-          <ref cel="spac.normohava0o">normohavaj spacoj</ref>, &ccirc;e 
-          punkto a de la fonto-aro)</klr>
-          Tia, ke ekzistas &gcirc;ia <ref cel="difere2.0o.cxepunkto"><tld/>o
-          <sncref ref="difere2.0o.cxepunkto"/></ref> &ccirc;e a:
-          <ekz>
-            la funkcio sinuso estas <tld/>ebla <klr>(&ccirc;e &ccirc;iu
-            punkto de &gcirc;ia fonto-aro)</klr>;
-          </ekz>
-          <ekz>
-            <tld/>ebla kompleksa funkcio ne nepre estas derivebla.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="en">differentiable</trd>
-      <trd lng="fr">diff&eacute;rentiable</trd>
-      <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
-    </drv>
-    
-    <drv mrk="difere2.0a.ekvacio">
-      <kap><tld/>a ekvacio</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          <ref tip="super" cel="ekvaci.0o">Ekvacio</ref> entenanta
-          <ref tip="prt" cel="deriv.0ajxo.MAT">deriva&jcirc;ojn</ref> a&ubreve;
-          <tld/>ojn:
-          <ekz>
-            ordinara <tld/>a ekvacio de unua ordo havas la formon
-            <frm>F(x,y,y&#x2032;)=0</frm>;
-          </ekz><ekz>
-            <frm>
-              &#x2202;&#xb2;u/&#x2202;x&#xb2;&#xa0;+&#xa0;&#x2202;&#xb2;u/&#x2202;y&#xb2;&#xa0;=&#xa0;0
-            </frm>
-            estas elipsa <tld/>a ekvacio en partaj deriva&jcirc;oj.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="en">differential <ind>equation</ind></trd>
-      <trd lng="fr">&eacute;quation diff&eacute;rentielle</trd>
-      <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
-    </drv>
-  </art>
+<art mrk="$Id$">
+<kap>
+<rad>diferencial</rad>/o
+</kap>
+<drv mrk="difere2.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="difere2.0o.cxepunkto">
+    <dif>
+      <klr>(de <ref cel="bild.0igo">bildigo</ref> f inter du
+      <ref cel="spac.normohava0o">normohavaj spacoj</ref>, &ccirc;e
+      punkto a de la fonto-aro)</klr>
+      Tia <ref cel="kontin3.0a.cxie">kontinua</ref>
+      <ref tip="super" cel="homomo.0o">homomorfio</ref> u, ke
+      f(a+h)-f(a)=u(h)+||h||.&epsilon;(h), kie la bildigo &epsilon;
+      <ref cel="streb.0i.MAT">strebas</ref> al nulo, kiam h strebas al nulo:
+      <ekz>
+        la <tld/>on de f &ccirc;e a oni plejofte signas per df(a),
+        df<sub>a</sub>, a&ubreve; f&#x2032;(a);
+      </ekz>
+      <ekz>
+        la <tld/>o &ccirc;e punkto a de reela
+        <ref cel="deriv.0i.MAT">derivebla</ref>
+        <ref cel="funkci.0o.MAT">funkcio</ref> y=f(x)
+        estas la lineara funkcio, kiu
+        &jcirc;etas ajnan nombron dx <klr>(nomatan <tld/>o de la
+        argumento)</klr> al dy = f&#x2032;(a).dx.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="difere2.0o.bildigo">
+    <dif>
+      <klr>(de <ref tip="super" cel="bild.0igo">bildigo</ref> f inter du
+      <ref cel="spac.normohava0o">normohavaj spacoj</ref>)</klr>
+      La bildigo, kiu &jcirc;etas &ccirc;iun punkton de la fonto-aro
+      de f al la <ref cel="difere2.0o.cxepunkto"><tld/>o
+      <sncref ref="difere2.0o.cxepunkto"/></ref> de f &ccirc;e tiu
+      punkto:
+      <ekz>
+        dua <tld/>o <klr>(<tld/>o de la <tld/>o)</klr>,
+        tria <tld/>o <klr>(<tld/>o de la dua)</klr>,
+        ... N-a <tld/>o.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="form.diferenciala0o"><tld/>a formo</ref>.
+    </refgrp>
+  </snc>
+  <!-- snc>
+  <dif>
+    Por <ref tip="prt" cel="deriv.0i.mat">derivebla</ref>
+    <ref cel="funkci.0o.MAT">funkcio</ref> <frm>y=f(x)</frm>,
+    la <tld/>o de la argumento &ccirc;e punkto <frm>x<sub>0</sub></frm> estas
+    la diferenco <frm>dx = x<sub>0</sub>-x</frm>;
+    la <tld/>o de la funkcio mem estas lineara funkcio
+    <frm>dy = f&#x2032;(x<sub>0</sub>)&#xd7;dx</frm>
+    <klr>(la <ref tip="prt" cel="deriv.0ajxo.mat">deriva&jcirc;o</ref>
+    multiplikita per la <tld/>o de la argumento)</klr>.
+  </dif>
+  <rim>
+    La nocio estas &gcirc;eneraligebla por plurargumentaj funkcioj en
+    vektoraj spacoj;
+    <ekz>
+      oni povas uzi <tld/>alajn formojn
+    </ekz>
+    .
+  </rim>
+  <ref tip="ant" cel="integr2.0o">integralo</ref>
+  </snc -->
+  
+  <trd lng="en">differential</trd>
+  <trd lng="fr">diff&eacute;rentielle<klr tip="ind"> (math.)</klr></trd>
+  <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</trd>
+</drv>
+<drv mrk="difere2.0i">
+  <kap><tld/>i</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+  <snc>
+    <dif>
+      Trovi <tld/>on de funkcio:
+      <ekz>
+        <ind><tld/>ado</ind>.
+        <trd lng="fr">diff&eacute;rentiation<klr tip="ind"> (math.)</klr></trd>
+        <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="deriv.0i.MAT">derivi,</ref>
+    <ref tip="ant" cel="integr2.0i">integrali.</ref>
+  </snc>
+  <trd lng="en">differentiate</trd>
+  <trd lng="fr">diff&eacute;rentier</trd>
+  <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+</drv>
+<drv mrk="difere2.0ebla">
+  <kap><tld/>ebla</kap>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(p.p. <ref cel="bild.0igo">bildigo</ref> f inter du
+      <ref cel="spac.normohava0o">normohavaj spacoj</ref>, &ccirc;e
+      punkto a de la fonto-aro)</klr>
+      Tia, ke ekzistas &gcirc;ia <ref cel="difere2.0o.cxepunkto"><tld/>o
+      <sncref ref="difere2.0o.cxepunkto"/></ref> &ccirc;e a:
+      <ekz>
+        la funkcio sinuso estas <tld/>ebla <klr>(&ccirc;e &ccirc;iu
+        punkto de &gcirc;ia fonto-aro)</klr>;
+      </ekz>
+      <ekz>
+        <tld/>ebla kompleksa funkcio ne nepre estas derivebla.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">differentiable</trd>
+  <trd lng="fr">diff&eacute;rentiable</trd>
+  <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
+</drv>
+<drv mrk="difere2.0a.ekvacio">
+  <kap><tld/>a ekvacio</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="ekvaci.0o">Ekvacio</ref> entenanta
+      <ref tip="prt" cel="deriv.0ajxo.MAT">deriva&jcirc;ojn</ref> a&ubreve;
+      <tld/>ojn:
+      <ekz>
+        ordinara <tld/>a ekvacio de unua ordo havas la formon
+        <frm>F(x,y,y&#x2032;)=0</frm>;
+      </ekz>
+      <ekz>
+        <frm>
+        &#x2202;&#xb2;u/&#x2202;x&#xb2;&#xa0;+&#xa0;&#x2202;&#xb2;u/&#x2202;y&#xb2;&#xa0;=&#xa0;0
+        </frm>
+        estas elipsa <tld/>a ekvacio en partaj deriva&jcirc;oj.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">differential <ind>equation</ind></trd>
+  <trd lng="fr">&eacute;quation diff&eacute;rentielle</trd>
+  <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.7  2001/03/11 18:56:41  revo
+Marc Bavant: reverko de la artikolo, la anta&ubreve;a redakto de ~o fari&gcirc;is ekzemplo; +ref al ~a formo; +drv ~ebla; mod trd ru, uzante cirilajn entojn
+
 Revision 1.6  2000/09/15 16:11:16  revo
 Sergio Pokrovskij: tajperaro
 
