@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>funkci</rad>/i
+  <ofc>1</ofc>
+  <rad>funkci</rad>/i
 </kap>
 <drv mrk="funkci.0i">
   <kap><tld/>i</kap>
@@ -108,15 +108,15 @@
       <uzo tip="klr">(elementa matematiko)</uzo>
       <dif>
         &Gcirc;enerala regulo, difinanta por elemento de <ctl>fonta aro</ctl>
-        <frm><g>A</g></frm> elementon en <ctl>cela aro</ctl> 
-        <frm><g>B</g></frm>; simb. 
-        <frm><k>f</k>:<g>A</g>&#8594;<g>B</g></frm> <klr>(legu: fo 
+        <frm><g>A</g></frm> elementon en <ctl>cela aro</ctl>
+        <frm><g>B</g></frm>; simb.
+        <frm><k>f</k>:<g>A</g>&#8594;<g>B</g></frm> <klr>(legu: fo
         &jcirc;etas el <frm><g>A</g></frm> en <frm><g>B</g></frm>-on)</klr>,
-        a&ubreve; por individuaj elementoj 
-        <frm><k>b</k>=<k>f</k>(<k>a</k>)</frm> <klr>(legu: bo egalas 
+        a&ubreve; por individuaj elementoj
+        <frm><k>b</k>=<k>f</k>(<k>a</k>)</frm> <klr>(legu: bo egalas
         fo de a)</klr>:
         <ekz>
-          en la <tld/>a skriba&jcirc;o 
+          en la <tld/>a skriba&jcirc;o
           <frm><k>b</k> = <k>f</k>(<k>a</k>)</frm>
           la elementon <frm><k>a</k></frm> de la fonta aro oni nomas
           &leftquot;<ref tip="prt"
@@ -148,10 +148,10 @@
         nur) kiam la fonta kaj cela aroj konsistas el nombroj:
         <ekz>
           <tld/>o entjera, reela, kompleksa <klr>(kun entjeraj, reelaj,
-          kompleksaj rezultoj)</klr>;
+          kompleksaj valoroj)</klr>;
         </ekz>
         <ekz>
-          kompleksa <tld/>o kun reelaj 
+          kompleksa <tld/>o kun reelaj
           <ref cel="argume.0o.donitajxo">argumentoj</ref> <klr>(kies fonto-aro
           konsistas el la aro de reeloj)</klr>;
         </ekz>
@@ -201,7 +201,7 @@
       struktura fragmento (subprogramo) difinanta algoritmon por
       komputi valoron &dash; unu el pluraj manieroj difini la
       <ctl>regulon</ctl> por la matematika
-      <ref cel="funkci.0o.MAT">funkcio</ref>.
+      <ref cel="funkci.0o.MAT"><tld/>o</ref>.
     </dif>
     <rim>
       En iuj <ref tip="malprt" cel="lingv.0o.program">programlingvoj</ref>
@@ -274,7 +274,7 @@
   <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
   <snc>
     <dif>
-      Kompleksa <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>,
+      Kompleksa <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>,
       elvolvebla en <ref cel="seri.potenco0o">potencoserion</ref> en
       &ccirc;irka&ubreve;a&jcirc;o de &ccirc;iu punkto de &gcirc;ia fonto-aro.
     </dif>
@@ -297,12 +297,12 @@
   <snc>
     <ref tip="dif" cel="funkci.trigonometria0o">trigonometria <tld/>o.</ref>
     <rim>
-      Notu, ke iuj lingvoj uzas similan terminon (ekz-e 
+      Notu, ke iuj lingvoj uzas similan terminon (ekz-e
       <ekz>
         funkcja ko&lstroke;owa
       </ekz>
-      en la pola) por signifi 
-      <ref cel="funkci.ciklometria0o">ciklometrian funkcion</ref>.
+      en la pola) por signifi
+      <ref cel="funkci.ciklometria0o">ciklometrian <tld/>on</ref>.
     </rim>
   </snc>
 </drv>
@@ -317,21 +317,72 @@
   </snc>
 </drv>
 
+<drv mrk="funkci.distribua0o">
+  <kap>distribua <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib><lok>&leftquot;funkcio de distribuo&rightquot;</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="variab.hazarda0o">hazarda variablo</ref>
+      <frm>X</frm>)</klr>
+      Reela <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>,
+      kiu al reelo <frm><k>x</k></frm> asocias la probablon de la okazo
+      <frm>(X &lt; <k>x</k>)</frm>;
+      simb. <frm><k>F</k><sub>X</sub>(<k>x</k>) = P(X &lt; <k>x</k>)</frm>.
+    </dif>
+    <rim>
+      &Ccirc;i tiu <tld/>o estas nur unu el la manieroj karakterizi la
+      <ref cel="distri.probablo0o">probablodistribuon</ref> de
+      <frm>X</frm>, kaj la&ubreve; ni indas doni al amba&ubreve; nocioj
+      malsaman nomon, kiel faras la naciaj lingvoj. Tamen niaj fontoj
+      malakordas pri la donota nomo:
+      <fnt><bib>EKV</bib><lok>&para;408</lok></fnt> nomas la funkcion
+      simple <ctl>distribuo</ctl>, <fnt><bib>PIV2</bib></fnt> nomas
+      &gcirc;in <ctl>probablodistribuo</ctl> kaj por
+      <fnt><bib>MatStokTerm</bib><lok>p. 44</lok></fnt> &gcirc;i estu
+      <ctl>akumula probablodistribua funkcio</ctl>. Ni opiniis grave, ke la
+      termino enhavu la vorton <ctl><tld/>o</ctl> kaj do reprenis la
+      terminon de <fnt><bib>MatVort</bib></fnt> kun malgranda modifo.
+      Anka&ubreve; <ctl>probablodistribua <tld/>o</ctl> ta&ubreve;gus.
+    </rim>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>funkce rozlo&zcaron;en&iacute;</trd>,
+    <trd>distribu&ccaron;n&iacute; funkce</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Wahrscheinlichkeitsverteilungsfunktion</trd>,
+    <trd>Verteilungsfunktion</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>probability distribution function</trd>,
+    <trd>distribution function</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>fonction de r&eacute;partition</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>dystrybuanta<klr tip="ind"> (zmiennej losowej)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja; &c_r;&c_a;&c_s;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="funkci.elementa0o">
   <kap>elementa <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       &Ccirc;iu reela <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>
-      kun reela argumento, kiu funkcio estas prenita el la sekva vico:
+      kun reela argumento, prenita el la vico:
       <refgrp tip="sub">
         <ref cel="potenc.0o.per_entjero">potencoj</ref>,
         <ref cel="ekspon1.0o">eksponencialoj</ref>,
         <ref cel="funkci.trigonometria0o">trigonometriaj <tld/>oj</ref>,
       </refgrp>
-      a&ubreve; rezultas el apliko de aritmetikaj operacioj, multipliko
-      per konstanto, malvastigo, kunligo a&ubreve; inversigo al tiuj
-      funkcioj:
+      a&ubreve; rezultanta el apliko al tiuj <tld/>oj de aritmetikaj operacioj,
+      multipliko per konstanto, malvastigo, kunligo a&ubreve; inversigo:
       <ekz>
         polinomaj <tld/>oj, logaritmoj, hiperbolaj <tld/>oj estas
         elementaj <tld/>oj.
@@ -343,7 +394,9 @@
   <trd lng="fr">fonction &eacute;l&eacute;mentaire</trd>
   <trd lng="pl">funkcja elementarna</trd>
   <trd lng="ru">&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;&c_a;&c_r;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
-  <adm>Fonto trovenda.<aut>MB</aut></adm>
+  <adm>
+    Fonto trovenda.<aut>MB</aut>
+  </adm>
 </drv>
 
 <drv mrk="funkci.gxeneraligita0o">
@@ -386,10 +439,10 @@
   <snc>
     <dif>
       Reela <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>, kiuj
-      &jcirc;etas strikte negativan argumenton al <frm>0</frm> kaj 
+      &jcirc;etas strikte negativan argumenton al <frm>0</frm> kaj
       pozitivan al <frm>1</frm>:
       <ekz>
-        la hevisidan <tld/>on oni foje signas per <frm>H(<k>x</k>)</frm> 
+        la hevisidan <tld/>on oni foje signas per <frm>H(<k>x</k>)</frm>
         a&ubreve; <frm>Y(<k>x</k>)</frm> kaj
         foje nomas anka&ubreve; <ctl>unuo-&scirc;tupo</ctl>.
       </ekz>
@@ -467,7 +520,8 @@
   </trdgrp>
   <trdgrp lng="pl">
     <trd>funkcja hiperboliczna odwrotna</trd>,
-    <trd>funkcja polowa</trd></trdgrp> 
+    <trd>funkcja polowa</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja;
     &c_g;&c_i;&c_p;&c_je;&c_r;&c_b;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
@@ -495,9 +549,9 @@
       En <fnt><bib>MatVort</bib></fnt> trovi&gcirc;as la sinonimoj
       <ctl>arkusa <tld/>o</ctl> kaj <ctl>ciklometria <tld/>o</ctl>.
       Koncerne la unuan vd rimarkon sub <ref cel="ark.0o.angulo">arko</ref>.
-      La dua ricevis iom da a&ubreve;toritateco pro tio, ke 
-      <fnt><bib>PIV2</bib></fnt> enkondukis la radikon 
-      &leftquot;<ref cel="ciklom">ciklometri</ref>&rightquot;, sed 
+      La dua ricevis iom da a&ubreve;toritateco pro tio, ke
+      <fnt><bib>PIV2</bib></fnt> enkondukis la radikon
+      &leftquot;<ref cel="ciklom">ciklometri</ref>&rightquot;, sed
       tiu radiko restas tute senutila.
     </rim>
   </snc>
@@ -520,7 +574,8 @@
   <trdgrp lng="pl">
     <trd>funkcja trygonometryczna odwrotna</trd>,
     <trd>funkcja ko&lstroke;owa</trd>,
-    <trd>funkcja cyklometryczna</trd></trdgrp> 
+    <trd>funkcja cyklometryczna</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja;
     &c_t;&c_r;&c_i;&c_g;&c_o;&c_n;&c_o;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
@@ -540,8 +595,8 @@
     <dif>
       <klr>(de subaro <frm><g>A</g></frm> de aro <frm><g>E</g></frm>)</klr>
       <ref tip="super" cel="funkci.0o.MAT"><tld lit="F"/>o</ref> kun
-      fonto-aro <frm><g>E</g></frm>, kiu alprenas valoron <frm>1</frm> 
-      en &ccirc;iu punkto de <frm><g>A</g></frm> kaj <frm>0</frm> en 
+      fonto-aro <frm><g>E</g></frm>, kiu alprenas valoron <frm>1</frm>
+      en &ccirc;iu punkto de <frm><g>A</g></frm> kaj <frm>0</frm> en
       &ccirc;iu punkto de &gcirc;ia komplemento:
       <ekz>
         la karakterizan <tld/>on de <frm><g>A</g></frm> oni ofte signas per
@@ -569,26 +624,26 @@
       konsistas el <ref cel="op.n0o">n-opoj</ref>:
       <ekz>
         la bildo per <frm><k>n</k></frm>-argumenta <tld/>o <frm><k>f</k></frm>
-        de <frm><k>n</k></frm>-opo 
-        <frm>(<k>x</k><sub>1</sub>,<k>x</k><sub>2</sub>,... 
-        <k>x</k><sub><k>n</k></sub>)</frm> 
+        de <frm><k>n</k></frm>-opo
+        <frm>(<k>x</k><sub>1</sub>,<k>x</k><sub>2</sub>,...
+        <k>x</k><sub><k>n</k></sub>)</frm>
         oni kutime signas per
         <frm><k>f</k>(<k>x</k><sub>1</sub>,<k>x</k><sub>2</sub>,...
         <k>x</k><sub><k>n</k></sub>)</frm>;
       </ekz>
       <ekz>
-        la duargumenta <tld/>o 
-        <frm><k>f</k>(<k>x</k>,<k>y</k>) = 
-        arc tan(<k>y</k>/<k>x</k>)</frm> 
-        donas la <ref cel="argume.0o.komplekso">argumenton</ref> 
+        la duargumenta <tld/>o
+        <frm><k>f</k>(<k>x</k>,<k>y</k>) =
+        arc tan(<k>y</k>/<k>x</k>)</frm>
+        donas la <ref cel="argume.0o.komplekso">argumenton</ref>
         de komplekso <frm><k>x</k>+<k>i</k>.<k>y</k></frm>.
       </ekz>
     </dif>
     <rim>
       La diferenco inter unu- a&ubreve; plur-argumenta <tld/>o estas pure
       konvencia. Ekz-e, depende de la kunteksto, oni preferos konsideri
-      funkcion kun kompleksa argumento kiel unuargumentan, a&ubreve; kiel
-      duargumentan funkcion kun du reelaj argumentoj.
+      <tld/>on kun kompleksa argumento kiel unuargumentan, a&ubreve; kiel
+      duargumentan <tld/>on kun du reelaj argumentoj.
     </rim>
   </snc>
   <trd lng="de">Funktion n Ver&auml;nderlicher</trd>
@@ -617,24 +672,24 @@
         estas polinoma <tld/>o de du variabloj;
       </ekz>
       <ekz>
-        <frm>cos<sup>3</sup><k>x</k>+2.cos<sup>2</sup><k>x</k>+1</frm> 
+        <frm>cos<sup>3</sup><k>x</k>+2.cos<sup>2</sup><k>x</k>+1</frm>
         estas polinoma <tld/>o de <frm>cos<k>x</k></frm>.
       </ekz>
     </dif>
   </snc>
   <snc mrk="funkci.polinoma0o.neelementa">
     <dif>
-      <klr>(responda al <ref cel="polino.0o">polinomo</ref> 
+      <klr>(responda al <ref cel="polino.0o">polinomo</ref>
       <frm><g>P</g></frm> super
       <ref cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
-      <frm><g>R</g></frm> al <frm><g>R</g></frm>, ke la bildo per 
+      <frm><g>R</g></frm> al <frm><g>R</g></frm>, ke la bildo per
       &gcirc;i de elemento <frm><k>x</k></frm> egalas al
       <frm>&#8721; <g>P</g><sub><k>i</k></sub>.<k>x</k><sup><k>i</k></sup></frm>.
     </dif>
     <rim>
-      La &ccirc;i-supra sumo havas samtiom da 
-      <ref cel="term.0o.sumo">termoj <sncref/></ref>, kiom estas da nenulaj 
+      La &ccirc;i-supra sumo havas samtiom da
+      <ref cel="term.0o.sumo">termoj <sncref/></ref>, kiom estas da nenulaj
       <ref cel="term.0o.polinomo">termoj <sncref/></ref> en la polinomo.
     </rim>
   </snc>
@@ -660,18 +715,18 @@
       elemento de fonta aro plurajn elementojn en la cela aro:
       <ekz>
         la plursenca <tld/>o <ctl>kvadrata radiko</ctl> <klr>(kiu asocias al
-        pozitiva nombro <frm><k>x</k></frm> &gcirc;iajn du kvadratajn 
-        radikojn: <frm>-&#8730;<k>x</k></frm> 
+        pozitiva nombro <frm><k>x</k></frm> &gcirc;iajn du kvadratajn
+        radikojn: <frm>-&#8730;<k>x</k></frm>
         kaj <frm>&#8730;<k>x</k></frm>)</klr>,
       </ekz>
       <ekz>
         <ctl>argumento</ctl> <klr>(kiu asocias al komplekso
-        <frm><k>z</k></frm> &ccirc;iujn reelojn de la tipo 
+        <frm><k>z</k></frm> &ccirc;iujn reelojn de la tipo
         <frm>Arg <k>z</k>+2<k>k</k>&pi;</frm>)</klr>.
       </ekz>
     </dif>
     <rim>
-      En rigora lingva&jcirc;o ne temas pri funkcioj, sed pri
+      En rigora lingva&jcirc;o ne temas pri <tld/>oj, sed pri
       <ref tip="super" cel="rilat.0o.MAT">rilatoj</ref>. Tamen
       kelkaj el la analitikaj ecoj de <tld/>oj validas anka&ubreve; por ili.
       Bricard <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt> formas
@@ -723,18 +778,20 @@
     <ref tip="vid" cel="frakci.racionala0o">racionala frakcio.</ref>
     <rim>
       La&ubreve; la modelo de iuj naciaj lingvoj trovi&gcirc;as la formo
-      <ctl>racionala frakcia funkcio</ctl> en <fnt><bib>MatVort</bib></fnt>.
+      <ctl>racionala frakcia <tld/>o</ctl> en <fnt><bib>MatVort</bib></fnt>.
     </rim>
   </snc>
   <trdgrp lng="de">
     <trd>rationale <ind>Funktion</ind></trd>,
-    <trd>gebrochen-rationale <ind>Funktion</ind></trd></trdgrp> 
+    <trd>gebrochen-rationale <ind>Funktion</ind></trd>
+  </trdgrp>
   <trd lng="en">rational <ind>function</ind></trd>
   <trd lng="fr">fonction rationnelle</trd>
   <trd lng="pl">funkcja wymierna</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
-    <trd>&c_d;&c_r;&c_o;&c_b;&c_n;&c_o;-&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd></trdgrp> 
+    <trd>&c_d;&c_r;&c_o;&c_b;&c_n;&c_o;-&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="funkci.simpla0o">
@@ -744,13 +801,13 @@
     <dif>
       <klr>(la&ubreve; <ref cel="algebr.sigma0o">&sigma;-algebro</ref>
       <frm><g>A</g></frm>)</klr>
-      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref> 
-      <frm><k>s</k></frm>, kiu povas prezenti&gcirc;i kiel 
-      <frm><k>s</k> = 
+      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>
+      <frm><k>s</k></frm>, kiu povas prezenti&gcirc;i kiel
+      <frm><k>s</k> =
       &#8721;<k>a</k><sub><k>i</k></sub>.&chi;<sub><g>A</g><k>i</k></sub></frm>,
-      kie <frm><k>a</k><sub><k>i</k></sub></frm> estas nombro, 
+      kie <frm><k>a</k><sub><k>i</k></sub></frm> estas nombro,
       <frm>(<g>A</g><sub><k>i</k></sub>)</frm> estas finia
-      familio el elementoj de <frm><g>A</g></frm> kaj 
+      familio el elementoj de <frm><g>A</g></frm> kaj
       <frm>&chi;<sub><g>A</g><k>i</k></sub></frm> estas la
       <ref cel="funkci.karakteriza0o">karakteriza <tld/>o</ref> de
       <frm><g>A</g><sub><k>i</k></sub></frm>:
@@ -762,8 +819,8 @@
     </dif>
   </snc>
   <adm>
-  Mi ne trovis fonton por tiu cxi termino, sed ne multe hezitis
-  gxin enkonduki pro gxia internacieco. <aut>MB</aut>
+    Mi ne trovis fonton por tiu cxi termino, sed ne multe hezitis
+    gxin enkonduki pro gxia internacieco. <aut>MB</aut>
   </adm>
   <trd lng="en">simple <ind>function</ind></trd>
   <trd lng="de">einfache <ind>Funktion</ind></trd>
@@ -780,12 +837,12 @@
   <fnt><bib>EKV</bib><lok>&para;424</lok></fnt>
   <snc>
     <dif>
-      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref> 
-      <frm><k>&scirc;</k></frm> kun reela argumento, kiu povas 
+      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>
+      <frm><k>&scirc;</k></frm> kun reela argumento, kiu povas
       prezenti&gcirc;i kiel
-      <frm><k>&scirc;</k> = 
-      &#8721;<k>a</k><sub><k>i</k></sub>.&chi;<sub><g>A</g><k>i</k></sub></frm>, 
-      kie <frm><k>a</k><sub><k>i</k></sub></frm> estas nombro kaj 
+      <frm><k>&scirc;</k> =
+      &#8721;<k>a</k><sub><k>i</k></sub>.&chi;<sub><g>A</g><k>i</k></sub></frm>,
+      kie <frm><k>a</k><sub><k>i</k></sub></frm> estas nombro kaj
       <frm>&chi;<sub><g>A</g><k>i</k></sub></frm> estas la
       <ref cel="funkci.karakteriza0o">karakteriza <tld/>o</ref> de iu
       aro <frm><g>A</g><sub><k>i</k></sub></frm> apartenanta al
@@ -811,7 +868,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, apartenanta
+      &Ccirc;iu <ref tip="super" cel="funkci.0o.MAT"><tld/>o</ref>, apartenanta
       al la <ref cel="ar.fonto0o">fonto-aro</ref> de
       <ref cel="distri2.0o">distribucio</ref>.
     </dif>
@@ -825,8 +882,8 @@
     </rim>
   </snc>
   <adm>
-  Mi ne trovis fonton por tiu termino kaj kreis gxin laux la
-  konvergxaj nacilingvaj formoj. <aut>MB</aut>
+    Mi ne trovis fonton por tiu termino kaj kreis gxin laux la
+    konvergxaj nacilingvaj formoj. <aut>MB</aut>
   </adm>
   <trd lng="de">Testfunktion</trd>
   <trd lng="en">test <ind>function</ind></trd>
@@ -892,30 +949,29 @@
     <trd>fonction uniforme</trd>,
     <trd>fonction univoque</trd>
   </trdgrp>
+  <trd lng="pl">funkcja jednowarto&sacute;ciowa</trd>
   <trd lng="ru">&c_o;&c_d;&c_n;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_a;&c_ja;
   <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.42  2003/03/09 17:34:05  revo
+Revision 1.43 2003/03/23 17:32:54 revo
+Marc Bavant: testa ~o: +trd pl
+Revision 1.42 2003/03/09 17:34:05 revo
 Marc Bavant: ~o: mod bld
-
-Revision 1.41  2003/03/05 17:34:18  revo
+Revision 1.41 2003/03/05 17:34:18 revo
 Marc Bavant: ~o MAT: +ref al specifaj punktoj, +bld; hevisida ~o: +fnt
-
-Revision 1.40  2003/01/06 17:31:32  revo
+Revision 1.40 2003/01/06 17:31:32 revo
 Marc Bavant: polinoma ~o: +mrk
-
-Revision 1.39  2003/01/02 17:45:58  revo
+Revision 1.39 2003/01/02 17:45:58 revo
 Marc Bavant: +trd pl; gxeneraligita ~o: koherigi trd kun distribucio; polinoma ~o: kor trd pl; mod fnt "artikolo"
-
-Revision 1.38  2002/12/15 19:51:38  revo
+Revision 1.38 2002/12/15 19:51:38 revo
 Marc Bavant: simpla ~o: mod rim
-Revision 1.37  2002/12/09 17:32:13  revo
+Revision 1.37 2002/12/09 17:32:13 revo
 Marc Bavant: +drv racionala ~o; ~o MAT: mod ekz kun argumento
-Revision 1.36  2002/11/30 17:35:15  revo
+Revision 1.36 2002/11/30 17:35:15 revo
 Marc Bavant: mod frm
-Revision 1.35  2002/11/22 17:32:16  revo
+Revision 1.35 2002/11/22 17:32:16 revo
 -->
 </vortaro>
