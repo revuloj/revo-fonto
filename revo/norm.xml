@@ -128,7 +128,7 @@
   <snc mrk="norm.0i.MAT">
     <dif>
       <klr>(<ref cel="spac.vektora0o">vektoran spacon</ref>)</klr>
-      Provizi &gcirc;in per <tld/>o <sncref ref="norm.0o.MAT"/>.
+      Provizi &gcirc;in per <ref cel="norm.0o.MAT"><tld/>o <sncref/></ref>.
     </dif>
     <rim>
       Ial <fnt><bib>MatVort</bib></fnt> preferis uzi <ctl><tld/>igi</ctl>
@@ -156,14 +156,31 @@
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
+<drv mrk="norm.0umi">
+  <kap><tld/>umi</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <ref tip="dif" cel="norm.unu0igi">unu<tld/>igi.</ref>
+  </snc>
+</drv>
+
+<drv mrk="norm.0umita">
+  <kap><tld/>umita</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>EKV</bib><lok>&para;298</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="norm.unu0a.vektoro">unu<tld/>a <sncref/>.</ref>
+  </snc>
+</drv>
+
 <drv mrk="norm.0hava">
   <kap><tld/>(o)hava<fnt><bib>EKV</bib><lok>&para;298</lok></fnt>, <tld/>ita<fnt><bib>PIV2</bib><lok>artikolo: spaco</lok></fnt>, <tld/>igita<fnt><bib>MatVort</bib></fnt></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       <klr>(p.p. <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-      Provizita per
-      <ref cel="norm.0o.MAT"><tld/>o <sncref ref="norm.0o.MAT"/></ref>:
+      Provizita per <ref cel="norm.0o.MAT"><tld/>o <sncref/></ref>:
       <ekz>
         &ccirc;iu <tld/>ohava vektora spaco estas anka&ubreve;
         <ref cel="spac.metrika0o">metrika spaco</ref> kaj
@@ -194,8 +211,7 @@
       <klr>(super reela a&ubreve; kompleksa
       <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
       Reela <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> kun samaj
-      ecoj kiel
-      <ref cel="norm.0o.MAT"><tld/>o <sncref ref="norm.0o.MAT"/></ref>,
+      ecoj kiel <ref cel="norm.0o.MAT"><tld/>o <sncref/></ref>,
       krom ke la bildo de nenula vektoro rajtas esti nula:
       <ekz>
         se f estas lineara formo, la bildigo, kiu &jcirc;etas vektoron
@@ -211,27 +227,47 @@
   <trdgrp lng="de">
     <trd>Halbnorm</trd>,
     <trd>Quasinorm</trd>,
-    <trd>Seminorm</trd></trdgrp>
+    <trd>Seminorm</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>semi-norm</trd>,
-    <trd>pseudonorm</trd></trdgrp>
+    <trd>pseudonorm</trd>
+  </trdgrp>
   <trd lng="fr">semi-norme</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_u;&c_n;&c_o;&c_r;&c_m;&c_a;</trd>,
-    <trd>&c_s;&c_je;&c_m;&c_i;&c_n;&c_o;&c_r;&c_m;&c_a;</trd></trdgrp>
+    <trd>&c_s;&c_je;&c_m;&c_i;&c_n;&c_o;&c_r;&c_m;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="norm.unu0a">
-  <kap>unu<tld/>a, <tld/>umita<fnt><bib>EKV</bib><lok>&para;298</lok></fnt>
-  </kap>
+  <kap>unu<tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
-    <dif>
-      <klr>(p.p. <ref cel="vektor.0o.MAT">vektoro</ref>)</klr>
-      Kies <tld/>o egalas al 1;
-      <klr>(p.p. <ref cel="baz.0o.vektoraspaco">bazo</ref>)</klr>
-      la <tld/>o de kies vektoroj egalas al 1.
-    </dif>
+    <subsnc mrk="norm.unu0a.vektoro">
+      <dif>
+        <klr>(p.p. <ref cel="vektor.0o.MAT">vektoro</ref>)</klr>
+        Kies <ref cel="norm.0o.MAT"><tld/>o <sncref/></ref> egalas al 1.
+      </dif>
+      <ref tip="sin" cel="norm.0umita"><tld/>umita.</ref>
+      <trd lng="de">nomierter<klr tip="amb"> (Vektor)</klr></trd>
+      <trd lng="en">normalized<klr tip="ind"> (vector)</klr></trd>
+      <trdgrp lng="fr">
+        <trd><klr tip="amb">(vecteur) </klr>norm&eacute;</trd>,
+        <trd><klr tip="amb">(vecteur) </klr>unitaire</trd>
+      </trdgrp>
+      <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="norm.unu0a.bazo">
+      <dif>
+        <klr>(p.p. <ref cel="baz.0o.vektoraspaco">bazo</ref>)</klr>
+        Kies elementoj estas unu<tld/>aj <sncref ref="norm.unu0a.vektoro"/>.
+      </dif>
+      <trd lng="de">nomierte<klr tip="amb"> (Basis)</klr></trd>
+      <trd lng="en">normalized<klr tip="ind"> (basis)</klr></trd>
+      <trd lng="fr"><klr tip="amb">(base) </klr>norm&eacute;e</trd>
+      <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_b;&c_a;&c_z;&c_i;&c_s;)</klr></trd>
+    </subsnc>
     <rim>
       La formo <ctl>unu<tld/>a</ctl> suferas problemeton, nome oni povus
       kompreni &gcirc;in kiel <ctl>havanta unu normon</ctl>. Tamen tiu principa
@@ -239,52 +275,52 @@
       tiaj kunmeta&jcirc;oj (ekz-e <ctl>unuvalenta</ctl>).
     </rim>
   </snc>
-  <trd lng="de">nomierter<klr tip="amb"> (Vektor)</klr></trd>
-  <trd lng="en">normalized<klr tip="ind"> (vector)</klr></trd>
-  <trdgrp lng="fr">
-    <trd>norm&eacute;<klr tip="ind"> (vecteur)</klr></trd>,
-    <trd>unitaire<klr tip="ind"> (vecteur)</klr></trd>
-  </trdgrp>
   <trd lng="pt">normal</trd>
-  <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;)</klr></trd>
 </drv>
 
 <drv mrk="norm.unu0igi">
-  <kap>unu<tld/>igi<fnt><bib>PIV2</bib></fnt>, <tld/>umi<fnt><bib>PIV1</bib></fnt></kap>
+  <kap>unu<tld/>igi</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV2</bib></fnt>
   <uzo tip="klr">(fakula &jcirc;argono)</uzo>
   <snc>
     <dif>
       <klr>(vektoron)</klr>
       Dividi &gcirc;in per &gcirc;ia
-      <ref cel="norm.0o.MAT"><tld/>o <sncref ref="norm.0o.MAT"/></ref>
+      <ref cel="norm.0o.MAT"><tld/>o <sncref/></ref>
       por ricevi unu<tld/>an rezulton.
     </dif>
+    <ref tip="sin" cel="norm.0umi"><tld/>umi.</ref>
     <rim>
-      <ctl><tld lit="N"/>umi</ctl> troveblas en
+      <ctl><tld lit="N"/>umi</ctl> troveblas en <fnt><bib>PIV1</bib></fnt>,
       <fnt><bib>MatVort</bib></fnt> kaj <fnt><bib>Deneva</bib></fnt>,
       sed &gcirc;i ne estas tre logika: la &ccirc;efa koncepto ja estas
       <ctl>vektoro, kies <tld/>o egalas al 1</ctl>. Estas malfacile signifi
       tion per deriva&jcirc;o de <ctl><tld/>umi</ctl>. Efektive,
       <ctl><tld/>umita</ctl> ne tre ta&ubreve;gas logike, &ccirc;ar la
       <tld/>umota kaj <tld/>umita vektoroj ne estas identaj. Tial ni preferas
-      <ctl>unu<tld/>igita</ctl>, travidebla pluderiva&jcirc;o de
+      <ctl>unu<tld/>igi</ctl>, travidebla pluderiva&jcirc;o de
       <ctl>unu<tld/>a</ctl>.
     </rim>
-    <trd lng="fr">normer<klr tip="ind"> (un vecteur)</klr></trd>
   </snc>
+  <trd lng="de">normieren</trd>
+  <trd lng="en">normalise</trd>
+  <trd lng="fr">normer<klr tip="ind"> (un vecteur)</klr></trd>
   <trd lng="pt">normalizar</trd>
+  <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.22  2002/06/16 17:32:38  revo
+Revision 1.23 2002/06/25 19:38:02 revo
+Marc Bavant: duon~o: +ekz; ~ohava: +ekz
+Revision 1.22 2002/06/16 17:32:38 revo
 Eduardo M. Kalinowski: ald trd pt
-Revision 1.21  2002/06/02 17:33:23  revo
+Revision 1.21 2002/06/02 17:33:23 revo
 Marc Bavant: kor "sse"
-Revision 1.20  2002/05/27 17:19:03  revo
+Revision 1.20 2002/05/27 17:19:03 revo
 Marc Bavant: ~ohava: +fnt; ~umita: mod fnt
-Revision 1.19  2002/05/20 16:35:01  revo
+Revision 1.19 2002/05/20 16:35:01 revo
 Marc Bavant: unu~igi: +fnt, mod rim; ~i: mod kap, dif, mod rim; duon~o: +rim, mod trd
 Revision 1.18 2002/05/12 16:35:50 revo
 Marc Bavant: ~i, ~ohava: kor lng cxe trd de; unu~igi: +fnt en rim
@@ -295,6 +331,5 @@ Marc Bavant: mod ref cel al bildigo
 Revision 1.15 2001/11/30 17:35:36 revo
 Yury Finkel: +trd ru
 Revision 1.14 2001/09/29 18:13:19 revo
-Marc Bavant: ~o MAT: kor ekz
 -->
 </vortaro>
