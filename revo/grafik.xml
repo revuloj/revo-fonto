@@ -2,100 +2,107 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <rad>grafik</rad>/o
-  <fnt>Z</fnt>
-</kap>
-<drv mrk="grafik.0o">
-  <kap><tld/>o</kap>
-  <snc num="1">
-    <uzo tip="fak">BELA</uzo>
-    <dif>
-      Arto reprezenti objektojn per desegnaj linioj. 
-    </dif>
-    <trdgrp lng="de">
-       <trd>Grafik</trd>,
-       <trd>Graphik</trd>,
-       <trd>Schreib-, Zeichen- und Malkunst</trd></trdgrp>
-    <trd lng="fr">art graphique</trd>
-  </snc>
-  <snc num="2">
-    <uzo tip="fak">LIN</uzo>
-    <ref tip="dif" cel="grafis.0o">grafismo.</ref>
-    <trd lng="fr">graphie</trd>
-  </snc>
-  <trd lng="en">graphics</trd>
-  <trd lng="ru">&c_g;&c_r;&c_a;&c_f;&c_i;&c_k;&c_a;</trd>
-</drv>
-<drv mrk="grafik.0ajxo">
-  <kap><tld/>a&jcirc;o</kap>
-  <snc>
-    <uzo tip="fak">TEK</uzo>
-    <dif>
-      Scienca desegno, servanta por la tekniko kaj reprezentanta
-      la fenomenojn a&ubreve; iliajn abstraktajn rilatojn per geometriaj figuroj
-      (skaloj, kurblinioj kc):
-      <ekz><tld/>a&jcirc;o pri varioj de temperaturo, trafiko,</ekz>kc. 
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="skem.0o">skemo</ref>,
-      <ref cel="diagra.0o">diagramo</ref>.
-    </refgrp>
-    <trdgrp lng="de">
-       <trd>Grafik</trd>,
-       <trd>grafische Darstellung</trd>,
-       <trd>grafisches Erzeugnis</trd></trdgrp>
-    <trd lng="fr">graphique<klr tip="ind"> (sch&eacute;ma)</klr></trd>
-    <trdgrp lng="ru">
-      <trd>&c_g;&c_r;&c_a;&c_f;&c_i;&c_k;</trd>,
-      <trd>&c_ch;&c_je;&c_r;&c_t;&c_jo;&c_zh;</trd>,
-      <trd>&c_s;&c_h;&c_je;&c_m;&c_a;</trd>
-    </trdgrp>
-  </snc>
-  <snc mrk="grafik.0ajxo.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>KompLeks</bib></fnt>
-    <dif>
-      <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
-      Aro, konsistanta el la paroj (x, f(x)) por &ccirc;iu x en la
-      fonto-aro de f.
-    </dif>
-    <ref tip="sin" cel="graf1.0o.grafikajxo">grafo.</ref>
-    <rim>
-      La&ubreve; la donita difino de <ref cel="bild.0igo">bildigo</ref>
-      ne ekzistas esenca diferenco inter funkcio kaj &gcirc;ia <tld/>a&jcirc;o.
-      Oni tamen konservas amba&ubreve; esprimojn pro la malsamaj intuiciaj
-      kampoj, al kiuj ili referencas: <ctl>funkcio</ctl> parolas pri la maniero
-      asocii du elementojn kaj <ctl><tld/>a&jcirc;o</ctl> referencas al 
-      eventuala <ref cel="kurb.0o.MAT">kurbo</ref>, reprezentanta la funkcion.
-    </rim>
-    <trd lng="fr">graphe<klr tip="ind"> (d'une fonction)</klr></trd>
-  </snc>
-</drv>
-<drv mrk="grafik.0a">
-  <kap><tld/>a<fnt>Z</fnt></kap>
-  <snc>
-    <dif>
-      Koncernanta la reprezentadon de objektoj per desegnaj linioj:
-      <ekz>la <tld/>aj artoj <klr>(skribo, desegno, gravuro)</klr>.</ekz>  
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-     <trd>grafisch</trd>,
-     <trd>graphisch</trd>,
-     <trd>zeichnerisch</trd></trdgrp>
-  <trd lng="fr">graphique<klr tip="ind"> (adj.)</klr></trd>
-  <trd lng="ru">&c_g;&c_r;&c_a;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.6  2001/05/28 18:13:52  revo
-Ulrich Fellmann: + 9 germ trdj
+  <art mrk="$Id$">
+    <kap>
+      <rad>grafik</rad>/o
+      <fnt>Z</fnt>
+    </kap>
+    <drv mrk="grafik.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <uzo tip="fak">BELA</uzo>
+        <dif>
+          Arto prezenti objektojn per desegnaj linioj. 
+        </dif>
+        <trdgrp lng="de">
+          <trd>Grafik</trd>,
+          <trd>Graphik</trd>,
+          <trd>Schreib-, Zeichen- und Malkunst</trd></trdgrp>
+        <trd lng="fr">art graphique</trd>
+      </snc>
+      <snc>
+        <uzo tip="fak">LIN</uzo>
+        <ref tip="dif" cel="grafis.0o">grafismo.</ref>
+        <trd lng="fr">graphie</trd>
+      </snc>
+      <trd lng="en">graphics</trd>
+      <trd lng="ru">&c_g;&c_r;&c_a;&c_f;&c_i;&c_k;&c_a;</trd>
+    </drv>
+    <drv mrk="grafik.0ajxo">
+      <kap><tld/>a&jcirc;o</kap>
+      <snc>
+        <uzo tip="fak">TEK</uzo>
+        <dif>
+          Scienca desegno, servanta por la tekniko kaj prezentanta
+          la fenomenojn a&ubreve; iliajn abstraktajn rilatojn per geometriaj figuroj
+          (skaloj, kurblinioj kc):
+          <ekz>
+            <tld/>a&jcirc;o pri varioj de temperaturo, trafiko,</ekz>kc. 
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="skem.0o">skemo</ref>,
+          <ref cel="diagra.0o">diagramo</ref>.
+        </refgrp>
+        <trdgrp lng="de">
+          <trd>Grafik</trd>,
+          <trd>grafische Darstellung</trd>,
+          <trd>grafisches Erzeugnis</trd></trdgrp>
+        <trd lng="fr">graphique<klr tip="ind"> (sch&eacute;ma)</klr></trd>
+        <trdgrp lng="ru">
+          <trd>&c_g;&c_r;&c_a;&c_f;&c_i;&c_k;</trd>,
+          <trd>&c_ch;&c_je;&c_r;&c_t;&c_jo;&c_zh;</trd>,
+          <trd>&c_s;&c_h;&c_je;&c_m;&c_a;</trd>
+        </trdgrp>
+      </snc>
+      <snc mrk="grafik.0ajxo.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <fnt><bib>KompLeks</bib></fnt>
+        <dif>
+          <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
+          Aro, konsistanta el la paroj (x, f(x)) por &ccirc;iu x en la
+          fonto-aro de f.
+        </dif>
+        <ref tip="sin" cel="graf1.0o.grafikajxo">grafo.</ref>
+        <rim>
+          La&ubreve; la donita difino de <ref cel="bild.0igo">bildigo</ref>
+          ne ekzistas esenca diferenco inter funkcio kaj &gcirc;ia <tld/>a&jcirc;o.
+          Oni tamen konservas amba&ubreve; esprimojn pro la malsamaj intuiciaj
+          kampoj, al kiuj ili referencas: <ctl>funkcio</ctl>
+          parolas pri la maniero
+          asocii du elementojn kaj <ctl><tld/>a&jcirc;o</ctl> referencas al 
+          eventuala <ref cel="kurb.0o.MAT">kurbo</ref>,
+          reprezentanta la funkcion.
+        </rim>
+        <trd lng="fr">graphe<klr tip="ind"> (d'une fonction)</klr></trd>
+      </snc>
+    </drv>
+    <drv mrk="grafik.0a">
+      <kap><tld/>a<fnt>Z</fnt></kap>
+      <snc>
+        <dif>
+          Koncernanta la prezentadon de objektoj per desegnaj linioj:
+          <ekz>
+            la <tld/>aj artoj <klr>(skribo, desegno, gravuro)</klr>.</ekz>  
+        </dif>
+      </snc>
+      <trdgrp lng="de">
+        <trd>grafisch</trd>,
+        <trd>graphisch</trd>,
+        <trd>zeichnerisch</trd></trdgrp>
+      <trd lng="fr">graphique<klr tip="ind"> (adj.)</klr></trd>
+      <trd lng="ru">&c_g;&c_r;&c_a;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.7  2001/09/29 18:12:48  revo
+  Marc Bavant: +trd fr; ~o: +uzo BELA/LIN; ~ajxo: +snc MAT, +uzo TEK
 
-Revision 1.5  2001/05/18 18:13:35  revo
-Yury Finkel: +trd ru
+  Revision 1.6  2001/05/28 18:13:52  revo
+  Ulrich Fellmann: + 9 germ trdj
 
--->
+  Revision 1.5  2001/05/18 18:13:35  revo
+  Yury Finkel: +trd ru
+
+  -->
 </vortaro>
