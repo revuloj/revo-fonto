@@ -57,10 +57,12 @@
       ke por &ccirc;iuj ajn <ref cel="vektor.0o.MAT">vektoroj</ref> 
       <frm><k>x</k>, <k>y</k></frm>, kaj por &ccirc;iu ajn 
       <ref cel="skalar.0o.MAT">skalaro</ref> <frm>&alfa;</frm> veras:
-      (1) <frm><k>p</k>(<k>x</k>)&#8805;0</frm>; 
-      (2) <frm><k>p</k>(<k>x</k>)=0, se kaj nur se <k>x</k>=0</frm>;
+      (1) <frm><k>p</k>(<k>x</k>) &#8805; 0</frm>; 
+      (2) <frm><k>p</k>(<k>x</k>) = 0</frm>, 
+        se kaj nur se <frm><k>x</k> = 0</frm>;
       (3) <frm><k>p</k>(&alfa;&#8729;<k>x</k>)=|&alfa;|.<k>p</k>(<k>x</k>)</frm>; 
-      kaj (4) <frm><k>p</k>(<k>x</k>+<k>y</k>)&#8804;<k>p</k>(<k>x</k>)+<k>p</k>(<k>y</k>)</frm>:
+      kaj (4) <frm><k>p</k>(<k>x</k>+<k>y</k>) &#8804; 
+      <k>p</k>(<k>x</k>)+<k>p</k>(<k>y</k>)</frm>:
       <ekz>
         la <tld/>on de vektoro <frm><k>x</k></frm> oni ofte signas per 
         <frm>||<k>x</k>||</frm>;
@@ -74,12 +76,13 @@
         por <tld/>oj super <ref
         cel="algebr.lineara0o.strukturo">algebroj</ref>
         oni plie postulas, ke 
-        <frm><k>p</k>(<k>x</k>&#215;<k>y</k>)&#8804;<k>p</k>(<k>x</k>).<k>p</k>(<k>y</k>)</frm>;
+        <frm><k>p</k>(<k>x</k>&#215;<k>y</k>) &#8804;
+        <k>p</k>(<k>x</k>).<k>p</k>(<k>y</k>)</frm>;
       </ekz>
       <ekz>
         en spaco provizita per <ref cel="produt.skalara0o">skalara
         produto</ref>, la bildigo 
-        <frm><k>p</k>(<k>x</k>)=&#8730;&lt;<k>x</k>|<k>x</k>&gt;</frm>
+        <frm><k>p</k>(<k>x</k>)= &#8730; &lt;<k>x</k>|<k>x</k>&gt;</frm>
         estas <tld/>o, nomata e&ubreve;klida <tld/>o;
       </ekz>
       <ekz>
@@ -91,6 +94,7 @@
     <trd lng="de">Norm</trd>
     <trd lng="en">norm</trd>
     <trd lng="fr">norme<klr tip="ind"> (d'un vecteur)</klr></trd>
+    <trd lng="pl">norma<klr tip="ind"> (wektora)</klr></trd>
     <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
   </snc>
   <trd lng="pt">norma</trd>
@@ -197,6 +201,7 @@
   <trd lng="en">normed</trd>
   <trd lng="fr">norm&eacute;<klr tip="ind"> (espace)</klr></trd>
   <trd lng="nl">genormeerd</trd>
+  <trd lng="pl">unormowany</trd>
   <trd lng="pt">normado</trd>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
 </drv>
@@ -256,6 +261,7 @@
         <trd><klr tip="amb">(vecteur) </klr>norm&eacute;</trd>,
         <trd><klr tip="amb">(vecteur) </klr>unitaire</trd>
       </trdgrp>
+      <trd lng="pl"><klr tip="ind">(wektor) </klr>jednostkowy</trd>
       <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;)</klr></trd>
     </subsnc>
     <subsnc mrk="norm.unu0a.bazo">
@@ -295,8 +301,8 @@
       <ctl><tld lit="N"/>umi</ctl> troveblas en <fnt><bib>PIV1</bib></fnt>,
       <fnt><bib>MatVort</bib></fnt> kaj <fnt><bib>Deneva</bib></fnt>,
       sed &gcirc;i ne estas tre logika: la &ccirc;efa koncepto ja estas
-      <ctl>vektoro, kies <tld/>o egalas al 1</ctl>. Estas malfacile signifi
-      tion per deriva&jcirc;o de <ctl><tld/>umi</ctl>. Efektive,
+      <ctl>vektoro, kies <tld/>o egalas al <frm>1</frm></ctl>. Estas malfacile
+      signifi tion per deriva&jcirc;o de <ctl><tld/>umi</ctl>. Efektive,
       <ctl><tld/>umita</ctl> ne tre ta&ubreve;gas logike, &ccirc;ar la
       <tld/>umota kaj <tld/>umita vektoroj ne estas identaj. Tial ni preferas
       <ctl>unu<tld/>igi</ctl>, travidebla pluderiva&jcirc;o de
@@ -312,6 +318,8 @@
 </art>
 <!--
 $Log$
+Revision 1.29  2002/11/19 17:31:48  revo
+Marc Bavant: +frm; ~o MAT: mod dif
 Revision 1.28  2002/10/21 16:34:05  revo
 Marc Bavant: mod operacion *
 Revision 1.27  2002/09/08 18:05:47  revo

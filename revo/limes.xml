@@ -13,16 +13,18 @@
   <subsnc mrk="limes.0o.vico">
     <fnt><bib>PIV1</bib><lok>artikolo: konver&gcirc;i</lok></fnt>
     <dif>
-      <klr>(de <ref cel="vic.0o.MAT">vico</ref> (u<sub>n</sub>))</klr>
-      Punkto p, al kiu &gcirc;i
+      <klr>(de <ref cel="vic.0o.MAT">vico</ref> 
+      <frm>(<k>u</k><sub><k>n</k></sub>)</frm>)</klr>
+      Punkto <frm><k>p</k></frm>, al kiu &gcirc;i
       <ref cel="konver.0i.MAT">konver&gcirc;as</ref>;
-      simb. p = lim&#xa0;(u<sub>n</sub>):
+      simb. <frm><k>p</k> = lim (<k>u</k><sub><k>n</k></sub>)</frm>:
       <ekz>
-        la <tld/>o de (1/n)<sub>n&gt;0</sub> estas 0;
+        la <tld/>o de <frm>(1/<k>n</k>)<sub><k>n</k> &gt; 0</sub></frm>
+        estas <frm>0</frm>;
       </ekz>
       <ekz>
-        la vico ((-1)<sup>n</sup>)<sub>n&gt;0</sub> ne akceptas <tld/>on
-        <klr>(ne konver&gcirc;as)</klr>.
+        la vico <frm>((-1)<sup><k>n</k></sup>)<sub><k>n</k> &gt; 0</sub></frm>
+        ne akceptas <tld/>on <klr>(ne konver&gcirc;as)</klr>.
       </ekz>
     </dif>
     <rim>
@@ -34,32 +36,39 @@
   <subsnc mrk="limes.0o.bildigo">
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref> f inter
+      <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref> <frm><k>f</k></frm> inter
       du <ref cel="spac.topologia0o">topologiaj spacoj</ref>, &ccirc;e
       <ref cel="akumul.0igxa.punkto">akumuli&gcirc;a</ref> punkto
-      a de la fonto-aro)</klr>
-      Tia punkto b de la celo-aro, ke por &ccirc;iu &gcirc;ia
+      <frm><k>a</k></frm> de la fonto-aro)</klr>
+      Tia punkto <frm><k>b</k></frm> de la celo-aro, ke por &ccirc;iu &gcirc;ia
       <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
-      <em>W</em>, ekzistas responda &ccirc;irka&ubreve;a&jcirc;o
-      <em>V</em> de a, kies <ref cel="bild.0o.subaro">bildo</ref>
-      per f estas inkluzivata en <em>W</em>;
-      simb. b = lim<sub>x&#x2192;a</sub>&#xa0;f(x):
+      <frm><g>W</g></frm>, ekzistas responda &ccirc;irka&ubreve;a&jcirc;o
+      <frm><g>V</g></frm> de <frm><k>a</k></frm>, kies 
+      <ref cel="bild.0o.subaro">bildo</ref> per <frm><k>f</k></frm> estas 
+      inkluzivata en <frm><g>W</g></frm>;
+      simb. <frm><k>b</k> = 
+      lim<sub><k>x</k>&#x2192;<k>a</k></sub> <k>f</k>(<k>x</k>)</frm>:
       <ekz>
         bildigo povas havi <tld/>on &ccirc;e punkto, en kiu &gcirc;i
         ne estas difinita;
       </ekz>
       <ekz>
-        la <tld/>o &ccirc;e 0 de x.sin(1/x) estas 0;
+        la <tld/>o &ccirc;e <frm>0</frm> de <frm><k>x</k>.sin(1/<k>x</k>)</frm>
+        estas <frm>0</frm>;
       </ekz>
       <ekz>
-        se la <tld/>o de f &ccirc;e a egalas al f(a), tiam oni diras,
-        ke f estas <ref cel="kontin3.0a.cxepunkto">kontinua</ref>
-        &ccirc;e a;
+        se la <tld/>o de <frm><k>f</k></frm> &ccirc;e <frm><k>a</k></frm> 
+        egalas al <frm><k>f</k>(<k>a</k>)</frm>, tiam oni diras,
+        ke <frm><k>f</k></frm> estas 
+        <ref cel="kontin3.0a.cxepunkto">kontinua</ref> &ccirc;e 
+        <frm><k>a</k></frm>;
       </ekz>
       <ekz>
-        se vico (u<sub>n</sub>) konver&gcirc;as al a, kaj se b estas
-        <tld/>o de f &ccirc;e a, tiam &gcirc;i anka&ubreve; estas
-        <tld/>o de la vico (f(u<sub>n</sub>)).
+        se vico <frm>(<k>u</k><sub><k>n</k></sub>)</frm> konver&gcirc;as al 
+        <frm><k>a</k></frm>, kaj se <frm><k>b</k></frm> estas
+        <tld/>o de <frm><k>f</k></frm> &ccirc;e <frm><k>a</k></frm>, tiam 
+        &gcirc;i anka&ubreve; estas <tld/>o de la vico 
+        <frm>(<k>f</k>(<k>u</k><sub><k>n</k></sub>))</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -73,15 +82,18 @@
       </ekz>
       <ekz>
         dekstra, maldekstra <tld/>o
-        <klr>(la konsiderata &ccirc;irka&ubreve;a&jcirc;o <em>V</em>
-        devas akcepti a kiel infimon a&ubreve; supremon, respektive)</klr>.
+        <klr>(la konsiderata &ccirc;irka&ubreve;a&jcirc;o <frm><g>V</g></frm> 
+        devas akcepti <frm><k>a</k></frm> kiel infimon a&ubreve; supremon, 
+        respektive)</klr>.
       </ekz>
     </rim>
     <rim>
-      Oni diras sendistinge, ke <ctl>b estas <tld/>o de f &ccirc;e
-      punkto a</ctl>, <ctl>f akceptas <tld/>on b &ccirc;e
-      punkto a</ctl>, a&ubreve; ke <ctl>f(x) strebas al b, kiam x strebas
-      al a</ctl>.
+      Oni diras sendistinge, ke <ctl><frm><k>b</k></frm> estas <tld/>o de 
+      <frm><k>f</k></frm> &ccirc;e punkto <frm><k>a</k></frm></ctl>, 
+      <ctl><frm><k>f</k></frm> akceptas <tld/>on <frm><k>b</k></frm> &ccirc;e
+      punkto <frm><k>a</k></frm></ctl>, a&ubreve; ke 
+      <ctl><frm><k>f</k>(<k>x</k>)</frm> strebas al <frm><k>b</k></frm>, kiam 
+      <frm><k>x</k></frm> strebas al <frm><k>a</k></frm></ctl>.
     </rim>
   </subsnc>
   </snc>
@@ -89,21 +101,21 @@
   <trd lng="en">limit</trd>
   <trd lng="fr">limite<klr tip="ind"> (math.)</klr></trd>
   <trd lng="nl">limiet<klr tip="ind"> (wisk.)</klr></trd>
+  <trd lng="pl">granica<klr tip="ind"> (ci&aogonek;gu lub funkcji)</klr></trd>
   <trd lng="pt">limite<klr tip="ind"> (mat.)</klr></trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.11  2002/09/05 17:32:25  revo
+Eduardo M. Kalinowski: ald trd pt
 Revision 1.10  2002/05/21 16:33:49  revo
 Marc Bavant: kor ref al "rekta bildo"
-
 Revision 1.9  2002/05/20 16:37:26  revo
 Marc Bavant: mod fnt
-
 Revision 1.8  2002/05/02 16:38:11  revo
 Marc Bavant: ~o MAT: reordigis al subsnc
-
 Revision 1.7  2002/02/23 19:58:31  revo
 Marc Bavant: sxovis fnt-indikon, +rim, sxovis 2 ekz al rim, +trd de
 Revision 1.6 2002/01/06 17:45:11 revo

@@ -76,25 +76,29 @@
     <fnt><bib>EKV</bib><lok>&para;381, sub formo &leftquot;ring-modulo&rightquot;</lok></fnt>
     <dif>
       <klr>(super <ref cel="unu.0hava">unuhava</ref>
-      <ref cel="ring.0o.MAT">ringo</ref> <em>R</em>)</klr>
+      <ref cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>)</klr>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra strukturo</ref>
-      (<em>M</em>,+,&#8729;), ke (<em>M</em>,+) estas
+      <frm>(<g>M</g>,+,&#8729;)</frm>, ke <frm>(<g>M</g>,+)</frm> estas
       <ref cel="komut.0eca.magmo">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>; &#8729; estas
+      <ref cel="grup.0o.MAT">grupo</ref>; <frm>&#8729;</frm> estas
       <ref cel="operac.ekstera0o">ekstera operacio</ref>
-      de <em>R</em> super <em>M</em>; kaj por
-      &ccirc;iuj &alfa;, &beta;&#x2208;<em>R</em> kaj
-      x, y&#x2208;<em>M</em> veras, ke : 
-      (&alfa;+&beta;)&#8729;x = &alfa;&#8729;x+&beta;&#8729;x, 
-      &alfa;&#8729;(x+y) = &alfa;&#8729;x+&alfa;&#8729;y,
-      (&alfa;&#xd7;&beta;)&#8729;x = &alfa;&#8729;(&beta;&#8729;x), 
-      1&#8729;x=x.
+      de <frm><g>R</g></frm> super <frm><g>M</g></frm>; 
+      kaj por &ccirc;iuj <frm>&alfa;, &beta;&#x2208;<g>R</g></frm> 
+      kaj <frm><k>x</k>, <k>y</k>&#x2208;<g>M</g></frm> veras, ke : 
+      (1) <frm>(&alfa;+&beta;)&#8729;<k>x</k> = 
+      &alfa;&#8729;<k>x</k>+&beta;&#8729;<k>x</k></frm>; 
+      (2) <frm>&alfa;&#8729;(<k>x</k>+<k>y</k>) = 
+      &alfa;&#8729;<k>x</k>+&alfa;&#8729;<k>y</k></frm>;
+      (3) <frm>(&alfa;&#xd7;&beta;)&#8729;<k>x</k> = 
+      &alfa;&#8729;(&beta;&#8729;<k>x</k>)</frm>; 
+      kaj (5) <frm>1&#8729;<k>x</k> = <k>x</k></frm>.
     </dif>
     <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
     <ref tip="sub" cel="spac.vektora0o">vektora spaco.</ref>
     <trd lng="de">Modul<klr tip="ind"> (&uuml;ber einem Ring)</klr></trd>
     <trd lng="en"><klr tip="ind">(ring)</klr> module</trd>
     <trd lng="fr">module<klr tip="ind"> (sur un anneau)</klr></trd>
+    <trd lng="pl">modu&lstroke;<klr tip="ind"> (nad pier&sacute;cieniem)</klr></trd>
     <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind"> (&c_n;&c_a;&c_d; &c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;&c_m;)</klr></trd>
     <rim>
       Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
@@ -106,14 +110,17 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
     <dif>
-      <klr>(de <ref cel="komple.0o.MAT">komplekso</ref> a+ib)</klr>
-      La kvadrata radiko de a<sup>2</sup>+b<sup>2</sup>:
+      <klr>(de <ref cel="komple.0o.MAT">komplekso</ref> 
+      <frm><k>a</k>+<k>i</k><k>b</k></frm>)</klr>
+      La kvadrata radiko de 
+      <frm><k>a</k><sup>2</sup>+<k>b</k><sup>2</sup></frm>:
       <ekz>
-        la kompleksoj kun <tld/>o &rho; estas prezenteblaj per
-        &rho;e<sup>i&theta;</sup>;
+        la kompleksoj kun <tld/>o <frm>&rho;</frm> estas prezenteblaj per
+        <frm>&rho;<k>e</k><sup><k>i</k>&theta;</sup></frm>;
       </ekz>
       <ekz>
-        la <tld/>on de z oni signas per |z|;
+        la <tld/>on de <frm><k>z</k></frm> oni signas per 
+        <frm>|<k>z</k>|</frm>;
       </ekz>
       <ekz>
         la <tld/>o de reelo egalas al &gcirc;ia
@@ -123,6 +130,7 @@
     <trd lng="de">Modul<klr tip="ind"> (einer kompleksen Zahl)</klr></trd>
     <trd lng="en">module<klr tip="ind"> (of a complex number)</klr></trd>
     <trd lng="fr">module<klr tip="ind"> (d'un complexe)</klr></trd>
+    <trd lng="pl">modu&lstroke;<klr tip="ind"> (liczby zespolonej)</klr></trd>
     <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind"> (&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_g;&c_o; &c_ch;&c_i;&c_s;&c_l;&c_a;)</klr></trd>
   </snc>
   <snc mrk="modul.0o.kongruo">
@@ -132,17 +140,21 @@
       Nombro, la&ubreve; kiu oni pritaksas la
       <ref cel="kongru.0a.module">kongruecon</ref> de du nombroj:
       <ekz>
-        1111 kaj 4 estas kongruaj la&ubreve; <tld/>o 9, a&ubreve;
-        <ind><tld/>e</ind> 9.
+        <frm>1111</frm> kaj <frm>4</frm> estas kongruaj la&ubreve; 
+        <tld/>o <frm>9</frm>, a&ubreve; <ind><tld/>e</ind> <frm>9</frm>.
         <trd lng="de">modulo</trd>
         <trd lng="en">modulo</trd>
         <trd lng="fr">modulo</trd>
+        <trdgrp lng="pl">
+          <trd>modulo</trd>,
+          <trd>wed&lstroke;ug modu&lstroke;u</trd></trdgrp> 
         <trd lng="ru">&c_p;&c_o; <ind>&c_m;&c_o;&c_d;&c_u;&c_l;&c_ju;</ind></trd>
       </ekz>
     </dif>
     <trd lng="de">Kongruenzmodul</trd>
     <trd lng="en">modulus</trd>
     <trd lng="fr">module<klr tip="ind"> (de congruence)</klr></trd>
+    <trd lng="pl">modu&lstroke;<klr tip="ind"> (kongruencji)</klr></trd>
     <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind"> (&c_s;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
   </snc>
   <snc mrk="modul.0o.bloko">
@@ -172,9 +184,9 @@
   <snc mrk="modul.sub0o.strukt">
     <dif>
       <klr>(de <ref cel="modul.0o.strukt"><tld/>o</ref>
-      (<em>M</em>,+,&#8729;))</klr>
-      Tia subaro de <em>M</em>, ke &gcirc;i egalas al la subaro, kiun
-      &gcirc;i <ref cel="nask.0i.MAT">naskas</ref>:
+      <frm>(<g>M</g>,+,&#8729;)</frm>)</klr>
+      Tia subaro de <frm><g>M</g></frm>, ke &gcirc;i egalas al la 
+      subaro, kiun &gcirc;i <ref cel="nask.0i.MAT">naskas</ref>:
       <ekz>
         la <ref cel="kern.0o.homomorfio">kerno</ref> kaj
         <ref cel="bild.0aro.MAT">bildaro</ref> de
@@ -189,12 +201,15 @@
     <trd lng="de">Untermodul</trd>
     <trd lng="en">submodule</trd>
     <trd lng="fr">sous-module</trd>
+    <trd lng="pl">podmodu&lstroke;</trd>
     <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.19  2002/10/21 16:33:55  revo
+Marc Bavant: ~o MAT: mod dif; mod operacion *
 Revision 1.18  2002/06/25 19:37:57  revo
 Marc Bavant: ~o (de komplekso): mod ekz
 Revision 1.17  2002/05/27 17:18:58  revo
@@ -212,7 +227,5 @@ Sergio Pokrovskij: -tajperaro
 Revision 1.11 2001/10/14 08:49:35 revo
 Jerome Vachey: blok.0o.agregato - blok.0o.agregata
 Revision 1.10 2001/06/24 18:57:15 revo
-Marc Bavant: ~o: +snc MAT (kongrueco); ~o 1: sxovis ref ekster dif; ~o 2: +trd
-Revision 1.9 2001/01/20 12:25:09 revo
 -->
 </vortaro>
