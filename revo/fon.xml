@@ -2,60 +2,92 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>fon</rad>/o
-<fnt>Z</fnt>
-</kap>
-<drv mrk="fon.0o">
-  <kap><tld/>o</kap>
-  <snc>
-    <dif>
-      Efektive ebena a&ubreve; pro malproksimeco &scirc;ajne ebena parto, el
-      kiu io elreliefi&gcirc;as a&ubreve; elkontrastas:
-      <ekz>
-        la dometo &ccirc;arme aspektis sur la <tld/>o de foliori&ccirc;aj
-        arboj;
-      </ekz>
-      <ekz>
-        oni vidis &scirc;ian profilon sur la ru&gcirc;eta
-        <tld/>o de la flamo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        sur la <tld/>o de la
-        horizonto desegni&gcirc;is ruinoj;
-      </ekz>
-      <ekz>
-        la trunkoj desegnis sin
-        nigre k klare sur la blanka ner&gcirc;o<tld/>o;
-      </ekz>
-      <ekz>
-        verda stelo sur blanka <tld/>o;
-      </ekz>
-      <ekz>
-        ora &ccirc;eneto balanci&gcirc;is sur la malhela <tld/>o de lia
-        surtuto;
-      </ekz>
-      <ekz>
-        la <tld/>o de tiu romano estas Germanujo
-        <klr>(f)</klr>;
-      </ekz>
-      <ekz>
-        en kiu <klr>[la bruo]</klr>, sur la <tld/>o de interparoladoj oni povis
-        distingi sonojn de flutoj kaj kriojn de la &ccirc;efoj
-        <fnt>(<aut>Prus, trad. Kabe</aut>: <vrk>La Faraono, 2a vol.</vrk>,
-        <lok>&ccirc;ap. 18</lok>)</fnt>.
-      </ekz>
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="fund.0o">fundo</ref>.
-    </refgrp>
-  </snc>
-  <trd lng="de">Hintergrund</trd>
-  <trd lng="en">background</trd>
-</drv>
-</art>
-<!--
-$Log$
--->
+  <art mrk="$Id$">
+    <kap>
+      <ofc>5</ofc>
+      <rad>fon</rad>/o
+      <fnt>Z</fnt>
+    </kap>
+    <drv mrk="fon.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <dif>
+          Efektive ebena a&ubreve; pro malproksimeco &scirc;ajne ebena parto, el
+          kiu io elreliefi&gcirc;as a&ubreve; elkontrastas:
+          <ekz>
+            la dometo &ccirc;arme aspektis sur la <tld/>o de foliori&ccirc;aj
+            arboj;
+          </ekz>
+          <ekz>
+            oni vidis &scirc;ian profilon sur la ru&gcirc;eta
+            <tld/>o de la flamo<fnt>Z</fnt>;
+          </ekz>
+          <ekz>
+            sur la <tld/>o de la
+            horizonto desegni&gcirc;is ruinoj;
+          </ekz>
+          <ekz>
+            la trunkoj desegnis sin
+            nigre kaj klare sur la blanka ner&gcirc;o<tld/>o;
+          </ekz>
+          <ekz>
+            verda stelo sur blanka <tld/>o;
+          </ekz>
+          <ekz>
+            ora &ccirc;eneto balanci&gcirc;is sur la malhela <tld/>o de lia
+            surtuto;
+          </ekz><ekz>
+            elekti helan, nigran, buntan <tld/>on de la ekrano
+            <klr>(kp <ref tip="ant" cel="fon.mal0o">malfono</ref>)</klr>;
+          </ekz><ekz>
+            la <tld/>o de tiu romano estas Germanujo
+            <klr>(f)</klr>;
+          </ekz>
+          <ekz>
+            en kiu <klr>[la bruo]</klr>, sur la <tld/>o de interparoladoj oni povis
+            distingi sonojn de flutoj kaj kriojn de la &ccirc;efoj
+            <fnt>(<aut>Prus, trad. Kabe</aut>: <vrk>La Faraono, 2a vol.</vrk>,
+              <lok>&ccirc;ap. 18</lok>)</fnt>.
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="fund.0o">fundo</ref>.
+        </refgrp>
+      </snc>
+      <trd lng="de">Hintergrund</trd>
+      <trd lng="en">background</trd>
+      <trd lng="ru">&c_f;&c_o;&c_n;</trd>
+    </drv>
+    <drv mrk="fon.mal0o">
+      <kap>mal<tld/>o</kap>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          En dialogo kun komputilo, la &ccirc;efa koloro por signoj sur
+          la ekrano (kontraste al la <tld/>).
+        </dif>
+      </snc>
+      <trd lng="en">foreground <klr>(a screen color)</klr></trd>
+    </drv>
+    <drv mrk="fon.0a.regximo">
+      <kap><tld/>a re&gcirc;imo</kap>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          Plenumado de taskoj (procezoj) havantaj malpli grandan prioritaton
+          kiam la pli altprioritataj taskoj atendas iun risurcon a&ubreve;
+          eventon kaj sen <ref tip="ant" cel="dialog.0o.KOMP">dialogo</ref>
+          kun la uzula terminalo.
+        </dif>
+      </snc>
+      <trd lng="en">background processing</trd>
+      <trd lng="ru">&c_f;&c_o;&c_n;&c_o;&c_v;&c_y;&c_j; &c_r;&c_je;&c_zh;&c_i;&c_m;</trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.5  2000/05/25 20:18:24  revo
+  Wolfram Diestel: +ekzfnt, +germ trd
+
+  -->
 </vortaro>
