@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
 <art mrk="$Id$">
 <kap>
@@ -33,106 +32,120 @@ Io havanta formon de <tld/>o: <ekz>ellasi fum<tld/>ojn el sia cigaro.
 <ref cel="bracel.0o">braceleto</ref>.
 </refgrp>
 </snc>
-
-      <snc mrk="ring.0o.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Tia <ref tip="super" cel="magm.0o.MAT">magmo</ref> (<em>E</em>,T,*),
-          ke (<em>E</em>,T) estas <ref cel="komut.0eca.magmo">komut(ec)a</ref>
-          <ref cel="grup.0o.MAT">grupo</ref>, kaj * estas
-          <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
-          <ref cel="distri.0ebla.MAT">distribuebla</ref> rilate al T:
-          <ekz>
-            la <tld/>o (<em>E</em><sup>E</sup>,+,o) de la
-            <ref cel="bild.0igo">bildigoj</ref> de komuta grupo (<em>E</em>,+)
-            al si mem;
-          </ekz>
-          <ekz>
-            la unuan operacion de <tld/>o oni kutime signas adicie kaj la duan
-            multiplike;
-          </ekz>
-          <ekz>
-            la nulo (resp. unuo) de <tld/>o estas &gcirc;ia ne&ubreve;tra
-            elemento rilate la unuan (resp. duan) operacion.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="nul0.0o.neuxtra">nulo</ref>,
-          <ref cel="unu.0o.neuxtra">unuo</ref>,
-          <ref cel="unu.0hava">unuhava</ref>,
-          <ref cel="adici.0o.ringo">adicio</ref>,
-          <ref cel="multip.0o.ringo">multipliko</ref>.
-        </refgrp>
-        <rim>
-          Kelkaj postulas, ke la dua operacio havu ne&ubreve;tran
-          elementon (t.e. unuon). Tiajn <tld/>ojn oni nomas
-          unuhavaj.
-        </rim>
-      </snc>
-
+       <snc mrk="ring.0o.MAT">
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           Tia <ref tip="super" cel="magm.0o.MAT">magmo</ref> (<em>E</em>,T,*),
+           ke (<em>E</em>,T) estas <ref cel="komut.0eca.magmo">komut(ec)a</ref>
+           <ref cel="grup.0o.MAT">grupo</ref>, kaj * estas
+           <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
+           <ref cel="distri.0ebla.MAT">distribuebla</ref> rilate al T:
+           <ekz>
+             la <tld/>o (<em>E</em><sup>E</sup>,+,o) de la
+             <ref cel="bild.0igo">bildigoj</ref> de komuta grupo (<em>E</em>,+)
+             al si mem;
+           </ekz>
+           <ekz>
+             la unuan operacion de <tld/>o oni kutime signas adicie kaj la duan
+             multiplike;
+           </ekz>
+           <ekz>
+             la nulo (resp. unuo) de <tld/>o estas &gcirc;ia ne&ubreve;tra
+             elemento rilate la unuan (resp. duan) operacion.
+           </ekz>
+         </dif>
+         <refgrp tip="vid">
+           Epitetoj por ringo:
+           <ref cel="integr.0a.MAT">integra</ref>,
+           <ref cel="cxef.0a.ringo">&ccirc;efa</ref>,
+           <ref cel="komut.0eca.ringo">komut(ec)a</ref>,
+           <!--
+           factoriel,
+           -->
+           <ref cel="unu.0hava">unuhava</ref>;
+         </refgrp>
+         <refgrp tip="vid">
+           epitetoj por elemento en ringo:
+           <ref cel="invers.0igebla.MAT">inversigebla</ref>,
+           <ref cel="invers.ne0igebla">neinversigebla</ref>,
+           <ref cel="redukt.0ebla.MAT">reduktebla</ref>,
+           <ref cel="redukt.ne0ebla">nereduktebla</ref>,
+           <ref cel="prim.0a.elemento">prima</ref>;
+         </refgrp>
+         <refgrp tip="vid">
+           parencaj nocioj:
+           <ref cel="nul0.0o.neuxtra">nulo</ref>,
+           <ref cel="unu.0o.neuxtra">unuo</ref>,
+           <ref cel="adici.0o.ringo">adicio</ref>,
+           <ref cel="multip.0o.ringo">multipliko</ref>;
+           <ref cel="ideal.0o.MAT">idealo</ref>,
+           <ref cel="ring.sub0o.MAT">subringo</ref>.
+         </refgrp>
+         <rim>
+           Kelkaj postulas, ke la dua operacio havu ne&ubreve;tran
+           elementon (t.e. unuon). Tiajn <tld/>ojn oni nomas
+           unuhavaj.
+         </rim>
+       </snc>
 <trdgrp lng="cs">
-     <trd>prsten</trd>,
-     <trd>kruh</trd>,
-     <trd>obru&ccaron;</trd>
+      <trd>prsten</trd>,
+      <trd>kruh</trd>,
+      <trd>obru&ccaron;</trd>
 </trdgrp>
 <trd lng="en">ring</trd>
 <trd lng="fr">anneau</trd>
 <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 <trd lng="nl">ring</trd>
 </drv>
-
-     <drv mrk="ring.polinom0o">
-       <kap>polinom-<tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <klr>(de <tld/>o <em>R</em>)</klr>
-           <ref tip="super" cel="ring.0o.MAT"><tld lit="R"/>o</ref>
-           de &ccirc;iuj
-           <ref cel="polino.0o">polinomoj</ref> super <em>R</em>:
-           <ekz>
-             la polinom-<tld/>on de <em>R</em> oni ofte signas per
-             <em>R</em>[<em>X</em>].
-           </ekz>
-         </dif>
-       </snc>
-       <trd lng="fr">anneau des polyn&ocirc;mes</trd>
-     </drv>
-
-     <drv mrk="ring.sub0o.MAT">
-       <kap>sub<tld/>o</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <klr>(de <tld/>o (<em>E</em>,T,*))</klr>
-           Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-           (<em>A</em>,T<sub>A</sub>,*<sub>A</sub>), ke
-           <em>A</em> &#x2282; <em>E</em>,
-           (<em>A</em>,T<sub>A</sub>) estas <ref
-           cel="grup.sub0o">subgrupo</ref> de
-           (<em>E</em>,T) kaj x*<sub>A</sub>y = x*y&#x2208;A
-           por &ccirc;iuj x,y&#x2208;A:
-           <ekz>
-             la aro konsistanta nur el la nulo kaj unuo
-             de unuhava <tld/>o estas sub<tld/>o de &gcirc;i.
-           </ekz>
-         </dif>
-       </snc>
-       <trd lng="fr">sous-anneau</trd>
-       <trd lng="ru">&c_p;&c_o;&c_d;&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
-     </drv>
-
+      <drv mrk="ring.polinom0o">
+        <kap>polinom-<tld/>o</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            <klr>(de <tld/>o <em>R</em>)</klr>
+            <ref tip="super" cel="ring.0o.MAT"><tld lit="R"/>o</ref>
+            de &ccirc;iuj
+            <ref cel="polino.0o">polinomoj</ref> super <em>R</em>:
+            <ekz>
+              la polinom-<tld/>on de <em>R</em> oni ofte signas per
+              <em>R</em>[<em>X</em>].
+            </ekz>
+          </dif>
+        </snc>
+        <trd lng="fr">anneau des polyn&ocirc;mes</trd>
+      </drv>
+      <drv mrk="ring.sub0o.MAT">
+        <kap>sub<tld/>o</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            <klr>(de <tld/>o (<em>E</em>,T,*))</klr>
+            Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
+            (<em>A</em>,T<sub>A</sub>,*<sub>A</sub>), ke
+            <em>A</em> &#x2282; <em>E</em>,
+            (<em>A</em>,T<sub>A</sub>) estas <ref
+            cel="grup.sub0o">subgrupo</ref> de
+            (<em>E</em>,T) kaj x*<sub>A</sub>y = x*y&#x2208;A
+            por &ccirc;iuj x,y&#x2208;A:
+            <ekz>
+              la aro konsistanta nur el la nulo kaj unuo
+              de unuhava <tld/>o estas sub<tld/>o de &gcirc;i.
+            </ekz>
+          </dif>
+        </snc>
+        <trd lng="fr">sous-anneau</trd>
+        <trd lng="ru">&c_p;&c_o;&c_d;&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
+      </drv>
 </art>
 <!--
 $Log$
+Revision 1.10  2000/11/10 17:14:06  revo
+Joost Witteveen: +trd nl
 Revision 1.9  2000/10/29 17:13:19  revo
 Marc Bavant: mod dif (ne plu nepre unuhava), +drv sub~o
-
 Revision 1.8  2000/10/22 16:11:22  revo
 Marc Bavant: +ekz, +drv polinom-~o
-
 Revision 1.7  2000/10/15 17:36:43  revo
 Marc Bavant: +snc MAT
-
 -->
-</vortaro>
+</vortaro>
