@@ -85,6 +85,7 @@
   </snc>
   <snc mrk="elemen.0o.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib><lok>artikolo: aro</lok></fnt>
     <dif>
       &Ccirc;iu el la objektoj apartenantaj al <ref cel="ar.0o.MAT">aro</ref>:
       <ekz>
@@ -106,10 +107,13 @@
   </snc>
   <snc mrk="elemen.0o.matrico">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 14 (Determinantoj)</lok></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 14 (de determinanto)</lok></fnt>
     <dif>
       <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
-      &Ccirc;iu el &gcirc;iaj bildoj:
+      <refgrp tip="sin">
+        <ref cel="term.0o.matrico">Termo</ref>,
+        <ref cel="koefic.0o.matrico">koeficiento</ref>:
+      </refgrp>
       <ekz>
         (n,p)-matrico enhavas np <tld/>ojn;
       </ekz>
@@ -117,31 +121,30 @@
         &ccirc;iuj elementoj de nulmatrico egalas al 0.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="koefic.0o.matrico">koeficiento</ref>,
-      <ref cel="term.0o.matrico">termo</ref>.
-    </refgrp>
+    <rim>
+      Ni ne trovis vere konvinkan fonton por tiu termino, sed &gcirc;i 
+      &scirc;ajnas internacia. Estas la sama problemo kun &gcirc;i, kiel estas
+      kun <ctl>vico</ctl>, <ctl>opo</ctl>, <ctl>familio</ctl> a&ubreve; 
+      <ctl>polinomo</ctl>: la naciaj lingvoj uzas preska&ubreve; indiferente, 
+      sed nekohere inter si, terminojn de la tipo <ctl>termo</ctl>, 
+      <ctl>elemento</ctl>, <ctl>koeficiento</ctl>, <ctl>membro</ctl> ks.
+      <ctl>Elemento</ctl> estas aparte malbonvena pro &gcirc;ia kolizio kun
+      la arteoria senco, des pli ke gravas ne konfuzi opon
+      a&ubreve; matricon kun aro. <ctl>Termo</ctl> ne pla&ccirc;as al iuj
+      &gcirc;erman- kaj slav-lingvanoj pro &gcirc;ia troa ligiteco kun adicio,
+      same kiel aliajn &scirc;okus <ctl>faktoro</ctl>, dum ili facilanime
+      akceptas <ctl>koeficiento</ctl>. Tamen &ccirc;i-lasta &gcirc;uste
+      &scirc;okas, kiam ne plu klare aperas, al kiu 
+      grando, &gcirc;i multiplike apliki&gcirc;as (do uzi &gcirc;in por matrico
+      implicite resendas al <ctl>matrico de lineara ekvaciaro</ctl>, kio estas 
+      nur unu aplikkampo de matricoj). <ctl>Membro</ctl>, <ctl>ano</ctl>
+      a&ubreve; e&ccirc; <ctl>ero</ctl>, povus esti solvoj al tiu problemo, 
+      sed &scirc;ajne ne estas uzataj.
+    </rim>
     <trd lng="de">Element<klr tip="ind"> (einer Matrix)</klr></trd>
     <trd lng="en">element<klr tip="ind"> (of a matrix)</klr></trd>
     <trd lng="fr">&eacute;l&eacute;ment<klr tip="ind"> (d'une matrice)</klr></trd>
     <trd lng="ru">&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;<klr tip="ind"> (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>
-    <adm>
-      Mi ne trovis fonton por tiu termino, sed gxi sxajnas
-      internacia. Estas la sama problemo kun gxi, kiel estas
-      kun "vico", "opo", "familio", "polinomo". La naciaj lingvoj
-      uzas preskaux indiferente, sed nekohere inter si, terminojn
-      de la tipo "termo", "elemento", "koeficiento", "membro"...
-      "Elemento" estas aparte malbonvena pro gxia kolizio kun
-      la arteoria senco, des pli ke tre gravas ne konfuzi opon
-      aux matricon kun aro. "Termo" ne placxas al gxerman- kaj
-      slav-lingvanoj pro gxia troa ligiteco kun adicio. "Koeficiento"
-      sxokas, kiam ne plu klare aperas al kiu grando, gxi multiplike
-      aplikigxas (do uzi gxin por matrico implicite resendas al
-      "matrico de lineara ekvaciaro", kio estas nur unu aplikkampo
-      de matricoj). "Membro", aux ecx "ano" proponita de Sergio,
-      povus esti solvo al tiu problemo, sed sxajne ne estas
-      uzataj. <aut>MB</aut>
-    </adm>
   </snc>
   <trd lng="cs">&zcaron;ivel</trd>
   <trd lng="de">Element</trd>
@@ -204,6 +207,9 @@
 </art>
 <!--
 $Log$
+Revision 1.23  2002/02/23 19:58:21  revo
+Marc Bavant: ~o (matrico): +fnt
+
 Revision 1.22  2002/01/06 17:44:36  revo
 Jerome Vachey: - malgxusta cit el proverbaro
 
@@ -220,8 +226,5 @@ Revision 1.17 2001/09/22 18:13:27 revo
 Paul Peeraerts: ald trd nl
 Revision 1.16 2001/09/02 18:16:49 revo
 Marc Bavant: ~o MAT: -em; ~o 2: kor FIG; ~a: kor "aritmeliko", +ref al ~a
-geometrio
-Revision 1.15 2001/07/19 18:10:57 revo
-Wolfram Diestel: aldonis url-on al tabelo de kemiaj elementoj
 -->
 </vortaro>
