@@ -2,28 +2,63 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap><rad>parametr</rad>/o</kap>
-<drv mrk="parame.0o">
-  <kap><tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      Konstanta grando en ekvacio de kurbo a&ubreve; surfaco.
-    </dif>
-  </snc>
-  <trd lng="de">Parameter</trd>
-  <trd lng="nl">parameter</trd>
-  <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.5 2001/08/22 18:13:41 revo
-Paul Peeraerts: ald trd nl
+  <art mrk="$Id$">
+    <kap><rad>parametr</rad>/o</kap>
 
-Revision 1.4 2001/07/17 18:11:41 revo
-Dennis Wibrow: +trd germ
+    <drv mrk="parame.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="parame.0o.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Konstanta grando en ekvacio de kurbo a&ubreve; surfaco.
+        </dif>
+      </snc>
+      <snc mrk="parame.0o.KOMP">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Nomhava argumento a&ubreve; rezulto de
+          <ref tip="malprt" cel="proced1.0o.komp">proceduro</ref>,
+          parto de ties <ref tip="malprt" cel="fac.inter0o">interfaco</ref>:
+          <ekz>
+            <ind>formala <tld/>o</ind>
+            <klr>(nomo uzata en la korpo de proceduro)</klr>;
+            <trd lng="en">formal parameter</trd>
+            <trd lng="ru">&c_f;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;</trd>
+          </ekz><ekz>
+            <ind>fakta <tld/>o</ind>
+            <klr>(esptimo aperanta procedurvoko)</klr>;
+            <trd lng="en">actual parameter</trd>
+            <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;</trd>
+          </ekz><ekz>
+            <ind><tld/>opasigo</ind>
+            <klr>(la operacioj kaj datumstrukturoj uzataj de la
+              vokanta programo por indiki al la vokata proceduro
+              objektojn kaj valorojn super kiuj estu plenumata la      
+              proceduro)</klr>;
+            <trdgrp lng="en">
+              <trd>parameter passing</trd>,
+              <trd>parameter substitution</trd>
+            </trdgrp>
+            <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_d;&c_a;&c_ch;&c_a; &c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;&c_o;&c_v;</trd>
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="de">Parameter</trd>
+      <trd lng="en">parameter</trd>
+      <trd lng="nl">parameter</trd>
+      <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;</trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.6  2001/12/11 18:25:19  revo
+  Yury Finkel: +trd ru
 
--->
+  Revision 1.5 2001/08/22 18:13:41 revo
+  Paul Peeraerts: ald trd nl
+
+  Revision 1.4 2001/07/17 18:11:41 revo
+  Dennis Wibrow: +trd germ
+
+  -->
 </vortaro>
