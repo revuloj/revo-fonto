@@ -94,6 +94,7 @@
   </snc>
   <snc mrk="radik.0o.polinomo">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
     <dif>
       <klr>(de <ref cel="polino.0o">polinomo</ref>)</klr>
       <ref tip="super" cel="nul0.0iganto.de_funkcio">Nuliganto</ref>
@@ -117,14 +118,12 @@
   </snc>
   <snc mrk="radik.0o.per">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 10</lok></fnt>
     <dif>
       <klr>(de <ref cel="reel.0o.MAT">reelo</ref> x per n)</klr>
       &Gcirc;ia <ref tip="dif" cel="radik.noa0o">n-a <tld/>o</ref>:
       <ekz>
-        <tld/>on oni ofte signas per la <ind><tld/>signo</ind>
-        &#8730;.
-        <trd lng="fr">radical<klr tip="ind"> (signe math.)</klr></trd>
+        <tld/>on oni ofte signas per la <tld/>signo.
       </ekz>
     </dif>
     <trd lng="fr">racine<klr tip="ind"> (d'un nombre)</klr></trd>
@@ -251,6 +250,25 @@
   <trd lng="ru">&c_k;&c_o;&c_r;&c_n;&c_je;&c_v;&c_a;&c_ja; &c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;</trd>
 </drv>
 
+<drv mrk="radik.0ilo">
+  <kap><tld/>ilo</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 10</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="radik.0signo"><tld/>signo.</ref>
+  </snc>
+  <trdgrp lng="en">
+    <trd>root sign</trd>,
+    <trd>radical sign</trd>
+  </trdgrp>
+  <trd lng="de">Wurzelzeichen</trd>
+  <trd lng="fr">radical<klr tip="ind"> (signe math.)</klr></trd>
+  <trdgrp lng="ru">
+    <trd>&c_z;&c_n;&c_a;&c_k; &c_k;&c_o;&c_r;&c_n;&c_ja;</trd>,
+    <trd>&c_r;&c_a;&c_d;&c_i;&c_k;&c_a;&c_l;</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="radik.el0i">
   <kap>el<tld/>i<fnt>PV</fnt></kap>
   <snc>
@@ -374,25 +392,43 @@
   <trd lng="fr">racine d'ordre n</trd>
   <trd lng="ru">&c_k;&c_o;&c_r;&c_je;&c_n;&c_mol; &c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_i; n</trd>
 </drv>
+
+<drv mrk="radik.0signo">
+  <kap><tld/>signo</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Signo &#8730;.
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>root sign</trd>,
+    <trd>radical sign</trd>
+  </trdgrp>
+  <trd lng="de">Wurzelzeichen</trd>
+  <trd lng="fr">radical<klr tip="ind"> (signe math.)</klr></trd>
+  <trdgrp lng="ru">
+    <trd>&c_z;&c_n;&c_a;&c_k; &c_k;&c_o;&c_r;&c_n;&c_ja;</trd>,
+    <trd>&c_r;&c_a;&c_d;&c_i;&c_k;&c_a;&c_l;</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.21 2002/01/08 19:27:40 revo
+Yury Finkel: +trd ru
 Revision 1.20 2001/10/22 18:12:57 revo
 Marc Bavant: ~o (de polinomo): +dif, mod ref; ~o (de ekvacio): mod dif; ~o
 (de reelo): +ref al reelo
-
 Revision 1.19 2001/09/30 19:10:50 revo
 Sergio Pokrovskij: radika.FIG
-
 Revision 1.18 2001/09/29 18:13:27 revo
 Sergio Pokrovskij: snc-mrk, transporto en radikalon(GRA)
-
 Revision 1.17 2001/09/10 18:14:00 revo
 Marc Bavant: mod fnt PIV1, sxovis fakindikojn, mod klr en trd
-
 Revision 1.16 2001/06/14 19:51:38 revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.15 2001/01/04 11:10:49 revo
 Marc Bavant: kor trd ru cxe ~o de ekvacio, kosmetikaj sxangxoj pri ~o de
 polinomo (pro la nova aspekto de ref kun tip="dif") kaj el~i
