@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" 
+  width="500" height="350" 
+  viewBox="0 0 500 350" preserveAspectRatio="xMaxYMax">
+
+  <title>Dusekcantoj de triangulo</title>
+  <desc>
+    Figuras triangulon kun ĝiaj dusekcantoj, kies intersekco estas
+    la centro de la enskribita cirklo
+  </desc>
+  
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        text {font-family: 'Arial'; font-size: 15; font-weight: bold}
+        line {stroke: black; stroke-width:2}
+        circle {stroke: black; stroke-width:2}
+        path {stroke: black;fill:none}
+        polygon {stroke: black;fill:none; stroke-width:2}
+        .greka {font-family: 'Lucida Sans Unicode'; font-size: 16}
+        .indico {vertical-align: sub; font-size:smaller; font-weight: normal}
+        line.streketita {stroke:lightsalmon;stroke-dasharray:5,2}
+        text.cirklo {fill: darkgreen}
+        circle.cirklo {stroke: darkgreen; fill:none}
+      ]]>
+    </style>
+  </defs>
+
+  <g id="Triangulo">
+    <!-- 
+      Triangulo
+    -->
+    <polygon points="38,296 443,296 354,42"/>
+
+    <text x="21" y="314">A</text>
+    <text x="453" y="318">B</text>
+    <text x="371" y="44">C</text>
+  </g>
+
+  <!-- 
+    Dusekcantoj 
+  -->
+  <line x1="-501" y1="485" x2="1412" y2="-186" class="streketita"/>
+  <text x="432" y="146">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>
+  </text>
+
+  <line x1="1312" y1="912" x2="-341" y2="-261" class="streketita"/>
+  <text x="196" y="116">
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>
+  </text>
+
+  <line x1="579" y1="-738" x2="19" y2="1210" class="streketita"/>
+  <text x="293" y="320">
+      r<tspan baseline-shift="-50%" class="indico">C</tspan>
+  </text>
+
+  <!--
+    Anguloj
+  -->
+  <path d="M 66 286 A 30 30 0 0 0 61 277"/>
+  <text x="95" y="260">
+   <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">1</tspan>
+  </text>
+  <path d="M 68 296 A 30 30 0 0 0 66 286"/>
+  <text x="100" y="285">
+    <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+  <path d="M 419 279 A 30 30 0 0 0 413 296"/>
+  <text x="392" y="288">
+    <tspan class="greka">β</tspan><tspan baseline-shift="-50%" class="indico">1</tspan>
+  </text>
+  <path d="M 433 268 A 30 30 0 0 0 419 279"/>
+  <text x="407" y="264">
+    <tspan class="greka">β</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+  <path d="M 346 71 A 30 30 0 0 0 364 70"/>
+  <text x="348" y="89">
+    <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">1</tspan>
+  </text>
+  <path d="M 331 61 A 30 30 0 0 0 346 71"/>
+  <text x="323" y="82">
+    <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+
+  <!--
+    Enskribita cirklo
+  -->
+  <circle cx="309" cy="201" r="95" class="cirklo"/>
+  <text x="310" y="220" class="cirklo">O</text>
+  <text x="225" y="213" class="cirklo">EC</text>
+
+  <!--
+    Komento
+  -->
+  <text x="17" y="67">
+      <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">1</tspan> = 
+      <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+  <text x="17" y="91">
+      <tspan class="greka">ß</tspan><tspan baseline-shift="-50%" class="indico">1</tspan> = 
+      <tspan class="greka">ß</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+  <text x="17" y="115">
+      <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">1</tspan> = 
+      <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+  <text x="17" y="139">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">C</tspan> :
+      dusekcantoj
+  </text>
+  <text x="17" y="163">
+      EC : enskribita cirklo
+  </text>
+</svg>
+
