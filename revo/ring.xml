@@ -59,10 +59,9 @@ Io havanta formon de <tld/>o: <ekz>ellasi fum<tld/>ojn el sia cigaro.
            Epitetoj por ringo:
            <ref cel="integr.0a.MAT">integra</ref>,
            <ref cel="cxef.0a.ringo">&ccirc;efa</ref>,
+           <ref cel="ring.euxklida0o">e&ubreve;klida</ref>,
+           <ref cel="ring.faktoreca0o">faktoreca</ref>,
            <ref cel="komut.0eca.ringo">komut(ec)a</ref>,
-           <!--
-           factoriel,
-           -->
            <ref cel="unu.0hava">unuhava</ref>;
          </refgrp>
          <refgrp tip="vid">
@@ -98,6 +97,74 @@ Io havanta formon de <tld/>o: <ekz>ellasi fum<tld/>ojn el sia cigaro.
 <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 <trd lng="nl">ring</trd>
 </drv>
+
+    <drv mrk="ring.euxklida0o">
+      <kap>e&ubreve;klida <tld/>o</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <ref cel="komut.0eca.ringo">Komuteca</ref>, 
+          <ref cel="integr.0a.MAT">integra</ref>
+          <ref tip="super" cel="ring.0o.MAT">ringo</ref> <em>R</em>, konsiderata
+          kune kun tia bildigo &phi;, ke al &ccirc;iu nenula elemento a 
+          &gcirc;i asocias entjeron &phi;(a)&#x2265;0, kaj ke 
+          &phi;(a)&#x2264;&phi;(b) se a estas divizoro de b, kun la aldona
+          kondi&ccirc;o, ke por &ccirc;iu paro (a,b) kun nenula b ekzistas
+          almena&ubreve; unu tia paro (q,r), ke a=b.q+r kaj 
+          &phi;(a)&#x2264;&phi;(b):
+          <ekz>
+            la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
+            <klr>(&phi;(a)=|a|)</klr>;
+          </ekz>
+          <ekz>
+            &ccirc;iu <ref cel="ring.polinom0o">polinom<tld/>o</ref>
+            estas e&ubreve;klida <tld/>o, konsiderante la bildigon &phi;, kiu
+            al polinomo asocias &gcirc;ian gradon;
+          </ekz>
+          <ekz>
+            &ccirc;iu e&ubreve;klida ringo estas 
+            <ref cel="cxef.0a.ringo">&ccirc;efa</ref>. 
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="euxkli.0o">E&ubreve;klido</ref>,
+          <ref cel="divid.euxklida0o">e&ubreve;klida divido</ref>,
+          <ref cel="kvocie.0o.euxklida">kvociento</ref>,
+          <ref cel="rest.0o.euxklida">resto</ref>.
+        </refgrp>
+      </snc>
+      <trd lng="fr">anneau euclidien</trd>
+    </drv>
+    
+    <drv mrk="ring.faktoreca0o">
+      <kap>faktoreca <tld/>o</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Tia <ref cel="komut.0eca.ringo">komuteca</ref>, 
+          <ref cel="integr.0a.MAT">integra</ref>,
+          <ref cel="unu.0hava">unuhava</ref>
+          <ref tip="super" cel="ring.0o.MAT">ringo</ref> <em>R</em>, 
+          ke &ccirc;iu &gcirc;ia elemento esprimi&gcirc;as kiel
+          unika produto de <ref cel="redukt.ne0ebla">neredukteblaj</ref> 
+          <ref cel="faktor.0o.multip">faktoroj</ref>:
+          <ekz>
+            la <tld/>o de entjeroj estas faktoreca <tld/>o;
+          </ekz>
+          <ekz>
+            &ccirc;iu <ref cel="cxef.0a.ringo">&ccirc;efa</ref>
+            <tld/>o estas faktoreca.
+          </ekz>
+        </dif>
+        <rim>
+          La unikeco ne estas absoluta. La faktoroj en du malkomponi&gcirc;oj 
+          de la sama elemento povas diferenci per inversigebla faktoro. Ekz-e
+          6=2&#xd7;3=(-2)&#xd7;(-3).
+        </rim>
+      </snc>
+      <trd lng="fr">anneau factoriel</trd>
+    </drv>
+
       <drv mrk="ring.polinom0o">
         <kap>polinom-<tld/>o</kap>
         <snc>
@@ -140,12 +207,12 @@ Io havanta formon de <tld/>o: <ekz>ellasi fum<tld/>ojn el sia cigaro.
 </art>
 <!--
 $Log$
+Revision 1.13  2001/01/13 18:46:45  revo
+Marc Bavant: magmo -> algebra strukturo
 Revision 1.12  2000/12/10 18:46:56  revo
 uzo tip=stl
-
 Revision 1.11  2000/11/13 17:13:36  revo
 Marc Bavant: +refgrp al rilatantaj nocioj
-
 Revision 1.10  2000/11/10 17:14:06  revo
 Joost Witteveen: +trd nl
 Revision 1.9  2000/10/29 17:13:19  revo
