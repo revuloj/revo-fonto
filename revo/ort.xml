@@ -4,24 +4,119 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
+<ofc>8</ofc>
 <rad>ort</rad>/a
-<fnt>Z</fnt>
 </kap>
+
+     <drv mrk="ort.0o">
+       <kap><tld/>o</kap>
+       <snc>
+         <uzo tip="fak">MAT</uzo>
+         <uzo tip="klr">(elementa geometrio)</uzo>
+         <dif>
+           90-grada angulo:
+           <ekz>
+             se du rektoj kruci&gcirc;as tiel, ke du apudaj anguloj
+             estas egalaj, ili determinas kvar <tld/>ojn<fnt>8a OA</fnt>.
+           </ekz>
+         </dif>
+       </snc>
+       <trd lng="fr">angle droit</trd>
+     </drv>
+
+
 <drv mrk="ort.0a">
-<kap><tld/>a</kap>
+<kap><tld/>a<fnt>Z</fnt></kap>
 <uzo tip="fak">MAT</uzo>
-<snc>
-<uzo tip="klr">(pri angulo)</uzo><dif>
-Formita de linio perpendikla al alia, rekta, rektangula. <em><tld/>anto</em> (&ccirc;e triangulo). Perpendiklo strekita  de la vertico al la kontra&ubreve;a latero. 
-</dif>
-</snc>
-</drv>
-<drv mrk="ort.0angulo">
-<kap><tld/>angulo</kap>
-<snc>
+
+<snc mrk="ort.0a.angulo">
 <dif>
-Kvarlatero havanta kvar <tld/>ajn angulojn.  
+<klr>(p.p. angulo)</klr>
+Estanta <tld/>o.
 </dif>
+<trd lng="fr">droit (angle)</trd>
 </snc>
-</drv>
-</art></vortaro>
+
+<snc mrk="ort.0a.kurboj">
+<dif>
+<klr>(p.p. kurboj a&ubreve; rektoj)</klr>
+Tiaj, ke ili kruci&gcirc;as formante <tld/>on:
+<ekz>
+   la teraj meridianoj kaj paraleloj estas inter si <tld/>aj.
+</ekz>
+</dif>
+<adm>
+   Enkonduki la geografian sencon de "paralelo" en la
+   artikolo "paralela". (MB)
+</adm>
+<trdgrp lng="fr">
+   <trd>orthogonal</trd>,
+   <trd>perpendiculaire</trd></trdgrp>
+</snc>
+
+       <snc mrk="ort.0a.vektoroj">
+         <dif>
+           <klr>(p.p. vektoroj en
+           <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>)</klr>
+           Tiaj, ke ilia <ref cel="produt.skalara0o">skalara produto</ref>
+           egalas al nulo:
+           <ekz>
+             se x estas <tld/>a kun y, validas la pitagora teoremo:
+             ||x+y||<sup>2</sup>=||x||<sup>2</sup>+||y||<sup>2</sup>;
+           </ekz>
+           <ekz>
+             <tld/>a <ref cel="baz.0o.vektoraspaco">bazo</ref> estas bazo,
+             kies &ccirc;iuj vektoroj estas <tld/>aj inter si;
+           </ekz>
+           <ekz>
+             oni diras, ke vektoro estas <tld/>a kun subaro, se &gcirc;i estas
+             <tld/>a kun &ccirc;iu &gcirc;ia elemento.
+           </ekz>
+         </dif>
+         <trd lng="fr">orthogonal</trd>
+       </snc>
+
+       <snc mrk="ort.0a.aro">
+         <dif>
+           <klr>(p.p. subaro de
+           <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>,
+           rilate al alia subaro <em>A</em>)</klr>
+           Tia, ke &ccirc;iuj &gcirc;iaj elementoj estas
+           <ref cel="ort.0a.vektoroj"><tld/>aj
+           <sncref ref="ort.0a.vektoroj"/></ref>
+           kun tiuj de <em>A</em>:
+           <ekz>
+             la <tld/>a aro de subaro estas fermita vektora subspaco.
+           </ekz>
+         </dif>
+         <trd lng="fr">orthogonal</trd>
+       </snc>
+     </drv>
+
+     <drv mrk="ort.0angulo">
+       <kap><tld/>angulo</kap>
+       <snc>
+         <dif>
+           <ref tip="dif" cel="angul.rekt0o">rektangulo</ref>.
+         </dif>
+       </snc>
+     </drv>
+
+     <drv mrk="ort.0anto">
+       <kap><tld/>anto</kap>
+       <snc>
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           <klr>(&ccirc;e triangulo)</klr>
+           Perpendiklo strekita de la vertico al la kontra&ubreve;a latero.
+         </dif>
+       </snc>
+       <trd lng="fr">hauteur (dans un triangle)</trd>
+     </drv>
+
+</art>
+
+<!--
+$Log$
+-->
+</vortaro>
