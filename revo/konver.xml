@@ -10,23 +10,32 @@
 <drv mrk="konver.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc mrk="konver.0i.FIZ">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="fak">FIZ</uzo>
+  <snc mrk="konver.0i.kunveni">
+    <uzo tip="klr">(p.p. linioj, direktoj, radioj)</uzo>
     <dif>
-      Celi al sama punkto:
-      <ekz>la sunaj radioj, trapasinte konveksan lenson,
-        <tld/>as al &gcirc;ia fokuso<fnt>B</fnt>;
+      Celi al sama punkto, kunveni:
+      <ekz>
+        <uzo tip="fak">FOT</uzo>
+        la sunaj radioj, trapasinte konveksan lenson,
+        <tld/>as al &gcirc;ia fokuso <fnt><bib>VdE</bib></fnt>.
       </ekz>
+    </dif>
+  </snc>
+  <snc mrk="konver.0i.geometrio">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="klr">(fakula &jcirc;argono en geometrio)</uzo>
+    <dif>
+      <klr>(p.p. <ref cel="lini.0o.MAT">linioj</ref>)</klr>
+      Havi komunan punkton: 
       <ekz>
         &ccirc;iuj <ref cel="nask.0anto.rekto">naskantoj</ref> de
         <ref cel="konus.0o.surfaco">konuso</ref> <tld/>as
-        <klr>(intersekci&gcirc;as)</klr> &ccirc;e &gcirc;ia 
+        <klr>(intersekci&gcirc;as)</klr> &ccirc;e &gcirc;ia
         <ref cel="vertic.0o.konuso">vertico</ref>.
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="konver.0i.elementa">
     <uzo tip="fak">MAT</uzo>
     <uzo tip="klr">(elementa analitiko)</uzo>
     <dif>
@@ -42,28 +51,14 @@
   </snc>
   <snc mrk="konver.0i.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 17</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> (x<sub>n</sub>) en
       <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
-      Esti tia, ke &ccirc;iuj &gcirc;iaj termoj (krom finia nombro
-      da ili) apartenas al 
-      <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref> 
-      de certa 
-      punkto (&gcirc;ia <ref cel="limes.0o.vico">limeso</ref>), kiel ajn
-      oni elektas la &ccirc;irka&ubreve;a&jcirc;on:
-      <ekz>
-        en <ref cel="spac.metrika0o">metrika spaco</ref>, la
-        distanco inter termo x<sub>n</sub> de <tld/>anta vico kaj
-        &gcirc;ia limeso estas arbitre malgranda, se n estas sufi&ccirc;e 
-        granda;
-      </ekz>
+      Esti <tld/>a <sncref ref="konver.0a.MAT"/>:
       <ekz>
         la&ubreve;difine &ccirc;iuj ko&scirc;iaj vicoj <tld/>as
-        en <ref cel="komple2.0a.MAT">kompleta</ref> spaco;
-      </ekz>
-      <ekz>
-        se vico akceptas <ref cel="adher.0a.vico">adheran punkton</ref>, 
-        ekzistas <tld/>anta subvico de &gcirc;i.
+        en <ref cel="komple2.0a.MAT">kompleta</ref> spaco.
       </ekz>
     </dif>
     <rim>
@@ -72,44 +67,121 @@
       sendistinge <ctl>konver&gcirc;i</ctl> a&ubreve; <ctl>esti
       konver&gcirc;(ant)a</ctl>.
     </rim>
+    <trd lng="de">konvergieren</trd>
   </snc>
+  <refgrp tip="ant">
+    <ref cel="diverg.0i">diver&gcirc;i</ref>.
+  </refgrp>
   <trd lng="en">converge</trd>
   <trd lng="fr">converger</trd>
   <trd lng="ru">&#x441;&#x445;&#x43e;&#x434;&#x438;&#x442;&#x44c;&#x441;&#x44f;</trd>
 </drv>
+
+<drv mrk="konver.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="konver.0a.gxenerale">
+    <uzo tip="klr">(&gcirc;enerale)</uzo>
+    <dif>
+      <tld lit="K"/>anta.
+    </dif>
+  </snc>
+  <snc mrk="konver.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
+    <dif>
+      <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> (x<sub>n</sub>) en
+      <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
+      Tia, ke &ccirc;iuj &gcirc;iaj termoj (krom finia nombro da ili) apartenas
+      al <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+      de certa punkto <klr>(&gcirc;ia 
+      <ref cel="limes.0o.vico">limeso</ref>)</klr>, kiel ajn oni elektas la 
+      &ccirc;irka&ubreve;a&jcirc;on:
+      <ekz>
+        <tld/>a <ref cel="seri.0o.MAT">serio</ref> <klr>(kies
+        vico de partaj sumoj <tld/>as)</klr>;
+      </ekz>
+      <ekz>
+        en <ref cel="spac.metrika0o">metrika spaco</ref>, la
+        distanco inter termo x<sub>n</sub> de <tld/>a vico kaj
+        &gcirc;ia limeso estas arbitre malgranda, se n estas sufi&ccirc;e
+        granda;
+      </ekz>
+      <ekz>
+        se vico akceptas <ref cel="adher.0a.vico">adheran punkton</ref>,
+        ekzistas <tld/>a subvico de &gcirc;i.
+      </ekz>
+    </dif>
+    <trd lng="de">konvergent</trd>
+    <trd lng="en">convergent</trd>
+    <trd lng="ru">&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
+  </snc>
+  <trd lng="fr">convergent</trd>
+</drv>
+
+<drv mrk="konver.0igi">
+  <kap><tld/>igi</kap>
+  <snc>
+    <dif>
+      Igi <tld/>a:
+      <ekz>
+        <uzo tip="fak">FOT</uzo>
+        <ind><tld/>iga</ind> lenso
+        <fnt><bib>PIV1</bib></fnt>.
+        <trd lng="fr"><klr tip="amb">(lentille) </klr>convergente</trd>
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+
 <drv mrk="konver.mal0i">
   <kap>mal<tld/>i</kap>
-  <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       Ne <tld/>i, ne esti <tld/>anta.
     </dif>
-    <ref tip="sin" cel="diverg.0i.MAT">diver&gcirc;i.</ref>
+    <ref tip="sin" cel="diverg.0i">diver&gcirc;i.</ref>
   </snc>
+  <trd lng="de">divergieren</trd>
   <trd lng="en">diverge</trd>
   <trd lng="fr">diverger</trd>
   <trd lng="ru">&#x440;&#x430;&#x441;&#x445;&#x43e;&#x434;&#x438;&#x442;&#x44c;&#x441;&#x44f;</trd>
 </drv>
+
+<drv mrk="konverg.mal0a">
+  <kap>mal<tld/>a, ne<tld/>a</kap>
+  <snc>
+    <dif>
+      Ne <tld/>anta:
+      <ekz>
+        <uzo tip="fak">MAT</uzo>
+        ne<tld/>a serio
+        <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="diverg.0a.MAT">diver&gcirc;a.</ref>
+  </snc>
+  <trd lng="de">divergent</trd>
+  <trd lng="en">divergent</trd>
+  <trd lng="fr">divergent</trd>
+  <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
+</drv>
+
 </art>
 <!--
 $Log$
-Revision 1.9  2001/03/17 17:12:59  revo
+Revision 1.10 2001/04/14 17:24:55 revo
+Marc Bavant: vastigis la snc de ~i MAT al topologiaj spacoj, mod mrk; +ekz MAT cxe snc ~i 1
+Revision 1.9 2001/03/17 17:12:59 revo
 Marc Bavant: +uzo MAT cxe mal~i, +mrk
-
-Revision 1.8  2001/03/11 18:56:10  revo
+Revision 1.8 2001/03/11 18:56:10 revo
 Marc Bavant: kor ref cel al limeso
-
-Revision 1.7  2001/02/18 17:14:38  revo
+Revision 1.7 2001/02/18 17:14:38 revo
 Marc Bavant: -uzo KOMUNE, -adm
-
-Revision 1.6  2001/02/16 17:12:08  revo
+Revision 1.6 2001/02/16 17:12:08 revo
 Marc Bavant: +uzo MAT, FIZ, KOMUNE cxe la unua senco, aldonis plivastigitan snc MAT, mod de mal~i, kunfandis la du rimarkojn de la unua snc MAT
-
-Revision 1.5  2000/09/13 16:11:14  revo
+Revision 1.5 2000/09/13 16:11:14 revo
 Sergio Pokrovskij: fak=MAT
-
-Revision 1.4  2000/09/11 21:00:49  revo
+Revision 1.4 2000/09/11 21:00:49 revo
 Sergio Pokrovskij: MAT; trd{ru,en}
-
 -->
 </vortaro>
