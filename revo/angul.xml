@@ -9,13 +9,59 @@
 </kap>
 <drv mrk="angul.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc num="1">
-    <dif>
-      Nefermita parto de ebeno, limigita de du sin renkontantaj linioj &ccirc;u
-      rektaj, &ccirc;u kurbaj.
-    </dif>
+  <snc mrk="angul.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="angul.0o.afina">
+      <uzo tip="klr">(afina geometrio)</uzo>
+      <dif>
+        Paro de <ref cel="rekt.duon0o">duonrektoj</ref>
+        <klr>
+        (&gcirc;iaj <ref tip="prt" cel="later.0o.angulo">lateroj</ref>)
+        </klr>
+        kun komuna origino
+        <klr>
+        (&gcirc;ia <ref tip="prt" cel="vertic.0o.angulo">vertico</ref>);
+        </klr>
+      </dif>
+    </subsnc>
+    <subsnc mrk="angul.0o.figuro">
+      <uzo tip="klr">(elementa geometrio)</uzo>
+      <dif>
+        ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, kiun limas du
+        <ref cel="rekt.duon0o">duonrektoj</ref> kun komuna origino;
+      </dif>
+      <rim>
+        La difinon oni povas vastigi al la okazo, kiam la lateroj estas
+        kurbaj (ekz-e sfera <tld/>o).
+      </rim>
+    </subsnc>
+    <subsnc mrk="angul.0o.mezuro">
+      <dif>
+        mezuro de <tld/>o:
+        <ekz>
+          la sumo de la <tld/>oj de tri<tld/>o egalas al du ortoj.
+        </ekz>
+      </dif>
+    </subsnc>
+    <refgrp tip="vid">
+      Ecoj de angulo:
+      <ref cel="akut.0a.angulo">akuta</ref>,
+      <ref cel="obtuz.0a.angulo">obtuza</ref>,
+      <!--
+      <ref cel="konkav.0a.angulo">konkava</ref>,
+      <ref cel="konvek.0a.angulo">konveksa</ref>,
+      -->
+      <ref cel="strecx.0ita.angulo">stre&ccirc;ita</ref>;
+    </refgrp>
+    <refgrp tip="sub">
+      <ref cel="ort.0o">orto</ref>;
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="komple1.0o.angulo">komplemento</ref>,
+      <ref cel="suplem.0o.angulo">suplemento</ref>.
+    </refgrp>
   </snc>
-  <snc num="2">
+  <snc>
     <dif>
       Nefermita spaco limigita de du a&ubreve; kelkaj sin reciproke
       renkontantaj surfacoj:
@@ -24,7 +70,7 @@
       </ekz>
     </dif>
   </snc>
-  <snc num="3">
+  <snc>
     <uzo tip="stl">FIG</uzo>
     <dif>
       Malvasta, malofte vizitata a&ubreve; rigardata loko:
@@ -33,10 +79,11 @@
       </ekz>
     </dif>
   </snc>
-  <snc num="4">
+  <snc>
     <dif>
       Nedifinita loko:
-      <ekz>la kvar <tld/>oj de la tero
+      <ekz>
+        la kvar <tld/>oj de la tero
         <fnt>(<aut>Zamenhof</aut>, <vrk>Biblio</vrk>,
         <lok>Apokalipso, 7, 1</lok>)</fnt>.
       </ekz>
@@ -47,15 +94,17 @@
     <trd>kout</trd>,
     <trd>&uacute;hel</trd>
   </trdgrp>
-  <trdgrp lng="de"><trd>Ecke</trd>, <trd>Winkel</trd></trdgrp>
+  <trdgrp lng="de">
+    <trd>Ecke</trd>, <trd>Winkel</trd>
+  </trdgrp>
   <trd lng="en">angle</trd>
   <trdgrp lng="fr">
     <trd>angle</trd>,
-    <trd>coin</trd></trdgrp>
+    <trd>coin</trd>
+  </trdgrp>
   <trd lng="it">angolo</trd>
   <trd lng="ru">&#1091;&#1075;&#1086;&#1083;</trd>
 </drv>
-
 <drv mrk="angul.rekt0o">
   <kap>rekt<tld/>o, ort<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -69,10 +118,9 @@
   </snc>
   <trd lng="de">Rechteck</trd>
   <trd lng="fr">rectangle</trd>
-  <trd 
-lng="ru">&#1087;&#1088;&#1103;&#1084;&#1086;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1080;&#1082;</trd>
+  <trd
+  lng="ru">&#1087;&#1088;&#1103;&#1084;&#1086;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1080;&#1082;</trd>
 </drv>
-
 <drv mrk="angul.tri0o">
   <kap>tri<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -91,12 +139,15 @@ lng="ru">&#1087;&#1088;&#1103;&#1084;&#1086;&#1091;&#1075;&#1086;&#1083;&#1100;&
   <trd lng="de">Dreieck</trd>
   <trd lng="fr">triangle</trd>
   <trd lng="it">triangolo</trd>
-  <trd 
-lng="ru">&#1090;&#1088;&#1077;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1080;&#1082;</trd>
+  <trd
+  lng="ru">&#1090;&#1088;&#1077;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1080;&#1082;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.13  2001/04/03 16:43:57  revo
+Marc Bavant: kor ref tip al n-latero
+
 Revision 1.12  2001/03/31 18:07:56  revo
 Marc Bavant: mod dif cxe tri~o, rekt~o
 Revision 1.11  2000/12/10 18:45:51  revo
