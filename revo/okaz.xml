@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>*</ofc>
-<rad>okaz</rad>/i
+  <ofc>*</ofc>
+  <rad>okaz</rad>/i
 </kap>
 <drv mrk="okaz.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -21,7 +21,7 @@
         &scirc;i<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        se <tld/>os, ke li mortos;
+        se <tld/>os, ke li mortos...;
       </ekz>
       <ekz>
         povus <tld/>i, ke iu rekonus mian skribon.
@@ -47,6 +47,11 @@
     <trd>stattfinden</trd>
   </trdgrp>
   <trd lng="en">happen</trd>
+  <trdgrp lng="fr">
+    <trd>arriver<klr tip="ind"> (survenir)</klr></trd>,
+    <trd>se <ind>passer</ind><klr tip="ind"> (survenir)</klr></trd>,
+    <trd>survenir</trd>,
+    <trd>se <ind>tenir</ind><klr tip="ind"> (se passer)</klr></trd></trdgrp> 
   <trdgrp lng="nl">
     <trd>plaatshebben</trd>,
     <trd>gebeuren</trd>,
@@ -90,7 +95,7 @@
   <snc mrk="okaz.0o.kazo">
     <dif>
       Difinita aparta cirkonstanco;
-      <ref tip="sin" cel="kaz.0o.okazo">kazo 2</ref>:
+      <ref tip="sin" cel="kaz.0o.okazo">kazo <sncref ref="kaz.0o.okazo"/></ref>:
       <ekz>
         en tiaj <tld/>oj ni uzas la fina&jcirc;on n<fnt>Z</fnt>;
       </ekz>
@@ -168,6 +173,52 @@
     </dif>
     <trd lng="pt">ocasi&atilde;o</trd>
   </snc>
+  <snc mrk="okaz.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>EKV</bib><lok>&para;306</lok></fnt>
+    <dif>
+      <klr>(kadre de iu <ref cel="spac.probablo0o">probablospaco</ref>
+      (<em>&Omega;</em>,<em>A</em>,P))</klr>
+      &Ccirc;iu el la elementoj de <em>A</em>:
+      <ekz>
+        <ind>neebla <tld/>o</ind> <klr>(la malplena aro)</klr>;
+        <trd lng="de">unm&ouml;gliches <ind>Ereignis</ind></trd>
+        <trd lng="en">impossible <ind>event</ind></trd>
+        <trd lng="fr">&eacute;v&eacute;nement impossible</trd>
+        <trd lng="pl">zdarzenie niemo&zdot;liwe</trd>
+        <trd lng="ru">&c_n;&c_je;&c_v;&c_o;&c_z;&c_m;&c_o;&c_zh;&c_n;&c_o;&c_je; <ind>&c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_je;</ind></trd>
+      </ekz>
+      <ekz>
+        <ind>certa <tld/>o</ind> <klr>(la aro <em>&Omega;</em>)</klr>;
+        <trd lng="de">sicheres <ind>Ereignis</ind></trd>
+        <trd lng="en">certain <ind>event</ind></trd>
+        <trd lng="fr">&eacute;v&eacute;nement certain</trd>
+        <trd lng="pl">zdarzenie pewne</trd>
+        <trd lng="ru">&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_n;&c_o;&c_je;
+        <ind>&c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_je;</ind></trd>
+      </ekz>
+      <ekz>
+        <ind>kontra&ubreve;a <tld/>o</ind>
+        <klr>(<ref cel="komple1.0a.subaro">komplementa</ref>)</klr>.
+        <trd lng="de">komplement&auml;res <ind>Ereignis</ind></trd>
+        <trd lng="en">complementary <ind>event</ind></trd>
+        <trd lng="fr">&eacute;v&eacute;nement contraire</trd>
+        <trd lng="pl">zdarzenie przeciwne</trd>
+        <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_t;&c_je;&c_l;&c_n;&c_o;&c_je; <ind>&c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_je;</ind></trd>
+      </ekz>
+    </dif>
+    <rim>
+      Jam ekzistas <ctl><tld/>o</ctl> kaj <ctl><tld/>aro</ctl> en
+      <fnt><bib>MatVort</bib><lok>p. 28</lok></fnt>, sed por determini iliajn
+      sencojn necesus pli bone koni la terminologion de la tiama
+      probablokalkulo.
+    </rim>
+    <trd lng="de">Ereignis</trd>
+    <trd lng="en">event</trd>
+    <trd lng="fr">&eacute;v&eacute;nement</trd>
+    <trd lng="pl">zdarzenie losowe</trd>
+    <trd lng="ru">&c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_je;</trd>
+  </snc>
   <trdgrp lng="cs">
     <trd>p&rcaron;&iacute;pad</trd>,
     <trd>p&rcaron;&iacute;le&zcaron;itost</trd>,
@@ -177,6 +228,12 @@
     <trd>Ereignis</trd>,
     <trd>Geschehnis</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>aventure<klr tip="ind"> (ce qui arrive)</klr></trd>,
+    <trd>cas</trd>,
+    <trd>&eacute;v&eacute;nement</trd>,
+    <trd>occasion</trd>,
+    <trd>occurrence</trd></trdgrp> 
   <trdgrp lng="nl">
     <trd>geval</trd>,
     <trd>gebeurtenis</trd>,
@@ -204,6 +261,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="fr">
+    <trd>accidentel<klr tip="ind"> (occasionnel)</klr></trd>,
+    <trd>occasionnel</trd>,
+    <trd>sporadique</trd></trdgrp> 
   <trdgrp lng="nl">
     <trd>toevallig</trd>,
     <trd>incidenteel</trd>
@@ -219,6 +280,7 @@
       En tia <tld/>o, &ccirc;e la <tld/>o:
       <ekz>
         <ind><tld/>e de</ind> tio, mi deklaros, ke...;
+        <trd lng="fr">&agrave; l'occasion de</trd>
         <trd lng="ru">&c_v; &c_s;&c_l;&c_u;&c_ch;&c_a;&c_je;
         <klr>(&c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_g;)</klr></trd>
       </ekz>
@@ -256,6 +318,9 @@
     <trd lng="de">zuf&auml;llig</trd>
     <trd lng="ru">&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_o;</trd>
   </snc>
+  <trdgrp lng="fr">
+    <trd>occasionnellement</trd>,
+    <trd>&agrave; l'<ind>occasion</ind></trd></trdgrp> 
   <trdgrp lng="nl">
     <trd>toevallig</trd>,
     <trd>bij <ind>gelegenheid</ind> van</trd>,
@@ -275,6 +340,7 @@
     </dif>
   </snc>
   <trd lng="de">Ereignis</trd>
+  <trd lng="fr">&eacute;v&eacute;nement</trd>
   <trdgrp lng="nl">
     <trd>gebeurtenis</trd>,
     <trd>toevalligheid</trd>
@@ -286,10 +352,14 @@
 <drv mrk="okaz.0ebla">
   <kap><tld/>ebla</kap>
   <snc>
-    <dif>
-      <ref tip="dif" cel="eventu.0a">Eventuala</ref>.
-    </dif>
+    <fnt><bib>PV</bib></fnt>
+    <uzo tip="stl">EVI</uzo>
+    <ref tip="dif" cel="eventu.0a">eventuala.</ref>
   </snc>
+  <adm>
+    &Ccirc;ar ~i estas netransitiva, tiu formo aspektas tute malbona.
+    <aut>MB</aut>
+  </adm>
 </drv>
 
 <drv mrk="okaz.0igi">
@@ -311,6 +381,11 @@
     <trd>herbeif&uuml;hren</trd>,
     <trd>stattfinden lassen</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>causer<klr tip="ind"> (occasionner)</klr></trd>,
+    <trd>donner lieu (&agrave;)</trd>,
+    <trd>occasionner</trd>,
+    <trd>organiser</trd></trdgrp> 
   <trdgrp lng="nl">
     <trd>doen <ind>plaatshebben</ind></trd>,
     <trd>teweeg brengen</trd>,
@@ -329,9 +404,9 @@
   <snc>
     <dif>
       Aparta malgrava <tld/>o, plejofte malhelpa, kiu neatendite
-      intervenas en cirkonstancaro
+      intervenas en cirkonstancaro.
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="ven">intervena&jcirc;o</ref>,
       <ref cel="incide.0o">incidento</ref>.
     </refgrp>
@@ -341,32 +416,53 @@
 <drv mrk="okaz.kun0eco">
   <kap>kun<tld/>eco</kap>
   <snc>
-    <dif>
-      <ref tip="dif" cel="koinci.0o">Koincido</ref>.
-    </dif>
+    <ref tip="dif" cel="koinci.0o">koincido.</ref>
   </snc>
+  <trd lng="fr">co&iuml;ncidence</trd>
+</drv>
+
+<drv mrk="okaz.elementa0o">
+  <kap>elementa <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Unuelementa <ref cel="okaz.0o.MAT"><tld/>o <sncref/></ref>:
+      <ekz>
+        la <ref cel="probab.0o.de_okazo">probablo</ref> de <tld/>o 
+        egalas al la sumo de la probabloj de la elementaj <tld/>oj 
+        &gcirc;in konsistigantaj.
+      </ekz>
+    </dif>
+    <rim>
+      Oni foje nomas <ctl>elementa <tld/>o</ctl> la elementon mem.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Elementarereignis</trd>,
+    <trd>elementares <ind>Ereignis</ind></trd>
+  </trdgrp>
+  <trd lng="en">simple <ind>event</ind></trd>
+  <trd lng="fr">&eacute;v&eacute;nement &eacute;l&eacute;mentaire</trd>
+  <trd lng="pl">zdarzenie elementarne</trd>
+  <trd lng="ru">&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;&c_a;&c_r;&c_n;&c_o;&c_je; <ind>&c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_je;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.14  2002/05/30 15:03:12  revo
+Revision 1.15 2002/07/07 17:31:48 revo
+Wolfram Diestel: +snc-mrk, mankinta ref-cel
+Revision 1.14 2002/05/30 15:03:12 revo
 Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.13  2002/01/18 21:59:52  revo
+Revision 1.13 2002/01/18 21:59:52 revo
 fontindiko PrV per programo de Jerome
-
-Revision 1.12  2001/12/04 17:31:42  revo
+Revision 1.12 2001/12/04 17:31:42 revo
 Yury Finkel: reformatigis
-
 Revision 1.11 2001/10/14 08:49:53 revo
 Dennis Wibrow: +trd germ
-
 Revision 1.10 2001/09/19 18:14:13 revo
 Jerome Vachey: alendas - atendas
-
 Revision 1.9 2001/09/18 18:20:14 revo
 Yury Finkel: eraro en ekz (festa->festo)
-
 Revision 1.8 2001/09/17 18:15:29 revo
 -->
 </vortaro>
