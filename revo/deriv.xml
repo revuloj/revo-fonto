@@ -2,19 +2,70 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>deriv</rad>/i
-</kap>
-<drv mrk="deriv.0i">
-<kap><tld/>i</kap>
-<gra><vspec>tr</vspec></gra>
-<snc>
-<dif>
-Devenigi vorton de alia pli simpla: <ekz>la vorto "homaro" <tld/>i&gcirc;as de "homo";
-</ekz> <ekz><tld/>ita vorto.
-</ekz>
-</dif>
-</snc>
-</drv>
-</art></vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>4</ofc><rad>deriv</rad>/i
+    </kap>
+    <drv mrk="deriv.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc mrk="deriv.0i.gra">
+        <uzo tip="fak">GRA</uzo>
+        <dif>
+          Devenigi vorton de alia pli simpla:
+          <ekz>la vorto "homaro" <tld/>i&gcirc;as de "homo";
+          </ekz> <ekz><tld/>ita vorto.
+          </ekz>
+        </dif>
+        <trdgrp lng="ru">
+          <trd>&#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;&#x435;&#x441;&#x442;&#x438; <klr>(&#x441;&#x43b;&#x43e;&#x432;&#x43e; &#x43e;&#x442; &#x43e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x438; &#x442;.&#x43f;.)</klr></trd>,
+          <trd>&#x43e;&#x431;&#x440;&#x430;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd></trdgrp>
+      </snc>
+      <snc mrk="deriv.0i.mat">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Kalkuli <tld/>a&jcirc;on (de funkcio)
+          <ekz>funkcio <tld/>ebla.</ekz>
+        </dif>
+        <trd lng="en">differentiate</trd>
+        <trdgrp lng="ru"><trd>&#x434;&#x438;&#x444;&#x444;&#x435;&#x440;&#x435;&#x43d;&#x446;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c;</trd>,
+          <trd>&#x43d;&#x430;&#x439;&#x442;&#x438; <ind>&#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;&#x43e;&#x434;&#x43d;&#x443;&#x44e;</ind></trd></trdgrp>
+      </snc>
+    </drv>
+    <drv mrk="deriv.0ajxo">
+      <kap><tld/>i</kap>
+      <snc mrk="deriv.0ajxo.gra">
+        <uzo tip="fak">GRA</uzo>
+        <dif>
+          Vorto <tld/>ita.
+        </dif>
+        <trdgrp lng="ru">
+          <trd>&#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;&#x43e;&#x434;&#x43d;&#x430;&#x44f; &#x441;&#x43b;&#x43e;&#x432;&#x43e;&#x444;&#x43e;&#x440;&#x43c;&#x430;</trd>,
+          <trd>&#x434;&#x435;&#x440;&#x438;&#x432;&#x430;&#x442;</trd></trdgrp>
+      </snc>
+      <snc mrk="deriv.0ajxo.mat">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Por <ref cel="funkci.0o.mat">funkcio</ref> <frm>f</frm>, tia
+          funkcio <frm>f&#x2032;</frm>, ke
+          <frm>f&#x2032;(x) = lim<sub>h&#x2192;0</sub>&#xa0;[f(x+h)-f(x)]/h</frm>
+          (se tia <ref cel="limes.0o">limeso</ref> ekzistas):
+          <ekz>
+             unua (<frm>f&#x2032;</frm>), dua (<frm>f&#x2033;</frm>)
+             tria (<frm>f&#x2034;</frm>) <tld/>a&jcirc;oj;
+          </ekz><ekz>
+             parta <tld/>a&jcirc;o <klr>(pri funkcio plurargumenta, kiam nur unu
+             argumento varias)</klr>.
+          </ekz>
+        </dif>
+        <ref tip="vid" cel="difere1.0o">diferencialo</ref>
+        <ref tip="ant" cel="intergr2.0o">integralo</ref>
+        <trd lng="en">derivative</trd>
+        <trd lng="ru">&#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;&#x43e;&#x434;&#x43d;&#x430;&#x44f;</trd>
+      </snc>
+    </drv>
+  </art>
+<!--
+$Log$
+-->
+</vortaro>
