@@ -9,7 +9,7 @@
 </kap>
 <drv mrk="simetr.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="simetr.0o.BELA">
     <uzo tip="fak">BELA</uzo>
     <dif>
       Harmonio rezultanta el proporcieco kaj regula aran&gcirc;o de partoj:
@@ -19,7 +19,7 @@
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="simetr.0o.eco">
     <dif>
       <ref tip="dif" cel="simetr.0eco"><tld lit="S"/>eco</ref>:
       <ekz>
@@ -27,8 +27,9 @@
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="simetr.0o.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
     <subsnc mrk="simetr.0o.vektora">
       <dif>
         <klr>(en <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
@@ -74,12 +75,13 @@
         <ref cel="centr.simetri0o">simetricentro</ref>,
         <ref cel="eben.simetri0o">simetriebeno</ref>.
       </refgrp>
-      <rim>
-        Ial PIV1 ne konas tiajn matematikajn sencojn kaj atribuas similan
-        sencon al <ctl>reflekto</ctl>, kiu en naciaj lingvoj estas ofta
-        sinonimo de ebena <tld/>o.
-      </rim>
     </subsnc>
+    <rim>
+      Ial PIV1 ne konas tiajn matematikajn sencojn kaj atribuas similan
+      sencon al <ctl>reflekto</ctl>, kiu en naciaj lingvoj estas ofta
+      sinonimo de ebena <tld/>o. Matematika Vortaro ne sekvis la PIV-an
+      vojon.
+    </rim>
   </snc>
   <trd lng="de">Symmetrie</trd>
   <trd lng="fr">sym&eacute;trie</trd>
@@ -103,6 +105,7 @@
   </snc>
   <snc mrk="simetr.0a.figuro">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
     <dif>
       <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
       Tia, ke <tld/>o lasas &gcirc;in sen&scirc;an&gcirc;a; alidire:
@@ -200,31 +203,34 @@
 </drv>
 <drv mrk="simetr.oblikva0o">
   <kap>oblikva <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <ref tip="dif" cel="simetr.0o.oblikva"><tld/>o <sncref ref="simetr.0o.oblikva"/>.</ref>
+    <ref tip="dif" cel="simetr.0o.oblikva"><tld/>o <sncref ref="simetr.0o.MAT"/><sncref ref="simetr.0o.oblikva"/>.</ref>
   </snc>
   <trd lng="fr">sym&eacute;trie oblique</trd>
 </drv>
 <drv mrk="simetr.orta0o">
   <kap>orta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <ref tip="dif" cel="simetr.0o.orta"><tld/>o <sncref ref="simetr.0o.orta"/>.</ref>
+    <ref tip="dif" cel="simetr.0o.orta"><tld/>o <sncref ref="simetr.0o.MAT"/><sncref ref="simetr.0o.orta"/>.</ref>
   </snc>
   <trd lng="fr">sym&eacute;trie orthogonale</trd>
 </drv>
 <drv mrk="simetr.vektora0o">
   <kap>vektora <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
-    <ref tip="dif" cel="simetr.0o.vektora"><tld/>o <sncref ref="simetr.0o.vektora"/>.</ref>
+    <ref tip="dif" cel="simetr.0o.vektora"><tld/>o <sncref ref="simetr.0o.MAT"/><sncref ref="simetr.0o.vektora"/>.</ref>
   </snc>
   <trd lng="fr">sym&eacute;trie vectorielle</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.10  2001/09/15 19:28:34  revo
+Dennis Wibrow: +trd germ
+
 Revision 1.9  2001/06/09 18:49:50  revo
 Marc Bavant: +drv ~eco; sxovis unuan snc de ~o al la dua loko (= ~eco); +ekz k uzo BELA por la nova unua snc; sxovis ekz-ojn kun ~a, ~e al ~a; kunigis snc-ojn MAT de ~o en unu; +trd fr
 
@@ -241,8 +247,5 @@ Revision 1.5  2000/11/14 17:13:28  revo
 Joost Witteveen: +trd nl
 
 Revision 1.4  2000/10/02 16:13:51  revo
-Marc Bavant: +drv MAT ~a, mal~a (pp rilato)
-
 -->
 </vortaro>
-
