@@ -2,116 +2,140 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-<ofc>1</ofc>
-      <rad>protokol</rad>/o
-    </kap>
-    <drv mrk="protok.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="protok.0o.raporto">
-        <dif>
-          Oficiala raporto, per kiu rajtigita a&ubreve; kompetenta persono
-          konstatas, kion li faris, vidis, a&ubreve;skultis:
-          <ekz>
-            fari <tld/>on pri &scirc;telado, arestado;
-          </ekz><ekz>
-            legi, akcepti la <tld/>on de la anta&ubreve;a kunsido.
-          </ekz>
-        </dif>
-        <trd lng="de">Mitschrift</trd>
-        <trd lng="en">minutes <klr>(of a meeting)</klr></trd>
-      <trdgrp lng="nl">
-    <trd>protocol</trd>,
-    <trd>proces verbaal</trd>,
-    <trd>notulen</trd>
-  </trdgrp>
-</snc>
-      <snc mrk="protok.0o.KOMP.raporto">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Dosiero pri dialoga <ref tip="malprt"
-          cel="seanc.0o.komp">seanco</ref>, pri tradukado de programo,
-          pri transakcio kun datumbazo ktp &dash; speco de raporto en
-          kiu programo notas eventojn okazintajn dum &gcirc;ia rulado.
-        </dif>
-        <trd lng="de">Protokolldatei</trd>
-        <trd lng="en">log file</trd>
-      <trd lng="nl">logbestand</trd>
- </snc>
-      <snc mrk="protok.0o.KOMP.regularo">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Aro da reguloj pri formo kaj maniero de datumtransmeto en
-          <ref tip="malprt" cel="ret.0o.komputila">komputila reto</ref>:
-          <ekz>
-            la retumado en <ref cel="ttt.0">TTT</ref> estas bazita sur
-            la <tld/>o <ctl>HTTP</ctl>.
-          </ekz>
-        </dif>
-        <trd lng="en">communications <ind>protocol</ind></trd>
-      </snc>
-      <trd lng="de">Protokoll</trd>
-      <trd lng="nl">protokol</trd>
-      <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_o;&c_k;&c_o;&c_l;</trd>
-    </drv>
-    <drv mrk="protok.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>x</vspec></gra>
-      <snc>
-        <dif>
-          Fari <tld/>on pri:
-          <ekz>
-            tio ka&ubreve;zis grandan skandalon, pri kiu oni <tld/>is.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_o;&c_k;&c_o;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-      <trd lng="de">protokollieren</trd>
+<art mrk="$Id$">
+<kap><ofc>1</ofc> <rad>protokol</rad>/o</kap>
+<drv mrk="protok.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="protok.0o.raporto">
+    <dif>
+      Oficiala <ref tip="super" cel="raport.0o.dokumenta">raporto</ref>, per kiu rajtigita a&ubreve;
+      kompetenta persono konstatas, kion li faris, vidis, a&ubreve;skultis:
+      <ekz>
+        fari <tld/>on pri &scirc;telado, arestado;
+      </ekz>
+      <ekz>
+        legi, akcepti la <tld/>on de la anta&ubreve;a kunsido.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="akt.0o.JUR">akto</ref>
+    </refgrp>
+    <trd lng="de">Mitschrift</trd>
+    <trd lng="en">minutes <klr>(of a meeting)</klr></trd>
+    <trdgrp lng="fr">
+      <trd>protocole</trd>,
+      <trd>proc&egrave;s verbal</trd>
+    </trdgrp>
     <trdgrp lng="nl">
+      <trd>protocol</trd>,
+      <trd>proces verbaal</trd>,
+      <trd>notulen</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="protok.0o.KOMP.raporto">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Dosiero pri dialoga <ref tip="malprt"
+      cel="seanc.0o.komp">seanco</ref>, pri tradukado de programo,
+      pri transakcio kun datumbazo ktp &dash; speco de raporto en
+      kiu programo notas eventojn okazintajn dum &gcirc;ia rulado.
+    </dif>
+    <trd lng="de">Protokolldatei</trd>
+    <trd lng="en">log file</trd>
+    <trdgrp lng="fr">
+      <trd>fichier log</trd>,
+      <trd>fichier de trace<klr> (log)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">logbestand</trd>
+  </snc>
+  <snc mrk="protok.0o.KOMP.regularo">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Aro da reguloj pri formo kaj maniero de datumtransmeto en
+      <ref tip="malprt" cel="ret.0o.komputila">komputila reto</ref>:
+      <ekz>
+        la retumado en <ref cel="ttt.0">TTT</ref> estas bazita sur
+        la <tld/>o <ctl>HTTP</ctl>.
+      </ekz>
+    </dif>
+    <trd lng="en">communications <ind>protocol</ind></trd>
+  </snc>
+  <trd lng="de">Protokoll</trd>
+  <trdgrp lng="fr">
+    <trd>protocole<klr> (de transmission)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">protokol</trd>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_o;&c_k;&c_o;&c_l;</trd>
+</drv>
+
+<drv mrk="protok.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>x</vspec></gra>
+  <snc>
+    <dif>
+      Fari <tld/>on pri:
+      <ekz>
+        tio ka&ubreve;zis grandan skandalon, pri kiu oni <tld/>is.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_o;&c_k;&c_o;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="de">protokollieren</trd>
+  <trdgrp lng="fr">
+    <trd>dresser un <ind>proc&egrave;s-verbal</ind></trd>,
+    <trd>verbaliser<klr> (dresser un proc&egrave;s-verbal)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="nl">
     <trd>in een <ind>protocol</ind> vastleggen</trd>,
     <trd>notuleren</trd>
   </trdgrp>
 </drv>
-    <drv mrk="protok.vivo0o">
-      <kap>vivo<tld/>o</kap>
-      <snc>
-        <dif>
-          Listo de oficoj kaj profesiaj atingoj kiujn dungoto a&ubreve;
-          kandidato prezentas al la koncerna instanco:
-          <ekz>
-            la novaj kandidatoj de la akademiaj elektoj devas
-            prezenti, krom sia konsento kandidati, anka&ubreve; sian
-            vivo<tld/>on.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="en">
-        <trd>curriculum vitae</trd>, <trd>resume</trd></trdgrp>
-      <trd lng="nl">curriculum vitae</trd>
-    <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_u;&c_zh;&c_n;&c_o;&c_j; &c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>
-    </drv>
-  </art>
+
+<drv mrk="protok.vivo0o">
+  <kap>vivo<tld/>o</kap>
+  <snc>
+    <dif>
+      Listo de oficoj kaj profesiaj atingoj kiujn dungoto a&ubreve;
+      kandidato prezentas al la koncerna instanco:
+      <ekz>
+        la novaj kandidatoj de la akademiaj elektoj devas
+        prezenti, krom sia konsento kandidati, anka&ubreve; sian
+        vivo<tld/>on.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>curriculum vitae</trd>, <trd>resume</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>curriculum vitae</trd>,
+    <trd>CV</trd>
+  </trdgrp>
+  <trd lng="nl">curriculum vitae</trd>
+  <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_u;&c_zh;&c_n;&c_o;&c_j; &c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>
+</drv>
+</art>
 <!--
 $Log$
-Revision 1.10  2001/09/25 18:18:46  revo
+Revision 1.11 2001/10/14 08:49:12 revo
+Jerome Vachey: kor lig al komputila reto
+
+Revision 1.10 2001/09/25 18:18:46 revo
 Jerome Vachey: instantco - instanco
 
-Revision 1.9  2001/06/24 18:57:10  revo
+Revision 1.9 2001/06/24 18:57:10 revo
 Paul Peeraerts: ald trd nl
 
-Revision 1.8  2001/05/21 18:14:26  revo
+Revision 1.8 2001/05/21 18:14:26 revo
 Ulrich Fellmann: + 2 pliaj germ trdj
 
-Revision 1.7  2001/05/20 18:13:48  revo
+Revision 1.7 2001/05/20 18:13:48 revo
 Dennis Wibrow: +trd germ
 
-Revision 1.6  2001/02/17 20:33:07  revo
+Revision 1.6 2001/02/17 20:33:07 revo
 oficialeco per programo de JM Lugrin
 
-Revision 1.5  2001/02/17 19:47:29  revo
-Sergio Pokrovskij: KOMP, vivoprotokolo, trd=ru
-
+Revision 1.5 2001/02/17 19:47:29 revo
 -->
 </vortaro>
 
