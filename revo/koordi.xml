@@ -16,8 +16,17 @@
       &Ccirc;iu el la nombroj, kiuj estas necesaj por difini la situon de punkto
       en <ref cel="spac.afina0o">afina spaco</ref>.
     </dif>
+    <refgrp tip="sub">
+      <ref cel="koordi.kartezia0o">kartezia <tld/>o</ref>,
+      <ref cel="koordi.polusa0o">polusa <tld/>o</ref>,
+      <ref cel="koordi.cilindra0o">cilindra <tld/>o</ref>,
+      <ref cel="koordi.sfera0o">sfera <tld/>o</ref>.
+    </refgrp>
     <trd lng="de">Koordinate</trd>
     <trd lng="en">coordinate</trd>
+    <trdgrp lng="pl">
+      <trd>wsp&oacute;&lstroke;rz&eogonek;dna</trd>,
+      <trd>koordynata</trd></trdgrp> 
   </snc>
   <snc mrk="koordi.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
@@ -35,10 +44,15 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      Maniero kalkuli la <tld/>ojn; tuto de la matematikaj
-      objektoj, kiuj difinas tiun manieron:
+      Maniero kalkuli la <ref cel="koordi.0o"><tld/>ojn</ref>; 
+      tuto de la matematikaj objektoj, kiuj difinas tiun manieron:
       <ekz>
-        kartezia, polusa, sfera, cilindra <tld/>sistemo;
+        kartezia, polusa, sfera, cilindra <tld/>sistemoj;
+      </ekz>
+      <ekz>
+        orta (kaj eventuale ununorma) <tld/>sistemo <klr>(kartezia 
+        <tld/>sistemo la&ubreve; <ref cel="ort.0a.vektoroj">orta</ref>
+        kaj <ref cel="norm.unu0a.bazo">ununorma</ref> bazo)</klr>;
       </ekz>
       <ekz>
         kalkuli la <tld/>ojn de la punkto en alia kartezia <tld/>sistemo
@@ -48,7 +62,10 @@
   </snc>
   <trd lng="de">Koordinatensystem</trd>
   <trd lng="en">coordinate system</trd>
-  <trd lng="fr">syst&egrave;me de coordonn&eacute;es</trd>
+  <trdgrp lng="fr">
+    <trd>syst&egrave;me de coordonn&eacute;es</trd>,
+    <trd>rep&egrave;re</trd></trdgrp> 
+  <trd lng="pl">uk&lstroke;ad wsp&oacute;&lstroke;rz&eogonek;dnych</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;</trd>
 </drv>
 
@@ -68,7 +85,9 @@
       <ekz>
         en la tridimensia reela afina spaco, kiu figuras la fizikan
         spacon, oni ofte signas la karteziajn <tld/>ojn de punkto
-        per la triopo (x,y,z);
+        per la triopo (x,y,z) kaj la 
+        <ref cel="koordi.0sistemo"><tld/>sistemon</ref>
+        mem per kvaropo (O,<em>i</em>,<em>j</em>,<em>k</em>);
       </ekz>
       <ekz>
         <ind>x-<tld/>o</ind>
@@ -95,6 +114,9 @@
           <trd>abszcissza</trd>,
           <trd>v&iacute;zszintes <ind>tengely</ind></trd>
         </trdgrp>
+        <trdgrp lng="pl">
+          <trd>odci&eogonek;ta</trd>,
+          <trd>abscysa</trd></trdgrp> 
         <trd lng="pt">abscissa</trd>
         <trdgrp lng="ru">
           <trd>&c_a;&c_b;&c_s;&c_c;&c_i;&c_s;&c_s;&c_a;</trd>,
@@ -124,6 +146,7 @@
           <trd>ordinaat</trd>,
           <trd>y-as</trd>
         </trdgrp>
+        <trd lng="pl">rz&eogonek;dna</trd>
         <trdgrp lng="ru">
           <trd>&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</trd>,
           <trd>y-&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</trd>
@@ -155,6 +178,7 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="koordi.0o"><tld/>o</ref>,
       <ref cel="kartez.0o">Kartezio</ref>.
     </refgrp>
     <rim>
@@ -167,6 +191,7 @@
   <trd lng="de">kartesische <ind>Koordinate</ind></trd>
   <trd lng="en">Cartesian <ind>coordinate</ind></trd>
   <trd lng="fr">coordonn&eacute;e cart&eacute;sienne</trd>
+  <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna kartezja&nacute;ska</trd>
   <trd lng="ru">&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v;&c_a; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
 </drv>
 
@@ -187,21 +212,89 @@
         (&rho;, &theta;).
       </ekz>
     </dif>
+    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
+    <rim>
+      La koncernan ebenon oni samtempe provizas per orta kaj ununorma 
+      koordinatsistemo (O,<em>i</em>,<em>j</em>), kie O estas la
+      origino de la polusa akso kaj <em>i</em> &gcirc;ia ununorma direktanta
+      vektoro.
+    </rim>
   </snc>
   <trd lng="de">Polarkoordinate</trd>
   <trd lng="en">polar <ind>coordinate</ind></trd>
   <trd lng="fr">coordonn&eacute;e polaire</trd>
+  <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna biegunowa</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
 </drv>
+
+<drv mrk="koordi.cilindra0o">
+  <kap>cilindra <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de punkto M en tridimensia reela e&ubreve;klida
+      <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
+      ununorma koordinatsistemo (O,<em>i</em>,<em>j</em>,<em>k</em>))</klr>
+      &Ccirc;iu el la tri reeloj (&rho;, &theta;, z), kie (&rho;, &theta;)
+      estas la <ref cel="koordi.polusa0o">polusaj <tld/>oj</ref> de
+      la orta projekcia&jcirc;o de M sur la ebeno difinita de 
+      (O,<em>i</em>,<em>j</em>), kaj z estas la
+      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de M.
+    </dif>
+    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
+  </snc>
+  <adm>
+    Kontroli fnt, trd de/en.
+  </adm>
+  <trd lng="de">zylindrische <ind>Koordinate</ind></trd>
+  <trd lng="en">cylindrical <ind>coordinate</ind></trd>
+  <trd lng="fr">coordonn&eacute;e cylindrique</trd>
+  <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna walcowa</trd>
+  <trd lng="ru">&c_c;&c_i;&c_l;&c_i;&c_n;&c_d;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+  <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
+</drv>
+
+<drv mrk="koordi.sfera0o">
+  <kap>sfera <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de punkto M en tridimensia reela e&ubreve;klida
+      <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
+      ununorma koordinatsistemo (O,<em>i</em>,<em>j</em>,<em>k</em>))</klr>
+      &Ccirc;iu el la tri reeloj
+      <ref cel="radius.0vektoro.koordinato">radiusvektoro</ref>,
+      <ref cel="longit.0o.MAT">longitudo</ref> kaj 
+      <ref cel="latitu.0o.MAT">latitudo</ref>:
+      <ekz>
+        oni ofte signas la polusajn <tld/>ojn de punkto per la triopo
+        (&rho;, &theta;, &phi;).
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
+  </snc>
+  <adm>
+    Kontroli fnt, trd de/en.
+  </adm>
+  <trd lng="de">sph&auml;rische <ind>Koordinate</ind></trd>
+  <trd lng="en">spherical <ind>coordinate</ind></trd>
+  <trd lng="fr">coordonn&eacute;e sph&eacute;rique</trd>
+  <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna sferyczna</trd>
+  <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+  <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
+</drv>
+
 </art>
 <!--
 $Log$
+Revision 1.12  2002/05/20 16:35:57  revo
+Marc Bavant: kartezia ~o: +ekz, +rim
 Revision 1.11 2002/05/12 16:36:04 revo
 Marc Bavant: kartezia ~o: kor ekz
-
 Revision 1.10 2002/03/17 17:31:27 revo
 Marc Bavant: +fnt, +trd de/en; kartezia ~o: kor trd ru
-
 Revision 1.9 2001/10/31 19:14:10 revo
 Yury Finkel: +trd ru
 Revision 1.8 2001/10/22 18:13:25 revo
