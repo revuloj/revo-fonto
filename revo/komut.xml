@@ -10,18 +10,28 @@
 <drv mrk="komut.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
-    <uzo tip="fak">TEK</uzo>
+  <snc mrk="komut.0i.ELE">
+    <uzo tip="fak">ELE</uzo>
+    <fnt><bib>VdE</bib></fnt>
     <dif>
-      Direkti elektran kurenton &ccirc;u en la cirkvito mem, &ccirc;u en alian
-      cirkviton.
+      <klr>(<ref cel="kurent.0o">kurenton</ref>)</klr>
+      Direkti &gcirc;in en unu cirkviton a&ubreve; en alian.
     </dif>
     <refgrp tip="vid">
       <ref cel="konekt.0i">konekti</ref>,
       <ref cel="kupl.0i">kupli</ref>,
       <ref cel="munt.0i">munti</ref>.
     </refgrp>
+    <adm>
+      Cxu ne ekzistas uzo de la tipo "komuti cirkviton, telefonajn
+      liniojn"?
+      <aut>MB</aut>
+    </adm>
     <trd lng="de">umschalten</trd>
+    <trdgrp lng="fr">
+      <trd>commuter<klr tip="ind"> (un courant)</klr></trd>,
+      <trd>faire <ind>passer</ind><klr tip="ind"> (un courant)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>&aacute;ramir&aacute;nyt v&aacute;lt</trd>,
       <trd>&aacute;tkapcsol</trd>,
@@ -34,12 +44,27 @@
       <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="komut.0i.FER">
     <uzo tip="fak">FER</uzo>
+    <fnt><bib>PV</bib></fnt>
     <dif>
-      Direkti vagonaron a&ubreve; trajnon sur alian relvojon (= enreligi, flankigi).
+      <klr>(<ref cel="vagon.0aro">vagonaron</ref>)</klr>
+      Direkti &gcirc;in sur alian <ref cel="voj.rel0o">relvojon</ref>.
     </dif>
+    <adm>
+      (a) La originala difino tekstis "vagonaron aux trajnon", 
+      ja sxajnas, ke la fervojistoj perceptas nuancon inter
+      ambaux terminoj (vagonaro ne havas lokomotivon).
+      (b) Sxajnas, ke de faka vidpunkto la termino "trako" (ankoraux
+      ne ekzistanta en REVO) estus preferinda al "relvojo" (malsama
+      senco). Ja mi suspektas, ke relvojo povas porti plurajn trakojn. 
+      (c) La PIV2-a difino parolas pri "trajno aux alia trakveturilo", 
+      kio estas pli vasta, sed ne klaras pri tio, kion oni
+      komutas (cxu la veturilon aux la nadlorelojn?).
+      <aut>MB</aut>
+    </adm>
     <trd lng="de">umsetzen</trd>
+    <trd lng="fr">aiguiller<klr tip="ind"> (ferrov.)</klr></trd>
     <trd lng="hu">&aacute;tiraacute;nyiacute;t<klr tip="ind"> (vonatot maacute;sik siacute;nre)</klr></trd>
     <trd lng="nl">op een ander <ind>spoor</ind> brengen</trd>
     <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; &c_s;&c_t;&c_r;&c_je;&c_l;&c_k;&c_u;</trd>
@@ -58,7 +83,7 @@
     </dif>
     <ref tip="vid" cel="permut.0i">permuti.</ref>
     <trd lng="de">austauschen</trd>
-    <trd lng="fr">commuter<klr tip="ind"> (tr.)</klr></trd>
+    <trd lng="fr">commuter<klr tip="ind"> (tr., math.)</klr></trd>
     <trd lng="hu">felcser&eacute;l<klr tip="ind"> (pl. &ouml;sszead&aacute;s tagjait)</klr></trd>
     <trd lng="pl">zmienia&cacute; kolejno&sacute;&cacute;</trd>
     <trdgrp lng="ru">
@@ -76,6 +101,10 @@
       Ago <tld/>i.
     </dif>
   </snc>
+  <trdgrp lng="fr">
+    <trd>commutation</trd>,
+    <trd>aiguillage<klr tip="ind"> (action)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_m;&c_u;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_k;&c_l;&c_ju;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
@@ -253,7 +282,7 @@
     </rim>
     <trd lng="de">kommutieren<klr tip="ind"> (vertauschbar sein)</klr></trd>
     <trd lng="en">commute<klr tip="ind"> (be permutable)</klr></trd>
-    <trd lng="fr">commuter<klr tip="ind"> (intr.)</klr></trd>
+    <trd lng="fr">commuter<klr tip="ind"> (intr., math.)</klr></trd>
     <trd lng="pl">komutowa&cacute;</trd>
     <trd lng="ru">&c_k;&c_o;&c_m;&c_m;&c_u;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
@@ -265,12 +294,15 @@
   <uzo tip="fak">ELE</uzo>
   <snc>
     <dif>
-      Elektra aparato kun duopa a&ubreve; multopa kontakto, kiu ebligas direkti
-      la&ubreve;vole elektran kurenton &ccirc;u en la cirkvito mem, &ccirc;u en
-      alian cirkviton.
+      Elektra aparato kun duopa a&ubreve; multopa kontakto, kiu ebligas 
+      <tld/>i kurentojn.
     </dif>
   </snc>
   <trd lng="de">Umschalter</trd>
+  <trdgrp lng="fr">
+    <trd>commutateur<klr tip="ind"> (&eacute;lectrique)</klr></trd>,
+    <trd>interrupteur</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>kommut&aacute;tor</trd>,
     <trd>&aacute;tkapcsol&oacute;</trd>
@@ -294,21 +326,33 @@
       interrompiloj kaj mezuriloj de elektra kondukilaro.
     </dif>
   </snc>
+  <adm>
+    (1) Kio estas "interrompilo"? Eble "interrupteur", t.e. sxaltilo, 
+    sed sxaltilo estas nur aparta speco de komutilo.
+    (2) La vorto ne plu estas en PIV2.
+    <aut>MB</aut>
+  </adm>
+  <trd lng="fr">tableau de <ind>commutation</ind><klr tip="ind"> (&eacute;lectrotech.)</klr></trd>
   <trd lng="hu">kapcsol&oacute;szekr&eacute;ny</trd>
   <trd lng="nl">schakelbord</trd>
 </drv>
 
 <drv mrk="komut.rel0ilo">
-  <kap>(rel)<tld/>ilo</kap>
+  <kap>rel<tld/>ilo</kap>
   <uzo tip="fak">FER</uzo>
   <snc>
     <dif>
       Pinta movebla durelo trovi&gcirc;anta &ccirc;e fiksa punkto de
       bran&ccirc;i&gcirc;o de relvojoj kaj kiu ebligas direkti vagonaron de
-      unu relvojo sur alian (= enreligilo, flankilo).
+      unu relvojo sur alian.
     </dif>
   </snc>
+  <adm>
+    Difino reverkenda.
+    <aut>MB</aut>
+  </adm>
   <trd lng="de">Zungenvorrichtung</trd>
+  <trd lng="fr">aiguillage<klr tip="ind"> (appareil)</klr></trd>
   <trd lng="hu">v&aacute;lt&oacute;<klr tip="ind"> (vas&uacute;ti)</klr></trd>
   <trd lng="nl">wissel</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_l;&c_k;&c_a; <klr>(&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_o;&c_d;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_a;&c_ja;)</klr></trd>
@@ -316,6 +360,8 @@
 </art>
 <!--
 $Log$
+Revision 1.31  2003/04/07 16:35:49  revo
+Marc Bavant: sxangxis magmo al grupoido; ~i: +trd pl
 Revision 1.30  2003/03/23 17:33:16  revo
 Marc Bavant: ~ebla, ~igxi: +trd pl
 Revision 1.29  2003/03/10 17:32:58  revo
@@ -333,7 +379,5 @@ Marc Bavant: ~eca: +rim
 Revision 1.23 2002/05/27 17:20:19 revo
 Marc Bavant: ~i MAT: +fnt; ~a: mod fnt
 Revision 1.22 2002/05/13 16:32:32 revo
-Marc Bavant: ~igxi: +trd en ekz, +rim, -adm
-Revision 1.21 2002/05/12 16:39:04 revo
 -->
 </vortaro>
