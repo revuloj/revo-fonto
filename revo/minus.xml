@@ -2,70 +2,77 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>8</ofc>
-      <rad>minus</rad><fnt>Z</fnt>
-    </kap>
-    <drv mrk="minus.0">
-      <kap><tld/></kap>
-      <uzo tip="fak">FIZ</uzo>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          <ref cel="konjun.0o">Konjunkcio</ref> esprimanta
-          <ref cel="subtra.0o">subtrahon</ref> a&ubreve; la negativan
-          <ref tip="super" cel="sign.0umo">signumon</ref>:
-          <ekz>
-            <frm>10 - 4 = 6</frm> (dek <tld/> kvar estas ses);
-          </ekz><ekz>
-            temperaturo <frm>-25&ring;C</frm> (temperaturo
-            <tld/> dudek kvin gradoj celsiaj);
-          </ekz><ekz>
-            <tld/>poluso, <tld/>drato.
-          </ekz>
-        </dif>
-        <ref tip="ant" cel="plus.0">plus</ref>
-        <ref tip="sin" cel="sen.0">sen</ref>
-      </snc>
-      <trd lng="cs">minus</trd>
-      <trdgrp lng="de">
-        <trd>minus</trd>,
-        <trd>weniger</trd>,
-        <trd>abz&uuml;glich</trd></trdgrp>
-      <trdgrp lng="nl">
-        <trd>min</trd>,
-        <trd>minus</trd>
-      </trdgrp>
-      <trd lng="ru">&c_m;&c_i;&c_n;&c_u;&c_s;</trd>
-      <trd lng="sv">minus</trd>
-    </drv>
-    <drv mrk="minus.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="minus.0o.askia">
-        <uzo tip="fak">KOMP</uzo>
-        <uzo tip="fak">MAT</uzo>
-        <uzo tip="fak">TIP</uzo>
-        <dif>
-          <ref tip="super" cel="sign.0o.KOMP">Signo</ref> <frm>-</frm> uzata
-          kiel simbolo de <tld/> en formuloj kaj nombroprezentoj.
-        </dif>
-        <ref tip="vid" cel="plus.0o">pluso</ref>
-      </snc>
-      <trd lng="en">minus sign</trd>
-      <trd lng="ru">&c_z;&c_n;&c_a;&c_k; <ind>&c_m;&c_i;&c_n;&c_u;&c_s;</ind></trd>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.8  2001/09/11 18:12:06  revo
-  Paul Peeraerts: ald trd nl
+<art mrk="$Id$">
+<kap>
+  <ofc>8</ofc>
+  <rad>minus</rad><fnt>Z</fnt>
+</kap>
+<drv mrk="minus.0">
+  <kap><tld/></kap>
+  <uzo tip="fak">FIZ</uzo>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref cel="konjun.0o">Konjunkcio</ref> esprimanta
+      <ref cel="subtra.0o">subtrahon</ref> a&ubreve; la negativan
+      <ref tip="super" cel="sign.0umo">signumon</ref>:
+      <ekz>
+        <frm>10 - 4 = 6</frm> <klr>(dek <tld/> kvar estas ses)</klr>;
+      </ekz>
+      <ekz>
+        temperaturo je <frm>-25&ring;C</frm> <klr>(<tld/> dudek kvin gradoj 
+        celsiaj)</klr>;
+      </ekz>
+      <ekz>
+        <tld/>poluso, <tld/>drato.
+      </ekz>
+    </dif>
+    <ref tip="ant" cel="plus.0">plus;</ref>
+    <ref tip="vid" cel="sen.0">sen.</ref>
+  </snc>
+  <trd lng="cs">minus</trd>
+  <trdgrp lng="de">
+    <trd>minus</trd>,
+    <trd>weniger</trd>,
+    <trd>abz&uuml;glich</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>min</trd>,
+    <trd>minus</trd>
+  </trdgrp>
+  <trd lng="ru">&c_m;&c_i;&c_n;&c_u;&c_s;</trd>
+  <trd lng="sv">minus</trd>
+</drv>
 
-  Revision 1.7  2001/03/07 17:13:41  revo
-  Ulrich Fellmann: + 3 germ trdj
+<drv mrk="minus.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">KOMP</uzo>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">TIP</uzo>
+  <snc mrk="minus.0o.askia">
+    <dif>
+      <ref tip="super" cel="sign.0o.KOMP">Signo</ref> <frm>-</frm> uzata
+      kiel simbolo de <tld/> en formuloj kaj nombroprezentoj.
+    </dif>
+    <ref tip="vid" cel="plus.0o">pluso</ref>
+  </snc>
+  <trd lng="en">minus sign</trd>
+  <trd lng="ru">&c_z;&c_n;&c_a;&c_k; <ind>&c_m;&c_i;&c_n;&c_u;&c_s;</ind></trd>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.9 2001/09/14 18:11:03 revo
+Sergio Pokrovskij: +minuso, dif, TEZ, trd=ru
 
-  Revision 1.6  2001/02/28 17:11:30  revo
-  Jerano Zachrisson: +trd sv
+Revision 1.8 2001/09/11 18:12:06 revo
+Paul Peeraerts: ald trd nl
 
-  -->
+Revision 1.7 2001/03/07 17:13:41 revo
+Ulrich Fellmann: + 3 germ trdj
+
+Revision 1.6 2001/02/28 17:11:30 revo
+Jerano Zachrisson: +trd sv
+
+-->
 </vortaro>
