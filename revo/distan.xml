@@ -60,13 +60,14 @@
         <klr>(inter aroj <frm><g>A</g></frm> kaj <frm><g>B</g></frm>)</klr>
         La <ref cel="infim.0o">infimo</ref> de la <tld/>oj
         <sncref ref="distan.0o.inter_punktoj"/>
-        de &ccirc;iu punkto de <frm><g>A</g></frm> 
+        de &ccirc;iu punkto de <frm><g>A</g></frm>
         al &ccirc;iu punkto de <frm><g>B</g></frm>.
       </dif>
     </subsnc>
     <trd lng="de">Abstand</trd>
     <trd lng="en">distance</trd>
     <trd lng="fr">distance<klr tip="ind"> (math.)</klr></trd>
+    <trd lng="pl">odleg&lstroke;o&sacute;&cacute;</trd>
     <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>
   </snc>
   <trd lng="es">distancia</trd>
@@ -116,18 +117,59 @@
   </trdgrp>
   <trd lng="ru">&c_u;&c_g;&c_l;&c_o;&c_v;&c_o;&c_je; <ind>&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</ind></trd>
 </drv>
+
+<drv mrk="distan.polusa0o">
+  <kap>polusa <tld/>o, polus<tld/>o<fnt><bib>MatVort</bib></fnt></kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de punkto en <ref cel="spac.afina0o">afina spaco</ref>)</klr>
+      <ref cel="distan.0o.MAT"><tld lit="D"/>o</ref> de la punkto al
+      la origino de koordinatoj:
+      <ekz>
+        polusa <tld/>o estas la unua koordinato en la polusa kaj sfera
+        <ref cel="koordi.0sistemo">koordinatsistemoj</ref>;
+      </ekz>
+      <ekz>
+        la polusa <tld/>o de punkto en ebeno egalas al la
+        <ref cel="modul.0o.komplekso">modulo</ref> de &gcirc;ia bildo en la
+        <ref cel="komple.0a.MAT">kompleksa</ref> ebeno.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="vektor.radius0o">radiusvektoro.</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Polarradius</trd>,
+    <trd>Radiusvektor</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>polar <ind>radius</ind></trd>,
+    <trd>radius vector</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>rayon vecteur</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>promie&nacute; wodz&aogonek;cy</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j; <ind>&c_r;&c_a;&c_d;&c_i;&c_u;&c_s;</ind></trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.17  2002/06/16 17:33:02  revo
+Revision 1.18 2002/11/19 17:31:26 revo
+Marc Bavant: +frm
+Revision 1.17 2002/06/16 17:33:02 revo
 Marc Bavant: ~o MAT: mod/ald fnt
-Revision 1.16  2002/05/29 05:32:29  revo
+Revision 1.16 2002/05/29 05:32:29 revo
 Marc Bavant: ~o (inter aroj): +fnt
-Revision 1.15  2002/05/25 16:56:00  revo
+Revision 1.15 2002/05/25 16:56:00 revo
 Alejandro Mejia Greene: ald 1 his trd
-Revision 1.14  2002/05/21 16:33:39  revo
+Revision 1.14 2002/05/21 16:33:39 revo
 Marc Bavant: angula ~o: kor ekz
-Revision 1.13  2002/05/20 16:36:47  revo
+Revision 1.13 2002/05/20 16:36:47 revo
 Marc Bavant: +drv angula ~o
 Revision 1.12 2002/05/14 16:31:40 revo
 Marc Bavant: ~o MAT: mod usklecon dif-subsnc
@@ -136,7 +178,5 @@ Ulrich Fellmann: + 4 pliaj trd de
 Revision 1.10 2001/12/24 19:31:57 revo
 Marc Bavant: forigis duoblajn sncref
 Revision 1.9 2001/11/18 19:12:34 revo
-Marc Bavant: ~o MAT: +subsnc
-Revision 1.8 2001/03/30 17:17:33 revo
 -->
 </vortaro>
