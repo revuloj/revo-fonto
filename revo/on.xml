@@ -45,13 +45,10 @@
       plugado<fnt>Z</fnt>.
     </ekz>
     <rim>
-      <em>On</em> almeti&gcirc;as nur al numeraloj.
+      <em>On</em>, se sufikse uzata, almeti&gcirc;as nur al numeraloj,
+      sed en <ctl>nombr<tld/>o</ctl> a&ubreve; <ctl>komun<tld/>a</ctl>
+      ne temas pri sufiksa uzo.
     </rim>
-    <adm>
-      La rimarkon kontrauxdiras drv: nombr~o. Cetere
-      PIV1 konas "komun~a". Eblas diri, ke en cxi tiuj vortoj
-      "on" ne rolas kiel sufikso. <aut>MB</aut>
-    </adm>
   </snc>
 </subart>
 
@@ -99,30 +96,31 @@
     <snc mrk="on.0o.cifero">
       <uzo tip="fak">MAT</uzo>
       <dif>
-        <klr>(en <ref tip="malprt" cel="frakci.pozicia0o">pozicia 
-        frakcio</ref>)</klr>
+        <klr>(en <ref cel="prezen1.numa0o">n-uma prezento</ref> de 
+        nombro)</klr>
         &Ccirc;iu el la <ref tip="super" cel="cifer.0o">ciferoj</ref>
-        en la <ref cel="part.frakcia0o">frakcia parto</ref>, konsiderata kune 
-        kun &gcirc;ia pozicio:
+        en &gcirc;ia <ref cel="part.frakcia0o">frakcia parto</ref>, 
+        konsiderata kune kun ties pozicio:
         <ekz>
           la nombro 1,72 entenas du <tld/>ojn, nome 7
-          dek<tld/>ojn kaj 2 cent<tld/>ojn;
-        </ekz>
-        <ekz>
-          la <ref cel="on.0punkto.komo">onkomo</ref>
-          apartigas la <tld/>ojn disde la
-          <ref tip="vid" cel="unu.0o.cifero">unuoj <sncref/></ref>.
+          dek<tld/>ojn kaj 2 cent<tld/>ojn.
         </ekz>
       </dif>
       <rim>
+        Por &ccirc;i tiu nocio troveblas la stranga formo <ctl>postfiguro</ctl>
+        en <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>.
         Por la bazo 10, t.e. por dekumaj frakcioj, eblas nomi tiajn <tld/>ojn
         <ref tip="sub" cel="decima.0o">decimaloj</ref>.
       </rim>
       <rim>
         &Ccirc;i tiu senco metafore devenas de
-        <ref cel="on.0o.frakcio">ono <sncref/></ref>: la koncerna pozicio
+        <ref cel="on.0o.frakcio">ono <sncref/></ref>: ja la koncerna pozicio
         estas nomata la&ubreve; la frakcio, kiun oni ricevas metante 1
         en &gcirc;in kaj 0 en &ccirc;iujn aliajn.
+        Notindas, ke ne ekzistas komuna termino, per kiu eblus nomi
+        &ccirc;iujn ciferojn de la entjera parto. &Scirc;ajnas do, ke la 
+        termino <ctl><tld/>o</ctl> ne estas absolute necesa, kaj ke 
+        preferindas klara esprimo de la tipo <ctl>frakciparta cifero</ctl>.
       </rim>
       <!-- rim>
       &Ccirc;i tiu senco ne kolizias kun la anta&ubreve;a
@@ -179,13 +177,15 @@
     </snc>
   </drv>
   <drv mrk="on.0punkto.komo">
-    <kap><tld/>punkto<fnt><bib>KompLeks</bib></fnt>, <tld/>komo</kap>
+    <kap><tld/>komo, <tld/>punkto<fnt><bib>KompLeks</bib></fnt></kap>
     <uzo tip="fak">MAT</uzo>
     <uzo tip="fak">KOMP</uzo>
     <snc>
       <dif>
-        Signo (komo a&ubreve; punkto), post kiu oni skribas la onajn
-        ciferojn de pozicia frakcio:
+        Signo (komo a&ubreve; punkto), kiu disigas la ciferojn de 
+        la <ref cel="part.frakcia0o">frakcia parto</ref> de nombro
+        disde tiuj de &gcirc;ia <ref cel="part.entjera0o">frakcia 
+        parto</ref>:
         <ekz>
           0.75 <klr>(uson-stile)</klr>,
         </ekz>
@@ -197,12 +197,18 @@
         Kiel montras la ekzemplo, la koncerna signo povas kolizii kun la
         normalaj interpunkciaj signoj. La usona stilo (t.e. <tld/>punkto)
         povas montri&gcirc;i pli oportuna, kiam oni skribas liston de
-        nombroj apartigitaj per komo, kiel ekz-e en
+        nombroj apartigitaj per komoj, kiel ekz-e en
         <ekz>
           f(3.14, 2.72)
         </ekz>
         . Cetere oni notu, ke la <tld/>punkton a&ubreve; la <tld/>komon
         neniam sekvas spaceto.
+      </rim>
+      <rim>
+        Por &ccirc;i tiu senco ofte trovi&gcirc;as esprimoj de la tipo
+        <ctl>decimala komo</ctl> a&ubreve; <ctl>punkto</ctl>
+        <fnt><bib>PIV1</bib></fnt>, kiujn malfacilas uzi ekster la 
+        kunteksto de dekuma bazo.
       </rim>
       <trd lng="de">Basiskomma</trd>
       <trd lng="en">radix point</trd>
@@ -215,24 +221,20 @@
 </art>
 <!--
 $Log$
+Revision 1.23  2002/07/29 18:13:48  revo
+Marc Bavant: ~o: kunfandis la snc en unu drv; ~o (frakcio): +fnt; ~punkto: +fnt; ~o (pozicio): mod dif, +ref al unuo, mod dif, -adm, +trd fr/de/ru
 Revision 1.22 2002/05/27 17:19:04 revo
 Marc Bavant: kor ref al nombr~o
-
 Revision 1.21 2002/05/21 16:33:42 revo
 Marc Bavant: -ref al dekuma frakcio; ~o (cifero): mod adm
-
 Revision 1.20 2002/05/12 16:35:56 revo
 Marc Bavant: ~punkto: mod rim
-
 Revision 1.19 2002/05/02 16:38:39 revo
 Marc Bavant: ~punkto: mod dif, +trd de/fr; nombr~o: -mrk
-
 Revision 1.18 2002/02/23 19:57:21 revo
 Marc Bavant: ~punkto: kor usklecon
-
 Revision 1.17 2002/02/02 20:44:38 revo
 Marc Bavant: ~igi: +snc MAT; ~o: mod adm
-
 Revision 1.16 2002/01/18 21:59:52 revo
 -->
 </vortaro>
