@@ -55,17 +55,39 @@
     <trd lng="en">vertex</trd>
     <trd lng="fr">sommet<klr tip="ind"> (d'un polygone, d'un poly&egrave;dre)</klr></trd>
     <trd lng="nl">top<klr tip="ind"> (v.e.driehoek)</klr></trd>
+    <trd lng="pl">wierzcho&lstroke;ek<klr tip="ind"> (k&aogonek;ta, wielok&aogonek;ta, wielo&sacute;cianu)</klr></trd>
     <trd lng="ru">&c_v;&c_je;&c_r;&c_sh;&c_i;&c_n;&c_a;</trd>
   </snc>
   <snc mrk="vertic.0o.grafeo">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>KompLeks</bib></fnt>
-    <ref tip="vid" cel="grafe.0o">grafeo.</ref>
-    <trd lng="de">Knotenpunkt</trd>
-    <trd lng="en">vertex</trd>
+    <ref tip="vid" cel="grafe.0o.strukturo">grafeo;</ref>
+    <refgrp tip="vid">
+      Ecoj de vertico:
+      <ref cel="incid.0a.grafee">incida</ref>,
+      <ref cel="najbar.0a.grafee">najbara</ref>,
+      <ref cel="izol.0ita.vertico">izolita</ref>.
+    </refgrp>
+    <refgrp tip="vid">
+      Atributoj de vertico:
+      <ref cel="grad.0o.grafea_vertico">grado</ref>,
+      <ref cel="grad.eliraduon0o">elira duongrado</ref>,
+      <ref cel="grad.eniraduon0o">enira duongrado</ref>.
+    </refgrp>
+    <rim>
+      Anstata&ubreve;e trovi&gcirc;as <ctl>nodo</ctl> en
+      <fnt><bib>MatVort</bib></fnt>.
+    </rim>
+    <trdgrp lng="de">
+      <trd>Knotenpunkt</trd>,
+      <trd>Ecke</trd></trdgrp> 
+    <trdgrp lng="en">
+      <trd>vertex</trd>,
+      <trd>node</trd></trdgrp> 
     <trdgrp lng="fr">
       <trd>sommet<klr tip="ind"> (d'un graphe)</klr></trd>,
       <trd>n&oelig;ud<klr tip="ind"> (d'un graphe)</klr></trd></trdgrp>
+    <trd lng="pl">wiercho&lstroke;ek<klr tip="ind"> (grafu)</klr></trd>
     <trd lng="ru">&c_v;&c_je;&c_r;&c_sh;&c_i;&c_n;&c_a;</trd>
   </snc>
   <trd lng="el">&gamma;&omega;&ny;&jota_ton;&alfa;</trd>
@@ -74,18 +96,16 @@
 </art>
 <!--
 $Log$
+Revision 1.20  2002/07/25 17:33:27  revo
+Eduardo M. Kalinowski: ald trd el, pt
 Revision 1.19  2002/05/12 16:39:05  revo
 Marc Bavant: mod dif antaux subsnc
-
 Revision 1.18  2002/05/03 16:33:31  revo
 Marc Bavant: mod "ekstremo" al "rando"
-
 Revision 1.17  2002/04/03 16:31:17  revo
 Marc Bavant: ~o (pluredro): mod dif
-
 Revision 1.16  2002/03/17 17:31:20  revo
 Marc Bavant: ~o (konuso): kor fnt; ~o (grafeo): +fnt; ~o: mod trd fr
-
 Revision 1.15  2002/03/11 17:32:15  revo
 Marc Bavant: +fnt, mod "p.p." al "de"; ~o (punkto): +trd en; ~o (grafeo): +trd de/en/ru
 Revision 1.14  2002/02/23 19:57:23  revo
