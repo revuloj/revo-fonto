@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>period</rad>/o
+  <ofc>1</ofc>
+  <rad>period</rad>/o
 </kap>
 <drv mrk="period.0o">
   <kap><tld/>o</kap>
@@ -19,6 +19,23 @@
       <ref cel="stadi.0o">stadio</ref>,
       <ref cel="faz.0o">fazo</ref>.
     </refgrp>
+  </snc>
+  <snc mrk="period.0o.funkcio">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>EKV</bib><lok>&para;333</lok></fnt>
+    <dif>
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
+      &Ccirc;iu tia reelo T, ke f(x+T)=f(x), kiu ajn estas x; pli specife: la
+      plej malgranda el tiuj nombroj:
+      <ekz>
+        la funkcion <ref cel="sinus.0o.funkcio">sinuso</ref> havas <tld/>on
+        2&pi;.
+      </ekz>
+    </dif>
+    <rim>
+      La difino nature vasti&gcirc;as al kompleksaj funkcioj kaj al &ccirc;iuj
+      aliaj okazoj, kiam adicio estas difinita en la fonto-aro.
+    </rim>
   </snc>
   <snc mrk="period.0o.dauxro">
     <dif>
@@ -61,6 +78,25 @@
     </refgrp>
     <trd
     lng="ru">&c_p;&c_je;&c_r;&c_i;&c_o;&c_d;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+  </snc>
+  <snc mrk="period.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="period.0a.funkcio">
+      <fnt><bib>MatVort</bib></fnt>
+      <dif>
+        <klr>(p.p. reela <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
+        Akceptanta almena&ubreve; unu
+        <ref cel="period.0o.funkcio"><tld/>on <sncref/></ref>.
+      </dif>
+      <trd lng="de">periodische<klr tip="amb"> (Funktion)</klr></trd>
+      <trd lng="en">periodic[al]<klr tip="ind"> (function)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(fonction) </klr>p&eacute;riodique</trd>
+      <trd lng="ru">&c_p;&c_je;&c_r;&c_i;&c_o;&c_d;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;<klr tip="amb"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="period.0a.frakcio">
+      <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
+      <ref tip="vid" cel="frakci.pozicia0o">pozicia frakcio.</ref>
+    </subsnc>
   </snc>
   <snc>
     <dif>
@@ -118,7 +154,10 @@
 </art>
 <!--
 $Log$
-Revision 1.11  2002/01/23 17:33:55  revo
+Revision 1.12 2002/07/08 18:23:50 revo
+Wolfram Diestel: kor. ref-cel
+
+Revision 1.11 2002/01/23 17:33:55 revo
 Jerome Vachey: + fak, + mrk, periodajxo: - ant libro, + trd fr
 
 Revision 1.10 2001/12/14 17:31:46 revo
@@ -134,7 +173,5 @@ Revision 1.7 2001/02/28 17:13:32 revo
 Philippe Combot: Korekto de <ref cel="magazin.o"> al <ref cel="magazin.0o">
 
 Revision 1.6 2001/02/27 17:12:31 revo
-Philippe Combot: Aldono de drv ~ajho
-
 -->
 </vortaro>
