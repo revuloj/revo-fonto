@@ -4,40 +4,142 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
+<ofc>2</ofc>
 <rad>norm</rad>/o
 </kap>
 <drv mrk="norm.0o">
 <kap><tld/>o</kap>
 <snc num="1">
 <dif>
-Principo a&ubreve; tipo starigita kiel regulo a&ubreve; modelo; ordinara la&ubreve;regula stato: <ekz>ne deklini&gcirc;i de la <tld/>o.
+Principo a&ubreve; tipo starigita kiel regulo a&ubreve; modelo; ordinara 
+la&ubreve;regula stato: <ekz>ne deklini&gcirc;i de la <tld/>o.
 </ekz>
 </dif>
 </snc>
 <snc num="2">
 <dif>
-Natura le&gcirc;o reganta iun specon: <ekz>sam<tld/>igi &ccirc;iujn fabrika&jcirc;ojn, laborilojn.
+Natura le&gcirc;o reganta iun specon: <ekz>sam<tld/>igi &ccirc;iujn 
+fabrika&jcirc;ojn, laborilojn.
 </ekz>
 </dif>
-<refgrp tip="sin">
+<refgrp tip="vid">
 <ref cel="tip.0o">tipo</ref>,
 <ref cel="model.0o">modelo</ref>,
 <ref cel="sxablo.0o">&scirc;ablono</ref>,
 <ref cel="mez.0nombro">mezkvanto</ref>.
 </refgrp>
 </snc>
+
+       <snc mrk="norm.0o.MAT">
+         <uzo tip="fak">MAT</uzo>
+         <fnt>PIV</fnt>
+         <dif>
+           <klr>(super reela a&ubreve; kompleksa
+           <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+           Tia reela bildigo p, ke por &ccirc;iuj ajn vektoroj x, y,
+           kaj por &ccirc;iu ajn skalaro &alfa;:
+           (1) p(x)&#x2265;0; (2) p(x)=0, nur se x=0;
+           (3) p(&alfa;*x)=|&alfa;|.p(x); kaj (4) p(x+y)&#x2264;p(x)+p(y).
+           <ekz>
+             la <tld/>on de vektoro x oni ofte signas per ||x||;
+           </ekz>
+           <ekz>
+             la nocio <tld/>o plivastigas por vektoraj spacoj la nocion
+             de <ref cel="modul.0o.komplekso">modulo</ref> a&ubreve;
+             <ref cel="valor.absoluta0o">absoluta valoro</ref>;
+           </ekz>
+           <ekz>
+             por <tld/>oj super <ref cel="algebr.0o.lin-magmo">algebroj</ref>
+             oni plie postulas, ke p(x&#xD7;y)&#x2264;p(x).p(y);
+           </ekz>
+           <ekz>
+             en spaco provizita per <ref cel="produt.skalara0o">skalara
+             produto</ref>, la bildigo p(x)=&lt;x|x&gt; estas <tld/>o;
+           </ekz>
+           <ekz>
+             la bildigo, kiu &jcirc;etas paron (x, y) al ||x-y|| estas
+             <ref cel="metrik.0o.MAT">metriko</ref>.
+           </ekz>
+         </dif>
+         <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a; 
+(&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</trd>
+         <trd lng="fr">norme (d'un vecteur)</trd>
+       </snc>
+
 </drv>
 <drv mrk="norm.0a">
 <kap><tld/>a</kap>
 <snc num="1">
 <dif>
-Koncernanta  la <tld/>on. 
+Koncernanta  la <tld/>on.
 </dif>
 </snc>
 <snc num="2">
 <dif>
-Konforma al <tld/>o, la&ubreve;<tld/>a, normala.  
+Konforma al <tld/>o, la&ubreve;<tld/>a, normala.
 </dif>
 </snc>
 </drv>
-</art></vortaro>
+
+     <drv mrk="norm.0umi">
+       <kap><tld/>umi</kap>
+       <fnt>PIV</fnt>
+       <snc>
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           <klr>(vektoron)</klr>
+           Dividi &gcirc;in per &gcirc;ia
+           <ref cel="norm.0o.MAT"><tld/>o <sncref ref="norm.0o.MAT"/></ref>:
+           <ekz>
+             <tld/>ita vektoro <klr>(kies <tld/>o egalas al 1)</klr>.
+           </ekz>
+         </dif>
+         <trd lng="fr">normer (un vecteur)</trd>
+       </snc>
+     </drv>
+
+     <drv mrk="norm.0ita">
+       <kap><tld/>ita, <tld/>ohava</kap>
+       <snc>
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           <klr>(p.p. <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+           Provizita per
+           <ref cel="norm.0o.MAT"><tld/>o <sncref ref="norm.0o.MAT"/></ref>:
+           <ekz>
+             &ccirc;iu <tld/>ita vektora spaco estas anka&ubreve;
+             <ref cel="spac.metrika0o">metrika spaco</ref> kaj
+             <ref cel="topolo.0a.modulo">topologia</ref> vektora spaco;
+           </ekz>
+           <ekz>
+             <ref cel="komple2.0a.MAT">kompletan</ref>, <tld/>itan vektoran
+             spacon oni kutime nomas bana&hcirc;a spaco.
+           </ekz>
+         </dif>
+       </snc>
+       <trd lng="fr">norm&eacute;</trd>
+       <trd 
+lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
+     </drv>
+
+     <drv mrk="norm.duon0o">
+       <kap>duon<tld/>o</kap>
+       <snc>
+         <uzo tip="fak">MAT</uzo>
+         <dif>
+           <klr>(super reela a&ubreve; kompleksa
+           <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+           Reela bildigo kun samaj ecoj kiel
+           <ref cel="norm.0o.MAT"><tld/>o <sncref ref="norm.0o.MAT"/></ref>,
+           krom ke la bildo de nenula vektoro rajtas esti nula.
+         </dif>
+       </snc>
+       <trd lng="fr">semi-norme</trd>
+     </drv>
+
+</art>
+
+<!--
+$Log$
+-->
+</vortaro>
