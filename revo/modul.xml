@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>modul</rad>/i
+  <ofc>1</ofc>
+  <rad>modul</rad>/i
 </kap>
 <drv mrk="modul.0i">
   <kap><tld/>i</kap>
@@ -33,11 +33,11 @@
       </ekz>
     </dif>
     <adm>
-    La difino postulus te&hcirc;nikan difinon de amaso da
-    nocioj, kiuj ankora&ubreve; ne estas en REVO: "grando",
-    "oscilo", "signalo", "fazo"... kaj revizio de
-    "amplitudo". Cetere indus enkonduki anka&ubreve; la
-    plej modernajn konceptojn pri ~ado. (MB)
+      La difino postulus te&hcirc;nikan difinon de amaso da
+      nocioj, kiuj ankora&ubreve; ne estas en REVO: "grando",
+      "oscilo", "signalo", "fazo"... kaj revizio de
+      "amplitudo". Cetere indus enkonduki anka&ubreve; la
+      plej modernajn konceptojn pri ~ado. <aut>MB</aut>
     </adm>
   </snc>
   <rim>
@@ -50,6 +50,7 @@
   </rim>
   <trd lng="fr">moduler</trd>
 </drv>
+
 <drv mrk="modul.0ado">
   <kap><tld/>ado</kap>
   <snc>
@@ -64,6 +65,7 @@
   </snc>
   <trd lng="fr">modulation</trd>
 </drv>
+
 <drv mrk="modul.0o">
   <kap><tld/>o</kap>
   <snc>
@@ -76,7 +78,7 @@
       <ref cel="ring.0o.MAT">ringo</ref> <em>R</em>)</klr>
       Tia <ref tip="super" cel="strukt.algebra0o">strukturo</ref>
       (<em>M</em>,+,*), ke (<em>M</em>,+) estas
-      <ref cel="komut.0eca.magmo">komut(ec)a</ref>
+      <ref cel="komut.0eca.magmo">komuteca</ref>
       <ref cel="grup.0o.MAT">grupo</ref>; * estas
       <ref cel="operac.ekstera0o">ekstera operacio</ref>
       de <em>R</em> super <em>M</em>; kaj por
@@ -85,12 +87,13 @@
       &alfa;*x+&beta;*x, &alfa;*(x+y) = &alfa;*x+&alfa;*y,
       (&alfa;.&beta;)*x = &alfa;*(&beta;*x), 1*x=x.
     </dif>
+    <adm>Fonto trovenda. <aut>MB</aut></adm>
     <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
     <ref tip="sub" cel="spac.vektora0o">vektora spaco.</ref>
-    <trd lng="de">Modul</trd>
-    <trd lng="en">module</trd>
-    <trd lng="fr">module</trd>
-    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
+    <trd lng="de">Modul<klr tip="ind"> (&uuml;ber einem Ring)</klr></trd>
+    <trd lng="en"><klr tip="ind">(ring)</klr> module</trd>
+    <trd lng="fr">module<klr tip="ind"> (sur un anneau)</klr></trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind"> (&c_n;&c_a;&c_d; &c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;&c_m;)</klr></trd>
     <rim>
       Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
       sub la sama tegmenta nocio <ctl>vektora spaco</ctl> kun
@@ -99,6 +102,7 @@
   </snc>
   <snc mrk="modul.0o.komplekso">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
     <dif>
       <klr>(de <ref cel="komple.0o.MAT">komplekso</ref> a+ib)</klr>
       La kvadrata radiko de a<sup>2</sup>+b<sup>2</sup>:
@@ -114,19 +118,30 @@
         <ref cel="valor.absoluta0o">absoluta valoro</ref>.
       </ekz>
     </dif>
+    <trd lng="de">Modul<klr tip="ind"> (einer kompleksen Zahl)</klr></trd>
+    <trd lng="en">module<klr tip="ind"> (of a complex number)</klr></trd>
     <trd lng="fr">module<klr tip="ind"> (d'un complexe)</klr></trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind"> (&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_g;&c_o; &c_ch;&c_i;&c_s;&c_l;&c_a;)</klr></trd>
   </snc>
   <snc mrk="modul.0o.kongruo">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 11</lok></fnt>
     <dif>
-      Nombro, la&ubreve; kiu oni pritaksas la 
-      <ref cel="kongru.0i.module">kongruecon</ref> de du nombroj:
+      Nombro, la&ubreve; kiu oni pritaksas la
+      <ref cel="kongru.0a.module">kongruecon</ref> de du nombroj:
       <ekz>
         1111 kaj 4 estas kongruaj la&ubreve; <tld/>o 9, a&ubreve;
         <ind><tld/>e</ind> 9.
+        <trd lng="de">modulo</trd>
+        <trd lng="en">modulo</trd>
         <trd lng="fr">modulo</trd>
+        <trd lng="ru">&c_p;&c_o; <ind>&c_m;&c_o;&c_d;&c_u;&c_l;&c_ju;</ind></trd>
       </ekz>
     </dif>
+    <trd lng="de">Kongruenzmodul</trd>
+    <trd lng="en">modulus</trd>
+    <trd lng="fr">module<klr tip="ind"> (de congruence)</klr></trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind"> (&c_s;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
   </snc>
   <snc mrk="modul.0o.bloko">
     <uzo tip="fak">TEK</uzo>
@@ -147,6 +162,7 @@
     </dif>
   </snc>
 </drv>
+
 <drv mrk="modul.sub0o">
   <kap>sub<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -167,30 +183,33 @@
         sub<tld/>o estas mem <tld/>o.
       </ekz>
     </dif>
+    <trd lng="de">Untermodul</trd>
+    <trd lng="en">submodule</trd>
     <trd lng="fr">sous-module</trd>
+    <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.12  2001/10/16 18:42:38  revo
+Revision 1.13 2001/10/23 18:30:11 revo
+Marc Bavant: sub~o: sxovis fakindikon
+
+Revision 1.12 2001/10/16 18:42:38 revo
 Sergio Pokrovskij: -tajperaro
 
-Revision 1.11  2001/10/14 08:49:35  revo
+Revision 1.11 2001/10/14 08:49:35 revo
 Jerome Vachey: blok.0o.agregato - blok.0o.agregata
 
-Revision 1.10  2001/06/24 18:57:15  revo
+Revision 1.10 2001/06/24 18:57:15 revo
 Marc Bavant: ~o: +snc MAT (kongrueco); ~o 1: sxovis ref ekster dif; ~o 2: +trd
 
-Revision 1.9  2001/01/20 12:25:09  revo
+Revision 1.9 2001/01/20 12:25:09 revo
 Sergio Pokrovskij: ref kaj rim pri "modulacio"; TEK+KOMP
 
-Revision 1.8  2001/01/13 18:46:46  revo
+Revision 1.8 2001/01/13 18:46:46 revo
 Marc Bavant: magmo -> algebra strukturo
 
-Revision 1.7  2000/12/10 18:46:41  revo
-uzo tip=stl
-
-Revision 1.6  2000/12/03 18:58:40  revo
+Revision 1.7 2000/12/10 18:46:41 revo
 -->
 </vortaro>
