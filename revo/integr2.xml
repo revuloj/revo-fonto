@@ -3,13 +3,11 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap>
-<rad>integral</rad>/o
-<fnt>Z</fnt>
-</kap>
+<kap><rad>integral</rad>/o <fnt>Z</fnt></kap>
 <drv mrk="integr2.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PV</bib></fnt>
   <snc mrk="integr2.0o.malderivajxo">
     <dif>
       <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
@@ -24,47 +22,31 @@
         <trd lng="en">integral <ind>sign</ind></trd>
         <trdgrp lng="fr">
           <trd>signe d'int&eacute;gration</trd>,
-          <trd>signe somme<klr tip="ind"> (signe d'int&eacute;gration)</klr></trd></trdgrp> 
+          <trd>signe somme<klr tip="ind"> (signe d'int&eacute;gration)</klr></trd>
+        </trdgrp>
         <trd lng="nl">integraalteken</trd>
-   <trd lng="ru">&c_z;&c_n;&c_a;&c_k; &c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
+        <trd lng="ru">&c_z;&c_n;&c_a;&c_k; &c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
       </ekz>
     </dif>
   </snc>
-
-  <!-- snc mrk="integr2.0o.sumo">
-    <dif>
-      Por reela <ref cel="funkci.0o.MAT">funkcio</ref> <frm>f(x)</frm>,
-      &gcirc;ia <tld/>o sur intervalo <frm>[a,b]</frm> estas
-      <frm>&#x222b;<sub>a</sub><sup>b</sup>f(x)&#xa0;dx = F(b)-F(a)</frm>
-      kie <frm>F</frm> estas ajna
-      <ref cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de
-      <frm>f</frm>.
-    </dif>
-    <rim>
-      Surbaze de pli longa difino per limeso,
-      <frm>&#x222b;<sub>a</sub><sup>b</sup>f(x)&#xa0;dx =
-      lim<sub>n&#x2192;&#x221e;</sub>&#xa0;[(b-a)/n]&#x2211;<sub>i=1</sub><sup>n</sup>&#xa0;f(a+i&#xd7;(b-a)/n)</frm>,
-      oni povas konsiderinde &gcirc;eneraligi la koncepton.
-    </rim -->
-    
-    <snc mrk="integr2.0o.sumo">
+  <snc mrk="integr2.0o.sumo">
     <uzo tip="klr">(naiva prezento)</uzo>
     <dif>
-      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f 
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f
       inter a kaj b)</klr>
       La diferenco F(b)-F(a), kie F estas ajna
       <ref cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de f;
       simb. &#x222b;<sub>a</sub><sup>b</sup>f(x)dx:
       <ekz>
-        la <tld/>o de funkcio <ref cel="sinus.0o.funkcio">sinuso</ref> 
-        inter 0 kaj &pi; egalas -cos&pi;+cos0=2; 
+        la <tld/>o de funkcio <ref cel="sinus.0o.funkcio">sinuso</ref>
+        inter 0 kaj &pi; egalas -cos&pi;+cos0=2;
       </ekz>
       <ekz>
         la <tld/>o de la deriva&jcirc;o de f inter a kaj b egalas f(b)-f(a).
       </ekz>
     </dif>
     <rim>
-      Surbaze de pli komplika difino oni povas konsiderinde &gcirc;eneraligi la 
+      Surbaze de pli komplika difino oni povas konsiderinde &gcirc;eneraligi la
       koncepton. Vd
       <refgrp tip="vid">
         <ref cel="integr2.rimana0o">rimana <tld/>o</ref>,
@@ -78,6 +60,7 @@
   <trd lng="nl">integraal</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</trd>
 </drv>
+
 <drv mrk="integr2.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
@@ -96,7 +79,7 @@
     </dif>
     <rim>
       PV, PIV kaj plimulto de matematikistoj preferas uzi verbon
-      <ref tip="sin" cel="integr1.0i">integri</ref>.  Tio havas du
+      <ref tip="sin" cel="integr1.0i">integri</ref>. Tio havas du
       malavanta&gcirc;ojn:
       (1)&#xa0;la radiko <ctl>integr</ctl> homonimi&gcirc;as kaj ricevas
       du malkoherajn signifojn (la deadjektiva <ctl>integri</ctl>
@@ -105,23 +88,25 @@
       (2)&#xa0;la plej internacia kaj klare rekonebla radiko por
       la matematika operacio estas <ctl>integral</ctl>, tial
       <ctl>integrali</ctl> estas radik&scirc;para, preciza kaj sistema (kp
-      "<ref tip="vid" cel="difere2.0i">diferenciali</ref>").
+      "<ref tip="vid" cel="difere2.0i">diferenciali</ref>&leftquot;).
     </rim>
     <adm>
-    La alvoko al "diferenciali" por pravigi "integrali" ne estas
-    tre konvinka. Per samspeca argumento eblus diri, ke "integri" 
-    estas pli bona, cxar paralela al "derivi". <aut>MB</aut>
+      La alvoko al &rightquot;diferenciali" por pravigi "integrali" ne estas
+      tre konvinka. Per samspeca argumento eblus diri, ke "integri"
+      estas pli bona, cxar paralela al "derivi". <aut>MB</aut>
     </adm>
   </snc>
   <trd lng="de">integrieren</trd>
   <trd lng="en">integrate</trd>
   <trd lng="fr">int&eacute;grer<klr tip="ind"> (math.)</klr></trd>
   <trd lng="nl">integreren</trd>
-<trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
+
 <drv mrk="integr2.0a">
   <kap><tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib><lok>artikolo: kalkulo</lok></fnt>
   <snc>
     <dif>
       Rilata al <tld/>oj kaj <tld/>ado.
@@ -135,8 +120,9 @@
   <trd lng="en">integral</trd>
   <trd lng="fr">int&eacute;gral<klr tip="ind"> (math.)</klr></trd>
   <trd lng="nl">integraal-</trd>
-<trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
+
 <drv mrk="integr2.0ado">
   <kap><tld/>ado</kap>
   <uzo tip="fak">MAT</uzo>
@@ -152,8 +138,9 @@
   <trd lng="en">integration</trd>
   <trd lng="fr">int&eacute;gration</trd>
   <trd lng="nl">integratie</trd>
-<trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
 </drv>
+
 <drv mrk="integr2.0ato">
   <kap><tld/>ato</kap>
   <uzo tip="fak">MAT</uzo>
@@ -166,10 +153,11 @@
   <trd lng="en">integrand</trd>
   <trd lng="fr">int&eacute;grande</trd>
   <trd lng="nl">integrand</trd>
-<trd lng="ru">&c_p;&c_o;&c_d;&c_y;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_y;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
+
 <drv mrk="integr2.0ebla">
-  <kap><tld/>ebla, <tld/>hava</kap>
+  <kap><tld/>ebla, <tld/>hava<fnt><bib>MatVort</bib></fnt></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -190,21 +178,23 @@
   <trd lng="en">integrable</trd>
   <trd lng="fr">int&eacute;grable</trd>
   <trd lng="nl">integreerbaar</trd>
-<trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
 </drv>
+
 <drv mrk="integr2.difinita0o">
   <kap>difinita <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
   <snc>
-      <ref tip="dif" cel="integr2.0o.sumo"><tld/>o
-      <sncref ref="integr2.0o.sumo"/>.</ref>
+    <ref tip="dif" cel="integr2.0o.sumo"><tld/>o
+    <sncref ref="integr2.0o.sumo"/>.</ref>
   </snc>
   <trd lng="de">bestimmtes <ind>Integral</ind></trd>
   <trd lng="en">definite <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale d&eacute;finie</trd>
   <trd lng="ru">&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
 </drv>
+
 <drv mrk="integr2.lebega0o">
   <kap>lebega <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -214,7 +204,7 @@
       f=&#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub>
       la&ubreve; <ref cel="mezur.0o.MAT">mezuro</ref> &my;
       super <ref cel="algebr.sigma0o">&sigma;-algebro</ref> <em>A</em>)</klr>
-      La sumo &#x2211;a<sub>i</sub>.&my;(A<sub>i</sub>); 
+      La sumo &#x2211;a<sub>i</sub>.&my;(A<sub>i</sub>);
       simb. &#x222b;fd&my;:
       <ekz>
         la lebega <tld/>o de karakteriza funkcio de ajna elemento de <em>A</em>
@@ -230,10 +220,10 @@
   <snc mrk="integr2.lebega0o.de_funckio">
     <dif>
       <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> f)</klr>
-      La komuna valoro, se &gcirc;i ekzistas, de la 
-      <ref cel="suprem.0o">supremo</ref> de la <tld/>oj de simplaj funkcioj 
+      La komuna valoro, se &gcirc;i ekzistas, de la
+      <ref cel="suprem.0o">supremo</ref> de la <tld/>oj de simplaj funkcioj
       malpli grandaj ol f kaj de la <ref cel="infim.0o">infimo</ref>
-      de la <tld/>oj de simplaj funkcioj pli grandaj ol f; 
+      de la <tld/>oj de simplaj funkcioj pli grandaj ol f;
       simb. &#x222b;fd&my;:
       <ekz>
         la lebega <tld/>o de ajna funkcio f la&ubreve; la diraka mezuro &ccirc;e
@@ -248,7 +238,7 @@
   <rim>
     Parolante pri la lebega <tld/>o la&ubreve; mezuro &my; oni ofte ellasas
     la adjektivon <ctl>lebega</ctl>. Inverse, se oni parolas pri la lebega
-    <tld/>o sen precizigi la mezuron, tiam temas pri <tld/>o la&ubreve; la 
+    <tld/>o sen precizigi la mezuron, tiam temas pri <tld/>o la&ubreve; la
     lebega mezuro super la borela &sigma;-algebro.
   </rim>
   <ref tip="vid" cel="lebeg.0o">Lebego.</ref>
@@ -256,21 +246,23 @@
   <trd lng="en">Lebesgue['s] <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale de Lebesgue</trd>
   <trd lng="nl">Lebesgue-<ind>integraal</ind></trd>
-<trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_L;&c_je;&c_b;&c_je;&c_g;&c_a;</trd>
+  <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_L;&c_je;&c_b;&c_je;&c_g;&c_a;</trd>
 </drv>
+
 <drv mrk="integr2.nedifinita0o">
   <kap>nedifinita <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
   <snc>
-      <ref tip="dif" cel="integr2.0o.malderivajxo"><tld/>o
-      <sncref ref="integr2.0o.malderivajxo"/>.</ref>
+    <ref tip="dif" cel="integr2.0o.malderivajxo"><tld/>o
+    <sncref ref="integr2.0o.malderivajxo"/>.</ref>
   </snc>
   <trd lng="de">unbestimmtes <ind>Integral</ind></trd>
   <trd lng="en">indefinite <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale ind&eacute;finie</trd>
   <trd lng="ru">&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
 </drv>
+
 <drv mrk="integr2.rimana0o">
   <kap>rimana <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -279,17 +271,17 @@
       <klr>(de reela <ref cel="funkci.sxtupara0o">&scirc;tupara funkcio</ref>
       f=&#x2211;a<sub>i</sub>.&chi;<sub>Ai</sub> en intervalo [a,b])</klr>
       La sumo &#x2211;a<sub>i</sub>.l<sub>i</sub>, kie l<sub>i</sub>
-      signas la longon de intervalo A<sub>i</sub>; 
+      signas la longon de intervalo A<sub>i</sub>;
       simb. &#x222b;<sub>a</sub><sup>b</sup>f(x)dx.
     </dif>
   </snc>
   <snc mrk="integr2.rimana0o.de_funckio">
     <dif>
-      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f en intervalo 
+      <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> f en intervalo
       [a,b])</klr>
-      La komuna valoro, se &gcirc;i ekzistas, de la 
+      La komuna valoro, se &gcirc;i ekzistas, de la
       <ref cel="suprem.0o">supremo</ref> de la <tld/>oj en
-      [a,b] de &scirc;tuparaj funkcioj malpli grandaj ol f kaj de la 
+      [a,b] de &scirc;tuparaj funkcioj malpli grandaj ol f kaj de la
       <ref cel="infim.0o">infimo</ref>
       de la <tld/>oj en [a,b] de &scirc;tuparaj funkcioj pli grandaj ol f;
       alidire
@@ -305,31 +297,25 @@
   <trd lng="en">Riemann['s] <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale de Riemann</trd>
   <trd lng="nl">Riemann-<ind>integraal</ind></trd>
-<trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_R;&c_i;&c_m;&c_a;&c_n;&c_a;</trd>
+  <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_R;&c_i;&c_m;&c_a;&c_n;&c_a;</trd>
 </drv>
-
 </art>
 <!--
 $Log$
-Revision 1.10  2001/07/29 19:28:35  revo
+Revision 1.11 2001/11/11 19:20:34 revo
+Paul Peeraerts: ald trd nl
+Revision 1.10 2001/07/29 19:28:35 revo
 Marc Bavant: sxovis ref tip=dif ekster dif
-
-Revision 1.9  2001/07/28 19:05:21  revo
+Revision 1.9 2001/07/28 19:05:21 revo
 Marc Bavant: +drv difinita, nedifinita, lebega, rimana ~oj, ~hava/~ebla, ~ado, ~ato; ~o 1: mod dif, +ekz kun ~signo; ~o 2: mod dif kaj rim, mod tr ru; ~i: mod ekz; +trd de/en/ru
-
-Revision 1.8  2001/06/23 18:12:22  revo
+Revision 1.8 2001/06/23 18:12:22 revo
 Marc Bavant: mod ref cel al funkcio MAT
-
-Revision 1.7  2001/03/11 18:56:12  revo
+Revision 1.7 2001/03/11 18:56:12 revo
 Marc Bavant: mod ref cel al derivajxo, +trd fr
-
-Revision 1.6  2001/02/01 17:12:40  revo
+Revision 1.6 2001/02/01 17:12:40 revo
 Dennis Wibrow: +trd germ
-
-Revision 1.5  2000/09/13 16:11:26  revo
+Revision 1.5 2000/09/13 16:11:26 revo
 Sergio Pokrovskij: tajperaroj
-
-Revision 1.4  2000/09/12 16:11:55  revo
+Revision 1.4 2000/09/12 16:11:55 revo
 -->
 </vortaro>
-
