@@ -2,49 +2,97 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>permut</rad>/i
-      <fnt>Z</fnt>
-    </kap>
-    <drv mrk="permut.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          &Scirc;an&gcirc;i la ordon de ciferoj, literoj ks.
-        </dif>
-      </snc>
-      <trd lng="de">permutieren</trd>
-      <trd lng="nl">permuteren</trd>
-<trd lng="ru">&#x43f;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x44c;</trd>
-    </drv>
-    <drv mrk="permut.0ajxo">
-      <kap><tld/>a&jcirc;o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          &Ccirc;iu el la diversaj manieroj vicigi la elementojn de iu
-          aro: <ekz>la diversaj permuta&jcirc;oj de la objektoj a, b, c
-          estas: abc, acb, bac, bca, cab, cba.</ekz>
-        </dif>
-        <ref tip="super" cel="kombinrk.0ajxo">kombinatorika&jcirc;o</ref>
-        <refgrp tip="vid">
-          <ref cel="arangx.0ajxo">aran&gcirc;a&jcirc;o</ref>,
-          <ref cel="kombin.0ajxo.mat">kombina&jcirc;o</ref>,
-          <ref cel="faktor5.0o">faktorialo</ref>
-        </refgrp>
-      </snc>
-      <trd lng="de">Permutation</trd>
-      <trd lng="en">permutation</trd>
-      <trd lng="fr">permutation</trd>
-      <trd lng="nl">permutatie</trd>
-<trd lng="ru">&#x43f;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x43d;&#x43e;&#x432;&#x43a;&#x430;</trd>
-    </drv>
-  </art>
+<art mrk="$Id$">
+<kap>
+  <rad>permut</rad>/i
+  <fnt>Z</fnt>
+</kap>
+<drv mrk="permut.0i">
+  <kap>
+    <tld/>i
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+  <snc>
+    <dif>
+      &Scirc;an&gcirc;i la ordon de ciferoj, literoj ks.
+    </dif>
+  </snc>
+  <trd lng="de">permutieren</trd>
+  <trd lng="nl">permuteren</trd>
+  <trd lng="ru">&#x43f;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x44c;</trd>
+</drv>
+
+<drv mrk="permut.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref tip="super" cel="bijekc.0o">Bijekcio</ref> de aro al
+      &gcirc;i mem; pli speciale: bijekcio de {1, 2, ..., n} al &gcirc;i mem:
+      <ekz>
+        la nombro de <tld/>oj de {1, 2, ..., n} estas 
+        <ref cel="faktor5.0o">faktorialo</ref> de n;
+      </ekz>
+      <ekz>
+        la <ref cel="rang.0o.matrico">rango</ref> de matrico ne
+        &scirc;an&gcirc;i&gcirc;as, se oni aplikas <tld/>on al la indicoj
+        de &gcirc;iaj vertikaloj a&ubreve; de &gcirc;iaj vertikaloj.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="par.0a.permuto">para</ref>,
+      <ref cel="par.ne0a.permuto">nepara</ref>,
+      <ref cel="par.0eco">pareco</ref> de permuto, 
+      <ref cel="ord.mal0ajxo.permuto">malorda&jcirc;o</ref>.
+    </refgrp>
+  </snc>
+</drv>
+
+<drv mrk="permut.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <dif>
+      &Ccirc;iu el la diversaj manieroj vicigi la elementojn de iu
+      aro:
+      <ekz>
+        la diversaj permuta&jcirc;oj de la objektoj a, b, c
+        estas: abc, acb, bac, bca, cab, cba.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="kombinrk.0ajxo">kombinatorika&jcirc;o;</ref>
+    <refgrp tip="vid">
+      <ref cel="arangx.0ajxo">aran&gcirc;a&jcirc;o</ref>,
+      <ref cel="kombin.0ajxo.mat">kombina&jcirc;o</ref>,
+      <ref cel="faktor5.0o">faktorialo</ref>.
+    </refgrp>
+  </snc>
+  <adm>
+  "Maniero vicigi elementojn" ne estas matematika objekto. Se
+  konsideri, ke la derivajxo per ~ajxo ofte signas la rezulton
+  de bildigo aux operacio, ni devas konstati, ke tiu vorto 
+  rompas la regulon, cxar gxi esence montras la saman aferon
+  kiel ~o: pp "la ~ajxo bca" ni simple aludas al la bijekcio, kiu
+  jxetas a al b, b al c kaj c al a. <aut>MB</aut>
+  </adm>
+  <trd lng="de">Permutation</trd>
+  <trd lng="en">permutation</trd>
+  <trd lng="fr">permutation</trd>
+  <trd lng="nl">permutatie</trd>
+  <trd lng="ru">&#x43f;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x43d;&#x43e;&#x432;&#x43a;&#x430;</trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.7  2001/07/29 19:28:08  revo
+Paul Peeraerts: ald trd nl
+
 Revision 1.6  2001/07/09 18:19:59  revo
 Dennis Wibrow: +trd germ
 
@@ -56,4 +104,3 @@ Sergio Pokrovskij: trad; +permutajxo
 
 -->
 </vortaro>
-
