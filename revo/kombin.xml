@@ -106,17 +106,21 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
     <dif>
-      <klr>(de p el n, de n po p)</klr>
-      &Ccirc;iu el la diversaj manieroj formi p-elementan subaron de
-      n-elementa aro:
+      <klr>(de <frm><k>p</k></frm> el <frm><k>n</k></frm>, 
+      de <frm><k>n</k></frm> po <frm><k>p</k></frm>)</klr>
+      &Ccirc;iu el la diversaj manieroj formi <frm><k>p</k></frm>-elementan
+      subaron de <frm><k>n</k></frm>-elementa aro:
       <ekz>
-        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de n po p oni signas per
-        K<sup>p</sup><sub>n</sub> = A<sup>p</sup><sub>n</sub>/n! =
-        n!/[p!&#xd7;(n-p)!];
+        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de <frm><k>n</k></frm>
+        po <frm><k>p</k></frm> oni signas per
+        <frm>K<sup><k>p</k></sup><sub><k>n</k></sub> =
+        A<sup><k>p</k></sup><sub><k>n</k></sub>/<k>n</k>! =
+        <k>n</k>!/[<k>p</k>!&#xd7;(<k>n</k>-<k>p</k>)!]</frm>;
       </ekz>
       <ekz>
-        la <tld/>a&jcirc;oj de du elementoj el la aro {a,b,c} estas
-        ab, ac, bc.
+        la <tld/>a&jcirc;oj de du elementoj el la aro 
+        <frm>{<k>a</k>,<k>b</k>,<k>c</k>}</frm> estas
+        <frm><k>ab</k></frm>, <frm><k>ac</k></frm>, <frm><k>bc</k></frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -125,8 +129,10 @@
     </refgrp>
     <rim>
       En la citita fonto Bricard parolas anka&ubreve; pri <ctl><tld/>a&jcirc;oj
-      ripetaj</ctl> (ekz-e de 3 po 2: aa, ab, ac, bb, bc, cc), kio estas
-      alia nocio, aperanta ekz-e en domenludo.
+      ripetaj</ctl> (ekz-e de <frm>3</frm> po <frm>2</frm>: 
+      <frm><k>aa</k></frm>, <frm><k>ab</k></frm>, <frm><k>ac</k></frm>, 
+      <frm><k>bb</k></frm>, <frm><k>bc</k></frm>, <frm><k>cc</k></frm>), 
+      kio estas alia nocio, aperanta ekz-e en domenludo.
     </rim>
     <adm>
       Werner kaj PIV1 preferas "kombinacio" cxi-sence, sed mi ne vidas
@@ -135,6 +141,7 @@
     <trd lng="de">Kombination<klr tip="amb"> (von n Elementen zur p-ten Klasse)</klr> </trd>
     <trd lng="en">combination<klr tip="amb"> (of n objects taken p at a time)</klr> </trd>
     <trd lng="fr">combinaison<klr tip="amb"> (de n &eacute;l&eacute;ments pris p &agrave; p)</klr></trd>
+    <trd lng="pl">kombinacja<klr tip="amb"> (z n po p)</klr></trd>
     <trd lng="ru">&c_s;&c_o;&c_ch;&c_je;&c_t;&c_a;&c_n;&c_i;&c_je;<klr tip="amb"> (&c_i;&c_z; n &c_p;&c_o; p)</klr></trd>
   </snc>
 </drv>
@@ -146,13 +153,15 @@
   <snc>
     <dif>
       <klr>(el finia nombro da <ref cel="vektor.0o.MAT">vektoroj</ref>
-      x<sub>i</sub>)</klr>
+      <frm><k>x</k><sub><k>i</k></sub></frm>)</klr>
       Sumo de termoj, konsistantaj el produto de &ccirc;iu el la vektoroj
-      x<sub>i</sub> per <ref cel="skalar.0o.MAT">skalaro</ref>
-      &alfa;<sub>i</sub>; la skalaroj estas nomataj
+      <frm><k>x</k><sub><k>i</k></sub></frm> per 
+      <ref cel="skalar.0o.MAT">skalaro</ref>
+      <frm>&alfa;<sub><k>i</k></sub></frm>; la skalaroj estas nomataj
       <ref cel="koefic.0o.lineara">koeficientoj</ref>:
       <ekz>
-        &Sigma;<sub>i</sub>&alfa;<sub>i</sub>&#8729;x<sub>i</sub>.
+        <frm>&#x2211; 
+        &alfa;<sub><k>i</k></sub>&#8729;<k>x</k><sub><k>i</k></sub></frm>.
       </ekz>
     </dif>
     <ref tip="vid" cel="pend.linearenede0a">lineare nedependa.</ref>
@@ -160,11 +169,14 @@
   <trd lng="de">Linearkombination</trd>
   <trd lng="en">linear <ind>combination</ind></trd>
   <trd lng="fr">combinaison lin&eacute;aire</trd>
+  <trd lng="pl">kombinacja liniowa</trd>
   <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja; <ind>&c_k;&c_o;&c_m;&c_b;&c_i;&c_n;&c_a;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.16  2002/10/21 16:33:47  revo
+Marc Bavant: mod operacion *
 Revision 1.15  2002/09/29 17:50:19  revo
 Marc Bavant: mod sendependa al nedependa
 Revision 1.14  2002/05/27 17:18:22  revo
@@ -182,7 +194,5 @@ Marc Bavant: +drv lineara ~ajxo, kor tr fr cxe ~ajxo 3, mod dif cxe ~ajxo 1
 Revision 1.8 2000/09/05 16:13:19 revo
 Sergio Pokrovskij: -malprt
 Revision 1.7 2000/07/13 19:09:38 revo
-Sergio Pokrovskij: tajperaro
-Revision 1.6 2000/07/11 17:04:40 revo
 -->
 </vortaro>
