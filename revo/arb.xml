@@ -2,68 +2,109 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<ofc>*</ofc>
-<rad>arb</rad>/o
-</kap>
-<drv mrk="arb.0o">
-<kap><ofc>*</ofc><tld/>o</kap>
-<snc>
-<dif>
-Ligna veg. kun alta trunko, bran&ccirc;oj k folioj (ekz: kverko, platano, 
-pomujo, &ccirc;erizarbo).
-</dif>
-</snc>
-<trd lng="cs">strom</trd>
-<trd lng="fr">arbre</trd>
-<trd lng="ru">&#1076;&#1077;&#1088;&#1077;&#1074;&#1086;</trd>
-</drv>
-<drv mrk="arb.0aro">
-<kap><tld/>aro</kap>
-<snc>
-<refgrp tip="vid">
-<ref cel="ar">-ar</ref>.
-</refgrp>
-</snc>
-<trd lng="fr">for&ecirc;t</trd>
-<trd lng="ru">&#1083;&#1077;&#1089;</trd>
-</drv>
-<drv mrk="arb.0eto">
-<kap><tld/>eto</kap>
-<snc>
-<dif>
-Arbusto a&ubreve; arbedo.
-</dif>
-</snc>
-<trdgrp lng="ru">
-   <trd>&#1076;&#1077;&#1088;&#1077;&#1074;&#1094;&#1077;</trd>,
-   <trd>&#1082;&#1091;&#1089;&#1090;</trd>
-</trdgrp>
-</drv>
-<drv mrk="arb.0etaro">
-<kap><tld/>etaro</kap>
-<snc>
-<dif>
-Kolekto da <tld/>etoj  kune kreskantaj.
-</dif>
-</snc>
-<trd 
-lng="ru">&#1082;&#1091;&#1089;&#1090;&#1072;&#1088;&#1085;&#1080;&#1082;</trd>
-</drv>
-<drv mrk="arb.0etajxo">
-<kap><tld/>eta&jcirc;o</kap>
-<snc>
-<dif>
-Arbustotufo, vepro.
-</dif>
-</snc>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.6  2000/08/11 16:10:53  revo
-Yury Finkel: aldono de rusa traduko
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>arb</rad>/o
+    </kap>
+    <drv mrk="arb.0o">
+      <kap><ofc>*</ofc><tld/>o</kap>
+      <snc mrk="arb.0o.BOT">
+        <dif>
+          Ligna vegeta&jcirc;o kun alta trunko, bran&ccirc;oj kaj folioj (ekz: kverko,
+          platano, pomujo, &ccirc;erizarbo).
+        </dif>
+      </snc>
+      <snc mrk="arb.0o.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Finia aro, en kiu unu elementon oni rigardas <em>radiko</em>,
+          kaj la ceteraj formas disajn arojn (nomatajn <em>subarboj</em>),
+          &ccirc;iu el kiuj mem estas <tld/>o:
+          <ekz>
+            la <ref tip="malprt" cel="grafe.0iko">grafeika</ref> terminaro
+            pri la <tld/>oj estas &ccirc;erpita el genealogio
+            (praulo, posteulo, patro, ido, frato) kaj el botaniko
+            (radiko, folio);
+          </ekz><ekz>
+            en grafeiko oni apartigas radikhavajn, senradikajn,
+            orientitajn, ordajn <tld/>o;
+          </ekz><ekz>
+            <uzo tip="fak">KOMP</uzo>
+            duuma <tld/>o, B-<tld/>o,  deriv<tld/>o, ser&ccirc;<tld/>o.
+          </ekz>
+          <refgrp tip="super">
+            <ref cel="grafe.0o">grafeo</ref>,
+            <ref cel="klasif.0o">klasifiko</ref>,
+            <ref cel="hierar.0o">hierarkio</ref>.
+          </refgrp>
+        </dif>
+      </snc>
+      <trd lng="cs">strom</trd>
+      <trd lng="fr">arbre</trd>
+      <trd lng="ru">&c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
+    </drv>
+    <drv mrk="arb.0aro">
+      <kap><tld/>aro</kap>
+      <snc>
+        <refgrp tip="vid">
+          <ref cel="ar">-ar</ref>.
+        </refgrp>
+      </snc>
+      <trd lng="fr">for&ecirc;t</trd>
+      <trd lng="ru">&c_l;&c_je;&c_s;</trd>
+    </drv>
+     <drv mrk="arb.sub0o">
+      <kap>sub<tld/>o</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          <ref tip="malprt" cel="arb.0o.MAT">Arbo</ref> konsiderata
+          kiel parto de alia arbo.
+        </dif>
+      </snc>
+      <trd lng="en">subtree</trd>
+      <trd lng="ru">&c_p;&c_o;&c_d;&c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
+    </drv>
+    <drv mrk="arb.0eto">
+      <kap><tld/>eto</kap>
+      <snc>
+        <dif>
+          Arbusto a&ubreve; arbedo.  
+        </dif>
+      </snc>
+      <trdgrp lng="ru">
+        <trd>&c_d;&c_je;&c_r;&c_je;&c_v;&c_c;&c_je;</trd>,
+        <trd>&c_k;&c_u;&c_s;&c_t;</trd>
+      </trdgrp>
+    </drv>
+    <drv mrk="arb.0etaro">
+      <kap><tld/>etaro</kap>
+      <snc>
+        <dif>
+          Kolekto da <tld/>etoj  kune kreskantaj. 
+        </dif>
+      </snc>
+      <trd lng="ru">&c_k;&c_u;&c_s;&c_t;&c_a;&c_r;&c_n;&c_i;&c_k;</trd>
+    </drv>
+    <drv mrk="arb.0etajxo">
+      <kap><tld/>eta&jcirc;o</kap>
+      <snc>
+        <dif>
+          Arbustotufo, vepro.  
+        </dif>
+      </snc>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.7  2000/10/06 17:06:16  revo
+  Marc Bavant: aldono de franca traduko
 
--->
+  Revision 1.6  2000/08/11 16:10:53  revo
+  Yury Finkel: aldono de rusa traduko
+
+  -->
 </vortaro>
