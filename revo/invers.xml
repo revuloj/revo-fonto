@@ -36,7 +36,7 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      Estanta <tld/>o.
+      Estanta <tld/>o <sncref ref="invers.0o.MAT"/>.
     </dif>
     <trd lng="de">inverse</trd>
     <trd lng="en">inverse</trd>
@@ -100,7 +100,35 @@
         <trd>reciprocal <ind>element</ind></trd>
       </trdgrp>
       <trd lng="fr">&eacute;l&eacute;ment inverse</trd>
+      <trdgrp lng="pl">
+        <trd>element odwrotny</trd>,
+        <trd>odwrotno&sacute;&cacute;</trd>
+      </trdgrp>
       <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j; <ind>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</ind></trd>
+    </subsnc>
+    <subsnc mrk="invers.0o.per0igo">
+      <dif>
+        <ref cel="bild.0o.MAT">Bildo</ref> de punkto a&ubreve; figuro per
+        <ref cel="invers.0igo.transformo"><tld/>igo</ref>:
+        <ekz>
+          la <tld/>o de rekto ne trairanta la centron estas cirklo
+          &gcirc;in trairanta.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>inverser <ind>Punkt</ind></trd>,
+        <trd>inverse <ind>Figur</ind></trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>inverse<klr tip="amb"> (of a point)</klr></trd>,
+        <trd>inverse <ind>figure</ind></trd>
+      </trdgrp>
+      <trd lng="fr">inverse<klr tip="ind"> (subst., d'un point, d'une figure)</klr></trd>
+      <trd lng="pl">obraz<klr tip="ind"> (punktu, figury)</klr> w inwersji</trd>
+      <trdgrp lng="ru">
+        <trd>&c_i;&c_n;&c_v;&c_je;&c_r;&c_s;&c_n;&c_a;&c_ja; <ind>&c_t;&c_o;&c_ch;&c_k;&c_a;</ind></trd>,
+        <trd>&c_i;&c_n;&c_v;&c_je;&c_r;&c_s;&c_n;&c_a;&c_ja; <ind>&c_f;&c_i;&c_g;&c_u;&c_r;&c_a;</ind></trd>
+      </trdgrp>
     </subsnc>
     <subsnc mrk="invers.0o.variaj">
       <refgrp tip="vid">
@@ -138,23 +166,87 @@
 
 <drv mrk="invers.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <snc mrk="invers.0igi.KOMUNE">
     <dif>
       Meti en <tld/>an pozicion a&ubreve; direkton:
       <ekz>
         <tld/>igi bildon, elektran fluon, la rolojn.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>umkehren</trd>,
+      <trd>invertieren</trd>
+    </trdgrp>
+    <trd lng="nl">omkeren</trd>
+    <trdgrp lng="ru">
+      <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>,
+      <trd>&c_i;&c_n;&c_v;&c_je;&c_r;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="de">
-    <trd>umkehren</trd>,
-    <trd>invertieren</trd>
-  </trdgrp>
-  <trd lng="nl">omkeren</trd>
-  <trdgrp lng="ru">
-    <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>,
-    <trd>&c_i;&c_n;&c_v;&c_je;&c_r;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  </trdgrp>
+  <snc mrk="invers.0igi.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+    <dif>
+      Kalkuli la <ref cel="invers.0o.MAT"><tld/>on <sncref/></ref>:
+      <ekz>
+        <tld/>igi matricon,
+      </ekz>
+      <ekz>
+        bildigon,
+      </ekz>
+      <ekz>
+        figuron.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="invers.0igo">
+  <kap><tld/>igo</kap>
+  <snc mrk="invers.0igo.KOMUNE">
+    <dif>
+      Ago <tld/>igi <sncref ref="invers.0igi.KOMUNE"/>.
+    </dif>
+  </snc>
+  <snc mrk="invers.0igo.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="invers.0igo.gxenerale">
+      <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+      <dif>
+        Ago <tld/>igi <sncref ref="invers.0igi.MAT"/>.
+      </dif>
+    </subsnc>
+    <subsnc mrk="invers.0igo.transformo">
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>MatTerm</bib><lok>p. 29</lok></fnt>
+      <dif>
+        <klr>(en dudimensia afina
+        <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>,
+        kun centro O kaj potenco &lambda;<sup>2</sup>)</klr>
+        <ref tip="super" cel="form.trans0o.MAT">Transformo</ref>, kiu
+        &jcirc;etas punkton M al tia puntko M' de la duonrekto OM, ke
+        OM.OM'=&lambda;<sup>2</sup>:
+        <ekz>
+          &ccirc;iu punkto de la cirklo kun centro en O kaj radiuso
+          &lambda; estas sen&scirc;an&gcirc;a per la <tld/>igo;
+        </ekz>
+        <ekz>
+          <tld/>igo estas <ref cel="involu1.0o">involucio</ref>.
+        </ekz>
+      </dif>
+      <rim>
+        Tian transformon oni anka&ubreve; nomas <ctl><tld/>igo rilate al cirklo
+        kun centro en O kaj radiuso &lambda;</ctl>. Troveblas sinonima termino
+        <ctl>inversio</ctl> en <fnt><bib>MatVort</bib></fnt>, sed neniu el niaj
+        aliaj fontoj &gcirc;in konfirmas.
+      </rim>
+      <trd lng="de">Inversion<klr tip="ind"> (am Kreis)</klr></trd>
+      <trd lng="en">inversion<klr tip="ind"> (with respect to a circle)</klr></trd>
+      <trd lng="fr">inversion<klr tip="ind"> (par rapport &agrave; un cercle)</klr></trd>
+      <trd lng="pl">inwersja<klr tip="ind"> (wzgl&eogonek;dem okr&eogonek;gu)</klr></trd>
+      <trd lng="ru">&c_i;&c_n;&c_v;&c_je;&c_r;&c_s;&c_i;&c_ja;<klr tip="ind"> (&c_o;&c_t;&c_n;&c_o;&c_s;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o; &c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_i;)</klr></trd>
+    </subsnc>
+  </snc>
 </drv>
 
 <drv mrk="invers.0igebla">
@@ -186,6 +278,7 @@
       Ni ne opinias tiun limigon utila.
     </rim>
     <trd lng="en">inversible</trd>
+    <trd lng="pl">odwracalny</trd>
     <trd lng="ru">&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   </snc>
   <trd lng="de">umkehrbar</trd>
@@ -204,8 +297,9 @@
   <trd lng="de">unumkehrbar</trd>
   <trd lng="en">non-inversible</trd>
   <trd lng="fr">non inversible</trd>
-  <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   <trd lng="nl">onomkeerbaar</trd>
+  <trd lng="pl">nieodwracalny</trd>
+  <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="invers.0hava">
@@ -219,6 +313,7 @@
   <trd lng="en">inversible</trd>
   <trd lng="fr">inversible</trd>
   <trd lng="nl">omkeerbaar</trd>
+  <trd lng="pl">odwracalny</trd>
   <trd lng="ru">&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
 </drv>
 
@@ -233,24 +328,23 @@
   <trd lng="de">unumkehrbar</trd>
   <trd lng="en">non-inversible</trd>
   <trd lng="fr">non inversible</trd>
-  <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   <trd lng="nl">onomkeerbaar</trd>
+  <trd lng="pl">nieodwracalny</trd>
+  <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.15  2002/05/27 17:18:09  revo
+Revision 1.16 2002/08/04 17:33:16 revo
+Marc Bavant: ~o: kor fnt bib MatStokTerm
+Revision 1.15 2002/05/27 17:18:09 revo
 Marc Bavant: snc MAT: mod fnt
-
-Revision 1.14  2002/05/12 16:37:51  revo
+Revision 1.14 2002/05/12 16:37:51 revo
 Marc Bavant: ne~igebla: +uzo MAT
-
-Revision 1.13  2002/05/02 16:37:09  revo
+Revision 1.13 2002/05/02 16:37:09 revo
 Marc Bavant: ~a MAT: -ekz, -rim; ~o MAT: +ekz, mod rim, reordigis al subsnc, mod refgrp
-
 Revision 1.12 2002/02/23 19:57:54 revo
 Marc Bavant: ~a: +snc MAT; ~o MAT: +trd de/en/fr, mod trd ru, +rim; ~igebla: +fnt, -adm, +trd en/ru; ne~igebla: +trd en/ru; +drv ne~hava
-
 Revision 1.11 2001/12/02 17:33:39 revo
 Marc Bavant: ~igebla MAT: kor klr
 Revision 1.10 2001/11/12 19:12:58 revo
