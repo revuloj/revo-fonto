@@ -173,11 +173,11 @@
     </rim>
     <refgrp tip="vid">
       <ref cel="atak.0i">ataki</ref>,
-      <ref cel="traf.0i">trafi</ref>,
-      <ref cel="renkon.0i">renkonti</ref>,
-      <ref cel="frap.0i">frapi</ref>,
       <ref cel="bat.0i">bati</ref>,
-      <ref cel="ricev.0i">ricevi</ref>.
+      <ref cel="frap.0i">frapi</ref>,
+      <ref cel="renkon.0i">renkonti</ref>,
+      <ref cel="ricev.0i">ricevi</ref>,
+      <ref cel="traf.0i">trafi</ref>
     </refgrp>
   </snc>
   <snc mrk="fal.0i.malkreski">
@@ -238,10 +238,10 @@
       pro tio, ke la <tld/>o povas esti fatala.
     </rim>
     <refgrp tip="vid">
-      <ref cel="sukces.mal0i">malsukcesi</ref>,
+      <ref cel="fiask.0i">fiaski</ref>,
       <ref cel="prospe">malprosperi</ref>,
-      <ref cel="pere.0i">perei</ref>,
-      <ref cel="fiask.0i">fiaski</ref>.
+      <ref cel="sukces.mal0i">malsukcesi</ref>,
+      <ref cel="pere.0i">perei</ref>
     </refgrp>
   </snc>
   <snc mrk="fal.0i.en_ion">
@@ -404,8 +404,8 @@
     <trd>stolpern</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>tr&eacute;bucher</trd>,
-    <trd>broncher<klr tip="ind"> (tr&eacute;bucher)</klr></trd>
+    <trd>broncher<klr tip="ind"> (tr&eacute;bucher)</klr></trd>,
+    <trd>tr&eacute;bucher</trd>
   </trdgrp>
   <trd lng="hu">megbotlik</trd>
   <trd lng="nl">struikelen</trd>
@@ -524,12 +524,12 @@
     <trd lng="hu">csapda</trd>
   </snc>
   <trdgrp lng="fr">
-    <trd>obstacle</trd>,
-    <trd>chausse-trappe</trd>,
     <trd>achoppement</trd>,
+    <trd>chausse-trappe</trd>,
+    <trd>&eacute;cueil<klr tip="ind"> (emb&ucirc;che)</klr></trd>,
     <trd>emb&ucirc;che<klr tip="ind"> (&eacute;cueil)</klr></trd>,
-    <trd>pi&egrave;ge<klr tip="ind"> (emb&ucirc;che)</klr></trd>,
-    <trd>&eacute;cueil<klr tip="ind"> (emb&ucirc;che)</klr></trd>
+    <trd>obstacle</trd>,
+    <trd>pi&egrave;ge<klr tip="ind"> (emb&ucirc;che)</klr></trd>
   </trdgrp>
   <trd lng="nl">val<klr tip="ind"> (bijv. een val zetten)</klr></trd>
 </drv>
@@ -587,9 +587,9 @@
       <trd>hanyatlik</trd>
     </trdgrp>
     <refgrp tip="vid">
-      <ref cel="dekade.0i">dekadenci</ref>,
       <ref cel="degene.0i">degeneri</ref>,
-      <ref cel="degrad">degradi&gcirc;i</ref>.
+      <ref cel="degrad">degradi&gcirc;i</ref>,
+      <ref cel="dekade.0i">dekadenci</ref>
     </refgrp>
     <refgrp tip="vid">
       <ref cel="sitel.0o">sitelo</ref>.
@@ -619,7 +619,7 @@
         <fnt><bib>MT</bib>, <lok>&Jer; 5:23</lok></fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="fr">
+    <trdgrp lng="hu">
       <trd>elszakad</trd>,
       <trd>elp&aacute;rtol</trd>,
       <trd>h&udblac;tlenn&eacute; v&aacute;lik</trd>
@@ -688,7 +688,7 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="argume.0o">argumento</ref>.
+      <ref cel="argume.0o">argumento</ref>
     </refgrp>
   </snc>
   <trdgrp lng="de">
@@ -849,13 +849,54 @@
 </drv>
 
 <drv mrk="fal.en0ejo">
-  <kap>en<tld/>ejo, en<tld/>ujo<fnt>Z</fnt>, en<tld/>ilo<fnt>Z</fnt></kap>
+  <kap>en<tld/>ejo</kap>
+  <snc>
+    <ref tip="dif" cel="fal.en0ilo">en<tld/>ilo</ref>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>fosse<klr> (pi&egrave;ge)</klr></trd>,
+    <trd>pi&egrave;ge<klr> (fosse)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">csapda</trd>
+  <trd lng="nl">val<klr tip="ind"> (v..dieren bijv.)</klr></trd>
+  <trdgrp lng="ru">
+    <trd>&c_z;&c_a;&c_p;&c_a;&c_d;&c_n;&c_ja;</trd>,
+    <trd>&c_l;&c_o;&c_v;&c_u;&c_sh;&c_k;&c_a;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fal.en0ilo">
+  <kap>en<tld/>ilo<fnt>Z</fnt></kap>
   <snc>
     <dif>
-      Kaptilo.
+      <ref tip="super" cel="kapt.0ilo">Kaptilo</ref> el ka&scirc;ita fosa&jcirc;o, en kiun iu en<tld/>os.
     </dif>
+    <refgrp tip="sin">
+      <ref cel="fal.en0ejo">en<tld/>ejo</ref>,
+      <ref cel="fal.en0ujo">en<tld/>ujo</ref>
+    </refgrp>
   </snc>
-  <trd lng="fr">pi&egrave;ge</trd>
+  <trdgrp lng="fr">
+    <trd>fosse<klr> (pi&egrave;ge)</klr></trd>,
+    <trd>pi&egrave;ge<klr> (fosse)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">csapda</trd>
+  <trd lng="nl">val<klr tip="ind"> (v..dieren bijv.)</klr></trd>
+  <trdgrp lng="ru">
+    <trd>&c_z;&c_a;&c_p;&c_a;&c_d;&c_n;&c_ja;</trd>,
+    <trd>&c_l;&c_o;&c_v;&c_u;&c_sh;&c_k;&c_a;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fal.en0ujo">
+  <kap>en<tld/>ujo<fnt>Z</fnt></kap>
+  <snc>
+    <ref tip="dif" cel="fal.en0ilo">en<tld/>ilo</ref>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>fosse<klr> (pi&egrave;ge)</klr></trd>,
+    <trd>pi&egrave;ge<klr> (fosse)</klr></trd>
+  </trdgrp>
   <trd lng="hu">csapda</trd>
   <trd lng="nl">val<klr tip="ind"> (v..dieren bijv.)</klr></trd>
   <trdgrp lng="ru">
@@ -935,6 +976,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="fr">s'abimer<klr> (tomber, disparaitre)</klr></trd>
   <trdgrp lng="hu">
     <trd>elbukik</trd>,
     <trd>elhullik</trd>
@@ -1019,6 +1061,9 @@
 </art>
 <!--
 $Log$
+Revision 1.17  2003/09/25 16:30:45  revo
+Jozefo Horvath: +trd hu
+
 Revision 1.16  2003/08/20 16:31:04  revo
 Yury Finkel: +trd ru
 
@@ -1035,8 +1080,5 @@ Revision 1.12 2001/09/27 18:18:52 revo
 Marc Bavant: de~i 3: +mrk
 
 Revision 1.11 2001/07/27 19:34:15 revo
-Marc Bavant: funde reverkis; ~i: reprenis cxiujn ekz kaj rearangxis ilin
-alimaniere; +drv ~o, el~i, ~pusxigxi, super~i; +ekz; +bib
-
 -->
 </vortaro>
