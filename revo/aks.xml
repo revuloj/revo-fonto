@@ -32,22 +32,23 @@
   <snc mrk="aks.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      Rimarkinda <ref tip="super" cel="rekt.0o.MAT">rekto</ref>
-      kaj interalie:
+      Rimarkinda <ref tip="super" cel="rekt.0o.MAT">rekto</ref>,
+      interalie:
     </dif>
     <subsnc mrk="aks.0o.simetrio">
       <dif>
-        <ref tip="dif" cel="aks.simetri0o">simetri<tld/>o</ref>:
+        <ref tip="dif" cel="aks.simetri0o">Simetri<tld/>o</ref>:
         <ekz>
-          <tld/>o de cirklo <klr>(la rekto orta al &gcirc;ia ebeno kaj
-          trairanta &gcirc;ian centron)</klr>;
+          <tld/>o de <ref cel="cirkl.0o.linio">cirklo</ref> <klr>(la rekto 
+          orta al &gcirc;ia ebeno kaj trairanta &gcirc;ian centron)</klr>;
         </ekz>
         <ekz>
-          <tld/>o de sfero <klr>(&ccirc;iu ajn el la rektoj enhavantaj
-          &gcirc;ian centron)</klr>;
+          <tld/>o de <ref cel="sfer.0o.surfaco">sfero</ref> <klr>(&ccirc;iu ajn 
+          el la rektoj enhavantaj &gcirc;ian centron)</klr>;
         </ekz>
         <ekz>
-          fokusa a&ubreve; nefokusa <tld/>o de elipso <klr>(simetri<tld/>o,
+          fokusa a&ubreve; nefokusa <tld/>o de 
+          <ref cel="elips.0o.linio">elipso</ref> <klr>(simetri<tld/>o,
           trairanta &gcirc;iajn fokusojn, a&ubreve; ne)</klr>.
         </ekz>
       </dif>
@@ -60,30 +61,32 @@
     <subsnc mrk="aks.0o.rotacio">
       <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
       <dif>
-        <klr>(p.p. <ref cel="rotaci.0o.afina">afina rotacio</ref>
+        <klr>(de <ref cel="rotaci.0o.afina">afina rotacio</ref>
         en tridimensia spaco)</klr>
-        la rekto sen&scirc;an&gcirc;a per &gcirc;i;
+        La rekto sen&scirc;an&gcirc;a per &gcirc;i.
       </dif>
     </subsnc>
     <subsnc mrk="aks.0o.koordinato">
       <fnt><bib>MatTerm</bib><lok>p. 31</lok></fnt>
       <dif>
-        <klr>(p.p. kartezia
+        <klr>(de kartezia
         <ref cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
-        rekto, enhavanta la originan punkton kaj direktata de unu
+        Rekto, enhavanta la originan punkton kaj direktata de unu
         el la bazaj vektoroj:
         <ekz>
-          la abscisa <tld/>o <klr>(direktata de la unua baza vektoro)</klr>;
+          la abscisa <tld/>o <klr>(direktata de la unua baza vektoro)</klr>.
         </ekz>
       </dif>
+      <ref tip="sin" cel="aks.koordinata0o">koordinata <tld/>o.</ref>
     </subsnc>
     <subsnc mrk="aks.0o.polusa">
       <dif>
-        <klr>(p.p. polusa
+        <klr>(de polusa
         <ref cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
-        duonrekto, servanta por difini la
+        Duonrekto, servanta por difini la
         <ref cel="angul.polusa0o">polusan angulon</ref>.
       </dif>
+      <ref tip="sin" cel="aks.polusa0o">polusa <tld/>o.</ref>
     </subsnc>
     <trd lng="de">Achse</trd>
     <trd lng="en">axis</trd>
@@ -291,9 +294,25 @@
   <trd lng="ru">&c_m;&c_a;&c_l;&c_a;&c_ja; <ind>&c_p;&c_o;&c_l;&c_u;&c_o;&c_s;&c_mol;</ind></trd>
 </drv>
 
+<drv mrk="aks.koordinata0o">
+  <kap>koordinata <tld/>o, 
+  koordinat<tld/>o<fnt><bib>MatStokTerm</bib><lok>p. 24</lok></fnt>
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="dif" cel="aks.0o.koordinato">akso
+    <sncref ref="aks.0o.koordinato"/>.</ref>
+  </snc>
+  <trd lng="de">Koordinatenachse</trd>
+  <trd lng="en">coordinate <ind>axis</ind></trd>
+  <trd lng="fr">axe de coordonn&eacute;es</trd>
+  <trd lng="ru">&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_n;&c_a;&c_ja; <ind>&c_o;&c_s;&c_mol;</ind></trd>
+</drv>
+
 <drv mrk="aks.polusa0o">
   <kap>polusa <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc>
     <ref tip="dif" cel="aks.0o.polusa">akso
     <sncref ref="aks.0o.polusa"/>.</ref>
@@ -303,12 +322,14 @@
   <trd lng="fr">axe polaire</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja; <ind>&c_o;&c_s;&c_mol;</ind></trd>
 </drv>
+
 </art>
 <!--
 $Log$
+Revision 1.29  2002/05/02 16:34:50  revo
+Marc Bavant: ~a: mod ref en ekz, +fnt, +trd
 Revision 1.28  2002/04/01 18:49:57  revo
 Marc Bavant: ~o MAT: +fnt, +rim, +trd de/en/fr/ru; ~o: mod adm; aliaj snc MAT: +trd en/ru
-
 Revision 1.27  2002/03/16 17:31:58  revo
 Marc Bavant: ~o (simetrio): kor ekz ("i.a." al "la")
 Revision 1.26  2001/12/24 19:31:55  revo
@@ -324,6 +345,5 @@ Marc Bavant: kor ref cel al keplera
 Revision 1.21  2001/07/12 18:12:41  revo
 Marc Bavant: +trd fr, -adm cxe ~o MAT
 Revision 1.20  2001/06/09 18:49:54  revo
-Marc Bavant: +subsnc ~o de rotacio, simetri~o: mod "pp" al "de"; +drv ~a
 -->
 </vortaro>
