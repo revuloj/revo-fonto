@@ -8,6 +8,7 @@
   <kap><tld/>a</kap>
   <snc mrk="parale.0a.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="figur.geometria0o">geometriaj
       figuroj</ref>)</klr>
@@ -22,7 +23,7 @@
         <klr>(samcentraj, kun malsama radiuso)</klr>;
       </ekz>
       <ekz>
-        du rektoj <tld/>al al tria estas <tld/>aj inter si;
+        du rektoj <tld/>aj al tria estas <tld/>aj inter si;
       </ekz>
       <ekz>
         rekto <tld/>a al ebeno;
@@ -97,7 +98,7 @@
   <snc mrk="parale.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="parale.0o.rekto">
-      <uzo tip="klr">(elementa geometrio)</uzo>
+      <fnt><bib>PIV1</bib></fnt>
       <dif>
         <klr>(al <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
         <ref tip="super" cel="rekt.0o.elementa">Rekto</ref> paralela al
@@ -109,9 +110,24 @@
           sekcanto de du <tld/>oj difinas kun ili ok angulojn.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Parallele</trd>,
+        <trd>parallele <ind>Gerade</ind></trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>parallel<klr tip="ind"> (parallel line)</klr></trd>,
+        <trd>parallel <ind>line</ind></trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>parall&egrave;le<klr tip="ind"> (f&eacute;m., droite parall&egrave;le)</klr></trd>,
+        <trd>droite parall&egrave;le</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_mol;<klr tip="ind"> (&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_ja;&c_m;&c_a;&c_ja;)</klr></trd>,
+        <trd>&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_ja;&c_m;&c_a;&c_ja;</ind></trd></trdgrp> 
     </subsnc>
     <subsnc mrk="parale.0o.de_rivolua_surfaco">
-      <fnt><bib>MatVort</bib></fnt>
+      <fnt><bib>MatVort</bib><lok>paralelo, -de latitudo</lok></fnt>
       <dif>
         <klr>(de <ref cel="rivolu.0a.figuro">rivolua</ref>
         <ref cel="surfac.0o.MAT">surfaco</ref>)</klr>
@@ -119,19 +135,27 @@
         intersekco de la surfaco kun ebeno orta al &gcirc;ia akso.
       </dif>
       <ref tip="vid" cel="meridi.0o.MAT">meridiano.</ref>
+      <rim>
+        &Ccirc;i-sence Bricard
+        <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+        uzas <ctl><tld/>cirklo</ctl>, dubinda termino de vortfara vidpunkto.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Parallel</trd>,
+        <trd>Breitenkreis</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>parallel<klr tip="ind"> (circle of latitude)</klr></trd>,
+        <trd>parallel <ind>circle</ind></trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>parall&egrave;le<klr tip="ind"> (masc., cercle de latitude)</klr></trd>,
+        <trd>cercle de latitude</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_mol;<klr tip="ind"> (&c_k;&c_r;&c_u;&c_g; &c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_i;)</klr></trd>,
+        <trd>&c_k;&c_r;&c_u;&c_g; <ind>&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_i;</ind></trd></trdgrp> 
     </subsnc>
-    <trdgrp lng="de">
-      <trd>Parallele</trd>,
-      <trd>Parallel</trd>,
-      <trd>Breitenkreis</trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd>parallel<klr tip="ind"> (line, circle, of latitude)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>parall&egrave;le<klr tip="ind"> (f&eacute;m., droite parall&egrave;le)</klr></trd>,
-      <trd>parall&egrave;le<klr tip="ind"> (masc., cercle parall&egrave;le)</klr></trd>
-    </trdgrp>
     <adm>
       La senco "~o de rivolua surfaco" ne aperas en PIV1, sed gxi
       estas en MatVort sub la formo "~o de latitudo".
@@ -154,7 +178,6 @@
       <trd>pendant<klr tip="ind"> (chose comparable)</klr></trd>
     </trdgrp>
   </snc>
-  <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_mol;</trd>
 </drv>
 
 <drv mrk="parale.0ajxo">
@@ -175,18 +198,16 @@
 </art>
 <!--
 $Log$
+Revision 1.9  2001/12/11 18:25:12  revo
+Yury Finkel: +trd ru
 Revision 1.8 2001/10/22 18:13:15 revo
 Marc Bavant: +trd fr; ~a: splitis MAT/KOMUNE, +uzo MAT, +ekz kun ~igi;
 +drv ~o, ~ajxo
-
 Revision 1.7 2001/08/27 18:15:57 revo
 Paul Peeraerts: ald trd nl
-
 Revision 1.6 2001/02/28 17:12:36 revo
 Jerano Zachrisson: +trd sv
-
 Revision 1.5 2001/02/18 14:21:32 revo
 Wolfram Diestel: fundamenta ekz, germ trd
-
 -->
 </vortaro>
