@@ -2,246 +2,378 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>kod</rad>/o
-      <fnt>Z</fnt>
-    </kap>
-
-    <drv mrk="kod.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="kod.0o.SCI">
-        <uzo tip="fak">SCI</uzo>
+<art mrk="$Id$">
+<kap>
+  <rad>kod</rad>/o
+  <fnt>Z</fnt>
+</kap>
+<drv mrk="kod.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="kod.0o.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Sistemo da signoj a&ubreve; signaloj por prezenti mesa&gcirc;ojn
+      a&ubreve; ordonojn;
+      <ekz>
+        <uzo tip="fak">MAR</uzo>
+        <ind>internacia marista signal<tld/>o</ind>;
+        <trd lng="fr">code international de signaux</trd>
+      </ekz>
+      <ekz>
+        <ref cel="kod.morsa0o">morsa <tld/>o</ref>;
+      </ekz>
+      <ekz>
         <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Sistemo da signoj a&ubreve; signaloj por prezenti mesa&gcirc;ojn
-          a&ubreve; ordonojn;
-          <ekz>
-            internacia marista signal<tld/>o;
-          </ekz><ekz>
-            Morsa, sepbita, gena <tld/>o;
-          </ekz><ekz>
-            strek<tld/>o.
-          </ekz>
-        </dif>
-        <refgrp tip="sub">
-          <ref cel="sign.0aro">signaro</ref>,
-          <ref cel="alfabe.0o">alfabeto</ref>,
-          <ref cel="aski.0o">Askio</ref>,
-          <ref cel="unikod.0o">Unikodo</ref>
-        </refgrp>
-        <trdgrp lng="de">
-	  <trd>System</trd>,
-	  <trd>Alphabet</trd>,
-	  <trd>Kode</trd>,
-	  <trd>Code</trd>
-        </trdgrp>
-        <trd lng="nl">code</trd>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_o;&c_d;</trd>,
-          <trd>&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="kod.0o.itajxo">
-        <dif>
-          <tld lit="K"/>a&jcirc;o, grupo da signoj identiganta ion;
-          <ekz>
-            ISBN-<tld/>o, po&scirc;t<tld/>o, UEA-<tld/>o, serur<tld/>o.
-	  </ekz>
-        </dif>
-        <ref tip="sin" cel="numer.0o">numero</ref>
-        <ref tip="sub" cel="cxifr.0o">&ccirc;ifro</ref>
-        <trdgrp lng="de">
-	  <trd>Kennung</trd>,
-	  <trd>Geheimtext</trd>,
-	  <trd>Kode</trd>,
-	  <trd>Code</trd>
-        </trdgrp>
-        <trd lng="nl">code</trd>
-        <trd lng="ru">&c_k;&c_o;&c_d;</trd>
-      </snc>
-      <snc mrk="kod.0o.programo">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          <ref tip="super" cel="progra.0o.komp">Programo</ref>
-          en ma&scirc;ina lingvo.
-        </dif>
-        <trdgrp lng="de">
-	  <trd>Text</trd>,
-	  <trd>Kode</trd>,
-	  <trd>Code</trd>
-        </trdgrp>
-        <trd lng="nl">code</trd>
-        <trd lng="ru">&c_k;&c_o;&c_d;</trd>
-      </snc>
-      <snc mrk="kod.0o.JUR">
-        <uzo tip="fak">JUR</uzo>
-        <dif>
-          <ref tip="sin" cel="kodeks.0o.JUR">Kodekso<sncref/></ref>,
-	  kolekto da le&gcirc;oj:
-          <ekz>
-            civila, kriminala, komerca <tld/>o.
-          </ekz>
-        </dif>
-        <trdgrp lng="de">
-	  <trd>Kodex</trd>,
-	  <trd>Gesetzbuch</trd>
-        </trdgrp>
-        <trd lng="nl">wetboek</trd>
-        <trd lng="ru">&c_k;&c_o;&c_d;&c_je;&c_k;&c_s;</trd>
-      </snc>
-      <rim>
-        La vorto <ctl>kodo</ctl> estas uzata kaj por la <tld/>a sistemo,
-        kaj por la <tld/>ita mesa&gcirc;o a&ubreve; programo, kaj por apartaj
-        elementoj de la <tld/>a sistemo (<ctl>la <tld/>o de litero</ctl>
-        ktp); iam tio estas &gcirc;ena, kaj imitante la anglan iuj diras
-        <ctl><tld/>igo</ctl> por la <tld/>osistemo; tio estas evitinda, &ccirc;ar
-        <ctl><tld/>igo</ctl> havas alian sencon.
-      </rim>
-      <trd lng="en">code</trd>
-    </drv>
-
-    <drv mrk="kod.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>Esprimi en <tld/>o:
-          <ekz>
-            <tld/>ita mesa&gcirc;o.</ekz>
-        </dif>
-        <ref tip="sub" cel="cxifr.0i">&ccirc;ifri</ref>
-        <trdgrp lng="de">
-	  <trd>kodieren</trd>,
-	  <trd>verschl&uuml;sseln</trd>
-        </trdgrp>
-        <trdgrp lng="en">
-	  <trd>code</trd>,
-	  <trd>encode</trd>
-	</trdgrp>
-        <trd lng="nl">coderen</trd>
-        <trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-      </snc>
-    </drv>
-
-    <drv mrk="kod.0igi">
-      <kap><tld/>igi</kap>
-      <snc>
-        <uzo tip="fak">JUR</uzo>
-        <dif>Fari le&gcirc;ojn, kutimojn ktp parto de jura <tld/>o:
-          <ekz>
-            <tld/>igi
-            familiajn le&gcirc;ojn.</ekz>
-        </dif>
-        <trdgrp lng="de">
-	  <trd>kodifizieren</trd>
-        </trdgrp>
-        <trd lng="en">codify</trd>
-        <trd lng="nl">codificeren</trd>
-	<trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-      </snc>
-    </drv>
-
-    <drv mrk="kod.mal0i">
-      <kap>mal<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          Analizi <tld/>ita&jcirc;on por &gcirc;in kompreni a&ubreve; mal&ccirc;ifri.
-        </dif>
-        <trdgrp lng="de">
-	  <trd>entkodieren</trd>,
-	  <trd>entschl&uuml;sseln</trd>
-        </trdgrp>
-        <trd lng="en">decode</trd>
-        <trd lng="nl">decoderen</trd>
-	<trd lng="ru">&c_r;&c_a;&c_s;&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-      </snc>
-    </drv>
-
-    <drv mrk="kod.0oprezento">
-      <kap><tld/>oprezento</kap>
-      <uzo tip="fak">KOMP</uzo>
-      <snc>
-        <dif>
-          Maniero plu<tld/>i datumon, koditan per iu <tld/>o, uzante
-          alian <tld/>on, konvenan por datumtransmeto a&ubreve; alia celo.
-          Rezulte la datumo estas <tld/>ita per kompono de <tld/>oj:
-          <ekz>
-            por transmeti a&ubreve; konservi tekstojn koditajn en
-            Unikodo oni plej ofte uzas la <tld/>oprezenton
-            <em>UTF-8.</em>
-          </ekz>
-        </dif>
-	<rim>
-	  Oni nepre ne diru &leftquot;<tld/>igo&rightquot; tiusence, &ccirc;ar tia naiva
-	  pa&ubreve;sado de la angla termino ne donas la bezonatan sencon en
-	  Esperanto.
-        </rim>
-      </snc>
-      <trd lng="en">encoding</trd>
-      <trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
-    </drv>
-
-    <drv mrk="kod.0rompisto">
-      <kap><tld/>rompisto</kap>
-      <uzo tip="fak">KOMP</uzo>
-      <snc>
-        <dif>
-          Fiulo kiu &scirc;tel&c_a;s programojn a&ubreve; pasvortojn.
-        </dif>
-        <trdgrp lng="de">
-	  <trd>Kodebrecher</trd>,
-	  <trd>Codebrecher</trd>,
-	  <trd>Hacker</trd>,
-	  <trd>Cracker</trd>
-        </trdgrp>
-        <trd lng="en">cracker</trd>
-        <trd lng="nl">kraker</trd>
-	<trd lng="ru">&c_v;&c_z;&c_l;&c_o;&c_m;&c_shch;&c_i;&c_k; <klr>(&c_k;&c_o;&c_m;&c_p;&c_mol;&c_ju;&c_t;&c_je;&c_r;&c_n;&c_y;&c_j;)</klr></trd>
-      </snc>
-    </drv>
-
+        sepbita,
+      </ekz>
+      <ekz>
+        <uzo tip="fak">BIO</uzo>
+        <ind>gena <tld/>o</ind>.
+        <trd lng="fr">code g&eacute;n&eacute;tique</trd>
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="sign.0aro">signaro</ref>,
+      <ref cel="alfabe.0o">alfabeto</ref>,
+      <ref cel="cxifr.0o">&ccirc;ifro</ref>,
+      <ref cel="aski.0o">Askio</ref>,
+      <ref cel="unikod.0o">Unikodo</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>System</trd>,
+      <trd>Alphabet</trd>,
+      <trd>Kode</trd>,
+      <trd>Code</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>code<klr tip="ind"> (syst&egrave;me de signes)</klr></trd>,
+      <trd>alphabet<klr tip="ind"> (syst&egrave;me de signes)</klr></trd>,
+      <trd>codage<klr tip="ind"> (mani&egrave;re de coder)</klr></trd>,
+      <trd>encodage<klr tip="ind"> (mani&egrave;re de coder)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">code</trd>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_o;&c_d;</trd>,
+      <trd>&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="kod.0o.itajxo">
+    <dif>
+      Grupo da signoj, identiganta ion la&ubreve; iu <tld/>o <sncref ref="kod.0o.SCI"/>:
+      <ekz>
+        <ind>strek<tld/>o</ind>
+        <fnt><bib>KompLeks</bib></fnt>;
+        <trd lng="fr"><ind>code</ind>-barres</trd>
+      </ekz>
+      <ekz>
+        <ind>ISBN-<tld/>o</ind> de libro;
+        <trd lng="fr">code ISBN</trd>
+      </ekz>
+      <ekz>
+        <ind>po&scirc;to<tld/>o</ind>;
+        <trd lng="fr">code postal</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="fak">ESP</uzo>
+        UEA-<tld/>o de samideano;
+      </ekz>
+      <ekz>
+        serur<tld/>o.
+      </ekz>
+    </dif>
     <adm>
-      La JUR-senco neniel rilata al la SCI/KOMP-sencoj, kaj devas aperi
-      kiel homonimo -- supozeble en aparta artikolo.
-      <aut>Sergio</aut>
+      Endas enkonduki la signifon de mallongigo ISBN.
+      <aut>MB</aut>
     </adm>
+    <refgrp  tip="vid">
+      <ref cel="numer.0o">numero</ref>.
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Kennung</trd>,
+      <trd>Geheimtext</trd>,
+      <trd>Kode</trd>,
+      <trd>Code</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>code<klr tip="ind"> (signes d'identification)</klr></trd>,
+      <trd>identifiant</trd>
+    </trdgrp>
+    <trd lng="nl">code</trd>
+    <trd lng="ru">&c_k;&c_o;&c_d;</trd>
+  </snc>
+  <snc mrk="kod.0o.programo">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="super" cel="progra.0o.komp">Programo</ref>
+      en ma&scirc;ina lingvo.
+    </dif>
+    <trdgrp lng="de">
+      <trd>Text</trd>,
+      <trd>Kode</trd>,
+      <trd>Code</trd>
+    </trdgrp>
+    <trd lng="fr">code<klr tip="ind"> (programme)</klr></trd>
+    <trd lng="nl">code</trd>
+    <trd lng="ru">&c_k;&c_o;&c_d;</trd>
+  </snc>
+  <snc mrk="kod.0o.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      <ref tip="sin" cel="kodeks.0o.JUR">Kodekso<sncref/></ref>,
+      kolekto da le&gcirc;oj:
+      <ekz>
+        <ind>civila <tld/>o</ind>
+        <fnt><bib>VdE</bib></fnt>;
+        <trd lng="fr">Code civil</trd>
+      </ekz>
+      <ekz>
+        <ind>komerca <tld/>o</ind>
+        <fnt><bib>VdE</bib></fnt>;
+        <trd lng="fr">Code de commerce</trd>
+      </ekz>
+      <ekz>
+        <ind>kriminala <tld/>o</ind>
+        <fnt><bib>PV</bib></fnt>;
+      </ekz>
+      <ekz>
+        <ind>vetur<tld/>o</ind>
+        <fnt><bib>PIV1</bib></fnt>.
+        <trd lng="fr">Code de la route</trd>
+      </ekz>
+    </dif>
+    <adm>
+      Necesus klarigi la signifon de "kriminala kodo". Mi ne konas
+      la francan tradukon. Povas esti "code p&eacute;nal", sed la
+      napoleona kodo enhavis ankaux iun "code d'instruction 
+      criminelle".
+      <aut>MB</aut>
+    </adm>
+    <trdgrp lng="de">
+      <trd>Kodex</trd>,
+      <trd>Gesetzbuch</trd>
+    </trdgrp>
+    <trd lng="fr">code<klr tip="ind"> (droit)</klr></trd>
+    <trd lng="nl">wetboek</trd>
+    <trd lng="ru">&c_k;&c_o;&c_d;&c_je;&c_k;&c_s;</trd>
+  </snc>
+  <rim>
+    La vorto <ctl>kodo</ctl> estas uzata kaj por la <tld/>a sistemo,
+    kaj por la <tld/>ita mesa&gcirc;o a&ubreve; programo, kaj por apartaj
+    elementoj de la <tld/>a sistemo (<ctl>la <tld/>o de litero</ctl>
+    ktp); iam tio estas &gcirc;ena, kaj imitante la anglan iuj diras
+    <ctl><tld/>igo</ctl> por la <tld/>osistemo; tio estas evitinda, &ccirc;ar
+    <ctl><tld/>igo</ctl> havas alian sencon.
+  </rim>
+  <trd lng="en">code</trd>
+</drv>
 
-  </art>
-  <!--
-  $Log$
-  Revision 1.15  2004/01/19 17:31:13  revo
-  Sergio Pokrovskij: TEZ, ordo
+<drv mrk="kod.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Prezenti per <tld/>o <sncref ref="kod.0o.SCI"/>:
+      <ekz>
+        <tld/>ita mesa&gcirc;o;
+      </ekz>
+      <ekz>
+        askie <tld/>ita <ref cel="cxen.0o.KOMP">&ccirc;eno</ref>;
+      </ekz>
+      <ekz>
+        <ind><tld/>ado</ind>.
+        <trdgrp lng="fr">
+          <trd>codage<klr tip="ind"> (action)</klr></trd>,
+          <trd>encodage<klr tip="ind"> (action)</klr></trd>
+        </trdgrp>
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="cxifr.0i">&ccirc;ifri</ref>
+    <trdgrp lng="de">
+      <trd>kodieren</trd>,
+      <trd>verschl&uuml;sseln</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>code</trd>,
+      <trd>encode</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>coder</trd>,
+      <trd>encoder</trd>
+    </trdgrp>
+    <trd lng="nl">coderen</trd>
+    <trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+</drv>
 
-  Revision 1.14  2002/07/29 18:14:08  revo
-  Sergio Pokrovskij: +~oprezento, +ADM
+<drv mrk="kod.0ero">
+  <kap><tld/>ero</kap>
+  <uzo tip="fak">SCI</uzo>
+  <fnt><bib>PIV2</bib></fnt>
+  <snc>
+    <dif>
+      Unu el la signoj a&ubreve; grupo de signoj en
+      <tld/>o <sncref ref="kod.0o.SCI"/>.
+    </dif>
+  </snc>
+  <adm>
+    KompLeks vastigas la biologian terminon "kodono" (SPIV) por
+    gxin uzi cxi-sence.
+    <aut>MB</aut>
+  </adm>
+  <trdgrp lng="fr">
+    <trd>&eacute;l&eacute;ment de <ind>code</ind></trd>,
+    <trd>codet</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.13  2002/04/22 16:33:54  revo
-  Ulrich Fellmann: + 22 germ trdj
+<drv mrk="kod.0igi">
+  <kap><tld/>igi</kap>
+  <uzo tip="fak">JUR</uzo>
+  <snc>
+    <dif>
+      Fari le&gcirc;ojn, kutimojn ktp parto de jura <tld/>o:
+      <ekz>
+        <tld/>igi
+        familiajn le&gcirc;ojn.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>kodifizieren</trd>
+    </trdgrp>
+    <trd lng="en">codify</trd>
+    <trd lng="fr">codifier</trd>
+    <trd lng="nl">codificeren</trd>
+    <trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+</drv>
 
-  Revision 1.12  2001/10/31 19:16:21  revo
-  Paul Peeraerts: ald trd nl
+<drv mrk="kod.mal0i">
+  <kap>mal<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Analizi <tld/>ita&jcirc;on por &gcirc;in kompreni a&ubreve; mal&ccirc;ifri.
+    </dif>
+    <trdgrp lng="de">
+      <trd>entkodieren</trd>,
+      <trd>entschl&uuml;sseln</trd>
+    </trdgrp>
+    <trd lng="en">decode</trd>
+    <trd lng="fr">d&eacute;coder</trd>
+    <trd lng="nl">decoderen</trd>
+    <trd lng="ru">&c_r;&c_a;&c_s;&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+</drv>
 
-  Revision 1.11  2001/10/03 18:18:38  revo
-  Jerome Vachey: uzo klr (tr) - gra vspec tr
+<drv mrk="kod.0oprezento">
+  <kap><tld/>oprezento</kap>
+  <uzo tip="fak">KOMP</uzo>
+  <fnt><bib>KompLeks</bib></fnt>
+  <snc>
+    <dif>
+      Maniero plu<tld/>i datumon, <tld/>itan per iu <tld/>o, uzante
+      alian <tld/>on, konvenan por datumtransmeto a&ubreve; alia celo.
+      Rezulte la datumo estas <tld/>ita per kompono de <tld/>oj:
+      <ekz>
+        por transmeti a&ubreve; konservi tekstojn koditajn en
+        Unikodo oni plej ofte uzas la <tld/>oprezenton
+        <em>UTF-8</em>.
+      </ekz>
+    </dif>
+    <rim>
+      Oni nepre ne diru &leftquot;<tld/>igo&rightquot; tiusence, &ccirc;ar tia naiva
+      pa&ubreve;sado de la angla termino ne donas la bezonatan sencon en
+      Esperanto.
+    </rim>
+  </snc>
+  <adm>
+    Mi ne komprenas, kial la difino aludas al "plukodado": oni ja foje bezonas 
+    plukodi (kodi koditajxon), sed oni por tio tutsimple uzas duan kodon. 
+    La eventuala distingo inter "kodoprezento" kaj "kodo 1", same kiel inter 
+    la anglaj "code" kaj "encoding" (se oni ekskluzivas ties agan sencon: kodado),
+    estas tre malgranda: la unua aludas al la maniero kodi, dum la dua prezentas
+    la sistemon, laux kiu oni kodas... Sxajnas al mi, ke oni povus diri "kodo"
+    preskaux cxie, aux "kodadmaniero", se ial necesus emfazi la nuancon.
+    <aut>MB</aut>
+    PS: "Kompono" en la difino ne estas difinita. Por cxi tiu matematika senco
+    REVO uzas "kunligo". "Transmeti" kaj "transmeto" ekzistas en KompLeks, sed
+    ne en REVO.
+  </adm>
+  <trd lng="en">encoding</trd>
+  <trdgrp lng="fr">
+    <trd>codage<klr tip="ind"> (mani&egrave;re de coder)</klr></trd>,
+    <trd>encodage<klr tip="ind"> (mani&egrave;re de coder)</klr></trd>
+  </trdgrp>
+  <trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
+</drv>
 
-  Revision 1.10  2001/05/05 16:11:09  revo
-  Sergio Pokrovskij: kodrompisto
+<drv mrk="kod.0rompisto">
+  <kap><tld/>rompisto</kap>
+  <uzo tip="fak">KOMP</uzo>
+  <snc>
+    <dif>
+      Fiulo kiu &scirc;tel&c_a;s programojn a&ubreve; pasvortojn.
+    </dif>
+    <trdgrp lng="de">
+      <trd>Kodebrecher</trd>,
+      <trd>Codebrecher</trd>,
+      <trd>Hacker</trd>,
+      <trd>Cracker</trd>
+    </trdgrp>
+    <trd lng="en">cracker</trd>
+    <trdgrp lng="fr">
+      <trd>pirate<klr tip="ind"> (informatique)</klr></trd>,
+      <trd>hacker</trd>,
+      <trd>cracker</trd>
+    </trdgrp>
+    <trd lng="nl">kraker</trd>
+    <trd lng="ru">&c_v;&c_z;&c_l;&c_o;&c_m;&c_shch;&c_i;&c_k; <klr>(&c_k;&c_o;&c_m;&c_p;&c_mol;&c_ju;&c_t;&c_je;&c_r;&c_n;&c_y;&c_j;)</klr></trd>
+  </snc>
+</drv>
 
-  Revision 1.9  2000/12/06 17:10:44  revo
-  Sergio Pokrovskij: ref{Unikodo}
+<drv mrk="kod.morsa0o">
+  <kap>morsa <tld/>o</kap>
+  <uzo tip="fak">TEL</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="kod.0o.SCI"><tld lit="K"/>o</ref>, en
+      kiu la signoj estas prezentataj per diversaj kaj diverslongaj
+      kombina&jcirc;oj de nur du bazaj signoj, ekz-e punkto kaj streko, 
+      longa kaj mallonga ekbriloj ks.
+    </dif>
+    <ref tip="vid" cel="mors.0o">Morso</ref>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>code Morse</trd>,
+    <trd>morse<klr tip="ind"> (code)</klr></trd>
+  </trdgrp>
+</drv>
+<adm>
+  La JUR-senco neniel rilata al la SCI/KOMP-sencoj, kaj devas aperi
+  kiel homonimo -- supozeble en aparta artikolo.
+  <aut>Sergio</aut>
+</adm>
+</art>
+<!--
+$Log$
+Revision 1.16 2004/01/20 18:34:48 revo
+Sergio Pokrovskij: -redakta eraro
 
-  Revision 1.8  2000/12/05 17:10:44  revo
-  Sergio Pokrovskij: kodIGi legxojn; mrk.snc; ctl
+Revision 1.15 2004/01/19 17:31:13 revo
+Sergio Pokrovskij: TEZ, ordo
 
-  Revision 1.7  2000/05/02 20:34:36  revo
-  Sergio Pokrovskij: Forigis t en <ref cel="alfabe.0o">.
+Revision 1.14 2002/07/29 18:14:08 revo
+Sergio Pokrovskij: +~oprezento, +ADM
 
-  Revision 1.6  2000/05/01 11:36:56  revo
-  Sergio Pokrovskij: rusaj transkodoj; subnociaj referencoj
+Revision 1.13 2002/04/22 16:33:54 revo
+Ulrich Fellmann: + 22 germ trdj
 
-  Revision 1.5  2000/04/30 18:19:52  revo
-  Sergio Pokrovskij: Sencoj komputikaj kaj verbaj.
+Revision 1.12 2001/10/31 19:16:21 revo
+Paul Peeraerts: ald trd nl
 
-  -->
+Revision 1.11 2001/10/03 18:18:38 revo
+Jerome Vachey: uzo klr (tr) - gra vspec tr
+
+Revision 1.10 2001/05/05 16:11:09 revo
+-->
 </vortaro>
