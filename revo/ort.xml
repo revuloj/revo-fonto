@@ -79,28 +79,32 @@
     <trd lng="pl">prostok&aogonek;tny</trd>
     <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc>
+  <snc mrk="ort.0a.diversaj">
     <subsnc mrk="ort.0a.figuroj">
       <fnt><bib>PIV1</bib></fnt>
       <dif>
-        <klr>(p.p. <ref cel="figur.geometria0o">geometriaj figuroj</ref>)</klr>
+        <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref> rilate 
+        al alia)</klr>
         Tiaj, ke ili sin intersekcas formante <tld/>on:
+        <ekz>
+          rekto orta al alia rekto, al kurbo, al ebeno, al surfaco;
+        </ekz>
+        <ekz>
+          ebeno orta al lumradio;
+        </ekz>
         <ekz>
           ortaj rektoj, cirkloj, ebenoj;
         </ekz>
         <ekz>
-          la teraj meridianoj kaj paraleloj estas inter si <tld/>aj;
-        </ekz>
-        <ekz>
-          ebeno orta al lumradio.
+          la teraj meridianoj kaj paraleloj estas inter si <tld/>aj.
         </ekz>
       </dif>
-      <adm>
-        PIV1 enkondukis "inter~aj", specife kun tia senco kaj
-        MatVort subtenas gxin. PIV2 sxajne ne havos tiun
-        ne tre utilan derivajxon.
-        <aut>MB</aut>
-      </adm>
+      <rim>
+        Eblas diri sendistinge <ctl>a estas <tld/>a al b</ctl>, a&ubreve;
+        <ctl>a kaj b estas (inter si) <tld/>aj</ctl>. Por &ccirc;i-lasta
+        senco ekzistas anka&ubreve; la pli preciza termino 
+        <ctl>inter<tld/>a</ctl> en <fnt><bib>PIV1</bib></fnt>.
+      </rim>
       <ref tip="sin" cel="perpen1.0a">perpendikulara.</ref>
       <trd lng="nl">loodrecht</trd>
     </subsnc>
@@ -143,6 +147,14 @@
         <ctl><tld/>anto</ctl> en
         <fnt><bib>EKV</bib><lok>&para;317</lok></fnt>.
       </rim>
+    </subsnc>
+    <subsnc mrk="ort.0a.vektoro_formo">
+      <dif>
+        <klr>(p.p. elemento x de 
+        <ref cel="spac.vektora0o">vektora spaco</ref> kaj elemento
+        f de ties <ref cel="dual.0o.MAT">dualo</ref>)</klr>
+        Tiaj, ke f(x)=0.
+      </dif>
     </subsnc>
     <subsnc mrk="ort.0a.matrico">
       <fnt><bib>EKV</bib><lok>&para;316</lok></fnt>
@@ -226,6 +238,28 @@
   <trd lng="ru">&c_p;&c_je;&c_r;&c_p;&c_je;&c_n;&c_d;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_r;</trd>
 </drv>
 
+<drv mrk="ort.0ilo">
+  <kap><tld/>ilo</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">TEK</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <dif>
+      Ilo por desegni <ref cel="ort.0a.figuroj"><tld/>ajn <sncref/></ref> 
+      rektojn.
+    </dif>
+    <rim>
+      <tld lit="O"/>iloj povas havi diversajn formojn la&ubreve; la intencita
+      uzo, ekz-e formo de <tld/>a triangulo a&ubreve; de litero T.
+    </rim>
+  </snc>
+  <trd lng="de">Winkelhaken</trd>
+  <trd lng="en">angle-hook</trd>
+  <trd lng="fr">&eacute;querre</trd>
+  <trd lng="pl">ekierka</trd>
+  <trd lng="ru">&c_n;&c_a;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
+</drv>
+
 <drv mrk="ort.mez0anto">
   <kap>mez<tld/>anto</kap>
   <uzo tip="fak">MAT</uzo>
@@ -246,6 +280,7 @@
   <trd lng="en">mid-perpendicular<klr tip="ind"> (of a segment)</klr></trd>
   <trd lng="de">Mittelsenkrechte</trd>
   <trd lng="fr">m&eacute;diatrice<klr tip="ind"> (d'un segment)</klr></trd>
+  <trd lng="pl">symetralna</trd>
   <trd lng="pt">mediatriz</trd>
   <trd lng="ru">&c_m;&c_je;&c_d;&c_i;&c_a;&c_t;&c_r;&c_i;&c_s;&c_a;
   <klr tip="ind"> (&c_o;&c_t;&c_r;&c_je;&c_z;&c_k;&c_a;)</klr></trd>
@@ -253,6 +288,8 @@
 </art>
 <!--
 $Log$
+Revision 1.18  2002/09/01 19:10:21  revo
+Marc Bavant: +trd pl
 Revision 1.17  2002/06/07 17:32:06  revo
 Eduardo M. Kalinowski: ald trd pt
 Revision 1.16  2002/05/27 17:19:16  revo
@@ -270,7 +307,5 @@ Marc Bavant: +fnt; ~anto: mod rim
 Revision 1.10 2001/08/27 18:17:05 revo
 Marc Bavant: ~o: sxovis fakindikon, mod ref al angulo; -drv ~angulo (jam sub angulo); ~a: +ref al rekta, perpendikulara, +snc, +adm pri inter~a; ~anto: +rim, +ref al perpendiklo, perpendikularo; kompletigis trd MAT
 Revision 1.9 2001/05/13 18:42:26 revo
-Marc Bavant: +ref en ekz cxe ~o; mod ref cel al rekto
-Revision 1.8 2001/04/27 16:12:20 revo
 -->
 </vortaro>
