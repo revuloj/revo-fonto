@@ -9,18 +9,88 @@
 <fnt>Z</fnt>
 </kap>
 <drv mrk="konvek.0a">
-<kap><tld/>a</kap>
-<snc>
-<dif>
-Prezentanta elstaran duonsferan kurbecon;  malkonkava: <ekz>la <tld/>aj speguloj malgrandigas la objektojn.
-</ekz>
-</dif>
-<trd lng="en">convex</trd>
-</snc>
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+      Prezentanta elstaran randon, kiel cirklo a&ubreve; sfero:
+      <ekz>
+        la <tld/>aj speguloj malgrandigas la objektojn.
+      </ekz>
+    </dif>
+    <trd lng="en">convex</trd>
+  </snc>
+  <snc mrk="konvek.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="konvek.0a.subaro">
+      <fnt><bib>PIV1</bib></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>,
+        subaro de <ref cel="spac.afina0o">afina spaco</ref>, a&ubreve; de
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+        Tia, ke &gcirc;i inkluzivas ajnan
+        <ref cel="strek.0o.segmento">strekon</ref>, kunligantan du &gcirc;iajn
+        elementojn:
+        <ekz>
+          <tld/>a <ref cel="angul.0o.figuro">angulo</ref> <klr>(malpli
+          granda ol <ref cel="strecx.0ita.angulo">stre&ccirc;ita</ref>
+          angulo)</klr>,
+          <ref cel="later.plur0o">plurlatero</ref>,
+          <ref cel="edr.plur0o">pluredro</ref>;
+        </ekz>
+        <ekz>
+          la rektoj, trairantaj laterojn de <tld/>a plurlatero,
+          intersekcas &gcirc;iajn laterojn nur en iliaj verticoj;
+        </ekz>
+        <ekz>
+          &ccirc;iuj <ref cel="angul.tri0o">trianguloj</ref> kaj
+          <ref cel="parale2.0o">paralelogramoj</ref> estas <tld/>aj;
+        </ekz>
+        <ekz>
+          <ref cel="teg.konveksa0ajxo"><tld/>a tega&jcirc;o</ref> de
+          subaro;
+        </ekz>
+        <ekz>
+          <tld/>a &ccirc;irka&ubreve;a&jcirc;o <klr>(en topologia
+          vektorspaco)</klr>.
+        </ekz>
+      </dif>
+      <trd lng="de">konvexe<klr tip="amb"> (Untermenge)</klr></trd>
+      <trd lng="en">convex<klr tip="amb"> (subset)</klr></trd>
+      <trd lng="fr"><klr tip="amb">(sous-ensemble) </klr><ind>convexe</ind></trd>
+      <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="konvek.0a.bildigo">
+      <dif>
+        <klr>(p.p. <ref cel="bild.0igo">bildigo</ref> f de
+        la aro de <ref cel="reel.0o.MAT">reeloj</ref> al si mem)</klr>
+        Tia, ke f(t.x+(1-t).y) &#x2264; t.f(x)+(1-t).f(y), kiaj ajn estas
+        x, y, kaj por &ccirc;iu t&#x2208;[0,1]:
+        <ekz>
+          la surfaco situanta super grafika&jcirc;o de <tld/>a reela
+          funkcio estas mem <tld/>a.
+        </ekz>
+      </dif>
+      <rim>
+        Se egaleco okazas, nur kiam t egalas
+        al 0 a&ubreve; 1, oni diras, ke la bildigo estas strikte <tld/>a.
+      </rim>
+      <rim>
+        Eblas vastigi la difinon al la okazoj, kiam la fonto-aro estas
+        afina a&ubreve; vektora spaco.
+      </rim>
+      <trd lng="de">konvexe<klr tip="amb"> (Funktion)</klr></trd>
+      <trd lng="en">convex<klr tip="amb"> (function)</klr></trd>
+      <trd lng="fr"><klr tip="amb">(fonction) </klr><ind>convexe</ind></trd>
+      <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_a;&c_ja;<klr tip="amb"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr></trd>
+    </subsnc>
+  </snc>
+  <ref tip="ant" cel="konkav.0a">konkava.</ref>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.5  2001/04/26 16:13:29  revo
+Karlo Freeman: +trd=en
+
 -->
 </vortaro>
-
