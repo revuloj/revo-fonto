@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>algebr</rad>/o
+  <ofc>1</ofc>
+  <rad>algebr</rad>/o
 </kap>
 <drv mrk="algebr.0o">
   <kap><tld/>o</kap>
@@ -32,6 +32,7 @@
   <trd lng="ru">&#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;</trd>
   <trd lng="sv">algebra</trd>
 </drv>
+
 <drv mrk="algebr.0a">
   <kap><tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
@@ -67,6 +68,7 @@
   </snc>
   <trd lng="fr">alg&eacute;brique</trd>
 </drv>
+
 <drv mrk="algebr.bulea0o">
   <kap>bulea <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -80,12 +82,12 @@
   <snc mrk="algebr.bulea0o.strukturo">
     <dif>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      (<em>A</em>,&#x2228;,&#x2227;,f), kie f estas involucio 
-      <klr>(nomata komplemento)</klr>, ke
+      (<em>A</em>,&#x2228;,&#x2227;,f), kie f estas
+      <ref cel="involu1.0o">involucio</ref> <klr>(nomata komplemento)</klr>, ke
       (1) amba&ubreve; operacioj estas asociecaj kaj komutecaj;
       (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio <klr>(signataj
       per 0 por &#x2228;, kaj 1 por &#x2227;)</klr>;
-      (3) &ccirc;iu operacio estas distribuebla rilate al la alia;
+      (3) &ccirc;iu operacio estas distribueca rilate al la alia;
       (4) x&#x2227;x = x&#x2228;x = x, x&#x2228;f(x) = 1 kaj x&#x2227;f(x) = 0,
       kiu ajn estas x&#x2208;<em>A</em>;
       (5) f(x&#x2228;y) = f(x)&#x2227;f(y) kaj f(x&#x2227;y) = f(x)&#x2228;f(y),
@@ -101,6 +103,7 @@
   </refgrp>
   <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline, structure)</klr></trd>
 </drv>
+
 <drv mrk="algebr.lineara0o">
   <kap>lineara <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -127,7 +130,7 @@
       (<em>A</em>,+,&#xd7;,*), ke (<em>A</em>,+,&#xd7;) estas
       <ref tip="super" cel="ring.0o.MAT">ringo</ref> kaj
       (<em>A</em>,+,*) estas
-      <ref tip="super" cel="spac.vektora0o">vektora spaco</ref> super 
+      <ref tip="super" cel="spac.vektora0o">vektora spaco</ref> super
       <em>K</em>:
       <ekz>
         la polinomringo de korpo <em>K</em> estas lineara <tld/>o super
@@ -147,6 +150,7 @@
   </snc>
   <trd lng="sv">linj&auml;r algebra</trd>
 </drv>
+
 <drv mrk="algebr.sigma0o">
   <kap>sigma-<tld/>o, &sigma;-<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -155,13 +159,13 @@
       <klr>(super <ref cel="ar.0o.MAT">aro</ref> <em>&Omega;</em>)</klr>
       Tia ne malplena aro el subaroj de <em>&Omega;</em>, ke
       &gcirc;i enhavas la <ref cel="komple1.0o.aro">komplementon</ref> de
-      &ccirc;iu sia elemento, kaj la 
+      &ccirc;iu sia elemento, kaj la
       <ref cel="kun.0ajxo.aro">kuna&jcirc;on</ref> de &ccirc;iu sia
       <ref cel="nombr.0ebla.MAT">nombrebla</ref> subaro:
       <ekz>
-        eblas demonstri, ke &sigma;-<tld/>o nepre enhavas <em>&Omega;</em>, 
-        la malplenan aron kaj la 
-        <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu sia 
+        eblas demonstri, ke &sigma;-<tld/>o nepre enhavas <em>&Omega;</em>,
+        la malplenan aron kaj la
+        <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu sia
         nombrebla subaro;
       </ekz>
       <ekz>
@@ -175,17 +179,22 @@
   </snc>
   <trdgrp lng="de">
     <trd>Sigma-Algebra</trd>,
-    <trd>Sigma-K&ouml;rper</trd></trdgrp> 
+    <trd>Sigma-K&ouml;rper</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>sigma-algebra</trd>,
-    <trd>sigma-field</trd></trdgrp> 
+    <trd>sigma-field</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>sigma-alg&egrave;bre</trd>,
-    <trd>tribu</trd></trdgrp> 
+    <trd>tribu</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_i;&c_g;&c_m;&c_a;-&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</trd>,
-    <trd>&c_s;&c_i;&c_g;&c_m;&c_a;-&c_p;&c_o;&c_l;&c_je;</trd></trdgrp> 
+    <trd>&c_s;&c_i;&c_g;&c_m;&c_a;-&c_p;&c_o;&c_l;&c_je;</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="algebr.borelasigma0o">
   <kap>borela sigma-<tld/>o, borela &sigma;-<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -208,28 +217,27 @@
   <trd lng="fr">tribu de Borel</trd>
   <trd lng="ru">&c_b;&c_o;&c_r;&c_je;&c_l;&c_je;&c_v;&c_s;&c_k;&c_o;&c_je; <ind>&c_p;&c_o;&c_l;&c_je;</ind></trd>
 </drv>
-
 </art>
 <!--
 $Log$
-Revision 1.15  2001/08/01 18:14:31  revo
+Revision 1.16 2001/09/15 19:28:29 revo
+Marc Bavant: +drv ~a
+
+Revision 1.15 2001/08/01 18:14:31 revo
 Paul Peeraerts: ald trd nl
 
-Revision 1.14  2001/07/22 18:17:16  revo
+Revision 1.14 2001/07/22 18:17:16 revo
 Marc Bavant: lineara ~o 2: mod dif, +trd; lineara ~o: mod mrk; +drv sigma-~o, bulea ~o
 
-Revision 1.13  2001/04/28 19:15:25  revo
+Revision 1.13 2001/04/28 19:15:25 revo
 Helio Jaques: trd pt
-Revision 1.12  2001/03/17 17:13:03  revo
+Revision 1.12 2001/03/17 17:13:03 revo
 Marc Bavant: kor trd fr de lineara ~o 2, kor "artimetika"
-Revision 1.11  2001/03/12 17:15:06  revo
+Revision 1.11 2001/03/12 17:15:06 revo
 Ulrich Fellmann: + 2 germ trdj
-Revision 1.10  2001/03/11 18:57:49  revo
+Revision 1.10 2001/03/11 18:57:49 revo
 Jerano Zachrisson: +trd sv
-Revision 1.9  2001/02/25 17:11:40  revo
+Revision 1.9 2001/02/25 17:11:40 revo
 Marc Bavant: reverkis ~o
-Revision 1.8  2001/01/13 18:46:31  revo
-Marc Bavant: magmo -> algebra strukturo
-Revision 1.7  2000/12/08 17:10:46  revo
 -->
 </vortaro>
