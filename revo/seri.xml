@@ -4,11 +4,13 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>*</ofc>
-<rad>seri</rad>/o
+  <ofc>*</ofc>
+  <rad>seri</rad>/o
 </kap>
 <drv mrk="seri.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
+  <kap>
+    <ofc>*</ofc><tld/>o
+  </kap>
   <snc mrk="seri.0o.aro">
     <subsnc mrk="seri.0o.aroghen">
       <dif>
@@ -108,20 +110,33 @@
   </snc>
   <snc mrk="seri.0o.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
     <dif>
       <ref tip="super" cel="vic.0o.MAT">Vico</ref> u, konsiderata kune kun ties
       vico v de partaj sumoj <klr>(v<sub>n</sub>=
-      u<sub>0</sub>+u<sub>1</sub>+u<sub>2</sub>+... +u<sub>n</sub>)</klr>.
+      u<sub>0</sub>+u<sub>1</sub>+u<sub>2</sub>+... +u<sub>n</sub>)</klr>:
+      <ekz>
+        la <ind>harmona <tld/>o</ind>
+        <klr>(kies &gcirc;enerala termo egalas al 1/n)</klr> ne konver&gcirc;as.
+        <trd lng="de">harmonische <ind>Reihe</ind></trd>
+        <trd lng="en">harmonic <ind>series</ind></trd>
+        <trd lng="fr">s&eacute;rie harmonique</trd>
+        <trd lng="ru">&c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_r;&c_ja;&c_d;</ind></trd>
+      </ekz>
     </dif>
-    <ref tip="vid" cel="sum.0o.serio">sumo de serio</ref>
+    <refgrp tip="vid">
+      <ref cel="sum.0o.serio">sumo</ref> de serio,
+      <ref cel="konver.0i.MAT">konver&gcirc;i</ref>.
+    </refgrp>
     <rim>
       Ne ekzistas formala diferenco inter la nocioj vico kaj <tld/>o. &Ccirc;iun
       vicon oni povas konsideri anka&ubreve; kiel serion. La diferenco
-      aperas nur,
-      kiam temas pri konver&gcirc;o, &ccirc;ar por <tld/>o oni interesi&gcirc;as
-      pli pri la konver&gcirc;o de la vico v, ol pri tiu de u.
+      aperas nur, kiam temas pri konver&gcirc;o, &ccirc;ar por <tld/>o oni 
+      interesi&gcirc;as pli pri la konver&gcirc;o de la vico v, ol pri tiu de u.
     </rim>
-    <trd lng="fr">s&eacute;rie</trd>
+    <trd lng="de">Reihe</trd>
+    <trd lng="fr">s&eacute;rie<klr tip="ind"> (math.)</klr></trd>
+    <trd lng="ru">&c_r;&c_ja;&c_d;</trd>
   </snc>
   <trd lng="de">Serie</trd>
   <trd lng="en">series</trd>
@@ -130,8 +145,11 @@
     <trd>reeks</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="seri.0ajho">
-  <kap><tld/>a&jcirc;o</kap>
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
   <uzo tip="fak">TIP</uzo>
   <snc>
     <dif>
@@ -151,6 +169,9 @@
 </art>
 <!--
 $Log$
+Revision 1.12  2001/10/22 18:12:43  revo
+Marc Bavant: ~o MAT: forigis em; ~ajxo: sxovis fakidikon kaj refgrp
+
 Revision 1.11  2001/09/06 18:13:39  revo
 Dennis Wibrow: +trd germ
 
@@ -167,7 +188,5 @@ Revision 1.7  2001/02/20 17:17:11  revo
 Philippe Combot: Reskribo de snc 1 kaj 2, aldono de seria&jcirc;o
 
 Revision 1.6  2000/09/21 16:13:59  revo
-Marc Bavant: aldono de matematika senco kaj franca traduko
-
 -->
 </vortaro>
