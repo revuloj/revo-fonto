@@ -10,22 +10,16 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="nul0.0o.cifero">
     <dif>
-      Cifero, kiu montras la kvanton <ctl>neniu</ctl>, kaj obligas la
-      valoron de cifero, &ccirc;e kies dekstro &gcirc;i estas lokita:
+      Cifero <frm>0</frm>, kiu montras la kvanton <ctl>neniu</ctl>, kaj 
+      obligas la valoron de cifero, &ccirc;e kies dekstro &gcirc;i estas 
+      lokita:
       <ekz>
-        la nombro 0 estas elparolata <tld/>
+        la nombro <frm>0</frm> estas elparolata <tld/>
         <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>.
       </ekz>
-      Matematika simbolo 0.
     </dif>
-    <adm>
-      Por koherigi la prezenton kun aliaj okazoj, kiam oni
-      citas simbolon (ekz. mezurunuoj), indus loki tiun indikon
-      antaux la ekzemplon. Cetere mi ne certas, ke "0" estas
-      "matematika simbolo" (laux mi temas nur pri cifero). Sama
-      rimarko por cxiuj cifernomoj. <aut>MB</aut>
-    </adm>
     <trd lng="es">cero</trd>
+    <trd lng="fr">z&eacute;ro</trd>
     <trd lng="pt">zero</trd>
   </snc>
   <snc mrk="nul0.0o.io_senvalora">
@@ -45,11 +39,16 @@
         <tld/>on<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="fr">
+      <trd>nul<klr tip="ind"> (personne incapable)</klr></trd>,
+      <trd>z&eacute;ro</trd>,
+      <trd>rien</trd>
+    </trdgrp>
     <trd lng="pt">nada</trd>
   </snc>
   <snc mrk="nul0.0o.neuxtra">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>KompLeks</bib><lok>artikolo: ne&ubreve;tra elemento</lok></fnt>
+    <fnt><bib>KompLeks</bib><lok>ne&ubreve;tra elemento</lok></fnt>
     <dif>
       <ref tip="super" cel="neuxtr.0aelemento">Ne&ubreve;tra elemento</ref>
       rilate al adicie signata <ref cel="operac.0o.MAT">operacio</ref>.
@@ -58,13 +57,14 @@
     <trdgrp lng="en">
       <trd>null element</trd>,
       <trd>zero</trd></trdgrp>
+    <trdgrp lng="fr">
+      <trd>&eacute;l&eacute;ment nul</trd>,
+      <trd>z&eacute;ro</trd></trdgrp>
+    <trd lng="pl">zero</trd>
     <trd lng="ru">&c_n;&c_u;&c_l;&c_mol;</trd>
   </snc>
   <trd lng="cs">nula</trd>
   <trd lng="de">Null</trd>
-  <trdgrp lng="fr">
-    <trd>&eacute;l&eacute;ment nul</trd>,
-    <trd>z&eacute;ro</trd></trdgrp>
   <trd lng="he">&alef;&pe;&samekh;</trd>
   <trd lng="nl">nul</trd>
   <trdgrp lng="pt">
@@ -104,7 +104,8 @@
     <trd lng="de">Null-</trd>
     <trdgrp lng="en">
       <trd>null</trd>,
-      <trd>zero</trd></trdgrp>
+      <trd>zero</trd>
+    </trdgrp>
   </snc>
   <trd lng="es">nulo</trd>
   <trd lng="fr">nul</trd>
@@ -170,7 +171,7 @@
       Esti <tld/>iganto de &gcirc;i, doni al &gcirc;i nulan valoron:
       <ekz>
         trovi &ccirc;iujn argumentojn, kiuj <tld/>igas la funkcion
-        sin(x<sup>2</sup>+x);
+        <frm>sin(<k>x</k><sup>2</sup>+<k>x</k>)</frm>;
       </ekz>
       <ekz>
         la funkcio alprenas maksimuman valoron, kiam ni <tld/>igas
@@ -207,13 +208,13 @@
       <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
       <dif>
         <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
-        &Ccirc;iu elemento, kies bildo per la funkcio estas 0:
+        &Ccirc;iu elemento, kies bildo per la funkcio estas <frm>0</frm>:
         <ekz>
-          &pi; estas <tld/>iganto de funkcio sinuso;
+          <frm>&pi;</frm> estas <tld/>iganto de funkcio sinuso;
         </ekz>
         <ekz>
-          la polinoma funkcio x<sup>2</sup>-1 akceptas
-          1 kaj -1 kiel <tld/>igantojn.
+          la polinoma funkcio <frm><k>x</k><sup>2</sup>-1</frm> akceptas
+          <frm>1</frm> kaj <frm>-1</frm> kiel <tld/>igantojn.
         </ekz>
       </dif>
       <refgrp tip="vid">
@@ -231,6 +232,10 @@
       <trdgrp lng="fr">
         <trd>z&eacute;ro <klr tip="ind">(d'une fonction)</klr></trd>
       </trdgrp>
+      <trdgrp lng="pl">
+        <trd>miejsce zerowe<klr tip="ind"> (funkcji)</klr></trd>,
+        <trd>zero<klr tip="ind"> (wielomianu)</klr></trd>
+      </trdgrp>
       <trdgrp lng="ru">
         <trd>&c_n;&c_u;&c_l;&c_mol;<klr tip="ind"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_i;)</klr></trd>
       </trdgrp>
@@ -238,12 +243,14 @@
     <subsnc mrk="nul0.0iganto.de_elemento">
       <fnt><bib>PIV2</bib></fnt>
       <dif>
-        <klr>(de elemento a en <ref cel="ring.0o.MAT">ringo</ref>)</klr>
-        &Ccirc;iu elemento, kiu multiplikite per a donas <tld/>an
-        rezulton:
+        <klr>(de elemento <frm><k>a</k></frm> en 
+        <ref cel="ring.0o.MAT">ringo</ref>)</klr>
+        &Ccirc;iu elemento, kiu multiplikite per <frm><k>a</k></frm> donas 
+        <tld/>an rezulton:
         <ekz>
-          en la ringo de entjeroj module 6 elemento 2 akceptas 0 kaj 3
-          kiel <tld/>igantojn.
+          en la ringo de <frm>6</frm>-modulaj restoklasoj
+          elemento <frm>2</frm> akceptas <frm>0</frm> kaj
+          <frm>3</frm> kiel <tld/>igantojn.
         </ekz>
       </dif>
       <ref tip="vid" cel="divizo.nul0o">nuldivizoro.</ref>
@@ -289,6 +296,7 @@
     </dif>
     <trd lng="de">Null werden</trd>
     <trd lng="en">vanish</trd>
+    <trd lng="pl">zerowa&cacute; si&eogonek;</trd>
     <trd lng="ru">&c_o;&c_b;&c_n;&c_u;&c_l;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
   <trd lng="fr">s'<ind>annuler</ind></trd>
@@ -301,9 +309,10 @@
 </art>
 <!--
 $Log$
+Revision 1.23  2002/08/24 17:32:47  revo
+Allon Rothfarb: +trd he
 Revision 1.22  2002/08/11 17:32:35  revo
 Marc Bavant: ~iganto 1: +rim; +drv ~ejo
-
 Revision 1.21  2002/08/04 17:33:29  revo
 Marc Bavant: ~iganto MAT: +fnt, -adm, mod rim
 Revision 1.20  2002/06/25 19:40:06  revo
@@ -319,6 +328,5 @@ fontindiko PrV per programo de Jerome
 Revision 1.15  2001/11/30 17:36:12  revo
 Yury Finkel: +trd ru
 Revision 1.14 2001/11/27 17:32:44 revo
-Dennis Wibrow: +trd germ
 -->
 </vortaro>
