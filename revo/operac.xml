@@ -55,101 +55,109 @@
     </trdgrp>
     <trd lng="nl">operatie</trd>
   </snc>
-  <snc>
+  <snc mrk="operac.0o.MAT_supersenco">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      Kalkulo plenumata super konataj kvantoj por eltrovi unu a&ubreve;
-      plurajn kvantojn nekonatajn:
-      <ekz>
-        la kvar bazaj <tld/>oj aritmetikaj estas adicio,
-        subtraho, multipliko kaj divido.
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>Rechenart</trd>,
-      <trd>Rechenoperation</trd>
-    </trdgrp>
-    <trd lng="nl">bewerking<klr tip="ind"> (rekenk.)</klr></trd>
-    <trd lng="sv">operation</trd>
+    <adm>
+    Iam indos sxangxi la markojn
+      operac.0o.MAT_supersenco    al   operac.0o.MAT
+      operac.0o.MAT               al   operac.0o.bildigo
+    <aut>MB</aut>
+    </adm>
+    <subsnc mrk="operac.0o.elementa">
+      <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
+      <dif>
+        Kalkulo plenumata super konataj kvantoj por eltrovi unu a&ubreve;
+        plurajn kvantojn nekonatajn:
+        <ekz>
+          la kvar bazaj <tld/>oj aritmetikaj estas adicio,
+          subtraho, multipliko kaj divido.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Rechenart</trd>,
+        <trd>Rechenoperation</trd>
+      </trdgrp>
+      <trd lng="nl">bewerking<klr tip="ind"> (rekenk.)</klr></trd>
+      <trd lng="sv">operation</trd>
+    </subsnc>
+    <subsnc mrk="operac.0o.MAT">
+      <fnt><bib>MatStokTerm</bib><lok>p. 38</lok></fnt>
+      <dif>
+        <klr>(en <ref cel="ar.0o.MAT">aro</ref> <em>E</em>)</klr>
+        <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
+        <em>E</em>&#xd7;<em>E</em> al <em>E</em>:
+        <ekz>
+          la aritmetika adicio estas <tld/>o, kiu al &ccirc;iu duopo
+          de entjeroj asocias la sumon de ties termoj;
+        </ekz>
+        <ekz>
+          la <ref cel="lig.kun0o.MAT">kunligo</ref> de
+          <ref cel="rilat.interna0o">internaj rilatoj</ref> estas <tld/>o.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        Apartaj ecoj de operacio:
+        <ref cel="asoci.0eca.operacio">asocieca</ref>,
+        <ref cel="komut.0eca.operacio">komuteca</ref>,
+        <ref cel="distri.0eca.MAT">distribueca</ref>;
+        elementoj kun aparta konduto rilate al la operacio:
+        <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref>,
+        <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>;
+        strukturoj:
+        <ref cel="strukt.algebra0o">algebra strukturo</ref>.
+      </refgrp>
+      <rim>
+        Tiu &ccirc;i difino estas formaligo kaj plivastigo de la kutima
+        nocio <ctl>aritmetika <tld/>o</ctl>. Por tion &ccirc;i respeguli,
+        la <ref cel="bild.rekta0o">bildon</ref> de paro (x,y) per
+        <tld/>o T oni prefere signas per xTy anstata&ubreve;
+        T(x,y) kaj oni &gcirc;in nomas <ctl>rezulto de la
+        <tld/>o</ctl>.
+        La <tld/>on mem oni ofte signas adicie:
+        <ekz>
+          x+y
+        </ekz>
+        ,
+        a&ubreve; multiplike:
+        <ekz>
+          xy,
+        </ekz>
+        <ekz>
+          x&#xd7;y,
+        </ekz>
+        <ekz>
+          x.y,
+        </ekz>
+        <ekz>
+          x*y.
+        </ekz>
+        La nocio <tld/>o estas vastigebla anka&ubreve; al bildigoj, kies
+        <ref cel="ar.fonto0o">fonto-aro</ref> estas
+        <ref cel="produt.kartezia0o">kartezia produto</ref>
+        de pli ol du identaj aroj. Oni tiam
+        parolas pri <ctl>triloka</ctl>, <ctl>kvarloka</ctl> a&ubreve;
+        &gcirc;enerale <ctl>n-loka <tld/>o</ctl>.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Operation</trd>,
+        <trd>Verkn&uuml;pfung</trd>,
+        <trd>Verkn&uuml;pfungsgesetz</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>composition <ind>law</ind></trd>,
+        <trd>operation</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>loi de composition</trd>,
+        <trd>op&eacute;ration</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_z;&c_a;&c_k;&c_o;&c_n; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>,
+        <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+      </trdgrp>
+    </subsnc>
   </snc>
-  <snc mrk="operac.0o.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatStokTerm</bib><lok>p. 38</lok></fnt>
-    <dif>
-      <klr>(en <ref cel="ar.0o.MAT">aro</ref> <em>E</em>)</klr>
-      <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <em>E</em>&#xd7;<em>E</em> al <em>E</em>:
-      <ekz>
-        la aritmetika adicio estas <tld/>o, kiu al &ccirc;iu duopo
-        de entjeroj asocias la sumon de ties termoj;
-      </ekz>
-      <ekz>
-        la <ref cel="lig.kun0o.MAT">kunligo</ref> de
-        <ref cel="rilat.interna0o">internaj rilatoj</ref> estas <tld/>o.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      Apartaj ecoj de operacio:
-      <ref cel="asoci.0eca.operacio">asocieca</ref>,
-      <ref cel="komut.0eca.operacio">komuteca</ref>,
-      <ref cel="distri.0eca.MAT">distribueca</ref>;
-      elementoj kun aparta konduto rilate al la operacio:
-      <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref>,
-      <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>;
-      strukturoj:
-      <ref cel="strukt.algebra0o">algebra strukturo</ref>.
-    </refgrp>
-    <rim>
-      Tiu &ccirc;i difino estas formaligo kaj plivastigo de la kutima
-      nocio <ctl>aritmetika <tld/>o</ctl>. Por tion &ccirc;i respeguli,
-      la <ref cel="bild.rekta0o">bildon</ref> de paro (x,y) per
-      <tld/>o T oni prefere signas per xTy anstata&ubreve;
-      T(x,y) kaj oni &gcirc;in nomas <ctl>rezulto de la
-      <tld/>o</ctl>.
-      La <tld/>on mem oni ofte signas adicie:
-      <ekz>
-        x+y
-      </ekz>
-      ,
-      a&ubreve; multiplike:
-      <ekz>
-        xy,
-      </ekz>
-      <ekz>
-        x&#xd7;y,
-      </ekz>
-      <ekz>
-        x.y,
-      </ekz>
-      <ekz>
-        x*y.
-      </ekz>
-      La nocio <tld/>o estas vastigebla anka&ubreve; al bildigoj, kies
-      <ref cel="ar.fonto0o">fonto-aro</ref> estas
-      <ref cel="produt.kartezia0o">kartezia produto</ref>
-      de pli ol du identaj aroj. Oni tiam
-      parolas pri <ctl>triloka</ctl>, <ctl>kvarloka</ctl> a&ubreve;
-      &gcirc;enerale <ctl>n-loka <tld/>o</ctl>.
-    </rim>
-    <trdgrp lng="de">
-      <trd>Operation</trd>,
-      <trd>Verkn&uuml;pfung</trd>,
-      <trd>Verkn&uuml;pfungsgesetz</trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd>composition <ind>law</ind></trd>,
-      <trd>operation</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>loi de composition</trd>,
-      <trd>op&eacute;ration</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_z;&c_a;&c_k;&c_o;&c_n; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>,
-      <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
-    </trdgrp>
-  </snc>
-  <snc>
+  <snc mrk="operac.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Ago plenumata de unuopa komputila komando.
@@ -241,7 +249,8 @@
     <trd lng="de">operieren</trd>
     <trdgrp lng="en">
       <trd>act</trd>,
-      <trd>operate</trd></trdgrp> 
+      <trd>operate</trd>
+    </trdgrp>
     <trd lng="ru">&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <trd lng="en">operate</trd>
@@ -355,8 +364,8 @@
   <snc>
     <dif>
       <ref tip="dif" cel="operac.0o.MAT"><tld lit="O"/>o
-      <sncref ref="operac.0o.MAT"/></ref> (kontraste
-      al <ref cel="operac.ekstera0o.aro">ekstera <tld/>o</ref>).
+      <sncref ref="operac.0o.MAT"/></ref> <klr>(kontraste
+      al <ref cel="operac.ekstera0o.aro">ekstera <tld/>o</ref>)</klr>.
     </dif>
   </snc>
   <trd lng="de">innere <ind>Verkn&uuml;pfung</ind></trd>
@@ -406,6 +415,9 @@
 </art>
 <!--
 $Log$
+Revision 1.26 2002/05/02 16:34:44 revo
+Marc Bavant: snc MAT: +fnt, +trd de/en/ru; ~i MAT: mod dif (certa); ~o MAT: mod dif; ekstera ~o: mod ekz
+
 Revision 1.25 2002/01/27 17:31:37 revo
 Marc Bavant: mod "distribuebla" al "distribueca"
 Revision 1.24 2002/01/06 17:45:16 revo
