@@ -44,7 +44,6 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>KompLeks</bib></fnt>
     <ref tip="dif" cel="distri.0eca.MAT"><tld/>eca.</ref>
-    <trd lng="fr">distributif</trd>
     <trd lng="ru">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
   </snc>
 </drv>
@@ -72,6 +71,7 @@
         <trd lng="de">Distributivit&auml;t</trd>
         <trd lng="en">distributivity</trd>
         <trd lng="fr">distributivit&eacute;</trd>
+        <trd lng="pl">rozdzielno&sacute;&cacute;</trd>
         <trd lng="ru">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;&c_i;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
       </ekz>
     </dif>
@@ -113,29 +113,53 @@
   <kap>probablo<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib>
-  <lok>sub formo &leftquot;akumula probablodistribuo&rightquot;</lok></fnt>
+  <lok>&leftquot;akumula probablodistribuo&rightquot;</lok></fnt>
   <snc>
     <dif>
       <klr>(de <ref cel="variab.hazarda0o">hazarda variablo</ref>
       <frm>X</frm>)</klr>
-      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> 
-      <frm><k>F</k></frm>, kiu al reelo <frm><k>x</k></frm> asocias la 
-      probablon de la okazo <frm>(X &lt; <k>x</k>)</frm>; 
-      simb. <frm><k>F</k>(<k>x</k>) = P(X &lt; <k>x</k>)</frm>.
+      La probablo <frm>P<sub>X</sub></frm>, kiun &gcirc;i difinas;
+      pli praktike: reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>,
+      kiu al reelo <frm><k>x</k></frm> asocias la probablon de la okazo 
+      <frm>(X &lt; <k>x</k>)</frm>; 
+      simb. <frm><k>F</k><sub>X</sub>(<k>x</k>) = P(X &lt; <k>x</k>)</frm>.
     </dif>
+    <rim>
+      Krom per la supre montrita funkcio ekzistas pluraj manieroj karakterizi
+      <frm>P<sub>X</sub></frm>, ekz-e per <frm>P(X &#8804; <k>x</k>)</frm>, 
+      a&ubreve; per la <ref cel="dens.probablo0o">probablodenso</ref> de 
+      <frm>X</frm>, a&ubreve; e&ccirc; per <frm>P(X = <k>x</k>)</frm>, se 
+      <frm>X</frm> estas diskreta.
+    </rim>
   </snc>
-  <trd lng="de">Warscheinlichkeitsverteilung</trd>
-  <trd lng="en">probability <ind>distribution</ind></trd>
-  <trd lng="fr">distribution de probabilit&eacute;</trd>
-  <trd lng="pl">dystrybuanta<klr tip="ind"> (zmiennej losowej)</klr></trd>
-  <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_je; &c_v;&c_je;&c_r;&c_o;&c_ja;&c_t;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
+  <trdgrp lng="de">
+    <trd>Warscheinlichkeitsverteilung</trd>,
+    <trd>Verteilungsfunktion</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>probability <ind>distribution</ind></trd>,
+    <trd>distribution function</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>distribution de probabilit&eacute;</trd>,
+    <trd>fonction de r&eacute;partition</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>rozk&lstroke;ad podobie&nacute;stwa<klr tip="ind"> (zmiennej losowej)</klr></trd>,
+    <trd>dystrybuanta<klr tip="ind"> (zmiennej losowej)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_r;&c_a;&c_s;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_je; &c_v;&c_je;&c_r;&c_o;&c_ja;&c_t;&c_n;&c_o;&c_s;&c_t;&c_je;&c_j;</trd>,
+    <trd>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja; &c_r;&c_a;&c_s;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.20  2002/11/30 17:34:54  revo
+Marc Bavant: mod frm
 Revision 1.19  2002/11/19 17:31:28  revo
 Marc Bavant: +frm
-
 Revision 1.18  2002/10/21 16:33:35  revo
 Marc Bavant: mod signon por operacio T
 Revision 1.17  2002/09/22 16:33:09  revo
@@ -151,6 +175,5 @@ Marc Bavant: ~eca: kor fnt
 Revision 1.12 2002/01/28 17:31:02 revo
 Marc Bavant: ~eca: sxovis fakindikon
 Revision 1.11 2002/01/27 17:31:31 revo
-Marc Bavant: +drv ~eca, sxovis al gxi materialon el sub ~ebla, +trd de/en
 -->
 </vortaro>
