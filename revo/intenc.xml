@@ -33,9 +33,9 @@
     <refgrp tip="vid">
       <ref cel="cel.0i">celi</ref>,
       <ref cel="plan.0i">plani</ref>,
-      <ref cel="projek1">projekti</ref>,
-      <ref cel="vol.0i">voli</ref>,
-      <ref cel="propon">proponi al si</ref>.
+      <ref cel="projek1.0i.plani">projekti <sncref/></ref>,
+      <ref cel="propon">proponi al si</ref>,
+      <ref cel="vol.0i">voli</ref>
     </refgrp>
   </snc>
   <trdgrp lng="de">
@@ -46,7 +46,6 @@
   <trdgrp lng="fr">
     <trd>avoir l'<ind>intention</ind> de</trd>,
     <trd>projeter de</trd>,
-    <trd>tendre &agrave;</trd>,
     <trd>viser &agrave;</trd>
   </trdgrp>
   <trd lng="hu">sz&aacute;nd&eacute;kozik</trd>
@@ -91,11 +90,11 @@
     <trd>Intension</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>intention</trd>
-    <trd>but<klr tip="ind"> (dessein)</klr></trd>
-    <trd>dessein<klr tip="ind"> (but)</klr></trd>
-    <trd>projet<klr tip="ind"> (but)</klr></trd>
-    <trd>vis&eacute;e<klr tip="ind"> (but)</klr></trd>
+    <trd>intention</trd>,
+    <trd>but<klr tip="ind"> (dessein)</klr></trd>,
+    <trd>dessein<klr tip="ind"> (but)</klr></trd>,
+    <trd>projet<klr tip="ind"> (but)</klr></trd>,
+    <trd>vis&eacute;e<klr tip="ind"> (but)</klr></trd>,
     <trd>vue<klr tip="ind"> (but)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
@@ -121,7 +120,8 @@
         tio estas <tld/>a mallerta&jcirc;o;
       </ekz>
       <ekz>
-        <tld/>a fu&scirc;ado;
+        sabotado kaj <tld/>a malhelpado
+        <fnt><bib>Metrop</bib></fnt>;
       </ekz>
       <ekz>
         parenc' al parenco ne malhelpas <ind><tld/>e</ind>
@@ -172,32 +172,69 @@
   <trd lng="hu">j&oacute; <ind>akarat&uacute;</ind></trd>
 </drv>
 
+<drv mrk="intenc.bon0o">
+  <kap>bon<tld/>o</kap>
+  <snc>
+    <dif>
+      Deziro helpi, bone agi:
+      <ekz>
+        li <klr>...</klr> atestadas sian fratecan bon<tld/>on, por
+        forturni la atenton pri siaj malamikaj ka&scirc;intencoj
+        <fnt><bib>SatirRak</bib>, <lok>Kain kaj Abel</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>bonne disposition</trd>,
+    <trd>bonne intention</trd>,
+    <trd>d&eacute;sir de bien faire</trd>,
+    <trd>g&eacute;n&eacute;rosit&eacute;<klr tip="amb"> (d&eacute;sir du bien)</klr></trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="intenc.malbon0a">
   <kap>malbon<tld/>a</kap>
   <snc>
     <dif>
-      Havanta malbonan <tld/>on:
+      <ref tip="super" cel="malic.0a">Malica</ref>, plananta misa&jcirc;on
+      kontra&ubreve; aliaj homoj:
       <ekz>
         malvirtulo malbon<tld/>as kontra&ubreve; virtulo
-        <fnt><bib>MT</bib><lok>&Psa; 37:12</lok></fnt>;
+        <fnt><bib>MT</bib>, <lok>&Psa; 37:12</lok></fnt>;
       </ekz>
       <ekz>
-        li &jcirc;etis sur lin ian objekton <ind>sen malbon<tld/>o</ind>
-        <fnt><bib>MT</bib><lok>&Nom; 35:22</lok></fnt>;
-        <trd lng="fr">sans penser &agrave; <ind>mal</ind></trd>
-      </ekz>
-      <ekz>
-        malpacienculo faras malsa&gcirc;a&jcirc;ojn 
+        malpacienculo faras malsa&gcirc;a&jcirc;ojn
         kaj malbon<tld/>ulo estas malamata
-        <fnt><bib>MT</bib><lok>&Sen; 14:17</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Sen; 14:17</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;&c_l;&c_a;&c_m;&c_y;&c_s;&c_n;&c_y;</trd>
+  <trd lng="de">b&ouml;swillig</trd>
   <trdgrp lng="fr">
     <trd>mal <ind>intentionn&eacute;</ind></trd>,
     <trd>malintentionn&eacute;</trd>
   </trdgrp>
   <trd lng="hu">rossz <ind>akarat&uacute;</ind></trd>
+  <trd lng="ru">&c_z;&c_l;&c_o;&c_n;&c_a;&c_m;&c_je;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+</drv>
+
+<drv mrk="intenc.malbon0o">
+  <kap>malbon<tld/>o</kap>
+  <snc>
+    <dif>
+      Deziro estigi mison a&ubreve; malfeli&ccirc;on:
+      <ekz>
+        li &jcirc;etis sur lin ian objekton <ind>sen malbon<tld/>o</ind>
+        <fnt><bib>MT</bib>, <lok>&Nom; 35:22</lok></fnt>;
+        <trd lng="fr">sans penser &agrave; <ind>mal</ind></trd>
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>d&eacute;sir de nuire</trd>,
+    <trd>mauvaise intention</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="intenc.sen0a">
@@ -210,20 +247,7 @@
       </ekz>
       <ekz>
         mi devas &scirc;ajni sen<tld/>a<fnt>Z</fnt>
-        <klr>(aganta sen<tld/>e)</klr>;
-      </ekz>
-      <ekz>
-        pardonu, ke mi pu&scirc;is vin, &ccirc;ar mi tion faris tute
-        <ind>sen<tld/>e</ind>.
-        <trdgrp lng="fr">
-          <trd>involontairement</trd>,
-          <trd>sans le vouloir</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>akaratlanul</trd>,
-          <trd>nem <ind>sz&aacute;nd&eacute;kosan</ind></trd>
-        </trdgrp>
-        <trd lng="ru">&c_n;&c_je;&c_ch;&c_a;&c_ja;&c_n;&c_n;&c_o;</trd>
+        <klr>(aganta sen<tld/>e)</klr>.
       </ekz>
     </dif>
   </snc>
@@ -246,17 +270,46 @@
     <trd>&c_n;&c_je;&c_u;&c_m;&c_y;&c_sh;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="intenc.sen0e">
+  <kap><ofc>*</ofc>sen<tld/>e</kap>
+  <snc>
+    <dif>
+      Nevole, ne celinte la efektivan rezulton:
+      <ekz>
+al homo, pekinta sen<tld/>e, Dio facile pardonas
+<fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>;
+</ekz>
+<ekz>
+        pardonu, ke mi pu&scirc;is vin, &ccirc;ar mi tion faris tute
+        <ind>sen<tld/>e</ind>.
+      </ekz>
+    </dif>
+  </snc>
+        <trdgrp lng="fr">
+          <trd>involontairement</trd>,
+          <trd>sans le vouloir</trd>
+        </trdgrp>
+        <trdgrp lng="hu">
+          <trd>akaratlanul</trd>,
+          <trd>nem <ind>sz&aacute;nd&eacute;kosan</ind></trd>
+        </trdgrp>
+        <trd lng="ru">&c_n;&c_je;&c_ch;&c_a;&c_ja;&c_n;&c_n;&c_o;</trd>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.12  2004/02/08 17:49:31  revo
+Revision 1.13 2004/02/13 17:30:28 revo
+Jozefo Horvath: +trd hu
+
+Revision 1.12 2004/02/08 17:49:31 revo
 Marc Bavant: +trd fr; +ekz kun ~e; +drv bon~a, malbon~a
 
 Revision 1.11 2002/01/12 17:31:11 revo
-Jerome Vachey: memkor : malplena trd
+jxeromo vasxe: memkor : malplena trd
 
 Revision 1.10 2002/01/11 17:33:00 revo
-Jerome Vachey: kor fnt MT, - sin + vid, + trd fr
+jxeromo vasxe: kor fnt MT, - sin + vid, + trd fr
 
 Revision 1.9 2001/11/11 19:20:40 revo
 Paul Peeraerts: ald trd nl
@@ -265,8 +318,5 @@ Revision 1.8 2001/06/14 19:51:15 revo
 Yury Finkel: +trd ru
 
 Revision 1.7 2001/03/04 21:06:26 revo
-Wolfram Diestel: ekzfnt
-
-Revision 1.6 2001/02/01 17:12:36 revo
 -->
 </vortaro>
