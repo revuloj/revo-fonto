@@ -7,7 +7,6 @@
   <rad>kongru</rad>/i
   <fnt>Z</fnt>
 </kap>
-
 <drv mrk="kongru.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
@@ -16,9 +15,11 @@
       Esti interkonforma kun:
       <ekz>
         la atesto <tld/>as kun la asertoj de la akuzito;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         <tld/>antaj datoj;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         la faktoj ne <tld/>as kun tiu hipotezo.
       </ekz>
     </dif>
@@ -37,32 +38,19 @@
       <trd>&c_s;&c_o;&c_v;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="kongru.0i.module">
+  <snc mrk="kongru.0i.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(p.p. du <ref cel="reel.0o.MAT">reeloj</ref>, la&ubreve;
-        la reela <ref cel="modul.0o.kongruo">modulo</ref> &my;)</klr>
-      Esti tiaj, ke ilia diferenco estas entjera opo de &my;:
+      Esti <tld/>a <sncref ref="kongru.0a.module"/> a&ubreve; <sncref ref="kongru.0a.geometrie"/>:
       <ekz>
         se du reeloj kongruas la&ubreve; modulo &pi;, iliaj
         <ref cel="sinus.0o.funkcio">sinusoj</ref> estas
-        <ref cel="egal.kontraux0a">kontra&ubreve;egalaj</ref>;
-      </ekz><ekz>
-        1111 kaj 4 estas <ind><tld/>a</ind>j la&ubreve; modulo 9;
-        <trd lng="de">kongruent<klr tip="ind"> (modulo N)</klr></trd>
-        <trd lng="en">congruent<klr tip="ind"> (modulo N)</klr></trd>
-        <trd lng="fr">congruent<klr tip="ind"> (modulo N)</klr></trd>
-        <trd lng="ru">&c_s;&c_r;&c_a;&c_v;&c_n;&c_i;&c_m;&c_y;&c_j;<klr tip="ind"> (&c_p;&c_o; &c_m;&c_o;&c_d;&c_u;&c_l;&c_ju; N)</klr></trd>
-      </ekz><ekz>
-        la <ref cel="ar.kvocienta0o">kvocienta aro</ref> de la rilato de
-        <ind><tld/>eco</ind> la&ubreve; modulo 5 super
-        la aro de entjeroj estas <ref cel="korp.0o.MAT">korpo</ref>.
-        <trd lng="fr">congruence<klr tip="ind"> (modulo N)</klr></trd>
+        <ref cel="egal.kontraux0a">kontra&ubreve;egalaj</ref>.
       </ekz>
     </dif>
     <rim>
       Oni diras sendistinge <ctl>x kaj y <tld/>as la&ubreve; modulo &my;</ctl>,
-      a&ubreve; <ctl>x <tld/>as kun y la&ubreve; modulo &my;</ctl>.
+      a&ubreve; <ctl>x <tld/>as kun/je y la&ubreve; modulo &my;</ctl>.
       Anstata&ubreve; <ctl><tld/>i</ctl> eblas diri <ctl>esti <tld/>a</ctl>, kaj
       anstata&ubreve; <ctl>la&ubreve; modulo</ctl> eblas diri
       <ctl>module</ctl>.
@@ -76,7 +64,8 @@
       <ekz>
         <uzo tip="fak">KOMP</uzo>
         tiu komputilo <tld/>as kun IBM PC;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         la nova operaciumo <tld/>as malplien
         <klr>(kun la malnovaj versioj, kies numeroj estas malpliaj)</klr>.
       </ekz>
@@ -99,49 +88,87 @@
     <trdgrp lng="ru">
       <trd>&c_s;&c_o;&c_p;&c_o;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
       <trd>&c_o;&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-      <trd>&c_s;&c_o;&c_v;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd></trdgrp>
+      <trd>&c_s;&c_o;&c_v;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd>
+    </trdgrp>
   </snc>
 </drv>
 
 <drv mrk="kongru.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="kongru.0a.gxenerale">
     <dif>
       <tld lit="K"/>anta:
       <ekz>
-        <uzo tip="fak">MAT</uzo>
-        <ind><tld/>a</ind>j trianguloj;
-        <trd lng="ru">&c_k;&c_o;&c_n;&c_g;&c_r;&c_u;&c_e;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
-      </ekz><ekz>
         <uzo tip="fak">KOMP</uzo>
-        <ind><tld/>a</ind>j komputiloj, programoj, interfacoj.
-        <trd lng="en">compatible</trd>
-        <trd lng="ru">&c_s;&c_o;&c_v;&c_m;&c_je;&c_s;&c_t;&c_i;&c_m;&c_y;&c_j;</trd>
+        <tld/>aj komputiloj, programoj, interfacoj.
       </ekz>
     </dif>
+    <trd lng="en">compatible</trd>
+    <trd lng="fr">compatible</trd>
+    <trd lng="ru">&c_s;&c_o;&c_v;&c_m;&c_je;&c_s;&c_t;&c_i;&c_m;&c_y;&c_j;</trd>
+  </snc>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="kongru.0a.module">
+      <fnt><bib>MatTerm</bib><lok>p. 11</lok></fnt>
+      <dif>
+        <klr>(p.p. du <ref cel="reel.0o.MAT">reeloj</ref>, la&ubreve;
+        la reela <ref cel="modul.0o.kongruo">modulo</ref> &my;)</klr>
+        Tiaj, ke ilia diferenco estas entjera opo de &my;:
+        <ekz>
+          1111 kaj 4 estas <tld/>aj la&ubreve; modulo 9;
+        </ekz>
+        <ekz>
+          la <ref cel="ar.kvocienta0o">kvocienta aro</ref> de la rilato de
+          <ind><tld/>eco</ind> la&ubreve; modulo 5 super
+          la aro de entjeroj estas <ref cel="korp.0o.MAT">korpo</ref>.
+          <trd lng="de">Kongruenz<klr tip="ind"> (von Zahlen)</klr></trd>
+          <trd lng="en">congruence<klr tip="ind"> (of numbers)</klr></trd>
+          <trd lng="fr">congruence<klr tip="ind"> (de nombres)</klr></trd>
+          <trd lng="ru">&c_s;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_ch;&c_i;&c_s;&c_e;&c_l;)</klr></trd>
+        </ekz>
+      </dif>
+      <trd lng="de">kongruent<klr tip="ind"> (modulo N)</klr></trd>
+      <trd lng="en">congruent<klr tip="ind"> (modulo N)</klr></trd>
+      <trd lng="fr">congru<klr tip="ind"> (modulo N)</klr></trd>
+      <trd lng="ru">&c_s;&c_r;&c_a;&c_v;&c_n;&c_i;&c_m;&c_y;&c_j;<klr tip="ind"> (&c_p;&c_o; &c_m;&c_o;&c_d;&c_u;&c_l;&c_ju; N)</klr></trd>
+    </subsnc>
+    <subsnc mrk="kongru.0a.geometrie">
+      <fnt><bib>MatTerm</bib><lok>p. 25</lok></fnt>
+      <uzo tip="stl">ARK</uzo>
+      <dif>
+        <klr>(p.p. du
+        <ref cel="figur.geometria0o">geometriaj figuroj</ref>)</klr>
+        <ref tip="dif" cel="egal.0a.izometria">Egalaj</ref>:
+        <ekz>
+          <tld/>aj trianguloj.
+        </ekz>
+      </dif>
+      <trd lng="ru">&c_k;&c_o;&c_n;&c_g;&c_r;&c_u;&c_e;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
+    </subsnc>
   </snc>
 </drv>
-
 </art>
 <!--
 $Log$
-Revision 1.10  2001/11/26 17:33:14  revo
+Revision 1.11 2001/11/27 17:33:48 revo
+Sergio Pokrovskij: adjektovoj
+
+Revision 1.10 2001/11/26 17:33:14 revo
 Sergio Pokrovskij: x=>cx
 
-Revision 1.9  2001/11/25 17:35:56  revo
+Revision 1.9 2001/11/25 17:35:56 revo
 Sergio Pokrovskij: +KOMP, +kongrua
 
-Revision 1.8  2001/10/14 08:47:39  revo
+Revision 1.8 2001/10/14 08:47:39 revo
 Yury Finkel: +trd ru
 
-Revision 1.7  2001/06/24 18:55:40  revo
+Revision 1.7 2001/06/24 18:55:40 revo
 Marc Bavant: ~i: +snc MAT
 
-Revision 1.6  2001/04/01 16:10:56  revo
+Revision 1.6 2001/04/01 16:10:56 revo
 Karlo Freeman: +trd=en
 
-Revision 1.5  2001/03/16 07:36:33  revo
-Paul Peeraerts: ald trd nl
-
+Revision 1.5 2001/03/16 07:36:33 revo
 -->
 </vortaro>
