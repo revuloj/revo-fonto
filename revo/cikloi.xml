@@ -4,7 +4,7 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>cikloid</rad>/o
+  <rad>cikloid</rad>/o
 </kap>
 <drv mrk="cikloi.0o">
   <kap><tld/>o</kap>
@@ -13,15 +13,18 @@
   <snc>
     <dif>
       Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>, naskita de
-      punkto apartenanta al cirklo, kiu ruli&gcirc;as
-      sur fiksa rekto:
+      punkto apartenanta al <ref cel="cirkl.0o.linio">cirklo</ref>, kiu
+      ruli&gcirc;as sur fiksa rekto:
       <ekz>
-        la parametraj ekvacioj de <tld/>o estas de la tipo 
+        la parametraj ekvacioj de <tld/>o estas de la tipo
         <frm><k>x</k> = R(<k>t</k>-sin<k>t</k>)</frm>
         kaj <frm><k>y</k> = R(1-cos<k>t</k>)</frm>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="cikloi.ordinara0o">ordinara <tld/>o;</ref>
     <refgrp tip="vid">
+      <ref cel="cikloi.longigita0o">longigita <tld/>o</ref>,
+      <ref cel="cikloi.mallongigita0o">mallongigita <tld/>o</ref>;
       <ref cel="epicik.0o">epicikloido</ref>,
       <ref cel="hipoci.0o">hipocikloido</ref>.
     </refgrp>
@@ -29,40 +32,100 @@
   <bld lok="../bld/cikloi.gif">
     cikloido
   </bld>
-  <bld tip="svg" lok="../bld/k_cikloido.svg" alt="345" lrg="300">
-    <tld/>oj
+  <bld tip="svg" lok="../bld/k_cikloido.svg" alt="300" lrg="300">
+    <tld/>o
   </bld>
-  <trd lng="de">Zykloide</trd>
+  <trdgrp lng="de">
+    <trd>Radkurve</trd>,
+    <trd>Zykloide</trd>,
+    <trd>gemeine <ind>Zykloide</ind></trd>
+  </trdgrp>
   <trd lng="el">&kappa;&ypsilon;&kappa;&lambda;&omikron;&epsilon;&jota;&delta;&epsilon_ton;&sigma_fina;</trd>
-  <trd lng="en">cycloid</trd>
-  <trd lng="fr">cyclo&iuml;de</trd>
+  <trdgrp lng="en">
+    <trd>cycloid</trd>,
+    <trd>common <ind>cycloid</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>cyclo&iuml;de</trd>,
+    <trd>cyclo&iuml;de commune</trd>
+  </trdgrp>
   <trd lng="hu">ciklois</trd>
-  <trd lng="pl">cykloida</trd>
+  <trdgrp lng="pl">
+    <trd>cykloida</trd>,
+    <trd>cykloida zwyk&lstroke;a</trd>
+  </trdgrp>
   <trd lng="pt">cicl&oacute;ide</trd>
-  <trd lng="ru">&c_c;&c_i;&c_k;&c_l;&c_o;&c_i;&c_d;&c_a;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_c;&c_i;&c_k;&c_l;&c_o;&c_i;&c_d;&c_a;</trd>,
+    <trd>&c_o;&c_b;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_c;&c_i;&c_k;&c_l;&c_o;&c_i;&c_d;&c_a;</ind></trd>
+  </trdgrp>
   <trd lng="sk">cykloida</trd>
+</drv>
+
+<drv mrk="cikloi.longigita0o">
+  <kap>longigita <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>, naskita de
+      punkto ligita al <ref cel="cirkl.0o.linio">cirklo</ref> kaj ekstera
+      al &gcirc;i, kiu cirklo ruli&gcirc;as sur fiksa rekto.
+    </dif>
+    <ref tip="super" cel="trohxo.0o">tro&hcirc;oido.</ref>
+  </snc>
+  <bld tip="svg" lok="../bld/k_trohxoido.svg" alt="300" lrg="300">
+    longigita kaj mallongigita <tld/>oj
+  </bld>
+  <trd lng="de">verl&auml;ngerte <ind>Zykloide</ind></trd>
+  <trd lng="en">prolate <ind>cycloid</ind></trd>
+  <trd lng="fr">cyclo&iuml;de allong&eacute;e</trd>
+  <trd lng="pl">cykloida wyd&lstroke;u&zdot;ona</trd>
+  <trd lng="ru">&c_u;&c_d;&c_l;&c_i;&c_n;&c_jo;&c_n;&c_n;&c_a;&c_ja; <ind>&c_c;&c_i;&c_k;&c_l;&c_o;&c_i;&c_d;&c_a;</ind></trd>
+</drv>
+
+<drv mrk="cikloi.mallongigita0o">
+  <kap>mallongigita <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>, naskita de
+      punkto ligita al <ref cel="cirkl.0o.linio">cirklo</ref> kaj interna
+      al &gcirc;i, kiu cirklo ruli&gcirc;as sur fiksa rekto.
+    </dif>
+    <ref tip="super" cel="trohxo.0o">tro&hcirc;oido.</ref>
+    <rim>
+      Ekzistas anka&ubreve; la formo <ctl>kurtigita <tld/>o</ctl>, ekz-e
+      en <fnt><bib>MatVort</bib></fnt>.
+    </rim>
+  </snc>
+  <trd lng="de">verk&uuml;rzte <ind>Zykloide</ind></trd>
+  <trd lng="en">curtate <ind>cycloid</ind></trd>
+  <trd lng="fr">cyclo&iuml;de raccourcie</trd>
+  <trd lng="pl">cykloida skr&oacute;cona</trd>
+  <trd lng="ru">&c_u;&c_k;&c_o;&c_r;&c_o;&c_ch;&c_je;&c_n;&c_n;&c_a;&c_ja; <ind>&c_c;&c_i;&c_k;&c_l;&c_o;&c_i;&c_d;&c_a;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.14  2003/01/02 17:44:06  revo
+Revision 1.15 2003/02/01 17:32:21 revo
+Marc Bavant: +bld SVG
+Revision 1.14 2003/01/02 17:44:06 revo
 Marc Bavant: +trd pl
-Revision 1.13  2002/12/09 17:31:56  revo
+Revision 1.13 2002/12/09 17:31:56 revo
 Marc Bavant: +ekz
-Revision 1.12  2002/09/20 16:33:10  revo
+Revision 1.12 2002/09/20 16:33:10 revo
 Jozefo Horvath: +trd hu
-Revision 1.11  2002/09/11 17:33:27  revo
+Revision 1.11 2002/09/11 17:33:27 revo
 Viliam Bur: +trd sk
-Revision 1.10  2002/05/25 16:56:51  revo
+Revision 1.10 2002/05/25 16:56:51 revo
 Eduardo M. Kalinowski: ald trd el, pt
-Revision 1.9  2002/04/01 18:50:21  revo
+Revision 1.9 2002/04/01 18:50:21 revo
 Marc Bavant: mod fnt, +trd de/en, +ref al hipocikloido
-Revision 1.8  2001/12/17 17:31:55  revo
+Revision 1.8 2001/12/17 17:31:55 revo
 Marc Bavant: +fnt
-Revision 1.7  2001/08/27 18:12:50  revo
+Revision 1.7 2001/08/27 18:12:50 revo
 Marc Bavant: +bld
-Revision 1.6  2001/03/30 17:17:10  revo
-Marc Bavant: kor dif, +ref al kurbo
-Revision 1.5  2001/02/04 17:13:24  revo
+Revision 1.6 2001/03/30 17:17:10 revo
 -->
 </vortaro>
