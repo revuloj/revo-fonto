@@ -2,204 +2,233 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>*</ofc>
-      <rad>glob</rad>/o
-    </kap>
+<art mrk="$Id$">
+<kap><ofc>*</ofc>
+<rad>glob</rad>/o</kap>
+<drv mrk="glob.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc>
+    <dif>
+      Sferforma, bulforma korpo a&ubreve; objekto:
+      <ekz>
+        ronda balono estas <tld/>o;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">GEOG</uzo>
+        <ind>ter<tld/>o</ind>;
+        <trd lng="fr">globe terrestre<klr tip="ind"> (la Terre)</klr></trd>
+        <trd lng="nl">aardbol</trd>
+        <trd lng="ru">&c_z;&c_je;&c_m;&c_n;&c_o;&c_j; &c_sh;&c_a;&c_r;</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="fak">GEOG</uzo>
+        kartona <ind>geografia <tld/>o</ind>
+        <klr>(<ref cel="globus.0o">globuso</ref>)</klr>;
+        <trd lng="fr">globe<klr tip="ind">
+        (repr&eacute;sentant la Terre)</klr></trd>
+        <trd lng="nl">wereldbol</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="fak">ANA</uzo>
+        <ind>okul<tld/>o</ind>;
+        <trd lng="fr">globe oculaire</trd>
+        <trdgrp lng="nl">
+          <trd>oogbal</trd>,
+          <trd>oogbol</trd>
+        </trdgrp>
+        <trd lng="ru">&c_g;&c_l;&c_a;&c_z;&c_n;&c_o;&c_je; &c_ja;&c_b;&c_l;&c_o;&c_k;&c_o;</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="fak">SPO</uzo>
+        <tld/>o de bilardo.
+      </ekz>
+    </dif>
+    <trd lng="de">Kugel</trd>
+    <trdgrp lng="fr">
+      <trd>globe</trd>,
+      <trd>boule</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>bal</trd>,
+      <trd>bol</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="glob.0o.metrikaspaco">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(kun centro a kaj radiuso &rho;, en
+      <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
+      Subaro konsistanta el &ccirc;iuj
+      <ref cel="punkt.0o.spaco">punktoj</ref>, kies
+      <ref cel="distan.0o.MAT">distanco</ref> al a estas malpli granda
+      ol &rho;:
+      <ekz>
+        <tld/>oj estas
+        <ref cel="ferm.mal0ita.metrikaspaco">malfermitaj</ref> subaroj.
+      </ekz>
+    </dif>
+    <rim>
+      Eblas difini anka&ubreve; <ctl>fermitajn <tld/>ojn</ctl>, se oni
+      allasas, ke la distanco al la centro egalu la radiuson. Kontrastcele
+      oni foje nomas la &ccirc;i-supre difinitajn <tld/>ojn malfermitaj.
+    </rim>
+    <trd lng="fr">boule<klr tip="ind">
+    (dans un espace m&eacute;trique)</klr></trd>
+    <trd lng="ru">&c_sh;&c_a;&c_r;<klr tip="ind">
+    (&c_v; &c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_m; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;)</klr></trd>
+  </snc>
+  <snc mrk="glob.0o.sfero">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <ref tip="dif" cel="sfer.0o.solido">sfera solido.</ref>
+    <trd lng="fr">boule<klr tip="ind"> (volume sph&eacute;rique)</klr></trd>
+  </snc>
+  <trd lng="nl">bol</trd>
+  <trd lng="ru">&c_sh;&c_a;&c_r;</trd>
+</drv>
 
-    <drv mrk="glob.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <snc>
-	<dif>
-	  Sferforma, bulforma korpo a&ubreve; objekto:
-	  <ekz>
-	    ronda balono estas <tld/>o;
-	  </ekz><ekz>
-	    <uzo tip="fak">GEOG</uzo>
-	    <ind>ter<tld/>o</ind>;
-	    <trd lng="fr">globe terrestre<klr tip="ind"> (la Terre)</klr></trd>
-	    <trd lng="ru">&c_z;&c_je;&c_m;&c_n;&c_o;&c_j; &c_sh;&c_a;&c_r;</trd>
-	  </ekz><ekz>
-	    <uzo tip="fak">GEOG</uzo>
-	    kartona <ind>geografia <tld/>o</ind>
-	    <klr>(<ref cel="globus.0o">globuso</ref>)</klr>;
-	    <trd lng="fr">globe<klr tip="ind">
-		(repr&eacute;sentant la Terre)</klr></trd>
-	  </ekz><ekz>
-	    <uzo tip="fak">ANA</uzo>
-	    <ind>okul<tld/>o</ind>;
-	    <trd lng="fr">globe oculaire</trd>
-	    <trd lng="ru">&c_g;&c_l;&c_a;&c_z;&c_n;&c_o;&c_je; &c_ja;&c_b;&c_l;&c_o;&c_k;&c_o;</trd>
-	  </ekz><ekz>
-	    <uzo tip="fak">SPO</uzo>
-	    <tld/>o de bilardo.
-	  </ekz>
-	</dif>
-	<trd lng="de">Kugel</trd>
-	<trdgrp lng="fr">
-	  <trd>globe</trd>,
-	  <trd>boule</trd>
-	</trdgrp>
-      </snc>
-      <snc mrk="glob.0o.metrikaspaco">
-	<uzo tip="fak">MAT</uzo>
-	<dif>
-	  <klr>(kun centro a kaj radiuso &rho;, en
-	    <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
-	  Subaro konsistanta el &ccirc;iuj
-	  <ref cel="punkt.0o.spaco">punktoj</ref>, kies
-	  <ref cel="distan.0o.MAT">distanco</ref> al a estas malpli granda
-	  ol &rho;:
-	  <ekz>
-	    <tld/>oj estas
-	    <ref cel="ferm.mal0ita.metrikaspaco">malfermitaj</ref> subaroj.
-	  </ekz>
-	</dif>
-	<rim>
-	  Eblas difini anka&ubreve; <ctl>fermitajn <tld/>ojn</ctl>, se oni
-	  allasas, ke la distanco al la centro egalu la radiuson. Kontrastcele
-	  oni foje nomas la &ccirc;i-supre difinitajn <tld/>ojn malfermitaj.
-	</rim>
-	<trd lng="fr">boule<klr tip="ind">
-	    (dans un espace m&eacute;trique)</klr></trd>
-	<trd lng="ru">&c_sh;&c_a;&c_r;<klr tip="ind">
-	    (&c_v; &c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_m; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;)</klr></trd>
-      </snc>
-      <snc mrk="glob.0o.sfero">
-	<uzo tip="fak">MAT</uzo>
-	<fnt><bib>MatVort</bib></fnt>
-	<ref tip="dif" cel="sfer.0o.solido">sfera solido.</ref>
-	<trd lng="fr">boule<klr tip="ind"> (volume sph&eacute;rique)</klr></trd>
-      </snc>
-      <trd lng="ru">&c_sh;&c_a;&c_r;</trd>
-    </drv>
+<drv mrk="glob.0a">
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+      <tld lit="G"/>forma:
+      <ekz>
+        <tld/>e kunvolvita tuketo<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">kugelig</trd>
+  <trdgrp lng="fr">
+    <trd>rond<klr tip="ind"> (sph&eacute;rique)</klr></trd>,
+    <trd>sph&eacute;rique</trd>
+  </trdgrp>
+  <trd lng="nl">bolvormig</trd>
+  <trdgrp lng="ru">
+    <trd>&c_sh;&c_a;&c_r;&c_o;&c_v;&c_i;&c_d;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_sh;&c_a;&c_r;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;&c_j;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="glob.0a">
-      <kap><tld/>a</kap>
-      <snc>
-	<dif>
-	  <tld lit="G"/>forma:
-	  <ekz>
-	    <tld/>e kunvolvita tuketo<fnt>Z</fnt>.
-	  </ekz>
-	</dif>
-      </snc>
-      <trd lng="de">kugelig</trd>
-      <trdgrp lng="fr">
-	<trd>rond<klr tip="ind"> (sph&eacute;rique)</klr></trd>,
-	<trd>sph&eacute;rique</trd></trdgrp> 
-      <trdgrp lng="ru">
-	<trd>&c_sh;&c_a;&c_r;&c_o;&c_v;&c_i;&c_d;&c_n;&c_y;&c_j;</trd>,
-	<trd>&c_sh;&c_a;&c_r;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_j;</trd>,
-	<trd>&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;&c_j;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="glob.0eto">
+  <kap><tld/>eto</kap>
+  <snc>
+    <dif>
+      Malgranda <tld/>o:
+      <ekz>
+        aer<tld/>eto;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">BIO</uzo>
+        sangaj <tld/>etoj;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">MED</uzo>
+        farmaciaj <tld/>etoj.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+    Mi ne certas, pri kio temas la farmaciaj ~etoj. Cxu sinonimoj
+    de &leftquot;granolo&rightquot;? <aut>MB</aut>
+  </adm>
+  <trd lng="de">K&uuml;gelchen</trd>
+  <trdgrp lng="fr">
+    <trd>globule</trd>,
+    <trd>bulle</trd>
+  </trdgrp>
+  <trd lng="nl">bolletje</trd>
+  <trd lng="ru">&c_sh;&c_a;&c_r;&c_i;&c_k;</trd>
+</drv>
 
-    <drv mrk="glob.0eto">
-      <kap><tld/>eto</kap>
-      <snc>
-	<dif>
-	  Malgranda <tld/>o:
-	  <ekz>
-	    aer<tld/>eto;
-	  </ekz><ekz>
-	    <uzo tip="fak">BIO</uzo>
-	    sangaj <tld/>etoj;
-	  </ekz><ekz>
-	    <uzo tip="fak">MED</uzo>
-	    farmaciaj <tld/>etoj.
-	  </ekz>
-	</dif>
-      </snc>
-      <adm>
-	Mi ne certas, pri kio temas la farmaciaj ~etoj. Cxu sinonimoj
-	de "granolo"? <aut>MB</aut>
-      </adm>
-      <trd lng="de">K&uuml;gelchen</trd>
-      <trdgrp lng="fr">
-	<trd>globule</trd>,
-	<trd>bulle</trd>
-      </trdgrp>
-      <trd lng="ru">&c_sh;&c_a;&c_r;&c_i;&c_k;</trd>
-    </drv>
+<drv mrk="glob.duon0o">
+  <kap>duon<tld/>o</kap>
+  <snc>
+    <dif>
+      Duono de <tld/>o; objekto havanta tian formon:
+      <ekz>
+        <uzo tip="fak">ANA</uzo>
+        la <ind>dekstra duon<tld/>o de la cerbo</ind>;
+        <trd lng="nl">halfrond<klr tip="ind"> (v.hersenen)</klr></trd>
+        <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_o;&c_je; &c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je; &c_m;&c_o;&c_z;&c_g;&c_a;</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="fak">GEOG</uzo>
+        la <ind>norda duon<tld/>o</ind>;
+        <trd lng="en">northern hemisphere</trd>
+        <trd lng="nl">noordelijk <ind>halfrond</ind></trd>
+        <trd lng="ru">&c_s;&c_je;&c_v;&c_je;&c_r;&c_n;&c_o;&c_je; &c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je; <klr>&c_Z;&c_je;&c_m;&c_l;&c_i;</klr></trd>
+      </ekz>
+      <ekz>
+        <uzo tip="fak">GEOG</uzo>
+        la <ind>orienta duon<tld/>o</ind>;
+        <trd lng="en">eastern hemisphere</trd>
+        <trd lng="nl">oostelijk <ind>halfrond</ind></trd>
+        <trd lng="ru">&c_v;&c_o;&c_s;&c_t;&c_o;&c_ch;&c_n;&c_o;&c_je; &c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je; <klr>&c_Z;&c_je;&c_m;&c_l;&c_i;</klr></trd>
+      </ekz>
+      <ekz>
+        antipodo <klr>estas</klr> loko de la tero ku&scirc;anta sub niaj
+        piedoj sur la alia duon<tld/>o <fnt>PV</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">hemisphere</trd>
+  <trdgrp lng="nl">
+    <trd>halfrond</trd>,
+    <trd>hemisfeer</trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
+</drv>
 
-    <drv mrk="glob.duon0o">
-      <kap>duon<tld/>o</kap>
-      <snc>
-	<dif>
-	  Duono de <tld/>o; objekto havanta tian formon:
-	  <ekz>
-	    <uzo tip="fak">ANA</uzo>
-	    la <ind>dekstra duon<tld/>o de la cerbo</ind>;
-	    <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_o;&c_je; &c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je; &c_m;&c_o;&c_z;&c_g;&c_a;</trd>
-	  </ekz><ekz>
-	    <uzo tip="fak">GEOG</uzo>
-	    la <ind>norda duon<tld/>o</ind>;
-	    <trd lng="en">northern hemisphere</trd>
-	    <trd lng="ru">&c_s;&c_je;&c_v;&c_je;&c_r;&c_n;&c_o;&c_je; &c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je; <klr>&c_Z;&c_je;&c_m;&c_l;&c_i;</klr></trd>
-	  </ekz><ekz>
-	    <uzo tip="fak">GEOG</uzo>
-	    la <ind>orienta duon<tld/>o</ind>;
-	    <trd lng="en">eastern hemisphere</trd>
-	    <trd lng="ru">&c_v;&c_o;&c_s;&c_t;&c_o;&c_ch;&c_n;&c_o;&c_je; &c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je; <klr>&c_Z;&c_je;&c_m;&c_l;&c_i;</klr></trd>
-	  </ekz><ekz>
-	    antipodo <klr>estas</klr> loko de la tero ku&scirc;anta sub niaj
-	    piedoj sur la alia duon<tld/>o <fnt>PV</fnt>.
-	  </ekz>
-	</dif>
-      </snc>
-      <trd lng="en">hemisphere</trd>
-      <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
-    </drv>
+<drv mrk="glob.faden0o">
+  <kap>faden<tld/>o</kap>
+  <snc>
+    <uzo tip="stl">EVI</uzo>
+    <ref tip="dif" cel="bul.faden0o">fadenbulo</ref>
+    <adm>
+      La PV-a difino estas &leftquot;volva&jcirc;eto da fadeno&rightquot; kaj
+      mi ne vidas esencan diferencon disde &leftquot;fadenbulo&rightquot;.
+      <aut>MB</aut>
+    </adm>
+  </snc>
+  <trd lng="de">Garnkn&auml;uel</trd>
+  <trd lng="fr">pelote</trd>
+</drv>
 
-    <drv mrk="glob.faden0o">
-      <kap>faden<tld/>o</kap>
-      <snc>
-	<uzo tip="stl">EVI</uzo>
-	<ref tip="dif" cel="bul.faden0o">fadenbulo.</ref>
-	<adm>
-	  La PV-a difino estas "volva&jcirc;eto da fadeno" kaj
-	  mi ne vidas esencan diferencon disde "fadenbulo".
-	  <aut>MB</aut>
-	</adm>
-      </snc>
-      <trd lng="de">Garnkn&auml;uel</trd>
-      <trd lng="fr">pelote</trd>
-    </drv>
+<drv mrk="glob.plat0o">
+  <kap>plat<tld/>o</kap>
+  <uzo tip="fak">GEOG</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="map.0o">Mapo</ref> de
+      la tuta ter<tld/>o.
+    </dif>
+  </snc>
+  <trd lng="de">Weltkarte</trd>
+  <trd lng="nl">wereldkaart</trd>
+  <trd lng="fr">planisph&egrave;re</trd>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.11 2001/12/02 17:32:05 revo
+Sergio Pokrovskij: +duonglobo
 
-    <drv mrk="glob.plat0o">
-      <kap>plat<tld/>o</kap>
-      <uzo tip="fak">GEOG</uzo>
-      <snc>
-	<dif>
-	  <ref tip="super" cel="map.0o">Mapo</ref> de
-	  la tuta ter<tld/>o.
-	</dif>
-      </snc>
-      <trd lng="de">Weltkarte</trd>
-      <trd lng="fr">planisph&egrave;re</trd>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.10  2001/10/11 18:19:19  revo
-  Marc Bavant: +trd fr; ~o: +uzo GEOG/ANA/SPO en ekz; plat~o: +uzo GEOG, mod dif; ~eto: +uzo MED/BIO en ekz, +adm
+Revision 1.10 2001/10/11 18:19:19 revo
+Marc Bavant: +trd fr; ~o: +uzo GEOG/ANA/SPO en ekz; plat~o: +uzo GEOG, mod
+dif; ~eto: +uzo MED/BIO en ekz, +adm
 
-  Revision 1.9  2001/05/27 18:19:21  revo
-  Ulrich Fellmann: + 5 germ trdj
+Revision 1.9 2001/05/27 18:19:21 revo
+Ulrich Fellmann: + 5 germ trdj
 
-  Revision 1.8  2001/05/18 18:14:10  revo
-  Yury Finkel: +trd ru
+Revision 1.8 2001/05/18 18:14:10 revo
+Yury Finkel: +trd ru
 
-  Revision 1.7  2001/05/06 19:15:41  revo
-  Marc Bavant: +snc MAT (solido); +trd fr; faden~o: modifis, +adm
+Revision 1.7 2001/05/06 19:15:41 revo
+Marc Bavant: +snc MAT (solido); +trd fr; faden~o: modifis, +adm
 
-  Revision 1.6  2001/01/16 20:41:06  revo
-  Marc Bavant: kor cxe ~o (metrika spaco), +ref
+Revision 1.6 2001/01/16 20:41:06 revo
+Marc Bavant: kor cxe ~o (metrika spaco), +ref
 
-  Revision 1.5  2000/11/24 17:11:37  revo
-  Marc Bavant: +snc MAT (en metrika spaco)
-
-  -->
+-->
 </vortaro>
