@@ -4,47 +4,85 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>1</ofc>
-<rad>distanc</rad>/o
+  <ofc>1</ofc>
+  <rad>distanc</rad>/o
 </kap>
 <drv mrk="distan.0o">
-<kap><tld/>o</kap>
-<snc num="1">
-  <dif>
-    Longo de interspaco: <ekz><tld/>o de la tero al la luno;</ekz>
-    <ekz>en <tld/>o de kelkaj pa&scirc;oj de li.</ekz>
-  </dif>
-  <trd lng="cs">vzd&aacute;lenost</trd>
-  <trd lng="nl">afstand</trd>
-  <trdgrp lng="ru">
-    <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>,
-    <trd>&c_d;&c_i;&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>  
-  </trdgrp>
-</snc>
-<snc mrk="distan.0o.MAT">
-  <uzo tip="fak">MAT</uzo>
-  <dif>
-    Valoro de <ref cel="metrik.0o.MAT">metriko</ref>.
-  </dif>
-  <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>
-</snc>
-<trd lng="fr">distance</trd>
+  <kap>
+    <tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Longo de interspaco:
+      <ekz>
+        <tld/>o de la tero al la luno;
+      </ekz>
+      <ekz>
+        en <tld/>o de kelkaj pa&scirc;oj de li.
+      </ekz>
+    </dif>
+    <trd lng="cs">vzd&aacute;lenost</trd>
+    <trd lng="fr">distance</trd>
+    <trd lng="nl">afstand</trd>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>,
+      <trd>&c_d;&c_i;&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="distan.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <dif>
+      Valoro de <ref cel="metrik.0o.MAT">metriko</ref> d, kaj pli precize:
+    </dif>
+    <subsnc mrk="distan.0o.inter_punktoj">
+      <dif>
+        <klr>(inter punktoj a kaj b)</klr>
+        la valoro d(a,b);
+      </dif>
+    </subsnc>
+    <subsnc mrk="distan.0o.de_punkto_al_aro">
+      <dif>
+        <klr>(de punkto a al aro <em>A</em>)</klr>
+        la <ref cel="infim.0o">infimo</ref> de la <tld/>oj
+        <sncref ref="distan.0o.MAT"/><sncref ref="distan.0o.inter_punktoj"/>
+        de a al &ccirc;iu punkto de <em>A</em>;
+      </dif>
+    </subsnc> 
+    <subsnc mrk="distan.0o.inter_aroj">
+      <dif>
+        <klr>(inter aroj <em>A</em> kaj <em>B</em>)</klr>
+        la <ref cel="infim.0o">infimo</ref> de la <tld/>oj
+        <sncref ref="distan.0o.MAT"/><sncref ref="distan.0o.inter_punktoj"/>
+        de &ccirc;iu punkto de <em>A</em> al &ccirc;iu punkto de <em>B</em>.
+      </dif>
+    </subsnc> 
+    <trd lng="de">Abstand</trd>
+    <trd lng="en">distance</trd>
+    <trd lng="fr">distance<klr tip="ind"> (math.)</klr></trd>
+    <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>
+  </snc>
 </drv>
 
 <drv mrk="distan.paf0otraf0o">
-<kap>paf<tld/>o, traf<tld/>o</kap>
-<snc>
-<dif>
-<tld lit="D"/>o &gcirc;is kiu oni povas trafi per pafo.
-</dif>
-</snc>
-<trd lng="fr">port&eacute;e</trd>
-<trd lng="nl">draagwijdte</trd>
-<trd lng="ru">&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_b;&c_y;</trd>
+  <kap>
+    paf<tld/>o, traf<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="D"/>o &gcirc;is kiu oni povas trafi per pafo.
+    </dif>
+  </snc>
+  <trd lng="fr">port&eacute;e</trd>
+  <trd lng="nl">draagwijdte</trd>
+  <trd lng="ru">&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_b;&c_y;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.8  2001/03/30 17:17:33  revo
+Yury Finkel: +trd ru
+
 Revision 1.7  2001/02/17 19:49:37  revo
 Paul Peeraerts: ald trd nl + kor <tld lit="D"/>
 
