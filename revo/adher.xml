@@ -120,8 +120,8 @@
     </trdgrp>
   </snc>
   <snc mrk="adher.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
     <subsnc mrk="adher.0a.punkto">
-      <uzo tip="fak">MAT</uzo>
       <dif>
         <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> x en
         <ref cel="spac.topologia0o">topologia spaco</ref>, rilate
@@ -160,13 +160,12 @@
       <trd lng="ru"><klr tip="amb">(&c_t;&c_o;&c_ch;&c_k;&c_a;) </klr>&c_p;&c_r;&c_i;&c_k;&c_o;&c_s;&c_n;&c_o;&c_v;&c_je;&c_n;&c_i;&c_ja;</trd>
     </subsnc>
     <subsnc mrk="adher.0a.vico">
-      <uzo tip="fak">MAT</uzo>
       <dif>
-        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> x
+        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> b
         en <ref cel="spac.metrika0o">metrika spaco</ref>, rilate
         al <ref cel="vic.0o.MAT">vico</ref>)</klr>
         Tia, ke <ref cel="vic.sub0o">subvico</ref> de la konsiderata vico
-        <ref cel="konver.0i">konver&gcirc;as</ref> al x:
+        <ref cel="konver.0i">konver&gcirc;as</ref> al b:
         <ekz>
           la vico, kies &gcirc;enerala termo estas
           u<sub>n</sub>=(-1)<sup>n</sup>a, ne konver&gcirc;as, sed
@@ -179,7 +178,8 @@
         <trd>H&auml;ufungs-<klr tip="amb">(punkt)</klr></trd>
       </trdgrp>
       <trdgrp lng="en">
-        <trd><klr tip="amb">(point) </klr>of <ind>adherence</ind></trd>
+        <trd><klr tip="amb">(point) </klr>of <ind>adherence</ind></trd>,
+        <trd>limit <ind>point</ind></trd>
       </trdgrp>
       <trd lng="fr"><klr tip="amb">(valeur) </klr>d'<ind>adh&eacute;rence</ind><klr tip="ind"> (d'une suite)</klr></trd>
       <trdgrp lng="hu">
@@ -188,11 +188,29 @@
       </trdgrp>
       <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;<klr tip="amb"> (&c_t;&c_o;&c_ch;&c_k;&c_a;)</klr></trd>
     </subsnc>
+    <subsnc mrk="adher.0a.bildigo">
+      <dif>
+        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> b
+        en <ref cel="spac.topologia0o">topologia spaco</ref> <em>F</em>, rilate
+        al <ref cel="bild.0igo.MAT">bildigo</ref> f de topologia spaco 
+        <em>E</em> al <em>F</em>, &ccirc;e punkto a de <em>E</em>)</klr>
+        Tia, ke &gcirc;i estas <ref cel="adher.0a.punkto"><tld/>a
+        <sncref ref="adher.0a.punkto"/></ref> al 
+        <ref cel="bild.0o.subaro">bildoj</ref> per f de &ccirc;iu 
+        <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+        de a.
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="infim.limes0o.funkcio">limesinfimo</ref>,
+        <ref cel="suprem.limeso0o.funkcio">limesosupremo</ref>.
+      </refgrp>
+      <trd lng="fr"><klr tip="amb">(valeur) </klr>d'<ind>adh&eacute;rence</ind><klr tip="ind"> (d'une application)</klr></trd>
+    </subsnc>
     <rim>
       Ni ne trovis fonton por &ccirc;i tiuj terminoj, sed &scirc;ajnas,
       ke la uzo de radiko <ctl>adher</ctl> estas sufi&ccirc;e internacia
       kaj ebligas eviti la ambiguecon de aliaj nacilingvaj metaforoj de
-      la tipo <ctl>limesa punkto</ctl> (kiuj estas foje aplikata
+      la tipo <ctl>limesa punkto</ctl> (kiuj estas foje aplikataj
       anka&ubreve; al akumuli&gcirc;a punkto) a&ubreve; <ctl>kontakta
       punkto</ctl> (kiu memorigas pri kontakto de kurboj).
     </rim>
@@ -210,8 +228,8 @@
         necesas rompi la <tld/>a&jcirc;ojn, krei&gcirc;intajn inter la
         mama protezo kaj la apudaj <ref cel="hist.0o">histoj</ref>.
       </ekz>
-      <trd lng="en">adhesion</trd>
     </dif>
+    <trd lng="en">adhesion</trd>
     <trd lng="fr">adh&eacute;rence<klr tip="ind"> (m&eacute;d.)</klr></trd>
   </snc>
   <trdgrp lng="hu">
@@ -251,24 +269,20 @@
 </art>
 <!--
 $Log$
+Revision 1.22  2002/05/27 17:16:37  revo
+Marc Bavant: ~a MAT 1: +fnt
 Revision 1.21  2002/05/20 16:37:15  revo
 Marc Bavant: ~a MAT: kor ekz
-
 Revision 1.20  2002/05/12 16:35:36  revo
 Marc Bavant: ~a MAT: reordigis al subsnc, +rim, -adm; ~ajxo: mod trd, +rim, -adm
-
 Revision 1.19 2002/05/02 16:35:15 revo
 Marc Bavant: mod "izola" al "izolita"
-
 Revision 1.18 2002/04/22 16:32:20 revo
 Alejandro Mejia Greene: ald his trd
-
 Revision 1.17 2002/02/14 17:37:50 revo
 Yury Finkel: +trd ru, formatigis, -adm pri protezo
-
 Revision 1.16 2002/01/09 17:32:21 revo
 Karlo Freeman: +trd=en
-
 Revision 1.15 2001/08/27 18:17:13 revo
 -->
 </vortaro>
