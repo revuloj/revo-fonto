@@ -56,26 +56,25 @@
     <trd lng="en">period</trd>
     <trd lng="ru">&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
   </snc>
-  <snc mrk="punkt.0o.spaco">
+  <snc mrk="punkt.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> en
-      <ref cel="spac.0o.MAT">spaco</ref>, speciale
-      topologia, afina a&ubreve; metrika.
-    </dif>
-    <trd lng="pl">punkt</trd>
-    <trd lng="ru">&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
-  </snc>
-  <snc>
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 25</lok></fnt>
-    <dif>
-      Senlime malvasta spacero, konsiderata kiel havanta nek lar&gcirc;on, nek
-      longon:
-      <ekz>
-        renkonto de du rektaj linioj naskas unu <tld/>on.
-      </ekz>
-    </dif>
+    <subsnc mrk="punkt.0o.elementa">
+      <fnt><bib>MatTerm</bib><lok>p. 25</lok></fnt>
+      <dif>
+        Senlime malvasta spacero, konsiderata kiel havanta nek lar&gcirc;on, nek
+        longon:
+        <ekz>
+          renkonto de du rektaj linioj naskas unu <tld/>on.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="punkt.0o.spaco">
+      <dif>
+        <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> en
+        <ref cel="spac.0o.MAT">spaco</ref>, speciale topologia, 
+        afina a&ubreve; metrika.
+      </dif>
+    </subsnc>
     <trd lng="pl">punkt</trd>
     <trd lng="ru">&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
   </snc>
@@ -305,9 +304,9 @@
   <fnt><bib>EKV</bib><lok>&para;130</lok></fnt>
   <snc>
     <dif>
-      <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref> 
+      <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref>
       <frm><k>f</k></frm>)</klr>
-      Tia elemento <frm><k>x</k></frm>, ke 
+      Tia elemento <frm><k>x</k></frm>, ke
       <frm><k>f</k>(<k>x</k>) = <k>x</k></frm>:
       <ekz>
         <ref cel="tir.kun0o.bildigo">kuntiro</ref> de kompleta metrika spaco
@@ -325,17 +324,21 @@
   <trd lng="fr">point fixe</trd>
   <trdgrp lng="pl">
     <trd>punkt sta&lstroke;y<klr tip="ind"> (odwzorowania)</klr></trd>,
-    <trd>fixpunkt</trd></trdgrp> 
+    <trd>fixpunkt</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_d;&c_v;&c_i;&c_zh;&c_n;&c_a;&c_ja; <ind>&c_t;&c_o;&c_ch;&c_k;&c_a;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.21  2002/12/15 19:51:55  revo
+Revision 1.22 2003/01/02 17:50:23 revo
+Marc Bavant: +trd pl
+
+Revision 1.21 2002/12/15 19:51:55 revo
 Marc Bavant: ~o MAT: -refgrp (transportita al "topologia spaco")
-Revision 1.20  2002/11/22 17:32:36  revo
+Revision 1.20 2002/11/22 17:32:36 revo
 Marc Bavant: +frm
-Revision 1.19  2002/06/02 17:33:39  revo
+Revision 1.19 2002/06/02 17:33:39 revo
 Marc Bavant: +drv fiksa ~o
 Revision 1.18 2002/05/12 16:37:36 revo
 Marc Bavant: ~o (elementa): mod ekz
@@ -347,8 +350,5 @@ Revision 1.15 2002/02/27 18:03:58 revo
 Yury Finkel: konv (f)
 Revision 1.14 2002/01/19 11:12:16 revo
 Karlo Freeman: +trd=en @tri~o.
-Revision 1.13 2001/09/03 18:13:42 revo
-Sergio Pokrovskij: kor trd=ru
-Revision 1.12 2001/09/02 18:17:23 revo
 -->
 </vortaro>
