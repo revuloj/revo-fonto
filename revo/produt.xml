@@ -17,8 +17,9 @@
        </snc>
        <trd lng="en">product <klr>(math.)</klr></trd>
        <trd lng="fr">produit</trd>
-       <trd 
+       <trd
 lng="ru">&#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x438;&#x435; 
+
 <klr>(&#x43c;&#x430;&#x442;.)</klr></trd>
      </drv>
 
@@ -45,15 +46,53 @@ lng="ru">&#x43f;&#x440;&#x43e;&#x438;&#x437;&#x432;&#x435;&#x434;&#x435;&#x43d;&
            Eblas diri anka&ubreve;, ke &gcirc;i estas difinita kiel la duobla
            <tld/>o  (<em>E</em>x<em>F</em>)x<em>G</em> a&ubreve;
            <em>E</em>x(<em>F</em>x<em>G</em>), kiujn oni arbitre elektas
-           identigi.
+           identigi. Notu, ke la kartezian <tld/>on de n identaj aroj
+           <em>E</em> oni kutime signas per <em>E</em><sup>n</sup>.
          </rim>
          <ref tip="prt" cel="rilat.0o.MAT">rilato</ref>
        </snc>
        <trd lng="fr">produit cart&eacute;sien</trd>
+       <trd lng="ru">&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v;&c_o; 
+&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
      </drv>
+
+     <drv mrk="produt.skalara0o">
+       <kap>skalara <tld/>o</kap>
+       <uzo tip="fak">MAT</uzo>
+       <snc mrk="produt.skalara0o.operacio">
+         <dif>
+           <klr>(super <ref cel="spac.vektora0o">vektora spaco</ref>
+           <em>E</em>)</klr>
+           Tia <ref cel="linear.plur0a">dulineara</ref>
+           <ref cel="simetr.0a.bildigo">simetria</ref>
+           <ref cel="form.0o.bildigo">formo</ref> &phi;, ke
+           &phi;(x,x)&#x2265;0 por &ccirc;iuj x&#x2208;<em>E</em>, kaj
+           egalas al nulo, nur se x=0.
+         </dif>
+         <ref tip="sin" cel="multip.skalara0o">skalara multipliko;</ref>
+         <ref tip="vid" cel="spac.euxklida0o">e&ubreve;klida spaco.</ref>
+       </snc>
+       <snc mrk="produt.skalara0o.rezulto">
+         <dif>
+           <klr>(de du vektoroj x, y)</klr> La bildo de (x,y) per
+           skalara <tld/>o <sncref ref="produt.skalara0o.operacio"/>:
+           <ekz>
+             la skalaran <tld/>on de x kaj y oni signas foje per x.y,
+             foje per &lt;x|y&gt;.
+           </ekz>
+         </dif>
+       </snc>
+       <trd lng="fr">produit scalaire</trd>
+       <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_o;&c_je; 
+&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
+     </drv>
+
    </art>
 <!--
 $Log$
+Revision 1.8  2000/10/07 16:12:04  revo
+Marc Bavant: rim pri vastigo al pli ol du aroj
+
 Revision 1.7  2000/09/29 16:13:40  revo
 Marc Bavant: provo enkonduki tipojn de ref
 Revision 1.6  2000/09/25 16:10:37  revo
