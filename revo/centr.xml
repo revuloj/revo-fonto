@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
 <art mrk="$Id$">
 <kap>
@@ -80,22 +79,52 @@ Centralizi, koncentrigi.
 </drv>
 <drv mrk="centr.dis0eco">
   <kap>dis<tld/>eco</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc mrk="centr.dis0eco.koniko">
-    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <ref cel="konik.0o">koniko</ref>)</klr>
       La konstanta rilato inter la distanco de &ccirc;iu punkto de la
       koniko al &gcirc;ia fokuso kaj la distanco de tiu punkto al
       la direktanto.
     </dif>
+    <rim>
+      La literaturo (ekz-e Jan Werner) citas du eblajn sinonimojn: 
+      <ctl>disfokuseco</ctl> (uzata en PIV1) kaj <ctl>fokusdiseco</ctl>. 
+      <ctl>Dis<tld/>eco</ctl> havas la avanta&gcirc;on de proksimeco kun la 
+      nacilingvaj ekvivalentoj kaj la intuicia koncepto, ke &gcirc;i mezuras 
+      la malproksimecon de la fokuso al la simetri<tld/>o.
+    </rim>
   </snc>
+  <trd lng="de">Exzentrizit&auml;t</trd>
   <trd lng="fr">excentricit&eacute;<klr tip="ind"> (d'une conique)</klr></trd>
+  <trd lng="ru">&c_e;&c_k;&c_s;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_c;&c_i;&c_t;&c_je;&c_t;</trd>
+</drv>
+<drv mrk="centr.simetri0o">
+  <kap>simetri<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, kiu difinas 
+      <ref cel="simetr.0o.orta"><tld/>an simetrion</ref>.
+    </dif>
+  </snc>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="figur.geometria0o">geometria figuro</ref>)</klr>
+      <ref tip="super" cel="punkt.0o.spaco">Punkto</ref>, rilate al kiu 
+      la figuro estas <ref cel="simetr.0a.figuro">simetria</ref>.
+    </dif>
+  </snc>
+  <trd lng="fr">centre de sym&eacute;trie</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.11  2001/04/10 19:09:34  revo
+Marc Bavant: kor dif de dis~eco, kor trd fr
+
 Revision 1.10  2001/04/09 17:09:55  revo
-Marc Bavant: +drc dis~eco
+Marc Bavant: +drv dis~eco
 
 Revision 1.9  2001/02/21 20:08:27  revo
 Marc Bavant: +adm, kor ref tip sin, +uzo POL
