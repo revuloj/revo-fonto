@@ -20,16 +20,33 @@
         </klr>
         kun komuna origino
         <klr>
-        (&gcirc;ia <ref tip="prt" cel="vertic.0o.angulo">vertico</ref>);
+        (&gcirc;ia <ref tip="prt" cel="vertic.0o.angulo">vertico</ref>).
         </klr>
       </dif>
     </subsnc>
     <subsnc mrk="angul.0o.figuro">
       <uzo tip="klr">(elementa geometrio)</uzo>
       <dif>
-        ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, kiun limas du
-        <ref cel="rekt.duon0o">duonrektoj</ref> kun komuna origino;
+        Ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, kiun limas du
+        <ref cel="rekt.duon0o">duonrektoj</ref> kun komuna origino.
       </dif>
+      <refgrp tip="vid">
+        Ecoj de angulo:
+        <ref cel="akut.0a.angulo">akuta</ref>,
+        <ref cel="obtuz.0a.angulo">obtuza</ref>,
+        <ref cel="ort.0a.angulo">orta</ref>,
+        <!--
+        <ref cel="konkav.0a.angulo">konkava</ref>,
+        <ref cel="konvek.0a.angulo">konveksa</ref>,
+        -->
+        <ref cel="strecx.0ita.angulo">stre&ccirc;ita</ref>;
+        
+        specifaj angulduopoj:
+        <ref cel="apud.0a.angulo">apudaj</ref>,
+        <ref cel="kontraux.0a.angulo">kontra&ubreve;aj</ref>,
+        <ref cel="komple1.0a.angulo">komplementaj</ref>,
+        <ref cel="suplem.0o.angulo">suplementaj</ref>.
+      </refgrp>
       <rim>
         La difinon oni povas vastigi al la okazo, kiam la lateroj estas
         kurbaj (ekz-e sfera <tld/>o).
@@ -37,29 +54,12 @@
     </subsnc>
     <subsnc mrk="angul.0o.mezuro">
       <dif>
-        mezuro de <tld/>o:
+        Mezuro de <tld/>o:
         <ekz>
           la sumo de la <tld/>oj de tri<tld/>o egalas al du ortoj.
         </ekz>
       </dif>
     </subsnc>
-    <refgrp tip="vid">
-      Ecoj de angulo:
-      <ref cel="akut.0a.angulo">akuta</ref>,
-      <ref cel="obtuz.0a.angulo">obtuza</ref>,
-      <!--
-      <ref cel="konkav.0a.angulo">konkava</ref>,
-      <ref cel="konvek.0a.angulo">konveksa</ref>,
-      -->
-      <ref cel="strecx.0ita.angulo">stre&ccirc;ita</ref>;
-    </refgrp>
-    <refgrp tip="sub">
-      <ref cel="ort.0o">orto</ref>;
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="komple1.0o.angulo">komplemento</ref>,
-      <ref cel="suplem.0o.angulo">suplemento</ref>.
-    </refgrp>
   </snc>
   <snc>
     <dif>
@@ -105,19 +105,34 @@
   <trd lng="it">angolo</trd>
   <trd lng="ru">&#1091;&#1075;&#1086;&#1083;</trd>
 </drv>
+<drv mrk="angul.ort0a">
+  <kap>ort<tld/>a, rekt<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="later.plur0o">plurlatero</ref> a&ubreve;
+      <ref cel="edr.plur0o">pluredro</ref>)</klr>
+      Havanta ortan <tld/>on:
+      <ekz>
+        ort<tld/>a tri<tld/>o, trapezo.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">rectangle<klr tip="ind"> (adj.)</klr></trd>
+</drv>
 <drv mrk="angul.rekt0o">
   <kap>rekt<tld/>o, ort<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <ref tip="super" cel="later.n0o">Kvarlatero</ref> kun orta angulo:
+      Ort<tld/>a <ref tip="super" cel="parale2.0o.figuro">paralelogramo</ref>:
       <ekz>
         &ccirc;iuj <tld/>oj de rekt<tld/>o estas ortaj.
       </ekz>
     </dif>
   </snc>
   <trd lng="de">Rechteck</trd>
-  <trd lng="fr">rectangle</trd>
+  <trd lng="fr">rectangle<klr tip="ind"> (subst.)</klr></trd>
   <trd
   lng="ru">&#1087;&#1088;&#1103;&#1084;&#1086;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1080;&#1082;</trd>
 </drv>
@@ -128,13 +143,16 @@
     <dif>
       <ref tip="super" cel="later.n0o">Trilatero</ref>:
       <ekz>
-        orta a&ubreve; rekt<tld/>a tri<tld/>o <klr>(kies unu angulo
-        estas orta)</klr>;
-      </ekz>
-      <ekz>
+        <ref cel="angul.ort0a">ort<tld/>a</ref>, simetria <klr>(kun du
+        <ref cel="egal.0a.izometria">egalaj</ref> lateroj)</klr>,
+        egallatera <klr>(kun tri egalaj lateroj)</klr>,
         <ref cel="regul.0a.plurlatero">regula</ref> tri<tld/>o.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="hipote1.0o">hipotenuzo</ref>,
+      <ref cel="katet.0o">kateto</ref>.
+    </refgrp>
   </snc>
   <trd lng="de">Dreieck</trd>
   <trd lng="fr">triangle</trd>
@@ -145,9 +163,10 @@
 </art>
 <!--
 $Log$
+Revision 1.14  2001/04/21 18:46:07  revo
+Marc Bavant: reverkis la snc-ojn MAT
 Revision 1.13  2001/04/03 16:43:57  revo
 Marc Bavant: kor ref tip al n-latero
-
 Revision 1.12  2001/03/31 18:07:56  revo
 Marc Bavant: mod dif cxe tri~o, rekt~o
 Revision 1.11  2000/12/10 18:45:51  revo
