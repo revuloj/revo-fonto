@@ -52,8 +52,8 @@
         okuloj<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        mi trovos la kernon de la vero, <tld/> &gcirc;i sidus e&ccirc; en la plej
-        profunda ka&scirc;iteco<fnt>Z</fnt>;
+        mi trovos la kernon de la vero, <tld/> &gcirc;i sidus e&ccirc; en 
+        la plej profunda ka&scirc;iteco<fnt>Z</fnt>;
       </ekz>
       <ekz>
         pli bone estus al li, <tld/> li neniam estus naskita<fnt>Z</fnt>;
@@ -91,6 +91,20 @@
     </dif>
     <ref tip="vid" cel="kvazau">kvaza&ubreve;</ref>
   </snc>
+  <snc mrk="se.0.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Konjunkcio, uzata por signifi, ke la 
+      <ref cel="implic.0o.logika">implico</ref>
+      de du <ref cel="propoz.0o.aserto">propozicioj</ref> estas vera:
+      <ekz>
+        <tld/> nombro estas dividebla per 4, &gcirc;i estas dividebla
+        per 2 <klr>(&leftquot;dividebla per 4&rightquot; implicas
+        &leftquot;dividebla per 2&rightquot;)</klr>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="kondic1.suficxa0o">sufi&ccirc;a kondi&ccirc;o.</ref>
+  </snc>
   <trdgrp lng="cs">
     <trd>jestli&zcaron;e</trd>,
     <trd>-li</trd>,
@@ -98,29 +112,82 @@
   </trdgrp>
   <trd lng="de">wenn</trd>
   <trd lng="en">if</trd>
+  <trd lng="fr">si</trd>
   <trdgrp lng="nl">
     <trd>als</trd>,
     <trd>indien</trd>
   </trdgrp>
   <trd lng="ru">&c_je;&c_s;&c_l;&c_i;</trd>
 </drv>
+
+<drv mrk="se.nur0">
+  <kap>nur <tld/></kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Konjunkcio, uzata por signifi, ke la 
+      <ref cel="implic.0o.logika">implico</ref>
+      de du <ref cel="propoz.0o.aserto">propozicioj</ref> estas vera:
+      <ekz>
+        nombro estas dividebla per 4, nur <tld/> &gcirc;i estas dividebla
+        per 2 <klr>(&leftquot;dividebla per 4&rightquot; implicas
+        &leftquot;dividebla per 2&rightquot;)</klr>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="kondic1.necesa0o">necesa kondi&ccirc;o.</ref>
+    <rim>
+      La efiko de tiu konjukcio estas simila al tiu de
+      <ctl><tld/></ctl>, sed &gcirc;i enkondukas la duan propozicion
+      de la implico, ne la unuan.
+    </rim>
+  </snc>
+</drv>
+
+<drv mrk="se.0kajnur0">
+  <kap><tld/> kaj nur <tld/>, <tld/>... kaj nur tiam</kap>
+  <mlg>sse</mlg>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Konjunkcio, uzata por signifi, ke la
+      <ref cel="ekviva.0o.logika">ekvivalento</ref>
+      de du <ref cel="propoz.0o.aserto">propozicioj</ref> estas vera:
+      <ekz>
+        nombro estas dividebla per 4, <tld/> kaj nur <tld/> &gcirc;i estas
+        dividebla per 2 kaj 3<klr>(&leftquot;dividebla per 6&rightquot; estas
+        ekvivalenta al &leftquot;dividebla per 2 kaj 3&rightquot;)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>wenn und nur wenn</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>if and only if</trd>,
+    <trd>iff</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>si et seulement si</trd>,
+    <trd>ssi</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_je;&c_s;&c_l;&c_i; &c_i; &c_t;&c_o;&c_l;&c_mol;&c_k;&c_o; &c_je;&c_s;&c_l;&c_i;</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.10  2002/02/07 17:32:30  revo
+Revision 1.11 2002/02/08 17:31:46 revo
+Bart Demeyere: ekz ne estas ekz sed dif
+Revision 1.10 2002/02/07 17:32:30 revo
 Yury Finkel: +trd ru
-
 Revision 1.9 2002/01/21 21:48:17 revo
 fontindiko PrV per programo de Jerome
-
 Revision 1.8 2001/07/01 18:13:57 revo
 Paul Peeraerts: ald pliajn trd nl
-
 Revision 1.7 2001/03/11 18:56:18 revo
 Dennis Wibrow: +trd germ kaj angl
-
 Revision 1.6 2000/11/13 17:13:23 revo
 Joost Witteveen: +trd nl
-
 -->
-</vortaro>
+</vortaro>
