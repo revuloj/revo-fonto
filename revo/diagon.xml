@@ -8,12 +8,10 @@
   <rad>diagonal</rad>/o
 </kap>
 <drv mrk="diagon.0o">
-  <kap>
-    <tld/>o
-  </kap>
+  <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc mrk="diagon.0o.plurlatero">
-    <fnt><aut>&B;</aut><vrk>Vortaro de Esperanto</vrk></fnt>
+    <fnt><bib>MatTerm</bib><lok>p. 28</lok></fnt>
     <dif>
       <klr>(de <ref cel="later.plur0o">plurlatero</ref>)</klr>
       <ref cel="rekt.0o.elementa">Rekto</ref> a&ubreve;
@@ -44,33 +42,38 @@
   <bld lok="../bld/diagon.gif">
     <tld/>o de matrico
   </bld>
+  <trd lng="de">Diagonale</trd>
+  <trd lng="en">diagonal</trd>
   <trd lng="fr">diagonale</trd>
   <trd lng="ru">&c_d;&c_i;&c_a;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;</trd>
 </drv>
 
 <drv mrk="diagon.0a">
-  <kap>
-    <tld/>a
-  </kap>
+  <kap><tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
   <snc mrk="diagon.0a.streko">
-    <fnt><aut>&B;</aut><vrk>Vortaro de Esperanto</vrk></fnt>
+    <fnt><bib>VdE</bib></fnt>
     <dif>
       <klr>(p.p. <ref cel="strek.0o.segmento">streko</ref> a&ubreve;
       <ref cel="rekt.0o.MAT">rekto</ref>)</klr>
       Samdirekta kiel la <tld/>o <sncref ref="diagon.0o.plurlatero"/>.
     </dif>
+    <trd lng="fr">diagonal</trd>
   </snc>
   <snc>
     <subsnc mrk="diagon.0a.elemento">
       <dif>
-        <klr>(p.p. <ref cel="elemen.0o.matrico">elemento</ref> de 
+        <klr>(p.p. <ref cel="elemen.0o.matrico">elemento</ref> de
         (n,n)-matrico)</klr>
         Estanta sur &gcirc;ia <tld/>o <sncref ref="diagon.0o.de_matrico"/>:
         <ekz>
           matrico kun egalaj <tld/>aj elementoj.
         </ekz>
       </dif>
+      <trd lng="de">Diagonal-<klr tip="amb">(element)</klr></trd>
+      <trd lng="en">diagonal<klr tip="ind"> (element)</klr></trd>
+      <trd lng="fr"><klr tip="ind">(&eacute;l&eacute;ment) </klr>diagonal</trd>
+      <trd lng="ru">&c_d;&c_i;&c_a;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
     </subsnc>
     <subsnc mrk="diagon.0a.matrico">
       <fnt><bib>MatVort</bib></fnt>
@@ -82,14 +85,21 @@
           la unuomatrico estas <tld/>a.
         </ekz>
       </dif>
+      <trd lng="de">Diagonal-<klr tip="amb">(matrix)</klr></trd>
+      <trd lng="en">diagonal<klr tip="ind"> (matrix)</klr></trd>
+      <trd lng="fr"><klr tip="amb">(matrice) </klr>diagonale</trd>
+      <trd lng="ru">&c_d;&c_i;&c_a;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;<klr tip="amb"> (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;)</klr></trd>
     </subsnc>
   </snc>
+  <trdgrp lng="de">
+    <trd>diagonal</trd>
+  </trdgrp>
+  <trd lng="en">diagonal</trd>
+  <trd lng="ru">&c_d;&c_i;&c_a;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="diagon.0igebla">
-  <kap>
-    <tld/>igebla
-  </kap>
+  <kap><tld/>igebla</kap>
   <uzo tip="fak">MAT</uzo>
   <snc mrk="diagon.0igebla.endomorfio">
     <dif>
@@ -113,7 +123,7 @@
     </dif>
   </snc>
   <adm>
-  Mi ne trovis auxtoritatan fonton. <aut>MB</aut>
+    Mi ne trovis auxtoritatan fonton. <aut>MB</aut>
   </adm>
   <trd lng="en">diagonalizable</trd>
   <trd lng="de">diagonalisierbar</trd>
@@ -123,19 +133,21 @@
 </art>
 <!--
 $Log$
-Revision 1.11  2001/11/04 19:17:55  revo
+Revision 1.12 2001/12/17 17:31:34 revo
+Marc Bavant: ~o: +fnt, -uzo klr; ~a: +fnt; ~igebla: +snc
+Revision 1.11 2001/11/04 19:17:55 revo
 Marc Bavant: mod ref al matrico
-Revision 1.10  2001/10/29 19:12:24  revo
+Revision 1.10 2001/10/29 19:12:24 revo
 Marc Bavant: +bld
-Revision 1.9  2001/10/28 19:13:17  revo
+Revision 1.9 2001/10/28 19:13:17 revo
 Marc Bavant: ~o: +snc MAT (matrico), +mrk por la unua snc
-Revision 1.8  2001/05/08 17:53:52  revo
+Revision 1.8 2001/05/08 17:53:52 revo
 Marc Bavant: kor dif de ~igebla; +trd ru/de/en
-Revision 1.7  2001/05/02 16:12:18  revo
+Revision 1.7 2001/05/02 16:12:18 revo
 Marc Bavant: kor mrk cxe ~igebla
-Revision 1.6  2001/05/01 18:07:28  revo
+Revision 1.6 2001/05/01 18:07:28 revo
 Marc Bavant: ~o: reverkis; +drv ~igebla
-Revision 1.5  2001/03/27 16:19:40  revo
+Revision 1.5 2001/03/27 16:19:40 revo
 Yury Finkel: +trd ru
 -->
 </vortaro>
