@@ -2,30 +2,86 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-<rad>list</rad>/o
-</kap>
-<drv mrk="list.0o">
-<kap><tld/>o</kap>
-<snc>
-<dif>
-Serio da nomoj de personoj a&ubreve; aferoj, skribitaj unu sub alia: <ekz><tld/>o da kandidatoj, da varoj;
-</ekz> <ekz>prez<tld/>o.
-</ekz>
-</dif>
-<refgrp tip="sin">
-<ref cel="tabel.0o">tabelo</ref>,
-<ref cel="regist.0o">registro</ref>,
-<ref cel="indeks.0o">indekso</ref>,
-<ref cel="katalo.0o">katalogo</ref>.
-</refgrp>
-</snc>
- <trd lng="en">list</trd>
- <trd lng="es">lista</trd>
-</drv>
-</art>
-<!--
-$Log$
--->
-</vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <rad>list</rad>/o
+    </kap>
+    <drv mrk="list.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <dif>
+          Serio da nomoj de personoj a&ubreve; aferoj, skribitaj unu sub alia:
+          <ekz>
+            <tld/>o da kandidatoj, da varoj;
+          </ekz><ekz>
+            prez<tld/>o.
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="tabel.0o">tabelo</ref>,
+          <ref cel="regist.0o">registro</ref>,
+          <ref cel="indeks.0o">indekso</ref>,
+          <ref cel="katalo.0o">katalogo</ref>.
+        </refgrp>
+      </snc>
+      <snc mrk="list.0o.KOMP">
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          Tre elasta datumstrukturo prezentebla kiel sinsekvo da
+          objektoj, &ccirc;iu el kiuj povas esti simpla datumo
+          (<ctl>atoma</ctl> listano) a&ubreve; listo.  Malkiel en ordinara
+          <ref cel="tabel.0o.KOMP">tabelo</ref> oni povas
+          alpendigi novajn listanojn a&ubreve; forpreni iujn enestantajn:
+          <ekz>
+            prezenti arbon per <tld/>o.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">list</trd>
+      <trd lng="es">lista</trd>
+      <trd lng="ru">&c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>
+    </drv>
+    <drv mrk="list.dissendo0o">
+      <kap>dissendo<tld/>o</kap>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          <ref cel="forum.0o.komp">Forumo</ref> en
+          <ref tip="malprt" cel="ret.komputila.0o">komputila reto</ref>
+          funkcianta tiel ke la mesa&gcirc;ojn senditajn al speciala retadreso
+          tiea servilo a&ubreve;tomate plusendas al la <ctl>listanoj</ctl>,
+          a&ubreve; <ctl>abonantoj</ctl> (kies retadresojn &gcirc;i prenas en la
+          koncerna <ctl>dissenda listo</ctl>):
+          <ekz>
+            informoj pri la dissendolisto de ReVo troveblas &ccirc;e
+            <fnt><url>http://www.uni-leipzig.de/esperanto/voko/revo/dok/revolist.html</url></fnt>
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">mailing list</trd>
+      <trd lng="ru">&c_s;&c_p;&c_i;&c_s;&c_o;&c_k; &c_r;&c_a;&c_s;&c_s;&c_y;&c_l;&c_k;&c_i;</trd>
+    </drv>
+    <drv mrk="list.ligil0o">
+      <kap>ligil<tld/>o</kap>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          <tld lit="L"/>o realigita tiel, ke &ccirc;iu &gcirc;ia ano entenas
+          ligilon (referencon) al la tujsekva ano (unudirekta
+          ligil<tld/>o), a&ubreve; du ligilojn al la tujsekva ano kaj al la
+          &jcirc;usanta&ubreve;a (amba&ubreve;direkta ligil<tld/>o).  La lasta listano
+          povas havi nulan (vakuan) referencon, a&ubreve; referenci la
+          komencon (ringa ligil<tld/>o).
+        </dif>
+      </snc>
+      <trd lng="en">linked list</trd>
+      <trd lng="ru">&c_c;&c_je;&c_p;&c_n;&c_o;&c_j; &c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.5  2000/06/21 19:38:57  revo
+  Marco Trevisan Herraz: hisp.trd
+
+  -->
+</vortaro>
