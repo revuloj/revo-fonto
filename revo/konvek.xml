@@ -46,9 +46,9 @@
           <ref cel="edr.plur0o">pluredro</ref>;
         </ekz>
         <ekz>
-          rekto, inkluzivanta lateron L de <tld/>a plurlatero,
+          rekto, inkluzivanta lateron <frm>L</frm> de <tld/>a plurlatero,
           ne intersekcas &gcirc;iajn aliajn laterojn, krom &ccirc;e
-          la verticoj de L;
+          la verticoj de <frm>L</frm>;
         </ekz>
         <ekz>
           &ccirc;iuj <ref cel="angul.tri0o">trianguloj</ref> kaj
@@ -67,15 +67,19 @@
       <trd lng="de">konvexe<klr tip="amb"> (Untermenge)</klr></trd>
       <trd lng="en">convex<klr tip="ind"> (subset)</klr></trd>
       <trd lng="fr"><klr tip="ind">(sous-ensemble)</klr><ind>convexe</ind></trd>
+      <trd lng="pl"><klr tip="ind">(podzbi&oacute;r)</klr><ind>wypuk&lstroke;y</ind></trd>
       <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
     </subsnc>
     <subsnc mrk="konvek.0a.bildigo">
       <fnt><bib>MatStokTerm</bib><lok>p. 28</lok></fnt>
       <dif>
-        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> f de
-        la aro de <ref cel="reel.0o.MAT">reeloj</ref> al si mem)</klr>
-        Tia, ke f(t.x+(1-t).y)&#8804;t.f(x)+(1-t).f(y), kiaj ajn estas
-        x, y, kaj por &ccirc;iu t&#8712;[0,1]:
+        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> <frm><k>f</k></frm>
+        de la aro de <ref cel="reel.0o.MAT">reeloj</ref> al si mem)</klr>
+        Tia, ke 
+        <frm><k>f</k>(<k>tx</k>+(1-<k>t</k>)<k>y</k>) &#8804; 
+        <k>t</k><k>f</k>(<k>x</k>)+(1-<k>t</k>)<k>f</k>(<k>y</k>)</frm>,
+        kiaj ajn estas <frm><k>x</k>, <k>y</k></frm>, 
+        kaj por &ccirc;iu <frm><k>t</k>&#8712;[0,1]</frm>:
         <ekz>
           la surfaco situanta super grafika&jcirc;o de <tld/>a reela
           funkcio estas mem <tld/>a.
@@ -83,8 +87,9 @@
       </dif>
       <ref tip="ant" cel="konkav.0a.bildigo">konkava.</ref>
       <rim>
-        Se egaleco okazas, nur kiam t egalas
-        al 0 a&ubreve; 1, oni diras, ke la bildigo estas strikte <tld/>a.
+        Se egaleco okazas, nur kiam <frm><k>t</k></frm> egalas
+        al <frm>0</frm> a&ubreve; <frm>1</frm>, oni diras, ke la bildigo 
+        estas strikte <tld/>a.
       </rim>
       <rim>
         Eblas vastigi la difinon al la okazoj, kiam la fonto-aro estas
@@ -93,6 +98,7 @@
       <trd lng="de">konvexe<klr tip="amb"> (Funktion)</klr></trd>
       <trd lng="en">convex<klr tip="ind"> (function)</klr></trd>
       <trd lng="fr"><klr tip="ind">(fonction) </klr><ind>convexe</ind></trd>
+      <trd lng="fr"><klr tip="amb">(funkcja) </klr><ind>wypuk&lstroke;a</ind></trd>
       <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_a;&c_ja;<klr tip="amb"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr></trd>
     </subsnc>
   </snc>
@@ -101,6 +107,8 @@
 </art>
 <!--
 $Log$
+Revision 1.11  2002/06/16 17:33:28  revo
+Marc Bavant: snc MAT: fajnigis ref rilate subsnc
 Revision 1.10  2002/03/16 17:31:42  revo
 Marc Bavant: mod trd de kun klr (por koherigi kun dekoj da similaj);~a (subaro): mod fnt, mod ekz, ~a (funkcio): +fnt
 Revision 1.9 2002/03/14 17:32:08 revo
