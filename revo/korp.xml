@@ -8,9 +8,7 @@
   <rad>korp</rad>/o
 </kap>
 <drv mrk="korp.0o">
-  <kap>
-    <ofc>*</ofc><tld/>o
-  </kap>
+  <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="korp.0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
@@ -49,7 +47,10 @@
         la <tld/>ogardistoj<fnt>Z</fnt>
         <klr>(gardantaj la personon de regnestro)</klr>;
       </ekz>
-      <ekz>ili vivas per unu animo en du <tld/>oj<fnt><bib>PrV</bib></fnt>;</ekz>
+      <ekz>
+        ili vivas per unu animo en du <tld/>oj
+	<fnt><bib>PrV</bib></fnt>;
+      </ekz>
       <ekz>
         li &ccirc;eestis per propra <tld/>o.
       </ekz>
@@ -82,6 +83,7 @@
   </snc>
   <snc mrk="korp.0o.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
     <dif>
       Tia <ref cel="unu.0hava">unuhava</ref>
       <ref tip="super" cel="ring.0o.MAT">ringo</ref>
@@ -101,14 +103,18 @@
     <trd lng="de">K&ouml;rper</trd>
     <trd lng="en">field</trd>
   </snc>
+  <snc mrk="korp.0o.solido">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="stl">ARK</uzo>
+    <fnt><aut>&B;</aut><vrk>Vortaro de Esperanto</vrk><lok>artikoloj: kubo, poliedro,...</lok></fnt>
+    <ref tip="dif" cel="solid.0o.geometrio">solido.</ref>
+  </snc>
   <trd lng="fr">corps</trd>
   <trd lng="ru">&c_t;&c_je;&c_l;&c_o;</trd>
 </drv>
 
 <drv mrk="korp.0a">
-  <kap>
-    <tld/>a
-  </kap>
+  <kap><tld/>a</kap>
   <snc>
     <dif>
       Rilata al <tld/>o:
@@ -125,9 +131,7 @@
 </drv>
 
 <drv mrk="korp.en0igi">
-  <kap>
-    (en)<tld/>igi
-  </kap>
+  <kap>(en)<tld/>igi</kap>
   <snc>
     <dif>
       Fari, ke io havu <tld/>on; prezenti ion abstraktan sub <tld/>a, konkreta
@@ -154,9 +158,7 @@
 </drv>
 
 <drv mrk="korp.en0igxi">
-  <kap>
-    (en)<tld/>i&gcirc;i
-  </kap>
+  <kap>(en)<tld/>i&gcirc;i</kap>
   <snc>
     <ekz>
       La katolikoj kredas, ke Dio en<tld/>i&gcirc;is en Jesuo;
@@ -178,48 +180,113 @@
   </trdgrp>
 </drv>
 
-<drv mrk="korp.sub0o.MAT">
-  <kap>
-    sub<tld/>o
-  </kap>
+<drv mrk="korp.sub0o">
+  <kap>sub<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      &Ccirc;iu unuhava
-      <ref tip="super" cel="ring.sub0o.MAT">subringo</ref>,
-      kiu anka&ubreve; estas
-      <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>.
+      <klr>(de <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
+      <em>K</em>)</klr>
+      &Ccirc;iu unuhava <ref tip="super" cel="ring.sub0o.MAT">subringo</ref> 
+      de &gcirc;i, kiu subringo estas anka&ubreve; <tld/>o.
     </dif>
   </snc>
+  <adm>Fonto trovenda, sed la formo estas tute regula. <aut>MB</aut></adm>
   <trd lng="de">Unterk&ouml;rper</trd>
   <trd lng="en">subfield</trd>
   <trd lng="fr">sous-corps</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_p;&c_o;&c_l;&c_je;</trd>
 </drv>
+
+<drv mrk="korp.super0o">
+  <kap>super<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>
+      <em>K</em>)</klr>
+      Tia <tld/>o, ke <em>K</em> estas sub<tld/>o de &gcirc;i.
+    </dif>
+  </snc>
+  <adm>
+    Fonto trovenda, sed la formo estas tute regula. Notu, ke
+    MatVort nomas tion "korpopluigajxo", sed ne montras alian
+    ekz-on de uzo de la elemento "pluigajxo". La kunmetajxo
+    per "super" sxajnas al mi malpli problema.
+    <aut>MB</aut>
+  </adm>
+  <trdgrp lng="de">
+    <trd>Oberk&ouml;rper</trd>,
+    <trd>K&ouml;rpererweiterung</trd></trdgrp> 
+  <trdgrp lng="en">
+    <trd>overfield</trd>,
+    <trd>extension field</trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>sur-corps</trd>,
+    <trd>extension d'un corps</trd></trdgrp> 
+  <trd lng="ru">&c_n;&c_a;&c_d;&c_p;&c_o;&c_l;&c_je;</trd>
+</drv>
+
+<drv mrk="korp.galeza0o">
+  <kap>galeza <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Finia <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref>:
+      <ekz>
+        la kardinalo de galeza <tld/>o estas potenco de primo.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="galez.0o">Galezo</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">Galoisfeld</trd>
+  <trd lng="en">Galois['s] <ind>field</ind></trd>
+  <trd lng="fr">corps de Galois</trd>
+  <trd lng="ru">&c_p;&c_o;&c_l;&c_je; &c_G;&c_a;&c_l;&c_u;&c_a;</trd>
+</drv>
+
+<drv mrk="korp.radika0o">
+  <kap>radika <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="polino.0o">polinomo</ref> <em>P</em> super 
+      <ref tip="super" cel="korp.0o.MAT"><tld/>o</ref> <em>K</em>)</klr>
+      La plej malgranda super<tld/>o de <em>K</em> enhavanta &ccirc;iujn
+      <ref cel="radik.0o.polinomo">radikojn</ref> de <em>P</em>:
+      <ekz>
+        la radika <tld/>o de la reela polinomo <em>X</em><sup>2</sup>+<em>1</em>
+        estas la korpo de kompleksoj.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">W&uuml;rzelk&ouml;rper<klr tip="ind"> (eines Polynoms)</klr></trd>
+  <trd lng="en">root <ind>field</ind><klr tip="ind"> (of a polynomial)</klr></trd>
+  <trd lng="fr">corps des racines<klr tip="ind"> (d'un polyn&ocirc;me)</klr></trd>
+  <trd lng="ru">&c_p;&c_o;&c_l;&c_je; &c_r;&c_a;&c_z;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;<klr tip="ind"> (&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_a;)</klr></trd>
+</drv>
+
 </art>
 <!--
 $Log$
-Revision 1.14  2001/11/04 19:18:14  revo
+Revision 1.15 2002/01/11 19:09:38 revo
+fontindiko PrV per programo de Jerome
+Revision 1.14 2001/11/04 19:18:14 revo
 Marc Bavant: kor stl FIG
-
-Revision 1.13  2001/11/03 19:11:47  revo
+Revision 1.13 2001/11/03 19:11:47 revo
 Marc Bavant: mod ref al neuxtra elemento; mod signon de dua operacio; mod komut(ec)a al komuteca; +trd MAT
-
-Revision 1.12  2001/11/02 19:12:45  revo
+Revision 1.12 2001/11/02 19:12:45 revo
 Yury Finkel: +trd ru
-
-Revision 1.11  2001/10/29 19:12:29  revo
+Revision 1.11 2001/10/29 19:12:29 revo
 Jerome Vachey: + korp.0o.ANA
-
-Revision 1.10  2001/10/23 18:30:09  revo
+Revision 1.10 2001/10/23 18:30:09 revo
 Marc Bavant: sxovis fakindikojn, kor (f), +uzo KAT, kor ref tip sin
-
-Revision 1.9  2001/10/18 16:19:08  revo
+Revision 1.9 2001/10/18 16:19:08 revo
 Jerome Vachey: + fak ana, + kk trd fr
-
-Revision 1.8  2000/10/29 17:13:18  revo
+Revision 1.8 2000/10/29 17:13:18 revo
 Marc Bavant: mod dif (ne plu nepre komuteca), +drv sub~o, kor trd ru
-
-Revision 1.7  2000/10/15 17:36:35  revo
+Revision 1.7 2000/10/15 17:36:35 revo
 -->
 </vortaro>
