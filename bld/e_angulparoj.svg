@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY offset_1 "200">
+  <!ENTITY offset_2 "400">
+]>
+
+<svg version="1.1" 
+  width="15cm" height="10cm" 
+  viewBox="0 0 600 400"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Angulparoj</title>
+  <desc>
+    Diversaj specoj de angulparoj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var scale_xy = 100;
+
+        // Koordinatoj de la ĉefaj punktoj
+
+        function angulo(numero, xv0, yv0, xv1, yv1, theta0, theta1, theta2, theta3, sektoro) {
+          var xl0 = xv0+scale_xy*Math.cos(theta0), yl0 = yv0+scale_xy*Math.sin(theta0);
+          var xl1 = xv0+scale_xy*Math.cos(theta1), yl1 = yv0+scale_xy*Math.sin(theta1);
+          var xl2 = xv1+scale_xy*Math.cos(theta2), yl2 = yv1+scale_xy*Math.sin(theta2);
+          var xl3 = xv1+scale_xy*Math.cos(theta3), yl3 = yv1+scale_xy*Math.sin(theta3);
+          
+          // Verticoj
+          var objet = svgdoc.getElementById("vertico_"+numero+"a");
+          objet.setAttribute ("cx", xv0); 
+          objet.setAttribute ("cy", yv0); 
+          var objet = svgdoc.getElementById("vertico_"+numero+"b");
+          objet.setAttribute ("cx", xv1); 
+          objet.setAttribute ("cy", yv1); 
+          
+          // Lateroj
+          var objet = svgdoc.getElementById("lateroj_"+numero);
+          objet.setAttribute ("d", 
+            "M "+xv0+" "+yv0+" L "+xl0+" "+yl0+" "+
+            "M "+xv0+" "+yv0+" L "+xl1+" "+yl1+" "+
+            "M "+xv1+" "+yv1+" L "+xl2+" "+yl2+" "+
+            "M "+xv1+" "+yv1+" L "+xl3+" "+yl3
+          );
+          
+          // Sektoro
+          var objet = svgdoc.getElementById("sektoro_"+numero+"a");
+          objet.setAttribute ("d", 
+            "M "+xv1+" "+yv1+" L "+xl3/1.5+" "+yl3/1.5+" A "+
+            scale_xy/1.5+" "+scale_xy/1.5+" 0 "+sektoro+" "+xl2/1.5+" "+yl2/1.5+" z"
+          );
+          var objet = svgdoc.getElementById("angulnomo_"+numero+"a");
+          objet.setAttribute ("x", (xl2+xl3)/(2*2)-5);
+          objet.setAttribute ("y", (yl2+yl3)/(2*2)+4);
+
+          var objet = svgdoc.getElementById("sektoro_"+numero+"b");
+          objet.setAttribute ("d", 
+            "M "+xv0+" "+yv0+" L "+xl1/1.5+" "+yl1/1.5+" A "+
+            scale_xy/1.5+" "+scale_xy/1.5+" 0 "+sektoro+" "+xl0/1.5+" "+yl0/1.5+" z"
+          );
+          var objet = svgdoc.getElementById("angulnomo_"+numero+"b");
+          objet.setAttribute ("x", (xl1+xl0)/(2*2)-5);
+          objet.setAttribute ("y", (yl1+yl0)/(2*2)+4);
+
+        }
+
+        angulo("1", 0,0,0,0, -Math.PI/9, -Math.PI/3, -Math.PI/3, -1.4*Math.PI/2, "0 1");
+        angulo("2", 0,0,0,0, 0, -Math.PI/3, -Math.PI/3, -Math.PI, "0 1");
+        angulo("3", 0,0,0,0, 0, -Math.PI/5, -Math.PI, -6*Math.PI/5, "0 1");
+        angulo("4", -10,-5,10,5, 0, -Math.PI/4, Math.PI/2-0.5, Math.PI/4-0.5, "0 1");
+        angulo("5", 10,0,-10,0, 0, -Math.PI/3, -Math.PI/3, -Math.PI/2, "0 1");
+        angulo("6", 10,0,-10,0, Math.PI/8, -Math.PI/4, -Math.PI/4, -7*Math.PI/8, "0 1");
+        
+      }
+    ]]></script>
+  </defs>
+
+  <svg version="1.1" 
+    width="5cm" height="5cm" 
+    viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+    <!--
+      Sektoro
+    -->
+
+    <path id="sektoro_1a" d="" class="surfaco"/>
+    <path id="sektoro_1b" d="" class="surfaco"/>
+    <text id="angulnomo_1a" x="" y="" text-anchor="middle" class="nomo">α</text>
+    <text id="angulnomo_1b" x="" y="" text-anchor="middle" class="nomo">β</text>
+
+    <!--
+      Lateroj
+    -->
+
+    <path id="lateroj_1" d="" class="kurbo"/>
+
+    <!--
+      Vertico
+    -->
+
+    <circle id="vertico_1a" cx="" cy="" r="4" class="konstrupunkto"/>
+    <circle id="vertico_1b" cx="" cy="" r="4" class="konstrupunkto"/>
+
+    <!-- 
+      Komento
+    -->
+
+    <text id="komento_1" x="0" y="40" text-anchor="middle" class="nomo">samlateraj</text>
+  </svg>
+
+  <g transform="translate(&offset_1;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="sektoro_2a" d="" class="surfaco"/>
+      <path id="sektoro_2b" d="" class="surfaco"/>
+      <text id="angulnomo_2a" x="" y="" text-anchor="middle" class="nomo">α</text>
+      <text id="angulnomo_2b" x="" y="" text-anchor="middle" class="nomo">β</text>
+      <path id="lateroj_2" d="" class="kurbo"/>
+      <circle id="vertico_2a" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="vertico_2b" cx="" cy="" r="4" class="konstrupunkto"/>
+      <text id="komento_2" x="0" y="40" text-anchor="middle" class="nomo">apudaj</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="sektoro_3a" d="" class="surfaco"/>
+      <path id="sektoro_3b" d="" class="surfaco"/>
+      <text id="angulnomo_3a" x="" y="" text-anchor="middle" class="nomo">α</text>
+      <text id="angulnomo_3b" x="" y="" text-anchor="middle" class="nomo">α</text>
+      <path id="lateroj_3" d="" class="kurbo"/>
+      <circle id="vertico_3a" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="vertico_3b" cx="" cy="" r="4" class="konstrupunkto"/>
+      <text id="komento_3" x="10" y="40" text-anchor="middle" class="nomo">kontraŭaj</text>
+    </svg>
+  </g>
+
+  <g transform="translate(0,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="sektoro_4a" d="" class="surfaco"/>
+      <path id="sektoro_4b" d="" class="surfaco"/>
+      <text id="angulnomo_4a" x="" y="" text-anchor="middle" class="nomo">α</text>
+      <text id="angulnomo_4b" x="" y="" text-anchor="middle" class="nomo">α</text>
+      <path id="lateroj_4" d="" class="kurbo"/>
+      <circle id="vertico_4a" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="vertico_4b" cx="" cy="" r="4" class="konstrupunkto"/>
+      <text id="komento_4" x="-10" y="40" text-anchor="middle" class="nomo">egalaj</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="sektoro_5a" d="" class="surfaco"/>
+      <path id="sektoro_5b" d="" class="surfaco"/>
+      <text id="angulnomo_5a" x="" y="" text-anchor="middle" class="nomo">α</text>
+      <text id="angulnomo_5b" x="" y="" text-anchor="middle" class="nomo">β</text>
+      <path id="lateroj_5" d="" class="kurbo"/>
+      <circle id="vertico_5a" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="vertico_5b" cx="" cy="" r="4" class="konstrupunkto"/>
+      <text id="komento_5" x="0" y="40" text-anchor="middle" class="nomo">komplementaj</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="sektoro_6a" d="" class="surfaco"/>
+      <path id="sektoro_6b" d="" class="surfaco"/>
+      <text id="angulnomo_6a" x="" y="" text-anchor="middle" class="nomo">α</text>
+      <text id="angulnomo_6b" x="" y="" text-anchor="middle" class="nomo">β</text>
+      <path id="lateroj_6" d="" class="kurbo"/>
+      <circle id="vertico_6a" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="vertico_6b" cx="" cy="" r="4" class="konstrupunkto"/>
+      <text id="komento_6" x="0" y="40" text-anchor="middle" class="nomo">suplementaj</text>
+    </svg>
+  </g>
+
+</svg>

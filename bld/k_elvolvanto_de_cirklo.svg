@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Elvolvanto de cirklo</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        function xx(t) {
+          return Math.cos(t)+t*Math.sin(t)
+        }
+        
+        function yy(t) {
+          return Math.sin(t)-t*Math.cos(t)
+        }
+        
+        function path_data(f, g, t0, t1, nb_points, scale_xy) {
+          var d = "M "; 
+          var inc = (t1-t0)/nb_points;
+          for (var t=t0; t<=t1; t+=inc) {
+            if (!(Math.abs(f(t)) > scale/scale_xy) &&
+              !(Math.abs(g(t)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t) + " " + (-scale_xy)*g(t) 
+            }
+          }
+          return d;
+        }
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+
+        // Montri la aksojn
+        var objet = svgdoc.getElementById("x_akso_pinto");
+        var points = 0.95*scale + " " + (-0.015*scale) + " " + 0.999*scale + " 0 " +
+                     0.95*scale + " " + 0.015*scale; 
+        objet.setAttribute ("points",points);
+
+        var objet = svgdoc.getElementById("x_akso_indiko");
+        objet.setAttribute ("x",0.95*scale);
+        objet.setAttribute ("y",0.10*scale);
+        var objet = svgdoc.getElementById("y_akso_indiko");
+        objet.setAttribute ("x",0.05*scale);
+        objet.setAttribute ("y",-0.95*scale);
+
+        // Desegni la kurbon
+        var t0 = -Math.PI, t1 = 5*Math.PI/4, nb_points = 500, scale_xy = 50;
+        var objet = svgdoc.getElementById("kurbo1");
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, nb_points, scale_xy));
+        
+        // Elementoj de konstruo
+
+        //  Konstrucirklo
+        var objet = svgdoc.getElementById("konstrucirklo");
+        objet.setAttribute ("r", scale_xy);
+        
+        //  Ekstremo
+        var objet = svgdoc.getElementById("ekstremo");
+        objet.setAttribute ("cx", scale_xy);
+        objet.setAttribute ("cy", 0);
+        var objet = svgdoc.getElementById("ekstremo_nomo");
+        objet.setAttribute ("x", scale_xy);
+        objet.setAttribute ("y", 20);
+        
+        function konstruelementoj(numero, theta) {
+          //  Kurantaj punktoj
+          var
+            xr1 = xx(theta), 
+            yr1 = -yy(theta),
+            xr2 = Math.cos(theta),
+            yr2 = -Math.sin(theta);
+
+          if (numero == 1) {
+            var objet = svgdoc.getElementById("kuranta_punkto_"+numero+"a");
+            objet.setAttribute ("cx", scale_xy*xr1);
+            objet.setAttribute ("cy", scale_xy*yr1);
+            var objet = svgdoc.getElementById("kurantapunkto_nomo_"+numero+"a");
+            objet.setAttribute ("x", scale_xy*xr1+10);
+            objet.setAttribute ("y", scale_xy*yr1);
+
+            var objet = svgdoc.getElementById("kuranta_punkto_"+numero+"b");
+            objet.setAttribute ("cx", scale_xy*xr2);
+            objet.setAttribute ("cy", scale_xy*yr2);
+            var objet = svgdoc.getElementById("kurantapunkto_nomo_"+numero+"b");
+            objet.setAttribute ("x", scale_xy*xr2);
+            objet.setAttribute ("y", scale_xy*yr2-10);
+          }
+
+          //  Strekoj
+          var objet = svgdoc.getElementById("ŝnuro_"+numero);
+          objet.setAttribute ("x2", scale_xy*xr1);
+          objet.setAttribute ("y2", scale_xy*yr1);
+          objet.setAttribute ("x1", scale_xy*xr2);
+          objet.setAttribute ("y1", scale_xy*yr2);
+        }
+
+        konstruelementoj("1", 1.3);
+        konstruelementoj("2", 1.8);
+        konstruelementoj("3", 2.3);
+        konstruelementoj("4", 2.8);
+        konstruelementoj("5", 3.3);
+        konstruelementoj("6", 3.8);
+      }
+    ]]></script>
+  </defs>
+
+  <!--
+    Aksoj
+  -->
+  
+  <g id="x_akso">
+    <path class="akso" d="M -&scale; 0 H &scale;"/>
+    <polygon id="x_akso_pinto" class="pinto" points=""/>
+    <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+  </g>
+
+  <g id="y_akso">
+    <path class="akso" d="M 0 -&scale; V &scale;"/>
+    <use xlink:href="#x_akso_pinto" transform="rotate(-90)"/> 
+    <text id="y_akso_indiko" class="akso" x="" y="">y</text>
+  </g>
+
+  <!--
+    Kurbo
+  -->
+
+  <path id="kurbo1" class="kurbo" d=""/>
+
+  <!--
+    Elementoj de konstruo
+  -->
+
+  <circle id="konstrucirklo" cx="0" cy="0" r="" 
+    style="fill:none; stroke-width:2" class="streketita"/>
+
+  <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+  <text x="-15" y="30" class="punkto">O</text>
+  <circle id="ekstremo" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="ekstremo_nomo" x="" y="" class="punkto">A</text>
+
+  <line id="ŝnuro_1" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="ŝnuro_2" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="ŝnuro_3" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="ŝnuro_4" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="ŝnuro_5" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="ŝnuro_6" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+
+  <circle id="kuranta_punkto_1a" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo_1a" x="" y="" class="punkto">M</text>
+  <circle id="kuranta_punkto_1b" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo_1b" x="" y="" class="punkto">P</text>
+ 
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-198" y="-198" width="145" height="50"
+    class="klarigo" style="fill-opacity: 0.8"/>
+  
+  <text x="-190" y="-180" class="klarigo">PM = arko PA</text>
+  <text x="-190" y="-160" class="klarigo">P : kurbecocentro</text>
+
+
+</svg>

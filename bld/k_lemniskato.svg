@@ -59,7 +59,48 @@
         objet.setAttribute ("d",
           path_data(rho, t0, t1, 1000, scale_xy)
         );
- 
+        
+        // Elementoj de konstruo
+        //  Polusoj
+        var objet = svgdoc.getElementById("poluso_1");
+        objet.setAttribute ("cx", scale_xy);
+        objet.setAttribute ("cy", 0);
+        var objet = svgdoc.getElementById("poluso_1_nomo");
+        objet.setAttribute ("x", scale_xy*0.98);
+        objet.setAttribute ("y", 20);
+
+        var objet = svgdoc.getElementById("poluso_2");
+        objet.setAttribute ("cx", -scale_xy);
+        objet.setAttribute ("cy", 0);
+        var objet = svgdoc.getElementById("poluso_2_nomo");
+        objet.setAttribute ("x", -scale_xy*1.02);
+        objet.setAttribute ("y", 20);
+
+        //  Kuranta punkto
+        var theta = -Math.PI/8;
+        var
+          xr = rho(theta)*Math.cos(theta), 
+          yr = rho(theta)*Math.sin(theta); 
+        var objet = svgdoc.getElementById("kuranta_punkto");
+        objet.setAttribute ("cx", scale_xy*xr);
+        objet.setAttribute ("cy", scale_xy*yr);
+        var objet = svgdoc.getElementById("kurantapunkto_nomo");
+        objet.setAttribute ("x", scale_xy*xr);
+        objet.setAttribute ("y", scale_xy*yr-20);
+
+        //  Radiusvektoroj
+        var objet = svgdoc.getElementById("radiusvektoro_1");
+        objet.setAttribute ("x1", scale_xy);
+        objet.setAttribute ("y1", 0);
+        objet.setAttribute ("x2", scale_xy*xr);
+        objet.setAttribute ("y2", scale_xy*yr);
+        
+        var objet = svgdoc.getElementById("radiusvektoro_2");
+        objet.setAttribute ("x1", -scale_xy);
+        objet.setAttribute ("y1", 0);
+        objet.setAttribute ("x2", scale_xy*xr);
+        objet.setAttribute ("y2", scale_xy*yr);
+
       }
     ]]></script>
   </defs>
@@ -82,6 +123,8 @@
     <text id="y_akso_indiko" class="akso" x="" y="">y</text>
   </g>
 
+  <text x="-15" y="30" class="punkto">O</text>
+  
   <!-- circle cx="0" cy="&scale;" r="20" style="fill:white" opacity="1"/>
   <text x="0" y="&scale;" class="komento" text-anchor="middle">Lemniskato</text -->
 
@@ -91,5 +134,44 @@
 
   <path id="kurbo1" class="kurbo" d=""/>
 
+  <!--
+    Elementoj de konstruo
+  -->
+
+  <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+  <line id="radiusvektoro_1" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="radiusvektoro_2" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+
+  <circle id="poluso_1" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="poluso_1_nomo" x="" y="" class="punkto">
+    F<tspan baseline-shift="-50%" class="indico">1</tspan>
+  </text>
+  <circle id="poluso_2" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="poluso_2_nomo" x="" y="" class="punkto">
+    F<tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+
+  <circle id="kuranta_punkto" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo" x="" y="" class="punkto">M</text>
+  
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-198" y="-198" width="140" height="60" class="klarigo"/>
+
+  <text x="-190" y="-180" class="klarigo">
+    OF<tspan baseline-shift="-50%" class="indico">1</tspan> = 
+    OF<tspan baseline-shift="-50%" class="indico">2</tspan> = 
+    <tspan style="font-style: italic">a</tspan>
+  </text>
+
+  <text x="-190" y="-150" class="klarigo">
+    MF<tspan baseline-shift="-50%" class="indico">1</tspan> . 
+    MF<tspan baseline-shift="-50%" class="indico">2</tspan> = 
+    <tspan style="font-style: italic">a</tspan><tspan baseline-shift="50%">2</tspan>
+  </text>
 
 </svg>

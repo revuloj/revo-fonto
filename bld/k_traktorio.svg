@@ -19,42 +19,41 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function ch(x) {
-          return (Math.exp(x)+Math.exp(-x))/2
+        function id(t) {
+          return t
         }
 
-        function xx1(y) {
-          return Math.log((1+Math.sqrt(1-y*y))/y)-Math.sqrt(1-y*y)
+        function ch(t) {
+          return (Math.exp(t)+Math.exp(-t))/2
+        }
+
+        function sh(t) {
+          return (Math.exp(t)-Math.exp(-t))/2
+        }
+
+        function th(t) {
+          return sh(t)/ch(t)
+        }
+
+        function xx(t) {
+          return t-th(t)
         }
         
-        function xx2(y) {
-          return -xx1(y)
+        function yy(t) {
+          return 1/ch(t)
         }
         
-        function path_data(f, x0, x1) {
+        function path_data(f, g, t0, t1, nb_points, scale_xy) {
           var d = "M "; 
-          for (x=x0; x<=x1; x+=inc) {
-            if (!(Math.abs(f(x)) > scale/scale_y)) {
-              d += " " + scale_x*x + " " + (-scale_y)*f(x) 
+          var inc = (t1-t0)/nb_points;
+          for (var t=t0; t<=t1; t+=inc) {
+            if (!(Math.abs(f(t)) > scale/scale_xy) &&
+              !(Math.abs(g(t)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t) + " " + (-scale_xy)*g(t) 
             }
           }
           return d;
         }
-
-        function path_data_inverse(f, y0, y1) {
-          var d = "M "; 
-          for (y=y0; y<=y1; y+=inc) {
-            if (!isNaN(f(y)) &&
-              !(Math.abs(f(y)) > scale/scale_x)) {
-              d += " " + scale_x*f(y) + " " + (-scale_y)*y 
-            }
-          }
-          return d;
-        }
-
-        var x0 = -3, x1 = 3, y0 = 0, y1 = 3;
-        var inc = (x1-x0)/100;
-        scale_x = scale_y = 0.93*Math.min(2*scale/(x1-x0), 2*scale/(y1-y0));
 
         var svgdoc = evt.getTarget().getOwnerDocument();
 
@@ -72,24 +71,70 @@
         objet.setAttribute ("y",-0.95*scale);
 
         // Desegni la kurbon
+        var t0 = -4, t1 = 4, nb_points = 500, scale_xy = 90;
         var objet = svgdoc.getElementById("kurbo1");
-        var x0 = -3, x1 = 3, y0 = 0, y1 = 1;
-        var inc = (y1-y0)/500;
-        objet.setAttribute ("d",
-          path_data_inverse(xx1, y0, y1) + 
-          path_data_inverse(xx2, y0, y1));
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, nb_points, scale_xy));
         
-        // Desegni la konstruelementojn
+        // Elementoj de konstruo
         var objet = svgdoc.getElementById("kurbo2");
-        var x0 = -3, x1 = 3, y0 = -3, y1 = 3;
-        var inc = (x1-x0)/100;
-        objet.setAttribute ("d",path_data(ch, x0, x1));
+        objet.setAttribute ("d", path_data(id, ch, t0, t1, nb_points, scale_xy));
 
+        //  Ekstremo
+        var objet = svgdoc.getElementById("ekstremo");
+        objet.setAttribute ("cx", 0);
+        objet.setAttribute ("cy", -scale_xy);
+        var objet = svgdoc.getElementById("ekstremo_nomo");
+        objet.setAttribute ("x", 0+10);
+        objet.setAttribute ("y", -scale_xy-20);
+        
+        //  Kurantaj punktoj
+        var xr2 = 1.2,  yr2 = -ch(xr2); 
+        var theta = xr2, xr1 = xx(theta), yr1 = -yy(theta);
+        var objet = svgdoc.getElementById("kuranta_punkto_1");
+        objet.setAttribute ("cx", scale_xy*xr1);
+        objet.setAttribute ("cy", scale_xy*yr1);
+        var objet = svgdoc.getElementById("kurantapunkto_nomo_1");
+        objet.setAttribute ("x", scale_xy*xr1-10);
+        objet.setAttribute ("y", scale_xy*yr1+20);
+
+        var objet = svgdoc.getElementById("kuranta_punkto_2");
+        objet.setAttribute ("cx", scale_xy*xr2);
+        objet.setAttribute ("cy", scale_xy*yr2);
+        var objet = svgdoc.getElementById("kurantapunkto_nomo_2");
+        objet.setAttribute ("x", scale_xy*xr2+10);
+        objet.setAttribute ("y", scale_xy*yr2+20);
+
+        // Intersekco de la tangento kun la abscisa akso
+        var xr3 = xr2,  yr3 = 0; 
+        var objet = svgdoc.getElementById("piedo");
+        objet.setAttribute ("cx", scale_xy*xr3);
+        objet.setAttribute ("cy", scale_xy*yr3);
+        var objet = svgdoc.getElementById("piedo_nomo");
+        objet.setAttribute ("x", scale_xy*xr3);
+        objet.setAttribute ("y", scale_xy*yr3+20);
+
+        //  Strekoj
+        var objet = svgdoc.getElementById("radiuso");
+        objet.setAttribute ("x1", scale_xy*xr1);
+        objet.setAttribute ("y1", scale_xy*yr1);
+        objet.setAttribute ("x2", scale_xy*xr2);
+        objet.setAttribute ("y2", scale_xy*yr2);
+        
+        var objet = svgdoc.getElementById("ŝnuro");
+        objet.setAttribute ("x2", scale_xy*xr1);
+        objet.setAttribute ("y2", scale_xy*yr1);
+        objet.setAttribute ("x1", scale_xy*xr3);
+        objet.setAttribute ("y1", scale_xy*yr3);
+        
+        var objet = svgdoc.getElementById("hipotenuzo");
+        objet.setAttribute ("x2", scale_xy*xr2);
+        objet.setAttribute ("y2", scale_xy*yr2);
+        objet.setAttribute ("x1", scale_xy*xr3);
+        objet.setAttribute ("y1", scale_xy*yr3);
+ 
       }
     ]]></script>
   </defs>
-
-  <!-- rect class="fenestro" x="-&scale;" y="-&scale;" width="&scale_2;" height="&scale_2;"/ -->
 
   <!--
     Aksoj
@@ -118,11 +163,36 @@
   -->
 
   <path id="kurbo2" class="streketita" d=""/>
-  <text>
-    <textPath xlink:href="#kurbo2" dy="-5" startOffset="80%">
-      kateno
-    </textPath>
+  <text class="parametro">
+    <textPath xlink:href="#kurbo2" dy="-5" startOffset="25%">kateno</textPath>
   </text>
 
+  <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+  <text x="-15" y="30" class="punkto">O</text>
+  <circle id="ekstremo" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="ekstremo_nomo" x="" y="" class="punkto">A</text>
+
+  <line id="ŝnuro" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="radiuso" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="hipotenuzo" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+
+  <circle id="kuranta_punkto_1" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo_1" x="" y="" class="punkto">M</text>
+  <circle id="kuranta_punkto_2" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo_2" x="" y="" class="punkto">P</text>
+  <circle id="piedo" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="piedo_nomo" x="" y="" class="punkto">T</text>
+  
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-198" y="-198" width="145" height="50" class="klarigo"/>
+
+  <text x="-190" y="-180" class="klarigo">MT = konstanto OA</text>
+  <text x="-190" y="-160" class="klarigo">P : kurbecocentro</text>
 
 </svg>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Cirklo</title>
+  <desc>
+    Cirklo kaj ties konsistigaj partoj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var scale_xy = 150;
+        
+        // Cirklo mem
+        var objet = svgdoc.getElementById("cirklo");
+        objet.setAttribute ("d", 
+          "M "+(-scale_xy)+" 0 a "+
+          scale_xy+" "+scale_xy+" 0 1 1 0 0.000001 z");
+        
+        
+        // Radiuso
+        var theta1 = +Math.PI/5, x1 = scale_xy*Math.cos(theta1), y1 = scale_xy*Math.sin(theta1);
+        var objet = svgdoc.getElementById("radiuso");
+        objet.setAttribute ("d", "M 0 0 L "+x1+" "+y1);
+        
+        // Diametro
+        var 
+          theta2 = -Math.PI/5, 
+          x2 = scale_xy*Math.cos(theta2), 
+          y2 = scale_xy*Math.sin(theta2);
+        var objet = svgdoc.getElementById("diametro");
+        objet.setAttribute ("d", "M "+(-x2)+" "+(-y2)+" L "+x2+" "+y2);
+
+        // Ŝnuro
+        var 
+          theta3 = -Math.PI/3+0.35, 
+          x3 = scale_xy*Math.cos(theta3), 
+          y3 = scale_xy*Math.sin(theta3);
+        var objet = svgdoc.getElementById("ŝnuro");
+        objet.setAttribute ("d", "M "+(-x3)+" "+y3+" L "+x3+" "+y3);
+        
+        // Arko
+        var objet = svgdoc.getElementById("arko");
+        objet.setAttribute ("d", 
+          "M "+(-x3)+" "+y3+" A "+
+          scale_xy+" "+scale_xy+" 0 0 1 "+x3+" "+y3);
+        
+        // Sago
+        var objet = svgdoc.getElementById("sago");
+        objet.setAttribute ("d", "M 0 "+y3+" L 0 "+(-scale_xy));
+       
+        // Sektoro
+        var 
+          theta4 = Math.PI/3, 
+          x4a = scale_xy*Math.cos(theta4), 
+          y4a = scale_xy*Math.sin(theta4),
+          x4b = scale_xy*Math.cos(theta4+0.8), 
+          y4b = scale_xy*Math.sin(theta4+0.8);
+        var objet = svgdoc.getElementById("sektoro");
+        objet.setAttribute ("d", "M 0 0 L"+x4b+" "+y4b+" A "+
+          scale_xy+" "+scale_xy+" 0 0 0 "+x4a+" "+y4a+" z");
+
+        // Segmento
+        var 
+          theta5 = 4*Math.PI/5, 
+          x5a = scale_xy*Math.cos(theta5), 
+          y5a = scale_xy*Math.sin(theta5),
+          x5b = scale_xy*Math.cos(theta5+1.8), 
+          y5b = scale_xy*Math.sin(theta5+1.8);
+        var objet = svgdoc.getElementById("segmento");
+        objet.setAttribute ("d", "M "+x5b+" "+y5b+ " A "+
+          scale_xy+" "+scale_xy+" 0 0 0 "+x5a+" "+y5a+" z");
+
+      }
+    ]]></script>
+  </defs>
+
+
+  <!--
+    Radiuso
+  -->
+
+  <path id="radiuso" d="" class="streko"/>
+  <text class="nomo">
+    <textPath xlink:href="#radiuso" dy="-5" startOffset="50%">radiuso</textPath>
+  </text>
+
+  <!--
+    Diametro
+  -->
+  
+  <path id="diametro" d="" class="streko"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#diametro" dy="-6" startOffset="50%">diametro</textPath>
+  </text>
+
+  <!--
+    Arko
+  -->
+
+  <path id="arko" d="" class="streko"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#arko" dy="-5" startOffset="50%">arko</textPath>
+  </text>
+
+  <!--
+    Ŝnuro
+  -->
+
+  <path id="ŝnuro" d="" class="streko"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#ŝnuro" dy="+15" startOffset="50%">ŝnuro</textPath>
+  </text>
+
+  <!--
+    Sago
+  -->
+
+  <path id="sago" d="" class="streko"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#sago" dy="-5" startOffset="50%">sago</textPath>
+  </text>
+
+  <!--
+    Sektoro
+  -->
+
+  <path id="sektoro" d="" class="surfaco"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#sektoro" dy="-30" startOffset="50%">sektoro</textPath>
+  </text>
+
+  <!--
+    Segmento
+  -->
+
+  <path id="segmento" d="" class="surfaco" style="fill:rgb(200,200,200)"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#segmento" dy="-15" startOffset="78%">segmento</textPath>
+  </text>
+
+  <!--
+    XXX
+  -->
+
+  <!--
+    Cirklo mem
+  -->
+
+  <path id="cirklo" d="" class="kurbo"/>
+  <text class="nomo">
+    <textPath xlink:href="#cirklo" dy="-5" startOffset="45%">cirklo</textPath>
+  </text>
+
+  <!--
+    Centro
+  -->
+
+  <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+  <text x="10" y="5" class="nomo">centro</text>
+  
+</svg>

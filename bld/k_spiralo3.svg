@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Hiperbola spiralo</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        function rho(t) {
+          return 1/t;
+        }
+        
+        function path_data(f, t0, t1, nb_points, scale_xy) {
+          var d = "M "; 
+          var inc = (t1-t0)/nb_points;
+          for (var t=t0; t<=t1; t+=inc) {
+            if (!(Math.abs(f(t)*Math.cos(t)) > scale/scale_xy) &&
+              !(Math.abs(f(t)*Math.sin(t)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t)*Math.cos(t) + " " + (-scale_xy)*f(t)*Math.sin(t) 
+            }
+          }
+          return d;
+        }
+
+        var t0 = 0, t1 = 6*Math.PI;
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+
+        // Montri la aksojn
+        var objet = svgdoc.getElementById("x_akso_pinto");
+        var points = 0.95*scale + " " + (-0.015*scale) + " " + 0.999*scale + " 0 " +
+                     0.95*scale + " " + 0.015*scale; 
+        objet.setAttribute ("points",points);
+
+        var objet = svgdoc.getElementById("x_akso_indiko");
+        objet.setAttribute ("x",0.95*scale);
+        objet.setAttribute ("y",0.10*scale);
+        var objet = svgdoc.getElementById("y_akso_indiko");
+        objet.setAttribute ("x",0.05*scale);
+        objet.setAttribute ("y",-0.95*scale);
+
+        // Desegni la kurbon
+        var objet = svgdoc.getElementById("kurbo1");
+        var scale_xy = 160;
+        objet.setAttribute ("d",
+          path_data(rho, t0, t1, 1000, scale_xy)
+        );
+
+        // Tiri la asimptoton 
+        var objet = svgdoc.getElementById("asimptotoj");
+        objet.setAttribute ("d", 
+          "M " +  (-scale) + " " + (-scale_xy) + " " + " h " + 2*scale);
+ 
+      }
+    ]]></script>
+  </defs>
+
+  <!-- rect class="fenestro" x="-&scale;" y="-&scale;" width="&scale_2;" height="&scale_2;"/ -->
+
+  <!--
+    Aksoj kaj titolo
+  -->
+  
+  <g id="x_akso">
+    <path class="akso" d="M -&scale; 0 H &scale;"/>
+    <polygon id="x_akso_pinto" class="pinto" points=""/>
+    <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+  </g>
+
+  <g id="y_akso">
+    <path class="akso" d="M 0 -&scale; V &scale;"/>
+    <use xlink:href="#x_akso_pinto" transform="rotate(-90)"/> 
+    <text id="y_akso_indiko" class="akso" x="" y="">y</text>
+  </g>
+
+  <!-- circle cx="0" cy="&scale;" r="20" style="fill:white" opacity="1"/>
+  <text x="0" y="&scale;" class="komento" text-anchor="middle">Arĥimeda spiralo</text -->
+
+  <!--
+    Kurbo
+  -->
+
+  <path id="kurbo1" class="kurbo" d=""/>
+
+  <!--
+    Asimptoto
+  -->
+
+  <path id="asimptotoj" class="streketita" transform="" d=""/>
+
+</svg>

@@ -6,18 +6,16 @@
   <!ENTITY scale_half "100">
   <!ENTITY scale "200">
   <!ENTITY scale_2 "400">
-  <!ENTITY offset_1 "150">
-  <!ENTITY offset_2 "300">
 ]>
 
 <svg version="1.1" 
-  width="10cm" height="11.5cm"
-  viewBox="0 0 400 460"
+  width="10cm" height="10cm"
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   preserveAspectRatio="xMaxYMax meet"
   onload="start(evt,&scale;)">
 
-  <title>Cikloidoj</title>
+  <title>Cikloido</title>
   <desc>
   </desc>
   
@@ -62,100 +60,66 @@
         objet.setAttribute ("x",0.05*scale/2);
         objet.setAttribute ("y",-0.90*scale/2);
 
-        // Desegni la funkciojn
+        // Desegni la kurbon
         var objet = svgdoc.getElementById("kurbo1");
-        var scale_xy = 20, parm=1;
+        var scale_xy = 25, parm=1;
         objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+
+        // Elementoj de konstruo
+
+        function konstruelementoj(numero, theta) {
+
+          //  Ruliĝanta cirklo
+          var objet = svgdoc.getElementById("konstrucirklo_"+numero);
+          objet.setAttribute ("r", scale_xy*parm);
+          objet.setAttribute ("cx", scale_xy*1.5);
+          objet.setAttribute ("cy", -scale_xy*1);
+
+          //  Naskanta punkto
+          var objet = svgdoc.getElementById("naskanto_"+numero);
+          objet.setAttribute ("cx", scale_xy*xx(theta));
+          objet.setAttribute ("cy", -scale_xy*yy(theta));
+        }
         
-        var objet = svgdoc.getElementById("kurbo2");
-        var scale_xy = 20, parm=1.5;
-        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
-        
-        var objet = svgdoc.getElementById("kurbo3");
-        var scale_xy = 20, parm=0.6;
-        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        var scale_xy = 25, parm = 1;
+        konstruelementoj("1", 1.50);
  
       }
     ]]></script>
   </defs>
 
-  <svg version="1.1" 
-    width="10cm" height="5cm" 
-    viewBox="-&scale; -&scale_half; &scale_2; &scale;"
-    preserveAspectRatio="xMaxYMin slice">
-    
-    <g id="kadro">
-      <!-- rect class="fenestro" x="-&scale;" y="-&scale_half;" width="&scale_2;" height="&scale;"/ -->
-      <!--
-        Aksoj kaj titolo
-      -->
-      <g id="x_akso">
-        <path class="akso" d="M -&scale; 0 H &scale;"/>
-        <polygon id="x_akso_pinto" class="pinto" points=""/>
-        <text id="x_akso_indiko" class="akso" x="" y="">x</text>
-      </g>
-
-      <g id="y_akso">
-        <path class="akso" d="M 0 -&scale_half; V &scale_half;"/>
-        <use xlink:href="#x_akso_pinto" transform="rotate(-90) translate(-&scale_half;,0)"/> 
-        <text id="y_akso_indiko" class="akso" x="" y="">y</text>
-      </g>
-    </g>
-
-    <!--
-      Kurbo
-    -->
-
-    <path id="kurbo1" class="kurbo" d=""/>
-    <text>
-      <textPath xlink:href="#kurbo1" dy="-5" startOffset="30%">
-        <tspan class="greka">λ</tspan>=1
-      </textPath>
-    </text>
-
-    <circle cx="0" cy="&minus_epsilon;" r="20" style="fill:white" opacity="1"/>
-    <text x="0" y="&minus_epsilon;" class="komento" text-anchor="middle">Ordinara cikloido</text>
-  </svg>
-
-  <g transform="translate(0,&offset_1;)">
-    <svg version="1.1" 
-      width="10cm" height="5cm" 
-      viewBox="-&scale; -&scale_half; &scale_2; &scale;"
-      preserveAspectRatio="xMaxYMin slice">
-
-      <use xlink:href="#kadro"/>
-
-      <circle cx="0" cy="&minus_epsilon;" r="20" style="fill:white" opacity="1"/>
-      <text x="0" y="&minus_epsilon;" class="komento" text-anchor="middle">Plilongigita cikloido, troĥoido</text>
-
-      <path id="kurbo2" class="kurbo" d=""/>
-      <text>
-        <textPath xlink:href="#kurbo2" dy="-5" startOffset="30%">
-          <tspan class="greka">λ</tspan>=1.5
-        </textPath>
-      </text>
-    </svg>
+  <!--
+    Aksoj kaj titolo
+  -->
+  <g id="x_akso">
+    <path class="akso" d="M -&scale; 0 H &scale;"/>
+    <polygon id="x_akso_pinto" class="pinto" points=""/>
+    <text id="x_akso_indiko" class="akso" x="" y="">x</text>
   </g>
-   
-  <g transform="translate(0,&offset_2;)">
-    <svg version="1.1" 
-      width="10cm" height="5cm" 
-      viewBox="-&scale; -&scale_half; &scale_2; &scale;"
-      preserveAspectRatio="xMaxYMin slice">
 
-      <use xlink:href="#kadro"/>
-
-      <circle cx="0" cy="&minus_epsilon;" r="20" style="fill:white" opacity="1"/>
-      <text x="0" y="&minus_epsilon;" class="komento" text-anchor="middle">Malplilongigita cikloido</text>
-      
-      <path id="kurbo3" class="kurbo" d=""/>
-      <text>
-        <textPath xlink:href="#kurbo3" dy="-5" startOffset="30%">
-          <tspan class="greka">λ</tspan>=0.6
-        </textPath>
-      </text>
-    </svg>
+  <g id="y_akso">
+    <path class="akso" d="M 0 -&scale_half; V &scale_half;"/>
+    <use xlink:href="#x_akso_pinto" transform="rotate(-90) translate(-&scale_half;,0)"/> 
+    <text id="y_akso_indiko" class="akso" x="" y="">y</text>
   </g>
- 
+
+  <!--
+    Kurbo
+  -->
+
+  <path id="kurbo1" class="kurbo" d=""/>
+  <text class="parametro">
+    <textPath xlink:href="#kurbo1" dy="-5" startOffset="30%">
+      <tspan class="greka">λ</tspan>=1
+    </textPath>
+  </text>
+
+  <!--
+    Elementoj de konstruo
+  -->
+
+  <circle id="konstrucirklo_1" cx="0" cy="0" r="" 
+    style="fill:none; stroke-width:2" class="streketita"/>
+  <circle id="naskanto_1" cx="" cy="" r="4" class="konstrupunkto"/>
 
 </svg>

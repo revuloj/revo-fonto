@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-130 -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Hiperbolo</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+
+      function start(evt, scale) {
+
+        function rho(t) {
+          return 1/(1+parm*Math.cos(t));
+        }
+        
+        function path_data(f, t0, t1, nb_points, scale_xy) {
+          var d = "M "; 
+          var inc = (t1-t0)/nb_points;
+          for (var t=t0; t<=t1; t+=inc) {
+            if (!isNaN(f(t))) {
+              d += " " + scale_xy*f(t)*Math.cos(t) + " " + (-scale_xy)*f(t)*Math.sin(t) 
+            }
+          }
+          return d;
+        }
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+
+        // Desegni la kurbon
+        var scale_xy = 60, parm = 1.5;
+        var t0 = -Math.PI/1.5, t1 = Math.PI/1.5;
+        var objet = svgdoc.getElementById("kurbo1");
+        objet.setAttribute ("d",
+          path_data(rho, t0, t1, 1000, scale_xy)
+        );
+        var objet = svgdoc.getElementById("kurbo2");
+        objet.setAttribute ("transform", 
+          "translate("+(2*scale_xy/(parm-1/parm))+",0) rotate(-180)");
+
+        // Desegni la asimpototojn
+        var xa = scale_xy/(parm-1/parm), ya = 0;
+        var b_sur_a = Math.sqrt(parm*parm-1);
+        var objet = svgdoc.getElementById("asimptoto_1");
+        objet.setAttribute ("d", 
+          "M "+(xa-scale)+" "+(ya-scale*b_sur_a)+" L "+
+           (xa+scale)+" "+(ya+scale*b_sur_a));
+        var objet = svgdoc.getElementById("asimptoto_2");
+        objet.setAttribute ("transform", 
+          "translate("+(2*scale_xy/(parm-1/parm))+",0) scale(-1,1)");
+        
+        // Elementoj de konstruo
+        //  Fokusoj
+        var xf1 = 0, yf1 = 0, xf2 = -2/(1/parm-parm), yf2 = 0;
+        var objet = svgdoc.getElementById("fokuso_1");
+        objet.setAttribute ("cx", scale_xy*xf1);
+        objet.setAttribute ("cy", scale_xy*yf1);
+        var objet = svgdoc.getElementById("fokuso_nomo_1");
+        objet.setAttribute ("x", scale_xy*xf1*0.98);
+        objet.setAttribute ("y", scale_xy*yf1+20);
+
+        var objet = svgdoc.getElementById("fokuso_2");
+        objet.setAttribute ("cx", scale_xy*xf2);
+        objet.setAttribute ("cy", scale_xy*yf2);
+        var objet = svgdoc.getElementById("fokuso_nomo_2");
+        objet.setAttribute ("x", scale_xy*xf2*0.98);
+        objet.setAttribute ("y", scale_xy*yf2+20);
+
+        //  Kuranta punkto
+        var theta = -Math.PI/2;
+        var
+          xr = rho(theta)*Math.cos(theta), 
+          yr = rho(theta)*Math.sin(theta); 
+        var objet = svgdoc.getElementById("kuranta_punkto");
+        objet.setAttribute ("cx", scale_xy*xr);
+        objet.setAttribute ("cy", scale_xy*yr);
+        var objet = svgdoc.getElementById("kurantapunkto_nomo");
+        objet.setAttribute ("x", scale_xy*xr);
+        objet.setAttribute ("y", scale_xy*yr-20);
+
+        //  Radiusvektoroj
+        var objet = svgdoc.getElementById("radiusvektoro_1");
+        objet.setAttribute ("x1", scale_xy*xf1);
+        objet.setAttribute ("y1", scale_xy*yf1);
+        objet.setAttribute ("x2", scale_xy*xr);
+        objet.setAttribute ("y2", scale_xy*yr);
+        
+        var objet = svgdoc.getElementById("radiusvektoro_2");
+        objet.setAttribute ("x1", scale_xy*xf2);
+        objet.setAttribute ("y1", scale_xy*yf2);
+        objet.setAttribute ("x2", scale_xy*xr);
+        objet.setAttribute ("y2", scale_xy*yr);
+
+      }
+    ]]></script>
+  </defs>
+
+  <!--
+    Aksoj
+  -->
+  
+  <g id="x_akso">
+    <path d="M -&scale; 0 H &scale_2;" class="akso"/>
+  </g>
+
+
+  <!--
+    Kurbo
+  -->
+
+  <path id="kurbo1" class="kurbo" d=""/>
+  <g id="kurbo2" transform="">
+    <use xlink:href="#kurbo1"/>
+  </g>
+
+  <!--
+    Asimptotoj
+  -->
+
+  <path id="asimptoto_1" class="streketita" d=""/>
+  <g id="asimptoto_2" transform="">
+    <use xlink:href="#asimptoto_1"/>
+  </g>
+
+  <!--
+    Elementoj de konstruo
+  -->
+
+  <line id="radiusvektoro_1" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="radiusvektoro_2" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+
+  <circle id="fokuso_1" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="fokuso_nomo_1" x="" y="" class="punkto">
+    F<tspan baseline-shift="-50%" class="indico">1</tspan>
+  </text>
+  <circle id="fokuso_2" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="fokuso_nomo_2" x="" y="" class="punkto">
+    F<tspan baseline-shift="-50%" class="indico">2</tspan>
+  </text>
+
+  <circle id="kuranta_punkto" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo" x="" y="" class="punkto">M</text>
+  
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-18" y="-198" width="180" height="60" class="klarigo"/>
+
+  <text x="-10" y="-180" class="klarigo">
+    F<tspan baseline-shift="-50%" class="indico">1</tspan>,
+    F<tspan baseline-shift="-50%" class="indico">2</tspan> : fokusoj 
+  </text>
+
+  <text x="-10" y="-150" class="klarigo">
+    |MF<tspan baseline-shift="-50%" class="indico">1</tspan> - 
+    MF<tspan baseline-shift="-50%" class="indico">2</tspan>| = konstanto 
+  </text>
+
+</svg>

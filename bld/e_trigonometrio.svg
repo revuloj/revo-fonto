@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Trigonometria cirklo</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var scale_xy = 120;
+
+        // Montri la aksojn
+        var objet = svgdoc.getElementById("x_akso_pinto");
+        var points = 0.95*scale + " " + (-0.015*scale) + " " + 0.999*scale + " 0 " +
+                     0.95*scale + " " + 0.015*scale; 
+        objet.setAttribute ("points",points);
+
+        var objet = svgdoc.getElementById("x_akso_indiko");
+        objet.setAttribute ("x",0.95*scale);
+        objet.setAttribute ("y",0.10*scale);
+        var objet = svgdoc.getElementById("y_akso_indiko");
+        objet.setAttribute ("x",0.05*scale);
+        objet.setAttribute ("y",-0.95*scale);
+        
+        // Cirklo mem
+        var objet = svgdoc.getElementById("cirklo");
+        objet.setAttribute ("r", scale_xy);
+        
+        // Vertikalo kaj horizontalo
+        var objet = svgdoc.getElementById("vertikalo");
+        objet.setAttribute ("x1", scale_xy);
+        objet.setAttribute ("x2", scale_xy);
+        var objet = svgdoc.getElementById("horizontalo");
+        objet.setAttribute ("y1", -scale_xy);
+        objet.setAttribute ("y2", -scale_xy);
+        
+        // Radiuso
+        var theta1 = -Math.PI/5, x1 = 2*scale*Math.cos(theta1), y1 = 2*scale*Math.sin(theta1);
+        var objet = svgdoc.getElementById("radiusvektoro");
+        objet.setAttribute ("x2", x1);
+        objet.setAttribute ("y2", y1);
+
+       
+        // Intersekcoj
+        //  Kun la aksoj
+        var objet = svgdoc.getElementById("punkto_A");
+        objet.setAttribute ("cx", scale_xy);
+        var objet = svgdoc.getElementById("punktonomo_A");
+        objet.setAttribute ("x", scale_xy+5);
+        var objet = svgdoc.getElementById("punkto_B");
+        objet.setAttribute ("cy", -scale_xy);
+        var objet = svgdoc.getElementById("punktonomo_B");
+        objet.setAttribute ("y", -scale_xy-10);
+
+        //  Kuranta punkto kaj sektoro
+        var x2 = scale_xy*Math.cos(theta1), y2 = scale_xy*Math.sin(theta1);
+        var objet = svgdoc.getElementById("punkto_M");
+        objet.setAttribute ("cx", x2);
+        objet.setAttribute ("cy", y2);
+        var objet = svgdoc.getElementById("punktonomo_M");
+        objet.setAttribute ("x", x2-6);
+        objet.setAttribute ("y", y2-15);
+        var objet = svgdoc.getElementById("sektoro");
+        var 
+          xs2 = scale_xy/1.5,
+          ys2 = 0,
+          xs1 = xs2*Math.cos(theta1), 
+          ys1 = xs2*Math.sin(theta1);
+        objet.setAttribute ("d", 
+          "M 0 0 L "+xs1+" "+ys1+" A "+
+          xs2+" "+xs2+" 0 0 1 "+xs2+" "+ys2+" z"
+        );
+        var objet = svgdoc.getElementById("angulnomo");
+        objet.setAttribute ("x", (xs1+xs2)/2-15);
+        objet.setAttribute ("y", (ys1+ys2)/2+9);
+
+ 
+        //  Projekcioj de la kuranta punkto
+        var objet = svgdoc.getElementById("projekcio_al_x");
+        objet.setAttribute ("x1", x2);
+        objet.setAttribute ("y1", y2);
+        objet.setAttribute ("x2", x2);
+        objet.setAttribute ("y2", 0);
+        var objet = svgdoc.getElementById("projekcio_al_y");
+        objet.setAttribute ("x1", x2);
+        objet.setAttribute ("y1", y2);
+        objet.setAttribute ("x2", 0);
+        objet.setAttribute ("y2", y2);
+
+        var objet = svgdoc.getElementById("punkto_K");
+        objet.setAttribute ("cx", x2);
+        objet.setAttribute ("cy", 0);
+        var objet = svgdoc.getElementById("punktonomo_K");
+        objet.setAttribute ("x", x2);
+        objet.setAttribute ("y", 20);
+
+        var objet = svgdoc.getElementById("punkto_S");
+        objet.setAttribute ("cx", 0);
+        objet.setAttribute ("cy", y2);
+        var objet = svgdoc.getElementById("punktonomo_S");
+        objet.setAttribute ("x", -15);
+        objet.setAttribute ("y", y2);
+
+        //  De la radiusvektoro kun la vertikalo kaj horizontalo
+
+        var x3 = scale_xy, y3 = scale_xy*Math.tan(theta1);
+        var objet = svgdoc.getElementById("punkto_T");
+        objet.setAttribute ("cx", x3);
+        objet.setAttribute ("cy", y3);
+        var objet = svgdoc.getElementById("punktonomo_T");
+        objet.setAttribute ("x", x3+15);
+        objet.setAttribute ("y", y3);
+
+        var x4 = -scale_xy/Math.tan(theta1), y4 = -scale_xy;
+        var objet = svgdoc.getElementById("punkto_U");
+        objet.setAttribute ("cx", x4);
+        objet.setAttribute ("cy", y4);
+        var objet = svgdoc.getElementById("punktonomo_U");
+        objet.setAttribute ("x", x4);
+        objet.setAttribute ("y", y4-10);
+
+      }
+    ]]></script>
+  </defs>
+
+  <!--
+    Sektoro
+  -->
+
+  <path id="sektoro" d="" class="surfaco"/>
+  <text id="angulnomo" x="" y="" text-anchor="middle" class="nomo">θ</text>
+
+  <!--
+    Aksoj
+  -->
+  
+  <g id="x_akso">
+    <path class="akso" d="M -&scale; 0 H &scale;"/>
+    <polygon id="x_akso_pinto" class="pinto" points=""/>
+    <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+  </g>
+
+  <g id="y_akso">
+    <path class="akso" d="M 0 -&scale; V &scale;"/>
+    <use xlink:href="#x_akso_pinto" transform="rotate(-90)"/> 
+    <text id="y_akso_indiko" class="akso" x="" y="">y</text>
+  </g>
+
+  <!--
+    Vertikalo kaj horizontalo
+  -->
+
+  <line id="vertikalo" x1="" y1="-&scale;" x2="" y2="&scale;"
+    style="stroke-width:2" class="streketita"/>
+  <line id="horizontalo" y1="" x1="-&scale;" y2="" x2="&scale;"
+    style="stroke-width:2" class="streketita"/>
+
+  <!--
+    Radiusvektoro
+  -->
+
+  <line id="radiusvektoro" x1="0" y1="0" x2="" y2=""
+    style="stroke-width:2" class="streketita"/>
+
+  <!--
+    Cirklo
+  -->
+
+  <circle id="cirklo" x="0" y="0" r="" class="kurbo"/>
+
+  <!--
+    Centro kaj aksaj punktoj
+  -->
+
+  <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+  <text x="-15" y="20" class="punkto">O</text>
+  <circle id="punkto_A" cx="" cy="0" r="4" class="konstrupunkto"/>
+  <text id="punktonomo_A" x="" y="20" class="punkto">A</text>
+  <circle id="punkto_B" cx="0" cy="" r="4" class="konstrupunkto"/>
+  <text id="punktonomo_B" x="-15" y="" class="punkto">B</text>
+
+  <!--
+    Aliaj intersekcopunktoj
+  -->
+
+  <line id="projekcio_al_x" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+  <line id="projekcio_al_y" x1="" y1="" x2="" y2=""
+    style="stroke-width:2" class="streketita"/>
+
+  <circle id="punkto_M" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="punktonomo_M" x="" y="" class="punkto">M</text>
+  <circle id="punkto_K" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="punktonomo_K" x="" y="" class="punkto">K</text>
+  <circle id="punkto_S" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="punktonomo_S" x="" y="" class="punkto">S</text>
+
+  <circle id="punkto_T" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="punktonomo_T" x="" y="" class="punkto">T</text>
+  <circle id="punkto_U" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="punktonomo_U" x="" y="" class="punkto">U</text>
+
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-198" y="-198" width="130" height="90" class="klarigo" style="fill-opacity: 0.8" />
+  <text x="-190" y="-180" class="klarigo">OK/OM = cos θ</text>
+  <text x="-190" y="-160" class="klarigo">OS/OM = sin θ</text>
+  <text x="-190" y="-140" class="klarigo">AT/OM = tg θ</text>
+  <text x="-190" y="-120" class="klarigo">BU/OM = cotg θ</text>
+  
+</svg>

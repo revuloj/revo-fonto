@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax"
+  onload="start(evt)">
+
+  <title>Medianoj de triangulo</title>
+  <desc>
+    Figuras triangulon kun ĝiaj medianoj, kies intersekco estas
+    la pezocentro
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt) {
+      }
+    ]]></script>
+  </defs>
+
+  
+  <!-- 
+    Medianoj 
+  -->
+  <line x1="1090.4" y1="-128" x2="-385.6" y2="380.8"
+    style="stroke-width:2" class="streketita"/>
+  <line x1="30.4" y1="236.8" x2="309.6" y2="140.8" class="streko"/>
+  <text x="358.4" y="105" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>
+  </text>
+
+  <line x1="1089.6" y1="578.4" x2="-326.4" y2="-78.4"
+    style="stroke-width:2" class="streketita"/>
+  <line x1="264.8" y1="44.8" x2="192" y2="236.8" class="streko"/>
+  <text x="104" y="108" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>
+  </text>
+
+  <line x1="487.2" y1="-548.8" x2="-61.6" y2="912.8"
+    style="stroke-width:2" class="streketita"/>
+  <line x1="354.4" y1="236.8" x2="147.2" y2="140.8" class="streko"/>
+  <text x="184" y="296.8" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">C</tspan>
+  </text>
+ 
+  <!--
+    Pezocentro
+  -->
+  <circle cx="215" cy="173" r="4" class="konstrupunkto"/>
+  <text x="220" y="195" class="punkto">O</text>
+
+  <!-- 
+    Triangulo
+  -->
+  <polygon points="30.4 236.8 354.4 236.8 264.8 44.8" class="kurbo"/>
+  <text x="16.8" y="255" class="nomo">A</text>
+  <text x="355" y="255" class="nomo">B</text>
+  <text x="278.4" y="46.4" class="nomo">C</text>
+  
+  <!--
+    Mezoj de la lateroj
+  -->
+  <circle cx="309.6" cy="140.8" r="4" class="konstrupunkto"/>
+  <text x="323.2" y="152.8" class="punkto">A&apos;</text>
+  <circle cx="192" cy="236.8" r="4" class="konstrupunkto"/>
+  <text x="197.6" y="255" class="punkto">C&apos;</text>
+  <circle cx="147.2" cy="140.8" r="4" class="konstrupunkto"/>
+  <text x="140.8" y="124.8" class="punkto">B&apos;</text>
+  
+  <!--
+    Klarigo
+  -->
+  <rect x="2" y="2" width="210" height="83" class="klarigo"/>
+  <text x="8" y="20" class="klarigo">
+      A&apos;, B&apos;, C&apos; : mezoj
+  </text>
+  <text x="8" y="45" class="klarigo">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">C</tspan> :
+      medianoj
+  </text>
+  <text x="8" y="70" class="klarigo">
+      O : pezocentro de la triangulo
+  </text>
+</svg>
+

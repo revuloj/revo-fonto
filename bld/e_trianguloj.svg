@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY offset_1 "200">
+  <!ENTITY offset_2 "400">
+]>
+
+<svg version="1.1" 
+  width="15cm" height="10cm" 
+  viewBox="0 0 600 400"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Trianguloj</title>
+  <desc>
+    Diversaj specoj de trianguloj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var x1 = -60, y1 = 60, x2 = -x1, y2 = y1;
+
+        function triangulo(numero, x3, y3, komento) {
+          
+          // Lateroj
+          var objet = svgdoc.getElementById("lateroj_"+numero);
+          objet.setAttribute ("d", 
+            "M "+x1+" "+y1+" L "+x2+" "+y2+" "+x3+" "+y3+" z"
+          );
+          
+          // Komento
+          var objet = svgdoc.getElementById("komento_"+numero);
+          objet.setAttribute ("y", y1+20); 
+          var objet_komento = svgdoc.createTextNode(komento);
+          objet.appendChild(objet_komento);
+        }
+
+        triangulo("1", -30, -50, "skalena");
+        triangulo("2", 0, -90, "izocela");
+        triangulo("3", 0, -(x2-x1)*Math.cos(Math.PI/3), "egallatera");
+
+        triangulo("4", -30, -70, "akutangula");
+        triangulo("5", x1-30, -70, "obtuzangula");
+        triangulo("6", x1, -70, "ortangula");
+        
+      }
+    ]]></script>
+  </defs>
+
+  <g transform="translate(0,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="lateroj_1" d="" class="kurbo"/>
+      <text id="komento_1" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="lateroj_2" d="" class="kurbo"/>
+      <text id="komento_2" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="lateroj_3" d="" class="kurbo"/>
+      <text id="komento_3" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(0,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="lateroj_4" d="" class="kurbo"/>
+      <text id="komento_4" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="lateroj_5" d="" class="kurbo"/>
+      <text id="komento_5" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="lateroj_6" d="" class="kurbo"/>
+      <text id="komento_6" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+</svg>

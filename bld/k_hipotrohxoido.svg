@@ -14,7 +14,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
 
-  <title>Epicikloidoj</title>
+  <title>Hipotroĥoidoj</title>
   <desc/>
   
   <defs>
@@ -22,11 +22,11 @@
       function start(evt, scale) {
 
         function xx(t) {
-          return (1+parm)*Math.cos(t)-Math.cos((1+parm)*t);
+          return (1+parm1)*Math.cos(t)-parm2*Math.cos((1+parm1)*t);
         }
         
         function yy(t) {
-          return (1+parm)*Math.sin(t)-Math.sin((1+parm)*t);
+          return (1+parm1)*Math.sin(t)-parm2*Math.sin((1+parm1)*t);
         }
         
         function path_data(f, g, t0, t1, nb_points, scale_xy) {
@@ -60,10 +60,10 @@
 
         // Desegni la kurbojn
         var objet = svgdoc.getElementById("kurbo1");
-        var scale_xy = 35, parm = 3;
+        var scale_xy = 35, parm1 = -5, parm2 = 1.5 ;
         objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
         var objet = svgdoc.getElementById("kurbo2");
-        var scale_xy = 35, parm = 1/2;
+        var scale_xy = 35, parm1 = -4, parm2 = 0.8;
         objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
 
         
@@ -72,12 +72,16 @@
         function konstruelementoj(numero, theta1, theta2) {
           //  Ĉefa cirklo
           var objet = svgdoc.getElementById("konstrucirklo_"+numero+"a");
-          objet.setAttribute ("r", parm*scale_xy);
+          objet.setAttribute ("r", Math.abs(parm1)*scale_xy);
 
           //  Ruliĝanta cirklo
-          var xr = (parm+1)*Math.cos(theta1), yr=(parm+1)*Math.sin(theta1); 
+          var xr = (parm1+1)*Math.cos(theta1), yr=(parm1+1)*Math.sin(theta1); 
           var objet = svgdoc.getElementById("konstrucirklo_"+numero+"b");
           objet.setAttribute ("r", scale_xy);
+          objet.setAttribute ("cx", scale_xy*xr);
+          objet.setAttribute ("cy", scale_xy*yr);
+          var objet = svgdoc.getElementById("konstrucirklo_"+numero+"c");
+          objet.setAttribute ("r", scale_xy*parm2);
           objet.setAttribute ("cx", scale_xy*xr);
           objet.setAttribute ("cy", scale_xy*yr);
           var objet = svgdoc.getElementById("centro_konstrucirklo_"+numero+"b");
@@ -102,11 +106,11 @@
           objet.setAttribute ("cy", scale_xy*yy(theta2));
         }
         
-        var scale_xy = 35, parm = 3;
+        var scale_xy = 35, parm1 = -5, parm2 = 1.5 ;
         konstruelementoj("1", -Math.PI/4, -Math.PI/4);
         
-        var scale_xy = 35, parm = 0.5;
-        konstruelementoj("2", -3*Math.PI/4, -3*Math.PI/4);
+        var scale_xy = 35, parm1 = -4, parm2 = 0.8;
+        konstruelementoj("2", -5*Math.PI/6, -5*Math.PI/6);
   
       }
     ]]></script>
@@ -117,6 +121,7 @@
     viewBox="-&scale; -&scale; &scale_2; &scale_2;">
     
     <g id="kadro">
+      <!-- rect class="fenestro" x="-&scale;" y="-&scale;" width="&scale_2;" height="&scale_2;"/ -->
       <!--
         Aksoj kaj titolo
       -->
@@ -139,8 +144,9 @@
 
     <path id="kurbo1" class="kurbo" d=""/>
     <text class="parametro">
-      <textPath xlink:href="#kurbo1" dy="-5" startOffset="40%">
-        <tspan style="font-style: italic">m</tspan> = 3
+      <textPath xlink:href="#kurbo1" dy="-5" startOffset="63.1%">
+        <tspan style="font-style: italic">m</tspan> = 5,
+        <tspan class="greka">λ</tspan> = 1,5
       </textPath>
     </text>
 
@@ -151,6 +157,8 @@
     <circle id="konstrucirklo_1a" cx="0" cy="0" r="" 
       style="fill:none; stroke-width:2" class="streketita"/>
     <circle id="konstrucirklo_1b" cx="" cy="" r="" 
+      style="fill:none; stroke-width:2" class="streketita"/>
+    <circle id="konstrucirklo_1c" cx="" cy="" r="" 
       style="fill:none; stroke-width:2" class="streketita"/>
 
     <line id="intercentra_streko_1" x1="0" y1="0" x2="" y2="" 
@@ -173,8 +181,9 @@
 
       <path id="kurbo2" class="kurbo" d=""/>
       <text class="parametro">
-        <textPath xlink:href="#kurbo2" dy="-5" startOffset="85%">
-          <tspan style="font-style: italic">m</tspan> = 0,5
+        <textPath xlink:href="#kurbo2" dy="-5" startOffset="53%">
+          <tspan style="font-style: italic">m</tspan> = 4,
+          <tspan class="greka">λ</tspan> = 0,8
         </textPath>
       </text>
 
@@ -185,6 +194,8 @@
       <circle id="konstrucirklo_2a" cx="0" cy="0" r="" 
         style="fill:none; stroke-width:2" class="streketita"/>
       <circle id="konstrucirklo_2b" cx="" cy="" r="" 
+        style="fill:none; stroke-width:2" class="streketita"/>
+      <circle id="konstrucirklo_2c" cx="" cy="" r="" 
         style="fill:none; stroke-width:2" class="streketita"/>
 
       <line id="intercentra_streko_2" x1="0" y1="0" x2="" y2="" 

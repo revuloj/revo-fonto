@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY scale_4 "400">
+  <!ENTITY offset_1 "200">
+  <!ENTITY offset_2 "400">
+  <!ENTITY offset_3 "600">
+]>
+
+<svg version="1.1" 
+  width="20cm" height="10cm" 
+  viewBox="0 0 800 400"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Kvarlateroj</title>
+  <desc>
+    Diversaj specoj de kvarlateroj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var x1 = -60, y1 = 75, x2 = -x1, y2 = y1;
+
+        function kvarlatero(numero, x3, y3, x4, y4, komento, theta) {
+          
+          // Lateroj
+          var objet = svgdoc.getElementById("lateroj_"+numero);
+          objet.setAttribute ("points", 
+            x1+" "+y1+" "+x2+" "+y2+" "+x3+" "+y3+" "+x4+" "+y4
+          );
+          var objet = svgdoc.getElementById("diagonaloj_"+numero);
+          if (objet) {
+            objet.setAttribute ("d", 
+               "M "+x1+" "+y1+" L "+x3+" "+y3+
+              " M "+x4+" "+y4+" L "+x2+" "+y2
+            );
+          }
+          var objet = svgdoc.getElementById("orto_"+numero);
+          if (objet) {
+            var xi=(x2+x4)/2, yi=(y2+y4)/2;
+            objet.setAttribute ("transform", 
+              "translate("+xi+","+yi+") rotate("+theta+")"
+            );
+          }
+          
+          // Komento
+          if (komento) {
+            var objet = svgdoc.getElementById("komento_"+numero);
+            objet.setAttribute ("y", y1+20); 
+            var objet_komento = svgdoc.createTextNode(komento);
+            objet.appendChild(objet_komento);
+          }
+        }
+
+        var 
+         theta = -Math.PI/2.5,
+         stheta = Math.sin(theta),
+         ctheta = Math.cos(theta);
+        kvarlatero("1", x2, y2-160, x1, y1-160, "ortangulo");
+        kvarlatero("2", x2, y2-120, x1, y1-120, "kvadrato", -45);
+        kvarlatero("3", 
+          x1+(x2-x1)*ctheta-(y2-y1)*stheta+(x2-x1),
+          y1+(x2-x1)*stheta-(y2-y1)*stheta,
+          x1+(x2-x1)*ctheta-(y2-y1)*stheta,
+          y1+(x2-x1)*stheta-(y2-y1)*stheta,
+          "rombo", -35);
+
+        kvarlatero("4", x2-30, y2-150, x1-30, y1-150, "paralelogramo");
+        kvarlatero("5", x2-45, y2-140, x1+15, y1-140, "trapezo");
+        var 
+         theta1 = -Math.PI/3,
+         stheta1 = Math.sin(theta1),
+         ctheta1 = Math.cos(theta1),
+         theta2 = theta1/2,
+         stheta2 = Math.sin(theta2),
+         ctheta2 = Math.cos(theta2);
+        kvarlatero("6",
+          x1+1.3*((x2-x1)*ctheta2-(y2-y1)*stheta2),
+          y1+1.3*((x2-x1)*stheta2-(y2-y1)*stheta2),
+          x1+(x2-x1)*ctheta1-(y2-y1)*stheta1,
+          y1+(x2-x1)*stheta1-(y2-y1)*stheta1,
+          "deltoido", -30);
+        
+        kvarlatero("0", 30, -90, -110, -50,  "");
+        
+      }
+    ]]></script>
+  </defs>
+
+  <g transform="translate(0,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_1" points="" class="kurbo"/>
+      <text id="komento_1" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g display="none">
+    <path id="orto" d="M 20 0 A 20 20 0 0 0 0 -20 M 5 -5 L 5 -7 7 -7 7 -5 5 -5" 
+      style="stroke:magenta"/>
+  </g>
+
+  <g transform="translate(&offset_1;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="diagonaloj_2" d="" class="streketita"/>
+      <use id="orto_2" xlink:href="#orto" transform=""/>
+      <polygon id="lateroj_2" points="" class="kurbo"/>
+      <text id="komento_2" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <path id="diagonaloj_3" d="" class="streketita"/>
+      <use id="orto_3" xlink:href="#orto" transform=""/>
+      <polygon id="lateroj_3" points="" class="kurbo"/>
+      <text id="komento_3" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(0,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_4" points="" class="kurbo"/>
+      <text id="komento_4" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <polygon id="lateroj_5" points="" class="kurbo"/>
+      <text id="komento_5" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_1;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <g transform="translate(-20,-20) rotate(-60)">
+        <path id="diagonaloj_6" d="" class="streketita"/>
+        <use id="orto_6" xlink:href="#orto" transform=""/>
+        <polygon id="lateroj_6" points="" class="kurbo"/>
+      </g>
+      <text id="komento_6" x="0" y="" text-anchor="middle" class="nomo"/>
+
+    </svg>
+  </g>
+
+
+  <g transform="translate(&offset_3;,0)">
+    <svg version="1.1" 
+      width="5cm" height="10cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_4;">
+
+      <line x1="-99" y1="-90" x2="-99" y2="300" stroke="black"/>
+      <g display="none">
+        <polygon id="pinto" points="0 0 -8 -3 -8 +3" style="fill:magenta"/>
+      </g>
+
+      <!--
+        Kvarlateroj
+      -->
+      <g transform="translate(20,-60) scale(0.4,0.4)">
+        <polygon id="lateroj_0" points="" class="kurbo"/>
+        <text x="-20" y="10" text-anchor="middle" style="font-size:24">Kvarlateroj</text>
+      </g>
+      <line x1="15" y1="-25" x2="-30" y2="10" class="streketita"/>
+      <g transform="translate(-30,10) rotate(145)">
+        <use xlink:href="#pinto"/>
+      </g>
+      <line x1="15" y1="-25" x2="60" y2="60" class="streketita"/>
+      <g transform="translate(60,60) rotate(55)">
+        <use xlink:href="#pinto"/>
+      </g>
+
+      <!--
+        Trapezoj
+      -->
+      <g transform="translate(-50,0) scale(0.4,0.4)">
+        <use xlink:href="#lateroj_5"/>
+        <text x="-5" y="40" text-anchor="middle" style="font-size:24">Trapezoj</text>
+      </g>
+      <line x1="-50" y1="30" x2="-50" y2="55" class="streketita"/>
+      <g transform="translate(-50,55) rotate(90)">
+        <use xlink:href="#pinto"/>
+      </g>
+      
+      <!--
+        Paralelogramoj kaj deltoidoj
+      -->
+      <g transform="translate(-50,90) scale(0.4,0.4)">
+        <use xlink:href="#lateroj_4"/>
+        <text x="0" y="20" text-anchor="middle" style="font-size:24">Paralelogramoj</text>
+      </g>
+      <line x1="-50" y1="125" x2="-50" y2="150" class="streketita"/>
+      <g transform="translate(-50,150) rotate(90)">
+        <use xlink:href="#pinto"/>
+      </g>
+      <line x1="-45" y1="125" x2="30" y2="170" class="streketita"/>
+      <g transform="translate(30,170) rotate(35)">
+        <use xlink:href="#pinto"/>
+      </g>
+      
+      <g transform="translate(70,90) scale(0.4,0.4) translate(-20,-20) rotate(-60)">
+        <use xlink:href="#lateroj_6"/>
+      </g>
+      <g transform="translate(70,90) scale(0.4,0.4)">
+        <text x="12" y="-20" text-anchor="middle" style="font-size:24">Deltoidoj</text>
+      </g>
+      <line x1="70" y1="125" x2="35" y2="170" class="streketita"/>
+      <g transform="translate(35,170) rotate(130)">
+        <use xlink:href="#pinto"/>
+      </g>
+
+      <!--
+        Ortanguloj kaj romboj
+      -->
+      <g transform="translate(-50,190) scale(0.4,0.4)">
+        <use xlink:href="#lateroj_1"/>
+        <text x="0" y="20" text-anchor="middle" style="font-size:24">Ortanguloj</text>
+      </g>
+      <line x1="-50" y1="225" x2="15" y2="250" class="streketita"/>
+      <g transform="translate(15,250) rotate(25)">
+        <use xlink:href="#pinto"/>
+      </g>
+      <g transform="translate(20,190) scale(0.4,0.4)">
+        <use xlink:href="#lateroj_3"/>
+        <text x="20" y="20" text-anchor="middle" style="font-size:24">Romboj</text>
+      </g>
+      <line x1="22" y1="225" x2="22" y2="250" class="streketita"/>
+      <g transform="translate(22,250) rotate(90)">
+        <use xlink:href="#pinto"/>
+      </g>
+      
+      <!--
+        Kvadratoj
+      -->
+      <g transform="translate(20,270) scale(0.4,0.4)">
+        <use xlink:href="#lateroj_2"/>
+        <text x="0" y="20" text-anchor="middle" style="font-size:24">Kvadratoj</text>
+      </g>
+
+      <text x="0" y="0" transform="translate(-85,300) rotate(-90)" class="nomo">Klasifiko de kvarlateroj</text>
+
+    </svg>
+  </g>
+
+</svg>

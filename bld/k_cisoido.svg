@@ -19,27 +19,25 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function xx(t) {
-          return t*t/(1+t*t);
+        function rho(t) {
+          return Math.pow(Math.sin(t),2)/Math.cos(t);
         }
         
-        function yy(t) {
-          return Math.pow(t,3)/(1+t*t);
-        }
-        
-        function path_data(f, g, t0, t1, nb_points, scale_xy) {
+        function path_data(f, t0, t1, nb_points, scale_xy) {
           var d = "M "; 
           var inc = (t1-t0)/nb_points;
           for (var t=t0; t<=t1; t+=inc) {
-            if (!(Math.abs(f(t)) > scale/scale_xy) &&
-              !(Math.abs(g(t)) > scale/scale_xy)) {
-              d += " " + scale_xy*f(t) + " " + (-scale_xy)*g(t) 
+            if (!isNaN(f(t)) &&
+              (f(t) >= 0) &&
+              !(Math.abs(f(t)*Math.cos(t)) > scale/scale_xy) &&
+              !(Math.abs(f(t)*Math.sin(t)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t)*Math.cos(t) + " " + (-scale_xy)*f(t)*Math.sin(t) 
             }
           }
           return d;
         }
 
-        var t0 = -500, t1 = 500;
+        var t0 = -Math.PI/2, t1 = Math.PI/2;
 
         var svgdoc = evt.getTarget().getOwnerDocument();
 
@@ -56,19 +54,62 @@
         objet.setAttribute ("x",0.05*scale);
         objet.setAttribute ("y",-0.95*scale);
 
-        // Desegni la funkciojn
+        // Desegni la kurbon
         var objet = svgdoc.getElementById("kurbo1");
         var scale_xy = 120;
-        objet.setAttribute ("d",
-          path_data(xx, yy, t0, -2, 1000, scale_xy)+
-          path_data(xx, yy, -2, 2, 1000, scale_xy)+
-          path_data(xx, yy, 2, t1, 1000, scale_xy)
-        );
- 
-        // Tiri la asimptotojn de tangento
+        objet.setAttribute ("d", path_data(rho, t0, t1, 1000, scale_xy));
+
+        // Tiri la asimptoton 
         var objet = svgdoc.getElementById("asimptotoj");
         objet.setAttribute ("d", 
           "M " +  scale_xy + " " + -scale + " v " + 2*scale);
+        
+        // Elementoj de konstruo
+        //  Cirklo
+        var objet = svgdoc.getElementById("konstrucirklo");
+        objet.setAttribute ("r", scale_xy*0.5);
+        objet.setAttribute ("cx", scale_xy*0.5);
+        objet.setAttribute ("cy", 0);
+        
+        //  Intersekco kun la asimptoto
+        var theta = -Math.PI/4-0.1;
+        var xB = 1, yB = Math.tan(theta);
+        var objet = svgdoc.getElementById("intersekco_1");
+        objet.setAttribute ("cx", scale_xy*xB);
+        objet.setAttribute ("cy", scale_xy*yB);
+        var objet = svgdoc.getElementById("intersekco_nomo_1");
+        objet.setAttribute ("x", scale_xy*xB+10);
+        objet.setAttribute ("y", scale_xy*yB);
+        
+        //  Intersekco kun la cirklo
+        var 
+          xC = Math.cos(theta)*Math.cos(theta), 
+          yC = Math.cos(theta)*Math.sin(theta);
+        var objet = svgdoc.getElementById("intersekco_2");
+        objet.setAttribute ("cx", scale_xy*xC);
+        objet.setAttribute ("cy", scale_xy*yC);
+        var objet = svgdoc.getElementById("intersekco_nomo_2");
+        objet.setAttribute ("x", scale_xy*xC-20);
+        objet.setAttribute ("y", scale_xy*yC);
+        
+        //  Kuranta punkto
+        var
+          xr1 = rho(theta)*Math.cos(theta), 
+          yr1 = rho(theta)*Math.sin(theta); 
+        var objet = svgdoc.getElementById("kuranta_punkto");
+        objet.setAttribute ("cx", scale_xy*xr1);
+        objet.setAttribute ("cy", scale_xy*yr1);
+        var objet = svgdoc.getElementById("kurantapunkto_nomo");
+        objet.setAttribute ("x", scale_xy*xr1+10);
+        objet.setAttribute ("y", scale_xy*yr1);
+
+        //  Radiusvektoro
+        var objet = svgdoc.getElementById("radiusvektoro");
+        objet.setAttribute ("x1", 0);
+        objet.setAttribute ("y1", 0);
+        objet.setAttribute ("x2", scale_xy*xB);
+        objet.setAttribute ("y2", scale_xy*yB);
+        
       }
     ]]></script>
   </defs>
@@ -92,11 +133,6 @@
   </g>
 
   <!--
-  <circle cx="0" cy="&scale;" r="20" style="fill:white" opacity="1"/>
-  <text x="0" y="&scale;" class="komento" text-anchor="middle">Cisoido</text>
-  -->
-
-  <!--
     Kurbo
   -->
 
@@ -108,5 +144,34 @@
 
   <path id="asimptotoj" class="streketita" transform="" d=""/>
 
+  <!--
+    Elementoj de konstruo
+  -->
 
+  <circle id="konstrucirklo" cx="" cy="" r="" 
+    style="fill:none; stroke-width:2" class="streketita"/>
+
+  <line id="radiusvektoro" x1="" y1="" x2="" y2="" 
+    style="stroke-width:2" class="streketita"/>
+
+  <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+  <text x="-15" y="30" class="punkto">O</text>
+  
+  <circle id="intersekco_1" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="intersekco_nomo_1" x="" y="" class="punkto">B</text>
+  <circle id="intersekco_2" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="intersekco_nomo_2" x="" y="" class="punkto">C</text>
+
+  <circle id="kuranta_punkto" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="kurantapunkto_nomo" x="" y="" class="punkto">M</text>
+
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-198" y="-198" width="85" height="30" class="klarigo"/>
+
+  <text x="-190" y="-180" class="klarigo">
+    OM = CB
+  </text>
 </svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax">
+
+  <title>Altoj de triangulo</title>
+  <desc>
+    Figuras triangulon kun ĝiaj altoj, kies intersekco estas
+    la ortocentro
+  </desc>
+  
+  <defs>
+  </defs>
+
+  <!-- 
+    Altoj
+  -->
+
+  <line x1="1129.6" y1="-148" x2="-400.8" y2="388" class="streketita"/>
+  <line x1="30.4" y1="236.8" x2="319.2" y2="136" class="streko"/>
+  <text x="328" y="115" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>
+  </text>
+
+  <line x1="-132" y1="-372" x2="880.8" y2="894.4" class="streketita"/>
+  <line x1="354.4" y1="236.8" x2="228" y2="78.4" class="streko"/>
+  <text x="224" y="55" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>
+  </text>
+
+  <line x1="283.2" y1="1047.2" x2="283.2" y2="-574.4" class="streketita"/>
+  <line x1="283.2" y1="33.6" x2="283.2" y2="236.8" class="streko"/>
+  <text x="256" y="256" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">C</tspan>
+  </text>
+
+  <!--
+    Anguloj
+  -->
+  <path d="M 209.6 93.6 A 24 24 0 0 0 243.2 96.8" style="stroke:black"/>
+  <path d="M 225.6 89.6 H 227.2 V 91.2 H 225.6 Z" style="stroke:black"/>
+  <path d="M 307.2 236.8 A 24 24 0 0 0 283.2 212.8" style="stroke:black"/>
+  <path d="M 291.2 227.2 H 292.8 V 228.8 H 291.2 Z" style="stroke:black"/>
+  <path d="M 311.2 113.6 A 24 24 0 0 0 296.8 144" style="stroke:black"/>
+  <path d="M 307.2 129.6 H 308.8 V 131.2 H 307.2 Z" style="stroke:black"/>
+
+  <!--
+    Ortocentro
+  -->
+  <circle cx="283.2" cy="148.8" r="4" class="konstrupunkto"/>
+  <text x="265" y="170" class="punkto">O</text>
+
+  <!-- 
+    Triangulo
+  -->
+  <polygon points="30.4,236.8 354.4,236.8 283.2,33.6" class="kurbo"/>
+  <text x="16.8" y="251.2" class="nomo">A</text>
+  <text x="368" y="254.4" class="nomo">B</text>
+  <text x="288" y="16" class="nomo">C</text>
+
+  <!--
+    Klarigo
+  -->
+
+  <rect x="2" y="2" width="120" height="60" class="klarigo"/>
+  <text x="10" y="20" class="klarigo">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">C</tspan> :
+      altoj
+  </text>
+  <text x="10" y="45" class="klarigo">
+      O : ortocentro
+  </text>
+</svg>
+

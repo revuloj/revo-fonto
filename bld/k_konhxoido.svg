@@ -23,11 +23,11 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function rho1(t) {
+        function rho2(t) {
           return 1/Math.cos(t)+parm;
         }
         
-        function rho2(t) {
+        function rho1(t) {
           return 1/Math.cos(t)-parm;
         }
         
@@ -80,7 +80,59 @@
           path_data(rho1, t0, t1, 1000, scale_xy) + 
           path_data(rho2, t0, t1, 1000, scale_xy)
         );
- 
+
+        // Elementoj de konstruo
+
+        function konstruelementoj(numero, theta) {
+          //  Naskantaj punktoj kaj ilia mezo
+          var x1 = rho1(theta)*Math.cos(theta), y1 = rho1(theta)*Math.sin(theta);
+          var objet = svgdoc.getElementById("naskanto_"+numero+"a");
+          objet.setAttribute ("cx", scale_xy*x1);
+          objet.setAttribute ("cy", scale_xy*y1);
+          var objet = svgdoc.getElementById("naskanto_nomo_"+numero+"a");
+          objet.setAttribute ("x", scale_xy*x1-20);
+          objet.setAttribute ("y", scale_xy*y1-15);
+          
+          var x2 = rho2(theta)*Math.cos(theta), y2 = rho2(theta)*Math.sin(theta);
+          var objet = svgdoc.getElementById("naskanto_"+numero+"b");
+          objet.setAttribute ("cx", scale_xy*x2);
+          objet.setAttribute ("cy", scale_xy*y2);
+          var objet = svgdoc.getElementById("naskanto_nomo_"+numero+"b");
+          objet.setAttribute ("x", scale_xy*x2+10);
+          objet.setAttribute ("y", scale_xy*y2-15);
+
+          var x3 = (x1+x2)/2, y3 = (y1+y2)/2;
+          var objet = svgdoc.getElementById("mezo_"+numero);
+          objet.setAttribute ("cx", scale_xy*x3);
+          objet.setAttribute ("cy", scale_xy*y3);
+          var objet = svgdoc.getElementById("mezo_nomo_"+numero);
+          objet.setAttribute ("x", scale_xy*x3+2);
+          objet.setAttribute ("y", scale_xy*y3-15);
+
+          //  Radiusvektoro de la naskanta punkto
+          if (numero != 3) {
+            var objet = svgdoc.getElementById("radiusvektoro_"+numero+"");
+            objet.setAttribute ("x2", scale_xy*x2);
+            objet.setAttribute ("y2", scale_xy*y2);
+          } else {
+            var objet = svgdoc.getElementById("radiusvektoro_"+numero+"");
+            objet.setAttribute ("x1", scale_xy*x1);
+            objet.setAttribute ("y1", scale_xy*y1);
+            objet.setAttribute ("x2", scale_xy*x2);
+            objet.setAttribute ("y2", scale_xy*y2);
+          }
+          
+        }
+        
+        scale_xy = 70; parm = 0.5;
+        konstruelementoj("1", -Math.PI/4);
+        
+        scale_xy = 70; parm = 1;
+        konstruelementoj("2", -Math.PI/4-0.2);
+        
+        scale_xy = 70; parm = 1.5;
+        konstruelementoj("3", Math.PI/6-0.2);
+        
         // Tiri la asimptotojn 
         var objet = svgdoc.getElementById("asimptotoj");
         objet.setAttribute ("d", 
@@ -112,6 +164,8 @@
         <text id="y_akso_indiko" class="akso" x="" y="">y</text>
       </g>
 
+      <text x="-15" y="25" class="punkto">O</text>
+
       <!--
         Asimptotoj
       -->
@@ -124,11 +178,49 @@
     -->
 
     <path id="kurbo1" class="kurbo" d=""/>
-    <text>
-      <textPath xlink:href="#kurbo1" dy="-5" startOffset="26.5%">
-        <tspan style="font-style: italic">l</tspan>=0.5
+    <text class="parametro">
+      <textPath xlink:href="#kurbo1" dy="-5" startOffset="76.5%">
+        <tspan style="font-style: italic">l</tspan> = 0,5
       </textPath>
     </text>
+
+    <!--
+      Elementoj de konstruo
+    -->
+
+    <line id="radiusvektoro_1" x1="0" y1="0" x2="" y2="" 
+      style="stroke-width:2" class="streketita"/>
+
+    <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+    <circle id="naskanto_1a" cx="" cy="" r="4" class="konstrupunkto"/>
+    <circle id="naskanto_1b" cx="" cy="" r="4" class="konstrupunkto"/>
+    <circle id="mezo_1" cx="" cy="" r="4" class="konstrupunkto"/>
+    <text id="naskanto_nomo_1a" x="" y="" class="punkto">
+      M<tspan baseline-shift="-50%" class="indico">1</tspan>
+    </text>
+    <text id="naskanto_nomo_1b" x="" y="" class="punkto">
+      M<tspan baseline-shift="-50%" class="indico">2</tspan>
+    </text>
+    <text id="mezo_nomo_1" x="" y="" class="punkto">N</text>
+
+    <!--
+      Klarigo
+    -->
+
+    <g transform="translate(-70,-10) rotate(-90)">
+      <rect x="0" y="0" width="175" height="50" class="klarigo"/>
+      <text x="10" y="18" class="klarigo">
+        M<tspan baseline-shift="-50%" class="indico">1</tspan>N = 
+        M<tspan baseline-shift="-50%" class="indico">2</tspan>N = 
+        <tspan style="font-style: italic">l</tspan>
+      </text>
+      <text x="10" y="40" class="klarigo">
+        O, M<tspan baseline-shift="-50%" class="indico">1</tspan>, 
+        M<tspan baseline-shift="-50%" class="indico">2</tspan>, N
+        samrektaj
+      </text>
+    </g>
+
   </svg>
 
   <g transform="translate(&offset_1;,0)">
@@ -143,11 +235,30 @@
       <text x="0" y="&scale;" class="komento" text-anchor="begin">Konĥoido de rekto</text -->
 
       <path id="kurbo2" class="kurbo" d=""/>
-      <text>
-        <textPath xlink:href="#kurbo2" dy="-5" startOffset="26%">
-          <tspan style="font-style: italic">l</tspan>=1
+      <text class="parametro">
+        <textPath xlink:href="#kurbo2" dy="-5" startOffset="77%">
+          <tspan style="font-style: italic">l</tspan> = 1
         </textPath>
       </text>
+
+      <!--
+        Elementoj de konstruo
+      -->
+
+      <line id="radiusvektoro_2" x1="0" y1="0" x2="" y2="" 
+        style="stroke-width:2" class="streketita"/>
+
+      <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+      <circle id="naskanto_2a" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="naskanto_2b" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="mezo_2" cx="" cy="" r="4" class="konstrupunkto"/>
+      <text id="naskanto_nomo_2a" x="" y="" class="punkto">
+        M<tspan baseline-shift="-50%" class="indico">1</tspan>
+      </text>
+      <text id="naskanto_nomo_2b" x="" y="" class="punkto">
+        M<tspan baseline-shift="-50%" class="indico">2</tspan>
+      </text>
+      <text id="mezo_nomo_2" x="" y="" class="punkto">N</text>
     </svg>
   </g>
    
@@ -160,11 +271,30 @@
       <use xlink:href="#kadro"/>
 
       <path id="kurbo3" class="kurbo" d=""/>
-      <text>
-        <textPath xlink:href="#kurbo3" dy="-5" startOffset="24%">
-          <tspan style="font-style: italic">l</tspan>=1.4
+      <text class="parametro">
+        <textPath xlink:href="#kurbo3" dy="-5" startOffset="78.5%">
+          <tspan style="font-style: italic">l</tspan> = 1,5
         </textPath>
       </text>
+
+      <!--
+        Elementoj de konstruo
+      -->
+
+      <line id="radiusvektoro_3" x1="0" y1="0" x2="" y2="" 
+        style="stroke-width:2" class="streketita"/>
+
+      <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+      <circle id="naskanto_3a" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="naskanto_3b" cx="" cy="" r="4" class="konstrupunkto"/>
+      <circle id="mezo_3" cx="" cy="" r="4" class="konstrupunkto"/>
+      <text id="naskanto_nomo_3a" x="" y="" class="punkto">
+        M<tspan baseline-shift="-50%" class="indico">1</tspan>
+      </text>
+      <text id="naskanto_nomo_3b" x="" y="" class="punkto">
+        M<tspan baseline-shift="-50%" class="indico">2</tspan>
+      </text>
+      <text id="mezo_nomo_3" x="" y="" class="punkto">N</text>
     </svg>
   </g>
  

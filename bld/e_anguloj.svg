@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY offset_0y "-30">
+  <!ENTITY offset_1y "40">
+  <!ENTITY offset_1 "200">
+  <!ENTITY offset_2 "400">
+  <!ENTITY offset_3 "600">
+]>
+
+<svg version="1.1" 
+  width="20cm" height="5cm" 
+  viewBox="0 0 800 200"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Anguloj</title>
+  <desc>
+    Diversaj specoj de anguloj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var scale_xy = 80;
+
+        // Koordinatoj de la ĉefaj punktoj
+
+        function angulo(numero, theta, sektoro, komento) {
+          var xv = scale_xy*0 , yv = scale_xy*0;
+          var xl1 = scale_xy*Math.cos(theta), yl1 = scale_xy*Math.sin(theta);
+          var xl2 = scale_xy, yl2 = scale_xy*0;
+          
+          // Vertico
+          var objet = svgdoc.getElementById("vertico_"+numero);
+          objet.setAttribute ("cx", xv); 
+          objet.setAttribute ("cy", yv); 
+          
+          // Lateroj
+          var objet = svgdoc.getElementById("lateroj_"+numero);
+          objet.setAttribute ("d", 
+            "M "+xv+" "+yv+" L "+xl1+" "+yl1+" "+
+            "M "+xv+" "+yv+" L "+xl2+" "+yl2
+          );
+          
+          // Sektoro
+          var objet = svgdoc.getElementById("sektoro_"+numero);
+          objet.setAttribute ("d", 
+            "M "+xv+" "+yv+" L "+xl2/2+" "+yl2/2+" A "+
+            scale_xy/2+" "+scale_xy/2+" 0 "+sektoro+" "+xl1/2+" "+yl1/2+" z"
+          );
+
+          // Komento
+          var objet = svgdoc.getElementById("komento_"+numero);
+          var objet_komento = svgdoc.createTextNode(komento);
+          objet.appendChild(objet_komento);
+        }
+
+        angulo("1", 0, "0 0", "nula");
+        angulo("2", -Math.PI/6, "0 0", "akuta");
+        angulo("3", -Math.PI/2, "0 0", "orta");
+        angulo("4", -Math.PI/1.5, "0 0", "obtuza");
+        angulo("5", -Math.PI, "0 0", "streĉita");
+        angulo("6", -1.4*Math.PI, "1 0", "konkava");
+        angulo("7", 2*Math.PI, "1 1", "plena");
+        
+      }
+    ]]></script>
+  </defs>
+
+  <g transform="translate(0,&offset_0y;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Sektoro
+      -->
+
+      <path id="sektoro_1" d="" class="surfaco"/>
+
+      <!--
+        Lateroj
+      -->
+
+      <path id="lateroj_1" d="" class="kurbo"/>
+      <text text-anchor="middle" class="nomo">
+        <textPath id="komento_1" xlink:href="#lateroj_1" dy="25" startOffset="75%"> </textPath>
+      </text>
+
+      <!--
+        Vertico
+      -->
+
+      <circle id="vertico_1" cx="" cy="" r="4" class="konstrupunkto"/>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_0y;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Sektoro
+      -->
+
+      <path id="sektoro_2" d="" class="surfaco"/>
+
+      <!--
+        Lateroj
+      -->
+
+      <path id="lateroj_2" d="" class="kurbo"/>
+      <text text-anchor="middle" class="nomo">
+        <textPath id="komento_2" xlink:href="#lateroj_2" dy="25" startOffset="75%"> </textPath>
+      </text>
+
+      <!--
+        Vertico
+      -->
+
+      <circle id="vertico_2" cx="" cy="" r="4" class="konstrupunkto"/>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_0y;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Sektoro
+      -->
+
+      <path id="sektoro_3" d="" class="surfaco"/>
+
+      <!--
+        Lateroj
+      -->
+
+      <path id="lateroj_3" d="" class="kurbo"/>
+      <text text-anchor="middle" class="nomo">
+        <textPath id="komento_3" xlink:href="#lateroj_3" dy="25" startOffset="75%"> </textPath>
+      </text>
+
+      <!--
+        Vertico
+      -->
+
+      <circle id="vertico_3" cx="" cy="" r="4" class="konstrupunkto"/>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_3;,&offset_0y;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Sektoro
+      -->
+
+      <path id="sektoro_4" d="" class="surfaco"/>
+
+      <!--
+        Lateroj
+      -->
+
+      <path id="lateroj_4" d="" class="kurbo"/>
+      <text text-anchor="middle" class="nomo">
+        <textPath id="komento_4" xlink:href="#lateroj_4" dy="25" startOffset="75%"> </textPath>
+      </text>
+
+      <!--
+        Vertico
+      -->
+
+      <circle id="vertico_4" cx="" cy="" r="4" class="konstrupunkto"/>
+    </svg>
+  </g>
+
+  <g transform="translate(0,&offset_1y;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Sektoro
+      -->
+
+      <path id="sektoro_5" d="" class="surfaco"/>
+
+      <!--
+        Lateroj
+      -->
+
+      <path id="lateroj_5" d="" class="kurbo"/>
+      <text text-anchor="middle" class="nomo">
+        <textPath id="komento_5" xlink:href="#lateroj_5" dy="25" startOffset="75%"> </textPath>
+      </text>
+
+      <!--
+        Vertico
+      -->
+
+      <circle id="vertico_5" cx="" cy="" r="4" class="konstrupunkto"/>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,&offset_1y;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Sektoro
+      -->
+
+      <path id="sektoro_6" d="" class="surfaco"/>
+
+      <!--
+        Lateroj
+      -->
+
+      <path id="lateroj_6" d="" class="kurbo"/>
+      <text text-anchor="middle" class="nomo">
+        <textPath id="komento_6" xlink:href="#lateroj_6" dy="25" startOffset="75%"> </textPath>
+      </text>
+
+      <!--
+        Vertico
+      -->
+
+      <circle id="vertico_6" cx="" cy="" r="4" class="konstrupunkto"/>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_2;,&offset_1y;)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <!--
+        Sektoro
+      -->
+
+      <path id="sektoro_7" d="" class="surfaco"/>
+
+      <!--
+        Lateroj
+      -->
+
+      <path id="lateroj_7" d="" class="kurbo"/>
+      <text text-anchor="middle" class="nomo">
+        <textPath id="komento_7" xlink:href="#lateroj_7" dy="25" startOffset="75%"> </textPath>
+      </text>
+
+      <!--
+        Vertico
+      -->
+
+      <circle id="vertico_7" cx="" cy="" r="4" class="konstrupunkto"/>
+    </svg>
+  </g>
+
+</svg>

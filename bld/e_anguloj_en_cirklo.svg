@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Anguloj en cirklo</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+        
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var scale_xy = 150;
+        var sekrad = scale_xy/3;
+
+        function sektoro(xv, yv, x1, y1, alpha) {
+          var 
+            d = Math.sqrt((x1-xv)*(x1-xv)+(y1-yv)*(y1-yv)),
+            xs1 = xv+sekrad*(x1-xv)/d,
+            ys1 = yv+sekrad*(y1-yv)/d,
+            xs2 = xv+(xs1-xv)*Math.cos(alpha)-(ys1-yv)*Math.sin(alpha),
+            ys2 = yv+(xs1-xv)*Math.sin(alpha)+(ys1-yv)*Math.cos(alpha);
+          return "M "+xv+" "+yv+" L "+xs1+" "+ys1+
+          " A "+sekrad+" "+sekrad+" 0 0 0 "+xs2+" "+ys2+" z"
+        }
+        
+        // Cirklo mem
+        var objet = svgdoc.getElementById("cirklo");
+        objet.setAttribute ("r", scale_xy); 
+        
+        // Ekstremoj de la substreĉita arko
+        var theta1 = +Math.PI/5, x1 = scale_xy*Math.cos(theta1), y1 = scale_xy*Math.sin(theta1);
+        var theta2 = -Math.PI/4, x2 = scale_xy*Math.cos(theta2), y2 = scale_xy*Math.sin(theta2);
+        var objet = svgdoc.getElementById("arko_komenco");
+        objet.setAttribute ("cx", x1);
+        objet.setAttribute ("cy", y1);
+        var objet = svgdoc.getElementById("arko_fino");
+        objet.setAttribute ("cx", x2);
+        objet.setAttribute ("cy", y2);
+
+        // Centra angulo
+        var objet = svgdoc.getElementById("lateroj_1");
+        objet.setAttribute ("d",
+          "M "+x2+" "+y2+" L 0 0 "+x1+" "+y1
+        ); 
+        var objet = svgdoc.getElementById("sektoro_1");
+        objet.setAttribute ("d",
+          sektoro(0, 0, x1, y1, (theta2-theta1))
+        ); 
+        var objet = svgdoc.getElementById("angulnomo_1");
+        objet.setAttribute ("x", 40);
+        objet.setAttribute ("y", 0);
+
+        // Cirkonferenca angulo
+        var theta3 = -Math.PI/0.9, x3 = scale_xy*Math.cos(theta3), y3 = scale_xy*Math.sin(theta3);
+        var objet = svgdoc.getElementById("vertico_2");
+        objet.setAttribute ("cx", x3);
+        objet.setAttribute ("cy", y3);
+        var objet = svgdoc.getElementById("lateroj_2");
+        objet.setAttribute ("d",
+          "M "+x2+" "+y2+" L "+x3+" "+y3+" "+x1+" "+y1
+        ); 
+        var objet = svgdoc.getElementById("sektoro_2");
+        objet.setAttribute ("d",
+          sektoro(x3, y3, x1, y1, (theta2-theta1)/2)
+        ); 
+        var objet = svgdoc.getElementById("angulnomo_2");
+        objet.setAttribute ("x", x3+40);
+        objet.setAttribute ("y", y3-5);
+
+      }
+    ]]></script>
+  </defs>
+ 
+  <!--
+    Cirklo 
+  -->
+
+  <circle id="cirklo" x="0" y="0" r="" class="kurbo"/>
+  
+  <!--
+    Centra angulo
+  -->
+
+  <path id="sektoro_1" d="" class="surfaco"/>
+  <text id="angulnomo_1" x="" y="" text-anchor="middle" class="nomo">α</text>
+  <path id="lateroj_1" d="" class="kurbo"/>
+  <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+
+  <!--
+    Cirkonferenca angulo
+  -->
+
+  <path id="sektoro_2" d="" class="surfaco"/>
+  <text id="angulnomo_2" x="" y="" text-anchor="middle" class="nomo">β</text>
+  <path id="lateroj_2" d="" class="kurbo"/>
+  <circle id="vertico_2" cx="" cy="" r="4" class="konstrupunkto"/>
+
+  <!--
+    Ekstremoj de la substreĉita arko
+  -->
+
+  <circle id="arko_komenco" cx="" cy="" r="4" class="konstrupunkto"/>
+  <circle id="arko_fino" cx="" cy="" r="4" class="konstrupunkto"/>
+ 
+  <!--
+    Klarigo
+  -->
+
+  <rect x="-198" y="-198" width="180" height="70" class="klarigo" style="fill-opacity: 0.8" />
+  <text x="-190" y="-180" class="klarigo">α : centra angulo</text>
+  <text x="-190" y="-160" class="klarigo">β : cirkonferenca angulo</text>
+  <text x="-190" y="-140" class="klarigo">α = 2.β</text>
+ </svg>

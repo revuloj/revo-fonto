@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="-80 -&scale; &scale_2; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Angulo</title>
+  <desc>
+    Angulo kaj ties konsistigaj partoj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+        var scale_xy = 300;
+
+        // Koordinatoj de la ĉefaj punktoj
+
+        var xv = scale_xy*0 , yv = scale_xy*0;
+        var theta1 = -Math.PI/5, theta2 = Math.PI/9;
+        var xl1 = scale_xy*Math.cos(theta1), yl1 = scale_xy*Math.sin(theta1);
+        var xl2 = scale_xy*Math.cos(theta2), yl2 = scale_xy*Math.sin(theta2);
+        
+        // Vertico
+        var objet = svgdoc.getElementById("vertico");
+        objet.setAttribute ("cx", xv); 
+        objet.setAttribute ("cy", yv); 
+        var objet = svgdoc.getElementById("vertico_nomo");
+        objet.setAttribute ("x", xv-60);
+        objet.setAttribute ("y", yv); 
+        
+        // Lateroj
+        var 
+          xd = scale_xy*Math.cos((theta2+theta1)/2), 
+          yd = scale_xy*Math.sin((theta1+theta2)/2); 
+        var objet = svgdoc.getElementById("lateroj");
+        objet.setAttribute ("d", 
+          "M "+xv+" "+yv+" L "+xl1+" "+yl1+" "+
+          "M "+xv+" "+yv+" L "+xl2+" "+yl2
+        );
+        
+        // Dusekcanto
+        var objet = svgdoc.getElementById("dusekcanto");
+        objet.setAttribute ("d", 
+          "M "+(-xd)+" "+(-yd)+" L "+xd+" "+yd
+        );
+         
+        // Sektoro
+        var objet = svgdoc.getElementById("sektoro");
+        objet.setAttribute ("d", 
+          "M "+xv+" "+yv+" L "+xl2/3+" "+yl2/3+" A "+
+          scale_xy/3+" "+scale_xy/3+" 0 0 0 "+xl1/3+" "+yl1/3+" z"
+        );
+        
+
+      }
+    ]]></script>
+  </defs>
+
+  <!--
+    Sektoro
+  -->
+
+  <path id="sektoro" d="" class="surfaco"/>
+
+
+  <!--
+    Lateroj
+  -->
+
+  <path id="lateroj" d="" class="kurbo"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#lateroj" dy="-5" startOffset="25%">dua latero</textPath>
+  </text>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#lateroj" dy="-5" startOffset="75%">unua latero</textPath>
+  </text>
+
+  <!--
+    Duskecanto
+  -->
+  
+  <path id="dusekcanto" d="" class="streketita"/>
+  <text text-anchor="middle" class="nomo">
+    <textPath xlink:href="#dusekcanto" dy="-5" startOffset="80%">dusekcanto</textPath>
+  </text>
+  
+  <!--
+    Vertico
+  -->
+
+  <circle id="vertico" cx="" cy="" r="4" class="konstrupunkto"/>
+  <text id="vertico_nomo" x="" y="" class="nomo">vertico</text>
+  
+</svg>

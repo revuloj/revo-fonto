@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" 
+  width="10cm" height="10cm" 
+  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax"
+  onload="start(evt)">
+
+  <title>Mezortantoj de triangulo</title>
+  <desc>
+    Figuras triangulon kun ĝiaj mezortantoj, kies intersekco estas
+    la centro de la ĉirkaŭskribita cirklo
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt) {
+      }
+    ]]></script>
+  </defs>
+
+   
+  <!-- 
+    Mezortantoj 
+  -->
+  <line x1="1085.6" y1="-223.2" x2="-383.2" y2="464.8" 
+    style="stroke-width:2" class="streketita"/>
+  <text x="358.4" y="129" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>
+  </text>
+
+  <line x1="-216" y1="-302.4" x2="812.8" y2="950.4" 
+    style="stroke-width:2" class="streketita"/>
+  <text x="104" y="120" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>
+  </text>
+
+  <line x1="192" y1="1047.2" x2="192" y2="-574.4" 
+    style="stroke-width:2" class="streketita"/>
+  <text x="195" y="280" class="nomo">
+      r<tspan baseline-shift="-50%" class="indico">C</tspan>
+  </text>
+
+  <!--
+    Ĉirkaŭskribita cirklo
+  -->
+  <circle cx="192" cy="195.2" r="167.2" 
+    style="fill:none; stroke-width:2" class="streketita"/>
+  <text x="64" y="336" class="nomo">ĈC</text>
+  <circle cx="192" cy="195.2" r="4" class="konstrupunkto"/>
+  <text x="176.8" y="193.6" class="punkto">O</text>
+
+  <!-- 
+    Triangulo
+  -->
+  <polygon points="30.4 236.8 354.4 236.8 264.8 44.8" class="kurbo"/>
+  <text x="16.8" y="251.2" class="nomo">A</text>
+  <text x="362.4" y="254.4" class="nomo">B</text>
+  <text x="278.4" y="46.4" class="nomo">C</text>
+
+  <!--
+    Mezoj de la lateroj
+  -->
+  <circle cx="309.6" cy="140.8" r="4" class="konstrupunkto"/>
+  <text x="323.2" y="152.8" class="punkto">A&apos;</text>
+  <circle cx="192" cy="236.8" r="4" class="konstrupunkto"/>
+  <text x="197.6" y="248.8" class="punkto">C&apos;</text>
+  <circle cx="147.2" cy="140.8" r="4" class="konstrupunkto"/>
+  <text x="140.8" y="124.8" class="punkto">B&apos;</text>
+  
+  <!--
+    Anguloj
+  -->
+  <path d="M 216 236.8 A 24 24 0 0 0 192 212.8" style="stroke:black"/>
+  <path d="M 200 227.2 H 201.6 V 228.8 H 200 Z" style="stroke:black"/>
+  <path d="M 299.2 119.2 A 24 24 0 0 0 288 151.2" style="stroke:black"/>
+  <path d="M 297.6 136 H 299.2 V 137.6 H 297.6 Z" style="stroke:black"/>
+  <path d="M 128.8 156 A 24 24 0 0 0 162.4 159.2" style="stroke:black"/>
+  <path d="M 145.6 152 H 147.2 V 153.6 H 145.6 Z" style="stroke:black"/>
+  
+  <!--
+    Klarigo
+  -->
+  <rect x="2" y="2" width="175" height="105"
+    class="klarigo" style="fill-opacity: 0.8"/>
+  <text x="10" y="20" class="klarigo">
+      A&apos;, B&apos;, C&apos; : mezoj
+  </text>
+  <text x="10" y="45" class="klarigo">
+      r<tspan baseline-shift="-50%" class="indico">A</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">B</tspan>, 
+      r<tspan baseline-shift="-50%" class="indico">C</tspan> :
+      mezortantoj
+  </text>
+  <text x="10" y="70" class="klarigo">
+      ĈC : ĉirkaŭskribita cirklo
+  </text>
+  <text x="10" y="95" class="klarigo">
+      O : centro de ĈC
+  </text>
+</svg>
+

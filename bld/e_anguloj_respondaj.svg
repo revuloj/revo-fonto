@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "100">
+  <!ENTITY scale_2 "200">
+  <!ENTITY offset_1 "200">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="5cm" 
+  viewBox="0 0 400 200"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Anguloj respondaj</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+      }
+    ]]></script>
+  </defs>
+
+
+  <g transform="translate(0,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <g transform="translate(40, -40)">
+        <path id="sektoro_9a" d="M 0 0 L 40 0 A 40 40 0 0 1 28.28 28.28" class="surfaco"/>
+      </g>
+      <g transform="translate(40, -40)">
+        <path id="sektoro_9b" d="M 0 0 L -40 0 A 40 40 0 0 0 28.28 28.28" class="surfaco"/>
+      </g>
+      <text x="50" y="-20" text-anchor="middle" class="nomo">β</text>
+      <text x="10" y="-20" text-anchor="middle" class="nomo">α</text>
+
+      <g transform="translate(-40, 40)">
+        <use xlink:href="#sektoro_9a"/>
+        <use xlink:href="#sektoro_9b"/>
+      </g>
+      <text x="-70" y="60" text-anchor="middle" class="nomo">α&#8242;</text>
+      <text x="-30" y="60" text-anchor="middle" class="nomo">β&#8242;</text>
+
+      <path d="M -100 -40 h 200" class="kurbo"/>
+      <path d="M -100 40 h 200" class="kurbo"/>
+      <path d="M 80 -80 L -80 80" class="kurbo"/>
+      <text x="30" y="80" text-anchor="middle" class="nomo">(sube) respondaj</text>
+    </svg>
+  </g>
+
+  <g transform="translate(&offset_1;,0)">
+    <svg version="1.1" 
+      width="5cm" height="5cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <g transform="translate(40, -40)">
+        <path id="sektoro_10a" d="M 0 0 L 40 0 A 40 40 0 0 0 28.28 -28.28" class="surfaco"/>
+      </g>
+      <g transform="translate(40, -40)">
+        <path id="sektoro_10b" d="M 0 0 L -40 0 A 40 40 0 0 1 28.28 -28.28" class="surfaco"/>
+      </g>
+      <text x="70" y="-50" text-anchor="middle" class="nomo">γ</text>
+      <text x="30" y="-50" text-anchor="middle" class="nomo">δ</text>
+
+      <g transform="translate(-40, 40)">
+        <use xlink:href="#sektoro_10a"/>
+        <use xlink:href="#sektoro_10b"/>
+      </g>
+      <text x="-50" y="30" text-anchor="middle" class="nomo">δ&#8242;</text>
+      <text x="-10" y="30" text-anchor="middle" class="nomo">γ&#8242;</text>
+
+      <path d="M -100 -40 h 200" class="kurbo"/>
+      <path d="M -100 40 h 200" class="kurbo"/>
+      <path d="M 80 -80 L -80 80" class="kurbo"/>
+      <text x="30" y="80" text-anchor="middle" class="nomo">(supre) respondaj</text>
+    </svg>
+  </g>
+
+</svg>

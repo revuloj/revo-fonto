@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 <svg version="1.1" 
-  width="500" height="350" 
-  viewBox="0 0 500 350" preserveAspectRatio="xMaxYMax">
+  width="10cm" height="10cm" 
+  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax">
 
   <title>Dusekcantoj de triangulo</title>
   <desc>
@@ -13,109 +14,98 @@
   </desc>
   
   <defs>
-    <style type="text/css">
-      <![CDATA[
-        text {font-family: 'Arial'; font-size: 15; font-weight: bold}
-        line {stroke: black; stroke-width:2}
-        circle {stroke: black; stroke-width:2}
-        path {stroke: black;fill:none}
-        polygon {stroke: black;fill:none; stroke-width:2}
-        .greka {font-family: 'Lucida Sans Unicode'; font-size: 16}
-        .indico {vertical-align: sub; font-size:smaller; font-weight: normal}
-        line.streketita {stroke:lightsalmon;stroke-dasharray:5,2}
-        text.cirklo {fill: darkgreen}
-        circle.cirklo {stroke: darkgreen; fill:none}
-      ]]>
-    </style>
   </defs>
-
-  <g id="Triangulo">
-    <!-- 
-      Triangulo
-    -->
-    <polygon points="38,296 443,296 354,42"/>
-
-    <text x="21" y="314">A</text>
-    <text x="453" y="318">B</text>
-    <text x="371" y="44">C</text>
-  </g>
 
   <!-- 
     Dusekcantoj 
   -->
-  <line x1="-501" y1="485" x2="1412" y2="-186" class="streketita"/>
-  <text x="432" y="146">
+  <line x1="-400.8" y1="388" x2="1129.6" y2="-148.8"
+    style="stroke-width:2" class="streketita"/>
+  <text x="335" y="110" class="nomo">
       r<tspan baseline-shift="-50%" class="indico">A</tspan>
   </text>
 
-  <line x1="1312" y1="912" x2="-341" y2="-261" class="streketita"/>
-  <text x="196" y="116">
+  <line x1="1049.6" y1="729.6" x2="-272.8" y2="-208.8"
+    style="stroke-width:2" class="streketita"/>
+  <text x="150" y="115" class="nomo">
       r<tspan baseline-shift="-50%" class="indico">B</tspan>
   </text>
 
-  <line x1="579" y1="-738" x2="19" y2="1210" class="streketita"/>
-  <text x="293" y="320">
+  <line x1="463.2" y1="-590.4" x2="15.2" y2="968"
+    style="stroke-width:2" class="streketita"/>
+  <text x="234.4" y="256" class="nomo">
       r<tspan baseline-shift="-50%" class="indico">C</tspan>
   </text>
 
   <!--
     Anguloj
   -->
-  <path d="M 66 286 A 30 30 0 0 0 61 277"/>
-  <text x="95" y="260">
+  <path d="M 52.8 228.8 A 24 24 0 0 0 48.8 221.6" style="stroke:black"/>
+  <text x="80" y="208" class="nomo">
    <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">1</tspan>
   </text>
-  <path d="M 68 296 A 30 30 0 0 0 66 286"/>
-  <text x="100" y="285">
+  <path d="M 54.4 236.8 A 24 24 0 0 0 52.8 228.8" style="stroke:black"/>
+  <text x="85" y="228" class="nomo">
     <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
   </text>
-  <path d="M 419 279 A 30 30 0 0 0 413 296"/>
-  <text x="392" y="288">
+  <path d="M 335.2 223.2 A 24 24 0 0 0 330.4 236.8" style="stroke:black"/>
+  <text x="310" y="228" class="nomo">
     <tspan class="greka">β</tspan><tspan baseline-shift="-50%" class="indico">1</tspan>
   </text>
-  <path d="M 433 268 A 30 30 0 0 0 419 279"/>
-  <text x="407" y="264">
+  <path d="M 346.4 214.4 A 24 24 0 0 0 335.2 223.2" style="stroke:black"/>
+  <text x="320" y="210" class="nomo">
     <tspan class="greka">β</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
   </text>
-  <path d="M 346 71 A 30 30 0 0 0 364 70"/>
-  <text x="348" y="89">
+  <path d="M 276.8 56.8 A 24 24 0 0 0 291.2 56" style="stroke:black"/>
+  <text x="278.4" y="75" class="nomo">
     <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">1</tspan>
   </text>
-  <path d="M 331 61 A 30 30 0 0 0 346 71"/>
-  <text x="323" y="82">
+  <path d="M 264.8 48.8 A 24 24 0 0 0 276.8 56.8" style="stroke:black"/>
+  <text x="255" y="70" class="nomo">
     <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
   </text>
 
   <!--
     Enskribita cirklo
   -->
-  <circle cx="309" cy="201" r="95" class="cirklo"/>
-  <text x="310" y="220" class="cirklo">O</text>
-  <text x="225" y="213" class="cirklo">EC</text>
+  <circle cx="247.2" cy="160.8" r="76" 
+    style="fill:none; stroke-width:2" class="streketita"/>
+  <text x="180" y="170.4" class="nomo">EC</text>
+  <circle cx="247.2" cy="160.8" r="4" class="konstrupunkto"/>
+  <text x="248" y="176" class="punkto">O</text>
 
-  <!--
-    Komento
+  <!-- 
+    Triangulo
   -->
-  <text x="17" y="67">
+  <polygon points="30.4,236.8 354.4,236.8 283.2,33.6" class="kurbo"/>
+  <text x="16.8" y="260" class="nomo">A</text>
+  <text x="355" y="260" class="nomo">B</text>
+  <text x="296.8" y="35.2" class="nomo">C</text>
+  
+  <!--
+    Klarigo
+  -->
+  <rect x="2" y="2" width="180" height="100"
+    class="klarigo" style="fill-opacity: 0.8"/>
+  <text x="10" y="20" class="klarigo">
       <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">1</tspan> = 
-      <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
-  </text>
-  <text x="17" y="91">
+      <tspan class="greka">α</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>,
       <tspan class="greka">ß</tspan><tspan baseline-shift="-50%" class="indico">1</tspan> = 
-      <tspan class="greka">ß</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
-  </text>
-  <text x="17" y="115">
+      <tspan class="greka">ß</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>,
       <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">1</tspan> = 
       <tspan class="greka">γ</tspan><tspan baseline-shift="-50%" class="indico">2</tspan>
   </text>
-  <text x="17" y="139">
+  <text x="10" y="45" class="klarigo">
       r<tspan baseline-shift="-50%" class="indico">A</tspan>, 
       r<tspan baseline-shift="-50%" class="indico">B</tspan>, 
       r<tspan baseline-shift="-50%" class="indico">C</tspan> :
       dusekcantoj
   </text>
-  <text x="17" y="163">
+  <text x="10" y="70" class="klarigo">
       EC : enskribita cirklo
+  </text>
+  <text x="10" y="95" class="klarigo">
+      O : centro de EC
   </text>
 </svg>
 

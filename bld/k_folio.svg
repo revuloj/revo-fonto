@@ -7,7 +7,7 @@
 ]>
 
 <svg version="1.1" 
-  width="5cm" height="5cm" 
+  width="10cm" height="10cm" 
   viewBox="-&scale; -&scale; &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -61,11 +61,11 @@
         var scale_xy = 90;
         objet.setAttribute ("d",
           path_data(xx, yy, t0, -1, 2000, scale_xy)+
-          path_data(xx, yy, -1, 0, 1000, scale_xy)+
-          path_data(xx, yy, 0, 1, 1000, scale_xy)+
-          path_data(xx, yy, 1, 2, 1000, scale_xy)+
-          path_data(xx, yy, 2, 3, 1000, scale_xy)+
-          path_data(xx, yy, 3, t1, 1000, scale_xy)
+          path_data(xx, yy, -1, 0, 400, scale_xy)+
+          path_data(xx, yy, 0, 1, 400, scale_xy)+
+          path_data(xx, yy, 1, 2, 400, scale_xy)+
+          path_data(xx, yy, 2, 3, 400, scale_xy)+
+          path_data(xx, yy, 3, t1, 400, scale_xy)
         );
  
         // Tiri la asimptotojn de tangento

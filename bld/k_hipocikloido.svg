@@ -77,6 +77,9 @@
           objet.setAttribute ("r", scale_xy);
           objet.setAttribute ("cx", scale_xy*xr);
           objet.setAttribute ("cy", scale_xy*yr);
+          var objet = svgdoc.getElementById("centro_konstrucirklo_"+numero+"b");
+          objet.setAttribute ("cx", scale_xy*xr);
+          objet.setAttribute ("cy", scale_xy*yr);
 
           //  Streko liganta la centrojn
           var objet = svgdoc.getElementById("intercentra_streko_"+numero+"");
@@ -97,10 +100,10 @@
         }
         
         var parm = -3, scale_xy = 60;
-        konstruelementoj("1", 2*Math.PI/5, 2*Math.PI/5+0.04);
+        konstruelementoj("1", 2*Math.PI/5, 2*Math.PI/5);
         
         var parm = -4, scale_xy = 45;
-        konstruelementoj("2", Math.PI+0.10, Math.PI+0.05);
+        konstruelementoj("2", Math.PI+0.30, Math.PI+0.30);
   
       }
     ]]></script>
@@ -133,9 +136,9 @@
     -->
 
     <path id="kurbo1" class="kurbo" d=""/>
-    <text>
+    <text class="parametro">
       <textPath xlink:href="#kurbo1" dy="-5" startOffset="11%">
-        <tspan style="font-style: italic">m</tspan>=3
+        <tspan style="font-style: italic">m</tspan> = 3
       </textPath>
     </text>
 
@@ -145,14 +148,18 @@
 
     <circle id="konstrucirklo_1a" cx="0" cy="0" r="" 
       style="fill:none; stroke-width:2" class="streketita"/>
-    <circle id="konstrucirklo_1b" cx="0" cy="0" r="" 
+    <circle id="konstrucirklo_1b" cx="" cy="" r="" 
       style="fill:none; stroke-width:2" class="streketita"/>
+
     <line id="intercentra_streko_1" x1="0" y1="0" x2="" y2="" 
       style="stroke-width:2" class="streketita"/>
     <line id="naskantoradiuso_1" x1="" y1="" x2="" y2="" 
       style="stroke-width:2" class="streketita"/>
-    <circle id="naskanto_1" cx="" cy="" r="4"/>
-   
+
+    <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+    <circle id="centro_konstrucirklo_1b" cx="0" cy="0" r="4" class="konstrupunkto"/>
+    <circle id="naskanto_1" cx="" cy="" r="4" class="konstrupunkto"/>
+    
   </svg>
 
   <g transform="translate(&offset_1;,0)">
@@ -163,9 +170,9 @@
       <use xlink:href="#kadro"/>
 
       <path id="kurbo2" class="kurbo" d=""/>
-      <text>
+      <text class="parametro">
         <textPath xlink:href="#kurbo2" dy="-5" startOffset="16%">
-          <tspan style="font-style: italic">m</tspan>=4
+          <tspan style="font-style: italic">m</tspan> = 4
         </textPath>
       </text>
 
@@ -175,14 +182,18 @@
 
       <circle id="konstrucirklo_2a" cx="0" cy="0" r="" 
         style="fill:none; stroke-width:2" class="streketita"/>
-      <circle id="konstrucirklo_2b" cx="0" cy="0" r="" 
+      <circle id="konstrucirklo_2b" cx="" cy="" r="" 
         style="fill:none; stroke-width:2" class="streketita"/>
+
       <line id="intercentra_streko_2" x1="0" y1="0" x2="" y2="" 
         style="stroke-width:2" class="streketita"/>
       <line id="naskantoradiuso_2" x1="" y1="" x2="" y2="" 
         style="stroke-width:2" class="streketita"/>
-      <circle id="naskanto_2" cx="" cy="" r="4"/>
-  
+
+      <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
+      <circle id="centro_konstrucirklo_2b" cx="0" cy="0" r="4" class="konstrupunkto"/>
+      <circle id="naskanto_2" cx="" cy="" r="4" class="konstrupunkto"/>
+     
     </svg>
   </g>
  
