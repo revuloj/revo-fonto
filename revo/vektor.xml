@@ -1,52 +1,76 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-    <art mrk="$Id$">
-      <kap>
-        <rad>vektor</rad>/o
-      </kap>
-      <drv mrk="vektor.0o">
-        <kap><tld/>o</kap>
-        <snc mrk="vektor.0o.MAT">
-          <uzo tip="fak">MAT</uzo>
-          <dif>
-            <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> de
-            <ref tip="malprt" cel="modul.0o.strukt">modulo</ref> a&ubreve;
-            <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>.
-          </dif>
-        </snc>
-        <snc mrk="vektor.0o.FIZ">
-          <uzo tip="fak">FIZ</uzo>
-          <dif>
-            Fizika grando, difinita per sia intenseco kaj direkto;
-            la <tld/>o <sncref ref="vektor.0o.MAT"/> (en la kutima
-            tri- a&ubreve; kvar-dimensia spaco) &gcirc;in reprezentanta:
-            <ekz>rapido-<tld/>o;</ekz> <ekz>ondo-vektoro.</ekz>
-          </dif>
-          <ref tip="ant" cel="skalar.0o.FIZ">skalaro.</ref>
-       </snc>
-       <snc mrk="vektor.0o.KOMP">
-         <uzo tip="fak">KOMP</uzo>
-         <dif>
-           Unudimensia <ref cel="tabel.0o.KOMP">tabelo</ref>.
-         </dif>
-         <ref tip="sub" cel="cxen.0o.KOMP">&ccirc;eno</ref>
-         <rim>
-           Iuj programlingvoj disponigas kaj <tld/>ojn, kaj
-           <ref cel="op.0o.vico">opojn</ref>; tiuj
-           lastaj, tamen, povas enteni diverstipajn anojn.
-         </rim>
-        </snc>
-        <trd lng="de">Vektor</trd>
-        <trd lng="en">vector</trd>
-        <trd lng="fr">vecteur</trd>
-        <trd lng="nl">vector</trd>
-    <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
-        <trd lng="sv">vektor</trd>
-      </drv>
-    </art>
+<art mrk="$Id$">
+<kap>
+<rad>vektor</rad>/o
+</kap>
+<drv mrk="vektor.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="vektor.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> de
+      <ref tip="malprt" cel="modul.0o.strukt">modulo</ref> a&ubreve;
+      <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>.
+    </dif>
+  </snc>
+  <snc mrk="vektor.0o.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      Fizika grando, difinita per sia intenseco kaj direkto;
+      la <tld/>o <sncref ref="vektor.0o.MAT"/> (en la kutima
+      tri- a&ubreve; kvar-dimensia spaco) &gcirc;in reprezentanta:
+      <ekz>
+        rapido-<tld/>o;
+      </ekz>
+      <ekz>
+        ondo-vektoro.
+      </ekz>
+    </dif>
+    <ref tip="ant" cel="skalar.0o.FIZ">skalaro.</ref>
+  </snc>
+  <snc mrk="vektor.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Unudimensia <ref cel="tabel.0o.KOMP">tabelo</ref>.
+    </dif>
+    <ref tip="sub" cel="cxen.0o.KOMP">&ccirc;eno</ref>
+    <rim>
+      Iuj programlingvoj disponigas kaj <tld/>ojn, kaj
+      <ref cel="op.0o.vico">opojn</ref>; tiuj
+      lastaj, tamen, povas enteni diverstipajn anojn.
+    </rim>
+  </snc>
+  <trd lng="de">Vektor</trd>
+  <trd lng="en">vector</trd>
+  <trd lng="fr">vecteur</trd>
+  <trd lng="nl">vector</trd>
+  <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
+  <trd lng="sv">vektor</trd>
+</drv>
+<drv mrk="vektor.0a">
+  <kap><tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">FIZ</uzo>
+  <snc>
+    <dif>
+      Rilata al <tld/>o, al <ref cel="spac.vektora0o"><tld/>a spaco</ref>;
+      estanta <tld/>o:
+      <ekz>
+        <tld/>a grando, <ref cel="kamp.0o.MAT">kampo</ref>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">vectoriel</trd>
+  <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_y;&c_j;</trd>
+</drv>
+</art>
 <!--
 $Log$
+Revision 1.9  2001/05/29 18:17:05  revo
+Paul Peeraerts: ald trd nl
+
 Revision 1.8  2001/04/02 16:22:23  revo
 Jerano Zachrisson: +trd sv
 
@@ -63,9 +87,5 @@ Sergio Pokrovskij: reftip=sub
 Revision 1.3  2000/11/06 17:11:19  revo
 Sergio Pokrovskij: KOMP
 Revision 1.2  2000/11/05 17:12:37  revo
-Karlo Freeman: aldono de Angla traduko.
-Revision 1.1  2000/11/02 17:11:14  revo
-Marc Bavant: nova artikolo
 -->
 </vortaro>
-
