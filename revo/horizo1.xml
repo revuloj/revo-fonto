@@ -2,53 +2,102 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>*</ofc>
-      <rad>horizontal</rad>/a
-    </kap>
-    <drv mrk="horizo1.0a">
-      <kap><ofc>*</ofc><tld/>a</kap>
-      <snc mrk="horizo1.0a.space">
-        <dif>
-          Paralela al la supra&jcirc;o de senmova akvo, orte
-          kruci&gcirc;anta kun la
-          <ref tip="vid" cel="vertik.0a">vertikala</ref>
-          linio de la loko:
-          <ekz>
-            <tld/>a ebena&jcirc;o;
-          </ekz><ekz>
-            <tld/>a pozicio.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="ru">&c_g;&c_o;&c_r;&c_i;&c_z;&c_o;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-    </drv>
-    <drv mrk="horizo1.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="horizo1.0o.spaca">
-        <dif>
-          Apartenanta al ebeno <tld/>a.
-        </dif>
-      </snc>
-      <snc mrk="horizo1.0o.linio">
-        <dif>
-          Vico da elementoj de plata&jcirc;o (teksto, matrico, &scirc;aktabulo ktp),
-          kies aran&gcirc;o estas <tld/>a se la koncerna surfaco estas vertikala
-          (sur la nigra tabulo, ekrano ktp):
-          <ekz>
-            la turo tenas la 5-an <tld/>on.
-          </ekz>
-        </dif>
-        <trd lng="ru">&c_g;&c_o;&c_r;&c_i;&c_z;&c_o;&c_n;&c_t;&c_a;&c_l;&c_mol;</trd>
-      </snc>
-      <trd lng="ru">&c_g;&c_o;&c_r;&c_i;&c_z;&c_o;&c_n;&c_t;&c_a;&c_l;&c_mol;</trd>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.5  2001/02/25 17:11:26  revo
-  Sergio Pokrovskij: sxaktabula, trd=ru
+<art mrk="$Id$">
+<kap>
+<ofc>*</ofc>
+<rad>horizontal</rad>/a
+</kap>
+<drv mrk="horizo1.0a">
+  <kap><ofc>*</ofc><tld/>a</kap>
+  <snc mrk="horizo1.0a.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      <klr>(rilate al iu loko de la tersurfaco)</klr>
+      Rilata al la <tld/>o de la loko; direktita la&ubreve; tiu
+      <tld/>o:
+      <ekz>
+        <tld/>a pozicio de objekto <klr>(mezurebla ekz-e per
+        &gcirc;iaj koordinatoj en <tld/>a ebeno)</klr>;
+      </ekz>
+      <ekz>
+        la surfaco de senmova akvo estas <tld/>a;
+      </ekz>
+      <ekz>
+        <tld/>a planko, &scirc;nuro, tablo;
+      </ekz>
+      <ekz>
+        globo, metita sur horizontala surfaco, ne movi&gcirc;as pro la
+        propra pezo;
+      </ekz>
+      <ekz>
+        la dormanta &Hcirc;aldeano, sen iu ajn apogo, ekpendis <tld/>e en la 
+        aero, kelke da metroj super la tero
+        <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 8</lok></fnt>;
+      </ekz>
+      <ekz>
+        tenu la tabulon en &gcirc;usta <ind><tld/>eco</ind>
+        <fnt><bib>PIV1</bib></fnt>.
+        <trd lng="fr">horizontalit&eacute;</trd>
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="vertik.0a">vertikala</ref>,
+    <ref cel="oblikv.0a">oblikva</ref>,
+    <ref cel="nivel.0ilo">nivelilo</ref>,
+    <ref cel="sxnur.rekto0o">rekto&scirc;nuro</ref>.
+  </refgrp>
+  <trd lng="fr">horizontal<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="ru">&c_g;&c_o;&c_r;&c_i;&c_z;&c_o;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+</drv>
+<drv mrk="horizo1.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="horizo1.0o.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      <klr>(de iu loko de la tersurfaco)</klr>
+      Ebena direkto orta al la <ref cel="vertik.0o.FIZ">vertikalo</ref> de la 
+      loko; &ccirc;iu rekto kun tia direkto.
+    </dif>
+  </snc>
+  <snc mrk="horizo1.0o.linio">
+    <uzo tip="fak">TIP</uzo>
+    <uzo tip="fak">KOMP</uzo>
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Vico da elementoj de plata&jcirc;o (teksto, matrico, &scirc;aktabulo ktp),
+      kies aran&gcirc;o estas <tld/>a se la koncerna surfaco estas vertikala
+      (sur la nigra tabulo, ekrano ktp):
+      <ekz>
+        la turo tenas la 5-an <tld/>on.
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_g;&c_o;&c_r;&c_i;&c_z;&c_o;&c_n;&c_t;&c_a;&c_l;&c_mol;</trd>
+  </snc>
+  <snc mrk="horizon1.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="klr">(elementa geometrio)</uzo>
+    <dif>
+      <ref tip="super" cel="rekt.0o.MAT">Rekto</ref> kun direkto orta
+      al la konvencie elektita direkto de 
+      <ref cel="vertik.0o.MAT">vertikaloj</ref>:
+      <ekz>
+        la ekvacio de la <tld/>o trairanta punkton (5,7) estas y=7.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">horizontale</trd>
+  <trd lng="ru">&c_g;&c_o;&c_r;&c_i;&c_z;&c_o;&c_n;&c_t;&c_a;&c_l;&c_mol;</trd>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.6  2001/02/26 19:30:50  revo
+Sergio Pokrovskij: mislokita trd
 
-  -->
+Revision 1.5  2001/02/25 17:11:26  revo
+Sergio Pokrovskij: sxaktabula, trd=ru
+
+-->
 </vortaro>
