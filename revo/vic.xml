@@ -3,8 +3,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>*</ofc>
-<rad>vic</rad>/o
+  <ofc>*</ofc>
+  <rad>vic</rad>/o
 </kap>
 <drv mrk="vic.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -119,37 +119,70 @@
   </snc>
   <snc mrk="vic.0o.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
     <dif>
       <klr>(en aro <em>E</em>)</klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de iu subaro de la aro
-      de entjeroj al <em>E</em>.
+      de entjeroj al <em>E</em>:
+      <ekz>
+        entjera, racionala, reela, kompleksa <tld/>o <klr>(<tld/>o da
+        entjeroj, ks)</klr>;
+      </ekz>
+      <ekz>
+        la <tld/>o de &ccirc;iuj entjeraj kvadratoj <klr>(la bildigo, kiu
+        &jcirc;etas naturalan entjeron n al n<sup>2</sup>)</klr>;
+      </ekz>
+      <ekz>
+        <tld/>o da funkcioj.
+      </ekz>
     </dif>
-    <rim>
-      Anstata&ubreve; uzi funkciecan skriba&jcirc;on por signi <tld/>on,
-      oni kutime preferas skribi
-      (u<sub>i</sub>)<sub>i&#8712;I</sub>. La bildon de n per
-      u oni nomas la n-a termo de la <tld/>o kaj oni signas per
-      u<sub>n</sub>. Konforme kun tia skriba&jcirc;o n estas
-      nomata la indico. La nocio <tld/>o servas por formale paroli pri
-      sinsekvoj da elementoj de <em>E</em>, ekz-e la sinsekvo
-      (1/n)<sub>n>0</sub> de &ccirc;iuj inversoj de pozitivaj entjeroj.
-    </rim>
     <refgrp tip="super">
       <ref cel="famili.0o.bildigo">familio</ref>;
     </refgrp>
-    <refgrp tip="vid">
-      <ref cel="term.0o.vico">termo</ref>,
-      <ref cel="indic.0o.familio">indico</ref>,
-      <ref cel="polino.0o">polinomo</ref>.
+    <refgrp tip="sub">
+      rimarkindaj vicoj:
+      <ref cel="polino.0o.formala">polinomo</ref>,
+      <ref cel="progre1.0o">progresio</ref>,
+      <ref cel="seri.0o.MAT">serio</ref>,
+      <ref cel="vic.finia0o">finia <tld/>o</ref>,
+      <ref cel="vic.kosxia0o">ko&scirc;ia <tld/>o</ref>,
+      <ref cel="vic.aritmetika0o">aritmetika <tld/>o</ref>,
+      <ref cel="vic.geometria0o">geometria <tld/>o</ref>,
+      <ref cel="vic.harmona0o">harmona <tld/>o</ref>;
     </refgrp>
+    <refgrp tip="vid">
+      te&hcirc;nikaj terminoj ligitaj kun vicoj:
+      <ref cel="term.0o.vico">termo</ref>,
+      <ref cel="indic.0o.familio">indico</ref>;
+
+      rimarkindaj ecoj de vico:
+      <ref cel="bar.0ita.metrikaspaco">barita</ref>,
+      <ref cel="konsta.0a.bildigo">konstanta</ref>,
+      <ref cel="kresk.0anta.bildigo">kreskanta</ref>,
+      <ref cel="kresk.mal0anta.bildigo">malkreskanta</ref>,
+      <ref cel="konver.0i.MAT">konver&gcirc;a</ref>;
+      
+      rimarkindaj punktoj rilate vicon:
+      <ref cel="adher.0a.vico">adhera</ref> punkto,
+      <ref cel="limes.0o.vico">limeso</ref>.
+    </refgrp>
+    <rim>
+      La nocio <tld/>o servas por formale paroli pri sinsekvoj da elementoj el
+      <em>E</em>, ekz-e la sinsekvo (1/n)<sub>n>0</sub> de &ccirc;iuj inversoj
+      de pozitivaj entjeroj. Anstata&ubreve; uzi funkciecan skriba&jcirc;on por
+      signi <tld/>on, oni kutime preferas skribi
+      (u<sub>i</sub>)<sub>i&#8712;I</sub>. La bildon de n per u oni nomas la n-a
+      termo de la <tld/>o kaj oni signas per u<sub>n</sub>. Konforme kun tia
+      skriba&jcirc;o n estas nomata la indico.
+    </rim>
     <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_l;&c_ja;&c_d;&c_o;&c_w;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
     <trd lng="en">sequence</trd>
     <trd lng="nl">reeks</trd>
     <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_sh;&c_e;&c_r;&c_a;&c_g;</trd>, 
-    <trd>&c_ch;&c_a;&c_r;&c_a;&c_d;&c_a;</trd>, 
+    <trd>&c_sh;&c_e;&c_r;&c_a;&c_g;</trd>,
+    <trd>&c_ch;&c_a;&c_r;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_r;&c_a;&c_d;</trd>
   </trdgrp>
   <trdgrp lng="fr">
@@ -176,7 +209,8 @@
   <trdgrp lng="fr">
     <trd>&agrave; la <ind>suite</ind></trd>,
     <trd>d'<ind>affil&eacute;e</ind></trd>,
-    <trd>en <ind>enfilade</ind></trd></trdgrp> 
+    <trd>en <ind>enfilade</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vic.laux0e">
@@ -193,15 +227,16 @@
     </dif>
   </snc>
   <adm>
-  Pola Radio ofte uzas "laux~a" kun la senco "plia": "hodiaux
-  en nia lauxvica programo vi auxdos...". Tio kongruas kun
-  simila rusa uzo de "ocherednoj". La sencon oni povus difini
-  per "la sekvonta en la vico". <aut>MB</aut>
+    Pola Radio ofte uzas "laux~a" kun la senco "plia": "hodiaux
+    en nia lauxvica programo vi auxdos...". Tio kongruas kun
+    simila rusa uzo de "ocherednoj". La sencon oni povus difini
+    per "la sekvonta en la vico". <aut>MB</aut>
   </adm>
   <trd lng="be">&c_p;&c_a; &c_ch;&c_a;&c_r;&c_z;&c_je;</trd>
   <trdgrp lng="fr">
     <trd>successivement</trd>,
-    <trd>tour &agrave; tour</trd></trdgrp> 
+    <trd>tour &agrave; tour</trd>
+  </trdgrp>
   <trd lng="nl">beurtelings</trd>
   <trd lng="ru">&c_p;&c_o;&c_o;&c_ch;&c_je;&c_r;&c_jo;&c_d;&c_n;&c_o;</trd>
 </drv>
@@ -219,7 +254,8 @@
     <trdgrp lng="fr">
       <trd>aligner<klr tip="ind"> (mettre en file)</klr></trd>,
       <trd>mettre en <ind>file</ind></trd>,
-      <trd>ranger<klr tip="ind"> (mettre en rang)</klr></trd></trdgrp> 
+      <trd>ranger<klr tip="ind"> (mettre en rang)</klr></trd>
+    </trdgrp>
     <trd lng="ru">&c_p;&c_o;&c_s;&c_t;&c_r;&c_o;&c_i;&c_t;&c_mol;
     <klr>(&c_r;&c_ja;&c_d;&c_a;&c_m;&c_i;)</klr></trd>
   </snc>
@@ -240,7 +276,8 @@
       <trd>s'<ind>aligner</ind></trd>,
       <trd>se <ind>ranger</ind><klr tip="ind"> (se mettre en rangs)</klr></trd>,
       <trd>compter (parmi)</trd>,
-      <trd>figurer (parmi)</trd></trdgrp> 
+      <trd>figurer (parmi)</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_t;&c_o;&c_ja;&c_t;&c_mol; &c_v;
       &c_r;&c_ja;&c_d;&c_u;</trd>;
@@ -290,12 +327,22 @@
   <trd lng="de">Stau</trd>
   <trdgrp lng="fr">
     <trd>file d'attente</trd>,
-    <trd>queue<klr tip="ind"> (file d'attente)</klr></trd></trdgrp> 
+    <trd>queue<klr tip="ind"> (file d'attente)</klr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>wachtrij</trd>,
     <trd>file</trd>
   </trdgrp>
   <trd lng="ru">&c_o;&c_ch;&c_je;&c_r;&c_je;&c_d;&c_mol;</trd>
+</drv>
+
+<drv mrk="vic.aritmetika0o">
+  <kap>aritmetika <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <ref tip="dif" cel="progre1.aritmetika0o">aritmetika progresio.</ref>
+  </snc>
 </drv>
 
 <drv mrk="vic.finia0o">
@@ -313,6 +360,24 @@
     <trd lng="fr">suite finie</trd>
     <trd lng="nl">eindige <ind>reeks</ind></trd>
     <trd lng="ru">&c_k;&c_o;&c_r;&c_t;&c_je;&c_zh;</trd>
+  </snc>
+</drv>
+
+<drv mrk="vic.geometria0o">
+  <kap>geometria <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <ref tip="dif" cel="progre1.geometria0o">geometria progresio.</ref>
+  </snc>
+</drv>
+
+<drv mrk="vic.harmona0o">
+  <kap>harmona <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc>
+    <ref tip="dif" cel="progre1.harmona0o">harmona progresio.</ref>
   </snc>
 </drv>
 
@@ -360,8 +425,8 @@
   <snc>
     <dif>
       <klr>(de <ref tip="super" cel="vic.0o.MAT"><tld/>o</ref> u)</klr>
-      Tia <tld/>o v, ke &gcirc;ia <ref cel="ar.fonto0o"> fonto-aro</ref> estas 
-      subaro de la fonto-aro de u, kaj ke &ccirc;iu termo de v estas termo 
+      Tia <tld/>o v, ke &gcirc;ia <ref cel="ar.fonto0o">fonto-aro</ref> estas
+      subaro de la fonto-aro de u, kaj ke &ccirc;iu termo de v estas termo
       anka&ubreve; de u por la sama indico:
       <ekz>
         &ccirc;iu ajn nefinia sub<tld/>o de ko&scirc;ia <tld/>o estas
@@ -385,24 +450,24 @@
 </art>
 <!--
 $Log$
-Revision 1.18  2001/10/18 16:19:27  revo
+Revision 1.19 2002/01/06 17:45:47 revo
+Marc Bavant: mod ref cel al bildigo; +klr en dif MAT
+Revision 1.18 2001/10/18 16:19:27 revo
 Zmicier Lapcionak: + trd be
-Revision 1.17  2001/09/02 18:17:28  revo
+Revision 1.17 2001/09/02 18:17:28 revo
 Marc Bavant: ~o: reordigis trd fr; MAT: -em, sxovis fakindikojn; +trd fr; laux~e: +adm; transportis rim pri prefikseca uzo al la fino de art
-Revision 1.16  2001/06/04 18:43:26  revo
+Revision 1.16 2001/06/04 18:43:26 revo
 Paul Peeraerts: ald pliajn trd nl
-Revision 1.15  2001/02/05 17:14:42  revo
+Revision 1.15 2001/02/05 17:14:42 revo
 Ulrich Fellmann: + 5 germ trdj
-Revision 1.14  2000/11/24 17:12:27  revo
+Revision 1.14 2000/11/24 17:12:27 revo
 Marc Bavant: +ref al indico, familio
-Revision 1.13  2000/11/01 19:53:39  revo
+Revision 1.13 2000/11/01 19:53:39 revo
 Marc Bavant: +drv finilonga ~o (= finia ~o), -rim de Sergio, +trd fr
-Revision 1.12  2000/10/31 15:20:43  revo
+Revision 1.12 2000/10/31 15:20:43 revo
 Sergio Pokrovskij: +trd=ru; +atendovico; +rim pri finilonga vico
-Revision 1.11  2000/10/22 16:11:19  revo
+Revision 1.11 2000/10/22 16:11:19 revo
 Marc Bavant: +ref al polinomo, termo
-Revision 1.10  2000/10/04 20:13:48  revo
-Marc Bavant: +ref tip, +drv sub~o
-Revision 1.9  2000/10/02 16:14:21  revo
+Revision 1.10 2000/10/04 20:13:48 revo
 -->
 </vortaro>
