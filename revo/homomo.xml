@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+   <art mrk="$Id$">
+     <kap>
+       <rad>homomorfi</rad>/o
+     </kap>
+
+     <drv mrk="homomo.0o">
+       <kap><tld/>o<fnt>KompLeks</fnt></kap>
+       <uzo tip="fak">MAT</uzo>
+       <snc>
+         <dif>
+           Tia <ref tip="super" cel="bild.0igo">bildigo</ref> inter du
+           samspecaj <ref cel="magm.0o.MAT">magmoj</ref>, ke
+           &gcirc;i iasence <ctl>respektas</ctl> la strukturojn. Pli
+           precize, se oni signas la magmojn per
+           (<em>E</em>,&#x2206;<sub>1</sub>,&#x2206;<sub>2</sub>,
+           ...,&#x2206;<sub>n</sub>) kaj
+           (<em>F</em>,&#x2207;<sub>1</sub>,&#x2207;<sub>2</sub>,
+           ...,&#x2207;<sub>n</sub>),
+           la bildigo f estas tia, ke:
+           (1) por &ccirc;iu duopo de
+           <ref cel="operac.ena0o">enaj operacioj</ref>
+           &#x2206;<sub>i</sub> kaj &#x2207;<sub>i</sub> veras, ke
+           f(x&#x2206;<sub>i</sub>y)=f(x)&#x2207;<sub>i</sub>f(y),
+           kiuj ajn estu x,y&#x2208;<em>E</em>;
+           (2) por &ccirc;iu duopo de
+           <ref cel="operac.ekstera0o">eksteraj operacioj</ref>
+           &#x2206;<sub>k</sub> kaj &#x2207;<sub>k</sub> (de la
+           sama aro <em>R</em> super respektive <em>E</em> kaj <em>F</em>)
+           veras, ke
+           f(&alfa;&#x2206;<sub>k</sub>x)=&alfa;&#x2207;<sub>k</sub>f(x),
+           kiuj ajn estu x&#x2208;<em>E</em> kaj &alfa;&#x2208;<em>R</em>:
+           <ekz>
+             grupa, ringa, modula <tld/>o;
+           </ekz>
+           <ekz>
+             la bildo per grupa <tld/>o de la ne&ubreve;tra elemento de
+             la fonto-aro estas la ne&ubreve;tra elemento de la celo-aro.
+           </ekz>
+         </dif>
+         <refgrp tip="sub">
+           <ref cel="izomor.0o">izomorfio</ref>,
+           <ref cel="endomo.0o">endomorfio</ref>,
+           <ref cel="auxtom2.0o">a&ubreve;tomorfio</ref>;
+         </refgrp>
+         <refgrp tip="vid">
+           <ref cel="linear.0a">lineara</ref>.
+         </refgrp>
+       </snc>
+       <trdgrp lng="fr">
+         <trd>homomorphisme</trd>,
+         <trd>morphisme</trd></trdgrp>
+       <trd 
+lng="ru">&c_g;&c_o;&c_m;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;</trd>
+     </drv>
+
+     <drv mrk="homomo.0a">
+       <kap><tld/>a</kap>
+       <uzo tip="fak">MAT</uzo>
+       <snc mrk="homomo.0a.magmo">
+         <uzo tip="klr">(p.p. du magmoj)</uzo>
+         <dif>
+           Tiaj, ke ekzistas <tld/>o de unu al la alia.
+         </dif>
+         <trd lng="fr">homomorphe</trd>
+         <trd 
+lng="ru">&c_g;&c_o;&c_m;&c_o;&c_m;&c_o;&c_r;&c_f;&c_n;&c_y;&c_j;</trd>
+         <rim>
+           Por &ccirc;i tiu senco ekzistas kutima sinonimo 
+<ctl>homomorfa</ctl>.
+         </rim>
+       </snc>
+       <snc mrk="homomo.0a.bildigo">
+         <uzo tip="klr">(p.p. bildigo)</uzo>
+         <dif>
+           Havanta ecojn de <tld/>o.
+         </dif>
+       </snc>
+     </drv>
+   </art>
+
+<!--
+$Log$
+-->
+</vortaro>
