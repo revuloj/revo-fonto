@@ -22,7 +22,7 @@
         solvi <tld/>on;
       </ekz>
       <ekz>
-        la <tld/>o x<sup>2</sup>+1 = 0 ne akceptas (ne havas)
+        la <tld/>o x<sup>2</sup>+1 = 0 ne akceptas <klr>(ne havas)</klr>
         <ref cel="reel.0a">reelan</ref> solvon;
       </ekz>
       <ekz>
@@ -42,17 +42,79 @@
       </ekz>
     </dif>
     <adm>
-    Restas por enkonduki "egala&jcirc;o" kaj referencoj al la
-    diversaj tipoj de ~oj. <aut>MB</aut>
+    Restas por enkonduki "egala&jcirc;o". <aut>MB</aut>
     </adm>
   </snc>
   <trd lng="fr">&eacute;quation</trd>
   <trd lng="hu">egyenlet</trd>
   <trd lng="ru">&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
+<drv mrk="ekvaci.diferenciala0o">
+  <kap>diferenciala <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="ekvaci.0o"><tld lit="E"/>o</ref>, kies
+      nekonato estas funkcio aperanta en la egala&jcirc;o kune kun
+      ties <ref cel="deriv.0ajxo.MAT">deriva&jcirc;oj</ref> a&ubreve;
+      <ref cel="difere2.0o">diferencialoj</ref>:
+      <ekz>
+        ordinara diferenciala <tld/>o de unua ordo havas la formon
+        F(x,y,y&#x2032;)=0;
+      </ekz>
+      <ekz>
+        &#x2202;&#xb2;u/&#x2202;x&#xb2;&#xa0;+&#xa0;&#x2202;&#xb2;u/&#x2202;y&#xb2;&#xa0;=&#xa0;0
+        estas elipsa <ind>diferenciala <tld/>o en partaj deriva&jcirc;oj</ind>.
+        <trd lng="de">partielle <ind>Differentialgleichung</ind></trd>
+        <trd lng="en">part differential <ind>equation</ind></trd>
+        <trd lng="fr">&eacute;quation aux d&eacute;riv&eacute;es partielles</trd>
+        <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind> &c_v; &c_ch;&c_a;&c_s;&c_t;&c_n;&c_y;&c_h; &c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_y;&c_h;</trd>
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+  MatVort diras "parciala diferenciala ~o" anstataux nia ruseca 
+  "diferenciala ~o en partaj derivajxoj". "Parciala" estas nekonata 
+  en PIV1 kaj MatVort donas "parciala derivajxo" kiel sinonimon de 
+  "parta derivajxo". 
+  Kial ne eblis diri nur "parta diferenciala ~o"? Cxar eblus pensi, ke 
+  la ekvacio estas parta (cetere la esprimo estas mallogika, ecx kun
+  "parciala" anstataux "parta", cxar "parciala ~o" nenion signifas).
+  
+  Kial do ne uzi "partdiferenciala" aux "partderivajxa ekvacio"?
+  <aut>MB</aut>
+  </adm>
+  <trd lng="en">differential <ind>equation</ind></trd>
+  <trd lng="de">Differentialgleichung</trd>
+  <trd lng="fr">&eacute;quation diff&eacute;rentielle</trd>
+  <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+</drv>
+<drv mrk="ekvaci.integrala0o">
+  <kap>integrala <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="ekvaci.0o"><tld lit="E"/>o</ref>, kies
+      nekonato estas funkcio aperanta en <ref cel="integr2.0o">integralo</ref>:
+      <ekz>
+        en la integrala <tld/>o kun nekonato &phi; de la tipo
+        &#x222b;<sub>a</sub><sup>b</sup>K(s,t)&phi;(t)dt = f(s) oni nomas la
+        funkcion K &gcirc;ia kerno.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">integral <ind>equation</ind></trd>
+  <trd lng="de">Integralgleichung</trd>
+  <trd lng="fr">&eacute;quation int&eacute;grale</trd>
+  <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
+  <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.8  2001/07/12 18:12:22  revo
+Marc Bavant: +ref al nekonato, mod adm
+
 Revision 1.7  2001/06/19 18:13:13  revo
 Marc Bavant: +trd fr; reverkis
 
