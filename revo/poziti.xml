@@ -64,31 +64,66 @@
     <trd lng="es">positivo</trd>
     <trd lng="ru">&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <klr>(&c_o; &c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_i; &c_s;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
   </snc>
-  <snc mrk="poziti.0a.nombro">
+  <snc mrk="poziti.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
-    <dif>
-      <klr>(p.p. <ref cel="nombr.0o">nombro</ref> a&ubreve; p.p. elemento en
-      <ref cel="ord.0a.aro">orda</ref>, adicie signata 
-      <ref cel="monojd.0o">monojdo</ref>)</klr>
-      Pli granda ol <ref cel="nul0.0o.neuxtra">nulo</ref>:
-      <ekz>
-        <tld/>a kvanto povas esti signata per la signo &leftquot;+&rightquot;
-        <klr>(ekz-e +3 a&ubreve; simple 3)</klr>;
-      </ekz>
-      <ekz>
-        kvadrato de reelo estas &ccirc;iam <tld/>a.
-      </ekz>
-    </dif>
-    <rim>
-      Kiel por &ccirc;iu <ref cel="rilat.ordo0o">ordo-rilato</ref>
-      ekzistas ambigueco, &ccirc;u oni konsideras &gcirc;in strikte
-      a&ubreve; malstrikte.
-      La&ubreve; la kunteksto eblas konsideri, ke 0 estas <tld/>a a&ubreve; ne.
-    </rim>
-    <ref tip="ant" cel="negati.0a.nombro">negativa.</ref>
-    <trd lng="en">positive</trd>
-    <trd lng="ru">&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    <subsnc mrk="poziti.0a.nombro">
+      <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="nombr.0o">nombro</ref> a&ubreve; p.p. elemento en
+        <ref cel="ord.0a.aro">orda</ref>, adicie signata
+        <ref cel="monojd.0o">monojdo</ref>)</klr>
+        Pli granda ol <ref cel="nul0.0o.neuxtra">nulo</ref>:
+        <ekz>
+          <tld/>a kvanto povas esti signata per la signo &leftquot;+&rightquot;
+          <klr>(ekz-e +3 a&ubreve; simple 3)</klr>;
+        </ekz>
+        <ekz>
+          kvadrato de reelo estas &ccirc;iam <tld/>a.
+        </ekz>
+      </dif>
+      <ref tip="ant" cel="negati.0a.nombro">negativa.</ref>
+      <rim>
+        Kiel por &ccirc;iu <ref cel="rilat.ordo0o">ordo-rilato</ref>
+        ekzistas ambigueco, &ccirc;u oni konsideras &gcirc;in strikte
+        a&ubreve; malstrikte.
+        La&ubreve; la kunteksto eblas konsideri, ke 0 estas <tld/>a a&ubreve; 
+        ne.
+      </rim>
+      <trd lng="en">positive</trd>
+      <trd lng="ru">&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    </subsnc>
+    <subsnc mrk="poziti.0a.izometrio">
+      <dif>
+        <klr>(p.p. <ref cel="afin.0a.bildigo">afina</ref>
+        <ref tip="super" cel="izomet.0o">izometrio</ref>)</klr>
+        Tia, ke la <ref cel="determ.0anto.endomorfio">determinanto</ref>
+        de &gcirc;ia asociita endomorfio estas <tld/>a
+        <sncref ref="poziti.0a.nombro"/>.
+      </dif>
+      <ref tip="ant" cel="negati.0a.izometrio">negativa;</ref>
+      <ref tip="vid" cel="lok.de0igo.MAT">delokigo.</ref>
+      <rim>
+        Ni ne trovis a&ubreve;toritatan fonton por tiu &ccirc;i termino,
+        sed aspektas, ke inter &ccirc;iuj nacilingvaj metafora&jcirc;oj
+        <ekz>
+          pozitiva,
+        </ekz>
+        <ekz>
+          rekta,
+        </ekz>
+        <ekz>
+          propra...
+        </ekz>
+        tiu &ccirc;i estas la plej facile pravigebla kaj oportuna por krei
+        malan sencon.
+      </rim>
+      <trd lng="de">eigentliche<klr tip="amb"> (Bewegung)</klr></trd>
+      <trd lng="en">proper<klr tip="ind"> (movement, motion)</klr></trd>
+      <trdgrp lng="fr">
+        <trd><klr tip="amb">(isom&eacute;trie) </klr>directe</trd>,
+        <trd><klr tip="amb">(isom&eacute;trie) </klr>positive</trd></trdgrp> 
+      <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+    </subsnc>
   </snc>
   <snc mrk="poziti.0a.FOT">
     <uzo tip="fak">FOT</uzo>
@@ -189,9 +224,11 @@
 </art>
 <!--
 $Log$
-Revision 1.11  2002/01/07 17:31:39  revo
+Revision 1.12 2002/02/24 17:31:21 revo
+Marc Bavant: snc MAT: +fnt, +trd en/de
+Revision 1.11 2002/01/07 17:31:39 revo
 Marc Bavant: ~a MAT: mod dif
-Revision 1.10  2001/12/21 17:31:32  revo
+Revision 1.10 2001/12/21 17:31:32 revo
 Yury Finkel: +trd ru
 Revision 1.9 2001/09/15 19:28:15 revo
 Marc Bavant: ~a: +mrk; +drv mal~a

@@ -19,7 +19,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        <tld/>a kritiko <klr>(&ccirc;ion malaprobanta, sed proponanta nenian 
+        <tld/>a kritiko <klr>(&ccirc;ion malaprobanta, sed proponanta nenian
         efikan solvon)</klr>.
       </ekz>
     </dif>
@@ -44,32 +44,54 @@
       <aut>MB</aut>
     </adm>
   </snc>
-  <snc mrk="negati.0a.nombro">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
-    <dif>
-      <klr>(p.p. <ref cel="nombr.0o">nombro</ref> a&ubreve; p.p. elemento en
-      <ref cel="ord.0a.aro">orda</ref>, adicie signata 
-      <ref cel="monojd.0o">monojdo</ref>)</klr>
-      Malpli granda ol <ref cel="nul0.0o.neuxtra">nulo</ref>:
-      <ekz>
-        <tld/>a kvanto povas esti signata per la signo &leftquot;-&rightquot;
-        <klr>(ekz-e -3)</klr>;
-      </ekz>
-      <ekz>
-        la kvadrato de <tld/>a reelo estas pozitiva.
-      </ekz>
-    </dif>
-    <rim>
-      Kiel por &ccirc;iu <ref cel="rilat.ordo0o">ordo-rilato</ref>
-      ekzistas ambigueco, &ccirc;u oni konsideras &gcirc;in strikte
-      a&ubreve; malstrikte.
-      La&ubreve; la kunteksto eblas konsideri,
-      ke 0 estas <tld/>a a&ubreve; ne.
-    </rim>
-    <ref tip="ant" cel="poziti.0a.nombro">pozitiva.</ref>
-    <trd lng="en">negative</trd>
-    <trd lng="ru">&c_o;&c_t;&c_r;&c_i;&c_c;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <snc mrk="negati.0a.MAT">
+    <subsnc mrk="negati.0a.nombro">
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="nombr.0o">nombro</ref> a&ubreve; p.p. elemento en
+        <ref cel="ord.0a.aro">orda</ref>, adicie signata
+        <ref cel="monojd.0o">monojdo</ref>)</klr>
+        Malpli granda ol <ref cel="nul0.0o.neuxtra">nulo</ref>:
+        <ekz>
+          <tld/>a kvanto povas esti signata per la signo &leftquot;-&rightquot;
+          <klr>(ekz-e -3)</klr>;
+        </ekz>
+        <ekz>
+          la kvadrato de <tld/>a reelo estas pozitiva.
+        </ekz>
+      </dif>
+      <ref tip="ant" cel="poziti.0a.nombro">pozitiva.</ref>
+      <rim>
+        Kiel por &ccirc;iu <ref cel="rilat.ordo0o">ordo-rilato</ref>
+        ekzistas ambigueco, &ccirc;u oni konsideras &gcirc;in strikte
+        a&ubreve; malstrikte.
+        La&ubreve; la kunteksto eblas konsideri,
+        ke 0 estas <tld/>a a&ubreve; ne.
+      </rim>
+      <trd lng="en">negative</trd>
+      <trd lng="ru">&c_o;&c_t;&c_r;&c_i;&c_c;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    </subsnc>
+    <subsnc mrk="negati.0a.izometrio">
+      <dif>
+        <klr>(p.p. <ref cel="afin.0a.bildigo">afina</ref>
+        <ref tip="super" cel="izomet.0o">izometrio</ref>)</klr>
+        Tia, ke la <ref cel="determ.0anto.endomorfio">determinanto</ref>
+        de &gcirc;ia asociita endomorfio estas <tld/>a
+        <sncref ref="negati.0a.nombro"/>.
+      </dif>
+      <ref tip="ant" cel="poziti.0a.izometrio">pozitiva.</ref>
+      <rim>
+        Vd rimarkon sub <ctl>pozitiva</ctl>.
+      </rim>
+      <trd lng="de">uneigentliche<klr tip="amb"> (Bewegung)</klr></trd>
+      <trd lng="en">improper<klr tip="ind"> (movement, motion)</klr></trd>
+      <trdgrp lng="fr">
+        <trd><klr tip="amb">(isom&eacute;trie) </klr>r&eacute;trograde</trd>,
+        <trd><klr tip="amb">(isom&eacute;trie) </klr>n&eacute;gative</trd>
+      </trdgrp>
+      <trd lng="ru">&c_n;&c_je;&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+    </subsnc>
   </snc>
   <trd lng="de">negativ</trd>
   <trd lng="fr">n&eacute;gatif<klr tip="ind"> (adj.)</klr></trd>
@@ -137,9 +159,11 @@
 </art>
 <!--
 $Log$
-Revision 1.13  2002/01/07 17:31:45  revo
+Revision 1.14 2002/02/24 17:31:03 revo
+Marc Bavant: snc MAT: +fnt, +trd; ~a 1: +uzo FIG, +klr en ekz kun "~a kritiko"
+Revision 1.13 2002/01/07 17:31:45 revo
 Marc Bavant: ~a MAT: mod dif
-Revision 1.12  2001/11/30 17:33:21  revo
+Revision 1.12 2001/11/30 17:33:21 revo
 Yury Finkel: +trd ru
 Revision 1.11 2001/11/08 19:11:49 revo
 Dennis Wibrow: +trd germ
