@@ -3,21 +3,24 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>term</rad>/o
-<fnt>Z</fnt>
+  <rad>term</rad>/o
+  <fnt>Z</fnt>
 </kap>
 <drv mrk="term.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
+    <dif>
+      Konsista parto de iu matematika objekto.
+    </dif>
     <subsnc mrk="term.0o.ekvacio">
       <ref tip="dif" cel="flank.0o.ekvacio">flanko (de ekvacio).</ref>
       <adm>
-      Mi ne scias, cxu mi bone faris aldonante cxi tiun sencon. Gxi
-      sxajnas suficxe internacia, se konsideri mian multlingvan
-      leksikonon (term/terme/Glied/chlen... sed la franca "membre"
-      estas pli natura), sed MatVort ne konas gxin kaj preferas
-      "flanko". <aut>MB</aut>
+        Mi ne scias, cxu mi bone faris aldonante cxi tiun sencon. Gxi
+        sxajnas suficxe internacia, se konsideri mian multlingvan
+        leksikonon (term/terme/Glied/chlen... sed la franca "membre"
+        estas pli natura), sed MatVort ne konas gxin kaj preferas
+        "flanko" kaj MatTerm (p. 47) havas "membro". <aut>MB</aut>
       </adm>
     </subsnc>
     <subsnc mrk="term.0o.sumo">
@@ -30,12 +33,36 @@
           sumo ne dependas de la ordo de &gcirc;iaj <tld/>oj.
         </ekz>
       </dif>
+      <ref tip="sin" cel="sum.0ero">sumero.</ref>
+    </subsnc>
+    <subsnc mrk="term.0o.frakcio">
+      <uzo tip="stl">EVI</uzo>
+      <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt>
+      <dif>
+        <klr>(de <ref cel="frakci.0o.MAT">frakcio</ref>)</klr>
+        &Ccirc;iu el la entjeroj &gcirc;in difinantaj; &gcirc;ia
+        <ref tip="sub" cel="numera1.0o">numeratoro</ref> a&ubreve;
+        <ref tip="sub" cel="denomi.0o">denominatoro</ref>.
+      </dif>
+    </subsnc>
+    <subsnc mrk="term.0o.proporcio">
+      <fnt><bib>MatTerm</bib><lok>p. 8, alude</lok></fnt>
+      <dif>
+        <klr>(de <ref cel="propor.0o.MAT">proporcio</ref>)</klr>
+        &Ccirc;iu el la <tld/>oj <sncref ref="term.0o.frakcio"/> de la 
+        frakcioj &gcirc;in difinantaj:
+        <ekz>
+          en proporcio a/b=c/d produto de la ekstremaj <tld/>oj 
+          <klr>(a kaj d)</klr> egalas al produto de la mezaj 
+          <klr>(b kaj c)</klr>.
+        </ekz>
+      </dif>
     </subsnc>
     <subsnc mrk="term.0o.opo">
       <dif>
         <klr>(de <ref cel="par.0o.MAT">paro</ref> a&ubreve;
         <ref cel="op.0o.vico">opo</ref>)</klr>
-        &Ccirc;iu el la objektoj &gcirc;in konsistigantaj, konsiderata kune 
+        &Ccirc;iu el la objektoj &gcirc;in konsistigantaj, konsiderata kune
         kun sia rango:
         <ekz>
           x estas la unua <tld/>o de la paro (x,y).
@@ -64,19 +91,20 @@
         <ref cel="term.0o.vico"><tld lit="T"/>o
         <sncref ref="term.0o.vico"/> </ref> de la serio,
         konsiderata kiel vico; alternative kaj ekvivalente,
-        <ref cel="term.0o.sumo"><tld/>o <sncref ref="term.0o.sumo"/></ref> 
+        <ref cel="term.0o.sumo"><tld/>o <sncref ref="term.0o.sumo"/></ref>
         en parta sumo de la serio.
       </dif>
+      <ref tip="sin" cel="sum.0ero">sumero.</ref>
     </subsnc>
     <subsnc mrk="term.0o.polinomo">
-      <fnt><bib>MatVort</bib></fnt>
+      <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
       <dif>
         <klr>(de <ref cel="polino.0o">polinomo</ref>)</klr>
-        <ref cel="term.0o.vico"><tld lit="T"/>o 
+        <ref cel="term.0o.vico"><tld lit="T"/>o
         <sncref ref="term.0o.vico"/></ref> de la polinomo, konsiderata kiel vico
         (<ref tip="sin" cel="koefic.0o.polinomo">koeficiento</ref>);
         alternative, sed ne ekvivalente,
-        <ref cel="term.0o.sumo"><tld/>o <sncref ref="term.0o.sumo"/></ref> en 
+        <ref cel="term.0o.sumo"><tld/>o <sncref ref="term.0o.sumo"/></ref> en
         la sumo de unu<tld/>aj polinomoj &gcirc;in konsistigantaj:
         <ekz>
           la konstanta <tld/>o de polinomo <em>X</em> estas 0;
@@ -91,8 +119,8 @@
     <subsnc mrk="term.0o.matrico">
       <dif>
         <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
-        <ref cel="term.0o.vico"><tld lit="T"/>o 
-        <sncref ref="term.0o.vico"/></ref> de la matrico, konsiderata kiel 
+        <ref cel="term.0o.vico"><tld lit="T"/>o
+        <sncref ref="term.0o.vico"/></ref> de la matrico, konsiderata kiel
         familio.
       </dif>
       <refgrp tip="sin">
@@ -104,36 +132,51 @@
       Pro manko de internacieco, kelkaj preferas la terminojn <ctl>ano</ctl>
       a&ubreve; <ctl>membro</ctl> por nomi <tld/>on de paro a&ubreve; vico,
       <ctl>elemento</ctl> a&ubreve; <ctl>koeficiento</ctl> por nomi <tld/>on
-      de matrico.
+      de matrico. 
       Koncerne sumon a&ubreve; serion &scirc;ajnas, ke <ctl><tld/>o</ctl> ne
-      vekas &gcirc;enon. Koncerne polinomojn necesas atenti, ke la du eblaj
+      vekas &gcirc;enon. 
+      Koncerne polinomojn necesas atenti, ke la du eblaj
       difinoj kunvivas senprobleme, sed en okazo de ambigueco oni povus uzi la
       pli tradician terminon <ctl>koeficiento</ctl>.
+      Uzo de la sufikso <ctl>-ero</ctl>, jam konata en <ctl>sumero</ctl>, kaj 
+      foje aperanta en <ctl>vicero</ctl>, povus esti eleganta solvo por ricevi 
+      pli racian terminaron 
+      <ekz>
+        sumero, vicero, op-ero, matricero, polinomero, frakciero, 
+        proporciero, produtero...
+      </ekz>
+      sed, krom &gcirc;ia eventuala manko de internacieco, la termino 
+      <ctl><tld/>o</ctl> jam tre kontentige kaj a&ubreve;toritate plenumas
+      &ccirc;iujn &ccirc;i funkciojn.
     </rim>
     <trdgrp lng="de">
       <trd>Addend</trd>,
-      <trd>Glied</trd></trdgrp> 
+      <trd>Glied</trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>component</trd>,
       <trd>summand</trd>,
-      <trd>term</trd></trdgrp> 
+      <trd>term</trd>
+    </trdgrp>
     <trdgrp lng="nl">
-    <trd>lid<klr tip="ind"> (v.e.vergelijking)</klr></trd>,
-    <trd>term</trd>
-  </trdgrp>
-      <trdgrp lng="fr">
-      <trd>terme<klr tip="ind"> (d'une somme, d'une s&eacute;rie, d'un n-uplet, 
-           d'une suite, d'une famille, d'un polyn&ocirc;me)</klr></trd>,
+      <trd>lid<klr tip="ind"> (v.e.vergelijking)</klr></trd>,
+      <trd>term</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>terme<klr tip="ind"> (d'une somme, d'une s&eacute;rie, d'un n-uplet,
+      d'une suite, d'une famille, d'un polyn&ocirc;me)</klr></trd>,
       <trd>composante<klr tip="ind"> (d'un n-uplet)</klr></trd>,
       <trd>coefficient<klr tip="ind"> (d'un polyn&ocirc;me)</klr></trd>,
       <trd>membre<klr tip="ind"> (d'une &eacute;galit&eacute;)</klr></trd>
-    </trdgrp> 
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_l;&c_a;&c_g;&c_a;&c_je;&c_m;&c_o;&c_je;</trd>,
       <trd>&c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;</trd>,
-      <trd>&c_ch;&c_l;&c_je;&c_n;</trd></trdgrp> 
+      <trd>&c_ch;&c_l;&c_je;&c_n;</trd>
+    </trdgrp>
   </snc>
 </drv>
+
 <drv mrk="term.n0o">
   <kap>n-<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -151,7 +194,7 @@
         <ind>du<tld/>o</ind>
         <klr>(<ref tip="sin" cel="binom.0o">binomo</ref>)</klr>;
         <trd lng="fr">bin&ocirc;me</trd>
-       <trd lng="nl">binomium</trd>
+        <trd lng="nl">binomium</trd>
       </ekz>
       <ekz>
         <ind>tri<tld/>o</ind>;
@@ -168,6 +211,7 @@
     </rim>
   </snc>
 </drv>
+
 <drv mrk="term.plur0o">
   <kap>plur<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -177,29 +221,36 @@
     <uzo tip="stl">EVI</uzo>
     <ref tip="dif" cel="polino.0o">polinomo.</ref>
     <rim>
-      &Ccirc;i tiu termino estas alloga, kaj tre simila al &gcirc;iaj 
+      &Ccirc;i tiu termino estas alloga, kaj tre simila al &gcirc;iaj
       slavlingvaj ekvivalentoj, sed la internacia termino estas pli vaste uzata
-      kaj montri&gcirc;as oportuna en derivado. 
+      kaj montri&gcirc;as oportuna en derivado.
       Kvankam la kritiko pri malfacila derivebleco validas
       kontra&ubreve; multaj terminoj same konstruitaj (triangulo, plurlatero,
       dudekedro, ks), &gcirc;i fari&gcirc;as iom pli grava en la kunteksto de
-      polinomoj pro la plursenceco de <ctl><tld/>o</ctl> kaj la vasta uzo de la 
-      adjektivo <ctl>polinoma</ctl>: ja <ctl>plur<tld/>a adicio</ctl> kaj 
-      <ctl>polinoma adicio</ctl> ne montras la saman aferon. 
+      polinomoj pro la plursenceco de <ctl><tld/>o</ctl> kaj la vasta uzo de la
+      adjektivo <ctl>polinoma</ctl>: ja <ctl>plur<tld/>a adicio</ctl> kaj
+      <ctl>polinoma adicio</ctl> ne montras la saman aferon.
     </rim>
     <adm>
-    PIV1 kaj MatVort konas radikon "nomialo", kiu aperas nur en
-    kunmetajxoj de la tipo "n-nomialo" kaj signifas "potenco de n-terma
-    polinomo". Ekz-e "dunomialo" estas ajna potenco de binomo (ax+b),
-    (x+y) ks. Fakte tiuj terminoj montrigxas utilaj nur sub adjektiva
-    formo por traduki nacilingvajn esprimojn de la tipo "dunomiala
-    egalajxo", "plurnomiala probablodistribuo"... Sxajnas al mi, ke
-    malderivi radikon "nomialo" el tiuj malmultaj uzoj estis ludo eble
-    amuza, sed vana kaj nekontentiga. Mi volonte proponus pli E-stilajn
-    terminojn de la tipo: "binompotenca" aux "dutermopotenca egalajxo",
-    "polinompotenca probablodistribuo", ks. Oni ecx povus ellasi
-    "potenc" kaj diri "binoma egalajxo" sen risko de konfuzo, sed ne
-    "duterma egalajxo", kio resendas al la rimarko. <aut>MB</aut>
+      PIV1 kaj MatVort konas radikon "nomialo", kiu aperas nur en
+      kunmetajxoj de la tipo "n-nomialo" kaj signifas "potenco de n-terma
+      polinomo". Ekz-e "dunomialo" estas ajna potenco de binomo (ax+b),
+      (x+y) ks. Fakte tiuj terminoj montrigxas utilaj nur sub adjektiva
+      formo por traduki nacilingvajn esprimojn de la tipo "dunomiala
+      egalajxo", "plurnomiala probablodistribuo"... Sxajnas al mi, ke
+      malderivi radikon "nomialo" el tiuj malmultaj uzoj estis ludo eble
+      amuza, sed vana kaj nekontentiga. Mi volonte proponus pli E-stilajn
+      terminojn de la tipo: "binompotenca" aux "dutermopotenca egalajxo",
+      "polinompotenca probablodistribuo", ks. Oni ecx povus ellasi
+      "potenc" kaj diri "binoma egalajxo" sen risko de konfuzo, sed ne
+      "duterma egalajxo", kio resendas al la rimarko. 
+
+      Bricard proponis la radikon "nomj", el kiu li derivis "ununomjo",
+      "dunomjo" ktp kaj per internaciaj afiksoj "polinomjo", "binomja",
+      ks. Sxajnas, ke li esprimis unua la bezonon de "binomja" (farigxinta 
+      "dunomjalo" poste) apud "dunomja", sed tian bezonon mi konsideras
+      troigita.
+      <aut>MB</aut>
     </adm>
   </snc>
   <trd lng="fr">polyn&ocirc;me</trd>
@@ -207,24 +258,24 @@
 </art>
 <!--
 $Log$
-Revision 1.12  2001/10/28 19:13:41  revo
+Revision 1.13 2001/11/04 19:17:48 revo
+Marc Bavant: mod ref al matrico
+
+Revision 1.12 2001/10/28 19:13:41 revo
 Marc Bavant: ~o: +snc MAT (matrico)
 
-Revision 1.11  2001/10/15 18:19:00  revo
+Revision 1.11 2001/10/15 18:19:00 revo
 Paul Peeraerts: ald trd nl
 
-Revision 1.10  2001/07/22 18:17:19  revo
+Revision 1.10 2001/07/22 18:17:19 revo
 Marc Bavant: ~o: forigis PV-an dif, reordigis snc en subsnc, +subsnc ~o de ekvacio, +fnt MatVort, reordigis trd fr; +drv n~o, plur~o
 
-Revision 1.9  2000/11/26 17:12:50  revo
+Revision 1.9 2000/11/26 17:12:50 revo
 Marc Bavant: +ref al koeficiento
-Revision 1.8  2000/11/24 17:12:02  revo
+Revision 1.8 2000/11/24 17:12:02 revo
 Marc Bavant: ~o de familio = ~o de vico
-Revision 1.7  2000/10/29 17:13:23  revo
+Revision 1.7 2000/10/29 17:13:23 revo
 Marc Bavant: enkonduko de sncref
-Revision 1.6  2000/10/24 16:11:50  revo
-Marc Bavant: nmeroj denove!
-Revision 1.5  2000/10/22 19:20:01  revo
-Marc Bavant: kor de la numeroj
+Revision 1.6 2000/10/24 16:11:50 revo
 -->
 </vortaro>
