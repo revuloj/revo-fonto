@@ -63,8 +63,7 @@
     <dif>
       Prezenta&jcirc;o de objekto a&ubreve; okaza&jcirc;o en la imago:
       <ekz>
-        mi &ccirc;iam revidas
-        en spirito la <tld/>on de tiu terura tago;
+        mi &ccirc;iam revidas en spirito la <tld/>on de tiu terura tago;
       </ekz>
       <ekz>
         mi <tld/>igis al mi lian plezuron.
@@ -78,6 +77,16 @@
         <tld/>oplena stilo.
       </ekz>
     </dif>
+  </snc>
+  <snc mrk="bild.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+      <refgrp tip="sin">
+        <ref cel="bild.rekta0o.subaro">rekta <tld/>o
+        <sncref ref="bild.rekta0o.subaro"/></ref> 
+        a&ubreve;
+        <ref cel="bild.rekta0o.elemento">rekta <tld/>o
+        <sncref ref="bild.rekta0o.elemento"/></ref>.
+      </refgrp>
   </snc>
   <refgrp tip="vid">
     <ref cel="figur.0o">figuro</ref>,
@@ -97,6 +106,18 @@
     <trd>&c_o;&c_b;&c_r;&c_a;&c_z;</trd>
   </trdgrp>
 </drv>
+<drv mrk="bild.0aro">
+  <kap><tld/>aro</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      (de <ref cel="bild.0igo"><tld/>igo</ref> f)
+      La <ref cel="bild.rekta0o">rekta <tld/>o</ref> de &gcirc;ia
+      <ref cel="ar.fonto0o">fonto-aro</ref>.
+    </dif>
+  </snc>
+  <trd lng="fr">image <klr tip="amb">(d'une application)</klr></trd>
+</drv>
 <drv mrk="bild.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
@@ -113,7 +134,7 @@
         <vrk>Leteroj el Turkio.</vrk></fnt>;
       </ekz>
       <ekz>
-        piktogramoj estas bildetoj de konkretaj objektoj,
+        piktogramoj estas <tld/>etoj de konkretaj objektoj,
         ideogramoj estas pli abstraktaj kaj <tld/>igas anka&ubreve;
         certajn nociojn
         <fnt>
@@ -124,8 +145,7 @@
         kaj konstukriterioj de planlingvoj</url></lok>.</fnt>;
       </ekz>
       <ekz>
-        mi tiel vivece <tld/>igis mian teneron, miajn
-        maltrankvilojn, admirojn
+        mi tiel vivece <tld/>igis mian teneron, miajn maltrankvilojn, admirojn
         <fnt>
         <aut>M. Lermontov, trad. N. Danovskij</aut>:
         <vrk>Princidino Mary</vrk>.
@@ -161,8 +181,8 @@
 </drv>
 <drv mrk="bild.0igo">
   <kap><tld/>igo</kap>
-  <snc>
-    <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="bild.0igo.MAT">
     <dif>
       (de aro <em>E</em> al aro <em>F</em>) Tia <ref cel="rilat.0o.MAT">
       rilato</ref> f inter <em>E</em> kaj <em>F</em>, ke por &ccirc;iu elemento
@@ -190,7 +210,7 @@
       bildigoj kun specifaj ecoj:
       <ref cel="enjekc.0o">enjekcio</ref>,
       <ref cel="surjek.0o">surjekcio</ref>,
-      <ref cel="bijekc.0o">bijekcio</ref>,
+      <ref cel="bijekc.0o">bijekcio</ref>;
     </refgrp>
     <refgrp tip="vid">
       atributoj de bildigo:
@@ -236,8 +256,8 @@
 </drv>
 <drv mrk="bild.sub0igo">
   <kap>sub<tld/>igo</kap>
+  <uzo tip="fak">MAT</uzo>
   <snc>
-    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de bildigo)</klr>
       <ref tip="sin" cel="vast.mal0igajxo.bildigo">Malvastiga&jcirc;o</ref>
@@ -249,34 +269,16 @@
     <trd>sous-application</trd>
   </trdgrp>
 </drv>
-<drv mrk="bild.rekta0o">
-  <kap>(rekta) <tld/>o</kap>
+<drv mrk="bild.inversa0igo">
+  <kap>inversa <tld/>igo, inverso (de <tld/>igo)</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc  mrk="bild.rekta0o.subaro">
+  <snc>
     <dif>
-      (de subaro <em>A</em>&#x2282;<em>E</em> per <ref cel="rilat.0o.MAT">
-      rilato</ref> <em>R</em>&#x2282;<em>E</em>&#xd7;<em>F</em>)
-      Tia subaro de <em>F</em>, ke por &ccirc;iu &gcirc;ia elemento ekzistas
-      almena&ubreve; unu paro en <em>R</em>, kies dua termo &gcirc;i estas kaj
-      kies unua termo apartenas al <em>A</em>:
-      <ekz>
-        la <tld/>on de <em>A</em> per <em>R</em> oni signas per <em>R(A)</em>.
-      </ekz>
+      (de <tld/>igo f) <ref cel="rilat.inversa0o">Inverso</ref>
+      de rilato f, se anka&ubreve; &gcirc;i estas <tld/>igo.
     </dif>
-    <trd lng="fr">image (directe)<klr tip="ind"> (d'un sous-ensemble)</klr></trd>
   </snc>
-  <snc mrk="bild.rekta0o.elemento">
-    <dif>
-      (de elemento a&#x2208;<em>E</em> per <ref cel="bild.0igo">
-      <tld/>igo</ref> f de <em>E</em> al <em>F</em>)
-      La elemento f(a) en <em>F</em>.
-    </dif>
-    <rim>
-      La&ubreve; la difina eco de <tld/>igoj la <tld/>o de a estas
-      anka&ubreve; la nura elemento de la <tld/>o de subaro {a}.
-    </rim>
-    <trd lng="fr">image (directe)<klr tip="ind">(d'un &eacute;l&eacute;ment)</klr></trd>
-  </snc>
+  <trd lng="fr">application r&eacute;ciproque</trd>
 </drv>
 <drv mrk="bild.inversa0o">
   <kap>inversa <tld/>o</kap>
@@ -306,32 +308,41 @@
     <klr tip="ind">(d'un &eacute;l&eacute;ment)</klr></trd>
   </snc>
 </drv>
-<drv mrk="bild.0aro">
-  <kap><tld/>aro</kap>
-  <snc>
-    <uzo tip="fak">MAT</uzo>
+<drv mrk="bild.rekta0o">
+  <kap>rekta <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc  mrk="bild.rekta0o.subaro">
     <dif>
-      (de <ref cel="bild.0igo"><tld/>igo</ref> f)
-      La <ref cel="bild.rekta0o">rekta <tld/>o</ref> de &gcirc;ia
-      <ref cel="ar.fonto0o">fonto-aro</ref>.
+      (de subaro <em>A</em>&#x2282;<em>E</em> per <ref cel="rilat.0o.MAT">
+      rilato</ref> <em>R</em>&#x2282;<em>E</em>&#xd7;<em>F</em>)
+      Tia subaro de <em>F</em>, ke por &ccirc;iu &gcirc;ia elemento ekzistas
+      almena&ubreve; unu paro en <em>R</em>, kies dua termo &gcirc;i estas kaj
+      kies unua termo apartenas al <em>A</em>:
+      <ekz>
+        la <tld/>on de <em>A</em> per <em>R</em> oni signas per <em>R(A)</em>.
+      </ekz>
     </dif>
+    <trd lng="fr">image (directe)<klr tip="ind"> (d'un sous-ensemble)</klr></trd>
   </snc>
-  <trd lng="fr">image <klr tip="amb">(d'une application)</klr></trd>
-</drv>
-<drv mrk="bild.inversa0igo">
-  <kap>inversa <tld/>igo, inverso (de <tld/>igo)</kap>
-  <snc>
-    <uzo tip="fak">MAT</uzo>
+  <snc mrk="bild.rekta0o.elemento">
     <dif>
-      (de <tld/>igo f) <ref cel="rilat.inversa0o">Inverso</ref>
-      de rilato f, se anka&ubreve; &gcirc;i estas <tld/>igo.
+      (de elemento a&#x2208;<em>E</em> per <ref cel="bild.0igo">
+      <tld/>igo</ref> f de <em>E</em> al <em>F</em>)
+      La elemento f(a) en <em>F</em>.
     </dif>
+    <rim>
+      La&ubreve; la difina eco de <tld/>igoj la <tld/>o de a estas
+      anka&ubreve; la nura elemento de la <tld/>o de subaro {a}.
+    </rim>
+    <trd lng="fr">image (directe)<klr tip="ind">(d'un &eacute;l&eacute;ment)</klr></trd>
   </snc>
-  <trd lng="fr">application r&eacute;ciproque</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.22  2001/06/23 18:12:46  revo
+Marc Bavant: mod ref cel al funkcio MAT
+
 Revision 1.21  2001/05/01 18:09:58  revo
 Marc Bavant: +drv idento-~igo
 
@@ -348,8 +359,5 @@ Marc Bavant: mod de la hxaosa indent, +drv sub~igo
 Revision 1.15  2001/01/14 17:14:42  revo
 Marc Bavant: sxovo de la ref al ekster snc 6, mod ref tip, forigo de troaj em, +klr en trd fr
 Revision 1.14  2000/11/24 17:12:23  revo
-Marc Bavant: +ref al familio, formo, operacio cxe ~igo
-Revision 1.13  2000/10/22 16:11:16  revo
-Marc Bavant: +mrk en du sencoj de rekta/inversa ~o
 -->
 </vortaro>
