@@ -2,88 +2,182 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>1</ofc>
-      <rad>algebr</rad>/o
-    </kap>
-    <drv mrk="algebr.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
-          kiu etendas la aritmetikajn kalkulojn al grandoj signitaj per
-          literoj, ne nur ciferoj, kaj tiamaniere ebligas solvadon de
-          ekvacioj.
-        </dif>
-        <rim>
-          La <ctl>kvantoj</ctl>, kiujn la moderna <tld/>o manipulas, ne plu 
-          limi&gcirc;as al nombroj. &Gcirc;ia agokampo nun ampleksas
-          la <ref cel="strukt.algebra0o"><tld/>ajn strukturojn</ref>
-          (arojn, provizitajn per operacioj kun aksiome difinitaj ecoj, 
-          pli-malpli similaj al tiuj de la aritmetikaj operacioj).
-        </rim>
-      </snc>
-      <trd lng="de">Algebra</trd>
-      <trd lng="fr">alg&egrave;bre<klr tip="ind"> (discipline)</klr></trd>
-      <trd lng="pt">&aacute;lgebra</trd>
-      <trd lng="ru">&#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;</trd>
-      <trd lng="sv">algebra</trd>
-    </drv>
+<art mrk="$Id$">
+<kap>
+<ofc>1</ofc>
+<rad>algebr</rad>/o
+</kap>
+<drv mrk="algebr.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
+      kiu etendas la aritmetikajn kalkulojn al grandoj signitaj per
+      literoj, ne nur ciferoj, kaj tiamaniere ebligas solvadon de
+      ekvacioj.
+    </dif>
+    <rim>
+      La <ctl>kvantoj</ctl>, kiujn la moderna <tld/>o manipulas, ne plu
+      limi&gcirc;as al nombroj. &Gcirc;ia agokampo nun ampleksas
+      la <ref cel="strukt.algebra0o"><tld/>ajn strukturojn</ref>
+      (arojn, provizitajn per operacioj kun aksiome difinitaj ecoj,
+      pli-malpli similaj al tiuj de la aritmetikaj operacioj).
+    </rim>
+  </snc>
+  <trd lng="de">Algebra</trd>
+  <trd lng="fr">alg&egrave;bre<klr tip="ind"> (discipline)</klr></trd>
+  <trd lng="pt">&aacute;lgebra</trd>
+  <trd lng="ru">&#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;</trd>
+  <trd lng="sv">algebra</trd>
+</drv>
+<drv mrk="algebr.bulea0o">
+  <kap>bulea <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="algebr.bulea0o.fako">
+    <dif>
+      Bran&ccirc;o de <ref tip="malprt" cel="algebr.0o">algebro</ref>,
+      kiu okupi&gcirc;as pri logika rezonado kaj trovas aplikon en
+      komputiloj.
+    </dif>
+  </snc>
+  <snc mrk="algebr.bulea0o.strukturo">
+    <dif>
+      Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
+      (<em>A</em>,&#x2228;,&#x2227;,f), kie f estas involucio 
+      <klr>(nomata komplemento)</klr>, ke
+      (1) amba&ubreve; operacioj estas asociecaj kaj komutecaj;
+      (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio <klr>(signataj
+      per 0 por &#x2228;, kaj 1 por &#x2227;)</klr>;
+      (3) &ccirc;iu operacio estas distribuebla rilate al la alia;
+      (4) x&#x2227;x = x&#x2228;x = x, x&#x2228;f(x) = 1 kaj x&#x2227;f(x) = 0,
+      kiu ajn estas x&#x2208;<em>A</em>;
+      (5) f(x&#x2228;y) = f(x)&#x2227;f(y) kaj f(x&#x2227;y) = f(x)&#x2228;f(y),
+      kiuj ajn estas x,y&#x2208;<em>A</em>.
+    </dif>
+    <trd lng="de">Boolesche <ind>Algebra</ind></trd>
+    <trd lng="en">Boolean <ind>algebra</ind></trd>
+    <trd lng="ru">&c_b;&c_u;&c_l;&c_je;&c_v;&c_a; <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="bule1.0o">Buleo</ref>.
+  </refgrp>
+  <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline, structure)</klr></trd>
+</drv>
+<drv mrk="algebr.lineara0o">
+  <kap>lineara <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="algebr.lineara0o.fako">
+    <dif>
+      Bran&ccirc;o de <ref tip="malprt" cel="algebr.0o">algebro</ref>,
+      kiu okupi&gcirc;as pri la ecoj de
+      <ref cel="modul.0o.strukt">moduloj</ref>,
+      <ref cel="spac.vektora0o">vektoraj spacoj</ref> kaj
+      iliaj <ref cel="homomo.0o">homomorfioj</ref>.
+    </dif>
+    <ref tip="vid" cel="linear.0a">lineara.</ref>
+    <trd lng="de">lineare Algebra</trd>
+    <trd lng="fr">alg&egrave;bre lin&eacute;aire<klr tip="ind"> (discipline)</klr></trd>
+    <trd lng="pt">&aacute;lgebra linear</trd>
+    <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
+    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;<klr tip="ind"> (&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</klr></ind></trd>
+  </snc>
+  <snc mrk="algebr.lineara0o.strukturo">
+    <dif>
+      <klr>(super korpo <em>K</em>)</klr>
+      Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
+      (<em>A</em>,+,&#xd7;,*), ke (<em>A</em>,+,&#xd7;) estas
+      <ref tip="super" cel="ring.0o.MAT">ringo</ref> kaj
+      (<em>A</em>,+,*) estas
+      <ref tip="super" cel="spac.vektora0o">vektora spaco</ref> super 
+      <em>K</em>:
+      <ekz>
+        la polinomringo de korpo <em>K</em> estas lineara <tld/>o super
+        &gcirc;i.
+      </ekz>
+    </dif>
+    <rim>
+      Por eviti kolizion inter sencoj <sncref ref="algebr.0o.lin-fako"/>
+      kaj <sncref ref="algebr.0o.lin-strukt"/> kelkaj proponas uzi la
+      paronimon <ctl>al&gcirc;ebro</ctl> por la dua nocio.
+    </rim>
+    <trd lng="de">lineare <ind>Algebra</ind><klr tip="ind"> (&uuml;ber K)</klr></trd>
+    <trd lng="en">linear <ind>algebra</ind><klr tip="ind"> (over K)</klr></trd>
+    <trd lng="fr">alg&egrave;bre<klr tip="ind"> (sur K)</klr></trd>
+    <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
+    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind"> (&c_n;&c_a;&c_d; K)</klr></trd>
+  </snc>
+  <trd lng="sv">linj&auml;r algebra</trd>
+</drv>
+<drv mrk="algebr.sigma0o">
+  <kap>sigma-<tld/>o, &sigma;-<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(super <ref cel="ar.0o.MAT">aro</ref> <em>&Omega;</em>)</klr>
+      Tia ne malplena aro el subaroj de <em>&Omega;</em>, ke
+      &gcirc;i enhavas la <ref cel="komple1.0o.aro">komplementon</ref> de
+      &ccirc;iu sia elemento, kaj la 
+      <ref cel="kun.0ajxo.aro">kuna&jcirc;on</ref> de &ccirc;iu sia
+      <ref cel="nombr.0ebla.MAT">nombrebla</ref> subaro:
+      <ekz>
+        eblas demonstri, ke &sigma;-<tld/>o nepre enhavas <em>&Omega;</em>, 
+        la malplenan aron kaj la 
+        <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu sia 
+        nombrebla subaro;
+      </ekz>
+      <ekz>
+        la aro de &ccirc;iuj subaroj de <em>&Omega;</em> estas &sigma;-<tld/>o;
+      </ekz>
+      <ekz>
+        &sigma;-<tld/>o naskita de aro el subaroj <klr>(komuna&jcirc;o de
+        &ccirc;iuj &sigma;-<tld/>oj &gcirc;in inkluzivantaj)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Sigma-Algebra</trd>,
+    <trd>Sigma-K&ouml;rper</trd></trdgrp> 
+  <trdgrp lng="en">
+    <trd>sigma-algebra</trd>,
+    <trd>sigma-field</trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>sigma-alg&egrave;bre</trd>,
+    <trd>tribu</trd></trdgrp> 
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_i;&c_g;&c_m;&c_a;-&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</trd>,
+    <trd>&c_s;&c_i;&c_g;&c_m;&c_a;-&c_p;&c_o;&c_l;&c_je;</trd></trdgrp> 
+</drv>
+<drv mrk="algebr.borelasigma0o">
+  <kap>borela sigma-<tld/>o, borela &sigma;-<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(super <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
+      La <ref tip="super" cel="algebr.sigma0o">&sigma;-<tld/>o</ref> naskita de
+      la aro de malfermitaj subaroj:
+      <ekz>
+        la borela &sigma;-<tld/>o super la aro de reeloj enhavas &ccirc;iujn
+        <ref cel="interv.0o.MAT">intervalojn</ref>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="borel.0o">Borelo</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">Borelscher <ind>K&ouml;rper</ind></trd>
+  <trd lng="en">Borel['s] <ind>field</ind></trd>
+  <trd lng="fr">tribu de Borel</trd>
+  <trd lng="ru">&c_b;&c_o;&c_r;&c_je;&c_l;&c_je;&c_v;&c_s;&c_k;&c_o;&c_je; <ind>&c_p;&c_o;&c_l;&c_je;</ind></trd>
+</drv>
 
-    <drv mrk="algebr.0o.lineara">
-      <kap>lineara <tld/>o</kap>
-      <snc mrk="algebr.0o.lin-fako">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          Bran&ccirc;o de <ref tip="malprt" cel="algebr.0o">algebro</ref>,
-          kiu okupi&gcirc;as pri la ecoj de
-          <ref cel="modul.0o.strukt">moduloj</ref>,
-          <ref cel="spac.vektora0o">vektoraj spacoj</ref> kaj
-          iliaj <ref cel="homomo.0o">homomorfioj</ref>.
-        </dif>
-        <ref tip="vid" cel="linear.0a">lineara.</ref>
-        <trd lng="pt">&aacute;lgebra linear</trd>
-        <trd lng="fr">alg&egrave;bre lin&eacute;aire<klr tip="ind"> (discipline)</klr></trd>
-        <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
-<ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;<klr tip="ind"> (&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</klr></ind></trd>
-      </snc>
-
-      <snc mrk="algebr.0o.lin-strukt">
-        <uzo tip="fak">MAT</uzo>
-        <dif>
-          <klr>(super ringo <em>R</em>)</klr>
-          Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-          (<em>A</em>,+,x,*), ke (<em>A</em>,+,x) estas
-          <ref tip="super" cel="ring.0o.MAT">ringo</ref> kaj
-          (<em>A</em>,+,*) estas
-          <ref tip="super" cel="modul.0o.strukt">modulo</ref> super <em>R</em>:
-          <ekz>
-            la polinomringo de ringo <em>R</em> estas lineara <tld/>o super 
-            &gcirc;i.
-          </ekz>
-        </dif>
-        <rim>
-          Por eviti beda&ubreve;rindan kolizion inter sencoj
-          <sncref ref="algebr.0o.lin-fako"/>
-          kaj <sncref ref="algebr.0o.lin-strukt"/> kelkaj proponas uzi la 
-          paronimon <ctl>al&gcirc;ebro</ctl> por la dua nocio.
-        </rim>
-        <trd lng="fr">alg&egrave;bre<klr tip="amb"> (structure)</klr></trd>
-        <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
-<ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind"> (&c_s;&c_t;&c_r;&c_u;&c_k;&c_t;&c_u;&c_r;&c_a;)</klr></trd>
-      </snc>
-      <trd lng="de">lineare Algebra</trd>
-      <trd lng="sv">linj&auml;r algebra</trd>
-    </drv>
-
-  </art>
+</art>
 <!--
 $Log$
+Revision 1.13  2001/04/28 19:15:25  revo
+Helio Jaques: trd pt
 Revision 1.12  2001/03/17 17:13:03  revo
 Marc Bavant: kor trd fr de lineara ~o 2, kor "artimetika"
-
 Revision 1.11  2001/03/12 17:15:06  revo
 Ulrich Fellmann: + 2 germ trdj
 Revision 1.10  2001/03/11 18:57:49  revo
@@ -99,7 +193,5 @@ Marc Bavant: +drv lineara ~o (fako/magmo), +rim
 Revision 1.5  2000/09/11 16:12:23  revo
 Marc Bavant: aldono de franca traduko
 Revision 1.4  2000/08/07 16:12:49  revo
-Yury Finkel: aldono de rusa traduko
 -->
 </vortaro>
-
