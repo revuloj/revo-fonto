@@ -30,6 +30,8 @@
         <ref cel="akcent.0a">akcenta</ref>,
         <ref cel="akcent.duon0a">duonakcenta</ref>,
         <ref cel="akcent.sen0a">senakcenta</ref>,
+        <ref cel="ferm.0ita.FON">fermita</ref>,
+        <ref cel="ferm.mal0ita.FON">malfermita</ref>,
         <ref cel="long.0a.silabo">longa</ref>,
         <ref cel="long.mal0a.silabo">mallonga</ref>.
       </refgrp>
@@ -117,11 +119,11 @@
   <snc mrk="silab.n0o.vorto">
     <uzo tip="fak">LIN</uzo>
     <dif>
-      Vorto, konsistanta el n <tld/>oj:
+      Vorto, konsistanta el <frm><k>n</k></frm> <tld/>oj:
       <ekz>
         okazas ofte, ke du <ind>unu<tld/>o</ind>j estas tiel ligitaj per
         la senco, ke ili formas unu solan metrikan vorton
-        <fnt><bib>PGv</bib>, <lok>p. 14</lok></fnt>;
+        <fnt><bib>PGl</bib>, <lok>p. 14</lok></fnt>;
         <trd lng="fr">monosyllabe</trd>
       </ekz>
       <ekz>
@@ -133,10 +135,10 @@
   </snc>
   <snc mrk="silab.n0o.metro">
     <uzo tip="fak">POE</uzo>
-    <fnt><bib>PGv</bib>, <lok>p. 48</lok></fnt>
+    <fnt><bib>PGl</bib>, <lok>p. 48</lok></fnt>
     <dif>
       <ref tip="super" cel="metr.0o.POE">Metro</ref>, konsistanta el
-      n <tld/>oj:
+      <frm><k>n</k></frm> <tld/>oj:
       <ekz>
         <ind>ok<tld/>o</ind>,
         <trd lng="fr">octosyllabe</trd>
@@ -157,19 +159,22 @@
         <trd lng="fr">hexad&eacute;casyllabe</trd>
         <trd lng="ru">&c_sh;&c_je;&c_s;&c_t;&c_n;&c_a;&c_d;&c_c;&c_a;&c_t;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
       </ekz>
-      <trd lng="hu">n <ind>sz&oacute;tagos</ind> verssor</trd>
-      <trd lng="ru">n-<ind>&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</ind></trd>
     </dif>
     <rim>
       Temas pri metroj fremdaj al Esperanto, sed hejmi&gcirc;intaj en la
       Esperanta versfarado. Ili ofte konsistas el pluraj malsamaj
       piedoj, kaj obeas al specifaj reguloj pri cezuro, &ccirc;efakcento ktp.
     </rim>
+    <trd lng="hu">n <ind>sz&oacute;tagos</ind> verssor</trd>
+    <trd lng="ru">n-<ind>&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</ind></trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.18  2005/03/10 18:10:53  revo
+Yury Finkel: +trd ru
+
 Revision 1.17  2004/10/11 16:34:22  revo
 Jozefo Horvath: +trd hu
 
@@ -186,8 +191,5 @@ Revision 1.13  2002/02/12 17:32:19  revo
 Yury Finkel: +trd ru, kor rim (for superfluan akuz)
 
 Revision 1.12 2001/10/27 18:12:07 revo
-Marc Bavant: ~o: mod ekz FE; -drv longa/mallonga/akcenta/senakcenta ~o
-(transportitaj al long kaj akcent), +ref al ili; +drv n-~o
-
 -->
 </vortaro>
