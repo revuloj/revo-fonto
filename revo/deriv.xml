@@ -3,10 +3,7 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap>
-<ofc>4</ofc>
-<rad>deriv</rad>/i
-</kap>
+<kap><ofc>4</ofc> <rad>deriv</rad>/i</kap>
 <drv mrk="deriv.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
@@ -29,6 +26,7 @@
   </snc>
   <snc mrk="deriv.0i.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
     <uzo tip="klr">(fakula &jcirc;argono)</uzo>
     <dif>
       <klr>(<ref cel="funkci.0o.MAT">funkcion</ref>)</klr>
@@ -42,6 +40,7 @@
   </snc>
   <trd lng="fr">d&eacute;river</trd>
 </drv>
+
 <drv mrk="deriv.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="deriv.0ajxo.GRA">
@@ -58,10 +57,11 @@
   </snc>
   <snc mrk="deriv.0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
     <subsnc mrk="deriv.0ajxo.cxepunkto">
       <dif>
         <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
-        kun reela a&ubreve; kompleksa argumento, &ccirc;e punkto a de 
+        kun reela a&ubreve; kompleksa argumento, &ccirc;e punkto a de
         &gcirc;ia fonto-aro)</klr>
         La <ref cel="limes.0o.bildigo">limeso</ref>
         lim<sub>h&#x2192;0</sub>&#xa0;[f(a+h)-f(a)]/h, se &gcirc;i ekzistas:
@@ -101,8 +101,8 @@
         La distribucio T&#x2032;, difinita per T&#x2032;(&phi;)=
         -T(&phi;&#x2032;):
         <ekz>
-          la <ref cel="funkci.hevisajda0o">hevisajda funkcio</ref> ne estas 
-          <tld/>ebla kiel funkcio, sed &gcirc;ia distribucia <tld/>a&jcirc;o 
+          la <ref cel="funkci.hevisajda0o">hevisajda funkcio</ref> ne estas
+          <tld/>ebla kiel funkcio, sed &gcirc;ia distribucia <tld/>a&jcirc;o
           estas la <ref cel="distri2.diraka0o">diraka distribucio</ref>;
         </ekz>
         <ekz>
@@ -121,9 +121,11 @@
     <ref tip="dif" cel="difere2.0o">diferencialo.</ref>
   </snc>
 </drv>
+
 <drv mrk="deriv.0ebla">
   <kap><tld/>ebla</kap>
   <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
   <snc mrk="deriv.0ebla.MAT">
     <dif>
       <klr>(p.p. <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
@@ -139,10 +141,12 @@
     <trd lng="fr">d&eacute;rivable</trd>
   </snc>
 </drv>
+
 <drv mrk="deriv.mal0ajxo">
   <kap>mal<tld/>a&jcirc;o</kap>
   <snc mrk="deriv.mal0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
+    <fnt><bib>PIV1</bib></fnt>
     <dif>
       <klr>(de <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> f
       kun reela a&ubreve; kompleksa argumento)</klr>
@@ -176,7 +180,7 @@
       <ekz>
         <ctl>avio</ctl>, <ctl>faco</ctl> kaj <ctl>gra&ubreve;</ctl> estas pli
         novaj mal<tld/>a&jcirc;oj el la oficialaj <ctl>aviado</ctl>,
-        <ctl>faceto</ctl>,  <ctl>malgra&ubreve;</ctl>.
+        <ctl>faceto</ctl>, <ctl>malgra&ubreve;</ctl>.
       </ekz>
     </dif>
     <ref tip="ant" cel="deriv.0ajxo.GRA">deriva&jcirc;o</ref>
@@ -188,24 +192,25 @@
     </trdgrp>
   </snc>
   <adm>
-  Indus koherigi la fakojn LIN/GRA inter ~a&jcirc;o kaj mal~a&jcirc;o.
-  <aut>MB</aut>
+    Indus koherigi la fakojn LIN/GRA inter ~a&jcirc;o kaj mal~a&jcirc;o.
+    <aut>MB</aut>
   </adm>
 </drv>
+
 <drv mrk="deriv.parta0ajxo">
   <kap>parta <tld/>a&jcirc;o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      <klr>(de <ref cel="funkci.n-argumenta0o">plurargumenta 
+      <klr>(de <ref cel="funkci.n-argumenta0o">plurargumenta
       funkcio</ref>, la&ubreve; la i-a argumento)</klr>
       <tld lit="D"/>a&jcirc;o <sncref ref="deriv.0ajxo.cxepunkto"/> a&ubreve;
-      <sncref ref="deriv.0ajxo.funkcio"/> la&ubreve; unu el la argumentoj, kiam 
+      <sncref ref="deriv.0ajxo.funkcio"/> la&ubreve; unu el la argumentoj, kiam
       la ceteraj restas konstantaj:
       <ekz>
-        la partan <tld/>a&jcirc;on de f la&ubreve; la i-a argumento 
-        x<sub>i</sub>oni kutime signas per f&#x2032;<sub>i</sub>, 
+        la partan <tld/>a&jcirc;on de f la&ubreve; la i-a argumento
+        x<sub>i</sub>oni kutime signas per f&#x2032;<sub>i</sub>,
         &#x2202;<sub>i</sub>f a&ubreve; &#x2202;f/&#x2202;x<sub>i</sub>;
       </ekz>
       <ekz>
@@ -217,7 +222,7 @@
       <ekz>
         la parta <tld/>a&jcirc;o de f(x,y)=x<sup>2</sup>y la&ubreve; x estas
         &#x2202;<sub>x</sub>f(x,y)=2xy kaj la parta <tld/>a&jcirc;o de la
-        sama funkcio la&ubreve; y estas 
+        sama funkcio la&ubreve; y estas
         &#x2202;<sub>y</sub>f(x,y)=x<sup>2</sup>.
       </ekz>
     </dif>
@@ -225,30 +230,25 @@
   <trd lng="de">partielle <ind>Ableitung</ind></trd>
   <trd lng="en">partial <ind>derivative</ind></trd>
   <trd lng="fr">d&eacute;riv&eacute;e partielle</trd>
-  <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_d;&c_n;&c_a;&c_ja;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.16  2001/09/30 19:14:35  revo
+Revision 1.17 2001/10/20 18:52:19 revo
+Marc Bavant: kor kap cxe parta ~ajxo
+Revision 1.16 2001/09/30 19:14:35 revo
 Marc Bavant: +drv parta ~ajxo; ~ajxo: splitis ~ajxo cxe punkto / ~ajxo-funkcio
-
-Revision 1.15  2001/09/29 18:13:17  revo
+Revision 1.15 2001/09/29 18:13:17 revo
 Marc Bavant: +ref al holomorfa
-
-Revision 1.14  2001/08/20 20:33:51  revo
+Revision 1.14 2001/08/20 20:33:51 revo
 Marc Bavant: kor ref cel al funkcio
-
-Revision 1.13  2001/07/22 18:17:14  revo
+Revision 1.13 2001/07/22 18:17:14 revo
 Marc Bavant: +ref al hevisajda funkcio; +drv ~ebla
-
-Revision 1.12  2001/07/15 18:12:07  revo
+Revision 1.12 2001/07/15 18:12:07 revo
 Marc Bavant: ~ajxo: +snc
-
-Revision 1.11  2001/06/23 18:12:34  revo
+Revision 1.11 2001/06/23 18:12:34 revo
 Marc Bavant: mod ref cel al funkcio MAT
-
-Revision 1.10  2001/03/14 19:17:12  revo
+Revision 1.10 2001/03/14 19:17:12 revo
 -->
 </vortaro>
-
