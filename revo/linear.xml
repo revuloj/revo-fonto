@@ -2,91 +2,94 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-   <art mrk="$Id$">
-     <kap>
-       <rad>linear</rad>/a
-     </kap>
-     <drv mrk="linear.0a">
-       <kap><tld/>a<fnt>PIV</fnt></kap>
-       <uzo tip="fak">MAT</uzo>
+    <art mrk="$Id$">
+      <kap>
+        <rad>linear</rad>/a
+      </kap>
+      <drv mrk="linear.0a">
+        <kap><tld/>a<fnt>PIV</fnt></kap>
+        <uzo tip="fak">MAT</uzo>
 
-       <snc>
-         <uzo tip="klr">(fakula &jcirc;argono)</uzo>
-         <dif>
-           Iel rilatanta al algebraj strukturoj de la tipo
-           <ref cel="modul.0o.magmo">modulo</ref> a&ubreve;
-           <ref cel="spac.vektora0o">vektora spaco</ref>.
-         </dif>
-         <refgrp tip="vid">
-           <ref cel="algebr.0o.lin-fako">lineara algebro</ref>.
-         </refgrp>
-       </snc>
+        <snc>
+          <uzo tip="klr">(fakula &jcirc;argono)</uzo>
+          <dif>
+            Iel rilatanta al algebraj strukturoj de la tipo
+            <ref cel="modul.0o.magmo">modulo</ref> a&ubreve;
+            <ref cel="spac.vektora0o">vektora spaco</ref>.
+          </dif>
+          <refgrp tip="vid">
+            <ref cel="algebr.0o.lin-fako">lineara algebro</ref>.
+          </refgrp>
+        </snc>
 
-       <snc>
-         <uzo tip="klr">(p.p. bildigo inter moduloj a&ubreve;
-         vektoraj spacoj)</uzo>
-         <dif>
-           <ref tip="super" cel="homomo.0o">Homomorfio</ref>:
-           <ekz>
-             por ke bildigo f inter vekoraj spacoj estu <tld/>a,
-             sufi&ccirc;as, ke f(x+&alfa;*y)=f(x)+&alfa;*f(y),
-             kiuj ajn estu x, y kaj &alfa;.
-           </ekz>
-         </dif>
-       </snc>
+        <snc>
+          <uzo tip="klr">(p.p. bildigo inter moduloj a&ubreve;
+          vektoraj spacoj)</uzo>
+          <dif>
+            <ref tip="super" cel="homomo.0o">Homomorfio</ref>:
+            <ekz>
+              por ke bildigo f inter vektoraj spacoj estu <tld/>a,
+              sufi&ccirc;as, ke f(x+&alfa;*y)=f(x)+&alfa;*f(y),
+              kiuj ajn estu x, y kaj &alfa;.
+            </ekz>
+          </dif>
+        </snc>
 
-       <snc>
-         <uzo tip="klr">(p.p. reela funkcio f)</uzo>
-         <dif>
-           Tia, ke f(x)=&alfa;.x.
-         </dif>
-       </snc>
-       <trd lng="fr">lin&eacute;aire</trd>
-       <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
-       <rim>
-         En multaj lingvoj ne ekzistas diferenco inter la terminoj por
-         <ctl>lineara</ctl> kaj tiu por <ctl>linia</ctl>. Povus esti
-         bona ideo promocii la uzon de &ccirc;i-lasta, &ccirc;ar riskoj
-         de ambigueco apena&ubreve; ekzistas.
-       </rim>
-     </drv>
+        <snc>
+          <uzo tip="klr">(p.p. reela funkcio f)</uzo>
+          <dif>
+            Tia, ke f(x)=&alfa;.x.
+          </dif>
+        </snc>
+        <trd lng="fr">lin&eacute;aire</trd>
+        <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
+        <rim>
+          En multaj lingvoj ne ekzistas diferenco inter la terminoj por
+          <ctl>lineara</ctl> kaj tiu por <ctl>linia</ctl>. Povus esti
+          bona ideo promocii la uzon de &ccirc;i-lasta, &ccirc;ar riskoj
+          de ambigueco apena&ubreve; ekzistas.
+        </rim>
+      </drv>
 
-     <drv mrk="linear.plur0a">
-       <kap>plur<tld/>a, n-<tld/>a</kap>
-       <snc>
-         <uzo tip="fak">MAT</uzo>
-         <dif>
-           <klr>(p.p.
-           <ref tip="super" cel="bild.0igo">bildigo</ref> de
-           <ref cel="produt.kartezia0o">kartezia produto</ref>
-           de n <ref cel="modul.0o.magmo">moduloj</ref>
-           <em>E</em><sub>i</sub> al modulo <em>F</em>)</klr>
-           Tia, ke &ccirc;iu parta bildigo
-           &phi;(x<sub>i</sub>)=
-           f(a<sub>1</sub>,...,x<sub>i</sub>,...a<sub>n</sub>)
-           estas homomorfio de <em>E</em><sub>i</sub> al <em>F</em>:
-           <ekz>
-             la bildigo f(x,y)=xy super
-             <ref cel="algebr.0o.lin-magmo">algebro</ref> estas du<tld/>a.
-           </ekz>
-         </dif>
-       </snc>
-       <trd lng="fr">multilin&eacute;aire</trd>
-       <trd 
+      <drv mrk="linear.plur0a">
+        <kap>plur<tld/>a, n-<tld/>a</kap>
+        <snc>
+          <uzo tip="fak">MAT</uzo>
+          <dif>
+            <klr>(p.p.
+            <ref tip="super" cel="bild.0igo">bildigo</ref> de
+            <ref cel="produt.kartezia0o">kartezia produto</ref>
+            de n <ref cel="modul.0o.magmo">moduloj</ref>
+            <em>E</em><sub>i</sub> al modulo <em>F</em>)</klr>
+            Tia, ke &ccirc;iu parta bildigo
+            &phi;(x<sub>i</sub>)=
+            f(a<sub>1</sub>,...,x<sub>i</sub>,...a<sub>n</sub>)
+            estas homomorfio de <em>E</em><sub>i</sub> al <em>F</em>:
+            <ekz>
+              la bildigo f(x,y)=xy super
+              <ref cel="algebr.0o.lin-magmo">algebro</ref> estas du<tld/>a.
+            </ekz>
+          </dif>
+        </snc>
+        <trd lng="fr">multilin&eacute;aire</trd>
+        <trd
 lng="ru">&c_m;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
-     </drv>
-     <adm>
-       Sugestoj por kompletigo :
-         * lineara formo,
-         * kvadrata formo,
-         * Hermita formo,
-         * matricoj,
-         * ktp.
-     </adm>
+      </drv>
+      <adm>
+        Sugestoj por kompletigo :
+          * lineara formo,
+          * kvadrata formo,
+          * Hermita formo,
+          * matricoj,
+          * ktp.
+      </adm>
 
-   </art>
+    </art>
 
 <!--
 $Log$
+Revision 1.1  2000/11/05 17:12:56  revo
+Marc Bavant: nova artikolo
+
 -->
 </vortaro>
