@@ -21,6 +21,9 @@
       </ekz>
     </dif>
     <trd lng="de">Gegenwert</trd>
+    <trd lng="en">equivalent</trd>
+    <trd lng="fr">&eacute;quivalent<klr tip="ind"> (subst.)</klr></trd>
+    <trd lng="ru">&c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;</trd>
   </snc>
   <snc>
     <uzo tip="fak">KEM</uzo>
@@ -31,11 +34,39 @@
         &hcirc;emia <tld/>o.
       </ekz>
     </dif>
+    <trd lng="de">&Auml;quivalent</trd>
+    <trd lng="en">equivalent</trd>
+    <trd lng="fr">&eacute;quivalent<klr tip="ind"> (subst.)</klr></trd>
+    <trd lng="ru">&c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;</trd>
   </snc>
-  <trd lng="de">&Auml;quivalent</trd>
-  <trd lng="en">equivalent</trd>
-  <trd lng="fr">&eacute;quivalent<klr tip="ind"> (subst.)</klr></trd>
-  <trd lng="ru">&c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;</trd>
+  <snc mrk="ekviva.0o.logika">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatStokTerm</bib><lok>p. 14</lok></fnt>
+    <dif>
+      <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
+      kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
+      P kaj Q asocias la propozicion (P&#8658;Q)&#8743;(Q&#8658;P)
+      <klr>(P implicas Q kaj Q implicas P)</klr>; rezulto de tiu operacio:
+      <ekz>
+        la <tld/>on de P kaj Q oni kutime signas per P&#8660;Q
+        <klr>(legu: P estas ekvivalenta al Q)</klr>;
+      </ekz>
+      <ekz>
+        <tld/>o estas vera, se kaj nur se amba&ubreve; argumentoj estas
+        samtempe veraj a&ubreve; falsaj.
+      </ekz>
+    </dif>
+    <rim>
+      Se la radiko vere estas substantiva, tiu vorto aspektas malbone
+      formita kaj povas esti, ke <ctl><tld/>eco</ctl>
+      <fnt><bib>KompLeks</bib></fnt> estus pli bona. Tamen aspektas strange
+      doni nuancon de eco al vorto, kiu montras operacion...
+    </rim>
+    <trd lng="de">&Auml;quivalenz</trd>
+    <trd lng="en">equivalence</trd>
+    <trd lng="fr">&eacute;quivalence</trd>
+    <trd lng="ru"><klr tip="ind">(&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;) </klr>&c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </snc>
 </drv>
 
 <drv mrk="ekviva.0a">
@@ -54,14 +85,22 @@
   </snc>
   <snc mrk="ekviva.0a.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <klr>(p.p. du elementoj)</klr>
-      Tiaj, ke ilin ligas iu
-      <ref cel="rilat.ekvivalento0o"><tld/>o-rilato</ref>:
-      <ekz>
-        du <tld/>aj elementoj apartenas al la sama <tld/>o-klaso.
-      </ekz>
-    </dif>
+    <subsnc mrk="ekviva.0a.rilate">
+      <dif>
+        <klr>(p.p. du elementoj)</klr>
+        Tiaj, ke ilin ligas iu
+        <ref cel="rilat.ekvivalento0o"><tld/>o-rilato</ref>:
+        <ekz>
+          du <tld/>aj elementoj apartenas al la sama <tld/>o-klaso.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="ekviva.0a.logike">
+      <dif>
+        <klr>(p.p. du <ref cel="propoz.0o.aserto">propozicioj</ref>)</klr>
+        Samtempe veraj a&ubreve; falsaj.
+      </dif>
+    </subsnc>
   </snc>
   <trd lng="de">&auml;quivalent</trd>
   <trd lng="en">equivalent</trd>
@@ -85,7 +124,10 @@
 </art>
 <!--
 $Log$
-Revision 1.7  2002/05/02 16:34:59  revo
+Revision 1.8 2002/05/26 19:01:57 revo
+Ulrich Fellmann: + 3 pliaj trd de
+
+Revision 1.7 2002/05/02 16:34:59 revo
 Marc Bavant: mod adm; ~a MAT: mod dif (certa), +ekz, +trd de/en/ru; ~o: -uzo MAT, mod ekz
 
 Revision 1.6 2001/06/19 18:13:30 revo
@@ -94,4 +136,3 @@ Revision 1.5 2001/04/09 17:08:36 revo
 Yury Finkel: +trd ru
 -->
 </vortaro>
-
