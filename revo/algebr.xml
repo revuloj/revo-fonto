@@ -37,9 +37,9 @@
     <rim>
       Oni donas la nomon <ctl><tld/>o</ctl> al kelkaj <tld/>aj
       strukturoj. Por &ccirc;i tiu senco iuj proponis paronimajn
-      terminojn por eviti kolizion kun la fako: 
+      terminojn por eviti kolizion kun la fako:
       <ctl>al&gcirc;ebro</ctl> (en <fnt><bib>PIV2</bib></fnt>, kun la
-      senco <ctl>lineara <tld/>o</ctl>) a&ubreve; <ctl>algebrao</ctl> 
+      senco <ctl>lineara <tld/>o</ctl>) a&ubreve; <ctl>algebrao</ctl>
       (kiel en
       <fnt><bib>MatStokTerm</bib><lok>p. 6</lok></fnt> a&ubreve;
       <fnt><bib>Deneva</bib></fnt>). Tio ne &scirc;ajnas al ni utila.
@@ -72,18 +72,58 @@
       <ref cel="strukt.algebra0o"><tld/>a strukturo</ref>.
     </refgrp>
   </snc>
-  <snc mrk="algebr.0a.nombro">
-    <fnt><bib>EKV</bib><lok>&para;14</lok></fnt>
-    <dif>
-      <klr>(p.p. elemento de <ref cel="ring.0o.MAT">ringo</ref>)</klr>
-      Estanta <ref cel="radik.0o.polinomo">radiko</ref> de iu polinomo
-      en la koncerna aro:
-      <ekz>
-        ajna <ref cel="radik.noa0o">n-a radiko</ref> de
-        <ref cel="racion.0o">racionalo</ref> estas <tld/>a.
-      </ekz>
-    </dif>
-    <ref tip="ant" cel="transc.0a.nombro">transcenda.</ref>
+  <snc mrk="algebr.0a.speciale">
+    <subsnc mrk="algebr.0a.rilate_subkorpon">
+      <fnt><bib>EKV</bib><lok>&para;14</lok></fnt>
+      <dif>
+        <klr>(p.p. elemento de <ref cel="korp.0o.MAT">korpo</ref> <em>K'</em>,
+        super subkorpo <em>K</em>)</klr>
+        Estanta <ref cel="radik.0o.polinomo">radiko</ref> de iu polinomo
+        super <em>K</em>:
+        <ekz>
+          se ne ekzistas <tld/>aj super <em>K</em> elementoj
+          krom tiuj de <em>K</em> mem, oni diras, ke <em>K</em> estas
+          <ind><tld/>e fermita</ind>.
+          <trd lng="de">algebraisch <ind>abgeschlossener</ind><klr tip="amb"> (K&ouml;rper)</klr></trd>
+          <trd lng="en">algebraically closed<klr tip="ind"> (field)</klr></trd>
+          <trd lng="fr"><klr tip="ind">(corps) </klr>alg&eacute;briquement <ind>clos</ind></trd>
+          <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i; <ind>&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_o;&c_je;</ind><klr tip="amb"> (&c_t;&c_je;&c_l;&c_o;)</klr> </trd>
+        </ekz>
+      </dif>
+      <ref tip="ant" cel="transc.0a.rilate_subkorpon">transcenda.</ref>
+    </subsnc>
+    <subsnc mrk="algebr.0a.nombro">
+      <fnt><bib>MatTerm</bib><lok>p. 8</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="reel.0a">reela</ref> a&ubreve;
+        <ref cel="komple.0a.MAT">kompleksa</ref>
+        <ref cel="nombr.0o.MAT">nombro</ref>)</klr>
+        <tld lit="A"/>a <sncref ref="algebr.0a.rilate_subkorpo"/> super
+        la korpo de racionaloj:
+        <ekz>
+          ajna <ref cel="radik.noa0o">n-a radiko</ref> de
+          <ref cel="racion.0o">racionalo</ref> estas <tld/>a;
+        </ekz>
+        <ekz>
+          la aro de &ccirc;iuj <tld/>aj nombroj konsistigas <tld/>e
+          fermitan, nombreblan subkorpon de la korpo de kompleksoj.
+        </ekz>
+      </dif>
+      <ref tip="ant" cel="transc.0a.nombro">transcenda.</ref>
+    </subsnc>
+    <subsnc mrk="algebr.0a.superkorpo">
+      <fnt><bib>EKV</bib><lok>&para;17</lok></fnt>
+      <dif>
+        <klr>(p.p. superkorpo de <ref cel="korp.0o.MAT">korpo</ref>
+        <em>K</em>)</klr>
+        Kies &ccirc;iuj elementoj estas <tld/>aj
+        <sncref ref="algebr.0a.rilate_subkorpo"/> super <em>K</em>:
+        <ekz>
+          la korpo de reeloj ne estas <tld/>a superkorpo de la korpo de
+          racionaloj.
+        </ekz>
+      </dif>
+    </subsnc>
   </snc>
   <trd lng="de">algebraisch</trd>
   <trd lng="en">algebraic</trd>
@@ -146,7 +186,6 @@
     <ref cel="bule1.0o">Buleo</ref>.
   </refgrp>
   <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline, structure)</klr></trd>
-
 </drv>
 
 <drv mrk="algebr.lineara0o">
@@ -185,7 +224,7 @@
     </dif>
     <adm>
       Malfacilas trovi fontojn. MatVort konas iun strangan
-      "lineara asocieca algebro" kaj "vektora algebro", sed 
+      "lineara asocieca algebro" kaj "vektora algebro", sed
       ne klaras, pri kio temas. Ekzistas ankaux "~o de Banach".
       <aut>MB</aut>
     </adm>
@@ -274,22 +313,21 @@
 </art>
 <!--
 $Log$
-Revision 1.24  2002/05/20 16:35:10  revo
+Revision 1.25 2002/05/27 17:16:46 revo
+Marc Bavant: ~a (elemento): mod fnt, mod dif
+Revision 1.24 2002/05/20 16:35:10 revo
 Marc Bavant: ~o (strukturo): mod dif; ~a: mod ekz
-
-Revision 1.23  2002/05/12 16:35:25  revo
+Revision 1.23 2002/05/12 16:35:25 revo
 Marc Bavant: ~a 1: +fnt, mod refgrp; ~a 2: mod ref en dif/klr
-
-Revision 1.22  2002/05/02 16:35:19  revo
+Revision 1.22 2002/05/02 16:35:19 revo
 Marc Bavant: ~o: +snc; ~o 1: mor rim; lineara ~o: mod ref cel al lineara, -rim, sxovis ind en trd ru; +drv banahxa ~o
-
-Revision 1.21  2002/04/02 17:58:17  revo
+Revision 1.21 2002/04/02 17:58:17 revo
 Marc Bavant: ~o: -adm; lineara ~o: kor sncref ref en rim
-Revision 1.20  2002/04/01 18:49:38  revo
+Revision 1.20 2002/04/01 18:49:38 revo
 Marc Bavant: ~o: kor fnt
-Revision 1.19  2002/03/24 17:31:08  revo
+Revision 1.19 2002/03/24 17:31:08 revo
 Marc Bavant: +fnt, +trd de/en/ru, +adm
-Revision 1.18  2002/02/15 17:36:32  revo
+Revision 1.18 2002/02/15 17:36:32 revo
 Yury Finkel: formatigis
 Revision 1.17 2002/01/27 17:31:34 revo
 Marc Bavant: bulea ~o: mod distribuebla, +ref en dif
