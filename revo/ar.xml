@@ -163,8 +163,7 @@
     </snc>
   </drv>
   <drv mrk="ar.0teorio">
-    <kap><tld/>teorio, <tld/>oteorio<fnt><bib>PIV2</bib></fnt>, teorio de la
-    <tld/>oj<fnt><bib>PIV1</bib></fnt></kap>
+    <kap><tld/>teorio, <tld/>oteorio<fnt><bib>PIV2</bib></fnt>, teorio de la <tld/>oj<fnt><bib>PIV1</bib></fnt></kap>
     <uzo tip="fak">MAT</uzo>
     <snc>
       <dif>
@@ -227,7 +226,7 @@
       &Ccirc;i-sence troveblas anka&ubreve; <ctl>argumentaro</ctl>
       <fnt><bib>MatStokTerm</bib><lok>p. 33</lok></fnt>, sed termino
       simetria al <ctl>celo-<tld/>o</ctl> &scirc;ajnis al ni preferinda.
-      Notu, ke fonta kaj cela <tld/>oj estas nocioj, uzataj precipe, kiam la 
+      Notu, ke fonta kaj cela <tld/>oj estas nocioj, uzataj precipe, kiam la
       rilato estas konsiderata kiel unu- a&ubreve; plur-senca funkcio. Tamen
       la nocioj estas pravigitaj anka&ubreve; kadre de internaj rilatoj, ofte
       reprezenteblaj per sagaj diagramoj. Elemento estas en la cela
@@ -286,6 +285,42 @@
     <trd lng="fr">ensemble vide</trd>
     <trd lng="ru">&c_p;&c_u;&c_s;&c_t;&c_o;&c_je; <ind>&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</ind></trd>
   </drv>
+  <drv mrk="ar.orda0o">
+    <kap>orda <tld/>o</kap>
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>EKV</bib><lok>&para;308</lok></fnt>
+    <snc>
+      <dif>
+        <ref cel="ar.0o.MAT"><tld lit="A"/>o</ref>, konsiderata kune kun
+        <ref cel="rilat.ordo0o">ordo-rilato</ref> super &gcirc;i:
+        <ekz>
+          ordan <tld/>on oni ofte signas per skriba&jcirc;o de la tipo
+          (<em>E</em>,&#x2264;).
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        Specifaj elementoj en orda aro:
+        <ref cel="antaux.0anto.MAT">anta&ubreve;anto</ref>,
+        <ref cel="post.0anto.MAT">postanto</ref>,
+        <ref cel="suprem.0o">supremo</ref>,
+        <ref cel="infim.0o">infimo</ref>,
+        <ref cel="bar.0o.MAT">baro</ref>,
+        <ref cel="maksim1.0o.MAT">maksimumo</ref>,
+        <ref cel="minimu.0o.MAT">minimumo</ref>,
+      </refgrp>
+      <trd lng="de">geordnete <ind>Menge</ind></trd>
+      <trd lng="en">ordered <ind>set</ind></trd>
+      <trd lng="fr">ensemble ordonn&eacute;</trd>
+      <trd lng="ru">&c_u;&c_p;&c_o;&c_r;&c_ja;&c_d;&c_o;&c_ch;&c_je;&c_n;&c_n;&c_o;&c_je; <ind>&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</ind>
+      </trd>
+      <adm>
+        Alternativaj formoj estus : ~ohava, ~ita. &Ccirc;i-lasta &gcirc;enas
+        pro la necerta statuso de la verbo ~i (vd adm noton &ccirc;i-sube).
+        Bricard (p. 18) havas "(bone) ordigita".
+        <aut>MB</aut>
+      </adm>
+    </snc>
+  </drv>
   <drv mrk="ar.sub0o">
     <kap>sub<tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
@@ -297,22 +332,32 @@
         <em>A</em>, kies <ref cel="elemen.0o.MAT">elementoj</ref> apartenas
         al <em>E</em>:
         <ekz>
-          por &ccirc;iu <tld/>o <em>E</em> ekzistas <tld/>o de &gcirc;iaj
-          sub<tld/>oj, foje signita per <em>2</em><sup>E</sup>;
-        </ekz>
-        <ekz>
-          &ccirc;iu <tld/>o estas sub<tld/>o de si mem;
-        </ekz>
-        <ekz>
           la fakton, ke <em>A</em> estas sub<tld/>o de <em>E</em>,
-          oni signas per <em>A</em>&#8834;<em>E</em>.
+          oni signas per <em>A</em>&#8834;<em>E</em>;
+        </ekz>
+        <ekz>
+          la sub<tld/>oj de <em>E</em> konsistigas <tld/>on, nomatan
+          <ind>aro de &ccirc;iuj sub<tld/>oj</ind>
+          <fnt><bib>EKV</bib><lok>&para;32</lok></fnt> de <em>E</em> kaj
+          foje signatan per <em>2</em><sup>E</sup>;
+          <trd lng="de">Potenzmenge</trd>
+          <trdgrp lng="en">
+            <trd>power <ind>set</ind></trd>,
+            <trd>set of all subsets</trd>
+          </trdgrp>
+          <trd lng="fr">ensemble des sous-ensembles</trd>
+          <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o; &c_v;&c_s;&c_je;&c_h; &c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;</trd>
+        </ekz>
+        <ekz>
+          &ccirc;iu <tld/>o estas sub<tld/>o de si mem.
         </ekz>
       </dif>
       <ref tip="vid" cel="inkluz.0i.aro">inkluzivi.</ref>
     </snc>
     <trdgrp lng="de">
       <trd>Teilmenge</trd>,
-      <trd>Untermenge</trd></trdgrp> 
+      <trd>Untermenge</trd>
+    </trdgrp>
     <trd lng="en">subset</trd>
     <trdgrp lng="fr">
       <trd>sous-ensemble</trd>,
@@ -341,21 +386,18 @@
 </art>
 <!--
 $Log$
-Revision 1.31  2002/05/20 16:37:20  revo
+Revision 1.32 2002/05/27 17:16:57 revo
+Marc Bavant: kvocienta ~o: +rim, -adm; malplena ~o, sub~o: mod fnt
+Revision 1.31 2002/05/20 16:37:20 revo
 Marc Bavant: ~teorio: +fnt; malplena ~o: mod ekz
-
-Revision 1.30  2002/05/12 16:35:15  revo
+Revision 1.30 2002/05/12 16:35:15 revo
 Marc Bavant: ~o: mor rim; sub~o: kor lng cxe trd de; celo-~o, fonto-~o: +rim, -adm
-
-Revision 1.29  2002/05/02 16:35:23  revo
+Revision 1.29 2002/05/02 16:35:23 revo
 Marc Bavant: sub~o: +trd de
-
-Revision 1.28  2002/03/20 17:35:40  revo
+Revision 1.28 2002/03/20 17:35:40 revo
 Yury Finkel: formatigis
-
 Revision 1.27 2002/02/23 19:58:14 revo
 Marc Bavant: ~o MAT: mod rim
-
 Revision 1.26 2002/01/08 20:23:44 revo
 fontindiko PrV per programo de Jerome
 Revision 1.25 2001/09/29 18:13:33 revo
