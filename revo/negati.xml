@@ -4,8 +4,7 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<ofc>2</ofc>
-<rad>negativ</rad>/a
+<ofc>2</ofc><rad>negativ</rad>/a
 </kap>
 <drv mrk="negati.0a">
 <kap><tld/>a</kap>
@@ -21,17 +20,48 @@ solvon) kritiko.
 <snc num="2">
 <dif>
 Nula.
-<!-- Nekomprenebla difino (Marc Bavant) -->
 </dif>
+<adm>
+  Nekomprenebla difino. Eble &gcirc;i aludas esprimojn
+  de la tipo : la rezulto de la kunveno estis ~a.
+  <aut>MB</aut>
+</adm>
 </snc>
 <snc num="3">
 <uzo tip="fak">ELE</uzo>
 <uzo tip="fak">FOT</uzo>
-<uzo tip="fak">MAT</uzo>
-<dif>
-Malpozitiva.
-</dif>
+<ref tip="dif" cel="poziti.mal0a">malpozitiva.</ref>
+<adm>
+  &Ccirc;u indas konservi referencon al io ne tre uzata
+  (kaj ankora&ubreve; nedifinita en Revo)?
+  <aut>MB</aut>
+</adm>
 </snc>
+      
+      <snc mrk="negati.0a.nombro">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(p.p. <ref cel="nombr.0o">nombro</ref>)</klr>
+          Malpli granda ol 0:
+          <ekz>
+            <tld/>a kvanto povas esti signata per la signo "-"
+            <klr>(ekz-e -3)</klr>;
+          </ekz>
+          <ekz>
+            la kvadrato de <tld/>a reelo estas pozitiva.
+          </ekz>
+        </dif>
+        <rim>
+          Kiel por &ccirc;iu <ref cel="rilat.ordo0o">ordo-rilato</ref>
+          ekzistas ambigueco, &ccirc;u oni konsideras &gcirc;in strikte
+          a&ubreve; malstrikte. 
+          La&ubreve; la kunteksto eblas konsideri,
+          ke 0 estas <tld/>a a&ubreve; ne.
+        </rim>
+        <ref tip="ant" cel="poziti.0a.nombro">pozitiva.</ref>
+      </snc>
+
+<trd lng="fr">n&eacute;gatif <klr tip="ind">(adj.)</klr></trd>
 </drv>
 
    <drv mrk="negati.0o">
@@ -41,6 +71,7 @@ Malpozitiva.
        <dif>
          <tld lit="N"/>a bildo.
        </dif>
+       <trd lng="fr">n&eacute;gatif <klr tip="ind">(photog.)</klr></trd>
      </snc>
 
      <snc mrk="negati.0o.neuxtriganto">
@@ -52,10 +83,29 @@ Malpozitiva.
        <trd lng="fr">oppos&eacute;</trd>
      </snc>
    </drv>
+
+    <drv mrk="negati.ne0a">
+      <kap>ne<tld/>a</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <klr>(p.p. <ref cel="nombr.0o">nombro</ref>)</klr>
+          Pli granda ol 0 a&ubreve; egala al &gcirc;i.
+        </dif>
+        <rim>
+          Tiun vorton oni uzas por eviti la ambiguecon de 
+          <ref tip="sin" cel="poziti.0a.nombro">pozitiva.</ref>
+        </rim>
+      </snc>
+      <trd lng="fr">non-n&eacute;gatif</trd>
+    </drv>
 </art>
 
 <!--
 $Log$
+Revision 1.5  2001/02/16 08:51:28  revo
+oficialeco per programo de JM Lugrin
+
 Revision 1.4  2000/10/07 16:12:24  revo
 Marc Bavant: ~a (+snc MAT), ~o (+snc FOT, +snc MAT neuxtriganto)
 
