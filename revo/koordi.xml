@@ -18,6 +18,7 @@
     </dif>
     <refgrp tip="sub">
       <ref cel="koordi.kartezia0o">kartezia <tld/>o</ref>,
+      <ref cel="koordi.pezocentra0o">pezocentra <tld/>o</ref>,
       <ref cel="koordi.polusa0o">polusa <tld/>o</ref>,
       <ref cel="koordi.cilindra0o">cilindra <tld/>o</ref>,
       <ref cel="koordi.sfera0o">sfera <tld/>o</ref>.
@@ -67,6 +68,40 @@
     <trd>rep&egrave;re</trd></trdgrp> 
   <trd lng="pl">uk&lstroke;ad wsp&oacute;&lstroke;rz&eogonek;dnych</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;</trd>
+</drv>
+
+<drv mrk="koordi.cilindra0o">
+  <kap>cilindra <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <klr>(de punkto M en tridimensia reela e&ubreve;klida
+      <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
+      ununorma koordinatsistemo (O,<em>i</em>,<em>j</em>,<em>k</em>))</klr>
+      &Ccirc;iu el la tri reeloj (&rho;, &theta;, z), kie (&rho;, &theta;)
+      estas la <ref cel="koordi.polusa0o">polusaj <tld/>oj</ref> de
+      la orta projekcia&jcirc;o de M sur la ebeno difinita de 
+      (O,<em>i</em>,<em>j</em>), kaj z estas la
+      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de M.
+    </dif>
+    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Zylinderkoordinate</trd>,
+    <trd>Kreiszylinderkoordinate</trd></trdgrp> 
+  <trdgrp lng="en">
+    <trd>cylindrical <ind>coordinate</ind></trd>,
+    <trd>semi-polar <ind>coordinate</ind></trd></trdgrp> 
+  <trdgrp lng="fr">
+    <trd>coordonn&eacute;e cylindrique</trd>,
+    <trd>coordonn&eacute;e semi-polaire</trd></trdgrp> 
+  <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna walcowa</trd>
+  <trdgrp lng="ru">
+    <trd>&c_c;&c_i;&c_l;&c_i;&c_n;&c_d;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+    <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>,
+    <trd>&c_p;&c_o;&c_l;&c_u;&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja;
+    <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd></trdgrp> 
 </drv>
 
 <drv mrk="koordi.kartezia0o">
@@ -195,6 +230,36 @@
   <trd lng="ru">&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v;&c_a; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
 </drv>
 
+<drv mrk="koordi.pezocentra0o">
+  <kap>pezocentra <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de punkto M en n-dimensia <ref cel="spac.afina0o">afina spaco</ref>
+      rilate al n+1 punktoj (A<sub>i</sub>)<sub>0&#8804;&alfa;&#8804;n</sub> ne 
+      apartenantaj al la sama hiperebeno)</klr>
+      &Ccirc;iu el la termoj de iu ajn tia (n+1)-opo (&alfa;<sub>i</sub>), ke M 
+      estas la <ref cel="centr.pezo0o">pezocentro</ref> de la punktoj 
+      (A<sub>i</sub>) kun la koeficientoj (&alfa;<sub>i</sub>).
+    </dif>
+    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
+    <rim>
+      Tiuj koordinatoj estas homogenaj. Trovi&gcirc;as aliaj difinoj, kiuj 
+      <ctl>malhomogeneigas</ctl> ilin, postulante ekzemple, ke 
+      &alfa;<sub>0</sub>=1.
+    </rim>
+  </snc>
+  <adm>
+    Trovi fnt. <aut>MB</aut>
+  </adm>
+  <trd lng="de">baryzentrische <ind>Koordinate</ind></trd>
+  <trd lng="en">barycentric <ind>coordinate</ind></trd>
+  <trd lng="fr">coordonn&eacute;e barycentrique</trd>
+  <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna barycentryczna</trd>
+  <trd lng="ru">&c_b;&c_a;&c_r;&c_i;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+  <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
+</drv>
+
 <drv mrk="koordi.polusa0o">
   <kap>polusa <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -227,38 +292,10 @@
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
 </drv>
 
-<drv mrk="koordi.cilindra0o">
-  <kap>cilindra <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <snc>
-    <dif>
-      <klr>(de punkto M en tridimensia reela e&ubreve;klida
-      <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
-      ununorma koordinatsistemo (O,<em>i</em>,<em>j</em>,<em>k</em>))</klr>
-      &Ccirc;iu el la tri reeloj (&rho;, &theta;, z), kie (&rho;, &theta;)
-      estas la <ref cel="koordi.polusa0o">polusaj <tld/>oj</ref> de
-      la orta projekcia&jcirc;o de M sur la ebeno difinita de 
-      (O,<em>i</em>,<em>j</em>), kaj z estas la
-      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de M.
-    </dif>
-    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
-  </snc>
-  <adm>
-    Kontroli fnt, trd de/en.
-  </adm>
-  <trd lng="de">zylindrische <ind>Koordinate</ind></trd>
-  <trd lng="en">cylindrical <ind>coordinate</ind></trd>
-  <trd lng="fr">coordonn&eacute;e cylindrique</trd>
-  <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna walcowa</trd>
-  <trd lng="ru">&c_c;&c_i;&c_l;&c_i;&c_n;&c_d;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
-  <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
-</drv>
-
 <drv mrk="koordi.sfera0o">
   <kap>sfera <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
+  <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
       <klr>(de punkto M en tridimensia reela e&ubreve;klida
@@ -269,16 +306,15 @@
       <ref cel="longit.0o.MAT">longitudo</ref> kaj 
       <ref cel="latitu.0o.MAT">latitudo</ref>:
       <ekz>
-        oni ofte signas la polusajn <tld/>ojn de punkto per la triopo
+        oni ofte signas la sferajn <tld/>ojn de punkto per la triopo
         (&rho;, &theta;, &phi;).
       </ekz>
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
   </snc>
-  <adm>
-    Kontroli fnt, trd de/en.
-  </adm>
-  <trd lng="de">sph&auml;rische <ind>Koordinate</ind></trd>
+  <trdgrp lng="de">
+    <trd>Kugelkoordinate</trd>,
+    <trd>sph&auml;rische <ind>Koordinate</ind></trd></trdgrp> 
   <trd lng="en">spherical <ind>coordinate</ind></trd>
   <trd lng="fr">coordonn&eacute;e sph&eacute;rique</trd>
   <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna sferyczna</trd>
@@ -289,6 +325,8 @@
 </art>
 <!--
 $Log$
+Revision 1.13  2002/09/01 19:10:11  revo
+Marc Bavant: +drv cilindra ~o, sfera ~o; ~o: +refgrp; +trd pl; kartezia ~o: mod ekz; ~sistemo: +ekz; mod trd fr; +ref internaj
 Revision 1.12  2002/05/20 16:35:57  revo
 Marc Bavant: kartezia ~o: +ekz, +rim
 Revision 1.11 2002/05/12 16:36:04 revo
@@ -306,6 +344,5 @@ Marc Bavant: +drv polusaj ~oj
 Revision 1.5 2001/02/04 17:16:41 revo
 Marc Bavant: +ref al Kartezio, mod mrk por kartezia ~o
 Revision 1.4 2000/12/10 17:11:23 revo
-Marc Bavant: +mrk, mod de ~o MAT, +drv karteziaj ~oj
 -->
 </vortaro>
