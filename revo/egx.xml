@@ -21,22 +21,64 @@
           &gcirc;iaj <ref cel="fac.0o.pluredro">facoj</ref>;
         </ekz>
         <ekz>
-          la <tld/>oj de <ref cel="edr.tri0o">triedro</ref> estas tri 
+          la <tld/>oj de <ref cel="edr.tri0o">triedro</ref> estas tri
           duonrektoj, tiu de <ref cel="edr.du0o">duedro</ref> estas rekto.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Kante</trd>,
+        <trd>Schneide</trd>
+      </trdgrp>
+      <trd lng="en">edge</trd>
+      <trd lng="fr">ar&ecirc;te<klr tip="ind"> (d'un poly&egrave;dre)</klr></trd>
+      <trd lng="pl">kraw&eogonek;d&zacute;<klr tip="ind"> (wielo&sacute;cianu)</klr></trd>
+      <trd lng="ru">&c_r;&c_je;&c_b;&c_r;&c_o;<klr tip="ind"> (&c_m;&c_n;&c_o;&c_g;&c_o;&c_g;&c_r;&c_a;&c_n;&c_n;&c_i;&c_k;&c_a;)</klr></trd>
     </subsnc>
     <subsnc mrk="egx.0o.grafeo">
       <fnt><bib>KompLeks</bib></fnt>
-      <ref tip="vid" cel="grafe.0o">grafeo.</ref>
+      <refgrp tip="vid">
+        <ref cel="grafe.0o.strukturo">grafeo</ref>,
+        <ref cel="rand.0o.grafea_egxo">rando</ref>,
+        <ref cel="incid.0a.grafee">incida</ref>,
+        <ref cel="najbar.0a.grafee">najbara</ref>.
+      </refgrp>
+      <rim>
+        La termino trovi&gcirc;as anka&ubreve; en
+        <fnt><bib>MatVort</bib></fnt>, sed nur en klarigaj parentezoj. Tiu
+        verko ordinare uzas <ctl>streko</ctl> &ccirc;i-sence. Notindas, ke
+        multaj naciaj lingvoj uzas malsaman terminon por &ecirc;go de
+        orientita a&ubreve; neorientita grafo. Tio ne aspektas utila, &ccirc;ar
+        sufi&ccirc;as aldoni ta&ubreve;gan adjektivon en la maloftaj okazoj,
+        kiam distingo estas bezonata, ekz-e: 
+        <ekz>
+          direkta
+        </ekz>
+        a&ubreve;
+        <ekz>
+          sendirekta <tld/>o
+          <fnt><bib>KompLeks</bib></fnt>
+        </ekz>.
+      </rim>
+      <trdgrp lng="de">
+        <trd>Kante</trd>,
+        <trd>Strecke</trd>,
+        <trd>Bogen</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>edge</trd>,
+        <trd>arc<klr tip="ind"> (of a graph)</klr></trd></trdgrp> 
+      <trdgrp lng="fr">
+        <trd>ar&ecirc;te<klr tip="ind"> (d'un graphe)</klr></trd>,
+        <trd>arc<klr tip="ind"> (d'un graphe)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>kraw&eogonek;d&zacute;<klr tip="ind"> (grafu)</klr></trd>,
+        <trd>&lstroke;uk<klr tip="ind"> (grafu)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_r;&c_je;&c_b;&c_r;&c_o;<klr tip="ind"> (&c_g;&c_r;&c_a;&c_f;&c_a;)</klr></trd>,
+        <trd>&c_d;&c_u;&c_g;&c_a;<klr tip="ind"> (&c_g;&c_r;&c_a;&c_f;&c_a;)</klr></trd></trdgrp> 
     </subsnc>
-    <trdgrp lng="de">
-      <trd>Kante</trd>,
-      <trd>Schneide</trd>
-    </trdgrp>
-    <trd lng="en">edge</trd>
-    <trd lng="fr">ar&ecirc;te<klr tip="ind"> (d'un poly&egrave;dre, d'un graphe)</klr></trd>
-    <trd lng="ru">&c_r;&c_je;&c_b;&c_r;&c_o;</trd>
   </snc>
   <snc>
     <dif>
@@ -53,12 +95,58 @@
     </trdgrp>
   </snc>
 </drv>
+
+<drv mrk="egx.nop0a">
+  <kap>n-op<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="grafe.0o.strukturo">grafeo</ref>
+      (<em>E</em>,U))</klr>
+      Tia, ke la sama <tld/>o aperas maksimume n-foje en U:
+      <ekz>
+        <ind>unuop<tld/>a grafeo</ind> estas identigebla kun interna rilato
+        en <em>E</em>;
+        <trd lng="fr">1-<ind>graphe</ind></trd>
+      </ekz>
+      <ekz>
+        plurop<tld/>a grafeo <klr>(n&gt;1)</klr>.
+      </ekz>
+    </dif>
+    <rim>
+      Ni ne trovis a&ubreve;toritatan fonton por tiu termino. En
+      <fnt><bib>KompLeks</bib></fnt> trovi&gcirc;as <ctl>unuobla grafeo</ctl>,
+      sed &scirc;ajnas tamen, ke la de ni proponita termino estas logika, ja 
+      tiaj grafeoj karakterizi&gcirc;as per tio, ke iliaj e&gcirc;oj povas 
+      esti &gcirc;is n-opaj (en la senco, ke ili &gcirc;is n-ope aperas en la 
+      vico). Alternativo estas pa&ubreve;si la internaciajn formojn per 
+      kunmeta&jcirc;o de la tipo <ref cel="grafe.n0o">n-grafeo</ref>. 
+      Beda&ubreve;rinde la modelo <ctl>n-X-o</ctl> havas du eblajn 
+      interpretojn: <ctl>objekto kun n-X-oj</ctl> (
+      <ekz>
+        n-latero,
+      </ekz>
+      <ekz>
+        n-edro
+      </ekz>
+      ) a&ubreve; <ctl>X-o iel karakterizata per n</ctl> (
+      <ekz>
+        n-opo
+      </ekz>
+      ). Pli &gcirc;ene estas, ke la plej uzata formo estas 
+      <ctl>1-grafeo</ctl>, kiu sonas maloportune en elparolata frazo. Do 
+      entute la adjektiva formo &scirc;ajnas utila.
+    </rim>
+  </snc>
+  <trd lng="fr">n-<klr tip="amb">(graphe)</klr></trd>
+</drv>
 </art>
 <!--
 $Log$
-Revision 1.7  2002/03/17 17:31:22  revo
+Revision 1.8 2002/05/18 16:33:55 revo
+Ulrich Fellmann: +3 pliaj trd de
+Revision 1.7 2002/03/17 17:31:22 revo
 Marc Bavant: ~o MAT: +fnt, kor ekz, reordigis al subsnc kun komunaj trd
-
 Revision 1.6 2001/09/16 18:49:33 revo
 Marc Bavant: +snc ~o de grafeo
 Revision 1.5 2001/04/04 16:18:05 revo
@@ -67,4 +155,3 @@ Revision 1.4 2001/04/01 16:10:47 revo
 Marc Bavant: mod dif cxe snc 1, +trd
 -->
 </vortaro>
-
