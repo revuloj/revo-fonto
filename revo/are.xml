@@ -4,8 +4,8 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>are</rad>/o
-<fnt>Z</fnt>
+  <rad>are</rad>/o
+  <fnt>Z</fnt>
 </kap>
 <drv mrk="are.0o">
   <kap><tld/>o</kap>
@@ -27,22 +27,41 @@
   </snc>
   <snc mrk="are.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 29</lok></fnt>
-    <dif>
-      Mezuro de <ref cel="surfac.0o.MAT">surfaco</ref>:
-      <ekz>
-        la <tld/>o de <ref cel="angul.rekt0o">rektangulo</ref> egalas
-        al la produto de du el &gcirc;iaj sinsekvaj lateroj;
-      </ekz>
-      <ekz>
-        la <tld/>o de <ref cel="cirkl.0o.surfaco">cirklo</ref> estas
-        proporcia al la <ref cel="kvadra1.0o.algebra">kvadrato</ref> de
-        &gcirc;ia radiuso.
-      </ekz>
-    </dif>
-    <trd lng="de">Fl&auml;cheninhalt</trd>
-    <trd lng="en">area<klr tip="ind"> (of a surface)</klr></trd>
-    <trd lng="ru">&c_p;&c_l;&c_o;&c_shch;&c_a;&c_d;&c_mol;<klr tip="ind"> (&c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_i;)</klr></trd>
+    <subsnc mrk="are.0o.mezuro">
+      <fnt><bib>MatTerm</bib><lok>p. 29</lok></fnt>
+      <dif>
+        Mezuro de <ref cel="surfac.0o.MAT">surfaco</ref>:
+        <ekz>
+          la <tld/>o de <ref cel="angul.rekt0o">rektangulo</ref> egalas
+          al la produto de du el &gcirc;iaj sinsekvaj lateroj;
+        </ekz>
+        <ekz>
+          la <tld/>o de <ref cel="cirkl.0o.surfaco">cirklo</ref> estas
+          proporcia al la <ref cel="kvadra1.0o.algebra">kvadrato</ref> de
+          &gcirc;ia radiuso.
+        </ekz>
+      </dif>
+      <trd lng="de">Fl&auml;cheninhalt</trd>
+      <trd lng="en">area<klr tip="ind"> (of a surface)</klr></trd>
+      <trd lng="pl">pole</trd>
+      <trd lng="ru">&c_p;&c_l;&c_o;&c_shch;&c_a;&c_d;&c_mol;<klr tip="ind"> (&c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_i;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="are.0o.argumento">
+      <fnt><bib>PIV2</bib><lok>nerekte pro aresinuso</lok></fnt>
+      <refgrp tip="vid">
+        <ref cel="sinus.are0o"><tld/>sinuso</ref>,
+        <ref cel="kosinu.are0o"><tld/>kosinuso</ref>,
+        <ref cel="tangen.are0o"><tld/>tangento</ref>,
+        <ref cel="kotang.are0o"><tld/>kotangento</ref>.
+      </refgrp>
+      <rim>
+        Ne temas pri vera senco, sed pri uzo de la radiko <ctl><tld/></ctl> por 
+        formi malfacile analizeblajn kunmeta&jcirc;ojn pro imito al internacia 
+        uzo. Supozeble estus preferinde konsideri la rezultajn 
+        kunmeta&jcirc;ojn kiel apartajn radikojn. La problemo similas al tiu de
+        <ref cel="ark.0o.angulo">arko <sncref/></ref>.
+      </rim>
+    </subsnc>
   </snc>
   <snc mrk="are.0o.FIZ">
     <uzo tip="fak">FIZ</uzo>
@@ -59,15 +78,15 @@
     </refgrp>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_p;&c_l;&c_o;&c_sh;&c_ch;&c_a;</trd>, 
-    <trd>&c_p;&c_r;&c_a;&c_s;&c_t;&c_o;&c_r;&c_a;</trd>, 
-    <trd>&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;&c_n;&c_ja;</trd>, 
+    <trd>&c_p;&c_l;&c_o;&c_sh;&c_ch;&c_a;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_s;&c_t;&c_o;&c_r;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;&c_n;&c_ja;</trd>,
     <trd>&c_z;&c_o;&c_n;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>&aacute;rea</trd>,
     <trd>superficie</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>aire</trd>,
     <trd>superficie</trd>,
@@ -106,22 +125,20 @@
     </dif>
   </snc>
 </drv>
-
 </art>
 <!--
 $Log$
-Revision 1.8  2002/03/21 18:37:49  revo
+Revision 1.9 2002/05/15 16:42:35 revo
+Alejandro Mejia Greene: ald his trd
+Revision 1.8 2002/03/21 18:37:49 revo
 Zmicier Lapcionak: + trd be
-
-Revision 1.7  2002/03/11 17:32:33  revo
+Revision 1.7 2002/03/11 17:32:33 revo
 Marc Bavant: ~o MAT: +trd de/en/ru;+drv ~ajxo, sam~a
-
-Revision 1.6  2001/06/23 18:12:00  revo
+Revision 1.6 2001/06/23 18:12:00 revo
 Marc Bavant: reverkis
-Revision 1.5  2000/10/09 16:13:42  revo
+Revision 1.5 2000/10/09 16:13:42 revo
 Marc Bavant: aldono de franca traduko
-Revision 1.4  2000/08/10 18:24:48  revo
+Revision 1.4 2000/08/10 18:24:48 revo
 Yury Finkel: aldono de rusa traduko
 -->
 </vortaro>
-
