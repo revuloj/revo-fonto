@@ -8,50 +8,76 @@
   <rad>konus</rad>/o
 </kap>
 <drv mrk="konus.0o">
-  <kap>
-    <ofc>*</ofc><tld/>o
-  </kap>
-  <snc mrk="konus.0o.surfaco">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="konus.0o.MAT">
     <uzo tip="fak">MAT</uzo>
-    <dif>
-      <ref tip="super" cel="surfac.0o.MAT">Surfaco</ref>, naskita de
-      &ccirc;iuj rektoj
-      <klr>(&gcirc;iaj
-      <ref tip="prt" cel="nask.0anto.rekto">naskantoj</ref>)</klr>,
-      kiuj havas unu komunan punkton
-      <klr>(la <ref tip="prt" cel="vertic.0o.konuso">verticon</ref> de la
-      <tld/>o)</klr>, kaj sekcas fiksan linion
-      <klr>(&gcirc;ian
-      <ref tip="prt" cel="direkt.0anto.linio">direktanton</ref>)</klr>:
-      <ekz>
-        cirkla, elipsa, kvadrata ks <tld/>o <klr>(kies direktanto estas
-        cirklo,
-        elipso, kvadrato ks orta al &gcirc;ia akso)</klr>;
-      </ekz>
-      <ekz>
-        se ebeno sekcas <tld/>on nur en &gcirc;ia vertico, &gcirc;i apartigas
-        du subpartojn de la surfaco, kiujn oni nomas anka&ubreve; <tld/>oj
-        a&ubreve; duon<tld/>oj.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="konik.0o">koniko</ref>.
-    </refgrp>
-    <trd lng="de">Kegelschnitt</trd>
+    <subsnc mrk="konus.0o.surfaco">
+      <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+      <dif>
+        <ref tip="super" cel="surfac.0o.MAT">Surfaco</ref>, naskita de
+        &ccirc;iuj rektoj <klr>(&gcirc;iaj
+        <ref tip="prt" cel="nask.0anto.rekto">naskantoj</ref>)</klr>,
+        kiuj havas unu komunan punkton
+        <klr>(la <ref tip="prt" cel="vertic.0o.konuso">verticon</ref> de la
+        <tld/>o)</klr>, kaj sekcas fiksan linion
+        <klr>(&gcirc;ian
+        <ref tip="prt" cel="direkt.0anto.linio">direktanton</ref>)</klr>:
+        <ekz>
+          cirkla, elipsa, kvadrata ks <tld/>o <klr>(kies direktanto estas
+          cirklo, elipso, kvadrato ks orta al &gcirc;ia akso)</klr>;
+        </ekz>
+        <ekz>
+          se ebeno sekcas <tld/>on nur en &gcirc;ia vertico, &gcirc;i apartigas
+          du subpartojn de la surfaco, kiujn oni nomas anka&ubreve; <tld/>oj
+          a&ubreve; duon<tld/>oj.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="konik.0o">koniko</ref>,
+        <ref cel="rekt.0ara.surfaco">rektara.</ref>
+      </refgrp>
+      <trdgrp lng="de">
+        <trd>Kegel</trd>,
+        <trd>Kegelfl&auml;che</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>cone</trd>,
+        <trd>conical <ind>surface</ind></trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>c&ocirc;ne</trd>,
+        <trd>surface conique</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_k;&c_o;&c_n;&c_u;&c_s;</trd>,
+        <trd>&c_k;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="konus.0o.solido">
+      <fnt><bib>VdE</bib></fnt>
+      <dif>
+        <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun limas
+        <ref cel="konus.0o.surfaco">duon<tld/>a surfaco</ref>
+        <klr>(&gcirc;ia <ref tip="super" cel="flank.0o">flanko</ref>)</klr>
+        kaj unu ebena surfaco <klr>(&gcirc;ia
+        <ref tip="prt" cel="baz.0o.figuro">bazo</ref>)</klr>,
+        kiu sekcas la <tld/>an surfacon la&ubreve; fermita linio.
+      </dif>
+      <trdgrp lng="de">
+        <trd>Kegel</trd>,
+        <trd>Kegelk&ouml;rper</trd>
+      </trdgrp>
+    </subsnc>
+    <rim>
+      Pro la komunuza senco de <ctl><tld/>o</ctl> la vortaroj emas
+      difini &gcirc;in fake kiel solidon (vd <fnt><bib>PIV1</bib></fnt>).
+      &Scirc;ajnas al ni, ke tio estas tro pedanta, &ccirc;ar la naciaj
+      lingvoj kutime akceptas amba&ubreve; fakajn sencojn. Oni uzu
+      <ctl><tld/>a surfaco</ctl> a&ubreve; <ctl><tld/>a solido</ctl> en
+      dubaj okazoj.
+    </rim>
   </snc>
-  <snc mrk="konus.0o.solido">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun limas
-      <ref cel="konus.0o.surfaco">duon<tld/>a surfaco</ref>
-      <klr>(&gcirc;ia <ref tip="super" cel="flank.0o">flanko</ref>)</klr>
-      kaj unu ebena surfaco <klr>(&gcirc;ia
-      <ref tip="prt" cel="baz.0o.figuro">bazo</ref>)</klr>,
-      kiu sekcas la <tld/>an surfacon la&ubreve; fermita linio.
-    </dif>
-    <trd lng="de">Kegel</trd>
-  </snc>
-  <snc>
+  <snc mrk="konus.0o.KOMUNE">
     <dif>
       Objekto, havanta formon de <tld/>o:
       <ekz>
@@ -74,25 +100,20 @@
 </art>
 <!--
 $Log$
-Revision 1.11  2001/10/26 18:14:25  revo
+Revision 1.12 2002/03/14 17:32:06 revo
+Ulrich Fellmann: + 3 germ trdj
+Revision 1.11 2001/10/26 18:14:25 revo
 Yury Finkel: +trd ru
-
-Revision 1.10  2001/06/23 18:12:11  revo
+Revision 1.10 2001/06/23 18:12:11 revo
 Marc Bavant: mod ref cel al bazo, mod ref tip al karakterizaj elementoj de
 ~o
-
-Revision 1.9  2001/04/26 16:15:39  revo
+Revision 1.9 2001/04/26 16:15:39 revo
 Karlo Freeman: +trd=en
-
-Revision 1.8  2001/04/14 17:24:31  revo
+Revision 1.8 2001/04/14 17:24:31 revo
 Marc Bavant: mod ref cel al vertico (de ~o)
-
-Revision 1.7  2001/04/09 17:09:41  revo
+Revision 1.7 2001/04/09 17:09:41 revo
 Marc Bavant: +ref al koniko
-
-Revision 1.6  2001/04/05 16:13:23  revo
+Revision 1.6 2001/04/05 16:13:23 revo
 Helio Jaques: trad port
-
 -->
 </vortaro>
-
