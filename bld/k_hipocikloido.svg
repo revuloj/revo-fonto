@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+  <!ENTITY scale_4 "800">
+  <!ENTITY offset_1 "&scale_2;">
+]>
+
+<svg version="1.1" 
+  width="20cm" height="10cm" 
+  viewBox="0 0 &scale_4; &scale_2;"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Hipocikloidoj</title>
+  <desc/>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        function xx(t) {
+          return (1+parm)*Math.cos(t)-Math.cos((1+parm)*t);
+        }
+        
+        function yy(t) {
+          return (1+parm)*Math.sin(t)-Math.sin((1+parm)*t);
+        }
+        
+        function path_data(f, g, t0, t1, nb_points, scale_xy) {
+          var d = "M "; 
+          var inc = (t1-t0)/nb_points;
+          for (var t=t0; t<=t1; t+=inc) {
+            if (!(Math.abs(f(t)) > scale/scale_xy) &&
+              !(Math.abs(g(t)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t) + " " + (-scale_xy)*g(t) 
+            }
+          }
+          return d;
+        }
+
+        var t0 = -2*Math.PI, t1 = 2*Math.PI;
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+
+        // Montri la aksojn
+        var objet = svgdoc.getElementById("x_akso_pinto");
+        var points = 0.95*scale + " " + (-0.015*scale) + " " + 0.999*scale + " 0 " +
+                     0.95*scale + " " + 0.015*scale; 
+        objet.setAttribute ("points",points);
+
+        var objet = svgdoc.getElementById("x_akso_indiko");
+        objet.setAttribute ("x",0.95*scale);
+        objet.setAttribute ("y",0.10*scale);
+        var objet = svgdoc.getElementById("y_akso_indiko");
+        objet.setAttribute ("x",0.05*scale);
+        objet.setAttribute ("y",-0.95*scale);
+
+        // Desegni la funkciojn
+        var objet = svgdoc.getElementById("kurbo1");
+        var parm = -3, scale_xy = 60;
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        var objet = svgdoc.getElementById("kurbo2");
+        var parm = -4, scale_xy = 45;
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+
+        function konstruelementoj(numero, theta1, theta2) {
+          //  Ĉefa cirklo
+          var objet = svgdoc.getElementById("konstrucirklo_"+numero+"a");
+          objet.setAttribute ("r", -parm*scale_xy);
+
+          //  Ruliĝanta cirklo
+          var xr = (parm+1)*Math.cos(theta1), yr=(parm+1)*Math.sin(theta1); 
+          var objet = svgdoc.getElementById("konstrucirklo_"+numero+"b");
+          objet.setAttribute ("r", scale_xy);
+          objet.setAttribute ("cx", scale_xy*xr);
+          objet.setAttribute ("cy", scale_xy*yr);
+
+          //  Streko liganta la centrojn
+          var objet = svgdoc.getElementById("intercentra_streko_"+numero+"");
+          objet.setAttribute ("x2", scale_xy*xr);
+          objet.setAttribute ("y2", scale_xy*yr);
+
+          //  Radiuso de la naskanta punkto
+          var objet = svgdoc.getElementById("naskantoradiuso_"+numero+"");
+          objet.setAttribute ("x1", scale_xy*xr);
+          objet.setAttribute ("y1", scale_xy*yr);
+          objet.setAttribute ("x2", scale_xy*xx(theta2));
+          objet.setAttribute ("y2", scale_xy*yy(theta2));
+          
+          //  Naskanta punkto
+          var objet = svgdoc.getElementById("naskanto_"+numero+"");
+          objet.setAttribute ("cx", scale_xy*xx(theta2));
+          objet.setAttribute ("cy", scale_xy*yy(theta2));
+        }
+        
+        var parm = -3, scale_xy = 60;
+        konstruelementoj("1", 2*Math.PI/5, 2*Math.PI/5+0.04);
+        
+        var parm = -4, scale_xy = 45;
+        konstruelementoj("2", Math.PI+0.10, Math.PI+0.05);
+  
+      }
+    ]]></script>
+  </defs>
+
+  <svg version="1.1" 
+    width="10cm" height="10cm" 
+    viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+    
+    <g id="kadro">
+      <!-- rect class="fenestro" x="-&scale;" y="-&scale;" width="&scale_2;" height="&scale_2;"/ -->
+      <!--
+        Aksoj kaj titolo
+      -->
+      <g id="x_akso">
+        <path class="akso" d="M -&scale; 0 H &scale;"/>
+        <polygon id="x_akso_pinto" class="pinto" points=""/>
+        <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+      </g>
+
+      <g id="y_akso">
+        <path class="akso" d="M 0 -&scale; V &scale;"/>
+        <use xlink:href="#x_akso_pinto" transform="rotate(-90)"/> 
+        <text id="y_akso_indiko" class="akso" x="" y="">y</text>
+      </g>
+    </g>
+
+    <!--
+      Kurbo
+    -->
+
+    <path id="kurbo1" class="kurbo" d=""/>
+    <text>
+      <textPath xlink:href="#kurbo1" dy="-5" startOffset="11%">
+        <tspan style="font-style: italic">m</tspan>=3
+      </textPath>
+    </text>
+
+    <!--
+      Elementoj de konstruo
+    -->
+
+    <circle id="konstrucirklo_1a" cx="0" cy="0" r="" 
+      style="fill:none; stroke-width:2" class="streketita"/>
+    <circle id="konstrucirklo_1b" cx="0" cy="0" r="" 
+      style="fill:none; stroke-width:2" class="streketita"/>
+    <line id="intercentra_streko_1" x1="0" y1="0" x2="" y2="" 
+      style="stroke-width:2" class="streketita"/>
+    <line id="naskantoradiuso_1" x1="" y1="" x2="" y2="" 
+      style="stroke-width:2" class="streketita"/>
+    <circle id="naskanto_1" cx="" cy="" r="4"/>
+   
+  </svg>
+
+  <g transform="translate(&offset_1;,0)">
+    <svg version="1.1" 
+      width="10cm" height="10cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+
+      <use xlink:href="#kadro"/>
+
+      <path id="kurbo2" class="kurbo" d=""/>
+      <text>
+        <textPath xlink:href="#kurbo2" dy="-5" startOffset="16%">
+          <tspan style="font-style: italic">m</tspan>=4
+        </textPath>
+      </text>
+
+      <!--
+        Elementoj de konstruo
+      -->
+
+      <circle id="konstrucirklo_2a" cx="0" cy="0" r="" 
+        style="fill:none; stroke-width:2" class="streketita"/>
+      <circle id="konstrucirklo_2b" cx="0" cy="0" r="" 
+        style="fill:none; stroke-width:2" class="streketita"/>
+      <line id="intercentra_streko_2" x1="0" y1="0" x2="" y2="" 
+        style="stroke-width:2" class="streketita"/>
+      <line id="naskantoradiuso_2" x1="" y1="" x2="" y2="" 
+        style="stroke-width:2" class="streketita"/>
+      <circle id="naskanto_2" cx="" cy="" r="4"/>
+  
+    </svg>
+  </g>
+ 
+</svg>

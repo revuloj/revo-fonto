@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+  <!ENTITY offset_1 "250">
+  <!ENTITY offset_2 "500">
+]>
+
+<svg version="1.1" 
+  width="21cm" height="10cm" 
+  viewBox="0 0 840 400"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  onload="start(evt,&scale;)">
+
+  <title>Paskala limako</title>
+  <desc>
+    Prezentas tri diversajn kurbojn kun malsamaj parametroj
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        function rho(t) {
+          return Math.cos(t)+parm;
+        }
+        
+        function path_data(f, t0, t1, nb_points, scale_xy) {
+          var d = "M "; 
+          var inc = (t1-t0)/nb_points;
+          for (var t=t0; t<=t1; t+=inc) {
+            if (!(Math.abs(f(t)*Math.cos(t)) > scale/scale_xy) &&
+              !(Math.abs(f(t)*Math.sin(t)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t)*Math.cos(t) + " " + (-scale_xy)*f(t)*Math.sin(t) 
+            }
+          }
+          return d;
+        }
+
+        var t0 = -Math.PI, t1 = Math.PI;
+        var parm, scal_xy;
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+
+        // Montri la aksojn
+        var objet = svgdoc.getElementById("x_akso_pinto");
+        var points = 0.95*scale + " " + (-0.015*scale) + " " + 0.999*scale + " 0 " +
+                     0.95*scale + " " + 0.015*scale; 
+        objet.setAttribute ("points",points);
+
+        var objet = svgdoc.getElementById("x_akso_indiko");
+        objet.setAttribute ("x",0.95*scale);
+        objet.setAttribute ("y",0.10*scale);
+        var objet = svgdoc.getElementById("y_akso_indiko");
+        objet.setAttribute ("x",0.05*scale);
+        objet.setAttribute ("y",-0.95*scale);
+
+        // Desegni la funkciojn
+        scale_xy = 70; parm = 0.5;
+        var objet = svgdoc.getElementById("kurbo1");
+        objet.setAttribute ("d", path_data(rho, t0, t1, 1000, scale_xy));
+        scale_xy = 70; parm = 1;
+        var objet = svgdoc.getElementById("kurbo2");
+        objet.setAttribute ("d", path_data(rho, t0, t1, 1000, scale_xy));
+        scale_xy = 70; parm = 1.4;
+        var objet = svgdoc.getElementById("kurbo3");
+        objet.setAttribute ("d", path_data(rho, t0, t1, 1000, scale_xy));
+ 
+      }
+    ]]></script>
+  </defs>
+
+  <svg version="1.1" 
+    width="7cm" height="10cm" 
+    viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+    preserveAspectRatio="xMaxYMax slice">
+    
+    <g id="kadro">
+      <!-- rect class="fenestro" x="-&scale;" y="-&scale;" width="&scale_2;" height="&scale_2;"/ -->
+      <!--
+        Aksoj kaj titolo
+      -->
+      <g id="x_akso">
+        <path class="akso" d="M -&scale; 0 H &scale;"/>
+        <polygon id="x_akso_pinto" class="pinto" points=""/>
+        <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+      </g>
+
+      <g id="y_akso">
+        <path class="akso" d="M 0 -&scale; V &scale;"/>
+        <use xlink:href="#x_akso_pinto" transform="rotate(-90)"/> 
+        <text id="y_akso_indiko" class="akso" x="" y="">y</text>
+      </g>
+    </g>
+
+    <!--
+      Kurbo
+    -->
+
+    <path id="kurbo1" class="kurbo" d=""/>
+    <text>
+      <textPath xlink:href="#kurbo1" dy="-5" startOffset="26.5%">
+        <tspan style="font-style: italic">l</tspan>=0.5
+      </textPath>
+    </text>
+  </svg>
+
+  <g transform="translate(&offset_1;,0)">
+    <svg version="1.1" 
+      width="7cm" height="10cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+      preserveAspectRatio="xMaxYMax slice">
+
+      <use xlink:href="#kadro"/>
+
+      <!-- circle cx="0" cy="&scale;" r="20" style="fill:white" opacity="1"/>
+      <text x="0" y="&scale;" class="komento" text-anchor="begin">Paskala limako</text -->
+      <!-- kaj kardioido! -->
+
+      <path id="kurbo2" class="kurbo" d=""/>
+      <text>
+        <textPath xlink:href="#kurbo2" dy="-5" startOffset="24%">
+          <tspan style="font-style: italic">l</tspan>=1
+        </textPath>
+      </text>
+    </svg>
+  </g>
+   
+  <g transform="translate(&offset_2;,0)">
+    <svg version="1.1" 
+      width="7cm" height="10cm" 
+      viewBox="-&scale; -&scale; &scale_2; &scale_2;"
+      preserveAspectRatio="xMaxYMax slice">
+
+      <use xlink:href="#kadro"/>
+
+      <path id="kurbo3" class="kurbo" d=""/>
+      <text>
+        <textPath xlink:href="#kurbo3" dy="-5" startOffset="23%">
+          <tspan style="font-style: italic">l</tspan>=1.4
+        </textPath>
+      </text>
+    </svg>
+  </g>
+ 
+</svg>

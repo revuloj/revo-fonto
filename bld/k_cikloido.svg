@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stl/k_kurbo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY minus_epsilon "40">
+  <!ENTITY scale_half "100">
+  <!ENTITY scale "200">
+  <!ENTITY scale_2 "400">
+  <!ENTITY offset_1 "150">
+  <!ENTITY offset_2 "300">
+]>
+
+<svg version="1.1" 
+  width="10cm" height="11.5cm"
+  viewBox="0 0 400 460"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  preserveAspectRatio="xMaxYMax meet"
+  onload="start(evt,&scale;)">
+
+  <title>Cikloidoj</title>
+  <desc>
+  </desc>
+  
+  <defs>
+    <script type="text/javascript"><![CDATA[
+      function start(evt, scale) {
+
+        function xx(t) {
+          return t-parm*Math.sin(t);
+        }
+        
+        function yy(t) {
+          return 1-parm*Math.cos(t);
+        }
+        
+        function path_data(f, g, t0, t1, nb_points, scale_xy) {
+          var d = "M "; 
+          var inc = (t1-t0)/nb_points;
+          for (var t=t0; t<=t1; t+=inc) {
+            if (!(Math.abs(f(t)) > scale/scale_xy) &&
+              !(Math.abs(g(t)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t) + " " + (-scale_xy)*g(t) 
+            }
+          }
+          return d;
+        }
+
+        var t0 = -4*Math.PI, t1 = 4*Math.PI;
+
+        var svgdoc = evt.getTarget().getOwnerDocument();
+
+        // Montri la aksojn
+        var objet = svgdoc.getElementById("x_akso_pinto");
+        var points = 0.95*scale + " " + (-0.015*scale) + " " + 0.999*scale + " 0 " +
+                     0.95*scale + " " + 0.015*scale; 
+        objet.setAttribute ("points",points);
+
+        var objet = svgdoc.getElementById("x_akso_indiko");
+        objet.setAttribute ("x",0.95*scale);
+        objet.setAttribute ("y",0.10*scale);
+        var objet = svgdoc.getElementById("y_akso_indiko");
+        objet.setAttribute ("x",0.05*scale/2);
+        objet.setAttribute ("y",-0.90*scale/2);
+
+        // Desegni la funkciojn
+        var objet = svgdoc.getElementById("kurbo1");
+        var scale_xy = 20, parm=1;
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        
+        var objet = svgdoc.getElementById("kurbo2");
+        var scale_xy = 20, parm=1.5;
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        
+        var objet = svgdoc.getElementById("kurbo3");
+        var scale_xy = 20, parm=0.6;
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+ 
+      }
+    ]]></script>
+  </defs>
+
+  <svg version="1.1" 
+    width="10cm" height="5cm" 
+    viewBox="-&scale; -&scale_half; &scale_2; &scale;"
+    preserveAspectRatio="xMaxYMin slice">
+    
+    <g id="kadro">
+      <!-- rect class="fenestro" x="-&scale;" y="-&scale_half;" width="&scale_2;" height="&scale;"/ -->
+      <!--
+        Aksoj kaj titolo
+      -->
+      <g id="x_akso">
+        <path class="akso" d="M -&scale; 0 H &scale;"/>
+        <polygon id="x_akso_pinto" class="pinto" points=""/>
+        <text id="x_akso_indiko" class="akso" x="" y="">x</text>
+      </g>
+
+      <g id="y_akso">
+        <path class="akso" d="M 0 -&scale_half; V &scale_half;"/>
+        <use xlink:href="#x_akso_pinto" transform="rotate(-90) translate(-&scale_half;,0)"/> 
+        <text id="y_akso_indiko" class="akso" x="" y="">y</text>
+      </g>
+    </g>
+
+    <!--
+      Kurbo
+    -->
+
+    <path id="kurbo1" class="kurbo" d=""/>
+    <text>
+      <textPath xlink:href="#kurbo1" dy="-5" startOffset="30%">
+        <tspan class="greka">λ</tspan>=1
+      </textPath>
+    </text>
+
+    <circle cx="0" cy="&minus_epsilon;" r="20" style="fill:white" opacity="1"/>
+    <text x="0" y="&minus_epsilon;" class="komento" text-anchor="middle">Ordinara cikloido</text>
+  </svg>
+
+  <g transform="translate(0,&offset_1;)">
+    <svg version="1.1" 
+      width="10cm" height="5cm" 
+      viewBox="-&scale; -&scale_half; &scale_2; &scale;"
+      preserveAspectRatio="xMaxYMin slice">
+
+      <use xlink:href="#kadro"/>
+
+      <circle cx="0" cy="&minus_epsilon;" r="20" style="fill:white" opacity="1"/>
+      <text x="0" y="&minus_epsilon;" class="komento" text-anchor="middle">Plilongigita cikloido, troĥoido</text>
+
+      <path id="kurbo2" class="kurbo" d=""/>
+      <text>
+        <textPath xlink:href="#kurbo2" dy="-5" startOffset="30%">
+          <tspan class="greka">λ</tspan>=1.5
+        </textPath>
+      </text>
+    </svg>
+  </g>
+   
+  <g transform="translate(0,&offset_2;)">
+    <svg version="1.1" 
+      width="10cm" height="5cm" 
+      viewBox="-&scale; -&scale_half; &scale_2; &scale;"
+      preserveAspectRatio="xMaxYMin slice">
+
+      <use xlink:href="#kadro"/>
+
+      <circle cx="0" cy="&minus_epsilon;" r="20" style="fill:white" opacity="1"/>
+      <text x="0" y="&minus_epsilon;" class="komento" text-anchor="middle">Malplilongigita cikloido</text>
+      
+      <path id="kurbo3" class="kurbo" d=""/>
+      <text>
+        <textPath xlink:href="#kurbo3" dy="-5" startOffset="30%">
+          <tspan class="greka">λ</tspan>=0.6
+        </textPath>
+      </text>
+    </svg>
+  </g>
+ 
+
+</svg>
