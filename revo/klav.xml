@@ -2,51 +2,113 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <ofc>*</ofc>
-  <rad>klav</rad>/o
-</kap>
-<drv mrk="klav.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
-    <dif>
-      Tabuleto a&ubreve; butono, kiun oni premas por funkciigi muzikan
-      instrumenton a&ubreve; alian aparaton:
-      <ekz><tld/>o de piano, de skribma&scirc;ino;</ekz>
-      <ekz>ne trafi la &gcirc;ustan <tld/>on <klr>(f. maltrafi)</klr>.</ekz> 
-    </dif>
-  </snc>
-  <trd lng="de">Taste</trd>
-  <trd lng="en">key</trd>
-  <trd lng="nl">toets</trd>
-  <trd lng="ru">&c_k;&c_l;&c_a;&c_v;&c_i;&c_sh;&c_a;</trd>
-</drv>
-<drv mrk="klav.0aro">
-  <kap><tld/>aro</kap>
-  <snc>
-    <dif>
-      Vico da <tld/>oj de instrumento:
-      <ekz><tld/>aro de orgeno.</ekz>
-    </dif>
-  </snc>
-  <trd lng="de">Tastatur</trd>
-  <trd lng="en">keyboard</trd>
-  <trd lng="nl">toetsenbord</trd>
-  <trd lng="ru">&c_k;&c_l;&c_a;&c_v;&c_i;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.7  2001/10/23 18:33:15  revo
-Paul Peeraerts: aldonis nl trd
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>klav</rad>/o
+    </kap>
+    <drv mrk="klav.0o">
+      <kap><ofc>*</ofc><tld/>o</kap>
+      <snc>
+        <dif>
+          Tabuleto a&ubreve; butono, kiun oni premas por funkciigi muzikan
+          instrumenton a&ubreve; alian aparaton:
+          <ekz>
+            <tld/>o de piano, de tajpilo;
+          </ekz><ekz>
+            ne trafi la &gcirc;ustan <tld/>on <klr>(f. maltrafi)</klr>.
+          </ekz> 
+        </dif>
+      </snc>
+      <trd lng="de">Taste</trd>
+      <trd lng="en">key</trd>
+      <trd lng="nl">toets</trd>
+      <trd lng="ru">&c_k;&c_l;&c_a;&c_v;&c_i;&c_sh;&c_a;</trd>
+    </drv>
 
-Revision 1.6  2001/09/25 18:13:56  revo
-Yury Finkel: +trd ru
+    <drv mrk="klav.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc>
+        <dif>
+          Agi per <tld/>o(j), <ref tip="sin" cel="tajp.0i">tajpi</ref>:
+          <ekz>
+            tajpu entjeran (dekuman) nombron en la &ccirc;i-supran
+            kampon kaj <tld/>u <ctl>Enen</ctl> (&ccirc;aretrevenon).
+          </ekz>
+        </dif>
+        <trdgrp lng="en">
+          <trd>type</trd>,
+          <trd>hit <klr>(a key)</klr></trd>
+        </trdgrp>
+        <trd lng="ru">&c_n;&c_a;&c_zh;&c_a;&c_t;&c_mol; <klr>(&c_k;&c_l;&c_a;&c_v;&c_i;&c_sh;&c_u;, &c_k;&c_l;&c_a;&c_v;&c_i;&c_sh;&c_i;)</klr></trd>
+      </snc>
+    </drv>
 
-Revision 1.5  2001/02/15 08:14:46  revo
-Karlo Freeman: +trd=en
+    <drv mrk="klav.0aro">
+      <kap><tld/>aro</kap>
+      <snc>
+        <dif>
+          Unu a&ubreve; pluraj vicoj da <tld/>oj de instrumento a&ubreve; aparato:
+          <ekz>
+            <tld/>aro de orgeno;
+          </ekz>
+        </dif>
+        <subsnc mrk="klav.0aro.KOMP">
+          <uzo tip="fak">KOMP</uzo>
+          <dif>
+            La plej komuna speco de <ref tip="super" cel="en.0igilo">enigilo</ref>
+            komputila, kies formo imitas la tajpilan <tld/>aron:
+            <ekz>
+              esperantigo de komputila <tld/>aro.
+            </ekz>
+          </dif>
+        </subsnc>
+      </snc>
+      <trd lng="de">Tastatur</trd>
+      <trd lng="en">keyboard</trd>
+      <trd lng="nl">toetsenbord</trd>
+      <trd lng="ru">&c_k;&c_l;&c_a;&c_v;&c_i;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
+    </drv>
 
--->
+    <drv mrk="klav.senpasxa0o">
+      <kap>senpa&scirc;a <tld/>o</kap>
+      <uzo tip="fak">TEK</uzo>
+      <uzo tip="fak">KOMP</uzo>
+      <snc>
+        <dif>
+          <ref><tld lit="K"/>o</ref> de tajpila a&ubreve; komputila klavaro,
+          kies premo ne avancas (ne pa&scirc;igas) la &ccirc;areton a&ubreve; kursoron,
+          kaj kies kutima funkcio estas enigi diakritilon de
+          plurelementa signo:
+          <ekz>
+            <ctl>^</ctl> estas senpa&scirc;a <tld/>o en la enigmetodo
+            <ctl>iso-accents-mode</ctl> de Emakso.
+          </ekz>
+        </dif>
+        <trdgrp lng="en">
+          <trd>dead key</trd>,
+          <trd>mute key</trd>,
+          <trd>accent key</trd>
+        </trdgrp>
+        <trd lng="ru">&c_m;&c_jo;&c_r;&c_t;&c_v;&c_a;&c_ja; &c_k;&c_l;&c_a;&c_v;&c_i;&c_sh;&c_a;</trd>
+      </snc>
+    </drv>
+
+  </art>
+  <!--
+  $Log$
+  Revision 1.8  2001/12/05 19:10:09  revo
+  Ulrich Fellmann: + 2 germ trdj
+
+  Revision 1.7  2001/10/23 18:33:15  revo
+  Paul Peeraerts: aldonis nl trd
+
+  Revision 1.6  2001/09/25 18:13:56  revo
+  Yury Finkel: +trd ru
+
+  Revision 1.5  2001/02/15 08:14:46  revo
+  Karlo Freeman: +trd=en
+
+  -->
 </vortaro>
-
