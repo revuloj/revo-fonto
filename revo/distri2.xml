@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id$">
+  <kap>
+    <rad>distribuci</rad>/o
+  </kap>
+<drv mrk="distri2.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc>
+    <dif>
+      <ref cel="kontin3.0a.cxie">Kontinua</ref> 
+      <ref cel="linear.0a.homomorfio">lineara</ref>
+      <ref tip="super" cel="form.0o.bildigo">formo</ref> super iu
+      vektora spaco el reelaj funkcioj:
+      <ekz>
+        la <tld/>o T<sub>h</sub>, asociita al funkcio h, kiu &jcirc;etas
+        &ccirc;iun funkcion &phi; al &lt;T<sub>h</sub>,&phi;&gt; =
+        &#x222b;<sub>]-&#8734;,+&#8734;[</sub>h(t)&phi;(t)dt;
+      </ekz>
+      <ekz>
+        ne &ccirc;iu <tld/>o estas egala al iu T<sub>h</sub>. 
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Distribution<klr tip="ind"> (verallgemeinerte Funktion)</klr></trd>
+  <trd lng="en">distribution<klr tip="ind"> (generalized function)</klr></trd>
+  <trd lng="fr">distribution<klr tip="ind"> (fonction g&eacute;n&eacute;ralis&eacute;e)</klr></trd>
+  <trd lng="ru">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_c;&c_i;&c_ja;<klr tip="ind"> (&c_o;&c_b;&c_o;&c_b;&c_shch;&c_jo;&c_n;&c_n;&c_a;&c_ja; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr> </trd>
+</drv>
+<drv mrk="distri2.diraka0o">
+  <kap>diraka <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(&ccirc;e reelo a)</klr>
+      <tld lit="D"/>o, kiu &jcirc;etas funkcion &phi; al &phi;(a):
+      <ekz>
+        la dirakan <tld/>on &ccirc;e punkto a oni kutime signas per
+        &delta;<sub>a</sub>;
+      </ekz>
+      <ekz>
+        intuicie oni ofte prezentas al si la dirakan <tld/>on, kiel
+        limeson, kiam n strebas al nefinio, de vico de funkcioj, kiuj estas 
+        nulaj eskter intervalo ]a-1/n,a+1/n[ kaj havas integralon egalan al unu.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="dirak.0o">Dirako.</ref>
+    <rim>
+       La &ccirc;i-rilata nacilingva terminologio estas sufi&ccirc;e bunta: 
+       diraka funkcio, impulsa funkcio, delta-funkcio, nadlo-funkcio, diraka 
+       funkcionalo, ktp. Tia abundo ne aspektas tre utila por tiom simpla
+       nocio, des pli se konsideri, ke tiu &ccirc;i distribucio estas 
+       asociebla al neniu vera funkcio.
+    </rim>
+  </snc>
+  <trd lng="de">Diracsche Funktion</trd>
+  <trd lng="en">Dirac['s] distribution</trd>
+  <trd lng="fr">distribution de Dirac</trd>
+  <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja; &c_D;&c_i;&c_r;&c_a;&c_k;&c_a;</trd>
+</drv>
+</art>
+
+<!--
+$Log$
+-->
+</vortaro>
