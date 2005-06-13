@@ -2,120 +2,155 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <ofc>*</ofc>
-  <rad>konjunkci</rad>/o
-</kap>
-<drv mrk="konjun.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="konjun.0o.GRA">
-    <uzo tip="fak">GRA</uzo>
-    <dif>
-      Senfleksia vorto uzata por kunigi vortojn, propoziciojn a&ubreve; frazojn.
-    </dif>
-    <trd lng="be">&c_z;&c_l;&c_u;&c_ch;&c_n;&c_ib;&c_k;</trd>
-    <trdgrp lng="de">
-      <trd>Konjunktion</trd>,
-      <trd>Bindewort</trd>
-    </trdgrp>
-    <trd lng="en">conjunction</trd>
-    <trd lng="es">conjunci&oacute;n</trd>
-    <trd lng="nl">voegwoord</trd>
-    <trd lng="ru">&c_s;&c_o;&c_ju;&c_z;</trd>
-  </snc>
-  <snc mrk="konjun.0o.logika">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
-    <dif>
-      <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
-      kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
-      asocias la propozicion, kiu estas vera, se kaj nur se
-      amba&ubreve; estas veraj; rezulto de tiu operacio:
-      <ekz>
-        la <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni foje signas per 
-        <frm>P&#8743;Q</frm> <klr>(legu: po kaj kuo)</klr>.
-      </ekz>
-    </dif>
-    <bld tip="svg" lok="../bld/t_konjunkcio.svg" lrg="150" alt="150">
-      vertabelo de <tld/>o
-    </bld>
-    <trd lng="be">&c_k;&c_a;&c_n;&c_mol;&c_ju;&c_n;&c_k;&c_c;&c_y;&c_ja;</trd>
-    <trdgrp lng="de">
-      <trd>Konjunktion</trd>,
-      <trd>logisches <ind>Produkt</ind></trd></trdgrp> 
-    <trd lng="en">conjunction</trd>
-    <trdgrp lng="fr">
-      <trd>conjonction<klr tip="ind"> (produit logique)</klr></trd>,
-      <trd>produit logique</trd></trdgrp> 
-    <trdgrp lng="pl">
-      <trd>koniunkcja</trd>,
-      <trd>iloczyn logiczny</trd></trdgrp> 
-    <trdgrp lng="ru">
-      <trd>&c_k;&c_o;&c_n;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>,
-      <trd>&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; <ind>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
-    </trdgrp> 
-  </snc>
-</drv>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>konjunkci</rad>/o
+    </kap>
 
-<drv mrk="konjun.kunordiga0o">
-  <kap>kunordiga <tld/>o</kap>
-  <snc>
-    <dif>
-      <tld lit="K"/>o, kiu kunigas samfunkciajn elementojn, ekz.
-      <ekz>
-        kaj, sed, a&ubreve;
-      </ekz>
-      kc.
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-    <trd>beiordnende Konjunktion</trd>,
-    <trd>beiordnendes Bindewort</trd>
-  </trdgrp>
-  <trd lng="en">coordinating <ind>conjunction</ind></trd>
-  <trd lng="nl">nevenschikkend <ind>voegwoord</ind></trd>
-</drv>
+    <drv mrk="konjun.0o">
+      <kap><ofc>*</ofc><tld/>o</kap>
+      <snc mrk="konjun.0o.GRA">
+        <uzo tip="fak">GRA</uzo>
+        <dif>
+          Senfleksia vorto uzata por kunigi vortojn,
+          propoziciojn a&ubreve; frazojn.
+        </dif>
+        <trd lng="be">&c_z;&c_l;&c_u;&c_ch;&c_n;&c_ib;&c_k;</trd>
+        <trdgrp lng="de">
+          <trd>Konjunktion</trd>,
+          <trd>Bindewort</trd>
+        </trdgrp>
+        <trd lng="en">conjunction</trd>
+        <trd lng="es">conjunci&oacute;n</trd>
+        <trd lng="nl">voegwoord</trd>
+        <trd lng="pl">sp&oacute;jnik</trd>
+        <trd lng="ru">&c_s;&c_o;&c_ju;&c_z;</trd>
+      </snc>
 
-<drv mrk="konjun.subordiga0o">
-  <kap>subordiga <tld/>o</kap>
-  <snc>
-    <dif>
-      <tld lit="K"/>o, kiu dependigas unu propozicion de alia, ekz.
-      <ekz>
-        ke, kvankam, se
-      </ekz>
-      kc.
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-    <trd>unterordnende Konjunktion</trd>,
-    <trd>unterordnendes Bindewort</trd>
-  </trdgrp>
-  <trd lng="en">subordinating <ind>conjunction</ind></trd>
-  <trd lng="nl">onderschikkend <ind>voegwoord</ind></trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.14  2003/02/24 17:33:31  revo
-Marc Bavant: +bld
+      <snc mrk="konjun.0o.logika">
+        <uzo tip="fak">MAT</uzo>
+        <fnt><bib>MatVort</bib></fnt>
+        <dif>
+          <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
+          kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
+          asocias la propozicion, kiu estas vera, se kaj nur se
+          amba&ubreve; estas veraj; rezulto de tiu operacio:
+          <ekz>
+            la <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni foje signas per 
+            <frm>P&#8743;Q</frm> <klr>(legu: po kaj kuo)</klr>.
+          </ekz>
+        </dif>
+        <bld tip="svg" lok="../bld/t_konjunkcio.svg" lrg="150" alt="150">
+          vertabelo de <tld/>o
+        </bld>
+        <rim>
+          Pli esperanteca, tradicia kaj nemalkohera termino estas
+          <ref tip="sin" cel="kaj.0o">kajo</ref>.  La uzo de la vorto
+          <tld/>o por nomi nur unu
+          <ref tip="super" cel="lig.0o.MAT">ligilon<sncref/></ref> sekvas
+          mistradicion latinidan, kaj estas logike difekta en lingvoj,
+          kiuj per la sama nomo signas la pli &gcirc;eneralan koncepton
+          gramatikan (kaj Esperanto estas tia lingvo, &ccirc;ar la gramatika
+          senco de la vorto <tld/>o estas por &gcirc;i fundamenta &dash; dum la
+          uzo por nomi logikan operacion, tute fre&scirc;data: PIV1 &gcirc;in ne
+          konas).  Ekz-e <ctl>kaj</ctl>, <ctl>a&ubreve;</ctl>, <ctl>se</ctl>
+          estas <tld/>oj<sncref ref="konjun.0o.GRA"/> &dash; sed ial
+          (kial?!) nur <ctl>kaj</ctl> estas <tld/>o<sncref
+          ref="konjun.0o.logika"/>.  Kiel pruvis diskuto en
+          soc.culture.esperanto, iuj latinidlingvaj esperantistoj
+          efektive konfuzas la sencon fundamentan kun la speciala
+          senco matematika.
+          <aut>Sergio Pokrovskij</aut>
+        </rim>
+        <trd lng="be">&c_k;&c_a;&c_n;&c_mol;&c_ju;&c_n;&c_k;&c_c;&c_y;&c_ja;</trd>
+        <trdgrp lng="de">
+          <trd>Konjunktion</trd>,
+          <trd>logisches <ind>Produkt</ind></trd></trdgrp> 
+        <trd lng="en">conjunction</trd>
+        <trdgrp lng="fr">
+          <trd>conjonction<klr tip="ind"> (produit logique)</klr></trd>,
+          <trd>produit logique</trd></trdgrp> 
+        <trdgrp lng="pl">
+          <trd>koniunkcja</trd>,
+          <trd>iloczyn logiczny</trd></trdgrp> 
+        <trdgrp lng="ru">
+          <trd>&c_k;&c_o;&c_n;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>,
+          <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja; <ind>&c_I;</ind></trd>,
+          <trd>&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
+<ind>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+        </trdgrp> 
+      </snc>
+    </drv>
 
-Revision 1.13  2002/11/30 17:35:39  revo
-Marc Bavant: mod legu
-Revision 1.12  2002/11/26 17:31:50  revo
-Marc Bavant: +frm, +trd pl
-Revision 1.11  2002/06/02 17:32:59  revo
-Marc Bavant: ~o: +snc MAT
-Revision 1.10 2002/02/27 17:59:25 revo
-Ulrich Fellmann: + 6 germ trdj
-Revision 1.9 2001/10/17 18:12:47 revo
-Yury Finkel: +trd ru
-Revision 1.8 2001/04/05 16:13:03 revo
-Karlo Freeman: +trd=en
-Revision 1.7 2001/03/20 19:59:14 revo
-Paul Peeraerts: ald trd nl
-Revision 1.6 2000/10/25 16:11:49 revo
-Jose Martin: Aldono de hispana traduko
--->
+    <drv mrk="konjun.kunordiga0o">
+      <kap>kunordiga <tld/>o</kap>
+      <snc>
+        <dif>
+          <tld lit="K"/>o, kiu kunigas samfunkciajn elementojn,
+          ekzemple
+          <ekz>
+            kaj, sed, a&ubreve;
+          </ekz>
+          kc.
+        </dif>
+      </snc>
+      <trdgrp lng="de">
+        <trd>beiordnende Konjunktion</trd>,
+        <trd>beiordnendes Bindewort</trd>
+      </trdgrp>
+      <trd lng="en">coordinating <ind>conjunction</ind></trd>
+      <trd lng="nl">nevenschikkend <ind>voegwoord</ind></trd>
+      <trd lng="ru">&c_s;&c_o;&c_ch;&c_i;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
+&c_s;&c_o;&c_ju;&c_z;</trd>
+
+    </drv>
+
+    <drv mrk="konjun.subordiga0o">
+      <kap>subordiga <tld/>o</kap>
+      <snc>
+        <dif>
+          <tld lit="K"/>o, kiu dependigas unu propozicion de alia,
+          ekzemple
+          <ekz>
+            ke, kvankam, se
+          </ekz>
+          kc.
+        </dif>
+      </snc>
+      <trdgrp lng="de">
+        <trd>unterordnende Konjunktion</trd>,
+        <trd>unterordnendes Bindewort</trd>
+      </trdgrp>
+      <trd lng="en">subordinating <ind>conjunction</ind></trd>
+      <trd lng="nl">onderschikkend <ind>voegwoord</ind></trd>
+      <trd lng="ru">&c_p;&c_o;&c_d;&c_ch;&c_i;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
+&c_s;&c_o;&c_ju;&c_z;</trd>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.15  2003/04/08 16:33:53  revo
+  Dmitri Gabinski: +trd be
+
+  Revision 1.14  2003/02/24 17:33:31  revo
+  Marc Bavant: +bld
+
+  Revision 1.13  2002/11/30 17:35:39  revo
+  Marc Bavant: mod legu
+  Revision 1.12  2002/11/26 17:31:50  revo
+  Marc Bavant: +frm, +trd pl
+  Revision 1.11  2002/06/02 17:32:59  revo
+  Marc Bavant: ~o: +snc MAT
+  Revision 1.10 2002/02/27 17:59:25 revo
+  Ulrich Fellmann: + 6 germ trdj
+  Revision 1.9 2001/10/17 18:12:47 revo
+  Yury Finkel: +trd ru
+  Revision 1.8 2001/04/05 16:13:03 revo
+  Karlo Freeman: +trd=en
+  Revision 1.7 2001/03/20 19:59:14 revo
+  Paul Peeraerts: ald trd nl
+  Revision 1.6 2000/10/25 16:11:49 revo
+  Jose Martin: Aldono de hispana traduko
+  -->
 </vortaro>
