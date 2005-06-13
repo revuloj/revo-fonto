@@ -2,67 +2,155 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <ofc>*</ofc>
-  <rad>kaj</rad>
-</kap>
-<drv mrk="kaj.0">
-  <kap><ofc>*</ofc><tld/></kap>
-  <snc>
-    <dif>
-      <ref tip="super" cel="konjun.0o.GRA">Konjunkcio</ref>,
-      liganta du frazojn, propoziciojn a&ubreve; vortojn havantajn saman
-      gramatikan rolon, kaj signifanta &leftquot;plie, aldone&rightquot;.
-    </dif>
-  </snc>                  
-  <trd lng="be">&c_ib;</trd>
-  <trd lng="br">ha<klr tip="ind"> (stl. kenur.)</klr></trd>
-  <trd lng="cs">a</trd>
-  <trd lng="de">und</trd>
-  <trd lng="en">and</trd>
-  <trd lng="es">y</trd>
-  <trd lng="fr">et</trd>
-  <trdgrp lng="he">
-    <trd>&vav;-</trd>,
-    <trd>&vav;&gimel;&fmem;</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>&eacute;s</trd>,
-    <trd>s</trd>,
-    <trd>meg <klr tip="ind"> (k&ouml;t&odblac;sz&oacute;)</klr></trd>
-  </trdgrp>
-  <trd lng="nl">en</trd>
-  <trd lng="pl">i</trd>
-  <trd lng="ru">&c_i;</trd>
-  <trdgrp lng="sk">
-    <trd>a</trd>,
-    <trd>aj</trd>
-  </trdgrp>
-  <trd lng="sv">och</trd>
-  <trd lng="vo">e</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.18  2004/10/24 16:31:40  revo
-Marc Bavant: -rim, +ref en dif
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>kaj</rad>
+    </kap>
 
-Revision 1.17 2004/07/08 17:06:10 revo
-Dmitri Gabinski: +trd be
+    <drv mrk="kaj.0">
+      <kap><ofc>*</ofc><tld/></kap>
+      <snc>
+        <dif>
+          <ref tip="super" cel="konjun.0o.GRA">Konjunkcio<sncref/></ref>,
+          liganta du frazojn, propoziciojn a&ubreve; vortojn havantajn saman
+          gramatikan rolon, kaj signifanta &leftquot;plie, aldone&rightquot;.
+        </dif>
+      </snc>                  
+      <trd lng="be">&c_ib;</trd>
+      <trd lng="br">ha<klr tip="ind"> (stl. kenur.)</klr></trd>
+      <trd lng="cs">a</trd>
+      <trd lng="de">und</trd>
+      <trd lng="en">and</trd>
+      <trd lng="es">y</trd>
+      <trd lng="fr">et</trd>
+      <trdgrp lng="he">
+        <trd>&vav;-</trd>,
+        <trd>&vav;&gimel;&fmem;</trd>
+      </trdgrp>
+      <trdgrp lng="hu">
+        <trd>&eacute;s</trd>,
+        <trd>s</trd>,
+        <trd>meg <klr tip="ind"> (k&ouml;t&odblac;sz&oacute;)</klr></trd>
+      </trdgrp>
+      <trd lng="nl">en</trd>
+      <trd lng="pl">i</trd>
+      <trd lng="ru">&c_i;</trd>
+      <trdgrp lng="sk">
+        <trd>a</trd>,
+        <trd>aj</trd>
+      </trdgrp>
+      <trd lng="sv">och</trd>
+      <trd lng="vo">e</trd>
+    </drv>
 
-Revision 1.16 2004/03/03 17:31:39 revo
-Jozefo Horvath: +trd hu
+    <drv mrk="kaj.0o">
+      <kap><tld/>o
+        <fnt><bib>MatStokTerm</bib></fnt>,
+        <fnt><bib>KompLeks</bib></fnt>
+      </kap>
+      <uzo tip="fak">KOMP</uzo>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          Logika
+          <ref tip="super" cel="lig.0ilo.MAT">ligilo<sncref/></ref>
+          kaj la
+          <ref tip="super" cel="operac.logika0o">logika operacio</ref>
+          respondaj al la gramatika konjukcio <tld/>:
+          <ekz>
+            en matematiko kaj en ALGOL-60 la Bulean <tld/>on
+            simbolas la &leftquot;logika <tld/>signo&rightquot; <frm>&#8743;</frm>
+            <fnt><bib>KompLeks</bib></fnt>;
+          </ekz><ekz>
+            <uzo tip="fak">KOMP</uzo>
+            en la programlingvo C &amp;&amp; estas simbolo de
+            <ind>sorbema <tld/>o</ind>.
+            <trdgrp lng="en">
+              <trd>short-cut AND</trd>,
+              <trd>logical <ind>AND</ind> operator</trd>
+            </trdgrp>
+          </ekz>
+        </dif>
+      </snc>
+      <rim>
+        Iuj ripro&ccirc;as al la termino <tld/>o homonimion kun la fervoja
+        <ref tip="hom" cel="kaj1.0o">kajo</ref>.  Tamen la ekzisto de
+        la fundamenta konjunkcio <tld/> a&ubreve;tomate neprigas la eblon
+        derivi la substantivon <tld/>o, sammaniere kiel en la okazoj
+        pri <em>plus&dash;pluso, jes&dash;jeso, kontra&ubreve;&dash;kontra&ubreve;o</em>
+        ktp.  Do, el la du vortoj &gcirc;uste la fervoja kajo estas
+        ripro&ccirc;inda.
 
-Revision 1.15 2003/05/18 18:01:03 revo
-Allon Rothfarb: +trd he
+        Due, la konfuzo inter tiuj homonimoj estas praktike
+        malprobabla, dum tute male, la konfuzo inter konjunkcio
+        gramatika kaj
+        <ref tip="sin" cel="konjun.0o.logika">konjuncio<sncref/></ref>
+        Bulea estas ne nur ebla sed fakte atestita.
+        <aut>Sergio Pokrovskij</aut>
+      </rim>
+            
+      <trdgrp lng="en">
+        <trd>AND operator</trd>,
+        <trd>conjunction</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja; <ind>&c_I;</ind></trd>,
+        <trd>&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
+&c_u;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
+        <trd>&c_k;&c_o;&c_n;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+      </trdgrp>
+    </drv>
 
-Revision 1.14 2003/03/14 17:32:56 revo
-Viliam Bur: +trd sk
+    <drv mrk="kaj.mal0o">
+      <kap>mal<tld/>o
+        <fnt><bib>KompLeks</bib></fnt>
+      </kap>
+      <uzo tip="fak">KOMP</uzo>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          Duloka Bulea operacio, kiu veras se almena&ubreve; unu el &gcirc;iaj
+          argumentoj estas malvera:
+          <frm>x MALKAJ y = ~(x KAJ y)</frm>:
+          <ekz>
+            mal<tld/>o sufi&ccirc;as por esprimi ajnan Bulean funkcion
+            <uzo tip="fak">KOMP</uzo>.
+          </ekz>
+        </dif>
+      </snc>
+      <trdgrp lng="en">
+        <trd>NAND function</trd>,
+        <trd>Sheffer stroke</trd>,
+        <trd>nonconjunction</trd>
+      </trdgrp>
+      <trd lng="ru">&c_sh;&c_t;&c_r;&c_i;&c_h; &c_Sh;&c_je;&c_f;&c_je;&c_r;&c_a;</trd>
+    </drv>
+ 
+  </art>
+  <!--
+  $Log$
+  Revision 1.19  2005/04/19 16:31:28  revo
+  Alan ar Gall: +trd br
 
-Revision 1.13 2003/03/05 17:37:01 revo
-Ulrich Fellmann: + 1 trd = vo
+  Revision 1.18  2004/10/24 16:31:40  revo
+  Marc Bavant: -rim, +ref en dif
 
-Revision 1.12 2002/10/15 16:35:50 revo
--->
+  Revision 1.17 2004/07/08 17:06:10 revo
+  Dmitri Gabinski: +trd be
+
+  Revision 1.16 2004/03/03 17:31:39 revo
+  Jozefo Horvath: +trd hu
+
+  Revision 1.15 2003/05/18 18:01:03 revo
+  Allon Rothfarb: +trd he
+
+  Revision 1.14 2003/03/14 17:32:56 revo
+  Viliam Bur: +trd sk
+
+  Revision 1.13 2003/03/05 17:37:01 revo
+  Ulrich Fellmann: + 1 trd = vo
+
+  Revision 1.12 2002/10/15 16:35:50 revo
+  -->
 </vortaro>
