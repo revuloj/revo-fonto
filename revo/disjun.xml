@@ -2,110 +2,136 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <rad>disjunkci</rad>/o
-</kap>
-<drv mrk="disjun.0o">
-  <kap><tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
-  <snc mrk="disjun.0o.logika">
-    <dif>
-      <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
-      kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
-      asocias la propozicion, kiu estas vera, se kaj nur se
-      almena&ubreve; unu el ili estas vera; rezulto de tiu operacio:
-      <ekz>
-        la <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni foje signas
-        per <frm>P&#8744;Q</frm> <klr>(legu: po a&ubreve; kuo)</klr>.
-      </ekz>
-    </dif>
-    <bld tip="svg" lok="../bld/t_disjunkcio.svg" lrg="150" alt="150">
-      vertabelo de <tld/>o
-    </bld>
-    <trd lng="be">&c_d;&c_y;&c_z;&c_mol;&c_ju;&c_n;&c_k;&c_c;&c_y;&c_ja;</trd>
-    <trdgrp lng="de">
-      <trd>Disjunktion</trd>,
-      <trd>logische <ind>Summe</ind></trd>
-    </trdgrp>
-    <trd lng="en">disjunction</trd>
-    <trdgrp lng="es">
-      <trd>disyunci&oacute;n</trd>
-      <trd>disjunci&oacute;n</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>disjonction<klr tip="ind"> (somme logique)</klr></trd>,
-      <trd>somme logique</trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>alternatywa</trd>,
-      <trd>dysjunkcja</trd>,
-      <trd>suma logiczna</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_d;&c_i;&c_z;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>,
-      <trd>&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_s;&c_u;&c_m;&c_m;&c_a;</ind></trd>
-    </trdgrp>
-  </snc>
-</drv>
+  <art mrk="$Id$">
+    <kap>
+      <rad>disjunkci</rad>/o
+    </kap>
 
-<drv mrk="disjun.ekskluziva0o">
-  <kap>ekskluziva <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib><lok>&leftquot;ekskluziva A&Ubreve;&rightquot;</lok></fnt>
-  <snc>
-    <dif>
-      <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
-      kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
-      asocias la propozicion, kiu estas vera, se kaj nur se
-      precize unu el ili estas vera; rezulto de tiu operacio:
-      <ekz>
-        la ekskluzivan <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni foje 
-        signas per <frm>P&#8891;Q</frm> <klr>(legu: po a&ubreve; alie kuo)</klr>;
-      </ekz>
-      <ekz>
-        la ekskluziva <tld/>o estas 
-        <ref cel="negaci.0o.logika">negacio</ref> de 
-        <ref cel="ekviva.0o.logika">ekvivalento</ref>.
-      </ekz>
-    </dif>
-    <bld tip="svg" lok="../bld/t_ekskluziva_disjunkcio.svg" lrg="150" alt="150">
-      vertabelo de ekskluziva <tld/>o
-    </bld>
-    <trdgrp lng="de">
-      <trd>ausschlie&szlig;ende <ind>Disjunktion</ind></trd>,
-      <trd>Antivalenz</trd>
-    </trdgrp>
-    <trd lng="en">exclusive <ind>disjunction</ind></trd>
-    <trd lng="fr">disjonction exclusive</trd>
-    <trdgrp lng="pl">
-      <trd>alternatywa wykluczaj&aogonek;ca</trd>,
-      <trd>alternatywa wy&lstroke;&aogonek;czaj&aogonek;ca</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_i;&c_s;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_ju;&c_shch;&c_a;&c_ja; <ind>&c_d;&c_i;&c_z;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
-      <trd>&c_s;&c_t;&c_r;&c_o;&c_g;&c_a;&c_ja; <ind>&c_d;&c_i;&c_z;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
-    </trdgrp>
-  </snc>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.6  2004/03/16 17:30:56  revo
-Dmitri Gabinski: +trd be
+    <drv mrk="disjun.0o">
+      <kap><tld/>o</kap>
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>MatVort</bib></fnt>
+      <snc mrk="disjun.0o.logika">
+        <dif>
+          <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
+          kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
+          asocias la propozicion, kiu estas vera, se kaj nur se
+          almena&ubreve; unu el ili estas vera; rezulto de tiu operacio:
+          <ekz>
+            la <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni foje signas
+            per <frm>P&#8744;Q</frm> <klr>(legu: po a&ubreve; kuo)</klr>.
+          </ekz>
+        </dif>
+        <bld tip="svg" lok="../bld/t_disjunkcio.svg" lrg="150" alt="150">
+          vertabelo de <tld/>o
+        </bld>
+        <rim>
+          Pli tradicia, esperanteca kaj radik&scirc;para termino estas
+          <ref tip="sin" cel="aux.0o">a&ubreve;o</ref>.  Krome, en la klasika
+          logiko la termino <tld/>o tradicie indikis la disigan
+          konjukcion (kio cetere senteblas en la termino mem:
+          dis-junkcio, dis-igo, a&ubreve;&dash;a&ubreve;).
+          <aut>Sergio Pokrovskij</aut>
+        </rim>
+        <trd lng="be">&c_d;&c_y;&c_z;&c_mol;&c_ju;&c_n;&c_k;&c_c;&c_y;&c_ja;</trd>
+        <trdgrp lng="de">
+          <trd>Disjunktion</trd>,
+          <trd>logische <ind>Summe</ind></trd>
+        </trdgrp>
+        <trd lng="en">disjunction</trd>
+        <trdgrp lng="es">
+          <trd>disyunci&oacute;n</trd>
+          <trd>disjunci&oacute;n</trd>
+        </trdgrp>
+        <trdgrp lng="fr">
+          <trd>disjonction<klr tip="ind"> (somme logique)</klr></trd>,
+          <trd>somme logique</trd>
+        </trdgrp>
+        <trdgrp lng="pl">
+          <trd>alternatywa</trd>,
+          <trd>dysjunkcja</trd>,
+          <trd>suma logiczna</trd>
+        </trdgrp>
+        <trdgrp lng="ru">
+          <trd><klr>(&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja;)</klr>
+<ind>&c_d;&c_i;&c_z;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
+          <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja; <ind>&c_I;&c_L;&c_I;</ind></trd>,
+          <trd>&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+<ind>&c_s;&c_u;&c_m;&c_m;&c_a;</ind></trd>
+        </trdgrp>
+      </snc>
+    </drv>
 
-Revision 1.5  2003/02/24 17:32:49  revo
-Marc Bavant: +drv ekskluziva ~o; +bld
+    <drv mrk="disjun.ekskluziva0o">
+      <kap>ekskluziva <tld/>o</kap>
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>MatVort</bib><lok>&leftquot;ekskluziva A&Ubreve;&rightquot;</lok></fnt>
+      <snc>
+        <dif>
+          <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
+          kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
+          asocias la propozicion, kiu estas vera, se kaj nur se
+          precize unu el ili estas vera; rezulto de tiu operacio:
+          <ekz>
+            la ekskluzivan <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni foje 
+            signas per <frm>P&#8891;Q</frm> <klr>(legu: po a&ubreve; alie kuo)</klr>;
+          </ekz><ekz>
+            la ekskluziva <tld/>o estas 
+            <ref cel="negaci.0o.logika">negacio</ref> de 
+            <ref cel="ekviva.0o.logika">ekvivalento</ref>.
+          </ekz>
+        </dif>
+ <bld tip="svg" lok="../bld/t_ekskluziva_disjunkcio.svg" lrg="150" alt="150">
+          vertabelo de ekskluziva <tld/>o
+        </bld>
+        <rim>
+          Pli esperanteca kaj radik&scirc;para termino estas
+          <ref tip="sin" cel="aux.dis0o">disa&ubreve;o</ref>.  Krome,
+          &ccirc;ar en la klasika logiko la termino <tld/>o tradicie
+          indikis la disigan disjukcion, tiun sencon oni tradicie
+          neprigis per la epiteto <ctl>strikta</ctl>; la epiteto
+          <ctl>ekskluziva</ctl> estas iom konfuza, &ccirc;ar pli trafe
+          &gcirc;i priskribus komplementon, resp. negon &dash; do la kombino
+          rezultus en mala&ubreve;o: <frm>~(x&#8744;y)</frm>.
+          <aut>Sergio Pokrovskij</aut>
+        </rim>
+        <trdgrp lng="de">
+          <trd>ausschlie&szlig;ende <ind>Disjunktion</ind></trd>,
+          <trd>Antivalenz</trd>
+        </trdgrp>
+        <trd lng="en">exclusive <ind>disjunction</ind></trd>
+        <trd lng="fr">disjonction exclusive</trd>
+        <trdgrp lng="pl">
+          <trd>alternatywa wykluczaj&aogonek;ca</trd>,
+          <trd>alternatywa wy&lstroke;&aogonek;czaj&aogonek;ca</trd>
+        </trdgrp>
+        <trdgrp lng="ru">
+          <trd>&c_r;&c_a;&c_z;&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;
+<ind>&c_I;&c_L;&c_I;</ind></trd>,
+          <trd>&c_s;&c_t;&c_r;&c_o;&c_g;&c_a;&c_ja;
+<ind>&c_d;&c_i;&c_z;&c_malmol;&c_ju;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
+        </trdgrp>
+      </snc>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.7  2005/01/14 17:31:34  revo
+  Vito Redsky:  pl trd alternatywa ...a=?
 
-Revision 1.4 2002/11/30 17:34:53 revo
-Marc Bavant: mod legu, +trd pl
-Revision 1.3 2002/11/19 17:31:19 revo
-Marc Bavant: +frm
-Revision 1.2 2002/07/10 18:06:15 revo
-Elmer D. Escoto: Aldonis hispanan tradukon
-Revision 1.1 2002/06/02 17:32:33 revo
-Marc Bavant: nova artikolo
--->
+  Revision 1.6  2004/03/16 17:30:56  revo
+  Dmitri Gabinski: +trd be
+
+  Revision 1.5  2003/02/24 17:32:49  revo
+  Marc Bavant: +drv ekskluziva ~o; +bld
+
+  Revision 1.4 2002/11/30 17:34:53 revo
+  Marc Bavant: mod legu, +trd pl
+  Revision 1.3 2002/11/19 17:31:19 revo
+  Marc Bavant: +frm
+  Revision 1.2 2002/07/10 18:06:15 revo
+  Elmer D. Escoto: Aldonis hispanan tradukon
+  Revision 1.1 2002/06/02 17:32:33 revo
+  Marc Bavant: nova artikolo
+  -->
 </vortaro>
-
