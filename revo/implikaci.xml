@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+  <art mrk="$Id$">
+    <kap>
+      <rad>implikaci</rad>/i
+    </kap>
+
+    <drv mrk="implikaci.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Dulokaj logika
+          <ref tip="super" cel="lig.0ilo.MAT">ligilo<sncref/></ref>
+          kaj la responda         
+          <ref tip="super" cel="operac.logika0o">logika operacio</ref>,
+          simbole skribata <frm>A&#8658;B</frm>
+          (legu: <ctl>se a, tiam bo</ctl>) kaj reduktebla al kombino
+          de nego kaj a?o: <frm>&#172;A&#8744;B</frm>;
+          <ekz>
+            ili <klr>(aprioraj lingvoj)</klr> havas simplan, rigidan
+            sintakson, kaj <klr>...</klr> dependas kvaza? parazite de
+            aliaj lingvoj, konsistante el logikaj <tld/>oj (rilatoj
+            <ctl>se &dash; tiam</ctl>)
+	    <fnt><lok><url
+ ref="http://www.uni-paderborn.de/extern/fb/2/Kyb.Paed/INT/03-int.htm"
+		  >Enkonduka lernolibro de interlingvistiko</url></lok></fnt>;
+          </ekz><ekz>
+            Rimarku la plej gravan ?an?on ?e la transformo de
+            <frm>A&#8658;B</frm> al <frm>B</frm>: ... regulo kiun oni bezonas
+            estas nomata forigo de <tld/>o, a? el<tld/>igo
+            <fnt>
+              <aut>Daniel Clemente Laboreo</aut>:
+              <vrk><url
+              ref="http://www.danielclemente.com/logica/dn.eo.pdf"
+                  >Enkonduko al natura dedukto</url></vrk>.
+            </fnt>.
+          </ekz>
+        </dif>
+        <trd lng="de">Implikation</trd>
+        <trd lng="en">implikaciation</trd>
+        <trd lng="fr">implikaciation</trd>
+        <trdgrp lng="hu">
+          <trd>implik?ci?</trd>,
+          <trd>felt?teles <ind>k?vetkeztet?s</ind></trd>
+        </trdgrp>
+        <trd lng="pl">implikacja</trd>
+        <trd lng="ru">??????????</trd>
+      </snc>
+    </drv>
+
+    <drv mrk="implikaci.0a">
+      <kap><tld/>a</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Rilata al <tld/>o, entenanta <tld/>on:
+          <ekz>
+            la pozitiva <tld/>a propozicikalkulo entenas du aksiomojn:
+            <frm>A&#8658;(B&#8658;A)</frm> kaj
+            <frm>
+              (A&#8658;(B&#8658;C))&#8658;((A&#8658;B)&#8658;(A&#8658;C)
+            </frm>,
+            kaj unu derivregulon: la el<tld/>igon.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">implicative</trd>
+      <trd lng="ru">?????????????</trd>
+    </drv>
+
+    <drv mrk="implikaci.ambauxdirekta0o">
+      <kap>amba?direkta <tld/>o
+        <fnt><bib>KompLeks</bib><lok>p. 141</lok></fnt>
+      </kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          Por du propozicioj <frm>A</frm> kaj <frm>B</frm>, kajo de
+          iliaj reciprokaj <tld/>oj:
+          <frm>A&#8660;B = (A&#8658;B)&#8743;(B&#8658;A)</frm>;
+          <ekz>
+            difini ekvivalentecon per amba?direkta <tld/>o.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="fr">?quivalence</trd>
+      <trd lng="hu">ekvivalencia</trd>
+      <trdgrp lng="pl">
+        <trd>r?wnowa?no??</trd>,
+        <trd>ekwiwalencja</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>???????????? ??????????</trd>,
+        <trd><klr tip="ind">(??????????)
+          </klr>???????????????</trd>
+      </trdgrp>
+    </drv>
+
+    <drv mrk="implikaci.el0igo">
+      <kap>el<tld/>igo
+        <fnt><bib>KompLeks</bib><lok>p. 94</lok></fnt>
+      </kap>
+      <uzo tip="fak">MAT</uzo>
+      <snc>
+        <dif>
+          Unu el la ?efaj derivreguloj de la propozicia kalkulo:
+          kiam estas konstatitaj la propozicioj <frm>A</frm> kaj
+          <frm>A&#8658;B</frm>, tiam oni rajtas konkludi, ke validas
+          <frm>B</frm>.
+        </dif>
+      </snc>
+      <trd lng="en">modus ponens</trd>
+      <trdgrp lng="ru">
+        <trd>????? ??????</trd>,
+        <trd>???????????? ?????</trd>
+      </trdgrp>
+    </drv>
+  </art>
+
+<!--
+$Log$
+-->
+</vortaro>
