@@ -2,146 +2,290 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <rad>invest</rad>/i
-  <fnt>Z</fnt>
-</kap>
-<drv mrk="invest.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="invest.0i.enoficigi">
-    <dif>
-      Solene enoficigi:
-      <ekz>
-        <tld/>i ambasadoron<fnt>Z</fnt>,
-      </ekz>
-      <ekz>
-        episkopon, novan direktoron.
-      </ekz>
-    </dif>
-    <trd lng="de">einf&uuml;hren</trd>
-    <trdgrp lng="fr">
-      <trd>investir<klr tip="ind"> (mettre &agrave; un poste)</klr></trd>,
-      <trd>introniser<klr tip="ind"> (mettre &agrave; un poste)</klr></trd>,
-      <trd>donner l'<ind>investiture</ind> (&agrave;)<klr tip="ind"> (mettre &agrave; un poste)</klr></trd>
-    </trdgrp>
-    <trd lng="hu">beiktat</trd>
-    <trd lng="nl">inhuldigen</trd>
-    <trd lng="pt">investir<klr tip="amb"> (dar posse solene)</klr></trd>
-    <trdgrp lng="ru">
-      <trd>&c_zh;&c_a;&c_l;&c_o;&c_v;&c_a;&c_t;&c_mol; &c_z;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>,
-      <trd>&c_n;&c_a;&c_d;&c_je;&c_l;&c_ja;&c_t;&c_mol; &c_p;&c_o;&c_l;&c_n;&c_o;&c_m;&c_o;&c_ch;&c_i;&c_ja;&c_m;&c_i;</trd>,
-      <trd>&c_o;&c_b;&c_l;&c_je;&c_k;&c_a;&c_t;&c_mol; &c_v;&c_l;&c_a;&c_s;&c_t;&c_mol;&c_ju;</trd>,
-      <trd>&c_v;&c_o;&c_z;&c_l;&c_a;&c_g;&c_a;&c_t;&c_mol; &c_o;&c_b;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
-    </trdgrp>
-  </snc>
-  <snc mrk="invest.0i.EKON">
-    <uzo tip="fak">EKON</uzo>
-    <dif>
-      Elspezi monon, kapitalon por produktodona celo kiel ekz.
-      por plibonigi laborejon, alkonstrui novan domon, ala&ccirc;eti novajn
-      ma&scirc;inojn ktp.
-    </dif>
-    <trdgrp lng="de">
-      <trd>investieren</trd>,
-      <trd>anlegen</trd>
-    </trdgrp>
-    <trd lng="es">invertir<klr tip="ind"> (finanzas)</klr></trd>
-    <trd lng="fr">investir<klr tip="ind"> (finance)</klr></trd>
-    <trdgrp lng="hu">
-      <trd>beruh&aacute;z</trd>,
-      <trd>inveszt&aacute;l</trd>
-    </trdgrp>
-    <trd lng="nl">investeren</trd>
-    <trd lng="pt">investir<klr tip="amb"> (economia, finan&ccedil;as, com&eacute;rcio)</klr></trd>
-    <trdgrp lng="ru">
-      <trd>&c_v;&c_k;&c_l;&c_a;&c_d;&c_y;&c_v;&c_a;&c_t;&c_mol; &c_k;&c_a;&c_p;&c_i;&c_t;&c_a;&c_l;</trd>,
-      <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-    </trdgrp>
-  </snc>
-  <trd lng="cs">investovat</trd>
-</drv>
+  <art mrk="$Id$">
+    <kap>
+      <rad>invest</rad>/i
+      <fnt>Z</fnt>
+    </kap>
 
-<drv mrk="invest.0o0ado">
-  <kap><tld/>(ad)o</kap>
-  <snc mrk="invest.0o.enoficigi">
-    <dif>
-      Ago <tld/>i <sncref ref="invest.0o.enoficigi"/>.
-    </dif>
-    <ref tip="vid" cel="invest1.0o">investituro</ref>
-    <trd lng="fr">investiture</trd>
-    <trd lng="pt">investidura</trd>
-  </snc>
-  <snc mrk="invest.0o.EKON">
-    <uzo tip="fak">EKON</uzo>
-    <dif>
-      Ago <tld/>i <sncref ref="invest.0o.EKON"/>:
-      <ekz>
-        &ccirc;iu serioza industria entrepreno bezonas <tld/>ojn
-        <fnt><bib>PV</bib></fnt>.
-      </ekz>
-    </dif>
-    <trd lng="fr">investissement<klr tip="ind"> (finance, acte)</klr></trd>
-    <trd lng="pt">investimento<klr tip="amb"> (a&ccedil;&atilde;o; economia, finan&ccedil;as, com&eacute;rcio)</klr></trd>
-  </snc>
-</drv>
+    <drv mrk="invest.0i">
+      <kap><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc mrk="invest.0i.enoficigi">
+        <uzo tip="stl">ARK</uzo>
+        <uzo tip="stl">RAR</uzo>
+        <dif>
+          <refgrp tip="dif">
+            <ref cel="invest1.0i">Investituri</ref>,
+            <ref cel="posten.0igi">enpostenigi</ref>,
+            <ref cel="ofic.0i">enoficigi</ref>
+          </refgrp>:
+          <ekz>
+            <tld/>i ambasadoron<fnt>Z</fnt>.
+          </ekz>
+        </dif>
+        <trd lng="de">einf?hren</trd>
+        <trdgrp lng="fr">
+          <trd>investir<klr tip="ind"> (mettre ? un poste)</klr></trd>,
+          <trd>introniser<klr tip="ind"> (mettre ? un poste)</klr></trd>,
+          <trd>donner l'<ind>investiture</ind> (?)<klr tip="ind"> (mettre ? un poste)</klr></trd>
+        </trdgrp>
+        <trd lng="hu">beiktat</trd>
+        <trd lng="nl">inhuldigen</trd>
+        <trd lng="pt">investir<klr tip="amb"> (dar posse solene)</klr></trd>
+        <trdgrp lng="ru">
+          <trd>&#237;&#224;&#228;&#229;&#235;&#255;&#242;&#252;
+&#239;&#238;&#235;&#237;&#238;&#236;&#238;&#247;&#232;&#255;&#236;&#232;</trd>,
+          <trd>&#238;&#225;&#235;&#229;&#234;&#224;&#242;&#252;
+&#226;&#235;&#224;&#241;&#242;&#252;&#254;</trd>,
+          <trd>&#226;&#238;&#231;&#235;&#224;&#227;&#224;&#242;&#252;
+&#238;&#225;&#255;&#231;&#224;&#237;&#237;&#238;&#241;&#242;&#232;</trd>
+        </trdgrp>
+      </snc>
+      <snc mrk="invest.0i.EKON">
+        <uzo tip="fak">EKON</uzo>
+        <dif>
+          Elspezi monon, kapitalon por produktodona celo, ekz-e
+          por plibonigi laborejon, alkonstrui novan domon, ala?eti novajn
+          ma?inojn ktp:
+          <ekz>
+            se Britio akceptus la e?ron, ?u kreskus la ekonomio, ?u
+            krei?us laborlokoj, ?u da?re <tld/>us eksterlandanoj?
+            <fnt>
+              <aut>Paul GUBBINS</aut>:
+              <vrk>Komediistoj senkomediaj</vrk>. <bib>Monato</bib>
+            </fnt>;
+          </ekz><ekz>
+            <uzo tip="stl">FIG</uzo>
+            komunika sistemo kiu tutvive privilegias iujn homojn sed
+            postulas de aliaj ke ili <tld/>u jarojn da penoj por
+            atingi malpli altan gradon de kapablo, estas fundamente
+            maldemokratia
+            <fnt>
+              <vrk>Manifesto de Prago de la movado por la
+                internacia lingvo Esperanto</vrk>
+            </fnt>;
+          </ekz><ekz>
+            <uzo tip="stl">FIG</uzo>
+            sed sian pli grandan enspezon ili povas <tld/>i en pli
+            bonkvalitan sonon
+            <fnt>
+              <aut>Thierry SALOMON</aut>:
+              <vrk>La mondolingvo</vrk>. <bib>Monato</bib>
+            </fnt>.
+          </ekz>
+        </dif>
+        <trdgrp lng="de">
+          <trd>investieren</trd>,
+          <trd>anlegen</trd>
+        </trdgrp>
+        <trd lng="es">invertir<klr tip="ind"> (finanzas)</klr></trd>
+        <trd lng="fr">investir<klr tip="ind"> (finance)</klr></trd>
+        <trdgrp lng="hu">
+          <trd>beruh?z</trd>,
+          <trd>inveszt?l</trd>
+        </trdgrp>
+        <trd lng="nl">investeren</trd>
+        <trd lng="pt">investir<klr tip="amb"> (economia, finan?as, com?rcio)</klr></trd>
+        <trdgrp lng="ru">
+          <trd>&#226;&#234;&#235;&#224;&#228;&#251;&#226;&#224;&#242;&#252;
+&#234;&#224;&#239;&#232;&#242;&#224;&#235;</trd>,
+         
+<trd>&#232;&#237;&#226;&#229;&#241;&#242;&#232;&#240;&#238;&#226;&#224;&#242;&#252;</trd>
+        </trdgrp>
+      </snc>
+      <trd lng="cs">investovat</trd>
+    </drv>
 
-<drv mrk="invest.0ajxo">
-  <kap><tld/>a&jcirc;o</kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc mrk="invest.0ajxo.kapitalo">
-    <fnt><bib>PIV2</bib></fnt>
-    <uzo tip="klr">(plejofte plurale)</uzo>
-    <dif>
-      <tld lit="I"/>ita <sncref ref="invest.0o.EKON"/>
-      kapitalo.
-    </dif>
-  </snc>
-  <snc mrk="invest.0ajxo.ajxo_acxetita">
-    <fnt><bib>PIV1</bib></fnt>
-    <dif>
-      A&jcirc;o, a&ccirc;etita por
-      <tld/>i <sncref ref="invest.0o.EKON"/>.
-    </dif>
-  </snc>
-  <trd lng="es">inversi&oacute;n<klr tip="ind"> (finanzas, capital)</klr></trd>
-  <trd lng="fr">investissement<klr tip="ind"> (finance, capital)</klr></trd>
-  <trd lng="pt">investimento<klr tip="amb"> (capital; economia, finan&ccedil;as, com&eacute;rcio)</klr></trd>
-  <adm>
-    PIV2 havas ankaux trian sencon, kiu sxajne
-    samsencas kun la dua, sed en alia kunteksto.
-    <aut>MB</aut>
-  </adm>
-</drv>
-<adm>
-  Nur la unua senco de ~i aperas en VdE. Malfacilas kompreni kiel la dua
-  derivigxas de la unua. Eble valorus havis du radikojn.
-  Ankaux en la franca, la dua senco estas suficxe malfrua (1922), kaj estas
-  pruntajxo elde la angla.
-  <aut>MB</aut>
-</adm>
-</art>
-<!--
-$Log$
-Revision 1.12  2005/12/06 17:32:22  revo
-Luiz Portella: +trd pt
+    <drv mrk="invest.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="invest.0o.enoficigi">
+        <uzo tip="stl">ARK</uzo>
+        <ref tip="dif" cel="invest1.0o">investituro</ref>
+        <trd lng="fr">investiture</trd>
+      </snc>
+      <snc mrk="invest.0o.ajxo">
+        <uzo tip="fak">EKON</uzo>
+        <dif>
+          <tld lit="I"/>a?o<sncref ref="invest.0ajxo.kapitalo"/>:
+          <ekz>
+            ?iu serioza industria entrepreno bezonas <tld/>ojn
+            <fnt><bib>PV</bib></fnt>;
+          </ekz><ekz>
+            kvankam nuntempe oni povas facile fondi kaj eldoni gazeton
+            per negranda <tld/>o, la tradiciaj asociaj gazetoj nun
+            devas konkurenci kun la reta informado
+            <fnt>
+              <aut>A. Kor?enkov</aut>: <vrk>Redakcie</vrk>.
+              <bib>LOdE</bib>, <lok>2001. &#185;11</lok>
+            </fnt>.
+          </ekz>
+        </dif>
+        <trd lng="fr">investissement<klr tip="ind"> (finance, acte)</klr></trd>
+        <trdgrp lng="ru">
+         
+<trd>&c_k;&c_a;&c_p;&c_i;&c_t;&c_a;&c_l;&c_o;&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
+          <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_i;&c_ja;</trd>
+        </trdgrp>
+      </snc>
+      <snc mrk="invest.0o.ado">
+        <uzo tip="fak">EKON</uzo>
+        <dif>
+          <tld lit="I"/>ado<sncref ref="invest.0ado.EKON"/>:
+          <ekz>
+            siaflanke, Albanio starigis agentejon por stimuli
+            eleksterlandajn <tld/>ojn
+            <fnt>
+              <aut>Bardhyl SELIMI</aut>:
+              <vrk>La Oka Koridoro</vrk>. <bib>Monato</bib>
+            </fnt>;
+          </ekz><ekz>
+            ili do limigas <tld/>ojn kaj malpligrandigas laborigon
+            <fnt>
+              <aut>Stanis&lstroke;aw &Sacute;MIGIELSKI</aut>:
+              <vrk>Laboro tro multekosta</vrk>. <bib>Monato</bib>
+            </fnt>;
+          </ekz><ekz>
+            &ccirc;ar la Muzikaj Bankoj pagas malaltan a&ubreve;
+            e&ccirc; nenian dividendon <klr>...</klr> la homoj <klr>...</klr>
+            preferas <tld/>ojn, kiuj liveros al ili pli konkretan
+            enspezon
+            <fnt>
+              <aut>Samuel BUTLER</aut>: <vrk>La muzikaj bankoj</vrk>.
+              <lok>Nica Literatura Revuo, 4:1</lok>
+            </fnt>.
+          </ekz>
+        </dif>
+        <trd lng="fr">investissement<klr tip="ind"> (finance, acte)</klr></trd>
+        <trdgrp lng="ru">
+         
+<trd>&c_k;&c_a;&c_p;&c_i;&c_t;&c_a;&c_l;&c_o;&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
+          <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_i;&c_ja;</trd>
+        </trdgrp>
+      </snc>
+    </drv>
 
-Revision 1.11  2005/03/31 16:33:28  revo
-Raul Salinas Monteagudo: +trd es
+    <drv mrk="invest.0ado">
+      <kap><tld/>ado</kap>
+      <snc mrk="invest.0ado.enoficigi">
+        <uzo tip="stl">ARK</uzo>
+        <ref tip="dif" cel="invest1.0o">investituro</ref>
+        <trd lng="fr">investiture</trd>
+        <trd lng="pt">investidura</trd>
+      </snc>
+      <snc mrk="invest.0ado.EKON">
+        <uzo tip="fak">EKON</uzo>
+        <dif>
+          Ago <tld/>i <sncref ref="invest.0o.EKON"/>:
+          <ekz>
+            tiuj 40 milionoj da e&ubreve;roj de <tld/>ado el Belgio en Kongo,
+            lando kun &ccirc;irka&ubreve; 50 milionoj da lo&gcirc;antoj,
+            estas tre eta almozo
+            <fnt>
+              <aut>Miguel VIANNA</aut>:
+              <vrk>Ri&ccirc;aj landoj kaj Kongo</vrk>. <bib>Monato</bib>
+            </fnt>;
+          </ekz><ekz>
+            ekologieco de atomelektrejoj ne estas tiom elstara pro
+            eksterordinare granda <tld/>ado dum konstruo kaj poste
+            malkonstruo de la elektrejoj
+            <fnt>
+              <aut>Jan WERNER</aut>:
+              <vrk>Nuklea energio: ne fidu la respondeculojn</vrk>.
+              <bib>Monato</bib>
+            </fnt>.
+          </ekz>
+        </dif>
+        <trd lng="fr">investissement<klr tip="ind"> (finance, acte)</klr></trd>
+        <trd lng="pt">investimento<klr tip="amb">
+            (a&ccedil;&atilde;o; economia, finan&ccedil;as, com&eacute;rcio)</klr></trd>
+        <trdgrp lng="ru">
+         
+<trd>&c_k;&c_a;&c_p;&c_i;&c_t;&c_a;&c_l;&c_o;&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
+          <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_i;&c_ja;</trd>
+        </trdgrp>
+      </snc>
+    </drv>
 
-Revision 1.10  2004/09/06 16:36:59  revo
-Marc Bavant: +trd fr, ~i: +mrk, +adm; +drv ~o, ~ado, ~ajxo
+    <drv mrk="invest.0ajxo">
+      <kap><tld/>a&jcirc;o</kap>
+      <uzo tip="fak">EKON</uzo>
+      <snc mrk="invest.0ajxo.kapitalo">
+        <fnt><bib>PIV2</bib></fnt>
+        <uzo tip="klr">(plejofte plurale)</uzo>
+        <dif>
+          La kapitalo kiun oni <tld/>as<sncref ref="invest.0i.EKON"/>:
+          <ekz>
+            kun pli ol ok miliardoj da e&ubreve;roj en fremdlandaj rektaj
+            <tld/>a&jcirc;oj en la jaro 2004 sud-orienta E&ubreve;ropo sukcesis
+            altiri trionon de la <tld/>ita kapitalo al la landoj de
+            centra kaj orienta E&ubreve;ropo
+            <fnt>
+              <aut>Evgeni GEORGIEV</aut>:
+              <vrk>Sud-orienta E&ubreve;ropo: motoro de la nova E&ubreve;ropo</vrk>.
+              <bib>Monato</bib>
+            </fnt>.
+          </ekz>
+        </dif>
+        <trdgrp lng="ru">
+         
+<trd>&c_k;&c_a;&c_p;&c_i;&c_t;&c_a;&c_l;&c_o;&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
+          <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_i;&c_ja;</trd>
+        </trdgrp>
+      </snc>
+      <snc mrk="invest.0ajxo.ajxo_acxetita">
+        <fnt><bib>PIV1</bib></fnt>
+        <dif>
+          A&jcirc;o, a&ccirc;etita por <tld/>i<sncref ref="invest.0o.EKON"/>,
+          <ref cel="lok.0umi.arangxi">lokumi</ref> monon.
+        </dif>
+        <trdgrp lng="ru">
+          <trd>&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;
+&c_k;&c_a;&c_p;&c_i;&c_t;&c_a;&c_l;&c_a;</trd>,
+          <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_i;&c_ja;</trd>
+        </trdgrp>
+      </snc>
+      <trd lng="es">inversi&oacute;n<klr tip="ind"> (finanzas, capital)</klr></trd>
+      <trd lng="fr">investissement<klr tip="ind"> (finance, capital)</klr></trd>
+      <trd lng="pt">investimento<klr tip="amb">
+          (capital; economia, finan&ccedil;as, com&eacute;rcio)</klr></trd>
+      <adm>
+        PIV2 havas ankaux trian sencon, kiu sxajne
+        samsencas kun la dua, sed en alia kunteksto.
+        <aut>MB</aut>
+      </adm>
+    </drv>
+    <adm>
+      Nur la unua senco de ~i aperas en VdE. Malfacilas kompreni kiel la dua
+      derivigxas de la unua. Eble valorus havis du radikojn.
+      Ankaux en la franca, la dua senco estas suficxe malfrua (1922), kaj estas
+      pruntajxo elde la angla.
+      <aut>MB</aut>
+    </adm>
+  </art>
+  <!--
+  $Log$
+  Revision 1.13  2005/12/07 17:31:24  revo
+  Luiz Portella: +kor trd pt
 
-Revision 1.9 2004/02/16 20:48:49 revo
-Jozefo Horvath: +trd hu
+  Revision 1.12  2005/12/06 17:32:22  revo
+  Luiz Portella: +trd pt
 
-Revision 1.8 2001/11/12 19:13:02 revo
-Paul Peeraerts: + trd nl
+  Revision 1.11  2005/03/31 16:33:28  revo
+  Raul Salinas Monteagudo: +trd es
 
-Revision 1.7 2001/06/18 18:25:48 revo
-Yury Finkel: korekto de rusa trd
+  Revision 1.10  2004/09/06 16:36:59  revo
+  Marc Bavant: +trd fr, ~i: +mrk, +adm; +drv ~o, ~ado, ~ajxo
 
-Revision 1.6 2001/06/17 18:12:48 revo
--->
+  Revision 1.9 2004/02/16 20:48:49 revo
+  Jozefo Horvath: +trd hu
+
+  Revision 1.8 2001/11/12 19:13:02 revo
+  Paul Peeraerts: + trd nl
+
+  Revision 1.7 2001/06/18 18:25:48 revo
+  Yury Finkel: korekto de rusa trd
+
+  Revision 1.6 2001/06/17 18:12:48 revo
+  -->
 </vortaro>
