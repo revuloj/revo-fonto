@@ -4,237 +4,261 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-  <ofc>4</ofc>
-  <rad>kontinu</rad>/a
-  <fnt>Z</fnt>
+ <ofc>4</ofc>
+ <rad>kontinu</rad>/a
+ <fnt>Z</fnt>
 </kap>
 <drv mrk="kontin3.0a">
-  <kap><tld/>a</kap>
-  <snc>
-    <dif>
-      Konsistanta el eroj, kiuj formas seninterrompan, senmankan vicon:
-    </dif>
-    <subsnc>
-      <dif>
-        En tempo:
-        <ekz>
-          <tld/>a pluvo, elektra fluo, febro, bruo;
-        </ekz>
-        <ekz>
-          fulmoj <tld/>e zigzagas.
-        </ekz>
-      </dif>
-    </subsnc>
-    <subsnc>
-      <dif>
-        En spaco:
-        <ekz>
-          <tld/>a muro;
-        </ekz>
-        <ekz>
-          <tld/>a linio;
-        </ekz>
-        <ekz>
-          <tld/>aj rimoj <klr>(<tld/>a
-          <ref cel="rim.0arangxo">rimaran&gcirc;o</ref>)</klr>.
-        </ekz>
-      </dif>
-    </subsnc>
-    <refgrp tip="vid">
-      <ref cel="konsta.0a">konstanta</ref>,
-      <ref cel="cxes.sen0a">sen&ccirc;esa</ref>,
-      <ref cel="halt.sen0a">senhalta</ref>,
-      <ref cel="dauxr.0a">da&ubreve;ra</ref>.
-    </refgrp>
-    <trdgrp lng="hu">
-      <trd>folyamatos</trd>,
-      <trd>szakadatlan</trd>,
-      <trd>folytonos</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>,
-      <trd>&c_s;&c_p;&c_l;&c_o;&c_sh;&c_n;&c_o;&c_j;</trd>
-    </trdgrp>    
-  </snc>
-  <snc mrk="kontin3.0a.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>EKV</bib><lok>&para;223</lok></fnt>
-    <subsnc mrk="kontin3.0a.cxepunkto">
-      <dif>
-        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> <frm><k>f</k></frm>
-        de <ref cel="spac.topologia0o">topologia spaco</ref> <frm><g>E</g></frm>
-        al topologia spaco <frm><g>F</g></frm>, 
-        &ccirc;e punkto <frm><k>a</k>&#8712;<g>E</g></frm>)</klr>
-        Tia, ke &ccirc;iu ajn
-        <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
-        de <frm><k>f</k>(<k>a</k>)</frm> inkluzivas la bildon 
-        per <frm><k>f</k></frm> de iu &ccirc;irka&ubreve;a&jcirc;o 
-        de <frm><k>a</k></frm>.
-      </dif>
-      <rim>
-        En malpli faka lingva&jcirc;o: <frm><k>f</k>(<k>x</k>)</frm>
-        senlime proksimi&gcirc;as al <frm><k>f</k>(<k>a</k>)</frm>, 
-        kiam <frm><k>x</k></frm> senlime proksimi&gcirc;as al
-        <frm><k>a</k></frm>.
-      </rim>
-    </subsnc>
-    <subsnc mrk="kontin3.0a.cxie">
-      <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
-      <dif>
-        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-        <frm><k>f</k></frm> de 
-        <ref cel="spac.topologia0o">topologia spaco</ref> 
-        <frm><g>E</g></frm> al topologia spaco <frm><g>F</g></frm>)</klr>
-        Tia, ke &gcirc;i estas 
-        <ref cel="kontin3.0a.cxepunkto"><tld/>a <sncref/></ref>
-        &ccirc;e &ccirc;iuj punktoj de <frm><g>E</g></frm>:
-        <ekz>
-          <frm><k>f</k></frm> estas <tld/>a, se kaj nur se la inversa bildo
-          de &ccirc;iu ajn
-          <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref> de
-          <frm><g>F</g></frm> estas malfermita subaro de <frm><g>E</g></frm>;
-        </ekz>
-        <ekz>
-          la idento-bildigo de <frm><g>E</g></frm> al si mem (kun la sama
-          topologio) estas <tld/>a;
-        </ekz>
-        <ekz>
-          la kunliga&jcirc;o de du <tld/>aj bildigoj estas mem <tld/>a;
-        </ekz>
-        <ekz>
-          kiu ajn bildigo inter topologiaj spacoj kun diskreta topologio
-          estas <tld/>a.
-        </ekz>
-      </dif>
-      <refgrp tip="vid">
-        <ref cel="homeom.0o">homeomorfio</ref>.
-      </refgrp>
-    </subsnc>
-    <trd lng="de">stetig</trd>
-    <trd lng="en">continuous</trd>
-    <trd lng="pl">ci&aogonek;g&lstroke;y</trd>
-  </snc>
-  <trd lng="es">continuo</trd>
-  <trd lng="fr">continu</trd>
-  <trd lng="hu">folytonos</trd>  
-  <trdgrp lng="nl">
-    <trd>onafgebroken</trd>,
-    <trd>continu</trd>
-  </trdgrp>
-  <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
+ <kap><tld/>a</kap>
+ <snc>
+   <dif>
+     Konsistanta el eroj, kiuj formas seninterrompan, senmankan vicon:
+   </dif>
+   <subsnc>
+     <dif>
+       En tempo:
+       <ekz>
+         <tld/>a pluvo, elektra fluo, febro, bruo;
+       </ekz>
+       <ekz>
+         fulmoj <tld/>e zigzagas.
+       </ekz>
+     </dif>
+   </subsnc>
+   <subsnc>
+     <dif>
+       En spaco:
+       <ekz>
+         <tld/>a muro;
+       </ekz>
+       <ekz>
+         <tld/>a linio;
+       </ekz>
+       <ekz>
+         <tld/>aj rimoj <klr>(<tld/>a
+         <ref cel="rim.0arangxo">rimaran&gcirc;o</ref>)</klr>.
+       </ekz>
+     </dif>
+   </subsnc>
+   <refgrp tip="vid">
+     <ref cel="konsta.0a">konstanta</ref>,
+     <ref cel="cxes.sen0a">sen&ccirc;esa</ref>,
+     <ref cel="halt.sen0a">senhalta</ref>,
+     <ref cel="dauxr.0a">da&ubreve;ra</ref>.
+   </refgrp>
+   <trdgrp lng="hu">
+     <trd>folyamatos</trd>,
+     <trd>szakadatlan</trd>,
+     <trd>folytonos</trd>
+   </trdgrp>
+   <trdgrp lng="pl">
+     <trd>ci&aogonek;g&lstroke;y</trd>,
+     <trd>nieprzerwany</trd>
+   </trdgrp>
+   <trdgrp lng="ru">
+     
+<trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>,
+     <trd>&c_s;&c_p;&c_l;&c_o;&c_sh;&c_n;&c_o;&c_j;</trd>
+   </trdgrp>    </snc>
+ <snc mrk="kontin3.0a.MAT">
+   <uzo tip="fak">MAT</uzo>
+   <fnt><bib>EKV</bib><lok>&para;223</lok></fnt>
+   <subsnc mrk="kontin3.0a.cxepunkto">
+     <dif>
+       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> 
+<frm><k>f</k></frm>
+       de <ref cel="spac.topologia0o">topologia spaco</ref> 
+<frm><g>E</g></frm>
+       al topologia spaco <frm><g>F</g></frm>,
+       &ccirc;e punkto <frm><k>a</k>&#8712;<g>E</g></frm>)</klr>
+       Tia, ke &ccirc;iu ajn
+       <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+       de <frm><k>f</k>(<k>a</k>)</frm> inkluzivas la bildon
+       per <frm><k>f</k></frm> de iu &ccirc;irka&ubreve;a&jcirc;o
+       de <frm><k>a</k></frm>.
+     </dif>
+     <rim>
+       En malpli faka lingva&jcirc;o: <frm><k>f</k>(<k>x</k>)</frm>
+       senlime proksimi&gcirc;as al <frm><k>f</k>(<k>a</k>)</frm>,
+       kiam <frm><k>x</k></frm> senlime proksimi&gcirc;as al
+       <frm><k>a</k></frm>.
+     </rim>
+   </subsnc>
+   <subsnc mrk="kontin3.0a.cxie">
+     <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
+     <dif>
+       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
+       <frm><k>f</k></frm> de
+       <ref cel="spac.topologia0o">topologia spaco</ref>
+       <frm><g>E</g></frm> al topologia spaco <frm><g>F</g></frm>)</klr>
+       Tia, ke &gcirc;i estas
+       <ref cel="kontin3.0a.cxepunkto"><tld/>a <sncref/></ref>
+       &ccirc;e &ccirc;iuj punktoj de <frm><g>E</g></frm>:
+       <ekz>
+         <frm><k>f</k></frm> estas <tld/>a, se kaj nur se la inversa bildo
+         de &ccirc;iu ajn
+         <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref> de
+         <frm><g>F</g></frm> estas malfermita subaro de 
+<frm><g>E</g></frm>;
+       </ekz>
+       <ekz>
+         la idento-bildigo de <frm><g>E</g></frm> al si mem (kun la sama
+         topologio) estas <tld/>a;
+       </ekz>
+       <ekz>
+         la kunliga&jcirc;o de du <tld/>aj bildigoj estas mem <tld/>a;
+       </ekz>
+       <ekz>
+         kiu ajn bildigo inter topologiaj spacoj kun diskreta topologio
+         estas <tld/>a.
+       </ekz>
+     </dif>
+     <refgrp tip="vid">
+       <ref cel="homeom.0o">homeomorfio</ref>.
+     </refgrp>
+   </subsnc>
+   <trd lng="de">stetig</trd>
+   <trd lng="en">continuous</trd>
+   <trd lng="pl">ci&aogonek;g&lstroke;y</trd>
+ </snc>
+ <trd lng="es">continuo</trd>
+ <trd lng="fr">continu</trd>
+ <trd lng="hu">folytonos</trd> 
+ <trdgrp lng="nl">
+   <trd>onafgebroken</trd>,
+   <trd>continu</trd>
+ </trdgrp>
+ <trdgrp lng="pl">
+   <trd>ci&aogonek;g&lstroke;y</trd>,
+   <trd>nieprzerwany</trd>
+ </trdgrp>
+ <trd 
+lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="kontin3.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>ntr</vspec></gra>
-  <snc>
-    <dif>
-      Esti <tld/>a:
-      <ekz>
-        la kolekto <tld/>as de la unua jaro &gcirc;is hodia&ubreve;.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="fr">
-    <trd>se <ind>poursuivre</ind></trd>,
-    <trd>continuer<klr tip="ind"> (intr.)</klr></trd>
-  </trdgrp>
-  <trd lng="hu">folytonos</trd>  
-  <trd lng="nl">doorlopen</trd>
+ <kap><tld/>i</kap>
+ <gra><vspec>ntr</vspec></gra>
+ <snc>
+   <dif>
+     Esti <tld/>a:
+     <ekz>
+       la kolekto <tld/>as de la unua jaro &gcirc;is hodia&ubreve;.
+     </ekz>
+   </dif>
+ </snc>
+ <trdgrp lng="fr">
+   <trd>se <ind>poursuivre</ind></trd>,
+   <trd>continuer<klr tip="ind"> (intr.)</klr></trd>
+ </trdgrp>
+ <trd lng="hu">folytonos</trd>  <trd lng="nl">doorlopen</trd>
+ <trd lng="pl">ci&aogonek;gn&aogonek;&cacute; si&eogonek;</trd>
 </drv>
 
 <drv mrk="kontin3.0eco">
-  <kap><tld/>eco</kap>
-  <snc>
-    <dif>
-      Eco de io <tld/>a; neinterrompita interligo de partoj a&ubreve; periodoj:
-      <ekz>
-        <tld/>eco de la spino;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">MAT</uzo>
-        esplori la <tld/>econ de funkcio;
-      </ekz>
-      <ekz>
-        rompo de <tld/>eco;
-      </ekz>
-      <ekz>
-        la <tld/>eco de tiu bruo estas netolerebla;
-      </ekz>
-      <ekz>
-        nia lingvo, dank' al la reguleco de sia progresado, neniam
-        perdas la <tld/>econ kun la lingvo de tempo pli frua<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="es">continuidad</trd>
-  <trd lng="fr">continuit&eacute;</trd>
-  <trdgrp lng="hu">
-    <trd>folyamatoss&aacute;g</trd>,
-    <trd>folytonoss&aacute;g</trd>,
-    <trd>szakadatlans&aacute;g</trd>,
-    <trd>kontinuit&aacute;s</trd>
-  </trdgrp>
-  <trd lng="nl">continu&iuml;teit</trd>
-  <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+ <kap><tld/>eco</kap>
+ <snc>
+   <dif>
+     Eco de io <tld/>a; neinterrompita interligo de partoj a&ubreve; 
+periodoj:
+     <ekz>
+       <tld/>eco de la spino;
+     </ekz>
+     <ekz>
+       <uzo tip="fak">MAT</uzo>
+       esplori la <tld/>econ de funkcio;
+     </ekz>
+     <ekz>
+       rompo de <tld/>eco;
+     </ekz>
+     <ekz>
+       la <tld/>eco de tiu bruo estas netolerebla;
+     </ekz>
+     <ekz>
+       nia lingvo, dank' al la reguleco de sia progresado, neniam
+       perdas la <tld/>econ kun la lingvo de tempo pli frua<fnt>Z</fnt>.
+     </ekz>
+   </dif>
+ </snc>
+ <trd lng="es">continuidad</trd>
+ <trd lng="fr">continuit&eacute;</trd>
+ <trdgrp lng="hu">
+   <trd>folyamatoss&aacute;g</trd>,
+   <trd>folytonoss&aacute;g</trd>,
+   <trd>szakadatlans&aacute;g</trd>,
+   <trd>kontinuit&aacute;s</trd>
+ </trdgrp>
+ <trd lng="nl">continu&iuml;teit</trd>
+ <trd lng="pl">ci&aogonek;g&lstroke;o&sacute;&cacute;</trd>
+ <trd 
+lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd> 
+
 </drv>
 
 <drv mrk="kontin3.0ega">
-  <kap><tld/>ega</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>EKV</bib><lok>&para;225</lok></fnt>
-  <snc mrk="kontin3.0ega.MAT">
-    <dif>
-      <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> 
-      <frm><k>f</k></frm> de
-      <ref cel="spac.metrika0o">metrika spaco</ref> <frm><g>E</g></frm>
-      al metrika spaco <frm><g>F</g></frm>)</klr>
-      Tia, ke por &ccirc;iu pozitiva reelo <frm>&epsilon;</frm> ekzistas tia
-      reelo <frm>&alfa;</frm>, ke se la distanco inter ajnaj punktoj 
-      <frm><k>x</k></frm> kaj <frm><k>y</k></frm> en <frm><g>E</g></frm> estas
-      pli malgranda ol <frm>&alfa;</frm>, tiam la distanco inter la bildoj de 
-      <frm><k>x</k></frm> kaj <frm><k>y</k></frm> per <frm><k>f</k></frm>
-      estas pli malgranda ol <frm>&epsilon;</frm>:
-      <ekz>
-        &ccirc;iu <tld/>ega bildigo estas anka&ubreve;
-        <ref cel="kontin3.0a.cxie"><tld/>a <sncref/></ref>, sed la malo
-        ne veras.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="de">gleichm&auml;&szlig;ig <ind>stetig</ind></trd>
-  <trd lng="en">uniformly <ind>continous</ind></trd>
-  <trd lng="es"><ind>continuidad</ind> uniforme</trd>
-  <trd lng="fr">uniform&eacute;ment <ind>continu</ind></trd>
-  <trd lng="hu">egyenletesen <ind>folytonos</ind></trd>  
-  <trd lng="pl">jednostajnie <ind>ci&aogonek;g&lstroke;y</ind></trd>
-  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o; <ind>&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</ind></trd>
+ <kap><tld/>ega</kap>
+ <uzo tip="fak">MAT</uzo>
+ <fnt><bib>EKV</bib><lok>&para;225</lok></fnt>
+ <snc mrk="kontin3.0ega.MAT">
+   <dif>
+     <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
+     <frm><k>f</k></frm> de
+     <ref cel="spac.metrika0o">metrika spaco</ref> <frm><g>E</g></frm>
+     al metrika spaco <frm><g>F</g></frm>)</klr>
+     Tia, ke por &ccirc;iu pozitiva reelo <frm>&epsilon;</frm> ekzistas tia
+     reelo <frm>&alfa;</frm>, ke se la distanco inter ajnaj punktoj
+     <frm><k>x</k></frm> kaj <frm><k>y</k></frm> en <frm><g>E</g></frm> 
+estas
+     pli malgranda ol <frm>&alfa;</frm>, tiam la distanco inter la 
+bildoj de
+     <frm><k>x</k></frm> kaj <frm><k>y</k></frm> per <frm><k>f</k></frm>
+     estas pli malgranda ol <frm>&epsilon;</frm>:
+     <ekz>
+       &ccirc;iu <tld/>ega bildigo estas anka&ubreve;
+       <ref cel="kontin3.0a.cxie"><tld/>a <sncref/></ref>, sed la malo
+       ne veras.
+     </ekz>
+   </dif>
+ </snc>
+ <trd lng="de">gleichm&auml;&szlig;ig <ind>stetig</ind></trd>
+ <trd lng="en">uniformly <ind>continous</ind></trd>
+ <trd lng="es"><ind>continuidad</ind> uniforme</trd>
+ <trd lng="fr">uniform&eacute;ment <ind>continu</ind></trd>
+ <trd lng="hu">egyenletesen <ind>folytonos</ind></trd>  <trd 
+lng="pl">jednostajnie <ind>ci&aogonek;g&lstroke;y</ind></trd>
+ <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o; 
+<ind>&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</ind></trd>
 </drv>
 
 <drv mrk="kontin3.0igi">
-  <kap><tld/>igi<fnt>Z</fnt></kap>
-  <snc>
-    <dif>
-      Fari, ke io estu <tld/>a:
-      <ekz>
-        li <tld/>igis la laboron de siaj
-        anta&ubreve;intoj.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="dauxr.0igi">da&ubreve;rigi</ref>.
-    </refgrp>
-  </snc>
-  <trd lng="fr">continuer<klr tip="ind"> (tr.)</klr></trd>
-  <trdgrp lng="hu">
-    <trd>folytat</trd>,
-    <trd>folyamatoss&aacute; tesz</trd>
-  </trdgrp>
-  <trd lng="nl">voortzetten</trd>
+ <kap><tld/>igi<fnt>Z</fnt></kap>
+ <snc>
+   <dif>
+     Fari, ke io estu <tld/>a:
+     <ekz>
+       li <tld/>igis la laboron de siaj
+       anta&ubreve;intoj.
+     </ekz>
+   </dif>
+   <refgrp tip="vid">
+     <ref cel="dauxr.0igi">da&ubreve;rigi</ref>.
+   </refgrp>
+ </snc>
+ <trd lng="fr">continuer<klr tip="ind"> (tr.)</klr></trd>
+ <trdgrp lng="hu">
+   <trd>folytat</trd>,
+   <trd>folyamatoss&aacute; tesz</trd>
+ </trdgrp>
+ <trd lng="nl">voortzetten</trd>
+ <trd lng="pl">kontynuowa&cacute;</trd>
+ <trd lng="ro">a continua</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.17  2004/05/07 16:31:32  revo
+Jozefo Horvath: +trd hu
+
 Revision 1.16  2003/06/02 16:31:56  revo
 Alejandro Mejia Greene: ald 3 his trd
 
@@ -250,9 +274,6 @@ Marc Bavant: +drv ~ega; simpligo de sncref
 Revision 1.11 2002/05/27 17:18:33 revo
 Marc Bavant: ~a MAT: +fnt
 Revision 1.10 2002/02/23 19:57:47 revo
-Marc Bavant: ~a 1: mod ekz kun rimoj; ~a MAT: reordigis en subsnc, +trd de/en, +fnt
-Revision 1.9 2002/01/06 17:45:03 revo
-Marc Bavant: mod ref cel al bildigo
-Revision 1.8 2001/11/11 19:22:00 revo
+Marc Bavant: ~a 1: mod ekz kun rimoj; ~a MAT: reordigis en subsnc, +trd 
 -->
 </vortaro>
