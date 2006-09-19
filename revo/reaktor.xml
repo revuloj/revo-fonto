@@ -2,44 +2,69 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <rad>reaktor</rad>/o <fnt><bib>SPV</bib></fnt>
-</kap>
-<drv mrk="reaktor.0o">
-  <kap><tld/>o</kap>
-  <snc mrk="reaktor.0o.TEK">
-    <uzo tip="fak">TEK</uzo>
-    <dif>
-      <ref tip="vid" cel="reakci.0o.TEK">Reakci</ref>ujo uzebla 
-      ekzemple kiel <ref tip="super" cel="motor.0o.TEK">motoro</ref>:
-      <ekz>
-        nuklea <tld/>o estis konektita al elektra reto en Pekino
-        <fnt>
-        <aut>anna chu</aut>,
-        <vrk><url ref="http://www.verdapekino.com/raporto/index4.htm">Nova&jcirc;oj de scienco</url></vrk>,
-        <lok>2002</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la juna piloto <klr>...</klr> tuj 
-        inversigas la <tld/>ojn kaj premegas la bremsojn
-        <fnt>
-          <aut>Ailanto</aut>,
-          <vrk><url ref="http://www.kafejo.com/humuro/07.htm">&Scirc;ercaro sepa</url></vrk>,
-          <lok>2006-07-09</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="fr">r&eacute;acteur</trd>
-</drv>
-</art>
+  <art mrk="$Id$">
+    <kap>
+      <rad>reaktor</rad>/o <fnt><bib>SPV</bib></fnt>
+    </kap>
 
-<!--
-$Log$
-Revision 1.1  2006/08/05 16:31:09  revo
-Jeromo Vasxe: nova artikolo
+    <drv mrk="reaktor.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="reaktor.0o.KEM">
+        <uzo tip="fak">KEM</uzo>
+        <dif>
+          <ref tip="vid" cel="reakci.0o.TEK">Reakci</ref>ujo,
+          aran&gcirc;a&jcirc;o por fari &hcirc;emiajn reakciojn.
+        </dif>
+        <trd lng="ru">&c_r;&c_je;&c_a;&c_k;&c_t;&c_o;&c_r;</trd>
+      </snc>
 
--->
+      <snc mrk="reaktor.0o.FIZ">
+        <uzo tip="fak">FIZ</uzo>
+        <dif>
+          Reakciujo en kiu efektivi&gcirc;as regata &ccirc;enreakcio de
+          atomkerna disdivido:
+          <ekz>
+            nuklea <tld/>o estis konektita al elektra reto en Pekino
+            <fnt>
+              <aut>anna chu</aut>,
+              <vrk><url ref="http://www.verdapekino.com/raporto/index4.htm"
+                  >Nova&jcirc;oj de scienco</url></vrk>,
+              <lok>2002</lok>
+            </fnt>.
+          </ekz>
+        </dif>
+        <trd lng="en">reactor</trd>
+        <trdgrp lng="ru">
+          <trd>&c_r;&c_je;&c_a;&c_k;&c_t;&c_o;&c_r;</trd>,
+          <trd>&c_a;&c_t;&c_o;&c_m;&c_n;&c_y;&c_j; &c_k;&c_o;&c_t;&c_jo;&c_l;</trd>
+        </trdgrp>
+      </snc>
+
+      <snc mrk="reaktor.0o.AVI">
+        <uzo tip="fak">AVI</uzo>
+        <ref tip="dif" cel="jet.0motoro">Jetmotoro</ref>
+        <ekz>
+          la juna piloto <klr>...</klr> tuj inversigas la <tld/>ojn
+          kaj premegas la bremsojn
+          <fnt>
+            <aut>Ailanto</aut>,
+            <vrk><url ref="http://www.kafejo.com/humuro/07.htm"
+                >&Scirc;ercaro sepa</url></vrk>,
+            <lok>2006-07-09</lok>
+          </fnt>.
+        </ekz>
+      </snc>
+      <trd lng="fr">r&eacute;acteur</trd>
+    </drv>
+  </art>
+
+  <!--
+  $Log$
+  Revision 1.2  2006/09/14 16:30:50  revo
+  Jeromo Vasxe: provas refari dif laux grupa diskuto
+
+  Revision 1.1  2006/08/05 16:31:09  revo
+  Jeromo Vasxe: nova artikolo
+
+  -->
 </vortaro>
