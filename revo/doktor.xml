@@ -2,90 +2,130 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-   <ofc>*</ofc>
-   <rad>doktor</rad>/o
-</kap>
-<drv mrk="doktor.0o">
-   <kap><tld/>o</kap>
-   <mlg>d-ro</mlg>
-   <snc mrk="doktor.0o.PED">
-   <uzo tip="fak">PED</uzo>
-     <dif>
-       Titolo de persono ricevinta la plej altan universitatan rangon.
-     </dif>
-     <refgrp tip="vid">
-       <ref cel="abitur.0o">abituriento</ref>,
-       <ref cel="licenc">licenciulo</ref>,
-       <ref cel="magist.0o">magistro</ref>.
-     </refgrp>
-     <trd lng="be">&c_d;&c_o;&c_k;&c_t;&c_a;&c_r; <klr tip="amb">(&c_n;&c_a;&c_v;&c_u;&c_k;)</klr></trd>
-     <trd lng="de">Doktor</trd>
-     <trd lng="fr">docteur<klr tip="ind"> (titre)</klr></trd>
-     <trd lng="hu">doktor</trd>
-     <trd lng="nl">doctor</trd>
-     <trd lng="ru">&c_d;&c_o;&c_k;&c_t;&c_o;&c_r; <klr>(&c_n;&c_a;&c_u;&c_k;)</klr></trd>
-   </snc>
-   <snc mrk="doktor.0o.REL">
-     <uzo tip="fak">REL</uzo>
-     <dif>
-       Homo, kiu instruas doktrinon:
-       <ekz>
-         <ind>la <tld/>oj de la Eklezio</ind>.
-         <trd lng="hu">egyh&aacute;zaty&aacute;k</trd>
-       </ekz>
-     </dif>
-     <trd lng="de">Lehrer<klr> (einer Doktrin)</klr></trd>
-     <trd lng="fr">docteur<klr tip="ind"> (de la loi)</klr></trd>
-     <trdgrp lng="hu">
-       <trd>tud&oacute;s</trd>,
-       <trd>gondolkod&oacute;</trd>
-     </trdgrp>
-     <trd lng="nl">doctor</trd>
-   </snc>
-   <snc mrk="doktor.0o.MED">
-     <uzo tip="fak">MED</uzo>
-     <uzo tip="stl">EVI</uzo>
-     <ref tip="dif" cel="kurac.0isto">kuracisto</ref>
-     <trdgrp lng="be">
-       <trd>&c_d;&c_o;&c_k;&c_t;&c_a;&c_r;</trd>,
-       <trd>&c_l;&c_je;&c_k;&c_a;&c_r;</trd>
-     </trdgrp>
-     <trdgrp lng="de">
-       <trd>Doktor</trd>,
-       <trd>Arzt</trd>
-     </trdgrp>
-     <trdgrp lng="hu">
-       <trd>orvos</trd>,
-       <trd>doktor</trd>
-     </trdgrp>
-   </snc>
-   <trd lng="de">Doktor</trd>
-   <trd lng="en">doctor</trd>
-   <trd lng="es">doctor</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.15  2006/09/13 16:30:47  revo
-Wieland Pusch: +trd de
+  <art mrk="$Id$">
+    <kap>
+      <ofc>*</ofc>
+      <rad>doktor</rad>/o
+    </kap>
 
-Revision 1.14  2004/03/17 17:30:42  revo
-Dmitri Gabinski: +trd be
+    <drv mrk="doktor.0o">
+      <kap><tld/>o</kap>
+      <mlg>d-ro</mlg>
+      <snc mrk="doktor.0o.SCI">
+        <uzo tip="fak">SCI</uzo>
+        <dif>
+          Sciencista grado, atribuata al sciencisto fare de universitata
+          a&ubreve; alia kompetenta scienca konsilio post defendo de ties
+          diserta&jcirc;o prezentanta novajn esplorrezultojn:
+          <ekz>
+            AIS <klr>(...)</klr> agnoskas surbaze de priju&gcirc;o fare de
+            internacia komitato studojn kompletigitajn &ccirc;e
+            universitatoj a&ubreve; aliaj altlernejoj per havigo de
+            internacia sciencista grado: <ctl>bakala&ubreve;ro</ctl> post
+            almena&ubreve; 2&ndash;3 jara studado, <ctl>magistro</ctl> post
+            almena&ubreve; 2 postbakala&ubreve;raj studjaroj, kaj
+            &leftquot;habilita <tld/>o&rightquot; pro posta esplorlaboro
+            <fnt>
+              <lok><url
+ ref="http://www.ais-sanmarino.org/org/eo/respond/eo_resp.html"
+                  >Respondoj al la plej oftaj demandoj pri AIS</url></lok>
+            </fnt>;
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="abitur.0o">abituriento</ref>,
+          <ref cel="licenc">licenciulo</ref>,
+          <ref cel="magist.0o">magistro</ref>,
+          <ref cel="profes1.0o.PED">profesoro</ref>
+        </refgrp>
+        <trd lng="be">&c_d;&c_o;&c_k;&c_t;&c_a;&c_r; <klr
+tip="amb">(&c_n;&c_a;&c_v;&c_u;&c_k;)</klr></trd>
+        <trd lng="de">Doktor</trd>
+        <trd lng="fr">docteur<klr tip="ind"> (titre)</klr></trd>
+        <trd lng="hu">doktor</trd>
+        <trd lng="nl">doctor</trd>
+      </snc>
+      <snc mrk="doktor.0o.MED">
+        <uzo tip="fak">MED</uzo>
+        <dif>
+          Neformala &gcirc;entiltitolo uzata pri la
+          <ref tip="dif" cel="kurac.0isto">kuracistoj</ref>, e&ccirc; se ili
+          ne havas tian sciencistan gradon:
+          <ekz>
+            <tld/>o Zamenhof.
+          </ekz>
+        </dif>
+        <trdgrp lng="be">
+          <trd>&c_d;&c_o;&c_k;&c_t;&c_a;&c_r;</trd>,
+          <trd>&c_l;&c_je;&c_k;&c_a;&c_r;</trd>
+        </trdgrp>
+        <trdgrp lng="de">
+          <trd>Doktor</trd>,
+          <trd>Arzt</trd>
+        </trdgrp>
+        <trdgrp lng="hu">
+          <trd>orvos</trd>,
+          <trd>doktor</trd>
+        </trdgrp>
+      </snc>
+      <trd lng="de">Doktor</trd>
+      <trd lng="en">doctor</trd>
+      <trd lng="es">doctor</trd>
+      <trd lng="nl">doctor</trd>
+      <trd lng="ru">&c_d;&c_o;&c_k;&c_t;&c_o;&c_r;</trd>
+    </drv>
 
-Revision 1.13  2003/10/11 16:30:33  revo
-Jeromo Vasxe: kor. ref
+    <drv mrk="doktor.0odeEklezio">
+      <kap><tld/>o de la Eklezio</kap>
+      <uzo tip="fak">KAT</uzo>
+      <snc>
+        <dif>
+          Titolo per kiu la eklezio honoris kelkajn plej eminentajn
+          teologojn, kiuj grave influis ties doktrinon.
+        </dif>
+      </snc>
+      <rim>
+        La nocio ekzistas anka&ubreve; en ortodoksismo, tamen la mistraduko
+        &leftquot;<tld/>o&rightquot; faras tian terminon malfacile akceptebla por homoj
+        kies tradicio uzas pli &gcirc;ustan tradukon.
+        La latina vorto <ctl>doctor</ctl> signifas <ctl>instruisto</ctl>
+        (kaj la tradukoj germana, &ccirc;e&hcirc;a, rusa atestas pri &gcirc;usta kompreno);
+        la senpripensa traduko &leftquot;<tld/>o de la Eklezio&rightquot; estas misa, &ccirc;ar
+        en Esperanto <ctl>doktoro</ctl> ne signifas <ctl>instruisto</ctl>.
+        Pli &gcirc;usta traduko estus <ctl>majstro de la Eklezio</ctl>.
+        <aut>Sergio Pokrovskij</aut>
+      </rim>
+      <trd lng="cs">u&ccaron;itel c&iacute;rkve</trd>
+      <trd lng="de">Kirchenlehrer</trd>
+      <trd lng="hu">egyh&aacute;zaty&aacute;k</trd>
+      <trd lng="la">doctor ecclesiae</trd>
+      <trd lng="ru">&c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol; &c_c;&c_je;&c_r;&c_k;&c_v;&c_i;</trd>
+    </drv>
 
-Revision 1.12  2003/08/17 17:28:23  revo
-Jeromo Vasxe: + mlg, + fak ped, + mrk
+  </art>
+  <!--
+  $Log$
+  Revision 1.16  2007/03/07 17:30:24  revo
+  Jozefo Horvath: +trd hu
 
-Revision 1.11 2002/07/29 18:15:00 revo
-Jozefo Horvath: +trd hu
+  Revision 1.15  2006/09/13 16:30:47  revo
+  Wieland Pusch: +trd de
 
-Revision 1.10 2002/05/27 17:20:50 revo
-Alejandro Mejia Greene: ald 1 his trd
+  Revision 1.14  2004/03/17 17:30:42  revo
+  Dmitri Gabinski: +trd be
 
-Revision 1.9 2002/05/12 16:34:40 revo
--->
+  Revision 1.13  2003/10/11 16:30:33  revo
+  Jeromo Vasxe: kor. ref
+
+  Revision 1.12  2003/08/17 17:28:23  revo
+  Jeromo Vasxe: + mlg, + fak ped, + mrk
+
+  Revision 1.11 2002/07/29 18:15:00 revo
+  Jozefo Horvath: +trd hu
+
+  Revision 1.10 2002/05/27 17:20:50 revo
+  Alejandro Mejia Greene: ald 1 his trd
+
+  Revision 1.9 2002/05/12 16:34:40 revo
+  -->
 </vortaro>
