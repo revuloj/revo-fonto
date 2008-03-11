@@ -4,8 +4,7 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-  <rad>kod</rad>/o
-  <fnt>Z</fnt>
+  <rad>kod</rad>/o <fnt>Z</fnt>
 </kap>
 
 <drv mrk="kod.0o">
@@ -121,6 +120,7 @@
     <trd lng="ru">&c_k;&c_o;&c_d;</trd>
   </snc>
   <snc mrk="kod.0o.JUR">
+    <fnt><bib>PV</bib></fnt>
     <uzo tip="fak">JUR</uzo>
     <dif>
       <ref tip="sin" cel="kodeks.0o.JUR">Kodekso<sncref/></ref>,
@@ -204,6 +204,7 @@
       </ekz>
     </dif>
     <ref tip="sub" cel="cxifr.0i">&ccirc;ifri</ref>
+  </snc>
     <trdgrp lng="de">
       <trd>kodieren</trd>,
       <trd>verschl&uuml;sseln</trd>
@@ -219,7 +220,6 @@
     <trd lng="hu">k&oacute;dol</trd>
     <trd lng="nl">coderen</trd>
     <trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  </snc>
 </drv>
 
 <drv mrk="kod.0ero">
@@ -255,8 +255,7 @@
     <dif>
       Fari le&gcirc;ojn, kutimojn ktp parto de jura <tld/>o:
       <ekz>
-        <tld/>igi
-        familiajn le&gcirc;ojn.
+        <tld/>igi familiajn le&gcirc;ojn.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -280,6 +279,7 @@
     <dif>
       Analizi <tld/>ita&jcirc;on por &gcirc;in kompreni a&ubreve; mal&ccirc;ifri.
     </dif>
+  </snc>
     <trdgrp lng="de">
       <trd>entkodieren</trd>,
       <trd>entschl&uuml;sseln</trd>
@@ -295,7 +295,6 @@
       <trd>&c_r;&c_a;&c_s;&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_d;&c_je;&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
-  </snc>
 </drv>
 
 <drv mrk="kod.0oprezento">
@@ -350,8 +349,8 @@
 
 <drv mrk="kod.0rompisto">
   <kap><tld/>rompisto</kap>
-  <uzo tip="fak">KOMP</uzo>
-  <snc>
+  <snc mrk="kod.0rompisto.KOMP">
+    <uzo tip="fak">KOMP</uzo>
     <dif>
       Fiulo kiu &scirc;tel&c_a;s programojn a&ubreve; pasvortojn.
     </dif>
@@ -379,9 +378,9 @@
 </drv>
 
 <drv mrk="kod.morsa0o">
-  <kap>morsa <tld/>o</kap>
-  <uzo tip="fak">TEL</uzo>
+  <kap>morsa <tld/>o, <var><kap>mors<tld/>o</kap></var></kap>
   <snc mrk="kod.morsa0o.TEL">
+    <uzo tip="fak">TEL</uzo>
     <dif>
       <ref tip="super" cel="kod.0o.SCI"><tld lit="K"/>o</ref>, en
       kiu la signoj estas prezentataj per diversaj kaj diverslongaj
@@ -429,8 +428,8 @@
 
 <drv mrk="kod.telefon0o">
   <kap>telefon<tld/>o</kap>
-  <uzo tip="fak">TEL</uzo>
   <snc mrk="kod.telefon0o.TEL">
+    <uzo tip="fak">TEL</uzo>
     <dif>
       &c_T;elefona anta&ubreve;<tld/>&c_o; por indiki la telefonan reton de certa lando
       &c_a;&ubreve; urbo.
@@ -439,9 +438,34 @@
   <trd lng="bg">&c_k;&c_o;&c_d;</trd>
   <trd lng="de">Vorwahl</trd>
 </drv>
+
+<drv mrk="kod.stri0o">
+  <kap>stri<tld/>o</kap>
+  <snc mrk="kod.stri0o.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      <tld lit="K"/>o prezentanta literojn per strioj pli a&ubreve; malpli 
+      dikaj, diverse interspacigataj, legata per kamerao kaj aparatoj: 
+      <ekz>
+        <klr>...</klr> stri<tld/>oj presitaj sur &ccirc;iu varo vendita en la 
+        butikoj
+        <fnt>
+          <aut>-</aut>,
+          <vrk>semajnfino en Aylesford</vrk>,
+          <lok><url ref="http://www.esperanto-gb.org/eab/eab_update/gxisdate40.pdf">
+          EAB Update, 2008-01 &gcirc;is 03</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">code-barre</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.24  2008/01/16 17:30:33  revo
+Wieland Pusch: +drv telefonkodo
+
 Revision 1.23  2007/07/22 16:30:35  revo
 Wieland Pusch: +trd de
 
@@ -458,8 +482,5 @@ Revision 1.19 2005/03/10 18:11:45 revo
 Yury Finkel: +trd ru
 
 Revision 1.18 2005/01/03 17:32:29 revo
-Marc Bavant: ~ero: +trd fr
-
-Revision 1.17 2004/12/26 17:32:52 revo
 -->
 </vortaro>
