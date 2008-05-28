@@ -40,6 +40,10 @@
       <trd>Ausdehnungsrichtung</trd>
     </trdgrp>
     <trd lng="hu">m&eacute;ret</trd>    
+    <trdgrp lng="pl">
+      <trd>rozmiar</trd>,
+      <trd>wymiar</trd>
+    </trdgrp>
     <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r; <klr>(&c_p;&c_o;
     &c_k;&c_a;&c_zh;&c_d;&c_o;&c_m;&c_u;
     &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ju;)</klr></trd>
@@ -49,12 +53,13 @@
     <subsnc mrk="dimens.0o.direkta">
       <dif>
         <klr>(en <ref cel="spac.vektora0o">vektora spaco</ref>,
-        rilate <ref cel="baz.0o.vektoraspaco">bazon</ref> super &gcirc;i)</klr>
-        &Ccirc;iu el la vektoroj de la bazo a&ubreve; &ccirc;iu rekto,
-        direktata de tia vektoro:
+        rilate <ref cel="baz.0o.vektoraspaco">bazon</ref> super
+        &gcirc;i)</klr> &Ccirc;iu el la vektoroj de la bazo a&ubreve;
+        &ccirc;iu rekto, direktata de tia vektoro:
         <ekz>
-          en afina ebeno oni ofte signas per <frm><k>x</k></frm> la koordinaton
-          la&ubreve; la unua <tld/>o, kaj per <frm><k>y</k></frm> la&ubreve; la
+          en afina ebeno oni ofte signas per <frm><k>x</k></frm> la
+          koordinaton la&ubreve; la unua <tld/>o, kaj per <frm><k>y</k>
+          </frm> la&ubreve; la
           dua.
         </ekz>
       </dif>
@@ -71,7 +76,8 @@
       <trd lng="fr">dimension</trd>
       <trd lng="hu">dimenzi&oacute;</trd>
       <trd lng="pl">wymiar</trd>
-      <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
+      <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;
+      </trd>
     </subsnc>
     <subsnc mrk="dimens.0o.vektoraspaco">
       <fnt><bib>MatVort</bib></fnt>
@@ -86,30 +92,37 @@
           <ref cel="direkt.0o.afinaspaco">direkto</ref>)</klr>;
         </ekz>
         <ekz>
-          la <tld/>o de vektora spaco <frm><g>K</g><sup><k>n</k></sup></frm>
+          la <tld/>o de vektora spaco <frm><g>K</g><sup><k>n</k></sup>
+          </frm>
           super korpo <frm><g>K</g></frm> estas <frm><k>n</k></frm>.
         </ekz>
       </dif>
       <ref tip="sin" cel="dimens.0nombro.MAT">
       <tld/>nombro <sncref ref="dimens.0nombro.MAT"/>.</ref>
       <rim>
-        Oni diras egale, ke spaco <ctl>havas <tld/>on <frm><k>n</k></frm></ctl>,
-        <ctl>estas <frm><k>n</k></frm>-<tld/>a</ctl>, a&ubreve;
-        <ctl>havas <frm><k>n</k></frm> <tld/>ojn</ctl>. Tiaj ekvivalentoj
-        emfazas, ke la nocio &leftquot;<tld/>o
+        Oni diras egale, ke spaco <ctl>havas <tld/>on <frm><k>n</k>
+        </frm></ctl>, <ctl>estas <frm><k>n</k></frm>-<tld/>a</ctl>,
+        a&ubreve; <ctl>havas <frm><k>n</k></frm> <tld/>ojn</ctl>.
+        Tiaj ekvivalentoj emfazas, ke la nocio &leftquot;<tld/>o
         <sncref ref="dimens.0o.vektoraspaco"/>&rightquot; sinonimas kun
         &leftquot;nombro da <tld/>oj
         <sncref ref="dimens.0o.direkta"/>&rightquot;.
         Tial kelkaj preferas paroli pri la <ctl><tld/>nombro</ctl>
         a&ubreve; <ctl><tld/>eco</ctl> de spaco.
       </rim>
-      <trd lng="de">Dimension<klr tip="ind"> (eines Vektorraumes)</klr></trd>
-      <trd lng="en">dimension<klr tip="ind"> (of a vector space)</klr></trd>
-      <trd lng="hu">dimenzi&oacute;<klr tip="ind"> (vektort&eacute;r&eacute;)</klr></trd>      
-      <trd lng="pl">wymiar<klr tip="ind"> (przestrzeni liniowej)</klr></trd>
-      <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;
+      <trd lng="de">Dimension<klr tip="ind"> (eines Vektorraumes)</klr>
+      </trd>
+      <trd lng="en">dimension<klr tip="ind"> (of a vector space)</klr>
+      </trd>
+      <trd lng="hu">dimenzi&oacute;<klr tip="ind">
+      (vektort&eacute;r&eacute;)</klr></trd>      
+      <trd lng="pl">wymiar<klr tip="ind"> (przestrzeni liniowej)</klr>
+      </trd>
+      <trd lng="ru">
+      &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;
       <klr tip="ind"> (&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o;&c_g;&c_o;
-      &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
+      &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_a;)
+      </klr></trd>
     </subsnc>
     <subsnc mrk="dimens.0o.matrico">
       <dif>
@@ -128,9 +141,11 @@
         <trd>dimension<klr tip="ind"> (d'une matrice)</klr></trd>,
         <trd>type<klr tip="ind"> (d'une matrice)</klr></trd>
       </trdgrp>
-      <trd lng="hu">dimenzi&oacute;<klr tip="ind"> (m&aacute;trix&eacute;)</klr></trd>        
+      <trd lng="hu">dimenzi&oacute;<klr tip="ind">
+      (m&aacute;trix&eacute;)</klr></trd>
       <trd lng="pl">wymiar<klr tip="ind"> (macierzy)</klr></trd>
-      <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;<klr tip="ind"> (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>
+      <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;<klr tip="ind">
+      (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>
     </subsnc>
   </snc>
   <snc mrk="dimens.0o.FIZ">
@@ -161,8 +176,14 @@
       <trd>egys&eacute;g</trd>,
       <trd>m&eacute;rt&eacute;kegys&eacute;g</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>jednostka</trd>,
+      <trd>wymiar</trd>,
+      <trd>wielko&sacute;&cacute;</trd>
+    </trdgrp>
     <trd
-    lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;
+    </trd>
   </snc>
   <snc mrk="dimens.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
@@ -179,7 +200,11 @@
   <trd lng="en">dimension</trd>
   <trd lng="es">dimensi&oacute;n</trd>
   <trd lng="fr">dimension</trd>
-  <trd lng="pt">dimens&#227;o</trd>
+  <trdgrp lng="pl">
+    <trd>rozmiar</trd>,
+    <trd>wymiar</trd>
+  </trdgrp>
+  <trd lng="pt">dimens&atilde;o</trd>
 </drv>
 
 <drv mrk="dimens.0nombro">
@@ -197,7 +222,8 @@
       <trd>dimenzionalit&aacute;s</trd>,
       <trd>kiterjed&eacute;s</trd>
     </trdgrp>
-    <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <trd lng="ru">
+    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="dimens.0nombro.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -205,7 +231,8 @@
     <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
     </ref>
     <trd lng="hu">dimenzi&oacute;</trd>
-    <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <trd lng="ru">
+    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
 </drv>
 
@@ -225,25 +252,34 @@
         nul<tld/>a afina spaco konsistas el nur unu punkto;
       </ekz>
       <ekz>
-        unu<tld/>a spaco estas nomata <ref cel="rekt.0o.MAT">rekto</ref>;
+       unu<tld/>a spaco estas nomata <ref cel="rekt.0o.MAT">rekto</ref>;
       </ekz>
       <ekz>
         <ind>fini<tld/>a</ind> spaco;
         <trd lng="en">finite-dimensional</trd>
         <trd lng="de">endlichdimensional</trd>
-        <trd lng="fr"><klr tip="ind">(espace) </klr>de <ind>dimension</ind> finie</trd>
-        <trd lng="hu">v&eacute;ges <ind>dimenzi&oacute;s</ind></trd>        
-        <trd lng="pl"><klr tip="ind">(przestrze&nacute;) </klr>o sko&nacute;czonym <ind>wymiarze</ind></trd>
-        <trd lng="ru">&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>
+        <trd lng="fr"><klr tip="ind">(espace) </klr>de
+        <ind>dimension</ind> finie</trd>
+        <trd lng="hu">v&eacute;ges <ind>dimenzi&oacute;s</ind></trd>
+        <trd lng="pl"><klr tip="ind">(przestrze&nacute;) </klr>o
+        sko&nacute;czonym <ind>wymiarze</ind></trd>
+        <trd lng="ru">
+    &c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_y;&c_j;
+        </trd>
       </ekz>
       <ekz>
         <ind>malfini<tld/>a</ind> spaco;
         <trd lng="en">infinite-dimensional</trd>
         <trd lng="de">unendlichdimensional</trd>
-        <trd lng="fr"><klr tip="ind">(espace) </klr>de <ind>dimension</ind> infinie</trd>
-        <trd lng="hu">v&eacute;gtelen <ind>dimenzi&oacute;s</ind></trd>         
-        <trd lng="pl"><klr tip="amb">(przestrze&nacute;) </klr>niesko&nacute;czenie <ind>wymiarowa</ind></trd>
-        <trd lng="ru">&c_b;&c_je;&c_s;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>
+        <trd lng="fr"><klr tip="ind">(espace) </klr>de
+        <ind>dimension</ind> infinie</trd>
+        <trd lng="hu">v&eacute;gtelen <ind>dimenzi&oacute;s</ind></trd>
+        <trd lng="pl"><klr tip="amb">(przestrze&nacute;)
+        </klr>niesko&nacute;czenie <ind>wymiarowa</ind></trd>
+        <trd lng="ru">
+&c_b;&c_je;&c_s;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;&c_m;&c_je;&c_r;
+&c_n;&c_y;&c_j;
+        </trd>
       </ekz>
       <ekz>
         tri<tld/>a kurbo <klr>(neebena kurbo)</klr>.
@@ -256,14 +292,23 @@
   </adm>
   <trd lng="de">n-dimensional<klr tip="ind"> (-er Raum)</klr></trd>
   <trd lng="en">n-dimensional</trd>
-  <trd lng="fr"><klr tip="ind">(espace) </klr>&agrave; n <ind>dimensions</ind></trd>
-  <trd lng="hu">n-dimenzi&oacute;s<klr tip="ind"> (t&eacute;r)</klr></trd>  
-  <trd lng="pl"><klr tip="amb">(przestrze&nacute;) </klr>n-wymiarowa</trd>
-  <trd lng="ru">n-<ind>&c_m;&c_je;&c_r;&c_n;&c_o;&c_je;</ind><klr tip="amb"> (&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+  <trd lng="fr"><klr tip="ind">(espace)
+  </klr>&agrave; n <ind>dimensions</ind></trd>
+  <trd lng="hu">n-dimenzi&oacute;s<klr tip="ind"> (t&eacute;r)</klr>
+  </trd>  
+  <trd lng="pl"><klr tip="amb">(przestrze&nacute;) </klr>n-wymiarowa
+  </trd>
+  <trd lng="ru">
+  n-<ind>&c_m;&c_je;&c_r;&c_n;&c_o;&c_je;</ind><klr tip="amb">
+  (&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr>
+  </trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.35  2007/08/05 16:30:52  revo
+Tulio Flores: +tr pt
+
 Revision 1.34  2005/06/26 16:32:56  revo
 Marc Bavant: kor duobligitan punkton
 
@@ -280,9 +325,5 @@ Marc Bavant: ~o: +frm en rim
 Revision 1.28  2003/03/05 17:34:00  revo
 Marc Bavant: n-~a: +ind en trd ru
 Revision 1.27  2003/02/24 17:32:47  revo
-Marc Bavant: mod klr tip cxe trd de
-Revision 1..26  2003/02/01 17:32:33  revo
-Marc Bavant: +trd pl
 -->
 </vortaro>
-
