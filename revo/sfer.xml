@@ -2,236 +2,318 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <ofc>1</ofc>
-  <rad>sfer</rad>/o
-</kap>
-<drv mrk="sfer.0o">
-  <kap><tld/>o</kap>
-  <snc mrk="sfer.0o.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <subsnc mrk="sfer.0o.surfaco">
-      <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
-      <dif>
-        Tridimensia <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>,
-        konsistanta el
-        &ccirc;iuj punktoj, kies distanco al iu punkto <klr>(&gcirc;ia
-        centro)</klr> egalas al iu valoro <klr>(&gcirc;ia radiuso)</klr>.
-      </dif>
-      <refgrp tip="vid">
-        <ref cel="centr.0o.cirklo">centro</ref>,
-        <ref cel="diamet.0o.cirklo">diametro</ref>,
-        <ref cel="radius.0o.cirklo">radiuso</ref>;
-      </refgrp>
-      <refgrp tip="prt">
-        <ref cel="zon.0o.MAT">zono</ref>,
-        <ref cel="cxap.verto0o.MAT">verto&ccirc;apo</ref>,
-        <ref cel="kalot.0o">kaloto</ref>.
-      </refgrp>
-      <trd lng="be">&c_s;&c_f;&c_e;&c_r;&c_a;</trd>
-      <trdgrp lng="de">
-        <trd>Kugeloberfl&auml;che</trd>,
-        <trd>Sph&auml;re</trd>
-      </trdgrp>
+  <art mrk="$Id$">
+    <kap>
+      <ofc>1</ofc>
+      <rad>sfer</rad>/o
+    </kap>
+
+    <drv mrk="sfer.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="sfer.0o.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <subsnc mrk="sfer.0o.surfaco">
+          <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+          <dif>
+            Tridimensia <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>,
+            konsistanta el
+            &ccirc;iuj punktoj, kies distanco al iu punkto <klr>(&gcirc;ia
+              centro)</klr> egalas al iu valoro <klr>(&gcirc;ia radiuso)</klr>.
+          </dif>
+          <refgrp tip="vid">
+            <ref cel="centr.0o.cirklo">centro</ref>,
+            <ref cel="diamet.0o.cirklo">diametro</ref>,
+            <ref cel="radius.0o.cirklo">radiuso</ref>;
+          </refgrp>
+          <refgrp tip="prt">
+            <ref cel="zon.0o.MAT">zono</ref>,
+            <ref cel="cxap.verto0o.MAT">verto&ccirc;apo</ref>,
+            <ref cel="kalot.0o">kaloto</ref>.
+          </refgrp>
+          <trd lng="be">&c_s;&c_f;&c_e;&c_r;&c_a;</trd>
+          <trdgrp lng="de">
+            <trd>Kugeloberfl&auml;che</trd>,
+            <trd>Sph&auml;re</trd>
+          </trdgrp>
+          <trdgrp lng="hu">
+            <trd>g&ouml;mbh&eacute;j</trd>,
+            <trd>g&ouml;mbfel&uuml;let</trd>
+          </trdgrp>      
+          <trd lng="pl">sfera</trd>
+          <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_a;</trd>
+        </subsnc>
+        <subsnc mrk="sfer.0o.solido">
+          <fnt><bib>VdE</bib></fnt>
+          <dif>
+            <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun
+            limas <tld/>o <sncref ref="sfer.0o.surfaco"/>.
+          </dif>
+          <refgrp tip="sin">
+            <ref cel="glob.0o.sfero">globo</ref>;
+          </refgrp>
+          <refgrp tip="prt">
+            <ref cel="segmen.0o.sfero">segmento</ref>,
+            <ref cel="tavol.glob0o">globtavolo</ref>,
+            <ref cel="disk.sfer0o"><tld/>disko</ref>.
+          </refgrp>
+          <trdgrp lng="be">
+            <trd>&c_sh;&c_a;&c_r;</trd>,
+            <trd>&c_k;&c_u;&c_l;&c_ja;</trd>
+          </trdgrp>
+          <trd lng="de">Kugel</trd>
+          <trd lng="hu">g&ouml;mb</trd>
+          <trdgrp lng="en">
+            <trd>sphere</trd>,
+            <trd>ball<klr tip="ind"> (solid)</klr></trd>
+          </trdgrp>
+          <trdgrp lng="fr">
+            <trd>sph&egrave;re</trd>,
+            <trd>boule<klr tip="ind"> (volume sph&eacute;rique)</klr></trd>
+          </trdgrp>
+          <trd lng="pl">kula</trd>
+          <trd lng="ru">&c_sh;&c_a;&c_r;</trd>
+        </subsnc>
+      </snc>
+      <snc mrk="sfer.0o.KOMUNE">
+        <dif>
+          &Ccirc;ia objekto pli-malpli samforma kiel <tld/>o
+          <sncref ref="sfer.0o.surfaco"/> a&ubreve; <sncref 
+            ref="sfer.0o.solido"/>:
+          <ekz>
+            la <ind><tld/>o &ccirc;iela</ind><fnt>Z</fnt>.
+            <trd lng="es">esfera celeste</trd>
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="bul.0o">bulo</ref>,
+          <ref cel="glob.0o">globo</ref>,
+          <ref cel="rond.0o">rondo</ref>
+        </refgrp>
+        <trdgrp lng="be">
+          <trd>&c_s;&c_f;&c_e;&c_r;&c_a;</trd>,
+          <trd>&c_sh;&c_a;&c_r;</trd>,
+          <trd>&c_k;&c_u;&c_l;&c_ja;</trd>
+        </trdgrp>
+        <trdgrp lng="hu">
+          <trd>g&ouml;mb</trd>,
+          <trd>gl&oacute;busz</trd>
+        </trdgrp>    
+        <trdgrp lng="ru">
+          <trd>&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
+          <trd>&c_sh;&c_a;&c_r;</trd>
+        </trdgrp>
+      </snc>
+      <snc mrk="sfer.0o.FIG">
+        <uzo tip="stl">FIG</uzo>
+        <dif>
+          Medio; kampo de agado:
+          <ekz>
+            &ccirc;iu povas agadi aparte en sia <tld/>o,
+            la&ubreve; siaj fortoj<fnt>Z</fnt>;
+          </ekz><ekz>
+            &ccirc;iuj <tld/>oj de la homa societo<fnt>Z</fnt>;
+          </ekz><ekz>
+            bone konata en <tld/>oj pedagogaj lingvisto<fnt>Z</fnt>
+          </ekz>
+        </dif>
+        <refgrp tip="vid">
+          <ref cel="region.0o">regiono</ref>,
+          <ref cel="rond.0o">rondo</ref>,
+          <ref cel="teren.0o">tereno</ref>
+        </refgrp>
+        <trdgrp lng="be">
+          <trd>&c_s;&c_f;&c_e;&c_r;&c_a;</trd>,
+          <trd>&c_p;&c_o;&c_l;&c_je; <klr tip="amb">(&c_d;&c_z;&c_je;&c_j;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
+        </trdgrp>
+        <trd lng="de">Sph&auml;re</trd>
+        <trd lng="hu">szf&eacute;ra</trd>
+        <trdgrp lng="ru">
+          <trd>&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
+          <trd>&c_p;&c_o;&c_l;&c_je; &c_d;&c_je;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
+        </trdgrp>
+      </snc>
+      <trd lng="en">sphere</trd>
+      <trd lng="es">esfera</trd>
+      <trd lng="fr">sph&egrave;re</trd>
+      <trd lng="it">sfera</trd>
+      <trd lng="nl">sfeer</trd>
+      <trd lng="pt">esfera</trd>
+    </drv>
+
+    <drv mrk="sfer.0a">
+      <kap><tld/>a</kap>
+      <snc>
+        <dif>
+          Rilata al <tld/>o:
+          <ekz>
+            <ind><tld/>aj koordinatoj</ind>.
+            <trd lng="es">coordenadas esf&eacute;ricas</trd>
+          </ekz>
+        </dif>
+      </snc>
+      <snc>
+        <dif>
+          Havanta formon de <tld/>o:
+          <ekz>
+            <tld/>a kapo;
+          </ekz><ekz>
+            <ind>duon<tld/>a kupolo</ind>.
+            <trd lng="hu">f&eacute;lg&ouml;mb kupola</trd>
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="be">&c_s;&c_f;&c_e;&c_r;&c_y;&c_ch;&c_n;&c_y;</trd>
+      <trd lng="es">esf&eacute;rico</trd>
+      <trd lng="fr">sph&eacute;rique</trd>
+      <trd lng="it">sferico</trd>
       <trdgrp lng="hu">
-        <trd>g&ouml;mbh&eacute;j</trd>,
-        <trd>g&ouml;mbfel&uuml;let</trd>
-      </trdgrp>      
-      <trd lng="pl">sfera</trd>
-      <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_a;</trd>
-    </subsnc>
-    <subsnc mrk="sfer.0o.solido">
-      <fnt><bib>VdE</bib></fnt>
-      <dif>
-        <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, kiun
-        limas <tld/>o <sncref ref="sfer.0o.surfaco"/>.
-      </dif>
-      <refgrp tip="sin">
-        <ref cel="glob.0o.sfero">globo</ref>;
-      </refgrp>
-      <refgrp tip="prt">
-        <ref cel="segmen.0o.sfero">segmento</ref>,
-        <ref cel="tavol.glob0o">globtavolo</ref>,
-        <ref cel="disk.sfer0o"><tld/>disko</ref>.
-      </refgrp>
+        <trd>g&ouml;mb-</trd>,
+        <trd>g&ouml;mb&ouml;ly&udblac;</trd>
+        <trd>g&ouml;mb alak&uacute;</trd>
+      </trdgrp>
+      <trdgrp lng="nl">
+        <trd>sferisch</trd>,
+        <trd>bolvormig</trd>
+      </trdgrp>
+      <trd lng="pt">esf&eacute;rico</trd>
+      <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+    </drv>
+
+    <drv mrk="sfer.duon0o">
+      <kap>duon<tld/>o</kap>
+      <fnt><bib>PIV1</bib></fnt>
+      <snc mrk="sfer.duon0o.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          &Ccirc;iu el la du partoj de <ref cel="sfer.0o.MAT"><tld/>o</ref>,
+          apartigitaj per ebeno trapasanta &gcirc;ian centron.
+        </dif>
+        <ref tip="sin" cel="hemisf.0o.MAT">hemisfero</ref>
+      </snc>
+      <snc mrk="sfer.duon0o.GEOG">
+        <uzo tip="fak">GEOG</uzo>
+        <dif>
+          &Ccirc;iu el la du partoj de la tersurfaco, dividitaj per la
+          ekvatoro a&ubreve; meridiano:
+          <ekz>
+            la Ekvatoro de Tero estas imaga ronda linio, egaldistanca
+            al la norda kaj suda polusoj, kiu dividas la tersurfacon
+            en nordan kaj sudan duon<tld/>ojn
+            <fnt><bib>Viki</bib>
+              <lok><url ref="http://eo.wikipedia.org/wiki/Ekvatoro"
+                  >Ekvatoro</url></lok></fnt>;
+          </ekz><ekz>
+            <klr>[San-Pa&ubreve;lo]</klr> estas la plej grava ekonomia
+            centro kaj plej granda urbo kaj de Brazilo kaj de la
+            suda duon<tld/>o entute
+            <fnt><lok><url ref="http://esperanto.televido.eo.infofx.net"
+                  >San-Pa&ubreve;lo</url></lok></fnt>;
+          </ekz><ekz>
+            Bondezirojn por la nova jaro anka&ubreve; el la okcidenta
+            duon<tld/>o!
+            <fnt><aut>Don HARLOW</aut>:
+              <lok><url
+            ref="http://groups.yahoo.com/group/aeko/message/784"
+                  >AEKO</url></lok>
+            </fnt>.
+          </ekz>
+          <ref tip="vid" cel="glob.duon0o">duonglobo</ref>
+        </dif>
+      </snc>
+      <snc mrk="sfer.duon0o.AST">
+        <uzo tip="fak">AST</uzo>
+        <dif>
+          &Ccirc;iu el la du partoj de la <ref>&ccirc;ielo<tld/>o</ref>,
+          dividitaj per la ekvatora ebeno:
+          <ekz>
+            kelkaj steloj komencis lumi, kaj se la in&gcirc;eniero estus
+            kun siaj komaradoj, li certe rimarkus, ke tiuj &ccirc;i steloj
+            ne apartenis al la norda duon<tld/>o
+            <fnt>
+              <aut>Jules Verne, tr. J. Wa&lstroke;aszek</aut>:
+              <vrk>La mistera insulo</vrk>.
+              <lok><url
+              ref="http://www.i-lo.tarnow.pl/edu/esp/lern/jv_mi/pages/003.php"
+                  >&Ccirc;ap. 3a</url></lok>
+            </fnt>.
+          </ekz>
+        </dif>
+      </snc>
+      <adm>
+        Kontroli trd de/en. <aut>MB</aut>
+      </adm>
       <trdgrp lng="be">
-        <trd>&c_sh;&c_a;&c_r;</trd>,
-        <trd>&c_k;&c_u;&c_l;&c_ja;</trd>
+        <trd>&c_p;&c_a;&c_w;&c_s;&c_f;&c_e;&c_r;&c_a;</trd>,
+        <trd>&c_p;&c_a;&c_w;&c_sh;&c_a;&c_r;'&c_je;</trd>,
+        <trd>&c_p;&c_a;&c_w;&c_k;&c_u;&c_l;&c_ja;</trd>
       </trdgrp>
-      <trd lng="de">Kugel</trd>
-      <trd lng="hu">g&ouml;mb</trd>
-      <trdgrp lng="en">
-        <trd>sphere</trd>,
-        <trd>ball<klr tip="ind"> (solid)</klr></trd>
+      <trd lng="de">Halbkugel</trd>
+      <trd lng="el">&eta;&my;&jota;&sigma;&phi;&alfa;&jota_ton;&rho;&jota;&omikron;</trd>
+      <trd lng="en">half <ind>sphere</ind></trd>
+      <trd lng="es">semiesfera</trd>
+      <trd lng="fr">demie <ind>sph&egrave;re</ind></trd>
+      <trd lng="pl">p&oacute;&lstroke;sfera</trd>
+      <trd lng="pt">semi-esfera</trd>
+      <trdgrp lng="ru">
+        <trd>&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
+        <trd>&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
       </trdgrp>
-      <trdgrp lng="fr">
-        <trd>sph&egrave;re</trd>,
-        <trd>boule<klr tip="ind"> (volume sph&eacute;rique)</klr></trd>
-      </trdgrp>
-      <trd lng="pl">kula</trd>
-      <trd lng="ru">&c_sh;&c_a;&c_r;</trd>
-    </subsnc>
-  </snc>
-  <snc mrk="sfer.0o.KOMUNE">
-    <dif>
-      &Ccirc;ia objekto pli-malpli samforma kiel <tld/>o
-      <sncref ref="sfer.0o.surfaco"/> a&ubreve; <sncref 
-      ref="sfer.0o.solido"/>:
-      <ekz>
-        la <ind><tld/>o &ccirc;iela</ind><fnt>Z</fnt>.
-        <trd lng="es">esfera celeste</trd>
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="bul.0o">bulo</ref>,
-      <ref cel="glob.0o">globo</ref>,
-      <ref cel="rond.0o">rondo</ref>
-    </refgrp>
-    <trdgrp lng="be">
-      <trd>&c_s;&c_f;&c_e;&c_r;&c_a;</trd>,
-      <trd>&c_sh;&c_a;&c_r;</trd>,
-      <trd>&c_k;&c_u;&c_l;&c_ja;</trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>g&ouml;mb</trd>,
-      <trd>gl&oacute;busz</trd>
-    </trdgrp>    
-    <trdgrp lng="ru">
-      <trd>&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
-      <trd>&c_sh;&c_a;&c_r;</trd>
-    </trdgrp>
-  </snc>
-  <snc mrk="sfer.0o.FIG">
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Medio; kampo de agado:
-      <ekz>
-        &ccirc;iu povas agadi aparte en sia <tld/>o,
-        la&ubreve; siaj fortoj<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        &ccirc;iuj <tld/>oj de la homa societo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        bone konata en <tld/>oj pedagogaj lingvisto<fnt>Z</fnt>
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="region.0o">regiono</ref>,
-      <ref cel="rond.0o">rondo</ref>,
-      <ref cel="teren.0o">tereno</ref>
-    </refgrp>
-    <trdgrp lng="be">
-      <trd>&c_s;&c_f;&c_e;&c_r;&c_a;</trd>,
-      <trd>&c_p;&c_o;&c_l;&c_je; <klr tip="amb">(&c_d;&c_z;&c_je;&c_j;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
-    </trdgrp>
-    <trd lng="de">Sph&auml;re</trd>
-    <trd lng="hu">szf&eacute;ra</trd>
-    <trdgrp lng="ru">
-      <trd>&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
-      <trd>&c_p;&c_o;&c_l;&c_je; &c_d;&c_je;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
-    </trdgrp>
-  </snc>
-  <trd lng="en">sphere</trd>
-  <trd lng="es">esfera</trd>
-  <trd lng="fr">sph&egrave;re</trd>
-  <trd lng="it">sfera</trd>
-  <trd lng="nl">sfeer</trd>
-  <trd lng="pt">esfera</trd>
-</drv>
+    </drv>
 
-<drv mrk="sfer.0a">
-  <kap><tld/>a</kap>
-  <snc>
-    <dif>
-      Rilata al <tld/>o:
-      <ekz>
-        <ind><tld/>aj koordinatoj</ind>.
-        <trd lng="es">coordenadas esf&eacute;ricas</trd>
-      </ekz>
-    </dif>
-  </snc>
-  <snc>
-    <dif>
-      Havanta formon de <tld/>o:
-      <ekz>
-        <tld/>a kapo;
-      </ekz>
-      <ekz>
-        <ind>duon<tld/>a kupolo</ind>.
-        <trd lng="hu">f&eacute;lg&ouml;mb kupola</trd>
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_s;&c_f;&c_e;&c_r;&c_y;&c_ch;&c_n;&c_y;</trd>
-  <trd lng="es">esf&eacute;rico</trd>
-  <trd lng="fr">sph&eacute;rique</trd>
-  <trd lng="it">sferico</trd>
-  <trdgrp lng="hu">
-    <trd>g&ouml;mb-</trd>,
-    <trd>g&ouml;mb&ouml;ly&udblac;</trd>
-    <trd>g&ouml;mb alak&uacute;</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>sferisch</trd>,
-    <trd>bolvormig</trd>
-  </trdgrp>
-  <trd lng="pt">esf&eacute;rico</trd>
-  <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
-</drv>
+    <drv mrk="sfer.duon0a">
+      <kap>duon<tld/>a</kap>
+      <snc mrk="sfer.duon0a.formo">
+        <dif>
+          Havanta la formon de duon<tld/>o:
+          <ekz>
+            kupolo <klr>[estas]</klr> duon<tld/>a konstruo en formo de
+            renversita kaliko
+            <fnt><bib>PIV2</bib>, <lok>Art. &leftquot;kupolo&rightquot;</lok></fnt>.
+          </ekz>
+        </dif>
+        <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; </trd>
+        <trd lng="nl">half <ind>rond</ind></trd>
+        <trd lng="pt">hemisf&eacute;rico</trd>
+      </snc>
+      <snc mrk="sfer.duon0a.rilata">
+        <dif>
+          Iel rilata al duon<tld/>o:
+          <ekz>
+            li iniciatis kelkajn projektojn de duon<tld/>a skalo
+            <klr>(t.e. koncernantajn la tutan orientan a&ubreve; sudan
+              a&ubreve; alian duon<tld/>on)</klr>.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="el">&eta;&my;&jota;&sigma;&phi;&alfa;&jota;&rho;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
+      <trd lng="fr">h&eacute;misph&eacute;rique</trd>
+      <trd lng="pl">p&oacute;&lstroke;kulisty</trd>
+    </drv>
 
-<drv mrk="sfer.duon0o">
-  <kap>duon<tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <snc>
-    <dif>
-      &Ccirc;iu el la du partoj de <ref cel="sfer.0o.MAT"><tld/>o</ref>,
-      apartigitaj per ebeno trapasanta &gcirc;ian centron.
-    </dif>
-    <ref tip="sin" cel="hemisf.0o.MAT">hemisfero.</ref>
-  </snc>
-  <adm>
-    Kontroli trd de/en. <aut>MB</aut>
-  </adm>
-  <trdgrp lng="be">
-    <trd>&c_p;&c_a;&c_w;&c_s;&c_f;&c_e;&c_r;&c_a;</trd>,
-    <trd>&c_p;&c_a;&c_w;&c_sh;&c_a;&c_r;'&c_je;</trd>,
-    <trd>&c_p;&c_a;&c_w;&c_k;&c_u;&c_l;&c_ja;</trd>
-  </trdgrp>
-  <trd lng="de">Halbkugel</trd>
-  <trd lng="en">half <ind>sphere</ind></trd>
-  <trd lng="es">semiesfera</trd>
-  <trd lng="fr">demie <ind>sph&egrave;re</ind></trd>
-  <trd lng="pl">p&oacute;&lstroke;sfera</trd>
-  <trd lng="pt">semi-esfera</trd>
-  <trdgrp lng="ru">
-    <trd>&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
-    <trd>&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
-  </trdgrp>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.24  2004/12/10 17:31:02  revo
-Marco Trevisan Herraz: korektis 2 hisp trd
+  </art>
+  <!--
+  $Log$
+  Revision 1.25  2006/07/11 16:31:18  revo
+  Jeromo Vasxe: + 1 mrk
 
-Revision 1.23  2004/12/04 20:22:58  revo
-Marco Trevisan Herraz: +4trd hi, +2trd it
+  Revision 1.24  2004/12/10 17:31:02  revo
+  Marco Trevisan Herraz: korektis 2 hisp trd
 
-Revision 1.22  2004/10/08 16:32:21  revo
-Jozefo Horvath: +trd hu
+  Revision 1.23  2004/12/04 20:22:58  revo
+  Marco Trevisan Herraz: +4trd hi, +2trd it
 
-Revision 1.21  2004/03/03 17:30:52  revo
-Dmitri Gabinski: +trd be
+  Revision 1.22  2004/10/08 16:32:21  revo
+  Jozefo Horvath: +trd hu
 
-Revision 1.20  2003/04/21 16:35:04  revo
-Marc Bavant: ~o (surfaco): mod trd de
+  Revision 1.21  2004/03/03 17:30:52  revo
+  Dmitri Gabinski: +trd be
 
-Revision 1.19  2003/04/11 16:33:05  revo
-Marc Bavant: ~o (solido): koherigis trad kun "globo"
+  Revision 1.20  2003/04/21 16:35:04  revo
+  Marc Bavant: ~o (surfaco): mod trd de
 
-Revision 1.18  2002/12/12 17:30:40  revo
--->
+  Revision 1.19  2003/04/11 16:33:05  revo
+  Marc Bavant: ~o (solido): koherigis trad kun "globo"
+
+  Revision 1.18  2002/12/12 17:30:40  revo
+  -->
 </vortaro>
