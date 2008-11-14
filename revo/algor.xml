@@ -4,93 +4,98 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-  <rad>algoritm</rad>/o
+   <ofc>9</ofc>
+   <rad>algoritm</rad>/o
 </kap>
 <drv mrk="algor.0o">
-  <kap><tld/>o</kap>
-  <tezrad fak="MAT"/>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
-  <tezrad fak="KOMP"/>
-  <uzo tip="fak">KOMP</uzo>
-  <snc>
-    <dif>
-      Aro da reguloj por solvi problemon, farante finian nombron da
-      pa&scirc;oj:
-      <ekz>
-        <tld/>o por kalkuli <frm>sin(<k>x</k>)</frm> &gcirc;is 
-        indikita precizo.
-      </ekz>
-    </dif>
-    <ref tip="super" cel="metod.0o">metodo;</ref>
-    <ref tip="sub" cel="progra.0o.komp">programo.</ref>
-  </snc>
-  <rim>
-    La termino <tld/>o kutime implicas relative abstraktan
-    matematikan prezenton, kontraste al komputopreta, sed ofte
-    komputildependa &leftquot;programo&rightquot;.
-  </rim>
-  <trd lng="be">&c_a;&c_l;&c_mol;&c_g;&c_a;&c_r;&c_y;&c_t;&c_m;</trd>
-  <trd lng="de">Algorithmus</trd>
-  <trd lng="en">algorithm</trd>
-  <trd lng="es">algoritmo</trd>
-  <trd lng="hu">algoritumus</trd>  
-  <trd lng="nl">algoritme</trd>
-  <trd lng="fr">algorithme</trd>
-  <trd lng="pl">algorytm</trd>
-  <trd lng="pt">algoritmo</trd>
-  <trd lng="ru">&c_a;&c_l;&c_g;&c_o;&c_r;&c_i;&c_t;&c_m;</trd>
-  <trd lng="sk">algoritmus</trd>
+   <kap><ofc>9</ofc><tld/>o</kap>
+   <tezrad fak="MAT"/>
+   <uzo tip="fak">MAT</uzo>
+   <fnt><bib>MatVort</bib></fnt>
+   <tezrad fak="KOMP"/>
+   <uzo tip="fak">KOMP</uzo>
+   <snc>
+     <dif>
+       Aro da reguloj por solvi problemon, farante finian nombron da
+       pa&scirc;oj:
+       <ekz>
+         <tld/>o por kalkuli <frm>sin(<k>x</k>)</frm> &gcirc;is
+         indikita precizo;
+       </ekz>
+       <ekz>
+         prezenti <tld/>on per komputila programo
+         <fnt><bib>9OA</bib></fnt>.
+       </ekz>
+     </dif>
+     <ref tip="super" cel="metod.0o">metodo;</ref>
+     <ref tip="sub" cel="progra.0o.komp">programo.</ref>
+   </snc>
+   <rim>
+     La termino <tld/>o kutime implicas relative abstraktan
+     matematikan prezenton, kontraste al komputopreta, sed ofte
+     komputildependa &leftquot;programo&rightquot;.
+   </rim>
+   <trd lng="be">&c_a;&c_l;&c_mol;&c_g;&c_a;&c_r;&c_y;&c_t;&c_m;</trd>
+   <trd lng="de">Algorithmus</trd>
+   <trd lng="en">algorithm</trd>
+   <trd lng="es">algoritmo</trd>
+   <trd lng="hu">algoritumus</trd>
+   <trd lng="nl">algoritme</trd>
+   <trd lng="fr">algorithme</trd>
+   <trd lng="pl">algorytm</trd>
+   <trd lng="pt">algoritmo</trd>
+   <trd lng="ru">&c_a;&c_l;&c_g;&c_o;&c_r;&c_i;&c_t;&c_m;</trd>
+   <trd lng="sk">algoritmus</trd>
 </drv>
 
 <drv mrk="algor.euxklida0o">
-  <kap>e&ubreve;klida <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatVort</bib></fnt>
-  <snc>
-    <dif>
-      <ref tip="super" cel="algor.0o"><tld lit="A"/>o</ref>,
-      kiu per sinsekvaj
-      <ref cel="divid.euxklida0o">e&ubreve;klidaj dividoj</ref>
-      ebligas kalkuli la plej grandan komunan
-      <ref cel="divizo.0o">divizoron</ref> de du
-      elementoj en <ref cel="ring.euxklida0o">e&ubreve;klida ringo</ref>.
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="euxkli.0o">E&ubreve;klido</ref>.
-    </refgrp>
-  </snc>
-  <trd lng="be">&c_E;&c_w;&c_k;&c_l;&c_ib;&c_d;&c_a;&c_w; &c_a;&c_l;&c_mol;&c_g;&c_a;&c_r;&c_y;&c_t;&c_m;</trd>
-  <trd lng="de">Euklidischer <ind>Algorithmus</ind></trd>
-  <trd lng="en">Euclid['s] <ind>algorithm</ind></trd>
-  <trd lng="fr">algorithme d'Euclide</trd>
-  <trd lng="hu">euklideszi <ind>algoritmus</ind></trd>  
-  <trd lng="pl">algorytm Euklidesa</trd>
-  <trd lng="pt">algoritmo de Euclides</trd>
-  <trd lng="ru">&c_a;&c_l;&c_g;&c_o;&c_r;&c_i;&c_t;&c_m; &c_Je;&c_v;&c_k;&c_l;&c_i;&c_d;&c_a;</trd>
-  <trd lng="sk">Euklidov algoritmus</trd>
+   <kap>e&ubreve;klida <tld/>o</kap>
+   <uzo tip="fak">MAT</uzo>
+   <fnt><bib>MatVort</bib></fnt>
+   <snc>
+     <dif>
+       <ref tip="super" cel="algor.0o"><tld lit="A"/>o</ref>,
+       kiu per sinsekvaj
+       <ref cel="divid.euxklida0o">e&ubreve;klidaj dividoj</ref>
+       ebligas kalkuli la plej grandan komunan
+       <ref cel="divizo.0o">divizoron</ref> de du
+       elementoj en <ref cel="ring.euxklida0o">e&ubreve;klida ringo</ref>.
+     </dif>
+     <refgrp tip="vid">
+       <ref cel="euxkli.0o">E&ubreve;klido</ref>.
+     </refgrp>
+   </snc>
+   <trd lng="be">&c_E;&c_w;&c_k;&c_l;&c_ib;&c_d;&c_a;&c_w; 
+&c_a;&c_l;&c_mol;&c_g;&c_a;&c_r;&c_y;&c_t;&c_m;</trd>
+   <trd lng="de">Euklidischer <ind>Algorithmus</ind></trd>
+   <trd lng="en">Euclid['s] <ind>algorithm</ind></trd>
+   <trd lng="fr">algorithme d'Euclide</trd>
+   <trd lng="hu">euklideszi <ind>algoritmus</ind></trd>
+   <trd lng="pl">algorytm Euklidesa</trd>
+   <trd lng="pt">algoritmo de Euclides</trd>
+   <trd lng="ru">&c_a;&c_l;&c_g;&c_o;&c_r;&c_i;&c_t;&c_m; 
+&c_Je;&c_v;&c_k;&c_l;&c_i;&c_d;&c_a;</trd>
+   <trd lng="sk">Euklidov algoritmus</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.17  2006/09/22 12:26:49  revo
+Revision 1.18 2006/09/22 16:30:21 revo
+Wolfram Diestel: +tzerad(MAT)
+Revision 1.17 2006/09/22 12:26:49 revo
 Wolfram Diestel: +tezrad(KOMP)
-
-Revision 1.16  2005/07/28 19:54:23  revo
+Revision 1.16 2005/07/28 19:54:23 revo
 Jozefo Horvath: +trd hu
-
-Revision 1.15  2003/11/06 17:30:51  revo
+Revision 1.15 2003/11/06 17:30:51 revo
 Dmitri Gabinski: +trd be
-
-Revision 1.14  2002/12/09 17:31:49  revo
+Revision 1.14 2002/12/09 17:31:49 revo
 Marc Bavant: +frm, +trd pl
-
-Revision 1.13  2002/09/07 17:39:21  revo
+Revision 1.13 2002/09/07 17:39:21 revo
 Viliam Bur: +sk trd
-Revision 1.12  2002/05/20 16:35:54  revo
+Revision 1.12 2002/05/20 16:35:54 revo
 Marc Bavant: +fnt, -ekz
-Revision 1.11  2002/05/09 18:42:10  revo
+Revision 1.11 2002/05/09 18:42:10 revo
 Alejandro Mejia Greene: ald his trd
-Revision 1.10  2002/02/15 17:36:24  revo
+Revision 1.10 2002/02/15 17:36:24 revo
 -->
 </vortaro>
