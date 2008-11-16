@@ -6,27 +6,33 @@
 <kap>
   <rad>&scirc;alt</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
-
 <drv mrk="sxalt.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="sxalt.0i.ELE">
-  <uzo tip="fak">ELE</uzo>
+    <uzo tip="fak">ELE</uzo>
     <dif>
       Fermi elektran cirkviton, tiel ke la kurento povas trapasi:
       <ekz>
         <ind><tld/>i la lumon</ind>,
+        <trd lng="fr"><ind>allumer</ind> la lumi&egrave;re</trd>
         <trd lng="hu">felgy&uacute;jta a villanyt</trd>
       </ekz>
       <ekz>
         la ekbrulon <klr>(de motoro)</klr>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="komut.0i">komuti</ref>
+    <ref tip="vid" cel="komut.0i">komuti</ref>
   </snc>
   <trd lng="be">&c_u;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_c;&c_mol; <klr>(&c_s;&c_mol;&c_v;&c_ja;&c_t;&c_l;&c_o;, &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;)</klr></trd>
   <trd lng="de">einschalten</trd>
-  <trd lng="hu">bekapcsol</trd>  
+  <trdgrp lng="fr">
+    <trd>fermer<klr tip="ind"> (un circuit)</klr></trd>
+    <trd>enclencher<klr tip="ind"> (un m&eacute;canisme)</klr></trd>
+    <trd>allumer<klr tip="ind"> (mettre en fonctionnement)</klr></trd>
+    <trd>mettre en <ind>circuit</ind></trd>
+  </trdgrp>
+  <trd lng="hu">bekapcsol</trd>
   <trd lng="ru">&c_v;&c_k;&c_l;&c_ju;&c_ch;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="nl">
     <trd>aansteken<klr tip="ind"> (licht)</klr></trd>,
@@ -38,7 +44,7 @@
 <drv mrk="sxalt.0ilo">
   <kap><tld/>ilo</kap>
   <snc mrk="sxalt.0ilo.ELE">
-  <uzo tip="fak">ELE</uzo>
+    <uzo tip="fak">ELE</uzo>
     <dif>
       Aparato, provizita per prem- a&ubreve; baskulbutono, kaj servanta jen
       por <tld/>i, jen por mal<tld/>i elektran kurenton:
@@ -47,6 +53,11 @@
       </ekz>
     </dif>
   </snc>
+  <adm>
+    En la difino aperas "prembutono" kaj "baskulbutono". La unua estas prialudita
+    en ekzemplo &ccirc;e "buton", sed la dua tute mankas.
+    <aut>MB</aut>
+  </adm>
   <trdgrp lng="be">
     <trd>&c_p;&c_je;&c_r;&c_a;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_u;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
@@ -57,17 +68,42 @@
     <trd>&c_sh;&c_a;&c_l;&c_t;&c_je;&c_r;</trd>
   </trdgrp>
   <trd lng="de">Schalter</trd>
-  <trd lng="hu">kapcsol&oacute;</trd>  
+  <trd lng="fr">interrupteur</trd>
+  <trd lng="hu">kapcsol&oacute;</trd>
   <trd lng="nl">schakelaar</trd>
   <trd lng="pt">interruptor</trd>
   <trd lng="ru">&c_v;&c_y;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
 </drv>
 
-<drv mrk="sxalt.mal0i">
-  <kap>mal<tld/>i, el<tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <uzo tip="fak">ELE</uzo>
+<drv mrk="sxalt.baskul0ilo">
+  <kap>baskul<tld/>o</kap>
   <snc>
+    <uzo tip="fak">ELE</uzo>
+    <dif>
+      <ref tip="super" cel="sxalt.0ilo"><tld lit="&Scirc;"/>ilo</ref>, kiu
+      funkcias per baskula movo.
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_t;&c_u;&c_m;&c_b;&c_l;&c_je;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>toggle switch</trd>
+  </trdgrp>
+  <trd lng="fr">interrupteur &agrave; bascule</trd>
+  <trd lng="hu">billen&odblac;kapcsol&oacute;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
+    <trd>&c_t;&c_u;&c_m;&c_b;&c_l;&c_je;&c_r;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="sxalt.mal0i">
+  <kap>mal<tld/>i, <var><kap>el<tld/>i</kap></var></kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <uzo tip="fak">ELE</uzo>
     <dif>
       Malfermi elektran cirkviton, tiel ke la kurento ne povas trapasi:
       <ekz>
@@ -89,7 +125,13 @@
     <trd>&c_a;&c_d;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="de">ausschalten</trd>
-  <trd lng="hu">kikapcsol</trd>  
+  <trdgrp lng="fr">
+    <trd>ouvrir<klr tip="ind"> (un circuit)</klr></trd>
+    <trd>&eacute;teindre<klr tip="ind"> (un m&eacute;canisme)</klr></trd>
+    <trd>arr&ecirc;ter<klr tip="ind"> (faire cesser le fonctionnement)</klr></trd>
+    <trd>mettre hors <ind>circuit</ind></trd>
+  </trdgrp>
+  <trd lng="hu">kikapcsol</trd>
   <trdgrp lng="nl">
     <trd>uitschakelen</trd>,
     <trd>afzetten</trd>,
@@ -104,8 +146,8 @@
 
 <drv mrk="sxalt.mem0ilo">
   <kap>mem<tld/>ilo</kap>
-  <uzo tip="fak">ELE</uzo>
   <snc>
+    <uzo tip="fak">ELE</uzo>
     <dif>
       A&ubreve;tomata <tld/>ilo, funkcianta per si mem je certaj kondi&ccirc;oj.
     </dif>
@@ -116,31 +158,27 @@
     <trd>&c_a;&c_w;&c_t;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y; <ind>&c_v;&c_y;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</ind></trd>
   </trdgrp>
   <trd lng="de">automatischer <ind>Schalter</ind></trd>
-  <trd lng="hu">automata <ind>kapcsol&oacute;</ind></trd>  
+  <trd lng="hu">automata <ind>kapcsol&oacute;</ind></trd>
   <trd lng="nl">automatische <ind>schakelaar</ind></trd>
   <trd lng="ru">&c_a;&c_v;&c_t;&c_o;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_v;&c_y;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.10  2008/01/29 17:30:37  revo
+Revision 1.11 2008/01/31 17:30:23 revo
+Wieland Pusch: +trd bg kun ind
+Revision 1.10 2008/01/29 17:30:37 revo
 Wieland Pusch: +korr lng=bg
-
-Revision 1.9  2007/12/11 17:30:25  revo
+Revision 1.9 2007/12/11 17:30:25 revo
 Wieland Pusch: +trd bg
-
-Revision 1.8  2004/11/09 17:31:56  revo
+Revision 1.8 2004/11/09 17:31:56 revo
 Jozefo Horvath: +trd hu
-
-Revision 1.7  2004/02/24 17:30:57  revo
+Revision 1.7 2004/02/24 17:30:57 revo
 Jeromo Vasxe: + fnt spv
-
-Revision 1.6  2003/09/04 16:32:03  revo
+Revision 1.6 2003/09/04 16:32:03 revo
 Dmitri Gabinski: +trd be
-
-Revision 1.5  2003/01/07 17:32:45  revo
+Revision 1.5 2003/01/07 17:32:45 revo
 Ulrich Fellmann: + 2 pliaj trd = de
-
-Revision 1.4  2002/05/20 16:38:28  revo
+Revision 1.4 2002/05/20 16:38:28 revo
 -->
 </vortaro>
