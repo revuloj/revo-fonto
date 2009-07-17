@@ -2,57 +2,82 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<kap>
-  <rad>natr</rad>/o
-  <fnt>Z</fnt>
-</kap>
-<drv mrk="natr.0o">
-  <kap><tld/>o</kap>
-  <snc>
-    <dif>
-      CO<sub>3</sub>Na<sub>2</sub>. Senkolora alkala salo, natria
-      karbonato, facile solvebla en akvo kaj tre uzata en industrio
-      (fabrikado de vitro, sapo ktp.).
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_k;&c_a;&c_w;&c_s;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
-    <trd>&c_je;&c_d;&c_k;&c_ib; &c_n;&c_a;&c_t;&c_r;</trd>
-  </trdgrp>
-  <trd lng="de">Natron</trd>
-  <trdgrp lng="en">
-    <trd>caustic <ind>soda</ind></trd>,
-    <trd>lye</trd>
-  </trdgrp>
-  <trd lng="hu">sz&oacute;da</trd>
-  <trd lng="nl">loogzout</trd>
-  <trdgrp lng="ru">
-    <trd>&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
-    <trd>&c_je;&c_d;&c_k;&c_i;&c_j; <ind>&c_n;&c_a;&c_t;&c_r;</ind></trd>
-  </trdgrp>
-  <trd lng="sv">natriumkarbonat</trd>
-</drv>
-</art>
-<!--
-$Log$
-Revision 1.9  2004/09/07 16:31:26  revo
-Dmitri Gabinski: +trd be
+  <art mrk="$Id$">
+    <kap>
+      <rad>natr</rad>/o<fnt>Z</fnt>
+    </kap>
 
-Revision 1.8  2002/10/14 16:33:13  revo
-Jozefo Horvath: +trd hu
+    <drv mrk="natr.0o">
+      <kap><tld/>o</kap>
+      <snc ref="natr.0o.alkalo">
+        <uzo tip="fak">KEM</uzo>
+        <dif>
+          <frm>NaOH</frm>. Senkolora
+          <ref tip="super" cel="alkal.0o">alkalo</ref>, natria
+          hidroksido uzata por multaj industriaj celoj.
+        </dif>
+        <trdgrp lng="be">
+          <trd>&c_k;&c_a;&c_w;&c_s;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
+          <trd>&c_je;&c_d;&c_k;&c_ib; &c_n;&c_a;&c_t;&c_r;</trd>
+        </trdgrp>
+        <trd lng="de">Natron</trd>
+        <trdgrp lng="en">
+          <trd>caustic <ind>soda</ind></trd>,
+          <trd>lye</trd>
+        </trdgrp>
+        <trd lng="nl">loogzout</trd>
+        <trdgrp lng="ru">
+          <trd>&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
+          <trd>&c_je;&c_d;&c_k;&c_i;&c_j; <ind>&c_n;&c_a;&c_t;&c_r;</ind></trd>,
+          <trd>&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_k;</trd>
+        </trdgrp>
+        <trdgrp lng="sv">
+          <trd>kaustiksoda</trd>,
+          <trd>natriumhydroxid</trd>
+        </trdgrp>
+      </snc>
+      <snc ref="natr.0o.sodo">
+        <uzo tip="stl">ARK</uzo>
+        <dif>
+          Akva cindrosolva&jcirc;o, entenanta karbonatojn de natrio
+          kaj kalio, kaj antikve uzata por lavado kaj ledotraktado:
+          <ekz>
+            se vi e&ccirc; lavus vin per <tld/>o kaj uzus por vi multe da
+            sapo, via malvirto tamen restos makula anta&ubreve; Mi, diras la
+            Sinjoro
+            <fnt><bib>MT</bib>, <lok>&Jer; 22:2</lok></fnt>.
+          </ekz>
+        </dif>
+        <ref tip="vid" cel="sod.lav0o">lavsodo</ref>
+        <trd lng="en">nitre</trd>
+        <trd lng="hu">sz&oacute;da</trd>
+        <trd lng="ru">&c_shch;&c_jo;&c_l;&c_o;&c_k;</trd>
+        <trd lng="sv">natriumkarbonat</trd>
+      </snc>
+    </drv>
+  </art>
+  <!--
+  $Log$
+  Revision 1.10  2009/02/26 17:30:38  revo
+  Jerano Zachrisson: +trd sv
 
-Revision 1.7  2001/12/20 17:32:41  revo
-Karlo Freeman: +trd=en
+  Revision 1.9  2004/09/07 16:31:26  revo
+  Dmitri Gabinski: +trd be
 
-Revision 1.6  2001/11/29 17:33:25  revo
-Yury Finkel: +trd ru
+  Revision 1.8  2002/10/14 16:33:13  revo
+  Jozefo Horvath: +trd hu
 
-Revision 1.5 2001/11/07 19:14:38 revo
-Dennis Wibrow: +trd germ
+  Revision 1.7  2001/12/20 17:32:41  revo
+  Karlo Freeman: +trd=en
 
-Revision 1.4 2001/05/01 18:07:09 revo
-Paul Peeraerts: ald trd nl
+  Revision 1.6  2001/11/29 17:33:25  revo
+  Yury Finkel: +trd ru
 
--->
+  Revision 1.5 2001/11/07 19:14:38 revo
+  Dennis Wibrow: +trd germ
+
+  Revision 1.4 2001/05/01 18:07:09 revo
+  Paul Peeraerts: ald trd nl
+
+  -->
 </vortaro>
