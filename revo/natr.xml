@@ -2,96 +2,90 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>natr</rad>/o<fnt>Z</fnt>
-    </kap>
+<art mrk="$Id$">
+<kap>
+  <rad>natr</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+</kap>
+<drv mrk="natr.0o">
+  <kap><tld/>o</kap>
+  <snc ref="natr.0o.alkalo">
+    <fnt><bib>PIV1</bib></fnt>
+    <uzo tip="fak">KEM</uzo>
+    <dif>
+      Senkolora <ref tip="super" cel="alkal.0o">alkalo</ref>, natria
+      hidroksido uzata por multaj industriaj celoj; <frm>NaOH</frm>.
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_k;&c_a;&c_w;&c_s;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
+      <trd>&c_je;&c_d;&c_k;&c_ib; &c_n;&c_a;&c_t;&c_r;</trd>
+    </trdgrp>
+    <trd lng="de">&Auml;tznatron</trd>
+    <trdgrp lng="en">
+      <trd>caustic <ind>soda</ind></trd>,
+      <trd>lye</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>hydroxyde de sodium</trd>,
+      <trd>soude caustique</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>natriumhydroxide</trd>,
+      <trd>bijtende <ind>soda</ind></trd>,
+      <trd>loogzout</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
+      <trd>&c_je;&c_d;&c_k;&c_i;&c_j;<ind> &c_n;&c_a;&c_t;&c_r;</ind></trd>,
+      <trd>&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_k;</trd>
+    </trdgrp>
+    <trdgrp lng="sv">
+      <trd>kaustiksoda</trd>,
+      <trd>natriumhydroxid</trd>
+    </trdgrp>
+  </snc>
+  <snc ref="natr.0o.sodo">
+    <uzo tip="fak">BIB</uzo>
+    <dif>
+      Ne plu specife konata lavsubstanco, menciata en Biblio,
+      eble minerala <ref cel="sod.lav0o">lavsodo</ref>, eble
+      salpetro a&ubreve; io alia:
+      <ekz>
+        se vi e&ccirc; lavus vin per <tld/>o kaj uzus por vi multe da
+        sapo, via malvirto tamen restos makula anta&ubreve; Mi, diras la
+        Sinjoro
+        <fnt><bib>MT</bib>, <lok>&Jer; 2:22</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Natron</trd>
+    <trd lng="en">nitre</trd>
+    <trd lng="fr">soude</trd>
+    <trd lng="hu">sz&oacute;da</trd>
+    <trd lng="nl">salpeter<klr tip="ind"> (arch.)</klr></trd>
+    <trd lng="ru">&c_m;&c_y;&c_l;&c_o;</trd>
+    <trd lng="sv">natriumkarbonat</trd>
+  </snc>
+</drv>
+</art>
+<!--
+$Log$
+Revision 1.13 2009/08/24 16:33:10 revo
+Paul Peeraerts: +trd nl
 
-    <drv mrk="natr.0o">
-      <kap><tld/>o</kap>
-      <snc ref="natr.0o.alkalo">
-        <fnt><bib>PIV1</bib></fnt>
-        <uzo tip="fak">KEM</uzo>
-        <dif>
-          <frm>NaOH</frm>. Senkolora
-          <ref tip="super" cel="alkal.0o">alkalo</ref>, natria
-          hidroksido uzata por multaj industriaj celoj.
-        </dif>
-        <trdgrp lng="be">
-          <trd>&c_k;&c_a;&c_w;&c_s;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
-          <trd>&c_je;&c_d;&c_k;&c_ib; &c_n;&c_a;&c_t;&c_r;</trd>
-        </trdgrp>
-        <trd lng="de">&Auml;tznatron</trd>
-        <trdgrp lng="en">
-          <trd>caustic <ind>soda</ind></trd>,
-          <trd>lye</trd>
-        </trdgrp>
-        <trdgrp lng="nl">
-          <trd>natriumhydroxide</trd>,
-          <trd>bijtende <ind>soda</ind></trd>,
-          <trd>loogzout</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; &c_s;&c_o;&c_d;&c_a;</trd>,
-          <trd>&c_je;&c_d;&c_k;&c_i;&c_j;<ind> &c_n;&c_a;&c_t;&c_r;</ind></trd>,
-          <trd>&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_k;</trd>
-        </trdgrp>
-        <trdgrp lng="sv">
-          <trd>kaustiksoda</trd>,
-          <trd>natriumhydroxid</trd>
-        </trdgrp>
-      </snc>
+Revision 1.12 2009/08/11 16:30:45 revo
+Sergio Pokrovskij: kor snc=BIB
 
-      <snc ref="natr.0o.sodo">
-        <uzo tip="stl">BIB</uzo>
-        <dif>
-          Ne plu specife konata lavsubstanco, menciata en Biblio
-          (eble minerala <ref cel="sod.lav0o">lavsodo</ref>, eble
-          salpetro a&ubreve; io alia):
-          <ekz>
-            se vi e&ccirc; lavus vin per <tld/>o kaj uzus por vi multe da
-            sapo, via malvirto tamen restos makula anta&ubreve; Mi, diras la
-            Sinjoro
-            <fnt><bib>MT</bib>, <lok>&Jer; 2:22</lok></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="de">Natron</trd>
-        <trd lng="en">nitre</trd>
-        <trd lng="hu">sz&oacute;da</trd>
-        <trd lng="nl">salpeter<klr tip="ind"> (arch.)</klr></trd>
-        <trd lng="ru">&c_m;&c_y;&c_l;&c_o;</trd>
-        <trd lng="sv">natriumkarbonat</trd>
-      </snc>
-    </drv>
-  </art>
-  <!--
-  $Log$
-  Revision 1.12  2009/08/11 16:30:45  revo
-  Sergio Pokrovskij: kor snc=BIB
+Revision 1.11 2009/07/17 16:31:32 revo
+Sergio Pokrovskij: reverkita
 
-  Revision 1.11  2009/07/17 16:31:32  revo
-  Sergio Pokrovskij: reverkita
+Revision 1.10 2009/02/26 17:30:38 revo
+Jerano Zachrisson: +trd sv
 
-  Revision 1.10  2009/02/26 17:30:38  revo
-  Jerano Zachrisson: +trd sv
+Revision 1.9 2004/09/07 16:31:26 revo
+Dmitri Gabinski: +trd be
 
-  Revision 1.9  2004/09/07 16:31:26  revo
-  Dmitri Gabinski: +trd be
+Revision 1.8 2002/10/14 16:33:13 revo
+Jozefo Horvath: +trd hu
 
-  Revision 1.8  2002/10/14 16:33:13  revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.7  2001/12/20 17:32:41  revo
-  Karlo Freeman: +trd=en
-
-  Revision 1.6  2001/11/29 17:33:25  revo
-  Yury Finkel: +trd ru
-
-  Revision 1.5 2001/11/07 19:14:38 revo
-  Dennis Wibrow: +trd germ
-
-  Revision 1.4 2001/05/01 18:07:09 revo
-  Paul Peeraerts: ald trd nl
-
-  -->
+Revision 1.7 2001/12/20 17:32:41 revo
+-->
 </vortaro>
