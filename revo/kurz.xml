@@ -4,20 +4,19 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-  <ofc>9</ofc><rad>kurz</rad>/o
+  <ofc>9</ofc><rad>kurz</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kurz.0o">
   <kap>
     <ofc>9</ofc><tld/>o
   </kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="kurz.0o.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Borsa a&ubreve; eksterborsa prezo a&ubreve; valoro de akcioj, obligacioj,
-      kambioj,
-      devizoj, mono kaj varoj:
+      kambioj, devizoj, mono kaj varoj:
       <ekz>
-        alfa, meza, malalta <tld/>o;
+        alta, meza, malalta <tld/>o;
       </ekz>
       <ekz>
         <tld/>o falas, alti&gcirc;as;
@@ -36,6 +35,7 @@
     <trd>quotation</trd>
   </trdgrp>
   <trd lng="es">valor burs&aacute;til</trd>
+  <trd lng="fr">cours<klr> (de la bourse)</klr></trd>
   <trd lng="hu">&aacute;rfolyam</trd>
   <trd lng="nl">koers<klr tip="ind"> (v.munt bijv.)</klr></trd>
   <trdgrp lng="pt">
@@ -46,15 +46,44 @@
   &c_v;&c_a;&c_l;&c_ju;&c_t;&c_n;&c_y;&c_j;)</klr></trd>
 </drv>
 
-<drv mrk="kurz.eksterborsa0o">
-  <kap>
-    eksterborsa <tld/>o
-  </kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+<drv mrk="kurz.0a">
+  <kap><tld/>a, <var><kap><tld/>ohava</kap></var></kap>
+  <snc mrk="kurz.0a.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
-      <tld lit="K"/>o notata kaj uzata ekster la borso
-      (= neoficiala <tld/>o).
+      Negocata en la borso.
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+     <trd>b&ouml;rslich <ind>notiert</ind></trd>
+  </trdgrp>
+  <trd lng="hu">t&odblac;zsd&eacute;n <ind>jegyzett</ind></trd>
+  <trd lng="nl">genoteerd (<ind>koers</ind>)</trd>
+</drv>
+
+<drv mrk="kurz.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="kurz.sen0a.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Nehavanta kurzon, ne negocata en la borso.
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+     <trd>nicht notiert</trd>,
+     <trd>gestrichen</trd>
+  </trdgrp>
+  <trd lng="hu">t&odblac;zsd&eacute;n nem <ind>jegyzett</ind></trd>
+  <trd lng="nl">niet genoteerd (<ind>koers</ind>)</trd>  
+</drv>
+
+<drv mrk="kurz.eksterborsa0o">
+  <kap>eksterborsa <tld/>o, <var><kap>neoficiala
+  <tld/>o</kap></var></kap>
+  <snc mrk="kurz.eksterborsa0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      <tld lit="K"/>o notata kaj uzata ekster la borso.
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_z;&c_a;&c_b;&c_ib;&c_r;&c_zh;&c_a;&c_v;&c_y; &c_k;&c_u;&c_r;&c_s;</trd>
@@ -66,9 +95,9 @@
 </drv>
 
 <drv mrk="kurz.oficiala0o">
-  <kap>(oficiala) <tld/>o</kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <kap>oficiala <tld/>o</kap>
+  <snc mrk="kurz.oficiala0o.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       &Ccirc;iutage en la borso notata <tld/>o.
     </dif>
@@ -93,29 +122,12 @@
   <trd lng="ru">&c_o;&c_f;&c_i;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_k;&c_u;&c_r;&c_s;</trd>
 </drv>
 
-<drv mrk="kurz.0hava">
-  <kap>
-    <tld/>(ohav)a
-  </kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
-    <dif>
-      Negocata en la borso.
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-     <trd>b&ouml;rslich <ind>notiert</ind></trd>
-  </trdgrp>
-  <trd lng="hu">t&odblac;zsd&eacute;n <ind>jegyzett</ind></trd>
-  <trd lng="nl">genoteerd (<ind>koers</ind>)</trd>
-</drv>
-
 <drv mrk="kurz.0altigxo">
   <kap>
     <tld/>alti&gcirc;o
   </kap>
-  <uzo tip="fak">EKON</uzo>
   <snc>
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Pliprezi&gcirc;o de <tld/>a valoro.
     </dif>
@@ -139,21 +151,19 @@
   <kap>
     <tld/>ofalo
   </kap>
-  <uzo tip="fak">EKON</uzo>
   <snc>
+    <uzo tip="fak">EKON</uzo>
     <dif>
-      Malpliprezi&gcirc;o de <tld/>a valoro.
+      Malpliprezi&gcirc;o de <tld/>a valoro:
     </dif>
     <ekz>
-      La komunika dokumento de Vatikano rimarkigis, ke pezis sur la fina
-      bilanco precipe la tendenco de financa sektoro, interalie la
-      <tld/>ofalo de la usona dolaro.
-      <fnt><aut>Armando ZECCHIN</aut>, <vrk><url
+      pezis sur la fina bilanco <klr>...</klr> interalie la
+      <tld/>ofalo de la usona dolaro
+      <fnt><aut>A. Zecchin</aut>, <vrk><url
       ref="http://www.esperanto.be/fel/2008/009589.php">La kontoj de
-      Vatikano kaj de la Sankta Se&gcirc;o</url></vrk>, <bib>Monato</bib>,
-      <lok>2008/10, p. 15</lok></fnt>.
+      Vatikano...</url></vrk>, <bib>Monato</bib>,
+      <lok>2008-10, p. 15</lok></fnt>.
     </ekz>
-
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_n;&c_ib;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je; &c_k;&c_u;&c_r;&c_s;&c_u;</trd>,
@@ -178,8 +188,8 @@
   <kap>
     <tld/>noto
   </kap>
-  <uzo tip="fak">EKON</uzo>
   <snc>
+    <uzo tip="fak">EKON</uzo>
     <dif>
       &Ccirc;iutaga fikso de valoro de <tld/>o en la borso.
     </dif>
@@ -196,27 +206,12 @@
   <trd lng="hu">&aacute;rfolyamjegyz&eacute;s</trd>  
   <trd lng="nl">koersnotering</trd>
 </drv>
-
-<drv mrk="kurz.sen0a">
-  <kap>
-    sen<tld/>a
-  </kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
-    <dif>
-      Nehavanta kurzon, ne negocata en la borso.
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-     <trd>nicht notiert</trd>,
-     <trd>gestrichen</trd>
-  </trdgrp>
-  <trd lng="hu">t&odblac;zsd&eacute;n nem <ind>jegyzett</ind></trd>
-  <trd lng="nl">niet genoteerd (<ind>koers</ind>)</trd>  
-</drv>
 </art>
 <!--
 $Log$
+Revision 1.18  2010/06/20 16:30:32  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.17  2009/07/08 16:31:04  revo
 Paul Peeraerts: +kurzofalo +trd nl
 
@@ -233,8 +228,5 @@ Revision 1.13  2004/04/18 16:31:46  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12  2004/03/30 16:32:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/01/15 17:33:02  revo
 -->
 </vortaro>
