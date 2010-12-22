@@ -4,31 +4,82 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-<rad>filum</rad>/o
-<fnt>PIV</fnt></kap>
+  <rad>filum</rad>/o <fnt><bib>PIV1</bib></fnt>
+</kap>
 <drv mrk="filum.0o">
   <kap><tld/>o</kap>
   <tezrad fak="ZOO"/>
-  <uzo tip="fak">BIO</uzo>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="filum.0o.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      &Scirc;tupo de la zoologia klasifiko (<trd lng="la">phylum</trd>),
-      super <ref tip="prt" cel="klas.0o.BIO">klaso</ref>.
+      &Scirc;tupo de la zoologia klasifiko,
+      super <ref tip="prt" cel="klas.0o.BIO">klaso</ref>
+      (<trd lng="la">phylum</trd>).
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_y;&c_p; <klr tip="amb">(&c_b;&c_ib;&c_ja;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;)</klr></trd>
   <trd lng="de">Stamm</trd>
-  <trd lng="en">phylum</trd>
-  <trd lng="fr">phylum</trd>
+  <trdgrp lng="fr">
+    <trd>embranchement<klr> (biol.)</klr></trd>,
+    <trd>phylum</trd>
+  </trdgrp>
   <trd lng="hu">t&ouml;rzs<klr tip="ind"> (n&ouml;v&eacute;nyi, &aacute;llati)</klr></trd>
   <trd lng="pl">typ<klr tip="ind"> (biologia)</klr></trd>
   <trd lng="pt">filo</trd>
   <trd lng="ru">&c_t;&c_i;&c_p;</trd>
 </drv>
+
+<drv mrk="filum.sub0o">
+  <kap>subfilumo</kap>
+  <snc mrk="filum.sub0o.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Parto de <ref tip="malprt" cel="filum.0o.BIO"><tld/>o</ref>,
+      grupo de klasoj:
+      <ekz>
+        la miriapodoj estas sub<tld/>o de la artropodoj
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Miriapodo">
+          Miriapodo</url>, 2010-11-19</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">sous-embranchement</trd>
+</drv>
+
+<drv mrk="filum.super0o">
+  <kap>superfilumo</kap>
+  <snc mrk="filum.super0o.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Grupo de <ref tip="malprt" cel="filum.0o.BIO"><tld/>oj</ref>,
+      parto de regno:
+      <ekz>
+        la super<tld/>o de <klr>...</klr> vaskulaj plantoj 
+        <klr>...</klr> havas proksimume 250 000 speciojn
+        <fnt>
+          <aut>K. Lendon</aut>,
+          <vrk><url
+          ref="http://groups.yahoo.com/group/per-esperanto-bazascienco/message/538">
+          La Siluria Periodo</url></vrk>,
+          <lok>per-esperanto-bazascienco, 2003-10-06</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">superembranchement</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.12  2009/03/06 17:31:19  revo
+Marcus Curdeius: +pl
+
 Revision 1.11  2007/06/01 16:30:55  revo
 Tulio Flores: +tr pt
 
@@ -45,8 +96,5 @@ Revision 1.7  2001/08/23 18:49:14  revo
 Marc Bavant: +trd fr
 
 Revision 1.6  2001/05/04 16:12:12  revo
-Yury Finkel: +trd ru
-
-Revision 1.5  2000/11/30 08:54:29  revo
 -->
 </vortaro>
