@@ -4,7 +4,7 @@
 <art mrk="$Id$">
 <kap>
   <ofc>4</ofc>
-  <rad>dimensi</rad>/o
+  <rad>dimensi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="dimens.0o">
   <kap><tld/>o</kap>
@@ -207,33 +207,30 @@
   <trd lng="pt">dimens&atilde;o</trd>
 </drv>
 
-<drv mrk="dimens.0nombro">
-  <kap><tld/>nombro</kap>
-  <snc mrk="dimens.0nombro.KOMP">
-    <uzo tip="fak">KOMP</uzo>
+<drv mrk="dimens.du0a">
+  <kap>du<tld/>a, <var><kap>2-<tld/>a</kap></var></kap>
+  <snc mrk="dimens.du0a.FORM">
     <dif>
-      La nombro de indicpozicioj necesaj por atingi elementon de
-      <ref cel="tabel.0o.KOMP">tabelo</ref>: 1 por vektoro, 2 por
-      matrico ktp.
+      Ekzistanta en <ref tip="vid" cel="eben.0a.MAT">ebena</ref> spaco,
+      <ref tip="vid" cel="plat.0a.ebena">plata</ref>,
+      havanta nur alton kaj lar&gcirc;on, ne profundon:
+      <ekz>
+        kalkultabelo estas du<tld/>a aran&gcirc;o de &ccirc;eloj
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Kalkultabelo">
+          Kalkultabelo</url>, 2011-01-06</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="en">dimensionality</trd>
-    <trd lng="fr">dimension</trd>
-    <trdgrp lng="hu">
-      <trd>dimenzionalit&aacute;s</trd>,
-      <trd>kiterjed&eacute;s</trd>
-    </trdgrp>
-    <trd lng="ru">
-    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <refgrp tip="vid">
+      <ref cel="grafik.0a.BELA">grafika</ref>
+    </refgrp>
   </snc>
-  <snc mrk="dimens.0nombro.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <ref tip="dif" cel="dimens.0o.vektoraspaco">
-    <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
-    </ref>
-    <trd lng="hu">dimenzi&oacute;</trd>
-    <trd lng="ru">
-    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-  </snc>
+  <trdgrp lng="fr">
+    <trd>bidimensionnel</trd>,
+    <trd>en <ind>deux dimensions</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dimens.n0a">
@@ -297,9 +294,72 @@
   (&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr>
   </trd>
 </drv>
+
+<drv mrk="dimens.tri0a">
+  <kap>tri<tld/>a, <var><kap>3-<tld/>a</kap></var></kap>
+  <snc mrk="dimens.tri0a.FORM">
+    <dif>
+      <ref tip="vid" cel="relief.0a.FORM">Reliefa</ref>,
+      volumena, havanta formon en la ordinara spaco
+      kun alto, lar&gcirc;o kaj profundo:
+      <ekz>
+        el &ccirc;iuj tri<tld/>aj figuroj, simetria kvaredro
+        havas la malplej grandan volumenon proporcie al
+        la surfaco
+        <fnt>
+          <aut>S. Norvell</aut>,
+          <vrk>La Platonaj Korpoj</vrk>,
+          <lok><url
+          ref="http://www.gazetejo.org/system/files/gazetoj/IN0301.pdf">
+          Inter Ni, 2003-01</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="plasti.0a.BELA">plastika</ref>,
+      <ref cel="stereo.0.TEK">stereo-</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>tridimensionnel</trd>,
+    <trd>en <ind>trois dimensions</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="dimens.0nombro">
+  <kap><tld/>nombro</kap>
+  <snc mrk="dimens.0nombro.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      La nombro de indicpozicioj necesaj por atingi elementon de
+      <ref cel="tabel.0o.KOMP">tabelo</ref>: 1 por vektoro, 2 por
+      matrico ktp.
+    </dif>
+    <trd lng="en">dimensionality</trd>
+    <trd lng="fr">dimension</trd>
+    <trdgrp lng="hu">
+      <trd>dimenzionalit&aacute;s</trd>,
+      <trd>kiterjed&eacute;s</trd>
+    </trdgrp>
+    <trd lng="ru">
+    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </snc>
+  <snc mrk="dimens.0nombro.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <ref tip="dif" cel="dimens.0o.vektoraspaco">
+    <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
+    </ref>
+    <trd lng="hu">dimenzi&oacute;</trd>
+    <trd lng="ru">
+    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </snc>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.37  2009/02/11 19:42:45  revo
+Sebastian Cyprych: -fusxaj linirompoj en trd
+
 Revision 1.36  2008/05/28 20:08:07  revo
 Sebastian Cyprych: +trd pl
 
@@ -316,8 +376,5 @@ Jozefo Horvath: +trd hu
 Revision 1.31  2005/05/18 16:31:29  revo
 Yury Finkel: +trd ru
 Revision 1.30  2004/10/13 16:31:13  revo
-Wolfram Diestel: kor. germ trd
-Revision 1.29  2003/04/07 16:34:34  revo
-Marc Bavant: ~o: +frm en rim
 -->
 </vortaro>
