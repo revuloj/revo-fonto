@@ -5,7 +5,7 @@
 <art mrk="$Id$">
 <kap>
   <ofc>*</ofc>
-  <rad>model</rad>/o
+  <rad>model</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="model.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -64,6 +64,27 @@
     <trdgrp lng="de">
       <trd>Modell</trd>
     </trdgrp>
+  </snc>
+  <snc mrk="model.0o.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Simpliga prezento de objektoj a&ubreve; okaza&jcirc;oj
+      faciliganta rezonon pri ili, kiun oni
+      eventuale elprovas per
+      <ref tip="vid" cel="simul.0ilo.KOMP">simulilo<sncref/></ref>:
+      <ekz>
+        ni havis klimat<tld/>on kiu ne donas la &gcirc;ustajn rezultojn
+        <fnt>
+          <aut>M. van Hulten</aut>,
+          <vrk><url ref="http://marcovan.hulten.org/index-2010.eo.html">
+          Retotaglibro</url></vrk>,
+          <lok>2010-11-14</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="skem.0o.TEK">skemo</ref>
+    </refgrp>
   </snc>
   <snc mrk="model.0o.BELA">
     <uzo tip="fak">BELA</uzo>
@@ -133,19 +154,28 @@
 <drv mrk="model.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="model.0i.KOMUNE">
     <dif>
       Fari reproduktotan <tld/>on:
       <ekz>
         <tld/>i buston.
       </ekz>
     </dif>
-    <refgrp tip="sub">
+    <refgrp tip="vid">
+      <ref cel="modl.0i">modli</ref>,
       <ref cel="muld.0i">muldi</ref>
     </refgrp>
-    <refgrp tip="vid">
-      <ref cel="modl.0i">modli</ref>
-    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_d;&c_e;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
+      <ind>&c_m;&c_a;&c_d;&c_e;&c_l;&c_mol;</ind></trd>
+    </trdgrp>
+    <trd lng="de">modellieren</trd>
+    <trd lng="en">model</trd>
+    <trdgrp lng="hu">
+      <trd>megmint&aacute;z</trd>,
+      <trd>modell&aacute;l</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>mint&aacute;z</trd>,
       <trd>megmint&aacute;z</trd>,
@@ -154,23 +184,38 @@
       <trd>mint&aacute;t k&eacute;sz&iacute;t</trd>
       <trd>ki&ouml;nt<klr tip="amb">(form&aacute;ba)</klr></trd>
     </trdgrp>
+    <trd lng="nl">modelleren</trd>
+    <trdgrp lng="ru">
+      <trd>&c_m;&c_o;&c_d;&c_je;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_m;&c_o;&c_d;&c_je;&c_l;&c_mol;</ind></trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_m;&c_a;&c_d;&c_e;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
-    <trd>&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
-    <ind>&c_m;&c_a;&c_d;&c_e;&c_l;&c_mol;</ind></trd>
-  </trdgrp>
-  <trd lng="de">modellieren</trd>
-  <trd lng="en">model</trd>
-  <trdgrp lng="hu">
-    <trd>megmint&aacute;z</trd>,
-    <trd>modell&aacute;l</trd>
-  </trdgrp>
-  <trd lng="nl">modelleren</trd>
-  <trdgrp lng="ru">
-    <trd>&c_m;&c_o;&c_d;&c_je;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_m;&c_o;&c_d;&c_je;&c_l;&c_mol;</ind></trd>
-  </trdgrp>
+  <snc mrk="model.0i.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <ref tip="dif" cel="model.0igi.SCI">modeligi<sncref/></ref>
+    <ekz>
+      sukeraj solvajoj <tld/>as fiziologiajn likva&jcirc;ojn
+      <fnt>
+        <aut>trad. M. M. Mahnac</aut>,
+        <vrk><url
+        ref="http://www.smolensk.ru/user/sgma/MMORPH/N-11-html/esp-11-html.htm">
+        -</url></vrk>,
+        <lok>[2009?]</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      por <tld/>i la Esperantan gramatikon estas skribita kaj uzita 
+      parsalgoritmo
+      <fnt>
+        <aut>S. Ben-Avi</aut>,
+        <vrk><url
+        ref="http://www.edukado.net/biblioteko/diplomlaborajhoj?iid=46">
+        Esploro pri la uzo de Esperanto kiel interlingvo...</url></vrk>,
+        <lok>[vidita en 2011]</lok>
+      </fnt>.
+    </ekz>
+    <trd lng="fr">mod&eacute;liser</trd>
+  </snc>
 </drv>
 
 <drv mrk="model.0ilo">
@@ -206,31 +251,62 @@
 <drv mrk="model.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="model.0igi.KOMUNE">
     <dif>
       Konformigi al <tld/>o:
       <ekz>
         estus la plej bone, se niaj amikoj &ccirc;iam <tld/>igadus sian
-        stilon la&ubreve; la stilo de la gazeto &leftquot;Esperantisto&rightquot;.<fnt>Z</fnt>.
+        stilon la&ubreve; la stilo de la gazeto &leftquot;Esperantisto&rightquot;
+        <fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trd lng="de">sich richten nach</trd>
+    <trd lng="en">model</trd>
+    <trd lng="fr">conformer &agrave; un <ind>mod&egrave;le</ind></trd>
+    <trdgrp lng="hu">
+      <trd>p&eacute;ld&aacute;t vesz</trd>,
+      <trd>mint&aacute;t vesz</trd>
+    </trdgrp>
+    <trd lng="nl">richten naar</trd>
+    <trdgrp lng="ru">
+      <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; <ind>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;</ind></trd>,
+      <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; &c_z;&c_a; <ind>&c_o;&c_b;&c_r;&c_a;&c_z;&c_je;&c_c;</ind></trd>
+    </trdgrp>
   </snc>
-  <trd lng="de">sich richten nach</trd>
-  <trd lng="en">model</trd>
-  <trd lng="fr">conformer &agrave; un <ind>mod&egrave;le</ind></trd>
-  <trdgrp lng="hu">
-    <trd>p&eacute;ld&aacute;t vesz</trd>,
-    <trd>mint&aacute;t vesz</trd>
-  </trdgrp>
-  <trd lng="nl">richten naar</trd>
-  <trdgrp lng="ru">
-    <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; <ind>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;</ind></trd>,
-    <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; &c_z;&c_a; <ind>&c_o;&c_b;&c_r;&c_a;&c_z;&c_je;&c_c;</ind></trd>
-  </trdgrp>
+  <snc mrk="model.0igi.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Prezenti per <ref tip="vid"
+      cel="model.0o.SCI"><tld/>o<sncref/></ref>;
+      <ref tip="sin" cel="model.0i.SCI">modeli<sncref/></ref>:
+      <ekz>
+        oni <tld/>igas la strukturon per ebenaj <tld/>oj
+        <fnt>
+          <aut>R. Bouchet</aut>,
+          <vrk><url
+          ref="http://take.esperanto.free.fr/unikodo/tertremo.htm">
+          Tertremoj kaj Stalkonstruado</url></vrk>,
+          <lok>La Domo, [2005?], (41)</lok>
+        </fnt>
+      </ekz>
+    </dif>
+    <rim mrk="model.0igi.SCI_SNC">
+      Same kiel detaligi, muzikigi... <em>modeligi</em>
+      en &ccirc;i tiu senco ne signifas &leftquot;igi modelon&rightquot;.
+      Plie scienca modelo ne prezenti&gcirc;as kiel imitinda&jcirc;o,
+      sed imitas mem.  Oni evitus la rezultan fortan
+      disecon de sencoj per ekzemple &leftquot;primodeli&rightquot;.
+      <aut>&jcirc;v</aut>
+    </rim>
+    <trd lng="fr">mod&eacute;liser</trd>
+  </snc>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.18  2011/01/29 17:10:19  revo
+Russ Williams: +trd en
+
 Revision 1.17  2006/08/07 16:32:07  revo
 Tulio Flores: +tr pt
 
@@ -247,8 +323,5 @@ Revision 1.13 2004/06/15 21:32:52 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12 2004/03/07 17:30:38 revo
-Emmanuel Debanne: eraro fr modelilo
-
-Revision 1.11 2004/02/17 17:30:43 revo
 -->
 </vortaro>
