@@ -5,152 +5,154 @@
 <art mrk="$Id$">
 <kap>
  <ofc>4</ofc>
- <rad>kontinu</rad>/a
- <fnt>Z</fnt>
+ <rad>kontinu</rad>/a <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="kontin3.0a">
- <kap><tld/>a</kap>
- <snc>
-   <dif>
-     Konsistanta el eroj, kiuj formas seninterrompan, senmankan vicon:
-   </dif>
-   <subsnc>
-     <dif>
-       En tempo:
-       <ekz>
-         <tld/>a pluvo, elektra fluo, febro, bruo;
-       </ekz>
-       <ekz>
-         fulmoj <tld/>e zigzagas.
-       </ekz>
-     </dif>
-   </subsnc>
-   <subsnc>
-     <dif>
-       En spaco:
-       <ekz>
-         <tld/>a muro;
-       </ekz>
-       <ekz>
-         <tld/>a linio;
-       </ekz>
-       <ekz>
-         <tld/>aj rimoj <klr>(<tld/>a
-         <ref cel="rim.0arangxo">rimaran&gcirc;o</ref>)</klr>.
-       </ekz>
-     </dif>
-   </subsnc>
-   <refgrp tip="vid">
-     <ref cel="konsta.0a">konstanta</ref>,
-     <ref cel="cxes.sen0a">sen&ccirc;esa</ref>,
-     <ref cel="halt.sen0a">senhalta</ref>,
-     <ref cel="dauxr.0a">da&ubreve;ra</ref>.
-   </refgrp>
-   <trdgrp lng="de">
-     <trd>ununterbrochen</trd>,
+  <kap><tld/>a</kap>
+  <snc mrk="kontin3.0a.KOMUNE">
+    <dif>
+      Konsistanta el eroj, kiuj formas seninterrompan, senmankan vicon:
+    </dif>
+    <subsnc mrk="kontin3.0a.tempo">
+      <dif>
+        En tempo:
+        <ekz>
+          <tld/>a pluvo, elektra fluo, febro, bruo;
+        </ekz>
+        <ekz>
+          fulmoj <tld/>e zigzagas.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="kontin3.0a.spaco">
+      <dif>
+        En spaco:
+        <ekz>
+          <tld/>a muro;
+        </ekz>
+        <ekz>
+          <tld/>a linio;
+        </ekz>
+        <ekz>
+          <tld/>aj rimoj <klr>(<tld/>a
+          <ref cel="rim.0arangxo">rimaran&gcirc;o</ref>)</klr>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <refgrp tip="vid">
+      <ref cel="dauxr.0a">da&ubreve;ra</ref>,
+      <ref cel="konsta.0a">konstanta</ref>,
+      <ref cel="cxes.sen0a">sen&ccirc;esa</ref>,
+      <ref cel="mank.seninter0a.KOMUNE">senintermanka</ref>,
+      <ref cel="pec.unu0a.KOMUNE">unupeca</ref>,
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>ununterbrochen</trd>,
       <trd>st&auml;ndig</trd>,
       <trd>best&auml;ndig</trd>,
       <trd>kontinuierlich</trd>
-   </trdgrp>
-   <trd lng="en">continuous</trd>
-   <trdgrp lng="hu">
-     <trd>folyamatos</trd>,
-     <trd>szakadatlan</trd>,
-     <trd>folytonos</trd>
-   </trdgrp>
-   <trdgrp lng="pl">
-     <trd>ci&aogonek;g&lstroke;y</trd>,
-     <trd>nieprzerwany</trd>
-   </trdgrp>
-   <trdgrp lng="ru">
-     <trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>,
-     <trd>&c_s;&c_p;&c_l;&c_o;&c_sh;&c_n;&c_o;&c_j;</trd>
-   </trdgrp>
- </snc>
- <snc mrk="kontin3.0a.MAT">
-   <uzo tip="fak">MAT</uzo>
-   <fnt><bib>EKV</bib><lok>&para;223</lok></fnt>
-   <subsnc mrk="kontin3.0a.cxepunkto">
-     <dif>
-       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> 
+    </trdgrp>
+    <trd lng="en">continuous</trd>
+    <trdgrp lng="hu">
+      <trd>folyamatos</trd>,
+      <trd>szakadatlan</trd>,
+      <trd>folytonos</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>ci&aogonek;g&lstroke;y</trd>,
+      <trd>nieprzerwany</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>,
+      <trd>&c_s;&c_p;&c_l;&c_o;&c_sh;&c_n;&c_o;&c_j;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="kontin3.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>EKV</bib><lok>&para;223</lok></fnt>
+    <subsnc mrk="kontin3.0a.cxepunkto">
+      <dif>
+        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref> 
 <frm><k>f</k></frm>
-       de <ref cel="spac.topologia0o">topologia spaco</ref> 
+        de <ref cel="spac.topologia0o">topologia spaco</ref> 
 <frm><g>E</g></frm>
-       al topologia spaco <frm><g>F</g></frm>,
-       &ccirc;e punkto <frm><k>a</k>&#8712;<g>E</g></frm>)</klr>
-       Tia, ke &ccirc;iu ajn
-       <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
-       de <frm><k>f</k>(<k>a</k>)</frm> inkluzivas la bildon
-       per <frm><k>f</k></frm> de iu &ccirc;irka&ubreve;a&jcirc;o
-       de <frm><k>a</k></frm>.
-     </dif>
-     <rim>
-       En malpli faka lingva&jcirc;o: <frm><k>f</k>(<k>x</k>)</frm>
-       senlime proksimi&gcirc;as al <frm><k>f</k>(<k>a</k>)</frm>,
-       kiam <frm><k>x</k></frm> senlime proksimi&gcirc;as al
-       <frm><k>a</k></frm>.
-     </rim>
-   </subsnc>
-   <subsnc mrk="kontin3.0a.cxie">
-     <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
-     <dif>
-       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-       <frm><k>f</k></frm> de
-       <ref cel="spac.topologia0o">topologia spaco</ref>
-       <frm><g>E</g></frm> al topologia spaco <frm><g>F</g></frm>)</klr>
-       Tia, ke &gcirc;i estas
-       <ref cel="kontin3.0a.cxepunkto"><tld/>a <sncref/></ref>
-       &ccirc;e &ccirc;iuj punktoj de <frm><g>E</g></frm>:
-       <ekz>
-         <frm><k>f</k></frm> estas <tld/>a, se kaj nur se la inversa
-         bildo
-         de &ccirc;iu ajn
-         <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref> de
-         <frm><g>F</g></frm> estas malfermita subaro de 
+        al topologia spaco <frm><g>F</g></frm>,
+        &ccirc;e punkto <frm><k>a</k>&#8712;<g>E</g></frm>)</klr>
+        Tia, ke &ccirc;iu ajn
+        <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+        de <frm><k>f</k>(<k>a</k>)</frm> inkluzivas la bildon
+        per <frm><k>f</k></frm> de iu &ccirc;irka&ubreve;a&jcirc;o
+        de <frm><k>a</k></frm>.
+      </dif>
+      <rim>
+        En malpli faka lingva&jcirc;o: <frm><k>f</k>(<k>x</k>)</frm>
+        senlime proksimi&gcirc;as al <frm><k>f</k>(<k>a</k>)</frm>,
+        kiam <frm><k>x</k></frm> senlime proksimi&gcirc;as al
+        <frm><k>a</k></frm>.
+      </rim>
+    </subsnc>
+    <subsnc mrk="kontin3.0a.cxie">
+      <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
+        <frm><k>f</k></frm> de
+        <ref cel="spac.topologia0o">topologia spaco</ref>
+        <frm><g>E</g></frm> al topologia spaco
+        <frm><g>F</g></frm>)</klr>
+        Tia, ke &gcirc;i estas
+        <ref cel="kontin3.0a.cxepunkto"><tld/>a <sncref/></ref>
+        &ccirc;e &ccirc;iuj punktoj de <frm><g>E</g></frm>:
+        <ekz>
+          <frm><k>f</k></frm> estas <tld/>a, se kaj nur se la inversa
+          bildo
+          de &ccirc;iu ajn
+          <ref cel="ferm.mal0ita.topologio">malfermita subaro</ref> de
+          <frm><g>F</g></frm> estas malfermita subaro de 
 <frm><g>E</g></frm>;
-       </ekz>
-       <ekz>
-         la idento-bildigo de <frm><g>E</g></frm> al si mem (kun la sama
-         topologio) estas <tld/>a;
-       </ekz>
-       <ekz>
-         la kunliga&jcirc;o de du <tld/>aj bildigoj estas mem <tld/>a;
-       </ekz>
-       <ekz>
-         kiu ajn bildigo inter topologiaj spacoj kun diskreta topologio
-         estas <tld/>a.
-       </ekz>
-     </dif>
-     <refgrp tip="vid">
-       <ref cel="homeom.0o">homeomorfio</ref>.
-     </refgrp>
-   </subsnc>
-   <trd lng="de">stetig</trd>
-   <trd lng="en">continuous</trd>
-   <trd lng="pl">ci&aogonek;g&lstroke;y</trd>
- </snc>
- <trd lng="ca">continu</trd>
- <trd lng="es">continuo, -a</trd>
- <trd lng="fr">continu</trd>
- <trd lng="hu">folytonos</trd> 
- <trdgrp lng="nl">
-   <trd>onafgebroken</trd>,
-   <trd>continu</trd>
- </trdgrp>
- <trdgrp lng="pl">
-   <trd>ci&aogonek;g&lstroke;y</trd>,
-   <trd>nieprzerwany</trd>
- </trdgrp>
- <trd 
-lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
+        </ekz>
+        <ekz>
+          la idento-bildigo de <frm><g>E</g></frm> al si mem (kun la
+          sama
+          topologio) estas <tld/>a;
+        </ekz>
+        <ekz>
+          la kunliga&jcirc;o de du <tld/>aj bildigoj estas mem <tld/>a;
+        </ekz>
+        <ekz>
+          kiu ajn bildigo inter topologiaj spacoj kun diskreta topologio
+          estas <tld/>a.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="homeom.0o">homeomorfio</ref>.
+      </refgrp>
+    </subsnc>
+    <trd lng="de">stetig</trd>
+    <trd lng="en">continuous</trd>
+    <trd lng="pl">ci&aogonek;g&lstroke;y</trd>
+  </snc>
+  <trd lng="ca">continu</trd>
+  <trd lng="es">continuo, -a</trd>
+  <trd lng="fr">continu</trd>
+  <trd lng="hu">folytonos</trd> 
+  <trdgrp lng="nl">
+    <trd>onafgebroken</trd>,
+    <trd>continu</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ci&aogonek;g&lstroke;y</trd>,
+    <trd>nieprzerwany</trd>
+  </trdgrp>
+  <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="kontin3.0i">
  <kap><tld/>i</kap>
  <gra><vspec>ntr</vspec></gra>
- <snc>
+ <snc mrk="kontin3.0i.KOMUNE">
    <dif>
-     Esti <tld/>a:
+     Esti <tld/>a, okazi senrompe:
      <ekz>
        la kolekto <tld/>as de la unua jaro &gcirc;is hodia&ubreve;.
      </ekz>
@@ -169,10 +171,10 @@ lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
 
 <drv mrk="kontin3.0eco">
  <kap><tld/>eco</kap>
- <snc>
+ <snc mrk="kontin3.0eco.KOMUNE">
    <dif>
-     Eco de io <tld/>a; neinterrompita interligo de partoj a&ubreve; 
-periodoj:
+     Eco de io <tld/>a; neinterrompita interligo
+     de partoj a&ubreve; periodoj:
      <ekz>
        <tld/>eco de la spino;
      </ekz>
@@ -212,9 +214,7 @@ periodoj:
  </trdgrp>
  <trd lng="nl">continu&iuml;teit</trd>
  <trd lng="pl">ci&aogonek;g&lstroke;o&sacute;&cacute;</trd>
- <trd 
-lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd> 
-
+ <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd> 
 </drv>
 
 <drv mrk="kontin3.0ega">
@@ -247,44 +247,73 @@ bildoj de
  <trd lng="en">uniformly <ind>continous</ind></trd>
  <trd lng="es"><ind>continuidad</ind> uniforme</trd>
  <trd lng="fr">uniform&eacute;ment <ind>continu</ind></trd>
- <trd lng="hu">egyenletesen <ind>folytonos</ind></trd>  <trd 
-lng="pl">jednostajnie <ind>ci&aogonek;g&lstroke;y</ind></trd>
- <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o; 
-<ind>&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</ind></trd>
+ <trd lng="hu">egyenletesen <ind>folytonos</ind></trd>
+ <trd lng="pl">jednostajnie <ind>ci&aogonek;g&lstroke;y</ind></trd>
+ <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o; <ind>&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</ind></trd>
 </drv>
 
 <drv mrk="kontin3.0igi">
- <kap><tld/>igi<fnt>Z</fnt></kap>
- <snc>
-   <dif>
-     Fari, ke io estu <tld/>a:
-     <ekz>
-       li <tld/>igis la laboron de siaj
-       anta&ubreve;intoj.
-     </ekz>
-   </dif>
-   <refgrp tip="vid">
-     <ref cel="dauxr.0igi">da&ubreve;rigi</ref>.
-   </refgrp>
- </snc>
- <trdgrp lng="ca">
-   <trd>continuar <klr>(tr.)</klr></trd>,
-   <trd>prosseguir</trd>
- </trdgrp>
- <trd lng="de">fortsetzen</trd>
- <trd lng="fr">continuer<klr tip="ind"> (tr.)</klr></trd>
- <trdgrp lng="hu">
-   <trd>folytat</trd>,
-   <trd>folyamatoss&aacute; tesz</trd>
- </trdgrp>
- <trd lng="nl">voortzetten</trd>
- <trd lng="pl">kontynuowa&cacute;</trd>
- <trd lng="es">continuar</trd>
- <trd lng="ro">a continua</trd>
+  <kap><tld/>igi<fnt>Z</fnt></kap>
+  <snc mrk="kontin3.0igi.KOMUNE">
+    <dif>
+      Fari, ke io estu <tld/>a:
+      <ekz>
+        li <tld/>igis la laboron de siaj
+        anta&ubreve;intoj.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="dauxr.0igi">da&ubreve;rigi</ref>.
+    </refgrp>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>continuar <klr>(tr.)</klr></trd>,
+    <trd>prosseguir</trd>
+  </trdgrp>
+  <trd lng="de">fortsetzen</trd>
+  <trd lng="es">continuar</trd>
+  <trd lng="fr">continuer<klr tip="ind"> (tr.)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>folytat</trd>,
+    <trd>folyamatoss&aacute; tesz</trd>
+  </trdgrp>
+  <trd lng="nl">voortzetten</trd>
+  <trd lng="pl">kontynuowa&cacute;</trd>
+  <trd lng="ro">a continua</trd>
+</drv>
+
+<drv mrk="kontin3.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="kontin3.mal0a.KOMUNE">
+    <dif>
+      Prezentanta &ccirc;esojn, rompojn, interspacojn:
+      <ekz>
+        la geografiaj kaj klimataj &scirc;an&gcirc;i&gcirc;oj, kiuj
+        certe okazis ene de lastaj geologiaj tempoj,
+        sendube interrompis a&ubreve; faris mal<tld/>aj
+        la anta&ubreve;e <tld/>ajn etendi&gcirc;ojn de multaj specioj
+        <fnt>
+          <bib>OriginoDeSpecioj</bib>,
+          <lok>&ccirc;apitro 11a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="diskre.0a.nombrebla">diskreta<sncref/></ref>,
+    <ref cel="romp.inter0i.cxesigi">interrompi</ref>
+  </refgrp>
+  <trdgrp lng="fr">
+    <trd>discret<klr> (non continu)</klr></trd>,
+    <trd>interrompu</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.25  2011/12/08 11:10:21  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.24  2011/01/29 17:10:13  revo
 Wolfram Diestel: +germ trd
 
@@ -301,8 +330,5 @@ Revision 1.20  2008/11/01 17:30:37  revo
 Peter Hauser: aldoni germanan tradukon al "kontinueco"
 
 Revision 1.19  2006/04/30 16:31:41  revo
-Eduardo Navas: +trd es
-
-Revision 1.18  2006/03/04 17:31:46  revo
 -->
 </vortaro>
