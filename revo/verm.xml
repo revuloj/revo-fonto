@@ -3,11 +3,13 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap><ofc>*</ofc>
-<rad>verm</rad>/o</kap>
+<kap>
+  <ofc>*</ofc>
+  <rad>verm</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 <drv mrk="verm.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="verm.0o.KOMUNE">
     <dif>
       Longforma, senvertebra, senpieda besteto, inklude de tiaformaj
       larvoj:
@@ -34,7 +36,7 @@
       <trd>kukac</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="verm.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
       Iu el <ref tip="malprt" cel="verm.0oj">vermoj</ref>.
@@ -49,6 +51,7 @@
   <trd lng="de">Wurm</trd>
   <trd lng="es">gusano</trd>
   <trd lng="fr">ver</trd>
+  <trd lng="it">verme</trd>
   <trd lng="nl">worm</trd>
   <trd lng="pl">robak</trd>
   <trd lng="pt">verme</trd>
@@ -57,7 +60,6 @@
     <trd>&c_ch;&c_je;&c_r;&c_v;&c_ja;&c_k;</trd>
   </trdgrp>
   <trd lng="sv">mask</trd>
-  <trd lng="it">verme</trd>
   <trdgrp lng="tr">
     <trd>solucan</trd>,
     <trd>kurt</trd>
@@ -66,8 +68,8 @@
 
 <drv mrk="verm.0oj">
   <kap><tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="verm.0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
       Komuna nomo por kelkaj grupoj de senvertebraj dusimetriaj
       <ref tip="super" cel="best.0oj">bestoj</ref>
@@ -80,18 +82,19 @@
     <trd>cucs</trd>
   </trdgrp>
   <trd lng="de">W&uuml;rmer</trd>
+  <trd lng="fr">vers<klr> (animaux)</klr></trd>
   <trd lng="hu">f&eacute;rgek</trd>
+  <trd lng="it">vermi</trd>
   <trd lng="nl">wormen</trd>
   <trd lng="pt">vermes</trd>
   <trd lng="ru">&c_ch;&c_je;&c_r;&c_v;&c_i;</trd>
   <trd lng="sv">maskar</trd>
-  <trd lng="it">vermi</trd>
 </drv>
 
 <drv mrk="verm.faden0oj">
   <kap>faden<tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="verm.faden0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
       Klaso de la <ref tip="super" cel="verm.rond0oj">rond<tld/>oj</ref>
       (<trd lng="la">Nematodes</trd>).
@@ -99,6 +102,14 @@
   </snc>
   <trd lng="ca">nematodes</trd>
   <trd lng="de">Fadenw&uuml;rmer</trd>
+  <trdgrp lng="fr">
+    <trd>n&eacute;matodes</trd>,
+    <trd>vers ronds</trd>
+  </trdgrp>
+   <trdgrp lng="it">
+    <trd>nematodi</trd>,  
+    <trd>vermi cilindrici<klr> (classe)</klr></trd>
+  </trdgrp>
   <trd lng="hu">fon&aacute;lf&eacute;rgek</trd>
   <trd lng="nl">spoelwormen</trd>
   <trdgrp lng="pt">
@@ -107,30 +118,35 @@
     <trd>nematelmintos</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;&c_je;
-<ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind><klr tip="ind">
-(&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>,
-    <trd>&c_n;&c_je;&c_m;&c_a;&c_t;&c_o;&c_d;&c_y; 
-<klr tip="amb">(&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>
-  </trdgrp>
-   <trdgrp lng="it">
-    <trd>nematodi</trd>,  
-    <trd>vermi cilindrici<klr> (classe)</klr></trd>
+    <trd>&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;&c_je; <ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind> <klr tip="ind">(&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>,
+    <trd>&c_n;&c_je;&c_m;&c_a;&c_t;&c_o;&c_d;&c_y; <klr tip="amb">(&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>
   </trdgrp>
 </drv>
 
 <drv mrk="verm.plat0oj">
   <kap>plat<tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="verm.plat0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
-      (<trd lng="la">Plathelminthes</trd>), vermoj kun iom plata korpo.
+      Vermoj kun iom plata korpo;
+      filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
+      (<trd lng="la">Plathelminthes</trd> a&ubreve;
+      <trd lng="la">Platyhelminthes</trd>).
     </dif>
   </snc>
   <trd lng="ca">platihelmints</trd>
   <trd lng="de">Plattw&uuml;rmer</trd>
+  <trdgrp lng="fr">
+    <trd>plathelminthes</trd>,
+    <trd>vers plats</trd>
+  </trdgrp>
   <trd lng="hu">laposf&eacute;rgek</trd>
+  <trdgrp lng="it">
+    <trd>platelminti</trd>,
+    <trd>plathelmintes</trd>, 
+    <trd>platyhelmintes</trd>, 
+    <trd>vermi piatti</trd>
+  </trdgrp>
   <trd lng="nl">platwormen</trd>
   <trdgrp lng="pl">
     <trd>P&lstroke;azi&nacute;ce</trd>,
@@ -141,69 +157,70 @@
     <trd>platelm&iacute;ntios</trd>,
     <trd>platelmintes</trd>
   </trdgrp>
-  <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_i;&c_je;
-<ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind>
-<klr tip="amb">(&c_t;&c_i;&c_p;)</klr></trd>
-   <trdgrp lng="it">
-    <trd>platelminti</trd>,
-    <trd>plathelmintes</trd>, 
-    <trd>platyhelmintes</trd>, 
-    <trd>vermi piatti</trd>
-  </trdgrp>
+  <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_i;&c_je; <ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind> <klr
+  tip="amb">(&c_t;&c_i;&c_p;)</klr></trd>
 </drv>
 
 <drv mrk="verm.ringo0oj">
   <kap>ringo<tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="verm.ringo0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
-      (<trd lng="la">Annelida</trd>), vermoj kies korpo estas
-      dividata en ringoformajn segmentojn.
+      Vermoj kies korpo estas dividita en ringoformajn
+      segmentojn;
+      filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
+      (<trd lng="la">Annelida</trd>);
+      <ref tip="sin" cel="anelid.0oj.ZOO">anelidoj</ref>.
     </dif>
   </snc>
   <trd lng="ca">an&egrave;l&middot;lids</trd>
   <trd lng="de">Ringelw&uuml;rmer</trd>
+  <trd lng="fr">ann&eacute;lides</trd>
   <trd lng="hu">gy&udblac;r&udblac;sf&eacute;rgek</trd>
+  <trd lng="it">anellidi</trd>
   <trd lng="nl">ringwormen</trd>
   <trd lng="pl">Pier&sacute;cienice</trd>
   <trd lng="pt">anel&iacute;deos</trd>
-  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_y;&c_je;
-<ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind> 
-<klr tip="amb">(&c_t;&c_i;&c_p;)</klr></trd>
-  <trd lng="it">anellidi</trd>
+  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_y;&c_je; <ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind> 
+  <klr tip="amb">(&c_t;&c_i;&c_p;)</klr></trd>
 </drv>
 
 <drv mrk="verm.rond0oj">
   <kap>rond<tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="verm.rond0oj.ZOO">
+    <uzo tip="stl">ARK</uzo>
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
-      (<trd lng="la">Platyhelminthes</trd>), vermoj kun cilindra
-      nedividita korpo.
+      Vermoj kun cilindra nedividita korpo;
+      filumo de la bestoj
+      (<trd lng="la">Aschelminthes</trd>).
     </dif>
+  <rim mrk="verm.rond0oj.RIM_ARK">
+    En 2013 la taksono &scirc;ajne ne plu estas parto de valida sistematiko.
+    <aut>&jcirc;v</aut>
+  </rim>
   </snc>
   <trd lng="ca">nematohelmints</trd>
   <trdgrp lng="de">
     <trd>Rundw&uuml;rmer</trd>,
     <trd>Schlauchw&uuml;rmer</trd>
   </trdgrp>
+  <trd lng="fr">aschelminthes</trd>
   <trd lng="hu">hengeresf&eacute;rgek</trd>
   <trd lng="nl">rondwormen</trd>
-  <trdgrp lng="pl">
-    <trd>Oble&nacute;ce</trd>,
-    <trd>robaki ob&lstroke;e</trd>,
-  </trdgrp>
   <trdgrp lng="it">
     <trd>vermi cilindrici<klr> (phylum)</klr></trd>,
     <trd>nemathelmintes</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>Oble&nacute;ce</trd>,
+    <trd>robaki ob&lstroke;e</trd>,
   </trdgrp>
 </drv>
 
 <drv mrk="verm.ter0o">
   <kap>ter<tld/>o</kap>
-  <snc>
+  <snc mrk="verm.ter0o.ZOO">
     <ref tip="dif" cel="lumbri.0o">lumbriko</ref>
     <trd lng="hu">f&ouml;ldigiliszta</trd>
     <trdgrp lng="fr">
@@ -213,18 +230,17 @@
   </snc>
   <trd lng="ca">llombric</trd>
   <trd lng="es">lombriz</trd>
+  <trd lng="it">lombrico</trd>
   <trd lng="nl">aardworm</trd>
   <trd lng="pl">d&zdot;d&zdot;ownica</trd>
-  <trd lng="ru">&c_d;&c_o;&c_zh;&c_d;&c_je;&c_v;&c_o;&c_j;
-<ind>&c_ch;&c_je;&c_r;&c_v;&c_mol;</ind></trd>
-  <trd lng="it">lombrico</trd>
+  <trd lng="ru">&c_d;&c_o;&c_zh;&c_d;&c_je;&c_v;&c_o;&c_j; <ind>&c_ch;&c_je;&c_r;&c_v;&c_mol;</ind></trd>
+  <trd lng="tr">yer solucan&inodot;</trd>
 </drv>
-<trd lng="tr">yer solucan&inodot;</trd>
 
 <drv mrk="verm.zono0oj">
   <kap>zono<tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="verm.zono0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
       Klaso el la filumo
       <ref tip="super" cel="verm.ringo0oj">ringo<tld/>oj</ref>
@@ -233,15 +249,18 @@
   </snc>
   <trd lng="ca">clitel&middot;lats</trd>
   <trd lng="de">G&uuml;rtelw&uuml;rmer</trd>
+  <trd lng="fr">clitellates</trd>
   <trd lng="hu">&ouml;vesf&eacute;rgek</trd>
-  <trd lng="nl">gordelwormen</trd>
-  <trd lng="ru">&c_p;&c_o;&c_ja;&c_s;&c_k;&c_o;&c_v;&c_y;&c_je;
-&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_je;&c_c;&c_y;</trd>
   <trd lng="it">clitellata</trd>
+  <trd lng="nl">gordelwormen</trd>
+  <trd lng="ru">&c_p;&c_o;&c_ja;&c_s;&c_k;&c_o;&c_v;&c_y;&c_je; &c_k;&c_o;&c_l;&c_mol;&c_ch;&c_je;&c_c;&c_y;</trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.30  2012/08/12 10:10:17  revo
+Marc Rausell: + trd ca
+
 Revision 1.29  2009/09/01 04:54:26  revo
 Emmanuel Debanne: +trd tr
 
@@ -258,8 +277,5 @@ Revision 1.25  2006/05/11 16:31:35  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.24  2004/07/14 16:31:37  revo
-Jean Hennebert: +trd fr
-
-Revision 1.23  2004/05/06 16:31:56  revo
 -->
 </vortaro>
