@@ -67,8 +67,9 @@
   </trdgrp>
   <trd lng="nl">roeren</trd>
   <trdgrp lng="pl">
-    <trd>miesza&cacute;</trd>,
-    <trd>kr&eogonek;ci&cacute;</trd>
+    <trd>kr&eogonek;ci&cacute;</trd>,
+    <trd>wirowa&cacute;</trd>,
+    <trd>miesza&cacute;</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_z;&c_m;&c_je;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -113,14 +114,12 @@
   </trdgrp>
   <trdgrp lng="pl">
     <trd>wirowa&cacute;</trd>,
-    <trd>kr&eogonek;ci&cacute; si&eogonek;</trd>
+    <trd>kr&eogonek;ci&cacute; si&eogonek;</trd>,
+    <trd>obraca&cacute; si&eogonek;</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_k;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja;
-    &c_v;&c_i;&c_h;&c_r;&c_je;&c_m;</trd>,
-    <trd>&c_z;&c_a;&c_k;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja;
-    &c_v; &c_v;&c_o;&c_d;&c_o;&c_v;&c_o;&c_r;&c_o;&c_t;&c_je;,
-    &c_s;&c_m;&c_je;&c_r;&c_ch;&c_je;</trd>
+    <trd>&c_k;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja; &c_v;&c_i;&c_h;&c_r;&c_je;&c_m;</trd>,
+    <trd>&c_z;&c_a;&c_k;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja; &c_v; &c_v;&c_o;&c_d;&c_o;&c_v;&c_o;&c_r;&c_o;&c_t;&c_je;, &c_s;&c_m;&c_je;&c_r;&c_ch;&c_je;</trd>
   </trdgrp>
   <trd lng="sv">virvla</trd>
 </drv>
@@ -144,6 +143,7 @@
         <trd lng="it">ciclone</trd>
         <trd lng="hu">forg&oacute;sz&eacute;l</trd>
         <trd lng="nl">cycloon</trd>
+        <trd lng="pl">cyklon</trd>
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -166,6 +166,11 @@
       <trd>forgatag</trd>
     </trdgrp>
     <trd lng="nl">dwarreling</trd>
+    <trdgrp lng="pl">
+      <trd>wir</trd>,
+      <trd>ruch <ind>wirowy</ind></trd>,
+      <trd>ruch <ind>obrotowy</ind></trd>
+    </trdgrp>
     <trd lng="ru">&c_v;&c_i;&c_h;&c_r;&c_mol;</trd>
     <trd lng="sv">virvel</trd>
   </snc>
@@ -207,8 +212,7 @@
     <trd lng="it">rotore<klr tip="ind"> (di un campo
     vettoriale)</klr></trd>
     <trdgrp lng="pl">
-      <trd>wirowo&sacute;&cacute;<klr tip="ind"> (pola
-      wektorowego)</klr></trd>,
+      <trd>wirowo&sacute;&cacute;<klr tip="ind"> (pola wektorowego)</klr></trd>,
       <trd>rotacja</trd>
     </trdgrp>
     <trdgrp lng="ru">
@@ -241,16 +245,20 @@
     <trd>dwarreling</trd>,
     <trd>warreling</trd>
   </trdgrp>
+    <trdgrp lng="pl">
+      <trd>wir</trd>,
+      <trd>ruch <ind>wirowy</ind></trd>,
+      <trd>ruch <ind>obrotowy</ind></trd>
+    </trdgrp>
 </drv>
 
 <drv mrk="kirl.0ilo">
   <kap><tld/>ilo <fnt><bib>PIV2</bib></fnt></kap>
-  <uzo tip="fak">KUI</uzo>
   <snc mrk="kirl.0ilo.KUI">
+    <uzo tip="fak">KUI</uzo>
     <dif>
       Aparato por <tld/>i ovojn, kremon ktp.
     </dif>
-  </snc>
   <trdgrp lng="fr">
     <trd>batteur<klr tip="ind"> (cuisine)</klr></trd>,
     <trd>fouet<klr tip="ind"> (cuisine)</klr></trd>
@@ -264,8 +272,18 @@
     <trd>garde</trd>,
     <trd>klopper</trd>
   </trdgrp>
+  <trd lng="pl">mikser</trd>
   <trd lng="ru">&c_m;&c_i;&c_k;&c_s;&c_je;&c_r;</trd>
   <trd lng="sv">visp</trd>
+  </snc>
+  <snc mrk="kirl.0ilo.KOMUNE">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Aparato por <tld/>i diversajn materialojn, ekz. sablon kun cemento
+      kaj akvo (por ricevi betonon), grenojn ktp.
+    </dif>
+    <trd lng="pl">mieszalnik</trd>
+  </snc>
 </drv>
 
 <drv mrk="kirl.sen0a">
@@ -275,6 +293,10 @@
       Ne havanta <tld/>ojn.
     </dif>
     <trd lng="hu">&ouml;rv&eacute;nymentes</trd>
+    <trdgrp lng="pl">
+      <trd>bezwirowy</trd>,
+      <trd>laminarny</trd>
+    </trdgrp>
     <trd lng="sv">virvelfri</trd>
   </snc>
   <snc mrk="kirl.sen0a.MAT">
@@ -328,6 +350,9 @@
 </art>
 <!--
 $Log$
+Revision 1.26  2010/04/30 12:25:40  revo
+Fabio Bettani: +trd it
+
 Revision 1.25  2009/08/30 16:31:28  revo
 Paul Peeraerts: +trd nl
 
@@ -344,8 +369,5 @@ Revision 1.21  2004/12/13 17:33:00  revo
 Marc Bavant: +trd fr
 
 Revision 1.20  2004/11/28 19:44:01  revo
-Marc Bavant: belarangho
-Revision 1.19 2004/05/14 17:48:18 revo
-Jozefo Horvath: +trd hu
 -->
 </vortaro>
