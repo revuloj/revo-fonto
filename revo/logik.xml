@@ -9,24 +9,12 @@
 </kap>
 <drv mrk="logik.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="logik.0o.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
-      Teorio pri valida inferenco.
-    </dif>
-  </snc>
-  <snc>
-    <dif>
-      Regularo kiu subtenas validajn rezultojn:
-      <ekz>
-        <tld/>o de la komerco; <tld/>o de la evoluo
-      </ekz>
-    </dif>
-  </snc>
-  <snc>
-    <uzo tip="fak">FIL</uzo>
-    <dif>
-      Fako de la filozofio studanta la le&gcirc;ojn de rezonado:
+      <ref tip="super" cel="fak.0o.brancxo">Fako</ref> de la 
+      <ref tip="malprt" cel="filozo1.0o.FIL">filozofio</ref> 
+      studanta la le&gcirc;ojn de <ref cel="rezon.0i.LOG">rezonado</ref>:
       <ekz>
         fakultato de filozofio kaj <tld/>o
         <fnt>Z</fnt>;
@@ -38,21 +26,31 @@
         <tld/>a konkludo.
       </ekz>
     </dif>
-    <trd lng="en">Logik</trd>
   </snc>
-  <snc>
+  <snc mrk="logik.0o.konsekvenco">
     <dif>
-      <ref tip="dif" cel="logik.0eco"><tld lit="L"/>eco
+      <ref tip="dif" cel="konsek1.0o">Konsekvenco</ref>,
+      <ref tip="dif" cel="logik.0eco"><tld/>eco
       </ref>:
       <ekz>
-        &ccirc;u ekzistas e&ccirc; guto da senco kaj <tld/>o en tiuj
-        &scirc;ercoj?<fnt>Z</fnt>.
+        &ccirc;u ekzistas e&ccirc; guto da senco kaj <tld/>o en &ccirc;iuj tiuj
+        &ccirc;i spritaj mokoj<fnt><bib>EE</bib>, <lok>&ccirc;ap.
+        1</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de la komerco; 
+      </ekz>
+      <ekz>
+        <tld/>o de la evoluo.
       </ekz>
     </dif>
-    <trd lng="de">Schl&uuml;ssigkeit</trd>
   </snc>
   <trd lng="be">&c_l;&c_jo;&c_g;&c_ib;&c_k;&c_a;
   </trd>
+  <trdgrp lng="de">
+    <trd>Logik</trd>,
+    <trd>Schl&uuml;ssigkeit</trd>
+  </trdgrp>    
   <trd lng="el">&lambda;&omikron;&gamma;&jota;&kappa;&eta_ton;
   </trd>
   <trd lng="en">logic</trd>
@@ -113,10 +111,12 @@
   <trd lng="be">
   &c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;
   </trd>
-  <trd lng="de">Logischsein</trd>
+  <trdgrp lng="de">
+    <trd>Logischsein</trd>,
+    <trd>Schl&uuml;ssigkeit</trd>
+  </trdgrp>
   <trd lng="fr">logique<klr tip="ind"> (subst.)
   </klr></trd>
-  <trd lng="en">Schl&uuml;ssigkeit</trd>
   <trd lng="hu">logikuss&aacute;g</trd>
   <trd lng="nl">logica</trd>
   <trd lng="pl">logiczno&sacute;&cacute;</trd>
@@ -189,9 +189,12 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Nuntempa maniero de la logiko, kiu anstata&ubreve;igas la normala lingvo
-      per alia lingvo (formala) bazita sur simboloj kaj specifaj reguloj, tial
-      ke la vortigo estas la&ubreve; la principoj de la rikura generi&gcirc;o.
+      Nuntempa maniero de la <ref tip="super"
+      cel="logik.0o">logiko</ref>, 
+      kiu anstata&ubreve;igas la normalan lingvon
+      per alia lingvo (formala) bazita sur simboloj kaj specifaj
+      reguloj, tial
+      ke la vortigo estu la&ubreve; la principoj de la rikura generi&gcirc;o.
       <ref tip="sin" cel="logik.matematika0o">matematika <tld/>o</ref>
     </dif>
   </snc>
@@ -212,31 +215,13 @@
   <trd lng="pl">logika symboliczna</trd>
 </drv>
 
-<drv mrk="logik.deonto0o">
-  <kap>deonto<tld/>o</kap>
-  <uzo tip="fak">FIL</uzo>
-  <snc>
-    <dif>
-      Netradicia logik-maniero bazita sur valoroj &leftquot;valida&rightquot;
-      kaj &leftquot;nevalida&rightquot; anstataa&ubreve;
-      &leftquot;vera&rightquot; kaj &leftquot;malvera&rightquot; kaj sur la
-      studado de la t.n. &leftquot;praktika silogismo&rightquot;.
-    </dif>
-  </snc>
-  <adm>
-    Ne ekzistas radiko "deont".
-    <aut>MB</aut>
-  </adm>
-  <trd lng="it">logica deontica</trd>
-  <trd lng="pl">logika deontyczna</trd>
-</drv>
-
 <drv mrk="logik.lauxvera0o">
   <kap>la&ubreve;vera <tld/>o</kap>
   <uzo tip="fak">FIL</uzo>
   <snc>
     <dif>
-      Tradicia logiko, bazita sur la studado de la asertoj kaj sur neta valoro
+      Tradicia <tld/>o, bazita sur la studado de la asertoj kaj sur neta
+      valoro
       de vereco.
     </dif>
   </snc>
@@ -252,7 +237,8 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Logiko bazita sur pluraj valoroj de logika vereco.
+      <ref tip="super" cel="logik.0o"><tld lit="L"/>o</ref> 
+      bazita sur pluraj valoroj de <tld/>a vereco.
     </dif>
   </snc>
   <trd lng="it">logica sfumata</trd>
@@ -265,7 +251,7 @@
   <uzo tip="fak">FIL</uzo>
   <snc>
     <dif>
-      Tradiciaj logik-manieroj bazitaj sur neta valoro (ekz.: vero a&ubreve;
+      Tradiciaj <tld/>-manieroj bazitaj sur neta valoro (ekz.: vero a&ubreve;
       malvero; 0 a&ubreve; 1; valideco a&ubreve; nevalideco).
     </dif>
   </snc>
@@ -274,8 +260,12 @@
 </art>
 <!--
 $Log$
+Revision 1.22  2008/11/19 09:28:02  revo
+Marc Bavant: kor ref cel al formala ~o
+
 Revision 1.21 2008/11/07 17:31:10 revo
-Marc Bavant: deonto~o: kor mrk, +adm; aliaj X-a ~o: kor mrk; kor fusxitajn trd ru
+Marc Bavant: deonto~o: kor mrk, +adm; aliaj X-a ~o: kor mrk; kor
+fusxitajn trd ru
 Revision 1.20 2008/10/24 16:39:52 revo
 Sebastian Cyprych: +trd pl +sen-utf8-igita
 Revision 1.19 2008/09/04 19:07:59 revo
@@ -289,6 +279,5 @@ Dmitri Gabinski: +trd be
 Revision 1.16 2003/01/15 20:20:10 revo
 Viliam Bur: +trd sk
 Revision 1.15 2002/11/30 17:36:01 revo
-Marc Bavant: matematika ~o: +trd pl, mod klr en trd ru
 -->
 </vortaro>
