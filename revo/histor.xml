@@ -31,8 +31,8 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="antikv.0eco">antikveco</ref>,
-      <ref cel="epok.0o.evento">epoko <sncref/></ref>,
-      <ref cel="epok.0o.periodo">epoko <sncref/></ref>
+      <ref cel="epok.0o.evento">epoko<sncref/></ref>,
+      <ref cel="epok.0o.periodo">epoko<sncref/></ref>
     </refgrp>
     <rim mrk="histor.0o.okazajxoj_RIM_dif">
       <tld lit="H"/>on oni rigardas jen amplekse, enkalkulante
@@ -212,15 +212,6 @@
   <trd lng="pl">historyk</trd>
 </drv>
 
-<drv mrk="histor.antaux0o">
-  <kap>anta&ubreve;<tld/>o</kap>
-  <snc mrk="histor.antaux0o.prahistorio">
-    <ref tip="dif" cel="histor.pra0o">pra<tld/>o</ref>
-  </snc>
-  <trd lng="de">Vorgeschichte</trd>
-  <trd lng="it">preistoria</trd>
-</drv>
-
 <drv mrk="histor.malsan0o">
   <kap>malsan<tld/>o</kap>
   <snc mrk="histor.malsan0o.MED">
@@ -250,8 +241,27 @@
   <trd lng="it">anamnesi</trd>
 </drv>
 
+<drv mrk="histor.natur0o">
+  <kap>natur<tld/>o</kap>
+  <uzo tip="stl">ARK</uzo>
+  <snc mrk="histor.natur0o.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <ref tip="dif" cel="biolog1.0o.SCI">biologio</ref>
+      <ekz>
+        apena&ubreve;aj varia&jcirc;oj <klr>...</klr> estas malofte konsiderataj
+        registrindaj en verkoj de natur<tld/>o
+        <fnt>
+          <bib>OriginoDeSpecioj</bib>,
+          <lok>&ccirc;apitro 2a</lok>
+        </fnt>.
+      </ekz>
+  </snc>
+  <trd lng="en">natural history</trd>
+  <trd lng="fr">histoire naturelle</trd>
+</drv>
+
 <drv mrk="histor.pra0o">
-  <kap>pra<tld/>o</kap>
+  <kap>pra<tld/>o, <var><kap>anta&ubreve;<tld/>o</kap></var></kap>
   <snc mrk="histor.pra0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <uzo tip="fak">PRA</uzo>
@@ -260,7 +270,6 @@
       cel="histor.0o.okazajxoj">historio</ref>, kiu ne postlasis
       skribitajn dokumentojn.
     </dif>
-    <trd lng="it">preistoria</trd>
     <trdgrp lng="pl">
       <trd>prahistoria</trd>,
       <trd>pradzieje</trd>
@@ -277,19 +286,19 @@
     </dif>
     <trd lng="pl">prahistoria</trd>
   </snc>
-  <refgrp tip="sin">
-    <ref cel="histor.antaux0o">anta&ubreve;<tld/>o</ref>.
-  </refgrp>
   <trd lng="be">
   &c_p;&c_r;&c_a;&c_g;&c_ib;&c_s;&c_t;&c_o;&c_r;&c_y;&c_ja;</trd>
   <trd lng="br">ragistor</trd>
-  <trd lng="de">Urgeschichte</trd>
+  <trdgrp lng="de">
+    <trd>Vorgeschichte</trd>,
+    <trd>Urgeschichte</trd>
+  </trdgrp>
   <trd lng="en">ancient history</trd>
   <trd lng="es">prehistoria</trd>
   <trd lng="fr">pr&eacute;histoire</trd>
-  <trd lng="he">
-  &pe;&resh;&he;&yod;&samekh;&tet;&vav;&resh;&yod;&he;</trd>
+  <trd lng="he">&pe;&resh;&he;&yod;&samekh;&tet;&vav;&resh;&yod;&he;</trd>
   <trd lng="hu">&odblac;st&ouml;rt&eacute;net</trd>
+  <trd lng="it">preistoria</trd>
   <trd lng="nl">prehistorie</trd>
   <trd lng="pt">pr&eacute;-hist&oacute;ria</trd>
 </drv>
@@ -298,7 +307,8 @@
   <kap>viv<tld/>o</kap>
   <snc mrk="histor.viv0o.KOMUNE">
     <dif>
-      Historio de ies vivo kaj traviva&jcirc;oj:
+      Historio de ies vivo kaj traviva&jcirc;oj;
+      <ref tip="sin" cel="biogra1.0o">biografio</ref>:
       <ekz>
         ni mallonge sciigis unu al la alia niajn viv<tld/>ojn post nia
         disi&gcirc;o
@@ -306,9 +316,6 @@
         <lok>[1898?]</lok></fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="biogra1.0o">biografio</ref>
-    </refgrp>
   </snc>
   <trdgrp lng="de">
     <trd>Lebenslauf</trd>,
@@ -329,6 +336,9 @@
 </art>
 <!--
 $Log$
+Revision 1.30  2013/09/22 19:10:52  revo
+Wolfram Diestel: astro~o: referenco al listo sciencoj
+
 Revision 1.29  2012/02/05 17:10:09  revo
 Wolfram Diestel: germ trd, vivhistorio: ref-tip sin
 
@@ -345,8 +355,5 @@ Revision 1.25  2008/04/24 17:20:26  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.24  2006/06/29 16:31:40  revo
-Jeromo Vasxe: + viv~o
-
-Revision 1.23  2005/09/13 16:31:13  revo
 -->
 </vortaro>
