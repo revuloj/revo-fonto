@@ -25,7 +25,8 @@
        <trd>Dossier</trd>,
        <trd>gesammelte schriftliche Unterlagen</trd>
     </trdgrp>
-    <trd lng="es">archivo</trd>
+    <trd lng="es">archivo<klr> (colecci&oacute;n de
+    documentos)</klr></trd>
     <trdgrp lng="hu">
       <trd>&uuml;gyirat</trd>,
       <trd>dosszi&eacute;</trd>
@@ -85,7 +86,10 @@
     <trd lng="de">Datei</trd>
     <trd lng="nl">bestand<klr tip="ind"> (comp.)</klr></trd>
     <trd lng="en">file</trd>
-    <trd lng="es">archivo</trd>
+    <trdgrp lng="es">
+      <trd>fichero</trd>,
+      <trd>archivo</trd>
+    </trdgrp>
     <trd lng="fr">fichier<klr tip="ind"> (inf.)</klr></trd>
     <trdgrp lng="hu">
       <trd>f&aacute;jl</trd>,
@@ -202,6 +206,21 @@
   </snc>
 </drv>
 
+<drv mrk="dosier.0indiko">
+  <kap><tld/>indiko</kap>
+  <snc mrk="dosier.0indiko.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      La vojo al <tld/>o a&ubreve; <tld/>ujo.
+    </dif>
+  <trd lng="en">path</trd>
+  <trdgrp lng="es">
+    <trd>ruta<klr> (a un fichero o directorio)</klr></trd>,
+    <trd>camino<klr> (a un fichero o directorio)</klr></trd>
+  </trdgrp>
+  </snc>
+</drv>
+
 <drv mrk="dosier.0sistemo">
   <kap><tld/>sistemo</kap>
   <snc mrk="dosier.0sistemo.KOMP">
@@ -214,6 +233,10 @@
       <ekz>
         <ind>surmeti <tld/>sistemon</ind> en la hejman <tld/>ujon;
         <trd lng="en">mount a file system</trd>
+        <trdgrp lng="es">
+          <trd>armar<klr> (un sistema de ficheros)</klr></trd>,
+          <trd>montar<klr> (un sistema de ficheros)</klr></trd>
+        </trdgrp>
         <trd lng="hu">&aacute;llom&aacute;nyrendszert
         telep&iacute;t</trd>
         <trd lng="pl">domontowa&cacute; system<klr>
@@ -223,6 +246,10 @@
         <ind>demeti <tld/>sistemon</ind> anta&ubreve; ol depreni
         ties disketon.
         <trd lng="en">unmount a file system</trd>
+        <trdgrp lng="es">
+          <trd>desarmar<klr> (un sistema de ficheros)</klr></trd>,
+          <trd>desmontar<klr> (un sistema de ficheros)</klr></trd>
+        </trdgrp>
         <trd lng="hu">&aacute;llom&aacute;nyrendszert
         elt&aacute;vol&iacute;t</trd>
         <trd lng="pl">odmontowa&cacute; system<klr>
@@ -231,6 +258,7 @@
     </dif>
   <trd lng="be">&c_f;&c_a;&c_j;&c_l;&c_a;&c_v;&c_a;&c_ja; &c_s;&c_y;&c_s;&c_t;&c_e;&c_m;&c_a;</trd>
   <trd lng="en">file system</trd>
+  <trd lng="es">sistema de archivos</trd>
   <trd lng="hu">&aacute;llom&aacute;nyrendszer</trd>
   <trd lng="nl">bestandssysteem</trd>
   <trd lng="pl">system <ind>plik&oacute;w</ind></trd>
@@ -241,6 +269,9 @@
 </art>
 <!--
 $Log$
+Revision 1.14  2013/12/28 21:10:11  revo
+Jeromo Vasxe: + en~igi
+
 Revision 1.13  2009/09/11 16:31:00  revo
 Paul Peeraerts: +nl
 
@@ -257,8 +288,5 @@ Revision 1.9  2005/06/05 16:57:00  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2003/12/14 17:30:30  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2002/05/27 17:21:22  revo
 -->
 </vortaro>
