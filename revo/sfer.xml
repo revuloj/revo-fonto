@@ -19,7 +19,16 @@
             <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>,
             konsistanta el &ccirc;iuj punktoj, kies distanco al iu punkto
             <klr>(&gcirc;ia centro)</klr> egalas al iu valoro
-            <klr>(&gcirc;ia radiuso)</klr>.
+            <klr>(&gcirc;ia radiuso)</klr>:
+            <ekz>
+              la areo de <tld/>o havanta la radiuson <frm>r</frm>
+              estas <frm>4&pi;r&quadrat;</frm>;
+            </ekz><ekz>
+              <ref tip="malprt" cel="glob.0o.sfero">globo<sncref/></ref>
+              estas
+              <ref tip="super" cel="solid.0o.geometrio">solido</ref>
+              limata de <tld/>o.
+            </ekz>
           </dif>
           <refgrp tip="vid">
             <ref cel="centr.0o.cirklo">centro</ref>,
@@ -45,11 +54,7 @@
         </subsnc>
         <subsnc mrk="sfer.0o.solido">
           <fnt><bib>VdE</bib></fnt>
-          <dif>
-            <ref tip="sin" cel="glob.0o.sfero">Globo<sncref/></ref>,
-            t.e. <ref tip="super" cel="solid.0o.geometrio">solido</ref>
-            limata de <tld/>o <sncref ref="sfer.0o.surfaco"/>.
-          </dif>
+          <ref tip="dif" cel="glob.0o.sfero">Globo<sncref/></ref>
           <refgrp tip="prt">
             <ref cel="segmen.0o.sfero">segmento</ref>,
             <ref cel="tavol.glob0o">globtavolo</ref>,
@@ -191,11 +196,18 @@
       <snc mrk="sfer.duon0o.MAT">
         <uzo tip="fak">MAT</uzo>
         <dif>
-          &Ccirc;iu el la du partoj de <ref cel="sfer.0o.MAT"><tld/>o</ref>,
+          &Ccirc;iu el la du partoj de <ref
+          cel="sfer.0o..surfaco"><tld/>o<sncref/></ref>,
           apartigitaj per ebeno trapasanta &gcirc;ian centron.
         </dif>
         <ref tip="sin" cel="hemisf.0o.MAT">hemisfero</ref>
+        <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_a;</trd>
       </snc>
+      <snc mrk="sfer.duon0o.duonglobo">
+        <ref tip="dif" cel="glob.duon0o">duonglobo</ref>
+        <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
+      </snc>
+
       <snc mrk="sfer.duon0o.GEOG">
         <uzo tip="fak">GEOG</uzo>
         <dif>
@@ -225,6 +237,7 @@
           </ekz>
         </dif>
         <ref tip="vid" cel="glob.duon0o">duonglobo</ref>
+        <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
       </snc>
 
       <snc mrk="sfer.duon0o.ANA">
@@ -243,6 +256,7 @@
           <ref tip="sin" cel="glob.duon0o">duongloboj</ref>.
           <aut>Sergio Pokrovskij</aut>
         </rim>
+        <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
       </snc>
 
       <snc mrk="sfer.duon0o.AST">
@@ -264,6 +278,7 @@
             </fnt>.
           </ekz>
         </dif>
+        <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
       </snc>
       <adm>
         Kontroli trd de/en. <aut>MB</aut>
@@ -287,10 +302,6 @@
       <trd lng="fr">demie <ind>sph&egrave;re</ind></trd>
       <trd lng="pl">p&oacute;&lstroke;sfera</trd>
       <trd lng="pt">semi-esfera</trd>
-      <trdgrp lng="ru">
-        <trd>&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_a;</trd>,
-        <trd>&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
-      </trdgrp>
     </drv>
 
     <drv mrk="sfer.duon0a">
@@ -334,6 +345,9 @@
   </art>
   <!--
   $Log$
+  Revision 1.31  2014/12/19 14:10:16  revo
+  Sergio Pokrovskij: +duon~o ANA
+
   Revision 1.30  2012/08/04 08:10:37  revo
   Marc Rausell: + trd ca
 
