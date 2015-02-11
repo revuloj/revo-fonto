@@ -24,8 +24,7 @@
     <klr>(d&aacute;maj&aacute;t&eacute;kban)</klr></trd>
     <trd lng="pl">pionek<klr> (w warcabach)</klr></trd>
     <trd lng="pt">disco</trd>
-    <trd lng="ru">&c_sh;&c_a;&c_sh;&c_k;&c_a; <klr>(&c_v;
-    &c_sh;&c_a;&c_sh;&c_k;&c_a;&c_h;)</klr></trd>
+    <trd lng="ru">&c_sh;&c_a;&c_sh;&c_k;&c_a;<klr> (&c_v; &c_sh;&c_a;&c_sh;&c_k;&c_a;&c_h;)</klr></trd>
     <subsnc mrk="disk.0o.SPO">
       <uzo tip="fak">SPO</uzo>
       <dif>
@@ -73,11 +72,37 @@
     </subsnc>
     <trd lng="nl">schijf</trd>
   </snc>
+
   <snc mrk="disk.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="disk.0o.cirklo">
       <fnt><bib>MatVort</bib></fnt>
-      <ref tip="dif" cel="cirkl.0o.surfaco">cirklo <sncref/>.</ref>
+      <fnt><bib>PIV2</bib>, <lok>disko</lok></fnt>
+      <dif>
+        Ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, limata
+        de <tld/>o<sncref ref="cirkl.0o.linio"/>:
+        <ekz>
+          la areo de <tld/>o, havanta la radiuson <frm>R</frm>,
+          estas <frm>&pi;R&quadrat;</frm>.
+        </ekz>
+      </dif>
+      <ref tip="sin" cel="cirkl.0o.surfaco">cirklo<sncref/></ref>
+      <refgrp tip="prt">
+        <ref cel="cirkl.0o.linio">cirklo<sncref/></ref>,
+        <ref cel="segmen.0o.cirklo">segmento</ref>,
+        <ref cel="sektor.0o.de_cirklo">sektoro</ref>.
+      </refgrp>
+      <refgrp tip="vid">
+        <ref cel="centr.0o.cirklo">centro</ref>,
+        <ref cel="cirkon.0o">cirkonferenco</ref>,
+        <ref cel="diamet.0o.cirklo">diametro</ref>,
+        <ref cel="radius.0o.cirklo">radiuso</ref>,
+        <ref cel="sag.0o.MAT">sago</ref>,
+        <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref>;
+      </refgrp>
+      <bld lok="../bld/e_cirklo.svg.gif" alt="300" lrg="300">
+        <tld lit="D"/>o kaj &gcirc;iaj partoj
+      </bld>
       <trdgrp lng="de">
         <trd>Kreis</trd>,
         <trd>Kreisscheibe</trd>
@@ -93,19 +118,17 @@
       <trd lng="hu">k&ouml;rlemez</trd>
       <trd lng="pl">ko&lstroke;o</trd>
       <trd lng="pt">c&iacute;rculo</trd>
-      <trdgrp lng="ru">
-        <trd>&c_k;&c_r;&c_u;&c_g;</trd>
-      </trdgrp>
+      <trd lng="ru">&c_k;&c_r;&c_u;&c_g;</trd>
       <trd lng="sk">kruh</trd>
     </subsnc>
+
     <subsnc mrk="disk.0o.en_kompleksa_ebeno">
       <fnt><bib>PIV2</bib>, <lok>konver&gcirc;i</lok></fnt>
       <dif>
         <klr>(en la aro de <ref
         cel="komple.0o.MAT">kompleksoj</ref>)</klr>
       </dif>
-      <ref tip="dif" cel="glob.0o.metrikaspaco">globo
-      <sncref/>.</ref>
+      <ref tip="dif" cel="glob.0o.metrikaspaco">globo<sncref/></ref>
       <trdgrp lng="en">
         <trd>disk</trd>,
         <trd>circle</trd>
@@ -117,9 +140,7 @@
       </trdgrp>
       <trd lng="hu">egys&eacute;gk&ouml;rlemez</trd>      
       <trd lng="pl">kula</trd>
-      <trdgrp lng="ru">
-        <trd>&c_k;&c_r;&c_u;&c_g;</trd>
-      </trdgrp>
+      <trd lng="ru">&c_k;&c_r;&c_u;&c_g;</trd>
     </subsnc>
     <adm>
       Kontroli, ke la jamaj tradukoj plu validas.
@@ -602,6 +623,9 @@
 </art>
 <!--
 $Log$
+Revision 1.39  2014/11/25 19:10:13  revo
+Guillermo Molleda Jimena: aldonita flugdisko
+
 Revision 1.38  2011/02/13 20:10:09  revo
 Jeromo Vasxe: distingo k/dvd/bluradia ~o, reord. drv
 
@@ -618,8 +642,5 @@ Revision 1.34  2007/06/21 16:30:34  revo
 Wieland Pusch: +trd de
 
 Revision 1.33  2005/12/12 17:31:20  revo
-Sergio Pokrovskij: +ekz
-
-Revision 1.32  2005/09/18 16:31:01  revo
 -->
 </vortaro>
