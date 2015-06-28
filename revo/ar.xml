@@ -155,9 +155,14 @@
       </trdgrp>
       <trd lng="sk">mno&zcaron;ina</trd>
     </snc>
-    <trd lng="cs">souhrn</trd>
-    <trd lng="en">set</trd>
-  </drv>
+  <trd lng="cs">souhrn</trd>
+  <trd lng="en">set</trd>
+  <trdgrp lng="sk">
+    <trd>sada</trd>,
+    <trd>súbor</trd>,
+    <trd>sústava</trd>
+  </trdgrp>
+</drv>
   <drv mrk="ar.0igi">
     <kap><tld/>igi</kap>
     <snc>
@@ -168,17 +173,18 @@
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="de">
+  <trdgrp lng="de">
       <trd>ansammeln</trd>,
       <trd>zusammentragen</trd>
     </trdgrp>
-    <trdgrp lng="fr">
+  <trdgrp lng="fr">
       <trd>assembler</trd>,
       <trd>grouper</trd>,
       <trd>rassembler</trd>
     </trdgrp>
-    <trd lng="it">raggruppare</trd>
-  </drv>
+  <trd lng="it">raggruppare</trd>
+  <trd lng="sk">zhromažďovať</trd>
+</drv>
   <drv mrk="ar.0igxi">
     <kap><tld/>i&gcirc;i</kap>
     <snc>
@@ -352,7 +358,8 @@
       <trd>przestrze&nacute; ilorazowa</trd>
     </trdgrp>
     <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;-&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-  </drv>
+    <trd lng="sk">faktorová množina</trd>
+</drv>
   <drv mrk="ar.malplena0o">
     <kap>malplena <tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
@@ -369,14 +376,17 @@
         </ekz>
       </dif>
     </snc>
-    <trd lng="de">leere <ind>Menge</ind></trd>
-    <trd lng="en">empty <ind>set</ind></trd>
-    <trd lng="fr">ensemble vide</trd>
-    <trd lng="it"><ind>insieme</ind> vuoto</trd>
-    <trd lng="pl">zbi&oacute;r pusty</trd>
-    <trd lng="ru">&c_p;&c_u;&c_s;&c_t;&c_o;&c_je; <ind>&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</ind></trd>
-    <trd lng="sk">pr&aacute;zdna <ind>mno&zcaron;ina</ind></trd>
-  </drv>
+  <trd lng="de">leere <ind>Menge</ind></trd>
+  <trd lng="en">empty <ind>set</ind></trd>
+  <trd lng="fr">ensemble vide</trd>
+  <trd lng="it"><ind>insieme</ind> vuoto</trd>
+  <trd lng="pl">zbi&oacute;r pusty</trd>
+  <trd lng="ru">&c_p;&c_u;&c_s;&c_t;&c_o;&c_je; <ind>&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</ind></trd>
+  <trdgrp lng="sk">
+    <trd>pr&aacute;zdna <ind>mno&zcaron;ina</ind></trd>,
+    <trd>prázdna množina</trd>
+  </trdgrp>
+</drv>
   <drv mrk="ar.orda0o">
     <kap>orda <tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
@@ -427,7 +437,8 @@
         <aut>MB</aut>
       </adm>
     </snc>
-  </drv>
+    <trd lng="sk">usporiadaná množina</trd>
+</drv>
   <drv mrk="ar.sub0o">
     <kap>sub<tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
@@ -463,23 +474,26 @@
       </dif>
       <ref tip="vid" cel="inkluz.0i.aro">inkluzivi.</ref>
     </snc>
-    <trdgrp lng="de">
+  <trdgrp lng="de">
       <trd>Teilmenge</trd>,
       <trd>Untermenge</trd>
     </trdgrp>
-    <trd lng="en">subset</trd>
-    <trdgrp lng="fr">
+  <trd lng="en">subset</trd>
+  <trdgrp lng="fr">
       <trd>sous-ensemble</trd>,
       <trd>partie<klr tip="ind"> (sous-ensemble)</klr></trd>
     </trdgrp>
-    <trd lng="it">sottoinsieme</trd>
-    <trdgrp lng="pl">
+  <trd lng="it">sottoinsieme</trd>
+  <trdgrp lng="pl">
       <trd>podzbi&oacute;r</trd>,
       <trd>cz&eogonek;&sacute;&cacute;<klr tip="ind"> (podzbi&oacute;r)</klr></trd>
     </trdgrp>
-    <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-    <trd lng="sk">podmno&zcaron;ina</trd>
-  </drv>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trdgrp lng="sk">
+    <trd>podmno&zcaron;ina</trd>,
+    <trd>podskupina</trd>
+  </trdgrp>
+</drv>
   <drv mrk="ar.super0o">
     <kap>super<tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
@@ -503,6 +517,9 @@
 </art>
 <!--
 $Log$
+Revision 1.53  2014/02/04 14:10:17  revo
+Damien Brucker: +kap
+
 Revision 1.52  2012/10/23 00:11:22  revo
 Neil Roberts: aldonu la etikedon <var>
 
