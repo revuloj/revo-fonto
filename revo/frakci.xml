@@ -108,14 +108,6 @@
         <ind>&c_d;&c_r;&c_o;&c_b;&c_mol;</ind></trd>
       </ekz>
     </dif>
-    <adm>
-      Mi ne trovis pravigon por la terminoj "propra ~o" kaj
-      "nepropra ~o" krom en PIV2. MatVort havas
-      "vera" kaj "nenorma", PIV1 havas nur "nenorma", sen
-      konsideri &leftquot;partumo&rightquot;, kiu ankaux signifas &leftquot;norma frakcio&rightquot;.
-      Tiom granda hxaoso por absolute senutila nocio sxajnas troa.
-      <aut>MB</aut>
-    </adm>
     <ref tip="sub" cel="on.0o.frakcio">ono;</ref>
     <refgrp tip="sin">
       <ref cel="frakci.kvocienta0o">kvocienta frakcio</ref>;
@@ -154,6 +146,14 @@
     <trd lng="nl">breuk <klr tip="ind"> (wisk.)</klr></trd>
     <trd lng="pl">u&lstroke;amek</trd>
     <trd lng="ru">&c_d;&c_r;&c_o;&c_b;&c_mol;</trd>
+    <adm>
+      Mi ne trovis pravigon por la terminoj "propra ~o" kaj
+      "nepropra ~o" krom en PIV2. MatVort havas
+      "vera" kaj "nenorma", PIV1 havas nur "nenorma", sen
+      konsideri &leftquot;partumo&rightquot;, kiu ankaux signifas &leftquot;norma frakcio&rightquot;.
+      Tiom granda hxaoso por absolute senutila nocio sxajnas troa.
+      <aut>MB</aut>
+    </adm>
   </snc>
   <snc mrk="frakci.0o.SCI">
     <uzo tip="fak">SCI</uzo>
@@ -308,7 +308,14 @@
   <snc>
     <dif>
       Signo uzata por apartigi la numeratoron disde la denominatoro
-      en <ref tip="malprt" cel="frakci.0o.MAT">frakcio</ref>.
+      en <ref tip="malprt" cel="frakci.0o.MAT">frakcio</ref>:      <ekz>
+        la taktindiko staras je la komenco de muzika&jcirc;o <klr>[...]</klr>
+        kiel matematika <tld/>o kun numeratoro kaj denominatoro, tamen sen <tld/>streko 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=255681'>Taktindiko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <rim>
       &Gcirc;i povas esti horizontala a&ubreve; oblikva; la oblikva
@@ -366,7 +373,17 @@
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV2</bib></fnt>
   <snc>
-    <ref tip="dif" cel="frakci.cxen0o">&ccirc;en<tld/>o.</ref>
+    <dif>
+      <ref tip="dif" cel="frakci.cxen0o">&Ccirc;en<tld/>o</ref>:
+      <ekz>
+        &ccirc;iuj reelaj nombroj estas prezenteblaj kiel regularaj &ccirc;enaj <tld/>oj, 
+        racionalaj nombroj estas prezenteblaj per finiaj <tld/>oj, neracionalaj per nefiniaj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=388067'>&Ccirc;ena frakcio</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="ca">fracci&oacute; cont&iacute;nua</trd>
   <trdgrp lng="de">
@@ -455,7 +472,14 @@
     <dif>
       <ref tip="dif" cel="frakci.0o.MAT">Frakcio</ref> prezentita
       per numeratoro kaj denominatoro <klr>(kontraste al
-      <ref cel="frakci.pozicia0o">pozicia frakcio</ref>)</klr>.
+      <ref cel="frakci.pozicia0o">pozicia frakcio</ref>)</klr>:
+      <ekz>
+        al la dekuma 0,75 respondas la duuma 0,11 (samkiel la dekuma kvocienta <tld/>o ¾)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=389772'>Pozicia frakcio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="ca">
@@ -540,11 +564,12 @@
       <ref tip="super" cel="prezen1.numa0o">n-uma prezento</ref>
       de reelo, precipe se &gcirc;i ne estas entjero:
       <ekz>
-        el &ccirc;iaj poziciaj <tld/>oj por komputiko plej gravas la dekumaj,
-        kiel <frm>0,75</frm>, kaj la duumaj, kiel <frm>0,11</frm>
-        <klr>(tiuj du
-        skriba&jcirc;oj prezentas unu saman nombron <frm>¾</frm>
-        en siaj respektivaj nombrosistemoj)</klr>;
+        en la komputiloj estas uzataj duumaj <klr>[...]</klr> 
+        poziciaj <tld/>oj, tiel al la dekuma 0,75 respondas la duuma 0,11
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=389772'>Pozicia frakcio</url></lok>
+        </fnt>;
       </ekz>
       <ekz>
         se pozicia <tld/>o konsistas el finia nombro <frm><k>p</k></frm>
@@ -620,6 +645,9 @@
 </art>
 <!--
 $Log$
+Revision 1.45  2017/06/06 06:10:14  revo
+Wolfram Diestel: ekz-oj de ~o.POL
+
 Revision 1.44  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -636,8 +664,5 @@ Revision 1.40  2009/02/22 17:30:43  revo
 Russ Williams: +trd en
 
 Revision 1.39  2007/06/10 16:30:57  revo
-Tulio Flores: +tr pt
-
-Revision 1.38  2003/05/09 16:31:25  revo
 -->
 </vortaro>
