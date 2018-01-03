@@ -18,7 +18,7 @@
       <ref cel="kongru.0a.module">kongruecon</ref> de du nombroj:
       <ekz>
         <frm>1111</frm> kaj <frm>4</frm> estas kongruaj la&ubreve;
-        <tld/>o <frm>9</frm>, a&ubreve; <ind><tld/>e</ind> <frm>9</frm>.
+        <tld/>o <frm>9</frm>, a&ubreve; <ind><tld/>e</ind> <frm>9</frm>;
         <trd lng="de">modulo</trd>
         <trd lng="en">modulo</trd>
         <trd lng="es">de forma modular</trd>
@@ -32,6 +32,14 @@ n&eacute;zve</trd></trdgrp>
           <trd>wed&lstroke;ug modu&lstroke;u</trd></trdgrp>
         <trd lng="ru">&c_p;&c_o;
 <ind>&c_m;&c_o;&c_d;&c_u;&c_l;&c_ju;</ind></trd>
+      </ekz>
+      <ekz>
+        <klr>[en]</klr> Hebrea kalendaro,<klr>[&#8230;]</klr> jaro estas superjaro se 
+        la resto post divido de 19 (jaro <tld/>o 19) estas 0, 3, 6, 8, 11, 14 a&ubreve; 17
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1699">Hebrea kalendaro</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
@@ -61,12 +69,21 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
 &c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
       </ekz>
       <ekz>
-        <uzo tip="fak">KOMP</uzo> <ind>celmodulo</ind>.
+        <uzo tip="fak">KOMP</uzo> <ind>celmodulo</ind>;
         <trd lng="en">object module</trd>
         <trd lng="es">c&oacute;digo objeto <klr>(lenguaje m&aacute;quina)</klr></trd>
         <trd lng="hu">t&aacute;rgymodul</trd>        
         <trd lng="ru">&c_o;&c_b;&c_malmol;&c_je;&c_k;&c_t;&c_n;&c_y;&c_j;
 &c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="fak">TEK</uzo>
+        la 20an de novembro 1998 Rusio pafis la unuan ISS-<tld/>on Sarja kiel komponanton de la estonta laboratorio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="http://www.monato.net/2009/009681.php">Politika sukceso, scienca fiasko</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
@@ -105,6 +122,11 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
       <ref cel="spac.vektora0o">vektora spaco</ref>,
       <ref cel="modul.sub0o">sub<tld/>o</ref>.
     </refgrp>
+    <rim>
+      Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
+      sub la sama tegmenta nocio <ctl>vektora spaco</ctl> kun
+      distingo <ctl>super ringo</ctl> a&ubreve; <ctl>super korpo</ctl>.
+    </rim>
     <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
     <trd lng="de">Modul<klr tip="ind"> (&uuml;ber einem Ring)</klr></trd>
     <trd lng="en"><klr tip="amb">(ring) </klr>module</trd>
@@ -116,11 +138,6 @@ felett)</klr></trd>
 pier&sacute;cieniem)</klr></trd>
     <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind">
 (&c_n;&c_a;&c_d; &c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;&c_m;)</klr></trd>
-    <rim>
-      Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
-      sub la sama tegmenta nocio <ctl>vektora spaco</ctl> kun
-      distingo <ctl>super ringo</ctl> a&ubreve; <ctl>super korpo</ctl>.
-    </rim>
   </snc>
   <snc mrk="modul.0o.komplekso">
     <uzo tip="fak">MAT</uzo>
@@ -194,7 +211,15 @@ zespolonej)</klr></trd>
         kaj celo-aro;
       </ekz>
       <ekz>
-        sub<tld/>o estas mem <tld/>o.
+        sub<tld/>o estas mem <tld/>o;
+      </ekz>
+      <ekz>
+        simpla <tld/>o <frm><k>S</k></frm> estas <tld/>o kiu estas ne <frm>{<k>0</k>}</frm> 
+        kaj solaj sub<tld/>oj <klr>[&#8230;]</klr> estas <frm>{<k>0</k>}</frm> kaj <frm><k>S</k></frm>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=87314">Modulo (matematiko)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_p;&c_a;&c_d;&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
@@ -210,6 +235,9 @@ zespolonej)</klr></trd>
 </art>
 <!--
 $Log$
+Revision 1.33  2017/12/26 18:10:15  revo
+Wolfram Diestel: apartigis ~i en propran artikolon, shanghis vicordon de la sencoj
+
 Revision 1.32  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -226,8 +254,5 @@ Revision 1.28  2005/01/23 17:32:28  revo
 Wieland Pusch: +trd de
 
 Revision 1.27  2004/08/19 16:32:55  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.26  2004/06/15 21:33:35  revo
 -->
 </vortaro>
