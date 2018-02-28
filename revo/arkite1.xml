@@ -4,7 +4,7 @@
 <vortaro>
 <art mrk="$Id$">
 <kap>
-  <ofc>8</ofc><rad>arkitektur</rad>/o
+  <ofc>8</ofc><rad>arkitektur</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="arkite1.0o">
   <kap><tld/>o <fnt><lok>Akademio de Esperanto, <url
@@ -14,17 +14,46 @@
     <uzo tip="fak">ARKI</uzo>
     <uzo tip="fak">BELA</uzo>
     <dif>
-      La <ref tip="lst" cel="art.bel0o" lst="voko:artoj">belarto</ref>
-      de la
-      konstruado:
+      <ref tip="lst" cel="art.bel0o" lst="voko:artoj">Belarto</ref>
+      pri planado kaj farado de konstrua&jcirc;oj:
       <ekz>
         kial vi vizitis tiujn urbojn?
-        &Ccirc;u por vidi la ma&ubreve;ran <tld/>on
+        &ccirc;u por vidi la ma&ubreve;ran <tld/>on
         <fnt><bib>SatirRak</bib>, <lok>supersti&ccirc;o</lok></fnt>?
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="art.konstru0o.ARKI">konstruarto</ref>
+    </refgrp>
   </snc>
-  <ref tip="sin" cel="arhxitektur.0o">ar&hcirc;itekturo</ref>
+  <snc mrk="arkite1.0o.FIG">
+    <dif>
+      &Gcirc;enerala
+      <ref tip="super" cel="arangx.0o.KOMUNE">aran&gcirc;o</ref>
+      de tuto en diversaj, kunfunkciaj partoj.
+    </dif>
+    <subsnc mrk="arkite1.0o.KOMP">
+      <uzo tip="fak">KOMP</uzo>
+      <dif>
+        &Gcirc;enerala aran&gcirc;o de komputika sistemo,
+        kun &gcirc;iaj aplika&jcirc;oj, interkomunikoj, rutinoj,
+        a&ubreve; kun &gcirc;ia ma&scirc;inaro:
+        <ekz>
+          Ana jam dekomence planis pli sekuran <tld/>on de la datumbazoj
+          <fnt>
+            <aut>M. Fettes</aut>
+            <vrk>en: <url
+            ref="http://www.liberafolio.org/2018/02/27/uea-promesas-novan-retejon-ene-de-kelkaj-monatoj/">
+            UEA promesas novan retejon ene de kelkaj monatoj</url></vrk>
+            <lok>libera folio, 2018-02-27</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+  </snc>
+  <refgrp tip="sin">
+    <ref cel="arhxitektur.0o">ar&hcirc;itekturo</ref>
+  </refgrp>
   <trd lng="be">&c_a;&c_r;&c_h;&c_ib;&c_t;&c_e;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>  
   <trd lng="bg">&c_a;&c_r;&c_h;&c_i;&c_t;&c_je;&c_k;&c_t;&c_u;&c_r;&c_a;</trd> 
   <trdgrp lng="br">      
@@ -32,6 +61,7 @@
     <trd>tisavouriezh</trd>
   </trdgrp>
   <trd lng="ca">arquitectura</trd>
+  <trd lng="cs">architektura</trd>
   <trd lng="de">Architektur</trd>
   <trd lng="en">architecture</trd>
   <trd lng="es">arquitectura</trd>
@@ -44,10 +74,10 @@
   <trd lng="id">arsitektur</trd>
   <trd lng="it">architettura</trd>
   <trd lng="pl">architektura</trd>
+  <trd lng="ro">arhitektur&abreve;</trd>
   <trd lng="ru">&c_a;&c_r;&c_h;&c_i;&c_t;&c_je;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>
   <trd lng="sv">arkitektur</trd>
   <trd lng="sk">architekt&uacute;ra</trd>
-  <trd lng="cs">architektura</trd>
 </drv>
 
 <drv mrk="arkite1.0isto">
@@ -55,13 +85,13 @@
   <snc mrk="arkite1.0isto.BELA">
     <uzo tip="fak">ARKI</uzo>
     <dif>
-      Fakulo pri <tld/>o.
+      Fakulo pri <tld/>o;
+      <ref tip="sin" cel="arkite1.0o">arkitekto</ref>.
     </dif>
   </snc>
   <refgrp tip="sin">
-        <ref cel="arhxitektur.0isto">ar&hcirc;itekturisto</ref>,
-        <ref cel="arkite1.0o">arkitekto</ref>,
-        <ref cel="arhxitekt.0o">ar&hcirc;itekto</ref>
+    <ref cel="arhxitekt.0o">ar&hcirc;itekto</ref>,
+    <ref cel="arhxitektur.0isto">ar&hcirc;itekturisto</ref>
   </refgrp>
   <trd lng="be">&c_a;&c_r;&c_h;&c_ib;&c_t;&c_e;&c_k;&c_t;&c_a;&c_r;</trd> 
   <trd lng="bg">&c_a;&c_r;&c_h;&c_i;&c_t;&c_je;&c_k;&c_t;</trd>  
@@ -93,6 +123,9 @@
 </art>
 <!--
 $Log$
+Revision 1.31  2017/12/21 17:10:29  revo
+Michel Cantigneaux: aldono ligilo al la 8a OA
+
 Revision 1.30  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -109,8 +142,5 @@ Revision 1.26  2014/01/13 07:10:25  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.25  2013/09/22 18:10:18  revo
-Wolfram Diestel: referenco al listo artoj, germ trd
-
-Revision 1.24  2012/02/19 10:10:12  revo
 -->
 </vortaro>
