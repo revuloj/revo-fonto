@@ -10,7 +10,7 @@
 <drv mrk="vertic.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="vertic.0o.punkto">
     <dif>
       Rimarkinda <ref tip="super" cel="punkt.0o.spaco">punkto</ref> en
       <ref cel="figur.geometria0o">geometria figuro</ref>, interalie:
@@ -18,28 +18,43 @@
     <subsnc mrk="vertic.0o.plurlatero">
       <fnt><bib>MatTerm</bib><lok>p. 27, pri triangulo</lok></fnt>
       <dif>
-        <klr>(de <ref tip="malprt"
-        cel="later.plur0o">plurlatero</ref>)</klr>
+        <klr>(de <ref tip="malprt" cel="later.plur0o">plurlatero</ref>)</klr>
         &ccirc;iu <ref tip="super" cel="rand.0o.figuro">rando</ref>
-        de &gcirc;iaj <ref cel="later.0o.streko">lateroj</ref>;
+        de &gcirc;iaj <ref cel="later.0o.streko">lateroj</ref>:
+        <ekz>
+          en regula stelokvinlatero, oni povas ekhavi kvinpintan 
+          stelon per pentrado de linio de la unua <tld/>o al la tria 
+          <tld/>o, de la tria <tld/>o al la kvina <tld/>o, de la kvina 
+          <tld/>o al la dua <tld/>o, de la dua <tld/>o al la kvara
+          <tld/>o, kaj de la kvara <tld/>o al la unua <tld/>o
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=83783">Stelo (figuro)</url></lok>
+          </fnt>;
+        </ekz>
       </dif>
     </subsnc>
     <subsnc mrk="vertic.0o.pluredro">
       <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
       <dif>
-        <klr>(de <ref tip="malprt"
-        cel="edr.plur0o">pluredro</ref>)</klr>
-        &ccirc;iu
-        <ref tip="super" cel="vertic.0o.plurlatero">vertico
-        <sncref ref="vertic.0o.plurlatero"/></ref>
-        de &gcirc;iaj <ref cel="fac.0o.pluredro">facoj</ref>;
+        <klr>(de <ref tip="malprt" cel="edr.plur0o">pluredro</ref>)</klr>
+        &ccirc;iu <ref tip="super" cel="vertic.0o.plurlatero">vertico
+        <sncref/></ref>
+        de &gcirc;iaj <ref cel="fac.0o.pluredro">facoj</ref>:
+        <ekz>
+          pluredro estas solido limigita &ccirc;iuflanke per ebenaj edroj, <klr>[&#8230;]</klr>
+          &ccirc;e <tld/>o kuni&gcirc;as minimume 3 lateroj
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=24133">Pluredro</url></lok>
+          </fnt>;
+        </ekz>
       </dif>
     </subsnc>
     <subsnc mrk="vertic.0o.konuso">
       <fnt><bib>MatVort</bib></fnt>
       <dif>
-        <klr>(de <ref tip="malprt"
-        cel="konus.0o.surfaco">konuso</ref>)</klr>
+        <klr>(de <ref tip="malprt" cel="konus.0o.surfaco">konuso</ref>)</klr>
         la komuna punkto de &gcirc;iaj naskantoj;
       </dif>
     </subsnc>
@@ -51,8 +66,9 @@
       </dif>
     </subsnc>
     <trdgrp lng="de">
-      <trd>Scheitel</trd>,
-      <trd>Spitze</trd>
+      <trd>Ecke</trd>,
+      <trd>Spitze</trd>,
+      <trd>Scheitel</trd>
     </trdgrp>
     <trd lng="be">&c_v;&c_ja;&c_r;&c_sh;&c_y;&c_n;&c_ja; <klr tip="ind">(&c_g;&c_je;&c_a;&c_m;&c_e;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_j;
     &c_f;&c_ib;&c_g;&c_u;&c_r;&c_y;)</klr></trd>
@@ -69,7 +85,17 @@
   <snc mrk="vertic.0o.grafeo">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>KompLeks</bib></fnt>
-    <ref tip="vid" cel="grafe.0o.strukturo">grafeo;</ref>
+    <dif>
+      Elemento de <ref tip="malprt" cel="grafe.0o.strukturo">grafeo</ref>,
+      kiu unuope difinas nodon de la grafeo, kaj pare kun alia <tld/>o e&gcirc;on:
+      <ekz>
+        kutime, grafeo estas prezentita kiel aro de punktoj (<tld/>oj) ligitaj de linioj (la e&gcirc;oj)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=87601">Grafeo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <refgrp tip="vid">
       Ecoj de vertico:
       <ref cel="incid.0a.grafee">incida</ref>,
@@ -92,8 +118,9 @@
     </trdgrp>
     <trd lng="ca">node</trd>
     <trdgrp lng="de">
-      <trd>Knotenpunkt</trd>,
-      <trd>Ecke</trd></trdgrp> 
+      <trd>Knoten</trd>,
+      <trd>Ecke</trd>
+    </trdgrp> 
     <trdgrp lng="en">
       <trd>vertex</trd>,
       <trd>node</trd></trdgrp> 
@@ -117,6 +144,9 @@
 </art>
 <!--
 $Log$
+Revision 1.32  2018/08/06 22:11:16  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
 Revision 1.31  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -133,8 +163,5 @@ Revision 1.27  2005/02/18 17:36:05  revo
 Marc Bavant: kor duobligitan punkton
 
 Revision 1.26  2005/02/02 17:32:42  revo
-Jozefo Horvath: +trd hu
-Revision 1.25  2003/10/25 16:31:06  revo
-Dmitri Gabinski: +trd be
 -->
 </vortaro>
