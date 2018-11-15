@@ -116,20 +116,128 @@ ref="http://esperantaretradio.blogspot.com/2015/05/unua-sperto-pri-traduko-de-be
             <frm>{f(x) : x&#8712;a}</frm> en programlingvo povas aspekti
             kiel <frm><g>por</g> x <g>en</g> a <g>faru</g> f(x)</frm>;
           </ekz><ekz>
-            la produtoperatoro, simbolata de &#8719;, estas <tld/>ilo
-            programlingve esprimata ekz-e tiel:
+            la produtoperatoro, simbolata de <frm>&#8719;</frm>, estas
+            <tld/>ilo programlingve esprimata ekz-e tiel:
             <frm>p:=1; <g>por</g> p <g>en</g> a <g>faru</g>
             p:=p*f(x);</frm>
-            (kaj simile pri &#8721;).
+            (kaj simile pri <frm>&#8721;</frm>).
           </ekz>
         </dif>
       </snc>
       <trd lng="en">iterator</trd>
       <trd lng="ru">&c_i;&c_t;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
     </drv>
+
+    <drv mrk="iteraci.0aordono">
+      <kap><tld/>a ordono</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          En <ref tip="malprt"
+          cel="lingv.program0o">programlingvoj</ref>,
+          lingva esprimilo (malsimpla
+          <ref cel="ordon.0o.KOMP">ordono<sncref/></ref>) destinita
+          por programi
+          <ref cel="iteraci.0o.MAT"><tld/>ojn</ref>
+          <ekz>
+            <ref cel="c.0.KOMP">ordono<sncref/></ref> disponigas tri
+            specojn da <tld/>aj ordonoj.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">loop statement</trd>
+      <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r; &c_c;&c_i;&c_k;&c_l;&c_a;</trd>
+    </drv>
+
+    <drv mrk="iteraci.kondicxa0o">
+      <kap>kondi&ccirc;a <tld/>o</kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          En pliparto da
+          <ref tip="malprt" cel="lingv.program0o">programlingvoj</ref>,
+          <ref tip="super" cel="iteraci.0aordono"><tld/>a
+          ordono<sncref/></ref>,
+          en kiu la okazigon de ripetoj de la <tld/>ata <em>korpo</em>
+          kondi&ccirc;as <ref cel="bule1.b0a">bulea</ref> esprimo:
+          <ekz>
+            kondi&ccirc;a <tld/>o konvenas por komputi
+            <ref cel="aproksim.0o">aproksimojn</ref>.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">while-loop</trd>
+      <trd lng="ru">&c_c;&c_i;&c_k;&c_l; &c_s; &c_u;&c_s;&c_l;&c_o;&c_v;&c_i;&c_je;&c_m;</trd>
+    </drv>
+
+    <drv mrk="iteraci.komenckondicxa0o">
+      <kap>komenckondi&ccirc;a <tld/>o
+      <fnt><bib>KompLeks</bib></fnt></kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          <ref tip="super" cel="iteraci.kondicxa0o">Kondi&ccirc;a
+          <tld/>o</ref>,
+          en kiu la <ref cel="kondic1.0o.KOMP">kondi&ccirc;o<sncref/></ref>
+          estas testata anta&ubreve; la eventuala plenumo de <tld/>ero:
+          <ekz>
+            en komenckondi&ccirc;a <tld/>o la korpo de <tld/>o povas
+            plenumi&gcirc;i nulfoje.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">pre-test while-loop</trd>
+    </drv>
+
+    <drv mrk="iteraci.finkondicxa0o">
+      <kap>finkondi&ccirc;a <tld/>o <fnt><bib>KompLeks</bib></fnt></kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          <ref tip="super" cel="iteraci.kondicxa0o">Kondi&ccirc;a
+          <tld/>o</ref>,
+          en kiu la <ref cel="kondic1.0o.KOMP">kondi&ccirc;o<sncref/></ref>
+          de da&ubreve;rigo estas testata post la plenumo de <tld/>ero:
+          <ekz>
+            en finkondi&ccirc;a <tld/>o la korpo de <tld/>o estas
+            plenumata almena&ubreve; unufoje.
+          </ekz>
+        </dif>
+      </snc>
+      <trdgrp lng="en">
+        <trd>post-test while-loop</trd>,
+        <trd>do while loop</trd>
+      </trdgrp>
+    </drv>
+
+   <drv mrk="iteraci.nombrila0o">
+      <kap>nombrila <tld/>o <fnt><bib>KompLeks</bib></fnt></kap>
+      <snc>
+        <uzo tip="fak">KOMP</uzo>
+        <dif>
+          En <ref tip="malprt"
+          cel="lingv.program0o">programlingvoj</ref>,
+          <ref tip="super" cel="iteraci.0aordono"><tld/>a
+          ordono<sncref/></ref>,
+          en kiu la ripetadon regas
+          <ref cel="krement.0i">krementata</ref>
+          <ref cel="nombr.0ilo.KOMP">nombrilo<sncref/></ref>:
+          <ekz>
+            nombrila <tld/>o oportunas se la nombro de ripetoj estas
+            determinebla anta&ubreve; la komenco de la <tld/>ado.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">for-loop</trd>
+      <trd lng="ru">&c_c;&c_i;&c_k;&c_l; &c_s; &c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;&c_o;&c_m;</trd>
+    </drv>
+
   </art>
 
 <!--
 $Log$
+Revision 1.1  2018/11/11 06:10:13  revo
+Sergio Pokrovskij: nova artikolo
+
 -->
 </vortaro>
