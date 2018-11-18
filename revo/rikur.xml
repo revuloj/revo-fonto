@@ -13,24 +13,71 @@
         <fnt><bib>MatTerm</bib></fnt>
         <uzo tip="fak">KOMP</uzo>
         <dif>
-          Maniero solvi problemon a&ubreve; formuli difinon reduktante &gcirc;in al
-          la sama problemo a&ubreve; difino por malpli grandaj valoroj de ties
-          argumentoj a&ubreve; al iliaj partoj (komponantoj):
-          <ekz>
-            <tld/>on uzatan en pruvoj a&ubreve; difinoj oni anka&ubreve; nomas
-            &#171;<ref tip="sub" cel="indukt.0o.MAT">matematika
-            indukto</ref>&#187;;
-          </ekz><ekz>
-            <tld/>o de la ordo <frm>k</frm> estas esprimo de la formo
-            <frm>a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
-            a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;k</sub>)</frm>
-            <fnt><bib>KompLeks</bib>,
-              <lok><url
- ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA"
-                  >rikura</url></lok></fnt>.
-          </ekz>
+          Maniero solvi problemon a&ubreve; formuli difinon pri
+          <ref cel="vic.0o.MAT">vico<sncref/></ref> da
+          objektoj tiel, ke ekde iu nimero &ccirc;iu sekva vicano estas
+          esprimata per funkcio de anta&ubreve;aj anoj de la vico. 
         </dif>
         <ref tip="super" cel="rekursi.0o">rekursio</ref>
+        <subsnc mrk="rikur.0o.iteracio">
+          <dif>
+            <tld lit="R"/>o de la ordo <frm>k</frm> estas difino de la
+            formo <frm>a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
+            a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;k</sub>)</frm>, kie
+            <frm>n&#8805;k+1&#8805;0</frm>:
+            <ekz>
+              la difino de Fibona&ccirc;ia vico ekde la 3-a ano
+              <frm>(n&#8805;3)</frm> uzas <tld/>on de la 2-a ordo:
+              <frm>f<sub>n</sub>=f<sub>n&#8722;2</sub>+f<sub>n&#8722;1</sub></frm>;
+            </ekz><ekz>
+              difino de la iteraciilo <frm>&#8721;</frm> per <tld/>o:
+              <frm>&#8721;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
+                &#8721;<sup>k+1</sup><sub>i=0</sub>=&#8721;<sup>k</sup><sub>i=0</sub>+a<sub>k+1</sub>;
+              </frm>
+            </ekz><ekz>
+              por solvi la ekvacion <frm>f(x)=0</frm> ofte eblas uzi
+              la iteracian <em>metodon Ne&ubreve;tonan</em>, difinitan per
+              la <tld/>o
+<frm>x<sub>n+1</sub>=x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&#8242;(x<sub>n</sub>)</frm>.
+            </ekz>
+          </dif>
+          <rim>
+            En <ref cel="lingv.program0o">programlingvoj</ref> 
+            al tiaj <tld/>oj respondas
+            <ref cel="iteraci.0aordono">iteraciaj ordonoj</ref>:
+            <ref cel="iteraci.kondicxa0o">kondi&ccirc;a iteracio</ref>
+            por la Ne&ubreve;tona metodo,
+            <ref cel="iteraci.nombrila0o">nombria iteracio</ref>
+            por <frm>&#8721;</frm> ktp.
+            En matematiko la nocio unue aperis en la verkoj de
+            Muavro (Abraham de Moivre, 1667&ndash;1754) kaj
+            Daniel Bernoulli (1700&ndash;1782), &gcirc;in sistemigis
+            L. E&ubreve;lero (1707&ndash;1783).
+          </rim>
+        </subsnc>
+        <subsnc mrk="rikur.0o.indukto">
+          <dif>
+            Maniero solvi problemon a&ubreve; formuli difinon reduktante &gcirc;in
+            al la sama problemo a&ubreve; difino por malpli grandaj valoroj
+            de ties argumentoj a&ubreve; al iliaj partoj (komponantoj):
+            <ekz>
+              <tld/>on uzatan en pruvoj a&ubreve; difinoj oni anka&ubreve; nomas
+              &#171;<ref tip="sub" cel="indukt.0o.MAT">matematika
+              indukto</ref>&#187;
+              <fnt><bib>KompLeks</bib>,
+                <lok><url
+ ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA"
+                    >rikura</url></lok></fnt>;
+            </ekz><ekz>
+              la E&ubreve;klida algoritmo por trovi la plej grandan komunan
+              divizoron (PGKD) de <frm>a,b&#8712;N<sub>0</sub></frm> uzas
+              <tld/>on: <frm>PGKD(a,b)=PGKD(a <g>mod</g> b,b)</frm>,
+              kie <frm>a <g>mod</g> b</frm> estas la
+              <ref cel="rest.0o.MAT">resto<sncref/></ref> de 
+              <frm>a&#247;b</frm>.
+            </ekz>
+          </dif>
+        </subsnc>
         <trdgrp lng="en">
           <trd>recurrence</trd>,
           <trd>recursion</trd>
@@ -53,23 +100,20 @@
         En 1906, kiam Bricard metis la terminon <ctl><tld/>o</ctl> en
         sian Matematikan Terminaron, la vorto havis nur la striktan
         signifon de <tld/>o<sncref ref="rikur.0o.MAT"/>, kiun solan
-        bezonas la klasika matematiko.
+        bezonas la klasika matematiko. Plej ofte la matematika <tld/>o
+        programeblas per
+        <ref cel="iteraci.0o.MAT">iteracioj</ref>.
 
         La nocio <ctl>rekursio</ctl>
         (originale <ctl>&my;-recursion</ctl>) aperis en la jaroj 1930-aj,
         inspirite de studoj metamatematikaj kaj la problemo pri
         &gcirc;enerala komputeblo kaj ties limoj.
 
-        La senpeka, sendan&gcirc;era procedo <tld/>a estas tre korekta:
-        &ccirc;iu <frm>a<sub>n</sub></frm> post finia nombro da
-        <tld/>o-pa&scirc;oj &ccirc;iam atingas sian
-        <tld/>o-bazon <frm>a<sub>0</sub></frm>; tiu procedo estas
-        fidinda, sed nur tre malgranda parto da komputeblaj funkcioj
-        estas prezenteblaj tiel. Male, rekursio estas libera je tiaj
+        La matematika procedo <tld/>a estas tre korekta, &gcirc;i zorge
+        evitas cirklajn difinojn. Male, rekursio estas libera je &ccirc;iaj
         limigoj &mdash; la klaso de rekursiaj funkcioj koincidas kun la
         klaso de &ccirc;iuj funkcioj komputeblaj &mdash; sed ne &ccirc;iu rekursia
-        funkcio &ccirc;ie konver&gcirc;as, povas okazi <ctl>senfina
-        rekursio</ctl>.
+        funkcio &ccirc;ie finas, povas okazi <ctl>senfina rekursio</ctl>.
 
         &Ccirc;iam, kiam eblas, oni programu rekursian funkcion kiel
         funkcion <tld/>an; sed tio ne &ccirc;iam sufi&ccirc;as. En programado oni
@@ -138,5 +182,8 @@ ref="https://www.know.cf/enciclopedia/tab/eo/Matematika_indukto/3b16fce43557e5dc
 
 <!--
 $Log$
+Revision 1.1  2018/11/10 11:10:15  revo
+Sergio Pokrovskij: nova artikolo
+
 -->
 </vortaro>
