@@ -60,58 +60,71 @@
       <trd>zbiega&cacute; si&eogonek;</trd>
     </trdgrp>
     <trdgrp lng="ru">
-      <trd>&c_s;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja; &c_v;
-      &c_o;&c_b;&c_shch;&c_je;&c_j; &c_t;&c_o;&c_ch;&c_k;&c_je;</trd>
+      <trd>&c_s;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja; &c_v; &c_o;&c_b;&c_shch;&c_je;&c_j; &c_t;&c_o;&c_ch;&c_k;&c_je;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="konver.0i.elementa">
-    <uzo tip="fak">MAT</uzo>
-    <uzo tip="klr">(elementa analitiko)</uzo>
-    <dif>
-      Senfina vico <frm><k>x</k><sub>1</sub>,
-      <k>x</k><sub>2</sub>,...</frm>
-      <tld/>as al <frm><k>p</k></frm> se por ajna pozitiva reelo
-      <frm><k>c</k></frm> ekzistas tia numero <frm><k>n</k></frm>, ke
-      <frm>|<k>p</k>-<k>x</k><sub><k>i</k></sub>| &lt; <k>c</k></frm>
-      por &ccirc;iu <frm><k>i</k> &gt; <k>n</k></frm>.
-    </dif>
-    <rim>
-      La nocion oni &gcirc;eneraligas por funkcioj kaj serioj.
-      Tia <frm><k>p</k></frm> estas nomata <ref
-      cel="limes.0o">limeso</ref>.
-    </rim>
-    <trd lng="pl">by&cacute; <ind>zbie&zdot;nym</ind></trd>
+  <snc mrk="konver.0i.analitike">
+    <subsnc mrk="konver.0i.elementa">
+      <uzo tip="fak">MAT</uzo>
+      <uzo tip="klr">(elementa analitiko)</uzo>
+      <dif>
+        Senfina vico <frm><k>x</k><sub>1</sub>,
+        <k>x</k><sub>2</sub>,...</frm>
+        <tld/>as al <frm><k>p</k></frm> se por ajna pozitiva reelo
+        <frm><k>c</k></frm> ekzistas tia numero <frm><k>n</k></frm>, ke
+        <frm>|<k>p</k>-<k>x</k><sub><k>i</k></sub>| &lt; <k>c</k></frm>
+        por &ccirc;iu <frm><k>i</k> &gt; <k>n</k></frm>.
+      </dif>
+      <rim>
+        La nocion oni &gcirc;eneraligas por funkcioj kaj serioj.
+        Tia <frm><k>p</k></frm> estas nomata <ref
+        cel="limes.0o">limeso</ref>.
+      </rim>
+      <trd lng="pl">by&cacute; <ind>zbie&zdot;nym</ind></trd>
+    </subsnc>
+    <subsnc mrk="konver.0i.MAT">
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>MatTerm</bib><lok>p. 17</lok></fnt>
+      <dif>
+        <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> a&ubreve;
+        <ref cel="filtr.0ilo.MAT">filtrilo</ref> super
+        <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
+        Esti <ref cel="konver.0a.MAT"><tld/>a <sncref/></ref>:
+        <ekz>
+          la&ubreve;difine &ccirc;iuj ko&scirc;iaj vicoj <tld/>as
+          en <ref cel="komple2.0a.spaco">kompleta</ref> spaco.
+        </ekz>
+      </dif>
+      <rim>
+        Kvankam la verbo enhavas ideon pri ago, &gcirc;ia matematika
+        uzo simple parolas pri eco de la koncerna vico. Oni diras
+        sendistinge <ctl><tld/>i</ctl> a&ubreve; <ctl>esti
+        <tld/>(ant)a</ctl>.
+      </rim>
+      <trd lng="de">konvergieren</trd>
+      <trdgrp lng="pl">
+        <trd>by&cacute; <ind>zbie&zdot;nym</ind></trd>
+        <trd>schodzi&cacute; si&eogonek;</trd>,
+        <trd>zbiega&cacute; si&eogonek;</trd>,
+        <trd>d&aogonek;&zdot;y&cacute;<klr> do</klr></trd>
+      </trdgrp>
+    </subsnc>
   </snc>
-  <snc mrk="konver.0i.MAT">
+  <snc mrk="konver.0i.KOMP">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 17</lok></fnt>
+    <uzo tip="fak">KOMP</uzo> <fnt><bib>KompLeks</bib></fnt>
     <dif>
-      <klr>(p.p. <ref cel="vic.0o.MAT">vico</ref> a&ubreve;
-      <ref cel="filtr.0ilo.MAT">filtrilo</ref> super
-      <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
-      Esti <ref cel="konver.0a.MAT"><tld/>a <sncref/></ref>:
-      <ekz>
-        la&ubreve;difine &ccirc;iuj ko&scirc;iaj vicoj <tld/>as
-        en <ref cel="komple2.0a.spaco">kompleta</ref> spaco.
-      </ekz>
+      Algoritmo <tld/>as super donita valoro x, se la a&ubreve;tomato &gcirc;in
+      plenumanta, ricevinte tiun x-on estkiel dona&jcirc;on, finas sian
+      laboron kaj liveras rezulton; tiam oni anka&ubreve; diras, ke la
+      funkcio <frm>f</frm>, kiun la algoritmo komputas,
+      <em>estas difinita</em> por <frm>x</frm>;
+      simbole <frm>f(x)&#8595;</frm> a&ubreve; <frm>x&#8712;<g>dom</g>&nbsp;f</frm>
+      <klr> (vd <ref
+      cel="domajn.0o.algoritmo">domajno<sncref/></ref>)</klr>.
     </dif>
-    <rim>
-      Kvankam la verbo enhavas ideon pri ago, &gcirc;ia matematika
-      uzo simple parolas pri eco de la koncerna vico. Oni diras
-      sendistinge <ctl><tld/>i</ctl> a&ubreve; <ctl>esti
-      <tld/>(ant)a</ctl>.
-    </rim>
-    <trd lng="de">konvergieren</trd>
-    <trdgrp lng="pl">
-      <trd>by&cacute; <ind>zbie&zdot;nym</ind></trd>
-      <trd>schodzi&cacute; si&eogonek;</trd>,
-      <trd>zbiega&cacute; si&eogonek;</trd>,
-      <trd>d&aogonek;&zdot;y&cacute;<klr> do</klr></trd>
-    </trdgrp>
   </snc>
-  <refgrp tip="ant">
-    <ref cel="diverg.0i">diver&gcirc;i</ref>.
-  </refgrp>
+  <ref tip="ant" cel="diverg.0i">diver&gcirc;i</ref>
   <trd lng="en">converge</trd>
   <trd lng="es">convergir</trd>
   <trd lng="fr">converger</trd>
@@ -282,8 +295,7 @@
     <trd>by&cacute; <ind>rozbie&zdot;nym</ind></trd>,
     <trd>rozchodzi&cacute; si&eogonek;</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_r;&c_a;&c_s;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trd lng="ru">&c_r;&c_a;&c_s;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
 </drv>
 
 <drv mrk="konver.mal0a">
@@ -327,13 +339,11 @@
       <ekz>
         &ccirc;iu absolute <tld/>a vico estas anka&ubreve; <tld/>a,
         sed la malo ne veras;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         absolute <tld/>a serio <klr>(kies responda serio de absolutaj
         valoroj
         <tld/>as)</klr>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         absolute <tld/>a serio de funkcioj <klr>(absolute <tld/>a por
         &ccirc;iu
         valoro de la argumento)</klr>.
@@ -482,8 +492,7 @@
       <ekz>
         norme <tld/>a serio <klr>(kies responda serio de normoj
         <tld/>as)</klr>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         en <ref cel="komple2.0a.spaco">kompleta</ref> spaco
         &ccirc;iu norme <tld/>a vico estas anka&ubreve; <tld/>a.
       </ekz>
@@ -610,20 +619,16 @@
       <frm>(<k>f</k><sub><k>n</k></sub>)</frm> al
       <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
       Tia, ke por iu funkcio <frm><k>f</k></frm> <klr>(&gcirc;ia
-      limeso)</klr>
-      veras, ke la supremo de la distancoj inter
+      limeso)</klr> veras, ke la supremo de la distancoj inter
       <frm><k>f</k><sub><k>n</k></sub>(<k>x</k>)</frm>
       kaj <frm><k>f</k>(<k>x</k>)</frm>
       <ref cel="konver.0i.MAT"><tld/>as</ref> al nulo:
       <ekz>
         &ccirc;iu unuforme <tld/>a vico estas anka&ubreve; simple
-        <tld/>a,
-        sed la malo ne veras;
-      </ekz>
-      <ekz>
+        <tld/>a, sed la malo ne veras;
+      </ekz><ekz>
         unuforme <tld/>i <klr>(esti unuforme <tld/>a)</klr>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         unuforme <tld/>a serio <klr>(kies
         vico de partaj sumoj unuforme <tld/>as)</klr>.
       </ekz>
@@ -645,15 +650,15 @@
   <trd lng="hu">egyenletesen <ind>konvergens</ind></trd>  
   <trd lng="pl"><klr tip="ind">(ci&aogonek;g funkcyjny)
   </klr>jednostajnie <ind>zbie&zdot;ny</ind></trd>
-  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o;
-  <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;</ind><klr
-  tip="amb">
-  (&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;
-  &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>
+  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o; <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;</ind><klr tip="amb">
+          (&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log$
+Revision 1.44  2018/08/20 23:10:22  revo
+Vito Redsky: +kor trd pl
+
 Revision 1.43  2018/02/13 17:10:14  revo
 Jeromo Vasxe: + ~o
 
@@ -670,8 +675,5 @@ Revision 1.39  2006/11/18 17:30:28  revo
 Tulio Flores: +tr pt
 
 Revision 1.38  2004/08/21 19:44:30  revo
-Elmer D. Escoto: +trd es
-
-Revision 1.37  2004/05/20 20:15:19  revo
 -->
 </vortaro>
