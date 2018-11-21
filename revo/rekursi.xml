@@ -23,14 +23,24 @@
         </dif>
       </snc>
       <ref tip="sub" cel="rikur.0o.MAT">rikuro<sncref/></ref>
+      <rim>
+        Kaj <ctl><tld/>o</ctl>, kaj <ctl>rikuro</ctl> etimologie
+        signifas <ctl>retroiro</ctl>, t.e. reveno al la anta&ubreve;e
+        komputitaj valoroj de iu vico por komputi la sekvan. Pri la
+        termino <ctl><tld/>o</ctl> tiu koncepto ne plu validas:
+        <tld/>a komputo povas anticipe ekzameni anka&ubreve;
+        siajn <ctl>postajn</ctl> valorojn, e&ccirc; plenumi
+        <ref cel="sercx.elcxerpa0o">el&ccirc;erpan ser&ccirc;on</ref> tra ili.
+        Tion oni neniam faras en la klasika matematiko, por kies
+        bezonoj plene sufi&ccirc;as rikuro, koncepto logike pli sekura.
+        <aut>Sergio Pokrovskij</aut>
+      </rim>
       <trd lng="en">recursion</trd>
       <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_ja;</trd>
     </drv>
 
     <drv mrk="rekursi.0a">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <uzo tip="fak">KOMP</uzo>
+      <kap><tld/>a</kap>
       <snc>
         <uzo tip="fak">MAT</uzo>
         <uzo tip="fak">KOMP</uzo>
@@ -50,9 +60,181 @@
       <trd lng="en">recursive</trd>
       <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
     </drv>
-  </art>
 
+    <drv mrk="rekursi.0afunkcio">
+      <kap><tld/>a funkcio</kap>
+      <snc mrk="rekursi.0afunkcio.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Unu el la matematikaj precizigoj de la intuicia koncepto pri
+          <ref cel="komput.0ebla">komputeblo</ref>. Oni reduktas &ccirc;iujn
+          komputajn problemojn al
+          <ref cel="nombr.natura0o">naturnombraj</ref>
+          <ref cel="funkci.0o.MATEM">funkcioj<sncref/></ref>
+          <frm>N&#8319;&#8594;N</frm>, kaj konstruas hierarkion el 3 subklasoj:
+          <refgrp tip="sub">
+            <ref cel="rekursi.primitive0afunkcio">primitive <tld/>aj
+            funkcioj</ref>,
+            <ref cel="rekursi.cxiea0afunkcio">&ccirc;ieaj <tld/>aj
+            funkcioj</ref>,
+            <ref cel="rekursi.mu0afunkcio">&my;-<tld/>aj funkcioj</ref>
+          </refgrp>.
+          La lasta klaso estas la plej &gcirc;enerala, &gcirc;i entenas la du
+          aliajn kaj reprezentas &ccirc;iujn komputeblajn funkciojn. Se oni
+          diras simple <ctl><tld/>a funkcio</ctl>, tiam oni celas
+          &gcirc;uste tiun &ccirc;i klason:
+          <ekz>
+            simbole la hierarkion de la <tld/>aj funkcioj eblas
+            prezenti per la formulo <frm>PRF&#8834;&Ccirc;RF&#8834;MRF</frm>;
+          </ekz><ekz>
+            estas pruvite, ke la klaso da <tld/>aj funkcioj, la
+            klaso da funkcioj difineblaj per Turinga a&ubreve;tomato, per
+            &lambda;-kalkulo, per la Markovaj &ccirc;enoj estas &ccirc;iuj egalaj.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">recursive function</trd>
+      <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_a;&c_ja; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+    </drv>
+
+    <drv mrk="rekursi.primitive0afunkcio">
+      <kap>primitive <tld/>a funkcio,
+        <var><kap>PRF</kap></var>
+      </kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          La difino estas <ref
+          cel="rikur.0o.indukto">rikura<sncref/></ref>:
+          oni difinas la bazan klason kaj du
+          <ref cel="operat.0o">operatoroj</ref>.
+          La bazaj funkcioj estas:
+          la konstanta funkcio <frm>O(x)=0</frm>;
+          la <ref cel="krement.al0i">alkremento</ref>
+          <frm>S(x)=x+1</frm>;
+          la projekcioj
+          <frm>Pr[m,n](x<sub>1</sub>,&#8230;x<sub>n</sub>)=x<sub>m</sub>,
+          1&#8804;m&#8804;n</frm>.
+          La operatoroj estas
+          la <ref cel="lig.kun0o.MAT">kunligo<sncref/></ref> kaj la
+          <ref cel="rekursi.primitiva0ilo">primitiva <tld/>ilo</ref>.
+          Primitive <tld/>a funkcio estas baza primitive <tld/>a
+          funkcio a&ubreve; rezulto de finifoja apliko de la operatoro(j):
+          <ekz>
+            <frm>S(S(x))</frm> estas primitive <tld/>a funkcio &ccirc;ar &gcirc;i
+            estas kunligo de du alkrenentoj <klr>(&gcirc;i
+            &jcirc;etas <frm>x&#8594;x+2</frm>)</klr>;
+          </ekz><ekz>
+            &ccirc;iuj primitive <tld/>aj funkcioj estas
+            <ref cel="cxie0afunkcio">&ccirc;ieaj funkcioj</ref>;
+          </ekz><ekz>
+            pliopo da nombroteoriaj funkcioj estas primitive <tld/>aj
+            funkcioj.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">primitive recursive function</trd>
+      <trd lng="ru">&c_p;&c_r;&c_i;&c_m;&c_i;&c_t;&c_i;&c_v;&c_n;&c_o;-&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_a;&c_ja; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+    </drv>
+
+    <drv mrk="rekursi.primitiva0ilo">
+      <kap>primitiva <tld/>ilo</kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <ref tip="sub" cel="operat.0o">operatoro</ref>
+          uzata en la difino de 
+          <ref cel="rekursi.primitive0afunkcio">primitive <tld/>a
+          funkcio</ref>,
+          simila al
+          <ref cel="iteraci.nombrila0o">nombrila iteracio</ref>;
+          la formala  difino
+          estas <ref cel="rikur.0o.indukto">rikura<sncref/></ref>.
+          Estu <frm>f</frm>
+          funkcio <frm>n</frm>-<ref
+          cel="lok.0nombro.argumenta">loka</ref>,
+          kaj <frm>g</frm> funkcio <frm>n+2</frm>-loka; tiam apliko de
+          primitiva <tld/>ilo al la paro da funkcioj <frm>(f,g)</frm>
+          estas tia <frm>n+2</frm>-loka funkcio <frm>h</frm>, ke
+          <em>baze:</em>
+          <frm>h(x<sub>1</sub>,&#8230;,x<sub>n</sub>,0)=f(x<sub>1</sub>,&#8230;,x<sub>n</sub>);</frm>
+          kaj <em>rikure:</em>
+          <frm>h(x<sub>1</sub>,&#8230;,x<sub>n</sub>,y+1) =
+            g(x<sub>1</sub>,&#8230;,x<sub>n</sub>,y,h(x<sub>1</sub>,&#8230;,x<sub>n</sub>,y)).</frm>
+          <ekz>
+            Estu <frm>f(x)=Pr[1,1]&#185;(x)=x</frm> kaj
+            <frm>g(x,y,z)= S(Pr[2,3](x,y,z))=S(y).</frm>
+            Tiam <frm>h(0,x) = x</frm> kaj
+            <frm>h(S(y),x) = g(y,h(y,x),x) = S(h(y,x)).</frm>
+            Sekve <frm>h(0,1)=1, h(1,1)=S(h(0,1))=2,
+            h(2,1)=S(h(1,1))=3.</frm>
+            Do, <frm>h</frm> estas 2-loka primitive rekursia funkcio,
+            nome <ctl>adicio</ctl>.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">primitive recursion</trd>
+      <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r; &c_p;&c_r;&c_i;&c_m;&c_i;&c_t;&c_i;&c_v;&c_n;&c_o;&c_j; &c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_i;</trd>
+    </drv>
+
+    <drv mrk="rekursi.mu0afunkcio">
+      <kap>&my;-<tld/>a funkcio,
+        <var><kap>MRF</kap></var>,
+        <var><kap>parta <tld/>a funkcio</kap></var>
+      </kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Funkcio difinta per la samaj rimedoj, kiel la
+          <ref tip="sub" cel="rekursi.primitive0afunkcio">primitive
+          <tld/>aj funkcioj</ref>,
+          plus la &my;-<ref cel="operat.0o">operatoro</ref> de
+          <ref cel="sercx.senbara0o">senbara ser&ccirc;o</ref>:
+          <ekz>
+            &ccirc;ar la minimumigo povas diver&gcirc;i, tial ne &ccirc;iuj &my;-<tld/>aj
+            funkcioj estas &ccirc;ieaj;
+          </ekz><ekz>
+            anka&ubreve; nenie difinitaj (&ccirc;ie diver&gcirc;aj) funkcioj estas
+            partaj <tld/>aj funkcioj.
+          </ekz>
+        </dif>
+      </snc>
+      <trdgrp lng="en">
+        <trd>partial recursive function</trd>
+        <trd>><klr>(&my;-)</klr>recursive function</trd>
+      </trdgrp>
+      <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_o; &c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_a;&c_ja; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+    </drv>
+
+    <drv mrk="rekursi.cxiea0afunkcio">
+      <kap>&ccirc;iea <tld/>a funkcio,
+        <var><kap>&Ccirc;RF</kap></var>
+      </kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          <ref cel="rekursi.mu0afunkcio">&my;-<tld/>a funkcio</ref>
+          kiu estas
+          <ref cel="cxie.0afunkcio">&ccirc;iea funkcio</ref>:
+          <ekz>
+            &ccirc;iu <ref cel="rekursi.primitive0afunkcio">PRF</ref> estas
+            &ccirc;iea <tld/>a funkcio;
+          </ekz><ekz>
+            ekzistas &ccirc;ieaj <tld/>aj funkcioj kiuj ne estas
+            <ref cel="rekursi.primitive0afunkcio">primitive
+            <tld/>aj</ref>.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">total recursive function</trd>
+      <trd lng="ru">&c_o;&c_b;&c_shch;&c_je;&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_a;&c_ja; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+    </drv>
+
+  </art>
 <!--
 $Log$
+Revision 1.1  2018/11/10 11:10:14  revo
+Sergio Pokrovskij: nova artikolo
+
 -->
 </vortaro>
