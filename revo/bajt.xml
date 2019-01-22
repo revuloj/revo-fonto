@@ -2,46 +2,66 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>bajt</rad>/o
-    </kap>
-    <drv mrk="bajt.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">KOMP</uzo>
-      <snc>
-        <fnt>(<lok><url ref="&KompLeks;/B.html#BAJTO">KompLeks</url>
-        </lok>)</fnt>
-        <dif>
-          Elemento de datumhierarkio, pli granda ol
-          <ref cel="bit.0o.KOMP">bito</ref> kaj malpli granda ol
-          <ref cel="vort.0o.KOMP">vorto</ref>; praktike, grupo el 8
-          bitoj (<ref tip="sub" cel="bit.0oko">bitoko</ref>).
-        </dif>
-        <ref tip="malprt" cel="datum.0o.KOMP">datumo</ref>
-        <trd lng="be">&c_b;&c_a;&c_j;&c_t;</trd>
-        <trd lng="bg">&c_b;&c_a;&c_j;&c_t;</trd>
-        <trdgrp lng="ca">
-          <trd>octet</trd>,
-          <trd>byte</trd>
-        </trdgrp>
-        <trd lng="de">Byte</trd>
-        <trd lng="en">byte</trd>
-        <trd lng="es">byte</trd>
-        <trd lng="fr">octet</trd>
-        <trdgrp lng="hu">
-          <trd>b&aacute;jt</trd>,
-          <trd>byte</trd>
-        </trdgrp>
-        <trd lng="nl">byte</trd>
-        <trd lng="pl">bajt</trd>
-        <trd lng="pt">byte</trd>
-        <trd lng="ru">&c_b;&c_a;&c_j;&c_t;</trd>
-        <trdgrp lng="sk">
-          <trd>bajt</trd>,
-          <trd>byte</trd>
-        </trdgrp>
-      </snc>
+<art mrk="$Id$">
+<kap>
+  <rad>bajt</rad>/o
+</kap>
+<drv mrk="bajt.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">KOMP</uzo>
+  <snc>
+    <fnt>(<lok><url ref="&KompLeks;/B.html#BAJTO">KompLeks</url>
+    </lok>)</fnt>
+    <dif>
+      Elemento de datumhierarkio, pli granda ol
+      <ref cel="bit.0o.KOMP">bito</ref> kaj malpli granda ol
+      <ref cel="vort.0o.KOMP">vorto</ref>; praktike, grupo el 8
+      bitoj (<ref tip="sub" cel="bit.0oko">bitoko</ref>).
+      <ekz>
+        deksesuma sistemo <klr>[&#8230;]</klr> ebligas simple skribi la valoron de <tld/>oj
+        (bitokoj) per po du deksesumaj ciferoj, &ccirc;iu el kiuj prezentas kvaron da bitoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=9253"
+              >Deksesuma nombrosistemo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        1-<tld/>a signa entjera variablo povas reprezenti entjerojn inter -128 inkluzive
+        kaj 127 inkluzive
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=24621"
+              >100 (nombro)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="malprt">
+      <ref cel="datum.0o.KOMP">datumo</ref>
+    </refgrp>
+    <trd lng="be">&c_b;&c_a;&c_j;&c_t;</trd>
+    <trd lng="bg">&c_b;&c_a;&c_j;&c_t;</trd>
+    <trdgrp lng="ca">
+      <trd>octet</trd>,
+      <trd>byte</trd>
+    </trdgrp>
+    <trd lng="de">Byte</trd>
+    <trd lng="en">byte</trd>
+    <trd lng="es">byte</trd>
+    <trd lng="fr">octet</trd>
+    <trdgrp lng="hu">
+      <trd>b&aacute;jt</trd>,
+      <trd>byte</trd>
+    </trdgrp>
+    <trd lng="nl">byte</trd>
+    <trd lng="pl">bajt</trd>
+    <trd lng="pt">byte</trd>
+    <trd lng="ru">&c_b;&c_a;&c_j;&c_t;</trd>
+    <trdgrp lng="sk">
+      <trd>bajt</trd>,
+      <trd>byte</trd>
+    </trdgrp>
+  </snc>
   <trdgrp lng="cs">
     <trd>bajt</trd>,
     <trd>byte</trd>,
@@ -51,11 +71,17 @@
     <trd>slabika</trd>,
     <trd>slabika, byte, bajt</trd>
   </trdgrp>
+  <adm>
+    Aldoni artikolojn kilobajt/, megabajt/, gigabajt/, terabajt/
+  </adm>
 </drv>
-  </art>
+</art>
 
   <!--
   $Log$
+  Revision 1.16  2015/07/04 08:37:31  revo
+  aldono de trd cs per skripto de M. von Laer
+
   Revision 1.15  2015/06/29 16:39:29  revo
   aldono de trd sk per skripto de M. von Laer
 
