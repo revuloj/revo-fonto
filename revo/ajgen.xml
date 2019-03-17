@@ -2,195 +2,194 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>ajgen</rad>/o
-    </kap>
+<art mrk="$Id$">
+<kap>
+  <rad>ajgen</rad>/o <fnt><bib>MatVort</bib></fnt>,
+  <var><kap><rad>ejgen</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
+</kap>
 
-    <drv mrk="ajgen.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>MatVort</bib></fnt>
-      <snc>
-        <dif>
-          <klr>(de <ref cel="endomo.0o">endomorfio</ref> super
-            <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-          <ref cel="skalar.0o.MAT">Skalaro</ref>, kiu estas
-          <ref cel="ajgen.0a.skalaro"><tld/>a</ref> rilate al la
-          endomorfio:
-          <ekz>
-            la <tld/>oj de endomorfio en finidimensia spaco, kun matrico
-            
-            <frm>A</frm> rilate al iu bazo, estas &ccirc;iuj skalaroj 
-            <frm>&lambda;</frm>, kiuj nuligas la
-            <ref cel="determ.0anto.matrico">determinanton</ref> de 
-            <frm>A-&lambda;.I</frm>;
-          </ekz><ekz>
-            oni nomas <tld/>o de matrico <tld/>on de &ccirc;iu endomorfio,
-            kies
-            matrico &gcirc;i estas rilate al iu bazo.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="polino.karakteriza0o">karakteriza polinomo</ref>,
-          <ref cel="spektr.0o.ajgeno">spektro</ref>.
-        </refgrp>
-        <rim>
-          La tuta terminologio pri <tld/>oj, <tld/>-vektoroj kaj
-          -subspacoj
-          de endomorfio ekzistas anka&ubreve; 
-          por <frm>(<k>n</k>,<k>n</k>)</frm>-matrico, konvencie
-          identigita kun la endomorfio, kies matrico rilate al la kanona
-          bazo
-          de <frm><g>K</g><sup><k>n</k></sup></frm> &gcirc;i estas.
-        </rim>
-      </snc>
-  <trd lng="cs">vlastní <klr>(charakteristická)</klr> hodnota  charakteristický kořen</trd>
+<drv mrk="ajgen.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="endomo.0o">endomorfio</ref> super
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+      <ref cel="skalar.0o.MAT">Skalaro</ref>, kiu estas
+      <ref cel="ajgen.0a.skalaro"><tld/>a</ref> rilate al la
+      endomorfio:
+      <ekz>
+        la <tld/>oj de endomorfio en finidimensia spaco, kun matrico
+        
+        <frm>A</frm> rilate al iu bazo, estas &ccirc;iuj skalaroj 
+        <frm>&lambda;</frm>, kiuj nuligas la
+        <ref cel="determ.0anto.matrico">determinanton</ref> de 
+        <frm>A-&lambda;.I</frm>;
+      </ekz><ekz>
+        oni nomas <tld/>o de matrico <tld/>on de &ccirc;iu endomorfio,
+        kies
+        matrico &gcirc;i estas rilate al iu bazo.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="polino.karakteriza0o">karakteriza polinomo</ref>,
+      <ref cel="spektr.0o.ajgeno">spektro</ref>.
+    </refgrp>
+    <rim>
+      La tuta terminologio pri <tld/>oj, <tld/>-vektoroj kaj
+      -subspacoj
+      de endomorfio ekzistas anka&ubreve; 
+      por <frm>(<k>n</k>,<k>n</k>)</frm>-matrico, konvencie
+      identigita kun la endomorfio, kies matrico rilate al la kanona
+      bazo
+      de <frm><g>K</g><sup><k>n</k></sup></frm> &gcirc;i estas.
+    </rim>
+  </snc>
+  <trd lng="cs">vlastn&iacute; <klr>(charakteristick&aacute;)</klr> hodnota  charakteristick&yacute; ko&rcaron;en</trd>
   <trd lng="de">Eigenwert</trd>
   <trd lng="en">eigenvalue</trd>
   <trdgrp lng="es">
-        <trd>eigenvalor</trd>,
-        <trd>valor propio</trd>
-      </trdgrp>
+    <trd>eigenvalor</trd>,
+    <trd>valor propio</trd>
+  </trdgrp>
   <trd lng="fr">valeur propre<klr tip="ind"> (d'un
       endomorphisme)</klr></trd>
   <trdgrp lng="hu">
-        <trd>saj&aacute;t&eacute;rt&eacute;k</trd>,
-        <trd>karakterisztikus <ind>&eacute;rt&eacute;k</ind></trd>
-      </trdgrp>
+    <trd>saj&aacute;t&eacute;rt&eacute;k</trd>,
+    <trd>karakterisztikus <ind>&eacute;rt&eacute;k</ind></trd>
+  </trdgrp>
   <trdgrp lng="pl">
-        <trd>warto&sacute;&cacute; w&lstroke;asna</trd>,
-        <trd>pierwiastek charakterystyczny</trd></trdgrp>
+    <trd>warto&sacute;&cacute; w&lstroke;asna</trd>,
+    <trd>pierwiastek charakterystyczny</trd></trdgrp>
   <trd lng="pt">autovalor</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
         <ind>&c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_je;</ind><klr tip="ind">
 (&c_e;&c_n;&c_d;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;&c_a;)</klr></trd>
   <trdgrp lng="sk">
     <trd>vlastn&eacute; &ccaron;&iacute;slo</trd>,
-    <trd>vlastná <klr>(charakteristická)</klr> hodnota</trd>
+    <trd>vlastn&aacute; <klr>(charakteristick&aacute;)</klr> hodnota</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="ajgen.0a">
-      <kap><tld/>a</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc mrk="ajgen.0a.skalaro">
-        <dif>
-          <klr>(p.p. <ref cel="skalar.0o.MAT">skalaro</ref>
-          <frm>&lambda;</frm>,
-            rilate al <ref cel="endomo.0o">endomorfio</ref>
-            <frm><k>f</k></frm> en
-            <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-          Tia, ke <frm><k>f</k></frm> &jcirc;etas iun nenulan vektoron 
-          <frm><k>x</k></frm> al <frm>&lambda;&#8729;<k>x</k></frm>; alidire: tia,
-          ke la <ref tip="super" cel="kern.0o.homomorfio">kerno</ref> de
-          <frm><k>f</k>-&lambda;.id<sub><g>E</g></sub></frm> ne egalas al
-          <frm>{0}</frm>:
-          <ekz>
-            se la kerno de endomorfio ne egalas al <frm>{0}</frm>, la
-            skalara nulo
-            estas <tld/>a rilate al &gcirc;i;
-          </ekz><ekz>
-            se <frm>&lambda;</frm> estas <tld/>a rilate al
-            <ref cel="involu1.0o">involucio</ref>,
-            tiam <frm>&lambda;<sup>2</sup> = 1</frm>;
-          </ekz><ekz>
-            en la spaco de senfine <ref
-            cel="deriv.0i.MAT">deriveblaj</ref> reelaj
-            funkcioj, derivado estas endomorfio, rilate al kiu &ccirc;iu reelo
-            estas <tld/>a <klr>(&ccirc;ar se 
-              <frm><k>f</k><sub>&lambda;</sub>(<k>x</k>) = 
-                <k>e</k><sup>&lambda;<k>x</k></sup></frm>,
-              <frm>D(<k>f</k><sub>&lambda;</sub>) = 
-                &lambda;&#8729;<k>f</k><sub>&lambda;</sub></frm>)</klr>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="ajgen.0a.subspaco">
-        <dif>
-          <klr>(p.p. <ref cel="spac.vektorasub0o">subspaco</ref> de
-            <ref cel="spac.vektora0o">vektora spaco</ref>
-            <frm><g>E</g></frm>,
-            rilate al <ref cel="endomo.0o">endomorfio</ref>
-            <frm><k>f</k></frm> 
-            en &gcirc;i)</klr>
-          Egala al la <ref tip="super"
-          cel="kern.0o.homomorfio">kerno</ref> de
-          <frm><k>f</k>-&lambda;.id<sub><g>E</g></sub></frm> por iu 
-          <tld/>a <sncref ref="ajgen.0a.skalaro"/> skalaro <frm>&lambda;</frm>:
-          <ekz>
-            la du <tld/>aj subspacoj de
-            <ref cel="simetr.0o.vektora">simetrio</ref> estas
-            <ref cel="komple1.0a.vektorasubspaco">komplementaj</ref>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="ajgen.0a.vektoro">
-        <dif>
-          <klr>(p.p. <ref cel="vektor.0o.MAT">vektoro</ref>
-          <frm><k>x</k></frm>, 
-            rilate al <ref cel="endomo.0o">endomorfio</ref>
-            <frm><k>f</k></frm> en
-            <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-          Nenula kaj apartenanta al iu <tld/>a <sncref
-          ref="ajgen.0a.subspaco"/>
-          subspaco de <frm><k>f</k></frm>:
-          <ekz>
-            se <frm><k>x</k></frm> estas <tld/>a vektoro rilate al 
-            <frm><k>f</k></frm>, tiam la
-            <ref cel="rekt.vektora0o">rekto</ref>, kiun &gcirc;i naskas,
-            estas sen&scirc;an&gcirc;a per <frm><k>f</k></frm>.
-          </ekz>
-        </dif>
-      </snc>
-      <rim>
-        La naciaj lingvoj nomas tiujn nociojn per adjektivoj de la tipo
-        <ctl>propra</ctl> a&ubreve; <ctl>karakteriza</ctl>. Ne estus stulte
-        pa&ubreve;si tion en Esperanto, kiel registras
-        <fnt><bib>Deneva</bib></fnt>, sed
-        Reiers&oslash;l <fnt><bib>MatStokTerm</bib><lok>p. 67</lok></fnt>
-        enkondukis la radikon <ctl><tld/></ctl>, opiniante ke la supraj
-        terminoj estas <ctl>arbitraj</ctl> kaj ne havas <ctl>informan
-          valoron</ctl>. Pli konvinke li diras, ke la nova radiko estas
-        pli oportuna por kunmeta&jcirc;oj. Se &gcirc;i efektive i&gcirc;as
-        vaste akceptata, indus modifi la terminon <ctl>karakteriza
-        polinomo</ctl>
-        al <ctl><tld/>a polinomo</ctl> a&ubreve; <ctl><tld/>polinomo</ctl>.
-        Notindas, ke apud la formo <ctl><tld/></ctl> naski&gcirc;is anka&ubreve; 
-        <ctl>ejgen</ctl> (trovebla ekz-e en <fnt><bib>PIV2</bib></fnt>),
-        
-        eble pli konforma al la Esperantaj kutimoj, sed senutila.
-      </rim>
-      <trd lng="sk">vlastn&yacute; <klr>(vektor)</klr></trd>
-      <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;<klr tip="ind">
-          (&c_o; &c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_je;, &c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_i;
+<drv mrk="ajgen.0a">
+  <kap><tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="ajgen.0a.skalaro">
+    <dif>
+      <klr>(p.p. <ref cel="skalar.0o.MAT">skalaro</ref>
+      <frm>&lambda;</frm>,
+        rilate al <ref cel="endomo.0o">endomorfio</ref>
+        <frm><k>f</k></frm> en
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+      Tia, ke <frm><k>f</k></frm> &jcirc;etas iun nenulan vektoron 
+      <frm><k>x</k></frm> al <frm>&lambda;&#8729;<k>x</k></frm>; alidire: tia,
+      ke la <ref tip="super" cel="kern.0o.homomorfio">kerno</ref> de
+      <frm><k>f</k>-&lambda;.id<sub><g>E</g></sub></frm> ne egalas al
+      <frm>{0}</frm>:
+      <ekz>
+        se la kerno de endomorfio ne egalas al <frm>{0}</frm>, la
+        skalara nulo
+        estas <tld/>a rilate al &gcirc;i;
+      </ekz><ekz>
+        se <frm>&lambda;</frm> estas <tld/>a rilate al
+        <ref cel="involu1.0o">involucio</ref>,
+        tiam <frm>&lambda;<sup>2</sup> = 1</frm>;
+      </ekz><ekz>
+        en la spaco de senfine <ref
+        cel="deriv.0i.MAT">deriveblaj</ref> reelaj
+        funkcioj, derivado estas endomorfio, rilate al kiu &ccirc;iu reelo
+        estas <tld/>a <klr>(&ccirc;ar se 
+          <frm><k>f</k><sub>&lambda;</sub>(<k>x</k>) = 
+            <k>e</k><sup>&lambda;<k>x</k></sup></frm>,
+          <frm>D(<k>f</k><sub>&lambda;</sub>) = 
+            &lambda;&#8729;<k>f</k><sub>&lambda;</sub></frm>)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="ajgen.0a.subspaco">
+    <dif>
+      <klr>(p.p. <ref cel="spac.vektorasub0o">subspaco</ref> de
+        <ref cel="spac.vektora0o">vektora spaco</ref>
+        <frm><g>E</g></frm>,
+        rilate al <ref cel="endomo.0o">endomorfio</ref>
+        <frm><k>f</k></frm> 
+        en &gcirc;i)</klr>
+      Egala al la <ref tip="super"
+      cel="kern.0o.homomorfio">kerno</ref> de
+      <frm><k>f</k>-&lambda;.id<sub><g>E</g></sub></frm> por iu 
+      <tld/>a <sncref ref="ajgen.0a.skalaro"/> skalaro <frm>&lambda;</frm>:
+      <ekz>
+        la du <tld/>aj subspacoj de
+        <ref cel="simetr.0o.vektora">simetrio</ref> estas
+        <ref cel="komple1.0a.vektorasubspaco">komplementaj</ref>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="ajgen.0a.vektoro">
+    <dif>
+      <klr>(p.p. <ref cel="vektor.0o.MAT">vektoro</ref>
+      <frm><k>x</k></frm>, 
+        rilate al <ref cel="endomo.0o">endomorfio</ref>
+        <frm><k>f</k></frm> en
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+      Nenula kaj apartenanta al iu <tld/>a <sncref
+      ref="ajgen.0a.subspaco"/>
+      subspaco de <frm><k>f</k></frm>:
+      <ekz>
+        se <frm><k>x</k></frm> estas <tld/>a vektoro rilate al 
+        <frm><k>f</k></frm>, tiam la
+        <ref cel="rekt.vektora0o">rekto</ref>, kiun &gcirc;i naskas,
+        estas sen&scirc;an&gcirc;a per <frm><k>f</k></frm>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    La naciaj lingvoj nomas tiujn nociojn per adjektivoj de la tipo
+    <ctl>propra</ctl> a&ubreve; <ctl>karakteriza</ctl>. Ne estus stulte
+    pa&ubreve;si tion en Esperanto, kiel registras
+    <fnt><bib>Deneva</bib></fnt>, sed
+    Reiers&oslash;l <fnt><bib>MatStokTerm</bib><lok>p. 67</lok></fnt>
+    enkondukis la radikon <ctl><tld/></ctl>, opiniante ke la supraj
+    terminoj estas <ctl>arbitraj</ctl> kaj ne havas <ctl>informan
+      valoron</ctl>. Pli konvinke li diras, ke la nova radiko estas
+    pli oportuna por kunmeta&jcirc;oj. Se &gcirc;i efektive i&gcirc;as
+    vaste akceptata, indus modifi la terminon <ctl>karakteriza
+    polinomo</ctl>
+    al <ctl><tld/>a polinomo</ctl> a&ubreve; <ctl><tld/>polinomo</ctl>.
+    Notindas, ke apud la formo <ctl><tld/></ctl> naski&gcirc;is anka&ubreve; 
+    <ctl>ejgen</ctl> (trovebla ekz-e en <fnt><bib>PIV2</bib></fnt>),
+    eble pli konforma al la Esperantaj kutimoj, sed senutila.
+  </rim>
+  <trd lng="sk">vlastn&yacute; <klr>(vektor)</klr></trd>
+  <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;<klr tip="ind">
+      (&c_o; &c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_je;, &c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_i;
 &c_i; &c_t;.&c_p;.)</klr></trd>
-    </drv>
+</drv>
 
-    <drv mrk="ajgen.0valoro">
-      <kap><tld/>valoro</kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>EKV</bib><lok>&para;6</lok></fnt>
-      <snc>
-        <ref tip="dif" cel="ajgen.0o">ajgeno.</ref>
-      </snc>
-    </drv>
+<drv mrk="ajgen.0valoro">
+  <kap><tld/>valoro</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>EKV</bib><lok>&para;6</lok></fnt>
+  <snc>
+    <ref tip="dif" cel="ajgen.0o">ajgeno.</ref>
+  </snc>
+</drv>
 
-    <drv mrk="ajgen.0vektoro">
-      <kap><tld/>vektoro</kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>EKV</bib><lok>&para;7</lok></fnt>
-      <snc>
-        <dif>
-          <klr>(de <ref cel="endomo.0o">endomorfio</ref>)</klr>
-          Vektoro, <ref tip="dif" cel="ajgen.0a.vektoro"><tld/>a</ref>
-          rilate
-          al &gcirc;i.
-        </dif>
-      </snc>
+<drv mrk="ajgen.0vektoro">
+  <kap><tld/>vektoro</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>EKV</bib><lok>&para;7</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="endomo.0o">endomorfio</ref>)</klr>
+      Vektoro, <ref tip="dif" cel="ajgen.0a.vektoro"><tld/>a</ref>
+      rilate
+      al &gcirc;i.
+    </dif>
+  </snc>
   <trdgrp lng="cs">
-    <trd>charakteristický vektor</trd>,
-    <trd>vlastní vektor</trd>
+    <trd>charakteristick&yacute; vektor</trd>,
+    <trd>vlastn&iacute; vektor</trd>
   </trdgrp>
   <trd lng="de">Eigenvektor</trd>
   <trd lng="en">eigenvector</trd>
@@ -205,25 +204,25 @@
   <trd lng="sk">vlastn&yacute; vektor</trd>
 </drv>
 
-    <drv mrk="ajgen.0subspaco">
-      <kap><tld/>subspaco, <var><kap><tld/>spaco</kap></var></kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          <klr>(de <ref cel="endomo.0o">endomorfio</ref>)</klr>
-          Subspaco, <ref tip="dif" cel="ajgen.0a.subspaco"><tld/>a</ref>
-          rilate
-          al &gcirc;i:
-          <ekz>
-            <ref cel="sum.0o.vektorasubspaco">sumo</ref> de
-            <tld/>subspacoj
-            estas &ccirc;iam <ref cel="rekt.0a.sumo">rekta</ref>.
-          </ekz>
-        </dif>
-      </snc>
+<drv mrk="ajgen.0subspaco">
+  <kap><tld/>subspaco, <var><kap><tld/>spaco</kap></var></kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de <ref cel="endomo.0o">endomorfio</ref>)</klr>
+      Subspaco, <ref tip="dif" cel="ajgen.0a.subspaco"><tld/>a</ref>
+      rilate
+      al &gcirc;i:
+      <ekz>
+        <ref cel="sum.0o.vektorasubspaco">sumo</ref> de
+        <tld/>subspacoj
+        estas &ccirc;iam <ref cel="rekt.0a.sumo">rekta</ref>.
+      </ekz>
+    </dif>
+  </snc>
   <trdgrp lng="cs">
-    <trd>vlastní podprostor</trd>,
-    <trd>vlastní prostor</trd>
+    <trd>vlastn&iacute; podprostor</trd>,
+    <trd>vlastn&iacute; prostor</trd>
   </trdgrp>
   <trd lng="de">Eigenraum</trd>
   <trd lng="en">characteristic <ind>subspace</ind></trd>
@@ -235,11 +234,14 @@
   <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
         <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind><klr
 tip="ind"> (&c_e;&c_n;&c_d;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;&c_a;)</klr></trd>
-  <trd lng="sk">vlastný podpriestor</trd>
+  <trd lng="sk">vlastn&yacute; podpriestor</trd>
 </drv>
   </art>
   <!--
   $Log$
+  Revision 1.24  2015/07/04 08:37:29  revo
+  aldono de trd cs per skripto de M. von Laer
+
   Revision 1.23  2015/06/28 12:03:35  revo
   aldono de trd sk per skripto de M. von Laer
 
