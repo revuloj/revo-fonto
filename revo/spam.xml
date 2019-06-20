@@ -3,19 +3,26 @@
 
 <vortaro>
 <art mrk="$Id$">
-<kap><rad>spam</rad>/o</kap>
+<kap>
+  <rad>spam</rad>/o <fnt><vrk><url ref="https://komputeko.net/index_eo.php">Komputeko</url></vrk></fnt>
+</kap>
+
 <drv mrk="spam.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">KOMP</uzo>
   <uzo tip="stl">KOMUNE</uzo>
-  <snc>
+  <snc mrk="spam.0o.KOMP">
     <dif>
       Nedezirata reklamo amase distribuata per retpo&scirc;to:
       <ekz>
         por tiu malagrabla fenomeno jam establi&gcirc;is (anka&ubreve; en la
-        esperantlingvaj retforumoj) nova vorto: <tld/>o<fnt><aut>Paul
-        Peeraerts</aut>: <vrk>Trudata reklamo: &ccirc;u haltigebla</vrk>,
-        <bib>Monato</bib><lok>jaro 1998a, numero 4a, p. 14a</lok></fnt>..
+        esperantlingvaj retforumoj) nova vorto: <tld/>o
+        <fnt>
+          <aut>P. Peeraerts</aut>
+          <vrk>Trudata reklamo: &ccirc;u haltigebla</vrk>,
+          <bib>Monato</bib>
+          <lok>1998:4, p. 14a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -36,14 +43,12 @@
   <kap><tld/>a&jcirc;o</kap>
   <uzo tip="fak">KOMP</uzo>
   <uzo tip="stl">KOMUNE</uzo>
-  <snc>
+  <snc mrk="spam.0ajxo.KOMP">
     <dif>
       <ref tip="super" cel="mesagx.trud0o">Trudmesa&gcirc;o</ref> sendita per
-      <ref tip="vid" cel="ret.0posxto">retpo&scirc;to</ref>.
+      <ref tip="vid" cel="ret.0posxto">retpo&scirc;to</ref>;
+      <ref tip="sin" cel="mesagx.spam0o"><tld/>mesa&gcirc;o</ref>.
     </dif>
-    <refgrp tip="sin">
-      <ref cel="mesagx.spam0o"><tld/>mesa&gcirc;o</ref>
-    </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_p;&c_a;&c_m; <klr>(&c_p;&c_a;&c_v;&c_je;&c_d;&c_a;&c_m;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;)</klr></trd>
   <trd lng="de">E-Mail-Spam</trd>
@@ -62,14 +67,18 @@
   <kap><tld/>isto</kap>
   <uzo tip="fak">KOMP</uzo>
   <uzo tip="stl">KOMUNE</uzo>
-  <snc>
+  <snc mrk="spam.0isto.KOMP">
     <dif>
       <ref tip="super" cel="reklam.0isto">Reklamisto</ref>, kiu uzadas
       <tld/>on:
       <ekz>
-        ka&scirc;i vian adreson, tiel ke <tld/>istoj ne trovu &gcirc;in<fnt><aut>Paul
-        Peeraerts</aut>: <vrk>Trudata reklamo: &ccirc;u haltigebla</vrk>,
-        <bib>Monato</bib><lok>jaro 1998a, numero 4a, p. 14a</lok></fnt>.
+        <klr>[&#8230;]</klr> ka&scirc;i vian adreson, tiel ke <tld/>istoj ne trovu &gcirc;in
+        <fnt>
+          <aut>P. Peeraerts</aut>
+          <vrk>Trudata reklamo: &ccirc;u haltigebla</vrk>,
+          <bib>Monato</bib>
+          <lok>1998:4, p. 14a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -82,9 +91,34 @@
   <trd lng="nl">spammer</trd>
   <trd lng="ru">&c_s;&c_p;&c_a;&c_m;&c_m;&c_je;&c_r;</trd>
 </drv>
+
+<drv mrk="spam.kontraux0ilo">
+  <kap>kontra&ubreve;<tld/>ilo,
+  <var><kap><tld/>filtrilo</kap></var></kap>
+  <snc mrk="spam.kontraux0ilo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Kromprogramo de retpo&scirc;tilo,
+      kiu apartigas a&ubreve; detruas <tld/>a&jcirc;ojn:
+      <ekz>
+        vi ricevos retpo&scirc;tan kopion, se via <tld/>-filtrilo ne blokos &gcirc;in
+        <fnt>
+          <aut>W. Diestel</aut>
+          <vrk><url ref="https://revaj.steloj.de/redaktilo/red/">
+          Revo-redaktilo</url></vrk>
+          <lok>2019</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">antispam</trd>
+</drv>
 </art>
 <!--
 $Log$
+Revision 1.6  2007/01/27 21:07:44  revo
+Wieland Pusch: +trd de
+
 Revision 1.5  2004/10/21 16:31:48  revo
 Jozefo Horvath: +trd hu
 
