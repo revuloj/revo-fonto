@@ -2,186 +2,218 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <rad>rikur</rad>/o <fnt><bib>EKV</bib></fnt>
-    </kap>
-    <drv mrk="rikur.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="rikur.0o.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <fnt><bib>MatTerm</bib></fnt>
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Maniero solvi problemon a&ubreve; formuli difinon pri
-          <ref cel="vic.0o.MAT">vico<sncref/></ref> da
-          objektoj tiel, ke ekde iu nimero &ccirc;iu sekva vicano estas
-          esprimata per funkcio de anta&ubreve;aj anoj de la vico. 
-        </dif>
-        <ref tip="super" cel="rekursi.0o">rekursio</ref>
-        <subsnc mrk="rikur.0o.iteracio">
-          <dif>
-            <tld lit="R"/>o de la ordo <frm>k</frm> estas difino de la
-            formo <frm>a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
-            a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;k</sub>)</frm>, kie
-            <frm>n&#8805;k+1&#8805;0</frm>:
-            <ekz>
-              la difino de Fibona&ccirc;ia vico ekde la 3-a ano
-              <frm>(n&#8805;3)</frm> uzas <tld/>on de la 2-a ordo:
-              <frm>f<sub>n</sub>=f<sub>n&#8722;2</sub>+f<sub>n&#8722;1</sub></frm>;
-            </ekz><ekz>
-              difino de la iteraciilo <frm>&#8721;</frm> per <tld/>o:
-              <frm>&#8721;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
-                &#8721;<sup>k+1</sup><sub>i=0</sub>=&#8721;<sup>k</sup><sub>i=0</sub>+a<sub>k+1</sub>;
-              </frm>
-            </ekz><ekz>
-              por solvi la ekvacion <frm>f(x)=0</frm> ofte eblas uzi
-              la iteracian <em>metodon Ne&ubreve;tonan</em>, difinitan per
-              la <tld/>o
-<frm>x<sub>n+1</sub>=x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&#8242;(x<sub>n</sub>)</frm>.
-            </ekz>
-          </dif>
-          <rim>
-            En <ref cel="lingv.program0o">programlingvoj</ref> 
-            al tiaj <tld/>oj respondas
-            <ref cel="iteraci.0aordono">iteraciaj ordonoj</ref>:
-            <ref cel="iteraci.kondicxa0o">kondi&ccirc;a iteracio</ref>
-            por la Ne&ubreve;tona metodo,
-            <ref cel="iteraci.nombrila0o">nombria iteracio</ref>
-            por <frm>&#8721;</frm> ktp.
-            En matematiko la nocio unue aperis en la verkoj de
-            Muavro (Abraham de Moivre, 1667&ndash;1754) kaj
-            Daniel Bernoulli (1700&ndash;1782), &gcirc;in sistemigis
-            L. E&ubreve;lero (1707&ndash;1783).
-          </rim>
-        </subsnc>
-        <subsnc mrk="rikur.0o.indukto">
-          <dif>
-            Maniero solvi problemon a&ubreve; formuli difinon reduktante &gcirc;in
-            al la sama problemo a&ubreve; difino por malpli grandaj valoroj
-            de ties argumentoj a&ubreve; al iliaj partoj (komponantoj):
-            <ekz>
-              <tld/>on uzatan en pruvoj a&ubreve; difinoj oni anka&ubreve; nomas
-              &#171;<ref tip="sub" cel="indukt.0o.MAT">matematika
-              indukto</ref>&#187;
-              <fnt><bib>KompLeks</bib>,
-                <lok><url
- ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA"
-                    >rikura</url></lok></fnt>;
-            </ekz><ekz>
-              la E&ubreve;klida algoritmo por trovi la plej grandan komunan
-              divizoron (PGKD) de <frm>a,b&#8712;N<sub>0</sub></frm> uzas
-              <tld/>on: <frm>PGKD(a,b)=PGKD(a <g>mod</g> b,b)</frm>,
-              kie <frm>a <g>mod</g> b</frm> estas la
-              <ref cel="rest.0o.MAT">resto<sncref/></ref> de 
-              <frm>a&#247;b</frm>.
-            </ekz>
-          </dif>
-        </subsnc>
-        <trdgrp lng="en">
-          <trd>recurrence</trd>,
-          <trd>recursion</trd>
-        </trdgrp>
-        <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_r;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-      </snc>
-      <snc mrk="rikur.0o.rekursio">
-        <uzo tip="fak">MAT</uzo>
-        <uzo tip="fak">KOMP</uzo>
-        <fnt><bib>PIV2</bib></fnt>
-        <ref tip="dif" cel="rekursi.0o">rekursio</ref>
-        <trd lng="en">recursion</trd>
-        <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_ja;</trd>
-      </snc>
+<art mrk="$Id$">
+<kap>
+  <rad>rikur</rad>/o <fnt><bib>EKV</bib></fnt>
+</kap>
+<drv mrk="rikur.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="rikur.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib></fnt>
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Maniero solvi problemon a&ubreve; formuli difinon pri
+      <ref cel="vic.0o.MAT">vico<sncref/></ref> da
+      objektoj tiel, ke ekde iu numero &ccirc;iu sekva vicano estas
+      esprimata per funkcio de anta&ubreve;aj anoj de la vico:
+      <ekz>
+        la teorio de <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3871"
+              >Stephen Kleene</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <subsnc mrk="rikur.0o.iteracio">
+      <dif>
+        <tld lit="R"/>o de la ordo <frm><k>k</k></frm> estas difino de la
+        formo <frm>a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
+        a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;<k>k</k></sub>)</frm>, kie
+        <frm>n&#8239;&#8805;&#8239;<k>k</k>+1&#8239;&#8805;&#8239;0</frm>:
+        <ekz>
+          la difino de Fibona&ccirc;ia vico ekde la 3-a ano
+          <frm>(n&#8805;3)</frm> uzas <tld/>on de la 2-a ordo:
+          <frm>f<sub>n</sub>&#8239;=&#8239;f<sub>n&#8722;2</sub>+f<sub>n&#8722;1</sub></frm>;
+        </ekz><ekz>
+          difino de la iteraciilo <frm>&#8721;</frm> per <tld/>o:
+          <frm>&#8721;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
+            &#8721;<sup>k+1</sup><sub>i=0</sub>=&#8721;<sup>k</sup><sub>i=0</sub>+a<sub>k+1</sub>;
+          </frm>
+        </ekz><ekz>
+          por solvi la ekvacion <frm>f(x)&#8239;=&#8239;0</frm> ofte eblas uzi
+          la iteracian <em>metodon Ne&ubreve;tonan</em>, difinitan per
+          la <tld/>o
+           <frm>x<sub>n+1</sub>&#8239;=&#8239;x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
+        </ekz>
+      </dif>
       <rim>
-        Multaj homoj (kaj multaj nacilingvaj terminaroj) konfuzas la
-        nocion <tld/>o kun ties supernocio
-        <ref cel="rekursi.0o">rekursio</ref>.
-
-        En 1906, kiam Bricard metis la terminon <ctl><tld/>o</ctl> en
-        sian Matematikan Terminaron, la vorto havis nur la striktan
-        signifon de <tld/>o<sncref ref="rikur.0o.MAT"/>, kiun solan
-        bezonas la klasika matematiko. Plej ofte la matematika <tld/>o
-        programeblas per
-        <ref cel="iteraci.0o.MAT">iteracioj</ref>.
-
-        La nocio <ctl>rekursio</ctl>
-        (originale <ctl>&my;-recursion</ctl>) aperis en la jaroj 1930-aj,
-        inspirite de studoj metamatematikaj kaj la problemo pri
-        &gcirc;enerala komputeblo kaj ties limoj.
-
-        La matematika procedo <tld/>a estas tre korekta, &gcirc;i zorge
-        evitas cirklajn difinojn. Male, rekursio estas libera je &ccirc;iaj
-        limigoj &mdash; la klaso de rekursiaj funkcioj koincidas kun la
-        klaso de &ccirc;iuj funkcioj komputeblaj &mdash; sed ne &ccirc;iu rekursia
-        funkcio &ccirc;ie finas, povas okazi <ctl>senfina rekursio</ctl>.
-
-        &Ccirc;iam, kiam eblas, oni programu rekursian funkcion kiel
-        funkcion <tld/>an; sed tio ne &ccirc;iam sufi&ccirc;as. En programado oni
-        bezonas pli ol procedurojn <tld/>ajn &mdash; oni bezonas procedurojn
-        rekursiajn. <aut>Sergio Pokrovskij</aut>
+        En <ref cel="lingv.program0o">programlingvoj</ref> 
+        al tiaj <tld/>oj respondas
+        <ref cel="iteraci.0aordono">iteraciaj ordonoj</ref>:
+        <ref cel="iteraci.kondicxa0o">kondi&ccirc;a iteracio</ref>
+        por la Ne&ubreve;tona metodo,
+        <ref cel="iteraci.nombrila0o">nombrila iteracio</ref>
+        por <frm>&#8721;</frm> ktp.
+        En matematiko la nocio unue aperis en la verkoj de
+        Muavro (<nom>Abraham de Moivre</nom>, 1667&ndash;1754) kaj
+        <nom>Daniel Bernoulli</nom> (1700&ndash;1782), &gcirc;in sistemigis
+        L. E&ubreve;lero (1707&ndash;1783).
       </rim>
-   </drv>
+    </subsnc>
+    <subsnc mrk="rikur.0o.indukto">
+      <dif>
+        Maniero solvi problemon a&ubreve; formuli difinon reduktante &gcirc;in
+        al la sama problemo a&ubreve; difino por malpli grandaj valoroj
+        de ties argumentoj a&ubreve; al iliaj partoj (komponantoj):
+        <ekz>
+          <tld/>on uzatan en pruvoj a&ubreve; difinoj oni anka&ubreve; nomas
+          &leftquot;<ref tip="sub" cel="indukt.0o.MAT">matematika indukto</ref>&rightquot;
+          <fnt><bib>KompLeks</bib>,
+            <lok><url ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA">rikura</url></lok></fnt>;
+        </ekz><ekz>
+          la E&ubreve;klida algoritmo por trovi la plej grandan komunan
+          divizoron (PGKD) de <frm>a,b&#8712;N<sub>0</sub></frm> uzas
+          <tld/>on: <frm>PGKD(a,b)=PGKD(a <g>mod</g> b,b)</frm>,
+          kie <frm>a <g>mod</g> b</frm> estas la
+          <ref cel="rest.0o.MAT">resto<sncref/></ref> de 
+          <frm>a÷b</frm>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>vollst&auml;ndige <ind>Induktion</ind></trd>,
+        <trd>induktive <ind>Definition</ind></trd>,
+        <trd>rekursive <ind>Definition</ind></trd>
+      </trdgrp>
+    </subsnc>
+    <ref tip="super" cel="rekursi.0o">rekursio</ref>
+    <trdgrp lng="en">
+      <trd>recurrence</trd>,
+      <trd>recursion</trd>
+    </trdgrp>
+    <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_r;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </snc>
+  <snc mrk="rikur.0o.rekursio">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="fak">KOMP</uzo>
+    <fnt><bib>PIV2</bib></fnt>
+    <ref tip="dif" cel="rekursi.0o">rekursio</ref>
+    <trd lng="en">recursion</trd>
+    <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_ja;</trd>
+  </snc>
+  <rim>
+    Multaj homoj (kaj multaj nacilingvaj terminaroj) konfuzas la
+    nocion <tld/>o kun ties supernocio
+    <ref cel="rekursi.0o">rekursio</ref>.
 
-    <drv mrk="rikur.0a">
-      <kap><tld/>a</kap>
-      <snc mrk="rikur.0a.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <fnt><bib>MatTerm</bib></fnt>
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Uzanta <tld/>on, karakterizata de <tld/>o:
-          <ekz>
-            <tld/>a difino de la faktorialo estas jena:
-            (1) La faktorialo de 1 estas 1,
-            (2) Se <frm>n</frm> estas natura nombro, la faktorialo de
-            <frm>(n+1)</frm> estas <frm>(n+1)&middot;n!</frm>
-            <fnt>
-              <aut>Reinhard F&ouml;ssmeier</aut>:
-              <vrk><url
- ref="www.ais-sanmarino.org/kursoj/s1/edp2/2005/l01.html">Enkonduko
-              en la a&ubreve;tomatan daten-prilaboradon (2)</url></vrk>
-            </fnt>;
-          </ekz><ekz>
-            La <tld/>a difino &mdash; anka&ubreve; nomata indukta difino &mdash; estas
-            procedo analoga al la matematika
-            <ref tip="sub" cel="indukt.0o.MAT">indukto<sncref/></ref>,
-            &ccirc;e kiu oni difinas matematikan esprimon per <tld/>o-bazo
-            kaj <tld/>o-pa&scirc;o
-            <fnt>
-              <lok><url
-ref="https://www.know.cf/enciclopedia/tab/eo/Matematika_indukto/3b16fce43557e5dce6c63345c38a354fea658b37"
-                >Rikura a&ubreve; indukta difino</url></lok></fnt>;
-          </ekz><ekz>
-            la &Ccirc;ebi&scirc;ovaj polinomoj de la unua
-            speco <frm>T<sub>n</sub></frm> estas ligitaj per <tld/>a
-            formulo de la 2a ordo:
-            <frm>T<sub>n</sub>(x) = 2&#8901;x&#8901;T<sub>n&#8722;1</sub>(x) &#8722;
-            T<sub>n&#8722;2</sub>(x)</frm>
-            <fnt><bib>KompLeks</bib>,
-              <lok><url
- ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA"
-                  >rikura</url></lok></fnt>.
-          </ekz>
-        </dif>
-        <ref tip="super" cel="rekursi.0a">rekursia</ref>
-        <trdgrp lng="en">
-          <trd>recurrent</trd>, <trd>recursive</trd>
-        </trdgrp>
-        <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_r;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
-      </snc>
-      <snc mrk="rikur.0o.rekursia">
-        <uzo tip="fak">MAT</uzo>
-        <uzo tip="fak">KOMP</uzo>
-        <fnt><bib>PIV2</bib></fnt>
-        <ref tip="dif" cel="rekursi.0a">rekursia</ref>
-        <trd lng="en">recursive</trd>
-        <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
-      </snc>
-    </drv>
-  </art>
+    En 1906, kiam <nom>Bricard</nom> metis la terminon <ctl><tld/>o</ctl> en
+    sian Matematikan Terminaron, la vorto havis nur la striktan
+    signifon de <tld/>o<sncref ref="rikur.0o.MAT"/>, kiun solan
+    bezonas la klasika matematiko. Plej ofte la matematika <tld/>o
+    programeblas per
+    <ref cel="iteraci.0o.MAT">iteracioj</ref>.
+
+    La nocio <ctl>rekursio</ctl>
+    (originale &leftquot;<nac>&my;-recursion</nac>&rightquot;) aperis en la jaroj 1930-aj,
+    inspirite de studoj metamatematikaj kaj la problemo pri
+    &gcirc;enerala komputeblo kaj ties limoj.
+
+    La matematika procedo <tld/>a estas tre korekta, &gcirc;i zorge
+    evitas cirklajn difinojn. Male, rekursio estas libera je &ccirc;iaj
+    limigoj &mdash; la klaso de rekursiaj funkcioj koincidas kun la
+    klaso de &ccirc;iuj funkcioj komputeblaj &mdash; sed ne &ccirc;iu rekursia
+    funkcio &ccirc;ie finas, povas okazi <ctl>senfina rekursio</ctl>.
+
+    &Ccirc;iam, kiam eblas, oni programu rekursian funkcion kiel
+    funkcion <tld/>an; sed tio ne &ccirc;iam sufi&ccirc;as. En programado oni
+    bezonas pli ol procedurojn <tld/>ajn &mdash; oni bezonas procedurojn
+    rekursiajn. <aut>Sergio Pokrovskij</aut>
+  </rim>
+   <trd lng="de">Rekursion</trd>
+</drv>
+
+<drv mrk="rikur.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="rikur.0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib></fnt>
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Uzanta <tld/>on, karakterizata de <tld/>o:
+      <ekz>
+        Tapi&scirc;o de <nom>Sjerpinski</nom> <klr>[&#8230;]</klr> ekestas per <tld/>a divido de kvadrato al
+        3&#8239;×&#8239;3 subkvadratoj kaj forpreno de la mezaj subkvadratoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=132886"
+              >Tapi&scirc;o de Sjerpinski</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a difino de la faktorialo estas jena:
+        (1) La faktorialo de 1 estas 1,
+        (2) Se <frm>n</frm> estas natura nombro, la faktorialo de
+        <frm>(n+1)</frm> estas <frm>(n+1)&middot;n!</frm>
+        <fnt>
+          <aut>Reinhard F&ouml;ssmeier</aut>:
+          <vrk><url ref="www.ais-sanmarino.org/kursoj/s1/edp2/2005/l01.html">Enkonduko
+          en la a&ubreve;tomatan daten-prilaboradon (2)</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        la <tld/>a difino &mdash; anka&ubreve; nomata indukta difino &mdash; estas
+        procedo analoga al la matematika
+        <ref tip="sub" cel="indukt.0o.MAT">indukto<sncref/></ref>,
+        &ccirc;e kiu oni difinas matematikan esprimon per <tld/>o-bazo
+        kaj <tld/>o-pa&scirc;o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://www.know.cf/enciclopedia/tab/eo/Matematika_indukto/3b16fce43557e5dce6c63345c38a354fea658b37">Rikura
+          a&ubreve; indukta difino</url></lok></fnt>;
+      </ekz><ekz>
+        la &Ccirc;ebi&scirc;ovaj polinomoj de la unua
+        speco <frm>T<sub>n</sub></frm> estas ligitaj per <tld/>a
+        formulo de la 2a ordo:
+        <frm>T<sub>n</sub>(x) = 2&#8901;x&#8901;T<sub>n&#8722;1</sub>(x) &#8722;
+        T<sub>n&#8722;2</sub>(x)</frm>
+        <fnt><bib>KompLeks</bib>,
+          <lok><url ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA">rikura</url></lok></fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="rekursi.0a">rekursia</ref>
+    <trd lng="de">induktiv</trd>
+    <trdgrp lng="en">
+      <trd>recurrent</trd>, <trd>recursive</trd>
+    </trdgrp>
+    <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_r;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
+  </snc>
+  <snc mrk="rikur.0o.rekursia">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="fak">KOMP</uzo>
+    <fnt><bib>PIV2</bib></fnt>
+    <dif>
+      <ref tip="dif" cel="rekursi.0a">Rekursia</ref>:
+      <ekz>
+        <tld/>a akronimo estas akronimo, kiu mem aperas en la mallongigata nomo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=32241"
+              >Akronimo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="en">recursive</trd>
+    <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
+  </snc>
+    <trd lng="de">rekursiv</trd>
+</drv>
+</art>
 
 <!--
 $Log$
+Revision 1.2  2018/11/18 04:10:15  revo
+Sergio Pokrovskij: subsnc
+
 Revision 1.1  2018/11/10 11:10:15  revo
 Sergio Pokrovskij: nova artikolo
 
