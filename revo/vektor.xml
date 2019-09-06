@@ -14,7 +14,29 @@
     <dif>
       <ref tip="super" cel="elemen.0o.MAT">Elemento</ref> de
       <ref tip="malprt" cel="modul.0o.strukt">modulo</ref> a&ubreve;
-      <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>.
+      <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>:
+      <ekz>
+        <ref cel="norm.0o.MAT">normo</ref> estas funkcio kiu asignas pozitivan longon a&ubreve; amplekson al &ccirc;iu <tld/>oj en
+        <tld/>a spaco, escepte la nula <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=229498"
+              >Normo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        skalara produto a&ubreve; punkta produto de du <tld/>oj
+        <frm><g>a</g></frm>
+        kaj <frm><g>b</g></frm>, <klr>[&#8230;]</klr>
+        <frm><g>a</g>&#8239;&middot;&#8239;<g>b</g></frm> <klr>[&#8230;]</klr> estas 
+        <frm>|<g>a</g>|&#8239;|<g>b</g>|&#8239;<k>cos&#8239;&theta;</k></frm>,
+        kie &theta; estas la angulo inter la vektoroj <frm><g>a</g></frm> kaj <frm><g>b</g></frm>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=32145"
+              >Skalara produto</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <snc mrk="vektor.0o.FIZ">
@@ -27,7 +49,16 @@
         rapido-<tld/>o;
       </ekz>
       <ekz>
-        ondo-vektoro.
+        ondo-<tld/>o;
+      </ekz>
+      <ekz>
+        onda <tld/>o <klr>[&#8230;]</klr>, montranta direkton de ondo kaj priskribanta
+        oscilojn de ondo en spaco
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=234851"
+              >Onda vektoro</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="ant" cel="skalar.0o.FIZ">skalaro.</ref>
@@ -43,6 +74,39 @@
       <ref cel="op.0o.vico">opojn</ref>; tiuj
       lastaj, tamen, povas enteni diverstipajn anojn.
     </rim>
+  </snc>
+  <snc mrk="vektor.0o.BAK">
+    <uzo tip="fak">BAK</uzo>
+    <dif>
+      Organismo, transportante malsanon de unu malsanulo al alia sen mem malsani&gcirc;i:
+      <ekz>
+        japana encefalito <klr>[&#8230;]</klr> &dash; inter &ccirc;efaj <tld/>oj de tiu malsano estas la
+        kuloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=415614"
+              >Japana encefalito</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o estas la Maloneja viruso kiu ka&ubreve;zas virusan le&ubreve;kemion en la muso,
+        estas retroviruso
+        <fnt>
+          <aut>Anthony Lucas</aut>
+          <vrk><url ref="http://www.eventoj.hu/steb/biologio/ekzemplo-de-genetika-terapio-en-francio.pdf"
+              >Ekzemplo de genetika Terapio en Francujo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="trans.0igilo">transigilo</ref>
+    <trd lng="de">Vektor <klr>(Med., &Uuml;bertr&auml;ger)</klr></trd>
+  </snc>
+  <snc mrk="vektor.0o.RET">
+    <uzo tip="fak">RET</uzo><uzo tip="fak">KOMP</uzo>
+    <dif>
+      Kombino de specifaj sekurec-vundeblecoj uzataj por infekti komputilan sistemon; atako<tld/>o.
+    </dif>
+    <trd lng="de">Angriffsvektor <klr>(Computer)</klr></trd>
   </snc>
   <trd lng="be">&c_v;&c_e;&c_k;&c_t;&c_a;&c_r;</trd>
   <trd lng="ca">vector</trd>
@@ -73,16 +137,19 @@
   <snc>
     <dif>
       Rilata al <tld/>o, al <ref cel="spac.vektora0o"><tld/>a
-      spaco</ref>;
-      estanta <tld/>o:
+      spaco</ref>; estanta <tld/>o:
       <ekz>
-        <tld/>a grando, <ref cel="kamp.0o.MAT">kampo</ref>.
+        <tld/>a grando, <ref cel="kamp.0o.MAT">kampo</ref>;
+      </ekz>
+      <ekz>
+        akcelo okazas &ccirc;iam, kiam la <tld/>a rapido &scirc;an&gcirc;i&gcirc;as
+        <fnt>
+          <vrk><url ref="https://esperantosudtirolo.files.wordpress.com/2013/04/2_fiziklibro9.pdf"
+              >Movo kaj forto</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <adm>
-    Kontroli trd de. <aut>MB</aut>
-  </adm>
   <trd lng="be">&c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_n;&c_y;</trd>
   <trd lng="ca">vectorial</trd>
   <trdgrp lng="de">
@@ -112,7 +179,16 @@
     <dif>
       La <ref cel="vektor.0o.MAT"><tld/>o</ref>, estanta la
       <ref cel="nul0.0o.neuxtra">nulo</ref> de la koncerna
-      modulo.
+      modulo:
+      <ekz>
+        la aro de &ccirc;iuj nul<tld/>oj je evento en spaco de <nom>Minkowski</nom> estas la luma konuso
+        de la evento
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=285195"
+              >Spaco de Minkowski</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="ca">vector nul</trd>
@@ -145,14 +221,21 @@
       rilate al rimarkinda punkto <frm>O</frm>)</klr>
       La <tld/>o <frm>P-O</frm>, a&ubreve; la streko <frm>OP</frm>:
       <ekz>
+        la radius<tld/>o de iu punkto de la korpo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=96392"
+              >Varianco</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la du radius<tld/>oj de punkto sur 
         <ref cel="elips.0o.linio">elipso</ref>
         <klr>(rilate al ties fokusoj)</klr>;
       </ekz>
       <ekz>
         areoj trairataj de radius<tld/>o de planedo <klr>(rilate al la
-        centro
-        de gravitaj fortoj)</klr> dum egalaj da&ubreve;roj
+        centro de gravitaj fortoj)</klr> dum egalaj da&ubreve;roj
         estas egalaj <klr>(dua <ref cel="kepler.k0a">keplera</ref>
         le&gcirc;o)</klr>.
       </ekz>
@@ -161,22 +244,17 @@
   <rim>
     &Ccirc;i tiu termino, ne tre klare analizebla, devenas tra la naciaj
     
-    lingvoj el latina&jcirc;o signifanta <ctl>radio, kiu estas
-    portanto</ctl>,
-    kaj ne estas hazardo, se Bricard <fnt><bib>MatTerm</bib><lok>p.
-    33</lok></fnt>
-    konas la terminon sub formo <ctl>vektora radio</ctl>.
+    lingvoj el latina&jcirc;o signifanta <ctl>radio, kiu estas portanto</ctl>,
+    kaj ne estas hazardo, se <nom>Bricard</nom> <fnt><bib>MatTerm</bib><lok>p.
+    33</lok></fnt> konas la terminon sub formo <ctl>vektora radio</ctl>.
     Nemirinde do, ke en naciaj lingvoj la termino ofte montras al iu
-    streko
-    kun ofta glito al <ctl>longo de tiu streko</ctl> (vd 
+    streko kun ofta glito al <ctl>longo de tiu streko</ctl> (vd 
     <ref cel="distan.polusa0o">polusa distanco</ref>, kiu en pluraj
-    lingvoj
-    nomi&gcirc;as <ctl>radius<tld/>o</ctl>, sed &scirc;ajne ne en
+    lingvoj nomi&gcirc;as <ctl>radius<tld/>o</ctl>, sed &scirc;ajne ne en
     Esperanto). 
     La ideo, ke <ctl>radius<tld/>o</ctl> povas esti <tld/>o, supozeble 
     esti&gcirc;is pro renverso de la etimologia interpreto, t.e.
-    <ctl>radiusa
-    <tld/>o</ctl>.
+    <ctl>radiusa <tld/>o</ctl>.
   </rim>
   <trd lng="ca">radi vector</trd>
   <trdgrp lng="de">
@@ -215,6 +293,9 @@
 </art>
 <!--
 $Log$
+Revision 1.26  2018/06/20 03:10:17  revo
+Dusan Juretic: +trd es
+
 Revision 1.25  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -231,8 +312,5 @@ Revision 1.21  2003/04/11 16:33:29  revo
 Marc Bavant: radius~o: mod rim
 
 Revision 1.20  2003/04/07 16:36:58  revo
-Marc Bavant: ~a: kor trd pl; +drv nul~o
-Revision 1.19  2003/01/07 17:31:31  revo
-Marc Bavant: radius~o: kor ref cel al elipso
 -->
 </vortaro>
