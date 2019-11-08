@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
 <art mrk="$Id$">
 <kap>
@@ -9,9 +10,20 @@
 <drv mrk="term.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="term.0o.parto">
     <dif>
-      Konsista parto de iu matematika objekto.
+      Konsista parto de iu matematika objekto:
+      <ekz>
+        sen scii, kiu estas la enhavo, a&ubreve; la valoro, de la <tld/>o, ni ne povas doni
+        respondon al la demando
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="https://www.monato.be/2009/009682.php"
+              >La Pendantaj &Gcirc;ardenoj estis son&gcirc;o</url></vrk>
+          <lok>2009</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <subsnc mrk="term.0o.sumo">
       <fnt><bib>PIV1</bib></fnt>
@@ -158,10 +170,7 @@
             <ind>tag</ind><klr tip="ind"> (sorozat&eacute;)</klr></trd> 
              
                   
-          <trd
-             
-                  
-          lng="it"><ind>termine</ind>
+          <trd lng="it"><ind>termine</ind>
                   
           generale</trd>
           <trd lng="pl">wyraz og&oacute;lny<klr tip="ind">
@@ -205,8 +214,7 @@
         <ref cel="term.0o.vico"><tld lit="T"/>o
           <sncref ref="term.0o.vico"/></ref> de la serio,
         konsiderata kiel vico; alternative kaj ekvivalente:
-        <ref cel="term.0o.sumo"><tld/>o <sncref
-        ref="term.0o.sumo"/></ref>
+        <ref cel="term.0o.sumo"><tld/>o <sncref ref="term.0o.sumo"/></ref>
         en parta sumo de la serio.
       </dif>
       <ref tip="sin" cel="sum.0ero">sumero</ref>
@@ -232,19 +240,16 @@
         konsiderata kiel vico
         (<ref tip="sin" cel="koefic.0o.polinomo">koeficiento</ref>);
         alternative, sed ne ekvivalente:
-        <ref cel="term.0o.sumo"><tld/>o<sncref
-        ref="term.0o.sumo"/></ref> en
+        <ref cel="term.0o.sumo"><tld/>o<sncref ref="term.0o.sumo"/></ref> en
         la sumo de unu<tld/>aj polinomoj &gcirc;in konsistigantaj:
         <ekz>
-          la konstanta <tld/>o de polinomo <frm><g>X</g></frm> estas
-          
-          <frm>0</frm>;
+          la konstanta <tld/>o de polinomo <frm><g>X</g></frm> estas          
+          <frm><k>0</k></frm>;
         </ekz><ekz>
           la nekonstanta <tld/>o de polinomo
-          <frm>2.<g>X</g><sup>2</sup>+<g>X</g><sup>0</sup></frm> 
-          estas <frm>2</frm> 
-          <klr>(alternative :
-          <frm>2.<g>X</g><sup>2</sup></frm>)</klr>.
+          <frm>2&middot;<g>X</g><sup>2</sup>+<g>X</g><sup>0</sup></frm> 
+          estas <frm><k>2</k></frm> 
+          <klr>(alternative: <frm>2&middot;<g>X</g><sup>2</sup></frm>)</klr>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -307,11 +312,9 @@
         <trd>element<klr tip="ind"> (macierzy)</klr></trd>
       </trdgrp>
       <trdgrp lng="ru">
-        <trd>&c_k;&c_o;&c_e;&c_f;&c_f;&c_i;&c_c;&c_i;&c_je;&c_n;&c_t;<klr
-        tip="ind">
+        <trd>&c_k;&c_o;&c_e;&c_f;&c_f;&c_i;&c_c;&c_i;&c_je;&c_n;&c_t;<klr tip="ind">
         (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>,
-        <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;<klr
-        tip="ind">
+        <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;<klr tip="ind">
         (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>,
         <trd>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;<klr tip="ind">
         (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>
@@ -322,6 +325,27 @@
       <refgrp tip="dif">
         <ref cel="flank.0o.ekvacio">flanko</ref> (de ekvacio).
       </refgrp>
+      <trdgrp lng="de">
+        <trd>Seite</trd>,
+        <trd>Glied</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>member<klr tip="ind"> (of an equation)</klr></trd>,
+        <trd>term<klr tip="ind"> (of an equation)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>terme<klr tip="ind"> (d'une
+        &eacute;galit&eacute;)</klr></trd>,
+        <trd>membre<klr tip="ind"> (d'une
+        &eacute;galit&eacute;)</klr></trd>
+      </trdgrp>
+      <trd lng="hu">oldal<klr tip="ind"> (egyenlet&eacute;)</klr></trd>             
+      <trd lng="pl">strona<klr tip="ind">        
+      (r&oacute;wnania)</klr></trd>
+      <trdgrp lng="ru">
+        <trd>&c_ch;&c_a;&c_s;&c_t;&c_mol;<klr tip="ind">
+        (&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
+      </trdgrp>
       <adm>
         Mi ne scias, cxu mi bone faris aldonante &ccirc;i tiun sencon.
         &Gcirc;i &scirc;ajnas sufi&ccirc;e internacia, se konsideri mian
@@ -337,30 +361,6 @@
         termoj konsistigantaj la flankojn de la ekvacio.
         <aut>Sergio</aut>
       </adm>
-      <trdgrp lng="de">
-        <trd>Seite</trd>,
-        <trd>Glied</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>member<klr tip="ind"> (of an equation)</klr></trd>,
-        <trd>term<klr tip="ind"> (of an equation)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>terme<klr tip="ind"> (d'une
-        &eacute;galit&eacute;)</klr></trd>,
-        <trd>membre<klr tip="ind"> (d'une
-        &eacute;galit&eacute;)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">oldal<klr tip="ind"> (egyenlet&eacute;)</klr></trd> 
-       
-        
-      <trd lng="pl">strona<klr tip="ind">
-        
-      (r&oacute;wnania)</klr></trd>
-      <trdgrp lng="ru">
-        <trd>&c_ch;&c_a;&c_s;&c_t;&c_mol;<klr tip="ind">
-        (&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
-      </trdgrp>
     </subsnc>
     <rim>
       Pro manko de internacieco, kelkaj preferas la terminojn
@@ -399,6 +399,7 @@
     <trd>prvek matematick&eacute; &rcaron;ady</trd>,
     <trd>&ccaron;len</trd>
   </trdgrp>
+  <trd lng="de">Term</trd>
   <trd lng="es">t&eacute;rmino <klr>(matem&aacute;ticas)</klr></trd>
   <trdgrp lng="it">
     <trd>termine<klr> (mat.)</klr></trd>,
@@ -413,17 +414,16 @@
 <drv mrk="term.du0o">
   <kap>du<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="term.du0o.sumo">
     <dif>
-      Sumo a&ubreve; diferenco de du <tld/>oj<sncref
-      ref="term.0o.sumo"/>:
+      Sumo a&ubreve; diferenco de du <tld/>oj<sncref ref="term.0o.sumo"/>:
       <ekz>
         kompleksa nombro estas du<tld/>o de la formo
-        <frm>a+bi</frm>;
+        <frm><k>a</k>+<k>bi</k></frm>;
       </ekz><ekz>
-        <ind>kvadrato de du<tld/>o</ind> <frm>(a-b)&amp;quadrat</frm>
+        <ind>kvadrato de du<tld/>o</ind> <frm>(<k>a</k>-<k>b</k>)&quadrat;</frm>
         egalas al
-        tri<tld/>o <frm>a&amp;quadrat-2ab+b&amp;quadrat</frm>.
+        tri<tld/>o <frm><k>a</k>&quadrat;-<k>2ab</k>+<k>b</k>&quadrat;</frm>.
         <trd lng="ru">&c_k;&c_v;&c_a;&c_d;&c_r;&c_a;&c_t;
         &c_d;&c_v;&c_u;&c_ch;&c_l;&c_je;&c_n;&c_a;</trd>
       </ekz>
@@ -447,13 +447,13 @@
 <drv mrk="term.tri0o">
   <kap>tri<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="term.tri0o.esprimo">
     <dif>
       Algebra esprimo konsistanta el tri
       <tld/>oj<sncref ref="term.0o.sumo"/> interligitaj per plusoj
       a&ubreve; minusoj:
       <ekz>
-        <ind>kvadrata tri<tld/>o</ind> <frm>ax&amp;quadrat+bx+c</frm>.
+        <ind>kvadrata tri<tld/>o</ind> <frm><k>ax</k>&quadrat;+<k>bx</k>+<k>c</k></frm>.
         <trd lng="ru">&c_k;&c_v;&c_a;&c_d;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;
         &c_t;&c_r;&c_jo;&c_h;&c_ch;&c_l;&c_je;&c_n;</trd>
       </ekz>
@@ -479,7 +479,7 @@
   <kap>n-<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
-  <snc>
+  <snc mrk="term.n0o.polinomo">
     <dif>
       <ref tip="super" cel="polino.0o">Polinomo</ref> 
       kun <frm><k>n</k></frm> <tld/>oj;
@@ -501,7 +501,7 @@
         </trdgrp>
       </ekz><ekz>
         <ref cel="term.du0o">du<tld/>o</ref>;
-        <ind></ind>
+        <ind/>
       </ekz><ekz>
         <ref cel="term.tri0o">tri<tld/>o</ref>,
       </ekz><ekz>
@@ -512,8 +512,7 @@
         <trd lng="hu">n&eacute;gytag</trd>
         <trd lng="it">quadrinomio</trd>                
         <trd lng="pl">czworomian</trd>
-        <trd
-        lng="ru">&c_ch;&c_je;&c_t;&c_y;&c_r;&c_jo;&c_h;&c_ch;&c_l;&c_je;&c_n;</trd>
+        <trd lng="ru">&c_ch;&c_je;&c_t;&c_y;&c_r;&c_jo;&c_h;&c_ch;&c_l;&c_je;&c_n;</trd>
       </ekz>
     </dif>
     <rim num="1">
@@ -550,7 +549,7 @@
   <kap>plur<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib><lok>-nomialo, polinomo</lok></fnt>
-  <snc>
+  <snc mrk="term.plur0o.esprimo">
     <dif>
       Algebra esprimo konsistanta el kelkaj
       <tld/>oj<sncref ref="term.0o.sumo"/> interligitaj per plusoj
@@ -595,6 +594,9 @@
 </art>
 <!--
 $Log$
+Revision 1.34  2018/06/13 03:10:18  revo
+Dusan Juretic: +trd es
+
 Revision 1.33  2015/08/18 19:10:16  revo
 Jeromo Vasxe: trogonometria -> trigonometria
 
@@ -611,8 +613,5 @@ Revision 1.29  2009/01/28 17:30:16  revo
 Sergio Pokrovskij: kor trd=ru
 
 Revision 1.28  2009/01/27 17:30:37  revo
-Sergio Pokrovskij: apartigis du~on, tri~on; +rim
-
-Revision 1.27  2006/02/15 17:33:32  revo
 -->
 </vortaro>
