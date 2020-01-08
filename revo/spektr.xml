@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: spektr.xml,v 1.24 2020/01/08 19:10:23 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>spektr</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,49 +10,77 @@
 <drv mrk="spektr.0o">
   <kap><tld/>o</kap>
   <snc mrk="spektr.0o.FIZ">
-    <uzo tip="fak">FIZ</uzo>
     <dif>
-      Vico da diversaj koloraj strioj, rezultanta el malkompono
-      de lumo per prismosimila objekto:
-      <ekz>
-        en la <tld/>o de iu stelo ni vidas multajn nigrajn liniojn   
-        <fnt>
-          <aut>Toni Breider</aut>,
-          <vrk>La Universo - Eksplodanta?</vrk>,
-          <lok>Homo kaj Kosmo, [vidita en 2009]</lok>
-        </fnt>.
-      </ekz>
+      Distribua funkcio de fizika grando, ekz. de energio, frekvenco a&ubreve; maso; pli konkrete i.a.:
     </dif>
-    <trd lng="be">&c_s;&c_p;&c_e;&c_k;&c_t;&c_a;&c_r;</trd>
-    <trd lng="de">Spektrum</trd>
-    <trdgrp lng="hu">
-      <trd>sz&iacute;nk&eacute;p</trd>,
-      <trd>spektrum</trd>
-    </trdgrp>
-    <trd lng="en">spectrum</trd>
-    <trdgrp lng="pl">
-    <trd>spektrum</trd>,
-    <trd>widmo optyczne</trd>,
-    <trd>widmo spektroskopowe</trd>
-    </trdgrp>
-    <trd lng="ru">&c_s;&c_p;&c_je;&c_k;&c_t;&c_r;</trd>
+    <subsnc mrk="spektr.0o.lumo">
+      <dif>
+        La intenseco de frekvencoj de lumo, aperanta kiel vico 
+        da diversaj koloraj strioj, &ccirc;e malkompono
+        de lumo, ekz. per refrakto tra prismo:
+        <ekz>
+          en la <tld/>o de iu stelo ni vidas multajn nigrajn liniojn   
+          <fnt>
+            <aut>Toni Breider</aut>,
+            <vrk>La Universo - Eksplodanta?</vrk>,
+            <lok>Homo kaj Kosmo, [vidita en 2009]</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          forta signo de akvo estas videbla en la <tld/>o, grava indiko, ke la objekto
+          estas malvarma
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Oliver Kim</aut>
+            <vrk><url ref="https://www.monato.be/2006/008796.php"
+                >Unua fotografa&jcirc;o de ekstersunsistema planedo</url></vrk>
+            <lok>2006</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la flankeniro al la ru&gcirc;o en la <tld/>oj de kosmaj korpoj <klr>[&#8230;]</klr> indikas
+          la rapidon, per kiu la korpo movi&gcirc;as for de ni
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Henry Broadbent</aut>
+            <vrk><url ref="https://www.monato.be/2008/009493.php"
+                >Flankeniro al la ru&gcirc;o</url></vrk>
+            <lok>2008</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="be">&c_s;&c_p;&c_e;&c_k;&c_t;&c_a;&c_r;</trd>
+      <trd lng="de">Spektrum</trd>
+      <trdgrp lng="hu">
+        <trd>sz&iacute;nk&eacute;p</trd>,
+        <trd>spektrum</trd>
+      </trdgrp>
+      <trd lng="en">spectrum</trd>
+      <trdgrp lng="pl">
+      <trd>spektrum</trd>,
+      <trd>widmo optyczne</trd>,
+      <trd>widmo spektroskopowe</trd>
+      </trdgrp>
+      <trd lng="ru">&c_s;&c_p;&c_je;&c_k;&c_t;&c_r;</trd>
+    </subsnc>  
+    <subsnc mrk="spektr.0o.SON">
+      <dif>
+        Son<tld/>o, <ref tip="vid" cel="frekve.0o.TEK">frekvenc</ref>aro
+        de sono:
+        <ekz>
+          kiam la sona <tld/>o estas plata, &gcirc;i estas nomata blanka bruo
+          <fnt><bib>Viki</bib>, <lok>artikolo &leftquot;frekvenca spektro&rightquot;, 
+          2009-01-01</lok></fnt>.
+        </ekz>
+      </dif>
+      <trd lng="en">spectrum</trd>
+      <trdgrp lng="pl">
+        <trd>widmo akustyczne</trd>,
+        <trd>widmo d&zacute;wi&eogonek;ku</trd>
+      </trdgrp>
+    </subsnc>
   </snc>
-  <snc mrk="spektr.0o.SON">
-    <dif>
-      Son<tld/>o, <ref tip="vid" cel="frekve.0o.TEK">frekvenc</ref>aro
-      de sono:
-      <ekz>
-        kiam la sona <tld/>o estas plata, &gcirc;i estas nomata blanka bruo
-        <fnt><bib>Viki</bib>, <lok>artikolo &leftquot;frekvenca spektro&rightquot;, 
-        2009-01-01</lok></fnt>.
-      </ekz>
-    </dif>
-    <trd lng="en">spectrum</trd>
-    <trdgrp lng="pl">
-      <trd>widmo akustyczne</trd>,
-      <trd>widmo d&zacute;wi&eogonek;ku</trd>
-    </trdgrp>
-  </snc>
+
   <snc mrk="spektr.0o.ajgeno">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatVort</bib></fnt>
@@ -75,7 +103,35 @@
   <snc mrk="spektr.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Serio de a&jcirc;oj ordigeblaj inter du ekstremoj;
+      Serio de a&jcirc;oj ordigeblaj inter du ekstremoj:
+      <ekz>
+        <tld/>o de opinioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2004/008317.html"
+              >Sendependa</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la centro de la politika <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2015/011580.php"
+              >Jes ni povas ... kaj ili povis.</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fiaskinto sur la tuta <tld/>o
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Sen&ccirc;esa Rakonto</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         kun milo da membroj reprezentantaj buntan idean <tld/>on SAT 
         tamen vigligus kaj pliri&ccirc;igus la pejza&gcirc;on de Esperanto
@@ -97,22 +153,29 @@
       <trd>przekr&oacute;j</trd>
     </trdgrp>
   </snc>
-  <snc mrk="spektr.0o.fantomo">
+  <snc mrk="spektr.0o.aperajxo">
     <uzo tip="stl">ARK</uzo>
     <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="fantom.0o">fantomo</ref>
-    <ekz>
-      la junulo trian fojon kriis al li, kaj &ccirc;ar anka&ubreve; tio ne efikis, 
-      li alkuris la <tld/>on kaj faligis &gcirc;in la&ubreve; la &scirc;tuparo
-      <fnt>
-        <aut>fratoj Grimm, trad. D. J. Harlow</aut>,
-        <vrk><url
-        ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/blua/timo.html">
-        Rakonto pri junulo, kiu ekvoja&gcirc;is por lerni, kio estas
-        timo</url></vrk>,
-        <lok>[vidita en 2009]</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      Apera&jcirc;o, <ref tip="dif" cel="fantom.0o">fantomo</ref>:
+      <ekz>
+        la junulo trian fojon kriis al li, kaj &ccirc;ar anka&ubreve; tio ne efikis, 
+        li alkuris la <tld/>on kaj faligis &gcirc;in la&ubreve; la &scirc;tuparo
+        <fnt>
+          <aut>fratoj Grimm, trad. D. J. Harlow</aut>,
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/blua/timo.html">
+          Rakonto pri junulo, kiu ekvoja&gcirc;is por lerni, kio estas
+          timo</url></vrk>,
+          <lok>[vidita en 2009]</lok>
+        </fnt>.
+      </ekz>
+    </dif>  
+    <rim>
+       Etimologie, la latina &leftquot;<nac>spectrum</nac>&rightquot; signifas &leftquot;apera&jcirc;o&rightquot;, &leftquot;bildo&rightquot;, &leftquot;fantomo&rightquot;.
+       Tamen tiu ar&hcirc;aisma signifo apena&ubreve; eniris Esperanton, kaj jam  
+       ne plu aperas en la PIV-oj.
+    </rim>
     <trdgrp lng="de">
       <trd>Gespenst</trd>,
       <trd>Geist</trd>,
@@ -129,28 +192,6 @@
     <trd lng="hu">k&iacute;s&eacute;rtet</trd>
     <trd lng="pl">widmo</trd>
   </snc>
-  <snc mrk="spektr.0o.malgrasulo">
-    <uzo tip="stl">ARK</uzo>
-    <uzo tip="stl">EVI</uzo>
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Homo granda, maldika kaj malgrasa.
-    </dif>
-    <trdgrp lng="de">
-      <trd>Bohnenstange</trd>,
-      <trd>langer <ind>Lulatsch</ind></trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>h&oacute;rihorgas</trd>,
-      <trd>langal&eacute;ta</trd>
-    </trdgrp>
-  </snc>
-  <rim>
-     La arkaikaj kaj neinternaciaj sencoj
-     <tld/>o<sncref ref="spektr.0o.fantomo"/> kaj
-     <tld/>o<sncref ref="spektr.0o.malgrasulo"/> ne plu aperas en
-     la PIV-oj kaj estas nepre evitindaj.
-  </rim>
   <trdgrp lng="cs">
     <trd>mnohost</trd>,
     <trd>spektrum</trd>,
@@ -167,7 +208,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: spektr.xml,v $
+versio 1.24 2020/01/08 19:10:23
+Wolfram Diestel: gxeneraligis dif, rearangxo lau subsnc, ekz-oj
+
+Revision 1.23  2016/02/28 18:10:27  revo
+Wolfram Diestel: riparo: rim forighis per skripto de Laer pro interlokita traduko
+
 Revision 1.22  2015/10/24 15:10:15  revo
 Cindy Moon McKee: +trd en
 
@@ -184,8 +231,5 @@ Revision 1.18  2011/12/30 23:10:08  revo
 Eduardo Navas: +trad es
 
 Revision 1.17  2010/01/02 17:30:54  revo
-Jeromo Vasxe: + snc son + snc fig + kk ekz
-
-Revision 1.16 2008/02/01 17:30:25 revo
 -->
 </vortaro>
