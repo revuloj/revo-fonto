@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kvanka.xml,v 1.26 2020/01/14 17:10:17 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>kvankam</rad> <fnt><bib>PV</bib></fnt>
@@ -11,10 +11,12 @@
    <kap>
      <ofc>*</ofc><tld/>
    </kap>
-   <gra>dependiga <vspec>konjunkcio</vspec></gra>
+   <gra><vspec>konjunkcio</vspec></gra>
    <snc mrk="kvanka.0.KOMUNE">
      <dif>
-       Spite al jena malhelpo, malgra&ubreve; ke:
+       Ne &gcirc;enate de la malhelpo ke...,
+       <ref tip="sin" cel="malgra.0ke">malgra&ubreve; ke</ref>,
+       <ref tip="vid" cel="spit.0eke">spite al tio ke</ref>:
       <ekz>
         ricevinte de vi leteron internacian kaj kompreninte &gcirc;in, <tld/>
         li la lingvon ne lernis <klr>[&#8230;]</klr>
@@ -52,45 +54,13 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-       <ref cel="spit.0eal">spite al</ref>,
-       <ref cel="malgra.0ke">malgra&ubreve; ke</ref>
-    </refgrp>
-    <rim num="1">
+  </snc>
+    <rim>
        La verbo <em>esti</em> kelkfoje estas subkomprenita:
        <ekz>
          ni voja&gcirc;is kune, <tld/> malamikoj.
        </ekz>
     </rim>
-    <rim num="2">
-       La korelativo de <em>kvankam</em> estas <em>tamen</em>:
-      <ekz>
-        <tld/> mi havus grandan deziron vin ofte ankora&ubreve; tikli 
-        per la akra tran&ccirc;ilo <klr>[&#8230;]</klr>, tamen malgra&ubreve; &ccirc;io mi 
-        volas malligi vian &scirc;nuron kaj <klr>[liberigi vin]</klr>
-        <fnt>
-          <bib>Fab2</bib>
-          <lok>Ne&gcirc;a re&gcirc;ino</lok>
-        </fnt>.
-      </ekz>
-      Kelkaj uzas en tiu senco <em>sed</em>, kiun oni devas severe
-      eviti:
-      <ekz>
-        <tld/> li estas preska&ubreve; almozulo, sed li alportas al la urbo
-        re&gcirc;an donacon
-        <fnt>
-          <bib>FK</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        nun la po&scirc;ta&jcirc;oj estas <tld/> jam specigitaj la&ubreve; la germanaj
-        kursoj, sed ili &ccirc;iam ankora&ubreve; estas amerika propra&jcirc;o
-        <fnt>
-          <bib>FK</bib>
-        </fnt>.
-      </ekz>
-    </rim>
-  </snc>
   <trdgrp lng="be">
      <trd>&c_h;&c_o;&c_c;&c_mol;</trd>,
      <trd>&c_h;&c_a;&c_c;&c_ja;</trd>
@@ -143,9 +113,55 @@
   <trd lng="sv">fast&auml;n</trd>
   <trd lng="vo">do</trd>
 </drv>
+
+<drv mrk="kvanka.0_tamen">
+  <kap>
+    <tld/>... tamen...
+  </kap>
+  <snc mrk="kvanka.0_tamen.KOMUNE">
+    <dif>
+      <tld lit="K"/> <klr>(emfaze)</klr>:
+      <ekz>
+        <tld/> mi havus grandan deziron vin ofte ankora&ubreve; tikli 
+        per la akra tran&ccirc;ilo <klr>[&#8230;]</klr>, tamen malgra&ubreve; &ccirc;io mi 
+        volas malligi vian &scirc;nuron kaj <klr>[liberigi vin]</klr>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+    <rim>
+      <fnt><bib>PV</bib></fnt>
+      Kelkaj uzas en tiu senco <em>kvankam... sed...</em>, kiun oni devas severe
+      eviti:
+      <ekz>
+        <tld/> li estas preska&ubreve; almozulo, sed li alportas al la urbo
+        re&gcirc;an donacon
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nun la po&scirc;ta&jcirc;oj estas <tld/> jam specigitaj la&ubreve; la germanaj
+        kursoj, sed ili &ccirc;iam ankora&ubreve; estas amerika propra&jcirc;o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
+    </rim>
+  <trd lng="fr">bien que... cependant...</trd>
+</drv>
 </art>
 <!--
-$Log$
+$Log: kvanka.xml,v $
+versio 1.26 2020/01/14 17:10:17
+Jeromo Vasxe: ref-oj, memstar ~... tamen por legebleco
+
+Revision 1.25  2019/09/04 05:10:14  revo
+Aleks Andre: en
+
 Revision 1.24  2019/06/30 07:42:48  revo
 adaptis URL de Monato
 
@@ -162,8 +178,5 @@ Revision 1.20  2014/06/30 08:10:15  revo
 Damien Brucker: -eraro cxe ref
 
 Revision 1.19  2013/10/05 01:10:21  revo
-Joop Eggen: +trd bg
-
-Revision 1.18  2010/08/03 16:30:57  revo
 -->
 </vortaro>
