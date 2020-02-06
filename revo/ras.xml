@@ -2,33 +2,46 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: ras.xml,v 1.28 2020/02/06 22:10:27 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>ras</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>ras</rad>/o
 </kap>
 <drv mrk="ras.0o">
   <kap><tld/>o</kap>
-  <snc mrk="ras.0o.BIO">
-    <uzo tip="fak">BOT</uzo>
-    <uzo tip="fak">GEN</uzo>
-    <uzo tip="fak">ZOO</uzo>
+  <snc mrk="ras.0o.subspecio">
+    <uzo tip="fak">AGR</uzo>
+    <uzo tip="fak">HOR</uzo>
     <dif>
-      Klaso de vivuloj, parto de specio, kun distingaj konstantaj
-      karakterizoj:
+      <ref tip="dif" cel="speci.sub0o">Subspecio</ref>,
+      esti&gcirc;inta ekz. pro bredado, kulturado a&ubreve; geografia izoliteco:
       <ekz>
-        la blanka <klr>(blankha&ubreve;ta)</klr> <tld/>o;
+        la balanc&ccirc;evalo parolis pri kurdresado kaj pri <tld/>a sango
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;parmonujo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        bela <tld/>o de kokoj, de rozoj;
+        la &ccirc;evaloj el tiu <tld/>o <klr>(<nom>Przewalskii</nom>)</klr> sova&gcirc;e vivis en la vastegaj
+        stepoj de Centra Azio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Yves Santerre</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006864.html">Dombestoj: &Ccirc;evalrasoj</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        <ctl>La infana <tld/>o</ctl>
-        <klr>(poemo de William Auld)</klr>
-        <fnt><aut>W. Auld</aut>, <vrk>La infana raso</vrk>,
-        <lok>1956</lok></fnt>.
+        kruci&gcirc;ado de <tld/>oj
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Sorte</trd>,
+      <trd>Unterart</trd>
+    </trdgrp>
     <trd lng="hu">fajta</trd>
     <trdgrp lng="ru">
       <trd>&c_r;&c_a;&c_s;&c_a;</trd>,
@@ -36,15 +49,68 @@
     </trdgrp>
   </snc>
   <snc mrk="ras.0o.gento">
+    <uzo tip="fak">GEN</uzo>
     <uzo tip="stl">ARK</uzo>
-    <ref tip="dif" cel="gent.0o.familio">gento</ref>
-    <ekz>
-      la <tld/>o de Abraham.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="gent.0o.familio">Gento</ref>,
+      <ref tip="dif" cel="etn.0o">etno</ref>:
+      <ekz>
+        idoj el la <tld/>o de <nom>Abraham</nom>
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 13:26</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estas <tld/>o elektita
+        <fnt>
+          <bib>NT</bib>
+          <lok>I. Petro 2:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o Izraela
+        <fnt>
+          <bib>NT</bib>
+          <lok>Filipianoj 3:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la alfluo de fremduloj detruis la unuecon de la <tld/>o
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu popolo faras konstrua&jcirc;ojn, konformajn al &gcirc;ia <tld/>o kaj gusto
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        negro de l' plej nigra <tld/>'
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <lok>La Propaganda Ta&ccirc;mento</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Malajzio estas lando kie lo&gcirc;as diversaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9402-malajzio.txt">Malajzio</url></vrk>
+          <lok>94/02</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Ethnie</trd>
     <trd lng="ru">&c_r;&c_o;&c_d;</trd>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_s;&c_a;</trd>
-  <trd lng="cs">pododrůda</trd>
+  <trd lng="cs">pododr&uring;da</trd>
   <trd lng="de">Rasse</trd>
   <trd lng="en">breed</trd>
   <trd lng="es">raza</trd>
@@ -64,10 +130,18 @@
   <kap><tld/>ismo</kap>
   <snc mrk="ras.0ismo.POL">
     <dif>
-      Malestimo a&ubreve; e&ccirc; atakemo kontra&ubreve; homoj ali<tld/>aj, rigardataj
+      Malestimo a&ubreve; e&ccirc; atakemo kontra&ubreve; homoj diferencaj, rigardataj
       kiel malsuperaj:
       <ekz>
-        mi scias bone <klr>...</klr> pri la <tld/>ismo &ccirc;e e&ubreve;ropanoj
+        lukto kontra&ubreve; <tld/>ismo komenci&gcirc;as per edukado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006810.html">Diskutige kaj diskutinde</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi scias bone <klr>[&#8230;]</klr> pri la <tld/>ismo &ccirc;e e&ubreve;ropanoj
         <fnt>
         <aut>Yamasaki Seik&ocirc;</aut>,
         <vrk>Landnomoj: homaj frenezigiloj</vrk>,
@@ -76,6 +150,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="fasxis.0o">fa&scirc;ismo</ref>
   </snc>
   <trd lng="cs">rasismus</trd>
   <trd lng="de">Rassismus</trd>
@@ -99,7 +174,27 @@
   <kap><tld/>isto</kap>
   <snc mrk="ras.0isto.POL">
     <dif>
-      Homo malfavora, mal&scirc;ata a&ubreve; atakema al ali<tld/>anoj.
+      Homo malfavora, mal&scirc;ata a&ubreve; atakema al homoj diferencaj:
+      <ekz>
+        histerii pri E&ubreve;ropo en la manoj de fa&scirc;istoj, <tld/>istoj kaj aliaj
+        ekstremdekstremuloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2014/011340.php">La E&ubreve;ropo-eksperimento: &ccirc;u fiaskonta?</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili nutris la anta&ubreve;ju&gcirc;ojn de <tld/>istoj kaj dekstremuloj, kiuj timas
+        malfortigon de tradiciaj kulturoj kaj moroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2015/011443.php">Ni estas Charlie</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="cs">rasista</trd>
@@ -123,29 +218,51 @@
       Estanta ano de <tld/>o kun bonaj, utilaj ecoj:
       <ekz>
         kurieroj sur bone kurantaj bon<tld/>aj &ccirc;evaloj
-        <fnt><bib>MT</bib>, <lok>&Est; 8:10</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Est; 8:10</lok></fnt>;
+      </ekz>
+      <ekz>
+        hundo bon<tld/>a estas bona por &ccirc;aso
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homido, havante bon<tld/>an sangon kaj genealogian liston kiel la Arabaj &ccirc;evaloj
+        <fnt>
+          <bib>Fab3</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trdgrp lng="cs">
-    <trd>chovný</trd>,
-    <trd>plemenný</trd>,
-    <trd>čistokrevný</trd>
+    <trd>chovn&yacute;</trd>,
+    <trd>plemenn&yacute;</trd>,
+    <trd>&ccaron;istokrevn&yacute;</trd>
   </trdgrp>
   <trd lng="es">de buena <ind>raza</ind></trd>
   <trd lng="fr">de bonne <ind>race</ind></trd>
   <trd lng="hu">faj- <klr tip="amb">(j&oacute; fajt&aacute;j&uacute;)</klr></trd>
   <trd lng="nl">van een goed <ind>ras</ind></trd>
   <trd lng="ru">&c_p;&c_o;&c_r;&c_o;&c_d;&c_i;&c_s;&c_t;&c_y;&c_j;</trd>
-  <trd lng="sk">čistokrvný</trd>
+  <trd lng="sk">&ccaron;istokrvn&yacute;</trd>
 </drv>
 
 <drv mrk="ras.miks0ulo">
   <kap>miks<tld/>ulo</kap>
   <snc mrk="ras.miks0ulo.BIO">
+    <uzo tip="stl">ARK</uzo>
     <dif>
-      Ulo de gepatroj el diversaj <tld/>oj, sekve kun mikso de <tld/>aj
-      karakterizoj:
+      Ido de diversetnaj gepatroj:
+      <ekz>
+        indianoj kaj blankaj fremduloj, plejparte miks<tld/>uloj, lo&gcirc;as nuntempe pace
+        sur la argentina kaj &ccirc;ilia deklivoj de la estingi&gcirc;inta vulkano
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Schad</aut>
+          <vrk><url ref="https://www.monato.be/2003/007824.html">Tondrulo montego de la Andoj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         kio pri miks<tld/>uloj &ndash; duone blankaj duone nigraj
         <fnt>
@@ -156,7 +273,7 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">míšenec</trd>
+  <trd lng="cs">m&iacute;&scaron;enec</trd>
   <trdgrp lng="de">
     <trd>Mischling</trd>
   </trdgrp>
@@ -174,7 +291,7 @@
     <trd>&c_m;&c_je;&c_t;&c_i;&c_s;</trd>,
     <trd>&c_p;&c_o;&c_m;&c_je;&c_s;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">miešanec</trd>
+  <trd lng="sk">mie&scaron;anec</trd>
   <trdgrp lng="tr">
     <trd>k&inodot;rma</trd>,
     <trd>melez</trd>,
@@ -185,15 +302,24 @@
 <drv mrk="ras.pur0a">
   <kap>pur<tld/>a</kap>
   <snc mrk="ras.pur0a.KOMUNE">
+    <uzo tip="fak">AGR</uzo>
     <dif>
-      De sam<tld/>aj gepatroj kaj prauloj, sekve kun la&ubreve;tipaj 
-      karakterizoj de sia <tld/>o:
+      Besto, ido de sam<tld/>aj gepatroj:
       <ekz>
-        pur<tld/>a hundo.
+        pur<tld/>a hundo;
+      </ekz>
+      <ekz>
+        en 2004 la lasta &leftquot;pur<tld/>a&rightquot; franca ursino estis mortpafita eksterle&gcirc;e
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="https://www.monato.be/2006/009020.php">Bavario funebras pro Beppo Bruno</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">čistokrevný</trd>
+  <trd lng="cs">&ccaron;istokrevn&yacute;</trd>
   <trd lng="de">reinrassig</trd>
   <trd lng="es">de pura raza</trd>
   <trd lng="fr">de <ind>race</ind> pure</trd>
@@ -213,23 +339,32 @@
     <trd>&c_ch;&c_i;&c_s;&c_t;&c_o;&c_p;&c_o;&c_r;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>plnokrvný</trd>,
-    <trd>čistokrvný</trd>
+    <trd>plnokrvn&yacute;</trd>,
+    <trd>&ccaron;istokrvn&yacute;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="ras.sam0ano">
   <kap>sam<tld/>ano</kap>
-  <snc mrk="ras.sam0ano.KOMUNE">
+  <snc mrk="ras.sam0ano.sametnano">
+    <uzo tip="stl">ARK</uzo>
     <dif>
-      Tiu, kiu estas de sama <tld/>o, kiel alia:
+      Sametnano:
       <ekz>
-        &Ccirc;i tiu estas la unua fojo, kiam mi parolis kun alia 
+        li pliagrade sukcesas esti akceptata, ol aliaj liaj sam<tld/>anoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan MacGill</aut>
+          <vrk><url ref="https://www.monato.be/2012/010164.php">Panorama soro super kontinento</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu estas la unua fojo, kiam mi parolis kun alia 
         sam<tld/>ano pere de skribaj vortoj
         <fnt>
           <aut>E. R. Burroughs, trad. D. J. Harlow</aut>,
-          <vrk><url
-          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0027/">
+          <vrk><url ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0027/">
           Tarzan de la Simioj</url></vrk>,
           <lok>[2007?]</lok>
         </fnt>.
@@ -240,7 +375,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: ras.xml,v $
+versio 1.28 2020/02/06 22:10:27
+Wolfram Diestel: pli klara distingo: 1) subspecio, 2) etno; ekz-oj
+
+Revision 1.27  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.26  2015/06/29 16:33:22  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -257,14 +398,5 @@ Revision 1.22  2009/08/27 16:33:52  revo
 Emmanuel Debanne: +trd tr
 
 Revision 1.21  2006/09/07 16:57:18  revo
-Wieland Pusch: +trd de
-
-Revision 1.20  2006/02/19 17:31:19  revo
-Tulio Flores: +trd pt
-
-Revision 1.19  2005/08/18 16:31:50  revo
-Wieland Pusch: +trd de
-
-Revision 1.18  2005/04/29 16:32:36  revo
 -->
 </vortaro>
