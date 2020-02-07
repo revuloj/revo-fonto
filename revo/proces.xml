@@ -2,73 +2,84 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
-    <kap>
-      <ofc>*</ofc>
-      <rad>proces</rad>/o
-    </kap>
+<art mrk="$Id: proces.xml,v 1.24 2020/02/07 22:10:17 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>proces</rad>/o
+</kap>
 
-    <drv mrk="proces.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <snc mrk="proces.0o.JUR">
-        <uzo tip="fak">JUR</uzo>
-        <dif>
-          Ju&gcirc;afero jure submetita al tribunalo:
-          <ekz>
-            esti prava en sia <tld/>o
-	    <fnt><bib>MT</bib>, <lok>&Sen; 18:17</lok></fnt>;
-          </ekz><ekz>
-            oni demandis pentriston, kiel oni povas <klr>(...)</klr>
-            prezenti du <tld/>antojn, el kiuj unu gajnis la <tld/>on
-            kaj la dua &gcirc;in perdis
-	    <fnt>
-	      <bib>FK</bib>. <lok>III. Anekdotoj</lok>. 
-	    </fnt>;
-          </ekz><ekz>
-            komenci&gcirc;is <tld/>o, mono fluas sen &ccirc;eso
-            <fnt><bib>PrV</bib></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="en">lawsuit</trd>
-        <trd lng="fr">proc&egrave;s</trd>
-        <trdgrp lng="hu">
-          <trd>per</trd>,
-          <trd>p&ouml;r</trd>
-        </trdgrp>
-        <trdgrp lng="nl">
-          <trd>proces</trd>,
-          <trd>rechtsgeding</trd>
-        </trdgrp>
-        <trdgrp lng="pl">
-          <trd>proces</trd>,
-          <trd>rozprawa s&aogonek;dowa</trd>
-        </trdgrp>
-        <trd lng="pt">processo</trd>
-        <trd lng="ro">proces</trd>
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;<klr> (&c_s;&c_u;&c_d;&c_je;&c_b;&c_n;&c_y;&c_j;)</klr></trd>,
-          <trd>&c_t;&c_ja;&c_zh;&c_b;&c_a;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="proces.0o.SCI">
-        <uzo tip="stl">ARK</uzo>
-        <uzo tip="fak">SCI</uzo>
-        <ref tip="dif" cel="procez.0o.SCI">Procezo</ref>
-        <ekz>
-          tiu <tld/>o de unuformi&gcirc;ado iros en &gcirc;i
-          <klr>(en la lingvo internacia)</klr>
-          multe pli rapide
-          <fnt>
-            <aut>&Z;</aut>:
-            <vrk>Aldono al la Dua Libro de l' Lingvo Internacia</vrk>.
-          </fnt>;
-        </ekz><ekz>
-          senskue kaj regule da&ubreve;ras kaj disvolvi&gcirc;as tiu <tld/>o de la
-          homa movi&gcirc;ado, pensado kaj sentado, kiu estas nomata vivo
-          <fnt><bib>Marta</bib></fnt>.
-        </ekz>
-        <trd lng="en">process</trd>
-      </snc>
+<drv mrk="proces.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="proces.0o.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      <ref tip="super" cel="afer.jugx0o">Ju&gcirc;afero</ref> jure
+      submetita al <ref cel="tribun1.0o">tribunalo</ref>:
+      <ekz>
+        esti prava en sia <tld/>o
+	<fnt><bib>MT</bib>, <lok>&Sen; 18:17</lok></fnt>;
+      </ekz>
+      <ekz>
+        ju&gcirc;a afero inter sango kaj sango, inter <tld/>o kaj <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 17:8</lok>
+        </fnt>;
+      </ekz><ekz>
+        oni demandis pentriston, kiel oni povas <klr>[&#8230;]</klr>
+        prezenti du <tld/>antojn, el kiuj unu gajnis la <tld/>on
+        kaj la dua &gcirc;in perdis
+        <fnt>
+          <bib>FK</bib>,
+          <lok>III. Anekdotoj</lok>
+        </fnt>;
+      </ekz><ekz>
+        komenci&gcirc;is <tld/>o, mono fluas sen &ccirc;eso
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="en">lawsuit</trd>
+    <trd lng="fr">proc&egrave;s</trd>
+    <trdgrp lng="hu">
+      <trd>per</trd>,
+      <trd>p&ouml;r</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>proces</trd>,
+      <trd>rechtsgeding</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>proces</trd>,
+      <trd>rozprawa s&aogonek;dowa</trd>
+    </trdgrp>
+    <trd lng="pt">processo</trd>
+    <trd lng="ro">proces</trd>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;<klr> (&c_s;&c_u;&c_d;&c_je;&c_b;&c_n;&c_y;&c_j;)</klr></trd>,
+      <trd>&c_t;&c_ja;&c_zh;&c_b;&c_a;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="proces.0o.SCI">
+    <uzo tip="stl">ARK</uzo>
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      <ref tip="dif" cel="procez.0o.SCI">Procezo</ref>:
+      <ekz>
+        tiu <tld/>o de unuformi&gcirc;ado iros en &gcirc;i
+        <klr>(en la lingvo internacia)</klr>
+        multe pli rapide
+        <fnt>
+          <aut>&Z;</aut>:
+          <vrk>Aldono al la Dua Libro de l' Lingvo Internacia</vrk>.
+        </fnt>;
+      </ekz><ekz>
+        senskue kaj regule da&ubreve;ras kaj disvolvi&gcirc;as tiu <tld/>o de la
+        homa movi&gcirc;ado, pensado kaj sentado, kiu estas nomata vivo
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="en">process</trd>
+  </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_c;&c_e;&c_s;</trd>
   <trdgrp lng="cs">
     <trd>judicium</trd>,
@@ -82,34 +93,60 @@
   <trd lng="es">proceso</trd>
   <trd lng="hu">folyamat</trd>
   <trdgrp lng="nl">
-        <trd>proces</trd>,
-        <trd>verloop</trd>,
-        <trd>ontwikkelingsgang</trd>
-      </trdgrp>
+    <trd>proces</trd>,
+    <trd>verloop</trd>,
+    <trd>ontwikkelingsgang</trd>
+  </trdgrp>
   <trdgrp lng="pl">
-        <trd>proces</trd>,
-        <trd>przebieg zjawiska</trd>
-      </trdgrp>
+    <trd>proces</trd>,
+    <trd>przebieg zjawiska</trd>
+  </trdgrp>
   <trd lng="ro">proces</trd>
   <trd lng="sk">najviac vy&ccaron;nievaj&uacute;ca &ccaron;as&tcaron; org&aacute;nu</trd>
 </drv>
 
-    <drv mrk="proces.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>x</vspec></gra>
-      <snc>
-        <dif>
-          Ju&gcirc;e persekuti iun:
-          <ekz>
-            <tld/>i iun, kontra&ubreve; iu, pri kompenso de la
-            perdoj<fnt>B</fnt>;
-          </ekz><ekz>
-            la re&gcirc;o kaj mi <tld/>as pri mia kapo<fnt>B</fnt>.
-          </ekz>
-        </dif>
-      </snc>
-        <trdgrp lng="en"><trd>to sue</trd>, <trd>litigate</trd>,
-        <trd>bring suit</trd></trdgrp>
+<drv mrk="proces.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="proces.0i.jugxe">
+    <dif>
+      Ju&gcirc;e persekuti iun:
+      <ekz>
+        kiu povas <tld/>i kontra&ubreve; mi
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 13:19</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        neniu <tld/>as honeste, kaj neniu ju&gcirc;as juste
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 59:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        frato <tld/>as kontra&ubreve; frato
+        <fnt>
+          <bib>NT</bib>
+          <lok>I. Korintanoj 6:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se iu deziras <tld/>i kontra&ubreve; vi, por forpreni vian tunikon, lasu lin preni
+        anka&ubreve; vian mantelon
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 5:40</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>to sue</trd>,
+    <trd>litigate</trd>,
+    <trd>bring suit</trd>
+  </trdgrp>
   <trd lng="be">&c_s;&c_u;&c_d;&c_z;&c_ib;&c_c;&c_c;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>p&rcaron;&iacute;t se <klr>(soudn&ecaron;)</klr></trd>,
@@ -122,47 +159,61 @@
   <trd lng="es">procesar</trd>
   <trd lng="fr">faire un proc&egrave;s</trd>
   <trdgrp lng="hu">
-        <trd>pereskedik</trd>,
-        <trd>beperel</trd>
-      </trdgrp>
+    <trd>pereskedik</trd>,
+    <trd>beperel</trd>
+  </trdgrp>
   <trd lng="nl">procederen</trd>
   <trd lng="pl">procesowa&cacute; si&eogonek;</trd>
   <trdgrp lng="ru">
-        <trd>&c_v;&c_je;&c_s;&c_t;&c_i;, &c_v;&c_o;&c_z;&c_b;&c_u;&c_d;&c_i;&c_t;&c_mol;
-          <ind>&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;</ind>
-          <klr>(&c_s;&c_u;&c_d;&c_je;&c_b;&c_n;&c_y;&c_j;)</klr></trd>,
-        <trd>&c_s;&c_u;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
-      </trdgrp>
+    <trd>&c_v;&c_je;&c_s;&c_t;&c_i;, &c_v;&c_o;&c_z;&c_b;&c_u;&c_d;&c_i;&c_t;&c_mol;
+      <ind>&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;</ind>
+      <klr>(&c_s;&c_u;&c_d;&c_je;&c_b;&c_n;&c_y;&c_j;)</klr></trd>,
+    <trd>&c_s;&c_u;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>pravoti&tcaron; sa</trd>,
     <trd>vies&tcaron; spor</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="proces.0ema">
-      <kap><tld/>ema</kap>
-      <snc>
-        <dif>
-          Amanta <tld/>i.
-        </dif>
-        <refgrp tip="sin">
-          <ref cel="cxikan">&ccirc;ikanema</ref>.
-        </refgrp>
-      </snc>
-      <trdgrp lng="en">
-        <trd>litigious</trd>,
-        <trd>sue-happy <klr>(slang)</klr></trd>
-      </trdgrp>
-      <trd lng="de">prozessfreudig</trd>
-      <trd lng="hu">peresked&odblac;</trd>
-      <trd lng="nl">tot <ind>procederen</ind> geneigd</trd>
-      <trd lng="pl">pieniacki</trd>
-      <trd lng="ru">&c_s;&c_u;&c_t;&c_ja;&c_zh;&c_n;&c_y;&c_j;</trd>
-    </drv>
-  </art>
+<drv mrk="proces.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="proces.0ema.amanta">
+    <dif>
+      Amanta <tld/>i:
+      <ekz>
+        <klr>[ili]</klr> malamas &scirc;ian <tld/>emon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=138112"
+              >La Kabano de Onklo Tom</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="cxikan">&ccirc;ikanema</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="en">
+    <trd>litigious</trd>,
+    <trd>sue-happy <klr>(slang)</klr></trd>
+  </trdgrp>
+  <trd lng="de">prozessfreudig</trd>
+  <trd lng="hu">peresked&odblac;</trd>
+  <trd lng="nl">tot <ind>procederen</ind> geneigd</trd>
+  <trd lng="pl">pieniacki</trd>
+  <trd lng="ru">&c_s;&c_u;&c_t;&c_ja;&c_zh;&c_n;&c_y;&c_j;</trd>
+</drv>
+</art>
 
   <!--
-  $Log$
+  $Log: proces.xml,v $
+versio 1.24 2020/02/07 22:10:17
+Wolfram Diestel: ekz-oj
+
+  Revision 1.23  2015/09/18 13:10:26  revo
+  Cindy Moon McKee: +trd en
+
   Revision 1.22  2015/07/04 08:37:42  revo
   aldono de trd cs per skripto de M. von Laer
 
@@ -179,10 +230,5 @@
   Paul Peeraerts: +nl
 
   Revision 1.17  2008/02/09 17:30:59  revo
-  Russ Williams: +trd en
-
-  Revision 1.16  2007/10/20 19:21:57  revo
-  Emmanuel Debanne: +trd fr
-
-  -->
+-->
 </vortaro>
