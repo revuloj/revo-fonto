@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: algebr.xml,v 1.50 2020/02/11 21:10:21 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>algebr</rad>/o
@@ -79,7 +79,7 @@
       <ekz>
         <ind><tld/>a prezento</ind> de <ref
         cel="komple.0o.MAT">komplekso</ref>
-        <klr>(sub formo <frm><k>a</k>+<k>i</k>.<k>b</k></frm>)</klr>.
+        <klr>(sub formo <frm kod="am">a+i*b</frm>)</klr>.
         <trd
         lng="be">&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;&c_ib;&c_ch;&c_n;&c_a;&c_ja;
         <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
@@ -105,13 +105,15 @@
       <fnt><bib>EKV</bib><lok>&para;14</lok></fnt>
       <dif>
         <klr>(p.p. elemento de <ref cel="korp.0o.MAT">korpo</ref> 
-        <frm><g>K'</g></frm>, super subkorpo <frm><g>K</g></frm>)</klr>
+        <frm kod="am">bb K'</frm>, super subkorpo <frm kod="am">bb
+        K</frm>)</klr>
         Estanta <ref cel="radik.0o.polinomo">radiko</ref> de iu polinomo
-        super <frm><g>K</g></frm>:
+        super <frm kod="am">bb K</frm>:
         <ekz>
-          se ne ekzistas <tld/>aj super <frm><g>K</g></frm> elementoj
-          krom tiuj de <frm><g>K</g></frm> mem, oni diras, ke 
-          <frm><g>K</g></frm> estas <ind><tld/>e fermita</ind>.
+          se ne ekzistas <tld/>aj super <frm kod="am">bb K</frm>
+          elementoj
+          krom tiuj de <frm kod="am">bb K</frm> mem, oni diras, ke 
+          <frm kod="am">bb K</frm> estas <ind><tld/>e fermita</ind>.
           <trd lng="de">algebraisch <ind>abgeschlossen</ind><klr
           tip="ind"> (-er K&ouml;rper)</klr></trd>
           <trd lng="en">algebraically closed<klr tip="ind">
@@ -152,10 +154,10 @@
       <fnt><bib>EKV</bib><lok>&para;17</lok></fnt>
       <dif>
         <klr>(p.p. superkorpo de <ref cel="korp.0o.MAT">korpo</ref>
-        <frm><g>K</g></frm>)</klr>
+        <frm kod="am">bb K</frm>)</klr>
         Kies &ccirc;iuj elementoj estas <tld/>aj
         <sncref ref="algebr.0a.rilate_subkorpon"/> super
-        <frm><g>K</g></frm>:
+        <frm kod="am">bb K</frm>:
         <ekz>
           la korpo de reeloj ne estas <tld/>a superkorpo de la korpo de
           racionaloj.
@@ -214,27 +216,24 @@
   <snc mrk="algebr.bulea0o.strukturo">
     <dif>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      <frm>(<g>A</g>,&#8744;,&#8743;,<k>f</k>)</frm>, kie 
-      <frm><k>f</k></frm> estas
+      <frm kod="am">(bb A,vv,^^,f)</frm>, kie 
+      <frm kod="am">f</frm> estas
       <ref cel="involu1.0o">involucio</ref> <klr>(nomata
       komplemento)</klr>, ke
       (1) amba&ubreve; operacioj estas asociecaj kaj komutecaj;
       (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio
       <klr>(signataj
-      per <frm>0</frm> por <frm>&#8744;</frm>, 
-      kaj <frm>1</frm> por <frm>&#8743;</frm>)</klr>;
+      per <frm kod="am">0</frm> por <frm kod="am">vv</frm>, 
+      kaj <frm kod="am">1</frm> por <frm kod="am">^^</frm>)</klr>;
       (3) &ccirc;iu operacio estas distribueca rilate al la alia;
       (4) 
-      <frm><k>x</k>&#8743;<k>x</k> = <k>x</k>&#8744;<k>x</k> =
-      <k>x</k></frm>, 
-      <frm><k>x</k>&#8744;<k>f</k>(<k>x</k>) = 1</frm> kaj 
-      <frm><k>x</k>&#8743;<k>f</k>(<k>x</k>) = 0</frm>,
-      kiu ajn estas <frm><k>x</k>&#8712;<g>A</g></frm>;
-      (5) <frm><k>f</k>(<k>x</k>&#8744;<k>y</k>) = 
-      <k>f</k>(<k>x</k>)&#8743;<k>f</k>(<k>y</k>)</frm> 
-      kaj <frm><k>f</k>(<k>x</k>&#8743;<k>y</k>) = 
-      <k>f</k>(<k>x</k>)&#8744;<k>f</k>(<k>y</k>)</frm>,
-      kiuj ajn estas <frm><k>x</k>,<k>y</k>&#8712;<g>A</g></frm>.
+      <frm kod="am">x ^^ x = x vv x = x</frm>, 
+      <frm kod="am">x vv f(x) = 1</frm> kaj 
+      <frm kod="am">x ^^ f(x) = 0</frm>,
+      kiu ajn estas <frm kod="am">x &#8712; bb A</frm>;
+      (5) <frm kod="am">f(x vv y) = f(x) ^^ f(y)</frm> 
+      kaj <frm kod="am">f(x ^^ y) = f(x) vv f(y)</frm>,
+      kiuj ajn estas <frm kod="am">x,y &#8712; bb A</frm>.
     </dif>
     <trd lng="nl">Booleaanse <ind>algebra</ind></trd>
     <trd lng="pl">algebra Boole'a</trd>
@@ -281,22 +280,24 @@
   </snc>
   <snc mrk="algebr.lineara0o.strukturo">
     <dif>
-      <klr>(super korpo <frm>(<g>K</g>,+,&#215;)</frm>)</klr>
+      <klr>(super korpo <frm kod="am">(bb K,+,&#215;)</frm>)</klr>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      <frm>(<g>A</g>,+,&#215;,&#8729;)</frm>, ke 
-      <frm>(<g>A</g>,+,&#215;)</frm> estas 
+      <frm kod="am">(bb A,+,&#215;,*)</frm>, ke 
+      <frm kod="am">(bb A,+,&#215;)</frm> estas 
       <ref tip="super" cel="ring.0o.MAT">ringo</ref>, 
-      <frm>(<g>A</g>,+,&#8729;)</frm> 
+      <frm kod="am">(bb A,+,*)</frm> 
       estas <ref tip="super" cel="spac.vektora0o">vektora spaco</ref>
       super
-      <frm><g>K</g></frm>, kaj la tri koncernaj multiplikoj verigas, ke
-      <frm>(&alfa;&#8729;<k>x</k>)&#215;(&beta;&#8729;<k>y</k>) = 
-      (&alfa;&#215;&beta;)&#8729;(<k>x</k>&#215;<k>y</k>)</frm> por
+      <frm kod="am">bb K</frm>, kaj la tri koncernaj multiplikoj
+      verigas, ke
+      <frm kod="am">(&alfa;*x)&#215;(&beta;*y) = 
+      (&alfa;&#215;&beta;)*(x &#215; y)</frm> por
       ajnaj 
-      skalaroj <frm>&alfa;</frm>, <frm>&beta;</frm> kaj vektoroj 
-      <frm><k>x</k></frm>, <frm><k>y</k></frm>:
+      skalaroj <frm kod="am">&alfa;</frm>, <frm kod="am">&beta;</frm> kaj vektoroj
+      
+      <frm kod="am">x</frm>, <frm kod="am">y</frm>:
       <ekz>
-        la polinomringo de korpo <frm><g>K</g></frm> estas lineara
+        la polinomringo de korpo <frm kod="am">bb K</frm> estas lineara
         <tld/>o super
         &gcirc;i.
       </ekz>
@@ -332,9 +333,9 @@
   <snc>
     <dif>
       <klr>(kadre de iu <ref cel="spac.probablo0o">probablospaco</ref>
-      <frm>(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
+      <frm kod="am">(bb &Omega;,bb A, P)</frm>)</klr>
       La <ref tip="super" cel="algebr.sigma0o">&sigma;-<tld/>o</ref> 
-      <frm><g>A</g></frm>.
+      <frm kod="am">bb A</frm>.
     </dif>
     <rim>
       La termino trovi&gcirc;as en 
@@ -371,8 +372,8 @@
   <snc>
     <dif>
       <klr>(super <ref cel="ar.0o.MAT">aro</ref>
-      <frm><g>&Omega;</g></frm>)</klr>
-      Tia ne malplena aro el subaroj de <frm><g>&Omega;</g></frm>, ke
+      <frm kod="am">bb &Omega;</frm>)</klr>
+      Tia ne malplena aro el subaroj de <frm kod="am">bb &Omega;</frm>, ke
       &gcirc;i enhavas la <ref cel="komple1.0o.aro">komplementon</ref>
       de
       &ccirc;iu sia elemento, kaj la
@@ -380,13 +381,13 @@
       <ref cel="numer.0ebla.MAT">numerebla</ref> subaro:
       <ekz>
         eblas demonstri, ke &sigma;-<tld/>o nepre enhavas
-        <frm><g>&Omega;</g></frm>, la malplenan aron kaj la
+        <frm kod="am">bb &Omega;</frm>, la malplenan aron kaj la
         <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu
         sia
         numerebla subaro;
       </ekz>
       <ekz>
-        la aro de &ccirc;iuj subaroj de <frm><g>&Omega;</g></frm> estas 
+        la aro de &ccirc;iuj subaroj de <frm kod="am">bb &Omega;</frm> estas 
         &sigma;-<tld/>o;
       </ekz>
       <ekz>
@@ -457,7 +458,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: algebr.xml,v $
+versio 1.50 2020/02/11 21:10:21
+Wolfram Diestel: formuloj per AsciiMath
+
+Revision 1.49  2018/06/14 14:10:15  revo
+Dusan Juretic: +trd es
+
 Revision 1.48  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -474,8 +481,5 @@ Revision 1.44  2004/07/26 17:23:54  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.43  2003/04/12 16:32:02  revo
-Marc Bavant: okaz~o: mod trd ru
-
-Revision 1.42  2003/04/07 16:33:59  revo
 -->
 </vortaro>
