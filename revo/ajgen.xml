@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: ajgen.xml,v 1.26 2020/02/11 20:10:36 revo Exp $">
 <kap>
   <rad>ajgen</rad>/o <fnt><bib>MatVort</bib></fnt>,
   <var><kap><rad>ejgen</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
@@ -20,11 +20,10 @@
       endomorfio:
       <ekz>
         la <tld/>oj de endomorfio en finidimensia spaco, kun matrico
-        
-        <frm>A</frm> rilate al iu bazo, estas &ccirc;iuj skalaroj 
-        <frm>&lambda;</frm>, kiuj nuligas la
+        <frm kod="am">A</frm> rilate al iu bazo, estas &ccirc;iuj skalaroj 
+        <frm kod="am">&lambda;</frm>, kiuj nuligas la
         <ref cel="determ.0anto.matrico">determinanton</ref> de 
-        <frm>A-&lambda;.I</frm>;
+        <frm kod="am">A-&lambda;*I</frm>;
       </ekz><ekz>
         oni nomas <tld/>o de matrico <tld/>on de &ccirc;iu endomorfio,
         kies
@@ -39,13 +38,13 @@
       La tuta terminologio pri <tld/>oj, <tld/>-vektoroj kaj
       -subspacoj
       de endomorfio ekzistas anka&ubreve; 
-      por <frm>(<k>n</k>,<k>n</k>)</frm>-matrico, konvencie
+      por <frm kod="am">(n,n)</frm>-matrico, konvencie
       identigita kun la endomorfio, kies matrico rilate al la kanona
-      bazo
-      de <frm><g>K</g><sup><k>n</k></sup></frm> &gcirc;i estas.
+      bazo de <frm kod="am">bb K^n</frm> &gcirc;i estas.
     </rim>
   </snc>
-  <trd lng="cs">vlastn&iacute; <klr>(charakteristick&aacute;)</klr> hodnota  charakteristick&yacute; ko&rcaron;en</trd>
+  <trd lng="cs">vlastn&iacute; <klr>(charakteristick&aacute;)</klr> hodnota 
+  charakteristick&yacute; ko&rcaron;en</trd>
   <trd lng="de">Eigenwert</trd>
   <trd lng="en">eigenvalue</trd>
   <trdgrp lng="es">
@@ -77,32 +76,32 @@
   <snc mrk="ajgen.0a.skalaro">
     <dif>
       <klr>(p.p. <ref cel="skalar.0o.MAT">skalaro</ref>
-      <frm>&lambda;</frm>,
+      <frm kod="am">&lambda;</frm>,
         rilate al <ref cel="endomo.0o">endomorfio</ref>
-        <frm><k>f</k></frm> en
+        <frm kod="am">f</frm> en
         <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-      Tia, ke <frm><k>f</k></frm> &jcirc;etas iun nenulan vektoron 
-      <frm><k>x</k></frm> al <frm>&lambda;&#8729;<k>x</k></frm>; alidire: tia,
+      Tia, ke <frm kod="am">f</frm> &jcirc;etas iun nenulan vektoron 
+      <frm kod="am">x</frm> al <frm kod="am">&lambda;*x</frm>; alidire: tia,
       ke la <ref tip="super" cel="kern.0o.homomorfio">kerno</ref> de
-      <frm><k>f</k>-&lambda;.id<sub><g>E</g></sub></frm> ne egalas al
-      <frm>{0}</frm>:
+      <frm kod="am">f-&lambda;*i d_bb E</frm> ne egalas al
+      <frm kod="am">{0}</frm>:
       <ekz>
-        se la kerno de endomorfio ne egalas al <frm>{0}</frm>, la
-        skalara nulo
-        estas <tld/>a rilate al &gcirc;i;
+        se la kerno de endomorfio ne egalas al <frm kod="am">{0}</frm>,
+        la
+        skalara nulo estas <tld/>a rilate al &gcirc;i;
       </ekz><ekz>
-        se <frm>&lambda;</frm> estas <tld/>a rilate al
+        se <frm kod="am">&lambda;</frm> estas <tld/>a rilate al
         <ref cel="involu1.0o">involucio</ref>,
-        tiam <frm>&lambda;<sup>2</sup> = 1</frm>;
+        tiam <frm kod="am">&lambda;^2 = 1</frm>;
       </ekz><ekz>
         en la spaco de senfine <ref
         cel="deriv.0i.MAT">deriveblaj</ref> reelaj
         funkcioj, derivado estas endomorfio, rilate al kiu &ccirc;iu reelo
-        estas <tld/>a <klr>(&ccirc;ar se 
-          <frm><k>f</k><sub>&lambda;</sub>(<k>x</k>) = 
-            <k>e</k><sup>&lambda;<k>x</k></sup></frm>,
-          <frm>D(<k>f</k><sub>&lambda;</sub>) = 
-            &lambda;&#8729;<k>f</k><sub>&lambda;</sub></frm>)</klr>.
+        estas <tld/>a <klr>( &ccirc;ar se 
+          <frm kod="am">f_&lambda;(x) = 
+            e^(&lambda;x)</frm>,
+          <frm kod="am">D(f_&lambda;) = 
+            &lambda;*f_&lambda;</frm> )</klr>.
       </ekz>
     </dif>
   </snc>
@@ -110,14 +109,15 @@
     <dif>
       <klr>(p.p. <ref cel="spac.vektorasub0o">subspaco</ref> de
         <ref cel="spac.vektora0o">vektora spaco</ref>
-        <frm><g>E</g></frm>,
+        <frm kod="am">bb E</frm>,
         rilate al <ref cel="endomo.0o">endomorfio</ref>
-        <frm><k>f</k></frm> 
+        <frm kod="am">f</frm> 
         en &gcirc;i)</klr>
       Egala al la <ref tip="super"
       cel="kern.0o.homomorfio">kerno</ref> de
-      <frm><k>f</k>-&lambda;.id<sub><g>E</g></sub></frm> por iu 
-      <tld/>a <sncref ref="ajgen.0a.skalaro"/> skalaro <frm>&lambda;</frm>:
+      <frm kod="am">f-&lambda;*i d_bb E</frm> por iu 
+      <tld/>a <sncref ref="ajgen.0a.skalaro"/> skalaro <frm
+      kod="am">&lambda;</frm>:
       <ekz>
         la du <tld/>aj subspacoj de
         <ref cel="simetr.0o.vektora">simetrio</ref> estas
@@ -128,18 +128,18 @@
   <snc mrk="ajgen.0a.vektoro">
     <dif>
       <klr>(p.p. <ref cel="vektor.0o.MAT">vektoro</ref>
-      <frm><k>x</k></frm>, 
+      <frm kod="am">x</frm>, 
         rilate al <ref cel="endomo.0o">endomorfio</ref>
-        <frm><k>f</k></frm> en
+        <frm kod="am">f</frm> en
         <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
       Nenula kaj apartenanta al iu <tld/>a <sncref
       ref="ajgen.0a.subspaco"/>
-      subspaco de <frm><k>f</k></frm>:
+      subspaco de <frm kod="am">f</frm>:
       <ekz>
-        se <frm><k>x</k></frm> estas <tld/>a vektoro rilate al 
-        <frm><k>f</k></frm>, tiam la
+        se <frm kod="am">x</frm> estas <tld/>a vektoro rilate al 
+        <frm kod="am">f</frm>, tiam la
         <ref cel="rekt.vektora0o">rekto</ref>, kiun &gcirc;i naskas,
-        estas sen&scirc;an&gcirc;a per <frm><k>f</k></frm>.
+        estas sen&scirc;an&gcirc;a per <frm kod="am">f</frm>.
       </ekz>
     </dif>
   </snc>
@@ -238,7 +238,13 @@ tip="ind"> (&c_e;&c_n;&c_d;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;&c_a;)</klr><
 </drv>
   </art>
   <!--
-  $Log$
+  $Log: ajgen.xml,v $
+versio 1.26 2020/02/11 20:10:36
+Wolfram Diestel: formuloj per AsciiMath
+
+  Revision 1.25  2019/03/17 09:10:16  revo
+  Wolfram Diestel: +var
+
   Revision 1.24  2015/07/04 08:37:29  revo
   aldono de trd cs per skripto de M. von Laer
 
@@ -255,24 +261,5 @@ tip="ind"> (&c_e;&c_n;&c_d;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;&c_a;)</klr><
   Viliam Bur: +klr sk
 
   Revision 1.19  2003/04/03 16:31:19  revo
-  Marc Bavant: ~a: +sncref
-
-  Revision 1.18  2003/03/23 17:32:22  revo
-  Marc Bavant: ~subspaco: +trd pl
-  Revision 1.17  2003/01/17 17:33:46  revo
-  Marc Bavant: ~o: kor klr en dif
-  Revision 1.16  2003/01/02 17:43:25  revo
-  Marc Bavant: ~o: +trd pl; ~a: mod rim; mod formon de la multiplika
-  operatoro
-  Revision 1.15  2002/11/24 17:33:12  revo
-  Marc Bavant: mod frm
-  Revision 1.14  2002/11/18 17:32:52  revo
-  Marc Bavant: +frm, +trd pl
-  Revision 1.13  2002/09/07 17:37:11  revo
-  Viliam Bur: +sk trd
-  Revision 1.12  2002/06/19 17:31:16  revo
-  Helio Jaques: trd pt
-  Revision 1.11  2002/05/27 17:16:40  revo
-  Marc Bavant: ~a: mod rim; ~vektoro: mod fnt
-  -->
+-->
 </vortaro>
