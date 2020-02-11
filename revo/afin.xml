@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: afin.xml,v 1.20 2020/02/11 19:28:24 revo Exp $">
 <kap>
   <rad>afin</rad>/a <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -46,16 +46,18 @@
     <fnt><bib>PIV1</bib></fnt>
     <dif>
       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>f</k></frm> 
+      <frm kod="am">f</frm> 
       inter du <ref cel="spac.afina0o"><tld/>aj spacoj</ref>)</klr>
       Tia, ke 
-      <frm><k>f</k>(&tau;+<k>x</k>) = &phi;(&tau;)+<k>f</k>(<k>x</k>)</frm>, 
-      kie <frm>&phi;</frm> estas <ref cel="homomo.0o">homomorfio</ref> inter
+      <frm kod="am">f(&tau;+x) = &phi;(&tau;)+f(x)</frm>, 
+      kie <frm kod="am">&phi;</frm> estas 
+      <ref cel="homomo.0o">homomorfio</ref> inter
       la respondaj vektoraj spacoj, kiuj 
       <ref cel="operac.0i.MAT">operacias</ref> super la <tld/>aj spacoj:
       <ekz>
-        la homomorfion <frm>&phi;</frm> oni nomas asociita al la <tld/>a
-        bildigo <frm><k>f</k></frm>.
+        la homomorfion <frm kod="am">&phi;</frm> oni nomas asociita al la
+        <tld/>a
+        bildigo <frm kod="am">f</frm>.
       </ekz>
     </dif>
     <trd lng="be">&c_a;&c_f;&c_ib;&c_n;&c_n;&c_y;</trd>
@@ -79,8 +81,8 @@
     <fnt><bib>MatVort</bib></fnt>
     <dif>
       <klr>(p.p. reela <ref cel="funkci.0o.MAT">funkcio</ref> 
-      <frm><k>f</k></frm>)</klr>
-      Tia, ke <frm><k>f</k>(<k>x</k>) = &alfa;<k>x</k>+&beta;</frm>.
+      <frm kod="am">f</frm>)</klr>
+      Tia, ke <frm kod="am">f(x) = &alfa;x+&beta;</frm>.
     </dif>
     <trd lng="be">&c_a;&c_f;&c_ib;&c_n;&c_n;&c_y;</trd>
     <trd lng="ca">af&iacute;</trd>
@@ -118,13 +120,13 @@
     <trd lng="fr">affin</trd>
   </snc>
   <trdgrp lng="cs">
-    <trd>afinní</trd>,
-    <trd>podobný</trd>,
-    <trd>příbuzný tvarem</trd>
+    <trd>afinn&iacute;</trd>,
+    <trd>podobn&yacute;</trd>,
+    <trd>p&rcaron;&iacute;buzn&yacute; tvarem</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>podobný</trd>,
-    <trd>príbuzný tvarom</trd>
+    <trd>podobn&yacute;</trd>,
+    <trd>pr&iacute;buzn&yacute; tvarom</trd>
   </trdgrp>
 </drv>
 
@@ -148,18 +150,24 @@
   </snc>
   <trdgrp lng="cs">
     <trd>afinita</trd>,
-    <trd>příbuzenství</trd>,
-    <trd>příbuznost</trd>,
-    <trd>slučovací schopnost</trd>
+    <trd>p&rcaron;&iacute;buzenstv&iacute;</trd>,
+    <trd>p&rcaron;&iacute;buznost</trd>,
+    <trd>slu&ccaron;ovac&iacute; schopnost</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>afinita</trd>,
-    <trd>príbuznosť</trd>
+    <trd>pr&iacute;buznos&tcaron;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
-$Log$
+$Log: afin.xml,v $
+versio 1.20 2020/02/11 19:28:24
+Wolfram Diestel: formuloj per AsciiMath
+
+Revision 1.19  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.18  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -176,14 +184,5 @@ Revision 1.14  2003/10/28 17:31:41  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.13  2002/11/24 17:33:09  revo
-Marc Bavant: mod frm
-
-Revision 1.12  2002/11/18 17:32:51  revo
-Marc Bavant: +frm; +trd pl
-Revision 1.11  2002/09/07 17:39:06  revo
-Viliam Bur: +sk trd
-Revision 1.10  2002/05/21 16:33:58  revo
-Marc Bavant: kor ref cel al funkcio
-Revision 1.9  2002/04/11 16:31:35  revo
 -->
 </vortaro>
