@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: adher.xml,v 1.43 2020/02/11 19:28:23 revo Exp $">
 <kap>
   <rad>adher</rad>/i
   <fnt><bib>PIV1</bib></fnt>
@@ -183,17 +183,19 @@
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="adher.0a.punkto">
       <dif>
-        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> <frm><k>x</k>
+        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> <frm
+        kod="am">x
         </frm>
         en <ref cel="spac.topologia0o">topologia spaco</ref>, rilate
-        al subaro <frm><g>A</g></frm> de &gcirc;i)</klr>
+        al subaro <frm kod="am">bb A</frm> de &gcirc;i)</klr>
         Tia, ke &ccirc;iu
         <ref cel="cxirka.0ajxo.topologio">
         &ccirc;irka&ubreve;a&jcirc;o</ref>
-        de <frm><k>x</k></frm> enhavas punktojn en <frm><g>A</g></frm>:
+        de <frm kod="am">x</frm> enhavas punktojn en <frm kod="am">bb
+        A</frm>:
         <ekz>
-          &ccirc;iuj punktoj en <frm><g>A</g></frm> estas <tld/>aj al
-          <frm><g>A</g></frm>;
+          &ccirc;iuj punktoj en <frm kod="am">bb A</frm> estas <tld/>aj al
+          <frm kod="am">bb A</frm>;
         </ekz>
         <ekz>
           <tld/>a punkto de subaro estas a&ubreve; akumuli&gcirc;a,
@@ -229,20 +231,20 @@
     <subsnc mrk="adher.0a.vico">
       <dif>
         <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref>
-        <frm><k>b</k></frm>
+        <frm kod="am">b</frm>
         en <ref cel="spac.metrika0o">metrika spaco</ref>, rilate
         al <ref cel="vic.0o.MAT">vico</ref>)</klr>
         Tia, ke <ref cel="vic.sub0o">subvico</ref> de la konsiderata
         vico
         <ref cel="konver.0i">konver&gcirc;as</ref> al
-        <frm><k>b</k></frm>:
+        <frm kod="am">b</frm>:
         <ekz>
           la vico, kies &gcirc;enerala termo estas
-          <frm><k>u</k><sub><k>n</k></sub> =
-          (-1)<sup><k>n</k></sup><k>a</k></frm>, ne
+          <frm kod="am">u_n =
+          (-1)^n a</frm>, ne
           konver&gcirc;as, sed akceptas du <tld/>ajn punktojn:
-          <frm><k>a</k></frm> kaj <frm>-<k>a</k></frm>.
-        </ekz>
+          <frm kod="am">a</frm> kaj <frm kod="am">-a</frm>.
+        </ekz> 
       </dif>
       <trdgrp lng="de">
         <trd>Adh&auml;renz-<klr tip="amb">(punkt)</klr></trd>,
@@ -272,20 +274,20 @@
     <subsnc mrk="adher.0a.bildigo">
       <dif>
         <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref>
-        <frm><k>b</k></frm>
+        <frm kod="am">b</frm>
         en <ref cel="spac.topologia0o">topologia spaco</ref>
-        <frm><g>F</g></frm>, rilate al
+        <frm kod="am">bb F</frm>, rilate al
         <ref cel="bild.0igo.MAT">bildigo</ref>
-        <frm><k>f</k></frm> de topologia spaco
-        <frm><g>E</g></frm> al <frm><g>F</g></frm>, &ccirc;e punkto
-        <frm><k>a</k></frm> de <frm><g>E</g></frm>)</klr>
+        <frm kod="am">f</frm> de topologia spaco
+        <frm kod="am">bb E</frm> al <frm kod="am">bb F</frm>, &ccirc;e punkto
+        <frm kod="am">a</frm> de <frm kod="am">bb E</frm>)</klr>
         Tia, ke &gcirc;i estas
         <ref cel="adher.0a.punkto"><tld/>a <sncref/></ref> al la
-        <ref cel="bild.0o.subaro">bildo</ref> per <frm><k>f</k></frm>
+        <ref cel="bild.0o.subaro">bildo</ref> per <frm kod="am">f</frm>
         de &ccirc;iu
         <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o
         </ref>
-        de <frm><k>a</k></frm>.
+        de <frm kod="am">a</frm>.
       </dif>
       <refgrp tip="vid">
         <ref cel="infim.limes0o.funkcio">limesinfimo</ref>,
@@ -344,11 +346,11 @@
   <snc mrk="adher.0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de subaro <frm><g>A</g></frm> en
+      <klr>(de subaro <frm kod="am">bb A</frm> en
       <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
       La <ref tip="super" cel="ar.sub0o">subaro</ref> de &ccirc;iuj
       punktoj <ref cel="adher.0a.punkto"><tld/>aj <sncref/></ref> rilate
-      al <frm><g>A</g></frm>:
+      al <frm kod="am">bb A</frm>:
       <ekz>
         la <tld/>a&jcirc;o de subaro egalas al &gcirc;ia
         <ref cel="ferm.0ajxo.MAT">ferma&jcirc;o</ref>.
@@ -383,7 +385,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: adher.xml,v $
+versio 1.43 2020/02/11 19:28:23
+Wolfram Diestel: formuloj per AsciiMath
+
+Revision 1.42  2017/01/29 13:10:18  revo
+Adam Eng: +trd ms
+
 Revision 1.41  2015/07/04 08:37:29  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -400,8 +408,5 @@ Revision 1.37  2008/05/12 17:55:48  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.36  2005/02/10 17:31:17  revo
-Marc Bavant: ~a (vico): kor klr
-
-Revision 1.35  2003/08/29 16:31:19  revo
 -->
 </vortaro>
