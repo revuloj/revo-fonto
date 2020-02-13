@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: asoci.xml,v 1.37 2020/02/13 18:10:25 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>asoci</rad>/o <fnt><bib>PV</bib></fnt>
@@ -177,11 +177,11 @@
       <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="operac.0o.MAT">operacio</ref>
-        <frm>&#8224;</frm>
-        en aro <frm><g>E</g></frm>)</klr>
-        Tia, ke <frm>(<k>x</k>&#8224;<k>y</k>)&#8224;<k>z</k> =
-        <k>x</k>&#8224;(<k>y</k>&#8224;<k>z</k>)</frm> por &ccirc;iuj
-        <frm><k>x</k>, <k>y</k>, <k>z</k>&#8712;<g>E</g></frm>:
+        <frm am="&#8224;">&#8224;</frm>
+        en aro <frm am="bb E"><g>E</g></frm>)</klr>
+        Tia, ke <frm am="(x&#8224;y)&#8224;z=x&#8224;(y&#8224;z)">(x&#8224;y)&#8224;z =
+        x&#8224;(y&#8224;z)</frm> por &ccirc;iuj
+        <frm am="x,y,z in bb E">x, y, z&#8712;<g>E</g></frm>:
         <ekz>
           la aritmetikaj operacioj adicio kaj multipliko estas
           <tld/>ecaj,
@@ -204,7 +204,7 @@
         Se la operacio estas <tld/>eca, la krampoj ne plu estas uzendaj
         kaj
         oni simple signas per
-        <frm><k>x</k>&#8224;<k>y</k>&#8224;<k>z</k></frm>
+        <frm am="x&#8224;y&#8224;z">x&#8224;y&#8224;z</frm>
         la &ccirc;i-suprajn rezultojn.
       </rim>
     </subsnc>
@@ -251,7 +251,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: asoci.xml,v $
+versio 1.37 2020/02/13 18:10:25
+Wolfram Diestel: formuloj per am
+
+Revision 1.36  2017/06/01 05:10:14  revo
+Warut Bunprasert: +trd th
+
 Revision 1.35  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -268,8 +274,5 @@ Revision 1.31  2012/10/23 00:11:27  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.30  2012/02/01 01:10:14  revo
-Antonio Codazzi: +trd it
-
-Revision 1.29  2011/02/19 11:10:10  revo
 -->
 </vortaro>
