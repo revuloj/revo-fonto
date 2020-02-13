@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: koordi.xml,v 1.30 2020/02/13 21:10:19 revo Exp $">
+<art mrk="$Id: koordi.xml,v 1.31 2020/02/13 22:10:17 revo Exp $">
 <kap>
   <rad>koordinat</rad>/o
   <fnt>Z</fnt>
@@ -162,21 +162,26 @@
   <fnt><bib>MatTerm</bib>, <lok>p. 31</lok></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm>M</frm> en <ref cel="spac.afina0o">afina
+      <klr>(de punkto <frm am="M">M</frm> en <ref
+      cel="spac.afina0o">afina
       spaco</ref>
       rilate al <ref
       cel="origin.0o.de_kartezia_koordinatsistemo">origino</ref>
-      <frm>O</frm> la&ubreve;
-      <ref cel="baz.0o.vektoraspaco">bazo</ref> <frm>B</frm>)</klr>
+      <frm am="O">O</frm> la&ubreve;
+      <ref cel="baz.0o.vektoraspaco">bazo</ref> <frm
+      am="B">B</frm>)</klr>
       &Ccirc;iu el la <ref cel="kompon.0anto.MAT">komponantoj</ref>
-      de vektoro <frm>OM</frm> (t.e. <frm>M-O</frm>) la&ubreve;
-      <frm>B</frm>:
+      de vektoro <frm am="OM">OM</frm> (t.e. <frm am="M-O">M-O</frm>)
+      la&ubreve;
+      <frm am="B">B</frm>:
       <ekz>
         en la tridimensia reela afina spaco, kiu figuras la fizikan
         spacon, oni ofte signas la karteziajn <tld/>ojn de punkto
-        per la triopo <frm>(<k>x</k>, <k>y</k>, <k>z</k>)</frm> kaj la
+        per la triopo <frm am="(x,y,z)"
+        >(<k>x</k>, <k>y</k>, <k>z</k>)</frm> kaj la
         <ref cel="koordi.0sistemo"><tld/>sistemon</ref>
-        mem per kvaropo <frm>(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>;
+        mem per kvaropo <frm am="(O,bb i,bb j,bb k)"
+        >(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>;
       </ekz>
       <ekz>
         <ind>x-<tld/>o</ind>
@@ -293,7 +298,7 @@
     </refgrp>
     <rim>
       Estas strange, ke neniu registris specifan nomon por
-      <frm><k>z</k></frm>-<tld/>o.
+      <frm am="z"><k>z</k></frm>-<tld/>o.
       La formo <ctl>aplikato</ctl> estus sufi&ccirc;e internacia, sed
       eble &gcirc;enas la kolizio kun verbo <ctl>apliki</ctl>, tamen ne
       multe pli ol de <ctl>ordinato</ctl> kun <ctl>ordini</ctl>.
@@ -315,16 +320,20 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de punkto <frm>M</frm> en <frm><k>n</k></frm>-dimensia
+      <klr>(de punkto <frm am="M">M</frm> en <frm
+      am="n"><k>n</k></frm>-dimensia
       <ref cel="spac.afina0o">afina spaco</ref>
-      rilate al <frm><k>n</k>+1</frm> punktoj
-      <frm>(A<sub><k>i</k></sub>)<sub>0&#8804;<k>i</k>&#8804;<k>n</k></sub></frm>
+      rilate al <frm am="n+1"><k>n</k>+1</frm> punktoj
+      <frm am="(A_i)_(0 le i le n)"
+      >(A<sub><k>i</k></sub>)<sub>0&#8804;<k>i</k>&#8804;<k>n</k></sub></frm>
       ne apartenantaj al la sama hiperebeno)</klr>
-      &Ccirc;iu el la termoj de iu ajn tia <frm>(<k>n</k>+1)</frm>-opo
-      <frm>(&alfa;<sub><k>i</k></sub>)</frm>, ke <frm>M</frm>
+      &Ccirc;iu el la termoj de iu ajn tia <frm
+      am="n+1">(<k>n</k>+1)</frm>-opo
+      <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>, ke <frm
+      am="M">M</frm>
       estas la <ref cel="centr.pezo0o">pezocentro</ref> de la punktoj
-      <frm>(A<sub><k>i</k></sub>)</frm> kun la koeficientoj
-      <frm>(&alfa;<sub><k>i</k></sub>)</frm>.
+      <frm am="(A_i)">(A<sub><k>i</k></sub>)</frm> kun la koeficientoj
+      <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>.
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
     <rim>
@@ -332,7 +341,8 @@
       cel="homoge.0a.koordinatoj">homogenaj</ref>.
       Trovi&gcirc;as aliaj difinoj, kiuj <ctl>malhomogeneigas</ctl>
       ilin,
-      postulante ekzemple, ke <frm>&alfa;<sub>0</sub> = 1</frm>.
+      postulante ekzemple, ke <frm am="alpha_0=1">&alfa;<sub>0</sub> =
+      1</frm>.
     </rim>
   </snc>
   <adm>
@@ -363,7 +373,7 @@
   koordinatoj&rightquot;</lok></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm>M</frm> en reela e&ubreve;klida
+      <klr>(de punkto <frm am="M">M</frm> en reela e&ubreve;klida
       <ref cel="eben.afina0o">afina ebeno</ref> rilate al
       <ref cel="aks.polusa0o">polusa akso</ref>)</klr>
       &Ccirc;iu el la du reeloj
@@ -371,17 +381,18 @@
       kaj <ref cel="angul.polusa0o">polusa angulo</ref>:
       <ekz>
         oni ofte signas la polusajn <tld/>ojn de punkto per la paro
-        <frm>(&rho;, &theta;)</frm>.
+        <frm am="(rho,theta)">(&rho;, &theta;)</frm>.
       </ekz>
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
     <rim>
       La koncernan ebenon oni samtempe provizas per orta kaj ununorma
-      koordinatsistemo <frm>(O, <g>i</g>, <g>j</g>)</frm>, kie
-      <frm>O</frm>
-      estas la origino de la polusa akso kaj <frm><g>i</g></frm>
-      &gcirc;ia
-      ununorma direktanta vektoro.
+      koordinatsistemo <frm am="(O,bb i,bb j)"
+      >(O, <g>i</g>, <g>j</g>)</frm>, kie
+      <frm am="O">O</frm>
+      estas la origino de la polusa akso kaj <frm am="bb
+      i"><g>i</g></frm>
+      &gcirc;ia ununorma direktanta vektoro.
     </rim>
   </snc>
   <trd lng="cs">pol&aacute;rn&iacute; sou&rcaron;adnice</trd>
@@ -402,17 +413,18 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm>M</frm> en tridimensia reela e&ubreve;klida
+      <klr>(de punkto <frm am="M">M</frm> en tridimensia reela e&ubreve;klida
       <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
       ununorma koordinatsistemo
-      <frm>(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
+      <frm am="(O,bb i,bb j,bb k)"
+      >(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
       &Ccirc;iu el la tri reeloj
       <ref cel="distan.polusa0o">polusa distanco</ref>,
       <ref cel="longit.0o.MAT">longitudo</ref> kaj
       <ref cel="latitu.0o.MAT">latitudo</ref>:
       <ekz>
         oni ofte signas la sferajn <tld/>ojn de punkto per la triopo
-        <frm>(&rho;, &theta;, &phi;)</frm>.
+        <frm am="(rho,theta,phi)">(&rho;, &theta;, &phi;)</frm>.
       </ekz>
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
@@ -435,7 +447,10 @@
 </art>
 <!--
 $Log: koordi.xml,v $
-versio 1.30 2020/02/13 21:10:19
+versio 1.31 2020/02/13 22:10:17
+Wolfram Diestel: formuloj per am
+
+Revision 1.30  2020/02/13 20:10:18  revo
 Wolfram Diestel: formuloj per am, daurigenda
 
 Revision 1.29  2019/07/17 08:10:21  revo
@@ -454,8 +469,5 @@ Revision 1.25  2005/10/31 17:31:30  revo
 Jeromo Vasxe: ~o geog + ekz
 
 Revision 1.24 2004/05/02 16:32:09 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.23 2003/04/07 16:35:57 revo
 -->
 </vortaro>
