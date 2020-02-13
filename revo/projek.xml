@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: projek.xml,v 1.30 2020/02/13 21:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>projekci</rad>/o
@@ -14,18 +14,20 @@
     <subsnc mrk="projek.0o.kanona">
       <dif>
         <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-        <ref cel="produt.kartezia0o">kartezia produto</ref> de pluraj aroj
-        al la <frm><k>p</k></frm>-a inter ili, kiu &jcirc;etas &ccirc;iun 
-        opon al &gcirc;ia <frm><k>p</k></frm>-a
+        <ref cel="produt.kartezia0o">kartezia produto</ref> de pluraj
+        aroj
+        al la <frm am="p"><k>p</k></frm>-a inter ili, kiu &jcirc;etas &ccirc;iun 
+        opon al &gcirc;ia <frm am="p"><k>p</k></frm>-a
         <ref cel="term.0o.opo">termo</ref>:
         <ekz>
           tian bildigon oni nomas <ref cel="kanon.0a.MAT">kanona</ref>
-          <tld/>o al la <frm><k>p</k></frm>-a faktoro;
+          <tld/>o al la <frm am="p"><k>p</k></frm>-a faktoro;
         </ekz>
         <ekz>
-          en vektora spaco <frm><g>K</g><sup><k>n</k></sup></frm> la <tld/>o
-          al ajna el la <frm><k>n</k></frm> faktoroj &jcirc;etas
-          vektoron al &gcirc;ia <frm><k>p</k></frm>-a komponanto la&ubreve; la
+          en vektora spaco <frm am="bb
+          K^n"><g>K</g><sup><k>n</k></sup></frm> la <tld/>o
+          al ajna el la <frm am="n"><k>n</k></frm> faktoroj &jcirc;etas
+          vektoron al &gcirc;ia <frm am="p"><k>p</k></frm>-a komponanto la&ubreve; la
           <ref cel="baz.kanona0o">kanona bazo</ref>.
         </ekz>
       </dif>
@@ -35,26 +37,29 @@
       <dif>
         <klr>(en <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
         Tia <ref tip="super" cel="homomo.0o">endomorfio</ref>
-        <frm><k>p</k></frm>, ke &gcirc;i egalas al la 
+        <frm am="p"><k>p</k></frm>, ke &gcirc;i egalas al la 
         <ref cel="lig.kun0ajxo.rilatoj">kunliga&jcirc;o</ref>
-        kun si mem; simb. <frm><k>p</k>&#9702;<k>p</k> = <k>p</k></frm>:
+        kun si mem; simb. <frm am="p circ p=p"><k>p</k>&#9702;<k>p</k> =
+        <k>p</k></frm>:
         <ekz>
           la <ref cel="kern.0o.homomorfio">kerno</ref> kaj la
           <ref cel="bild.0aro.MAT">bildaro</ref> de <tld/>o estas
           <ref cel="komple1.0a.vektorasubspaco">komplementaj</ref>;
         </ekz>
         <ekz>
-          se <frm><g>U</g></frm> estas la kerno de <frm><k>p</k></frm> kaj 
-          <frm><g>V</g></frm> &gcirc;ia bildaro, tiam oni diras, ke 
-          <frm><k>p</k></frm> estas <ctl><tld/>o al subspaco
-          <frm><g>V</g></frm>, paralele al subspaco <frm><g>U</g></frm></ctl>.
+          se <frm am="bb U"><g>U</g></frm> estas la kerno de
+          <frm am="p"><k>p</k></frm> kaj 
+          <frm am="bb V"><g>V</g></frm> &gcirc;ia bildaro, tiam oni diras, ke 
+          <frm am="p"><k>p</k></frm> estas <ctl><tld/>o al subspaco
+          <frm am="bb V"><g>V</g></frm>, paralele al subspaco
+          <frm am="bb U"><g>U</g></frm></ctl>.
         </ekz>
       </dif>
       <ref tip="sin" cel="projek.vektora0o">vektora projekcio.</ref>
     </subsnc>
     <subsnc mrk="projek.0o.oblikva">
       <dif>
-        <klr>(en <ref cel="spac.afina0o">afina spaco</ref>)</klr>
+        <klr>(en <ref cel="spac.afina0o">afina spaco</ref>) </klr>
         <ref cel="afin.0a.bildigo">Afina</ref>
         <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>, asociita al
         <ref cel="projek.0o.vektora"><tld/>o 
@@ -69,7 +74,8 @@
         (en <ref cel="spac.euxklida0o">e&ubreve;klida afina spaco</ref>)
         </klr>
         Tia <ref cel="projek.0o.oblikva"><tld/>o
-        <sncref ref="projek.0o.oblikva"/></ref>, ke la kerno kaj bildaro de
+        <sncref ref="projek.0o.oblikva"/></ref>, ke la kerno kaj bildaro
+        de
         la asociita endomorfio estas <ref cel="ort.0a.aro">ortaj</ref>.
       </dif>
       <ref tip="sin" cel="projek.orta0o">orta projekcio.</ref>
@@ -104,9 +110,9 @@
   </snc>
   <trdgrp lng="cs">
     <trd>projekce</trd>,
-    <trd>promítání</trd>,
-    <trd>průmět</trd>,
-    <trd>zobrazení</trd>
+    <trd>prom&iacute;t&aacute;n&iacute;</trd>,
+    <trd>pr&uring;m&ecaron;t</trd>,
+    <trd>zobrazen&iacute;</trd>
   </trdgrp>
   <trd lng="fr">projection<klr tip="ind"> (math. et sens
   d&eacute;riv&eacute;s)</klr></trd>
@@ -147,13 +153,13 @@
   </snc>
   <trdgrp lng="cs">
     <trd>projektovat</trd>,
-    <trd>promítat</trd>
+    <trd>prom&iacute;tat</trd>
   </trdgrp>
   <trd lng="fr">projeter</trd>
   <trd lng="hu">vet&iacute;t</trd>
   <trd lng="nl">projecteren</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">premietať</trd>
+  <trd lng="sk">premieta&tcaron;</trd>
 </drv>
 
 <drv mrk="projek.0ajxo">
@@ -206,14 +212,15 @@
     </dif>
   </snc>
   <trdgrp lng="cs">
-    <trd>projekční přístroj</trd>,
-    <trd>promítací přístroj</trd>
+    <trd>projek&ccaron;n&iacute; p&rcaron;&iacute;stroj</trd>,
+    <trd>prom&iacute;tac&iacute; p&rcaron;&iacute;stroj</trd>
   </trdgrp>
-  <trd lng="fr">projecteur<klr tip="ind"> (film, diapos, etc.)</klr></trd>
+  <trd lng="fr">projecteur<klr tip="ind"> (film, diapos,
+  etc.)</klr></trd>
   <trd lng="hu">vet&iacute;t&odblac;g&eacute;p</trd>
   <trd lng="nl">projector</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
-  <trd lng="sk">projekčný prístroj</trd>
+  <trd lng="sk">projek&ccaron;n&yacute; pr&iacute;stroj</trd>
 </drv>
 
 <drv mrk="projek.retro0ilo">
@@ -237,21 +244,23 @@
   <snc>
     <dif>
       <klr>(en tridimensia <ref cel="spac.afina0o">afina spaco</ref>,
-      al ebeno <frm>P</frm>, rilate al punkto <frm>O</frm> situanta ekster
-      <frm>P</frm>)</klr>
+      al ebeno <frm am="P">P</frm>, rilate al punkto <frm am="O">O</frm>
+      situanta ekster <frm am="P">P</frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref>, kiu &jcirc;etas
-      punkton <frm>M</frm> al la intersekco de rekto <frm>OM</frm> kun 
-      <frm>P</frm>:
+      punkton <frm am="M">M</frm> al la intersekco de rekto 
+      <frm am="OM">OM</frm> kun <frm am="P">P</frm>:
       <ekz>
-        la punkton <frm>O</frm> oni nomas centro de la centra <tld/>o;
+        la punkton <frm am="O">O</frm> oni nomas centro de la centra
+        <tld/>o;
       </ekz>
       <ekz>
         centra <tld/>o ne estas afina bildigo;
       </ekz>
       <ekz>
-        la punktoj de la ebeno paralela al <frm>P</frm> kaj trairanta 
-        <frm>O</frm> ne havas bildon per centra <tld/>o al ebeno <frm>P</frm>
-        rilate al <frm>O</frm>.
+        la punktoj de la ebeno paralela al <frm am="P">P</frm> kaj
+        trairanta 
+        <frm am="O">O</frm> ne havas bildon per centra <tld/>o al ebeno 
+        <frm am="P">P</frm> rilate al <frm am="O">O</frm>.
       </ekz>
     </dif>
   </snc>
@@ -311,11 +320,13 @@
 </drv>
 
 <drv mrk="projek.paralela0o">
-  <kap>paralela <tld/>o<fnt><bib>PIV2</bib></fnt>, <var><kap>paralel<tld/>o<fnt><bib>PIV1</bib></fnt></kap></var></kap>
+  <kap>paralela <tld/>o<fnt><bib>PIV2</bib></fnt>,
+  <var><kap>paralel<tld/>o<fnt><bib>PIV1</bib></fnt></kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <ref tip="dif" cel="projek.oblikva0o">Oblikva <tld/>o</ref> al ebeno.
+      <ref tip="dif" cel="projek.oblikva0o">Oblikva <tld/>o</ref> al
+      ebeno.
     </dif>
   </snc>
   <trd lng="de">Parallelprojektion</trd>
@@ -343,7 +354,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: projek.xml,v $
+versio 1.30 2020/02/13 21:10:16
+Wolfram Diestel: formuloj per am
+
+Revision 1.29  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.28  2015/06/29 16:40:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -360,14 +377,5 @@ Revision 1.24  2003/04/07 16:36:29  revo
 Marc Bavant: kanona ~o: mod rim
 
 Revision 1.23  2003/01/02 17:50:18  revo
-Marc Bavant: +trd pl; centra ~o: mod dif
-Revision 1.22  2002/11/30 17:37:37  revo
-Marc Bavant: mod kunligo-operatoron
-Revision 1.21  2002/11/18 17:34:38  revo
-Marc Bavant: +frm; +trd pl
-Revision 1.20  2002/05/27 17:19:36  revo
-Marc Bavant: ~o (vektora): +fnt
-Revision 1.19  2002/05/20 16:37:09  revo
-Marc Bavant: oblikva ~o: -rim; +drv paralela ~o
 -->
 </vortaro>
