@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: grup.xml,v 1.67 2020/02/11 21:10:25 revo Exp $">
+<art mrk="$Id: grup.xml,v 1.68 2020/02/13 16:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>grup</rad>/o
@@ -242,14 +242,14 @@
     <fnt><bib>MatTerm</bib>, <lok>p. 14</lok></fnt>
     <dif>
       Tia <ref tip="super" cel="grupoi.0o">grupoido</ref>
-      <frm kod="am">(bb E,&#8224;)</frm>, ke &gcirc;ia
-      <ref cel="operac.0o.MAT">operacio</ref> <frm kod="am">&#8224;</frm>
+      <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>, ke &gcirc;ia
+      <ref cel="operac.0o.MAT">operacio</ref> <frm am="&#8224;">&#8224;</frm>
       estas
       <ref cel="asoci.0eca.MAT">asocieca</ref>,
       ke ekzistas <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento
       </ref>
-      en <frm kod="am">bb E</frm>, kaj ke por &ccirc;iu elemento en
-      <frm kod="am">bb E</frm> ekzistas &gcirc;ia
+      en <frm am="bb E"><g>E</g></frm>, kaj ke por &ccirc;iu elemento en
+      <frm am="bb E"><g>E</g></frm> ekzistas &gcirc;ia
       <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref>:
       <ekz>
         <ind>adicia <tld/>o</ind> <klr>(komuteca <tld/>o, kies operacio
@@ -629,12 +629,13 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatVort</bib></fnt>
     <dif>
-      <klr>(de <tld/>o <frm kod="am">(bb E,&#8224;)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>)</klr>
       Tia <ref tip="super" cel="grup.0o.MAT"><tld/>o</ref>
-      <frm kod="am">(bb A,&#8224;_A)</frm>, ke
-      <frm kod="am">bb A sub bb E</frm> kaj
-      <frm kod="am">x &#8224;_A y = x &#8224; y</frm>
-      por &ccirc;iuj <frm kod="am">x, y in bb A</frm>:
+      <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm>, ke
+      <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm> kaj
+      <frm am="x &#8224;_A y = x &#8224; y">x&#8224;<sub>A</sub>y =
+      x&#8224;y</frm>
+      por &ccirc;iuj <frm am="x, y in bb A">x, y&#8712;<g>A</g></frm>:
       <ekz>
         nemalplena subaro estas sub<tld/>o nur, se al &gcirc;i apartenas
         rezultoj de la operacio inter kiu ajn unua elemento kaj
@@ -1099,21 +1100,22 @@
   <snc>
     <dif>
       <klr>(por <ref cel="entjer.0o">entjero</ref>
-      <frm kod="am">n > 1</frm>) </klr>
+      <frm am="n gt 1">n &gt; 1</frm>) </klr>
       <ref cel="grup.kvocienta0o">Kvocienta <tld/>o</ref> de la
       adicia <tld/>o de entjeroj per la sub<tld/>o de
-      <frm kod="am">n</frm>-obloj;
+      <frm am="n">n</frm>-obloj;
       alidire: aro de &ccirc;iuj
       <ref cel="klas.nmodularesto0o">n-modulaj restoklasoj</ref>,
       provizita
       per la adicio
-      <frm kod="am">(p+n bb Z)+(q+n bb Z) =
-      (p+q)+n bb Z</frm>:
+      <frm am="(p+n bb Z)+(q+n bb Z) =
+      (p+q)+n bb Z">(p+n<g>Z</g>)+(q+n<g>Z</g>) =
+      (p+q)+n<g>Z</g></frm>:
       <ekz>
-        la <tld/>on de <frm kod="am">n</frm>-modulaj restoklasoj oni
+        la <tld/>on de <frm am="n">n</frm>-modulaj restoklasoj oni
         signas per
-        <frm kod="am">bb Z_n</frm> a&ubreve;
-        <frm kod="am">bb Z / (n bb Z)</frm>.
+        <frm am="bb Z_n"><g>Z</g><sub>n</sub></frm> a&ubreve;
+        <frm am="bb Z / (n bb Z)"><g>Z</g>/n<g>Z</g></frm>.
       </ekz>
     </dif>
     <ref tip="vid" cel="cikl.0a.grupo">cikla.</ref>
@@ -1134,17 +1136,17 @@
   <fnt><bib>MatTerm</bib>, <lok>p. 14</lok></fnt>
   <snc>
     <dif>
-      <klr>(de finia aro <frm kod="am">bb E</frm>) </klr>
+      <klr>(de finia aro <frm am="bb E"><g>E</g></frm>) </klr>
       Sub<tld/>o de ties <ref tip="super" cel="grup.simetria0o">simetria
       grupo</ref>, konsistanta el la <ref cel="par.0a.permuto">paraj
       </ref> permutoj:
       <ekz>
-        la alternan <tld/>on de <frm kod="am">n</frm>-elementa aro oni
-        kutime signas per <frm kod="am">A_n</frm>;
+        la alternan <tld/>on de <frm am="n">n</frm>-elementa aro oni
+        kutime signas per <frm am="A_n">A<sub>n</sub></frm>;
       </ekz>
       <ekz>
-        por <frm kod="am">n &gt;= 5</frm> la alterna <tld/>o
-        <frm kod="am">A_n</frm> estas
+        por <frm am="n &gt;= 5">n &#8805; 5</frm> la alterna <tld/>o
+        <frm am="A_n">A<sub>n</sub></frm> estas
         <ref cel="simpl.0a.grupo">simpla</ref>.
       </ekz>
     </dif>
@@ -1166,12 +1168,12 @@
   <snc>
     <dif>
       <klr>(de <ref cel="spac.topologia0o">topologia spaco</ref> 
-      &ccirc;e punkto <frm kod="am">a</frm>) </klr>
+      &ccirc;e punkto <frm am="a">a</frm>) </klr>
       <ref tip="super" cel="grup.0o.MAT">Grupo</ref> de &ccirc;iuj
       <ref cel="homoto.0a">homotopecaj</ref>
       <ref cel="klas.ekvivalento0o">ekvivalento-klasoj</ref>
       de <ref cel="voj.fermita0o">fermitaj vojoj</ref>,
-      originantaj &ccirc;e <frm kod="am">a</frm>, provizita per
+      originantaj &ccirc;e <frm am="a">a</frm>, provizita per
       <ref cel="lig.kun0o.MAT">kunligo</ref>.
     </dif>
   </snc>
@@ -1203,18 +1205,21 @@
     <subsnc mrk="grup.galeza0o.de_superkorpo">
       <dif>
         <klr>(de <ref cel="korp.super0o">superkorpo</ref>
-        <frm kod="am">bb "K'"</frm>
-        de <ref cel="korp.0o.MAT">korpo</ref> <frm kod="am">bb
-        K</frm>) </klr>
+        <frm am='hat bb K'><g>K'</g></frm>
+        de <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb
+        K"><g>K</g></frm>) </klr>
         <ref tip="super" cel="grup.0o.MAT"><tld lit="G"/>o</ref> de 
         &ccirc;iuj <ref cel="auxtom2.0o">a&ubreve;tomorfioj</ref> de 
-        <frm kod="am">bb "K'"</frm>, kiuj lasas la elementojn de
-        <frm kod="am">bb K</frm> sen&scirc;an&gcirc;aj:
+        <frm am='hat bb K'><g>K'</g></frm>, kiuj lasas la elementojn
+        de
+        <frm am="bb K"><g>K</g></frm> sen&scirc;an&gcirc;aj:
         <ekz>
-          la galezan <tld/>on de superkorpo <frm kod="am">bb "K'"</frm>
+          la galezan <tld/>on de superkorpo <frm am='hat bb
+          K'></frm>
           de
-          <frm kod="am">bb K</frm> oni foje signas per
-          <frm kod="am">Gal(bb "K'" / bb K)</frm>.
+          <frm am="bb K"><g>K</g></frm> oni foje signas per
+          <frm am='Gal(hat bb K / bb
+          K)'>Gal(<g>K'</g>/<g>K</g>)</frm>.
         </ekz>
       </dif>
     </subsnc>
@@ -1255,15 +1260,18 @@
   <snc>
     <dif>
       <klr>(de <ref cel="grup.0o.MAT"><tld/>o</ref>
-      <frm kod="am">bb G</frm> rilate
+      <frm am="bb G"><g>G</g></frm> rilate
       al <ref cel="invari.0a.subgrupo">invarianta</ref> subgrupo
-      <frm kod="am">bb H</frm> de &gcirc;i) </klr>
+      <frm am="bb H"><g>H</g></frm> de &gcirc;i) </klr>
       La aro de &ccirc;iuj
       <ref tip="prt" cel="klas.flanka0o">flankaj klasoj</ref> de
-      <frm kod="am">bb G</frm> rilate al <frm kod="am">bb H</frm>, 
+      <frm am="bb G"><g>G</g></frm> rilate al <frm am="bb
+      H"><g>H</g></frm>, 
       provizita per la
-      operacio <frm kod="am">(a bb H)*(b bb H) =
-      (a*b) bb H</frm>; simb. <frm kod="am">bb G / bb H</frm>.
+      operacio <frm am="(a bb H)*(b bb H) =
+      (a*b) bb H">(a<g>H</g>)&middot;(b<g>H</g>) =
+      (a&middot;b)<g>H</g></frm>; simb. <frm am="bb G / bb
+      H"><g>G</g>/<g>H</g></frm>.
     </dif>
     <rim>
       Ni preferas tiun terminon al la sinonima, malpli travidebla
@@ -1292,17 +1300,17 @@
   <fnt><bib>MatTerm</bib>, <lok>p. 14</lok></fnt>
   <snc>
     <dif>
-      <klr>(de finia aro <frm kod="am">bb E</frm>) </klr>
+      <klr>(de finia aro <frm am="bb E"><g>E</g></frm>) </klr>
       <ref tip="super" cel="grup.0o.MAT">Grupo</ref>, konsistanta el la
       aro
       de &ccirc;iuj <ref cel="bijekc.0o">bijekcioj</ref> super
-      <frm kod="am">bb E</frm>, provizita per la operacio
+      <frm am="bb E"><g>E</g></frm>, provizita per la operacio
       <ref cel="lig.kun0o.MAT">kunligo</ref>;
       alidire: <tld/>o de &ccirc;iuj <ref cel="substi.0o.MAT">substituoj</ref>
-      super <frm kod="am">bb E</frm>:
+      super <frm am="bb E"><g>E</g></frm>:
       <ekz>
-        la simetrian <tld/>on de <frm kod="am">n</frm>-elementa aro oni
-        kutime signas per <frm kod="am">S_n</frm>;
+        la simetrian <tld/>on de <frm am="n">n</frm>-elementa aro oni
+        kutime signas per <frm am="S_n">S<sub>n</sub></frm>;
       </ekz>
     </dif>
   </snc>
@@ -1317,7 +1325,10 @@
 </art>
 <!--
 $Log: grup.xml,v $
-versio 1.67 2020/02/11 21:10:25
+versio 1.68 2020/02/13 16:10:15
+Wolfram Diestel: formulo per atributo am
+
+Revision 1.67  2020/02/11 20:10:24  revo
 Wolfram Diestel: formuloj per AsciiMath
 
 Revision 1.66  2019/09/01 09:10:15  revo
@@ -1335,8 +1346,5 @@ aldono de trd cs per skripto de M. von Laer
 
 Revision 1.62  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
-
-Revision 1.61  2012/09/04 10:10:12  revo
-Jeromo Vasxe: + diskut/labor/stud~o
 -->
 </vortaro>
