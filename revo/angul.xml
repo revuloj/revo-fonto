@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: angul.xml,v 1.82 2020/02/13 17:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>angul</rad>/o <fnt><bib>PV</bib></fnt>
@@ -655,7 +655,7 @@
   <snc>
     <dif>
       <klr>(rilate al <ref cel="cirkl.0o.linio">cirklo
-      <sncref/></ref>)</klr>
+      <sncref/></ref>) </klr>
       <ref tip="super" cel="angul.0o.MAT"><tld lit="A"/>o</ref>,
       kies vertico koincidas kun la centro de la cirklo:
       <ekz>
@@ -669,8 +669,8 @@
       </ekz>
       <ekz>
         konstruu sektoron kun la centro je la poluso, radiuso
-        <frm><k>r</k>(&theta;<sub>i</sub>)</frm>, 
-        kaj centra <tld/>o <frm>&Delta;&theta;</frm>
+        <frm am="r(theta_i)">r(&theta;<sub>i</sub>)</frm>, 
+        kaj centra <tld/>o <frm am="Delta theta">&Delta;&theta;</frm>
         <fnt>
           <bib>Viki</bib>
           <lok><url ref='https://eo.wikipedia.org/?curid=164494'>Polusa
@@ -701,7 +701,7 @@
   <snc>
     <dif>
       <klr>(rilate al <ref cel="cirkl.0o.linio">cirklo
-      <sncref/></ref>)</klr>
+      <sncref/></ref>) </klr>
       <ref tip="super" cel="angul.0o.MAT"><tld lit="A"/>o</ref>,
       kies vertico situas sur la cirklo:
       <ekz>
@@ -785,13 +785,13 @@
     <dif>
       Tabelo, prezentanta la nombrojn de
       <ref cel="kombin.0ajxo.MAT">kombina&jcirc;oj</ref> de
-      <frm><k>n</k></frm>
-      po <frm><k>p</k></frm>, la&ubreve; tia tri<tld/>a tabelo de nombroj, ke
-      la nombro <frm>K<sup><k>p</k></sup><sub><k>n</k></sub></frm>,
-      situanta &ccirc;e la intersekco de linio <frm><k>n</k></frm> kaj
-      kolumno <frm><k>k</k></frm>, egalas al la sumo
-      <frm>K<sup><k>p</k>-1</sup><sub><k>n</k>-1</sub> +
-      K<sup><k>p</k></sup><sub><k>n</k>-1</sub></frm>
+      <frm am="n">n</frm>
+      po <frm am="p">p</frm>, la&ubreve; tia tri<tld/>a tabelo de nombroj, ke
+      la nombro <frm am="K_n^p">K<sup>p</sup><sub>n</sub></frm>,
+      situanta &ccirc;e la intersekco de linio <frm am="n">n</frm> kaj
+      kolumno <frm am="k">k</frm>, egalas al la sumo
+      <frm am="K_(n-1)^(p-1)+K_(n-1)^p">K<sup>p-1</sup><sub>n-1</sub> +
+      K<sup>p</sup><sub>n-1</sub></frm>
       de du nombroj de la anta&ubreve;a linio:
       <ekz>
         en la 10-a jarcento, la komentaro de Halayudha pri la verko de
@@ -844,11 +844,11 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm>M</frm> en
+      <klr>(de punkto <frm am="M">M</frm> en
       <ref cel="eben.afina0o">afina ebeno</ref>)</klr>
       Mezuro de la <ref cel="angul.0o.MAT"><tld/>o</ref> inter
       la <ref cel="aks.polusa0o">polusa akso</ref> kaj la duonrekto
-      <frm>OM</frm>, kie <frm>O</frm> estas la
+      <frm am="OM">OM</frm>, kie <frm am="O">O</frm> estas la
       <ref cel="origin.0o.de_polusa_koordinatsistemo">origino</ref>:
       <ekz>
         polusa <tld/>o estas la dua koordinato en la polusa
@@ -863,8 +863,8 @@
       <ekz>
         la minuskla litero &phi; <klr>[estas]</klr> uzata kiel simbolo por
         <klr>[...]</klr> la polusa <tld/>o (de la
-        <frm><k>z</k></frm>-akso) en matematiko, 
-        la azimuta <tld/>o (de la <frm><k>x</k></frm>-akso) en fiziko
+        <frm am="z">z</frm>-akso) en matematiko, 
+        la azimuta <tld/>o (de la <frm am="x">x</frm>-akso) en fiziko
         <fnt>
           <bib>Viki</bib>
           <lok><url ref='https://eo.wikipedia.org/?curid=245101'>Fio
@@ -902,8 +902,9 @@
     <dif>
       <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, naskita de
       &ccirc;iuj <ref cel="rekt.duon0o">duonrektoj</ref> kun komuna
-      origino <frm>O</frm>, trairantaj ian parton de
-      <ref cel="sfer.0o.surfaco">sfero</ref> kun centro en <frm>O</frm>:
+      origino <frm am="O">O</frm>, trairantaj ian parton de
+      <ref cel="sfer.0o.surfaco">sfero</ref> kun centro en
+      <frm am="O">O</frm>:
       <ekz>
         duedro, triedro, solido limata de duonkonusa surfaco estas
         solidaj <tld/>oj;
@@ -935,7 +936,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: angul.xml,v $
+versio 1.82 2020/02/13 17:10:17
+Wolfram Diestel: formuloj per am
+
+Revision 1.81  2017/11/30 23:10:31  revo
+Vito Redsky: +trd ro +trd pl
+
 Revision 1.80  2017/06/14 17:10:14  revo
 Ludoviko Francisco: kor ekz ebena ~o ; +tld
 
@@ -952,8 +959,5 @@ Revision 1.76  2015/11/02 09:10:15  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.75  2015/09/11 02:10:17  revo
-Evandro Avellar: +trd pt
-
-Revision 1.74  2015/07/04 08:37:30  revo
 -->
 </vortaro>
