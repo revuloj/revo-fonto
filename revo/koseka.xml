@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: koseka.xml,v 1.15 2020/02/13 18:10:23 revo Exp $">
 <kap>
 <rad>kosekant</rad>/o
 </kap>
@@ -12,35 +12,40 @@
   <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
   <snc mrk="koseka.0o.entriangulo">
     <dif>
-      <klr>(de <ref cel="angul.0o.MAT">angulo</ref> <frm>&alfa;</frm>)</klr>
+      <klr>(de <ref cel="angul.0o.MAT">angulo</ref> <frm
+      am="alpha">&alfa;</frm>)</klr>
       <ref cel="sekant.0o">Sekanto</ref> de &gcirc;ia 
       <ref cel="komple1.0o.angulo">komplemento</ref>; simb. 
-      <frm>cosec &alfa;</frm> a&ubreve; <frm>kosek &alfa;</frm>:
+      <frm am="cosec alpha">cosec &alfa;</frm> a&ubreve; <frm>kosek &alfa;</frm>:
       <ekz>
         la <tld/>o de orto egalas al <frm>1</frm>.
       </ekz>
     </dif>
     <bld lok="../bld/trigo.jpg">
-      <!-- la <tld/>o de angulo <frm>&alfa;</frm> egalas al <frm>OU/OM</frm> -->
+      <!-- la <tld/>o de angulo <frm>&alfa;</frm> egalas al <frm>OU/OM</frm>
+      -->
       la <tld/>o de angulo >&alfa; egalas al OU/OM 
     </bld>    
   </snc>
   <snc mrk="koseka.0o.funkcio">
     <dif>
-      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
-      reelon <frm><k>x</k></frm> al la 
-      <tld/>o <sncref ref="koseka.0o.entriangulo"/> de angulo, kies mezuro en 
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu
+      &jcirc;etas
+      reelon <frm am="x">x</frm> al la 
+      <tld/>o <sncref ref="koseka.0o.entriangulo"/> de angulo, kies
+      mezuro en 
       <ref cel="radian.0o">radianoj</ref> diferencas
-      de <frm><k>x</k></frm> per oblo de <frm>2&pi;</frm>; 
+      de <frm am="x">x</frm> per oblo de <frm am="2 pi">2&pi;</frm>; 
       simb. <frm>cosec</frm> a&ubreve; <frm>kosek</frm>:
       <ekz>
         <tld/>o estas perioda funkcio, kun 
-        <ref cel="period.0o.funkcio">periodo <sncref/></ref> <frm>2&pi;</frm>.
+        <ref cel="period.0o.funkcio">periodo <sncref/></ref>
+        <frm am="2 pi">2&pi;</frm>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_s;&c_e;&c_k;&c_a;&c_n;&c_s;</trd>
-  <trd lng="cs">kosekans <klr>(úhlu)</klr></trd>
+  <trd lng="cs">kosekans <klr>(&uacute;hlu)</klr></trd>
   <trd lng="de">Kosekans</trd>
   <trd lng="en">cosecant</trd>
   <trd lng="es">cosecante</trd>
@@ -66,10 +71,10 @@
       la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
       <ref cel="koseka.0o.funkcio"><tld/>o</ref> al
-      <frm>[-&pi;/2,0[&#8746;]0,&pi;/2]</frm>; 
+      <frm am="[-pi/2,0|~ uu ~|0,pi/2]">[-&pi;/2,0[ &#8746; ]0,&pi;/2]</frm>; 
       simb. <frm>arccosec</frm> a&ubreve; <frm>arkkosek</frm>:
       <ekz>
-        ark<tld/>o de <frm>1</frm> egalas al <frm>&pi;/2</frm>.
+        ark<tld/>o de <frm>1</frm> egalas al <frm am="pi/2">&pi;/2</frm>.
       </ekz>
     </dif>
     <rim>
@@ -87,7 +92,13 @@
 </art>
 
 <!--
-$Log$
+$Log: koseka.xml,v $
+versio 1.15 2020/02/13 18:10:23
+Wolfram Diestel: formuloj per am
+
+Revision 1.14  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.13  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -104,14 +115,5 @@ Revision 1.9  2003/03/09 17:34:14  revo
 Marc Bavant: koherigis simb
 
 Revision 1.8  2002/12/17 20:10:09  revo
-Dmitri Gabinski: +trd be
-Revision 1.7  2002/11/24 17:34:50  revo
-Marc Bavant: mod frm
-Revision 1.6  2002/11/19 17:31:54  revo
-Marc Bavant: +frm
-Revision 1.5  2002/08/25 19:01:33  revo
-Marc Bavant: +ref int; +trd pl
-Revision 1.4  2002/07/29 18:13:36  revo
-Marc Bavant: +ref al periodo
 -->
 </vortaro>
