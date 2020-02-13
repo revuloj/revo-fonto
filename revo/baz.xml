@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: baz.xml,v 1.58 2020/02/13 20:10:18 revo Exp $">
 <kap>
    <ofc>1</ofc>
    <rad>baz</rad>/o <fnt><bib>PIV1</bib></fnt>
@@ -107,16 +107,15 @@
          nombro:
          <ekz>
            la <tld/>o de nia kutima nombrosistemo estas <frm>10</frm>
-           <klr>(la ciferoj alprenas unu el la dek valoroj de
+           <klr> (la ciferoj alprenas unu el la dek valoroj de
            <frm>0</frm>
            &gcirc;is <frm>9</frm>)</klr>;
          </ekz>
          <ekz>
            la komputikistoj uzas la nombrosistemojn kun la <tld/>oj
-           <frm>2</frm>,
-           <frm>8</frm>, <frm>16</frm> <klr>(duuman, okuman kaj
-           deksesuman
-           nombrosistemojn)</klr>.
+           <frm>2</frm>, <frm>8</frm>, <frm>16</frm> <klr> (duuman,
+           okuman kaj
+           deksesuman nombrosistemojn)</klr>.
          </ekz>
        </dif>
        <ref tip="vid" cel="um.0.nombrosistemo">-um.</ref>
@@ -135,12 +134,11 @@ tip="ind"> (&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_y;
        <fnt><bib>PIV1</bib></fnt>
        <dif>
          <klr>(de <ref cel="logari.0o">logaritmo</ref> a&ubreve;
-         <ref cel="ekspon1.0o">eksponencialo</ref>)</klr>
+         <ref cel="ekspon1.0o">eksponencialo</ref>) </klr>
          La nombro, kies logaritmo egalas <frm>1</frm>, a&ubreve; la bildo
-de
-         <frm>1</frm> per eksponencialo:
+         de <frm>1</frm> per eksponencialo:
          <ekz>
-           la nombro <frm><k>e</k></frm>,
+           la nombro <frm am="e"><k>e</k></frm>,
            <ind><tld/>o de naturaj logaritmoj</ind>
            <fnt><bib>MatVort</bib></fnt>.
            <trd lng="de">Basis der nat&uuml;rlichen Logarithmen</trd>
@@ -209,7 +207,7 @@ tip="ind">
        <fnt><bib>EKV</bib><lok>&para;45</lok></fnt>
        <dif>
          <klr>(de <ref cel="modul.0o.strukt">modulo</ref> a&ubreve;
-         <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+         <ref cel="spac.vektora0o">vektora spaco</ref>) </klr>
          <ref cel="liber.0a.lineare">Libera</ref> subaro, kiu
          <ref cel="nask.0i.MAT">naskas</ref> la tutan spacon:
          <ekz>
@@ -217,11 +215,11 @@ tip="ind">
            &gcirc;iaj <tld/>oj havas samtiom da elementoj;
          </ekz>
          <ekz>
-           se naskanta subaro <frm><g>N</g></frm> de vektora spaco
-           inkluzivas
-           liberan subaron <frm><g>L</g></frm>,
-           ekzistas <tld/>o inkluzivanta <frm><g>L</g></frm> kaj
-           inkluzivata de <frm><g>N</g></frm>;
+           se naskanta subaro <frm am="bb N"><g>N</g></frm> de vektora
+           spaco inkluzivas liberan subaron <frm am="bb
+           L"><g>L</g></frm>,
+           ekzistas <tld/>o inkluzivanta <frm am="bb L"><g>L</g></frm>
+           kaj inkluzivata de <frm am="bb N"><g>N</g></frm>;
          </ekz>
          <ekz>
            <ind><tld/>vektoro</ind> <klr>(&ccirc;iu elemento de la
@@ -244,8 +242,7 @@ tip="ind">
          ke
          por
          kelkaj aplikoj estas oportune uzi indican skriba&jcirc;on de la
-tipo
-         <frm>&#8721;
+         tipo <frm am="sum alpha_i*e_i">&#8721;
          &alfa;<sub><k>i</k></sub>&#8729;<g>e</g><sub><k>i</k></sub></frm>
          kaj tio ebligas ordigi la <tld/>vektorojn.
        </rim>
@@ -265,9 +262,10 @@ tipo
      <subsnc mrk="baz.0o.topologio">
        <dif>
          <klr>(de <ref cel="topolo.0o.strukturo">topologio</ref>
-         <frm><g>T</g></frm>)</klr>
-         Tia subaro de <frm><g>T</g></frm>, ke &ccirc;iu elemento de
-         <frm><g>T</g></frm> estas kuna&jcirc;o de elementoj el la <tld/>o:
+         <frm am="bb T"><g>T</g></frm>)</klr>
+         Tia subaro de <frm am="bb T"><g>T</g></frm>, ke &ccirc;iu elemento de
+         <frm am="bb T"><g>T</g></frm> estas kuna&jcirc;o de elementoj el la 
+         <tld/>o:
          <ekz>
            en <ref cel="spac.metrika0o">metrika spaco</ref>, la aro da
            &ccirc;iuj malfermitaj
@@ -523,15 +521,16 @@ czym&sacute;)</klr></trd>
    <uzo tip="fak">MAT</uzo>
    <snc>
      <dif>
-       <klr>(de bazo <frm>(<g>e</g><sub><k>i</k></sub>)</frm> de
-       <ref cel="spac.vektora0o">vektora spaco</ref>
+       <klr>(de bazo <frm am="(e_i)">(<g>e</g><sub><k>i</k></sub>)</frm>
+       de <ref cel="spac.vektora0o">vektora spaco</ref>
        <frm><g>E</g></frm>)</klr>
        Tia <ref cel="baz.0o.vektoraspaco"><tld/>o <sncref/></ref>
-       <frm>(<g>e</g><sup><k>i</k></sup>)</frm> de la
-       <ref cel="dual.0o.MAT">dualo</ref> de <frm><g>E</g></frm>, ke
-       <frm><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
-       egalas al <frm>1</frm>, se <frm><k>i</k> = <k>j</k></frm>, kaj al
-       <frm>0</frm> aliokaze.
+       <frm am="(e^i)">(<g>e</g><sup><k>i</k></sup>)</frm> de la
+       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb
+       E"><g>E</g></frm>, ke <frm am="bb e^i(bb e_j)"
+       ><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
+       egalas al <frm>1</frm>, se <frm am="i=j"
+       ><k>i</k> = <k>j</k></frm>, kaj al <frm>0</frm> aliokaze.
      </dif>
    </snc>
    <adm>
@@ -558,16 +557,16 @@ czym&sacute;)</klr></trd>
    <snc>
      <dif>
        <klr>(de <ref cel="spac.vektora0o">vektora spaco</ref>
-       <frm><g>K</g><sup><k>n</k></sup></frm>)</klr>
+       <frm am="bb K^n"><g>K</g><sup><k>n</k></sup></frm>) </klr>
        <ref tip="super" cel="baz.0o.vektoraspaco">Bazo</ref> konsistanta
-       el
-       la opoj, kies &ccirc;iuj <ref cel="term.0o.opo">termoj</ref> egalas
-al
-       la nulo de <frm><g>K</g></frm>, krom unu, kiu egalas al &gcirc;ia
-unuo:
+       el la opoj, kies &ccirc;iuj <ref cel="term.0o.opo">termoj</ref> egalas
+       alla nulo de <frm am="bb K"><g>K</g></frm>, krom unu, kiu egalas
+       al &gcirc;ia
+       unuo:
        <ekz>
-         la <frm><k>p</k></frm>-a komponanto de vektoro la&ubreve; la kanona
-         <tld/>o egalas al &gcirc;ia <frm><k>p</k></frm>-a termo.
+         la <frm am="p"><k>p</k></frm>-a komponanto de vektoro la&ubreve; la
+         kanona <tld/>o egalas al &gcirc;ia <frm am="p"><k>p</k></frm>-a
+         termo.
        </ekz>
      </dif>
    </snc>
@@ -586,7 +585,13 @@ unuo:
 </drv>
 </art>
 <!--
-$Log$
+$Log: baz.xml,v $
+versio 1.58 2020/02/13 20:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.57  2017/12/20 23:10:20  revo
+Vito Redsky: +trd ro
+
 Revision 1.56  2017/08/25 22:10:19  revo
 Vito Redsky: +trd ro +trd pl
 
@@ -603,8 +608,5 @@ Revision 1.52  2015/02/01 18:10:15  revo
 Alain Gerard: tajperaro
 
 Revision 1.51  2015/02/01 15:10:15  revo
-Alain Gerard: +fnt
-
-Revision 1.50  2015/02/01 14:10:16  revo
 -->
 </vortaro>
