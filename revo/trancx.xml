@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: trancx.xml,v 1.40 2020/02/14 00:10:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tran&ccirc;</rad>/i <fnt><bib>PV</bib></fnt>
@@ -470,14 +470,17 @@
   <snc>
     <dif>
       <klr>(en la aro de <ref cel="racion.0o">racionaloj</ref>)</klr>
-      Tia duopo <frm>(<g>A</g>,<g>B</g>)</frm> el subaroj de la aro de
+      Tia duopo <frm am="(bb A,bb B)">(<g>A</g>,<g>B</g>)</frm> el
+      subaroj de la aro de
       racionaloj, ke:
-      (1) &ccirc;iu elemento de <frm><g>A</g></frm> estas strikte malpli
-      granda ol ajna elemento de <frm><g>B</g></frm>;
-      (2) por &ccirc;iu pozitiva racionalo <frm>&epsilon;</frm> ekzistas
-      tiaj <frm><k>x</k>&#8712;<g>A</g></frm> kaj
-      <frm><k>y</k>&#8712;<g>B</g></frm>, ke
-      <frm>0 &lt; <k>y</k>-<k>x</k> &lt; &epsilon;</frm>:
+      (1) &ccirc;iu elemento de <frm am="bb A"><g>A</g></frm> estas strikte
+      malpli
+      granda ol ajna elemento de <frm am="bb B"><g>B</g></frm>;
+      (2) por &ccirc;iu pozitiva racionalo <frm am="epsilon">&epsilon;</frm> ekzistas
+      tiaj <frm am="x in bb A"><k>x</k>&#8712;<g>A</g></frm> kaj
+      <frm am="y in bb B"><k>y</k>&#8712;<g>B</g></frm>, ke
+      <frm am="0 lt y-x lt epsilon">0 &lt; <k>y</k>-<k>x</k> &lt;
+      &epsilon;</frm>:
       <ekz>
         neracionalo estas difinebla per <klr>(dedekinda)</klr> <tld/>o
         farata en racionaloj
@@ -499,7 +502,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: trancx.xml,v $
+versio 1.40 2020/02/14 00:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.39  2018/07/23 17:10:15  revo
+Jeromo Vasxe: + mis~o
+
 Revision 1.38  2015/09/05 13:10:16  revo
 Jeromo Vasxe: + ekz
 
@@ -516,8 +525,5 @@ Revision 1.34  2012/10/23 00:14:05  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.33  2011/07/05 14:10:17  revo
-Jozefo Horvath: kor hu detranchi
-
-Revision 1.32  2008/01/29 17:30:40  revo
 -->
 </vortaro>
