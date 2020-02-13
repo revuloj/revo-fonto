@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: koefic.xml,v 1.32 2020/02/13 17:10:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>koeficient</rad>/o
@@ -39,9 +39,10 @@
         Nombro, kiu, metite anta&ubreve; algebra kvanto, montras kiomfoje
         oni devas &gcirc;in multobligi:
         <ekz>
-          en la skriba&jcirc;o <frm>2.<k>a</k>+3.<k>b</k></frm>
-          la nombro <frm>2</frm> (resp. <frm>3</frm>) estas <tld/>o
-          de la kvanto <frm><k>a</k></frm> (resp. <frm><k>b</k></frm>).
+          en la skriba&jcirc;o <frm am="2*a+3*b">2&middot;a+3&middot;b</frm>
+          la nombro <frm am="2">2</frm> (resp. <frm am="3">3</frm>)
+          estas <tld/>o
+          de la kvanto <frm am="a">a</frm> (resp. <frm am="b">b</frm>).
         </ekz>
       </dif>
       <trd lng="de">Koeffizient</trd>
@@ -64,16 +65,19 @@
     <subsnc mrk="koefic.0o.polinomo">
       <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
       <dif>
-        <klr>(de <ref cel="polino.0o">polinomo</ref> <frm><g>P</g></frm>
+        <klr>(de <ref cel="polino.0o">polinomo</ref> 
+        <frm am="bb P"><g>P</g></frm>
         rilate al <ref cel="indic.0o.familio">indico</ref>
-        <frm><k>i</k></frm>)</klr>
-        La valoro <frm><g>P</g><sub><k>i</k></sub></frm>:
+        <frm am="i">i</frm>)</klr>
+        La valoro <frm am="bb P_i"><g>P</g><sub>i</sub></frm>:
         <ekz>
-          la <frm><k>k</k></frm>-a <tld/>o (t.e. rilata al indico
-          <frm><k>k</k></frm>) de la <frm><k>n</k></frm>-a
-          potenco de <frm>(<k>b</k>.<g>X</g>+<k>a</k>.<g>1</g>)</frm>
+          la <frm am="k">k</frm>-a <tld/>o (t.e. rilata al indico
+          <frm am="k">k</frm>) de la <frm am="n">n</frm>-a
+          potenco de <frm am="b*bb X+a*bb 1"
+          >(b&middot;<g>X</g>+a&middot;<g>1</g>)</frm>
           estas
-          <frm>K<sup><k>k</k></sup><sub><k>n</k></sub><k>a</k><sup><k>n</k>-<k>k</k></sup><k>b</k><sup><k>k</k></sup></frm>.
+          <frm am="K_n^ka^(n-k)b^k"
+          >K<sup>k</sup><sub>n</sub>a<sup>n-k</sup>b<sup>k</sup></frm>.
         </ekz>
       </dif>
       <ref tip="sin" cel="term.0o.polinomo">termo.</ref>
@@ -122,7 +126,7 @@
   <trd lng="ca">coeficient</trd>
   <trdgrp lng="cs">
     <trd>koeficient</trd>,
-    <trd>součinitel</trd>
+    <trd>sou&ccaron;initel</trd>
   </trdgrp>
   <trd lng="de">Koeffizient</trd>
   <trd lng="en">coefficient</trd>
@@ -134,7 +138,7 @@
   <trd lng="ru">&c_k;&c_o;&c_e;&c_f;&c_f;&c_i;&c_c;&c_i;&c_je;&c_n;&c_t;</trd>
   <trdgrp lng="sk">
     <trd>koeficient</trd>,
-    <trd>súčiniteľ</trd>
+    <trd>s&uacute;&ccaron;inite&lcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -149,7 +153,7 @@
   <trdgrp lng="cs">
     <trd>sklon</trd>,
     <trd>sm&ecaron;rnice</trd>,
-    <trd>směrnice přímky</trd>
+    <trd>sm&ecaron;rnice p&rcaron;&iacute;mky</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Steigung</trd>,
@@ -174,7 +178,13 @@
 
 </art>
 <!--
-$Log$
+$Log: koefic.xml,v $
+versio 1.32 2020/02/13 17:10:15
+Wolfram Diestel: formulo per atributo am
+
+Revision 1.31  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.30  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -191,14 +201,5 @@ Revision 1.26  2005/06/10 16:31:01  revo
 Jozefo Horvath: + trd hu
 
 Revision 1.25  2005/04/05 16:37:01  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.24  2005/03/28 17:14:38  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.23  2005/01/13 18:39:06  revo
-Wieland Pusch: +trd de
-
-Revision 1.22  2003/12/09 17:30:41  revo
 -->
 </vortaro>
