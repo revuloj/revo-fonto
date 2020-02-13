@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: arangx.xml,v 1.33 2020/02/13 17:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>aran&gcirc;</rad>/i <fnt><bib>PV</bib></fnt>
@@ -214,23 +214,24 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
     <dif>
-      <klr>(de <frm><k>p</k></frm> el <frm><k>n</k></frm>,
-      de <frm><k>n</k></frm> po <frm><k>p</k></frm>)</klr>
-      &Ccirc;iu el la diversaj manieroj vicigi <frm><k>p</k></frm> objektojn
+      <klr>(de <frm am="p">p</frm> el <frm am="n">n</frm>,
+      de <frm am="n">n</frm> po <frm am="p">p</frm>)</klr>
+      &Ccirc;iu el la diversaj manieroj vicigi <frm am="p">p</frm> objektojn
       el <frm><k>n</k></frm>-elementa aro:
       <ekz>
-        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de <frm><k>n</k></frm> po
-        <frm><k>p</k></frm> oni signas per
-        <frm>A<sup><k>p</k></sup><sub><k>n</k></sub> =
-        <k>n</k>(<k>n</k>-1)(<k>n</k>-2)...
-        (<k>n</k>-<k>p</k>+2)(<k>n</k>-<k>p</k>+1)</frm>;
+        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de <frm am="n">n</frm> po
+        <frm am="p">p</frm> oni signas per
+        <frm
+        am="A_n^p=n(n-1)(n-2)...(n-p+2)(n-p+1)">A<sup>p</sup><sub>n</sub>
+        
+        = n(n-1)(n-2)...(n-p+2)(n-p+1)</frm>;
       </ekz>
       <ekz>
         la ses <tld/>a&jcirc;oj de du elementoj el la aro
-        <frm>{<k>a</k>,<k>b</k>,<k>c</k>}</frm> estas
-        <frm><k>ab</k></frm>, <frm><k>ac</k></frm>,
-        <frm><k>bc</k></frm>, <frm><k>ba</k></frm>,
-        <frm><k>ca</k></frm>, <frm><k>cb</k></frm>.
+        <frm am="{a,b,c}">{a,b,c}</frm> estas
+        <frm am="ab">ab</frm>, <frm am="ac">ac</frm>,
+        <frm am="bc">bc</frm>, <frm am="ba">ba</frm>,
+        <frm am="ca">ca</frm>, <frm am="cb">cb</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -411,7 +412,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: arangx.xml,v $
+versio 1.33 2020/02/13 17:10:19
+Wolfram Diestel: formuloj per am
+
+Revision 1.32  2019/06/13 09:10:14  revo
+Guillermo Molleda Jimena: trd es
+
 Revision 1.31  2013/07/05 01:10:12  revo
 Jeromo Vasxe: + 2 trd fr
 
@@ -427,9 +434,5 @@ korektis la nomon de la dosiero
 
 Revision 1.27  2012/01/08 11:10:09  revo
 Wolfram Diestel: aldonis referencojn
-
-Revision 1.26  2010/07/22 16:30:24  revo
-Agustin Garcia Lopez: +trd es
-
 -->
 </vortaro>
