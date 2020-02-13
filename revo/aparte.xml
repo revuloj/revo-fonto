@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: aparte.xml,v 1.31 2020/02/13 17:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>aparten</rad>/i
@@ -68,15 +68,16 @@
       <klr>(al <ref cel="ar.0o.MAT">aro</ref>)</klr>
       Esti <ref cel="elemen.0o.MAT">elemento</ref> de &gcirc;i:
       <ekz>
-        la nombro <frm>2</frm> <tld/>as al la aro de entjeroj;
+        la nombro <frm am="2">2</frm> <tld/>as al la aro de entjeroj;
       </ekz>
       <ekz>
-        la fakton, ke elemento <frm><k>a</k></frm> <tld/>as al aro
-        <frm><g>E</g></frm>, oni signas per <frm><k>a</k>&#8712;<g>E</g></frm>
-        <klr>(legu: a apartenas al e, a&ubreve;: a (estas) en e)</klr>,
-        a&ubreve; per <frm><g>E</g>&#8715;<k>a</k></frm>
-        <klr>(legu: e enhavas a)</klr>, &gcirc;ian malon per
-        <frm><k>a</k>&#8713;<g>E</g></frm>.  
+        la fakton, ke elemento <frm am="a">a</frm> <tld/>as al aro
+        <frm am="bb E"><g>E</g></frm>, oni signas per
+        <frm am="a in bb E">a&#8712;<g>E</g></frm>
+        <klr> (legu: a apartenas al e, a&ubreve;: a (estas) en e)</klr>,
+        a&ubreve; per <frm am="bb E &#8715; a"><g>E</g>&#8715;<k>a</k></frm>
+        <klr> (legu: e enhavas a)</klr>, &gcirc;ian malon per
+        <frm am="a notin bb E">a&#8713;<g>E</g></frm>.  
     </ekz>
     </dif>
     <refgrp tip="vid">
@@ -151,7 +152,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: aparte.xml,v $
+versio 1.31 2020/02/13 17:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.30  2015/09/11 02:10:25  revo
+Evandro Avellar: +trd pt
+
 Revision 1.29  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -168,8 +175,5 @@ Revision 1.25  2004/07/13 18:22:53  revo
 Viliam Bur: +trd sk
 
 Revision 1.24  2003/11/13 18:49:42  revo
-Bart Demeyere: +mrkoj
-
-Revision 1.23  2003/03/05 17:33:41  revo
 -->
 </vortaro>
