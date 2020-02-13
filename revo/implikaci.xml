@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: implikaci.xml,v 1.9 2020/02/11 21:10:26 revo Exp $">
+  <art mrk="$Id: implikaci.xml,v 1.10 2020/02/13 14:10:25 revo Exp $">
     <kap>
       <rad>implikaci</rad>/o
     </kap>
@@ -16,9 +16,9 @@
           <ref tip="super" cel="lig.0ilo.MAT">ligilo<sncref/></ref>
           kaj la responda         
           <ref tip="super" cel="operac.logika0o">logika operacio</ref>,
-          simbole skribata <frm kod="am">A =&gt; B</frm>
+          simbole skribata <frm am="A =&gt; B">A&#8658;B</frm>
           (legu: <ctl>se a, tiam bo</ctl>) kaj reduktebla al kombino
-          de nego kaj a&ubreve;o: <frm kod="am">neg A vv B</frm>;
+          de nego kaj a&ubreve;o: <frm am="neg A vv B">&#172;A&#8744;B</frm>;
           <ekz>
             ili <klr>(aprioraj lingvoj)</klr> havas simplan, rigidan
             sintakson, kaj <klr>...</klr> dependas kvaza&ubreve; parazite de
@@ -29,7 +29,7 @@
 		  >Enkonduka lernolibro de interlingvistiko</url></lok></fnt>;
           </ekz><ekz>
             rimarku la plej gravan &scirc;an&gcirc;on &ccirc;e la transformo de
-            <frm kod="am">A=&gt;B</frm> al <frm kod="am">B</frm>: 
+            <frm am="A=&gt;B">A&#8658;B</frm> al <frm am="B">B</frm>: 
             ... regulo kiun oni bezonas
             estas nomata forigo de <tld/>o, a&ubreve; el<tld/>igo
             <fnt>
@@ -73,9 +73,9 @@
           Rilata al <tld/>o, entenanta <tld/>on:
           <ekz>
             la pozitiva <tld/>a propozicikalkulo entenas du aksiomojn:
-            <frm kod="am">A=&gt;(B=&gt;A)</frm> kaj
-            <frm kod="am">
-              (A=&gt;(B=&gt;C))=&gt;((A=&gt;B)=&gt;(A=&gt;C))</frm>,
+            <frm am="A=&gt;(B=&gt;A)">A&#8658;(B&#8658;A)</frm> kaj
+            <frm am="(A=&gt;(B=&gt;C))=&gt;((A=&gt;B)=&gt;(A=&gt;C))"
+            >(A&#8658;(B&#8658;C))&#8658;((A&#8658;B)&#8658;(A&#8658;C)</frm>,
             kaj unu derivregulon: la el<tld/>igon.
           </ekz>
         </dif>
@@ -93,10 +93,11 @@
       <uzo tip="fak">MAT</uzo>
       <snc>
         <dif>
-          Por du propozicioj <frm kod="am">A</frm> kaj <frm
-          kod="am">B</frm>, kajo de
+          Por du propozicioj <frm am="A">A</frm> kaj <frm
+          am="B">B</frm>, kajo de
           iliaj reciprokaj <tld/>oj:
-          <frm kod="am">A iff B equiv (A =&gt; B) ^^ (B =&gt; A)</frm>;
+          <frm am="A iff B equiv (A =&gt; B) ^^ (B =&gt; A)">A&#8660;B =
+          (A&#8658;B)&#8743;(B&#8658;A)</frm>;
           <ekz>
             difini ekvivalentecon per amba&ubreve;direkta <tld/>o.
           </ekz>
@@ -127,11 +128,12 @@
       <snc>
         <dif>
           Unu el la &ccirc;efaj derivreguloj de la propozicia kalkulo:
-          kiam estas konstatitaj la propozicioj <frm kod="am">A</frm>
+          kiam estas konstatitaj la propozicioj <frm am="A">A</frm>
           kaj
-          <frm kod="am">A=&gt;B</frm>, tiam oni rajtas konkludi, ke
+          <frm am="A=&gt;B">A&#8658;B</frm>, tiam oni rajtas konkludi,
+          ke
           validas
-          <frm kod="am">B</frm>.
+          <frm am="B">B</frm>.
         </dif>
       </snc>
       <trd lng="en">modus ponens</trd>
@@ -145,8 +147,11 @@
 
   <!--
   $Log: implikaci.xml,v $
-versio 1.9 2020/02/11 21:10:26
-Wolfram Diestel: formuloj per AsciiMath
+versio 1.10 2020/02/13 14:10:25
+Wolfram Diestel: redakto: formulo per atributo am
+
+  Revision 1.9  2020/02/11 20:10:25  revo
+  Wolfram Diestel: formuloj per AsciiMath
 
   Revision 1.8  2015/07/04 08:37:36  revo
   aldono de trd cs per skripto de M. von Laer
@@ -164,8 +169,5 @@ Wolfram Diestel: formuloj per AsciiMath
   Sergio Pokrovskij: kor url
 
   Revision 1.3  2005/06/22 16:31:12  revo
-  Sergio Pokrovskij: -tajperaroj
-
-  Revision 1.2  2005/06/20 16:31:29  revo
 -->
 </vortaro>
