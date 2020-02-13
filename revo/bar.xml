@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: bar.xml,v 1.58 2020/02/13 18:10:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bar</rad>/i
@@ -192,12 +192,13 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(de subaro <frm><g>A</g></frm> de
+      <klr>(de subaro <frm am="bb A"><g>A</g></frm> de
       <ref cel="ar.orda0o">orda aro</ref>
-      <frm>(<g>E</g>,&#8804;)</frm>)</klr>
-      Tia elemento <frm><k>b</k></frm> en <frm><g>E</g></frm>, ke por
-      &ccirc;iu <frm><k>x</k></frm> en <frm><g>A</g></frm>
-      veras <frm><k>x</k> &#8804; <k>b</k></frm>:
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
+      Tia elemento <frm am="b"><k>b</k></frm> en
+      <frm am="bb E"><g>E</g></frm>, ke por
+      &ccirc;iu <frm am="x"><k>x</k></frm> en <frm am="bb A"><g>A</g></frm>
+      veras <frm am="x le b"><k>x</k> &#8804; <k>b</k></frm>:
       <ekz>
         <ref tip="sub" cel="bar.suba0o">suba <tld/>o</ref>;
       </ekz>
@@ -398,7 +399,7 @@
     <fnt><bib>EKV</bib><lok>&para;44</lok></fnt>
     <subsnc mrk="bar.0ita.subaro">
       <dif>
-        <klr>(p.p. subaro <frm><g>A</g></frm> de
+        <klr>(p.p. subaro <frm am="bb A"><g>A</g></frm> de
         <ref cel="ar.orda0o">orda aro</ref>)</klr>
         Tia, ke &gcirc;i akceptas <ref cel="bar.0o.MAT"><tld/>on</ref>:
         <ekz>
@@ -415,7 +416,8 @@
       <rim>
         Se la konsiderata ordo-rilato estas
         <ref cel="tut.0eca.rilato">tuteca</ref> kaj signata per
-        <frm>&#8804;</frm>, oni kutime postulas, ke la subaro akceptu
+        <frm>&#8804;</frm>, oni kutime postulas, ke la subaro
+        akceptu
         kaj
         superan kaj suban <tld/>ojn.
       </rim>
@@ -718,14 +720,15 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      <klr>(de subaro <frm><g>A</g></frm> de
+      <klr>(de subaro <frm am="bb A"><g>A</g></frm> de
       <ref cel="ar.orda0o">orda aro</ref>
-      <frm>(<g>E</g>,&#8804;)</frm>)</klr>
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>) </klr>
       <ref tip="super" cel="bar.0o.MAT"><tld lit="B"/>o</ref> de la sama
       aro, provizita per la inversa rilato:
       <ekz>
         la aro de &ccirc;iuj subaj baroj de la reela intervalo
-        <frm>[0,1[</frm> estas la aro de strikte negativaj reeloj.
+        <frm am="[0,1[">[0,1[</frm> estas la aro de strikte negativaj
+        reeloj.
       </ekz>
     </dif>
     <rim>
@@ -763,9 +766,9 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      <klr>(de subaro <frm><g>A</g></frm> de
+      <klr>(de subaro <frm am="bb A"><g>A</g></frm> de
       <ref cel="ar.orda0o">orda aro</ref>
-      <frm>(<g>E</g>,&#8804;)</frm>)</klr>
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>) </klr>
       <ref tip="super" cel="bar.0o.MAT"><tld lit="B"/>o</ref> de
       &gcirc;i:
       <ekz>
@@ -814,7 +817,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: bar.xml,v $
+versio 1.58 2020/02/13 18:10:27
+Wolfram Diestel: formuloj per am
+
+Revision 1.57  2018/11/09 08:10:13  revo
+Petr Diblik: +trd cs
+
 Revision 1.56  2017/12/19 13:10:18  revo
 Michel Cantigneaux: "bar/il/o" fundamenta kunmetajxo el la U.V.
 
@@ -831,8 +840,5 @@ Revision 1.52  2009/03/03 17:30:50  revo
 Sebastian Cyprych: +trd pl; kor trd pl; belarangxo (ree)
 
 Revision 1.51  2009/02/28 17:30:29  revo
-Sebastian Cyprych: +trd pl; kor trd pl; belarangxo
-
-Revision 1.50  2008/01/19 17:30:21  revo
 -->
 </vortaro>
