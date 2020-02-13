@@ -2,9 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
-<!-- la varia&jcirc;o idealism/o estas intence malsupre &ccirc;i, por aldoni la oficialan
-     radikon idealism/ la&ubreve; 3a OA, kaj samtempe montri ke ni konsideras &gcirc;in
+<art mrk="$Id: ideal.xml,v 1.35 2020/02/13 21:10:22 revo Exp $">
+<!-- la varia&jcirc;o idealism/o estas intence malsupre &ccirc;i, por aldoni la
+oficialan
+     radikon idealism/ la&ubreve; 3a OA, kaj samtempe montri ke ni konsideras
+     &gcirc;in
      hodaia&ubreve; deriva&jcirc;o de ideal/. Bv. ne forigi a&ubreve; &scirc;an&gcirc;i! -->
 <kap>
   <ofc>1</ofc>
@@ -44,18 +46,21 @@
     <fnt><bib>EKV</bib><lok>&para;165</lok></fnt>
     <dif>
       <klr>(de <ref cel="ring.0o.MAT">ringo</ref>
-      <frm><g>R</g></frm>)</klr>
+      <frm am="bb R"><g>R</g></frm>)</klr>
       Tia adicia <ref tip="super" cel="grup.sub0o.MAT">subgrupo</ref>
-      <frm><g>I</g></frm> de <frm><g>R</g></frm>, ke al &gcirc;i apartenas 
+      <frm am="bb I"><g>I</g></frm> de <frm am="bb R"><g>R</g></frm>, ke
+      al &gcirc;i apartenas 
       &ccirc;iuj produtoj 
-      <frm><k>a</k>×<k>b</k></frm> (maldekstra <tld/>o), 
-      <frm><k>b</k>×<k>a</k></frm> (dekstra <tld/>o),
-      a&ubreve; <frm><k>a</k>×<k>b</k></frm> kaj 
-      <frm><k>b</k>×<k>a</k></frm> (amba&ubreve;flanka <tld/>o) por ajna
-      elemento <frm><k>a</k></frm> en <frm><g>I</g></frm> 
-      kaj <frm><k>b</k></frm> en <frm><g>R</g></frm>:
+      <frm am="a xx b"><k>a</k>&#215;<k>b</k></frm> (maldekstra <tld/>o), 
+      <frm am="b xx a"><k>b</k>&#215;<k>a</k></frm> (dekstra <tld/>o),
+      a&ubreve; <frm am="a xx b"><k>a</k>&#215;<k>b</k></frm> kaj 
+      <frm am="b xx a"><k>b</k>&#215;<k>a</k></frm> (amba&ubreve;flanka <tld/>o) por
+      ajna
+      elemento <frm am="a"><k>a</k></frm> en <frm am="bb
+      I"><g>I</g></frm> 
+      kaj <frm am="b"><k>b</k></frm> en <frm am="bb R"><g>R</g></frm>:
       <ekz>
-        en la ringo de entjeroj la obloj de <frm><k>p</k></frm>
+        en la ringo de entjeroj la obloj de <frm am="p"><k>p</k></frm>
         konsistigas amba&ubreve;flankan <tld/>on.
       </ekz>
     </dif>
@@ -181,7 +186,8 @@
     </refgrp>
   </snc>
   <rim>
-    La 3a OA registras idealism/o kun propra radiko, sed ni konsideras &gcirc;in la&ubreve;regula deriva&jcirc;o de ideal/o.
+    La 3a OA registras idealism/o kun propra radiko, sed ni konsideras
+    &gcirc;in la&ubreve;regula deriva&jcirc;o de ideal/o.
   </rim>
   <trd lng="be">&c_ib;&c_d;&c_e;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
   <trd lng="es">idealismo</trd>
@@ -207,7 +213,8 @@
         solvi internaciajn konfliktojn
         <fnt>
           <aut>W. Heller, trad. B. Westerhoff</aut>
-          <vrk>Lidia, la Vivo de Lidia Zamenhof, Filino de Esperanto</vrk>
+          <vrk>Lidia, la Vivo de Lidia Zamenhof, Filino de
+          Esperanto</vrk>
           <lok>2007</lok>
         </fnt>.
       </ekz>
@@ -294,9 +301,16 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: ideal.xml,v $
+versio 1.35 2020/02/13 21:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.34  2019/05/17 07:10:14  revo
+Jeromo Vasxe: ~isto + ekz, sen~a + trd fr
+
 Revision 1.33  2018/11/26 20:10:15  revo
-Wolfram Diestel: +komento, +rim por klarigi 3OA idealism/ rilate al ideal/o
+Wolfram Diestel: +komento, +rim por klarigi 3OA idealism/ rilate al
+ideal/o
 
 Revision 1.32  2018/11/18 12:10:16  revo
 Wolfram Diestel: + var idealism/
@@ -309,10 +323,5 @@ Guillermo Molleda Jimena: trd es
 
 Revision 1.29  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
-
-Revision 1.28  2015/06/29 16:33:15  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2009/04/01 16:30:30  revo
 -->
 </vortaro>
