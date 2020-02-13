@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: ar.xml,v 1.61 2020/02/13 18:10:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   -<rad>ar</rad>/ <fnt><bib>PV</bib></fnt>
@@ -161,23 +161,24 @@
       <dif>
         Kolekto da matematikaj objektoj, konsiderata kiel tuto:
         <ekz>
-          la <tld/>o <frm><g>N</g></frm> enhavas &ccirc;iujn pozitivajn
+          la <tld/>o <frm am="bb N"><g>N</g></frm> enhavas &ccirc;iujn
+          pozitivajn
           entjerojn;
         </ekz>
         <ekz>
           la kolekto de &ccirc;iuj <tld/>oj mem ne estas <tld/>o;
         </ekz>
         <ekz>
-          la <tld/>on konsistantan el la du objektoj <frm><k>x</k></frm>
-          kaj
-          <frm><k>y</k></frm> oni signas per <frm>{<k>x</k>,
-          <k>y</k>}</frm>,
+          la <tld/>on konsistantan el la du objektoj
+          <frm am="x"><k>x</k></frm> kaj
+          <frm am="y"><k>y</k></frm> oni signas per
+          <frm am="{x,y}">{<k>x</k>, <k>y</k>}</frm>,
         </ekz>
         <ekz>
           kaj la <tld/>on de &ccirc;iuj objektoj verigantaj predikaton
-          <frm><k>P</k></frm> per
-          <frm>{<k>x</k> / <k>P</k>(<k>x</k>)}</frm>
-          <klr>(legu: <tld/>o de tiaj iksoj, ke po de ikso)</klr>.
+          <frm am="P"><k>P</k></frm> per
+          <frm am="{x | P(x)}">{<k>x</k> / <k>P</k>(<k>x</k>)}</frm>
+          <klr> (legu: <tld/>o de tiaj iksoj, ke po de ikso)</klr>.
         </ekz>
       </dif>
       <ref tip="prt" cel="elemen.0o.MAT">elemento;</ref>
@@ -404,15 +405,16 @@
         <ref cel="produt.kartezia0o">kartezia produto</ref>,
         kies sub<tld/>o &gcirc;i estas:
         <ekz>
-          oni distingu la celo-<tld/>on de <frm><g>f</g></frm> disde la
-          bildo de <frm><g>f</g></frm> 
-          <klr>[...]</klr> do la <tld/>o de valoroj, kiujn la funkcio
-          <frm><g>f</g></frm> efektive alprenas
+          oni distingu la celo-<tld/>on de <frm am="bb f"><g>f</g></frm>
+          disde la
+          bildo de <frm am="bb f"><g>f</g></frm> 
+          <klr> [...]</klr> do la <tld/>o de valoroj, kiujn la funkcio
+          <frm am="bb f"><g>f</g></frm> efektive alprenas
           <fnt>
             <bib>Viki</bib>
             <lok><url
             ref='https://eo.wikipedia.org/?curid=291472'>Celo-aro</url></lok>
-          </fnt>;
+          </fnt>.
         </ekz>
       </dif>
     </snc>
@@ -494,15 +496,16 @@
     <snc>
       <dif>
         <klr>(de <ref
-        cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>)</klr>
+        cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>) </klr>
         <ref tip="super" cel="ar.0o.MAT"><tld lit="A"/>o</ref> de &ccirc;iuj
         &gcirc;iaj
         <ref tip="prt"
         cel="klas.ekvivalento0o">ekvivalento-klasoj</ref>:
         <ekz>
-          la kvocientan <tld/>on de rilato <frm><g>R</g></frm> en
-          <frm><g>E</g></frm> oni signas per
-          <frm><g>E</g>/<g>R</g></frm>;
+          la kvocientan <tld/>on de rilato <frm am="bb R"><g>R</g></frm>
+          en
+          <frm am="bb E"><g>E</g></frm> oni signas per
+          <frm am="bb E // bb R"><g>E</g>/<g>R</g></frm>;
         </ekz>
         <ekz>
           &ccirc;i tiu operacio povas esti konsiderata neformale kiel la 
@@ -548,7 +551,7 @@
         La <ref tip="super" cel="ar.0o.MAT"><tld/>o</ref>, kiu enhavas
         neniun elementon:
         <ekz>
-          la malplenan <tld/>on oni signas per <frm>&#8709;</frm>;
+          la malplenan <tld/>on oni signas per <frm am="O/">&#8709;</frm>;
         </ekz>
         <ekz>
           malplena <tld/>o estas sub<tld/>o de &ccirc;iu <tld/>o;
@@ -586,13 +589,13 @@
         <ref cel="rilat.ordo0o">ordo-rilato</ref> super &gcirc;i:
         <ekz>
           ordan <tld/>on oni ofte signas per skriba&jcirc;o de la tipo
-          <frm>(<g>E</g>,&#8804;)</frm>;
+          <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>;
         </ekz>
         <ekz>
           en matematiko, la preciza supra rando de orda <tld/>o
-          <frm><g>S</g></frm> 
+          <frm am="bb S"><g>S</g></frm> 
           estas la plej malgranda ero kiu estas pli granda ol a&ubreve; egala
-          al &ccirc;iu ero de <frm><g>S</g></frm>
+          al &ccirc;iu ero de <frm am="bb S"><g>S</g></frm>
           <fnt>
             <bib>Viki</bib>
             <lok><url
@@ -648,21 +651,22 @@
     <fnt><bib>EKV</bib><lok>&para;411</lok></fnt>
     <snc>
       <dif>
-        <klr>(de <tld/>o <frm><g>E</g></frm>)</klr>
+        <klr>(de <tld/>o <frm am="bb E"><g>E</g></frm>) </klr>
         <ref tip="super" cel="ar.0o.MAT"><tld lit="A"/>o</ref>
-        <frm><g>A</g></frm>, kies <ref
+        <frm am="bb A"><g>A</g></frm>, kies <ref
         cel="elemen.0o.MAT">elementoj</ref>
-        apartenas al <frm><g>E</g></frm>:
+        apartenas al <frm am="bb E"><g>E</g></frm>:
         <ekz>
           &ccirc;iu <tld/>o estas sub<tld/>o de si mem;
         </ekz>
         <ekz>
-          la sub<tld/>oj de <frm><g>E</g></frm> konsistigas <tld/>on,
-          nomatan
+          la sub<tld/>oj de <frm am="bb E"><g>E</g></frm>
+          konsistigas <tld/>on, nomatan
           <ind><tld/>o de &ccirc;iuj sub<tld/>oj</ind>
           <fnt><bib>EKV</bib><lok>&para;32</lok></fnt> de
-          <frm><g>E</g></frm>
-          kaj foje signatan per <frm>2<sup><g>E</g></sup></frm>;
+          <frm am="bb E"><g>E</g></frm>
+          kaj foje signatan per <frm am="2^(bb
+          E)">2<sup><g>E</g></sup></frm>;
           <trd lng="de">Potenzmenge</trd>
           <trdgrp lng="en">
             <trd>power <ind>set</ind></trd>,
@@ -719,9 +723,9 @@
     <fnt><bib>MatVort</bib></fnt>
     <snc>
       <dif>
-        <klr>(de <tld/>o <frm><g>E</g></frm>)</klr>
+        <klr>(de <tld/>o <frm am="bb E"><g>E</g></frm>)</klr>
         Tia <ref tip="super" cel="ar.0o.MAT"><tld/>o</ref>,
-        ke <frm><g>E</g></frm> estas
+        ke <frm am="bb E"><g>E</g></frm> estas
         <ref cel="ar.sub0o">sub<tld/>o</ref> de &gcirc;i;
       </dif>
       <ekz>
@@ -745,7 +749,13 @@
 </subart>
 </art>
 <!--
-$Log$
+$Log: ar.xml,v $
+versio 1.61 2020/02/13 18:10:24
+Wolfram Diestel: formuloj per am
+
+Revision 1.60  2017/03/22 12:10:14  revo
+Guillermo Molleda Jimena: trd es
+
 Revision 1.59  2017/03/07 21:10:23  revo
 Jeromo Vasxe: funkctio -> funkcio
 
@@ -762,8 +772,5 @@ Revision 1.55  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.54  2015/06/28 12:03:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.53  2014/02/04 14:10:17  revo
 -->
 </vortaro>
