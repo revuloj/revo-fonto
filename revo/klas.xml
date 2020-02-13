@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: klas.xml,v 1.38 2020/02/14 00:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>klas</rad>/o <fnt><bib>PV</bib></fnt>
@@ -418,22 +418,24 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de elemento <frm><k>x</k></frm> la&ubreve;
+      <klr>(de elemento <frm am="x"><k>x</k></frm> la&ubreve;
       <ref cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>
-      <frm><g>R</g></frm>)</klr>
+      <frm am="R"><g>R</g></frm>) </klr>
       <ref tip="super" cel="ar.0o.MAT">Aro</ref> de &ccirc;iuj tiaj
-      elementoj <frm><k>y</k></frm>, ke
-      <frm><k>x</k><g>R</g><k>y</k></frm>:
+      elementoj <frm am="y"><k>y</k></frm>, ke
+      <frm am="x R y"><k>x</k><g>R</g><k>y</k></frm>:
       <ekz>
         konstrui la korpon de frakcioj <klr>[kiel]</klr> la aro de
         ekvivalento-<tld/>oj de 
-        paroj <frm><k>(n, d)</k></frm>, kie <frm><k>n</k></frm> kaj
-        <frm><k>d</k></frm> estas eroj 
-        de <frm><k>R</k></frm>, 
-        kaj <frm><k>d</k></frm> estas ne <frm>0</frm>, kaj la
+        paroj <frm am="(n,d)"><k>(n, d)</k></frm>, kie <frm
+        am="n"><k>n</k></frm> kaj
+        <frm am="d"><k>d</k></frm> estas eroj 
+        de <frm am="R"><k>R</k></frm>, 
+        kaj <frm am="d"><k>d</k></frm> estas ne <frm>0</frm>, kaj la
         ekvivalentrilato 
-        estas: <frm><k>(n, d)</k></frm> estas ekvivalento al <frm><k>(m,
-        b)</k></frm> se kaj nur se <frm><k>nb=md</k></frm>
+        estas: <frm am="(n,d)"><k>(n, d)</k></frm> estas ekvivalento al
+        <frm am="(m,b)"><k>(m, b)</k></frm> se kaj nur se 
+        <frm am="nb=md"><k>nb=md</k></frm>
         <fnt>
           <bib>Viki</bib>
           <lok><url ref='https://eo.wikipedia.org/?curid=105235'>Korpo
@@ -464,16 +466,19 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <ref cel="grup.0o.MAT">grupo</ref> <frm><g>G</g></frm>
-      rilate
-      al subgrupo <frm><g>H</g></frm> de &gcirc;i kaj elemento
-      <frm><k>a</k>&#8712;<g>G</g></frm>)</klr>
-      Aro de &ccirc;iuj elementoj de la tipo <frm><k>h</k>.<k>a</k></frm>,
-      kie
-      <frm><k>h</k>&#8712;<g>H</g></frm>; simb. <frm><g>H</g><k>a</k></frm>:
+      <klr>(de <ref cel="grup.0o.MAT">grupo</ref> <frm am="bb
+      G"><g>G</g></frm>
+      rilate al subgrupo <frm am="bb H"><g>H</g></frm> de &gcirc;i kaj
+      elemento
+      <frm am="a in bb G"><k>a</k>&#8712;<g>G</g></frm>)</klr>
+      Aro de &ccirc;iuj elementoj de la tipo <frm am="h*a"
+      ><k>h</k>&middot;<k>a</k></frm>,
+      kie <frm am="h in bb H"><k>h</k>&#8712;<g>H</g></frm>; 
+      simb. <frm am="bb H a"><g>H</g><k>a</k></frm>:
       <ekz>
         dekstra <tld/>o estas ekvivalento-<tld/>o la&ubreve; la rilato
-        <frm><k>x</k>.<k>y</k><sup>-1</sup>&#8712;<g>H</g></frm>.
+        <frm am="x*y^-1 in bb H"
+        ><k>x</k>&middot;<k>y</k><sup>-1</sup>&#8712;<g>H</g></frm>.
       </ekz>
     </dif>
     <ref tip="super" cel="klas.flanka0o">flanka <tld/>o;</ref>
@@ -504,16 +509,19 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <ref cel="grup.0o.MAT">grupo</ref> <frm><g>G</g></frm>
+      <klr>(de <ref cel="grup.0o.MAT">grupo</ref> <frm am="bb
+      G"><g>G</g></frm>
       rilate
-      al subgrupo <frm><g>H</g></frm> de &gcirc;i kaj elemento
-      <frm><k>a</k>&#8712;<g>G</g></frm>)</klr>
-      Aro de &ccirc;iuj elementoj de la tipo <frm><k>a</k>.<k>h</k></frm>,
-      kie
-      <frm><k>h</k>&#8712;<g>H</g></frm>; simb. <frm><k>a</k><g>H</g></frm>:
+      al subgrupo <frm am="bb H"><g>H</g></frm> de &gcirc;i kaj elemento
+      <frm am="a in bb G"><k>a</k>&#8712;<g>G</g></frm>)</klr>
+      Aro de &ccirc;iuj elementoj de la tipo <frm am="a*h"
+      ><k>a</k>&middot;<k>h</k></frm>, kie
+      <frm am="h in bb H"><k>h</k>&#8712;<g>H</g></frm>; 
+      simb. <frm am="a bb H"><k>a</k><g>H</g></frm>:
       <ekz>
         maldekstra <tld/>o estas ekvivalento-<tld/>o la&ubreve; la rilato
-        <frm><k>x</k><sup>-1</sup>.<k>y</k>&#8712;<g>H</g></frm>.
+        <frm am="x^-1*y in bb H"
+        ><k>x</k><sup>-1</sup>&middot;<k>y</k>&#8712;<g>H</g></frm>.
       </ekz>
     </dif>
     <ref tip="super" cel="klas.flanka0o">flanka <tld/>o;</ref>
@@ -586,31 +594,30 @@
   <snc>
     <dif>
       <klr>(por <ref cel="entjer.0o">entjero</ref>
-      <frm><k>n</k> &gt; 1</frm>)</klr>
+      <frm am="n gt 1"><k>n</k> &gt; 1</frm>)</klr>
       &Ccirc;iu el la <frm><k>n</k></frm>
       <ref cel="klas.ekvivalento0o">ekvivalento-<tld/>oj</ref> por la
       rilato
       &leftquot;<ref cel="kongru.0a.module">kongrua</ref> module
-      <frm><k>n</k></frm>&rightquot; super la aro de entjeroj:
+      <frm am="n"><k>n</k></frm>&rightquot; super la aro de entjeroj:
       <ekz>
-        la <frm><k>n</k></frm>-modula resto<tld/>o de nombro
-        <frm><k>p</k></frm> oni signas per
-        <frm><k>p</k>+<k>n</k><g>Z</g></frm> a&ubreve; per
-        <frm><k>p</k>&#775;</frm>.
+        la <frm am="n"><k>n</k></frm>-modula resto<tld/>o de nombro
+        <frm am="p"><k>p</k></frm> oni signas per
+        <frm am="p+n bb Z"><k>p</k>+<k>n</k><g>Z</g></frm> a&ubreve; per
+        <frm am="p"><k>p</k>&#775;</frm>.
       </ekz>
     </dif>
     <ref tip="vid" cel="grup.0o_de_nmodulaj_restoklasoj">grupo de
     n-modulaj
     resto<tld/>oj.</ref>
     <rim>
-      Kvankam la skriba&jcirc;o <frm><k>n</k><g>Z</g></frm> memorigas pri tiu
-      por la flankaj <tld/>oj, oni tamen memoru, ke <frm><g>Z</g></frm>
-      ne
-      estas multiplika grupo. Kaj <frm><k>n</k><g>Z</g></frm>, kaj
-      <frm><k>p</k>+<k>n</k><g>Z</g></frm> estas ekvivalento-<tld/>oj,
-      sed
-      ne
-      la&ubreve; la samaj rilatoj.
+      Kvankam la skriba&jcirc;o <frm am="n bb Z"><k>n</k><g>Z</g></frm>
+      memorigas pri tiu por la flankaj <tld/>oj, oni tamen memoru, ke
+      <frm am="bb Z"><g>Z</g></frm> ne
+      estas multiplika grupo. Kaj <frm am="n bb
+      Z"><k>n</k><g>Z</g></frm>, kaj
+      <frm am="p+n bb Z"><k>p</k>+<k>n</k><g>Z</g></frm> estas
+      ekvivalento-<tld/>oj, sed ne la&ubreve; la samaj rilatoj.
     </rim>
   </snc>
   <adm>
@@ -630,7 +637,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: klas.xml,v $
+versio 1.38 2020/02/14 00:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.37  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
 Revision 1.36  2019/06/30 07:42:48  revo
 adaptis URL de Monato
 
@@ -647,14 +660,5 @@ Revision 1.32  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.31  2015/06/29 16:33:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.30  2012/10/23 00:12:10  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.29  2009/08/08 16:33:13  revo
-Jeromo Vasxe: ~o + snc tra
-
-Revision 1.28  2005/12/09 17:31:12  revo
 -->
 </vortaro>
