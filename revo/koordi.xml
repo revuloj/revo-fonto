@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: koordi.xml,v 1.30 2020/02/13 21:10:19 revo Exp $">
 <kap>
   <rad>koordinat</rad>/o
   <fnt>Z</fnt>
@@ -109,17 +109,22 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm>M</frm> en tridimensia reela e&ubreve;klida
+      <klr>(de punkto <frm am="M">M</frm> en tridimensia reela e&ubreve;klida
       <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
       ununorma koordinatsistemo
-      <frm>(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
-      &Ccirc;iu el la tri reeloj <frm>(&rho;, &theta;, <k>z</k>)</frm>,
-      kie <frm>(&rho;, &theta;)</frm> estas la
+      <frm am="(O,bb i,bb j,bb k)">(O, <g>i</g>, <g>j</g>,
+      <g>k</g>)</frm>)</klr>
+      &Ccirc;iu el la tri reeloj <frm am="(rho,theta,z)">(&rho;, &theta;,
+      <k>z</k>)</frm>,
+      kie <frm am="(rho,theta)">(&rho;, &theta;)</frm> estas la
       <ref cel="koordi.polusa0o">polusaj <tld/>oj</ref> de
-      la orta projekcia&jcirc;o de <frm>M</frm> sur la ebeno difinita de
-      <frm>(O, <g>i</g>, <g>j</g>)</frm>, kaj <frm><k>z</k></frm> estas
+      la orta projekcia&jcirc;o de <frm am="M">M</frm> sur la ebeno difinita
+      de
+      <frm am="(O,bb i,bb j)">(O, <g>i</g>, <g>j</g>)</frm>, kaj
+      <frm am="z"><k>z</k></frm> estas
       la
-      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de <frm>M</frm>.
+      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de <frm
+      am="M">M</frm>.
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
   </snc>
@@ -429,7 +434,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: koordi.xml,v $
+versio 1.30 2020/02/13 21:10:19
+Wolfram Diestel: formuloj per am, daurigenda
+
+Revision 1.29  2019/07/17 08:10:21  revo
+Sebastian Cyprych: kor trd pl
+
 Revision 1.28  2018/06/11 02:10:17  revo
 Dusan Juretic: +trd es
 
@@ -446,8 +457,5 @@ Revision 1.24 2004/05/02 16:32:09 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.23 2003/04/07 16:35:57 revo
-Marc Bavant: kartezia ~o: +frm en rim
-
-Revision 1.22 2003/03/23 17:33:19 revo
 -->
 </vortaro>
