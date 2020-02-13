@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kotang.xml,v 1.21 2020/02/13 17:10:21 revo Exp $">
 <kap>
   <rad>kotangent</rad>/o
 </kap>
@@ -12,7 +12,8 @@
   <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
   <snc mrk="kotang.0o.entriangulo">
     <dif>
-      <klr>(de <ref cel="angul.0o.MAT">angulo</ref> <frm>&alfa;</frm>)</klr>
+      <klr>(de <ref cel="angul.0o.MAT">angulo</ref> <frm
+      am="alpha">&alfa;</frm>) </klr>
       <ref cel="tangen.0o">Tangento</ref> de &gcirc;ia
       <ref cel="komple1.0o.angulo">komplemento</ref>; 
       simb. <frm>cotg &alfa;</frm> 
@@ -23,21 +24,26 @@
       </ekz>
     </dif>
     <bld lok="../bld/trigo.jpg">
-      <!-- la <tld/>o de angulo <frm>&alfa;</frm> egalas al <frm>BU/OM</frm> -->
+      <!-- la <tld/>o de angulo <frm>&alfa;</frm> egalas al <frm>BU/OM</frm>
+      -->
       la <tld/>o de angulo &alfa; egalas al BU/OM 
     </bld>
   </snc>
   <snc mrk="kotang.0o.funkcio">
     <dif>
-      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
-      reelon <frm><k>x</k></frm> al la 
-      <tld/>o <sncref ref="kotang.0o.entriangulo"/> de angulo, kies mezuro en 
-      <ref cel="radian.0o">radianoj</ref> diferencas de <frm><k>x</k></frm> 
-      per oblo de <frm>&pi;</frm>; 
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu
+      &jcirc;etas
+      reelon <frm am="x">x</frm> al la 
+      <tld/>o <sncref ref="kotang.0o.entriangulo"/> de angulo, kies
+      mezuro en 
+      <ref cel="radian.0o">radianoj</ref> diferencas de <frm
+      am="x">x</frm> 
+      per oblo de <frm am="pi">&pi;</frm>; 
       simb. <frm>cotg</frm> a&ubreve; <frm>kotang</frm>:
       <ekz>
         <tld/>o estas perioda funkcio, kun
-        <ref cel="period.0o.funkcio">periodo <sncref/></ref> <frm>&pi;</frm>.
+        <ref cel="period.0o.funkcio">periodo <sncref/></ref> <frm
+        am="pi">&pi;</frm>.
       </ekz>
     </dif>
   </snc>
@@ -61,7 +67,8 @@
   <kap>are<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
-    <ref tip="dif" cel="kotang.inversa_hiperbola0o">inversa hiperbola <tld/>o.</ref>
+    <ref tip="dif" cel="kotang.inversa_hiperbola0o">inversa hiperbola
+    <tld/>o.</ref>
     <rim>
       Vd rimarkon sub <ref cel="are.0o.argumento">areo</ref>.
     </rim>
@@ -78,10 +85,11 @@
       la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
       <ref cel="kotang.0o.funkcio"><tld/>o</ref> al la
-      intervalo <frm>]0,&pi;[</frm>; simb. <frm>arccotg</frm>
+      intervalo <frm am="]0,pi[">]0,&pi;[</frm>; simb. <frm>arccotg</frm>
       a&ubreve; <frm>arkkotang</frm>:
       <ekz>
-        ark<tld/>o de <frm>0</frm> egalas al <frm>&pi;/2</frm>.
+        ark<tld/>o de <frm am="0">0</frm> egalas al <frm
+        am="pi/2">&pi;/2</frm>.
       </ekz>
     </dif>
     <rim>
@@ -103,9 +111,10 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu &jcirc;etas
-      reelon <frm><k>x</k></frm> al 
-      <frm>(cosh <k>x</k>)/(sinh <k>x</k>)</frm>; 
+      Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu
+      &jcirc;etas
+      reelon <frm am="x">x</frm> al 
+      <frm am="(cosh x/sinh x)">(cosh <k>x</k>)/(sinh <k>x</k>)</frm>; 
       simb. <frm>cotgh</frm> a&ubreve; <frm>kotangh</frm>.
     </dif>
   </snc>
@@ -131,7 +140,7 @@
       la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
       <ref cel="kotang.hiperbola0o">hiperbola <tld/>o</ref> al la
-      intervalo <frm>]0,+&#8734;[</frm>; 
+      intervalo <frm am="]0,+oo[">]0,+&#8734;[</frm>; 
       simb. <frm>arcotgh</frm> a&ubreve; <frm>arkotangh</frm>.
     </dif>
   </snc>
@@ -154,7 +163,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: kotang.xml,v $
+versio 1.21 2020/02/13 17:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.20  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.19  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -171,14 +186,5 @@ Revision 1.15  2004/04/23 16:31:21  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.14  2003/03/09 17:34:17  revo
-Marc Bavant: koherigis simb
-
-Revision 1.13  2002/12/23 17:31:29  revo
-Dmitri Gabinski: +trd be
-Revision 1.12  2002/12/09 17:32:34  revo
-Marc Bavant: kor frm
-Revision 1.11  2002/11/24 17:34:54  revo
-Marc Bavant: mod frm
-Revision 1.10  2002/11/19 17:31:59  revo
 -->
 </vortaro>
