@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: argume.xml,v 1.40 2020/02/13 18:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>argument</rad>/o <fnt><bib>PV</bib></fnt>
@@ -80,13 +80,12 @@
         <ref cel="operac.0o.MAT">operacio</ref> a&ubreve;
         <ref cel="rilat.0o.MAT">rilato</ref>)</klr>:
         <ekz>
-          en la esprimo <frm><k>f</k>(<k>x</k>,<k>y</k>+<k>z</k>)</frm>
-          la
-          funkcio <frm><k>f</k></frm> havas du <tld/>ojn, nome
-          <frm><k>x</k></frm> kaj <frm><k>y</k>+<k>z</k></frm>;
+          en la esprimo <frm am="f(x,y+z)">f(x,y+z)</frm>
+          la funkcio <frm am="f">f</frm> havas du <tld/>ojn, nome
+          <frm am="x">x</frm> kaj <frm am="y+z">y+z</frm>;
         </ekz>
         <ekz>
-          <frm><k>f</k></frm> estas du<tld/>a funkcio;
+          <frm am="f">f</frm> estas du<tld/>a funkcio;
         </ekz>
         <ekz>
           unu<tld/>a funkcio estas du<tld/>a rilato;
@@ -135,21 +134,23 @@
       <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
       <dif>
         <klr>(de <ref cel="komple.0o.MAT">komplekso</ref>
-        <frm><k>z</k></frm>)</klr>
-        Tia reelo <frm>&theta;</frm>, ke
-        <frm><k>z</k> = |<k>z</k>|.(cos&theta; + <k>i</k>.sin&theta;)</frm>,
-        kie <frm>|<k>z</k>|</frm> prezentas la
+        <frm am="z">z</frm>)</klr>
+        Tia reelo <frm am="theta">&theta;</frm>, ke
+        <frm am="z = |z|*(cos theta+i*sin theta)"
+        >z = |z|&middot;(cos&theta; + i&middot;sin&theta;)</frm>,
+        kie <frm am="|z|">|z|</frm> prezentas la
         <ref cel="modul.0o.komplekso">modulon</ref> de
-        <frm><k>z</k></frm>:
+        <frm am="z">z</frm>:
         <ekz>
           la <tld/>on oni kutime prenas en la
-          intervalo <frm>]-&pi;,+&pi;]</frm> kaj foje signas per
-          <frm>Arg <k>z</k></frm>;
+          intervalo <frm am="]-pi,+pi]">]-&pi;,+&pi;]</frm> kaj foje signas
+          per
+          <frm am="Arg(z)">Arg z</frm>;
         </ekz>
         <ekz>
           la <tld/>o de nenula reelo egalas al <frm>0</frm>
-          <klr>(se pozitiva)</klr> a&ubreve; <frm>&pi;</frm>
-          <klr>(se negativa)</klr>.
+          <klr> (se pozitiva)</klr> a&ubreve; <frm am="pi">&pi;</frm>
+          <klr> (se negativa)</klr>.
         </ekz>
       </dif>
       <trd lng="de">Argument</trd>
@@ -215,7 +216,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: argume.xml,v $
+versio 1.40 2020/02/13 18:10:20
+Wolfram Diestel: formuloj per am
+
+Revision 1.39  2015/11/20 17:10:40  revo
+Joop Eggen: +trd bg
+
 Revision 1.38  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -232,8 +239,5 @@ Revision 1.34  2010/02/26 17:30:21  revo
 Jeromo Vasxe: + mrk, renversis ord. de drv
 
 Revision 1.33  2007/05/30 16:31:19  revo
-Wieland Pusch: +trd de
-
-Revision 1.32  2005/10/09 16:31:18  revo
 -->
 </vortaro>
