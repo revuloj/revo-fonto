@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: adici.xml,v 1.46 2020/02/11 20:10:28 revo Exp $">
+  <art mrk="$Id: adici.xml,v 1.47 2020/02/13 14:10:20 revo Exp $">
     <kap>
       <ofc>2</ofc>
       <rad>adici</rad>/i
@@ -20,8 +20,8 @@
           <ekz>
             se ni <tld/>as 4 kaj 4, ni ricevas 8;
           </ekz><ekz>
-            <tld/>i <frm kod="am">x</frm> al <frm kod="am">y</frm>,
-            <frm kod="am">x</frm> kaj <frm kod="am">y</frm>.
+            <tld/>i <frm am="x">x</frm> al <frm am="y">y</frm>,
+            <frm am="x">x</frm> kaj <frm am="y">y</frm>.
           </ekz>
         </dif>
         <rim num="1" mrk="adici.0i.MB">
@@ -42,18 +42,19 @@
         <rim num="3" mrk="adici.0i.pok2">
           La priskriboj per <ctl>aldoni</ctl>, <ctl>pliigi</ctl> ktp
           estas malta&ubreve;gaj, ili priskribas ne la matematikan operacion
-          <frm kod="am">x+y</frm>, sed komputadan (algoritman) operacion
-          <frm kod="am">x&nbsp;"+="&nbsp;y</frm>, alivorte <frm kod="am">x&nbsp;=
-x+y</frm>.
+          <frm am="x+y">x+y</frm>, sed komputadan (algoritman) operacion
+          <frm am='x&nbsp;"+="&nbsp;y'>x&nbsp;+=&nbsp;y</frm>, alivorte 
+          <frm am="x=x+y">x&nbsp;= x+y</frm>.
           La matematika
-          operacio <frm kod="am">x+y+z</frm> neniel &scirc;an&gcirc;as la valorojn
+          operacio <frm am="x+y+z">x+y+z</frm> neniel &scirc;an&gcirc;as la valorojn
           de
-          <frm kod="am">x, y, z</frm>; dum en komputado oni ofte uzas
+          <frm am="x,y,z">x, y, z</frm>; dum en komputado oni ofte uzas
           helpan
           <ref cel="regxistr.0o">re&gcirc;istron</ref> (ekz-e tiun de la
           ekrano de kalkulilo), kies valoron oni jes
           <ctl>pliigas</ctl>, al kiu oni <ctl>aldonas</ctl> la
-          <tld/>atojn: <frm kod="am">S=x; S&nbsp;"+="&nbsp;y; S&nbsp;"+="&nbsp;z</frm>.
+          <tld/>atojn: <frm am='S=x;S"+="y;S"+="z'>S=x; S+=y;
+          S+=z</frm>.
           Tiu operacio <em>+=</em> evidente ne estas komuta, &gcirc;i estas
           alio ol <tld/>o (kvankam <tld/>o estas &gcirc;ia parto).
           <aut>Sergio Pokrovskij</aut>
@@ -111,7 +112,7 @@ x+y</frm>.
         <dif>
           La operacio <ref cel="adici.0i">adicii</ref>:
           <ekz>
-            <frm kod="am">10+8 = 18</frm> <klr> (legu: dek plus ok
+            <frm am="10+8=18">10+8 = 18</frm> <klr> (legu: dek plus ok
               estas dek ok, a&ubreve; dek kaj ok estas dek ok)</klr>
           </ekz>
         </dif>
@@ -187,9 +188,10 @@ x+y</frm>.
           deka <tld/>ato</ctl>, <ctl><em>&ccirc;iuj</em> <tld/>atoj</ctl>
           ktp:
           <ekz>
-            pro tio, ke &ccirc;iuj <frm kod="am">U</frm> <tld/>atoj pozitivas
+            pro tio, ke &ccirc;iuj <frm am="U">U</frm> <tld/>atoj pozitivas
             <klr>...</klr>
-            pro <frm kod="am">S&lt;=1</frm> la unua <tld/>ato neniam
+            pro <frm am="S le 1">S&#8804;1</frm> la unua <tld/>ato
+            neniam
             povas
             negativi&gcirc;i <klr>...</klr>
             <fnt>
@@ -240,10 +242,11 @@ x+y</frm>.
           konsistas
           en poelementa <tld/>o:
           <ekz>
-            la &gcirc;enerala elemento <frm kod="am">C_(ij)</frm> de la
-            rezulto de <tld/>o de <frm kod="am">A</frm> al <frm
-            kod="am">B</frm> estas
-            <frm kod="am">A_(ij)+B_(ij)</frm>.
+            la &gcirc;enerala elemento <frm am="C_(ij)">C<sub>ij</sub></frm>
+            de la
+            rezulto de <tld/>o de <frm am="A">A</frm> al <frm
+            am="B">B</frm> estas
+            <frm am="A_(ij)+B_(ij)">A<sub>ij</sub>+B<sub>ij</sub></frm>.
           </ekz>
         </dif>
       </snc>
@@ -271,10 +274,12 @@ x+y</frm>.
           <ref cel="ring.polinom0o">polinom-ringo</ref>, kiu konsistas
           en poterma <tld/>o:
           <ekz>
-            la &gcirc;enerala termo <frm kod="am">bb S_n</frm>
-            de la rezulto de <tld/>o de <frm kod="am">bb P</frm>
-            al <frm kod="am">bb Q</frm> estas
-            <frm kod="am">bb P_n+ bb Q_n</frm>.
+            la &gcirc;enerala termo <frm am="bb
+            S_n"><g>S</g><sub>n</sub></frm>
+            de la rezulto de <tld/>o de <frm am="bb P"><g>P</g></frm>
+            al <frm am="bb Q"><g>Q</g></frm> estas
+            <frm am="bb P_n+bb
+            Q_n"><g>P</g><sub>n</sub>+<g>Q</g><sub>n</sub></frm>.
           </ekz>
         </dif>
       </snc>
@@ -296,8 +301,11 @@ x+y</frm>.
   </art>
   <!--
   $Log: adici.xml,v $
-versio 1.46 2020/02/11 20:10:28
-Wolfram Diestel: formuloj per AsciiMath
+versio 1.47 2020/02/13 14:10:20
+Wolfram Diestel: redakto: formulo per atributo am
+
+  Revision 1.46  2020/02/11 19:10:26  revo
+  Wolfram Diestel: formuloj per AsciiMath
 
   Revision 1.45  2017/04/01 18:10:12  revo
   Lars Raarup Knudsen: dana traduko
@@ -315,8 +323,5 @@ Wolfram Diestel: formuloj per AsciiMath
   Larry Gilbert: korekti rompitan ligilon
 
   Revision 1.40  2011/03/10 05:10:12  revo
-  Sergio Pokrovskij: -tajperaroj
-
-  Revision 1.39  2011/03/07 12:10:08  revo
 -->
 </vortaro>
