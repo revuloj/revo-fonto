@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: infini1.xml,v 1.20 2020/02/13 22:10:16 revo Exp $">
 <kap>
   <rad>infinitezim</rad>/o
 </kap>
@@ -30,9 +30,10 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 18</lok></fnt>
     <dif>
-      <klr>(en &ccirc;irka&ubreve;a&jcirc;o de reelo <frm><k>a</k></frm>)</klr>
+      <klr>(en &ccirc;irka&ubreve;a&jcirc;o de reelo <frm am="a"><k>a</k></frm>) </klr>
       <ref tip="super" cel="funkci.0o.MAT">Funkcio</ref>, kies
-      <ref cel="limes.0o.bildigo">limeso</ref> &ccirc;e <frm><k>a</k></frm> 
+      <ref cel="limes.0o.bildigo">limeso</ref> &ccirc;e <frm
+      am="a"><k>a</k></frm> 
       estas nulo.
     </dif>
     <trd lng="hu">infinitezim&aacute;lis</trd>
@@ -51,12 +52,12 @@
   <trd lng="ru">&c_b;&c_je;&c_s;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o; <ind>&c_m;&c_a;&c_l;&c_a;&c_ja;</ind>
   &c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_n;&c_a;</trd>
   <trdgrp lng="sk">
-    <trd>nekonečno</trd>,
-    <trd>neobmedzenosť</trd>
+    <trd>nekone&ccaron;no</trd>,
+    <trd>neobmedzenos&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="cs">
     <trd>infinitezimalita</trd>,
-    <trd>nekonečno</trd>,
+    <trd>nekone&ccaron;no</trd>,
     <trd>neomezenost</trd>
   </trdgrp>
 </drv>
@@ -73,8 +74,8 @@
   </snc>
   <trd lng="be">&c_b;&c_ja;&c_s;&c_k;&c_o;&c_n;&c_c;&c_a; &c_m;&c_a;&c_l;&c_y;</trd>
   <trdgrp lng="cs">
-    <trd>infinitezimální</trd>,
-    <trd>nekonečný</trd>
+    <trd>infinitezim&aacute;ln&iacute;</trd>,
+    <trd>nekone&ccaron;n&yacute;</trd>
   </trdgrp>
   <trd lng="de">infinitesimal</trd>
   <trd lng="en">infinitesimal</trd>
@@ -88,8 +89,8 @@
   <trd lng="pl">infinitezymalny</trd>
   <trd lng="ru">&c_b;&c_je;&c_s;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o; &c_m;&c_a;&c_l;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
-    <trd>infinitezimálny</trd>,
-    <trd>nekonečný</trd>
+    <trd>infinitezim&aacute;lny</trd>,
+    <trd>nekone&ccaron;n&yacute;</trd>
   </trdgrp>
 </drv>
 
@@ -99,22 +100,25 @@
   <fnt><bib>MatTerm</bib><lok>p. 18</lok></fnt>
   <snc>
     <dif>
-      <klr>(en &ccirc;irka&ubreve;a&jcirc;o de reelo <frm><k>a</k></frm>)</klr>
+      <klr>(en &ccirc;irka&ubreve;a&jcirc;o de reelo <frm am="a"><k>a</k></frm>)</klr>
       Konvencie elektita <ref tip="super"
       cel="infini1.0o.MAT"><tld/>o</ref> 
-      <frm><k>f</k></frm>, al kiu oni komparas aliajn <tld/>ojn
-      <frm><k>g</k></frm> &ccirc;e la sama punkto, studante
+      <frm am="f"><k>f</k></frm>, al kiu oni komparas aliajn <tld/>ojn
+      <frm am="g"><k>g</k></frm> &ccirc;e la sama punkto, studante
       la limeson de
-      <frm><k>g</k>(<k>x</k>)/[<k>f</k>(<k>x</k>)]<sup><k>n</k></sup></frm>:
+      <frm am="g(x) // [f(x)]^n"
+      ><k>g</k>(<k>x</k>)/[<k>f</k>(<k>x</k>)]<sup><k>n</k></sup></frm>:
       <ekz>
-        <frm>(<k>x</k>-<k>a</k>)<sup>3</sup></frm> estas triaorda
+        <frm am="(x-a)^3">(<k>x</k>-<k>a</k>)<sup>3</sup></frm> estas
+        triaorda
         <tld/>o 
-        rilate al &ccirc;ef<tld/>o <frm>(<k>x</k>-<k>a</k>)</frm>;
+        rilate al &ccirc;ef<tld/>o <frm am="(x-a)">(<k>x</k>-<k>a</k>)</frm>;
       </ekz>
       <ekz>
-        elvolvu funkcion <frm><k>f</k></frm> &gcirc;is la kvara ordo en 
+        elvolvu funkcion <frm am="f"><k>f</k></frm> &gcirc;is la kvara ordo en
+        
         &ccirc;irka&ubreve;a&jcirc;o de <frm>1</frm>, uzante 
-        <frm>log(<k>x</k>)</frm> kiel &ccirc;ef<tld/>on.
+        <frm am="log(x)">log(<k>x</k>)</frm> kiel &ccirc;ef<tld/>on.
       </ekz>
     </dif>
     <ref tip="vid" cel="ord.0o.infinitezimo">ordo.</ref>
@@ -124,7 +128,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: infini1.xml,v $
+versio 1.20 2020/02/13 22:10:16
+Wolfram Diestel: formuloj per am
+
+Revision 1.19  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.18  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -141,14 +151,5 @@ Revision 1.14  2004/01/21 19:01:46  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.13  2003/03/05 17:34:36  revo
-Marc Bavant: ~o MAT: +fnt
-
-Revision 1.12  2003/01/02 17:46:53  revo
-Marc Bavant: +trd pl
-Revision 1.11  2002/11/18 17:34:12  revo
-Marc Bavant: +frm; +trd pl
-Revision 1.10  2002/05/02 16:34:17  revo
-Marc Bavant: ~o: kor ref cel al infinito; cxef~o: kor ref cel en dif,
-+ref al ordo
 -->
 </vortaro>
