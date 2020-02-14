@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: komb.xml,v 1.34 2020/02/14 13:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>komb</rad>/i
@@ -200,13 +200,14 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(kun periodo T)</klr>
+      <klr>(kun periodo T) </klr>
       <ref tip="super" cel="distri2.0o">Distribucio</ref>, kiu &jcirc;etas
-      funkcion <frm>&phi;</frm> al
-      <frm>&#8721;<sub><k>n</k>&#8712;<g>Z</g></sub> &phi;(<k>n</k>T)</frm>:
+      funkcion <frm am="phi">&phi;</frm> al
+      <frm am="sum_(n in bb Z) phi(nT)"
+      >&#8721;<sub><k>n</k>&#8712;<g>Z</g></sub> &phi;(<k>n</k>T)</frm>:
       <ekz>
         la dirakan <tld/>ilon oni kutime signas 
-        per <frm>&c_Sh;<sub>T</sub></frm> <klr>(legu: &scirc;a to)</klr>;
+        per <frm am="&c_Sh;_T">&c_Sh;<sub>T</sub></frm> <klr>(legu: &scirc;a to)</klr>;
       </ekz>
       <ekz>
         la furiera transformo de diraka <tld/>ilo estas
@@ -230,7 +231,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: komb.xml,v $
+versio 1.34 2020/02/14 13:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.33  2019/04/12 22:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.32  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -247,8 +254,5 @@ Revision 1.28  2009/08/27 16:33:11  revo
 Emmanuel Debanne: +trd ku
 
 Revision 1.27  2008/12/20 17:30:26  revo
-J. Pablo Fernandez: Korekti etikedon.
-
-Revision 1.26  2007/12/09 17:31:04  revo
 -->
 </vortaro>
