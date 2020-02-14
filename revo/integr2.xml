@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: integr2.xml,v 1.28 2020/02/14 12:10:22 revo Exp $">
 <kap>
   <rad>integral</rad>/o <fnt>Z</fnt>
 </kap>
@@ -14,22 +14,28 @@
     <uzo tip="klr">(naiva prezento)</uzo>
     <dif>
       <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref>
-      <frm><k>f</k></frm> 
-      inter <frm><k>a</k></frm> kaj <frm><k>b</k></frm>)</klr>
-      La diferenco <frm>F(<k>b</k>)-F(<k>a</k>)</frm>, kie <frm>F</frm> 
+      <frm am="f"><k>f</k></frm> 
+      inter <frm am="a"><k>a</k></frm> kaj <frm
+      am="b"><k>b</k></frm>)</klr>
+      La diferenco <frm am="F(b)-F(a)"
+      >F(<k>b</k>)-F(<k>a</k>)</frm>, kie <frm am="F">F</frm> 
       estas ajna <ref cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> 
-      de <frm><k>f</k></frm>; 
-      simb. <frm>&#8747;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>
-      <klr>(legu: <tld/>o de a al bo de fo de ikso do ikso)</klr>:
+      de <frm am="f"><k>f</k></frm>; 
+      simb. <frm am="int_a^bf(x)dx"
+      >&#8747;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>
+      <klr> (legu: <tld/>o de a al bo de fo de ikso do ikso)</klr>:
       <ekz>
         la <tld/>o de funkcio <ref cel="sinus.0o.funkcio">sinuso</ref>
-        inter <frm>0</frm> kaj <frm>&pi;</frm> egalas 
-        <frm>-cos&pi;+cos0</frm>, t.e. <frm>2</frm>;
+        inter <frm>0</frm> kaj <frm am="pi">&pi;</frm> egalas 
+        <frm am="-cos pi+cos 0">-cos&pi;+cos0</frm>, t.e. <frm>2</frm>;
       </ekz>
       <ekz>
-        la <tld/>o de la deriva&jcirc;o de <frm><k>f</k></frm> inter 
-        <frm><k>a</k></frm> kaj <frm><k>b</k></frm> egalas 
-        <frm><k>f</k>(<k>b</k>)-<k>f</k>(<k>a</k>)</frm>.
+        la <tld/>o de la deriva&jcirc;o de <frm am="f"><k>f</k></frm> inter 
+        <frm am="a"><k>a</k></frm> kaj <frm am="b"><k>b</k></frm> egalas
+        
+        <frm
+        
+        am="f(b)-f(a)"><k>f</k>(<k>b</k>)-<k>f</k>(<k>a</k>)</frm>.
       </ekz>
     </dif>
     <adm>
@@ -40,7 +46,8 @@
       <aut>MB</aut>
     </adm>
     <rim>
-      Surbaze de pli komplika difino oni povas konsiderinde &gcirc;eneraligi la
+      Surbaze de pli komplika difino oni povas konsiderinde &gcirc;eneraligi
+      la
       koncepton. Vd
       <refgrp tip="vid">
         <ref cel="integr2.rimana0o">rimana <tld/>o</ref>,
@@ -51,17 +58,18 @@
   <snc mrk="integr2.0o.malderivajxo">
     <dif>
       <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref>
-      <frm><k>f</k></frm>)</klr>
+      <frm am="f"><k>f</k></frm>)</klr>
       Ajna <ref tip="dif" cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> de
-      &gcirc;i; simb. <frm>&#8747;<k>f</k>(<k>x</k>)d<k>x</k></frm>
-      <klr>(legu: <tld/>o de fo de ikso do ikso)</klr>:
+      &gcirc;i; simb. <frm am="int f(x)dx"
+      >&#8747;<k>f</k>(<k>x</k>)d<k>x</k></frm>
+      <klr> (legu: <tld/>o de fo de ikso do ikso)</klr>:
       <ekz>
         du <tld/>oj de unu sama funkcio diferencas per konstanto.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_t;&c_e;&c_g;&c_r;&c_a;&c_l;</trd>
-  <trd lng="cs">integrál</trd>
+  <trd lng="cs">integr&aacute;l</trd>
   <trd lng="de">Integral</trd>
   <trd lng="en">integral</trd>
   <trd lng="es">integral</trd>
@@ -71,7 +79,7 @@
   <trd lng="pl">ca&lstroke;ka</trd>
   <trd lng="pt">integral<klr tip="amb"> (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</trd>
-  <trd lng="sk">integrál</trd>
+  <trd lng="sk">integr&aacute;l</trd>
 </drv>
 
 <drv mrk="integr2.0i">
@@ -86,11 +94,14 @@
     </dif>
     <rim>
       Plimulto de matematikistoj, same kiel <fnt><bib>PIV1</bib></fnt>,
-      preferas la verbon <ref tip="sin" cel="integr1.0i">integri</ref>, sed
+      preferas la verbon <ref tip="sin" cel="integr1.0i">integri</ref>,
+      sed
       la rezulton de tiu ago ili prefere nomas <ctl><tld/>o</ctl> ol
       <ctl>integra&jcirc;o</ctl>. Ni opinias pli logike sistemigi la uzon
-      de nur unu radiko, kaj tiu estu prefere <ctl><tld/></ctl>, internacia
-      kaj klare rekonebla, dum la transitiva <ctl>integri</ctl> maloportune
+      de nur unu radiko, kaj tiu estu prefere <ctl><tld/></ctl>,
+      internacia
+      kaj klare rekonebla, dum la transitiva <ctl>integri</ctl>
+      maloportune
       kolizias kun la netransitiva <ctl>integri</ctl> derivita de la
       homonima radiko kun tute alia signifo (<ctl>tute kompleta</ctl>).
     </rim>
@@ -115,7 +126,7 @@
   <trd lng="pl">ca&lstroke;kowa&cacute;</trd>
   <trd lng="pt">integrar<klr tip="amb"> (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">integrovať</trd>
+  <trd lng="sk">integrova&tcaron;</trd>
 </drv>
 
 <drv mrk="integr2.0a">
@@ -153,9 +164,9 @@
       <ekz>
         <ind>la&ubreve;faktora <tld/>ado, poparta <tld/>ado</ind> 
         <klr>(uzante la econ, ke malderiva&jcirc;o de 
-        <frm><k>f</k><k>g</k>&#8242;</frm> estas 
-        <frm><k>f</k><k>g</k></frm> minus malderiva&jcirc;o de 
-        <frm><k>g</k><k>f</k>&#8242;</frm>)</klr>.
+        <frm am="fg&#8242;"><k>f</k><k>g</k>&#8242;</frm> estas 
+        <frm am="fg"><k>f</k><k>g</k></frm> minus malderiva&jcirc;o de 
+        <frm am="gf&#8242;"><k>g</k><k>f</k>&#8242;</frm>)</klr>.
         <trd lng="de">Integration nach Teilen</trd>
         <trd lng="en">integration by parts</trd>
         <trd lng="fr">int&eacute;gration par parties</trd>
@@ -171,8 +182,8 @@
   <trd lng="be">&c_ib;&c_n;&c_t;&c_e;&c_g;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trdgrp lng="cs">
     <trd>integrace</trd>,
-    <trd>integrování</trd>,
-    <trd>integrální počet</trd>
+    <trd>integrov&aacute;n&iacute;</trd>,
+    <trd>integr&aacute;ln&iacute; po&ccaron;et</trd>
   </trdgrp>
   <trd lng="de">Integration</trd>
   <trd lng="en">integration</trd>
@@ -212,7 +223,8 @@
 </drv>
 
 <drv mrk="integr2.0ebla">
-  <kap><tld/>ebla, <var><kap><tld/>hava<fnt><bib>MatVort</bib></fnt></kap></var></kap>
+  <kap><tld/>ebla,
+  <var><kap><tld/>hava<fnt><bib>MatVort</bib></fnt></kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -221,7 +233,7 @@
       <ekz>
         <ref cel="ekspon1.0o">eksponencialo</ref> estas <tld/>ebla en
         &ccirc;iu finia intervalo, sed ne estas en intervaloj de la tipo
-        <frm>[<k>a</k>, +&#8734;[</frm>;
+        <frm am="[a,+oo)">[<k>a</k>, +&#8734;[</frm>;
       </ekz>
       <ekz>
         la karakteriza funkcio de la aro de racionalaj nombroj ne estas
@@ -245,7 +257,7 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      Signo <frm>&#8747;</frm>, aperanta en skriba&jcirc;oj pri 
+      Signo <frm am="int">&#8747;</frm>, aperanta en skriba&jcirc;oj pri 
       <ref cel="integr2.0o"><tld/>oj</ref>:
       <ekz>
         derivi sub la <tld/>signo.
@@ -256,7 +268,7 @@
     <trd>&c_ib;&c_n;&c_t;&c_e;&c_g;&c_r;&c_a;&c_l; <klr tip="amb">(&c_z;&c_n;&c_a;&c_k;)</klr></trd>,
     <trd>&c_z;&c_n;&c_a;&c_k; &c_ib;&c_n;&c_t;&c_e;&c_g;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</trd>
   </trdgrp>
-  <trd lng="cs">znak  integrálu</trd>
+  <trd lng="cs">znak  integr&aacute;lu</trd>
   <trd lng="de">Integralzeichen</trd>
   <trd lng="en">integral <ind>sign</ind></trd>
   <trdgrp lng="fr">
@@ -266,9 +278,10 @@
   <trd lng="hu">integr&aacute;ljel</trd>
   <trd lng="nl">integraalteken</trd>
   <trd lng="pl">znak ca&lstroke;ki</trd>
-  <trd lng="pt">sinal de <ind>integra&ccedil;&atilde;o</ind><klr tip="amb"> (matem&aacute;tica)</klr></trd>
+  <trd lng="pt">sinal de <ind>integra&ccedil;&atilde;o</ind><klr tip="amb">
+  (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_z;&c_n;&c_a;&c_k; &c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
-  <trd lng="sk">znak integrálu</trd>
+  <trd lng="sk">znak integr&aacute;lu</trd>
 </drv>
 
 <drv mrk="integr2.difinita0o">
@@ -280,15 +293,16 @@
     <sncref ref="integr2.0o.sumo"/>.</ref>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_n;&c_y; <ind>&c_ib;&c_n;&c_t;&c_e;&c_g;&c_r;&c_a;&c_l;</ind></trd>
-  <trd lng="cs">určitý integrál</trd>
+  <trd lng="cs">ur&ccaron;it&yacute; integr&aacute;l</trd>
   <trd lng="de">bestimmtes <ind>Integral</ind></trd>
   <trd lng="en">definite <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale d&eacute;finie</trd>
   <trd lng="hu">hat&aacute;rozott <ind>integr&aacute;l</ind></trd>
   <trd lng="pl">ca&lstroke;ka oznaczona</trd>
-  <trd lng="pt">integral definida<klr tip="amb"> (matem&aacute;tica)</klr></trd>
+  <trd lng="pt">integral definida<klr tip="amb">
+  (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
-  <trd lng="sk">určitý integrál</trd>
+  <trd lng="sk">ur&ccaron;it&yacute; integr&aacute;l</trd>
 </drv>
 
 <drv mrk="integr2.lebega0o">
@@ -297,22 +311,29 @@
   <snc mrk="integr2.lebega0o.de_simpla_funkcio">
     <dif>
       <klr>(de <ref cel="funkci.simpla0o">simpla funkcio</ref>
-      <frm><k>f</k> = 
-      &#8721;<k>a</k><sub><k>i</k></sub>.&chi;<sub><g>A</g><k>i</k></sub></frm> 
-      la&ubreve; <ref cel="mezur.0o.MAT">mezuro</ref> <frm>&my;</frm> 
+      <frm am="f=sum a_i*chi_(bb Ai)"
+      ><k>f</k> =
+      &#8721;<k>a</k><sub><k>i</k></sub>&middot;&chi;<sub><g>A</g><k>i</k></sub></frm>
+      
+      la&ubreve; <ref cel="mezur.0o.MAT">mezuro</ref> <frm
+      
+      am="mu">&my;</frm> 
       super <ref cel="algebr.sigma0o">&sigma;-algebro</ref> 
-      <frm><g>A</g></frm>)</klr>
+      <frm am="bb A"><g>A</g></frm>)</klr>
       La sumo 
-      <frm>&#8721;<k>a</k><sub><k>i</k></sub>.&my;(<g>A</g><sub><k>i</k></sub>)</frm>;
-      simb. <frm>&#8747;<k>f</k>d&my;</frm> 
-      <klr>(legu: <tld/>o de fo do mu)</klr> a&ubreve;
-      <frm>&#8747;<k>f</k>(<k>x</k>)d&my;(<k>x</k>)</frm>:
+      <frm am="sum a_i*mu(A_i)"
+      >&#8721;<k>a</k><sub><k>i</k></sub>&middot;&my;(<g>A</g><sub><k>i</k></sub>)</frm>;
+      simb. <frm am="int f dmu">&#8747;<k>f</k>d&my;</frm> 
+      <klr> (legu: <tld/>o de fo do mu)</klr> a&ubreve;
+      <frm am="int f(x)dmu(x)"
+      >&#8747;<k>f</k>(<k>x</k>)d&my;(<k>x</k>)</frm>:
       <ekz>
         la lebega <tld/>o de karakteriza funkcio de ajna elemento de
-        <frm><g>A</g></frm> egalas al &gcirc;ia mezuro;
+        <frm am="bb A"><g>A</g></frm> egalas al &gcirc;ia mezuro;
       </ekz>
       <ekz>
-        kvankam simpla funkcio povas prezenti&gcirc;i diversmaniere kiel lineara
+        kvankam simpla funkcio povas prezenti&gcirc;i diversmaniere kiel
+        lineara
         kombina&jcirc;o de karakterizaj funkcioj, &gcirc;ia lebega <tld/>o estas
         unika.
       </ekz>
@@ -321,32 +342,41 @@
   <snc mrk="integr2.lebega0o.de_funkcio">
     <dif>
       <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref> 
-      <frm><k>f</k></frm>)</klr>
+      <frm am="f"><k>f</k></frm>)</klr>
       La komuna valoro, se &gcirc;i ekzistas, de la
-      <ref cel="suprem.0o">supremo</ref> de la <tld/>oj de simplaj funkcioj
-      malpli grandaj ol <frm><k>f</k></frm> kaj de la 
-      <ref cel="infim.0o">infimo</ref> de la <tld/>oj de simplaj funkcioj
-      pli grandaj ol <frm><k>f</k></frm>;
-      simb. <frm>&#8747;<k>f</k>d&my;</frm> a&ubreve;
-      <frm>&#8747;<k>f</k>(<k>x</k>)d&my;(<k>x</k>)</frm>:
+      <ref cel="suprem.0o">supremo</ref> de la <tld/>oj de simplaj
+      funkcioj
+      malpli grandaj ol <frm am="f"><k>f</k></frm> kaj de la 
+      <ref cel="infim.0o">infimo</ref> de la <tld/>oj de simplaj
+      funkcioj
+      pli grandaj ol <frm am="f"><k>f</k></frm>;
+      simb. <frm am="int f dmu">&#8747;<k>f</k>d&my;</frm> a&ubreve;
+      <frm am="int f(x)dmu(x)">&#8747;<k>f</k>(<k>x</k>)d&my;(<k>x</k>)</frm>:
       <ekz>
-        la lebega <tld/>o de ajna funkcio <frm><k>f</k></frm> la&ubreve; la 
-        diraka mezuro &ccirc;e punkto <frm><k>a</k></frm> egalas al 
-        <frm><k>f</k>(<k>a</k>)</frm>;
+        la lebega <tld/>o de ajna funkcio <frm am="f"><k>f</k></frm> la&ubreve;
+        la 
+        diraka mezuro &ccirc;e punkto <frm am="a"><k>a</k></frm> egalas al 
+        <frm am="f(a)"><k>f</k>(<k>a</k>)</frm>;
       </ekz>
       <ekz>
-        la lebega <tld/>o de funkcio <frm><k>f</k></frm> en subaro 
-        <frm><g>V</g></frm> 
-        <klr>(la <tld/>o de <frm><k>f</k>.&chi;<sub><g>V</g></sub></frm>; 
-        simb. <frm>&#8747;<sub><g>V</g></sub><k>f</k>d&my;</frm>, legu: 
+        la lebega <tld/>o de funkcio <frm am="f"><k>f</k></frm> en
+        subaro 
+        <frm am="bb V"><g>V</g></frm> 
+        <klr> (la <tld/>o de <frm am="f*chi_(bb V)"
+        ><k>f</k>&middot;&chi;<sub><g>V</g></sub></frm>; 
+        simb. <frm am="int_(bb V)f dmu"
+        >&#8747;<sub><g>V</g></sub><k>f</k>d&my;</frm>, legu: 
         <tld/>o en vo de fo do mu)</klr>.
       </ekz>
     </dif>
   </snc>
   <rim>
-    Parolante pri la lebega <tld/>o la&ubreve; mezuro <frm>&my;</frm>, oni 
-    ofte ellasas la adjektivon <ctl>lebega</ctl>. Inverse, se oni parolas 
-    pri la lebega <tld/>o sen precizigi la mezuron, tiam temas pri <tld/>o 
+    Parolante pri la lebega <tld/>o la&ubreve; mezuro <frm am="mu">&my;</frm>, oni
+      
+    ofte ellasas la adjektivon <ctl>lebega</ctl>. Inverse, se oni
+    parolas 
+    pri la lebega <tld/>o sen precizigi la mezuron, tiam temas pri
+    <tld/>o 
     la&ubreve; la lebega mezuro super la borela &sigma;-algebro.
   </rim>
   <ref tip="vid" cel="lebeg.0o">Lebego.</ref>
@@ -372,7 +402,7 @@
     <trd>&c_n;&c_ja;&c_v;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_n;&c_y; <ind>&c_ib;&c_n;&c_t;&c_e;&c_g;&c_r;&c_a;&c_l;</ind></trd>,
     <trd>&c_p;&c_je;&c_r;&c_sh;&c_a;&c_ib;&c_s;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_y;&c_ja;</ind></trd>
   </trdgrp>
-  <trd lng="cs">neurčitý integrál</trd>
+  <trd lng="cs">neur&ccaron;it&yacute; integr&aacute;l</trd>
   <trdgrp lng="de">
     <trd>Stammfunktion</trd>,
     <trd>unbestimmtes <ind>Integral</ind></trd>
@@ -391,13 +421,14 @@
     <trd>ca&lstroke;ka nieoznaczona</trd>,
     <trd>funkcja pierwotna</trd>
   </trdgrp>
-  <trd lng="pt">integral indefinida<klr tip="amb"> (matem&aacute;tica)</klr></trd>
+  <trd lng="pt">integral indefinida<klr tip="amb">
+  (matem&aacute;tica)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_je;&c_r;&c_v;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
     <trd>&c_p;&c_r;&c_i;&c_m;&c_i;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>,
     <trd>&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
   </trdgrp>
-  <trd lng="sk">neurčitý integrál</trd>
+  <trd lng="sk">neur&ccaron;it&yacute; integr&aacute;l</trd>
 </drv>
 
 <drv mrk="integr2.rimana0o">
@@ -406,33 +437,42 @@
   <snc mrk="integr2.rimana0o.de_sxtupara_funkcio">
     <dif>
       <klr>(de reela <ref cel="funkci.sxtupara0o">&scirc;tupara funkcio</ref>
-      <frm><k>f</k> = 
-      &#8721;<k>a</k><sub><k>i</k></sub>.&chi;<sub><g>A</g><k>i</k></sub></frm>
-      en intervalo <frm>[<k>a</k>,<k>b</k>]</frm>)</klr>
+      <frm am="f=sum a_i*chi_(bb A i)"
+      ><k>f</k> = 
+      &#8721;<k>a</k><sub><k>i</k></sub>&middot;&chi;<sub><g>A</g><k>i</k></sub></frm>
+      en intervalo <frm am="[a,b]">[<k>a</k>,<k>b</k>]</frm>)</klr>
       La sumo 
-      <frm>&#8721;<k>a</k><sub><k>i</k></sub>.<k>l</k><sub><k>i</k></sub></frm>, 
-      kie <frm><k>l</k><sub>i</sub></frm> signas la longon de intervalo 
-      <frm><g>A</g><sub><k>i</k></sub></frm>;
-      simb. <frm>&#8747;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>.
+      <frm am="sum a_i*l_i"
+      >&#8721;<k>a</k><sub><k>i</k></sub>&middot;<k>l</k><sub><k>i</k></sub></frm>,
+      
+      kie <frm am="l_i"><k>l</k><sub>i</sub></frm> signas la
+      
+      longon de
+      intervalo 
+      <frm am="bb A_i"><g>A</g><sub><k>i</k></sub></frm>;
+      simb. <frm am="int_a^b f(x)dx"
+      >&#8747;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>.
     </dif>
   </snc>
   <snc mrk="integr2.rimana0o.de_funkcio">
     <dif>
       <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref> 
-      <frm><k>f</k></frm> en intervalo
-      <frm>[<k>a</k>,<k>b</k>]</frm>)</klr>
+      <frm am="f"><k>f</k></frm> en intervalo
+      <frm am="[a,b]">[<k>a</k>,<k>b</k>]</frm>)</klr>
       La komuna valoro, se &gcirc;i ekzistas, de la
       <ref cel="suprem.0o">supremo</ref> de la <tld/>oj en
-      <frm>[<k>a</k>,<k>b</k>]</frm> de &scirc;tuparaj funkcioj 
-      malpli grandaj ol <frm><k>f</k></frm> kaj de la
+      <frm am="[a,b]">[<k>a</k>,<k>b</k>]</frm> de &scirc;tuparaj funkcioj 
+      malpli grandaj ol <frm am="f"><k>f</k></frm> kaj de la
       <ref cel="infim.0o">infimo</ref> de la <tld/>oj en 
-      <frm>[<k>a</k>,<k>b</k>]</frm> de &scirc;tuparaj funkcioj 
-      pli grandaj ol <frm><k>f</k></frm>; alidire
-      <frm>lim<sub><k>n</k>&#8594;&#8734;</sub> 
+      <frm am="[a,b]">[<k>a</k>,<k>b</k>]</frm> de &scirc;tuparaj funkcioj 
+      pli grandaj ol <frm am="f"><k>f</k></frm>; alidire
+      <frm am="lim_(n to oo)[(b-a)/n] sum_(i=1)^n f(a+i*(b-a)/n)"
+      >lim<sub><k>n</k>&#8594;&#8734;</sub> 
         [(<k>b</k>-<k>a</k>)/<k>n</k>] 
         &#8721;<sub><k>i</k>=1</sub><sup><k>n</k></sup> 
-        <k>f</k>(<k>a</k>+<k>i</k>.(<k>b</k>-<k>a</k>)/<k>n</k>)</frm>;
-      simb. <frm>&#8747;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>:
+        <k>f</k>(<k>a</k>+<k>i</k>&middot;(<k>b</k>-<k>a</k>)/<k>n</k>)</frm>;
+      simb. <frm am="int_a^b f(x)dx"
+      >&#8747;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>:
       <ekz>
         la rimana <tld/>o, kiam &gcirc;i ekzistas, egalas al la lebega.
       </ekz>
@@ -446,12 +486,19 @@
   <trd lng="hu">Riemann-<ind>integr&aacute;l</ind></trd>
   <trd lng="nl">Riemann-<ind>integraal</ind></trd>
   <trd lng="pl">ca&lstroke;ka Riemanna</trd>
-  <trd lng="pt">integral de Riemann<klr tip="amb"> (matem&aacute;tica)</klr></trd>
+  <trd lng="pt">integral de Riemann<klr tip="amb">
+  (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_R;&c_i;&c_m;&c_a;&c_n;&c_a;</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: integr2.xml,v $
+versio 1.28 2020/02/14 12:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.27  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.26  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -468,14 +515,5 @@ Revision 1.22  2004/08/31 16:32:55  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.21  2004/02/22 17:31:37  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.20  2004/02/05 17:30:50  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2003/01/22 17:32:54  revo
-Alejandro Mejia Greene: ald 3 his trd
-
-Revision 1.18  2003/01/02 17:46:56  revo
 -->
 </vortaro>
