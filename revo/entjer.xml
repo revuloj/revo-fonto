@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: entjer.xml,v 1.23 2020/02/14 17:10:34 revo Exp $">
 <kap>
   <rad>entjer</rad>/o
 </kap>
@@ -13,13 +13,13 @@
   <snc>
     <dif>
       <ref tip="super" cel="nombr.0o.MAT">Nombro</ref> el la sinsekvo
-      <frm>0, 1, 2, 3...</frm> a&ubreve; el la sinsekvo
-      <frm>-1, -2, -3...</frm>:
+      <frm am="0,1,2,3,...">0, 1, 2, 3,...</frm> a&ubreve; el la sinsekvo
+      <frm am="-1,-2,-3,...">-1, -2, -3,...</frm>:
       <ekz>
-        la aron de <tld/>oj oni signas per <frm><g>Z</g></frm>.
+        la aron de <tld/>oj oni signas per <frm am="ZZ"><g>Z</g></frm>.
       </ekz>
     </dif>
-    <ref tip="super" cel="racion.0o">racionalo;</ref>
+    <ref tip="super" cel="racion.0o">racionalo</ref>
     <refgrp tip="vid">
       <ref cel="aritme.0o">aritmetiko</ref>,
       <ref cel="kardin.0o.MAT">kardinalo</ref>.
@@ -28,7 +28,7 @@
   <trd lng="be">&c_c;&c_e;&c_l;&c_y; <ind>&c_l;&c_ib;&c_k;</ind></trd>
   <trdgrp lng="cs">
     <trd>celek</trd>,
-    <trd>celé číslo</trd>
+    <trd>cel&eacute; &ccaron;&iacute;slo</trd>
   </trdgrp>
   <trd lng="de">ganze <ind>Zahl</ind></trd>
   <trdgrp lng="en">
@@ -46,7 +46,7 @@
   <trd lng="pt">inteiro</trd>
   <trd lng="ru">&c_c;&c_je;&c_l;&c_o;&c_je;
 <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
-  <trd lng="sk">celé číslo</trd>
+  <trd lng="sk">cel&eacute; &ccaron;&iacute;slo</trd>
   <trd lng="sv">heltal</trd>
 </drv>
 
@@ -76,8 +76,8 @@
     <trd>&c_c;&c_e;&c_l;&c_a;&c_l;&c_ib;&c_k;&c_a;&c_v;&c_y;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>digitální</trd>,
-    <trd>číselný</trd>
+    <trd>digit&aacute;ln&iacute;</trd>,
+    <trd>&ccaron;&iacute;seln&yacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>ganz</trd>,
@@ -97,8 +97,8 @@
     <trd>&c_c;&c_je;&c_l;&c_o;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>digitálny</trd>,
-    <trd>číselný</trd>
+    <trd>digit&aacute;lny</trd>,
+    <trd>&ccaron;&iacute;seln&yacute;</trd>
   </trdgrp>
   <trd lng="sv">heltals-</trd>
 </drv>
@@ -132,23 +132,26 @@
     <dif>
       <ref cel="negati.ne0a">Nenegativa</ref>
       <ref tip="super" cel="entjer.0o"><tld/>o</ref>
-      <klr>(t.e. <frm>0, 1, 2, 3...</frm>)</klr>:
+      <klr>(t.e. <frm am="0,1,2,3,...">0, 1, 2, 3,...</frm>)</klr>:
       <ekz>
-        la aron de naturaj <tld/>oj oni signas per <frm><g>N</g></frm>, kaj
-        tiun de strikte pozitivaj <tld/>oj per <frm><g>N</g><sup>*</sup></frm>.
+        la aron de naturaj <tld/>oj oni signas per
+        <frm am="NN"><g>N</g></frm>, kaj
+        tiun de strikte pozitivaj <tld/>oj per
+        <frm am="NN^***"><g>N</g><sup>*</sup></frm>.
       </ekz>
     </dif>
     <ref tip="sin" cel="nombr.natura0o">natura nombro.</ref>
     <rim>
-      En elementa aritmetiko, oni ofte lasas la nombron <frm>0</frm> ekster
+      En elementa aritmetiko, oni ofte lasas la nombron <frm>0</frm>
+      ekster
       la aro de naturaj <tld/>oj.
     </rim>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;
 <ind>&c_l;&c_ib;&c_k;</ind></trd>
   <trdgrp lng="cs">
-    <trd>celé kladné číslo</trd>,
-    <trd>přirozené číslo</trd>
+    <trd>cel&eacute; kladn&eacute; &ccaron;&iacute;slo</trd>,
+    <trd>p&rcaron;irozen&eacute; &ccaron;&iacute;slo</trd>
   </trdgrp>
   <trd lng="de">nat&uuml;rliche <ind>Zahl</ind></trd>
   <trd lng="en">natural <ind>number</ind></trd>
@@ -158,14 +161,20 @@
   <trd lng="ru">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
 <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
   <trdgrp lng="sk">
-    <trd>celé kladné číslo</trd>,
-    <trd>prirodzené číslo</trd>
+    <trd>cel&eacute; kladn&eacute; &ccaron;&iacute;slo</trd>,
+    <trd>prirodzen&eacute; &ccaron;&iacute;slo</trd>
   </trdgrp>
   <trd lng="sv">naturligt tal</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: entjer.xml,v $
+versio 1.23 2020/02/14 17:10:34
+Wolfram Diestel: formuloj per am
+
+Revision 1.22  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.21  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -182,14 +191,5 @@ Revision 1.17  2005/03/11 16:52:10  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.16  2003/12/18 17:31:29  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2002/11/22 17:31:51  revo
-Marc Bavant: +frm
-
-Revision 1.14  2002/09/14 18:52:57  revo
-Marc Bavant: +drv ~a; ~o: +trd en; +trd pl
-Revision 1.13 2002/06/10 17:32:06 revo
-Alejandro Mejia Greene: ald 1 his trd
 -->
 </vortaro>
