@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: faktor5.xml,v 1.18 2020/02/14 17:10:38 revo Exp $">
 <kap>
   <rad>faktorial</rad>/o
 </kap>
@@ -13,18 +13,21 @@
   <snc>
     <dif>
       <klr>(de pozitiva <ref cel="entjer.0o">entjero</ref>
-      <frm><k>n</k></frm>)</klr>
-      La produto <frm>1&#215;2&#215;3... &#215;<k>n</k></frm>; 
-      simb. <frm><k>n</k>!</frm> <klr>(legu: no faktoriale)</klr>:
+      <frm am="n"><k>n</k></frm>)</klr>
+      La produto <frm am="1xx2xx3xx...xxn"
+      >1&#215;2&#215;3... &#215;<k>n</k></frm>; 
+      simb. <frm am="n!"><k>n</k>!</frm> <klr> (legu: no
+      faktoriale)</klr>:
       <ekz>
-        la nombro de bijekcioj en aro kun <frm><k>n</k></frm> elementoj 
-        estas <tld/>o de <frm><k>n</k></frm>.
+        la nombro de bijekcioj en aro kun <frm am="n"><k>n</k></frm>
+        elementoj 
+        estas <tld/>o de <frm am="n"><k>n</k></frm>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_k;&c_t;&c_a;&c_r;&c_y;&c_ja;&c_l;</trd>
   <trd lng="bg">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;&c_i;&c_je;&c_l;</trd>
-  <trd lng="cs">faktoriál</trd>
+  <trd lng="cs">faktori&aacute;l</trd>
   <trd lng="de">Fakult&auml;t</trd>
   <trd lng="en">factorial</trd>
   <trd lng="es">factorial</trd>
@@ -35,11 +38,17 @@
   <trd lng="pl">silnia<klr tip="ind"> (liczby naturalnej)</klr></trd>
   <trd lng="pt">fatorial</trd>
   <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;&c_i;&c_a;&c_l;</trd>
-  <trd lng="sk">faktoriál</trd>
+  <trd lng="sk">faktori&aacute;l</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: faktor5.xml,v $
+versio 1.18 2020/02/14 17:10:38
+Wolfram Diestel: formuloj per am
+
+Revision 1.17  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.16  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -56,14 +65,5 @@ Revision 1.12  2003/12/21 17:32:27  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2003/09/17 16:31:10  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2003/01/02 17:45:42  revo
-Marc Bavant: +trd pl, mod dif
-
-Revision 1.9  2002/11/22 17:31:52  revo
-Marc Bavant: +frm
-Revision 1.8  2002/06/26 19:28:05  revo
-Marc Bavant: kor interpunkcion en dif
 -->
 </vortaro>
