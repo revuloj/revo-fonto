@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: disjun.xml,v 1.16 2020/02/14 13:10:20 revo Exp $">
 <kap>
   <rad>disjunkci</rad>/o <fnt><bib>PIV2</bib></fnt>
 </kap>
@@ -18,8 +18,9 @@
       asocias la propozicion, kiu estas vera, se kaj nur se
       almena&ubreve; unu el ili estas vera; rezulto de tiu operacio:
       <ekz>
-        la <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni foje signas
-        per <frm>P&#8744;Q</frm> <klr>(legu: po a&ubreve; kuo)</klr>.
+        la <tld/>on de <frm am="P">P</frm> kaj <frm am="Q">Q</frm>
+        oni foje signas
+        per <frm am="P vv Q">P&#8744;Q</frm> <klr> (legu: po a&ubreve; kuo)</klr>.
       </ekz>
     </dif>
     <bld lok="../bld/t_disjunkcio.svg.gif" lrg="150" alt="150">
@@ -84,9 +85,9 @@
       asocias la propozicion, kiu estas vera, se kaj nur se
       precize unu el ili estas vera; rezulto de tiu operacio:
       <ekz>
-        la ekskluzivan <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni
-        foje 
-        signas per <frm>P&#8891;Q</frm> <klr>(legu: po a&ubreve; alie
+        la ekskluzivan <tld/>on de <frm am="P">P</frm> kaj
+        <frm am="Q">Q</frm> oni foje 
+        signas per <frm am="P &#8891; Q">P&#8891;Q</frm> <klr> (legu: po a&ubreve; alie
         kuo)</klr>;
       </ekz><ekz>
         la ekskluziva <tld/>o estas 
@@ -105,7 +106,7 @@
       neprigis per la epiteto <ctl>strikta</ctl>; la epiteto
       <ctl>ekskluziva</ctl> estas iom konfuza, &ccirc;ar pli trafe
       &gcirc;i priskribus komplementon, resp. negon &#8208; do la kombino
-      rezultus en mala&ubreve;o: <frm>~(x&#8744;y)</frm>.
+      rezultus en mala&ubreve;o: <frm am="~(x vv y)">~(x&#8744;y)</frm>.
       <aut>Sergio Pokrovskij</aut>
     </rim>
     <trdgrp lng="de">
@@ -130,7 +131,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: disjun.xml,v $
+versio 1.16 2020/02/14 13:10:20
+Wolfram Diestel: formuloj per am
+
+Revision 1.15  2017/02/21 15:10:15  revo
+Jeromo Vasxe: disjukcion -> disjunkcion
+
 Revision 1.14  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -147,8 +154,5 @@ Revision 1.10  2007/03/06 17:31:32  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.9  2005/07/05 16:34:12  revo
-Alan ar Gall: kor cel en rim
-
-Revision 1.8  2005/06/14 16:31:22  revo
 -->
 </vortaro>
