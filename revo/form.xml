@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: form.xml,v 1.58 2020/02/14 12:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>form</rad>/o <fnt><bib>PV</bib></fnt>
@@ -940,7 +940,8 @@ eldono, junio 1907</lok></fnt>;
         sam<tld/>i&gcirc;is kun la tempopaso
         <fnt>
           <aut>K. Miksz&aacute;th, trad. J. Horvath</aut>
-          <vrk><url ref="http://www.vortaro.hu/mindenesszotar/jozohor/Fraulino%20el%20oro.pdf">
+          <vrk><url
+          ref="http://www.vortaro.hu/mindenesszotar/jozohor/Fraulino%20el%20oro.pdf">
           Fra&ubreve;lino el oro</url></vrk>
           <lok>2002</lok>
         </fnt>.
@@ -1175,8 +1176,9 @@ eldono, junio 1907</lok></fnt>;
       </ekz>
       <ekz>
         la diferencialan <tld/>on
-        <frm><k>f</k>(<k>x</k>,<k>y</k>).d<k>x</k>+<k>g</k>
-        (<k>x</k>,<k>y</k>).d<k>y</k></frm>
+        <frm am="f(x,y)*dx+g(x,y)*dy"
+        ><k>f</k>(<k>x</k>,<k>y</k>)&middot;d<k>x</k>+<k>g</k>
+        (<k>x</k>,<k>y</k>)&middot;d<k>y</k></frm>
         oni nomas ekzakta, se &gcirc;i estas diferencialo de iu
         duvariabla reela funkcio.
       </ekz>
@@ -1184,7 +1186,7 @@ eldono, junio 1907</lok></fnt>;
     <rim>
       La &ccirc;i-supra difino limi&gcirc;as al unuagradaj
       diferencialaj formoj kun skalaraj valoroj. Ekzistas pli
-      &gcirc;enerala difino por <frm><k>p</k></frm>-gradaj
+      &gcirc;enerala difino por <frm am="p"><k>p</k></frm>-gradaj
       diferencialaj formoj kun vektoraj valoroj.
     </rim>
   </snc>
@@ -1213,9 +1215,10 @@ eldono, junio 1907</lok></fnt>;
         <frm><g>E</g></frm>)</klr>
       Tia <ref cel="seskvi.0a">seskvilineara</ref>
       <ref tip="super" cel="form.0o.bildigo"><tld/>o</ref>
-      <frm>&phi;</frm>, ke <frm>&phi;(<k>x</k>,<k>y</k>) =
+      <frm am="phi">&phi;</frm>, ke <frm am="phi(x,y)=kappa(phi(y,x))"
+      >&phi;(<k>x</k>,<k>y</k>) =
       &kappa;(&phi;(<k>y</k>,<k>x</k>))</frm>,
-      kie <frm>&kappa;</frm> signas la operacion
+      kie <frm am="kappa">&kappa;</frm> signas la operacion
       <ref cel="konjug.0o">konjugo</ref>.
     </dif>
     <ref tip="vid" cel="hermit.0o">Hermito.</ref>
@@ -1234,7 +1237,13 @@ eldono, junio 1907</lok></fnt>;
 </drv>
 </art>
 <!--
-$Log$
+$Log: form.xml,v $
+versio 1.58 2020/02/14 12:10:19
+Wolfram Diestel: formuloj per am
+
+Revision 1.57  2019/04/08 20:10:15  revo
+Jeromo Vasxe: + sam~igxi
+
 Revision 1.56  2018/07/02 16:10:13  revo
 Jeromo Vasxe: ~o: + snc formilo, preciz. kk dif, + 1 ref (etiketo)
 
@@ -1251,8 +1260,5 @@ Revision 1.52  2016/10/25 10:10:22  revo
 Damien Brucker: +ekz
 
 Revision 1.51  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.50  2015/06/29 16:29:38  revo
 -->
 </vortaro>
