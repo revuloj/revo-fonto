@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: esprim.xml,v 1.32 2020/02/14 17:10:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>esprim</rad>/i <fnt><bib>PV</bib></fnt>
@@ -119,14 +119,14 @@
       Sinsekvo da <ref cel="simbol.0o.SCI">simboloj</ref>, indikanta 
       matematikan a&ubreve; programan objekton:
       <ekz>
-        la <tld/>o <frm><k>a</k><sup><k>x</k></sup>-2</frm> konsistas el
-        kvar 
+        la <tld/>o <frm am="a^x-2"><k>a</k><sup><k>x</k></sup>-2</frm> 
+        konsistas el kvar 
         simboloj kaj prezentas rezulton de du sinsekvaj operacioj;
       </ekz>
       <ekz>
-        kalkulu la <tld/>on <frm><k>a</k><sup>2</sup>+5<k>a</k>-2</frm>,
-        
-        kiam <frm><k>a</k> = 2</frm>;
+        kalkulu la <tld/>on <frm am="a^2+5a-2"
+        ><k>a</k><sup>2</sup>+5<k>a</k>-2</frm>,       
+        kiam <frm am="a=2"><k>a</k> = 2</frm>;
       </ekz>
       <ekz>
         egala&jcirc;o konsistas el du <tld/>oj kunigitaj per egalsigno.
@@ -366,7 +366,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: esprim.xml,v $
+versio 1.32 2020/02/14 17:10:35
+Wolfram Diestel: formuloj per am
+
+Revision 1.31  2018/10/11 22:10:16  revo
+Jeromo Vasxe: + vizagx~o
+
 Revision 1.30  2018/09/03 18:10:18  revo
 Wolfram Diestel: +germ trd-oj
 
@@ -383,8 +389,5 @@ Revision 1.26  2014/12/15 07:10:17  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.25  2014/05/19 20:10:13  revo
-Damien Brucker: +ekz
-
-Revision 1.24  2012/09/05 09:10:21  revo
 -->
 </vortaro>
