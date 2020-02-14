@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: ekvaci.xml,v 1.34 2020/02/14 12:10:18 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>ekvaci</rad>/o
@@ -16,28 +16,29 @@
       Matematika problemo, konsistanta en ser&ccirc;ado de
       <ref cel="bild.inversa0o.elemento">inversa bildo</ref> de iu
       elemento 
-      <frm><k>a</k></frm> per iu <ref cel="bild.0igo.MAT">bildigo</ref>;
-      
+      <frm am="a"><k>a</k></frm> per iu <ref
+      cel="bild.0igo.MAT">bildigo</ref>;      
       <tld/>o ofte prezenti&gcirc;as sub formo de egala&jcirc;o 
-      <frm><k>f</k>(<k>x</k>) = <k>a</k></frm>, kie <frm><k>x</k></frm>
-      estas
+      <frm am="f(x)=a"><k>f</k>(<k>x</k>) = <k>a</k></frm>,
+      kie <frm am="x"><k>x</k></frm> estas
       la ser&ccirc;ata <ref cel="kon.ne0ato.ekvacio">nekonato</ref>
-      (plej ofte:
-      nombro, punkto, vektoro a&ubreve; bildigo):
+      (plej ofte: nombro, punkto, vektoro a&ubreve; bildigo):
       <ekz>
         solvi <tld/>on;
       </ekz>
       <ekz>
-        la <tld/>o <frm><k>x</k><sup>2</sup>+1 = 0</frm> ne akceptas 
-        <klr>(ne havas)</klr> <ref cel="reel.0a">reelan</ref> solvon;
+        la <tld/>o <frm am="x^2+1=0"
+        ><k>x</k><sup>2</sup>+1 = 0</frm> ne akceptas 
+        <klr>(ne havas) </klr> <ref cel="reel.0a">reelan</ref> solvon;
       </ekz>
       <ekz>
-        la nombro <frm>1</frm> <ref cel="ver.0igi.MAT">verigas</ref> la 
-        <tld/>on <frm><k>x</k><sup>2</sup>-1 = 0</frm>;
+        la nombro <frm>1</frm><klr> </klr><ref
+        cel="ver.0igi.MAT">verigas</ref> la 
+        <tld/>on <frm am="x^2-1=0"><k>x</k><sup>2</sup>-1 = 0</frm>;
       </ekz>
       <ekz>
         la funkcio <ref cel="sinus.0o">sinuso</ref> verigas la <tld/>on
-        <frm><k>x</k>&#8243;+<k>x</k> = 0</frm>;
+        <frm am="x&#8243;+x=0"><k>x</k>&#8243;+<k>x</k> = 0</frm>;
       </ekz>
       <ekz>
         kartezia, polusa <tld/>o de <ref cel="kurb.0o.MAT">kurbo</ref>,
@@ -53,7 +54,7 @@
         transcenda <tld/>o <klr>(ne estanta algebra)</klr>;
       </ekz>
       <ekz>
-        lineara <tld/>o <klr>(en kiu <frm><k>f</k></frm> estas 
+        lineara <tld/>o <klr>(en kiu <frm am="f"><k>f</k></frm> estas 
         <ref cel="linear.0a.homomorfio">lineara</ref> funkcio)</klr>.
       </ekz>
     </dif>
@@ -105,7 +106,7 @@
   <trd lng="pl">uk&lstroke;ad r&oacute;wna&nacute;</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;
   &c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_j;</trd>
-  <trd lng="sk">sústava rovníc</trd>
+  <trd lng="sk">s&uacute;stava rovn&iacute;c</trd>
 </drv>
 
 <drv mrk="ekvaci.0igi">
@@ -136,7 +137,7 @@
   <trd lng="ru"> &c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_i;&c_t;&c_mol;
   <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;</ind><klr
   tip="ind"> (&c_f;&c_je;&c_n;&c_o;&c_m;&c_je;&c_n;&c_a;)</klr></trd>
-  <trd lng="sk">zostaviť rovnicu</trd>
+  <trd lng="sk">zostavi&tcaron; rovnicu</trd>
 </drv>
 
 <drv mrk="ekvaci.diferenciala0o">
@@ -151,10 +152,12 @@
       <ref cel="difere2.0o">diferencialoj</ref>:
       <ekz>
         ordinara diferenciala <tld/>o de unua ordo havas la formon
-        <frm>F(<k>x</k>,<k>y</k>,<k>y</k>&#8242;) = 0</frm>;
+        <frm am="F(x,y,y&#8242;)=0"
+        >F(<k>x</k>,<k>y</k>,<k>y</k>&#8242;) = 0</frm>;
       </ekz>
       <ekz>
-       <frm>&#8706;&quadrat;<k>u</k>/&#8706;<k>x</k>&quadrat;+&#8706;&quadrat;<k>u</k>/&#8706;<k>y</k>&quadrat;
+       <frm am="(del^2u)/(del x^2)+(del^2u)/(del y^2)=0"
+       >&#8706;&quadrat;<k>u</k>/&#8706;<k>x</k>&quadrat;+&#8706;&quadrat;<k>u</k>/&#8706;<k>y</k>&quadrat;
        = 0</frm> 
         estas elipsa <ind>diferenciala <tld/>o en partaj
         deriva&jcirc;oj</ind>.
@@ -198,8 +201,8 @@
   <trd
   lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
   <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
-  <trd lng="sk">diferenciálna rovnica</trd>
-  <trd lng="cs">diferenciální rovnice</trd>
+  <trd lng="sk">diferenci&aacute;lna rovnica</trd>
+  <trd lng="cs">diferenci&aacute;ln&iacute; rovnice</trd>
 </drv>
 
 <drv mrk="ekvaci.integrala0o">
@@ -212,17 +215,19 @@
       nekonato estas funkcio aperanta en <ref
       cel="integr2.0o">integralo</ref>:
       <ekz>
-        en la integrala <tld/>o kun nekonato <frm>&phi;</frm> de la tipo
-        <frm>&#8747;<sub><k>a</k></sub><sup><k>b</k></sup>K(<k>s</k>,<k>t</k>)&phi;(<k>t</k>)d<k>t</k>
+        en la integrala <tld/>o kun nekonato <frm am="phi">&phi;</frm> de la
+        tipo
+        <frm am="int_a^b K(s,t)phi(t)dt = f(s)"
+        >&#8747;<sub><k>a</k></sub><sup><k>b</k></sup>K(<k>s</k>,<k>t</k>)&phi;(<k>t</k>)d<k>t</k>
         = <k>f</k>(<k>s</k>)</frm>
-        oni nomas la funkcion <frm>K</frm> &gcirc;ia kerno.
+        oni nomas la funkcion <frm am="K">K</frm> &gcirc;ia kerno.
       </ekz>
     </dif>
   </snc>
   <trd
   lng="be">&c_ib;&c_n;&c_t;&c_e;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_je;
   <ind>&c_r;&c_a;&c_w;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
-  <trd lng="cs">integrální rovnice</trd>
+  <trd lng="cs">integr&aacute;ln&iacute; rovnice</trd>
   <trd lng="de">Integralgleichung</trd>
   <trd lng="en">integral <ind>equation</ind></trd>
   <trd lng="fr">&eacute;quation int&eacute;grale</trd>
@@ -231,7 +236,7 @@
   <trd
   lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
   <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
-  <trd lng="sk">integrálna rovnica</trd>
+  <trd lng="sk">integr&aacute;lna rovnica</trd>
 </drv>
 
 <drv mrk="ekvaci.ne0o">
@@ -245,7 +250,8 @@
       <ref cel="egal.ne0ajxo">neegala&jcirc;o</ref>:
       <ekz>
         la solvoj de ne<tld/>o
-        <frm><k>x</k><sup>2</sup>+<k>y</k><sup>2</sup> &lt; 1</frm> 
+        <frm am="x^2+y^2 le 1"><k>x</k><sup>2</sup>+<k>y</k><sup>2</sup>
+        &lt; 1</frm> 
         konsistigas malfermitan diskon.
       </ekz>
     </dif>
@@ -263,13 +269,19 @@
   <trd lng="pl">nier&oacute;wno&sacute;&cacute;</trd>
   <trd
   lng="ru">&c_n;&c_je;&c_r;&c_a;&c_v;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
-  <trd lng="sk">nerovnosť</trd>
+  <trd lng="sk">nerovnos&tcaron;</trd>
   <trd lng="cs">nerovnost</trd>
 </drv>
 
 </art>
 <!--
-$Log$
+$Log: ekvaci.xml,v $
+versio 1.34 2020/02/14 12:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.33  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.32  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -286,14 +298,5 @@ Revision 1.28  2004/08/01 19:37:16  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.27  2003/08/17 17:29:46  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.26  2003/05/18 18:01:36  revo
-Marc Bavant: ~igi: +trd ru
-
-Revision 1.25  2003/05/09 16:31:23  revo
-Marc Bavant: ~aro: mod dif
-Revision 1..24  2003/04/07 16:34:59  revo
-Marc Bavant: ~igi: +trd de
 -->
 </vortaro>
