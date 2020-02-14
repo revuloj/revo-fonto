@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: indukt.xml,v 1.24 2020/02/15 00:10:34 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>indukt</rad>/i
@@ -53,14 +53,14 @@
       <trd>&c_n;&c_a;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <trd lng="cs">vyvozovat obecné závěry</trd>
+  <trd lng="cs">vyvozovat obecn&eacute; z&aacute;v&ecaron;ry</trd>
   <trd lng="de">induzieren</trd>
   <trd lng="en">induce</trd>
   <trd lng="es">inducir</trd>
   <trd lng="fr">induire</trd>
   <trd lng="nl">induceren</trd>
   <trd lng="pt">induzir</trd>
-  <trd lng="sk">vyvodzovať všeobecné závery</trd>
+  <trd lng="sk">vyvodzova&tcaron; v&scaron;eobecn&eacute; z&aacute;very</trd>
 </drv>
 
 <drv mrk="indukt.0o">
@@ -102,10 +102,10 @@
     <dif>
       Maniero <ref cel="pruv.0i.MAT">pruvi</ref>, ke
       <ref cel="propoz.0o.teoremo">propozicio</ref> veras por &ccirc;iu
-      natura entjero <frm><k>n</k></frm>, montrante ke &gcirc;i veras
-      por <frm><k>n</k> = 0</frm>, kaj ke se &gcirc;i veras
-      por iu <frm><k>n</k></frm>, &gcirc;i veras anka&ubreve;
-      por <frm><k>n</k>+1</frm>:
+      natura entjero <frm am="n"><k>n</k></frm>, montrante ke &gcirc;i veras
+      por <frm am="n=0"><k>n</k> = 0</frm>, kaj ke se &gcirc;i veras
+      por iu <frm am="n"><k>n</k></frm>, &gcirc;i veras anka&ubreve;
+      por <frm am="n+1"><k>n</k>+1</frm>:
       <ekz>
         <ind>aksiomo de (matematika) <tld/>o</ind>
         <fnt><bib>MatVort</bib></fnt>;
@@ -119,9 +119,10 @@
       </ekz>
       <ekz>
         pruvu per <tld/>o, ke la &gcirc;enerala termo
-        <frm><k>u</k><sub><k>n</k></sub></frm> de geometria
+        <frm am="u_n"><k>u</k><sub><k>n</k></sub></frm> de geometria
         <ref cel="progre1.0o">progresio</ref> egalas al
-        <frm><k>u</k><sub>0</sub><k>q</k><sup><k>n</k></sup></frm>.
+        <frm am="u_0 q^n"
+        ><k>u</k><sub>0</sub><k>q</k><sup><k>n</k></sup></frm>.
       </ekz>
     </dif>
     <trd lng="de">Induktion</trd>
@@ -135,8 +136,8 @@
   </snc>
   <trdgrp lng="cs">
     <trd>indukce</trd>,
-    <trd>vyvolání <klr>(potratu)</klr></trd>,
-    <trd>vzájemné navození</trd>
+    <trd>vyvol&aacute;n&iacute; <klr>(potratu)</klr></trd>,
+    <trd>vz&aacute;jemn&eacute; navozen&iacute;</trd>
   </trdgrp>
   <trd lng="es">inducci&oacute;n</trd>
   <trd lng="fr">induction<klr tip="ind"> (raisonnement, &eacute;lec.,
@@ -197,7 +198,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: indukt.xml,v $
+versio 1.24 2020/02/15 00:10:34
+Wolfram Diestel: formuloj per am
+
+Revision 1.23  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.22  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -214,14 +221,5 @@ Revision 1.18  2005/06/22 16:32:17  revo
 Yury Finkel: +trd ru
 
 Revision 1.17  2003/01/17 17:32:58  revo
-Alejandro Mejia Greene: ald 3 his trd
-
-Revision 1.16  2002/11/24 17:34:03  revo
-Marc Bavant: +trd pl
-
-Revision 1.15  2002/11/22 17:33:39  revo
-Marc Bavant: +frm
-Revision 1.14  2002/09/11 17:35:40  revo
-Jozefo Horvath: mod. trd hu
 -->
 </vortaro>
