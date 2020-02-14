@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: variab.xml,v 1.37 2020/02/14 19:10:20 revo Exp $">
 <kap>
   <rad>variabl</rad>/o
 </kap>
@@ -17,12 +17,13 @@
       tian objekton, plejofte elementon de la fonto-aro de
       <ref cel="bild.0igo.MAT">bildigo</ref>:
       <ekz>
-        en la skriba&jcirc;o <frm><k>y</k> = <k>f</k>(<k>x</k>)</frm>, 
-        <frm><k>x</k></frm> estas la <ind>nedependa <tld/>o</ind>
+        en la skriba&jcirc;o <frm am="y=f(x)"><k>y</k> =
+        <k>f</k>(<k>x</k>)</frm>, 
+        <frm am="x"><k>x</k></frm> estas la <ind>nedependa <tld/>o</ind>
         <klr>(indikanta la <ref
         cel="argume.0o.donitajxo">argumenton</ref> de
         <ref cel="funkci.0o.MAT">funkcio</ref>
-        <frm><k>f</k></frm>)</klr>,
+        <frm am="f"><k>f</k></frm>)</klr>,
         <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_ja; 
 <ind>&c_z;&c_mol;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
         <trd lng="ca"><ind>variable</ind> independent</trd>
@@ -38,7 +39,7 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
 <ind>&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
       </ekz>
       <ekz>
-        kaj <frm><k>y</k></frm> la <ind>dependa <tld/>o</ind> 
+        kaj <frm am="y"><k>y</k></frm> la <ind>dependa <tld/>o</ind> 
         <klr>(indikanta la valoron de la funkcio)</klr>.
         <trd lng="be">&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_ja; 
 <ind>&c_z;&c_mol;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
@@ -57,12 +58,13 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
     <rim>
       Anstata&ubreve; diri, ke
       <ekz>
-        kiam <tld/>o <frm><k>x</k></frm> egalas al <frm>10</frm>,
+        kiam <tld/>o <frm am="x"><k>x</k></frm> egalas al <frm>10</frm>,
         tiam...
       </ekz>
       , oni ofte uzas pli tradician dirmanieron
       <ekz>
-        kiam <tld/>o <frm><k>x</k></frm> alprenas valoron <frm>10</frm> 
+        kiam <tld/>o <frm am="x"><k>x</k></frm> alprenas valoron
+        <frm>10</frm> 
       </ekz>
       .
     </rim>
@@ -112,19 +114,24 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
   <snc>
     <dif>
       <klr>(super <ref cel="spac.probablo0o">probablospaco</ref>
-      <frm>(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
+      <frm am="(bb Omega,bb A,P)">(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
       <ref cel="mezur.0ebla.MAT">Mezurebla</ref>
-      <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> <frm>X</frm> 
+      <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> <frm
+      am="X">X</frm> 
       de la probablospaco al la aro de reeloj, provizita per la
       <ref cel="algebr.borelasigma0o">borela &sigma;-algebro</ref>; alidire:
-      tia funkcio <frm>X</frm>, ke la inversa bildo per &gcirc;i de ajna 
-      intervalo <frm>]-&#8734;,x[</frm> estas 
+      tia funkcio <frm am="X">X</frm>, ke la inversa bildo per &gcirc;i de
+      ajna 
+      intervalo <frm am="(-oo,x)">]-&#8734;,x[</frm> estas 
       <ref cel="okaz.0o.MAT">okazo</ref>, 
-      ofte signata per <frm>(X &lt; <k>x</k>)</frm>:
+      ofte signata per <frm am="(X lt x)">(X &lt; <k>x</k>)</frm>:
       <ekz>
-        hazarda variablo <frm>X</frm> difinas probablon 
-        <frm>P<sub>X</sub> = P&#9702;X<sup>-1</sup></frm> 
-        super la aro de reeloj provizita per la borela &sigma;-algebro.
+        hazarda variablo <frm am="X">X</frm> difinas probablon 
+        <frm am="P_X=P circ X^-1">P<sub>X</sub> = P&#9702;X<sup>-1</sup></frm>
+        
+        super la aro de reeloj provizita per la borela
+        
+        &sigma;-algebro.
       </ekz>
     </dif>
     <ref tip="sin" cel="variab.stokasta0o">stokasta <tld/>o.</ref>
@@ -224,7 +231,13 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
 </drv>
 </art>
 <!--
-$Log$
+$Log: variab.xml,v $
+versio 1.37 2020/02/14 19:10:20
+Wolfram Diestel: formuloj per am
+
+Revision 1.36  2018/01/14 16:10:16  revo
+Wolfram Diestel: kor. mrk
+
 Revision 1.35  2017/12/09 21:10:22  revo
 Wolfram Diestel: kor. ref-cel
 
@@ -241,8 +254,5 @@ Revision 1.31  2013/04/09 12:10:11  revo
 Sebastian Cyprych: kor trd pl
 
 Revision 1.30  2012/10/23 00:14:11  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.29  2012/08/04 16:10:10  revo
 -->
 </vortaro>
