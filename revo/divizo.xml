@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: divizo.xml,v 1.38 2020/02/14 14:10:21 revo Exp $">
 <kap>
   <rad>divizor</rad>/o
 </kap>
@@ -13,15 +13,19 @@
     <fnt><bib>MatTerm</bib><lok>p. 10</lok></fnt>
     <uzo tip="klr">(elementa aritmetiko)</uzo>
     <dif>
-      <klr>(de <ref cel="entjer.0o">entjero</ref> <frm><k>a</k></frm>)</klr>
-      Tia entjero <frm><k>b</k></frm>, ke <frm><k>a</k></frm> estas &gcirc;ia
+      <klr>(de <ref cel="entjer.0o">entjero</ref> <frm
+      am="a"><k>a</k></frm>)</klr>
+      Tia entjero <frm am="b"><k>b</k></frm>, ke <frm
+      am="a"><k>a</k></frm> estas &gcirc;ia
       <ref cel="obl.0o">oblo</ref>:
       <ekz>
         praktika avanta&gcirc;o de la dekduuma mezursistemo ku&scirc;as en tio,
         ke <frm>12</frm> havas pli da oportunaj <tld/>oj: <frm>2</frm>,
-        <frm>3</frm>, <frm>4</frm>, <frm>6</frm>, dum la kutima <frm>10</frm>
+        <frm>3</frm>, <frm>4</frm>, <frm>6</frm>, dum la kutima
+        <frm>10</frm>
         havas nur <frm>2</frm> kaj <frm>5</frm>
-        <klr>(sen kalkuli la neproprajn <tld/>ojn <frm>1</frm> kaj memo)</klr>.
+        <klr>(sen kalkuli la neproprajn <tld/>ojn <frm>1</frm> kaj
+        memo)</klr>.
       </ekz>
     </dif>
     <ref tip="vid" cel="alikvo.0o">alikvoto.</ref>
@@ -30,14 +34,18 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>EKV</bib><lok>&para;93</lok></fnt>
     <dif>
-      <klr>(de elemento <frm><k>a</k></frm> en
+      <klr>(de elemento <frm am="a"><k>a</k></frm> en
       <ref cel="ring.0o.MAT">ringo</ref>
       a&ubreve; multiplike signata <ref cel="monoid.0o">monoido</ref>)</klr>
-      Tia elemento <frm><k>b</k></frm>, ke por iu <frm><k>q</k></frm>,
-      <frm><k>a</k> = <k>b</k>.<k>q</k></frm> (maldekstra <tld/>o) a&ubreve;
-      <frm><k>a</k> = <k>q</k>.<k>b</k></frm> (dekstra <tld/>o):
+      Tia elemento <frm am="b"><k>b</k></frm>, ke por iu <frm
+      am="q"><k>q</k></frm>,
+      <frm am="a=b*q"
+      ><k>a</k> = <k>b</k>&middot;<k>q</k></frm> (maldekstra <tld/>o) a&ubreve;
+      <frm am="a=q*b"
+      ><k>a</k> = <k>q</k>&middot;<k>b</k></frm> (dekstra <tld/>o):
       <ekz>
-        la reela polinomo <frm><g>X</g><sup>2</sup>+<g>1</g></frm> ne
+        la reela polinomo <frm am="bb X^2+bb 1"
+        ><g>X</g><sup>2</sup>+<g>1</g></frm> ne
         akceptas unuagradajn reelajn <tld/>ojn;
       </ekz>
       <ekz>
@@ -57,7 +65,8 @@
   </trdgrp>
   <trd lng="en">divisor</trd>
   <trd lng="es">divisor</trd>
-  <trd lng="fr">diviseur<klr tip="ind"> (qui divise exactement)</klr></trd>
+  <trd lng="fr">diviseur<klr tip="ind"> (qui divise
+  exactement)</klr></trd>
   <trd lng="hu">oszt&oacute;</trd>  
   <trdgrp lng="pl">
     <trd>dzielnik<klr tip="ind"> (liczby)</klr></trd>,
@@ -66,10 +75,10 @@
   <trd lng="pt">divisor</trd>
   <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>delič napätia</trd>,
-    <trd>divízor</trd>
+    <trd>deli&ccaron; nap&auml;tia</trd>,
+    <trd>div&iacute;zor</trd>
   </trdgrp>
-  <trd lng="cs">dělitel <klr>(beze zbytku)</klr></trd>
+  <trd lng="cs">d&ecaron;litel <klr>(beze zbytku)</klr></trd>
 </drv>
 
 <drv mrk="divizo.0i">
@@ -81,11 +90,12 @@
     <dif>
       Esti <ref cel="divizo.0o"><tld/>o</ref>:
       <ekz>
-        la fakton, ke <frm><k>b</k></frm> <tld/>as en <frm><k>a</k></frm>,
-        oni simbole skribas <frm><k>b</k>|<k>a</k></frm>;
+        la fakton, ke <frm am="b"><k>b</k></frm> <klr> </klr><tld/>as en
+        <frm am="a"><k>a</k></frm>,
+        oni simbole skribas <frm am="b|a"><k>b</k>|<k>a</k></frm>;
       </ekz>
       <ekz>
-        <frm>2</frm> <tld/>as en &ccirc;iu para entjero (a&ubreve;
+        <frm>2 </frm> <tld/>as en &ccirc;iu para entjero (a&ubreve;
         <ctl>&ccirc;iun paran entjeron</ctl>);
       </ekz>
       <ekz>
@@ -101,13 +111,15 @@
       <ctl><tld/>hava</ctl> a&ubreve; <ctl>dividebla</ctl>). La verbo
       <ctl>dividi</ctl> estas teorie uzebla nur en frazoj de la tipo
       <ekz>
-        mi dividas <frm><k>a</k></frm> per <frm><k>b</k></frm>,
+        mi dividas <frm am="a"><k>a</k></frm> per <frm
+        am="b"><k>b</k></frm>,
       </ekz>
       sed la formo <ctl>dividanto</ctl> jam sugestas, ke eblus diri
       <ekz>
-        <frm><k>b</k></frm> dividas <frm><k>a</k></frm>,
+        <frm am="b"><k>b</k></frm> dividas <frm am="a"><k>a</k></frm>,
       </ekz>
-      se forgesi pri la homa plenumanto de la operacio. El tio sekvas, ke
+      se forgesi pri la homa plenumanto de la operacio. El tio sekvas,
+      ke
       anstata&ubreve; <ctl><tld/>i</ctl> oni povus diri same bone
       <ctl>dividi ekzakte</ctl>, <ctl>dividi senreste</ctl> a&ubreve;
       eventuale nur <ctl>dividi</ctl>, kiel faras multaj naciaj lingvoj
@@ -127,7 +139,8 @@
     <trd>ohne Rest <ind>teilen</ind></trd>
   </trdgrp>
   <trdgrp lng="en">
-    <trd>divide<klr tip="ind"> (go into without a remainder)</klr></trd>,
+    <trd>divide<klr tip="ind"> (go into without a
+    remainder)</klr></trd>,
     <trd>go into</trd>
   </trdgrp>
   <trd lng="es">ser <ind>divisor</ind> de</trd>
@@ -135,8 +148,8 @@
   <trd lng="hu">oszt<klr tip="ind"> (marad&eacute;k n&eacute;lk&uuml;l)</klr></trd>  
   <trd lng="pl">by&cacute; podzielnikiem</trd>
   <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_mol; &c_b;&c_je;&c_z; &c_o;&c_s;&c_t;&c_a;&c_t;&c_k;&c_a;</trd>
-  <trd lng="sk">byť deliteľný bez zvyšku</trd>
-  <trd lng="cs">být dělitelem beze zbytku</trd>
+  <trd lng="sk">by&tcaron; delite&lcaron;n&yacute; bez zvy&scaron;ku</trd>
+  <trd lng="cs">b&yacute;t d&ecaron;litelem beze zbytku</trd>
 </drv>
 
 <drv mrk="divizo.0ebla">
@@ -147,8 +160,8 @@
     <uzo tip="stl">EVI</uzo>
     <ref tip="dif" cel="divid.0ebla.MAT">dividebla.</ref>
   </snc>
-  <trd lng="cs">dělitelný beze zbytku</trd>
-  <trd lng="sk">deliteľný bez zvyšku</trd>
+  <trd lng="cs">d&ecaron;liteln&yacute; beze zbytku</trd>
+  <trd lng="sk">delite&lcaron;n&yacute; bez zvy&scaron;ku</trd>
 </drv>
 
 <drv mrk="divizo.0hava">
@@ -178,14 +191,14 @@
       &ccirc;i-sence uzas <ctl>komponita</ctl>.
     </rim>
   </snc>
-  <trd lng="cs">složený</trd>
+  <trd lng="cs">slo&zcaron;en&yacute;</trd>
   <trd lng="de">zusammengesetzt</trd>
   <trd lng="en">non-prime</trd>
   <trd lng="fr">compos&eacute;<klr tip="ind"> (ayant des diviseurs)</klr></trd>
   <trd lng="hu">&ouml;sszetett<klr tip="ind"> (oszt&oacute;)</klr></trd>
   <trd lng="pl">z&lstroke;o&zdot;ony</trd>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j;</trd>
-  <trd lng="sk">zložený</trd>
+  <trd lng="sk">zlo&zcaron;en&yacute;</trd>
 </drv>
 
 <drv mrk="divizo.ne0o">
@@ -207,25 +220,29 @@
   <fnt><bib>EKV</bib><lok>&para;301</lok></fnt>
   <snc>
     <dif>
-      Tia nenula elemento <frm><k>p</k></frm> en
+      Tia nenula elemento <frm am="p"><k>p</k></frm> en
       <ref cel="ring.0o.MAT">ringo</ref>, ke por nenula elemento
-      <frm><k>q</k></frm> veras, ke <frm><k>p</k>&#215;<k>q</k></frm>
-      a&ubreve; <frm><k>q</k>&#215;<k>p</k></frm> egalas al
+      <frm am="q"><k>q</k></frm> veras, ke <frm am="p xx q"
+      ><k>p</k>&#215;<k>q</k></frm>
+      a&ubreve; <frm am="q xx p"><k>q</k>&#215;<k>p</k></frm> egalas al
       <ref cel="nul0.0o.neuxtra">nulo</ref>:
       <ekz>
         &ccirc;iu <ref cel="kvadra1.0egala">kvadrategala</ref>
-        bildigo <frm><k>p</k></frm> de la grupo
-        <frm>(<g>E</g>,+)</frm> al
-        si mem, egala nek al la nulo nek al la idento, estas nul<tld/>o kadre
-        de <frm>(<g>E</g><sup><g>E</g></sup>,+,&#9702;)</frm>, &ccirc;ar
-        <frm><k>p</k>&#9702;(id<sub><g>E</g></sub>-<k>p</k>) = 0</frm>.
+        bildigo <frm am="p"><k>p</k></frm> de la grupo
+        <frm am="(bb E,+)">(<g>E</g>,+)</frm> al
+        si mem, egala nek al la nulo nek al la idento, estas nul<tld/>o
+        kadre
+        de <frm am="(bb E^(bb E),+,&#9702;)"
+        >(<g>E</g><sup><g>E</g></sup>,+,&#9702;)</frm>, &ccirc;ar
+        <frm am='p&#9702;("id"_(bb E)-p)=0'
+        ><k>p</k>&#9702;(id<sub><g>E</g></sub>-<k>p</k>) = 0</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="integr.0a.MAT">integra</ref>.
     </refgrp>
   </snc>
-  <trd lng="cs">dělitel nuly</trd>
+  <trd lng="cs">d&ecaron;litel nuly</trd>
   <trd lng="de">Nullteiler</trd>
   <trd lng="en">zero divisor</trd>
   <trd lng="fr">diviseur de z&eacute;ro</trd>
@@ -233,7 +250,7 @@
   <trd lng="pl">dzielnik zera</trd>
   <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;
   &c_n;&c_u;&c_l;&c_ja;</trd>
-  <trd lng="sk">deliteľ nuly</trd>
+  <trd lng="sk">delite&lcaron; nuly</trd>
 </drv>
 
 <drv mrk="divizo.propra0o">
@@ -241,11 +258,12 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de elemento <frm><k>a</k></frm> en
+      <klr>(de elemento <frm am="a"><k>a</k></frm> en
       <ref cel="ring.0o.MAT">ringo</ref>)</klr>
       Tia <ref cel="divizo.0o"><tld/>o</ref>, ke &gcirc;i estas nek
       <ref cel="invers.0igebla.MAT">inversigebla</ref>, nek
-      <ref cel="divid.0ebla.MAT">dividebla</ref> per <frm><k>a</k></frm>:
+      <ref cel="divid.0ebla.MAT">dividebla</ref> per <frm
+      am="a"><k>a</k></frm>:
       <ekz>
         propraj <tld/>oj de natura entjero estas &ccirc;iuj &gcirc;iaj <tld/>oj
         krom &gcirc;i kaj <frm>1</frm>;
@@ -259,18 +277,19 @@
       de internacieco ne konsideras &gcirc;in senmanka, &ccirc;ar &gcirc;i
       ne akordas kun la nefaka senco de la adjektivo <ctl>propra</ctl>
       (apartenanta ekskluzive al iu). Tamen pro influo de naciaj lingvoj
-      oni foje uzas <ctl>propra</ctl> kun senco simila al <ctl>pura</ctl>,
+      oni foje uzas <ctl>propra</ctl> kun senco simila al
+      <ctl>pura</ctl>,
       <ctl>vera</ctl>, ekz-e en la esprimo <ctl>proprasence</ctl>.
     </rim>
   </snc>
-  <trd lng="cs">vlastní dělitel</trd>
+  <trd lng="cs">vlastn&iacute; d&ecaron;litel</trd>
   <trd lng="de">echter <ind>Teiler</ind></trd>
   <trd lng="en">proper <ind>divisor</ind></trd>
   <trd lng="fr">diviseur propre</trd>
   <trd lng="hu">val&oacute;di <ind>oszt&oacute;</ind></trd>
   <trd lng="pl">dzielnik w&lstroke;asny</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j; <ind>&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;</ind></trd>
-  <trd lng="sk">vlastný deliteľ</trd>
+  <trd lng="sk">vlastn&yacute; delite&lcaron;</trd>
 </drv>
 
 <drv mrk="divizo.plej_granda_komuna_0o">
@@ -287,7 +306,7 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">největší společný dělitel <klr>(bezezbytku)</klr></trd>
+  <trd lng="cs">nejv&ecaron;t&scaron;&iacute; spole&ccaron;n&yacute; d&ecaron;litel <klr>(bezezbytku)</klr></trd>
   <trd lng="de">gr&ouml;&szlig;ter gemeinsamer <ind>Teiler</ind></trd>
   <trd lng="en">greatest common <ind>divisor</ind></trd>
   <trdgrp lng="fr">
@@ -300,11 +319,17 @@
     <trd>N.W.D.</trd>
   </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_i;&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_i;&c_j; &c_o;&c_b;&c_shch;&c_i;&c_j; <ind>&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;</ind></trd>
-  <trd lng="sk">najvyšší spoločný deliteľ</trd>
+  <trd lng="sk">najvy&scaron;&scaron;&iacute; spolo&ccaron;n&yacute; delite&lcaron;</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: divizo.xml,v $
+versio 1.38 2020/02/14 14:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.37  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.36  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -321,15 +346,5 @@ Revision 1.32  2003/11/06 17:31:10  revo
 Alejandro Mejia Greene: ald 3 his trd
 
 Revision 1.31  2003/05/09 16:31:20  revo
-Marc Bavant: +frm
-
-Revision 1.30  2003/04/12 16:32:21  revo
-Marc Bavant: ~o: mod trd ru; ~hava ~o: mod trd ru
-Revision 1.29  2003/04/11 16:32:21  revo
-Marc Bavant: nul~o: mod dif
-Revision 1.28  2003/04/07 16:34:46  revo
-Marc Bavant: ~i: +ref interna; ~o: kor ekz, +ref al nul~o
-Revision 1.27 2003/03/23 17:32:37 revo
 -->
 </vortaro>
-
