@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: grad.xml,v 1.44 2020/02/14 17:10:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>grad</rad>/o <fnt><bib>PV</bib></fnt>
@@ -107,7 +107,7 @@
         <ref cel="angul.ebena0o">ebena angulo</ref>, egala al la
         180a parto de stre&ccirc;ita angulo; simb. <frm>&#730;</frm>:
         <ekz>
-          <tld/>o egalas al <frm>&pi;/180</frm>
+          <tld/>o egalas al <frm am="pi//180">&pi;/180</frm><klr> </klr>
           <ref cel="radian.0o">radianoj</ref>.
         </ekz>
       </dif>
@@ -140,16 +140,18 @@
     <subsnc mrk="grad.0o.superkorpo">
       <fnt><bib>EKV</bib><lok>&para;342</lok></fnt>
       <dif>
-        <klr>(de <ref cel="korp.0o.MAT">korpo</ref> <frm><g>K'</g></frm>
-        rilate al subkorpo <frm><g>K</g></frm>)</klr>
+        <klr>(de <ref cel="korp.0o.MAT">korpo</ref> 
+        <frm am="bb K&#8242;"><g>K'</g></frm>
+        rilate al subkorpo <frm am="bb K"><g>K</g></frm>) </klr>
         <ref cel="dimens.0o.vektoraspaco">Dimensio</ref> de
-        <frm><g>K'</g></frm>, konsiderata kiel
+        <frm am="bb K&#8242;"><g>K'</g></frm>, konsiderata kiel
         <ref cel="spac.vektora0o">vektora spaco</ref> super
-        <frm><g>K</g></frm>:
+        <frm am="bb K"><g>K</g></frm>:
         <ekz>
-          la <tld/>on de <frm><g>K'</g></frm> rilate al
-          <frm><g>K</g></frm> oni
-          signas per <frm>[<g>K'</g>:<g>K</g>]</frm>;
+          la <tld/>on de <frm am="bb K&#8242;"><g>K'</g></frm> rilate al
+          <frm am="bb K"><g>K</g></frm> oni
+          signas per <frm am="[bb K&#8242;:bb K]"
+          >[<g>K'</g>:<g>K</g>]</frm>;
         </ekz>
         <ekz>
           la grado de la korpo de kompleksoj rilate al tiu de reeloj
@@ -160,10 +162,10 @@
     <subsnc mrk="grad.0o.grafea_vertico">
       <fnt><bib>KompLeks</bib></fnt>
       <dif>
-        <klr>(de vertico <frm><k>v</k></frm>
+        <klr>(de vertico <frm am="v"><k>v</k></frm>
         de <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
         Nombro de e&gcirc;oj <ref cel="incid.0a.grafee">incidaj</ref> al
-        &gcirc;i; simb. <frm>grad(<k>v</k>)</frm>:
+        &gcirc;i; simb. <frm am='"grad"(v)'>grad(<k>v</k>)</frm>:
         <ekz>
           la <tld/>o de <ref cel="izol.0ita.vertico">izolita</ref>
           vertico estas nulo;
@@ -183,7 +185,7 @@
     <trd lng="hu">fok</trd>
     <trd lng="pl">stopie&nacute;</trd>
   </snc>
-  <trd lng="cs">stupeň</trd>
+  <trd lng="cs">stupe&ncaron;</trd>
   <trd lng="de">Grad</trd>
   <trd lng="fr">degr&eacute;</trd>
   <trd lng="id">derajat</trd>
@@ -193,7 +195,7 @@
   </trdgrp>
   <trd lng="pt">grau</trd>
   <trd lng="ru">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</trd>
-  <trd lng="sk">stupeň</trd>
+  <trd lng="sk">stupe&ncaron;</trd>
 </drv>
 
 <drv mrk="grad.0aro">
@@ -214,7 +216,7 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">dělený kruh</trd>
+  <trd lng="cs">d&ecaron;len&yacute; kruh</trd>
   <trdgrp lng="es">
     <trd>escala<klr> (de medida)</klr></trd>,
     <trd>graduaci&oacute;n</trd>
@@ -224,7 +226,7 @@
     <trd>graduation</trd>
   </trdgrp>
   <trd lng="id">skala</trd>
-  <trd lng="sk">delený kruh</trd>
+  <trd lng="sk">delen&yacute; kruh</trd>
 </drv>
 
 <drv mrk="grad.0igi">
@@ -267,10 +269,10 @@
   </snc>
   <trdgrp lng="cs">
     <trd>gradovat</trd>,
-    <trd>odstupňovat</trd>,
-    <trd>stupňovat</trd>,
+    <trd>odstup&ncaron;ovat</trd>,
+    <trd>stup&ncaron;ovat</trd>,
     <trd>zesilovat</trd>,
-    <trd>zvětšovat</trd>
+    <trd>zv&ecaron;t&scaron;ovat</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>graduar</trd>,
@@ -279,9 +281,9 @@
   <trd lng="fr">graduer</trd>
   <trd lng="pt">graduar</trd>
   <trdgrp lng="sk">
-    <trd>gradovať</trd>,
-    <trd>stupňovať</trd>,
-    <trd>zosilňovať</trd>
+    <trd>gradova&tcaron;</trd>,
+    <trd>stup&ncaron;ova&tcaron;</trd>,
+    <trd>zosil&ncaron;ova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="tr">
     <trd>derecelemek</trd>,
@@ -346,14 +348,14 @@
     </trdgrp>
   </snc>
   <trdgrp lng="cs">
-    <trd>stupňovitý</trd>,
-    <trd>stupňový</trd>
+    <trd>stup&ncaron;ovit&yacute;</trd>,
+    <trd>stup&ncaron;ov&yacute;</trd>
   </trdgrp>
   <trd lng="nl">gradueel</trd>
   <trd lng="pl">stopniowy</trd>
   <trdgrp lng="sk">
-    <trd>stupňovitý</trd>,
-    <trd>stupňový</trd>
+    <trd>stup&ncaron;ovit&yacute;</trd>,
+    <trd>stup&ncaron;ov&yacute;</trd>
   </trdgrp>
 </drv>
 
@@ -363,14 +365,14 @@
   <fnt><bib>KompLeks</bib></fnt>
   <snc>
     <dif>
-      <klr>(de vertico <frm><k>v</k></frm> de
+      <klr>(de vertico <frm am="v"><k>v</k></frm> de
       <ref cel="grafe.orientita0o">orientita grafeo</ref>)</klr>
       Nombro de e&gcirc;oj, kies <ref cel="rand.0o.grafea_egxo">komenca
       rando</ref> estas la koncerna vertico;
-      simb. <frm>grad<sup>+</sup>(<k>v</k>)</frm>.
+      simb. <frm am='"grad"^+(v)'>grad<sup>+</sup>(<k>v</k>)</frm>.
     </dif>
   </snc>
-  <trd lng="cs">výchozí polostupeň</trd>
+  <trd lng="cs">v&yacute;choz&iacute; polostupe&ncaron;</trd>
   <trdgrp lng="de">
     <trd>Ausgangsgrad</trd>
   </trdgrp>
@@ -386,7 +388,7 @@
   <trd lng="id"><ind>derajat</ind> luar</trd>
   <trd lng="pl">stopie&nacute; wyj&sacute;ciowy</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol; &c_i;&c_s;&c_h;&c_o;&c_d;&c_a;</trd>
-  <trd lng="sk">východiskový polostupeň</trd>
+  <trd lng="sk">v&yacute;chodiskov&yacute; polostupe&ncaron;</trd>
 </drv>
 
 <drv mrk="grad.eniraduon0o">
@@ -395,12 +397,12 @@
   <fnt><bib>KompLeks</bib></fnt>
   <snc>
     <dif>
-      <klr>(de vertico <frm><k>v</k></frm> de
+      <klr>(de vertico <frm am="v"><k>v</k></frm> de
       <ref cel="grafe.orientita0o">orientita grafeo</ref>)</klr>
       Nombro de e&gcirc;oj, kies
       <ref cel="rand.0o.grafea_egxo">fina rando</ref>
       estas la koncerna vertico; simb.
-      <frm>grad<sup>-</sup>(<k>v</k>)</frm>.
+      <frm am='"grad"^(-)(v)'>grad<sup>-</sup>(<k>v</k>)</frm>.
     </dif>
   </snc>
   <trdgrp lng="de">
@@ -495,17 +497,18 @@
       algebra <ref cel="ekvaci.0o">ekvacio</ref>)</klr>
       Kies <ref cel="grad.0o.polinomo"><tld/>o <sncref/></ref> a&ubreve;
       <ref cel="grad.0o.ekvacio"><sncref/></ref> estas
-      <frm><k>n</k></frm>; legu: noagrada:
+      <frm am="n"><k>n</k></frm>; legu: noagrada:
       <ekz>
         dua<tld/>a ekvacio;
       </ekz>
       <ekz>
-        ajna n-a-<tld/>a kompleksa ekvacio havas <frm><k>n</k></frm>
+        ajna n-a-<tld/>a kompleksa ekvacio havas <frm
+        am="n"><k>n</k></frm>
         radikojn.
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">n- tého stupně</trd>
+  <trd lng="cs">n- t&eacute;ho stupn&ecaron;</trd>
   <trd lng="de"><klr tip="ind">(Polynom, Gleichung) </klr>n-ten
   Grades</trd>
   <trdgrp lng="en">
@@ -522,7 +525,7 @@
   <trd lng="pt">de <ind>grau</ind> n</trd>
   <trd lng="ru">n-&c_o;&c_j; <ind>&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_i;
   </ind></trd>
-  <trd lng="sk">n-tého stupňa</trd>
+  <trd lng="sk">n-t&eacute;ho stup&ncaron;a</trd>
 </drv>
 
 <drv mrk="grad.suficxa0e">
@@ -549,7 +552,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: grad.xml,v $
+versio 1.44 2020/02/14 17:10:31
+Wolfram Diestel: formuloj per am
+
+Revision 1.43  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.42  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -566,14 +575,5 @@ Revision 1.38  2013/12/14 18:10:44  revo
 Jeromo Vasxe: + ~aro, laux~e kiel
 
 Revision 1.37  2013/09/15 11:10:26  revo
-Wolfram Diestel: ref al lst mezurunuoj
-
-Revision 1.36  2011/04/30 20:10:18  revo
-Jeromo Vasxe: + ia~e
-
-Revision 1.35  2009/08/24 16:32:43  revo
-Emmanuel Debanne: +kor tr
-
-Revision 1.34  2008/11/02 17:30:45  revo
 -->
 </vortaro>
