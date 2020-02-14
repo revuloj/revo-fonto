@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kurb.xml,v 1.45 2020/02/14 18:10:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kurb</rad>/a <fnt><bib>PV</bib></fnt>
@@ -208,9 +208,10 @@
         algebra, transcenda)</klr>;
       </ekz>
       <ekz>
-        <frm><k>n</k></frm>-a-grada ebena <tld/>o <klr>(kies kartezia
+        <frm am="n"><k>n</k></frm>-a-grada ebena <tld/>o <klr>(kies
+        kartezia
         ekvacio
-        esprimi&gcirc;as per <frm><k>n</k></frm>-a-grada polinoma
+        esprimi&gcirc;as per <frm am="n"><k>n</k></frm>-a-grada polinoma
         funkcio de
         la koordinatoj)</klr>.
       </ekz>
@@ -347,7 +348,7 @@
     <fnt><bib>MatTerm</bib><lok>p. 38</lok></fnt>
     <dif>
       <klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>, &ccirc;e punkto
-      <frm><k>a</k></frm> de &gcirc;i)</klr>
+      <frm am="a"><k>a</k></frm> de &gcirc;i)</klr>
       La <ref cel="invers.0o.neuxtriganto">inverso</ref> de &gcirc;ia
       <ref cel="radius.kurbeco0o.de_ebena_kurbo"><tld/>ecoradiuso</ref>:
       <ekz>
@@ -583,8 +584,8 @@
       klo&scirc;forma:
       <ekz>
         la kartezia ekvacio de <tld/>o estas de la tipo
-        <frm><k>y</k> =
-        (2&pi;)<sup>-&#189;</sup>exp(-<k>x</k><sup>2</sup>/2)</frm>;
+        <frm am="y=(2pi)^(1//2)exp(-x^2//2)"
+        ><k>y</k> = (2&pi;)<sup>-&#189;</sup>exp(-<k>x</k><sup>2</sup>/2)</frm>;
       </ekz>
       <ekz>
         la normala distribuo, anka&ubreve; nomata kiel Ga&ubreve;sa
@@ -638,7 +639,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: kurb.xml,v $
+versio 1.45 2020/02/14 18:10:24
+Wolfram Diestel: formuloj per am
+
+Revision 1.44  2017/12/23 08:10:16  revo
+Guillermo Molleda Jimena: trd es
+
 Revision 1.43  2017/03/23 09:10:13  revo
 Lyubomir Vasilev: +trd bg
 
@@ -655,8 +662,5 @@ Revision 1.39  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.38  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.37  2015/06/13 17:10:21  revo
 -->
 </vortaro>
