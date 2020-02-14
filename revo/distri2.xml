@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: distri2.xml,v 1.21 2020/02/14 12:10:24 revo Exp $">
 <kap>
   <rad>distribuci</rad>/o
 </kap>
@@ -18,10 +18,11 @@
       vektora spaco el reelaj funkcioj <klr>(la t.n.
       <ref cel="funkci.testa0o">testaj funkcioj</ref>)</klr>:
       <ekz>
-        la bildon de testa funkcio <frm>&phi;</frm> per <tld/>o
-        <frm>T</frm>
-        oni ofte signas per <frm>&lt;T,&phi;&gt;</frm> anstata&ubreve;
-        <frm>T(&phi;)</frm>;
+        la bildon de testa funkcio <frm am="phi">&phi;</frm> per <tld/>o
+        <frm am="T">T</frm>
+        oni ofte signas per <frm am="(:T,phi:)">&lt;T,&phi;&gt;</frm>
+        anstata&ubreve;
+        <frm am="T(phi)">T(&phi;)</frm>;
       </ekz>
       <ekz>
         ne &ccirc;iu <tld/>o estas <ref
@@ -87,7 +88,7 @@
     <trd>&c_o;&c_b;&c_o;&c_b;&c_shch;&c_jo;&c_n;&c_n;&c_a;&c_ja;
     <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
   </trdgrp>
-  <trd lng="sk">distributívnosť</trd>
+  <trd lng="sk">distribut&iacute;vnos&tcaron;</trd>
 </drv>
 
 <drv mrk="distri2.diraka0o">
@@ -95,19 +96,23 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(&ccirc;e punkto <frm><k>a</k></frm>)</klr>
+      <klr>(&ccirc;e punkto <frm am="a"><k>a</k></frm>)</klr>
       <ref tip="super" cel="distri2.0o"><tld lit="D"/>o</ref>, kiu
       &jcirc;etas
-      testan funkcion <frm>&phi;</frm> al <frm>&phi;(<k>a</k>)</frm>:
+      testan funkcion <frm am="phi">&phi;</frm> al 
+      <frm am="phi(a)">&phi;(<k>a</k>)</frm>:
       <ekz>
         la dirakan <tld/>on &ccirc;e punkto a oni kutime signas per
-        <frm>&delta;<sub><k>a</k></sub></frm>;
+        <frm am="delta_a">&delta;<sub><k>a</k></sub></frm>;
       </ekz>
       <ekz>
         intuicie oni ofte prezentas al si la dirakan <tld/>on, kiel
-        limeson, kiam <frm><k>n</k></frm> strebas al nefinio, de vico de
+        limeson, kiam <frm am="n"><k>n</k></frm> strebas al nefinio, de
+        vico de
         funkcioj, kiuj estas nulaj ekster intervalo
-        <frm>]<k>a</k>-1/<k>n</k>,<k>a</k>+1/<k>n</k>[</frm> kaj havas
+        <frm
+        am="(a-1/n,a+1/n)">]<k>a</k>-1/<k>n</k>,<k>a</k>+1/<k>n</k>[</frm>
+        kaj havas
         integralon egalan al unu.
       </ekz>
     </dif>
@@ -140,7 +145,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: distri2.xml,v $
+versio 1.21 2020/02/14 12:10:24
+Wolfram Diestel: formuloj per am
+
+Revision 1.20  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.19  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -157,14 +168,5 @@ Revision 1.15  2003/05/09 16:31:17  revo
 Marc Bavant: mod trd ru
 
 Revision 1.14  2003/04/07 16:34:44  revo
-Marc Bavant: ~o: mod ekz
-Revision 1.13  2003/03/23 17:32:35  revo
-Marc Bavant: diraka ~o: +trd pl
-Revision 1.12  2003/03/09 17:33:55  revo
-Marc Bavant: kor inkluzivata
-Revision 1.11  2003/01/02 17:44:55  revo
-Marc Bavant: ~o: koherigis trd kun "gxeneraligita funkcio"
-Revision 1.10 2002/11/18 17:33:57 revo
-Marc Bavant: +frm, +trd pl
 -->
 </vortaro>
