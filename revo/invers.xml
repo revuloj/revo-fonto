@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: invers.xml,v 1.38 2020/02/15 00:10:43 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>invers</rad>/a
@@ -80,16 +80,16 @@
       Estanta <ref cel="invers.0o.MAT"><tld/>o <sncref/></ref>:
       <ekz>
         la <tld/>a rilato de funkcio
-        <frm><k>f</k>:<k>X</k>&#10230;<k>Y</k></frm> 
+        <frm am="f: X to Y"><k>f</k>:<k>X</k>&#10230;<k>Y</k></frm> 
         estas la duargumenta rilato
-        <frm><k>f</k><sup>-1</sup>&#8838;<k>Y</k>&#215;<k>X</k></frm> 
+        <frm am="f^-1 sube Y xx X"
+        ><k>f</k><sup>-1</sup>&#8838;<k>Y</k>&#215;<k>X</k></frm> 
         difinita per
-        <frm><k>f</k><sup>-1</sup>={(<k>y</k>,<k>x</k>):(<k>x</k>,<k>y</k>)&#8712;<k>f</k>}</frm>
-        
-        <klr>[...]</klr> en la okazo ke &gcirc;i estas funkcio, &gcirc;i
-        
-        nomi&gcirc;as
-        <klr>[...]</klr> <tld/>a funkcio 
+        <frm am="f^-1={(y,x): (x,y) in f}"
+        ><k>f</k><sup>-1</sup>={(<k>y</k>,<k>x</k>):
+        (<k>x</k>,<k>y</k>)&#8712;<k>f</k>}</frm>        
+        <klr> [...]</klr> en la okazo ke &gcirc;i estas funkcio, &gcirc;i        
+        nomi&gcirc;as <klr>[...]</klr> <tld/>a funkcio 
         <fnt>
           <bib>Viki</bib>
           <lok><url ref='https://eo.wikipedia.org/?curid=83352'>Inversa
@@ -97,10 +97,11 @@
         </fnt>;
       </ekz>
       <ekz>
-        logaritmo kun bazo a <klr>[<frm>y=log<sub>a</sub>x</frm>]</klr>
+        logaritmo kun bazo a <klr>[<frm am="y=log_a x"
+        >y=log<sub>a</sub>x</frm>]</klr>
         estas la <tld/>a 
-        funkcio de eksponenta funkcio kun la sama bazo <frm>y =
-        a<sup>x</sup></frm>
+        funkcio de eksponenta funkcio kun la sama bazo 
+        <frm am="y=a^x">y = a<sup>x</sup></frm>
         <fnt>
           <bib>Viki</bib>
           <lok><url
@@ -460,14 +461,18 @@
       <dif>
         <klr>(en dudimensia afina
         <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>, kun centro
-        <frm>O</frm> kaj potenco <frm>&lambda;<sup>2</sup></frm>)</klr>
+        <frm am="O">O</frm> kaj potenco <frm
+        am="lambda^2">&lambda;<sup>2</sup></frm>) </klr>
         <ref tip="super" cel="form.trans0o.MAT">Transformo</ref>, kiu
-        &jcirc;etas punkton <frm>M</frm> al tia punkto <frm>M'</frm> de
-        la duonrekto <frm>OM</frm>, ke
-        <frm>OM.OM' = &lambda;<sup>2</sup></frm>:
+        &jcirc;etas punkton <frm am="M">M</frm> al tia punkto 
+        <frm am="M&#8242;">M'</frm> de
+        la duonrekto <frm am="OM">OM</frm>, ke
+        <frm am="OM*OM&#8242;=lambda^2">OM&middot;OM' =
+        &lambda;<sup>2</sup></frm>:
         <ekz>
-          &ccirc;iu punkto de la cirklo kun centro en <frm>O</frm> kaj radiuso
-          <frm>&lambda;</frm> estas sen&scirc;an&gcirc;a per la <tld/>igo;
+          &ccirc;iu punkto de la cirklo kun centro en <frm am="O">O</frm> kaj
+          radiuso
+          <frm am="lambda">&lambda;</frm> estas sen&scirc;an&gcirc;a per la <tld/>igo;
         </ekz>
         <ekz>
           <tld/>igo estas <ref cel="involu1.0o">involucio</ref>;
@@ -493,7 +498,8 @@
       </dif>
       <rim>
         Tian transformon oni anka&ubreve; nomas <ctl><tld/>igo rilate al cirklo
-        kun centro en <frm>O</frm> kaj radiuso <frm>&lambda;</frm></ctl>.
+        kun centro en <frm am="O">O</frm> kaj radiuso 
+        <frm am="lambda">&lambda;</frm></ctl>.
         Troveblas sinonima termino <ctl>inversio</ctl> en
         <fnt><bib>MatVort</bib></fnt>, sed neniu el niaj
         aliaj fontoj &gcirc;in konfirmas.
@@ -656,7 +662,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: invers.xml,v $
+versio 1.38 2020/02/15 00:10:43
+Wolfram Diestel: formuloj per am
+
+Revision 1.37  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
 Revision 1.36  2019/05/19 08:10:15  revo
 Alain Gerard: +trd fr
 
@@ -673,11 +685,5 @@ Revision 1.32  2017/07/12 19:10:14  revo
 Wolfram Diestel: ~a: prilaboris ekz-ojn
 
 Revision 1.31  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.30  2015/06/29 16:33:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.29  2004/09/06 16:36:56  revo
 -->
 </vortaro>
