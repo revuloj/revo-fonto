@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: diskri.xml,v 1.15 2020/02/14 13:10:22 revo Exp $">
 <kap>
   <rad>diskriminant</rad>/o
 </kap>
@@ -15,9 +15,11 @@
       Iu funkcio de la koeficientoj de polinoma ekvacio:
       <ekz>
         la <tld/>o de la duagrada ekvacio 
-        <frm><k>a</k><k>x</k><sup>2</sup>+<k>b</k><k>x</k>+<k>c</k> =
+        <frm am="ax^2+bx+c=0"
+        ><k>a</k><k>x</k><sup>2</sup>+<k>b</k><k>x</k>+<k>c</k> =
         0</frm>
-        egalas al <frm><k>b</k><sup>2</sup>-4<k>a</k><k>c</k></frm>;
+        egalas al <frm am="b^2-4ac"
+        ><k>b</k><sup>2</sup>-4<k>a</k><k>c</k></frm>;
       </ekz>
       <ekz>
         nuli&gcirc;o de <tld/>o signifas, ke la duagrada ekvacio havas 
@@ -45,7 +47,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: diskri.xml,v $
+versio 1.15 2020/02/14 13:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.14  2018/09/18 22:10:17  revo
+Behnam Tabatabai: +trd fa
+
 Revision 1.13  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -62,8 +70,5 @@ Revision 1.9  2003/01/02 17:44:50  revo
 Marc Bavant: +trd pl
 
 Revision 1.8  2002/11/19 17:31:24  revo
-Marc Bavant: +frm, mod dif, mod ekz, -rim
-Revision 1.7  2002/09/18 16:34:35  revo
-Viliam Bur: +trd sk
 -->
 </vortaro>
