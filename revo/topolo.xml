@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: topolo.xml,v 1.33 2020/02/14 14:10:23 revo Exp $">
 <kap>
   <rad>topologi</rad>/o
 </kap>
@@ -80,18 +80,17 @@ lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         per aro de <ref cel="norm.duon0o">duonnormoj</ref>;
       </ekz>
       <ekz>
-        <tld/>o super <frm><g>E</g></frm>, difinita per aro
-<frm><g>A</g></frm>
-        de subaroj de <frm><g>E</g></frm> <klr>(<tld/>o, kies bazon
-konsistigas
+        <tld/>o super <frm am="bb E"><g>E</g></frm>,
+        difinita per aro <frm am="bb A"><g>A</g></frm>
+        de subaroj de <frm am="bb E"><g>E</g></frm> 
+        <klr>(<tld/>o, kies bazon konsistigas
         &ccirc;iuj finiaj komuna&jcirc;oj de elementoj en
-        <frm><g>A</g>&#8746;{&#8709;,<g>E</g>}</frm>)</klr>;
+        <frm am="bb A uu {O/,bb E}"
+        ><g>A</g>&#8746;{&#8709;,<g>E</g>}</frm>)</klr>;
       </ekz>
       <ekz>
         <tld/>o super <frm><g>E</g></frm>, difinita per aro de bildigoj
-        al
-iu
-        <tld/>a spaco <klr>(<tld/>o, kies bazon konsistigas &ccirc;iuj
+        al iu <tld/>a spaco <klr>(<tld/>o, kies bazon konsistigas &ccirc;iuj
         inversaj bildoj de malfermita aro per bildigo el la aro)</klr>.
       </ekz>
     </dif>
@@ -156,7 +155,8 @@ iu
         <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigo <frm><k>x</k>&#8224;<k>y</k><sup>-1</sup></frm> estu
+        la bildigo <frm am="x&#8224;y^-1"
+        ><k>x</k>&#8224;<k>y</k><sup>-1</sup></frm> estu
         <ref cel="kontin3.0a.cxie">kontinua</ref>.
       </dif>
     </subsnc>
@@ -165,8 +165,8 @@ iu
         <klr>(p.p. <ref cel="ring.0o.MAT">ringo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigoj <frm><k>x</k>&#8224;(-<k>y</k>)</frm> kaj
-        <frm><k>x</k>&#8729;<k>y</k></frm> estu
+        la bildigoj <frm am="x&#8224;(-y)"><k>x</k>&#8224;(-<k>y</k>)</frm> kaj
+        <frm am="x*y"><k>x</k>&#8729;<k>y</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
@@ -176,8 +176,8 @@ iu
         super <ref cel="topolo.0a.ringo"><tld/>a</ref> ringo)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigoj <frm><k>x</k>-<k>y</k></frm> kaj
-        <frm>&alfa;&#8729;<k>x</k></frm> estu
+        la bildigoj <frm am="x-y"><k>x</k>-<k>y</k></frm> kaj
+        <frm am="alpha*x">&alfa;&#8729;<k>x</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
@@ -240,12 +240,13 @@ tiu,
   <snc>
     <dif>
       <klr>(super <ref cel="dual.topologia0o"><tld/>a dualo</ref> de
-      <frm><g>E</g>'</frm>)</klr>
+      <frm am="bb E'"><g>E</g>'</frm>)</klr>
       La <ref tip="super" cel="topolo.0o.strukturo"><tld/>o</ref>,
       difinita per la aro de &ccirc;iuj bildigoj
-      <frm>&theta;<sub><k>x</k></sub></frm> (por
-      <frm><k>x</k>&#8712;<g>E</g></frm>), kiuj &jcirc;etas elementon
-      <frm>&phi;</frm> de la dualo al <frm>&phi;(<k>x</k>)</frm>:
+      <frm am="phi_x">&theta;<sub><k>x</k></sub></frm> (por
+      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>), kiuj &jcirc;etas elementon
+      <frm am="phi">&phi;</frm> de la dualo al 
+      <frm am="phi(x)">&phi;(<k>x</k>)</frm>:
       <ekz>
         la dualmalforta <tld/>o identas kun la <tld/>o de simpla
         konver&gcirc;o;
@@ -325,7 +326,13 @@ tiu,
 </drv>
 </art>
 <!--
-$Log$
+$Log: topolo.xml,v $
+versio 1.33 2020/02/14 14:10:23
+Wolfram Diestel: formuloj per am
+
+Revision 1.32  2013/06/17 05:10:13  revo
+Jozefo Horvath: kor. tr hu
+
 Revision 1.31  2012/10/23 00:14:03  revo
 Neil Roberts: aldonu la etikedon <var>
 
@@ -342,8 +349,5 @@ Marc Bavant: kor duobligitajn punktojn
 Revision 1.26  2004/12/07 17:32:06  revo
 Jozefo Horvath: +trd hu
 Revision 1.25  2003/09/25 16:31:58  revo
-Dmitri Gabinski: +trd be
-Revision 1.24  2003/05/12 16:33:55  revo
-Marc Bavant: ~a (modulo): kor dif
 -->
 </vortaro>
