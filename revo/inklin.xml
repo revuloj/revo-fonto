@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: inklin.xml,v 1.27 2020/02/15 00:10:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>inklin</rad>/a <fnt><bib>PV</bib></fnt>
@@ -202,20 +202,22 @@
     <fnt><bib>EKV</bib><lok>&para;174</lok></fnt>
     <dif>
       <klr>(de <ref cel="rekt.0o.MAT">rekto</ref>, rilate tian
-      ortan ununorman koordinatsistemon <frm>(O, <g>i</g>,
-      <g>j</g>)</frm>,
-      ke <frm><g>j</g></frm> ne direktas la rekton)</klr>
+      ortan ununorman koordinatsistemon <frm am="(O,bb i, bb j)"
+      >(O, <g>i</g>, <g>j</g>)</frm>,
+      ke <frm am="bb j"><g>j</g></frm> ne direktas la rekton)</klr>
       La konstanta <ref cel="rilat.0o.kvociento">rilato</ref> de la
-      diferenco
-      de <ref cel="ordina1.0o">ordinatoj</ref> de du punktoj de la rekto
-      al la
-      diferenco de iliaj <ref cel="abscis.0o">abscisoj</ref>; simb.
-      <frm> <k>a</k> = (<k>y</k><sub>2</sub>-<k>y</k><sub>1</sub>) /
+      diferenco de <ref cel="ordina1.0o">ordinatoj</ref> de du punktoj
+      de la rekto
+      al la diferenco de iliaj <ref cel="abscis.0o">abscisoj</ref>;
+      simb.
+      <frm am="a=(y_2-y_1) // (x_2-x_1)"
+      > <k>a</k> = (<k>y</k><sub>2</sub>-<k>y</k><sub>1</sub>) /
       (<k>x</k><sub>2</sub>-<k>x</k><sub>1</sub>)</frm>:
       <ekz>
-        la kartezia ekvacio de rekto kun <tld/>o <frm><k>a</k></frm>
+        la kartezia ekvacio de rekto kun <tld/>o <frm
+        am="a"><k>a</k></frm>
         estas
-        de la tipo <frm><k>y</k> = <k>ax</k>+<k>b</k></frm>;
+        de la tipo <frm am="y=ax+b"><k>y</k> = <k>ax</k>+<k>b</k></frm>;
       </ekz>
       <ekz>
         la <tld/>o egalas al la <ref cel="tangen.0o">tangento</ref> de
@@ -559,7 +561,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: inklin.xml,v $
+versio 1.27 2020/02/15 00:10:37
+Wolfram Diestel: formuloj per am
+
+Revision 1.26  2018/07/28 20:10:13  revo
+Jeromo Vasxe: + kor~i
+
 Revision 1.25  2018/06/14 15:10:17  revo
 Dusan Juretic: +trd es
 
@@ -576,8 +584,5 @@ Revision 1.21  2012/10/23 00:11:51  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.20  2009/06/24 16:30:48  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2009/02/15 14:18:59  revo
 -->
 </vortaro>
