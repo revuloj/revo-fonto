@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: famili.xml,v 1.45 2020/02/14 17:10:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>famili</rad>/o <fnt><bib>PV</bib></fnt>
@@ -184,12 +184,14 @@
       <fnt><bib>EKV</bib><lok>&para;171</lok></fnt>
       <uzo tip="klr">(fakula &jcirc;argono)</uzo>
       <dif>
-        <klr>(de elementoj en aro <frm><g>E</g></frm> kun indicoj
-        en aro <frm><g>I</g></frm>)
+        <klr>(de elementoj en aro <frm am="bb E"><g>E</g></frm> kun
+        indicoj
+        en aro <frm am="bb I"><g>I</g></frm>)
         </klr>
         <ref tip="sin" cel="bild.0igo.MAT">Bildigo</ref> de
-        <frm><g>I</g></frm>
-        al <frm><g>E</g></frm>; alternative: la bildaro de tiu bildigo:
+        <frm am="bb I"><g>I</g></frm>
+        al <frm am="bb E"><g>E</g></frm>; alternative:
+        la bildaro de tiu bildigo:
         <ekz>
           oni povas opinii ke la ebeno konsistas el <tld/>o de rektoj,
           paralelaj unu al la aliaj
@@ -209,14 +211,16 @@
         Kvankam teorie sinonima kun <ctl>bildigo</ctl>, la termino
         <ctl><tld/>o</ctl> estas uzata pro tradicio kaj pro la
         oportunaj skriba&jcirc;oj, kiujn &gcirc;i ebligas. Por
-        signi <tld/>on <frm><k>f</k></frm>, oni kutime skribas
-        <frm>(<k>f</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g>
+        signi <tld/>on <frm am="f"><k>f</k></frm>, oni kutime skribas
+        <frm am="(f_i)_(i in bb I)"
+        >(<k>f</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g>
         </sub></frm>.
-        La bildon de <frm><k>i</k></frm> per <frm><k>f</k></frm> oni
+        La bildon de <frm am="i"><k>i</k></frm> per 
+        <frm am="f"><k>f</k></frm> oni
         foje nomas <ctl>termo</ctl> a&ubreve; e&ccirc; <ctl>elemento</ctl> de la
-        <tld/>o kaj oni &gcirc;in signas per <frm><k>f</k><sub><k>i</k>
-        </sub></frm>
-        anstata&ubreve; <frm><k>f</k>(<k>i</k>)</frm>.
+        <tld/>o kaj oni &gcirc;in signas per <frm am="f_i"
+        ><k>f</k><sub><k>i</k></sub></frm>
+        anstata&ubreve; <frm am="f(i)"><k>f</k>(<k>i</k>)</frm>.
         La uzo de termino <ctl>elemento</ctl> klari&gcirc;as per tio, ke
         parolante pri <tld/>o, oni plejofte interesi&gcirc;as pri
         &gcirc;ia bildaro, sed familio povas havi du identajn elementojn,
@@ -418,7 +422,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: famili.xml,v $
+versio 1.45 2020/02/14 17:10:39
+Wolfram Diestel: formuloj per am
+
+Revision 1.44  2018/04/27 03:10:14  revo
+Eko Nur Syah Hidayat: +trd id
+
 Revision 1.43  2017/05/01 14:10:17  revo
 Wolfram Diestel: kor. mrk, prilaboris ekz-ojn
 
@@ -435,8 +445,5 @@ Revision 1.39  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.38  2014/07/01 12:10:13  revo
-Damien Brucker: +ekz
-
-Revision 1.37  2014/01/24 02:10:21  revo
 -->
 </vortaro>
