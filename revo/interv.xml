@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: interv.xml,v 1.30 2020/02/15 00:10:40 revo Exp $">
 <kap>
   <rad>interval</rad>/o
 </kap>
@@ -24,31 +24,36 @@
     <dif>
       <ref tip="super" cel="ar.0o.MAT">Aro</ref> de &ccirc;iuj 
       <ref tip="prt" cel="reel.0o.MAT">reeloj</ref>, trovi&gcirc;antaj
-      inter du reeloj <frm><k>a</k></frm> kaj <frm><k>b</k></frm>; 
+      inter du reeloj <frm am="a"><k>a</k></frm> kaj <frm
+      am="b"><k>b</k></frm>; 
       pli &gcirc;enerale: konveksa subaro de la aro de reeloj:
       <ekz>
         la <tld/>on oni notas per skriba&jcirc;o de la tipo 
-        <frm>[<k>a</k>,<k>b</k>]</frm> 
-        <klr>(fermita <tld/>o, <frm><k>a</k></frm> kaj 
-        <frm><k>b</k></frm>
+        <frm am="[a,b]">[<k>a</k>,<k>b</k>]</frm> 
+        <klr> (fermita <tld/>o, <frm am="a"><k>a</k></frm> kaj 
+        <frm am="b"><k>b</k></frm>
         apartenas al la koncerna aro)</klr>,
-        <frm>]<k>a</k>,<k>b</k>[</frm> 
-        <klr>(malfermita <tld/>o, nek <frm><k>a</k></frm> nek 
-        <frm><k>b</k></frm> apartenas al &gcirc;i)</klr>,
-        <frm>[<k>a</k>,<k>b</k>[</frm> a&ubreve; 
-        <frm>]<k>a</k>,<k>b</k>]</frm> <klr>(duonfermita <tld/>o)</klr>;
+        <frm am="(a,b)">]<k>a</k>,<k>b</k>[</frm> 
+        <klr> (malfermita <tld/>o, nek <frm am="a"><k>a</k></frm> nek 
+        <frm am="b"><k>b</k></frm> apartenas al &gcirc;i)</klr>,
+        <frm am="[a,b)">[<k>a</k>,<k>b</k>[</frm> a&ubreve; 
+        <frm am="(a,b]">]<k>a</k>,<k>b</k>]</frm> <klr> (duonfermita
+        <tld/>o)</klr>;
       </ekz>
       <ekz>
-        la reelojn <frm><k>a</k></frm> kaj <frm><k>b</k></frm> oni nomas
+        la reelojn <frm am="a"><k>a</k></frm> kaj
+        <frm am="b"><k>b</k></frm> oni nomas
       <ref tip="prt" cel="rand.0o.intervalo">randoj</ref> de la <tld/>o.
       </ekz>
     </dif>
     <rim>
       La nocio estas vastigebla al nefiniaj valoroj de 
-      <frm><k>a</k></frm> a&ubreve; <frm><k>b</k></frm>:
-      <frm>[<k>a</k>,+&#8734;[</frm> <klr>(&ccirc;iuj reeloj pli grandaj
-      ol <frm><k>a</k></frm>, inkluzive de <frm><k>a</k></frm>)</klr>,
-      <frm>]-&#8734;,+&#8734;[</frm> ktp.
+      <frm am="a"><k>a</k></frm> a&ubreve; <frm am="b"><k>b</k></frm>:
+      <frm am="[a,+oo)">[<k>a</k>,+&#8734;[</frm> <klr> (&ccirc;iuj reeloj pli
+      grandaj
+      ol <frm am="a"><k>a</k></frm>, inkluzive de
+      <frm am="a"><k>a</k></frm>)</klr>,
+      <frm am="(-oo,+oo)">]-&#8734;,+&#8734;[</frm> ktp.
     </rim>
     <trd lng="en">interval</trd>
     <trd lng="fa">&a_b;&a_A;&a_z;&a_h;</trd>
@@ -75,7 +80,7 @@
   <trdgrp lng="sk">
     <trd>interval</trd>,
     <trd>medzidobie</trd>,
-    <trd>rozpätie</trd>
+    <trd>rozp&auml;tie</trd>
   </trdgrp>
 </drv>
 
@@ -86,11 +91,12 @@
   <snc>
     <dif>
       <klr>(de reela <ref cel="seri.potenco0o">potencoserio</ref> 
-      <frm><k>S</k>(<k>x</k>)</frm> &ccirc;irka&ubreve; 
-      <frm><k>x</k><sub>0</sub></frm>)</klr>
+      <frm am="S(x)"><k>S</k>(<k>x</k>)</frm> &ccirc;irka&ubreve; 
+      <frm am="x_0"><k>x</k><sub>0</sub></frm>)</klr>
       Malfermita <ref cel="interv.0o.MAT"><tld/>o</ref>
-     <frm>]<k>x</k><sub>0</sub>-&rho;,<k>x</k><sub>0</sub>+&rho;[</frm>,
-      kie <frm>&rho;</frm> signas la 
+      <frm am="(x_0-rho,x_0+rho)"
+      >]<k>x</k><sub>0</sub>-&rho;,<k>x</k><sub>0</sub>+&rho;[</frm>,
+      kie <frm am="rho">&rho;</frm> signas la 
       <ref cel="radius.konvergxo0o">konver&gcirc;oradiuson</ref> de la
       serio.
     </dif>
@@ -111,7 +117,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: interv.xml,v $
+versio 1.30 2020/02/15 00:10:40
+Wolfram Diestel: formuloj per am
+
+Revision 1.29  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.28  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -128,14 +140,5 @@ Revision 1.24  2008/05/20 16:30:28  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.23  2007/09/28 16:30:36  revo
-Tulio Flores: +tr pt
-
-Revision 1.22  2006/09/22 19:19:32  revo
-Wolfram Diestel: +tezrad(MUZ)
-
-Revision 1.21  2006/01/12 21:53:28  revo
-Raul Salinas Monteagudo: +trd es,it
-
-Revision 1.20  2005/12/05 17:31:17  revo
 -->
 </vortaro>
