@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: tangen.xml,v 1.24 2020/02/14 19:10:22 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>tangent</rad>/o
@@ -44,20 +44,20 @@
     <dif>
       Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu
       &jcirc;etas
-      reelon <frm><k>x</k></frm> al la 
+      reelon <frm am="x"><k>x</k></frm> al la 
       <tld/>o <sncref ref="tangen.0o.entriangulo"/> de angulo, kies
       mezuro en 
       <ref cel="radian.0o">radianoj</ref> diferencas
-      de <frm><k>x</k></frm> per oblo de <frm>&pi;</frm>; 
+      de <frm am="x"><k>x</k></frm> per oblo de <frm am="pi">&pi;</frm>; 
       simb. <frm>tg</frm> a&ubreve; <frm>tang</frm>:
       <ekz>
         <tld/>o estas perioda funkcio, kun
         <ref cel="period.0o.funkcio">periodo <sncref/></ref>
-        <frm>&pi;</frm>;
+        <frm am="pi">&pi;</frm>;
       </ekz>
       <ekz>
         <tld/>o strebas al nefinio, kiam la argumento strebas al
-        <frm>&pi;/2</frm>.
+        <frm am="pi//2">&pi;/2</frm>.
       </ekz>
     </dif>
   </snc>
@@ -100,10 +100,11 @@
       la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
       <ref cel="tangen.0o.funkcio"><tld/>o</ref> al la
-      intervalo <frm>]-&pi;/2,&pi;/2[</frm>;  simb. <frm>arctg</frm>
+      intervalo <frm am="(-pi//2,pi//2)">]-&pi;/2,&pi;/2[</frm>;  simb.
+      <frm>arctg</frm>
       a&ubreve; <frm>arktang</frm>:
       <ekz>
-        ark<tld/>o de <frm>1</frm> egalas al <frm>&pi;/4</frm>.
+        ark<tld/>o de <frm>1</frm> egalas al <frm am="pi//4">&pi;/4</frm>.
       </ekz>
     </dif>
     <rim>
@@ -130,8 +131,9 @@
     <dif>
       Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu
       &jcirc;etas
-      reelon <frm><k>x</k></frm> al 
-      <frm>(sinh <k>x</k>)/(cosh <k>x</k>)</frm>; simb. <frm>tangh</frm>
+      reelon <frm am="x"><k>x</k></frm> al 
+      <frm am="(sinh x)//(cosh x)">(sinh <k>x</k>)/(cosh
+      <k>x</k>)</frm>; simb. <frm>tangh</frm>
       
       a&ubreve; <frm>tgh</frm>.
     </dif>
@@ -158,7 +160,8 @@
       la <ref cel="vast.mal0igajxo.bildigo">malvastiga&jcirc;o</ref> de
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
       <ref cel="tangen.hiperbola0o">hiperbola <tld/>o</ref> al la
-      intervalo <frm>[0,+&#8734;[</frm>; simb. <frm>artangh</frm> 
+      intervalo <frm am="[0,+oo)">[0,+&#8734;[</frm>; simb. <frm>artangh</frm>
+      
       a&ubreve; <frm>artgh</frm>.
     </dif>
   </snc>
@@ -181,7 +184,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: tangen.xml,v $
+versio 1.24 2020/02/14 19:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.23  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.22  2015/06/29 16:40:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -198,14 +207,5 @@ Revision 1.18  2006/02/03 17:33:37  revo
 Tulio Flores: +trd pt
 
 Revision 1.17  2004/11/16 17:32:33  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16  2003/09/08 16:32:53  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2003/03/09 17:34:37  revo
-Marc Bavant: koherigis simb
-
-Revision 1.14  2002/11/24 17:35:22  revo
 -->
 </vortaro>
