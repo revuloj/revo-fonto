@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: determ.xml,v 1.45 2020/02/14 11:10:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>determin</rad>/i
@@ -23,8 +23,10 @@
       <ekz>
         <tld/>i la specon de fungo
         <fnt>
-          <vrk><url ref="http://www.eventoj.hu/steb/agrikulturo/kiamaniere_distingi_fungojn/kiamaniere_distingi_fungojn.htm"
-              >Kiamaniere distingi la fungojn? &dash; manlibro por kolektantoj</url></vrk>
+          <vrk><url
+          ref="http://www.eventoj.hu/steb/agrikulturo/kiamaniere_distingi_fungojn/kiamaniere_distingi_fungojn.htm"
+              >Kiamaniere distingi la fungojn? &#8208; manlibro por
+              kolektantoj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -35,7 +37,8 @@
         <lok>Kvina promenado</lok></fnt>;
       </ekz>
       <ekz>
-        la ordo de la nukleotidoj de RNA estas <tld/>ita de la vicordo de aliaj
+        la ordo de la nukleotidoj de RNA estas <tld/>ita de la vicordo
+        de aliaj
         nukleotidoj en la geno mem
         <fnt>
           <bib>Monato</bib>
@@ -44,7 +47,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        kompari tion kion oni spektas kun la &scirc;ablonoj por <tld/>i, kion oni spektis
+        kompari tion kion oni spektas kun la &scirc;ablonoj por <tld/>i, kion
+        oni spektis
         <fnt>
           <bib>Monato</bib>
           <aut>Hektor Alos i Font</aut>
@@ -53,7 +57,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        oni instalis birilojn, aparatetojn, kiuj povas <tld/>i, kie la a&ubreve;to trovi&gcirc;as
+        oni instalis birilojn, aparatetojn, kiuj povas <tld/>i, kie la
+        a&ubreve;to trovi&gcirc;as
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Peeraerts</aut>
@@ -62,7 +67,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        <nom>Hundertwasser</nom> determinis la uzadon de rekta linio en la arto kiel &leftquot;instrumenton
+        <nom>Hundertwasser</nom> determinis la uzadon de rekta linio en
+        la arto kiel &leftquot;instrumenton
         de l' diablo&rightquot;
         <fnt>
           <bib>Monato</bib>
@@ -255,8 +261,10 @@
     <dif>
       Ka&ubreve;zanta cirkonstanco:
       <ekz>
-        el psikologia vidpunkto, la starigataj problemoj ne tu&scirc;as nur la personon, kiu
-        metis ilin, sed anka&ubreve; la medion <klr>[&#8230;]</klr>, gravas do konsideri &ccirc;iujn
+        el psikologia vidpunkto, la starigataj problemoj ne tu&scirc;as nur la
+        personon, kiu
+        metis ilin, sed anka&ubreve; la medion <klr>[&#8230;]</klr>, gravas do
+        konsideri &ccirc;iujn
         <tld/>antojn
         <fnt>
           <bib>Monato</bib>
@@ -272,7 +280,7 @@
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="determ.0anto.vektoroj">
       <dif>
-        <klr>(de <frm><k>n</k></frm> vektoroj de
+        <klr>(de <frm am="n"><k>n</k></frm> vektoroj de
         <ref cel="dimens.n0a">n-dimensia</ref>
         <ref cel="spac.vektora0o">vektora spaco</ref>, rilate al
         <ref cel="baz.0o.vektoraspaco">bazo</ref>)</klr>
@@ -286,23 +294,25 @@
       <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
       <dif>
         <klr>(de <ref cel="matric.n_p0o">(n,n)-matrico</ref>
-        <frm>A</frm>
-        super korpo <frm><g>K</g></frm>)</klr>
+        <frm am="A">A</frm>
+        super korpo <frm am="bb K"><g>K</g></frm>)</klr>
         <tld lit="D"/>anto <sncref ref="determ.0anto.vektoroj"/>
-        de &gcirc;iaj <frm><k>n</k></frm> vertikaloj, konsiderataj kiel
-        vektoroj de <frm><g>K</g><sup><k>n</k></sup></frm>, rilate al
-        ties
-        <ref cel="baz.kanona0o">kanona bazo</ref>; simb. <frm>det
-        A</frm>:
+        de &gcirc;iaj <frm am="n"><k>n</k></frm> vertikaloj, konsiderataj kiel
+        vektoroj de <frm am="bb K^n"><g>K</g><sup><k>n</k></sup></frm>,
+        rilate al ties
+        <ref cel="baz.kanona0o">kanona bazo</ref>; simb.
+        <frm am="det A">det A</frm>:
         <ekz>
-          la <tld/>anto de <frm>A</frm> egalas al
-          <frm>&#8721;&epsilon;<sub>&sigma;</sub>&#8719;A<sub><k>i</k>&sigma;(<k>i</k>)</sub></frm>,
-          kie <frm><k>i</k></frm> varias de <frm>1</frm> al
-          <frm><k>n</k></frm>, <frm>&sigma;</frm> varias en la aro de
+          la <tld/>anto de <frm am="a">A</frm> egalas al
+          <frm am="sum_sigma(epsilon_sigma prod_i A_(i,sigma(i)))"
+          >&#8721;&epsilon;<sub>&sigma;</sub>&#8719;A<sub><k>i</k>&sigma;(<k>i</k>)</sub></frm>,
+          kie <frm am="i"><k>i</k></frm> varias de <frm>1</frm> al
+          <frm am="n"><k>n</k></frm>, <frm am="sigma">&sigma;</frm> varias en
+          la aro de
           <ref cel="permut.0o.bijekcio">permutoj</ref> super
-          <frm>{1,2,...,<k>n</k>}</frm>, kaj
-          <frm>&epsilon;<sub>&sigma;</sub></frm> signas la parecon 
-          de <frm>&sigma;</frm>;
+          <frm am="{1,2,...,n}">{1,2,...,<k>n</k>}</frm>, kaj
+          <frm am="epsilon_sigma">&epsilon;<sub>&sigma;</sub></frm> signas la parecon 
+          de <frm am="sigma">&sigma;</frm>;
         </ekz>
         <ekz>
           la <tld/>anto de matrico egalas al la <tld/>anto de &gcirc;ia
@@ -398,7 +408,8 @@
         <tld/>ismo
         <fnt>
           <aut>S. Aarse</aut>,
-          <vrk><url ref="http://www.autodidactproject.org/other/spinoza10-esp2.html">
+          <vrk><url
+          ref="http://www.autodidactproject.org/other/spinoza10-esp2.html">
           Spinoza...</url></vrk>,
           <lok>Sennacieca Revuo, 1970, numero 98a, p. 28a-44a</lok>
         </fnt>.
@@ -425,7 +436,8 @@
         la ne<tld/>ismo de la kvantuma fiziko
         <fnt>
           <aut>J. Bailhache</aut>,
-          <vrk><url ref="http://membres.lycos.fr/teledev/log/text/reflmph/esperanto/reflres.htm?">
+          <vrk><url
+          ref="http://membres.lycos.fr/teledev/log/text/reflmph/esperanto/reflres.htm?">
           Metafizikaj pripensoj</url></vrk>,
           <lok>[vidita en 2007-03]</lok>
         </fnt>.
@@ -467,16 +479,17 @@
   <snc>
     <dif>
       <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref> inter du 
-      <frm><k>n</k></frm>-dimensiaj
+      <frm am="n"><k>n</k></frm>-dimensiaj
       reelaj <ref cel="spac.normohava0o">normohavaj spacoj</ref>,
       <ref cel="difere2.0ebla">diferencialebla</ref> &ccirc;e punkto
-      <frm><k>a</k></frm>)</klr>
+      <frm am="a"><k>a</k></frm>)</klr>
       La <ref tip="super" cel="determ.0anto.matrico"><tld/>anto
       <sncref ref="determ.0anto.matrico"/></ref>
       de &gcirc;ia <ref cel="matric.jakobia0o">jakobia matrico</ref>
-      &ccirc;e <frm><k>a</k></frm>:
+      &ccirc;e <frm am="a"><k>a</k></frm>:
       <ekz>
-        la jakobia <tld/>anto estas <tld/>anto de la jakobia matrico, kiu estas difinita
+        la jakobia <tld/>anto estas <tld/>anto de la jakobia matrico,
+        kiu estas difinita
         se &gcirc;i estas kvadrata matrico
         <fnt>
           <bib>Viki</bib>
@@ -517,7 +530,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: determ.xml,v $
+versio 1.45 2020/02/14 11:10:15
+Wolfram Diestel: formuloj per am
+
+Revision 1.44  2019/09/17 20:10:19  revo
+Wolfram Diestel: pliaj ekz-oj, ref eltrovi
+
 Revision 1.43  2019/02/01 21:10:14  revo
 Wolfram Diestel: +ref, germ trd-oj
 
@@ -534,8 +553,5 @@ Revision 1.39  2015/06/22 15:10:14  revo
 Joop Eggen: +trd bg nl
 
 Revision 1.38  2009/06/05 16:30:56  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.37  2007/07/23 16:31:22  revo
 -->
 </vortaro>
