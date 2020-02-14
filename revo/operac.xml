@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: operac.xml,v 1.60 2020/02/14 15:10:20 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>operaci</rad>/o <fnt><bib>PV</bib></fnt>
@@ -217,9 +217,10 @@
       <fnt><bib>MatStokTerm</bib><lok>p. 38</lok></fnt>
       <dif>
         <klr>(en <ref cel="ar.0o.MAT">aro</ref>
-        <frm><g>E</g></frm>)</klr>
+        <frm am="bb E"><g>E</g></frm>) </klr>
         <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-        <frm><g>E</g>&#215;<g>E</g></frm> al <frm><g>E</g></frm>:
+        <frm am="bb E xx bb E"><g>E</g>&#215;<g>E</g></frm> al
+        <frm am="bb E"><g>E</g></frm>:
         <ekz>
           la aritmetika adicio estas <tld/>o, kiu al &ccirc;iu duopo
           de entjeroj asocias la sumon de ties termoj;
@@ -245,40 +246,40 @@
         Tiu &ccirc;i difino estas formaligo kaj plivastigo de la kutima
         nocio <ctl>aritmetika <tld/>o</ctl>. Por tion &ccirc;i respeguli,
         la <ref cel="bild.rekta0o">bildon</ref> de paro
-        <frm>(<k>x</k>,<k>y</k>)</frm> per <tld/>o <frm>T</frm> oni
-        prefere
-        signas per <frm><k>x</k>T<k>y</k></frm> anstata&ubreve;
-        <frm>T(<k>x</k>,<k>y</k>)</frm> kaj oni &gcirc;in nomas
+        <frm am="(x,y)">(<k>x</k>,<k>y</k>)</frm> per <tld/>o
+        <frm am="T">T</frm> oni prefere
+        signas per <frm am="x T y"><k>x</k>T<k>y</k></frm> anstata&ubreve;
+        <frm am="T(x,y)">T(<k>x</k>,<k>y</k>)</frm> kaj oni &gcirc;in nomas
         <ctl>rezulto de la <tld/>o</ctl>.
         La <tld/>on mem oni ofte signas adicie:
         <ekz>
-          <frm><k>x</k>+<k>y</k></frm>,
+          <frm am="x+y"><k>x</k>+<k>y</k></frm>,
         </ekz> multiplike:
         <ekz>
-          <frm><k>x</k>&#215;<k>y</k></frm>,
+          <frm am="x xx y"><k>x</k>&#215;<k>y</k></frm>,
         </ekz>
         <ekz>
-          <frm><k>x</k>&#8729;<k>y</k></frm>,
+          <frm am="x*y"><k>x</k>&#8729;<k>y</k></frm>,
         </ekz>
         <ekz>
-          <frm><k>x</k><k>y</k></frm>
+          <frm am="xy"><k>x</k><k>y</k></frm>
         </ekz>
         a&ubreve; per ajna ta&ubreve;ga signo
         <ekz>
-          <frm><k>x</k>&#8224;<k>y</k></frm>,
+          <frm am="x&#8224;y"><k>x</k>&#8224;<k>y</k></frm>,
         </ekz>
         <ekz>
-          <frm><k>x</k>&#9830;<k>y</k></frm>,
+          <frm am="x&#9830;y"><k>x</k>&#9830;<k>y</k></frm>,
         </ekz>
         <ekz>
-          <frm><k>x</k>*<k>y</k></frm>...
+          <frm am="x ** y"><k>x</k>*<k>y</k></frm>...
         </ekz>
         La nocio <tld/>o estas vastigebla anka&ubreve; al bildigoj, kies
         <ref cel="ar.fonto0o">fonto-aro</ref> estas
         <ref cel="produt.kartezia0o">kartezia produto</ref>
         de pli ol du identaj aroj. Oni tiam
         parolas pri <ctl>triargumenta</ctl>, <ctl>kvarargumenta</ctl>
-        a&ubreve; &gcirc;enerale <ctl><frm><k>n</k></frm>-argumenta
+        a&ubreve; &gcirc;enerale <ctl><frm am="n"><k>n</k></frm>-argumenta
         <tld/>o</ctl>.
       </rim>
       <trdgrp lng="de">
@@ -750,19 +751,22 @@
   <snc mrk="operac.ekstera0o.aro">
     <fnt><bib>EKV</bib><lok>&para;110</lok></fnt>
     <dif>
-      <klr>(de <ref cel="ar.0o.MAT">aro</ref> <frm><g>R</g></frm>
-      super aro <frm><g>E</g></frm>)</klr>
+      <klr>(de <ref cel="ar.0o.MAT">aro</ref> <frm am="bb
+      R"><g>R</g></frm>
+      super aro <frm am="bb E"><g>E</g></frm>)</klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm><g>R</g>&#215;<g>E</g></frm> al <frm><g>E</g></frm>:
+      <frm am="bb R xx bb E"><g>R</g>&#215;<g>E</g></frm> al
+      <frm am="bb E"><g>E</g></frm>:
       <ekz>
-        la bildigo, kiu al entjero <frm><k>n</k></frm> kaj
-        elemento <frm><k>x</k></frm> de grupoido
-        <frm>(<g>E</g>,&#8224;)</frm>
-        asocias <frm><k>n</k>&#8729;<k>x</k> =
-        <k>x</k>&#8224;<k>x</k>&#8224;...&#8224;<k>x</k></frm>
-        <klr>(<frm><k>n</k></frm> termoj en la dekstra flanko)</klr>,
-        estas
-        ekstera <tld/>o de la entjeroj super <frm><g>E</g></frm>;
+        la bildigo, kiu al entjero <frm am="n"><k>n</k></frm> kaj
+        elemento <frm am="x"><k>x</k></frm> de grupoido
+        <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
+        asocias <frm am="n*x= x&#8224;x&#8224;...&#8224;x"
+        ><k>n</k>&#8729;<k>x</k> = <k>x</k>&#8224;<k>x</k>&#8224;...&#8224;<k>x</k></frm>
+        <klr> (<frm am="n"><k>n</k></frm> termoj en la dekstra
+        flanko)</klr>,
+        estas ekstera <tld/>o de la entjeroj super
+        <frm am="bb E"><g>E</g></frm>;
       </ekz>
       <ekz>
         vektora spaco <frm><g>E</g></frm> super korpo
@@ -783,19 +787,22 @@
   </snc>
   <snc mrk="operac.ekstera0o.elemento">
     <dif>
-      <klr>(de <frm>&tau;&#8712;<g>R</g></frm> super
-      <ref cel="ar.0o.MAT">aro</ref> <frm><g>E</g></frm>, kadre de
+      <klr>(de <frm am="tau in bb R">&tau;&#8712;<g>R</g></frm> super
+      <ref cel="ar.0o.MAT">aro</ref> <frm am="bb E"><g>E</g></frm>,
+      kadre de
       ekstera <tld/>o <sncref ref="operac.ekstera0o.aro"/>
-      <frm>&#8729;</frm>
-      de <frm><g>R</g></frm> super <frm><g>E</g></frm>)</klr>
+      <frm am="***">&#8729;</frm>
+      de <frm am="bb R"><g>R</g></frm> super <frm
+      am="E"><g>E</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
-      <frm><g>E</g></frm> al si mem, ke la bildo de <frm><k>x</k></frm>
-      estas <frm>&tau;&#8729;<k>x</k></frm>:
+      <frm am="bb E"><g>E</g></frm> al si mem, ke la bildo de
+      <frm am="x"><k>x</k></frm>
+      estas <frm am="tau***x">&tau;&#8729;<k>x</k></frm>:
       <ekz>
         la ekstera <tld/>o de <ref cel="vektor.nul0o">nulvektoro</ref>
-        super
-        <ref cel="spac.afina0o">afina spaco</ref>
-        <frm><g>E</g></frm> estas <frm>id<sub><g>E</g></sub></frm>.
+        super <ref cel="spac.afina0o">afina spaco</ref>
+        <frm am="bb E"><g>E</g></frm> estas
+        <frm am='"id"_(bb E)'>id<sub><g>E</g></sub></frm>.
       </ekz>
     </dif>
   </snc>
@@ -868,7 +875,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: operac.xml,v $
+versio 1.60 2020/02/14 15:10:20
+Wolfram Diestel: formuloj per am
+
+Revision 1.59  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
 Revision 1.58  2019/06/30 07:43:29  revo
 adaptis URL de Monato
 
@@ -885,14 +898,5 @@ Revision 1.54  2017/12/14 18:10:14  revo
 Wolfram Diestel: kor. ref-cel
 
 Revision 1.53  2016/10/27 20:10:19  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.52  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.51  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.50  2014/12/14 19:10:11  revo
 -->
 </vortaro>
