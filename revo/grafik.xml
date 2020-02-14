@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
+  <art mrk="$Id: grafik.xml,v 1.34 2020/02/14 18:10:28 revo Exp $">
     <kap>
       <ofc>9</ofc><rad>grafik</rad>/o 
       <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
@@ -131,11 +131,11 @@
         <fnt><bib>EKV</bib><lok>&para;152</lok></fnt>
         <dif>
           <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref>
-            <frm><k>f</k></frm>)</klr>
+          <frm am="f"><k>f</k></frm>)</klr>
           Aro, konsistanta el la paroj
-          <frm>(<k>x</k>,<k>f</k>(<k>x</k>))</frm>
-          por &ccirc;iu <frm><k>x</k></frm> en la fonto-aro de
-          <frm><k>f</k></frm>.
+          <frm am="(x,f(x))">(<k>x</k>,<k>f</k>(<k>x</k>))</frm>
+          por &ccirc;iu <frm am="x"><k>x</k></frm> en la fonto-aro de
+          <frm am="f"><k>f</k></frm>.
         </dif>
         <ref tip="sin" cel="graf1.0o.grafikajxo">grafo;</ref>
         <ref tip="vid" cel="prezen1.grafika0o"><tld/>a prezento.</ref>
@@ -159,7 +159,8 @@
           la&ubreve;bezone komputebla sinuso).
           Pli matematikece oni devus paroli pri <tld/>a&jcirc;o de rilato,
           kio estas pli &gcirc;enerala koncepto; ekz-e anka&ubreve; la ekvacio
-          <frm>x&quadrat;+y&quadrat;=1</frm> estas prezentebla arteorie
+          <frm am="x^2+y^2=1"
+          >x&quadrat;+y&quadrat; = 1</frm> estas prezentebla arteorie
           per karteziaj
           duopoj, kvankam &gcirc;i ne difinas funkcion.
           <aut>Sergio Pokrovskij</aut>
@@ -207,7 +208,13 @@
     </drv>
   </art>
   <!--
-  $Log$
+  $Log: grafik.xml,v $
+versio 1.34 2020/02/14 18:10:28
+Wolfram Diestel: formuloj per am
+
+  Revision 1.33  2019/02/18 14:10:25  revo
+  Petr Diblik: +trd cs
+
   Revision 1.32  2018/08/07 20:10:20  revo
   Michel Cantigneaux: aperas unue en PV (1934) k PIV1 (1970), oficialaj
   en 9OA (2007)
@@ -224,34 +231,5 @@
 
   Revision 1.28  2015/07/04 08:37:35  revo
   aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.27  2015/06/29 16:29:39  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.26  2011/05/13 08:10:09  revo
-  Sergio Pokrovskij: +rim
-
-  Revision 1.25  2009/11/09 17:30:20  revo
-  Jeromo Vasxe: + kk mrk - 1 la
-
-  Revision 1.24  2009/03/01 17:32:07  revo
-  Russ Williams: + 9OA
-
-  Revision 1.23  2007/06/25 16:30:19  revo
-  Russ Williams: trd +en
-
-  Revision 1.22  2005/08/25 16:33:57  revo
-  Luiz Portella: +trd pt
-
-  Revision 1.21  2004/01/06 17:31:51  revo
-  Dmitri Gabinski: +trd be
-
-  Revision 1.20  2003/11/22 17:30:28  revo
-  Jeromo Vasxe: kor 1 mrk
-
-  Revision 1.19  2003/10/30 17:30:49  revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.18  2003/01/26 17:33:04  revo
-  -->
+-->
 </vortaro>
