@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
+  <art mrk="$Id: grafe.xml,v 1.34 2020/02/14 18:10:27 revo Exp $">
     <kap>
       <rad>grafe</rad>/o
     </kap>
@@ -16,18 +16,19 @@
           <lok><url ref="&KompLeks;/G.html#GRAFEO">TTT</url></lok>
         </fnt>
         <dif>
-          Tia matematika strukturo <frm>(<g>E</g>,<k>U</k>)</frm>, ke
-          <frm><g>E</g></frm> estas <ref cel="ar.0o.MAT">aro</ref> (aro
-          de la
-          verticoj) kaj <frm><k>U</k></frm> estas
+          Tia matematika strukturo <frm am="(bb E,U)"
+          >(<g>E</g>,<k>U</k>)</frm>, ke
+          <frm am="bb E"><g>E</g></frm> estas <ref
+          cel="ar.0o.MAT">aro</ref> 
+          (aro de la
+          verticoj) kaj <frm am="U"><k>U</k></frm> estas
           <ref cel="vic.0o.MAT">vico</ref>, kies termoj estas
           <ref cel="op.n0o">duopoj</ref> el elementoj en
-          <frm><g>E</g></frm> (vico
+          <frm am="bb E"><g>E</g></frm> (vico
           de &gcirc;iaj e&gcirc;oj):
           <ekz>
             <tld/>o estas prezentebla per aro da punktoj (la verticoj),
-            ligitaj
-            per linioj a&ubreve; sagoj (la e&gcirc;oj);
+            ligitaj per linioj a&ubreve; sagoj (la e&gcirc;oj);
           </ekz><ekz>
             ebena <tld/>o <klr>(desegnebla sur ebeno sen
               interkruci&gcirc;oj)</klr>.
@@ -35,10 +36,10 @@
           <!-- ekz>
           <adm>
           &Ccirc;i tiun ekzemplon mi preferas forigi, &ccirc;ar &gcirc;i
-          uzas
-          nedifinitajn terminojn "S-grafeo", "nodo"... <aut>MB</aut>
+          uzas nedifinitajn terminojn "S-grafeo", "nodo"...
+          <aut>MB</aut>
         </adm>
-          &ccirc;ar la <frm>S</frm>-<tld/>o konsistas el nodoj kaj
+          &ccirc;ar la <frm am="S">S</frm>-<tld/>o konsistas el nodoj kaj
           e&gcirc;oj,
           ni difinis du malsamajn datumstrukturojn por tiuj objektoj
           <fnt>
@@ -136,7 +137,8 @@
           oni nomas e&gcirc;o ne nur la duopon el verticoj, sed foje
           anka&ubreve;
           tian duopon, konsideratan kune kun &gcirc;ia indico en la vico
-          <frm><k>U</k></frm>. Tiamaniere eblas pravigi esprimojn de la
+          <frm am="U"><k>U</k></frm>. Tiamaniere eblas pravigi esprimojn
+          de la
           tipo
           <ekz>
             paralelaj e&gcirc;oj <klr>(e&gcirc;oj kun samaj
@@ -145,8 +147,8 @@
           a&ubreve;
           <ekz>
             du e&gcirc;oj ligas verticojn
-            <frm><k>v</k><sub>1</sub></frm> kaj
-            <frm><k>v</k><sub>2</sub></frm>.
+            <frm am="v_1"><k>v</k><sub>1</sub></frm> kaj
+            <frm am="v_2"><k>v</k><sub>2</sub></frm>.
           </ekz>
         </rim>
         <trd lng="be">&c_g;&c_r;&c_a;&c_f;</trd>
@@ -165,14 +167,14 @@
           <klr>(de <ref cel="rilat.0o.MAT">rilato <sncref/></ref>)</klr>
           Diagramo, foje uzata por &gcirc;in prezenti, konsistanta el
           sagoj, kies randoj prezentas tiajn elementojn
-          <frm><k>a</k></frm> kaj
-          <frm><k>b</k></frm>, ke <frm>(<k>a</k>,<k>b</k>)</frm> estas
+          <frm am="a"><k>a</k></frm> kaj
+          <frm am="b"><k>b</k></frm>, ke <frm am="(a,b)"
+          >(<k>a</k>,<k>b</k>)</frm> estas
           elemento de
           la rilato:
           <ekz>
             en la <tld/>o de <ref cel="simetr.0a.rilato">simetria</ref>
-            rilato,
-            al &ccirc;iu sago respondas sago kun samaj randoj kaj
+            rilato, al &ccirc;iu sago respondas sago kun samaj randoj kaj
             kontra&ubreve;a
             direkto.
           </ekz>
@@ -184,7 +186,8 @@
           <ctl>graphe d'une relation</ctl> kiam fakte temis pri
           <ref cel="grafik.0ajxo.MAT">grafika&jcirc;o</ref> de rilato
           (ekz-e la aro de karteziaj duopoj, obeantaj la rilaton
-          <frm>x&quadrat;+y&quadrat;=1</frm>,
+          <frm am="x^2+y^2=1"
+          >x&quadrat;+y&quadrat; = 1</frm>,
           <ref cel="grafik.0ajxo.Sergio">vd rimarkon</ref>).
           En la tekstoj matematikaj normale temas pri la arteoriaj
           <ctl>grafika&jcirc;oj de rilato</ctl>, kaj tiusenca misuzo
@@ -232,7 +235,7 @@
       <snc>
         <dif>
           <ref tip="dif" cel="grafe.n0o">n-<tld lit="G"/>o</ref>
-          kun <frm><k>n</k> &gt; 1</frm>.
+          kun <frm am="n gt 1"><k>n</k> &gt; 1</frm>.
         </dif>
       </snc>
   <trd
@@ -262,24 +265,26 @@
         <dif>
           <klr>(de <ref tip="super"
           cel="grafe.0o.strukturo"><tld/>o</ref>
-            <frm>(<g>E</g>,<k>U</k>)</frm>)</klr>
-          Tia <tld/>o <frm>(<g>F</g>,<k>V</k>)</frm>, ke
-          <frm><g>F</g></frm> estas
-          subaro de <frm><g>E</g></frm> kaj <frm><k>V</k></frm> estas
-          subvico de
-          <frm><k>U</k></frm>:
+          <frm am="(bb E,U)"
+          >(<g>E</g>,<k>U</k>)</frm>)</klr>
+          Tia <tld/>o <frm am="(bb F,V)"
+          >(<g>F</g>,<k>V</k>)</frm>, ke
+          <frm am="bb F"><g>F</g></frm> estas
+          subaro de <frm am="bb E"><g>E</g></frm> kaj 
+          <frm am="V"><k>V</k></frm> estas
+          subvico de <frm am="U"><k>U</k></frm>:
           <ekz>
             la sub<tld/>o naskita de subaro de verticoj <klr>(tia, ke
-              <frm><k>V</k></frm> enhavas &ccirc;iujn termojn de
-              <frm><k>U</k></frm>,
+              <frm am="V"><k>V</k></frm> enhavas &ccirc;iujn termojn de
+              <frm am="U"><k>U</k></frm>,
               kies randoj apartenas al la koncerna subaro)</klr>.
           </ekz>
         </dif>
       </snc>
       <rim>
         En naciaj lingvoj oni foje uzas malsamajn terminojn por indiki,
-        &ccirc;u
-        <frm><g>E</g></frm>, &ccirc;u <frm><k>U</k></frm> estas
+        &ccirc;u <frm am="bb E"><g>E</g></frm>, &ccirc;u <frm am="U"><k>U</k></frm>
+        estas
         malvastigita,
         nome
         terminojn de la tipo <ctl>sub<tld/>o</ctl> a&ubreve;
@@ -313,8 +318,10 @@
         <dif>
           <klr>(de <ref tip="super"
           cel="grafe.0o.strukturo"><tld/>o</ref>
-            <frm>(<g>E</g>,<k>U</k>)</frm>)</klr>
-          Tia <tld/>o, ke <frm>(<g>E</g>,<k>U</k>)</frm> estas
+          <frm am="(bb E,U)"
+          >(<g>E</g>,<k>U</k>)</frm>)</klr>
+          Tia <tld/>o, ke <frm am="(bb E,U)"
+          >(<g>E</g>,<k>U</k>)</frm> estas
           <ref cel="grafe.sub0o">sub<tld/>o</ref> de &gcirc;i.
         </dif>
       </snc>
@@ -439,23 +446,21 @@
           <ref tip="dif" cel="grafe.0o.strukturo"><tld lit="G"/>o</ref>,
           por kiu
           oni konvencie identigas la inversajn e&gcirc;ojn
-          <frm>(<k>x</k>,<k>y</k>)</frm> kaj
-          <frm>(<k>y</k>,<k>x</k>)</frm>; alidire:
+          <frm am="(x,y)">(<k>x</k>,<k>y</k>)</frm> kaj
+          <frm am="(y,x)">(<k>y</k>,<k>x</k>)</frm>; alidire:
           la e&gcirc;oj de neorientita <tld/>o ne estas duopoj, sed du-
           a&ubreve;
           unu-elementaj subaroj de la aro de verticoj.
         </dif>
         <rim>
           Al neorientita <tld/>o &ccirc;iam eblas asocii orientitan.
-          Sufi&ccirc;as
-          konsideri, ke la e&gcirc;o <frm>{<k>x</k>,<k>y</k>}</frm>
-          respondas
-          al
-          la du e&gcirc;oj <frm>(<k>x</k>,<k>y</k>)</frm> kaj
-          <frm>(<k>y</k>,<k>x</k>)</frm>, kaj ke la buklo
-          <frm>{<k>x</k>}</frm>
-          respondas al <frm>(<k>x</k>,<k>x</k>)</frm>. Danke al tiu
-          konvencio,
+          Sufi&ccirc;as konsideri, ke la e&gcirc;o <frm am="{x,y}"
+          >{<k>x</k>,<k>y</k>}</frm> respondas al
+          la du e&gcirc;oj <frm am="(x,y)">(<k>x</k>,<k>y</k>)</frm> kaj
+          <frm am="(y,x)">(<k>y</k>,<k>x</k>)</frm>, kaj ke la buklo
+          <frm am="{x}">{<k>x</k>}</frm>
+          respondas al <frm am="(x,x)"
+          >(<k>x</k>,<k>x</k>)</frm>. Danke al tiu konvencio,
           &ccirc;io, kio validas por orientita <tld/>o ricevas signifon
           anka&ubreve; por neorientita.
         </rim>
@@ -530,7 +535,13 @@
     </drv>
   </art>
   <!--
-  $Log$
+  $Log: grafe.xml,v $
+versio 1.34 2020/02/14 18:10:27
+Wolfram Diestel: formuloj per am
+
+  Revision 1.33  2018/06/17 16:10:21  revo
+  Dusan Juretic: +trd es
+
   Revision 1.32  2017/02/17 14:10:16  revo
   Jeromo Vasxe: orientgxo -> orientigxo
 
@@ -547,29 +558,5 @@
   Sergio Pokrovskij: +rim
 
   Revision 1.27  2011/05/12 07:10:08  revo
-  Sergio Pokrovskij: +rim
-
-  Revision 1.26  2007/05/01 18:24:43  revo
-  Tulio Flores: +tr pt
-
-  Revision 1.25  2004/06/01 17:22:55  revo
-  Dmitri Gabinski: +trd be
-
-  Revision 1.24  2003/05/12 16:33:04  revo
-  Marc Bavant: plur~o: mod trd ru
-
-  Revision 1.23  2003/04/21 16:34:14  revo
-  Marc Bavant: +ref al sub~o, super~o
-
-  Revision 1.22  2003/03/05 17:34:20  revo
-  Marc Bavant: n-~o: +ind en trd ru
-  Revision 1.21  2003/01/13 17:33:58  revo
-  Marc Bavant: super~o: +trd
-  Revision 1.20  2003/01/02 17:46:13  revo
-  Marc Bavant: +trd pl, mod fnt
-  Revision 1.19 2002/12/15 19:51:19 revo
-  Marc Bavant: ~o: rearangxis refgrp
-  Revision 1.18 2002/12/03 19:54:04 revo
-  Marc Bavant: sub~o: kor trd ru
-  -->
+-->
 </vortaro>
