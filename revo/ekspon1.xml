@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: ekspon1.xml,v 1.25 2020/02/14 15:10:18 revo Exp $">
 <kap>
 <rad>eksponencial</rad>/o
 </kap>
@@ -13,21 +13,20 @@
   <snc>
     <dif>
       <klr>(kun <ref cel="baz.0o.logaritmo">bazo</ref> 
-      <frm><k>a</k></frm>)</klr>
+      <frm am="a"><k>a</k></frm>)</klr>
       Tia <ref cel="kontin3.0a.cxie">kontinua</ref> reela 
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
-      <frm><k>f</k></frm>, ke
-      <frm><k>f</k>(<k>x</k>+<k>y</k>) = 
-      <k>f</k>(<k>x</k>).<k>f</k>(<k>y</k>)</frm>
-      kaj <frm><k>f</k>(1) = <k>a</k></frm>:
+      <frm am="f"><k>f</k></frm>, ke
+      <frm am="f(x+y)=f(x)*f(y)"
+      ><k>f</k>(<k>x</k>+<k>y</k>) = 
+      <k>f</k>(<k>x</k>)&middot;<k>f</k>(<k>y</k>)</frm>
+      kaj <frm am="f(1)=a"><k>f</k>(1) = <k>a</k></frm>:
       <ekz>
-        <tld/>on de <frm><k>x</k></frm> kun bazo <frm><k>a</k></frm> oni
-        
-        kutime signas per
-        
-        <frm>exp<sub><k>a</k></sub>(<k>x</k>)</frm>,
-        <frm>eksp<sub><k>a</k></sub>(<k>x</k>)</frm> 
-        a&ubreve; <frm><k>a</k><sup><k>x</k></sup></frm>; 
+        <tld/>on de <frm am="x"><k>x</k></frm> kun bazo <frm am="a"
+        ><k>a</k></frm> oni kutime signas per
+        <frm am='exp_a(x)'>exp<sub><k>a</k></sub>(<k>x</k>)</frm>,
+        <frm am='"eksp"_a(x)'>eksp<sub><k>a</k></sub>(<k>x</k>)</frm> 
+        a&ubreve; <frm am="a^x"><k>a</k><sup><k>x</k></sup></frm>; 
       </ekz>
       <ekz>
         la&ubreve;difine, <tld/>o de sumo egalas al produto de <tld/>oj de la 
@@ -39,8 +38,8 @@
         dividita per la bazo;
       </ekz>
       <ekz>
-         <tld/>o de logaritmo de <frm><k>x</k></frm> egalas al 
-         <frm><k>x</k></frm>;
+         <tld/>o de logaritmo de <frm am="x"><k>x</k></frm> egalas al 
+         <frm am="x"><k>x</k></frm>;
       </ekz>
       <ekz>
         la <tld/>o de aritmetika <ref cel="progre1.0o">progresio</ref>
@@ -64,10 +63,12 @@
       Bricard <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt> uzas la
       pli malpezan radikon <ctl>esponencialo</ctl>.
       Eblas vastigi tiun funkcion al kompleksoj, uzante la identa&jcirc;on
-      <frm><k>e</k><sup><k>x</k>+<k>i</k>.<k>y</k></sup> =
+      <frm am="e^(x+i*y)=e^x(cos y+i*sin y)"
+      ><k>e</k><sup><k>x</k>+<k>i</k>&middot;<k>y</k></sup> =
       <k>e</k><sup><k>x</k></sup>(cos<k>y</k> +
-      <k>i</k>.sin<k>y</k>)</frm>, 
-      en kiu <frm><k>e</k></frm> estas la bazo de naturaj logaritmoj.
+      <k>i</k>&middot;sin<k>y</k>)</frm>, 
+      en kiu <frm am="e"><k>e</k></frm> estas la bazo de naturaj
+      logaritmoj.
     </rim>
   </snc>
     <bld lok="../bld/f_eksponencialoj.svg.gif" alt="300"
@@ -98,16 +99,22 @@
     &c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;&c_m; a)</klr></trd>,
     <trd>&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
   </trdgrp>
-  <trd lng="sk">exponenciál</trd>
+  <trd lng="sk">exponenci&aacute;l</trd>
   <trdgrp lng="cs">
-    <trd>exponenciál</trd>,
-    <trd>exponenciální funkce</trd>,
-    <trd>exponenciální rovnice</trd>
+    <trd>exponenci&aacute;l</trd>,
+    <trd>exponenci&aacute;ln&iacute; funkce</trd>,
+    <trd>exponenci&aacute;ln&iacute; rovnice</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
-$Log$
+$Log: ekspon1.xml,v $
+versio 1.25 2020/02/14 15:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.24  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.23  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -124,14 +131,5 @@ Revision 1.19  2006/01/12 21:52:22  revo
 Raul Salinas Monteagudo: +trd es
 
 Revision 1.18  2004/12/05 17:32:11  revo
-Marc Bavant: mod ekz
-
-Revision 1.17  2004/04/15 16:32:39  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2003/09/08 16:31:53  revo
-Marc Bavant: kor duobligitan punkton en rim
-
-Revision 1.15  2003/08/17 17:29:05  revo
 -->
 </vortaro>
