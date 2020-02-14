@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: rekt.xml,v 1.60 2020/02/14 14:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rekt</rad>/a <fnt><bib>PV</bib></fnt>
@@ -130,7 +130,7 @@
         <ekz>
           se la sumo de du subspacoj estas <tld/>a, tiam ilia
           <ref cel="komun.0ajxo.aro">komuna&jcirc;o</ref>
-          egalas al <frm>{0}</frm>.
+          egalas al <frm am="{0}">{0}</frm>.
         </ekz>
       </dif>
       <refgrp tip="vid">
@@ -344,18 +344,18 @@
     <dif>
       <klr>(en <ref cel="spac.afina0o">afina spaco</ref>)</klr>
       <ref cel="ar.0o.MAT">Aro</ref> de &ccirc;iuj punktoj de la tipo
-      <frm>&lambda;&#8729;<k>u</k>+O</frm>, kie <frm>O</frm>
+      <frm am="lambda*u+O">&lambda;&#8729;<k>u</k>+O</frm>, kie <frm am="O">O</frm>
       estas iu punkto <klr>(&gcirc;ia
         <ref cel="origin.0o.de_duonrekto">origino</ref>)</klr>,
-      <frm><k>u</k></frm>
+      <frm am="u"><k>u</k></frm>
       estas iu nenula vektoro <klr>(direktanta vektoro)</klr> kaj
-      <frm>&lambda;</frm> estas arbitra pozitiva reelo:
+      <frm am="lambda">&lambda;</frm> estas arbitra pozitiva reelo:
       <ekz>
         duon<tld/>o ne estas afina subspaco;
       </ekz><ekz>
-        intuicie, duon<tld/>o kun origino <frm>O</frm> estas &ccirc;iu
+        intuicie, duon<tld/>o kun origino <frm am="O">O</frm> estas &ccirc;iu
         el la du linioj, kiujn oni estigas, rompante <tld/>on &ccirc;e
-        unu &gcirc;ia punkto <frm>O</frm>.
+        unu &gcirc;ia punkto <frm am="O">O</frm>.
       </ekz>
     </dif>
   </snc>
@@ -701,7 +701,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: rekt.xml,v $
+versio 1.60 2020/02/14 14:10:25
+Wolfram Diestel: formuloj per am
+
+Revision 1.59  2017/12/20 13:10:14  revo
+Michel Cantigneaux: korektigo de unu ligilo
+
 Revision 1.58  2017/12/20 12:10:15  revo
 Michel Cantigneaux: "mal/rekt/a" fundamenta kunmetajxo el la U.V.
 
@@ -718,8 +724,5 @@ Revision 1.54  2014/07/03 15:10:16  revo
 Damien Brucker: +ref
 
 Revision 1.53  2014/05/10 12:10:12  revo
-Damien Brucker: +rim
-
-Revision 1.52  2014/05/10 10:10:12  revo
 -->
 </vortaro>
