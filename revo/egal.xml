@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: egal.xml,v 1.55 2020/02/14 14:10:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>egal</rad>/a <fnt><bib>PV</bib></fnt>
@@ -108,18 +108,18 @@
         Tiaj, ke &ccirc;iu elemento de unu estas elemento de alia:
         <ekz>
           la aro de reelaj radikoj de polinomo
-          <frm><g>X</g><sup>2</sup>-<g>1</g></frm> estas egala al
-          <frm>{-1,1}</frm>.
+          <frm am="bb X^2-bb 1"><g>X</g><sup>2</sup>-<g>1</g></frm>
+          estas egala al <frm am="{-1,1}">{-1,1}</frm>.
         </ekz>
       </dif>
       <rim>
         Pli &gcirc;enerale, en moderna matematiko, du objektoj estas
         <tld/>aj, se ili estas absolute nedistingeblaj, do havas precize
         la samajn ecojn. La <tld/>econ de du objektoj
-        <frm><k>a</k></frm>
-        kaj <frm><k>b</k></frm> oni signas per <frm><k>a</k> =
-          <k>b</k></frm>
-        <klr>(a egalas al bo, a&ubreve;: a egalas bo-on,
+        <frm am="a"><k>a</k></frm>
+        kaj <frm am="b"><k>b</k></frm> oni signas per 
+        <frm am="a=b"><k>a</k> = <k>b</k></frm>
+        <klr> (a egalas al bo, a&ubreve;: a egalas bo-on,
           a&ubreve;: a egal bo)</klr>.
       </rim>
       <trd lng="pl">r&oacute;wny</trd>
@@ -259,17 +259,16 @@
     <dif>
       Skriba&jcirc;o, kiu asertas <tld/>econ de du matematikaj objektoj:
       <ekz>
-        <frm>A = B</frm>;
+        <frm am="A=B">A = B</frm>;
       </ekz>
       <ekz>
-        la <tld/>a&jcirc;o <frm><k>u</k><sup>2</sup> = -1</frm> estas
-        malvera
-        por &ccirc;iu reelo <frm><k>u</k></frm>;
+        la <tld/>a&jcirc;o <frm am="u^2=-1"><k>u</k><sup>2</sup> = -1</frm>
+        estas
+        malvera por &ccirc;iu reelo <frm am="u"><k>u</k></frm>;
       </ekz>
       <ekz>
         el du <tld/>a&jcirc;oj eblas produkti trian, adiciante
-        amba&ubreve;
-        iliajn <ref cel="flank.0o.ekvacio">flankojn</ref>.
+        amba&ubreve; iliajn <ref cel="flank.0o.ekvacio">flankojn</ref>.
       </ekz>
     </dif>
   </snc>
@@ -297,12 +296,14 @@
       Skriba&jcirc;o, kiu asertas ne<tld/>econ de du matematikaj
       objektoj, a&ubreve; montras ordo-rilaton inter ili:
       <ekz>
-        <frm><k>u</k><sup>2</sup>+1 &gt; <k>u</k></frm>;
+        <frm am="u^2+1 gt u"
+        ><k>u</k><sup>2</sup>+1 &gt; <k>u</k></frm>;
       </ekz>
       <ekz>
-        la ne<tld/>a&jcirc;o <frm><k>u</k><sup>2</sup> &#8805;
-          <k>u</k></frm>
-        estas malvera por &ccirc;iu reelo en intervalo <frm>]0,1[</frm>;
+        la ne<tld/>a&jcirc;o <frm am="u^2 ge u"
+        ><k>u</k><sup>2</sup> &#8805; <k>u</k></frm>
+        estas malvera por &ccirc;iu reelo en intervalo <frm am="(0,1)"
+        >]0,1[</frm>;
       </ekz>
       <ekz>
         se multipliki amba&ubreve; <ref cel="flank.0o.ekvacio">flankojn</ref>
@@ -484,10 +485,10 @@
         la nulo egalas al sia kontra&ubreve;<tld/>o;
       </ekz>
       <ekz>
-        kontra&ubreve;<tld/>o de bildigo <frm><k>f</k></frm>
-        <klr>(la bildigo,
-          kiu &jcirc;etas <frm><k>x</k></frm> al la kontra&ubreve;<tld/>o de
-          <frm><k>f</k>(<k>x</k>)</frm>)</klr>.
+        kontra&ubreve;<tld/>o de bildigo <frm am="f"><k>f</k></frm>
+        <klr> (la bildigo,
+          kiu &jcirc;etas <frm am="x"><k>x</k></frm> al la kontra&ubreve;<tld/>o de
+          <frm am="f(x)"><k>f</k>(<k>x</k>)</frm>)</klr>.
       </ekz>
     </dif>
     <rim>
@@ -652,7 +653,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: egal.xml,v $
+versio 1.55 2020/02/14 14:10:27
+Wolfram Diestel: formuloj per am
+
+Revision 1.54  2017/02/20 21:10:17  revo
+Jeromo Vasxe: aux -> aux (kun hoko)
+
 Revision 1.53  2015/07/04 08:37:33  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -669,8 +676,5 @@ Revision 1.49  2011/05/11 12:10:10  revo
 Jeromo Vasxe: + fek~a
 
 Revision 1.48  2010/05/05 16:30:30  revo
-Sergio Pokrovskij: + tut~e
-
-Revision 1.47  2009/09/01 04:53:42  revo
 -->
 </vortaro>
