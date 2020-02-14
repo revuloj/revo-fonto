@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: ekviva.xml,v 1.28 2020/02/14 16:10:18 revo Exp $">
 <kap>
   <rad>ekvivalent</rad>/o
   <fnt>Z</fnt>
@@ -76,13 +76,20 @@
     <dif>
       <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
       kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
-      <frm>P</frm> kaj <frm>Q</frm> asocias la propozicion 
-      <frm>(P&#8658;Q)&#8743;(Q&#8658;P)</frm> <klr>(po implicas 
-      kuo-on kaj kuo implicas po-on)</klr>; rezulto de tiu operacio:
+      <frm am="P">P</frm> kaj <frm am="Q">Q</frm> asocias la propozicion
+      
+      <frm am="(P=&gt;Q)^^(Q=&gt;P)">(P&#8658;Q)&#8743;(Q&#8658;P)</frm> <klr>(po
+      
+      implicas
+      
+      kuo-on kaj kuo implicas po-on)</klr>; rezulto de tiu
+      
+      operacio:
       <ekz>
-        la <tld/>on de <frm>P</frm> kaj <frm>Q</frm> oni kutime signas 
-        per <frm>P&#8660;Q</frm> 
-        <klr>(legu: po (estas) ekvivalenta al kuo)</klr>;
+        la <tld/>on de <frm am="P">P</frm> kaj <frm am="Q">Q</frm> oni
+        kutime signas 
+        per <frm am="P iff Q">P&#8660;Q</frm> 
+        <klr> (legu: po (estas) ekvivalenta al kuo)</klr>;
       </ekz>
       <ekz>
         <tld/>o estas vera, se kaj nur se amba&ubreve; argumentoj estas
@@ -96,8 +103,9 @@
     <rim>
       &Ccirc;ar la radiko estas substantiva, &gcirc;enas la formo de tiu
       termino, subtenata tamen de <fnt><bib>PIV2</bib></fnt>: 
-      ja se la duobla implico veras, <frm>P</frm> estas <tld/>o de 
-      <frm>Q</frm>, sed doni la saman formon al la operacio, kiu 
+      ja se la duobla implico veras, <frm am="P">P</frm> estas <tld/>o
+      de 
+      <frm am="Q">Q</frm>, sed doni la saman formon al la operacio, kiu 
       taksas la <tld/>econ de la du propozicioj estas strange. Povas
       esti,
       ke <ctl><tld/>eco</ctl> (la&ubreve; <fnt><bib>KompLeks</bib></fnt>) 
@@ -167,11 +175,13 @@
           du <tld/>aj elementoj apartenas al la sama <tld/>o-klaso;
         </ekz>
         <ekz>
-          la <tld/>klaso de ero <frm>a</frm> sub rilato <frm>~</frm>
+          la <tld/>klaso de ero <frm am="a">a</frm> sub rilato <frm
+          am="~">~</frm>
           <klr>[...]</klr>
-          estas la subaro de <frm>X</frm> kies eroj <frm>b</frm> estas
+          estas la subaro de <frm am="X">X</frm> kies eroj <frm
+          am="b">b</frm> estas
           tiaj ke 
-          <frm>a ~ b</frm>
+          <frm am="a~b">a ~ b</frm>
           <fnt>
             <bib>Viki</bib>
             <lok><url
@@ -255,7 +265,13 @@
 </adm>
 </art>
 <!--
-$Log$
+$Log: ekviva.xml,v $
+versio 1.28 2020/02/14 16:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.27  2019/04/07 11:10:16  revo
+Santiago Amposta: +trd es
+
 Revision 1.26  2017/07/15 13:10:15  revo
 Vito Redsky: +trd ro
 
@@ -272,8 +288,5 @@ Revision 1.22  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.21  2015/01/03 11:10:19  revo
-Filip van Laenen: +trd(nl)
-
-Revision 1.20  2013/04/22 06:10:11  revo
 -->
 </vortaro>
