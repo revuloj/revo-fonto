@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: produt.xml,v 1.43 2020/02/14 16:10:15 revo Exp $">
 <kap>
   <rad>produt</rad>/o
   <fnt>Z</fnt>
@@ -19,16 +19,18 @@
         kaj <frm>5</frm>;
       </ekz>
       <ekz>
-        la <tld/>on de <frm><k>a</k></frm> kaj <frm><k>b</k></frm> 
-        oni signas per <frm><k>a</k>&#215;<k>b</k></frm>,
-        <frm><k>a</k>.<k>b</k></frm>, a&ubreve; simple 
-        <frm><k>a</k><k>b</k></frm>,
+        la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm
+        am="b"><k>b</k></frm> 
+        oni signas per <frm am="a xx b"><k>a</k>&#215;<k>b</k></frm>,
+        <frm am="a*b"><k>a</k>&middot;<k>b</k></frm>, a&ubreve; simple 
+        <frm am="ab"><k>a</k><k>b</k></frm>,
       </ekz>
       <ekz>
         kaj la <tld/>on de &ccirc;iuj termoj en 
         <ref cel="famili.0o.bildigo">familio</ref>
-        <frm>(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
-        per <frm>&Pi;<sub><k>i</k>&#8712;<g>I</g></sub> 
+        <frm am="(a_i)_(i in bb I)"
+        >(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
+        per <frm am="prod_(i in bb I)a_i">&Pi;<sub><k>i</k>&#8712;<g>I</g></sub> 
         <k>a</k><sub><k>i</k></sub></frm>;
       </ekz>
       <ekz>
@@ -65,11 +67,11 @@
     <trd lng="de">Produkt</trd>
     <trd lng="pt">produto</trd>
   </snc>
-  <trd lng="cs">součin</trd>
+  <trd lng="cs">sou&ccaron;in</trd>
   <trd lng="de">Produkt</trd>
   <trdgrp lng="sk">
-    <trd>násobok</trd>,
-    <trd>súčin</trd>
+    <trd>n&aacute;sobok</trd>,
+    <trd>s&uacute;&ccaron;in</trd>
   </trdgrp>
 </drv>
 
@@ -80,7 +82,7 @@
   <snc>
     <ref tip="dif" cel="produt.vektora0o">vektora <tld/>o.</ref>
   </snc>
-  <trd lng="cs">vektorový <klr>(vnější)</klr> součin</trd>
+  <trd lng="cs">vektorov&yacute; <klr>(vn&ecaron;j&scaron;&iacute;)</klr> sou&ccaron;in</trd>
   <trdgrp lng="de">
     <trd>Kreuzprodukt</trd>,
     <trd>Vektorprodukt</trd>,
@@ -91,7 +93,7 @@
     <trd>produto vetorial</trd>,
     <trd>produto externo</trd>
   </trdgrp>
-  <trd lng="sk">vektorový súčin</trd>
+  <trd lng="sk">vektorov&yacute; s&uacute;&ccaron;in</trd>
 </drv>
 
 <drv mrk="produt.kartezia0o">
@@ -101,41 +103,44 @@
   <snc>
     <dif>
       <klr>(de du aroj <frm><g>E</g></frm> kaj
-      <frm><g>F</g></frm>)</klr>
+      <frm><g>F</g></frm>) </klr>
       <ref tip="super" cel="ar.0o.MAT">Aro</ref> de &ccirc;iuj
       <ref tip="prt" cel="par.0o.MAT">paroj</ref>, kies unua
       termo apartenas al <frm><g>E</g></frm> kaj dua termo apartenas al
       <frm><g>F</g></frm>:
       <ekz>
-        la kartezian <tld/>on de <frm><g>E</g></frm> kaj
-        <frm><g>F</g></frm>
-        oni signas per <frm><g>E</g>&#215;<g>F</g></frm>
-        <klr>(legu: e per fo, e kruco fo)</klr>;
+        la kartezian <tld/>on de <frm am="bb E"><g>E</g></frm> kaj
+        <frm am="bb F"><g>F</g></frm>
+        oni signas per <frm am="bb E xx bb F"><g>E</g>&#215;<g>F</g></frm>
+        <klr> (legu: e per fo, e kruco fo)</klr>;
       </ekz>
       <ekz>
-        la kartezian <tld/>on de <frm><k>n</k></frm> identaj aroj
-        <frm><g>E</g></frm> oni kutime signas per
-        <frm><g>E</g><sup><k>n</k></sup></frm>
-        <klr>(legu: e alt no)</klr>.
+        la kartezian <tld/>on de <frm am="n"><k>n</k></frm> identaj aroj
+        <frm am="bb E"><g>E</g></frm> oni kutime signas per
+        <frm am="bb E^n"><g>E</g><sup><k>n</k></sup></frm>
+        <klr> (legu: e alt no)</klr>.
       </ekz>
     </dif>
     <ref tip="prt" cel="rilat.0o.MAT">rilato;</ref>
     <ref tip="vid" cel="kartez.0o">Kartezio.</ref>
     <rim>
       La nocion eblas vastigi al <tld/>o de pli ol du aroj. Ekz-e la
-      <tld/>o <frm><g>E</g>&#215;<g>F</g>&#215;<g>G</g></frm> estas aro de
+      <tld/>o <frm am="bb E xx bb F xx bb G"
+      ><g>E</g>&#215;<g>F</g>&#215;<g>G</g></frm> estas aro de
       &ccirc;iuj <ref cel="op.0o.vico">opoj</ref>
-      <frm>(<k>x</k>,<k>y</k>,<k>z</k>)</frm> kun
-      <frm><k>x</k>&#8712;<g>E</g></frm>,
-      <frm><k>y</k>&#8712;<g>F</g></frm>,
-      <frm><k>z</k>&#8712;<g>G</g></frm>.
+      <frm am="(x,y,z)">(<k>x</k>,<k>y</k>,<k>z</k>)</frm> kun
+      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>,
+      <frm am="y in bb F"><k>y</k>&#8712;<g>F</g></frm>,
+      <frm am="z in bb G"><k>z</k>&#8712;<g>G</g></frm>.
       Eblas diri anka&ubreve;, ke &gcirc;i estas difinita kiel la duobla
-      <tld/>o <frm>(<g>E</g>&#215;<g>F</g>)&#215;<g>G</g></frm> a&ubreve;
-      <frm><g>E</g>&#215;(<g>F</g>&#215;<g>G</g>)</frm>, kiujn oni arbitre
+      <tld/>o <frm am="(bb E xx bb F) xx bb G"
+      >(<g>E</g>&#215;<g>F</g>)&#215;<g>G</g></frm> a&ubreve;
+      <frm am="bb E xx (bb F xx bb G)"
+      ><g>E</g>&#215;(<g>F</g>&#215;<g>G</g>)</frm>, kiujn oni arbitre
       elektas identigi.
     </rim>
   </snc>
-  <trd lng="cs">kartézský součin</trd>
+  <trd lng="cs">kart&eacute;zsk&yacute; sou&ccaron;in</trd>
   <trd lng="de">kartesisches <ind>Produkt</ind></trd>
   <trd lng="en">Cartesian <ind>product</ind></trd>
   <trd lng="es">producto cartesiano</trd>
@@ -150,21 +155,22 @@
     <trd>&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v;&c_o; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>,
     <trd>&c_p;&c_r;&c_ja;&c_m;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
   </trdgrp>
-  <trd lng="sk">karteziánsky súčin</trd>
+  <trd lng="sk">kartezi&aacute;nsky s&uacute;&ccaron;in</trd>
 </drv>
 
 <drv mrk="produt.hermita_skalara0o">
-  <kap>hermita skalara <tld/>o, <var><kap>hermita <tld/>o</kap></var></kap>
+  <kap>hermita skalara <tld/>o, <var><kap>hermita
+  <tld/>o</kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc mrk="produt.hermita_skalara0o.operacio">
     <dif>
       <klr>(super kompleksa <ref cel="spac.vektora0o">vektora
-      spaco</ref>
-      <frm><g>E</g></frm>)</klr>
-      Tia <ref cel="form.hermita0o">hermita formo</ref> <frm>&phi;</frm>, ke
-      <frm>&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
-      <frm><k>x</k>&#8712;<g>E</g></frm>, kaj
-      egalas al nulo, se kaj nur se <frm><k>x</k> = 0</frm>.
+      spaco</ref> <frm am="bb E"><g>E</g></frm>)</klr>
+      Tia <ref cel="form.hermita0o">hermita formo</ref> <frm
+      am="phi">&phi;</frm>, ke
+      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
+      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>, kaj
+      egalas al nulo, se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>.
     </dif>
     <refgrp tip="vid">
       <ref cel="hermit.0o">Hermito</ref>,
@@ -174,13 +180,15 @@
   </snc>
   <snc mrk="produt.hermita_skalara0o.rezulto">
     <dif>
-      <klr>(de du vektoroj <frm><k>x</k></frm>,
-      <frm><k>y</k></frm>)</klr>
-      La bildo de <frm>(<k>x</k>,<k>y</k>)</frm> per hermita skalara
+      <klr>(de du vektoroj <frm am="x"><k>x</k></frm>,
+      <frm am="y"><k>y</k></frm>)</klr>
+      La bildo de <frm am="(x,y)">(<k>x</k>,<k>y</k>)</frm> per hermita
+      skalara
       <tld/>o <sncref ref="produt.hermita_skalara0o.operacio"/>.
     </dif>
   </snc>
-  <trd lng="cs">hermitovský skalární součin <klr>(dvou vektorů)</klr></trd>
+  <trd lng="cs">hermitovsk&yacute; skal&aacute;rn&iacute; sou&ccaron;in <klr>(dvou
+  vektor&uring;)</klr></trd>
   <trd lng="de">Hermitesches <ind>Skalarprodukt</ind></trd>
   <trd lng="en">Hermitian <klr tip="amb">(scalar)</klr>
   <ind>product</ind></trd>
@@ -192,7 +200,8 @@
   </trdgrp>
   <trd lng="ru">&c_e;&c_r;&c_m;&c_i;&c_t;&c_o;&c_v;&c_o;-&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_o;&c_je;
   <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
-  <trd lng="sk">hermitovský skalárny súčin <klr>(dvoch vektorov)</klr></trd>
+  <trd lng="sk">hermitovsk&yacute; skal&aacute;rny s&uacute;&ccaron;in <klr>(dvoch
+  vektorov)</klr></trd>
 </drv>
 
 <drv mrk="produt.interna0o">
@@ -219,13 +228,13 @@
     <fnt><bib>EKV</bib><lok>&para;402</lok></fnt>
     <dif>
       <klr>(super reela <ref cel="spac.vektora0o">vektora spaco</ref>
-      <frm><g>E</g></frm>)</klr>
+      <frm am="bb E"><g>E</g></frm>)</klr>
       Tia <ref cel="linear.n0a">dulineara</ref>
       <ref cel="simetr.0a.bildigo">simetria</ref>
-      <ref cel="form.0o.bildigo">formo</ref> <frm>&phi;</frm>, ke
-      <frm>&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
-      <frm><k>x</k>&#8712;<g>E</g></frm>, kaj
-      egalas al nulo, se kaj nur se <frm><k>x</k> = 0</frm>.
+      <ref cel="form.0o.bildigo">formo</ref> <frm am="phi">&phi;</frm>, ke
+      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
+      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>, kaj
+      egalas al nulo, se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>.
     </dif>
     <refgrp tip="vid">
       <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>,
@@ -238,15 +247,17 @@
   </snc>
   <snc mrk="produt.skalara0o.rezulto">
     <dif>
-      <klr>(de du vektoroj <frm><k>x</k></frm>,
-      <frm><k>y</k></frm>)</klr>
-      La bildo de <frm>(<k>x</k>,<k>y</k>)</frm> per
+      <klr>(de du vektoroj <frm am="x"><k>x</k></frm>,
+      <frm am="y"><k>y</k></frm>)</klr>
+      La bildo de <frm am="(x,y)">(<k>x</k>,<k>y</k>)</frm> per
       skalara <tld/>o <sncref ref="produt.skalara0o.operacio"/>:
       <ekz>
-        la skalaran <tld/>on de <frm><k>x</k></frm> kaj
-        <frm><k>y</k></frm>
-        oni signas foje per <frm><k>x</k>.<k>y</k></frm>,
-        foje per <frm>&lt;<k>x</k>|<k>y</k>&gt;</frm>.
+        la skalaran <tld/>on de <frm am="x"><k>x</k></frm> kaj
+        <frm am="y"><k>y</k></frm>
+        oni signas foje per <frm
+        am="x*y"><k>x</k>&middot;<k>y</k></frm>,
+        foje per <frm am="(:x|y:)"
+        >&lt;<k>x</k>|<k>y</k>&gt;</frm>.
       </ekz>
     </dif>
   <trdgrp lng="pt">
@@ -267,61 +278,73 @@
   <uzo tip="fak">MAT</uzo>
   <snc mrk="produt.vektora0o.operacio">
     <dif>
-      <klr>(super <frm><k>n</k></frm>-dimensia
+      <klr>(super <frm am="n"><k>n</k></frm>-dimensia
       <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>
-      <frm><g>E</g></frm>)</klr>
+      <frm am="bb E"><g>E</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm><g>E</g><sup><k>n</k>-1</sup></frm> al <frm><g>E</g></frm>,
-      kiu &jcirc;etas &ccirc;iun <frm>(<k>n</k>-1)</frm>-opon
-      <frm>(<k>x</k><sub>1</sub>,...,
-      <k>x</k><sub><k>n</k>-1</sub>)</frm>
-      al tia ununura vektoro <frm><k>a</k></frm>, ke la skalara <tld/>o
-      de <frm><k>a</k></frm> per <frm><k>x</k><sub><k>n</k></sub></frm>
+      <frm am="bb E^(n-1)"><g>E</g><sup><k>n</k>-1</sup></frm>
+      al <frm am="bb E"><g>E</g></frm>,
+      kiu &jcirc;etas &ccirc;iun <frm am="(n-1)">(<k>n</k>-1)</frm>-opon
+      <frm am="(x_1,...,x_(n-1))"
+      >(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>)</frm>
+      al tia ununura vektoro <frm am="a"><k>a</k></frm>, ke la skalara
+      <tld/>o
+      de <frm am="a"><k>a</k></frm> per <frm
+      am="x_n"><k>x</k><sub><k>n</k></sub></frm>
       egalas al la
       <ref cel="determ.0anto.vektoroj">determinanto</ref> de
-      <frm>(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>,
+      <frm am="(x_1,...,x_(n-1),x_n)"
+      >(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>,
       <k>x</k><sub><k>n</k></sub>)</frm>, kiu ajn estas
-      <frm><k>x</k><sub><k>n</k></sub></frm>.
+      <frm am="x_n"><k>x</k><sub><k>n</k></sub></frm>.
     </dif>
     <trd lng="es">producto vectorial</trd>
     <trd lng="pt">produto vetorial</trd>
   </snc>
   <snc mrk="produt.vektora0o.rezulto">
     <dif>
-      <klr>(de <frm><k>n</k>-1</frm> vektoroj de
-      <frm><k>n</k></frm>-dimensia
+      <klr>(de <frm am="n-1"><k>n</k>-1</frm> vektoroj de
+      <frm am="n"><k>n</k></frm>-dimensia
       <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>)</klr>
       Ilia bildo per la vektora
       <tld/>o <sncref ref="produt.vektora0o.operacio"/>:
       <ekz>
-        la vektoran <tld/>on de <frm><k>x</k></frm> kaj
-        <frm><k>y</k></frm>
+        la vektoran <tld/>on de <frm am="x"><k>x</k></frm> kaj
+        <frm am="y"><k>y</k></frm>
         en tridimensia spaco oni signas foje per
-        <frm><k>x</k>&#8743;<k>y</k></frm>;
+        <frm am="x^^y"><k>x</k>&#8743;<k>y</k></frm>;
       </ekz>
       <ekz>
         la <ref cel="kompon.0anto.MAT">komponantoj</ref> de la
-        vektora <tld/>o de la <frm>(<k>n</k>-1)</frm> unuaj vektoroj
-        de <frm><k>n</k></frm>-opo egalas al la
+        vektora <tld/>o de la <frm am="(n-1)">(<k>n</k>-1)</frm> unuaj
+        vektoroj
+        de <frm am="n"><k>n</k></frm>-opo egalas al la
         <ref cel="kofakt.0o">kofaktoroj</ref> de elementoj en la lasta
-        vertikalo de la <frm>(<k>n</k>,<k>n</k>)</frm>-matrico de iliaj
+        vertikalo de la <frm
+        am="(n,n)">(<k>n</k>,<k>n</k>)</frm>-matrico de iliaj
         komponantoj.
       </ekz>
     </dif>
     <trd lng="pt">produto vetorial</trd>
   </snc>
-  <trd lng="cs">vektorový <klr>(vnější)</klr> součin</trd>
+  <trd lng="cs">vektorov&yacute; <klr>(vn&ecaron;j&scaron;&iacute;)</klr> sou&ccaron;in</trd>
   <trd lng="de">vektorielles <ind>Produkt</ind></trd>
   <trd lng="en">vector <ind>product</ind></trd>
   <trd lng="fr">produit vectoriel</trd>
   <trd lng="hu">vektori&aacute;lis szorzat</trd>
   <trd lng="pl">iloczyn wektorowy</trd>
   <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
-  <trd lng="sk">vektorový súčin</trd>
+  <trd lng="sk">vektorov&yacute; s&uacute;&ccaron;in</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: produt.xml,v $
+versio 1.43 2020/02/14 16:10:15
+Wolfram Diestel: formuloj per am
+
+Revision 1.42  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.41  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -338,14 +361,5 @@ Revision 1.37  2007/05/05 16:30:32  revo
 Wieland Pusch: +trd de
 
 Revision 1.36  2007/04/27 16:30:29  revo
-Wieland Pusch: +trd de
-
-Revision 1.35  2006/03/21 17:31:50  revo
-Tulio Flores: +tr pt
-
-Revision 1.34  2005/03/28 17:14:01  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.33  2004/09/06 16:37:53  revo
 -->
 </vortaro>
