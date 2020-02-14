@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: part.xml,v 1.68 2020/02/14 13:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>part</rad>/o
 </kap>
@@ -284,20 +284,22 @@
     <subsnc mrk="part.0a.rilato">
       <dif>
         <klr>(p.p. <ref cel="rilat.ordo0o">ordo-rilato</ref>
-          <frm>&#8804;</frm>)</klr>
+          <frm am="le">&#8804;</frm>)</klr>
         Tia, ke ekzistas du elementoj
-        <frm><k>x</k></frm> kaj <frm><k>y</k></frm>, por kiuj veras
-        nek <frm><k>x</k> &#8804; <k>y</k></frm>,
-        nek <frm><k>y</k> &#8804; <k>x</k></frm>:
+        <frm am="x"><k>x</k></frm> kaj <frm am="y"><k>y</k></frm>,
+        por kiuj veras
+        nek <frm am="x le y"><k>x</k> &#8804; <k>y</k></frm>,
+        nek <frm am="y le x"><k>y</k> &#8804; <k>x</k></frm>:
         <ekz>
-          se la aro <frm><g>E</g></frm> enhavas pli ol unu elementon,
-          la rilato <frm>&#8834;</frm> estas <tld/>a en
-          <frm>2<sup><g>E</g></sup></frm>;
+          se la aro <frm am="bb E"><g>E</g></frm> enhavas pli ol unu
+          elementon,
+          la rilato <frm am="sub">&#8834;</frm> estas <tld/>a en
+          <frm am="2^(bb E)">2<sup><g>E</g></sup></frm>;
         </ekz>
         <ekz>
-          la rilato &leftquot;<frm><k>a</k></frm> estas
+          la rilato &leftquot;<frm am="a"><k>a</k></frm> estas
           <ref cel="divid.0ebla.MAT">dividebla</ref> per
-          <frm><k>b</k></frm>&rightquot; estas
+          <frm am="b"><k>b</k></frm>&rightquot; estas
           parta ordo-rilato ene de la aro de entjeroj.
         </ekz>
       </dif>
@@ -969,9 +971,11 @@
   <fnt><bib>EKV</bib><lok>&para;307</lok></fnt>
   <snc>
     <dif>
-      La nombro <frm>&Phi; = (1+&#8730;5)/2</frm>, egala al la valoro
+      La nombro <frm am="Phi=(a+sqrt 5)//2">&Phi; = (1+&#8730;5)/2</frm>,
+      egala al la valoro
       de ajna <ref cel="propor.0o.MAT">proporcio</ref> kun termoj
-      <frm>(<k>a</k>,<k>b</k>,<k>a</k>+<k>b</k>,<k>a</k>)</frm>:
+      <frm am="(a,b,a+b,a)"
+      >(<k>a</k>,<k>b</k>,<k>a</k>+<k>b</k>,<k>a</k>)</frm>:
       <ekz>
         <uzo tip="fak">BELA</uzo>
         en arto la ora dis<tld/>igo estas konsiderata aparte harmonia
@@ -980,17 +984,19 @@
     </dif>
     <rim>
       Tiun nombron eblas ricevi kiel pozitivan solvon de la ekvacio
-      <frm><k>x</k> = 1+<k>x</k><sup>-1</sup></frm> kaj anka&ubreve;
+      <frm am="x=1+x^-1"><k>x</k> = 1+<k>x</k><sup>-1</sup></frm> kaj
+      anka&ubreve;
       kiel limeson de du sinsekvaj termoj de tia vico
-      <frm>(<k>u</k><sub><k>n</k></sub>)</frm>, ke
-      <frm><k>u</k><sub><k>n</k>+2</sub> =
+      <frm am="(u_n)">(<k>u</k><sub><k>n</k></sub>)</frm>, ke
+      <frm am="u_(n+2)=u_(n+1)+u_n"
+      ><k>u</k><sub><k>n</k>+2</sub> =
         <k>u</k><sub><k>n</k>+1</sub>+<k>u</k><sub><k>n</k></sub></frm>.
     </rim>
     <rim>
       Troveblas pluraj sinonimoj, ekz-e <ctl>ora sekco</ctl>
       <fnt><bib>MatVort</bib></fnt> kaj <ctl>ora proporcio</ctl>
       (difinita en <fnt><bib>PIV2</bib></fnt>
-      kiel <frm>&Phi;<sup>-1</sup></frm>).
+      kiel <frm am="Phi^-1">&Phi;<sup>-1</sup></frm>).
     </rim>
   </snc>
   <trdgrp lng="be">
@@ -1032,9 +1038,10 @@
         la entjera <tld/>o de <frm>3,14</frm> estas <frm>3</frm>,
         kaj tiu de <frm>-6,758</frm> estas <frm>-7</frm>;
       </ekz><ekz>
-        la entjeran <tld/>on de reelo <frm><k>x</k></frm> oni kutime
-        signas
-        per <frm>E(<k>x</k>)</frm> a&ubreve; <frm>[<k>x</k>]</frm>.
+        la entjeran <tld/>on de reelo <frm am="x"><k>x</k></frm> oni
+        kutime
+        signas per <frm am="E(x)">E(<k>x</k>)</frm> a&ubreve;
+        <frm am="floor(x)">[<k>x</k>]</frm>.
       </ekz>
     </dif>
   </snc>
@@ -1166,11 +1173,12 @@
   <snc>
     <dif>
       <klr>(de <ref cel="komple.0o.MAT">komplekso</ref>
-        <frm><k>a</k>+<k>i</k>.<k>b</k></frm>)</klr>
-      La reelo <frm><k>b</k></frm>:
+        <frm am="a+i*b"
+        ><k>a</k>+<k>i</k>&middot;<k>b</k></frm>)</klr>
+      La reelo <frm am="b"><k>b</k></frm>:
       <ekz>
-        la imaginaran <tld/>on de <frm><k>z</k></frm> oni kutime signas
-        per <frm>Im <k>z</k></frm>;
+        la imaginaran <tld/>on de <frm am="z"><k>z</k></frm>
+        oni kutime signas per <frm am='"Im" z'>Im <k>z</k></frm>;
       </ekz><ekz>
         reeloj havas nulan imaginaran <tld/>on.
       </ekz>
@@ -1223,11 +1231,13 @@
   <snc>
     <dif>
       <klr>(de <ref cel="komple.0o.MAT">komplekso</ref>
-        <frm><k>a</k>+<k>i</k>.<k>b</k></frm>)</klr>
-      La reelo <frm><k>a</k></frm>:
+        <frm am="a+i*b"
+        ><k>a</k>+<k>i</k>&middot;<k>b</k></frm>)</klr>
+      La reelo <frm am="a"><k>a</k></frm>:
       <ekz>
-        la reelan <tld/>on de <frm><k>z</k></frm> oni kutime signas
-        per <frm>Re <k>z</k></frm>;
+        la reelan <tld/>on de <frm am="z"><k>z</k></frm> oni kutime
+        signas
+        per <frm am='"Re" z'>Re <k>z</k></frm>;
       </ekz><ekz>
         pure imaginaraj nombroj havas nulan reelan <tld/>on.
       </ekz>
@@ -1322,7 +1332,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: part.xml,v $
+versio 1.68 2020/02/14 13:10:23
+Wolfram Diestel: formuloj per am
+
+Revision 1.67  2019/09/27 07:10:17  revo
+Jeromo Vasxe: kor 1 ref
+
 Revision 1.66  2019/09/08 19:10:16  revo
 Wolfram Diestel: dis~igi ... +ekz-oj
 
@@ -1339,8 +1355,5 @@ Revision 1.62  2019/09/06 02:10:18  revo
 Sergio Pokrovskij: TEZ
 
 Revision 1.61  2019/09/03 17:10:15  revo
-Sergio Pokrovskij: +~umi
-
-Revision 1.60  2019/04/07 11:10:17  revo
 -->
 </vortaro>
