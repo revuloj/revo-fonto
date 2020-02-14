@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id$">
+  <art mrk="$Id: domajn.xml,v 1.3 2020/02/14 14:10:22 revo Exp $">
     <kap>
       <rad>domajn</rad>/o <fnt><bib>EKV</bib></fnt>
     </kap>
@@ -27,15 +27,18 @@
         </subsnc>
         <subsnc mrk="domajn.0o.rilato">
           <dif>
-            Por duloka rilato <frm>R&#8838;A&#215;B</frm>, la
-            aro <frm>{x&#8712;A : (&#8707;y&#8712;B)[(x,y)&#8712;R]}</frm>.
+            Por duloka rilato <frm am="RsubeAxxB">R&#8838;A&#215;B</frm>, la
+            aro <frm am="{x in A: (EEy in B)[(x,y)in R]}"
+            >{x&#8712;A : (&#8707;y&#8712;B)[(x,y)&#8712;R]}</frm>.
           </dif>
         </subsnc>
         <subsnc mrk="domajn.0o.algoritmo">
           <dif>
-            Por algoritmo <frm>A</frm>, &gcirc;ia
-            &#171;<ref cel="konver.0i.KOMP">konver&gcirc;ejo</ref>&#187;,
-            <frm><g>dom</g>&nbsp;A={x: A(x)&#8595;}</frm>.
+            Por algoritmo <frm am="A">A</frm>, &gcirc;ia
+            &leftquot;<ref
+            cel="konver.0i.KOMP">konver&gcirc;ejo</ref>&rightquot;,
+            <frm am='bb "dom" A={x: A(x)darr}'
+            ><g>dom</g>&nbsp;A={x: A(x)&#8595;}</frm>.
           </dif>
        </subsnc>
         <trd lng="ru">&c_o;&c_b;&c_l;&c_a;&c_s;&c_t;&c_mol; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
@@ -69,9 +72,14 @@
   </art>
 
 <!--
-$Log$
+$Log: domajn.xml,v $
+versio 1.3 2020/02/14 14:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.2  2018/11/20 12:10:16  revo
+Sergio Pokrovskij: +ref
+
 Revision 1.1  2018/11/20 09:10:14  revo
 Sergio Pokrovskij: nova artikolo
-
 -->
 </vortaro>
