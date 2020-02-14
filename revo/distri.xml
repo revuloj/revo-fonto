@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: distri.xml,v 1.32 2020/02/14 13:10:24 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>distribu</rad>/i <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
@@ -118,13 +118,13 @@
     <dif>
       <klr>(p.p. pri <ref cel="operac.0o.MAT">operacio</ref>
       <frm>&#9830;</frm> rilate al operacio <frm>&#8224;</frm>)</klr>
-      Tia, ke por &ccirc;iuj <frm><k>x</k>, <k>y</k>, <k>z</k></frm>
-      veras
-      la egala&jcirc;oj
-      <frm><k>x</k>&#9830;(<k>y</k>&#8224;<k>z</k>) =
+      Tia, ke por &ccirc;iuj <frm am="x,y,z"><k>x</k>, <k>y</k>,
+      <k>z</k></frm>
+      veras la egala&jcirc;oj
+      <frm am="x&#9830;(y&#8224;z)=(x&#9830;y)&#8224;(x&#9830;z)"><k>x</k>&#9830;(<k>y</k>&#8224;<k>z</k>) =
       (<k>x</k>&#9830;<k>y</k>)&#8224;(<k>x</k>&#9830;<k>z</k>)</frm>
       kaj
-      <frm>(<k>y</k>&#8224;<k>z</k>)&#9830;<k>x</k> =
+      <frm am="(y&#8224;z)&#9830;x=(y&#9830;x)&#8224;(z&#9830;x)">(<k>y</k>&#8224;<k>z</k>)&#9830;<k>x</k> =
       (<k>y</k>&#9830;<k>x</k>)&#8224;(<k>z</k>&#9830;<k>x</k>)</frm>:
       <ekz>
         en la aro de reeloj la multipliko estas <tld/>eca
@@ -210,17 +210,19 @@
   <snc mrk="distri.probablo0o.MAT">
     <dif>
       <klr>(de <ref cel="variab.hazarda0o">hazarda variablo</ref>
-      <frm>X</frm>)</klr>
-      La probablo <frm>P<sub>X</sub></frm>, kiun &gcirc;i difinas.
+      <frm am="X">X</frm>)</klr>
+      La probablo <frm am="P_X">P<sub>X</sub></frm>, kiun &gcirc;i difinas.
     </dif>
     <rim>
-      Ekzistas pluraj manieroj karakterizi <frm>P<sub>X</sub></frm>,
+      Ekzistas pluraj manieroj karakterizi <frm
+      am="P_X">P<sub>X</sub></frm>,
       ekz-e
       per la <ref cel="funkci.distribua0o">distribua funkcio</ref>
-      de <frm>X</frm>, a&ubreve; per &gcirc;ia
+      de <frm am="X">X</frm>, a&ubreve; per &gcirc;ia
       <ref cel="dens.probablo0o">probablodenso</ref>, a&ubreve; e&ccirc;
-      per la vico de probabloj <frm>P(X = <k>x</k>)</frm>, se
-      <frm>X</frm> estas diskreta.
+      per la vico de probabloj <frm am="P(X=x)">P(X = <k>x</k>)</frm>,
+      se
+      <frm am="X">X</frm> estas diskreta.
     </rim>
   </snc>
   <trdgrp lng="de">
@@ -242,7 +244,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: distri.xml,v $
+versio 1.32 2020/02/14 13:10:24
+Wolfram Diestel: formuloj per am
+
+Revision 1.31  2018/02/21 21:10:26  revo
+Jeromo Vasxe: + ~igxi
+
 Revision 1.30  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -259,8 +267,5 @@ Revision 1.26  2007/08/08 16:31:18  revo
 Tulio Flores: +tr pt
 
 Revision 1.25  2005/02/25 17:32:28  revo
-Yury Finkel: +trd ru
-
-Revision 1.24  2003/05/12 16:33:00  revo
 -->
 </vortaro>
