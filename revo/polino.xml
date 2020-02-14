@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: polino.xml,v 1.32 2020/02/14 18:10:21 revo Exp $">
 <kap>
   <rad>polinom</rad>/o
 </kap>
@@ -14,26 +14,32 @@
     <dif>
       <klr>(super <ref cel="unu.0hava">unuhava</ref>
       <ref cel="komut.0eca.ringo">komuteca</ref>
-      <ref cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>)</klr>
-      Tia <ref tip="super" cel="vic.0o.MAT">vico</ref> en <frm><g>R</g></frm>,
+      <ref cel="ring.0o.MAT">ringo</ref> <frm am="bb
+      R"><g>R</g></frm>)</klr>
+      Tia <ref tip="super" cel="vic.0o.MAT">vico</ref> en
+      <frm am="bb R"><g>R</g></frm>,
       ke la nombro de &gcirc;iaj ne<ref cel="nul0.0a.elemento">nulaj</ref>
       termoj estas finia:
       <ekz>
-        oni signas per <frm><g>X</g><sup><k>i</k></sup></frm> la <tld/>on,
-        kies <frm><k>j</k></frm>-a termo egalas al la unuo de la ringo, 
-        se <frm><k>i</k> = <k>j</k></frm>, kaj al ties nulo aliokaze;
+        oni signas per <frm am="bb X^i"
+        ><g>X</g><sup><k>i</k></sup></frm> la <tld/>on,
+        kies <frm am="j"><k>j</k></frm>-a termo egalas al la unuo de la
+        ringo, 
+        se <frm am="i=j"><k>i</k> = <k>j</k></frm>, kaj al ties nulo
+        aliokaze;
       </ekz>
       <ekz>
-        la <tld/>on <frm><g>X</g></frm> 
-        <klr>(t.e. <frm><g>X</g><sup>1</sup></frm>)</klr>
+        la <tld/>on <frm am="bb X"><g>X</g></frm> 
+        <klr> (t.e. <frm am="bb X^1"><g>X</g><sup>1</sup></frm>)</klr>
         oni nomas argumento;
       </ekz>
       <ekz>
         la <tld/>on 
-        <frm>(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>N</g></sub></frm>
+        <frm am="(a_i)_(i in NN)"
+        >(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>N</g></sub></frm>
         oni ofte signas per 
-        <frm>&#8721;
-<k>a</k><sub><k>i</k></sub><g>X</g><sup><k>i</k></sup></frm>.
+        <frm am="sum a_i bb X^i"
+        >&#8721;<k>a</k><sub><k>i</k></sub><g>X</g><sup><k>i</k></sup></frm>.
       </ekz>
     </dif>
     <refgrp tip="sub">
@@ -67,7 +73,8 @@
   </snc>
   <rim>
     Bricard <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt> proponis la
-    formon <ctl>polinomjo</ctl> kaj vicon da similaj terminoj, derivitaj 
+    formon <ctl>polinomjo</ctl> kaj vicon da similaj terminoj, derivitaj
+    
     a&ubreve; ne de radiko <ctl>nomj</ctl>:
     <ekz>
       ununomjo,
@@ -83,16 +90,19 @@
   </rim>
   <rim>
     La nocio <tld/>o historie fontas el la <tld/>aj funkcioj, kiel
-    ekz-e <frm><k>x</k><sup>2</sup>+3<k>x</k>+7</frm>. La unua senco koncernas
+    ekz-e <frm am="x^2+3x+7"
+    ><k>x</k><sup>2</sup>+3<k>x</k>+7</frm>. La unua senco koncernas
     formalajn <tld/>ojn kaj prisilentas la analitikan fonon de la nocio,
     okupi&gcirc;ante nur pri la vico de <ctl>koeficientoj</ctl>. 
     En multaj kutimaj kuntekstoj la bildigo inter <tld/>oj kaj <tld/>aj 
     funkcioj estas bijekcia, sed ne &ccirc;iam. Same kiel ekzistas 
     plurargumentaj <tld/>aj funkcioj, la &ccirc;i-supra formala nocio estas
     vastigebla anka&ubreve; al pluraj <ctl>argumentoj</ctl>: la pliajn
-    argumentojn oni ofte signas per <frm><g>Y</g></frm> kaj 
-    <frm><g>Z</g></frm>. Se estas pli ol tri argumentoj, oni ilin signas 
-    per <frm><g>X</g><sub><k>i</k></sub></frm> kun suba indico.
+    argumentojn oni ofte signas per <frm am="bb Y"><g>Y</g></frm> kaj 
+    <frm am="bb Z"><g>Z</g></frm>. Se estas pli ol tri argumentoj,
+    oni ilin signas 
+    per <frm am="bb X_i"><g>X</g><sub><k>i</k></sub></frm> kun suba
+    indico.
   </rim>
   <trd lng="be">&c_p;&c_a;&c_l;&c_ib;&c_n;&c_o;&c_m;</trd>
   <trd lng="de">Polynom</trd>
@@ -107,11 +117,11 @@
     <trd>&c_p;&c_o;&c_l;&c_i;&c_n;&c_o;&c_m;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>mnohočlen</trd>,
-    <trd>polynóm</trd>
+    <trd>mnoho&ccaron;len</trd>,
+    <trd>polyn&oacute;m</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>mnohočlen</trd>,
+    <trd>mnoho&ccaron;len</trd>,
     <trd>polynom</trd>
   </trdgrp>
 </drv>
@@ -164,11 +174,12 @@
   <snc>
     <dif>
       <klr>(de <ref cel="endomo.0o">endomorfio</ref> 
-      <frm><k>f</k></frm> en
+      <frm am="f"><k>f</k></frm> en
       <ref cel="spac.vektora0o">vektora spaco</ref>
-      <frm><g>E</g></frm>)</klr>
+      <frm am="bb E"><g>E</g></frm>) </klr>
       <ref cel="determ.0anto.endomorfio">Determinanto</ref> de
-      <frm><k>f</k>-&lambda;.id<sub><g>E</g></sub></frm>:
+      <frm am='f-lambda*"id"_(bb E)'
+      ><k>f</k>-&lambda;&middot;id<sub><g>E</g></sub></frm>:
       <ekz>
         la <ref cel="ajgen.0o">ajgenoj</ref> de endomorfio estas la
         <ref cel="radik.0o.polinomo">radikoj</ref> de ties karakteriza
@@ -219,8 +230,8 @@
       <ref tip="super" cel="polino.0o.formala"><tld/>o</ref>,
       kies nenula termo egalas al la unuo de la ringo:
       <ekz>
-        la unuo<tld/>on oni povas signi per <frm><g>X</g><sup>0</sup></frm> 
-        a&ubreve; <frm><g>1</g></frm>;
+        la unuo<tld/>on oni povas signi per <frm am="bb X^0"
+        ><g>X</g><sup>0</sup></frm> a&ubreve; <frm am="bb 1"><g>1</g></frm>;
       </ekz>
       <ekz>
         la unuo<tld/>o estas <ref cel="unu.0o.neuxtra">unuo</ref> 
@@ -242,7 +253,13 @@
 
 </art>
 <!--
-$Log$
+$Log: polino.xml,v $
+versio 1.32 2020/02/14 18:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.31  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.30  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -259,14 +276,5 @@ Revision 1.26  2005/03/06 17:34:43  revo
 Marc Bavant: kor duobligitan punkton
 
 Revision 1.25  2005/02/23 17:31:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.24  2004/11/11 17:31:09  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.23  2003/02/16 17:32:47  revo
-Marc Bavant: ~o: mod ref al "nenula"; +tld
-
-Revision 1.22  2003/01/02 17:49:54  revo
 -->
 </vortaro>
