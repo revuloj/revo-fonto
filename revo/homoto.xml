@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: homoto.xml,v 1.17 2020/02/14 22:10:30 revo Exp $">
 <kap>
   <rad>homotop</rad>/a
 </kap>
@@ -12,24 +12,28 @@
   <snc mrk="homoto.0a.vojoj">
     <fnt><bib>PIV2</bib></fnt>
     <dif>
-      <klr>(p.p. <ref cel="voj.0o.bildigo">vojo</ref> <frm>&phi;</frm>
-      rilate al dua vojo <frm>&psi;</frm>, 
+      <klr>(p.p. <ref cel="voj.0o.bildigo">vojo</ref> <frm
+      am="phi">&phi;</frm>
+      rilate al dua vojo <frm am="psi">&psi;</frm>, 
       en <ref cel="spac.topologia0o">topologia spaco</ref>
-      <frm><g>E</g></frm>)</klr>
+      <frm am="bb E"><g>E</g></frm>)</klr>
       Tia, ke ekzistas tia <ref cel="kontin3.0a.cxie">kontinua</ref>
-      <ref cel="bild.0igo.MAT">bildigo</ref> <frm>H</frm> 
-      de <frm>[0,1]<sup>2</sup></frm> al <frm><g>E</g></frm>, ke por 
-      &ccirc;iu <frm><k>t</k>&#8712;[0,1]</frm> 
-      <frm>H(<k>t</k>,0) = &phi;(<k>t</k>)</frm> kaj
-      <frm>H(<k>t</k>,1) = &psi;(<k>t</k>)</frm>:
+      <ref cel="bild.0igo.MAT">bildigo</ref> <frm am="H">H</frm> 
+      de <frm am="[0,1]^2">[0,1]<sup>2</sup></frm> al 
+      <frm am="bb E"><g>E</g></frm>, ke por 
+      &ccirc;iu <frm am="t in [0,1]"><k>t</k>&#8712;[0,1]</frm>, 
+      <frm am="H(t,0)=phi(t)">H(<k>t</k>,0) = &phi;(<k>t</k>)</frm> kaj
+      <frm am="H(t,1)=psi(t)">H(<k>t</k>,1) = &psi;(<k>t</k>)</frm>:
       <ekz>
-        oni diras, ke <frm>&phi;</frm> estas <tld/>a al <frm>&psi;</frm>,
-        a&ubreve; ke <frm>&phi;</frm> kaj <frm>&psi;</frm> estas <tld/>aj;
+        oni diras, ke <frm am="phi">&phi;</frm> estas <tld/>a al 
+        <frm am="psi">&psi;</frm>, a&ubreve; ke <frm am="phi">&phi;</frm> kaj 
+        <frm am="psi">&psi;</frm> estas <tld/>aj;
       </ekz>
       <ekz>
         oni diras, ke <ref cel="voj.fermita0o">fermita vojo</ref> estas
-        <tld/>a al punkto <frm><k>a</k></frm>, se &gcirc;i estas <tld/>a 
-        al la konstanta vojo kun bildaro <frm>{<k>a</k>}</frm>;
+        <tld/>a al punkto <frm am="a"><k>a</k></frm>, se &gcirc;i estas
+        <tld/>a 
+        al la konstanta vojo kun bildaro <frm am="{a}">{<k>a</k>}</frm>;
       </ekz>
       <ekz>
         <ind><tld/>eco</ind> estas 
@@ -50,7 +54,8 @@
     </refgrp>
     <rim>
       La difino interpreti&gcirc;as intuicie per tio, ke la vojon
-      <frm>&phi;</frm> eblas kontinue aliformi en la vojon <frm>&psi;</frm>.
+      <frm am="phi">&phi;</frm> eblas kontinue aliformi en la vojon 
+      <frm am="psi">&psi;</frm>.
     </rim>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_m;&c_a;&c_t;&c_o;&c_p;&c_n;&c_y;</trd>
@@ -67,7 +72,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: homoto.xml,v $
+versio 1.17 2020/02/14 22:10:30
+Wolfram Diestel: formuloj per am
+
+Revision 1.16  2009/09/17 16:30:40  revo
+Antonio Codazzi: +trd it
+
 Revision 1.15  2009/08/18 19:19:26  revo
 Behnam Tabatabai: +trd fa
 
@@ -84,8 +95,5 @@ Revision 1.11  2003/01/13 17:33:59  revo
 Marc Bavant: ~a: +trd
 
 Revision 1.10  2003/01/02 17:46:42  revo
-Marc Bavant: +trd pl
-Revision 1.9  2002/11/24 17:34:00  revo
-Marc Bavant: +trd pl
 -->
 </vortaro>
