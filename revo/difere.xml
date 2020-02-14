@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: difere.xml,v 1.33 2020/02/14 12:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>diferenc</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -221,15 +221,19 @@
     <subsnc mrk="difere.0o.de_aroj">
       <fnt><bib>EKV</bib><lok>&para;79</lok></fnt>
       <dif>
-        <klr>(inter <ref cel="ar.0o.MAT">aroj</ref> <frm><g>E</g></frm>
+        <klr>(inter <ref cel="ar.0o.MAT">aroj</ref> <frm am="bb
+        E"><g>E</g></frm>
         kaj
-        <frm><g>F</g></frm>)</klr>
-        Aro, konsistanta el la elementoj de <frm><g>E</g></frm>, kiuj ne
-        apartenas al <frm><g>F</g></frm>:
+        <frm am="bb F"><g>F</g></frm>)</klr>
+        Aro, konsistanta el la elementoj de <frm am="bb
+        E"><g>E</g></frm>, kiuj ne
+        apartenas al <frm am="bb F"><g>F</g></frm>:
         <ekz>
-          la <tld/>on inter <frm><g>E</g></frm> kaj <frm><g>F</g></frm>
-          oni signas per <frm><g>E</g>-<g>F</g></frm> a&ubreve;
-          <frm><g>E</g>\<g>F</g></frm> <klr>(legu: e minus fo)</klr>;
+          la <tld/>on inter <frm am="bb E"><g>E</g></frm> 
+          kaj <frm am="bb F"><g>F</g></frm>
+          oni signas per <frm am="bb E-bb F"><g>E</g>-<g>F</g></frm> a&ubreve;
+          <frm am="bb E\\bb F"><g>E</g>\\<g>F</g></frm> <klr> (legu: e
+          minus fo)</klr>;
         </ekz>
         <ekz>
           la <tld/>o inter la aro de reeloj kaj tiu de racionaloj estas
@@ -237,12 +241,13 @@
         </ekz>
         <ekz>
           la <tld/>on
-          <frm>(<g>E</g>&#8746;<g>F</g>)\(<g>E</g>&#8745;<g>F</g>)</frm>
-          oni nomas <ind>simetria <tld/>o</ind> de <frm><g>E</g></frm>
-          kaj
-          <frm><g>F</g></frm> kaj signas per
-          <frm><g>E</g>&#8710;<g>F</g></frm> <klr>(legu: e delta
-          fo)</klr>.
+          <frm am="(bb E uu bb F)\\(bb E nn bb F)"
+          >(<g>E</g>&#8746;<g>F</g>)\(<g>E</g>&#8745;<g>F</g>)</frm>
+          oni nomas <ind>simetria <tld/>o</ind> de <frm am="bb
+          E"><g>E</g></frm>
+          kaj <frm am="bb F"><g>F</g></frm> kaj signas per
+          <frm am="bb E /_\ bb F"><g>E</g>&#8710;<g>F</g></frm> <klr> 
+          (legu: e delta fo)</klr>.
           <trd
           lng="be">&c_s;&c_y;&c_m;&c_e;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja;
           <ind>&c_r;&c_o;&c_z;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</ind></trd>
@@ -422,7 +427,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: difere.xml,v $
+versio 1.33 2020/02/14 12:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.32  2015/10/01 06:10:12  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.31  2015/09/17 23:10:14  revo
 Cindy Moon McKee: +trd en
 
@@ -439,8 +450,5 @@ Revision 1.27  2011/12/29 15:10:10  revo
 Jeromo Vasxe: + ~e de
 
 Revision 1.26  2011/02/09 12:10:10  revo
-Jeromo Vasxe: interpunkcio de ekz
-
-Revision 1.25  2010/08/18 16:30:18  revo
 -->
 </vortaro>
