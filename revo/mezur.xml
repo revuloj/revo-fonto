@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: mezur.xml,v 1.46 2020/02/14 13:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mezur</rad>/i <fnt><bib>PV</bib></fnt>
@@ -286,15 +286,15 @@
       <klr>(super <ref cel="algebr.sigma0o">&sigma;-algebro</ref>
       <frm><g>A</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      <frm>&my;</frm>
+      <frm am="mu">&my;</frm>
       de <frm><g>A</g></frm> al la aro de reeloj, ke la bildo per
       &gcirc;i de
       <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref> de numerebla
       <ref cel="dis.0a.familio">disa</ref> familio el
       elementoj de la &sigma;-algebro egalas la sumon de la iliaj
       bildoj;
-      simb. <frm>&my;(&#8746; P<sub><k>i</k></sub>) =
-      &#8721;&my;(P<sub><k>i</k></sub>)</frm>:
+      simb. <frm am="mu(&#8746; P_i)=sum mu(P_i)"
+      >&my;(&#8746; P<sub><k>i</k></sub>) = &#8721;&my;(P<sub><k>i</k></sub>)</frm>:
       <ekz>
         la bildo de la malplena aro per <tld/>o estas <frm>0</frm>;
       </ekz>
@@ -406,13 +406,13 @@
     <fnt><bib>MatVort</bib></fnt>
     <dif>
       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>f</k></frm>
+      <frm am="f"><k>f</k></frm>
       de aro <frm><g>E</g></frm> al aro <frm><g>F</g></frm>, provizitaj
       per
       respektivaj <ref cel="algebr.sigma0o">&sigma;-algebroj</ref>
       <frm><g>A</g></frm> kaj <frm><g>B</g></frm>)</klr>
       Tia, ke la <ref cel="bild.inversa0o.subaro">inversa bildo</ref>
-      per <frm><k>f</k></frm> de &ccirc;iu elemento de
+      per <frm am="f"><k>f</k></frm> de &ccirc;iu elemento de
       <frm><g>B</g></frm>
       apartenas al <frm><g>A</g></frm>:
       <ekz>
@@ -830,10 +830,10 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(rilate punkton <frm><k>a</k></frm>)</klr>
+      <klr>(rilate punkton <frm am="a"><k>a</k></frm>)</klr>
       <ref tip="super" cel="mezur.0o.MAT"><tld lit="M"/>o</ref>,
-      kiu &jcirc;etas la elementon <frm>P</frm> de la &sigma;-algebro
-      al <frm>1</frm>, se <frm><k>a</k>&#8712;P</frm>,
+      kiu &jcirc;etas la elementon <frm am="P">P</frm> de la &sigma;-algebro
+      al <frm>1</frm>, se <frm am="a in P"><k>a</k>&#8712;P</frm>,
       kaj al <frm>0</frm> aliokaze.
     </dif>
     <ref tip="vid" cel="dirak.0o">Dirako.</ref>
@@ -855,10 +855,11 @@
     <dif>
       <klr>(super la
       <ref cel="algebr.borelasigma0o">borela &sigma;-algebro</ref> super
-      la aro de reeloj)</klr>
+      la aro de reeloj) </klr>
       <ref tip="super" cel="mezur.0o.MAT"><tld lit="M"/>o</ref>,
-      difinita per tio, ke sur intervalo <frm>]<k>a</k>,<k>b</k>[</frm>
-      &gcirc;i alprenas la valoron <frm>(<k>b</k>-<k>a</k>)</frm>.
+      difinita per tio, ke sur intervalo <frm am="(a,b)"
+      >]<k>a</k>,<k>b</k>[</frm>
+      &gcirc;i alprenas la valoron <frm am="(b-a)">(<k>b</k>-<k>a</k>)</frm>.
     </dif>
     <ref tip="vid" cel="lebeg.0o">Lebego.</ref>
   </snc>        
@@ -873,7 +874,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: mezur.xml,v $
+versio 1.46 2020/02/14 13:10:19
+Wolfram Diestel: formuloj per am
+
+Revision 1.45  2017/12/20 00:11:14  revo
+Michel Cantigneaux: "al/mezur/i" fundamenta kunmetajxo el la U.V.
+
 Revision 1.44  2017/10/14 13:10:15  revo
 Vito Redsky: +trd ro
 
@@ -890,8 +897,5 @@ Revision 1.40  2013/01/03 07:10:08  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.39  2012/10/23 00:13:01  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.38  2006/08/02 16:32:18  revo
 -->
 </vortaro>
