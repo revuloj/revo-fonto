@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: difere2.xml,v 1.25 2020/02/14 12:10:20 revo Exp $">
 <kap>
   <rad>diferencial</rad>/o
 </kap>
@@ -13,43 +13,49 @@
   <snc mrk="difere2.0o.cxepunkto">
     <dif>
       <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>f</k></frm>
+      <frm am="f"><k>f</k></frm>
       inter du <ref cel="spac.normohava0o">normohavaj spacoj</ref>, &ccirc;e
-      punkto <frm><k>a</k></frm> de la fonto-aro)</klr>
+      punkto <frm am="a"><k>a</k></frm> de la fonto-aro)</klr>
       Tia <ref cel="kontin3.0a.cxie">kontinua</ref>
       <ref tip="super" cel="homomo.0o">homomorfio</ref>
-      <frm><k>u</k></frm>, ke
-      <frm><k>f</k>(<k>a</k>+<k>h</k>)-<k>f</k>(<k>a</k>) =
-      <k>u</k>(<k>h</k>)+||<k>h</k>||.&epsilon;(<k>h</k>)</frm>, kie la 
-      bildigo <frm>&epsilon;</frm> <ref cel="streb.0i.MAT">strebas</ref> al 
-      nulo, kiam <frm><k>h</k></frm> strebas al nulo:
+      <frm am="u"><k>u</k></frm>, ke
+      <frm am="f(a+h)-f(a)=u(h)+||h||*epsilon)"
+      ><k>f</k>(<k>a</k>+<k>h</k>)-<k>f</k>(<k>a</k>) =
+      <k>u</k>(<k>h</k>)+||<k>h</k>||&middot;&epsilon;(<k>h</k>)</frm>, kie la 
+      bildigo <frm am="epsilon">&epsilon;</frm>&nbsp; <klr> </klr><ref
+      cel="streb.0i.MAT">strebas</ref> al 
+      nulo, kiam <frm am="h"><k>h</k></frm> strebas al nulo:
       <ekz>
-        la <tld/>on de <frm><k>f</k></frm> &ccirc;e <frm><k>a</k></frm> oni 
-        plejofte signas per <frm>d<k>f</k>(<k>a</k>)</frm>,
-        <frm>d<k>f</k><sub><k>a</k></sub></frm>, 
-        a&ubreve; <frm><k>f</k>&#8242;(<k>a</k>)</frm>;
+        la <tld/>on de <frm am="f"><k>f</k></frm> &ccirc;e <frm
+        am="a"><k>a</k></frm> oni 
+        plejofte signas per <frm am="df(a)">d<k>f</k>(<k>a</k>)</frm>,
+        <frm am="df_a">d<k>f</k><sub><k>a</k></sub></frm>, 
+        a&ubreve; <frm am="f&#8242;(a)"><k>f</k>&#8242;(<k>a</k>)</frm>;
       </ekz>
       <ekz>
-        la <tld/>o &ccirc;e punkto <frm><k>a</k></frm> de reela
+        la <tld/>o &ccirc;e punkto <frm am="a"><k>a</k></frm> de reela
         <ref cel="deriv.0i.MAT">derivebla</ref>
         <ref cel="funkci.0o.MAT">funkcio</ref>
-        <frm><k>y</k> = <k>f</k>(<k>x</k>)</frm> 
+        <frm am="y=f(x)"
+        ><k>y</k> = <k>f</k>(<k>x</k>)</frm> 
         estas la lineara funkcio, kiu
-        &jcirc;etas ajnan nombron <frm>d<k>x</k></frm> <klr>(nomatan 
+        &jcirc;etas ajnan nombron <frm am="dx"
+        >d<k>x</k></frm> <klr> (nomatan 
         <tld/>o de la argumento)</klr> al 
-        <frm>d<k>y</k> = <k>f</k>&#8242;(<k>a</k>).d<k>x</k></frm>.
+        <frm am="dy=f&#8242;(a)*dx"
+        >d<k>y</k> = <k>f</k>&#8242;(<k>a</k>)&middot;d<k>x</k></frm>.
       </ekz>
     </dif>
   </snc>
   <snc mrk="difere2.0o.bildigo">
     <dif>
       <klr>(de <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> 
-      <frm><k>f</k></frm> inter du
+      <frm am="f"><k>f</k></frm> inter du
       <ref cel="spac.normohava0o">normohavaj spacoj</ref>)</klr>
       La bildigo, kiu &jcirc;etas &ccirc;iun punkton de la fonto-aro
-      de <frm><k>f</k></frm> al la <ref
+      de <frm am="f"><k>f</k></frm> al la <ref
       cel="difere2.0o.cxepunkto"><tld/>o
-      <sncref/></ref> de <frm><k>f</k></frm> &ccirc;e tiu punkto:
+      <sncref/></ref> de <frm am="f"><k>f</k></frm> &ccirc;e tiu punkto:
       <ekz>
         dua <tld/>o <klr>(<tld/>o de la <tld/>o)</klr>,
         tria <tld/>o <klr>(<tld/>o de la dua)</klr>,
@@ -57,19 +63,19 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="form.diferenciala0o"><tld/>a formo</ref>.
+      <ref cel="form.diferenciala0o"><tld/>a formo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_d;&c_y;&c_f;&c_e;&c_r;&c_e;&c_n;&c_c;&c_y;&c_ja;&c_l;</trd>
   <trd lng="ca">diferencial<klr> (subst.)</klr></trd>
-  <trd lng="cs">diferenciál</trd>
+  <trd lng="cs">diferenci&aacute;l</trd>
   <trd lng="de">Differential</trd>
   <trd lng="en">differential</trd>
   <trd lng="fr">diff&eacute;rentielle<klr tip="ind"> (math.)</klr></trd>
   <trd lng="pl">r&oacute;&zdot;niczka</trd>
   <trd lng="pt">diferencial</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</trd>
-  <trd lng="sk">diferenciál</trd>
+  <trd lng="sk">diferenci&aacute;l</trd>
 </drv>
 
 <drv mrk="difere2.0i">
@@ -92,8 +98,8 @@
         <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
       </ekz>
     </dif>
-    <ref tip="vid" cel="deriv.0i.MAT">derivi;</ref>
-    <ref tip="ant" cel="integr2.0i">integrali.</ref>
+    <ref tip="vid" cel="deriv.0i.MAT">derivi</ref>
+    <ref tip="ant" cel="integr2.0i">integrali</ref>
   </snc>
   <trd lng="be">&c_d;&c_y;&c_f;&c_e;&c_r;&c_e;&c_n;&c_c;&c_y;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="ca">diferenciar</trd>
@@ -103,7 +109,7 @@
   <trd lng="fr">diff&eacute;rentier</trd>
   <trd lng="pl">r&oacute;&zdot;niczkowa&cacute;</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">diferencovať</trd>
+  <trd lng="sk">diferencova&tcaron;</trd>
 </drv>
 
 <drv mrk="difere2.0a">
@@ -122,13 +128,13 @@
   </snc>
   <trd lng="be">&c_d;&c_y;&c_f;&c_e;&c_r;&c_e;&c_n;&c_c;&c_y;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="ca">diferencial<klr> (adj.)</klr></trd>
-  <trd lng="cs">diferenciální</trd>
+  <trd lng="cs">diferenci&aacute;ln&iacute;</trd>
   <trd lng="de">Differential-</trd>
   <trd lng="en">differential</trd>
   <trd lng="fr">diff&eacute;rentiel<klr tip="ind"> (math.)</klr></trd>
   <trd lng="pl">r&oacute;&zdot;niczkowy</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">diferenciálny</trd>
+  <trd lng="sk">diferenci&aacute;lny</trd>
 </drv>
 
 <drv mrk="difere2.0ebla">
@@ -137,12 +143,12 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>f</k></frm> 
+      <frm am="f"><k>f</k></frm> 
       inter du
       <ref cel="spac.normohava0o">normohavaj spacoj</ref>, &ccirc;e
-      punkto <frm><k>a</k></frm> de la fonto-aro)</klr>
+      punkto <frm am="a"><k>a</k></frm> de la fonto-aro)</klr>
       Tia, ke ekzistas &gcirc;ia <ref cel="difere2.0o.cxepunkto"><tld/>o
-      <sncref/></ref> &ccirc;e <frm><k>a</k></frm>:
+      <sncref/></ref> &ccirc;e <frm am="a"><k>a</k></frm>:
       <ekz>
         la funkcio sinuso estas <tld/>ebla <klr>(&ccirc;e &ccirc;iu
         punkto de &gcirc;ia fonto-aro)</klr>;
@@ -162,7 +168,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: difere2.xml,v $
+versio 1.25 2020/02/14 12:10:20
+Wolfram Diestel: formuloj per am
+
+Revision 1.24  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.23  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -179,14 +191,5 @@ Revision 1.19  2003/01/02 17:44:39  revo
 Marc Bavant: +trd pl
 
 Revision 1.18  2002/11/24 17:33:36  revo
-Marc Bavant: mod frm
-Revision 1.17  2002/11/18 17:33:52  revo
-Marc Bavant: +frm, +trd pl
-Revision 1.16  2002/05/12 16:35:02  revo
-Marc Bavant: ~i: mod ref; ~o: mod ekz; ~o: mod ekz
-Revision 1.15  2002/05/04 16:31:54  revo
-Marc Bavant: ~i: +trd de/en en ekz
-Revision 1.14  2002/05/02 16:35:35  revo
-Marc Bavant: ~a: +ref al ~a formo
 -->
 </vortaro>
