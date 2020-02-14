@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: invari.xml,v 1.17 2020/02/15 00:10:41 revo Exp $">
 <kap>
   <rad>invariant</rad>/o
 </kap>
@@ -101,13 +101,15 @@
     <fnt><bib>EKV</bib><lok>&para;182</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="grup.sub0o">subgrupo</ref> 
-      <frm><g>H</g></frm> de grupo <frm><g>G</g></frm>)</klr>
+      <frm am="bb H"><g>H</g></frm> de grupo
+      <frm am="bb G"><g>G</g></frm>)</klr>
       <tld lit="I"/>a <sncref ref="invari.0a.gxenerale"/> per &ccirc;iu
       <ref cel="auxtom2.interna0o">interna a&ubreve;tomorfio</ref>
-      de <frm><g>G</g></frm>; alidire: tia, ke 
-      <frm><k>a</k>.<k>x</k>.<k>a</k><sup>-1</sup>&#8712;<g>H</g></frm>
-      por &ccirc;iuj <frm><k>x</k>&#8712;<g>H</g></frm> kaj
-      <frm><k>a</k>&#8712;<g>G</g></frm>:
+      de <frm am="bb G"><g>G</g></frm>; alidire: tia, ke 
+      <frm am="a*x*a^-1 in bb H"
+      ><k>a</k>&middot;<k>x</k>&middot;<k>a</k><sup>-1</sup>&#8712;<g>H</g></frm>
+      por &ccirc;iuj <frm am="x in bb H"><k>x</k>&#8712;<g>H</g></frm> kaj
+      <frm am="a in bb G"><k>a</k>&#8712;<g>G</g></frm>:
       <ekz>
         &ccirc;iuj subgrupoj de komuteca grupo estas <tld/>aj;
       </ekz>
@@ -175,15 +177,21 @@
   </snc>
   <trd lng="ca">invariant<klr> (adj.)</klr></trd>
   <trdgrp lng="cs">
-    <trd>invariantní</trd>,
-    <trd>samokonjugovaný <klr>(podgrupa)</klr></trd>
+    <trd>invariantn&iacute;</trd>,
+    <trd>samokonjugovan&yacute; <klr>(podgrupa)</klr></trd>
   </trdgrp>
-  <trd lng="sk">invariantný</trd>
+  <trd lng="sk">invariantn&yacute;</trd>
 </drv>
 </art>
 
 <!--
-$Log$
+$Log: invari.xml,v $
+versio 1.17 2020/02/15 00:10:41
+Wolfram Diestel: formuloj per am
+
+Revision 1.16  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.15  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -200,14 +208,5 @@ Revision 1.11  2004/02/16 20:48:39  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10  2003/11/29 20:07:09  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.9  2003/05/18 18:01:42  revo
-Marc Bavant: ~a (subgrupo): kor trd ru
-
-Revision 1.8  2003/04/27 16:30:45  revo
-Marc Bavant: ~a: kor rim
-Revision 1.7  2003/04/21 16:34:21  revo
-Marc Bavant: ~a (subgrupo): koherigis trd kun memkonjugita/normala
 -->
 </vortaro>
