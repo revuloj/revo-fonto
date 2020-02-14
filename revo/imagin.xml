@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: imagin.xml,v 1.17 2020/02/15 00:10:32 revo Exp $">
 <kap>
   <rad>imaginar</rad>/a
 </kap>
@@ -26,7 +26,7 @@
         <trd lng="hu">tiszt&aacute;n k&eacute;pzetes</trd>
         <trd lng="nl">zuiver imaginair</trd>
         <trd lng="pl"><klr tip="amb">(liczba) </klr>urojona</trd>
-        <trd lng="pt">imagin&#225;rio <klr tip="amb">(mat.)</klr></trd>
+        <trd lng="pt">imagin&aacute;rio <klr tip="amb">(mat.)</klr></trd>
         <trd lng="ru">&c_ch;&c_i;&c_s;&c_t;&c_o; &c_m;&c_n;&c_i;&c_m;&c_o;&c_je;
         <klr tip="amb"> (&c_ch;&c_i;&c_s;&c_l;&c_o;)</klr></trd>
       </ekz>
@@ -36,7 +36,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_u;&c_ja;&c_w;&c_n;&c_y; <klr tip="amb">(&c_l;&c_ib;&c_k;)</klr></trd>
-  <trd lng="cs">imaginární</trd>
+  <trd lng="cs">imagin&aacute;rn&iacute;</trd>
   <trd lng="de">imagin&auml;r</trd>
   <trd lng="en">imaginary</trd>
   <trd lng="fr">imaginaire<klr tip="ind"> (math.)</klr></trd>
@@ -48,8 +48,8 @@
   <trd lng="pl">zespolony</trd>
   <trd lng="ru">&c_m;&c_n;&c_i;&c_m;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
-    <trd>imaginárny</trd>,
-    <trd>pomyselný</trd>
+    <trd>imagin&aacute;rny</trd>,
+    <trd>pomyseln&yacute;</trd>
   </trdgrp>
 </drv>
 
@@ -63,8 +63,9 @@
       <ref tip="dif" cel="komple.0o.MAT">Komplekso</ref>, precipe se &gcirc;i
       ne estas <ref cel="reel.0o.MAT">reelo</ref>:
       <ekz>
-        <frm>1+2.<k>i</k></frm>, <frm>4.<k>i</k></frm> estas <tld/>oj,
-        sed <frm>3+0.<k>i</k></frm> ne estas.
+        <frm am="1+2*i">1+2&middot;<k>i</k></frm>,
+        <frm am="4*i">4&middot;<k>i</k></frm> estas <tld/>oj,
+        sed <frm am="3+0*i">3+0&middot;<k>i</k></frm> ne estas.
       </ekz>
     </dif>
     <rim>
@@ -78,9 +79,8 @@
       </ekz>
       kaj
       <ekz>
-        <tld/>a parto
+        <tld/>a parto.
       </ekz>
-      .
       Cetere eblas demandi sin, &ccirc;u necesis krei novan radikon por
       &ccirc;i tiu nocio: ja naciaj lingvoj senprobleme uzas vorton
       tradukeblan per <ctl>imaga</ctl>.
@@ -90,7 +90,7 @@
     <trd>&c_u;&c_ja;&c_w;&c_n;&c_y; <ind>&c_l;&c_ib;&c_k;</ind></trd>,
     <trd>&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_y; <ind>&c_l;&c_ib;&c_k;</ind></trd>
   </trdgrp>
-  <trd lng="cs">imaginární číslo</trd>
+  <trd lng="cs">imagin&aacute;rn&iacute; &ccaron;&iacute;slo</trd>
   <trdgrp lng="de">
     <trd>komplexe <ind>Zahl</ind></trd>,
     <trd>imagin&auml;re <ind>Zahl</ind></trd>
@@ -120,11 +120,17 @@
     <trd>&c_m;&c_n;&c_i;&c_m;&c_o;&c_je;
     <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
   </trdgrp>
-  <trd lng="sk">imaginárne číslo</trd>
+  <trd lng="sk">imagin&aacute;rne &ccaron;&iacute;slo</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: imagin.xml,v $
+versio 1.17 2020/02/15 00:10:32
+Wolfram Diestel: formuloj per am
+
+Revision 1.16  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.15  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -141,15 +147,5 @@ Revision 1.11  2003/04/07 16:35:32  revo
 Marc Bavant: ~a: +ref interna
 
 Revision 1.10  2003/02/24 17:33:03  revo
-Marc Bavant: mod klr tip cxe trd de
-Revision 1.9  2003/02/15 17:34:23  revo
-Ulrich Fellmann: ort kor en trd=de (komplekse -> komplexe)
-Revision 1.8  2003/01/26 17:33:15  revo
-Marc Bavant: mod trd de cxe terminoj MAT
-Revision 1.7  2003/01/02 17:46:45  revo
-Marc Bavant: +trd pl; ~o: koherigis trad kun komplekso
-Revision 1.6 2002/11/22 17:33:35 revo
-Marc Bavant: +frm
 -->
 </vortaro>
-
