@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: homomo.xml,v 1.21 2020/02/14 22:10:27 revo Exp $">
 <kap>
 <rad>homomorfi</rad>/o
 </kap>
@@ -16,33 +16,40 @@
       samspecaj <ref cel="strukt.algebra0o">strukturoj</ref>, ke
       &gcirc;i iasence <ctl>respektas</ctl> ilin. Pli
       precize, se oni signas la strukturojn per
-      <frm>(<g>E</g>,&#8710;<sub>1</sub>,&#8710;<sub>2</sub>,
+      <frm am="(bb E,Delta_1,Delta_2,...,Delta_n)"
+      >(<g>E</g>,&#8710;<sub>1</sub>,&#8710;<sub>2</sub>,
       ...,&#8710;<sub><k>n</k></sub>)</frm> kaj
-      <frm>(<g>F</g>,&#8711;<sub>1</sub>,&#8711;<sub>2</sub>,
+      <frm am="(bb F,nabla_1,nabla_2,...,nabla_n)"
+      >(<g>F</g>,&#8711;<sub>1</sub>,&#8711;<sub>2</sub>,
       ...,&#8711;<sub><k>n</k></sub>)</frm>,
-      la bildigo <frm><k>f</k></frm> estas tia, ke:
+      la bildigo <frm am="f"><k>f</k></frm> estas tia, ke:
       (1) por &ccirc;iu duopo de
       <ref cel="operac.interna0o">internaj operacioj</ref>
-      <frm>&#8710;<sub><k>i</k></sub></frm> kaj 
-      <frm>&#8711;<sub><k>i</k></sub></frm> veras, ke
-      <frm><k>f</k>(<k>x</k>&#8710;<sub><k>i</k></sub><k>y</k>) = 
+      <frm am="Delta_i">&#8710;<sub><k>i</k></sub></frm> kaj 
+      <frm am="nabla_i">&#8711;<sub><k>i</k></sub></frm> veras, ke
+      <frm am="f(x Delta_i y)=f(x) nabla_i f(y)"
+      ><k>f</k>(<k>x</k>&#8710;<sub><k>i</k></sub><k>y</k>) = 
       <k>f</k>(<k>x</k>)&#8711;<sub><k>i</k></sub><k>f</k>(<k>y</k>)</frm>,
-      kiuj ajn estas <frm><k>x</k>, <k>y</k>&#8712;<g>E</g></frm>;
+      kiuj ajn estas <frm am="x,y in bb E"
+      ><k>x</k>, <k>y</k>&#8712;<g>E</g></frm>;
       (2) por &ccirc;iu duopo de
       <ref cel="operac.ekstera0o">eksteraj operacioj</ref>
-      <frm>&#8710;<sub><k>k</k></sub></frm> kaj 
-      <frm>&#8711;<sub><k>k</k></sub></frm> (de la sama aro 
-      <frm><g>R</g></frm> super respektive <frm><g>E</g></frm> 
-      kaj <frm><g>F</g></frm>) veras, ke
-      <frm><k>f</k>(&alfa;&#8710;<sub><k>k</k></sub><k>x</k>) = 
+      <frm am="Delta_k">&#8710;<sub><k>k</k></sub></frm> kaj 
+      <frm am="nabla_k">&#8711;<sub><k>k</k></sub></frm> (de la sama aro 
+      <frm am="bb R"><g>R</g></frm> super respektive
+      <frm am="bb E"><g>E</g></frm> 
+      kaj <frm am="bb F"><g>F</g></frm>) veras, ke
+      <frm am="f(alpha Delta_k x)=alpha nabla_k f(x)"
+      ><k>f</k>(&alfa;&#8710;<sub><k>k</k></sub><k>x</k>) = 
       &alfa;&#8711;<sub><k>k</k></sub><k>f</k>(<k>x</k>)</frm>,
-      kiuj ajn estas <frm><k>x</k>&#8712;<g>E</g></frm> 
-      kaj <frm>&alfa;&#8712;<g>R</g></frm>:
+      kiuj ajn estas <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm> 
+      kaj <frm am="alpha in bb R">&alfa;&#8712;<g>R</g></frm>:
       <ekz>
         grupa
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=87311'>Grupa ago</url></lok>
+          <lok><url ref='https://eo.wikipedia.org/?curid=87311'>Grupa
+          ago</url></lok>
         </fnt>, ringa, modula, vektor(spac)a <tld/>o;
       </ekz>
       <ekz>
@@ -50,10 +57,12 @@
         la fonto-aro estas la ne&ubreve;tra elemento de la celo-aro;
       </ekz>
       <ekz>
-        en la lingvo de abstrakta algebro, lineara bildigo estas <tld/>o de vektoraj spacoj
+        en la lingvo de abstrakta algebro, lineara bildigo estas <tld/>o
+        de vektoraj spacoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=87325'>Lineara bildigo</url></lok>
+          <lok><url ref='https://eo.wikipedia.org/?curid=87325'>Lineara
+          bildigo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -104,13 +113,18 @@
         <ref cel="komple.0o.MAT">kompleksoj</ref> kun modulo unu;
       </ekz>
       <ekz>
-        grafeo <frm><k>G</k></frm> estas dirita esti <tld/>a al grafeo <frm><k>H</k></frm> 
-        se estas sur&jcirc;eto (mapado), nomita <tld/>o, de <frm><k>V</k>(<k>G</k>)</frm> al <frm><k>V</k>(<k>H</k>)</frm>
-        tia, ke du verticoj estas interapudaj en <frm><k>G</k></frm> se iliaj respektivaj 
-        verticoj estas interapudaj en <frm><k>H</k></frm>
+        grafeo <frm am="bb G"><k>G</k></frm> estas dirita esti
+        <tld/>a al grafeo <frm am="bb H"><k>H</k></frm> 
+        se estas sur&jcirc;eto (mapado), nomita <tld/>o, de 
+        <frm am="V(G)"><k>V</k>(<k>G</k>)</frm> al
+        <frm am="V(H)"><k>V</k>(<k>H</k>)</frm>
+        tia, ke du verticoj estas interapudaj en 
+        <frm am="G"><k>G</k></frm> se iliaj respektivaj 
+        verticoj estas interapudaj en <frm am="H"><k>H</k></frm>
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=104312'>Glosaro de grafeteorio</url></lok>
+          <lok><url ref='https://eo.wikipedia.org/?curid=104312'
+          >Glosaro de grafeteorio</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -141,7 +155,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: homomo.xml,v $
+versio 1.21 2020/02/14 22:10:27
+Wolfram Diestel: formuloj per am
+
+Revision 1.20  2017/07/03 20:10:16  revo
+Wolfram Diestel: ekz/fnt, shovis trd inter rim kaj adm
+
 Revision 1.19  2009/09/17 16:30:33  revo
 Antonio Codazzi: +trd it
 
@@ -158,8 +178,5 @@ Revision 1.15  2003/03/05 17:34:30  revo
 Marc Bavant: ~a: +fnt
 Revision 1.14  2003/02/01 17:33:05  revo
 Marc Bavant: +trd pl
-Revision 1.13  2003/01/02 17:46:38  revo
-Marc Bavant: +trd pl
-Revision 1.12  2002/11/22 17:33:24  revo
 -->
 </vortaro>
