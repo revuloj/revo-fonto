@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kvocie.xml,v 1.21 2020/02/15 17:10:28 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>kvocient</rad>/o
@@ -58,16 +58,17 @@
   <snc mrk="kvocie.0o.euxklida">
     <dif>
       <klr>(&ccirc;e <ref cel="divid.euxklida0o">e&ubreve;klida divido</ref>
-de
-      <frm><k>a</k></frm> per <frm><k>b</k></frm> en
+      de <frm am="a"><k>a</k></frm> per <frm am="b"><k>b</k></frm> en
       <ref cel="ring.euxklida0o">e&ubreve;klida ringo</ref>)</klr>
-      &Ccirc;iu el la eblaj elementoj <frm><k>q</k></frm>, por kiuj
-      <frm><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
-      <frm>&phi;(<k>r</k>) &#8804; &phi;(<k>b</k>)</frm>:
+      &Ccirc;iu el la eblaj elementoj <frm am="q"><k>q</k></frm>, por kiuj
+      <frm am="a=b xx q+r"><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm>
+      kaj
+      <frm am="phi(r) le phi(b)">&phi;(<k>r</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         &ccirc;e e&ubreve;klida divido de
-        <frm><g>X</g><sup>2</sup>+<g>1</g></frm>
-        per <frm><g>X</g></frm> la <tld/>o estas <frm><g>X</g></frm>.
+        <frm am="bb X^2+bb 1"><g>X</g><sup>2</sup>+<g>1</g></frm>
+        per <frm am="bb X"><g>X</g></frm> la <tld/>o estas 
+        <frm am="bb X"><g>X</g></frm>.
       </ekz>
     </dif>
     <rim>
@@ -118,7 +119,7 @@ tip="ind">
   </snc>
   <trdgrp lng="cs">
     <trd>kvocient</trd>,
-    <trd>podíl</trd>
+    <trd>pod&iacute;l</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>h&aacute;nyados</trd>,
@@ -130,12 +131,18 @@ tip="ind">
   </trdgrp>
   <trdgrp lng="sk">
     <trd>podiel</trd>,
-    <trd>výsledok delenia</trd>
+    <trd>v&yacute;sledok delenia</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
-$Log$
+$Log: kvocie.xml,v $
+versio 1.21 2020/02/15 17:10:28
+Wolfram Diestel: formuloj per am
+
+Revision 1.20  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.19  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -152,14 +159,5 @@ Revision 1.15  2004/03/20 17:30:50  revo
 Jozefo Horvath: +trd hu
 Revision 1.14  2003/04/24 16:32:14  revo
 Dmitri Gabinski: +trd be
-Revision 1.13  2003/04/21 16:34:31  revo
-Marc Bavant: ~o (de progresio): kor trd ru
-Revision 1.12  2003/01/02 17:48:20  revo
-Marc Bavant: ~o 1: koherigis trd kun "rilato"
-Revision 1.11 2002/12/15 19:51:47 revo
-Marc Bavant: ~o (euxklida): mod frm
-Revision 1.10 2002/11/27 17:30:49 revo
-Marc Bavant: +frm, +trd pl
-Revision 1.9 2002/01/12 17:31:38 revo
 -->
 </vortaro>
