@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: vast.xml,v 1.39 2020/02/15 18:10:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vast</rad>/a <fnt><bib>PV</bib></fnt>
@@ -311,16 +311,19 @@
     <fnt><bib>PIV2</bib></fnt>
     <dif>
       <klr>(de <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>f</k></frm> la&ubreve; superaro <frm><g>A</g></frm>
+      <frm am="f"><k>f</k></frm> la&ubreve; superaro <frm am="bb
+      A"><g>A</g></frm>
       de &gcirc;ia fonto-aro)</klr>
-      Tia bildigo <frm><k>g</k></frm> de <frm><g>A</g></frm> al
-      la celo-aro de <frm><k>f</k></frm>, ke <frm><k>g</k>(<k>x</k>) =
-      <k>f</k>(<k>x</k>)</frm> por &ccirc;iu elemento
-      <frm><k>x</k></frm> de la fonto-aro de <frm><k>f</k></frm>:
+      Tia bildigo <frm am="g"><k>g</k></frm> de <frm am="bb
+      A"><g>A</g></frm> al
+      la celo-aro de <frm am="f"><k>f</k></frm>, ke <frm am="g(x)=f(x)"
+      ><k>g</k>(<k>x</k>) = <k>f</k>(<k>x</k>)</frm> por &ccirc;iu elemento
+      <frm am="x"><k>x</k></frm> de la fonto-aro de <frm
+      am="f"><k>f</k></frm>:
       <ekz>
         trovu kontinuan <tld/>iga&jcirc;on de funkcio
-        <frm>sin<k>x</k>/&#8730;<k>x</k></frm>
-        &ccirc;e <frm>0</frm> <klr>(la&ubreve; superaro de &gcirc;ia
+        <frm am="sin x//sqrt x">sin<k>x</k>/&#8730;<k>x</k></frm>
+        &ccirc;e <frm>0</frm> <klr> (la&ubreve; superaro de &gcirc;ia
         fonto-aro, kiu inkluzivu punkton <frm>0</frm>, kie la funkcio
         ne estas difinita pro la divido per <frm>0</frm>)</klr>.
       </ekz>
@@ -594,17 +597,17 @@
     <fnt><bib>PIV2</bib></fnt>
     <dif>
       <klr>(de <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>f</k></frm> la&ubreve; subaro
-      <frm><g>A</g></frm> de &gcirc;ia fonto-aro)</klr>
-      Tia bildigo <frm><k>g</k></frm> de <frm><g>A</g></frm> al la
+      <frm am="f"><k>f</k></frm> la&ubreve; subaro
+      <frm am="bb A"><g>A</g></frm> de &gcirc;ia fonto-aro)</klr>
+      Tia bildigo <frm am="g"><k>g</k></frm> de <frm am="bb
+      A"><g>A</g></frm> al la
       celo-aro
-      de <frm><k>f</k></frm>, ke <frm><k>g</k>(<k>x</k>) =
-      <k>f</k>(<k>x</k>)</frm> por &ccirc;iu
-      <frm><k>x</k>&#8712;<g>A</g></frm>:
+      de <frm am="f"><k>f</k></frm>, ke <frm am="g(x)=f(x)"
+      ><k>g</k>(<k>x</k>) = <k>f</k>(<k>x</k>)</frm> por &ccirc;iu
+      <frm am="x in bb A"><k>x</k>&#8712;<g>A</g></frm>:
       <ekz>
         la entjera adicio estas mal<tld/>iga&jcirc;o de la reela
-        la&ubreve;
-        la aro de entjeroj.
+        la&ubreve; la aro de entjeroj.
       </ekz>
     </dif>
     <ref tip="sin" cel="bild.sub0igo">subbildigo.</ref>
@@ -729,7 +732,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: vast.xml,v $
+versio 1.39 2020/02/15 18:10:31
+Wolfram Diestel: formuloj per am
+
+Revision 1.38  2018/06/13 03:10:21  revo
+Dusan Juretic: +trd es
+
 Revision 1.37  2018/03/26 11:10:15  revo
 Norbert Luckhardt: dis~igi: +trd DE
 
@@ -746,8 +755,5 @@ Revision 1.33  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.32  2014/11/26 23:10:20  revo
-Jeromo Vasxe: + ~ejo
-
-Revision 1.31  2011/11/30 18:10:09  revo
 -->
 </vortaro>
