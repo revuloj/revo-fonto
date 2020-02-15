@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: konvek.xml,v 1.27 2020/02/15 16:10:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>konveks</rad>/a
@@ -60,10 +60,10 @@
           <ref cel="edr.plur0o">pluredro</ref>;
         </ekz>
         <ekz>
-          rekto, inkluzivanta lateron <frm>L</frm> de <tld/>a
+          rekto, inkluzivanta lateron <frm am="L">L</frm> de <tld/>a
           plurlatero,
           ne sekcas &gcirc;iajn aliajn laterojn, krom &ccirc;e
-          la verticoj de <frm>L</frm>;
+          la verticoj de <frm am="L">L</frm>;
         </ekz>
         <ekz>
           &ccirc;iuj <ref cel="angul.tri0o">trianguloj</ref> kaj
@@ -95,14 +95,15 @@ tip="amb">
       <fnt><bib>MatStokTerm</bib><lok>p. 28</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-        <frm><k>f</k></frm>
+        <frm am="f"><k>f</k></frm>
         de la aro de <ref cel="reel.0o.MAT">reeloj</ref> al si
         mem)</klr>
         Tia, ke 
-        <frm><k>f</k>(<k>tx</k>+(1-<k>t</k>)<k>y</k>) &#8804; 
+        <frm am="f(tx+(1-t)y) le tf(x)+(1-t)f(y)"
+        ><k>f</k>(<k>tx</k>+(1-<k>t</k>)<k>y</k>) &#8804; 
         <k>t</k><k>f</k>(<k>x</k>)+(1-<k>t</k>)<k>f</k>(<k>y</k>)</frm>,
-        kiaj ajn estas <frm><k>x</k>, <k>y</k></frm>, 
-        kaj por &ccirc;iu <frm><k>t</k>&#8712;[0,1]</frm>:
+        kiaj ajn estas <frm am="x,y"><k>x</k>, <k>y</k></frm>, 
+        kaj por &ccirc;iu <frm am="t in [0,1]"><k>t</k>&#8712;[0,1]</frm>:
         <ekz>
           la surfaco situanta super grafika&jcirc;o de <tld/>a reela
           funkcio estas mem <tld/>a.
@@ -110,7 +111,7 @@ tip="amb">
       </dif>
       <ref tip="ant" cel="konkav.0a.bildigo">konkava.</ref>
       <rim>
-        Se egaleco okazas, nur kiam <frm><k>t</k></frm> egalas
+        Se egaleco okazas, nur kiam <frm am="t"><k>t</k></frm> egalas
         al <frm>0</frm> a&ubreve; <frm>1</frm>, oni diras, ke la bildigo
         
         estas strikte <tld/>a.
@@ -149,7 +150,13 @@ tip="amb"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr></trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: konvek.xml,v $
+versio 1.27 2020/02/15 16:10:15
+Wolfram Diestel: formuloj per am
+
+Revision 1.26  2018/05/21 14:10:16  revo
+Dusan Juretic: +trd es
+
 Revision 1.25  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -166,8 +173,5 @@ Revision 1.21  2006/11/18 17:30:31  revo
 Tulio Flores: +tr pt
 
 Revision 1.20  2004/11/11 17:31:11  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.19  2004/08/13 16:32:01  revo
 -->
 </vortaro>
