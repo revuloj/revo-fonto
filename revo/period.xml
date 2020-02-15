@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
  
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: period.xml,v 1.38 2020/02/16 00:10:38 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>period</rad>/o <fnt><bib>PV</bib></fnt>
@@ -29,15 +29,15 @@
     <fnt><bib>EKV</bib><lok>&para;333</lok></fnt>
     <dif>
       <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref>
-        <frm><k>f</k></frm>)</klr>
-      &Ccirc;iu tia reelo <frm>T</frm>, ke
-      <frm><k>f</k>(<k>x</k>+T) = <k>f</k>(<k>x</k>)</frm>,
-      kiu ajn estas <frm><k>x</k></frm>; pli specife: la
+        <frm am="f"><k>f</k></frm>)</klr>
+      &Ccirc;iu tia reelo <frm am="T">T</frm>, ke
+      <frm am="f(x+T)=f(x)"
+      ><k>f</k>(<k>x</k>+T) = <k>f</k>(<k>x</k>)</frm>,
+      kiu ajn estas <frm am="x"><k>x</k></frm>; pli specife: la
       plej malgranda el tiuj nombroj:
       <ekz>
         la funkcio <ref cel="sinus.0o.funkcio">sinuso</ref> havas
-        <tld/>on
-        <frm>2&pi;</frm>.
+        <tld/>on <frm am="2pi">2&pi;</frm>.
       </ekz>
     </dif>
     <rim>
@@ -303,7 +303,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: period.xml,v $
+versio 1.38 2020/02/16 00:10:38
+Wolfram Diestel: formuloj per am
+
+Revision 1.37  2019/06/29 22:10:17  revo
+Jeromo Vasxe: + mandat~o
+
 Revision 1.36  2018/04/06 09:10:21  revo
 Dmitri Gabinski: +trd be
 
@@ -320,8 +326,5 @@ Revision 1.32  2015/06/29 16:40:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.31  2014/12/17 00:10:25  revo
-Jeromo Vasxe: + ~igi
-
-Revision 1.30  2012/08/04 17:10:21  revo
 -->
 </vortaro>
