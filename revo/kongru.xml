@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kongru.xml,v 1.32 2020/02/15 10:10:35 revo Exp $">
 <kap>
   <rad>kongru</rad>/i <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -124,7 +124,7 @@
     <dif>
       Esti <ref cel="kongru.0a.MAT"><tld/>a<sncref/></ref>:
       <ekz>
-        se du reeloj <tld/>as la&ubreve; modulo <frm>&pi;</frm>, iliaj
+        se du reeloj <tld/>as la&ubreve; modulo <frm am="pi">&pi;</frm>, iliaj
         <ref cel="sinus.0o.funkcio">sinusoj</ref> estas
         <ref cel="egal.kontraux0a">kontra&ubreve;egalaj</ref>;
       </ekz>
@@ -134,11 +134,11 @@
       </ekz>
     </dif>
     <rim>
-      Oni diras sendistinge <ctl><frm><k>x</k></frm> kaj
-      <frm><k>y</k></frm>
-      <tld/>as la&ubreve; modulo <frm>&my;</frm></ctl>, a&ubreve;
-      <ctl><frm><k>x</k></frm> <tld/>as kun/je <frm><k>y</k></frm> la&ubreve;
-      modulo <frm>&my;</frm></ctl>.
+      Oni diras sendistinge <ctl><frm am="x"><k>x</k></frm> kaj
+      <frm am="y"><k>y</k></frm>
+      <tld/>as la&ubreve; modulo <frm am="mu">&my;</frm></ctl>, a&ubreve;
+      <ctl><frm am="x"><k>x</k></frm> <tld/>as kun/je 
+      <frm am="y"><k>y</k></frm> la&ubreve; modulo <frm am="mu">&my;</frm></ctl>.
       Anstata&ubreve; <ctl><tld/>i</ctl> eblas diri <ctl>esti <tld/>a</ctl>,
       kaj anstata&ubreve; <ctl>la&ubreve; modulo</ctl> eblas diri
       <ctl>module</ctl>.
@@ -227,11 +227,12 @@
       <fnt><bib>MatTerm</bib><lok>p. 11</lok></fnt>
       <dif>
         <klr>(p.p. du <ref cel="reel.0o.MAT">reeloj</ref>
-        <frm><k>x</k></frm> kaj <frm><k>y</k></frm>,
+        <frm am="x"><k>x</k></frm> kaj <frm am="y"><k>y</k></frm>,
         la&ubreve; la reela <ref cel="modul.0o.kongruo">modulo</ref>
-        <frm>&my;</frm>)</klr>
-        Tiaj, ke ilia diferenco estas entjera opo de <frm>&my;</frm>;
-        simb. <frm><k>x</k> &#8801; <k>y</k> [&my;]</frm>:
+        <frm am="mu">&my;</frm>)</klr>
+        Tiaj, ke ilia diferenco estas entjera opo de <frm
+        am="mu">&my;</frm>;
+        simb. <frm am="x equiv y [mu]"><k>x</k> &#8801; <k>y</k> [&my;]</frm>:
         <ekz>
           <frm>1111</frm> kaj <frm>4</frm> estas <tld/>aj
           la&ubreve; modulo <frm>9</frm>;
@@ -435,7 +436,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: kongru.xml,v $
+versio 1.32 2020/02/15 10:10:35
+Wolfram Diestel: formuloj per am
+
+Revision 1.31  2019/09/03 08:10:15  revo
+Marc Bavant: ~i MAT: kor ekz pri sinuso (reveno al redakto de 2003!)
+
 Revision 1.30  2017/02/15 15:10:23  revo
 Jeromo Vasxe: maharmonie -> malharmonie
 
@@ -452,8 +459,5 @@ Revision 1.26  2013/05/09 07:10:10  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.25  2013/04/08 05:10:09  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.24  2012/12/15 02:10:07  revo
 -->
 </vortaro>
