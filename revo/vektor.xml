@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: vektor.xml,v 1.28 2020/02/16 00:10:44 revo Exp $">
 <kap>
 <rad>vektor</rad>/o
 </kap>
@@ -16,7 +16,8 @@
       <ref tip="malprt" cel="modul.0o.strukt">modulo</ref> a&ubreve;
       <ref tip="malprt" cel="spac.vektora0o">vektora spaco</ref>:
       <ekz>
-        <ref cel="norm.0o.MAT">normo</ref> estas funkcio kiu asignas pozitivan longon a&ubreve; amplekson al &ccirc;iu <tld/>oj en
+        <ref cel="norm.0o.MAT">normo</ref> estas funkcio kiu asignas
+        pozitivan longon a&ubreve; amplekson al &ccirc;iu <tld/>oj en
         <tld/>a spaco, escepte la nula <tld/>o
         <fnt>
           <bib>Viki</bib>
@@ -26,11 +27,14 @@
       </ekz>
       <ekz>
         skalara produto a&ubreve; punkta produto de du <tld/>oj
-        <frm><g>a</g></frm>
-        kaj <frm><g>b</g></frm>, <klr>[&#8230;]</klr>
-        <frm><g>a</g>&#8239;&middot;&#8239;<g>b</g></frm> <klr>[&#8230;]</klr> estas 
-        <frm>|<g>a</g>|&#8239;|<g>b</g>|&#8239;<k>cos&#8239;&theta;</k></frm>,
-        kie &theta; estas la angulo inter la vektoroj <frm><g>a</g></frm> kaj <frm><g>b</g></frm>
+        <frm am="bb a"><g>a</g></frm>
+        kaj <frm am="bb b"><g>b</g></frm>, 
+        <frm am="bb a*bb b"><g>a</g>&#8239;&middot;&#8239;<g>b</g></frm> 
+        estas 
+        <frm am="|bb a||bb b|cos theta">|<g>a</g>|&#8239;|<g>b</g>|&#8239;<k>cos
+&theta;</k></frm>,
+        kie <frm am="theta">&theta;</frm> estas la angulo inter la vektoroj 
+        <frm am="bb a"><g>a</g></frm> kaj <frm am="bb b"><g>b</g></frm>
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=32145"
@@ -52,7 +56,8 @@
         ondo-<tld/>o;
       </ekz>
       <ekz>
-        onda <tld/>o <klr>[&#8230;]</klr>, montranta direkton de ondo kaj priskribanta
+        onda <tld/>o <klr>[&#8230;]</klr>, montranta direkton de ondo kaj
+        priskribanta
         oscilojn de ondo en spaco
         <fnt>
           <bib>Viki</bib>
@@ -78,9 +83,11 @@
   <snc mrk="vektor.0o.BAK">
     <uzo tip="fak">BAK</uzo>
     <dif>
-      Organismo, transportante malsanon de unu malsanulo al alia sen mem malsani&gcirc;i:
+      Organismo, transportante malsanon de unu malsanulo al alia sen mem
+      malsani&gcirc;i:
       <ekz>
-        japana encefalito <klr>[&#8230;]</klr> &dash; inter &ccirc;efaj <tld/>oj de tiu malsano estas la
+        japana encefalito <klr>[&#8230;]</klr> &#8208; inter &ccirc;efaj <tld/>oj de tiu
+        malsano estas la
         kuloj
         <fnt>
           <bib>Viki</bib>
@@ -89,11 +96,13 @@
         </fnt>;
       </ekz>
       <ekz>
-        la <tld/>o estas la Maloneja viruso kiu ka&ubreve;zas virusan le&ubreve;kemion en la muso,
+        la <tld/>o estas la Maloneja viruso kiu ka&ubreve;zas virusan le&ubreve;kemion
+        en la muso,
         estas retroviruso
         <fnt>
           <aut>Anthony Lucas</aut>
-          <vrk><url ref="http://www.eventoj.hu/steb/biologio/ekzemplo-de-genetika-terapio-en-francio.pdf"
+          <vrk><url
+          ref="http://www.eventoj.hu/steb/biologio/ekzemplo-de-genetika-terapio-en-francio.pdf"
               >Ekzemplo de genetika Terapio en Francujo</url></vrk>
         </fnt>.
       </ekz>
@@ -104,7 +113,8 @@
   <snc mrk="vektor.0o.RET">
     <uzo tip="fak">RET</uzo><uzo tip="fak">KOMP</uzo>
     <dif>
-      Kombino de specifaj sekurec-vundeblecoj uzataj por infekti komputilan sistemon; atako<tld/>o.
+      Kombino de specifaj sekurec-vundeblecoj uzataj por infekti
+      komputilan sistemon; atako<tld/>o.
     </dif>
     <trd lng="de">Angriffsvektor <klr>(Computer)</klr></trd>
   </snc>
@@ -144,7 +154,8 @@
       <ekz>
         akcelo okazas &ccirc;iam, kiam la <tld/>a rapido &scirc;an&gcirc;i&gcirc;as
         <fnt>
-          <vrk><url ref="https://esperantosudtirolo.files.wordpress.com/2013/04/2_fiziklibro9.pdf"
+          <vrk><url
+          ref="https://esperantosudtirolo.files.wordpress.com/2013/04/2_fiziklibro9.pdf"
               >Movo kaj forto</url></vrk>
         </fnt>.
       </ekz>
@@ -181,7 +192,8 @@
       <ref cel="nul0.0o.neuxtra">nulo</ref> de la koncerna
       modulo:
       <ekz>
-        la aro de &ccirc;iuj nul<tld/>oj je evento en spaco de <nom>Minkowski</nom> estas la luma konuso
+        la aro de &ccirc;iuj nul<tld/>oj je evento en spaco de
+        <nom>Minkowski</nom> estas la luma konuso
         de la evento
         <fnt>
           <bib>Viki</bib>
@@ -216,10 +228,11 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm>P</frm> en 
+      <klr>(de punkto <frm am="P">P</frm> en 
       <ref cel="spac.afina0o">afina spaco</ref>,
-      rilate al rimarkinda punkto <frm>O</frm>)</klr>
-      La <tld/>o <frm>P-O</frm>, a&ubreve; la streko <frm>OP</frm>:
+      rilate al rimarkinda punkto <frm am="O">O</frm>)</klr>
+      La <tld/>o <frm am="P-O">P-O</frm>, a&ubreve; la streko <frm
+      am="bar(OP)">OP</frm>:
       <ekz>
         la radius<tld/>o de iu punkto de la korpo
         <fnt>
@@ -244,8 +257,11 @@
   <rim>
     &Ccirc;i tiu termino, ne tre klare analizebla, devenas tra la naciaj
     
-    lingvoj el latina&jcirc;o signifanta <ctl>radio, kiu estas portanto</ctl>,
-    kaj ne estas hazardo, se <nom>Bricard</nom> <fnt><bib>MatTerm</bib><lok>p.
+    lingvoj el latina&jcirc;o signifanta <ctl>radio, kiu estas
+    
+    portanto</ctl>,
+    kaj ne estas hazardo, se <nom>Bricard</nom>
+    <fnt><bib>MatTerm</bib><lok>p.
     33</lok></fnt> konas la terminon sub formo <ctl>vektora radio</ctl>.
     Nemirinde do, ke en naciaj lingvoj la termino ofte montras al iu
     streko kun ofta glito al <ctl>longo de tiu streko</ctl> (vd 
@@ -292,7 +308,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: vektor.xml,v $
+versio 1.28 2020/02/16 00:10:44
+Wolfram Diestel: formuloj per am
+
+Revision 1.27  2019/09/06 15:10:15  revo
+Wolfram Diestel: +ekz-oj, snc BAK kaj RET
+
 Revision 1.26  2018/06/20 03:10:17  revo
 Dusan Juretic: +trd es
 
@@ -309,8 +331,5 @@ Revision 1.22  2008/07/16 16:30:42  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.21  2003/04/11 16:33:29  revo
-Marc Bavant: radius~o: mod rim
-
-Revision 1.20  2003/04/07 16:36:58  revo
 -->
 </vortaro>
