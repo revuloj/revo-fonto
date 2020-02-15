@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: konsta.xml,v 1.32 2020/02/15 11:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konstant</rad>/a <fnt><bib>PV</bib></fnt>
@@ -106,10 +106,10 @@ sen&scirc;an&gcirc;a, sen&ccirc;esa,
         <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>)</klr>
         Tia, ke &gcirc;ia bildaro enhavas nur unu elementon:
         <ekz>
-          la polinoma funkcio <frm><k>x</k><sup>2</sup>+<k>x</k></frm>
+          la polinoma funkcio <frm am="x^2+x"
+          ><k>x</k><sup>2</sup>+<k>x</k></frm>
           ne estas <tld/>a, se konsiderata kiel reela funkcio, sed ja
-          estas,
-          se konsiderata kiel funkcio super la korpo de
+          estas, se konsiderata kiel funkcio super la korpo de
           <frm>2</frm>-modulaj restoklasoj;
         </ekz>
         <ekz>
@@ -345,7 +345,13 @@ cel="indic.0o.familio">indico</ref>
 </drv>
 </art>
 <!--
-$Log$
+$Log: konsta.xml,v $
+versio 1.32 2020/02/15 11:10:19
+Wolfram Diestel: formuloj per am
+
+Revision 1.31  2018/03/13 12:10:24  revo
+Michel Cantigneaux: konstante, fundamenta vorto de la Antauxparolo
+
 Revision 1.30  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -362,8 +368,5 @@ Revision 1.26  2013/05/08 11:10:12  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.25  2012/04/25 09:10:08  revo
-Mireille Corobu: +ekz konstanto de Avogadro kun ligo al Avogadro
-
-Revision 1.24  2006/11/30 18:43:22  revo
 -->
 </vortaro>
