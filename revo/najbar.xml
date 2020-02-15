@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: najbar.xml,v 1.34 2020/02/15 20:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>najbar</rad>/o
@@ -125,16 +125,19 @@
     <subsnc mrk="najbar.0a.en_orda_aro">
       <fnt><bib>EKV</bib><lok>&para;288</lok></fnt>
       <dif>
-        <klr>(p.p. elementoj <frm><k>a</k></frm> kaj <frm><k>b</k></frm>
-        de
+        <klr>(p.p. elementoj <frm am="a"><k>a</k></frm> kaj 
+        <frm am="b"><k>b</k></frm> de
         <ref cel="ar.orda0o">orda aro</ref>
-        <frm>(<g>E</g>,&#8804;)</frm>)</klr>
-        Tiaj, ke ne ekzistas tia elemento <frm><k>c</k></frm>,
-        ke <frm><k>a</k> &lt; <k>c</k> &lt; <k>b</k></frm> a&ubreve;
-        <frm><k>b</k> &lt; <k>c</k> &lt; <k>a</k></frm>:
+        <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
+        Tiaj, ke ne ekzistas tia elemento <frm am="c"><k>c</k></frm>,
+        ke <frm am="a lt c lt b"><k>a</k> &lt; <k>c</k> &lt;
+        <k>b</k></frm> a&ubreve;
+        <frm am="b lt c lt a"><k>b</k> &lt; <k>c</k> &lt;
+        <k>a</k></frm>:
         <ekz>
-          entjero <frm><k>n</k></frm> estas <tld/>a
-          nur kun <frm><k>n</k>+1</frm> kaj <frm><k>n</k>-1</frm>;
+          entjero <frm am="n"><k>n</k></frm> estas <tld/>a
+          nur kun <frm am="n+1"><k>n</k>+1</frm> kaj 
+          <frm am="n-1"><k>n</k>-1</frm>;
         </ekz>
         <ekz>
           du racionaloj neniam povas esti <tld/>aj.
@@ -338,7 +341,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: najbar.xml,v $
+versio 1.34 2020/02/15 20:10:16
+Wolfram Diestel: formuloj per am
+
+Revision 1.33  2015/07/21 07:10:16  revo
+Guillermo Molleda Jimena: trd es
+
 Revision 1.32  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -355,8 +364,5 @@ Revision 1.28  2010/08/20 16:30:22  revo
 Wieland Pusch: +trd bg
 
 Revision 1.27  2010/08/03 16:31:05  revo
-Russ Williams: +trd en
-
-Revision 1.26  2009/08/25 16:33:08  revo
 -->
 </vortaro>
