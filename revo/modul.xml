@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: modul.xml,v 1.36 2020/02/15 19:10:21 revo Exp $">
 <kap>
   <rad>modul</rad>/o
 </kap>
@@ -34,11 +34,14 @@ n&eacute;zve</trd></trdgrp>
 <ind>&c_m;&c_o;&c_d;&c_u;&c_l;&c_ju;</ind></trd>
       </ekz>
       <ekz>
-        <klr>[en]</klr> Hebrea kalendaro,<klr>[&#8230;]</klr> jaro estas superjaro se 
-        la resto post divido de 19 (jaro <tld/>o 19) estas 0, 3, 6, 8, 11, 14 a&ubreve; 17
+        <klr>[en]</klr> Hebrea kalendaro,<klr>[&#8230;]</klr> jaro estas
+        superjaro se 
+        la resto post divido de 19 (jaro <tld/>o 19) estas 0, 3, 6, 8,
+        11, 14 a&ubreve; 17
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=1699">Hebrea kalendaro</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1699">Hebrea
+          kalendaro</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -78,11 +81,13 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
       </ekz>
       <ekz>
         <uzo tip="fak">TEK</uzo>
-        la 20an de novembro 1998 Rusio pafis la unuan ISS-<tld/>on Sarja kiel komponanton de la estonta laboratorio
+        la 20an de novembro 1998 Rusio pafis la unuan ISS-<tld/>on Sarja
+        kiel komponanton de la estonta laboratorio
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="&Monato;/2009/009681.php">Politika sukceso, scienca fiasko</url></vrk>
+          <vrk><url ref="&Monato;/2009/009681.php">Politika sukceso,
+          scienca fiasko</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -99,23 +104,27 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
 &leftquot;ring-modulo&rightquot;</lok></fnt>
     <dif>
       <klr>(super <ref cel="unu.0hava">unuhava</ref>
-      <ref cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>)</klr>
+      <ref cel="ring.0o.MAT">ringo</ref> <frm am="bb
+      R"><g>R</g></frm>)</klr>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm>(<g>M</g>,+,&#8729;)</frm>, ke <frm>(<g>M</g>,+)</frm> estas
+      <frm am="(bb M,+,*)">(<g>M</g>,+,&#8729;)</frm>, ke 
+      <frm am="(bb M,+)">(<g>M</g>,+)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>; <frm>&#8729;</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>; <frm am="*">&#8729;</frm> estas
       <ref cel="operac.ekstera0o">ekstera operacio</ref>
-      de <frm><g>R</g></frm> super <frm><g>M</g></frm>;
-      kaj por &ccirc;iuj <frm>&alfa;, &beta;&#8712;<g>R</g></frm>
-      kaj <frm><k>x</k>, <k>y</k>&#8712;<g>M</g></frm> veras, ke :
-      (1) <frm>(&alfa;+&beta;)&#8729;<k>x</k> =
-      &alfa;&#8729;<k>x</k>+&beta;&#8729;<k>x</k></frm>;
-      (2) <frm>&alfa;&#8729;(<k>x</k>+<k>y</k>) =
-      &alfa;&#8729;<k>x</k>+&alfa;&#8729;<k>y</k></frm>;
-      (3) <frm>(&alfa;×&beta;)&#8729;<k>x</k> =
-      &alfa;&#8729;(&beta;&#8729;<k>x</k>)</frm>;
-      kaj (4) <frm>1&#8729;<k>x</k> = <k>x</k></frm>.
+      de <frm am="bb R"><g>R</g></frm> super <frm am="bb
+      M"><g>M</g></frm>;
+      kaj por &ccirc;iuj <frm am="alpha,beta in bb R">&alfa;, &beta;&#8712;<g>R</g></frm>
+      kaj <frm am="x,y inbb M"><k>x</k>, <k>y</k>&#8712;<g>M</g></frm> veras,
+      ke:
+      (1) <frm am="(alpha+beta)*x=alpha*x+beta*x"
+      >(&alfa;+&beta;)&#8729;<k>x</k> = &alfa;&#8729;<k>x</k>+&beta;&#8729;<k>x</k></frm>;
+      (2) <frm am="alpha*(x+y)=alpha*x+beta*y"
+      >&alfa;&#8729;(<k>x</k>+<k>y</k>) = &alfa;&#8729;<k>x</k>+&alfa;&#8729;<k>y</k></frm>;
+      (3) <frm am="(alpha xx beta)*x = alpha*(beta*x)"
+      >(&alfa;&#215;&beta;)&#8729;<k>x</k> = &alfa;&#8729;(&beta;&#8729;<k>x</k>)</frm>;
+      kaj (4) <frm am="1*x=x">1&#8729;<k>x</k> = <k>x</k></frm>.
     </dif>
     <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
     <refgrp tip="sub">
@@ -144,16 +153,17 @@ pier&sacute;cieniem)</klr></trd>
     <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
     <dif>
       <klr>(de <ref cel="komple.0o.MAT">komplekso</ref>
-      <frm><k>a</k>+<k>i</k>.<k>b</k></frm>)</klr>
+      <frm am="a+i*b"><k>a</k>+<k>i</k>&middot;<k>b</k></frm>)</klr>
       La kvadrata radiko de
-      <frm><k>a</k><sup>2</sup>+<k>b</k><sup>2</sup></frm>:
+      <frm am="a^2+b^2"><k>a</k><sup>2</sup>+<k>b</k><sup>2</sup></frm>:
       <ekz>
-        la kompleksoj kun <tld/>o <frm>&rho;</frm> estas prezenteblaj per
-        <frm>&rho;<k>e</k><sup><k>i</k>&theta;</sup></frm>;
+        la kompleksoj kun <tld/>o <frm am="rho">&rho;</frm> estas
+        prezenteblaj per
+        <frm am="rho e^(i theta)">&rho;<k>e</k><sup><k>i</k>&theta;</sup></frm>;
       </ekz>
       <ekz>
-        la <tld/>on de <frm><k>z</k></frm> oni signas per
-        <frm>|<k>z</k>|</frm>;
+        la <tld/>on de <frm am="z"><k>z</k></frm> oni signas per
+        <frm am="|z|">|<k>z</k>|</frm>;
       </ekz>
       <ekz>
         la <tld/>o de reelo egalas al &gcirc;ia
@@ -180,7 +190,8 @@ zespolonej)</klr></trd>
   </snc>
 
   <rim>
-    Vd <ref tip="hom" cel="modul1.0i">moduli</ref> <klr>(sonon, signalon)</klr>.
+    Vd <ref tip="hom" cel="modul1.0i">moduli</ref> <klr>(sonon,
+    signalon)</klr>.
   </rim>
 
   <trdgrp lng="cs">
@@ -200,8 +211,8 @@ zespolonej)</klr></trd>
   <snc mrk="modul.sub0o.strukt">
     <dif>
       <klr>(de <ref cel="modul.0o.strukt"><tld/>o</ref>
-      <frm>(<g>M</g>,+,&#8729;)</frm>)</klr>
-      Tia subaro de <frm><g>M</g></frm>, ke &gcirc;i egalas al la
+      <frm am="(bb M,+,*)">(<g>M</g>,+,&#8729;)</frm>)</klr>
+      Tia subaro de <frm am="bb M"><g>M</g></frm>, ke &gcirc;i egalas al la
       subaro, kiun &gcirc;i <ref cel="nask.0i.MAT">naskas</ref>:
       <ekz>
         la <ref cel="kern.0o.homomorfio">kerno</ref> kaj
@@ -214,11 +225,16 @@ zespolonej)</klr></trd>
         sub<tld/>o estas mem <tld/>o;
       </ekz>
       <ekz>
-        simpla <tld/>o <frm><k>S</k></frm> estas <tld/>o kiu estas ne <frm>{<k>0</k>}</frm> 
-        kaj solaj sub<tld/>oj <klr>[&#8230;]</klr> estas <frm>{<k>0</k>}</frm> kaj <frm><k>S</k></frm>
+        simpla <tld/>o <frm am="S"><k>S</k></frm> estas <tld/>o kiu
+        estas ne 
+        <frm>{<k>0</k>}</frm> 
+        kaj solaj sub<tld/>oj <klr>[&#8230;]</klr> estas <frm>{<k>0</k>}</frm>
+        kaj 
+        <frm am="S"><k>S</k></frm>
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=87314">Modulo (matematiko)</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=87314"
+          >Modulo (matematiko)</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -234,12 +250,19 @@ zespolonej)</klr></trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: modul.xml,v $
+versio 1.36 2020/02/15 19:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.35  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
 Revision 1.34  2018/01/03 19:10:23  revo
 Wolfram Diestel: +ekz-oj
 
 Revision 1.33  2017/12/26 18:10:15  revo
-Wolfram Diestel: apartigis ~i en propran artikolon, shanghis vicordon de la sencoj
+Wolfram Diestel: apartigis ~i en propran artikolon, shanghis vicordon de
+la sencoj
 
 Revision 1.32  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
@@ -249,13 +272,5 @@ aldono de trd sk per skripto de M. von Laer
 
 Revision 1.30  2014/11/04 12:10:15  revo
 Guillermo Molleda Jimena: trd es
-
-Revision 1.29  2005/01/24 19:03:24  revo
-Wieland Pusch: +trd de
-
-Revision 1.28  2005/01/23 17:32:28  revo
-Wieland Pusch: +trd de
-
-Revision 1.27  2004/08/19 16:32:55  revo
 -->
 </vortaro>
