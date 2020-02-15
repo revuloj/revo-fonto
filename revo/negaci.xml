@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: negaci.xml,v 1.20 2020/02/15 20:10:20 revo Exp $">
 <kap>
   <rad>negaci</rad>/o
   <fnt>Z</fnt>
@@ -32,20 +32,20 @@
     <dif>
       <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
       kiu al <ref cel="propoz.0o.aserto">propozicio</ref>
-      <frm>P</frm> asocias la propozicion, kiu estas vera, 
-      se kaj nur se <frm>P</frm> estas falsa:
+      <frm am="P">P</frm> asocias la propozicion, kiu estas vera, 
+      se kaj nur se <frm am="P">P</frm> estas falsa:
       <ekz>
-        la <tld/>on de <frm>P</frm> oni kutime signas per
-        <frm>&#172;P</frm> <klr>(legu: ne po)</klr>;
+        la <tld/>on de <frm am="P">P</frm> oni kutime signas per
+        <frm am="neg P">&#172;P</frm> <klr> (legu: ne po)</klr>;
       </ekz>
       <ekz>
         la <tld/>o de propozicio 
-        <ctl><frm><k>a</k>&#8712;<g>A</g></frm></ctl> estas
-        <ctl><frm><k>a</k>&#8713;<g>A</g></frm></ctl>;
+        <ctl><frm am="a in bb A"><k>a</k>&#8712;<g>A</g></frm></ctl> estas
+        <ctl><frm am="a ne bb A"><k>a</k>&#8713;<g>A</g></frm></ctl>;
       </ekz>
       <ekz>
-        la <tld/>o de propozicio <frm>P&#8744;Q</frm> estas
-        <frm>&#172;P&#8743;&#172;Q</frm> 
+        la <tld/>o de propozicio <frm am="P vv Q">P&#8744;Q</frm> estas
+        <frm am="neg P ^^ neg Q">&#172;P&#8743;&#172;Q</frm> 
         <klr>(legu: ne po kaj ne kuo)</klr>.
       </ekz>
     </dif>
@@ -72,16 +72,22 @@
   </snc>
   <trdgrp lng="cs">
     <trd>negace</trd>,
-    <trd>zápor</trd>
+    <trd>z&aacute;por</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>negácia</trd>,
-    <trd>zápor</trd>
+    <trd>neg&aacute;cia</trd>,
+    <trd>z&aacute;por</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
-$Log$
+$Log: negaci.xml,v $
+versio 1.20 2020/02/15 20:10:20
+Wolfram Diestel: formuloj per am
+
+Revision 1.19  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.18  2015/06/29 16:33:21  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -98,14 +104,5 @@ Revision 1.14  2004/02/17 17:32:11  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.13  2003/02/24 17:33:54  revo
-Marc Bavant: +bld
-
-Revision 1.12  2003/01/02 17:48:59  revo
-Marc Bavant: ~o: kor trd pl
-Revision 1.11  2002/11/30 17:36:31  revo
-Marc Bavant: +frm, +trd pl, mod "legu"
-Revision 1.10  2002/10/14 16:33:27  revo
-Jozefo Horvath: +trd hu
-Revision 1.9  2002/06/08 17:32:32  revo
 -->
 </vortaro>
