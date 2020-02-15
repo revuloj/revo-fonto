@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: komple.xml,v 1.36 2020/02/15 10:10:29 revo Exp $">
 <kap>
   <rad>kompleks</rad>/a <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -42,15 +42,17 @@
     <fnt><bib>PIV1</bib></fnt>
     <dif>
       <klr>(p.p. <ref cel="nombr.0o.MAT">nombro</ref>)</klr>
-      De la tipo <frm><k>a</k>+<k>i</k>.<k>b</k></frm>, kie 
-      <frm><k>a</k>, <k>b</k></frm> estas <ref
+      De la tipo <frm
+      am="a+i*b"><k>a</k>+<k>i</k>&middot;<k>b</k></frm>, kie 
+      <frm am="a,b"><k>a</k>, <k>b</k></frm> estas <ref
       cel="reel.0o.MAT">reeloj</ref>
-      kaj <frm><k>i</k><sup>2</sup> = -1</frm>; rilata al tia nombro:
+      kaj <frm am="i^2=-1"><k>i</k><sup>2</sup> = -1</frm>;
+      rilata al tia nombro:
       <ekz>
-        la aro <frm><g>C</g></frm> de &ccirc;iuj <tld/>aj nombroj konsistigas
-        <ref cel="korp.0o.MAT">korpon</ref>, kiu samtempe estas
-        dudimensia reela
-        <ref cel="spac.vektora0o">vektora spaco</ref>;
+        la aro <frm am="bb C"><g>C</g></frm> de &ccirc;iuj <tld/>aj nombroj 
+        konsistigas <ref cel="korp.0o.MAT">korpon</ref>, kiu samtempe
+        estas
+        dudimensia reela <ref cel="spac.vektora0o">vektora spaco</ref>;
       </ekz>
       <ekz>
         <tld/>a funkcio <klr>(kies valoroj estas <tld/>aj)</klr>, ebeno
@@ -165,7 +167,8 @@
       <ctl><tld/>a nombro</ctl>, kiel nocion iom pli vastan, nome
       linearaj
       kombina&jcirc;oj de pluraj <ctl>unuoj</ctl> 
-      <frm><k>i</k><sub>1</sub>, <k>i</k><sub>2</sub>,... 
+      <frm am="i_1,i_2,...,i_n"><k>i</k><sub>1</sub>,
+      <k>i</k><sub>2</sub>,... 
       <k>i</k><sub><k>n</k></sub></frm>, 
       al kiuj oni altrudas specifan multiplikan operacion (nun oni nomas
       tiajn
@@ -364,7 +367,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: komple.xml,v $
+versio 1.36 2020/02/15 10:10:29
+Wolfram Diestel: formuloj per am
+
+Revision 1.35  2019/05/03 22:10:18  revo
+Vito Redsky: +trd ro +trd pl
+
 Revision 1.34  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -381,8 +390,5 @@ Revision 1.30  2010/04/30 12:25:48  revo
 Jeromo Vasxe: + ~o snc psi, + edipa ~o, + ~o de malplivaloreco
 
 Revision 1.29  2007/01/05 17:30:14  revo
-Tulio Flores: +tr pt
-
-Revision 1.28  2005/01/24 19:03:13  revo
 -->
 </vortaro>
