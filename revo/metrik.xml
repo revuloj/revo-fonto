@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: metrik.xml,v 1.23 2020/02/15 18:10:36 revo Exp $">
 <kap>
 <ofc>2</ofc>
 <rad>metrik</rad>/o
@@ -28,16 +28,20 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(en aro <frm><g>M</g></frm>)</klr>
+      <klr>(en aro <frm am="bb M"><g>M</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>d</k></frm> de <frm><g>M</g>&#215;<g>M</g></frm> al la aro de 
+      <frm am="d"><k>d</k></frm> de <frm am="bb M xx bb M"
+      ><g>M</g>&#215;<g>M</g></frm> al la aro de 
       pozitivaj reeloj, ke por &ccirc;iuj elementoj 
-      <frm><k>x</k>, <k>y</k>, <k>z</k>&#8712;<g>M</g></frm> veras, ke:
-      (1) <frm><k>d</k>(<k>x</k>,<k>y</k>) = 0</frm>, 
-         se kaj nur se <frm><k>x</k> = <k>y</k></frm>;
-      (2) <frm><k>d</k>(<k>x</k>,<k>y</k>) =
-      <k>d</k>(<k>y</k>,<k>x</k>)</frm>;
-      (3) <frm><k>d</k>(<k>x</k>,<k>z</k>) &#8804; 
+      <frm am="x,y,z in bb M"><k>x</k>, <k>y</k>,
+      <k>z</k>&#8712;<g>M</g></frm> 
+      veras, ke:
+      (1) <frm am="d(x,y)=0"><k>d</k>(<k>x</k>,<k>y</k>) = 0</frm>, 
+         se kaj nur se <frm am="x=y"><k>x</k> = <k>y</k></frm>;
+      (2) <frm am="x(x,y)=d(y,x)"
+      ><k>d</k>(<k>x</k>,<k>y</k>) = <k>d</k>(<k>y</k>,<k>x</k>)</frm>;
+      (3) <frm am="d(x,z) le d(x,y)+d(y,z)"><k>d</k>(<k>x</k>,<k>z</k>)
+      &#8804; 
       <k>d</k>(<k>x</k>,<k>y</k>)+<k>d</k>(<k>y</k>,<k>z</k>)</frm>:
       <ekz>
         la <ref cel="valor.absoluta0o">absoluta valoro</ref> de la
@@ -53,10 +57,11 @@
     </refgrp>
     <rim>
       <tld lit="M"/>o estas matematika formaligo de la nocio distanco.
-      La valoron <frm><k>d</k>(<k>x</k>,<k>y</k>)</frm> oni kutime nomas
-      distanco 
-      inter <ctl>punktoj</ctl> <frm><k>x</k></frm> kaj
-      <frm><k>y</k></frm>. 
+      La valoron <frm am="d(x,y)"><k>d</k>(<k>x</k>,<k>y</k>)</frm> oni
+      kutime 
+      nomas distanco inter <ctl>punktoj</ctl> <frm am="x"><k>x</k></frm>
+      kaj
+      <frm am="y"><k>y</k></frm>. 
       La tria aksiomo, foje nomata <ctl>triangula 
       neegala&jcirc;o</ctl>, signifas, ke la <ctl>rekta</ctl> vojo de iu
       punkto 
@@ -81,7 +86,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: metrik.xml,v $
+versio 1.23 2020/02/15 18:10:36
+Wolfram Diestel: formuloj per am
+
+Revision 1.22  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.21  2015/06/29 16:33:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -98,14 +109,5 @@ Revision 1.17  2004/06/10 16:32:12  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.16  2003/05/25 17:03:16  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2003/04/07 16:36:11  revo
-Marc Bavant: ~o MAT: mod frm
-
-Revision 1.14  2002/11/30 17:36:11  revo
-Marc Bavant: +frm, +trd pl; ~o MAT: mod dif, sxovis trd fr
-Revision 1.13  2002/06/02 17:33:15  revo
-Marc Bavant: kor "sse"
 -->
 </vortaro>
