@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: permut.xml,v 1.23 2020/02/16 00:10:39 revo Exp $">
 <kap>
   <rad>permut</rad>/i <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -61,13 +61,15 @@
     <dif>
       <ref tip="super" cel="bijekc.0o">Bijekcio</ref> de aro al
       &gcirc;i mem; pli speciale: bijekcio de aro
-      <frm>{1,2,... ,<k>n</k>}</frm> al &gcirc;i mem:
+      <frm am="{1,2,...,n}">{1,2,... ,<k>n</k>}</frm> al &gcirc;i mem:
       <ekz>
         <ind>cikla <tld/>o</ind> <klr>(kiu &jcirc;etas 
-        <frm>1</frm> al <frm><k>k</k></frm>,
-        <frm>2</frm> al <frm><k>k</k>+1</frm>,... ,
-        <frm>(<k>n</k>-<k>k</k>+2)</frm> al 1,... , 
-        <frm><k>n</k></frm> al <frm><k>k</k>-1</frm>)</klr>;
+        <frm>1</frm> al <frm am="k"><k>k</k></frm>,
+        <frm>2</frm> al <frm am="k+1"><k>k</k>+1</frm>,... ,
+        <frm am="(n-k+2)"
+        >(<k>n</k>-<k>k</k>+2)</frm> al 1,... , 
+        <frm am="n"><k>n</k></frm> al <frm
+        am="k-1"><k>k</k>-1</frm>)</klr>;
         <trd lng="be">&c_c;&c_y;&c_k;&c_l;&c_ib;&c_ch;&c_n;&c_a;&c_ja;
         <ind>&c_p;&c_je;&c_r;&c_a;&c_s;&c_t;&c_a;&c_n;&c_o;&c_w;&c_k;&c_a;</ind></trd>
         <trd lng="de">zyklische <ind>Vertauschung</ind></trd>
@@ -109,20 +111,22 @@
   <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
   <snc>
     <dif>
-      <klr>(de <frm><k>n</k></frm> elementoj)</klr>
+      <klr>(de <frm am="n"><k>n</k></frm> elementoj)</klr>
       &Ccirc;iu el la diversaj manieroj vicigi la elementojn 
-      de <frm><k>n</k></frm>-elementa aro:
+      de <frm am="n"><k>n</k></frm>-elementa aro:
       <ekz>
-        la nombro de <tld/>a&jcirc;oj de <frm><k>n</k></frm> elementoj estas
-        <ref cel="faktor5.0o">faktorialo</ref> de <frm><k>n</k></frm>;
+        la nombro de <tld/>a&jcirc;oj de <frm am="n"><k>n</k></frm> elementoj
+        estas
+        <ref cel="faktor5.0o">faktorialo</ref> de <frm
+        am="n"><k>n</k></frm>;
       </ekz>
       <ekz>
         la diversaj <tld/>a&jcirc;oj 
-        de la aro <frm>{<k>a</k>,<k>b</k>,<k>c</k>}</frm> 
+        de la aro <frm am="{a,b,c}">{<k>a</k>,<k>b</k>,<k>c</k>}</frm> 
         estas: 
-        <frm><k>abc</k></frm>, <frm><k>acb</k></frm>, 
-        <frm><k>bac</k></frm>, <frm><k>bca</k></frm>, 
-        <frm><k>cab</k></frm>, <frm><k>cba</k></frm>.
+        <frm am="abc"><k>abc</k></frm>, <frm am="acb"><k>acb</k></frm>, 
+        <frm am="bac"><k>bac</k></frm>, <frm am="bca"><k>bca</k></frm>, 
+        <frm am="cab"><k>cab</k></frm>, <frm am="cba"><k>cba</k></frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -132,12 +136,12 @@
     <rim>
       <ctl>Maniero vicigi elementojn</ctl> ne estas matematika objekto.
       Temas pri tradicia lingva&jcirc;o, kiu fakte referencas al la
-      <tld/>o: per <ctl><tld/>a&jcirc;o <frm><k>acb</k></frm></ctl>, 
+      <tld/>o: per <ctl><tld/>a&jcirc;o <frm am="acb"><k>acb</k></frm></ctl>, 
       konkreta skriba&jcirc;o, oni fakte referencas al la <tld/>o, 
       kiu &jcirc;etas 
-      <frm><k>a</k></frm> al <frm><k>a</k></frm>, 
-      <frm><k>b</k></frm> al <frm><k>c</k></frm> kaj
-      <frm><k>c</k></frm> al <frm><k>b</k></frm>.
+      <frm am="a"><k>a</k></frm> al <frm am="a"><k>a</k></frm>, 
+      <frm am="b"><k>b</k></frm> al <frm am="c"><k>c</k></frm> kaj
+      <frm am="c"><k>c</k></frm> al <frm am="b"><k>b</k></frm>.
     </rim>
   </snc>
   <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_s;&c_t;&c_a;&c_n;&c_o;&c_w;&c_k;&c_a; <klr tip="amb">(&c_z; n
@@ -154,7 +158,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: permut.xml,v $
+versio 1.23 2020/02/16 00:10:39
+Wolfram Diestel: formuloj per am
+
+Revision 1.22  2017/09/21 09:10:11  revo
+Jeromo Vasxe: + snc komuna
+
 Revision 1.21  2015/07/04 08:37:41  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -171,8 +181,5 @@ Revision 1.17  2003/07/17 16:33:35  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.16  2003/02/01 17:33:56  revo
-Marc Bavant: +trd pl
-
-Revision 1.15  2003/01/13 17:34:20  revo
 -->
 </vortaro>
