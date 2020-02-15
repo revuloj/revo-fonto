@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: radik.xml,v 1.49 2020/02/15 22:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>radik</rad>/o
@@ -148,7 +148,7 @@
       <dif>
         <klr>(de <ref cel="ekvaci.0o">ekvacio</ref>)</klr> Solvo de &gcirc;i:
         <ekz>
-          la ekvacio <frm><k>x</k><sup>2</sup>+1 = 0</frm>
+          la ekvacio <frm am="x^2+1=0"><k>x</k><sup>2</sup>+1 = 0</frm>
           ne havas reelan <tld/>on.
         </ekz>
       </dif>
@@ -180,8 +180,9 @@
     <subsnc mrk="radik.0o.per">
       <fnt><bib>MatTerm</bib><lok>p. 10</lok></fnt>
       <dif>
-        <klr>(de <ref cel="reel.0o.MAT">reelo</ref> <frm><k>x</k></frm>
-        per entjero <frm><k>n</k></frm>)</klr>
+        <klr>(de <ref cel="reel.0o.MAT">reelo</ref> <frm
+        am="x"><k>x</k></frm>
+        per entjero <frm am="n"><k>n</k></frm>)</klr>
         &Gcirc;ia <ref tip="dif" cel="radik.noa0o">n-a <tld/>o</ref>:
         <ekz>
           <tld/>on oni ofte signas per la
@@ -347,17 +348,17 @@
   <snc mrk="radik.0igi.MAT">
     <dif>
       <klr>(<ref cel="reel.0o.MAT">reelon</ref>
-      per entjero <frm><k>n</k></frm>)</klr>
+      per entjero <frm am="n"><k>n</k></frm>)</klr>
       Kalkuli &gcirc;ian <ref cel="radik.0o.per"><tld/>on <sncref/></ref>:
       <ekz>
-        <frm><sup>3</sup>&#8730;8 = 2</frm>
-        <klr>(legu: ok <tld/>igite per tri estas du, a&ubreve; :
+        <frm am="root(3)(8)=2"><sup>3</sup>&#8730;8 = 2</frm>
+        <klr> (legu: ok <tld/>igite per tri estas du, a&ubreve;:
         la tria <tld/>o de ok estas du)</klr>;
       </ekz>
       <ekz>
-        <tld/>igo per <frm><k>n</k></frm> estas
+        <tld/>igo per <frm am="n"><k>n</k></frm> estas
         <ref cel="potenc.0igo">potencigo</ref> per
-        <frm>1/<k>n</k></frm>;
+        <frm am="1//n">1/<k>n</k></frm>;
       </ekz>
       <ekz>
         la <ind><tld/>igato</ind>
@@ -626,17 +627,19 @@
   <snc>
     <dif>
       <klr>(de <ref cel="reel.0o.MAT">reelo</ref>
-      <frm><k>x</k></frm>)</klr>
-      Tia reelo <frm><k>r</k></frm>,
-      ke <frm><k>r</k><sup><k>n</k></sup> = <k>x</k></frm>:
+      <frm am="x"><k>x</k></frm>)</klr>
+      Tia reelo <frm am="r"><k>r</k></frm>,
+      ke <frm am="r^n=x"><k>r</k><sup><k>n</k></sup> = <k>x</k></frm>:
       <ekz>
         kvadrata, kuba <tld/>o <klr>(t.e. <frm>2</frm>-a,
         <frm>3</frm>-a)</klr>;
       </ekz>
       <ekz>
-        la <frm><k>n</k></frm>-an <tld/>on de <frm><k>x</k></frm> oni
-        signas per <frm><sup><k>n</k></sup>&#8730;<k>x</k></frm>
-        a&ubreve; per <frm><k>x</k><sup>1/<k>n</k></sup></frm>.
+        la <frm am="n"><k>n</k></frm>-an <tld/>on de 
+        <frm am="x"><k>x</k></frm> oni
+        signas per <frm
+        am="root(n)(x)"><sup><k>n</k></sup>&#8730;<k>x</k></frm>
+        a&ubreve; per <frm am="x^(1//n)"><k>x</k><sup>1/<k>n</k></sup></frm>.
       </ekz>
     </dif>
   </snc>
@@ -708,7 +711,13 @@
 
 </art>
 <!--
-$Log$
+$Log: radik.xml,v $
+versio 1.49 2020/02/15 22:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.48  2016/05/21 07:10:25  revo
+Eko Nur Syah Hidayat: +trd id
+
 Revision 1.47  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -725,8 +734,5 @@ Revision 1.43  2014/05/12 01:10:15  revo
 Damien Brucker: +ekz
 
 Revision 1.42  2006/02/18 17:31:30  revo
-Tulio Flores: +trd pt
-
-Revision 1.41  2005/06/16 17:43:49  revo
 -->
 </vortaro>
