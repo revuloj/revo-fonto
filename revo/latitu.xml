@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: latitu.xml,v 1.22 2020/02/15 17:10:31 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>latitud</rad>/o <fnt><bib>PV</bib></fnt>
@@ -22,15 +22,17 @@
   <snc mrk="latitu.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de punkto <frm>M</frm> en tridimensia reela e&ubreve;klida
+      <klr>(de punkto <frm am="M">M</frm> en tridimensia reela e&ubreve;klida
       <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
       ununorma koordinatsistemo
-      <frm>(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
-      Mezuro de la <ref cel="angul.0o.afina">angulo</ref> <frm>(OP,
-      OM)</frm>,
-      kie <frm>P</frm> signas la ortan projekcia&jcirc;on de <frm>M</frm> sur
-      
-      la ebeno difinita de <frm>(O, <g>i</g>, <g>j</g>)</frm>:
+      <frm am="(O,bb i,bb j,bb k)"
+      >(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
+      Mezuro de la <ref cel="angul.0o.afina">angulo</ref> 
+      <frm am="(OP,OM)">(OP, OM)</frm>,
+      kie <frm am="P">P</frm> signas la ortan projekcia&jcirc;on de <frm
+      am="M">M</frm> sur      
+      la ebeno difinita de <frm am="(O,bb i,bb j)">(O, <g>i</g>,
+      <g>j</g>)</frm>:
       <ekz>
         <tld/>o estas la tria koordinato en la sfera
         <ref cel="koordi.0sistemo">koordinatsistemo</ref>.
@@ -151,7 +153,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: latitu.xml,v $
+versio 1.22 2020/02/15 17:10:31
+Wolfram Diestel: formuloj per am
+
+Revision 1.21  2018/08/06 22:10:40  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
 Revision 1.20  2018/03/01 15:10:15  revo
 Bart Demeyere: <var> anstataux 'aux'
 
@@ -168,8 +176,5 @@ Revision 1.16  2004/05/22 16:32:47  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.15  2003/05/02 16:30:52  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/01/13 17:34:08  revo
 -->
 </vortaro>
