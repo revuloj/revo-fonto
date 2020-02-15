@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: minimu.xml,v 1.36 2020/02/15 19:10:17 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>minimum</rad>/o
@@ -28,14 +28,16 @@
     <fnt><bib>MatTerm</bib><lok>p. 18, 20</lok></fnt>
     <dif>
       <klr>(de <ref cel="ar.orda0o">orda aro</ref>
-      <frm>(<g>E</g>,&#8804;)</frm>)</klr>
-      Tia elemento <frm>m</frm> en <frm><g>E</g></frm>, ke &ccirc;iuj
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
+      Tia elemento <frm am="m">m</frm> en <frm am="bb E"><g>E</g></frm>,
+      ke &ccirc;iuj
       aliaj estas pli grandaj ol &gcirc;i
-      (<frm>m &#8804; <k>x</k></frm> por &ccirc;iu ajn
-      <frm><k>x</k></frm> en <frm><g>E</g></frm>);
-      simb. <frm>m = min <g>E</g></frm>:
+      (<frm am="m le x">m &#8804; <k>x</k></frm> por &ccirc;iu ajn
+      <frm am="x"><k>x</k></frm> en <frm am="bb E"><g>E</g></frm>);
+      simb. <frm am="m=min bb E">m = min <g>E</g></frm>:
       <ekz>
-        la reela intervalo <frm>]0,1[</frm> ne havas <tld/>on;
+        la reela intervalo <frm am="(0,1)">]0,1[</frm> ne havas
+        <tld/>on;
       </ekz>
       <ekz>
         la eventuala <tld/>o estas unika;
@@ -118,8 +120,9 @@
     <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(p.p. elemento de <ref cel="ar.orda0o">orda aro</ref>
-      <frm>(<g>E</g>,&#8804;)</frm>)</klr>
-      Tia, ke ne ekzistas elemento de <frm><g>E</g></frm> strikte
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
+      Tia, ke ne ekzistas elemento de <frm am="bb E"><g>E</g></frm>
+      strikte
       pli malgranda ol &gcirc;i:
       <ekz>
         la eventuala <tld/>o de orda aro estas <tld/>a, sed <tld/>a
@@ -141,8 +144,8 @@ tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
   <trd
   lng="be">&c_m;&c_ib;&c_n;&c_ib;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trdgrp lng="cs">
-    <trd>minimální</trd>,
-    <trd>nejmenší</trd>
+    <trd>minim&aacute;ln&iacute;</trd>,
+    <trd>nejmen&scaron;&iacute;</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>minim&aacute;lis</trd>,
@@ -152,8 +155,8 @@ tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
   <trd
   lng="ru">&c_m;&c_i;&c_n;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
-    <trd>minimálny</trd>,
-    <trd>najmenší</trd>
+    <trd>minim&aacute;lny</trd>,
+    <trd>najmen&scaron;&iacute;</trd>
   </trdgrp>
 </drv>
 
@@ -164,7 +167,7 @@ tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
   <snc>
     <ref tip="dif" cel="minimu.0iganto"><tld/>iganto.</ref>
   </snc>
-  <trd lng="cs">minimum <klr>(na křivce| na grafu)</klr></trd>
+  <trd lng="cs">minimum <klr>(na k&rcaron;ivce| na grafu)</klr></trd>
   <trd lng="en">point of minimum</trd>
   <trd lng="hu">minimaliz&aacute;l&oacute;</trd>
   <trd lng="pl">punkt minimum</trd>
@@ -234,7 +237,13 @@ tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: minimu.xml,v $
+versio 1.36 2020/02/15 19:10:17
+Wolfram Diestel: formuloj per am
+
+Revision 1.35  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.34  2015/06/29 16:33:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -251,14 +260,5 @@ Revision 1.30  2008/11/02 17:30:37  revo
 Peter Hauser: aldono resp. korekto de germanaj tradukoj, kor. tajperaron
 
 Revision 1.29  2007/09/11 16:30:21  revo
-Tulio Flores: +tr pt
-
-Revision 1.28  2007/07/06 18:04:04  revo
-Russ Williams: trd +en
-
-Revision 1.27  2006/08/05 16:31:14  revo
-Tulio Flores: +tr pt
-
-Revision 1.26  2004/06/11 16:31:36  revo
 -->
 </vortaro>
