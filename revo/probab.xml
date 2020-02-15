@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: probab.xml,v 1.29 2020/02/15 10:10:34 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>probabl</rad>/a
@@ -92,12 +92,12 @@
       <fnt><bib>EKV</bib>, <lok>&para;306</lok></fnt>
       <dif>
         <klr>(super <ref cel="algebr.sigma0o">&sigma;-algebro</ref> super aro
-        <frm><g>&Omega;</g></frm>)</klr>
+        <frm am="bb Omega"><g>&Omega;</g></frm>)</klr>
         Tia <ref tip="super" cel="mezur.0o.MAT">mezuro</ref>
-        <frm>P</frm>,
+        <frm am="P">P</frm>,
         ke
         &gcirc;iaj valoroj estas pozitivaj, kaj ke
-        <frm>P(<g>&Omega;</g>) = 1</frm>.
+        <frm am="P(bb Omega)=1">P(<g>&Omega;</g>) = 1</frm>.
       </dif>
       <trd lng="de">Wahrscheinlichkeitsma&szlig;</trd>
       <trd lng="en">probability <ind>measure</ind></trd>
@@ -179,19 +179,22 @@
   <snc>
     <dif>
       <klr>(rilate al <ref cel="okaz.0o.MAT">okazo</ref>
-      <frm><g>a</g></frm>,
+      <frm am="bb a"><g>a</g></frm>,
       kadre de <ref cel="spac.probablo0o">probablospaco</ref>
-      <frm>(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
+      <frm am="(bb Omega,bb A,P)">(<g>&Omega;</g>,<g>A</g>,P)</frm>) </klr>
       <ref tip="super" cel="probab.0o.mezuro"><tld lit="P"/>o</ref>
-      <frm>P<sub><g>a</g></sub></frm>, difinita per
-      <frm>P<sub><g>a</g></sub>(<g>b</g>) =
+      <frm am="P_(bb a)">P<sub><g>a</g></sub></frm>, difinita per
+      <frm am="P_(bb a)(bb b)=P(bb a nn bb b)//P(bb a)"
+      >P<sub><g>a</g></sub>(<g>b</g>) =
       P(<g>a</g>&#8745;<g>b</g>)/P(<g>a</g>)</frm>;
       pli ofte: la bildo per la koncerna mezuro de iu okazo
-      <frm><g>b</g></frm>:
+      <frm am="bb b"><g>b</g></frm>:
       <ekz>
-        la kondi&ccirc;an <tld/>on <frm>P<sub><g>a</g></sub>(<g>b</g>)</frm>
-        oni anka&ubreve; signas per <frm>P(<g>b</g>|<g>a</g>)</frm>
-        <klr>(legu: <tld/>o de bo, sciante (ke okazis) a)</klr>.
+        la kondi&ccirc;an <tld/>on <frm am="P_(bb a)(bb b)"
+        >P<sub><g>a</g></sub>(<g>b</g>)</frm>
+        oni anka&ubreve; signas per <frm am="P(bb b|bb a)"
+        >P(<g>b</g>|<g>a</g>)</frm>
+        <klr> (legu: <tld/>o de bo, sciante (ke okazis) a)</klr>.
       </ekz>
     </dif>
   </snc>
@@ -205,7 +208,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: probab.xml,v $
+versio 1.29 2020/02/15 10:10:34
+Wolfram Diestel: formuloj per am
+
+Revision 1.28  2018/04/08 15:10:13  revo
+Jeromo Vasxe: ~e retusx. dif
+
 Revision 1.27  2017/11/15 13:10:14  revo
 Guillermo Molleda Jimena: trd es
 
@@ -222,8 +231,5 @@ Revision 1.23  2006/03/20 17:33:30  revo
 Tulio Flores: +tr pt
 
 Revision 1.22  2005/10/09 16:31:24  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.21  2005/05/25 16:31:46  revo
 -->
 </vortaro>
