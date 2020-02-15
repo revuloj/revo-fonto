@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: komun.xml,v 1.47 2020/02/15 10:10:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>komun</rad>/a
@@ -437,15 +437,16 @@
       <klr>(de <ref cel="ar.0o.MAT">aroj</ref>)</klr>
       Aro de la elementoj, kiuj komune apartenas al &ccirc;iuj aroj:
       <ekz>
-        la <tld/>a&jcirc;o de <frm>{<k>a</k>,<k>b</k>,<k>c</k>}</frm>
-        kaj <frm>{<k>a</k>,<k>c</k>,<k>d</k>}</frm> estas
-        <frm>{<k>a</k>,<k>c</k>}</frm>;
+        la <tld/>a&jcirc;o de <frm
+        am="{a,b,c}">{<k>a</k>,<k>b</k>,<k>c</k>}</frm>
+        kaj <frm am="{a,c,d}">{<k>a</k>,<k>c</k>,<k>d</k>}</frm> estas
+        <frm am="{a,c}">{<k>a</k>,<k>c</k>}</frm>;
       </ekz>
       <ekz>
-        la <tld/>a&jcirc;on de <frm><g>E</g></frm> kaj
-        <frm><g>F</g></frm>
-        oni signas per <frm><g>E</g>&#8745;<g>F</g></frm>
-        <klr>(legu: e kaj fo)</klr>;
+        la <tld/>a&jcirc;on de <frm am="bb E"><g>E</g></frm> kaj
+        <frm am="bb F"><g>F</g></frm>
+        oni signas per <frm am="bb E nn bb F"><g>E</g>&#8745;<g>F</g></frm>
+        <klr> (legu: e kaj fo)</klr>;
       </ekz>
       <ekz>
         la <tld/>a&jcirc;o de aro el subaroj <klr>(la <tld/>a&jcirc;o
@@ -875,10 +876,11 @@ signifojn<fnt>AdE</fnt>.
       <ctl>-on</ctl>,
       nek pri faka uzo de <ref cel="on.0o.frakcio">ono <sncref/></ref>
       a&ubreve;
-      <ref cel="on.0o.cifero">ono <sncref/></ref>. Ja <frm>3&pi;</frm>
+      <ref cel="on.0o.cifero">ono <sncref/></ref>. Ja <frm
+      am="3pi">3&pi;</frm>
       kaj
-      <frm>2&pi;</frm> estas <tld/>onaj, sed neniu riskus diri, ke
-      <frm>&pi;</frm>
+      <frm am="2pi">2&pi;</frm> estas <tld/>onaj, sed neniu riskus diri, ke
+      <frm am="pi">&pi;</frm>
       estas ono, kvankam &gcirc;i ja estas la <tld/>a <ctl>parto</ctl>
       (faktoro) de tiuj nombroj.
     </rim>
@@ -933,7 +935,13 @@ signifojn<fnt>AdE</fnt>.
 </drv>
 </art>
 <!--
-$Log$
+$Log: komun.xml,v $
+versio 1.47 2020/02/15 10:10:32
+Wolfram Diestel: formuloj per am
+
+Revision 1.46  2019/07/07 11:10:20  revo
+Aleks Andre: zh: indekso
+
 Revision 1.45  2019/06/30 18:21:03  revo
 adaptis URL de Monato
 
@@ -950,8 +958,5 @@ Revision 1.41  2017/09/26 13:10:15  revo
 Filippo Botta: traduko italen
 
 Revision 1.40  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.39  2015/06/29 16:33:17  revo
 -->
 </vortaro>
