@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: radius.xml,v 1.29 2020/02/15 16:10:18 revo Exp $">
 <kap>
   <rad>radius</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -60,13 +60,13 @@
   </snc>
   <trd lng="ca">radi</trd>
   <trdgrp lng="cs">
-    <trd>poloměr</trd>,
-    <trd>rádius</trd>
+    <trd>polom&ecaron;r</trd>,
+    <trd>r&aacute;dius</trd>
   </trdgrp>
   <trd lng="es">radio<klr tip="amb"> (hueso, geometr&iacute;a)</klr></trd>
   <trdgrp lng="sk">
     <trd>polomer</trd>,
-    <trd>rádius</trd>
+    <trd>r&aacute;dius</trd>
   </trdgrp>
 </drv>
 
@@ -76,11 +76,13 @@
     <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <ref cel="seri.potenco0o">potencoserio</ref>
-      <frm><k>S</k>(<k>x</k>)</frm> 
-      &ccirc;irka&ubreve; <frm><k>x</k><sub>0</sub></frm>)</klr>
-      Tia reelo <frm>&rho;</frm>, ke la serio malkonver&gcirc;as, se 
-      <frm>|<k>x</k>-<k>x</k><sub>0</sub>| &gt; &rho;</frm>, kaj 
-      konver&gcirc;as, se <frm>|<k>x</k>-<k>x</k><sub>0</sub>| &lt; &rho;</frm>.
+      <frm am="S(x)"><k>S</k>(<k>x</k>)</frm> 
+      &ccirc;irka&ubreve; <frm am="x_0"><k>x</k><sub>0</sub></frm>)</klr>
+      Tia reelo <frm am="rho">&rho;</frm>, ke la serio malkonver&gcirc;as, se 
+      <frm am="|x-x_0| gt rho">|<k>x</k>-<k>x</k><sub>0</sub>| &gt;
+      &rho;</frm>, 
+      kaj konver&gcirc;as, se <frm am="|x-x_0| lt rho"
+      >|<k>x</k>-<k>x</k><sub>0</sub>| &lt; &rho;</frm>.
     </dif>
     <rim>
       Oni diras, ke la konver&gcirc;o<tld/>o estas nefinia, se la serio 
@@ -106,8 +108,8 @@
     <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>, 
-      &ccirc;e punkto <frm><k>a</k></frm> de &gcirc;i)</klr>
-      La distanco inter <frm><k>a</k></frm> kaj la 
+      &ccirc;e punkto <frm am="a"><k>a</k></frm> de &gcirc;i)</klr>
+      La distanco inter <frm am="a"><k>a</k></frm> kaj la 
       <ref cel="centr.kurbeco0o.de_ebena_kurbo">kurbecocentro</ref> de
       la
       kurbo &ccirc;e tiu punkto:
@@ -124,7 +126,7 @@
   </snc>
   <trd lng="be">&c_r;&c_a;&c_d;&c_y;&c_ju;&c_s; &c_k;&c_r;&c_y;&c_v;&c_ib;&c_n;&c_ib;</trd>
   <trd lng="ca"><ind>radi</ind> de curvatura</trd>
-  <trd lng="cs">poloměr křivosti</trd>
+  <trd lng="cs">polom&ecaron;r k&rcaron;ivosti</trd>
   <trd lng="de">Kr&uuml;mmungsradius</trd>
   <trd lng="en">radius of curvature</trd>
   <trd lng="fr">rayon de courbure</trd>
@@ -136,7 +138,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: radius.xml,v $
+versio 1.29 2020/02/15 16:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.28  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.27  2015/06/29 16:33:22  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -153,14 +161,5 @@ Revision 1.23  2010/06/17 16:31:00  revo
 Agustin Garcia Lopez: +trd es
 
 Revision 1.22  2010/01/20 17:30:43  revo
-Wieland Pusch: +trd bg
-
-Revision 1.21  2006/02/18 17:32:14  revo
-Tulio Flores: +trd pt
-
-Revision 1.20  2005/04/11 16:32:20  revo
-Vito Redsky: +trd pl
-
-Revision 1.19  2004/08/30 16:32:59  revo
 -->
 </vortaro>
