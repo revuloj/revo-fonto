@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: ekzemp.xml,v 1.31 2020/02/15 11:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ekzempl</rad>/o <fnt><bib>PV</bib></fnt>
@@ -92,10 +92,10 @@
   <trd lng="ca">per <ind>exemple</ind></trd>
   <trdgrp lng="cs">
     <trd>ad exemplum</trd>,
-    <trd>ku příkladu</trd>,
-    <trd>na př.</trd>,
-    <trd>na příklad</trd>,
-    <trd>zkr. např.</trd>
+    <trd>ku p&rcaron;&iacute;kladu</trd>,
+    <trd>na p&rcaron;.</trd>,
+    <trd>na p&rcaron;&iacute;klad</trd>,
+    <trd>zkr. nap&rcaron;.</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>zum <ind>Beispiel</ind></trd>,
@@ -110,7 +110,7 @@
   <trd lng="nl">bijvoorbeeld</trd>
   <trd lng="pl">na <ind>przyk&lstroke;ad</ind></trd>
   <trd lng="ru">&c_n;&c_a;&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;</trd>
-  <trd lng="sk">na príklad</trd>
+  <trd lng="sk">na pr&iacute;klad</trd>
   <trd lng="sv">till <ind>exempel</ind></trd>
   <trdgrp lng="tr">
     <trd>mesel&acirc;</trd>,
@@ -140,8 +140,8 @@
   </snc>
   <trd lng="ca">exemplificar</trd>
   <trdgrp lng="cs">
-    <trd>dávat příklad</trd>,
-    <trd>dávat za příklad</trd>
+    <trd>d&aacute;vat p&rcaron;&iacute;klad</trd>,
+    <trd>d&aacute;vat za p&rcaron;&iacute;klad</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>exemplifier</trd>,
@@ -152,7 +152,7 @@
     <trd>podawa&cacute; <ind>przyk&lstroke;ad</ind></trd>,
     <trd>przytacza&cacute; <ind>przyk&lstroke;ad</ind></trd>
   </trdgrp>
-  <trd lng="sk">dávať príklad</trd>
+  <trd lng="sk">d&aacute;va&tcaron; pr&iacute;klad</trd>
 </drv>
 
 <drv mrk="ekzemp.kontraux0o">
@@ -177,14 +177,16 @@
   <snc mrk="ekzemp.kontraux0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <ref cel="predik1.0o.MAT">predikato</ref> <frm>P</frm>)
+      <klr>(de <ref cel="predik1.0o.MAT">predikato</ref> <frm
+      am="P">P</frm>)
       </klr>
-      Tia objekto <frm><k>x</k></frm>, ke por &gcirc;i la propozicio
-      <frm>P(<k>x</k>)</frm> estas falsa:
+      Tia objekto <frm am="x"><k>x</k></frm>, ke por &gcirc;i la propozicio
+      <frm am="P(x)">P(<k>x</k>)</frm> estas falsa:
       <ekz>
         kontra&ubreve;<tld/>ojn oni ofte uzas por pruvi la falsecon de
         asertoj de la tipo
-        <ctl>por &ccirc;iu x veras <frm>P(<k>x</k>)</frm></ctl>.
+        <ctl>por &ccirc;iu <frm am="x"><k>x</k></frm> veras <frm
+        am="P(x)">P(<k>x</k>)</frm></ctl>.
       </ekz>
     </dif>
     <trd lng="de">Gegenbeispiel</trd>
@@ -218,8 +220,8 @@
     <trd>sense precedents</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>bezpříkladný</trd>,
-    <trd>neslýchaný</trd>
+    <trd>bezp&rcaron;&iacute;kladn&yacute;</trd>,
+    <trd>nesl&yacute;chan&yacute;</trd>
   </trdgrp>
   <trd lng="de">beispiellos</trd>
   <trdgrp lng="fr">
@@ -233,11 +235,17 @@
     <trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_je;&c_c;&c_je;&c_d;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
-  <trd lng="sk">bezpríkladný</trd>
+  <trd lng="sk">bezpr&iacute;kladn&yacute;</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: ekzemp.xml,v $
+versio 1.31 2020/02/15 11:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.30  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.29  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -254,14 +262,5 @@ Revision 1.25  2009/02/11 19:42:39  revo
 Sebastian Cyprych: -fusxaj linirompoj en trd
 
 Revision 1.24  2008/05/12 17:55:42  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.23  2008/05/01 16:30:21  revo
-Jeromo Vasxe: + ~igi, ~o snc/subsnc
-
-Revision 1.22  2007/06/27 16:30:58  revo
-Tulio Flores: +tr pt
-
-Revision 1.21  2006/04/21 16:32:10  revo
 -->
 </vortaro>
