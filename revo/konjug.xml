@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: konjug.xml,v 1.33 2020/02/15 11:10:17 revo Exp $">
 <kap>
   <rad>konjug</rad>/i
   <fnt>Z</fnt>
@@ -92,8 +92,8 @@
         <ref cel="sign.kontraux0a">kontra&ubreve;signan</ref>
         <ref cel="part.imaginara0o">imaginaran parton</ref>:
         <ekz>
-          <frm>1+2.<k>i</k></frm> estas <tld/>ita 
-          rilate al <frm>1-2.<k>i</k></frm>;
+          <frm am="1+2*i">1+2&middot;<k>i</k></frm> estas <tld/>ita 
+          rilate al <frm am="1-2*i">1-2&middot;<k>i</k></frm>;
         </ekz>
         <ekz>
           <tld/>ita funkcio <klr>(kies valoroj estas <tld/>itaj rilate
@@ -118,10 +118,11 @@
     <subsnc mrk="konjug.0ita.subgrupo">
       <dif>
         <klr>(p.p. <ref cel="grup.sub0o.MAT">subgrupo</ref>
-        <frm><g>S</g></frm>, rilate al subgrupo
-        <frm><g>T</g></frm>)</klr>
+        <frm am="bb S"><g>S</g></frm>, rilate al subgrupo
+        <frm am="bb T"><g>T</g></frm>)</klr>
         Tia, ke ekzistas <ref cel="auxtom2.interna0o">interna
-        a&ubreve;tomorfio</ref> de <frm><g>S</g></frm> al <frm><g>T</g></frm>.
+        a&ubreve;tomorfio</ref> de <frm am="bb S"><g>S</g></frm>
+        al <frm am="bb T"><g>T</g></frm>.
       </dif>
     </subsnc>
     <rim>
@@ -157,10 +158,11 @@
         &Gcirc;ia <ref cel="konjug.0ita.komplekso"><tld/>ita
         <sncref ref="konjug.0ita.komplekso"/></ref> nombro:
         <ekz>
-          la <tld/>iton de <frm><k>z</k></frm> oni kutime signas per 
-          <frm><k>z</k></frm> kun supra horizontala
-          streko, nome <frm><k>z&#773;</k></frm> 
-          <klr>(legu: zo trabo)</klr>;
+          la <tld/>iton de <frm am="z"><k>z</k></frm> oni kutime signas
+          per 
+          <frm am="z"><k>z</k></frm> kun supra horizontala
+          streko, nome <frm am="bar z"><k>z&#773;</k></frm> 
+          <klr> (legu: zo trabo)</klr>;
         </ekz>
         <ekz>
           &ccirc;iu komplekso egalas al la <tld/>ito de sia <tld/>ito;
@@ -211,9 +213,10 @@
       kiun oni
       povas etimologie rekonstrui estas de la tipo <ctl>meti en rilaton
       du iel
-      simetriajn objektojn</ctl>. Eblas do diri, ke <frm><k>z</k></frm>
-      kaj 
-      <frm><k>z&#773;</k></frm> estas <tld/>itaj nombroj, do <tld/>itoj 
+      simetriajn objektojn</ctl>. Eblas do diri, ke <frm
+      am="z"><k>z</k></frm>
+      kaj <frm am="bar z"><k>z&#773;</k></frm> estas <tld/>itaj nombroj, do
+      <tld/>itoj 
       (certe ne: <tld/>a&jcirc;oj). Tion konsiderante, la malnova formo 
       <ctl><tld/>ito</ctl> estas logika kaj restas la&ubreve; ni preferinda.
     </rim>
@@ -282,7 +285,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: konjug.xml,v $
+versio 1.33 2020/02/15 11:10:17
+Wolfram Diestel: formuloj per am
+
+Revision 1.32  2018/12/15 23:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.31  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -299,8 +308,5 @@ Revision 1.27  2005/03/11 16:51:03  revo
 Marc Bavant: kor duobligitan punkton
 
 Revision 1.26  2005/03/09 18:18:38  revo
-Jozefo Horvath: kor. trd hu konjugito
-
-Revision 1.25  2005/03/06 17:34:38  revo
 -->
 </vortaro>
