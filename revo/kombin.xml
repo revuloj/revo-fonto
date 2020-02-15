@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kombin.xml,v 1.35 2020/02/15 10:10:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kombin</rad>/i
@@ -591,22 +591,24 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
     <dif>
-      <klr>(de <frm><k>p</k></frm> el <frm><k>n</k></frm>,
-      de <frm><k>n</k></frm> po <frm><k>p</k></frm>)</klr>
-      &Ccirc;iu el la diversaj manieroj formi <frm><k>p</k></frm>-elementan
-      subaron de <frm><k>n</k></frm>-elementa aro:
+      <klr>(de <frm am="p"><k>p</k></frm> el <frm am="n"><k>n</k></frm>,
+      de <frm am="n"><k>n</k></frm> po <frm am="p"><k>p</k></frm>)</klr>
+      &Ccirc;iu el la diversaj manieroj formi <frm
+      am="p"><k>p</k></frm>-elementan
+      subaron de <frm am="n"><k>n</k></frm>-elementa aro:
       <ekz>
-        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de <frm><k>n</k></frm>
-        po <frm><k>p</k></frm> oni signas per
-        <frm>K<sup><k>p</k></sup><sub><k>n</k></sub> =
+        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de <frm am="n"><k>n</k></frm>
+        po <frm am="p"><k>p</k></frm> oni signas per
+        <frm am="K_n^p=A_n^p//n! = n!//(p!*(n-p)!)"
+        >K<sup><k>p</k></sup><sub><k>n</k></sub> =
         A<sup><k>p</k></sup><sub><k>n</k></sub>/<k>n</k>! =
         <k>n</k>!/[<k>p</k>!&#215;(<k>n</k>-<k>p</k>)!]</frm>;
       </ekz>
       <ekz>
         la <tld/>a&jcirc;oj de du elementoj el la aro
-        <frm>{<k>a</k>,<k>b</k>,<k>c</k>}</frm> estas
-        <frm><k>ab</k></frm>, <frm><k>ac</k></frm>,
-        <frm><k>bc</k></frm>.
+        <frm am="{a,b,c}">{<k>a</k>,<k>b</k>,<k>c</k>}</frm> estas
+        <frm am="ab"><k>ab</k></frm>, <frm am="ac"><k>ac</k></frm>,
+        <frm am="bc"><k>bc</k></frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -616,8 +618,9 @@
     <rim>
       En la citita fonto Bricard parolas anka&ubreve; pri <ctl><tld/>a&jcirc;oj
       ripetaj</ctl> (ekz-e de <frm>3</frm> po <frm>2</frm>:
-      <frm><k>aa</k></frm>, <frm><k>ab</k></frm>, <frm><k>ac</k></frm>,
-      <frm><k>bb</k></frm>, <frm><k>bc</k></frm>, <frm><k>cc</k></frm>),
+      <frm am="aa"><k>aa</k></frm>, <frm am="ab"><k>ab</k></frm>,
+      <frm am="ac"><k>ac</k></frm>, <frm am="bb"><k>bb</k></frm>,
+      <frm am="bc"><k>bc</k></frm>, <frm am="cc"><k>cc</k></frm>),
       kio estas alia nocio, aperanta ekz-e en domenludo.
     </rim>
     <adm>
@@ -687,24 +690,27 @@
   <snc>
     <dif>
       <klr>(el finia nombro da <ref cel="vektor.0o.MAT">vektoroj</ref>
-      <frm><k>x</k><sub><k>i</k></sub></frm>)</klr>
+      <frm am="x_i"><k>x</k><sub><k>i</k></sub></frm>)</klr>
       Sumo de termoj, konsistantaj el produto de &ccirc;iu el la vektoroj
-      <frm><k>x</k><sub><k>i</k></sub></frm> per
+      <frm am="x_i"><k>x</k><sub><k>i</k></sub></frm> per
       <ref cel="skalar.0o.MAT">skalaro</ref>
-      <frm>&alfa;<sub><k>i</k></sub></frm>; la skalaroj estas nomataj
+      <frm am="alpha_i">&alfa;<sub><k>i</k></sub></frm>; la skalaroj estas
+      nomataj
       <ref cel="koefic.0o.lineara">koeficientoj</ref>:
       <ekz>
-        <frm>&#8721;
-        &alfa;<sub><k>i</k></sub>&#8729;<k>x</k><sub><k>i</k></sub></frm>;
+        <frm am="sum alpha_i*x_i"
+        >&#8721; &alfa;<sub><k>i</k></sub>&#8729;<k>x</k><sub><k>i</k></sub></frm>;
       </ekz>
       <ekz>
-        modulo <frm><k>M</k></frm> estas finie generita se tie ekzistas 
-        finie multaj eroj <frm><k>x</k><sub>1</sub>, &#8230;,
-        <k>x</k><sub>n</sub></frm> 
-        en <frm><k>M</k></frm> tiaj ke &ccirc;iu ero de <frm><k>M</k></frm>
-        estas
-        lineara <tld/>a&jcirc;o de tiuj eroj kun koeficientoj de la skalara
-        ringo <frm><k>R</k></frm>
+        modulo <frm am="M"><k>M</k></frm> estas finie generita se tie
+        ekzistas 
+        finie multaj eroj <frm am="x_1,...,x_n"
+        ><k>x</k><sub>1</sub>, &#8230;, <k>x</k><sub>n</sub></frm> 
+        en <frm am="M"><k>M</k></frm> tiaj ke &ccirc;iu ero de 
+        <frm am="M"><k>M</k></frm>
+        estas lineara <tld/>a&jcirc;o de tiuj eroj kun koeficientoj de la
+        skalara
+        ringo <frm am="R"><k>R</k></frm>
         <fnt>
           <bib>Viki</bib>
           <lok><url ref='https://eo.wikipedia.org/?curid=87314'>Modulo
@@ -724,7 +730,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: kombin.xml,v $
+versio 1.35 2020/02/15 10:10:28
+Wolfram Diestel: formuloj per am
+
+Revision 1.34  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
 Revision 1.33  2019/06/30 07:42:48  revo
 adaptis URL de Monato
 
@@ -741,14 +753,5 @@ Revision 1.29  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.28  2007/12/20 17:30:25  revo
-Jeromo Vasxe: + ~umo
-
-Revision 1.27  2007/01/18 17:30:31  revo
-Tulio Flores: +tr pt
-
-Revision 1.26  2006/09/22 12:26:45  revo
-Wolfram Diestel: tezrad(KEM)
-
-Revision 1.25  2005/02/06 17:31:40  revo
 -->
 </vortaro>
