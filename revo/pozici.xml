@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: pozici.xml,v 1.19 2020/02/15 17:10:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>pozici</rad>/o
@@ -94,7 +94,7 @@
   </trdgrp>
   <trdgrp lng="cs">
     <trd>poloha</trd>,
-    <trd>postavení</trd>,
+    <trd>postaven&iacute;</trd>,
     <trd>pozice</trd>,
     <trd>stav</trd>
   </trdgrp>
@@ -129,15 +129,17 @@
   <snc>
     <dif>
       <klr>(de <ref cel="implic.0o.logika">implico</ref>
-      <frm>P&#8658;Q</frm>)</klr>
-      La logike ekvivalenta propozicio <frm>&#172;Q&#8658;&#172;P</frm>:
+      <frm am="P=&gt;Q">P&#8658;Q</frm>)</klr>
+      La logike ekvivalenta propozicio <frm
+      am="negQ=&gt;negP">&#172;Q&#8658;&#172;P</frm>:
       <ekz>
         la kontra&ubreve;<tld/>o de <ctl>se <frm>6</frm> divizoras 
-        en <frm><k>n</k></frm>, tiam <frm>2</frm> kaj <frm>3</frm> 
-        divizoras en <frm><k>n</k></frm></ctl> estas 
+        en <frm am="n"><k>n</k></frm>, tiam <frm>2</frm> kaj
+        <frm>3</frm> 
+        divizoras en <frm am="n"><k>n</k></frm></ctl> estas 
         <ctl>se <frm>2</frm> a&ubreve; <frm>3</frm> ne 
-        divizoras en <frm><k>n</k></frm>, tiam 
-        <frm>6</frm> ne divizoras en <frm><k>n</k></frm></ctl>;
+        divizoras en <frm am="n"><k>n</k></frm>, tiam 
+        <frm>6</frm> ne divizoras en <frm am="n"><k>n</k></frm></ctl>;
       </ekz>
       <ekz>
         por demonstri la pruvotan aserton, demonstru &gcirc;ian 
@@ -176,7 +178,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: pozici.xml,v $
+versio 1.19 2020/02/15 17:10:17
+Wolfram Diestel: formuloj per am
+
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.17  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -193,14 +201,5 @@ Revision 1.13  2004/11/23 17:31:38  revo
 Marc Bavant: kontraux~o: kor ekz
 
 Revision 1.12  2004/02/24 17:32:01  revo
-Dmitri Gabinski: +trd be
-Revision 1.11  2003/01/26 17:35:12  revo
-Marc Bavant: +drv kontraux~o
-Revision 1.10  2003/01/13 17:35:17  revo
-Ulrich Fellmann: + 4 pliaj trd = de
-Revision 1.9  2002/12/18 18:51:02  revo
-Jozefo Horvath: +trd hu
-Revision 1.8  2001/12/21 17:31:31  revo
-Yury Finkel: +trd ru
 -->
 </vortaro>
