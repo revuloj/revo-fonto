@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: suprem.xml,v 1.27 2020/02/15 18:10:23 revo Exp $">
 <kap>
   <rad>suprem</rad>/o
 </kap>
@@ -12,16 +12,17 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      <klr>(de subaro <frm><g>A</g></frm> de
+      <klr>(de subaro <frm am="bb A"><g>A</g></frm> de
       <ref cel="ar.orda0o">orda aro</ref> 
-      <frm>(<g>E</g>,&#8804;)</frm>)</klr>
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
       La <ref tip="super" cel="minimu.0o.MAT">minimumo</ref> de la aro
       de &gcirc;iaj superaj
       <ref cel="bar.0o.MAT">baroj</ref>; alidire: la plej malgranda
-      supera baro; simb. <frm>sup <g>A</g></frm>:
+      supera baro; simb. <frm am='"sup" bb A'>sup <g>A</g></frm>:
       <ekz>
-        se &gcirc;i ekzistas, la <tld/>o de <frm><g>A</g></frm> povas
-        ne aparteni al <frm><g>A</g></frm>;
+        se &gcirc;i ekzistas, la <tld/>o de <frm am="bb A"><g>A</g></frm>
+        povas
+        ne aparteni al <frm am="bb A"><g>A</g></frm>;
       </ekz>
       <ekz>
         &ccirc;iu reela subaro kun superaj baroj akceptas reelan <tld/>on,
@@ -38,7 +39,7 @@
   </snc>
   <trd lng="ca">suprem <klr>(mat.)</klr></trd>
   <trdgrp lng="cs">
-    <trd>nadvláda</trd>,
+    <trd>nadvl&aacute;da</trd>,
     <trd>supremace</trd>,
     <trd>svrchovanost</trd>
   </trdgrp>
@@ -56,8 +57,8 @@
     <trd>&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja; &c_v;&c_je;&c_r;&c_h;&c_n;&c_ja;&c_ja; <ind>&c_g;&c_r;&c_a;&c_n;&c_mol;</ind></trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>nadvláda</trd>,
-    <trd>zvrchovanosť</trd>
+    <trd>nadvl&aacute;da</trd>,
+    <trd>zvrchovanos&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -80,12 +81,13 @@
       <fnt><bib>PIV2</bib><lok>&leftquot;limesa supremo&rightquot;</lok></fnt>
       <dif>
         <klr>(de reela <ref cel="funkci.0o.MAT">funkcio</ref>,
-        &ccirc;e punkto <frm><k>a</k></frm> de ties fonto-aro)</klr>
+        &ccirc;e punkto <frm am="a"><k>a</k></frm> de ties fonto-aro)</klr>
         La <ref cel="suprem.0o"><tld/>o</ref> de la aro de punktoj,
-        <ref cel="adher.0a.bildigo">adheraj</ref> al <frm><k>f</k></frm>
-        &ccirc;e <frm><k>a</k></frm>; simb. 
-        <frm>lim sup<sub><k>x</k>&#8594;<k>a</k></sub>
-        <k>f</k>(<k>x</k>)</frm>.
+        <ref cel="adher.0a.bildigo">adheraj</ref> al <frm
+        am="f"><k>f</k></frm>
+        &ccirc;e <frm am="a"><k>a</k></frm>; simb. 
+        <frm am='"lim sup"_(x to a)f(x)'
+        >lim sup<sub><k>x</k>&#8594;<k>a</k></sub> <k>f</k>(<k>x</k>)</frm>.
       </dif>
       <refgrp tip="ant">
         <ref cel="infim.limes0o.funkcio">limesinfimo</ref>.
@@ -93,7 +95,7 @@
     </subsnc>
   </snc>
   <trd lng="ca">l&iacute;mit superior</trd>
-  <trd lng="cs">horní limita</trd>
+  <trd lng="cs">horn&iacute; limita</trd>
   <trdgrp lng="de">
     <trd>oberer <ind>Limes</ind></trd>,
     <trd>limes superior</trd>
@@ -113,11 +115,17 @@
   <trdgrp lng="ru">
     <trd>&c_v;&c_je;&c_r;&c_h;&c_n;&c_i;&c_j; <ind>&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;</ind></trd>
   </trdgrp>
-  <trd lng="sk">horná limita</trd>
+  <trd lng="sk">horn&aacute; limita</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: suprem.xml,v $
+versio 1.27 2020/02/15 18:10:23
+Wolfram Diestel: formuloj per am
+
+Revision 1.26  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.25  2015/06/29 16:33:24  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -134,14 +142,5 @@ Revision 1.21  2004/11/18 17:31:25  revo
 Marc Bavant: kor duobligitajn punktojn
 
 Revision 1.20  2004/11/05 17:32:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2004/08/21 19:44:19  revo
-Elmer D. Escoto: +trd es
-
-Revision 1.18  2003/05/13 16:32:58  revo
-Marc Bavant: ~o: mod ekz
-
-Revision 1.17  2003/05/09 16:31:36  revo
 -->
 </vortaro>
