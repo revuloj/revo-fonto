@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: nul0.xml,v 1.51 2020/02/15 22:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>nul</rad>/o <fnt><bib>PV</bib></fnt>
@@ -309,7 +309,7 @@ oni ne
       Esti <tld/>iganto de &gcirc;i, doni al &gcirc;i nulan valoron:
       <ekz>
         trovi &ccirc;iujn argumentojn, kiuj <tld/>igas la funkcion
-        <frm>sin(<k>x</k><sup>2</sup>+<k>x</k>)</frm>;
+        <frm am="sin(x^2+x)">sin(<k>x</k><sup>2</sup>+<k>x</k>)</frm>;
       </ekz><ekz>
         la funkcio alprenas maksimuman valoron, kiam ni <tld/>igas
         &gcirc;ian variablon.
@@ -367,11 +367,12 @@ oni ne
       <dif>
         <klr>(de <ref cel="funkci.0o.MAT">funkcio</ref>)</klr>
         &Ccirc;iu elemento, kies bildo per la funkcio estas 
-<frm>0</frm>:
+        <frm>0</frm>:
         <ekz>
-          <frm>&pi;</frm> estas <tld/>iganto de funkcio sinuso;
+          <frm am="pi">&pi;</frm> estas <tld/>iganto de funkcio sinuso;
         </ekz><ekz>
-          la polinoma funkcio <frm><k>x</k><sup>2</sup>-1</frm>
+          la polinoma funkcio <frm
+          am="x^2-1"><k>x</k><sup>2</sup>-1</frm>
           akceptas
           <frm>1</frm> kaj <frm>-1</frm> kiel <tld/>igantojn.
         </ekz>
@@ -406,11 +407,10 @@ oni ne
     <subsnc mrk="nul0.0iganto.de_elemento">
       <fnt><bib>PIV2</bib></fnt>
       <dif>
-        <klr>(de elemento <frm><k>a</k></frm> en
+        <klr>(de elemento <frm am="a"><k>a</k></frm> en
           <ref cel="ring.0o.MAT">ringo</ref>)</klr>
-        &Ccirc;iu elemento, kiu multiplikite per <frm><k>a</k></frm> 
-donas
-        <tld/>an rezulton:
+        &Ccirc;iu elemento, kiu multiplikite per <frm am="a"><k>a</k></frm> 
+        donas <tld/>an rezulton:
         <ekz>
           en la ringo de <frm>6</frm>-modulaj restoklasoj
           elemento <frm>2</frm> akceptas <frm>0</frm> kaj
@@ -503,7 +503,13 @@ anka&ubreve; la
 </drv>
 </art>
 <!--
-$Log$
+$Log: nul0.xml,v $
+versio 1.51 2020/02/15 22:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.50  2019/07/04 10:10:20  revo
+Aleks Andre: zh: malgxusta loko por [ ] kaj -ind-
+
 Revision 1.49  2019/07/03 08:10:30  revo
 Aleks Andre: zh: prononcado en -ind- por la indekso
 
@@ -519,9 +525,5 @@ Jeromo Vasxe: sensugnifaj -> sensignifaj
 
 Revision 1.45  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
-
-Revision 1.44  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
 -->
 </vortaro>
