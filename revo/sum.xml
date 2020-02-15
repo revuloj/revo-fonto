@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: sum.xml,v 1.38 2020/02/16 00:10:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sum</rad>/o <fnt><bib>PV</bib></fnt>
@@ -20,14 +20,17 @@
           kaj <frm>2</frm>;
         </ekz>
         <ekz>
-          la <tld/>on de <frm><k>a</k></frm> kaj <frm><k>b</k></frm> 
-          oni signas per <frm><k>a</k>+<k>b</k></frm>,
+          la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm
+          am="b"><k>b</k></frm> 
+          oni signas per <frm am="a+b"><k>a</k>+<k>b</k></frm>,
         </ekz>
         <ekz>
           kaj la <tld/>on de &ccirc;iuj termoj en 
           <ref cel="famili.0o.bildigo">familio</ref>
-          <frm>(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
-          per <frm>&Sigma;<sub><k>i</k>&#8712;<g>I</g></sub> 
+          <frm am="(a_i)_(i in bb I)"
+          >(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
+          per <frm am="sum_(i in bb I)a_i"
+          >&Sigma;<sub><k>i</k>&#8712;<g>I</g></sub>
           <k>a</k><sub><k>i</k></sub></frm>;
         </ekz>
         <ekz>
@@ -50,22 +53,24 @@
     </subsnc>
     <subsnc mrk="sum.0o.serio">
       <dif>
-        <klr>(de konver&gcirc;a <ref cel="seri.0o.MAT">serio</ref>)</klr>
+        <klr>(de konver&gcirc;a <ref cel="seri.0o.MAT">serio</ref>) </klr>
         <ref cel="limes.0o">Limeso</ref> de la vico de ties
         <ref cel="sum.parta0o">partaj sumoj</ref>:
         <ekz>
-          se <frm>|<k>q</k>| &lt; 1</frm>, la <tld/>o de la serio kun 
+          se <frm am="|q| lt 1">|<k>q</k>| &lt; 1</frm>, 
+          la <tld/>o de la serio kun 
           &gcirc;enerala termo <frm><k>q</k><sup><k>n</k></sup></frm> estas
-          <frm>(1-<k>q</k>)<sup>-1</sup></frm>.
+          <frm am="(1-q)^-1">(1-<k>q</k>)<sup>-1</sup></frm>.
         </ekz>
       </dif>
       <rim>
         <tld lit="S"/>o de serio estas konceptebla kiel sumo de senfina
         nombro da termoj. Oni &gcirc;in ofte signas per
-       <frm><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm>
-       
-       a&ubreve;
-       <frm>&Sigma;<sub><k>n</k>&#8712;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
+       <frm am="u_0+u_1+u_2,..."
+       ><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm>
+             
+       a&ubreve; <frm am="sum_(n in NN)u_n"
+       >&Sigma;<sub><k>n</k>&#8712;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
       </rim>
       <trd lng="de">Summe<klr tip="ind"> (von einer Reihe)</klr></trd>
       <trd lng="en">sum<klr tip="ind"> (of a series)</klr></trd>
@@ -82,10 +87,12 @@
         ilia
         <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref>:
         <ekz>
-          &ccirc;iu elemento <frm><k>x</k></frm> de la <tld/>o de subspacoj
-          <frm>(<g>U</g><sub><k>i</k></sub>)</frm> esprimi&gcirc;as kiel 
-          <tld/>o de finia nombro de vektoroj
-          <frm><k>x</k><sub><k>i</k></sub>&#8712;<g>U</g><sub><k>i</k></sub></frm>;
+          &ccirc;iu elemento <frm am="x"><k>x</k></frm> de la <tld/>o de
+          subspacoj
+          <frm am="(bb U_i)">(<g>U</g><sub><k>i</k></sub>)</frm>
+          esprimi&gcirc;as kiel <tld/>o de finia nombro de vektoroj
+          <frm am="x_i in bb U_i"
+          ><k>x</k><sub><k>i</k></sub>&#8712;<g>U</g><sub><k>i</k></sub></frm>;
         </ekz>
         <ekz>
           la <tld/>o de du neegalaj 
@@ -254,7 +261,8 @@
         mon<tld/>oj fordonitaj al E&ubreve;lalia
         <fnt>
           <aut>M. Proust, trad. &Jcirc; Va&scirc;e</aut>
-          <vrk><url ref="http://jxvasxe.free.fr/tradukoj/la-vojo-de-svan-eo.htm">
+          <vrk><url
+          ref="http://jxvasxe.free.fr/tradukoj/la-vojo-de-svan-eo.htm">
           Sur la Vojo de Svan</url></vrk>
           <lok>2015-2017</lok>
         </fnt>.
@@ -386,9 +394,11 @@
   <fnt><bib>EKV</bib><lok>&para;390</lok></fnt>
   <snc>
     <dif>
-      <klr>(de <ref cel="seri.0o.MAT">serio</ref> <frm><k>u</k></frm>,
-      je ordo <frm><k>n</k></frm>)</klr>
-      La sumo <frm><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+... 
+      <klr>(de <ref cel="seri.0o.MAT">serio</ref> <frm
+      am="u"><k>u</k></frm>,
+      je ordo <frm am="n"><k>n</k></frm>)</klr>
+      La sumo <frm am="u_0+u_1+...+u_n"
+      ><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+... 
       +<k>u</k><sub><k>n</k></sub></frm>.
     </dif>
   </snc>
@@ -404,7 +414,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: sum.xml,v $
+versio 1.38 2020/02/16 00:10:35
+Wolfram Diestel: formuloj per am
+
+Revision 1.37  2019/02/09 23:11:28  revo
+Jeromo Vasxe: + mon~o
+
 Revision 1.36  2017/12/20 14:10:23  revo
 Michel Cantigneaux: "re/sum/i" fundamenta kunmetajxo el la U.V.
 
@@ -420,9 +436,5 @@ aldono de trd sk per skripto de M. von Laer
 
 Revision 1.32  2015/04/24 10:10:16  revo
 Carlos Garcia: +trd es ~e 2 ~ero ~igi re~o re~i re~e parta ~o
-
-Revision 1.31  2014/05/12 06:10:15  revo
-Damien Brucker: +rim
-
 -->
 </vortaro>
