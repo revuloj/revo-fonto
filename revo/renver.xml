@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: renver.xml,v 1.23 2020/02/16 00:10:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>renvers</rad>/i
@@ -143,19 +143,21 @@
   <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
   <snc mrk="renver.0ajxo.permuto">
     <dif>
-      <klr>(de <ref cel="permut.0o.bijekcio">permuto</ref> <frm>&sigma;</frm>
+      <klr>(de <ref cel="permut.0o.bijekcio">permuto</ref> 
+      <frm am="sigma">&sigma;</frm>
       super <ref cel="ar.orda0o">orda aro</ref>)</klr>
-      &Ccirc;iu tia duopo <frm>(<k>i</k>,<k>j</k>)</frm>, ke 
-      <frm><k>i</k> &lt; <k>j</k></frm>, kaj 
-      <frm>&sigma;(<k>i</k>) &gt; &sigma;(<k>j</k>)</frm>:
+      &Ccirc;iu tia duopo <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm>, ke 
+      <frm am="i lt j"><k>i</k> &lt; <k>j</k></frm>, kaj 
+      <frm am="sigma(i) gt sigma(j)">&sigma;(<k>i</k>) &gt; &sigma;(<k>j</k>)</frm>:
       <ekz>
-        la permuto <frm><k>abc</k>&#8594;<k>acb</k></frm> enhavas unu 
-        <tld/>a&jcirc;on, nome <frm>(<k>b</k>,<k>c</k>)</frm>.
+        la permuto <frm am="abc to acb"
+        ><k>abc</k>&#8594;<k>acb</k></frm> enhavas unu 
+        <tld/>a&jcirc;on, nome <frm am="(b,c)">(<k>b</k>,<k>c</k>)</frm>.
       </ekz>
     </dif>
     <rim>
       Eblas diri anka&ubreve;, ke temas pri la duopo 
-      <frm>(&sigma;(<k>i</k>),&sigma;(<k>j</k>))</frm>,
+      <frm am="(sigma(i),sigma(j))">(&sigma;(<k>i</k>),&sigma;(<k>j</k>))</frm>,
       kiel faras Bricard.
     </rim>
     <trd lng="be">&c_b;&c_je;&c_s;&c_p;&c_a;&c_r;&c_a;&c_d;&c_a;&c_k;</trd>
@@ -217,7 +219,14 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: renver.xml,v $
+versio 1.23 2020/02/16 00:10:49
+Wolfram Diestel: formuloj per am
+
+Revision 1.22  2018/10/12 23:10:19  revo
+Evandro Avellar: Korekti la pt trd de sxtat~o (Ne ekzistas la vorto
+putsch en pt)
+
 Revision 1.21  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -232,10 +241,5 @@ Tulio Flores: +trd pt
 
 Revision 1.17  2004/11/23 17:31:39  revo
 Marc Bavant: ~ajxo: kor ekz
-
-Revision 1.16  2004/09/23 19:46:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2004/02/29 17:31:30  revo
 -->
 </vortaro>
