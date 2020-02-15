@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: monom.xml,v 1.17 2020/02/15 19:10:22 revo Exp $">
 <kap>
   <rad>monom</rad>/o
 </kap>
@@ -16,11 +16,16 @@
       <ref cel="term.0o.polinomo">termo</ref>; alidire, en elementa
       algebro: algebra esprimo, kiu entenas nek adicion, nek subtrahon:
       <ekz>
-        <frm><k>c</k>(<k>x&#8239;-&#8239;a</k>)<sup>&rho;</sup></frm> estas nomata potenca monomo de <frm><k>x</k>&#8239;-&#8239;<k>a</k></frm> kun la potenca indico &rho;
+        <frm am="c(x-a)^rho"><k>c</k>(<k>x&#8239;-&#8239;a</k>)<sup>&rho;</sup></frm>
+        estas
+        nomata potenca monomo de <frm am="x-a"><k>x</k>&#8239;-&#8239;<k>a</k></frm>
+        kun la potenca indico <frm am="rho">&rho;</frm>
         <fnt>
           <aut>Masuo Hukuhara</aut>
-          <vrk><url ref="http://fe.math.kobe-u.ac.jp/FE/Free/vol04/fe04-3.pdf"
-              >Transformo de Euler kaj &gcirc;ia aplikado al la diferencialaj ekvacioj de Fuhcsa tipo &#8230;</url></vrk>
+          <vrk><url
+          ref="http://fe.math.kobe-u.ac.jp/FE/Free/vol04/fe04-3.pdf"
+              >Transformo de Euler kaj &gcirc;ia aplikado al la diferencialaj
+              ekvacioj de Fuhcsa tipo &#8230;</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -63,7 +68,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: monom.xml,v $
+versio 1.17 2020/02/15 19:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.16  2019/07/21 18:10:14  revo
+Wolfram Diestel: +ekz
+
 Revision 1.15  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -80,8 +91,5 @@ Revision 1.11  2004/08/20 16:32:13  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10  2002/11/30 17:36:23  revo
-Marc Bavant: +trd pl, +ref al n-termo
-
-Revision 1.9  2002/08/26 17:35:57  revo
 -->
 </vortaro>
