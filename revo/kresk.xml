@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kresk.xml,v 1.51 2020/02/15 18:10:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kresk</rad>/i <fnt><bib>PV</bib></fnt>
@@ -295,13 +295,14 @@
     <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-<frm><k>f</k></frm>
+      <frm am="f"><k>f</k></frm>
         inter du <ref cel="ar.orda0o">ordaj aroj</ref>)</klr>
       Tia, ke la ordo konservi&gcirc;as per &gcirc;i:
       <ekz>
-        se <frm><k>f</k></frm> estas <tld/>anta kaj
-        <frm><k>a</k> &#8804; <k>b</k></frm>, tiam
-        <frm><k>f</k>(<k>a</k>) &#8804; <k>f</k>(<k>b</k>)</frm>;
+        se <frm am="f"><k>f</k></frm> estas <tld/>anta kaj
+        <frm am="a le b"><k>a</k> &#8804; <k>b</k></frm>, tiam
+        <frm am="f(a) le f(b)"><k>f</k>(<k>a</k>) &#8804;
+        <k>f</k>(<k>b</k>)</frm>;
       </ekz><ekz>
         strikte <tld/>anta bildigo <klr>(konservanta la striktan
           ordon)</klr>;
@@ -701,13 +702,14 @@
     <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-        <frm><k>f</k></frm> inter du <ref cel="ar.orda0o">ordaj
+        <frm am="f"><k>f</k></frm> inter du <ref cel="ar.orda0o">ordaj
           aroj</ref>)</klr>
       Tia, ke la ordo inversi&gcirc;as per &gcirc;i:
       <ekz>
-        se <frm><k>f</k></frm> estas mal<tld/>anta kaj
-        <frm><k>a</k> &#8804; <k>b</k></frm>, tiam
-        <frm><k>f</k>(<k>a</k>) &#8805; <k>f</k>(<k>b</k>)</frm>;
+        se <frm am="f"><k>f</k></frm> estas mal<tld/>anta kaj
+        <frm am="a le b"><k>a</k> &#8804; <k>b</k></frm>, tiam
+        <frm am="f(a) ge f(b)"><k>f</k>(<k>a</k>) &#8805;
+        <k>f</k>(<k>b</k>)</frm>;
       </ekz>
       <ekz>
         strikte mal<tld/>anta bildigo
@@ -848,7 +850,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: kresk.xml,v $
+versio 1.51 2020/02/15 18:10:28
+Wolfram Diestel: formuloj per am
+
+Revision 1.50  2019/11/04 08:10:16  revo
+Damien Brucker: -eraro cxe cel en ref
+
 Revision 1.49  2018/04/28 05:10:18  revo
 Eko Nur Syah Hidayat: +trd id (kelkaj novaj tradukoj)
 
@@ -865,8 +873,5 @@ Revision 1.45  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.44  2015/06/24 10:10:15  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.43  2014/12/14 15:10:17  revo
 -->
 </vortaro>
