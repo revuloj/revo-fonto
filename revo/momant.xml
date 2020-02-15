@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: momant.xml,v 1.20 2020/02/15 22:10:20 revo Exp $">
 <kap>
    <rad>momant</rad>/o
 </kap>
@@ -67,13 +67,14 @@
    <snc>
      <dif>
        <klr>(de <ref cel="variab.hazarda0o">hazarda variablo</ref>
-       <frm>X</frm>)</klr>
+       <frm am="X">X</frm>)</klr>
        La <ref cel="ekspek.0o">ekspekto</ref> de
-       <frm>X<sup><k>n</k></sup></frm>;
-       simb. <frm>E(X<sup><k>n</k></sup>)</frm>:
+       <frm am="X^n">X<sup><k>n</k></sup></frm>;
+       simb. <frm am="E(X^n)">E(X<sup><k>n</k></sup>)</frm>:
        <ekz>
          <ind>n-a centra <tld/>o</ind>
-         <klr>(<frm>E((X-E(X))<sup><k>n</k></sup>)</frm>)</klr>.
+         <klr>(<frm
+         am="E([X-E(x)]^n)">E((X-E(X))<sup><k>n</k></sup>)</frm>)</klr>.
          <trd lng="de">n-tes zentrales <ind>Moment</ind></trd>
          <trd lng="en">n-th central <ind>moment</ind></trd>
          <trd lng="fr">moment centr&eacute; d'ordre n</trd>
@@ -102,7 +103,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: momant.xml,v $
+versio 1.20 2020/02/15 22:10:20
+Wolfram Diestel: formuloj per am
+
+Revision 1.19  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.18  2015/06/29 16:33:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -119,14 +126,5 @@ Revision 1.14  2006/08/07 16:32:41  revo
 Tulio Flores: +tr pt
 
 Revision 1.13  2004/11/23 17:31:27  revo
-Marc Bavant: n-a ~o: kor ekz
-
-Revision 1.12  2004/03/11 17:30:49  revo
-Emmanuel Debanne: + trd fr
-
-Revision 1.11  2003/06/05 16:30:38  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2003/04/22 16:30:59  revo
 -->
 </vortaro>
