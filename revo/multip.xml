@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: multip.xml,v 1.42 2020/02/15 18:10:33 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>multiplik</rad>/i <fnt><bib>PV</bib></fnt>
@@ -15,10 +15,11 @@
   <snc mrk="multip.0i.elemente">
     <fnt><bib>PV</bib></fnt>
     <dif>
-      <klr>(nombron <frm><k>q</k></frm> per entjero
-<frm><k>n</k></frm>)</klr>
-      <ref cel="adici.0i">Adicii</ref> <frm><k>n</k></frm> ekzemplerojn
-      de la nombro <frm><k>q</k></frm> :
+      <klr>(nombron <frm am="q"><k>q</k></frm> per entjero
+      <frm am="n"><k>n</k></frm>) </klr>
+      <ref cel="adici.0i">Adicii</ref> <frm am="n"><k>n</k></frm>
+      ekzemplerojn
+      de la nombro <frm am="q"><k>q</k></frm> :
       <ekz>
         <tld/>ante <frm>5</frm> per <frm>3</frm> oni ricevas
         <frm>15</frm>.
@@ -80,9 +81,9 @@ anstata&ubreve;
     <dif>
       La operacio <ref cel="multip.0i">multipliki</ref>:
       <ekz>
-        <frm>3&#215;7 = 21</frm> <klr>(legu: trioble sep estas dudek
-        unu,
-        a&ubreve; tri multiplikite per sep estas dudek unu)</klr>.
+        <frm am="3*7=21">3&#215;7 = 21</frm> <klr> (legu: trioble sep estas
+        dudek
+        unu, a&ubreve; tri multiplikite per sep estas dudek unu)</klr>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -112,30 +113,28 @@ anstata&ubreve;
     <subsnc mrk="multip.0o.de_matrico_per_skalaro">
       <dif>
         <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>
-        <frm>A</frm> super <frm><g>K</g></frm> per elemento &lambda;
-        de <frm><g>K</g></frm>)</klr>
+        <frm am="A">A</frm> super <frm am="bb K"><g>K</g></frm> per 
+        elemento <frm am="lambda">&lambda;</frm>
+        de <frm am="bb K"><g>K</g></frm>) </klr>
         <ref tip="super" cel="operac.ekstera0o.aro">Ekstera
         operacio</ref>, kies rezulto estas
-        <frm>(<k>n</k>,<k>p</k>)</frm>-matrico kun &gcirc;enerala
+        <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-matrico kun &gcirc;enerala
         elemento
-        <frm>&lambda;A<sub><k>ij</k></sub></frm>:
+        <frm am="lambda a_(ij)">&lambda;a<sub><k>ij</k></sub></frm>:
         <ekz>
-          <tld/>o de matrico de <frm>A</frm> per skalaro
-          <frm>&lambda;</frm>
+          <tld/>o de matrico de <frm am="A">A</frm> per skalaro
+          <frm am="lambda">&lambda;</frm>
           havas saman rezulton kiel dekstra a&ubreve; maldekstra <tld/>o
-          per
-          diagonala matrico, kies &ccirc;iuj diagonalaj elementoj egalas
-          al
-          <frm>&lambda;</frm>;
+          per diagonala matrico, kies &ccirc;iuj diagonalaj elementoj egalas
+          al <frm am="lambda">&lambda;</frm>;
         </ekz>
         <ekz>
           provizite per <tld/>o per skalaro, la adicia grupo de
-          <frm>(<k>n</k>,<k>p</k>)</frm>-matricoj fari&gcirc;as
-          <frm><k>np</k></frm>-dimensia <ref
-          cel="spac.vektora0o">vektora
-          spaco</ref>, kaj la ringo de
-<frm>(<k>n</k>,<k>n</k>)</frm>-matricoj
-          fari&gcirc;as <frm><k>n</k><sup>2</sup></frm>-dimensia
+          <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-matricoj fari&gcirc;as
+          <frm am="np"><k>np</k></frm>-dimensia <ref
+          cel="spac.vektora0o">vektora spaco</ref>, kaj la ringo de
+          <frm am="(n,p)">(<k>n</k>,<k>n</k>)</frm>-matricoj
+          fari&gcirc;as <frm am="n^2"><k>n</k><sup>2</sup></frm>-dimensia
           <ref cel="algebr.lineara0o.strukturo">lineara algebro</ref>.
         </ekz>
       </dif>
@@ -244,24 +243,26 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> <frm>A</frm>
-      per
-      <frm>(<k>p</k>,<k>q</k>)</frm>-matrico <frm>B</frm>)</klr>
+      <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> 
+      <frm am="A">A</frm> per
+      <frm am="(p,q)">(<k>p</k>,<k>q</k>)</frm>-matrico 
+      <frm am="B">B</frm>) </klr>
       <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kies rezulto
-      estas <frm>(<k>n</k>,<k>q</k>)</frm>-matrico <frm>C</frm> kun
-      &gcirc;enerala elemento
-      <frm>C<sub><k>ij</k></sub> = &#8721;<sub><k>m</k></sub>
-      A<sub><k>im</k></sub>.B<sub><k>mj</k></sub></frm>,
-      kie <frm><k>m</k></frm> varias inter <frm>1</frm> kaj
-<frm><k>p</k></frm>:
+      estas <frm am="(n,q)">(<k>n</k>,<k>q</k>)</frm>-matrico 
+      <frm am="C">C</frm> kun &gcirc;enerala elemento
+      <frm am="c_(ij)=sum_m a_(im)*b_(mj)"
+      >c<sub><k>ij</k></sub> = &#8721;<sub><k>m</k></sub>
+      a<sub><k>im</k></sub>&middot;b<sub><k>mj</k></sub></frm>,
+      kie <frm am="m"><k>m</k></frm> varias inter <frm>1</frm> kaj
+      <frm am="p"><k>p</k></frm>:
       <ekz>
         la matrica <tld/>o ne estas difinita por ajna paro de matricoj;
       </ekz>
       <ekz>
         provizite per matricaj adicio kaj <tld/>o, la aro de &ccirc;iuj
-        <frm>(<k>n</k>,<k>n</k>)</frm>-matricoj, ricevas la strukturon
-        de ringo, nekomuteca se <frm><k>n</k> &gt; 1</frm>, kies unuo
-        estas
+        <frm am="(n,n)">(<k>n</k>,<k>n</k>)</frm>-matricoj, ricevas la 
+        strukturon de ringo, nekomuteca se 
+        <frm am="n gt 1"><k>n</k> &gt; 1</frm>, kies unuo estas
         la <ref cel="matric.unuo0o">unuomatrico</ref>.
       </ekz>
     </dif>
@@ -295,19 +296,19 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
       Dua <ref tip="super" cel="operac.0o.MAT">operacio</ref> en
       <ref cel="ring.polinom0o">polinom-ringo</ref>:
       <ekz>
-        la &gcirc;enerala termo <frm><g>S</g><sub><k>n</k></sub></frm>
-        de la
-        rezulto de <tld/>o de <frm><g>P</g></frm> kun
-        <frm><g>Q</g></frm>
-estas
-        <frm>&#8721;<sub><k>p</k>+<k>q</k>=<k>n</k></sub>
-        <g>P</g><sub><k>p</k></sub>.<g>Q</g><sub><k>q</k></sub></frm>;
+        la &gcirc;enerala termo <frm am="bb
+        S_n"><g>S</g><sub><k>n</k></sub></frm>
+        de la rezulto de <tld/>o de <frm am="bb P"><g>P</g></frm> kun
+        <frm am="bb Q"><g>Q</g></frm> estas
+        <frm am="sum_(p+q=n)bb P_p*bb Q_q"
+        >&#8721;<sub><k>p</k>+<k>q</k>=<k>n</k></sub>
+        <g>P</g><sub><k>p</k></sub>&middot;<g>Q</g><sub><k>q</k></sub></frm>;
       </ekz>
       <ekz>
-        la rezulto de <tld/>o de <frm><g>X</g><sup><k>i</k></sup></frm>
-        per
-        <frm><g>X</g><sup><k>j</k></sup></frm> estas
-        <frm><g>X</g><sup><k>i</k>+<k>j</k></sup></frm>.
+        la rezulto de <tld/>o de <frm am="bb
+        X^i"><g>X</g><sup><k>i</k></sup></frm>
+        per <frm am="bb X^j"><g>X</g><sup><k>j</k></sup></frm> estas
+        <frm am="bb X^(i+j)"><g>X</g><sup><k>i</k>+<k>j</k></sup></frm>.
       </ekz>
     </dif>
   </snc>
@@ -328,7 +329,13 @@ estas
 </drv>
 </art>
 <!--
-$Log$
+$Log: multip.xml,v $
+versio 1.42 2020/02/15 18:10:33
+Wolfram Diestel: formuloj per am
+
+Revision 1.41  2018/08/06 22:10:56  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
 Revision 1.40  2016/03/26 17:10:56  revo
 Carlos Garcia: +trd es -i -o -ant -at matrica -o
 
@@ -345,8 +352,5 @@ Revision 1.36  2006/08/16 19:53:47  revo
 Tulio Flores: +tr pt
 
 Revision 1.35  2004/11/23 17:31:28  revo
-Marc Bavant: matrica ~o: mod ekz
-
-Revision 1.34  2004/07/06 16:33:52  revo
 -->
 </vortaro>
