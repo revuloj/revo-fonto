@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: egx.xml,v 1.17 2020/02/15 22:10:23 revo Exp $">
 <kap>
   <rad>e&gcirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -135,19 +135,21 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="grafe.0o.strukturo">grafeo</ref>
-      <frm>(<g>E</g>,<k>U</k>)</frm>)</klr>
-      Tia, ke la sama <tld/>o aperas maksimume <frm><k>n</k></frm>-foje
-      en <frm><k>U</k></frm>:
+      <frm am="(bb E,U)">(<g>E</g>,<k>U</k>)</frm>)</klr>
+      Tia, ke la sama <tld/>o aperas maksimume <frm
+      am="n"><k>n</k></frm>-foje
+      en <frm am="U"><k>U</k></frm>:
       <ekz>
         <ind>unuop<tld/>a grafeo</ind> estas identigebla kun interna
         rilato
-        en <frm><g>E</g></frm>;
+        en <frm am="bb E"><g>E</g></frm>;
         <trd lng="es">1-<ind>grafo</ind></trd>
         <trd lng="fr">1-<ind>graphe</ind></trd>
         <trd lng="hu">1-<ind>gr&aacute;f</ind></trd>        
       </ekz>
       <ekz>
-        plurop<tld/>a grafeo <klr>(<frm><k>n</k> &gt; 1</frm>)</klr>.
+        plurop<tld/>a grafeo <klr>(<frm am="n gt 1"
+        ><k>n</k> &gt; 1</frm>)</klr>.
       </ekz>
     </dif>
     <rim>
@@ -155,25 +157,27 @@
       <fnt><bib>KompLeks</bib></fnt> trovi&gcirc;as <ctl>unuobla grafeo</ctl>,
       sed &scirc;ajnas tamen, ke la de ni proponita termino estas logika, ja
       tiaj grafeoj karakterizi&gcirc;as per tio, ke iliaj e&gcirc;oj povas
-      esti maksimume <frm><k>n</k></frm>-opaj, en la senco, ke inter du 
-      verticoj estas maksimume <frm><k>n</k></frm> <ctl>paralelaj</ctl>
+      esti maksimume <frm am="n"><k>n</k></frm>-opaj, en la senco, ke
+      inter du 
+      verticoj estas maksimume <frm am="n"><k>n</k></frm>
+      <ctl>paralelaj</ctl>
       e&gcirc;oj. Alternativo estas
       pa&ubreve;si la internaciajn formojn per kunmeta&jcirc;o de la tipo
       <ref cel="grafe.n0o">n-grafeo</ref>. Beda&ubreve;rinde la modelo
-      &leftquot;<frm><k>n</k></frm>-X-o&rightquot; havas du eblajn
-      interpretojn: &leftquot;objekto kun <frm><k>n</k></frm> X-oj&rightquot;
+      &leftquot;<frm am="n"><k>n</k></frm>-X-o&rightquot; havas du eblajn
+      interpretojn: &leftquot;objekto kun <frm am="n"><k>n</k></frm> X-oj&rightquot;
       (
       <ekz>
-        <frm><k>n</k></frm>-latero,
+        <frm am="n"><k>n</k></frm>-latero,
       </ekz>
       <ekz>
-        <frm><k>n</k></frm>-edro
+        <frm am="n"><k>n</k></frm>-edro
       </ekz>
       ) a&ubreve; 
-      &leftquot;X-o iel karakterizata per <frm><k>n</k></frm>&rightquot;
+      &leftquot;X-o iel karakterizata per <frm am="n"><k>n</k></frm>&rightquot;
       (
       <ekz>
-        <frm><k>n</k></frm>-opo
+        <frm am="n"><k>n</k></frm>-opo
       </ekz>
       ). Pli &gcirc;ene estas, ke la plej uzata formo estas
       <ctl>1-grafeo</ctl>, kiu sonas maloportune en elparolata frazo. Do
@@ -186,7 +190,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: egx.xml,v $
+versio 1.17 2020/02/15 22:10:23
+Wolfram Diestel: formuloj per am
+
+Revision 1.16  2019/09/01 14:10:15  revo
+Guillermo Molleda Jimena: trd es
+
 Revision 1.15  2014/01/09 19:10:18  revo
 Jeromo Vasxe: + ekz, snc geog 1a
 
@@ -203,8 +213,5 @@ Revision 1.11  2003/04/07 16:34:53  revo
 Marc Bavant: ~o (grafeo): mod rim
 Revision 1.10  2003/01/02 17:45:12  revo
 Marc Bavant: n-op~a: +frm
-Revision 1.9 2002/10/27 17:13:20 revo
-Marc Bavant: snc MAT: +trd pl; ~o (grafeo): +rim, mod ref cel al grafeo,
-+ref al rando, incida, najbara, reviziis trd; +drv n-op~a
 -->
 </vortaro>
