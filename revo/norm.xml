@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: norm.xml,v 1.51 2020/02/15 22:10:17 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>norm</rad>/o <fnt><bib>PV</bib></fnt>
@@ -89,19 +89,23 @@
       <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
       Tia reela
       <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>p</k></frm>,
+      <frm am="p"><k>p</k></frm>,
       ke por &ccirc;iuj ajn <ref cel="vektor.0o.MAT">vektoroj</ref>
-      <frm><k>x</k>, <k>y</k></frm>, kaj por &ccirc;iu ajn
-      <ref cel="skalar.0o.MAT">skalaro</ref> <frm>&alfa;</frm> veras:
-      (1) <frm><k>p</k>(<k>x</k>) &#8805; 0</frm>;
-      (2) <frm><k>p</k>(<k>x</k>) = 0</frm>,
-        se kaj nur se <frm><k>x</k> = 0</frm>;
-      (3) <frm><k>p</k>(&alfa;&#8729;<k>x</k>)=|&alfa;|.<k>p</k>(<k>x</k>)</frm>;
-      kaj (4) <frm><k>p</k>(<k>x</k>+<k>y</k>) &#8804;
+      <frm am="x"><k>x</k>, <k>y</k></frm>, kaj por &ccirc;iu ajn
+      <ref cel="skalar.0o.MAT">skalaro</ref> <frm am="alpha">&alfa;</frm>
+      veras:
+      (1) <frm am="p(x) ge 0"><k>p</k>(<k>x</k>) &#8805; 0</frm>;
+      (2) <frm am="p(x)=0"><k>p</k>(<k>x</k>) = 0</frm>,
+        se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>;
+      (3) <frm  am="p(alpha*x)=|alpha|p(x)"
+      ><k>p</k>(&alfa;&#8729;<k>x</k>)=|&alfa;|<k>p</k>(<k>x</k>)</frm>;
+      kaj (4) <frm am="p(x+y) le p(x)+p(y)"
+      ><k>p</k>(<k>x</k>+<k>y</k>) &#8804;
       <k>p</k>(<k>x</k>)+<k>p</k>(<k>y</k>)</frm>:
       <ekz>
-        la <tld/>on de vektoro <frm><k>x</k></frm> oni ofte signas per
-        <frm>||<k>x</k>||</frm>;
+        la <tld/>on de vektoro <frm am="x"><k>x</k></frm> oni ofte
+        signas per
+        <frm am="||x||">||<k>x</k>||</frm>;
       </ekz>
       <ekz>
         la nocio <tld/>o plivastigas por vektoraj spacoj la nocion
@@ -112,18 +116,21 @@
         por <tld/>oj super <ref
         cel="algebr.lineara0o.strukturo">algebroj</ref>
         oni plie postulas, ke
-        <frm><k>p</k>(<k>x</k>×<k>y</k>) &#8804;
-        <k>p</k>(<k>x</k>).<k>p</k>(<k>y</k>)</frm>;
+        <frm am="p(x xx y) le p(x)*p(y)"
+        ><k>p</k>(<k>x</k>&#215;<k>y</k>) &#8804;
+        <k>p</k>(<k>x</k>)&middot;<k>p</k>(<k>y</k>)</frm>;
       </ekz>
       <ekz>
         en spaco provizita per <ref cel="produt.skalara0o">skalara
         produto</ref>, la bildigo
-        <frm><k>p</k>(<k>x</k>)= &#8730; &lt;<k>x</k>|<k>x</k>&gt;</frm>
+        <frm am="p(x)=sqrt(:x|x:)"
+        ><k>p</k>(<k>x</k>)= &#8730; &lt;<k>x</k>|<k>x</k>&gt;</frm>
         estas <tld/>o, nomata e&ubreve;klida <tld/>o;
       </ekz>
       <ekz>
-        la bildigo, kiu &jcirc;etas paron <frm>(<k>x</k>,<k>y</k>)</frm> al
-        <frm>||<k>x</k>-<k>y</k>||</frm> estas
+        la bildigo, kiu &jcirc;etas paron <frm
+        am="(x,y)">(<k>x</k>,<k>y</k>)</frm>
+        al <frm am="||x-y||">||<k>x</k>-<k>y</k>||</frm> estas
         <ref cel="metrik.0o.MAT">metriko</ref>.
       </ekz>
     </dif>
@@ -334,9 +341,10 @@
       ecoj kiel <ref cel="norm.0o.MAT"><tld/>o <sncref/></ref>,
       krom ke la bildo de nenula vektoro rajtas esti nula:
       <ekz>
-        se <frm><k>f</k></frm> estas lineara formo, la bildigo, kiu
-        &jcirc;etas vektoron <frm><k>x</k></frm> al
-        <frm>|<k>f</k>(<k>x</k>)|</frm> estas duon<tld/>o.
+        se <frm am="f"><k>f</k></frm> estas lineara formo, la bildigo,
+        kiu
+        &jcirc;etas vektoron <frm am="x"><k>x</k></frm> al
+        <frm am="|f(x)|">|<k>f</k>(<k>x</k>)|</frm> estas duon<tld/>o.
       </ekz>
     </dif>
     <rim>
@@ -483,7 +491,13 @@ tip="ind"> (&c_b;&c_a;&c_z;&c_i;&c_s;)</klr></trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: norm.xml,v $
+versio 1.51 2020/02/15 22:10:17
+Wolfram Diestel: formuloj per am
+
+Revision 1.50  2019/12/14 14:10:25  revo
+Jeromo Vasxe: ~o snc 2 reverk dif, + sen~eco
+
 Revision 1.49  2015/10/20 05:10:16  revo
 Sebastian Cyprych: +trd pl
 
@@ -500,8 +514,5 @@ Revision 1.45  2010/11/01 17:30:31  revo
 Agustin Garcia Lopez: +trd es
 
 Revision 1.44  2010/07/10 16:30:58  revo
-Jeromo Vasxe: - kramp
-
-Revision 1.43  2006/09/18 16:30:46  revo
 -->
 </vortaro>
