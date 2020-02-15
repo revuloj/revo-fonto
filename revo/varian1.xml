@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: varian1.xml,v 1.11 2020/02/15 17:10:22 revo Exp $">
 <kap>
   <rad>varianc</rad>/o
 </kap>
@@ -13,12 +13,14 @@
   <snc>
     <dif>
       <klr>(de <ref cel="variab.hazarda0o">hazarda variablo</ref> 
-      <frm>X</frm>)</klr>
+      <frm am="X">X</frm>)</klr>
       La <ref cel="ekspek.0o">ekspekto</ref> de
-      <frm>(X-E(X))<sup>2</sup></frm>; 
-      simb. <frm>Var(X)</frm> a&ubreve; <frm>&sigma;<sup>2</sup>(X)</frm>:
+      <frm am="(X-E(X))^2">(X-E(X))<sup>2</sup></frm>; 
+      simb. <frm am='"Var"(X)'>Var(X)</frm> a&ubreve; 
+      <frm am="sigma^2(X)">&sigma;<sup>2</sup>(X)</frm>:
       <ekz>
-        la <tld/>o estas la <ref cel="momant.noa0o">dua centra momanto</ref>.
+        la <tld/>o estas la <ref cel="momant.noa0o">dua centra
+        momanto</ref>.
       </ekz>
     </dif>
   </snc>
@@ -27,7 +29,7 @@
   <trdgrp lng="cs">
     <trd>disperze</trd>,
     <trd>rozptyl</trd>,
-    <trd>střední kvadratická odchylka</trd>,
+    <trd>st&rcaron;edn&iacute; kvadratick&aacute; odchylka</trd>,
     <trd>variance</trd>
   </trdgrp>
   <trdgrp lng="de">
@@ -60,11 +62,12 @@
   <snc>
     <dif>
       <klr>(de du <ref cel="variab.hazarda0o">hazardaj variabloj</ref>
-      <frm>X</frm> kaj <frm>Y</frm>)</klr>
-      La <ref cel="ekspek.0o">ekspekto</ref> de <frm>(X-E(X))(Y-E(Y))</frm>; 
-      simb. <frm>Kovar(X,Y)</frm>:
+      <frm am="X">X</frm> kaj <frm am="Y">Y</frm>)</klr>
+      La <ref cel="ekspek.0o">ekspekto</ref> de 
+      <frm am="(X-E(X))(Y-E(Y))">(X-E(X))(Y-E(Y))</frm>; 
+      simb. <frm am='"Kovar"(X,Y)'>Kovar(X,Y)</frm>:
       <ekz>
-        la <tld/>o de <frm>X</frm> egalas al &gcirc;ia kun<tld/>o 
+        la <tld/>o de <frm am="X">X</frm> egalas al &gcirc;ia kun<tld/>o 
         kun &gcirc;i mem;
       </ekz>
       <ekz>
@@ -100,7 +103,13 @@
 </art>
 
 <!--
-$Log$
+$Log: varian1.xml,v $
+versio 1.11 2020/02/15 17:10:22
+Wolfram Diestel: formuloj per am
+
+Revision 1.10  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.9  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -117,14 +126,5 @@ Revision 1.5  2005/01/21 17:32:42  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.4  2002/11/27 17:30:55  revo
-Marc Bavant: +frm
-
-Revision 1.3  2002/09/29 17:50:47  revo
-Marc Bavant: +drv kun~o
-Revision 1.2  2002/09/24 16:33:54  revo
-Oscar Puig: + trd ca
-Revision 1.1  2002/09/22 16:33:49  revo
-Marc Bavant: nova artikolo
 -->
 </vortaro>
-
