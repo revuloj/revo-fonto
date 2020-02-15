@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: vic.xml,v 1.61 2020/02/15 18:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vic</rad>/o <fnt><bib>PV</bib></fnt>
@@ -147,7 +147,7 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <klr>(en aro <frm><g>E</g></frm>)</klr>
+      <klr>(en aro <frm><g>E</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de iu subaro de
       la aro de entjeroj al <frm><g>E</g></frm>:
       <ekz>
@@ -156,8 +156,8 @@
       </ekz>
       <ekz>
         la <tld/>o de &ccirc;iuj entjeraj kvadratoj <klr>(la bildigo, kiu
-        &jcirc;etas naturalan entjeron <frm><k>n</k></frm> al
-        <frm><k>n</k><sup>2</sup></frm>)</klr>.
+        &jcirc;etas naturalan entjeron <frm am="n"><k>n</k></frm> al
+        <frm am="n^2"><k>n</k><sup>2</sup></frm>)</klr>.
       </ekz>
     </dif>
     <refgrp tip="super">
@@ -199,15 +199,19 @@
     </refgrp>
     <rim>
       La nocio <tld/>o servas por formale paroli pri sinsekvoj da
-      elementoj el <frm><g>E</g></frm>, ekz-e la sinsekvo
-      <frm>(1/<k>n</k>)<sub><k>n</k> &gt; 0</sub></frm> de &ccirc;iuj
+      elementoj el <frm am="bb E"><g>E</g></frm>, ekz-e la sinsekvo
+      <frm am="(1//n)_(n gt 0)"
+      >(1/<k>n</k>)<sub><k>n</k> &gt; 0</sub></frm> de &ccirc;iuj
       inversoj de pozitivaj entjeroj. Anstata&ubreve; uzi funkciecan
       skriba&jcirc;on por signi <tld/>on, oni kutime preferas skribi
-      <frm>(<k>u</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>.
-      La bildon de <frm><k>n</k></frm> per <frm><k>u</k></frm> oni nomas
-      la <frm><k>n</k></frm>-a termo de la <tld/>o kaj oni signas per
-      <frm><k>u</k><sub><k>n</k></sub></frm>. Konforme kun tia
-      skriba&jcirc;o <frm><k>n</k></frm> estas nomata la indico.
+      <frm am="(u_i)_(i in bb I)"
+      >(<k>u</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>.
+      La bildon de <frm am="n"><k>n</k></frm> per 
+      <frm am="u"><k>u</k></frm> oni nomas
+      la <frm am="n"><k>n</k></frm>-a termo de la <tld/>o kaj oni signas
+      per
+      <frm am="u_n"><k>u</k><sub><k>n</k></sub></frm>. Konforme kun tia
+      skriba&jcirc;o <frm am="n"><k>n</k></frm> estas nomata la indico.
     </rim>
     <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_l;&c_ja;&c_d;&c_o;&c_w;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
     <trd lng="ca">successi&oacute;</trd>
@@ -437,7 +441,8 @@
       <ref tip="sub" cel="adjunk.0o.KOMUNE">adjunkto</ref>:
       <ekz>
         ili devis plenumi specialan kutimi&gcirc;an kurseton, <klr>...</klr>
-        por ke  Karlo kaj lia <tld/>ulo, <nom>Re&gcirc;</nom>, eklernu novajn teknikojn
+        por ke  Karlo kaj lia <tld/>ulo, <nom>Re&gcirc;</nom>, eklernu novajn
+        teknikojn
         <fnt>
           <aut>J. Francis</aut>,
           <vrk>La Granda Kaldrono</vrk>,
@@ -936,11 +941,13 @@
   <snc>
     <dif>
       <klr>(de <ref tip="super" cel="vic.0o.MAT"><tld/>o</ref>
-      <frm><k>u</k></frm>)</klr>
-      Tia <tld/>o <frm><k>v</k></frm>, ke &gcirc;ia
+      <frm am="u"><k>u</k></frm>)</klr>
+      Tia <tld/>o <frm am="v"><k>v</k></frm>, ke &gcirc;ia
       <ref cel="ar.fonto0o">fonto-aro</ref> estas subaro de la fonto-aro
-      de <frm><k>u</k></frm>, kaj ke &ccirc;iu termo de <frm><k>v</k></frm>
-      estas termo anka&ubreve; de <frm><k>u</k></frm> por la sama indico:
+      de <frm am="u"><k>u</k></frm>, kaj ke &ccirc;iu termo de <frm
+      am="v"><k>v</k></frm>
+      estas termo anka&ubreve; de <frm am="u"><k>u</k></frm> por la sama
+      indico:
       <ekz>
         &ccirc;iu ajn nefinia sub<tld/>o de ko&scirc;ia <tld/>o estas
         ko&scirc;ia.
@@ -1012,7 +1019,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: vic.xml,v $
+versio 1.61 2020/02/15 18:10:21
+Wolfram Diestel: formuloj per am
+
+Revision 1.60  2019/03/30 08:10:15  revo
+Jeromo Vasxe: + en~igi/igxi
+
 Revision 1.59  2017/10/09 15:10:15  revo
 Jeromo Vasxe: + ~ulo
 
@@ -1029,8 +1042,5 @@ Revision 1.55  2015/09/25 22:10:20  revo
 Jeromo Vasxe: + ~e de
 
 Revision 1.54  2015/07/04 08:37:45  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.53  2015/06/29 16:40:20  revo
 -->
 </vortaro>
