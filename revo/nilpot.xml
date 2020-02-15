@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: nilpot.xml,v 1.10 2020/02/15 22:10:15 revo Exp $">
 <kap>
   <rad>nilpotent</rad>/a
 </kap>
@@ -14,9 +14,12 @@
     <dif>
       <ref tip="dif" cel="potenc.nul0a">Nulpotenca</ref>:
       <ekz>
-        matrico <frm><g>A</g></frm> estas unipotenta, se <frm><g>A</g></frm>&#8239;-&#8239;<frm><g>I</g></frm>
-        estas <tld/>a, do se <frm>(<g>A</g>&#8239;-&#8239;<g>I</g>)<sup>n</sup>&#8239;=&#8239;0</frm> por ajna n,
-        kondi&ccirc;e ke <frm><g>I</g></frm> estas identa matrico
+        matrico <frm am="bb A"><g>A</g></frm> estas unipotenta, se 
+        <frm am="bb A-bb I"><g>A</g>&#8239;-&#8239;<g>I</g></frm>
+        estas <tld/>a, do se <frm am="(bb A-bb I)^n=0"
+        >(<g>A</g>&#8239;-&#8239;<g>I</g>)<sup>n</sup>&#8239;=&#8239;0</frm> por ajna 
+        <frm am="n"><k>n</k></frm>, kondi&ccirc;e ke 
+        <frm am="bb I"><g>I</g></frm> estas identa matrico
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=427018"
@@ -40,7 +43,13 @@
 </art>
 
 <!--
-$Log$
+$Log: nilpot.xml,v $
+versio 1.10 2020/02/15 22:10:15
+Wolfram Diestel: formuloj per am
+
+Revision 1.9  2019/03/10 21:10:21  revo
+Wolfram Diestel: +ekz
+
 Revision 1.8  2012/08/04 09:10:32  revo
 Marc Rausell: + trd ca
 
@@ -57,8 +66,5 @@ Revision 1.4  2004/06/22 16:29:51  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.3  2004/02/19 18:50:16  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.2  2002/11/30 17:36:36  revo
 -->
 </vortaro>
