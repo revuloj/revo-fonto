@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: karakt2.xml,v 1.13 2020/02/15 10:10:18 revo Exp $">
 <kap>
   <rad>karakteristik</rad>/o
 </kap>
@@ -16,9 +16,9 @@
       &Gcirc;ia <ref cel="part.entjera0o">entjera parto</ref>:
       <ekz>
         la <tld/>o de la ordinara logaritmo de 
-        <frm>10<sup><k>n</k></sup>.<k>x</k></frm> 
-        egalas al tiu de <frm><k>x</k></frm> plus
-        <frm><k>n</k></frm>.
+        <frm am="10^n*x">10<sup><k>n</k></sup>&middot;<k>x</k></frm> 
+        egalas al tiu de <frm am="x"><k>x</k></frm> plus
+        <frm am="n"><k>n</k></frm>.
       </ekz>
     </dif>
     <ref tip="vid" cel="mantis.0o.MAT">mantiso.</ref>
@@ -28,31 +28,47 @@
     <fnt><bib>MatStokTerm</bib><lok>p. 29</lok></fnt>
     <dif>
       <klr>(de <ref cel="ring.0o.MAT">ringo</ref>)</klr>
-      Tia plej malgranda nenula entjero <frm><k>n</k></frm>, se &gcirc;i 
-      ekzistas, ke <frm><k>n</k>&#8729;1 = 0</frm>:
+      Tia plej malgranda nenula entjero <frm am="n"><k>n</k></frm>, se
+      &gcirc;i 
+      ekzistas, ke <frm am="n*1=0"><k>n</k>&#8729;1 = 0</frm>:
       <ekz>
-        la ringo de entjeroj havas nulan <tld/>on <klr>(ne ekzistas tia nenula
-        entjero <frm><k>n</k></frm>, ke <frm><k>n</k>&#8729;1 = 0</frm>)</klr>;
+        la ringo de entjeroj havas nulan <tld/>on <klr>(ne ekzistas tia
+        nenula
+        entjero <frm am="n"><k>n</k></frm>, ke <frm
+        am="n*1=0"><k>n</k>&#8729;1 = 0</frm>)</klr>;
       </ekz>
       <ekz>
-        la <ref cel="ring.0o_de_nmodulaj_restoklasoj">ringo de n-modulaj 
-        restoklasoj</ref> havas <tld/>on <frm><k>n</k></frm>.
+        la <ref cel="ring.0o_de_nmodulaj_restoklasoj">ringo de n-modulaj
+        
+        restoklasoj</ref> havas <tld/>on <frm
+        
+        am="n"><k>n</k></frm>.
       </ekz>
     </dif>
-    <trd lng="pl">charakterystyka<klr tip="ind"> (pier&sacute;cienia)</klr></trd>
+    <trd lng="pl">charakterystyka<klr tip="ind">
+    (pier&sacute;cienia)</klr></trd>
   </snc>
   <trd lng="be">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_a;&c_r;&c_y;&c_s;&c_t;&c_y;&c_k;&c_a;</trd>
   <trd lng="cs">charakteristika</trd>
   <trd lng="de">Charakteristik</trd>
-  <trd lng="en">characteristic<klr tip="ind"> (of a logarithm, of a ring)</klr></trd>
-  <trd lng="fr">caract&eacute;ristique<klr tip="ind"> (d'un logarithme, d'un anneau)</klr></trd>
+  <trd lng="en">characteristic<klr tip="ind"> (of a logarithm, of a
+  ring)</klr></trd>
+  <trd lng="fr">caract&eacute;ristique<klr tip="ind"> (d'un logarithme, d'un
+  anneau)</klr></trd>
   <trd lng="hu">karakterisztika</trd>
-  <trd lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_s;&c_t;&c_i;&c_k;&c_a;<klr tip="ind"> (&c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_a;, &c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;)</klr></trd>
+  <trd lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_s;&c_t;&c_i;&c_k;&c_a;<klr tip="ind"> (&c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_a;,
+  &c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;)</klr></trd>
   <trd lng="sk">charakteristika</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: karakt2.xml,v $
+versio 1.13 2020/02/15 10:10:18
+Wolfram Diestel: formuloj per am
+
+Revision 1.12  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.11  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -69,15 +85,5 @@ Marc Bavant: +frm
 Revision 1.6  2002/10/21 16:33:45  revo
 Marc Bavant: mod operacion *
 Revision 1.5  2002/08/25 19:01:20  revo
-Marc Bavant: mod ref cel al mantiso; +trd pl
-Revision 1.4  2002/05/12 16:39:27  revo
-Marc Bavant: +snc, +mrk
-Revision 1.3 2002/05/02 16:37:20 revo
-Marc Bavant: mod ref cel al mantiso
-Revision 1.2 2001/09/18 18:19:55 revo
-Ulrich Fellmann: ort kor de la germ trd
-Revision 1.1 2001/09/16 18:50:18 revo
-Marc Bavant: nova artikolo
 -->
 </vortaro>
-
