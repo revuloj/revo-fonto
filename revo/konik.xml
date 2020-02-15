@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: konik.xml,v 1.24 2020/02/15 11:10:16 revo Exp $">
 <kap>
 <rad>konik</rad>/o
 </kap>
@@ -28,12 +28,14 @@
       <ekz>
         polusa ekvacio de <tld/>o kun poluso &ccirc;e la origino de
         koordinatoj estas de la tipo 
-        <frm>&rho; = <k>p</k>/(1+<k>q</k>.cos&theta;)</frm>, 
-        kie <frm><k>q</k></frm> signas la discentrecon;
+        <frm am="rho=p//(1+q*cos theta)"
+        >&rho; = <k>p</k>/(1+<k>q</k>&middot;cos&theta;)</frm>, 
+        kie <frm am="q"><k>q</k></frm> signas la discentrecon;
       </ekz>
       <ekz>
         la kartezia ekvacio de <tld/>o estas de la tipo
-        <frm><k>ax</k><sup>2</sup>+<k>by</k><sup>2</sup>+<k>cxy</k>+<k>dx</k>+<k>ey</k>+<k>f</k>
+        <frm am="ax^2+by^2+cxy+dx+ey+f=0"
+        ><k>ax</k><sup>2</sup>+<k>by</k><sup>2</sup>+<k>cxy</k>+<k>dx</k>+<k>ey</k>+<k>f</k>
         = 0</frm>, t.e. duagrada algebra ekvacio kun du variabloj.
       </ekz>
     </dif>
@@ -70,12 +72,18 @@
     <trd>se&ccedil;&atilde;o <ind>c&ocirc;nica</ind></trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_s;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
-  <trd lng="sk">kužeľosečka</trd>
-  <trd lng="cs">kuželosečka</trd>
+  <trd lng="sk">ku&zcaron;e&lcaron;ose&ccaron;ka</trd>
+  <trd lng="cs">ku&zcaron;elose&ccaron;ka</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: konik.xml,v $
+versio 1.24 2020/02/15 11:10:16
+Wolfram Diestel: formuloj per am
+
+Revision 1.23  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.22  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -92,14 +100,5 @@ Revision 1.18  2004/08/12 16:31:52  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.17  2003/02/24 17:33:28  revo
-Marc Bavant: mod bld, +ref al parametro
-
-Revision 1.16  2003/01/02 17:47:48  revo
-Marc Bavant: +trd pl
-Revision 1.15  2002/11/26 17:31:48  revo
-Marc Bavant: +frm, mod ekz
-Revision 1.14  2002/08/25 19:01:28  revo
-Marc Bavant: ~o: mod uskl en refgrp; +trd pl
-Revision 1.13  2002/05/02 16:35:14  revo
 -->
 </vortaro>
