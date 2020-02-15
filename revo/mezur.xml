@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mezur.xml,v 1.46 2020/02/14 13:10:19 revo Exp $">
+<art mrk="$Id: mezur.xml,v 1.47 2020/02/15 19:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mezur</rad>/i <fnt><bib>PV</bib></fnt>
@@ -284,10 +284,11 @@
     <fnt><bib>EKV</bib><lok>&para;281</lok></fnt>
     <dif>
       <klr>(super <ref cel="algebr.sigma0o">&sigma;-algebro</ref>
-      <frm><g>A</g></frm>)</klr>
+      <frm am="bb A"><g>A</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
       <frm am="mu">&my;</frm>
-      de <frm><g>A</g></frm> al la aro de reeloj, ke la bildo per
+      de <frm am="bb A"><g>A</g></frm> al la aro de reeloj, ke la bildo
+      per
       &gcirc;i de
       <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref> de numerebla
       <ref cel="dis.0a.familio">disa</ref> familio el
@@ -407,16 +408,17 @@
     <dif>
       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
       <frm am="f"><k>f</k></frm>
-      de aro <frm><g>E</g></frm> al aro <frm><g>F</g></frm>, provizitaj
-      per
-      respektivaj <ref cel="algebr.sigma0o">&sigma;-algebroj</ref>
-      <frm><g>A</g></frm> kaj <frm><g>B</g></frm>)</klr>
+      de aro <frm><g>E</g></frm> al aro <frm am="bb F"><g>F</g></frm>, 
+      provizitaj per respektivaj <ref
+      cel="algebr.sigma0o">&sigma;-algebroj</ref>
+      <frm am="bb A"><g>A</g></frm> kaj <frm am="bb
+      B"><g>B</g></frm>)</klr>
       Tia, ke la <ref cel="bild.inversa0o.subaro">inversa bildo</ref>
       per <frm am="f"><k>f</k></frm> de &ccirc;iu elemento de
-      <frm><g>B</g></frm>
-      apartenas al <frm><g>A</g></frm>:
+      <frm am="bb B"><g>B</g></frm>
+      apartenas al <frm am="bb A"><g>A</g></frm>:
       <ekz>
-        se la &sigma;-algebroj estas borelaj, &ccirc;iu
+        se la <frm am="sigma">&sigma;</frm>-algebroj estas borelaj, &ccirc;iu
         <ref cel="kontin3.0a.cxie">kontinua</ref> bildigo estas
         anka&ubreve;
         <tld/>ebla.
@@ -875,7 +877,10 @@
 </art>
 <!--
 $Log: mezur.xml,v $
-versio 1.46 2020/02/14 13:10:19
+versio 1.47 2020/02/15 19:10:16
+Wolfram Diestel: formuloj per am
+
+Revision 1.46  2020/02/14 12:10:18  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.45  2017/12/20 00:11:14  revo
@@ -894,8 +899,5 @@ Revision 1.41  2013/12/14 18:10:41  revo
 Jeromo Vasxe: + laux~e kiel
 
 Revision 1.40  2013/01/03 07:10:08  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.39  2012/10/23 00:13:01  revo
 -->
 </vortaro>
