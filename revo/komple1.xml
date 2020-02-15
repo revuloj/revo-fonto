@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: komple1.xml,v 1.40 2020/02/15 10:10:30 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>komplement</rad>/o <fnt><bib>PV</bib></fnt>
@@ -60,7 +60,8 @@
         al &gcirc;i:
         <ekz>
           la sinuso de la <tld/>o egalas al la kosinuso de la originalo
-          <klr>(<frm>sin(&pi;/2-&theta;) = cos&theta;</frm>)</klr>.
+          <klr>(<frm am="sin(pi/2-theta)=cos theta">sin(&pi;/2-&theta;) =
+          cos&theta;</frm>)</klr>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -80,16 +81,18 @@
     <subsnc mrk="komple1.0o.aro">
       <fnt><bib>EKV</bib><lok>&para;207</lok></fnt>
       <dif>
-        <klr>(de subaro <frm><g>A</g>&#8834;<g>E</g></frm> rilate al
-        <frm><g>E</g></frm>)</klr>
+        <klr>(de subaro <frm am="bb A"><g>A</g>&#8834;<g>E</g></frm> rilate al
+        <frm am="bb E"><g>E</g></frm>)</klr>
         La <ref tip="super" cel="ar.0o.MAT">aro</ref>, kies elementoj
-        apartenas al <frm><g>E</g></frm>, sed ne al <frm><g>A</g></frm>:
+        apartenas al <frm am="bb E"><g>E</g></frm>, sed ne al 
+        <frm am="bb A"><g>A</g></frm>:
         <ekz>
           la <tld/>on oni foje signas per
-          <frm>&#8705;<sub><g>E</g></sub><g>A</g></frm>;
+          <frm am="C_(bb E)bb A">&#8705;<sub><g>E</g></sub><g>A</g></frm>;
         </ekz>
         <ekz>
-          la <tld/>o de <frm><g>E</g></frm> rilate al si mem estas la
+          la <tld/>o de <frm am="bb E"><g>E</g></frm> rilate al si mem
+          estas la
           malplena aro.
         </ekz>
       </dif>
@@ -189,10 +192,10 @@
     </subsnc>
     <subsnc mrk="komple1.0a.subaro">
       <dif>
-        <klr>(p.p. du subaroj de <frm><g>E</g></frm>)</klr>
+        <klr>(p.p. du subaroj de <frm am="bb E"><g>E</g></frm>)</klr>
         Tiaj, ke ili estas <ref cel="dis.0a.aroj">disaj</ref>, kaj ke
         ilia <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref> egalas al
-        <frm><g>E</g></frm>.
+        <frm am="bb E"><g>E</g></frm>.
       </dif>
       <trd lng="de">komplement&auml;r<klr tip="ind"> (-e
       Untermenge)</klr></trd>
@@ -206,10 +209,10 @@
       <dif>
         <klr>(p.p. <ref cel="spac.vektorasub0o">subspacoj</ref>
         de <ref cel="spac.vektora0o">vektora spaco</ref>
-        <frm><g>E</g></frm>)</klr>
+        <frm am="bb E"><g>E</g></frm>)</klr>
         Tiaj, ke ilia <ref cel="sum.0o.vektorasubspaco">sumo</ref>
         egalas
-        al <frm><g>E</g></frm> kaj estas <ref
+        al <frm am="bb E"><g>E</g></frm> kaj estas <ref
         cel="rekt.0a.sumo">rekta</ref>:
         <ekz>
           en tridimensia vektora spaco ajna
@@ -235,13 +238,15 @@
       <fnt><bib>EKV</bib><lok>&para;208</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="latis.0o.MAT">latiso</ref>
-        <frm>(<g>E</g>,&#8744;,&#8743;)</frm>)</klr>
-        Tia, ke por &ccirc;iu elemento <frm><k>x</k></frm> de &gcirc;i
-        ekzistas tia elemento <frm><k>x'</k></frm>,
-        ke <frm><k>x</k>&#8744;<k>x'</k></frm> estas
-        <ref cel="maksim1.0o.MAT">maksimumo</ref> de <frm><g>E</g></frm>
-        kaj <frm><k>x</k>&#8743;<k>x'</k></frm> estas
-        <ref cel="minimu.0o.MAT">minimumo</ref> de <frm><g>E</g></frm>.
+        <frm am="(bb E,vv,^^)">(<g>E</g>,&#8744;,&#8743;)</frm>)</klr>
+        Tia, ke por &ccirc;iu elemento <frm am="x"><k>x</k></frm> de &gcirc;i
+        ekzistas tia elemento <frm am="x&#8242;"><k>x'</k></frm>,
+        ke <frm am="x vv x&#8242;"><k>x</k>&#8744;<k>x'</k></frm> estas
+        <ref cel="maksim1.0o.MAT">maksimumo</ref> de <frm am="bb
+        E"><g>E</g></frm>
+        kaj <frm am="x ^^ x&#8242;"><k>x</k>&#8743;<k>x'</k></frm> estas
+        <ref cel="minimu.0o.MAT">minimumo</ref> de <frm am="bb
+        E"><g>E</g></frm>.
       </dif>
       <trd lng="de">komplement&auml;r<klr tip="ind"> (-er
       Verband)</klr></trd>
@@ -343,7 +348,13 @@
 
 </art>
 <!--
-$Log$
+$Log: komple1.xml,v $
+versio 1.40 2020/02/15 10:10:30
+Wolfram Diestel: formuloj per am
+
+Revision 1.39  2019/05/07 23:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.38  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -360,8 +371,5 @@ Revision 1.34  2007/01/04 17:30:19  revo
 Tulio Flores: +tr pt
 
 Revision 1.33  2005/01/23 17:33:04  revo
-Marc Bavant: +trd fr, sxovis drv
-
-Revision 1.32  2004/11/28 19:44:03  revo
 -->
 </vortaro>
