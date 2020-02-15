@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: simetr.xml,v 1.35 2020/02/15 18:10:30 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>simetri</rad>/o
@@ -37,13 +37,15 @@
         <ref cel="homomo.0a.bildigo">Homomorfia</ref>
         <ref tip="super" cel="involu1.0o">involucio</ref>:
         <ekz>
-          se <frm><g>U</g></frm> estas la aro de &ccirc;iuj vektoroj
-          sen&scirc;an&gcirc;aj per la <tld/>o <frm><k>f</k></frm>,
-          kaj <frm><g>V</g></frm> estas la aro de &ccirc;iuj vektoroj
+          se <frm am="bb U"><g>U</g></frm> estas la aro de &ccirc;iuj vektoroj
+          sen&scirc;an&gcirc;aj per la <tld/>o <frm am="f"><k>f</k></frm>,
+          kaj <frm am="bb V"><g>V</g></frm> estas la aro de &ccirc;iuj
+          vektoroj
           &scirc;an&gcirc;itaj al sia kontra&ubreve;egalo per
-          <frm><k>f</k></frm>, tiam oni diras, ke <frm><k>f</k></frm>
-          estas <tld/>o kun direkto <frm><g>V</g></frm>
-          rilate al <frm><g>U</g></frm>.
+          <frm am="f"><k>f</k></frm>, tiam oni diras, ke 
+          <frm am="f"><k>f</k></frm>
+          estas <tld/>o kun direkto <frm am="bb V"><g>V</g></frm>
+          rilate al <frm am="bb U"><g>U</g></frm>.
         </ekz>
       </dif>
       <ref tip="sin" cel="simetr.vektora0o">vektora simetrio.</ref>
@@ -162,8 +164,8 @@
       <dif>
         <klr>(p.p. <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
         Tia, ke &ccirc;iu &gcirc;ia elemento
-        kun indico <frm>(<k>i</k>,<k>j</k>)</frm> egalas
-        al tiu kun indico <frm>(<k>j</k>,<k>i</k>)</frm>:
+        kun indico <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> egalas
+        al tiu kun indico <frm am="(j,i)">(<k>j</k>,<k>i</k>)</frm>:
         <ekz>
           <tld/>a matrico egalas al sia transpona&jcirc;o.
         </ekz>
@@ -175,19 +177,19 @@
       <fnt><bib>PIV1</bib><lok>rilato</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="rilat.interna0o">interna rilato</ref>
-        <frm><g>R</g></frm>)</klr>
+        <frm am="bb R"><g>R</g></frm>)</klr>
         Tia, ke &gcirc;i egalas al sia
         <ref cel="invers.0o.variaj">inverso</ref>
-        <frm><g>R</g><sup>-1</sup></frm>:
+        <frm am="bb R^-1"><g>R</g><sup>-1</sup></frm>:
         <ekz>
           la <ref cel="rilat.idento0o">idento-rilato</ref> estas
           <tld/>a;
         </ekz>
         <ekz>
-          <frm><g>R</g></frm> estas <tld/>a, se kaj nur se de la fakto,
-          ke 
-          <frm><k>x</k><g>R</g><k>y</k></frm>,
-          sekvas, ke <frm><k>y</k><g>R</g><k>x</k></frm>;
+          <frm am="bb R"><g>R</g></frm> estas <tld/>a, se kaj nur se de
+          la 
+          fakto, ke <frm am="x bb R y"><k>x</k><g>R</g><k>y</k></frm>,
+          sekvas, ke <frm am="y bb R x"><k>y</k><g>R</g><k>x</k></frm>;
         </ekz>
         <ekz>
           <tld/>eco estas nepra eco de
@@ -201,16 +203,18 @@
       <fnt><bib>EKV</bib><lok>&para;394</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-        de <frm><g>E</g><sup><k>n</k></sup></frm>
-        al <frm><g>F</g></frm>, kun <frm><k>n</k> &#8805; 2</frm>)</klr>
+        de <frm am="bb E"><g>E</g><sup><k>n</k></sup></frm>
+        al <frm am="bb F"><g>F</g></frm>, kun 
+        <frm am="n ge 2"><k>n</k> &#8805; 2</frm>)</klr>
         Tia, ke &gcirc;i &jcirc;etas &ccirc;iujn opojn kun permutitaj
         termoj al la sama bildo:
         <ekz>
-          se <frm><k>n</k> = 2</frm> kaj <frm><k>f</k></frm> estas
-          <tld/>a,
-          <frm><k>f</k>(<k>x</k>,<k>y</k>) =
+          se <frm am="n=2"><k>n</k> = 2</frm> kaj 
+          <frm am="f"><k>f</k></frm> estas <tld/>a,
+          <frm am="f(x,y)=f(y,x)"
+          ><k>f</k>(<k>x</k>,<k>y</k>) =
           <k>f</k>(<k>y</k>,<k>x</k>)</frm>
-          por &ccirc;iu ajn <frm><k>x</k>, <k>y</k></frm>.
+          por &ccirc;iu ajn <frm am="x,y"><k>x</k>, <k>y</k></frm>.
         </ekz>
       </dif>
       <trd lng="en">symmetric</trd>
@@ -251,17 +255,18 @@
   <snc mrk="simetr.mal0a.rilato">
     <dif>
       <klr>(p.p. <ref cel="rilat.interna0o">interna rilato</ref>
-      <frm><g>R</g></frm>)</klr>
+      <frm am="bb R"><g>R</g></frm>)</klr>
       Tia, ke la <ref cel="komun.0ajxo.aro">komuna&jcirc;o</ref> inter
       &gcirc;i kaj &gcirc;ia <ref cel="invers.0o.variaj">inverso</ref>
       estas subaro de la <ref cel="rilat.idento0o">idento-rilato</ref>;
       simb.
-      <frm><g>R</g>&#8745;<g>R</g><sup>-1</sup>&#8834;id<sub><g>E</g></sub></frm>:
+      <frm am='bb R nn bb R^-1 sub "id"_(bb E)'
+      ><g>R</g>&#8745;<g>R</g><sup>-1</sup>&#8834;id<sub><g>E</g></sub></frm>:
       <ekz>
-        se <frm><g>R</g></frm> estas mal<tld/>a, de la fakto,
-        ke <frm><k>x</k><g>R</g><k>y</k></frm>
-        kaj <frm><k>y</k><g>R</g><k>x</k></frm>,
-        sekvas, ke <frm><k>x</k> = <k>y</k></frm>.
+        se <frm am="bb R"><g>R</g></frm> estas mal<tld/>a, de la fakto,
+        ke <frm am="x bb R y"><k>x</k><g>R</g><k>y</k></frm>
+        kaj <frm am="y bb R x"><k>y</k><g>R</g><k>x</k></frm>,
+        sekvas, ke <frm am="x=y"><k>x</k> = <k>y</k></frm>.
       </ekz>
     </dif>
     <rim>
@@ -358,7 +363,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: simetr.xml,v $
+versio 1.35 2020/02/15 18:10:30
+Wolfram Diestel: formuloj per am
+
+Revision 1.34  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
+
 Revision 1.33  2018/06/20 02:10:19  revo
 Dusan Juretic: +trd es
 
@@ -375,11 +386,5 @@ Revision 1.29  2003/01/14 17:33:46  revo
 Marc Bavant: ~eco: +trd en
 
 Revision 1.28  2003/01/10 17:33:10  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.27  2003/01/02 17:51:11  revo
-Marc Bavant: +trd pl, +frm, +ref internaj; ~a (rilato): mod ekz; mod fnt
-"artikolo"
-
 -->
 </vortaro>
