@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: potenc1.xml,v 1.26 2020/02/16 00:10:42 revo Exp $">
 <kap>
   <rad>potencial</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -33,12 +33,12 @@
     <fnt><bib>PIV1</bib></fnt>
     <dif>
       <klr>(de vektora <ref tip="super" cel="kamp.0o.MAT">kampo</ref> 
-      <frm>E</frm>)</klr>
-      Tia skalara kampo <frm>U</frm>, se &gcirc;i ekzistas, ke
-      <frm>E</frm>
+      <frm am="E">E</frm>)</klr>
+      Tia skalara kampo <frm am="U">U</frm>, se &gcirc;i ekzistas, ke
+      <frm am="E">E</frm>
       egalas al kontra&ubreve;egalo de la 
-      <ref cel="gradient.0o">gradiento</ref> de <frm>U</frm>;
-      simb. <frm>E = -grad U</frm>:
+      <ref cel="gradient.0o">gradiento</ref> de <frm am="U">U</frm>;
+      simb. <frm am='E=-"grad"U'>E = -grad U</frm>:
       <ekz>
         iuj me&hcirc;anikaj fortoj akceptas <tld/>on, kiu nomi&gcirc;as
         <tld/>a energio.
@@ -78,7 +78,7 @@
     ver&scirc;ajne pro nacilingva influo.
     <aut>RW</aut>
   </rim>
-  <trd lng="sk">potenciál</trd>
+  <trd lng="sk">potenci&aacute;l</trd>
 </drv>
 
 <drv mrk="potenc1.0hava">
@@ -87,7 +87,7 @@
   <snc>
     <dif>
       <klr>(p.p. vektora <ref tip="super" cel="kamp.0o.MAT">kampo</ref> 
-      <frm>E</frm>)</klr>
+      <frm am="E">E</frm>)</klr>
       Tia, ke ekzistas <tld/>o de &gcirc;i:
       <ekz>
         sub sufi&ccirc;e &gcirc;eneralaj kondi&ccirc;oj
@@ -96,8 +96,8 @@
       </ekz>
     </dif>
     <rim>
-      Se kampo <frm>E</frm> estas <tld/>hava, oni diras, 
-      anka&ubreve; ke <frm>E</frm> 
+      Se kampo <frm am="E">E</frm> estas <tld/>hava, oni diras, 
+      anka&ubreve; ke <frm am="E">E</frm> 
       &leftquot;akceptas <tld/>on&rightquot; a&ubreve;
       &leftquot;derivi&gcirc;as de <tld/>o&rightquot;.
     </rim>
@@ -190,11 +190,12 @@
   <snc>
     <dif>
       <klr>(de vektora <ref tip="super" cel="kamp.0o.MAT">kampo</ref>
-      <frm>E</frm>)</klr>
-      Tia vektora kampo <frm>A</frm>, se &gcirc;i ekzistas, ke
-      <frm>E</frm> 
-      egalas al la <ref cel="kirl.0o.MAT">kirlo</ref> de <frm>A</frm>;
-      simb. <frm>E = rot A</frm>:
+      <frm am="E">E</frm>)</klr>
+      Tia vektora kampo <frm am="A">A</frm>, se &gcirc;i ekzistas, ke
+      <frm am="E">E</frm> 
+      egalas al la <ref cel="kirl.0o.MAT">kirlo</ref> de <frm
+      am="A">A</frm>;
+      simb. <frm am='E="rot"A'>E = rot A</frm>:
       <ekz>
         sub sufi&ccirc;e &gcirc;eneralaj kondi&ccirc;oj
         kampo akceptas vektoran <tld/>on, se &gcirc;i estas
@@ -219,7 +220,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: potenc1.xml,v $
+versio 1.26 2020/02/16 00:10:42
+Wolfram Diestel: formuloj per am
+
+Revision 1.25  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.24  2014/02/08 16:10:33  revo
 Damien Brucker: -eraro cxe ref
 
@@ -236,11 +243,5 @@ Revision 1.20  2006/03/17 17:31:30  revo
 Tulio Flores: +tr pt
 
 Revision 1.19  2004/11/28 19:44:15  revo
-Marc Bavant: ~hava, vektora ~o: mod ekz
-
-Revision 1.18  2004/02/24 17:31:59  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2003/03/23 17:33:40  revo
 -->
 </vortaro>
