@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: kondic1.xml,v 1.30 2020/02/16 11:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kondi&ccirc;</rad>/o <fnt><bib>PV</bib></fnt>
@@ -348,9 +348,10 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="propoz.0o.aserto">propozicioj</ref>
-      <frm>P</frm> kaj <frm>Q</frm>)</klr>
-      Diri, ke <frm>Q</frm> estas necesa <tld/>o por <frm>P</frm>,
-      signifas, ke <frm>P</frm> implicas <frm>Q</frm>:
+      <frm am="P">P</frm> kaj <frm am="Q">Q</frm>)</klr>
+      Diri, ke <frm am="Q">Q</frm> estas necesa <tld/>o por <frm
+      am="P">P</frm>,
+      signifas, ke <frm am="P">P</frm> implicas <frm am="Q">Q</frm>:
       <ekz>
         necesa <tld/>o, por ke entjero estu dividebla per <frm>4</frm>,
         estas, ke &gcirc;i estu dividebla per <frm>2</frm>.
@@ -375,9 +376,10 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="propoz.0o.aserto">propozicioj</ref>
-      <frm>P</frm> kaj <frm>Q</frm>)</klr>
-      Diri, ke <frm>P</frm> estas sufi&ccirc;a <tld/>o por <frm>Q</frm>,
-      signifas, ke <frm>P</frm> implicas <frm>Q</frm>:
+      <frm am="P">P</frm> kaj <frm am="Q">Q</frm>)</klr>
+      Diri, ke <frm>P</frm> estas sufi&ccirc;a <tld/>o por <frm
+      am="Q">Q</frm>,
+      signifas, ke <frm am="P">P</frm> implicas <frm am="Q">Q</frm>:
       <ekz>
         sufi&ccirc;a <tld/>o, por ke entjero estu dividebla per <frm>2</frm>,
         estas, ke &gcirc;i estu dividebla per <frm>4</frm> <klr>(tamen tiu
@@ -429,7 +431,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: kondic1.xml,v $
+versio 1.30 2020/02/16 11:10:19
+Wolfram Diestel: formuloj per am
+
+Revision 1.29  2019/05/31 19:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.28  2018/11/13 04:10:13  revo
 Sergio Pokrovskij: KOMP
 
@@ -446,8 +454,5 @@ Revision 1.24  2010/07/05 16:30:30  revo
 Agustin Garcia Lopez: +trd es (-i)
 
 Revision 1.23  2010/03/07 17:30:17  revo
-Russ Williams: korekti en-hi-konfuzo
-
-Revision 1.22  2009/03/07 17:30:26  revo
 -->
 </vortaro>
