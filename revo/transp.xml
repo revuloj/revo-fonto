@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: transp.xml,v 1.19 2020/02/16 11:10:28 revo Exp $">
 <kap>
   <rad>transpon</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -58,11 +58,11 @@
     </dif>
   </snc>
   <trdgrp lng="cs">
-    <trd>přemísťovat</trd>,
+    <trd>p&rcaron;em&iacute;s&tcaron;ovat</trd>,
     <trd>transponovat</trd>
   </trdgrp>
   <trd lng="fr">transposer</trd>
-  <trd lng="sk">premiestňovať</trd>
+  <trd lng="sk">premiest&ncaron;ova&tcaron;</trd>
 </drv>
 
 <drv mrk="transp.0o">
@@ -72,13 +72,16 @@
     <fnt><bib>PIV2</bib></fnt>
     <dif>
       <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> 
-      <frm>A</frm>)</klr>
+      <frm am="A">A</frm>) </klr>
       <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kies rezulto
-      estas la <frm>(<k>p</k>,<k>n</k>)</frm>-matrico <frm>B</frm>, kies
+      estas la <frm am="(p,n)"
+      >(<k>p</k>,<k>n</k>)</frm>-matrico <frm am="B">B</frm>, kies
       
-      elementoj kun indico <frm>(<k>i</k>,<k>j</k>)</frm> egalas
-      al la elementoj de <frm>A</frm> kun indico
-      <frm>(<k>j</k>,<k>i</k>)</frm>:
+      elementoj kun indico <frm
+      
+      am="(i,j)">(<k>i</k>,<k>j</k>)</frm> egalas
+      al la elementoj de <frm am="A">A</frm> kun indico
+      <frm am="(j,i)">(<k>j</k>,<k>i</k>)</frm>:
       <ekz>
         <tld/>o transformas horizontalojn al vertikaloj kaj inverse;
       </ekz>
@@ -89,7 +92,7 @@
   </snc>
   <trd lng="be">&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_a;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="bg">&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_n;&c_i;&c_r;&c_a;&c_n;&c_je;</trd>
-  <trd lng="cs">transponování</trd>
+  <trd lng="cs">transponov&aacute;n&iacute;</trd>
   <trd lng="de">Transponieren</trd>
   <trd lng="en">transposition</trd>
   <trd lng="fr">transposition<klr tip="ind"> (de matrice)</klr></trd>
@@ -108,15 +111,16 @@
       <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
       Rezulto de &gcirc;ia <ref cel="transp.0o"><tld/>o</ref>:
       <ekz>
-        la <tld/>a&jcirc;on de <frm>A</frm> oni kutime signas per 
-        <frm>A&#8242;</frm> <klr>(legu: a streko)</klr> a&ubreve;
-        <frm><sup>t</sup>A</frm> <klr>(legu: to a)</klr>;
+        la <tld/>a&jcirc;on de <frm am="A">A</frm> oni kutime signas per 
+        <frm am="A&#8242;">A&#8242;</frm> <klr> (legu: a streko)</klr> a&ubreve;&nbsp;
+        <frm am='""^tA'><sup>t</sup>A</frm> <klr> (legu: to a)</klr>;
       </ekz>
       <ekz>
-        la <tld/>a&jcirc;o de produto <frm>A&#215;B</frm> egalas al la produto 
-        de la <tld/>a&jcirc;o de <frm>B</frm> per tiu de <frm>A</frm> 
-        <klr>(<frm><sup>t</sup>(A&#215;B) = 
-        <sup>t</sup>B&#215;<sup>t</sup>A</frm>)</klr>.
+        la <tld/>a&jcirc;o de produto <frm am="A xx B">A&#215;B</frm> egalas al la
+        produto de la <tld/>a&jcirc;o de <frm am="B">B</frm> per tiu de 
+        <frm  am="A">A</frm> 
+        <klr> ( <frm am='""^t(AxxB)=""^tB xx ""^tA'
+        ><sup>t</sup>(A&#215;B) = <sup>t</sup>B&#215;<sup>t</sup>A</frm> )</klr>.
       </ekz>
     </dif>
   </snc>
@@ -151,12 +155,18 @@
     nedifinitan <ctl>transpozito</ctl> en artikolo <ctl>konjug</ctl>.
   </rim>
   <!-- formon evitindan prefere ne traduku -->
-  <trd lng="sk">transponovaná matica</trd>
-  <trd lng="cs">transponovaná matice</trd>
+  <trd lng="sk">transponovan&aacute; matica</trd>
+  <trd lng="cs">transponovan&aacute; matice</trd>
 </drv>
 </art>
 <!--
-$Log$
+$Log: transp.xml,v $
+versio 1.19 2020/02/16 11:10:28
+Wolfram Diestel: formuloj per am
+
+Revision 1.18  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.17  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -173,14 +183,5 @@ Revision 1.13  2003/10/01 16:32:03  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2003/01/02 17:52:00  revo
-Marc Bavant: +ref internaj
-
-Revision 1.11  2002/12/15 19:52:41  revo
-Marc Bavant: ~ajxo: mod ekz
-Revision 1.10  2002/11/30 17:39:02  revo
-Marc Bavant: +frm, +trd pl
-Revision 1..9  2002/10/18 16:40:44  revo
-Marc Bavant: ~ato: +ctl en rim
-Revision 1.8  2002/05/27 17:20:13  revo
 -->
 </vortaro>
