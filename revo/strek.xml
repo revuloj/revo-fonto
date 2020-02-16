@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: strek.xml,v 1.52 2020/02/16 10:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>strek</rad>/i
@@ -130,11 +130,12 @@
     <subsnc mrk="strek.0o.elementa">
       <uzo tip="klr">(elementa geometrio)</uzo>
       <dif>
-        <klr>(kunliganta punktojn <frm>A</frm> kaj <frm>B</frm>)</klr>
+        <klr>(kunliganta punktojn <frm am="A">A</frm> kaj <frm
+        am="B">B</frm>) </klr>
         <ref tip="super" cel="segmen.0o.linio">Segmento</ref> kun
-        <ref cel="rand.0o.figuro">randoj</ref> <frm>A</frm> kaj
-        <frm>B</frm> de la rekto trairanta <frm>A</frm> kaj
-        <frm>B</frm>:
+        <ref cel="rand.0o.figuro">randoj</ref> <frm am="A">A</frm> kaj
+        <frm am="B">B</frm> de la rekto trairanta <frm am="A">A</frm>
+        kaj <frm am="B">B</frm>:
         <ekz>
           la <tld/>o, kunliganta du punktojn de cirkla linio, estas
           nomata <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref>;
@@ -148,21 +149,24 @@
     <subsnc mrk="strek.0o.afina">
       <uzo tip="klr">(afina geometrio)</uzo>
       <dif>
-        <klr>(kunliganta punktojn <frm>A</frm> kaj <frm>B</frm> en
+        <klr>(kunliganta punktojn <frm am="A">A</frm> kaj <frm
+        am="B">B</frm> en
         <ref cel="spac.afina0o">afina spaco</ref>)</klr>
         Aro de &ccirc;iuj <ref cel="centr.pezo0o.MAT">pezocentroj</ref>
-        de <frm>A</frm> kaj <frm>B</frm> kun pozitivaj koeficientoj.
+        de <frm am="A">A</frm> kaj <frm am="B">B</frm> kun pozitivaj
+        koeficientoj.
       </dif>
     </subsnc>
     <subsnc mrk="strek.0o.vektora">
       <fnt><bib>EKV</bib>, <lok>&para;410</lok></fnt>
       <dif>
-        <klr>(kunliganta du vektorojn <frm><k>a</k></frm> kaj
-        <frm><k>b</k></frm> en reela
+        <klr>(kunliganta du vektorojn <frm am="a"><k>a</k></frm> kaj
+        <frm am="b"><k>b</k></frm> en reela
         <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
         Aro de &ccirc;iuj vektoroj de la tipo
-        <frm><k>t</k>&#8729;<k>a</k>+(1-<k>t</k>)&#8729;<k>b</k></frm>,
-        kie <frm><k>t</k>&#8712;[0,1]</frm>.
+        <frm am="t*a+(1-t)*b"
+        ><k>t</k>&#8729;<k>a</k>+(1-<k>t</k>)&#8729;<k>b</k></frm>,
+        kie <frm am="t in [0,1]"><k>t</k>&#8712;[0,1]</frm>.
       </dif>
     </subsnc>
     <trd lng="bg">&c_o;&c_t;&c_s;&c_je;&c_ch;&c_k;&c_a;</trd>
@@ -589,7 +593,13 @@ por substreki vorton per skribma&scirc;ino.
 </drv>
 </art>
 <!--
-$Log$
+$Log: strek.xml,v $
+versio 1.52 2020/02/16 10:10:17
+Wolfram Diestel: formuloj per am
+
+Revision 1.51  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
+
 Revision 1.50  2017/12/20 14:10:22  revo
 Michel Cantigneaux: "strek/o" fundamenta kunmetajxo el la U.V.
 
@@ -606,11 +616,5 @@ Revision 1.46  2015/07/04 08:37:44  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.45  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.44  2014/11/02 07:10:15  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.43  2014/02/07 18:10:14  revo
 -->
 </vortaro>
