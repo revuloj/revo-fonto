@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: sign.xml,v 1.62 2020/02/16 09:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sign</rad>/o
@@ -233,9 +233,11 @@
       </ekz>
       <ekz>
         se la <tld/>o de kontinua funkcio &scirc;an&gcirc;i&gcirc;as
-        inter <frm><k>a</k></frm> kaj <frm><k>b</k></frm>, tiu nepre
+        inter <frm am="a"><k>a</k></frm> kaj <frm am="b"><k>b</k></frm>,
+        tiu nepre
         <ref cel="nul0.0igxi.MAT">nuli&gcirc;as</ref>
-        &ccirc;e iu punkto de intervalo <frm>]<k>a</k>,<k>b</k>[</frm>;
+        &ccirc;e iu punkto de intervalo <frm
+        am="(a,b)">]<k>a</k>,<k>b</k>[</frm>;
       </ekz>
       <ekz>
         produto estas pozitiva, se kaj nur se la du faktoroj havas saman
@@ -524,12 +526,13 @@
         &gcirc;eni.
         Ja oni legas en <fnt><bib>MatStokTerm</bib>, <lok>p.
         105</lok></fnt>,
-        ke <ctl>se <frm><k>a</k></frm> estas negativa nombro,
-        <frm>-<k>a</k></frm> havas negativan <tld/>on,
+        ke <ctl>se <frm am="a"><k>a</k></frm> estas negativa nombro,
+        <frm am="-a">-<k>a</k></frm> havas negativan <tld/>on,
         sed pozitivan <tld/>umon</ctl>, sed temas pri vortludo: neniu
-        dirus <ctl><frm>-<k>a</k></frm> havas negativan <tld/>on</ctl>
+        dirus <ctl><frm am="-a">-<k>a</k></frm> havas negativan
+        <tld/>on</ctl>
         por
-        signifi, ke minuso staras anta&ubreve; <frm><k>a</k></frm>!
+        signifi, ke minuso staras anta&ubreve; <frm am="a"><k>a</k></frm>!
         Do entute &scirc;ajnas, ke la maloftaj uz-okazoj de la
         mal&scirc;atata
         <ctl><tld/>o</ctl> ne pravigas reformon de jam tradicia kaj
@@ -574,7 +577,7 @@
         <ekz>
           <tld/>umo estas la nura homomorfio de la
           <ref cel="grup.simetria0o">simetria grupo</ref> al la grupo
-          <frm>{-1,1}</frm>, kiu &jcirc;etas la duelementajn
+          <frm am="{-1,1}">{-1,1}</frm>, kiu &jcirc;etas la duelementajn
           <ref cel="cikl.0o.permuto">ciklojn</ref> al <frm>-1</frm>.
         </ekz>
 
@@ -1371,7 +1374,8 @@
       <ref cel="sign.0o.MAT"><tld/>o <sncref/></ref> de
       &gcirc;iaj valoroj la&ubreve; la valoro de la argumento:
       <ekz>
-        la funkcio <frm><k>x</k><sup>2</sup>-4</frm> prezentas
+        la funkcio <frm am="x^2-4"><k>x</k><sup>2</sup>-4</frm>
+        prezentas
         <tld/>o&scirc;an&gcirc;on &ccirc;e
         <frm>-2</frm> kaj alian &ccirc;e <frm>+2</frm>.
       </ekz>
@@ -1396,7 +1400,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: sign.xml,v $
+versio 1.62 2020/02/16 09:10:19
+Wolfram Diestel: formuloj per am
+
+Revision 1.61  2019/10/03 07:10:18  revo
+Damien Brucker: -eraro cxe cel en ref
+
 Revision 1.60  2019/10/02 19:10:19  revo
 Jeromo Vasxe: kruco~i + snc netr
 
@@ -1413,8 +1423,5 @@ Revision 1.56  2018/06/13 03:10:16  revo
 Dusan Juretic: +trd es
 
 Revision 1.55  2018/06/10 19:10:14  revo
-Wolfram Diestel: + skrib~o, optika ~orekono
-
-Revision 1.54  2018/06/10 16:10:13  revo
 -->
 </vortaro>
