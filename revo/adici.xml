@@ -2,64 +2,103 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: adici.xml,v 1.48 2020/02/15 18:10:34 revo Exp $">
-    <kap>
-      <ofc>2</ofc>
-      <rad>adici</rad>/i
-    </kap>
+<art mrk="$Id: adici.xml,v 1.49 2020/02/16 16:10:15 revo Exp $">
+<kap>
+  <ofc>2</ofc>
+  <rad>adici</rad>/i
+</kap>
 
-    <drv mrk="adici.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
-      <snc>
-        <dif>
-          Aldoni nombrojn, kvantojn unu al la alia, kaj kunigi ilin en
-          unu solan:
-          <ekz>
-            se ni <tld/>as 4 kaj 4, ni ricevas 8;
-          </ekz><ekz>
-            <tld/>i <frm am="x">x</frm> al <frm am="y">y</frm>,
-            <frm am="x">x</frm> kaj <frm am="y">y</frm>.
-          </ekz>
-        </dif>
-        <rim num="1" mrk="adici.0i.MB">
-          En nefaka kunteksto oni povas diri
-          &leftquot;<ref cel="don.al0i">aldoni</ref>&rightquot; anstata&ubreve; &leftquot;<tld/>i&rightquot;, kaj oni
-          &leftquot;<ref cel="pli.0igi">pliigas</ref>&rightquot; tion, al kio oni
-          &leftquot;aldonas&rightquot;.
-        </rim>
-        <rim num="2" mrk="adici.0i.pok1">
-          La &ccirc;i-supra difino estas malbona kaj matematike, kaj lingve.
-          Pli konvenas deiri el la substantivo <tld/>o (kiel faras
-          PIV2), kaj trakti la argumentojn egale; t.e. la regmodelo
-          <ctl><tld/>i ikson kaj ipsilonon</ctl> (la sola menciita en
-          PIV2) estas bona; dum la malsimetria <ctl><tld/>i ikson al
-          ipsilono</ctl> (a&ubreve; inverse?) estas evitinda.
-          <aut>Sergio Pokrovskij</aut>
-        </rim>
-        <rim num="3" mrk="adici.0i.pok2">
-          La priskriboj per <ctl>aldoni</ctl>, <ctl>pliigi</ctl> ktp
-          estas malta&ubreve;gaj, ili priskribas ne la matematikan operacion
-          <frm am="x+y">x+y</frm>, sed komputadan (algoritman) operacion
-          <frm am='x&nbsp;"+="&nbsp;y'>x&nbsp;+=&nbsp;y</frm>, alivorte 
-          <frm am="x=x+y">x&nbsp;= x+y</frm>.
-          La matematika
-          operacio <frm am="x+y+z">x+y+z</frm> neniel &scirc;an&gcirc;as la valorojn
-          de
-          <frm am="x,y,z">x, y, z</frm>; dum en komputado oni ofte uzas
-          helpan
-          <ref cel="regxistr.0o">re&gcirc;istron</ref> (ekz-e tiun de la
-          ekrano de kalkulilo), kies valoron oni jes
-          <ctl>pliigas</ctl>, al kiu oni <ctl>aldonas</ctl> la
-          <tld/>atojn: <frm am='S=x;S"+="y;S"+="z'>S=x; S+=y;
-          S+=z</frm>.
-          Tiu operacio <em>+=</em> evidente ne estas komuta, &gcirc;i estas
-          alio ol <tld/>o (kvankam <tld/>o estas &gcirc;ia parto).
-          <aut>Sergio Pokrovskij</aut>
-        </rim>
-      </snc>
+<drv mrk="adici.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
+  <snc mrk="adici.0i.aldoni">
+    <dif>
+      Aldoni nombrojn, kvantojn unu al la alia, kaj kunigi ilin en
+      unu solan:
+      <ekz>
+        se ni <tld/>as 4 kaj 4, ni ricevas 8;
+      </ekz><ekz>
+        <tld/>i <frm am="x">x</frm> al <frm am="y">y</frm>,
+        <frm am="x">x</frm> kaj <frm am="y">y</frm>;
+      </ekz>
+      <ekz>
+        li <klr>[&#8230;]</klr> duonvo&ccirc;e kaj nekompreneble legas la tie notitajn prezojn kaj
+        enkape <tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bernhard Pabst</aut>
+          <vrk><url ref="https://www.monato.be/2008/009376.php"
+              >Inter libroj posttagmeze</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la diferenco <tld/>ante la aktualan jaron
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006852.html"
+              >Reago: &Ccirc;u vere kristana erao?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam oni <tld/>as &ccirc;iujn hava&jcirc;ojn de Belgio en eksterlando kaj deprenas &ccirc;iujn
+        eksterlandajn &scirc;uldojn oni konservas por 2009 pluson de 45 %
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ivo Durwael</aut>
+          <vrk><url ref="https://www.monato.be/2011/010292.php"
+              >Krizo de la e&ubreve;ro</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni <tld/>as &ccirc;iujn nukleonojn &ndash; do protonojn kaj ne&ubreve;tronojn &ndash; kaj parolas pri la
+        izotopoj oksigeno-16, oksigeno-17 kaj oksigeno-18
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="https://www.monato.be/2011/010370.php"
+              >Moderna minaco: radioaktiveco</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim num="1" mrk="adici.0i.MB">
+      En nefaka kunteksto oni povas diri
+      &leftquot;<ref cel="don.al0i">aldoni</ref>&rightquot; anstata&ubreve; &leftquot;<tld/>i&rightquot;, kaj oni
+      &leftquot;<ref cel="pli.0igi">pliigas</ref>&rightquot; tion, al kio oni
+      &leftquot;aldonas&rightquot;.
+    </rim>
+    <rim num="2" mrk="adici.0i.pok1">
+      La &ccirc;i-supra difino estas malbona kaj matematike, kaj lingve.
+      Pli konvenas deiri el la substantivo <tld/>o (kiel faras
+      PIV2), kaj trakti la argumentojn egale; t.e. la regmodelo
+      <ctl><tld/>i ikson kaj ipsilonon</ctl> (la sola menciita en
+      PIV2) estas bona; dum la malsimetria <ctl><tld/>i ikson al
+      ipsilono</ctl> (a&ubreve; inverse?) estas evitinda.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+    <rim num="3" mrk="adici.0i.pok2">
+      La priskriboj per <ctl>aldoni</ctl>, <ctl>pliigi</ctl> ktp
+      estas malta&ubreve;gaj, ili priskribas ne la matematikan operacion
+      <frm am="x+y">x+y</frm>, sed komputadan (algoritman) operacion
+      <frm am='x&nbsp;"+="&nbsp;y'>x&nbsp;+=&nbsp;y</frm>, alivorte 
+      <frm am="x=x+y">x&nbsp;= x+y</frm>.
+      La matematika operacio <frm am="x+y+z">x+y+z</frm> neniel &scirc;an&gcirc;as la valorojn
+      de <frm am="x,y,z">x, y, z</frm>; dum en komputado oni ofte uzas
+      helpan
+      <ref cel="regxistr.0o">re&gcirc;istron</ref> (ekz-e tiun de la
+      ekrano de kalkulilo), kies valoron oni jes
+      <ctl>pliigas</ctl>, al kiu oni <ctl>aldonas</ctl> la
+      <tld/>atojn: <frm am='S=x;S"+="y;S"+="z'>S=x; S+=y;
+      S+=z</frm>.
+      Tiu operacio <em>+=</em> evidente ne estas komuta, &gcirc;i estas
+      alio ol <tld/>o (kvankam <tld/>o estas &gcirc;ia parto).
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+  </snc>
   <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
     <trd>se&ccaron;&iacute;st</trd>,
@@ -70,32 +109,32 @@
     <trd>l&aelig;gge sammen</trd>
   </trdgrp>
   <trdgrp lng="de">
-        <trd>addieren</trd>,
-        <trd>hinzuf&uuml;gen</trd>
-      </trdgrp>
+    <trd>addieren</trd>,
+    <trd>hinzuf&uuml;gen</trd>
+  </trdgrp>
   <trd lng="en">add</trd>
   <trd lng="es">sumar</trd>
   <trdgrp lng="fr">
-        <trd>additionner</trd>,
-        <trd>ajouter</trd>
-      </trdgrp>
+    <trd>additionner</trd>,
+    <trd>ajouter</trd>
+  </trdgrp>
   <trd lng="hu">&ouml;sszead</trd>
   <trdgrp lng="id">
-        <trd>[<ind>jumlah</ind>] menjumlahkan</trd>,
-        <trd>[<ind>tambah</ind>] menambahkan</trd>
-      </trdgrp>
+    <trd>[<ind>jumlah</ind>] menjumlahkan</trd>,
+    <trd>[<ind>tambah</ind>] menambahkan</trd>
+  </trdgrp>
   <trd lng="nl">optellen</trd>
   <trd lng="pl">doda&cacute;</trd>
   <trdgrp lng="pt">
-        <trd>adicionar</trd>,
-        <trd>aditar</trd>,
-        <trd>adir</trd>,
-        <trd>somar</trd>
-      </trdgrp>
+    <trd>adicionar</trd>,
+    <trd>aditar</trd>,
+    <trd>adir</trd>,
+    <trd>somar</trd>
+  </trdgrp>
   <trdgrp lng="ru">
-        <trd>&c_s;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;<klr> (&c_m;&c_a;&c_t;.)</klr></trd>,
-        <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_y;&c_v;&c_a;&c_t;&c_mol;<klr> (&c_m;&c_a;&c_t;.)</klr></trd>
-      </trdgrp>
+    <trd>&c_s;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;<klr> (&c_m;&c_a;&c_t;.)</klr></trd>,
+    <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_y;&c_v;&c_a;&c_t;&c_mol;<klr> (&c_m;&c_a;&c_t;.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>s&ccaron;&iacute;ta&tcaron;</trd>,
     <trd>spo&ccaron;&iacute;ta&tcaron;</trd>
@@ -103,108 +142,126 @@
   <trd lng="sv">addera</trd>
 </drv>
 
-    <drv mrk="adici.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc mrk="adici.0o.elementa">
-        <fnt><bib>VdE</bib></fnt>
-        <uzo tip="klr">(elementa aritmetiko)</uzo>
-        <dif>
-          La operacio <ref cel="adici.0i">adicii</ref>:
-          <ekz>
-            <frm am="10+8=18">10+8 = 18</frm> <klr> (legu: dek plus ok
-              estas dek ok, a&ubreve; dek kaj ok estas dek ok)</klr>
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="adici.0o.ringo">
-        <fnt><bib>PIV2</bib><lok>ringo</lok></fnt>
-        <dif>
-          <klr>(en <ref cel="ring.0o.MAT">ringo</ref>)</klr> &Gcirc;ia unua
-          <ref tip="super" cel="operac.0o.MAT">operacio</ref>.
-        </dif>
-      </snc>
-      <refgrp tip="vid">
-        <ref cel="sum.0o">sumo</ref>,
-        <ref cel="term.0o.sumo">termo</ref>.
-      </refgrp>
-      <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
-      <trd lng="de">Addition</trd>
-      <trd lng="en">addition</trd>
-      <trd lng="es">suma</trd>
-      <trd lng="fr">addition</trd>
-      <trd lng="hu">&ouml;sszead&aacute;s</trd>
-      <trd lng="id">[<ind>jumlah</ind>] penjumlahan</trd>
-      <trd lng="it">addizione</trd>
-      <trd lng="nl">optelling</trd>
-      <trd lng="pl">dodawanie</trd>
-      <trd lng="pt">adi&ccedil;&atilde;o</trd>
-      <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
-      <trd lng="sk">s&ccaron;&iacute;tanie</trd>
-      <trd lng="sv">addition</trd>
-      <trdgrp lng="sk">
-    <trd>pr&iacute;davok</trd>,
-    <trd>pr&iacute;sada</trd>
-  </trdgrp>
+<drv mrk="adici.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="adici.0o.elementa">
+    <fnt><bib>VdE</bib></fnt>
+    <uzo tip="klr">(elementa aritmetiko)</uzo>
+    <dif>
+      La operacio <ref cel="adici.0i">adicii</ref>:
+      <ekz>
+        <frm am="10+8=18">10+8 = 18</frm> <klr> (legu: dek plus ok
+          estas dek ok, a&ubreve; dek kaj ok estas dek ok)</klr>;
+      </ekz>
+      <ekz>
+        kvitanci plej pezan <tld/>on
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+          <lok>Al Paul Verlaine</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malpermesita estas anka&ubreve; <tld/>o: do &ccirc;iufoje, kiam ludanto gajnas karton, li
+        neeviteble aldonos al sia propra gajnkartaro du kartojn, nenial tri a&ubreve; kvar
+        kiel en aliaj ludoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011351.php"
+              >Trufludo</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="adici.0o.ringo">
+    <fnt><bib>PIV2</bib><lok>ringo</lok></fnt>
+    <dif>
+      <klr>(en <ref cel="ring.0o.MAT">ringo</ref>)</klr> &Gcirc;ia unua
+      <ref tip="super" cel="operac.0o.MAT">operacio</ref>.
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="sum.0o">sumo</ref>,
+    <ref cel="term.0o.sumo">termo</ref>.
+  </refgrp>
+  <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trdgrp lng="cs">
     <trd>p&rcaron;id&aacute;n&iacute;</trd>,
     <trd>p&rcaron;&iacute;davek</trd>,
     <trd>p&rcaron;&iacute;m&ecaron;s</trd>,
     <trd>p&rcaron;&iacute;sada</trd>
   </trdgrp>
+  <trd lng="de">Addition</trd>
+  <trd lng="en">addition</trd>
+  <trd lng="es">suma</trd>
+  <trd lng="fr">addition</trd>
+  <trd lng="hu">&ouml;sszead&aacute;s</trd>
+  <trd lng="id">[<ind>jumlah</ind>] penjumlahan</trd>
+  <trd lng="it">addizione</trd>
+  <trd lng="nl">optelling</trd>
+  <trd lng="pl">dodawanie</trd>
+  <trd lng="pt">adi&ccedil;&atilde;o</trd>
+  <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">s&ccaron;&iacute;tanie</trd>
+  <trd lng="sv">addition</trd>
+  <trdgrp lng="sk">
+    <trd>pr&iacute;davok</trd>,
+    <trd>pr&iacute;sada</trd>
+  </trdgrp>
 </drv>
 
-    <drv mrk="adici.0ato">
-      <kap><tld/>ato</kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>PIV1</bib></fnt>
-      <snc>
-        <dif>
-          Nombro, kiun oni <ref cel="adici.0i"><tld/>as</ref> al alia
-          nombro; alidire: dua termo en <tld/>o.
-        </dif>
-        <rim num="1">
-          Pro la komuteco de <tld/>o nenio malhelpas nomi
-          <ctl><tld/>ato</ctl> anka&ubreve; la unuan termon. Se oni bazus la
-          terminologion sur la metaforo <ctl>pliigi</ctl>, kaj ne
-          <ctl>aldoni</ctl>, estus facile paroli pri
-          <ctl>pliigato</ctl> (unua termo) kaj <ctl>pliiganto</ctl>
-          (dua termo).  Aspektas stranga anka&ubreve; la manko de la formo
-          <ctl><tld/>anto</ctl>, dum ekzistas
-          <ctl>multiplikanto</ctl>. La kialo ku&scirc;as en tio, ke &ccirc;e
-          <ctl>multipliki</ctl>, <ctl>dividi</ctl>, <ctl>pliigi</ctl>,
-          <ctl>malpliigi</ctl> la dua argumento aperas kiel
-          instrumento, kiu per facila semantika &scirc;ovo povas alpreni
-          funkcion de subjekto.  Male, &ccirc;e <ctl>adicii</ctl> kaj
-          <ctl>subtrahi</ctl>, la dua argumento rolas kiel objekto kaj
-          ne povas alpreni la funkcion de subjekto.
-        </rim>
-        <rim num="2" mrk="adici.0ato.pok">
-          La&ubreve; la rekomendinda modelo <ctl><tld/>i ikson kaj
-          ipsilonon</ctl>, &ccirc;iuj argumentoj de <tld/>o estas <tld/>atoj;
-          apartigi la duan estas atavismo de iu mezepoka skolo, tre
-          stranga por moderna matematikisto.  Tute senhezite oni
-          parolas pri <ctl><em>la unua</em> <tld/>ato</ctl>, <ctl>la
-          deka <tld/>ato</ctl>, <ctl><em>&ccirc;iuj</em> <tld/>atoj</ctl>
-          ktp:
-          <ekz>
-            pro tio, ke &ccirc;iuj <frm am="U">U</frm> <tld/>atoj pozitivas
-            <klr>...</klr>
-            pro <frm am="S le 1">S&#8804;1</frm> la unua <tld/>ato
-            neniam
-            povas
-            negativi&gcirc;i <klr>...</klr>
-            <fnt>
-              <aut>Frank kaj Maksimova</aut>:
-              <vrk>nformationstheorie.
-                <url
+<drv mrk="adici.0ato">
+  <kap><tld/>ato</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc mrk="adici.0ato.nombro">
+    <dif>
+      Nombro, kiun oni <ref cel="adici.0i"><tld/>as</ref> al alia
+      nombro; alidire: dua termo en <tld/>o.
+    </dif>
+    <rim num="1">
+      Pro la komuteco de <tld/>o nenio malhelpas nomi
+      <ctl><tld/>ato</ctl> anka&ubreve; la unuan termon. Se oni bazus la
+      terminologion sur la metaforo <ctl>pliigi</ctl>, kaj ne
+      <ctl>aldoni</ctl>, estus facile paroli pri
+      <ctl>pliigato</ctl> (unua termo) kaj <ctl>pliiganto</ctl>
+      (dua termo).  Aspektas stranga anka&ubreve; la manko de la formo
+      <ctl><tld/>anto</ctl>, dum ekzistas
+      <ctl>multiplikanto</ctl>. La kialo ku&scirc;as en tio, ke &ccirc;e
+      <ctl>multipliki</ctl>, <ctl>dividi</ctl>, <ctl>pliigi</ctl>,
+      <ctl>malpliigi</ctl> la dua argumento aperas kiel
+      instrumento, kiu per facila semantika &scirc;ovo povas alpreni
+      funkcion de subjekto.  Male, &ccirc;e <ctl>adicii</ctl> kaj
+      <ctl>subtrahi</ctl>, la dua argumento rolas kiel objekto kaj
+      ne povas alpreni la funkcion de subjekto.
+    </rim>
+    <rim num="2" mrk="adici.0ato.pok">
+      La&ubreve; la rekomendinda modelo <ctl><tld/>i ikson kaj
+      ipsilonon</ctl>, &ccirc;iuj argumentoj de <tld/>o estas <tld/>atoj;
+      apartigi la duan estas atavismo de iu mezepoka skolo, tre
+      stranga por moderna matematikisto.  Tute senhezite oni
+      parolas pri <ctl><em>la unua</em> <tld/>ato</ctl>, <ctl>la
+      deka <tld/>ato</ctl>, <ctl><em>&ccirc;iuj</em> <tld/>atoj</ctl>
+      ktp:
+      <ekz>
+        pro tio, ke &ccirc;iuj <frm am="U">U</frm> <tld/>atoj pozitivas
+        <klr>[&#8230;]</klr> pro <frm am="S le 1">S&#8804;1</frm> la unua <tld/>ato
+        neniam povas negativi&gcirc;i <klr>[&#8230;]</klr>
+        <fnt>
+          <aut>Frank kaj Maksimova</aut>:
+          <vrk>nformationstheorie.
+            <url
  ref="http://www2.cs.upb.de/extern/fb/2/Kyb.Paed/KYP1-A/3.2%20Mittlere%20Codewortl.%20fertig.pdf"
-                  >p. 166</url></vrk>
-            </fnt>.
-          </ekz>
-          <aut>Sergio Pokrovskij</aut>
-        </rim>
-      </snc>
+              >p. 166</url></vrk>
+        </fnt>.
+      </ekz>
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+  </snc>
   <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;&c_n;&c_ib;&c_k;</trd>
   <trdgrp lng="cs">
     <trd>adi&ccaron;n&iacute; produkt</trd>,
@@ -212,15 +269,15 @@
     <trd>produkt adice</trd>
   </trdgrp>
   <trdgrp lng="de">
-        <trd>Addend</trd>,
-        <trd>Auktor</trd>
-      </trdgrp>
+    <trd>Addend</trd>,
+    <trd>Auktor</trd>
+  </trdgrp>
   <trd lng="en">addend</trd>
   <trd lng="es">sumando</trd>
   <trdgrp lng="fr">
-        <trd>nombre &agrave; ajouter</trd>,
-        <trd>second <ind>terme</ind></trd>
-      </trdgrp>
+    <trd>nombre &agrave; ajouter</trd>,
+    <trd>second <ind>terme</ind></trd>
+  </trdgrp>
   <trd lng="hu">&ouml;sszeadand&oacute;</trd>
   <trd lng="pl">drugi <ind>sk&lstroke;adnik</ind> dodawania</trd>
   <trd lng="ru">&c_s;&c_l;&c_a;&c_g;&c_a;&c_je;&c_m;&c_o;&c_je;</trd>
@@ -231,77 +288,86 @@
   </trdgrp>
 </drv>
 
-    <drv mrk="adici.matrica0o">
-      <kap>matrica <tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          <klr>(de du <ref
-          cel="matric.n_p0o">(n,p)-matricoj</ref>)</klr>
-          <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kiu
-          konsistas
-          en poelementa <tld/>o:
-          <ekz>
-            la &gcirc;enerala elemento <frm am="c_(ij)">c<sub>ij</sub></frm>
-            de la rezulto de <tld/>o de <frm am="A">A</frm> al <frm
-            am="B">B</frm> estas
-            <frm am="a_(ij)+b_(ij)">a<sub>ij</sub>+b<sub>ij</sub></frm>.
-          </ekz>
-        </dif>
-      </snc>
-      <adm>
-        Kontroli trd de. <aut>MB</aut>
-      </adm>
-      <trd lng="de">Matrizenaddition</trd>
-      <trd lng="en">matrix <ind>addition</ind></trd>
-      <trd lng="fr">addition matricielle</trd>
-      <trd lng="hu">m&aacute;trix&ouml;sszead&aacute;s</trd>
-      <trd lng="id">[<ind>jumlah</ind>] penjumlahan matriks</trd>
-      <trd lng="pl">dodawanie macierzy</trd>
-      <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_m;&c_a;&c_t;&c_r;&c_i;&c_c;</trd>
-      <trd lng="sk">s&ccaron;&iacute;tanie mat&iacute;c</trd>
-      <trd lng="sk">maticov&eacute; s&ccaron;&iacute;tanie</trd>
+<drv mrk="adici.matrica0o">
+  <kap>matrica <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="adici.matrica0o.MAT">
+    <dif>
+      <klr>(de du <ref
+      cel="matric.n_p0o">(n,p)-matricoj</ref>)</klr>
+      <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kiu
+      konsistas en poelementa <tld/>o:
+      <ekz>
+        la &gcirc;enerala elemento <frm am="c_(ij)">c<sub>ij</sub></frm>
+        de la rezulto de <tld/>o de <frm am="A">A</frm> al <frm
+        am="B">B</frm> estas
+        <frm am="a_(ij)+b_(ij)">a<sub>ij</sub>+b<sub>ij</sub></frm>;
+      </ekz>
+      <ekz>
+        la operacioj de matrica <tld/>o kaj matrica multipliko estas aparte simplaj por
+        diagonalaj matricoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=238382"
+              >Diagonala matrico</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+    Kontroli trd de. <aut>MB</aut>
+  </adm>
   <trd lng="cs">maticov&eacute; s&ccaron;&iacute;t&aacute;n&iacute;</trd>
+  <trd lng="de">Matrizenaddition</trd>
+  <trd lng="en">matrix <ind>addition</ind></trd>
+  <trd lng="fr">addition matricielle</trd>
+  <trd lng="hu">m&aacute;trix&ouml;sszead&aacute;s</trd>
+  <trd lng="id">[<ind>jumlah</ind>] penjumlahan matriks</trd>
+  <trd lng="pl">dodawanie macierzy</trd>
+  <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_m;&c_a;&c_t;&c_r;&c_i;&c_c;</trd>
+  <trd lng="sk">s&ccaron;&iacute;tanie mat&iacute;c</trd>
+  <trd lng="sk">maticov&eacute; s&ccaron;&iacute;tanie</trd>
 </drv>
 
-    <drv mrk="adici.polinoma0o">
-      <kap>polinoma <tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <snc>
-        <dif>
-          Unua <ref tip="super" cel="operac.0o.MAT">operacio</ref> en
-          <ref cel="ring.polinom0o">polinom-ringo</ref>, kiu konsistas
-          en poterma <tld/>o:
-          <ekz>
-            la &gcirc;enerala termo <frm am="bb
-            S_n"><g>S</g><sub>n</sub></frm>
-            de la rezulto de <tld/>o de <frm am="bb P"><g>P</g></frm>
-            al <frm am="bb Q"><g>Q</g></frm> estas
-            <frm am="bb P_n+bb
-            Q_n"><g>P</g><sub>n</sub>+<g>Q</g><sub>n</sub></frm>.
-          </ekz>
-        </dif>
-      </snc>
-      <adm>
-        Kontroli trd de/en. <aut>MB</aut>
-      </adm>
-      <trd lng="de">Polynomaddition</trd>
-      <trd lng="en">polynomial <ind>addition</ind></trd>
-      <trd lng="fr">addition polynomiale</trd>
-      <trd lng="hu">polin&oacute;m-&ouml;sszead&aacute;s</trd>
-      <trd lng="id">[<ind>jumlah</ind>] penjumlahan polinom</trd>
-      <trd lng="pl">dodawanie wielomian&oacute;w</trd>
-      <trd lng="pt">adi&ccedil;&atilde;o polinomial</trd>
-      <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_o;&c_v;</trd>
-      <trd lng="sk">s&ccaron;&iacute;tanie mnoho&ccaron;lenov</trd>
-      <trd lng="sk">s&ccaron;&iacute;tanie mnoho&ccaron;lenov</trd>
+<drv mrk="adici.polinoma0o">
+  <kap>polinoma <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc mrk="adici.polinoma0o.MAT">
+    <dif>
+      Unua <ref tip="super" cel="operac.0o.MAT">operacio</ref> en
+      <ref cel="ring.polinom0o">polinom-ringo</ref>, kiu konsistas
+      en poterma <tld/>o:
+      <ekz>
+        la &gcirc;enerala termo <frm am="bb S_n"><g>S</g><sub>n</sub></frm>
+        de la rezulto de <tld/>o de <frm am="bb P"><g>P</g></frm>
+        al <frm am="bb Q"><g>Q</g></frm> estas <frm am="bb P_n+bb
+        Q_n"><g>P</g><sub>n</sub>+<g>Q</g><sub>n</sub></frm>.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+    Kontroli trd de/en. <aut>MB</aut>
+  </adm>
   <trd lng="cs">s&ccaron;&iacute;t&aacute;n&iacute; mnoho&ccaron;len&uring;</trd>
+  <trd lng="de">Polynomaddition</trd>
+  <trd lng="en">polynomial <ind>addition</ind></trd>
+  <trd lng="fr">addition polynomiale</trd>
+  <trd lng="hu">polin&oacute;m-&ouml;sszead&aacute;s</trd>
+  <trd lng="id">[<ind>jumlah</ind>] penjumlahan polinom</trd>
+  <trd lng="pl">dodawanie wielomian&oacute;w</trd>
+  <trd lng="pt">adi&ccedil;&atilde;o polinomial</trd>
+  <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_o;&c_v;</trd>
+  <trd lng="sk">s&ccaron;&iacute;tanie mnoho&ccaron;lenov</trd>
+  <trd lng="sk">s&ccaron;&iacute;tanie mnoho&ccaron;lenov</trd>
 </drv>
-  </art>
+</art>
   <!--
   $Log: adici.xml,v $
-versio 1.48 2020/02/15 18:10:34
-Wolfram Diestel: formuloj per am
+versio 1.49 2020/02/16 16:10:15
+Wolfram Diestel: +citajxoj
+
+  Revision 1.48  2020/02/15 17:10:33  revo
+  Wolfram Diestel: formuloj per am
 
   Revision 1.47  2020/02/13 13:10:19  revo
   Wolfram Diestel: redakto: formulo per atributo am
@@ -319,8 +385,5 @@ Wolfram Diestel: formuloj per am
   aldono de trd sk per skripto de M. von Laer
 
   Revision 1.42  2014/11/14 08:10:14  revo
-  Eko Nur Syah Hidayat: +trd id
-
-  Revision 1.41  2011/03/23 07:10:08  revo
 -->
 </vortaro>
