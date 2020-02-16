@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: trinom.xml,v 1.9 2020/02/16 11:10:29 revo Exp $">
 <kap>
     <rad>trinom</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -22,8 +22,11 @@
         <tld/>a formulo;
       </ekz>
       <ekz>
-        la kvadrato de la <tld/>o <frm><k>a</k>&#8239;+&#8239;<k>b</k>&#8239;+&#8239;<k>c</k></frm> estas
-        <frm><k>a</k><sup>2</sup>&#8239;+&#8239;<k>b</k><sup>2</sup>&#8239;+&#8239;<k>c</k><sup>2</sup>
+        la kvadrato de la <tld/>o <frm am="a+b+c"
+        ><k>a</k>&#8239;+&#8239;<k>b</k>&#8239;+&#8239;<k>c</k></frm> estas
+        <frm am="a^2+b^2+c^2+2ab+2ac+2bc"
+        ><k>a</k><sup>2</sup>&#8239;+&#8239;<k>b</k><sup>2</sup>&#8239;+
+<k>c</k><sup>2</sup>
        &#8239;+&#8239;<k>2ab</k>&#8239;+&#8239;<k>2ac</k>&#8239;+&#8239;<k>2bc</k></frm>.
       </ekz>
     </dif>
@@ -41,7 +44,13 @@
 </art>
 
 <!--
-$Log$
+$Log: trinom.xml,v $
+versio 1.9 2020/02/16 11:10:29
+Wolfram Diestel: formuloj per am
+
+Revision 1.8  2019/07/21 16:10:14  revo
+Wolfram Diestel: +ekz-oj
+
 Revision 1.7  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -58,8 +67,5 @@ Revision 1.3  2012/08/14 13:10:23  revo
 Marc Rausell: + trd ca
 
 Revision 1.2  2010/02/22 17:30:30  revo
-Wieland Pusch: +trd de+en
-
-Revision 1.1  2010/02/21 17:30:33  revo
 -->
 </vortaro>
