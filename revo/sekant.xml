@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: sekant.xml,v 1.23 2020/02/16 09:10:15 revo Exp $">
 <kap>
 <rad>sekant</rad>/o
 </kap>
@@ -12,12 +12,14 @@
   <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>
   <snc mrk="sekant.0o.entriangulo">
     <dif>
-      <klr>(de <ref cel="angul.0o.MAT">angulo</ref> <frm>&alfa;</frm>)</klr>
+      <klr>(de <ref cel="angul.0o.MAT">angulo</ref> <frm
+      am="alpha">&alfa;</frm>)</klr>
       Inverso de &gcirc;ia <ref cel="kosinu.0o">kosinuso</ref>; 
       simb. <frm>sec &alfa;</frm> a&ubreve; <frm>sek &alfa;</frm>.
     </dif>
     <bld lok="../bld/trigo.jpg">
-      <!-- la <tld/>o de angulo <frm>&alfa;</frm> egalas al <frm>OT/OM</frm>
+      <!-- la <tld/>o de angulo <frm am="alpha">&alfa;</frm> egalas al 
+      <frm am="OT//OM">OT/OM</frm>
       -->
       la <tld/>o de angulo &alfa; egalas al OT/OM
     </bld>
@@ -34,17 +36,18 @@
     <dif>
       Reela <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>, kiu
       &jcirc;etas
-      reelon <frm><k>x</k></frm> al la 
+      reelon <frm am="x"><k>x</k></frm> al la 
       <tld/>o <sncref ref="sekant.0o.entriangulo"/> de angulo, kies
       mezuro en 
       <ref cel="radian.0o">radianoj</ref> diferencas
-      de <frm><k>x</k></frm> per oblo de <frm>2&pi;</frm>; simb.
+      de <frm am="x"><k>x</k></frm> per oblo de <frm am="2pi">2&pi;</frm>;
+      simb.
       <frm>sec</frm>
       a&ubreve; <frm>sek</frm>:
       <ekz>
         <tld/>o estas perioda funkcio, kun 
         <ref cel="period.0o.funkcio">periodo <sncref/></ref>
-        <frm>2&pi;</frm>.
+        <frm am="2pi">2&pi;</frm>.
       </ekz>
     </dif>
     <trd lng="be">&c_s;&c_e;&c_k;&c_a;&c_n;&c_s;</trd>
@@ -80,7 +83,7 @@
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref> 
       <ref cel="sekant.0o.funkcio"><tld/>o</ref> al la
       intervalo 
-      <frm>[0,&pi;/2[&#8746;]&pi;/2,&pi;]</frm>; 
+      <frm am="[0,pi//2) uu (pi//2,pi]">[0,&pi;/2[&#8746;]&pi;/2,&pi;]</frm>; 
       simb. <frm>arcsec</frm> a&ubreve; <frm>arksek</frm>:
       <ekz>
         ark<tld/>o de <frm>1</frm> egalas al <frm>0</frm>.
@@ -102,7 +105,14 @@
 </art>
 
 <!--
-$Log$
+$Log: sekant.xml,v $
+versio 1.23 2020/02/16 09:10:15
+Wolfram Diestel: formuloj per am
+
+Revision 1.22  2016/02/28 18:10:35  revo
+Wolfram Diestel: riparo: snc forighis per skripto de Laer pro
+interlokita traduko
+
 Revision 1.21  2015/07/04 08:37:43  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -117,10 +127,5 @@ Marc Bavant: ark~o: kor dif
 
 Revision 1.17  2004/10/11 16:33:33  revo
 Marc Bavant: kor duobligitan punkton
-
-Revision 1.16  2004/09/30 16:31:49  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2003/08/25 16:33:12  revo
 -->
 </vortaro>
