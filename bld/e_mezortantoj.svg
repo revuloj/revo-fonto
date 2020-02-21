@@ -4,24 +4,16 @@
   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg version="1.1" 
-  width="10cm" height="10cm" 
-  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax"
-  onload="start(evt)">
+  xmlns="http://www.w3.org/2000/svg"
+  width="400" height="400" 
+  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax">
 
   <title>Mezortantoj de triangulo</title>
   <desc>
     Figuras triangulon kun ĝiaj mezortantoj, kies intersekco estas
     la centro de la ĉirkaŭskribita cirklo
   </desc>
-  
-  <defs>
-    <script type="text/javascript"><![CDATA[
-      function start(evt) {
-      }
-    ]]></script>
-  </defs>
-
-   
+     
   <!-- 
     Mezortantoj 
   -->
@@ -83,22 +75,22 @@
   <!--
     Klarigo
   -->
-  <rect x="2" y="2" width="175" height="105"
+  <rect x="2" y="2" width="177" height="105"
     class="klarigo" style="fill-opacity: 0.8"/>
   <text x="10" y="20" class="klarigo">
-      A&apos;, B&apos;, C&apos; : mezoj
+      A&apos;, B&apos;, C&apos;: mezoj
   </text>
   <text x="10" y="45" class="klarigo">
       r<tspan baseline-shift="-50%" class="indico">A</tspan>, 
       r<tspan baseline-shift="-50%" class="indico">B</tspan>, 
-      r<tspan baseline-shift="-50%" class="indico">C</tspan> :
+      r<tspan baseline-shift="-50%" class="indico">C</tspan>:
       mezortantoj
   </text>
   <text x="10" y="70" class="klarigo">
-      ĈC : ĉirkaŭskribita cirklo
+      ĈC: ĉirkaŭskribita cirklo
   </text>
   <text x="10" y="95" class="klarigo">
-      O : centro de ĈC
+      O: centro de ĈC
   </text>
 </svg>
 

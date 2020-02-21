@@ -4,9 +4,9 @@
   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg version="1.1" 
-  width="10cm" height="10cm" 
-  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax"
-  onload="start(evt)">
+  xmlns="http://www.w3.org/2000/svg"
+  width="400" height="400" 
+  viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax">
 
   <title>Medianoj de triangulo</title>
   <desc>
@@ -14,13 +14,6 @@
     la pezocentro
   </desc>
   
-  <defs>
-    <script type="text/javascript"><![CDATA[
-      function start(evt) {
-      }
-    ]]></script>
-  </defs>
-
   
   <!-- 
     Medianoj 
@@ -73,7 +66,7 @@
   <!--
     Klarigo
   -->
-  <rect x="2" y="2" width="210" height="83" class="klarigo"/>
+  <rect x="2" y="2" width="215" height="83" class="klarigo"/>
   <text x="8" y="20" class="klarigo">
       A&apos;, B&apos;, C&apos; : mezoj
   </text>
@@ -84,7 +77,7 @@
       medianoj
   </text>
   <text x="8" y="70" class="klarigo">
-      O : pezocentro de la triangulo
+      O: pezocentro de la triangulo
   </text>
 </svg>
 

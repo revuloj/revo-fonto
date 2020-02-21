@@ -7,7 +7,8 @@
 ]>
 
 <svg version="1.1" 
-  width="10cm" height="10cm" 
+  xmlns="http://www.w3.org/2000/svg"
+  width="400" height="400" 
   viewBox="-&scale; -&scale; &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -42,8 +43,8 @@
         scale_y = 0.93*Math.min(2*scale/(x1-x0), 2*scale/(y1-y0));
         scale_x = 18*scale_y;
 
-        var svgdoc = evt.getTarget().getOwnerDocument();
-        var svgroot = svgdoc.getDocumentElement();
+        var svgdoc = evt.target.ownerDocument;
+        var svgroot = svgdoc.documentElement;
 
         // Montri la aksojn
         var objet = svgdoc.getElementById("x_akso_pinto");
@@ -66,7 +67,7 @@
         function nuliganto(numero, x, minmaks) {
           // Absciso
 
-          var text = svgdoc.createElement("text");
+          var text = svgdoc.createElementNS("http://www.w3.org/2000/svg","text");
           text.setAttribute ("x", x*scale_x+minmaks*10);
           text.setAttribute ("y", 20);
           text.setAttribute ("class", "akso");
@@ -76,7 +77,7 @@
           var enhavo = svgdoc.createTextNode("x");
           text.appendChild(enhavo);
 
-          var tspan = svgdoc.createElement("tspan");
+          var tspan = svgdoc.createElementNS("http://www.w3.org/2000/svg","tspan");
           tspan.setAttribute ("baseline-shift", "-50%");
           tspan.setAttribute ("class", "indico");
           var enhavo = svgdoc.createTextNode(numero);
@@ -84,7 +85,7 @@
           text.appendChild(tspan);
 
           // Punkto mem
-          var circle = svgdoc.createElement("circle");
+          var circle = svgdoc.createElementNS("http://www.w3.org/2000/svg","circle");
           circle.setAttribute ("cx", x*scale_x);
           circle.setAttribute ("cy", 0);
           circle.setAttribute ("r", 4);
@@ -110,7 +111,7 @@
           objet.setAttribute ("y2", -f(x)*scale_y);
           
           // Absciso
-          var line = svgdoc.createElement("line");
+          var line = svgdoc.createElementNS("http://www.w3.org/2000/svg","line");
           line.setAttribute ("x1", x*scale_x);
           line.setAttribute ("x2", x*scale_x);
           line.setAttribute ("y1", 5);
@@ -118,7 +119,7 @@
           line.setAttribute ("class", "akso");
           svgroot.appendChild(line);
 
-          var text = svgdoc.createElement("text");
+          var text = svgdoc.createElementNS("http://www.w3.org/2000/svg","text");
           text.setAttribute ("x", x*scale_x);
           text.setAttribute ("y", 20);
           text.setAttribute ("class", "akso");
@@ -128,7 +129,7 @@
           var enhavo = svgdoc.createTextNode("x");
           text.appendChild(enhavo);
 
-          var tspan = svgdoc.createElement("tspan");
+          var tspan = svgdoc.createElementNS("http://www.w3.org/2000/svg","tspan");
           tspan.setAttribute ("baseline-shift", "-50%");
           tspan.setAttribute ("class", "indico");
           var enhavo = svgdoc.createTextNode(numero);

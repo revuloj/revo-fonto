@@ -4,13 +4,16 @@
   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
   <!ENTITY scale "100">
   <!ENTITY scale_2 "200">
+  <!ENTITY scale_4 "400">
+  <!ENTITY offset_0 "0">
   <!ENTITY offset_1 "200">
   <!ENTITY offset_2 "400">
   <!ENTITY offset_3 "600">
 ]>
 
 <svg version="1.1" 
-  width="20cm" height="20cm" 
+  xmlns="http://www.w3.org/2000/svg"
+  width="800" height="800" 
   viewBox="0 0 800 800"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -24,7 +27,7 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgdoc = evt.target.ownerDocument;
         var scale_xy = 80;
 
 

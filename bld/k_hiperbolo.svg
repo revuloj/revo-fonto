@@ -6,8 +6,9 @@
   <!ENTITY scale_2 "400">
 ]>
 
-<svg version="1.1" 
-  width="10cm" height="10cm" 
+<svg version="1.1"
+  xmlns="http://www.w3.org/2000/svg" 
+  width="400" height="400" 
   viewBox="-130 -&scale; &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -37,7 +38,7 @@
           return d;
         }
 
-        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgdoc = evt.target.ownerDocument;
 
         // Desegni la kurbon
         var scale_xy = 60, parm = 1.6;

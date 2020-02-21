@@ -7,7 +7,8 @@
 ]>
 
 <svg version="1.1" 
-  width="10cm" height="10cm" 
+  xmlns="http://www.w3.org/2000/svg"
+  width="400" height="400" 
   viewBox="-300 -&scale; &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -38,7 +39,7 @@
 
         var t0 = -Math.PI, t1 = Math.PI;
 
-        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgdoc = evt.target.ownerDocument;
         
         // Desegni la kurbon
         var objet = svgdoc.getElementById("kurbo1");
@@ -215,7 +216,7 @@
     Klarigo
   -->
 
-  <rect x="-298" y="-198" width="190" height="130" class="klarigo" style="fill-opacity: 0.8" />
+  <rect x="-298" y="-198" width="193" height="130" class="klarigo" style="fill-opacity: 0.8" />
 
   <text x="-290" y="-180" class="klarigo">
     F<tspan baseline-shift="-50%" class="indico">1</tspan>,
@@ -227,8 +228,8 @@
     d<tspan baseline-shift="-50%" class="indico">2</tspan> : direktantoj
   </text>
 
-  <text x="-290" y="-140" class="klarigo">OA : granda duonakso</text>
-  <text x="-290" y="-120" class="klarigo">OB : malgranda duonakso</text>
+  <text x="-290" y="-140" class="klarigo">OA: granda duonakso</text>
+  <text x="-290" y="-120" class="klarigo">OB: malgranda duonakso</text>
 
   <text x="-290" y="-100" class="klarigo">
     MF<tspan baseline-shift="-50%" class="indico">1</tspan> + 

@@ -7,7 +7,8 @@
 ]>
 
 <svg version="1.1" 
-  width="10cm" height="10cm" 
+  xmlns="http://www.w3.org/2000/svg"
+  width="400" height="400" 
   viewBox="0 0 &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -19,12 +20,12 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        var svgdoc = evt.getTarget().getOwnerDocument();
-        var svgroot = svgdoc.getDocumentElement();
+        var svgdoc = evt.target.ownerDocument;
+        var svgroot = svgdoc.documentElement;
         var nb_lin = 6, nb_kol = 2;
 
         function tabelo(x0, y0, larĝo, alto, enhavo) {
-          var rect = svgdoc.createElement("rect");
+          var rect = svgdoc.createElementNS("http://www.w3.org/2000/svg","rect");
           rect.setAttribute ("x", x0);
           rect.setAttribute ("y", y0); 
           rect.setAttribute ("width", larĝo);
@@ -33,7 +34,7 @@
           svgroot.appendChild(rect);
 
           for (var i=1; i<nb_lin; i++) {
-            var line = svgdoc.createElement("line");
+            var line = svgdoc.createElementNS("http://www.w3.org/2000/svg","line");
             line.setAttribute ("x1", x0);
             line.setAttribute ("y1", y0+i*alto/nb_lin); 
             line.setAttribute ("x2", x0+larĝo);
@@ -46,7 +47,7 @@
           }
 
           for (var j=1; j<nb_kol; j++) {
-            var line = svgdoc.createElement("line");
+            var line = svgdoc.createElementNS("http://www.w3.org/2000/svg","line");
             line.setAttribute ("x1", x0+j*larĝo/nb_kol); 
             line.setAttribute ("y1", y0);
             line.setAttribute ("x2", x0+j*larĝo/nb_kol); 
@@ -62,7 +63,7 @@
                 text.setAttribute ("x", x0+(j+0.5)*larĝo/nb_kol); 
                 text.setAttribute ("y", y0+(i+0.7)*alto/nb_lin);
               } else {
-                var text = svgdoc.createElement("text");
+                var text = svgdoc.createElementNS("http://www.w3.org/2000/svg","text");
                 text.setAttribute ("x", x0+(j+0.5)*larĝo/nb_kol); 
                 text.setAttribute ("y", y0+(i+0.7)*alto/nb_lin);
                 text.setAttribute ("text-anchor", "middle");

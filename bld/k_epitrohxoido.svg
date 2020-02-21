@@ -9,7 +9,8 @@
 ]>
 
 <svg version="1.1" 
-  width="20cm" height="10cm" 
+  xmlns="http://www.w3.org/2000/svg"
+  width="800" height="400" 
   viewBox="0 0 &scale_4; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -43,7 +44,7 @@
 
         var t0 = -2*Math.PI, t1 = 2*Math.PI;
 
-        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgdoc = evt.target.ownerDocument;
 
         // Montri la aksojn
         var objet = svgdoc.getElementById("x_akso_pinto");

@@ -7,7 +7,8 @@
 ]>
 
 <svg version="1.1" 
-  width="10cm" height="10cm" 
+  xmlns="http://www.w3.org/2000/svg"
+  width="400" height="400" 
   viewBox="-&scale; -&scale; &scale_2; &scale_2;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
@@ -19,7 +20,7 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
         
-        var svgdoc = evt.getTarget().getOwnerDocument();
+        var svgdoc = evt.target.ownerDocument;
         var scale_xy = 150;
         var sekrad = scale_xy/3;
 
@@ -86,32 +87,32 @@
     Cirklo 
   -->
 
-  <circle id="cirklo" x="0" y="0" r="" class="kurbo"/>
+  <circle id="cirklo" x="0" y="0" r="-1" class="kurbo"/>
   
   <!--
     Centra angulo
   -->
 
-  <path id="sektoro_1" d="" class="surfaco"/>
-  <text id="angulnomo_1" x="" y="" text-anchor="middle" class="nomo">α</text>
-  <path id="lateroj_1" d="" class="kurbo"/>
+  <path id="sektoro_1" d="-1" class="surfaco"/>
+  <text id="angulnomo_1" x="-1" y="-1" text-anchor="middle" class="nomo">α</text>
+  <path id="lateroj_1" d="-1" class="kurbo"/>
   <circle cx="0" cy="0" r="4" class="konstrupunkto"/>
 
   <!--
     Cirkonferenca angulo
   -->
 
-  <path id="sektoro_2" d="" class="surfaco"/>
-  <text id="angulnomo_2" x="" y="" text-anchor="middle" class="nomo">β</text>
-  <path id="lateroj_2" d="" class="kurbo"/>
-  <circle id="vertico_2" cx="" cy="" r="4" class="konstrupunkto"/>
+  <path id="sektoro_2" d="-1" class="surfaco"/>
+  <text id="angulnomo_2" x="-1" y="-1" text-anchor="middle" class="nomo">β</text>
+  <path id="lateroj_2" d="-1" class="kurbo"/>
+  <circle id="vertico_2" cx="-1" cy="-1" r="4" class="konstrupunkto"/>
 
   <!--
     Ekstremoj de la substreĉita arko
   -->
 
-  <circle id="arko_komenco" cx="" cy="" r="4" class="konstrupunkto"/>
-  <circle id="arko_fino" cx="" cy="" r="4" class="konstrupunkto"/>
+  <circle id="arko_komenco" cx="-1" cy="-1" r="4" class="konstrupunkto"/>
+  <circle id="arko_fino" cx="-1" cy="-1" r="4" class="konstrupunkto"/>
  
   <!--
     Klarigo
@@ -120,5 +121,5 @@
   <rect x="-198" y="-198" width="180" height="70" class="klarigo" style="fill-opacity: 0.8" />
   <text x="-190" y="-180" class="klarigo">α : centra angulo</text>
   <text x="-190" y="-160" class="klarigo">β : cirkonferenca angulo</text>
-  <text x="-190" y="-140" class="klarigo">α = 2.β</text>
+  <text x="-190" y="-140" class="klarigo">α = 2&#xb7;β</text>
  </svg>
