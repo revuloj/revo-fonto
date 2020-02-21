@@ -12,29 +12,16 @@
   <!ENTITY offset_3 "600">
 ]>
 
-<svg version="1.1" 
-  width="20cm" height="10cm" 
+<svg xmlns="http://www.w3.org/2000/svg"
+  version="1.1" 
+  width="800" height="400" 
   viewBox="0 0 &scale_8; &scale_4;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   onload="start(evt,&scale;)">
 
   <title>Arteoriaj operacioj</title>
-  <desc/>
-  
-  <defs>
-    <script type="text/javascript"><![CDATA[
-      function start(evt, scale) {
 
-        var svgdoc = evt.getTarget().getOwnerDocument();
-        
-      }
-    ]]></script>
-  </defs>
-
-  <g transform="translate(&offset_0;,&offset_0;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+  <g transform="translate(100,100)">
 
       <!--
         Kadro
@@ -56,13 +43,9 @@
       -->
 
       <text x="0" y="80" text-anchor="middle" class="nomo">aro A</text>
-    </svg>
   </g>
 
-  <g transform="translate(&offset_1;,&offset_0;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+  <g transform="translate(300,100)">
 
       <!--
         Kadro
@@ -90,14 +73,9 @@
         C inkluzivata de A
         (C<tspan style="font-family:'Lucida Sans Unicode'">&#8834;</tspan>A)
       </text>
-    </svg>
   </g>
 
-  <g transform="translate(&offset_2;,&offset_0;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
-
+  <g transform="translate(500,100)">
       <rect x="-90" y="-90" width="180" height="140" 
         style="fill:rgb(200,200,200); stroke-width:2; stroke:black"/>
       <text x="-60" y="-50" class="nomo">A</text>
@@ -108,13 +86,9 @@
         komplemento de A
         (<tspan style="font-family:'Lucida Sans Unicode'">&#8705;</tspan>A)
       </text>
-    </svg>
   </g>
 
-  <g transform="translate(&offset_3;,&offset_0;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+  <g transform="translate(700,100)">
 
       <!--
         Kadro
@@ -136,13 +110,9 @@
       -->
 
       <text x="0" y="80" text-anchor="middle" class="nomo">aro B</text>
-    </svg>
   </g>
 
-  <g transform="translate(&offset_0;,&offset_1;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+  <g transform="translate(100,300)">
 
       <!--
         Kadro
@@ -179,13 +149,9 @@
         komunaĵo 
         (A<tspan style="font-family:'Lucida Sans Unicode'">&#8745;</tspan>B)
       </text>
-    </svg>
   </g>
 
-  <g transform="translate(&offset_1;,&offset_1;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+  <g transform="translate(300,300)">
 
       <rect x="-90" y="-90" width="180" height="140" 
         style="fill:white; stroke-width:2; stroke:black"/>
@@ -199,14 +165,10 @@
         kunaĵo
         (A<tspan style="font-family:'Lucida Sans Unicode'">&#8746;</tspan>B)
       </text>
-    </svg>
   </g>
 
 
-  <g transform="translate(&offset_2;,&offset_1;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+  <g transform="translate(500,300)">
 
       <rect x="-90" y="-90" width="180" height="140" 
         style="fill:white; stroke-width:2; stroke:black"/>
@@ -222,13 +184,9 @@
         diferenco
         (A\B)
       </text>
-    </svg>
   </g>
 
-  <g transform="translate(&offset_3;,&offset_1;)">
-    <svg version="1.1" 
-      width="5cm" height="5cm" 
-      viewBox="-&scale; -&scale; &scale_2; &scale_2;">
+  <g transform="translate(700,300)">
 
       <rect x="-90" y="-90" width="180" height="140" 
         style="fill:white; stroke-width:2; stroke:black"/>
@@ -244,6 +202,5 @@
         simetria diferenco
         (A<tspan style="font-family:'Lucida Sans Unicode'">&#8710;</tspan>B)
       </text>
-    </svg>
   </g>
 </svg>
