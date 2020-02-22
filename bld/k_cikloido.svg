@@ -73,19 +73,42 @@
           //  Ruliĝanta cirklo
           var objet = svgdoc.getElementById("konstrucirklo_"+numero);
           objet.setAttribute ("r", scale_xy*parm);
-          objet.setAttribute ("cx", scale_xy*1.5);
+          objet.setAttribute ("cx", scale_xy*theta);
           objet.setAttribute ("cy", -scale_xy*1);
+          objet.setAttribute ("stroke-dashoffset", -25*theta % 100)
 
           //  Naskanta punkto
           var objet = svgdoc.getElementById("naskanto_"+numero);
           objet.setAttribute ("cx", scale_xy*xx(theta));
           objet.setAttribute ("cy", -scale_xy*yy(theta));
         }
+        g_k = konstruelementoj;
         
         var scale_xy = 25, parm = 1;
-        konstruelementoj("1", 1.50);
- 
+
+        //konstruelementoj("1", 3.50);
+        loop();
       }
+
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+      g_theta=-7.5;
+
+      function loop () {
+        if (g_theta<1.0) {
+          g_k("1",g_theta);
+          g_theta += 0.05
+          sleep(500).then(requestAnimationFrame(loop));
+        } else if (g_theta<3.48) {
+          g_k("1",g_theta);
+          g_theta += 0.01*(3.5-g_theta)
+          sleep(500).then(requestAnimationFrame(loop));
+        } else {
+          g_k("1",g_theta);
+        }
+      }
+
     ]]></script>
   </defs>
 
