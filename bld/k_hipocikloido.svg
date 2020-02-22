@@ -22,21 +22,21 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function xx(t) {
+        function xx(t,parm) {
           return (1+parm)*Math.cos(t)-Math.cos((1+parm)*t);
         }
         
-        function yy(t) {
+        function yy(t,parm) {
           return (1+parm)*Math.sin(t)-Math.sin((1+parm)*t);
         }
         
-        function path_data(f, g, t0, t1, nb_points, scale_xy) {
+        function path_data(f, g, t0, t1, nb_points, scale_xy, parm) {
           var d = "M "; 
           var inc = (t1-t0)/nb_points;
           for (var t=t0; t<=t1; t+=inc) {
             if (!(Math.abs(f(t)) > scale/scale_xy) &&
               !(Math.abs(g(t)) > scale/scale_xy)) {
-              d += " " + scale_xy*f(t) + " " + (-scale_xy)*g(t) 
+              d += " " + scale_xy*f(t,parm) + " " + (-scale_xy)*g(t,parm) 
             }
           }
           return d;
@@ -62,12 +62,12 @@
         // Desegni la funkciojn
         var objet = svgdoc.getElementById("kurbo1");
         var parm = -3, scale_xy = 60;
-        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy, parm));
         var objet = svgdoc.getElementById("kurbo2");
         var parm = -4, scale_xy = 45;
-        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy, parm));
 
-        function konstruelementoj(numero, theta1, theta2) {
+        function konstruelementoj(numero, theta1, theta2, scale_xy, parm) {
           //  Ĉefa cirklo
           var objet = svgdoc.getElementById("konstrucirklo_"+numero+"a");
           objet.setAttribute ("r", -parm*scale_xy);
@@ -78,9 +78,12 @@
           objet.setAttribute ("r", scale_xy);
           objet.setAttribute ("cx", scale_xy*xr);
           objet.setAttribute ("cy", scale_xy*yr);
+          objet.setAttribute ("stroke-dashoffset", (32*theta1 % 100) +'%')
+
           var objet = svgdoc.getElementById("centro_konstrucirklo_"+numero+"b");
           objet.setAttribute ("cx", scale_xy*xr);
           objet.setAttribute ("cy", scale_xy*yr);
+          objet.setAttribute ("stroke-dashoffset", (32*theta1 % 100) +'%')
 
           //  Streko liganta la centrojn
           var objet = svgdoc.getElementById("intercentra_streko_"+numero+"");
@@ -91,22 +94,42 @@
           var objet = svgdoc.getElementById("naskantoradiuso_"+numero+"");
           objet.setAttribute ("x1", scale_xy*xr);
           objet.setAttribute ("y1", scale_xy*yr);
-          objet.setAttribute ("x2", scale_xy*xx(theta2));
-          objet.setAttribute ("y2", scale_xy*yy(theta2));
+          objet.setAttribute ("x2", scale_xy*xx(theta2,parm));
+          objet.setAttribute ("y2", scale_xy*yy(theta2,parm));
           
           //  Naskanta punkto
           var objet = svgdoc.getElementById("naskanto_"+numero+"");
-          objet.setAttribute ("cx", scale_xy*xx(theta2));
-          objet.setAttribute ("cy", scale_xy*yy(theta2));
+          objet.setAttribute ("cx", scale_xy*xx(theta2,parm));
+          objet.setAttribute ("cy", scale_xy*yy(theta2,parm));
         }
-        
-        var parm = -3, scale_xy = 60;
-        konstruelementoj("1", 2*Math.PI/5, 2*Math.PI/5);
-        
-        var parm = -4, scale_xy = 45;
-        konstruelementoj("2", Math.PI+0.30, Math.PI+0.30);
-  
+        g_k = konstruelementoj;
+
+//        var parm = -3, scale_xy = 60;
+//        konstruelementoj("1", 2*Math.PI/5, 2*Math.PI/5,parm = -3, scale_xy = 60);
+//        
+//        var parm = -4, scale_xy = 45;
+//        konstruelementoj("2", Math.PI+0.30, Math.PI+0.30,parm = -4, scale_xy = 45);
+
+        loop()
       }
+
+      
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+      g_theta=Math.PI/5;
+
+      function loop () {
+        if (g_theta < 14*Math.PI/4) {
+          g_k("1",g_theta,g_theta,scale_xy = 60, parm = -3);
+          g_k("2",g_theta,g_theta,scale_xy = 45, parm = -4);
+          g_theta += 0.005
+          sleep(500).then(requestAnimationFrame(loop));
+        } else {
+          g_k("1",g_theta,g_theta,scale_xy = 60, parm = -3);
+          g_k("2",3*g_theta,3*g_theta,scale_xy = 45, parm = -4);
+        }
+      }        
     ]]></script>
   </defs>
 
