@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: implic.xml,v 1.32 2020/02/14 14:10:24 revo Exp $">
+<art mrk="$Id: implic.xml,v 1.33 2020/02/22 19:10:34 revo Exp $">
 <kap>
   <rad>implic</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -122,7 +122,7 @@
      <ctl>nefinia</ctl>, inspiras leganton pensi pri la supozeble
      <tld/>ata, pure esperanta, kurioza ebleco distingi inter
      tri klasoj (finiaj, nefiniaj kaj malfiniaj matematikaj
-     entoj <klr>...</klr>)
+     entoj <klr>[&#8230;]</klr>)
      <fnt>
        <aut>A. Shlyafer</aut>:
        <vrk>Komputiko &leftquot;la&ubreve; Pokrovskij&rightquot;</vrk>.
@@ -375,7 +375,7 @@
       <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
       kiu al du <ref cel="propoz.0o.aserto">propozicioj</ref>
       <frm am="P">P</frm> kaj <frm am="Q">Q</frm> asocias la propozicion
-      <frm am="neg P vv Q">&#172;P&#8744;Q</frm> <klr> (legu: ne po a&ubreve; kuo)</klr>;
+      <frm am="neg P vv Q">¬P&#8744;Q</frm> <klr> (legu: ne po a&ubreve; kuo)</klr>;
       rezulto de tiu operacio:
       <ekz>
         la <tld/>on de <frm am="P">P</frm> al <frm am="Q">Q</frm> oni
@@ -392,7 +392,7 @@
       <ref cel="kondic1.necesa0o">necesa kondi&ccirc;o</ref>,
       <ref cel="kondic1.suficxa0o">sufi&ccirc;a kondi&ccirc;o</ref>.
     </refgrp>
-    <bld lok="../bld/t_implico.svg.gif" lrg="150" alt="150">
+    <bld lok="../bld/t_implico.svg" tip="svg" lrg="200" alt="200">
       vertabelo de <tld/>o
     </bld>
     <rim>
@@ -430,7 +430,7 @@
 <drv mrk="implic.duobla0o">
   <kap>duobla <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="implic.duobla0o.ekvivalento">
     <ref tip="dif" cel="ekviva.0o.logika">ekvivalento</ref>
   </snc>
   <rim>
@@ -458,7 +458,10 @@
 </art>
 <!--
 $Log: implic.xml,v $
-versio 1.32 2020/02/14 14:10:24
+versio 1.33 2020/02/22 19:10:34
+Wolfram Diestel: svg anst. gif
+
+Revision 1.32  2020/02/14 13:10:23  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.31  2019/09/02 20:10:14  revo
@@ -476,8 +479,5 @@ interlokita traduko
 
 Revision 1.27  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
-
-Revision 1.26  2015/06/29 16:33:15  revo
-aldono de trd sk per skripto de M. von Laer
 -->
 </vortaro>
