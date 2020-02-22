@@ -78,7 +78,7 @@
           text.appendChild(enhavo);
 
           var tspan = svgdoc.createElementNS("http://www.w3.org/2000/svg","tspan");
-          tspan.setAttribute ("baseline-shift", "-50%");
+          tspan.setAttribute ("dy", "5");
           tspan.setAttribute ("class", "indico");
           var enhavo = svgdoc.createTextNode(numero);
           tspan.appendChild(enhavo);
@@ -130,7 +130,7 @@
           text.appendChild(enhavo);
 
           var tspan = svgdoc.createElementNS("http://www.w3.org/2000/svg","tspan");
-          tspan.setAttribute ("baseline-shift", "-50%");
+          tspan.setAttribute ("dy", "5");
           tspan.setAttribute ("class", "indico");
           var enhavo = svgdoc.createTextNode(numero);
           tspan.appendChild(enhavo);
@@ -194,19 +194,19 @@
   <rect x="-8" y="120" width="200" height="75" class="klarigo" style="fill-opacity: 0.9" />
 
   <text x="-5" y="140" class="klarigo">
-    <tspan class="kursiva">x</tspan><tspan baseline-shift="-50%" class="indico">0</tspan>,
-    <tspan class="kursiva">x</tspan><tspan baseline-shift="-50%" class="indico">2</tspan> : 
+    <tspan class="kursiva">x</tspan><tspan dy="5" class="indico">0</tspan><tspan dy="-5" dx="2">,
+</tspan>    <tspan class="kursiva">x</tspan><tspan dy="5" class="indico">2</tspan><tspan dy="-5" dx="2">:</tspan> 
     nuligantoj 
   </text>
 
   <text x="-5" y="160" class="klarigo">
-    <tspan class="kursiva">x</tspan><tspan baseline-shift="-50%" class="indico">1</tspan>,
-    <tspan class="kursiva">x</tspan><tspan baseline-shift="-50%" class="indico">4</tspan> : 
+    <tspan class="kursiva">x</tspan><tspan dy="5" class="indico">1</tspan><tspan dy="-5" dx="2">,
+</tspan>    <tspan class="kursiva">x</tspan><tspan dy="5" class="indico">4</tspan><tspan dy="-5" dx="2">:</tspan> 
     minimumigantoj 
   </text>
 
   <text x="-5" y="180" class="klarigo">
-    <tspan class="kursiva">x</tspan><tspan baseline-shift="-50%" class="indico">3</tspan> : 
+    <tspan class="kursiva">x</tspan><tspan dy="5" class="indico">3</tspan><tspan dy="-5" dx="2">:</tspan> 
     maksimumiganto
   </text>
 
