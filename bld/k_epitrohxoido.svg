@@ -22,21 +22,21 @@
     <script type="text/javascript"><![CDATA[
       function start(evt, scale) {
 
-        function xx(t) {
+        function xx(t,parm1,parm2) {
           return (1+parm1)*Math.cos(t)-parm2*Math.cos((1+parm1)*t);
         }
         
-        function yy(t) {
+        function yy(t,parm1,parm2) {
           return (1+parm1)*Math.sin(t)-parm2*Math.sin((1+parm1)*t);
         }
         
-        function path_data(f, g, t0, t1, nb_points, scale_xy) {
+        function path_data(f, g, t0, t1, nb_points, scale_xy, parm1, parm2) {
           var d = "M "; 
           var inc = (t1-t0)/nb_points;
           for (var t=t0; t<=t1; t+=inc) {
-            if (!(Math.abs(f(t)) > scale/scale_xy) &&
-              !(Math.abs(g(t)) > scale/scale_xy)) {
-              d += " " + scale_xy*f(t) + " " + (-scale_xy)*g(t) 
+            if (!(Math.abs(f(t,parm1,parm2)) > scale/scale_xy) &&
+              !(Math.abs(g(t,parm1,parm2)) > scale/scale_xy)) {
+              d += " " + scale_xy*f(t,parm1,parm2) + " " + (-scale_xy)*g(t,parm1,parm2) 
             }
           }
           return d;
@@ -61,16 +61,16 @@
 
         // Desegni la kurbojn
         var objet = svgdoc.getElementById("kurbo1");
-        var scale_xy = 35, parm1 = 4, parm2 = 1.5 ;
-        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        var scale_xy = 30, parm1 = 4, parm2 = 1.5 ;
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy, parm1, parm2));
         var objet = svgdoc.getElementById("kurbo2");
         var scale_xy = 35, parm1 = 3, parm2 = 0.8;
-        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy));
+        objet.setAttribute ("d", path_data(xx, yy, t0, t1, 1000, scale_xy, parm1, parm2));
 
         
         // Elementoj de konstruo
 
-        function konstruelementoj(numero, theta1, theta2) {
+        function konstruelementoj(numero, theta1, theta2, scale_xy, parm1, parm2) {
           //  Ĉefa cirklo
           var objet = svgdoc.getElementById("konstrucirklo_"+numero+"a");
           objet.setAttribute ("r", parm1*scale_xy);
@@ -81,10 +81,14 @@
           objet.setAttribute ("r", scale_xy);
           objet.setAttribute ("cx", scale_xy*xr);
           objet.setAttribute ("cy", scale_xy*yr);
+          objet.setAttribute ("stroke-dashoffset", (-32*theta1 % 100) +'%')
+
           var objet = svgdoc.getElementById("konstrucirklo_"+numero+"c");
           objet.setAttribute ("r", scale_xy*parm2);
           objet.setAttribute ("cx", scale_xy*xr);
           objet.setAttribute ("cy", scale_xy*yr);
+          objet.setAttribute ("stroke-dashoffset", (-32*theta1 % 100) +'%')
+
           var objet = svgdoc.getElementById("centro_konstrucirklo_"+numero+"b");
           objet.setAttribute ("cx", scale_xy*xr);
           objet.setAttribute ("cy", scale_xy*yr);
@@ -98,22 +102,42 @@
           var objet = svgdoc.getElementById("naskantoradiuso_"+numero+"");
           objet.setAttribute ("x1", scale_xy*xr);
           objet.setAttribute ("y1", scale_xy*yr);
-          objet.setAttribute ("x2", scale_xy*xx(theta2));
-          objet.setAttribute ("y2", scale_xy*yy(theta2));
+          objet.setAttribute ("x2", scale_xy*xx(theta2,parm1,parm2));
+          objet.setAttribute ("y2", scale_xy*yy(theta2,parm1,parm2));
           
           //  Naskanta punkto
           var objet = svgdoc.getElementById("naskanto_"+numero+"");
-          objet.setAttribute ("cx", scale_xy*xx(theta2));
-          objet.setAttribute ("cy", scale_xy*yy(theta2));
+          objet.setAttribute ("cx", scale_xy*xx(theta2,parm1,parm2));
+          objet.setAttribute ("cy", scale_xy*yy(theta2,parm1,parm2));
         }
+        g_k = konstruelementoj;
         
-        var scale_xy = 35, parm1 = 4, parm2 = 1.5 ;
-        konstruelementoj("1", -Math.PI/4, -Math.PI/4);
-        
-        var scale_xy = 35, parm1 = 3, parm2 = 0.8;
-        konstruelementoj("2", -5*Math.PI/6, -5*Math.PI/6);
+//        var scale_xy = 35, parm1 = 4, parm2 = 1.5 ;
+//        konstruelementoj("1", -Math.PI/4, -Math.PI/4, scale_xy = 35, parm1 = 4, parm2 = 1.5);
+//        
+//        var scale_xy = 35, parm1 = 3, parm2 = 0.8;
+//        konstruelementoj("2", -5*Math.PI/6, -5*Math.PI/6, scale_xy = 35, parm1 = 3, parm2 = 0.8);
   
+          loop();
       }
+
+      
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+      g_theta=-5*Math.PI/6;
+
+      function loop () {
+        if (g_theta < 14*Math.PI/4) {
+          g_k("1",g_theta, g_theta, scale_xy = 30, parm1 = 4, parm2 = 1.5);
+          g_k("2",3*g_theta,3*g_theta,scale_xy = 35, parm1 = 3, parm2 = 0.8);
+          g_theta += 0.001
+          sleep(500).then(requestAnimationFrame(loop));
+        } else {
+          g_k("1",g_theta,g_theta,scale_xy = 30,  parm1 = 4, parm2 = 1.5);
+          g_k("2",3*g_theta,3*g_theta,scale_xy = 35,  parm1 = 3, parm2 = 0.8);
+        }
+      }            
     ]]></script>
   </defs>
 
