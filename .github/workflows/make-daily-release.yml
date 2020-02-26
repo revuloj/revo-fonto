@@ -1,0 +1,185 @@
+name: make-daily-release
+
+on:
+  schedule:
+  # ĉiutage matene
+  # * estas speciala signo, do nepre uzu citilojn
+  - cron:  '15 8 * * *'
+  #- cron:  '34 19 * * 2'
+  push:
+    branches:
+    - master
+
+# https://github.com/actions/create-release
+# https://help.github.com/en/actions/reference/development-tools-for-github-actions
+# https://github.com/actions/github-script
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Hodiaŭ..."
+      run: |
+        Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
+        echo "::set-env name=TAGO::${Tagoj[ $(date +'%w') ]}"
+    - name: "Eĥo..."
+      run: |
+        echo $TAGO
+
+    - uses: actions/github-script@0.4.0
+      name: Movu etikedon al la nuna kap-pozicio
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+          var result = {};
+          const ref = await github.git.getRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,            
+              ref: 'heads/master'})
+          const sha = ref.data.object.sha;
+          console.log('HEAD is: '+sha);
+          try {
+            result = await github.git.updateRef({  
+              owner: context.repo.owner,
+              repo: context.repo.repo,            
+              sha: sha,
+              ref: 'tags/v${{ env.TAGO }}',
+              force: true })
+          } catch(error) {
+            console.log("ERROR:");
+            console.log(error);
+            result = await github.git.createRef({  
+              owner: context.repo.owner,
+              repo: context.repo.repo,            
+              sha: sha,
+              ref: 'refs/tags/v${{ env.TAGO }}' 
+              })
+          }
+          console.log("RESULT...")
+          console.log(result)
+
+    - uses: actions/github-script@0.4.0
+      name: Forigu malnovan eldonon de tiu tago
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+          try {
+            const release = await github.repos.getReleaseByTag({
+                owner: context.repo.owner,
+                repo: context.repo.repo,            
+                tag: 'v${{ env.TAGO }}' })
+            const release_id = release.data.id
+            console.log('Release id is: '+release_id)
+            const result = await github.repos.deleteRelease({  
+              owner: context.repo.owner,
+              repo: context.repo.repo,            
+              release_id: release_id })
+            console.log("RESULT...")
+            console.log(result)
+          } catch(error)  {
+            console.log("ERROR:")
+            console.log(error)
+          }
+
+####
+#'
+    - name: Rekreu eldonon kun sama etikedo (semajntago)
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ env.TAGO }}
+        release_name: Eldono de ${{ env.TAGO }}
+        draft: false
+        prerelease: false
+
+
+  sqlitedb:
+    needs: release
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: "Hodiaŭ..."
+      run: |
+        Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
+        echo "::set-env name=TAGO::${Tagoj[ $(date +'%w') ]}"
+
+    - name: Eltrovu la URL de la hodiaŭa eldono
+      uses: actions/github-script@0.4.0
+      id: retrieve_release
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+            const release = await github.repos.getReleaseByTag({
+                owner: context.repo.owner,
+                repo: context.repo.repo,            
+                tag: 'v${{ env.TAGO }}'
+            })
+            const upload_url = release.data.upload_url            
+            console.log('UploadURL is: '+upload_url)
+            console.log('::set-output name=upload_url::'+upload_url)
+
+##'
+## const core = require('@actions/core')
+## core.setOutput('upload_url', upload_url)
+
+    - name: Elŝutu la dosierojn 
+      uses: actions/checkout@v1
+    - name: Saluto al docker.pkg.github.com
+        # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
+        # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
+      run: docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+      env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Prenu procesumon voko-formiko
+      run: docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
+        mkdir $GITHUB_WORKSPACE/tgz
+        #mkdir $GITHUB_WORKSPACE/tmp
+        chmod 777 $GITHUB_WORKSPACE/t??
+        ls -l $GITHUB_WORKSPACE
+    - name: Kreu SQLite-datumbazon el la XML-dosieroj
+      run: docker run --name voko-formiko 
+        -v $GITHUB_WORKSPACE/revo:/home/formiko/revo/xml 
+        -v $GITHUB_WORKSPACE/tgz:/home/formiko/tgz
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest 
+        formiko srv-sqlite-db-tuto
+
+# vd. https://github.com/actions/upload-release-asset
+    - name: Retrovu la rezultintajn ZIP-dosierujojn
+      id: retrovu_zip
+      run: |
+        ls -l $GITHUB_WORKSPACE/tgz
+        echo "::set-output name=revosql::$(ls tgz/revosql_20*)"
+        echo "::set-output name=revosql_inx::$(ls tgz/revosql-inx_20*)"
+
+    - name: Alpendigu sqlrevo-inx
+      id: upload-inx 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
+        asset_path: ${{ steps.retrovu_zip.outputs.revosql_inx }}
+        asset_name: ${{ steps.retrovu_zip.outputs.revosql_inx }}
+        asset_content_type: application/zip
+    - name: Alpendigu sqlrevo
+      id: upload-inx-art 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
+        asset_path: ${{ steps.retrovu_zip.outputs.revosql }}
+        asset_name: ${{ steps.retrovu_zip.outputs.revosql }}
+        asset_content_type: application/zip
+
+
+# about download: https://help.github.com/en/github/administering-a-repository/linking-to-releases
+# /owner/name/releases/latest/download/asset-name.zip
