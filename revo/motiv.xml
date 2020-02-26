@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: motiv.xml,v 1.19 2020/02/22 14:10:20 revo Exp $">
+<art mrk="$Id: motiv.xml,v 1.20 2020/02/25 19:11:25 revo Exp $">
 <kap>
    <ofc>1</ofc>
-   <rad>motiv</rad>/o <fnt><bib>PV</bib></fnt>
+   <rad>motiv</rad>/o <fnt><bib>Fab1</bib></fnt>
 </kap>
 <drv mrk="motiv.0o">
    <kap><tld/>o</kap>
@@ -101,23 +101,42 @@
      </trdgrp>
    </snc>
    <snc mrk="motiv.0o.MUZ">
+     <uzo tip="fak">BELE</uzo>
      <uzo tip="fak">MUZ</uzo>
+     <uzo tip="fak">TEKS</uzo>
      <dif>
-       La malplej granda memstara unuo de muzika formo.
+        Strukture esenca <ref tip="super" cel="figur.stil0o">stilfiguro</ref> de artverko:
+        <ekz>
+          la pentrada ornamado de la manskriba&jcirc;o per tiuj miraklaj miniaturoj kun neniam
+          ripetitaj <tld/>oj el fla&ubreve;ro kaj fa&ubreve;no faras la libron majstra&jcirc;o
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Svetlana Milanovi&cacute;</aut>
+            <vrk><url ref="https://www.monato.be/2008/009510.php"
+            >Malnova monumento de la serba kulturo</url></vrk>
+            <lok>2008</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>e dominas la stoika idealo de konstanteco <klr>[&#8230;]</klr> kaj la samtempa
+          <tld/>o de <nac>Vanitas</nac>, la efemereco de la monda feli&ccirc;o
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=343">Andreas Gryphius</url></lok>
+          </fnt>.
+        </ekz>
      </dif>
-     <refgrp tip="super">
+     <refgrp tip="vid">
        <ref cel="melodi.0o">melodio</ref>,
-       <ref cel="figur.0o">figuro</ref>
+       <ref cel="figur.0o">figuro</ref>,
+       <ref cel="skem.0o">skemo</ref>,
+       <ref cel="sxablo.0o.FIG">&scirc;ablono<sncref/></ref>
      </refgrp>
-     <trd lng="de">Motiv</trd>
+     <trdgrp lng="de">
+       <trd>Motiv</trd>,
+       <trd>Stilfigur</trd>
+     </trdgrp>
      <trd lng="en">motif</trd>
-     <adm>
-       En la difino mankas, ke temas ne pri hazarda stilfiguro, sed
-       esenca strukturelemento de la (muzika) verko.
-       La vorto estus uzebla ne nur por a&ubreve;dfiguro, sed simile anka&ubreve; por
-       ripeti&gcirc;anta simbolo sur &scirc;tofo a&ubreve; por strukture esenca elemento en
-       literatura a&ubreve; alispeca verko. <aut>WD</aut>
-     </adm>     
    </snc>
   <trd lng="be">&c_m;&c_a;&c_t;&c_y;&c_w;</trd>
   <trdgrp lng="cs">
@@ -138,15 +157,25 @@
 </drv>
 
 <drv mrk="motiv.0i">
-   <kap><tld/>i<fnt>Z</fnt></kap>
+   <kap><tld/>i</kap>
    <gra><vspec>tr</vspec></gra>
    <snc mrk="motiv.0i.io">
      <uzo tip="klr">(io)</uzo>
      <dif>
        Esti <tld/>o por pravigo de io:
        <ekz>
-         tiu akcidento <tld/>as mian proponon.
+         tiu akcidento <tld/>as mian proponon;
        </ekz>
+        <ekz>
+          la amikoj volu sendi al mi kiom eble pli <tld/>ite siajn opiniojn pri la
+          diversaj punktoj
+          <fnt>
+            <aut>&Z;</aut>
+            <vrk><url ref="https://tekstaro.com/t?nomo=reformoj-esperanto&amp;id=cc60&amp;serchesprimo=motivi&amp;tuj=1#cc60"
+                >Pri Reformoj en Esperanto</url></vrk>
+            <lok>1894</lok>
+          </fnt>.
+        </ekz>
      </dif>
      <trd lng="be">&c_m;&c_a;&c_t;&c_y;&c_v;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
      <trd lng="en">motivate</trd>
@@ -156,30 +185,27 @@
    </snc>
    <snc mrk="motiv.0i.iu">
      <uzo tip="klr">(iu)</uzo>
-     <ref tip="dif" cel="motiv.0igi.KOMUNE">motivigi</ref>
-     <ekz>
-       &ccirc;iu povas <tld/>i sian proponon<fnt>Z</fnt>;
-     </ekz>
-      <ekz>
-        la usona registaro false provis <tld/>i la militon
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Bertil Englund</aut>
-          <vrk><url ref="https://www.monato.be/2004/008274.html"
-              >Mi plu abonos Monaton</url></vrk>
-          <lok>2004</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        Moskvo vivas sen iu ajn science <tld/>ita plano
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Mihail Korotkov</aut>
-          <vrk><url ref="https://www.monato.be/2011/010465.php"
-              >Bridi la monstron</url></vrk>
-          <lok>2011</lok>
-        </fnt>.
-      </ekz>
+     <dif>
+        <ref tip="dif" cel="motiv.0igi.KOMUNE">Motivigi</ref>:
+        <ekz>
+          la usona registaro false provis <tld/>i la militon
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Bertil Englund</aut>
+            <vrk><url ref="https://www.monato.be/2004/008274.html">Mi plu abonos Monaton</url></vrk>
+            <lok>2004</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          Moskvo vivas sen iu ajn science <tld/>ita plano
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Mihail Korotkov</aut>
+            <vrk><url ref="https://www.monato.be/2011/010465.php">Bridi la monstron</url></vrk>
+            <lok>2011</lok>
+          </fnt>.
+        </ekz>
+     </dif>
      <trd lng="fr">motiver<klr> (justifier par des motifs)</klr></trd>
    </snc>
   <trdgrp lng="cs">
@@ -200,9 +226,31 @@
    <uzo tip="klr">(iu)</uzo>
    <snc mrk="motiv.0igi.KOMUNE">
      <dif>
-       Pravigi ion per:
+       <ref tip="super" cel="prav.0igi">Pravigi</ref> ion per:
        <ekz>
-         plene <tld/>igita plendo.
+         plene <tld/>igita plendo;
+       </ekz>
+       <ekz>
+        li per persista demandado kaj analizo <klr>[&#8230;]</klr> de homaj rilatoj kaj
+        <tld/>igoj, faras siajn hipotezojn kaj konkludojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Macgill</aut>
+          <vrk><url ref="https://www.monato.be/2004/008023.html"
+              >Pli da kadavroj</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+       </ekz>
+       <ekz>
+        la vjetnama milito estis &ccirc;iurilate misa, mis<tld/>igita, misintencita, neniel
+        kaj nenial pravigebla
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2005/008073.php"
+              >Popolo suferinta pro agresemo de aliaj</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
        </ekz>
      </dif>
    </snc>
@@ -223,7 +271,10 @@
 </art>
 <!--
 $Log: motiv.xml,v $
-versio 1.19 2020/02/22 14:10:20
+versio 1.20 2020/02/25 19:11:25
+Wolfram Diestel: +ekz-oj, gxeneraligis snc arta
+
+Revision 1.19  2020/02/22 13:10:19  revo
 Wolfram Diestel: +2ekz
 
 Revision 1.18  2020/02/19 09:10:18  revo
@@ -242,8 +293,5 @@ Revision 1.14  2011/12/26 19:10:11  revo
 Wolfram Diestel: pliaj germ trd.
 
 Revision 1.13  2010/10/22 16:30:13  revo
-Bart Demeyere: +mrk
-
-Revision 1.12  2010/07/11 17:44:27  revo
 -->
 </vortaro>

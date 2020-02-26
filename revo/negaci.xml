@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: negaci.xml,v 1.20 2020/02/15 20:10:20 revo Exp $">
+<art mrk="$Id: negaci.xml,v 1.21 2020/02/22 20:10:27 revo Exp $">
 <kap>
   <rad>negaci</rad>/o
   <fnt>Z</fnt>
 </kap>
 <drv mrk="negaci.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="negaci.0o.GRA">
     <uzo tip="fak">GRA</uzo>
     <dif>
       Nea vorto.
@@ -36,7 +36,7 @@
       se kaj nur se <frm am="P">P</frm> estas falsa:
       <ekz>
         la <tld/>on de <frm am="P">P</frm> oni kutime signas per
-        <frm am="neg P">&#172;P</frm> <klr> (legu: ne po)</klr>;
+        <frm am="neg P">¬P</frm> <klr> (legu: ne po)</klr>;
       </ekz>
       <ekz>
         la <tld/>o de propozicio 
@@ -45,11 +45,11 @@
       </ekz>
       <ekz>
         la <tld/>o de propozicio <frm am="P vv Q">P&#8744;Q</frm> estas
-        <frm am="neg P ^^ neg Q">&#172;P&#8743;&#172;Q</frm> 
+        <frm am="neg P ^^ neg Q">¬P&#8743;¬Q</frm> 
         <klr>(legu: ne po kaj ne kuo)</klr>.
       </ekz>
     </dif>
-    <bld lok="../bld/t_negacio.svg.gif" lrg="150" alt="150">
+    <bld lok="../bld/t_negacio.svg" tip="svg" lrg="200" alt="200">
       vertabelo de <tld/>o
     </bld>
     <trd lng="be">
@@ -82,7 +82,10 @@
 </art>
 <!--
 $Log: negaci.xml,v $
-versio 1.20 2020/02/15 20:10:20
+versio 1.21 2020/02/22 20:10:27
+Wolfram Diestel: svg anst. gif
+
+Revision 1.20  2020/02/15 19:10:19  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.19  2015/07/04 08:37:40  revo
@@ -101,8 +104,5 @@ Revision 1.15  2006/06/08 16:31:49  revo
 Tulio Flores: +tr pt
 
 Revision 1.14  2004/02/17 17:32:11  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2003/02/24 17:33:54  revo
 -->
 </vortaro>
