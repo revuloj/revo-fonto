@@ -153,8 +153,8 @@ jobs:
       id: retrovu_zip
       run: |
         ls -l $GITHUB_WORKSPACE/tgz
-        echo "::set-output name=revosql::$(ls tgz/revosql_20*)"
-        echo "::set-output name=revosql_inx::$(ls tgz/revosql-inx_20*)"
+        echo "::set-output name=revosql::$(basename -- tgz/revosql_20*)"
+        echo "::set-output name=revosql_inx::$(basename -- tgz/revosql-inx_20*)"
 
     - name: Alpendigu sqlrevo-inx
       id: upload-inx 
@@ -163,7 +163,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
-        asset_path: ${{ steps.retrovu_zip.outputs.revosql_inx }}
+        asset_path: tgz/${{ steps.retrovu_zip.outputs.revosql_inx }}
         asset_name: ${{ steps.retrovu_zip.outputs.revosql_inx }}
         asset_content_type: application/zip
     - name: Alpendigu sqlrevo
@@ -173,7 +173,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
-        asset_path: ${{ steps.retrovu_zip.outputs.revosql }}
+        asset_path: tgz/${{ steps.retrovu_zip.outputs.revosql }}
         asset_name: ${{ steps.retrovu_zip.outputs.revosql }}
         asset_content_type: application/zip
 
