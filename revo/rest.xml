@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: rest.xml,v 1.39 2020/02/29 12:10:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>rest</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>rest</rad>/i 
 </kap>
 
 <drv mrk="rest.0i">
@@ -101,7 +101,7 @@
   <snc mrk="rest.0i.parto">
     <dif>
       <ref tip="sin" cel="konser.0igxi">Konservi&gcirc;i</ref>,
-      ankora&ubreve; esti post ol fori&gcirc;is unu a&ubreve; pluraj
+      ankora&ubreve; esti, post kiam fori&gcirc;is unu a&ubreve; pluraj
       aliaj partoj, post konsumo, uzo, morto a&ubreve; faro:
       <ekz>
         de l' festo <tld/>is multaj man&gcirc;oj;
@@ -254,7 +254,53 @@
   <snc mrk="rest.0o.KOMUNE">
     <dif>
       Tio, kio <tld/>as<sncref ref="rest.0i.parto"/>;
-      la <ref tip="sin" cel="ceter.0o">cetero</ref>.
+      la <ref tip="sin" cel="ceter.0o">cetero</ref>:
+      <ekz>
+        la armitoj iris anta&ubreve; la pastroj, kiuj trumpetis per la trumpetoj, kaj la
+        <tld/>o de la popolo iris post la kesto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Josuo 6:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kolektu la <tld/>on de la popolo, kaj sie&gcirc;u la urbon
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 12:28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        juna italo, sova&gcirc;e atakita, devos ver&scirc;ajne pasigi la <tld/>on de sia vivo en
+        rulse&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007170.html"
+              >Ni hontas kaj postulas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fine Gerhardo post elektoj perdis ne nur sian oficon sed anka&ubreve; lastan <tld/>on
+        de respekto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2005/008822.php"
+              >Du mil kvin</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Usona ekonomio estas tiom granda kaj forta, ke &gcirc;i evoluas sendepende de la
+        <tld/>o de la mondo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007184.html"
+              >Petrolo: Nehaltigeblaj prezalti&gcirc;oj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <snc mrk="rest.0o.MAT">
@@ -264,17 +310,16 @@
       <dif>
         <klr>(&ccirc;e <ref cel="divid.euxklida0o">e&ubreve;klida
             divido</ref>
-          de <frm><k>a</k></frm> per <frm><k>b</k></frm> en
+          de <frm am="a"><k>a</k></frm> per <frm am="b"><k>b</k></frm> en
           <ref cel="ring.euxklida0o">e&ubreve;klida ringo</ref>)</klr>
-        &Ccirc;iu el la eblaj elementoj <frm><k>r</k></frm>,
-        por kiuj <frm><k>a</k> =
-        <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
-        <frm>&phi;(<k>r</k>) &#8804; &phi;(<k>b</k>)</frm>:
+        &Ccirc;iu el la eblaj elementoj <frm am="r"><k>r</k></frm>,
+        por kiuj <frm am="a=b xx q+r"><k>a</k> = <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
+        <frm am="phi(r) le phi(b)">&phi;(<k>r</k>) &#8804; &phi;(<k>b</k>)</frm>:
         <ekz>
           &ccirc;e e&ubreve;klida divido de
-          <frm><g>X</g><sup>2</sup>+<g>1</g></frm>
-          per <frm><g>X</g></frm> la <tld/>o estas
-          <frm><g>1</g></frm>.
+          <frm am="bb X^2+bb 1"><g>X</g><sup>2</sup>+<g>1</g></frm>
+          per <frm am="bb X"><g>X</g></frm> la <tld/>o estas
+          <frm am="bb 1"><g>1</g></frm>.
         </ekz>
       </dif>
       <trd lng="de">Rest<klr tip="ind"> (bei der
@@ -295,11 +340,11 @@
       <fnt><bib>MatTerm</bib>,<lok>p. 19a</lok></fnt>
       <dif>
         <klr>(de konver&gcirc;a <ref cel="seri.0o.MAT">serio</ref>,
-          je ordo <frm><k>n</k></frm>)</klr>
+          je ordo <frm am="n"><k>n</k></frm>)</klr>
         La diferenco inter &gcirc;ia <ref cel="sum.0o.serio">sumo</ref>
         kaj
         &gcirc;ia <ref cel="sum.parta0o">parta sumo</ref> je ordo
-        <frm><k>n</k></frm>:
+        <frm am="n"><k>n</k></frm>:
         <ekz>
           la <tld/>oj formas vicon, konver&gcirc;antan al <frm>0</frm>.
         </ekz>
@@ -624,7 +669,13 @@
 </drv>
 </art>
   <!--
-  $Log$
+  $Log: rest.xml,v $
+versio 1.39 2020/02/29 12:10:26
+Wolfram Diestel: ~o: ekz-oj, frm per am
+
+  Revision 1.38  2019/11/23 08:10:14  revo
+  Wolfram Diestel: ~i: fnt-oj
+
   Revision 1.37  2016/11/13 00:10:15  revo
   Filip van Laenen: +trd nl, nl
 
@@ -641,20 +692,5 @@
   aldono de trd cs per skripto de M. von Laer
 
   Revision 1.32  2015/06/29 16:33:22  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.31  2007/07/02 16:30:27  revo
-  Sergio Pokrovskij: dif
-
-  Revision 1.30  2006/09/08 12:04:08  revo
-  Axel Rousseau: +trd tp
-
-  Revision 1.29  2006/02/20 17:33:42  revo
-  Tulio Flores: +trd pt
-
-  Revision 1.28  2005/06/22 16:31:50  revo
-  Yury Finkel: +trd ru
-
-  Revision 1.27  2005/04/12 16:33:07  revo
-  -->
+-->
 </vortaro>
