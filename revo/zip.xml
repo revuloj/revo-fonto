@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: zip.xml,v 1.30 2020/03/04 05:10:18 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>zip</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -18,10 +18,9 @@
       alian per la inter&scirc;ovo de
       movpeco.
     </dif>
+    <ref tip="sin" cel="ferm.fulmo0ilo">fulmofermilo</ref>
+    <ref tip="vid" cel="ferm.lap0ilo">lapfermilo</ref>
   </snc>
-  <refgrp tip="sin">
-    <ref cel="ferm.fulmo0ilo">fulmofermilo</ref>
-  </refgrp>
   <trd lng="be">&c_m;&c_a;&c_l;&c_a;&c_n;&c_k;&c_a;<klr>(&c_z;&c_a;&c_s;&c_mol;&c_c;&c_je;&c_zh;&c_k;&c_a;)</klr></trd>
   <trd lng="bg">&c_c;&c_i;&c_p;</trd>
   <trd lng="ca">cremallera</trd>
@@ -32,8 +31,9 @@
   </trdgrp>
   <trd lng="de">Rei&szlig;verschluss</trd>
   <trdgrp lng="en">
-    <trd>zip</trd>,
-    <trd>zipper</trd>
+    <trd>zip<klr> (Britujo)</klr></trd>,
+    <trd>zipper<klr> (&ccirc;efe Usono)</klr></trd>,
+    <trd>zip fastener</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>cremallera</trd>,
@@ -48,11 +48,23 @@
     <trd>cipz&aacute;r</trd>,
     <trd>vill&aacute;mz&aacute;r</trd>
   </trdgrp>
+  <trd lng="ia">serratura fulmine</trd>
+  <trd lng="io">zipo</trd>
+  <trd lng="id">resleting</trd>
   <trdgrp lng="it">
     <trd>chiusura lampo</trd>,
     <trd>zip</trd>
   </trdgrp>
-  <trd lng="nl">ritssluiting</trd>
+  <trdgrp lng="ja">
+    <trd>&#12501;&#12449;&#12473;&#12490;&#12540; [<ind>&#12405;&#12353;&#12377;&#12394;&#12540;</ind>]</trd>
+    <trd>&#12472;&#12483;&#12497;&#12540; [<ind>&#12376;&#12387;&#12401;&#12540;</ind>]</trd>
+    <trd>&#12481;&#12515;&#12483;&#12463; [<ind>&#12385;&#12419;&#12387;&#12367;</ind>]</trd>
+  </trdgrp>
+  <trd lng="ko">&#51648;&#54140;</trd>
+  <trdgrp lng="nl">
+    <trd>rits</trd>,
+    <trd>ritssluiting</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>zamek b&lstroke;yskawiczny</trd>,
     <trd>suwak</trd>
@@ -61,6 +73,10 @@
   <trd lng="ru">&c_m;&c_o;&c_l;&c_n;&c_i;&c_ja;
   <klr>(&c_z;&c_a;&c_s;&c_t;&c_jo;&c_zh;&c_k;&c_a;)</klr></trd>
   <trd lng="sk">zips</trd>
+  <trdgrp lng="sv">
+    <trd>blixtl&aring;s</trd>,
+    <trd>dragkedja</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="zip.0i">
@@ -80,12 +96,15 @@
   <trd lng="en">zip</trd>
   <trd lng="es">cerrar con cremallera</trd>
   <trd lng="fr">fermer<klr tip="amb"> (une fermeture
-  &eacute;clair)</klr></trd><trd lng="fr">fermer<klr tip="amb"> (une fermeture
   &eacute;clair)</klr></trd>
   <trdgrp lng="hu">
     <trd>beh&uacute;zza a <ind>cipz&aacute;rt</ind><klr tip="amb">
     (vmin)</klr></trd>,
     <trd>becipz&aacute;roz</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>ritsen</trd>,
+    <trd>dichtritsen</trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>zapina&cacute; <klr>zamek b&lstroke;yskawiczny</klr></trd>,
@@ -122,6 +141,7 @@
     (vmin)</klr></trd>,
     <trd>kicipz&aacute;roz</trd>
   </trdgrp>
+  <trd lng="nl">openritsen</trd>
   <trdgrp lng="pl">
     <trd>rozpina&cacute; <klr>zamek b&lstroke;yskawiczny</klr></trd>
   </trdgrp>
@@ -130,7 +150,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: zip.xml,v $
+versio 1.30 2020/03/04 05:10:18
+Sam Penter: +ref; +trd
+
+Revision 1.29  2018/08/07 06:10:31  revo
+Michel Cantigneaux: aperas unue en SPV (1953), oficiala en 9OA (2007)
+
 Revision 1.28  2015/07/04 08:37:46  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -147,8 +173,5 @@ Revision 1.24  2011/06/29 08:10:09  revo
 Wieland Pusch: +trd bg
 
 Revision 1.23  2011/06/29 05:10:18  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2011/06/24 23:10:15  revo
 -->
 </vortaro>
