@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: lud.xml,v 1.57 2020/03/05 03:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lud</rad>/i <fnt><bib>PV</bib></fnt>
@@ -807,23 +807,33 @@
   <trd lng="sk">strategick&aacute; hra</trd>
 </drv>
 
-<drv mrk="lud.tabul0o">
-  <kap>tabul<tld/>o, <var><kap>surtabla <tld/>o</kap></var></kap>
-  <snc mrk="lud.tabul0o.SPO">
+<drv mrk="lud.tablo0o">
+  <kap>tablo<tld/>o, <var><kap>surtabla <tld/>o</kap></var></kap>
+  <snc mrk="lud.tablo0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      <ref tip="super" cel="lud.0o.ago"><tld lit="L"/>o</ref>
-      en kiu oni uzas ordinare pecojn (&scirc;tonetojn, diskojn, 
-      figuretojn, bastonetojn...), kiujn oni movas sur tabulo
-      a&ubreve; desegnita spaco:
+      <ref tip="super" cel="lud.0o.ago"><tld lit="L"/>o</ref> ta&ubreve;ga por
+      ludi sur tablo a&ubreve; simila surfaco, ekzemple per ludtabulo, kartoj,
+      &jcirc;etkuboj, k.s.:
       <ekz>
-        se vin interesas la klasika azia strategia tabul<tld/>o goo,
-        mi rekomendas ludi interrete &ccirc;e KGS
+        se nek la na&gcirc;ejo nek la oficialaj programeroj pla&ccirc;is al oni,
+        eblis &ccirc;iam lerni ludi novan tablo<tld/>on
         <fnt>
-          <aut>R. Williams</aut>,
-          <vrk><url ref="http://www.esperanto-usa.org/en/node/378">
-          Goo</url></vrk>,
-          <lok>[vidita en 2012]</lok>
+          <aut>Antonia Montaro</aut>
+          <vrk><url
+          ref="https://tekstaro.com/t?nomo=kontakto-2011-2019&amp;uzistreketojn=&amp;tipo=&amp;sekcio=kontakto-693&amp;antauasekcio=1&amp;postasekcio=1">
+            June kaj kune en Badajoz</url></vrk>
+          <lok>Kontakto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[en la gufujo]</klr> haveblas teo kaj oni ofte ludas
+        tabloludojn
+        <fnt>
+          <aut>IJK2020-teamo</aut>
+          <vrk><url
+          ref="https://ijk2020.tejo.org/ijk-kio-kia-kaj-kiel/">
+            IJK &ndash; Kio, kia kaj kiel?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -839,16 +849,54 @@
         </fnt>.
       </ekz>
     </dif>
+    <rim>
+      <ekz>Tablo<tld/>oj</ekz> inkludas plurajn similajn grupojn de
+      ludoj. Ekzemple <ref tip="sub"
+      cel="lud.tabul0o">tabul<tld/>ojn</ref>, kart<tld/>ojn, &jcirc;etkubajn
+      <tld/>ojn, surtablajn <ref tip="vid"
+      cel="lud.rol0o">rol<tld/>ojn</ref>, k.s.
+    </rim>
   </snc>
   <trd lng="cs">stoln&iacute; hra</trd>
+  <trd lng="de">Gesellschaftsspiel</trd>
+  <trd lng="en">tabletop game</trd>
   <trd lng="es">juego de mesa</trd>
+  <trd lng="fr">jeu de soci&eacute;t&eacute;</trd>
+  <trd lng="nl">gezelschapsspel</trd>
+  <trd lng="sk">stoln&aacute; hra</trd>
+</drv>
+
+<drv mrk="lud.tabul0o">
+  <kap>tabul<tld/>o</kap>
+  <snc mrk="lud.tabul0o.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      <ref tip="super" cel="lud.0o.ago"><tld lit="L"/>o</ref>
+      en kiu oni uzas ordinare pecojn (&scirc;tonetojn, diskojn, 
+      figuretojn, bastonetojn...), kiujn oni movas sur tabulo
+      a&ubreve; desegnita spaco:
+      <ekz>
+        se vin interesas la klasika azia strategia tabul<tld/>o goo,
+        mi rekomendas ludi interrete &ccirc;e KGS
+        <fnt>
+          <aut>R. Williams</aut>,
+          <vrk><url ref="http://www.esperanto-usa.org/en/node/378">
+          Goo</url></vrk>,
+          <lok>[vidita en 2012]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="lud.tablo0o">tablo<tld/>o</ref>
+  </snc>
+  <trd lng="de">Brettspiel</trd>
+  <trd lng="en">board game</trd>
   <trd lng="fr">jeu de soci&eacute;t&eacute;<klr> (sur &eacute;chiquier ou
   analogue)</klr></trd>
+  <trd lng="nl">bordspel</trd>
   <trdgrp lng="pl">
     <trd>gra planszowa</trd>,
     <trd>plansz&oacute;wka</trd>
   </trdgrp>
-  <trd lng="sk">stoln&aacute; hra</trd>
 </drv>
 
 <drv mrk="lud.vet0o">
@@ -969,7 +1017,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: lud.xml,v $
+versio 1.57 2020/03/05 03:10:16
+Sam Penter: +tablo~0; movis surtabla ~o al tablo~o
+
+Revision 1.56  2018/01/16 17:10:16  revo
+Michel Cantigneaux: fonto por ludilo
+
 Revision 1.55  2017/01/05 10:10:13  revo
 Guillermo Molleda Jimena: trd es
 
@@ -986,8 +1040,5 @@ Revision 1.51  2014/09/18 05:10:11  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.50  2014/06/16 15:10:16  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.49  2013/12/31 02:10:11  revo
 -->
 </vortaro>
