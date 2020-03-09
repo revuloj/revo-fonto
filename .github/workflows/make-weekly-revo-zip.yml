@@ -72,7 +72,7 @@ jobs:
       with:
         upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
         asset_path: tgz/${{ steps.revo_zip.outputs.revohtml }}
-        asset_name: ${{ steps.retrovu_zip.outputs.revohtml }}
+        asset_name: ${{ steps.revo_zip.outputs.revohtml }}
         asset_content_type: application/zip
 
 # about download: https://help.github.com/en/github/administering-a-repository/linking-to-releases
