@@ -2,27 +2,27 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: vikipedi.xml,v 1.7 2020/03/10 01:10:16 revo Exp $">
 <kap>
-    <rad>Vikipedi</rad>/o <fnt><bib>Viki</bib></fnt>
+  <rad>Vikipedi</rad>/o <fnt><bib>Viki</bib></fnt>
 </kap>
 <drv mrk="vikipedi.0o">
   <kap><tld/>o</kap>
   <snc mrk="vikipedi.0o.enciklopedio">
-  <uzo tip="fak">KOMP</uzo>
+    <uzo tip="fak">KOMP</uzo>
     <dif>
-      Interreta, plurlingva enciklopedio verkata de volontuloj:
+      Interreta, plurlingva <ref tip="super"
+      cel="encikl1.0o">enciklopedio</ref> verkata de volontuloj:
       <ekz>
         la esperantlingva versio de la reta enciklopedio havas nun pli
-        da 
-        artikoloj ol ekzemple la slovaka, kroata, estona a&ubreve; litova
-        <tld/>oj,
-        pri la nova rekordo informis <tld/>isto Thomas Guibal
-        <fnt><vrk><url
-        ref="http://www.liberafolio.org/2014/la-esperanta-vikipedio-atingis-200-000-artikolojn">Libera
-        Folio</url></vrk>,
-        <lok>La Esperanta Vikipedio atingis 200.000
-        artikolojn</lok></fnt>.
+        da artikoloj ol ekzemple la slovaka, kroata, estona a&ubreve; litova
+        <tld/>oj
+        <fnt>
+          <vrk><url
+          ref="https://www.liberafolio.org/arkivo/www.liberafolio.org/2014/la-esperanta-vikipedio-atingis-200-000-artikolojn/">Libera
+          Folio</url></vrk>,
+          <lok>La Esperanta Vikipedio atingis 200.000 artikolojn</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -87,7 +87,7 @@
   <trd lng="ks">&a_w;&f_y;&f_k;&f_y;&f_p;&f_y;&a_A_sube;&#1672;&f_y;&a_A;</trd>
   <trd lng="ku">W&icirc;k&icirc;pediya</trd>
   <trd lng="ky">&c_U;&c_i;&c_k;&c_i;&c_p;&c_je;&c_d;&c_i;&c_ja;</trd>
-  <trd lng="la">Vicipaedia</trd>
+  <trd lng="lat">Vicipaedia</trd>
   <trd lng="ln">Wikipedia</trd>
   <trd lng="lo">&#3751;&#3764;&#3713;&#3764;&#3742;&#3765;&#3776;&#3732;&#3725;</trd>
   <trd lng="lt">Vikipedija</trd>
@@ -120,6 +120,7 @@
   <trd lng="rw">Wikipediya</trd>
   <trd lng="sa">&#2357;&#2367;&#2325;&#2367;&#2346;&#2368;&#2337;&#2367;&#2351;&#2366;</trd>
   <trd lng="sd">&a_w;&#1706;&a_y;&f_p;&a_y;&#1674;&a_y;&a_A;</trd>
+  <trd lng="se">Wikipedia</trd>
   <trd lng="sg">W&iuml;k&iuml;p&ecirc;d&iuml;y&auml;a</trd>
   <trd lng="sh">Wikipedia</trd>
   <trd lng="si">&#3520;&#3538;&#3482;&#3538;&#3508;&#3539;&#3497;&#3538;&#3514;&#3535;</trd>
@@ -159,10 +160,55 @@
   <trd lng="zh">&#32500;&#22522;&#30334;&#31185;</trd>
   <trd lng="zu">Wikipedia</trd>
 </drv>
-</art>
 
+<drv mrk="vikipedi.0isto">
+  <kap><tld lit="v"/>isto</kap>
+  <snc>
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Persono, kiu kontribuas al <tld/>o:
+      <ekz>
+        pri la nova rekordo informis <tld lit="v"/>isto <nom>Thomas
+        Guibal</nom>
+        <fnt>
+          <vrk><url
+          ref="https://www.liberafolio.org/arkivo/www.liberafolio.org/2014/la-esperanta-vikipedio-atingis-200-000-artikolojn/">Libera
+          Folio</url></vrk>,
+          <lok>La Esperanta Vikipedio atingis 200.000 artikolojn</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">viquipedista</trd>
+  <trdgrp lng="cs">
+    <trd>wikipedista</trd>,
+    <trd>wikipedistka</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Wikipedianer</trd>,
+    <trd>Wikipedianerin</trd>
+  </trdgrp>
+  <trd lng="en">Wikipedian</trd>
+  <trd lng="es">wikipedista</trd>
+  <trd lng="fr">wikip&eacute;diste</trd>
+  <trd lng="nl">Wikipediaan</trd>
+  <trdgrp lng="pl">
+    <trd>wikipedysta</trd>,
+    <trd>wikipedystka</trd>
+  </trdgrp>
+  <trd lng="pt">wikipedista</trd>
+  <trd lng="sv">wikipedian</trd>
+  <trd lng="vo">V&uuml;kipedan</trd>
+</drv>
+</art>
 <!--
-$Log$
+$Log: vikipedi.xml,v $
+versio 1.7 2020/03/10 01:10:16
+Robin van der Vliet: +~ano
+
+Revision 1.6  2019/08/27 20:10:28  revo
+Sam Penter: kor. trd ja
+
 Revision 1.5  2019/07/06 09:10:59  revo
 Aleks Andre: hi: iso 15919
 
@@ -178,6 +224,5 @@ Damien Brucker: +trd fr
 
 Revision 1.1  2015/02/25 19:10:21  revo
 Wolfram Diestel: nova artikolo
-
 -->
 </vortaro>
