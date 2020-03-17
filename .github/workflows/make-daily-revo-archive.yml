@@ -128,6 +128,26 @@ jobs:
         name: log
         path: .log
 
+    - uses: actions/github-script@0.4.0
+      name: Movu antaŭen la formikon
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+          var result = {};
+          try {
+            result = await github.git.updateRef({  
+              owner: context.repo.owner,
+              repo: context.repo.repo,            
+              sha: '${{ steps.trovu_kapon.outputs.sha_hm }}',
+              ref: 'tags/nokta-formiko',
+              force: true })
+          } catch(error) {
+            console.log("ERROR:");
+          }
+          console.log("RESULT...")
+          console.log(result)        
+
 # about download: https://help.github.com/en/github/administering-a-repository/linking-to-releases
 # verŝajne ni devos eltrovi per Github-API, almenaŭ ni devos scii la daton por scii la nomon de ZIP-dosiero!
 # https://github.com/revuloj/revo-fonto/releases/latest/download/<asset-name.zip>
