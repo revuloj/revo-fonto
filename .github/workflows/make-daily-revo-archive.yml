@@ -17,7 +17,7 @@ on:
 
 jobs:
 
-  revo-zip:
+  revo-aktualigo:
     #needs: release
     runs-on: ubuntu-latest
 
@@ -100,12 +100,14 @@ jobs:
         ls -l .tgz/ .log/
 
     - name: Retrovu la rezultintan ZIP-dosierujon
+      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
       id: revo_zip
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
         echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
+      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
       id: upload-zip 
       uses: actions/upload-release-asset@v1
       env:
@@ -129,6 +131,7 @@ jobs:
         path: .log
 
     - uses: actions/github-script@0.4.0
+      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
       name: Movu antaŭen la formikon
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
