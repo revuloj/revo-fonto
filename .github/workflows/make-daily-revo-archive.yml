@@ -86,12 +86,18 @@ jobs:
     - name: Kreu la tutan vortaron ĉe nokta-formiko kaj HEAD kaj arĥivu la diferencon
       if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
       run: docker run -u1001
-        -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto-testo.git
+        -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
+        -e FTP_SERVER=cyberwebserver-21.de
+        -e FTP_USER=${{ secrets.FTP_USER }}
+        -e FTP_PASSWD=${{ secrets.FTP_PASSWD }}
+        -e CGI_SERVER=reta-vortaro.de
+        -e CGI_USER=${{ secrets.CGI_USER }}
+        -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
         docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
         -Dsha1=${{ steps.trovu_noktan_formikon.outputs.sha_nf }} 
-        -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }} 
+        -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }}
         srv-servo-diferenco-github
 
     - name: Rigardu la rezulton
