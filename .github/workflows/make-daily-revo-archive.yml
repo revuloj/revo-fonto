@@ -28,22 +28,6 @@ jobs:
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
         echo "::set-env name=TAGO::${Tagoj[ $(date +'%w') ]}"
 
-    - name: Eltrovu la URL de la hodiaŭa eldono
-      uses: actions/github-script@0.4.0
-      id: retrieve_release
-      with:
-        github-token: ${{secrets.GITHUB_TOKEN}}
-        debug: true
-        script: |
-            const release = await github.repos.getReleaseByTag({
-                owner: context.repo.owner,
-                repo: context.repo.repo,            
-                tag: 'v${{ env.TAGO }}'
-            })
-            const upload_url = release.data.upload_url            
-            console.log('UploadURL is: '+upload_url)
-            console.log('::set-output name=upload_url::'+upload_url)
-
     - uses: actions/github-script@0.4.0
       name: Eltrovu la pozicion de marko 'nokta-formiko'
       id: trovu_noktan_formikon
@@ -105,25 +89,6 @@ jobs:
         #tar -czf revo.tgz $GITHUB_WORKSPACE/revo
         ls -l .tgz/ .log/
 
-    - name: Retrovu la rezultintan ZIP-dosierujon
-      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
-      id: revo_zip
-      run: |
-        ls -l $GITHUB_WORKSPACE/.tgz
-        echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
-
-    - name: Alpendigu revo-zip al la hodiaŭa eldono
-      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
-      id: upload-zip 
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
-        asset_path: .tgz/${{ steps.revo_zip.outputs.revohtml }}
-        asset_name: ${{ steps.revo_zip.outputs.revohtml }}
-        asset_content_type: application/zip        
-
     - name: Konservu rezultintajn arĥivojn
       uses: actions/upload-artifact@v1
       with:
@@ -135,12 +100,58 @@ jobs:
       with:
         name: log
         path: .log
+        
+  # ni bezonas apartan taskon pro tiu problemo: GITHUB_TOKEN validas nur 60min
+  # https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token
+  eldono-aktualigo:
+    needs: revo-aktualigo
+    runs-on: ubuntu-latest
 
-    - uses: actions/github-script@0.4.0
-      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
-      name: Movu antaŭen la formikon
+    steps:
+
+    - name: Eltrovu la URL de la hodiaŭa eldono
+      uses: actions/github-script@0.4.0
+      id: retrieve_release
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+            const release = await github.repos.getReleaseByTag({
+                owner: context.repo.owner,
+                repo: context.repo.repo,            
+                tag: 'v${{ env.TAGO }}'
+            })
+            const upload_url = release.data.upload_url            
+            console.log('UploadURL is: '+upload_url)
+            console.log('::set-output name=upload_url::'+upload_url)
+
+    - name: Reakiru la rezultintajn arĥivojn
+      uses: actions/download-artifact@v1
+      with:
+        name: tgz
+        path: .tgz
+
+    - name: Retrovu la rezultintan ZIP-dosierujon
+      id: revo_zip
+      run: |
+        ls -l $GITHUB_WORKSPACE/.tgz
+        echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
+
+    - name: Alpendigu revo-zip al la hodiaŭa eldono
+      id: upload-zip 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
+        asset_path: .tgz/${{ steps.revo_zip.outputs.revohtml }}
+        asset_name: ${{ steps.revo_zip.outputs.revohtml }}
+        asset_content_type: application/zip        
+
+    - uses: actions/github-script@0.4.0
+      name: Movu antaŭen la formikon
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         debug: true
         script: |
           var result = {};
