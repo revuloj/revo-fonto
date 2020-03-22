@@ -103,6 +103,7 @@ jobs:
         
   # ni bezonas apartan taskon pro tiu problemo: GITHUB_TOKEN validas nur 60min
   # https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token
+  # do ni kreis apartan konton kaj sekreton REVO_SERVO
   eldono-aktualigo:
     needs: revo-aktualigo
     runs-on: ubuntu-latest
@@ -113,7 +114,7 @@ jobs:
       uses: actions/github-script@0.4.0
       id: retrieve_release
       with:
-        github-token: ${{secrets.GITHUB_TOKEN}}
+        github-token: ${{secrets.REVO_SERVO}}
         debug: true
         script: |
             const release = await github.repos.getReleaseByTag({
@@ -141,7 +142,7 @@ jobs:
       id: upload-zip 
       uses: actions/upload-release-asset@v1
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.REVO_SERVO }}
       with:
         upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
         asset_path: .tgz/${{ steps.revo_zip.outputs.revohtml }}
@@ -151,7 +152,7 @@ jobs:
     - uses: actions/github-script@0.4.0
       name: Movu antaŭen la formikon
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.REVO_SERVO }}
         debug: true
         script: |
           var result = {};
