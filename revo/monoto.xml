@@ -2,26 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: monoto.xml,v 1.20 2020/02/15 19:10:23 revo Exp $">
+<art mrk="$Id: monoto.xml,v 1.21 2020/03/22 11:10:18 revo Exp $">
 <kap>
-  <ofc>6</ofc> <rad>monoton</rad>/a <fnt>Z</fnt>
-  <fnt><bib>PV</bib></fnt>
+  <ofc>6</ofc> <rad>monoton</rad>/a <fnt><bib>Fab2</bib></fnt>
 </kap>
 <drv mrk="monoto.0a">
   <kap><tld/>a</kap>
-  <snc>
-    <ref tip="dif" cel="ton.unu0a">unutona</ref>
-    <ekz>
-      tio renversis la trankvilan kaj <tld/>an vivon de
-      Kuniberto<fnt><aut>Irina Gon&ccirc;arova</aut>: <vrk>Vivi plu: kial?
-      (Gudrun Pausewang: La avo en la &ccirc;areto)</vrk>,
-      <bib>Monato</bib><lok>jaro 2002a, numero 6a, p. 20a</lok></fnt>.
-    </ekz>
+  <snc mrk="monoto.0a.unutona">
+    <dif>
+      <ref tip="dif" cel="ton.unu0a">Unutona</ref>:
+      <ekz>
+        la fre&scirc;a fonta akvo vigle el&scirc;prucadis, kaj mistere sonadis la <tld/>a kluk, kluk
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sonorilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iam la sama sono, tiel <tld/>a, tiel enuiga, tiel terure enuiga, ke la
+        malgranda <nom>Tuk</nom> enfalis en profundan dormon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malgranda Tuk</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        solece kaj <tld/>e pasas la tago
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        griza vesto sen iaj ornamoj, butonumita sur la brusto per vico da <tld/>aj
+        butonoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        promesi mi ne povas, respondis la mastrino <tld/>e, &gcirc;entile, sed rigide
+        <klr>(kp <ref cel="indife.0e">indiferente</ref>)</klr>
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio renversis la trankvilan kaj <tld/>an vivon de
+        Kuniberto
+        <fnt><aut>Irina Gon&ccirc;arova</aut>: 
+          <vrk>Vivi plu: kial?  (Gudrun Pausewang: La avo en la &ccirc;areto)</vrk>,
+          <bib>Monato</bib><lok>jaro 2002a, numero 6a, p. 20a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="enu.0iga">enuiga</ref>,
+      <ref cel="mild.0a">milda</ref>,
+      <ref cel="akr.mal0a">malakra</ref>,
+      <ref cel="obtuz.0a.sente">obtuza<sncref/></ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_m;&c_a;&c_n;&c_a;&c_t;&c_o;&c_n;&c_n;&c_y;</trd>,
       <trd>&c_a;&c_d;&c_n;&c_a;&c_t;&c_o;&c_n;&c_n;&c_y;</trd>
     </trdgrp>
-  <trdgrp lng="fr">
+  <trdgrp lng="de">
+      <trd>eint&ouml;nig</trd>,
+      <trd>monoton</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
     <trd>monotone</trd>
   </trdgrp>
   <trdgrp lng="hu">
@@ -71,8 +120,7 @@
       </ekz>
       <ekz>
         <ind>strikte <tld/>a</ind> bildigo <klr>(strikte kreskanta a&ubreve;
-        strikte
-        malkreskanta)</klr>.
+        strikte malkreskanta)</klr>;
         <trd lng="de">streng <ind>monoton</ind><klr tip="ind"> (-e
         Abbildung)</klr></trd>
         <trd lng="en">strictly <ind>monotonic</ind><klr tip="ind">
@@ -85,6 +133,13 @@
         <ind>monotoniczna</ind></trd>
         <trd lng="ru">&c_s;&c_t;&c_r;&c_o;&c_g;&c_o;-&c_m;&c_o;&c_n;&c_o;&c_t;&c_o;&c_n;&c_n;&c_o;&c_je;<klr tip="amb">
         (&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+      </ekz>
+      <ekz>
+        <tld/>a <ref cel="konver.0a.MAT">konver&gcirc;a</ref> teoremo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=104458">Konver&gcirc;o</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_t;&c_o;&c_n;&c_n;&c_y;</trd>
@@ -114,7 +169,10 @@
 </art>
 <!--
 $Log: monoto.xml,v $
-versio 1.20 2020/02/15 19:10:23
+versio 1.21 2020/03/22 11:10:18
+Wolfram Diestel: +ekz-oj
+
+Revision 1.20  2020/02/15 18:10:22  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.19  2018/08/07 07:10:19  revo
@@ -133,8 +191,5 @@ Revision 1.15  2009/05/26 16:30:27  revo
 Russ Williams: korekto (monoton al monotone)
 
 Revision 1.14  2005/09/01 16:31:08  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2004/08/20 16:32:15  revo
 -->
 </vortaro>
