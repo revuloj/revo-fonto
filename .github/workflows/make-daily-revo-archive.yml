@@ -80,9 +80,9 @@ jobs:
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
         docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
-        -Dsha1=${{ steps.trovu_noktan_formikon.outputs.sha_nf }} 
+        -Dsha1=${{ steps.trovu_kapon.outputs.sha_nf }} 
         -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }}
-        srv-servo-diferenco-github
+        srv-servo-github-diurne
 
     - name: Rigardu la rezulton
       run: |
@@ -101,58 +101,43 @@ jobs:
         name: log
         path: .log
         
-  # ni bezonas apartan taskon pro tiu problemo: GITHUB_TOKEN validas nur 60min
-  # https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token
-  # do ni kreis apartan konton kaj sekreton REVO_SERVO
-  eldono-aktualigo:
-    needs: revo-aktualigo
-    runs-on: ubuntu-latest
-
-    steps:
-
-    - name: Eltrovu la URL de la hodiaŭa eldono
-      uses: actions/github-script@0.4.0
-      id: retrieve_release
-      with:
-        github-token: ${{secrets.REVO_SERVO}}
-        debug: true
-        script: |
-            const release = await github.repos.getReleaseByTag({
-                owner: context.repo.owner,
-                repo: context.repo.repo,            
-                tag: 'v${{ env.TAGO }}'
-            })
-            const upload_url = release.data.upload_url            
-            console.log('UploadURL is: '+upload_url)
-            console.log('::set-output name=upload_url::'+upload_url)
-
-    - name: Reakiru la rezultintajn arĥivojn
-      uses: actions/download-artifact@v1
-      with:
-        name: tgz
-        path: .tgz
-
-    - name: Retrovu la rezultintan ZIP-dosierujon
-      id: revo_zip
-      run: |
-        ls -l $GITHUB_WORKSPACE/.tgz
-        echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
-
-    - name: Alpendigu revo-zip al la hodiaŭa eldono
-      id: upload-zip 
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.REVO_SERVO }}
-      with:
-        upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
-        asset_path: .tgz/${{ steps.revo_zip.outputs.revohtml }}
-        asset_name: ${{ steps.revo_zip.outputs.revohtml }}
-        asset_content_type: application/zip        
+#    - name: Eltrovu la URL de la hodiaŭa eldono
+#      uses: actions/github-script@0.4.0
+#      id: retrieve_release
+#      with:
+#        github-token: ${{secrets.GITHUB_TOKEN}}
+#        debug: true
+#        script: |
+#            const release = await github.repos.getReleaseByTag({
+#                owner: context.repo.owner,
+#                repo: context.repo.repo,            
+#                tag: 'v${{ env.TAGO }}'
+#            })
+#            const upload_url = release.data.upload_url            
+#            console.log('UploadURL is: '+upload_url)
+#            console.log('::set-output name=upload_url::'+upload_url)
+#
+#    - name: Retrovu la rezultintan ZIP-dosierujon
+#      id: revo_zip
+#      run: |
+#        ls -l $GITHUB_WORKSPACE/.tgz
+#        echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
+#
+#    - name: Alpendigu revo-zip al la hodiaŭa eldono
+#      id: upload-zip 
+#      uses: actions/upload-release-asset@v1
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      with:
+#        upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
+#        asset_path: .tgz/${{ steps.revo_zip.outputs.revohtml }}
+#        asset_name: ${{ steps.revo_zip.outputs.revohtml }}
+#        asset_content_type: application/zip        
 
     - uses: actions/github-script@0.4.0
       name: Movu antaŭen la formikon
       with:
-        github-token: ${{ secrets.REVO_SERVO }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         debug: true
         script: |
           var result = {};
