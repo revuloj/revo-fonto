@@ -69,17 +69,17 @@ jobs:
         #tar -czf revo.tgz $GITHUB_WORKSPACE/revo
         ls -l .tgz/ .log/
 
-    - name: Konservu rezultintajn arĥivojn
-      uses: actions/upload-artifact@v1
-      with:
-        name: tgz-i
-        path: .tgz
-
-    - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
-      with:
-        name: log-i
-        path: .log
+#    - name: Konservu rezultintajn arĥivojn
+#      uses: actions/upload-artifact@v1
+#      with:
+#        name: tgz-i
+#        path: .tgz
+#
+#    - name: Konservu protokolojn
+#      uses: actions/upload-artifact@v1
+#      with:
+#        name: log-i
+#        path: .log
         
     - name: Eltrovu la URL de la hodiaŭa eldono
       uses: actions/github-script@0.4.0
@@ -166,17 +166,17 @@ jobs:
         #tar -czf revo.tgz $GITHUB_WORKSPACE/revo
         ls -l .tgz/ .log/
 
-    - name: Konservu rezultintajn arĥivojn
-      uses: actions/upload-artifact@v1
-      with:
-        name: tgz-a
-        path: .tgz
-
-    - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
-      with:
-        name: log-a
-        path: .log
+#    - name: Konservu rezultintajn arĥivojn
+#      uses: actions/upload-artifact@v1
+#      with:
+#        name: tgz-a
+#        path: .tgz
+#
+#    - name: Konservu protokolojn
+#      uses: actions/upload-artifact@v1
+#      with:
+#        name: log-a
+#        path: .log
         
     - name: Eltrovu la URL de la hodiaŭa eldono
       uses: actions/github-script@0.4.0
@@ -263,17 +263,17 @@ jobs:
         #tar -czf revo.tgz $GITHUB_WORKSPACE/revo
         ls -l .tgz/ .log/
 
-    - name: Konservu rezultintajn arĥivojn
-      uses: actions/upload-artifact@v1
-      with:
-        name: tgz-h
-        path: .tgz
-
-    - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
-      with:
-        name: log-h
-        path: .log
+#    - name: Konservu rezultintajn arĥivojn
+#      uses: actions/upload-artifact@v1
+#      with:
+#        name: tgz-h
+#        path: .tgz
+#
+#    - name: Konservu protokolojn
+#      uses: actions/upload-artifact@v1
+#      with:
+#        name: log-h
+#        path: .log
         
     - name: Eltrovu la URL de la hodiaŭa eldono
       uses: actions/github-script@0.4.0
