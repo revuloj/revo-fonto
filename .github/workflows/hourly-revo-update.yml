@@ -1,11 +1,12 @@
-name: nokta-aktualigo
+name: hora-aktualigo
 
 on:
   schedule:
-  # ĉiunokte
+  # ĉiuhore
   
   # * estas speciala signo, do nepre uzu citilojn
-  - cron:  '15 22 * * *'
+  # ni testas ĉiutage, kiam funkcias, ni povas plioftigi
+  - cron:  '15 07 * * *'
   #- cron:  '34 19 * * 2'
 
 jobs:
@@ -16,16 +17,16 @@ jobs:
     steps:
 
     - uses: actions/github-script@0.4.0
-      name: Eltrovu la pozicion de marko 'nokta-formiko'
-      id: trovu_noktan_formikon
+      name: Eltrovu la pozicion de marko 'hora-formiko'
+      id: trovu_horan_formikon
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-          const ref = await github.git.getRef({...context.repo, ref: 'tags/nokta-formiko'})
+          const ref = await github.git.getRef({...context.repo, ref: 'tags/hora-formiko'})
           const sha = ref.data.object.sha
-          console.log('nokta-formiko estas ĉe: '+sha)
-          console.log('::set-output name=sha_nf::'+sha)
+          console.log('hora-formiko estas ĉe: '+sha)
+          console.log('::set-output name=sha_hf::'+sha)
 
     - uses: actions/github-script@0.4.0
       name: Eltrovu la nunan pozicion (kapo)
@@ -39,16 +40,15 @@ jobs:
           console.log('heads/master estas ĉe: '+sha)
           console.log('::set-output name=sha_hm::'+sha)
 
-    # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
-    # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
-
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
         mkdir .tgz
         mkdir .log
 
+    # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
+    # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
     - name: Saluto al docker.pkg.github.com kaj preni voko-formiko
-      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
+      if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
       env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
@@ -56,7 +56,7 @@ jobs:
         docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
 
     - name: Kreu la tutan vortaron ĉe nokta-formiko kaj HEAD kaj arĥivu la diferencon
-      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
+      if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
       run: docker run -u1001
         -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
         -e FTP_SERVER=cyberwebserver-21.de
@@ -68,9 +68,8 @@ jobs:
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
         docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
-        -Dsha1=${{ steps.trovu_kapon.outputs.sha_nf }} 
-        -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }}
-        srv-servo-github-diurne
+        -Dsha=${{ steps.trovu_kapon.outputs.sha_hf }} 
+        srv-servo-github-hore
 
     - name: Rigardu la rezulton
       run: |
@@ -87,10 +86,10 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: log
-        path: .log
-        
+        path: .log        
+
     - uses: actions/github-script@0.4.0
-      if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
+      if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
       name: Movu antaŭen la formikon
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -102,7 +101,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,            
               sha: '${{ steps.trovu_kapon.outputs.sha_hm }}',
-              ref: 'tags/nokta-formiko',
+              ref: 'tags/hora-formiko',
               force: true })
           } catch(error) {
             console.log("ERROR:");
