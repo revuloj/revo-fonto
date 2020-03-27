@@ -68,7 +68,8 @@ jobs:
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
         docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
-        -Dsha=${{ steps.trovu_horan_formikon.outputs.sha_hf }} 
+        -Dsha1=${{ steps.trovu_horan_formikon.outputs.sha_hf }} 
+        -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }} 
         srv-servo-github-hore
 
     - name: Rigardu la rezulton
