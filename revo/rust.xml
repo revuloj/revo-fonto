@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id$">
+<art mrk="$Id: rust.xml,v 1.20 2020/03/27 22:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rust</rad>/o
@@ -18,7 +18,7 @@
         ne provizu al vi trezorojn sur la tero, kie tineo kaj <tld/>o konsumas
         <fnt>
           <bib>NT</bib>
-          <lok>Mateo 6:19</lok>
+          <lok>&Mat; 6:19</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -46,7 +46,7 @@
   <kap>
     <tld/>a
   </kap>
-  <snc>
+  <snc mrk="rust.0a.KEM">
     <dif>
        Kovrita de <tld/>o:
       <ekz>
@@ -65,32 +65,34 @@
     </dif>
   </snc>
   <trd lng="de">rostig</trd>
+<trd lng="fr">rouill&eacute;</trd>
 </drv>
 
 <drv mrk="rust.0i">
   <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
   <snc mrk="rust.0i.rustigxi">
-    <gra><vspec>ntr</vspec></gra>
     <dif>
       <ref tip="dif" cel="rust.0igxi"><tld lit="R"/>i&gcirc;i</ref>:
       <ekz>
         se li mortos, la tran&ccirc;ilo <tld/>os de la flanko, kien li foriris
-        <fnt><bib>ElektFab</bib>, <lok>du fratoj</lok></fnt>;
+        <fnt><bib>ElektFab</bib> <lok>Du fratoj</lok></fnt>;
       </ekz>
       <ekz>
-        Otto fiere el&scirc;ar&gcirc;as el la senfundaj po&scirc;oj <tld/>intajn
+        <nom>Otto</nom> fiere el&scirc;ar&gcirc;as el la senfundaj po&scirc;oj <tld/>intajn
         pistolojn
         <fnt><bib>Metrop</bib></fnt>;
       </ekz>
       <ekz>
         <tld/>intaj relsurfacoj
-        <fnt><bib>InfanTorent2</bib>, <lok>dua parto, &ccirc;apitro
+        <fnt><bib>InfanTorent2</bib> <lok>dua parto, &ccirc;apitro
         3a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="cs">rezav&ecaron;t</trd>
   <trd lng="es">oxidar</trd>
+  <trd lng="fr">rouiller</trd>
   <trd lng="sk">hrdzavie&tcaron;</trd>
   <trd lng="sv">rosta</trd>
 </drv>
@@ -102,39 +104,53 @@
     <dif>
       Kovri&gcirc;i per <tld/>o:
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        malnova amo, kiel oni diras, ne <tld/>i&gcirc;as
-        <klr>(ne velkas, restas &ccirc;iam fre&scirc;a)</klr>
-        <fnt><bib>Fab2</bib>, <lok>pa&scirc;tistino kaj
-        kamentubisto</lok></fnt>;
-      </ekz>
-      <ekz>
         &ccirc;iu infano scias, ke latuno ne <tld/>i&gcirc;as
-        <fnt><bib>Mortul&Scirc;ip</bib>, <lok>dua libro, &ccirc;apitro
+        <fnt><bib>Mortul&Scirc;ip</bib> <lok>dua libro, &ccirc;apitro
         24a</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_ib;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>,
+      <trd>&c_z;&c_a;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>,
+      <trd>&c_s;&c_a;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>
+    </trdgrp>
+    <trd lng="de">rosten</trd>
+    <trd lng="en">rust</trd>
+    <trd lng="es">oxidar se<klr tip="amb"> (reflexivo)</klr></trd>
+    <trd lng="fr">se <ind>rouiller</ind></trd>
+    <trd lng="hu">rozsd&aacute;sodik</trd>
+    <trd lng="nl">roesten</trd>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_zh;&c_a;&c_v;&c_je;&c_t;&c_mol;</trd>,
+      <trd>&c_z;&c_a;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_t;&c_mol;</trd>
+    </trdgrp>
+    <trd lng="sv">rosta</trd>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_ib;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>,
-    <trd>&c_z;&c_a;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>,
-    <trd>&c_s;&c_a;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>
-  </trdgrp>
-  <trd lng="de">rosten</trd>
-  <trd lng="en">rust</trd>
-  <trd lng="es">oxidar se<klr tip="amb"> (reflexivo)</klr></trd>
-  <trd lng="fr">rouiller</trd>
-  <trd lng="hu">rozsd&aacute;sodik</trd>
-  <trd lng="nl">roesten</trd>
-  <trdgrp lng="ru">
-    <trd>&c_r;&c_zh;&c_a;&c_v;&c_je;&c_t;&c_mol;</trd>,
-    <trd>&c_z;&c_a;&c_r;&c_zh;&c_a;&c_v;&c_je;&c_t;&c_mol;</trd>
-  </trdgrp>
-  <trd lng="sv">rosta</trd>
+  <snc mrk="rust.0igxi.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Velki, malvigli&gcirc;i, ne plu bone funkcii:
+      <ekz>
+        malnova amo, kiel oni diras, ne <tld/>i&gcirc;as
+        <fnt><bib>Fab2</bib> <lok>Pa&scirc;tistino kaj
+        kamentubisto</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="fr">
+      <trd>se faire <ind>vieux</ind></trd>,
+      <trd>s'<ind>encrouter</ind></trd>
+    </trdgrp>
+  </snc>
 </drv>
 </art>
 <!--
-$Log$
+$Log: rust.xml,v $
+versio 1.20 2020/03/27 22:10:21
+Jeromo Vasxe: ~igxi: aparta snc fig
+
+Revision 1.19  2018/05/12 11:10:14  revo
+Wolfram Diestel: +~a, ekz-oj
+
 Revision 1.18  2015/07/04 08:37:43  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -151,8 +167,5 @@ Revision 1.14  2006/02/24 17:34:06  revo
 Tulio Flores: +trd pt
 
 Revision 1.13  2004/12/04 20:23:11  revo
-Jeromo Vasxe: + ~i kaj - () en kap
-
-Revision 1.12 2004/09/06 16:38:17 revo
 -->
 </vortaro>
