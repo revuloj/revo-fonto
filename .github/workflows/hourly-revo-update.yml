@@ -55,7 +55,7 @@ jobs:
         docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
         docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
 
-    - name: Kreu la tutan vortaron ĉe nokta-formiko kaj HEAD kaj arĥivu la diferencon
+    - name: Aktualigu la artikolojn redaktitajn de hora-formiko ĝis HEAD
       if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
       run: docker run -u1001
         -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git

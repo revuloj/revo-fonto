@@ -8,7 +8,7 @@ on:
   # vintre estas 23:15 kaj somere 00:15
   #
   # * estas speciala signo, do nepre uzu citilojn
-  - cron:  '15 08,22 * * *'
+  - cron:  '15 22 * * *'
   #- cron:  '34 19 * * 2'
 
 jobs:
@@ -58,7 +58,7 @@ jobs:
         docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
         docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
 
-    - name: Kreu la tutan vortaron ĉe nokta-formiko kaj HEAD kaj arĥivu la diferencon
+    - name: Kreu la tutan vortaron ĉe nokta-formiko kaj HEAD kaj publikigu la necesajn aktualigojn 
       if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
       run: docker run -u1001
         -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
