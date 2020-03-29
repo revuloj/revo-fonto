@@ -4,8 +4,11 @@ on:
   schedule:
   # ĉiunokte
   
+  # la tempo estas laŭ UTC, do laŭ mezeŭropa tempo tio
+  # vintre estas 23:15 kaj somere 00:15
+  #
   # * estas speciala signo, do nepre uzu citilojn
-  - cron:  '15 22 * * *'
+  - cron:  '15 08,22 * * *'
   #- cron:  '34 19 * * 2'
 
 jobs:
