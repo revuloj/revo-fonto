@@ -1,14 +1,15 @@
-name: hora-aktualigo
+name: tuja-aktualigo
 
 on:
-  schedule:
-  # ĉiuhore
-  
+  push:
+    branches:
+      - master
+
+  # schedule:
+  # ĉiuhore 
   # * estas speciala signo, do nepre uzu citilojn
   # ni testas pli malofte; sed ekde kiam funkcias, ni povas plioftigi
-  #- cron:  '15 07,11,15,17 * * *'
-  - cron:  '15 * * * *'
-  #- cron:  '34 19 * * 2'
+  #- cron:  '15 * * * *'
 
 jobs:
 
