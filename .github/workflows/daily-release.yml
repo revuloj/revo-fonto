@@ -7,6 +7,11 @@ on:
   - cron:  '15 8 * * *'
   #- cron:  '34 19 * * 2'
 
+
+env:
+  # image tag {latest|stabila}
+  IMAGE_TAG: stabila
+  
 # https://github.com/actions/create-release
 # https://help.github.com/en/actions/reference/development-tools-for-github-actions
 # https://github.com/actions/github-script
@@ -134,7 +139,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     - name: Prenu procesumon voko-formiko
-      run: docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
+      run: docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
         mkdir $GITHUB_WORKSPACE/tgz
@@ -145,7 +150,7 @@ jobs:
       run: docker run --name voko-formiko 
         -v $GITHUB_WORKSPACE/revo:/home/formiko/revo/xml 
         -v $GITHUB_WORKSPACE/tgz:/home/formiko/tgz
-        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest 
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} 
         formiko srv-sqlite-db-tuto
 
 # vd. https://github.com/actions/upload-release-asset
@@ -207,7 +212,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
-        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
+        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
 
     # https://help.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -220,7 +225,7 @@ jobs:
         -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
-        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
         -Dsha=${{ steps.trovu_kapon.outputs.sha_hm }}
         srv-servo-github-medinxtez
 
@@ -292,7 +297,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
-        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
+        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
 
     # https://help.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -305,7 +310,7 @@ jobs:
         -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
-        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
         -Dsha=${{ steps.trovu_kapon.outputs.sha_hm }}
         srv-servo-github-art
 
@@ -377,7 +382,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
-        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
+        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
 
     # https://help.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -390,7 +395,7 @@ jobs:
         -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
-        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
         -Dsha=${{ steps.trovu_kapon.outputs.sha_hm }}
         srv-servo-github-hst
 

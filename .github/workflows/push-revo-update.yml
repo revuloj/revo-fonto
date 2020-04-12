@@ -11,6 +11,11 @@ on:
   # ni testas pli malofte; sed ekde kiam funkcias, ni povas plioftigi
   #- cron:  '15 * * * *'
 
+env:
+  # image tag {latest|stabila}
+  IMAGE_TAG: stabila
+
+
 jobs:
 
   revo-aktualigo:
@@ -55,7 +60,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
-        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest"
+        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
 
     - name: Aktualigu la artikolojn redaktitajn de hora-formiko ĝis HEAD
       if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
@@ -69,7 +74,7 @@ jobs:
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
-        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:latest formiko
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
         -Dsha1=${{ steps.trovu_horan_formikon.outputs.sha_hf }} 
         -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }} 
         srv-servo-github-hore
