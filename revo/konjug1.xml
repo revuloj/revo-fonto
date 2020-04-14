@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konjug1.xml,v 1.19 2018/12/15 23:10:16 revo Exp $">
+<art mrk="$Id: konjug1.xml,v 1.20 2020/04/14 20:10:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konjugaci</rad>/o
@@ -13,23 +13,37 @@
   </kap>
   <uzo tip="fak">LIN</uzo>
   <uzo tip="fak">GRA</uzo>
-  <snc>
+  <snc mrk="konjug1.0o.sistemo">
     <dif>
       Sistemo de la diversaj verbaj formoj, per kiu lingvo esprimas la
       cirkonstancojn de ago:
       <ekz>
-        la malregula <tld/>o en &ccirc;iuj lingvoj ne devigas nin
-        enkonduki
-        malregulan <tld/>on en nia lingvo<fnt>Z</fnt>;
+        tiuj enuigaj deklinacioj kaj <tld/>oj, super kiuj sur la tera globo &ccirc;iutage
+        oscedas miloj da infanoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>      
+      <ekz>
+        en la lingvoj naturaj ekzistas <klr>[&#8230;]</klr> <tld/>oj kun <klr>[&#8230;]</klr>
+        tuta serio da formoj <klr>[&#8230;]</klr> ne sole por &ccirc;iu tempo kaj modo <klr>[&#8230;]</klr>, 
+        sed en &ccirc;iu el tiuj &ccirc;i tempoj kaj modoj ankora&ubreve; apartajn
+        formojn por &ccirc;iu persono kaj nombro
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        en la naturaj <tld/>oj vi havas por &ccirc;iu tempo kaj modo
-        tutajn
-        seriojn
-        da formoj, kaj apartajn formojn por &ccirc;iu persono kaj
-        nombro<fnt>Z</fnt>.
+        multaj el la hinde&ubreve;ropaj lingvoj malhavas specialan <tld/>an formon por esprimi
+        faktitivon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007059.html"
+              >La influo de la hebrea lingvo sur Esperanto</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="konjug.0o.GRA">konjugo</ref>
     <trd lng="en">conjugation</trd>
     <trdgrp lng="de">
       <trd>Konjugation</trd>,
@@ -40,12 +54,6 @@
       <trd>igeragoz&aacute;s</trd>,
       <trd>konjug&aacute;ci&oacute;</trd>
     </trdgrp>
-  </snc>
-  <snc>
-    <dif>
-      Ago <tld/>i verbon.
-    </dif>
-    <trd lng="en">conjugation</trd>
   </snc>
   <trd
   lng="be">&c_s;&c_p;&c_r;&c_a;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
@@ -63,14 +71,25 @@
     <tld/>i
   </kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <uzo tip="fak">GRA</uzo>
+  <snc mrk="konjug1.0i.GRA">
     <dif>
       La&ubreve;vice almeti al verba radiko la diversajn afiksojn, kiuj
-      servas
-      por
-      esprimi la &scirc;an&gcirc;ojn de persono, nombro, tempo, modo kaj
-      vo&ccirc;o.
+      servas por esprimi la &scirc;an&gcirc;ojn de persono, nombro, tempo, modo kaj
+      vo&ccirc;o:
+      <ekz>
+        ne &ccirc;iuj gejunuloj primajstris la francan lingvon: kelkaj grave mis<tld/>is
+        francajn verbojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pierre Grollemund</aut>
+          <vrk><url ref="https://www.monato.be/2012/010804.php"
+              >Ekzameno ekzamenata</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="konjug.0i.GRA">konjugi</ref>
     <trd lng="en">conjugate</trd>
   </snc>
   <trd lng="be">&c_s;&c_p;&c_r;&c_a;&c_g;&c_a;&c_c;&c_mol;</trd>
@@ -85,7 +104,13 @@
 </drv>
 </art>
 <!--
-$Log$
+$Log: konjug1.xml,v $
+versio 1.20 2020/04/14 20:10:49
+Wolfram Diestel: ekz-oj, sinonimoj
+
+Revision 1.19  2018/12/15 23:10:16  revo
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.18  2017/07/14 13:10:14  revo
 Warut Bunprasert: +trd th
 
@@ -102,8 +127,5 @@ Revision 1.14  2006/12/10 17:30:17  revo
 Tulio Flores: +tr pt
 
 Revision 1.13  2004/05/08 16:54:14  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2002/08/09 19:33:23  revo
 -->
 </vortaro>
