@@ -9,11 +9,11 @@ on:
   #
   # * estas speciala signo, do nepre uzu citilojn
   - cron:  '15 22 * * *'
-  - cron:  '05 15 17 4 *'
+  #- cron:  '05 15 17 4 *'
 
 env:
   # image tag {latest|stabila}
-  IMAGE_TAG: stabila
+  IMAGE_TAG: latest
 
 
 jobs:
