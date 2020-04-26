@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: matric.xml,v 1.38 2020/02/15 18:10:35 revo Exp $">
+<art mrk="$Id: matric.xml,v 1.39 2020/04/26 20:10:22 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>matric</rad>/o
-  <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="matric.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
@@ -48,8 +48,8 @@
       <trd lng="nl">matrijs</trd>
       <trd lng="pt">matriz</trd>
     </subsnc>
-    <trd lng="hu">matrica <klr
-    tip="amb">(alak&iacute;t&oacute;szersz&aacute;m)</klr></trd>
+    <trd lng="de">Matrize</trd>
+    <trd lng="hu">matrica <klr tip="amb">(alak&iacute;t&oacute;szersz&aacute;m)</klr></trd>
     <trd lng="nl">matrijs</trd>
     <trd lng="pt">matriz</trd>
   </snc>
@@ -66,12 +66,12 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Fidilalao Henriel</aut>
-          <vrk><url
-          ref="&Monato;/2006/008921.php">Kontra&ubreve;le&gcirc;a
+          <vrk><url ref="&Monato;/2006/008921.php">Kontra&ubreve;le&gcirc;a
           kopiado</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Negativ <klr>(Film)</klr></trd>
   </snc>
 
   <snc mrk="matric.0o.GEOL">
@@ -89,7 +89,6 @@
       </ekz>
     </dif>
   </snc>
-
   <snc mrk="matric.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
@@ -99,11 +98,10 @@
       <ekz>
         en lineara algebro, determinanto estas funkcio kiu asociigas 
         skalaron <frm am="det(A)"><k>det</k>(<k>A</k>)</frm> al &ccirc;iu
-        <frm am="n xx n"><k>n</k>&#215;<k>n</k></frm> kvadrata <tld/>o
+        <frm am="n xx n"><k>n</k>×<k>n</k></frm> kvadrata <tld/>o
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=87309">Determinanto</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=87309">Determinanto</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -112,13 +110,12 @@
         elementoj kiu estas egala al sia konjugita transpono
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=244473">Memadjunkta
+          <lok><url ref="https://eo.wikipedia.org/?curid=244473">Memadjunkta
           matrico</url></lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="dif" cel="matric.n_p0o">(n,p)-<tld/>o.</ref>
+    <ref tip="sin" cel="matric.n_p0o">(n,p)-<tld/>o</ref>
     <trd lng="de">Matrix</trd>
     <trd lng="en">matrix</trd>
     <trd lng="fr">matrice</trd>
@@ -140,8 +137,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006836.html">Pri realo
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006836.html">Pri realo
           kaj la malo</url></vrk>
         </fnt>.
       </ekz>
@@ -155,6 +151,7 @@
     <ref cel="uter.0o">utero</ref>.
   </refgrp>
   <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a;</trd>
+  
   <trd lng="en">matrix</trd>
   <trd lng="es">matriz</trd>
   <trd lng="hu">m&aacute;trix</trd>
@@ -168,7 +165,7 @@
     <dif>
       Formi per <tld/>o:
       <ekz>
-        li transdonis al sinjoro Povondra vizitkarton, sur kiu estis
+        li transdonis al sinjoro <nom>Povondra</nom> vizitkarton, sur kiu estis
         <tld/>ita ankro
         <fnt><bib>Salamandroj</bib>, <lok>libro 1a, &ccirc;apitro 
         3a</lok></fnt>.
@@ -181,14 +178,13 @@
 
 <drv mrk="matric.n_p0o">
   <kap>(n,p)-<tld/>o</kap>
-  <snc>
+  <snc mrk="matric.n_p0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
-      <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb
-      K"><g>K</g></frm>) </klr>
+      <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb       K"><g>K</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm am="bb I xx bb J"><g>I</g>&#215;<g>J</g></frm> al 
+      <frm am="bb I xx bb J"><g>I</g>×<g>J</g></frm> al 
       <frm am="bb K"><g>K</g></frm>, kie
       <frm am="bb I={1,2,...,n}"><g>I</g> = {1, 2,..., <k>n</k>}</frm>
       kaj
@@ -196,12 +192,10 @@
       <ekz>
         <tld/>on <frm am="A">A</frm> oni kutime signas kiel
         <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e.
-        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb J)"
-        >(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>&#215;<g>J</g></sub></frm>,
+        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>×<g>J</g></sub></frm>,
         kie <frm am="a_(ij)">a<sub><k>i</k><k>j</k></sub></frm> signas
         la bildon de
-        <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> per <frm
-        am="A">A</frm> kaj estas nomata
+        <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> per <frm am="A">A</frm> kaj estas nomata
         elemento (a&ubreve; koeficiento) de <frm am="A">A</frm>
         kun indico <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm>;
       </ekz>
@@ -210,11 +204,10 @@
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>o oni nomas
         ties dimensioj kaj signas ilin per skriba&jcirc;o de la tipo
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm> a&ubreve;
-        <frm am="n xx p"><k>n</k>&#215;<k>p</k></frm>;
+        <frm am="n xx p"><k>n</k>×<k>p</k></frm>;
       </ekz>
       <ekz>
-        eblas prezenti al si <frm
-        am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>on
+        eblas prezenti al si <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>on
         <frm am="A">A</frm> kiel rektangulan tabelon, &ccirc;e la interkruci&gcirc;o
         de kies <frm am="i"><k>i</k></frm>-a horizontalo kaj
         <frm am="j"><k>j</k></frm>-a
@@ -279,16 +272,16 @@
   </bld>
   <trd lng="de">(n,p)-<ind>Matrix</ind></trd>
   <trd lng="en">n-by-p <ind>matrix</ind></trd>
-  <trd lng="fr">matrice n&#215;p</trd>
-  <trd lng="hu">n&#215;p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
-  <trd lng="pl">macierz n&#215;p</trd>
-  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n&#215;p</trd>
+  <trd lng="fr">matrice n×p</trd>
+  <trd lng="hu">n×p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
+  <trd lng="pl">macierz n×p</trd>
+  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n×p</trd>
 </drv>
 
 <drv mrk="matric.nul0o">
   <kap>nul<tld/>o<fnt><bib>MatVort</bib></fnt>, <var><kap><tld/>a
   nulo</kap></var></kap>
-  <snc>
+  <snc mrk="matric.nul0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <ref tip="super" cel="matric.n_p0o">(n,p)-<tld lit="M"/>o</ref>,
@@ -311,26 +304,24 @@
 
 <drv mrk="matric.sub0o">
   <kap>sub<tld/>o</kap>
-  <snc>
+  <snc mrk="matric.sub0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <ref tip="super" cel="matric.n_p0o">(n,p)-<tld/>o</ref>
       <frm am="A">A</frm>)</klr>
-      Tia <frm am="(n&#8242;,p&#8242;)"
-      >(<k>n'</k>,<k>p'</k>)</frm>-<tld/>o <frm am="B">B</frm>, ke
-      (1) <frm am="n&#8242; le n"><k>n'</k> &#8804; <k>n</k></frm> kaj
-      <frm am="p&#8242; le p"><k>p'</k> &#8804; <k>p</k></frm>,
+      Tia <frm am="(n&minute;,p&minute;)">(<k>n'</k>,<k>p'</k>)</frm>-<tld/>o <frm am="B">B</frm>, ke
+      (1) <frm am="n&minute; le n"><k>n'</k> &#8804; <k>n</k></frm> kaj
+      <frm am="p&minute; le p"><k>p'</k> &#8804; <k>p</k></frm>,
       (2) la elemento de <frm am="B">B</frm> kun indico
       <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> egalas al la elemento de
       <frm am="A">A</frm>
-      kun indico <frm
-      am="(alpha(i),beta(j))">(&alfa;(<k>i</k>),&beta;(<k>j</k>))</frm>,
+      kun indico <frm am="(alpha(i),beta(j))">(&alfa;(<k>i</k>),&beta;(<k>j</k>))</frm>,
       kie <frm am="alpha">&alfa;</frm> (respektive <frm am="beta">&beta;</frm>)
       estas strikte
       <ref cel="kresk.0anta.bildigo">kreskanta</ref> bildigo
-      de <frm am="{1,2,...,n&#8242;}">{1, 2,..., <k>n'</k>}</frm>
+      de <frm am="{1,2,...,n&minute;}">{1, 2,..., <k>n'</k>}</frm>
       al <frm am="{1,2,...,n}">{1, 2,..., <k>n</k>}</frm>
-      (respektive de <frm am="{1,2,...,p&#8242;}">{1, 2,...,
+      (respektive de <frm am="{1,2,...,p&minute;}">{1, 2,...,
       <k>p'</k>}</frm>
       al <frm am="{1,2,...,p}">{1, 2,..., <k>p</k>}</frm>):
       <ekz>
@@ -361,7 +352,7 @@
 
 <drv mrk="matric.unuo0o">
   <kap>unuo<tld/>o, <var><kap><tld/>a unuo</kap></var></kap>
-  <snc>
+  <snc mrk="matric.unuo0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <ref tip="super" cel="matric.0o.MAT">(n,p)-<tld lit="M"/>o</ref>,
@@ -394,13 +385,12 @@
 
 <drv mrk="matric.jakobia0o">
   <kap>jakobia <tld/>o</kap>
-  <snc>
+  <snc mrk="matric.jakobia0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref>
       <frm am="f"><k>f</k></frm>
-      de <frm am="p"><k>p</k></frm>-dimensia al <frm
-      am="n"><k>n</k></frm>-dimensia
+      de <frm am="p"><k>p</k></frm>-dimensia al <frm am="n"><k>n</k></frm>-dimensia
       <ref cel="spac.normohava0o">normohavaj spacoj</ref>,
       <ref cel="difere2.0ebla">diferencialebla</ref> &ccirc;e punkto
       <frm am="a"><k>a</k></frm>)</klr>
@@ -411,8 +401,7 @@
         la &gcirc;enerala elemento de la jakobia <tld/>o de
         <frm am="f"><k>f</k></frm> &ccirc;e <frm am="a"><k>a</k></frm> egalas
         al
-        <frm am="del_jf_i(a)"
-        >&#8706;<sub><k>j</k></sub><k>f</k><sub><k>i</k></sub>(<k>a</k>)</frm>.
+        <frm am="del_jf_i(a)">&#8706;<sub><k>j</k></sub><k>f</k><sub><k>i</k></sub>(<k>a</k>)</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -432,34 +421,30 @@
   <ind>&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</ind></trd>
 </drv>
 
-<drv mrk="matric.0o.homomorfio">
+<drv mrk="matric.0o_de_homomorfio">
   <kap><tld/>o de vektora homomorfio</kap>
-  <snc>
+  <snc mrk="matric.0o_de_homomorfio.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(p.p. <ref cel="homomo.0o">homomorfio</ref>
       <frm am="f"><k>f</k></frm>
       de
-      <frm am="p"><k>p</k></frm>-dimensia <ref
-      cel="spac.vektora0o">vektora
+      <frm am="p"><k>p</k></frm>-dimensia <ref cel="spac.vektora0o">vektora
       spaco</ref>
-      <frm am="bb E"><g>E</g></frm> al <frm
-      am="n"><k>n</k></frm>-dimensia
+      <frm am="bb E"><g>E</g></frm> al <frm am="n"><k>n</k></frm>-dimensia
       <frm am="bb F"><g>F</g></frm>,
       amba&ubreve; super korpo <frm am="bb K"><g>K</g></frm>, rilate al
       respektivaj
       <ref cel="baz.0o.vektoraspaco">bazoj</ref>
       <frm am="bb B_(bb E)"><g>B</g><sub><g>E</g></sub></frm>
       kaj <frm am="bb B_(bb F)"><g>B</g><sub><g>F</g></sub></frm>)</klr>
-      Tia <ref cel="matric.n_p0o">(n,p)-matrico</ref> <frm
-      am="A">A</frm>
+      Tia <ref cel="matric.n_p0o">(n,p)-matrico</ref> <frm am="A">A</frm>
       super <frm am="bb K"><g>K</g></frm>, ke
       <frm am="a_(ij)">a<sub><k>i</k><k>j</k></sub></frm>
       estas la <frm am="i"><k>i</k></frm>-a
       <ref cel="kompon.0anto.MAT">komponanto</ref>
       la&ubreve; bazo <frm am="bb B_(bb F)"><g>B</g><sub><g>F</g></sub></frm>
-      de la bildo per <frm am="f"><k>f</k></frm> de la <frm
-      am="j"><k>j</k></frm>-a
+      de la bildo per <frm am="f"><k>f</k></frm> de la <frm am="j"><k>j</k></frm>-a
       vektoro
       de <frm am="bb B_(bb E)"><g>B</g><sub><g>E</g></sub></frm>:
       <ekz>
@@ -471,8 +456,7 @@
       </ekz>
       <ekz>
         la <tld/>o de kunliga&jcirc;o de du homomorfioj egalas al la produto
-        de
-        la <tld/>oj de &ccirc;iu homomorfio.
+        de la <tld/>oj de &ccirc;iu homomorfio.
       </ekz>
     </dif>
   </snc>
@@ -487,7 +471,10 @@
 </art>
 <!--
 $Log: matric.xml,v $
-versio 1.38 2020/02/15 18:10:35
+versio 1.39 2020/04/26 20:10:22
+Wolfram Diestel: snc-mrk, germ trd
+
+Revision 1.38  2020/02/15 17:10:34  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.37  2020/02/14 23:10:47  revo
@@ -506,8 +493,5 @@ Revision 1.33  2015/08/22 14:10:20  revo
 Damien Brucker: +trd fr
 
 Revision 1.32  2015/07/04 08:37:39  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.31  2015/06/29 16:33:19  revo
 -->
 </vortaro>
