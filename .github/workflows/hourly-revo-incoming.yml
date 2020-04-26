@@ -1,0 +1,77 @@
+name: akceptu-redaktojn
+
+on:
+#  push:
+#    branches:
+#    - master  
+
+  # la tempo estas laŭ UTC, do laŭ mezeŭropa tempo tio
+  # vintre estas 23:15 kaj somere 00:15
+  #
+  # * estas speciala signo, do nepre uzu citilojn
+  schedule:
+  #- cron:  '44 09 * * *'
+  - cron:  '30 11 * * *'
+
+
+  # uzu 'access token' kun Git-arĥivo
+# https://www.innoq.com/de/blog/github-actions-automation/
+# https://github.com/ad-m/github-push-action/blob/master/start.sh
+
+jobs:
+
+  revo-redaktoj:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
+        mkdir .tmp
+        mkdir .log
+
+    - name: Saluto al docker.pkg.github.com kaj preni 'voko-afido'
+      env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
+        docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+        docker pull "docker.pkg.github.com/revuloj/voko-afido/voko-afido:latest"
+
+    - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
+      run: |
+        docker run -d --name afido \
+        -e SMTP_SERVER=smtp.strato.de  \
+        -e SMTP_USER=${{ secrets.SMTP_USER }} \
+        -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
+        -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
+        -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
+        docker.pkg.github.com/revuloj/voko-afido/voko-afido:latest 
+        sleep 10
+        docker exec -u1074 \
+        -e GIT_REPO_REVO=revo-fonto \
+        -e CGI_USER=${{ secrets.CGI_USER }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
+        -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
+        -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
+        -e SIGELILO=${{secrets.SIGELILO}} \
+        afido \
+        afido
+
+    - name: Rigardu la protokolon 
+      run: |
+        ls -l .tmp/ .log/
+
+    - name: Konservu protokolojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: log
+        path: .log
+
+    - name: Konservu la interrezultojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: tmp
+        path: .tmp
+
+        
+ 
