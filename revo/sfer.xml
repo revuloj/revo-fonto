@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sfer.xml,v 1.38 2019/01/24 12:10:13 revo Exp $">
+<art mrk="$Id: sfer.xml,v 1.39 2020/05/04 11:33:08 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>sfer</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>sfer</rad>/o <fnt><bib>DL</bib></fnt>
 </kap>
 
 <drv mrk="sfer.0o">
@@ -21,8 +21,8 @@
         <klr>(&gcirc;ia centro)</klr> egalas al iu valoro
         <klr>(&gcirc;ia radiuso)</klr>:
         <ekz>
-          la areo de <tld/>o havanta la radiuson <frm>r</frm>
-          estas <frm>4&pi;r&quadrat;</frm>;
+          la areo de <tld/>o havanta la radiuson <frm am="r">r</frm>
+          estas <frm am="4 pi r^2">4&pi;r&quadrat;</frm>;
         </ekz>
         <ekz>
           <ref tip="malprt" cel="glob.0o.sfero">globo<sncref/></ref>
@@ -55,7 +55,9 @@
     </subsnc>
     <subsnc mrk="sfer.0o.solido">
       <fnt><bib>VdE</bib></fnt>
-      <ref tip="dif" cel="glob.0o.sfero">Globo<sncref/></ref>
+      <dif>
+        <ref tip="dif" cel="glob.0o.sfero">Globo<sncref/></ref>.
+      </dif>
       <refgrp tip="prt">
         <ref cel="segmen.0o.sfero">segmento</ref>,
         <ref cel="tavol.glob0o">globtavolo</ref>,
@@ -82,10 +84,12 @@
   <snc mrk="sfer.0o.KOMUNE">
     <dif>
       &Ccirc;ia objekto pli-malpli samforma kiel <tld/>o
-      <sncref ref="sfer.0o.surfaco"/> a&ubreve; <sncref 
-        ref="sfer.0o.solido"/>:
+      <sncref ref="sfer.0o.surfaco"/> a&ubreve; <sncref ref="sfer.0o.solido"/>:
       <ekz>
-        la <ind><tld/>o &ccirc;iela</ind><fnt>Z</fnt>.
+        la <ind><tld/>o &ccirc;iela</ind>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
         <trd lng="es">esfera celeste</trd>
       </ekz>
     </dif>
@@ -115,10 +119,41 @@
       <ref tip="vid" cel="medi.0o">Medio</ref>;
       kampo de agado:
       <ekz>
-        &ccirc;iuj <tld/>oj de la homa societo<fnt>Z</fnt>;
+        mia konanto estas en la altaj <tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 16:19</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        bone konata en <tld/>oj pedagogaj lingvisto<fnt>Z</fnt>;
+        ilia vo&ccirc;o estis kiel sonorado de <klr>(&ccirc;ielaj)</klr> <tld/>oj, sed tiel spirita, ke nenia homa orelo
+        povis &gcirc;in a&ubreve;di, kiel anka&ubreve; nenia tera okulo povis vidi tiujn &ccirc;i &ccirc;ielajn
+        esta&jcirc;ojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj <tld/>oj de la homa societo
+        <fnt>
+          <bib>EE</bib>
+        </fnt>
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bone konata en <tld/>oj pedagogaj lingvisto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mallevi&gcirc;o al tiel malaltaj <tld/>oj estu &scirc;ia sorto
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
         detran&ccirc;ite de la patro kaj de la hejma <tld/>o, &scirc;i per si 
@@ -173,16 +208,22 @@
 
 <drv mrk="sfer.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="sfer.0a.rilata">
     <dif>
       Rilata al <tld/>o:
+      <ekz>
+        la situacio <tld/>a de la suno
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         <ind><tld/>aj koordinatoj</ind>.
         <trd lng="es">coordenadas esf&eacute;ricas</trd>
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="sfer.0a.havanta">
     <dif>
       Havanta formon de <tld/>o:
       <ekz>
@@ -200,6 +241,7 @@
   <trd>kulov&yacute;</trd>,
   <trd>sf&eacute;rick&yacute;</trd>
   </trdgrp>
+  <trd lng="de">sph&auml;risch</trd>
   <trd lng="es">esf&eacute;rico</trd>
   <trd lng="fr">sph&eacute;rique</trd>
   <trdgrp lng="hu">
@@ -226,11 +268,10 @@
   <snc mrk="sfer.duon0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      &Ccirc;iu el la du partoj de <ref
-      cel="sfer.0o.surfaco"><tld/>o<sncref/></ref>,
-      apartigitaj per ebeno trapasanta &gcirc;ian centron;
-      <ref tip="sin" cel="hemisf.0o.MAT">hemisfero</ref>.
+      &Ccirc;iu el la du partoj de <ref cel="sfer.0o.surfaco"><tld/>o<sncref/></ref>,
+      apartigitaj per ebeno trapasanta &gcirc;ian centron.
     </dif>
+    <ref tip="sin" cel="hemisf.0o.MAT">hemisfero</ref>
     <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_a;</trd>
   </snc>
   <snc mrk="sfer.duon0o.GEOG">
@@ -264,8 +305,7 @@
         duon<tld/>o!
         <fnt>
           <aut>D. Harlow</aut>
-          <vrk><url
-          ref="http://groups.yahoo.com/group/aeko/message/784">
+          <vrk><url ref="http://groups.yahoo.com/group/aeko/message/784">
           NovJarajn salutojn al &ccirc;iuj!</url></vrk>
           <lok>2002-01-01</lok>
         </fnt>.
@@ -287,8 +327,7 @@
         <fnt>
           <aut>J. Verne, trad. J. Wa&lstroke;aszek</aut>:
           <vrk>La mistera insulo</vrk>.
-          <lok><url
-          ref="http://www.i-lo.tarnow.pl/edu/esp/lern/jv_mi/pages/003.php">
+          <lok><url ref="http://www.i-lo.tarnow.pl/edu/esp/lern/jv_mi/pages/003.php">
           &Ccirc;apitro 3a</url></lok>
         </fnt>.
       </ekz>
@@ -296,11 +335,21 @@
     <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
   </snc>
   <snc mrk="sfer.duon0o.duonglobo">
-    <ref tip="dif" cel="glob.duon0o">duonglobo</ref>
+    <dif>
+      <ref tip="dif" cel="glob.duon0o">Duonglobo</ref>:
       <ekz>
-        la du cerbaj duon<tld/>oj
+        la du cerbaj duon<tld/>oj:
         <fnt><bib>BonaLingvo</bib>, <lok>&ccirc;apitro 2a</lok></fnt>
       </ekz>
+      <ekz>
+        nia dekstra cerba duon<tld/>o enhavas, en sia paradiza parto, grandegan
+        potencialon da plezuro
+        <fnt>
+          <aut>Claude Piron</aut>
+          <vrk><url ref="https://medium.com/esperantoperm/claude-piron-esperanto-kaj-ties-perspektivoj-in-2005-abeb5887c16b">Esperanto kaj ties perspektivoj in 2005</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
     <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_sh;&c_a;&c_r;&c_i;&c_je;</trd>
   </snc>
   <adm>
@@ -340,7 +389,7 @@
       <ekz>
         kupolo <klr>[estas]</klr> duon<tld/>a konstruo en formo de
         renversita kaliko
-        <fnt><bib>PIV2</bib> <lok>art. &#171;kupolo&#187;</lok></fnt>.
+        <fnt><bib>PIV2</bib> <lok>art. «kupolo»</lok></fnt>.
       </ekz>
     </dif>
     <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; </trd>
@@ -361,6 +410,7 @@
     <trd>semiesf&egrave;ric</trd>,
     <trd>hemisf&egrave;ric</trd>
   </trdgrp>
+  <trd lng="de">halbkugelf&ouml;rmig</trd>
   <trd lng="el">&eta;&my;&jota;&sigma;&phi;&alfa;&jota;&rho;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
   <trdgrp lng="en">
     <trd>hemispheric</trd>,
@@ -376,19 +426,32 @@
     <dif>
       Spaco, teritorio, tra kiu regas iu influo:
       <ekz>
+        interesoj de grandaj &scirc;tatoj Usono, Rusio kaj &Ccirc;inio, kiuj luktas por plivastigi
+        sian influ<tld/>on, &gcirc;is nun bremsas la reformprojekton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2005/008797.php">Jubileo sen pompo</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         Francio perforte okupis la Guang&gcirc;o&ubreve;-an Golfon kaj prenis la 
-        provincojn Junnan, Guangdong kaj Guanghi kiel sian 
+        provincojn <nom>Junnan</nom>, <nom>Guangdong</nom> kaj <nom>Guanghi</nom> kiel sian 
         influ<tld/>on
         <fnt>
           <aut>Liu Caisheng, Niu Xueqin</aut>
-          <vrk><url
-          ref="http://www.espero.com.cn/2013-09/23/content_30104991.htm">
+          <vrk><url ref="http://www.espero.com.cn/2013-09/23/content_30104991.htm">
           La moderniga movado de 1898</url></vrk>
           <lok>El Popola &Ccirc;inio, 2013-09-23</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>Einflusssph&auml;re</trd>,
+    <trd>Einflussgebiet</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>pr&eacute; carr&eacute;<klr> (fig.)</klr></trd>,
     <trd>zone d'influence</trd>
@@ -402,7 +465,7 @@
       Amplekso, tuto de la pensoj a&ubreve; pensotemoj
       atingeblaj de spirito:
       <ekz>
-        nun <klr>...</klr> li havas okazon multe pensi
+        nun <klr>[&#8230;]</klr> li havas okazon multe pensi
         kaj disetendi la penso<tld/>on
         <fnt>
           <aut>J. Francis</aut>
@@ -412,6 +475,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>Geistessph&auml;re</trd>,
+    <trd>Gedankenwelt</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>domaine de la pens&eacute;e</trd>,
     <trd>noosph&egrave;re</trd>
@@ -422,19 +489,25 @@
   <kap>vido<tld/>o</kap>
   <snc mrk="sfer.vido0o.FOT">
     <uzo tip="fak">FOT</uzo>
-    <ref tip="dif" cel="kamp.vid0o.KOMUNE">vidkampo</ref>
+   <dif>
+     <ref tip="dif" cel="kamp.vid0o.KOMUNE">Vidkampo</ref>:
       <ekz>
         kaj tamen li foriris!... la figuro |
         sin ka&scirc;is for de mia vido<tld/>o...
         <fnt>
           <aut>C. Alves, trad. L. H. Knoedt</aut>
-          <vrk><url
-          ref="http://lingvointernacia.com/libroj/Elektitaj_Poemoj_-_Castro_Alves.pdf">
+          <vrk><url ref="http://lingvointernacia.com/libroj/Elektitaj_Poemoj_-_Castro_Alves.pdf">
           Elektitaj Poemoj</url></vrk>
           <lok>1959</lok>
         </fnt>
       </ekz>
+    </dif>
+    <ref tip="vid" cel="horizo.0o">horizonto</ref>
   </snc>
+  <trdgrp lng="de">
+    <trd>Sichtfeld</trd>,
+    <trd>Horizont</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>champ de vision</trd>,
     <trd>vue<klr> (champ de vision)</klr></trd>
@@ -443,6 +516,9 @@
 </art>
 <!--
 $Log$
+versio 1.39 2020/05/04 11:33:08
+Wolfram Diestel: ekz-oj, germ trd-oj, sintakso
+
 Revision 1.37  2017/10/25 14:10:13  revo
 Jeromo Vasxe: + influ/penso/vido~o
 
