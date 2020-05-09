@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: multip.xml,v 1.42 2020/02/15 18:10:33 revo Exp $">
+<art mrk="$Id: multip.xml,v 1.43 2020/05/08 11:32:49 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>multiplik</rad>/i <fnt><bib>PV</bib></fnt>
@@ -19,16 +19,48 @@
       <frm am="n"><k>n</k></frm>) </klr>
       <ref cel="adici.0i">Adicii</ref> <frm am="n"><k>n</k></frm>
       ekzemplerojn
-      de la nombro <frm am="q"><k>q</k></frm> :
+      de la nombro <frm am="q"><k>q</k></frm>:
       <ekz>
         <tld/>ante <frm>5</frm> per <frm>3</frm> oni ricevas
-        <frm>15</frm>.
+        <frm>15</frm>;
+      </ekz>
+      <ekz>
+        se <tld/>i tiujn 40 cendojn per 3000 miliardoj, ni vidas, ke la kosto estas 1200
+        miliardoj por la tuta generacio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="https://www.monato.be/2013/010913.php"
+              >De la gepatroj lernu!</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akumuli&gcirc;o de riskaj faktoroj havas ne suman, sed <tld/>an efikon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/011124.php"
+              >Atentu la koron</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        klimata transformi&gcirc;o funkcios kiel &leftquot;<tld/>ilo&rightquot; a&ubreve; &leftquot;akcelilo&rightquot; de minacoj koncerne
+        al konfliktoj kaj nestabileco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenio Marobin</aut>
+          <vrk><url ref="https://www.monato.be/2014/011272.php"
+              >Klimata &scirc;an&gcirc;i&gcirc;o kaj konfliktoj: kia interrilato?</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
       En nefaka kunteksto oni povas diri <ctl>multobligi</ctl>
-anstata&ubreve;
-      <ctl><tld/>i</ctl>.
+      anstata&ubreve; <ctl><tld/>i</ctl>.
     </rim>
     <refgrp tip="sin">
       <ref cel="obl.mult0igi.multipliki">multobligi</ref>,
@@ -38,7 +70,7 @@ anstata&ubreve;
   </snc>
   <snc mrk="multip.0i.neelemente">
     <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
-    <uzo tip="klr">(pli &gcirc;enerale)</uzo>
+    <uzo tip="klr"> (pli &gcirc;enerale)</uzo>
     <dif>
       Plenumi la operacion
       <ref cel="multip.0o.neelementa"><tld/>o <sncref/></ref>:
@@ -81,9 +113,19 @@ anstata&ubreve;
     <dif>
       La operacio <ref cel="multip.0i">multipliki</ref>:
       <ekz>
-        <frm am="3*7=21">3&#215;7 = 21</frm> <klr> (legu: trioble sep estas
-        dudek
-        unu, a&ubreve; tri multiplikite per sep estas dudek unu)</klr>.
+        <frm am="3*7=21">3×7 = 21</frm> <klr> (legu: trioble sep estas
+        dudek unu, a&ubreve; tri multiplikite per sep estas dudek unu)</klr>;
+      </ekz>
+      <ekz>
+        se via filo ne scipovas solvi la multiplikon <frm am="6×8">6×8</frm>, ne
+        ripro&ccirc;u lin: tiu estas la plej komplika <tld/>o por la infanoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011217.php"
+              >Nekovrilaj malkovroj</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -140,10 +182,8 @@ anstata&ubreve;
       </dif>
     </subsnc>
     <subsnc mrk="multip.0o.de_matricoj">
-      <dif>
-        <klr>(de matricoj)</klr>
-      </dif>
-      <ref tip="dif" cel="multip.matrica0o">matrica <tld/>o.</ref>
+      <uzo tip="klr">(de matricoj)</uzo>
+      <ref tip="dif" cel="multip.matrica0o">matrica <tld/>o</ref>
     </subsnc>
   </snc>
   <refgrp tip="vid">
@@ -174,7 +214,7 @@ anstata&ubreve;
   <kap><tld/>anto</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="multip.0anto.nombro">
     <dif>
       Nombro, per kiu oni <ref cel="multip.0i"><tld/>as</ref> alian
       nombron.
@@ -204,7 +244,7 @@ anstata&ubreve;
   <kap><tld/>ato</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="multip.0ato.nombro">
     <dif>
       Nombro, kiun oni <ref cel="multip.0i"><tld/>as</ref> per alia
       nombro.
@@ -241,7 +281,7 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
 <drv mrk="multip.matrica0o">
   <kap>matrica <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="multip.matrica0o.MAT">
     <dif>
       <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> 
       <frm am="A">A</frm> per
@@ -291,7 +331,7 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
 <drv mrk="multip.polinoma0o">
   <kap>polinoma <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="multip.polinoma0o.operacio">
     <dif>
       Dua <ref tip="super" cel="operac.0o.MAT">operacio</ref> en
       <ref cel="ring.polinom0o">polinom-ringo</ref>:
@@ -329,8 +369,11 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
 </drv>
 </art>
 <!--
-$Log: multip.xml,v $
-versio 1.42 2020/02/15 18:10:33
+$Log$
+versio 1.43 2020/05/08 11:32:49
+Wolfram Diestel: +ekz-oj, snc-mrk
+
+Revision 1.42  2020/02/15 17:10:32  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.41  2018/08/06 22:10:56  revo
@@ -349,8 +392,5 @@ Revision 1.37  2012/08/04 10:10:10  revo
 Marc Rausell: + trd ca
 
 Revision 1.36  2006/08/16 19:53:47  revo
-Tulio Flores: +tr pt
-
-Revision 1.35  2004/11/23 17:31:28  revo
 -->
 </vortaro>

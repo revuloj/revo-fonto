@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: matric.xml,v 1.38 2020/02/15 18:10:35 revo Exp $">
+<art mrk="$Id: matric.xml,v 1.40 2020/04/29 06:10:15 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>matric</rad>/o
-  <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="matric.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
@@ -48,8 +48,8 @@
       <trd lng="nl">matrijs</trd>
       <trd lng="pt">matriz</trd>
     </subsnc>
-    <trd lng="hu">matrica <klr
-    tip="amb">(alak&iacute;t&oacute;szersz&aacute;m)</klr></trd>
+    <trd lng="de">Matrize</trd>
+    <trd lng="hu">matrica <klr tip="amb">(alak&iacute;t&oacute;szersz&aacute;m)</klr></trd>
     <trd lng="nl">matrijs</trd>
     <trd lng="pt">matriz</trd>
   </snc>
@@ -66,12 +66,12 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Fidilalao Henriel</aut>
-          <vrk><url
-          ref="&Monato;/2006/008921.php">Kontra&ubreve;le&gcirc;a
+          <vrk><url ref="&Monato;/2006/008921.php">Kontra&ubreve;le&gcirc;a
           kopiado</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Negativ <klr>(Film)</klr></trd>
   </snc>
 
   <snc mrk="matric.0o.GEOL">
@@ -89,7 +89,6 @@
       </ekz>
     </dif>
   </snc>
-
   <snc mrk="matric.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PIV1</bib></fnt>
@@ -118,7 +117,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="dif" cel="matric.n_p0o">(n,p)-<tld/>o.</ref>
+    <ref tip="sin" cel="matric.n_p0o">(n,p)-<tld/>o</ref>
     <trd lng="de">Matrix</trd>
     <trd lng="en">matrix</trd>
     <trd lng="fr">matrice</trd>
@@ -155,6 +154,7 @@
     <ref cel="uter.0o">utero</ref>.
   </refgrp>
   <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a;</trd>
+  
   <trd lng="en">matrix</trd>
   <trd lng="es">matriz</trd>
   <trd lng="hu">m&aacute;trix</trd>
@@ -168,7 +168,8 @@
     <dif>
       Formi per <tld/>o:
       <ekz>
-        li transdonis al sinjoro Povondra vizitkarton, sur kiu estis
+        li transdonis al sinjoro <nom>Povondra</nom> vizitkarton, sur
+        kiu estis
         <tld/>ita ankro
         <fnt><bib>Salamandroj</bib>, <lok>libro 1a, &ccirc;apitro 
         3a</lok></fnt>.
@@ -181,11 +182,11 @@
 
 <drv mrk="matric.n_p0o">
   <kap>(n,p)-<tld/>o</kap>
-  <snc>
+  <snc mrk="matric.n_p0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
-      <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb
+      <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb      
       K"><g>K</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
       <frm am="bb I xx bb J"><g>I</g>&#215;<g>J</g></frm> al 
@@ -196,8 +197,8 @@
       <ekz>
         <tld/>on <frm am="A">A</frm> oni kutime signas kiel
         <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e.
-        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb J)"
-        >(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>&#215;<g>J</g></sub></frm>,
+        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb
+        J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>&#215;<g>J</g></sub></frm>,
         kie <frm am="a_(ij)">a<sub><k>i</k><k>j</k></sub></frm> signas
         la bildon de
         <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> per <frm
@@ -268,7 +269,7 @@
       Specifaj matricoj:
       <ref cel="matric.unuo0o">unuo<tld/>o</ref>,
       <ref cel="matric.nul0o">nul<tld/>o</ref>,
-      <ref cel="matric.0o.homomorfio"><tld/>o de homomorfio</ref>,
+      <ref cel="matric.0o_de_homomorfio"><tld/>o de homomorfio</ref>,
       <ref cel="matric.jakobia0o">jakobia <tld/>o de bildigo</ref>,
       <ref cel="horizo1.0o.matrico">horizontalo</ref>,
       <ref cel="vertik.0o.matrico">vertikalo</ref>.
@@ -288,7 +289,7 @@
 <drv mrk="matric.nul0o">
   <kap>nul<tld/>o<fnt><bib>MatVort</bib></fnt>, <var><kap><tld/>a
   nulo</kap></var></kap>
-  <snc>
+  <snc mrk="matric.nul0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <ref tip="super" cel="matric.n_p0o">(n,p)-<tld lit="M"/>o</ref>,
@@ -311,15 +312,16 @@
 
 <drv mrk="matric.sub0o">
   <kap>sub<tld/>o</kap>
-  <snc>
+  <snc mrk="matric.sub0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <ref tip="super" cel="matric.n_p0o">(n,p)-<tld/>o</ref>
       <frm am="A">A</frm>)</klr>
-      Tia <frm am="(n&#8242;,p&#8242;)"
-      >(<k>n'</k>,<k>p'</k>)</frm>-<tld/>o <frm am="B">B</frm>, ke
-      (1) <frm am="n&#8242; le n"><k>n'</k> &#8804; <k>n</k></frm> kaj
-      <frm am="p&#8242; le p"><k>p'</k> &#8804; <k>p</k></frm>,
+      Tia <frm
+      am="(n&minute;,p&minute;)">(<k>n'</k>,<k>p'</k>)</frm>-<tld/>o
+      <frm am="B">B</frm>, ke
+      (1) <frm am="n&minute; le n"><k>n'</k> &#8804; <k>n</k></frm> kaj
+      <frm am="p&minute; le p"><k>p'</k> &#8804; <k>p</k></frm>,
       (2) la elemento de <frm am="B">B</frm> kun indico
       <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> egalas al la elemento de
       <frm am="A">A</frm>
@@ -328,9 +330,9 @@
       kie <frm am="alpha">&alfa;</frm> (respektive <frm am="beta">&beta;</frm>)
       estas strikte
       <ref cel="kresk.0anta.bildigo">kreskanta</ref> bildigo
-      de <frm am="{1,2,...,n&#8242;}">{1, 2,..., <k>n'</k>}</frm>
+      de <frm am="{1,2,...,n&minute;}">{1, 2,..., <k>n'</k>}</frm>
       al <frm am="{1,2,...,n}">{1, 2,..., <k>n</k>}</frm>
-      (respektive de <frm am="{1,2,...,p&#8242;}">{1, 2,...,
+      (respektive de <frm am="{1,2,...,p&minute;}">{1, 2,...,
       <k>p'</k>}</frm>
       al <frm am="{1,2,...,p}">{1, 2,..., <k>p</k>}</frm>):
       <ekz>
@@ -361,7 +363,7 @@
 
 <drv mrk="matric.unuo0o">
   <kap>unuo<tld/>o, <var><kap><tld/>a unuo</kap></var></kap>
-  <snc>
+  <snc mrk="matric.unuo0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <ref tip="super" cel="matric.0o.MAT">(n,p)-<tld lit="M"/>o</ref>,
@@ -394,7 +396,7 @@
 
 <drv mrk="matric.jakobia0o">
   <kap>jakobia <tld/>o</kap>
-  <snc>
+  <snc mrk="matric.jakobia0o.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <ref cel="bild.0igo.MAT">bildigo</ref>
@@ -404,15 +406,16 @@
       <ref cel="spac.normohava0o">normohavaj spacoj</ref>,
       <ref cel="difere2.0ebla">diferencialebla</ref> &ccirc;e punkto
       <frm am="a"><k>a</k></frm>)</klr>
-      La <ref tip="super" cel="matric.0o.homomorfio">(n,p)-<tld/>o</ref>
+      La <ref tip="super"
+      cel="matric.0o_de_homomorfio">(n,p)-<tld/>o</ref>
       de &gcirc;ia <ref cel="difere2.0o.cxepunkto">diferencialo</ref>
       &ccirc;e <frm am="a"><k>a</k></frm>:
       <ekz>
         la &gcirc;enerala elemento de la jakobia <tld/>o de
         <frm am="f"><k>f</k></frm> &ccirc;e <frm am="a"><k>a</k></frm> egalas
         al
-        <frm am="del_jf_i(a)"
-        >&#8706;<sub><k>j</k></sub><k>f</k><sub><k>i</k></sub>(<k>a</k>)</frm>.
+        <frm
+        am="del_jf_i(a)">&#8706;<sub><k>j</k></sub><k>f</k><sub><k>i</k></sub>(<k>a</k>)</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -432,9 +435,9 @@
   <ind>&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</ind></trd>
 </drv>
 
-<drv mrk="matric.0o.homomorfio">
+<drv mrk="matric.0o_de_homomorfio">
   <kap><tld/>o de vektora homomorfio</kap>
-  <snc>
+  <snc mrk="matric.0o_de_homomorfio.MAT">
   <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(p.p. <ref cel="homomo.0o">homomorfio</ref>
@@ -471,8 +474,7 @@
       </ekz>
       <ekz>
         la <tld/>o de kunliga&jcirc;o de du homomorfioj egalas al la produto
-        de
-        la <tld/>oj de &ccirc;iu homomorfio.
+        de la <tld/>oj de &ccirc;iu homomorfio.
       </ekz>
     </dif>
   </snc>
@@ -487,7 +489,13 @@
 </art>
 <!--
 $Log: matric.xml,v $
-versio 1.38 2020/02/15 18:10:35
+versio 1.40 2020/04/29 06:10:15
+Wolfram Diestel: kor. ref-cel
+
+versio 1.39 2020/04/26 20:10:22
+Wolfram Diestel: snc-mrk, germ trd
+
+Revision 1.38  2020/02/15 17:10:34  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.37  2020/02/14 23:10:47  revo
@@ -503,11 +511,5 @@ Revision 1.34  2017/12/14 20:10:14  revo
 Wolfram Diestel: +snc FOT, GEOL
 
 Revision 1.33  2015/08/22 14:10:20  revo
-Damien Brucker: +trd fr
-
-Revision 1.32  2015/07/04 08:37:39  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.31  2015/06/29 16:33:19  revo
 -->
 </vortaro>

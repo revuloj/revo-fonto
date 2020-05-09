@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pac.xml,v 1.50 2019/07/06 09:10:54 revo Exp $">
+<art mrk="$Id: pac.xml,v 1.55 2020/05/08 11:32:48 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>pac</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -49,7 +49,7 @@
       </ekz>
       <ekz>
         <ind><tld/>o al lia cindro</ind>
-        (<ref tip="vid" cel="ripoz.0i">ripozi</ref>)
+        <klr>(vd <ref tip="vid" cel="ripoz.0i">ripozi</ref>)</klr>
         <trd lng="hu">b&eacute;ke poraira</trd>
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
@@ -86,7 +86,7 @@
   <trd lng="fa">&a_S;&a_l;&a_H;</trd>
   <trd lng="fi">rauha</trd>
   <trd lng="fr">paix</trd>
-  <trd lng="fo">fri&#240;ur</trd>
+  <trd lng="fo">friður</trd>
   <trd lng="fy">frede</trd>
   <trd lng="ga">s&iacute;och&aacute;in</trd>
   <trd lng="gl">paz</trd>
@@ -94,8 +94,8 @@
   <trd lng="hi">&#2358;&#2366;&#2344;&#2381;&#2340;&#2367; [<ind>&sacute;&#257;nti</ind>]</trd>
   <trd lng="hr">mir</trd>
   <trd lng="hu">b&eacute;ke</trd>
-  <trd lng="id">[<ind>damai</ind>] kedamaian</trd>
-  <trd lng="is">fri&#240;ur</trd>
+  <trd lng="id">kedamaian</trd>
+  <trd lng="is">friður</trd>
   <trd lng="it">pace</trd>
   <trd lng="nl">vrede</trd>
   <trdgrp lng="pt">
@@ -141,10 +141,17 @@
     <dif>
       Ne malkvietiganta la animon:
       <ekz>
-        <tld/>a nokto;
+        nokto sankta, nokto <tld/>a
+        <fnt>
+          <vrk><url ref="https://lernu.net/ru/forumo/temo/394"
+              >Nokto Sankta, Nokto Paca</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        en la <tld/>a silento ne blovas e&ccirc; vento<fnt>Z</fnt>;
+        <tld/>a silento, ke ne blovas e&ccirc; vento
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
         estis trankvile kaj <tld/>e en la buduareto 
@@ -161,7 +168,11 @@
     <dif>
       Celanta <tld/>on:
       <ekz>
-        ni ne laci&gcirc;os en nia <tld/>a laboro<fnt>Z</fnt>.
+        nia diligenta kolegaro en laboro <tld/>a ne laci&gcirc;os
+        <fnt>
+          <aut>L. L. Zamenhof</aut>
+          <vrk>La Espero</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="he">&shin;&vav;&het;&resh; &shin;&lamed;&vav;&fmem;</trd>
@@ -243,9 +254,10 @@
 <drv mrk="pac.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="pac.0igi.akordigi">
     <dif>
-      Fari, ke iu a&ubreve; io restu <tld/>a, akordigi: 
+      Fari, ke iu a&ubreve; io restu <tld/>a, <ref
+      cel="akord.0igi">akordigi</ref>: 
       <ekz>
         Li e&ccirc; liajn malamikojn <tld/>igas kun li 
         <fnt><bib>MT</bib>, <lok>&Sen; 16:7</lok></fnt>;
@@ -255,13 +267,17 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        <tld/>igi la logikon kun la tradicio<fnt>Z</fnt>.
+        <tld/>igi la logikon kun la tradicio
+        <fnt>
+          <bib>LR</bib>
+          <lok>2. Transskribo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="he">&lamed;&he;&shin;&lamed;&yod;&fmem; 
 \<ind>&shin;&lamed;&fmem;</ind>\</trd>
   </snc>
-  <snc>
+  <snc mrk="pac.0igi.denove">
      <dif>
        Fari ke iu a&ubreve; io estu denove <tld/>a:
        <ekz>
@@ -338,10 +354,13 @@
         se vi <klr>[...]</klr> memoras, ke via frato havas ion kontra&ubreve;
         vi, lasu tie vian oferon anta&ubreve; la altaro, kaj foriru, unue 
         <tld/>i&gcirc;u kun via frato 
-        <fnt><bib>NT</bib>, <lok>&Mat; 5:23-24</lok></fnt>.
+        <fnt><bib>NT</bib>, <lok>&Mat; 5:23-24</lok></fnt>;
       </ekz>
       <ekz>
-        venas <tld/>i&gcirc;o post mal<tld/>o<fnt>Z</fnt>; 
+        venas <klr>[&#8230;]</klr> <tld/>i&gcirc;o post mal<tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>; 
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -439,14 +458,36 @@
 <drv mrk="pac.0isto">
   <kap><tld/>isto</kap>
   <snc mrk="pac.0isto.POL">
-    <ref tip="dif" cel="pacifi1.0o">pacifisto</ref>
-    <ekz>
-      internaciistoj, <tld/>istoj, homaramantoj celas forigi el la mondo
-      
-      la militon
-      <fnt><bib>Lanti</bib>, <lok>&rightquot;Liberiga Stelo&#8221; al la 
-      Verdru&gcirc;uloj, celo kaj rimedoj</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="pacifi1.0o">Pacifisto</ref>:
+      <ekz>
+        internaciistoj, <tld/>istoj, homaramantoj celas forigi el la mondo      
+        la militon
+        <fnt><bib>Lanti</bib>, <lok>&rightquot;Liberiga Stelo&#8221; al la 
+          Verdru&gcirc;uloj, celo kaj rimedoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi estas same pacisto kaj kontra&ubreve; la militoj <klr>[&#8230;]</klr> mi hontas pro krimoj
+        faritaj de kroatoj en la lasta milito
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006811.html"
+              >Reago: Nekredeblaj malveroj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        apogante israelajn <tld/>istojn, iuj povas aserti, ke la israela &scirc;tato subpremas
+        la palestinan popolon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Daniel Houguet</aut>
+          <vrk><url ref="https://www.monato.be/2004/008355.html"
+              >Rezultas interesaj debatoj</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_c;&c_y;&c_f;&c_ib;&c_s;&c_t;</trd>
   <trd lng="ca">pacifista</trd>
@@ -481,7 +522,18 @@
       <ekz>
         naski&gcirc;os balda&ubreve; la serena tago de &gcirc;enerala inter<tld/>i&gcirc;o
         <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
-        fratoj</vrk>, <lok>1947</lok></fnt>.
+        fratoj</vrk>, <lok>1947</lok></fnt>;
+      </ekz>
+      <ekz>
+        tio <klr>[&#8230;]</klr> povus montri vojon al inter<tld/>i&gcirc;o kun judismo kaj islamo,
+        kiuj amba&ubreve; ja ege emfazas la unuecon de Dio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2011/010364.php"
+              >Mikaelo Serveto (1511-1553) 500-jara</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -501,7 +553,14 @@
       <ekz>
         episkopo devas esti sen ripro&ccirc;o, <klr>[...]</klr> ne kolerema, 
         ne drinkema, ne mal<tld/>ema 
-        <fnt><bib>NT</bib>, <lok>&Tit; 1:7</lok></fnt>.
+        <fnt><bib>NT</bib>, <lok>&Tit; 1:7</lok></fnt>;
+      </ekz>
+      <ekz>
+        mal<tld/>emulo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 29:24</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -677,8 +736,9 @@ e&ccirc; sange, &ndash;
     <dif>
       Stato de malakordoj inter homoj a&ubreve; homgrupoj: 
       <ekz>
-        estis mal<tld/>o inter la pa&scirc;tistoj de la brutaro de Abram kaj 
-        la pa&scirc;tistoj de la brutaro de Lot 
+        estis mal<tld/>o inter la pa&scirc;tistoj de la brutaro de
+        <nom>Abram</nom> kaj 
+        la pa&scirc;tistoj de la brutaro de <nom>Lot</nom> 
         <fnt><bib>MT</bib>, <lok>&Gen; 13:7</lok></fnt>;
       </ekz>
       <ekz>
@@ -745,11 +805,34 @@ rabado kaj perfortado estas anta&ubreve; mi, levi&gcirc;as disputoj kaj
       Post mal<tld/>o estigi denove <tld/>on
       inter homoj: 
       <ekz>
-        mi re<tld/>igos vin kun Herhor 
-        <fnt><bib>Far3</bib>, <lok>&ccirc;apitro 16a</lok></fnt>;
+        li deziris re<tld/>igi ilin, dirante: ho viroj, vi estas fratoj
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 7:26</lok>
+        </fnt>;
       </ekz>
       <ekz>
-vi devas re<tld/>igi Serpentdion, kaj li deprenos la malbenon de sur vi
+        malsa&gcirc;ulo mal<tld/>igis kaj dek sa&gcirc;uloj re<tld/>igi ne povas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        timu lupon edukitan kaj malamikon re<tld/>igitan
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vorto re<tld/>iga
+        <fnt>
+          <bib>NT</bib>
+          <lok>II. Korintanoj 5:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi devas re<tld/>igi Serpentdion, kaj li deprenos la malbenon de
+        sur vi
         <fnt><bib>SatirRak</bib>, <lok>la guarbo</lok></fnt>.
       </ekz>
     </dif>
@@ -784,7 +867,22 @@ vi devas re<tld/>igi Serpentdion, kaj li deprenos la malbenon de sur vi
     <dif>
       I&gcirc;i denove <tld/>a, rebonigi siajn interrilatojn:
       <ekz>
-        ili <klr>...</klr> etendas al siaj anta&ubreve;aj malamikoj la manon 
+        Dio re<tld/>i&gcirc;is kun la tero
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 21:14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        restis al mi ankora&ubreve; io, por kio mi povas re<tld/>i&gcirc;i kun la
+        ofenditaj le&gcirc;oj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <klr>[&#8230;]</klr> etendas al siaj anta&ubreve;aj malamikoj la manon 
         de re<tld/>i&gcirc;o
         <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
         fratoj</vrk>, <lok>1947</lok></fnt>.
@@ -797,6 +895,12 @@ vi devas re<tld/>igi Serpentdion, kaj li deprenos la malbenon de sur vi
 </art>
 <!--
 $Log$
+versio 1.55 2020/05/08 11:32:48
+Wolfram Diestel: +ekz: mal~emulo
+
+versio 1.54 2020/05/07 11:32:57
+Wolfram Diestel: ~isto, ~igxo: ekz-oj
+
 Revision 1.49  2019/07/04 14:10:26  revo
 Aleks Andre: hi: prononcado en -ind- por la indekso
 
@@ -812,9 +916,5 @@ Michel Cantigneaux: tradukoj en la angla
 Revision 1.45  2016/08/23 23:10:17  revo
 Carlos Garcia: +trd af ar az bn bo br cy da el et eu fa fi fo fy ga gl
 hi hr is ro
-
-Revision 1.44  2016/02/28 18:10:37  revo
-Wolfram Diestel: riparo: snc forighis per skripto de Laer pro
-interlokita traduko
 -->
 </vortaro>
