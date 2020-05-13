@@ -60,6 +60,7 @@ jobs:
     - name: Rigardu la protokolon 
       run: |
         ls -l .tmp/ .log/
+        echo "::set-output name=KONFIRMO::$(grep -l '\"konfirmo\"'.log/mail_sent*)"        
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
@@ -74,4 +75,109 @@ jobs:
         path: .tmp
 
         
+  revo-aktualigo:
+    needs: revo-redaktoj
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: rezulto de revo-redaktoj
+      run: |
+        echo "REZULTO: ${{needs.revo-redaktoj.outputs.KONFIRMO}}"
+
+    - uses: actions/github-script@0.4.0
+      if: needs.revo-redaktoj.outputs.KONFIRMO
+      name: Eltrovu la pozicion de marko 'hora-formiko'
+      id: trovu_horan_formikon
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+          const ref = await github.git.getRef({...context.repo, ref: 'tags/hora-formiko'})
+          const sha = ref.data.object.sha
+          console.log('hora-formiko estas ĉe: '+sha)
+          console.log('::set-output name=sha_hf::'+sha)
+
+    - uses: actions/github-script@0.4.0
+      if: needs.revo-redaktoj.outputs.KONFIRMO
+      name: Eltrovu la nunan pozicion (kapo)
+      id: trovu_kapon
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+          const ref = await github.git.getRef({...context.repo, ref: 'heads/master'})
+          const sha = ref.data.object.sha
+          console.log('heads/master estas ĉe: '+sha)
+          console.log('::set-output name=sha_hm::'+sha)
+
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
+        mkdir .tgz
+        mkdir .log
+
+    # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
+    # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
+    - name: Saluto al docker.pkg.github.com kaj preni voko-formiko
+      if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
+      env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
+        docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+        docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
+
+    - name: Aktualigu la artikolojn redaktitajn de hora-formiko ĝis HEAD
+      if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
+      run: docker run -u1001
+        -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
+        -e FTP_SERVER=cyberwebserver-21.de
+        -e FTP_USER=${{ secrets.FTP_USER }}
+        -e FTP_PASSWD=${{ secrets.FTP_PASSWD }}
+        -e CGI_SERVER=reta-vortaro.de
+        -e CGI_USER=${{ secrets.CGI_USER }}
+        -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
+        -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
+        -v $GITHUB_WORKSPACE/.log:/home/formiko/log
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
+        -Dsha1=${{ steps.trovu_horan_formikon.outputs.sha_hf }} 
+        -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }} 
+        srv-servo-github-hore
+
+    - name: Rigardu la rezulton
+      run: |
+        #tar -czf revo.tgz $GITHUB_WORKSPACE/revo
+        ls -l .tgz/ .log/
+
+    - name: Konservu rezultintajn arĥivojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: tgz
+        path: .tgz
+
+    - name: Konservu protokolojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: log
+        path: .log        
+
+    - uses: actions/github-script@0.4.0
+      if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
+      name: Movu antaŭen la formikon
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        debug: true
+        script: |
+          var result = {};
+          try {
+            result = await github.git.updateRef({  
+              owner: context.repo.owner,
+              repo: context.repo.repo,            
+              sha: '${{ steps.trovu_kapon.outputs.sha_hm }}',
+              ref: 'tags/hora-formiko',
+              force: true })
+          } catch(error) {
+            console.log("ERROR:");
+          }
+          console.log("RESULT...")
+          console.log(result)        
  
