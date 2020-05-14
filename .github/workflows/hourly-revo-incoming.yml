@@ -60,7 +60,7 @@ jobs:
     - name: Rigardu la protokolon 
       run: |
         ls -l .tmp/ .log/
-        echo "::set-output name=KONFIRMO::$(grep -l '\"konfirmo\"'.log/mail_sent*)"        
+        echo "::set-output name=KONFIRMO::$(grep -l '\"konfirmo\"' .log/mail_sent*)"        
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
