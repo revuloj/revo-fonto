@@ -22,9 +22,10 @@ jobs:
 
   revo-redaktoj:
     runs-on: ubuntu-latest
+    outputs:
+      KONFIRMO: ${{ steps.rigardu_protokolon.outputs.KONFIRMO }}
 
     steps:
-
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
         mkdir .tmp
@@ -58,6 +59,7 @@ jobs:
         afido
 
     - name: Rigardu la protokolon 
+      id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
         echo "::set-output name=KONFIRMO::$(grep -l '\"konfirmo\"' .log/mail_sent*)"        
@@ -77,16 +79,12 @@ jobs:
         
   revo-aktualigo:
     needs: revo-redaktoj
+    if: ${{needs.revo-redaktoj.outputs.KONFIRMO}}
     runs-on: ubuntu-latest
 
     steps:
 
-    - name: rezulto de revo-redaktoj
-      run: |
-        echo "REZULTO: ${{needs.revo-redaktoj.outputs.KONFIRMO}}"
-
     - uses: actions/github-script@0.4.0
-      if: needs.revo-redaktoj.outputs.KONFIRMO
       name: Eltrovu la pozicion de marko 'hora-formiko'
       id: trovu_horan_formikon
       with:
@@ -99,7 +97,6 @@ jobs:
           console.log('::set-output name=sha_hf::'+sha)
 
     - uses: actions/github-script@0.4.0
-      if: needs.revo-redaktoj.outputs.KONFIRMO
       name: Eltrovu la nunan pozicion (kapo)
       id: trovu_kapon
       with:
