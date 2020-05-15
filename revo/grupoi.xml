@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: grupoi.xml,v 1.10 2015/07/04 08:37:35 revo Exp $">
+<art mrk="$Id: grupoi.xml,v 1.11 2020/05/15 11:34:10 revo Exp $">
 <kap>
   <rad>grupoid</rad>/o
 </kap>
@@ -10,10 +10,19 @@
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
-  <snc>
+  <snc mrk="grupoi.0o.aro">
     <dif>
       <ref tip="super" cel="ar.0o.MAT">Aro</ref>, konsiderata kune kun
-      unu <ref cel="operac.interna0o">interna operacio</ref> en &gcirc;i.
+      unu <ref cel="operac.interna0o">interna operacio</ref> en &gcirc;i:
+      <ekz>
+        ar&hcirc;aiki&gcirc;inta nomo de <ref tip="sin" cel="magm.0o.MAT">magmo</ref> estas <tld/>o, kiu kolizias kun la samnoma nocio
+        <tld/>o en la teorio de kategorioj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=426938"
+              >Magmo (matematiko)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sub">
       <ref cel="monoid.0o">monoido</ref>,
@@ -62,7 +71,7 @@
       &c_v;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_je;&c_j; &c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_i;</trd>
     </trdgrp>
   </snc>
-  <trd lng="cs">grupoid, množina se zákonem vnitřní kompozice</trd>
+  <trd lng="cs">grupoid, mno&zcaron;ina se z&aacute;konem vnit&rcaron;n&iacute; kompozice</trd>
   <trd lng="sk">grupoid</trd>
 </drv>
 <adm>
@@ -74,6 +83,9 @@
 
 <!--
 $Log$
+versio 1.11 2020/05/15 11:34:10
+Wolfram Diestel: citajxo de Vikipedio, ref magmo
+
 Revision 1.9  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -93,11 +105,5 @@ Revision 1.4  2003/11/13 18:49:10  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.3  2003/04/13 16:31:35  revo
-Marc Bavant: mod trd ru
-
-Revision 1.2  2003/04/09 16:30:54  revo
-Gert Bolten Maizonave: +trd pt
-Revision 1.1  2003/04/07 16:35:16  revo
-Marc Bavant: nova artikolo
 -->
 </vortaro>
