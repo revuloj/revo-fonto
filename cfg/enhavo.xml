@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE enhavo SYSTEM "../dtd/vokoenh.dtd">
+
+<enhavo nomo="Reta Vortaro" nometo="ReVo" piktogramo="revo.ico">
+
+  <!-- titolpagho -->
+
+  <bonveno>
+    <sercho tipo="revo" ref="http://reta-vortaro.de/revo/cfg/sercxo2.xml" titolo="Revoser&ccirc;o"/>
+    <sercho tipo="google" ref="http://reta-vortaro.de/revo/cfg/sercxo.xml" titolo="Revoser&ccirc;o per Google"/>
+    <resumo ref="http://www.reta-vortaro.de/sxangxoj.rdf" titolo="resumo de lastaj &scirc;an&gcirc;oj (por RSS-legilo)"/>
+    <alineo style="text-align: center">a&ubreve; iru al <url ref="/cgi-bin/hazarda_art.pl?senkadroj=1" kadro="indekso">iu ajn artikolo</url>.</alineo>
+    <bildo loko="revo.jpg"/>
+    <alineo>
+      Jen Revo &#8213; la &gcirc;enerala esperanta vortaro en la reto.
+<!--      Alternative vi povas uzi la <url ref="http://purl.org/net/voko/revo/eta/">fasadon por ekranetoj
+      (eksperimenta)</url> kun po&scirc;telefonoj kaj tabulkomputiloj. -->
+    </alineo>
+    <alineo>
+      Se vi pretas helpi progresigi vortaron, kun
+      <url ref="dok/copying.txt">libera</url>,
+      ampleksa kaj aktuala enhavo,
+      <url ref="dok/redinfo.html">ali&gcirc;u al nia rondo de redaktantoj</url>.
+    </alineo>
+    <alineo>
+      Por trovi artikolon vi povas uzi la indeksojn en
+      la maldekstra kadro a&ubreve; uzi unu el la du supraj ser&ccirc;iloj.
+    </alineo>
+    <alineo style="font-size: small">
+      Se vi uzas retumilon, kiu subtenas rapidserĉon,
+      vi povas aldoni la ser&ccirc;ilojn al la ser&ccirc;ilolisto de la retumilo,
+      elektante tie la menueron por aldono a&ubreve; klakante sur la sekvajn
+      ligilojn por 
+      <serchaldono tipo="revo">aldoni Revoser&ccirc;on</serchaldono> a&ubreve;
+      <serchaldono tipo="google">aldoni Revoser&ccirc;on per Guglo</serchaldono>.
+    </alineo>
+
+    <javoskriptaverto>
+       Javoskripto en via retumilo ne estas &scirc;altita a&ubreve;
+       ne funkcias kiel supozite. La ligo, kiun vi alklakis ne funkcias sen Javoskripto.
+    </javoskriptaverto>
+  </bonveno>
+
+  <!-- elshuto-pagho -->
+  <elshuto titolo="El&scirc;uti Revo-rilatan materialon">
+    <sekcio titolo="Transiro al Github">
+      <ero titolo="Tiu ĉi paĝo ne plu aktualiĝos pro transiro al Github" ref="">
+        <alineo>
+        style="font-size: large; margin-top: 0.5em; margin-left: 0em; width: 70%">
+        Prenu paka&jcirc;ojn el la pa&gcirc;o kun la &ccirc;iutagaj
+	      <url ref="https://github.com/revuloj/revo-fonto/releases">Eldonoj de Revo-fonto</url>
+        </alineo>
+      </ero>
+    </sekcio>
+    <sekcio titolo="Reta Vortaro - kompleto">
+      <ero titolo="fontodosieroj (XML, DTD, XSL ktp.)" ref="revoxml"/>
+      <ero titolo="prezentodosieroj (artikoloj, indeksoj, k. a. HTML-dosieroj)" ref="revohtml"/>
+      <ero titolo="bildoj" ref="revobld"/>
+    </sekcio>
+    <sekcio titolo="Reta Vortaro - laste &scirc;an&gcirc;itaj dosieroj">
+      <ero titolo="&scirc;an&gcirc;itaj dosieroj" ref="revonov"/>
+    </sekcio>
+    <sekcio titolo="DICT-versio de Reta Vortaro">
+      <ero titolo="DICT-Revo" ref="revodict">
+        <alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
+        Pri informoj kiel utiligi DICT a&ubreve; Stardict kun Revo vidu sur
+	pa&gcirc;o <url ref="../revo/dok/operaciumoj.html">Kiel uzi Revon en
+	diversaj sistemoj</url>. Skribu al la Revo-administranto, se vi
+	bezonas pli novan version.
+        </alineo>
+      </ero>
+    </sekcio>
+    <sekcio titolo="Vortaroj kiel eLibro (EPUB)">
+      <ero titolo="EPUB-Vortaroj" ref="elibro">
+        <alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">                                     Publikigi kompletan Revon kiel elektronika libro en formo EPUB &scirc;ajnas
+        momente tro ambicia kaj pro la amplekso kaj pro la fakto, ke strukturoj necesaj por vortaraj 
+	indeksoj en EPUB-normo &gcirc;is nun estas nur rekomenditaj sed ne &gcirc;enerale subtenataj.
+	</alineo>
+	<alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
+	  Por tamen oferti al vi ion uzeblan jen trovi&gcirc;as du vortaroj pretigitaj kiel e-Libro: la 
+	  Fundamento de Esperanto kaj Vortaro de rilatoj, kiu estas seplingva eltira&jcirc;o el Revo 
+	  kun interreferencoj. Vi povas momente nur uzi la normalan plentekstan ser&ccirc;funkcion.
+        </alineo>
+      </ero>
+    </sekcio>
+    <sekcio titolo="XDXF-versio de Reta Vortaro">
+      <ero titolo="XDXF-Revo" ref="revoxdxf">
+        <alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
+        Pri informoj kiel utiligi Revon en formo XDXF vidu sur pa&gcirc;o <url ref="../revo/dok/operaciumoj.html">Kiel uzi Revon en diversaj sistemoj</url>.
+        </alineo>
+      </ero>
+    </sekcio>
+    <sekcio titolo="Revo por SQLite3">
+      <ero titolo="SQLite3-Revo" ref="revosql">
+	<alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
+	SQLite3 estas elskatole uzebla en diversaj po&scirc;komputiloj, kvankam la datumbazo sen 
+	fasada programo ankora&ubreve; ne estas tre utila, sed ja bona bazo por ambiciaj programistoj. 
+	Por traser&scirc;i la tabelojn vi povas ekz. instali "sqlite3" en via tablokomputilo a&ubreve;
+	"Private DB" en via iOS-po&scirc;komputilo kaj &scirc;argi la dosieron. 
+	</alineo>
+	<alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
+	  Por Androidaj aparatoj ekzistas jam PRevo.
+	  Pri informoj kiel utiligi Revon en po&scirc;komputiloj vidu sur pa&gcirc;o 
+	  <url ref="../revo/dok/operaciumoj.html">Kiel uzi Revon en diversaj sistemoj</url>.      
+	  Cetere vi povas anka&ubreve; ricevi Revon en bedic-formato.
+	  Skribu al la Revo-administranto, se vi bezonas.
+        </alineo>
+      </ero>
+    </sekcio>
+    <sekcio titolo="Vortanalizado per Revo-radikaro">
+      <ero titolo="Vortanalizilo" ref="analizilo">
+	<alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em;
+		       width: 70%">
+        Jen estas la kodo de 
+	<url
+	    ref="https://code.google.com/p/vortanalizilo/">vortanalizilo</url>,
+        skribita en Prologo kaj povanta ekstrakti la radikojn kun informoj pri
+	vortspecoj el Revo kaj uzi por analizado de vortoj.
+        Tiu analizilo estas ekzemple uzata por la 
+        <url ref="http://h1838790.stratoserver.net/revokontrolo/">kontrolado de Revo-artikoloj</url>.
+        </alineo>
+      </ero>
+    </sekcio>
+<!--    <sekcio titolo="Voko-programaro">
+      <ero titolo="programoj por fari kaj administri vortaron" ref="voko"> -->
+      <alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
+        La Voko-programaro, kiu enhavas &ccirc;iujn rimedojn por konstrui elektronikajn
+        vortarojn la&ubreve; VoKo-te&hcirc;niko vi povas preni &ccirc;e                                                        <url ref="http://sourceforge.net/p/retavortaro/code/HEAD/tree/trunk/">Kodfor&gcirc;ejo</url>.
+	&Gcirc;i ne enhavas
+        ekzemplovortaron (vi povus preni kelkajn artikolojn el Revo).
+        Aldone vi bezonas ilojn el publika programaro (t.e. Java, ant, saxon k.a.).
+        </alineo>
+<!--      </ero> 
+    </sekcio> -->
+    <alineo>
+       &Ccirc;iuj iloj de VoKo estas publikigataj sub la
+       <url ref="../revo/dok/copying.txt">GNUa &Gcirc;enerala Publika Permesilo</url>.
+    </alineo>
+  </elshuto>
+
+
+  <!-- indeks-paghoj -->
+
+  <pagho titolo="Esperanto" dosiero="_eo.html">
+     <sekcio titolo="">
+       <KAP-OJ/>
+       <ero ref="/cgi-bin/sercxu.pl?x=on" titolo="ser&ccirc;o" style="font-weight: bold"/>
+       <MLG-OJ titolo="mallongigoj" style="font-weight: bold"/>
+       <BLD-OJ titolo="bildoj" style="font-weight: bold"/>
+       <INV titolo="inversa indekso" style="font-weight: bold"/>
+       <LISTOJ/>
+     </sekcio>
+     <!--
+     <sekcio titolo="&ccirc;efaj nocioj">
+       <TEZAURO/>
+     </sekcio>
+     -->
+  </pagho>
+  <pagho titolo="Lingvoj" dosiero="_lng.html">
+    <sekcio titolo="nacilingvaj indeksoj">
+      <TRD-OJ lng="la"/>
+      <TRD-OJ krom="la"/>
+    </sekcio>
+  </pagho>
+  <pagho titolo="Fakoj" dosiero="_fak.html">
+    <sekcio titolo="fakindeksoj">
+      <FAKOJ/>
+    </sekcio>
+  </pagho>
+  <pagho titolo="ktp." dosiero="_ktp.html">
+    <sekcio titolo="por uzantoj">
+      <ero ref="../titolo.html" titolo="Titolpa&gcirc;o kun ser&ccirc;o" kadro="precipa" />
+      <ero ref="http://kono.be/vivo/" titolo="Superser&ccirc;o per ViVo" kadro="_new"/>
+      <ero ref="../dok/mallongigoj.html" titolo="Vortaraj mallongigoj"/>
+      <ero ref="../dok/gramatiko.html" titolo="Gramatikaj informoj" kadro="precipa"/>
+      
+      <ero ref="../dok/bibliogr.html" titolo="Bibliografio la&ubreve; mallongigoj" 
+	style="margin-top: 0.4em; margin-bottom: 0"/>
+      <ero ref="../dok/biblaut.html" titolo="Bibliografio la&ubreve; a&ubreve;toroj"/>
+      <ero ref="../dok/bibltit.html" titolo="Bibliografio la&ubreve; titoloj"/>
+
+      <STAT titolo="Statistiko" style="margin-top: 0.4em; margin-bottom: 0"/>
+      <ero ref="/cgi-bin/hazarda_art.pl?senkadroj=2" titolo="Iu ajn artikolo" kadro="precipa"/>
+      <ero ref="../dok/operaciumoj.html" titolo="Kiel uzi en diversaj sistemoj" kadro="precipa"/>
+      <ero ref="http://reta-vortaro.de/tgz/index.html" titolo="El&scirc;uti paka&jcirc;ojn" kadro="_new"/>
+      <ero ref="../dok/copying.txt" titolo="Permeso de uzado" kadro="_new"/>
+    </sekcio>
+
+    <sekcio titolo="por redaktantoj">
+       <ero ref="novaj.html" titolo="Novaj artikoloj"/>
+       <ero ref="shanghoj.html" titolo="&Scirc;an&gcirc;itaj artikoloj"/>
+       <ero ref="eraroj.html" titolo="Strukturaj eraroj"/>
+       <ero ref="http://h1838790.stratoserver.net/revokontrolo/"
+	    titolo="Vortokontrolo" kadro="_new"/>
+       <MANKOJ titolo="Kelkaj mankantaj tradukoj"/>
+       <ero ref="/cgi-bin/mx_trd.pl" titolo="&Ccirc;iuj mankantaj tradukoj" kadro="precipa"/>
+
+       <ero ref="../dok/redinfo.html" titolo="Fari&gcirc;i redaktanto"  style="margin-top: 0.4em; margin-bottom: 0" kadro="precipa"/>
+       <ero ref="../dok/revolist.html" titolo="Dissendolisto" kadro="precipa"/>
+       <ero ref="../dok/revoserv.html" titolo="Redaktoservo" kadro="precipa"/>
+       <ero ref="../dok/lingva_manlibro.html" titolo="Lingva manlibro" kadro="precipa"/>
+       <ero ref="../dok/manlibro.html" titolo="Te&hcirc;nika manlibro" kadro="precipa"/>
+       <ero ref="../dok/vindoza_manlibro.html" titolo="Manlibro por Vindozo" kadro="precipa"/>
+       <ero ref="http://cyprych.neostrada.pl/tekstoj/komputiloj/vim_revo.html" titolo="Uzi redaktilon Vim" kadro="_new"/> 
+
+       <ero ref="../dok/dtd.html" titolo="Dokumenttipdifino" style="margin-top: 0.4em; margin-bottom: 0"/>
+       <ero ref="../dok/ordigo.html" titolo="Alfabetoj"/>
+       <ero ref="../dok/klasoj.html" titolo="Listo de klasoj"/>
+       <ero ref="../dok/fakoj.html" titolo="Listo de fakoj"/>
+       <ero ref="../dok/lingvoj.html" titolo="Listo de lingvoj"/>
+       <ero ref="../dok/stiloj.html" titolo="Listo de stiloj"/>
+       <ero ref="../dok/sxablono.txt" titolo="&Scirc;ablono"/>
+    </sekcio>
+  </pagho>
+
+  <pagho kashita="jes" titolo="plena indeksaro" dosiero="_plena.html">
+     <sekcio titolo="">
+       <KAP-OJ/>
+       <ero ref="/cgi-bin/sercxu.pl?x=on" titolo="ser&ccirc;o" style="font-weight: bold"/>
+       <MLG-OJ titolo="mallongigoj" style="font-weight: bold"/>
+       <BLD-OJ titolo="bildoj" style="font-weight: bold"/>
+       <INV titolo="inversa indekso" style="font-weight: bold"/>
+       <LISTOJ/>
+     </sekcio>
+     <!--
+     <sekcio titolo="&ccirc;efaj nocioj">
+       <TEZAURO/>
+     </sekcio>
+     -->
+    <sekcio titolo="nacilingvaj indeksoj">
+      <TRD-OJ lng="la"/>
+      <TRD-OJ krom="la"/>
+    </sekcio>
+    <sekcio titolo="fakindeksoj">
+      <FAKOJ/>
+    </sekcio>
+    <sekcio titolo="por uzantoj">
+      <ero ref="../titolo.html" titolo="Titolpa&gcirc;o kun ser&ccirc;o" kadro="precipa" />
+      <ero ref="http://kono.be/vivo/" titolo="Superser&ccirc;o per ViVo" kadro="_new"/>
+      <ero ref="../dok/mallongigoj.html" titolo="Vortaraj mallongigoj"/>
+
+      <ero ref="../dok/bibliogr.html" titolo="Bibliografio la&ubreve; mallongigoj" 
+	style="margin-top: 0.4em; margin-bottom: 0"/>
+      <ero ref="../dok/biblaut.html" titolo="Bibliografio la&ubreve; a&ubreve;toroj"/>
+      <ero ref="../dok/bibltit.html" titolo="Bibliografio la&ubreve; titoloj"/>
+
+      <STAT titolo="Statistiko" style="margin-top: 0.4em; margin-bottom: 0"/>
+      <ero ref="/cgi-bin/hazarda_art.pl?senkadroj=2" titolo="Iu ajn artikolo" kadro="precipa"/>
+      <ero ref="../dok/operaciumoj.html" titolo="Kiel uzi en diversaj sistemoj" kadro="precipa"/>
+      <ero ref="http://reta-vortaro.de/tgz/index.html" titolo="El&scirc;uti paka&jcirc;ojn" kadro="_new"/>
+      <ero ref="../dok/copying.txt" titolo="Permeso de uzado" kadro="_new"/>
+    </sekcio>
+
+    <sekcio titolo="por redaktantoj">
+       <ero ref="novaj.html" titolo="Novaj artikoloj"/>
+       <ero ref="shanghoj.html" titolo="&Scirc;an&gcirc;itaj artikoloj"/>
+       <ero ref="eraroj.html" titolo="Eraro-raporto"/>
+       <MANKOJ titolo="Kelkaj mankantaj tradukoj"/>
+       <ero ref="/cgi-bin/mx_trd.pl" titolo="&Ccirc;iuj mankantaj tradukoj" kadro="precipa"/>
+       <ero ref="../dok/redinfo.html" titolo="Fari&gcirc;i redaktanto"  style="margin-top: 0.4em; margin-bottom: 0" kadro="precipa"/>
+       <ero ref="../dok/revolist.html" titolo="Dissendolisto" kadro="precipa"/>
+       <ero ref="../dok/revoserv.html" titolo="Redaktoservo" kadro="precipa"/>
+       <ero ref="../dok/lingva_manlibro.html" titolo="Lingva manlibro" kadro="precipa"/>
+       <ero ref="../dok/manlibro.html" titolo="Te&hcirc;nika manlibro" kadro="precipa"/>
+       <ero ref="../dok/vindoza_manlibro.html" titolo="Manlibro por Vindozo" kadro="precipa"/>
+       <ero ref="http://cyprych.neostrada.pl/tekstoj/komputiloj/vim_revo.html" titolo="Uzi redaktilon Vim" kadro="_new"/> 
+       <ero ref="https://revuloj.github.io/temoj/rnc.html" titolo="Dokumentstrukturo"
+	          kadro="_new" style="margin-top: 0.4em; margin-bottom: 0"/>
+       <ero ref="../dok/ordigo.html" titolo="Alfabetoj"/>
+       <ero ref="../dok/klasoj.html" titolo="Listo de klasoj"/>
+       <ero ref="../dok/fakoj.html" titolo="Listo de fakoj"/>
+       <ero ref="../dok/lingvoj.html" titolo="Listo de lingvoj"/>
+       <ero ref="../dok/stiloj.html" titolo="Listo de stiloj"/>
+       <ero ref="../dok/sxablono.txt" titolo="&Scirc;ablono"/>
+    </sekcio>
+
+  </pagho>
+</enhavo> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

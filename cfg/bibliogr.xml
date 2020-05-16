@@ -1,0 +1,1747 @@
+<!DOCTYPE bibliografio [
+
+<!ELEMENT bibliografio (vrk)*>
+<!ELEMENT vrk (url?,aut*,trd?,tit?,ald?,eld*)>
+<!ATTLIST vrk mll ID #REQUIRED
+              tip (vortaro|leksikono|terminaro|beletro|rimajho|parolo|revuo) #IMPLIED> 
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT aut (#PCDATA|a|n)*>
+<!ELEMENT n   (#PCDATA)>
+<!ELEMENT a   (#PCDATA)>
+<!ELEMENT trd (#PCDATA|a|n)*>
+<!ELEMENT tit (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT ald (#PCDATA)>
+<!ELEMENT eld (nom?,lok?,dat?,nro?,isbn?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT lok (#PCDATA)>
+<!ELEMENT dat (#PCDATA)>
+<!ELEMENT nro (#PCDATA)>
+
+<!ENTITY % signoj SYSTEM "../dtd/vokosgn.dtd">
+%signoj;
+
+<!ENTITY url_mjb "http://pagesperso-orange.fr/kursoj1/revo">
+<!ENTITY url_wd "http://www.steloj.de/esperanto">
+<!ENTITY url_ade "http://www.akademio-de-esperanto.org">
+
+]>
+ 
+<bibliografio>
+  
+  <vrk mll="9OA" tip="vortaro">
+    <url>http://www.akademio-de-esperanto.org/decidoj/9oa.html</url>
+    <aut>Akademio de Esperanto</aut>
+    <tit>Na&ubreve;a Oficiala Aldono al la Universala Vortaro</tit>
+  </vrk>
+ 
+  <vrk mll="Aventuroj">
+    <aut><a>Privat</a> <n>Edmond</n></aut>
+    <tit>Aventuroj de pioniro</tit>
+    <eld>
+      <nom>J. R&eacute;gulo</nom>
+      <lok>La Laguna</lok>
+      <dat>1963</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BazRad" tip="vortaro">
+    <url>http://www.xs4all.nl/~pilger/breo-al3.htm</url>
+    <aut><a>Wouter F.</a> <n>Pilger</n></aut>
+    <tit>Bazaj Radikoj Esperanto-Esperanto</tit>
+  </vrk>
+
+  <vrk mll="BdV">
+    <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=la-batalo-de-l-vivo</url>
+    <aut><a>Charles</a> <n>Dickens</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>La Batalo de l' Vivo</tit>
+    <eld>
+      <dat>1891</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BEE" tip="vortaro">
+    <aut><a>Montague J.</a> <n>Butler</n></aut>
+    <tit>Esperanto-English Dictionary</tit>
+    <eld>
+       <nom>BEA</nom>
+       <lok>London</lok>
+       <dat>1967</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Bird" tip="terminaro">
+    <aut><n>M&eacute;sz&aacute;ros</n> <a>B&eacute;la</a></aut>
+    <tit>Oklingva nomaro de e&ubreve;ropaj birdoj</tit>
+    <eld>
+      <lok>Debrecen</lok>
+      <dat>1980</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BoE">
+    <aut><a>Werner</a> <n>Bormann</n></aut>
+    <tit>Entrepreno. Entreprenistaj Strategioj: Priskribo de la
+         entrepreno</tit>
+    <eld>
+      <nom>A&ubreve;toro</nom>
+      <lok>Hamburg</lok>
+      <dat>1991</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BoER" tip="vortaro">
+    <url>http://www.esperanto.mv.ru/Vortaro/kovril.html</url>
+    <aut><a>E.</a> <n>Bokarev</n></aut>
+    <tit>Esperanta-rusa vortaro</tit>
+    <eld>
+      <lok>Moskvo</lok>
+      <dat>1982</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BoM">
+    <aut><a>Werner</a> <n>Bormann</n></aut>
+    <tit>Mondkomerco kaj Lingvo</tit>
+    <eld>
+       <nom>A&ubreve;toro</nom>
+       <lok>Hamburg</lok>
+       <dat>1993</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BonaLingvo">
+    <aut><a>Claude</a> <n>Piron</n></aut>
+    <tit>La bona lingvo</tit>
+    <eld>
+      <nom>Pro Esperanto/HEA</nom>
+      <lok>Vieno/Budape&scirc;to</lok>
+      <dat>1989</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BonaS-ino">
+    <aut><a>E.</a> <n>Orzeszko</n></aut>
+    <trd><a>Kazimierz</a> <n>Bein</n></trd>
+    <tit>La bona sinjorino</tit>
+  </vrk>
+
+  <vrk mll="BoRE" tip="vortaro">
+    <aut><a>E.</a> <n>Bokarev</n></aut>
+    <tit>Rusa-esperanta vortaro</tit>
+    <eld>
+      <lok>Moskvo</lok>
+      <dat>1966</dat>
+    </eld>
+  </vrk> 
+
+  <vrk mll="BoT">
+    <aut><a>Werner</a> <n>Bormann</n></aut>
+    <tit>La Merkato de Trafikservoj</tit>
+    <eld>
+       <nom>A&ubreve;toro</nom>
+       <lok>Hamburg</lok>
+       <dat>1992</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="BT" tip="terminaro">
+    <aut>Douglas A. Portmann</aut>
+    <tit>Biblioteka terminaro</tit>
+  </vrk>
+
+  <vrk mll="CCT" tip="terminaro">
+    <tit>Common Commercial Terms in English and Esperanto</tit>
+    <eld>
+       <nom>The Esperanto Institute Limited</nom>
+       <lok>Welwyn Garden City</lok>
+       <dat>1926</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="CEE" tip="vortaro">
+    <aut><a>Peter J.</a> <n>Benson</n></aut>
+    <tit>Comprehensive English-Esperanto Dictionary</tit>
+    <eld>
+       <nom>ELNA</nom>
+       <lok>El Cerrito</lok>
+       <dat>1995</dat>
+       <nro>1a eldono</nro>
+       <isbn>0-939785-03-X</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="ChP">
+    <aut><a>Petro</a> <n>Chrdle</n></aut>
+    <tit>Profesia uzo de Esperanto kaj &gcirc;iaj specifaj trajtoj</tit>
+    <eld>
+       <nom>Kava-Pech</nom>
+       <lok>Praha</lok>
+       <dat>1995</dat>
+       <nro>2a plilar&gcirc;igita eldono</nro>
+    </eld>
+  </vrk>
+
+  <vrk mll="CRI">
+    <url>http://esperanto.cri.cn/</url>
+    <tit>&Ccirc;ina Radio Internacia enrete</tit>
+    <ald>esperanta paĝaro de China Radio international online</ald>
+  </vrk>
+
+  <vrk mll="&Ccirc;A">
+    <tit>&Ccirc;ina Antologio (1919-1949)</tit>
+    <eld>
+      <nom>&Ccirc;ina Esperanto-Eldonejo</nom>
+      <lok>Pekino</lok>
+      <dat>1986</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="&Ccirc;uk&ccirc;oj">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=el-vivo-de-chukchoj</url>
+     <aut><a>Vasilij</a> <n>Ero&scirc;enko</n></aut>
+     <tit>El vivo de &ccirc;uk&ccirc;oj</tit>
+     <eld>
+       <nom>Universala Asocio de Blindul-Organizoj</nom>
+       <dat>1933</dat>
+       <nro>Esperanta Ligilo, 4</nro>
+     </eld>
+   </vrk>
+
+  <vrk mll="&ccirc;uSn">
+    <aut><a>E.</a> <n>Lanti</n></aut>
+    <tit>&Ccirc;u ili estas sennaciistoj?</tit>
+  </vrk>
+
+  <vrk mll="Dan&gcirc;Lng">
+    <aut><a>Ulrich</a> <n>Lins</n></aut>
+    <tit>La dan&gcirc;era lingvo, studo pri la persekutoj kontra&ubreve; Esperanto</tit>
+    <eld>
+      <nom>L'omnibuso</nom>
+      <lok>Kioto</lok>
+      <dat>1973</dat>
+      <nro>1a eldono</nro>
+    </eld>
+    <eld>
+      <nom>Bleicher</nom>
+      <lok>Gerlingen</lok>
+      <dat>1988</dat>
+      <nro>2a eldono</nro>
+    </eld>
+    <eld>
+       <nom>eldonejo Progreso</nom>
+       <lok></lok>
+       <dat>1990</dat>
+       <nro>represo de la 2a eldono [?]</nro>
+       <isbn>5-01-003136-1</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="DdH">
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Aldono al la &leftquot;Dogmoj de Hilelismo&rightquot;</tit>
+    <eld>
+      <nom>Ruslanda Esperantisto</nom>
+      <dat>1906</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Deneva" tip="terminaro">
+    <aut><a>Daniela</a> <n>Deneva</n></aut>
+    <tit>Esperanta-Bulgara-Rusa Matematika Terminaro</tit>
+    <eld>
+      <nom>Bulgara Esperanto-Asocio</nom>
+      <lok>Sofio</lok>
+      <dat>1985</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="DL">
+    <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=dua-libro</url>
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Dua Libro de l’ lingvo Internacia</tit>
+    <eld>
+      <lok>Varsovio</lok>
+      <dat>1888</dat>
+    </eld>
+  </vrk>
+  
+  <vrk mll="DonKihxoto">
+    <aut><a>Miguel</a> <n>de Cervantes Saavedra</n></aut>
+    <trd><a>Fernando</a> <n>de Diego</n></trd>
+    <tit>La in&gcirc;enia hidalgo Don Quijote de la Mancha</tit>
+    <eld>
+       <nom>HEF - eldono "Fundaci&oacute;n de Esperanto"</nom>
+       <lok>Zaragoza</lok>
+       <dat>1977</dat>
+       <isbn>84-400-3582-9</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="DOz">
+    <url>http://esperanto.org/esperante/literatur/Baum/doroteo/</url>
+    <aut><a>L. Frank</a> <n>Baum</n></aut>
+    <trd><a>D.</a> <n>Broadribb</n></trd>
+    <tit>Doroteo kaj la Sor&ccirc;isto en Oz</tit>
+    <eld>
+      <nom>Bookleaf Publishing</nom>
+      <lok>A&ubreve;stralio</lok>
+      <dat>1996</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="EBV" tip="terminaro">
+    <aut><a>R&uuml;diger</a> <n>Eichholz</n></aut>
+    <tit>Esperanta Bildvortaro</tit>
+    <eld>
+      <nom>Esperanto press</nom>
+      <lok>Bailieboro, Ontario, Kanado</lok>
+      <dat>1989</dat>
+      <nro>2a eldono</nro>
+      <isbn>0-919186-32-7</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="EdE" tip="leksikono">
+    <tit>Enciklopedio de Esperanto</tit>
+    <eld>
+      <lok>Budapest</lok>
+      <dat>1979</dat>
+      <isbn>963-571-051-8</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="EE">
+    <url>&url_wd;/esenco/</url>
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Esenco kaj Estonteco</tit>
+  </vrk>
+
+  <vrk mll="Eek">
+    <tit>Esperanto en Komerco. Esperanto in Commerce</tit>
+    <eld>
+       <nom>Esperanto-Rondo</nom>
+       <lok>Crailsheim</lok>
+       <dat>1964</dat>
+       <nro>3a eldono</nro>
+    </eld>
+  </vrk>
+
+  <vrk mll="EFM" tip="terminaro">
+    <aut><n>Braun</n></aut>
+    <aut><n>Polerani</n></aut>
+    <aut><n>Rotsaert</n></aut>
+    <aut><n>Wiersch</n></aut>
+    <aut><n>Yamasaki</n></aut>
+    <aut><n>Ruysschaert</n></aut>
+    <tit>Economie, finance, monnaie. Glosaro de la komisiono de la
+         E&ubreve;ropaj
+         Komunumoj. Versio esperanto &dash; fran&ccedil;ais &dash; english
+    </tit>
+    <eld>
+       <nom>IKEF</nom>
+       <lok>Welzheim</lok>
+       <dat>1992</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="EKV" tip="terminaro">
+    <aut><a>R.</a> <n>Hilgers</n></aut>
+    <aut><n>Yashovardhan</n></aut>
+    <aut>k.a.</aut>
+    <tit>EK-Vortaro de matematikaj terminoj</tit>
+    <ald>vol. 4 en E&ubreve;ropa Serio: Sennaciigita Scienco</ald>
+    <eld>
+      <nom>E&ubreve;ropa Klubo, FEoLL-Institut f&uuml;r 
+           Kybernetische P&auml;dagogik</nom>
+      <lok>Paderborn</lok>
+      <dat>1980</dat>
+      <isbn>3-88064-080-7</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="ElektFab">
+     <url>&url_wd;/gfabeloj/index.html</url>
+     <aut><a>Jakob</a> <n>Grimm</n></aut>
+     <aut><a>Wilhelm</a> <n>Grimm</n></aut>
+     <trd><a>Kazimierz</a> <n>Bein</n></trd>
+     <tit>Elektitaj Fabeloj de Fratoj Grimm</tit>
+     <eld>
+       <nom>M&ouml;ller kaj Borel</nom>
+       <lok>Berlino</lok>
+       <dat>1906</dat>
+       <nro>1a eldono</nro>
+     </eld>
+     <eld>
+       <nom>Artur E. Iltis</nom>
+       <lok>Sarbruko</lok>
+       <dat>1981</dat>
+       <nro>represo de la 1a eldono</nro>
+     </eld>
+     <eld>
+       <nom>Inko</nom>
+       <lok>Tyres&ouml;, Svedio</lok>
+       <dat>2002</dat>
+     </eld>
+   </vrk>
+
+  <vrk mll="EncCxi" tip="leksikono">
+    <aut><a>Li</a> <n>Qiang</n></aut>
+    <aut><a>Zhang</a> <n>Meizhi</n></aut>
+    <trd>Fan Yizhu, Xu Senrong</trd>
+    <tit>Enciklopedieto de &Ccirc;inio</tit>
+    <eld>
+      <nom>&Ccirc;ina Esperanto-Eldonejo</nom>
+      <lok>Beijing</lok>
+      <dat>1994</dat>
+      <isbn>7-5052-0086-0/Z.4</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="EncJap" tip="leksikono">
+    <aut><a>T.</a> <n>Nakamura</n></aut>
+    <tit>Enciklopedieto japana</tit>
+    <eld>
+      <nom>eldono de kosmo</nom>
+      <lok>Osaka</lok>
+      <dat>1964</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="EPĈ" tip="revuo">
+    <url>http://www.espero.com.cn/</url>
+    <tit>El Popola Ĉinio (revuo)</tit>
+    <eld>
+      <nom>El Popola Ĉinio</nom>
+      <lok>Ĉeinujo</lok>
+      <dat>de 1950</dat>
+    </eld>
+  </vrk>
+
+
+  <vrk mll="Esperanto">
+    <url>https://uea.org/revuoj/esperanto</url>
+    <tit>Esperanto</tit>
+    <eld>
+      <nom>Universala Esperanto-Asocio</nom>
+      <lok>Roterdamo</lok>
+      <dat>1905-</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="F" tip="vortaro">
+    <url>&url_wd;/fundamento/index.html</url>
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Fundamento de Esperanto</tit>
+    <eld>
+      <lok>Varsovio</lok>
+      <dat>1905</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Fab1">
+    <url>&url_wd;/fabeloj1/</url>
+    <aut><a>H. C.</a> <n>Andersen</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>Fabeloj, vol. 1</tit>
+    <eld>
+      <nom>Esp. Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1926</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Fab2">
+    <url>&url_wd;/fabeloj2/</url>
+    <aut><a>H. C.</a> <n>Andersen</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>Fabeloj, vol. 2</tit>
+    <eld>
+      <nom>Esp. Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1926</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Fab3">
+    <url>&url_wd;/fabeloj3/</url>
+    <aut><a>H. C.</a> <n>Andersen</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>Fabeloj, vol. 3</tit>
+    <eld>
+      <nom>Esp. Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1932</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Fab4">
+    <url>&url_wd;/fabeloj4/</url>
+    <aut><a>H. C.</a> <n>Andersen</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>Fabeloj, vol. 4</tit>
+    <eld>
+      <nom>Heroldo de Esperanto</nom>
+      <dat>1963</dat>
+    </eld>
+  </vrk>
+  
+  <vrk mll="Far1">
+    <url>&url_wd;/faraono1/</url>
+    <aut><a>B.</a> <n>Prus</n></aut>
+    <trd><a>Kazimierz</a> <n>Bein</n></trd>
+    <tit>La Faraono, vol. 1</tit>
+    <eld>
+      <nom>Esp. Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1927</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Far2">
+    <url>&url_wd;/faraono2/</url>
+    <aut><a>B.</a> <n>Prus</n></aut>
+    <trd><a>Kazimierz</a> <n>Bein</n></trd>
+    <tit>La Faraono, vol. 2</tit>
+    <eld>
+      <nom>Esp. Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1926</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Far3">
+    <url>&url_wd;/faraono3/</url>
+    <aut><a>B.</a> <n>Prus</n></aut>
+    <trd><a>Kazimierz</a> <n>Bein</n></trd>
+    <tit>La Faraono, vol. 3</tit>
+    <eld>
+      <nom>Esp. Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1926</dat>
+    </eld>
+  </vrk>
+
+    <vrk mll="FdO">
+    <url>&url_wd;/fumejo/</url>
+    <aut><a>Władyław</a> <n>Reymont</n></aut>
+    <trd><a>Kazimierz</a> <n>Bein</n></trd>
+    <tit>En fumejo de L'opio</tit>
+    <eld>
+      <nom>Bliński kaj W. Mašlankiewicz</nom>
+      <lok>Varsovio</lok>
+      <dat>1908</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="FIL">
+    <tit>
+      Pri la solvo de l'problemo de internacia lingvo por komerco kaj
+      trafiko.
+    </tit>
+    <ald>
+      Zur L&ouml;sung der Frage einer internationalen Handels- und
+      Verkehrssprache. Amtlicher Sitzungsbericht der 
+      Internationalen Konferenz f&uuml;r eine gemeinsame 
+      Hilfssprache des Handels und Verkehrs, Venedig, 2.-4. April
+      1923
+    </ald>
+    <eld>
+       <nom>Frankfurter Messamt</nom>
+       <lok>Frankfurt a.M.</lok>
+       <dat>1923</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="FK">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=fundamenta-krestomatio</url>
+     <aut><a>Ludoviko Lazaro</a> <n>Zamenhof</n></aut>
+     <tit>Fundamenta Krestomatio de la lingvo Esperanto</tit>
+     <eld>
+       <nom>Hachette et Compagnie</nom>
+       <lok>Parizo</lok>
+       <dat>1904</dat>
+     </eld>
+   </vrk>
+
+  <vrk mll="FT" tip="terminaro">
+    <tit>Fervoja Terminaro</tit>
+    <ald>UIC Railway Dictionary</ald>
+    <eld>
+      <nom>EFE - Terminara Komisiono</nom>
+      <dat>1997</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="FzT" tip="terminaro">
+    <aut><n>Katsumori</n> <a>H.</a></aut>
+    <aut><n>Makino</n> <a>S.</a></aut>
+    <aut><n>Makino</n> <a>J.</a> (komp.)</aut>
+    <tit>Esperanta terminaro de fiziko, Esperanto &dash; japana &dash; angla.
+         Reviziita
+    </tit>
+    <eld>
+       <nom>Universitato Chubu</nom>
+       <lok>Chubu, Japanio</lok>
+       <dat>1992</dat>
+       <isbn>0-939785-03-X</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="GDEF" tip="vortaro">
+    <url>http://esperilo.be/publications/sat/waringh.htm</url>
+    <aut><a>Gaston</a> <n>Waringhien</n></aut>
+    <tit>Grand dictionnaire esp&eacute;ranto-français</tit>
+    <eld>
+      <nom>Librairie Centrale Espérantiste</nom>
+      <lok>Parizo</lok>
+      <dat>1957</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="GDEFS" tip="vortaro">
+    <url>http://esperilo.be/publications/sat/waringh.htm</url>
+    <aut><a>Gaston</a> <n>Waringhien</n></aut>
+    <tit>Grand dictionnaire esp&eacute;ranto-français avec Supplément</tit>
+    <eld>
+      <nom>SAT-Amikaro</nom>
+      <lok>Parizo</lok>
+      <dat>1976</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="GDFE" tip="vortaro">
+    <aut><a>Jacques</a> <n>Le Puil</n></aut>
+    <aut><a>Jean-Pierre</a> <n>Danvy</n></aut>
+    <aut>k.a.</aut>
+    <tit>Grand dictionnaire fran&ccedil;ais esp&eacute;ranto</tit>
+    <eld>
+      <nom>France-Esp&eacute;ranto</nom>
+      <lok>Parizo</lok>
+      <dat>1992</dat>
+      <isbn>2-9507376-0-9</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="Gerda">
+    <url>&url_mjb;/gerda1.txt</url>
+    <aut><a>Claude</a> <n>Piron</n></aut>
+    <tit>Gerda malaperis</tit>
+    <eld>
+      <nom>Fonto</nom>
+    </eld>
+  </vrk>
+
+  <vrk mll="Gv">
+    <aut><a>Claus</a> <n>G&uuml;nkel</n> (Nikolao)</aut>
+    <tit>La Gunkela vortaro de vortoj mankantaj en PIV 2002</tit>
+    <eld>
+       <nom>Propra eldono</nom>
+       <lok>Eschweiler</lok>
+       <dat>2002</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Hamlet">
+    <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=hamleto</url>
+    <aut><a>William</a> <n>Shakespeare</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>Hamleto, Reĝido de Danujo</tit>
+    <eld>
+      <nom>eldonejo W. Tümmel</nom>
+      <lok>Nurenbergo</lok>
+      <dat>1894</dat>
+    </eld>
+  </vrk>
+  
+  <vrk mll="HejmVort" tip="vortaro">
+    <url>http://www.helsinki.fi/~jslindst/hejmvort.html</url>
+    <aut><a>Jouko</a> <n>Lindstedt</n></aut>
+    <aut>k.a.</aut>
+    <tit>Hejma Vortaro</tit>
+    <eld>
+      <nom>Universala Esperanto-Asocio</nom>
+      <lok>Rotterdam</lok>
+      <dat>1999</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Homaranismo">
+    <url>&url_wd;/homaranismo/</url> 
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Homaranismo</tit>
+    <eld>
+      <nom>Ruslanda Esperantisto</nom>
+      <lok>Peterburgo</lok>
+      <dat>1906</dat>
+      <nro>n-ro 5</nro>
+    </eld>
+  </vrk>  
+
+  <vrk mll="HomojMan&gcirc;antaj">
+     <aut><n>Hemmi</n> <a>Y&ocirc;</a></aut>
+     <trd><n>Doi</n> <a>&ccirc;ieko</a></trd>
+     <tit>Homoj man&gcirc;antaj</tit>
+     <eld>
+       <nom>Mevo-Libroj</nom>
+       <lok>Jokohamo</lok>
+       <dat>2002</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="Ifigenio">
+    <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=ifigenio-en-taurido</url>
+    <aut><a>J. W.</a> <n>Goethe</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>Ifigenio en Taŭrido</tit>
+    <eld>
+      <nom>Hachette et Cie</nom>
+      <lok>Parizo</lok>
+      <dat>1908</dat>
+    </eld>
+  </vrk>
+
+   <vrk mll="IK">
+    <url>&url_wd;/interrompita/</url>
+    <aut><a>Eliza</a> <n>Orzeszko</n></aut>
+    <trd><a>Kazimierz</a> <n>Bein</n></trd>
+    <tit>La Interrompita Kanto</tit>
+    <eld>
+      <nom>Esperanta Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1928</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="IKEV" tip="terminaro">
+    <aut><a>F.</a> <n>Munniksma</n> (eld.)</aut>
+    <tit>Internacia komerca-ekonomika vortaro en 11 lingvoj</tit>
+    <eld>
+       <nom>&Ccirc;ina Esperanto-eldonejo</nom>
+       <lok>Pekino</lok>
+       <dat>1990</dat>
+       <isbn>7-5052-0025-9</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="InfanTorent2">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=infanoj-en-torento</url>
+     <aut><a>Stellan</a> <n>Engholm</n></aut>
+     <tit>Infanoj en Torento, dua libro en la 
+       Torento-trilogio</tit>
+     <eld>
+       <nom>Eldona Societo Esperanto</nom>
+       <lok>Stockholm</lok>
+       <dat>1939</dat>
+       <nro>1a eldono</nro>
+     </eld>
+     <eld>
+       <nom>Dansk Esperanto-Forlag</nom>
+       <dat>1972</dat>
+       <nro>2a eldono</nro>
+     </eld>
+     <eld>
+       <nom>Inko</nom>
+       <lok>Tyres&ouml;</lok>
+       <dat>2001</dat>
+       <nro>3a eldono</nro>
+     </eld>
+  </vrk>
+
+  <vrk mll="IntArkeol">
+    <aut><a>Marinko</a> <n>Givoje</n></aut>
+    <tit>Interesa arkeologio</tit>
+    <eld>
+       <nom>SAT, Sennacieca Asocio Tutmonda</nom>
+       <lok>Parizo</lok>
+       <dat>1973</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="IntKui">
+    <aut><a>Maria</a> <n>Becker-Meisberger</n></aut>
+    <tit>Internacie kuiri</tit>
+    <eld>
+      <nom>Flandra Esperanto-Ligo</nom>
+      <lok>Antwerpen</lok>
+      <dat>2000</dat>
+      <isbn>90-71205-70-3</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="I&scirc;tar">
+    <url>https://tekstaro.com/pl/prenisekciojn.pl?nomo=pro-ishtar</url>
+    <aut><a>H. A.</a> <n>Luyken</n></aut>
+    <tit>Pro I&scirc;tar</tit>
+    <eld>
+      <nom>Ferdinand Hirt &amp; Sohn</nom>
+      <lok>Lepsiko</lok>
+      <dat>1924</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="ItEsp" tip="vortaro">
+    <aut><a>Carlo</a> <n>Minnaja</n></aut>
+    <tit>Vocabolario Italiano-Esperanto</tit>
+    <eld>
+      <nom>CoEdEs</nom>
+      <dat>1996</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Jamburg">
+     <url>http://miresperanto.narod.ru/biblioteko/jamburg.htm</url>
+     <aut><a>Mikaelo</a> <n>Bron&scirc;tejn</n></aut>
+     <tit>Oni ne pafas en Jamburg</tit>
+     <eld>
+        <nom>Impeto</nom>
+        <lok>Moskvo</lok>
+        <dat>1993</dat>
+        <isbn>5-7161-0004-X</isbn>
+     </eld>
+  </vrk>
+
+  <vrk mll="JuanReg">
+    <aut><n>Albault</n></aut>
+    <aut><n>Ariste</n></aut>
+    <aut><n>Auld</n></aut>
+    <aut>k.a.</aut>
+    <tit>Serta gratulatoria in honorem Juan R&eacute;gulo</tit>
+    <eld>
+      <nom>Universitato de La Laguna</nom>
+      <lok>Kanariaj Insuloj</lok>
+      <dat>1987</dat>  
+    </eld>
+  </vrk> 
+
+  <vrk mll="JV" tip="terminaro">
+    <aut><n>Horba&ccirc;uk</n>, <a>V.</a></aut>
+    <aut><n>Poddubnij</n>, <a>F.</a></aut>
+    <aut><n>Tu&hcirc;vatullina</n>, <a>L.</a></aut>
+    <aut><n>&Scirc;ilo</n>, <a>G.</a></aut>
+    <tit>Jura Vortaro esperante-ruse-ukraine-angla</tit>
+    <eld>
+       <nom>Akademia Centro de Administro, Entreprenado, Juro</nom>
+       <lok>Slavjansk</lok>
+       <dat>1994</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Kalendaro">
+    <aut><a>Cherpillod</a> <n>Andr&eacute;</n></aut>
+    <tit>La kalendaro tra la tempo, tra la spaco</tit>
+    <eld>
+      <nom>La Blancheti&egrave;re</nom>
+      <lok>Courgenard (Francio)</lok>
+      <dat>2002</dat>
+      <isbn>2-906134-56-2</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="KelS">
+    <tit>Kajeroj el la Sudo</tit>
+  </vrk>
+
+  <vrk mll="KielAkvo">
+     <aut><a>Raymond</a> <n>Schwartz</n></aut>
+     <tit>Kiel akvo de l' rivero</tit>
+     <eld>
+       <nom>R&eacute;gulo</nom>
+       <lok>La Laguna</lok>
+       <dat>1963</dat>
+     </eld>
+     <eld>
+        <nom>Dansk Esperanto-Forlag</nom>
+        <lok></lok>
+        <dat>1977</dat>
+     </eld>
+     <eld>
+        <nom>Iltis</nom>
+        <lok></lok>
+        <dat>1987</dat>
+     </eld>
+     <eld>
+        <nom>Edistudio</nom>
+        <lok>Pizo</lok>
+        <dat>1991</dat>
+     </eld>
+   </vrk>
+
+  <vrk mll="Kiso">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=la-kiso</url>
+     <aut><a>Hjalmar</a> <n>S&ouml;derberg</n></aut>
+     <trd><a>Sten</a> <n>Johansson</n></trd>
+     <tit>La Kiso kaj dek tri aliaj noveloj</tit>
+     <eld>
+       <nom>Al-fab-et-o</nom>
+       <lok>Sk&ouml;vde</lok>
+       <dat>1995</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="KompLeks" tip="terminaro">
+    <url>https://bertilow.com/div/komputada_leksikono/</url>
+    <!--url>http://purl.oclc.org/NET/voko/URL/KompLeks/</url -->
+    <aut><a>Sergio</a> <n>Pokrovskij</n></aut>
+    <tit>Komputada Leksikono</tit>
+  </vrk>
+
+  <vrk mll="Komputeko" tip="terminaro">
+    <url>https://komputeko.net/</url>
+    <tit>Komputeko</tit>
+  </vrk>
+
+  <vrk mll="Kosmo">
+    <aut><a>David</a> <n>Galad&iacute;-Enr&iacute;quez</n></aut>
+    <aut><a>Amri</a> <n>Wandel</n></aut>
+    <tit>La kosmo kaj ni &dash; Galaksioj, planedoj kaj vivo en la universo</tit> 
+    <eld>
+      <nom>Flandra Esperanto-Ligo</nom>
+      <lok>Antverpeno</lok>
+      <dat>2001</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="KrED" tip="vortaro">
+    <aut><a>Erich Dieter</a> <n>Krause</n></aut>
+    <tit>Gro&szlig;es W&ouml;rterbuch Esperanto-Deutsch</tit>
+    <eld>
+      <nom>Langenscheidt</nom>
+      <lok>Hamburg</lok>
+      <dat>1999</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="KrDE" tip="vortaro">
+    <aut><a>Erich Dieter</a> <n>Krause</n></aut>
+    <tit>W&ouml;rterbuch Deutsch-Esperanto</tit>
+    <eld>
+      <nom>Langenscheidt</nom>
+      <lok>Leipzig k.a.</lok>
+      <dat>1993</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Kukobak">
+    <url>http://web.archive.org/web/20060714032539/http://www.uni-leipzig.de/esperanto/texte/bakado.html</url>
+    <aut><a>Cornelia</a> <n>Rau</n></aut>
+    <aut>k.a.</aut>
+    <tit>Kukobakado</tit>
+    <eld>
+      <nom>Wolfram Diestel</nom>
+      <lok>Lepsiko</lok>
+      <dat>1993</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="KVS" tip="vortaro">
+    <aut><a>Robert</a> <n>Kreuz</n></aut>
+    <tit>Komerca Vortaro Seslingva. Germana &dash; Angla &dash; Franca &dash; Itala &dash;
+         Hispana &dash; Esperanta
+    </tit>
+    <eld>
+      <nom>Foira Oficejo</nom>
+      <lok>Frankfurt a.M.</lok>
+      <dat>1927</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="LaFamilio">
+     <aut>Bakin (<n>Li</n> <a>Yaotang</a>)</aut>
+     <trd><n>Wei</n> <a>Yida</a></trd>
+     <tit>La Familio</tit>
+     <eld>
+       <nom>&Ccirc;ina Esperanto-Eldonejo</nom>
+       <lok>Beijing</lok>
+       <dat>1999</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="LanLin">
+    <url>https://purl.oclc.org/net/lanlin</url>
+    <aut><a>Bertilo</a> <n>Wennergren</n></aut>
+    <tit>Landoj kaj lingvoj de la mondo</tit>
+  </vrk>
+
+  <vrk mll="Lanti">
+    <aut><a>E.</a> <n>Lanti</n></aut>
+    <tit>Vortoj de k-do Lanti</tit>
+    <eld>
+      <nom>Sennacieca Asocio Tutmonda</nom>
+      <dat>1931</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Lasu">
+    <url>&url_mjb;/lasu1.txt</url>
+    <aut><a>Claude</a> <n>Piron</n></aut>
+    <tit>Lasu min paroli plu!</tit>
+    <eld>
+      <nom>Fonto</nom>
+    </eld>
+  </vrk>
+
+  <vrk mll="LF">
+    <url>https://eo.wikipedia.org/wiki/Literatura_Foiro</url>
+    <tit>Literatura Foiro</tit>
+    <ald>kultura revuo</ald>
+    <eld>
+      <nom>Kooperativo de LF</nom>
+      <lok>Svislando?</lok>
+    </eld>
+  </vrk>
+
+  <vrk mll="Lkn">
+    <aut><a>Ricardo</a> <n>&Scirc;ulco</n></aut>
+    <aut><a>Hermano</a> <n>Bermano</n></aut>
+    <tit>Leksara kolekto de ofte uzataj propraj nomoj</tit>
+    <eld>
+       <nom>ECP</nom>
+       <lok>Paderborno</lok>
+       <dat>1989</dat>
+       <nro>1a eldono</nro>
+       <isbn>3-922570-60-7</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="LOdE">
+    <url>http://esperanto-ondo.ru/</url>
+    <tit>La Ondo de Esperanto</tit>
+    <ald>Gazeto</ald>
+    <eld>
+      <nom>Sezonoj</nom>
+      <lok>Ruslando</lok>
+    </eld>
+  </vrk>
+
+  <vrk mll="LR">
+    <url>http://eduinf.waw.pl/esp/lern/librejo/0015/</url>
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Lingvaj Respondoj</tit>
+  </vrk>
+
+  <vrk mll="LSF">
+    <aut><n>Kalocsay</n></aut>
+    <tit>Lingvo, Stilo, Formo</tit>
+    <eld>
+      <lok>Budapest</lok>
+      <dat>1931</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="LSV">
+    <aut><a>E.</a> <n>Lanti</n></aut>
+    <tit>&leftquot;Liberiga Stelo&rightquot; al la
+    Verdru&gcirc;uloj</tit>
+  </vrk>
+
+  <vrk mll="LtE">
+    <aut><a>Henrik</a> <n>Seppik</n></aut>
+    <tit>La tuta Esperanto</tit>
+    <eld>
+      <nom>Hungara Esperanto-Asocio</nom>
+      <lok>Budapest</lok>
+      <dat>1987</dat>
+      <nro>4a eldono</nro>
+      <isbn>963-571-196-4</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="Lusin">
+    <aut>Lusin (<n>Zhou</n> <a>Shuren</a>)</aut>
+    <trd><a>S. J.</a> <n>Zee</n> k.a.</trd>
+    <tit>Noveloj de Lusin</tit>
+    <eld>
+      <nom>&Ccirc;ina Esperanto-Ligo</nom>
+      <lok>Pekino</lok>
+      <dat>1963</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Mary">
+    <aut><a>M.</a> <n>Lermontov</n></aut>
+    <trd><a>N.</a> <n>Danovskij</n></trd>
+    <tit>Princidino Mary</tit>
+    <eld>
+      <nom>Ruslanda Esperantisto</nom>
+      <lok>Jekaterinburg</lok>
+      <dat>1996</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Malben">
+    <url>http://www.books-reborn.org/broadribb/malbeno/MalbenoKara.pdf</url>
+    <aut><a>Mary</a> <n>Webb</n></aut>
+    <trd><a>Grace</a> <n>Kirkwood</n></trd>
+    <tit>Malbeno Kara</tit>
+    <eld>
+      <nom>Books Reborn</nom>
+      <dat>2000</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="ManPol">
+    <aut><a>Stefan</a> <n>Maul</n></aut>
+    <aut>k. a.</aut>
+    <tit>Deklingva manlibro pri politiko</tit>
+    <eld>
+      <nom>Flandra Esperanto-Ligo</nom> 
+      <lok>Antverpeno</lok>
+      <dat>1994</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Marta">
+    <url>&url_wd;/marta/</url>
+    <aut><a>Eliza</a> <n>Orzeszkowa</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>Marta</tit>
+    <eld>
+      <nom>Esperantista Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1924</dat>
+      <nro>2a eldono</nro>
+    </eld>
+  </vrk>
+
+  <vrk mll="MatStokTerm" tip="vortaro">
+    <aut><a>Olav</a> <n>Reiers&#xf8;l</n></aut>
+    <tit>Matematika kaj Stokastika Terminaro Esperanta</tit>
+    <eld>
+      <lok>Oslo</lok>
+      <dat>1994</dat>
+      <nro>dua eldono</nro>
+      <isbn>82-553-0894-6</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="MatTerm" tip="vortaro">
+    <url>&url_mjb;/MatTerm.tif</url>
+    <aut><a>Raoul</a> <n>Bricard</n></aut>
+    <tit>Matematika Terminaro kaj Krestomatio</tit>
+    <eld>
+      <nom>Hachette</nom>
+      <lok>Parizo</lok>
+      <dat>1905</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="MatVort" tip="vortaro">
+    <url>&url_mjb;/werner.htm</url>
+    <aut><a>Jan</a> <n>Werner</n></aut>
+    <tit>Matematika Vortaro, Esperanta-&Ccirc;e&hcirc;a-Germana</tit>
+    <eld>
+      <lok>Brno</lok>
+      <dat>1990</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="MB">
+    <tit>Malbabelo</tit>
+    <ald>Gazeto de la Frankfurtmajna Esperanto-Societo</ald>
+    <eld>
+      <nom>ESF</nom>
+      <lok>Frankfurto &ccirc;e Majno</lok>
+      <dat>1994-</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="MemLapenna">
+    <url>http://www.geocities.com/CapitolHill/Senate/1240/memore.html</url>
+    <aut><a>Birthe</a> <n>Lapenna</n></aut>
+    <tit>Memore al Ivo Lapenna</tit>
+    <ald>La kreinto de la moderna Esperanto-Movado</ald>
+    <eld>
+      <nom>Fonda&jcirc;o Ivo Lapenna</nom>
+      <lok>Interreto</lok>
+      <dat>1998</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Metrop">
+    <url>https://tekstaro.com/pl/prenisekciojn.pl?nomo=metropoliteno</url>
+    <aut><a>V.</a> <n>Varankin</n></aut>
+    <tit>Metropoliteno</tit>
+  </vrk>
+
+  <vrk mll="MEV" tip="terminaro">
+    <aut><a>Eugen</a> <n>W&uuml;ster</n></aut>
+    <tit>Ma&scirc;infaka Esperanto-vortaro</tit>
+    <eld>
+       <nom>Ferdinand Hirt und Sohn</nom>
+       <lok>Leipzig</lok>
+       <dat>1923</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="MkM">
+    <url>http://www.esperanto.mv.ru/MM/</url>
+    <aut><a>Mihail</a> <n>Bulgakov</n></aut>
+    <trd><a>Sergio</a> <n>Pokrovskij</n></trd>
+    <tit>La majstro kaj Margarita</tit>
+    <eld>
+      <nom>Sezonoj</nom>
+      <lok>Jekaterinburg</lok>
+      <dat>1991</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Monato">
+    <url>https://www.monato.be/</url>
+    <tit>Monato</tit>
+    <ald>internacia magazino</ald>
+    <eld>
+      <nom>Flandra Esperanto-Ligo</nom>
+      <lok>Belgio</lok>
+      <dat>de 1980</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Mortul&Scirc;ip">
+     <url>https://tekstaro.com/pl/prenisekciojn.pl?nomo=mortula-shipo</url>
+     <aut><a>B.</a> <n>Traven</n></aut>
+     <trd><a>Hans Georg</a> <n>Kaiser</n></trd>
+     <tit>Mortula &Scirc;ipo, Rakonto de usona maristo</tit>
+     <eld>
+       <nom>Inko</nom>
+       <lok>Tyres&ouml;</lok>
+       <dat>2001</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="MT">
+    <url>&url_wd;/biblio/</url>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>La Malnova Testamento</tit>
+    <eld>
+      <nom>Brita kaj Alilanda Biblia Societo</nom>
+      <lok>Londono</lok>
+    </eld>
+  </vrk>
+
+  <vrk mll="Munchhausen">
+     <url>http://www.angelfire.com/mo2/bulteno/barono.html</url>
+     <aut><a>R. E.</a> <n>Raspe</n></aut>
+     <trd><a>J. D.</a> <n>Applebaum</n></trd>
+     <tit>[La Voja&gcirc;oj kaj] Mirigaj Aventuroj de Barono 
+M&uuml;nchhausen</tit>
+     <ald>Biblioteko Tutmonda, numeroj 13-14</ald>
+     <eld>
+        <nom>Rudolf Mosse Esperanto-Fako</nom>
+        <lok>Berlino</lok>
+        <dat>1927</dat>
+     </eld>
+   </vrk>
+
+  <vrk mll="MuzTerm" tip="terminaro">
+    <aut><a>M. C.</a> <n>Butler</n></aut>
+    <aut><a>F.</a> <n>Merrick</n></aut>
+    <aut><a>D. G.</a> <n>Hill</n> ind.</aut>
+    <tit>Muzika terminaro</tit>
+    <ald>represo de la eldono fare de Internacia Esperanto-Ligo, 1944</ald>
+    <eld>
+      <nom>Muzika Esperanto-Ligo</nom>
+      <lok>Sofio</lok>
+      <dat>1992</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Ne&gcirc;aBlovado">
+     <url>http://esperanto-ondo.ru/Rn-pusk2.htm</url>
+     <aut><a>Aleksandr</a> <n>Pu&scirc;kin</n></aut>
+     <trd><a>Antoni</a> <n>Grabowski</n></trd>
+     <tit>La ne&gcirc;a blovado</tit>
+     <eld>
+        <nom>Kelter</nom>
+        <lok>Varsovio</lok>
+        <dat>1888</dat>
+        <nro>1a eldono</nro>
+     </eld>
+     <eld>
+        <nom>Jekaterinburg</nom>
+        <lok>Sezonoj</lok>
+        <dat>1993</dat>
+     </eld>
+   </vrk>
+
+
+  <vrk mll="NeoGlo" tip="vortaro">
+    <aut><a>H.</a> <n>Vatr&eacute;</n></aut>
+    <tit>Neologisma glosaro, postrikolto al PIV</tit>
+    <ald>tria eldono kun la&ubreve;tema klasifiko kaj rimaro en
+        suplemento</ald>
+    <eld>
+      <nom>Artur E. Iltis</nom>
+      <lok>Saarbr&uuml;cken</lok>
+      <dat>1989</dat>
+      <isbn>3-927613-07-X</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="NePiv" tip="vortaro">
+    <aut><a>A.</a> <n>Cherpillod</n></aut>
+    <tit>Nepivaj vortoj</tit>
+    <ald>listo de 6800 vortoj ne trovi&gcirc;antaj en la PIV el kiuj kelkaj
+         povas esti utilaj</ald>
+    <eld>
+      <nom>la a&ubreve;toro</nom>
+      <lok>Courgenard Francio</lok>
+      <dat>1988</dat>
+      <isbn>2-906134-05-8</isbn>
+    </eld>
+  </vrk>
+ 
+  <vrk mll="NT">
+    <url>&url_wd;/biblio</url>
+    <tit>La Nova Testamento</tit>
+    <ald>de nia Sinjoro kaj Savanto Jesuo Kristo</ald>
+    <eld>
+      <nom>Brita kaj Alilanda Biblia Societo</nom>
+      <lok>Londono</lok>
+    </eld>
+  </vrk>
+
+  <vrk mll="Oomoto">
+    <url>http://www.oomoto.or.jp/Esperanto/esRevuo/</url>
+    <tit>Oomoto</tit>
+    <ald>Oficiala organo de Oomoto kaj UHA</ald>
+    <eld>
+      <nom>Oomoto</nom>
+      <lok>Kioto</lok>
+      <dat>1925-</dat>
+    </eld>
+  </vrk>
+
+   <vrk mll="OriginoDeSpecioj">
+     <url>http://www4.vc-net.ne.jp/~klivo/origino/</url>
+     <aut><a>&Ccirc;arlz</a> <n>Darvin</n></aut>
+     <trd><a>Klivo</a> <n>Lendon</n></trd>
+     <tit>La Origino de Specioj</tit>
+   </vrk>
+
+
+  <vrk mll="OV">
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Originala Verkaro</tit>
+  </vrk>
+
+  <vrk mll="PatrojFiloj">
+    <url>http://miresperanto.com/biblioteko/patroj_kaj_filoj.htm</url>
+    <aut><a>I. S.</a> <n>Turgenjev</n></aut>
+    <trd><a>Kazimierz</a> <n>Bein</n></trd>
+    <tit>Patroj kaj filoj</tit> 
+    <eld>
+      <nom>Libroservo Federacio de laboristaj esperantistoj</nom>
+      <lok>Amsterdamo</lok>
+      <dat>[proks. 1938]</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="PGl">
+    <aut><n>Kalocsay</n></aut>
+    <aut><n>Waringhien</n></aut>
+    <aut><n>Bernard</n></aut>
+    <tit>Parnasa Gvidlibro</tit>
+    <eld>
+      <lok>Pisa</lok>
+      <dat>1984</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Paroloj">
+    <url>&url_wd;/paroloj/</url>
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <tit>Paroloj</tit>
+  </vrk>
+
+  <vrk mll="PIV1" tip="vortaro">
+    <tit>Plena Ilustrita Vortaro</tit>
+    <eld>
+      <nom>SAT</nom>
+      <lok>Parizo</lok>
+      <dat>1970</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="PIV2" tip="vortaro">
+    <tit>La Nova Plena Ilustrita Vortaro</tit>
+    <eld>
+      <nom>SAT</nom>
+      <lok>Parizo</lok>
+      <dat>2002</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="PIV3" tip="vortaro">
+    <tit>Plena Ilustrita Vortaro de Esperanto 2005</tit>
+    <eld>
+      <nom>SAT</nom>
+      <lok>Parizo</lok>
+      <dat>2005</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Plumamikoj">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=ne-nur-leteroj-de-plumamikoj</url>
+     <aut><a>Marjorie</a> <n>Boulton</n></aut>
+     <tit>Ne nur leteroj de plum-amikoj</tit>
+     <eld>
+       <nom>Eldona Societo Esperanto</nom>
+       <lok>Malm&ouml;</lok>
+       <dat>1984</dat>
+       <nro>1a eldono</nro>
+     </eld>
+  </vrk>
+
+  <vrk mll="PMEG" tip="leksikono">
+    <url>https://bertilow.com/pmeg/</url>
+    <aut><a>Bertilo</a> <n>Wennergren</n></aut>
+    <tit>Plena Manlibro de Esperanta Gramatiko</tit>
+  </vrk>
+
+  <vrk mll="Po&scirc;Atlas">
+    <aut><a>Ludmila</a> <n>Jirouskov&aacute;</n> (red.)</aut>
+    <aut><a>Bohumil</a> <n>Stehl&iacute;k</n> (red.)</aut>
+    <tit>Po&scirc;atlaso de la mondo</tit>
+    <eld>
+       <nom>Kartografie</nom>
+       <lok>Prago</lok>
+       <dat>1971</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="PV" tip="vortaro">
+    <aut><a>E.</a> <n>Grosjean-Maupin</n></aut>
+    <tit>Plena Vortaro de Esperanto</tit>
+    <eld>
+      <nom>SAT</nom>
+      <lok>Parizo</lok>
+      <dat>1934</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="PrV">
+    <url>&url_wd;/proverb/</url>
+    <aut><a>L. L.</a> <n>Zamenhof</n></aut>
+    <aut><a>C.</a> <n>Rogister</n> ed.</aut>
+    <tit>Proverbaro esperanta</tit>
+    <eld>
+      <nom>Stafeto</nom>
+      <lok>La Laguna</lok>
+      <dat>1974</dat>
+      <isbn>400-7609-6</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="RabistFab">
+    <url>http://mujweb.atlas.cz/Kultura/malovec/RABISTA1.HTM</url>
+    <aut><a>Josef</a> <n>&Ccaron;apek</n></aut>
+    <tit>La unua rabista fabelo</tit>
+  </vrk>
+
+  <vrk mll="Rabistoj">
+    <url>&url_wd;/rabistoj/index.html</url>
+    <aut><a>Frederiko</a> <n>Schiller</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>La rabistoj</tit>
+    <ald>Dramo en kvin aktoj</ald>    
+    <eld>
+      <nom>Esp. Centra Librejo</nom>
+      <lok>Parizo</lok>
+      <dat>1928</dat>
+      <nro>2a eldono</nro>
+    </eld>
+  </vrk>
+
+  <vrk mll="Revadoj">
+    <aut><a>Jean-Jacques</a> <n>Rousseau</n></aut>
+    <trd><a>Andr&eacute;</a> <n>Gilles</n></trd>
+    <tit>La revadoj de soleca promenanto</tit>
+    <ald>Franca Esperantisto, kaj. 414 (09/1990) kaj 420 (04/1991)</ald>
+    <eld>
+      <nom>Unui&gcirc;o Franca por Esperanto, 
+        &ccirc;e Flandra Esperanto-Ligo</nom>
+    </eld>
+  </vrk>
+
+  <vrk mll="Revizoro">
+    <url>&url_wd;/revizoro/index.html</url>
+    <aut><a>N. V.</a> <n>Gogol</n></aut>
+    <trd><a>L. L.</a> <n>Zamenhof</n></trd>
+    <tit>La Revizoro</tit>
+  </vrk>
+
+  <vrk mll="RLN">
+    <url>&url_ade;/decidoj/landnomoj/listo_de_rekomendataj_landnomoj/</url>
+    <tit>Listo de Rekomendataj Landnomoj</tit>
+    <ald>Oficialaj Informoj, n-ro 12</ald>
+    <eld>
+      <nom>Akademio de Esperanto</nom>
+      <dat>2009</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="RokPop" tip="termiaro">
+    <url>https://bertilow.com/roko/</url>
+    <aut><a>B.</a> <n>Wennergren</n></aut>
+    <tit>Roko kaj Popo, Popularmuzika Terminaro en Esperanto</tit>
+  </vrk>
+
+  <vrk mll="RugxDom">
+    <aut><a>Cao</a> <n>Xueqin</n></aut>
+    <trd><a>Xie</a> <n>Yuming</n></trd>
+    <tit>Ru&gcirc;doma son&gcirc;o</tit>
+    <eld>
+      <nom>&Ccirc;ina Esperanto-Eldonejo</nom>
+      <lok>Beijing</lok>
+      <dat>1995</dat>
+      <isbn>7-5052-0235-9</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="Salamandroj">
+    <aut><a>Karel</a> <n>&Ccaron;apek</n></aut>
+    <trd><a>J.</a> <n>Vondrou&scaron;ek</n></trd>
+    <tit>Milito kontra&ubreve; salamandroj</tit>
+  </vrk>
+
+  <vrk mll="SatirRak">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=satiraj-rakontoj</url>
+     <aut><a>S&aacute;ndor</a> <n>Szathm&aacute;ri</n></aut>
+     <tit>Satiraj rakontoj</tit>
+     <eld>
+       <dat>1957-1972</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="ScTerm" tip="terminaro">
+    <url>&url_mjb;/ScTerm.tif</url>
+    <aut><a>Maurice</a> <n>Rollet de l'Isle</n></aut>
+    <tit>Scienca Fundamenta Esperanta Terminaro</tit>
+    <eld>
+      <nom>Centra Presejo Esperantista</nom>
+      <lok>Parizo</lok>
+      <dat>1931</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Sezonoj">
+    <url>http://www.esperanto.net/literaturo/sez/</url>
+    <tit>almanako Sezonoj</tit>
+    <eld>
+     <nom>Sezonoj</nom>
+     <lok>Jekaterinburg</lok>
+     <dat>1984-1990</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="SkandalJozef">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=la-skandalo-pro-jozefo</url>
+     <aut><a>Valdemar</a> <n>Vina&rcaron;</n></aut>
+     <tit>La skandalo pro Jozefo</tit>
+     <eld>
+       <nom>&Ccirc;EA</nom>
+       <lok>Prago</lok>
+       <dat>1981</dat>
+       <nro>1a eldono</nro>
+     </eld>
+     <eld>
+       <nom>Kava-Pech</nom>
+       <lok>Dobrichovice</lok>
+       <dat>2002</dat>
+       <nro>2a eldono</nro>
+     </eld>
+     <eld>
+       <nom>Inko</nom>
+       <lok>Tyres&ouml;</lok>
+       <dat>2002</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="SPIV" tip="vortaro">
+    <tit>Plena Ilustrita Vortaro de Esperanto, Suplemento</tit>
+    <eld>
+      <nom>SAT</nom>
+      <lok>Parizo</lok>
+      <dat>1987</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="SPV" tip="vortaro">
+     <aut><a>Gaston</a> <n>Waringhien</n></aut>
+     <tit>Plena Vortaro de Esperanto, Suplemento</tit>
+     <eld>
+       <nom>SAT</nom>
+       <lok>Parizo</lok>
+       <dat>1953</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="Studoj">
+     <aut><a>Vilmos</a> <n>Benczik</n></aut>
+     <tit>Studoj pri la Esperanta Literaturo</tit>
+     <eld>
+       <nom>La Kritikanto</nom>
+       <lok>Takasago-si</lok>
+       <dat>1980</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="&Scirc;talrato">
+    <url>http://esperanto-ondo.ru/Rato01.htm</url>
+    <aut><a>Harry</a> <n>Harrison</n></aut>
+    <trd><a>Reinhard</a> <n>F&ouml;ssmeier</n> k.a.</trd>
+    <tit>Naski&gcirc;o de la rustimuna &scirc;talrato</tit>
+    <eld>
+       <nom>Sezonoj</nom>
+       <lok>Jekaterinburg</lok>
+       <dat>1996</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="TermKurs">
+    <aut><a>Jan</a> <n>Werner</n></aut>
+    <tit>Terminologia Kurso</tit>
+    <eld>
+      <nom>Sdru&zcaron;en&yacute; klub ROH</nom>
+      <lok>Roudnice nad Labem</lok>
+      <dat>1986</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="TK" tip="terminaro">
+    <aut></aut>
+    <tit>Ilustrita terminaro de kombinita transporto, franca, angla, germana,
+     esperanta, serba</tit>
+    <eld>
+       <nom>Interpres 1847</nom>
+       <lok>Beogrado</lok>
+       <dat>1998</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="TW" tip="vortaro">
+    <aut><a>Rudolf</a> <n>Haferkorn</n></aut>
+    <tit>Technisches W&ouml;rterbuch Deutsch-Esperanto</tit>
+    <eld>
+       <nom>Esperanto Press</nom>
+       <lok>Cardiff</lok>
+       <dat>1967</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="UrdHadda">
+    <aut><a>Deck</a> <n>Dorval</n></aut>
+    <tit>Urd Hadda murdita!</tit>
+    <ald>Serio Stafeto, n-ro 13</ald>
+    <eld>
+      <nom>Flandra Esperanto-Ligo</nom>
+      <lok>Antwerpen</lok>
+      <dat>1990</dat>
+      <isbn>90-71205-37-1</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="VdE" tip="vortaro">
+    <url>www.jperegrino.com.br/pdfs/Kabe.pdf</url>
+    <aut><a>Kazimierz</a> <n>Bein</n></aut>
+    <tit>Vortaro de Esperanto</tit>
+    <eld>
+      <nom>Hachette</nom>
+      <lok>Parizo</lok>
+      <dat>1912</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Vetero">
+    <aut><a>Denis</a> <n>Riley</n></aut>
+    <aut><a>Lewis</a> <n>Spolton</n></aut>
+    <tit>Vetero kaj klimato de la mondo</tit>
+    <eld>  
+       <nom>Universala Esperanto-Asocio</nom>
+       <lok>Rotterdam</lok>
+       <dat>1987</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="Viki" tip="leksikono">
+     <url>http://eo.wikipedia.com/</url>
+     <tit>Vikipedio</tit>
+     <eld>
+       <dat>de 2001</dat>
+     </eld>
+  </vrk>
+
+  <vrk mll="VivZam">
+    <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=vivo-de-zamenhof</url>
+    <aut><a>Edmond</a> <n>Privat</n></aut>
+    <tit>Vivo de Zamenhof</tit> 
+    <eld>
+      <nom>The Esperanto publishing co. ltd</nom>
+      <lok>Heronsgate</lok>
+      <dat>1937</dat>
+      <nro>2a eldono</nro>
+    </eld>
+  </vrk>
+
+  <vrk mll="Voja&gcirc;o">
+    <aut><a>Boris</a> <n>Kolker</n></aut>
+    <tit>Voja&gcirc;o en Esperanto-lando</tit>
+    <eld>
+      <nom>Universala Esperanto-Asocio</nom>
+      <lok>Rotterdam</lok>
+      <dat>2002</dat>
+      <isbn>92-9017-078-6</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="Voja&gcirc;Imp">
+     <url>https://tekstaro.com/pl/prenitutantekston.pl?nomo=vojaghimpresoj</url>
+     <aut><a>Valdemar</a> <n>Langlet</n></aut>
+     <tit>Voja&gcirc;impresoj</tit>
+     <eld>
+       <nom>Lingvo Internacia</nom>
+       <dat>1895</dat>
+       <nro>1a eldono</nro>
+     </eld>
+     <eld>
+       <nom>Inko</nom>
+       <lok>Tyres&ouml;</lok>
+       <dat>2003</dat>
+       <nro>2a eldono</nro>
+     </eld>
+  </vrk>
+
+  <vrk mll="WAPS">
+    <aut><a>William</a> <n>Auld</n></aut>
+    <tit>Pajleroj kaj stoploj</tit>
+    <eld>
+      <nom>Universala Esperanto-Asocio</nom>
+      <lok>Rotterdam</lok>
+      <dat>1997</dat>
+      <isbn>92-9017-052-2</isbn>
+    </eld>
+  </vrk>
+
+  <vrk mll="WED" tip="vortaro">
+    <aut><a>J.C.</a> <n>Wells</n></aut>
+    <tit>Esperanto Dictionary Esperanto-English, English-Esperanto</tit>
+    <eld>
+       <nom>Teach Yourself Books</nom>
+       <lok>London</lok>
+       <dat>1969</dat>
+    </eld>
+  </vrk>
+
+  <vrk mll="ZR" tip="vortaro">
+    <aut><a>Eugen</a> <n>W&uuml;ster</n></aut>
+    <tit>Zamenhof-radikaro</tit>
+    <eld>
+      <nom>Ferdinand Hirt und Sohn</nom>
+      <lok>Leipzig</lok>
+      <dat>1927</dat>
+    </eld>
+  </vrk>
+
+</bibliografio>
