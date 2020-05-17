@@ -18,6 +18,11 @@ on:
 # https://www.innoq.com/de/blog/github-actions-automation/
 # https://github.com/ad-m/github-push-action/blob/master/start.sh
 
+
+env:
+  # image tag {latest|stabila}
+  IMAGE_TAG: stabila
+
 jobs:
 
   revo-redaktoj:
