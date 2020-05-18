@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: egal.xml,v 1.56 2020/05/11 18:10:56 revo Exp $">
+<art mrk="$Id: egal.xml,v 1.57 2020/05/18 20:35:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>egal</rad>/a <fnt><bib>PV</bib></fnt>
@@ -51,7 +51,7 @@
           <fnt>
             <bib>Far1</bib>
             <lok>&Ccirc;apitro I</lok>
-          </fnt>;
+          </fnt>.
         </ekz>
       </dif>
       <refgrp tip="vid">
@@ -148,8 +148,8 @@
         <frm am="a"><k>a</k></frm>
         kaj <frm am="b"><k>b</k></frm> oni signas per 
         <frm am="a=b"><k>a</k> = <k>b</k></frm>
-        <klr> (a egalas al bo, a&ubreve;: a egalas bo-on,
-          a&ubreve;: a egal bo)</klr>.
+        <klr> (<nom>a</nom> egalas al <nom>bo</nom>, a&ubreve;: <nom>a</nom> egalas <nom>bo</nom>-on,
+          a&ubreve;: <nom>a</nom> <esc>egal</esc> <nom>bo</nom>)</klr>.
       </rim>
       <trd lng="pl">r&oacute;wny</trd>
     </subsnc>
@@ -233,10 +233,24 @@
     <dif>
       Esti <tld/>a al:
       <ekz>
+        lia merito ne <tld/>as al liaj pretendoj;
+      </ekz>
+      <ekz>
         suspekto pruvon ne <tld/>as<fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        lia merito ne <tld/>as al liaj pretendoj.
+        kiam nokto vualas, &ccirc;iuj koloroj <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu el ili povus vin <tld/>i &dash; vi havas korpon kiel la statuo de Izido,
+        skulptita en eburo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="ca">
@@ -282,9 +296,34 @@
 
 <drv mrk="egal.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatTerm</bib>, <lok>p. 15</lok></fnt>
-  <snc>
+  <snc mrk="egal.0ajxo.io">
+    <dif>
+      Io <tld/>a:
+      <ekz>
+        donu al viaj sklavoj justa&jcirc;on kaj <tld/>a&jcirc;on
+        <fnt>
+          <bib>NT</bib>
+          <lok>Koloseanoj 4:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la turetoj kaj balkonoj estis faritaj el ar&gcirc;entofiligrano de tiel mirinda speco,
+        ke en tuta Fantaziujo ne ekzistis <tld/>a&jcirc;o
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Ar&gcirc;enta Urbo Amarganto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Gleiches</trd>,
+      <trd>Vergleichbares</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="egal.0ajxo.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib>, <lok>p. 15</lok></fnt>
     <dif>
       Skriba&jcirc;o, kiu asertas <tld/>econ de du matematikaj objektoj:
       <ekz>
@@ -320,7 +359,7 @@
   <kap>ne<tld/>a&jcirc;o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib>, <lok>p. 15</lok></fnt>
-  <snc>
+  <snc mrk="egal.ne0ajxo.MAT">
     <dif>
       Skriba&jcirc;o, kiu asertas ne<tld/>econ de du matematikaj
       objektoj, a&ubreve; montras ordo-rilaton inter ili:
@@ -362,9 +401,30 @@
     <dif>
       Igi <tld/>a:
       <ekz>
-        koncerne tiun virinon, kiu <klr>...</klr> perdis la estimon al
+        koncerne tiun virinon, kiu <klr>[&#8230;]</klr> perdis la estimon al
         si mem, sin mem <tld/>igis al senta&ubreve;ga polvo
-        <fnt><bib>Marta</bib></fnt>.
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        la forto de la beleco pli facile faros el la virto mal&ccirc;aston, ol la forto de la
+        virto <tld/>igos al si la belecon
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li tenas la pistolon anta&ubreve; la viza&gcirc;o, <tld/>igas la sa&gcirc;ulon al la malsa&gcirc;ulo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kio <tld/>igas lin al la dioj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>?
       </ekz>
     </dif>
   </snc>
@@ -432,6 +492,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Egalismus</trd>
   </snc>
   <trd lng="ca">igualitarisme</trd>
   <trd lng="fr">&eacute;galitarisme</trd>
@@ -449,7 +510,7 @@
       <ekz>
         farindas pli gravaj aferoj ol diskuti &ccirc;u la 
         damnitaj supersignoj skribi&gcirc;u per h, x a&ubreve; unikode 
-        <klr>...</klr> tio estas fek<tld/>a
+        <klr>[&#8230;]</klr> tio estas fek<tld/>a
         <fnt>
           <aut>P. Oberndorfer</aut>,
           <vrk><url ref="https://groups.google.com/group/soc.culture.esperanto/browse_thread/thread/41d0b343e1b05b17/a437eba963ee8027?hl=eo">
@@ -462,6 +523,7 @@
       <trd>completament indiferent</trd>,
       <trd>de tant se me'n fot</trd>
     </trdgrp>
+    <trd lng="de">schei&szlig; <ind>egal</ind></trd>
     <trd lng="fr">compl&egrave;tement &eacute;gal</trd>
   </snc>
 </drv>
@@ -470,7 +532,7 @@
   <kap>kontra&ubreve;<tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib>, <lok>p. 7</lok></fnt>
-  <snc>
+  <snc mrk="egal.kontraux0a.MAT">
     <dif>
       <klr>(p.p. du elementoj de <ref cel="grup.0o.MAT">grupo</ref> kun
         adicie signata operacio)</klr>
@@ -496,7 +558,7 @@
 <drv mrk="egal.kontraux0o">
   <kap>kontra&ubreve;<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="egal.kontraux0o.MAT">
     <dif>
       <ref cel="neuxtr.0iganto.MAT">Ne&ubreve;triganto</ref> rilate
       al adicie signata <ref cel="operac.0o.MAT">operacio</ref>:
@@ -535,7 +597,7 @@
 <drv mrk="egal.kontraux0igebla">
   <kap>kontra&ubreve;<tld/>igebla</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="egal.kontraux0igebla.MAT">
     <dif>
       <klr>(p.p. elemento en adicie signata
         <ref cel="monoid.0o">monoido</ref>)</klr>
@@ -556,11 +618,36 @@
 
 <drv mrk="egal.sen0a">
   <kap>sen<tld/>a</kap>
-  <snc>
+  <snc mrk="egal.sen0a.unika">
     <dif>
-      Unika, nekomparebla.
-    </dif>
+      Unika, nekomparebla:
+      <ekz>
+        sen<tld/>a tradicia hospitalo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmond Lamalrev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009644.php">&Jcirc;urnalistoj ne timigu</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu el la plej rimarkindaj kaj vere sen<tld/>aj skoloj de verkistoj en la mondo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="https://www.monato.be/2007/009255.php">Insulo de verkistoj</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>    
+    <trdgrp lng="de">
+      <trd>unvergleichlich</trd>,
+      <trd>ohnesgleichen</trd>
+    </trdgrp>
   </snc>
+  <rim>
+    Ne konfuzu kun <ref tip="hom" cel="egal.sen0a">senegala</ref>, t.e. rilata al la lando Senegalo.
+  </rim>
   <trd lng="be">&c_n;&c_je;&c_p;&c_a;&c_r;&c_a;&c_w;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trdgrp lng="ca">
     <trd>sense parell</trd>,
@@ -599,6 +686,10 @@
       </ekz>
     </dif>
     <trd lng="ca">sense importar</trd>
+    <trdgrp lng="de">
+      <trd>ganz <ind>egal</ind></trd>,
+      <trd>ganz <ind>gleich</ind></trd>
+    </trdgrp>
     <trd lng="en">no matter</trd>
   </snc>
   <snc mrk="egal.tut0e.malgrauxe">
@@ -617,7 +708,7 @@
       <ekz>
         kvankam poste estis malkovrite, ke en multaj virusoj
         genetika informo povas esti kodita en RNA (ribonukleata
-        acido), tut<tld/>e la esenco de la malkovro de Avery ne
+        acido), tut<tld/>e la esenco de la malkovro de <nom>Avery</nom> ne
         &scirc;an&gcirc;i&gcirc;is 
         <fnt>
           <aut>V. Lemelev</aut>, <vrk>Eltrovo de prionoj</vrk>.
@@ -629,6 +720,7 @@
       <trd>igualment</trd>,
       <trd>no obstant</trd>
     </trdgrp>
+    <trd lng="de">dessen <ind>ungeachtet</ind></trd>
     <trd lng="en">all the same</trd>
   </snc>
   <trd lng="ru">&c_v;&c_s;&c_jo; &c_r;&c_a;&c_v;&c_n;&c_o;</trd>
@@ -639,13 +731,15 @@
   <snc mrk="egal.tagnokt0eco.AST">
     <uzo tip="fak">AST</uzo>
     <uzo tip="fak">KAL</uzo>
-    <ref tip="dif" cel="ekvino.0o">ekvinokso</ref>
-    <ekz>
-      en la tago de la somera tagnokt<tld/>eco, &ccirc;irka&ubreve; la na&ubreve;a
-      horo vespere, <klr>...</klr> anta&ubreve; la pordego de l' templo
-      haltis du voja&gcirc;antaj pastroj
-      <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="ekvino.0o">Ekvinokso</ref>:
+      <ekz>
+        en la tago de la somera tagnokt<tld/>eco, &ccirc;irka&ubreve; la na&ubreve;a
+        horo vespere, <klr>[&#8230;]</klr> anta&ubreve; la pordego de l' templo
+        haltis du voja&gcirc;antaj pastroj
+        <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_w;&c_n;&c_a;&c_d;&c_z;&c_je;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>
   <trd lng="ca">equinocci</trd>
@@ -676,6 +770,9 @@
 </art>
 <!--
 $Log$
+versio 1.57 2020/05/18 20:35:26
+Wolfram Diestel: ekz-oj, snc-mrk, germ trd
+
 versio 1.56 2020/05/11 18:10:56
 Wolfram Diestel: ~a: fnt-oj, ekz-oj, ref-oj, germ trd
 
@@ -695,8 +792,5 @@ Revision 1.51  2015/01/17 14:10:18  revo
 Jeromo Vasxe: + ~i psi
 
 Revision 1.50  2012/09/05 07:10:13  revo
-Marc Rausell: + trd ca
-
-Revision 1.49  2011/05/11 12:10:10  revo
 -->
 </vortaro>
