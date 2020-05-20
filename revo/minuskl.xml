@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: minuskl.xml,v 1.21 2015/10/28 06:10:15 revo Exp $">
+<art mrk="$Id: minuskl.xml,v 1.22 2020/05/20 16:35:27 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>minuskl</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -29,7 +29,7 @@
       <ekz>
         <uzo tip="fak">HIS</uzo>
         la <ind>karolida skribo <tld/>a</ind> formis bazon por la
-        novlatinaj etliteroj.
+        novlatinaj etliteroj;
         <trd lng="de">karolingische Minuskelschrift</trd>
         <trd lng="hu">Karoling-minuszkula</trd>
         <trd lng="en">Carolingian minuscule <klr>(writing)</klr></trd>
@@ -37,12 +37,22 @@
         <trd lng="pl">minusku&lstroke;a karoli&nacute;ska</trd>
         <trd lng="ru">&c_k;&c_a;&c_r;&c_o;&c_l;&c_i;&c_n;&c_g;&c_s;&c_k;&c_i;&c_j; &c_m;&c_i;&c_n;&c_u;&c_s;&c_k;&c_u;&c_l;</trd>
       </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <ref tip="ant" cel="majuskl.0a">majuskla</ref> vo&ccirc;o por <tld/>a publiko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="https://www.monato.be/2013/010910.php"
+              >Dobos Delight</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <bld lok="../bld/mincif.png">
       la <tld/>aj ciferoj
     </bld>
   </snc>
-  <ref tip="ant" cel="majuskl.0a">majuskla</ref>
   <trdgrp lng="be">
     <trd>&c_m;&c_ib;&c_n;&c_u;&c_s;&c_k;&c_u;&c_l;&c_mol;&c_n;&c_y; <klr tip="amb">(&c_s;&c_p;&c_o;&c_s;&c_a;&c_b;
     &c_p;&c_ib;&c_s;&c_mol;&c_m;&c_a;)</klr></trd>,
@@ -82,9 +92,22 @@
     <uzo tip="fak">GRA</uzo>
     <uzo tip="fak">TIP</uzo>
     <uzo tip="fak">KOMP</uzo>
-    <ref tip="dif" cel="liter.malgranda0o">malgranda litero</ref>
+    <dif>
+      <ref tip="dif" cel="liter.malgranda0o">Malgranda litero</ref>:
+      <ekz>
+        antikva biblio en la gaela lingvo <klr>[&#8230;]</klr> transskribita el la irlanda
+        tiparo al la legeblaj romiaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="https://www.monato.be/2006/008950.php"
+              >Ne irlandgaela, sed skotgaela</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="ant" cel="majuskl.0o">majusklo</ref>
   </snc>
-  <ref tip="ant" cel="majuskl.0o">majusklo</ref>
   <trd lng="be">&c_m;&c_a;&c_l;&c_a;&c_ja; <ind>&c_l;&c_ib;&c_t;&c_a;&c_r;&c_a;</ind></trd>
   <trdgrp lng="ca">
     <trd>min&uacute;scula</trd>,
@@ -118,18 +141,18 @@
 
 <drv mrk="minuskl.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <snc mrk="minuskl.0igi.TIP">
     <uzo tip="fak">TIP</uzo>
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Transformi en <tld/>an skribon:
       <ekz>
-        la DOS-a dosiernomo <ctl>USKL.XML</ctl> <tld/>igite i&gcirc;as
-        <ctl>uskl.xml</ctl>.
+        la <nom>DOS</nom>-a dosiernomo &leftquot;<nom>USKL.XML</nom>&rightquot; <tld/>igite i&gcirc;as
+        &leftquot;<nom>uskl.xml</nom>&rightquot;.
       </ekz>
     </dif>
+    <ref tip="vid" cel="uskl.0o">usklo</ref>
   </snc>
-  <ref tip="vid" cel="uskl.0o">usklo</ref>
   <trd lng="ca">escriure en min&uacute;scules</trd>
   <trd lng="en"><klr>to</klr> <ind>lowercase</ind></trd>
   <trd lng="es">pasar a min&uacute;sculas</trd>
@@ -144,6 +167,9 @@
 </art>
 <!--
 $Log$
+versio 1.22 2020/05/20 16:35:27
+Wolfram Diestel: +2 ekz
+
 Revision 1.20  2014/07/07 07:10:12  revo
 Damien Brucker: +ref (dauxrigo)
 
