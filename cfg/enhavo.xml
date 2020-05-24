@@ -72,6 +72,7 @@
     </sekcio>
     <sekcio titolo="Vortaroj kiel eLibro (EPUB)">
       <ero titolo="EPUB-Vortaroj" ref="elibro">
+      <!--
         <alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">                                     Publikigi kompletan Revon kiel elektronika libro en formo EPUB &scirc;ajnas
         momente tro ambicia kaj pro la amplekso kaj pro la fakto, ke strukturoj necesaj por vortaraj 
 	indeksoj en EPUB-normo &gcirc;is nun estas nur rekomenditaj sed ne &gcirc;enerale subtenataj.
@@ -81,17 +82,21 @@
 	  Fundamento de Esperanto kaj Vortaro de rilatoj, kiu estas seplingva eltira&jcirc;o el Revo 
 	  kun interreferencoj. Vi povas momente nur uzi la normalan plentekstan ser&ccirc;funkcion.
         </alineo>
+        -->
       </ero>
     </sekcio>
     <sekcio titolo="XDXF-versio de Reta Vortaro">
       <ero titolo="XDXF-Revo" ref="revoxdxf">
+        <!--
         <alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
         Pri informoj kiel utiligi Revon en formo XDXF vidu sur pa&gcirc;o <url ref="../revo/dok/operaciumoj.html">Kiel uzi Revon en diversaj sistemoj</url>.
         </alineo>
+        -->
       </ero>
     </sekcio>
     <sekcio titolo="Revo por SQLite3">
       <ero titolo="SQLite3-Revo" ref="revosql">
+      <!--
 	<alineo style="font-size: small; margin-top: 0.5em; margin-left: 2em; width: 70%">
 	SQLite3 estas elskatole uzebla en diversaj po&scirc;komputiloj, kvankam la datumbazo sen 
 	fasada programo ankora&ubreve; ne estas tre utila, sed ja bona bazo por ambiciaj programistoj. 
@@ -105,6 +110,7 @@
 	  Cetere vi povas anka&ubreve; ricevi Revon en bedic-formato.
 	  Skribu al la Revo-administranto, se vi bezonas.
         </alineo>
+        -->
       </ero>
     </sekcio>
     <sekcio titolo="Vortanalizado per Revo-radikaro">
@@ -195,16 +201,13 @@
        <MANKOJ titolo="Kelkaj mankantaj tradukoj"/>
        <ero ref="/cgi-bin/mx_trd.pl" titolo="&Ccirc;iuj mankantaj tradukoj" kadro="precipa"/>
 
-       <ero ref="https://revuloj.github.io/temoj/redinfo.html" titolo="Fari&gcirc;i redaktanto"  style="margin-top: 0.4em; margin-bottom: 0" kadro="precipa"/>
-       <ero ref="https://revuloj.github.io/temoj/revolist.html" titolo="Dissendolisto" kadro="precipa"/>
-       <ero ref="https://revuloj.github.io/temoj/revoserv.html" titolo="Redaktoservo" kadro="precipa"/>
-       <ero ref="../dok/lingva_manlibro.html" titolo="Lingva manlibro" kadro="precipa"/>
-       <ero ref="../dok/manlibro.html" titolo="Te&hcirc;nika manlibro" kadro="precipa"/>
-       <ero ref="../dok/vindoza_manlibro.html" titolo="Manlibro por Vindozo" kadro="precipa"/>
-       <ero ref="http://cyprych.neostrada.pl/tekstoj/komputiloj/vim_revo.html" titolo="Uzi redaktilon Vim" kadro="_new"/> 
-
-       <ero ref="../dok/dtd.html" titolo="Dokumenttipdifino" style="margin-top: 0.4em; margin-bottom: 0"/>
-       <ero ref="../dok/ordigo.html" titolo="Alfabetoj"/>
+       <ero ref="https://revuloj.github.io/temoj/redinfo" titolo="Fari&gcirc;i redaktanto"  style="margin-top: 0.4em; margin-bottom: 0" kadro="_new"/>
+       <ero ref="https://revuloj.github.io/temoj/revolist" titolo="Dissendolisto" kadro="_new"/>
+       <ero ref="https://revuloj.github.io/temoj/revoserv" titolo="Redaktoservo" kadro="_new"/>
+       <ero ref="https://revuloj.github.io/manlibroj.html" titolo="Manlibroj" kadro="_new"/>
+       <ero ref="https://revuloj.github.io/temoj/rnc.html" titolo="Dokumentstrukturo"
+	          kadro="_new"/>
+       <ero ref="../dok/ordigo.html" titolo="Alfabetoj" style="margin-top: 0.4em; margin-bottom: 0"/>
        <ero ref="../dok/klasoj.html" titolo="Listo de klasoj"/>
        <ero ref="../dok/fakoj.html" titolo="Listo de fakoj"/>
        <ero ref="../dok/lingvoj.html" titolo="Listo de lingvoj"/>
@@ -258,15 +261,12 @@
        <MANKOJ titolo="Kelkaj mankantaj tradukoj"/>
        <ero ref="/cgi-bin/mx_trd.pl" titolo="&Ccirc;iuj mankantaj tradukoj" kadro="precipa"/>
        <ero ref="https://revuloj.github.io/temoj/redinfo" titolo="Fari&gcirc;i redaktanto"  style="margin-top: 0.4em; margin-bottom: 0" kadro="_new"/>
-       <ero ref="https://revuloj.github.io/temoj/revolist" titolo="Dissendolisto" kadro="precipa"/>
-       <ero ref="https://revuloj.github.io/temoj/revoserv" titolo="Redaktoservo" kadro="precipa"/>
-       <ero ref="../dok/lingva_manlibro.html" titolo="Lingva manlibro" kadro="precipa"/>
-       <ero ref="../dok/manlibro.html" titolo="Te&hcirc;nika manlibro" kadro="precipa"/>
-       <ero ref="../dok/vindoza_manlibro.html" titolo="Manlibro por Vindozo" kadro="precipa"/>
-       <ero ref="http://cyprych.neostrada.pl/tekstoj/komputiloj/vim_revo.html" titolo="Uzi redaktilon Vim" kadro="_new"/> 
+       <ero ref="https://revuloj.github.io/temoj/revolist" titolo="Dissendolisto" kadro="_new"/>
+       <ero ref="https://revuloj.github.io/temoj/revoserv" titolo="Redaktoservo" kadro="_new"/>
+       <ero ref="https://revuloj.github.io/manlibroj.html" titolo="Manlibroj" kadro="_new"/>
        <ero ref="https://revuloj.github.io/temoj/rnc.html" titolo="Dokumentstrukturo"
-	          kadro="_new" style="margin-top: 0.4em; margin-bottom: 0"/>
-       <ero ref="../dok/ordigo.html" titolo="Alfabetoj"/>
+	          kadro="_new"/>
+       <ero ref="../dok/ordigo.html" titolo="Alfabetoj" style="margin-top: 0.4em; margin-bottom: 0"/>
        <ero ref="../dok/klasoj.html" titolo="Listo de klasoj"/>
        <ero ref="../dok/fakoj.html" titolo="Listo de fakoj"/>
        <ero ref="../dok/lingvoj.html" titolo="Listo de lingvoj"/>
