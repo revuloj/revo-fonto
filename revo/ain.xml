@@ -2,20 +2,32 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ain.xml,v 1.10 2019/06/03 09:10:16 revo Exp $">
+<art mrk="$Id: ain.xml,v 1.11 2020/05/25 18:10:51 revo Exp $">
 <kap>
-  <rad>ain</rad>/o <fnt><bib>PIV1</bib></fnt>
+  <rad>ajnu</rad>o <fnt><bib>PIV2</bib></fnt>,
+  <var><kap><rad>ain</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="ain.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap>aino</kap></var></kap>
   <snc mrk="ain.0o.ETN">
     <dif>
       Ano de indi&gcirc;ena <ref tip="lst" cel="popol.0o"
       lst="voko:popolanoj">popolo</ref> de Japanujo
-      ankora&ubreve; lo&gcirc;anta en insulo <ctl>Hokkaido</ctl>
-      kaj en insularo <ctl>Kuriri</ctl>:
+      ankora&ubreve; lo&gcirc;anta en insulo <ref tip="vid"
+      cel="hokajd.0o">Hokajdo</ref> kaj en insularo <ctl>Kuriri</ctl>:
       <ekz>
-        la <tld/>oj estas indi&gcirc;enoj de Japanujo, nun &ccirc;. 13.000,
+        la plej granda regiono de Hon&scirc;uo iam estis lando de <tld
+        lit="A"/>oj, la a&ubreve;toktona popolo, kiu vivis anka&ubreve; en la insulo
+        Hokajdo anta&ubreve; la Japana konkero de la 19-a jarcento
+        <fnt>
+          <aut>Philippe Pataut C&eacute;l&eacute;rier trad. Thierry Tailhades</aut>
+          <vrk><url ref="https://eo.mondediplo.com/article2598.html"
+            >En Fukushima, banaligita katastrofo</url></vrk>
+          <lok>Le monde diplomatique, 2018-04-01</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ainoj estas indi&gcirc;enoj de Japanujo, nun &ccirc;. 13.000,
         lo&gcirc;antaj en Hokkaido, la plej norda insulo de la lando
         <fnt>
           <aut>MIKAMI Teruo</aut>,
@@ -33,18 +45,20 @@
   <trd lng="fr">A&iuml;nou<klr> (subst.)</klr></trd>
   <trd lng="id">Ainu</trd>
   <trd lng="it">Ainu</trd>
+  <trd lng="ja">&#12450;&#12452;&#12492; [<ind>&#12354;&#12356;&#12396;</ind>]</trd>
+  <trdgrp lng="nl">
+    <trd>Aino</trd>,
+    <trd>Ainoe</trd>,
+    <trd>Ainu</trd>
+  </trdgrp>
   <trd lng="sk">Aino</trd>
 </drv>
 
 <drv mrk="ain.0a">
-  <kap><tld/>a</kap>
+  <kap><tld/>a, <var><kap>aina</kap></var></kap>
   <snc mrk="ain.0a.ETN">
     <dif>
-      Rilatanta al la <tld lit="A"/>oj;
-      <ekz>
-        <tld/>a <ref tip="lst" cel="lingv.0o.homa"
-        lst="voko:lingvoj">lingvo</ref>;
-      </ekz>
+      Rilatanta al la <tld/>oj:
       <ekz>
         <tld/>aj dancoj;
       </ekz>
@@ -52,11 +66,36 @@
         <tld/>aj kutimoj.
       </ekz>
     </dif>
+    <trd lng="ca">ainu<klr> (adj.)</klr></trd>
+    <trd lng="de">Ainu-</trd>
+    <trd lng="fr">a&iuml;nou<klr> (adj.)</klr></trd>
+    <trd lng="ja">&#12450;&#12452;&#12492;&#12398; [<ind>&#12354;&#12356;&#12396;&#12398;</ind>]</trd>
   </snc>
-  <trd lng="ca">ainu<klr> (adj.)</klr></trd>
-  <trd lng="de">Ainu-</trd>
-  <trd lng="en">Ainu</trd>
-  <trd lng="fr">a&iuml;nou<klr> (adj.)</klr></trd>
+  <snc mrk="ain.0a.lingvo">
+    <dif>
+      <klr>(la <tld/>a)</klr> La <tld/>a
+      <ref tip="lst" lst="voko:lingvoj" cel="lingv.0o.homa">lingvo</ref>
+    </dif>
+    <ekz>
+      la raporto de Kabajama Yusuke pri la <tld/>a lingvo estis unu el
+      la plej interesaj en la sekcio kaj la a&ubreve;toro estis speciale
+      diplomita
+      <fnt>
+        <aut>Aleksandr Titajev</aut>
+        <vrk><url ref="http://esperanto-ondo.ru/86-lode.htm#86-21"
+          >En la Fora Oriento</url></vrk>
+        <bib>LOdE</bib>
+        <lok>2001:12</lok>
+      </fnt>
+    </ekz>
+    <trd lng="ja">&#12450;&#12452;&#12492;&#35486; [<ind>&#12354;&#12356;&#12396;&#12372;</ind>]</trd>
+    <trdgrp lng="nl">
+      <trd>Aino<klr tip="ind"> (taal)</klr></trd>,
+      <trd>Ainoe<klr tip="ind"> (taal)</klr></trd>,
+      <trd>Ainu<klr tip="ind"> (taal)</klr></trd>
+    </trdgrp>
+  </snc>
+  <trd lng="en">Ainu<klr tip="ind"> (language)</klr></trd>
   <trd lng="it">ainu</trd>
 </drv>
 
@@ -64,6 +103,9 @@
 
 <!--
 $Log$
+versio 1.11 2020/05/25 18:10:51
+Sam Penter: +var ajnuo, +snc la ajnua, +ekz-oj, +trd-oj
+
 Revision 1.9  2015/07/04 08:37:29  revo
 aldono de trd cs per skripto de M. von Laer
 
