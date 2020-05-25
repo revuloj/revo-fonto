@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: japan.xml,v 1.20 2020/02/27 20:10:43 revo Exp $">
+<art mrk="$Id: japan.xml,v 1.21 2020/05/25 19:10:34 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>japan</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -21,19 +21,23 @@
   </snc>
   <trd lng="bg">&c_ja;&c_p;&c_o;&c_n;&c_je;&c_c;</trd>
   <trd lng="de">Japaner</trd>
-  <trd lng="en">Japanese</trd>
+  <trd lng="en">Japanese<klr tip="amb"> (person)</klr></trd>
   <trdgrp lng="fr"> 
-    <trd>Japonais</trd>
-    <trd>Japonaise<klr> (subst.)</klr></trd>
+    <trd>Japonais<klr tip="ind"> (subst.)</klr></trd>
+    <trd>Japonaise<klr tip="amb"> (subst.)</klr></trd>
   </trdgrp>
   <trd lng="hu">jap&aacute;n</trd>
+  <trd lng="io">Japoniano</trd>
   <trd lng="it">Giapponese</trd>
+  <trd lng="ja">&#26085;&#26412;&#20154; [<ind>&#12395;&#12411;&#12435;&#12376;&#12435;</ind>]</trd>
+  <trd lng="ko">&#51068;&#48376;&#51064;</trd>
   <trd lng="nl">Japanner</trd>
   <trd lng="pl">Japo&nacute;czyk</trd>
   <trd lng="pt">Japon&ecirc;s</trd>
   <trd lng="sv">japan<klr> (person)</klr></trd>
-  <trd lng="tp">jan pi ma Nijon</trd>
+  <trd lng="tp">jan pi ma <ind>Nijon</ind></trd>
   <trd lng="vo">Yap&auml;nan</trd>
+  <trd lng="zh">&#26085;&#26412;&#20154; [<ind>r&igrave;b&ecaron;nr&eacute;n</ind>]</trd>
 </drv>
 
 <drv mrk="japan.0a">
@@ -45,20 +49,34 @@
         <tld/>a lingvo; <tld/>aj a&ubreve;toroj; <tld/>aj kutimoj.
       </ekz>
     </dif>
-   <trd lng="en">Japanese<klr> (adj.)</klr></trd>
-   <trdgrp lng="fr"> 
-    <trd>japonais</trd>
-    <trd>japonaise<klr> (adj.)</klr></trd>
-   </trdgrp>
+    <trdgrp lng="fr"> 
+      <trd>japonais<klr tip="ind"> (adj.)</klr></trd>
+      <trd>japonaise<klr tip="amb"> (adj.)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="ja">
+      <trd>&#26085;&#26412;&#12398; [<ind>&#12395;&#12411;&#12435;&#12398;</ind>]</trd>,
+      <trd>&#26085;&#26412;&#20154;&#12398; [<ind>&#12395;&#12411;&#12435;&#12376;&#12435;&#12398;</ind>]</trd>,
+      <trd>&#26085;&#26412;&#35486;&#12398; [<ind>&#12395;&#12411;&#12435;&#12372;&#12398;</ind>]</trd>
+    </trdgrp>
+    <trdgrp lng="tp">
+      <trd>pi ma <ind>Nijon</ind></trd>,
+      <trd>pi toki <ind>Nijon</ind></trd>
+    </trdgrp>
+    <trd lng="vo">Yap&auml;nik</trd>
   </snc>
   <snc>
     <dif>
      La <tld/>a <ref tip="super" cel="lingv.0o">lingvo</ref>.
     </dif>
-   <trd lng="en">Japanese<klr> (language)</klr></trd>
-   <trd lng="fr">japonais<klr> (langue)</klr></trd>
-   <trd lng="tp">toki Nijon</trd>
-   <trd lng="vo">Yap&auml;nap&uuml;k</trd>
+    <trd lng="fr">japonais<klr tip="amb"> (langue)</klr></trd>
+    <trd lng="ja">&#26085;&#26412;&#35486; [<ind>&#12395;&#12411;&#12435;&#12372;</ind>]</trd>
+    <trd lng="ko">&#51068;&#48376;&#50612;</trd>
+    <trd lng="tp">toki <ind>Nijon</ind></trd>
+    <trd lng="vo">Yap&auml;nap&uuml;k</trd>
+    <trdgrp lng="zh">
+      <trd>&#26085;&#35821; [<ind>r&igrave;y&#468;</ind>]</trd>,
+      <trd>&#26085;&#25991; [<ind>r&igrave;w&eacute;n</ind>]</trd>
+    </trdgrp>
   </snc>
   <trd lng="bg">&c_ja;&c_p;&c_o;&c_n;&c_s;&c_k;&c_i;</trd>
   <trd lng="cs">japonsky</trd>
@@ -66,14 +84,13 @@
   <trd lng="en">Japanese</trd>
   <trd lng="es">japon&eacute;s</trd>
   <trd lng="hu">jap&aacute;n</trd>
+  <trd lng="io">Japoniana</trd>
   <trd lng="it">giapponese</trd>
   <trd lng="nl">Japans</trd>
   <trd lng="pl">japo&nacute;ski</trd>
   <trd lng="pt">Japon&ecirc;s</trd>
   <trd lng="sk">japonsk&yacute;</trd>
   <trd lng="sv">japansk</trd>
-  <trd lng="tp">pi ma Nijon</trd>
-  <trd lng="vo">Yap&auml;nik</trd>
 </drv>
 
 <drv mrk="japan.0ujo">
@@ -99,6 +116,7 @@
    <ref tip="sin" cel="japani.0o">Japanio</ref>
   </snc>
   <trd lng="bg">&c_Ja;&c_p;&c_o;&c_n;&c_i;&c_ja;</trd>
+  <trd lng="cs">Japonsko</trd>
   <trd lng="de">Japan</trd>
   <trd lng="en">Japan</trd>
   <trd lng="es">Jap&oacute;n</trd>
@@ -106,23 +124,36 @@
     <trd>Japon</trd>,
     <trd>Etat du Japon</trd>
   </trdgrp>
+  <trd lng="hi">&#2332;&#2366;&#2346;&#2366;&#2344;</trd>
   <trd lng="hu">Jap&aacute;n</trd>
+  <trd lng="ia">Japon</trd>
+  <trd lng="id">Jepang</trd>
+  <trd lng="ie">Japan</trd>
+  <trd lng="io">Japonia</trd>
   <trd lng="it">Giappone</trd>
+  <trd lng="ja">&#26085;&#26412; [<ind>&#12395;&#12411;&#12435;</ind>, <ind>&#12395;&#12387;&#12413;&#12435;</ind>]</trd>
+  <trd lng="ko">&#51068;&#48376;</trd>
   <trd lng="nl">Japan</trd>
   <trdgrp lng="pl">
     <trd>Japonia</trd>,
     <trd>Kraj Kwitn&aogonek;cej Wi&sacute;ni<klr> (poet.)</klr></trd>
   </trdgrp>
-  <trd lng="sv">Japan</trd>
   <trd lng="pt">Jap&atilde;o</trd>
-  <trd lng="tp">ma Nijon</trd>
+  <trd lng="sk">Japonsko</trd>
+  <trd lng="sv">Japan</trd>
+  <trd lng="tp">ma <ind>Nijon</ind></trd>
+  <trd lng="tr">Japonya</trd>
   <trd lng="vo">Yap&auml;n</trd>
+  <trd lng="zh">&#26085;&#26412; [<ind>R&igrave;b&ecaron;n</ind>]</trd>
 </drv>
 </art>
 
 <!--
-$Log: japan.xml,v $
-versio 1.20 2020/02/27 20:10:43
+$Log$
+versio 1.21 2020/05/25 19:10:34
+Sam Penter: +trd
+
+Revision 1.20  2020/02/27 19:10:42  revo
 Robin van der Vliet: +trd, koherigo kun aliaj landoartikoloj
 
 Revision 1.19  2018/08/07 22:10:23  revo
@@ -141,8 +172,5 @@ Revision 1.15  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.14  2015/06/29 16:33:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.13  2014/07/08 07:10:18  revo
 -->
 </vortaro>
