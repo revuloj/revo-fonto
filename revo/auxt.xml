@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: auxt.xml,v 1.42 2020/05/03 05:10:25 revo Exp $">
+<art mrk="$Id: auxt.xml,v 1.43 2020/05/26 22:10:22 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>a&ubreve;t</rad>/o <fnt><bib>PV</bib></fnt>
@@ -127,7 +127,6 @@
   </trdgrp>
   <trdgrp lng="en">
     <trd>car</trd>,
-    <trd>auto</trd>,
     <trd>automobile</trd>
   </trdgrp>
   <trdgrp lng="es">
@@ -143,9 +142,14 @@
     <trd>aut&oacute;</trd>
   </trdgrp>
   <trd lng="id">mobil</trd>
+  <trd lng="io">automobilo</trd>
   <trdgrp lng="it">
     <trd>auto<klr> (vettura)</klr></trd>,
     <trd>macchina<klr> (vettura)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#33258;&#21205;&#36554; [<ind>&#12376;&#12393;&#12358;&#12375;&#12419;</ind>]</trd>,
+    <trd>&#36554; [<ind>&#12367;&#12427;&#12414;</ind>]</trd>
   </trdgrp>
   <trd lng="nl">auto</trd>
   <trd lng="oc">auto</trd>
@@ -157,6 +161,7 @@
   </trd>
   <trd lng="sk">auto</trd>
   <trd lng="sv">bil</trd>
+  <trd lng="tp">tomo tawa</trd>
   <trd lng="tr">oto</trd>
 </drv>
 
@@ -245,7 +250,10 @@
   <trd lng="be">&c_je;&c_h;&c_a;&c_c;&c_mol; <ind>
   &c_a;&c_w;&c_t;&c_a;&c_m;&c_a;&c_b;&c_ib;&c_l;&c_je;&c_m;</ind></trd>
   <trd lng="de">Auto <ind>fahren</ind></trd>
-  <trd lng="en">drive</trd>
+  <trdgrp lng="en">
+    <trd>drive<klr tip="ind"> (in a car)</klr></trd>,
+    <trd><ind>go</ind> somewhere by car</trd>
+  </trdgrp>
   <trd lng="fr">rouler<klr tip="ind"> (en voiture)</klr></trd>
   <trd lng="hu">aut&oacute;zik</trd>
   <trdgrp lng="id">
@@ -260,6 +268,7 @@
     <trd>guidare<klr> (viaggiare in automobile)</klr></trd>,
     <trd>viaggiare in <ind>automobile</ind></trd>
   </trdgrp>
+  <trd lng="ja">&#36554;&#12391;&#34892;&#12367; <ind>&#12367;&#12427;&#12414;&#12391;&#12356;&#12367;</ind>]</trd>
   <trd lng="nl">rijden<klr tip="ind"> (per auto)</klr></trd>
   <trdgrp lng="pl">
    <trd>jecha&cacute;<klr tip="ind"> autem</klr></trd>,
@@ -367,14 +376,14 @@
   </snc>
     <rim>
       Atentu, ke anka&ubreve; <ref cel="auxtism.0ulo">a&ubreve;tismulon</ref> oni
-      nomas foje &leftquot;a&ubreve;tisto&rightquot;.
+      nomas fojfoje &leftquot;a&ubreve;tisto&rightquot;.
     </rim>
   <trd lng="be">
   &c_a;&c_w;&c_t;&c_a;&c_m;&c_a;&c_b;&c_ib;&c_l;&c_ib;&c_s;&c_t;</trd>
   <trd lng="ca">automobilista</trd>
   <trd lng="de">Autofahrer</trd>
   <trdgrp lng="en">
-    <trd>driver</trd>,
+    <trd><klr>(professional) </klr>driver</trd>,
     <trd>motorist</trd>
   </trdgrp>
   <trd lng="es">automovilista</trd>
@@ -438,8 +447,14 @@
     </dif>
   </snc>
   <trd lng="de">Panzerwagen</trd>
+  <trdgrp lng="en">
+    <trd>armored car</trd>,
+    <trd>armoured car</trd>
+  </trdgrp>
   <trd lng="fr">voiture <ind>blind&eacute;</ind>e</trd>
   <trd lng="id"><ind>mobil</ind> lapis baja</trd>
+  <trd lng="ja">&#35013;&#30002;&#36554; [<ind>&#12381;&#12358;&#12371;&#12358;&#12375;&#12419;</ind>]</trd>
+  <trd lng="nl">pantserwagen</trd>
   <trd lng="tr">z&inodot;rhl&inodot; ta&scedil;&inodot;t</trd>
 </drv>
 
@@ -490,7 +505,12 @@
     <trd>camper</trd>,
     <trd>caravan</trd>
   </trdgrp>
-  <trd lng="nl">motorhome</trd>
+  <trd lng="ja">&#12461;&#12515;&#12531;&#12500;&#12531;&#12464;&#12459;&#12540; [<ind>&#12365;&#12419;&#12435;&#12404;&#12435;&#12368;&#12363;&#12540;</ind>]</trd>
+  <trdgrp lng="nl">
+    <trd>kampeerauto</trd>,
+    <trd>camper</trd>,
+    <trd>motorhome</trd>
+  </trdgrp>
   <trd lng="pl">kampobus</trd>
   <trd lng="tr">karavan</trd>
 </drv>
@@ -559,17 +579,20 @@
     <trd>Truck</trd>
   </trdgrp>
   <trdgrp lng="en">
-    <trd>lorry</trd>,
-    <trd>truck</trd>
+    <trd>truck</trd>,
+    <trd>lorry</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>camion</trd>
-  </trdgrp>
+  <trd lng="fr">camion</trd>
   <trd lng="hu">kamion</trd>
   <trd lng="id">truk</trd>
+  <trd lng="io">kamiono</trd>
   <trdgrp lng="it">
     <trd>camion</trd>,
     <trd>furgone</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12488;&#12521;&#12483;&#12463; [<ind>&#12392;&#12425;&#12387;&#12367;</ind>]</trd>,
+    <trd>&#36008;&#29289;&#33258;&#21205;&#36554; [<ind>&#12363;&#12418;&#12388;&#12376;&#12393;&#12358;&#12375;&#12419;</ind>]</trd>
   </trdgrp>
   <trd lng="nl">vrachtwagen</trd>
   <trd lng="pl">ci&eogonek;&zdot;ar&oacute;wka</trd>
@@ -607,8 +630,10 @@
 </art>
 <!--
 $Log$
+versio 1.43 2020/05/26 22:10:22
+Sam Penter: trd en io ja nl tp
+
 versio 1.42 2020/05/03 05:10:25
 Eko Nur Syah Hidayat: korekteto
-
 -->
 </vortaro>
