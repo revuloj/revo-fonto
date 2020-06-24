@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mani.xml,v 1.21 2020/06/20 21:10:40 revo Exp $">
+<art mrk="$Id: mani.xml,v 1.22 2020/06/22 20:32:28 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>mani</rad>/o
@@ -12,9 +12,25 @@
   <snc mrk="mani.0o.PSI">
     <uzo tip="fak">PSI</uzo>
     <dif>
-      Fortega nenormala konstanta inklino al io, al iu &ccirc;iamsama agado.
+      Fortega nenormala konstanta <ref tip="super" cel="inklin.0o.KOMUNE">inklino</ref> al io,
+      al iu &ccirc;iamsama agado:
+      <ekz>
+        mi sentis, ke ekregas min tiu speco de forta mirego, kiu kondukas al <tld/>o
+        <fnt>
+          <bib>FdO</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &gcirc;i flamigis vian infanan fantazion kaj infektis vin per la <tld/>o fari&gcirc;i granda
+        homo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>.
+      </ekz>
     </dif>                    
     <trd lng="br">mania</trd>
+    <trd lng="de">Wahn</trd>
     <trd lng="fr">manie</trd>
     <trd lng="hu">m&aacute;nia</trd>
     <trd lng="pl">mania</trd>     
@@ -24,20 +40,27 @@
   <snc mrk="mani.0o.KOMUNE">
     <uzo tip="stl">KOMUNE</uzo>
     <dif>
-      Stranga a&ubreve; ridinda kutimo:
+      Stranga a&ubreve; ridinda <ref tip="super" cel="kutim.0o.PSI">kutimo</ref>:
       <ekz>
-        nuna ne-evitebla moda manio<fnt><aut>Marjorie Boulton</aut>:
-        <vrk>Dinomanio</vrk>, <bib>Monato</bib><lok>jaro 1994a, numero
-        2a,
-        p. 16a</lok></fnt>.
+        nuna ne-evitebla moda manio
+        <fnt>
+          <aut>Marjorie Boulton</aut>:
+          <vrk>Dinomanio</vrk>, <bib>Monato</bib><lok>jaro 1994a, numero 2a,
+            p. 16a</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="kapric.0o">kaprico</ref>,
       <ref cel="obstin.0eco">obstineco</ref>,
-      <ref cel="rutin.0o">rutino</ref>.
+      <ref cel="rutin.0o">rutino</ref>,
+      <ref cel="tik.0o">tiko</ref>
     </refgrp>  
     <trd lng="br">albac'henn</trd>
+    <trdgrp lng="de">
+      <trd>Tick</trd>,
+      <trd>Angewohnheit</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>id&eacute;e fixe</trd>,
       <trd>manie<klr> (id&eacute;e fixe)</klr></trd>,
@@ -60,8 +83,7 @@
     <trd>v&aacute;&scaron;e&ncaron;</trd>
   </trdgrp>
   <trdgrp lng="de">
-      <trd>Manie</trd>,
-      <trd>Wahn</trd>
+    <trd>Manie</trd>,
   </trdgrp><trd lng="de">Manie</trd>
   <trd lng="es">man&iacute;a</trd>
   <trd lng="nl">manie</trd>
@@ -79,11 +101,10 @@
 <drv mrk="mani.giganto0o">
   <kap>giganto<tld/>o</kap>
   <uzo tip="fak">PSI</uzo>
-  <snc>
+  <snc mrk="mani.giganto0o.potencemo">
     <dif>
       Dezirego de potenco, famo, grandaj plenumoj, a&ubreve; memiluzio pri
-      ties
-      realeco:
+      ties realeco:
       <ekz>
         <uzo tip="stl">FIG</uzo>evidente, oni nomus lin usona spiono; ja
         li voja&gcirc;is en Usonon kaj &scirc;atis &gcirc;ian
@@ -91,8 +112,18 @@
         Kolker</aut>: <vrk>Poeto de amo kaj revolucio (E&ubreve;geno
         Mi&hcirc;alski,
         Plena poemaro)</vrk>, <bib>Monato</bib><lok>jaro 1996a, numero
-        9a,
-        p. 24a</lok></fnt>.
+        9a, p. 24a</lok></fnt>;
+      </ekz>
+      <ekz>
+        la kostoj por la projekto eksplodis jam en la plana fazo, kaj fine anka&ubreve;
+        politikistoj devis agnoski, ke ilia giganto<tld/>o estis utopia, kaj haltigis
+        la projektegon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2008/009502.php">Gigantismo</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -116,6 +147,9 @@
 </art>
 <!--
 $Log$
+versio 1.22 2020/06/22 20:32:28
+Wolfram Diestel: ekz-oj, ref-oj
+
 versio 1.21 2020/06/20 21:10:40
 Vito Redsky: +trd pl +trd ro
 
@@ -135,8 +169,5 @@ Revision 1.15  2006/07/29 16:32:50  revo
 Tulio Flores: +tr pt
 
 Revision 1.14  2005/07/08 16:32:32  revo
-Alan ar Gall: +trd br
-
-Revision 1.13  2003/05/14 16:31:16  revo
 -->
 </vortaro>
