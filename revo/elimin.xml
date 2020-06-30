@@ -2,15 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: elimin.xml,v 1.19 2020/02/14 16:10:19 revo Exp $">
+<art mrk="$Id: elimin.xml,v 1.20 2020/06/30 20:32:35 revo Exp $">
 <kap>
   <rad>elimin</rad>/i
-  <fnt>Z</fnt>
 </kap>
 <drv mrk="elimin.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="elimin.0i.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
       Iom post iom forigi el la korpo malutilajn substancojn:
@@ -31,16 +30,73 @@
     <trd>wydala&cacute;</trd>
   </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="elimin.0i.forigi">
     <dif>
       Forigi, malaperigi, malakcepti:
       <ekz>
-    <tld/>i hipotezon, nomon el listo;
+        <tld/>i hipotezon, nomon el listo;
       </ekz>
       <ekz>
-    <tld/>i ekzamenaton, kandidaton.
+        <tld/>i ekzamenaton, kandidaton;
+      </ekz>
+      <ekz>
+        <tld/>i malsaton en Brazilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gilbert Ledon</aut>
+          <vrk><url ref="https://www.monato.be/2003/008015.html"
+              >Misa mondo</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        monopoloj, <klr>[&#8230;]</klr> kiuj regas la sistemon kaj <tld/>as konkurencon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/006861.html"
+              >http://steloj.de/esperanto/monato2/006861.html</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Putin</nom> returnas la radon de historio, <tld/>ante jam atingitajn demokratajn
+        reformojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2004/008439.html"
+              >Hororo</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;efo de l' urba polico ordonas bombardi la kvartalon, por tiel <klr>[&#8230;]</klr>
+        <tld/>i la teroriston
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2003/008000.html"
+              >Jur-renverso</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la turniro partoprenis 16 landaj teamoj, kiuj ludis <klr>[&#8230;]</klr>
+        en <ind><tld/>a sistemo</ind> unu kontra&ubreve; la alia
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009595.php"
+              >Hispanio venkis, gastigantoj seniluziigis</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+        <trdgrp lng="de">
+          <trd>K.-o.-System</trd>,
+          <trd>Einzelausscheidung</trd>
+        </trdgrp>
       </ekz>
     </dif>
+    <ref tip="vid" cel="mort.0igi">mortigi</ref>
     <trd lng="fa">&a_H;&a_dh;&a_f; &f_k;&a_r;&a_d;&a_n;</trd>
     <trdgrp lng="pl">
       <trd>eliminowa&cacute;</trd>,
@@ -86,10 +142,40 @@
 </drv>
 
 <drv mrk="elimin.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap><tld/>ado</kap></var></kap>
   <snc mrk="elimin.0o.KOMUNE">
     <dif>
-      Ago <tld/>i.
+      Ago <tld/>i:
+      <ekz>
+        la frua <tld/>o de la teamoj de amba&ubreve; gastigantaj landoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009595.php"
+              >Hispanio venkis, gastigantoj seniluziigis</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ado de grandega kvanto de fluida&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2010/010071.php"
+              >Antikva, sed ankora&ubreve; malica gasto</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ado de poliomjelito en grandegaj teritorioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2011/010269.php"
+              >Poliomjelito: &ccirc;u la dua tutmonde likvidota infektmalsano?</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd
     lng="be">&c_v;&c_y;&c_d;&c_a;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
@@ -148,8 +234,11 @@
 </drv>
 </art>
 <!--
-$Log: elimin.xml,v $
-versio 1.19 2020/02/14 16:10:19
+$Log$
+versio 1.20 2020/06/30 20:32:35
+Wolfram Diestel: +ekz-oj
+
+Revision 1.19  2020/02/14 15:10:18  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.18  2018/09/02 19:10:20  revo
@@ -168,8 +257,5 @@ Revision 1.14  2008/11/19 09:28:05  revo
 Russ Williams: redakto: +trd en
 
 Revision 1.13  2007/06/27 16:31:46  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2003/12/17 17:30:35  revo
 -->
 </vortaro>
