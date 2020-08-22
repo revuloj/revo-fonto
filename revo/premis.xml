@@ -2,32 +2,49 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: premis.xml,v 1.18 2015/07/04 08:37:41 revo Exp $">
+<art mrk="$Id: premis.xml,v 1.19 2020/08/22 20:32:34 revo Exp $">
 <kap>
    <ofc>2</ofc>
    <rad>premis</rad>/o
 </kap>
 <drv mrk="premis.0o">
-   <kap><tld/>o</kap>
-   <snc>
-     <dif>
-       &Ccirc;iu el la du unuaj frazoj (ma&jcirc;ora kaj minora) de
-       silogismo, el kiuj oni tiras konkludon:
-       <ekz>
-         <uzo tip="stl">FIG</uzo>
-         internacia lingvo estas necesa
-         <tld/>o <klr>(kondi&ccirc;o, bazo)</klr> de internacia solidareco;
-       </ekz>
-       <ekz>
-         ni traktos nur sub tiuj <tld/>oj.
-       </ekz>
-     </dif>
-   </snc>
+  <kap><tld/>o</kap>
+  <snc mrk="premis.0o.LOG">
+    <dif>
+      &Ccirc;iu el la du unuaj asertoj (ma&jcirc;ora kaj minora) de
+      <ref tip="malprt" cel="silogi.0o.LOG">silogismo</ref>,
+      el kiuj oni tiras konkludon:
+      <ekz>
+        kondi&ccirc;e ke la <tld/>oj estas &gcirc;uste formulitaj
+        tiam oni povas aserti ke nia universo ne ekzistas
+        <fnt>
+          <aut>KaGu</aut>
+          <vrk><url ref="https://groups.google.com/forum/#!topic/soc.culture.esperanto/fK5F4stPe_k"
+             >Logika pruvo ????</url></vrk>
+          <lok>soc.culture.esperanto, 2003-12-23</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="premis.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="vid" cel="kondic1.0o.dependiga">Kondi&ccirc;o<sncref/></ref>,
+      <ref tip="vid" cel="baz.0o.principo">bazo<sncref/></ref>:
+      <ekz>
+        internacia lingvo estas necesa
+        <tld/>o de internacia solidareco;
+      </ekz>
+      <ekz>
+        ni traktos nur sub tiuj <tld/>oj.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_d;&c_u;&c_m;&c_o;&c_v;&c_a;</trd>
   <trdgrp lng="cs">
-    <trd>návěst</trd>,
+    <trd>n&aacute;v&ecaron;st</trd>,
     <trd>premisa</trd>,
-    <trd>předpoklad</trd>
+    <trd>p&rcaron;edpoklad</trd>
   </trdgrp>
   <trd lng="de">Pr&auml;misse</trd>
   <trd lng="en">premise</trd>
@@ -46,7 +63,7 @@
    <kap><tld/>i</kap>
    <gra><vspec>tr</vspec></gra>
    <uzo tip="klr">(io)</uzo>
-   <snc>
+   <snc mrk="premis.0i.postuli">
      <dif>
        Postuli kiel anta&ubreve;an kondi&ccirc;on:
        <ekz>
@@ -59,8 +76,8 @@
 <klr tip="amb">(&c_u; &c_ja;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ib;
 &c_p;&c_je;&c_r;&c_a;&c_d;&c_u;&c_m;&c_o;&c_v;&c_y;)</klr></trd>
   <trdgrp lng="cs">
-    <trd>být podmíněn</trd>,
-    <trd>předpokládat</trd>
+    <trd>b&yacute;t podm&iacute;n&ecaron;n</trd>,
+    <trd>p&rcaron;edpokl&aacute;dat</trd>
   </trdgrp>
   <trd lng="hu">el&odblac;felt&eacute;telez</trd>
   <trd lng="nl">vooropstellen</trd>
@@ -68,8 +85,8 @@
 tip="amb"> (&c_v; &c_k;&c_a;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_je;
 &c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_s;&c_y;&c_l;&c_k;&c_i;)</klr></trd>
   <trdgrp lng="sk">
-    <trd>byť podmienený</trd>,
-    <trd>predpokladať</trd>
+    <trd>by&tcaron; podmienen&yacute;</trd>,
+    <trd>predpoklada&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -85,6 +102,9 @@ tip="amb"> (&c_v; &c_k;&c_a;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_je;
 </art>
 <!--
 $Log$
+versio 1.19 2020/08/22 20:32:34
+Jeromo Vasxe: ~o disig. snc LOG k FIG
+
 Revision 1.17  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -104,11 +124,5 @@ Revision 1.12  2005/02/25 17:34:54  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2004/03/12 17:31:27  revo
-Emmanuel Debanne: + 1 trd fr
-
-Revision 1.10  2004/02/15 17:32:50  revo
-Marc Bavant: ~i: mod kap, mod dif; +drv antaux~i
-
-Revision 1.9  2002/12/19 17:32:11  revo
 -->
 </vortaro>
