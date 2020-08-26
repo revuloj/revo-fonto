@@ -1,5 +1,9 @@
 name: tuja-aktualigo
 
+# Tiu ago aktualigas artikolojn en Revo, tiuj kiam ilia fonto ŝanĝiĝis.
+# Tio normale okazas per la retpoŝta redakto-servo, sed principe povas 
+# oakzi ankaŭ se oni pere de "git" mane aktualigas fonton.
+
 on:
   push:
     branches:
@@ -13,7 +17,7 @@ on:
 
 env:
   # image tag {latest|stabila}
-  IMAGE_TAG: stabila
+  IMAGE_TAG: latest
 
 
 jobs:
