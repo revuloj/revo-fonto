@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gast.xml,v 1.35 2017/01/03 19:10:15 revo Exp $">
+<art mrk="$Id: gast.xml,v 1.36 2020/08/18 18:32:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gast</rad>/o <fnt><bib>PV</bib></fnt>
@@ -82,7 +82,7 @@
 <drv mrk="gast.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="gast.0i.KOMUNE">
     <dif>
       Esti <tld/>o:
       <ekz>
@@ -126,9 +126,53 @@
   </trdgrp>
 </drv>
 
+<drv mrk="gast.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc mrk="gast.0ejo.TUR">
+    <dif>
+      Malgranda, malluksa hotelo a&ubreve; restoracio:
+      <ekz>
+        ne havis la <tld/>ejo &gcirc;uste bonan reputacion
+        <fnt><bib>RabistFab</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_g;&c_a;&c_s;&c_mol;&c_c;&c_ib;&c_n;&c_ib;&c_c;&c_a;</trd>
+  <trd lng="bg">&c_g;&c_o;&c_s;&c_t;&c_i;&c_l;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>hostinec</trd>,
+    <trd>lok&aacute;l</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Gastst&auml;tte</trd>,
+    <trd>Gasthaus</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>albergue</trd>,
+    <trd>hostal</trd>
+  </trdgrp>
+  <trd lng="fa">&a_m;&a_h;&a_m;&a_A;&a_n;&a_kh;&a_A;&a_n;&a_h;</trd>
+  <trd lng="fr">auberge</trd>
+  <trd lng="hu">vend&eacute;gl&odblac;</trd>
+  <trdgrp lng="nl">
+    <trd>herberg</trd>,
+    <trd>(klein) <ind>restaurant</ind></trd>,
+    <trd>eethuis</trd>
+  </trdgrp>
+  <trd lng="pl">gospoda</trd>
+  <trd lng="pt">hospedaria</trd>
+  <trd lng="ru">&c_g;&c_o;&c_s;&c_t;&c_i;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>hostinec</trd>,
+    <trd>kr&ccaron;ma</trd>
+  </trdgrp>
+  <trd lng="sv">v&auml;rdshus</trd>
+  <trd lng="tr">han</trd>
+</drv>
+
 <drv mrk="gast.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <snc mrk="gast.0igi.KOMUNE">
     <dif>
       Akcepti kiel <tld/>on:
       <ekz>
@@ -181,11 +225,10 @@
 
 <drv mrk="gast.0iganto">
   <kap><tld/>iganto</kap>
-  <snc>
+  <snc mrk="gast.0iganto.KOMUNE">
     <dif>
       Tiu, kiu akceptas hejmen <tld/>on.
     </dif>
-  </snc>
   <trd lng="be">&c_g;&c_a;&c_s;&c_p;&c_a;&c_d;&c_a;&c_r;</trd>
   <trd lng="bg">&c_d;&c_o;&c_m;&c_a;&c_k;&c_i;&c_n;</trd>
   <trd lng="cs">hostitel</trd>
@@ -205,50 +248,24 @@
   <trd lng="sk">hostite&lcaron;</trd>
   <trd lng="sv">v&auml;rd</trd>
   <trd lng="tr">ev sahibi<klr>(misafiri a&gbreve;&inodot;rlayan)</klr></trd>
-</drv>
-
-<drv mrk="gast.0ejo">
-  <kap><tld/>ejo</kap>
-  <snc mrk="gast.0ejo.TUR">
+  </snc>
+  <snc mrk="gast.0iganto.EKOL">
+    <uzo tip="fak">EKOL</uzo>
     <dif>
-      Malgranda, malluksa hotelo a&ubreve; restoracio:
+      <ref tip="dif" cel="parazi.0ato.EKOL">Parazitato</ref>:
       <ekz>
-        ne havis la <tld/>ejo &gcirc;uste bonan reputacion
-        <fnt><bib>RabistFab</bib></fnt>.
+        same kiel por la bova&jcirc;a kaj porka&jcirc;a tenioj tiel anka&ubreve; por la s&hcirc;istosomoj la homo
+        estas la ununura fina <tld/>iganto
+        <fnt>
+          <aut>R. Sachs</aut>
+          <vrk><url ref="http://www.eventoj.hu/steb/medicino/medicina-parazitologio/medicina-parazitologio.htm">
+          Medicina Parazitologio</url></vrk>
+          <lok>Scienca Revuo, 2001, kromkajero</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="fr">h&ocirc;te<klr> (d'un parasite)</klr></trd>
   </snc>
-  <trd lng="be">&c_g;&c_a;&c_s;&c_mol;&c_c;&c_ib;&c_n;&c_ib;&c_c;&c_a;</trd>
-  <trd lng="bg">&c_g;&c_o;&c_s;&c_t;&c_i;&c_l;&c_n;&c_i;&c_c;&c_a;</trd>
-  <trdgrp lng="cs">
-    <trd>hostinec</trd>,
-    <trd>lok&aacute;l</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Gastst&auml;tte</trd>,
-    <trd>Gasthaus</trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>albergue</trd>,
-    <trd>hostal</trd>
-  </trdgrp>
-  <trd lng="fa">&a_m;&a_h;&a_m;&a_A;&a_n;&a_kh;&a_A;&a_n;&a_h;</trd>
-  <trd lng="fr">auberge</trd>
-  <trd lng="hu">vend&eacute;gl&odblac;</trd>
-  <trdgrp lng="nl">
-    <trd>herberg</trd>,
-    <trd>(klein) <ind>restaurant</ind></trd>,
-    <trd>eethuis</trd>
-  </trdgrp>
-  <trd lng="pl">gospoda</trd>
-  <trd lng="pt">hospedaria</trd>
-  <trd lng="ru">&c_g;&c_o;&c_s;&c_t;&c_i;&c_n;&c_i;&c_c;&c_a;</trd>
-  <trdgrp lng="sk">
-    <trd>hostinec</trd>,
-    <trd>kr&ccaron;ma</trd>
-  </trdgrp>
-  <trd lng="sv">v&auml;rdshus</trd>
-  <trd lng="tr">han</trd>
 </drv>
 
 <drv mrk="gast.0ama">
@@ -328,6 +345,9 @@
 </art>
 <!--
 $Log$
+versio 1.36 2020/08/18 18:32:30
+Jeromo Vasxe: ~iganto + snc EKOL
+
 Revision 1.34  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lingv.xml,v 1.81 2020/05/06 15:10:20 revo Exp $">
+<art mrk="$Id: lingv.xml,v 1.82 2020/08/01 14:10:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lingv</rad>/o <fnt><bib>PV</bib></fnt>
@@ -167,13 +167,14 @@
   <trd lng="io">linguo</trd>
   <trd lng="nl">taal</trd>
   <trd lng="no">spr&aring;k</trd>
+  <trd lng="pl">j&eogonek;zyk <klr>(mowa)</klr></trd>
   <trdgrp lng="pt">
       <trd>l&iacute;ngua</trd>,
       <trd>linguagem</trd>,
       <trd>idioma</trd>
     </trdgrp>
   <trd lng="ro">limb&abreve;</trd>
-    <trd lng="ru">&c_ja;&c_z;&c_y;&c_k;</trd>
+  <trd lng="ru">&c_ja;&c_z;&c_y;&c_k;</trd>
   <trdgrp lng="sk">
   <trd>jazyk</trd>,
   <trd>re&ccaron;</trd>
@@ -249,6 +250,8 @@
       <trd>spr&aring;klig</trd>,
       <trd>spr&aring;k-</trd>
     </trdgrp>
+    <trd lng="pl">j&eogonek;zykowy</trd>
+    <trd lng="ro">lingvistic</trd>
     <trdgrp lng="ru">
       <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_v;&c_y;&c_j;</trd>,
       <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_v;&c_o;&c_j;</trd>
@@ -347,6 +350,19 @@
     <trd lng="ru">&c_ja;&c_z;&c_y;&c_k;<klr> (&c_a;&c_v;&c_t;&c_o;&c_r;&c_a;, &c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_ja; &c_i; &c_t;.&c_p;.)</klr></trd>
   </snc>
   <trd lng="es">lenguaje</trd>
+  <trdgrp lng="pl">
+    <trd>idiom</trd>,
+    <trd>dialekt</trd>,
+    <trd>gwara</trd>,
+    <trd>zwrot  <ind>j&eogonek;zykowy</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>idiom</trd>,
+    <trd>dialect</trd>,
+    <trd>argou</trd>,
+    <trd>r&acirc;ndul</trd>,
+    <trd>lingvistic</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lingv.0ano">
@@ -427,8 +443,7 @@
       <ctl>parolanto de</ctl> <klr>(koncerna <tld/>o)</klr>.
     </rim>
   </snc>
-  <trd lng="be">&c_n;&c_o;&c_s;&c_mol;&c_b;&c_ib;&c_t; 
-  &c_m;&c_o;&c_v;&c_y;</trd>
+  <trd lng="be">&c_n;&c_o;&c_s;&c_mol;&c_b;&c_ib;&c_t; &c_m;&c_o;&c_v;&c_y;</trd>
   <trd lng="cs">stoupenec &rcaron;e&ccaron;i</trd>
   <trd lng="de">Sprecher</trd>
   <trd lng="en">speaker<klr> (of a language) </klr></trd>
@@ -444,8 +459,9 @@
       <trd>nyelvet besz&eacute;l&odblac;</trd>
     </trdgrp>
   <trd lng="nl">spreker<klr> (v.e.taal)</klr></trd>
-  <trd lng="ru">&c_n;&c_o;&c_s;&c_i;&c_t;&c_je;&c_l;&c_mol; 
-  &c_ja;&c_z;&c_y;&c_k;&c_a;</trd>
+  <trd lng="pl">j&eogonek;zykowiec</trd>
+  <trd lng="ro">lingvist</trd>
+  <trd lng="ru">&c_n;&c_o;&c_s;&c_i;&c_t;&c_je;&c_l;&c_mol; &c_ja;&c_z;&c_y;&c_k;&c_a;</trd>
   <trd lng="sk">st&uacute;penec re&ccaron;i</trd>
 </drv>
 
@@ -470,6 +486,11 @@
     </dif>
   </snc>
   <trd lng="fr">amateur de langues</trd>
+  <trdgrp lng="pl">
+    <trd>j&eogonek;zykoznawca</trd>,
+    <trd>lingwista</trd>
+  </trdgrp>
+  <trd lng="ro">lingvist</trd>
 </drv>
 
 <drv mrk="lingv.0isto">
@@ -539,7 +560,12 @@
   <trd lng="io">linguisto</trd>
   <trd lng="nl">taalkundige</trd>
   <trd lng="no">lingvist</trd>
+  <trdgrp lng="pl">
+    <trd>j&eogonek;zykoznawca</trd>,
+    <trd>lingwista</trd>
+  </trdgrp> 
   <trd lng="pt">ling&uuml;ista</trd>
+  <trd lng="ro">lingvist</trd>
   <trdgrp lng="ru">
     <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_v;&c_je;&c_d;</trd>,
     <trd>&c_l;&c_i;&c_n;&c_g;&c_v;&c_i;&c_s;&c_t;</trd>
@@ -608,16 +634,23 @@
 <klr>(p&rcaron;ekladu)</klr></trd>
 <trd lng="de">Zielsprache</trd>
 <trdgrp lng="en">
-    <trd>object language</trd>,
-    <trd>target language</trd>
-  </trdgrp>
+  <trd>object language</trd>,
+  <trd>target language</trd>
+</trdgrp>
 <trd lng="fr">langue cible</trd>
 <trd lng="he">&shin;&pe;&tav; &mem;&tet;&resh;&he;</trd>
 <trd lng="hu">c&eacute;lnyelv</trd>
 <trd lng="id"><ind>bahasa</ind> target</trd>
 <trd lng="nl">doeltaal</trd>
-<trd lng="ru">&c_v;&c_y;&c_h;&c_o;&c_d;&c_n;&c_o;&c_j; 
-&c_ja;&c_z;&c_y;&c_k;</trd>
+<trdgrp lng="pl">
+  <trd>j&eogonek;zyk docelowy  <klr>(t&lstroke;umaczenie)</klr></trd>,
+  <trd>j&eogonek;zyk obiektowy <klr>(inf.)</klr></trd>
+</trdgrp>
+<trdgrp lng="ro">
+  <trd>limb&abreve; &#539;int&abreve;</trd>,
+  <trd>limbaj orientat pe obiecte</trd>
+</trdgrp>
+<trd lng="ru">&c_v;&c_y;&c_h;&c_o;&c_d;&c_n;&c_o;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>
 <trd lng="sk">cie&lcaron;ov&yacute; jazyk</trd>
 </drv>
 
@@ -641,14 +674,15 @@
       </ekz>
     </dif>
   </snc>
-  <trd
-  lng="be">&c_p;&c_r;&c_a;&c_f;&c_e;&c_s;&c_ib;&c_j;&c_n;&c_a;&c_ja; <ind>&c_m;&c_o;&c_v;&c_a;</ind></trd>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_f;&c_e;&c_s;&c_ib;&c_j;&c_n;&c_a;&c_ja; <ind>&c_m;&c_o;&c_v;&c_a;</ind></trd>
   <trd lng="es">lenguaje t&eacute;cnico</trd>
   <trd lng="fr">langue de sp&eacute;cialit&eacute;</trd>
   <trdgrp lng="hu">
     <trd>szaknyelv</trd>,
     <trd>szakmai nyelv</trd>
   </trdgrp>
+  <trd lng="pl">&zdot;argon zawodowy</trd>
+  <trd lng="ro">lingo profesionist</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_s;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>
 </drv>
 
@@ -705,6 +739,8 @@
   <trd lng="fr">langue source</trd>
   <trd lng="he">&shin;&pe;&tav; &mem;&qof;&vav;&resh;</trd>
   <trd lng="hu">forr&aacute;snyelv</trd>
+  <trd lng="pl">j&eogonek;zyk &zacute;r&oacute;d&lstroke;owy <klr>(inf.)</klr></trd>
+  <trd lng="ro">limb&abreve; surs&abreve;</trd>
   <trd lng="sk">zdrojov&yacute; jazyk</trd>
 </drv>
 
@@ -742,6 +778,8 @@
   <trd lng="it">lingua dei segni</trd>
   <trd lng="nl">gebarentaal</trd>
   <trd lng="no">tegnspr&aring;k</trd>
+  <trd lng="pl">j&eogonek;zyk migowy</trd>
+  <trd lng="ro">limba semnelor</trd>
 </drv>
 
 <drv mrk="lingv.inter0o">
@@ -785,8 +823,9 @@
   </snc>
   <trd lng="cs">mezin&aacute;rodn&iacute; jazyk</trd>
   <trd lng="id"><ind>bahasa</ind> pengantar</trd>
-  <trd lng="ru">&c_ja;&c_z;&c_y;&c_k;-
-  &c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
+  <trd lng="pl">interj&eogonek;zyk</trd>
+  <trd lng="ro">limba internationala</trd>
+  <trd lng="ru">&c_ja;&c_z;&c_y;&c_k;-&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">medzin&aacute;rodn&yacute; jazyk</trd>
 </drv>
 
@@ -822,7 +861,9 @@
   <trd lng="hu">g&eacute;pi <ind>nyelv</ind></trd>
   <trd lng="id"><ind>bahasa</ind> mesin</trd>
   <trd lng="nl">machinetaal</trd>
+  <trd lng="pl">j&eogonek;zyk maszynowy <klr>(inf.)</klr></trd>
   <trd lng="pt">linguagem de m&aacute;quina</trd>
+  <trd lng="ro">limbaj ma&#537;in&abreve;</trd>
   <trd lng="ru">&c_m;&c_a;&c_sh;&c_i;&c_n;&c_n;&c_y;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>
   <trd lng="sv">maskinspr&aring;k</trd>
   <trd lng="zh">&#26426;&#22120;&#35821;&#35328; [<ind>j&#299;
@@ -881,13 +922,14 @@
     </ekz>
     <aut>Sergio Pokrovskij</aut>
   </rim>
+  <trd lng="cs">mrtv&yacute; jazyk</trd>
   <trd lng="en">dead language</trd>
   <trd lng="es">lengua muerta</trd>
   <trd lng="fr">langue morte</trd>
+  <trd lng="pl">j&eogonek;zyk martwy</trd>
   <trd lng="ro">limb&abreve; moart&abreve;</trd>
   <trd lng="ru">&c_m;&c_jo;&c_r;&c_t;&c_v;&c_y;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>
   <trd lng="sk">m&racute;tvy jazyk</trd>
-<trd lng="cs">mrtv&yacute; jazyk</trd>
 </drv>
 
 <drv mrk="lingv.plan0o">
@@ -950,6 +992,11 @@
     <trd>langue planifi&eacute;e</trd>
     </trdgrp>
   <trd lng="id"><ind>bahasa</ind> buatan</trd>
+  <trdgrp lng="pl">
+    <trd>j&eogonek;zyk sztuczny</trd>,
+    <trd>j&eogonek;zyk planowy</trd>
+  </trdgrp>
+  <trd lng="ro">limb&abreve; artificial&abreve;</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_n;&c_o;&c_v;&c_y;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>
   <trd lng="sk">pl&aacute;nov&yacute; jazyk</trd>
 </drv>
@@ -1004,6 +1051,11 @@
   </snc>
   <trd lng="fr">multilinguisme</trd>
   <trd lng="id">multilingualisme</trd>
+  <trdgrp lng="pl">
+    <trd>wieloj&eogonek;zyczno&sacute;&cacute;</trd>,
+    <trd>multilingwizm</trd>
+  </trdgrp>
+  <trd lng="ro">multilingvism</trd>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_i;&c_je;</trd>
 </drv>
 
@@ -1048,6 +1100,10 @@
   <trd lng="es">multiling&uuml;ismo</trd>
   <trd lng="fr">multilinguisme</trd>
   <trd lng="id">multilingualisme</trd>
+  <trdgrp lng="pl">
+    <trd>plurilingwizm</trd>,
+    <trd>polilingwizm</trd>
+  </trdgrp>
   <trd lng="ro">multilingvism</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_n;&c_o;&c_g;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_i;&c_je;</trd>,
@@ -1091,12 +1147,13 @@
   <trd lng="fr">polyglotte<klr> (subst.)</klr></trd>
   <trd lng="id">poliglot</trd>
   <trd lng="nl">polyglot</trd>
+  <trd lng="pl">poliglota</trd>
   <trd lng="pt">poliglota</trd>
   <trd lng="ro">poliglo&tcedil;ie</trd>
-    <trd lng="ru">&c_p;&c_o;&c_l;&c_i;&c_g;&c_l;&c_o;&c_t;</trd>
+  <trd lng="ru">&c_p;&c_o;&c_l;&c_i;&c_g;&c_l;&c_o;&c_t;</trd>
   <trdgrp lng="sk">
-  <trd>polyglot</trd>,
-  <trd>znalec viacer&yacute;ch jazykov</trd>
+    <trd>polyglot</trd>,
+    <trd>znalec viacer&yacute;ch jazykov</trd>
   </trdgrp>
 </drv>
 
@@ -1158,6 +1215,8 @@
   <trd lng="he">&shin;&pe;&he; &mem;&tav;&vav;&vav;&kaf;&tav;</trd>
   <trd lng="hu">h&iacute;dnyelv</trd>
   <trd lng="nl">brugtaal</trd>
+  <trd lng="pl">j&eogonek;zyk pomostowy <klr>(inf.)</klr></trd>
+  <trd lng="ro">limb&abreve; de leg&abreve;tur&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_o;&c_m;&c_je;&c_zh;&c_u;&c_t;&c_o;&c_ch;&c_n;&c_y;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>,
     <trd>&c_ja;&c_z;&c_y;&c_k;-&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
@@ -1192,6 +1251,8 @@
   <trd lng="de">Ursprache</trd>
   <trd lng="en">proto-language</trd>
   <trd lng="fr">protolangue</trd>
+  <trd lng="pl">praj&eogonek;zyk</trd>
+  <trd lng="ro">protolimb&abreve;</trd>
   <trd lng="ru">&c_p;&c_r;&c_a;&c_ja;&c_z;&c_y;&c_k;</trd>
   <trd lng="sk">prajazyk</trd>
 </drv>
@@ -1233,6 +1294,7 @@
   <trd lng="id"><ind>bahasa</ind> pemrograman</trd>
   <trd lng="nl">programmeertaal</trd>
   <trd lng="no">programmeringsspr&aring;k</trd>
+  <trd lng="pl">j&eogonek;zyk programowania</trd>
   <trd lng="pt">linguagem de programa&ccedil;&atilde;o</trd>
   <trd lng="ro">limbaj de programare</trd>
   <trd lng="ru">&c_ja;&c_z;&c_y;&c_k; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
@@ -1274,6 +1336,8 @@
     <trd>langue &agrave; tons</trd>,
     <trd>langue tonale</trd>
   </trdgrp>
+  <trd lng="pl">j&eogonek;zyk tonalny</trd>
+  <trd lng="ro">limbajul tonal</trd>
 </drv>
 
 <drv mrk="lingv.trans0igi">
@@ -1298,6 +1362,8 @@
   <trd lng="id"><baz>terjemah</baz>menerjemahkan</trd>
   <trd lng="nl">vertalen</trd>
   <trd lng="no">oversette</trd>
+  <trd lng="pl">t&lstroke;umaczy&cacute;</trd>
+  <trd lng="ro">traduce</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_je;&c_s;&c_t;&c_i;</trd>
@@ -1348,6 +1414,8 @@
   </snc>
   <trd lng="fr">monolinguisme</trd>
   <trd lng="id">monolingualisme</trd>
+  <trd lng="pl">jednoj&eogonek;zyczno&sacute;&cacute;</trd>
+  <trd lng="ro">limbaj monolingual</trd>
   <trd lng="ru">&c_o;&c_d;&c_n;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_i;&c_je;</trd>
 </drv>
 
@@ -1381,8 +1449,9 @@
   <trd lng="es">monoling&uuml;ismo</trd>
   <trd lng="fr">monolinguisme</trd>
   <trd lng="id">monolingualisme</trd>
-  <trd 
-lng="ru">&c_o;&c_d;&c_n;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_i;&c_je;</trd>
+  <trd lng="pl">jednoj&eogonek;zyczno&sacute;&cacute;</trd>
+  <trd lng="ro">limbaj monolingual</trd>
+  <trd lng="ru">&c_o;&c_d;&c_n;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_i;&c_je;</trd>
 </drv>
 
 <drv mrk="lingv.unu0ulo">
@@ -1410,14 +1479,11 @@ lng="ru">&c_o;&c_d;&c_n;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_i;&c_je;</trd>
   </snc>
   <trd lng="es">monoling&uuml;e</trd>
   <trd lng="fr">monolingue<klr> (subst.)</klr></trd>
+  <trd lng="pl">jednoj&eogonek;zyczny</trd>
+  <trd lng="ro">monolingv</trd>
   <trdgrp lng="ru">
-    <trd>&c_o;&c_d;&c_n;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_n;&c_y;&c_j;<klr>
-    
-(&c_v; &c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.; &c_o; 
-&c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;&c_je;)</klr></trd>,
-    <trd>&c_v;&c_l;&c_a;&c_d;&c_je;&c_ju;&c_shch;&c_i;&c_j; 
-&c_o;&c_d;&c_n;&c_i;&c_m; &c_ja;&c_z;&c_y;&c_k;&c_o;&c_m;<klr> (&c_v; 
-&c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.)</klr></trd>
+    <trd>&c_o;&c_d;&c_n;&c_o;&c_ja;&c_z;&c_y;&c_ch;&c_n;&c_y;&c_j;<klr>(&c_v; &c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.; &c_o; &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;&c_je;)</klr></trd>,
+    <trd>&c_v;&c_l;&c_a;&c_d;&c_je;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_d;&c_n;&c_i;&c_m; &c_ja;&c_z;&c_y;&c_k;&c_o;&c_m;<klr> (&c_v; &c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.)</klr></trd>
   </trdgrp>
 </drv>
 
@@ -1480,13 +1546,17 @@ lng="el">&gamma;&lambda;&omega;&sigma;&sigma;&omikron;&lambda;&omikron;&gamma;&j
   </trdgrp>
 <trd lng="id">linguistik</trd>
 <trd lng="nl">lingu&iuml;stiek</trd>
+<trdgrp lng="pl">
+  <trd>j&eogonek;zykoznawstwo</trd>,
+  <trd>filologia</trd>
+</trdgrp>
 <trd lng="pt">ling&uuml;&iacute;stica</trd>
 <trd lng="ro">lingvistic&abreve;</trd>
-  <trdgrp lng="ru">
-    <trd>&c_l;&c_i;&c_n;&c_g;&c_v;&c_i;&c_s;&c_t;&c_i;&c_k;&c_a;</trd>,
-    <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>,
-    <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_z;&c_n;&c_a;&c_n;&c_i;&c_je;</trd>
-  </trdgrp>
+<trdgrp lng="ru">
+  <trd>&c_l;&c_i;&c_n;&c_g;&c_v;&c_i;&c_s;&c_t;&c_i;&c_k;&c_a;</trd>,
+  <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>,
+  <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_z;&c_n;&c_a;&c_n;&c_i;&c_je;</trd>
+</trdgrp>
 <trd lng="sk">jazykoveda</trd>
 <trdgrp lng="sv">
     <trd>lingvistik</trd>,
@@ -1535,6 +1605,8 @@ lng="el">&gamma;&lambda;&omega;&sigma;&sigma;&omikron;&lambda;&omikron;&gamma;&j
     <trd>nyelv&eacute;szeti</trd>,
     <trd>nyelvtudom&aacute;nyi</trd>
   </trdgrp>
+  <trd lng="pl">j&eogonek;zykoznawczy</trd>
+  <trd lng="ro">lingvistic</trd>
   <trdgrp lng="ru">
     <trd>&c_l;&c_i;&c_n;&c_g;&c_v;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_ja;&c_z;&c_y;&c_k;&c_o;&c_v;&c_je;&c_d;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
@@ -1562,10 +1634,15 @@ lng="el">&gamma;&lambda;&omega;&sigma;&sigma;&omikron;&lambda;&omikron;&gamma;&j
       </ekz>
     </dif>
   </snc>
+  <trd lng="pl">nauka o <ind>j&eogonek;zyku</ind> planowym</trd>
+  <trd lng="ro">&icirc;nv&abreve;&#539;area limbii planificate</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.82 2020/08/01 14:10:34
+Vito Redsky: +trd pl +trd ro
+
 versio 1.81 2020/05/06 15:10:20
 Eko Nur Syah Hidayat: korekteto
 
@@ -1585,8 +1662,5 @@ Revision 1.76  2017/12/06 16:10:14  revo
 Wolfram Diestel: kor. mrk, plu prilaboris ekz-ojn
 
 Revision 1.75  2017/12/05 18:10:14  revo
-Wolfram Diestel: plu prilaboris ekz-ojn
-
-Revision 1.74  2017/12/01 11:10:13  revo
 -->
 </vortaro>

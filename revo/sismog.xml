@@ -2,17 +2,21 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sismog.xml,v 1.16 2020/05/12 13:11:49 revo Exp $">
+<art mrk="$Id: sismog.xml,v 1.17 2020/08/11 20:32:20 revo Exp $">
 <kap>
-  <rad>sismograf</rad>/o
+  <rad>sismograf</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad>seismograf</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
 </kap>
 <drv mrk="sismog.0o">
-  <kap><tld/>o</kap>
-  <snc>
-  <uzo tip="fak">GEOL</uzo>
+  <kap><tld/>o,
+  <var><kap>seismografo</kap></var></kap>
+  <snc mrk="sismog.0o.GEOL">
+    <uzo tip="fak">GEOL</uzo>
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      Aparato, por registri la horon, da&ubreve;ron kaj la intenson de sismaj
-      movoj, t.e. <ref cel="ter.0tremo">tertremoj</ref>:
+      Aparato, por registri la horon, da&ubreve;ron kaj la intenson de
+      <ref tip="vid" cel="sism.0o">sismaj movoj</ref>,
+      t.e. <ref cel="ter.0tremo">tertremoj</ref>:
       <ekz>
         okaze de la <nom>Usu</nom>-erupcio la agentejo unuafoje flugigis
         senpilotan aviadilon 
@@ -20,11 +24,12 @@
         plue oni instalas ne nur <tld/>on sed anka&ubreve; aparaton por mezuri
         aertremojn
         <fnt>
-          <bib>Monato</bib>
           <aut>Hori Jasuo</aut>
           <vrk><url
           ref="http://steloj.de/esperanto/monato2/007147.html">Erupcias
           maltrankvilo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000:12, p. 16a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -38,6 +43,18 @@
           <aut>Stefan Maul</aut>
           <vrk><url ref="&Monato;/2009/009837.php">Monstra
           atompotenco</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        La satelito estas nomita per <nac>Zhang Heng</nac>, fama erudiciulo de la Orienta
+        Han-dinastio (25-220), kiu iniciatis seismajn studojn per invento de la unua
+        seismografo en la jaro 132
+        <fnt>
+          <aut>Yu</aut>
+          <vrk><url ref="http://esperanto.cri.cn/2521/2018/02/02/179s197300.htm"
+              >&Ccirc;inio lan&ccirc;is elektromagnetan sateliton por studi seismajn anta&ubreve;signojn</url></vrk>
+          <lok>&Ccirc;ina Radio Internacia, 2018-02-02</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -64,6 +81,9 @@
 </art>
 <!--
 $Log$
+versio 1.17 2020/08/11 20:32:20
+Jeromo Vasxe: + var seismografo
+
 versio 1.16 2020/05/12 13:11:49
 Damien Brucker: +trd fr
 
@@ -83,8 +103,5 @@ Revision 1.10  2015/06/23 11:10:14  revo
 Joop Eggen: +trd bg en
 
 Revision 1.9  2004/10/13 16:32:48  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2003/12/21 17:32:49  revo
 -->
 </vortaro>

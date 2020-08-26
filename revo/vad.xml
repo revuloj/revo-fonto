@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vad.xml,v 1.25 2015/07/04 08:37:45 revo Exp $">
+<art mrk="$Id: vad.xml,v 1.26 2020/08/16 22:32:18 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>vad</rad>/i
@@ -12,7 +12,7 @@
     <tld/>i
   </kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="vad.0i.KOMUNE">
     <dif>
       Pa&scirc;i en akvo a&ubreve; en mola substanco, koto, ne&gcirc;o,
       sablo ktp:
@@ -72,36 +72,23 @@
 <drv mrk="vad.0ejo">
   <kap><tld/>ejo</kap>
   <snc mrk="vad.0ejo.travadejo">
-    <ref tip="dif" cel="vad.tra0ejo">tra<tld/>ejo</ref>
-    <trd lng="be">&c_b;&c_r;&c_o;&c_d;</trd>
-    <trd lng="de">Furt</trd>
-    <trd lng="en">ford</trd>
-    <trd lng="es">vado</trd>
-    <trd lng="fr">gu&eacute;</trd>
-    <trd lng="hu">g&aacute;zl&oacute;</trd>
-    <trd lng="pl">br&oacute;d</trd>
-    <trd lng="pt">vau</trd>
-    <trd lng="ru">&c_b;&c_r;&c_o;&c_d;</trd>
-    <trd lng="sk">brod</trd>
-    <trd lng="sv">vadst&auml;lle</trd>
-  </snc>
-  <trdgrp lng="cs">
-    <trd>brod</trd>,
-    <trd>mělčina</trd>
-  </trdgrp>
-  <trdgrp lng="sk">
-    <trd>brod, plytčina</trd>,
-    <trd>plytčina</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="vad.tra0ejo">
-  <kap>tra<tld/>ejo</kap>
-  <snc mrk="vad.tra0ejo.TRA">
     <dif>
-      Loko malprofunda, en kiu oni povas trairi riveron <tld/>ante.
+      <ref tip="dif" cel="vad.tra0ejo">Tra<tld/>ejo</ref>:
+      <ekz>
+        li levi&gcirc;is en tiu nokto, kaj prenis siajn du edzinojn kaj
+        siajn du sklavinojn kaj siajn dek unu infanojn, kaj
+        transpasis la <tld/>ejon de <nom>Jabok</nom>
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Gen; 32:22</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_b;&c_r;&c_o;&c_d;</trd>
+    <trdgrp lng="cs">
+      <trd>brod</trd>,
+      <trd>m&ecaron;l&ccaron;ina</trd>
+    </trdgrp>
     <trd lng="de">Furt</trd>
     <trd lng="en">ford</trd>
     <trd lng="es">vado</trd>
@@ -110,23 +97,51 @@
     <trd lng="pl">br&oacute;d</trd>
     <trd lng="pt">vau</trd>
     <trd lng="ru">&c_b;&c_r;&c_o;&c_d;</trd>
-    <trd lng="sk">brod</trd>
+    <trdgrp lng="sk">
+      <trd>brod</trd>,
+      <trd>plyt&ccaron;ina</trd>
+    </trdgrp>
     <trd lng="sv">vadst&auml;lle</trd>
   </snc>
-  <trd lng="cs">brod</trd>
+  <snc mrk="vad.0ejo.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Malprofunda akvejo, en kiu ekzemple
+      nena&gcirc;ipovaj infanoj povas ludi:
+      <ekz>
+        la interno de la parko havas <tld/>ejon kaj infanludejon
+        <fnt>
+          <aut>Matthew C.</aut>
+          <vrk><url ref="https://www.meetup.com/fr-FR/Esperanto-Toronto/events/223400313/"
+              >Somera Pikniko</url></vrk>
+          <lok>Grupo Esperanto-Toronto, 2015-07-18</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">pataugeoire</trd>
+  </snc>
 </drv>
 
 <drv mrk="vad.tra0i">
   <kap>tra<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="vad.tra0i.KOMUNE">
     <dif>
-      Trairi <tld/>ante.
+      Trairi <tld/>ante:
+      <ekz>
+        mi tra<tld/>is la fundon de la fosa&jcirc;o en la profunda ne&gcirc;o
+        <fnt>
+          <aut>F. M&oacute;ra, trad. Vizi L.</aut>
+          <vrk><url ref="http://verkoj.com/tradukistoj/vizi-laszlo/la-trezorcasa-feljaketo"
+              >La trezor&ccirc;asa feljaketo</url></vrk>
+          <lok>[vidita en 2020]</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_j;&c_s;&c_mol;&c_c;&c_ib;
   <ind>&c_w;&c_b;&c_r;&c_o;&c_d;</ind></trd>
-  <trd lng="cs">přebrodit <klr>(dostat se z břehu na břeh)</klr></trd>
+  <trd lng="cs">p&rcaron;ebrodit <klr>(dostat se z b&rcaron;ehu na b&rcaron;eh)</klr></trd>
   <trd lng="de">durchwaten</trd>
   <trd lng="en">ford</trd>
   <trd lng="es">vadear</trd>
@@ -142,9 +157,48 @@
   <ind>&c_v;&c_b;&c_r;&c_o;&c_d;</ind></trd>
   <trd lng="sk">prebrodi&tcaron;</trd>
 </drv>
+
+<drv mrk="vad.tra0ejo">
+  <kap>tra<tld/>ejo</kap>
+  <snc mrk="vad.tra0ejo.TRA">
+    <dif>
+      Loko malprofunda, en kiu oni povas trairi riveron <tld/>ante:
+      <ekz>
+        repavimi tra<tld/>ejon per roka&jcirc;oj kaj &scirc;tonoj
+        <fnt>
+          <aut>M. kaj A. Lemoine, trad. V. Lutermano</aut>
+          <vrk><url ref="https://eo.mondediplo.com/article1237.html"
+              >En Venez&ubreve;elo, voja&gcirc;o en indiana lando</url></vrk>
+          <lok>Le Monde Diplomatique, 2007-07-01</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+    <trd lng="be">&c_b;&c_r;&c_o;&c_d;</trd>
+    <trdgrp lng="cs">
+      <trd>brod</trd>,
+      <trd>m&ecaron;l&ccaron;ina</trd>
+    </trdgrp>
+    <trd lng="de">Furt</trd>
+    <trd lng="en">ford</trd>
+    <trd lng="es">vado</trd>
+    <trd lng="fr">gu&eacute;</trd>
+    <trd lng="hu">g&aacute;zl&oacute;</trd>
+    <trd lng="pl">br&oacute;d</trd>
+    <trd lng="pt">vau</trd>
+    <trd lng="ru">&c_b;&c_r;&c_o;&c_d;</trd>
+    <trdgrp lng="sk">
+      <trd>brod</trd>,
+      <trd>plyt&ccaron;ina</trd>
+    </trdgrp>
+    <trd lng="sv">vadst&auml;lle</trd>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.26 2020/08/16 22:32:18
+Jeromo Vasxe: + kk ekz, + snc SPO cxe ~ejo
+
 Revision 1.24  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -164,14 +218,5 @@ Revision 1.19  2004/04/18 16:31:52  revo
 Jeromo Vasxe: postkor. *ej*o
 
 Revision 1.18  2004/04/12 16:32:23  revo
-Jeromo Vasxe: - () en kap, + trd fr
-
-Revision 1.17 2002/11/10 11:42:33 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16 2002/09/09 19:46:49 revo
-Viliam Bur: trd +sk
-
-Revision 1.15 2002/07/18 11:24:15 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lern.xml,v 1.54 2020/04/29 01:10:26 revo Exp $">
+<art mrk="$Id: lern.xml,v 1.57 2020/07/15 07:10:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lern</rad>/i <fnt><bib>PV</bib></fnt>
@@ -117,7 +117,9 @@
   <trd lng="id">bel<ind>ajar</ind></trd>
   <trd lng="nl">leren</trd>
   <trd lng="oc">aprene</trd>
+  <trd lng="pl">uczy&cacute; si&eogonek;</trd>
   <trd lng="pt">aprender</trd>
+  <trd lng="ro">&icirc;nv&abreve;&#539;a</trd>
   <trd lng="ru">&c_u;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;
     <klr>(&c_ch;&c_je;&c_m;&c_u;-&c_l;.)</klr></trd>
   <trd lng="sk">u&ccaron;i&tcaron; sa</trd>
@@ -134,7 +136,7 @@
     <dif>
       Materialo <tld/>ata a&ubreve; <tld/>ita:
       <ekz>
-        tiuj dudekjaruloj <klr>...</klr> devos kunigi la tre
+        tiuj dudekjaruloj <klr>[&#8230;]</klr> devos kunigi la tre
         diversajn <tld/>a&jcirc;ojn kiujn ili <tld/>is infana&gcirc;e, tiel ke
         ili la&ubreve;orde komprenos la diversajn temojn kaj la naturon
         de la Realo
@@ -146,10 +148,21 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de"><klr>(Lern-)</klr>Stoff</trd>
   <trd lng="es">material de <ind>aprendizaje</ind></trd>
   <trd lng="id">pel<ind>ajar</ind>an</trd>
+  <trdgrp lng="pl">
+    <trd>to, czego si&eogonek; <ind>uczy</ind></trd>,
+    <trd>przedmiot nauki</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>ceea ce se &icirc;nva&#539;&abreve;</trd>,
+    <trd>subiect de studiu</trd>
+  </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_z;&c_n;&c_a;&c_n;&c_i;&c_ja;<klr> (&c_p;&c_r;&c_i;&c_o;&c_b;&c_r;&c_je;&c_t;&c_jo;&c_n;&c_n;&c_y;&c_je; &c_u;&c_ch;&c_jo;&c_b;&c_o;&c_j;)</klr></trd>,
+    <trd>&c_z;&c_n;&c_a;&c_n;&c_i;&c_ja;<klr>
+    (&c_p;&c_r;&c_i;&c_o;&c_b;&c_r;&c_je;&c_t;&c_jo;&c_n;&c_n;&c_y;&c_je;
+    &c_u;&c_ch;&c_jo;&c_b;&c_o;&c_j;)</klr></trd>,
     <trd>&c_u;&c_ch;&c_je;&c_b;&c_n;&c_y;&c_j; &c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;</trd>
   </trdgrp>
 </drv>
@@ -178,11 +191,18 @@
     <trd>u&ccaron;edn&iacute;k</trd>,
     <trd>&zcaron;&aacute;k</trd>
   </trdgrp>
+  <trd lng="de">Sch&uuml;ler</trd>
   <trdgrp lng="es">
     <trd>alumno</trd>,
     <trd>estudiante</trd>
   </trdgrp>
   <trd lng="fr">&eacute;l&egrave;ve</trd>
+  <trdgrp lng="pl">
+    <trd>ucze&nacute;</trd>,
+    <trd>sztubak</trd>,
+    <trd>nowicjusz</trd>
+  </trdgrp>
+  <trd lng="ro">elev</trd>
   <trd lng="sk">&zcaron;iak</trd>
 </drv>
 
@@ -195,6 +215,8 @@
   </snc>
   <trd lng="es">alumno vago</trd>
   <trd lng="fr">cancre</trd>
+  <trd lng="pl">ucze&nacute; z&lstroke;y</trd>
+  <trd lng="ro">elev rau</trd>
 </drv>
 
 <drv mrk="lern.0ebleco">
@@ -219,6 +241,14 @@
   <trd lng="en">learnability</trd>
   <trd lng="es">facilidad de aprendizaje</trd>
   <trd lng="fr">facilit&eacute; d'apprentissage</trd>
+  <trdgrp lng="pl">
+    <trd>mo&zdot;liwo&sacute;&cacute; nauczenia si&eogonek;</trd>,
+    <trd>zdolno&sacute;ci {pl}</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>ocazie de a<ind>&icirc;nv&abreve;&#539;afaksu</ind></trd>,
+    <trd>abilitate</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lern.0ejo">
@@ -255,6 +285,7 @@
     <trd lng="be">&c_sh;&c_k;&c_o;&c_l;&c_a;
       <klr>(&c_p;&c_je;&c_r;&c_a;&c_n;.)</klr></trd>
     <trd lng="de">Schule</trd>
+    <trd lng="pl">szko&lstroke;a</trd> 
     <trd lng="ru">&c_sh;&c_k;&c_o;&c_l;&c_a;</trd>
     <trd lng="vo">jul</trd>
   </snc>
@@ -279,7 +310,9 @@
   <trd lng="hu">iskola</trd>
   <trd lng="id">sekolah</trd>
   <trd lng="nl">school</trd>
+  <trd lng="pl">szko&lstroke;a</trd>
   <trd lng="pt">escola</trd>
+  <trd lng="ro">&scedil;coal&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_sh;&c_k;&c_o;&c_l;&c_a;</trd>,
     <trd>&c_u;&c_ch;&c_i;&c_l;&c_i;&c_shch;&c_je;</trd>,
@@ -320,6 +353,11 @@
     <trd>colegial</trd>
   </trdgrp>
   <trd lng="fr">&eacute;colier</trd>
+  <trdgrp lng="pl">
+    <trd>ucze&nacute;</trd>,
+    <trd>sztubak</trd>
+  </trdgrp>
+  <trd lng="ro">elev</trd>
   <trd lng="sk">&scaron;kol&aacute;k</trd>
 </drv>
 
@@ -345,6 +383,7 @@
       <klr>(&c_sh;&c_t;&c_o;&c_s;&c_mol;&c_c;&c_ib;
         &c_k;&c_a;&c_m;&c_u;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
     <trd lng="nl">onderwijzen</trd>
+    <trd lng="pl">naucza&cacute;</trd>
     <trd lng="ru">&c_p;&c_r;&c_je;&c_p;&c_o;&c_d;&c_a;&c_v;&c_a;&c_t;&c_mol;
       <klr>(&c_ch;&c_t;&c_o;-&c_l;. &c_k;&c_o;&c_m;&c_u;-&c_l;.)</klr></trd>
   </snc>
@@ -358,17 +397,21 @@
       </ekz>
     </dif>
     <trd lng="be">&c_v;&c_u;&c_ch;&c_y;&c_c;&c_mol;
-      <klr>(&c_k;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib; &c_ch;&c_a;&c_m;&c_u;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
+      <klr>(&c_k;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;
+      &c_ch;&c_a;&c_m;&c_u;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
     <trd lng="de">lehren</trd>
     <trdgrp lng="hu">
       <trd>tan&iacute;t</trd>,
       <trd>megtan&iacute;t</trd>
     </trdgrp>
     <trd lng="nl">doen <ind>leren</ind></trd>
-    <trd lng="ru">&c_u;&c_ch;&c_i;&c_t;&c_mol;<klr> (&c_k;&c_o;&c_g;&c_o;-&c_l;. &c_ch;&c_je;&c_m;&c_u;-&c_l;.)</klr></trd>
+    <trd lng="pl">uczy&cacute;</trd>
+    <trd lng="ru">&c_u;&c_ch;&c_i;&c_t;&c_mol;<klr> (&c_k;&c_o;&c_g;&c_o;-&c_l;.
+    &c_ch;&c_je;&c_m;&c_u;-&c_l;.)</klr></trd>
   </snc>
   <trd lng="br">kelenn</trd>
   <trd lng="cs">u&ccaron;it <klr>(n&ecaron;koho)</klr></trd>
+  <trd lng="de">beibringen</trd>
   <trd lng="el">&delta;&jota;&delta;&alfa_ton;&sigma;&kappa;&omega;</trd>
   <trdgrp lng="es">
     <trd>ense&ntilde;ar</trd>,
@@ -379,10 +422,12 @@
     <trd>enseigner</trd>
   </trdgrp>
   <trd lng="id">meng<ind>ajar</ind>kan</trd>
+  <trd lng="pl">naucza&cacute;</trd>
   <trdgrp lng="pt">
     <trd>ensinar</trd>,
     <trd>instruir</trd>
   </trdgrp>
+  <trd lng="ro">&icirc;nv&abreve;&#539;a</trd>
   <trdgrp lng="sk">
     <trd>u&ccaron;i&tcaron;</trd>,
     <trd>u&ccaron;i&tcaron; <klr>(niekoho)</klr></trd>
@@ -408,6 +453,7 @@
     </dif>
   </snc>
   <trd lng="cs">u&ccaron;ebn&iacute; pom&uring;cka</trd>
+  <trd lng="de">Unterrichtsmaterial</trd>
   <trd lng="en">tutorial</trd>
   <trdgrp lng="es">
     <trd>tutorial</trd>,
@@ -415,6 +461,14 @@
     <trd>herramienta de ense&ntilde;anza</trd>
   </trdgrp>
   <trd lng="id">tutorial</trd>
+  <trdgrp lng="pl">
+    <trd>kurs</trd>,
+    <trd>podr&eogonek;cznik</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>manual</trd>,
+    <trd>manuale &#537;colare</trd>
+  </trdgrp>
   <trd lng="ru">&c_u;&c_ch;&c_je;&c_b;&c_n;&c_o;&c_je; &c_p;&c_o;&c_s;&c_o;&c_b;&c_i;&c_je;</trd>
   <trd lng="sk">u&ccaron;ebn&aacute; pom&ocirc;cka</trd>
 </drv>
@@ -453,11 +507,17 @@
     </dif>
   </snc>
   <trd lng="cs">z&aacute;kladn&iacute; &scaron;kola</trd>
+  <trd lng="de">Grundschule</trd>
   <trdgrp lng="es">
     <trd>escuela de primaria</trd>,
     <trd>colegio de primaria</trd>
   </trdgrp>
   <trd lng="fr">&eacute;cole primaire</trd>
+  <trd lng="pl">szko&lstroke;a podstawowa</trd>
+  <trdgrp lng="ro">
+    <trd>&#537;coal&abreve; elementar&abreve;</trd>,
+    <trd>&#537;coal&abreve; primar&abreve;</trd>
+  </trdgrp>   
   <trd lng="sk">z&aacute;kladn&aacute; &scaron;kola</trd>
 </drv>
 
@@ -493,6 +553,8 @@
     <trd>&eacute;tudier &agrave; fond</trd>
   </trdgrp>
   <trd lng="hu">megtanul</trd>
+  <trd lng="pl">nauczy&cacute; si&eogonek;</trd>     
+  <trd lng="ro">invata sa</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_z;&c_u;&c_ch;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_u;&c_ch;&c_i;&c_t;&c_mol;</trd>
@@ -544,6 +606,8 @@
   </trdgrp>
   <trd lng="hu">v&eacute;gig <ind>megtanul</ind></trd>
   <trd lng="id"><ind>tamat</ind> belajar</trd>
+  <trd lng="pl">wyuczy&cacute; si&eogonek;</trd>     
+  <trd lng="ro">invata</trd>
   <trd lng="ru">&c_d;&c_o;&c_u;&c_ch;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>nau&ccaron;i&tcaron; sa</trd>,
@@ -573,12 +637,13 @@
       </ekz>
     </dif>
     <trd lng="ru">&c_r;&c_a;&c_z;&c_u;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+    <trd lng="pl">oduczy&cacute; si&eogonek;</trd>
   </snc>
   <snc mrk="lern.mal0i.forigi">
     <dif>
       Forigi misan, nedezirindan, malutilan scion a&ubreve; kutimi&gcirc;on:
       <ekz>
-        de fu&scirc;verko vi povus <klr>...</klr> imite <tld/>i erarojn,
+        de fu&scirc;verko vi povus <klr>[&#8230;]</klr> imite <tld/>i erarojn,
         kiujn vi poste devos pene mal<tld/>i
         <fnt>
           <aut>M. Boulton</aut>,
@@ -594,6 +659,8 @@
   <trd lng="cs">zapom&iacute;nat nau&ccaron;en&eacute;</trd>
   <trd lng="es">desaprender</trd>
   <trd lng="fr">d&eacute;sappendre</trd>
+  <trd lng="pl">oduczy&cacute; si&eogonek;</trd>
+  <trd lng="ro">dezv&abreve;&#539;a</trd>
   <trd lng="sk">zab&uacute;da&tcaron; nau&ccaron;en&eacute;</trd>
 </drv>
 
@@ -624,6 +691,8 @@
   <trd lng="cs">st&rcaron;edn&iacute; &scaron;kola</trd>
   <trd lng="es">escuela secundaria</trd>
   <trd lng="fr">&eacute;cole secondaire</trd>
+  <trd lng="pl">szko&lstroke;a &sacute;rednia</trd>     
+  <trd lng="ro">liceu</trd>
   <trd lng="sk">stredn&aacute; &scaron;kola</trd>
 </drv>
 
@@ -643,7 +712,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        tiu interna kreopovo de Esperanto <klr>...</klr> aktivigas
+        tiu interna kreopovo de Esperanto <klr>[&#8230;]</klr> aktivigas
         la studo-dinamikon de la okaza mem<tld/>anto de la lingvo
         <fnt>
           <aut>B. Ragnarsson</aut>,
@@ -659,6 +728,8 @@
   <trd lng="cs">samouk</trd>
   <trd lng="es">autodidacta</trd>
   <trd lng="id">autodidak</trd>
+  <trd lng="pl"> samouk</trd>     
+  <trd lng="ro">autodidact</trd>
   <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_u;&c_ch;&c_k;&c_a;</trd>
   <trd lng="sk">samouk</trd>
 </drv>
@@ -705,6 +776,11 @@
   <trd lng="hu">autodidakta</trd>
   <trd lng="id">autodidak</trd>
   <trd lng="nl">autodidact</trd>
+  <trdgrp lng="pl">
+    <trd>samouk</trd>,
+    <trd>autodydakta</trd>
+  </trdgrp>
+  <trd lng="ro">autodidact</trd>
   <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_u;&c_ch;&c_k;&c_a;</trd>
   <trd lng="sk">samouk</trd>
   <trd lng="cs">samouk</trd>
@@ -731,6 +807,8 @@
   <trd lng="en">teach-yourself book</trd>
   <trd lng="es">libro de autoaprendizaje</trd>
   <trd lng="fr">livre d'autoapprentissage</trd>
+  <trd lng="pl">samouczek</trd>     
+  <trd lng="ro">tutorial</trd>
   <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
 </drv>
 
@@ -758,6 +836,8 @@
     <trd>ancien<klr> (de m&ecirc;me &eacute;cole)</klr></trd>,
     <trd>camarade d'&eacute;cole</trd>
   </trdgrp>
+  <trd lng="pl">kolega ze <ind>szko&lstroke;y</ind></trd>     
+  <trd lng="ro">coleg</trd>
 </drv>
 
 <drv mrk="lern.tut0i">
@@ -781,6 +861,8 @@
   <trd lng="es">estudiar a fondo</trd>
   <trd lng="fr">&eacute;tudier &agrave; fond</trd>
   <trd lng="hu">teljesen <ind>megtanul</ind></trd>
+  <trd lng="pl">wyuczy&cacute; si&eogonek;</trd>     
+  <trd lng="ro">invata</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_z;&c_u;&c_ch;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_u;&c_ch;&c_i;&c_t;&c_mol;</trd>
@@ -819,14 +901,29 @@
   </trdgrp>
   <trd lng="hu">inaskod&aacute;s</trd>
   <trd lng="nl">leer<klr tip="ind"> (v.leerjongen)</klr></trd>
+  <trd lng="pl">terminowanie  <klr>(ucznia w cechu)</klr></trd>
+  <trdgrp lng="ro">
+    <trd>ucenicie</trd>,
+    <trd>procesul de &icirc;nv&abreve;&tcedil;are &icirc;n &scedil;coal&abreve;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_t;&c_a;&c_zh;&c_i;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>,
-    <trd>&c_p;&c_r;&c_a;&c_k;&c_t;&c_i;&c_k;&c_a;<klr tip="amb"> (&c_u;&c_ch;&c_je;&c_b;&c_n;&c_a;&c_ja;)</klr></trd>
+    <trd>&c_p;&c_r;&c_a;&c_k;&c_t;&c_i;&c_k;&c_a;<klr tip="amb">
+    (&c_u;&c_ch;&c_je;&c_b;&c_n;&c_a;&c_ja;)</klr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
-$Log: lern.xml,v $
+$Log$
+versio 1.57 2020/07/15 07:10:35
+Wolfram Diestel: +germ trd
+
+versio 1.56 2020/06/30 21:10:45
+Vito Redsky: +trd pl +trd ro  
+
+versio 1.55 2020/06/29 20:32:16
+Wolfram Diestel: + kelkaj germ trd
+
 versio 1.54 2020/04/29 01:10:26
 Eko Nur Syah Hidayat: korekteto
 
@@ -840,14 +937,5 @@ Revision 1.51  2018/04/20 07:10:23  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.50  2017/10/24 11:10:13  revo
-Jeromo Vasxe: + ~ebleco
-
-Revision 1.49  2017/05/31 11:10:14  revo
-Ludoviko Francisco: mov trd snc->drv
-
-Revision 1.48  2016/02/28 15:10:16  revo
-Wolfram Diestel: -tajperaro
-
-Revision 1.47  2016/01/28 23:10:21  revo
 -->
 </vortaro>

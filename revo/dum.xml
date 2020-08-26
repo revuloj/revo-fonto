@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dum.xml,v 1.31 2020/06/02 05:10:37 revo Exp $">
+<art mrk="$Id: dum.xml,v 1.33 2020/07/28 22:33:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dum</rad> 
@@ -11,9 +11,7 @@
   <drv mrk="dum.0">
     <kap><ofc>*</ofc><tld/></kap>
     <subdrv>
-      <dif>
-        Prepozicio signifanta:
-      </dif>
+      <gra><vspec>prepozicio</vspec></gra>
       <snc mrk="dum.0.prep">
         <dif>
           En la tempo, en kies da&ubreve;ro io okazas:
@@ -65,12 +63,12 @@
       </snc>
     </subdrv>
     <subdrv>
-      <dif>
-        Subordiga konjunkcio signifanta:
-      </dif>
+      <gra><vspec>konjunkcio</vspec></gra>
       <snc mrk="dum.0.konj_temp">
         <dif>
-          En la tempo, kiam:
+          En la tempo, kiam...;
+          <tld/> kiam...,
+          <ref tip="sin" cel="dum.0ke.konj_temp">dum ke<sncref/></ref>...:
           <ekz>
             for&gcirc;u feron, <tld/> &gcirc;i estas varmega
             <fnt><bib>PrV</bib></fnt>;
@@ -85,36 +83,34 @@
             la dudek jaroj, <tld/> kiuj mi servis vin
             <fnt>
               <bib>MT</bib>
-              <lok>Genezo 31:41</lok>
+              <lok>&Gen; 31:41</lok>
             </fnt>;
           </ekz>
           <ekz>
             la femuro <klr>[&#8230;]</klr> elartiki&gcirc;is, <tld/> li luktis
             <fnt>
               <bib>MT</bib>
-              <lok>Genezo 32:25</lok>
+              <lok>&Gen; 32:25</lok>
             </fnt>;
           </ekz>
           <ekz>
             ne malpacu <tld/> <klr>(vi estas sur)</klr> la vojo
             <fnt>
               <bib>MT</bib>
-              <lok>Genezo 45:24</lok>
+              <lok>&Gen; 45:24</lok>
             </fnt>.
           </ekz>
         </dif>
         <rim>
-          Kelkaj uzas en tiu senco <em>dum kiam</em>, kio estas senutila
-          nekonsilinda ta&ubreve;tologio:
+          Kelkaj uzas en tiu senco <em>dum kiam</em>, kiu estas
+          tradicie malrekomendata:
           <ekz>
             poezio estas <klr>[&#8230;]</klr> pensado per vortaj specimenoj,
-            <tld/> kiam prozo
-            estas pensado per abstrakto
+            <tld/> kiam prozo estas pensado per abstrakto
             <fnt>
               <bib>Monato</bib>
               <aut>Boris Kolker</aut>
-              <vrk><url
-              ref="http://steloj.de/esperanto/monato2/007198.html">Poezio
+              <vrk><url ref="http://steloj.de/esperanto/monato2/007198.html">Poezio
               sed ne poemoj</url></vrk>
             </fnt>.
           </ekz>
@@ -124,7 +120,6 @@
         </trdgrp>
         <trdgrp lng="fr">
           <trd>alors que<klr tip="ind"> (lorsque)</klr></trd>,
-          <trd>cependant que</trd>,
           <trd>lorsque</trd>,
           <trd>pendant que</trd>
         </trdgrp>
@@ -139,7 +134,8 @@
       </snc>
       <snc mrk="dum.0.konj_kontrast">
         <dif>
-          Kontraste kun tio, ke:
+          Kontraste kun tio, ke...;
+          <ref tip="sin" cel="dum.0ke.konj_kontrast"><tld/> ke<sncref/></ref>...:
           <ekz>
             vi estas juna, <tld/> mi estas maljuna;
           </ekz>
@@ -157,13 +153,13 @@
           </ekz>
         </dif>
         <refgrp tip="vid">
-          <ref cel="cxe.0.malgraux">&ccirc;e <sncref/></ref>,
+          <ref cel="cxe.0.malgraux">&ccirc;e<sncref/></ref>,
           <ref cel="kontraux.0e">kontra&ubreve;e</ref>,
           <ref cel="sed">sed</ref>.
         </refgrp>
         <rim>
-          Kelkaj uzas en tiu senco <em>dum ke</em>, kio estas iom duba
-          esprimo.
+          Kelkaj uzas en tiu senco <em>dum ke</em>, kiu estas
+          tradicie malrekomendata.
         </rim>
         <trdgrp lng="fr">
           <trd>alors que<klr tip="ind"> (tandis que)</klr></trd>,
@@ -199,16 +195,26 @@
 <subart>
   <dif>
     Vortero kun la senco
-    <ref cel="dum.0.prep"><tld/> <sncref/></ref>
+    <ref cel="dum.0.prep"><tld/><sncref/></ref>
     a&ubreve; <ref cel="dum.0.konj_kontrast"><sncref/></ref>:
   </dif>
   <drv mrk="dum.0a">
     <kap><tld/>a<fnt>Z</fnt></kap>
     <snc mrk="dum.0a.samtempa">
       <dif>
-        Samtempa.
+        Samtempa:
+      <ekz>
+        legado povas esti same bona a&ubreve; same sensenca, kiel rigardado al la okcidentaj
+        montoj kaj <tld/>a revado pri &ccirc;io kaj nenio
+        <fnt>
+          <aut>S. Engholm</aut>
+          <vrk>Al Torento</vrk>
+          <lok>1930</lok>
+        </fnt>.
+      </ekz>
       </dif>
       <trd lng="be">&c_a;&c_d;&c_n;&c_a;&c_ch;&c_a;&c_s;&c_n;&c_y;</trd>
+      <trd lng="fr">concomitant</trd>
       <trd lng="hu">egyidej&udblac;</trd>
       <trd lng="pt">simult&acirc;neo<klr tip="ind"> (adj.)</klr></trd>
     </snc>
@@ -322,8 +328,7 @@
     </snc>
     <snc mrk="dum.0e.kontraste">
       <dif>
-        Kontraste kun tio; <ref tip="sin"
-        cel="kontraux.0e.opone">kontra&ubreve;e</ref>,
+        Kontraste kun tio; <ref tip="sin" cel="kontraux.0e.opone">kontra&ubreve;e</ref>,
         <ref tip="sin" cel="malgra.0e">malgra&ubreve;e</ref>,
         <ref tip="sin" cel="tamen.0">tamen</ref>:
         <ekz>
@@ -377,10 +382,10 @@
         <ekz>
           inter<tld/>e pli praktike mi konstatas, ke <klr>[&#8230;]</klr>
           <fnt>
-            <aut>Raymond Schwartz</aut>
-            <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga
-            Butiko</url></vrk>
-            <lok>Printempa Varianto</lok>
+            <aut>R. Schwartz</aut>
+            <vrk>Printempa Varianto</vrk>
+            <lok>en: <url ref="http://steloj.de/esperanto/butiko">La Stranga
+            Butiko</url>, 1931</lok>
           </fnt>;
         </ekz>
         <ekz>
@@ -388,8 +393,7 @@
           kaj duonokule kun granda plezuro rigardadas  
           <fnt>
             <aut>F. Karinthy, trad. J. Farkas</aut>,
-            <vrk><url
-            ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr23/instruas_filetonu.html">
+            <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr23/instruas_filetonu.html">
             Mi instruas mian fileton</url></vrk>,
             <lok>Nica Literatura Revuo, 1957-01 &gcirc;is 02, numero 2/3, p.
             83a-86a</lok>
@@ -400,6 +404,54 @@
     <trd lng="de">zwischenzeitlich</trd>
     <trd lng="fr">cependant<klr tip="ind"> (pendant ce
     temps)</klr></trd>
+  </drv>
+
+  <drv mrk="dum.0ke">
+  <kap><tld/> ke</kap>
+  <gra><vspec>konjunkcio</vspec></gra>
+  <snc mrk="dum.0ke.konj_temp">
+    <dif>
+      <ref tip="dif" cel="dum.0.konj_temp">Dum<sncref/></ref>:
+      <ekz>
+        ni estis liberaj por promenadi, na&gcirc;i, sunbruni&gcirc;i kaj &gcirc;ui la &ccirc;irka&ubreve;a&jcirc;on
+        diversmaniere <tld/> ke oni interkonati&gcirc;is
+        <fnt>
+          <aut>I. Mac Dowall</aut>
+          <vrk><url ref="https://legacy.esperanto.org.uk/lbe/arkivo/944/01.html">
+          Vizito al la Jubilea 20-a &Ccirc;ebalta Esperantista Printempo</url></vrk>
+          <lok>La Brita Esperantisto, 1998-09 &gcirc;is 10</lok>
+        </fnt>.
+      </ekz>
+   </dif>
+  </snc>
+  <snc mrk="dum.0ke.konj_kontrast">
+    <dif>
+      <ref tip="dif" cel="dum.0.konj_kontrast">Dum<sncref/></ref>:
+      <ekz>
+        en Britujo studento legas, verkas, diskutas kaj pensas en sia
+        unu gepatra lingvo, <tld/> ke en Danlando li devus eble legi en
+        unu lingvo, verki en alia, kaj pensi iom en amba&ubreve;
+        <fnt>
+          <aut>V. Sadler</aut>
+          <vrk><url ref="http://www.uea.org/informado/arkivo/63/ses.html">
+          Azia Strategio</url></vrk>
+          <bib>Esperanto</bib>
+          <lok>1963-01, p. 6a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim mrk="dum.0ke.RIM_GRAM">
+    Same kiel <ref tip="vid" cel="gxis.0ke">&gcirc;is ke</ref>
+    <em>dum ke</em> estas rigardata de pluraj gramatikistoj
+    erara, &ccirc;ar tradicie <em>dum</em> havas
+    amba&ubreve; funkciojn de dependiga konjunkcio kaj de prepozicio.
+    Sistema uzo de <em>dum ke</em> en la dependiga funkcio
+    la&ubreve; la modelo <em>anstata&ubreve; ke</em>, <em>sen ke</em> ktp.
+    implicas ke oni agnoskas &gcirc;in nur prepozicio.
+    <aut>&jcirc;v</aut>
+  </rim>
+  <trd lng="fr">cependant que</trd>
   </drv>
   
 </subart>
@@ -417,8 +469,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006872.html">Britio:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006872.html">Britio:
           Doktoro Morto</url></vrk>
         </fnt>;
       </ekz>
@@ -438,8 +489,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url
-          ref="https://www.monato.be/2004/008266.html">Romantika itinero
+          <vrk><url ref="https://www.monato.be/2004/008266.html">Romantika itinero
           por spertaj biciklantoj</url></vrk>
           <lok>2004</lok>
         </fnt>.
@@ -450,6 +500,12 @@
 </art>
 <!--
 $Log$
+versio 1.33 2020/07/28 22:33:00
+Jeromo Vasxe: kor. ref.
+
+versio 1.32 2020/07/27 22:32:17
+Jeromo Vasxe: + ~ ke
+
 versio 1.31 2020/06/02 05:10:37
 Aleks Andre: en
 
@@ -465,11 +521,5 @@ kor. ecaron en la chehha
 
 Revision 1.26  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
-
-Revision 1.25  2011/04/30 20:10:16  revo
-Jeromo Vasxe: + inter~e
-
-Revision 1.24  2010/11/01 17:30:20  revo
-Jerano Zachrisson: +trd sv
 -->
 </vortaro>
