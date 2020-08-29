@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fid.xml,v 1.30 2020/08/29 05:10:40 revo Exp $">
+<art mrk="$Id: fid.xml,v 1.31 2020/08/29 09:10:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fid</rad>/i <fnt><bib>PV</bib></fnt>
@@ -34,12 +34,7 @@
       </ekz><ekz>
         ne <tld/>u heredon, <tld/>u posedon
         <klr>(<tld/>u havata&jcirc;on pli ol havota&jcirc;on)</klr>
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        <ind><tld/>igi</ind> <klr>(igi <tld/>anta)</klr>
-        iun<fnt>Z</fnt>.
-        <trd lng="fr">mettre en <ind>confiance</ind></trd>
-        <trd lng="hu">bizakod&oacute;v&aacute; tesz</trd>
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -124,6 +119,15 @@
         trompi la <tld/>on de iu<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>reliance</trd>
+      <trd>faith</trd>,
+      <trd>trust</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>confiance</trd>,
+      <trd>foi<klr tip="ind"> (confiance)</klr></trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_u;&c_v;&c_je;&c_r;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
       <trd>&c_v;&c_je;&c_r;&c_a;</trd>
@@ -149,6 +153,7 @@
 	  <fnt><bib>NT</bib>, <lok>&Mat; 9:29</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="islam.0o">islamo</ref>
     <rim>
       Kompare kun opinio kaj
       <ref cel="kred.0i.je">kredo<sncref/></ref> 
@@ -165,6 +170,8 @@
         <fnt><bib>NT</bib>, <lok>&Jak; 2:26</lok></fnt>.
       </ekz>
     </rim>
+    <trd lng="en">faith</trd>
+    <trd lng="fr">foi<klr> (religion)</klr></trd>
     <trd lng="ru">&c_v;&c_je;&c_r;&c_a;</trd>
   </snc>
   <trdgrp lng="cs">
@@ -174,18 +181,9 @@
     <trd>v&iacute;ra</trd>
   </trdgrp>
   <trd lng="de">Vertrauen</trd>
-  <trdgrp lng="en">
-    <trd>reliance</trd>
-    <trd>faith</trd>,
-    <trd>trust</trd>
-  </trdgrp>
   <trdgrp lng="es">
    <trd>confianza</trd>,
    <trd>fe</trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>confiance</trd>,
-    <trd>foi<klr tip="ind"> (confiance)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>bizalom</trd>,
@@ -255,7 +253,10 @@
     <trd>v&ecaron;rohodn&yacute;</trd>
   </trdgrp>
   <trd lng="de">vertrauensw&uuml;rdig</trd>
-  <trd lng="en">trustworthy</trd>
+  <trdgrp lng="en">
+     <trd>reliable</trd>,
+     <trd>trustworthy</trd>
+  </trdgrp>
   <trd lng="es">confiable</trd>
   <trdgrp lng="fr">
     <trd>digne de <ind>confiance</ind></trd>,
@@ -271,6 +272,27 @@
   <trdgrp lng="sk">
     <trd>d&ocirc;veryhodn&yacute;</trd>,
     <trd>spo&lcaron;ahliv&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fid.0igi">
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Igi <tld/>anta, esperigi:
+      <ekz>
+        Kaj &Hcirc;izkija ne <tld/>igu vin per la Eternulo, dirante:
+        La Eternulo certe nin savos
+        <fnt><bib>MT</bib>, <lok>&Jes; 36:15</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">mettre en <ind>confiance</ind></trd>
+  <trd lng="hu">bizakod&oacute;v&aacute; tesz</trd>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_b;&c_n;&c_a;&c_d;&c_jo;&c_zh;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_v;&c_s;&c_je;&c_l;&c_i;&c_t;&c_mol; <ind>&c_u;&c_v;&c_je;&c_r;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
   </trdgrp>
 </drv>
 
@@ -476,6 +498,9 @@
 </art>
 <!--
 $Log$
+versio 1.31 2020/08/29 09:10:32
+Sergio Pokrovskij: apartigo de ~igi
+
 versio 1.30 2020/08/29 05:10:40
 Sergio Pokrovskij: fido.REL
 
@@ -495,8 +520,5 @@ Revision 1.24  2015/09/21 22:10:16  revo
 Jeromo Vasxe: + ~ema
 
 Revision 1.23  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.22  2015/06/29 16:29:38  revo
 -->
 </vortaro>
