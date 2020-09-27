@@ -2,85 +2,105 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komut.xml,v 1.41 2020/02/15 10:10:33 revo Exp $">
+<art mrk="$Id: komut.xml,v 1.42 2020/09/27 16:32:24 revo Exp $">
 <kap>
-  <rad>komut</rad>/i <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <rad>komut</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="komut.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="komut.0i.ELE">
-    <uzo tip="fak">ELE</uzo>
-    <fnt><bib>VdE</bib></fnt>
+  <snc mrk="komut.0i.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      <klr>(<ref cel="kurent.0o">kurenton</ref>)</klr>
-      Direkti en unu cirkviton a&ubreve; en alian.
+      Alidirekti <ref cel="transmisi.0o">transmisio</ref>n per tiucela (parto de) aparato:
+      <ekz>
+        ni veturis preska&ubreve; silente <klr>[&#8230;]</klr>,
+        Andreo nervoze <tld/>is la transmision
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mihail Korotkov</aut>
+          <vrk><url ref="https://www.monato.be/2011/010294.php">Rusa vila&gcirc;o</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <subsnc mrk="komut.0i.ELE">
+      <uzo tip="fak">ELE</uzo>
+      <fnt><bib>VdE</bib></fnt>
+      <dif>
+        <klr>(<ref cel="kurent.0o">kurenton</ref>)</klr>
+        Direkti en unu cirkviton a&ubreve; en alian:
+      </dif>
+      <trd lng="de">umschalten</trd>
+      <trdgrp lng="fr">
+        <trd>commuter<klr tip="ind"> (un courant)</klr></trd>,
+        <trd>faire <ind>passer</ind><klr tip="ind"> (un courant)</klr>
+        </trd>
+      </trdgrp>
+      <trdgrp lng="hu">
+        <trd>&aacute;ramir&aacute;nyt v&aacute;lt</trd>,
+        <trd>&aacute;tkapcsol</trd>,
+        <trd>&aacute;tv&aacute;lt</trd>
+      </trdgrp>
+      <trd lng="nl">omschakelen</trd>
+      <trdgrp lng="pl">
+        <trd>komutowa&cacute;</trd>,
+        <trd>prze&lstroke;&aogonek;cza&cacute;<klr> (obwody elektryczne)
+        </klr></trd>
+      </trdgrp>
+      <trd lng="pt">comutar</trd>
+      <trdgrp lng="ru">
+        <trd>&c_p;&c_je;&c_r;&c_je;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_k;&c_o;&c_m;&c_m;&c_u;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="komut.0i.FER">
+      <uzo tip="fak">FER</uzo>
+      <fnt><bib>PV</bib></fnt>
+      <dif>
+        <klr>(<ref cel="vagon.0aro">vagonaron</ref>)</klr>
+        Direkti sur alian <ref cel="voj.rel0o">relvojon</ref>:
+      <ekz>
+        rel<tld/>isto estas dungito de fervoja kompanio, respondeca por <klr>[&#8230;]</klr>
+        la <tld/>ado de la trakforkoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=620055">Relkomutisto</url></lok>
+        </fnt>.
+      </ekz>
+      </dif>
+      <adm>
+        (a) La originala difino tekstis "vagonaron aux trajnon",
+        ja sxajnas, ke la fervojistoj perceptas nuancon inter
+        ambaux terminoj (vagonaro ne havas lokomotivon).
+        (b) Sxajnas, ke de faka vidpunkto la termino "trako" (ankoraux
+        ne ekzistanta en REVO) estus preferinda al "relvojo" (malsama
+        senco). Ja mi suspektas, ke relvojo povas porti plurajn trakojn.
+        (c) La PIV2-a difino parolas pri "trajno aux alia trakveturilo",
+        kio estas pli vasta, sed ne klaras pri tio, kion oni
+        komutas (cxu la veturilon aux la nadlorelojn?).
+        <aut>MB</aut>
+      </adm>
+      <trd lng="de">umsetzen</trd>
+      <trd lng="fr">aiguiller<klr tip="ind"> (ferrov.)</klr></trd>
+      <trd lng="hu">&aacute;tiraacute;nyiacute;t<klr tip="ind"> 
+      (vonatot maacute;sik siacute;nre)</klr></trd>
+      <trd lng="nl">op een ander <ind>spoor</ind> brengen</trd>
+      <trdgrp lng="pl">
+        <trd>przek&lstroke;ada&cacute; zwrotnic&eogonek;</trd>,
+        <trd>kierowa&cacute; na inny tor</trd>
+      </trdgrp>
+      <trd lng="pt">desviar</trd>
+      <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; 
+      &c_s;&c_t;&c_r;&c_je;&c_l;&c_k;&c_u;</trd>
+    </subsnc>
     <refgrp tip="vid">
       <ref cel="konekt.0i">konekti</ref>,
       <ref cel="kupl.0i">kupli</ref>,
+      <ref cel="sxalt.0i">&scirc;alti</ref>,
       <ref cel="munt.0i">munti</ref>
     </refgrp>
-    <adm>
-      &Ccirc;u ne ekzistas uzo de la tipo "komuti cirkviton, telefonajn
-      liniojn"?
-      <aut>MB</aut>
-    </adm>
-    <trd lng="de">umschalten</trd>
-    <trdgrp lng="fr">
-      <trd>commuter<klr tip="ind"> (un courant)</klr></trd>,
-      <trd>faire <ind>passer</ind><klr tip="ind"> (un courant)</klr>
-      </trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>&aacute;ramir&aacute;nyt v&aacute;lt</trd>,
-      <trd>&aacute;tkapcsol</trd>,
-      <trd>&aacute;tv&aacute;lt</trd>
-    </trdgrp>
-    <trd lng="nl">omschakelen</trd>
-    <trdgrp lng="pl">
-      <trd>komutowa&cacute;</trd>,
-      <trd>prze&lstroke;&aogonek;cza&cacute;<klr> (obwody elektryczne)
-      </klr></trd>
-    </trdgrp>
-    <trd lng="pt">comutar</trd>
-    <trdgrp lng="ru">
-      <trd>&c_p;&c_je;&c_r;&c_je;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_mol;</trd>,
-      <trd>&c_k;&c_o;&c_m;&c_m;&c_u;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-      <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>
-    </trdgrp>
-  </snc>
-  <snc mrk="komut.0i.FER">
-    <uzo tip="fak">FER</uzo>
-    <fnt><bib>PV</bib></fnt>
-    <dif>
-      <klr>(<ref cel="vagon.0aro">vagonaron</ref>)</klr>
-      Direkti sur alian <ref cel="voj.rel0o">relvojon</ref>.
-    </dif>
-    <adm>
-      (a) La originala difino tekstis "vagonaron aux trajnon",
-      ja sxajnas, ke la fervojistoj perceptas nuancon inter
-      ambaux terminoj (vagonaro ne havas lokomotivon).
-      (b) Sxajnas, ke de faka vidpunkto la termino "trako" (ankoraux
-      ne ekzistanta en REVO) estus preferinda al "relvojo" (malsama
-      senco). Ja mi suspektas, ke relvojo povas porti plurajn trakojn.
-      (c) La PIV2-a difino parolas pri "trajno aux alia trakveturilo",
-      kio estas pli vasta, sed ne klaras pri tio, kion oni
-      komutas (cxu la veturilon aux la nadlorelojn?).
-      <aut>MB</aut>
-    </adm>
-    <trd lng="de">umsetzen</trd>
-    <trd lng="fr">aiguiller<klr tip="ind"> (ferrov.)</klr></trd>
-    <trd lng="hu">&aacute;tiraacute;nyiacute;t<klr tip="ind"> 
-    (vonatot maacute;sik siacute;nre)</klr></trd>
-    <trd lng="nl">op een ander <ind>spoor</ind> brengen</trd>
-    <trdgrp lng="pl">
-      <trd>przek&lstroke;ada&cacute; zwrotnic&eogonek;</trd>,
-      <trd>kierowa&cacute; na inny tor</trd>
-    </trdgrp>
-    <trd lng="pt">desviar</trd>
-    <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; 
-    &c_s;&c_t;&c_r;&c_je;&c_l;&c_k;&c_u;</trd>
   </snc>
   <snc mrk="komut.0i.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -285,7 +305,7 @@
       Ni ne vidis gravan kialon por sekvi
       <fnt><bib>EKV</bib></fnt> a&ubreve; <fnt><bib>PIV2</bib></fnt>,
       kiuj preferas la formon <ctl><tld/>a</ctl>. Cetere, la formo de 
-      Bricard similas al <ctl>asocieca</ctl>, akceptata de &ccirc;iuj.
+      <nom>Bricard</nom> similas al <ctl>asocieca</ctl>, akceptata de &ccirc;iuj.
     </rim>
   </snc>
   <trdgrp lng="cs">
@@ -319,15 +339,13 @@
       rilate al <ref cel="operac.0o.MAT">operacio</ref> 
       <frm am="&#8224;">&#8224;</frm> en
       <frm am="bb E"><g>E</g></frm>)</klr>
-      Esti tiaj, ke <frm am="x&#8224;y=y&#8224;x"
-      ><k>x</k>&#8224;<k>y</k> = <k>y</k>&#8224;<k>x</k></frm>:
+      Esti tiaj, ke <frm am="x&#8224;y=y&#8224;x"><k>x</k>&#8224;<k>y</k> = <k>y</k>&#8224;<k>x</k></frm>:
       <ekz>
         la&ubreve;difine <ref cel="neuxtr.0aelemento">ne&ubreve;tra
         elemento</ref> <frm am="e"><k>e</k></frm> <klr> </klr><tld/>i&gcirc;as
         kun 
         &ccirc;iu alia
-        <klr>(alidire: <frm am="x"><k>x</k></frm> kaj <frm
-        am="e"><k>e</k></frm> <klr> </klr>
+        <klr>(alidire: <frm am="x"><k>x</k></frm> kaj <frm am="e"><k>e</k></frm> <klr> </klr>
         <tld/>i&gcirc;as, kiu ajn estu <frm am="x"><k>x</k></frm>)</klr>;
       </ekz>
       <ekz>
@@ -378,6 +396,14 @@
     <dif>
       Elektra aparato kun duopa a&ubreve; multopa kontakto, kiu ebligas
       <tld/>i kurentojn:
+      <ekz>
+        la kompleta telefono havis anka&ubreve; elektran tintilon, krankinduktilon kaj
+        <tld/>ilon, la lasta nomi&gcirc;as anka&ubreve; forko pro la komenca formo
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Telefono"
+              >Telefono - Vikipedio</url></vrk>
+        </fnt>;
+      </ekz>
       <ekz>
         &scirc;i alproksimigis sian montrofingron al la
         <tld/>ilo por interrompi la alvokojn
@@ -460,7 +486,7 @@
     Difino reverkenda.
     <aut>MB</aut>
   </adm>
-  <trd lng="de">Zungenvorrichtung</trd>
+  <trd lng="de">Zungenvorrichtung <klr>(Weiche)</klr></trd>
   <trd lng="fr">aiguillage<klr tip="ind"> (appareil)</klr></trd>
   <trd lng="hu">v&aacute;lt&oacute;<klr tip="ind"> (vas&uacute;ti)</klr>
   </trd>
@@ -476,8 +502,11 @@
 </drv>
 </art>
 <!--
-$Log: komut.xml,v $
-versio 1.41 2020/02/15 10:10:33
+$Log$
+versio 1.42 2020/09/27 16:32:24
+Wolfram Diestel: kunigis snc-oj TEK sub gheneraligita difino (alidirekti transmision...), ekz-oj
+
+Revision 1.41  2020/02/15 09:10:32  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.40  2016/02/28 19:10:43  revo
@@ -495,8 +524,5 @@ Jeromo Vasxe: + 1 ekz
 
 Revision 1.36  2007/01/09 17:30:17  revo
 Jeromo Vasxe: kor lng rpl -> pl
-
-Revision 1.35  2007/01/01 19:47:42  revo
-Tulio Flores: +tr pt
 -->
 </vortaro>
