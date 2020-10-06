@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: oktav.xml,v 1.19 2015/07/04 08:37:40 revo Exp $">
+<art mrk="$Id: oktav.xml,v 1.20 2020/10/06 06:34:45 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>oktav</rad>/o
@@ -11,7 +11,21 @@
   <kap><tld/>o</kap>
   <snc mrk="oktav.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
-    <ref tip="dif" cel="okt.0o">okto</ref>
+    <dif>
+      <ref tip="dif" cel="okt.0o">Okto</ref>:
+      <ekz>
+        ludi notojn en la dua, tria, ktp. <tld/>oj
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Preterblovado">Preterblovado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la frekvenco de noto duoblas po <tld/>o
+        <fnt>
+          <vrk><url ref="https://eo.linkfang.org/wiki/Muziknoto">Muziknoto</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
     <trd lng="be">&c_a;&c_k;&c_t;&c_a;&c_v;&c_a;</trd>
     <trd lng="de">Oktave</trd>
     <trd lng="el">&omikron;&kappa;&tau;&alfa_ton;&beta;&alfa;</trd>
@@ -29,10 +43,14 @@
     <uzo tip="fak">TIP</uzo>
     <dif>
       Libro en kiu &ccirc;iu paperfolio estas trioble faldita kaj formas 16
-      pa&gcirc;ojn:
+      pa&gcirc;ojn (ok foliojn):
       <ekz>
-        la libro gajnus per tio kelkajn <tld/>ajn
-        pa&gcirc;ojn...<fnt>Z</fnt>.
+        la libro <klr>[&#8230;]</klr> gajnus per tio kelkajn <tld/>ajn
+        pa&gcirc;ojn
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Oktavheft</trd>
@@ -48,12 +66,30 @@
     <trd lng="nl">octavo</trd>
     <trd lng="ru">&c_i;&c_n;-&c_o;&c_k;&c_t;&c_a;&c_v;&c_o;</trd>
   </snc>
-  <trd lng="cs">oktáva <klr>(hud. interval)</klr></trd>
-  <trd lng="sk">oktáva</trd>
+  <snc mrk="oktav.0o.KRI">
+    <uzo tip="fak">KRI</uzo>
+    <dif>
+      La oka <ref tip="super" cel="tag.0o.dato">tago</ref> post 
+      <ref cel="fest.0o">festo</ref>tago, resp. &ccirc;iuj &ccirc;i ok tagoj:
+      <ekz>
+        <tld lit="O"/>o de Kristnasko <klr>(1a de jan.)</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=5011">1-a de januaro</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Oktav</trd>
+  </snc>
+  <trd lng="cs">okt&aacute;va <klr>(hud. interval)</klr></trd>
+  <trd lng="sk">okt&aacute;va</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2020/10/06 06:34:45
+Wolfram Diestel: +snc KRI, ekz-oj
+
 Revision 1.18  2015/06/29 16:33:21  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -73,11 +109,5 @@ Revision 1.13  2003/06/18 16:30:49  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2002/06/01 05:59:34  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.11  2002/05/23 20:31:04  revo
-Jeromo Vasxe: + fak tip, +mrk-oj, + trd fr
-
-Revision 1.10 2001/12/04 17:32:02 revo
 -->
 </vortaro>
