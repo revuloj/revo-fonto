@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: korsar.xml,v 1.17 2015/07/04 08:37:38 revo Exp $">
+<art mrk="$Id: korsar.xml,v 1.18 2020/10/11 08:33:58 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>korsar</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>korsar</rad>/o <fnt><bib>FK</bib></fnt>
 </kap>
 <drv mrk="korsar.0o">
   <kap><tld/>o</kap>
@@ -13,25 +13,50 @@
     <uzo tip="fak">MAR</uzo>
     <dif>
       &Scirc;ipisto ricevinta permeson a&ubreve; helpon de registaro
-      por rabi dum milito komercajn malamikajn &scirc;ipojn.
+      por rabi dum milito komercajn malamikajn &scirc;ipojn:
+      <ekz>
+        kun sia kutima kura&gcirc;o li kondukas siajn &scirc;ipojn kontra&ubreve; la sova&gcirc;aj <tld/>oj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
-  <subsnc mrk="korsar.0o.MAR_sxipestro">
-    <dif>
-      Tia &scirc;ipestro.
-    </dif>
-    <trdgrp lng="de">
-      <trd>Freibeuterkapit&auml;n</trd>,
-      <trd>Kaperschiffkapit&auml;n</trd>,
-      <trd>Kapit&auml;n eines Korsarschiffs</trd>
-    </trdgrp>
-    <trd lng="hu">kal&oacute;zkapit&aacute;ny</trd>    
-    <trd lng="nl">kaperkapitein</trd>
-    <trd lng="pt">cors&aacute;rio</trd>
-  </subsnc>
-  <subsnc mrk="korsar.0o.MAR_sxipano">
-    <dif>
-      Tia &scirc;ipano.
-    </dif>
+    <!-- tia distingo ne estas aparta por korsaro, kial elstarigi &gcirc;in?....
+    <subsnc mrk="korsar.0o.MAR_sxipestro">
+      <dif>
+        Tia &scirc;ipestro.
+      </dif>
+      <trdgrp lng="de">
+        <trd>Freibeuterkapit&auml;n</trd>,
+        <trd>Kaperschiffkapit&auml;n</trd>,
+        <trd>Kapit&auml;n eines Korsarschiffs</trd>
+      </trdgrp>
+      <trd lng="hu">kal&oacute;zkapit&aacute;ny</trd>    
+      <trd lng="nl">kaperkapitein</trd>
+      <trd lng="pt">cors&aacute;rio</trd>
+    </subsnc>
+    <subsnc mrk="korsar.0o.MAR_sxipano">
+      <dif>
+        Tia &scirc;ipano.
+      </dif>
+      <trdgrp lng="de">
+        <trd>Freibeuter</trd>,
+        <trd>Korsar</trd>
+      </trdgrp>
+      <trd lng="hu">kal&oacute;z</trd>    
+      <trdgrp lng="nl">
+        <trd>kaper</trd>,
+        <trd>piraat</trd>,
+        <trd>zeerover</trd>
+      </trdgrp>
+    </subsnc>
+    -->
+    <refgrp tip="sin">
+      <ref cel="kaper.0isto.MAR">kaperisto</ref>,
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="pirat.0o.MAR">pirato</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>Freibeuter</trd>,
       <trd>Korsar</trd>
@@ -42,13 +67,6 @@
       <trd>piraat</trd>,
       <trd>zeerover</trd>
     </trdgrp>
-    </subsnc>
-    <refgrp tip="sin">
-      <ref cel="kaper.0isto.MAR">kaperisto</ref>,
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="pirat.0o.MAR">pirato</ref>
-    </refgrp>
     <trd lng="pl">korsarz</trd>
   </snc>
   <snc mrk="korsar.0o.MAR_sxipo">
@@ -57,7 +75,10 @@
       <tld lit="K"/>&scirc;ipo:
       <ekz>
         apena&ubreve; ni estis du tagojn sur la maro, forte armita <tld/>o
-        komencis &ccirc;asi nin<fnt>Z</fnt>.
+        komencis &ccirc;asi nin
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -76,8 +97,8 @@
     <trd>&c_p;&c_ib;&c_r;&c_a;&c_t;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>korzár</trd>,
-    <trd>mořský lupič</trd>
+    <trd>korz&aacute;r</trd>,
+    <trd>mo&rcaron;sk&yacute; lupi&ccaron;</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>corsair</trd>,
@@ -93,13 +114,16 @@
     <trd>&c_p;&c_i;&c_r;&c_a;&c_t;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>korzár</trd>,
-    <trd>morský lupič</trd>
+    <trd>korz&aacute;r</trd>,
+    <trd>morsk&yacute; lupi&ccaron;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.18 2020/10/11 08:33:58
+Wolfram Diestel: +fnt, +ekz, forkomentis subsnc
+
 Revision 1.16  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -119,11 +143,5 @@ Revision 1.11  2006/11/14 17:30:32  revo
 Tulio Flores: +tr pt
 
 Revision 1.10  2004/04/28 16:31:37  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/12/08 17:32:17  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/03/22 17:34:35  revo
 -->
 </vortaro>
