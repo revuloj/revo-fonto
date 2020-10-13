@@ -2,29 +2,62 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: deploj.xml,v 1.11 2015/07/04 08:37:32 revo Exp $">
+<art mrk="$Id: deploj.xml,v 1.12 2020/10/13 20:35:13 revo Exp $">
 <kap>
   <rad>deploj</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="deploj.0i">
   <kap><tld/>i</kap>
-  <uzo tip="fak">MIL</uzo>
-  <snc>
+  <snc mrk="deploj.0i.MIL">
+    <uzo tip="fak">MIL</uzo>
     <dif>
-      Loki, dismeti batalontojn prete por ekago:
+      Loki, dis<ref tip="super" cel="met.0i.loki">meti</ref>
+      batalontojn prete por ekago:
       <ekz>
         kun sia tuta <tld/>ita plotono
         <fnt><bib>DonKihxoto</bib>, <lok>dua parto, &ccirc;apitro 11a,
-        p.
-        454a</lok></fnt>
+        p. 454a</lok></fnt>
+      </ekz>
+      <ekz>
+        Napoleono poste <tld/>is la armeon orienten por elimini la minacon de A&ubreve;strio
+        kaj Rusio
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Granda_Armeo">Grande Arm&eacute;e</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la armeo kaj miliciaj fortoj <tld/>is masive - kun tankoj, peza artilerio,
+        <klr>[&#8230;]</klr>
+        <fnt>
+          <vrk><url ref="http://eo.mondediplo.com/article1525.html"
+              >La strategio de Pakistano &ccirc;e turnopunkto</url></vrk>
+          <lok>Le Monde diplomatique' en Esperanto</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd
-  lng="be">&c_r;&c_a;&c_z;&c_g;&c_o;&c_r;&c_t;&c_v;&c_a;&c_c;&c_mol;
+  <snc mrk="deploj.0i.TEK">
+    <uzo tip="fak">TEK</uzo><uzo tip="fak">KOMP</uzo>
+    <dif>
+      <klr>(pri aparato a&ubreve; programaro)</klr> Meti en la lokon por plenumi la intencitan funkcion;
+      <ref tip="sin" cel="instal.0i.ion">instali</ref>:
+      <ekz>         
+        en 1989 Atlantis <tld/>is du planetajn sondojn
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Kosmopramo_Atlantis">Kosmopramo Atlantis - Vikipedio</url></vrk>
+        </fnt>.
+      </ekz>      
+    </dif>
+    <trdgrp lng="de">
+      <trd>deployen</trd>,
+      <trd>installieren</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="be">&c_r;&c_a;&c_z;&c_g;&c_o;&c_r;&c_t;&c_v;&c_a;&c_c;&c_mol;
   <klr>(&c_v;&c_o;&c_j;&c_s;&c_k;&c_a;)</klr></trd>
   <trd lng="ca">desplegar</trd>
-  <trd lng="cs">seřadit do pochodového tvaru</trd>
+  <trd lng="cs">se&rcaron;adit do pochodov&eacute;ho tvaru</trd>
+  <trd lng="de">aufstellen</trd>
   <trd lng="es">desplegar<klr> (mil.)</klr></trd>
   <trd lng="fr">d&eacute;ployer<klr> (mil.)</klr></trd>
   <trdgrp lng="it">
@@ -36,11 +69,14 @@
   <trd lng="pt">desdobrar <klr tip="amb">(mil.)</klr></trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_v;&c_o;&c_r;&c_a;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;<klr tip="amb"> (&c_v;&c_o;&c_je;&c_n;&c_n;&c_o;&c_je;
   &c_p;&c_o;&c_d;&c_r;&c_a;&c_z;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
-  <trd lng="sk">zoradiť do pochodového tvaru</trd>
+  <trd lng="sk">zoradi&tcaron; do pochodov&eacute;ho tvaru</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.12 2020/10/13 20:35:13
+Wolfram Diestel: +snc TEK, KOMP, +ekz-oj
+
 Revision 1.10  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -60,11 +96,5 @@ Revision 1.5  2007/07/19 16:32:11  revo
 Tulio Flores: +tr pt
 
 Revision 1.4  2005/04/04 16:37:10  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.3  2003/12/13 17:31:36  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.2  2003/10/21 16:31:07  revo
 -->
 </vortaro>
