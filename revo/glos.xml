@@ -2,17 +2,46 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: glos.xml,v 1.18 2015/07/04 08:37:35 revo Exp $">
+<art mrk="$Id: glos.xml,v 1.19 2020/10/17 10:34:39 revo Exp $">
 <kap>
   <rad>glos</rad>/o
-  <fnt>Z</fnt>
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="glos.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">TIP</uzo>
-  <snc>
+  <snc mrk="glos.0o.noto">
     <dif>
-      Noto, klariganta la sencon de vorto malklara a&ubreve; malofta:
+      <ref tip="lst" lst="voko:komunikoj" cel="not.0o.memoriga">Noto</ref>,
+      klariganta la sencon de vorto malklara a&ubreve; malofta:
+      <ekz>
+        nekonataj vortoj estas klarigitaj en Esperanto fine de &ccirc;iu &ccirc;apitro en la <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Katalin Kov&aacute;ts</aut>
+          <vrk><url ref="https://www.monato.be/2004/008158.html">Post Gerda anka&ubreve; Halina kaj Viktor (mal)aperis</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la terminoj, uzataj en la klarigaj <tld/>oj, estas ofte tiom nekonataj, e&ccirc;
+        konfuzaj, ke ver&scirc;ajne la lernanto sukcesos kompreni nenion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2004/008443.html">Interesa rakonto, tre facila</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o por &leftquot;kliniko&rightquot; diras &leftquot;flegejo, parto de malsanulejo&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2004/008443.html">Interesa rakonto, tre facila</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         li disponigis per anta&ubreve;paroloj, enkondukaj rimarkigoj kaj
         <tld/>oj informojn<fnt>
@@ -23,7 +52,9 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="not.pri0o.TIP">prinoto</ref>
+      <ref cel="not.pri0o.TIP">prinoto</ref>,
+      <ref cel="termin.0o">termino</ref>,
+      <ref cel="difin.0o">difino</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -34,7 +65,7 @@
   <trd lng="ca">glossa</trd>
   <trdgrp lng="cs">
     <trd>glosa</trd>,
-    <trd>poznámka na okraj</trd>
+    <trd>pozn&aacute;mka na okraj</trd>
   </trdgrp>
   <trd lng="de">Glosse</trd>
   <trd lng="es">glosa</trd>
@@ -63,7 +94,7 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>glosa</trd>,
-    <trd>poznámka na okraj</trd>,
+    <trd>pozn&aacute;mka na okraj</trd>,
     <trd>vysvetlivka</trd>
   </trdgrp>
   <trdgrp lng="tr">
@@ -75,19 +106,49 @@
 
 <drv mrk="glos.0aro">
   <kap><tld/>aro</kap>
-  <snc>
+  <snc mrk="glos.0aro.vortaro">
     <dif>
       Vortaro pri arkaikaj a&ubreve; specialaj vortoj:
       <ekz>
-        <ctl>Neologisma vortaro</ctl>
-        <fnt><bib>NeoGlo</bib></fnt>
+        mult-lingva <tld/>aro pri land-nomoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="https://www.monato.be/2003/007978.html">Landnomoj: homaj frenezigiloj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aro klarigas la francajn aludojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007057.html">&Gcirc;uiga enhavo, ne&gcirc;uiga traduko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fine de la libro li havas 3-pa&gcirc;an <tld/>aron, sed &gcirc;i ne &ccirc;iam helpas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Raita Pyh&auml;l&auml;</aut>
+          <vrk><url ref="https://www.monato.be/2005/008685.php">Kesto de viveroj</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="termin.0aro">terminaro</ref>,
+       <ref cel="vort.difin0aro">difinvortaro</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_l;&c_ja;&c_s;&c_a;&c_r;</trd>
   <trd lng="ca">glossari</trd>
-  <trd lng="cs">glosář</trd>
+  <trd lng="cs">glos&aacute;&rcaron;</trd>
   <trd lng="de">Glossar</trd>
+  <trdgrp lng="en">
+    <trd>glossary</trd>,
+    <trd>clavis</trd>
+  </trdgrp>
   <trd lng="es">glosario</trd>
   <trd lng="fa">&a_f;&a_h;&a_r;&a_s;&a_t; &a_m;&a_ayn;&a_A;&a_n;&f_y;</trd>
   <trd lng="fr">glossaire</trd>
@@ -99,12 +160,15 @@
   <trd lng="pl">glosariusz</trd>
   <trd lng="pt">gloss&aacute;rio</trd>
   <trd lng="ru">&c_g;&c_l;&c_o;&c_s;&c_s;&c_a;&c_r;&c_i;&c_j;</trd>
-  <trd lng="sk">glosár</trd>
+  <trd lng="sk">glos&aacute;r</trd>
   <trd lng="tr">terim s&ouml;zl&uuml;&gbreve;&uuml;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2020/10/17 10:34:39
+Wolfram Diestel: +ekz-oj, ref-oj
+
 Revision 1.17  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -124,11 +188,5 @@ Revision 1.12  2005/08/25 16:31:29  revo
 Luiz Portella: +trd pt
 
 Revision 1.11  2004/11/16 17:31:57  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2003/11/18 17:31:17  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/09/20 16:32:27  revo
 -->
 </vortaro>
