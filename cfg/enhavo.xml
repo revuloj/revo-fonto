@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE enhavo SYSTEM "../dtd/vokoenh.dtd">
 
+<!--
+  kontrolebla ekzemple per:
+    cd revo-fontoj
+    rxp -Vs -D enhavo ../../voko-grundo/dtd/vokoenh.dtd cfg/enhavo.xml 
+-->
+
 <enhavo nomo="Reta Vortaro" nometo="ReVo" piktogramo="revo.ico">
 
   <!-- titolpagho -->
@@ -124,7 +130,7 @@
 	<url
 	    ref="https://code.google.com/p/vortanalizilo/">vortanalizilo</url>,
         skribita en Prologo kaj povanta ekstrakti la radikojn kun informoj pri
-	vortspecoj el Revo kaj uzi por analizado de vortoj.
+	      vortspecoj el Revo kaj uzi por analizado de vortoj.
         Tiu analizilo estas ekzemple uzata por la 
         <url ref="http://h1838790.stratoserver.net/revokontrolo/">kontrolado de Revo-artikoloj</url>.
         </alineo>
@@ -184,7 +190,7 @@
       <ero ref="../dok/gramatiko.html" titolo="Gramatikaj informoj" kadro="precipa"/>
       
       <ero ref="../dok/bibliogr.html" titolo="Bibliografio la&ubreve; mallongigoj" 
-	style="margin-top: 0.4em; margin-bottom: 0"/>
+	          style="margin-top: 0.4em; margin-bottom: 0"/>
       <ero ref="../dok/biblaut.html" titolo="Bibliografio la&ubreve; a&ubreve;toroj"/>
       <ero ref="../dok/bibltit.html" titolo="Bibliografio la&ubreve; titoloj"/>
 
@@ -222,6 +228,7 @@
      <sekcio titolo="">
        <KAP-OJ/>
        <ero ref="/cgi-bin/sercxu.pl?x=on" titolo="ser&ccirc;o" style="font-weight: bold"/>
+       <ero ref="/cgi-bin/hazarda_art.pl?senkadroj=2" titolo="Iu ajn artikolo" kadro="precipa"/>
        <MLG-OJ titolo="mallongigoj" style="font-weight: bold"/>
        <BLD-OJ titolo="bildoj" style="font-weight: bold"/>
        <INV titolo="inversa indekso" style="font-weight: bold"/>
@@ -232,48 +239,43 @@
        <TEZAURO/>
      </sekcio>
      -->
-    <sekcio titolo="nacilingvaj indeksoj">
+    <sekcio titolo="fakindeksoj" tipo="balgo">
+      <FAKOJ/>
+    </sekcio>
+    <sekcio titolo="lingvaj indeksoj" tipo="balgo">
       <TRD-OJ lng="la"/>
       <TRD-OJ krom="la"/>
     </sekcio>
-    <sekcio titolo="fakindeksoj">
-      <FAKOJ/>
-    </sekcio>
-    <sekcio titolo="por uzantoj">
-      <ero ref="../titolo.html" titolo="Titolpa&gcirc;o kun ser&ccirc;o" kadro="precipa" />
-      <ero ref="http://kono.be/vivo/" titolo="Superser&ccirc;o per ViVo" kadro="_new"/>
+    <sekcio titolo="aldonaj informoj" tipo="balgo">
       <ero ref="../dok/mallongigoj.html" titolo="Vortaraj mallongigoj"/>
-
-      <ero ref="../dok/bibliogr.html" titolo="Bibliografio la&ubreve; mallongigoj" 
-	style="margin-top: 0.4em; margin-bottom: 0"/>
+      <ero ref="../dok/bibliogr.html" titolo="Bibliografio la&ubreve; mallongigoj"/>
       <ero ref="../dok/biblaut.html" titolo="Bibliografio la&ubreve; a&ubreve;toroj"/>
       <ero ref="../dok/bibltit.html" titolo="Bibliografio la&ubreve; titoloj"/>
+      <ero ref="https://revuloj.github.io/manlibroj.html" titolo="Manlibroj" kadro="_new"/>
+      <ero ref="https://revuloj.github.io/respondoj.html" titolo="Respondoj" kadro="_new"/>
+      <ero ref="https://revuloj.github.io/listoj.html" titolo="Respondoj" kadro="_new"/>
+      <ero ref="https://revuloj.github.io/referencoj.html" titolo="Referencoj" kadro="_new"/>
+
+      <!--ero ref="../titolo.html" titolo="Titolpa&gcirc;o kun ser&ccirc;o" kadro="precipa" /-->
+      <ero ref="http://kono.be/vivo/" titolo="Superser&ccirc;o per ViVo" kadro="_new"/>
 
       <STAT titolo="Statistiko" style="margin-top: 0.4em; margin-bottom: 0"/>
-      <ero ref="/cgi-bin/hazarda_art.pl?senkadroj=2" titolo="Iu ajn artikolo" kadro="precipa"/>
-      <ero ref="https://revuloj.github.io/temoj/operaciumoj" titolo="Kiel uzi en diversaj sistemoj" kadro="_new"/>
-      <ero ref="https://revuloj.github.io/temoj/elshuto.html" titolo="El&scirc;uti paka&jcirc;ojn" kadro="_new"/>
-      <ero ref="https://revuloj.github.io/temoj/gpl-2.0.html" titolo="Permeso de uzado" kadro="_new"/>
-    </sekcio>
-
-    <sekcio titolo="por redaktantoj">
        <ero ref="novaj.html" titolo="Novaj artikoloj"/>
        <ero ref="shanghoj.html" titolo="&Scirc;an&gcirc;itaj artikoloj"/>
        <ero ref="eraroj.html" titolo="Eraro-raporto"/>
        <MANKOJ titolo="Kelkaj mankantaj tradukoj"/>
        <ero ref="/cgi-bin/mx_trd.pl" titolo="&Ccirc;iuj mankantaj tradukoj" kadro="precipa"/>
-       <ero ref="https://revuloj.github.io/temoj/redinfo" titolo="Fari&gcirc;i redaktanto"  style="margin-top: 0.4em; margin-bottom: 0" kadro="_new"/>
-       <ero ref="https://revuloj.github.io/temoj/revolist" titolo="Dissendolisto" kadro="_new"/>
-       <ero ref="https://revuloj.github.io/temoj/revoserv" titolo="Redaktoservo" kadro="_new"/>
-       <ero ref="https://revuloj.github.io/manlibroj.html" titolo="Manlibroj" kadro="_new"/>
-       <ero ref="https://revuloj.github.io/temoj/rnc.html" titolo="Dokumentstrukturo"
-	          kadro="_new"/>
+
+      <ero ref="https://revuloj.github.io/temoj/gpl-2.0.html" titolo="Permeso de uzado" kadro="_new"/>
+    </sekcio>
+
+  <!--
        <ero ref="../dok/ordigo.html" titolo="Alfabetoj" style="margin-top: 0.4em; margin-bottom: 0"/>
        <ero ref="../dok/klasoj.html" titolo="Listo de klasoj"/>
        <ero ref="../dok/fakoj.html" titolo="Listo de fakoj"/>
        <ero ref="../dok/lingvoj.html" titolo="Listo de lingvoj"/>
        <ero ref="../dok/stiloj.html" titolo="Listo de stiloj"/>
-    </sekcio>
+       -->
 
   </pagho>
 </enhavo> 
