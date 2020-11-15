@@ -2,45 +2,79 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: diagra.xml,v 1.16 2015/11/02 21:10:17 revo Exp $">
+<art mrk="$Id: diagra.xml,v 1.17 2020/11/15 12:33:48 revo Exp $">
 <kap>
   <rad>diagram</rad>/o
 </kap>
 <drv mrk="diagra.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="diagra.0o.SCI">
     <uzo tip="fak">SCI</uzo>
     <dif>
-      Grafika klarigo de fenomeno per figura prezento de relativaj
-      kvantoj
-      a&ubreve; funkcioj
+      Grafika <ref tip="super" cel="prezen1.0ajxo">prezenta&jcirc;o</ref> de 
+      <ref cel="datum.0o.SCI">datumo</ref>j, fenomenoj a&ubreve; informoj:
+      <ekz>
+        funkci<tld/>o, struktur<tld/>o, torto<tld/>o, trab<tld/>o;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> produktas &ccirc;iajn eblajn tabelojn kaj diagramojn, prezentas ilin
+        en retejo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos I Font</aut>
+          <vrk><url ref="https://www.monato.be/2003/008062.html"
+              >Spektantoj spektataj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o montras la kutimajn partoprenantojn en tia strukturo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2008/009505.php"
+              >Kreditkrizo da&ubreve;ras</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         &ccirc;io estas simple kaj klare eksplikita, kaj per la teksto,
-        kaj per
-        <tld/>oj kaj ilustra&jcirc;oj<fnt><aut>Garbhan Macaoidh</aut>:
-        <vrk>Per
-        ardua ad astra - Tra kruta&jcirc;oj al la astroj (David
-        Galadi-Enriquez
-        kaj Amri Wandel: La kosmo kaj ni)</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 6a, p. 17a</lok></fnt>.
+        kaj per <tld/>oj kaj ilustra&jcirc;oj
+        <fnt>
+          <aut>Garbhan Macaoidh</aut>:
+          <vrk>
+          Per ardua ad astra - Tra kruta&jcirc;oj al la astroj (David
+          Galadi-Enriquez
+          kaj Amri Wandel: La kosmo kaj ni)</vrk>,
+          <bib>Monato</bib><lok>jaro 2001a, numero 6a, p. 17a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tion ripete emfazis la Germana Fizikista Asocio, montrante <tld/>on pri la
+        elig-&scirc;parado en Germanio: kvankam la promesita malkreskigo de 21&#8239;% kompare
+        kun 1990 estis atingita jam en 2009, preska&ubreve; duono rezultis el ruini&gcirc;o de la
+        orient-germana industrio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Fu&szlig;</aut>
+          <vrk><url ref="https://www.monato.be/2011/010272.php"
+              >Nekontentiga progreso en klimatopolitiko</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="en">
-      <trd>diagram</trd>,
-      <trd>chart</trd>, <trd>graph</trd>, <trd>scheme</trd>,
-      <trd>schematic</trd>, <trd>outline</trd>
-    </trdgrp>
-  </snc>
-  <snc>
-    <uzo tip="fak">ELE</uzo>
-    <dif>
-      Grafiko prezentanta la variojn de algebra funkcio de fizikaj
-      grandoj.
-    </dif>
-    <trdgrp lng="en">
-      <trd>diagram</trd>,
-      <trd>graph</trd>, <trd>plot</trd>, <trd>chart</trd>
-    </trdgrp>
+    <refgrp tip="sub">
+       <ref cel="grafik.0ajxo.TEK">grafika&jcirc;o<sncref/></ref>,
+       <ref cel="grafe.0o.rilato">grafeo</ref>,
+       <ref cel="kurb.0o.SCI">kurbo<sncref/></ref>,
+       <ref cel="arb.genealogia0o">genealogia arbo</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="desegn.0ajxo">desegna&jcirc;o</ref>,
+      <ref cel="map.0o">mapo</ref>,
+      <ref cel="bild.0igo.MAT">bildigo<sncref/></ref>,
+      <ref cel="hierar.0o">hierar&hcirc;io</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_d;&c_y;&c_ja;&c_g;&c_r;&c_a;&c_m;&c_a;</trd>
   <trdgrp lng="cs">
@@ -51,6 +85,11 @@
     <trd>Schaubild</trd>,
     <trd>Diagramm</trd>,
     <trd>Graph</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>diagram</trd>, <trd>plot</trd>,
+    <trd>chart</trd>, <trd>graph</trd>, <trd>scheme</trd>,
+    <trd>schematic</trd>, <trd>outline</trd>
   </trdgrp>
   <trd lng="es">diagrama</trd>
   <trd lng="fr">diagramme</trd>
@@ -66,12 +105,12 @@
     <trd>n&aacute;kres</trd>
   </trdgrp>
 </drv>
-<adm>
-  Reverkenda. <aut>MB</aut>
-</adm>
 </art>
 <!--
 $Log$
+versio 1.17 2020/11/15 12:33:48
+Wolfram Diestel: reverkita: dif, ekz-oj, ref-oj
+
 Revision 1.15  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
