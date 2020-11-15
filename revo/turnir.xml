@@ -2,17 +2,30 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: turnir.xml,v 1.21 2015/07/04 08:37:45 revo Exp $">
+<art mrk="$Id: turnir.xml,v 1.22 2020/11/15 08:32:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>turnir</rad>/o
 </kap>
 <drv mrk="turnir.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="turnir.0o.HIS">
+    <uzo tip="fak">HIS</uzo>
     <dif>
-      &Ccirc;e la mezepoko, lukto de kavaliroj en publika festa
-      vetbatalo.
+      En <ref tip="malprt" cel="epok.mez0o">mezepoko</ref>,
+      <ref cel="lukt.0o">lukto</ref> de <ref tip="prt" cel="kavali.0o.mezepoko">kavaliro</ref>j en publika festa
+      vetbatalo:
+      <ekz>
+        konstruita estis mezepokstila urbo, kaj okazis tiutempa karnavalo kun interalie
+        <tld/>antaj kavaliroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="https://www.monato.be/2011/010405.php"
+              >Bruas la mezepoko</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="ca">justa</trd>
     <trdgrp lng="en">
@@ -24,12 +37,29 @@
     <trd lng="pl">turniej</trd>
     <trd lng="pt">torneio</trd>
   </snc>
-  <snc>
-    <uzo tip="stl">FIG</uzo>
+  <snc mrk="turnir.0o.SPO">
+    <uzo tip="fak">SPO</uzo>
     <dif>
       Granda publika <ref tip="super" cel="konkur2.0o">konkurso</ref>:
       <ekz>
-        la trubaduraj <tld/>oj<fnt>Z</fnt>;
+        dum semajnoj la <tld/>' / da&ubreve;re da&ubreve;ris kaj ne &ccirc;esis
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+          <lok>Danc-rekordo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la <tld/>o <klr>(de piedpilko)</klr> partoprenis 16 landaj teamoj, kiuj ludis
+        unue en kvar grupoj kaj poste en elimina sistemo unu kontra&ubreve; la alia
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009595.php"
+              >Hispanio venkis, gastigantoj seniluziigis</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>&scirc;ak<tld/></ind>o.
@@ -39,7 +69,24 @@
         <trd lng="pl">turniej szachowy</trd>
         <trd lng="pt"><ind>campeonato</ind> de xadrez</trd>
       </ekz>
+      <ekz>
+        <nom>Zs&oacute;fia</nom> en Romo en 1989 venkis en <klr>[&scirc;ak]</klr><tld/>o, en kiu partoprenis
+        pluraj fortaj grandmajstroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="https://www.monato.be/2007/009012.php"
+              >Pri edukado de geniuloj</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="pokal.0o.SPO">pokalo<sncref/></ref>,
+       <ref cel="lud.0o.ago">ludo<sncref/></ref>,
+       <ref cel="macx1.0o">ma&ccirc;o</ref>,
+       <ref cel="cxampi.0o">&ccirc;ampiono</ref>
+    </refgrp>
     <trd lng="ca">competici&oacute;</trd>
     <trd lng="en">tournament</trd>
     <trdgrp lng="es">
@@ -60,7 +107,7 @@
   </snc>
   <trd lng="be">&c_t;&c_u;&c_r;&c_n;&c_ib;&c_r;</trd>
   <trd lng="ca">torneig</trd>
-  <trd lng="cs">rytířský turnaj</trd>
+  <trd lng="cs">ryt&iacute;&rcaron;sk&yacute; turnaj</trd>
   <trd lng="de">Turnier</trd>
   <trd lng="es">torneo</trd>
   <trd lng="fr">tournoi</trd>
@@ -75,6 +122,9 @@
 </art>
 <!--
 $Log$
+versio 1.22 2020/11/15 08:32:27
+Wolfram Diestel: +ekz-oj, fak, ref-oj
+
 Revision 1.20  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -94,11 +144,5 @@ Revision 1.15  2009/01/28 17:30:19  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.14  2006/02/16 17:36:55  revo
-Tulio Flores: +trd pt
-
-Revision 1.13  2006/02/08 17:31:28  revo
-Tulio Flores: +trd pt
-
-Revision 1.12  2006/01/08 17:32:28  revo
 -->
 </vortaro>
