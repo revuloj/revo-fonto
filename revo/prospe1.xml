@@ -2,25 +2,39 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: prospe1.xml,v 1.20 2017/06/19 10:10:16 revo Exp $">
+<art mrk="$Id: prospe1.xml,v 1.21 2020/11/15 10:32:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>prosper</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>prosper</rad>/i <fnt><bib>FK</bib></fnt>
 </kap>
 <drv mrk="prospe1.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="prospe1.0i.ntr">
     <dif>
-      Esti en kontentiga, sukcesa stato:
+      <ref tip="super" cel="evolu.0i.disvolvigxi">Evolui</ref>
+      en kontentiga, sukcesa maniero,
+      eventuale atingante kontentigan rezulton
+      <klr>(vd <ref cel="prospe1.0i_al"><tld/>i al</ref>)</klr>:
       <ekz>
-        <tld/>as rozarbeto<fnt>Z</fnt>;
+        <klr>[la]</klr> malgranda rozarbeta&jcirc;o <klr>[&#8230;]</klr> kreskis kaj <tld/>is belege
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>as la aferoj, komerco, firmo;
+        &ccirc;io, kion mi deziras, bone <tld/>as
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 23:5</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i en sia negoco<fnt>Z</fnt>.
+        kiu koleras, tiu ne <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -28,40 +42,6 @@
       <ref cel="flor.0i.prosperi">flori<sncref/></ref>,
       <ref cel="sukces.0i">sukcesi</ref>
     </refgrp>
-    <trdgrp lng="hu">
-      <trd>vir&aacute;gzik</trd>,
-      <trd>el&odblac;rehalad</trd>
-    </trdgrp>
-  </snc>
-  <snc mrk="prospe1.0i.tr">
-    <dif>
-      Atingi kontentigan rezulton:
-      <ekz>
-        mi <tld/>is mem eldoni mian unuan bro&scirc;uron en
-        julio<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        la versfarado ne <tld/>as al mi<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>is al mi vidi...<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        &ccirc;u <tld/>os al la homoj veni al interkonsento pri tiu &ccirc;i
-        elekto<fnt>Z</fnt>?
-        <klr>(&ccirc;u fine la homoj <tld/>os...)</klr>;
-      </ekz>
-      <ekz>
-        la suriro al tiu monto &gcirc;is nun ne <tld/>is al multaj homoj, sed
-        al
-        li <tld/>is atingi e&ccirc; la montpinton.
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="sukces.0i">sukcesi</ref>
-    <trdgrp lng="hu">
-      <trd>j&oacute;l megy</trd>,
-      <trd>siker&uuml;l</trd>
-    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_a;&c_c;&c_mol;&c_v;&c_ib;&c_t;&c_a;&c_c;&c_mol;</trd>,
@@ -79,13 +59,20 @@
   <trdgrp lng="de">
     <trd>gedeihen</trd>,
     <trd>prosperieren</trd>,
-    <trd>Erfolg haben</trd>
+    <trd><ind>Erfolg</ind> haben</trd>,
+    <trd>gelingen</trd>
   </trdgrp>
   <trd lng="en">prosper</trd>
   <trd lng="es">prosperar</trd>
   <trdgrp lng="fr">
     <trd>prosp&eacute;rer</trd>,
     <trd>r&eacute;ussir</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>vir&aacute;gzik</trd>,
+    <trd>el&odblac;rehalad</trd>,
+    <trd>j&oacute;l megy</trd>,
+    <trd>siker&uuml;l</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>bloeien</trd>,
@@ -117,7 +104,17 @@
         <tld/>a stato;
       </ekz>
       <ekz>
-        tio cetere estis ne tute <tld/>a komparo<fnt>Z</fnt>
+        la kelkmonata regado de la vic-re&gcirc;o estis tre <tld/>a por <klr>[la lando]</klr>
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> cetere estis ne tute <tld/>a komparo
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>
         (<refgrp tip="vid">
           <ref cel="gxust.0a">&gcirc;usta</ref>,
           <ref cel="tauxg.0a">ta&ubreve;ga</ref>
@@ -128,6 +125,11 @@
       <ref cel="felicx.0a">feli&ccirc;a</ref>,
     </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>gedeihlich</trd>,
+    <trd>prosperierend</trd>,
+    <trd>erfolgreich</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>florissant</trd>,
     <trd>plantureux</trd>,
@@ -144,14 +146,28 @@
         lia subita ek<tld/>o mirigis &ccirc;iujn;
       </ekz>
       <ekz>
-        doni <tld/>on al la lando<fnt>B</fnt>;
+        post sufero venas <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
         sen ordo en afero ne ekzistas <tld/>o
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        &gcirc;ui <tld/>on<fnt>B</fnt>.
+        tio donis monon, kaj al tio la grandkomercisto &scirc;uldis sian <tld/>on
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Infana babilado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tuta malordo fini&gcirc;os per paco kaj &gcirc;enerala <tld/>o
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -208,15 +224,21 @@
     <dif>
       Kreskigi, fruktigi, sukcesigi:
       <ekz>
+        la bona Dio mem &gcirc;in plantis kaj <tld/>igis
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kvin en unu silikvo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         ni provu diveni la &gcirc;eneralajn ka&ubreve;zojn kiuj <tld/>igas la 
         kart-a&ubreve;guran profesion
         <fnt>
           <aut>P. Cadei</aut>,
-          <vrk><url
-          ref="http://www.radio-vatikana-esperanto.org/elsendo.php?d=2004-05-13">
+          <vrk><url ref="http://www.radio-vatikana-esperanto.org/elsendo.php?d=2004-05-13">
           Kial la kartodivenado furoras?</url></vrk>,
           <lok>Radio Vaticana, 2004-05-13</lok>
-        </fnt>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -227,15 +249,41 @@
 </drv>
 
 <drv mrk="prospe1.mal0a">
-  <kap>mal<tld/>a</kap>
+  <kap>mal<tld/>a, <var><kap>ne<tld/>a</kap></var></kap>
   <snc mrk="prospe1.mal0a.KOMUNE">
     <dif>
       Ne sukcesanta, ne kreskanta:
       <ekz>
-        diversaj mal<tld/>aj <klr>(senrezultaj)</klr>
-        provoj<fnt>Z</fnt>.
+        ni kompreneble havos anta&ubreve; la okuloj ne la diversajn mal<tld/>ajn provojn
+        anta&ubreve;ajn
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e la plej mal<tld/>a konsisto de la kongreso en &gcirc;i tamen sidos homoj pensantaj
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la komenco estis ne<tld/>a
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne<tld/>a aludo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <rim>
+      Pli &gcirc;uste oni devus distingi inter &leftquot;ne<tld/>a&rightquot;, t.e. sen sukceso kaj
+      &leftquot;mal<tld/>a&rightquot;, t.e. e&ccirc; dama&gcirc;a.
+      <aut>WD</aut>
+    </rim>
   </snc>
   <trdgrp lng="fr">
     <trd>ch&eacute;tif</trd>,
@@ -250,8 +298,26 @@
     <dif>
       Resti en malbona situacio, ne atingante la dezirindan staton:
       <ekz>
-        mal<tld/>os al ili atingi, en la sama tago, la domon de Kedar
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 12a</lok></fnt>.
+        mal<tld/>os al ili atingi, en la sama tago, la domon de <nom>Kedar</nom>
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 12a</lok></fnt>;
+      </ekz>
+      <ekz>
+        mal<tld/>as <klr>[&#8230;]</klr> telefonkunligo de la najbaraj landoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>LAST</aut>
+          <vrk><url ref="https://www.monato.be/2003/007918.html">Telefonmonopolisto malprosperas</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se mal<tld/>as moralo kaj arto, justico ne trafas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="https://www.monato.be/2013/010677.php">Lingva konfuzo kaj Konfuceo</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -260,6 +326,10 @@
     </refgrp>
   </snc>
   <trd lng="cs">upadat</trd>
+  <trdgrp lng="de">
+    <trd>verfallen</trd>,
+    <trd>scheitern</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>to languish</trd>,
     <trd>decline</trd>
@@ -283,11 +353,24 @@
         mi vagis tien kaj reen sur la ferdeko, kun kuspita kolumo kaj 
         la manoj enpo&scirc;e, pensante pri mia mal<tld/>o en la lernejo
         <fnt><bib>Kiso</bib>, <lok>la sakramento de la 
-        komunio</lok></fnt>.
+        komunio</lok></fnt>;
+      </ekz>
+      <ekz>
+        la <klr>[&#8230;]</klr> mal<tld/>o de ka&scirc;e flegata miliononula konto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2013/010812.php">Po&scirc;to perdita</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="cs">&uacute;padek</trd>
+  <trdgrp lng="de">
+    <trd>Verfall</trd>,
+    <trd>Mi&szlig;erfolg</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>decline</trd>,
     <trd>slump</trd>, <trd>stagnation</trd>
@@ -313,7 +396,7 @@
       Ka&ubreve;zi malkreskon, kadukecon, malbrili&gcirc;on:
       <ekz>
         tertremoj, kirloventoj, fajregoj kaj malsategoj okazis  
-        lastajn jarojn en  Kioto,  kio  mal<tld/>igis la urbon &gcirc;is 
+        lastajn jarojn en Kioto, kio  mal<tld/>igis la urbon &gcirc;is 
         ekstremo
         <fnt>
           <aut>R. Akutagawa, trad. T. Aoyama</aut>,
@@ -322,16 +405,92 @@
           <lok>[vidita en 2017]</lok>
         </fnt>.
       </ekz>
+      <ekz>
+        maldungi laboristojn kaj maltrankviligi popolanojn signifas mal<tld/>igi
+        kompaniojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Jasuo</aut>
+          <vrk><url ref="https://www.monato.be/2009/009770.php">Vila&gcirc;o por maldungitoj</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekonomia mal<tld/>igo, korupto &ccirc;e &scirc;tataj oficistoj, e&ccirc; registara enmiksi&gcirc;o en
+        mafiajn aferojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2005/008751.php">Post ok jaroj: &scirc;an&gcirc;o</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="de">verschlechtern</trd>
   <trdgrp lng="fr">
     <trd>affaiblir</trd>,
     <trd>ruiner</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="prospe1.0i_al">
+  <kap>
+    <tld/>i al
+  </kap>
+  <snc mrk="prospe1.0i_al.sukcesi">
+    <dif>
+      <ref tip="dif" cel="sukces.0i">Sukcesi</ref>:
+      <ekz>
+        la versfarado ne <tld/>as al mi
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nenio <tld/>is al vi
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 12:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u <tld/>os al ili veni al interkonsento pri tiu &ccirc;i elekto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu &ccirc;i afero iom <tld/>is al mi, kaj tiun &ccirc;i frukton de longatempaj persistaj
+        laboroj mi proponas nun
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nek al vi, nek al alia <tld/>os for&scirc;iri lin de mi
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>is al li konvinki almena&ubreve; kelkajn personojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">gelingen</trd>
+</drv>
+
+
 </art>
 <!--
 $Log$
+versio 1.21 2020/11/15 10:32:20
+Wolfram Diestel: mvosi snc 2 al drv "~i al", +ekz-oj, germ trd-oj
+
 Revision 1.19  2017/05/18 20:10:17  revo
 Jeromo Vasxe: + ~a + mal a
 
