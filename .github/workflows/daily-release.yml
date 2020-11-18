@@ -11,6 +11,8 @@ on:
 env:
   # image tag {latest|stabila}
   IMAGE_TAG: stabila
+  # permesu set-env en eligaĵoj...
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   
 # https://github.com/actions/create-release
 # https://help.github.com/en/actions/reference/development-tools-for-github-actions
