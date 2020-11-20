@@ -2,9 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hop.xml,v 1.18 2015/07/04 08:37:35 revo Exp $">
+<art mrk="$Id: hop.xml,v 1.19 2020/11/20 08:33:37 revo Exp $">
 <kap>
-  <rad>hop</rad> <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <rad>hop</rad> 
+  <fnt> <bib>PrV</bib></fnt>
 </kap>
 <drv mrk="hop.0">
   <kap><tld/></kap>
@@ -13,11 +14,23 @@
     <dif>
       Saltu!:
       <ekz>
+        ne diru <tld/> anta&ubreve; la salto
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi volos rajdi rapide, klaku per la lango kaj kriu <tld/> <tld/>
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Feli&ccirc;a Jo&ccirc;jo</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
         kriu <tld/> kaj mi saltas
         <fnt>
           <aut>W. Auld</aut>,
-          <vrk><url
-          ref="http://www.sunela.eu/maku/Esperanto/La%20infana%20raso">
+          <vrk><url ref="http://www.sunela.eu/maku/Esperanto/La%20infana%20raso">
           La Infana Raso</url></vrk>,
           <lok>1956</lok>
         </fnt>.
@@ -49,7 +62,7 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="hop.0i.KOMUNE">
     <dif>
-      Salti per unu piedo:
+      <ref tip="super" cel="salt.0i.sin_levi">Salt</ref>eti per paralelaj kuroj a&ubreve; per nur unu piedo:
       <ekz>
         li <ctl>eskapis</ctl>, tio estas, li <tld/>is per unu piedo kaj
         trenis la alian post si kaj eliris
@@ -60,19 +73,16 @@
         </fnt>;
       </ekz>
       <ekz>
-        la kato <klr>...</klr> <tld/>is reen sur la kamenon
+        la kato <klr>[&#8230;]</klr> <tld/>is reen sur la kamenon
         <fnt><bib>MkM</bib></fnt>.
       </ekz>
     </dif>
   </snc>
-  <rim>
-    Mi dubas, ke oni <em>hopas</em> nur unupiede,
-    kiel diras PIV kaj la &ccirc;i-supra difino.
-    La baza senco de <em>hop</em> ne implicas tion,
-    kaj la provizitaj ekzemploj ne kongruas. 
-    <aut>&jcirc;v</aut>
-  </rim>
-  <trd lng="de">hopsen</trd>
+  <trdgrp lng="de">
+    <trd>hopsen</trd>,
+    <trd>h&uuml;pfen</trd>
+  </trdgrp>
+  <trd lng="en">to <ind>hop</ind></trd>
   <trd lng="es">saltar<klr> (con un pie, a la pata coja)</klr></trd>
   <trd lng="fr">sauter &agrave; cloche-pied</trd>
   <trd lng="it">saltellare<klr> (con un piede)</klr></trd>
@@ -81,8 +91,8 @@
    <trd>hinken</trd>,
    <trd>huppelen</trd>
   </trdgrp>
-  <trd lng="sk">poskakovať na jednej nohe</trd>
-  <trd lng="cs">poskakovat na jedné noze</trd>
+  <trd lng="sk">poskakova&tcaron; na jednej nohe</trd>
+  <trd lng="cs">poskakovat na jedn&eacute; noze</trd>
 </drv>
 
 <drv mrk="hop.0ludo">
@@ -90,29 +100,40 @@
   <snc mrk="hop.0ludo.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      Lameta ludo, kie oni desegnas kvadratojn sur la grundo
-      kaj devas salteti per unu gambo en &ccirc;iuj kvadratoj sen
-      tu&scirc;i la liniojn;
-      anka&ubreve; konata kiel "paradizludo" kaj "marelo".
+      Salt<ref tip="super" cel="lud.0o.ago">ludo</ref>,
+      &ccirc;e kiu oni <tld/>as tra vico de desegnitaj kvadratoj
+      sen tu&scirc;i la liniojn, anka&ubreve; konata kiel &leftquot;paradizludo&rightquot; kaj &leftquot;marelo&rightquot;:
       <ekz>
-        En la dana nomi&gcirc;as "hinke-leg", kies rekta traduko estas 
-        "salteta ludo". En PIV2002 estas "hopludo", "paradizludo" kaj 
-        "marelo". Mi &scirc;atus scii kion vorton vi kutime uzas en via
-        familio?
-      <fnt>
-        <aut>J. Nordfalk, N. Budha</aut>,
-          <vrk>
-          <url
-          ref="http://javabog.dk/filmoj_en_esperanto/mejzi_ludtempo/
-mejzi_ludtempo_notoj.html">
-          Traduko de la filmo "Mejzi Ludtempo" al Esperanto</url>
-        </vrk>,
-        <lok>&ccirc;. 1.2.1 Saltludo</lok>
-      </fnt>
+        en la dana nomi&gcirc;as &leftquot;<nac>hinke-leg</nac>&rightquot;, kies rekta traduko estas 
+        &leftquot;salteta ludo&rightquot;, en PIV2002 estas &leftquot;<tld/>ludo&rightquot;, &leftquot;paradizludo&rightquot; kaj 
+        &leftquot;marelo&rightquot;, &dash; mi &scirc;atus scii <klr>[kiun]</klr> vorton vi kutime uzas en via
+        familio
+        <fnt>
+          <aut>J. Nordfalk, N. Budha</aut>,
+            <vrk>
+            <url ref="http://javabog.dk/filmoj_en_esperanto/mejzi_ludtempo/mejzi_ludtempo_notoj.html">
+            Traduko de la filmo "Mejzi Ludtempo" al Esperanto</url>
+          </vrk>,
+          <lok>&ccirc;. 1.2.1 Saltludo</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <bld lok="&WCU;/thumb/1/14/Michelle_Obama_plays_hopscotch.jpg/640px-Michelle_Obama_plays_hopscotch.jpg" prm="PD">Michelle Obama ludanta <tld/>ludon &ccirc;e la universitato de Mumbai, Barato, Nov. 6, 2010
+        <fnt>
+          <aut>Chuck Kennedy, The White House from Washington, DC, P110610CK-0355</aut>
+          <lok><url ref="&WCW;/File:Michelle_Obama_plays_hopscotch.jpg">https://commons.wikimedia.org/wiki/File:Michelle_Obama_plays_hopscotch.jpg</url></lok>
+        </fnt>
+    </bld>
+    <trdgrp lng="de">
+      <trd>Himmel und H&ouml;lle</trd>,
+      <trd>Hickelkasten</trd>,
+      <trd>Himmelhopse</trd>,
+      <trd>Reise zum Mond</trd>
+    </trdgrp>
+    <trd lng="en">hopscotch</trd>
+    <trd lng="fr">marelle</trd>
   </snc>
-  <trd lng="cs">skákání "panáka"</trd>
+  <trd lng="cs">sk&aacute;k&aacute;n&iacute; "pan&aacute;ka"</trd>
   <trd lng="da">hinke-leg</trd>
   <trdgrp lng="it">
     <trd>pampano<klr> (gioco)</klr></trd>, 
@@ -121,11 +142,14 @@ mejzi_ludtempo_notoj.html">
   </trdgrp>
   <trd lng="nl">hinkelspel</trd>
   <trd lng="pl"><klr>gra w </klr>klasy</trd>
-  <trd lng="sk">skákanie panáka <klr>(hra)</klr></trd>
+  <trd lng="sk">sk&aacute;kanie pan&aacute;ka <klr>(hra)</klr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2020/11/20 08:33:37
+Wolfram Diestel: +2 ekz-oj, dif-vortumo, +bld, germ trd, sintakso
+
 Revision 1.17  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -145,11 +169,5 @@ Revision 1.12  2009/08/19 18:42:09  revo
 Paul Peeraerts: +trd nl - +hopi +ekz
 
 Revision 1.11  2008/05/27 16:30:24  revo
-Sebastian Cyprych: +drv ~ludo; kor trd pl
-
-Revision 1.10  2005/10/17 16:31:29  revo
-Luiz Portella: +trd pt
-
-Revision 1.9  2003/12/19 17:57:48  revo
 -->
 </vortaro>
