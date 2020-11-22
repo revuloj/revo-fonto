@@ -2,21 +2,22 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fojn.xml,v 1.23 2015/07/04 08:37:34 revo Exp $">
-<kap><ofc>*</ofc>
-<rad>fojn</rad>/o</kap>
+<art mrk="$Id: fojn.xml,v 1.24 2020/11/22 18:32:52 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>fojn</rad>/o
+</kap>
+
 <drv mrk="fojn.0o">
    <kap><ofc>*</ofc><tld/>o</kap>
-   <uzo tip="fak">AGR</uzo>
-   <snc>
+   <snc mrk="fojn.0o.AGR">
+     <uzo tip="fak">AGR</uzo>
      <dif>
        Matura herbo, kiun oni fal&ccirc;as kaj sekigas &ccirc;e la suno
        por &gcirc;in konservi kiel nutra&jcirc;on por la brutoj:
        <ekz>
 	 <ctl>Fal&ccirc;ita kiel <tld/>o</ctl>
-	 <fnt><aut>Paul Veenman</aut>: <vrk>Krimoj...
-	 por &ccirc;iuj temperamentoj (Sten Johansson, Fal&ccirc;ita kiel fojno)</vrk>,
-	 <bib>Monato</bib><lok>jaro 1997a, numero 10a, p. 19a</lok></fnt>.
+	 <klr>(romano de <nom>S. Johansson</nom>)</klr>
        </ekz>
      </dif>
    </snc>
@@ -26,7 +27,7 @@
   <trd lng="de">Heu</trd>
   <trd lng="en">hay</trd>
   <trd lng="es">heno</trd>
-  <trd lng="fr">foin<klr tip="ind"> (herbe)</klr></trd>
+  <trd lng="fr">foin</trd>
   <trd lng="hu">sz&eacute;na</trd>
   <trd lng="nl">hooi</trd>
   <trd lng="pt">feno</trd>
@@ -34,22 +35,46 @@
   <trd lng="sk">seno</trd>
 </drv>
 
+<drv mrk="fojn.0ado">
+  <kap>
+    <tld/>ado
+  </kap>
+  <snc mrk="fojn.0ado.AGR">
+    <uzo tip="fak">AGR</uzo>
+    <dif>
+      Rikoltado kaj sekigado de herbo por ricevi <tld/>on:
+      <ekz>
+        tio detruis ilian tutan taglaboron je la <tld/>ado
+        <fnt>
+          <aut>H. Laxness, trad. B. Ragnarsson</aut>
+          <vrk>Sendependaj homoj</vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">fenaison</trd>
+</drv>
+
 <drv mrk="fojn.0ejo">
    <kap><tld/>ejo</kap>
-   <uzo tip="fak">AGR</uzo>
-   <snc>
+   <snc mrk="fojn.0ejo.AGR">
+     <uzo tip="fak">AGR</uzo>
      <dif>
        Loko &gcirc;enerale subtegmenta por finsekigo kaj konservado de
        <tld/>o:
        <ekz>
-	 petveturi, noktumi sub&ccirc;iele a&ubreve; en <tld/>ejoj<fnt><aut>Dmitrij
-	 Cibulevskij</aut>: <vrk>Danio pli proksima (Poul Thorsen, Babile
-	 kun mi mem)</vrk>, <bib>Monato</bib><lok>jaro 1997a, numero 8a, p.
-	 23a</lok></fnt>.
+	 petveturi, noktumi sub&ccirc;iele a&ubreve; en <tld/>ejoj
+         <fnt>
+           <aut>D. Cibulevskij</aut>
+           <vrk>Danio pli proksima</vrk>
+           <bib>Monato</bib>
+           <lok>1997:8, p. 23a</lok>
+         </fnt>.
        </ekz>
      </dif>
    </snc>
-  <trd lng="cs">seník</trd>
+  <trd lng="cs">sen&iacute;k</trd>
   <trdgrp lng="es">
      <trd>henil</trd>,
      <trd>pajar</trd>
@@ -67,19 +92,19 @@
    </trdgrp>
   <trd lng="pt">palheiro</trd>
   <trd lng="ru">&c_s;&c_je;&c_n;&c_o;&c_v;&c_a;&c_l;</trd>
-  <trd lng="sk">senník</trd>
+  <trd lng="sk">senn&iacute;k</trd>
 </drv>
 
 <drv mrk="fojn.post0o">
    <kap>post<tld/>o</kap>
-   <uzo tip="fak">AGR</uzo>
-   <snc>
+   <snc mrk="fojn.post0o.AGR">
+     <uzo tip="fak">AGR</uzo>
      <dif>
        <tld lit="F"/>o el dua rikolto en sama jaro.
      </dif>
      <ref tip="vid" cel="falcx.post0ajxo">postfal&ccirc;a&jcirc;o</ref>
    </snc>
-  <trd lng="cs">usušená otava</trd>
+  <trd lng="cs">usu&scaron;en&aacute; otava</trd>
   <trdgrp lng="fr">
      <trd>arri&egrave;re-foin</trd>,
      <trd>refoin</trd>,
@@ -88,13 +113,16 @@
   <trd lng="hu">sarj&uacute;sz&eacute;na</trd>
   <trd lng="ru">&c_o;&c_t;&c_a;&c_v;&c_a;</trd>
   <trdgrp lng="sk">
-    <trd>mládza</trd>,
+    <trd>ml&aacute;dza</trd>,
     <trd>otava</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2020/11/22 18:32:52
+Jeromo Vasxe: + ~ado
+
 Revision 1.22  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -114,11 +142,5 @@ Revision 1.17  2005/05/24 16:34:54  revo
 Yury Finkel: +trd ru
 
 Revision 1.16  2004/11/12 17:31:38  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2004/07/20 22:21:12  revo
-Marc Bavant: post~o: +ref al "postfalcxajxo", mod trd
-
-Revision 1.14  2003/10/11 16:30:36  revo
 -->
 </vortaro>
