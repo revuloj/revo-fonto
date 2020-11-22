@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: stapl.xml,v 1.18 2020/07/17 09:11:08 revo Exp $">
+<art mrk="$Id: stapl.xml,v 1.19 2020/11/22 10:32:13 revo Exp $">
 <kap>
   <rad>stapl</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,11 +11,19 @@
   <kap><tld/>o</kap>
   <snc mrk="stapl.0o.FORM">
     <dif>
-      Amaso da objektoj (precipe konstrumaterialoj, hejtligno
-      ktp), metitaj unuj sur aliajn kaj aran&gcirc;itaj en vicon: 
+      <ref tip="super" cel="amas.0o">Amaso</ref> da 
+      objektoj (precipe konstrumaterialoj, hejtligno
+      ktp), metitaj unuj sur aliajn kaj aran&gcirc;itaj en <ref tip="super" cel="vic.0o.spaca">vico</ref>n: 
       <ekz>
         <tld/>o da traboj, tabuloj, brikoj, libroj;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
+        dika <tld/>o da masinskribitaj paper-folioj
+        <fnt>
+          <vrk><url ref="http://esperanto.es:8080/jspui/bitstream/11013/4496/1/Cervantes_Pri%20la%20libero%2c%20kun%20Don-Ki%C4%A5oto%20donis%20al%20multaj%20malfeli%C4%89uloj_1949.pdf">La Genia Kavaliro Don-Ki&hcirc;oto De Mancujo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
         iom rekolektinte la spiron, li ku&scirc;igis unu el la
         lignopecoj surbraken por meti &gcirc;in sur la <tld/>on
         <fnt>
@@ -23,16 +31,6 @@
           <vrk>La Arbino</vrk>.
           <lok>Vespera ru&gcirc;o anoncas ventegon. Inko Tyres&ouml;,
           2001</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">KOMP</uzo>
-        procesoroj liveritaj sur kartetoj, sur kiuj estas la <tld/>omemoro
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Franck Arnaud</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007114.html">Intel alfrontas
-          konkurencon</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -40,6 +38,47 @@
       <ref cel="stak.0o.vico">stako<sncref/></ref>,
       <ref cel="kolon.0o.staplo">kolono<sncref/></ref>
     </refgrp>    
+  </snc>
+  <snc mrk="stapl.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Dinamika <ref tip="super" cel="datum.0strukturo">datumstrukturo</ref>,
+      ofte rekte realigita per <ref cel="proceso.0o">procesor</ref>aj
+      komandoj, &ccirc;e kiu oni povas aldoni kaj relegi novajn objektojn nur supre:
+      <ekz>
+        procesoroj liveritaj sur kartetoj, sur kiuj estas la <tld/>omemoro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007114.html">Intel alfrontas
+          konkurencon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kerno uzis teknologion de ekstervica plenumo de komandoj, novan skemon de
+        komutado de <tld/>o kaj nova &ccirc;efbuso
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Alpha">Alpha</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o estas memorilo, kiu staras inter procesoro kaj pli granda, sed malpli
+        rapida memorilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="https://www.monato.be/2012/010794.php">Distra kaj kleriga vortaro</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Stapelspeicher</trd>,
+      <trd>Stack</trd>,
+      <trd>Kellerspeicher</trd>
+    </trdgrp>
+    <trd lng="en">stack</trd>
+    <trd lng="fr">pile</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_t;&c_o;&c_s;</trd>,
@@ -138,7 +177,10 @@
     <trd>skladovat</trd>,
     <trd>stohovat</trd>
   </trdgrp>
-  <trd lng="de">stapeln</trd>
+  <trdgrp lng="de">
+    <trd>stapeln</trd>,
+    <trd>aufschichten</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>almacenar</trd>,
     <trd>amontonar</trd>,
@@ -159,6 +201,9 @@
 </art>
   <!--
   $Log$
+versio 1.19 2020/11/22 10:32:13
+Wolfram Diestel: apartigis snc KOMP, ekz-oj
+
 versio 1.18 2020/07/17 09:11:08
 Jozefo Horvath: korekto de trd hu
 
@@ -178,8 +223,5 @@ Jozefo Horvath: korekto de trd hu
   aldono de trd sk per skripto de M. von Laer
 
   Revision 1.12  2013/08/04 01:10:10  revo
-  Jeromo Vasxe: + ~i
-
-  Revision 1.11  2012/07/31 19:10:21  revo
 -->
 </vortaro>
