@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komple1.xml,v 1.40 2020/02/15 10:10:30 revo Exp $">
+<art mrk="$Id: komple1.xml,v 1.41 2020/11/23 14:32:32 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>komplement</rad>/o <fnt><bib>PV</bib></fnt>
@@ -16,13 +16,38 @@
       rilate al la <ref cel="predik1.0o">predikato</ref>, a&ubreve;
       la frazparto aperanta en tia frazrolo:
       <ekz>
-        anka&ubreve; la subjekton oni povas rigardi <tld/>o;
+        anta&ubreve;staranta <tld/>o
+        <fnt>
+          <bib>LR</bib>
+          <lok>5. Kazosintakso</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nominativa <tld/>o
+        <fnt>
+          <bib>LR</bib>
+          <lok>5. Kazosintakso</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anka&ubreve; la <ref cel="subjek.0o.GRA">subjekto</ref>n oni povas rigardi <tld/>o;
       </ekz>
       <ekz>
         <ref tip="sub" cel="komple1.cirkonstanca0o">cirkonstanca
-        <tld/>o</ref>.
+        <tld/>o</ref>;
+      </ekz>
+      <ekz>
+        frazo, kiu havas nur unu <tld/>on, estas ordinare anka&ubreve; tute klara, &ccirc;ar la
+        forestado de la dua <tld/>o per si mem jam montras la sencon de la frazo
+        <fnt>
+          <bib>LR</bib>
+          <lok>1. Vortfarado</lok>
+        </fnt>;
       </ekz>
     </dif>
+    <refgrp tip="sub">
+       <ref cel="objekt.0o.GRA">objekto<sncref/></ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>Satzerg&auml;nzung</trd>,
       <trd>Komplement</trd>
@@ -34,21 +59,58 @@
     <trd lng="ro">complement</trd>
     <trd lng="pt">complemento</trd>
   </snc>
-  <snc>
-    <ref tip="dif" cel="komple2.0igi">kompletiga&jcirc;o</ref>
+  <snc mrk="komple1.0o.kompletigajxo">
+    <dif>
+      <ref tip="dif" cel="komple2.0igi">Kompletiga&jcirc;o</ref>:
+      <ekz>
+        <klr>[la]</klr> dua eldono <klr>[&#8230;]</klr> estas la vera <tld/>o de Universala
+        Vortaro
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        finas la libron albumo kaj statistika <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007040.html">E&ubreve;ropa juro por &ccirc;iuj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> nova fabriko <klr>[&#8230;]</klr> <tld/>as la usonan fabrikon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007114.html">Intel alfrontas konkurencon</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="suplem.0o">suplemento</ref>,
+      <ref cel="dualis.0o.FIL">dualismo<sncref/></ref>,
+      <ref cel="respon.0i.lauxi">respondi<sncref/></ref>,
+      <ref cel="invers.0o">inverso</ref>,
+      <ref cel="simetr.0a">simetria</ref>,
+      <ref cel="matric.0o.TEK">matrico<sncref/></ref>,
+      <ref cel="kontraux.0ajxo">kontra&ubreve;a&jcirc;o</ref>,
+      <ref cel="klisx.0o">kli&scirc;o</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>Erg&auml;nzung</trd>,
-      <trd>Erg&auml;nzungsteil</trd>
+      <trd>Erg&auml;nzungsteil</trd>,
+      <trd>Gegenst&uuml;ck</trd>,
+      <trd>Komplement</trd>
     </trdgrp>
-  <trdgrp lng="fr">
-    <trd>compl&eacute;ment<klr tip="ind"> (ce qui compl&egrave;te)</klr></trd>,
-    <trd>&agrave;-c&ocirc;t&eacute;</trd>,
-    <trd>addition<klr tip="ind"> (ajout)</klr></trd>,
-    <trd>ajout</trd>,
-    <trd>appoint</trd>,
-    <trd>suppl&eacute;ment</trd>,
-    <trd>surplus</trd>
-  </trdgrp>
+    <trdgrp lng="fr">
+      <trd>compl&eacute;ment<klr tip="ind"> (ce qui compl&egrave;te)</klr></trd>,
+      <trd>&agrave;-c&ocirc;t&eacute;</trd>,
+      <trd>addition<klr tip="ind"> (ajout)</klr></trd>,
+      <trd>ajout</trd>,
+      <trd>appoint</trd>,
+      <trd>suppl&eacute;ment</trd>,
+      <trd>surplus</trd>
+    </trdgrp>
   </snc>
   <snc mrk="komple1.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -164,8 +226,29 @@
   <kap><tld/>a</kap>
   <snc mrk="komple1.0a.KOMUNE">
     <dif>
-      Kompletiga; rilata al <tld/>o.
+      Kompletiga; rilata al <tld/>o:
+      <ekz>
+        <uzo tip="fak">GRA</uzo>
+        <tld/>a infinitivo
+        <fnt>
+          <bib>LR</bib>
+          <lok>11. Verboj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dilati&gcirc;o kaj kuntiri&gcirc;o <klr>[estas]</klr> du <tld/>aj, &leftquot;parencaj&rightquot;, fenomenoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011332.php">Dilati&gcirc;o, kuntiri&gcirc;o ... kaj eksperimento por infana amuzi&gcirc;o</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>komplement&auml;r</trd>,
+      <trd>erg&auml;nzend</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>compl&eacute;mentaire<klr tip="ind"> (additionnel)</klr></trd>,
       <trd>additionnel</trd>,
@@ -212,8 +295,7 @@
         <frm am="bb E"><g>E</g></frm>)</klr>
         Tiaj, ke ilia <ref cel="sum.0o.vektorasubspaco">sumo</ref>
         egalas
-        al <frm am="bb E"><g>E</g></frm> kaj estas <ref
-        cel="rekt.0a.sumo">rekta</ref>:
+        al <frm am="bb E"><g>E</g></frm> kaj estas <ref cel="rekt.0a.sumo">rekta</ref>:
         <ekz>
           en tridimensia vektora spaco ajna
           <ref cel="eben.vektora0o">ebeno</ref> estas <tld/>a al ajna
@@ -240,13 +322,11 @@
         <klr>(p.p. <ref cel="latis.0o.MAT">latiso</ref>
         <frm am="(bb E,vv,^^)">(<g>E</g>,&#8744;,&#8743;)</frm>)</klr>
         Tia, ke por &ccirc;iu elemento <frm am="x"><k>x</k></frm> de &gcirc;i
-        ekzistas tia elemento <frm am="x&#8242;"><k>x'</k></frm>,
-        ke <frm am="x vv x&#8242;"><k>x</k>&#8744;<k>x'</k></frm> estas
-        <ref cel="maksim1.0o.MAT">maksimumo</ref> de <frm am="bb
-        E"><g>E</g></frm>
-        kaj <frm am="x ^^ x&#8242;"><k>x</k>&#8743;<k>x'</k></frm> estas
-        <ref cel="minimu.0o.MAT">minimumo</ref> de <frm am="bb
-        E"><g>E</g></frm>.
+        ekzistas tia elemento <frm am="x&minute;"><k>x'</k></frm>,
+        ke <frm am="x vv x&minute;"><k>x</k>&#8744;<k>x'</k></frm> estas
+        <ref cel="maksim1.0o.MAT">maksimumo</ref> de <frm am="bb         E"><g>E</g></frm>
+        kaj <frm am="x ^^ x&minute;"><k>x</k>&#8743;<k>x'</k></frm> estas
+        <ref cel="minimu.0o.MAT">minimumo</ref> de <frm am="bb         E"><g>E</g></frm>.
       </dif>
       <trd lng="de">komplement&auml;r<klr tip="ind"> (-er
       Verband)</klr></trd>
@@ -266,7 +346,16 @@
   <snc mrk="komple1.rekta0o.GRA">
     <uzo tip="fak">GRA</uzo>
     <dif>
-      <tld lit="K"/>o kunigata sen prepozicio al sia determinato.
+      <tld lit="K"/>o kunigata sen prepozicio al sia determinato:
+      <ekz>
+        vi simple esprimas vian opinion, ke en Esperanto oni uzas la infinitivon nur a&ubreve;
+        en formo de rekta <tld/>o (ekzemple &leftquot;mi amas danci&rightquot;), a&ubreve; en formo de nerekta
+        komplemento kun la prepozicioj &leftquot;por&rightquot;, &leftquot;anta&ubreve; (ol)&rightquot;, &leftquot;anstata&ubreve;&rightquot;
+        <fnt>
+          <bib>LR</bib>
+          <lok>11. Verboj</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="fr">compl&eacute;ment direct</trd>
@@ -311,6 +400,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Objekt <klr>(Gramm.)</klr></trd>
   <trdgrp lng="fr">
     <trd>compl&eacute;ment d'objet</trd>,
     <trd>objet<klr tip="ind"> (compl&eacute;ment d'objet)</klr></trd>
@@ -338,6 +428,7 @@
     </dif>
   </snc>
   <trd lng="cs">p&rcaron;&iacute;slove&ccaron;n&eacute; ur&ccaron;en&iacute;</trd>
+  <trd lng="de">adverbiale Bestimmung</trd>
   <trd lng="fr">compl&eacute;ment circonstanciel</trd>
   <trd lng="nl">bepaling van gesteldheid</trd>
   <trd lng="pl">dope&lstroke;nienie okolicznikowe</trd>     
@@ -348,8 +439,11 @@
 
 </art>
 <!--
-$Log: komple1.xml,v $
-versio 1.40 2020/02/15 10:10:30
+$Log$
+versio 1.41 2020/11/23 14:32:32
+Wolfram Diestel: ekz-oj, ref-oj
+
+Revision 1.40  2020/02/15 09:10:29  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.39  2019/05/07 23:10:14  revo
@@ -368,8 +462,5 @@ Revision 1.35  2009/09/03 16:30:55  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.34  2007/01/04 17:30:19  revo
-Tulio Flores: +tr pt
-
-Revision 1.33  2005/01/23 17:33:04  revo
 -->
 </vortaro>
