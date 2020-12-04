@@ -26,6 +26,10 @@
 <!ENTITY url_ade "http://www.akademio-de-esperanto.org">
 
 ]>
+
+<!-- valdiecon kontrolu ekz. per
+  rxp -Vs -u ../voko-grundo/dtd/ cfg/bibliogr.xml 
+-->
  
 <bibliografio>
   
@@ -1349,6 +1353,19 @@ M&uuml;nchhausen</tit>
     </eld>
   </vrk>
 
+  <vrk mll="PAG" tip="leksikono">
+    <aut><a>Kálmán</a> <n>Kalocsay</n></aut>
+    <aut><a>Waringhien</a> <n>Gaston</n></aut>
+    <tit>Plena Analiza Gramatiko de Esperanto</tit>
+    <eld>
+      <nom>Universala Esperanto-Asocio</nom>
+      <lok>Rotterdam</lok>
+      <dat>1985</dat>
+      <nro>5a korektita eldono</nro>
+      <isbn>9290170328</isbn>
+    </eld>
+  </vrk>
+
   <vrk mll="Paroloj">
     <url>&url_wd;/paroloj/</url>
     <aut><a>L. L.</a> <n>Zamenhof</n></aut>
@@ -1482,7 +1499,7 @@ M&uuml;nchhausen</tit>
     </eld>
   </vrk>
 
-  <vrk mll="RokPop" tip="termiaro">
+  <vrk mll="RokPop" tip="terminaro">
     <url>https://bertilow.com/roko/</url>
     <aut><a>B.</a> <n>Wennergren</n></aut>
     <tit>Roko kaj Popo, Popularmuzika Terminaro en Esperanto</tit>
