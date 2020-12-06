@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: antolo.xml,v 1.22 2015/07/04 08:37:30 revo Exp $">
+<art mrk="$Id: antolo.xml,v 1.23 2020/12/06 22:38:10 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>antologi</rad>/o
@@ -12,17 +12,41 @@
   <snc mrk="antolo.0o.BELE">
     <uzo tip="fak">TIP</uzo>
     <dif>
-      <ref tip="super" cel="tekst.0aro">Tekstaro</ref>, libro en
-      kiu estas kolektitaj arte valoraj prozaj a&ubreve; poeziaj verkoj
+      <ref tip="lst" lst="voko:komunikoj" cel="tekst.0aro">Tekstaro</ref>,
+      libro en kiu estas kolektitaj arte valoraj prozaj a&ubreve; poeziaj verkoj
       a&ubreve; fragmentoj el beletraj verkoj de diversaj
       a&ubreve;toroj:
       <ekz>
+        <tld/>o el sepdek tri poemoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="https://www.monato.be/2003/008065.html"
+              >Finaj agordoj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de elektitaj gaelaj poemoj verkitaj en la tuta 20a jarcento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="https://www.monato.be/2003/007935.html"
+              >Ne plu krios la koko</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <ctl>Esperanta <tld/>o: poemoj 1887-1981</ctl>
-        <fnt><vrk>Esperanta antologio: poemoj 1887-1981. - Roterdamo:
+        <fnt><vrk>Esperanta antologio: poemoj 1887-1981. &dash; Roterdamo:
         Universala Esperanto-Asocio, 1984</vrk></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="kresto.0o">krestomatio</ref>
+    <refgrp tip="vid">
+       <ref cel="digxest.0o">di&gcirc;esto</ref>,
+       <ref cel="epitom.0o">epitomo</ref>,
+       <ref cel="kresto.0o">krestomatio</ref>
+    </refgrp>
   </snc>
   <snc mrk="antolo.0o.BELA">
     <uzo tip="fak">BELA</uzo>
@@ -35,7 +59,7 @@
   <trd lng="ca">antologia</trd>
   <trdgrp lng="cs">
     <trd>antologie</trd>,
-    <trd>výbor z liter.</trd>
+    <trd>v&yacute;bor z liter.</trd>
   </trdgrp>
   <trd lng="de">Anthologie</trd>
   <trd lng="en">anthology</trd>
@@ -54,14 +78,17 @@
   <trd lng="ru">&c_a;&c_n;&c_t;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
     <trd>antol&oacute;gia</trd>,
-    <trd>antológia</trd>,
-    <trd>literárny výber</trd>,
-    <trd>zborník</trd>
+    <trd>antol&oacute;gia</trd>,
+    <trd>liter&aacute;rny v&yacute;ber</trd>,
+    <trd>zborn&iacute;k</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2020/12/06 22:38:10
+Wolfram Diestel: ekz-oj, ref-oj
+
 Revision 1.21  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -81,11 +108,5 @@ Revision 1.16  2004/02/29 17:31:32  revo
 Jeromo Vasxe: + 1 ekz
 
 Revision 1.15 2003/10/24 16:30:33 revo
-Zmicier Lapcionak: kor trd be
-
-Revision 1.14 2002/10/08 17:58:28 revo
-Christopher Zervic: + ang
-
-Revision 1.13 2002/09/07 17:42:19 revo
 -->
 </vortaro>
