@@ -2,31 +2,62 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: epitom.xml,v 1.19 2015/07/04 08:37:33 revo Exp $">
+<art mrk="$Id: epitom.xml,v 1.20 2020/12/06 22:38:10 revo Exp $">
 <kap>
-  <rad>epitom</rad>/o <fnt>Z</fnt>
+  <rad>epitom</rad>/o
 </kap>
 <drv mrk="epitom.0o">
   <kap><tld/>o</kap>
   <snc mrk="epitom.0o.BELE">
     <uzo tip="fak">BELE</uzo>
     <dif>
-      <ref tip="super" cel="verk.0o.propra">Verko</ref> kiu resumas pli
-      ampleksan verkon por studa celo a&ubreve; lerneja uzo:
+      <ref tip="lst" lst="voko:komunikoj" cel="verk.0o.propra">Verko</ref>,
+      kiu <ref cel="sum.re0i">resumas</ref>
+       pli ampleksan verkon por studa celo a&ubreve; lerneja uzo:
       <ekz>
         <ctl><tld lit="E"/>o de esperantologio</ctl>
         <fnt>
         <aut>N. Gudskov</aut>,
         <vrk>Epitomo de esperantologio</vrk>
         <lok>REU-Impeto, 2002</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kompleta <tld/>o de la eduka scenaro en nia reala mondo
+        <fnt>
+          <vrk><url ref="https://www.coursehero.com/file/p4oqmp5/Li-akceptis-metilernadon-de-la-butiko-de-sia-patro-kaj-post-sia-morto-li-povis/"
+              >Li akceptis metilernadon de la butiko de sia patro kaj ...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        malvarma kafo vere estas la <tld/>o de &ccirc;io, kion elstara taso da kafo devus esti
+        <fnt>
+          <vrk><url ref="https://eo.haymancoffee.com/Blogoj/kafo-blogo/kvin-surprizaj-avanta%C4%9Doj-de-malvarma-kafo"
+              >Kvin Surprizaj Avanta&gcirc;oj de Malvarma Bierkafo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la urbo <nom>Baden-Baden</nom> <klr>[&#8230;]</klr> ne estas granda kosmopolita urbo kiel
+        Berlino, &gcirc;i estas la <tld/>o de bela vivado
+        <fnt>
+          <vrk><url ref="https://www.saveatrain.com/blog/europe-visit-senior-travelers/?lang=eo"
+              >7 Plej Bonaj Urboj En E&ubreve;ropo Viziti Por Maljunaj ...</url></vrk>
         </fnt>.
       </ekz>
-    </dif>
+    </dif>  
+    <ref tip="sin" cel="digxest.0o">di&gcirc;esto</ref>
+    <refgrp tip="vid">
+      <ref cel="elekt.0o">elekto</ref>,
+      <ref cel="esenc.0o">esenco</ref>,
+      <ref cel="ekstra.0o.TIP">ekstrakto<sncref/></ref>,
+      <ref cel="kompen.0o">kompendio</ref>,
+      <ref cel="kompil.0ajxo">kompila&jcirc;o</ref>,
+      <ref cel="kvodli.0o">kvodlibeto</ref>,
+      <ref cel="sum.re0o">resumo</ref>
+    </refgrp>
   </snc>
-  <refgrp tip="vid">
-    <ref cel="kompen.0o">kompendio</ref>,
-    <ref cel="kompil.0ajxo">kompila&jcirc;o</ref>
-  </refgrp>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_n;&c_s;&c_p;&c_e;&c_k;&c_t;</trd>,
     <trd>&c_s;&c_k;&c_a;&c_r;&c_o;&c_ch;&c_a;&c_n;&c_y;
@@ -37,9 +68,13 @@
   <trdgrp lng="de">
     <trd>Abriss</trd>,
     <trd>Kurzfassung</trd>,
-    <trd>Auszug</trd>
+    <trd>Auszug</trd>,
+    <trd>Epitome</trd>
   </trdgrp>
-  <trd lng="en">epitome <klr tip="amb">(abstract summary)</klr></trd>
+  <trdgrp lng="en">
+    <trd>epitome <klr tip="amb">(abstract summary)</klr></trd>,
+    <trd>digest</trd>
+  </trdgrp>
   <trd lng="fr">&eacute;pitom&eacute;</trd>
   <trdgrp lng="hu">
     <trd>epitom&eacute;</trd>,
@@ -65,14 +100,17 @@
     <trd>&c_d;&c_a;&c_j;&c_d;&c_zh;&c_je;&c_s;&c_t;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>epitomé</trd>,
-    <trd>výťah z diela</trd>
+    <trd>epitom&eacute;</trd>,
+    <trd>v&yacute;&tcaron;ah z diela</trd>
   </trdgrp>
-  <trd lng="cs">epitomé</trd>
+  <trd lng="cs">epitom&eacute;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2020/12/06 22:38:10
+Wolfram Diestel: +ekz-oj, refoj, trd "digest"
+
 Revision 1.18  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -92,11 +130,5 @@ Revision 1.13  2006/06/18 16:34:04  revo
 Yury Finkel: +trd ru
 
 Revision 1.12  2006/06/05 16:40:32  revo
-Jeromo Vasxe: + ekz
-
-Revision 1.11 2006/02/27 17:33:17 revo
-jxeromo vasxe: + mrk
-
-Revision 1.10 2004/10/08 16:32:39 revo
 -->
 </vortaro>
