@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: putr.xml,v 1.27 2018/08/24 15:15:13 revo Exp $">
+<art mrk="$Id: putr.xml,v 1.28 2020/12/13 22:43:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>putr</rad>/i
@@ -10,15 +10,16 @@
 <drv mrk="putr.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="putr.0i.KOMUNE">
     <dif>
-      Malkomponi&gcirc;i, p. p. organisma substanco:
-      <ekz>r
+      Pri organika substanco: malkomponi&gcirc;i, disfali:
+      <ekz>
         forlasita ovo devas <tld/>i<fnt>B</fnt>;
       </ekz>
       <ekz>
+        <uzo tip="stl">FIG</uzo>
         <tld/>ado de fi&scirc;o komenci&gcirc;as de l' kapo
-        <klr>(f: altranguloj plej facile korupti&gcirc;as)</klr>
+        <klr>(altranguloj plej facile korupti&gcirc;as)</klr>
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
@@ -31,16 +32,16 @@
         <klr>(ekstermi&gcirc;os)</klr>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="velk.0i">velki</ref>,
-      <ref cel="sxim.0i">&scirc;imi</ref>.
+    <refgrp tip="vid">
+      <ref cel="sxim.0i">&scirc;imi</ref>,
+      <ref cel="velk.0i">velki</ref>.
     </refgrp>
     <trdgrp lng="de">
       <trd>faulen</trd>,
       <trd>verfaulen</trd>,
       <trd>verwesen</trd>
     </trdgrp>
-    <trd lng="fr">pourrir</trd>
+    <trd lng="fr">pourrir<klr> (intr.)</klr></trd>
     <trdgrp lng="pl">
       <trd>gni&cacute;</trd>
       <trd>rozk&lstroke;ada&cacute; si&eogonek;</trd>
@@ -48,18 +49,16 @@
       <trd>pr&oacute;chnie&cacute;</trd>
     </trdgrp>    
   </snc>
-  <snc>
+  <snc mrk="putr.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Morale <tld/>i, morale difekti&gcirc;i, defali:
+      Morale <tld/>i, morale difekti&gcirc;i,
+      <ref tip="vid" cel="dekade.0i">dekadenci</ref>,
+      <ref tip="vid" cel="degene.0i">degeneri</ref>:
       <ekz>
-        estos io <tld/>inta en la re&gcirc;imo
+        estas io <tld/>inta en la re&gcirc;imo.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="dekade.0i">dekadenci</ref>,
-      <ref cel="degene.0i">degeneri</ref>.
-    </refgrp>
     <trdgrp lng="de">
       <trd>stinken</trd>,
       <trd>zerfallen</trd>,
@@ -108,9 +107,9 @@
 
 <drv mrk="putr.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="putr.0a.KOMUNE">
     <dif>
-      = <tld/>anta:
+      <tld lit="P"/>anta:
       <ekz>
         <tld/>a dento<fnt>Z</fnt>;
       </ekz>
@@ -119,7 +118,7 @@
         <fnt><bib>PrV</bib></fnt>
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="mucid.0a">mucida</ref>.
     </refgrp>
   </snc>
@@ -176,18 +175,17 @@
     </dif>
   </snc>
   <snc mrk="putr.0ajxo.FIG">
-  <uzo tip="stl">FIG</uzo>
+    <uzo tip="stl">FIG</uzo>
     <dif>
       Io morale <tld/>a:
       <ekz>
-        Salamano insultadis sian hundon. Li diris: <ctl>A&ccirc;ulo!
-        <tld
-        lit="P"/>a&jcirc;o!</ctl>
-      <fnt>
-        <aut>Albert Camus, trad. Michel Duc Goninaz</aut>,
-        <vrk>La Fremdulo</vrk>,
-        <lok>S.A.T., 1993, p. 38</lok>
-      </fnt>.
+        Salamano insultadis sian hundon; li diris: <ctl>a&ccirc;ulo!
+        <tld/>a&jcirc;o!</ctl>
+        <fnt>
+          <aut>A. Camus, trad. M. Duc Goninaz</aut>,
+          <vrk>La Fremdulo</vrk>,
+          <lok>1993</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -211,9 +209,41 @@
   </trdgrp>    
   <trd lng="ru">&c_g;&c_n;&c_i;&c_l;&c_mol;</trd>
 </drv>
+
+<drv mrk="putr.0igi">
+  <kap>
+    <tld/>igi
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="putr.0igi.KOMUNE">
+    <dif>
+      Ka&ubreve;zi <tld/>adon, malboni&gcirc;on de viva a&ubreve; vivdevena substanco:
+      <ekz>
+        la tempo ... difektis la lignon kaj &gcirc;in tra<tld/>igis
+        <fnt>
+          <aut>H. Laxness, trad. B. Ragnarsson</aut>
+          <vrk>Sendependaj homoj</vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="putr.0igi.FIG">
+    <dif>
+      Morale malbonigi, <ref cel="korupt.0i.morale">korupti<sncref/></ref>.
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>corrompre</trd>,
+    <trd>faire <ind>pourrir</ind></trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.28 2020/12/13 22:43:53
+Jeromo Vasxe: + ~igi
+
 Revision 1.26  2017/03/30 11:10:16  revo
 Lyubomir Vasilev: +trd bg
 
@@ -233,8 +263,5 @@ Revision 1.21  2012/09/26 10:10:09  revo
 Axel Rousseau: +trd fr
 
 Revision 1.20  2010/04/30 12:25:14  revo
-Russ Williams: +trd en
-
-Revision 1.19  2009/11/11 17:30:27  revo
 -->
 </vortaro>
