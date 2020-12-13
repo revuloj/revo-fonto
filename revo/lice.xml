@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lice.xml,v 1.20 2015/07/04 08:37:38 revo Exp $">
+<art mrk="$Id: lice.xml,v 1.21 2020/12/13 20:36:27 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>lice</rad>/o
@@ -10,16 +10,28 @@
 <drv mrk="lice.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">PED</uzo>
-  <snc>
+  <snc mrk="lice.0o.lernejo">
     <dif>
-      <ref tip="dif" cel="gimnaz.0o">gimnazio</ref>
+      Mezgrada <ref tip="super" cel="lern.0ejo">lernejo</ref>, foje
+      egala al <ref tip="dif" cel="gimnaz.0o">gimnazio</ref>,
+      foje meza inter gimnazio kaj universitato, ofte kun precipaj fakoj filozofio kaj teologio:
+      <ekz>
+        profesoro &ccirc;e la <tld/>o &leftquot;<nom>Charlemagne</nom>&rightquot;
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         la angla okupas la unuan lokon pri populareco en la urbaj
         elementaj lernejoj, &gcirc;eneralklerigaj <tld/>oj kaj fakaj
-        mezlernejoj<fnt><aut>Stanis&lstroke;aw &Sacute;migielski</aut>:
-        <vrk>Instruisto
-        de la angla ser&ccirc;ata</vrk>, <bib>Monato</bib><lok>jaro 2001a,
-        numero 2a, p. 19a</lok></fnt>.
+        mezlernejoj
+        <fnt>
+          <aut>Stanis&lstroke;aw &Sacute;migielski</aut>:
+          <vrk>Instruisto
+            de la angla ser&ccirc;ata</vrk>, 
+          <bib>Monato</bib><lok>jaro 2001a,
+          numero 2a, p. 19a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -27,9 +39,9 @@
   <trd lng="br">lise</trd>
   <trdgrp lng="cs">
     <trd>lyceum</trd>,
-    <trd>střední škola</trd>
+    <trd>st&rcaron;edn&iacute; &scaron;kola</trd>
   </trdgrp>
-  <trd lng="de">Gymnasium</trd>
+  <trd lng="de">Lyzeum</trd>
   <trd lng="el">&gamma;&ypsilon;&my;&ny;&alfa_ton;&sigma;&jota;&omikron;</trd>
   <trdgrp lng="en">
     <trd>grammar school</trd>,
@@ -42,24 +54,54 @@
   <trd lng="pl">liceum</trd>
   <trd lng="pt">liceu</trd>
   <trd lng="ru">&c_l;&c_i;&c_c;&c_je;&c_j;</trd>
-  <trd lng="sk">lýceum</trd>
+  <trd lng="sk">l&yacute;ceum</trd>
 </drv>
 
 <drv mrk="lice.0ano">
   <kap><tld/>ano</kap>
   <uzo tip="fak">PED</uzo>
-  <snc>
+  <snc mrk="lice.0ano.lernanto">
     <dif>
-      <ref tip="dif" cel="gimnaz.0ano">gimnaziano</ref>
+      <ref tip="super" cel="lern.0anto">Lernanto</ref> &ccirc;e liceo:
+      <ekz>
+        kiam mi estis <tld/>ano, frustritaj instruistoj klopodis inici min kaj miajn
+        samklasanojn en la sekretojn de algebro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="https://www.monato.be/2003/007921.html">Ho, mistera pi!</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        intertempe la protestoj trafis aliajn grandajn urbojn, kie <tld/>anoj kaj
+        gimnazianoj iris surstraten
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Adj&eacute; Adj&eacute;vi</aut>
+          <vrk><url ref="https://www.monato.be/2012/010597.php">Scenoj malkaraj en Kara</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>anoj el la malri&ccirc;a kvartalo ofte fu&scirc;is la lingvon kaj montris sin
+        malkapablaj klare paroli
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pierre Grollemund</aut>
+          <vrk><url ref="https://www.monato.be/2012/010804.php">Ekzameno ekzamenata</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_l;&c_ib;&c_c;&c_e;&c_ib;&c_s;&c_t;</trd>
   <trd lng="br">lisead</trd>
   <trdgrp lng="cs">
     <trd>lyceista</trd>,
-    <trd>žák lycea</trd>
+    <trd>&zcaron;&aacute;k lycea</trd>
   </trdgrp>
-  <trd lng="de">Gymnasiast</trd>
+  
   <trdgrp lng="en">
     <trd>pupil</trd>,
     <trd>student</trd>
@@ -69,11 +111,14 @@
   <trd lng="nl">leerling in een <ind>lyceum</ind></trd>
   <trd lng="pl">licealista</trd>
   <trd lng="ru">&c_l;&c_i;&c_c;&c_je;&c_i;&c_s;&c_t;</trd>
-  <trd lng="sk">žiak lýcea</trd>
+  <trd lng="sk">&zcaron;iak l&yacute;cea</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2020/12/13 20:36:27
+Wolfram Diestel: preicizigo de dif, ekz-oj
+
 Revision 1.19  2015/06/29 16:33:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -93,11 +138,5 @@ Revision 1.14  2004/05/25 16:32:55  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.13  2003/05/06 16:33:37  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2002/10/06 17:34:58  revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.11  2002/09/09 19:45:03  revo
 -->
 </vortaro>
