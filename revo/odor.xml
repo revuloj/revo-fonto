@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: odor.xml,v 1.30 2020/11/29 14:32:36 revo Exp $">
+<art mrk="$Id: odor.xml,v 1.31 2020/12/14 17:10:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>odor</rad>/i <fnt><bib>PV</bib></fnt>
@@ -61,6 +61,7 @@
   <trd lng="es">oler</trd>
   <trd lng="fr">sentir<klr> (avoir une odeur)</klr></trd>
   <trd lng="gl">ulir</trd>
+  <trd lng="io">odorar</trd>
   <trd lng="it">odorare</trd>
   <trdgrp lng="nl">
     <trd>ruiken</trd>,
@@ -117,6 +118,7 @@
     <trd>szag</trd>,
     <trd>illat</trd>
   </trdgrp>
+  <trd lng="io">odoro</trd>
   <trdgrp lng="nl">
     <trd>reuk</trd>,
     <trd>geur</trd>
@@ -140,6 +142,10 @@
     <dif>
       <tld lit="O"/>anta.
     </dif>
+    <trdgrp lng="io">
+      <trd>odoranta</trd>,
+      <trd>odoroza</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_h;&c_n;&c_u;&c_ch;&c_y;</trd>
   <trd lng="cs">von&iacute;c&iacute; i p&aacute;chnouc&iacute;</trd>
@@ -180,7 +186,9 @@
   </snc>
   <trd lng="cs">vo&ncaron;av&yacute;</trd>
   <trd lng="de">duftend</trd>
+  <trd lng="en">fragrant</trd>
   <trd lng="fr">parfum&eacute;</trd>
+  <trd lng="io">bonodora</trd>
   <trd lng="sk">vo&ncaron;av&yacute;</trd>
 </drv>
 
@@ -199,9 +207,11 @@
   </snc>
   <trd lng="cs">von&ecaron;t</trd>
   <trd lng="de">duften</trd>
+  <trd lng="en">smell good</trd>
   <trd lng="es">oler bien</trd>
   <trd lng="fr">sentir bon</trd>
   <trd lng="hu">illatozik</trd>
+  <trd lng="io">bonodorar</trd>
   <trdgrp lng="nl">
     <trd>lekker <ind>ruiken</ind></trd>,
     <trd>geuren</trd>
@@ -237,39 +247,82 @@
 </drv>
 
 <drv mrk="odor.malbon0a">
-  <kap>malbon<tld/>a,
-  <var><kap>fi<tld/>a</kap></var></kap>
+  <kap>malbon<tld/>a</kap>
   <snc mrk="odor.malbon0a.SEN">
     <dif>
       Malbone <tld/>anta:
       <ekz>
         densa kaj malbon<tld/>a fumo plenigis la &ccirc;ambron
-        <fnt><aut>H. Vallienne</aut> <vrk>&Ccirc;u 
-        li?</vrk> <lok>1908</lok></fnt>.
+        <fnt>
+          <aut>H. Vallienne</aut>
+          <vrk>&Ccirc;u li?</vrk>
+          <lok>1908</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la akvo de Nilo mallevi&gcirc;is, la kanaloj estis malprofundaj
+        kaj malbon<tld/>aj
+        <fnt><bib>Far2</bib></fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="fetor.0a">fetora</ref>
+    <ref tip="vid" cel="haladz.0a">haladza</ref>
   </snc>
+  <rim>
+    Fojfoje oni renkontas la vortojn <em><tld/>a&ccirc;a</em> kaj
+    <em>fi<tld/>a</em>, sed multe malpli ofte ol <em>malbon<tld/>a</em>.
+    La verbaj formoj <em><tld/>a&ccirc;i</em> kaj <em>fi<tld/>i</em> estas
+    multe pli uzataj ol iliaj adjektivaj ekvivalentoj.
+  </rim>
   <trd lng="cs">zap&aacute;chaj&iacute;c&iacute;</trd>
   <trdgrp lng="de">
     <trd>stinkend</trd>,
     <trd>m&uuml;ffelnd</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>stinking</trd>,
+    <trd>smelly</trd>,
+    <trd>reeking</trd>,
+    <trd>fetid</trd>,
+    <trd>malodorous</trd>
+  </trdgrp>
   <trd lng="fr">puant</trd>
+  <trd lng="nl">stinkend</trd>
   <trd lng="sk">smrad&lcaron;av&yacute;</trd>
 </drv>
 
 <drv mrk="odor.malbon0i">
-  <kap>malbon<tld/>i, <var><kap>fi<tld/>i</kap></var></kap>
+  <kap>malbon<tld/>i,
+  <var><kap><tld/>a&ccirc;i</kap></var>,
+  <var><kap>fi<tld/>i</kap></var></kap>
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="odor.malbon0i.SEN">
     <dif>
-      Eligi malbonan <tld/>on,
-      <ref tip="vid" cel="haladz.0i">haladzi</ref>,
-      <ref tip="vid" cel="fetor.0i">fetori</ref>,
-      <ref tip="vid" cel="stink.0i">stinki</ref>:
+      Eligi malbonan <tld/>on:
       <ekz>
         <klr>[li]</klr> malbon<tld/>as per bulbo
         <fnt><bib>Revizoro</bib></fnt>;
+      </ekz>
+      <ekz>
+        ili &scirc;vitas kaj <tld/>a&ccirc;as
+        <fnt>
+          <aut>H. Sienkiewicz, trad. L. Zamenhof</aut>
+          <vrk>Quo vadis?</vrk>
+          <lok>1933</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu barelo malbon<tld/>as tiel, ke la homoj svenas de tiu odoro
+        <fnt><bib>Fab4</bib></fnt>;
+      </ekz>
+      <ekz>
+        malliberuloj &ccirc;iam <tld/>a&ccirc;as tiel, kiam ili scias, ke
+        alproksimi&gcirc;as la ekzekuto
+        <fnt>
+          <aut>Anna L&ouml;wenstein</aut>
+          <vrk>La &Scirc;tona Urbo</vrk>
+          <lok>1999</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mi jam fi<tld/>as pro &scirc;vito tre forte
@@ -278,12 +331,33 @@
           <vrk><url ref="http://www.liberafolio.org/2011/la-ijk-estas-la-homoj-sed-ne-nur"
               >La IJK estas la homoj - sed ne nur</url></vrk>
           <lok>libera folio, 2011-08-04</lok>
-        </fnt>;
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="fetor.0i">fetori</ref>,
+      <ref cel="stink.0i">stinki</ref>
+    </refgrp>
+    <ref tip="vid" cel="haladz.0i">haladzi</ref>
   </snc>
+  <rim>
+    La vorto <em>malbon<tld/>i</em> estis la plej ofta formo en la frua
+    historio de Esperanto, dum nuntempe anka&ubreve; <em><tld/>a&ccirc;i</em> estas
+    tre ofta. <em>Fi<tld/>i</em> estas signife malpli ofta ol la aliaj du.
+  </rim>
+  <rim>
+    Iuj argumentas, ke la vorto <em>fi<tld/>i</em> estas evitinda kompare
+    al <em><tld/>a&ccirc;i</em>, &ccirc;ar ne temas pri morale malbona <tld/>o, sed
+    pli pri kvalite malbona <tld/>o.
+  </rim>
   <trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_d;&c_z;&c_je;&c_c;&c_mol;</trd>
   <trd lng="de">stinken</trd>
+  <trdgrp lng="en">
+    <trd>reek</trd>,
+    <trd>stink</trd>,
+    <trd>smell bad</trd>,
+    <trd>give off a bad smell</trd>
+  </trdgrp>
   <trd lng="es">apestar</trd>
   <trdgrp lng="fr">
     <trd>puer</trd>,
@@ -291,8 +365,10 @@
   </trdgrp>
   <trd lng="hu">b&udblac;zlik</trd>
   <trdgrp lng="nl">
-    <trd>slecht <ind>rieken</ind></trd>,
-    <trd>stinken</trd>
+    <trd>stinken</trd>,
+    <trd>meuren</trd>,
+    <trd>slecht <ind>ruiken</ind></trd>,
+    <trd>slecht <ind>rieken</ind></trd>
   </trdgrp>
   <trd lng="pt">feder</trd>
   <trd lng="ru">&c_v;&c_o;&c_n;&c_ja;&c_t;&c_mol;</trd>
@@ -300,11 +376,26 @@
 
 <drv mrk="odor.malbon0o">
   <kap>
-    malbon<tld/>o
+    malbon<tld/>o,
+    <var>
+      <kap><tld/>a&ccirc;o</kap>
+    </var>
   </kap>
   <snc mrk="odor.malbon0o.SEN">
     <dif>
       Malagrabla, forpu&scirc;a <tld/>o:
+      <ekz>
+        en la &ccirc;ambro tia malbon<tld/>o estis, ke &gcirc;i na&ubreve;zus la diablon
+        <fnt>B</fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a&ccirc;o de malpurego kaj urino
+        <fnt>
+          <aut>Anna L&ouml;wenstein</aut>
+          <vrk>La &Scirc;tona Urbo</vrk>
+          <lok>1999</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         &ccirc;iumatene la bordoj de Tibro svarmis de dronigitaj korpoj,
         kiujn neniu enterigis kaj kiuj, rapide putrante pro la varmego,
@@ -313,11 +404,34 @@
           <aut>H. Sienkewicz, trad. Lidia Zamenhof</aut>
           <vrk>Quo vadis</vrk>
           <lok>1933</lok>
-        </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve;dire la rusa caro ordonis, ke oni bruligu la kadavrojn,
+        tamen pro <tld/>a&ccirc;o oni finfine ilin enterigis
+        <fnt>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="http://www.monato.be/2003/007940.html"
+            >Tran&ccirc;eo al la pasinteco
+          </url></vrk>
+          <bib>Monato</bib>
+          <lok>2003/01, p. 14</lok>
+        </fnt>
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="fetor.0o">fetoro</ref>,
+      <ref cel="stink.0o">stinko</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="haladz.0o">haladzo</ref>,
+      <ref cel="miasm.0o">miasmo</ref>
+    </refgrp>
   </snc>
+  <trd lng="en">stench</trd>
   <trd lng="fr">mauvaise odeur</trd>
+  <trd lng="io">malodoro</trd>
+  <trd lng="nl">stank</trd>
 </drv>
 
 <drv mrk="odor.sen0igilo">
@@ -340,6 +454,7 @@
     </dif>
   </snc>
   <trd lng="cs">dezodorant</trd>
+  <trd lng="en">deodorant</trd>
   <trdgrp lng="es">
     <trd>desodorante</trd>,
     <trd>ambientador</trd>
@@ -369,9 +484,11 @@
     <trd>Weihrauch</trd>,
     <trd>R&auml;ucherwerk</trd>
   </trdgrp>
+  <trd lng="en">incense</trd>
   <trd lng="es">incienso</trd>
   <trd lng="fr">encens</trd>
   <trd lng="hu">t&ouml;mj&eacute;n</trd>
+  <trd lng="io">incenso</trd>
   <trd lng="nl">wierook</trd>
   <trd lng="ru">&c_b;&c_l;&c_a;&c_g;&c_o;&c_v;&c_o;&c_n;&c_i;&c_je;</trd>
 </drv>
@@ -395,6 +512,9 @@
 </art>
 <!--
 $Log$
+versio 1.31 2020/12/14 17:10:30
+Sam Penter: +~acxi ~acxo; +rim-oj; forigis fi~a (mankas fontoj k malmultas trafoj en Tekstaro)
+
 versio 1.30 2020/11/29 14:32:36
 Jeromo Vasxe: + (mal)bon~o
 
@@ -414,8 +534,5 @@ Revision 1.24  2014/11/24 20:10:11  revo
 Wolfram Diestel: germ trd. de (mal)~a
 
 Revision 1.23  2014/03/20 08:10:12  revo
-Damien Brucker: -eraro cxe ref
-
-Revision 1.22  2013/08/11 19:10:10  revo
 -->
 </vortaro>
