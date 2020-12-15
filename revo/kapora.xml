@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kapora.xml,v 1.19 2018/12/26 13:10:18 revo Exp $">
+<art mrk="$Id: kapora.xml,v 1.20 2020/12/15 06:44:46 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>kaporal</rad>/o
@@ -15,9 +15,25 @@
       Plej malsupera <ref cel="rang.0ulo">rangulo</ref>
       en terarmeo kaj aerarmeo:
       <ekz>
+        sub la hipo&hcirc;ondria humoro de ordonema <tld/>o
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         bona <tld/>o revas esti generalo
         <klr>(oni rajtas esti ambicia)</klr>
-        <fnt><bib>PrV</bib></fnt>.
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        israela <tld/>o estas ankora&ubreve; mallibera
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Thierry Tailhades</aut>
+          <vrk><url ref="https://www.monato.be/2009/009820.php">Tri monatoj pasis ...</url></vrk>
+          <lok>2009</lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -29,13 +45,23 @@
       la <tld/>oj plu estas konsiderataj suboficiroj.
     </rim>
   </snc>
+  <ref tip="super" cel="oficir.sub0o">suboficiro</ref>
+  <refgrp tip="vid">
+     <ref cel="sergxe.0o">ser&gcirc;ento</ref>,
+     <ref cel="furier.0o">furiero</ref>,
+     <ref cel="soldat.unuaklasa0o">unuaklasa soldato</ref>,
+     <ref cel="kapita1.0o.MIL">kapitano<sncref/></ref>
+  </refgrp>
   <adm>
     * Kiel oni nomas la ekvivalentan rangulon en mararmeo
       (fr. quartier-ma&icirc;tre)?
     <aut>MB</aut>
   </adm>
   <trd lng="be">&c_k;&c_a;&c_p;&c_r;&c_a;&c_l;</trd>
-  <trd lng="de">Korporal</trd>
+  <trdgrp lng="de">
+    <trd>Korporal</trd>,
+    <trd>Obergefreiter</trd>
+  </trdgrp>
   <trd lng="en">corporal</trd>
   <trd lng="fr">caporal</trd>
   <trd lng="hu">&odblac;rvezet&odblac;</trd>
@@ -57,25 +83,38 @@
   <uzo tip="fak">MIL</uzo>
   <snc>
     <dif>
-En terarmeo kaj aerarmeo, rango inter kaporalo kaj 
-<ref cel="sergxe.0o">ser&gcirc;ento</ref>.
-</dif>
-</snc>
-<trd lng="de">Korporal-chef</trd>
-<trdgrp lng="it">
+      En terarmeo kaj aerarmeo, <ref tip="super" cel="rang.0o.militista">rango</ref> inter <tld/>o kaj 
+      <ref cel="sergxe.0o">ser&gcirc;ento</ref>:
+      <ekz>
+        mi fari&gcirc;is <tld/>o, &ccirc;ef<tld/>o, ser&gcirc;ento kaj &ccirc;efser&gcirc;ento
+        <fnt>
+          <vrk><url ref="http://verkoj.com/verkistoj/klaus-friese/avchjo/">Av&ccirc;jo rakontas</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Korporalchef</trd>,
+    <trd>Stabskorporal</trd>,
+    <trd>Stabsgefreiter</trd>
+  </trdgrp>
+  <trdgrp lng="it">
     <trd>caporale maggiore<klr> (prima del 1997)</klr></trd>,
     <trd>caporale maggiore capo<klr> (dopo il 1997 - OR4)</klr></trd>
   </trdgrp>
-<trd lng="nl">korporaal-chef</trd>
-<trd lng="pl">starszy kapral</trd>
-<trdgrp lng="ro">
-  <trd>senior caporal,</trd>,
-  <trd>caporal-&#537;ef</trd>
-</trdgrp>
+  <trd lng="nl">korporaal-chef</trd>
+  <trd lng="pl">starszy kapral</trd>
+  <trdgrp lng="ro">
+    <trd>senior caporal,</trd>,
+    <trd>caporal-&#537;ef</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2020/12/15 06:44:46
+Wolfram Diestel: +ekz-oj, +ref-oj
+
 Revision 1.18  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
 
