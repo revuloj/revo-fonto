@@ -2,9 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lambd.xml,v 1.5 2019/10/09 22:10:19 revo Exp $">
+<art mrk="$Id: lambd.xml,v 1.6 2020/12/19 13:10:30 revo Exp $">
 <kap>
-    <rad>lambd</rad>/o <fnt><bib>PIV3</bib></fnt>
+  <rad>lambd</rad>/o
+    <fnt><bib>KompLeks</bib></fnt>
+    <fnt><bib>PIV3</bib></fnt>
 </kap>
 <drv mrk="lambd.0o">
   <kap><tld/>o</kap>
@@ -13,6 +15,14 @@
     <dif>
       La dekunua litero de la greka alfabeto <klr>(&Lambda;, &lambda;)</klr>:
       <ekz>
+        Por solvi <klr>(diferencialan ekvacion)</klr>, unue trovu la
+        valoron de <tld/>o
+        <fnt><aut>Barry Friedman</aut>:
+          <vrk>Pri diferencialaj ekvacioj</vrk>.
+          <lok>Usona Esperantisto, &#8470;&nbsp;<url
+ ref="https://esperanto-usa.org/bulteno/arhxivo/2013/03/70-scienco/eo"
+            >2013:3</url></lok></fnt>;
+      </ekz><ekz>
         anka&ubreve; eblas ilin <klr>[la Grekajn literojn]</klr> plene
         Esperantigi
         kun O-fina&jcirc;oj, ekz.: <klr>[...]</klr> kapo, <tld/>o, muo,
@@ -20,9 +30,16 @@
         <fnt>
           <aut>B. Wennergren</aut>,
           <vrk><url
-          ref="http://bertilow.com/pmeg/gramatiko/neoficialaj_vortetoj.html#i-n8l">Grekaj
-          literoj en PMEG &#167;19</url></vrk>
-        </fnt>.
+ ref="http://bertilow.com/pmeg/gramatiko/neoficialaj_vortetoj.html#i-n8l"
+          >Grekaj literoj en PMEG &#167;19</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        <ind><tld/>okalkulo</ind>
+          <fnt><bib>KompLeks</bib>, <lok><url
+ ref="https://bertilow.com/div/komputada_leksikono/L.html#LAMBDOKALKULO"
+             >lambdokalkulo</url></lok></fnt>.
+          <trd lng="en">lambda calculus</trd>
+          <trd lng="ru">&c_l;&c_ja;&c_m;&c_b;&c_d;&c_a;-&c_i;&c_s;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
       </ekz>
     </dif>
     <rim num="1">
@@ -64,18 +81,29 @@
         pli da reguleco kaj eviti konfliktojn, alia eblo estas uzi la
         simplan esperantigitan formon <em>lambdao</em>. [Alano Gerardo]
     </rim>
+    <rim num="3">
+      La &ccirc;i-supra rimarko de Alano Gerardo estas malkonvena &ccirc;i tie,
+      &ccirc;ar kiel evidentas el la ekzemploj, la fakuloj esperantistoj
+      jam delonge kaj tute kohere uzas kaj la apartan formon
+      &leftquot;<tld/>o&rightquot;, kaj la derivajojn kia &leftquot;<tld/>okalkulo&rightquot;.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
   </snc>
   <trd lng="en">lambda</trd>
   <trd lng="fr">lambda</trd>
   <trd lng="nl">lambda</trd>
   <trd lng="no">lambda</trd>
   <trd lng="pl">lambda</trd>
-  <trd lng="ro">lambda  <klr>(liter&abreve;)</klr></trd>
+  <trd lng="pl">&c_l;&c_ja;&c_m;&c_b;&c_d;&c_a;</trd>
+  <trd lng="ro">lambda <klr> (liter&abreve;)</klr></trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.6 2020/12/19 13:10:30
+Sergio Pokrovskij: +trd=ru, +ekz, +rim3
+
 Revision 1.4  2016/02/03 21:10:23  revo
 Filip van Laenen: +trd(nl,no)
 
@@ -87,6 +115,5 @@ Alain Gerard: +rim
 
 Revision 1.1  2015/12/31 10:10:14  revo
 Alain Gerard: nova artikolo
-
 -->
 </vortaro>
