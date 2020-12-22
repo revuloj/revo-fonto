@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: argume.xml,v 1.41 2020/02/14 13:10:16 revo Exp $">
+<art mrk="$Id: argume.xml,v 1.42 2020/12/22 17:17:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>argument</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>argument</rad>/o <fnt><bib>MT</bib></fnt>
 </kap>
 
 <drv mrk="argume.0i">
@@ -13,10 +13,48 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="argume.0i.LOG">
     <dif>
-      Prezenti <tld/>ojn en <ref tip="malprt"
-      cel="diskut.0i">diskuto</ref>.
+      Prezenti <tld/>ojn en <ref tip="malprt" cel="diskut.0i">diskuto</ref>:
+      <ekz>
+        batanto povas <tld/>i, batato devas silenti
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro honoro, mi ne scias <tld/>adi
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        edukistoj <tld/>as, ke la antikva <klr>[metodo]</klr> ne plu ta&ubreve;gas por instrui
+        matematikon en komputila epoko
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9311-matematiko.txt"
+              >Matematiko</url></vrk>
+          <lok>93/11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni <tld/>is ke <klr>[oni]</klr> per la unuecaj prezoj la furoraj libroj
+        subvencias la deficitajn, sed altkvalitajn librojn, kies eldonkvanto estas
+        malgranda
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006902.html"
+              >Liberaj prezoj por libroj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="super" cel="pruv.0i">pruvi</ref>
+    <ref tip="malprt" cel="pruv.0i">pruvi</ref>
+    <refgrp tip="vid">
+       <ref cel="konklu.0i">konkludi</ref>,
+       <ref cel="konvin.0i">konvinki</ref>,
+       <ref cel="kred.0igi">kredigi</ref>,
+       <ref cel="rezon.0i">rezoni</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_g;&c_u;&c_m;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="br">arguzenni&ntilde;</trd>
@@ -50,17 +88,46 @@
       cel="pruv.0o.KOMUNE">pruvo</ref> 
       en <ref cel="diskut.0i">diskuto</ref>:
       <ekz>
-        tiel la granda <tld/>o de niaj kontra&ubreve;uloj disfalas;
+        mi scias viajn pensojn, kaj la <tld/>ojn, kiujn vi malice kolektas kontra&ubreve; mi
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 21:27</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la <tld/>oj per kiuj oni kontra&ubreve; tio &ccirc;i
-        batalas<fnt>Z</fnt>;
+        kiel <tld/>oj por sia mal&gcirc;entila teorio la trezoristo citis la ekzemplon de la
+        &ccirc;efpastro <nom>Sem</nom>, kiu vivis kiel pentofaranto
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        se niaj <tld/>oj estas <klr>[...]</klr> mal&gcirc;ustaj, for&jcirc;etu
-        ilin<fnt><bib>EE</bib>, <lok>&ccirc;ap. 1</lok></fnt>.
+        se niaj <tld/>oj estas &gcirc;ustaj, akceptu ilin
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iujn siajn <tld/>ojn ili penadis konformigadi al tiu anta&ubreve;e farita decido, ne
+        rimarkante la tutan senfundamentecon de tiuj &ccirc;i <tld/>oj
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi kutimis rilati kun estimo nur al tiaj <tld/>oj, kiuj estas plenigitaj per
+        multo da citatoj, traplektitaj per multo da la&ubreve;taj a&ubreve;toritataj nomoj kaj
+        brilas per amasego da alteflugaj kvaza&ubreve;-sciencaj frazoj
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="prt">
+       <ref cel="premis.0o">premiso</ref>,
+       <ref cel="konklu.0o">konkludo</ref>
+    </refgrp>
     <trd lng="br">arguzenn</trd>
     <trdgrp lng="de">
       <trd>Argument</trd>
@@ -71,7 +138,7 @@
       <trd>argumentum</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="argume.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="argume.0o.donitajxo">
       <fnt><bib>PIV1</bib></fnt>
@@ -172,10 +239,10 @@
     <subsnc mrk="argume.0o.polinomo">
       <ref tip="vid" cel="polino.0o.formala">polinomo.</ref>
       <rim>
-        &Ccirc;i-kuntekste Bricard
+        &Ccirc;i-kuntekste <nom>Bricard</nom>
         <fnt><bib>MatTerm</bib><lok>p. 12</lok></fnt> uzas
         <ctl>varianto</ctl>,
-        kiel &ccirc;e funkcio, kaj Werner <fnt><bib>MatVort</bib></fnt> konas
+        kiel &ccirc;e funkcio, kaj <nom>Werner</nom> <fnt><bib>MatVort</bib></fnt> konas
         <ctl>nedeterminita grando</ctl>, kiu ver&scirc;ajne respondas al la
         sama intenco, sed &gcirc;enas pro la konkreta senco de
         <ctl>grando</ctl>, dum temas pri nocio tre formala.
@@ -216,8 +283,11 @@
 </drv>
 </art>
 <!--
-$Log: argume.xml,v $
-versio 1.41 2020/02/14 13:10:16
+$Log$
+versio 1.42 2020/12/22 17:17:50
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.41  2020/02/14 12:10:15  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.40  2020/02/13 17:10:19  revo
@@ -236,8 +306,5 @@ Revision 1.36  2013/07/05 19:10:11  revo
 Wolfram Diestel: aldonis referencojn, fontindikon
 
 Revision 1.35  2010/02/27 17:30:22  revo
-Filip van Laenen: Tradukoj en norvegan kaj nederlandan
-
-Revision 1.34  2010/02/26 17:30:21  revo
 -->
 </vortaro>
