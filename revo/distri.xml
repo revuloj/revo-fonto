@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: distri.xml,v 1.32 2020/02/14 13:10:24 revo Exp $">
+<art mrk="$Id: distri.xml,v 1.33 2020/12/27 11:10:31 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>distribu</rad>/i <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
@@ -87,6 +87,25 @@
   </trdgrp>
 </drv>
 
+<drv mrk="distri.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="distri.0ajxo.KOMP">
+    <dif>
+      Specifa arigo de programoj en operacisistemo GNU+Linux.
+      <ekz>
+        Debian, Fedora, Ubuntu kaj Red Hat estas linuksaj distribua&jcirc;oj.
+      </ekz>
+    </dif>
+    <trd lng="fr">distribution</trd>
+    <trd lng="de">Distribution</trd>
+    <trd lng="en">distribution</trd>
+    <trd lng="es">distribuci&oacute;n</trd>
+    <trd lng="ja">&#12487;&#12451;&#12473;&#12488;&#12522;&#12499;&#12517;&#12540;&#12471;&#12519;&#12531;</trd>
+    <trd lng="pt">distribui&ccedil;&atilde;o</trd>
+    <trd lng="ru">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;&c_i;&c_v;</trd>
+  </snc>
+</drv>
+
 <drv mrk="distri.0ebla">
   <kap><tld/>ebla</kap>
   <snc mrk="distri.0ebla.KOMUNE">
@@ -121,10 +140,14 @@
       Tia, ke por &ccirc;iuj <frm am="x,y,z"><k>x</k>, <k>y</k>,
       <k>z</k></frm>
       veras la egala&jcirc;oj
-      <frm am="x&#9830;(y&#8224;z)=(x&#9830;y)&#8224;(x&#9830;z)"><k>x</k>&#9830;(<k>y</k>&#8224;<k>z</k>) =
+      <frm
+      am="x&#9830;(y&#8224;z)=(x&#9830;y)&#8224;(x&#9830;z)"><k>x</k>&#9830;(<k>y</k>&#8224;<k>z</k>)
+      =
       (<k>x</k>&#9830;<k>y</k>)&#8224;(<k>x</k>&#9830;<k>z</k>)</frm>
       kaj
-      <frm am="(y&#8224;z)&#9830;x=(y&#9830;x)&#8224;(z&#9830;x)">(<k>y</k>&#8224;<k>z</k>)&#9830;<k>x</k> =
+      <frm
+      am="(y&#8224;z)&#9830;x=(y&#9830;x)&#8224;(z&#9830;x)">(<k>y</k>&#8224;<k>z</k>)&#9830;<k>x</k>
+      =
       (<k>y</k>&#9830;<k>x</k>)&#8224;(<k>z</k>&#9830;<k>x</k>)</frm>:
       <ekz>
         en la aro de reeloj la multipliko estas <tld/>eca
@@ -156,7 +179,7 @@
     La fontoj ne konsentas pri tiu termino, kvankam la solvo de
     Bricard aspektas bona: ja <tld/>ecan operacion karakterizas
     la eco <tld/>i sin al la termoj de la alia operacio. En
-    <fnt><bib>EKV</bib><lok>&para;380</lok></fnt> trovi&gcirc;as
+    <fnt><bib>EKV</bib><lok>&#167;380</lok></fnt> trovi&gcirc;as
     <ctl>distributaj aksiomoj</ctl> (aksiomoj pri <tld/>eco) kaj
     la sama adjektivo trovi&gcirc;as en <fnt><bib>MatVort</bib></fnt>.
     Pli proksimaj al Bricard restas
@@ -244,8 +267,11 @@
 </drv>
 </art>
 <!--
-$Log: distri.xml,v $
-versio 1.32 2020/02/14 13:10:24
+$Log$
+versio 1.33 2020/12/27 11:10:31
+Aleks Andre: Distribuajxo (GNU+Linux)
+
+Revision 1.32  2020/02/14 12:10:23  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.31  2018/02/21 21:10:26  revo
@@ -264,8 +290,5 @@ Revision 1.27  2009/06/29 18:06:38  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.26  2007/08/08 16:31:18  revo
-Tulio Flores: +tr pt
-
-Revision 1.25  2005/02/25 17:32:28  revo
 -->
 </vortaro>
