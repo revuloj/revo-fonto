@@ -2,17 +2,19 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: makedon.xml,v 1.20 2019/06/30 18:21:47 revo Exp $">
+<art mrk="$Id: makedon.xml,v 1.21 2020/12/27 10:46:32 revo Exp $">
 <kap>
-  <rad>makedon</rad>/o
-  <fnt><bib>NT</bib></fnt>
+  <rad>makedon</rad>/o <fnt><bib>NT</bib></fnt>,
+  <var><kap><rad var="c">macedon</rad>/o <fnt><bib>FK</bib></fnt></kap></var>
 </kap>
 
 <drv mrk="makedon.0o">
-  <kap><tld/>o</kap>
-  <snc mrk="makedon.0o.naciano">
+  <kap><tld/>o, <var><kap><tld var="c"/>o</kap></var></kap>
+  <snc mrk="makedon.0o.HIS">
+    <uzo tip="fak">HIS</uzo>
     <dif>
-      Homo kun <tld/>a nacieco:
+      Ano de antikva nordgreka etno, distingi&gcirc;ante de aliaj grekoj pro traka kaj
+      iliria influoj:
       <ekz>
         oni kure kolekti&gcirc;is unuanime en la teatron, ekkaptinte Gajon 
         kaj Aristar&hcirc;on, <tld lit="M"/>ojn, kunvoja&gcirc;antojn de Pa&ubreve;lo
@@ -30,6 +32,13 @@
         </fnt>;
       </ekz>
       <ekz>
+        heroo Aleksandro kondukadis viajn <tld var="c"/>ojn al la batalo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la antikva sciulo Strabono (63-20 anta&ubreve; la komuna erao) notis en
         la sepa volumo de sia Geografio, ke &leftquot;iliroj kaj <tld/>oj parolas
         saman lingva&jcirc;on [kaj] havas similajn morojn kaj kutimojn&rightquot;
@@ -38,8 +47,16 @@
           <aut>Bardhyl Selimi</aut>
           <vrk><url ref="&Monato;/2009/009921.php">Ridinda
           aserto</url></vrk>
-        </fnt>;
+        </fnt>.
       </ekz>
+    </dif>
+  </snc>
+  <snc mrk="makedon.0o.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <ref tip="super" cel="sxtat.0ano">&Scirc;tatano</ref> de <ref
+      tip="malprt" cel="makedon.NordM0ujo.GEOG">Nord<tld/>ujo</ref>,
+      respektive ano de ties &ccirc;efa sudslava etno:
       <ekz>
         registaro, en kiu superregas etno<tld/>oj kaj iliaj partioj, ne
         volas dividi la komunan ri&ccirc;a&jcirc;on kun albanoj kaj plejeble sabotas
@@ -63,13 +80,6 @@
           al onto</url></vrk>
         </fnt>.
       </ekz>
-    </dif>
-  </snc>
-
-  <snc mrk="makedon.0o.sxtatano">
-    <dif>
-      <ref tip="super" cel="sxtat.0ano">&Scirc;tatano</ref> de <ref
-      tip="malprt" cel="makedon.NordM0ujo.GEOG">Nord<tld/>ujo</ref>:
       <ekz>
         okazis surstrataj konfrontoj inter slavo<tld/>oj kaj
         albano<tld/>oj en <nom>Skopje</nom>
@@ -102,10 +112,22 @@
 </drv>
 
 <drv mrk="makedon.0a">
-  <kap><tld/>a</kap>
+  <kap><tld/>a, <var><kap><tld var="c"/>a</kap></var></kap>
   <snc>
     <dif>
-      Rilatanta al <tld/>oj, ilia nacieco a&ubreve; &scirc;tato.
+      Rilatanta al <tld/>oj<sncref ref="makedon.0o.HIS"/> a&ubreve; <sncref ref="makedon.0o.POL"/>, ilia nacieco a&ubreve; &scirc;tato:
+      <ekz>
+        Aleksandro <tld lit="M" var="c"/>a
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la re&gcirc;o <tld lit="M" var="c"/>a Filipo respondis al siaj amikoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_k;&c_je;&c_d;&c_o;&c_n;&c_s;&c_k;&c_ib;</trd>
@@ -129,12 +151,13 @@
     <fnt>
       <vrk>Oficiala Informo de AdE</vrk>,
       <lok>numero 12</lok>
-    </fnt>
+    </fnt>,
+    <var><kap><tld var="c" lit="M"/>ujo</kap></var>
   </kap>
   <snc mrk="makedon.M0ujo.historie">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      En la historio, lando norde de Grekujo, lo&gcirc;ata de <tld/>oj:
+      En la historio, lando norde de Grekujo, lo&gcirc;ata de <tld/>oj<sncref ref="makedon.0o.HIS"/>:
       <ekz>
         post kiam li vidis la vizion, ni tuj penis foriri en <tld
         lit="M"/>ujon,
@@ -150,6 +173,12 @@
         <fnt>
           <bib>NT</bib>
           <lok>La agoj 19:21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Aleksandro de <tld lit="M" var="c"/>ujo
+        <fnt>
+          <bib>FK</bib>
         </fnt>.
       </ekz>
     </dif>
@@ -260,6 +289,9 @@
 
 <!--
 $Log$
+versio 1.21 2020/12/27 10:46:32
+Wolfram Diestel: +var, klara distingo inter ~o HIS kaj POL, ekz-oj
+
 Revision 1.19  2019/06/30 07:42:48  revo
 adaptis URL de Monato
 
@@ -279,11 +311,5 @@ Revision 1.14  2018/10/27 10:10:17  revo
 Wolfram Diestel: kor. ref-cel
 
 Revision 1.13  2018/10/26 09:10:16  revo
-Wolfram Diestel: +ekz-oj, +snc HIS
-
-Revision 1.12  2015/10/27 07:10:12  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.11  2015/09/28 12:10:20  revo
 -->
 </vortaro>
