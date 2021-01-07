@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nod.xml,v 1.28 2017/12/30 08:10:13 revo Exp $">
+<art mrk="$Id: nod.xml,v 1.29 2021/01/07 19:04:58 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>nod</rad>/o <fnt><bib>PV</bib></fnt>
@@ -66,8 +66,7 @@
   <snc mrk="nod.0o.MEZ">
     <uzo tip="fak">MAR</uzo>
     <dif>
-      <ref tip="lst" cel="unu.mezur0o"
-      lst="voko:mezurunuoj">Mezurunuo</ref>
+      <ref tip="lst" cel="unu.mezur0o" lst="voko:mezurunuoj">Mezurunuo</ref>
       de rapido, nombro de marmejloj trairitaj dum 1 horo
       (1 <tld/>o = 1,85 km/h):
       <ekz>
@@ -122,6 +121,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">verknoten</trd>
   <trd lng="fr">nouer</trd>
 </drv>
 
@@ -142,6 +142,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>entknoten</trd>,
+    <trd>l&ouml;sen <klr>(Knoten)</klr></trd>
+  </trdgrp>
   <trd lng="fr">d&eacute;nouer</trd>
 </drv>
 
@@ -215,19 +219,38 @@
 
 <drv mrk="nod.gordia0o">
   <kap>gordia <tld/>o</kap>
-  <uzo tip="stl">FRAZ</uzo>
   <snc mrk="nod.gordia0o.MIT">
+    <uzo tip="fak">MIT</uzo>
     <dif>
-      Nesolvebla enigmo, tre malfacila problemo,
-      kiel nodego en urbo Gordio, kiun povis
-      fine disigi nur glavobato:
+      Arta kaj komplika <tld/>o el bastfibroj, kiu la&ubreve;mite ligis la 
+      batal&ccirc;aron de <ref tip="vid" cel="gordi.0o.mita_regho">Gordio</ref> kaj
+      kiun perglave trabatis <ref tip="super" cel="aleksandr.A0o.la_granda">Aleksandro la Granda</ref>:
+      <ekz>
+        nur katastrofo povas solvi &ccirc;i tiun problemon, same kiel nur fortran&ccirc;o povis
+        malligi la <tld lit="g"/>an nodon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>David Galad&iacute;-Enr&iacute;quez</aut>
+          <vrk><url ref="https://www.monato.be/2008/009653.php">Israelo 60-jara (10)</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>    
+  </snc>
+  <snc mrk="nod.gordia0o.FRAZ">
+    <uzo tip="stl">FRAZ</uzo>
+    <dif>
+      Komplikita <ref tip="super" cel="proble.0o.malfacilajxo">problemo</ref>,
+      kiun eblas solvi nur per kruda forto:
       <ekz>
         &ccirc;i tiu vidpunkto tran&ccirc;as la Gordian <tld lit="N"/>on
-        <klr>...</klr> kaj forigas multajn malfacila&jcirc;ojn
+        <klr>[&#8230;]</klr> kaj forigas multajn malfacila&jcirc;ojn
         <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 11a</lok></fnt>.
       </ekz>
     </dif>                           
   </snc>
+  <trd lng="de">Gordischer Knoten</trd>
+  <trd lng="en">Gordian knot</trd>
   <trd lng="fr">n&oelig;ud gordien</trd>
   <trd lng="pl">w&eogonek;ze&lstroke; gordyjski</trd>
   <trd lng="ro">nodul gordian</trd>
@@ -246,8 +269,7 @@
         <fnt>
           <aut>P. Polinski</aut>,
           <vrk>La Farmdomo</vrk>,
-          <lok><url
-          ref="http://www.alawa.ch/~les/informilo_06-08_oktobro.pdf">
+          <lok><url ref="http://www.alawa.ch/~les/informilo_06-08_oktobro.pdf">
           Informilo [de La&ubreve;zana Esperanto-Societo], 2006-10
           (8)</url></lok>
         </fnt>.
@@ -264,6 +286,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2021/01/07 19:04:58
+Wolfram Diestel: gordia ~o: +snc MIT, trd-oj de, en
+
 Revision 1.27  2017/12/23 23:10:15  revo
 Jeromo Vasxe: + ~ i mal~i
 
