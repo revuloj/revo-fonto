@@ -111,7 +111,7 @@ jobs:
     - name: "Hodiaŭ..."
       run: |
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
-        echo "::set-env name=TAGO::${Tagoj[ $(date +'%w') ]}"
+        echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
     - name: Eltrovu la URL de la hodiaŭa eldono
       uses: actions/github-script@0.4.0
@@ -194,7 +194,7 @@ jobs:
     - name: "Hodiaŭ..."
       run: |
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
-        echo "::set-env name=TAGO::${Tagoj[ $(date +'%w') ]}"
+        echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
     - uses: actions/github-script@0.4.0
       name: Eltrovu la nunan pozicion (kapo)
@@ -279,7 +279,7 @@ jobs:
     - name: "Hodiaŭ..."
       run: |
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
-        echo "::set-env name=TAGO::${Tagoj[ $(date +'%w') ]}"
+        echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
     - uses: actions/github-script@0.4.0
       name: Eltrovu la nunan pozicion (kapo)
@@ -364,7 +364,7 @@ jobs:
     - name: "Hodiaŭ..."
       run: |
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
-        echo "::set-env name=TAGO::${Tagoj[ $(date +'%w') ]}"
+        echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
     - uses: actions/github-script@0.4.0
       name: Eltrovu la nunan pozicion (kapo)
