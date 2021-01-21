@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: revu.xml,v 1.19 2021/01/04 16:11:05 revo Exp $">
+<art mrk="$Id: revu.xml,v 1.20 2021/01/21 21:08:05 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>revu</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,10 +11,45 @@
   <kap><tld/>o</kap>
   <snc mrk="revu.0o.MIL">
     <dif>
-      Solena parada inspektado al soldata trupo.
+      Solena parada <ref tip="super" cel="inspek.0o">inspekt</ref>ado
+      al soldata trupo ks:
+      <ekz>
+        <tld/>o de la armeo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        matena <tld/>o de la gvardio
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la generalo <nom>Kirsanov</nom>, eksigita post malsukcesa <tld/>o, transloki&gcirc;is kun la
+        edzino Peterburgon
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Ramzes</nom> postulis, ke oni <klr>[&#8230;]</klr> montru al li la ri&ccirc;a&jcirc;ojn de la provinco,
+        la <tld/>o <klr>[&#8230;]</klr> da&ubreve;ris kelke da semajnoj, &ccirc;iutage <klr>[&#8230;]</klr>
+        venis diversaj metiistaj korporacioj, <klr>[&#8230;]</klr> por montri al la princo
+        siajn produktojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="kontro.0o">kontrolo</ref>
+      <ref cel="ekspoz1.0o">ekspozicio</ref>,
+      <ref cel="kontro.0o">kontrolo</ref>,
+      <ref cel="parad.0o.MIL">parado<sncref/></ref>,
+      <ref cel="rigard.super0o.kontrolo">superrigardo<sncref/></ref>
     </refgrp>
     <trd lng="be">&c_a;&c_g;&c_l;&c_ja;&c_d;
     <klr>(&c_v;&c_a;&c_j;&c_s;&c_k;&c_o;&c_v;&c_y;)</klr></trd>
@@ -31,13 +66,14 @@
   </snc>
   <snc mrk="revu.0o.INF_artikolo">
     <dif>
-      Gazeta artikolo pri aktuala&jcirc;oj en iu aparta fako.
+      Gazeta <ref tip="super" cel="artiko.0o.teksto">artikolo</ref> pri aktuala&jcirc;oj en iu aparta fako.
     </dif>
     <refgrp tip="vid">
       <ref cel="feliet.0o">felietono</ref>,
       <ref cel="kronik1.0o">kroniko</ref>,
       <ref cel="raport">raporto</ref>,
-      <ref cel="recenz">recenzo</ref>
+      <ref cel="recenz">recenzo</ref>,
+      <ref cel="rigard.super0o.revuo">superrigardo<sncref/></ref>
     </refgrp>
     <trd lng="be">&c_a;&c_g;&c_l;&c_ja;&c_d; <klr>(&c_u; &c_p;&c_r;&c_e;&c_s;&c_je;)</klr></trd>
     <trd lng="ca">gaseta</trd>
@@ -46,12 +82,38 @@
   </snc>
   <snc mrk="revu.0o.INF_gazeto">
     <dif>
-      Perioda, sed ne &ccirc;iutaga presa&jcirc;o en formo de gazeto a&ubreve; bro&scirc;uro kaj
+      Perioda, sed ne &ccirc;iutaga <ref tip="super" cel="pres.0ajxo">presa&jcirc;o</ref> 
+      en formo de <ref tip="super" cel="gazet.0o">gazeto</ref> a&ubreve; bro&scirc;uro kaj
       speciale dedi&ccirc;ita al iu aparta fako:
       <ekz>
-        internacia scienca <tld/>o.
+        internacia scienca <tld/>o;
+      </ekz>
+      <ekz>
+        tie a&ubreve; aliloke en diversaj gazetoj kaj <tld/>oj aperas artikoloj plenaj de aprobo
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        via edzo laboras &ccirc;e unu el la ilustritaj <tld/>oj, eble oni tie bezonus iun, kiu
+        scias desegni
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pedagogia <tld/>o, eldonita de la flandra ministrejo pri edukado
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9501-seksaj-rilatoj.txt">Seksaj Rilatoj</url></vrk>
+          <lok>95/01</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       fak<ref cel="jxurna.0o.TIP">&jcirc;urnalo</ref>,
+       <ref cel="kompen.0o">kompendio</ref>
+    </refgrp>
     <trd lng="be">&c_ch;&c_a;&c_s;&c_o;&c_p;&c_ib;&c_s;</trd>
     <trd lng="ca">magaz&iacute;n</trd>
     <trd lng="de">Zeitschrift</trd>
@@ -62,9 +124,38 @@
   <snc mrk="revu.0o.TEA">
     <uzo tip="fak">TEA</uzo>
     <dif>
-      Teatra&jcirc;o temanta pri aktuala&jcirc;oj prezentataj en fantazia kaj &scirc;erca
-      maniero.
+      <ref tip="super" cel="teatr.0ajxo">Teatra&jcirc;o</ref> temanta pri aktuala&jcirc;oj 
+      prezentataj en fantazia kaj &scirc;erca maniero:
+      <ekz>
+        fama svedlanda &jcirc;azkapelo el Stokholmo, la nesuperebla <tld/>o <klr>[&#8230;]</klr> kun
+        la dek ok mondfamaj anglaj dancistinoj
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rigardante solenajn viza&gcirc;ojn, jubile kantantajn la himnon en &ccirc;i tiu teatro de
+        operetoj kaj <tld/>oj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi e&ccirc; ne scias, kio min plej mirigis en &ccirc;i tiu luksega <tld/>ejo, &ccirc;u la teatro
+        mem, &ccirc;u tio, kion mi surprize &ccirc;i tie a&ubreve;dis
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kabare.0o">kabareto</ref>,
+      <ref cel="komedi.0o.TEA">komedio<sncref/></ref>,
+      <ref cel="muzikal.0o">muzikalo</ref>,
+      <ref cel="oper.0eto">opereto</ref>,
+      <ref cel="variet.0o">varieteo</ref>,
+      <ref cel="vodevi.0o">vodevilo</ref>
+    </refgrp>
     <trd lng="be">&c_r;&c_e;&c_v;&c_ju;</trd>
     <trd lng="hu">boh&oacute;zat</trd>
     <trd lng="ru">&c_r;&c_je;&c_v;&c_ju;</trd>
@@ -83,15 +174,28 @@
 <drv mrk="revu.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="revu.0i.ekzameni">
     <dif>
-      Fari <tld/>on 1 a&ubreve; 2:
+      Fari <tld/>on <sncref ref="revu.0o.MIL"/> a&ubreve; <sncref ref="revu.0o.INF_artikolo"/>:
       <ekz>
-        la re&gcirc;o <tld/>is la Sirianojn<fnt>Z</fnt>.
+        la re&gcirc;o <nom>Jehoram</nom> eliris el Samario kaj <tld/>is la tutan Izraelon
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 3:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum &jcirc;usa kontrolkunsido en <klr>[&#8230;]</klr> li <tld/>is la rolon de la ministerio
+        <fnt>
+          <vrk><url ref="http://www.radiohc.cu/eo/noticias/nacionales/173950-diaz-canel-elstarigas-la-rolon-de-turismo-kaj-fremdaj-investoj-por-la-kuba-ekonomio">D&iacute;az-Canel elstarigas la rolon de ...</url></vrk>
+          <lok>Radio Havano Kubo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="ekzame.0i.PED">ekzameni</ref>
+      <ref cel="ekzame.0i.PED">ekzameni</ref>,
+      <ref cel="kontro.0i.administracie">kontroli<sncref/></ref>,
+      <ref cel="revizi.0i.dogane">revizii<sncref/></ref>
     </refgrp>
   </snc>
   <trdgrp lng="ca">
@@ -99,6 +203,7 @@
     <trd>passar revista</trd>
   </trdgrp>
   <trd lng="cs">p&rcaron;ehl&iacute;&zcaron;et</trd>
+  <trd lng="de">&uuml;berpr&uuml;fen</trd>
   <trd lng="es">pasar revista</trd>
   <trd lng="fr">passer en revue</trd>
   <trdgrp lng="hu">
@@ -119,6 +224,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2021/01/21 21:08:05
+Wolfram Diestel: +ekz-oj, ref-oj
+
 versio 1.19 2021/01/04 16:11:05
 Paulo Rodrigo Barros: +trd pt
 
@@ -138,8 +246,5 @@ Revision 1.13  2006/07/19 16:32:33  revo
 Jeromo Vasxe: + trd fr
 
 Revision 1.12 2006/02/20 17:34:15 revo
-Tulio Flores: +trd pt
-
-Revision 1.11 2004/09/20 18:27:54 revo
 -->
 </vortaro>
