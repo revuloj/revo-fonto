@@ -1,8 +1,8 @@
 name: tuja-aktualigo
 
-# Tiu ago aktualigas artikolojn en Revo, tiuj kiam ilia fonto ŝanĝiĝis.
+# Tiu ago aktualigas artikolojn en Revo, tuj kiam ilia fonto ŝanĝiĝis.
 # Tio normale okazas per la retpoŝta redakto-servo, sed principe povas 
-# oakzi ankaŭ se oni pere de "git" mane aktualigas fonton.
+# okazi ankaŭ se oni pere de "git" mane aktualigas fonton.
 
 on:
   push:
@@ -17,7 +17,7 @@ on:
 
 env:
   # image tag {latest|stabila}
-  IMAGE_TAG: stabila
+  IMAGE_TAG: latest
 
 
 jobs:
@@ -73,9 +73,15 @@ jobs:
         -e FTP_SERVER=cyberwebserver-21.de
         -e FTP_USER=${{ secrets.FTP_USER }}
         -e FTP_PASSWD=${{ secrets.FTP_PASSWD }}
+        -e FTP_SERVER2=314802.webhosting7.1blu.de
+        -e FTP_USER2=${{ secrets.FTP_USER2 }}
+        -e FTP_PASSWD2=${{ secrets.FTP_PASSWD2 }}
         -e CGI_SERVER=reta-vortaro.de
         -e CGI_USER=${{ secrets.CGI_USER }}
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
+        -e CGI_SERVER2=314802.webhosting7.1blu.de
+        -e CGI_USER2=${{ secrets.CGI_USER }}
+        -e CGI_PASSWD2=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
         docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko

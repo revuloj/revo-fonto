@@ -2,6 +2,7 @@ name: akceptu-redaktojn
 
 # Tiu ago unue rigardas per voko-afido ĉu novaj redaktoj alvenis (en gist.github.com)
 # kaj traktas tiujn. Poste ĝi aktualigas la artikolojn en Revo.
+# Do aktuale tio koncernas nur artikolojn redaktitajn ĉe https://revaj.steloj.de
 
 on:
 #  push:
@@ -24,7 +25,7 @@ on:
 
 env:
   # voko-formiko image tag {latest|stabila}
-  IMAGE_TAG: stabila
+  IMAGE_TAG: latest
 
 jobs:
 
@@ -138,9 +139,15 @@ jobs:
         -e FTP_SERVER=cyberwebserver-21.de
         -e FTP_USER=${{ secrets.FTP_USER }}
         -e FTP_PASSWD=${{ secrets.FTP_PASSWD }}
+        -e FTP_SERVER2=314802.webhosting7.1blu.de
+        -e FTP_USER2=${{ secrets.FTP_USER2 }}
+        -e FTP_PASSWD2=${{ secrets.FTP_PASSWD2 }}
         -e CGI_SERVER=reta-vortaro.de
         -e CGI_USER=${{ secrets.CGI_USER }}
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
+        -e CGI_SERVER2=314802.webhosting7.1blu.de
+        -e CGI_USER2=${{ secrets.CGI_USER }}
+        -e CGI_PASSWD2=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
         docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
