@@ -74,8 +74,8 @@ jobs:
         -e FTP_USER=${{ secrets.FTP_USER }}
         -e FTP_PASSWD=${{ secrets.FTP_PASSWD }}
         -e FTP_SERVER2=314802.webhosting7.1blu.de
-        -e FTP_USER2=${{ secrets.FTP_USER2 }}
-        -e FTP_PASSWD2=${{ secrets.FTP_PASSWD2 }}
+        -e FTP_USER2="${{ secrets.FTP_USER2 }}"
+        -e FTP_PASSWD2="${{ secrets.FTP_PASSWD2 }}"
         -e CGI_SERVER=reta-vortaro.de
         -e CGI_USER=${{ secrets.CGI_USER }}
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
@@ -85,8 +85,8 @@ jobs:
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
         docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
-        -Dsha1=${{ steps.trovu_horan_formikon.outputs.sha_hf }} 
-        -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }} 
+        -Dsha1=${{ steps.trovu_horan_formikon.outputs.sha_hf }}
+        -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }}
         srv-servo-github-hore
 
     - name: Rigardu la rezulton

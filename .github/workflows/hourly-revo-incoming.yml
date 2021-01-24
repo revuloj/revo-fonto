@@ -140,8 +140,8 @@ jobs:
         -e FTP_USER=${{ secrets.FTP_USER }}
         -e FTP_PASSWD=${{ secrets.FTP_PASSWD }}
         -e FTP_SERVER2=314802.webhosting7.1blu.de
-        -e FTP_USER2=${{ secrets.FTP_USER2 }}
-        -e FTP_PASSWD2=${{ secrets.FTP_PASSWD2 }}
+        -e FTP_USER2="${{ secrets.FTP_USER2 }}"
+        -e FTP_PASSWD2="${{ secrets.FTP_PASSWD2 }}"
         -e CGI_SERVER=reta-vortaro.de
         -e CGI_USER=${{ secrets.CGI_USER }}
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
