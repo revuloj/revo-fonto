@@ -142,10 +142,10 @@ jobs:
         -e FTP_SERVER2=314802.webhosting7.1blu.de
         -e FTP_USER2="${{ secrets.FTP_USER2 }}"
         -e FTP_PASSWD2="${{ secrets.FTP_PASSWD2 }}"
-        -e CGI_SERVER=reta-vortaro.de
+        -e CGI_SERVER=wieland-pusch.de
         -e CGI_USER=${{ secrets.CGI_USER }}
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
-        -e CGI_SERVER2=314802.webhosting7.1blu.de
+        -e CGI_SERVER2=christian-pusch.de
         -e CGI_USER2=${{ secrets.CGI_USER }}
         -e CGI_PASSWD2=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
