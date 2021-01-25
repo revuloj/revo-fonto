@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vrak.xml,v 1.12 2019/07/16 12:10:16 revo Exp $">
+<art mrk="$Id: vrak.xml,v 1.13 2021/01/25 19:21:38 revo Exp $">
 <kap>
   <rad>vrak</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,18 +10,83 @@
   <kap><tld/>o</kap>
   <snc mrk="vrak.0o.ARKE">
     <dif>
-      Rompita&jcirc;o de a&ubreve;to, &scirc;ipo, aviadilo a&ubreve; alia veturilo:
+      <ref tip="super" cel="romp.0itajxo">Rompita&jcirc;o</ref> de a&ubreve;to, &scirc;ipo, aviadilo a&ubreve; 
+      alia <ref tip="super" cel="vetur.0ilo">veturilo</ref>:
+      <ekz>
+        <tld/>oj de kra&scirc;intaj aviadiloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alice Liu</aut>
+          <vrk><url ref="https://www.monato.be/2011/010328.php"
+              >Fragmentoj de la dua mondmilito</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en 1694 <tld/>i&gcirc;is dum &scirc;tormo en Mediteraneo apud &Gcirc;ibraltaro la brita milit&scirc;ipo
+        <nom>Sussex</nom> <klr>[&#8230;]</klr>, la <tld/>o situas &ccirc;. 700 metrojn sub la surfaco de la
+        maro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Elson B. Snow</aut>
+          <vrk><url ref="https://www.monato.be/2004/008155.html"
+              >Trez-oro submara</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nigran a&ubreve;ton &ccirc;irka&ubreve;is policistoj, alveninta skipo de la fajrobrigado devis
+        elsegi la vunditan &scirc;oforon el la <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2009/009822.php"
+              >Katastrofa re&gcirc;inotago</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        falis nekonata helikoptero en la norda montaro de Albanio, <klr>[&#8230;]</klr>
+        malgra&ubreve; malfacilaj kondi&ccirc;oj, inkluzive de ne&gcirc;o kaj nebulo, ser&ccirc;is la <tld/>on
+        helikopteroj de la albana armeo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2008/009463.php"
+              >Montara mistero</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="frakas.0i.ruinigi">frakasi<sncref/></ref>,
+      <ref cel="krasx.0i">kra&scirc;i</ref>,
+      <ref cel="ruin.0o.ARKE">ruino</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="vrak.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="super" cel="kaduk.0ulo">Kadukulo</ref>:
       <ekz>
         <uzo tip="stl">FIG</uzo>
         policanino malkovris min kiel jam duonmortan <tld/>on en la
         stacidoma necesejo
         <fnt><aut>H. Vogt</aut>, <vrk>Paperfolioj</vrk>,
-        <lok>La Gazeto, 2005:117, p. 35a</lok></fnt>.
+        <lok>La Gazeto, 2005:117, p. 35a</lok></fnt>;
       </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        flegejoj estas plenaj je tiaj homaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2003/008117.html"
+              >Grizi&gcirc;anta mondo</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>    
     </dif>
-    <refgrp tip="vid">
-      <ref cel="ruin.0o.ARKE">ruino</ref>
-    </refgrp>
   </snc>
   <trd lng="cs">vrak <klr>(lodi| auta)</klr></trd>
   <trd lng="de">Wrack</trd>
@@ -44,7 +109,7 @@
     <dif>
       Loko por a&ubreve;taj <tld/>oj, eventuale por ilia recikligo:
       <ekz>
-        la malgranda <nom>Peugeot 207</nom> <klr>...</klr>
+        la malgranda <nom>Peugeot 207</nom> <klr>[&#8230;]</klr>
         fini&gcirc;is en a&ubreve;to<tld/>ejo
         <fnt>
           <aut>S. Kl&uuml;ber, trad. D. kaj H.-G. Kaiser</aut>
@@ -53,12 +118,23 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="fer.0rubo">ferrubo</ref>,
+      <ref cel="cikl.re0igi">recikligi</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>Autoschrottplatz</trd>,
+    <trd>Autorecyclinghof</trd>
+  </trdgrp>
   <trd lng="fr">casse automobile</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.13 2021/01/25 19:21:38
+Wolfram Diestel: apartigis snc FIG, ekz-oj, ref-oj
+
 Revision 1.11  2015/08/15 13:10:15  revo
 Jeromo Vasxe: malkrovis -> malkovris
 
