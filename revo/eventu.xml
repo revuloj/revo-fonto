@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eventu.xml,v 1.20 2017/09/02 22:10:16 revo Exp $">
+<art mrk="$Id: eventu.xml,v 1.21 2021/01/27 08:50:23 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>eventual</rad>/a <fnt><bib>PV</bib></fnt>
@@ -14,12 +14,29 @@
     <dif>
       Povanta okazi, depende de necertaj cirkonstancoj:
       <ekz>
-        la <tld/>aj profitoj de la afero.
+        <tld/>a vintra glacii&gcirc;o de la rivero povus estigi dan&gcirc;erajn inundojn printempe
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006857.html">Trafiko: Danuba &scirc;iptrafiko paralizita</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la uzantoj de Esperanto tre konscias pri la <tld/>a nekompreneblo de iu suka
+        loklingva esprimo en internacia medio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006813.html">Sa&gcirc;a kapo duonvorton komprenas</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="ebl.0a">ebla</ref>,
-      <ref cel="probab.0a">probabla</ref>
+      <ref cel="kondic1.0a">kondi&ccirc;a</ref>,
+      <ref cel="okaz.situacia">okaza</ref>,
+      <ref cel="probab.0a">probabla</ref>,
+      <ref cel="sxajn.ver0a">ver&scirc;ajna</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -68,11 +85,32 @@
   <kap><tld/>e</kap>
   <snc mrk="eventu.0e.KOMUNE">
     <dif>
-      En okazo de bezono:
+      La&ubreve; la kondi&ccirc;oj, se <ref cel="ebl.0e">eble</ref>:
       <ekz>
-        skribu, <tld/>e telegrafu.
+        skribu, <tld/>e telegrafu;
+      </ekz>
+      <ekz>
+        prokuroroj ekis ekzameni, minacas lin <tld/>e puno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006835.html">Germanio: Pekoj de patriarko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vice staras eksterlandanoj el orienta E&ubreve;ropo kaj el Afriko, petante permeson
+        lo&gcirc;i kaj <tld/>e labori en Irlando
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007030.html">Irlando: Ser&ccirc;ata: justa solvo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ebl.laux0e">la&ubreve;eble</ref>,
+      <ref cel="supoz.0eble">supozeble</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_u; <ind>&c_v;&c_y;&c_p;&c_a;&c_d;&c_k;&c_u;</ind></trd>,
@@ -90,6 +128,10 @@
      <trd>evtl.<klr> [mll.]</klr></trd>,
      <trd>m&ouml;glicherweise</trd>,
      <trd>etwa</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>possibly</trd>,
+    <trd>perhaps</trd>
   </trdgrp>
   <trd lng="es">eventualmente</trd>
   <trd lng="fr">&eacute;ventuellement</trd>
@@ -111,6 +153,14 @@
       <tld lit="E"/>a fakto, ebla okaza&jcirc;o dependa je
       cirkonstancoj:
       <ekz>
+        mi dubas, &ccirc;u vi sukcesos <klr>[&#8230;]</klr> kaj por &ccirc;iu <tld/>o, mi kunvokos la
+        kunvenon
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         sortobatoj &gcirc;enerale rezultas de <tld/>oj neperceptitaj, a&ubreve; ne 
         sufi&ccirc;e atentitaj
         <fnt>
@@ -121,7 +171,9 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="cirkon1.0o">cirkonstanco</ref>,
       <ref cel="hazard.0o">hazardo</ref>,
+      <ref cel="kondic1.0o">kondi&ccirc;o</ref>,
       <ref cel="okaz.0o">okazo</ref>
     </refgrp>
   </snc>
@@ -139,6 +191,10 @@
      <trd>etwa eintretender Umstand</trd>,
      <trd>m&ouml;gliches Ereignis</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>contingency</trd>,
+    <trd>eventuality</trd>
+  </trdgrp>
   <trd lng="es">eventualidad</trd>
   <trd lng="fr">&eacute;ventualit&eacute;</trd>
   <trd lng="hu">eshet&odblac;s&eacute;g</trd>
@@ -154,6 +210,9 @@
 </art>
 <!--
 $Log$
+versio 1.21 2021/01/27 08:50:23
+Wolfram Diestel: +ekz-oj, refoj, trd en
+
 Revision 1.19  2015/07/04 08:37:33  revo
 aldono de trd cs per skripto de M. von Laer
 
