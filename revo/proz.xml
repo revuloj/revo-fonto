@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: proz.xml,v 1.18 2017/09/02 12:10:15 revo Exp $">
+<art mrk="$Id: proz.xml,v 1.19 2021/02/14 10:37:14 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>proz</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,10 +10,31 @@
 <drv mrk="proz.0o">
   <kap><tld/>o</kap>
   <snc mrk="proz.0o.BELE">
+    <uzo tip="fak">BELE</uzo>
     <dif>
-      Teksto, parolado ne aran&gcirc;ita la&ubreve; versmezuro,
-      kontraste al
-      <ref tip="ant" cel="poezi.0o.arto">poezio</ref>.
+      <ref tip="super" cel="tekst.0o.KOMUNE.1.b">Teksto</ref>, parolado ne aran&gcirc;ita la&ubreve; versmezuro,
+      kontraste al <ref tip="ant" cel="poezi.0o.arto">poezio</ref>:
+      <ekz>
+        vi volis servi al la <tld/>o kaj al la poezio, la <tld/>o ven&gcirc;is sin
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi mem amas iafoje filozofii: iafoje per <tld/>o, kaj alian fojon e&ccirc; versetoj
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>o tiu &ccirc;i regulo devas esti observata, sed en versoj <klr>[&#8230;]</klr> oni
+        ofte permesas al si deflanki&gcirc;ojn de la ordinara stilo
+        <fnt>
+          <bib>LR</bib>
+          <lok>7. Artikolo</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_o;&c_z;&c_a;</trd>
@@ -31,8 +52,33 @@
 <drv mrk="proz.0a">
   <kap><tld/>a</kap>
   <snc mrk="proz.0a.neversa">
+    <uzo tip="fak">BELE</uzo>
     <dif>
-      Neversa.
+      Neversa:
+      <ekz>
+        malmankas poeziaj neologismoj, neniel apartenantaj al teksto <tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007110.html">Atentokapta sed ru&gcirc;krajoninda</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        universitataj eldonejoj publikigis librojn (<tld/>ajn kaj poeziajn) verkitajn de
+        <klr>[la]</klr> profesoro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="https://www.monato.be/2003/007935.html">Ne plu krios la koko</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        originalaj <tld/>a&jcirc;oj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">prose</trd>
     <trd lng="fr">en <ind>prose</ind></trd>
@@ -48,18 +94,42 @@
   <snc mrk="proz.0a.FIG">
   <uzo tip="stl">FIG</uzo>
     <dif>
-      Vulgara, senpoezia, neideala,
+      <ref cel="vulgar.0a">Vulgara</ref>, senpoezia, neideala,
       <ref tip="sin" cel="banal.0a">banala</ref>,
       <ref tip="sin" cel="plat.0a">plata</ref>,
       <ref tip="sin" cel="trivia.0a">triviala</ref>:
       <ekz>
-        kredi, ke en nia <tld/>a tempo iom da poezio ankora&ubreve; povus
-        ekzisti<fnt>Z</fnt>;
+        laborenspezo &dash; kia <tld/>a, triviala, pure tera vorto
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        havi <tld/>ajn gustojn.
+        &ccirc;iu laboro, e&ccirc; la plej <tld/>a, enhavas iom da poezio
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se homo nekredanta forlasas pro sincereco &ccirc;iun eklezion <klr>[&#8230;]</klr>, tiam
+        anka&ubreve; la gefiletoj suferos pro vivado tro <tld/>a
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kredi, ke en nia <tld/>a tempo iom da poezio ankora&ubreve; povus ekzisti
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="banal.0a">banala</ref>,
+       <ref cel="primit.0a">primitiva</ref>,
+       <ref cel="profan.0a">profana</ref>,
+       <ref cel="simpl.0a.senornama">simpla<sncref/></ref>
+    </refgrp>
     <trd lng="en">prosaic</trd>
     <trdgrp lng="es">
       <trd>en prosa</trd>,
@@ -73,6 +143,7 @@
     <trd>prozaick&yacute;</trd>,
     <trd>st&rcaron;&iacute;zliv&yacute;</trd>
   </trdgrp>
+  <trd lng="de">prosaisch</trd>
   <trd lng="nl">proza&iuml;sch</trd>
   <trdgrp lng="pl">
   <trd>prozaiczny</trd>,
@@ -92,26 +163,24 @@
   <snc mrk="proz.0isto.BELE">
     <uzo tip="fak">BELE</uzo>
     <dif>
-      Verkisto de prozo:
+      <ref tip="super" cel="verk.0isto">Verkisto</ref> de <tld/>o:
       <ekz>
-        la rusa Ivan G. &Scirc;irjaev meritis rangi inter la plej gravaj
+        la rusa <nom>Ivan G. &Scirc;irjaev</nom> meritis rangi inter la plej gravaj
         <tld/>istoj en la unuaj 50 jardekoj
         <fnt>
           <aut>N. Macovei</aut>,
-          <vrk><url
-          ref="http://esperanto.net/literaturo/mon/novvivrec.html">
+          <vrk><url ref="http://esperanto.net/literaturo/mon/novvivrec.html">
           Esperanta Dostojevskij</url></vrk>,
           <bib>Monato</bib>,
           <lok>1994:5, p. 22a</lok>
         </fnt>;
       </ekz>
       <ekz>
-        &Scirc;tefo Urban, kiu estas muzikisto, komponisto kaj talenta
+        &Scirc;tefo <nom>Urban</nom>, kiu estas muzikisto, komponisto kaj talenta
         <tld/>verkisto, surmetis la ezopan fablomaskon
         <fnt>
           <aut>F. Szil&aacute;gyi</aut>,
-          <vrk><url
-          ref="http://esperanto.net/literaturo/np/novezoprec.html">
+          <vrk><url ref="http://esperanto.net/literaturo/np/novezoprec.html">
           Moderna Ezopo</url></vrk>,
           <lok>Norda Prismo, [s. d.]</lok>
         </fnt>.
@@ -119,6 +188,7 @@
     </dif>
   </snc>
   <trd lng="cs">prozaik</trd>
+  <trd lng="de">Prosaiker</trd>
   <trd lng="fr">prosateur</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_z;&c_a;&c_i;&c_k;</trd>
   <trd lng="sk">prozaik</trd>
@@ -126,6 +196,9 @@
 </art>
 <!--
 $Log$
+versio 1.19 2021/02/14 10:37:14
+Wolfram Diestel: ekz-oj, ref-oj, trd de
+
 Revision 1.17  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
