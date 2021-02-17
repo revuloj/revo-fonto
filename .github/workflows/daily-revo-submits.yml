@@ -15,7 +15,7 @@ on:
   # * estas speciala signo, do nepre uzu citilojn
   schedule:
   #- cron:  '05 20 * * *'
-  - cron:  '40 12 * * *'
+  - cron:  '40 12,18 * * *'
 
 
   # uzu 'access token' kun Git-arĥivo
@@ -47,7 +47,7 @@ jobs:
         docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
         docker pull "docker.pkg.github.com/revuloj/voko-afido/voko-afido:latest"
 
-    - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
+    - name: Akceptu redaktojn el submetoj, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
         docker run -d --name afido \
         -e SMTP_SERVER=smtp.strato.de  \
