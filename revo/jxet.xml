@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jxet.xml,v 1.59 2020/05/04 10:10:18 revo Exp $">
+<art mrk="$Id: jxet.xml,v 1.60 2021/02/22 19:58:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&jcirc;et</rad>/i <fnt><bib>PV</bib></fnt>
@@ -182,21 +182,21 @@
       Rilatigi la <ref cel="ar.fonto0o">fontan aron</ref> kun la
       <ref cel="ar.celo0o">cela aro</ref> per funkcio ktp:
       <ekz>
-        la funkcio <frm>n&#8594;2n&nbsp;</frm> <tld/>as la aron de &ccirc;iuj
+        la funkcio <frm am="n to 2n">n&#8594;2n&nbsp;</frm> <tld/>as la aron de &ccirc;iuj
         entjeroj en sin mem;
       </ekz><ekz>
-        la funkcio <frm>n&#8594;2+n&nbsp;</frm> <tld/>as la aron de &ccirc;iuj
+        la funkcio <frm am="n to 2+n">n&#8594;2+n&nbsp;</frm> <tld/>as la aron de &ccirc;iuj
         entjeroj sur sin mem.
       </ekz>
     </dif>
     <rim>
       Atentu la uzon de la prepozicioj:
-      la funkcio <frm><k>f:A&#8594;B</k></frm> <tld/>as <frm><k>A</k>&nbsp;</frm>
-      <em>sur</em> <frm><k>B</k></frm>, se <frm><k>f(A)=B</k></frm>
+      la funkcio <frm am="f:AtoB"><k>f:A&#8594;B</k></frm> <tld/>as <frm am="A"><k>A</k>&nbsp;</frm>
+      <em>sur</em> <frm am="B"><k>B</k></frm>, se <frm am="f(A)=B"><k>f(A)=B</k></frm>
       (tial la termino <ref cel="jxet.sur0o">sur<tld/>o</ref>);
-      &gcirc;i <tld/>as <frm><k>A</k>&nbsp;</frm> <em>en</em> <frm><k>B</k></frm>,
+      &gcirc;i <tld/>as <frm am="A"><k>A</k>&nbsp;</frm> <em>en</em> <frm am="B"><k>B</k></frm>,
       se
-      <frm><k>f(A)&#8834;B</k></frm>. 
+      <frm am="f(A) sub B"><k>f(A)&#8834;B</k></frm>. 
     </rim>
     <trd lng="en">map<klr> (onto, into)</klr></trd>
     <trdgrp lng="es">
@@ -288,8 +288,8 @@
     </fnt>
     <ref tip="dif" cel="bild.0igo.MAT">bildigo.</ref>
     <rim>
-      Tiu formo nature sekvas el la legmaniero <ctl><frm><k>f</k></frm>
-      &jcirc;etas <frm><k>x</k></frm> al <frm><k>y</k></frm></ctl>.
+      Tiu formo nature sekvas el la legmaniero <ctl><frm am="f"><k>f</k></frm>
+      &jcirc;etas <frm am="x"><k>x</k></frm> al <frm am="y"><k>y</k></frm></ctl>.
       Krome &gcirc;i ebligas krei skemisman serion
       <refgrp tip="sub">
         <ref cel="jxet.sur0o">sur<tld/>o</ref>,
@@ -1157,6 +1157,9 @@
 </art>
 <!--
 $Log$
+versio 1.60 2021/02/22 19:58:23
+Wolfram Diestel: frm: +am
+
 versio 1.59 2020/05/04 10:10:18
 Eko Nur Syah Hidayat: korekteto
 
@@ -1176,8 +1179,5 @@ Revision 1.54  2016/09/07 16:10:16  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.53  2015/03/10 16:10:16  revo
-Sergio Pokrovskij: MAT ~i
-
-Revision 1.52  2015/03/10 13:10:16  revo
 -->
 </vortaro>
