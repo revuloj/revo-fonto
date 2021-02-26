@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jxet.xml,v 1.61 2021/02/25 18:56:00 revo Exp $">
+<art mrk="$Id: jxet.xml,v 1.62 2021/02/26 18:51:10 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&jcirc;et</rad>/i <fnt><bib>PV</bib></fnt>
@@ -75,12 +75,8 @@
         <klr>(por erarigi, trompi)</klr>
         <fnt>
           <bib>PrV</bib>
-        </fnt>;
+        </fnt>.
         <trd lng="de"><ind>Sand</ind> in die Augen streuen</trd>
-      </ekz>
-      <ekz>
-        la <tld/>o <klr>(loto)</klr> estas farita
-        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <trdgrp lng="es">
@@ -322,7 +318,10 @@
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_d;&c_a;&c_c;&c_mol;</trd>
   <trd lng="cs">hodit</trd>
-  <trd lng="de">werfen</trd>
+  <trdgrp lng="de">
+    <trd>werfen</trd>,
+    <trd>schmei&szlig;en</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>throw</trd>,
     <trd>pitch</trd>,
@@ -363,10 +362,20 @@
 </drv>
 
 <drv mrk="jxet.0o">
-  <kap><tld/>o<fnt>Z</fnt></kap>
+  <kap><tld/>o</kap>
   <snc mrk="jxet.0o.ago">
     <dif>
-      La ago <tld/>i.
+      La ago <tld/>i:
+      <ekz>
+        per unu &scirc;tono oni du <tld/>ojn ne faras
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o <klr>(<ref cel="lot.0o.0ado">loto</ref>)</klr> estas farita
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Wurf</trd>
     <trdgrp lng="en">
@@ -940,8 +949,7 @@
         al tiuj el<tld/>uloj,
         <fnt>
           <aut>F. Dostojevskij, trad. A. Kor&jcirc;enkov</aut>,
-          <vrk><url
-          ref="http://www.esperanto-ondo.ru/Libroj/V_bibl08.pdf">
+          <vrk><url ref="http://www.esperanto-ondo.ru/Libroj/V_bibl08.pdf">
           La kampulo Marej</url></vrk>,
           <lok>2011</lok>
         </fnt>.
@@ -1155,6 +1163,33 @@
   <trd lng="ru">&c_s;&c_ju;&c_r;&c_malmol;&c_je;&c_k;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
 
+<drv mrk="jxet.sxton0o">
+  <kap>
+    &scirc;ton<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="lst" lst="voko:longoj" cel="longo">Longo</ref> 
+      egala al la distanco al kiu homo kapablas <tld/>i &scirc;tonon:
+      <ekz>
+        li iris for de ili proksimume &scirc;ton<tld/>on, kaj li genuis, kaj pre&gcirc;is
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 22:41</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili proksimi&gcirc;is al la forkurantoj je unu &scirc;ton<tld/>o
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Steinwurf</trd>
+</drv>
+
 <drv mrk="jxet.0kubo">
   <kap><tld/>kubo</kap>
   <snc>
@@ -1225,8 +1260,7 @@
             akvokanonoj provis disigi la homamason
             <fnt>
                <aut>-</aut>
-               <vrk><url
-               ref="http://neniammilitointerni.over-blog.com/2020/02/algerio-miloj-da-manifestaciantoj-sur-la-stratoj-jaron-post-la-naskigo-de-la-movado-hirak.html">
+               <vrk><url ref="http://neniammilitointerni.over-blog.com/2020/02/algerio-miloj-da-manifestaciantoj-sur-la-stratoj-jaron-post-la-naskigo-de-la-movado-hirak.html">
                Al&gcirc;erio: miloj da manifestaciantoj sur la
                stratoj...</url></vrk>
                <lok>Neniam milito inter ni, 2010-02-23</lok>
@@ -1271,6 +1305,9 @@
 </art>
 <!--
 $Log$
+versio 1.62 2021/02/26 18:51:10
+Wolfram Diestel: ~o: +ekz; +sxton~o
+
 versio 1.61 2021/02/25 18:56:00
 Wolfram Diestel: ~i: ekz-oj
 
@@ -1290,8 +1327,5 @@ Revision 1.56  2017/02/16 13:10:15  revo
 Jeromo Vasxe: disjxetaa -> disjxeta
 
 Revision 1.55  2016/09/08 07:10:21  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.54  2016/09/07 16:10:16  revo
 -->
 </vortaro>
