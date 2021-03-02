@@ -15,7 +15,7 @@ on:
   # * estas speciala signo, do nepre uzu citilojn
   schedule:
   #- cron:  '05 20 * * *'
-  - cron:  '50 1-23/4 * * *'
+  - cron:  '40 * * * *'
 
 
   # uzu 'access token' kun Git-arĥivo
@@ -29,7 +29,64 @@ env:
 
 jobs:
 
-  revo-redaktoj:
+  revo-redaktoj-gh:
+    runs-on: ubuntu-latest
+    outputs:
+      KONFIRMO: ${{ steps.rigardu_protokolon.outputs.KONFIRMO }}
+
+    steps:
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
+        mkdir .tmp
+        mkdir .log
+
+    - name: Saluto al docker.pkg.github.com kaj preni 'voko-afido'
+      env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
+        docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+        docker pull "docker.pkg.github.com/revuloj/voko-afido/voko-afido:latest"
+
+    - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
+      run: |
+        docker run -d --name afido \
+        -e SMTP_SERVER=smtp.strato.de  \
+        -e SMTP_USER=${{ secrets.SMTP_USER }} \
+        -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
+        -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
+        -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
+        docker.pkg.github.com/revuloj/voko-afido/voko-afido:latest 
+        sleep 10
+        docker exec -u1074 \
+        -e GIT_REPO_REVO=revo-fonto \
+        -e CGI_USER=${{ secrets.CGI_USER }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
+        -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
+        -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
+        -e SIGELILO=${{secrets.SIGELILO}} \
+        afido \
+        afido
+
+    - name: Rigardu la protokolon 
+      id: rigardu_protokolon
+      run: |
+        ls -l .tmp/ .log/
+        echo "::set-output name=KONFIRMO_GH::$(grep -l '\"konfirmo\"' .log/mail_sent*)"        
+
+    - name: Konservu protokolojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: log-gh
+        path: .log
+
+    - name: Konservu la interrezultojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: tmp-gh
+        path: .tmp
+
+
+  revo-redaktoj-db:
     runs-on: ubuntu-latest
     outputs:
       KONFIRMO: ${{ steps.rigardu_protokolon.outputs.KONFIRMO }}
@@ -71,24 +128,24 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        echo "::set-output name=KONFIRMO::$(grep -l '\"konfirmo\"' .log/mail_sent*)"        
+        echo "::set-output name=KONFIRMO_DB::$(grep -l '\"konfirmo\"' .log/mail_sent*)"        
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
       with:
-        name: log
+        name: log-db
         path: .log
 
     - name: Konservu la interrezultojn
       uses: actions/upload-artifact@v1
       with:
-        name: tmp
+        name: tmp-db
         path: .tmp
 
         
   revo-aktualigo:
-    needs: revo-redaktoj
-    if: ${{needs.revo-redaktoj.outputs.KONFIRMO}}
+    needs: [revo-redaktoj-gh,revo-redaktoj-db]
+    if: ${{needs.revo-redaktoj-gh.outputs.KONFIRMO_GH || needs.revo-redaktoj-db.outputs.KONFIRMO_DB }}
     runs-on: ubuntu-latest
 
     steps:
