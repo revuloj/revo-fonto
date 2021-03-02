@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kanon1.xml,v 1.18 2021/03/02 17:50:14 revo Exp $">
+<art mrk="$Id: kanon1.xml,v 1.19 2021/03/02 19:42:52 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>kanon</rad>/o <fnt><bib>PV</bib></fnt>
@@ -17,13 +17,29 @@
       &jcirc;etanta <ref cel="paf.0ajxo">pafa&jcirc;ojn</ref> la&ubreve;
       plata, preska&ubreve; rekta trajektorio al rekte trafeblaj,
       vertikalaj celoj, a&ubreve; al malproksimaj celoj
-      (18&ndash;40 km) kun starta rapido de pafa&jcirc;o pli
-      granda ol &ccirc;e ha&ubreve;bizoj a&ubreve; bombopafiloj;
-      <tld/>o konsistas el cilindra metala
-      <ref tip="prt" cel="tub.0o">tubo</ref> (40&ndash;80 kalibrojn longa),
-      pretigita por enteni pafa&jcirc;ojn, kiujn el&jcirc;etas la eksplodo
-      de pulvo, kaj portata de movebla a&ubreve; nemovebla
-      <ref tip="prt" cel="afust.0o">afusto</ref>:
+      (18&#8239;&ndash;&#8239;40&#8239;km) kun starta rapido de pafa&jcirc;o pli
+      granda ol &ccirc;e ha&ubreve;bizoj a&ubreve; bombopafiloj:
+      <ekz>
+        <tld/>o konsistas el cilindra metala
+        <ref tip="prt" cel="tub.0o">tubo</ref> (40&#8239;&ndash;&#8239;80 kalibrojn longa),
+        pretigita por enteni pafa&jcirc;ojn, kiujn el&jcirc;etas la eksplodo
+        de pulvo, kaj portata de movebla a&ubreve; nemovebla
+        <ref tip="prt" cel="afust.0o">afusto</ref>;
+      </ekz>
+      <ekz>
+        ili salutas la malnovan kastelon per <tld/>oj: bum!
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dano Holger</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tondris kvaza&ubreve; oni pafus el grandaj <tld/>oj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <ind>kampa <tld/>o</ind>,
         <trd lng="hu">t&aacute;bori &aacute;gy&uacute;</trd>
@@ -54,9 +70,22 @@
     <trd lng="ru">&c_p;&c_u;&c_sh;&c_k;&c_a;</trd>
   </snc>
   <snc mrk="kanon1.0o.pafilego">
-     <ref tip="dif" cel="paf.0ilego">pafilego</ref>
+    <dif>
+      <ref tip="dif" cel="paf.0ilego">Pafilego</ref>:
+      <ekz>
+        ili ne havis pafilojn a&ubreve; <tld/>ojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Gesch&uuml;tz</trd>
   </snc>
-  <ref tip="hom" cel="kanon.0o">kanono</ref>
+  <rim>
+    <ref tip="hom" cel="kanon.0o">Kanono</ref>
+    estas anka&ubreve; religia norma tekstaro.
+  </rim>
   <rim>
     La 1a Oficiala Aldono difinas <tld/>on per tradukoj, el kiuj la
     angla respondas al la senco
@@ -83,7 +112,7 @@
     <trd>bombarda</trd>,
     <trd>dzia&lstroke;o</trd>
   </trdgrp>   
-<trdgrp lng="ro">
+  <trdgrp lng="ro">
     <trd>pu&#537;c&abreve;</trd>,
     <trd>tun</trd>
   </trdgrp>
@@ -91,7 +120,6 @@
     <trd>delo</trd>,
     <trd>kan&oacute;n</trd>
   </trdgrp>
-
 </drv>
 
 <drv mrk="kanon1.0i">
@@ -100,9 +128,9 @@
   <snc mrk="kanon1.0i.MIL">
    <uzo tip="fak">MIL</uzo>
     <dif>
-      Pripafi per <tld/>o:
+      Pri<ref tip="super" cel="paf.0i.ARM">pafi</ref> per <tld/>o:
       <ekz>
-        Harriman-&scirc;ipo poste sukcese <tld/>is la danan &scirc;ipon kaj
+        <nom>Harriman</nom>-&scirc;ipo poste sukcese <tld/>is la danan &scirc;ipon kaj
         dronigis &gcirc;in
         <fnt>
         <aut>K. &Ccaron;apek, trad. J. Vondrou&scaron;ek</aut>,
@@ -115,6 +143,7 @@
   <trd lng="be">&c_a;&c_b;&c_s;&c_t;&c_r;&c_a;&c_l;&c_ja;&c_c;&c_mol; &c_z; <ind>&c_g;&c_a;&c_r;&c_m;&c_a;&c_t;&c_y;</ind></trd>
   <trd lng="ca">canonejar</trd>
   <trd lng="cs">b&yacute;t kanonizov&aacute;n</trd>
+  <trd lng="de">mit Kanonen <ind>beschie&szlig;en</ind></trd>
   <trd lng="es">ca&ntilde;onear</trd>
   <trd lng="fr">canonner</trd>
   <trd lng="hu">&aacute;gy&uacute;z</trd>
@@ -133,14 +162,13 @@
   <snc mrk="kanon1.0isto.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Soldato reganta <tld/>on:
+      <ref tip="super" cel="soldat.0o.militisto">Soldato</ref> reganta <tld/>on:
       <ekz>
-        mi <klr>...</klr> rigardis nur la prusajn <tld/>istojn, kiuj 
+        mi <klr>[&#8230;]</klr> rigardis nur la prusajn <tld/>istojn, kiuj 
         re&scirc;argis siajn pecojn
         <fnt>
           <aut>Erckmann-Chatrian, trad. P. J. Doumen</aut>,
-          <vrk><url
-          ref="http://esperanto-forum.net/doc/Romanoj/konskripto1813.pdf">
+          <vrk><url ref="http://esperanto-forum.net/doc/Romanoj/konskripto1813.pdf">
           Soldato de Napoleono</url></vrk>,
           <lok>[vidita en 2015]</lok>
         </fnt>.
@@ -151,6 +179,7 @@
     <trd>d&ecaron;lost&rcaron;elec</trd>,
     <trd>kanon&yacute;r</trd>
   </trdgrp>
+  <trd lng="de">Kanonier</trd>
   <trd lng="fr">cannonier</trd>
   <trdgrp lng="pl">
     <trd>artylerzysta</trd>,
@@ -171,21 +200,32 @@
   <snc>
     <dif>
       <ref tip="dif" cel="jxet.akvo0ilo">Akvo&jcirc;etilo</ref>:    
-       <ekz>
-          akvo<tld/>oj provis disigi la homamason
-          <fnt>
-             <aut>-</aut>
-             <vrk><url ref=
-             "http://neniammilitointerni.over-blog.com/2020/02/algerio-miloj-da-manifestaciantoj-sur-la-stratoj-jaron-post-la-naskigo-de-la-movado-hirak.html">
-             Al&gcirc;erio: miloj da manifestaciantoj sur la
-             stratoj...</url></vrk>
-             <lok>Neniam milito inter ni, 2010-02-23</lok>
-          </fnt>.
-       </ekz>
+      <ekz>
+        akvo<tld/>oj provis disigi la homamason
+        <fnt>
+           <aut>-</aut>
+           <vrk><url ref="http://neniammilitointerni.over-blog.com/2020/02/algerio-miloj-da-manifestaciantoj-sur-la-stratoj-jaron-post-la-naskigo-de-la-movado-hirak.html">
+           Al&gcirc;erio: miloj da manifestaciantoj sur la
+           stratoj...</url></vrk>
+           <lok>Neniam milito inter ni, 2010-02-23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        policanoj <klr>[&#8230;]</klr> sur&ccirc;evalaj <klr>[&#8230;]</klr> observis la
+        manifestaciantojn, videblis anka&ubreve; akvo<tld/>aj veturiloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="https://www.monato.be/2003/008081.html">Ne&ubreve;traleco minacata</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+<trd lng="de">Wasserwerfer</trd>
 </drv>
 
+<!-- dubinda:
 <drv mrk="kanon1.strek0o">
   <kap>strek<tld/>o</kap>
   <snc mrk="kanon1.strek0o.MIL">
@@ -207,9 +247,13 @@
     <aut>MB</aut>
   </adm>
 </drv>
+-->
 </art>
 <!--
 $Log$
+versio 1.19 2021/03/02 19:42:52
+Wolfram Diestel: ekz-oj, forkomentis strek~o
+
 versio 1.18 2021/03/02 17:50:14
 Wolfram Diestel: +ekz
 
@@ -229,8 +273,5 @@ Revision 1.12  2015/06/01 19:10:16  revo
 Jeromo Vasxe: + ~isto
 
 Revision 1.11  2012/07/17 09:10:16  revo
-Marc Rausell: ++ trd ca
-
-Revision 1.10  2005/06/28 20:26:58  revo
 -->
 </vortaro>
