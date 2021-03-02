@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kodeks.xml,v 1.27 2020/03/16 05:10:16 revo Exp $">
+<art mrk="$Id: kodeks.xml,v 1.28 2021/03/02 19:44:53 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>kodeks</rad>/o
   <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
@@ -139,7 +139,10 @@
       </ekz>
     </dif>
     <ref tip="sin" cel="kod1.0o.JUR">kodo</ref>
-    <ref tip="vid" cel="farmak1.0o">farmakopeo</ref>
+    <refgrp tip="vid">
+       <ref cel="farmak1.0o">farmakopeo</ref>,
+       <ref cel="kanon.0o">kanono</ref>
+    </refgrp>
     <trd lng="be">&c_k;&c_o;&c_d;&c_e;&c_k;&c_s;</trd>
     <trdgrp lng="de">
       <trd>Kodex</trd>,
@@ -160,7 +163,10 @@
 </drv>
 </art>
   <!--
-  $Log: kodeks.xml,v $
+  $Log$
+versio 1.28 2021/03/02 19:44:53
+Wolfram Diestel: +ref
+
 versio 1.27 2020/03/16 05:10:16
 Sergio Pokrovskij: +ekz +fnt
 
@@ -180,8 +186,5 @@ Sergio Pokrovskij: +ekz +fnt
   Vito Redsky: +trd pl +trd ro
 
   Revision 1.21  2017/09/15 07:10:17  revo
-  Damien Brucker: -eraro cxe cel en ref
-
-  Revision 1.20  2015/11/20 17:10:42  revo
 -->
 </vortaro>
