@@ -32,7 +32,7 @@ jobs:
   revo-redaktoj-gh:
     runs-on: ubuntu-latest
     outputs:
-      KONFIRMO: ${{ steps.rigardu_protokolon.outputs.KONFIRMO }}
+      KONFIRMO_GH: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_GH }}
 
     steps:
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -88,8 +88,10 @@ jobs:
 
   revo-redaktoj-db:
     runs-on: ubuntu-latest
+    # ne kuru ambaŭ samtempe, por eviti fand-konfliktojn de la git-arĥivo!
+    needs: revo-redaktoj-gh
     outputs:
-      KONFIRMO: ${{ steps.rigardu_protokolon.outputs.KONFIRMO }}
+      KONFIRMO_DB: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_DB }}
 
     steps:
     - name: Kreu dosierujojn por konservi la rezultojn ...
