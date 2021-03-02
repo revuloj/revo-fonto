@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: anuitat.xml,v 1.15 2021/03/01 21:55:16 revo Exp $">
+<art mrk="$Id: anuitat.xml,v 1.16 2021/03/02 06:50:09 revo Exp $">
 <kap>
   <rad>anuitat</rad>/o
 </kap>
@@ -9,12 +9,12 @@
   <kap><tld/>o</kap>
   <fnt><bib>PIV1</bib></fnt>
   <fnt><bib>IKEV</bib></fnt>
-  <snc>
+  <snc mrk="anuitat.0o.EKON">
   <uzo tip="fak">EKON</uzo>
     <dif>
-      Fiksita <ref tip="super" cel="sum.mon0o">monsumo</ref> kun rento pagenda post regulaj
-      intervaloj, ekz-e
-      &ccirc;iujare, por amortizi &scirc;uldon:
+      Fiksita <ref tip="super" cel="sum.mon0o">monsumo</ref> kun 
+      <ref tip="prt" cel="rent.0o">rento</ref> pagenda post regulaj intervaloj, ekz-e
+      &ccirc;iujare, por <ref cel="amorti.0i">amortizi</ref> &scirc;uldon:
       <ekz>
         en 1522, li ricevis papan <tld/>on pro sia dekanejo en Kolonjo
         <fnt>
@@ -23,6 +23,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="kvot.0o">kvoto</ref>,
+       <ref cel="procen.0o.jara">procento<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_n;&c_u;&c_ib;&c_t;&c_e;&c_t;</trd>,
@@ -43,7 +47,7 @@
   </trdgrp>
   <trd lng="es">anualidad</trd>
   <trd lng="fr">annuit&eacute;</trd>
-  <trd lng="he">&#x5EA;&#x5E9;&#x5DC;&#x5D5;&#x5DD; (&#x5DE;&#x5EA;&#x5D5;&#x5DA;)</trd>
+  <trd lng="he">&tav;&shin;&lamed;&vav;&fmem; (&mem;&tav;&vav;&fkaf;)</trd>
   <trdgrp lng="hu">
     <trd>&eacute;vi <ind>t&ouml;rleszt&eacute;s</ind></trd>,
     <trd>annuit&aacute;s</trd>
@@ -62,6 +66,9 @@
 </art>
 <!--
 $Log$
+versio 1.16 2021/03/02 06:50:09
+Wolfram Diestel: +ref
+
 versio 1.15 2021/03/01 21:55:16
 Wolfram Diestel: +ref
 
@@ -81,8 +88,5 @@ Revision 1.8  2005/02/15 17:31:22  revo
 Paul Peeraerts: ald trd nl
 
 Revision 1.7  2004/02/13 17:30:37  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.6  2003/08/26 16:31:04  revo
 -->
 </vortaro>
