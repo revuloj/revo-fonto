@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kvot.xml,v 1.27 2020/03/08 20:10:16 revo Exp $">
+<art mrk="$Id: kvot.xml,v 1.28 2021/03/03 18:03:08 revo Exp $">
 <kap>
   <rad>kvot</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -73,6 +73,7 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="anuitat.0o">anuitato</ref>,
       <ref cel="porci.0o">porcio</ref>,
       <ref cel="propor.0o.parto_tuto">proporcio<sncref/></ref>,
       <ref cel="procen.0o">procento</ref>,
@@ -168,7 +169,16 @@
   <snc mrk="kvot.profit0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Parto de farita profito.
+      Parto de farita <ref tip="malprt" cel="profit.0o.EKON">profito</ref>:
+      <ekz>
+        a&ubreve; la profit<tld/>o malalti&gcirc;os, a&ubreve; la varo-prezoj kreskos
+        <fnt>
+          <aut>Andr&eacute; Gorz </aut>
+          <vrk><url ref="https://eo.mondediplo.com/article1595.html"
+              >Ilia ekologio kaj la nia</url></vrk>
+          <lok>Le Monde diplomatique' en Esperanto</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_d;&c_o;&c_l;&c_ja; <ind>&c_p;&c_r;&c_y;&c_b;&c_y;&c_t;&c_k;&c_u;</ind></trd>
     <trd lng="de">Gewinnanteil</trd>
@@ -178,23 +188,13 @@
     </trdgrp>
     <trd lng="ru">&c_d;&c_o;&c_l;&c_ja; &c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_i;</trd>
   </snc>
-  <snc mrk="kvot.profit0o.MAH">
-    <uzo tip="fak">MAH</uzo>
-    <dif>
-      Rilato de la plusvaloro al la tuta kapitalo.
-    </dif>
-    <trd lng="be">&c_n;&c_o;&c_r;&c_m;&c_a; <ind>&c_p;&c_r;&c_y;&c_b;&c_y;&c_t;&c_k;&c_u;</ind></trd>
-    <trd lng="de">Rendite</trd>
-    <trd lng="hu">profitr&aacute;ta</trd>
-    <trd lng="nl">winstmarge</trd>
-    <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a; &c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_i;</trd>
-  </snc>
   <trd lng="cs">m&iacute;ra zisku</trd>
   <trd lng="pl">kwota zysku</trd>     
   <trd lng="ro">valoarea profitului</trd>
   <trd lng="sk">podiel na zisku</trd>
 </drv>
 
+<!--
 <drv mrk="kvot.0odeplusvaloro">
   <kap><tld/>o de plusvaloro</kap>
   <snc mrk="kvot.0odeplusvaloro.MAH">
@@ -214,12 +214,12 @@
   &c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
   <trd lng="sk">miera nadhodnoty</trd>
 </drv>
+-->
 
 <drv mrk="kvot.0odeinterezoj">
   <kap><tld/>o de interezoj</kap>
   <snc mrk="kvot.0odeinterezoj.EKON">
     <uzo tip="fak">EKON</uzo>
-    <uzo tip="fak">MAH</uzo>
     <dif>
       Jara proporcio inter la interezoj kaj la &gcirc;in donanta kapitalo.
     </dif>
@@ -233,7 +233,10 @@
 </drv>
 </art>
 <!--
-$Log: kvot.xml,v $
+$Log$
+versio 1.28 2021/03/03 18:03:08
+Wolfram Diestel: +ref, +ekz, forkomentis apenau uzatajn drv/snc
+
 versio 1.27 2020/03/08 20:10:16
 Vito Redsky: +trd pl +trd ro
 
@@ -253,8 +256,5 @@ Revision 1.22  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.21  2015/01/22 20:10:20  revo
-Wolfram Diestel: -tajperaro
-
-Revision 1.20  2014/11/26 09:10:17  revo
 -->
 </vortaro>
