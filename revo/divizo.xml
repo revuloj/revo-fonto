@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: divizo.xml,v 1.39 2020/02/15 20:10:19 revo Exp $">
+<art mrk="$Id: divizo.xml,v 1.40 2021/03/08 15:14:35 revo Exp $">
 <kap>
   <rad>divizor</rad>/o
 </kap>
@@ -13,10 +12,8 @@
     <fnt><bib>MatTerm</bib><lok>p. 10</lok></fnt>
     <uzo tip="klr">(elementa aritmetiko)</uzo>
     <dif>
-      <klr>(de <ref cel="entjer.0o">entjero</ref> <frm
-      am="a"><k>a</k></frm>)</klr>
-      Tia entjero <frm am="b"><k>b</k></frm>, ke <frm
-      am="a"><k>a</k></frm> estas &gcirc;ia
+      <klr>(de <ref cel="entjer.0o">entjero</ref> <frm am="a"><k>a</k></frm>)</klr>
+      Tia entjero <frm am="b"><k>b</k></frm>, ke <frm am="a"><k>a</k></frm> estas &gcirc;ia
       <ref cel="obl.0o">oblo</ref>:
       <ekz>
         praktika avanta&gcirc;o de la dekduuma mezursistemo ku&scirc;as en tio,
@@ -37,15 +34,11 @@
       <klr>(de elemento <frm am="a"><k>a</k></frm> en
       <ref cel="ring.0o.MAT">ringo</ref>
       a&ubreve; multiplike signata <ref cel="monoid.0o">monoido</ref>)</klr>
-      Tia elemento <frm am="b"><k>b</k></frm>, ke por iu <frm
-      am="q"><k>q</k></frm>,
-      <frm am="a=b*q"
-      ><k>a</k> = <k>b</k>&middot;<k>q</k></frm> (maldekstra <tld/>o) a&ubreve;
-      <frm am="a=q*b"
-      ><k>a</k> = <k>q</k>&middot;<k>b</k></frm> (dekstra <tld/>o):
+      Tia elemento <frm am="b"><k>b</k></frm>, ke por iu <frm am="q"><k>q</k></frm>,
+      <frm am="a=b*q"><k>a</k> = <k>b</k>&middot;<k>q</k></frm> (maldekstra <tld/>o) a&ubreve;
+      <frm am="a=q*b"><k>a</k> = <k>q</k>&middot;<k>b</k></frm> (dekstra <tld/>o):
       <ekz>
-        la reela polinomo <frm am="bb X^2+bb 1"
-        ><g>X</g><sup>2</sup>+<g>1</g></frm> ne
+        la reela polinomo <frm am="bb X^2+bb 1"><g>X</g><sup>2</sup>+<g>1</g></frm> ne
         akceptas unuagradajn reelajn <tld/>ojn;
       </ekz>
       <ekz>
@@ -111,8 +104,7 @@
       <ctl><tld/>hava</ctl> a&ubreve; <ctl>dividebla</ctl>). La verbo
       <ctl>dividi</ctl> estas teorie uzebla nur en frazoj de la tipo
       <ekz>
-        mi dividas <frm am="a"><k>a</k></frm> per <frm
-        am="b"><k>b</k></frm>,
+        mi dividas <frm am="a"><k>a</k></frm> per <frm am="b"><k>b</k></frm>,
       </ekz>
       sed la formo <ctl>dividanto</ctl> jam sugestas, ke eblus diri
       <ekz>
@@ -145,6 +137,7 @@
   </trdgrp>
   <trd lng="es">ser <ind>divisor</ind> de</trd>
   <trd lng="fr">diviser<klr tip="ind"> (&ecirc;tre diviseur de)</klr></trd>
+  <trd lng="he">&#x5DC;&#x5D7;&#x5DC;&#x5E7;</trd>
   <trd lng="hu">oszt<klr tip="ind"> (marad&eacute;k n&eacute;lk&uuml;l)</klr></trd>  
   <trd lng="pl">by&cacute; podzielnikiem</trd>
   <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_mol; &c_b;&c_je;&c_z; &c_o;&c_s;&c_t;&c_a;&c_t;&c_k;&c_a;</trd>
@@ -222,9 +215,8 @@
     <dif>
       Tia nenula elemento <frm am="p"><k>p</k></frm> en
       <ref cel="ring.0o.MAT">ringo</ref>, ke por nenula elemento
-      <frm am="q"><k>q</k></frm> veras, ke <frm am="p xx q"
-      ><k>p</k>&#215;<k>q</k></frm>
-      a&ubreve; <frm am="q xx p"><k>q</k>&#215;<k>p</k></frm> egalas al
+      <frm am="q"><k>q</k></frm> veras, ke <frm am="p xx q"><k>p</k>&#xD7;<k>q</k></frm>
+      a&ubreve; <frm am="q xx p"><k>q</k>&#xD7;<k>p</k></frm> egalas al
       <ref cel="nul0.0o.neuxtra">nulo</ref>:
       <ekz>
         &ccirc;iu <ref cel="kvadra1.0egala">kvadrategala</ref>
@@ -232,10 +224,8 @@
         <frm am="(bb E,+)">(<g>E</g>,+)</frm> al
         si mem, egala nek al la nulo nek al la idento, estas nul<tld/>o
         kadre
-        de <frm am="(bb E^(bb E),+,circ)"
-        >(<g>E</g><sup><g>E</g></sup>,+,&#9702;)</frm>, &ccirc;ar
-        <frm am='p circ("id"_(bb E)-p)=0'
-        ><k>p</k>&#9702;(id<sub><g>E</g></sub>-<k>p</k>) = 0</frm>.
+        de <frm am="(bb E^(bb E),+,circ)">(<g>E</g><sup><g>E</g></sup>,+,&#x25E6;)</frm>, &ccirc;ar
+        <frm am="p circ(&quot;id&quot;_(bb E)-p)=0"><k>p</k>&#x25E6;(id<sub><g>E</g></sub>-<k>p</k>) = 0</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -262,8 +252,7 @@
       <ref cel="ring.0o.MAT">ringo</ref>)</klr>
       Tia <ref cel="divizo.0o"><tld/>o</ref>, ke &gcirc;i estas nek
       <ref cel="invers.0igebla.MAT">inversigebla</ref>, nek
-      <ref cel="divid.0ebla.MAT">dividebla</ref> per <frm
-      am="a"><k>a</k></frm>:
+      <ref cel="divid.0ebla.MAT">dividebla</ref> per <frm am="a"><k>a</k></frm>:
       <ekz>
         propraj <tld/>oj de natura entjero estas &ccirc;iuj &gcirc;iaj <tld/>oj
         krom &gcirc;i kaj <frm>1</frm>;
@@ -286,6 +275,7 @@
   <trd lng="de">echter <ind>Teiler</ind></trd>
   <trd lng="en">proper <ind>divisor</ind></trd>
   <trd lng="fr">diviseur propre</trd>
+  <trd lng="he">&#x5DE;&#x5D7;&#x5DC;&#x5E7; &#x5E2;&#x5E6;&#x5DE;&#x5D9;</trd>
   <trd lng="hu">val&oacute;di <ind>oszt&oacute;</ind></trd>
   <trd lng="pl">dzielnik w&lstroke;asny</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j; <ind>&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;</ind></trd>
@@ -313,6 +303,7 @@
     <trd>plus grand commun <ind>diviseur</ind></trd>,
     <trd>P.G.C.D.</trd>
   </trdgrp>
+  <trd lng="he">&#x5D4;&#x5DE;&#x5D7;&#x5DC;&#x5E7; &#x5D4;&#x5DE;&#x5E9;&#x5D5;&#x5EA;&#x5E3; &#x5D4;&#x5D2;&#x5D3;&#x5D5;&#x5DC; &#x5D1;&#x5D9;&#x5D5;&#x5EA;&#x5E8;</trd>
   <trd lng="hu">legnagyobb k&ouml;z&ouml;s <ind>oszt&oacute;</ind></trd>
   <trdgrp lng="pl">
     <trd>najwi&eogonek;kszy wsp&oacute;&lstroke;ny <ind>dzielnik</ind></trd>,

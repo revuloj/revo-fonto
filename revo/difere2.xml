@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: difere2.xml,v 1.25 2020/02/14 12:10:20 revo Exp $">
+<art mrk="$Id: difere2.xml,v 1.26 2021/03/08 15:14:34 revo Exp $">
 <kap>
   <rad>diferencial</rad>/o
 </kap>
@@ -19,31 +18,25 @@
       Tia <ref cel="kontin3.0a.cxie">kontinua</ref>
       <ref tip="super" cel="homomo.0o">homomorfio</ref>
       <frm am="u"><k>u</k></frm>, ke
-      <frm am="f(a+h)-f(a)=u(h)+||h||*epsilon)"
-      ><k>f</k>(<k>a</k>+<k>h</k>)-<k>f</k>(<k>a</k>) =
+      <frm am="f(a+h)-f(a)=u(h)+||h||*epsilon)"><k>f</k>(<k>a</k>+<k>h</k>)-<k>f</k>(<k>a</k>) =
       <k>u</k>(<k>h</k>)+||<k>h</k>||&middot;&epsilon;(<k>h</k>)</frm>, kie la 
-      bildigo <frm am="epsilon">&epsilon;</frm>&nbsp; <klr> </klr><ref
-      cel="streb.0i.MAT">strebas</ref> al 
+      bildigo <frm am="epsilon">&epsilon;</frm>&nbsp; <klr> </klr><ref cel="streb.0i.MAT">strebas</ref> al 
       nulo, kiam <frm am="h"><k>h</k></frm> strebas al nulo:
       <ekz>
-        la <tld/>on de <frm am="f"><k>f</k></frm> &ccirc;e <frm
-        am="a"><k>a</k></frm> oni 
+        la <tld/>on de <frm am="f"><k>f</k></frm> &ccirc;e <frm am="a"><k>a</k></frm> oni 
         plejofte signas per <frm am="df(a)">d<k>f</k>(<k>a</k>)</frm>,
         <frm am="df_a">d<k>f</k><sub><k>a</k></sub></frm>, 
-        a&ubreve; <frm am="f&#8242;(a)"><k>f</k>&#8242;(<k>a</k>)</frm>;
+        a&ubreve; <frm am="f&#x2032;(a)"><k>f</k>&#x2032;(<k>a</k>)</frm>;
       </ekz>
       <ekz>
         la <tld/>o &ccirc;e punkto <frm am="a"><k>a</k></frm> de reela
         <ref cel="deriv.0i.MAT">derivebla</ref>
         <ref cel="funkci.0o.MAT">funkcio</ref>
-        <frm am="y=f(x)"
-        ><k>y</k> = <k>f</k>(<k>x</k>)</frm> 
+        <frm am="y=f(x)"><k>y</k> = <k>f</k>(<k>x</k>)</frm> 
         estas la lineara funkcio, kiu
-        &jcirc;etas ajnan nombron <frm am="dx"
-        >d<k>x</k></frm> <klr> (nomatan 
+        &jcirc;etas ajnan nombron <frm am="dx">d<k>x</k></frm> <klr> (nomatan 
         <tld/>o de la argumento)</klr> al 
-        <frm am="dy=f&#8242;(a)*dx"
-        >d<k>y</k> = <k>f</k>&#8242;(<k>a</k>)&middot;d<k>x</k></frm>.
+        <frm am="dy=f&#x2032;(a)*dx">d<k>y</k> = <k>f</k>&#x2032;(<k>a</k>)&middot;d<k>x</k></frm>.
       </ekz>
     </dif>
   </snc>
@@ -53,8 +46,7 @@
       <frm am="f"><k>f</k></frm> inter du
       <ref cel="spac.normohava0o">normohavaj spacoj</ref>)</klr>
       La bildigo, kiu &jcirc;etas &ccirc;iun punkton de la fonto-aro
-      de <frm am="f"><k>f</k></frm> al la <ref
-      cel="difere2.0o.cxepunkto"><tld/>o
+      de <frm am="f"><k>f</k></frm> al la <ref cel="difere2.0o.cxepunkto"><tld/>o
       <sncref/></ref> de <frm am="f"><k>f</k></frm> &ccirc;e tiu punkto:
       <ekz>
         dua <tld/>o <klr>(<tld/>o de la <tld/>o)</klr>,
@@ -72,6 +64,10 @@
   <trd lng="de">Differential</trd>
   <trd lng="en">differential</trd>
   <trd lng="fr">diff&eacute;rentielle<klr tip="ind"> (math.)</klr></trd>
+  <trdgrp lng="he">
+    <trd>&#x5D3;&#x5D9;&#x5E4;&#x5E8;&#x5E0;&#x5E6;&#x5D9;&#x5D0;&#x5DC;</trd>,
+    <trd>&#x5D4;&#x5D1;&#x5D3;&#x5DC;</trd>
+  </trdgrp>
   <trd lng="pl">r&oacute;&zdot;niczka</trd>
   <trd lng="pt">diferencial</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;</trd>
@@ -107,6 +103,7 @@
   <trd lng="de">differenzieren</trd>
   <trd lng="en">differentiate</trd>
   <trd lng="fr">diff&eacute;rentier</trd>
+  <trd lng="he">&#x5D4;&#x5E4;&#x5E8;&#x5E9;&#x5D9;&#x5DD;</trd>
   <trd lng="pl">r&oacute;&zdot;niczkowa&cacute;</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">diferencova&tcaron;</trd>
@@ -163,6 +160,7 @@
   <trd lng="de">differenzierbar</trd>
   <trd lng="en">differentiable</trd>
   <trd lng="fr">diff&eacute;rentiable</trd>
+  <trd lng="he">&#x5D2;&#x5B8;&#x5D6;&#x5B4;&#x5D9;&#x5E8;</trd>
   <trd lng="pl">r&oacute;&zdot;niczkowalny</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
 </drv>
