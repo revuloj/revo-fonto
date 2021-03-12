@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: puls.xml,v 1.21 2015/07/04 08:37:42 revo Exp $">
+<art mrk="$Id: puls.xml,v 1.22 2021/03/12 06:56:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>puls</rad>/o
@@ -14,19 +14,38 @@
     <dif>
       Batado de la arterioj, ka&ubreve;zita de la sangofluo:
       <ekz>
+        <klr>[li]</klr> sentis, ke la <tld/>o batas en liaj tempioj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         palpi al iu la <tld/>on
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        mia <tld/>o en takto batas<fnt>Z</fnt>;
+        mia <tld/>o en takto batas
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        kiom da <tld/>obatoj minute?
+        kiam la kuracisto ekkaptos vian malvarman kaj malsekan manon kaj apena&ubreve; trovos
+        la formortantan <tld/>on
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        por irigi la <tld/>on de la monda societo<fnt>Z</fnt>
-        <klr>(por vigligi &gcirc;in)</klr>.
+        ekzistas certaj societaj interkonsentoj, kiujn oni aran&gcirc;is, por irigi la
+        <tld/>on de la monda societo <klr>(por vigligi &gcirc;in)</klr>
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_p;&c_u;&c_l;&c_mol;&c_s;</trd>
@@ -54,23 +73,31 @@
         la valsa mezuro estas <ind>tri<tld/>a</ind>;
         <trd lng="fr">&agrave; trois <ind>temps</ind></trd>
         <trd lng="nl">driekwarts-</trd>
-        <trd 
-lng="ru">&c_t;&c_r;&c_jo;&c_h;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+        <trd lng="ru">&c_t;&c_r;&c_jo;&c_h;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
       </ekz>
       <ekz>
-        en la takto &#190; &ccirc;iu mezuro havas tri <tld/>ojn
+        en la takto ¾ &ccirc;iu mezuro havas tri <tld/>ojn
         <fnt>
         <aut>B. </aut>:
         <vrk>Rokmuzika Terminaro</vrk>,
-        <lok><url
-        ref="http://purl.oclc.org/net/bertilow?d=roko/tuvz.php#takto"
-        >&leftquot;takto&rightquot;</url></lok>.
-        </fnt>.
+        <lok><url ref="http://purl.oclc.org/net/bertilow?d=roko/tuvz.php#takto">&leftquot;takto&rightquot;</url></lok>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>&ccirc;ef<tld/>o</ind>
+        <klr>(unua pulso de  <ref tip="malprt" cel="mezur.0o.MUZ">mezuro</ref>)</klr>.
+        <trdgrp lng="de">
+          <trd>Schlag <klr>(Takt)</klr></trd>,
+          <trd>Grundschlag</trd>,
+        </trdgrp>
+        <trd lng="en">downbeat</trd>
+        <trd lng="nl">eerste <ind>tel</ind> v.e. maat</trd>
       </ekz>
     </dif>
     <trd lng="be">&c_d;&c_o;&c_l;&c_ja; <klr>(&c_u; 
 &c_m;&c_u;&c_z;&c_y;&c_c;&c_y;)</klr></trd>
     <trd lng="ca">temps<klr> (musical)</klr></trd>
+    <trd lng="de">Z&auml;hlzeit <klr>(Takt)</klr></trd>
     <trdgrp lng="en">
       <trd>beat</trd>,
       <trd>pulse</trd>
@@ -99,11 +126,23 @@ lng="ru">&c_t;&c_r;&c_jo;&c_h;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 <drv mrk="puls.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="puls.0i.sango">
     <dif>
-      Sentigi batadon, pp arterioj:
+      Ritme traflui la arteriojn:
       <ekz>
-        sub la kadavrokolora ha&ubreve;to jam ne <tld/>as vivo.
+        kun &ccirc;iu pa&scirc;o la vangoj de la re&gcirc;ido brulis pli varmege, lia sango <tld/>is pli
+        forte
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iam pli rapide <tld/>is la sango en la malforta korpo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La najtingalo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="hu">
@@ -112,21 +151,48 @@ lng="ru">&c_t;&c_r;&c_jo;&c_h;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
       <trd>dobog</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="puls.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Sentigi sian energion per drastaj efikoj:
       <ekz>
-        vigla vivo <tld/>as en la urbo, en nia asocio;
+        printempo <tld/>is tra l' &gcirc;arden'
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+          <lok>La&ubreve; Vidpunkto de Heliko</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li esprimas la sentojn, kiuj <tld/>as en li;
+        <klr>[en]</klr> la iama juda kvartalo <klr>[&#8230;]</klr> la vivo <tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zofia Banet-Fornalowa</aut>
+          <vrk><url ref="https://www.monato.be/2009/009788.php"
+              >Muzeo pri la historio de pollandaj judoj</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>        
+        &scirc;ia ventro <klr>[&#8230;]</klr> <tld/>is kun la ritmo de &scirc;ia koro
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007215.html"
+              >La peko de Ros</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        printempo <tld/>is tra l' &gcirc;ardeno;
-      </ekz>
-      <ekz>
-        <tld/>anta trafiko.
+        oni metas anta&ubreve; nin iun universon <klr>[&#8230;]</klr> supozeble <tld/>antan de
+        sendimensia punkto al eksplodo kaj reen, a&ubreve; dancantan la&ubreve; la takto de la
+        teorio de la kordoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alberto Garc&iacute;a Fumero</aut>
+          <vrk><url ref="https://www.monato.be/2014/011252.php"
+              >Scienco kaj religio kunfluu, ne kverelu</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -156,34 +222,20 @@ lng="ru">&c_t;&c_r;&c_jo;&c_h;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
     <trd>&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;<klr tip="ind"> (&c_o; 
 &c_p;&c_u;&c_l;&c_mol;&c_s;&c_je;)</klr></trd>
   </trdgrp>
-  <trd lng="sk">pulzovať</trd>
-</drv>
-
-<drv mrk="puls.cxef0o">
-  <kap>&ccirc;ef<tld/>o</kap>
-  <snc>
-    <uzo tip="fak">MUZ</uzo>
-    <dif>
-      La unua pulso de
-      <ref tip="malprt" cel="mezur.0o.MUZ">mezuro</ref>,
-      kiu normale havas la &ccirc;efan akcenton.
-    </dif>
-    <trd lng="en">downbeat</trd>
-    <trd lng="nl">eerste <ind>tel</ind> v.e. maat</trd>
-  </snc>
+  <trd lng="sk">pulzova&tcaron;</trd>
 </drv>
 
 <drv mrk="puls.lum0i">
   <kap>lum<tld/>i</kap>
-  <fnt><lok><url
-  ref="&KompLeks;/PR.html#PULSADO">KompLeks</url></lok></fnt>
-  <snc>
+  <fnt><lok><url ref="&KompLeks;/PR.html#PULSADO">KompLeks</url></lok></fnt>
+  <snc mrk="puls.lum0i.TEK">
     <uzo tip="fak">TEK</uzo>
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Regule intermite lumi.
     </dif>
   </snc>
+  <trd lng="de">blinken</trd>
   <trd lng="en">blink</trd>
   <trdgrp lng="nl">
     <trd>knipperen</trd>,
@@ -193,14 +245,16 @@ lng="ru">&c_t;&c_r;&c_jo;&c_h;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_i;&c_g;&c_a;&c_t;&c_mol;</trd>,
     
-<trd>&c_p;&c_u;&c_l;&c_mol;&c_s;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;<klr 
-tip="amb"> (&c_o; &c_s;&c_v;&c_je;&c_t;&c_je;)</klr></trd>
+<trd>&c_p;&c_u;&c_l;&c_mol;&c_s;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;<klr tip="amb"> (&c_o; &c_s;&c_v;&c_je;&c_t;&c_je;)</klr></trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.22 2021/03/12 06:56:17
+Wolfram Diestel: ekz-oj, chef~o kiel ekz, ne drv (manke de konvenaj citoj)
+
 Revision 1.20  2015/06/29 16:40:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -220,11 +274,5 @@ Revision 1.15  2005/09/04 17:49:18  revo
 Yury Finkel: +lum~i
 
 Revision 1.14  2005/05/12 16:32:06  revo
-Lluis Batlle i Rossell: +trd ca,es
-
-Revision 1.13  2003/07/26 08:43:58  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2002/06/04 18:01:48  revo
 -->
 </vortaro>
