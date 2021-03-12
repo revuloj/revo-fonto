@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: inkogn.xml,v 1.19 2015/07/04 12:10:14 revo Exp $">
+<art mrk="$Id: inkogn.xml,v 1.20 2021/03/12 17:17:56 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>inkognit</rad>/o
@@ -24,7 +24,10 @@
         <fnt><bib>Revizoro</bib><lok>1:2</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="anonim">anonimulo.</ref>
+    <refgrp tip="sin">
+       <ref cel="anonim">anonimulo</ref>,
+       <ref cel="kon.ne0ato.KOMUNE">nekonato<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_ib;&c_n;&c_k;&c_o;&c_g;&c_n;&c_ib;&c_t;&c_a; <klr>(&c_n;&c_je;&c_h;&c_t;&c_a;)</klr></trd>
     <trd lng="ca">inc&ograve;gnit</trd>
     <trdgrp lng="fr">
@@ -78,7 +81,7 @@
 
 <drv mrk="inkogn.0e">
   <kap><tld/>e</kap>
-  <snc>
+  <snc mrk="inkogn.0e.nerekonate">
     <dif>
       Nerekonate, kiel <tld/>o <sncref ref="inkogn.0o.ulo"/>:
       <ekz>
@@ -88,9 +91,31 @@
       </ekz>
       <ekz>
         la gazetoj anoncas, ke la re&gcirc;o alvenis <tld/>e al Parizo
-        <fnt><bib>PV</bib></fnt>.
+        <fnt><bib>PV</bib></fnt>;
+      </ekz>
+      <ekz>
+        ni decidis pasigi la unuajn plene komunajn noktojn en tiu &ccirc;i hotelo, tute
+        <tld/>e, for de la cetera mondo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2004/008357.html">La unua nokto</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i voja&gcirc;is <tld/>e, defendata de nigraj okulvitroj kaj vasta &ccirc;apelranda&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julia Sigmond kaj Sen Rodin</aut>
+          <vrk><url ref="https://www.monato.be/2010/009988.php">La mal&jcirc;aluzo de Klorinda</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="anonim.0a">anonima</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_ib;&c_n;&c_k;&c_o;&c_g;&c_n;&c_ib;&c_t;&c_a; <klr>(&c_p;&c_r;&c_y;&c_s;&c_l;.)</klr></trd>,
@@ -108,12 +133,20 @@
 
 <drv mrk="inkogn.0eco">
   <kap><tld/>eco</kap>
-  <snc>
+  <snc mrk="inkogn.0eco.stato">
     <dif>
       Stato de <tld/>o <sncref ref="inkogn.0o.ulo"/>, nerekonateco:
       <ekz>
         mi profitis de tiu <tld/>eco por momente konversacii kun homo
-        <fnt><bib>Revadoj</bib><lok>Na&ubreve;a promenado</lok></fnt>.
+        <fnt><bib>Revadoj</bib><lok>Na&ubreve;a promenado</lok></fnt>;
+      </ekz>
+      <ekz>
+        li estis decidinta, ankora&ubreve; teni sian <tld/>econ
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Ar&gcirc;enta Urbo Amarganto</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -123,6 +156,10 @@
   </trdgrp>
   <trd lng="ca">anonimat</trd>
   <trd lng="cs">inkognito</trd>
+  <trdgrp lng="de">
+    <trd>Anonymit&auml;t</trd>,
+    <trd>Tarnung <klr>(Inkognito)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>incognito<klr tip="ind"> (subst., &eacute;tat)</klr></trd>,
     <trd>anonymat</trd>
@@ -137,6 +174,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2021/03/12 17:17:56
+Wolfram Diestel: pliaj ekz-oj, ref-oj
+
 Revision 1.18  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
 
