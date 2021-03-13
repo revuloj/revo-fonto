@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: panel.xml,v 1.24 2021/03/10 12:10:56 revo Exp $">
+<art mrk="$Id: panel.xml,v 1.25 2021/03/13 22:11:14 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>panel</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
@@ -20,9 +20,25 @@
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="panel.0o.grupo">
     <dif>
       Grupo de spertuloj diskutantaj pri specifa temo:
+      <ekz>
+        la iama usona prezidanto-kandidato <nom>Al Gore</nom> kaj la Interregistara <tld lit="P"/>o
+        pri Klimataj &Scirc;an&gcirc;i&gcirc;oj (IPCC) ricevis la pacpremion por la jaro 2007
+        <fnt>
+          <aut>Claude Rouget</aut>,
+          <vrk><url ref="https://www.monato.be/2008/009374.php">&Ccirc;u Al Gore meritas
+          pacpremion?</url></vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 2008a, numero 1a, p. 8a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="panel.0o.diskuto">
+    <dif>
+      <ref tip="dif" cel="panel.0diskuto.diskuto"><tld lit="P"/>diskuto</ref>:
       <ekz>
         dum la <tld/>o la esperantistoj kaj sciencistoj <nom>Jos&eacute; Antonio Vergara</nom>,
         <nom>Margaret Zaleski-Zamenhof</nom> kaj <nom>Amri Wandel</nom> diskutos pri la pandemio kaj
@@ -33,37 +49,6 @@
           13-an de marto, 15h00 UTC</vrk>,
           <lok><url ref="https://uea.org/gk/934">
           Gazetaraj Komuniko, 2021-03-06 (934)</url></lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        dum la virtuala konferenco vin atendos [...] <ind><tld/>diskuto</ind>j de fakuloj
-        <trd lng="en">panel discussion</trd>
-        <fnt>
-          <aut>Sonja Zaretskaia</aut>,
-          <vrk><url ref="https://sezonoj.ru/2020/09/kaest-4/">KAEST 2020: virtuala Konferenco pri
-          Aplikoj de Esperanto en Scienco kaj Tekniko</url></vrk>,
-          <lok>La Ondo de Esperanto, 2020-09-10</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la&ubreve; invito de la organizantoj, <nom>Anna Bartek</nom>, <nom>Tomasz Chmielik</nom>,
-        <nom>Zbigniew Galor</nom> kaj <nom>Ilona Koutny</nom> partoprenis en <tld/>diskuto pri
-        seksismo en Esperantio
-        <fnt>
-          <vrk><url ref="https://www.esperantio.net/index.php?id=2490">Paneldiskuto pri seksismo dum
-          ArKonEs 2014</url></vrk>
-          <lok>HeKo 566 5-B, 4 okt 14</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la iama usona prezidanto-kandidato <nom>Al Gore</nom> kaj la Interregistara <tld lit="P"/>o
-        pri Klimataj &Scirc;an&gcirc;i&gcirc;oj (IPCC) ricevis la pacpremion por la jaro 2007
-        <fnt>
-          <aut>Claude Rouget</aut>,
-          <vrk><url ref="https://www.monato.be/2008/009374.php">&Ccirc;u Al Gore meritas
-          pacpremion?</url></vrk>,
-          <bib>Monato</bib>,
-          <lok>jaro 2008a, numero 1a, p. 8a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -229,9 +214,41 @@
   <trd lng="es">panel solar</trd>
   <trd lng="fr">panneau solaire</trd>
 </drv>
+
+<drv mrk="panel.0diskuto">
+  <kap><tld/>diskuto</kap>
+  <snc mrk="panel.0diskuto.diskuto">
+    <dif>
+      Diskuto de <ref tip="vid" cel="panel.0o.grupo"><tld/>o<sncref/></ref>:
+      <ekz>
+        dum la virtuala konferenco vin atendos [...] <tld/>diskutoj de fakuloj
+        <fnt>
+          <aut>Sonja Zaretskaia</aut>,
+          <vrk><url ref="https://sezonoj.ru/2020/09/kaest-4/">KAEST 2020: virtuala Konferenco pri
+          Aplikoj de Esperanto en Scienco kaj Tekniko</url></vrk>,
+          <lok>La Ondo de Esperanto, 2020-09-10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; invito de la organizantoj, <nom>Anna Bartek</nom>, <nom>Tomasz Chmielik</nom>,
+        <nom>Zbigniew Galor</nom> kaj <nom>Ilona Koutny</nom> partoprenis en <tld/>diskuto pri
+        seksismo en Esperantio
+        <fnt>
+          <vrk><url ref="https://www.esperantio.net/index.php?id=2490">Paneldiskuto pri seksismo dum
+          ArKonEs 2014</url></vrk>
+          <lok>HeKo 566 5-B, 4 okt 14</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">panel discussion</trd>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.25 2021/03/13 22:11:14
+Robin van der Vliet: paneldiskuto aldonita, senco disigita
+
 versio 1.24 2021/03/10 12:10:56
 Robin van der Vliet: interpunkcio korektita
 
@@ -251,8 +268,5 @@ Revision 1.18  2014/02/15 02:10:13  revo
 Jeromo Vasxe: + sun~o
 
 Revision 1.17  2013/03/09 16:10:18  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2012/03/07 12:10:09  revo
 -->
 </vortaro>
