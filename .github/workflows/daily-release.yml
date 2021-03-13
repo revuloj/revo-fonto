@@ -161,7 +161,7 @@ jobs:
         formiko srv-sqlite-db-tuto
 
 # vd. https://github.com/actions/upload-release-asset
-    - name: Retrovu la rezultintajn ZIP-dosierujojn
+    - name: Retrovu la rezultintajn ZIP-dosierojn
       id: retrovu_zip
       run: |
         ls -l $GITHUB_WORKSPACE/tgz
@@ -188,6 +188,77 @@ jobs:
         asset_path: tgz/${{ steps.retrovu_zip.outputs.revosql }}
         asset_name: ${{ steps.retrovu_zip.outputs.revosql }}
         asset_content_type: application/zip
+
+  xdxf:
+    needs: eldono
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: "Hodiaŭ..."
+      run: |
+        Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
+        echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
+
+    - name: Eltrovu la URL de la hodiaŭa eldono
+      uses: actions/github-script@0.4.0
+      id: retrieve_release
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        debug: true
+        script: |
+            const release = await github.repos.getReleaseByTag({
+                owner: context.repo.owner,
+                repo: context.repo.repo,            
+                tag: 'v${{ env.TAGO }}'
+            })
+            const upload_url = release.data.upload_url            
+            console.log('UploadURL is: '+upload_url)
+            console.log('::set-output name=upload_url::'+upload_url)
+
+##'
+## const core = require('@actions/core')
+## core.setOutput('upload_url', upload_url)
+
+    - name: Elŝutu la dosierojn 
+      uses: actions/checkout@v1
+    - name: Saluto al docker.pkg.github.com
+        # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
+        # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
+      run: docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+      env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Prenu procesumon voko-formiko
+      run: docker pull "docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
+        mkdir $GITHUB_WORKSPACE/tgz
+        #mkdir $GITHUB_WORKSPACE/tmp
+        chmod 777 $GITHUB_WORKSPACE/t??
+        ls -l $GITHUB_WORKSPACE
+    - name: Kreu XDXF-dosieron el la XML-dosieroj
+      run: docker run --name voko-formiko 
+        -v $GITHUB_WORKSPACE/revo:/home/formiko/revo/xml 
+        -v $GITHUB_WORKSPACE/tgz:/home/formiko/tgz
+        docker.pkg.github.com/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} 
+        formiko dict-xdxf-zip
+
+# vd. https://github.com/actions/upload-release-asset
+    - name: Retrovu la rezultintajn ZIP-dosieron
+      id: retrovu_zip
+      run: |
+        ls -l $GITHUB_WORKSPACE/tgz
+        echo "::set-output name=revoxdxf::$(basename -- tgz/revoxdxf_20*.zip)"
+
+    - name: Alpendigu xdxf
+      id: upload-xdxf 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.retrieve_release.outputs.upload_url }} 
+        asset_path: tgz/${{ steps.retrovu_zip.outputs.revoxdxf }}
+        asset_name: ${{ steps.retrovu_zip.outputs.revoxdxf }}
+        asset_content_type: application/zip   
 
   revo-med-inx-tez:
     needs: eldono
