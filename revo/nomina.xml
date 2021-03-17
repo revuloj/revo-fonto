@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nomina.xml,v 1.19 2015/07/04 08:37:40 revo Exp $">
+<art mrk="$Id: nomina.xml,v 1.20 2021/03/17 21:49:15 revo Exp $">
 <kap>
    <ofc>3</ofc>
    <rad>nominal</rad>/a
 </kap>
 <drv mrk="nomina.0a">
    <kap><tld/>a</kap>
-   <snc>
+   <snc mrk="nomina.0a.KOMUNE">
      <dif>
        Noma, posedanta nur la nomon, ne la efektivan povon kaj rajton:
        <ekz>
@@ -21,14 +21,13 @@
         <trd><klr>dem </klr>Namen <ind>nach</ind></trd>
      </trdgrp>
    </snc>
-   <snc>
+   <snc mrk="nomina.0a.EKON">
      <dif>
        Indikanta la valoron de io per cifero diferenca je la efektiva
        valoro:
        <ekz>
-         a&gcirc;io estas la diferenco inter la <tld/>a kaj la efektiva 
-la&ubreve;kurza
-         valoro.
+         a&gcirc;io estas la diferenco inter la <tld/>a kaj la efektiva
+         la&ubreve;kurza valoro.
        </ekz>
      </dif>
      <trdgrp lng="de">
@@ -38,11 +37,10 @@ la&ubreve;kurza
    </snc>
   <trd lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trdgrp lng="cs">
-    <trd>jmenovitý</trd>,
-    <trd>nominální</trd>
+    <trd>jmenovit&yacute;</trd>,
+    <trd>nomin&aacute;ln&iacute;</trd>
   </trdgrp>
-  <trd 
-lng="el">&omikron;&ny;&omikron;&my;&alfa;&sigma;&tau;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
+  <trd lng="el">&omikron;&ny;&omikron;&my;&alfa;&sigma;&tau;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
   <trd lng="fr">nominal</trd>
   <trdgrp lng="hu">
      <trd>n&eacute;vleges</trd>,
@@ -50,28 +48,37 @@ lng="el">&omikron;&ny;&omikron;&my;&alfa;&sigma;&tau;&jota;&kappa;&omikron_ton;&
    </trdgrp>
   <trd lng="nl">nominaal</trd>
   <trd lng="pt">nominal</trd>
-  <trd 
-lng="ru">&c_n;&c_o;&c_m;&c_i;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_n;&c_o;&c_m;&c_i;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
-    <trd>menovitá</trd>,
-    <trd>nominálna</trd>
+    <trd>menovit&aacute;</trd>,
+    <trd>nomin&aacute;lna</trd>
   </trdgrp>
 </drv>
 
-<drv mrk="nomina.0alavaloro">
-   <kap><tld/>a valoro</kap>
-   <uzo tip="fak">EKON</uzo>
-   <snc>
+<drv mrk="nomina.0o">
+   <kap><tld/>o,
+   <var><kap><tld/>a valoro</kap></var></kap>
+   <snc mrk="nomina.0o.EKON">
+     <uzo tip="fak">EKON</uzo>
      <dif>
-       Valoro indikita sur la dokumento, ne nepre estanta la merkata 
-valoro, ekz-e sur akcioj.
+       Valoro indikita sur la dokumento, ne nepre estanta la merkata
+       valoro, ekzemple sur akcioj:
+      <ekz>
+        Julia kunfondis Internacian Esperanto-Instituton kaj Universalan Ligon kaj
+        kuneldonis la metalajn Stelo-monerojn, kies <tld/>oj estas 1, 5, 10 kaj 25
+        Steloj
+        <fnt>
+          <aut>W. Klag</aut>
+          <vrk><url ref="https://revuoesperanto.org/steloj"
+              >Julia Isbr&uuml;cker - Jaro 2020, invito al kunlaboro</url></vrk>
+          <lok>Revuo Esperanto, 2020-04-22</lok>
+        </fnt>.
+      </ekz>
      </dif>
      <trd lng="de">Nennwert</trd>
    </snc>
-  <trd 
-lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; 
-&c_v;&c_a;&c_r;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
-  <trd lng="cs">nominální hodnota</trd>
+  <trd lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_v;&c_a;&c_r;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="cs">nomin&aacute;ln&iacute; hodnota</trd>
   <trd lng="fr">valeur <ind>nominale</ind></trd>
   <trdgrp lng="hu">
      <trd>n&eacute;vleges &eacute;rt&eacute;k</trd>,
@@ -79,24 +86,19 @@ lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
      <trd>nomim&aacute;lis &eacute;rt&eacute;k</trd>
    </trdgrp>
   <trd lng="nl">nominale waarde</trd>
-  <trd 
-lng="ru">&c_n;&c_o;&c_m;&c_i;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; 
-&c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;</trd>
-  <trd lng="sk">menovitá hodnota</trd>
+  <trd lng="ru">&c_n;&c_o;&c_m;&c_i;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">menovit&aacute; hodnota</trd>
 </drv>
 
 <drv mrk="nomina.0ismo">
    <kap><tld/>ismo</kap>
-   <uzo tip="fak">FIL</uzo>
-   <snc>
+   <snc mrk="nomina.0ismo.FIL">
+     <uzo tip="fak">FIL</uzo>
      <dif>
        Doktrino, la&ubreve; kiu la &gcirc;eneralaj ideoj estas nur 
-nomoj, kaj ne posedas
-       ian realan ekziston..
+       nomoj, kaj ne posedas ian realan ekziston,
+       kontraste al <ref tip="ant" cel="real.0ismo.FIL">realismo<sncref/></ref>.
      </dif>
-     <refgrp tip="sin">
-       <ref cel="real.0ismo">realismo</ref>.
-     </refgrp>
    </snc>
   <trd lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
   <trd lng="cs">nominalizmus</trd>
@@ -111,6 +113,9 @@ nomoj, kaj ne posedas
 </art>
 <!--
 $Log$
+versio 1.20 2021/03/17 21:49:15
+Jeromo Vasxe: + formo ~o
+
 Revision 1.18  2015/06/29 16:33:21  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -130,11 +135,5 @@ Revision 1.13  2003/09/01 16:31:37  revo
 Yury Finkel: +trd ru
 
 Revision 1.12  2003/06/16 16:31:26  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/12/21 17:31:20  revo
-Ulrich Fellmann: + 2 pliaj trd de
-
-Revision 1.10  2002/06/25 19:41:40  revo
 -->
 </vortaro>
