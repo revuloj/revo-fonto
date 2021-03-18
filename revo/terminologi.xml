@@ -2,59 +2,141 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: terminologi.xml,v 1.10 2015/09/28 12:10:22 revo Exp $">
+<art mrk="$Id: terminologi.xml,v 1.11 2021/03/18 18:00:05 revo Exp $">
 <kap>
   <rad>terminologi</rad>/o
 </kap>
 
 <drv mrk="terminologi.0o">
   <kap><tld/>o</kap>
-  <snc mrk="terminologi.0o.LIN">
-    <uzo tip="fak">LIN</uzo>
+  <uzo tip="fak">LIN</uzo>
+  <snc mrk="terminologi.0o.terminaro">
     <dif>
-      Terminoscienco, fako de lingvoscienco studanta fakajn esprimojn,
-      terminojn, <ref tip="vid" cel="termin.0aro.LIN">terminarojn</ref>:
+      Kompleta <ref tip="dif" cel="termin.0aro">terminaro</ref> de iu fako:
       <ekz>
-        <ctl><tld/>a kurso</ctl>
+        Svedio <klr>[ne]</klr> insistu pri traduko de patentoj svedlingven,
+        &ccirc;ar la <tld/>o ne ekzistis en multaj terenoj
         <fnt>
-        <aut>Jan Werner</aut>,
-        <vrk>Terminologia Kurso</vrk>,
-        <lok>1986</lok>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="https://www.monato.be/2003/008126.html"
+              >Patentoj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Borsa terminaro kvinlingva estas granda kontribuo al la faka <tld/>o pri
+        ekonomiko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Hin&scaron;t</aut>
+          <vrk><url ref="https://www.monato.be/2005/008517.php"
+              >Suplemento al ekonomiaj terminaroj</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la enhavo estas malnovskola prezento de gramatikaj temoj, uzanta la <tld/>on kaj
+        aran&gcirc;on grek-latinajn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007078.html"
+              >Gramatiko detala kaj tradicia</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia <tld/>o bazi&gcirc;as sur la greka-latina fundamento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ji&rcaron;&iacute; Laube</aut>
+          <vrk><url ref="https://www.monato.be/2003/007734.html"
+              >La rolo de lingvoj &ccirc;e la pensado</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Bertilo regalas nin per gramatiko <klr>[kies]</klr> <tld/>o estas logika kaj
+        klara
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="https://www.monato.be/2006/008993.php"
+              >La unua Zamenhof-monumento de la 21a jarcento: dika Pomego!</url></vrk>
+          <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      fak<ref cel="vort.0aro">vortaro</ref>,
+      <ref cel="glos.0aro">glosaro</ref>,
+      <ref cel="klasif.0o">klasifiko</ref>,
+      <ref cel="nomenk.0o">nomenklaturo</ref>,
+      <ref cel="taksonomi.0o">taksonomio</ref>,
+      <ref cel="ontolo.0o.tezauro">ontologio<sncref/></ref>,
+      <ref cel="tezaux.0o.SCI">teza&ubreve;ro<sncref/></ref>
+    </refgrp>
+    <trd lng="de">Terminologie</trd>
   </snc>
-  <trd
-  lng="be">&c_t;&c_e;&c_r;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
-  <trd lng="ca">terminologia</trd>
-  <trdgrp lng="cs">
-    <trd>n&aacute;zvoslov&iacute;</trd>,
-    <trd>terminologie</trd>
-  </trdgrp>
-  <trd lng="de">Terminologielehre</trd>
-  <trd lng="en">terminology</trd>
-  <trd lng="es">terminolog&iacute;a</trd>
-  <trdgrp lng="fa">
-    <trd>&a_A;&a_S;&a_T;&a_l;&a_A;&a_H;&zwnj;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>,
-    <trd>&a_t;&a_r;&a_m;&f_y;&a_n;&a_w;&a_l;&f_zh;&f_y;</trd>
-  </trdgrp>
-  <trd lng="fr">terminologie<klr tip="amb"> (discipline)</klr></trd>
-  <trd lng="hu">terminol&oacute;gia</trd>
-  <trd lng="nl">terminologie</trd>
-  <trd lng="pl">terminologia</trd>
-  <trdgrp lng="pt">
-    <trd>terminologia</trd>
-  </trdgrp>
-  <trd
-  lng="ru">&c_t;&c_je;&c_r;&c_m;&c_i;&c_n;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
-  <trdgrp lng="sk">
-    <trd>n&aacute;zvoslovie</trd>,
-    <trd>terminol&oacute;gia</trd>
-  </trdgrp>
+  <snc mrk="terminologi.0o.LIN">
+    <dif>
+      Termino<ref tip="lst" lst="voko:sciencoj" cel="scienc.0o.fako">scienco</ref>, 
+      fako de lingvoscienco studanta fakajn esprimojn,
+      terminojn, <ref tip="prt" cel="termin.0aro.LIN">terminarojn</ref>:
+      <ekz>
+        <ctl><tld/>a kurso</ctl>
+        <fnt>
+          <aut>Jan Werner</aut>,
+          <vrk>Terminologia Kurso</vrk>,
+          <lok>1986</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Cherpillod</nom> estas ja plej altnivela fakulo en etimologio kaj esperanta <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="https://www.monato.be/2004/008110.html"
+              >Longe atendata &ccirc;efverko</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd
+    lng="be">&c_t;&c_e;&c_r;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
+    <trd lng="ca">terminologia</trd>
+    <trdgrp lng="cs">
+      <trd>n&aacute;zvoslov&iacute;</trd>,
+      <trd>terminologie</trd>
+    </trdgrp>
+    <trd lng="de">Terminologielehre</trd>
+    <trd lng="en">terminology</trd>
+    <trd lng="es">terminolog&iacute;a</trd>
+    <trdgrp lng="fa">
+      <trd>&a_A;&a_S;&a_T;&a_l;&a_A;&a_H;&zwnj;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>,
+      <trd>&a_t;&a_r;&a_m;&f_y;&a_n;&a_w;&a_l;&f_zh;&f_y;</trd>
+    </trdgrp>
+    <trd lng="fr">terminologie<klr tip="amb"> (discipline)</klr></trd>
+    <trd lng="hu">terminol&oacute;gia</trd>
+    <trd lng="nl">terminologie</trd>
+    <trd lng="pl">terminologia</trd>
+    <trdgrp lng="pt">
+      <trd>terminologia</trd>
+    </trdgrp>
+    <trd
+    lng="ru">&c_t;&c_je;&c_r;&c_m;&c_i;&c_n;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+    <trdgrp lng="sk">
+      <trd>n&aacute;zvoslovie</trd>,
+      <trd>terminol&oacute;gia</trd>
+    </trdgrp>
+  </snc>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.11 2021/03/18 18:00:05
+Wolfram Diestel: +snc terminaro
+
 Revision 1.9  2015/07/04 08:37:44  revo
 aldono de trd cs per skripto de M. von Laer
 
