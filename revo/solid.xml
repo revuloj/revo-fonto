@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: solid.xml,v 1.33 2015/07/04 08:37:43 revo Exp $">
+<art mrk="$Id: solid.xml,v 1.34 2021/03/19 13:07:09 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>solid</rad>/a <fnt><bib>PV</bib></fnt>
@@ -12,9 +12,27 @@
   <snc mrk="solid.0a.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Malfluida, malflueca; kvalifikas substancon, kies molekuloj estas
+      Mal<ref tip="ant" cel="fluid.0a.FIZ">fluida</ref>; 
+      kvalifikas substancon, kies molekuloj estas
       fikse kunigitaj unu kun la alia, tio estas &ccirc;iun substancon, kiu
-      estas nek flueca nek gasa.
+      estas nek <ref cel="flu.0ajxa">flueca</ref> 
+      nek <ref cel="gas.0a">gasa</ref>:
+      <ekz>
+        vi fari&gcirc;is bezonantoj de lakto kaj ne de <tld/>a nutra&jcirc;o
+        <fnt>
+          <bib>NT</bib>
+          <lok>Hebreoj 5:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu rubo <tld/>a estu enmaren &jcirc;etita
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Bertin</aut>
+          <vrk><url ref="https://www.monato.be/2004/008255.html">Re&gcirc;ino de la maroj</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_c;&c_mol;&c_v;&c_jo;&c_r;&c_d;&c_y;</trd>
     <trd lng="de">fest</trd>
@@ -26,13 +44,23 @@
       <ref tip="dif" cel="firm.0a.fiksita">Firma<sncref/></ref>,
       malfacile detruebla:
       <ekz>
-        <tld/>aj botoj;
+        <tld/>aj botoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a horlo&gcirc;o<fnt>Z</fnt>;
+        <tld/>a vinkto
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a fadeno, ligilo.
+        <tld/>a horlo&gcirc;o, kiu iris bone la&ubreve; la minuto
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -53,27 +81,67 @@
   <snc mrk="solid.0a.serioza">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Serioza, impona, ne&scirc;erca, malfrivola:
-      <ekz>
-        fari al iu <tld/>an batadon<fnt>Z</fnt>,
-      </ekz>
-      <ekz>
-        <tld/>an moralinstruon<fnt>Z</fnt>;
-      </ekz>
+      <ref cel="serioz.0a">Serioza</ref>, <ref cel="impon.0a">impona</ref>, 
+      ne&scirc;erca, mal<ref tip="ant" cel="frivol.0a.iu">frivola</ref>:
       <ekz>
         <ind><tld/>a argumento</ind>;
         <trd lng="hu">komoly &eacute;rv</trd>
       </ekz>
       <ekz>
-        tio estos alporto de <tld/>a utilo<fnt>Z</fnt>;
+        li faris al li <tld/>an moralinstruon, klarigis al li <klr>[&#8230;]</klr> kiel forte
+        li meritas punon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        &scirc;i <tld/>e purigadis la lanternon<fnt>Z</fnt>;
+        mi faros al vi <tld/>an batadon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>e bati iun<fnt>Z</fnt>;
+        li volonte havigus al la bienmastro <klr>[&#8230;]</klr> <tld/>an vipadon
+        <fnt>
+          <bib>Fab3</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio <klr>[&#8230;]</klr> estas alporto de <tld/>a utilo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kvin en unu silikvo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la virino <klr>[&#8230;]</klr> <tld/>e purigadis <klr>[la lanternon]</klr>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova strata lanterno</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi havas <tld/>ajn sciojn kaj spiriton
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        necesas <tld/>a laboro por survojigi ur&gcirc;ajn reformojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006835.html">Germanio: Pekoj de patriarko</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="efekti.0a">efektiva</ref>,
+       <ref cel="ver.0a">vera</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_s;&c_a;&c_l;&c_ib;&c_d;&c_n;&c_y;</trd>,
       <trd>&c_s;&c_u;&c_r;'&c_jo;&c_z;&c_n;&c_y;</trd>
@@ -94,24 +162,19 @@
   <snc mrk="solid.0a.fidinda">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Fidinda:
+      <ref tip="dif" cel="fid.0inda">Fidinda</ref>:
       <ekz>
-        serioza kaj <tld/>a homo<fnt>Z</fnt>;
+        seriozaj kaj <tld/>aj homoj
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a firmo;
-      </ekz>
-      <ekz>
-        <tld/>a spirito<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>a sciencisto;
-      </ekz>
-      <ekz>
-        <tld/>aj scioj<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        homo de <tld/>a (matura) a&gcirc;o<fnt>Z</fnt>.
+        needzigita viro de <tld/>a <klr>(<ref cel="matur.0a">matura</ref>)</klr> a&gcirc;o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -134,13 +197,13 @@
     </trdgrp>
   </snc>
   <trdgrp lng="cs">
-    <trd>důvěryhodný</trd>,
-    <trd>masivní</trd>,
-    <trd>pevný</trd>,
-    <trd>solidní</trd>,
-    <trd>spolehlivý</trd>,
-    <trd>tuhý</trd>,
-    <trd>tělesový</trd>
+    <trd>d&uring;v&ecaron;ryhodn&yacute;</trd>,
+    <trd>masivn&iacute;</trd>,
+    <trd>pevn&yacute;</trd>,
+    <trd>solidn&iacute;</trd>,
+    <trd>spolehliv&yacute;</trd>,
+    <trd>tuh&yacute;</trd>,
+    <trd>t&ecaron;lesov&yacute;</trd>
   </trdgrp>
   <trd lng="es">s&oacute;lido</trd>
   <trd lng="fr">solide<klr tip="ind"> (adj.)</klr></trd>
@@ -149,10 +212,10 @@
     <trd>stevig</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>pevný</trd>,
-    <trd>solídny</trd>,
-    <trd>spoľahlivý</trd>,
-    <trd>tuhý</trd>
+    <trd>pevn&yacute;</trd>,
+    <trd>sol&iacute;dny</trd>,
+    <trd>spo&lcaron;ahliv&yacute;</trd>,
+    <trd>tuh&yacute;</trd>
   </trdgrp>
   <trd lng="tp">kiwen</trd>
 </drv>
@@ -165,9 +228,19 @@
       Korpo en <tld/>a stato:
       <ekz>
         hidrargo estas la nura metalo, kiu
-        je ordinara temperaturo ne estas <tld/>o.
+        je ordinara temperaturo ne estas <tld/>o;
+      </ekz>
+      <ekz>
+        benzoata acido <klr>[&#8230;]</klr> estas senkolora kristala <tld/>o
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Benzoata_acido">Benzoata acido - Vikipedio</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Feststoff</trd>,
+      <trd>Festk&ouml;rper</trd>
+    </trdgrp>
     <trd lng="fr">solide<klr tip="ind"> (corps solide)</klr></trd>
     <trd lng="hu">szil&aacute;rdtest</trd>
   </snc>
@@ -196,7 +269,16 @@
     <fnt><bib>PIV1</bib></fnt>
     <dif>
       Tridimensia
-      <ref tip="super" cel="figur.geometria0o">geometria figuro</ref>.
+      <ref tip="super" cel="figur.geometria0o">geometria figuro</ref>:
+      <ekz>
+        la <tld/>oj de <nom>Johnson</nom> povas esti konstruita surbaze de kelkaj piramidoj,
+        kupoloj, kaj rotondoj, platonaj <tld/>oj, ar&hcirc;imedaj <tld/>oj, prismoj, kaj
+        kontra&ubreve;prismoj
+        <fnt>
+          <bib>Viki</bib>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Solido_de_Johnson">Solido de Johnson</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sin">
       Malnovaj ekvivalentoj:
@@ -254,7 +336,7 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_c;&c_mol;&c_v;&c_jo;&c_r;&c_d;&c_a;&c_je; <ind>&c_c;&c_je;&c_l;&c_a;</ind></trd>
-  <trd lng="cs">těleso</trd>
+  <trd lng="cs">t&ecaron;leso</trd>
   <trd lng="es">s&oacute;lido</trd>
   <trd lng="ru">&c_t;&c_v;&c_jo;&c_r;&c_d;&c_o;&c_je; <ind>&c_t;&c_je;&c_l;&c_o;</ind></trd>
   <trd lng="sk">teleso</trd>
@@ -262,16 +344,24 @@
 
 <drv mrk="solid.0eco">
   <kap><tld/>eco</kap>
-  <snc mrk="solid.0eco.FIZ">
+  <snc mrk="solid.0eco.kvalito">
     <dif>
       Kvalito de io densa, eltenema, malfacile
       rompebla, fidinda:
       <ekz>
-        tio pruvas la <tld/>econ de la nova vitro;
+        &ccirc;io en li montris <tld/>econ, la&ubreve; sia ekstera&jcirc;o li &scirc;ajnis konvena homo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        li &scirc;ajnis konvena homo kaj &ccirc;io en li montris
-        <tld/>econ<fnt>Z</fnt>.
+        revenas la malnovaj, tradiciaj virtoj, kiaj la tute banalaj pacienco,
+        respondeco, bona kvalito, <tld/>eco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Maul Stefan</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007123.html">Defio a&ubreve; devio de politiko</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -279,24 +369,62 @@
     <trd>solidnost</trd>,
     <trd>tuhost</trd>
   </trdgrp>
+  <trd lng="de">Solidit&auml;t</trd>
   <trd lng="fr">solidit&eacute;</trd>
   <trdgrp lng="sk">
-    <trd>dôkladnosť</trd>,
-    <trd>slušnosť</trd>,
-    <trd>solídnosť</trd>,
-    <trd>spoľahlivosť</trd>
+    <trd>d&ocirc;kladnos&tcaron;</trd>,
+    <trd>slu&scaron;nos&tcaron;</trd>,
+    <trd>sol&iacute;dnos&tcaron;</trd>,
+    <trd>spo&lcaron;ahlivos&tcaron;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="solid.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="solid.0igi.FIZ">
+  <snc mrk="solid.0igi.firmigi">
     <dif>
       Igi <tld/>a, kunteni&gcirc;a, ne facile diserigebla
-      a&ubreve; rompebla, firma, fidinda.
+      a&ubreve; rompebla, firma, fidinda:
+      <ekz>
+        guar-gumo <klr>[&#8230;]</klr> estas uzata anka&ubreve; por iom <tld/>igi man&gcirc;a&jcirc;ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Fuss</aut>
+          <vrk><url ref="https://www.monato.be/2014/011348.php">Novtipa gasminado: &ccirc;u vere dan&gcirc;era?</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li provis <tld/>igi sian financan kaj profesian vivon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2010/010141.php">Homo universala, homo moderna: Johann Joachim Becher naski&gcirc;is anta&ubreve; 375 jaroj</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dormo plej gravas por <tld/>igi la memoron kaj la lernoprocesojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ivo Durwael</aut>
+          <vrk><url ref="https://www.monato.be/2012/010683.php">Dormu bone, vivu bone</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> kontribuis al la <tld/>igo <klr>[&#8230;]</klr> de la kulturo de
+        milito
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gilbert Ledon</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007175.html">Muroj dumiljara solidas</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="de">konsolidieren</trd>
   <trdgrp lng="fr">
     <trd>consolider</trd>,
     <trd>solidifier</trd>
@@ -306,16 +434,33 @@
 <drv mrk="solid.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc mrk="solid.0igxi.FIZ">
+  <snc mrk="solid.0igxi.firmigxi">
     <dif>
       I&gcirc;i <tld/>a, rezista, malmola,
       nerompi&gcirc;ema, nefleksebla, serioza:
       <ekz>
-        ili estas iom malbonkondutaj, sed kun la tempo ili jam
-        <tld/>i&gcirc;os<fnt>Z</fnt>.
+        liaj filoj <klr>[&#8230;]</klr> estas iom malbonkondutaj <klr>[sed]</klr> kun la tempo
+        ili jam <tld/>i&gcirc;os
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fakuloj atendas nun la duan fazon de banka <tld/>i&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2003/008044.html">Internaciaj bankoj stabiligas siajn poziciojn</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>sich <ind>festigen</ind></trd>,
+    <trd>zur <ind>Vernunft</ind> kommen</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>se <ind>consolider</ind></trd>,
     <trd>se <ind>solidifier</ind></trd>
@@ -326,12 +471,21 @@
   <kap>platona <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib><lok>regula</lok></fnt>
-  <snc>
+  <snc mrk="solid.platona0o.MAT">
     <dif>
       <ref cel="regul.0a.pluredro">Regula</ref>
-      <ref tip="super" cel="edr.plur0o">pluredro</ref>.
+      <ref tip="super" cel="edr.plur0o">pluredro</ref>:
+      <ekz>
+        platona <tld/>o komponita el 12 regulaj kvinlateraj edroj
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Dekduedro">Dekduedro - Vikipedio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="vid" cel="platon.0o">Platono.</ref>
+    <ref tip="vid" cel="platon.0o">Platono</ref>
+    <bld lok="../bld/pluredr.png">
+      la kvin Platonaj solidoj
+    </bld>
     <trd lng="be">&c_P;&c_l;&c_ja;&c_t;&c_o;&c_n;&c_a; <ind>&c_c;&c_je;&c_l;&c_a;</ind></trd>
     <trd lng="de">Platonischer <ind>K&ouml;rper</ind></trd>
     <trd lng="en">Platonic <ind>body</ind></trd>
@@ -343,12 +497,16 @@
     <trd lng="pl">bry&lstroke;y plato&nacute;skie</trd>
     <trd lng="ru">&c_p;&c_l;&c_a;&c_t;&c_o;&c_n;&c_o;&c_v;&c_o; <ind>&c_t;&c_je;&c_l;&c_o;</ind></trd>
   </snc>
-  <trd lng="cs">platónské těleso</trd>
-  <trd lng="sk">platónske teleso</trd>
+  <trd lng="cs">plat&oacute;nsk&eacute; t&ecaron;leso</trd>
+  <trd lng="de">Platonischer K&ouml;rper</trd>
+  <trd lng="sk">plat&oacute;nske teleso</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2021/03/19 13:07:09
+Wolfram Diestel: ekz-oj, ref-oj, trd de, bld
+
 Revision 1.32  2015/06/29 16:33:24  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -368,11 +526,5 @@ Revision 1.27  2004/10/24 16:33:29  revo
 Marc Bavant: kor duobligitan punkton
 
 Revision 1.26 2004/10/19 16:32:49 revo
-Jozefo Horvath: +trd hu
-Revision 1.25 2004/10/13 16:31:56 revo
-Wolfram Diestel: kor. germ trd
-Revision 1.24 2003/07/16 17:50:42 revo
-Sergio Pokrovskij: snc-mrk
-Revision 1.23 2003/04/21 16:35:05 revo
 -->
 </vortaro>
