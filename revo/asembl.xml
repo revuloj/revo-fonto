@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: asembl.xml,v 1.13 2021/03/04 17:56:54 revo Exp $">
+<art mrk="$Id: asembl.xml,v 1.14 2021/03/21 22:10:47 revo Exp $">
    <kap>
      <rad>asembl</rad>/i
    </kap>
@@ -34,9 +34,10 @@
    </snc>
   <trd lng="cs">p&rcaron;elo&zcaron;it do strojov&eacute;ho jazyka</trd>
   <trd lng="de">assemblieren</trd>
+  <trd lng="es">compilar<klr> (desde c&oacute;digo fuente a c&oacute;digo m&aacute;quina)</klr></trd>
   <trdgrp lng="he">
-    <trd>&#x5DC;&#x5D0;&#x5E1;&#x5D5;&#x5E3;</trd>,
-    <trd>&#x5DC;&#x5DB;&#x5E0;&#x5E1;</trd>
+    <trd>&lamed;&alef;&samekh;&vav;&fpe;</trd>,
+    <trd>&lamed;&kaf;&nun;&samekh;</trd>
   </trdgrp>
   <trd lng="sk">prelo&zcaron;i&tcaron; do strojov&eacute;ho jazyka</trd>
 </drv>
@@ -56,6 +57,10 @@
       </ekz>
      </dif>
      <trd lng="en">assembler</trd>
+     <trdgrp lng="es">
+       <trd>ensamblador<klr> (programa para traducir c&oacute;digo ensamblador)</klr></trd>,
+       <trd>compilador</trd>
+     </trdgrp>
      <trdgrp lng="fa">
        <trd>&a_A;&a_s;&a_m;&a_b;&a_l;&a_r;</trd>,
        <trd>&a_h;&a_m;&f_g;&a_dh;&a_A;&a_r;</trd>
@@ -78,7 +83,7 @@
     <trd>p&rcaron;eklada&ccaron;</trd>
   </trdgrp>
   <trd lng="de">Assembler</trd>
-   <trd lng="he">&#x5D4;&#x5B7;&#x5E8;&#x5DB;&#x5BC;&#x5B8;&#x5D1;&#x5B8;&#x5D4;</trd>
+   <trd lng="he">&he;&#1463;&resh;&kaf;&#1468;&#1464;&bet;&#1464;&he;</trd>
   <trd lng="sk">preklada&ccaron; do stroj. jazyka</trd>
 </drv>
 
@@ -93,7 +98,8 @@
       indikon de la komandoj kaj de adresoj, oni rajtas uzi
       mnemonikajn simbolojn:
       <ekz>
-        &ccirc;iu procesora arkitekturo havas sian propran ma&scirc;inan lingvon, kaj tial propran <tld/>an lingvon
+        &ccirc;iu procesora arkitekturo havas sian propran ma&scirc;inan lingvon, kaj tial propran <tld/>an
+        lingvon
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=9143">Asembla lingvo</url></lok>
@@ -109,6 +115,7 @@
       </ekz>
     </dif>
      <trd lng="en">assembler language</trd>
+     <trd lng="es">lenguaje ensamblador</trd>
      <trdgrp lng="fa">
        <trd>&a_z;&a_b;&a_A;&a_n; &a_A;&a_s;&a_m;&a_b;&a_l;&f_y;</trd>,
        <trd>&a_z;&a_b;&a_A;&a_n; &a_h;&a_m;&f_g;&a_dh;&a_A;&a_r;&f_y;</trd>
@@ -134,13 +141,16 @@
     <trd>Assemblersprache</trd>,
     <trd>Assemblercode</trd>
   </trdgrp>
-  <trd lng="he">&#x5E9;&#x5E4;&#x5EA; &#x5D0;&#x5E1;&#x5DE;&#x5D1;&#x5DC;&#x5D9;</trd>
+  <trd lng="he">&shin;&pe;&tav; &alef;&samekh;&mem;&bet;&lamed;&yod;</trd>
   <trd lng="sk">programovac&iacute; jazyk Assembler</trd>
 </drv>
    </art>
 
 <!--
 $Log$
+versio 1.14 2021/03/21 22:10:47
+Guillermo Molleda Jimena: trd es
+
 Revision 1.11  2017/12/09 21:10:15  revo
 Wolfram Diestel: kor. ref-cel
 
