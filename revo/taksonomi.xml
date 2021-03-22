@@ -2,16 +2,19 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: taksonomi.xml,v 1.6 2019/10/18 17:10:18 revo Exp $">
+<art mrk="$Id: taksonomi.xml,v 1.7 2021/03/22 14:59:57 revo Exp $">
 <kap>
   <rad>taksonomi</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="taksonomi.0o">
   <kap><tld/>o</kap>
   <snc mrk="taksonomi.0o.BIO">
+    <uzo tip="fak">SCI</uzo>
     <uzo tip="fak">BIO</uzo>
     <dif>
-      Hierar&hcirc;ia <ref tip="dif" cel="sistematik.0o.BIO">sistematiko</ref>:
+      Hierar&hcirc;ia <ref tip="dif" cel="sistematik.0o.BIO">sistematiko</ref>,
+      <ref tip="super" cel="klasif.0o">klasifiko</ref> kune kun kriterioj per 
+      kiuj oni alordigas specimenojn al klasoj:
       <ekz>
         <tld/>o <klr>[&#8230;]</klr> estas fako kies detalojn kaj problemojn
         ekkoni nur eblas post longa studado
@@ -29,7 +32,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj (Garbhan MacAoidh)</aut>
-          <vrk><url ref="https://www.monato.be/2011/010317.php">&Ccirc;u gravas, se lingvoj mortas?</url></vrk>
+          <vrk><url ref="https://www.monato.be/2011/010317.php">&Ccirc;u gravas, se lingvoj
+          mortas?</url></vrk>
           <lok>2011</lok>
         </fnt>;
       </ekz>
@@ -39,11 +43,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Cyreen Knockaert</aut>
-          <vrk><url ref="https://www.monato.be/2013/010992.php">Nomenklaturo: &ccirc;u kroma esperanta finvenko?</url></vrk>
+          <vrk><url ref="https://www.monato.be/2013/010992.php">Nomenklaturo: &ccirc;u kroma esperanta
+          finvenko?</url></vrk>
           <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="super">
+      <ref cel="termin.0aro">terminaro</ref>,
+      <ref cel="terminologi.0o.terminaro">terminologio<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="ca">taxonomia</trd>
   <trdgrp lng="cs">
@@ -65,6 +74,9 @@
 
 <!--
 $Log$
+versio 1.7 2021/03/22 14:59:57
+Wolfram Diestel: dif: precizigo, +ref-super
+
 Revision 1.5  2015/07/04 08:37:44  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -79,6 +91,5 @@ Tulio Flores: +trd pt
 
 Revision 1.1  2005/04/04 16:34:46  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>
