@@ -2,35 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: juni.xml,v 1.31 2019/06/30 18:21:02 revo Exp $">
+<art mrk="$Id: juni.xml,v 1.32 2021/03/23 17:22:37 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>juni</rad>/o
+  <ofc>*</ofc> <rad>Juni</rad>/o,
+  <var><kap><rad var="j">juni</rad>/o</kap></var>
 </kap>
 <drv mrk="juni.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <kap><ofc>*</ofc> <tld/>o,
+    <var><kap><tld var="j"/>o</kap></var>
+  </kap>
+  <snc mrk="juni.0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
       Sesa <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj"
       val="6">monato</ref> de la <ref tip="malprt"
-      cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter majo
-      kaj julio:
+      cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter <ref cel="maj.0o">Majo</ref>
+      kaj <ref cel="juli.0o">Julio</ref>:
       <ekz>
         la dek du monatoj de l' kristana jaro estas: Januaro, Februaro,
-        Marto, Aprilo, Majo, Junio, Julio, <klr>[&#8230;]</klr>
+        Marto, Aprilo, Majo, <tld/>o, Julio, <klr>[&#8230;]</klr>
         <fnt>
           <bib>DL</bib>
         </fnt>;
       </ekz>
       <ekz>
-        la kontrakto fini&gcirc;is la 30-an de <tld lit="J"/>o
+        la kontrakto fini&gcirc;is la 30-an de <tld/>o
         <fnt>
           <bib>FK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        de la komenco de <tld/>o &gcirc;is la fino de septembro, Nilo levi&gcirc;as
+        de la komenco de <tld var="j"/>o &gcirc;is la fino de septembro, Nilo levi&gcirc;as
         kaj superver&scirc;as preska&ubreve; la tutan Egipton
         <fnt>
           <bib>Far1</bib>
@@ -39,7 +41,7 @@
       </ekz>
     </dif>
   </snc>
-  <ref tip="vid" cel="januar.0o.RIM">januaro, Rim.</ref>
+  <ref tip="vid" cel="januar.0o.RIM">Januaro, Rim.</ref>
   <trd lng="af">Junie</trd>
   <trd lng="be">&c_ch;&c_e;&c_r;&c_v;&c_je;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_ju;&c_n;&c_i;</trd>
@@ -78,12 +80,12 @@
 </drv>
 
 <drv mrk="juni.0a">
-  <kap><tld/>a</kap>
+  <kap><tld lit="j"/>a</kap>
   <snc>
     <dif>
       Okazanta en <tld/>o, rilata al <tld/>o:
       <ekz>
-        subita <tld/>a pluvo
+        subita <tld lit="j"/>a pluvo
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Yasuo</aut>
@@ -93,8 +95,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        hoteloj en <tld/>o malaltigas siajn prezojn kaj varbas per la
-        romantika nocio &leftquot;<tld/>a <esc>novedzino</esc>&#8221;
+        hoteloj en <tld lit="j"/>o malaltigas siajn prezojn kaj varbas per la
+        romantika nocio &leftquot;<tld lit="j"/>a <esc>novedzino</esc>&rightquot;
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Yasuo</aut>
@@ -104,7 +106,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>a referenduma malvenko
+        <tld lit="j"/>a referenduma malvenko
         <fnt>
           <bib>Monato</bib>
           <aut>Armando Zecchin</aut>
@@ -113,7 +115,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la <tld/>a numero, kiu atingis min je la fino de la eldonmonato,
+        la <tld lit="j"/>a numero, kiu atingis min je la fino de la eldonmonato,
         estas tre interesa
         <fnt>
           <bib>Monato</bib>
@@ -132,6 +134,9 @@
 </art>
 <!--
 $Log$
+versio 1.32 2021/03/23 17:22:37
+Wolfram Diestel: ambau maj* kaj min kiel var
+
 Revision 1.30  2019/06/30 07:42:48  revo
 adaptis URL de Monato
 
@@ -151,11 +156,5 @@ Revision 1.25  2013/09/06 18:10:17  revo
 Wolfram Diestel: ref-oj, lst monatoj, pers nomoj
 
 Revision 1.24  2013/03/27 16:10:20  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.23  2011/10/01 14:10:17  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.22  2008/09/20 16:30:24  revo
 -->
 </vortaro>
