@@ -75,7 +75,7 @@ jobs:
         -e CGI_SERVER=wieland-pusch.de
         -e CGI_USER=${{ secrets.CGI_USER }}
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
-        -e CGI_SERVER2=christian-pusch.de
+        -e CGI_SERVER2=reta-vortaro.de
         -e CGI_USER2=${{ secrets.CGI_USER }}
         -e CGI_PASSWD2=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
