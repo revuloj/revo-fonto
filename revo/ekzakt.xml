@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ekzakt.xml,v 1.17 2015/07/04 08:37:33 revo Exp $">
+<art mrk="$Id: ekzakt.xml,v 1.18 2021/03/31 19:03:26 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>ekzakt</rad>/a
@@ -11,28 +11,41 @@
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Science &gcirc;usta kaj severe preciza:
-      <ekz><tld/>a difino, senco, kalkulo;</ekz>
-      <ekz><tld/>aj sciencoj <klr>(matematikoj)</klr>;</ekz>
-      <ekz><tld/>a rakonto, reprodukto.</ekz>
+      <ref tip="super" cel="gxust.0a">&Gcirc;usta</ref> en &ccirc;iu detalo, 
+      severe <ref tip="sin" cel="preciz.0a">preciza</ref>:
+      <ekz>
+        la dentradoj interkro&ccirc;i&gcirc;as kun la plej <tld/>a perfekteco, nenie okazas ekpu&scirc;i&gcirc;o
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        originalaj studoj pri natursciencoj, <tld/>aj sciencoj, biologio, lingvistiko
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &gcirc;enerala valoro de la indico <klr>[&#8230;]</klr> devas esti 0,9999 &ndash; kiu je la
+        grado de <tld/>eco uzata de <nom>Greenberg</nom> estas rigardata kiel 1,00
+        <fnt>
+          <aut>Wells</aut>
+          <vrk><url ref="https://tekstaro.com/">Lingvistikaj aspektoj de Esperanto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="erar">senerara</ref>.
-    </refgrp>
-    <refgrp tip="sin">
-      <ref cel="preciz.0a">preciza</ref>.
+      <ref cel="detal.0a.0hava">detala<sncref/></ref>,
+      <ref cel="erar">senerara</ref>,
+      <ref cel="strikt.0a.FIG">strikta<sncref/></ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_d;&c_a;&c_k;&c_l;&c_a;&c_d;&c_n;&c_y;</trd>
   <trd lng="ca">exacte</trd>
   <trdgrp lng="cs">
-    <trd>dokonalý</trd>,
-    <trd>exaktní</trd>,
-    <trd>vědecky přesný</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>genau</trd>,
-    <trd>exakt</trd>
+    <trd>dokonal&yacute;</trd>,
+    <trd>exaktn&iacute;</trd>,
+    <trd>v&ecaron;decky p&rcaron;esn&yacute;</trd>
   </trdgrp>
   <trd lng="en">exact</trd>
   <trd lng="es">exacto</trd>
@@ -47,14 +60,64 @@
   <trd lng="pt">exato</trd>
   <trd lng="ru">&c_t;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
-    <trd>bezchybný</trd>,
-    <trd>dôkladný</trd>,
-    <trd>vedecky presný</trd>
+    <trd>bezchybn&yacute;</trd>,
+    <trd>d&ocirc;kladn&yacute;</trd>,
+    <trd>vedecky presn&yacute;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="ekzakt.0e">
+  <kap>
+    <tld/>e
+  </kap>
+  <snc>
+    <dif>
+      En <tld/>a maniero, tute precize:
+      <ekz>
+        mi forgesis prezenti la familion &ndash; a&ubreve; pli <tld/>e &gcirc;iajn &ccirc;eestantajn membrojn
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la frazon diris ne mi, kvankam &gcirc;i <tld/>e esprimis mian penson
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        prefere tute <tld/>e kalkulu plian fojon
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li, kiel vi kaj mi, elparolas plej <tld/>e
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <lok>La Propaganda Ta&ccirc;mento</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="akurat.0a.ekzakta">akurate<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>genau</trd>,
+    <trd>exakt</trd>
+  </trdgrp>
+<trd lng="en">exactly</trd>
+</drv>
+
+
 </art>
 <!--
 $Log$
+versio 1.18 2021/03/31 19:03:26
+Wolfram Diestel: +ekz-oj; +~e
+
 Revision 1.16  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -74,11 +137,5 @@ Revision 1.11  2003/12/16 17:32:30  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10  2002/06/03 20:24:29  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.9  2002/05/26 19:01:43  revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.8  2001/11/21 17:34:35  revo
 -->
 </vortaro>
