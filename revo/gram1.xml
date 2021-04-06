@@ -2,20 +2,42 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gram1.xml,v 1.2 2016/02/21 23:10:15 revo Exp $">
+<art mrk="$Id: gram1.xml,v 1.3 2021/04/06 05:55:04 revo Exp $">
 <kap>
-  <rad>gram</rad>/- <fnt><bib>PIV2</bib></fnt>
+  <rad>Gram</rad>/o <fnt><bib>PIV2</bib></fnt>
 </kap>
+
+<drv mrk="gram1.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="gram1.0o.PERS">
+    <uzo tip="fak">PERS</uzo>
+    <dif>
+      <trd lng="da">Hans Christian Joachim Gram</trd> (1853&#8239;-&#8239;1938), dana 
+      <ref tip="lst" lst="voko:historiaj_personoj" cel="bakteriolog.0o">bakteriologo</ref>, fama pro sia
+      metodo kolorigi bakteriojn.
+    </dif>
+  </snc>
+    <rim>
+      La vortoj &leftquot;<tld lit="g"/>kolorigo&rightquot; kc do ne rilatas al la mezurunuo
+      &leftquot;<ref tip="hom" cel="gram.0o">gramo</ref>&rightquot;.
+    </rim>
+  <trd lng="de">Hans Christian <ind>Gram</ind></trd>
+  <trd lng="en">Hans Christian <ind>Gram</ind></trd>
+  <trd lng="fr">Hans Christian <ind>Gram</ind></trd>
+</drv>
+
 <drv mrk="gram1.0kolorigo">
-  <kap><tld/>kolorigo</kap>
+  <kap><tld lit="g"/>kolorigo</kap>
   <snc mrk="gram1.0kolorigo.BAK">
     <uzo tip="fak">BAK</uzo>
     <dif>
       Uzo de koloriga solva&jcirc;o por distingi kaj observi
       bakteriojn, kiuj la&ubreve; specoj konservas a&ubreve; ne konservas
-      la unuan koloron post acetona a&ubreve; alkolola lavo:
+      la unuan koloron post acetona a&ubreve; alkohola lavo:
       <ekz>
-        <tld/>-kolorigo <klr>...</klr>
+        <tld lit="g"/>-kolorigo <klr>[&#8230;]</klr>
         faciligas identigon kaj priskribon de la bakterioj
         <fnt>
           <bib>Viki</bib>,
@@ -25,50 +47,71 @@
       </ekz>
     </dif>
   </snc>
-  <rim mrk="gram1.0o.RIM_ETIM">
-    Nomata la&ubreve; la dana medicinisto Hans Christian Joachim Gram
-    (1853-1938),
-    inventinto de la metodo.
-  </rim>
+  <trd lng="de">Gramf&auml;rbung</trd>
   <trd lng="fr">coloration de Gram</trd>
   <trd lng="nl">gramkleuring</trd>
 </drv>
 
 <drv mrk="gram1.0negativa">
-  <kap><tld/>negativa</kap>
+  <kap><tld lit="g"/>negativa</kap>
   <snc mrk="gram1.0negativa.BAK">
     <uzo tip="fak">BAK</uzo>
     <uzo tip="klr">(pri mikroviva&jcirc;o)</uzo>
     <dif>
       Kiu ne konservas la koloron de
-      <tld/>kolorigo:
+      <tld lit="g"/>kolorigo:
       <ekz>
-        oni povas distingi <tld/>negativajn disde <tld/>pozitivaj 
+        oni povas distingi <tld lit="g"/>negativajn disde <tld lit="g"/>pozitivaj 
         mikroorganismoj
         <fnt>
           <aut>Z. Pluha&rcaron;</aut>,
-          <vrk><url
-          ref="http://media1.webgarden.name/files/media1:550578a5baf24.pdf.upl/Konciza%20Imuno%C4%A5emia%20Vortaro%20Esperanta%20%282015,%20v.5%29.pdf">
+          <vrk><url ref="http://media1.webgarden.name/files/media1:550578a5baf24.pdf.upl/Konciza%20Imuno%C4%A5emia%20Vortaro%20Esperanta%20%282015,%20v.5%29.pdf">
           Konciza Imuno&hcirc;emia Vortaro Esperanta</url></vrk>,
           <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Vibrio fischeri</nom> estas <tld/>negativa bakterio, malkovrita en 1889
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Vibrio_fischeri"
+              >Vibrio fischeri - Vikipedio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="bakter.ciano0oj">cianobakterioj</ref>
+    </refgrp>
   </snc>
+  <trd lng="de">gramnegativ</trd>
   <trd lng="fr">&agrave; Gram n&eacute;gatif</trd>
   <trd lng="nl">gramnegatief</trd>
 </drv>
 
 <drv mrk="gram1.0pozitiva">
-  <kap><tld/>pozitiva</kap>
+  <kap><tld lit="g"/>pozitiva</kap>
   <snc mrk="gram1.0pozitiva.BAK">
     <uzo tip="fak">BAK</uzo>
     <uzo tip="klr">(pri mikroviva&jcirc;o)</uzo>
     <dif>
       Kiu estas kolorigebla per
-      <tld/>kolorigo.
+      <tld lit="g"/>kolorigo:
+      <ekz>
+        la <tld lit="G"/>-pozitivaj bakterioj restas purpuraj, &ccirc;ar ili havas solan dikan
+        &ccirc;elmuron, kiu ne estas trapenetrebla por la solva&jcirc;o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=160468"
+              >Gram-kolorigo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="bacil.0o">bacilo</ref>,
+       <ref cel="stafilokok.0o">stafilokoko</ref>,
+       <ref cel="streptokok.0o">streptokoko</ref>
+    </refgrp>
   </snc>
+  <trd lng="de">grampositiv</trd>
   <trd lng="fr">&agrave; Gram positif</trd>
   <trd lng="nl">gramnegatief</trd>
 </drv>
@@ -76,8 +119,10 @@
 
 <!--
 $Log$
+versio 1.3 2021/04/06 05:55:04
+Wolfram Diestel: +~o PERS, ekz-oj, ref-oj, trd de
+
 Revision 1.1  2016/02/08 21:10:14  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>
