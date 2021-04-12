@@ -2,38 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dres.xml,v 1.14 2016/06/03 20:10:27 revo Exp $">
+<art mrk="$Id: dres.xml,v 1.15 2021/04/12 07:00:58 revo Exp $">
   <kap>
     <ofc>*</ofc>
     <rad>dres</rad>/i
   </kap>
-  <drv mrk="dres.0i">
-    <kap>
-      <ofc>*</ofc>
-      <tld/>i
-    </kap>
-    <gra>
-      <vspec>tr</vspec>
-    </gra>
-    <snc>
-      <dif>
-        Instrui beston por iu celo:
-        <ekz><tld/>i hundojn por &ccirc;aso;</ekz>
-        <ekz><tld/>i leonojn;</ekz>
-        <ekz>la plej malfacila <tld/>ado estas tiu de la katoj.</ekz>
-      </dif>
-      <refgrp tip="vid">
-        <ref cel="eduk.0i">eduki</ref>,
-        <ref cel="ekzerc.0i">ekzerci</ref>,
-        <ref cel="sovagx">malsova&gcirc;igi</ref>.
-      </refgrp>
-    </snc>
-    <trd
-    lng="be">&c_d;&c_r;&c_e;&c_s;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-    <trdgrp lng="de">
-      <trd>dressieren</trd>,
-      <trd>abrichten</trd>
-    </trdgrp>
+<drv mrk="dres.0i">
+  <kap>
+    <ofc>*</ofc>
+    <tld/>i
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="dres.0i.malsovagxigi">
+    <dif>
+      <ref tip="super" cel="instru.0i.PED">Instrui</ref> beston por iu celo:
+      <ekz>
+        punita, kiel bovido ne <tld/>ita
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 31:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li povis <tld/>i hundon nombri de unu &gcirc;is tri
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> <tld/>is sian hundon tiamaniere, ke li &jcirc;etis al &gcirc;i paperpeceton
+        kaj <klr>[&#8230;]</klr> la hundo devis &gcirc;in kapti kaj gluti
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        &scirc;i estas <ind>ne<tld/>ebla</ind> <klr>(<ref cel="sovagx.0a">sova&gcirc;a</ref>)</klr> leonino
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+        <trd lng="de">unb&auml;ndig</trd>
+      </ekz>
+    </dif>
+    <trd lng="be">&c_d;&c_r;&c_e;&c_s;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
     <trd lng="en">train</trd>
     <trd lng="es">entrenar<klr tip="ind"> (un animal)</klr></trd>
     <trd lng="fr">dresser<klr tip="ind"> (un animal)</klr></trd>
@@ -46,28 +59,105 @@
       <trd>ensinar</trd>,
       <trd>educar <klr tip="amb">(animais)</klr></trd>
     </trdgrp>
-    <trd
-    lng="ru">&c_d;&c_r;&c_je;&c_s;&c_s;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  </drv>
-  <drv mrk="dres.0isto">
-    <kap>
-      <tld/>isto
-    </kap>
-    <snc>
-      <dif>
-        Homo, kiu profesie okupas pri <tld/>ado:
-        <ekz>
-          cirka <tld/>isto.
-        </ekz>
-      </dif>
-      <trd lng="es">entrenador</trd>
-      <trd lng="fr">dresseur</trd>
-      <trd lng="pl">treser</trd>
-    </snc>
-  </drv>
+    <trd lng="ru">&c_d;&c_r;&c_je;&c_s;&c_s;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+  <snc mrk="dres.0i.disciplini">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="dif" cel="discip.0i">Disciplini</ref>:
+      <ekz>
+        &leftquot;bone,&rightquot; respondis li, &leftquot;mi <tld/>os la gigantojn kaj ne bezonas por tio la cent
+        kavalirojn: kiu faligas sep per unu bato, tiun ne timigas du&rightquot;
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La kura&gcirc;a tajloreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nur la energia disciplino de la kolegio estas kapabla <tld/>i tiun komandeman
+        kaj kolereman karakteron
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &gcirc;entila&jcirc;oj de iuj &leftquot;Vienaj Skoloj pri bona konduto&rightquot; per kiuj oni <tld/>is min en
+        infana&gcirc;o neniam infektis lin.
+        <fnt>
+          <aut>Spomenka &Scaron;timec</aut>
+          <vrk>Ombro sur interna pejza&gcirc;o</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi iru kaj kunpremu la gor&gcirc;on al tiu &ccirc;i <tld/>ita pa&scirc;tista hundo, ke la ru&gcirc;a
+        suko &scirc;prucu &ccirc;e li el &ccirc;iuj &scirc;vitporoj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>disziplinieren</trd>,
+      <trd>z&uuml;geln</trd>
+    </trdgrp>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="eduk.0i">eduki</ref>,
+    <ref cel="ekzerc.0i">ekzerci</ref>,
+    <ref cel="kondut.0i">kondut</ref>igi,
+    <ref cel="sovagx">malsova&gcirc;igi</ref>,
+    <ref cel="trejn.0i">trejni</ref>
+  </refgrp>  
+  <trdgrp lng="de">
+    <trd>dressieren</trd>,
+    <trd>abrichten</trd>
+  </trdgrp>
+</drv>
+<drv mrk="dres.0isto">
+  <kap>
+    <tld/>isto
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="lst" lst="voko:metioj" cel="hom.0o">Homo</ref>, kiu profesie 
+      <tld/>as bestojn:
+      <ekz>
+        cirka <tld/>isto
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bela <tld/>istino de leonoj permesis al leono preni pecon da sukero el &scirc;ia bu&scirc;o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la korton eniris du <klr>[&#8230;]</klr> <tld/>istoj de serpentoj kun sako plena de
+        venenaj rampa&jcirc;oj kaj komencis spektaklon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="es">entrenador</trd>
+    <trd lng="fr">dresseur</trd>
+    <trd lng="pl">treser</trd>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Dompteur</trd>,
+    <trd>Tierb&auml;ndiger</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.15 2021/04/12 07:00:58
+Wolfram Diestel: +snc FIG, ekz-oj, trd de
+
 Revision 1.13  2009/07/17 16:30:43  revo
 Sebastian Cyprych: +~isto +trd pl
 
