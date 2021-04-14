@@ -2,15 +2,29 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fad.xml,v 1.18 2015/07/04 08:37:33 revo Exp $">
-<kap><rad>fad</rad>/o</kap>
+<art mrk="$Id: fad.xml,v 1.19 2021/04/14 14:50:00 revo Exp $">
+<kap>
+  <rad>fad</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 <drv mrk="fad.0o">
   <kap><tld/>o</kap>
-  <snc mrk="fad.0o.ELE">
-    <uzo tip="fak">ELE</uzo>
+  <snc mrk="fad.0o.RAD">
+    <uzo tip="fak">RAD</uzo>
     <dif>
-      Fenomeno konsistanta el sinsekvaj plimalfortigoj a&ubreve; plifortigoj
-      de a&ubreve;deblo en radioriceviloj.
+      <ref tip="super" cel="fluktu.0o">Fluktuado</ref> de
+      <ref cel="elektr11.0akampo">elektromagneta kampo</ref> 
+      pro diversaj fizikaj efikoj kiel <ref cel="interf.0o">interferado</ref>, 
+      ombrado, e&hcirc;oj, doplera efiko:
+      <ekz>
+        li atendas la horon de la elsendoj por fine nur kelkajn disajn frazojn a&ubreve;skulti,
+        pro oftaj <tld/>oj kaj malhelpo de familianoj, televidantaj en la sama &ccirc;ambro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Reinaldo Marcelo Ferreira</aut>
+          <vrk><url ref="https://www.monato.be/2006/008937.php">Kronikoj de niaj frustri&gcirc;oj</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>      
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -25,11 +39,11 @@
   </trdgrp>
   <trdgrp lng="cs">
     <trd>fading</trd>,
-    <trd>únik <klr>(rad.příjmu)</klr></trd>
+    <trd>&uacute;nik <klr>(rad.p&rcaron;&iacute;jmu)</klr></trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Fading</trd>,
-    <trd>Schwankung der Empfangslautst&auml;rke</trd>
+    <trd>Schwankung <klr>(Feldst&auml;rke)</klr></trd>
   </trdgrp>
   <trd lng="en">fading</trd>
   <trd lng="es">fundido<klr tip="amb"> (imagen o sonido)</klr></trd>
@@ -53,7 +67,7 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>fading</trd>,
-    <trd>únik el. magnetických vĺn</trd>
+    <trd>&uacute;nik el. magnetick&yacute;ch v&lacute;n</trd>
   </trdgrp>
 </drv>
 
@@ -63,27 +77,26 @@
   <snc mrk="fad.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Malforti&gcirc;i, <ref tip="vid" 
-      cel="aper.mal0i.nevidebligxi">malaperi</ref> iom post iom:
+      Malforti&gcirc;i, <ref tip="vid" cel="aper.mal0i.nevidebligxi">malaperi</ref> iom post iom:
       <ekz>
-        montegoj <klr>...</klr> etendi&gcirc;as vico post vico kaj 
+        montegoj <klr>[&#8230;]</klr> etendi&gcirc;as vico post vico kaj 
         malproksime <tld/>as en blua valo
         <fnt>
           <aut>Vladimir Glazunov</aut>,
-          <vrk><url
-          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/Cxarmo.html">La
+          <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/Cxarmo.html">La
           &ccirc;armo de &Ccirc;ielmontaro</url></vrk>,
           <lok>Fonto, numero 37a</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">verblassen</trd>
   </snc>
   <trdgrp lng="ca">
     <trd>fondre's</trd>,
     <trd>esvair-se</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>slábnout <klr>(zvuk)</klr></trd>,
+    <trd>sl&aacute;bnout <klr>(zvuk)</klr></trd>,
     <trd>unikat</trd>
   </trdgrp>
   <trd lng="es">fundir<klr tip="amb"> (imagen o sonido)</klr></trd>
@@ -93,14 +106,17 @@
     <trd>s'&eacute;vanouir<klr> (disparaitre)</klr></trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>slabnúť <klr>(zvuk)</klr></trd>,
-    <trd>unikať</trd>
+    <trd>slabn&uacute;&tcaron; <klr>(zvuk)</klr></trd>,
+    <trd>unika&tcaron;</trd>
   </trdgrp>
   <trd lng="tr">g&ouml;zden kaybolmak<klr>(uzakla&scedil;arak)</klr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2021/04/14 14:50:00
+Wolfram Diestel: revortigo de dif, +ekz
+
 Revision 1.17  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -120,11 +136,5 @@ Revision 1.12  2006/05/16 18:29:23  revo
 FIG estas stilo ne fako
 
 Revision 1.11  2006/05/03 16:31:06  revo
-Jeromo Vasxe: + ~i
-
-Revision 1.10  2004/07/25 21:01:17  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/09/03 17:31:53  revo
 -->
 </vortaro>
