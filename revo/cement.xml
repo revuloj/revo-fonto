@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: cement.xml,v 1.31 2021/03/05 21:59:32 revo Exp $">
+<art mrk="$Id: cement.xml,v 1.32 2021/04/14 19:46:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>cement</rad>/o
@@ -16,9 +17,9 @@
     <uzo tip="fak">KON</uzo>
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Speciala mortero el pulvoro de argilaj kaj kalkaj &scirc;tonoj,
-      kiu seki&gcirc;ante
-      fari&gcirc;as tre malmola kaj nepenetrebla de la akvo:
+      <ref tip="super" cel="pulvor.0o">Pulvoro</ref> de argilaj kaj kalkaj &scirc;tonoj,
+      kiu reagante kun akvo fari&gcirc;as tre malmola kaj nepenetrebla de akvo, uzata por
+      <ref tip="malprt" cel="morter.0o">mortero</ref> kaj <ref tip="malprt" cel="beton.0o">betono</ref>:
       <ekz>
         <ind>Portlanda <tld/>o</ind>;
         <trd lng="be">&c_p;&c_o;&c_r;&c_t;&c_l;&c_ja;&c_n;&c_d;-&c_c;&c_e;&c_m;&c_e;&c_n;&c_t;</trd>
@@ -28,14 +29,50 @@
         <trd lng="ru">&c_p;&c_o;&c_r;&c_t;&c_l;&c_a;&c_n;&c_d;-&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>
       </ekz>
       <ekz>
+        li veturis al la urbo por a&ccirc;eti <tld/>on, transportis sablon kaj lignon kaj dum
+        la pa&ubreve;zoj helpis la virojn fosi kaj pretigi la fundamenton
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ofertas <klr>[&#8230;]</klr> miksma&scirc;inon por <tld/>o kaj cindro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Rita R&ouml;ssler-Buckel</aut>
+          <vrk><url ref="https://www.monato.be/2007/009174.php">Metio kaj formo tradicio kaj progreso</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la gardistoj devigis la malliberulojn nudpiede mar&scirc;i tien kaj reen sur
+        <tld/>planko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="https://www.monato.be/2006/008875.php">Mallonga historio de la evonima milito</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
-        lingvo ne povas esti simpla kolekto da vortoj, sed devas havi
-        <tld/>on kaj vivon<fnt>Z</fnt>.
+        la egipta popolo <klr>[&#8230;]</klr> formis kvaza&ubreve; unu personon, en kiu la pastra
+        kasto estis la penso, la faraono estis la volo, la popolo &dash; korpo kaj la obeo
+        &dash; la <tld/>o <klr>(kp <ref cel="glu.0o">gluo</ref>)</klr>
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        lingvo ne povas esti simpla kolekto da vortoj, sed devas havi <tld/>on kaj vivon
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="beton.0o">betono</ref>.
-    </refgrp>
     <trd lng="be">&c_c;&c_e;&c_m;&c_e;&c_n;&c_t;</trd>
     <trd lng="ca">ciment</trd>
     <trd lng="de">Zement</trd>
@@ -50,12 +87,12 @@
     <trd lng="ru">&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>
     <trd lng="sv">cement</trd>
   </snc>
-  <snc>
+<!--
+  <snc mrk="cement.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
       Pulvoro el ligna karbo, kiun oni aldonas al la fandata fero por
-      &gcirc;in
-      &scirc;taligi.
+      &gcirc;in &scirc;taligi.
     </dif>
     <trd lng="be">&c_c;&c_e;&c_m;&c_e;&c_n;&c_t;</trd>
     <trd lng="ca">cement</trd>
@@ -66,14 +103,18 @@
     <trd lng="pt">cemento</trd>
     <trd lng="ru">&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>
   </snc>
-  <snc>
+-->
+  <snc mrk="cement.0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Ekstera tavolo de la dentradikoj.
+      Ekstera <ref tip="super" cel="tavol.0o.KOMUNE">tavolo</ref> de la
+      <ref tip="malprt" cel="dent.0o.busxo">dent</ref>radikoj.
     </dif>
+    <ref tip="sin" cel="pulp.0o.ANA">pulpo<sncref/></ref>
     <trd lng="be">&c_z;&c_u;&c_b;&c_n;&c_a;&c_ja;
     <ind>&c_e;&c_m;&c_a;&c_l;&c_mol;</ind></trd>
     <trd lng="ca">cement</trd>
+    <trd lng="de">Wurzelzement</trd>
     <trd lng="hu">fogcement</trd>
     <trd lng="it">cemento<klr> (anat.)</klr></trd>
     <trd lng="pl">cement</trd>
@@ -85,41 +126,84 @@
     <aut>MB</aut>
   </adm>
   <trd lng="fr">c&eacute;ment</trd>
-  <trd lng="he">&#x5DE;&#x5DC;&#x5D8;</trd>
+  <trd lng="he">&mem;&lamed;&tet;</trd>
   <trd lng="sk">cement</trd>
 </drv>
 
 <drv mrk="cement.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="cement.0i.KON">
     <dif>
-      Firme kunigi a&ubreve; plenigi per
-      <ref tip="vid" cel="cement.0o.KON">cemento</ref>.
+      Firme <ref tip="super" cel="kun.0igi">kunigi</ref> a&ubreve; plenigi 
+      per <ref cel="cement.0o.KON"><tld/>o<sncref/></ref>:
+      <ekz>
+        se oni <tld/>os <klr>[la porcelanfiguron]</klr> en la dorso <klr>[&gcirc;i
+        estos]</klr> kiel nova
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li lernis tion, kio utilis por konstrui, selektis &scirc;tonojn, kun<tld/>is ilin kaj
+        komencis la konstruadon de sia palaco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Thierry Tailhades</aut>
+          <vrk><url ref="https://www.monato.be/2011/010295.php">La ideala palaco de po&scirc;tisto Cheval</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="ca">cimentar</trd>
-    <trd lng="de">zementieren</trd>
-    <trd lng="fr">cimenter</trd>
+    
+    
     <trd lng="hu">cementez</trd>
     <trd lng="nl">cementeren</trd>
     <trd lng="no">sementere</trd>
     <trd lng="pl">cementowa&cacute;</trd>
     <trd lng="pt">cimentar</trd>
   </snc>
-  <snc>
+  <snc mrk="cement.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Firme kunigi, firmigi:
+      Firme kunigi, <ref tip="super" cel="firm.0igi">firmigi</ref>:
       <ekz>
-        forta solidareco <tld/>is nian grupon.
+        la okcidenta evoluhelpo devus ne <tld/>i despotajn re&gcirc;imojn, &gcirc;i devus akceli
+        demokration kaj homajn rajtojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2006/008892.php">Diktatoroj dorlotataj</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        francoj iom post iom perdis siajn socialajn avanta&gcirc;ojn, kiuj dum pluraj jardekoj
+        <tld/>is la landon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yves Nicolas</aut>
+          <vrk><url ref="https://www.monato.be/2010/010225.php">Komuna agado, komunaj valoroj</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="blok.0i">bloki</ref>,
+       <ref cel="fiks.0i">fiksi</ref>,
+       <ref cel="obstru.0i">obstrukci</ref>,
+       <ref cel="parali.0i.FIG">paralizi<sncref/></ref>,
+       <ref cel="mov.sen0igi">senmovigi</ref>,
+       <ref cel="sxton.0igi.FIG">&scirc;tonigi<sncref/></ref>
+    </refgrp>
     <trdgrp lng="ca">
       <trd>consolidar</trd>,
       <trd>afermar</trd>
     </trdgrp>
-    <trd lng="de">zementieren</trd>
-    <trd lng="fr">cimenter</trd>
+    <trd lng="de">verfestigen</trd>
+    
     <trd lng="hu">&ouml;sszekov&aacute;csol</trd>
     <trd lng="it">cementare</trd>
     <trd lng="nl">cementeren</trd>
@@ -131,14 +215,13 @@
       <trd>&c_s;&c_k;&c_r;&c_je;&c_p;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <snc>
+<!--
+  <snc mrk="cement.0i.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
       Modifi la konsiston de metalo, plej ofte de fero, intermetante
-      &gcirc;in kun
-      karboligna pulvoro en mufloj kaj lasante &gcirc;in sub la efiko de
-      tre alta
-      temperaturo.
+      &gcirc;in kun karboligna pulvoro en mufloj kaj lasante &gcirc;in sub la efiko de
+      tre alta temperaturo.
     </dif>
     <trd lng="ca">cementar</trd>
     <trd lng="de">h&auml;rten</trd>
@@ -155,26 +238,32 @@
     <trd lng="pl">hartowa&cacute;</trd>
     <trd lng="pt">cementar</trd>
   </snc>
+-->
   <trd lng="be">&c_c;&c_e;&c_m;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
     <trd>cementovat</trd>,
-    <trd>upev&#x148;ovat</trd>,
+    <trd>upev&ncaron;ovat</trd>,
     <trd>utvrzovat</trd>
   </trdgrp>
+  <trd lng="de">zementieren</trd>
   <trd lng="es">cementar</trd>
-  <trd lng="he">&#x5DC;&#x5E6;&#x5E7;&#x5EA; &#x5DE;&#x5DC;&#x5D8;</trd>
+  <trd lng="fr">cimenter</trd>
+  <trd lng="he">&lamed;&tsadi;&qof;&tav; &mem;&lamed;&tet;</trd>
   <trdgrp lng="ru">
     <trd>&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>spevni&#x165;</trd>,
-    <trd>utvrdzova&#x165;</trd>
+    <trd>spevni&tcaron;</trd>,
+    <trd>utvrdzova&tcaron;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2021/04/14 19:46:09
+Wolfram Diestel: dif: iom korektis; forkomentis snc "cementite"; ekz-oj, ref-oj
+
 Revision 1.29  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -194,11 +283,5 @@ Revision 1.24  2009/04/29 16:32:23  revo
 Antonio Codazzi: +trd it
 
 Revision 1.23  2009/02/19 20:27:45  revo
-Sebastian Cyprych: kor trd pl
-
-Revision 1.22  2006/11/05 17:30:16  revo
-Wieland Pusch: +trd de
-
-Revision 1.21  2005/11/25 17:31:10  revo
 -->
 </vortaro>
