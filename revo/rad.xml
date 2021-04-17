@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rad.xml,v 1.32 2021/04/17 07:52:48 revo Exp $">
+<art mrk="$Id: rad.xml,v 1.33 2021/04/17 15:56:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rad</rad>/o
@@ -68,14 +68,27 @@
     <uzo tip="fak">TEK</uzo>
     <dif>
       Tuto de la <ref tip="prt" cel="rad.0o.TEK"><tld/>oj</ref>
-      funkciigantaj aparaton.
+      funkciigantaj aparaton:
+      <ekz>
+        &ccirc;u vi devas movi viajn krurojn per <tld/>aroj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Urbo de Imperiestroj</lok>
+        </fnt>?
+      </ekz>
     </dif>
   </snc>
+  <ref tip="hom" cel="radar.0o">radaro</ref>
+  <ref tip="vid" cel="transmisi.0o">transmisio</ref>
   <trdgrp lng="cs">
     <trd>radar</trd>,
     <trd>radiolok&aacute;tor</trd>
   </trdgrp>
-  <trd lng="de">Fahrwerk</trd>
+  <trdgrp lng="de">
+    <trd>Fahrwerk</trd>,
+    <trd>R&auml;derwerk</trd>
+  </trdgrp>
   <trd lng="fr">rouage</trd>
   <trdgrp lng="hu">
     <trd>hajt&oacute;m&udblac;</trd>,
@@ -139,8 +152,7 @@
   <snc mrk="rad.0rondo.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Cirkla ekstera parto de <ref tip="super"
-      cel="rad.0o.TEK"><tld/>o</ref>.
+      Cirkla ekstera parto de <ref tip="super" cel="rad.0o.TEK"><tld/>o</ref>.
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_o;&c_b;&c_a;&c_d;</trd>
@@ -239,13 +251,20 @@
 
 <drv mrk="rad.padel0o">
   <kap>padel<tld/>o</kap>
-  <snc>
+  <snc mrk="rad.padel0o.TEK">
   <uzo tip="fak">TEK</uzo>
     <dif>
       Cirkla aran&gcirc;o de <ref tip="prt" cel="padel.0o">padelo</ref>j 
       por transformi turni&gcirc;on al fluo a&ubreve; fluon al turni&gcirc;o:
       <ekz>
-        padel<tld/>o de akvo
+        Du trog&ccirc;enoj elmarigis la nafton, tamen eblus aliaj metodoj: pumpiloj,
+        rulbendoj, padel<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Bertin</aut>
+          <vrk><url ref="https://www.monato.be/2003/008085.html">&Ccirc;u revo iam fari&gcirc;os realo?</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="malprt">
@@ -308,6 +327,9 @@
 </art>
 <!--
 $Log$
+versio 1.33 2021/04/17 15:56:34
+Wolfram Diestel: ~aro, padel~o: ekz, ref
+
 versio 1.32 2021/04/17 07:52:48
 Wolfram Diestel: ensxovis padel~o el padelo
 
@@ -327,8 +349,5 @@ Revision 1.26  2012/10/23 00:13:34  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.25  2010/05/30 16:30:26  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.24  2008/02/29 17:30:18  revo
 -->
 </vortaro>
