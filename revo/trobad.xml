@@ -2,45 +2,87 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trobad.xml,v 1.18 2015/07/04 08:37:45 revo Exp $">
+<art mrk="$Id: trobad.xml,v 1.19 2021/04/17 19:00:53 revo Exp $">
 <kap>
-  <rad>trobador</rad>/o
+  <rad>trobador</rad>/o,
+  <var><kap><rad var="u">trubadur</rad>/o</kap></var>
 </kap>
 <drv mrk="trobad.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap><tld var="u"/>o</kap></var></kap>
   <uzo tip="fak">POE</uzo>
-  <snc>
+  <snc mrk="trobad.0o.poeto">
     <dif>
-      Lirika kortega poeto e&ubreve;ropa, precipe okcitan-lingva, el la
+      Lirika kortega <ref tip="super" cel="poet.0o">poeto</ref> e&ubreve;ropa, precipe okcitan-lingva, el la
       12a, 13a jarcentoj:
       <ekz>
         temas pri kantoj grandparte mez-epokaj, el la tempo <tld/>a
-        a&ubreve;
-        trubadura, &ccirc;efe katalunaj kaj okcitanaj<fnt><aut>Jorge
-        Camacho</aut>: <vrk>Enkonduko al la arto trubadura</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 5a, p. 25a</lok></fnt>.
+        a&ubreve; <tld var="u"/>a, &ccirc;efe katalunaj kaj okcitanaj
+        <fnt>
+          <aut>Jorge Camacho</aut>: 
+          <vrk>Enkonduko al la arto trubadura</vrk>,
+          <bib>Monato</bib><lok>jaro 2001a, numero 5a, p. 25a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la folklora muziko estas fundamenta en la historio de Portugalio, kies radikoj
+        trovi&gcirc;as en la <tld/>a kantado mezepoka
+        <fnt>
+          <bib>Monato</bib>
+          <aut>William Simcock</aut>
+          <vrk><url ref="https://www.monato.be/2003/007873.html"
+              >Impresoj pri Portugalio</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kial oni ne metis en frenezulejon la kavaliron <nom>Toggenburg</nom> kun &ccirc;iuj trubaduroj
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dis&ccirc;iplo de l' <tld var="u"/>oj
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la unuaj <tld var="u"/>oj estis limo&gcirc;iaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Clair Mah&eacute;</aut>
+          <vrk><url ref="&Monato;/2006/008904.php">La okcitana lingvo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="trubad.0o">trubaduro</ref>
+    <refgrp tip="vid">
+      <ref cel="bard.0o.HIS">bardo<sncref/></ref>,
+      <ref cel="menestre.0o">menestrelo</ref>,
+      <ref cel="rapsod.0o">rapsodo</ref>,
+      <ref cel="skald.0o">skaldo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_r;&c_u;&c_b;&c_a;&c_d;&c_u;&c_r;</trd>
   <trd lng="ca">trobador</trd>
-  <trd lng="cs">trubadúr</trd>
+  <trd lng="cs">trubad&uacute;r</trd>
   <trd lng="de">Troubadour</trd>
   <trd lng="en">troubadour</trd>
+  <trd lng="es">trovador</trd>
   <trd lng="fr">troubadour</trd>
   <trd lng="hu">trubad&uacute;r</trd>
   <trd lng="nl">troubadour</trd>
   <trd lng="pl">trubadur</trd>
   <trd lng="pt">trovador</trd>
   <trd lng="ru">&c_t;&c_r;&c_u;&c_b;&c_a;&c_d;&c_u;&c_r;</trd>
-  <trd lng="sk">trubadúr</trd>
+  <trd lng="sk">trubad&uacute;r</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2021/04/17 19:00:53
+Wolfram Diestel: kunigo kun trubadur/, ekz-oj
+
 Revision 1.17  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -60,11 +102,5 @@ Revision 1.12  2004/12/16 17:31:51  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.11  2003/10/01 16:32:48  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/07/14 17:31:32  revo
-Jeromo Vasxe: + sin trubaduro, - fak bele, pliprecizigis dif, + ekz
-
-Revision 1.9 2002/03/13 17:35:11 revo
 -->
 </vortaro>
