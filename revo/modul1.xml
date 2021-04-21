@@ -2,13 +2,22 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: modul1.xml,v 1.3 2020/09/24 22:10:39 revo Exp $">
-    <kap>
-      <ofc>1</ofc> <rad>modul</rad>/i
+  <art mrk="$Id: modul1.xml,v 1.4 2021/04/21 19:05:15 revo Exp $">
+  <kap>
+      <ofc>1</ofc> <rad>modul</rad>/i, 
+      <var><kap><rad var="aci">modulaci</rad>/i
+      <fnt><aut>Hajpin Li</aut>: <vrk>Esperanto-korea vortaro</vrk>,
+      <lok>1983</lok></fnt>
+      <fnt><aut>A. Cherpillod</aut>:
+      <vrk>Nepivaj vortoj</vrk>, <lok>1988</lok></fnt>
+      <fnt><lok><url
+    ref="&KompLeks;/ME.html#MODULO-2">KompLeks</url></lok></fnt>
     </kap>
+    </var>
+  </kap>
 
 <drv mrk="modul1.0i">
-  <kap><tld/>i</kap>
+  <kap><tld/>i, <var><kap><tld var="aci"/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="modul1.0i.MUZ">
     <uzo tip="fak">MUZ</uzo>
@@ -40,12 +49,33 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="agord.0i.MUZ">agordi<sncref/></ref>,
+      <ref cel="kromat.0a">kromata</ref>,
+      <ref cel="regist.0o">registro</ref>,
+      <ref cel="tembr.0o.MUZ">tembro<sncref/></ref>,
+      <ref cel="tonal.0o">tonalo</ref>,
+      <ref cel="transp.0i.MUZ">transponi<sncref/></ref>
+    </refgrp>
   </snc>
 
   <snc mrk="modul1.0i.vocx">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Variigi, nuanci la vo&ccirc;on.
+      <ref tip="super" cel="vari.0igi">Variigi</ref>, <ref tip="super" cel="nuanc.0i">nuanci</ref> la vo&ccirc;on:
+      <ekz>
+        en tiu kanta tono, kiu en la Paska festo estas ankora&ubreve; <tld/>ata tute speciale,
+        la kantoro vo&ccirc;legis la edifan historion pri la tento de <nom>Abraham</nom>
+        <fnt>
+          <bib>RBa</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia mola baritono <tld/>i&gcirc;is al bonvola baso
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
 
@@ -53,9 +83,20 @@
     <uzo tip="fak">TEL</uzo>
     <uzo tip="fak">ELE</uzo>
     <dif>
-      <ref tip="dif" cel="modul4.0i.TEL">Modulacii<sncref/></ref>:
+      Variigi la <ref cel="amplit.0o">amplitudo</ref>n, <ref cel="frekve.0o.TEK">frekvenco</ref>n 
+      a&ubreve; alian karakteriza&jcirc;on de relative altfrekvenca oscilo 
+      (de la portanta ondo, kurento) la&ubreve; la variado de transsendota signalo 
+      (kies frekvencoj estas konsiderinde malpli grandaj):
       <ekz>
-        pluraj mezuriloj uzas la efikon de Faraday, ekzemple oni povas
+        radiostacio kiu dissendas la&ubreve; <tld/>ita frekvenco &ccirc;efe en la astura lingvo
+        <fnt>
+          <bib>LOdE</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto"
+              >Hispaniaj nova&jcirc;oj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pluraj mezuriloj uzas la efikon de <nom>Faraday</nom>, ekzemple oni povas
         <klr>[&#8230;]</klr> <tld/>i la lumamplitudon, a&ubreve; detekti kaj taksi magnetan kampon
         <fnt>
           <bib>Viki</bib>
@@ -73,10 +114,8 @@
   <rim>
     La verbaj sencoj de la radiko &leftquot;<tld/>/&rightquot; estas 
     senrilataj al la substantivaj, vd <ref tip="hom" cel="modul.0o">modulo</ref>.
-    Fakte temas pri beda&ubreve;rinda
-    homonimio, evitebla per aparta radiko
-    <ref tip="sin" cel="modul4.0i">modulacio, modulacii</ref>,
-    kiu internacie havas la &ccirc;i-supre difinatajn signifojn
+    Fakte temas pri beda&ubreve;rinda homonimio, evitebla per la neoficialaj formoj
+    modulaci&middot;o, modulaci&middot;i, kiu internacie havas la &ccirc;i-supre difinatajn signifojn
     <em>kaj nur ilin</em>. 
   </rim>
   <trd lng="be">&c_m;&c_a;&c_d;&c_u;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -95,7 +134,7 @@
 </drv>
 
 <drv mrk="modul1.0ado">
-  <kap><tld/>ado</kap>
+  <kap><tld/>ado, <var><kap><tld var="aci"/>o</kap></var></kap>
   <snc>
     <dif>
       La ago <tld/>i 
@@ -103,10 +142,28 @@
       <sncref ref="modul1.0i.vocx"/>,
       <sncref ref="modul1.0i.TEL"/>) a&ubreve; &gcirc;ia rezulto:
       <ekz>
+        <nom>Mozart</nom> inventis originalan manieron de <tld/>ado (intertonala transiro)
+        <fnt>
+          <bib>KFl</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vo&ccirc;oj <klr>[&#8230;]</klr> per mirinde aran&gcirc;ita <tld/>ado imitis molan susuradon de
+        ondi&gcirc;antaj &scirc;tofoj kaj malla&ubreve;tan bruadon de disvolvataj puntoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni parolas ne nur monotone, sen iu ajn <tld/>ado de la vo&ccirc;o
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         frekvenca, amplituda, faza <tld/>ado.
       </ekz>
     </dif>
-    <ref tip="sin" cel="modul4.0o">modulacio</ref>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_d;&c_u;&c_l;&c_ja;&c_c;&c_y;&c_ja;</trd>
   <trdgrp lng="cs">
@@ -133,6 +190,9 @@
 
 <!--
 $Log$
+versio 1.4 2021/04/21 19:05:15
+Wolfram Diestel: kunigo kun var modulaci/, ekz-oj, ref-oj
+
 versio 1.3 2020/09/24 22:10:39
 Vito Redsky: +trd pl  + trd ro
 
