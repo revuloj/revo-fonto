@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tang.xml,v 1.15 2021/04/22 13:09:56 revo Exp $">
+<art mrk="$Id: tang.xml,v 1.16 2021/04/22 19:08:30 revo Exp $">
 <kap>
   <rad>tang</rad>/i
 </kap>
@@ -11,23 +11,32 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="tang.0i.MAR">
     <uzo tip="fak">MAR</uzo>
-    <uzo tip="klr">(pri &scirc;ipo)</uzo>
+    <uzo tip="fak">AVI</uzo>
     <dif>
-      Oscile movigi la&ubreve;longe, tio estas
-      de anta&ubreve;e kaj de malanta&ubreve;e.
+      <ref tip="super" cel="turn.0igxi.ruligxi">Turni&gcirc;i</ref> &ccirc;irka&ubreve; la transversa akso de la veturilo; 
+      &ccirc;e &scirc;ipo t.e. pro ondoj levantaj la pruon a&ubreve; pobon:
+      <ekz>
+        la tria ondego <tld/>igis la Imperiestrinon, kiu krute &jcirc;eti&gcirc;is supren
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>.
+      </ekz>
     </dif>
-    <bld
-      lok="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Achsen_Schiffsbewegung.svg/640px-Achsen_Schiffsbewegung.svg.png"
-      prm="CC BY-SA 3.0"
-      lrg="640"
-      >rotaciaj movoj de &scirc;ipo: (x) ruli&gcirc;i, (y) tangi, (z) giri, jori
+    <refgrp tip="vid">
+      <ref cel="jor.0i">jori</ref>,
+      <ref cel="gir.0i">giri</ref>,
+      <ref cel="rul.0igxi.MAR">ruli&gcirc;i<sncref/></ref>
+    </refgrp>
+    <bld lok="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Achsen_Schiffsbewegung.svg/640px-Achsen_Schiffsbewegung.svg.png" prm="CC BY-SA 3.0" lrg="640">rotaciaj movoj de &scirc;ipo: (x) ruli&gcirc;i, (y) tangi, (z) giri, jori
         <fnt>
           <aut>ThoKay, propra verko</aut>
-          <lok><url ref="&WCW;/File:Achsen_Schiffsbewegung.svg"
-              >https://commons.wikimedia.org/wiki/File:Achsen_Schiffsbewegung.svg</url></lok>
+          <lok><url ref="&WCW;/File:Achsen_Schiffsbewegung.svg">https://commons.wikimedia.org/wiki/File:Achsen_Schiffsbewegung.svg</url></lok>
         </fnt>
     </bld>
-    <trd lng="de">schlingern</trd>
+    <trdgrp lng="de">
+      <trd>schlingern</trd>,
+      <trd>nicken <klr>(Schiff)</klr></trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>tanguer</trd>
     </trdgrp>
@@ -41,7 +50,13 @@
   </snc>
   <snc mrk="tang.0i.MUZ">
     <dif>
-      Danci <tld/>on.
+      Danci <tld/>on:
+      <ekz>
+        mi tangis kun mia amikino en ties &ccirc;ambro &ccirc;e radio-muziko
+        <fnt>
+          <bib>KrB</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="bg">&c_t;&c_a;&c_n;&c_c;&c_u;&c_v;&c_a;&c_m; <ind>&c_t;&c_a;&c_n;&c_g;&c_o;</ind></trd>
     <trd lng="de">Tango tanzen</trd>
@@ -91,20 +106,27 @@
     <uzo tip="fak">MUZ</uzo>
     <dif>
       Para <ref tip="lst" lst="voko:dancoj" cel="danc.0o">danco</ref> 
-      argentin-devena,
-      du-takta, kun varia rapido,
-      monde populara ekde la 20a jarcento:
+      argentin-devena, du-takta, kun varia rapido, monde populara ekde la 20a jarcento:
+      <ekz>
+        je la unua, post la <tld/>oj, preska&ubreve; ni &ccirc;iuj estis torsonudaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Higinio Garc&iacute;a</aut>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato"
+              >El la atesto de Mustafao Vanesavir&#8217;</url></vrk>
+        </fnt>;
+      </ekz>
       <ekz>
         la nuna <tld/>o naski&gcirc;is en la bordeloj de Montevideo 
         kaj Bonaero, en la du lastaj jardekoj de la 19-a jarcento
         <fnt>
           <bib>Viki</bib>,
-          <vrk><url
-          ref="https://eo.wikipedia.org/wiki/Tango">Tango</url></vrk>.
-        </fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Tango">Tango</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="bg">&c_t;&c_a;&c_n;&c_g;&c_o;</trd>
+    <trd lng="de">Tango</trd>
     <trdgrp lng="fr">
       <trd>tango</trd>
     </trdgrp>
@@ -115,10 +137,18 @@
   <snc mrk="tang.0o.muzikajxo">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Muzika&jcirc;o ta&ubreve;ga por <tld/>o-danco
-      ofte kanzona kun sopiraj kaj kordoloraj temoj.
+      <ref tip="super" cel="muzik.0ajxo">Muzika&jcirc;o</ref> ta&ubreve;ga por <tld/>o-danco
+      ofte kanzona kun sopiraj kaj kordoloraj temoj:
+      <ekz>
+        mi e&ccirc; ekkantis la la&ubreve;modan <tld/>omelodion: &leftquot;sub varm&ccirc;iel&#8217; en Argentino, en
+        lando de la belvirino...&rightquot;
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="bg">&c_t;&c_a;&c_n;&c_g;&c_o;</trd>
+    <trd lng="de">Tango</trd>
     <trdgrp lng="fr">
       <trd>tango</trd>
     </trdgrp>
@@ -127,7 +157,7 @@
     <trd lng="ru">&c_t;&c_a;&c_n;&c_g;&c_o;</trd>
   </snc>
   <trd lng="cs">kym&aacute;cen&iacute; lod&ecaron;</trd>
-  <trd lng="de">Tango</trd>
+  
   <trd lng="nl">tango</trd>
   <trd lng="sk">kym&aacute;canie sa lode</trd>
   <trd lng="sv">tango</trd>
@@ -135,6 +165,9 @@
 </art>
 <!--
 $Log$
+versio 1.16 2021/04/22 19:08:30
+Wolfram Diestel: +ekz-oj, ref-oj
+
 versio 1.15 2021/04/22 13:09:56
 Wolfram Diestel: +bld
 
@@ -154,8 +187,5 @@ Revision 1.9  2004/11/17 19:24:56  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2002/05/02 11:38:32  revo
-Jeromo Vasxe: muz : reverkis dif, + muzika&jcirc;o, + trd fr
-
-Revision 1.7 2002/03/01 17:35:20 revo
 -->
 </vortaro>
