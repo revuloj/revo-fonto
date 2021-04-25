@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: despot.xml,v 1.22 2021/03/08 14:29:16 revo Exp $">
+<art mrk="$Id: despot.xml,v 1.23 2021/04/25 09:57:35 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>despot</rad>/o <fnt><bib>PV</bib></fnt>
@@ -9,23 +9,86 @@
 <drv mrk="despot.0o">
   <kap><tld/>o</kap>
   <snc mrk="despot.0o.POL">
+    <uzo tip="fak">POL</uzo>
     <dif>
-      Regnestro, kies a&ubreve;toritato estas senbara,
-      absoluta, a&ubreve;tokrata.
+      <ref tip="super" cel="regn.0estro">Regnestro</ref>, kies a&ubreve;toritato estas senbara,
+      <ref cel="absolu.0a.JUR.POL">absoluta</ref>, a&ubreve;tokrata:
+      <ekz>
+        Periandro estis Tirano de Korinto, renoma kiel kruela <tld/>o
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la imperiestro <nom>Hongwu</nom> <klr>[&#8230;]</klr> estis racia <tld/>o en multaj facetoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006852.html"
+              >Reago: &Ccirc;u vere kristana erao?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Jozefo <klr>[&#8230;]</klr> pro malico de siaj fratoj fari&gcirc;is sklavo, poste prizonulo,
+        kaj poste &ndash; &ccirc;efministro kaj <tld/>o de la plej civilizita lando de sia tempo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="https://www.monato.be/2003/007814.html"
+              >Malnova biblia epizodo en modernaj vestoj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en 2003 la iraka <tld/>o atakis neniun
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2003/008047.html"
+              >Ripetoj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se temas pri liberigo de popoloj, kial <nom>Bush</nom> ne militas kontra&ubreve; aliaj <tld/>oj
+        subjugantaj proprajn kaj najbarajn etnojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2003/008114.html"
+              >Papo kontra&ubreve; kristano</url></vrk>
+          <lok>2003</lok>
+        </fnt>?
+      </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="diktat.0o">diktatoro</ref>,
-      <ref cel="tiran.0o">tirano</ref>.
+    <refgrp tip="super">
+       <ref cel="auxtok.0o">a&ubreve;tokrato</ref>
     </refgrp>
+    <refgrp tip="sub">
+       <ref cel="tiran.0o.POL">tirano<sncref/></ref>,
+       <ref cel="diktat.0o">diktatoro</ref>
+    </refgrp>
+    <rim>
+      <tld lit="D"/>o povas esti tirana monar&hcirc;o, sed anka&ubreve; totalisma a&ubreve;tokrata respublikestro.
+      Origine &gcirc;i estis plej alta titolo sub la imperiestro (malnovgreke: &leftquot;<nac>&delta;&epsilon;&sigma;&pi;&omikron_ton;&tau;&eta;&sigma_fina;</nac>&rightquot;), 
+      enkondukita de la bizancia imperiestro Manuelo I-a en 1163.
+    </rim>
     <trd lng="be">&c_d;&c_e;&c_s;&c_p;&c_a;&c_t;</trd>
     <trd lng="bg">&c_d;&c_je;&c_s;&c_p;&c_o;&c_t;</trd>
     <trdgrp lng="de">
        <trd>Gewaltherrscher</trd>,
        <trd>Despot</trd>
     </trdgrp>
+    <trdgrp lng="cs">
+      <trd>despota</trd>,
+      <trd>krutovl&aacute;dce</trd>,
+      <trd>samovl&aacute;dce</trd>,
+      <trd>tyran</trd>
+    </trdgrp>
     <trd lng="en">despot</trd>
     <trd lng="es">d&eacute;spota</trd>
     <trd lng="fr">despote</trd>
+    <trd lng="grc">&delta;&epsilon;&sigma;&pi;&omikron_ton;&tau;&eta;&sigma_fina;</trd>
+    <trd lng="he">&ayin;&#1464;&resh;&#1460;&yod;&ftsadi;</trd>
     <trdgrp lng="hu">
        <trd>despota</trd>,
        <trd>k&eacute;ny&uacute;r</trd>,
@@ -39,17 +102,61 @@
     </trdgrp>
     <trdgrp lng="sk">
       <trd>tyran</trd>,
-      <trd>despota</trd>
+      <trd>despota</trd>,
+      <trd>samovl&aacute;dca</trd>
     </trdgrp>
   </snc>
-  <trdgrp lng="cs">
-    <trd>despota</trd>,
-    <trd>krutovl&#xE1;dce</trd>,
-    <trd>samovl&#xE1;dce</trd>,
-    <trd>tyran</trd>
-  </trdgrp>
-  <trd lng="he">&#x5E2;&#x5B8;&#x5E8;&#x5B4;&#x5D9;&#x5E5;</trd>
-  <trd lng="sk">samovl&#xE1;dca</trd>
+</drv>
+
+<drv mrk="despot.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Kondutanta kiel <tld/>o, montranta econ de <tld/>o:
+      <ekz>
+        <tld/>a urbestro ofendis unu urbanon
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la urbo <klr>[&#8230;]</klr> estis administrata de guberniestro, ankora&ubreve; juna homo,
+        progresema kaj <tld/>a, kiel tio ofte okazas en Rusujo
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne estas la volo de mia patro, ke la nomar&hcirc;oj regu <tld/>e en siaj &ccirc;efurboj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i ja &ccirc;iam deziris tian viron, kiu plenumas &ccirc;iun &scirc;ian deziron, fortan kaj
+        <tld/>an, kiu skur&gcirc;as sian virinon, se &scirc;i ne obeas
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la unuan fojon, de la tempo kiam &scirc;i konis lin, <tld/>a tono eksonis en lia vo&ccirc;o
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ju pli arde furiozas la <tld/>a perforto, des pli frue &gcirc;i renversas sin mem
+        <fnt>
+          <bib>SatirRak</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">despotisch</trd>
 </drv>
 
 <drv mrk="despot.0ismo">
@@ -57,7 +164,22 @@
   <snc mrk="despot.0ismo.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      Regado de <tld/>o:
+      Formo de regado senbara, absolutisma:
+      <ekz>
+        la tuta aristokrataro indignas pro la <tld/>ismo de la pastroj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia Amalio restas en la ungegoj de la tigro, for&gcirc;emas kaj forploras sian tutan
+        vivon, dum mia ven&gcirc;o devas fasti kaj kurbi&gcirc;i sub la jugon de la <tld/>ismo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         Francio alvokadis la
         tutan mondon disrompi la katenojn de <tld/>ismo
@@ -104,7 +226,7 @@
     <dif>
       Tre rigora a&ubreve;toritato:
       <ekz>
-        <tld/>ismo en familio <klr>...</klr>
+        <tld/>ismo en familio <klr>[&#8230;]</klr>
         ruinigis milojn kaj milojn da junaj koroj
         <fnt>
           <aut>Ba Jin, trad. Li Shijun</aut>,
@@ -116,15 +238,18 @@
   </snc>
   <trdgrp lng="cs">
     <trd>despotizmus</trd>,
-    <trd>samovl&#xE1;da</trd>
+    <trd>samovl&aacute;da</trd>
   </trdgrp>
   <trd lng="fr">despotisme</trd>
-  <trd lng="he">&#x5E2;&#x5B8;&#x5E8;&#x5B4;&#x5D9;&#x5E6;&#x5D5;&#x5BC;&#x5EA;</trd>
-  <trd lng="sk">krutovl&#xE1;da</trd>
+  <trd lng="he">&ayin;&#1464;&resh;&#1460;&yod;&tsadi;&vav;&#1468;&tav;</trd>
+  <trd lng="sk">krutovl&aacute;da</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2021/04/25 09:57:35
+Wolfram Diestel: revortigis dif-on; +~a; +ekz-oj, ref-oj, rim
+
 Revision 1.20  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -144,11 +269,5 @@ Revision 1.15  2009/05/27 16:30:31  revo
 Wieland Pusch: +trd bg
 
 Revision 1.14  2009/05/26 16:30:30  revo
-Russ Williams: +trd en
-
-Revision 1.13  2007/07/23 16:31:15  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2005/04/27 16:32:47  revo
 -->
 </vortaro>
