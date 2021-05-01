@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: interf.xml,v 1.17 2015/07/04 08:37:36 revo Exp $">
+<art mrk="$Id: interf.xml,v 1.18 2021/05/01 07:48:39 revo Exp $">
 <kap>
   <rad>interfer</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -32,27 +32,70 @@
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_t;&c_e;&c_r;&c_f;&c_e;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="cs">interferovat</trd>
-  <trd lng="de">interferieren</trd>
+  <trdgrp lng="de">
+    <trd>interferieren</trd>,
+    <trd>&uuml;berlagern</trd>
+  </trdgrp>
   <trd lng="fr">interf&eacute;rer<klr tip="ind"> (phys.)</klr></trd>
   <trd lng="hu">interfer&aacute;l</trd>
   <trd lng="nl">interfereren</trd>
   <trd lng="pt">interferir<klr tip="amb"> (f&iacute;sica)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_r;&c_f;&c_je;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">interferovať</trd>
+  <trd lng="sk">interferova&tcaron;</trd>
+    <adm>
+      dif FOT bezonas reverkon, temas pri pli- kaj malpliforti&gcirc;o (modulado) kaj
+      &gcirc;enerale &ccirc;iaj (elektromagnetaj k.a.) ondoj montras la fenomenon
+      <aut>WD</aut>
+    </adm>
 </drv>
 
 <drv mrk="interf.0o">
   <kap><tld/>o</kap>
-  <snc mrk="interf.0o.FOT">
-    <uzo tip="fak">FOT</uzo>
+  <snc mrk="interf.0o.FIZ">
+    <uzo tip="fak">FIZ</uzo>
     <dif>
-      Plimalforti&gcirc;o de la lumo ka&ubreve;zata en kelkaj okazoj per
-      interkruci&gcirc;o de lumaj radioj.
+      Perturbo inter kruci&gcirc;antaj elektromagnetaj k.a. ondoj: 
+      <ekz>
+        la frekvenco-mastrumado, kiu celas redukti la <tld/>ojn inter satelitoj &ndash; &ccirc;iu
+        horo da komunikado perdita pro teknika kialo ja kostas dekojn da milionoj da
+        e&ubreve;roj
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>Eta lando, kiu ne havas universitaton</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="interf.0o.perturbo">
+    <dif>
+      Perturbo pro interago:
+      <ekz>
+        <klr>[tiuj]</klr> noveloj estis kreitaj por demonstri la svagan limon inter la
+        reala kaj fantazia mondoj, ilian <tld/>on, reciprokan influon kaj efikon je
+        la protagonisto
+        <fnt>
+          <bib>LOdE</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Libroj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[pro]</klr> RNA-<tld/>o <klr>[&#8230;]</klr>, helpe de du&ccirc;ena RNA, povas okazi
+        &ccirc;eso de transdono de genaj informoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009428.php">Lastaj opinioj pri la origino de vivo</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_t;&c_e;&c_r;&c_f;&c_e;&c_r;&c_e;&c_n;&c_c;&c_y;&c_ja;</trd>
   <trd lng="cs">interference</trd>
-  <trd lng="de">Interferenz</trd>
+  <trdgrp lng="de">
+    <trd>Interferenz</trd>,
+    <trd>&Uuml;berlagerung</trd>
+  </trdgrp>
   <trd lng="fr">interf&eacute;rence</trd>
   <trd lng="hu">interferencia</trd>
   <trd lng="nl">interferentie</trd>
@@ -98,7 +141,7 @@
       &ccirc;e amba&ubreve;lingva parolanto:
       <ekz>
         la analizo <klr>...</klr> helpas elekti kiujn vortojn enigi
-        en la Esperantan programon kaj kiujn eviti pro la inter&#173;lingvaj
+        en la Esperantan programon kaj kiujn eviti pro la inter­lingvaj
         <tld/>oj
         <fnt>
           <aut>K. Smid&eacute;liusz</aut>,
@@ -112,8 +155,7 @@
         lingvajn <tld/>ojn &ccirc;e hungaroj
         <fnt>
           <aut>-</aut>,
-          <vrk><url
-          ref="http://www.edukado.net/biblioteko/libroj?iid=9418">
+          <vrk><url ref="http://www.edukado.net/biblioteko/libroj?iid=9418">
           Eszperant&oacute; - Nemzetk&ouml;zi Nyelv [recenzo]</url></vrk>,
           <lok>2004</lok>
         </fnt>.
@@ -159,6 +201,9 @@
 </art>
 <!--
 $Log$
+versio 1.18 2021/05/01 07:48:39
+Wolfram Diestel: ~o: apartigo snc FIZ, snc KOMUNE, ekz-oj; ~i: +adm
+
 Revision 1.16  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -178,11 +223,5 @@ Revision 1.11 2004/03/18 17:30:40 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10 2004/02/11 19:21:51 revo
-Jozefo Horvath: +trd hu
-
-Revision 1..9 2004/02/09 17:31:28 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2002/08/16 17:30:57 revo
 -->
 </vortaro>
