@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: margxe.xml,v 1.22 2021/05/02 14:50:07 revo Exp $">
+<art mrk="$Id: margxe.xml,v 1.23 2021/05/02 17:26:10 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>mar&gcirc;en</rad>/o <fnt><bib>PV</bib></fnt>
@@ -46,7 +46,7 @@
   <snc mrk="margxe.0o.regiono">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      <ref tip="super" cel="region.0o">Regiono</ref> apudranda, &ccirc;elima:
+      <ref tip="super" cel="region.0o">Regiono</ref> <klr>(anka&ubreve; figurasence)</klr> apudranda, &ccirc;elima:
       <ekz>
         Irlando estis malri&ccirc;a, postrestanta, izolita lando &ccirc;e la <tld/>o de E&ubreve;ropo
         <fnt>
@@ -54,6 +54,15 @@
           <aut>Garbhan Macaoidh</aut>
           <vrk><url ref="https://www.monato.be/2003/008139.html">Babel-insulo</url></vrk>
           <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Albanoj fari&gcirc;is do popolo koloniita, ekzistanta kvaza&ubreve; en geto &ccirc;e la <tld/>oj de
+        ekonomiaj kaj financaj procezoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato-2012-2018"
+              >Interetnaj Rilatoj &dash; Vivi &ccirc;e la mar&gcirc;enoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -61,7 +70,36 @@
       <ref cel="perife.0o.KOMUNE">periferio<sncref/></ref>,
       <ref cel="provin.0o.necxefurbo">provinco<sncref/></ref>
     </refgrp>
+    <refgrp tip="vid">
+      <ref cel="lim.0o.spaca">limo<sncref/></ref>,
+      <ref cel="rand.0o.KOMUNE">rando<sncref/></ref>
+    </refgrp>
     <trd lng="de">Peripherie</trd>
+  </snc>
+  <snc mrk="margxe.0o.nefiksita">
+    <uzo tip="stl">FIG</uzo>
+    <uzo tip="fak">SCI</uzo><uzo tip="fak">EKON</uzo>
+    <dif>
+      La nefiksita <ref tip="super" cel="spac.inter0o">interspaco</ref> limigita unuflanke de la jam fiksitaj donita&jcirc;oj kaj aliflanke
+      la ne plu ebla:
+      <ekz>
+        la sistemo tre bone povas funkcii allasante pli malpli vastan nedifinitan
+        <tld/>on
+        <fnt>
+          <bib>BonaLingvo</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="margxe.erar0o">erar<tld/>o</ref>,
+      <ref cel="margxe.profit0o">profit<tld/>o</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="bord.0o">bordo</ref>,
+      <ref cel="interv.0o.MAT">intervalo<sncref/></ref>,
+      <ref cel="span.0o">spano</ref>
+    </refgrp>
+    <trd lng="de">Spielraum</trd>
   </snc>
   <trd lng="be">&c_p;&c_o;&c_l;&c_je; <klr>(&c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_ib;)</klr></trd>
   <trd lng="ca">marge</trd>
@@ -254,8 +292,7 @@
       <ekz>
         la maldekstra e&gcirc;o de la alineo havas krom<tld/>on
         <fnt>
-          <vrk><url
-          ref="https://help.libreoffice.org/6.1/eo/text/swriter/guide/indenting.html">Alineaj
+          <vrk><url ref="https://help.libreoffice.org/6.1/eo/text/swriter/guide/indenting.html">Alineaj
           krommar&gcirc;enoj - LibreOffice</url></vrk>
         </fnt>;
       </ekz>
@@ -325,6 +362,9 @@
 </art>
 <!--
 $Log$
+versio 1.23 2021/05/02 17:26:10
+Wolfram Diestel: +snc SCI/EKON
+
 versio 1.22 2021/05/02 14:50:07
 Wolfram Diestel: adaptetoj
 
@@ -344,8 +384,5 @@ Revision 1.16  2011/12/12 11:10:21  revo
 Marc Rausell: +trd ca
 
 Revision 1.15  2009/10/09 16:31:18  revo
-Paul Peeraerts: +nl
-
-Revision 1.14  2006/07/29 16:34:05  revo
 -->
 </vortaro>
