@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: famili1.xml,v 1.20 2021/05/17 05:55:05 revo Exp $">
+<art mrk="$Id: famili1.xml,v 1.21 2021/05/18 05:55:34 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>familiar</rad>/a <fnt><bib>PV</bib></fnt>
@@ -42,6 +42,7 @@
         </fnt>;
       </ekz>
     </dif>
+    <ref tip="ant" cel="fremd.0a.aliula">fremda<sncref/></ref>
     <refgrp tip="vid">
       <ref cel="ci.0">ci</ref>,
       <ref cel="intim.0a">intima</ref>,
@@ -61,7 +62,9 @@
     <trdgrp lng="de">
       <trd>vertraulich <klr>(famili&auml;r)</klr></trd>,
       <trd>famili&auml;r</trd>,
-      <trd>br&uuml;derlich</trd>
+      <trd>heimisch</trd>,
+      <trd>br&uuml;derlich</trd>,
+      <trd>per <ind>du</ind></trd>
     </trdgrp>
     <trdgrp lng="en">
       <trd>familiar</trd>,
@@ -123,6 +126,12 @@
     <dif>
       <tld lit="F"/>a sinteno, atmosfero, rilato al iu a&ubreve; io:
       <ekz>
+        preska&ubreve; infana mikso de deca respekto kaj facila <tld/>eco
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         la fremdulo dum &ccirc;i tiuj festoj forgesas la &gcirc;enon
         kaj la senkunulecon de sia fremdeco, &ccirc;ar li trovas
         &ccirc;e la homoj <tld/>econ kaj amemon
@@ -131,10 +140,20 @@
           <vrk>Rakontoj kaj Poemoj</vrk>
           <lok><url ref="http://www.esperokatolika.org/ek19711975/ek1973_01.htm">
           Espero Katolika, 1973:1</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lingvo donas al la homoj sekurecon kaj <tld/>ecan senton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="https://www.monato.be/2013/010677.php">Lingva konfuzo kaj Konfuceo</url></vrk>
+          <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Vertrautheit</trd>
   <trd lng="fr">familiarit&eacute;</trd>
 </drv>
 
@@ -144,8 +163,16 @@
     <dif>
       Persono, kiu konstante kaj senceremonie interrilatas kun alia:
       <ekz>
+        estis agrabla restoracio, malhavanta &ccirc;ian <klr>[&#8230;]</klr> pretendemon, sed tute
+        komforta, <klr>[&#8230;]</klr> ver&scirc;ajne <tld/>uloj tie &ccirc;i regule frandis hejmecajn
+        kuira&jcirc;ojn
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         &leftquot;mi ne estas kuracisto kaj do parolas klare,&rightquot;
-        &scirc;ercas <nom>Owsiak</nom>. &leftquot;Mi parolas negramatike kaj
+        &scirc;ercas <nom>Owsiak</nom>. &leftquot;mi parolas negramatike kaj
         do estas <tld/>ulo por avera&gcirc;a polo&rightquot;
         <fnt>
           <aut>Z. Banet-Fornalowa</aut>
@@ -155,12 +182,21 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="amik.0o.KOMUNE">amiko<sncref/></ref>,
+       <ref cel="proksi.0ulo">proksimulo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="ca">
     <trd>company</trd>,
     <trd>col&middot;lega</trd>
   </trdgrp>
   <trd lng="cs">rodinn&yacute; p&rcaron;&iacute;slu&scaron;n&iacute;k</trd>
+  <trdgrp lng="de">
+    <trd>Vertrauter</trd>,
+    <trd>Angestammter</trd>,
+    <trd>Dutzfreund</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>familier<klr> (subst.)</klr></trd>,
     <trd>proche<klr> (subst.)</klr></trd>
@@ -173,8 +209,8 @@
   <kap>mal<tld/>a</kap>
   <snc mrk="famili1.mal0a.io">
     <dif>
-      Ne <tld/>a
-      sed iel fremda, strangeta, nekutima:
+      Tute ne <tld/>a sed <ref tip="sin" cel="fremd.0a.aliula">fremda</ref>, 
+      <ref tip="sin" cel="strang.0a">stranga</ref>, nekutima:
       <ekz>
         imponas min la mistero de la mal<tld/>a medio
         <fnt>
@@ -182,9 +218,11 @@
           <vrk><url ref="http://www.autodidactproject.org/my/durankulak.html">
           Durankulak [recenzo]</url></vrk>,
           <lok>2004-01-25</lok>
-        </fnt>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="proksi.mal0a">malproksima</ref>
+    <trd lng="de">fremdartig</trd>
     <trdgrp lng="fr">
       <trd>&eacute;tranger<klr> (adj., inhabituel)</klr></trd>,
       <trd>inhabituel</trd>
@@ -195,6 +233,9 @@
 
 <!--
 $Log$
+versio 1.21 2021/05/18 05:55:34
+Wolfram Diestel: ~eco...: ekz-oj, ref-oj, trd de
+
 versio 1.20 2021/05/17 05:55:05
 Wolfram Diestel: ~a: +snc kutima, ekz-oj, trd de
 
@@ -214,8 +255,5 @@ Revision 1.14  2010/04/15 16:30:43  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.13  2008/10/30 19:25:26  revo
-Russ Williams: +trd en
-
-Revision 1.12  2007/05/13 16:31:07  revo
 -->
 </vortaro>
