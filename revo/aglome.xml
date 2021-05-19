@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aglome.xml,v 1.27 2021/02/28 14:48:40 revo Exp $">
+<art mrk="$Id: aglome.xml,v 1.28 2021/05/19 14:50:11 revo Exp $">
 <kap>
   <rad>aglomer</rad>/i
    <fnt><bib>PV</bib></fnt>
@@ -11,14 +11,51 @@
   <gra><vspec>tr</vspec></gra>  
   <snc>
     <dif>
-      Kunigi en densan nedisi&gcirc;eman mason:
+      <ref tip="super" cel="kun.0igi">Kunigi</ref> en densan nedisi&gcirc;eman mason:
       <ekz>
+        <uzo tip="fak">MIN</uzo>
         roka&jcirc;o konsistanta el &scirc;tonetoj <tld/>itaj en cimento
         <fnt>
           <bib>Monato</bib>
           <aut>Petro De Smet'</aut>
           <vrk><url ref="https://www.monato.be/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
-        </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        merkatoj kie tutaj entreprenoj intertrakti&gcirc;as, inter&scirc;an&gcirc;i&gcirc;as, estas <tld/>ataj
+        a&ubreve; malkonstruataj
+        <fnt>
+          <bib>MD02</bib>
+          <vrk>Ataki la tabuon de la tabuoj &dash; For la privatan proprieton!</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>o</ind>
+        <fnt>
+          <bib>ZR</bib>
+        </fnt>.      
+        <trd lng="cs">aglomerace</trd>
+        <trdgrp lng="de">
+          <trd>Ballung</trd>,
+          <trd>Zusammenballung</trd>,
+          <trd>Anh&auml;ufung</trd>,
+          <trd>Agglomeration</trd>
+        </trdgrp>
+        <trd lng="en">agglomeration</trd>
+        <trd lng="es">aglomeraci&oacute;n</trd>
+        <trd lng="fr">agglom&eacute;ration</trd>
+        <trd lng="he">&mem;&#1460;&tsadi;&bet;&#1468;&#1464;&resh;</trd>
+        <trd lng="it">agglomerazione</trd>
+        <trdgrp lng="pl">
+          <trd>aglomerat</trd>,
+          <trd>zlepek</trd>,
+          <trd>skupienie</trd>
+        </trdgrp>
+        <trdgrp lng="ru">
+          <trd>&c_a;&c_g;&c_l;&c_o;&c_m;&c_je;&c_r;&c_a;&c_t;</trd>,
+          <trd>&c_s;&c_k;&c_o;&c_p;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+        </trdgrp>
+        <trd lng="sk">aglomer&aacute;cia</trd>
       </ekz>
     </dif>
   </snc>
@@ -37,8 +74,8 @@
   <trd lng="es">aglomerar</trd>
   <trd lng="fr">agglom&eacute;rer</trd>
   <trdgrp lng="he">
-    <trd>&#x5DC;&#x5E6;&#x5E8;&#x5D5;&#x5E3;</trd>,
-    <trd>&#x5DC;&#x5E6;&#x5D1;&#x5D5;&#x5E8;</trd>
+    <trd>&lamed;&tsadi;&resh;&vav;&fpe;</trd>,
+    <trd>&lamed;&tsadi;&bet;&vav;&resh;</trd>
   </trdgrp>
   <trd lng="it">agglomerare</trd>
   <trd lng="nl">een <ind>agglomeraat</ind> vormen</trd>
@@ -65,48 +102,20 @@
   </trdgrp>
 </drv>
 
-<drv mrk="aglome.0o">
-  <kap><tld/>o <fnt><bib>ZR</bib></fnt></kap>
-  <snc>
-    <dif>
-      Kunigo en densa kaj granda maso.
-    </dif>
-  </snc>
-  <trd lng="cs">aglomerace</trd>
-  <trdgrp lng="de">
-    <trd>Ballung</trd>,
-    <trd>Zusammenballung</trd>,
-    <trd>Anh&auml;ufung</trd>,
-    <trd>Agglomeration</trd>
-  </trdgrp>
-  <trd lng="en">agglomeration</trd>
-  <trd lng="es">aglomeraci&oacute;n</trd>
-  <trd lng="fr">agglom&eacute;ration</trd>
-  <trd lng="he">&#x5DE;&#x5B4;&#x5E6;&#x5D1;&#x5BC;&#x5B8;&#x5E8;</trd>
-  <trd lng="it">agglomerazione</trd>
-  <trdgrp lng="pl">
-    <trd>aglomerat</trd>,
-    <trd>zlepek</trd>,
-    <trd>skupienie</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_a;&c_g;&c_l;&c_o;&c_m;&c_je;&c_r;&c_a;&c_t;</trd>,
-    <trd>&c_s;&c_k;&c_o;&c_p;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
-  </trdgrp>
-  <trd lng="sk">aglomer&aacute;cia</trd>
-</drv>
 
 <drv mrk="aglome.0ajxo">
   <kap>
     <tld/>a&jcirc;o
   </kap>
-  <snc>
+  <snc mrk="aglome.0ajxo.MIN">
+    <uzo tip="fak">MIN</uzo><uzo tip="fak">TEK</uzo>
     <dif>
-       Densa nedisi&gcirc;ema maso kunigita el pluraj substancoj:
+      Densa nedisi&gcirc;ema <ref tip="super" cel="mas.0o.FIZ">maso</ref> kunigita el 
+      pluraj <ref tip="prt" cel="substa.0o.FIZ">substanco</ref>j:
       <ekz>
         tiu substanco en la terinterno estas nomata magmo, kaj post forlaso de la
         vulkankratero &gcirc;i povas esti lafo kaj vulkanaj sablo, polvo, tufo,
-        <klr>[&#x2026;]</klr> kaj <tld/>a&jcirc;o
+        <klr>[&#8230;]</klr> kaj <tld/>a&jcirc;o
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
@@ -123,14 +132,25 @@
         </fnt>;
       </ekz>
       <ekz>
-        la ministro pri energio <klr>[&#x2026;]</klr> jubilis pri la ekzisto de <tld/>a&jcirc;oj de
+        la ministro pri energio <klr>[&#8230;]</klr> jubilis pri la ekzisto de <tld/>a&jcirc;oj de
         skistogaso en Litovio
         <fnt>
           <bib>Monato</bib>
           <aut>last</aut>
           <vrk><url ref="https://www.monato.be/2011/010416.php">Revoj pri skistogaso</url></vrk>
-        </fnt>;
+        </fnt>.
       </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Ballung</trd>,
+      <trd>Agglomerat</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="aglome.0ajxo.urbego">
+    <uzo tip="fak">ARKI</uzo>
+    <dif>
+      Kuna&jcirc;o de pluraj urboj tia, ke ne plu estas klaraj limoj inter ili kaj ili
+      aperas kiel unu <ref tip="sin" cel="urb.0ego">urbego</ref>:
       <ekz>
         necesas malpli ol du horoj de Bruselo, &gcirc;ia kvaza&ubreve;a pezocentro, por atingi ties
         kvar &ccirc;efajn <tld/>a&jcirc;ojn, danke al reto de grandrapidaj trajnoj
@@ -138,22 +158,31 @@
           <bib>Monato</bib>
           <aut>Dj&eacute;mil Kessous</aut>
           <vrk><url ref="https://www.monato.be/2011/010326.php">Plaro, a&ubreve; la Flava Terpomo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &hcirc;aosa <tld/>a&jcirc;o kun dudek milionoj da lo&gcirc;antoj, Kairo konsistas el multegaj
+        kvartaloj, inter kiuj la plimulto estis konstruitaj sen interveno de publika
+        a&ubreve;toritato
+        <fnt>
+          <bib>MD17</bib>
+          <vrk>Tahrir-placo, sep jarojn post la &leftquot;revolucio&rightquot;</vrk>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="sub" cel="metrop.0o.aglomerajxo">metropolo<sncref/></ref>
+    <trd lng="de">Ballungsraum</trd>
   </snc>
-  <trdgrp lng="de">
-    <trd>Ballung</trd>,
-    <trd>Agglomeration</trd>
-  </trdgrp>
-  <trd lng="he">&#x5D4;&#x5B4;&#x5E6;&#x5D8;&#x5B7;&#x5D1;&#x5BC;&#x5B0;&#x5E8;&#x5D5;&#x5BC;&#x5EA;</trd>
+  <trd lng="he">&he;&#1460;&tsadi;&tet;&#1463;&bet;&#1468;&#1456;&resh;&vav;&#1468;&tav;</trd>
 </drv>
 
 
 </art>
 <!--
 $Log$
+versio 1.28 2021/05/19 14:50:11
+Wolfram Diestel: ~o: redukto al ekz; ~ajxo: apartigo snc MIN/TEK kaj ARKI
+
 versio 1.26 2020/10/22 16:43:28
 Wolfram Diestel: +ref metropolo
 
@@ -173,8 +202,5 @@ Revision 1.20  2013/04/21 18:10:18  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.19  2011/11/18 10:10:09  revo
-Antonio Codazzi: + trd it
-
-Revision 1.18  2011/05/06 12:10:15  revo
 -->
 </vortaro>
