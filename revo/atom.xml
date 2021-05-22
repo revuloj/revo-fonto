@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: atom.xml,v 1.34 2021/03/04 17:56:54 revo Exp $">
+<art mrk="$Id: atom.xml,v 1.35 2021/05/22 19:54:16 revo Exp $">
 <kap>
 <ofc>1</ofc>
 <rad>atom</rad>/o
@@ -27,7 +27,10 @@
       <ref cel="elektr14.0o">elektronoj</ref>:
       <ekz>
         la korpoj diferencas per la nombro de
-        elektronoj ekzistantaj en iliaj <tld/>oj.
+        elektronoj ekzistantaj en iliaj <tld/>oj;
+      </ekz>
+      <ekz>
+        <ref cel="centra1.atom0o"><tld/>centralo</ref>.
       </ekz>
     </dif>
     <ref tip="malprt" cel="moleku.0o">molekulo</ref>
@@ -139,32 +142,6 @@
   </trdgrp>
 </drv>
 
-<drv mrk="atom.0centralo">
-  <kap><tld/>centralo</kap>
-  <snc>
-    <ref tip="dif" cel="atom.0elektrejo">Atomelelektrejo</ref>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_a;&c_t;&c_a;&c_m;&c_n;&c_a;&c_ja; &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;</trd>,
-    <trd>&c_A;&c_E;&c_S;</trd>
-  </trdgrp>
-  <trd lng="cs">atomov&aacute; elektr&aacute;rna</trd>
-  <trdgrp lng="de">
-    <trd>Atomkraftwerk</trd>,
-    <trd>Kernkraftwerk</trd>
-  </trdgrp>
-  <trd lng="es">central nuclear</trd>
-  <trd lng="fr">centrale nucl&eacute;aire</trd>
-  <trd lng="id">PLTN</trd>
-  <trd lng="it">centrale nucleare</trd>
-  <trd lng="nl">atoomcentrale</trd>
-  <trd lng="ru">
-  &c_a;&c_t;&c_o;&c_m;&c_n;&c_a;&c_ja;
-&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;
-</trd>
-  <trd lng="sk">at&oacute;mov&aacute; elektr&aacute;re&ncaron;</trd>
-</drv>
-
 <drv mrk="atom.0elektrejo">
   <kap><tld/>elektrejo</kap>
   <snc>
@@ -180,7 +157,7 @@
 Temel&iacute;n&rightquot;
     <fnt><lok>Monato, 2002</lok></fnt>.
       </ekz>
-    </dif>
+    </dif>    
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_t;&c_a;&c_m;&c_n;&c_a;&c_ja; &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;</trd>,
@@ -193,7 +170,8 @@ Temel&iacute;n&rightquot;
   <trd lng="en">nuclear power plant</trd>
   <trd lng="es">central nuclear</trd>
   <trd lng="fr">centrale nucl&eacute;aire</trd>
-  <trd lng="he">&#x5EA;&#x5D7;&#x5E0;&#x5EA; &#x5DB;&#x5D5;&#x5D7; &#x5D2;&#x5E8;&#x5E2;&#x5D9;&#x5E0;&#x5D9;&#x5EA;</trd>
+  <trd lng="he">&#x5EA;&#x5D7;&#x5E0;&#x5EA; &#x5DB;&#x5D5;&#x5D7;
+  &#x5D2;&#x5E8;&#x5E2;&#x5D9;&#x5E0;&#x5D9;&#x5EA;</trd>
   <trd lng="hu">atomer&odblac;m&udblac;</trd>
   <trd lng="id">PLTN</trd>
   <trd lng="it">centrale nucleare</trd>
@@ -209,10 +187,14 @@ Temel&iacute;n&rightquot;
 </trd>
   </trdgrp>
   <trd lng="sk">at&oacute;mov&aacute; elektr&aacute;re&ncaron;</trd>
+  <adm>movu al elektrejo!</adm>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2021/05/22 19:54:16
+Wolfram Diestel: -drv ~centralo, +ref ~centralo (en central/)
+
 Revision 1.32  2017/03/29 15:10:15  revo
 Ludoviko Francisco: +trd fr
 
