@@ -2,7 +2,7 @@
 
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ses.xml,v 1.55 2020/12/29 11:10:33 revo Exp $">
+<art mrk="$Id: ses.xml,v 1.56 2021/05/23 10:55:48 revo Exp $">
  <kap><ofc>*</ofc> <rad>ses</rad></kap>
 
 <drv mrk="ses.0">
@@ -41,7 +41,7 @@
   </snc>
   <trd lng="be">&c_sh;&c_e;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_sh;&c_je;&c_s;&c_t;</trd>
-  <trd lng="bo">&#3921;&#4018;&#3956;&#3906;&#3851;</trd>
+  <trd lng="bo">&t_da;&t_rata;&t_shabchu;&t_ga;&t_tsheg;</trd>
   <trd lng="br">c'hwec'h</trd>
   <trd lng="ca">sis</trd>
   <trd lng="cs">&scaron;est</trd>
@@ -230,24 +230,67 @@
   <kap>
     dek<tld/>uma
   </kap>
-  <snc>
+  <uzo tip="fak">MAT</uzo>
+  <uzo tip="fak">KOMP</uzo>
+  <fnt><bib>KompLeks</bib></fnt>
+  <snc mrk="dek.0sesuma.MAT">
     <dif>
-      Je la bazo de dek ses:
+      Je la bazo de dek ses,
+      vd <ref tip="vid" cel="um.0.nombrosistemo">-um</ref>:
       <ekz>
         la dek<tld/>uma nombrosistemo estas pozicia nombrosistemo kies
-        bazo 
-        estas 16, &gcirc;iaj 16 ciferoj kutime estas la skribsignoj 0 1 2 3 4
+        bazo estas 16, &gcirc;iaj 16 ciferoj kutime estas la skribsignoj 0 1 2 3 4
         5 6 7 8 9 A B C D E F
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=9253">Deksesuma
           nombrosistemo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la dek<tld/>uma tempo montras, kiu parto de la tago estas pasinta, do identi&gcirc;as
+        la noktomezo kun <frm>,0000</frm>, tagmezo kun <frm>,8000</frm> (duona), kaj la momento anta&ubreve; la
+        venonta noktomezo kun <frm>,FFFF</frm>
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Deksesuma_tempo">Deksesuma tempo - Vikipedio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_sh;&c_a;&c_s;&c_n;&c_a;&c_c;&c_c;&c_a;&c_t;&c_k;&c_o;&c_v;&c_y;</trd>
+  <trd lng="br">c'hwezegel</trd>
+  <trd lng="ca">hexadecimal</trd>
+  <trd lng="cs">&scaron;estn&aacute;ctkov&yacute;</trd>
   <trd lng="de">hexadezimal</trd>
+  <trd lng="en">hexadecimal</trd>
+  <trd lng="es">hexadecimal</trd>
+  <trdgrp lng="fi">
+      <trd>16-kantainen</trd>,
+      <trd>heksadesimaali-</trd>
+  </trdgrp>
+  <trd lng="fr">hexad&eacute;cimal</trd>
+  <trdgrp lng="he">
+    <trd>&he;&qof;&samekh;&dalet;&tsadi;&yod;&mem;&lamed;&yod;</trd>,
+    <trd>&bet;<ind>&bet;&samekh;&yod;&samekh;
+    &shin;&shin;-&ayin;&shin;&resh;&he;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>tizenhatos</trd>,
+    <trd>hexadecim&aacute;lis</trd>
+  </trdgrp>
   <trd lng="id">heksadesimal</trd>
+  <trdgrp lng="nl">
+    <trd>zestiendelig</trd>,
+    <trd>hexadecimaal</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>szestnastkowy</trd>,
+    <trd>heksadecymalny</trd>
+  </trdgrp>
+  <trd lng="pt">hexadecimal<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="ru">&c_sh;&c_je;&c_s;&c_t;&c_n;&c_a;&c_d;&c_c;&c_a;&c_t;&c_je;&c_r;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">&scaron;estn&aacute;stkov&yacute;</trd>
+  <trd lng="sv">hexadecimal</trd>
 </drv>
 
 <drv mrk="ses.0dekuma">
@@ -296,6 +339,9 @@
 <!--
 
 $Log$
+versio 1.56 2021/05/23 10:55:48
+Wolfram Diestel: dek~uma: kunigo kun duobla el dek/
+
 versio 1.55 2020/12/29 11:10:33
 Aleks Andre: +trd bo
 
@@ -315,9 +361,6 @@ Revision 1.48  2017/10/20 23:10:20  revo
 Evandro Avellar: trd pt
 
 Revision 1.47  2016/12/03 18:10:19  revo
-Damien Brucker: +~deknauxi
-
-Revision 1.46  2015/07/04 08:37:43  revo
 -->
 
 </vortaro>
