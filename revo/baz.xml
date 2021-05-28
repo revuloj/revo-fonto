@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: baz.xml,v 1.60 2021/05/15 09:58:21 revo Exp $">
+<art mrk="$Id: baz.xml,v 1.61 2021/05/28 12:14:51 revo Exp $">
 <kap>
    <ofc>1</ofc>
    <rad>baz</rad>/o <fnt><bib>PIV1</bib></fnt>
@@ -236,8 +236,8 @@ facoj)</klr>;
          ke
          por
          kelkaj aplikoj estas oportune uzi indican skriba&jcirc;on de la
-         tipo <frm am="sum alpha_i*e_i">&#8721;
-         &alfa;<sub><k>i</k></sub>&#8729;<g>e</g><sub><k>i</k></sub></frm>
+         tipo <frm am="sum alpha_i*e_i">&#x2211;
+         &alfa;<sub><k>i</k></sub>&#x2219;<g>e</g><sub><k>i</k></sub></frm>
          kaj tio ebligas ordigi la <tld/>vektorojn.
        </rim>
        <refgrp tip="vid">
@@ -277,6 +277,7 @@ facoj)</klr>;
        </adm>
      </subsnc>
    </snc>
+  <trd lng="bo">&#xF62;&#xFA8;&#xF44;&#xF0B;&#xF42;&#xF5E;&#xF72;</trd>
   <trdgrp lng="cs">
     <trd>b&aacute;ze</trd>,
     <trd>op&ecaron;rn&yacute; bod</trd>,
@@ -535,8 +536,7 @@ facoj)</klr>;
        <frm><g>E</g></frm>)</klr>
        Tia <ref cel="baz.0o.vektoraspaco"><tld/>o <sncref/></ref>
        <frm am="(e^i)">(<g>e</g><sup><k>i</k></sup>)</frm> de la
-       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb        E"><g>E</g></frm>, ke <frm am="bb
-       e^i(bb e_j)"><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
+       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb        E"><g>E</g></frm>, ke <frm am="bb        e^i(bb e_j)"><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
        egalas al <frm>1</frm>, se <frm am="i=j"><k>i</k> = <k>j</k></frm>, kaj al <frm>0</frm>
        aliokaze.
      </dif>
