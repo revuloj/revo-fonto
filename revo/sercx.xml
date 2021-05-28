@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-  <art mrk="$Id: sercx.xml,v 1.24 2021/04/30 07:03:15 revo Exp $">
+  <art mrk="$Id: sercx.xml,v 1.25 2021/05/28 14:15:43 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>ser&ccirc;</rad>/i
@@ -59,7 +58,8 @@
         </refgrp>
       </snc>
       <trd lng="be">&c_sh;&c_u;&c_k;&c_a;&c_c;&c_mol;</trd>
-      <trdgrp lng="ca">
+      <trd lng="bo">&#xF60;&#xF5A;&#xF63;</trd>
+  <trdgrp lng="ca">
         <trd>buscar</trd>,
         <trd>cercar</trd>
       </trdgrp>
@@ -124,30 +124,24 @@
           <ekz>
             <uzo tip="fak">MIL</uzo>
             <ind>min<tld/>ilo</ind>;
-            <trd
-            lng="be">&c_m;&c_ib;&c_n;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+            <trd lng="be">&c_m;&c_ib;&c_n;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
             <trd lng="en">mine-detector</trd>
             <trd lng="hu">aknakeres&odblac;</trd>
-            <trd
-            lng="ru">&c_m;&c_i;&c_n;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+            <trd lng="ru">&c_m;&c_i;&c_n;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
           </ekz><ekz>
             <uzo tip="fak">KOMP</uzo>
             <ind>erar<tld/>ilo</ind>;
             <trd lng="en">debugger</trd>
             <trd lng="hu">hibakeres&odblac;</trd>
-            <trd
-            lng="ru">&c_o;&c_t;&c_l;&c_a;&c_d;&c_ch;&c_i;&c_k;</trd>
+            <trd lng="ru">&c_o;&c_t;&c_l;&c_a;&c_d;&c_ch;&c_i;&c_k;</trd>
           </ekz><ekz>
             <uzo tip="fak">FOT</uzo>
             <ind>vido<tld/>ilo</ind>
-            <klr>(fotografia <ref tip="sin"
-                cel="cel.0ilo">celilo</ref>)</klr>;
-            <trd
-            lng="be">&c_v;&c_ib;&c_d;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+            <klr>(fotografia <ref tip="sin" cel="cel.0ilo">celilo</ref>)</klr>;
+            <trd lng="be">&c_v;&c_ib;&c_d;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
             <trd lng="en">viewfinder</trd>
             <trd lng="hu">keres&odblac;</trd>
-            <trd
-            lng="ru">&c_v;&c_i;&c_d;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+            <trd lng="ru">&c_v;&c_i;&c_d;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
           </ekz>
         </dif>
         <subsnc mrk="sercx.0ilo.komando">
@@ -172,8 +166,7 @@
             Programo (eventuale, rulata per servilo) por ser&ccirc;i
             informojn en datumbazo a&ubreve; en la Interreto.
           </dif>
-          <trd
-          lng="be">&c_p;&c_o;&c_sh;&c_u;&c_k;&c_a;&c_v;&c_ib;&c_k;</trd>
+          <trd lng="be">&c_p;&c_o;&c_sh;&c_u;&c_k;&c_a;&c_v;&c_ib;&c_k;</trd>
           <trd lng="en">search engine</trd>
           <trdgrp lng="es">
             <trd>motor de b&uacute;squeda</trd>,
@@ -327,11 +320,9 @@
           minimuman nuliganton, kondi&ccirc;e ke tia ekzistas kaj ke por
           &ccirc;iuj malpliaj argumentovaloroj la
           funkcio <ref cel="konver.0i.KOMP">konver&gcirc;as<sncref/></ref>;
-          t.e. <frm am="(mu f)(bb x)=min_y{f(y,bb x)=0^^(AA z lt y):
-          f(z,bb x)darr}"
-          >(&my;f)(<g>x</g>) = <g>min</g><sub>y</sub>{f(y,<g>x</g>)=0 &#8743;
-          (&#8704;z&lt;y)
-f(z,<g>x</g>)&#8595;}</frm>,
+          t.e. <frm am="(mu f)(bb x)=min_y{f(y,bb x)=0^^(AA z lt y):           f(z,bb x)darr}">(&my;f)(<g>x</g>) = <g>min</g><sub>y</sub>{f(y,<g>x</g>)=0 &#x2227;
+          (&#x2200;z&lt;y)
+f(z,<g>x</g>)&#x2193;}</frm>,
           se ekzistas almena&ubreve; unu tia nuliganto; la rezulto estas
           nedifinita (la <tld/>o diver&gcirc;as) aliokaze.
         </dif>
