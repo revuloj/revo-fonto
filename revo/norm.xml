@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: norm.xml,v 1.51 2020/02/15 22:10:17 revo Exp $">
+<art mrk="$Id: norm.xml,v 1.52 2021/05/28 14:15:35 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>norm</rad>/o <fnt><bib>PV</bib></fnt>
@@ -94,13 +94,11 @@
       <frm am="x"><k>x</k>, <k>y</k></frm>, kaj por &ccirc;iu ajn
       <ref cel="skalar.0o.MAT">skalaro</ref> <frm am="alpha">&alfa;</frm>
       veras:
-      (1) <frm am="p(x) ge 0"><k>p</k>(<k>x</k>) &#8805; 0</frm>;
+      (1) <frm am="p(x) ge 0"><k>p</k>(<k>x</k>) &#x2265; 0</frm>;
       (2) <frm am="p(x)=0"><k>p</k>(<k>x</k>) = 0</frm>,
         se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>;
-      (3) <frm  am="p(alpha*x)=|alpha|p(x)"
-      ><k>p</k>(&alfa;&#8729;<k>x</k>)=|&alfa;|<k>p</k>(<k>x</k>)</frm>;
-      kaj (4) <frm am="p(x+y) le p(x)+p(y)"
-      ><k>p</k>(<k>x</k>+<k>y</k>) &#8804;
+      (3) <frm am="p(alpha*x)=|alpha|p(x)"><k>p</k>(&alfa;&#x2219;<k>x</k>)=|&alfa;|<k>p</k>(<k>x</k>)</frm>;
+      kaj (4) <frm am="p(x+y) le p(x)+p(y)"><k>p</k>(<k>x</k>+<k>y</k>) &#x2264;
       <k>p</k>(<k>x</k>)+<k>p</k>(<k>y</k>)</frm>:
       <ekz>
         la <tld/>on de vektoro <frm am="x"><k>x</k></frm> oni ofte
@@ -113,23 +111,19 @@
         <ref cel="valor.absoluta0o">absoluta valoro</ref>;
       </ekz>
       <ekz>
-        por <tld/>oj super <ref
-        cel="algebr.lineara0o.strukturo">algebroj</ref>
+        por <tld/>oj super <ref cel="algebr.lineara0o.strukturo">algebroj</ref>
         oni plie postulas, ke
-        <frm am="p(x xx y) le p(x)*p(y)"
-        ><k>p</k>(<k>x</k>&#215;<k>y</k>) &#8804;
+        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>&#xD7;<k>y</k>) &#x2264;
         <k>p</k>(<k>x</k>)&middot;<k>p</k>(<k>y</k>)</frm>;
       </ekz>
       <ekz>
         en spaco provizita per <ref cel="produt.skalara0o">skalara
         produto</ref>, la bildigo
-        <frm am="p(x)=sqrt(:x|x:)"
-        ><k>p</k>(<k>x</k>)= &#8730; &lt;<k>x</k>|<k>x</k>&gt;</frm>
+        <frm am="p(x)=sqrt(:x|x:)"><k>p</k>(<k>x</k>)= &#x221A; &lt;<k>x</k>|<k>x</k>&gt;</frm>
         estas <tld/>o, nomata e&ubreve;klida <tld/>o;
       </ekz>
       <ekz>
-        la bildigo, kiu &jcirc;etas paron <frm
-        am="(x,y)">(<k>x</k>,<k>y</k>)</frm>
+        la bildigo, kiu &jcirc;etas paron <frm am="(x,y)">(<k>x</k>,<k>y</k>)</frm>
         al <frm am="||x-y||">||<k>x</k>-<k>y</k>||</frm> estas
         <ref cel="metrik.0o.MAT">metriko</ref>.
       </ekz>
@@ -144,6 +138,7 @@
     <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind">
 (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
   </snc>
+  <trd lng="bo">&#xF5A;&#xF51;&#xF0B;&#xF63;&#xFA1;&#xF53;</trd>
   <trd lng="ca">norma</trd>
   <trdgrp lng="cs">
     <trd>norma</trd>,
@@ -419,14 +414,12 @@
         <trd><klr tip="ind">(wektor) </klr>jednostkowy</trd>,
         <trd><klr tip="ind">(wektor) </klr>unormowany</trd>
       </trdgrp>
-      <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr
-tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;)</klr></trd>
+      <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;)</klr></trd>
     </subsnc>
     <subsnc mrk="norm.unu0a.bazo">
       <dif>
         <klr>(p.p. <ref cel="baz.0o.vektoraspaco">bazo</ref>)</klr>
-        Kies elementoj estas unu<tld/>aj <sncref
-        ref="norm.unu0a.vektoro"/>.
+        Kies elementoj estas unu<tld/>aj <sncref ref="norm.unu0a.vektoro"/>.
       </dif>
       <trd lng="de">normiert<klr tip="ind"> (-e Basis)</klr></trd>
       <trd lng="en">normalized<klr tip="ind"> (basis)</klr></trd>
@@ -434,8 +427,7 @@ tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;)</klr></trd>
       <trd lng="hu">norm&aacute;lt<klr tip="ind">
 (b&aacute;zis)</klr></trd>
       <trd lng="pl"><klr tip="amb">(baza) </klr>unormowana</trd>
-      <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr
-tip="ind"> (&c_b;&c_a;&c_z;&c_i;&c_s;)</klr></trd>
+      <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_b;&c_a;&c_z;&c_i;&c_s;)</klr></trd>
     </subsnc>
     <rim>
       La formo <ctl>unu<tld/>a</ctl> prezentas teorian problemeton,
