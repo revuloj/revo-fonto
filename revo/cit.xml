@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: cit.xml,v 1.31 2021/05/29 14:32:15 revo Exp $">
+<art mrk="$Id: cit.xml,v 1.32 2021/05/30 11:29:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>cit</rad>/i
@@ -66,7 +67,7 @@
   <trd lng="en">quote</trd>
   <trd lng="es">citar</trd>
   <trd lng="fr">citer</trd>
-  <trd lng="he">&#x5DC;&#x5E6;&#x5D8;&#x5D8;</trd>
+  <trd lng="he">&lamed;&tsadi;&tet;&tet;</trd>
   <trd lng="hu">id&eacute;z</trd>
   <trd lng="it">citare</trd>
   <trd lng="pt">citar</trd>
@@ -99,7 +100,7 @@
   <trd lng="en">quotation</trd>
   <trd lng="es">cita</trd>
   <trd lng="fr">citation</trd>
-  <trd lng="he">&#x5E6;&#x5D9;&#x5D8;&#x5D5;&#x5D8;</trd>
+  <trd lng="he">&tsadi;&yod;&tet;&vav;&tet;</trd>
   <trd lng="hu">id&eacute;zet</trd>
   <trdgrp lng="it">
   <trd>citazione</trd>, <trd>brano</trd>
@@ -111,23 +112,37 @@
 </drv>
 
 <drv mrk="cit.re0i">
-  <kap>re<tld/>i<fnt>Z</fnt></kap>
+  <kap>re<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="cit.re0i.KOMUNE">
     <dif>
-      La&ubreve;te, la&ubreve;vorte, eventuale iom me&hcirc;anike ripeti
-      ion parkere lernitan:
+      Denove, ripete <tld/>i:
       <ekz>
-        re<tld/>i lecionon.
+        kun la&ubreve;dinda malka&scirc;emo li anka&ubreve; re<tld/>is siajn proprajn vortojn
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rutina&jcirc;ojn de gastigantino mi da&ubreve;re re<tld/>is: vi&scirc;tukoj tie &ccirc;i, liton oni
+        muntas tiel
+        <fnt>
+          <aut>Spomenka &Scaron;timec</aut>
+          <vrk>Ombro sur interna pejza&gcirc;o</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="deklam.0i">deklami</ref>
     </refgrp>
   </snc>
+  <rim>
+    Por la ago &#8218;parkere, iom artisme eldiri tekston,
+    deklami&#8216;, ekzistas homonimo <ref tip="hom" cel="recit.0i">recit&middot;i</ref>.
+  </rim>
   <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;
   <ind>&c_n;&c_a;&c_p;&c_a;&c_m;&c_ja;&c_c;&c_mol;</ind></trd>
-  <trd lng="bo">&#xF40;&#xFB3;&#xF7C;&#xF42; &#xF56;&#xF40;&#xFB3;&#xF42;&#xF66; &#xF56;&#xF40;&#xFB3;&#xF42; &#xF40;&#xFB3;&#xF7C;&#xF42;&#xF66;</trd>
+  <trd lng="bo">&t_ka;&t_lata;&t_naro;&t_ga; &t_ba;&t_ka;&t_lata;&t_ga;&t_sa; &t_ba;&t_ka;&t_lata;&t_ga; &t_ka;&t_lata;&t_naro;&t_ga;&t_sa;</trd>
   <trdgrp lng="ca">
     <trd>recitar</trd>,
     <trd>escandir</trd>,
@@ -138,8 +153,8 @@
     <trd>recitovat</trd>
   </trdgrp>
   <trdgrp lng="de">
-    <trd>vortragen</trd>,
-    <trd>rezitieren</trd>
+    <trd>erneut <ind>zitieren</ind></trd>,
+    <trd>(ein Zitat) <ind>wiederholen</ind></trd>
   </trdgrp>
   <trd lng="en">recite</trd>
   <trd lng="es">recitar</trd>
@@ -170,9 +185,9 @@
       <ref cel="sign.0o.KOMP">signo</ref> uzata por limsigni
       <tld/>a&jcirc;on:
       <ekz>
-        oni distingas <tld/>ilojn surliniajn (&#xAB;...&#xBB;) kaj
+        oni distingas <tld/>ilojn surliniajn («...») kaj
         eksterliniajn
-        <klr>...</klr> (&#x2018;...&#x2019;)
+        <klr>[&#8230;]</klr> (&#8216;...&#8217;)
         <fnt><bib>KompLeks</bib>, <lok>artikolo
         &leftquot;citilo&rightquot;</lok></fnt>.
       </ekz>
@@ -187,9 +202,9 @@
     <trd>G&auml;nsef&uuml;&szlig;chen</trd>
   </trdgrp>
   <trd lng="en">quotation mark</trd>
-  <trd lng="es">comilla<klr> (&#xAB;&#xBB;, ", ')</klr></trd>
+  <trd lng="es">comilla<klr> («», ", ')</klr></trd>
   <trd lng="fr">guillemet</trd>
-  <trd lng="he">&#x5DE;&#x5E8;&#x5DB;&#x5D0;&#x5D4;</trd>
+  <trd lng="he">&mem;&resh;&kaf;&alef;&he;</trd>
   <trd lng="hu">id&eacute;z&odblac;jel</trd>
   <trd lng="it">virgoletta</trd>
   <trd lng="pl">cudzys&lstroke;&oacute;w</trd>
@@ -200,6 +215,9 @@
 </art>
 <!--
 $Log$
+versio 1.32 2021/05/30 11:29:59
+Wolfram Diestel: re~i: ekz-oj, rim / homonimo
+
 versio 1.30 2021/05/13 09:59:17
 Wolfram Diestel: kor. drv@mrk
 
@@ -219,8 +237,5 @@ Revision 1.23  2011/12/03 21:10:21  revo
 Marc Rausell: kataluna traduko
 
 Revision 1.22  2009/08/18 19:17:39  revo
-Antonio Codazzi: +trd it
-
-Revision 1.21  2009/04/17 19:50:22  revo
 -->
 </vortaro>
