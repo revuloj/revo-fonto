@@ -1,98 +1,156 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-  <art mrk="$Id: bind.xml,v 1.20 2021/03/04 20:39:52 revo Exp $">
+  <art mrk="$Id: bind.xml,v 1.21 2021/06/07 20:07:00 revo Exp $">
   <kap>
     <ofc>*</ofc>
     <rad>bind</rad>/i
   </kap>
-  <drv mrk="bind.0i">
-    <kap><ofc>*</ofc><tld/>i</kap>
-    <gra><vspec>tr</vspec></gra>
-    <snc mrk="bind.0i.TIP">
-      <uzo tip="fak">TIP</uzo>
-      <dif>
-        Kunkudri la foliojn de libro kaj surmeti sur ilin rigidan
-        kovrilon. 
-      </dif>
-      <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_p;&c_l;&c_ja;&c_t;&c_a;&c_c;&c_mol;
-      <klr tip="amb">(&c_k;&c_n;&c_ib;&c_g;&c_u;)</klr></trd>
-      <trdgrp lng="br">
-        <trd>keina&ntilde;<klr tip="ind"> (ul levr)</klr></trd>,
-        <trd>koubla&ntilde;<klr tip="ind"> (ul levr)</klr></trd>
-      </trdgrp>
-      <trd lng="es">encuadernar</trd>
-      <trd lng="fr">relier <klr tip="ind">(assembler des
-      feuilles)</klr></trd>
-      <trd lng="hu">k&ouml;t <klr tip="ind">(k&ouml;nyvet)</klr></trd>
-      <trdgrp lng="pl">
-        <trd>oprawia&cacute;<klr> ksi&aogonek;&zdot;ki</klr></trd>,
-        <trd>bindowa&cacute;</trd>
-      </trdgrp>
-      <trd lng="pt">encadernar</trd>
-      <trdgrp lng="ru">
-        <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_s;&c_t;&c_i;</trd>
-      </trdgrp>
-    </snc>
-    <snc mrk="bind.0i.KOMP">
-      <uzo tip="fak">KOMP</uzo>
-      <dif>
-        Konstrui <ref cel="sxarg.0i.KOMP">&scirc;argeblan</ref>
-        a&ubreve;
-        plenumeblan programon el tradukitaj programpartoj (celmoduloj),
-        &scirc;topante la intermodulajn ligilojn; interalie,
-        en&scirc;ovi la
-        programojn realigantajn la bibliotekajn funkciojn:
-        <ekz>
-          <ind>statika <tld/>ado</ind>;
-          <trdgrp lng="en">
-            <trd>static binding</trd>,
-            <trd>early binding</trd>
-          </trdgrp>
-          <trd lng="hu">statikus k&ouml;t&eacute;s</trd>
-          <trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;
-          &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja;
-          &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
-        </ekz>
-        <ekz>
-          <ind>dinamike <tld/>ebla biblioteko</ind>.
-          <trdgrp lng="en">
-            <trd>dynamic link library</trd>,
-            <trd>DLL</trd>,
-            <trd>shared library</trd>
-          </trdgrp>
-          <trdgrp lng="hu">
-            <trd>dinamikusan l&aacute;ncolt k&ouml;nyvt&aacute;r</trd>,
-            <trd>dinamikusan &ouml;sszekapcsolhat&oacute;
-            k&ouml;nyvt&aacute;r</trd>,
-            <trd>DLL</trd>
-          </trdgrp>
-          <trd lng="pl">biblioteka dowi&aogonek;zywana dynamicznie</trd>
-          <trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;
-          &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja;
-          &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
-        </ekz>
-      </dif>
-      <trdgrp lng="be">
-        <trd>&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_v;&c_a;&c_c;&c_mol;
-        <klr>(&c_a;&c_b;'&c_je;&c_k;&c_t;&c_n;&c_y;&c_ja;
-        &c_m;&c_o;&c_d;&c_u;&c_l;&c_ib;)</klr></trd>
-      </trdgrp>
-      <trd lng="en">link <klr tip="ind">(a program)</klr></trd>
-      <trdgrp lng="pl">
-        <trd>&lstroke;&aogonek;czy&cacute;</trd>,
-        <trd>dowi&aogonek;zywa&cacute;</trd>,
-        <trd>konsolidowa&cacute;</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;
-        <klr>(&c_o;&c_b;&c_malmol;&c_je;&c_k;&c_t;&c_n;&c_y;&c_je;
-        &c_m;&c_o;&c_d;&c_u;&c_l;&c_i;)</klr></trd>
-      </trdgrp>
-    </snc>
+<drv mrk="bind.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="bind.0i.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      <ref tip="super" cel="kun.0igi">Kunigi</ref> la foliojn de libro kaj surmeti sur ilin rigidan
+      kovrilon:
+      <ekz>
+        li portis malfermitan grandan libron, kiu estis <tld/>ita en veluro
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Plej bela rozo de la mondo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malnova abocolibro <klr>[&#8230;]</klr> elsaltis el sia fako kaj samtempe donis
+        tian pu&scirc;on al la nova, ke anka&ubreve; &ccirc;i tiu falis sur la teron kaj &gcirc;iaj
+        ne<tld/>itaj folioj dis&jcirc;eti&gcirc;is &ccirc;irka&ubreve;en
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Abocolibro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ita kolekto de revuo
+        <fnt>
+          <bib>BonaLingvo</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        kiam <klr>[&#8230;]</klr> mi mem kun la historio de mia vivo devos esti <tld/>ita en
+        la tombon, tiam faru super mi la surskribon: &leftquot;bona humoro&rightquot;
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Bona humoro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        dormanta rivero <tld/>ita en sunreto kaj diafana blua akvopenetrita aero
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="brosxu.0i">bro&scirc;uri</ref>,
+       <ref cel="kajer.0o.de_libro">kajero<sncref/></ref>
+    </refgrp>
+    <rim>
+      En unu loko aperas <tld/>i en la senco <ref cel="bandag.0i">banda&gcirc;i</ref>:
+      <ekz>
+        tiu &ccirc;i vundo ne estas grava <klr>[&#8230;]</klr>, oni devas &scirc;topi la orelojn kaj
+        <tld/>i la vundojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
+    </rim>
+    <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_p;&c_l;&c_ja;&c_t;&c_a;&c_c;&c_mol;
+    <klr tip="amb">(&c_k;&c_n;&c_ib;&c_g;&c_u;)</klr></trd>
+    <trdgrp lng="br">
+      <trd>keina&ntilde;<klr tip="ind"> (ul levr)</klr></trd>,
+      <trd>koubla&ntilde;<klr tip="ind"> (ul levr)</klr></trd>
+    </trdgrp>
+    <trd lng="de">binden <klr>(Buch)</klr></trd>
+    <trd lng="es">encuadernar</trd>
+    <trd lng="fr">relier <klr tip="ind">(assembler des
+    feuilles)</klr></trd>
+    <trd lng="hu">k&ouml;t <klr tip="ind">(k&ouml;nyvet)</klr></trd>
+    <trdgrp lng="pl">
+      <trd>oprawia&cacute;<klr> ksi&aogonek;&zdot;ki</klr></trd>,
+      <trd>bindowa&cacute;</trd>
+    </trdgrp>
+    <trd lng="pt">encadernar</trd>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_je;&c_s;&c_t;&c_i;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="bind.0i.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Konstrui <ref cel="sxarg.0i.KOMP">&scirc;argeblan</ref>
+      a&ubreve; plenumeblan programon el tradukitaj programpartoj (celmoduloj),
+      &scirc;topante la intermodulajn ligilojn; interalie, en&scirc;ovi la
+      programojn realigantajn la bibliotekajn funkciojn:
+      <ekz>
+        <ind>statika <tld/>ado</ind>;
+        <trdgrp lng="en">
+          <trd>static binding</trd>,
+          <trd>early binding</trd>
+        </trdgrp>
+        <trd lng="hu">statikus k&ouml;t&eacute;s</trd>
+        <trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;
+        &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja;
+        &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
+      </ekz>
+      <ekz>
+        <ind>dinamike <tld/>ebla biblioteko</ind>.
+        <trdgrp lng="en">
+          <trd>dynamic link library</trd>,
+          <trd>DLL</trd>,
+          <trd>shared library</trd>
+        </trdgrp>
+        <trdgrp lng="hu">
+          <trd>dinamikusan l&aacute;ncolt k&ouml;nyvt&aacute;r</trd>,
+          <trd>dinamikusan &ouml;sszekapcsolhat&oacute;
+          k&ouml;nyvt&aacute;r</trd>,
+          <trd>DLL</trd>
+        </trdgrp>
+        <trd lng="pl">biblioteka dowi&aogonek;zywana dynamicznie</trd>
+        <trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;
+        &c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_je;&c_m;&c_a;&c_ja;
+        &c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_t;&c_je;&c_k;&c_a;</trd>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="deploj.0i.TEK">deploji<sncref/></ref>,
+      <ref cel="interp2.0i.LIN">interpreti<sncref/></ref>,
+      <ref cel="traduk.0i.transigi">traduki<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_v;&c_a;&c_c;&c_mol;
+      <klr>(&c_a;&c_b;'&c_je;&c_k;&c_t;&c_n;&c_y;&c_ja;
+      &c_m;&c_o;&c_d;&c_u;&c_l;&c_ib;)</klr></trd>
+    </trdgrp>
+    <trd lng="de">binden <klr>(Programm)</klr></trd>
+    <trd lng="en">link <klr tip="ind">(a program)</klr></trd>
+    <trdgrp lng="pl">
+      <trd>&lstroke;&aogonek;czy&cacute;</trd>,
+      <trd>dowi&aogonek;zywa&cacute;</trd>,
+      <trd>konsolidowa&cacute;</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;
+      <klr>(&c_o;&c_b;&c_malmol;&c_je;&c_k;&c_t;&c_n;&c_y;&c_je;
+      &c_m;&c_o;&c_d;&c_u;&c_l;&c_i;)</klr></trd>
+    </trdgrp>
+  </snc>
   <trdgrp lng="cs">
     <trd>opat&rcaron;it vazbou</trd>,
     <trd>spojovat</trd>,
@@ -101,71 +159,152 @@
     <trd>v&aacute;zat <klr>(knihy)</klr></trd>
   </trdgrp>
   <trd lng="en">bind</trd>
-  <trd lng="he">&#x5DC;&#x5DB;&#x5E8;&#x5D5;&#x5DA; (&#x5E1;&#x5E4;&#x5E8;)</trd>
+  <trd lng="he">&lamed;&kaf;&resh;&vav;&fkaf; (&samekh;&pe;&resh;)</trd>
   <trd lng="sk">viaza&tcaron; <klr>(knihy)</klr></trd>
 </drv>
   
-  <drv mrk="bind.0ajxo">
-    <kap><tld/>a&jcirc;o</kap>
-    <uzo tip="fak">TIP</uzo>
-    <snc>
-      <dif>
-        Librokovrilo. 
-      </dif>
-    </snc>
-    <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_p;&c_l;&c_jo;&c_t;</trd>
-    <trdgrp lng="br">
-      <trd>keinadur<klr tip="ind"> (ul levr)</klr></trd>,
-      <trd>koubladur<klr tip="ind"> (ul levr)</klr></trd>
-    </trdgrp>
-    <trd lng="en">binding</trd>
-    <trd lng="fr">reliure</trd>
-    <trd lng="he">&#x5DB;&#x5E8;&#x5D9;&#x5DB;&#x5D4;</trd>
+<drv mrk="bind.0ajxo">
+  <kap><tld/>a&jcirc;o, <var><kap><tld/>o</kap></var></kap>
+  <uzo tip="fak">TIP</uzo>
+  <snc mrk="bind.0ajxo.librokovrilo">
+    <dif>
+      <ref tip="malprt" cel="libr.0o.presajxo">Libro</ref>kovrilo:
+      <ekz>
+        libroj en marokenaj <tld/>oj kaj kun oraj tran&ccirc;partoj
+        <fnt>
+          <bib>Fab3</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rakontis la malgranda muso: <klr>[&#8230;mi]</klr> tuj forman&gcirc;etis preska&ubreve; tutan
+        romanon, tio estas nur la molan parton, la esencan, sed la &scirc;elon, la <tld/>on
+        mi lasis netu&scirc;ita
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la libro havis dikan, eluzitan <tld/>a&jcirc;on, &gcirc;i kredeble estis legata multfoje
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> tenis sub la brako grandajn librojn en simpla <tld/>o a&ubreve; sen
+        <tld/>o, difektitajn, duone dis&scirc;iritajn de uzado
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_p;&c_l;&c_jo;&c_t;</trd>
+  <trdgrp lng="br">
+    <trd>keinadur<klr tip="ind"> (ul levr)</klr></trd>,
+    <trd>koubladur<klr tip="ind"> (ul levr)</klr></trd>
+  </trdgrp>
+  <trd lng="de">Einband</trd>
+  <trd lng="en">binding</trd>
+  <trd lng="fr">reliure</trd>
+  <trd lng="he">&kaf;&resh;&yod;&kaf;&he;</trd>
   <trd lng="hu">k&ouml;t&eacute;s<klr tip="ind">
     (k&ouml;nyv&eacute;)</klr></trd>
-    <trdgrp lng="pl">
-      <trd>obwoluta</trd>,
-      <trd>ok&lstroke;adka</trd>
-    </trdgrp>
-    <trd lng="ro">acoperi</trd>
-    <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_jo;&c_t;</trd>
-  </drv>
+  <trdgrp lng="pl">
+    <trd>obwoluta</trd>,
+    <trd>ok&lstroke;adka</trd>
+  </trdgrp>
+  <trd lng="ro">acoperi</trd>
+  <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_jo;&c_t;</trd>
+</drv>
   
-  <drv mrk="bind.0ilo">
-    <kap><tld/>ilo</kap>
-    <snc mrk="bind.0ilo.KOMP">
-      <uzo tip="fak">KOMP</uzo>
-      <dif>
-        <ref tip="malprt" cel="operac.0umo">Operaciuma</ref>
-        programo konstruanta plenumeblan programon (a&ubreve;
-        &scirc;argmodulon)
-        el tradukitaj pecoj (celmoduloj).
-      </dif>
-      <ref tip="vid" cel="sxarg.0ilo">&scirc;argilo</ref>
-      
-      <trd lng="de">Binder</trd>
-      <trdgrp lng="en">
-        <trd>linker</trd>,
-        <trd>linkage editor</trd>,
-        <trd>binder</trd>
-      </trdgrp>
-      <trd lng="fr">&eacute;diteur de liens</trd>
-      <trd lng="hu">kapcsolatszerkeszt&odblac;</trd>
-      <trdgrp lng="pl">
-        <trd>linker</trd>,
-        <trd>konsolidator</trd>,
-        <trd>program &lstroke;&aogonek;cz&aogonek;cy</trd>
-      </trdgrp>
-      <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>
-    </snc>
+<drv mrk="bind.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="bind.0ilo.TIP">
+    <dif>
+      Iu <ref tip="super" cel="aparat.0o.TEK">aparato</ref> uzata dum <tld/>ado:
+      <ekz>
+        teknika ekip<klr>[a&jcirc;]</klr>o: <klr>[&#8230;]</klr> komputiloj, kopiiloj, <tld/>iloj,
+        mikrofotiloj, aersekigiloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1010">Esperanto-biblioteko</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Bindemaschine</trd>,
+      <trd>Heftmaschine</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="bind.0ilo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="malprt" cel="operac.0umo">Operaciuma</ref>
+      programo konstruanta plenumeblan programon (a&ubreve;
+      &scirc;argmodulon) el tradukitaj pecoj (celmoduloj):
+      <ekz>
+        <nom>lld</nom> celas forigi dependecon de <klr>[aparta]</klr> <tld/>ilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=576918">LLVM</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="sxarg.0ilo">&scirc;argilo</ref>    
+    <trd lng="de">Binder <klr>(Software)</klr></trd>
+    <trdgrp lng="en">
+      <trd>linker</trd>,
+      <trd>linkage editor</trd>,
+      <trd>binder</trd>
+    </trdgrp>
+    <trd lng="fr">&eacute;diteur de liens</trd>
+    <trd lng="hu">kapcsolatszerkeszt&odblac;</trd>
+    <trdgrp lng="pl">
+      <trd>linker</trd>,
+      <trd>konsolidator</trd>,
+      <trd>program &lstroke;&aogonek;cz&aogonek;cy</trd>
+    </trdgrp>
+    <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>
+  </snc>
   <trd lng="cs">spojovac&iacute; program</trd>
-  <trd lng="he">&#x5DB;&#x5E8;&#x5D9;&#x5DB;&#x5D4;</trd>
+  <trd lng="he">&kaf;&resh;&yod;&kaf;&he;</trd>
   <trd lng="sk">spojovac&iacute; program</trd>
 </drv>
+
+<drv mrk="bind.0isto">
+  <kap>
+    <tld/>isto
+  </kap>
+  <snc mrk="bind.0isto.metiisto">
+    <dif>
+      <ref tip="lst" lst="voko:metioj" cel="meti.0isto">Metiisto</ref>, kiu <tld/>as librojn:
+      <ekz>
+        metiisto, &scirc;ajnas al mi, ke li estas <tld/>isto a&ubreve; io simila
+        <fnt>
+          <bib>Gmn</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i rigardadis anka&ubreve; en la anta&ubreve; &scirc;i ku&scirc;antan Hagadon, la belan, per oro kaj
+        veluro <tld/>itan pergamenan libron
+        <fnt>
+          <bib>RBa</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Buchbinder</trd>
+</drv>
+
+
 </art>
 
 <!--
 $Log$
+versio 1.21 2021/06/07 20:07:00
+Wolfram Diestel: +~o, ~isto, ekz-oj, ref-oj, trd de
+
 Revision 1.18  2015/10/09 12:10:15  revo
 Cindy Moon McKee: +trd en
 
