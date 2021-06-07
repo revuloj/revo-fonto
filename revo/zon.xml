@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: zon.xml,v 1.58 2021/06/07 07:57:15 revo Exp $">
+<art mrk="$Id: zon.xml,v 1.59 2021/06/07 16:00:42 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>zon</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -229,9 +229,6 @@
         <trd>&c_z;&c_o;&c_n;&c_a;</trd>,
         <trd>&c_p;&c_o;&c_l;&c_o;&c_s;&c_a;</trd>
       </trdgrp>
-      <adm>
-        Movu "terzono" el ter/ &ccirc;i-al zon/
-      </adm>
     </subsnc>
     <refgrp tip="vid">
       <ref cel="region.0o">regiono</ref>,
@@ -266,16 +263,6 @@
     <trd lng="ru">&c_sh;&c_a;&c_r;&c_o;&c_v;&c_o;&c_j;
     <ind>&c_p;&c_o;&c_ja;&c_s;</ind></trd>
   </snc>
-
-  <adm>
-    Almena&ubreve; en la franca, la geografia senco estas pli vasta ol
-    difinite &ccirc;i supre (= ajna regiono).. Mi ne scias, &ccirc;u tio
-    validas anka&ubreve; en Esperanto. Cetere PIV1 konas plian sencon,
-    tre
-    vastan, kiu povus kovri la vastigon de la geografia senco
-    (~o de influo de iu lando, la kvar ~oj en Berlino, muta ~o,
-    ks). <aut>MB</aut>
-  </adm>
   <trdgrp lng="be">
     <trd>&c_p;&c_o;&c_ja;&c_s;</trd>,
     <trd>&c_z;&c_o;&c_n;&c_a;</trd>,
@@ -316,7 +303,7 @@
 <drv mrk="zon.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="zon.0i.cxirkauxigi">
     <dif>
       &Ccirc;irka&ubreve;igi per <tld/>o:
       <ekz>
@@ -361,7 +348,7 @@
     </refgrp>
     <trd lng="hu">fel&ouml;vez</trd>
   </snc>
-  <snc>
+  <snc mrk="zon.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       &Ccirc;irka&ubreve;i kiel <tld/>o:
@@ -396,7 +383,7 @@
     </dif>
     <trd lng="hu">&ouml;vez</trd>
   </snc>
-  <snc>
+  <snc mrk="zon.0i.fiksi">
     <dif>
       Fiksi per <tld/>o:
       <ekz>
@@ -473,8 +460,8 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="zon.cxirkaux0i.KOMUNE">
     <dif>
-      <ref tip="dif" cel="zon.0i"><tld lit="Z"/>i</ref>:
-    <ekz>
+      <ref tip="dif" cel="zon.0i.cxirkauxigi"><tld lit="Z"/>i<sncref/></ref>:
+      <ekz>
         sur siaj stratoj ili &ccirc;irka&ubreve;<tld/>is sin
         per saka&jcirc;oj
         <fnt><bib>MT</bib>, <lok>&Jes; 15:3</lok></fnt>;
@@ -520,10 +507,15 @@
       teorie sub sama <ref tip="vid" cel="meridi.0o.GEOG">meridiano</ref>,
       praktike la&ubreve; konvencio a&ubreve; administra decido:
       <ekz>
-        en E&ubreve;ropo la &ccirc;efa hor<tld/>o estas GMT+1 kaj
-        &gcirc;i ampleksas
-        ekde 
-        Hispanujo <klr>[&#8230;]</klr> &gcirc;is Pollando
+        &Gcirc;enerala Konsilantaro <klr>[&#8230;]</klr> konsistas el po unu membro el &ccirc;iu sektoro
+        (t.e. &ccirc;iu meridiana hor<tld/>o, senkonsidere al &scirc;tataj limoj)
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en E&ubreve;ropo la &ccirc;efa hor<tld/>o estas <frm>GMT+1</frm> kaj
+        &gcirc;i ampleksas ekde Hispanujo <klr>[&#8230;]</klr> &gcirc;is Pollando
         <fnt>
           <aut>M. Pancorbo Castro</aut>,
           <vrk><url ref="http://bitakoro.blogdns.org/komenco/p_11/">
@@ -548,13 +540,15 @@
     La lacecon post flugo trans hor<tld/>oj kelkaj nomas &scirc;erce &leftquot;horzonozo&rightquot;:
     <ekz>
       melatonino <klr>[efikas]</klr> post longaj voja&gcirc;oj, por solvi la t.n.
-      horzonozon, hor&scirc;an&gcirc;an misfarton
+      <ind>horzonozo</ind>n, hor&scirc;an&gcirc;an misfarton
       <fnt>
         <bib>Monato</bib>
         <aut>Roberto Pigro</aut>
         <vrk><url ref="https://www.monato.be/2012/010764.php">Dormu bone, vivu bone (per melatonino)</url></vrk>
         <lok>2012</lok>
       </fnt>.
+      <trd lng="en">jet lag</trd>
+      <trd lng="de">Jetlag</trd>
     </ekz>
   </rim>
   <trd lng="bg">&c_ch;&c_a;&c_s;&c_o;&c_v;&c_a; &c_z;&c_o;&c_n;&c_a;</trd>
@@ -572,8 +566,14 @@
   <snc mrk="zon.mam0o.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
-      <ref tip="super" cel="vest.sub0o">Subvesto</ref> uzata de inoj,
+      <ref tip="super" cel="vest.sub0o">Subvesto</ref> uzata de virinoj,
       kiu &ccirc;irka&ubreve;as la bruston, subtenante la mamojn:
+      <ekz>
+        la servistino metas &ccirc;iutage mam<tld/>on en la lesivotajn tola&jcirc;ojn
+        <fnt>
+          <bib>KrB</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         afi&scirc;oj kun reklamo de sportistinaj
         mam<tld/>oj
@@ -646,6 +646,13 @@
       Ringo el flosa materialo, metebla &ccirc;irka&ubreve;
       la ventro por teni sin senpene sur akvosurfaco:
       <ekz>
+        maristo ankora&ubreve; &jcirc;etis post ni en la savboaton kelkajn sav<tld/>ojn, alia
+        sukcesis en&jcirc;eti &ccirc;irka&ubreve; kvardek funtojn da konserva&jcirc;oj
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         blank-ru&gcirc;aj sav<tld/>oj pendis
         sur la barieroj
         <fnt><aut>I. Nemere</aut>, <vrk>Sur Kampo Granita</vrk>, 
@@ -678,10 +685,16 @@
     <dif>
       <ref tip="dif" cel="rimen.sekur0o">Sekurrimeno</ref>:
       <ekz>
+        <nom>Zajd Azzuz</nom> malbukis la sekur<tld/>on kaj etendis siajn longajn krurojn
+        <klr>[&#8230;]</klr>, li malfermis sian voja&gcirc;sakon
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         &scirc;i estintus pli feli&ccirc;a, malpli turmentita ... kaj ne
         estus krevinta (stulte: ne uzanta sekur-<tld/>on),
-        kontra&ubreve; 
-        la betono de Pariza &scirc;oseo-tunelo
+        kontra&ubreve; la betono de Pariza &scirc;oseo-tunelo
         <fnt>
           <aut>P. Gubbins</aut>,
           <vrk>Diana... &ccirc;u diino?</vrk>,
@@ -727,7 +740,15 @@
   <snc mrk="zon.sxultro0o.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
-      Rimeno oblikve metita de sur &scirc;ultro al subbrako.
+      <ref tip="super" cel="rimen.0o">Rimeno</ref> oblikve metita de sur &scirc;ultro al subbrako:
+      <ekz>
+        vaganta kantisto kun malgrasa viza&gcirc;o, cigaredo inter la lipoj kaj gitaro &ccirc;e la
+        &scirc;ultro<tld/>o
+        <fnt>
+          <bib>MD11</bib>
+          <vrk> Muziko &dash; Guthrie, la heroldo kun gitaro</vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -793,9 +814,70 @@
   </trdgrp>
   <trd lng="sv">sele</trd>
 </drv>
+
+<drv mrk="zon.ter0o">
+  <kap>ter<tld/>o</kap>
+  <snc mrk="zon.ter0o.strio">
+    <dif>
+      Mallar&gcirc;a <ref tip="super" cel="are.0o">areo</ref> de tero:
+      <ekz>
+        <nom>Evian</nom> ku&scirc;as sur mallar&gcirc;a ter<tld/>o en&scirc;losita inter
+        la Alpoj kaj la lago
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Claude Piron</aut>
+          <vrk><url ref="https://www.monato.be/2003/008141.html">Francio
+          invitas, Svislando suferas</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        usonaj urboj havas striktajn ter<tld/>ajn regulojn kiuj malpermesas la situigon
+        de moveblaj domoj sur privata tero krom en precize difinitaj lokoj
+        <fnt>
+          <bib>MD14</bib>
+          <vrk>Dudek milionoj da usonanoj ekzilitaj el la urboj</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Landstrich</trd>
+  </snc>
+  <snc mrk="zon.ter0o.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+      &Ccirc;iu el la kvin grandaj dividoj de la terglobo, inter
+      la tropikoj kaj la polusoj:
+      <ekz>
+	varmega, mezvarma, glacia ter<tld/>o.
+      </ekz>
+    </dif>
+    <trd lng="de">Klimazone</trd>
+  </snc>
+  <trd lng="be">
+  &c_k;&c_l;&c_ib;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja;
+  &c_z;&c_o;&c_n;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>zemsk&eacute; p&aacute;smo</trd>,
+    <trd>zem&ecaron;pisn&eacute; p&aacute;smo</trd>,
+    <trd>z&oacute;na</trd>
+  </trdgrp>
+  <trd lng="en">geographical zone</trd>
+  <trd lng="hu">&eacute;gt&aacute;j</trd>
+  <trd lng="nl">aardgordel</trd>
+  <trd lng="pl">strefa<klr> (klimatyczna)</klr></trd>
+  <trd lng="ru">
+  &c_k;&c_l;&c_i;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;
+  &c_p;&c_o;&c_ja;&c_s;</trd>
+  <trd lng="sk">zemsk&yacute; p&aacute;s
+  <klr>(klimatick&yacute;)</klr></trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.59 2021/06/07 16:00:42
+Wolfram Diestel: *~o: ekz-oj, +ter~o (el ter/)
+
 versio 1.58 2021/06/07 07:57:15
 Wolfram Diestel: ~i: ekz-oj, dif iom pli ghenerala (-talio)
 
@@ -815,8 +897,5 @@ Revision 1.50  2016/08/24 16:10:39  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.49  2016/06/05 14:10:14  revo
-Wolfram Diestel: +fnt-ekz
-
-Revision 1.48  2016/06/05 13:10:21  revo
 -->
 </vortaro>
