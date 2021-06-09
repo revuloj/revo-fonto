@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kurato.xml,v 1.23 2017/04/12 10:10:49 revo Exp $">
+<art mrk="$Id: kurato.xml,v 1.24 2021/06/09 21:27:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kurator</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,7 +13,14 @@
     <uzo tip="fak">JUR</uzo>
     <dif>
       Individuo jure nomita por zorgi pri persono kaj havo de neplena&gcirc;a
-      orfo a&ubreve; de iu, kiu ne posedas la personajn rajtojn.
+      <ref cel="orf.0o">orfo</ref> a&ubreve; de iu, kiu ne posedas la personajn rajtojn:
+      <ekz>
+        la <tld/>ino sidis sin klinanta al la papero kaj skribis, dum &scirc;i lasis
+        strivestan malliberulon legi leteron
+        <fnt>
+          <bib>VRA</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="br">kulator</trd>
     <trd lng="de">Vormund</trd>
@@ -39,13 +46,19 @@
   <snc mrk="kurato.0o.JUR_postmorta">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Individuo jure nomita por zorgi pri la hereda&jcirc;o de persono
-      a&ubreve; persongrupo.
+      Individuo jure nomita por zorgi pri la <ref cel="hered.0ajxo">hereda&jcirc;o</ref> de persono
+      a&ubreve; persongrupo:
+      <ekz>
+        li testamentis sian partoprenon en la negoco <klr>[&#8230;]</klr> al la
+        plenumantoj de la testamento, administratoroj kaj <tld/>oj
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="br">kulator</trd>
     <trdgrp lng="de">
       <trd>Nachlasspfleger</trd>,
-      <trd>Kurator</trd>
     </trdgrp>
     <trd lng="fr">curateur</trd>
     <trd lng="hu">hagyat&eacute;ki <ind>gondnok</ind></trd>
@@ -60,11 +73,33 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       Individuo nomita por administri la havojn de persono,
-      persongrupo a&ubreve; entrepreno.
+      persongrupo, entrepreno a&ubreve; fonda&jcirc;o:
+      <ekz>
+        la ju&gcirc;isto, <tld/>o de kadukulejoj, inspektoro de lernejoj kaj po&scirc;testro foriras
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ar UEA ne havis personecon la&ubreve; la brita juro, la domo estis prizorgata de C. C.
+        Goldsmith kaj A. C. Oliver kiel <tld/>oj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ju&gcirc;isto nomumis tri <tld/>ojn kiuj, &gcirc;is la definitiva decido pri konkordato
+        a&ubreve; bankroto, zorgu ke ne estas aktiva&jcirc;oj ka&scirc;e vendataj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007334.html">Belgio: Lernout kaj Hauspie: revo fini&gcirc;is</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Verm&ouml;gensverwalter</trd>,
-      <trd>Kurator</trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>vagyonkezel&odblac;</trd>,
@@ -73,6 +108,24 @@
     <trd lng="nl">curator</trd>
     <trd lng="pl">kurator</trd>
     <trd lng="ru">&c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_i;&c_j; &c_i;&c_m;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;&c_m;</trd>
+  </snc>
+  <snc mrk="kurato.0o.BELA">
+    <uzo tip="fak">BELA</uzo><uzo tip="fak">KIN</uzo>
+    <dif>
+      &Ccirc;efa <ref tip="super" cel="zorg.0anto">zorganto</ref> a&ubreve; konsilanto 
+      de <ref cel="ekspoz1.0o">ekspozicio</ref>:
+      <ekz>
+        la <tld/>a komitato de la muzeo fieras, ke &leftquot;&gcirc;i konservas gravan <klr>[&#8230;]</klr>
+        parton de la kultura kaj historia hereda&jcirc;o de Irlando&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="https://www.monato.be/2003/008105.html">Renkonti&gcirc;o kun &scirc;rumpanta komunumo</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Kustos</trd>
   </snc>
   <snc mrk="kurato.0o.PED">
     <uzo tip="fak">PED</uzo>
@@ -83,6 +136,7 @@
     <refgrp tip="sin">
       <ref cel="dekan.0o.PED">dekano</ref>
     </refgrp>
+    <!-- ne traduku EVI:
     <trdgrp lng="de">
       <trd>Dekan einer Fakult&auml;t</trd>,
       <trd>Lehrstuhlinhaber</trd>
@@ -94,30 +148,28 @@
     </trdgrp>
     <trd lng="nl">dekaan<klr tip="ind"> (ontr.)</klr></trd>
     <trd lng="ru">&c_k;&c_u;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
+    -->
   </snc>
-  <snc mrk="kurato.0o.BIBL">
-    <uzo tip="stl">EVI</uzo>
-    <dif>
-      Estro de muzeo a&ubreve; biblioteko.
-    </dif>
-    <trd lng="de">Konservator</trd>
-    <trd lng="en">conservator</trd>
-    <trd lng="fr">conservateur</trd>
-    <trd lng="hu">konzerv&aacute;tor</trd>
-    <trd lng="nl">conservator<klr tip="ind"> (ontr.)</klr></trd>
-    <trd lng="ru">&c_h;&c_r;&c_a;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
-  </snc>
+    <refgrp tip="vid">
+       <ref cel="intend.0o">intendanto</ref>,
+       <ref cel="konser.0isto.muzea">konservisto<sncref/></ref>
+    </refgrp>
   <trdgrp lng="cs">
     <trd>kur&aacute;tor</trd>,
     <trd>opatrovn&iacute;k</trd>,
     <trd>poru&ccaron;n&iacute;k</trd>
   </trdgrp>
+  <trd lng="de">Kurator</trd>
   <trdgrp lng="sk">
     <trd>kur&aacute;tor</trd>,
     <trd>opatrovn&iacute;k</trd>,
     <trd>poru&ccaron;n&iacute;k</trd>,
     <trd>t&uacute;tor</trd>
   </trdgrp>
+    <adm>
+      Eble kunigi la sencojn 2-4 kiel subsencoj sub unu senco: zorganto de valora&jcirc;oj...
+      <aut>WD</aut>
+    </adm>
 </drv>
 
 <drv mrk="kurato.0i">
@@ -131,8 +183,7 @@
         kaj ni <tld/>as lin
         <fnt>
           <aut>G. Gorin, trad. hamstro</aut>,
-          <vrk><url
-          ref="http://e-novosti.info/forumo/viewtopic.php?t=399">
+          <vrk><url ref="http://e-novosti.info/forumo/viewtopic.php?t=399">
           La domo, kiun konstruis S&ubreve;ift</url></vrk>,
           <lok>2003</lok>
         </fnt>.
@@ -148,16 +199,33 @@
   <kap><tld/>eco</kap>
   <snc mrk="kurato.0eco.JUR">
     <dif>
-      Ofico de <tld/>o:
+      Zorgateco fare de <tld/>o:
       <ekz>
         la romiaj institucioj submetis la virinojn sub kontinua
         <tld/>eco;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        konfidi la <tld/>econ de tiuj popoloj al la progresintaj nacioj.
+        la registaro senigis lin de memstareco kaj metis lin sub <tld/>econ
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="https://www.monato.be/2006/009006.php">Monar&hcirc;o-mistero: &ccirc;u murdo a&ubreve; sinmortigo?</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nova komisiono pri kontrolaj kolonioj &leftquot;sub <tld/>eco&rightquot;, &ccirc;e la Unui&gcirc;intaj
+        Nacioj, ne pla&ccirc;is al la sud-afrika registaro, kvankam &gcirc;i estas malpli
+        sendependa ol la malnova
+        <fnt>
+          <bib>FSp</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="regi.0o">regio</ref>,
+       <ref cel="sekvestr.0o">sekvestro</ref>
+    </refgrp>
   </snc>
   <trd lng="br">kulaterezh</trd>
   <trdgrp lng="cs">
@@ -192,6 +260,9 @@
 </art>
 <!--
 $Log$
+versio 1.24 2021/06/09 21:27:59
+Wolfram Diestel: ekz-oj, ref-oj, trd de, snc "de ekspozicio"
+
 Revision 1.22  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
