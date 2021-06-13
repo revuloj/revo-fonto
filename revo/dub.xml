@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: dub.xml,v 1.31 2021/06/12 18:36:41 revo Exp $">
+<art mrk="$Id: dub.xml,v 1.32 2021/06/13 09:29:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dub</rad>/i <fnt><bib>PV</bib></fnt>
@@ -406,32 +407,50 @@
 <drv mrk="dub.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="dub.0igi.iun">
     <dif>
-      Igi iun <tld/>anta.
+      Igi iun <tld/>anta:
+      <ekz>
+        Viktoro <klr>[&#8230;]</klr> lin &scirc;ancelis kaj momente lin <tld/>igis pri la ebleco de
+        la ven&gcirc;o
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        afero, kiu konfuzas la sa&gcirc;on, kaj kiu <tld/>igas pri la atesto de sentoj
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="de">verunsichern</trd>
     <trd lng="hu">k&eacute;telked&odblac;v&eacute; tesz</trd>
     <trd lng="ru">&c_z;&c_a;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol; <ind>
     &c_s;&c_o;&c_m;&c_n;&c_je;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</ind>
     </trd>
   </snc>
-  <snc>
+  <snc mrk="dub.0igi.ion">
     <dif>
       Igi ion necerta:
       <ekz>
-        <tld/>igi la venkon.
+        ekzistis neniu kiu <klr>[povus]</klr> <tld/>igi ilian posedrajton
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>in <ind>Frage</ind> stellen</trd>,
+      <trd>anzweifeln</trd>
+    </trdgrp>
     <trd lng="hu">k&eacute;ts&eacute;gess&eacute; tesz</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>zpochybnit</trd>,
     <trd>zpochyb&ncaron;ovat</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>verunsichern</trd>,
-    <trd>in <ind>Frage</ind> stellen</trd>
-  </trdgrp>
+  
   <trd lng="es">hacer dudar <klr tip="amb"> (a alguien)</klr></trd>
   <trdgrp lng="fr">
     <trd>faire <ind>douter</ind></trd>,
@@ -452,13 +471,51 @@
 
 <drv mrk="dub.0inda">
   <kap><tld/>inda</kap>
-  <snc>
+  <snc mrk="dub.0inda.malcerta">
     <dif>
-      Pri kiu oni ne povas ne <tld/>i:
+      Pri kiu oni ne povas ne <tld/>i, <ref tip="sin" cel="cert.mal0a.dubebla">malcerta</ref>:
       <ekz>
-        <tld/>inda aserto, fideleco, venko.
+        la fidindeco de lia parolo aspektos <tld/>inda
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas <tld/>inde, kion diros la socio!
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
       </ekz>
     </dif>
+  </snc>
+  <snc mrk="dub.0inda.kompromita">
+    <dif>
+      <ref cel="kompro1.0i">Kompromit</ref>a, <ref tip="sin" cel="suspek.0inda">suspektinda</ref>, 
+      malbon<ref cel="fam.0a">fama</ref>:
+      <ekz>
+        en la korto de unu el la duaklasaj gastejoj dancis kaj kantis <tld/>indaj virinoj
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u <klr>[&#8230;]</klr> <nom>Potifar</nom> ne eksigu vin de tiu <tld/>inda ofica&ccirc;o
+        <fnt>
+          <bib>SkandalJozef</bib>
+        </fnt>?
+      </ekz>
+      <ekz>
+        oni min a&ccirc;etas kaj implikas en plej <tld/>indan aferon kiu al mi kare kostos
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">zwielichtig</trd>
+    <trdgrp lng="en">
+      <trd>shifty</trd>,
+      <trd>shady</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_s;&c_u;&c_m;&c_n;&c_je;&c_w;&c_n;&c_y;</trd>
   <trd lng="cs">pochybn&yacute;</trd>
@@ -617,6 +674,9 @@
 </art>
 <!--
 $Log$
+versio 1.32 2021/06/13 09:29:16
+Wolfram Diestel: ~igi, ~inda: ekz-oj, +snc kompromita
+
 versio 1.31 2021/06/12 18:36:41
 Wolfram Diestel: ~ebla, ~o, ~ema: ekz-oj
 
@@ -636,8 +696,5 @@ Revision 1.23  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2015/04/19 16:10:18  revo
-Alain Gerard: +trd (fr)
-
-Revision 1.21  2015/01/01 15:10:14  revo
 -->
 </vortaro>
