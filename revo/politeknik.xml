@@ -2,41 +2,81 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: politeknik.xml,v 1.9 2015/07/04 08:37:41 revo Exp $">
+<art mrk="$Id: politeknik.xml,v 1.10 2021/06/14 21:27:10 revo Exp $">
 <kap>
-  <rad>politeknik</rad>/o <fnt><bib>SPV</bib></fnt>
+  <rad>politeknik</rad>/o
 </kap>
 <drv mrk="politeknik.0o">
   <kap><tld/>o</kap>
-  <snc mrk="politeknik.0o.PED">
-    <uzo tip="fak">PED</uzo>
+  <uzo tip="fak">PED</uzo>
+  <snc mrk="politeknik.0o.fako">
+    <fnt><bib>Fab4</bib></fnt>
     <dif>
-      Supera <ref tip="super" cel="lern.0ejo.loko">lernejo</ref>, en kiu
-      oni instruas precipe te&hcirc;nikajn fakojn:
+      Komuna nomo de instruaj <ref tip="super" cel="fak.0o">fako</ref>j 
+      en teknika lernejo edukantaj pri bazaj in&gcirc;enieraj scioj:
       <ekz>
-        &ndash; kiun superan lernejon vi estas fininta?
-        &ndash; La petrogradan <tld lit="P"/>an Instituton
+        lernanto de la <tld/>a lernejo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Pupludisto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>isto komencis sian prelegon kaj siajn eksperimentojn
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Pupludisto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiun superan lernejon vi estas fininta?
+        &ndash; la petrogradan <tld lit="P"/>an Instituton
         <fnt><bib>Metrop</bib></fnt>.
       </ekz>
-    </dif>
+    </dif>  
+    <trdgrp lng="de">
+      <trd>Polytechnik</trd>,
+      <trd>Arbeitslehre</trd>
+    </trdgrp>
   </snc>
-  <trd lng="be">&c_p;&c_o;&c_l;&c_ib;&c_t;&c_e;&c_h;&c_n;&c_ib;&c_ch;&c_n;&c_y; &c_ib;&c_n;&c_s;&c_t;&c_y;&c_t;&c_u;&c_t;</trd>
-  <trd lng="cs">polytechnika</trd>
-  <trd lng="fa">&f_p;&a_l;&f_y;&zwnj;&a_t;&f_k;&a_n;&f_y;&f_k;</trd>
-  <trd lng="fr">polytechnique<klr> (subst.)</klr></trd>
-  <trdgrp lng="nl">
-    <trd>polytechnicum</trd>,
-    <trd>polytechnische school</trd>
-  </trdgrp>
-  <trd lng="pl">politechnika</trd>
-  <trd lng="pt">polit&eacute;cnica</trd>
-  <trd lng="ru">&c_p;&c_o;&c_l;&c_i;&c_t;&c_je;&c_h;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_i;&c_n;&c_s;&c_t;&c_i;&c_t;&c_u;&c_t;</trd>
-  <trd lng="sk">polytechnika</trd>
+  <snc mrk="politeknik.0o.lernejo">
+    <fnt><bib>SPV</bib></fnt>
+    <dif>
+      Teknika <ref tip="super" cel="lern.0ejo">lernejo</ref>:
+      <ekz>
+        pluraj kursoj devige jam haveblaj nur en la angla lingvo, anka&ubreve; en iuj el la
+        plej gravaj <tld/>oj (Milano, Torino)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011257.php"
+              >En rubujon, kulturo kaj lingvo de Italio</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_p;&c_o;&c_l;&c_ib;&c_t;&c_e;&c_h;&c_n;&c_ib;&c_ch;&c_n;&c_y; &c_ib;&c_n;&c_s;&c_t;&c_y;&c_t;&c_u;&c_t;</trd>
+    <trd lng="cs">polytechnika</trd>
+    <trd lng="de">Polytechnische Oberschule</trd>
+    <trd lng="fa">&f_p;&a_l;&f_y;&zwnj;&a_t;&f_k;&a_n;&f_y;&f_k;</trd>
+    <trd lng="fr">polytechnique<klr> (subst.)</klr></trd>
+    <trdgrp lng="nl">
+      <trd>polytechnicum</trd>,
+      <trd>polytechnische school</trd>
+    </trdgrp>
+    <trd lng="pl">politechnika</trd>
+    <trd lng="pt">polit&eacute;cnica</trd>
+    <trd lng="ru">&c_p;&c_o;&c_l;&c_i;&c_t;&c_je;&c_h;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_i;&c_n;&c_s;&c_t;&c_i;&c_t;&c_u;&c_t;</trd>
+    <trd lng="sk">polytechnika</trd>
+  </snc>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.10 2021/06/14 21:27:10
+Wolfram Diestel: +snc fako(j) kun ekz-oj
+
 Revision 1.8  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -56,10 +96,5 @@ Revision 1.3  2005/12/19 17:31:58  revo
 Yury Finkel: +trd ru
 
 Revision 1.2  2005/01/03 17:33:10  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.1  2004/06/13 17:05:31  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>
