@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kok.xml,v 1.53 2021/06/15 06:35:43 revo Exp $">
+<art mrk="$Id: kok.xml,v 1.54 2021/06/15 18:37:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kok</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,37 +10,12 @@
 
 <drv mrk="kok.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="kok.0o.ZOO">
-    <uzo tip="fak">ZOO</uzo>
-    <dif>
-      <ref tip="lst" cel="bird.0o" lst="voko:birdoj">Birdo</ref>
-      kun ru&gcirc;a kresto sur la kapo;
-      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> el familio <ref tip="super" cel="fazane.0oj">fazanedoj</ref>
-      (<trd lng="la">Gallus</trd>).
-    </dif>
-    <bld lok="../bld/kok.jpg">
-      vira <tld/>o
-    </bld>
-    <refgrp tip="vid">
-       <ref cel="lagop.0o">lagopo</ref>,
-       <ref cel="tetr.0o">tetro</ref>,
-       <ref cel="urogal.0o">urogalo</ref>
-    </refgrp>
-    <trd lng="be">&c_k;&c_u;&c_r;&c_y;&c_c;&c_a;
-    <klr>(&c_v;&c_ib;&c_d;)</klr></trd>
-    <trd lng="de">Huhn</trd>
-    <trd lng="es">Gallo (vira koko), gallina (por kokino)</trd>
-    <trd lng="it">gallo <klr tip="ind">(selvatico)</klr></trd>
-    <trd lng="pl">kura</trd>     
-    <trd lng="ro">g&abreve;in&abreve;</trd>
-    <trd lng="ru">&c_k;&c_u;&c_r;&c_i;&c_c;&c_a;</trd>
-    <trd lng="tr">tavuk</trd>
-  </snc>
   <snc mrk="kok.0o.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
-      Specio (<trd lng="la">Gallus gallus domesticus</trd>) el la genro <ref tip="super" cel="kok.0o.ZOO"><tld/>o</ref>,
-      bredata kiel kortbirdo en multaj rasoj pro la viando kaj la ovoj:
+      Subspecio (<trd lng="la">Gallus gallus domesticus</trd>) el la 
+      genro <ref tip="super" cel="kok.0o.ZOO"><tld/>o</ref>,
+      bredata kiel <ref tip="super" cel="bird.korto0o">kortobirdo</ref> en multaj rasoj pro la viando kaj la ovoj:
       <ekz>
         anta&ubreve; ol krios <tld/>o, vi trifoje malkonfesos min
         <fnt>
@@ -114,8 +89,8 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="anser.0o">ansero</ref>,
-      <ref cel="meleag.0o">meleagro</ref>
+      <ref cel="meleag.0o">meleagro</ref>,
+      <ref cel="numid.0o">numido</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_p;&c_je;&c_v;&c_je;&c_n;&c_mol;</trd>
@@ -134,6 +109,32 @@
       <trd>&c_p;&c_je;&c_t;&c_u;&c_h;</trd>
     </trdgrp>
     <trd lng="tr">horoz</trd>
+  </snc>
+  <snc mrk="kok.0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>      
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref> el 
+      familio <ref tip="super" cel="fazane.0oj">fazanedoj</ref>
+      (<trd lng="la">Gallus</trd>), <ref tip="lst" cel="bird.0o" lst="voko:birdoj">birdo</ref>
+      kun ru&gcirc;a kresto sur la kapo.
+    </dif>
+    <bld lok="../bld/kok.jpg">
+      vira <tld/>o
+    </bld>
+    <refgrp tip="vid">
+       <ref cel="lagop.0o">lagopo</ref>,
+       <ref cel="tetr.0o">tetro</ref>,
+       <ref cel="urogal.0o">urogalo</ref>
+    </refgrp>
+    <trd lng="be">&c_k;&c_u;&c_r;&c_y;&c_c;&c_a;
+    <klr>(&c_v;&c_ib;&c_d;)</klr></trd>
+    <trd lng="de">Huhn</trd>
+    <trd lng="es">Gallo (vira koko), gallina (por kokino)</trd>
+    <trd lng="it">gallo <klr tip="ind">(selvatico)</klr></trd>
+    <trd lng="pl">kura</trd>     
+    <trd lng="ro">g&abreve;in&abreve;</trd>
+    <trd lng="ru">&c_k;&c_u;&c_r;&c_i;&c_c;&c_a;</trd>
+    <trd lng="tr">tavuk</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>kohout</trd>,
@@ -441,6 +442,9 @@
 </art>
 <!--
 $Log$
+versio 1.54 2021/06/15 18:37:27
+Wolfram Diestel: snc AGR unue, ref-oj
+
 versio 1.53 2021/06/15 06:35:43
 Wolfram Diestel: +ekz-oj
 
@@ -460,8 +464,5 @@ Revision 1.47  2017/12/19 08:10:21  revo
 Michel Cantigneaux: fundamenta "kokino" el la Universala Vortaro
 
 Revision 1.46  2016/11/22 23:10:16  revo
-Robin van der Vliet: +virkoko, +trd
-
-Revision 1.45  2016/03/03 20:10:14  revo
 -->
 </vortaro>
