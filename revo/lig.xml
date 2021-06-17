@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lig.xml,v 1.53 2021/05/29 14:32:50 revo Exp $">
+<art mrk="$Id: lig.xml,v 1.54 2021/06/17 06:38:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lig</rad>/i <fnt><bib>PV</bib></fnt>
@@ -213,7 +213,8 @@
     <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_v;&c_ja;&c_z;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF66;&#xFA1;&#xF7C;&#xF58; &#xF56;&#xF66;&#xFA1;&#xF58;&#xF66; &#xF56;&#xF66;&#xFA1;&#xF58; &#xF66;&#xFA1;&#xF7C;&#xF58;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&#xF66;&#xFA1;&#xF7C;&#xF58; &#xF56;&#xF66;&#xFA1;&#xF58;&#xF66;
+  &#xF56;&#xF66;&#xFA1;&#xF58; &#xF66;&#xFA1;&#xF7C;&#xF58;&#xF66;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>pojit</trd>,
     <trd>sjednat</trd>,
@@ -345,7 +346,8 @@
     <trd lng="ru">&c_h;&c_i;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
     <ind>&c_s;&c_v;&c_ja;&c_z;&c_mol;</ind></trd>
   </snc>
-  <trd lng="bo">&#xF60;&#xF51;&#xF7C;&#xF42;&#xF66; &#xF56;&#xF4F;&#xF42;&#xF66; &#xF42;&#xF51;&#xF42;&#xF66; &#xF50;&#xF7C;&#xF42;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&#xF60;&#xF51;&#xF7C;&#xF42;&#xF66; &#xF56;&#xF4F;&#xF42;&#xF66;
+  &#xF42;&#xF51;&#xF42;&#xF66; &#xF50;&#xF7C;&#xF42;&#xF66;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>sjedn&aacute;n&iacute;</trd>,
     <trd>uzav&rcaron;en&iacute; <klr>(pr&aacute;vn&iacute;ho aktu)</klr></trd>,
@@ -356,7 +358,7 @@
     <trd>enlace</trd>,
     <trd>lazo</trd>
   </trdgrp>
-  <trd lng="ne">&#x91F;&#x93E;&#x908;</trd>
+  <trd lng="ne">&#x91F;&#x93E;&#2312;</trd>
   <trdgrp lng="sk">
     <trd>liga; viazanie</trd>,
     <trd>zv&auml;z</trd>
@@ -893,15 +895,15 @@
       <fnt><bib>MatVort</bib></fnt>
       <dif>
         <klr>(de du <ref tip="super" cel="rilat.0o.MAT">rilatoj</ref>
-        <frm am="bb R sub bb E xx bb F"><g>R</g>&#x2282;<g>E</g>&#xD7;<g>F</g></frm> kaj
-        <frm am="bb S sub bb F xx bb G"><g>S</g>&#x2282;<g>F</g>&#xD7;<g>G</g></frm>)</klr>
-        Rilato <frm am="bb R sub bb E xx bb G"><g>T</g>&#x2282;<g>E</g>&#xD7;<g>G</g></frm>,
+        <frm am="bb R sub bb E xx bb F"><g>R</g>&#8834;<g>E</g>&#xD7;<g>F</g></frm> kaj
+        <frm am="bb S sub bb F xx bb G"><g>S</g>&#8834;<g>F</g>&#xD7;<g>G</g></frm>)</klr>
+        Rilato <frm am="bb R sub bb E xx bb G"><g>T</g>&#8834;<g>E</g>&#xD7;<g>G</g></frm>,
         konsistanta el &ccirc;iuj tiaj elementoj
         <frm am="(a,c)">(<k>a</k>,<k>c</k>)</frm>, ke
         ekzistas almena&ubreve; unu tia elemento
-        <frm am="b in bb F"><k>b</k>&#x2208;<g>F</g></frm>, ke
-        <frm am="(a,b)in bb R">(<k>a</k>,<k>b</k>)&#x2208;<g>R</g></frm> kaj
-        <frm am="(b,c)in bb S">(<k>b</k>,<k>c</k>)&#x2208;<g>S</g></frm>:
+        <frm am="b in bb F"><k>b</k>&#8712;<g>F</g></frm>, ke
+        <frm am="(a,b)in bb R">(<k>a</k>,<k>b</k>)&#8712;<g>R</g></frm> kaj
+        <frm am="(b,c)in bb S">(<k>b</k>,<k>c</k>)&#8712;<g>S</g></frm>:
         <ekz>
           la kun<tld/>a&jcirc;on de rilatoj <frm am="bb R"><g>R</g></frm> kaj
           <frm am="bb S"><g>S</g></frm> oni signas
@@ -912,7 +914,8 @@
           la kun<tld/>a&jcirc;o de rilato <frm am="bb R"><g>R</g></frm> kun
           <ref cel="rilat.idento0o">idento-rilato</ref> egalas al
           <frm am="bb R"><g>R</g></frm>
-          <klr>(<frm am="bb R circ &quot;id&quot;_(bb E)=&quot;id_(bb F)circ bb R=bb           R"><g>R</g>&#x25E6;id<sub><g>E</g></sub> =
+          <klr>(<frm am="bb R circ &quot;id&quot;_(bb E)=&quot;id_(bb F)circ bb R=bb          
+          R"><g>R</g>&#x25E6;id<sub><g>E</g></sub> =
           id<sub><g>F</g></sub>&#x25E6;<g>R</g> =
            <g>R</g></frm>)</klr>;
         </ekz>
@@ -924,7 +927,8 @@
           la kun<tld/>a&jcirc;o de bildigo kun &gcirc;ia
           <ref cel="rilat.inversa0o">inverso</ref> egalas al
           idento-rilato
-          <klr>(<frm am="f circ f^-1 = &quot;id&quot;_(bb F)"><k>f</k>&#x25E6;<k>f</k><sup>-1</sup> =
+          <klr>(<frm am="f circ f^-1 = &quot;id&quot;_(bb F)"><k>f</k>&#x25E6;<k>f</k><sup>-1</sup>
+          =
           id<sub><g>F</g></sub></frm>)</klr>.
         </ekz>
       </dif>
@@ -967,7 +971,7 @@
           <frm am="phi">&phi;</frm> egalas al la komenca de <frm am="psi">&psi;</frm>)</klr>
         Tia vojo <frm am="omega">&omega;</frm>, ke
         <frm am="omega(t)=phi(2t)">&omega;(<k>t</k>) = &phi;(2<k>t</k>)</frm>
-        por ajna <frm am="t le 1//2"><k>t</k> &#x2264; &#xBD;</frm>,
+        por ajna <frm am="t le 1//2"><k>t</k> &#8804; &#xBD;</frm>,
         kaj <frm am="omega(t)=psi(2t-1)">&omega;(<k>t</k>) = &psi;(2<k>t</k>-1)</frm>
         por ajna <frm am="t gt 1//2"><k>t</k> &gt; &#xBD;</frm>.
       </dif>
@@ -1149,6 +1153,10 @@
     konservas la nominativon.
     </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_k;&c_a;</trd>,
+    <trd>&c_d;&c_z;&c_je;&c_ja;&c_s;&c_l;&c_o;&c_w;-&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_k;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Kopula</trd>,
     <trd>Satzband</trd>
@@ -1167,7 +1175,10 @@
 </drv>
 </art>
 <!--
-$Log: lig.xml,v $
+$Log$
+versio 1.54 2021/06/17 06:38:29
+Dmitri Gabinski: + trd be
+
 versio 1.50 2020/02/15 17:10:20
 Wolfram Diestel: formuloj per am
 
@@ -1187,8 +1198,5 @@ Revision 1.45  2019/03/31 22:10:15  revo
 Jeromo Vasxe: + dis~i, ~igxi, mal~igxi
 
 Revision 1.44  2018/06/21 16:10:18  revo
-Jeromo Vasxe: mal~igi: + ekz
-
-Revision 1.43  2018/01/19 10:10:17  revo
 -->
 </vortaro>
