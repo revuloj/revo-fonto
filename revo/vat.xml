@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vat.xml,v 1.22 2021/06/18 15:36:09 revo Exp $">
+<art mrk="$Id: vat.xml,v 1.23 2021/06/18 21:27:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vat</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,8 +13,21 @@
       <ref tip="vid" cel="koton.0o">Kotono</ref> kombita kaj premita
       la&ubreve; molaj tavoloj (a&ubreve; substanco similaspekta):
       <ekz>
-        <tld/>o estis produktita unue de la medicinisto Paul Victor von
-        Bruns en 1865
+        &scirc;i alportis <tld/>on kaj sorbigis miajn larmojn
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;evaleto farita el pecoj da flava vakstolo, kunkudrita <klr>[&#8230;]</klr> kaj
+        plenigita per <tld/>o
+        <fnt>
+          <bib>HMS</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o estis produktita unue de la medicinisto <nom>Paul Victor von
+        Bruns</nom> en 1865
         <fnt>
           <bib>Viki</bib>,
           <lok><url ref="https://eo.wikipedia.org/?curid=29575">
@@ -28,9 +41,26 @@
           <aut>M. Ende, trad. W. Diestel</aut>,
           <vrk>La Sen&ccirc;esa Rakonto</vrk>,
           <lok>1997</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mola <tld/>a litkovrilo formovi&gcirc;is sur la altan bruston
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la dormo envolvas lin per <tld/>o
+        <fnt>
+          <bib>Metrop</bib>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="cxarpi.0o">&ccirc;arpio</ref>,
+       <ref cel="lan.0o">lano</ref>
+    </refgrp>
     <trd lng="es">guata</trd>
   </snc>
   <ref tip="hom" cel="vat1.v0o">vato (mezurunuo)</ref>
@@ -55,11 +85,16 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="vat.0i.HEJM">
     <dif>
-      Garni per <tld/>o:
+      <ref tip="super" cel="garn.0i.kompletigi">Garni</ref>, moligi, 
+      remburi per <tld/>o:
       <ekz>
         <tld/>i veston, banda&gcirc;on.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="bandag.0i">banda&gcirc;i</ref>,
+       <ref cel="vind.0i">vindi</ref>
+    </refgrp>
     <trd lng="ca">embuatar</trd>
     <trdgrp lng="en">
       <trd>pad</trd>
@@ -75,8 +110,9 @@
     <trd lng="pl">watowa&cacute;</trd>
   </snc>
   <snc mrk="vat.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
     <dif>
-      Similigi al <tld/>o.
+      Similigi al <tld/>o:
     </dif>
     <subsnc mrk="vat.0i.stompi">
       <dif>
@@ -117,6 +153,35 @@
   </trdgrp>
 </drv>
 
+<drv mrk="vat.0umi">
+  <kap>
+    <tld/>umi
+  </kap>
+  <snc mrk="vat.0umi.moligi">
+    <dif>
+      Moligi  per <tld/>o, <ref cel="vat.0i.HEJM">vati<sncref/></ref>:
+      <ekz>
+        en la silenta kaj peza atmosfero de tiu <tld/>umita &ccirc;ambro ne e&ccirc; sonis la e&hcirc;o de
+        &scirc;ia vo&ccirc;o <klr>[&#8230;]</klr> la elasta teksa&jcirc;o repu&scirc;is &scirc;iajn batojn kaj redonis
+        neniun sonon
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> revenis rapide sin &scirc;irmi, kiel malfeli&ccirc;a vundita birdino, en la
+        koketan kaj <tld/>umitan neston
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="rembur.0i.KOMUNE">remburi</ref>
+  </snc>
+  <trd lng="de">auspolstern</trd>
+</drv>
+
+
 <drv mrk="vat.suker0o">
   <kap>suker<tld/>o</kap>
   <snc mrk="vat.suker0o.KUI">
@@ -133,9 +198,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        ni haltis &ccirc;erande de vasta verda herbejo kie regatoj de la
-        
-        A&ubreve;tokrato svarmis <klr>...</klr> man&gcirc;ante
+        ni haltis &ccirc;erande de vasta verda herbejo kie regatoj de la        
+        A&ubreve;tokrato svarmis <klr>[&#8230;]</klr> man&gcirc;ante
         suker<tld/>on
         <fnt>
           <aut>T. Jansson, trad. S. Johansson</aut>,
@@ -154,6 +218,9 @@
 </art>
 <!--
 $Log$
+versio 1.23 2021/06/18 21:27:54
+Wolfram Diestel: +~umi; ekz-oj
+
 versio 1.22 2021/06/18 15:36:09
 Wolfram Diestel: +ref-hom
 
@@ -173,8 +240,5 @@ Revision 1.16  2012/08/12 09:10:11  revo
 Marc Rausell: + trd ca
 la eterna virineco altiras nin supren
 Revision 1.15  2009/01/22 17:30:41  revo
-Russ Williams: +ref kotono
-
-Revision 1.14  2006/02/01 17:32:15  revo
 -->
 </vortaro>
