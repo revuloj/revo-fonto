@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: divizo.xml,v 1.40 2021/03/08 15:14:35 revo Exp $">
+<art mrk="$Id: divizo.xml,v 1.41 2021/06/18 09:32:32 revo Exp $">
 <kap>
   <rad>divizor</rad>/o
 </kap>
@@ -52,6 +52,7 @@
     <ref cel="obl.0o">oblo</ref>,
     <ref cel="divizo.nul0o">nul<tld/>o</ref>.
   </refgrp>
+  <trd lng="be">&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   <trdgrp lng="de">
     <trd>Teiler</trd>,
     <trd>Divisor</trd>
@@ -225,21 +226,22 @@
         si mem, egala nek al la nulo nek al la idento, estas nul<tld/>o
         kadre
         de <frm am="(bb E^(bb E),+,circ)">(<g>E</g><sup><g>E</g></sup>,+,&#x25E6;)</frm>, &ccirc;ar
-        <frm am="p circ(&quot;id&quot;_(bb E)-p)=0"><k>p</k>&#x25E6;(id<sub><g>E</g></sub>-<k>p</k>) = 0</frm>.
+        <frm am="p circ(&quot;id&quot;_(bb E)-p)=0"><k>p</k>&#x25E6;(id<sub><g>E</g></sub>-<k>p</k>)
+        = 0</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="integr.0a.MAT">integra</ref>.
     </refgrp>
   </snc>
+  <trd lng="be">&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k; &c_n;&c_u;&c_l;&c_ja;</trd>
   <trd lng="cs">d&ecaron;litel nuly</trd>
   <trd lng="de">Nullteiler</trd>
   <trd lng="en">zero divisor</trd>
   <trd lng="fr">diviseur de z&eacute;ro</trd>
   <trd lng="hu">nulloszt&oacute;</trd>
   <trd lng="pl">dzielnik zera</trd>
-  <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;
-  &c_n;&c_u;&c_l;&c_ja;</trd>
+  <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol; &c_n;&c_u;&c_l;&c_ja;</trd>
   <trd lng="sk">delite&lcaron; nuly</trd>
 </drv>
 
@@ -271,6 +273,7 @@
       <ctl>vera</ctl>, ekz-e en la esprimo <ctl>proprasence</ctl>.
     </rim>
   </snc>
+  <trd lng="be">&c_u;&c_l;&c_a;&c_s;&c_n;&c_y; <ind>&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;</ind></trd>
   <trd lng="cs">vlastn&iacute; d&ecaron;litel</trd>
   <trd lng="de">echter <ind>Teiler</ind></trd>
   <trd lng="en">proper <ind>divisor</ind></trd>
@@ -296,6 +299,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_j;&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_y; &c_s;&c_u;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_y; <ind>&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;</ind></trd>
   <trd lng="cs">nejv&ecaron;t&scaron;&iacute; spole&ccaron;n&yacute; d&ecaron;litel <klr>(bezezbytku)</klr></trd>
   <trd lng="de">gr&ouml;&szlig;ter gemeinsamer <ind>Teiler</ind></trd>
   <trd lng="en">greatest common <ind>divisor</ind></trd>
@@ -303,7 +307,8 @@
     <trd>plus grand commun <ind>diviseur</ind></trd>,
     <trd>P.G.C.D.</trd>
   </trdgrp>
-  <trd lng="he">&#x5D4;&#x5DE;&#x5D7;&#x5DC;&#x5E7; &#x5D4;&#x5DE;&#x5E9;&#x5D5;&#x5EA;&#x5E3; &#x5D4;&#x5D2;&#x5D3;&#x5D5;&#x5DC; &#x5D1;&#x5D9;&#x5D5;&#x5EA;&#x5E8;</trd>
+  <trd lng="he">&#x5D4;&#x5DE;&#x5D7;&#x5DC;&#x5E7; &#x5D4;&#x5DE;&#x5E9;&#x5D5;&#x5EA;&#x5E3;
+  &#x5D4;&#x5D2;&#x5D3;&#x5D5;&#x5DC; &#x5D1;&#x5D9;&#x5D5;&#x5EA;&#x5E8;</trd>
   <trd lng="hu">legnagyobb k&ouml;z&ouml;s <ind>oszt&oacute;</ind></trd>
   <trdgrp lng="pl">
     <trd>najwi&eogonek;kszy wsp&oacute;&lstroke;ny <ind>dzielnik</ind></trd>,
@@ -314,7 +319,10 @@
 </drv>
 </art>
 <!--
-$Log: divizo.xml,v $
+$Log$
+versio 1.41 2021/06/18 09:32:32
+Dmitri Gabinski: + trd be
+
 versio 1.39 2020/02/15 20:10:19
 Wolfram Diestel: formuloj per am
 
@@ -334,8 +342,5 @@ Revision 1.34  2005/03/06 17:34:22  revo
 Marc Bavant: kor duobligitan punkton
 
 Revision 1.33  2005/02/24 17:31:50  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.32  2003/11/06 17:31:10  revo
 -->
 </vortaro>
