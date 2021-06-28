@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: varian.xml,v 1.16 2015/07/04 08:37:45 revo Exp $">
+<art mrk="$Id: varian.xml,v 1.17 2021/06/28 12:45:33 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>variant</rad>/o
@@ -12,19 +12,90 @@
   <snc>
     <dif>
       Iomete diferenca
-      <ref tip="super" cel="redakc.0o.versio">redakcio</ref>
-      de teksto, liverita de alia manuskripto a&ubreve; eldono:
+      <ref tip="super" cel="redakc.0o.versio">redakcio</ref> de teksto
+      liverita de alia manuskripto a&ubreve; eldono;
+      diferenca <ref tip="super" cel="interp2.0o">interpreto</ref> de artverko ks:
       <ekz>
-        kolekti la <tld/>ojn de poemo en kritikan aparaton.
+        la fino devas esti preparita tre bone, preska&ubreve; la&ubreve;vorte, estas e&ccirc; konsilinde
+        kunmeti plurajn <tld/>ojn de la fino, tiel ke &ndash; la&ubreve; la cirkonstancoj &ndash; oni
+        povu elekti la plej ta&ubreve;gan
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pentra&jcirc;o de <nom>Rembrandt</nom> &leftquot;<nom>Danae</nom>&rightquot; en la unua <tld/>o precize kopiis la samtitolan
+        pentra&jcirc;on de <nom>Caracci</nom>
+        <fnt>
+          <bib>KFl</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi relegis la &ccirc;arman fabellibron <klr>[&#8230;]</klr> pri Pinokjo, iam mi vidis la
+        film<tld/>on de tiu fabelo
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili prenis unu la alian je la manoj, ekdancis iun <tld/>on de &leftquot;fokstroto&rightquot;
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Printempa <tld lit="V"/>o
+        <klr>(poemo de <nom>R. Schwartz</nom>)</klr>
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+          <lok>Printempa Varianto</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="variac.0o">variacio</ref>
   </snc>
+  <snc mrk="varian.0o.variajxo">
+    <dif>
+      <ref tip="dif" cel="vari.0ajxo">Varia&jcirc;o</ref>:
+      <ekz>
+        &ccirc;u vi konas alian specon de socio, malsimilan al tiuj? ekzistas <tld/>oj de tiuj
+        kvar, ekzemple monarkioj kaj e&ccirc; a&ccirc;etita re&gcirc;posteno
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj <tld/>oj k&#799;, k, k&#800; estas alofonoj de la fonemo /k/
+        <fnt>
+          <aut>Wells</aut>
+          <vrk>Lingvistikaj aspektoj de Esperanto</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kia tro&scirc;ar&gcirc;o de la tramo <klr>[&#8230;]</klr> estas sendube pli oportuna la pariza
+        <tld/>o, kie la laboroj estas farataj sub la tero
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la deko de la &ccirc;eestantoj, reprezenti&gcirc;is &ccirc;iuj <tld/>oj de junaj viroj:
+        idealistoj, spekulaciemuloj, strebuloj kaj ali&gcirc;emuloj
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>  
+  <ref tip="hom" cel="vari.0anto">vari&middot;ant&middot;o (variablo)</ref>
   <trd lng="be">&c_v;&c_a;&c_r;&c_y;&c_ja;&c_n;&c_t;</trd>
   <trdgrp lng="cs">
     <trd>biol. odchylka</trd>,
     <trd>mat.</trd>,
-    <trd>nevh. proměnná</trd>,
-    <trd>obměna</trd>,
+    <trd>nevh. prom&ecaron;nn&aacute;</trd>,
+    <trd>obm&ecaron;na</trd>,
     <trd>varianta</trd>
   </trdgrp>
   <trd lng="de">Variante</trd>
@@ -51,13 +122,16 @@
   <trd lng="ru">&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;</trd>
   <trdgrp lng="sk">
     <trd>obmena</trd>,
-    <trd>odchýlka</trd>,
+    <trd>odch&yacute;lka</trd>,
     <trd>variant</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.17 2021/06/28 12:45:33
+Wolfram Diestel: +snc variajxo; ekz-oj, ref-oj
+
 Revision 1.15  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -77,11 +151,5 @@ Revision 1.10  2002/05/16 16:33:41  revo
 Zmicier Lapcionak: + trd be
 
 Revision 1.9  2002/03/20 17:37:14  revo
-Jose Martin del Pozo: +trd es
-
-Revision 1.8  2002/03/15 17:32:59  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/11/08 19:13:58 revo
 -->
 </vortaro>
