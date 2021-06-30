@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: prov.xml,v 1.109 2021/06/22 20:28:07 revo Exp $">
+<art mrk="$Id: prov.xml,v 1.110 2021/06/30 19:21:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>prov</rad>/i
@@ -11,7 +12,8 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="prov.0i.kontroli_tauxgecon">
     <dif>
-      Apliki objekton al &gcirc;ia destino, por kontroli,
+      <ref cel="aplik.0i.rimedon">Apliki</ref> objekton al &gcirc;ia destino, por 
+      <ref tip="super" cel="kontro.0i.konformecon">kontroli</ref>,
       &ccirc;u &gcirc;i ta&ubreve;gas, &ccirc;u &gcirc;i pla&ccirc;as:
       <ekz>
         <tld/>i instrumenton, ma&scirc;inon, ponton, &ccirc;apelon,
@@ -23,8 +25,8 @@
         <fnt><bib>PV</bib></fnt>;
       </ekz>
       <ekz>
-        la pli a&gcirc;a iris <klr>[&#x2026;]</klr> kun la &scirc;uo por <tld/>i &gcirc;in
-        <klr>[&#x2026;]</klr>,
+        la pli a&gcirc;a iris <klr>[&#8230;]</klr> kun la &scirc;uo por <tld/>i &gcirc;in
+        <klr>[&#8230;]</klr>,
         sed beda&ubreve;rinde la granda piedfingro ne eniris, la &scirc;uo estis tro
         malgranda por &scirc;i
         <fnt>
@@ -46,8 +48,8 @@
         <fnt>
         <vrk>Montejo</vrk>
         <lok>
-        <url ref="http://www.geocities.com/jeneeya/esperanto/montejo/         montejo8a2000.htm">2000-3
-        (1)</url></lok></fnt>;
+        <url ref="http://www.geocities.com/jeneeya/esperanto/montejo/montejo8a2000.htm"
+          >2000-3 (1)</url></lok></fnt>;
       </ekz>
       <ekz>
         siatempe mi anka&ubreve; iafoje <tld/>is cigaron
@@ -65,6 +67,10 @@
       <trd>&c_k;&c_a;&c_sh;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol; 
       <klr>(man&gcirc;a&jcirc;ojn)</klr></trd>
     </trdgrp>
+    <trdgrp lng="de">
+      <trd>testen</trd>,
+      <trd>versuchen</trd>
+    </trdgrp>
     <trd lng="es">comprobar</trd>
     <trdgrp lng="nl">
       <trd>proberen</trd>,
@@ -79,7 +85,7 @@
   </snc>
   <snc mrk="prov.0i.elmeti_al_pritaksado">
     <dif>
-      Elmeti al pritaksado de la valoro:
+      <ref tip="super" cel="met.el0i.malsxirmi">Elmeti</ref> al pritaksado de la valoro:
     </dif>
     <subsnc mrk="prov.0i.elmeti_substancon_al_pritaksado">
       <uzo tip="stl">RAR</uzo>
@@ -94,6 +100,9 @@
           <fnt><bib>PrV</bib></fnt>.
         </ekz>
       </dif>
+      <refgrp tip="vid">
+        <ref cel="pruv.0i">pruvi</ref>
+      </refgrp>
       <trd lng="es">probar</trd>
     </subsnc>
     <subsnc mrk="prov.0i.elmeti_ion_al_pritaksado">
@@ -120,14 +129,14 @@
           <trd lng="hu">szerencs&eacute;t pr&oacute;b&aacute;l</trd>
         </ekz>
         <ekz>
-          ni <klr>[&#x2026;]</klr> <tld/>os la fortunon
+          ni <klr>[&#8230;]</klr> <tld/>os la fortunon
           <fnt>
             <bib>ElektFab</bib>
             <lok>Fidela Johano</lok>
           </fnt>;
         </ekz>
         <ekz>
-          iru en la mondon, <tld/>u viajn kapablojn kaj <klr>[&#x2026;]</klr>
+          iru en la mondon, <tld/>u viajn kapablojn kaj <klr>[&#8230;]</klr>
           lernu metion
           <fnt>
             <bib>ElektFab</bib>
@@ -135,7 +144,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          kiam mi <klr>[&#x2026;]</klr> povos porti lancon, mi trovos Seton kaj
+          kiam mi <klr>[&#8230;]</klr> povos porti lancon, mi trovos Seton kaj
           ni <tld/>os niajn
           fortojn
           <fnt>
@@ -154,6 +163,9 @@
           <fnt><bib>PrV</bib></fnt>.
         </ekz>
       </dif>
+      <refgrp tip="vid">
+       <ref cel="test.0i">testi</ref>
+    </refgrp>
       <trd lng="es">comprobar</trd>
     </subsnc>
     <subsnc mrk="prov.0i.elmeti_iun_al_pritaksado">
@@ -186,7 +198,7 @@
           <fnt><bib>NT</bib>, <lok>&Apo; 2:2</lok></fnt>;
         </ekz>
         <ekz>
-          ni <tld/>is vin, &#x2010; da&ubreve;rigis <nom>Voland</nom>, &#x2010; neniam ion
+          ni <tld/>is vin, &dash; da&ubreve;rigis <nom>Voland</nom>, &dash; neniam ion
           petu! neniam kaj nenion
           <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 24a</lok></fnt>;
         </ekz>
@@ -201,7 +213,10 @@
           <fnt><aut>&Z;</aut>, <vrk>la vojo</vrk></fnt>.
         </ekz>
       </dif>
-      <ref tip="vid" cel="tent.0i.provi">tenti <sncref/></ref>
+      <refgrp tip="vid">
+        <ref cel="ekzame.0i.PED">ekzameni<sncref/></ref>,
+        <ref cel="tent.0i.provi">tenti <sncref/></ref>
+      </refgrp>
       <trd lng="es">comprobar</trd>
       <adm>
         Kontroli la tradukojn nl kaj ru, kiuj ekzistis anta&ubreve;
@@ -215,6 +230,7 @@
     </rim>
     <trd lng="be">
     &c_v;&c_y;&c_p;&c_r;&c_a;&c_b;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trd lng="de">pr&uuml;fen</trd>
     <trdgrp lng="nl">
       <trd>beproeven</trd>,
       <trd>testen</trd>,
@@ -361,6 +377,7 @@
       <trd>&c_s;&c_p;&c_r;&c_a;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_p;&c_r;&c_a;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
     </trdgrp>
+    <trd lng="de">versuchen</trd>
     <trd lng="nl">proberen</trd>
     <trdgrp lng="pl">
       <trd>pr&oacute;bowa&cacute;</trd>,
@@ -373,16 +390,16 @@
     </trdgrp>
   </snc>
   <trd lng="af">probeer</trd>
-  <trd lng="am">&#x121E;&#x12AD;&#x122D;</trd>
-  <trd lng="ar">&#x645;&#x62D;&#x627;&#x648;&#x644;&#x629;</trd>
-  <trd lng="az">&#xE7;al&#x131;&#x15F;maq</trd>
+  <trd lng="am">&#4638;&#4781;&#4653;</trd>
+  <trd lng="ar">&a_m;&a_H;&a_A;&a_w;&a_l;&a_t_marbuta;</trd>
+  <trd lng="az">&ccedil;al&inodot;&scedil;maq</trd>
   <trdgrp lng="bg">
     <trd>&c_p;&c_r;&c_o;&c_b;&c_v;&c_a;&c_m;</trd>,
     <trd>&c_o;&c_p;&c_i;&c_t;&c_v;&c_a;&c_m;</trd>
   </trdgrp>
-  <trd lng="bn">&#x99A;&#x9C7;&#x9B7;&#x9CD;&#x99F;&#x9BE;</trd>
-  <trd lng="bs">poku&#x161;ati</trd>
-  <trd lng="co">pruv&#xE0;</trd>
+  <trd lng="bn">&#2458;&#2503;&#2487;&#2509;&#2463;&#2494;</trd>
+  <trd lng="bs">poku&scaron;ati</trd>
+  <trd lng="co">pruv&agrave;</trd>
   <trdgrp lng="cs">
     <trd>pokou&scaron;et se</trd>,
     <trd>pokusit se</trd>,
@@ -390,7 +407,7 @@
     <trd>zkusit</trd>
   </trdgrp>
   <trd lng="cy">ceisiwch</trd>
-  <trd lng="da">pr&#xF8;v</trd>
+  <trd lng="da">pr&oslash;v</trd>
   <trd lng="de">probieren</trd>
   <trd lng="en">attempt</trd>
   <trdgrp lng="es">
@@ -416,9 +433,9 @@
   <trd lng="ga">iarracht</trd>
   <trd lng="gd">feuchainn</trd>
   <trd lng="gl">tentar</trd>
-  <trd lng="gu">&#xAAA;&#xACD;&#xAB0;&#xAAF;&#xABE;&#xAB8;</trd>
+  <trd lng="gu">&#2730;&#2765;&#2736;&#2735;&#2750;&#2744;</trd>
   <trd lng="ha">kokarin</trd>
-  <trd lng="hi">&#x915;&#x94B;&#x936;&#x93F;&#x936;</trd>
+  <trd lng="hi">&#2325;&#2379;&#2358;&#2367;&#2358;</trd>
   <trd lng="hmn">sim</trd>
   <trd lng="hr">probati</trd>
   <trd lng="ht">eseye</trd>
@@ -429,43 +446,43 @@
     <trd>tesztel</trd>,
     <trd>megk&iacute;s&eacute;rel</trd>
   </trdgrp>
-  <trd lng="hy">&#x583;&#x578;&#x580;&#x571;&#x565;&#x56C;</trd>
-  <trd lng="ig">na-agbal&#x1ECB;</trd>
+  <trd lng="hy">&#1411;&#1400;&#1408;&#1393;&#1381;&#1388;</trd>
+  <trd lng="ig">na-agbal&#7883;</trd>
   <trd lng="is">reyna</trd>
-  <trd lng="ja">&#x8A66;&#x3059;</trd>
+  <trd lng="ja">&#35430;&#12377;</trd>
   <trd lng="jw">nyoba</trd>
-  <trd lng="ka">&#x10EA;&#x10D3;&#x10D8;&#x10DA;&#x10DD;&#x10D1;&#x10D4;&#x10DC;</trd>
-  <trd lng="kk">&#x4D9;&#x440;&#x435;&#x43A;&#x435;&#x442;</trd>
-  <trd lng="km">&#x1796;&#x17D2;&#x1799;&#x17B6;&#x1799;&#x17B6;&#x1798;</trd>
-  <trd lng="kn">&#xCAA;&#xCCD;&#xCB0;&#xCAF;&#xCA4;&#xCCD;&#xCA8;&#xCBF;&#xCB8;&#xCBF;</trd>
-  <trd lng="ko">&#xC2DC;&#xD5D8;</trd>
-  <trd lng="ku">cerriban&#xEE;</trd>
-  <trd lng="ky">&#x430;&#x440;&#x430;&#x43A;&#x435;&#x442; &#x43A;&#x44B;&#x43B;&#x443;&#x443;</trd>
+  <trd lng="ka">&#4330;&#4307;&#4312;&#4314;&#4317;&#4305;&#4308;&#4316;</trd>
+  <trd lng="kk">&#1241;&c_r;&c_je;&c_k;&c_je;&c_t;</trd>
+  <trd lng="km">&#6038;&#6098;&#6041;&#6070;&#6041;&#6070;&#6040;</trd>
+  <trd lng="kn">&#3242;&#3277;&#3248;&#3247;&#3236;&#3277;&#3240;&#3263;&#3256;&#3263;</trd>
+  <trd lng="ko">&#49884;&#54744;</trd>
+  <trd lng="ku">cerriban&icirc;</trd>
+  <trd lng="ky">&c_a;&c_r;&c_a;&c_k;&c_je;&c_t; &c_k;&c_y;&c_l;&c_u;&c_u;</trd>
   <trd lng="lat">tentant</trd>
-  <trd lng="lo">&#xE9E;&#xEB0;&#xE8D;&#xEB2;&#xE8D;&#xEB2;&#xEA1;</trd>
+  <trd lng="lo">&#3742;&#3760;&#3725;&#3762;&#3725;&#3762;&#3745;</trd>
   <trd lng="lt">pabandyti</trd>
-  <trd lng="lv">m&#x113;&#x123;in&#x101;t</trd>
+  <trd lng="lv">m&#275;&#291;in&#257;t</trd>
   <trd lng="mg">manandrana</trd>
   <trd lng="mi">tamata</trd>
-  <trd lng="mk">&#x441;&#x435; &#x43E;&#x431;&#x438;&#x434;&#x435;</trd>
-  <trd lng="ml">&#xD36;&#xD4D;&#xD30;&#xD2E;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
-  <trd lng="mn">&#x43E;&#x440;&#x43E;&#x43B;&#x434;&#x43E;&#x445;</trd>
-  <trd lng="mr">&#x92A;&#x94D;&#x930;&#x92F;&#x924;&#x94D;&#x928;</trd>
+  <trd lng="mk">&c_s;&c_je; &c_o;&c_b;&c_i;&c_d;&c_je;</trd>
+  <trd lng="ml">&#3382;&#3405;&#3376;&#3374;&#3391;&#3349;&#3405;&#3349;&#3393;&#3349;</trd>
+  <trd lng="mn">&c_o;&c_r;&c_o;&c_l;&c_d;&c_o;&c_h;</trd>
+  <trd lng="mr">&#2346;&#2381;&#2352;&#2351;&#2340;&#2381;&#2344;</trd>
   <trd lng="ms">cuba</trd>
   <trd lng="mt">jippruvaw</trd>
-  <trd lng="my">&#x1000;&#x103C;&#x102D;&#x102F;&#x1038;&#x1005;&#x102C;&#x1038;</trd>
-  <trd lng="ne">&#x92A;&#x94D;&#x930;&#x92F;&#x93E;&#x938;</trd>
+  <trd lng="my">&#4096;&#4156;&#4141;&#4143;&#4152;&#4101;&#4140;&#4152;</trd>
+  <trd lng="ne">&#2346;&#2381;&#2352;&#2351;&#2366;&#2360;</trd>
   <trd lng="ny">kuyesa</trd>
-  <trd lng="pa">&#xA15;&#xA4B;&#xA38;&#xA3C;&#xA3F;&#xA38;&#xA3C; &#xA15;&#xA30;&#xA4B;</trd>
-  <trd lng="ps">&#x647;&#x685;&#x647;</trd>
+  <trd lng="pa">&#2581;&#2635;&#2616;&#2620;&#2623;&#2616;&#2620; &#2581;&#2608;&#2635;</trd>
+  <trd lng="ps">&a_h;&#1669;&a_h;</trd>
   <trdgrp lng="pt">
     <trd>provar</trd>,
     <trd>experimentar</trd>,
     <trd>ensaiar</trd>
   </trdgrp>
   <trd lng="rw">gerageza</trd>
-  <trd lng="sd">&#x6AA;&#x648;&#x634;&#x634; &#x6AA;&#x631;</trd>
-  <trd lng="si">&#xD8B;&#xDAD;&#xDCA;&#xDC3;&#xDCF;&#xDC4;</trd>
+  <trd lng="sd">&#1706;&a_w;&a_sh;&a_sh; &#1706;&a_r;</trd>
+  <trd lng="si">&#3467;&#3501;&#3530;&#3523;&#3535;&#3524;</trd>
   <trdgrp lng="sk">
     <trd>ok&uacute;si&tcaron;</trd>,
     <trd>pok&uacute;&scaron;a&tcaron;<klr>(sa)</klr></trd>,
@@ -476,22 +493,22 @@
   <trd lng="sm">taumafai</trd>
   <trd lng="sn">edza</trd>
   <trd lng="so">isku day</trd>
-  <trd lng="sq">p&#xEB;rpiqem</trd>
+  <trd lng="sq">p&euml;rpiqem</trd>
   <trd lng="st">leka</trd>
   <trd lng="su">nyobaan</trd>
   <trd lng="sw">kujaribu</trd>
-  <trd lng="ta">&#xBAE;&#xBC1;&#xBAF;&#xBB1;&#xBCD;&#xB9A;&#xBBF;</trd>
-  <trd lng="te">&#xC2A;&#xC4D;&#xC30;&#xC2F;&#xC24;&#xC4D;&#xC28;&#xC3F;&#xC02;&#xC1A;&#xC02;&#xC21;&#xC3F;</trd>
-  <trd lng="tg">&#x43A;&#x4EF;&#x448;&#x438;&#x448;</trd>
-  <trd lng="th">&#xE1E;&#xE22;&#xE32;&#xE22;&#xE32;&#xE21;</trd>
+  <trd lng="ta">&#2990;&#3009;&#2991;&#2993;&#3021;&#2970;&#3007;</trd>
+  <trd lng="te">&#3114;&#3149;&#3120;&#3119;&#3108;&#3149;&#3112;&#3135;&#3074;&#3098;&#3074;&#3105;&#3135;</trd>
+  <trd lng="tg">&c_k;&#1263;&c_sh;&c_i;&c_sh;</trd>
+  <trd lng="th">&#3614;&#3618;&#3634;&#3618;&#3634;&#3617;</trd>
   <trd lng="tl">subukan</trd>
-  <trd lng="tt">&#x442;&#x44B;&#x440;&#x44B;&#x448;&#x44B;&#x43F; &#x43A;&#x430;&#x440;&#x430;</trd>
-  <trd lng="uk">&#x441;&#x43F;&#x440;&#x43E;&#x431;&#x443;&#x439;&#x442;&#x435;</trd>
-  <trd lng="ur">&#x6A9;&#x648;&#x634;&#x634;</trd>
+  <trd lng="tt">&c_t;&c_y;&c_r;&c_y;&c_sh;&c_y;&c_p; &c_k;&c_a;&c_r;&c_a;</trd>
+  <trd lng="uk">&c_s;&c_p;&c_r;&c_o;&c_b;&c_u;&c_j;&c_t;&c_je;</trd>
+  <trd lng="ur">&f_k;&a_w;&a_sh;&a_sh;</trd>
   <trd lng="uz">urinish</trd>
-  <trd lng="vi">th&#x1EED;</trd>
+  <trd lng="vi">th&#7917;</trd>
   <trd lng="xh">zama</trd>
-  <trd lng="yi">&#x5E4;&#x5BC;&#x5E8;&#x5D5;&#x5D1;&#x5D9;&#x5E8;&#x5DF;</trd>
+  <trd lng="yi">&pe;&#1468;&resh;&vav;&bet;&yod;&resh;&fnun;</trd>
   <trd lng="yo">gbiyanju</trd>
   <trd lng="zu">sizame</trd>
 </drv>
@@ -581,18 +598,19 @@
         <ekz>
           <tld/>o senfrukta
           <fnt><bib>Marta</bib></fnt>,
-        </ekz>
-        <ekz>
           malprospera
           <fnt><bib>EE</bib></fnt>,
-        </ekz>
-        <ekz>
           vana
           <fnt><bib>Marta</bib></fnt>.
         </ekz>
       </dif>
       <trd lng="es">prueba</trd>
     </subsnc>
+    <refgrp tip="vid">
+       <ref cel="ekzame.0o">ekzameno</ref>,
+       <ref cel="kontro.0o">kontrolo</ref>,
+       <ref cel="test.0o">testo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_p;&c_r;&c_o;&c_b;&c_a;</trd>,
@@ -763,6 +781,10 @@
     <trd>&c_o;&c_p;&c_i;&c_t;&c_v;&c_a;&c_m;</trd>,
     <trd>&c_t;&c_je;&c_s;&c_t;&c_v;&c_a;&c_m;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd><klr>(systematisch)</klr> ausprobieren</trd>,
+    <trd>austesten</trd>
+  </trdgrp>
   <trd lng="es">intentar continuamente</trd>
   <trdgrp lng="hu">
     <trd>pr&oacute;b&aacute;lkozik</trd>,
@@ -802,7 +824,7 @@
       </ekz>
       <ekz>
         por &ccirc;iu tago, en kiu ni trovas bonan infanon 
-        <klr>...</klr>,
+        <klr>[&#8230;]</klr>,
         Dio mallongigas al ni nian tempon de <tld/>ado
         <fnt><bib>Fab1</bib>, <lok>la virineto de maro</lok></fnt>;
       </ekz>
@@ -901,6 +923,10 @@
       <trd>&c_p;&c_r;&c_o;&c_b;&c_a;</trd>,
       <trd>&c_s;&c_p;&c_r;&c_o;&c_b;&c_a;</trd>
     </trdgrp>
+    <trdgrp lng="de">
+      <trd>Probe</trd>,
+      <trd>Versuch <klr>(Exempel)</klr></trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>muestra</trd>,
       <trd>ejemplar</trd>
@@ -949,6 +975,7 @@
     <trd>&c_p;&c_r;&c_o;&c_b;&c_a;</trd>,
     <trd>&c_o;&c_p;&c_i;&c_t;</trd>
   </trdgrp>
+
 </drv>
 
 <drv mrk="prov.0ilo">
@@ -982,7 +1009,7 @@
         multaj ser&ccirc;antoj faltrafas en la akvokirli&gcirc;on de spirituala
         materialismo kaj
         psi&hcirc;ismo, precipe kiam la sola <tld/>ilo estas ilia propra
-        &leftquot;sento&#x201D;
+        &leftquot;sento&#8221;
         <fnt>
           <bib>Monato</bib>
           <aut>Christian Declerck</aut>
@@ -1003,6 +1030,10 @@
     <trd>&c_t;&c_e;&c_s;&c_t;&c_e;&c_r;</trd>
   </trdgrp>
   <trd lng="bg">&c_t;&c_je;&c_s;&c_t;&c_je;&c_r;</trd>
+  <trdgrp lng="de">
+    <trd>Test<klr>(mittel)</klr></trd>,
+    <trd>Pr&uuml;fstein</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>instrumento de experimentaci&oacute;n</trd>,
     <trd>test</trd>,
@@ -1052,6 +1083,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">einen <ind>Versuch</ind> wert</trd>
   <trd lng="es">para hacer pruebas</trd>
   <trd lng="hu">kipr&oacute;b&aacute;land&oacute;</trd>
   <adm>
@@ -1082,8 +1114,8 @@
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        &ccirc;u vi ne povus reek<tld/>i, e&ccirc; se nur kompate al mi?
-        <fnt><bib>Lasu</bib>, <lok>jen vi ree trinkas!</lok></fnt>.
+        &ccirc;u vi ne povus reek<tld/>i, e&ccirc; se nur kompate al mi
+        <fnt><bib>Lasu</bib>, <lok>jen vi ree trinkas!</lok></fnt>?
       </ekz>
     </dif>
   </snc>
@@ -1091,6 +1123,7 @@
   &c_p;&c_a;&c_s;&c_p;&c_r;&c_a;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;
   </trd>
   <trd lng="cs">zkusit</trd>
+  <trd lng="de">versuchen</trd>
   <trd lng="es">ponerse a <ind>probar</ind></trd>
   <trd lng="fr">se mettre &agrave; <ind>essayer</ind></trd>
   <trd lng="hu">elkezd <ind>pr&oacute;b&aacute;lni</ind></trd>
@@ -1186,6 +1219,10 @@
     <trd>&c_i;&c_z;&c_p;&c_i;&c_t;&c_v;&c_a;&c_m;</trd>
   </trdgrp>
   <trd lng="cs">vyzkou&scaron;et</trd>
+  <trdgrp lng="de">
+    <trd>ausprobieren</trd>,
+    <trd>erproben</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>essayer</trd>,
     <trd>&eacute;prouver<klr tip="ind"> (mettre &agrave;
@@ -1341,6 +1378,7 @@
     <trd>&c_i;&c_z;&c_p;&c_r;&c_o;&c_b;&c_v;&c_a;&c_n;</trd>,
     <trd>&c_i;&c_z;&c_p;&c_i;&c_t;&c_a;&c_n;</trd>
   </trdgrp>
+  <trd lng="de">erprobt</trd>
   <trdgrp lng="es">
     <trd>probado</trd>,
     <trd>experimentado</trd>
@@ -1420,23 +1458,15 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc mrk="prov.kontraux0o.KOMUNE">
     <dif>
-      Nova kontrola <tld/>o de io.
+      Nova alimetoda <tld/>o de io por ekskludi erarojn dum
+      la unua provo. 
     </dif>
   </snc>
-  <adm>
-    Senco ne klara. Kiel la senco rezultas el analizo
-    de la vorteroj? Mi imagas, ke post unua provo
-    (pritakso de la ta&ubreve;geco), oni almetas al esploro
-    la manieron, la&ubreve; kiu esti efiktivigita tiu pritakso,
-    kun la implicita ideo, ke se la unua pritaksado
-    montri&gcirc;os neta&ubreve;ga, oni nuligos &gcirc;ian rezulton
-    (kio pravigas la uzon de "kontra&ubreve;").
-    <aut>MB</aut>
-  </adm>
   <trdgrp lng="bg">
     <trd>&c_k;&c_o;&c_n;&c_t;&c_r;&c_o;&c_l;&c_n;&c_a; &c_p;&c_r;&c_o;&c_b;&c_a;</trd>,
     <trd>&c_k;&c_o;&c_n;&c_t;&c_r;&c_o;&c_l;&c_je;&c_n; &c_o;&c_p;&c_i;&c_t;</trd>
   </trdgrp>
+  <trd lng="de">Gegenprobe</trd>
   <trdgrp lng="es">
     <trd>prueba de control</trd>,
     <trd>contraprueba</trd>
@@ -1445,6 +1475,41 @@
   <trd lng="hu">ellenpr&oacute;ba</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_t;&c_r;&c_o;&c_l;&c_mol;&c_n;&c_o;&c_je;
   &c_i;&c_s;&c_p;&c_y;&c_t;&c_a;&c_n;&c_i;&c_je;</trd>
+</drv>
+
+
+<drv mrk="prov.sur0i">
+  <kap>sur<tld/>i</kap>
+  <snc mrk="prov.sur0i.TEKS">
+    <uzo tip="fak">TEKS</uzo>
+    <dif>
+      <klr>(veston)</klr>
+      <tld lit="P"/>cele meti &gcirc;in sur sin:
+      <ekz>
+        unu knabino devis rapidi hejmen, por sur<tld/>i sian belan
+        veston
+        <fnt><bib>Fab2</bib>, <lok>sonorilo</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_y;&c_m;&c_ja;&c_r;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_m;&c_je;&c_r;&c_y;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_je;&c_m;&c_je;&c_r;&c_ja;</trd>,
+    <trd>&c_p;&c_r;&c_je;&c_m;&c_je;&c_r;&c_v;&c_a;&c_m;</trd>
+  </trdgrp>
+  <trd lng="cs">vyzkou&scaron;et na sob&ecaron;</trd>
+  <trd lng="de">anprobieren</trd>
+  <trd lng="es">probarse<klr tip="ind"> (una prenda)</klr></trd>
+  <trd lng="fr">essayer<klr tip="ind"> (un v&ecirc;tement)</klr></trd>
+  <trd lng="hu">felpr&oacute;b&aacute;l</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;&c_ja;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">sk&uacute;&scaron;a&tcaron; <klr>(&scaron;aty)</klr></trd>
 </drv>
 
 <drv mrk="prov.pres0ajxo">
@@ -1486,6 +1551,7 @@
     <trd>&c_k;&c_a;&c_r;&c_e;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>,
     <trd>&c_g;&c_r;&c_a;&c_n;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="de">Probedruck</trd>
   <trdgrp lng="es">
     <trd>borrador</trd>,
     <trd>galerada</trd>,
@@ -1553,39 +1619,6 @@
   </trdgrp>
 </drv>
 
-<drv mrk="prov.sur0i">
-  <kap>sur<tld/>i</kap>
-  <snc mrk="prov.sur0i.TEKS">
-    <uzo tip="fak">TEKS</uzo>
-    <dif>
-      <klr>(veston)</klr>
-      <tld lit="P"/>cele meti &gcirc;in sur sin:
-      <ekz>
-        unu knabino devis rapidi hejmen, por sur<tld/>i sian belan
-        veston
-        <fnt><bib>Fab2</bib>, <lok>sonorilo</lok></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_p;&c_r;&c_y;&c_m;&c_ja;&c_r;&c_a;&c_c;&c_mol;</trd>,
-    <trd>&c_p;&c_r;&c_y;&c_m;&c_je;&c_r;&c_y;&c_c;&c_mol;</trd>
-  </trdgrp>
-  <trdgrp lng="bg">
-    <trd>&c_p;&c_r;&c_je;&c_m;&c_je;&c_r;&c_ja;</trd>,
-    <trd>&c_p;&c_r;&c_je;&c_m;&c_je;&c_r;&c_v;&c_a;&c_m;</trd>
-  </trdgrp>
-  <trd lng="cs">vyzkou&scaron;et na sob&ecaron;</trd>
-  <trd lng="de">anprobieren</trd>
-  <trd lng="es">probarse<klr tip="ind"> (una prenda)</klr></trd>
-  <trd lng="fr">essayer<klr tip="ind"> (un v&ecirc;tement)</klr></trd>
-  <trd lng="hu">felpr&oacute;b&aacute;l</trd>
-  <trdgrp lng="ru">
-    <trd>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;&c_ja;&c_t;&c_mol;</trd>,
-    <trd>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;&c_i;&c_t;&c_mol;</trd>
-  </trdgrp>
-  <trd lng="sk">sk&uacute;&scaron;a&tcaron; <klr>(&scaron;aty)</klr></trd>
-</drv>
 <rim>
   La radiko <ctl><tld/></ctl> aperas en pluraj aliaj kunmeta&jcirc;oj,
   kiel ekzemple en:
@@ -1600,13 +1633,16 @@
       <ref cel="lud.prov0i"><tld/>ludi</ref>,
       <ref cel="numer.prov0o"><tld/>numero</ref>,
       <ref cel="temp.prov0o"><tld/>tempo</ref>,
-      <ref cel="tub.prov0o"><tld/>tubo</ref>
+      <ref cel="tub.prov0o"><tld/>tubo</ref>.
     </refgrp>
   </ekz>
 </rim>
 </art>
 <!--
-$Log: prov.xml,v $
+$Log$
+versio 1.110 2021/06/30 19:21:24
+Wolfram Diestel: sintakso, trd de, ref-oj
+
 versio 1.34 2020/03/10 00:10:31
 Robin van der Vliet: ligilo riparita
 
@@ -1626,8 +1662,5 @@ Revision 1.29  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.28  2015/06/29 16:40:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2015/02/25 10:10:15  revo
 -->
 </vortaro>
