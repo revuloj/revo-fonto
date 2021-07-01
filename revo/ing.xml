@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ing.xml,v 1.19 2021/07/01 19:24:36 revo Exp $">
+<art mrk="$Id: ing.xml,v 1.20 2021/07/01 20:31:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   -<rad>ing</rad>/ <fnt><bib>PV</bib></fnt>
@@ -60,43 +60,6 @@
   <dif>
     Samsignifa memstara vortero:
   </dif>
-
-<drv mrk="ing.0i">
-  <kap>
-    <tld/>i
-  </kap>
-  <snc>
-    <dif>
-      Meti en <tld/>on:
-      <ekz>
-        <ind>velure <tld/>ita</ind>
-        <fnt>
-          <bib>MD02</bib>
-          <vrk>Seksaj inspiroj</vrk>
-        </fnt>;
-        <trd lng="de">auf <ind>Samt</ind> gebettet</trd>
-      </ekz>
-      <ekz>
-        la romano entenas multe da tiaj <ind><tld/>ita</ind>j noveloj, rakontatajn a&ubreve; verkatajn de
-        la romanpersonoj
-        <fnt>
-          <bib>LOdE</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Sincere kaj fre&scirc;e, kiel anta&ubreve; 101 jaroj</url></vrk>
-        </fnt>.
-        <trdgrp lng="de">
-          <trd>eingebettet</trd>,
-          <trd>verschachtelt</trd>
-        </trdgrp>
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-    <trd>einstecken</trd>,
-    <trd>einlassen</trd>
-  </trdgrp>
-  <trd lng="en">insert</trd>
-</drv>
-
 
 <drv mrk="ing.0o">
   <kap><tld/>o</kap>
@@ -173,6 +136,51 @@
     <trd>po&scaron;va</trd>,
     <trd>r&uacute;&ccaron;ka</trd>
   </trdgrp>
+</drv>
+
+
+<drv mrk="ing.0ita">
+  <kap>
+    <tld/>ita
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="en.0igi">Enigi</ref>ta
+      unu en la alian simile kiel &ccirc;e <ref cel="matrjo&scirc;k.0o">matrjo&scirc;ko</ref>:
+      <ekz>
+        <ind>velure <tld/>ita</ind>
+        <fnt>
+          <bib>MD02</bib>
+          <vrk>Seksaj inspiroj</vrk>
+        </fnt>;
+        <trd lng="de">auf <ind>Samt</ind> gebettet</trd>
+      </ekz>
+      <ekz>        
+        programo kun <tld/>ita iteracio
+        <fnt>
+          <vrk><url ref="https://www.bertilow.com/div/komputada_leksikono/KRESTOM.html">Komputada Leksikono: Krestom</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la romano entenas multe da tiaj <tld/>itaj noveloj, rakontatajn a&ubreve; verkatajn de
+        la romanpersonoj
+        <fnt>
+          <bib>LOdE</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Sincere kaj fre&scirc;e, kiel anta&ubreve; 101 jaroj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>verschachtelt</trd>,
+    <trd>eingebettet</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>embedded</trd>,
+    <trd>nested</trd>
+  </trdgrp>
+<trd lng="fr">embarqu&eacute;</trd>
+  <trd lng="ru">&c_v;&c_s;&c_t;&c_r;&c_o;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="ing.en0igi">
@@ -297,6 +305,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2021/07/01 20:31:31
+Wolfram Diestel: ~i -> ~ita
+
 versio 1.19 2021/07/01 19:24:36
 Wolfram Diestel: ekz->ref, +ref-oj, ekz, trd de
 
@@ -316,8 +327,5 @@ Revision 1.13  2014/02/05 14:10:23  revo
 Damien Brucker: +kap
 
 Revision 1.12  2014/02/04 15:10:24  revo
-Damien Brucker: +kap
-
-Revision 1.11  2007/04/20 16:31:18  revo
 -->
 </vortaro>
