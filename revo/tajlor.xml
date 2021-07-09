@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tajlor.xml,v 1.21 2021/07/08 17:38:10 revo Exp $">
+<art mrk="$Id: tajlor.xml,v 1.22 2021/07/09 10:31:05 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tajlor</rad>/o
@@ -126,10 +126,9 @@
   <kap>
     <tld/>i
   </kap>
-  <snc>
+  <snc mrk="tajlor.0i.veston">
     <dif>
-      <ref tip="super" cel="tond.cxirkaux0i">&Ccirc;irka&ubreve;tondi</ref> &scirc;tofon al 
-      formo konvena por kudri veston:
+      Fari veston:
       <ekz>
         mi vidis grupon da sinjoroj en sobraj, bone <tld/>itaj kompletoj
         <fnt>
@@ -140,9 +139,16 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-       <ref cel="fason.0i">fasoni</ref>
+    <refgrp tip="prt">
+      <ref cel="fason.0i.TEKS">fasoni<sncref/></ref>,
+      <ref cel="tond.cxirkaux0i">&ccirc;irka&ubreve;tondi</ref>,
+      <ref cel="tajl.0i">tajli</ref>,
+      <ref cel="kudr.0i">kudri</ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>schneidern</trd>,
+      <trd>Kleidung <ind>herstellen</ind></trd>
+    </trdgrp>
   </snc>
   <snc mrk="tajlor.0i.FIG">
     <dif>
@@ -159,6 +165,7 @@
       </ekz>
       <ekz>
         el<tld/>i el dormo&ccirc;ambrego pecon por banejo
+        <klr>(prefere: <ref cel="tajl.0i">tajli</ref>)</klr>
         <fnt>
           <aut>Spomenka &Scaron;timec</aut>
           <vrk>Ombro sur interna pejza&gcirc;o</vrk>
@@ -182,9 +189,13 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>zuschneiden</trd>,
+      <trd>zurecht <ind>schneidern</ind></trd>
+    </trdgrp>
   </snc>
-  <trd lng="de">zuschneiden</trd>
-  <trd lng="en">taylor</trd>
+  
+  <trd lng="en">tailor</trd>
 </drv>
 
 
@@ -192,7 +203,7 @@
   <kap>
     <tld/>ejo
   </kap>
-  <snc>
+  <snc mrk="tajlor.0ejo.metiejo">
     <dif>
       <ref tip="super" cel="meti.0ejo">Metiejo</ref> de <tld/>o:
       <ekz>
@@ -222,6 +233,9 @@
 </art>
 <!--
 $Log$
+versio 1.22 2021/07/09 10:31:05
+Wolfram Diestel: ~i: pli ghenerala dif, ref-oj, trd de
+
 versio 1.21 2021/07/08 17:38:10
 Wolfram Diestel: +~i, ~a, ~ejo; ekz-oj, ref-oj
 
@@ -241,8 +255,5 @@ Revision 1.14  2005/04/12 16:33:45  revo
 Raul Salinas Monteagudo: +trd ca,es
 
 Revision 1.13  2002/11/17 18:27:13  revo
-Ulrich Fellmann: + 1 trd de
-
-Revision 1.12  2002/11/01 09:14:26  revo
 -->
 </vortaro>
