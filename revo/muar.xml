@@ -2,24 +2,56 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: muar.xml,v 1.15 2020/11/13 22:11:12 revo Exp $">
+<art mrk="$Id: muar.xml,v 1.16 2021/07/10 15:33:11 revo Exp $">
 <kap>
   <rad>muar</rad>/i
 </kap>
 <drv mrk="muar.0i">
   <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
   <snc>
-  <uzo tip="fak">TEK</uzo>
+    <gra><vspec>ntr</vspec></gra>
     <dif>
-      Doni al metalo, &scirc;tofo, papero aspekton de ondemaj rebriloj:
+      Montri ondemajn <ref tip="super" cel="bril.re0i">rebrilo</ref>jn kiel metalo, akvosurfaco, olefilmo, silko:
       <ekz>
-        <tld/>i rubandon.
+        li la&ubreve;iris la riveron, sor&ccirc;ata de la belo <klr>[&#8230;]</klr> de la akvaflua <tld/>o
+        <fnt>
+          <bib>ChC</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        mia anta&ubreve;vido pri tio <tld/>is de sendubeco pri sukceso al malespero
+        <fnt>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="http://www.ueci.it/eldonoj/verkoj/La_hknstsm.doc">La homo kiu ne sukcesis trompi sin mem</url></vrk>
+          <lok>&Ccirc;apitro unua &dash; La kolegia vivo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        le&gcirc;era vo&ccirc;trilo <tld/>is &ccirc;e liaj oreloj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9506-kiso.txt">de Shi Chengtai</url></vrk>
+          <lok>95/06</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+       <ref cel="iriz.0i">irizi</ref>
+    </refgrp>
+    <refgrp tip="vid">
+       <ref cel="desegn.0o">desegno</ref>,
+       <ref cel="marmor.0o">marmoro</ref>,
+       <ref cel="opal.0o">opalo</ref>,
+       <ref cel="vejn.0o.FIG">vejno<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="cs">d&aacute;t vodov&yacute; lesk</trd>
-  <trd lng="de">moirieren</trd>
+  <trdgrp lng="de">
+    <trd>metallisch, &ouml;lig, seidig <ind>gl&auml;nzen</ind></trd>,
+    <trd>changieren</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>to water</trd>,
     <trd>to calendar <klr>(a watered finish)</klr></trd>
@@ -46,11 +78,30 @@
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Posedanta la rebrilon de <tld/>o.
+      Posedanta tian rebrilon de <tld/>o:
+      <ekz>
+        la tajloro faru al vi veston el <tld/>a silka&jcirc;o
+        <fnt>
+          <aut>William Shakespeare</aut>
+          <vrk><url ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Teatrajxoj/epifanio.html">La Festo de la Tri Re&gcirc;oj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniam mi forgesos tiun banon, <klr>[&#8230;]</klr> &scirc;mirolea &gcirc;i &scirc;ajnis, tepida kaj
+        grasa, <tld/>a kun verdaj rebriloj kiel la Nigra Maro en la malnova haveno de
+        <nom>Sevastopol</nom>
+        <fnt>
+          <aut>Henri Baupierre</aut>
+          <vrk><url ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Revuoj/nlr/nlr45/malkovro.html">Malkovro</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_u;&c_a;&c_r;&c_a;&c_v;&c_y;</trd>
-  <trd lng="de">moiriert</trd>
+  <trdgrp lng="de">
+    <trd>moiriert</trd>,
+    <trd>gl&auml;nzig</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>moir&eacute;</trd>,
     <trd>moire</trd>
@@ -68,6 +119,9 @@
 </art>
 <!--
 $Log$
+versio 1.16 2021/07/10 15:33:11
+Wolfram Diestel: ekz-oj, revortigis dif lau tiuj (ntr!), ref-oj, trd de
+
 versio 1.15 2020/11/13 22:11:12
 Vito Redsky: +trd pl +trd ro 
 
@@ -87,8 +141,5 @@ Revision 1.9  2006/08/29 16:41:46  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2006/08/17 18:12:36  revo
-Wieland Pusch: +trd de
-
-Revision 1.7  2006/08/15 12:20:32  revo
 -->
 </vortaro>
