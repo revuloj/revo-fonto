@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: list.xml,v 1.100 2021/07/11 11:23:33 revo Exp $">
+<art mrk="$Id: list.xml,v 1.101 2021/07/11 13:28:42 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>list</rad>/o
@@ -96,9 +96,9 @@
       Tre elasta <ref tip="super" cel="datum.0strukturo">datumstrukturo</ref>
       prezentebla kiel <ref tip="super" cel="sekv.sin0o.spaca">sinsekvo</ref> da
       objektoj, &ccirc;iu el kiuj povas esti simpla datumo
-      (<ctl>atoma</ctl> listano) a&ubreve; listo. Malkiel en ordinara
+      (<ctl>atoma</ctl> listero) a&ubreve; listo. Malkiel en ordinara
       <ref cel="tabel.0o.KOMP">tabelo</ref> oni povas
-      alpendigi novajn listanojn a&ubreve; forpreni iujn enestantajn:
+      alpendigi novajn listerojn a&ubreve; forpreni iujn enestantajn:
       <ekz>
         prezenti arbon per <tld/>o;
       </ekz>
@@ -232,11 +232,55 @@
   <trd lng="zu">uhlu</trd>
 </drv>
 
+<drv mrk="list.0ano">
+  <kap>
+    <tld/>ano
+  </kap>
+  <snc>
+    <dif>
+      Persono nomita en koncerna <tld/>o, ekz-e en balot<tld/>o:
+      <ekz>
+        por multaj B-<tld/>anoj estis &scirc;an&gcirc;ita la balotejo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007284.html"
+              >Listo de ruzo kaj manipulado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per propono de la respondintoj ricevis poentojn anka&ubreve; ekster<tld/>anoj
+        <fnt>
+          <bib>LOdE</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto"
+              >La plej meritaj esperantistoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Listenplatz <klr>(Kandidat)</klr></trd>
+</drv>
+
+
 <drv mrk="list.0ero">
   <kap><tld/>ero</kap>
   <snc mrk="list.0ero.KOMUNE">
     <dif>
-      Unuopa elemento en <tld/>o.
+      Unuopa elemento en <tld/>o:
+      <ekz>
+        la <tld/>eroj 1 kaj 2 rilatas al tekstaj dosieroj
+        <fnt>
+          <vrk><url ref="https://interkonekto.sourceforge.io/dok/manlibro004.html"
+              >Metodo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la reta katalogo de la Esperantomuzeo en Vieno kun &ccirc;irka&ubreve; 35&#8239;000 <tld/>eroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=6327"
+              >Trovanto</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t; &c_s;&c_mol;&c_p;&c_ib;&c_s;&c_a;</trd>
@@ -257,12 +301,29 @@
       Starigi <tld/>on de iuj aferoj, objektoj:
       <ekz>
         estas bone <tld/>igi tie &ccirc;i <klr>[&#8230;]</klr> tradukitajn verkojn
-        <fnt><bib>Plumamikoj</bib>, <lok>tradukoj</lok></fnt>.
+        <fnt><bib>Plumamikoj</bib>, <lok>tradukoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        en multaj tiutemaj libroj estas <tld/>igitaj nomoj de semajntagoj kaj monatoj en
+        diversaj lingvoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anna kaj Mati Pentus</aut>
+          <vrk><url ref="https://www.monato.be/2003/008070.html"
+              >Franda&jcirc;o por scivolemuloj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la meritoj estas <tld/>igitaj dorskovrile de la libro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007198.html"
+              >Poezio sed ne poemoj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-       <ref cel="vic.atendo0o">atendovico</ref>
-    </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_ib; <ind>&c_s;&c_mol;&c_p;&c_ib;&c_s;</ind></trd>
   <trdgrp lng="cs">
@@ -355,6 +416,9 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="vic.atendo0o">atendovico</ref>
+    </refgrp>
   </snc>
   <trd lng="de">Warteliste</trd>
   <trd lng="en">waiting list</trd>
@@ -494,6 +558,9 @@
 </art>
 <!--
 $Log$
+versio 1.101 2021/07/11 13:28:42
+Wolfram Diestel: ~ero, ~igi: ekz-oj; +~ano
+
 versio 1.100 2021/07/11 11:23:33
 Wolfram Diestel: ~o: ekz-oj; +nigra ~o
 
@@ -513,8 +580,5 @@ Revision 1.21  2015/06/29 16:33:19  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2014/11/01 09:10:17  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.19  2009/09/01 04:54:06  revo
 -->
 </vortaro>
