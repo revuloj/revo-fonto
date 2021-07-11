@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: list.xml,v 1.99 2021/07/11 07:24:44 revo Exp $">
+<art mrk="$Id: list.xml,v 1.100 2021/07/11 11:23:33 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>list</rad>/o
@@ -12,17 +12,76 @@
   <snc mrk="list.0o.KOMUNE">
     <dif>
       Serio da nomoj de personoj a&ubreve; aferoj, diritaj a&ubreve; skribitaj unu
-      post
-      alia:
+      post alia:
       <ekz>
-        <tld/>o da kandidatoj, da varoj;
+        li ne estis enskribita en la genealogian <tld/>on kiel unuenaskito
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 5:1</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        prez<tld/>o;
+        la <tld/>o de la pastroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ne&hcirc;emja 7:64</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvitanci <tld/>on de la vendotaj komerca&jcirc;oj
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Lingva Komitato povus periode publikigadi <tld/>ojn da vortoj
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de mallongigoj
+        <klr>(kp <ref tip="sub" cel="glos.0aro">glosaro</ref>)</klr>
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li faris <tld/>on de la nomoj de &ccirc;iuj virinoj, kiujn li konis en la vila&gcirc;o
+        <fnt>
+          <bib>KKl</bib>
+        </fnt>;
       </ekz>
       <ekz>
         mi aran&gcirc;as <tld/>on en alfabeta ordo
-        <fnt><bib>Kiso</bib>, <lok>poetoj kaj homoj</lok></fnt>.
+        <fnt><bib>Kiso</bib>, <lok>poetoj kaj homoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        la stratoj estas plenaj de la balottumulto, la bariloj krias pri tridek <tld/>oj
+        <klr>(de kandidatoj)</klr>
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Popov</nom> nomis kvanton da kunsidoj kaj <tld/>on de la pridiskutitaj demandoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiel ofte mi kontrolis &ccirc;ion necesan, ke la <tld/>o de necesa&jcirc;oj komencis
+        ripeti&gcirc;i senvole en mia menso.
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li montris al mi la <tld/>on de prezoj, kaj mi trarigardis &gcirc;in
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -34,13 +93,23 @@
   <snc mrk="list.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
-      Tre elasta datumstrukturo prezentebla kiel sinsekvo da
+      Tre elasta <ref tip="super" cel="datum.0strukturo">datumstrukturo</ref>
+      prezentebla kiel <ref tip="super" cel="sekv.sin0o.spaca">sinsekvo</ref> da
       objektoj, &ccirc;iu el kiuj povas esti simpla datumo
       (<ctl>atoma</ctl> listano) a&ubreve; listo. Malkiel en ordinara
       <ref cel="tabel.0o.KOMP">tabelo</ref> oni povas
       alpendigi novajn listanojn a&ubreve; forpreni iujn enestantajn:
       <ekz>
-        prezenti arbon per <tld/>o.
+        prezenti arbon per <tld/>o;
+      </ekz>
+      <ekz>
+        &ccirc;ar en Lispo kaj datumoj kaj funkcioj estas <tld/>oj, tial eblas skribi
+        funkciojn, kiuj kreas novajn funkciojn a&ubreve; &scirc;an&gcirc;as aliajn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2513"
+              >Lisp (programlingvo)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -214,6 +283,35 @@
   <trd lng="sk">usporiada&tcaron; do zoznamu</trd>
 </drv>
 
+<drv mrk="list.en0igi">
+  <kap>en<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="list.en0igi.KOMUNE">
+    <dif>
+      Enmeti en <tld/>on:
+      <ekz>
+        li iris por en<tld/>igi sin inter laborser&ccirc;antoj
+        <fnt><bib>InfanTorent2</bib>, <lok>unua parto, &ccirc;apitro
+        2a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_u;&c_n;&c_je;&c_s;&c_mol;&c_c;&c_ib; &c_w; <ind>&c_s;&c_mol;&c_p;&c_ib;&c_s;</ind></trd>
+  <trdgrp lng="cs">
+    <trd>zapsat do seznamu</trd>,
+    <trd>za&rcaron;adit do seznamu</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>agregar a la <ind>lista</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>ajouter &agrave; la <ind>liste</ind></trd>
+  </trdgrp>
+  <trd lng="pl">wprowadzi&cacute; na <ind>list&eogonek;</ind></trd>
+  <trd lng="ro">pune pe <ind>list&abreve;</ind></trd>
+  <trd lng="sk">zap&iacute;sa&tcaron; do zoznamu</trd>
+</drv>
+
 <drv mrk="list.atendo0o">
   <kap>
     atendo<tld/>o
@@ -308,34 +406,6 @@
   </trdgrp>
 </drv>
 
-<drv mrk="list.en0igi">
-  <kap>en<tld/>igi</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="list.en0igi.KOMUNE">
-    <dif>
-      Enmeti en <tld/>on:
-      <ekz>
-        li iris por en<tld/>igi sin inter laborser&ccirc;antoj
-        <fnt><bib>InfanTorent2</bib>, <lok>unua parto, &ccirc;apitro
-        2a</lok></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_u;&c_n;&c_je;&c_s;&c_mol;&c_c;&c_ib; &c_w; <ind>&c_s;&c_mol;&c_p;&c_ib;&c_s;</ind></trd>
-  <trdgrp lng="cs">
-    <trd>zapsat do seznamu</trd>,
-    <trd>za&rcaron;adit do seznamu</trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>agregar a la <ind>lista</ind></trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>ajouter &agrave; la <ind>liste</ind></trd>
-  </trdgrp>
-  <trd lng="pl">wprowadzi&cacute; na <ind>list&eogonek;</ind></trd>
-  <trd lng="ro">pune pe <ind>list&abreve;</ind></trd>
-  <trd lng="sk">zap&iacute;sa&tcaron; do zoznamu</trd>
-</drv>
 
 <drv mrk="list.ligil0o">
   <kap>ligil<tld/>o</kap>
@@ -371,9 +441,62 @@
     <trd>zoznam d&aacute;t</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="list.nigra_0o">
+  <kap>
+    nigra <tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Listo de malpermesitaj, sankciumitaj aferoj:
+      <ekz>
+        trafinte en nigran <tld/>on, en Germanio ne facile oni ricevas laboron
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        e&ccirc; nigra <tld/>o de &jcirc;urnalistoj <klr>[&#8230;]</klr> taksitaj tro kritikemaj estis
+        farita por malebligi al ili aliron al grandaj &jcirc;urnaloj
+        <fnt>
+          <bib>MD17</bib>
+          <vrk>En Sud-Koreio, la fino de la dinastio Bak</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &Gcirc;ibraltaro estas en la nigra <tld/>o de OEKE
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007128.html"
+              >&Ccirc;u venos fino de la impostaj paradizoj?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alia solvo, &ccirc;efe uzebla &ccirc;e servilo, estas nigraj <tld/>oj de retlokoj konataj
+        kiel sendantoj de rubpo&scirc;to
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="https://www.monato.be/2003/008177.html"
+              >Kia solvo por rubpo&scirc;to?</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Schwarze Liste</trd>
+  <trd lng="en">black list</trd>
+</drv>
+
+
+
 </art>
 <!--
 $Log$
+versio 1.100 2021/07/11 11:23:33
+Wolfram Diestel: ~o: ekz-oj; +nigra ~o
+
 versio 1.99 2021/07/11 07:24:44
 Wolfram Diestel: +atendo~o
 
@@ -393,8 +516,5 @@ Revision 1.20  2014/11/01 09:10:17  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.19  2009/09/01 04:54:06  revo
-Emmanuel Debanne: +trd ku
-
-Revision 1.18  2007/05/05 16:30:37  revo
 -->
 </vortaro>
