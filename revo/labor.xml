@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: labor.xml,v 1.153 2021/07/17 14:23:47 revo Exp $">
+<art mrk="$Id: labor.xml,v 1.154 2021/07/17 15:33:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>labor</rad>/i <fnt><bib>PV</bib></fnt>
@@ -2806,7 +2806,10 @@
     <refgrp tip="sin">
        <ref cel="posten.0o.ofico">posteno<sncref/></ref>
     </refgrp>
-    <ref tip="sub" cel="ofic.0o">ofico</ref>
+    <refgrp tip="vid">
+       <ref cel="lok.0o.situacio">loko<sncref/></ref>,
+       <ref cel="ofic.0o">ofico</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="de">
     <trd>Stelle <klr>(Arbeit)</klr></trd>,
@@ -2839,6 +2842,9 @@
 </art>
 <!--
 $Log$
+versio 1.154 2021/07/17 15:33:17
+Wolfram Diestel: +ref
+
 versio 1.153 2021/07/17 14:23:47
 Wolfram Diestel: ~donanto..~loko: ekz-oj, ref-oj; adapto de ~loko-dif lau ekz-oj (funkcio anst. loko)
 
@@ -2858,8 +2864,5 @@ versio 1.148 2021/07/16 16:49:12
 Wolfram Diestel: kun~i/o: ekz-oj
 
 versio 1.147 2021/07/16 15:34:21
-Wolfram Diestel: ~isto, el~i: ekz-oj, fnt-oj, ref-oj; forigis dubindan snc "~anto"
-
-versio 1.146 2021/07/16 14:24:28
 -->
 </vortaro>
