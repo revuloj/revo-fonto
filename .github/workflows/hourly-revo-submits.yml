@@ -45,7 +45,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        docker login ghcr.io -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+        echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
         docker pull "ghcr.io/revuloj/voko-afido/voko-afido:latest"
 
     - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
@@ -104,7 +104,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        docker login ghcr.io -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+        echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
         docker pull "ghcr.io/revuloj/voko-afido/voko-afido:latest"
 
     - name: Akceptu redaktojn el submetoj, kontrolu, arĥivu kaj raportu al redaktantoj
@@ -189,7 +189,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        docker login ghcr.io -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+        echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin 
         docker pull "ghcr.io/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
 
     - name: Aktualigu la artikolojn redaktitajn de hora-formiko ĝis HEAD
