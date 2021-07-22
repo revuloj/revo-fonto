@@ -146,7 +146,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     - name: Prenu procesumon voko-formiko
-      run: docker pull "ghcr.iom/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
+      run: docker pull "ghcr.io/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
         mkdir $GITHUB_WORKSPACE/tgz
