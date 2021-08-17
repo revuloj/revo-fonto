@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: ring.xml,v 1.53 2021/05/29 14:33:11 revo Exp $">
+<art mrk="$Id: ring.xml,v 1.54 2021/08/11 21:27:45 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ring</rad>/o <fnt><bib>PV</bib></fnt>
@@ -56,15 +57,15 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,&#x2020;,&#xD7;)">(<g>E</g>,&#x2020;,&#xD7;)</frm>,
-      ke <frm am="(bb E,&#x2020;)">(<g>E</g>,&#x2020;)</frm> estas
+      <frm am="(bb E,&#8224;,×)">(<g>E</g>,&#8224;,×)</frm>,
+      ke <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">&#xD7;</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">×</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al
-      <frm am="&#x2020;">&#x2020;</frm>:
+      <frm am="&#8224;">&#8224;</frm>:
       <ekz>
-        la <tld/>o <frm am="(bb E^(bb E),+,circ)">(<g>E</g><sup><g>E</g></sup>,+,&#x25E6;)</frm> de la
+        la <tld/>o <frm am="(bb E^(bb E),+,circ)">(<g>E</g><sup><g>E</g></sup>,+,&#9702;)</frm> de la
         <ref cel="bild.0igo.MAT">bildigoj</ref> de komuteca grupo
         <frm am="(bb E,+)">(<g>E</g>,+)</frm> al si mem;
       </ekz>
@@ -133,7 +134,7 @@
     <trd>&c_k;&c_o;&c_l;&c_a;</trd>,
     <trd>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF5A;&#xF72;&#xF42;&#xF66;&#xF0B;&#xF41;&#xF7A;&#xF56;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_tsha;&t_gigu;&t_ga;&t_sa;&t_tsheg;&t_kha;&t_drengbu;&t_ba;&t_sa;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>krou&zcaron;ek</trd>,
     <trd>kruh</trd>,
@@ -194,19 +195,19 @@
 
 <drv mrk="ring.sub0o">
   <kap>sub<tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="ring.sub0o.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <tld/>o <frm am="(bb E,&#x2020;,xx)">(<g>E</g>,&#x2020;,&#xD7;)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,×)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm am="(bb A,&#x2020;_A,xx_A)">(<g>A</g>,&#x2020;<sub>A</sub>,&#xD7;<sub>A</sub>)</frm>, ke
-      <frm am="bb A sub bb E"><g>A</g>&#x2282;<g>E</g></frm>,
-      <frm am="(bb A,&#x2020;_A)">(<g>A</g>,&#x2020;<sub>A</sub>)</frm> estas
+      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,×<sub>A</sub>)</frm>, ke
+      <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm>,
+      <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
       <ref cel="grup.sub0o">subgrupo</ref> de 
-      <frm am="(bb E,&#x2020;)">(<g>E</g>,&#x2020;)</frm>
-      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>&#xD7;<sub>A</sub><k>y</k> = <k>x</k>&#xD7;<k>y</k>&#x2208;A</frm> por
+      <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
+      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>×<sub>A</sub><k>y</k> = <k>x</k>×<k>y</k>&#8712;A</frm> por
       &ccirc;iuj
-      <frm am="x,y in A"><k>x</k>, <k>y</k>&#x2208;A</frm>:
+      <frm am="x,y in A"><k>x</k>, <k>y</k>&#8712;A</frm>:
       <ekz>
         la ringo de entjeroj estas subringo de la ringo
         de reeloj.
@@ -221,49 +222,10 @@
   <trd lng="ru">&c_p;&c_o;&c_d;&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 </drv>
 
-<drv mrk="ring.orel0o">
-  <kap>orel<tld/>o</kap>
-  <snc mrk="ring.orel0o.JUV">
-    <dif>
-      Juvelo portata &ccirc;e orelo kiel ornamo:
-      <ekz>
-        kviete &scirc;i diris: sed &ccirc;i tiuj orel<tld/>oj estas
-        Skotaj kardoj, kaj mi bezonas havi ilin por preni
-        hejmen
-        <fnt>
-          <aut>J. Bishop</aut>,
-          <vrk><url ref="http://members.fortunecity.co.uk/eskruco/037/u-04.html">
-          En Edinburga Kafejo</url></vrk>,
-          <lok>Esperanto sub la Suda Kruco, [1999?], numero 37a</lok>
-        </fnt>.
-      </ekz>
-    </dif>    
-  </snc>
-  <trd lng="be">&c_z;&c_a;&c_v;&c_u;&c_sh;&c_n;&c_ib;&c_c;&c_a;</trd>
-  <trd lng="bo">&#xF68;&#xF0B;&#xF63;&#xF7C;&#xF44;&#xF0B;</trd>
-  <trd lng="br">kloc'hig-skouarn</trd>
-  <trd lng="cs">n&aacute;u&scaron;nice</trd>
-  <trd lng="de">Ohrring</trd>
-  <trd lng="es">pendiente</trd>
-  <trd lng="fr">boucle d'<ind>oreille</ind></trd>
-  <trd lng="he">&ayin;&gimel;&yod;&lamed;</trd>
-  <trd lng="hu">f&uuml;lkarika</trd>
-  <trd lng="nl">oorring</trd>
-  <trd lng="no">&oslash;redobbe</trd>
-  <trd lng="pl">kolczyk</trd>
-  <trd lng="pt">brinco</trd>
-  <trdgrp lng="ru">
-     <trd>&c_s;&c_je;&c_r;&c_mol;&c_g;&c_a;</trd>,
-     <trd>&c_s;&c_je;&c_r;&c_jo;&c_zh;&c_k;&c_a;</trd>
-   </trdgrp>
-  <trd lng="sk">n&aacute;u&scaron;nica</trd>
-  <trd lng="sv">&ouml;rh&auml;nge</trd>
-</drv>
-
 <drv mrk="ring.0o_de_nmodulaj_restoklasoj">
   <kap><tld/>o de n-modulaj restoklasoj</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="ring.0o_de_nmodulaj_restoklasoj.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(por <ref cel="entjer.0o">entjero</ref>
       <frm am="n gt 1"><k>n</k> &gt; 1</frm>) </klr>
@@ -281,8 +243,8 @@
 
 <drv mrk="ring.euxklida0o">
   <kap>e&ubreve;klida <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="ring.euxklida0o.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       <ref cel="komut.0eca.ringo">Komuteca</ref>,
       <ref cel="integr.0a.MAT">integra</ref>
@@ -290,16 +252,16 @@
       <frm am="bb R"><g>R</g></frm>,
       konsiderata kune kun tia bildigo <frm am="phi">&phi;</frm>, ke al &ccirc;iu
       nenula elemento <frm am="a"><k>a</k></frm> &gcirc;i asocias entjeron
-      <frm am="phi(a) ge 0">&phi;(<k>a</k>) &#x2265; 0</frm>, kaj ke
-      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>,
+      <frm am="phi(a) ge 0">&phi;(<k>a</k>) &#8805; 0</frm>, kaj ke
+      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>,
       se <frm am="a"><k>a</k></frm> estas divizoro de 
       <frm am="b"><k>b</k></frm>, kun
       la
       aldona kondi&ccirc;o, ke por &ccirc;iu paro
       <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun nenula 
       <frm am="b"><k>b</k></frm> ekzistas
-      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx q+r"><k>a</k> = <k>b</k>&#xD7;<k>q</k>+<k>r</k></frm> kaj
-      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>:
+      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx q+r"><k>a</k> = <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
+      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
         <klr>(<frm am="phi(a) = |a|">&phi;(<k>a</k>) =
@@ -350,18 +312,57 @@
   <trd lng="fr">hula hoop</trd>
 </drv>
 
+<drv mrk="ring.jar0o">
+  <kap>
+    jar<tld/>o,
+    <var><kap>kresko<tld/>o</kap></var>
+  </kap>
+  <snc mrk="ring.jar0o.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <dif>
+      Diverse kolora a&ubreve; densa tavolo de materio &ccirc;iujare elkreskinta
+      pro sezonaj diferencoj en la trunko de
+      vegeta&jcirc;o, en la &scirc;elo de konko a&ubreve; simila:
+      <ekz>
+        en unu kvadrata jardo, &ccirc;e loko centojn da jardoj for de unu de la malnovaj
+        arbaretoj, mi nombris tridek du arbetojn; kaj unu da ili, la&ubreve; la nombro da
+        kresko<tld/>oj, dum dudek ses jaroj provis levi sin super la tigoj de la
+        erikejo, kaj malsukcesis
+        <fnt>
+          <bib>OriginoDeSpecioj</bib>
+          <lok>capitro 3a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        same kiel la arbaj, la konkaj jar<tld/>oj mem ne nur indikas la a&gcirc;on de la ena
+        besto, sed ja enhavas multe da informoj pri klimato en la pasinteco
+        <fnt>
+          <aut>Oliver Kim</aut>
+          <vrk><url ref="https://www.monato.be/2014/011359.php?p"
+              >Rekorda konkulo</url></vrk>
+          <lok>Monato, 2014-10</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>anneau de croissance</trd>,
+    <trd>cerne</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="ring.kvocienta0o">
   <kap>kvocienta <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="ring.kvocienta0o.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <ref cel="ring.0o.MAT"><tld/>o</ref> <frm am="bb R"><g>R</g></frm> rilate
       al <ref cel="ideal.0o.MAT">idealo</ref> <frm am="bb       I"><g>I</g></frm> 
       de &gcirc;i)</klr>
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
       de <frm am="bb R"><g>R</g></frm> rilate al <frm am="bb I"><g>I</g></frm>, provizita per la 
-      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)&#xD7;(<k>b</k>+<g>I</g>) =
-      (<k>a</k>&#xD7;<k>b</k>)+<g>I</g></frm>; 
+      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)×(<k>b</k>+<g>I</g>) =
+      (<k>a</k>×<k>b</k>)+<g>I</g></frm>; 
       simb. <frm am="bb R//bb I"><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
@@ -377,10 +378,49 @@
   <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;-&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
 </drv>
 
+<drv mrk="ring.orel0o">
+  <kap>orel<tld/>o</kap>
+  <snc mrk="ring.orel0o.JUV">
+    <dif>
+      Juvelo portata &ccirc;e orelo kiel ornamo:
+      <ekz>
+        kviete &scirc;i diris: sed &ccirc;i tiuj orel<tld/>oj estas
+        Skotaj kardoj, kaj mi bezonas havi ilin por preni
+        hejmen
+        <fnt>
+          <aut>J. Bishop</aut>,
+          <vrk><url ref="http://members.fortunecity.co.uk/eskruco/037/u-04.html">
+          En Edinburga Kafejo</url></vrk>,
+          <lok>Esperanto sub la Suda Kruco, [1999?], numero 37a</lok>
+        </fnt>.
+      </ekz>
+    </dif>    
+  </snc>
+  <trd lng="be">&c_z;&c_a;&c_v;&c_u;&c_sh;&c_n;&c_ib;&c_c;&c_a;</trd>
+  <trd lng="bo">&t_a;&t_tsheg;&t_la;&t_naro;&t_nga;&t_tsheg;</trd>
+  <trd lng="br">kloc'hig-skouarn</trd>
+  <trd lng="cs">n&aacute;u&scaron;nice</trd>
+  <trd lng="de">Ohrring</trd>
+  <trd lng="es">pendiente</trd>
+  <trd lng="fr">boucle d'<ind>oreille</ind></trd>
+  <trd lng="he">&ayin;&gimel;&yod;&lamed;</trd>
+  <trd lng="hu">f&uuml;lkarika</trd>
+  <trd lng="nl">oorring</trd>
+  <trd lng="no">&oslash;redobbe</trd>
+  <trd lng="pl">kolczyk</trd>
+  <trd lng="pt">brinco</trd>
+  <trdgrp lng="ru">
+     <trd>&c_s;&c_je;&c_r;&c_mol;&c_g;&c_a;</trd>,
+     <trd>&c_s;&c_je;&c_r;&c_jo;&c_zh;&c_k;&c_a;</trd>
+   </trdgrp>
+  <trd lng="sk">n&aacute;u&scaron;nica</trd>
+  <trd lng="sv">&ouml;rh&auml;nge</trd>
+</drv>
+
 <drv mrk="ring.polinom0o">
   <kap>polinom<tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="ring.polinom0o.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(de <tld/>o <frm am="bb R"><g>R</g></frm>) </klr>
       <ref tip="super" cel="ring.0o.MAT"><tld lit="R"/>o</ref>
@@ -406,10 +446,12 @@
   <trd lng="pl">pier&sacute;cie&nacute; wielomian&oacute;w</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o; &c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_o;&c_v;</trd>
 </drv>
-
 </art>
 <!--
-$Log: ring.xml,v $
+$Log$
+versio 1.54 2021/08/11 21:27:45
+Jeromo Vasxe: + jar/kresko~o
+
 versio 1.51 2020/02/15 17:10:27
 Wolfram Diestel: formuloj per am
 
@@ -428,8 +470,5 @@ aldono de trd sk per skripto de M. von Laer
 
 Revision 1.46  2015/04/18 11:10:17  revo
 Carlos Garcia: +trd es -o
-
-Revision 1.45  2014/11/23 21:10:38  revo
-Filip van Laenen: +trd(no,nl)
 -->
 </vortaro>
