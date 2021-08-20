@@ -2,35 +2,54 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: raket.xml,v 1.24 2020/08/25 11:10:49 revo Exp $">
+<art mrk="$Id: raket.xml,v 1.25 2021/08/20 15:32:28 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>raket</rad>/o
 </kap>
 <drv mrk="raket.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="raket.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
       Artefarita fajra&jcirc;o, kiun oni pafas vertikale en aeron kaj kiu
       eksplodas el&jcirc;etante multajn brilajn fajrerojn:
       <ekz>
-        li a&ccirc;etis <tld/>ojn, krakpizojn, kaj diversajn
-        fajra&jcirc;ojn<fnt>Z</fnt>;
+        la &scirc;ipanoj dancis sur la ferdeko, kaj <klr>[&#8230;]</klr> pli ol cent <tld/>oj
+        levi&gcirc;is en la aeron
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        oni pafis lumigantajn <tld/>ojn al la &ccirc;ielo;
+        li a&ccirc;etis <tld/>ojn, krakpizojn kaj plej diversajn fajra&jcirc;ojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fluganta kofro</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        tiu poeto ja <tld/>as per vortoj
+        la <tld/>oj flugis al la &ccirc;ielo, disvolvi&gcirc;is kvaza&ubreve; floroj kaj falis teren, kiel
+        pluvo de diverskoloraj steloj
+        <fnt>
+          <bib>IKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel helpsignalo a&ubreve; avertsignalo oni uzas montare a&ubreve; mare <ind>signal<tld/>o</ind>jn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=278546"
+              >Signalo</url></lok>
+        </fnt>.
+        <trd lng="de">Signalrakete</trd>
+        <trd lng="ru">&c_s;&c_i;&c_g;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_r;&c_a;&c_k;&c_je;&c_t;&c_a;</trd>
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="jxongl.0i">&jcirc;ongli</ref>.
-    </refgrp>
+    <ref tip="super" cel="pirote.0ajxo">piroteknika&jcirc;o</ref>
     <trd lng="be">&c_r;&c_a;&c_k;&c_je;&c_t;&c_a;</trd>
-    <trd lng="de">Rakete</trd>
+    <trd lng="de">Rakete <klr>(Feuerwerk etc.)</klr></trd>
     <trdgrp lng="en">
       <trd>flare</trd>,
       <trd>rocket</trd>
@@ -53,12 +72,44 @@
     <uzo tip="fak">AVI</uzo>
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Flugaparato a&ubreve; kuglego, movi&gcirc;anta per reakcio,
-      aperanta pro &jcirc;etado malanta&ubreve;en de parto de propra pezo:
+      <ref tip="super" cel="aparat.flug0o">Flugaparato</ref> a&ubreve; pafa&jcirc;o, pelata per el&jcirc;eto de fuza&jcirc;o:
       <ekz>
-        kosma <tld/>o.
+        &ccirc;u vere, la poloj jam pafas tiom multajn kosmo<tld/>ojn al la Luno
+        <fnt>
+          <bib>SatirRak</bib>
+        </fnt>?
+      </ekz>
+      <ekz>
+        satelitoj, iom kontraste al <klr>[&#8230;]</klr> la <tld/>oj necesaj por pafi ilin
+        alten, tute ne kapricas
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9504-radio.txt">Radio</url></vrk>
+          <lok>95/04</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        cele al defendo de tiu bara&jcirc;lago Turkio zorgeme instalis apud &gcirc;i
+        ter-aer-<tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006866.html">La blua "oro" &ccirc;iam malsufi&ccirc;os</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pereis tri homoj, kiam armea <tld/>o erare trafis na&ubreve;eta&gcirc;an domon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Araneo</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007026.html">Mis-ilo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="misil.0o">misilo</ref>,
+       <ref cel="vetur.kosmo0ilo">kosmoveturilo</ref>
+    </refgrp>
     <trd lng="be">&c_r;&c_a;&c_k;&c_je;&c_t;&c_a;</trd>
     <trd lng="de">Rakete</trd>
     <trdgrp lng="en">
@@ -105,6 +156,9 @@
 </art>
 <!--
 $Log$
+versio 1.25 2021/08/20 15:32:28
+Wolfram Diestel: ekz-oj, ref-oj
+
 versio 1.24 2020/08/25 11:10:49
 Damien Brucker: -eraro en cel cxe ref
 
@@ -124,8 +178,5 @@ Revision 1.18  2008/09/21 18:54:23  revo
 HIROTAKA Masaaki: kor trd ja, +trd ja
 
 Revision 1.17  2005/08/30 16:31:41  revo
-Axel Rousseau: +trd fr
-
-Revision 1.16  2003/08/03 16:31:07  revo
 -->
 </vortaro>
