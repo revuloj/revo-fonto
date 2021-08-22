@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sving.xml,v 1.26 2021/08/22 18:32:14 revo Exp $">
+<art mrk="$Id: sving.xml,v 1.27 2021/08/22 20:28:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sving</rad>/i
@@ -42,7 +42,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[li]</klr> svingis sian ru&gcirc;an &ccirc;apeton, <klr>[&#8230;]</klr> por montri al li, ke
+        <klr>[li]</klr> <tld/>is sian ru&gcirc;an &ccirc;apeton, <klr>[&#8230;]</klr> por montri al li, ke
         li deziras al li <klr>[&#8230;]</klr> feli&ccirc;an voja&gcirc;on
         <fnt>
           <bib>Fab1</bib>
@@ -112,7 +112,8 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="balanc1.0i">balanci</ref>,
-      <ref cel="kirl.0i">kirli</ref>
+      <ref cel="kirl.0i">kirli</ref>,
+      <ref cel="vibr.0i">vibri</ref>gi
     </refgrp>
     <trdgrp lng="de">
       <trd>schwingen</trd>,
@@ -195,22 +196,6 @@
     </trdgrp>
     <trd lng="nl">slingeren</trd>
     <trd lng="ru">&c_v;&c_z;&c_m;&c_a;&c_h;&c_n;&c_u;&c_t;&c_mol;</trd>
-  </snc>
-  <snc mrk="sving.0i.vibrigi">
-    <uzo tip="stl">RAR</uzo>
-    <dif>
-      Vibrigi:
-      <ekz>
-        <tld/>i kaj tremigi kordon<fnt>Z</fnt>;
-      </ekz><ekz>
-        tio estas nur <tld/>i&gcirc;oj kaj movi&gcirc;oj de la
-        nervoj<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-    <trd lng="hu">rezegtet</trd>    
-    <trd lng="it"><klr>far </klr>vibrare</trd>
-    <trd lng="nl">doen <ind>trillen</ind></trd>
-    <trd lng="ru">&c_t;&c_r;&c_ja;&c_s;&c_t;&c_i;</trd>
   </snc>
   <snc mrk="sving.0i.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -381,7 +366,16 @@
     </dif>
     <subsnc mrk="sving.0ilo.sonorila">
       <dif>
-        Frapilo pendanta en sonorilo.
+        <ref tip="dif" cel="frap.0ilo">Frapilo</ref> pendanta en 
+        <ref tip="malprt" cel="sonor.0ilo">sonorilo</ref>:
+        <ekz>
+          <klr>[la sonorilo]</klr> ricevis novan, 360 kilogramojn <klr>[pezan]</klr>
+          <tld/>ilon
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=450663">Gloriosa (Erfurto)</url></lok>
+          </fnt>.
+        </ekz>
       </dif>
       <trd lng="de">Schwengel</trd>
       <trd lng="en">clapper</trd>
@@ -441,12 +435,48 @@
       <ekz>
         ekmovi&gcirc;as la trajno, oni man<tld/>as
         <fnt><bib>InfanTorent2</bib>, <lok>dua parto, &ccirc;apitro
-        3a</lok></fnt>.
+        3a</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi senesperi&gcirc;e man<tld/>is, el kio li konkludis, ke mi devas esti tre laca
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> kolere man<tld/>is
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili per na&ubreve;za man<tld/>o silentigis min
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li per man<tld/>o &scirc;ovis librojn de sur se&gcirc;o sur la plankon
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> flankenmetis per man<tld/>o la demandon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://www.monato.be/2003/007991.html">Espero</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="cs">m&aacute;vat na pozdrav</trd>
-  <trd lng="de">winken</trd>
+  <trdgrp lng="de">
+    <trd>winken</trd>,
+    <trd>abwinken</trd>,
+    <trd>ein <ind>Handzeichen</ind> geben</trd>
+  </trdgrp>
   <trd lng="en">to wave <klr>(the hand)</klr></trd>
   <trd lng="fr">faire signe de la main</trd>
   <trdgrp lng="it">
@@ -471,6 +501,7 @@
     <dif>
       Sin anta&ubreve;en&jcirc;eti por <ref tip="vid" cel="salt.0i.sin_levi">salti</ref>.
     </dif>
+    <trd lng="de"><ind>Anlauf</ind> nehmen</trd>
   </snc>
   <trd lng="fr">s'<ind>&eacute;lancer</ind></trd>
   <trd lng="it">slanciarsi<klr> (nel salto)</klr></trd>
@@ -479,6 +510,9 @@
 </art>
 <!--
 $Log$
+versio 1.27 2021/08/22 20:28:28
+Wolfram Diestel: - snc vibrigi; man~i: ekz-oj
+
 versio 1.26 2021/08/22 18:32:14
 Wolfram Diestel: ~i 1,2: ekz-oj, trd de
 
@@ -498,8 +532,5 @@ Revision 1.20  2015/06/29 16:33:25  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.19  2009/10/06 16:43:59  revo
-Antonio Codazzi: +trd it
-
-Revision 1.18  2007/05/01 18:24:33  revo
 -->
 </vortaro>
