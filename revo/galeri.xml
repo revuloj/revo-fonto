@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: galeri.xml,v 1.28 2021/08/23 06:34:42 revo Exp $">
+<art mrk="$Id: galeri.xml,v 1.29 2021/08/23 11:23:44 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>galeri</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,7 +13,7 @@
     <uzo tip="fak">ARKI</uzo>
     <dif>
       Longa tegmentohava ejo de domo, kies unu
-      longa flanko estas nefermita:
+      longa flanko estas multloke malfermita al pli granda salono a&ubreve; ekstero:
     </dif>
     <subsnc mrk="galeri.0o.ekstera">
       <dif>
@@ -59,8 +60,7 @@
           <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 11a</lok></fnt>;
         </ekz>
         <ekz>
-          teatra <ref tip="sub"
-          cel="galeri.0o.TEA"><tld/>o<sncref/></ref>.
+          teatra <ref tip="sub" cel="galeri.0o.TEA"><tld/>o<sncref/></ref>.
         </ekz>
       </dif>
     </subsnc>
@@ -166,18 +166,38 @@
     <trd lng="nl">galerij</trd>
   </snc>
   <snc mrk="galeri.0o.mineja">
+    <uzo tip="fak">GEOL</uzo>
     <dif>
-      Subtera horizontala pasejo de <ref tip="malprt" cel="min.0ejo">minejo</ref>,
-      sekvanta la minon por ekspluati &gcirc;in:
+      Subtera horizontala pasejo de <ref tip="malprt" cel="min.0ejo">minejo</ref>:
       <ekz>
-        <tld/>o de minejo<fnt>B</fnt>,
+        ministoj komencis malsatstriki en <tld/>o je profundo de pli ol 1000 metroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2011/010474.php">Ri&ccirc;a tero, malri&ccirc;a popolo</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>o de subtera fervojo.
+        laciga laboro de ru&gcirc;kolori&gcirc;intaj ministoj, kiuj de mateno &gcirc;is nokto fosis kaj
+        rampis en <tld/>oj kun diametro de 60 centimetroj por elminigi okron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Robert Roze</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006945.html">Francio: Flagrantaj koloroj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <rim>
+      Pluraj lingvoj distingas inter horizontala (angle: <nac>adit</nac>, germane: <nac>Stollen</nac>, ruse:
+      <nac>&c_sh;&c_t;&c_o;&c_l;&c_mol;&c_n;&c_ja;</nac>) kaj vertikala (vd <ref cel="sxakt.0o.mineja">&scirc;akto</ref>) <em>enirejo</em> 
+      al minejo unuflanke kaj la internaj ekspluatejoj 
+      (angle: <nom>gallery</nom>, germane: <nom>Strecke</nom>, ruse: <nom>&c_sh;&c_t;&c_r;&c_e;&c_k;</nom>) 
+      aliflanke. En la franca kaj esperanta lingvoj oni ne
+      distingas inter la horizontalaj pasejoj. Foje oni anka&ubreve; renkontas la vorton
+      <ref cel="korido.0o.GEOL">koridoro<sncref/></ref> tiusence.
+    </rim>
     <refgrp tip="vid">
-       <ref cel="korido.0o.GEOL">koridoro<sncref/></ref>,
        <ref cel="tunel.0o">tunelo</ref>
     </refgrp>
     <trdgrp lng="be">
@@ -185,6 +205,13 @@
       <trd>&c_p;&c_a;&c_d;&c_z;&c_je;&c_m;&c_n;&c_y; &c_h;&c_o;&c_d;</trd>, 
       <trd>&c_sh;&c_t;&c_o;&c_l;&c_mol;&c_n;&c_ja;</trd>, 
       <trd>&c_sh;&c_t;&c_r;&c_e;&c_k;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Stollen <klr>(Zugang)</klr></trd>,
+      <trd>Strecke <klr>(Grube)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>adit <klr>(entry)</klr></trd>,
     </trdgrp>
     <trdgrp lng="hu">
       <trd>v&aacute;gat</trd>;
@@ -249,6 +276,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2021/08/23 11:23:44
+Wolfram Diestel: ~o GEOL: +ekz, rim, trd de, en
+
 versio 1.28 2021/08/23 06:34:42
 Wolfram Diestel: dif MIN tie chi anst. en koridoro
 
@@ -268,8 +298,5 @@ Revision 1.22  2009/08/23 16:33:09  revo
 Emmanuel Debanne: +trd tr
 
 Revision 1.21  2004/11/10 17:31:56  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.20  2004/10/18 16:32:11  revo
 -->
 </vortaro>
