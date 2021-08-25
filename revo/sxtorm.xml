@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: sxtorm.xml,v 1.26 2021/05/29 14:33:19 revo Exp $">
+<art mrk="$Id: sxtorm.xml,v 1.27 2021/08/25 17:33:12 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>&scirc;torm</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,23 +11,71 @@
   <snc mrk="sxtorm.0i.MET">
     <uzo tip="fak">MET</uzo>
     <dif>
-      Forte, dan&gcirc;ere venti, eventuale kun pluvo, ne&gcirc;o, sablo...:
+      Forte, dan&gcirc;ere <ref tip="super" cel="vent.0i">venti</ref>, 
+      eventuale kun pluvo, ne&gcirc;o, sablo...:
+      <ekz>
+        se super ili <tld/>us la ventego, &ccirc;i tie restus same kviete
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         &leftquot;<tld/>os,&rightquot; Donald gruntis moroze
         <fnt>
           <aut>J. Francis</aut>,
           <vrk>La Granda Kaldrono</vrk>,
           <lok>1978</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la batalo jam <tld/>is viglege
+        <fnt>
+          <bib>ChV</bib>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">st&uuml;rmen</trd>
   <trdgrp lng="es">
     <trd>tempestear</trd>,
     <trd>haber tormenta</trd>
   </trdgrp>
   <trd lng="fr">temp&ecirc;ter</trd>
 </drv>
+
+<drv mrk="sxtorm.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Trafata, agitata de <tld/>o:
+      <ekz>
+        post longa na&gcirc;ado en <tld/>a oceano, jen li trafis florplenan insulon
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la &scirc;ipo]</klr> devis batali kontra&ubreve; <tld/>a vetero
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[li]</klr> veki&gcirc;is el <tld/>a son&gcirc;o
+        <fnt>
+          <bib>MMa</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">st&uuml;rmisch</trd>
+  <trd lng="en">stormy</trd>
+</drv>
+
 
 <drv mrk="sxtorm.0o">
   <kap><ofc>9</ofc><tld/>o  <fnt><aut>M. Rollet de l'Isle</aut>,
@@ -37,17 +86,90 @@
       Forta, dan&gcirc;era
       <ref tip="vid" cel="vent.0ego.MET">ventego</ref>:
       <ekz>
-        amo estas <tld/>a maro senhavena kaj senborda;
+        la fulmotondro i&gcirc;is uragana <tld/>o
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        tiu decido elvokis <tld/>on de indigno.
+        dikegaj uloj kun kurbaj kaj nodoplenaj bran&ccirc;egoj kiuj dum jarcentoj kaj jarmilo
+        eltenis <tld/>ojn
+        <fnt>
+          <bib>ViV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sova&gcirc;a <tld/>o pelis la pezajn nubojn kiel paperpecojn sur la nokta &ccirc;ielo
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ofte ciklonoj alportas ne&gcirc;egon kaj <ind>ne&gcirc;o<tld/>o</ind>jn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="https://www.monato.be/2015/011497.php">Ekstremaj veter-fenomenoj obli&gcirc;as</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+        <trd lng="de">Schneesturm</trd>
+      </ekz>
+      <ekz>
+        dum neniu anta&ubreve;a jaro <ind>kirlo<tld/>o</ind>j estis tiel fortaj, &gcirc;is 280 km/h rapidegaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2005/008822.php">Du mil kvin</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+        <trd lng="de">Wirbelsturm</trd>
       </ekz>
     </dif>
-    <ref tip="vid" cel="tempes.0o">tempesto</ref>
+    <refgrp tip="vid">
+       <ref cel="ciklon.0o">ciklono</ref>,
+       <ref cel="tondr.fulmo0o">fulmotondro</ref>,
+       <ref cel="tempes.0o">tempesto</ref>,
+       <ref cel="uragan.0o.MET">uragano<sncref/></ref>
+    </refgrp>
+  </snc>
+  <snc mrk="sxtorm.0o.atako">
+    <dif>
+      Rapida kaj forta <ref tip="super" cel="atak.0o">atako</ref>:
+      <ekz>
+        <tld/>o de la indigno kaptas subite la malgrandan salonon
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de apla&ubreve;dado, kvaza&ubreve; bruego de tertremo, ekskuis la placon
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>oj de la vivo
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Esperanto rezistis la <tld/>ojn kaj sangan elprovon sub fa&scirc;ismo
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la psika <tld/>o subite paci&gcirc;is, kiam &scirc;i levis la rigardon <klr>[&#8230;]</klr> kaj
+        amba&ubreve; samsekunde ridetis
+        <fnt>
+          <bib>ChM</bib>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_sh;&c_t;&c_o;&c_r;&c_m;</trd>
-  <trd lng="bo">&#xF62;&#xFB3;&#xF74;&#xF44;&#xF0B;&#xF60;&#xF5A;&#xF74;&#xF56;&#xF0B;</trd>
+  <trd lng="bo">&t_ra;&t_lata;&t_shabchu;&t_nga;&t_tsheg;&t_-a;&t_tsha;&t_shabchu;&t_ba;&t_tsheg;</trd>
   <trd lng="de">Sturm</trd>
   <trd lng="el">&theta;&ypsilon_ton;&epsilon;&lambda;&lambda;&alfa;
   </trd>
@@ -77,8 +199,27 @@
   <snc mrk="sxtorm.sabl0o.MET">
     <uzo tip="fak">MET</uzo>
     <dif>
-      &Scirc;tormo a&ubreve; ventego kiu kunportas sablon kaj polvon.
+      &Scirc;tormo a&ubreve; ventego kiu kunportas sablon kaj polvon:
+      <ekz>
+        de pratempoj la sablo<tld/>o &scirc;lif<klr>[i]</klr>s iliajn e&gcirc;ojn kaj malglata&jcirc;ojn
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Goabo, la dezerto de la Koloroj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni povus &gcirc;uste imagi la bezonon de vualo kiel masko kontra&ubreve; sablo-<tld/>oj kaj
+        brula varmo sub la dezerta suno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Husejn Al-Amily</aut>
+          <vrk><url ref="https://www.monato.be/2007/009296.php">La vualo, romantika kaj erotika</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="vid" cel="tromb.0o.sablo">trombo<sncref/></ref>
   </snc>
   <trd lng="de">Sandsturm</trd>
   <trd lng="es">tormenta<klr> (de arena)</klr></trd> 
@@ -88,6 +229,9 @@
 </art>
 <!--
 $Log$
+versio 1.27 2021/08/25 17:33:12
+Wolfram Diestel: +ekz-oj, ~a, ~o FIG, ref-oj
+
 Revision 1.23  2018/07/04 07:10:13  revo
 Guillermo Molleda Jimena: trd es
 
