@@ -1,24 +1,73 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: erozi.xml,v 1.22 2021/03/09 18:26:22 revo Exp $">
+<art mrk="$Id: erozi.xml,v 1.23 2021/08/27 18:32:50 revo Exp $">
 <kap>
-  <rad>erozi</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>erozi</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad var="d">erod</rad>/i <fnt><bib>SPV</bib></fnt></kap></var>
 </kap>
 <drv mrk="erozi.0i">
-  <kap><tld/>i</kap>
+  <kap><tld/>i, <var><kap><tld var="d"/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="erozi.0i.GEOL">
+    <uzo tip="fak">GEOL</uzo>
     <dif>
       Nature iom post iom foruzi, skrapi, supra&jcirc;e
-      difekti:
+      <ref tip="super" cel="difekt.0i">difekti</ref>:
       <ekz>
         mi rigardis vulkanajn insulojn, kiuj estis
         <tld/>itaj de ondoj
-        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 9a</lok></fnt>.
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 9a</lok></fnt>;
+      </ekz>
+      <ekz>
+        kelkaj vulkanoj, malaktivaj kaj ege <tld/>itaj, superregas la pejza&gcirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2014/011328.php">Iamaj vulkanoj, iama maro, &ccirc;e nuna montaro</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej bonaj el <klr>[la domoj]</klr> aspektis malnovaj kaj iomete
+        <tld var="d"/>itaj de la vetero
+        <fnt><bib>DOz</bib> <lok>Mirinda eskapo</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="erod.0i">erodi</ref>
+    <refgrp tip="vid">
+      <ref cel="abrazi.0i">abrazii</ref>,
+      <ref cel="korod.0i">korodi</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="erozi.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Iom post iom <ref tip="super" cel="degrad.0i.FIG">degradi</ref>, 
+      disfaligi:
+      <ekz>
+        <klr>[troa montri&gcirc;emo]</klr> balda&ubreve; <tld var="d"/>is lian a&ubreve;toritaton kaj transformis lin
+        en lian propran karikaturon
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>Elektado en Francio</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la merkataj fortoj <klr>[&#8230;]</klr> komencas <tld/>i la potencon de la &scirc;tato
+        <fnt>
+          <bib>MD02</bib>
+          <vrk>Logikoj de milito &dash; Partio, klanoj kaj triboj, la fragila ekvilibro de la iraka re&gcirc;imo</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="degene.0igi">degenerigi</ref>,
+      <ref cel="dekade.0igi">dekadencigi</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>zersetzen</trd>,
+    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_e;&c_r;&c_a;&c_z;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -28,15 +77,17 @@
   <trd lng="ca">erosionar</trd>
   <trdgrp lng="cs">
     <trd>erodovat</trd>,
-    <trd>odn&#xE1;&#x161;et p&#x16F;du</trd>,
-    <trd>vyml&#xED;t</trd>,
-    <trd>vym&#xED;lat</trd>
+    <trd>odn&aacute;&scaron;et p&uring;du</trd>,
+    <trd>rozm&ecaron;l&ncaron;ovat</trd>,
+    <trd>rozt&iacute;rat</trd>,
+    <trd>vyml&iacute;t</trd>,
+    <trd>vym&iacute;lat</trd>
   </trdgrp>
   <trdgrp lng="de">
-     <trd>erodieren</trd>,
-     <trd>abtragen</trd>,
-     <trd>auswaschen</trd>,
-     <trd>abschwemmen</trd>
+    <trd><klr>(etwas)</klr> erodieren</trd>,
+    <trd>abtragen</trd>,
+    <trd>auswaschen</trd>,
+    <trd>abschwemmen</trd>,
   </trdgrp>
   <trd lng="en">erode</trd>
   <trd lng="es">erosionar</trd>
@@ -49,40 +100,80 @@
   </trdgrp>
   <trd lng="nl">eroderen</trd>
   <trd lng="pl">erodowa&cacute;</trd>
+  <trdgrp lng="pt">
+    <trd>desgastar</trd>,
+    <trd>esmerilar</trd>,
+    <trd>erodir</trd>
+  </trdgrp>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>erodova&#x165;</trd>,
-    <trd>odn&#xE1;&#x161;a&#x165; p&#xF4;du</trd>
+    <trd>erodova&tcaron;</trd>,
+    <trd>odn&aacute;&scaron;a&tcaron; p&ocirc;du</trd>,
+    <trd>rozr&yacute;va&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">erodera<klr> (n&aring;got)</klr></trd>
 </drv>
 
 <drv mrk="erozi.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap><tld var="d"/>o</kap></var></kap>
   <snc mrk="erozi.0o.GEOL">
     <uzo tip="fak">GEOL</uzo>
     <dif>
-      Geologia difekti&gcirc;o de la rokoj, ka&ubreve;zata de akvo
-      a&ubreve; vento.
+      Geologia difekti&gcirc;o de la grundo, ka&ubreve;zata akvo, glacio, vento ktp:
+      <ekz>
+        &ccirc;iuformaj roka&jcirc;oj, kreitaj el la <tld/>o de sablo&scirc;tonaj tavoloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2015/011471.php">Palatinata rokolando</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;tonkolonoj ekestis sekve de <tld/>o sur tereno de malkompakta grundo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dimitrije Jani&ccaron;i&cacute;</aut>
+          <vrk><url ref="https://www.monato.be/2008/009444.php">Diabla urbeto</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tia briko enhavas truetojn, povas su&ccirc;i akvon kaj ne estas rezistokapabla kontra&ubreve;
+        <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2013/010935.php">Briko-muzeo</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="sin" cel="erod.0o">erodo</ref> 
+    <refgrp tip="vid">
+       <ref cel="aluvi.0o.GEOL">aluvio<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_e;&c_r;&c_o;&c_z;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_je;&c_r;&c_o;&c_z;&c_i;&c_ja;</trd>
   <trd lng="ca">erosi&oacute;</trd>
   <trdgrp lng="cs">
     <trd>eroze</trd>,
-    <trd>vym&#xED;l&#xE1;n&#xED;</trd>
+    <trd>vym&iacute;l&aacute;n&iacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
-     <trd>Erosion</trd>,
-     <trd>Abtragung</trd>,
-     <trd>Abschwemmung</trd></trdgrp>
+    <trd>Erosion</trd>,
+    <trd>Verwitterung</trd>,
+    <trd>Abschwemmung</trd>,
+    <trd>Abtragung</trd>
+  </trdgrp>
   <trd lng="en">erosion</trd>
   <trd lng="es">eroci&oacute;n</trd>
   <trd lng="fa">&a_f;&a_r;&a_s;&a_A;&f_y;&a_sh;</trd>
   <trd lng="fr">&eacute;rosion</trd>
-  <trd lng="he">&#x5E9;&#x5C1;&#x5B0;&#x5D7;&#x5B4;&#x5D9;&#x5E7;&#x5B8;&#x5D4;</trd>
+  <trdgrp lng="he">
+    <trd>&shin;&het;&yod;&qof;&he;</trd>,
+    <trd>&bet;&lamed;&yod;&he;</trd>
+  </trdgrp>
   <trdgrp lng="hu">
      <trd>er&oacute;zi&oacute;</trd>,
      <trd>lehord&aacute;s</trd>,
@@ -93,12 +184,13 @@
   <trd lng="pt">eros&atilde;o</trd>
   <trd lng="ru">&c_e;&c_r;&c_o;&c_z;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
-    <trd>er&#xF3;zia</trd>,
-    <trd>vymie&#x13E;anie</trd>
+    <trd>er&oacute;zia</trd>,
+    <trd>vymie&lcaron;anie</trd>
   </trdgrp>
   <trd lng="sv">erosion</trd>
 </drv>
 
+<!-- mankas ekz-o momente....
 <drv mrk="erozi.0a">
   <kap><tld/>a</kap>
   <snc mrk="erozi.0a.GEOL">
@@ -122,7 +214,7 @@
     <trd>&eacute;rosif</trd>,
     <trd>d'<ind>&eacute;rosion</ind></trd>
   </trdgrp>
-  <trd lng="he">&#x5E1;&#x5B8;&#x5D7;&#x5D5;&#x5BC;&#x5E3;</trd>
+  <trd lng="he">&samekh;&#1464;&het;&vav;&#1468;&fpe;</trd>
   <trdgrp lng="hu">
      <trd>er&oacute;zi&oacute;s</trd>,
      <trd>er&oacute;z&iacute;v</trd>,
@@ -133,14 +225,55 @@
   <trd lng="pl">erozyjny</trd>
   <trd lng="ru">&c_e;&c_r;&c_o;&c_z;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
+-->
+
+<drv mrk="erozi.0igxi">
+  <kap><tld/>i&gcirc;i, <tld var="d"/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="erod.0igxi.KOMUNE">
+    <dif>
+      Foruzi&gcirc;i, trivi&gcirc;i:
+      <ekz>
+        la milit&scirc;ipoj da&ubreve;re ekzercis sin per pafado
+        al imagataj malamikoj, kaj &ccirc;iufoje la paftuboj
+        de la kanonoj iom <tld var="d"/>i&gcirc;is
+        <fnt>
+          <aut>T. Steele</aut>
+          <vrk>Konvinka Kamufla&jcirc;o</vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        en Britio <klr>[&#8230;]</klr> <tld var="d"/>i&gcirc;as jaroj da pena laboro por starigi harmoniajn
+        rilatojn inter etnaj kaj religiaj malplimultoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2006/009061.php">Faktoj kaj famoj</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
+    </dif>    
+  </snc>
+  <trdgrp lng="de">
+    <trd>verwittern</trd>,
+    <trd>erodieren</trd>,
+    <trd>sich <ind>zersetzen</ind></trd>
+  </trdgrp>
+  <trd lng="fr">s'<ind>&eacute;roder</ind></trd>
+</drv>
 
 <adm>
-  &Ccirc;u ne ekzistas sencoj MED aux FIG?
+  &Ccirc;u ne ekzistas senco MED?
   <aut>MB</aut>
 </adm>
 </art>
 <!--
 $Log$
+versio 1.23 2021/08/27 18:32:50
+Wolfram Diestel: kunigo kun erod', snc FIG, ekz-oj, ref-oj, trd de
+
 Revision 1.20  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -160,11 +293,5 @@ Revision 1.15  2010/03/02 17:30:36  revo
 Sebastian Cyprych: +trd pl +ref al erod
 
 Revision 1.14  2009/09/07 16:31:50  revo
-Paul Peeraerts: +nl
-
-Revision 1.13  2009/06/29 18:05:25  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.12  2007/07/06 18:03:48  revo
 -->
 </vortaro>
