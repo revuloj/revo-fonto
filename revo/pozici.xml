@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pozici.xml,v 1.96 2021/08/28 19:20:22 revo Exp $">
+<art mrk="$Id: pozici.xml,v 1.97 2021/08/28 20:28:09 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>pozici</rad>/o
@@ -39,16 +39,40 @@
           <bib>KKl</bib>
         </fnt>;
       </ekz>
-      <ekz>
-        la diversaj <tld/>oj <klr>(<ref tip="sub" cel="kamp.0o.formulara">kampo</ref>j)</klr> 
-        en la formularoj estas komparataj, oni kvitancas, rapidaj
-        manoj portas trans la havena ponto la po&scirc;tajn sakojn
-        <fnt>
-          <bib>FK</bib>
-        </fnt>.
-      </ekz>
     </dif>
-    <trd lng="de">Lage</trd>
+    <subsnc>
+      <dif>
+        Loko, en kiu trovi&gcirc;as indiko en <ref tip="malprt" cel="list.0o">listo</ref>, 
+        <ref tip="malprt" cel="formul.0aro.POL">formularo</ref>, 
+        <ref tip="malprt" cel="bilanc.0o">bilanco</ref> ktp:
+        <ekz>
+          la diversaj <tld/>oj <klr>(<ref tip="sub" cel="kamp.0o.formulara">kampo</ref>j)</klr> 
+          en la formularoj estas komparataj, oni kvitancas, rapidaj
+          manoj portas trans la havena ponto la po&scirc;tajn sakojn
+          <fnt>
+            <bib>FK</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la indico de ekonomia libereco en Litovio kreskis de 5,7 &gcirc;is 6,6 kaj
+          <klr>[&#8230;]</klr> la lando movi&gcirc;is el la 77a <tld/>o al la 60a
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Roland Rotsaert</aut>
+            <vrk><url ref="http://steloj.de/esperanto/monato2/006855.html"
+                >Baltio: Ekonomia libereco</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <refgrp tip="vid">
+       <ref cel="posten.0o.MIL">posteno<sncref/></ref>,
+       <ref cel="situ.0o">situo</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Lage</trd>,
+      <trd>Standort</trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>location</trd>,
       <trd>place</trd>
@@ -190,14 +214,31 @@
           <aut>Lawrence Mee</aut>
           <vrk><url ref="https://www.monato.be/2005/008283.php">La stelo</url></vrk>
           <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se la papo estus tolerema, li &scirc;an&gcirc;us sian opinion pri abortigo, sed li kredas
+        <klr>[&#8230;]</klr>, ke la romkatolika <tld/>o neniam <klr>[&#8230;]</klr> povos &scirc;an&gcirc;i&gcirc;i
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006948.html"
+              >Opinio: Kie la toleremo?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+       <ref cel="punkt.star0o">starpunkto</ref>,
+       <ref cel="punkt.vid0o.FIG">vidpunkto<sncref/></ref>
+    </refgrp>
     <refgrp tip="vid">
        <ref cel="altern2.0o.dilemo">alternativo<sncref/></ref>,
        <ref cel="opozic.0o.FON">opozicio</ref>
     </refgrp>
-    <trd lng="de">Ansicht <klr>(Position)</klr></trd>
+    <trdgrp lng="de">
+      <trd>Standpunkt</trd>,
+      <trd>Einstellung</trd>,
+      <trd>Ansicht <klr>(Position)</klr></trd>
+    </trdgrp>
   </snc>
   <trd lng="af">posisie</trd>
   <trd lng="am">&#4768;&#4672;&#4635;&#4632;&#4901;</trd>
@@ -367,6 +408,9 @@
 </art>
 <!--
 $Log$
+versio 1.97 2021/08/28 20:28:09
+Wolfram Diestel: +snc listero ktp (1a), pliaj ref, trd de
+
 versio 1.96 2021/08/28 19:20:22
 Wolfram Diestel: ~o: ekz-oj, ref-oj, trd de
 
@@ -386,8 +430,5 @@ Revision 1.16  2014/03/25 20:10:17  revo
 Damien Brucker: +trd fr
 
 Revision 1.15  2009/06/23 16:32:11  revo
-Russ Williams: +trd en
-
-Revision 1.14  2006/03/17 17:31:40  revo
 -->
 </vortaro>
