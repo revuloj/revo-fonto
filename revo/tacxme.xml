@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tacxme.xml,v 1.23 2021/08/30 15:30:39 revo Exp $">
+<art mrk="$Id: tacxme.xml,v 1.24 2021/08/30 16:46:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ta&ccirc;ment</rad>/o <fnt><bib>PV</bib></fnt>
@@ -71,6 +71,7 @@
       </dif>
       <refgrp tip="vid">
         <ref cel="batali.0o">bataliono</ref>,
+        <ref cel="brigad.0o.MIL">brigado<sncref/></ref>,
         <ref cel="kohort.0o.MIL">kohorto<sncref/></ref>
       </refgrp>
       <trd lng="be">&c_a;&c_t;&c_r;&c_a;&c_d;</trd>
@@ -145,7 +146,10 @@
           </fnt>.
         </ekz>
       </dif>
-      <ref tip="sin" cel="skip.0o">skipo</ref>
+      <refgrp tip="sin">
+        <ref cel="brigad.0o.FIG">brigado<sncref/></ref>,
+        <ref cel="skip.0o">skipo</ref>
+      </refgrp>
       <refgrp tip="vid">
          <ref cel="sekci.0o.POL">sekcio<sncref/></ref>
       </refgrp>
@@ -180,6 +184,8 @@
       <klr tip="amb">(&c_r;&c_a;&c_b;&c_o;&c_ch;&c_i;&c_h;)</klr></trd>
     </subsnc>
     <ref tip="sin" cel="trup.0o">trupo</ref>
+
+
 <!-- ne trovi&gcirc;is ekz-oj, PIV ne havas tiun sencon...
     <subsnc mrk="tacxme.0o.SPO">
       <uzo tip="fak">SPO</uzo>
@@ -253,6 +259,9 @@
 </art>
 <!--
 $Log$
+versio 1.24 2021/08/30 16:46:40
+Wolfram Diestel: +ref brigado
+
 versio 1.23 2021/08/30 15:30:39
 Wolfram Diestel: +ekz-oj, ref-oj, trd de; -snc SPO
 
@@ -272,8 +281,5 @@ Revision 1.17  2008/11/06 16:55:17  revo
 Russ Williams: +trd en
 
 Revision 1.16  2008/10/09 16:30:58  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2006/02/03 17:31:58  revo
 -->
 </vortaro>
