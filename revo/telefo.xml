@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: telefo.xml,v 1.48 2021/09/03 18:34:02 revo Exp $">
+<art mrk="$Id: telefo.xml,v 1.49 2021/09/03 19:20:56 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>telefon</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,11 +13,54 @@
     <uzo tip="fak">TEL</uzo>
     <uzo tip="fak">ELET</uzo>
     <dif>
-      Elektra aparato ebliganta interparoladon je distanco
+      Elektra <ref tip="super" cel="aparat.0o.TEK">aparato</ref> ebliganta interparoladon je distanco
       per starigo de komunika kanalo inter la partoprenantoj
-      de la interparolo.
+      de la interparolo:
+      <ekz>
+        &scirc;i krias el la <tld/>o: la germanoj kapitulacis! Norvegujo estas libera
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>!
+      </ekz>
+      <ekz>
+        <tld/>oj tintis, tintigaj kaj teruraj dira&jcirc;oj ventege pelis unu la alian
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        turninte trifoje per la fingro radeton de a&ubreve;tomata <tld/>o, li alvokis
+        <nom>Vinokurov</nom>&#8217;on
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi e&ubreve;ropanoj estas sa&gcirc;aj, <klr>[&#8230;]</klr> vi inventis anka&ubreve; vapor&scirc;ipon,
+        aeroplanon, a&ubreve;tomobilon, elektran lumon, <tld/>on, telegrafon, radion,
+        kinofilmojn kaj multajn aliajn mirinda&jcirc;ojn
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia lingvo estas kvaza&ubreve; <tld/>aparato, kiu bezonas esti fadenligita kun similaj
+        aparatoj por povi utile funkcii
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="vid" cel="hola.0">halo, hola</ref>
+    <refgrp tip="vid">
+      <ref cel="hola.0">halo, hola</ref>,
+      <ref cel="line.0o">lineo</ref>,
+      <ref cel="telefoni.0o">telefonio</ref>,
+      <ref cel="bud.telefon0o">telefonbudo</ref>,
+      <ref cel="kart.telefon0o">telefonkarto</ref>,
+      <ref cel="kod.telefon0o">telefonkodo</ref>,
+      <ref cel="libr.telefon0o">telefonlibro</ref>,
+      <ref cel="telefo.0numero">telefonnumero</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_l;&c_je;&c_f;&c_o;&c_n;</trd>
   <trd lng="bg">&c_t;&c_je;&c_l;&c_je;&c_f;&c_o;&c_n;</trd>
@@ -55,7 +98,7 @@
   <kap>
     <tld/>a
   </kap>
-  <snc>
+  <snc mrk="telefo.0a.rilata">
     <dif>
       Rilata al <tld/>o:
       <ekz>
@@ -192,9 +235,72 @@
   </trdgrp>
 </drv>
 
+<drv mrk="telefo.0ejo">
+  <kap>
+    <tld/>ejo
+  </kap>
+  <snc>
+    <dif>
+      Telefonbudo:
+      <ekz>
+        li jam staris en la plej proksima <tld/>ejo kaj <tld/>is al sia kolego
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li tuj eniris la hotelan <tld/>ejon
+        <fnt>
+          <bib>TAA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni eniris <tld/>ejon por elekti adreson <klr>[&#8230;]</klr>, arkitekton, ne estis
+        malfacile trovi sur la urbokarto, kie estas la strato
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Telefonzelle</trd>
+</drv>
+
+<drv mrk="telefo.0isto">
+  <kap>
+    <tld/>isto
+  </kap>
+  <snc mrk="telefo.0isto.TEL">
+    <uzo tip="fak">TEL</uzo>
+    <dif>
+      <klr>(anta&ubreve; a&ubreve;tomata perado)</klr> Homo, kiu akceptas vokanton kaj konektas kun la dezirata
+      numero:
+      <ekz>
+        &ccirc;i tie &gcirc;is la mateno kriis <tld/>istoj, &ccirc;iuminute elkuradis kurieroj kaj knaris
+        per plumoj skribistoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;<nac>mil deux cent six? bien, merci,</nac>&rightquot; diris la <tld/>istino
+        <fnt>
+          <bib>TAA</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Telefonist</trd>
+  <trd lng="en">switchboard operator</trd>
+  <trd lng="fr">t&eacute;l&eacute;phoniste</trd>
+</drv>
+
 <drv mrk="telefo.al0ado">
-  <kap>al<tld/>ado,
-  <var><kap><tld/>alvoko</kap></var></kap>
+  <kap>
+    al<tld/>ado,
+    <var><kap><tld/>alvoko</kap></var>,
+    <var><kap><tld/>voko</kap></var>
+  </kap>
   <snc mrk="telefo.al0ado.TEL">
     <uzo tip="fak">TEL</uzo>
     <dif>
@@ -207,6 +313,14 @@
           <vrk>Ombro sur interna pejza&gcirc;o</vrk>
           <lok>1984</lok>
         </fnt>;       
+      </ekz>
+      <ekz>
+        li estis minacata de anonimaj <tld/>vokoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006909.html"
+              >Japanio: Takasugi Sinsaku: Novjara kla&ccirc;o super konjako</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
         li restis hejme, por atendi al<tld/>adon de iu el tiuj
@@ -263,8 +377,11 @@
 </drv>
 
 <drv mrk="telefo.posx0o">
-  <kap>po&scirc;<tld/>o<fnt><bib>HejmVort</bib></fnt>,
-  <var><kap>&ccirc;el<tld/>o</kap></var></kap>
+  <kap>
+    po&scirc;<tld/>o <fnt><bib>HejmVort</bib></fnt>,
+    <var><kap>&ccirc;el<tld/>o</kap></var>,
+    <var><kap>sendrata <tld/>o</kap></var>
+  </kap>
   <snc mrk="telefo.posx0o.TEL">
     <uzo tip="fak">TEL</uzo>
     <dif>
@@ -284,6 +401,15 @@
           <vrk><url ref="http://peranto.posterous.com/celtelefonoj-malakcelas-konversaciojn">
           &Ccirc;eltelefonoj malakcelas konversaciojn</url></vrk>,
           <lok>Esperanta retradio, 2012-10-12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia familio donacis al mi <klr>[&#8230;]</klr> sendratan <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9401-telefona-labirinto.txt"
+              >Will Green kondukas vin tra sia</url></vrk>
+          <lok>94/01</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -384,8 +510,27 @@
   <snc mrk="telefo.0numero.TEL">
     <uzo tip="fak">TEL</uzo>
     <dif>
-      Numero identiganta unu telefonaparaton.
+      Numero identiganta unu telefonaparaton:
+      <ekz>
+        facile estas tiel enmemorigi la telefonnumerojn
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ricevas retadreson, iom da TTT-spaco, kaj la eblon konekti&gcirc;i per <tld/>numero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007132.html"
+              >Interreto: Interreto senpage</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <adm>
+      &Scirc;ovu al numer/
+      <aut>WD</aut>
+    </adm>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_l;&c_je;&c_f;&c_o;&c_n;&c_n;&c_y; &c_n;&c_u;&c_m;&c_a;&c_r;</trd>
   <trd lng="bg">&c_t;&c_je;&c_l;&c_je;&c_f;&c_o;&c_n;&c_je;&c_n; &c_n;&c_o;&c_m;&c_je;&c_r;</trd>
@@ -408,6 +553,9 @@
 </art>
 <!--
 $Log$
+versio 1.49 2021/09/03 19:20:56
+Wolfram Diestel: ~o: ekz-oj, ref-oj; +~ejo, ~isto, var ~voko, var sendrata ~o
+
 versio 1.48 2021/09/03 18:34:02
 Wolfram Diestel: ~i: ekz-oj, +~a
 
@@ -427,8 +575,5 @@ Revision 1.41  2015/07/04 08:37:44  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.40  2015/06/29 16:40:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.39  2014/06/13 07:10:17  revo
 -->
 </vortaro>
