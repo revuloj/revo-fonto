@@ -2,35 +2,97 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: line.xml,v 1.11 2015/07/04 08:37:38 revo Exp $">
+<art mrk="$Id: line.xml,v 1.12 2021/09/05 19:20:31 revo Exp $">
 <kap>
   <rad>line</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="line.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <uzo tip="fak">KOMP</uzo>
-    <uzo tip="fak">TEL</uzo>
+  <snc mrk="line.0o.ELE">
+    <uzo tip="fak">ELE</uzo>
     <dif>
-      Medio tra kiu la signaloj pasas de la sendilo al la
-      ricevilo. Unu <tld/>o servas por samtempe transsendi plurajn
-      mesa&gcirc;ojn, &ccirc;iu el kiuj uzas apartan
-      <ref cel="kanal.0o.telematika">kanalon</ref>. Unu <tld/>o povas
-      havi multajn kanalojn:
+      <ref tip="super" cel="konduk.0ilo.FIZ_ELE">Kondukilo</ref> por transporti elektran energion:
       <ekz>
-        anta&ubreve; nelonge en &Ccirc;inio la internaciajn lineojn de
-        du gravaj
-        Interret-perantoj mal&scirc;altis la Pekina Telegrafa
-        Departemento<fnt><aut>Liu Xiaozhe</aut>: <vrk>Interreto en
-        malfacilo</vrk>, <bib>Monato</bib><lok>jaro 1997a, numero 8a, p.
-        15a</lok></fnt>.
+        ni vidis rostitan turfalkon en masto de alttensia kondukt<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter, Renate, Irene, Stefan Klag</aut>
+          <vrk><url ref="https://www.monato.be/2007/009167.php">Birdo de la jaro</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro <klr>[&#8230;]</klr> novaj energi<tld/>oj tra la lando, la prezo de elektro
+        plialti&gcirc;is
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2012/010844.php">Sunelektraj kamparanoj</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam la buso haltas, la pantografo movi&gcirc;as supren al la 600-volta
+        kontakt<tld/>o, kaj la baterio estas rapide &scirc;argata
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2012/010893.php">Elektra buso protektu la medion</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <snc mrk="line.0o.TEL">
+    <uzo tip="fak">TEL</uzo>
+    <dif>
+      <ref tip="super" cel="medi.0o.EKOL">Medio</ref> tra kiu la signaloj pasas de la sendilo al la
+      ricevilo:
+      <ekz>
+        unu <tld/>o servas por samtempe transsendi plurajn
+        mesa&gcirc;ojn, &ccirc;iu el kiuj uzas apartan
+        <ref cel="kanal.0o.telematika">kanalon</ref>, unu <tld/>o povas
+        havi multajn kanalojn;
+      </ekz>
+      <ekz>
+        anta&ubreve; nelonge en &Ccirc;inio la internaciajn <tld/>ojn de
+        du gravaj Interret-perantoj mal&scirc;altis la Pekina Telegrafa
+        Departemento
+        <fnt><aut>Liu Xiaozhe</aut>: <vrk>Interreto en
+          malfacilo</vrk>, <bib>Monato</bib><lok>jaro 1997a, numero 8a, p.
+          15a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas proksimume 65 megabajtoj <klr>[&#8230;]</klr> kiu havas retkonekton per normala
+        telefon<tld/>o bezonos kelkajn horojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2005/008659.php">OpenOffice: senpaga alternativo por Microsoft Office</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pli ol 90&#8239;% de la retmesa&gcirc;oj estas spamo,<klr>[&#8230;]</klr> retperantoj provas per
+        diversaj filtrosistemoj eviti la plen&scirc;topi&gcirc;on de siaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="https://www.monato.be/2007/009282.php">Ret-malsano</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="konekt.0o">konekto</ref>,
+      <ref cel="telefo.0o">telefono</ref>
+    </refgrp>
+  </snc>
   <trd lng="be">&c_l;&c_ib;&c_n;&c_ib;&c_ja;
   &c_s;&c_u;&c_v;&c_ja;&c_z;&c_ib;</trd>
-  <trd lng="cs">čárka <klr>(míra např. na sklenici)</klr></trd>
-  <trd lng="de">Leitung</trd>
+  <trd lng="cs">&ccaron;&aacute;rka <klr>(m&iacute;ra nap&rcaron;. na sklenici)</klr></trd>
+  <trd lng="de">Leitung <klr>(elektr.)</klr></trd>
   <trd lng="en">line<klr tip="ind"> (of communication)</klr></trd>
   <trdgrp lng="fr">
     <trd>ligne<klr> (t&eacute;l&eacute;com.)</klr></trd>
@@ -44,13 +106,16 @@
   <trd lng="ru">&c_l;&c_i;&c_n;&c_i;&c_ja;
   &c_s;&c_v;&c_ja;&c_z;&c_i;</trd>
   <trdgrp lng="sk">
-    <trd>1.dĺžková miera <klr>(2,256mm)</klr></trd>,
-    <trd>2.pletené lanko (nám.)</trd>
+    <trd>1.d&lacute;&zcaron;kov&aacute; miera <klr>(2,256mm)</klr></trd>,
+    <trd>2.pleten&eacute; lanko (n&aacute;m.)</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.12 2021/09/05 19:20:31
+Wolfram Diestel: +snc ELE, ekz-oj, ref-oj
+
 Revision 1.10  2015/06/29 16:33:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -70,11 +135,5 @@ Revision 1.5  2003/05/08 16:30:44  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.4  2002/11/11 17:31:47  revo
-Sergio Pokrovskij: fnt-bib(PIV1)
-
-Revision 1.3  2002/09/08 18:05:22  revo
-Jeromo Vasxe: fak - tek + tel(ekomunikoj), + ekz, + trd fr
-
-Revision 1.2 2002/03/08 17:31:55 revo
 -->
 </vortaro>
