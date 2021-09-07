@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: viv.xml,v 1.166 2021/09/07 18:32:44 revo Exp $">
+<art mrk="$Id: viv.xml,v 1.167 2021/09/07 20:29:25 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>viv</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -723,10 +723,24 @@
 </drv>
 
 <drv mrk="viv.0a">
-  <kap><tld/>a<fnt><bib>VdE</bib></fnt></kap>
+  <kap><tld/>a
+  <fnt><bib>VdE</bib></fnt></kap>
   <snc mrk="viv.0a.vivanta">
     <dif>
-      <tld/>anta:
+      <tld lit="V"/>anta:
+      <ekz>
+        <tld/>a kankro
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu <tld/>a esta&jcirc;o, de la plej malgranda 
+        fungo &gcirc;is la plej disvolvita besto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         <tld/>aj floroj
         <fnt><bib>Fab2</bib>, <lok>La virineto de maro</lok></fnt>;
@@ -736,10 +750,18 @@
           <bib>MT</bib>
           <lok>Sentencoj 1:12</lok>
         </fnt>;
-      </ekz><ekz>
-        miloj da homoj estis bruligitaj <tld/>aj de Inkvizicio;
-      </ekz><ekz>
-        pentri, desegni la&ubreve; <tld/>a modelo.
+      </ekz>
+      <ekz>
+        <tld/>an a&ubreve; mal<tld/>an mi vin havos!
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>!
+      </ekz>
+      <ekz>
+        li estis la <tld/>a portreto de sia patrino
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_zh;&c_y;&c_v;&c_y;</trd>
@@ -760,6 +782,30 @@
       Karakterizata per rapida kaj arda <tld/>o,
       <ref tip="sin" cel="vigl.0a.rapidmova">vigla<sncref/></ref>:
       <ekz>
+        <tld/>aj esprimaj okuloj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a gaja parolado
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun <tld/>a malpacienco interrompis lin sinjorino Anneto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estas anka&ubreve; iafoje iom <tld/>a kaj &jcirc;aluza
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         la dancoj iris <klr>[jam]</klr> en pli <tld/>a takto
         <fnt>
           <bib>BdV</bib>
@@ -770,9 +816,6 @@
           <bib>Paroloj</bib>
           <vrk>Parolado anta&ubreve; la Kvina Kongreso Esperantista en Barcelona en la 6a de septembro 1909</vrk>
         </fnt>;
-      </ekz>
-      <ekz>
-        <tld/>a disputo<fnt>B</fnt>;
       </ekz>
       <ekz>
         la <tld/>a kiel fajrero knabino amis la solecon
@@ -794,7 +837,8 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-       <ref cel="vigl.0a.rapidmova">vigla<sncref/></ref>
+      <ref cel="energi.0a">energia</ref>,
+      <ref cel="vigl.0a.rapidmova">vigla<sncref/></ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_zh;&c_v;&c_a;&c_v;&c_y;</trd>,
@@ -815,6 +859,7 @@
   <snc mrk="viv.0a.senpera">
     <uzo tip="fak">MUZ</uzo>
     <uzo tip="fak">TEA</uzo>
+    <uzo tip="stl">EVI</uzo>
     <uzo tip="klr">(pri arta&jcirc;o, spekta&jcirc;o...)</uzo>
     <dif>
       Okazanta kun &ccirc;eestaj homoj, sen perado per telekomuniko a&ubreve; 
@@ -834,6 +879,14 @@
           intervjuato)</klr>.
       </ekz>
     </dif>
+    <rim>
+      Tio aperas kiel mallerta traduko de la angla esprimo &leftquot;<nac>live (music)</nac>&rightquot; kc, kiun oni
+      tiulingve ne konfuzus kun &leftquot;<nac>lively/living music</nac>&rightquot;. En Esperanto oni, por eviti
+      konfuzon, prefere uzu unu el &leftquot;<ref cel="est.cxe0ede">&ccirc;eesta</ref>&rightquot;, 
+      &leftquot;<ref cel="rekt.0a.senpera">rekta</ref>&rightquot;
+      &leftquot;<ref cel="aktual.0a.nuna">aktuala</ref>&rightquot;, 
+      &leftquot;<ref cel="per.sen0a">senpera</ref>&rightquot; por &ccirc;i tiu signifo.
+    </rim>
     <trd lng="fr">live<klr> (en pr&eacute;sence)</klr></trd>
   </snc>
   <trd lng="bo">&t_ga;&t_sa;&t_naro;&t_na;&t_tsheg;&t_pa;&t_naro;&t_tsheg;</trd>
@@ -2065,6 +2118,9 @@
 </art>
 <!--
 $Log$
+versio 1.167 2021/09/07 20:29:25
+Wolfram Diestel: ~a: ekz-oj, +rim
+
 versio 1.166 2021/09/07 18:32:44
 Wolfram Diestel: ~o: ekz-oj
 
