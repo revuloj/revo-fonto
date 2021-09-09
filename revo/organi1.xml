@@ -2,28 +2,61 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: organi1.xml,v 1.20 2021/08/15 22:29:56 revo Exp $">
-    <kap>
-      <ofc>1</ofc>
-      <rad>organism</rad>/o
-    </kap>
-    <drv mrk="organi1.0o">
-      <kap><tld/>o</kap>
-      <snc>
-      <uzo tip="fak">BIO</uzo>
-	<tezrad fak="BIO"/>
-        <dif>
-          Tuto de la <ref tip="prt" cel="organ.0o.BIO">organo</ref>j,
-          kiuj konsistigas vivan esta&jcirc;on:
-          <ekz>
-            ili apartenas al la <tld/>oj de la plej malalta
-            grado<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="sin">
-          <ref cel="korp.0o">korpo</ref>.
-        </refgrp>
-      </snc>
+<art mrk="$Id: organi1.xml,v 1.21 2021/09/09 18:32:43 revo Exp $">
+<kap>
+  <ofc>1</ofc>
+  <rad>organism</rad>/o
+</kap>
+<drv mrk="organi1.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="organi1.0o.BIO">
+  <uzo tip="fak">BIO</uzo>
+    <tezrad fak="BIO"/>
+    <dif>
+      Tuto de la <ref tip="prt" cel="organ.0o.BIO">organo</ref>j,
+      kiuj konsistigas vivan <ref cel="est.0ajxo">esta&jcirc;o</ref>n:  
+      <ekz>
+        la homa <tld/>o
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se ni ne havas la eblon regule interkonsili&gcirc;adi <klr>[&#8230;]</klr>, ni similos
+        <tld/>on sen kapo
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sepa Kongreso Esperantista en Antwerpen en la 21a de a&ubreve;gusto 1911</vrk>
+        </fnt>;
+      </ekz>  
+      <ekz>
+        ili apartenas al la <tld/>oj de la plej malalta
+        grado
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu malsano lasis en via <tld/>o profundajn postsignojn
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        kreante kaj kreskigante super&scirc;tatan, supernacian <tld/>on
+        <klr>(<ref cel="organi2.0ajxo">organiza&jcirc;o</ref>n)</klr>, ni ebligas la aliigon
+        de niaj mensoj
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="korp.0o">korpo</ref>
+    </refgrp>
+    <ref tip="vid" cel="viv.0ajxo">viva&jcirc;o</ref>
+  </snc>
   <trd lng="be">&c_a;&c_r;&c_g;&c_a;&c_n;&c_ib;&c_z;&c_m;</trd>
   <trd lng="bg">&c_o;&c_r;&c_g;&c_a;&c_n;&c_i;&c_z;&c_m;</trd>
   <trdgrp lng="cs">
@@ -60,32 +93,35 @@
   <trd lng="sv">organism</trd>
 </drv>
 
-    <drv mrk="organi1.0a">
-      <kap><tld/>a</kap>
-      <snc>
-        <dif>
-          Rilata al <tld/>o:
-          <ekz>
-            la <tld/>a skolo en sociologio
-            <klr>(kiu prezentis la socion analogie al
-              <tld/>o biologia)</klr>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="es">org&aacute;nico</trd>
-      <trd lng="fr">organique</trd>
-      <trdgrp lng="hu">
-        <trd>szervezeti</trd>,
-        <trd>organikus</trd>
-      </trdgrp>
-      <trd lng="nl">organisch</trd>
-      <trd lng="pl">organiczny</trd>
-      <trd lng="pt">org&acirc;nico</trd>
-      <trd lng="ro">organic</trd>
-    </drv>
-  </art>
+<drv mrk="organi1.0a">
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+      Rilata al <tld/>o:
+      <ekz>
+        la <tld/>a skolo en sociologio
+        <klr>(kiu prezentis la socion analoge al
+          <tld/>o biologia)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">org&aacute;nico</trd>
+  <trd lng="fr">organique</trd>
+  <trdgrp lng="hu">
+    <trd>szervezeti</trd>,
+    <trd>organikus</trd>
+  </trdgrp>
+  <trd lng="nl">organisch</trd>
+  <trd lng="pl">organiczny</trd>
+  <trd lng="pt">org&acirc;nico</trd>
+  <trd lng="ro">organic</trd>
+</drv>
+</art>
   <!--
   $Log$
+versio 1.21 2021/09/09 18:32:43
+Wolfram Diestel: +ekz-oj
+
 versio 1.20 2021/08/15 22:29:56
 Vito Redsky: +trd pl +trd ro
 
@@ -105,8 +141,5 @@ Vito Redsky: +trd pl +trd ro
   Paul Peeraerts: +trd nl
 
   Revision 1.13  2009/08/08 16:31:37  revo
-  Russ Williams: +trd en
-
-  Revision 1.12  2006/09/19 17:39:43  revo
 -->
 </vortaro>
