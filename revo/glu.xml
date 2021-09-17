@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: glu.xml,v 1.35 2021/09/16 06:33:26 revo Exp $">
+  <art mrk="$Id: glu.xml,v 1.36 2021/09/17 06:33:04 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>glu</rad>/i
@@ -37,7 +37,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="mastik.0i">mastiki</ref>,
-      <ref cel="lut.0i">luti</ref>.
+      <ref cel="lut.0i">luti</ref>
     </refgrp>
     <trd lng="be">&c_k;&c_l;&c_je;&c_ib;&c_c;&c_mol;</trd>
     <trdgrp lng="de">
@@ -164,6 +164,11 @@
       <trd>Klebung</trd>
     </trdgrp>
   </snc>
+  <refgrp tip="vid">
+     <ref cel="bend.glu0o">glubendo</ref>,
+     <ref cel="bild.glu0o">glubildo</ref>,
+     <ref cel="mark.glu0o">glumarko</ref>
+  </refgrp>
   <trd lng="be">&c_k;&c_l;&c_je;&c_j;</trd>
   <trdgrp lng="cs">
     <trd>kl&iacute;h</trd>,
@@ -259,6 +264,10 @@
       </ekz>
     </dif>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="adher.0i">adheri</ref>,
+    <ref cel="koher.0i">koheri</ref>
+  </refgrp>
   <trdgrp lng="de">
     <trd>ankleben</trd>,
     <trd>sich <ind>heften</ind> <klr>(an etwas)</klr></trd>
@@ -314,7 +323,7 @@
   <snc mrk="glu.0ajxo.bildo">
     <dif>
       Bildeto kun <tld/>ilo dorsflanke, kiun oni povas ie al<tld/>i, 
-      i.a. <ref tip="sub" cel="mark.posxt0o">po&scirc;tmarko</ref>, <tld/>bildo:
+      i.a. <ref tip="sub" cel="mark.posxt0o">po&scirc;tmarko</ref>, <ref tip="sub" cel="bild.glu0o"><tld/>bildo</ref>:
       <ekz>
         &scirc;i gaje malfermis la libron kaj ne povis ne rimarki la belan <tld/>a&jcirc;on en &gcirc;i:
         ekslibriso kun papilio
@@ -374,6 +383,13 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="gluten.0o">gluteno</ref>,
+      <ref cel="ihxtio.0o">i&hcirc;tiokolo</ref>,
+      <ref cel="mucila.0o">mucilago</ref>,
+      <ref cel="muk.0o">muko</ref>,
+      <ref cel="rezin.0o">rezino</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_k;&c_l;&c_je;&c_j;</trd>
   <trdgrp lng="de">
@@ -672,7 +688,18 @@
         la fruntoj kaj kun<tld/>itaj haroj
         <fnt>
           <bib>QuV</bib>
-        </fnt>.
+        </fnt>;
+      </ekz>  
+      <ekz>
+        <ind>kun<tld/>i&gcirc;emo</ind> <klr>(kunteni&gcirc;emo)</klr>.
+        <trd lng="de">Koh&auml;sion</trd>
+        <trd lng="fr">coh&eacute;sion</trd>
+        <trdgrp lng="hu">
+          <trd>koh&eacute;zi&oacute;</trd>,
+          <trd>&ouml;sszetart&aacute;s</trd>
+        </trdgrp>
+        <trd lng="nl">cohesie</trd>
+        <trd lng="pl">kleisto&sacute;&cacute;</trd>
       </ekz>
     </dif>
   </snc>
@@ -701,6 +728,12 @@
       </ekz>
     </dif>
   </snc>
+  <ref tip="sub" cel="agluti.0i">aglutini</ref>
+  <refgrp tip="vid">
+    <ref cel="aglome.0i">aglomeri</ref>,
+    <ref cel="koagul.0i">koaguli</ref>,
+    <ref cel="fand.kun0i">kunfandi</ref>
+  </refgrp>
   <trd lng="be">&c_s;&c_k;&c_l;&c_je;&c_ib;&c_c;&c_mol;</trd>
   <trd lng="cs">slepit</trd>
   <trdgrp lng="de">
@@ -722,28 +755,13 @@
   <trd lng="sk">zlepi&tcaron;</trd>
 </drv>
 
-<drv mrk="glu.kun0igxemo">
-  <kap>kun<tld/>i&gcirc;emo</kap>
-  <snc>
-    <dif>
-      Kunteni&gcirc;emo.
-    </dif>
-  </snc>
-  <trd lng="fr">coh&eacute;sion</trd>
-  <trdgrp lng="hu">
-    <trd>koh&eacute;zi&oacute;</trd>,
-    <trd>&ouml;sszetart&aacute;s</trd>
-  </trdgrp>
-  <trd lng="nl">cohesie</trd>
-  <trd lng="pl">kleisto&sacute;&cacute;</trd>
-</drv>
 
 <drv mrk="glu.mal0i">
   <kap>mal<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Disigi du <tld/>itajn objektojn:
+      Disigi du kun<tld/>itajn objektojn:
       <ekz>
         estas ja konate, ke la po&scirc;tistoj kapablas mal<tld/>i
         &ccirc;ian ajn koverton
@@ -752,10 +770,23 @@
           <vrk>&Scirc;telita kakto</vrk>
           <lok>La nica literatura revuo, 3:2</lok>
         </fnt>;
-      </ekz><ekz>
-        pene Ha-Nocri mal<tld/>is la palpebrojn kaj
+      </ekz>
+      <ekz>
+        pene <nom>Ha-Nocri</nom> mal<tld/>is la palpebrojn kaj
         rigardis malsupren
         <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 16a</lok></fnt>.
+      </ekz>
+      <ekz>
+        <klr>[por]</klr> forigi ma&ccirc;gumon de sur plandumo <klr>[&#8230;]</klr> metu la &scirc;uon
+        nelonge en frostujon kaj pro la malalta temperaturo e&ccirc; la plej obstina gumo
+        mal<tld/>i&gcirc;os
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2011/010337.php"
+              >Konsiloj avinaj kaj neavinaj</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -783,6 +814,9 @@
   </art>
   <!--
   $Log$
+versio 1.36 2021/09/17 06:33:04
+Wolfram Diestel: kun~igxemo: drv -> ekz; +ref-oj, +ekz
+
 versio 1.35 2021/09/16 06:33:26
 Wolfram Diestel: kun~i: ekz-oj
 
