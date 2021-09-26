@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hav.xml,v 1.134 2021/09/25 19:20:51 revo Exp $">
+<art mrk="$Id: hav.xml,v 1.135 2021/09/26 08:30:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>hav</rad>/i <fnt><bib>PV</bib></fnt>
@@ -183,7 +183,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Volap&uuml;k <tld/>as la rusan vorton &leftquot;ibo&rightquot;
+        <nom>Volap&uuml;k</nom> <tld/>as la rusan vorton &leftquot;<nac>ibo</nac>&rightquot;
         <fnt>
           <bib>LR</bib>
           <lok>4. Vortaroj</lok>
@@ -1133,7 +1133,7 @@
     <dif>
       Tio, kio estas en<tld/>ata:
       <ekz>
-        Jehu skribis leterojn <klr>[&#8230;]</klr> kun la sekvanta en<tld/>o <klr>[&#8230;]</klr>
+        <nom>Jehu</nom> skribis leterojn <klr>[&#8230;]</klr> kun la sekvanta en<tld/>o <klr>[&#8230;]</klr>
         <fnt>
           <bib>MT</bib>
           <lok>II. Re&gcirc;oj 10:1</lok>
@@ -1148,7 +1148,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la vorton &leftquot;sola&rightquot; Gerda komprenis tro bone, kaj &gcirc;ian tutan en<tld/>on &scirc;i sentis
+        la vorton &leftquot;sola&rightquot; <nom>Gerda</nom> komprenis tro bone, kaj &gcirc;ian tutan en<tld/>on &scirc;i sentis
         tre profunde
         <fnt>
           <bib>Fab2</bib>
@@ -1236,15 +1236,30 @@
 </drv>
 
 <drv mrk="hav.en0eco">
-  <kap>en<tld/>eco<fnt>Z</fnt></kap>
+  <kap>en<tld/>eco</kap>
   <snc>
     <dif>
-      Kvanto, kiun en<tld/>as a&ubreve; povas en<tld/>i io:
+      <ref tip="super" cel="kvant.0o">Kvanto</ref>, kiun en<tld/>as 
+      a&ubreve; povas en<tld/>i io:
       <ekz>
-        en<tld/>eco de botelo, de &scirc;ipo.
+        lavma&scirc;ino kun en<tld/>eco de ses kilogramoj
+        <fnt>
+          <bib>MD17</bib>
+          <vrk>En Wigan, en Anglio de malabundo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        viaj pulma en<tld/>eco kaj muskola forto certe estas multe pli grandaj ol &ccirc;e la
+        aliaj knabinoj, kiujn li atakis
+        <fnt>
+          <bib>ChM</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="kapaci.0o">kapacito</ref>
+    <refgrp tip="vid">
+      <ref cel="kapaci.0o">kapacito</ref>,
+      <ref cel="volume.0o.kapacito">volumeno<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_u;&c_m;&c_ja;&c_sh;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
@@ -1253,7 +1268,8 @@
   <trd lng="cs">kapacita</trd>
   <trdgrp lng="de">
     <trd>Inhalt<klr tip="ind"> (Volumen)</klr></trd>,
-    <trd>Fassungsverm&ouml;gen</trd>
+    <trd>Fassungsverm&ouml;gen</trd>,
+    <trd>Tonnage</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>capacity</trd>,
@@ -1277,6 +1293,7 @@
   <trd lng="sk">kapacita</trd>
 </drv>
 
+<!-- neniu fonto kaj mallogika, pli logike estas "malhavi" por tiu senco
 <drv mrk="hav.for0i">
   <kap>for<tld/>i</kap>
   <uzo tip="stl">RAR</uzo>
@@ -1308,6 +1325,7 @@
     <trd>nie potrzebowa&cacute;</trd>
   </trdgrp>
 </drv>
+-->
 
 <drv mrk="hav.kun0i">
   <kap>kun<tld/>i</kap>
@@ -1749,7 +1767,7 @@
       <tld lit="H"/>i kiel veston;
       <ref tip="sin" cel="port.0i.veston">porti<sncref/></ref>:
       <ekz>
-        la unusolan ringon, kiun Krasomila sur<tld/>is,
+        la unusolan ringon, kiun <nom>Krasomila</nom> sur<tld/>is,
         &scirc;i oferis por la vivtenado
         <fnt>
           <aut>B. N&ecaron;mcov&aacute;, trad. J.
@@ -1971,12 +1989,15 @@
     <ref cel="kun">kun B) 1</ref>,
     <ref cel="plen.0a">plena</ref>,
     <ref cel="ricx.0a">ri&ccirc;a</ref>,
-    <ref cel="oz">-oz</ref>.
+    <ref cel="oz">-oz</ref>
   </refgrp>
 </rim>
 </art>
 <!--
 $Log$
+versio 1.135 2021/09/26 08:30:34
+Wolfram Diestel: en~eco: ekz-oj, ref-oj, forkomentis for~i
+
 versio 1.134 2021/09/25 19:20:51
 Wolfram Diestel: ~igi..en~o: ekz-oj, ref-oj
 
@@ -1996,8 +2017,5 @@ Revision 1.50  2018/05/24 08:10:15  revo
 Joop Eggen: +trd bg parte
 
 Revision 1.49  2017/12/17 14:10:16  revo
-Wolfram Diestel: forigis fakindikon TEKS
-
-Revision 1.48  2017/09/28 22:10:29  revo
 -->
 </vortaro>
