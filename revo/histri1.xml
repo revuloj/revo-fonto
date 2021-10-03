@@ -2,19 +2,43 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: histri1.xml,v 1.15 2015/07/04 08:37:35 revo Exp $">
+<art mrk="$Id: histri1.xml,v 1.16 2021/09/01 19:19:53 revo Exp $">
 <kap>
   <rad>histrion</rad>/o
-  <fnt>Z</fnt>
 </kap>
 <drv mrk="histri1.0o">
   <kap><tld/>o</kap>
+  <snc mrk="histri1.0o.HIS">
+    <uzo tip="fak">HIS</uzo>
+    <dif>
+      <ref tip="super" cel="aktor.0o">Aktoro</ref> en antikva Romo:
+      <ekz>
+        <tld/>o <nom>Aliturus</nom> mirinde prezentis hiera&ubreve; Edipon
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Histrione</trd>
+  </snc>
   <snc mrk="histri1.0o.amuzisto">
     <uzo tip="fak">TEA</uzo>
     <dif>
       <ref tip="super" cel="amuz.0isto.KOMUNE">Amuzisto</ref>
-      prezentanta
-      vulgarajn kaj krudajn komika&jcirc;ojn.
+      prezentanta vulgarajn kaj krudajn komika&jcirc;ojn:
+      <ekz>
+        ili aspektis kiel trupo de <tld/>oj kaj ridindaj &scirc;ercafektuloj
+        <fnt>
+          <bib>SkandalJozef</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen atenti la almozpetan <tld/>adon de la kapelestro, <nom>Berlioz</nom> kuris al la
+        turnokruco kaj metis sur &gcirc;in la manon
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         ne gravas kiu estas la homo &ndash; &ccirc;u prozulo au poeto, re&gcirc;o a&ubreve;
         <tld/>o, miliardulo a&ubreve; almozpetanto
@@ -25,7 +49,14 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Histrione</trd>
+    <refgrp tip="vid">
+       <ref cel="arleke.0o.TEA">arlekeno<sncref/></ref>,
+       <ref cel="pajac.0o">pajaco</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Kom&ouml;diant</trd>,
+      <trd>Schmierenschauspieler</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>poj&aacute;ca</trd>,
       <trd>kom&eacute;di&aacute;s</trd>
@@ -33,15 +64,13 @@
     <trd lng="nl">histrion</trd>
     <trd lng="pt">histri&atilde;o</trd>
   </snc>
+
+<!--
   <snc mrk="histri1.0o.aktoracxo">
     <uzo tip="fak">TEA</uzo>
     <dif>
       Aktora&ccirc;o.
     </dif>
-    <trdgrp lng="de">
-      <trd>Kom&ouml;diant</trd>,
-      <trd>Schmierenschauspieler</trd>
-    </trdgrp>
     <trdgrp lng="en">
       <trd>ham<klr tip="amb"> (bad actor)</klr></trd>
       <trd>third-rate actor</trd>
@@ -52,24 +81,28 @@
       <trd>slecht <ind>toneelspeler</ind></trd>
     </trdgrp>
   </snc>
+-->
   <trdgrp lng="cs">
-    <trd>harlekýn</trd>,
-    <trd>histrión</trd>,
+    <trd>harlek&yacute;n</trd>,
+    <trd>histri&oacute;n</trd>,
     <trd>klaun</trd>,
     <trd>komediant</trd>,
-    <trd>šašek</trd>
+    <trd>&scaron;a&scaron;ek</trd>
   </trdgrp>
   <trd lng="fr">histrion</trd>
   <trd lng="it">istrione</trd>
   <trd lng="ru">&c_f;&c_i;&c_g;&c_l;&c_ja;&c_r;</trd>
   <trdgrp lng="sk">
     <trd>komediant</trd>,
-    <trd>šašo</trd>
+    <trd>&scaron;a&scaron;o</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.16 2021/09/01 19:19:53
+Wolfram Diestel: +snc HIS, ekz-oj
+
 Revision 1.14  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -89,11 +122,5 @@ Revision 1.9 2002/07/17 17:31:39 revo
 Eduardo M. Kalinowski: ald trd pt
 
 Revision 1.8 2002/01/22 17:32:26 revo
-Marc Bavant: +trd fr
-
-Revision 1.7 2001/11/25 17:35:43 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6 2001/10/07 18:18:34 revo
 -->
 </vortaro>

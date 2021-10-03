@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: stomp.xml,v 1.17 2021/08/18 21:26:45 revo Exp $">
+<art mrk="$Id: stomp.xml,v 1.19 2021/08/21 18:33:43 revo Exp $">
 <kap>
   <rad>stomp</rad>/i
-  <fnt>V</fnt>
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="stomp.0i">
-  <kap><tld />i</kap>
+  <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="stomp.0i.BELA">
     <uzo tip="fak">BELA</uzo>
@@ -17,7 +17,11 @@
       desegno.
     </dif>
     <refgrp tip="vid">
-      <ref cel="damp.0i.MUZ">dampi<sncref /></ref>
+      <ref cel="damp.0i.MUZ">dampi<sncref/></ref>,
+      <ref cel="akr.mal0igi">malakrigi</ref>,
+      <ref cel="nebul.0igi.FIG">nebuligi<sncref/></ref>,
+      <ref cel="ombr.0umi.BELA">ombrumi<sncref/></ref>,
+      <ref cel="pal.0igi">paligi</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>estompieren</trd>,
@@ -36,15 +40,30 @@
     <dif>
       Iom post iom malpliintensigi, <ref tip="vid" cel="mild.0igi">mildigi</ref>:
       <ekz>
+        la griza feliso ridetis por <tld/>i sian hele verdan grimacon
+        <fnt>
+          <bib>MMa</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         la ebeno, pli malpli strikte kvadratita, estas <tld/>ita 
         de la miksa&jcirc;o de sta&ubreve;doj kaj unujaraj plantoj 
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=295106">&Gcirc;ardeno de parokestro</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam <nom>Georg Silber</nom>, unu matenon, veki&gcirc;is el <tld/>a <klr>(obtuza)</klr> son&gcirc;o, li
+        retrovis sin en sia lito transformi&gcirc;inta en nenian monstran insekton
+        <fnt>
+          <bib>MMa</bib>
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
+    <refgrp tip="vid">
+       <ref cel="kasx.0i">ka&scirc;i</ref>
+    </refgrp>    <trdgrp lng="de">
       <trd>abmildern</trd>,
       <trd>verwischen</trd>
     </trdgrp>
@@ -82,9 +101,10 @@
     <tld/>i&gcirc;i
   </kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc mrk="stomp.0igxi.BELA">
+  <snc mrk="stomp.0igxi.paligxi">
     <dif>
-      Ombrumi&gcirc;i, malneti&gcirc;i, ricevi neprecizan formon:
+      <ref tip="dif" cel="pal.0igxi">Pali&gcirc;i</ref>, ombrumi&gcirc;i, 
+      malneti&gcirc;i, ricevi neprecizan formon:
       <ekz>
         &ccirc;iumomente la sono &scirc;an&gcirc;i&gcirc;is, <tld/>i&gcirc;is por indiki ombron, kaj reneti&gcirc;is por sekvi
         linion pli precizan
@@ -92,21 +112,53 @@
           <aut>M. Proust, trad. J.-L. Tortel</aut>
           <vrk>Unu amo de Swann</vrk>
           <lok>2019</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pasis kelkaj jaroj, <tld/>i&gcirc;is la eventoj <klr>[&#8230;]</klr> kaj poste forvi&scirc;i&gcirc;is el
+        la memoro
+        <fnt>
+          <bib>MkM</bib>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>verwischen</trd>,
+    <trd>verblassen</trd>
+  </trdgrp>
   <trd lng="fr">s'<ind>estomper</ind></trd>
 </drv>
 
 <drv mrk="stomp.0ilo">
-  <kap><tld />ilo</kap>
+  <kap><tld/>ilo</kap>
   <snc mrk="stomp.0ilo.BELA">
     <dif>
-      Speciala ilo por <tld />i.
+      Ilo por <tld/>i.
     </dif>
+    <refgrp tip="vid">
+       <ref cel="skrap.0gumo">skrapgumo</ref>,
+       <ref cel="skrap.0ilo">skrapilo</ref>
+    </refgrp>
+    <bld
+      lok="&WCU;/thumb/f/f8/Estompe.JPG/640px-Estompe.JPG"
+      prm="CC BY-SA 3.0"
+      ><tld/>ilo
+        <fnt>
+          <aut>Stephhzz, propra verko</aut>
+          <lok><url ref="&WCW;/File:Estompe.JPG"
+              >https://commons.wikimedia.org/wiki/File:Estompe.JPG</url></lok>
+        </fnt>
+    </bld>
+    <trdgrp lng="de">
+      <trd>Papierwischer</trd>,
+      <trd>Estompe</trd>
+    </trdgrp>
   </snc>
-  <trd lng="en">stump<klr tip="amb"> (drawing)</klr></trd>
+  <trdgrp lng="en">
+    <trd>tortillon</trd>,
+    <trd>blending stick</trd>,
+  </trdgrp>
   <trd lng="fr">estompe</trd>
   <trdgrp lng="hu">
     <trd>d&ouml;rzs&ouml;l&odblac;</trd>,
@@ -117,6 +169,12 @@
 </art>
 <!--
 $Log$
+versio 1.19 2021/08/21 18:33:43
+Wolfram Diestel: anst. fnt "V" (Charles Verax) per PV - manke de preciza fnt-o
+
+versio 1.18 2021/08/21 17:31:25
+Wolfram Diestel: +ekz-oj, ref-oj, trd de, en, +bld
+
 versio 1.17 2021/08/18 21:26:45
 Jeromo Vasxe: + ~ igxi
 
@@ -133,11 +191,5 @@ Revision 1.12  2006/02/27 17:33:13  revo
 Jeromo Vasxe: + tez + mrk
 
 Revision 1.11 2004/10/29 16:33:12 revo
-Jozefo Horvath: trd de stompi al gxusta loko, +trd hu
-
-Revision 1.10 2002/02/23 19:51:07 revo
-Yury Finkel: +trd ru
-
-Revision 1.9 2001/10/09 18:44:37 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vekt.xml,v 1.14 2015/07/04 08:37:45 revo Exp $">
+<art mrk="$Id: vekt.xml,v 1.17 2021/09/26 14:24:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vekt</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,9 +11,17 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="vekt.0o.pesila">
     <dif>
-      Stangeto en pesilo, kiu balanci&gcirc;as &ccirc;irka&ubreve; sia akso kaj portas la
-      telerojn.
+      <ref tip="super" cel="stang.0eto">Stangeto</ref> en <ref tip="malprt" cel="pes.0ilo">pesilo</ref>, 
+      kiu balanci&gcirc;as &ccirc;irka&ubreve; sia akso kaj portas la telerojn:
+      <ekz>
+        <tld/>a pesilo kun du tasoj
+        <fnt>
+          <vrk><url ref="https://lernu.net/lt/forumo/temo/2115">peso a&ubreve; pezo?</url></vrk>
+          <lok>forumo de lernu.net</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="de"><ofc>*</ofc>Wagebalken</trd>
     <trd lng="fr">fl&eacute;au<klr> (de balance)</klr></trd>
     <trd lng="hu">m&eacute;rlegkar</trd>
     <trdgrp lng="pt">
@@ -23,12 +31,48 @@
   <snc mrk="vekt.0o.MAS">
     <uzo tip="fak">MAS</uzo>
     <dif>
-      Balanci&gcirc;a trabostango en ma&scirc;ino.
+      Balanci&gcirc;a trabo<ref tip="super" cel="stang.0o">stango</ref> en ma&scirc;ino:
+      <ekz>
+        en Oklahomo anka&ubreve; staris arganoj kaj ritme balanci&gcirc;is <tld/>oj
+        <fnt>
+          <aut>Ilja Ilf, Evgenij Petrovi&ccirc; Katajev, trad. Vladimir Okc </aut>
+          <vrk><url ref="http://www.vladimir-okc.narod.ru/UU-html/truu20.htm"
+              >Unueta&gcirc;a Usono</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="baskul.0o.TEK">baskulo<sncref/></ref>,
+      <ref cel="brak.0o.FIG">brako<sncref/></ref>,
+      <ref cel="kantilevr.0o">kantilevro</ref>,
+      <ref cel="stang.lev0o">levstango</ref>
+    </refgrp>
+    <trd lng="de">Balancier</trd>
+    <trd lng="en">double overhanging <ind>beam</ind></trd>
+    <trd lng="fr">balancier</trd>
     <trd lng="hu">himba</trd>
   </snc>
   <snc mrk="vekt.0o.portovekto">
-    <ref tip="dif" cel="vekt.porto0o.KOMUNE">porto<tld/>o</ref>
+    <dif>
+      <ref tip="dif" cel="vekt.porto0o.KOMUNE">Porto<tld/>o</ref>:
+      <ekz>
+        kamparanino per rapidaj pa&scirc;etoj mar&scirc;as kun vekto lokita sur <klr>[s]</klr>iaj
+        &scirc;ultroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html">La&ubreve; ritmo de la rizejoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        olda laktoliverantino kun siteloj kaj <tld/>o eliranta estis el la pordo por akvo
+        <fnt>
+          <aut> Gajdar Arkadij</aut>
+          <vrk><url ref="https://www.litmir.me/br/?b=87722&amp;p=5">Timur kaj lia tachmento</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de"><ofc>*</ofc>Schulterjoch</trd>
     <trd lng="fr">palanche</trd>
     <trdgrp lng="hu">
       <trd>v&iacute;zhord&oacute; r&uacute;d</trd>,
@@ -36,9 +80,11 @@
     </trdgrp>    
   </snc>
   <trd lng="be">&c_k;&c_a;&c_r;&c_o;&c_m;&c_y;&c_s;&c_je;&c_l;</trd>
-  <trd lng="cs">jádro elektromagnetu</trd>
+  <trd lng="cs">j&aacute;dro elektromagnetu</trd>
+  <trd lng="en"><ofc>*</ofc>flail</trd>
   <trd lng="nl">juk</trd>
-  <trd lng="ru">&c_k;&c_o;&c_r;&c_o;&c_m;&c_y;&c_s;&c_l;&c_o;</trd>
+  <trd lng="pl"><ofc>*</ofc>bela wagowa</trd>
+  <trd lng="ru"><ofc>*</ofc>&c_k;&c_o;&c_r;&c_o;&c_m;&c_y;&c_s;&c_l;&c_o;</trd>
   <trd lng="sk">jadro elektromagnetu</trd>
 </drv>
 
@@ -54,14 +100,17 @@
         ternuksojn kaj cigardojn
         <fnt>
           <aut>Lao She, trad. Wang Chongfang</aut>,
-          <vrk><url
-          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
+          <vrk><url ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
           Kamelo &Scirc;jangzi</url></vrk>,
           <lok>1988</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="jug.0o">jugo</ref>
+    </refgrp>
   </snc>
+  <trd lng="de">Tragjoch</trd>
   <trd lng="fr">palanche</trd>
   <trdgrp lng="hu">
     <trd>v&iacute;zhord&oacute; r&uacute;d</trd>,
@@ -71,6 +120,15 @@
 </art>
 <!--
 $Log$
+versio 1.17 2021/09/26 14:24:14
+Wolfram Diestel: +fnt
+
+versio 1.16 2021/09/26 13:29:45
+Wolfram Diestel: +ref
+
+versio 1.15 2021/09/26 12:43:13
+Wolfram Diestel: +ekz-oj, ref-oj, trd-oj
+
 Revision 1.13  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -84,17 +142,5 @@ Revision 1.10  2006/02/01 17:32:30  revo
 Tulio Flores: +trd pt
 
 Revision 1.9  2005/01/28 17:31:28  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2003/10/01 16:31:10  revo
-Philippe Combot: + trd fr
-
-Revision 1.7  2002/09/11 17:35:15  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.6  2002/03/18 18:09:03  revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/05/29 18:15:14 revo
 -->
 </vortaro>
