@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: deklin.xml,v 1.23 2021/03/08 14:29:16 revo Exp $">
+<art mrk="$Id: deklin.xml,v 1.24 2021/10/09 17:30:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>deklinaci</rad>/i <fnt><bib>PV</bib></fnt>
@@ -12,9 +12,26 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="deklin.0i.LIN">
     <dif>
-      Eldiri la kazaron de iu vorto.
+      Eldiri la <ref cel="kaz.0aro">kazaro</ref>n de iu vorto:
+      <ekz>
+        la numeraloj fundamentaj ne estas <tld/>ataj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        polaj numeraloj <tld/>i&gcirc;as
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato"
+              >Lingvo slava</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <rim>
+    Ne konfuzu kun <ref tip="hom" cel="klin.de0i">deklini</ref>.
+  </rim>
   <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_n;&c_ja;&c_c;&c_mol;</trd>
   <trd lng="ca">declinar<klr> (gram.)</klr></trd>
   <trdgrp lng="cs">
@@ -25,7 +42,7 @@
   <trd lng="en">decline</trd>
   <trd lng="es">declinar</trd>
   <trd lng="fr">d&eacute;cliner</trd>
-  <trd lng="he">&#x5E0;&#x5D8;&#x5D9;&#x5D9;&#x5D4;</trd>
+  <trd lng="he">&nun;&tet;&yod;&yod;&he;</trd>
   <trd lng="hu">ragoz (n&eacute;vsz&oacute;t)</trd>
   <trd lng="nl">verbuigen<klr tip="ind"> (taalk.)</klr></trd>
   <trdgrp lng="pl">
@@ -43,10 +60,24 @@
     <uzo tip="fak">LIN</uzo>
     <dif>
       Tuto de la modifoj, kiujn en iuj lingvoj ricevas substantivo,
-      pronomo a&ubreve; adjektivo la&ubreve; sia gramatika rolo;
-      <ref tip="prt" cel="kaz.0o.GRA">kaz</ref>aro:
+      pronomo a&ubreve; adjektivo la&ubreve; sia <ref tip="malprt" cel="gramat.0o.SCI">gramatika</ref> rolo;
+      <ref tip="sin" cel="kaz.0aro">kazaro</ref>:
       <ekz>
-        Esperanto havas dukazan, kaj latino seskazan <tld/>on.
+        Esperanto havas dukazan, kaj latino seskazan <tld/>on;
+      </ekz>
+      <ekz>
+        en la lingvoj naturaj ekzistas la plej komplikitaj kaj konfuzitaj <tld/>oj kaj
+        <ref cel="konjug1.0o">konjugacio</ref>j
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj enuigaj <tld/>oj kaj konjugacioj, super kiuj sur la tera globo &ccirc;iutage
+        oscedas miloj da infanoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -65,7 +96,7 @@
   <trd lng="en">declension</trd>
   <trd lng="es">declinaci&oacute;n</trd>
   <trd lng="fr">d&eacute;clinaison</trd>
-  <trd lng="he">&#x5E0;&#x5D8;&#x5D9;&#x5D9;&#x5D4;</trd>
+  <trd lng="he">&nun;&tet;&yod;&yod;&he;</trd>
   <trdgrp lng="hu">
     <trd>n&eacute;vsz&oacute;ragoz&aacute;s</trd>,
     <trd>deklin&aacute;ci&oacute;</trd>
@@ -91,6 +122,9 @@
 </art>
 <!--
 $Log$
+versio 1.24 2021/10/09 17:30:16
+Wolfram Diestel: +ekz-oj, ref-oj
+
 Revision 1.21  2017/02/21 13:10:13  revo
 Jeromo Vasxe: esp-o -> Esperanto, retusx. dif
 
