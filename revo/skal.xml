@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: skal.xml,v 1.95 2021/06/23 04:44:20 revo Exp $">
+<art mrk="$Id: skal.xml,v 1.96 2021/10/11 17:32:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>skal</rad>/o <fnt><bib>PV</bib></fnt>
@@ -16,20 +17,36 @@
     <subsnc mrk="skal.0o.proporcio">
       <uzo tip="fak">TEK</uzo>
       <dif>
-        Rilato inter la efektivaj dimensioj de objekto kaj la dimensioj
-        de desegna&jcirc;o, kiu figuras &gcirc;in:
+        <ref tip="super" cel="propor.0o">Proporcio</ref> inter la efektivaj 
+        dimensioj de objekto kaj la dimensioj de desegna&jcirc;o a&ubreve; modelo, kiu figuras &gcirc;in:
         <ekz>
           en neniu farebla desegna&jcirc;o ni povas desegni samtempe la
-          orbitojn kaj
-          la planedojn la&ubreve; la sama <tld/>o
+          orbitojn kaj la planedojn la&ubreve; la sama <tld/>o
           <fnt>
-          <aut>G. Macaoidh</aut>,
-          <vrk>Tra kruta&jcirc;oj al la astroj</vrk>,
-          <bib>Monato</bib>,
-          <lok>2001:6, p. 17a</lok>
+            <aut>G. Macaoidh</aut>,
+            <vrk>Tra kruta&jcirc;oj al la astroj</vrk>,
+            <bib>Monato</bib>,
+            <lok>2001:6, p. 17a</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <klr>[ili]</klr> montris modelon de nia planeda sistemo en skalo 1 : 2&#8239;400&#8239;000&#8239;000
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Per tramo tra nia planeda sistemo</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          en la fundo de la halego diversaj metiistoj konstruis plen<tld/>an domon
+          <fnt>
+            <bib>KrM</bib>
           </fnt>.
         </ekz>
-      </dif>
+      </dif>  
+      <refgrp tip="vid">
+  <!--      <ref cel="difin.0o">difino</ref>, -->
+        <ref cel="format.0o.TIP">formato</ref>
+      </refgrp>
       <trd lng="be">&c_m;&c_a;&c_sh;&c_t;&c_a;&c_b;</trd>
       <trd lng="de">Ma&szlig;stab</trd>
       <trdgrp lng="fr">
@@ -46,14 +63,14 @@
       <dif>
         Simbolo montranta la <tld/>on de desegno
         per linio dividita per streketoj kaj apudaj
-        indikoj de la efektivaj distancoj:
+        indikoj de la efektivaj distancoj.
         <!--
         Linio dividita per egaldistancaj streketoj, kiuj montras la
         dimensiojn de desegna&jcirc;o rilate al efektiva objekto.
         -->
       </dif>
       <trd lng="be">&c_m;&c_a;&c_sh;&c_t;&c_a;&c_b;</trd>
-      <trd lng="de">Skala</trd>
+      <trd lng="de">Ma&szlig;stab <klr>(Angabe)</klr></trd>
       <trdgrp lng="fr">
         <trd>&eacute;chelle<klr> (cartographie)</klr></trd>
       </trdgrp>
@@ -65,14 +82,34 @@
     </subsnc>
     <subsnc mrk="skal.0o.mezura">
       <dif>
-        Serio de streketoj a&ubreve; indikoj, kiujn montrilo
+        Serio de streketoj a&ubreve; <ref tip="prt" cel="indik.0o">indiko</ref>j, kiujn montrilo
         a&ubreve; alia mezurilo atingas, tiel montrante la
-        rilaton al iu grando (temperaturo, premo, rapido...)
+        rilaton al iu mezurata grando (temperaturo, premo, rapido...):
         <!--
         Aro de la streketoj, kiuj montras la gradojn de termometro
         a&ubreve; de
         alia ajn mezuraparato.
         -->
+        <ekz>
+          la 32 gradoj de la kompasa <tld/>o
+          <fnt>
+            <bib>Mortul&Scirc;ip</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          nanometra <tld/>o
+          <fnt>
+            <bib>MD05</bib>
+            <vrk>Industrio en skalo de atomo</vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          pritaksi la prononcon de parolantoj la&ubreve; du <tld/>oj
+          <fnt>
+            <bib>LOdE</bib>
+            <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Anoncetoj</url></vrk>
+          </fnt>.
+        </ekz>
       </dif>
       <trd lng="be">&c_sh;&c_k;&c_a;&c_l;&c_a;</trd>
       <trd lng="de">Skala</trd>
@@ -94,16 +131,60 @@
     <dif>
       Serio de interrilataj gradoj de mezuro:
       <ekz>
-        boforta <tld/>o
-        <klr>(skalo de forteco de ventoj)</klr>.
+        brizo <klr>[je]</klr> indico 4&#8239;-&#8239;6 de la Boforta <tld/>o
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tertremo <klr>[&#8230;]</klr> supera e&ccirc; al 6 gradoj de la <tld/>o de <nom>Richter</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/010777.php">&Gcirc;is la tero tremas</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bona oratoro <klr>[&#8230;]</klr> havas je dispono vere grandan <tld/>on: de 60 &gcirc;is
+        proksimume 180 vortoj en minuto
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>.
       </ekz>
     </dif>
     <subsnc mrk="skal.0o.MUZ">
       <uzo tip="fak">MUZ</uzo>
       <dif>
-        Orda, norma serio de tonoj.
+        Orda, norma serio de <ref tip="prt" cel="ton.0o.MUZ_unu">tono</ref>j:
+        <ekz>
+          plur<tld/>aj instrumentoj
+          <fnt>
+            <bib>Rsp</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ni ne bezonos plurkordajn a&ubreve; &ccirc;ia<tld/>ajn instrumentojn por la kantoj kaj
+          melodioj
+          <fnt>
+            <bib>Rsp</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &leftquot;<nom>Bob, Bob, Bob</nom>!&rightquot; &scirc;i kriis la&ubreve; kreskanta <tld/>o
+          <fnt>
+            <bib>ChV</bib>
+          </fnt>.
+        </ekz>
       </dif>
+      <refgrp tip="sin">
+         <ref cel="gam.0o.MUZ">gamo<sncref/></ref>
+      </refgrp>
+      <refgrp tip="vid">
+         <ref cel="tonal.0o">tonalo</ref>
+      </refgrp>
       <trd lng="be">&c_d;&c_y;&c_ja;&c_p;&c_a;&c_z;&c_o;&c_n; <klr tip="amb">(&c_m;&c_u;&c_z;.)</klr></trd>
+      <trd lng="de">Tonleiter</trd>
       <trdgrp lng="hu">
         <trd>hangl&eacute;tra</trd>,
         <trd>hangsor</trd>,
@@ -113,16 +194,93 @@
       <trd lng="ru">&c_d;&c_i;&c_a;&c_p;&c_a;&c_z;&c_o;&c_n; <klr tip="amb">(&c_m;&c_u;&c_z;.)</klr></trd>
     </subsnc>
   </snc>
+  <snc mrk="skal.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      La <ref cel="mezur.0o.FIG">mezuro<sncref/></ref> resp. <ref cel="unu.mezur0o">mezurunuo</ref> 
+      la&ubreve; kiu oni taksas iun aferon:
+      <ekz>
+        de kie vi tion scias? <klr>[&#8230;]</klr> &dash; la princo travivis la samon, sed la&ubreve; pli
+        vasta <tld/>o
+        <fnt>
+          <bib>IK</bib>
+          <lok>&ccirc;ap. I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li dum la jaroj 1944 kaj 1945 gvidis <klr>[&#8230;]</klr> vast<tld/>an organizon je la
+        nomo de Sveda Ru&gcirc;a Kruco
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi pruvos per faktoj, ke simplaj laboristoj povas senpere interrilati <ind>la&ubreve;
+        tutmonda <tld/>o</ind>
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>;
+        <trd lng="de">im <ind>Weltma&szlig;stab</ind></trd>
+      </ekz>
+      <ekz>
+        kulturaj aran&gcirc;oj <ind>en landa <tld/>o</ind>
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+        <trd lng="de">auf <ind>Landesebene</ind></trd>
+      </ekz>
+      <ekz>
+        mond<tld/>aj kulturaj inter&scirc;an&gcirc;oj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la evoluo estos treege longa <klr>[&#8230;]</klr> la&ubreve; nia tempo<tld/>o
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i &scirc;tupis iom supren sur la estim<tld/>o de la eleganta snobulino
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la okuloj estas la plej karakterizaj: <klr>[&#8230;]</klr> sur tiu <tld/>o trovi&gcirc;as
+        esprimoj de la atentigo &gcirc;is la neglekto kaj ripro&ccirc;o
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aran&gcirc;i plezurprogramojn en granda <tld/>o por <klr>[&#8230;]</klr> la tuta somero
+        <fnt>
+          <bib>ViV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="mezur.0ilo">mezurilo</ref>,
+       <ref cel="sxnur.0o.KOMUNE">mezur&scirc;nuro</ref>,
+       <ref cel="norm.0o.KOMUNE">normo<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd><klr>(Vergleichs-)</klr>Ma&szlig;stab</trd>,
+      <trd>Skala <klr>(Vergleich)</klr></trd>
+    </trdgrp>
+  </snc>
   <trd lng="af">skaal</trd>
-  <trd lng="am">&#x120D;&#x12AC;&#x1275;</trd>
-  <trd lng="ar">&#x639;&#x644;&#x649; &#x646;&#x637;&#x627;&#x642; &#x648;</trd>
-  <trd lng="az">miqyasl&#x131;</trd>
-  <trd lng="bn">&#x9B8;&#x9CD;&#x995;&#x9C7;&#x9B2;</trd>
+  <trd lng="am">&#4621;&#4780;&#4725;</trd>
+  <trd lng="ar">&a_ayn;&a_l;&a_A_maqsura; &a_n;&a_T;&a_A;&a_q; &a_w;</trd>
+  <trd lng="az">miqyasl&inodot;</trd>
+  <trd lng="bn">&#2488;&#2509;&#2453;&#2503;&#2482;</trd>
   <trd lng="bs">skale</trd>
   <trd lng="co">scala</trd>
   <trdgrp lng="cs">
-    <trd>m&#x11B;&#x159;&#xED;tko mapy</trd>,
-    <trd>stupnice p&#x159;&#xED;stroje</trd>
+    <trd>m&ecaron;&rcaron;&iacute;tko mapy</trd>,
+    <trd>stupnice p&rcaron;&iacute;stroje</trd>
   </trdgrp>
   <trd lng="cy">graddfa</trd>
   <trd lng="da">skala</trd>
@@ -131,72 +289,72 @@
   <trd lng="et">skaala</trd>
   <trd lng="eu">eskala</trd>
   <trd lng="fy">skaal</trd>
-  <trd lng="ga">sc&#xE1;la</trd>
-  <trd lng="gd">sg&#xE8;ile</trd>
+  <trd lng="ga">sc&aacute;la</trd>
+  <trd lng="gd">sg&egrave;ile</trd>
   <trd lng="gl">escala</trd>
-  <trd lng="gu">&#xAB8;&#xACD;&#xA95;&#xAC7;&#xAB2;</trd>
+  <trd lng="gu">&#2744;&#2765;&#2709;&#2759;&#2738;</trd>
   <trd lng="ha">sikelin</trd>
-  <trd lng="hi">&#x92A;&#x948;&#x92E;&#x93E;&#x928;&#x947;</trd>
+  <trd lng="hi">&#2346;&#2376;&#2350;&#2366;&#2344;&#2375;</trd>
   <trd lng="hr">razmjera</trd>
-  <trd lng="ht">ech&#xE8;l</trd>
-  <trd lng="hy">&#x574;&#x561;&#x57D;&#x577;&#x57F;&#x561;&#x562;</trd>
-  <trd lng="ig">n&#x2019;&#x1ECD;t&#x1EE5;t&#x1EE5; na</trd>
-  <trd lng="is">m&#xE6;likvar&#xF0;i</trd>
-  <trd lng="ja">&#x30B9;&#x30B1;&#x30FC;&#x30EB;</trd>
+  <trd lng="ht">ech&egrave;l</trd>
+  <trd lng="hy">&#1396;&#1377;&#1405;&#1399;&#1407;&#1377;&#1378;</trd>
+  <trd lng="ig">n&#8217;&#7885;t&#7909;t&#7909; na</trd>
+  <trd lng="is">m&aelig;likvarði</trd>
+  <trd lng="ja">&#12473;&#12465;&#12540;&#12523;</trd>
   <trd lng="jw">ukuran</trd>
-  <trd lng="ka">&#x10DB;&#x10D0;&#x10E1;&#x10E8;&#x10E2;&#x10D0;&#x10D1;&#x10D8;&#x10E1;</trd>
-  <trd lng="kk">&#x430;&#x443;&#x49B;&#x44B;&#x43C;&#x434;&#x44B;</trd>
-  <trd lng="km">&#x1781;&#x17D2;&#x1793;&#x17B6;&#x178F;</trd>
-  <trd lng="kn">&#xCAA;&#xCCD;&#xCB0;&#xCAE;&#xCBE;&#xCA3;&#xCA6;</trd>
-  <trd lng="ko">&#xADDC;&#xBAA8;</trd>
-  <trd lng="ku">p&#xEE;vaneke</trd>
-  <trd lng="ky">&#x43C;&#x430;&#x441;&#x448;&#x442;&#x430;&#x431;&#x44B;</trd>
+  <trd lng="ka">&#4315;&#4304;&#4321;&#4328;&#4322;&#4304;&#4305;&#4312;&#4321;</trd>
+  <trd lng="kk">&c_a;&c_u;&#1179;&c_y;&c_m;&c_d;&c_y;</trd>
+  <trd lng="km">&#6017;&#6098;&#6035;&#6070;&#6031;</trd>
+  <trd lng="kn">&#3242;&#3277;&#3248;&#3246;&#3262;&#3235;&#3238;</trd>
+  <trd lng="ko">&#44508;&#47784;</trd>
+  <trd lng="ku">p&icirc;vaneke</trd>
+  <trd lng="ky">&c_m;&c_a;&c_s;&c_sh;&c_t;&c_a;&c_b;&c_y;</trd>
   <trd lng="lat">statera</trd>
-  <trd lng="lo">&#xE82;&#xEB0;&#xEAB;&#xE99;&#xEB2;&#xE94;</trd>
-  <trd lng="lt">skal&#x117;</trd>
+  <trd lng="lo">&#3714;&#3760;&#3755;&#3737;&#3762;&#3732;</trd>
+  <trd lng="lt">skal&#279;</trd>
   <trd lng="lv">skala</trd>
   <trd lng="mg">ambaratonga</trd>
   <trd lng="mi">tauine</trd>
-  <trd lng="mk">&#x441;&#x43A;&#x430;&#x43B;&#x430;</trd>
-  <trd lng="ml">&#xD38;&#xD4D;&#xD15;&#xD46;&#xD2F;&#xD3F;&#xD7D;</trd>
-  <trd lng="mn">&#x445;&#x44D;&#x43C;&#x436;&#x44D;&#x44D;&#x43D;&#x438;&#x439;</trd>
-  <trd lng="mr">&#x938;&#x94D;&#x915;&#x947;&#x932;</trd>
+  <trd lng="mk">&c_s;&c_k;&c_a;&c_l;&c_a;</trd>
+  <trd lng="ml">&#3384;&#3405;&#3349;&#3398;&#3375;&#3391;&#3453;</trd>
+  <trd lng="mn">&c_h;&c_e;&c_m;&c_zh;&c_e;&c_e;&c_n;&c_i;&c_j;</trd>
+  <trd lng="mr">&#2360;&#2381;&#2325;&#2375;&#2354;</trd>
   <trd lng="ms">skala</trd>
   <trd lng="mt">iskala</trd>
-  <trd lng="my">&#x1005;&#x1000;&#x1031;&#x1038;</trd>
-  <trd lng="ne">&#x92E;&#x93E;&#x924;&#x94D;&#x930;&#x93E;</trd>
+  <trd lng="my">&#4101;&#4096;&#4145;&#4152;</trd>
+  <trd lng="ne">&#2350;&#2366;&#2340;&#2381;&#2352;&#2366;</trd>
   <trd lng="nl">schaal</trd>
   <trd lng="ny">sikelo</trd>
-  <trd lng="pa">&#xA2A;&#xA48;&#xA2E;&#xA3E;&#xA28;&#xA47;</trd>
-  <trd lng="ps">&#x645;&#x642;&#x64A;&#x627;&#x633;</trd>
+  <trd lng="pa">&#2602;&#2632;&#2606;&#2622;&#2600;&#2631;</trd>
+  <trd lng="ps">&a_m;&a_q;&a_y;&a_A;&a_s;</trd>
   <trd lng="rw">igipimo</trd>
-  <trd lng="sd">&#x67E;&#x64A;&#x645;&#x627;&#x646;&#x64A; &#x62A;&#x64A;</trd>
-  <trd lng="si">&#xDB4;&#xDBB;&#xDD2;&#xDB8;&#xDCF;&#xDAB;</trd>
+  <trd lng="sd">&f_p;&a_y;&a_m;&a_A;&a_n;&a_y; &a_t;&a_y;</trd>
+  <trd lng="si">&#3508;&#3515;&#3538;&#3512;&#3535;&#3499;</trd>
   <trdgrp lng="sk">
-    <trd>hlasov&#xFD; rozsah <klr>(hud.)</klr></trd>,
+    <trd>hlasov&yacute; rozsah <klr>(hud.)</klr></trd>,
     <trd>stupnica</trd>,
-    <trd>&#x161;k&#xE1;la</trd>
+    <trd>&scaron;k&aacute;la</trd>
   </trdgrp>
   <trd lng="sl">lestvica</trd>
   <trd lng="sm">fua</trd>
   <trd lng="sn">chikero</trd>
   <trd lng="so">cabir</trd>
-  <trd lng="sq">shkall&#xEB;</trd>
+  <trd lng="sq">shkall&euml;</trd>
   <trd lng="st">tekanyo</trd>
   <trd lng="su">skala</trd>
   <trd lng="sw">wadogo</trd>
-  <trd lng="ta">&#xB85;&#xBB3;&#xBB5;&#xBBF;&#xBB2;&#xBCD;</trd>
-  <trd lng="te">&#xC38;&#xC4D;&#xC25;&#xC3E;&#xC2F;&#xC3F;</trd>
-  <trd lng="tg">&#x43C;&#x438;&#x49B;&#x451;&#x441;&#x438;</trd>
-  <trd lng="th">&#xE02;&#xE19;&#xE32;&#xE14;</trd>
+  <trd lng="ta">&#2949;&#2995;&#2997;&#3007;&#2994;&#3021;</trd>
+  <trd lng="te">&#3128;&#3149;&#3109;&#3134;&#3119;&#3135;</trd>
+  <trd lng="tg">&c_m;&c_i;&#1179;&c_jo;&c_s;&c_i;</trd>
+  <trd lng="th">&#3586;&#3609;&#3634;&#3604;</trd>
   <trd lng="tl">iskala</trd>
-  <trd lng="tt">&#x43C;&#x430;&#x441;&#x448;&#x442;&#x430;&#x431;</trd>
-  <trd lng="uk">&#x448;&#x43A;&#x430;&#x43B;&#x430;</trd>
-  <trd lng="ur">&#x67E;&#x6CC;&#x645;&#x627;&#x646;&#x6D2;</trd>
+  <trd lng="tt">&c_m;&c_a;&c_s;&c_sh;&c_t;&c_a;&c_b;</trd>
+  <trd lng="uk">&c_sh;&c_k;&c_a;&c_l;&c_a;</trd>
+  <trd lng="ur">&f_p;&f_y;&a_m;&a_A;&a_n;&#1746;</trd>
   <trd lng="uz">miqyosli</trd>
-  <trd lng="vi">quy m&#xF4;</trd>
+  <trd lng="vi">quy m&ocirc;</trd>
   <trd lng="xh">isikali</trd>
-  <trd lng="yi">&#x5D5;&#x5D5;&#x5D0;&#x5B8;&#x5D2;</trd>
+  <trd lng="yi">&vav;&vav;&alef;&#1464;&gimel;</trd>
   <trd lng="yo">asekale</trd>
   <trd lng="zu">isikali</trd>
 </drv>
@@ -223,12 +381,12 @@
     <trd lng="pl">skalowa&cacute;</trd>
   </snc>
   <trdgrp lng="cs">
-    <trd>m&#x11B;nit rozm&#x11B;r</trd>,
-    <trd>stanovit m&#x11B;&#x159;&#xED;tko</trd>
+    <trd>m&ecaron;nit rozm&ecaron;r</trd>,
+    <trd>stanovit m&ecaron;&rcaron;&iacute;tko</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>meni&#x165; smer</trd>,
-    <trd>stanovi&#x165; mer&#xED;tko</trd>
+    <trd>meni&tcaron; smer</trd>,
+    <trd>stanovi&tcaron; mer&iacute;tko</trd>
   </trdgrp>
 </drv>
 
@@ -266,7 +424,7 @@
     <dif>
       Neampleksa, relative malvasta, koncernanta malmultajn homojn:
       <ekz>
-        ruinigante la <klr>...</klr> et<tld/>an agrikulturon
+        ruinigante la <klr>[&#8230;]</klr> et<tld/>an agrikulturon
         <fnt>
         <aut>R. Rotsaert</aut>,
         <vrk>Jarmila konferenco &hcirc;aose malsukcesis</vrk>,
@@ -319,7 +477,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_u;&c_j;&c_n;&c_a;&c_m;&c_a;&c_sh;&c_t;&c_a;&c_b;&c_n;&c_y;</trd>
-  <trd lng="cs">ve velk&#xE9;m m&#x11B;&#x159;&#xED;tku <klr>(adj.)</klr></trd>
+  <trd lng="cs">ve velk&eacute;m m&ecaron;&rcaron;&iacute;tku <klr>(adj.)</klr></trd>
   <trd lng="en">large scale</trd>
   <trdgrp lng="fr">
     <trd>ambitieux<klr> (&agrave; grande &eacute;chelle)</klr></trd>,
@@ -337,13 +495,16 @@
   </trdgrp>
   <trd lng="ru">&c_sh;&c_i;&c_r;&c_o;&c_k;&c_o;&c_m;&c_a;&c_s;&c_sh;&c_t;&c_a;&c_b;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
-    <trd>ve&#x13E;korys&#xFD;</trd>,
-    <trd>ve&#x13E;k&#xE9;ho stup&#x148;a</trd>
+    <trd>ve&lcaron;korys&yacute;</trd>,
+    <trd>ve&lcaron;k&eacute;ho stup&ncaron;a</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.96 2021/10/11 17:32:18
+Wolfram Diestel: ~o: +snc mezuro/FIG; ekz-oj, ref-oj, trd de
+
 Revision 1.20  2015/06/29 16:33:23  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -363,11 +524,5 @@ Revision 1.15 2004/10/14 16:31:12 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.14 2004/09/01 16:32:37 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13 2003/11/30 17:30:43 revo
-jxeromo vasxe: kor ortog. trd fr, reord. snc, + fak tek, reverkis dif
-muz
-
 -->
 </vortaro>
