@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kupr.xml,v 1.39 2021/05/29 10:57:15 revo Exp $">
+<art mrk="$Id: kupr.xml,v 1.40 2021/10/12 20:28:51 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kupr</rad>/o
@@ -13,20 +13,29 @@
     <uzo tip="fak">KEM</uzo>
     <mlg kod="IUPAC">Cu</mlg>
     <dif>
-      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM" lst="voko:&hcirc;emiaj_elementoj" val="29">elemento</ref>kun 
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM" lst="voko:&hcirc;emiaj_elementoj" val="29">elemento</ref> kun 
       atomnumero 29, atompezo 63,546; bruneru&gcirc;a peza 
       transir<ref tip="super" cel="metal.0o">metalo</ref>, pli fandebla 
-      ol oro kaj malpli 
-      ol <ref tip="vid" cel="argxen.0o">ar&gcirc;ento</ref>, 
-      uzata precipe por elektraj kondukiloj, kaj en kunfanda&jcirc;oj kun 
-      <ref tip="vid" cel="stan.0o">stano</ref> (= <ref tip="malprt" cel="bronz.0o">bronzo</ref>) kaj kun 
-      <ref tip="vid" cel="zink.0o">zinko</ref> 
-      (= <ref tip="malprt" cel="latun.0o">latuno</ref>):
+      ol oro kaj malpli ol <ref tip="vid" cel="argxen.0o">ar&gcirc;ento</ref>:
       <ekz>
-        orita <tld/>o;
+        <tld/>o estas uzata precipe por elektraj kondukiloj, kaj en kunfanda&jcirc;oj kun 
+        <ref tip="vid" cel="stan.0o">stano</ref> (t.e. <ref tip="malprt" cel="bronz.0o">bronzo</ref>) a&ubreve; 
+        <ref tip="vid" cel="zink.0o">zinko</ref> 
+        (t.e. <ref tip="malprt" cel="latun.0o">latuno</ref>);
       </ekz>
       <ekz>
-        <tld/>a koloro de ha&ubreve;to.
+        for&gcirc;anto de diversaj majstra&jcirc;oj el <tld/>o kaj fero
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 4:22</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        faru stangojn por la altaro, stangojn el akacia ligno, kaj tegu ilin per <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 27:6</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_m;&c_je;&c_d;&c_z;&c_mol;</trd>
@@ -44,12 +53,35 @@
     <trd lng="pt">cobre</trd>
     <trd lng="ru">&c_m;&c_je;&c_d;&c_mol;</trd>
     <trd lng="sv">koppar</trd>
-    <trd lng="vi">&#x111;&#x1ED3;ng</trd>
+    <trd lng="vi">&#273;&#7891;ng</trd>
   </snc>
   <snc mrk="kupr.0o.bronzo">
     <uzo tip="stl">ARK</uzo>
     <uzo tip="fak">BIB</uzo>
-    <ref tip="dif" cel="bronz.0o">bronzo</ref>
+    <dif>
+      <ref tip="dif" cel="bronz.0o">Bronzo</ref>:
+      <ekz>
+        jen estas la oferdono <klr>[&#8230;]</klr>: oro kaj ar&gcirc;ento kaj <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 25:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plej perfekte artiste farita porko el <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sonorilo <klr>[&#8230;]</klr> fandita el <tld/>o, malmola kaj peza
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Sonorila profundo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <trd lng="be">&c_b;&c_r;&c_o;&c_n;&c_z;&c_a;</trd>
     <trd lng="bg">&c_b;&c_r;&c_o;&c_n;&c_z;</trd>
     <trd lng="hu">bronz<klr tip="ind"> (elavult)</klr></trd>
@@ -57,7 +89,10 @@
     <trd lng="pl">br&aogonek;z</trd>
     <trd lng="ru">&c_b;&c_r;&c_o;&c_n;&c_z;&c_a;</trd>
   </snc>
-  <trd lng="bo">&#xF5F;&#xF44;&#xF66;&#xF0B;</trd>
+    <refgrp tip="vid">
+      <ref cel="verdig.0o">verdigro</ref>
+    </refgrp>
+  <trd lng="bo">&t_za;&t_nga;&t_sa;&t_tsheg;</trd>
   <trd lng="cs">m&ecaron;&dcaron;</trd>
   <trd lng="sk">me&dcaron;</trd>
 </drv>
@@ -69,9 +104,15 @@ kupr'o</url></lok></fnt></kap>
   <snc>
   <uzo tip="stl">ARK</uzo>
     <dif>
-      <sup>1</sup><ref tip="sin" cel="latun.0o">Latuno</ref>, flava
-      alojo el
-      kupro kaj zinko.
+      <ref tip="sin" cel="latun.0o">Latuno</ref>, flava
+      alojo el kupro kaj zinko:
+      <ekz>
+        la kaldrono estis el flava <tld/>o, sed brilis kiel oro
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino kaj Rozulino</lok>
+        </fnt>.
+      </ekz>
     </dif>
   <trd lng="fr">laiton</trd>  
   </snc>
@@ -81,14 +122,63 @@ kupr'o</url></lok></fnt></kap>
 <kap><tld/>a</kap>
   <snc mrk="kupr.0a.elkupro">
     <dif>
-      Farita el <tld/>o.
+      Farita el <tld/>o:
+      <ekz>
+        faru kvindek <tld/>ajn hoketojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 26:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a reto <klr>[kun]</klr> <tld/>aj ringoj sur &gcirc;iaj kvar anguloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 27:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a lavujo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 30:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne havanta en la sako e&ccirc; <tld/>an <ref cel="uten.0o">uteno</ref>n
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a monero
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>.
+      </ekz>
     </dif>
   <trd lng="fr">cuivr&eacute;</trd>  
   </snc>
   <snc mrk="kupr.0a.kolore">
     <dif>
       Havanta <ref tip="lst" cel="kolor.0o.propre" lst="voko:koloroj">koloron</ref> de <tld/>o, brilan, brune 
-      <ref tip="super" cel="rugx.0a">ru&gcirc;an</ref>.
+      <ref tip="super" cel="rugx.0a">ru&gcirc;an</ref>:
+      <ekz>
+        <tld/>a viza&gcirc;o
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj makuloj super la brovoj kaj sur la vangoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="har.0aro.FRIZ">hararo</ref>
   <trd lng="fr">auburn</trd>
@@ -228,6 +318,9 @@ kupr'o</url></lok></fnt></kap>
 
 <!--
 $Log$
+versio 1.40 2021/10/12 20:28:51
+Wolfram Diestel: ~o..~a: ekz-oj
+
 versio 1.38 2021/05/03 08:57:27
 Dmitri Gabinski: +trd vi
 
@@ -246,8 +339,5 @@ Damien Brucker: +trd fr
 
 Revision 1.32  2014/06/03 10:10:26  revo
 Eko Nur Syah Hidayat: +id
-
-Revision 1.31  2013/09/23 18:10:11  revo
-Wolfram Diestel: mlg nur por snc 1
 -->
 </vortaro>
