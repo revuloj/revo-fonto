@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: diod.xml,v 1.20 2021/10/04 13:34:01 revo Exp $">
+<art mrk="$Id: diod.xml,v 1.21 2021/10/13 15:30:58 revo Exp $">
 <kap>
   <rad>diod</rad>/o
 </kap>
@@ -11,12 +11,27 @@
   <snc mrk="diod.0o.lampo">
     <uzo tip="fak">ELE</uzo>
     <dif>
-      Duelektroda lampo.  
+      Elektronika komponento kun du elektrodoj, permesanta elektran fluon nur en unu direkto
+      (pasintece realigita per <ref tip="super" cel="tub.vaku0o">vakutubo</ref>, 
+      nuntempe per duonkondukantoj):
+      <ekz>
+        &ccirc;ambro, plena je ciferplatoj kaj <tld/>oj karakterizaj de la 1970-aj jaroj
+        <fnt>
+          <bib>MD17</bib>
+          <vrk>Kerne de la armena atom-centralo</vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="be">&c_d;&c_y;&c_jo;&c_d; <klr>(&c_l;&c_ja;&c_m;&c_p;&c_a;&c_v;&c_y;)</klr></trd>
-    
+    <refgrp tip="vid">
+       <ref cel="valv.elektrona0o">elektrona valvo</ref>,
+       <ref cel="transistor.0o.ELET">transistoro</ref>
+    </refgrp>
+    <trd lng="be">&c_d;&c_y;&c_jo;&c_d;</trd>
+    <trd lng="cs">dioda</trd> 
+    <trd lng="de">Diode</trd>  
     <trd lng="es">diodo</trd>
-    <trd lng="fr">diode<klr> (&eacute;lectroluminescente)</klr></trd>
+    <trd lng="fa">&a_d;&f_y;&a_w;&a_d;</trd>
+    <trd lng="fr">diode</trd>
     <trd lng="hu">di&oacute;da</trd>
     <trd lng="pl">dioda</trd>
     <trdgrp lng="pt">
@@ -24,23 +39,9 @@
       <trd>diodo</trd>
     </trdgrp>
     <trd lng="ru">&c_d;&c_i;&c_o;&c_d;</trd>
+    <trd lng="sk">di&oacute;da</trd>
     <trd lng="sv">diod</trd>
   </snc>
-  <snc mrk="diod.0o.duonkondukilo">
-    <uzo tip="fak">ELE</uzo>
-    <dif>
-      <ref tip="vid" cel="konduk.duon0a">Duonkondukanta</ref> 
-      elektronika elemento ebliganta fluon de elektra kurento nur en 
-      unu direkto.
-    </dif>
-    <trd lng="be">&c_d;&c_y;&c_jo;&c_d; <klr>(&c_p;&c_a;&c_w;&c_p;&c_r;&c_a;&c_v;&c_a;&c_d;&c_n;&c_ib;&c_k;&c_o;&c_v;&c_y;)</klr></trd>
-    <trd lng="fr">diode<klr> (redresseur &agrave;)</klr></trd>
-    <trd lng="pl">dioda</trd>
-  </snc>
-  <trd lng="cs">dioda</trd>
-  <trd lng="de">Diode</trd>
-  <trd lng="fa">&a_d;&f_y;&a_w;&a_d;</trd>
-  <trd lng="sk">di&oacute;da</trd>
 </drv>
 <drv mrk="diod.lum0o">
   <kap>
@@ -54,6 +55,15 @@
       <ref tip="vid" cel="konduk.duon0a">Duonkondukanta</ref> 
       elektronika elemento radianta lumon:
       <ekz>
+        <nom>Nakamura &Scirc;u&jcirc;i</nom> <klr>[&#8230;]</klr> ricevis Nobel-premion pri fiziko pro la invento de
+        lum-eliganta <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato-2012-2018">Japanio &dash; Neniam legu la &leftquot;aeron&rightquot;!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
         la akronimo <klr>[LED]</klr> signifas Lum-Elsenda-<tld lit="D"/>o
         <fnt>
           <bib>Monato</bib>
@@ -63,6 +73,7 @@
       </ekz>
     </dif>
     <trd lng="be">&c_s;&c_mol;&c_v;&c_je;&c_t;&c_l;&c_a;&c_d;&c_y;&c_jo;&c_d;</trd>
+    <trd lng="de">Leuchtdiode</trd>
     <trd lng="fa">&a_d;&f_y;&a_w;&a_d; &a_n;&a_w;&a_r;&f_y;</trd>
     <trd lng="fr">diode<klr> (&eacute;lectroluminescente)</klr></trd>
     <trdgrp lng="pl">
@@ -71,8 +82,8 @@
     </trdgrp>
     <trd lng="pl">dioda elektroluminescencyjna</trd>
   </snc>
-<trd lng="de">Leuchtdiode</trd>
 </drv>
+
 <drv mrk="diod.laser0o">
   <kap>laser<tld/>o</kap>
   <snc mrk="diod.laser0o.ELE">
@@ -80,7 +91,16 @@
     <dif>
       <ref tip="vid" cel="konduk.duon0a">Duonkondukanta</ref> 
       elektronika elemento radianta paralelan, samfazan, unukoloran
-      faskon de lumradioj.
+      faskon de lumradioj:
+      <ekz>
+        laser<tld/>o <klr>[uzas]</klr> malpli da energio <klr>[&#8230;]</klr> kompare al
+        tradicia lasero
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=312225"
+              >HiPER</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="super" cel="laser.0o">lasero</ref>
     <trd lng="fr">diode<klr> (laser)</klr></trd>
@@ -95,6 +115,9 @@
 </art>
 <!--
 $Log$
+versio 1.21 2021/10/13 15:30:58
+Wolfram Diestel: kunigo snc 1+2, ekz-oj, ref-oj
+
 versio 1.20 2021/10/04 13:34:01
 Dmitri Gabinski: + trd be
 
@@ -114,8 +137,5 @@ Revision 1.14  2013/02/05 16:10:19  revo
 Dmitri Gabinski: redakto: +trd be
 
 Revision 1.13  2009/12/01 17:30:28  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.12  2009/06/16 16:31:42  revo
 -->
 </vortaro>
