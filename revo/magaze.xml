@@ -2,16 +2,49 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: magaze.xml,v 1.29 2016/09/17 10:10:13 revo Exp $">
+<art mrk="$Id: magaze.xml,v 1.30 2021/10/18 16:47:46 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>magazen</rad>/o
 </kap>
+
 <drv mrk="magaze.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="magaze.0o.stokejo">
     <uzo tip="fak">EKON</uzo>
-    <ref tip="dif" cel="stok.0ejo">stokejo</ref>
+    <dif>
+      <ref tip="dif" cel="stok.0ejo">Stokejo</ref>:
+      <ekz>
+        <klr>[ili]</klr> konstruos novajn <tld/>ojn por siaj ri&ccirc;a&jcirc;oj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li sidis kvaza&ubreve; en la mezo de <tld/>o de speguloj
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni prirabis <tld/>on kaj ni alportas materialon por kvindek el ni
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi nun prenis de mia <tld/>o la Libron de la Dia Vorto, kiun mi jam alportis el
+        la &scirc;ipruino
+        <fnt>
+          <bib>Rob</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="proviz.0ejo">provizejo</ref>
+    </refgrp>
     <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;</trd>
     <trd lng="bg">&c_s;&c_k;&c_l;&c_a;&c_d;</trd>
     <trd lng="br">ti-dastum</trd>
@@ -51,25 +84,59 @@
     <trd lng="ro">depozit</trd>
     <trd lng="ru">&c_s;&c_k;&c_l;&c_a;&c_d;</trd>
   </snc>
-
   <snc mrk="magaze.0o.butiko">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Luksa butiko:
+      Granda <ref tip="super" cel="vend.0ejo">vendejo</ref> ofertanta multspecajn varojn:
+      <ekz>
+        mi ne povas plu rekoni la Orientan straton! neniu <tld/>o &ccirc;i estas!
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bildoj <klr>[&#8230;]</klr> ekspoziciitaj en la fenestroj de la <tld/>oj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Knabineto kun alumetoj</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <tld/>o, en kiu oni vendas cigarojn, estas
-        cigarejo<fnt>Z</fnt>;
+        cigarejo
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 40</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        se kliento en <tld/>o pagas per nacia valuto, &ccirc;u la magazeno
-        devos
-        redoni nacian valuton a&ubreve; e&ubreve;rojn<fnt><aut>Marc Vanden
-        Bempt</aut>:
+        vendistino en urba <tld/>o
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+          <lok>Averto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la granda, moda kaj ri&ccirc;a <tld/>o bezonas la servon de vera armeo da komizoj,
+        oficistoj k.t.p.
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se kliento en <tld/>o pagas per nacia valuto, &ccirc;u la <tld/>o
+        devos redoni nacian valuton a&ubreve; e&ubreve;rojn
+        <fnt><aut>Marc Vanden Bempt</aut>:
         <vrk>Al nova komuna epoko</vrk>, <bib>Monato</bib><lok>jaro
-        1997a,
-        numero 3a, p. 22a</lok></fnt>?
+        1997a, numero 3a, p. 22a</lok></fnt>?
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="butik.0o">butiko</ref>
+    </refgrp>
     <trd lng="be">&c_k;&c_r;&c_a;&c_m;&c_a;</trd>
     <trd lng="bg">&c_u;&c_n;&c_i;&c_v;&c_je;&c_r;&c_s;&c_a;&c_l;&c_je;&c_n; &c_m;&c_a;&c_g;&c_a;&c_z;&c_i;&c_n;</trd>
     <trd lng="br">stal</trd>
@@ -105,7 +172,7 @@
   </trdgrp>
     <trd lng="ru">&c_m;&c_a;&c_g;&c_a;&c_z;&c_i;&c_n;</trd>
   </snc>
-
+<!--
   <snc mrk="magaze.0o.magazenego">
     <uzo tip="fak">EKON</uzo>
     <ref tip="dif" cel="magaze.0ego">magazenego</ref>
@@ -141,6 +208,7 @@
       <trd>&c_s;&c_u;&c_p;&c_je;&c_r;&c_m;&c_a;&c_r;&c_k;&c_je;&c_t;</trd>
     </trdgrp>
   </snc>
+-->
   <trdgrp lng="cs">
     <trd>kr&aacute;m</trd>,
     <trd>magaz&iacute;n</trd>,
@@ -160,12 +228,28 @@
   <uzo tip="fak">EKON</uzo>
   <snc>
     <dif>
-      Tre granda moderna <ref tip="super" cel="vend.0ejo">vendejo</ref>,
-      kie oni vendas multspecajn komerca&jcirc;ojn
+      Tre granda <ref tip="super" cel="vend.0ejo">vendejo</ref>,
+      kie oni vendas &ccirc;iuspecajn komerca&jcirc;ojn:
+      <ekz>
+        la sinjorino ne delasis la trotuaron, kaj sin direktis al la <tld/>ego
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        strato <nom>Marienhilfer</nom> <klr>[estas]</klr> tre &scirc;atatan de a&ccirc;etemuloj pro la multaj
+        <tld/>egoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2013/011140.php"
+              >Vieno pliverdi&gcirc;as</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="magaze.0o.magazenego">magazeno <sncref
-      /></ref>
+    <refgrp tip="vid">
+       <ref cel="bazar.super0o">superbazaro</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_a;&c_m;&c_a;</trd>
@@ -207,6 +291,9 @@
 </art>
 <!--
 $Log$
+versio 1.30 2021/10/18 16:47:46
+Wolfram Diestel: adaptis dif, ekz-oj, ref-oj
+
 Revision 1.28  2016/09/12 19:10:11  revo
 Guillermo Molleda Jimena: trd es
 
