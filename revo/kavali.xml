@@ -2,14 +2,55 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kavali.xml,v 1.22 2020/03/05 20:10:17 revo Exp $">
+<art mrk="$Id: kavali.xml,v 1.23 2021/10/23 21:25:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kavalir</rad>/o
 </kap>
 <drv mrk="kavali.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="kavali.0o.antikveco">
+  <snc mrk="kavali.0o.FIG">
+    <dif>
+      Nobela a&ubreve; eminenta viro,
+      <ref tip="vid" cel="brav.0a.kuragxa">brava<sncref/></ref> kaj
+      <ref tip="vid" cel="galant1.0">galanta</ref> kun virinoj;
+      <ref tip="vid" cel="gxentl.0o">&gcirc;entlemano</ref>:
+      <ekz>
+        li estis ri&ccirc;a <klr>[&#8230;]</klr> kaj ricevis multe da amikoj, kiuj
+        &ccirc;iuj diris, ke li estas brava homo, vera <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fajrilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        silentu <klr>[&#8230;]</klr>, la <tld/>o de Klaro venas
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        perfekta <tld/>o, kun la plej bonegaj distingi&gcirc;oj, kun brilanta
+        teni&gcirc;o kaj ekstera&jcirc;o
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i estis &ccirc;iam kutiminta, ke oni &scirc;in starigu sur piedestalon,
+        &ccirc;irka&ubreve;atan de genufleksantaj <tld/>oj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Kavalier</trd>
+  </snc>
+  <snc mrk="kavali.0o.HIS">
+    <dif>
+      Malaltranga nobelo a&ubreve; ano de ordeno.
+    </dif>
+  <subsnc mrk="kavali.0o.antikveco">
     <uzo tip="fak">HIS</uzo>
     <dif>
       En antikva Romo, civitano apartenanta al tiu el la tri klasoj,
@@ -24,11 +65,11 @@
     <trd lng="pl">ekwita</trd>
     <trd lng="ru">&c_v;&c_s;&c_a;&c_d;&c_n;&c_i;&c_k;<klr> (&c_s;&c_o;&c_s;&c_l;&c_o;&c_v;&c_i;&c_je; &c_v; &c_d;&c_r;&c_je;&c_v;&c_n;&c_je;&c_m; &c_R;&c_i;&c_m;&c_je;)</klr>
     </trd>
-  </snc>
-  <snc mrk="kavali.0o.mezepoko">
+  </subsnc>
+  <subsnc mrk="kavali.0o.mezepoko">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      En mezepoko, nobelo ricevinta la <tld/>econ:
+      En e&ubreve;ropa fe&ubreve;dismo, nobelo ricevinta la <tld/>econ:
       <ekz>
         se nun trovi&gcirc;us tiaj re&gcirc;oj, kiel re&gcirc;o Arturo, tiam trovi&gcirc;us
         anka&ubreve; tiaj <tld/>oj
@@ -39,8 +80,7 @@
       </ekz>
       <ekz>
         &ccirc;iuj kortegaj sinjorinoj kun siaj servistinoj kaj <klr>[&#8230;]</klr>
-        &ccirc;iuj <tld/>oj
-        kun siaj servistoj <klr>[&#8230;]</klr> staris en ordo
+        &ccirc;iuj <tld/>oj kun siaj servistoj <klr>[&#8230;]</klr> staris en ordo
         <fnt>
           <bib>Fab2</bib>
           <lok>Ne&gcirc;a re&gcirc;ino</lok>
@@ -48,8 +88,7 @@
       </ekz>
       <ekz>
         belege vestita <tld/>o kun lumanta kasko kaj gaje flirtanta
-        pluma&jcirc;o tenis lin
-        anta&ubreve; si sur la &ccirc;evalo
+        pluma&jcirc;o tenis lin anta&ubreve; si sur la &ccirc;evalo
         <fnt>
           <bib>Fab2</bib>
           <lok>Malgranda Tuk</lok>
@@ -57,8 +96,7 @@
       </ekz>
       <ekz>
         &scirc;i enlogis al si la noblan <tld/>on <nom>Tannh&auml;user</nom>, la
-        amkantiston el la kantista
-        rondo de <nom>Wartburg</nom>
+        amkantiston el la kantista rondo de <nom>Wartburg</nom>
         <fnt>
           <bib>Fab3</bib>
           <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
@@ -76,8 +114,8 @@
     <trd lng="nl">kavalier</trd>
     <trd lng="pl">rycerz</trd>
     <trd lng="ru">&c_r;&c_y;&c_c;&c_a;&c_r;&c_mol;</trd>
-  </snc>
-  <snc mrk="kavali.0o.en_ordeno">
+  </subsnc>
+  <subsnc mrk="kavali.0o.en_ordeno">
     <dif>
       Tiu, kiu havas, en <ref cel="orden.0o.honora">ordeno</ref>,
       la malplej altan rangon:
@@ -101,8 +139,8 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="oficir.0o.en_ordeno">oficiro</ref>,
-      <ref cel="komand2.0o">komandoro</ref>
+      <ref cel="komand2.0o">komandoro</ref>,
+      <ref cel="oficir.0o.en_ordeno">oficiro</ref>
     </refgrp>
     <trd lng="be">&c_k;&c_a;&c_v;&c_a;&c_l;&c_je;&c_r;
     <klr tip="amb">(&c_o;&c_r;&c_d;&c_e;&c_n;&c_a;)</klr></trd>
@@ -120,15 +158,17 @@
       <trd>rycerz</trd>
     </trdgrp>
     <trd lng="ru">&c_k;&c_a;&c_v;&c_a;&c_l;&c_je;&c_r;</trd>
+  </subsnc>
+    <refgrp tip="vid">
+     <ref cel="hidalg.0o">hidalgo</ref>
+    </refgrp>
   </snc>
   <snc mrk="kavali.0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      Unu el la &scirc;akfiguroj, prezentanta &ccirc;evalon.
+      Unu el la &scirc;akfiguroj, prezentanta &ccirc;evalon;
+      <ref tip="dif" cel="cxeval.0o.sxaka">&ccirc;evalo<sncref/></ref>.
     </dif>
-    <refgrp tip="sin">
-      <ref cel="cxeval.0o.sxaka">&ccirc;evalo</ref>
-    </refgrp>
     <trd lng="be">&c_k;&c_o;&c_n;&c_mol;
     <klr tip="amb">(&c_u; &c_sh;&c_a;&c_h;&c_m;&c_a;&c_t;&c_a;&c_h;)
     </klr></trd>
@@ -146,43 +186,6 @@
     <klr>(&c_sh;&c_a;&c_h;&c_m;&c_a;&c_t;&c_n;&c_a;&c_ja;
     &c_f;&c_i;&c_g;&c_u;&c_r;&c_a;)
     </klr></trd>
-  </snc>
-  <snc mrk="kavali.0o.FIG">
-    <dif>
-      <ref tip="dif" cel="brav.0ulo">Bravulo</ref>, adoranto de virino:
-      <ekz>
-        li estis ri&ccirc;a <klr>[&#8230;]</klr> kaj ricevis multe da amikoj, kiuj
-        &ccirc;iuj diris, ke li
-        estas brava homo, vera <tld/>o
-        <fnt>
-          <bib>Fab1</bib>
-          <lok>Fajrilo</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        silentu <klr>[&#8230;]</klr>, la <tld/>o de Klaro venas
-        <fnt>
-          <bib>IK</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        perfekta <tld/>o, kun la plej bonegaj distingi&gcirc;oj, kun brilanta
-        teni&gcirc;o kaj
-        ekstera&jcirc;o
-        <fnt>
-          <bib>Hamlet</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        &scirc;i estis &ccirc;iam kutiminta, ke oni &scirc;in starigu sur piedestalon,
-        &ccirc;irka&ubreve;atan de
-        genufleksantaj <tld/>oj
-        <fnt>
-          <bib>FK</bib>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="de">Kavalier</trd>
   </snc>
   <trd lng="br">marc'heg</trd>
   <trdgrp lng="cs">
@@ -363,7 +366,10 @@
 </drv>
 </art>
 <!--
-$Log: kavali.xml,v $
+$Log$
+versio 1.23 2021/10/23 21:25:12
+Jeromo Vasxe: ~o rearangx snc subsnc
+
 versio 1.22 2020/03/05 20:10:17
 Wolfram Diestel: kor. ref-cel
 
@@ -383,8 +389,5 @@ Revision 1.17  2013/04/15 11:10:31  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.16  2011/06/15 07:10:10  revo
-Carlos Garcia: + trd es
-
-Revision 1.15  2008/06/17 16:30:28  revo
 -->
 </vortaro>
