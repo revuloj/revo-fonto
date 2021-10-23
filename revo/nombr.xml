@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nombr.xml,v 1.156 2021/08/16 08:33:55 revo Exp $">
+<art mrk="$Id: nombr.xml,v 1.157 2021/10/23 20:30:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>nombr</rad>/o <fnt><bib>PV</bib></fnt>
@@ -128,6 +128,7 @@
       </ekz>
     </dif>
     <trd lng="de">Anzahl <klr>(Gruppe)</klr></trd>
+    <trd lng="pl">ilo&sacute;&cacute;</trd>
   </snc>
 
   <snc>
@@ -175,6 +176,7 @@
     <trd lng="de">Anzahl</trd>
     <trd lng="hu">sz&aacute;m <klr tip="ind">(mennyis&eacute;g)</klr></trd>
     <trd lng="nl">aantal</trd>
+    <trd lng="pl">ilo&sacute;&cacute;</trd>
   </snc>
   <snc mrk="nombr.0o.GRA">
     <uzo tip="fak">GRA</uzo>
@@ -223,6 +225,7 @@
       <trd>Zahlform</trd>
     </trdgrp>
     <trd lng="nl">getal</trd>
+    <trd lng="pl">liczba</trd>
   </snc>
   <trd lng="af">aantal</trd>
   <trd lng="am">&#4673;&#4901;&#x122D;</trd>
@@ -291,6 +294,10 @@
   <trdgrp lng="pt">
     <trd>n&uacute;mero</trd>,
     <trd>quantidade</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>cifr&abreve;</trd>,
+    <trd>num&abreve;r</trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
   <trd lng="rw">nimero</trd>
@@ -432,6 +439,15 @@
     <trd>numerick&yacute;</trd>,
     <trd>po&ccaron;etn&yacute;</trd>,
     <trd>&ccaron;&iacute;seln&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>cyfrowy</trd>,
+    <trd>liczbowy</trd>,
+    <trd>numeryczny</trd>
+  </trdgrp>  
+  <trdgrp lng="ro">
+    <trd>digital</trd>,
+    <trd>numeric</trd>
   </trdgrp>
   <trd lng="sk">po&ccaron;etn&yacute;</trd>
 </drv>
@@ -600,7 +616,20 @@
   <trd lng="nl">tellen</trd>
   <trd lng="ny">kulengeseka</trd>
   <trd lng="pa">&#xA17;&#xA3F;&#xA23;&#xA4B;</trd>
+  <trdgrp lng="pl">
+    <trd>liczy&cacute;</trd>,
+    <trd>mierzy&cacute;</trd>,
+    <trd>oblicza&cacute;</trd>,
+    <trd>ponumerowa&cacute;</trd>,
+    <trd>wykonywa&cacute;  <ind>pomiary</ind></trd>
+  </trdgrp>  
   <trd lng="ps">&#x62D;&a_s;&a_A;&a_b;</trd>
+  <trdgrp lng="ro">
+    <trd>num&abreve;ra</trd>,
+    <trd>m&abreve;sura</trd>,
+    <trd>calcula</trd>,
+    <trd>efectuarea m&abreve;sur&abreve;torilor</trd>
+  </trdgrp>   
   <trd lng="rw">kubara</trd>
   <trd lng="sd">&a_sh;&a_m;&a_A;&a_r;</trd>
   <trd lng="si">&#xD9C;&#xDAB;&#xDB1;&#xDCA;</trd>
@@ -661,6 +690,7 @@
     <trd lng="de">z&auml;hlbar</trd>
     <trd lng="fr">d&eacute;nombrable</trd>
     <trd lng="hu">megsz&aacute;ml&aacute;lhat&oacute;</trd>
+    <trd lng="pl">przeliczalny</trd>
     <trd lng="ru">&c_i;&c_s;&c_ch;&c_i;&c_s;&c_l;&c_i;&c_m;&c_y;&c_j;</trd>
   </snc>
   <snc mrk="nombr.0ebla.MAT">
@@ -685,7 +715,14 @@
       <trd>megsz&aacute;ml&aacute;lhat&oacute;</trd>,
       <trd>diszkr&eacute;t</trd>
     </trdgrp>
-    <trd lng="pl">przeliczalny</trd>
+    <trdgrp lng="pl">
+      <trd>przeliczalny</trd>,
+      <trd>dyskretny</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>num&abreve;rabile</trd>,
+      <trd>discret</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_ch;&c_jo;&c_t;&c_n;&c_y;&c_j;</trd>,
       <trd>&c_p;&c_je;&c_r;&c_je;&c_ch;&c_i;&c_s;&c_l;&c_i;&c_m;&c_y;&c_j;</trd>,
@@ -752,19 +789,22 @@
   <trd lng="be">&c_l;&c_ib;&c_ch;&c_y;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   <trd lng="bg">&c_b;&c_r;&c_o;&c_ja;&c_ch;</trd>
   <trd lng="br">konter<klr tip="ind"> (muzulier)</klr></trd>
-  <trd lng="de">Z&auml;hler</trd>
-  <trd lng="fr">compteur</trd>
-  <trd lng="pt">contador</trd>
-  <trd lng="ru">&c_s;&c_ch;&c_jo;&c_t;&c_ch;&c_i;&c_k;</trd>
-  <trdgrp lng="sk">
-    <trd>po&ccaron;&iacute;tadlo</trd>,
-    <trd>&ccaron;&iacute;ta&ccaron;</trd>
-  </trdgrp>
   <trdgrp lng="cs">
     <trd>po&ccaron;&iacute;tadlo <klr>(nap&rcaron;. ot&aacute;&ccaron;ek)</klr></trd>,
     <trd>st&rcaron;ada&ccaron;</trd>,
     <trd>&ccaron;&iacute;ta&ccaron;</trd>
   </trdgrp>
+  <trd lng="de">Z&auml;hler</trd>
+  <trd lng="fr">compteur</trd>
+  <trd lng="pl">licznik <klr>(maszyna)</klr></trd>
+  <trd lng="pt">contador</trd>
+  <trd lng="ro">ghi&#537;eu <klr>(ma&#537;in&abreve;)</klr></trd>
+  <trd lng="ru">&c_s;&c_ch;&c_jo;&c_t;&c_ch;&c_i;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>po&ccaron;&iacute;tadlo</trd>,
+    <trd>&ccaron;&iacute;ta&ccaron;</trd>
+  </trdgrp>
+
 </drv>
 
 <drv mrk="nombr.0isto">
@@ -794,8 +834,7 @@
       <ekz>
         en la anonima enketilo <klr>(popol<tld/>ada)</klr>, kun
         kiu la &scirc;tataj <tld/>istoj vizitos &ccirc;iujn hejmojn en
-        la
-        lando, povos foresti la tradicia demando pri la gepatra
+        la lando, povos foresti la tradicia demando pri la gepatra
         lingvo
         <fnt>
           <aut>V. Seguru</aut>:
@@ -814,6 +853,8 @@
     </trdgrp>
     <trd lng="fr">recenseur</trd>
   </snc>
+  <trd lng="pl">rachmistrz</trd>
+  <trd lng="ro">num&abreve;r&abreve;tor</trd>
   <trd lng="ru">&c_s;&c_ch;&c_jo;&c_t;&c_ch;&c_i;&c_k;</trd>
 </drv>
 
@@ -837,6 +878,8 @@
     <trd>Bruch</trd>,
     <trd>gebrochene Zahl</trd>
   </trdgrp>
+  <trd lng="pl">u&lstroke;amek</trd>
+  <trd lng="ro">frac&#539;ie</trd>
   <trdgrp lng="sk">
     <trd>zlomok</trd>,
     <trd>&ccaron;as&tcaron; z mno&zcaron;stva</trd>
@@ -875,6 +918,11 @@
       <trd>kett&odblac;s sz&aacute;m</trd>,
       <trd>du&aacute;lis</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>liczba podw&oacute;jna</trd>,
+      <trd>dualis</trd>
+    </trdgrp>
+    <trd lng="ro">dual  <klr>(gramatic&abreve;)</klr></trd>
     <trd lng="ru">&c_d;&c_v;&c_o;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
     &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
   </snc>
@@ -919,7 +967,9 @@
     <trd>sz&aacute;mos</trd>
   </trdgrp>
   <trd lng="nl">talrijk</trd>
+  <trd lng="pl">liczny</trd>
   <trd lng="pt">numeroso</trd>
+  <trd lng="ro">frecvent</trd>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">po&ccaron;etn&yacute;</trd>
 </drv>
@@ -960,6 +1010,7 @@
         <trd lng="fr">moyenne arithm&eacute;tique</trd>
         <trd lng="hu">sz&aacute;mtani <ind>k&ouml;z&eacute;p</ind></trd>
         <trd lng="pl">&sacute;rednia arytmetyczna</trd>
+        <trd lng="ro">medie aritmetic&abreve;</trd>
         <trd lng="ru">&c_s;&c_r;&c_je;&c_d;&c_n;&c_je;&c_je;
           &c_a;&c_r;&c_i;&c_f;&c_m;&c_je;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;</trd>
       </ekz><ekz>
@@ -975,6 +1026,7 @@
         <trd lng="fr">moyenne g&eacute;om&eacute;trique</trd>
         <trd lng="hu">m&eacute;rtani <ind>k&ouml;z&eacute;p</ind></trd>
         <trd lng="pl">&sacute;rednia geometryczna</trd>
+        <trd lng="ro">medie geometric&abreve;</trd>
         <trd lng="ru">&c_s;&c_r;&c_je;&c_d;&c_n;&c_je;&c_je;
         &c_g;&c_je;&c_o;&c_m;&c_je;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;</trd>
       </ekz><ekz>
@@ -990,6 +1042,7 @@
         <trd lng="fr">moyenne harmonique</trd>
         <trd lng="hu">harmonikus <ind>k&ouml;z&eacute;p</ind></trd>
         <trd lng="pl">&sacute;rednia harmoniczna</trd>
+        <trd lng="ro">medie armonic&abreve;</trd>
         <trd lng="ru">&c_s;&c_r;&c_je;&c_d;&c_n;&c_je;&c_je;
         &c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;</trd>
       </ekz><ekz>
@@ -1018,6 +1071,7 @@
         <trd lng="fr">moyenne pond&eacute;r&eacute;e</trd>
         <trd lng="hu">s&uacute;lyozott <ind>&aacute;tlag</ind></trd>
         <trd lng="pl">&sacute;rednia wa&zdot;ona</trd>
+        <trd lng="ro">medie ponderat&abreve;</trd>
         <trd lng="ru">&c_v;&c_z;&c_v;&c_je;&c_sh;&c_je;&c_n;&c_n;&c_o;&c_je;<ind>
         &c_s;&c_r;&c_je;&c_d;&c_n;&c_je;&c_je;</ind></trd>
       </ekz><ekz>
@@ -1048,8 +1102,17 @@
     <trd>&aacute;tlag</trd>,
     <trd>k&ouml;z&eacute;p&eacute;rt&eacute;k</trd>
   </trdgrp>
-  <trd lng="pl">&sacute;rednia</trd>
+  <trdgrp lng="pl">
+    <trd>&sacute;rednia liczbowa</trd>,
+    <trd>warto&sacute;&cacute; &sacute;rednia</trd>,
+    <trd>przeci&eogonek;tna</trd>
+  </trdgrp>
   <trd lng="pt">m&eacute;dia</trd>
+  <trdgrp lng="ro">
+    <trd>medie numeric&abreve;</trd>,
+    <trd>valoare medie</trd>,
+    <trd>medie</trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_r;&c_je;&c_d;&c_n;&c_je;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>priemer</trd>,
@@ -1091,7 +1154,17 @@
     <trd>sz&aacute;mos</trd>
   </trdgrp>
   <trd lng="nl">talrijk</trd>
+  <trdgrp lng="pl">
+    <trd>mnogi</trd>,
+    <trd>rz&eogonek;sisty</trd>,
+    <trd>t&lstroke;umny</trd>
+  </trdgrp>
   <trd lng="pt">numeroso</trd>
+  <trdgrp lng="ro">
+    <trd>plural</trd>,
+    <trd>abundent</trd>,
+    <trd>aglomerat</trd>
+  </trdgrp>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>mnohopo&ccaron;etn&yacute;</trd>,
@@ -1140,6 +1213,7 @@
   </trdgrp>
   <trd lng="nl">meervoud</trd>
   <trd lng="pl">liczba mnoga</trd>
+  <trd lng="ro">plural</trd>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
   &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
   <trd lng="sk">mno&zcaron;n&eacute; &ccaron;&iacute;slo</trd>
@@ -1174,6 +1248,7 @@
   <trd lng="fr">entier naturel</trd>
   <trd lng="hu">term&eacute;szetes <ind>sz&aacute;m</ind></trd>
   <trd lng="pl">liczba naturalna</trd>
+  <trd lng="ro">numar natural</trd>
   <trd lng="ru">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
   <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
 </drv>
@@ -1231,7 +1306,12 @@
   <trd lng="fr">innombrable</trd>
   <trd lng="hu">sz&aacute;mtalan</trd>
   <trd lng="nl">talloos</trd>
+  <trdgrp lng="pl">
+    <trd>nieprzeliczalny</trd>,
+    <trd>niezliczony</trd>
+  </trdgrp>
   <trd lng="pt">in&uacute;meros</trd>
+  <trd lng="ro">nenum&abreve;rabil </trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_je;&c_s;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_n;&c_je;&c_s;&c_ch;&c_jo;&c_t;&c_n;&c_y;&c_j;</trd>,
@@ -1270,6 +1350,8 @@
     <trd>trialis</trd>,
     <trd>drievoud</trd>
   </trdgrp>
+  <trd lng="pl">liczba potr&oacute;jna</trd>
+  <trd lng="ro">num&abreve;r triplu</trd>
   <trd lng="ru">&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
 </drv>
 
@@ -1316,6 +1398,7 @@
   <trd lng="hu">egyes sz&aacute;m</trd>
   <trd lng="nl">enkelvoud</trd>
   <trd lng="pl">liczba pojedyncza</trd>
+  <trd lng="ro">singular</trd>
   <trd lng="ru">&c_je;&c_d;&c_i;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
   &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
   <trd lng="sk">jednotn&eacute; &ccaron;&iacute;slo</trd>
@@ -1338,6 +1421,8 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="pl">pojedynczy</trd>
+    <trd lng="ro">unic</trd>
     <trd lng="ru">&c_v;
     <ind>&c_je;&c_d;&c_i;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_m;
     &c_ch;&c_i;&c_s;&c_l;&c_je;</ind></trd>
@@ -1385,6 +1470,7 @@
   <trd lng="en">census</trd>
   <trd lng="fr">recensement<klr> (de la population)</klr></trd>
   <trd lng="pl">spis statystyczny</trd>
+  <trd lng="ro">recens&abreve;m&acirc;nt</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_p;&c_i;&c_s;&c_mol;
   &c_n;&c_a;&c_s;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
   <trd lng="sk">s&ccaron;&iacute;tanie &lcaron;udu</trd>
@@ -1417,6 +1503,8 @@
     <trd lng="de">Zahlwort</trd>
     <trd lng="es">numeral</trd>
     <trd lng="hu">sz&aacute;mn&eacute;v</trd>
+    <trd lng="pl">liczebnik</trd>
+    <trd lng="ro">numeral</trd>
     <trd lng="ru">&c_ch;&c_i;&c_s;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;</trd>
   </snc>
   <trd lng="cs">&ccaron;&iacute;slovka</trd>
@@ -1439,7 +1527,6 @@
         <ind>pozicia <tld/>osistemo</ind>
         <klr>(en kiu oni prezentas <tld/>ojn per
           <ref cel="prezen1.numa0o">n-umaj prezentoj</ref>)</klr>;  
-          
         <trd lng="de">Stellenwertsystem</trd>
         <trd lng="en">place value system</trd>
         <trd lng="fr">num&eacute;ration de position</trd>
@@ -1508,11 +1595,18 @@
     <trd>&ccaron;&iacute;seln&yacute; syst&eacute;m</trd>
   </trdgrp>
   <trd lng="de">Zahlensystem</trd>
+  <trdgrp lng="ro">
+    <trd>sistem pozi&#539;ional de notare</trd>,
+    <trd>sistem de numera&#539;ie</trd>
+  </trdgrp>
   <trd lng="sk">&ccaron;&iacute;seln&aacute; s&uacute;stava</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.157 2021/10/23 20:30:32
+Vito Redsky: +trd pl +trd ro
+
 versio 1.156 2021/08/16 08:33:55
 Dmitri Gabinski: + trd be
 
@@ -1532,8 +1626,5 @@ Revision 1.74  2019/06/30 18:21:48  revo
 adaptis URL de Monato
 
 Revision 1.73  2019/06/30 07:42:49  revo
-adaptis URL de Monato
-
-Revision 1.72  2018/08/24 15:15:13  revo
 -->
 </vortaro>
