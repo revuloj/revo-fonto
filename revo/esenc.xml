@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: esenc.xml,v 1.22 2021/10/24 08:31:44 revo Exp $">
+<art mrk="$Id: esenc.xml,v 1.23 2021/10/24 10:31:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>esenc</rad>/o
@@ -170,7 +170,8 @@
       <ref cel="fundam.0o.FIG">fundamento</ref>,
       <ref cel="kern.0o.esenco">kerno</ref>,
       <ref cel="kvinte.0o">kvintesenco</ref>,
-      <ref cel="princi.0o">principo</ref>
+      <ref cel="princi.0o">principo</ref>,
+      <ref cel="suk.0o.plejgravajxo">suko<sncref/></ref>
     </refgrp>
     <trd lng="de">Wesentliches</trd>
     <trd lng="hu">l&eacute;nyeg</trd>
@@ -183,7 +184,7 @@
   </snc>
   <snc mrk="esenc.0o.eltirajxo">
     <dif>
-      Densigita eltira&jcirc;o el iuj substancoj ordinare bonodoraj
+      Densigita <ref tip="super" cel="tir.el0ajxo">eltira&jcirc;o</ref> el iuj substancoj ordinare bonodoraj
       a&ubreve; aromaj:
       <ekz>
         la rozoj jam estis kolektitaj kaj oni faris el ili <tld/>on
@@ -257,14 +258,30 @@
 
 <drv mrk="esenc.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="esenc.0a.lauxnatura">
     <dif>
       Konsistiganta la propran naturon de io:
       <ekz>
-        <tld/>aj karakteroj de ia speco;
+        la&ubreve; la vojo de vero mi iras <klr>[&#8230;]</klr> por heredigi al miaj amantoj <tld/>an
+        bonon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 8:21</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>aj elementoj de &scirc;tono.
+        la rakonto estas lerte konstruita, kaj enhavas tiun <tld/>an elementon de
+        konflikto, kiu distingas vivan historion de banala&jcirc;o
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne penetrinte en la <tld/>ajn ka&ubreve;zojn de moderna kapitalismo kaj imperialismo,
+        Zamenhof jam bone anta&ubreve;vidis, ke la rezultato de tiu milito estos nula
+        <fnt>
+          <bib>Zam</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="hu">l&eacute;nyeges</trd>
@@ -275,27 +292,51 @@
     <trd lng="ru">
     &c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc>
+  <snc mrk="esenc.0a.plej_grava">
     <dif>
       Estanta plej grava en io:
       <ekz>
-        la <tld/>a devo de homo estas vivi
-        la&ubreve; la racio;
-      </ekz>
-      <ekz>
-        problemoj <klr>[&#8230;]</klr> ne<tld/>aj
+        krom la supre montritaj tri &ccirc;efaj problemoj, mi devis, kompreneble, solvi
+        ankora&ubreve; multajn aliajn, sed pri ili, &ccirc;ar ili estas ne <tld/>aj, mi ne parolos
+        tie &ccirc;i
         <fnt>
           <bib>FK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        estas <tld/>e agi kun rapideco.
+        via timo venis nur de tio, ke vi ne tute &gcirc;uste prezentas al vi la <tld/>an
+        signifon de tiuj pligrandigitaj vortaroj
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la muso]</klr> tuj forman&gcirc;etis preska&ubreve; tutan romanon, tio estas nur la molan
+        parton, la <tld/>an, sed la &scirc;elon, la bindon <klr>[&gcirc;i]</klr> lasis netu&scirc;ita
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni deziras krei organismon, kies <tld/>a celo estos produkti antidoton
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen<tld/>a <klr>(<ref tip="super" cel="hav.senen0a">senenhava</ref>)</klr> metaforo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="precip.0a">precipa</ref>,
       <ref cel="fundam.0a">fundamenta</ref>
     </refgrp>
+    <trd lng="de">wichtigstes</trd>
     <trd lng="hu">l&eacute;nyegi</trd>
     <trdgrp lng="pl">
       <trd>esencjonalny</trd>,
@@ -316,7 +357,6 @@
   <trdgrp lng="de">
     <trd>wesentlich</trd>,
     <trd>essenziell</trd>,
-    <trd>wichtig</trd>
   </trdgrp>
   <trd lng="es">esencial</trd>
   <trd lng="fr">essentiel</trd>
@@ -329,8 +369,8 @@
   <snc mrk="esenc.0ismo.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
-      Doktrino, kiu prefere rigardas iujn ecojn de a&jcirc;oj kiel esencajn, 
-      ne dependajn je situacio:
+      Doktrino, kiu prefere rigardas iujn ecojn de a&jcirc;oj kiel <tld/>ajn, 
+      ne dependajn de situacio:
       <ekz>
         Aviceno elstarigis la <tld/>on per la deklaro, ke la ekzisto 
         alvenas al &gcirc;i kiel <ind>akcidenco</ind>, jen radikala <tld/>ismo
@@ -361,6 +401,7 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_e;&c_s;&c_e;&c_n;&c_c;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="de">Essentialismus</trd>
   <trd lng="fr">essencialisme</trd>
 </drv>
 
@@ -383,6 +424,7 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="esenc.simil0a.KRI">similesenca</ref>
+    <trd lng="de">konsubstantiell</trd>
     <trd lng="grc">
     &omikron_densa;&my;&omikron;&omikron;&ypsilon_acute;&sigma;&jota;&omikron;
     &sigma_fina;</trd>
@@ -419,6 +461,9 @@
 </art>
 <!--
 $Log$
+versio 1.23 2021/10/24 10:31:26
+Wolfram Diestel: ~a: +ekz-oj
+
 versio 1.22 2021/10/24 08:31:44
 Wolfram Diestel: ~o: ekz-oj, ref-oj, trd de
 
@@ -438,8 +483,5 @@ Revision 1.15  2007/03/06 17:30:41  revo
 Jeromo Vasxe: + ~ismo
 
 Revision 1.14 2006/08/31 15:22:44 revo
-Sebastian Cyprych: +trd pl +refgrp sin
-
-Revision 1.13 2005/08/13 16:33:08 revo
 -->
 </vortaro>
