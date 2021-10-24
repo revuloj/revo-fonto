@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: infuz.xml,v 1.18 2015/07/04 08:37:36 revo Exp $">
+<art mrk="$Id: infuz.xml,v 1.19 2021/10/24 10:31:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>infuz</rad>/i
@@ -17,12 +17,10 @@
       Ver&scirc;i bolantan akvon a&ubreve; flua&jcirc;on sur ian substancon,
       por ke tiu flua&jcirc;o prenu la esencajn sukojn el tiu substanco:
       <ekz>
-        Hajjat <tld/>is teon
+        oni povas a&ccirc;eti <klr>[&#8230;]</klr> e&ccirc; bolantan akvon por mem <tld/>i 
+        <ref cel="te.0o.trinkajxo">teo</ref>n kunportitan
         <fnt>
-          <aut>Mahbube Mirkadiri</aut>,
-          <vrk>Donaco el voja&gcirc;o</vrk>,
-          <bib>LOdE</bib>,
-          <lok>2003:3 (101)</lok>
+          <bib>KrM</bib>
         </fnt>;
       </ekz>
       <ekz>
@@ -31,10 +29,16 @@
         <fnt><bib>Revadoj</bib>, <lok>kvara promenado</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="dekokt.0i">dekokti</ref>
+    <refgrp tip="vid">
+      <ref cel="dekokt.0i">dekokti</ref>,
+      <ref cel="distil.0i">distili</ref>,
+      <ref cel="ekstra.0i.KEM">ekstrakti<sncref/></ref>,
+      <ref cel="tir.el0i">eltiri</ref>,
+      <ref cel="macer.0i">maceri</ref>
+    </refgrp>
     <ref tip="super" cel="kuir.0i">kuiri</ref>
   </snc>
-  <trd lng="cs">provádět infuzi</trd>
+  <trd lng="cs">prov&aacute;d&ecaron;t infuzi</trd>
   <trdgrp lng="de">
     <trd>aufgie&szlig;en</trd>,
     <trd>aufbr&uuml;hen</trd>,
@@ -58,7 +62,7 @@
     <trd>&c_z;&c_a;&c_v;&c_a;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_n;&c_a;&c_s;&c_t;&c_a;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">prevádzať infúziu</trd>
+  <trd lng="sk">prev&aacute;dza&tcaron; inf&uacute;ziu</trd>
   <trd lng="tr">demlemek</trd>
 </drv>
 
@@ -68,12 +72,27 @@
   <uzo tip="fak">KUI</uzo>
   <uzo tip="fak">MED</uzo>
     <dif>
-      Solva&jcirc;o ricevita per <tld/>ado:
+      <ref tip="super" cel="solv.0ajxo">Solva&jcirc;o</ref> ricevita per <tld/>ado:
       <ekz>
         <tld/>a&jcirc;o de mento;
       </ekz>
       <ekz>
-        frukto<tld/>a&jcirc;o.
+        kru&ccirc;eto plena de odoranta varmega herb<tld/>a&jcirc;o
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La tri Magiaj Pordegoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la homoj, morditaj de rabiaj hundoj, ne nur uzis <tld/>a&jcirc;ojn de diversaj herboj
+        kaj bani&gcirc;is en la sanktaj akvujoj, sed e&ccirc; bruligis a&ubreve; eltran&ccirc;is la mordlokon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009550.php">Batalo kontra&ubreve; mortiga malsano</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="sub" cel="tizan.0o">tizano</ref>
@@ -101,9 +120,25 @@
   <kap><tld/>i&gcirc;i</kap>
   <snc mrk="infuz.0igxi.KUI">
     <dif>
-      I&gcirc;i <tld/>ita.
+      <ref tip="super" cel="solv.0igxi">Solvi&gcirc;i</ref>, eltiri&gcirc;i per <tld/>ado:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        por ke ideo akcepti&gcirc;u en la lando <klr>[&#8230;]</klr>, &gcirc;i devas <tld/>i&gcirc;i en la
+        mensojn dum proksimume jaro
+        <fnt>
+          <bib>MD05</bib>
+          <vrk>Rekonstruado de la Dekstro, Nova Politika Ciklo</vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="sorb.en0i">ensorbi</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>ziehen <klr>(Teeaufguss)</klr></trd>,
+    <trd>durchziehen <klr>(Tee)</klr></trd>
+  </trdgrp>
   <trd lng="fr">infuser<klr tip="ind"> (intr.)</klr></trd>
   <trd lng="hu">leforr&aacute;z&oacute;dik</trd>
   <trdgrp lng="ru">
@@ -111,9 +146,13 @@
     <trd>&c_n;&c_a;&c_s;&c_t;&c_a;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
 </drv>
+
 </art>
 <!--
 $Log$
+versio 1.19 2021/10/24 10:31:26
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
 Revision 1.17  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -133,11 +172,5 @@ Revision 1.12  2004/01/21 19:01:58  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.11  2003/07/14 16:33:40  revo
-Marc Bavant: +trd fr, +ekz, +drv ~igxi
-
-Revision 1.10 2003/01/21 17:31:30 revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.9 2003/01/04 20:18:47 revo
 -->
 </vortaro>
