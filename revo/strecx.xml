@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: strecx.xml,v 1.107 2021/10/24 17:31:49 revo Exp $">
+<art mrk="$Id: strecx.xml,v 1.108 2021/10/24 18:32:05 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>stre&ccirc;</rad>/i <fnt><bib>PV</bib></fnt>
@@ -123,8 +123,7 @@
         Horlo&gcirc;etoj, stre&ccirc;u la risortojn // Por anonci horon de l' progreso
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko"
-              >La Stranga Butiko</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
           <lok>La Horo de l' Progreso</lok>
         </fnt>;
       </ekz>
@@ -314,16 +313,23 @@
 
 <drv mrk="strecx.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="strecx.0a.strikta">
     <dif>
-      Malpufa:
+      <tld lit="S"/>ita, <ref cel="strikt.0a.TEKS">strikta</ref>:
       <ekz>
-        <tld/>a vesto
+        <tld/>a vesto;
+      </ekz>
+      <ekz>
+        ekvidante lian ornaman epoleton mi rigidi&gcirc;is en <tld/>a salutpozo
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="strikt.0a">strikta</ref>.
+      <ref cel="strikt.0a">strikta</ref>
     </refgrp>
+    <trd lng="de">gespannt</trd>
     <trdgrp lng="hu">
       <trd>feszes</trd>,
       <trd>szoros</trd>
@@ -334,20 +340,55 @@
       <trd>&c_n;&c_a;&c_t;&c_ja;&c_n;&c_u;&c_t;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="strecx.0a.postulema">
     <dif>
-      Ekstreme energia:
+      Ekstreme energia, forto<ref cel="postul.0ema">postulema</ref>:
       <ekz>
-        la vivo estas <tld/>a batalo<fnt>Z</fnt>;
+        <tld/>a laboro
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a atendado;
+        <tld/>a batalo
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        esti &ccirc;iam en <tld/>a preteco.
+        <tld/>a historio
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> a&ubreve;skultis la interparoladon kun <tld/>a atento
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la cirkonstancoj <klr>[&#8230;]</klr> ka&ubreve;zis al li multajn horojn de malgaja kaj
+        <tld/>a medito
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        min ekkaptis <tld/>a scivolemo
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">anstrengend</trd>
+    <refgrp tip="vid">
+       <ref cel="kapt.atento0a">atentokapta</ref>,
+       <ref cel="spir.0kapta">spirkapta</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>anstrengend</trd>,
+      <trd>spannend</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>fesz&uuml;lt</trd>,
       <trd>meger&odblac;ltet&odblac;</trd>
@@ -513,7 +554,7 @@
       Elasti&gcirc;i, moli&gcirc;i, etendi&gcirc;i la&ubreve; sia normala, ne perforte vastigita 
       formo:
       <ekz>
-        la tempo <klr>...</klr> entenas unuecan longecon,
+        la tempo <klr>[&#8230;]</klr> entenas unuecan longecon,
         sed en nia penso &gcirc;i <tld/>i&gcirc;as kaj mal<tld/>i&gcirc;as
         la&ubreve; nia deziro a&ubreve; penso
         <fnt>
@@ -609,6 +650,9 @@
 </art>
 <!--
 $Log$
+versio 1.108 2021/10/24 18:32:05
+Wolfram Diestel: ~a: ekz-oj, ref-oj, trd de
+
 versio 1.107 2021/10/24 17:31:49
 Wolfram Diestel: ~i: ekz-oj
 
@@ -628,8 +672,5 @@ Revision 1.31  2009/12/11 17:30:17  revo
 Jeromo Vasxe: - sup d + fnt millidge
 
 Revision 1.30  2009/08/27 16:32:59  revo
-Emmanuel Debanne: +trd ku
-
-Revision 1.29  2009/06/25 16:30:57  revo
 -->
 </vortaro>
