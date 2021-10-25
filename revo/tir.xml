@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: tir.xml,v 1.125 2021/10/25 17:33:34 revo Exp $">
+<art mrk="$Id: tir.xml,v 1.126 2021/10/25 19:02:07 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tir</rad>/i <fnt><bib>PV</bib></fnt>
@@ -377,15 +378,7 @@
   <snc mrk="tir.0i.sekvigi">
     <uzo tip="klr">(io)</uzo>
     <uzo tip="stl">FIG</uzo>
-    <dif>
-      Sekvigi, estigi, ricevi rezultaton:
-      <ekz>
-        tiu vorto <tld/>as grandan signifon el la kunteksto;
-      </ekz>
-      <ekz>
-        tiu konflikto povas <tld/>i post si gravajn sekvojn.
-      </ekz>
-    </dif>
+    <ref tip="dif" cel="tir.post.0i.sekvigi">post<tld/>i<sncref/></ref>
     <trd lng="hu">maga ut&aacute;n <ind>von</ind></trd>
     <trd lng="pl">poci&aogonek;ga&cacute;</trd>
     <trdgrp lng="ru">
@@ -916,6 +909,7 @@
         <fnt><bib>Revadoj</bib>, <lok>Na&ubreve;a promenado</lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="de">abziehen</trd>
     <trdgrp lng="es">
       <trd>desprender<klr tip="ind"> (tirando)</klr></trd>
     </trdgrp>
@@ -956,6 +950,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">wegziehen</trd>
     <trdgrp lng="es">
       <trd>sacar</trd>,
       <trd>extraer</trd>
@@ -1190,8 +1185,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Anna L&ouml;wenstein</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006800.html"
-              >Funebro sen dio</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006800.html">Funebro sen dio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -1389,6 +1383,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">sich zusammen <ind>ziehen</ind></trd>
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_c;&c_ja;&c_g;&c_v;&c_a;&c_c;&c_c;&c_a; <klr>(&c_u; &c_a;&c_d;&c_n;&c_o; &c_m;&c_je;&c_s;&c_c;&c_a;)</klr></trd>
   <trdgrp lng="es">
@@ -1422,28 +1417,41 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="tren.0i">treni</ref>
+    <ref tip="vid" cel="tren.0i">treni</ref>  
+    <trdgrp lng="be">
+      <trd>&c_c;&c_ja;&c_g;&c_n;&c_u;&c_c;&c_mol; <klr>(&c_z;&c_a; &c_s;&c_a;&c_b;&c_o;&c_j;)</klr></trd>,
+      <trd>&c_v;&c_a;&c_l;&c_a;&c_ch;&c_y;</trd>
+    </trdgrp>
+    <trd lng="es">arrastrar</trd>
+    <trd lng="fr">trainer</trd>
+    <trdgrp lng="hu">
+      <trd>maga ut&aacute;n <ind>h&uacute;z</ind></trd>,
+      <trd>maga ut&aacute;n <ind>von</ind></trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>ci&aogonek;gn&aogonek;&cacute;</trd>,
+      <trd>w&lstroke;&oacute;czy&cacute;</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_t;&c_a;&c_shch;&c_i;&c_t;&c_mol; &c_z;&c_a;
+      &c_s;&c_o;&c_b;&c_o;&c_j;</trd>,
+      <trd>&c_t;&c_a;&c_s;&c_k;&c_a;&c_t;&c_mol; &c_z;&c_a;
+      &c_s;&c_o;&c_b;&c_o;&c_j;</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_c;&c_ja;&c_g;&c_n;&c_u;&c_c;&c_mol; <klr>(&c_z;&c_a; &c_s;&c_a;&c_b;&c_o;&c_j;)</klr></trd>,
-    <trd>&c_v;&c_a;&c_l;&c_a;&c_ch;&c_y;</trd>
-  </trdgrp>
-  <trd lng="es">arrastrar</trd>
-  <trd lng="fr">trainer</trd>
-  <trdgrp lng="hu">
-    <trd>maga ut&aacute;n <ind>h&uacute;z</ind></trd>,
-    <trd>maga ut&aacute;n <ind>von</ind></trd>
-  </trdgrp>
-  <trdgrp lng="pl">
-    <trd>ci&aogonek;gn&aogonek;&cacute;</trd>,
-    <trd>w&lstroke;&oacute;czy&cacute;</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_t;&c_a;&c_shch;&c_i;&c_t;&c_mol; &c_z;&c_a;
-    &c_s;&c_o;&c_b;&c_o;&c_j;</trd>,
-    <trd>&c_t;&c_a;&c_s;&c_k;&c_a;&c_t;&c_mol; &c_z;&c_a;
-    &c_s;&c_o;&c_b;&c_o;&c_j;</trd>
-  </trdgrp>
+  <snc mrk="tir.post0i.sekvigi">
+    <dif>
+      <ref tip="dif" cel="sekv.0igi.rezultigi">Sekvigi</ref>, 
+      <ref cel="est.0igi">estigi</ref>, <ref cel="rezult.0igi">rezultigi</ref>:
+      <ekz>
+        ni tro vidis, kiajn fatalajn konsekvencojn tia frazo post<tld/>is post si
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">nach sich <ind>ziehen</ind></trd>
+  </snc>
 </drv>
 
 <drv mrk="tir.re0i">
@@ -1453,24 +1461,57 @@
     <dif>
       Revenigi returne:
       <ekz>
-        la luno estis re<tld/>inta sin malanta&ubreve; nigrajn nubojn;
+        li re<tld/>is sian manon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 38:29</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        re<tld/>i la etenditan manon;
+        la idoj kaj re<tld/>is siajn kapojn en la neston
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Cikonioj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kiam vorto eliris, vi &gcirc;in jam ne re<tld/>os
-        <fnt><bib>PrV</bib></fnt>;
+        ili havis re<tld/>itajn manikojn kaj volis montri siajn ostecajn nudajn brakojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ib kaj malgranda kristino</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la malamika armeo, la superakvo <ind>re<tld/>i&gcirc;i</ind>s;
+        &scirc;ia rigardo fari&gcirc;is vitreca kaj re<tld/>ita internen
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tuta popolo vidis la tondrojn kaj <klr>[&#8230;]</klr> la fumi&gcirc;adon de la monto
+        <klr>[&#8230;]</klr> kaj <ind>re<tld/>i&gcirc;i</ind>s kun teruro kaj stari&gcirc;is malproksime
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 20:18</lok>
+        </fnt>;
+        <trd lng="de">sich <ind>zur&uuml;ckziehen</ind></trd>
         <trd lng="es"><ind>retirar</ind>se</trd>
         <trd lng="fr">se <ind>retirer</ind></trd>
         <trd lng="hu">visszah&uacute;z&oacute;dik</trd>
         <trd lng="ru">&c_o;&c_t;&c_s;&c_t;&c_u;&c_p;&c_i;&c_t;&c_mol;</trd>
       </ekz>
       <ekz>
-        &scirc;i rigardis lin silente, re<tld/>eme.
+        de la a&gcirc;o de kvindek jaroj ili re<tld/>i&gcirc;os 
+        <klr>(kp <ref cel="emerit.0igxi">emeriti&gcirc;i</ref>)</klr> el la ofico <klr>[&#8230;]</klr> 
+        kaj ne servos plu
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 8:25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam vorto eliris, vi &gcirc;in jam ne re<tld/>os
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -1510,6 +1551,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Korkenzieher</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_r;&c_e;&c_j;&c_c;&c_a;&c_r;</trd>,
@@ -1533,6 +1575,12 @@
     <dif>
       Elpreno de ia kvanto da sango el korpo:
       <ekz>
+        farinte lar&gcirc;an sangel<tld/>on, li eliris, dirante, ke li revenos dum la vespero
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         anka&ubreve; estis tuboj kun enspiriloj kiuj utilas
         por fari sangel<tld/>ojn el la nuko
         <fnt>
@@ -1540,9 +1588,20 @@
           <vrk>En Maroko - Mia kombisto</vrk>,
           <bib>Esperanto</bib>,
           <lok>1926-07 (311)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> prezentis sian brakon al la &hcirc;irurgiisto, por ke &ccirc;i tiu povu
+        praktiki la necesan sangel<tld/>on
+        <fnt>
+          <bib>ChL</bib>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Blutentnahme</trd>,
+      <trd>Aderlass</trd>
+    </trdgrp>
   </snc>
   <trd lng="cs">pu&scaron;t&ecaron;n&iacute; &zcaron;ilou</trd>
   <trdgrp lng="es">
@@ -1557,6 +1616,9 @@
 </art>
 <!--
 $Log$
+versio 1.126 2021/10/25 19:02:07
+Wolfram Diestel: ~i 6: = post~i (+snc sekvigi); post~i, re~iu, sangel~o: ekz-oj; trd de
+
 versio 1.125 2021/10/25 17:33:34
 Wolfram Diestel: kun~*: ekz-oj
 
@@ -1576,8 +1638,5 @@ versio 1.120 2021/10/24 12:43:02
 Wolfram Diestel: ~i 1..5: ekz-oj
 
 versio 1.119 2021/10/24 09:27:43
-Wolfram Diestel: +el~ajxo
-
-versio 1.118 2021/09/23 13:36:07
 -->
 </vortaro>
