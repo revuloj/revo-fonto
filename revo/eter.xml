@@ -2,18 +2,99 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eter.xml,v 1.18 2015/07/04 08:37:33 revo Exp $">
+<art mrk="$Id: eter.xml,v 1.19 2021/10/28 06:34:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>eter</rad>/o
 </kap>
 <drv mrk="eter.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="eter.0o.FIZ">
-    <uzo tip="fak">FIZ</uzo>
+  <snc mrk="eter.0o.klaso">
+    <uzo tip="fak">KEM</uzo>
     <dif>
-      Senpeza elasta substanco, kiun oni supozis penetri &ccirc;iujn
-      korpojn kaj transsendi la diversajn formojn de energio:
+      Ano de la klaso de organikaj kombina&jcirc;oj konsistantaj el du
+      <ref cel="hidrok.0o">hidrokarbidaj</ref>
+      <ref cel="radika1.0o.KEM">radikaloj</ref>, interligitaj per
+      atomo de oksigeno: <frm>R-O-R</frm>:
+      <ekz>
+        etil-terciar-butil-<tld/>o (ETBE) estas produkto venanta el petrolo, kiu estis
+        aldonita al benzino en Usono
+        <fnt>
+          <bib>MD08</bib>
+          <vrk>Etanolo, nova feli&ccirc;igilo de la usonaj respondeculoj</vrk>
+        </fnt>.
+      </ekz>
+<!-- kontrolenda:
+      <ekz>
+        <ind>simpla <tld/>o</ind>;
+        <trd lng="hu">egyszer&udblac; <ind>&eacute;ter</ind></trd>
+        <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j;
+        &c_e;&c_f;&c_i;&c_r;</trd>
+      </ekz>
+      a&ubreve; per atomgrupo <frm>-OCO-</frm>, t.e.
+      <ekz>
+        <ind>malsimpla <tld/>o</ind>.
+        <trd lng="hu">vegyes <ind>&eacute;ter</ind></trd>
+        <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_n;&c_y;&c_j;
+        &c_e;&c_f;&c_i;&c_r;</trd>
+      </ekz>
+-->
+    </dif>    
+    <trd lng="de">Ether</trd>
+  </snc>
+  <snc mrk="eter.0o.MED">
+    <uzo tip="fak">KEM</uzo>
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      La plej vaste konata <tld/>o<sncref ref="eter.0o.klaso"/>,
+      <frm>C<sub>2</sub>H<sub>5</sub>OC<sub>2</sub>H<sub>5</sub></frm>
+      (dietil<tld/>o), tre facile vapori&gcirc;anta flua&jcirc;o,
+      uzata en medicino kiel anestezilo (1800-1950) kaj 
+      <ref tip="super" cel="solv.0ilo">solvilo</ref>:
+      <ekz>
+        la servistino estis sendita al la farmacisto por a&ccirc;eti <tld/>on
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi flaris menton, <tld/>on, e&ccirc; sulfuron
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        injektilo ekbrilis en la manoj de la kuracisto, <klr>[&#8230;]</klr> ekodoris je
+        <tld/>o, Ivano moli&gcirc;is en la manoj de la kvar homoj
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Ether</trd>,
+      <trd>&Auml;ther</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="eter.0o.FIZ">
+    <uzo tip="fak">FIZ</uzo><uzo tip="fak">FIL</uzo>
+    <dif>
+      La&ubreve; Aristotelo, la kvina <ref tip="super" cel="elemen.0o.FIL">elemento</ref> 
+      <klr>(vd <ref tip="sin" cel="kvinte.0o.FIL">kvintesenco</ref>)</klr>;
+      de la 17a jc en fiziko, supozata senpeza elasta substanco, 
+      kiun oni supozis penetri &ccirc;iujn korpojn kaj transsendi la diversajn formojn de energio:
+      <ekz>
+        apena&ubreve; la steloj ekellumis el la klara <tld/>o, li eksentis novan vivon
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la animo sin levas tra la <tld/>o supren, al la brilantaj steloj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         la homo povas &ccirc;ion kompreni: kiel vibras la <tld/>o kaj
         kio fari&gcirc;as sur la suno
@@ -21,65 +102,32 @@
         <lok>&ccirc;apitro 23a, p. 147a</lok></fnt>.
       </ekz>
     </dif>
-    <adm>
-      La difinoj estas reverkendaj. Mi nur sxangxis "supozas" al
-      "supozis"...
-      <aut>MB</aut>
-    </adm>
-  </snc>
-  <snc mrk="eter.0o.klaso">
-    <uzo tip="fak">KEM</uzo>
-    <dif>
-      Ano de la klaso de organikaj kombina&jcirc;oj konsistantaj el du
-      <ref cel="hidrok.0o">hidrokarbidaj</ref>
-      <ref cel="radika1.0o.KEM">radikaloj</ref>, interligitaj per
-      atomo de oksigeno: <frm>R-O-R</frm>
-      <ekz>
-        (<ind>simpla <tld/>o</ind>),
-        <trd lng="hu">egyszer&udblac; <ind>&eacute;ter</ind></trd>
-        <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j;
-        &c_e;&c_f;&c_i;&c_r;</trd>
-      </ekz>
-      a&ubreve; per atomgrupo <frm>-OCO-</frm>
-      <ekz>
-        (<ind>malsimpla <tld/>o</ind>).
-        <trd lng="hu">vegyes <ind>&eacute;ter</ind></trd>
-        <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_n;&c_y;&c_j;
-        &c_e;&c_f;&c_i;&c_r;</trd>
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="eter.0o.MED">
-    <uzo tip="fak">KEM</uzo>
-    <uzo tip="fak">MED</uzo>
-    <dif>
-      La plej vaste konata <tld/>o,<sncref ref="eter.0o.klaso"/>,
-      <frm>C<sub>2</sub>H<sub>5</sub>OC<sub>2</sub>H<sub>5</sub></frm>
-      (dietil<tld/>o), tre facile vapori&gcirc;anta flua&jcirc;o,
-      anestezilo.
-    </dif>
+    <trd lng="de">&Auml;ther</trd>
+    <trd lng="grc">&alfa;&jota_psili;&theta;&eta_ton;&rho;</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_e;&c_t;&c_e;&c_r;</trd>,
     <trd>&c_e;&c_f;&c_ib;&c_r;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>nadzemský prostor</trd>,
-    <trd>éter</trd>
-  </trdgrp>
-  <trd lng="de">&Auml;ther</trd>
+    <trd>nadzemsk&yacute; prostor</trd>,
+    <trd>&eacute;ter</trd>
+  </trdgrp>  
   <trd lng="en">ether</trd>
   <trd lng="fr">&eacute;ther</trd>
   <trd lng="hu">&eacute;ter</trd>
   <trd lng="pl">eter</trd>
   <trd lng="pt">&eacute;ter</trd>
   <trd lng="ru">&c_e;&c_f;&c_i;&c_r;</trd>
-  <trd lng="sk">éter</trd>
+  <trd lng="sk">&eacute;ter</trd>
   <trd lng="sv">eter</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2021/10/28 06:34:15
+Wolfram Diestel: precizigoj, ekz-oj, ref-oj
+
 Revision 1.17  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -99,11 +147,5 @@ Revision 1.12  2003/08/25 16:32:42  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.11  2003/01/20 17:31:12  revo
-Jeromo Vasxe: + ekz de snc 1
-
-Revision 1.10 2002/06/25 19:40:41 revo
-Ulrich Fellmann: + 1 trd de
-
-Revision 1.9 2002/01/22 17:32:04 revo
 -->
 </vortaro>
