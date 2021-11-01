@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: verb.xml,v 1.99 2021/11/01 05:28:34 revo Exp $">
+<art mrk="$Id: verb.xml,v 1.100 2021/11/01 08:35:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>verb</rad>/o <fnt><bib>PV</bib></fnt>
@@ -171,6 +171,7 @@
       </ekz>
     </dif>
   </snc>
+  <ref tip="ant" cel="verb.stat0o">stat<tld/>o</ref>
   <trd lng="en">dynamic <ind>verb</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l; &c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_ja;</trd>,
@@ -183,14 +184,18 @@
   <uzo tip="fak">GRA</uzo>
   <snc mrk="verb.dauxr0o.senrezulta">
     <dif>
-      Stat<tld/>o a&ubreve; tia ag<tld/>o kiu esprimas agon kiel da&ubreve;rantan
-      sen implici rezulton, plenumi&gcirc;on a&ubreve; finan staton:
+      <ref tip="sub" cel="verb.stat0o">Stat<tld/>o</ref> a&ubreve; tia
+      <ref cel="verb.ag0o">ag<tld/>o</ref> kiu esprimas agon kiel
+      da&ubreve;rantan sen implici rezulton, plenumi&gcirc;on a&ubreve; finan staton:
       <ekz>
         la da&ubreve;r<tld/>oj esprimas nur la procezon a&ubreve; staton
         <fnt><aut>Sergio Pokrovskij</aut>: <vrk>Aspektoj</vrk>.
           <bib>LOdE</bib>, <lok>&#8470;293 (2019:3)</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="verb.rezult0o">rezult<tld/>o</ref>
+    <trd lng="en">atellic <ind>verb</ind></trd>
+    <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</ind></trd>
   </snc>
 </drv>
 
@@ -216,18 +221,26 @@
 <drv mrk="verb.rezult0o">
   <kap>rezult<tld/>o</kap>
   <uzo tip="fak">GRA</uzo>
-  <snc mrk="verb.dauxr0o.gxenerale">
+  <snc mrk="verb.rezult0o.gxenerale">
     <dif>
-      Ag<tld/>o kiu esprimas agon kiel limigitan per ia
-      fina, rezulta stato, kiee atingo malebligas pluigon de la ago:
+      <ref tip="super" cel="verb.ag0o">Ag<tld/>o</ref> kiu esprimas
+      la agon kiel limigitan per ia fina, rezulta stato, kiee atingo
+      malebligas pluigon de la ago:
       <ekz>
+        La verbojn de da&ubreve;ro sen rezulto oni povas transformi en
+        rezult<tld/>ojn per la prefiksoido ek &mdash; tiaokaze la rezulto
+        de la ago-komenco (ek-verbo) estas la ago-da&ubreve;ro mem
+        <fnt><bib>PAG</bib>, <lok>&para;110, p. 146.</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="verb.dauxr0o.senrezulta">da&ubreve;r<tld/>o</ref>
+    <trd lng="en">tellic verb</trd>
+    <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</ind></trd>
   </snc>
 </drv>
 
 <drv mrk="verb.stat0o">
-  <kap>ag<tld/>o <fnt><bib>PIV2</bib></fnt></kap>
+  <kap>stat<tld/>o <fnt><bib>PIV2</bib></fnt></kap>
   <uzo tip="fak">GRA</uzo>
   <snc>
     <dif>
@@ -241,6 +254,7 @@
       </ekz>
     </dif>
   </snc>
+  <ref tip="ant" cel="verb.ag0o">ag<tld/>o</ref>
   <trd lng="en">stative <ind>verb</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l; &c_s;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_ja;</trd>,
@@ -250,6 +264,9 @@
 </art>
 <!--
 $Log$
+versio 1.100 2021/11/01 08:35:37
+Sergio Pokrovskij: +ag~o, stat~o, help~o, dauxr~o, rezult~o
+
 versio 1.99 2021/11/01 05:28:34
 Sergio Pokrovskij: +ag~o, stat~o, help~o, dauxr~o, rezult~o
 
@@ -269,8 +286,5 @@ Revision 1.19  2014/01/08 09:10:11  revo
 Damien Brucker: +ref
 
 Revision 1.18  2012/08/13 08:10:19  revo
-Marc Rausell: + trd ca
-
-Revision 1.17  2009/08/21 16:31:44  revo
 -->
 </vortaro>
