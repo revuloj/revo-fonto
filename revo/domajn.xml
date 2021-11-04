@@ -2,77 +2,107 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: domajn.xml,v 1.3 2020/02/14 14:10:22 revo Exp $">
-    <kap>
-      <rad>domajn</rad>/o <fnt><bib>EKV</bib></fnt>
-    </kap>
-    <drv mrk="domajn.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="domajn.0o.NEO">
-        <uzo tip="stl">NEO</uzo>
-        <dif>
-          <ref tip="sin" cel="kamp.0o.tereno">Kampo<sncref/></ref>
-          agado, influo, regado.
-        </dif>
-      </snc>
-      <snc mrk="domajn.0o.MAT">
-        <uzo tip="fak">MAT</uzo> <fnt><bib>KompLeks</bib></fnt>
-        <subsnc mrk="domajn.0o.jxeto">
-          <dif>
-            Por <ref cel="jxet.0o.MAT">&jcirc;eto<sncref/></ref>, la
-            maksimuma subaro de la <ref tip="malprt"
-            cel="ar.fonto0o">fonta aro</ref>, sur kies elementoj la
-            &jcirc;eto estas difinita.
-          </dif>
-        </subsnc>
-        <subsnc mrk="domajn.0o.rilato">
-          <dif>
-            Por duloka rilato <frm am="RsubeAxxB">R&#8838;A&#215;B</frm>, la
-            aro <frm am="{x in A: (EEy in B)[(x,y)in R]}"
-            >{x&#8712;A : (&#8707;y&#8712;B)[(x,y)&#8712;R]}</frm>.
-          </dif>
-        </subsnc>
-        <subsnc mrk="domajn.0o.algoritmo">
-          <dif>
-            Por algoritmo <frm am="A">A</frm>, &gcirc;ia
-            &leftquot;<ref
-            cel="konver.0i.KOMP">konver&gcirc;ejo</ref>&rightquot;,
-            <frm am='bb "dom" A={x: A(x)darr}'
-            ><g>dom</g>&nbsp;A={x: A(x)&#8595;}</frm>.
-          </dif>
-       </subsnc>
-        <trd lng="ru">&c_o;&c_b;&c_l;&c_a;&c_s;&c_t;&c_mol; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
-      </snc>
-      <snc mrk="domajn.0o.KOMP">
-        <uzo tip="fak">KOMP</uzo> <fnt><bib>KompLeks</bib></fnt>
-        <dif>
-          En la <ref cel="ret.Inter0o.KOMP">Interreto</ref>, grupo de
-          komputiloj kies po&scirc;tejo havas komunan finparton, la
-          <tld/>nomon. La <tld/>oj formas hierarkion; kiam oni uzas la
-          vorton sed precizigo, kutime temas pri maksimuma (pinta)
-          <tld/>o, a&ubreve; retregiono:
-          <ekz>
-            <ctl>Eventoj</ctl> estis la unua Esperanto-gazeto, kiu
-            siatempe
-            registris por si propran interretan
-            <tld/>on: <ctl>eventoj.hu</ctl>
-            <fnt>
-              <vrk>Jubileo kaj interesa&jcirc;oj &ccirc;e Lingvo-Studio</vrk>,
-              <lok><url
-              ref="http://www.eventoj.hu/lingvo-studio-jubileo30.htm"
-                  >Eventoj</url></lok>
-            </fnt>. 
-          </ekz>
-        </dif>
-        <trd lng="ru">&c_d;&c_o;&c_m;&c_je;&c_n;</trd>
-      </snc>
-      <trd lng="en">domain</trd>
-    </drv>
+<art mrk="$Id: domajn.xml,v 1.4 2021/11/04 18:33:43 revo Exp $">
+<kap>
+  <rad>domajn</rad>/o <fnt><bib>EKV</bib></fnt>
+</kap>
+<drv mrk="domajn.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="domajn.0o.NEO">
+    <uzo tip="stl">NEO</uzo>
+    <dif>
+      <ref tip="sin" cel="kamp.0o.tereno">Kampo<sncref/></ref>
+      de agado, influo, regado:
+      <ekz>
+        <nom>Google</nom> sukcese etendis la domajnon de kapitalismo en la lingvon mem, farante
+        varojn el vortoj
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>Survoje al lingva kapitalismo</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="brancx.0o.FIG">bran&ccirc;o<sncref/></ref>,
+      <ref cel="fak.0o.brancxo">fako<sncref/></ref>,
+      <ref cel="sektor.0o.EKON">sektoro<sncref/></ref>
+    </refgrp>
+    <rim>
+      Per la vorto &leftquot;<ref cel="domin.0i">domini</ref>&rightquot; oni povas formi sinonimon &leftquot;dominejo&rightquot;.
+    </rim>
+  </snc>
+  <snc mrk="domajn.0o.MAT">
+    <uzo tip="fak">MAT</uzo> <fnt><bib>KompLeks</bib></fnt>
+    <subsnc mrk="domajn.0o.jxeto">
+      <dif>
+        Por <ref cel="jxet.0o.MAT">&jcirc;eto<sncref/></ref>, la
+        maksimuma subaro de la <ref tip="malprt" cel="ar.fonto0o">fonta aro</ref>, sur kies elementoj la
+        &jcirc;eto estas difinita.
+      </dif>
+    </subsnc>
+    <subsnc mrk="domajn.0o.rilato">
+      <dif>
+        Por duloka rilato <frm am="RsubeAxxB">R&#8838;A×B</frm>, la
+        aro <frm am="{x in A: (EEy in B)[(x,y)in R]}">{x&#8712;A : (&#8707;y&#8712;B)[(x,y)&#8712;R]}</frm>.
+      </dif>
+    </subsnc>
+    <subsnc mrk="domajn.0o.algoritmo">
+      <dif>
+        Por algoritmo <frm am="A">A</frm>, &gcirc;ia
+        &leftquot;<ref cel="konver.0i.KOMP">konver&gcirc;ejo</ref>&rightquot;,
+        <frm am="bb &quot;dom&quot; A={x: A(x)darr}"><g>dom</g>&nbsp;A={x: A(x)&#8595;}</frm>.
+      </dif>
+   </subsnc>
+    <trd lng="ru">&c_o;&c_b;&c_l;&c_a;&c_s;&c_t;&c_mol; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
+  </snc>
+  <snc mrk="domajn.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo> <fnt><bib>KompLeks</bib></fnt>
+    <dif>
+      En la <ref cel="ret.Inter0o.KOMP">Interreto</ref>, grupo de
+      komputiloj kies retnomo havas komunan finparton, la
+      <tld/>nomon. La <tld/>oj formas hierarkion; kiam oni uzas la
+      vorton sen precizigo, kutime temas pri maksimuma (pinta)
+      <tld/>o, a&ubreve; <ref tip="sub" cel="region.ret0o">retregiono</ref>:
+      <ekz>
+        <ctl>Eventoj</ctl> estis la unua Esperanto-gazeto, kiu
+        siatempe
+        registris por si propran interretan
+        <tld/>on: <ctl>eventoj.hu</ctl>
+        <fnt>
+          <vrk>Jubileo kaj interesa&jcirc;oj &ccirc;e Lingvo-Studio</vrk>,
+          <lok><url ref="http://www.eventoj.hu/lingvo-studio-jubileo30.htm">Eventoj</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Interreto estas mastrumata de <klr>[&#8230;]</klr> <nom>ICANN</nom>, kiu mastrumas la adresojn
+        kaj la nomojn de la <klr>[&#8230;]</klr> <tld/>oj
+        <fnt>
+          <bib>MD02</bib>
+          <vrk>La nova ordo Interreto</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="adres.ret0o">retadreso</ref>,
+       <ref cel="ret.0ejo">retejo</ref>
+    </refgrp>
+    <trd lng="de">Domain</trd>
+    <trd lng="ru">&c_d;&c_o;&c_m;&c_je;&c_n;</trd>
+  </snc>
+  <rim>
+    Ne konfuzu kun la similsona fundamenta vorto &leftquot;<ref tip="hom" cel="domen.0o">domeno</ref>&rightquot; (ludo, mantelo).
+  </rim>
+  <trd lng="de">Dom&auml;ne</trd>
+  <trd lng="en">domain</trd>
+</drv>
 
-  </art>
+</art>
 
 <!--
-$Log: domajn.xml,v $
+$Log$
+versio 1.4 2021/11/04 18:33:43
+Wolfram Diestel: ekz-oj, ref-oj, rim-oj, trd de
+
 versio 1.3 2020/02/14 14:10:22
 Wolfram Diestel: formuloj per am
 
