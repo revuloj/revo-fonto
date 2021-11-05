@@ -2,10 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: katen.xml,v 1.35 2020/02/27 17:10:28 revo Exp $">
+<art mrk="$Id: katen.xml,v 1.36 2021/11/05 19:22:45 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>katen</rad>/o <fnt><bib>PIV1</bib></fnt>
+  <rad>katen</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="katen.0o">
@@ -88,8 +89,7 @@
       al fiksaj punktoj:
       <ekz>
         la kartezia ekvacio de <tld/>o estas de la tipo
-        <frm am="y=a(e^(x//a)+e^(-x//a))//2"
-        ><k>y</k> =
+        <frm am="y=a(e^(x//a)+e^(-x//a))//2"><k>y</k> =
         <k>a</k>(<k>e</k><sup><k>x</k>/<k>a</k></sup>+<k>e</k><sup>-<k>x</k>/<k>a</k></sup>)/2</frm>.
       </ekz>
     </dif>
@@ -153,6 +153,10 @@
         <fnt><bib>&Scirc;talrato</bib>, <lok>&ccirc;apitro 2a</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="arest.0i">aresti</ref>,
+       <ref cel="fiks.0i.flagon">fiksi<sncref/></ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>anketten</trd>,
       <trd>in <ind>Ketten</ind> legen</trd>
@@ -390,7 +394,10 @@
     </dif>
   </snc>
   <trd lng="cs">pouta na ruce</trd>
-  <trd lng="de">Handfesseln</trd>
+  <trdgrp lng="de">
+    <trd>Handfesseln</trd>,
+    <trd>Handschellen</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>handcuff</trd>,
     <trd>handcuffs</trd>,
@@ -435,7 +442,10 @@
 </drv>
 </art>
 <!--
-$Log: katen.xml,v $
+$Log$
+versio 1.36 2021/11/05 19:22:45
+Wolfram Diestel: fnt PV, +ref
+
 versio 1.35 2020/02/27 17:10:28
 Neil Roberts: Ripari ref
 
@@ -455,8 +465,5 @@ Revision 1.30  2019/03/25 23:10:18  revo
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.29  2015/08/21 07:10:19  revo
-Damien Brucker: +trd fr
-
-Revision 1.28  2015/07/04 08:37:37  revo
 -->
 </vortaro>
