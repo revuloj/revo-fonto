@@ -2,28 +2,43 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kontin2.xml,v 1.16 2018/08/10 22:10:17 revo Exp $">
+<art mrk="$Id: kontin2.xml,v 1.17 2021/11/12 18:32:10 revo Exp $">
 <kap>
-  <rad>kontingent</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <rad>kontingent</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="kontin2.0o">
   <kap><tld/>o</kap>
+  <uzo tip="fak">MIL</uzo><uzo tip="fak">EKON</uzo>
   <snc mrk="kontin2.0o.KOMUNE">
     <dif>
-      Nombro, parto, kiun oni devas liveri &ccirc;iufoje:
+      <ref tip="super" cel="nombr.0o.kvanto">Nombro</ref>, 
+      <ref tip="super" cel="part.0o.porcio">parto</ref>, kiun oni devas liveri &ccirc;iufoje:
       <ekz>
-        &ccirc;iu provinco liveris sian <tld/>on da greno;
+        <tld/>o de soldatoj
+        <klr>(kontribuenda al la landa armeo)</klr>;
       </ekz>
       <ekz>
-        pagi sian <tld/>on al la bankedo;
+        pro la el&ccirc;erpo de stoko ni devis resti <klr>[&#8230;]</klr> dum tri semajnoj por
+        atendi novan <tld/>on
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>o de la armeo
-        <klr>(nombro da soldatoj postulata &ccirc;iujare)</klr>.
+        el tiu <tld/>o varbi&gcirc;as la legantoj
+        <fnt>
+          <bib>LOdE</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Redakcie</url></vrk>
+          <lok>2003. &#8470; 11 (109)</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="kontri1.0o">kontribucio</ref>,
+      <ref cel="kvot.0o">kvoto</ref>,
+      <ref cel="porci.0o.KOMUNE">porcio</ref>,
       <ref cel="tribut.0o.POL">tributo</ref>
     </refgrp>
   </snc>
@@ -39,7 +54,10 @@
     <trd>pod&iacute;l</trd>,
     <trd>povinn&aacute; d&aacute;vka</trd>
   </trdgrp>
-  <trd lng="de">Kontingent</trd>
+  <trdgrp lng="de">
+    <trd>Kontingent</trd>,
+    <trd>Zuteilung</trd>
+  </trdgrp>
   <trd lng="en">contingent</trd>
   <trd lng="es">contingente</trd>
   <trdgrp lng="fr">
@@ -71,7 +89,7 @@
 </drv>
 
 <drv mrk="kontin2.0i">
-  <kap><tld/>i<fnt>Z</fnt></kap>
+  <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="kontin2.0i.KOMUNE">
     <dif>
@@ -93,8 +111,7 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>kontingentieren</trd>,
-    <trd>begrenzen</trd>,
-    <trd>limitieren</trd>
+    <trd>zuteilen</trd>,
   </trdgrp>
   <trd lng="fr">payer son <ind>&eacute;cot</ind></trd>
   <trdgrp lng="hu">
@@ -113,6 +130,9 @@
 </art>
 <!--
 $Log$
+versio 1.17 2021/11/12 18:32:10
+Wolfram Diestel: ekz, ref, trd de
+
 Revision 1.15  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
