@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: terur.xml,v 1.33 2021/11/11 16:49:04 revo Exp $">
+<art mrk="$Id: terur.xml,v 1.34 2021/11/12 13:34:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>terur</rad>/o
@@ -71,7 +71,7 @@
         <fnt><bib>Fab3</bib>, <lok>&leftquot;&Ccirc;io sur sian &gcirc;ustan lokon!&rightquot;</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="horor.0o.KOMUNE">hororo</ref>
+    <ref tip="vid" cel="horor.0o.abomeno">hororo<sncref/></ref>
     <trd lng="en">horror</trd>
   </snc>
   <trd lng="bo">&#xF51;&#xF44;&#xF44;&#xF66;&#xF0B;&#xF60;&#xF5A;&#xF56;&#xF0B;</trd>
@@ -87,66 +87,29 @@
   <trd lng="ru">&c_u;&c_zh;&c_a;&c_s;</trd>
 </drv>
 
-<drv mrk="terur.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="terur.0i.KOMUNE">
-    <dif>
-      Timegigi:
-      <ekz>
-        nura ombro <tld/>is lin;
-      </ekz><ekz>
-        son&gcirc;o <tld/>is lin<fnt>Z</fnt>;
-      </ekz><ekz>
-        ili kuras <tld/>ite<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_zh;&c_a;&c_h;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="cs">spla&scaron;it <klr>(kon&ecaron;)</klr></trd>
-  <trd lng="de">erschrecken</trd>
-  <trdgrp lng="en">
-    <trd>terrify</trd>,
-    <trd>frighten</trd>
-  </trdgrp>
-  <trd lng="es">aterrorizar</trd>
-  <trdgrp lng="fr">
-    <trd>terrifier</trd>,
-    <trd>terroriser</trd>
-  </trdgrp>
-  <trd lng="it">terrorizzare</trd>
-  <trd lng="nl">schrik aanjagen</trd>
-  <trdgrp lng="pl">
-    <trd>przera&zdot;a&cacute;</trd>,
-    <trd>zatrwa&zdot;a&cacute;</trd>,
-    <trd>budzi&cacute; <ind>przera&zdot;enie</ind></trd>,
-    <trd>budzi&cacute; <ind>trwog&eogonek;</ind></trd>,
-    <trd>budzi&cacute; <ind>zgroz&eogonek;</ind></trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_u;&c_zh;&c_a;&c_s;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_u;&c_t;&c_mol;</trd>,
-    <trd>&c_n;&c_a;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; <ind>&c_u;&c_zh;&c_a;&c_s;</ind></trd>
-  </trdgrp>
-  <trdgrp lng="sk">
-    <trd>podesi&tcaron;</trd>,
-    <trd>spla&scaron;i&tcaron;</trd>,
-    <trd>ve&lcaron;mi nastra&scaron;i&tcaron;</trd>
-  </trdgrp>
-</drv>
-
 <drv mrk="terur.0a">
   <kap><tld/>a</kap>
-  <snc mrk="terur.0a.timiga">
+  <snc mrk="terur.0a.drv">
     <dif>
-      Timegiga:
+      Rilata al <tld/>o:
+    </dif>
+    <subsnc mrk="terur.0a.timiga">
       <ekz>
         <tld/>a akcidento;
       </ekz><ekz>
         <uzo tip="stl">FRAZ</uzo>
         Ne tiel <tld/>a estas la diablo, kiel oni lin pentras
-        <fnt><bib>DL</bib></fnt>;
-       </ekz><ekz>
+        <fnt><bib>DL</bib></fnt>.
+      </ekz>
+      <trdgrp lng="ru">
+        <trd>&c_zh;&c_u;&c_t;&c_k;&c_i;&c_j;</trd>,
+        <trd>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>,
+        <trd>&c_u;&c_zh;&c_a;&c_s;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>,
+        <trd>&c_s;&c_t;&c_r;&c_a;&c_sh;&c_n;&c_y;&c_j;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="terur.0a.konsterna">
+      <ekz>
          Kortu&scirc;ate de kompato pli ol de abomeno &ccirc;e la vido de tiu
          <tld/>a mizerula&ccirc;o, Kandid donis al li la du florenojn
          <fnt><aut>Voltero, trad. Lanti</aut>:
@@ -158,18 +121,17 @@
       </ekz><ekz>
         tiuj kalumnioj donis <tld/>ajn fruktojn<fnt>Z</fnt>.
       </ekz>
-    </dif>
+      <trdgrp lng="ru">
+        <trd>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>,
+        <trd>&c_p;&c_o;&c_t;&c_r;&c_ja;&c_s;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>
+      </trdgrp>
+    </subsnc>
     <trdgrp lng="pl">
       <trd>przera&zdot;aj&aogonek;cy</trd>,
       <trd>przera&zacute;liwy</trd>,
       <trd>wiej&aogonek;cy <ind>groz&aogonek;</ind></trd>,
       <trd>zatrwa&zdot;aj&aogonek;cy</trd>,
       <trd>okropny</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>,
-      <trd>&c_u;&c_zh;&c_a;&c_s;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>,
-      <trd>&c_s;&c_t;&c_r;&c_a;&c_sh;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
   <snc mrk="terur.0a.FIG">
@@ -190,7 +152,8 @@
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>,
-      <trd>&c_s;&c_t;&c_r;&c_a;&c_sh;&c_n;&c_y;&c_j;</trd>
+      <trd>&c_k;&c_r;&c_a;&c_j;&c_n;&c_i;&c_j;</trd>,
+      <trd>&c_s;&c_i;&c_l;&c_mol;&c_n;&c_je;&c_j;&c_sh;&c_i;&c_j;</trd>
     </trdgrp>
   </snc>
   <trd lng="be">&c_zh;&c_a;&c_h;&c_l;&c_ib;&c_v;&c_y;</trd>
@@ -323,9 +286,7 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_z;&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
-  <klr>&c_k;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;</klr>
-  <ind>&c_zh;&c_a;&c_h;&c_l;&c_ib;&c_v;&c_y;&c_m;</ind></trd>
+  <trd lng="be">&c_z;&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol; <klr>&c_k;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;</klr> <ind>&c_zh;&c_a;&c_h;&c_l;&c_ib;&c_v;&c_y;&c_m;</ind></trd>
   <trdgrp lng="cs">
     <trd>d&ecaron;sit</trd>,
     <trd>vyd&ecaron;sit</trd>
@@ -348,12 +309,58 @@
     <trd>budzi&cacute;<ind> groz&eogonek;</ind></trd>,
     <trd>trwo&zdot;y&cacute;</trd>
   </trdgrp>
-  <trd lng="ru">&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;
-  <klr>&c_k;&c_o;&c_g;&c_o;-&c_l;.</klr>
-  <ind>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_y;&c_m;</ind></trd>
+  <trd lng="ru">&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_y;&c_m;</ind></trd>
   <trdgrp lng="sk">
     <trd>desi&tcaron;</trd>,
     <trd>vydesi&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="terur.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="terur.0i.KOMUNE">
+    <dif>
+      Timegigi:
+      <ekz>
+        nura ombro <tld/>is lin;
+      </ekz><ekz>
+        son&gcirc;o <tld/>is lin<fnt>Z</fnt>;
+      </ekz><ekz>
+        ili kuras <tld/>ite<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_zh;&c_a;&c_h;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">spla&scaron;it <klr>(kon&ecaron;)</klr></trd>
+  <trd lng="de">erschrecken</trd>
+  <trdgrp lng="en">
+    <trd>terrify</trd>,
+    <trd>frighten</trd>
+  </trdgrp>
+  <trd lng="es">aterrorizar</trd>
+  <trdgrp lng="fr">
+    <trd>terrifier</trd>,
+    <trd>terroriser</trd>
+  </trdgrp>
+  <trd lng="it">terrorizzare</trd>
+  <trd lng="nl">schrik aanjagen</trd>
+  <trdgrp lng="pl">
+    <trd>przera&zdot;a&cacute;</trd>,
+    <trd>zatrwa&zdot;a&cacute;</trd>,
+    <trd>budzi&cacute; <ind>przera&zdot;enie</ind></trd>,
+    <trd>budzi&cacute; <ind>trwog&eogonek;</ind></trd>,
+    <trd>budzi&cacute; <ind>zgroz&eogonek;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_u;&c_zh;&c_a;&c_s;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_u;&c_t;&c_mol;</trd>,
+    <trd>&c_n;&c_a;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; <ind>&c_u;&c_zh;&c_a;&c_s;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>podesi&tcaron;</trd>,
+    <trd>spla&scaron;i&tcaron;</trd>,
+    <trd>ve&lcaron;mi nastra&scaron;i&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -361,13 +368,42 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="terur.0ajxo.KOMUNE">
     <dif>
-      <tld lit="T"/>a afero.
+      <tld lit="T"/>a afero:
+      <ekz>
+        inter la <tld/>a&jcirc;oj de la milito kaj la esperoj de la revolucio
+        <fnt>
+          <aut>Georges Lagrange</aut>: <vrk>Privat kaj Lanti</vrk>.
+          <bib>LOdE</bib>, <lok>1992. N-ro 2,3</lok>
+        </fnt>;
+      </ekz><ekz>
+        Televidaj informoj montras la <tld/>a&jcirc;ojn. Ili vidigas
+        soldatojn batalantajn, viktimojn de eksplodo, &ccirc;iajn
+        katastrofojn  
+        <fnt><aut>Joh&aacute;n Valano</aut>: <vrk>Tien</vrk>.
+           <lok>Vieno:IEM, 1997</lok></fnt>.
+      </ekz><ekz>
+        la <tld/>a&jcirc;oj de la bataloj, de la koncentrejoj, de la
+        amasgasejoj, de la Nagasakia bombo
+        <fnt><aut>G. Waringhien</aut>:
+          <vrk>Recenzo: La Infana Raso</vrk>.
+          <lok>la nica literatura revuo, 2:3</lok></fnt>;
+      </ekz><ekz>
+        tiu malfeli&ccirc;a <ctl>j</ctl>, kiun neniu tamen 
+        kura&gcirc;as kritiki en la bela greka lingvo, estas la
+        kvintesenco de &ccirc;iuj <tld/>a&jcirc;oj, kiujn niaj kontra&ubreve;uloj
+        montras en Esperanto!
+	<fnt><aut>&Z;</aut>:
+	  <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista</vrk>
+	  <lok>Washington, 1910-08-15)</lok>.
+	</fnt>.
+      </ekz>
     </dif>
   </snc>
-<trdgrp lng="be">
-  <trd>&c_zh;&c_a;&c_h;</trd>,
-  <trd>&c_n;&c_je;&c_sh;&c_t;&c_a; <ind>&c_zh;&c_a;&c_h;&c_l;&c_ib;&c_v;&c_a;&c_je;</ind></trd>
-</trdgrp>  <trd lng="de">etwas schreckliches</trd>
+  <trdgrp lng="be">
+    <trd>&c_zh;&c_a;&c_h;</trd>,
+    <trd>&c_n;&c_je;&c_sh;&c_t;&c_a; <ind>&c_zh;&c_a;&c_h;&c_l;&c_ib;&c_v;&c_a;&c_je;</ind></trd>
+  </trdgrp>
+  <trd lng="de">etwas schreckliches</trd>
   <trd lng="en">horror</trd>
   <trd lng="es">algo <ind>terrible</ind></trd>
   <trd lng="fr">chose <ind>terrible</ind></trd>
@@ -379,6 +415,11 @@
   <trdgrp lng="pl">
     <trd>okropno&sacute;&cacute;</trd>,
     <trd>postrach</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_u;&c_zh;&c_a;&c_s;</trd>,
+    <trd>&c_zh;&c_u;&c_t;&c_mol;</trd>,
+    <trd>&c_u;&c_zh;&c_a;&c_s;&c_n;&c_a;&c_ja; &c_v;&c_je;&c_shch;&c_mol;</trd>
   </trdgrp>
 </drv>
 
@@ -435,6 +476,9 @@
 </art>
 <!--
 $Log$
+versio 1.34 2021/11/12 13:34:20
+Sergio Pokrovskij: +disigo de ~a; ekz-oj pri ~ajxo
+
 versio 1.33 2021/11/11 16:49:04
 Sergio Pokrovskij: TEZ
 
@@ -454,8 +498,5 @@ Revision 1.26  2015/11/04 16:10:15  revo
 Cindy Moon McKee: +trd en
 
 Revision 1.25  2015/11/04 15:10:16  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.24  2015/07/04 08:37:44  revo
 -->
 </vortaro>
