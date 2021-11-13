@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: terur.xml,v 1.36 2021/11/13 02:42:08 revo Exp $">
+<art mrk="$Id: terur.xml,v 1.37 2021/11/13 04:39:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>terur</rad>/o
@@ -16,6 +16,8 @@
         Grandega hundo metis sur min sian anta&ubreve;an piedegon, kaj mi de
         <tld/>o ne sciis, kion fari
         <fnt><bib>F</bib>, <lok>&FE;27.</lok></fnt>;
+      </ekz><ekz>
+        muta de <tld/>o <fnt><bib>VdE</bib></fnt>;
       </ekz><ekz>
         <uzo tip="stl">FRAZ</uzo>
         <ind>tra vitro de <tld/>o pligrandi&gcirc;as la mezuro</ind>
@@ -88,7 +90,7 @@
 </drv>
 
 <drv mrk="terur.0a">
-  <kap><tld/>a</kap>
+  <kap><tld/>a <fnt><bib>VdE</bib></fnt></kap>
   <snc mrk="terur.0a.drv">
     <dif>
       Rilata al <tld/>o:
@@ -321,7 +323,7 @@
 </drv>
 
 <drv mrk="terur.0i">
-  <kap><tld/>i</kap>
+  <kap><tld/>i <fnt><bib>VdE</bib></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="terur.0i.KOMUNE">
     <dif>
@@ -377,7 +379,7 @@
 </drv>
 
 <drv mrk="terur.0ajxo">
-  <kap><tld/>a&jcirc;o</kap>
+  <kap><tld/>a&jcirc;o <fnt><bib>VdE</bib></fnt></kap>
   <snc mrk="terur.0ajxo.KOMUNE">
     <dif>
       <tld lit="T"/>a afero:
@@ -471,6 +473,7 @@
 
 <drv mrk="terur.0igi">
   <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
   <snc mrk="terur.0igi.KOMUNE">
     <dif>
       Igi <tld/>anta:
@@ -509,6 +512,47 @@
   </trdgrp>
 </drv>
 
+<drv mrk="terur.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="terur.0igxi.ek">
+    <dif>
+      Eksenti <tld/>on<sncref ref="terur.0o.timego"/>:
+      <ekz>
+        Tiam, li eksciti&gcirc;as, <tld/>i&gcirc;as, panikas, kaj kure foriras
+        mensogante al la gardisto&#8230;
+        <fnt><aut>Joh&aacute;n Balano</aut>:
+           <vrk>&Ccirc;u ni kunvenis vane?</vrk>.
+           <lok>&Ccirc;ap. 20&#170;.</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_u;&c_zh;&c_a;&c_s;&c_n;&c_u;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </snc>
+  <snc mrk="terur.0igxi.stati">
+    <dif>
+      Esti en <tld/>o<sncref ref="terur.0o.timego"/>:
+      <ekz>
+        Vi <tld/>i&gcirc;as pri tio, ke ni volas forigi la privatan
+        proprieton
+        <fnt>
+          <aut>K. Markso kaj F. Engelso, tr. Vilhelmo Lutermano</aut>:
+          <vrk>Manifesto de la Komunista Partio</vrk>.
+          <lok>Monda Asembleo Socia, 2015, ISBN 978-2-918300-91-5</lok>
+        </fnt>;
+      </ekz><ekz>
+        mi pli kaj pli <tld/>i&gcirc;is pro la rigida kaj senindulga
+        filozofio, por kiu la vivo de la homo estas neniel pli valora
+        ol tiu de la bruto
+        <fnt>
+          <aut>S&aacute;ndor Szathm&aacute;ri</aut>:
+          <vrk>Voja&gcirc;o al Kazohinio</vrk>. <lok>1938. &Ccirc;ap. 6&#170;</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_b;&c_y;&c_t;&c_mol; &c_v; <ind>&c_u;&c_zh;&c_a;&c_s;&c_je;</ind></trd>
+  </snc>
+</drv>
+
 <drv mrk="terur.0ismo">
   <kap><tld/>ismo</kap>
   <snc mrk="terur.0ismo.POL">
@@ -531,6 +575,9 @@
 </art>
 <!--
 $Log$
+versio 1.37 2021/11/13 04:39:54
+Sergio Pokrovskij: +~igxi
+
 versio 1.36 2021/11/13 02:42:08
 Sergio Pokrovskij: TEZ
 
@@ -550,8 +597,5 @@ Revision 1.29  2017/01/30 14:10:23  revo
 Adam Eng: +trd ms
 
 Revision 1.28  2016/07/02 20:10:23  revo
-Alain Gerard: eraro en trd
-
-Revision 1.27  2016/02/18 23:10:22  revo
 -->
 </vortaro>
