@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kulp.xml,v 1.28 2021/11/14 21:25:22 revo Exp $">
+<art mrk="$Id: kulp.xml,v 1.29 2021/11/15 07:27:05 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kulp</rad>/a <fnt><bib>PV</bib></fnt>
@@ -438,6 +438,10 @@
     <refgrp tip="vid">
       <ref cel="akuz.0i">akuzi</ref>
     </refgrp>
+    <refgrp tip="sub">
+      <ref cel="denunc.0i">denunci</ref>,
+      <ref cel="kalumn.0i">kalumnii</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_c;&c_ib;&c_c;&c_mol;</trd>,
@@ -575,7 +579,7 @@
   </snc>
   <snc mrk="kulp.sen0a.senpeka">
     <dif>
-      <ref tip="dif" cel="pek.sen0a">Senpeka</ref>:
+      <ref tip="dif" cel="pek.sen0a">Senpeka</ref>, morale sendifekta:
       <ekz>
         io ekpikis la koron de Doroteo, kvaza&ubreve; la rigardo de la sen<tld/>a infano
         trabruligus lin
@@ -611,8 +615,10 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="naiv.0a">naiva</ref>      
+      <ref cel="naiv.0a">naiva</ref>,
+      <ref cel="nobl.0a.iu">nobla<sncref/></ref>  
     </refgrp>
+    
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_v;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_t;&c_y;</trd>,
@@ -624,7 +630,10 @@
     <trd>nevinn&yacute;</trd>,
     <trd>ne&scaron;kodn&yacute;</trd>
   </trdgrp>
-  <trd lng="de">unschuldig</trd>
+  <trdgrp lng="de">
+    <trd>unschuldig</trd>,
+    <trd>frei von <ind>Schuld</ind></trd>
+  </trdgrp>
   <trd lng="en">innocent</trd>
   <trd lng="fr">innocent<klr> (adj.)</klr></trd>
   <trdgrp lng="hu">
@@ -720,17 +729,65 @@
     <dif>
       Rigardi iun kiel ne<tld/>an pri io; deklari ies ne<tld/>econ:
       <ekz>
-        li volis sen<tld/>igi sin anta&ubreve; la tribunalo;
+        senkulpigi anta&ubreve; la tribunalo
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tiu konfeso sen<tld/>igas lin
+        anta&ubreve; atestantoj // Konfeso mia sen<tld/>igu min
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili tenis &scirc;in en ama rememoro, faradis al &scirc;i neniajn ripro&ccirc;ojn kaj trovadis
+        sen<tld/>igojn por &scirc;i
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="absolv">absolvi</ref>,
-      <ref cel="ekskuz">ekskuzi</ref>,
-      <ref cel="kondam.mal0i">malkondamni</ref>
+      <ref cel="absolv">absolvi</ref>,      
+      <ref cel="kondam.mal0i">malkondamni</ref>,
+      <ref cel="rehabilit.0i.JUR">rehabiliti<sncref/></ref>
     </refgrp>
+    <trd lng="de">entlasten</trd>
+  </snc>
+  <snc mrk="kulp.sen0igi.pardonpeti">
+    <dif>
+      Peti pardonon, por si a&ubreve; alia, prezentante kialon a&ubreve; pretekston;
+      <ref tip="sin" cel="ekskuz">ekskuzi</ref>:
+      <ekz>
+        <klr>[li]</klr> devis kanti, sed <klr>[&#8230;]</klr> sen<tld/>igis 
+        sin per malvarmumo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fluganta kofro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vere mi ne vidis! sin sen<tld/>igis <nom>Eunana</nom>, frapante sian bruston
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fra&ubreve;lino petegas de &scirc;ia markizina Mo&scirc;to, ke &scirc;i bonvolu &scirc;in sen<tld/>igi, se &scirc;i
+        ne montri&gcirc;as por la tagman&gcirc;o
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="pardon.0peti">pardonpeti</ref>,
+      <ref cel="pretek.0i">preteksti</ref>
+    </refgrp>
+    <trd lng="de">entschuldigen</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_p;&c_r;&c_a;&c_w;&c_d;&c_a;&c_c;&c_mol;</trd>,
@@ -751,8 +808,7 @@
     <trd>zbavit viny</trd>,
     <trd>zprostit obvin&ecaron;n&iacute;</trd>,
     <trd>zprostit viny</trd>
-  </trdgrp>
-  <trd lng="de">entschuldigen</trd>
+  </trdgrp>  
   <trdgrp lng="en">
       <trd>to declare innocent</trd>
       <trd>to absolve</trd>
@@ -785,15 +841,46 @@
     <dif>
       Tiu, kiu ne <tld/>as:
       <ekz>
-        kura&gcirc;us mi subpremi, nigrigi sen<tld/>ulon?
+        suferis sen<tld/>uloj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&ccirc;u]</klr> kura&gcirc;us mi subpremi, nigrigi sen<tld/>ulon
         <fnt>
           <aut>J. Racine, trad. G. Lagrange</aut>,
           <vrk>Fedra</vrk>,
           <lok>1991</lok>
-        </fnt>.
+        </fnt>?
       </ekz>
     </dif>
   </snc>
+  <snc mrk="kulp.sen0ulo.senpekulo">
+    <uzo tip="fak">REL</uzo>
+    <dif>
+      Iu senpeka (infano, sanktulo kc), morale sendifekta:
+      <ekz>
+        sen<tld/>ulon kaj virtulon ne mortigu
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 23:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li staros tie &ccirc;i, la kompatinda sen<tld/>uleto, por min devigi al la da&ubreve;rado de
+        la vivo, por min ami, min subteni, kaj min konsoli
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="naiv.0ulo">naivulo</ref>,
+       <ref cel="nobl.0ulo">noblulo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">Unschuldiger</trd>
   <trd lng="fr">innocent<klr> (subst.)</klr></trd>
   <trd lng="en">innocent<klr> (subst.)</klr></trd>
   <trd lng="pl">niewinny <klr>(osoba)</klr></trd>     
@@ -807,7 +894,7 @@
     <dif>
       Pro <tld/>o de:
       <ekz>
-        malsani&gcirc;is 300 000 &ccirc;inaj infanoj pro melamino en
+        malsani&gcirc;is 300&#8239;000 &ccirc;inaj infanoj pro melamino en
         sekigita 
         lakto, <tld/>e de fabrikistoj, kiuj deziris rapide
         ri&ccirc;i&gcirc;i
@@ -820,6 +907,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de"><ind>verschuldet</ind> durch</trd>
   <trd lng="fr">par la faute de</trd>
   <trdgrp lng="en">
       <trd>by the fault of</trd>
@@ -830,6 +918,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2021/11/15 07:27:05
+Wolfram Diestel: sen~igi, sen~ulo: +snc 2, ekz-oj, ref-oj, trd de
+
 versio 1.28 2021/11/14 21:25:22
 Wolfram Diestel: ~i..sen~eco; ekz-oj, ref-oj, snc-oj (kauzi .. senpeka)
 
@@ -849,8 +940,5 @@ Revision 1.20  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.19  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2015/06/13 17:10:23  revo
 -->
 </vortaro>
