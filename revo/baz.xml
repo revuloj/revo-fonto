@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: baz.xml,v 1.138 2021/11/22 07:26:51 revo Exp $">
+<art mrk="$Id: baz.xml,v 1.139 2021/11/22 08:35:19 revo Exp $">
 <kap>
    <ofc>1</ofc>
    <rad>baz</rad>/o <fnt><bib>PIV1</bib></fnt>
@@ -137,7 +137,10 @@
       <ref cel="kern.0o.esenco">kerno</ref>,
       <ref cel="kvinte.0o">kvintesenco</ref>
     </refgrp>
-     <trd lng="de">Basis</trd>
+    <trdgrp lng="de">
+      <trd>Grundlage</trd>,
+      <trd>Basis</trd>
+    </trdgrp>
      <trd lng="hu">alap</trd>
      <trd lng="pl">podstawa</trd>
      <trd lng="ro">baz&abreve;</trd>
@@ -379,7 +382,7 @@
   <trd lng="ht">baz</trd>
   <trd lng="hy">&#1378;&#1377;&#1382;&#1377;</trd>
   <trd lng="ig">isi</trd>
-  <trd lng="is">st&ouml;ð</trd>
+  <trd lng="is">st&ouml;&#240;</trd>
   <trd lng="ja">&#12505;&#12540;&#12473;</trd>
   <trd lng="jw">dasar</trd>
   <trd lng="ka">&#4305;&#4304;&#4310;&#4304;</trd>
@@ -392,7 +395,7 @@
   <trd lng="lat">basi</trd>
   <trd lng="lo">&#3734;&#3762;&#3737;</trd>
   <trd lng="lt">baz&#279;</trd>
-  <trd lng="lv">b&#257;ze</trd>
+  <trd lng="lv">b&amacron;ze</trd>
   <trd lng="mg">fototra</trd>
   <trd lng="mi">turanga</trd>
   <trd lng="mk">&c_b;&c_a;&c_z;&c_a;</trd>
@@ -505,7 +508,7 @@
   <trd lng="ht">debaz</trd>
   <trd lng="hy">&#1392;&#1387;&#1396;&#1398;&#1377;&#1391;&#1377;&#1398;</trd>
   <trd lng="ig">isi</trd>
-  <trd lng="is">undirst&ouml;ðu</trd>
+  <trd lng="is">undirst&ouml;&#240;u</trd>
   <trd lng="ja">&#22522;&#26412;</trd>
   <trd lng="jw">dhasar</trd>
   <trd lng="ka">&#4331;&#4312;&#4320;&#4312;&#4311;&#4304;&#4307;&#4312;</trd>
@@ -518,7 +521,7 @@
   <trd lng="lat">prima</trd>
   <trd lng="lo">&#3714;&#3761;&#3785;&#3737;&#3742;&#3767;&#3785;&#3737;&#3734;&#3762;&#3737;</trd>
   <trd lng="lt">pagrindinis</trd>
-  <trd lng="lv">b&#257;zes</trd>
+  <trd lng="lv">b&amacron;zes</trd>
   <trd lng="mg">fototra</trd>
   <trd lng="mi">taketake</trd>
   <trd lng="mk">&c_o;&c_s;&c_n;&c_o;&c_v;&c_n;&c_i;&c_t;&c_je;</trd>
@@ -752,7 +755,8 @@
        <frm><g>E</g></frm>)</klr>
        Tia <ref cel="baz.0o.vektoraspaco"><tld/>o <sncref/></ref>
        <frm am="(e^i)">(<g>e</g><sup><k>i</k></sup>)</frm> de la
-       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb        E"><g>E</g></frm>, ke <frm am="bb        e^i(bb e_j)"><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
+       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb        E"><g>E</g></frm>, ke <frm am="bb   
+           e^i(bb e_j)"><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
        egalas al <frm>1</frm>, se <frm am="i=j"><k>i</k> = <k>j</k></frm>, kaj al <frm>0</frm>
        aliokaze.
      </dif>
@@ -805,6 +809,9 @@
 </art>
 <!--
 $Log$
+versio 1.139 2021/11/22 08:35:19
+Wolfram Diestel: +trd de
+
 versio 1.138 2021/11/22 07:26:51
 Wolfram Diestel: ~o: ekz-oj; ~o FIG: pligheneraligis dif
 
@@ -824,8 +831,5 @@ Revision 1.55  2015/07/04 08:37:31  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.54  2015/06/29 16:29:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.53  2015/02/10 14:10:15  revo
 -->
 </vortaro>
