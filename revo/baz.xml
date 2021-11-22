@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: baz.xml,v 1.140 2021/11/22 17:35:28 revo Exp $">
+<art mrk="$Id: baz.xml,v 1.141 2021/11/22 20:29:50 revo Exp $">
 <kap>
    <ofc>1</ofc>
    <rad>baz</rad>/o <fnt><bib>PIV1</bib></fnt>
@@ -194,10 +194,11 @@
     </refgrp>
     <trd lng="de">St&uuml;tzpunkt</trd>
   </snc>
-   <snc mrk="baz.0o.KEM">
-     <uzo tip="fak">KEM</uzo>
-     <dif>
-       Substanco, kiu naskas salon per kombini&gcirc;ado kun acido:
+  <snc mrk="baz.0o.KEM">
+    <uzo tip="fak">KEM</uzo>
+    <dif>
+      <ref tip="super" cel="kombin.0ajxo.KEM">Kombina&jcirc;o</ref>, 
+      kiu naskas salon per kombini&gcirc;ado kun acido:
       <ekz>
         molekuloj po unu de ribozo, de organika <tld/>o kaj de fosfata acido kombini&gcirc;as
         kemie por fari tiel nomatan nukleotidon
@@ -506,35 +507,79 @@
 
 <drv mrk="baz.0a">
   <kap><tld/>a</kap>
-  <snc mrk="baz.0a.SNC">
+  <snc mrk="baz.0a.rilata">
     <dif>
-      Rilata al bazo:
+      Rilata al <tld/>o:
       <ekz>
-        la baza tavolo de epidermo
+        la <tld/>a tavolo de epidermo
         <fnt>
           <aut>Vikipedio</aut>,
           <vrk><url ref="http://eo.wikipedia.org/wiki/Efelido">Efelido</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la <tld/>a komunman&gcirc;ejo ili staradis kontra&ubreve; ni kaj fikse rigardante niajn
+        bu&scirc;ojn
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
         </fnt>.
       </ekz>
     </dif>
-  <trd lng="fr">basal</trd>
+    <refgrp tip="vid">
+      <ref cel="fund.0a.space">funda<sncref/></ref>,
+      <ref cel="fundam.0a.KON">fundamenta<sncref/></ref>,
+      <ref cel="supr.mal0a">malsupra</ref>
+    </refgrp>
+    <trd lng="de">Basis-</trd>
+    <trd lng="fr">basal</trd>
   </snc>
   <snc mrk="baz.0a.KOMUNE">
     <dif>
       Kiu konsistigas <tld/>on, unuan &scirc;tupon,
       kiu estas <ref tip="vid" cel="elemen.0a">elementa</ref>:
       <ekz>
-        la bazaj principoj de la lingvo
+        la <tld/>aj principoj de la lingvo
         <fnt>
           <aut>Ivo Lapenna</aut>,
           <vrk><url ref="http://www.angelfire.com/ny2/ts/lapenna.html">Por pli
-          efika informado</url></vrk>,
-          <bib/>,
-          <lok/>
+          efika informado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la gramatiko konsistas el 16 mallongaj <tld/>aj reguloj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj motivoj
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia <tld/>a tezo sonis jene <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la animo estas la <tld/>a ka&ubreve;zo de la sen&ccirc;esa rabado kaj batalo
+        <fnt>
+          <bib>VaK</bib>
         </fnt>.
       </ekz>
     </dif>
-  <trd lng="fr">basique</trd>
+    <refgrp tip="vid">
+      <ref cel="esenc.0a">esenca</ref>,
+      <ref cel="fundam.0a.FIG">fundamenta<sncref/></ref>,
+      <ref cel="kern.0a">kerna</ref>,
+      <ref cel="origin.0a">origina</ref>,
+      <ref cel="radik.0a.FIG">radika<sncref/></ref>
+    </refgrp>
+    <trd lng="de">grundlegend</trd>
+    <trd lng="en">basic</trd>
+    <trd lng="fr">basique</trd>
   </snc>
   <trd lng="af">basiese</trd>
   <trd lng="am">&#4632;&#4656;&#4648;&#4723;&#4810;</trd>
@@ -874,6 +919,9 @@
 </art>
 <!--
 $Log$
+versio 1.141 2021/11/22 20:29:50
+Wolfram Diestel: ~a: ekz-oj, ref-oj, trd de
+
 versio 1.140 2021/11/22 17:35:28
 Wolfram Diestel: ~o: +snc MIL; pliaj ekz-oj
 
@@ -893,8 +941,5 @@ Revision 1.57  2017/12/20 23:10:20  revo
 Vito Redsky: +trd ro
 
 Revision 1.56  2017/08/25 22:10:19  revo
-Vito Redsky: +trd ro +trd pl
-
-Revision 1.55  2015/07/04 08:37:31  revo
 -->
 </vortaro>
