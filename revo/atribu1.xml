@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: atribu1.xml,v 1.27 2021/03/04 17:56:54 revo Exp $">
+<art mrk="$Id: atribu1.xml,v 1.28 2021/12/06 20:31:47 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>atribut</rad>/o
@@ -17,12 +17,48 @@
     <subsnc mrk="atribu1.0o.FIL">
       <uzo tip="fak">FIL</uzo>
       <dif>
-        Esenca eco de objekto a&ubreve; fenomeno, sen kiu ili estus io alia:
+        Esenca eco de <ref tip="super" cel="objekt.0o">objekto</ref> a&ubreve; 
+        fenomeno, sen kiu ili estus io alia:
         <ekz>
           Kartezio agnoskis du <tld/>ojn: la etendon kiel <tld/>on
           de la materio, kaj la pensadon kiel <tld/>on de la animo.
         </ekz>
+        <ekz>
+          al &scirc;i mankas la <tld/>oj de moderntempaj knabinoj
+          <fnt>
+            <bib>ViV</bib>
+            <lok>VII.</lok>
+          </fnt>;
+        </ekz>  
+        <ekz>
+          &ccirc;u estas amo, se iu junulo ek&scirc;atas la buklojn, la &ccirc;apelon kaj 
+          la pudron de iu junulino, &scirc;iajn ornama&jcirc;ojn ?
+          &ndash; mi supozas, ke tiaj <tld/>oj donas indikon pri la homo mem, 
+          kaj unu homo ek&scirc;atas alian, kiam li trovas &ccirc;e tiu la kvalitojn, 
+          kiujn li mem trovas bonaj kaj agrablaj
+          <fnt>
+            <bib>InfanTorent2</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <klr>[li]</klr> aligas al la trono <tld/>ojn de malsanula se&gcirc;o &ndash; radetojn,
+          klisterilon, pelveton
+          <fnt>
+            <vrk>kien_fluas</vrk>
+            <lok>. &Scirc;tupoj al idealo</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          fe&ubreve;da &leftquot;krimhistorio&rightquot; kun &ccirc;iuj konformaj <tld/>oj &ndash; ven&gcirc;o, dueloj, fantomo
+          <fnt>
+            <vrk>kien_fluas</vrk>
+            <lok>. &Scirc;tupoj al idealo</lok>
+          </fnt>.
+        </ekz>
       </dif>
+      <refgrp tip="vid">
+        <ref cel="atribu.0i.aljugxi">atribui<sncref/></ref>
+      </refgrp>
       <trdgrp lng="de">
         <trd>charakteristisches Merkmal</trd>,
         <trd>wesentliche Eigenschaft</trd>,
@@ -30,28 +66,38 @@
       </trdgrp>
       <trd lng="pt">atributo</trd>
     </subsnc>
-    <subsnc mrk="atribu1.0o.KOMP">
-      <uzo tip="fak">KOMP</uzo>
-      <dif>
-        Regule agordebla a&ubreve; konsultebla eco de komputada objekto en
-        programo, operaciumo a&ubreve; en datumbanko; ekzemple la longo de
-        &gcirc;ia interna prezento; datumtipo, valoro (de variablo); longo,
-        koloro, tiparo uzendaj por la ekstera prezento; la
-        atingopermesoj
-        de dosiero.
-        <trd lng="pt">propriedade</trd>,
-      </dif>
-    </subsnc>
     <subsnc mrk="atribu1.0o.BELA">
       <uzo tip="fak">BELA</uzo>
       <dif>
-        Distingilo, insigno, emblemo de ia metio, korporacio,
-        dio, uzata precipe en belartoj:
+        <ref tip="super" cel="distin.0ilo">Distingilo</ref>, 
+        <ref tip="sin" cel="insign.0o">insigno</ref>, 
+        <ref cel="emblem.0o.simbolo">emblemo</ref> de ia metio, 
+        korporacio, dio, uzata precipe en belartoj:
         <ekz>
           pesilo estas la <tld/>o de la ju&gcirc;povo;
         </ekz>
         <ekz>
-          rado kaj globo estas <tld/>oj de Fortuno.
+          rado kaj globo estas <tld/>oj de Fortuno;
+        </ekz>
+        <ekz>
+          unu el la <tld/>oj de &jcirc;iloj estas simpla balaileto el salika&jcirc;oj
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url ref="http://steloj.de/esperanto/monato2/006955.html"
+                >BELGIO: Fama karnavalo en Binche</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la pentra&jcirc;o memorigas pri <klr>[&#8230;]</klr> krono, &ccirc;i tiu 
+          re&gcirc;a atributo estas la
+          &ccirc;efa akcento sur pakumoj de &ccirc;okolado
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Antanas Grincevi&ccaron;ius</aut>
+            <vrk><url ref="https://www.monato.be/2003/007879.html"
+                >&Ccirc;okolada konflikto</url></vrk>
+            <lok>2003</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -62,7 +108,18 @@
       </trdgrp>
       <trd lng="it">simbolo</trd>
       <trd lng="pt">atributo</trd>
-
+    </subsnc>
+    <subsnc mrk="atribu1.0o.KOMP">
+      <uzo tip="fak">KOMP</uzo>
+      <dif>
+        Regule agordebla a&ubreve; konsultebla eco
+        de komputada objekto en programo, operaciumo a&ubreve; en datumbanko: 
+        ekzemple la longo de &gcirc;ia interna prezento; 
+        datumtipo, valoro (de variablo); longo, koloro,
+        tiparo uzendaj por la ekstera prezento; 
+        la atingopermesoj de dosiero.
+      </dif>
+      <trd lng="pt">propriedade</trd>
     </subsnc>
     <trd lng="pl">atrybut</trd>
   </snc>
@@ -82,7 +139,7 @@
   <trd lng="en">attribute</trd>
   <trd lng="es">atributo</trd>
   <trd lng="fr">attribut</trd>
-  <trd lng="he">&#x5EA;&#x5B0;&#x5DB;&#x5D5;&#x5BC;&#x5E0;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&tav;&#1456;&kaf;&vav;&#1468;&nun;&#1464;&he;</trd>
   <trd lng="hu">attrib&uacute;tum</trd>
   <trd lng="it">attributo</trd>
   <trd lng="ru">&c_a;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;</trd>
@@ -94,7 +151,10 @@
 </drv>
 </art>
 <!--
-$Log: atribu1.xml,v $
+$Log$
+versio 1.28 2021/12/06 20:31:47
+Wolfram Diestel: ekz-oj
+
 versio 1.26 2020/03/23 00:10:44
 James Rezende Piton: +trd pt
 
@@ -114,8 +174,5 @@ Revision 1.21  2012/08/02 09:10:49  revo
 Marc Rausell: + trd ca
 
 Revision 1.20  2012/01/26 11:10:18  revo
-Antonio Codazzi: +trd it
-
-Revision 1.19  2007/05/30 16:31:25  revo
 -->
 </vortaro>
