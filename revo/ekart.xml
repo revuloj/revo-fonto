@@ -1,17 +1,19 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekart.xml,v 1.16 2021/03/09 16:47:10 revo Exp $">
+<art mrk="$Id: ekart.xml,v 1.17 2021/12/10 14:27:00 revo Exp $">
 <kap>
   <rad>ekart</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="ekart.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="ekart.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 10</lok></fnt>
     <dif>
-      Diferenco de la proksimuma valoro de iu grando al la ekzakta:
+      <ref tip="super" cel="difere.0o.MAT">Diferenco</ref> de 
+      la proksimuma valoro de iu grando al la ekzakta:
       <ekz>
         <tld/>o de observo;
       </ekz>
@@ -47,10 +49,21 @@
     <uzo tip="fak">MAR</uzo>
     <uzo tip="klr">(pri kompaso)</uzo>
     <dif>
-      Sumo de la anguloj de deklino kaj devio:
+      Sumo de la anguloj de <ref tip="prt" cel="klin.de0igxo.MOV">deklino</ref>
+      kaj <ref tip="prt" cel="devi.0o">devio</ref>:
       <ekz>
         la angulo formita de la kompasa montrilo kun la astronomia
-        meridiano estas la <tld/>o de kompaso.
+        meridiano estas la <tld/>o de kompaso;
+      </ekz>
+      <ekz>
+        la tera magneteco influas la magnetan montrilon kaj deklinigas &gcirc;in de la
+        astronomia meridiano la&ubreve; angulo nomata deklino, aliparte la fera&jcirc;aro de la
+        &scirc;ipo influas kaj deklinigas &gcirc;in la&ubreve; alia angulo nomita deviacio: la sumo de
+        tiuj du anguloj estas la <tld/>o de la kompaso
+        <fnt>
+          <vrk><url ref="https://esperanto.mv.ru/MaristaTerminaro/MaristaTerminaro.html"
+              >Marista Terminaro | Lumoj. La lumoj estas diritaj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Abweichung</trd>
@@ -60,7 +73,8 @@
   <snc>
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Distanco inter la celita kaj trafita punkto:
+      <ref tip="super" cel="distan.0o.MAT">Distanco</ref> 
+      inter la celita kaj trafita punkto:
       <ekz>
         oni distingas jenajn <tld/>ojn: horizontalan, la&ubreve;direktan,
         altecan, la&ubreve;distancan kaj vertikalan.
@@ -78,11 +92,11 @@
     <trd>&c_h;&c_ib;&c_b;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>absolutn&#xED; chyba</trd>,
+    <trd>absolutn&iacute; chyba</trd>,
     <trd>chyba</trd>,
     <trd>odchylka</trd>
   </trdgrp>
-  <trd lng="he">&#x5D4;&#x5E4;&#x5E8;&#x5E9; &#x5D1;&#x5D9;&#x5DF; &#x5E2;&#x5E8;&#x5DA; &#x5DE;&#x5E7;&#x5D5;&#x5E8;&#x5D1; &#x5DC;&#x5DE;&#x5D3;&#x5D5;&#x5D9;&#x5D9;&#x5E7;</trd>
+  <trd lng="he">&he;&pe;&resh;&shin; &bet;&yod;&fnun; &ayin;&resh;&fkaf; &mem;&qof;&vav;&resh;&bet; &lamed;&mem;&dalet;&vav;&yod;&yod;&qof;</trd>
   <trd lng="it">scarto<klr> (differenza)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_t;&c_k;&c_l;&c_o;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>,
@@ -90,12 +104,15 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>chyba</trd>,
-    <trd>odch&#xFD;lka</trd>
+    <trd>odch&yacute;lka</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.17 2021/12/10 14:27:00
+Wolfram Diestel: +ekz, ref-oj
+
 Revision 1.14  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -115,11 +132,5 @@ Revision 1.9  2003/06/03 16:31:04  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2003/01/02 17:45:14  revo
-Marc Bavant: +trd pl
-
-Revision 1.7  2002/05/18 16:33:57  revo
-Ulrich Fellmann: + 3 pliaj trd de
-Revision 1.6  2002/05/02 16:35:58  revo
-Marc Bavant: ~o MAT: +trd de/en/ru, mod trd fr, +adm; ~o MIL: +trd fr
 -->
 </vortaro>
