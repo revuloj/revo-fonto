@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hidr.xml,v 1.28 2017/04/26 15:10:17 revo Exp $">
+<art mrk="$Id: hidr.xml,v 1.29 2021/12/10 17:35:28 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>hidr</rad>/o
@@ -13,9 +13,15 @@
   <snc mrk="hidr.0o.MIT">
     <uzo tip="fak">MIT</uzo>
     <dif>
-      Monstra akvoserpento kun sep a&ubreve; na&ubreve; kapoj, el kiuj
-      &ccirc;iu, kiam oni &gcirc;in detran&ccirc;is, estis tuj 
+      <ref tip="super" cel="monstr.0a">Monstra</ref> akvo<ref cel="serpen.0o">serpento</ref> 
+      kun sep a&ubreve; na&ubreve; kapoj, el kiuj &ccirc;iu, kiam oni &gcirc;in detran&ccirc;is, estis tuj 
       anstata&ubreve;ata de du:
+      <ekz>
+        kvaza&ubreve; provi fortran&ccirc;i kapon de <tld/>o
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         &gcirc;i estis <tld/>o, tuj ni ekkonis tion, &ccirc;ar &gcirc;i
         havis sep kapojn
@@ -24,7 +30,16 @@
         <vrk><url ref="http://mujweb.cz/Kultura/malovec/naufabel.htm">
         Na&ubreve; fabeloj</url></vrk>,
         <lok>Granda polica fabelo, [2002?]</lok>
-        </fnt>.      
+        </fnt>;  
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la tutmonda hidro de la kontra&ubreve;revolucio volis, ke la dinamita bombo
+        <klr>[&#8230;]</klr> eksplodu &gcirc;uste dum la tagman&gcirc;o
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+          <lok>6. La neatendita bombeksplodo.</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="bg">&c_h;&c_i;&c_d;&c_r;&c_a;</trd>
@@ -68,6 +83,25 @@
   </trdgrp>
 </drv>
 
+<drv mrk="hidr.0uloj">
+  <kap><tld/>uloj</kap>
+  <snc mrk="hidr.0uloj.ZOO">
+  <uzo tip="fak">ZOO</uzo>
+  <uzo tip="stl">ARK</uzo>
+    <dif>
+      Iama ordo el la klaso <ref tip="super"
+      cel="hidroz.0oj">hidrozooj</ref>
+      (<trd lng="la">Hydroidea</trd>), proksimume ampleksanta la nunan
+      subklason <trd lng="la">Hydroidolina</trd>.
+    </dif>
+  </snc>
+  <trd lng="ca">hidro&iuml;deus</trd>
+  <trd lng="fr">hydraires</trd>
+  <trd lng="hu">hidraszer&udblac;ek</trd>
+  <trd lng="it">idroida</trd>
+  <trd lng="pl">stu&lstroke;bie</trd>
+</drv>
+
 <drv mrk="hidr.H0o">
   <kap><tld lit="H"/>o
     <fnt>
@@ -83,7 +117,15 @@
     <dif>
       Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
       lst="voko:stelfiguroj">stelfiguro</ref>
-      (<trd lng="la">Hydra</trd>).
+      (<trd lng="la">Hydra</trd>):
+      <ekz>
+        NGC 2586 estas triopa stelo en konstelacio <tld lit="H"/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=112490"
+              >NGC 2586</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="bg">&c_H;&c_i;&c_d;&c_r;&c_a;</trd>
@@ -104,24 +146,6 @@
   </trdgrp>
 </drv>
 
-<drv mrk="hidr.0uloj">
-  <kap><tld/>uloj</kap>
-  <snc mrk="hidr.0uloj.ZOO">
-  <uzo tip="fak">ZOO</uzo>
-  <uzo tip="stl">ARK</uzo>
-    <dif>
-      Iama ordo el la klaso <ref tip="super"
-      cel="hidroz.0oj">hidrozooj</ref>
-      (<trd lng="la">Hydroidea</trd>), proksimume ampleksanta la nunan
-      subklason <trd lng="la">Hydroidolina</trd>.
-    </dif>
-  </snc>
-  <trd lng="ca">hidro&iuml;deus</trd>
-  <trd lng="fr">hydraires</trd>
-  <trd lng="hu">hidraszer&udblac;ek</trd>
-  <trd lng="it">idroida</trd>
-  <trd lng="pl">stu&lstroke;bie</trd>
-</drv>
 
 <drv mrk="hidr.Vir0o">
   <kap>Vir<tld/>o
@@ -138,7 +162,15 @@
     <dif>
       Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
       lst="voko:stelfiguroj">stelfiguro</ref>
-      (<trd lng="la">Hydrus</trd>).
+      (<trd lng="la">Hydrus</trd>):
+      <ekz>
+        NGC 643B estas galaksio en konstelacio Vir<tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=110225"
+              >NGC 643B</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="bg">&c_V;&c_o;&c_d;&c_n;&c_a; &c_z;&c_m;&c_i;&c_ja;</trd>
@@ -159,6 +191,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2021/12/10 17:35:28
+Wolfram Diestel: ekz-oj, ref-oj
+
 Revision 1.27  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
 
