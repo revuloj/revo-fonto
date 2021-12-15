@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: posten.xml,v 1.21 2021/12/15 14:27:05 revo Exp $">
+<art mrk="$Id: posten.xml,v 1.22 2021/12/15 17:35:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>posten</rad>/o
@@ -120,6 +120,7 @@
       <trd>&c_p;&c_o;&c_s;&c_t;</trd>,
       <trd>&c_p;&c_a;&c_s;&c_a;&c_d;&c_a;</trd>
     </trdgrp>
+    <trd lng="de">Stelle <klr>(Posten)</klr></trd>
     <trdgrp lng="es">
       <trd>puesto<klr> (ocupaci&oacute;n, trabajo, funci&oacute;n)</klr></trd>,
       <trd>ocupaci&oacute;n<klr> (trabajo)</klr></trd>,
@@ -257,55 +258,110 @@
 
 <drv mrk="posten.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <snc mrk="posten.0o.starigi">
     <dif>
-      Igi <tld/>i:
+      <ref tip="super" cel="star.0igi.vertikala">Starigi</ref> sur <tld/>o:
       <ekz>
-        kvar soldatoj <tld/>igitaj vidalvide de tiu homo, pafis al li en
-        la kranion;
+        kvar soldatoj, <tld/>igitaj vid-al-vide tiu homo 
+        tute trankvile pafis al li po tri kuglojn en la kranion
+        <fnt>
+          <bib>Kandid</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        la &scirc;telistoj <ind><tld/>i&gcirc;is</ind> post la muro
+        &ccirc;e &ccirc;iuj pordegoj mi <tld/>igis miajn sklavojn, doninte al ili precizan
+        priskribon de la knabino
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la legiestro raportis, ke la sebasteanoj estas 
+        <tld/>igitaj &ccirc;irka&ubreve; la placo &ccirc;e la hipodromo
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="embusk">embuski</ref>.
+      <ref cel="embusk">embuski</ref>
     </refgrp>
+    <trdgrp lng="cs">
+      <trd>odd&aacute;lit</trd>,
+      <trd>p&rcaron;id&ecaron;lit stanovi&scaron;t&ecaron;</trd>,
+      <trd>uv&eacute;st do funkce</trd>,
+      <trd>zahnat</trd>
+    </trdgrp>
+    <trd lng="de">postieren</trd>
+    <trd lng="es">apostar</trd>
+    <trd lng="hu">fel&aacute;ll&iacute;t <klr tip="amb"> (&odblac;r&ouml;ket)</klr> zetten</trd>
+    <trdgrp lng="it">
+      <trd><klr>(far) </klr>appostare</trd>,
+      <trd>sistemare<klr> (collocare)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">op <ind>post</ind> zetten</trd>
+    <trdgrp lng="sk">
+      <trd>postavi&tcaron; na miesto</trd>,
+      <trd>stanovi&scaron;te</trd>,
+      <trd>stanovi&tcaron;</trd>,
+      <trd>umiestni&tcaron;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="posten.0o.taskigi">
+    <dif>
+      Taskigi per <tld/>o:
+      <ekz>
+        li estas <tld/>igata sur la krozo&scirc;ipon Invincible 
+        kaj ekiras al &Scirc;anghajo por defendi la kulturon
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>igis vin kiel kortegan &ccirc;efmetiiston, &ccirc;ar 
+        mi konis vin lerta majstro de &ccirc;iuj metioj
+        <fnt>
+          <bib>SatirRak</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  <trd lng="de">anstellen <klr>(Posten)</klr></trd>
   </snc>
   <ref tip="hom" cel="post.0enigi">post&middot;e&middot;n&middot;ig&middot;i</ref>
-  <trdgrp lng="cs">
-    <trd>odd&aacute;lit</trd>,
-    <trd>p&rcaron;id&ecaron;lit stanovi&scaron;t&ecaron;</trd>,
-    <trd>uv&eacute;st do funkce</trd>,
-    <trd>zahnat</trd>
-  </trdgrp>
-  <trd lng="de">postieren</trd>
-  <trd lng="es">apostar</trd>
-  <trd lng="hu">fel&aacute;ll&iacute;t <klr tip="amb"> (&odblac;r&ouml;ket)</klr> zetten</trd>
-  <trdgrp lng="it">
-    <trd><klr>(far) </klr>appostare</trd>,
-    <trd>sistemare<klr> (collocare)</klr></trd>
-  </trdgrp>
-  <trd lng="nl">op <ind>post</ind> zetten</trd>
-  <trdgrp lng="sk">
-    <trd>postavi&tcaron; na miesto</trd>,
-    <trd>stanovi&scaron;te</trd>,
-    <trd>stanovi&tcaron;</trd>,
-    <trd>umiestni&tcaron;</trd>
-  </trdgrp>
 </drv>
 
 <drv mrk="posten.en0igi">
   <kap>en<tld/>igi</kap>
   <snc>
     <dif>
-      Asigni <ref cel="posten.0o.ofico"><tld/>on <sncref/></ref> al iu.
+      Asigni <ref cel="posten.0o.ofico"><tld/>on<sncref/></ref> al iu:
+      <ekz>
+        administrantoj estas en<tld/>igitaj la&ubreve; politika koloro, 
+        kaj ne la&ubreve; kapabloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Fabossou</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007042.html"
+              >Afriko: &Scirc;an&gcirc;oj &dash; ankora&ubreve; ne sufi&ccirc;aj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vicministro pri edukado nuligis la konkurson kaj en<tld/>igis novan
+        komisionon por prepari fre&scirc;an ekzamenon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2005/008786.php"
+              >Ekzameno ekzamenata</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="ofic.en0igi">enoficigi</ref>,
       <ref cel="instal.0i.enpostenigi">instali</ref>
     </refgrp>
+  <trd lng="de">in ein Amt <ind>einf&uuml;hren</ind></trd>
   </snc>
   <trdgrp lng="es">
     <trd>colocar<klr> (dar trabajo)</klr></trd>
@@ -321,9 +377,39 @@
   <kap>en<tld/>i&gcirc;i</kap>
   <snc>
     <dif>
-      Akiri <ref cel="posten.0o.ofico"><tld/>on <sncref/></ref>.
+      Akiri <ref cel="posten.0o.ofico"><tld/>on <sncref/></ref>:
+      <ekz>
+        jam en<tld/>i&gcirc;is aparta komisiono por identigi &ccirc;iujn eblecojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9405-britio.txt"
+              >Britio</url></vrk>
+          <lok>94/05</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e la muzeo de Si&ccirc;uano pasintjare en<tld/>i&gcirc;is ok, sed elposteni&gcirc;is dek
+        muzeologoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="https://www.monato.be/2005/008682.php"
+              >Senmonaj muzeoj</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i en<tld/>i&gcirc;is kiel unua ina respublikestro de Brazilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jozefo Lej&ccirc;</aut>
+          <vrk><url ref="https://www.monato.be/2011/010516.php"
+              >La jarcento de la virino</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>
+  </snc>  
   <trdgrp lng="es">
     <trd>colocarse<klr> (conseguir trabajo)</klr></trd>
   </trdgrp>
@@ -332,9 +418,35 @@
     <trd>sistemarsi<klr> (ottenere lavoro)</klr></trd>
   </trdgrp>
 </drv>
+
+<drv mrk="posten.sen0igi">
+  <kap>
+    sen<tld/>igi
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="ofic.sen0igi">Senoficigi</ref> de <tld/>o:
+      <ekz>
+        ili eldonis komunan ordonon, kiu sen<tld/>igas &ccirc;iujn gvidantojn
+        <fnt>
+          <bib>SatirRak</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">eines <ind>Posten</ind>s entheben</trd>
+</drv>
+
+
+
+
+
 </art>
 <!--
 $Log$
+versio 1.22 2021/12/15 17:35:26
+Wolfram Diestel: ~igi..: ekz-oj, ref-oj, trd de, +sen~igi
+
 versio 1.21 2021/12/15 14:27:05
 Wolfram Diestel: ~o, ~i: ekz-oj, ref-oj; +~i snc ofici
 
@@ -354,8 +466,5 @@ Revision 1.15  2014/04/14 15:10:16  revo
 Damien Brucker: +trd fr
 
 Revision 1.14  2010/06/21 16:30:25  revo
-Antonio Codazzi: +trd it +~igxi
-
-Revision 1.13  2006/04/30 16:31:12  revo
 -->
 </vortaro>
