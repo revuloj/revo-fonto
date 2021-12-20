@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ring.xml,v 1.54 2021/08/11 21:27:45 revo Exp $">
+<art mrk="$Id: ring.xml,v 1.55 2021/12/20 14:29:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ring</rad>/o <fnt><bib>PV</bib></fnt>
@@ -57,10 +57,10 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,&#8224;,×)">(<g>E</g>,&#8224;,×)</frm>,
+      <frm am="(bb E,&#8224;,&#215;)">(<g>E</g>,&#8224;,&#215;)</frm>,
       ke <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">×</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">&#215;</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al
       <frm am="&#8224;">&#8224;</frm>:
@@ -132,7 +132,7 @@
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_o;&c_l;&c_a;</trd>,
-    <trd>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;</trd>
+    <trd>&c_k;&c_o;&c_l;&c_c;&c_a;</trd>
   </trdgrp>
   <trd lng="bo">&t_tsha;&t_gigu;&t_ga;&t_sa;&t_tsheg;&t_kha;&t_drengbu;&t_ba;&t_sa;&t_tsheg;</trd>
   <trdgrp lng="cs">
@@ -165,7 +165,8 @@
 
 <drv mrk="ring.0ego">
   <kap><ofc>*</ofc><tld/>ego <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5185">ring'eg'</url></lok></fnt></kap>
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5185">ring'eg'</url></lok></fnt></kap>
   <snc>
     <dif>
     Granda ringo el fero, &ccirc;irka&ubreve;anta barelon k kuntenanta ties da&ubreve;bojn. 
@@ -185,6 +186,7 @@
     </dif>
     <ref tip="sin" cel="krinolin.0o">krinolino</ref>
   </snc>
+  <trd lng="be">&c_a;&c_b;&c_r;&c_u;&c_ch;</trd>
   <trdgrp lng="en">
     <trd>hoop</trd>,
     <trd><klr>(metal)</klr> circle</trd>
@@ -198,14 +200,15 @@
   <snc mrk="ring.sub0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,×)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,&#215;)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,×<sub>A</sub>)</frm>, ke
+      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,&#215;<sub>A</sub>)</frm>, ke
       <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm>,
       <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
       <ref cel="grup.sub0o">subgrupo</ref> de 
       <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
-      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>×<sub>A</sub><k>y</k> = <k>x</k>×<k>y</k>&#8712;A</frm> por
+      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>&#215;<sub>A</sub><k>y</k> = <k>x</k>&#215;<k>y</k>&#8712;A</frm>
+      por
       &ccirc;iuj
       <frm am="x,y in A"><k>x</k>, <k>y</k>&#8712;A</frm>:
       <ekz>
@@ -214,6 +217,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_k;&c_o;&c_l;&c_c;&c_a;</trd>
   <trd lng="de">Unterring</trd>
   <trd lng="en">subring</trd>
   <trd lng="fr">sous-anneau</trd>
@@ -233,6 +237,7 @@
       <tld/>o de entjeroj per la idealo de <frm am="n"><k>n</k></frm>-obloj. 
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_o;&c_l;&c_c;&c_a; &c_r;&c_e;&c_sh;&c_t;&c_a;&c_w;</trd>
   <trd lng="de">Restklassenring</trd>
   <trd lng="en">residue class <ind>ring</ind></trd>
   <trd lng="fr">anneau des classes r&eacute;siduelles</trd>
@@ -260,7 +265,8 @@
       aldona kondi&ccirc;o, ke por &ccirc;iu paro
       <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun nenula 
       <frm am="b"><k>b</k></frm> ekzistas
-      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx q+r"><k>a</k> = <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
+      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx
+      q+r"><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
       <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
@@ -284,6 +290,7 @@
       <ref cel="rest.0o.euxklida">resto</ref>.
     </refgrp>
   </snc>
+  <trd lng="be">&c_e;&c_w;&c_k;&c_l;&c_ib;&c_d;&c_a;&c_v;&c_a; &c_k;&c_o;&c_l;&c_c;&c_a;</trd>
   <trd lng="de">Euklidischer <ind>Ring</ind></trd>
   <trd lng="en">Euclidean <ind>ring</ind></trd>
   <trd lng="fr">anneau euclidien</trd>
@@ -308,6 +315,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_b;&c_r;&c_u;&c_ch; <klr>(&c_g;&c_ib;&c_m;&c_n;&c_a;&c_s;&c_t;&c_y;&c_ch;&c_n;&c_y;)</klr></trd>,
+    <trd>&c_h;&c_u;&c_l;&c_a;&c_h;&c_u;&c_p;</trd>
+  </trdgrp>
   <trd lng="en">hula hoop</trd>
   <trd lng="fr">hula hoop</trd>
 </drv>
@@ -345,6 +356,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_a;&c_d;&c_a;&c_v;&c_o;&c_je; &c_k;&c_o;&c_l;&c_c;&c_a;</trd>
   <trdgrp lng="fr">
     <trd>anneau de croissance</trd>,
     <trd>cerne</trd>
@@ -361,8 +373,9 @@
       de &gcirc;i)</klr>
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
       de <frm am="bb R"><g>R</g></frm> rilate al <frm am="bb I"><g>I</g></frm>, provizita per la 
-      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)×(<k>b</k>+<g>I</g>) =
-      (<k>a</k>×<k>b</k>)+<g>I</g></frm>; 
+      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)&#215;(<k>b</k>+<g>I</g>)
+      =
+      (<k>a</k>&#215;<k>b</k>)+<g>I</g></frm>; 
       simb. <frm am="bb R//bb I"><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
@@ -439,6 +452,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_o;&c_l;&c_c;&c_a; &c_m;&c_n;&c_a;&c_g;&c_a;&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_w;</trd>
   <trd lng="de">Polynomring</trd>
   <trd lng="en">polynomial ring</trd>
   <trd lng="fr">anneau des polyn&ocirc;mes</trd>
@@ -449,6 +463,9 @@
 </art>
 <!--
 $Log$
+versio 1.55 2021/12/20 14:29:20
+Dmitri Gabinski: + trd be
+
 versio 1.54 2021/08/11 21:27:45
 Jeromo Vasxe: + jar/kresko~o
 
@@ -467,8 +484,5 @@ aldono de trd cs per skripto de M. von Laer
 
 Revision 1.47  2015/06/29 16:33:22  revo
 aldono de trd sk per skripto de M. von Laer
-
-Revision 1.46  2015/04/18 11:10:17  revo
-Carlos Garcia: +trd es -o
 -->
 </vortaro>
