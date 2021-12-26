@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rivolu.xml,v 1.22 2020/05/05 08:10:32 revo Exp $">
+<art mrk="$Id: rivolu.xml,v 1.23 2021/12/26 16:47:18 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>rivolu</rad>/o <fnt><bib>PV</bib></fnt>
@@ -36,6 +36,10 @@
     <adm>
       Mankas auxtoritataj ekzemploj. <aut>MB</aut>
     </adm>
+  <trdgrp lng="de">
+    <trd>Umdrehung</trd>,
+    <trd>Exzenterbewegung</trd>
+  </trdgrp>
   </snc>
   <snc mrk="rivolu.0o.AST">
     <uzo tip="fak">AST</uzo>
@@ -47,16 +51,45 @@
         proksimume 365 tagojn;
       </ekz>
       <ekz>
+        la taksita periodo de <tld/>o de la planedo estas proksimume 2500 jaroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Oliver Kim</aut>
+          <vrk><url ref="https://www.monato.be/2006/008796.php"
+              >Unua fotografa&jcirc;o de ekstersunsistema planedo</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tiu]</klr> planedo <klr>[&#8230;]</klr> havas <ind><tld/>tempo</ind>n 
+        de 58 tagoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato"
+              >Astronomio &dash; Du strangaj planedsistemoj</url></vrk>
+        </fnt>;
+        <trd lng="de">Umlaufzeit</trd>
+      </ekz>
+      <ekz>
+        la lumo estis ligita al la &ccirc;ielo kiel triremkablo por stabile fiksi la
+        cirkonferencon <klr>[&#8230;]</klr> kaj &ccirc;irka&ubreve; &gcirc;i estas la <tld/>oj
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         dum siaj <tld/>oj la planedoj la&ubreve;iras elipsajn orbitojn.
       </ekz>
     </dif>
+  <trd lng="de">Revolution <klr>(Astronomie)</klr></trd>
   </snc>
   <trdgrp lng="cs">
     <trd>obr&aacute;tka</trd>,
     <trd>ob&ecaron;h</trd>,
     <trd>ot&aacute;&ccaron;ka</trd>
   </trdgrp>
-  <trd lng="de">Umdrehung</trd>
+  <trd lng="de">Umlauf</trd>
+  
   <trd lng="en">revolution</trd>
   <trd lng="fr">r&eacute;volution<klr tip="ind"> (rotation)</klr></trd>
   <trd lng="hu">fordulat</trd>
@@ -114,7 +147,7 @@
       kiu <tld/>as &ccirc;irka&ubreve; rekto, ku&scirc;anta en &gcirc;ia ebeno.
       Kelkaj preferas uzi &gcirc;ian sinonimon <ctl>rotacia</ctl>, opiniante
       ke la radiko <ctl><tld/></ctl> ne respondas al vera bezono de la
-      lingvo. Rimarkindas, ke la termino aperas jam &ccirc;e Bricard
+      lingvo. Rimarkindas, ke la termino aperas jam &ccirc;e <nom>Bricard</nom>
       <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>, sed sub formo
       <ctl>revolua</ctl>.
     </rim>
@@ -146,6 +179,16 @@
     <dif>
       Fari <tld/>ojn:
       <ekz>
+        tiam multaj e&ubreve;ropanoj ankora&ubreve; kredis, ke la suno <tld/>as &ccirc;irka&ubreve; la tero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Oliver Kim</aut>
+          <vrk><url ref="https://www.monato.be/2014/011359.php"
+              >Rekorda konkulo</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la helico ne <tld/>as sufi&ccirc;e rapide;
       </ekz>
       <ekz>
@@ -162,8 +205,7 @@
     </refgrp>
     <rim>
       La senca diferenco inter <ctl><tld/>i</ctl> kaj <ctl>rotacii</ctl>
-      ne
-      estas tre granda, sed, parolante pri astro a&ubreve; satelito, eblas
+      ne estas tre granda, sed, parolante pri astro a&ubreve; satelito, eblas
       distingi la rotaciadon &ccirc;irka&ubreve; la propra akso kaj la
       rivoluadon la&ubreve; &gcirc;ia gravita orbito.
     </rim>
@@ -172,6 +214,7 @@
     <trd>rotovat  ot&aacute;&ccaron;et se</trd>,
     <trd>to&ccaron;it se kolem osy</trd>
   </trdgrp>
+  <trd lng="de">umlaufen</trd>
   <trdgrp lng="fr">
     <trd>tourner<klr tip="ind"> (effectuer une r&eacute;volution)</klr></trd>,
     <trd>effectuer une <ind>r&eacute;volution</ind><klr tip="ind">
@@ -189,6 +232,9 @@
 </art>
 <!--
 $Log$
+versio 1.23 2021/12/26 16:47:18
+Wolfram Diestel: ~o,~i AST: +ekz, trd de
+
 versio 1.22 2020/05/05 08:10:32
 Eko Nur Syah Hidayat: korekteto
 
@@ -208,8 +254,5 @@ Revision 1.16  2003/01/02 17:50:47  revo
 Marc Bavant: +trd pl; ~o MAT: mod dif
 
 Revision 1.15  2002/08/24 17:31:23  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2002/05/12 16:37:12  revo
 -->
 </vortaro>
