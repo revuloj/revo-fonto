@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dispon.xml,v 1.28 2021/12/29 18:34:45 revo Exp $">
+<art mrk="$Id: dispon.xml,v 1.29 2021/12/29 20:31:07 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dispon</rad>/i
@@ -9,7 +9,7 @@
 <drv mrk="dispon.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>x</vspec></gra>
-  <snc>
+  <snc mrk="dispon.0i.havi">
     <dif>
       <ref tip="super" cel="hav.0i.proprajxon">Havi</ref> ion en sufi&ccirc;a kvanto 
       kaj preta por uzi:
@@ -142,8 +142,10 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="dekret.0i">dekreti</ref>,
       <ref cel="estr.0i">estri</ref>,
-      <ref cel="propon.0i">proponi</ref>
+      <ref cel="propon.0i">proponi</ref>,
+      <ref cel="met.sub0i">submeti</ref>
     </refgrp>
     <trd lng="de">etwas <ind>verf&uuml;gen</ind></trd>
   </snc>
@@ -168,16 +170,106 @@
   <kap>
     <tld/>o
   </kap>
-  <snc>
+  <snc mrk="dispon.0o.uzeblo">
     <dif>
-      Uzeblo de io:
+      Uzeblo pri io:
+      <ekz>
+        li diris al siaj dis&ccirc;iploj, ke malgranda &scirc;ipeto estu je lia <tld/>o
+        <fnt>
+          <bib>NT</bib>
+          <lok>Marko 3:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por la kuracado de la konjunktivo mem ni anta&ubreve; <klr>[&#8230;]</klr> havas por nia
+        <tld/>o la nitran ar&gcirc;enton, kiun oni uzas por &scirc;mirado
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi havas la tempon je via <tld/>o kaj la monon necesan
+        <fnt>
+          <bib>KKl</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili nur havas kelkajn minutojn je sia <tld/>o
+        <fnt>
+          <bib>KKl</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia havo estas je via <tld/>o
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="rimed.0o">rimedo</ref>,
+      <ref cel="serv.0o">servo</ref>,
+      <ref cel="uz.frukt0o">fruktuzo</ref>,
+      <ref cel="uz.0o">uzo</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="dispon.0i.decideblo">
+    <dif>
+      Decideblo pri io a&ubreve; iu:
       <ekz>
         homo potenca, kiu povis havi al sia <tld/>o la <klr>[tutan]</klr> policon
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>David</nom> metis trionon de la popolo sub la <tld/>on de <nom>Joab</nom>
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 18:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li sin metas en la <tld/>on de la ju&gcirc;istaro
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estas je via <tld/>o
+        <fnt>
+          <bib>KKl</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia tuta tempo estas al via <tld/>o
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        seso da viroj, kiuj por sufi&ccirc;e da ar&gcirc;ento sin metus absolute je &ccirc;ies <tld/>o
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por trankviligi la popolon oni faris novajn <tld/>ojn pri la disdonado de greno
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li haltu en Kumoj kaj atendu tie pluajn <tld/>ojn
         <fnt>
           <bib>QuV</bib>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="dekret.0o">dekreto</ref>,
+      <ref cel="ordon.0o.volo">ordono</ref>
+    </refgrp>
   </snc>
   <trd lng="de">Verf&uuml;gung</trd>
   <trdgrp lng="en">
@@ -260,10 +352,30 @@
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Aparato, <ref tip="vid" cel="arangx.0ajxo.TEK">aran&gcirc;a&jcirc;o</ref>
-      kiu estas parto de
-      <ref tip="malprt" cel="komput.0a_sistemo">komputa sistemo</ref>
-      kaj estas <tld/>igebla al ties taskoj.
+      kiu estas parto de <ref tip="malprt" cel="komput.0a_sistemo">komputa sistemo</ref>
+      kaj estas <tld/>igebla al ties taskoj:
+      <ekz>
+        la kerno, peliloj de <tld/>a&jcirc;oj kaj plej gravaj sistemaj programoj, kia la &scirc;elo,
+        estas disvolvataj en la sama koda arbo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=137582"
+              >FreeBSD</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        transistoro estas duonkondukta&jcirc;a <tld/>a&jcirc;o uzata por amplifado kaj &scirc;altado de
+        elektronikaj signaloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=14973"
+              >Transistoro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="rimed.0o">rimedo</ref>
+    </refgrp>
   </snc>
   <trd lng="bg">&c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
   <trd lng="ca">dispositiu</trd>
@@ -348,6 +460,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2021/12/29 20:31:07
+Wolfram Diestel: ~o: distingo uzeblo k decideblo, ekz-oj, ref-oj; ~aĵo: ekz-oj, ref
+
 versio 1.28 2021/12/29 18:34:45
 Wolfram Diestel: ~i: distingi snc havi, decidi, bonfarti
 
@@ -367,8 +482,5 @@ Revision 1.21  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.20  2015/06/29 16:29:37  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.19  2014/12/19 10:10:16  revo
 -->
 </vortaro>
