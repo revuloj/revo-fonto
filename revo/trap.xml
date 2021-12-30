@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trap.xml,v 1.14 2015/07/04 08:37:45 revo Exp $">
+<art mrk="$Id: trap.xml,v 1.15 2021/12/30 20:30:39 revo Exp $">
 <kap>
    <rad>trap</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,10 +11,10 @@
    <snc mrk="trap.0o.planto">
      <uzo tip="fak">BOT</uzo>
      <dif>
-       Genro de longaj flosaj vegeta&jcirc;oj (<trd lng="la">Trapa</trd>)
+       <ref tip="lst" lst="voko:botanikaj_genroj" cel="genr.0o.BIO">Genro</ref> de longaj 
+       flosaj vegeta&jcirc;oj (<trd lng="la">Trapa</trd>)
        kun rombaj, dikaj folioj, blankaj floretoj, prosperaj en
-       duonvarma,
-       iom stagna akvo en Azio, E&ubreve;ropo, Afriko kaj pro homa enkonduko
+       duonvarma, iom stagna akvo en Azio, E&ubreve;ropo, Afriko kaj pro homa enkonduko
        en Nordameriko kaj A&ubreve;stralio:
        <ekz>
          kiu povas flari bonan odoron el <tld/>a floro?
@@ -27,7 +27,7 @@
        <trd>macre</trd>
      </trdgrp>
      <trd lng="hu">sulyom</trd>
-     <trd lng="de">Wassernuss<klr>Pflanze</klr></trd>
+     <trd lng="de">Wassernuss<klr>pflanze</klr></trd>
      <trdgrp lng="pl">
        <trd>kotewka</trd>,
        <trd>orzech wodny</trd>,
@@ -41,28 +41,48 @@
        <trd>&c_v;&c_o;&c_d;&c_ja;&c_n;&c_o;&c_j; &c_k;&c_a;&c_sh;&c_t;&c_a;&c_n;</trd>
      </trdgrp>
      <trd lng="sv">sj&ouml;n&ouml;t</trd>
-   </snc>
-   <snc mrk="trap.0o.frukto">
-     <uzo tip="fak">BOT</uzo>
-     <ref tip="dif" cel="trap.0ofrukto"><tld/>ofrukto</ref>
-     <trdgrp lng="fr">
+  </snc>
+  <snc mrk="trap.0o.frukto">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      <ref tip="dif" cel="trap.0ofrukto"><tld lit="T"/>ofrukto</ref>:
+      <ekz>
+        mi ofte rememoradis pri la legomoj kaj fruktoj, kiujn mi man&gcirc;is kiel infano en
+        naski&gcirc;loko: <tld/>oj, faboj...
+        <fnt>
+          <vrk><url ref="http://www.esperanto.org/literaturo/huguozhu/MF.chm"
+              >Matenaj Floroj Kolektitaj en Vesperokovrilo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="fr">
        <trd>chataigne d'eau</trd>,
        <trd>noix aquatique</trd>
-     </trdgrp>
-     <trdgrp lng="hu">
+    </trdgrp>
+    <trdgrp lng="hu">
        <trd>csemegesulyom</trd>,
        <trd>v&iacute;zigesztenye</trd>
-     </trdgrp>
-     <trd lng="pt">castanha-de-&aacute;gua</trd>
-     <trdgrp lng="nl">
+    </trdgrp>
+    <trd lng="pt">castanha-de-&aacute;gua</trd>
+    <trdgrp lng="nl">
        <trd>waternoot</trd>,
        <trd>waterkastanje</trd>
-     </trdgrp>
-     <trd lng="ru">&c_v;&c_o;&c_d;&c_ja;&c_n;&c_o;&c_j; &c_o;&c_r;&c_je;&c_h;</trd>
-     <trd lng="sv">sj&ouml;n&ouml;t<klr>sfrukt</klr></trd>
-   </snc>
-  <trd lng="cs">asfaltový holub</trd>
-  <trd lng="sk">asfaltový holub</trd>
+    </trdgrp>
+    <trd lng="ru">&c_v;&c_o;&c_d;&c_ja;&c_n;&c_o;&c_j; &c_o;&c_r;&c_je;&c_h;</trd>
+    <trd lng="sv">sj&ouml;n&ouml;t<klr>sfrukt</klr></trd>
+  </snc>
+    <bld
+      lok="&WCU;/thumb/2/2f/Illustration_Trapa_natans1.jpg/298px-Illustration_Trapa_natans1.jpg"
+      prm="PD"
+      >botanika tabulo de <tld/>o (Trapa natans)
+        <fnt>
+          <aut>Prof. Dr. Otto Wilhelm Thom&eacute;: Flora von Deutschland, &Ouml;sterreich und der Schweiz 1885, Gera</aut>
+          <lok><url ref="&WCW;/File:Illustration_Trapa_natans1.jpg"
+              >https://commons.wikimedia.org/wiki/File:Illustration_Trapa_natans1.jpg</url></lok>
+        </fnt>
+    </bld>
+  <trd lng="cs">asfaltov&yacute; holub</trd>
+  <trd lng="sk">asfaltov&yacute; holub</trd>
 </drv>
 
 <drv mrk="trap.0ofrukto">
@@ -78,7 +98,7 @@
      <trd>chataigne d'eau</trd>,
      <trd>noix aquatique</trd>
    </trdgrp>
-   <trd lng="de">Wassernuss <klr>Frucht</klr></trd>
+   <trd lng="de">Wassernuss<klr>frucht</klr></trd>
    <trdgrp lng="hu">
      <trd>csemegesulyom</trd>,
      <trd>v&iacute;zigesztenye</trd>
@@ -99,6 +119,9 @@
 
 <!--
 $Log$
+versio 1.15 2021/12/30 20:30:39
+Wolfram Diestel: +ref, bld, korekteto trd de
+
 Revision 1.13  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -118,11 +141,5 @@ Revision 1.8  2007/09/23 16:30:28  revo
 Tulio Flores: +tr pt
 
 Revision 1.7  2006/02/16 17:33:49  revo
-Tulio Flores: +trd pt
-
-Revision 1.6  2005/06/02 16:31:07  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5  2005/02/08 17:31:27  revo
 -->
 </vortaro>
