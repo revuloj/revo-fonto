@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: plen.xml,v 1.114 2021/12/31 11:25:47 revo Exp $">
+  <art mrk="$Id: plen.xml,v 1.115 2021/12/31 12:46:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>plen</rad>/a
@@ -437,13 +437,30 @@
   <kap><tld/>o</kap>
   <snc mrk="plen.0o.KOMUNE">
     <dif>
-      La tuta, kompleta enhavo de io:
+      La tuta, kompleta <ref tip="super" cel="hav.en0o">enhavo</ref> de io:
+      <ekz>
+        En brusto kura&gcirc;o kaj forto bolanta, // Espero kaj kredo en <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         mi ne povas postuli de unu eldona&jcirc;o, ke &gcirc;i prezentu la
         <tld/>on de la vivo
         <fnt>
           <aut>Alen Kris</aut>: <vrk>Redakcie</vrk>.
           <bib>LOdE</bib>, <lok>2002:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pa&gcirc;oj en interreto ofte estas valoraj, sed en <tld/>o ne plu travideblaj, ne
+        el&ccirc;erpe utiligeblaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2010/010136.php"
+              >Strato de la e&ubreve;ropa kulturo</url></vrk>
+          <lok>2010</lok>
         </fnt>;
       </ekz><ekz>
         anta&ubreve; ducent-tricent jaroj oni flate nomis la popolon
@@ -455,14 +472,35 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_o;&c_t;&c_a;</trd>
+    <refgrp tip="vid">
+      <ref cel="cxio.0">&ccirc;io</ref>,
+      <ref cel="komple2.0o.KOMUNE">kompleto<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>F&uuml;lle</trd>,
+      <trd>G&auml;nze</trd>
+    </trdgrp><trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_o;&c_t;&c_a;</trd>
   </snc>
   <snc mrk="plen.0o.POL">
     <uzo tip="fak">JUR</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Speciale, kunsido a&ubreve; alia aran&gcirc;o kiun partoprenas &ccirc;iuj anoj
+      Speciale, <ref tip="super" cel="sid.kun0o">kunsido</ref> a&ubreve; alia aran&gcirc;o kiun partoprenas &ccirc;iuj anoj
       de organiza&jcirc;o a&ubreve; ties supera instanco:
+      <ekz>
+        la laboro <klr>[&#8230;]</klr> nun efektivi&gcirc;as en la kunvenoj de la <tld/>o, en
+        sekcioj a&ubreve; en apartaj laborkunsidoj, depende de la karaktero de la traktotaj
+        demandoj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; la <tld/>o estas proklamataj la gajnintoj de diversaj konkursoj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         specialaj raportoj de la Komisiono informas la
         <tld lit="P"/>on pri &gcirc;ia agado
@@ -473,6 +511,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="konvent.0o.POL">konvento<sncref/></ref>
+    </refgrp>
+    <trd lng="de">Plenum</trd>
     <trd lng="ru">&c_p;&c_l;&c_je;&c_n;&c_u;&c_m;</trd>
   </snc>
   <trd lng="cs">v&scaron;echno <klr>(v n&ecaron;&ccaron;em obsa&zcaron;en&eacute;)</klr></trd>
@@ -971,6 +1013,9 @@
 </art>
   <!--
   $Log$
+versio 1.115 2021/12/31 12:46:29
+Wolfram Diestel: ~o: ekz-oj, ref-oj, trd de
+
 versio 1.114 2021/12/31 11:25:47
 Wolfram Diestel: ~a: fnt-oj/ekz-oj
 
@@ -990,8 +1035,5 @@ Jeromo Vasxe: + ne~umebla
   aldono de trd sk per skripto de M. von Laer
 
   Revision 1.31  2013/09/15 11:10:18  revo
-  Wolfram Diestel: ref al plenbusxo, plenmano
-
-  Revision 1.30  2011/12/21 12:10:16  revo
 -->
 </vortaro>
