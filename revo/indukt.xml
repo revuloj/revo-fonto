@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: indukt.xml,v 1.24 2020/02/14 23:10:33 revo Exp $">
+<art mrk="$Id: indukt.xml,v 1.25 2022/01/01 20:30:48 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>indukt</rad>/i
@@ -12,14 +12,29 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="indukt.0i.KOMUNE">
     <dif>
-      Rezoni, konkludante el apartaj faktoj al &gcirc;enerala le&gcirc;o, el
-      specoj al specaro, el efikoj al ka&ubreve;zo:
+      <ref tip="super" cel="rezon.0i">Rezoni</ref>, konkludante el apartaj faktoj 
+      al &gcirc;enerala le&gcirc;o, el specoj al specaro, el efikoj al ka&ubreve;zo:
       <ekz>
         el tio, ni povas <tld/>i, ke ...
       </ekz>
+      <ekz>
+        kial li verkis kaj tradukis tiujn kalumniajn artikolojn kontra&ubreve; judoj,
+        Zamenhofo, cionismo <klr>[&#8230;]</klr>? &ndash; mi <tld/>as, ke &ccirc;ar li esencas
+        antisemito
+        <fnt>
+          <bib>MMa</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        filologo tamen ne povus multe <tld/>i, el la konata historio de esperanto,
+        &gcirc;eneralajn le&gcirc;ojn pri la evoluado de lingvoj
+        <fnt>
+          <bib>Plumamikoj</bib>
+        </fnt>;
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="dedukt.0i">dedukti</ref>.
+      <ref cel="dedukt.0i">dedukti</ref>
     </refgrp>
     <trd lng="de">verallgemeinern</trd>
     <trdgrp lng="en">
@@ -41,7 +56,24 @@
   <snc mrk="indukt.0i.ELE">
     <uzo tip="fak">ELE</uzo>
     <dif>
-      Produkti kurenton per <tld/>o <sncref ref="indukt.0o.ELE"/>.
+      Produkti elektran a&ubreve; magnetan kampon per <tld/>o<sncref ref="indukt.0o.ELE"/>:
+      <ekz>
+        la alterna <tld/>ita fluo en la movanta bobeno estas transformita en kontinuan
+        tension
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=113491"
+              >Dinamo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tera magnetkampo <tld/>as al &ccirc;iuj materialoj magnetajn ecojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=163842"
+              >Geomagnetiko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="hu">
       <trd>gerjeszt</trd>,
@@ -53,8 +85,56 @@
       <trd>&c_n;&c_a;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+  <snc mrk="indukt.0i.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <dif>
+      <ref tip="super" cel="aktiv.0igi.KOMUNE">Aktivigi</ref> fiziologian disvolvi&gcirc;an procezon; en genetiko, aktivigi genon
+      per ekstera faktoro:
+      <ekz>
+        medio- kaj vivkondi&ccirc;oj povas <tld/>i heredeblajn &scirc;an&gcirc;i&gcirc;ojn (ekz.
+        vintrorezistecon de oran&gcirc;o)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=46582"
+              >Trofim Lisenko</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+
+  <snc mrk="indukt.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="super" cel="est.0igi">Estigi</ref> en io, 
+      <ref tip="dif" cel="vok.el0i.FIG_kauxzi">elvoki</ref>, <ref tip="super" cel="inspir.0i.senton">inspiri</ref>:
+      <ekz>
+        manekeno &ccirc;u vivanta, &ccirc;u pupo el plasto, devas <tld/>i &ccirc;e la gea&ccirc;etantoj
+        surrealan senton de ideala supereco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gilbert LEDON</aut>
+          <vrk><url ref="https://www.monato.be/2003/008015.html"
+              >Misa mondo</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia eminenta, nobla, kompetenta akademio de Esperanto rekonsideru siajn
+        decidojn, rekonu siajn mispa&scirc;ojn, <tld/>itajn de la koloniismo, ksenofobio,
+        naciismo, &scirc;ovinismo
+        <fnt>
+          <bib>Monato</bib>
+          <lok><url ref="http://steloj.de/esperanto/monato2/007019.html"
+              >http://steloj.de/esperanto/monato2/007019.html</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="cs">vyvozovat obecn&eacute; z&aacute;v&ecaron;ry</trd>
-  <trd lng="de">induzieren</trd>
+  <trdgrp lng="de">
+    <trd>induzieren</trd>,
+    <trd>ausl&ouml;sen</trd>
+  </trdgrp>
   <trd lng="en">induce</trd>
   <trd lng="es">inducir</trd>
   <trd lng="fr">induire</trd>
@@ -67,7 +147,16 @@
   <kap><tld/>o</kap>
   <snc mrk="indukt.0o.KOMUNE">
     <dif>
-      Ago <tld/>i <sncref ref="indukt.0i.KOMUNE"/>.
+      Ago <tld/>i <sncref ref="indukt.0i.KOMUNE"/>:
+      <ekz>
+        al la logiko de Aristotelo, Bakono aldonis <tld/>on: se io okazas sufi&ccirc;e ripete
+        a&ubreve; estas ripetigebla, oni povas anta&ubreve;diri, ke &gcirc;i okazos denove
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1256"
+              >Francis Bacon</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">induction</trd>
     <trdgrp lng="hu">
@@ -83,8 +172,27 @@
   <snc mrk="indukt.0o.ELE">
     <uzo tip="fak">ELE</uzo>
     <dif>
-      Fenomeno, per kiu kurento a&ubreve; movi&gcirc;anta magneto produktas
-      kurenton en apuda kondukilo.
+      <ref tip="super" cel="fenome.0o">Fenomeno</ref>, per kiu &scirc;an&gcirc;i&gcirc;anta elektra 
+      kampo formas magnetan kampon kaj inverse:
+      <ekz>
+        pere de <tld/>o oni povas &scirc;argi elektran dentobroson sen konektilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ivo Durwael</aut>
+          <vrk><url ref="https://www.monato.be/2011/010227.php"
+              >Magia tapi&scirc;o</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        transformatoro (a&ubreve; transformilo) <klr>[&#8230;]</klr> transformas alternan kurenton
+        kaj tension <klr>[&#8230;]</klr> per elektromagneta <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=27289"
+              >Transformatoro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">inductance</trd>
     <trdgrp lng="hu">
@@ -106,6 +214,14 @@
       por <frm am="n=0"><k>n</k> = 0</frm>, kaj ke se &gcirc;i veras
       por iu <frm am="n"><k>n</k></frm>, &gcirc;i veras anka&ubreve;
       por <frm am="n+1"><k>n</k>+1</frm>:
+      <ekz>
+        temas pri pruvoj de matematikaj teoremoj pere de <tld/>o, kaj solvante tiujn
+        taskojn hiera&ubreve; posttagmeze, mi supozis a&ubreve; e&ccirc; certis, ke neniu el miaj
+        samklasanoj sukcesos solvi ilin
+        <fnt>
+          <bib>FSI</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         <ind>aksiomo de (matematika) <tld/>o</ind>
         <fnt><bib>MatVort</bib></fnt>;
@@ -139,43 +255,52 @@
     <trd>vyvol&aacute;n&iacute; <klr>(potratu)</klr></trd>,
     <trd>vz&aacute;jemn&eacute; navozen&iacute;</trd>
   </trdgrp>
+  <trd lng="de">Induktion</trd>
   <trd lng="es">inducci&oacute;n</trd>
   <trd lng="fr">induction<klr tip="ind"> (raisonnement, &eacute;lec.,
   math.)</klr></trd>
   <trd lng="sk">indukcia</trd>
 </drv>
 
-<drv mrk="indukt.il0o">
-  <kap><tld/>ilo</kap>
-  <snc mrk="indukt.il0o.ELE">
-  <uzo tip="fak">ELE</uzo>
-  <dif>
-  <ref tip="dif" cel="boben.0o.ELE">Bobeno</ref>, kiu kontra&ubreve;staras la
-  pason de alterna kurento per sia <ref tip="dif"
-  cel="indukt.0o.ELE">induktanco</ref>.  
-  </dif>
-  </snc>
-  <trd lng="cs">induktor</trd>
-  <trd lng="fr">inductance<klr> (composant)</klr></trd>
-  <trd lng="sk">induktor</trd>
-</drv>
+
 
 <drv mrk="indukt.0a">
   <kap><tld/>a</kap>
   <dif>
     Karakterizata per <tld/>o:
   </dif>
-  <snc>
+  <snc ref="indukt.0o.KOMUNE">
     <ekz>
-      <tld/>a rezonado, metodo;
+      <tld/>a rezonado, metodo.
     </ekz>
-    <trd lng="de">induktiv</trd>
+    
   </snc>
-  <snc>
+  <snc ref="indukt.0o.ELE">
     <ekz>
-      <tld/>a bobeno, fluo.
+      per <tld/>a infrastukturo en la pavimo <klr>[&#8230;]</klr> a&ubreve;toj povos &scirc;argi&gcirc;i dum
+      veturado
+      <fnt>
+        <bib>Monato</bib>
+        <aut>Ivo Durwael</aut>
+        <vrk><url ref="https://www.monato.be/2011/010227.php"
+            >Magia tapi&scirc;o</url></vrk>
+        <lok>2011</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      tiuj magnete levitaj veturiloj uzos altiran kaj forpu&scirc;an fortojn kreatajn de
+      super-konduktanta magneto en la vagonoj kun <tld/>aj bobenoj sur la gvidaj
+      vojmuroj
+      <fnt>
+        <bib>Monato</bib>
+        <aut>Isikawa Takasi</aut>
+        <vrk><url ref="https://www.monato.be/2014/011390.php"
+            >E&ccirc; pli rapide</url></vrk>
+        <lok>2014</lok>
+      </fnt>.
     </ekz>
   </snc>
+  <trd lng="de">induktiv</trd>
   <trd lng="en">inductive</trd>
   <trd lng="es">inductivo</trd>
   <trdgrp lng="fr">
@@ -196,9 +321,37 @@
     <trd>&c_i;&c_n;&c_d;&c_u;&c_k;&c_c;&c_i;&c_o;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
 </drv>
-</art>
+
+<drv mrk="indukt.il0o">
+  <kap><tld/>ilo</kap>
+  <snc mrk="indukt.il0o.ELE">
+    <uzo tip="fak">ELE</uzo>
+    <dif>
+      <ref tip="dif" cel="boben.0o.ELE">Bobeno</ref>, kiu kontra&ubreve;staras la
+      pason de alterna kurento per sia <ref tip="dif" cel="indukt.0o.ELE">induktanco</ref>:
+      <ekz>
+        se en cirkvito estas kondensilo, <tld/>ilo, tiuj proprecoj simile okazigas
+        en&scirc;altan pli&scirc;ar&gcirc;econ
+        <fnt>
+          <vrk><url ref="https://eventoj.hu/steb/vortaroj/elektra-terminaro.htm"
+              >Terminaro pri elektrotekniko</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">induktor</trd>
+  <trdgrp lng="de">
+    <trd>Spule</trd>,
+    <trd>Drossel <klr>(Spule)</klr></trd>
+  </trdgrp>
+  <trd lng="fr">inductance<klr> (composant)</klr></trd>
+  <trd lng="sk">induktor</trd>
+</drv></art>
 <!--
-$Log: indukt.xml,v $
+$Log$
+versio 1.25 2022/01/01 20:30:48
+Wolfram Diestel: +snc BIO, FIG; ekz-oj, ref-oj, trd de
+
 versio 1.24 2020/02/15 00:10:34
 Wolfram Diestel: formuloj per am
 
@@ -218,8 +371,5 @@ Revision 1.19  2007/04/20 16:31:11  revo
 Tulio Flores: +tr pt
 
 Revision 1.18  2005/06/22 16:32:17  revo
-Yury Finkel: +trd ru
-
-Revision 1.17  2003/01/17 17:32:58  revo
 -->
 </vortaro>
