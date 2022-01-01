@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ring.xml,v 1.55 2021/12/20 14:29:20 revo Exp $">
+<art mrk="$Id: ring.xml,v 1.56 2022/01/01 12:45:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ring</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,15 +13,17 @@
     <dif>
       Cirkloforma peco el malmola materio:
       <ekz>
-        (fingro)<tld/>o, <tld/>o de fian&ccirc;i&gcirc;o;
+        (fingro)<tld/>o;
+      </ekz>
+      <ekz>
+        kun la plej timema modesteco &scirc;i prenis la edzigan <tld/>on el mia mano
+        <fnt>
+          <bib>Rabistoj</bib>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>kol<tld/>o</ind>;
         <trd lng="hu">nyak&ouml;rv</trd>
-      </ekz>
-      <ekz>
-        <ind>brak<tld/>o</ind>;
-        <trd lng="hu">karperec</trd>
       </ekz>
       <ekz>
         <tld/>oforma;
@@ -51,16 +53,32 @@
     <trd lng="sv">ring</trd>
     <trd lng="hu">karika</trd>    
   </snc>
+  <snc mrk="ring.0o.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      Cirkla <ref tip="super" cel="sign.super0o.TIP">supersigno</ref>:
+      <ekz>
+        konata litero en la ortografio de la sveda, la dana kaj la norvega estas la a
+        kun supera <tld/>o, <frm>&aring;</frm>
+        <fnt>
+          <aut>J. Wells</aut>
+          <vrk><url ref="https://www.phon.ucl.ac.uk/home/wells/dia/supersignoj.htm"
+              >Supersignoj, trasignoj kaj subsignoj</url></vrk>
+          <lok>1996-2000</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <snc mrk="ring.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>EKV</bib><lok>&para;380</lok></fnt>
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,&#8224;,&#215;)">(<g>E</g>,&#8224;,&#215;)</frm>,
+      <frm am="(bb E,&#8224;,×)">(<g>E</g>,&#8224;,×)</frm>,
       ke <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">&#215;</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">×</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al
       <frm am="&#8224;">&#8224;</frm>:
@@ -167,24 +185,27 @@
   <kap><ofc>*</ofc><tld/>ego <fnt><bib>F</bib>, <lok>Universala Vortaro,
   <url
   ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5185">ring'eg'</url></lok></fnt></kap>
-  <snc>
+  <snc mrk="ring.0ego.KOMUNE">
     <dif>
-    Granda ringo el fero, &ccirc;irka&ubreve;anta barelon k kuntenanta ties da&ubreve;bojn. 
+      Granda <tld/>o.
+    </dif>
+  <subsnc>
+    <dif>
+      Granda <tld/>o el fero, &ccirc;irka&ubreve;anta barelon kaj kuntenanta ties da&ubreve;bojn. 
     </dif>
     <trd lng="de">Reif <klr>(am Fasse)</klr></trd>
-  </snc>
-  <snc>
+  </subsnc>
+  <subsnc>
     <dif>
-    Granda ringo el metalo, &ccirc;irka&ubreve;anta radon  
+      Granda <tld/>o el metalo &ccirc;irka&ubreve;anta lignan radon de &ccirc;aro  
     </dif>
-    <ref tip="sin" cel="bend.0o">bendo</ref>
-  </snc>
-  <snc>
+  </subsnc>
+  <subsnc>
     <dif>
-    Granda ringo el metala a&ubreve; barta&jcirc;o, pasintece uzata por pufigi la
-    virinajn robojn.  
+      Granda <tld/>o el metala a&ubreve; barta&jcirc;o, pasintece uzata por pufigi la
+      virinajn robojn, parto de <ref tip="malprt" cel="krinolin.0o">krinolino</ref>.  
     </dif>
-    <ref tip="sin" cel="krinolin.0o">krinolino</ref>
+  </subsnc>
   </snc>
   <trd lng="be">&c_a;&c_b;&c_r;&c_u;&c_ch;</trd>
   <trdgrp lng="en">
@@ -192,7 +213,6 @@
     <trd><klr>(metal)</klr> circle</trd>
   </trdgrp>
   <trd lng="fr">cerceau</trd>
-
 </drv>
 
 <drv mrk="ring.sub0o">
@@ -200,14 +220,14 @@
   <snc mrk="ring.sub0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,&#215;)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,×)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,&#215;<sub>A</sub>)</frm>, ke
+      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,×<sub>A</sub>)</frm>, ke
       <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm>,
       <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
       <ref cel="grup.sub0o">subgrupo</ref> de 
       <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
-      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>&#215;<sub>A</sub><k>y</k> = <k>x</k>&#215;<k>y</k>&#8712;A</frm>
+      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>×<sub>A</sub><k>y</k> = <k>x</k>×<k>y</k>&#8712;A</frm>
       por
       &ccirc;iuj
       <frm am="x,y in A"><k>x</k>, <k>y</k>&#8712;A</frm>:
@@ -246,6 +266,51 @@
   <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o; &c_v;&c_y;&c_ch;&c_je;&c_t;&c_o;&c_v;</trd>
 </drv>
 
+<drv mrk="ring.brak0o">
+  <kap>brak<tld/>o</kap>
+  <snc mrk="ring.brak0o.GAL">
+    <dif>
+      <ref tip="super" cel="bracel.0o">Braceleto</ref> portata &ccirc;e
+      la brako:
+      <ekz>
+        peza, granda ora brak<tld/>o el antikva idolista tempo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ib kaj malgranda kristino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la jaro 1864 &ccirc;e la limo de la vila&gcirc;o estis trovita brak<tld/>o el masiva oro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=392148">Schalunen</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_b;&c_r;&c_a;&c_n;&c_z;&c_a;&c_l;&c_je;&c_t;</trd>
+  <trd lng="bg">&c_g;&c_r;&c_i;&c_v;&c_n;&c_a;</trd>
+  <trd lng="br">tro-vrec'h</trd>
+  <trd lng="cs">n&aacute;ramek</trd>
+  <trd lng="de">Armreif</trd>
+  <trd lng="en">bracelet</trd>
+  <trdgrp lng="es">
+    <trd>pulsera</trd>,
+    <trd>brazalete</trd>
+  </trdgrp>
+  <trd lng="fr">bracelet<klr tip="ind"> (de bras)</klr></trd>
+  <trd lng="he">&tsadi;&mem;&yod;&dalet;</trd>
+  <trd lng="hu">karperec</trd>
+  <trdgrp lng="it">
+    <trd>bracciale</trd>,
+    <trd>braccialetto</trd>
+  </trdgrp>
+  <trd lng="pl">bransoleta</trd>
+  <trd lng="ru">&c_b;&c_r;&c_a;&c_s;&c_l;&c_je;&c_t;</trd>
+  <trd lng="sk">n&aacute;ramok</trd>
+  <trd lng="tr">bilezik</trd>
+</drv>
+
 <drv mrk="ring.euxklida0o">
   <kap>e&ubreve;klida <tld/>o</kap>
   <snc mrk="ring.euxklida0o.MAT">
@@ -266,7 +331,7 @@
       <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun nenula 
       <frm am="b"><k>b</k></frm> ekzistas
       almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx
-      q+r"><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
+      q+r"><k>a</k> = <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
       <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
@@ -363,6 +428,35 @@
   </trdgrp>
 </drv>
 
+<drv mrk="ring.krur0o">
+  <kap>krur<tld/>o</kap>
+  <fnt><bib>PV</bib><lok>braceleto</lok></fnt>
+  <snc mrk="ring.krur0o.GAL">
+    <dif>
+      <ref tip="super" cel="bracel.0o">Braceleto</ref> portata &ccirc;e
+      kruro:
+      <ekz>
+        krur<tld/>o <klr>[&#8230;]</klr> por rajdistoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=34564">Ringo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>esclava</trd>,
+    <trd>canyellera, turmellera</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>ankle bracelet</trd>,
+    <trd>anklet</trd>, <trd>leg bangle</trd>
+  </trdgrp>
+  <trd lng="fr">bracelet<klr tip="ind"> (de cheville)</klr></trd>
+  <trd lng="nl">enkelband</trd>
+  <trd lng="pl">bransoleta</trd>
+</drv>
+
 <drv mrk="ring.kvocienta0o">
   <kap>kvocienta <tld/>o</kap>
   <snc mrk="ring.kvocienta0o.MAT">
@@ -373,9 +467,9 @@
       de &gcirc;i)</klr>
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
       de <frm am="bb R"><g>R</g></frm> rilate al <frm am="bb I"><g>I</g></frm>, provizita per la 
-      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)&#215;(<k>b</k>+<g>I</g>)
+      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)×(<k>b</k>+<g>I</g>)
       =
-      (<k>a</k>&#215;<k>b</k>)+<g>I</g></frm>; 
+      (<k>a</k>×<k>b</k>)+<g>I</g></frm>; 
       simb. <frm am="bb R//bb I"><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
@@ -463,6 +557,9 @@
 </art>
 <!--
 $Log$
+versio 1.56 2022/01/01 12:45:59
+Jeromo Vasxe: ~o + snc tip, ~ego snc/subsnc, + brak/krur~o el resp. art.
+
 versio 1.55 2021/12/20 14:29:20
 Dmitri Gabinski: + trd be
 
@@ -481,8 +578,5 @@ Alain Gerard: +hul~o
 
 Revision 1.48  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
-
-Revision 1.47  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
 -->
 </vortaro>
