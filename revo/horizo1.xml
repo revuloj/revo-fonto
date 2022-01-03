@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: horizo1.xml,v 1.35 2020/02/14 22:10:31 revo Exp $">
+<art mrk="$Id: horizo1.xml,v 1.36 2022/01/03 22:31:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>horizontal</rad>/a
@@ -119,6 +119,10 @@
   </refgrp>
   <trd lng="be">&c_g;&c_a;&c_r;&c_y;&c_z;&c_a;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="ca">horitzontal<klr> (adj.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>horizont&aacute;ln&iacute;</trd>,
+    <trd>vodorovn&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>waagerecht</trd>,
     <trd>waagrecht</trd>,
@@ -138,10 +142,6 @@
   <trd lng="pt">horizontal</trd>
   <trd lng="ru">&c_g;&c_o;&c_r;&c_i;&c_z;&c_o;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">vodorovn&yacute;</trd>
-  <trdgrp lng="cs">
-    <trd>horizont&aacute;ln&iacute;</trd>,
-    <trd>vodorovn&yacute;</trd>
-  </trdgrp>
   <adm>
     Kontroli, ke la trd de/nl/ru aplikigxas ankaux al
     la dua senco, poste aldonita. <aut>MB</aut>
@@ -166,12 +166,16 @@
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="en"><trd>horizontal</trd>, <trd>horizontal
+  <trdgrp lng="en"><trd>horizontal</trd>, <trd>horizontal
     line</trd></trdgrp>
-    <trd lng="fr">horizontale<klr tip="ind"> (en un lieu)</klr></trd>
+  <trdgrp lng="es">
+    <trd>l&iacute;nea <ind>horizontal</ind></trd>, 
+    <trd>plano <ind>horizontal</ind></trd>
+  </trdgrp>
+  <trd lng="fr">horizontale<klr tip="ind"> (en un lieu)</klr></trd>
   <trdgrp lng="it">
-  <trd>linea <ind>orizzontale</ind></trd>, 
-  <trd>piano <ind>orizzontale</ind></trd>
+    <trd>linea <ind>orizzontale</ind></trd>, 
+    <trd>piano <ind>orizzontale</ind></trd>
   </trdgrp>
   </snc>
   <snc mrk="horizo1.0o.linio">
@@ -187,6 +191,7 @@
       </ekz>
     </dif>
     <trd lng="en">row</trd>
+    <trd lng="es">fila</trd>
     <trd lng="fr">rang&eacute;e horizontale<klr tip="ind"> (dans un
     tableau)</klr></trd>
     <trd lng="it">riga</trd>
@@ -207,6 +212,7 @@
         </ekz>
       </dif>
       <trd lng="en">horizontal <ind>line</ind></trd>
+      <trd lng="es"><ind>l&iacute;nea</ind> horizontal</trd>
       <trd lng="fr">horizontale<klr tip="ind"> (math.,
       droite)</klr></trd>
       <trd lng="hu">v&iacute;zszintes<klr tip="ind"> (vonal)</klr></trd>
@@ -227,6 +233,10 @@
       <trdgrp lng="en">
         <trd>horizontal <ind>row</ind><klr tip="ind"> (of a
         matrix)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd><ind>fila</ind> horizontal<klr tip="ind"> (de una
+        matriz)</klr></trd>
       </trdgrp>
       <trdgrp lng="fr">
         <trd>rang&eacute;e horizontale<klr tip="ind"> (d'une
@@ -263,6 +273,7 @@ matrice)</klr></trd>,
       </adm>
       <trd lng="de">Zeilenmatrix</trd>
       <trd lng="en">row <ind>matrix</ind></trd>
+      <trd lng="es"><ind>matriz</ind> fila</trd>
       <trd lng="fr">matrice-ligne</trd>
       <trd lng="hu">sorm&aacute;trix</trd>
       <trd lng="pl">macierz [jedno]wierszowa</trd>
@@ -280,6 +291,7 @@ matrice)</klr></trd>,
     <trd>Waag[e]rechte</trd>,
     <trd>Horizontale</trd>
   </trdgrp>
+  <trd lng="es">horizontal<klr> (subst.)</klr></trd>
   <trdgrp lng="nl">
     <trd>horizontale lijn</trd>,
     <trd>horizontale ligging</trd>
@@ -290,7 +302,10 @@ matrice)</klr></trd>,
 </drv>
 </art>
 <!--
-$Log: horizo1.xml,v $
+$Log$
+versio 1.36 2022/01/03 22:31:49
+Guillermo Molleda Jimena: +trd es
+
 versio 1.35 2020/02/14 22:10:31
 Wolfram Diestel: formuloj per am
 
@@ -310,8 +325,5 @@ Revision 1.30  2012/07/30 13:10:16  revo
 Marc Rausell: + trd ca
 
 Revision 1.29  2009/09/20 16:30:39  revo
-Antonio Codazzi: +trd it
-
-Revision 1.28  2009/07/09 16:31:34  revo
 -->
 </vortaro>
