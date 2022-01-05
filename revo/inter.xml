@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: inter.xml,v 1.103 2022/01/04 06:35:59 revo Exp $">
+<art mrk="$Id: inter.xml,v 1.104 2022/01/05 06:36:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>inter</rad>
@@ -519,14 +519,11 @@
   <dif>
     Prefikso kun sencoj <sncref ref="inter.0.loke"/>, 
     <sncref ref="inter.0.tempe"/> kaj <sncref ref="inter.0.rilatece"/> 
-    de la prepozicio: sed oni devas distingi du
+    de la prepozicio <klr>(sed oni devas distingi du
     kazojn, la&ubreve; tio &ccirc;u la radiko, kiu sekvas <em>inter</em> en la
-    kunmetita&jcirc;o, estas ties komplemento a&ubreve; ne.
+    kunmetita&jcirc;o, estas ties komplemento a&ubreve; ne)</klr>.
   </dif>
-  <snc>
-    <dif>
-      La komplemento de <em>inter</em> estas la sekvanta radiko:
-    </dif>
+  <snc ref="inter.0.loke">
     <subsnc>
       <ekz>
         <ref cel="mont.inter0o">intermonto</ref> <klr>(trairejo <tld/> du montoj)</klr>;
@@ -541,34 +538,6 @@
         <tld/>ferdeko, <ref cel="etagx.inter0o">intereta&gcirc;o</ref>, <tld/>foliigi, ktp.
       </ekz>
     </subsnc>
-    <subsnc>
-      <ekz>
-        <ref cel="akt.inter0o"><tld/>akto</ref> <klr>(tempo <tld/> du aktoj)</klr>;
-      </ekz>
-      <ekz>
-        <ind><tld/>re&gcirc;ado</ind> <klr>(tempo <tld/> du
-        re&gcirc;adoj)</klr>, ktp.
-        <trd lng="es">interregno</trd>
-        <trd lng="nl">interregnum</trd>
-        <trd lng="ru">
-    &c_m;&c_je;&c_zh;&c_d;&c_u;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_i;&c_je;
-        </trd>
-        </ekz>
-    </subsnc>
-    <subsnc>
-      <ekz>
-        <ref cel="naci.inter0a"><tld/>nacia</ref> <klr>(kiu estas <tld/> diversaj
-        nacioj)</klr>;
-      </ekz>
-      <ekz>
-        <tld/>homa lerteco.
-      </ekz>
-    </subsnc>
-  </snc>
-  <snc>
-    <dif>
-      La komplemento de <em>inter</em> ne estas esprimata:
-    </dif>
     <subsnc>
       <ekz>
         <tld/>aldoni <klr>(aldoni <tld/>)</klr>;
@@ -586,6 +555,22 @@
         <ref cel="met.inter0i"><tld/>meti</ref>.
       </ekz>
     </subsnc>
+  </snc>
+  <snc ref="inter.0.tempe">
+    <subsnc>
+      <ekz>
+        <ref cel="akt.inter0o"><tld/>akto</ref> <klr>(tempo <tld/> du aktoj)</klr>;
+      </ekz>
+      <ekz>
+        <ind><tld/>re&gcirc;ado</ind> <klr>(tempo <tld/> du
+        re&gcirc;adoj)</klr>, ktp.
+        <trd lng="es">interregno</trd>
+        <trd lng="nl">interregnum</trd>
+        <trd lng="ru">
+    &c_m;&c_je;&c_zh;&c_d;&c_u;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_i;&c_je;
+        </trd>
+        </ekz>
+    </subsnc>
     <subsnc>
       <ekz>
         <tld/>tempo <klr>(tempo <tld/> du okazoj)</klr>;
@@ -601,6 +586,17 @@
         <ref cel="okaz.inter0ajxo"><tld/>okaza&jcirc;o</ref>.
       </ekz>
     </subsnc>
+  </snc>
+  <snc ref="inter.0.rilatece">
+    <subsnc>
+      <ekz>
+        <ref cel="naci.inter0a"><tld/>nacia</ref> <klr>(kiu estas <tld/> diversaj
+        nacioj)</klr>;
+      </ekz>
+      <ekz>
+        <tld/>homa lerteco.
+      </ekz>
+    </subsnc>
     <subsnc>
       <ekz>
         <tld/>helpi <klr>(helpi por starigi akordon <tld/> du a&ubreve;
@@ -612,6 +608,11 @@
         <klr>(parolo, konsento, vidi&gcirc;o <tld/> du a&ubreve; pluraj
         personoj)</klr>.
       </ekz>
+      <rim>
+        Iafoje vorto falas en amba&ubreve; kategoriojn: <ekz> <ref cel="ret.inter0o"><tld/>reto</ref> <klr>(t.e. reto
+        <tld/> retoj)</klr> </ekz>
+      </rim>
+
     </subsnc>
     <subsnc>
       <dif>
@@ -643,10 +644,6 @@
       </dif>
     </subsnc>
   </snc>
-  <rim>
-    Iafoje vorto falas en amba&ubreve; kategoriojn: <ekz> <ref cel="ret.inter0o"><tld/>reto</ref> <klr>(t.e. reto
-    <tld/> retoj)</klr> </ekz>
-  </rim>
   <trd lng="en">inter-</trd>
   <trdgrp lng="es">
     <trd>entre-<klr> (prefijo)</klr></trd>,
@@ -664,6 +661,9 @@
 </art>
 <!--
 $Log$
+versio 1.104 2022/01/05 06:36:00
+Wolfram Diestel: III reordigo snc/subsnc tiel, ke snc-oj referencas al I 1,2,4
+
 versio 1.103 2022/01/04 06:35:59
 Wolfram Diestel: III: +ref-oj, +rim
 
@@ -683,8 +683,5 @@ Revision 1.21  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2014/12/10 08:10:57  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.19  2012/10/22 01:10:15  revo
 -->
 </vortaro>
