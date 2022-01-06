@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: inter.xml,v 1.107 2022/01/06 17:37:45 revo Exp $">
+<art mrk="$Id: inter.xml,v 1.108 2022/01/06 20:29:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>inter</rad>
@@ -665,35 +665,38 @@
     kunmetita&jcirc;o, estas ties komplemento a&ubreve; ne)</klr>.
   </dif>
   <snc mrk="inter.0_.loke" ref="inter.0.loke">
-    <subsnc>
-      <ekz>
-        <ref cel="mont.inter0o">intermonto</ref> 
-        <klr>(trairejo <tld/> du montoj)</klr>;
-      </ekz>
+    <subsnc mrk="inter.0_.loke.kun_kompl">
       <ekz>
         <ref cel="etagx.inter0o">intereta&gcirc;o</ref>;
       </ekz>
       <ekz>
-        <ref cel="krut.inter0ejo">interkrutejo</ref>;
+        <ref cel="fac.inter0o">interfaco</ref>;
       </ekz>
       <ekz>
-        <ref cel="fac.inter0o">interfaco</ref>.
+        <ref cel="krut.inter0ejo">interkrutejo</ref>,
+        <ref cel="mont.inter0o">intermonto</ref> 
+        <klr>(trairejo <tld/> du montoj)</klr>;
+      </ekz>
+      <ekz>
+        la suno elaperis trans la montaraj <tld/>pintoj
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>.
       </ekz>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="inter.0_.loke.sen_kompl">
       <ekz>
-        <ref cel="spac.inter0o"><tld/>spaco</ref>;
+        <ref cel="spac.inter0o"><tld/>spaco</ref>,
+        <ref cel="titol.inter0o">intertitolo</ref>;
       </ekz>
       <ekz>
-        <ref cel="met.inter0i"><tld/>meti</ref>;
-      </ekz>
-      <ekz>
+        <ref cel="met.inter0i"><tld/>meti</ref>,
         <ref cel="ven.inter0i">interveni</ref>.
       </ekz>
     </subsnc>
   </snc>
   <snc mrk="inter.0_.tempe" ref="inter.0.tempe">
-    <subsnc>
+    <subsnc mrk="inter.0_.tempe.kun_kompl">
       <ekz>
         <ref cel="akt.inter0o"><tld/>akto</ref>
         <klr>(tempo <tld/> du aktoj)</klr>;
@@ -713,7 +716,7 @@
       </ekz>
 -->
     </subsnc>
-    <subsnc>
+    <subsnc mrk="inter.0_.tempe.sen_kompl">
       <ekz>
         <tld/>tempo <klr>(tempo <tld/> du okazoj)</klr>,
         <ref cel="temp.inter0e">intertempe</ref>;
@@ -740,62 +743,124 @@
     </subsnc>
   </snc>
   <snc mrk="inter.0_.rilatece" ref="inter.0.rilatece">
-    <subsnc>
+    <subsnc mrk="inter.0_.rilatece.kun_kompl">
       <ekz>
-        <ref cel="naci.inter0a"><tld/>nacia</ref> <klr>(kiu estas <tld/> diversaj
-        nacioj)</klr>;
-      </ekz>
-      <ekz>
-        <tld/>homa lerteco.
+        en 1914 ekzistis socialista <tld lit="I"/>nacio
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>.
       </ekz>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="inter.0_.rilatece.sen_kompl">
       <ekz>
-        <tld/>helpi <klr>(helpi por starigi akordon <tld/> du a&ubreve;
-        pluraj personoj)</klr>;
+        <ref cel="ag.inter0i">interagi</ref>,
+        <ref cel="trakt.inter0i">intertrakti</ref>,
+        <ref cel="komuni1.inter0i">interkomuniki</ref>,
+        <ref cel="konfor.inter0igi">interkonformigi</ref>;
       </ekz>
       <ekz>
-        <ref cel="parol.inter0o"><tld/>parolo</ref>, <ref cel="konsen.inter0o"><tld/>konsento</ref>, 
+        <ref cel="parol.inter0o"><tld/>parolo</ref>, 
+        <ref cel="konsen.inter0o"><tld/>konsento</ref>, 
         <ref cel="vid.inter0igxi">intervidi&gcirc;o</ref>
         <klr>(parolo, konsento, vidi&gcirc;o <tld/> du a&ubreve; pluraj
-        personoj)</klr>.
+        personoj)</klr>;
+      </ekz>
+      <ekz>
+        <ref cel="lig.inter0o">interligo</ref>,
+        <ref cel="akord.inter0o">interakordo</ref>,
+        <ref cel="flu.inter0o">interfluo</ref>;
+      </ekz>
+      <ekz>
+        <ref cel="konfuz.inter0i">interkonfuzi</ref>,
+        <ref cel="miks.inter0i">intermiksi</ref>,
+        <ref cel="sxangx.inter0i">inter&scirc;an&gcirc;i</ref>.  
       </ekz>
       <rim>
         Iafoje vorto falas en amba&ubreve; kategoriojn: <ekz> <ref cel="ret.inter0o"><tld/>reto</ref> <klr>(t.e. reto
         <tld/> retoj)</klr> </ekz>
       </rim>
-
     </subsnc>
-    <subsnc>
+    <subsnc mrk="inter.0_.rilatece.reciproke">
       <dif>
         Per pliampleksigo de tiu &ccirc;i senco, <em>inter</em> estas uzata
         aparte por montri reciprokecon:
         <ekz>
-          sin <tld/>helpi
-          <klr>(helpi unu al la alia)</klr>;
+          sin
+          <ref cel="salut.inter0i">intersaluti</ref>,
+          <ref cel="tusx.inter0i">intertu&scirc;i</ref>,
+          <ref cel="kis.inter0i">interkisi</ref>;
         </ekz>
         <ekz>
-          <tld/>sekvo
-          <klr>(serio da objektoj a&ubreve; okazoj, kiuj sin sekvas unu 
-          la alian)</klr>;
+          <ref cel="bat.inter0igxo">interbati&gcirc;o</ref>,
+          <ref cel="frap.inter0igxi">interfrapi&gcirc;i</ref>,
+          <ref cel="frat.inter0igxi">interfrati&gcirc;i</ref>;
         </ekz>
         <ekz>
-          <tld/>transmeti
-          <klr>(&scirc;an&gcirc;i la reciprokan ordon de du aferoj)
-          </klr>;
+          <ref cel="kompre.inter0igxi">interkompreni&gcirc;i</ref>,
+          <ref cel="kon.inter0atigxi">interkonati&gcirc;i</ref>,
+          <ref cel="rilat.inter0igxi">interrilati&gcirc;i</ref>;
         </ekz>
         <ekz>
-          sin <tld/>akuzi, <tld/>ami, <tld/>frapi;
+          <ref cel="plekt.inter0i">interplekti</ref>,
+          <ref cel="prem.inter0i">interpremi</ref>;
+        </ekz>  
+        <ekz>
+          fluoj de la lumo <tld/>kruci&gcirc;as en la aero
+          <fnt>
+            <bib>Metrop</bib>
+          </fnt>;
         </ekz>
         <ekz>
-          sin <tld/>ligi, <tld/>bu&ccirc;i;
+          <tld/>kro&ccirc;i&gcirc;is la dentradoj de mirinda mekanismo
+          <fnt>
+            <bib>VaK</bib>
+          </fnt>;
         </ekz>
         <ekz>
-          <tld/>kruci&gcirc;i, <tld/>plekti&gcirc;i.
+          la du familioj <klr>[&#8230;]</klr> sin <tld/>vizitis
+          <fnt>
+            <bib>KPr</bib>
+          </fnt>.
         </ekz>
       </dif>
     </subsnc>
   </snc>
+    <rim>
+      Distingenda de prefiksa uzo estas la kunderivado 
+      de predikativo al adjektivo a&ubreve; adverbo:
+      <ekz>
+        &scirc;i prenis <tld/>doman, solecan vojeton
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ref cel="naci.inter0a"><tld/>nacia</ref>,
+        <tld/>regiona kunlaboro
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>civitana milito
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun tran&ccirc;ilo <tld/>dente
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        klingo pasis tra la spaco <tld/>ripa
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>.
+      </ekz>
+    </rim>
   <trd lng="en">inter-</trd>
   <trdgrp lng="es">
     <trd>entre-<klr> (prefijo)</klr></trd>,
@@ -813,6 +878,9 @@
 </art>
 <!--
 $Log$
+versio 1.108 2022/01/06 20:29:52
+Wolfram Diestel: III 4: kompletigo de ekz-oj; +rim kunderivado
+
 versio 1.107 2022/01/06 17:37:45
 Wolfram Diestel: III 1,2: kompletigo ekz-oj
 
@@ -832,8 +900,5 @@ versio 1.102 2022/01/03 19:23:05
 Wolfram Diestel: + II vortero: ~a, ~a&jcirc;o, ~ulo
 
 Revision 1.24  2018/03/08 09:10:14  revo
-Jeromo Vasxe: + el ~
-
-Revision 1.23  2015/09/27 13:10:17  revo
 -->
 </vortaro>
