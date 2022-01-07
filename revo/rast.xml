@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rast.xml,v 1.21 2022/01/07 17:40:33 revo Exp $">
+<art mrk="$Id: rast.xml,v 1.22 2022/01/07 18:38:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rast</rad>/i
@@ -14,8 +14,8 @@
     <uzo tip="fak">AGR</uzo>
     <uzo tip="fak">HOR</uzo>
     <dif>
-      Prilabori grundon per <tld/>ilo, kunkolektante fojnon, 
-      pajlon, falintajn foliojn, preparante bedon ks:
+      <ref tip="super" cel="labor.pri0i.KOMUNE">Prilabori</ref> grundon per <tld/>ilo, 
+      kunkolektante fojnon, pajlon, falintajn foliojn, preparante bedon ks:
       <ekz>
         Johano frumatene <tld/>as la korton anta&ubreve; la &ccirc;efdomo
         <fnt><bib>InfanTorent2</bib>, <lok>dua parto, &ccirc;apitro
@@ -57,6 +57,11 @@
         </fnt>.
       </ekz>     
     </dif>
+    <refgrp tip="vid">
+      <ref cel="bala.0i">balai</ref>,
+      <ref cel="erp.0i">erpi</ref>,
+      <ref cel="skrap.0i">skrapi</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_b;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="ca">
@@ -70,7 +75,10 @@
     <trd>shrabovat</trd>,
     <trd>shrab&aacute;vat</trd>
   </trdgrp>
-  <trd lng="de">rechen</trd>
+  <trdgrp lng="de">
+    <trd>rechen</trd>,
+    <trd>harken</trd>
+  </trdgrp>
   <trd lng="en">rake</trd>
   <trdgrp lng="es">
     <trd>rastrillar</trd>
@@ -92,18 +100,41 @@
     <uzo tip="fak">AGR</uzo>
     <uzo tip="fak">HOR</uzo>
     <dif>
-      Kultiva a&ubreve; &gcirc;ardena ilo konsistanta el longa tenilo kaj kapo
-      provizita je dentoj:
+      Kultiva a&ubreve; &gcirc;ardena ilo konsistanta el longa tenilo kaj transversa
+      peco provizita je dentoj:
       <ekz>
         lia bu&scirc;o estis peco de malnova <tld/>ilo
-        <fnt><bib>Fab4</bib>, <lok>ne&gcirc;ulo</lok></fnt>.
+        <fnt><bib>Fab4</bib>, <lok>ne&gcirc;ulo</lok></fnt>;
+      </ekz>      
+      <ekz>
+        frumatene eliris viroj kaj virinoj kun fal&ccirc;iloj kaj <tld/>iloj, rikoltma&scirc;inoj
+        zumadis sur la kampoj
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la ligna&jcirc;ejo <klr>[li]</klr> riparis malnovajn <tld/>ilojn
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro manko de <tld/>ilo mi uzis bran&ccirc;on de arbo
+        <fnt>
+          <bib>Rob</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="erp.0ilo">erpilo</ref>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_b;&c_l;&c_ib;</trd>
   <trd lng="ca">rastell</trd>
   <trd lng="cs">hr&aacute;b&ecaron;</trd>
-  <trd lng="de">Rechen</trd>
+  <trdgrp lng="de">
+    <trd>Harke</trd>,
+    <trd>Rechen</trd>
+  </trdgrp>
   <trd lng="en">rake</trd>
   <trd lng="es">rastrillo</trd>
   <trd lng="fr">rateau</trd>
@@ -134,13 +165,18 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="bala.0ilo">balailo</ref>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_b;&c_l;&c_ib; &c_d;&c_l;&c_ja; &c_l;&c_ib;&c_s;&c_mol;&c_c;&c_ja;</trd>
+  <trd lng="de">Laubbesen</trd>
   <trd lng="fr">r&acirc;teau &agrave; feuilles</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/01/07 18:38:01
+Wolfram Diestel: ref-oj, ~ilo: ekz-oj
+
 versio 1.21 2022/01/07 17:40:33
 Wolfram Diestel: ~i: gheneraligis dif, ekz-oj
 
@@ -160,8 +196,5 @@ Revision 1.15  2005/09/12 16:31:07  revo
 Jeromo Vasxe: + ekz, + fak hor, + trd fr
 
 Revision 1.14 2005/04/18 16:33:15 revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.13 2003/08/06 16:32:12 revo
 -->
 </vortaro>
