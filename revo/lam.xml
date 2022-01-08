@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lam.xml,v 1.29 2022/01/08 13:35:43 revo Exp $">
+<art mrk="$Id: lam.xml,v 1.30 2022/01/08 15:33:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lam</rad>/a <fnt><bib>PV</bib></fnt>
@@ -164,18 +164,59 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="lam.0i.MED">
     <dif>
-      Esti <tld/>a, mistakte, malfacile iri.
-    </dif>
-    <trdgrp lng="en">
-      <trd>to limp</trd>,
-      <trd>to hobble</trd>, <trd>to be lame</trd>
-    </trdgrp>
+      Esti <tld/>a, mistakte, malfacile iri:
+      <ekz>
+        li <tld/>is per sia femuro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 32:31</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per unu piedo &scirc;i <tld/>is
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;i estis tute senta&ubreve;ga</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>os tien kaj trinkos ieton
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <tld/>is la&ubreve; tiel identa maniero, ke <klr>[ili]</klr> konservis tamen
+        paralelecon matematike akuratan
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li rompis al si la kruron en la tago <klr>[de]</klr> lia akcepto
+        en la armeon, kaj <klr>[sekve]</klr> <tld/>is la tutan vivon
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>.
+      </ekz>
+    </dif>    
+    <refgrp tip="vid">
+      <ref cel="stumbl.0i">stumbli</ref>
+    </refgrp>    
     <trdgrp lng="br">
       <trd>kamma&ntilde;<klr tip="ind"> (v.g.)</klr></trd>,
       <trd>jilgamma&ntilde;</trd>
     </trdgrp>
     <trd lng="ca">ranquejar</trd>
-    <trd lng="de">lahmen</trd>
+    <trdgrp lng="de">
+      <trd>lahmen</trd>
+      <trd>hinken</trd>,
+      <trd>humpeln</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>to limp</trd>,
+      <trd>to hobble</trd>, <trd>to be lame</trd>
+    </trdgrp>
     <trd lng="es">cojear</trd>
     <trd lng="fr">boiter</trd>
     <trd lng="nl"><ind>mank</ind> lopen</trd>
@@ -186,30 +227,51 @@
   </snc>
   <snc mrk="lam.0i.FIG">
     <dif>
-      Ne ta&ubreve;ge funkcii:
+      Ne glate funkcii:
       <ekz>
-        la ritmo, la komparo beda&ubreve;rinde <tld/>as;
+        la belsoneco de la lingvo iom <tld/>is
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        la propagando nun <tld/>as
-        <klr>(estas malrapida kaj malmulte sukcesa)</klr>;
+        soneto <klr>[&#8230;]</klr> kun sufi&ccirc;e ofte <tld/>anta ritmo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok> 2001, &#8470;10</lok>
+        </fnt>;
+      </ekz>                  
+      <ekz>
+        se la CO ne funkcias glate, &ccirc;iuj aliaj agadoj devas <tld/>i
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        io <tld/>as en nia movado.
-      </ekz>
+        &ccirc;i tiuj strukturoj <tld/>as jam delonge kaj post la forpaso de pluraj aktivuloj
+        preska&ubreve; mortis
+        <fnt>
+          <bib>LOdE</bib>
+          <lok> 1999, No 6 (56)</lok>
+        </fnt>.
+      </ekz>      
     </dif>
-    <trd lng="en">to be lame <klr><ekz><em>(that advertisement is
-    lame.)</em></ekz></klr></trd>
+    <refgrp tip="vid">
+      <ref cel="progre.mal0i">malprogresi</ref>,
+      <ref cel="prospe1.mal0i">malprosperi</ref>
+    </refgrp>    
+    <trd lng="br">mont <ind>a-dreuz</ind></trd>
     <trdgrp lng="ca">
       <trd>fallar</trd>,
       <trd>no funcionar b&eacute;</trd>
     </trdgrp>
     <trdgrp lng="de">
-      <trd>hinken</trd>,
-      <trd>wackeln</trd>,
-      <trd>nicht funzen</trd>
+      <trd>lahmen</trd>,
+      <trd>stocken</trd>
     </trdgrp>
-    <trd lng="br">mont <ind>a-dreuz</ind></trd>
+    <trd lng="en">to be lame 
+        <klr>(e.g. that advertisement is lame.)</klr>
+    </trd>
     <trd lng="fr">aller de <ind>travers</ind></trd>
     <trd lng="nl">niet goed <ind>functioneren</ind></trd>
     <trd lng="pl">kule&cacute;</trd>
@@ -285,6 +347,9 @@
 </art>
 <!--
 $Log$
+versio 1.30 2022/01/08 15:33:38
+Wolfram Diestel: ~i: ekz-oj, ref-oj, trd de
+
 versio 1.29 2022/01/08 13:35:43
 Wolfram Diestel: ~a: ekz-oj, revortigo snc FIG
 
