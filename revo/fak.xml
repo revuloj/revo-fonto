@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fak.xml,v 1.31 2022/01/09 16:48:06 revo Exp $">
+<art mrk="$Id: fak.xml,v 1.32 2022/01/09 17:36:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fak</rad>/o
@@ -134,8 +134,7 @@
     <dif>
       <ref tip="super" cel="sekci.0o.POL">Sekcio</ref> kun aparta respondeco:
       <ekz>
-        la animo, se &gcirc;i <klr>[&#8230;]</klr> sian korpon<klr>[&#8230;]</klr> ne trovus
-        <klr>[&#8230;]</klr>, kredeble <klr>[&#8230;]</klr> demandus en la <tld/>o por perditaj
+        demandu en la <tld/>o por perditaj
         objektoj
         <fnt>
           <bib>Fab1</bib>
@@ -310,13 +309,27 @@
 
 <drv mrk="fak.0aro">
   <kap><tld/>aro</kap>
-  <fnt><bib>VdE</bib></fnt>
   <snc>
+    <fnt><bib>VdE</bib></fnt>
     <dif>
       Kesto a&ubreve; skatolo kun <tld/>oj.
     </dif>
   </snc>
-  <trd lng="ca">caseller</trd>
+  <snc mrk="fak.0aro.scienca">
+    <dif>
+      Aro de sciencaj <tld/>oj, ekzemple tiujn, kiujn oni elektis studi:
+      <ekz>
+        Lineo <klr>[&#8230;]</klr> studis &ccirc;efe la grekan, hebrean, teologion kaj matematikon,
+        <tld/>aro planita por knaboj prepari&gcirc;intaj por pastreco
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2691"
+              >Karolo Lineo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">F&auml;cherkombination</trd>
+  </snc>  <trd lng="ca">caseller</trd>
   <trdgrp lng="en">
     <trd>pigeonholes</trd>
   </trdgrp>
@@ -452,12 +465,23 @@
 <drv mrk="fak.0saltaludo">
   <kap><tld/>salta ludo</kap>
   <snc>
-    <ref tip="dif" cel="paradi1.lud0o">paradizludo</ref>
+    <dif>
+      <ref tip="dif" cel="paradi1.lud0o">Paradizludo</ref>:
+      <ekz>
+        movi&gcirc;i per saltoj, tenante la piedojn kune, kiel <klr>[&#8230;]</klr> infanoj dum
+        <tld/>salta ludo
+        <fnt>
+          <vrk><url ref="https://esperanto.mv.ru/Lem/wl_2a.html"
+              >St. Lem. Surloka esploro. IIa. La fonta&jcirc;oj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="ca">
     <trd>xarranca</trd>,
     <trd>sambori</trd>
   </trdgrp>
+  <trd lng="de">Himmelhoppe</trd>
   <trd lng="fr">marelle</trd>
   <trd lng="pl">gra w <ind>klasy</ind></trd>
   <trd lng="ru">&c_k;&c_l;&c_a;&c_s;&c_s;&c_i;&c_k;&c_i; <klr tip="amb">(&c_i;&c_g;&c_r;&c_a;)</klr></trd>
@@ -468,15 +492,21 @@
   <snc mrk="fak.trab0a.KON">
     <uzo tip="fak">KON</uzo>
     <dif>
-      Konstruita el plekto de traboj, kun pleniga&jcirc;o en la
-      interlasitaj 
-      fakoj:
+      Konstruita el plekto de <ref cel="trab.0o">trabo</ref>j, kun pleniga&jcirc;o en la
+      interlasitaj <tld/>oj:
       <ekz>
-        la du subaj eta&gcirc;oj el nestukita sablo&scirc;tono estas
-        dividitaj nur
-        per eta&gcirc;aj kornicoj, la tria eta&gcirc;o estas trab<tld/>a
-        
-        surkonstrua&jcirc;o
+        &ccirc;e la angulo de trab<tld/>a domo el 16a jarcento oni vidas skulpta&jcirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Elisabeth Le Dru</aut>
+          <vrk><url ref="https://www.monato.be/2010/009948.php"
+              >Vizito al Vannes</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la du subaj eta&gcirc;oj el nestukita sablo&scirc;tono estas dividitaj nur
+        per eta&gcirc;aj kornicoj, la tria eta&gcirc;o estas trab<tld/>a surkonstrua&jcirc;o
         <fnt>
           <aut>-</aut>,
           <vrk><url ref="http://www.aliaflanko.de/urbo/badkoenig/badkoenig.html">
@@ -496,6 +526,9 @@
 </art>
 <!--
 $Log$
+versio 1.32 2022/01/09 17:36:12
+Wolfram Diestel: ~aro..trab~a: ekz-oj, +~aro SCI
+
 versio 1.31 2022/01/09 16:48:06
 Wolfram Diestel: ~o: +snc sekcio; ekz-oj, ref-oj, trd de
 
@@ -515,8 +548,5 @@ Revision 1.24  2012/08/04 07:10:27  revo
 Marc Rausell: + trd ca
 
 Revision 1.23  2010/04/09 16:32:03  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2010/02/12 17:30:25  revo
 -->
 </vortaro>
