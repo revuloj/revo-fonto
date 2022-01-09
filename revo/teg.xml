@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: teg.xml,v 1.28 2022/01/09 12:46:39 revo Exp $">
+<art mrk="$Id: teg.xml,v 1.29 2022/01/09 13:33:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>teg</rad>/i
@@ -41,6 +41,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="volv.en0i.tute">envolvi<sncref/></ref>,
+      <ref cel="rembur.0i.KOMUNE">remburi<sncref/></ref>,
+      <ref cel="met.sur0i.veston">surmeti<sncref/></ref>
+    </refgrp>
     <trd lng="hu">beh&uacute;z <klr tip="ind">(huzattal)</klr></trd>    
     <trdgrp lng="pl">
       <trd>pokrywa&cacute;</trd>
@@ -106,6 +111,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="cxirka.0igi">&ccirc;irka&ubreve;igi</ref>,
+      <ref cel="ferm.en0i">enfermi</ref>
+    </refgrp>
     <trd lng="en">coat</trd>
     <trd lng="hu">bevon <klr tip="ind">(bevonattal)</klr></trd>    
     <trdgrp lng="pl">
@@ -204,6 +213,9 @@
       </ekz>
     </dif>
     <ref tip="sin" cel="teg.0ilo">tegilo</ref>
+    <refgrp tip="vid">
+      <ref cel="kovr.0o.komune">kovro<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>kryt</trd>,
@@ -252,7 +264,7 @@
 
 <drv mrk="teg.0ilo">
   <kap><tld/>ilo</kap>
-  <snc>
+  <snc mrk="teg.0ilo.tego">
     <dif>
       <ref tip="dif" cel="teg.0o">Tego</ref>:
       <ekz>
@@ -270,6 +282,16 @@
         </fnt>;
       </ekz>
       <ekz>
+        plumo povas esti <klr>[&#8230;]</klr> anka&ubreve; skribilo, iam la koncerna skribilo estis
+        ordinare farita el la koncerna birdo<tld/>ilo, sed hodia&ubreve; ni uzas la saman
+        vorton anka&ubreve; por skribiloj el metalo
+        <fnt>
+          <aut>Wells</aut>
+          <vrk> Lingvistikaj aspektoj de Esperanto</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> dormadis <klr>[&#8230;]</klr> sur la malnova matraco, 
         la <tld/>ilo estis kudrita el malglata, truplena kanvaso, kaj la kuseno &scirc;ajnis
         malmola kiel &scirc;tono
         <fnt>
@@ -327,13 +349,50 @@
 
 <drv mrk="teg.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="teg.0ajxo.tego">
     <dif>
-      Tio, kio <tld/>as <sncref ref="teg.0i.alglui"/>:
+      Tio, kio tegas<sncref ref="teg.0i.alglui"/>; <ref tip="dif" cel="teg.0o">tego</ref>:
       <ekz>
-        <tld/>a&jcirc;o de kablo, tubo.
+        kolonojn li konstruis el ar&gcirc;ento <klr>[&#8230;]</klr> la <tld/>a&jcirc;on el purpuro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Alta kanto 3:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a&jcirc;o de la malnova se&gcirc;o en la angulo krevis
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fluganta kofro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la modeloj de la <ind>tabul<tld/>a&jcirc;o</ind> 
+        <klr>(vd <ref cel="panel.0o.ARKI">panelo<sncref/></ref>, 
+        <ref cel="tabul.0ajxo">tabula&jcirc;o</ref>)</klr>
+        kaj fenestroj malka&scirc;as la konstrutempon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url ref="https://www.monato.be/2014/011095.php"
+              >Tammisaari, urbeto &ccirc;e Balta Maro</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+        <trd lng="de">T&auml;felung</trd>
+      </ekz>
+      <ekz>
+        malgranda para&scirc;uto, belarte farita kaj <tld/>ita per kolora silko <klr>[&#8230;]</klr>
+        oni faldas la ombrelan <tld/>a&jcirc;on &ccirc;irka&ubreve; la stangeto kaj enmetas la tuton en
+        tubeton
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="stern.0ajxo">sterna&jcirc;o</ref>
+    </refgrp>
+    <trd lng="de">&Uuml;berzug</trd>
     <trdgrp lng="en">
       <trd>covering</trd>,
       <trd>surface</trd>,
@@ -442,15 +501,19 @@
       <ind>&c_z;&c_a;&c_m;&c_y;&c_k;&c_a;&c_n;&c_i;&c_je;</ind></trd>
     </subsnc>
   </snc>
+
 </drv>
 <adm>
-  Necesas reverki la deriva&jcirc;ojn ~o, ~ilo, kiuj ne plu kongruas kun
-  ilia difino en PIV. Mi enkondukis ~ajxo la&ubreve; la PIVa difino, sed
-  necesas evidentigi la nuancojn inter la tri derivajxoj. <aut>MB</aut>
+  Mi enkondukis ~a&jcirc;o la&ubreve; la PIVa difino, sed
+  necesas evidentigi eventualajn nuancojn inter la 
+  tri deriva&jcirc;oj (~o, ~ilo, ~a&jcirc;o). <aut>MB</aut>
 </adm>
 </art>
 <!--
 $Log$
+versio 1.29 2022/01/09 13:33:31
+Wolfram Diestel: ~ilo, ~aĵo: ekz-oj; ref-oj
+
 versio 1.28 2022/01/09 12:46:39
 Wolfram Diestel: ~i..~ilo: ekz-oj
 
@@ -470,8 +533,5 @@ Revision 1.21  2009/02/10 14:18:21  revo
 Sebastian Cyprych: -fusxaj linirompoj en trd
 
 Revision 1.20  2008/10/30 19:24:54  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2006/05/03 16:31:35  revo
 -->
 </vortaro>
