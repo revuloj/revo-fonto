@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mank.xml,v 1.30 2022/01/08 12:46:23 revo Exp $">
+<art mrk="$Id: mank.xml,v 1.31 2022/01/09 18:34:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mank</rad>/i <fnt><bib>PV</bib></fnt>
@@ -139,7 +139,10 @@
     <trd>chyb&ecaron;t</trd>,
     <trd>chyb&ecaron;t</trd>
   </trdgrp>
-  <trd lng="de">fehlen</trd>
+  <trdgrp lng="de">
+    <trd>fehlen</trd>,
+    <trd>mangeln</trd>
+  </trdgrp>
   <trd lng="en">be <ind>lacking</ind></trd>
   <trdgrp lng="es">
      <trd>faltar</trd>,
@@ -426,14 +429,32 @@
       Fari ke io <tld/>as, preterlasi:
       <ekz>
         li <tld/>igis nenion el &ccirc;io, kion la Eternulo
-        ordonis<fnt>Z</fnt>;
+        ordonis
+        <fnt>
+          <bib>MT</bib>
+          <lok>Josuo 11:15</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li ne <tld/>igis <klr>(preterlasis)</klr>
-        e&ccirc; unu vorton<fnt>Z</fnt>.
+        ne <tld/>igu <klr>(<ref cel="las.preter0i">preterlasu</ref>)</klr> 
+        e&ccirc; unu vorton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 26:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la embargo pri armiloj <tld/>igas &ccirc;iajn modernajn armilojn
+        <fnt>
+          <bib>MD17</bib>
+        </fnt>.
       </ekz>
     </dif>
-  </snc>
+  <trdgrp lng="de">
+    <trd><klr>(an etwas) </klr><ind>fehlen</ind> lassen</trd>,
+    <trd>auslassen</trd>,
+    <trd>weglassen</trd>
+  </trdgrp></snc>
   <trdgrp lng="be">
     <trd>&c_u;&c_p;&c_u;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_p;&c_u;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>,
@@ -480,14 +501,33 @@
   <kap>mal<tld/>a</kap>
   <snc mrk="mank.mal0a.KOMUNE">
     <dif>
-      Sufi&ccirc;ega, abunda.
+      <ref tip="dif" cel="suficx.0ega">Sufi&ccirc;ega</ref>, <ref tip="sin" cel="abund.0a">abunda</ref>:
+      <ekz>
+        mal<tld/>as poeziaj neologismoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007110.html"
+              >Atentokapta sed ru&gcirc;krajoninda</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bona gazeto, kiu havas kaj <tld/>ojn, kaj mal<tld/>ojn
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 11 (61)</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="ricx.0a">ri&ccirc;a</ref>,
       <ref cel="flu.super0a">superflua</ref>,
       <ref cel="sxut.super0i">super&scirc;uti</ref>
     </refgrp>
-  </snc>            
+  <trdgrp lng="de">
+    <trd>reichlich</trd>,
+    <trd>&uuml;berm&auml;&szlig;ig</trd>
+  </trdgrp></snc>            
   <trdgrp lng="bg">
     <trd>&c_i;&c_z;&c_o;&c_b;&c_i;&c_l;&c_je;&c_n;</trd>,
     <trd>&c_p;&c_r;&c_je;&c_d;&c_o;&c_s;&c_t;&c_a;&c_t;&c_malmol;&c_ch;&c_je;&c_n;</trd>
@@ -532,10 +572,25 @@
           <vrk><url ref="http://wikilivres.ca/wiki/En_%C4%88inio_Batalanta">
           En &Ccirc;inio Batalanta</url></vrk>, 
           <lok>1954</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nutro ne<tld/>igebla por la kreskado kaj longa vivado
+        <fnt>
+          <vrk><url ref="http://www.literatura.bucek.name/brno/1991-01.pdf"
+              >PDF Ni legis en gazetoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <refgrp tip="vid">
+      <ref cel="bezon.0a">bezona</ref>,
+      <ref cel="nepr.0a">nepra</ref>,
+      <ref cel="neces.0a">necesa</ref>
+    </refgrp>
+  <trdgrp lng="de">
+    <trd>unentbehrlich</trd>,
+    <trd>unerl&auml;sslich</trd>
+  </trdgrp></snc>
   <trd lng="es">indispensable</trd>
   <trd lng="fr">indispensable</trd>
   <trd lng="pl">niezb&eogonek;dny</trd>
@@ -546,7 +601,22 @@
   <kap>sen<tld/>a</kap>
   <snc mrk="mank.sen0a.plena">
     <dif>
-      Kompleta, plena.
+      <ref tip="dif" cel="komple2.0a.KOMUNE">Kompleta</ref>, <ref tip="sin" cel="plen.0a.kompleta">plena</ref>:
+      <ekz>
+        neniu el la familioj, lo&gcirc;antaj en la mezo de la urbo, restis sen<tld/>a, tial
+        la&ubreve;longe de la muroj kaj &ccirc;e &ccirc;iuj pordegoj oni a&ubreve;dis malesperan hurladon de
+        virinoj, vokantaj la karajn nomojn
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vivo estas vivebla nur la&ubreve; sia sen<tld/>a kompleteco, &ccirc;ar kia ajn &gcirc;ia
+        elemento <tld/>as, &ccirc;esas la vivo
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="be">
       <trd>&c_p;&c_o;&c_w;&c_n;&c_y;</trd>,
@@ -557,7 +627,10 @@
       <trd>&c_z;&c_a;&c_v;&c_malmol;&c_r;&c_sh;&c_je;&c_n;</trd>
     </trdgrp>
     <trd lng="br">klok</trd>
-    <trdgrp lng="es">
+    <trdgrp lng="de">
+      <trd>vollst&auml;ndig</trd>,
+      <trd>komplett</trd>
+    </trdgrp><trdgrp lng="es">
       <trd>integral</trd>,
       <trd>completo</trd>
     </trdgrp>
@@ -579,12 +652,32 @@
   </snc>
   <snc mrk="mank.sen0a.sendifekta">
     <dif>
-      Sendifekta, tute bona, perfekta:
+      <ref tip="dif" cel="difekt.sen0a">Sendifekta</ref>, 
+      tute <ref tip="super" cel="bon.0a.tauga">bona</ref>, <ref tip="sin" cel="perfek.0a">perfekta</ref>:
       <ekz>
-        sen<tld/>a respondo;
+        filologie sen<tld/>a redakto
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        sen<tld/>aj rimoj, versoj.
+        impreso pri sen<tld/>a solidareco de la albanaj laboristoj
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi ne trovas mian rezonon sen<tld/>a
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni havas bonan, perfekte kompetentan kunlaboranton, homon kun <klr>[&#8230;]</klr>
+        sen<tld/>a kono de &ccirc;iuj dosieroj, kiujn oni traktas
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -593,7 +686,11 @@
     </trdgrp>      
     <trd lng="bg">&c_b;&c_je;&c_z;&c_u;&c_p;&c_r;&c_je;&c_ch;&c_je;&c_n;</trd>
     <trd lng="br">hep <ind>mank</ind></trd>
-    <trdgrp lng="es">
+    <trdgrp lng="de">
+      <trd>tadellos</trd>,
+      <trd>makellos</trd>,
+      <trd>fehlerfrei</trd>
+    </trdgrp><trdgrp lng="es">
       <trd>impecable</trd>,
       <trd>irreprochable</trd>
     </trdgrp>
@@ -639,6 +736,18 @@
       <ref tip="vid" cel="forges.sen0e.KOMUNE">senforgese</ref>;
       <ref tip="vid" cel="nepr.0e.KOMUNE">nepre</ref>:
       <ekz>
+        la miraklo de la sen<tld/>e homa optimismo
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la profesian sekreton D-ro <nom>Dupong</nom> sen<tld/>e obeos
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         la homaro <klr>...</klr> sen<tld/>e balda&ubreve; realigos 
         sian unuecon
         <fnt>
@@ -650,7 +759,10 @@
     </dif>
   </snc>
   <trd lng="bg">&c_n;&c_a;&c_p;&c_malmol;&c_l;&c_n;&c_o;</trd>
-  <trdgrp lng="es">
+  <trdgrp lng="de">
+    <trd>tadellos</trd>,
+    <trd>makellos</trd>
+  </trdgrp><trdgrp lng="es">
     <trd>sin falta</trd>,
     <trd>completamente</trd>
   </trdgrp>
@@ -663,14 +775,25 @@
   <kap>seninter<tld/>a</kap>
   <snc mrk="mank.seninter0a.KOMUNE">
     <dif>
-      Seninterrompa,
-      <ref tip="vid" cel="kontin3.0a">kontinua</ref>.
+      Sen<ref cel="romp.inter0i">interromp</ref>a,
+      <ref cel="kontin3.0a">kontinua</ref>:
+      <ekz>
+        li ekdormis tuj, kaj dormadis &gcirc;is la mateno dormon senson&gcirc;an kaj seninter<tld/>an
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
     </dif>
+   <refgrp tip="vid">
+     <ref cel="interm.sen0a">senintermita</ref>,
+      <ref cel="romp.sen0a">senrompa</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_je;&c_s;&c_mol;&c_p;&c_je;&c_r;&c_a;&c_p;&c_y;&c_n;&c_n;&c_y;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_c;&c_ja;&c_g;&c_l;&c_y;</trd>
   </trdgrp>
+  <trd lng="de">ununterbrochen</trd>
   <trdgrp lng="es">
     <trd>ininterrumpido</trd>,
     <trd>sin interrupci&oacute;n</trd>
@@ -698,7 +821,15 @@
     <dif>
       <tld lit="M"/>anta parto:
       <ekz>
-        plenigi, &scirc;topi <tld/>lokon
+        plenigi, &scirc;topi <tld/>lokon;
+      </ekz>
+      <ekz>
+        tiu a&ubreve; alia re&gcirc;o a&ubreve; princo estus tute forsilentita en la historio, se lia
+        historiisto ne timus la <tld/>lokon en la tabelo de intersekvado
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -712,6 +843,7 @@
     <trd>&c_k;&c_u;&c_h;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_l;&c_a;&c_k;&c_u;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="de">Fehlstelle</trd>
   <trdgrp lng="es">
     <trd>grieta</trd>,
     <trd>brecha</trd>
@@ -736,6 +868,9 @@
 </art>
 <!--
 $Log$
+versio 1.31 2022/01/09 18:34:32
+Wolfram Diestel: ~igi..~loko: ekz-oj, ref-oj, trd de
+
 versio 1.30 2022/01/08 12:46:23
 Wolfram Diestel: ~o: ekz-oj, ref-oj, trd de
 
@@ -755,8 +890,5 @@ Revision 1.23  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.22  2015/06/29 16:33:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.21  2015/01/09 21:10:48  revo
 -->
 </vortaro>
