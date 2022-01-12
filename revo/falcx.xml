@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: falcx.xml,v 1.30 2022/01/12 07:28:15 revo Exp $">
+<art mrk="$Id: falcx.xml,v 1.31 2022/01/12 19:23:44 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fal&ccirc;</rad>/i
@@ -210,8 +210,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="serp.0o">serpo</ref>
-    <ref tip="vid" cel="rikolt.0ilo">rikoltilo</ref>
+    <refgrp tip="sin">
+      <ref cel="rikolt.0ilo">rikoltilo</ref>,
+      <ref cel="serp.0o">serpo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_je;&c_r;&c_p;</trd>
   <trd lng="ca">fal&ccedil;</trd>
@@ -243,7 +245,10 @@
     <ref tip="vid" cel="fojn.post0o">postfojno</ref>
   </snc>
    <trd lng="ca">redall</trd>
-   <trd lng="en">second cutting of hay</trd>
+   <trdgrp lng="de">
+     <trd>Sp&auml;tsaat</trd>,
+     <trd>Nachsaat</trd>
+   </trdgrp><trd lng="en">second cutting of hay</trd>
    <trdgrp lng="fr">
      <trd>regain<klr tip="ind"> (herbe de seconde coupe)</klr></trd>
    </trdgrp>
@@ -299,11 +304,11 @@
         mi rompu al mi la kapon?
         <fnt><bib>DonKihxoto</bib>, <lok>dua parto, &ccirc;apitro 4a, p.
         419a</lok></fnt>
-      </ekz>
+      </ekz>.
     </dif>
   </snc>
   <trd lng="ca">traveta</trd>
-  <trd lng="de">ein Bein <ind>stellen</ind></trd>
+  <trd lng="de">das Bein<ind>stellen</ind></trd>
   <trd lng="fr">croc-en-jambe</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_n;&c_o;&c_zh;&c_k;&c_a;<klr tip="amb">
   (&c_p;&c_r;&c_i;&c_jo;&c_m;)</klr></trd>
@@ -311,6 +316,9 @@
 </art>
 <!--
 $Log$
+versio 1.31 2022/01/12 19:23:44
+Wolfram Diestel: trd de, ref
+
 versio 1.30 2022/01/12 07:28:15
 Wolfram Diestel: ekz-oj, ref-oj, trd de
 
@@ -330,8 +338,5 @@ Revision 1.24  2015/10/13 13:10:19  revo
 Cindy Moon McKee: +trd en
 
 Revision 1.23  2012/01/02 19:10:18  revo
-Marc Rausell: +trd ca
-
-Revision 1.22  2011/06/24 23:10:09  revo
 -->
 </vortaro>
