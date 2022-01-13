@@ -2,19 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kontin1.xml,v 1.10 2018/08/21 20:10:17 revo Exp $">
+<art mrk="$Id: kontin1.xml,v 1.11 2022/01/13 03:34:36 revo Exp $">
 <kap>
   <rad>kontingenc</rad>/a
 </kap>
 <drv mrk="kontin1.0a">
   <kap>
-    <tld/>a
+    <tld/>a <fnt><bib>PV</bib></fnt>
   </kap>
-  <uzo tip="fak">FIL</uzo>
-  <snc>
+  <uzo tip="stl">FAK</uzo>
+  <snc mrk="kontin1.0a.FIL">
+    <uzo tip="fak">FIL</uzo>
     <dif>
-      Karakterizas &ccirc;ion, kio povas indiferente &ccirc;u okazi, &ccirc;u ne okazi;
-      malnecesa, hazarda:
+      <ref tip="dif" cel="eventu.0a">Eventuala</ref>, tia, ke ties
+      ekzisto a&ubreve; vereco dependas je ia okazo: 
       <ekz>
          neniam eblas forigi la fakton, post kiam &gcirc;i okazis, la afero en 
          si mem povas esti <tld/>a, sed jam ne estas <tld/>a post kiam &gcirc;i okazis
@@ -22,15 +23,16 @@
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=136">Aksiomo</url></lok>
         </fnt>;
-      </ekz>
-      <ekz>
-        li vidas la mondon tute <tld/>a, kaj en la esto kaj en la tempo, kaj do bezonanta ka&ubreve;zon kreantan
+      </ekz><ekz>
+        li vidas la mondon tute <tld/>a, kaj en la esto kaj en la
+        tempo, kaj do bezonanta ka&ubreve;zon kreantan
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=418964">Argumento kosmologia</url></lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="neces.0a.FIL">necesa<sncref/></ref>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_p;&c_a;&c_d;&c_k;&c_o;&c_v;&c_y;</trd>
   <trd lng="de">kontingent</trd>
@@ -47,8 +49,9 @@
 
 <drv mrk="kontin1.0ismo">
   <kap>
-    <tld/>ismo
+    <tld/>ismo <fnt><bib>PV</bib></fnt>
   </kap>
+  <uzo tip="stl">FAK</uzo>
   <uzo tip="fak">FIL</uzo>
   <snc>
     <dif>
@@ -67,11 +70,15 @@
   </snc>
   <trd lng="de">Kontingenzlehre</trd>
   <trd lng="nl">leer der <ind>toevalligheid</ind></trd>
+  <trd lng="ru">&c_u;&c_ch;&c_je;&c_n;&c_i;&c_je; &c_o; &c_k;&c_o;&c_n;&c_t;&c_i;&c_n;&c_g;&c_je;&c_n;&c_c;&c_i;&c_i;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.11 2022/01/13 03:34:36
+Sergio Pokrovskij: TEZ; +mal~eti
+
 Revision 1.9  2018/08/10 22:10:16  revo
 Vito Redsky: +trd pl +trd ro
 
@@ -89,6 +96,5 @@ Paul Peeraerts: ald trd nl
 
 Revision 1.4  2001/10/25 18:51:35  revo
 Yury Finkel: +trd ru
-
 -->
 </vortaro>
