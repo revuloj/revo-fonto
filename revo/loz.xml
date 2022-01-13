@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: loz.xml,v 1.8 2021/05/29 14:32:51 revo Exp $">
+<art mrk="$Id: loz.xml,v 1.9 2022/01/13 20:32:09 revo Exp $">
 <kap>
     <rad>loz</rad>/a <fnt><bib>PIV3</bib></fnt>
 </kap>
@@ -10,38 +10,80 @@
   <kap><tld/>a</kap>
   <snc mrk="loz.0a.KOMUNE">
     <dif>
-      Malstrikta, malstre&ccirc;ita, malkompakta:
-    </dif>
+      <ref tip="dif" cel="strikt.mal0a">Malstrikta</ref>, 
+      malstre&ccirc;ita, <ref cel="kompak.mal0a">malkompakta</ref>:
       <ekz>
-      <tld/>a bluzo, pantalono; <tld/>e ligita &scirc;nuro.
+        li metis la piedojn en karese <tld/>ajn pantoflojn
+        <fnt>
+          <bib>MMa</bib>
+        </fnt>;
       </ekz>
-      <trdgrp lng="en">
-        <trd>loose</trd>,
-        <trd>slack</trd>
-      </trdgrp>
-  <trd lng="fr">rel&acirc;ch&eacute;</trd>
-  <trd lng="nl">los</trd>
-  </snc>
-  
-  <snc mrk="loz.0a.KOMERCO">
+      <ekz>
+        vi le&gcirc;ere malstre&ccirc;is la korpon <klr>[&#8230;]</klr>, por ke la
+        malfruaj sunradioj skizu la allogajn konturojn de via figuro tra la <tld/>a
+        vualvesta&jcirc;o, kiu nur akcentis la suban nudecon
+        <fnt>
+          <bib>SkandalJozef</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        estas malfacile teni la ekvilibron sur la <tld/>a &scirc;nuro de politikaj
+        intertraktadoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Guido Van Damme</aut>
+          <vrk><url ref="https://www.monato.be/2007/009157.php"
+              >Lando disfalos</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi faru <klr>[nur]</klr> <tld/>ajn 
+        <klr>(<ref cel="koher.ne0a">nekohera</ref>jn)</klr> rimarkojn
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 2 (64)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="en">
+      <trd>loose</trd>,
+      <trd>slack</trd>
+    </trdgrp>
+    <trd lng="fr">rel&acirc;ch&eacute;</trd>
+    <trd lng="nl">los</trd>
+  </snc>  
+  <snc mrk="loz.0a.nepakita">
     <dif>
       Ne enpakita:
-    </dif>
       <ekz>
-      <tld/>a kargo.
+        <tld/>a kargo;
       </ekz>
-      <trdgrp lng="en">
-        <trd>loose</trd>,
-        <trd>unrestrained</trd>
-      </trdgrp>
-  <trd lng="fr">en <ind>vrac</ind></trd>
-  <trd lng="nl">bulk</trd>
+      <ekz>
+        fari teon el <tld/>a miksa&jcirc;o anstata&ubreve; per for&jcirc;etebla tesaketo
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="detal.0a.EKON">detala<sncref/></ref>,
+<ref cel="dis.0a.KOMUNE">disa<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="en">
+      <trd>loose</trd>,
+      <trd>unrestrained</trd>
+    </trdgrp>
+    <trd lng="fr">en <ind>vrac</ind></trd>
+    <trd lng="nl">bulk</trd>
   </snc>
-  <trd lng="bo">&#xF63;&#xFB7;&#xF74;&#xF42;&#xF66;&#xF0B;&#xF62;&#xF74;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&t_la;&t_hata;&t_shabchu;&t_ga;&t_sa;&t_tsheg;&t_ra;&t_shabchu;&t_tsheg;&t_ga;&t_ta;&t_naro;&t_nga;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>uvoln&ecaron;n&yacute;</trd>,
     <trd>voln&yacute;</trd>
   </trdgrp>
+  <trd lng="de">lose</trd>
   <trd lng="pl">lu&zacute;ny</trd>
   <trdgrp lng="sk">
     <trd>uvo&lcaron;nen&yacute;</trd>,
@@ -52,6 +94,9 @@
 
 <!--
 $Log$
+versio 1.9 2022/01/13 20:32:09
+Wolfram Diestel: ekz-oj, ref-oj, trd de
+
 Revision 1.6  2015/10/04 13:10:23  revo
 Cindy Moon McKee: +trd en
 
@@ -69,6 +114,5 @@ Damien Brucker: +trd fr
 
 Revision 1.1  2014/12/15 09:10:12  revo
 Damien Brucker: nova artikolo
-
 -->
 </vortaro>
