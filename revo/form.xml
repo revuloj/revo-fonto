@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: form.xml,v 1.146 2022/01/14 21:27:09 revo Exp $">
+<art mrk="$Id: form.xml,v 1.147 2022/01/15 08:35:02 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>form</rad>/o <fnt><bib>PV</bib></fnt>
@@ -1744,7 +1744,8 @@
     <refgrp tip="vid">
       <ref cel="formal.0a.eksplicita">formala<sncref/></ref>,
       <ref cel="perfek.0a">perfekta</ref>,
-      <ref cel="mank.sen0a.plena">senmanka<sncref/></ref>
+      <ref cel="mank.sen0a.plena">senmanka<sncref/></ref>,
+      <ref cel="tut.0a">tuta</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_f;&c_o;&c_r;&c_m;&c_je;&c_n;&c_n;&c_y;</trd>
@@ -1752,7 +1753,10 @@
     <trd>plnotvar&yacute;</trd>,
     <trd>plno&scaron;t&iacute;hl&yacute;</trd>
   </trdgrp>
-  <trd lng="de">voll <ind>ausgepr&auml;gt</ind></trd>
+  <trdgrp lng="de">
+    <trd>voll <ind>ausgepr&auml;gt</ind></trd>,
+    <trd>ganz</trd>
+  </trdgrp>
   <trd lng="fr">en bonne et due <ind>forme</ind></trd>
   <trdgrp lng="hu">
     <trd>igazi</trd>,
@@ -1943,7 +1947,52 @@
   <kap>trans<tld/>o</kap>
   <snc mrk="form.trans0o.KOMUNE">
     <dif>
-      Aliformado.
+      Ali<tld/>ado:
+      <ekz>
+        tiu &ccirc;i besto atestis la grandajn trans<tld/>ojn, kiujn la homo ne vidis, &gcirc;i
+        travivis kataklismojn, kiujn la homo ne konas
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni bezonas kulturan kaj spiritan trans<tld/>on
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al&hcirc;emia trans<tld/>o
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        geologiaj trans<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="https://www.monato.be/2014/011108.php"
+              >Perfidita popolo</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la a&gcirc;trans<tld/>oj de homa karaktero
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 5 (103)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la trans<tld/>oj en Orienta E&ubreve;ropo ne multe &scirc;an&gcirc;as la situacion: la novaj
+        demokratioj reproduktas la oldajn, ofte en la formo de parodio
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 10</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="fr">transformation</trd>
     <trdgrp lng="ru">
@@ -1986,7 +2035,11 @@
     <trd>&c_p;&c_je;&c_r;&c_a;&c_w;&c_t;&c_v;&c_a;&c_r;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
   <trd lng="cs">transformace</trd>
-  <trd lng="es">transformaci&oacute;n</trd>
+  <trdgrp lng="de">
+    <trd>Transformation</trd>,
+    <trd>Umwandlung</trd>,
+    <trd>Verwandlung</trd>
+  </trdgrp><trd lng="es">transformaci&oacute;n</trd>
   <trdgrp lng="hu">
     <trd>&aacute;talakul</trd>,
     <trd>megv&aacute;ltozik</trd>,
@@ -2001,12 +2054,11 @@
   <snc mrk="form.trans0ilo.ELE">
     <uzo tip="fak">ELE</uzo>
     <dif>
-      Aparato por transformi la proprecojn de elektra kurento,
+      <ref cel="aparat.0o.TEK">Aparato</ref> por trans<tld/>i la proprecojn de elektra kurento,
       <ref tip="sin" cel="transf.0o">transformatoro</ref>:
       <ekz>
-        Potencajn reflektoregojn, trans<tld/>ilojn je kvindek mil
-        kilovatoj, volframon kaj molibdenon, gutaperkajn tubetojn,
-        malgrandajn motorojn kaj elektrajn varmigilojn
+        <klr>[ni]</klr> ne sciis pri <klr>[&#8230;]</klr> trans<tld/>iloj je kvindek mil
+        kilovatoj, <klr>[&#8230;]</klr> motoroj kaj elektraj varmigiloj
         <fnt><bib>Metrop</bib></fnt>.
       </ekz>
     </dif>
@@ -2038,13 +2090,25 @@
   <snc mrk="form.trans0ismo.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
-      Doktrino, kiu klarigas la diferenci&gcirc;on de la
-      vegeta&jcirc;aj kaj bestaj specoj per trans<tld/>i&gcirc;o de
+      <ref tip="super" cel="doktri.0o">Doktrino</ref>, kiu klarigas la diferenci&gcirc;on de la
+      vegeta&jcirc;aj kaj bestaj specioj per trans<tld/>i&gcirc;o de
       primitiva tipo, kiu dum jarmiloj evoluadis adapti&gcirc;ante
-      al la medio.
+      al la medio:
+      <ekz>
+        je la komenco de la 19-a jarcento, aperis nova teorio: la trans<tld/>ismo de
+        Jean-Baptiste Lamarck, sur kiu bazi&gcirc;os la teorio 
+        pri <ref cel="evolu.0ismo">evoluismo</ref>, kiuj
+        anstata&ubreve;igos la <klr>[<ref cel="katast.0ismo">katastrofismo</ref>n]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=290298"
+              >Katastrofismo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="cs">transformizmus</trd>
+  <trd lng="de">Transformismus</trd>
   <trdgrp lng="fr">
     <trd>transformisme</trd>,
     <trd>&eacute;volutionnisme</trd>
@@ -2221,6 +2285,9 @@
 </art>
 <!--
 $Log$
+versio 1.147 2022/01/15 08:35:02
+Wolfram Diestel: ~o..~ismo: ekz-oj, ref-oj, trd de
+
 versio 1.146 2022/01/14 21:27:09
 Wolfram Diestel: long~a..re~isto: ekz-oj, ref-oj, trd de
 
@@ -2240,8 +2307,5 @@ versio 1.141 2022/01/13 07:28:17
 Wolfram Diestel: ~a,-~a: ekz-oj, ref-oj; +longo~a (el long')
 
 versio 1.140 2022/01/12 21:27:05
-Wolfram Diestel: ~ilo/~ujo: ekz-oj, dif pli ghenerala; alfabeta ordo de drv 
-
-versio 1.139 2022/01/11 07:28:56
 -->
 </vortaro>
