@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rubus.xml,v 1.27 2021/04/22 21:52:49 revo Exp $">
+<art mrk="$Id: rubus.xml,v 1.28 2022/01/20 07:27:52 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>rubus</rad>/o
@@ -12,12 +12,18 @@
   <uzo tip="fak">BOT</uzo>
   <snc mrk="rubus.0o.genro">
     <dif>
-      <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">Genro</ref> el familio <ref tip="malprt" cel="rozac.0oj">rozacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="rozac.0oj">rozacoj</ref>
       (<trd lng="la">Rubus</trd>), dorna arbedo kun ru&gcirc;aj a&ubreve;
       nigraj, dol&ccirc;aj, man&gcirc;eblaj plurfruktoj.
       Unu &gcirc;ia specio estas la
       <ref tip="sub" cel="framb.0ujo">frambujo</ref>.
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_l;&c_ib;&c_n;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>,
+      <trd>&c_a;&c_zh;&c_y;&c_n;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>,
+      <trd>&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ja;&c_n;&c_k;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>
+    </trdgrp>
     <trd lng="fr">ronce</trd>
     <trdgrp lng="hu">
       <trd>szeder</trd>,
@@ -38,7 +44,8 @@
   </snc>
   <snc mrk="rubus.0o.specio">
     <dif>
-      <ref tip="lst" cel="speci.0o.BIO" lst="voko:botanikaj_specioj">Specio</ref> de <ref tip="malprt" cel="rubus.0o.genro"><tld/>o
+      <ref tip="lst" cel="speci.0o.BIO" lst="voko:botanikaj_specioj">Specio</ref> de <ref
+      tip="malprt" cel="rubus.0o.genro"><tld/>o
       <sncref ref="rubus.0o.genro"/></ref>
       (<trd lng="la">Rubus fruticosus</trd> = arbusta rubuso), kun nigra
       plurfrukto:
@@ -159,6 +166,11 @@
       </ekz>
     </dif>
   </snc>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_l;&c_ib;&c_n;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>,
+      <trd>&c_a;&c_zh;&c_y;&c_n;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>,
+      <trd>&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ja;&c_n;&c_k;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>
+    </trdgrp>
 </drv>
 
 <drv mrk="rubus.marcxa_0o">
@@ -173,7 +185,8 @@
         sova&gcirc;aj beroj
         <fnt>
           <aut>-</aut>
-          <vrk><url ref="https://nordanaturo.wordpress.com/2010/06/19/planto-de-la-semajno-25-rubuso-marca/"
+          <vrk><url
+          ref="https://nordanaturo.wordpress.com/2010/06/19/planto-de-la-semajno-25-rubuso-marca/"
               >Planto de la semajno 25: rubuso mar&ccirc;a</url></vrk>
           <lok>Norda naturo, 2010</lok>
         </fnt>.
@@ -190,6 +203,11 @@
       La man&gcirc;ebla <ref tip="super" cel="frukt.0o.BOT">frukto</ref> de rubuso.
     </dif>
   </snc>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_l;&c_ib;&c_n;&c_a; <klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>,
+      <trd>&c_a;&c_zh;&c_y;&c_n;&c_a; <klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>,
+      <trd>&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ja;&c_n;&c_k;&c_a; <klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>
+    </trdgrp>
   <trd lng="cs">ostru&zcaron;ina <klr>(plod)</klr></trd>
   <trd lng="de">Brombeere</trd>
   <trd lng="fr">m&ucirc;re sauvage</trd>
@@ -201,6 +219,9 @@
 </art>
 <!--
 $Log$
+versio 1.28 2022/01/20 07:27:52
+Dmitri Gabinski: + trd be
+
 versio 1.27 2021/04/22 21:52:49
 Jeromo Vasxe: + marcxa ~o
 
@@ -220,8 +241,5 @@ Revision 1.21  2014/09/29 12:10:33  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.20  2013/08/29 07:10:45  revo
-Wolfram Diestel: referenco al listo bot genroj, specioj
-
-Revision 1.19  2010/05/14 16:30:55  revo
 -->
 </vortaro>
