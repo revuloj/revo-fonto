@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: regul.xml,v 1.118 2022/01/19 21:30:15 revo Exp $">
+<art mrk="$Id: regul.xml,v 1.119 2022/01/20 06:32:40 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>regul</rad>/o <fnt><bib>PV</bib></fnt>
@@ -201,37 +201,122 @@
 
 <drv mrk="regul.0a">
    <kap><tld/>a</kap>
-   <snc mrk="regul.0a.konforma">
-     <dif>
-       Konforma al la <tld/>o; la&ubreve;<tld/>a.
-     </dif>
-     <trd lng="be">&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
-     <trd lng="de">regul&auml;r</trd>
-     <trd lng="hu">szab&aacute;lyos</trd>
-     <trd lng="pl">regularny</trd> 
-     <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_i;&c_l;&c_o;</trd>
-   </snc>
-   <snc mrk="regul.0a.perioda">
-     <dif>
-       Ripeti&gcirc;anta &ccirc;e la fiksita perioda tempo:
-       <ekz>
-         <tld/>e ricevi gazeton;
-       </ekz>
-       <ekz>
-         <tld/>e progresi<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         en a&ubreve;tuno <tld/>e venadis arbohakistoj.
-       </ekz>
-     </dif>
-     <trd lng="be">&c_r;&c_e;&c_g;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;</trd>
-     <trd lng="de">regelm&auml;&szlig;ig</trd>
-     <trd lng="es">regular</trd>
-     <trd lng="hu">rendszeres</trd>
-     <trd lng="pl">regularny</trd>
-     <trd lng="ru">&c_r;&c_je;&c_g;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j;</trd>
-   </snc>
-   <snc mrk="regul.0a.MAT">
+  <snc mrk="regul.0a.konforma">
+    <dif>
+      <ref tip="super" cel="konfor.0a.KOMUNE">Konforma</ref> al la <tld/>o; la&ubreve;<tld/>a:
+      <ekz>
+        &ccirc;iu ne&gcirc;a floko <klr>[&#8230;]</klr> aspektis kiel belega floro a&ubreve; dekpinta stelo
+        <klr>[&#8230;]</klr> en ili trovi&gcirc;as nenia eraro, ili estas tute <tld/>aj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sova&gcirc;uloj, kiuj preferis la &scirc;teladon <klr>[&#8230;]</klr> ol <tld/>an laboron
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kelke da <tld/>aj regimentoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj deklinacioj
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aran&gcirc;o de <tld/>a kaj rajtigita kongresa vo&ccirc;donado
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sepa Kongreso Esperantista en Antwerpen en la 21a de a&ubreve;gusto 1911</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia viza&gcirc;o kun sufi&ccirc;e <tld/>aj trajtoj ne havis ian klare difinitan karakteran
+        esprimon
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj liaj familiaktoj estas tre <tld/>aj, kaj lia konduto tute ne ripro&ccirc;inda
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la junulo estis kondamnita la&ubreve; <tld/>a ju&gcirc;o
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+    <trd lng="de">regul&auml;r</trd>
+    <trd lng="hu">szab&aacute;lyos</trd>
+    <trd lng="pl">regularny</trd> 
+    <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_i;&c_l;&c_o;</trd>
+  </snc>
+  <snc mrk="regul.0a.perioda">
+    <dif>
+      <ref cel="ripet.0igxi">Ripeti&gcirc;anta</ref> &ccirc;e la fiksita 
+      perioda tempo:
+      <ekz>
+        postulante grandan, sen&ccirc;esan kaj <tld/>an laboron
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a kaj paca progresado
+        <fnt>
+          <bib>F</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;skultinte la facilan kaj <tld/>an spiradon de sia infano
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a tik-tako de l&#8217; horlo&gcirc;o
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj pla&ubreve;di&gcirc;antaj eksvingoj de remiloj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekzistas tuta aro da <tld/>aj klientoj, kiuj vizitas la vendejon pli por babili
+        <klr>[&#8230;]</klr> ol por ion a&ccirc;eti
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_r;&c_e;&c_g;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;</trd>
+    <trd lng="de">regelm&auml;&szlig;ig</trd>
+    <trd lng="es">regular</trd>
+    <trd lng="hu">rendszeres</trd>
+    <trd lng="pl">regularny</trd>
+    <trd lng="ru">&c_r;&c_je;&c_g;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j;</trd>
+  </snc>
+  <snc mrk="regul.0a.MAT">
      <uzo tip="fak">MAT</uzo>
      <subsnc mrk="regul.0a.plurlatero">
        <fnt><bib>MatTerm</bib>, <lok>p. 28</lok></fnt>
@@ -580,6 +665,9 @@ Distribution)</klr></trd>
 </art>
 <!--
 $Log$
+versio 1.119 2022/01/20 06:32:40
+Wolfram Diestel: ~a: ekz-oj
+
 versio 1.118 2022/01/19 21:30:15
 Wolfram Diestel: ~o: +ekz-oj, ref-oj
 
@@ -599,8 +687,5 @@ Revision 1.37  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.36  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.35  2015/03/12 23:10:15  revo
 -->
 </vortaro>
