@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro> 
-<art mrk="$Id: gvid.xml,v 1.105 2021/09/07 08:33:48 revo Exp $"> 
+<art mrk="$Id: gvid.xml,v 1.106 2022/01/23 11:24:32 revo Exp $"> 
 <kap> 
   <ofc>*</ofc> 
   <rad>gvid</rad>/i <fnt><bib>PV</bib></fnt> 
@@ -140,7 +140,7 @@
   </trdgrp>
   <trd lng="hy">&#1400;&#1410;&#1394;&#1381;&#1409;&#1400;&#1410;&#1397;&#1409;</trd>
   <trd lng="ig">na-eduzi</trd>
-  <trd lng="is">lei&#240;beina</trd>
+  <trd lng="is">leiðbeina</trd>
   <trd lng="ja">&#12460;&#12452;&#12489;</trd>
   <trd lng="jw">pandhuan</trd>
   <trd lng="ka">&#4323;&#4334;&#4308;&#4314;&#4315;&#4331;&#4326;&#4309;&#4304;&#4316;&#4308;&#4314;&#4308;&#4305;&#4321;</trd>
@@ -600,7 +600,86 @@
     <trd>ved&uacute;ci</trd>,
     <trd>vodca</trd>
   </trdgrp>
-</drv> 
+</drv>
+
+<drv mrk="gvid.mis0a">
+  <kap>mis<tld/>a</kap>
+  <snc mrk="gvid.mis0a.KOMUNE">
+    <dif>
+      <ref tip="vid" cel="tromp.0a.KOMUNE">Trompa</ref>, gvidanta al 
+      mal&gcirc;usta direkto, mal&gcirc;usta opinio:
+      <ekz>
+        svarmis mis<tld/>aj esprimoj, kiuj ka&ubreve;zis multe da malbono
+        <fnt>
+          <aut>I. Lapenna</aut>,
+          <vrk>Por pli efika informado</vrk>,
+          <lok>UEA, 1974</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">misguided</trd>
+  <trdgrp lng="fr">
+    <trd>fallacieux</trd>,
+    <trd>qui <ind>induit</ind> en erreur</trd>,
+    <trd>trompeur<klr> (adj.)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="gvid.mis0i">
+  <kap>
+    mis<tld/>i
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="G"/>i erare, trompe ktp:
+      <ekz>
+        li eble intence mis<tld/>is lin
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi lasas vin mis<tld/>i de via psikologa trejni&gcirc;o
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        apliki al <klr>[&#8230;]</klr> la organiza&jcirc;oj <klr>[&#8230;]</klr> la ideon de suvereneco
+        <klr>[&#8230;]</klr> estas esence erara kaj mis<tld/>a
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr>j senkonscie estas mis<tld/>itaj per argumento
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiujn terminojn mi opinias mis<tld/>aj
+        <fnt>
+          <bib>BonaLingvo</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="klin.de0i">deklini</ref>,
+      <ref cel="devi.0igi">deviigi</ref>,
+      <ref cel="voj.de0igi">devojigi</ref>,
+      <ref cel="log.0i">logi</ref>,
+      <ref cel="persva.0i">persvadi</ref>,
+      <ref cel="tent.0i">tenti</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">in die <ind>Irre</ind> f&uuml;hren</trd>
+  <trd lng="en">to lead <ind>astray</ind></trd>
+</drv>
+
+
+
 
 <drv mrk="gvid.afer0anto">
   <kap>
@@ -632,32 +711,12 @@
   <trd lng="fr">g&eacute;rant</trd>
 </drv>
 
-<drv mrk="gvid.mis0a">
-  <kap>mis<tld/>a</kap>
-  <snc mrk="gvid.mis0a.KOMUNE">
-    <dif>
-      <ref tip="vid" cel="tromp.0a.KOMUNE">Trompa</ref>, gvidanta al 
-      mal&gcirc;usta direkto, mal&gcirc;usta opinio:
-      <ekz>
-        svarmis mis<tld/>aj esprimoj, kiuj ka&ubreve;zis multe da malbono
-        <fnt>
-          <aut>I. Lapenna</aut>,
-          <vrk>Por pli efika informado</vrk>,
-          <lok>UEA, 1974</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="en">misguided</trd>
-  <trdgrp lng="fr">
-    <trd>fallacieux</trd>,
-    <trd>qui <ind>induit</ind> en erreur</trd>,
-    <trd>trompeur<klr> (adj.)</klr></trd>
-  </trdgrp>
-</drv>
 </art> 
 <!-- 
 $Log$
+versio 1.106 2022/01/23 11:24:32
+Wolfram Diestel: +mis~i
+
 versio 1.105 2021/09/07 08:33:48
 Damien Brucker: -eraro cxe cel en ref
 
@@ -677,8 +736,5 @@ Revision 1.26  2014/10/24 20:10:15  revo
 Jeromo Vasxe: + ~isto snc/subsnc
 
 Revision 1.25  2008/04/24 17:20:20  revo
-Jeromo Vasxe: + mis~a
-
-Revision 1.24  2008/04/09 16:30:19  revo
 --> 
 </vortaro>
