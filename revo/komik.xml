@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komik.xml,v 1.20 2015/07/04 08:37:37 revo Exp $">
+<art mrk="$Id: komik.xml,v 1.21 2022/01/24 21:23:34 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>komik</rad>/a
@@ -11,17 +11,61 @@
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Ridiga, amuza:
+      <ref tip="sin" cel="rid.0iga">Ridiga</ref>, 
+      <ref tip="sin" cel="amuz.0a">amuza</ref> pro 
+      <ref tip="super" cel="strang.0a">strangeco</ref>:
       <ekz>
-        <tld/>a aventuro, gesto, aspekto, situacio;
+        <tld/>a muziko
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li <tld/>e tiris sian &ccirc;apelon.
+        &scirc;i rakontis kelke da <tld/>aj scenoj el la <ref cel="komedi.0o">komedio</ref>j 
+        de <nom>Holberg</nom>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malgranda Tuk</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la studento <klr>[&#8230;]</klr> eltran&ccirc;as la <tld/>ajn amuzajn bildojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komika birdo <klr>[&#8230;]</klr> la flugiloj<klr>[n]</klr> &gcirc;i tenas <klr>[&#8230;]</klr>
+        senmove kaj tamen rapide flugas
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        serioze imitante la <tld/>an inventon pri eksplodpafiloj de Ariosto
+        <fnt>
+          <bib>Kandid</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> rigardis la mastrinon per tiel lar&gcirc;e malfermitaj okuloj, kun
+        tiel <tld/>a esprimo de plendo, ofendi&gcirc;o kaj mirego, ke Mario ne povis sin
+        deteni de preska&ubreve; la&ubreve;ta rido
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="bizar.0a">bizara</ref>,
+      <ref cel="grotes.0a.KOMUNE">groteska<sncref/></ref>,
       <ref cel="komedi.0a">komedia</ref>,
-      <ref cel="rid.0inda">ridinda</ref>.
+      <ref cel="kurioz.0a">kurioza</ref>,
+      <ref cel="rid.0inda">ridinda</ref>,
+      <ref cel="skuril.0a">skurila</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -30,9 +74,9 @@
     <trd>&c_f;&c_a;&c_c;&c_e;&c_t;&c_n;&c_y;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>komický</trd>,
-    <trd>legrační</trd>,
-    <trd>směšný</trd>
+    <trd>komick&yacute;</trd>,
+    <trd>legra&ccaron;n&iacute;</trd>,
+    <trd>sm&ecaron;&scaron;n&yacute;</trd>
   </trdgrp>
   <trd lng="de">komisch</trd>
   <trdgrp lng="en">
@@ -76,8 +120,8 @@
     <trd>&c_z;&c_a;&c_b;&c_a;&c_v;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>komický</trd>,
-    <trd>smiešny</trd>
+    <trd>komick&yacute;</trd>,
+    <trd>smie&scaron;ny</trd>
   </trdgrp>
   <trd lng="sv">komisk</trd>
 </drv>
@@ -88,7 +132,26 @@
     <dif>
       Eco de <tld/>a persono a&ubreve; situacio:
       <ekz>
-        la <tld/>eco de la aventuro estas, ke...
+        li dankis lin pro la tridek, kaj ridis pri la <tld/>eco en almozoredono
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi kunridis, &ccirc;ar nur nun mi ekvidis retrospekte la <tld/>econ de la okazinta&jcirc;o
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>eco rezultas plej ofte el la karakteroj de la protagonistoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Luiza Carol</aut>
+          <vrk><url ref="https://www.monato.be/2013/010892.php"
+              >Spegula mondo</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -99,9 +162,10 @@
   </trdgrp>
   <trd lng="ca">c&ograve;mic</trd>
   <trdgrp lng="cs">
-    <trd>komično</trd>,
-    <trd>komičnost</trd>
+    <trd>komi&ccaron;no</trd>,
+    <trd>komi&ccaron;nost</trd>
   </trdgrp>
+  <trd lng="de">Komik</trd>
   <trdgrp lng="en">
     <trd>comedy</trd>,
     <trd>comicality</trd>,
@@ -136,14 +200,17 @@
     <trd>&c_z;&c_a;&c_b;&c_a;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>komickosť</trd>,
-    <trd>smiešnosť</trd>,
-    <trd>žartovnosť</trd>
+    <trd>komickos&tcaron;</trd>,
+    <trd>smie&scaron;nos&tcaron;</trd>,
+    <trd>&zcaron;artovnos&tcaron;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2022/01/24 21:23:34
+Wolfram Diestel: ekz-oj, ref-oj
+
 Revision 1.19  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -163,11 +230,5 @@ Revision 1.14  2005/04/12 16:33:01  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.13  2005/01/07 17:31:45  revo
-Marc Bavant: +trd fr, kor ref tip sin
-
-Revision 1.12 2004/03/15 17:30:57 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.11 2004/01/31 17:32:54 revo
 -->
 </vortaro>
