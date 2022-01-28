@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sxtorm.xml,v 1.27 2021/08/25 17:33:12 revo Exp $">
+<art mrk="$Id: sxtorm.xml,v 1.28 2022/01/28 21:24:33 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>&scirc;torm</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -20,10 +20,10 @@
         </fnt>;
       </ekz>
       <ekz>
-        &leftquot;<tld/>os,&rightquot; Donald gruntis moroze
+        &leftquot;<tld/>os,&rightquot; <nom>Donald</nom> gruntis moroze
         <fnt>
-          <aut>J. Francis</aut>,
-          <vrk>La Granda Kaldrono</vrk>,
+          <aut>J. Francis</aut>
+          <vrk>La Granda Kaldrono</vrk>
           <lok>1978</lok>
         </fnt>;
       </ekz>
@@ -48,7 +48,7 @@
   <kap>
     <tld/>a
   </kap>
-  <snc>
+  <snc mrk="sxtorm.0a.MET">
     <dif>
       Trafata, agitata de <tld/>o:
       <ekz>
@@ -74,6 +74,7 @@
   </snc>
   <trd lng="de">st&uuml;rmisch</trd>
   <trd lng="en">stormy</trd>
+  <trd lng="fr">temp&ecirc;tueux</trd>
 </drv>
 
 
@@ -102,31 +103,10 @@
         sova&gcirc;a <tld/>o pelis la pezajn nubojn kiel paperpecojn sur la nokta &ccirc;ielo
         <fnt>
           <bib>Mortul&Scirc;ip</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        ofte ciklonoj alportas ne&gcirc;egon kaj <ind>ne&gcirc;o<tld/>o</ind>jn
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Isikawa Takasi</aut>
-          <vrk><url ref="https://www.monato.be/2015/011497.php">Ekstremaj veter-fenomenoj obli&gcirc;as</url></vrk>
-          <lok>2015</lok>
-        </fnt>;
-        <trd lng="de">Schneesturm</trd>
-      </ekz>
-      <ekz>
-        dum neniu anta&ubreve;a jaro <ind>kirlo<tld/>o</ind>j estis tiel fortaj, &gcirc;is 280 km/h rapidegaj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Stefan Maul</aut>
-          <vrk><url ref="https://www.monato.be/2005/008822.php">Du mil kvin</url></vrk>
-          <lok>2005</lok>
-        </fnt>;
-        <trd lng="de">Wirbelsturm</trd>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-       <ref cel="ciklon.0o">ciklono</ref>,
        <ref cel="tondr.fulmo0o">fulmotondro</ref>,
        <ref cel="tempes.0o">tempesto</ref>,
        <ref cel="uragan.0o.MET">uragano<sncref/></ref>
@@ -194,12 +174,60 @@
   <trd lng="sv">storm</trd>
 </drv>
 
+<drv mrk="sxtorm.kirlo0o">
+  <kap>kirlo<tld/>o</kap>
+  <snc mrk="sxtorm.kirlo0o.MET">
+    <uzo tip="fak">MET</uzo>
+    <dif>
+      <ref tip="super" cel="sxtorm.0o.MET">&Scirc;tormo<sncref/></ref>
+      kiu vortice turni&gcirc;as:
+      <ekz>
+        dum neniu anta&ubreve;a jaro <ind>kirlo<tld/>o</ind>j estis tiel fortaj, &gcirc;is 280 km/h rapidegaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2005/008822.php">Du mil kvin</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="ciklon.0o.MET">ciklono</ref>
+  </refgrp>
+  <trd lng="de">Wirbelsturm</trd>
+  <trd lng="fr">tornade</trd> 
+</drv>
+
+<drv mrk="sxtorm.negxo0o">
+  <kap>ne&gcirc;o<tld/>o</kap>
+  <snc mrk="sxtorm.negxo0o.MET">
+    <uzo tip="fak">MET</uzo>
+    <dif>
+      <ref tip="super" cel="sxtorm.0o.MET">&Scirc;tormo<sncref/></ref>
+      kiu kunpelas ne&gcirc;on:
+      <ekz>
+        ofte ciklonoj alportas ne&gcirc;egon kaj <ind>ne&gcirc;o<tld/>o</ind>jn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="https://www.monato.be/2015/011497.php">Ekstremaj veter-fenomenoj obli&gcirc;as</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Schneesturm</trd>
+  <trd lng="fr">temp&ecirc;te de n&ecirc;ge</trd> 
+</drv>
+
 <drv mrk="sxtorm.sabl0o">
   <kap>sablo<tld/>o</kap>
   <snc mrk="sxtorm.sabl0o.MET">
     <uzo tip="fak">MET</uzo>
     <dif>
-      &Scirc;tormo a&ubreve; ventego kiu kunportas sablon kaj polvon:
+      <ref tip="super" cel="sxtorm.0o.MET">&Scirc;tormo<sncref/></ref>,
+      ventego kiu kunportas sablon kaj polvon:
       <ekz>
         de pratempoj la sablo<tld/>o &scirc;lif<klr>[i]</klr>s iliajn e&gcirc;ojn kaj malglata&jcirc;ojn
         <fnt>
@@ -213,7 +241,7 @@
         brula varmo sub la dezerta suno
         <fnt>
           <bib>Monato</bib>
-          <aut>Husejn Al-Amily</aut>
+          <aut>H. Al-Amily</aut>
           <vrk><url ref="https://www.monato.be/2007/009296.php">La vualo, romantika kaj erotika</url></vrk>
           <lok>2007</lok>
         </fnt>.
@@ -223,12 +251,15 @@
   </snc>
   <trd lng="de">Sandsturm</trd>
   <trd lng="es">tormenta<klr> (de arena)</klr></trd> 
-  <trd lng="fr">temp&ecirc;te<klr> (de sable)</klr></trd> 
+  <trd lng="fr">temp&ecirc;te de sable</trd> 
   <trd lng="it"><ind>tempesta</ind> di sabbia</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2022/01/28 21:24:33
+Jeromo Vasxe: memstar. kirlo/negxo~o
+
 versio 1.27 2021/08/25 17:33:12
 Wolfram Diestel: +ekz-oj, ~a, ~o FIG, ref-oj
 
@@ -248,8 +279,5 @@ Revision 1.19  2014/01/22 09:10:13  revo
 Damien Brucker: +trd fr
 
 Revision 1.18  2010/10/05 16:30:23  revo
-Sebastian Cyprych: -rim
-
-Revision 1.17  2009/04/07 16:30:22  revo
 -->
 </vortaro>
