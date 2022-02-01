@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekvaci.xml,v 1.36 2021/03/09 16:47:10 revo Exp $">
+<art mrk="$Id: ekvaci.xml,v 1.37 2022/02/01 07:27:54 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>ekvaci</rad>/o
@@ -34,7 +34,7 @@
       </ekz>
       <ekz>
         la funkcio <ref cel="sinus.0o">sinuso</ref> verigas la <tld/>on
-        <frm am="x&#x2033;+x=0"><k>x</k>&#x2033;+<k>x</k> = 0</frm>;
+        <frm am="x&second;+x=0"><k>x</k>&second;+<k>x</k> = 0</frm>;
       </ekz>
       <ekz>
         kartezia, polusa <tld/>o de <ref cel="kurb.0o.MAT">kurbo</ref>,
@@ -98,7 +98,8 @@
   <trd lng="en">system of equations</trd>
   <trd lng="es">sistema de <ind>ecuaciones</ind></trd>
   <trd lng="fr">syst&egrave;me d'&eacute;quations</trd>
-  <trd lng="he">&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA; &#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D5;&#x5EA;</trd>
+  <trd lng="he">&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA;
+  &#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D5;&#x5EA;</trd>
   <trd lng="hu">egyenletrendszer</trd>
   <trd lng="pl">uk&lstroke;ad r&oacute;wna&nacute;</trd>
   <trd lng="pt">sistema de equa&ccedil;&otilde;es</trd>
@@ -120,6 +121,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_y;&c_v;&c_je;&c_s;&c_mol;&c_c;&c_ib; <ind>&c_r;&c_a;&c_w;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind></trd>,
+    <trd>&c_a;&c_p;&c_ib;&c_s;&c_a;&c_c;&c_mol; <ind>&c_r;&c_a;&c_w;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;&c_m;</ind></trd>
+  </trdgrp>
   <trd lng="cs">sestavit rovnici</trd>
   <trd lng="de">eine <ind>Gleichung</ind> finden<klr tip="ind">
   (f&uuml;r einen Sachverhalt)</klr></trd>
@@ -151,13 +156,14 @@
       <ref cel="difere2.0o">diferencialoj</ref>:
       <ekz>
         ordinara diferenciala <tld/>o de unua ordo havas la formon
-        <frm am="F(x,y,y&#x2032;)=0">F(<k>x</k>,<k>y</k>,<k>y</k>&#x2032;) = 0</frm>;
+        <frm am="F(x,y,y&minute;)=0">F(<k>x</k>,<k>y</k>,<k>y</k>&minute;) = 0</frm>;
       </ekz>
       <ekz>
-       <frm am="(del^2u)/(del x^2)+(del^2u)/(del y^2)=0">&#x2202;&quadrat;<k>u</k>/&#x2202;<k>x</k>&quadrat;+&#x2202;&quadrat;<k>u</k>/&#x2202;<k>y</k>&quadrat;
+       <frm am="(del^2u)/(del x^2)+(del^2u)/(del y^2)=0">&#8706;&quadrat;<k>u</k>/&#8706;<k>x</k>&quadrat;+&#8706;&quadrat;<k>u</k>/&#8706;<k>y</k>&quadrat;
        = 0</frm> 
         estas elipsa <ind>diferenciala <tld/>o en partaj
-        deriva&jcirc;oj</ind>.
+        deriva&jcirc;oj</ind>
+        <trd lng="be">&c_d;&c_y;&c_f;&c_e;&c_r;&c_e;&c_n;&c_c;&c_y;&c_ja;&c_l;&c_mol;&c_n;&c_a;&c_je; <ind>&c_r;&c_a;&c_w;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind> &c_w; &c_ch;&c_a;&c_s;&c_t;&c_k;&c_o;&c_v;&c_y;&c_h; &c_v;&c_y;&c_t;&c_v;&c_o;&c_r;&c_n;&c_y;&c_h;</trd>.
         <trd lng="de">partielle <ind>Differentialgleichung</ind></trd>
         <trd lng="en">partial differential <ind>equation</ind></trd>
         <trd lng="fr">&eacute;quation aux d&eacute;riv&eacute;es
@@ -191,7 +197,8 @@
   <trd lng="en">differential <ind>equation</ind></trd>
   <trd lng="de">Differentialgleichung</trd>
   <trd lng="fr">&eacute;quation diff&eacute;rentielle</trd>
-  <trd lng="he">&#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D4; &#x5D3;&#x5D9;&#x5E4;&#x5E8;&#x5E0;&#x5E6;&#x5D9;&#x5D0;&#x5DC;&#x5D9;&#x5EA;</trd>
+  <trd lng="he">&#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D4;
+  &#x5D3;&#x5D9;&#x5E4;&#x5E8;&#x5E0;&#x5E6;&#x5D9;&#x5D0;&#x5DC;&#x5D9;&#x5EA;</trd>
   <trd lng="hu">differenci&aacute;legyenlet</trd>
   <trd lng="pl">r&oacute;wnanie r&oacute;&zdot;niczkowe</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
@@ -211,7 +218,8 @@
       <ekz>
         en la integrala <tld/>o kun nekonato <frm am="phi">&phi;</frm> de la
         tipo
-        <frm am="int_a^b K(s,t)phi(t)dt = f(s)">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup>K(<k>s</k>,<k>t</k>)&phi;(<k>t</k>)d<k>t</k>
+        <frm am="int_a^b K(s,t)phi(t)dt =
+        f(s)">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup>K(<k>s</k>,<k>t</k>)&phi;(<k>t</k>)d<k>t</k>
         = <k>f</k>(<k>s</k>)</frm>
         oni nomas la funkcion <frm am="K">K</frm> &gcirc;ia kerno.
       </ekz>
@@ -223,7 +231,8 @@
   <trd lng="de">Integralgleichung</trd>
   <trd lng="en">integral <ind>equation</ind></trd>
   <trd lng="fr">&eacute;quation int&eacute;grale</trd>
-  <trd lng="he">&#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D4; &#x5D0;&#x5D9;&#x5E0;&#x5D8;&#x5D2;&#x5E8;&#x5DC;&#x5D9;&#x5EA;</trd>
+  <trd lng="he">&#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D4;
+  &#x5D0;&#x5D9;&#x5E0;&#x5D8;&#x5D2;&#x5E8;&#x5DC;&#x5D9;&#x5EA;</trd>
   <trd lng="hu">integr&aacute;legyenlet</trd>
   <trd lng="pl">r&oacute;wnanie ca&lstroke;kowe</trd>
   <trd lng="pt">equa&ccedil;&atilde;o integral</trd>
@@ -268,7 +277,10 @@
 
 </art>
 <!--
-$Log: ekvaci.xml,v $
+$Log$
+versio 1.37 2022/02/01 07:27:54
+Dmitri Gabinski: + trd be
+
 versio 1.35 2020/03/24 04:10:51
 James Rezende Piton: trd +pt ~aro, ~igi, ne~
 
@@ -288,8 +300,5 @@ Revision 1.30  2007/06/24 16:30:37  revo
 Tulio Flores: +tr pt
 
 Revision 1.29  2004/11/28 19:43:57  revo
-Marc Bavant: ~o: mod ekz
-
-Revision 1.28  2004/08/01 19:37:16  revo
 -->
 </vortaro>
