@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: jxur.xml,v 1.30 2022/02/13 10:28:17 revo Exp $">
+<art mrk="$Id: jxur.xml,v 1.31 2022/02/13 13:26:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&jcirc;ur</rad>/i
@@ -263,10 +263,25 @@
     <dif>
       Konfirmata per <tld/>o:
       <ekz>
-        <tld/>a interkonsento;
+        ne kun vi solaj mi faras &ccirc;i tiun <klr>[&#8230;]</klr> <tld/>an interkonsenton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 29:14</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a promeso.
+        multaj el la Judoj estis en <tld/>a ligo kun li
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ne&hcirc;emja 6:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&ccirc;iuj]</klr> ligis sin per <tld/>a promeso
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ne&hcirc;emja 10:29</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -285,19 +300,50 @@
   <trd lng="it">giurato<klr> (agg.)</klr></trd>
 </drv>
 
+<drv mrk="jxur.je0i">
+  <kap>
+    je<tld/>i
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="jxur.0peti"><tld lit="&Jcirc;"/>peti</ref>:
+      <ekz>
+        &scirc;i metas vin nun en miajn manojn, <nom>Alfred</nom>, &scirc;i je<tld/>is min en la nomo de mia
+        amo al &scirc;i kaj al vi
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">beschw&ouml;ren</trd>
+</drv>
+
+
+
+
+
+
 <drv mrk="jxur.je0ikun0i">
-  <kap>je<tld/>i, <var><kap>kun<tld/>i</kap></var></kap>
+  <kap>kun<tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
-      Konspiri:
+      <ref tip="super" cel="konspi.0i">Konspiri</ref>:
       <ekz>
-        je<tld/>i kontra&ubreve; iu<fnt>Z</fnt>.
+        la faraono frenezi&gcirc;is kaj kun<tld/>is kun eksterlanduloj por pereigi la templojn
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_c;&c_mol; 
-<ind>&c_z;&c_m;&c_o;&c_v;&c_u;</ind></trd>
+    <ind>&c_z;&c_m;&c_o;&c_v;&c_u;</ind></trd>
+  <trd lng="de">sich <ind>verschw&ouml;ren</ind></trd>
   <trd lng="en">conspire</trd>
   <trd lng="es">conjurar</trd>
   <trd lng="fr">se <ind>conjurer</ind></trd>
@@ -373,15 +419,20 @@
 </drv>
 
 <drv mrk="jxur.0peti">
-  <kap><tld/>peti<fnt>Z</fnt></kap>
+  <kap><tld/>peti</kap>
   <snc>
     <dif>
       Peti per <tld/>oj:
       <ekz>
-        &scirc;i <tld/>petis, ke mi lin forpelu.
+        mi vin <tld/>petas per Dio, ke vi ne turmentu min
+        <fnt>
+          <bib>NT</bib>
+          <lok>Marko 5:7</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">beschw&ouml;ren</trd>
   <trd lng="en">petition</trd>
   <trd lng="es">suplicar</trd>
   <trd lng="fr">supplier</trd>
@@ -394,36 +445,42 @@
   </trdgrp>
 </drv>
 
-<drv mrk="jxur.0rompi">
-  <kap><tld/>rompi</kap>
+<drv mrk="jxur.0rompo">
+  <kap><tld/>rompo</kap>
   <snc>
     <dif>
-      Ne plenumi sian <tld/>on a&ubreve; fari falsan <tld/>on.
+      Ne plenumi sian <tld/>on a&ubreve; fari falsan <tld/>on:
+      <ekz>
+        ili parolas nur pri <tld/>rompo kaj mensogo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 59:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        gardu vin, ke <klr>[ili]</klr> ne nomu vin <tld/>rompanto
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>!
+      </ekz>
     </dif>
     <trdgrp lng="es">
       <trd>cometer <ind>perjurio</ind></trd>,
       <trd>perjurar</trd>
     </trdgrp>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_r;&c_u;&c_sh;&c_a;&c_c;&c_mol; 
-<ind>&c_k;&c_l;&c_ja;&c_t;&c_v;&c_u;</ind></trd>
   <trdgrp lng="de">
-    <trd>Schwur brechen</trd>,
-    <trd>Eid brechen</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>commit <ind>perjury</ind></trd>,
-    <trd>perjure<klr> (one's self)</klr></trd>
-  </trdgrp>
-  <trd lng="fr">se <ind>parjurer</ind></trd>
-  <trd lng="hu">esk&uuml;t szeg</trd>
-  <trd lng="it">spergiurare</trd>
-  <trd lng="nl">meineed plegen</trd>
-  <trd lng="pt">perjurar</trd>
+    <trd>Meineid</trd>,
+    <trd><ind>Brechen</ind> eines Schwures</trd>
+  </trdgrp> 
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2022/02/13 13:26:48
+Wolfram Diestel: ~a..~rompo: ekz-oj; diferencigi kun~i kaj je~i
+
 versio 1.30 2022/02/13 10:28:17
 Wolfram Diestel: ~o: ekz-oj, +var ~ligi, ekz-oj
 
