@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kod.xml,v 1.44 2021/06/18 09:32:34 revo Exp $">
+<art mrk="$Id: kod.xml,v 1.45 2022/02/14 07:40:28 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>kod</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -262,7 +262,10 @@
     <trd>&c_k;&c_o;&c_d;</trd>,
     <trd>&c_k;&c_a;&c_d;&c_o;&c_w;&c_k;&c_a;</trd>
   </trdgrp>
-  <trd lng="en">code</trd>
+  <trdgrp lng="en">
+    <trd>code</trd>,
+    <trd>encryption</trd>
+  </trdgrp>
   <trd lng="pt">c&oacute;digo</trd>
 </drv>
 
@@ -322,7 +325,8 @@
     </trdgrp>
     <trdgrp lng="en">
       <trd>code</trd>,
-      <trd>encode</trd>
+      <trd>encode</trd>,
+    <trd>encrypt</trd>
     </trdgrp>
     <trd lng="es">codificar</trd>
     <trdgrp lng="fr">
@@ -347,6 +351,10 @@
        Grupo da signoj, prezentanta koditan informon
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>code</trd>,
+    <trd>encoded message</trd>
+  </trdgrp>
 </drv>
       
 <drv mrk="kod.0ero">
@@ -467,7 +475,11 @@
       <trd>entkodieren</trd>,
       <trd>entschl&uuml;sseln</trd>
     </trdgrp>
-    <trd lng="en">decode</trd>
+    <trdgrp lng="en">
+    <trd>decode</trd>,
+    <trd>decipher</trd>,
+    <trd>decrypt</trd>
+  </trdgrp>
     <trd lng="es">descifrar</trd>
     <trd lng="fr">d&eacute;coder</trd>
     <trdgrp lng="hu">
@@ -613,6 +625,10 @@
     (&c_k;&c_o;&c_m;&c_p;&c_mol;&c_ju;&c_t;&c_je;&c_r;&c_n;&c_y;&c_j;)
     </klr></trd>
   </snc>
+  <trdgrp lng="en">
+    <trd>codebreaker</trd>,
+    <trd>hacker</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kod.morsa0o">
@@ -639,6 +655,7 @@
     <ref tip="vid" cel="mors.0o">Morso</ref>
   </snc>
   <trd lng="de">Morsecode</trd>
+  <trd lng="en">morse code</trd>
   <trd lng="es">c&oacute;digo morse</trd>
   <trdgrp lng="fr">
     <trd>code Morse</trd>,
@@ -675,6 +692,10 @@
     <trd>Postleitzahl</trd>,
     <trd>PLZ</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>postal code</trd>,
+    <trd>zip code</trd>
+  </trdgrp>
   <trd lng="es">c&oacute;digo postal</trd>
   <trd lng="fr">code postal</trd>
   <trd lng="hu">
@@ -709,6 +730,7 @@
   </snc>
   <trd lng="bg">&c_k;&c_o;&c_d;</trd>
   <trd lng="de">Vorwahl</trd>
+  <trd lng="en">calling code</trd>
   <trd lng="es">prefijo<klr tip="ind"> (telef&oacute;nico)</klr></trd>
   <trd lng="nl">kengetal<klr tip="ind"> (telefoon)</klr></trd>
   <trd lng="pl"><klr>numer </klr>kierunkowy</trd>
@@ -738,6 +760,7 @@
   </snc>
   <trd lng="be">&c_sh;&c_t;&c_r;&c_y;&c_h;-&c_k;&c_o;&c_d;</trd>
   <trd lng="cs">&ccaron;&aacute;rkov&yacute; k&oacute;d</trd>
+  <trd lng="en">barcode</trd>
   <trd lng="es">c&oacute;digo de barras</trd>
   <trd lng="fr">code-barre</trd>
   <trd lng="nl">streepjescode</trd>
@@ -753,6 +776,9 @@
 </art>
 <!--
 $Log$
+versio 1.45 2022/02/14 07:40:28
+Noam Mohr: +trd en kod-
+
 versio 1.44 2021/06/18 09:32:34
 Dmitri Gabinski: + trd be
 
@@ -771,8 +797,5 @@ Michel Cantigneaux: aperas unue en PV (1934) k PIV1 (1970), oficialaj en
 
 Revision 1.38  2017/09/15 07:10:19  revo
 Damien Brucker: -eraro cxe cel en ref
-
-Revision 1.37  2017/09/14 20:10:15  revo
-Wolfram Diestel: forigis snc JUR, kiu nun estas en kod1.xml
 -->
 </vortaro>
