@@ -2,36 +2,76 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: soj.xml,v 1.16 2020/04/25 15:10:22 revo Exp $">
+<art mrk="$Id: soj.xml,v 1.17 2022/02/17 21:26:23 revo Exp $">
 <kap>
 <rad>soj</rad>/o
 </kap>
 <drv mrk="soj.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="soj.0o.specio">
+    <uzo tip="fak">BOT</uzo>
+    <uzo tip="fak">AGR</uzo>
     <dif>
-      Specio de <ref tip="super" cel="glicin1.0o">glicineo</ref>
-      (<trd lng="la">Glycine soja</trd>), grava legomo, el kies
-      faboj oni produktas oleon, farunon k.a.:
+      <ref tip="lst" lst="voko:botanikaj_specioj" cel="speci.0o.BIO">Specio</ref>
+      de <ref tip="super" cel="glicin1.0o">glicineo</ref>
+      (<trd lng="la">Glycine soja</trd>), grava <ref tip="super" cel="legom.0o">legomo</ref>, el kies
+      faboj oni produktas oleon, farunon, <ref cel="tofu.0o">tofuo</ref>n k.a.:
       <ekz>
-        <tld/>oleo, <tld/>faruno, <tld/>sa&ubreve;co.
+        <tld/>oleo, <ref cel="kaze.soj0o"><tld/>kazeo</ref>, <tld/>sa&ubreve;co;
+      </ekz>
+      <ekz>
+        &ccirc;efa agado de la organiza&jcirc;o temas pri agrikulturo (ekz. manioko, maizo, <tld/>o,
+        bulboj, legomoj, ktp)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Vital Mondengi/pg</aut>
+          <vrk><url ref="https://www.monato.be/2005/008460.php"
+              >Semante esperon</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        normalan sukeron sakarozo <klr>[ili]</klr> anstata&ubreve;igas <klr>[&#8230;]</klr> per
+        <tld/>o-suko, rizo-suko, avena suko kaj kokosa suko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2013/011068.php"
+              >Franda&jcirc;oj fratinaj</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_s;&c_o;&c_ja;</trd>
+    <trd lng="bg">&c_s;&c_o;&c_ja;</trd>
+    <trd lng="cs">s&oacute;ja</trd>
+    <trd lng="de">Soja</trd>
+    <trd lng="en">soy</trd>
+    <trd lng="es">soja</trd>
+    <trd lng="fr">soja, soya</trd>
+    <trd lng="hu">sz&oacute;ja</trd>
+    <trd lng="id">kedelai</trd>
+    <trd lng="nl">soja</trd>
+    <trd lng="pl">soja</trd>
+    <trd lng="ru">&c_s;&c_o;&c_ja;</trd>
+    <trd lng="sk">s&oacute;ja</trd>
+  </snc>
+  <snc mrk="soj.0o.sauxco">
+    <fnt><bib>PIV1</bib></fnt>
+    <uzo tip="fak">KUI</uzo>
+    <dif>
+      <tld lit="S"/>osa&ubreve;co:
+      <ekz>
+        <tld/>fabo <klr>[&#8230;]</klr> estas iom (sed ne tro!) faboforma, kaj el &gcirc;i oni
+        preparas sa&ubreve;con nomatan <tld/>o, de tie do venas &gcirc;ia nomo, pro konvencio kaj
+        tradicio
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 8-9 (106-107)</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_s;&c_o;&c_ja;</trd>
-  <trd lng="bg">&c_s;&c_o;&c_ja;</trd>
-  <trd lng="cs">s&oacute;ja</trd>
-  <trd lng="de">Soja</trd>
-  <trd lng="en">soy</trd>
-  <trd lng="es">soja</trd>
-  <trd lng="fr">soja, soya</trd>
-  <trd lng="hu">sz&oacute;ja</trd>
-  <trd lng="id">kedelai</trd>
-  <trd lng="nl">soja</trd>
-  <trd lng="pl">soja</trd>
-  <trd lng="ru">&c_s;&c_o;&c_ja;</trd>
-  <trd lng="sk">s&oacute;ja</trd>
 </drv>
 <adm>
 pri tofuo: Mi ne uzas "sojkazeon", &ccirc;ar tiu anka&ubreve;
@@ -84,7 +124,10 @@ ni uzu tiun racian modelon!
 </adm>
 </art>
 <!--
-$Log: soj.xml,v $
+$Log$
+versio 1.17 2022/02/17 21:26:23
+Wolfram Diestel: +ekz-oj, +snc saŭco
+
 versio 1.16 2020/04/25 15:10:22
 Eko Nur Syah Hidayat: +trd id
 
@@ -104,8 +147,5 @@ Revision 1.11  2014/09/18 08:10:24  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.10  2009/01/17 18:09:18  revo
-Wieland Pusch: +trd bg
-
-Revision 1.9  2009/01/13 17:30:17  revo
 -->
 </vortaro>
