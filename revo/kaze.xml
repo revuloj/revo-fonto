@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kaze.xml,v 1.27 2019/06/30 18:21:02 revo Exp $">
+<art mrk="$Id: kaze.xml,v 1.28 2022/02/18 06:33:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kaze</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,7 +14,7 @@
     <dif>
       Densa solidi&gcirc;inta ne fermentinta parto de
       <ref tip="malprt" cel="lakt.0o">lakto</ref>, el kiu oni
-      faras froma&gcirc;on:
+      faras <ref cel="fromag.0o">froma&gcirc;o</ref>n:
       <ekz>
         min atendis varmaj baka&jcirc;oj kun <tld/>o kaj butero, tiom
         bongustaj, ke mi, &scirc;ajne, en la urbo neniam man&gcirc;is
@@ -23,7 +23,34 @@
         <lok>&ccirc;apitro 16a</lok></fnt>;
       </ekz>
       <ekz>
-        la slovaka <nac>bryndza</nac> estas mola, knedita kaj salita &scirc;affroma&gcirc;o, iomete simila al <tld/>o
+        la <ind><tld/>a bulo</ind> estas miksa&jcirc;o el faruno kaj <tld/>o!
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekkvara &Ccirc;apitro</lok>
+        </fnt>;
+        <trd lng="de">Quarkkn&ouml;del</trd>
+      </ekz>
+      <ekz>
+        la frenezulo forman&gcirc;as sian po&scirc;tukon, a&ubreve; sin imagas <ind><tld/>a kuko</ind>
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Na&ubreve;a &Ccirc;apitro</lok>
+        </fnt>;
+        <trdgrp lng="de">
+          <trd>Quarkkuchen</trd>,
+          <trd>K&auml;sekuchen</trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        <klr>[li strebas]</klr> elpremi vian monujon, kiel <tld/>an sakon
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la slovaka <nac>bryndza</nac> estas mola, knedita kaj salita &scirc;affroma&gcirc;o, 
+        iomete simila al <tld/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Julius Hauser</aut>
@@ -31,6 +58,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="selakt.0o">selakto</ref>
   </snc>
   <trd lng="be">&c_t;&c_v;&c_a;&c_r;&c_o;&c_g;</trd>
   <trd lng="bg">&c_i;&c_z;&c_v;&c_a;&c_r;&c_a;</trd>
@@ -61,6 +89,33 @@
   </trdgrp>
 </drv>
 
+<drv mrk="kaze.0igi">
+  <kap>
+    <tld/>igi
+  </kap>
+  <snc>
+    <dif>
+      Solidigi lakton al kazeo per fermentado:
+      <ekz>
+        necesis <tld/>igi la dol&ccirc;an &scirc;aflakton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2013/011027.php"
+              >Oro blanka</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+<trd lng="de">s&auml;uern <klr>(Milch)</klr></trd>
+</drv>
+
+
+
+
+
+
 <drv mrk="kaze.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <snc mrk="kaze.0igxi.KUI">
@@ -79,6 +134,7 @@
   </snc>
   <trd lng="br">kaouledi&ntilde;<klr tip="ind"> (laezh)</klr></trd>
   <trd lng="ca">quallar</trd>
+  <trd lng="de"><ind>sauer</ind> werden <klr>(Milch)</klr></trd>
   <trd lng="en">curdle</trd>
   <trd lng="fr">cailler</trd>
   <trd lng="hu">megt&uacute;r&oacute;sodik</trd>
@@ -96,13 +152,16 @@
     <uzo tip="fak">KUI</uzo>
     <dif>
       Fermento, &gcirc;enerale ekstraktata el stomako de junaj,
-      ankora&ubreve;
-      laktonutrataj rema&ccirc;uloj, kiu servas por <tld/>igi lakton.
+      ankora&ubreve; laktonutrataj rema&ccirc;uloj, kiu servas por <tld/>igi lakton
+      <ekz>
+        kazeiga&jcirc;o estas miksa&jcirc;o de enzimoj &hcirc;imozino kaj <ref cel="pepsin.0o">pepsino</ref>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="br">tro<klr tip="ind"> (evit lakaat al laezh da
   gaouledi&ntilde;)</klr></trd>
   <trd lng="ca">quall</trd>
+  <trd lng="de">Lab</trd>
   <trd lng="en">rennet</trd>
   <trd lng="fr">pr&eacute;sure</trd>
   <trd lng="hu">tejolt&oacute;</trd>
@@ -157,6 +216,9 @@
 </art>
 <!--
 $Log$
+versio 1.28 2022/02/18 06:33:54
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
 Revision 1.26  2018/11/04 12:10:21  revo
 Wolfram Diestel: +ekz, kor. ref tofu
 
@@ -176,8 +238,5 @@ Revision 1.21  2009/08/23 16:32:01  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.20  2009/06/23 16:31:28  revo
-Wieland Pusch: +trd bg
-
-Revision 1.19  2009/06/22 16:30:43  revo
 -->
 </vortaro>
