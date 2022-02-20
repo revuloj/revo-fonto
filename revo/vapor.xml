@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vapor.xml,v 1.107 2022/02/20 14:24:26 revo Exp $">
+<art mrk="$Id: vapor.xml,v 1.108 2022/02/20 16:39:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vapor</rad>/o <fnt><bib>PV</bib></fnt>
@@ -421,7 +421,7 @@ aezhenn)</klr></trd>
         <tld/>igi akvon en kaldrono.
       </ekz>
     </dif>
-    <trd lng="de">abdampfen</trd>
+    <ref tip="ant" cel="kondens.0i">kondensi</ref>
   </snc>
   <snc mrk="vapor.0igi.FIG">
     <dif>
@@ -443,7 +443,6 @@ aezhenn)</klr></trd>
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">verdampfen</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_p;&c_a;&c_r;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -458,6 +457,7 @@ aezhenn)</klr></trd>
     <trd>m&ecaron;nit v p&aacute;ru</trd>,
     <trd>odpa&rcaron;ovat</trd>
   </trdgrp>
+  <trd lng="de">verdampfen</trd>
   <trd lng="es">evaporar</trd>
   <trdgrp lng="fa">
     <trd>&a_t;&a_b;&a_kh;&f_y;&a_r; &f_k;&a_r;&a_d;&a_n;</trd>,
@@ -510,6 +510,11 @@ aezhenn)</klr></trd>
     <trd>v&yacute;parn&iacute;k</trd>,
     <trd>zvlh&ccaron;ova&ccaron; vzduchu</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Verdampfer</trd>,
+    <trd>Vaporizer</trd>
+  </trdgrp>
+  
   <trdgrp lng="fa">
     <trd>&a_A;&a_s;&f_p;&a_r;&f_y;</trd>,
     <trd>&a_A;&a_f;&a_sh;&a_A;&a_n;&a_h;</trd>
@@ -541,11 +546,75 @@ aezhenn)</klr></trd>
     <dif>
       Fari&gcirc;i <tld/>o:
       <ekz>
-        la akvo <tld/>i&gcirc;as je la ordinara temperaturo.
+        la akvo <tld/>i&gcirc;as je la ordinara temperaturo;
+      </ekz>
+      <ekz>
+        la akvo inter la potoj <tld/>i&gcirc;as kaj tiel malvarmigas la internan poton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2010/010175.php"
+              >Simplaj solvoj por premaj problemoj</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fizikistoj fandas malgrandan kvanton da purega cezio, de kiu ioma kvanto
+        <tld/>i&gcirc;as
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007024.html"
+              >Tempo: Pli ekzakte ne eblas: Radi-regata horlo&gcirc;o</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">verdampfen</trd>
-  </snc>        
+  </snc>
+  <snc mrk="vapor.0igxi.FIG">
+    <dif>
+      <ref tip="super" cel="aper.mal0i">Malaperi</ref> kiel <tld/>o:
+      <ekz>
+        &scirc;ia timo rapide <tld/>i&gcirc;is
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malkompreni&gcirc;o, kiu rapide <tld/>i&gcirc;os
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> trovis en tiu ago de sindono regalon de kalumnioj, kiun
+        kompreneble ili ne lasis <tld/>i&gcirc;i
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        liaj zorgoj iom post iom <tld/>i&gcirc;is kaj fari&gcirc;is malrealaj kiel forgesitaj son&gcirc;oj
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la knabjaraj romantikaj revoj <klr>[&#8230;]</klr> anta&ubreve; longe <tld/>i&gcirc;is
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Kuni&gcirc;o</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="solv.0igxi">solvi&gcirc;i</ref>
+    </refgrp>
+    <trd lng="de">sich <ind>verfl&uuml;chtigen</ind></trd>
+  </snc>   
   <trdgrp lng="ca">
     <trd>vaporitzar-se</trd>,
     <trd>evaporar-se</trd>
@@ -592,6 +661,16 @@ aezhenn)</klr></trd>
       en kiu man&gcirc;a&jcirc;o kuiri&gcirc;as per trablovo de varmega
       <tld/>o:
       <ekz>
+        la berorikoltistoj kuiris por si rizon per <tld/>umilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url ref="https://www.monato.be/2005/008789.php"
+              >Laboro kaj la bero</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         li iris rekte al la kuirforno, prenis el 
         <tld/>umilo kelkajn mantoojn
         <fnt>
@@ -603,6 +682,7 @@ aezhenn)</klr></trd>
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">D&auml;mpfer</trd>
   <trdgrp lng="fr">
     <trd>couscoussier</trd>,
     <trd>cuit-vapeur</trd>
@@ -613,15 +693,37 @@ aezhenn)</klr></trd>
 <drv mrk="vapor.el0igxi">
   <kap>el<tld/>i&gcirc;i, <var><kap>for<tld/>i&gcirc;i</kap></var></kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc mrk="vapor.el0igxi.KOMUNE">
+  <snc mrk="vapor.el0igxi.FIG">
+    <uzo tip="stl">FIG</uzo>
     <dif>
-      Malaperi <tld/>i&gcirc;ante:
+      Tute malaperi kiel <tld/>o:
       <ekz>
-        la akvo el la kaserolo el<tld/>i&gcirc;is;
+        &ccirc;u via iometo da kura&gcirc;o jam el<tld/>i&gcirc;is
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>?
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        &ccirc;u via kura&gcirc;o jam for<tld/>i&gcirc;is?
+        kun la lasta afabla saluto de l&#8217; &scirc;ipestro el<tld/>i&gcirc;is definitive Germanio kaj
+        komenci&gcirc;is Sovetunio
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        miaj vivenergioj for<tld/>i&gcirc;is en malplena, senenhava vivo
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Sesa &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia bona humoro subite for<tld/>i&gcirc;is, la doloro de la rememoroj premis mian koron
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekna&ubreve;a &Ccirc;apitro</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -662,6 +764,9 @@ aezhenn)</klr></trd>
 </art>
 <!--
 $Log$
+versio 1.108 2022/02/20 16:39:59
+Wolfram Diestel: ~iĝi..: ekz-oj, ref-oj; +~iĝi FIG; 
+
 versio 1.107 2022/02/20 14:24:26
 Wolfram Diestel: ~o: snc FIG, ekz-oj
 
@@ -681,8 +786,5 @@ Revision 1.28  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.27  2014/06/30 15:10:22  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.26  2014/02/03 02:10:12  revo
 -->
 </vortaro>
