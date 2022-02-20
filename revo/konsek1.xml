@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konsek1.xml,v 1.20 2022/01/24 06:38:37 revo Exp $">
+<art mrk="$Id: konsek1.xml,v 1.21 2022/02/20 19:22:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konsekvenc</rad>/o
@@ -13,7 +13,9 @@
   </kap>
   <snc mrk="konsek1.0o.sekvo">
     <dif>
-      Tio, kio logike sekvas el starigita principo, al iu fakto, el anta&ubreve;a okazo:
+      Tio, kio logike sekvas el starigita principo, al iu fakto, el anta&ubreve;a okazo;
+      <ref tip="vid" cel="rezult.0o">rezulto</ref>,
+      <ref tip="vid" cel="sekv.0o.rezulto">sekvo<sncref/></ref>:
       <ekz>
         refuti doktrinon per &gcirc;iaj <tld/>oj;
       </ekz>
@@ -69,11 +71,9 @@
         </fnt>?
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
+      <ref cel="dedukt.0o.LOG">dedukto</ref>,
       <ref cel="konklu.0o">konkludo</ref>,
-      <ref cel="sekv">sekvo</ref>,
-      <ref cel="rezult.0o">rezulto</ref>,
-      <ref cel="dedukt">dedukto</ref>,
       <ref cel="korola.0o">korolario</ref>
     </refgrp>
     <trd lng="be">&c_v;&c_y;&c_n;&c_ib;&c_k;</trd>
@@ -98,14 +98,15 @@
     <dif>
       Racia, kohera decidado kaj agado, konsciante pri la interefikoj:
       <ekz>
-        la plimulto <klr>[&#8230;]</klr> trovos tiun &ccirc;i demandon tute superflua, tamen pro
-        <tld/>o ni metas <klr>[&gcirc;in]</klr>
+        la plimulto <klr>[&#8230;]</klr> trovos tiun &ccirc;i demandon tute superflua,
+        tamen pro <tld/>o ni metas <klr>[&gcirc;in]</klr>
         <fnt>
           <bib>EE</bib>
         </fnt>;
       </ekz>
       <ekz>
-        al <nom>Zamenhof</nom> mankis tiuj kura&gcirc;o kaj <tld/>o, kiujn posedis <nom>Tolstoj</nom>
+        al <nom>Zamenhof</nom> mankis tiuj kura&gcirc;o kaj <tld/>o,
+        kiujn posedis <nom>Tolstoj</nom>
         <fnt>
           <bib>Zam</bib>
         </fnt>.
@@ -176,7 +177,8 @@
   <snc mrk="konsek1.0a.logika">
     <dif>
       Karakterizas iun, kies &ccirc;iuj agoj, a&ubreve; ion, kies
-      &ccirc;iuj elementoj logike interligi&gcirc;as; <ref tip="sin" cel="koher.0a.penso">kohera<sncref/></ref>:
+      &ccirc;iuj elementoj logike interligi&gcirc;as;
+      <ref tip="sin" cel="koher.0a.penso">kohera<sncref/></ref>:
       <ekz>
         <tld/>a homo, konduto;
       </ekz>
@@ -252,7 +254,7 @@
   </kap>
   <snc>
     <dif>
-      Pro <ref cel="konsek1.0o.sekvo">konsekvenco<sncref/></ref>
+      Pro <ref cel="konsek1.0o.sekvo">konsekvenco<sncref/></ref>:
       <ekz>
         la esperantismo celas la reciprokan sinkomprenadon kaj <tld/>e
         anka&ubreve; estimon kaj amon inter &ccirc;iuj gentoj kaj
@@ -270,10 +272,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
+      <ref cel="do.0.konsekvence">do<sncref/></ref>,
       <ref cel="konklu.0e">konklude</ref>,
-      <ref cel="sekv">sekve</ref>,
-      <ref cel="do">do</ref>.
+      <ref tip="vid" cel="sekv.0e">sekve</ref>
     </refgrp>
     <trd lng="be">&c_t;&c_a;&c_k;&c_ib;&c_m; &c_ch;&c_y;&c_n;&c_a;&c_m;</trd>
     <trdgrp lng="de">
@@ -448,6 +450,9 @@
 </art>
 <!--
 $Log$
+versio 1.21 2022/02/20 19:22:52
+Jeromo Vasxe: tez: sin -> vid
+
 versio 1.20 2022/01/24 06:38:37
 Wolfram Diestel: kor. ref
 
@@ -467,8 +472,5 @@ Revision 1.14  2013/08/05 11:10:10  revo
 Joop Eggen: +trd bg
 
 Revision 1.13  2012/10/23 00:12:23  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.12  2011/12/06 23:10:26  revo
 -->
 </vortaro>
