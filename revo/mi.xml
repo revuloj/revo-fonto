@@ -2,22 +2,30 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mi.xml,v 1.110 2021/12/17 17:40:28 revo Exp $">
+<art mrk="$Id: mi.xml,v 1.111 2022/02/21 22:27:32 revo Exp $">
 <kap>
-   <ofc>*</ofc> <rad>mi</rad> <fnt><bib>PV</bib></fnt>
+   <ofc>*</ofc> <rad>mi</rad>
 </kap>
 
 <drv mrk="mi.0">
    <kap><ofc>*</ofc><tld/></kap>
-   <snc>
+   <gra><vspec>pronomo</vspec></gra>
+   <snc mrk="mi.0.KOMUNE">
      <dif>
-       <ref tip="super" cel="pronom.0o">Pronomo</ref>
-       de la unua persono en ununombro:
+       La parolanto (gramatike: unua persono en ununombro):
        <ekz>
-         <tld/>a, <tld/>n kaj <tld/> en mondo re&gcirc;as tri<fnt>Z</fnt>.
+         <tld/> dankas vin por la prunto
+         <fnt>
+           <bib>F</bib>
+           <vrk>&FE; 14</vrk>
+         </fnt>;
        </ekz>
-     </dif>
-   </snc>
+       <ekz>
+         <tld/>a, <tld/>n kaj <tld/> en mondo re&gcirc;as tri
+         <fnt><bib>PrV</bib></fnt>.
+       </ekz>
+    </dif>
+  </snc>
   <trd lng="af">Ek</trd>
   <trd lng="am">&#4773;&#4756;</trd>
   <trd lng="ar">&a_A_hamza_sure;&a_n;&a_A;</trd>
@@ -138,10 +146,23 @@
 <drv mrk="mi.0a">
   <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
   <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5112">mi'a</url></lok></fnt></kap>
-  <snc>
+  <snc mrk="mi.0a.KOMUNE">
     <dif>
-      Poseda adj. a&ubreve; pron. signifanta: &leftquot;posedata de mi, rilata 
-al mi&rightquot;.
+      Posedata de <tld/>, rilata al <tld/>:
+      <ekz>
+        <tld/> jam havas <tld/>an &ccirc;apelon
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> vizitis vian kuzon kaj <tld/>a vizito faris al li plezuron
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 20</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="af">my</trd>
@@ -270,9 +291,41 @@ al mi&rightquot;.
   </trdgrp>
   <trd lng="zu">yami</trd>
 </drv>
+
+<drv mrk="mi.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="mi.0o.KOMUNE">
+    <dif>
+      La propra, memkonscia tuto de homo, rigardata kiel konstanta tra la tempo:
+      <ekz>
+        kelkaj memstaraj poemoj <klr>[&#8230;]</klr> kvaza&ubreve; a&ubreve;digas dialogon
+        inter la &leftquot;<tld/>o&rightquot; de la poeto kaj la ekstera realo
+        <fnt>
+          <aut>G. Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2013/010730.php"
+              >Brile versform-fidela traduko &gcirc;uinda</url></vrk>
+          <lok>Monato, 2013:12, p. 26</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ego.0o">egoo</ref>,
+      <ref cel="indivi.0o">individuo</ref>,
+      <ref cel="mem.0o">memo</ref>,
+      <ref cel="person.0o.homo">persono<sncref/></ref>,
+      <ref cel="subjek.0o.FIL">subjekto<sncref/></ref>.
+    </refgrp>
+  </snc>
+  <trd lng="fr">le <ind>moi</ind><klr> (subst.)</klr></trd>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.111 2022/02/21 22:27:32
+Jeromo Vasxe: ~ laux skemo de "vi", ~a + ekz, + ~o
+
 versio 1.110 2021/12/17 17:40:28
 Warut Bunprasert: +trd th
 
@@ -292,8 +345,5 @@ Revision 1.33  2016/11/20 14:10:14  revo
 Robin van der Vliet: +trd fy, io, nl, vo
 
 Revision 1.32  2015/07/04 13:10:15  revo
-Darcy Shen: + trd zh
-
-Revision 1.31  2015/07/04 08:37:39  revo
 -->
 </vortaro>
