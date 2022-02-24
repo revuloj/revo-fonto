@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kalkul.xml,v 1.46 2022/02/23 17:30:00 revo Exp $">
+<art mrk="$Id: kalkul.xml,v 1.47 2022/02/24 12:45:56 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kalkul</rad>/i <fnt><bib>PV</bib></fnt>
@@ -792,7 +792,22 @@
       Kiu <tld/>as, en &ccirc;iuj situacioj taksas sian profiton kaj 
       malprofiton:
       <ekz>
-        mi <klr>...</klr> volis iom vundi &scirc;ian <tld/>eman koron
+        li estis <tld/>ema kaj celkonscia
+        <fnt>
+          <bib>LGA</bib>
+          <lok>V.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>ema virino eraris, &scirc;i mal&gcirc;uste taksis la dan&gcirc;erojn de nokta voja&gcirc;o en
+        tempo de nacia maltrankvilo
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <klr>[&#8230;]</klr> volis iom vundi &scirc;ian <tld/>eman koron
         <fnt>
           <aut>K. Pap, trad. A. Reiber</aut>,
           <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr63/revado.html">
@@ -802,9 +817,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="sponta1.0a">spontanea</ref>
   </snc>
   <trd lng="bg">&c_p;&c_r;&c_je;&c_s;&c_m;&c_je;&c_t;&c_l;&c_i;&c_v;</trd>
   <trd lng="cs">kdo r&aacute;d po&ccaron;&iacute;t&aacute; <klr>(adj.)</klr></trd>
+  <trd lng="de">berechnend</trd>
   <trdgrp lng="fr">
     <trd>calculateur<klr> (adj., int&eacute;ress&eacute;)</klr></trd>,
     <trd>int&eacute;ress&eacute;<klr> (calculateur)</klr></trd>
@@ -816,40 +833,103 @@
   <kap><tld/>ilo</kap>
   <snc>
     <dif>
-      Rimedo por plenumi aritmetikajn operaciojn a&ubreve; <tld/>i
-      kelkajn simplajn funkciojn, nepriganta intervenon de
-      manipulisto je &ccirc;iu pa&scirc;o de la <tld/>ado (ekz-e
-      <ref tip="sub" cel="abak.0o.kalkulilo">abako</ref>).
+      Rimedo por plenumi aritmetikajn operaciojn:
+      <ekz>
+        &ccirc;iuj knaris per plumoj, klakis per <tld/>iloj, a&ubreve; frapis per skribma&scirc;inoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la de&jcirc;orantinoj per <ind>po&scirc;<tld/>ilo</ind>j kontrolas la sumon kaj trovas ke vi
+        mis<tld/>is kelkajn kopekojn
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 3 (53)</lok>
+        </fnt>;
+        <trd lng="de">Taschenrechner</trd>
+      </ekz>
+      <ekz>
+        komputiloj en la moderna mondo ne plu estas nuraj <tld/>iloj,
+        ofte oni uzas ilin anka&ubreve; por lingve komuniki, por prilabori tekstojn <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 4 (54)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi preska&ubreve; neniam uzas tekstoprilaborilon, kaj mi ankora&ubreve; neniam uzis
+        <ind>tabel<tld/>ilo</ind>n
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006801.html"
+              >Interreto: Uniksulo ekspertas Unikodon</url></vrk>
+        </fnt>.
+        <trd lng="de">Tabellenkalkulation</trd>
+      </ekz>
     </dif>
-    <ref tip="vid" cel="soroban.0o">sorobano</ref>
-    <ref tip="vid" cel="komput.0ilo">komputilo</ref>
+    <refgrp tip="sub">
+      <ref cel="abak.0o.kalkulilo">abako<sncref/></ref>,
+      <ref cel="soroban.0o">sorobano</ref>,
+      <ref cel="komput.0ilo">komputilo</ref>
+    </refgrp>
+    <trd lng="be">&c_k;&c_a;&c_l;&c_mol;&c_k;&c_u;&c_l;&c_ja;&c_t;&c_a;&c_r;</trd>
+    <trd lng="bg">&c_k;&c_a;&c_l;&c_k;&c_u;&c_l;&c_a;&c_t;&c_o;&c_r;</trd>
+    <trdgrp lng="ca">
+      <trd>calculador</trd>,
+      <trd>calculadora</trd>
+    </trdgrp>
+    <trdgrp lng="cs">
+      <trd>po&ccaron;&iacute;tac&iacute; stroj</trd>,
+      <trd>po&ccaron;&iacute;ta&ccaron;ka</trd>
+    </trdgrp>
+    <trd lng="en">calculator</trd>
+    <trd lng="es">calculadora</trd>
+    <trd lng="fr">calculateur</trd>
+    <trd lng="hu">sz&aacute;mol&oacute;g&eacute;p</trd>
+    <trd lng="nl">rekenmachine</trd>
+    <trdgrp lng="pl">
+      <trd>liczyd&lstroke;o</trd>,
+      <trd>kalkulator</trd>,
+      <trd>maszyna <ind>licz&aogonek;ca</ind></trd>
+    </trdgrp>
+    <trd lng="ro">calculator</trd>
+    <trd lng="ru">&c_k;&c_a;&c_l;&c_mol;&c_k;&c_u;&c_l;&c_ja;&c_t;&c_o;&c_r;</trd>
+    <trdgrp lng="sk">
+      <trd>kalkula&ccaron;ka</trd>,
+      <trd>po&ccaron;&iacute;tac&iacute; stroj</trd>
+    </trdgrp>
   </snc>
-  <trd lng="be">&c_k;&c_a;&c_l;&c_mol;&c_k;&c_u;&c_l;&c_ja;&c_t;&c_a;&c_r;</trd>
-  <trd lng="bg">&c_k;&c_a;&c_l;&c_k;&c_u;&c_l;&c_a;&c_t;&c_o;&c_r;</trd>
-  <trdgrp lng="ca">
-    <trd>calculador</trd>,
-    <trd>calculadora</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>po&ccaron;&iacute;tac&iacute; stroj</trd>,
-    <trd>po&ccaron;&iacute;ta&ccaron;ka</trd>
-  </trdgrp>
-  <trd lng="en">calculator</trd>
-  <trd lng="es">calculadora</trd>
-  <trd lng="fr">calculateur</trd>
-  <trd lng="hu">sz&aacute;mol&oacute;g&eacute;p</trd>
-  <trd lng="nl">rekenmachine</trd>
-  <trdgrp lng="pl">
-    <trd>liczyd&lstroke;o</trd>,
-    <trd>kalkulator</trd>,
-    <trd>maszyna <ind>licz&aogonek;ca</ind></trd>
-  </trdgrp>
-  <trd lng="ro">calculator</trd>
-  <trd lng="ru">&c_k;&c_a;&c_l;&c_mol;&c_k;&c_u;&c_l;&c_ja;&c_t;&c_o;&c_r;</trd>
-  <trdgrp lng="sk">
-    <trd>kalkula&ccaron;ka</trd>,
-    <trd>po&ccaron;&iacute;tac&iacute; stroj</trd>
-  </trdgrp>
+  <snc mrk="kalkul.0ilo.nombrilo">
+    <dif>
+      Aparato por a&ubreve;tomate nombri ion; <ref cel="nombr.0ilo.TEK">nombrilo</ref>:
+      <ekz>
+        &scirc;ia <ind>elektro<tld/>ilo</ind> montris, ke monate &scirc;i subite eluzis tiom da kurento, kiom
+        &scirc;i kutime anta&ubreve;e eluzadis dum la jaro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="https://www.monato.be/2005/008559.php"
+              >Pri la aferoj misteraj</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+        <trd lng="de">Stromz&auml;hler</trd>
+      </ekz>
+      <ekz>
+        <ind>balotilo-<tld/>ilo</ind>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2011/010372.php"
+              >La venkanto heredos &ccirc;ion ...</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+        <trd lng="de">Wahlmaschine</trd>
+      </ekz>
+    </dif>
+    <trd lng="de">Z&auml;hler</trd>
+  </snc>
 </drv>
 
 <drv mrk="kalkul.al0i">
@@ -857,15 +937,22 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Aldoni per <tld/>o:
+      Aldoni per <tld/>o; <ref tip="sin" cel="adici.0i">adicii</ref>:
       <ekz>
-        li timas, ke oni al<tld/>os lin mem al la nombro de
-        tiuj malsa&gcirc;uloj<fnt>Z</fnt>.
+        li timas, ke oni iel al<tld/>os lin mem al la nombro de tiuj malsa&gcirc;uloj
+        <fnt>
+          <bib>EE</bib>
+          <lok>I</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="ca">
       <trd>afegir</trd>,
       <trd>incorporar</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>hinzurechnen</trd>,
+      <trd>addieren</trd>
     </trdgrp>
     <trdgrp lng="es">
       <trd>a&ntilde;adir</trd>,
@@ -884,15 +971,52 @@
   </snc>
   <snc>
     <dif>
-      Atribui, imputi:
+      <ref tip="super" cel="atribu.0i">Atribui</ref>, <ref tip="super" cel="imput.0i">imputi</ref>:
       <ekz>
-        je la demando, al kiu popolo oni al<tld/>as min,
-        mi respondas<fnt>Z</fnt>...
+        mi al<tld/>os vin al la filoj, kaj donos al vi la &ccirc;arman landon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 3:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al tiu kategorio de emancipitinoj al<tld/>is sin anka&ubreve; la du virgulinoj sur la
+        korto
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Du pavimbatiloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u oni ne povus al<tld/>i al li &ccirc;iujn tiujn brikojn kaj pecojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        mi al<tld/>as min al mia nacio ne en senco &scirc;ovinista
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post pliaj dudekkvin jaroj da laboro kaj &scirc;parado mi povus al<tld/>i min kun
+        certa fiero al la suba tavolo de la meza klaso
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 1</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="ca">
       <trd>atribuir</trd>,
       <trd>imputar</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>zurechnen</trd>,
+      <trd><ind>z&auml;hlen</ind> zu</trd>
     </trdgrp>
     <trdgrp lng="es">
       <trd>atribuir</trd>,
@@ -931,7 +1055,21 @@
       <ekz>
         ni kunmetas la kalendaron kaj anta&ubreve;<tld/>as
         la estontajn fenomenojn sur la &ccirc;ielo
-        <fnt><bib>Far3</bib><lok>&ccirc;ap. 9</lok></fnt>.
+        <fnt><bib>Far3</bib><lok>&ccirc;ap. 9</lok></fnt>;
+      </ekz>
+      <ekz>
+        li rigarde sekvis la dancon de la ne&gcirc;eroj kaj provis anta&ubreve;<tld/>i, kie ili falos
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Heredanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni neniam povas anta&ubreve;<tld/>i, kio venos
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La najtingalo</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -946,6 +1084,7 @@
     <trd>preveure</trd>,
     <trd>predir</trd>
   </trdgrp>
+  <trd lng="de">vorausbrechnen</trd>
   <trdgrp lng="es">
     <trd>prever</trd>,
     <trd>predecir</trd>
@@ -968,14 +1107,44 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Depreni de konto:
+      <ref tip="super" cel="pren.de0i">Depreni</ref> de nombro, de konto:
       <ekz>
-        de<tld/>i la rabaton.
+        de<tld/>i la rabaton;
+      </ekz>
+      <ekz>
+        por <nom>Selma</nom> kaj <nom>Eskil</nom> li de<tld/>is kelkmil kronojn, kiujn ili povos ricevi
+        la&ubreve;bezone a&ubreve; kiam li mortos
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Sia propra mastro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur la angulo de dormanta strato <nom>Ivagin</nom> adia&ubreve;is la kuniranton kaj komencis
+        de<tld/>i la domojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        do la metodo estas ekonomia, se oni rajtas de<tld/>i la fiksitan CO<sub>2</sub> de la
+        pagenda eliga&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Fu&szlig;</aut>
+          <vrk><url ref="https://www.monato.be/2011/010273.php"
+              >Verdigu la dezertojn!</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="kalkul.el0i">el<tld/>i</ref>,
-      <ref cel="subtra.0i">subtrahi</ref>.
+      <ref cel="kalkul.el0i.dekalkuli">elkalkuli<sncref/></ref>,
+      <ref cel="subtra.0i">subtrahi</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="krement.de0i">dekrementi</ref>,
+      <ref cel="rabat.0i">rabati</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_l;&c_ib;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -986,6 +1155,10 @@
   <trdgrp lng="cs">
     <trd>ode&ccaron;&iacute;st</trd>,
     <trd>odpo&ccaron;&iacute;tat</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>abziehen <klr>(subtrahieren)</klr></trd>,
+    <trd>herunterz&auml;hlen</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>descontar</trd>,
@@ -1165,7 +1338,7 @@
       <tld lit="K"/>i erare; mistaksi:
       <ekz>
         &ccirc;u mi vere tute precize scias, ke estas cent kvardek kvar pecetoj, a&ubreve; &ccirc;u mi
-        evenutale mis<tld/>is
+        eventuale mis<tld/>is
         <fnt>
           <bib>Mortul&Scirc;ip</bib>
         </fnt>;
@@ -1423,6 +1596,9 @@
 </art>
 <!--
 $Log$
+versio 1.47 2022/02/24 12:45:56
+Wolfram Diestel: ~ema..de~i: ekz-oj, ref-oj, trd de; ~ilo: +snc nombrilo
+
 versio 1.46 2022/02/23 17:30:00
 Wolfram Diestel: ~o: +snc bilanco, -snc konto, atendo, koncepto; ekz-oj, ref-oj
 
@@ -1442,8 +1618,5 @@ Revision 1.39  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.38  2014/02/04 21:10:12  revo
-Jeromo Vasxe: + ~ema
-
-Revision 1.37  2013/09/21 20:10:12  revo
 -->
 </vortaro>
