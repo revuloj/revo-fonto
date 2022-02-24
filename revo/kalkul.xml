@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kalkul.xml,v 1.47 2022/02/24 12:45:56 revo Exp $">
+<art mrk="$Id: kalkul.xml,v 1.48 2022/02/24 15:30:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kalkul</rad>/i <fnt><bib>PV</bib></fnt>
@@ -1107,7 +1107,8 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      <ref tip="super" cel="pren.de0i">Depreni</ref> de nombro, de konto:
+      <ref tip="super" cel="pren.de0i">Depreni</ref> de nombro, de konto;
+      <ref tip="sin" cel="subtra.0i">subtrahi</ref>:
       <ekz>
         de<tld/>i la rabaton;
       </ekz>
@@ -1138,13 +1139,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="kalkul.el0i.dekalkuli">elkalkuli<sncref/></ref>,
-      <ref cel="subtra.0i">subtrahi</ref>
-    </refgrp>
     <refgrp tip="vid">
       <ref cel="krement.de0i">dekrementi</ref>,
-      <ref cel="rabat.0i">rabati</ref>
+      <ref cel="rabat.0i">rabati</ref>,
+      <ref cel="redukt.0i.malgrandigi">redukti<sncref/></ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_l;&c_ib;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -1181,38 +1179,51 @@
 <drv mrk="kalkul.el0i">
   <kap>el<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="kalkul.el0i.dekalkuli">
-    <ref tip="dif" cel="kalkul.de0i">de<tld/>i</ref>
-    <trd lng="be">&c_a;&c_d;&c_l;&c_ib;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
-    <trdgrp lng="ca">
-      <trd>descomptar</trd>,
-      <trd>suprimir</trd>
-    </trdgrp>
-    <trdgrp lng="es">
-    <trd>descontar</trd>,
-    <trd>restar</trd>,
-    <trd>sustraer</trd>
-  </trdgrp>
-    <trdgrp lng="fr">
-      <trd>d&eacute;falquer</trd>,
-      <trd>retrancher<klr tip="ind"> (par le calcul)</klr></trd>,
-      <trd>soustraire<klr tip="ind"> (&agrave; un nombre)</klr></trd>
-    </trdgrp>
-    <trd lng="hu">lesz&aacute;m&iacute;t</trd>
-    <trd lng="nl">aftrekken</trd>
-    <trd lng="pl">odlicza&cacute;</trd>
-    <trd lng="ru">&c_o;&c_t;&c_ch;&c_i;&c_s;&c_l;&c_i;&c_t;&c_mol;<klr tip="amb">
-    (&c_d;&c_je;&c_n;&c_mol;&c_g;&c_i;)</klr></trd>
-  </snc>
   <snc mrk="kalkul.el0i.tutkalkuli">
     <dif>
-      Tute nombri a&ubreve; <tld/>i nenion preterlasante:
+      Tute <tld/>i nenion preterlasante:
       <ekz>
         Mia bu&scirc;o rakontos Vian justecon, &Ccirc;iutage Vian
-        helpon, &Ccirc;ar mi
-        ne
-        povus &ccirc;ion el<tld/>i
+        helpon, &Ccirc;ar mi ne povus &ccirc;ion el<tld/>i
         <fnt><bib>MT</bib> <lok>&Psa; 71:15</lok></fnt>.
+      </ekz>
+      <ekz>
+        in&gcirc;enieroj esploris la aferon kaj el<tld/>is, ke tio estas tre bona afero
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        profesoro <nom>Bucher</nom> el Lejpcigo el<tld/>is la rilatan nombron de la viroj kaj
+        virinoj en E&ubreve;ropo
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Leibniz</nom> <klr>[&#8230;]</klr> el<tld/>is <klr>[&#8230;]</klr> ke el 23 literoj oni povas
+        formi pli ol 25&#8239;852 trilionojn da diversaj vortoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kia plezuro de la &ccirc;aso estas el<tld/>i &ccirc;iun sekvan pa&scirc;on de la viktimo
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li intencis <klr>[&#8230;]</klr> el<tld/>i tion, kion la dioj ordonis ka&scirc;i anta&ubreve; la
+        homaj okuloj
+        <fnt>
+          <bib>SatirRak</bib>
+          <lok>Pythagoras</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -1241,6 +1252,72 @@
       <trd>&c_r;&c_a;&c_s;&c_ch;&c_i;&c_s;&c_l;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+<!--
+  <snc mrk="kalkul.el0i.dekalkuli">
+    <ref tip="dif" cel="kalkul.de0i">de<tld/>i</ref>
+    <trd lng="be">&c_a;&c_d;&c_l;&c_ib;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trdgrp lng="ca">
+      <trd>descomptar</trd>,
+      <trd>suprimir</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>descontar</trd>,
+      <trd>restar</trd>,
+      <trd>sustraer</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>d&eacute;falquer</trd>,
+      <trd>retrancher<klr tip="ind"> (par le calcul)</klr></trd>,
+      <trd>soustraire<klr tip="ind"> (&agrave; un nombre)</klr></trd>
+    </trdgrp>
+    <trd lng="hu">lesz&aacute;m&iacute;t</trd>
+    <trd lng="nl">aftrekken</trd>
+    <trd lng="pl">odlicza&cacute;</trd>
+    <trd lng="ru">&c_o;&c_t;&c_ch;&c_i;&c_s;&c_l;&c_i;&c_t;&c_mol;<klr tip="amb">
+    (&c_d;&c_je;&c_n;&c_mol;&c_g;&c_i;)</klr></trd>
+  </snc>
+-->
+  <snc mrk="kalkul.el0i.pagi">
+    <dif>
+      Prezenti &ccirc;iujn unu post alia nombrante:
+      <ekz>
+        <klr>[li]</klr> tuj el<tld/>is al la vila&gcirc;ano tricent rublojn, kiujn lia
+        kunparolanto prenis
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ordonu el<tld/>i al li kvin mil sestercojn
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej uzataj el tiuj &ccirc;i okulakvoj estas: flava adstringa okulakvo a&ubreve; safrana
+        tinkturo de opio<klr>[&#8230;]</klr>, kupro aluna, zinko sulfura, <klr>[&#8230;]</klr>,
+        plue aluno, tanino, bora acido <klr>[&#8230;]</klr>, ni el<tld/>is tiom da ili, &ccirc;ar
+        <klr>[&#8230;]</klr> oni ofte devas &scirc;an&gcirc;i la rimedojn
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de 1817 &gcirc;is 1926 sciencistoj el<tld/>is 6 pandemiojn de &hcirc;olero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2010/010071.php"
+              >Antikva, sed ankora&ubreve; malica gasto</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">ausz&auml;hlen</trd>
+  </snc>
   <trd lng="cs">propo&ccaron;&iacute;tat</trd>
   <trd lng="sk">prepo&ccaron;&iacute;ta&tcaron;</trd>
 </drv>
@@ -1248,54 +1325,124 @@
 <drv mrk="kalkul.en0i">
   <kap>en<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="kalkul.en0i.inkluzivigi">
     <dif>
-      Enhavi, enteni:
+      <ref tip="super" cel="inkluz.0igi">Inkluzivigi</ref>, konsideri en <tld/>o:
       <ekz>
-        la federacio en<tld/>as dek grupojn;
+        se tamen li <klr>[&#8230;]</klr> &scirc;uldas ion al vi, tion en<tld/>u en mian konton
+        <fnt>
+          <bib>NT</bib>
+          <lok>Filemon 1:18</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la kataluna literaturo estas tiu, kiu en<tld/>as
-        plej abundajn tradukojn;
+        en la kostojn de multlingveco oni devus en<tld/>i anka&ubreve; aliajn elspezojn, kiuj
+        ne rilatas rekte al la tradukado
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        en<tld/>ante ion.
+        se oni en<tld/>as &ccirc;iujn voj-disbran&ccirc;i&gcirc;ojn, li trovi&gcirc;as interne de &ccirc;i tiu
+        perimetro
+        <fnt>
+          <bib>ChR</bib>
+          <lok>Stefano fu&gcirc;as de la polico</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni devas en<tld/>i la belan veteron, kiu logas &ccirc;iujn rekte al la malbordo
+        <fnt>
+          <bib>KrM</bib>
+          <lok>25. Multe Da Spirito Sed Neniom Da Profito.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la eldono de 1931 fakte jam estis la sesa, se oni en<tld/>as la ruslingvajn
+        versiojn, el kiuj la unua aperis jam en 1911
+        <fnt>
+          <bib>Monato</bib>
+          <aut>W. M. A. De Smet</aut>
+          <vrk><url ref="https://www.monato.be/2004/008418.html"
+              >Edward Croegaert, la forgesita lingvokreanto</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <trd lng="de">einberechnen</trd>
+  </snc>
+  <snc mrk="kalkul.en0i.enteni">
+    <dif>
+      <ref tip="super" cel="hav.en0i.enSi">Enhavi</ref>, 
+      <ref tip="super" cel="ten.en0i">enteni</ref>:
+      <ekz>
+        <klr>[ili]</klr> havas la solan vendrajton por Britujo, sed tiu rajto ne
+        en<tld/>is Irlandon
+        <fnt>
+          <bib>KrM</bib>
+          <lok>24. Per Flugiloj De Facila Vento.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en preska&ubreve; &ccirc;iuj distriktoj ekzistas &scirc;intoisma templo, kaj tiu en<tld/>as la
+        lo&gcirc;antojn kiel siajn kredantojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url ref="https://www.monato.be/2008/009633.php"
+              >Religio en Japanio. &Ccirc;u budhismo?</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ra&ubreve;misma intelektularo en<tld/>is la plej valorajn sociologojn de la 80aj
+        jaroj en Esperantio: inter ili <nom>Jerzy Leyk</nom> kaj <nom>S&aacute;ndor R&eacute;v&eacute;sz</nom>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 5 (55)</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="kun.0e0">kune kun</ref>,
-      <ref cel="plus.0">plus</ref>.
+      <ref cel="plus.0">plus</ref>
     </refgrp>
+    <trd lng="be">&c_u;&c_t;&c_r;&c_y;&c_m;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trdgrp lng="ca">
+      <trd>constar de</trd>,
+      <trd>comptar amb</trd>
+    </trdgrp>
+    <trdgrp lng="cs">
+      <trd>zapo&ccaron;&iacute;st</trd>,
+      <trd>zapo&ccaron;&iacute;tat</trd>,
+      <trd>zapo&ccaron;&iacute;t&aacute;vat</trd>,
+      <trd>za&uacute;&ccaron;tovat</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>einrechnen</trd>,
+      <trd>einbeziehen</trd>,
+      <trd>umfassen</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>compter<klr tip="ind"> (comporter)</klr></trd>,
+      <trd>comprendre<klr tip="ind"> (comporter)</klr></trd>,
+      <trd>comporter</trd>,
+      <trd>d&eacute;tenir<klr tip="ind"> (comporter)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>tartalmaz</trd>,
+      <trd>mag&aacute;ban foglal</trd>
+    </trdgrp>
+    <trd lng="nl">bevatten</trd>
+    <trd lng="pl">zalicza&cacute;</trd>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_o;&c_d;&c_je;&c_r;&c_zh;&c_a;&c_t;&c_mol;<klr tip="amb"> (&c_v; &c_s;&c_je;&c_b;&c_je;)</klr></trd>,
+      <trd>&c_v;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_mol;<klr tip="amb">
+      (&c_v; &c_s;&c_je;&c_b;&c_ja;)</klr></trd>
+    </trdgrp>
+    <trd lng="sk">zapo&ccaron;&iacute;ta&tcaron;</trd>
   </snc>
-  <trd lng="be">&c_u;&c_t;&c_r;&c_y;&c_m;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trdgrp lng="ca">
-    <trd>constar de</trd>,
-    <trd>comptar amb</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>zapo&ccaron;&iacute;st</trd>,
-    <trd>zapo&ccaron;&iacute;tat</trd>,
-    <trd>zapo&ccaron;&iacute;t&aacute;vat</trd>,
-    <trd>za&uacute;&ccaron;tovat</trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>compter<klr tip="ind"> (comporter)</klr></trd>,
-    <trd>comprendre<klr tip="ind"> (comporter)</klr></trd>,
-    <trd>comporter</trd>,
-    <trd>d&eacute;tenir<klr tip="ind"> (comporter)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>tartalmaz</trd>,
-    <trd>mag&aacute;ban foglal</trd>
-  </trdgrp>
-  <trd lng="nl">bevatten</trd>
-  <trd lng="pl">zalicza&cacute;</trd>
-  <trdgrp lng="ru">
-    <trd>&c_s;&c_o;&c_d;&c_je;&c_r;&c_zh;&c_a;&c_t;&c_mol;<klr tip="amb"> (&c_v; &c_s;&c_je;&c_b;&c_je;)</klr></trd>,
-    <trd>&c_v;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_mol;<klr tip="amb">
-    (&c_v; &c_s;&c_je;&c_b;&c_ja;)</klr></trd>
-  </trdgrp>
-  <trd lng="sk">zapo&ccaron;&iacute;ta&tcaron;</trd>
 </drv>
 
 
@@ -1304,7 +1451,15 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Kunigi en <tld/>ado.
+      Kunigi en <tld/>ado:
+      <ekz>
+        mi kalkulas la korvojn, kiuj staras sur la tegmento <klr>[&#8230;]</klr> &mdash; kiom do vi
+        kun<tld/>is <klr>[&#8230;]</klr>? &mdash; dek tri, mi respondis
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_l;&c_ib;&c_ch;&c_y;&c_c;&c_mol;
@@ -1314,6 +1469,10 @@
     <trd>conjuntar</trd>
   </trdgrp>
   <trd lng="cs">se&ccaron;&iacute;tat</trd>
+  <trdgrp lng="de">
+    <trd>zusammenz&auml;hlen</trd>,
+    <trd>errechnen</trd>
+  </trdgrp>
   <trd lng="es">agregar</trd>
   <trdgrp lng="hu">
     <trd>&ouml;sszesz&aacute;mol</trd>,
@@ -1393,7 +1552,33 @@
         <fnt><bib>Fab4</bib><lok>Anneto</lok></fnt>;
       </ekz>
       <ekz>
-        &scirc;i ne pri<tld/>is sian agon<fnt>Z</fnt>;
+        &scirc;i ne pri<tld/>is sian agon
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li mezuris fenestrojn kaj pordojn, notis kaj pri<tld/>is kaj fine reiris
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili pri<tld/>as siajn procentegojn &ccirc;e la altaro, ili genufleksas, por ke ili
+        povu bone etendi la trena&jcirc;on de sia vesto
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li prenis paperon kaj krajonon kaj komencis pri<tld/>i la produkteblon de la
+        bieno
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Kuni&gcirc;o</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mi &ccirc;iam agas orde, kun pripenso kaj <ind>pri<tld/>o</ind>
@@ -1419,7 +1604,10 @@
       <trd>prever</trd>,
       <trd>calcular</trd>
     </trdgrp>
-    <trd lng="de">durchrechnen</trd>
+    <trdgrp lng="de">
+      <trd>durchrechnen</trd>,
+      <trd>berechnen</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>calculer<klr tip="ind"> (peser les
       cons&eacute;quences)</klr></trd>,
@@ -1435,11 +1623,18 @@
   <snc mrk="kalkul.pri0i.nombri_homojn">
     <uzo tip="fak">BIB</uzo>
     <dif>
-      Nombri la homojn:
+      <ref tip="super" cel="nombr.0i.kalkuli">Nombri</ref> la homojn:
       <ekz>
         pri<tld/>u la tutan komunumon de la Izraelidoj la&ubreve; iliaj
         familioj
-        <fnt><bib>MT</bib><lok>&Nom; 1:2</lok></fnt>.
+        <fnt><bib>MT</bib><lok>&Nom; 1:2</lok></fnt>;
+      </ekz>
+      <ekz>
+        kiu povas pri<tld/>i, kiom da fojoj en sia vivo li rigardis funebran veston de
+        vidvino
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -1460,6 +1655,10 @@
     <trd>propo&ccaron;&iacute;tat</trd>,
     <trd>spo&ccaron;&iacute;tat</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>ermitteln</trd>,
+    <trd>errechnen</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>prepo&ccaron;&iacute;ta&tcaron;</trd>,
     <trd>spo&ccaron;&iacute;ta&tcaron;</trd>
@@ -1475,8 +1674,18 @@
       Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
       kiu sin bazas sur la nocioj <ref cel="difere2.0o">diferencialo</ref>
       kaj <ref cel="deriv.0ajxo.MAT">deriva&jcirc;o</ref>, kaj
-      okupi&gcirc;as
-      pri solvado de diferencialaj ekvacioj.
+      okupi&gcirc;as pri solvado de diferencialaj ekvacioj:
+      <ekz>
+        mi neniam sukcesis kompreni esotera&jcirc;ojn kiel <tld/>on diferencialan kaj
+        integralan
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="https://www.monato.be/2003/007921.html"
+              >Ho, mistera pi!</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="bg">&c_d;&c_i;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_n;&c_o; &c_s;&c_m;&c_ja;&c_t;&c_a;&c_n;&c_je;</trd>
@@ -1551,7 +1760,7 @@
       Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
       kiu okupi&gcirc;as pri modeligo de hazardo.
     </dif>
-    <ref tip="vid" cel="probab.0o.MAT">probablo.</ref>
+    <ref tip="vid" cel="probab.0o.MAT">probablo</ref>
   </snc>
   <trd lng="bg">&c_t;&c_je;&c_o;&c_r;&c_i;&c_ja; &c_n;&c_a; &c_v;&c_je;&c_r;&c_o;&c_ja;&c_t;&c_n;&c_o;&c_s;&c_t;&c_i;&c_t;&c_je;</trd>
   <trd lng="ca"><ind>c&agrave;lcul</ind> de probabilitats</trd>
@@ -1592,10 +1801,20 @@
   <trd lng="pl">odliczanie</trd>
   <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;
   &c_o;&c_t;&c_s;&c_ch;&c_je;&c_t;</trd>
+    <adm>
+      &Ccirc;ar retro- estas neoficiala afikso, tio fakte iru al aparta artikolo
+      retrokalkul/, sed necesas trovi plurajn uzekzemplojn.
+      Cetere trovi&gcirc;as parte sinonimaj &leftquot;dekalkulo&rightquot; (vd. supre "dekalkuli domojn")
+      kaj &leftquot;dekrementado&rightquot;.
+      <aut>WD</aut>
+    </adm>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.48 2022/02/24 15:30:50
+Wolfram Diestel: el~i..pri~i: ekz-oj, trd de; parta rearanĝo de snc-oj
+
 versio 1.47 2022/02/24 12:45:56
 Wolfram Diestel: ~ema..de~i: ekz-oj, ref-oj, trd de; ~ilo: +snc nombrilo
 
@@ -1615,8 +1834,5 @@ Revision 1.40  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.39  2015/06/29 16:33:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.38  2014/02/04 21:10:12  revo
 -->
 </vortaro>
