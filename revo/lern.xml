@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lern.xml,v 1.139 2022/02/26 17:26:22 revo Exp $">
+<art mrk="$Id: lern.xml,v 1.140 2022/02/26 20:27:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lern</rad>/i <fnt><bib>PV</bib></fnt>
@@ -539,6 +539,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>Lernangebot</trd>,
+    <trd>Lernf&auml;higkeit</trd>
+  </trdgrp>
   <trd lng="en">learnability</trd>
   <trd lng="es">facilidad de aprendizaje</trd>
   <trd lng="fr">facilit&eacute; d'apprentissage</trd>
@@ -643,20 +647,6 @@
         <fnt>
           <bib>ChL</bib>
           <lok>Noto De L&#8217; A&ubreve;toro</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        Internacia Alt<tld/>ejo de <nom>Helsing&oslash;r</nom>
-        <fnt>
-          <bib>EeP</bib>
-          <lok>Unua Parto</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la du teknikaj alt<tld/>ejoj de Prago (&ccirc;e&hcirc;a kaj germana)
-        <fnt>
-          <bib>EeP</bib>
-          <lok>Unua Parto</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -1164,7 +1154,7 @@
       interrompitan) &gcirc;is la fino:
       <ekz>
         mi militservis en Acoroj kaj tie plu lernetis per mendita
-        libro. Reveninte al la civila vivo, mi fin<tld/>is per
+        libro, reveninte al la civila vivo, mi fin<tld/>is per
         koresponda kurso
         <fnt>
           <aut>A. Martins&ndash;Tuv&aacute;lkin</aut>,
@@ -1215,7 +1205,7 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="lern.mal0i.perdi">
     <dif>
-      Perdi kapablon a&ubreve; scion iam <tld/>itan:
+      <ref tip="super" cel="perd.0i">Perdi</ref> kapablon a&ubreve; scion iam <tld/>itan:
       <ekz>
         sed la objektoj mirakle malaperis en lia korpo, kaj krome,
         Cirilo subite mal<tld/>is la grekan lingvon
@@ -1227,12 +1217,29 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">verlernen</trd>
     <trd lng="ru">&c_r;&c_a;&c_z;&c_u;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
     <trd lng="pl">oduczy&cacute; si&eogonek;</trd>
   </snc>
   <snc mrk="lern.mal0i.forigi">
     <dif>
-      Forigi misan, nedezirindan, malutilan scion a&ubreve; kutimi&gcirc;on:
+      <ref tip="super" cel="for.0igi">Forigi</ref> misan, nedezirindan, malutilan scion a&ubreve; kutimi&gcirc;on:
+      <ekz>
+        konvinko forlasas la menson <klr>[&#8230;]</klr> la&ubreve; onia volo, kiam oni mal<tld/>as
+        malvera&jcirc;on
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Tri</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel ajn mi klopodas mal<tld/>i, tamen <klr>[&#8230;]</klr> mi jam ne povas sufi&ccirc;e
+        perfekte forgesi
+        <fnt>
+          <bib>SatirRak</bib>
+          <lok>Honorigo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         de fu&scirc;verko vi povus <klr>[&#8230;]</klr> imite <tld/>i erarojn,
         kiujn vi poste devos pene mal<tld/>i
@@ -1242,11 +1249,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de"><klr>(falsch Gelerntes)</klr> korrigieren</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_t;&c_u;&c_ch;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
       <trd>&c_o;&c_t;&c_u;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
     </trdgrp>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="forges.0i.ne_memori">forgesi<sncref/></ref>
+  </refgrp>
   <trd lng="cs">zapom&iacute;nat nau&ccaron;en&eacute;</trd>
   <trd lng="es">desaprender</trd>
   <trd lng="fr">d&eacute;sappendre</trd>
@@ -1254,6 +1265,60 @@
   <trd lng="ro">dezv&abreve;&#539;a</trd>
   <trd lng="sk">zab&uacute;da&tcaron; nau&ccaron;en&eacute;</trd>
 </drv>
+
+<drv mrk="lern.alt0ejo">
+  <kap>
+    alt<tld/>ejo
+  </kap>
+  <snc>
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      Supera <tld/>ejo por studentoj, &ccirc;u <ref tip="sub" cel="univer2.0o">universitato</ref>, 
+      &ccirc;u te&hcirc;nika, arta ks:
+      <ekz>
+        Internacia Alt<tld/>ejo de <nom>Helsing&oslash;r</nom>
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        popola alt<tld/>ejo
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la du teknikaj alt<tld/>ejoj de Prago (&ccirc;e&hcirc;a kaj germana)
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Rabbi Abraham</nom> en la alt<tld/>ejo de Toledo sufi&ccirc;e fervore studis la Diajn le&gcirc;ojn
+        <fnt>
+          <bib>RBa</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pola sonis en <klr>[&#8230;]</klr> la Vilnaj alt<tld/>ejoj, kaj en domoj societaj
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Hochschule</trd>
+</drv>
+
+
+
+
+
 
 
 <drv mrk="lern.baz0ejo">
@@ -1268,6 +1333,13 @@
       depende je la landoj,
       post <ref tip="vid" cel="gxarde.infan0o.PED">infan&gcirc;ardeno</ref>,
       anta&ubreve; <ref tip="vid" cel="lern.mez0ejo.PED">mezlernejo</ref>:
+      <ekz>
+        venigi siajn infanojn al la baz<tld/>ejo
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+          <lok>2. Ligi-oravilli.</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         mi vivis harmonie en tiu elementa <tld/>ejo
         kie oni aplikis novajn, modernajn instrumetodojn
@@ -1320,16 +1392,28 @@
           <aut>Irina</aut>,
           <vrk>De mia persona partopreno nenio dependas</vrk>,
           <lok>en: Vivprotokoloj, 2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ministrejo pri edukado nuligis la suspendon, sed irigis la instruiston al la
+        mezgrada <tld/>ejo, kie li laboris anta&ubreve; 20 jaroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jo&atilde;o Jos&eacute; Santos</aut>
+          <vrk><url ref="https://www.monato.be/2007/009262.php"
+              >Diantoj ... kaj dornoj</url></vrk>
+          <lok>2007</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sub">
       <ref cel="gimnaz.0o.PED">gimnazio</ref>,
       <ref cel="kolegi.0o.PED">kolegio</ref>,
-<ref cel="lice.0o">liceo</ref>
+      <ref cel="lice.0o">liceo</ref>
     </refgrp>
   </snc>
   <trd lng="cs">st&rcaron;edn&iacute; &scaron;kola</trd>
+  <trd lng="de">MIttelschule</trd>
   <trd lng="es">escuela secundaria</trd>
   <trd lng="fr">&eacute;cole secondaire</trd>
   <trd lng="pl">szko&lstroke;a &sacute;rednia</trd>     
@@ -1343,6 +1427,13 @@
     <uzo tip="fak">PED</uzo>
     <dif>
       Persono <tld/>anta meme, sen helpo de instruisto:
+      <ekz>
+        lernolibro <klr>[&#8230;]</klr> por mem<tld/>antoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la instrumaterialo bone ta&ubreve;gas anka&ubreve; por mem<tld/>antoj
         <fnt>
@@ -1362,9 +1453,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="auxtod1.0o">a&ubreve;todidakto</ref>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_m;&c_a;&c_v;&c_u;&c_ch;&c_k;&c_a;</trd>
   <trd lng="cs">samouk</trd>
+  <trd lng="de">Autodidakt</trd>
   <trd lng="es">autodidacta</trd>
   <trd lng="id">autodidak</trd>
   <trd lng="pl"> samouk</trd>     
@@ -1403,6 +1496,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="auxtod1.0o">a&ubreve;todidakto</ref>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_m;&c_a;&c_v;&c_u;&c_ch;&c_k;&c_a;</trd>
   <trd lng="de">Autodidakt</trd>
@@ -1454,7 +1548,23 @@
     <dif>
       <tld lit="L"/>anto a&ubreve; <tld/>into en sama <tld/>ejo kiel alia homo:
       <ekz>
-        Kate ne estas populara inter siaj sam<tld/>ejanoj,
+        <nom>Edmond Privat</nom>, sam<tld/>ejano de <nom>Hodler</nom>, 
+        transprenis la prezidon de <nom>ICK</nom>
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi parolos al iu el niaj <ref cel="klas.sam0ano">samklasano</ref>j a&ubreve; sam<tld/>ejanoj, la tuta lernejo
+        ekscios <klr>[tion]</klr> kaj poste la gepatroj
+        <fnt>
+          <bib>Gerda</bib>
+          <lok>&Ccirc;apitro 19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Kate</nom> ne estas populara inter siaj sam<tld/>ejanoj,
         &ccirc;ar &scirc;i &ccirc;iam provas altrudi sian volon
         <fnt>
           <aut>Tatoeba</aut>,
@@ -1465,6 +1575,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Mitsch&uuml;ler</trd>
   <trdgrp lng="es">
     <trd>compa&ntilde;ero de colegio</trd>
   </trdgrp>
@@ -1551,6 +1662,9 @@
 </art>
 <!--
 $Log$
+versio 1.140 2022/02/26 20:27:36
+Wolfram Diestel: mal~i..sam~ejano: ekz-oj, ref-oj, trd de; +alt~ejo
+
 versio 1.139 2022/02/26 17:26:22
 Wolfram Diestel: ~ebleco, ~ejano,~ilo, el~i: ekz-oj, trd de
 
@@ -1570,8 +1684,5 @@ versio 1.57 2020/07/15 07:10:35
 Wolfram Diestel: +germ trd
 
 versio 1.56 2020/06/30 21:10:45
-Vito Redsky: +trd pl +trd ro  
-
-versio 1.55 2020/06/29 20:32:16
 -->
 </vortaro>
