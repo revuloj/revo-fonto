@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ring.xml,v 1.56 2022/01/01 12:45:59 revo Exp $">
+<art mrk="$Id: ring.xml,v 1.57 2022/03/13 11:34:08 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ring</rad>/o <fnt><bib>PV</bib></fnt>
@@ -62,8 +61,7 @@
         kun supera <tld/>o, <frm>&aring;</frm>
         <fnt>
           <aut>J. Wells</aut>
-          <vrk><url ref="https://www.phon.ucl.ac.uk/home/wells/dia/supersignoj.htm"
-              >Supersignoj, trasignoj kaj subsignoj</url></vrk>
+          <vrk><url ref="https://www.phon.ucl.ac.uk/home/wells/dia/supersignoj.htm">Supersignoj, trasignoj kaj subsignoj</url></vrk>
           <lok>1996-2000</lok>
         </fnt>.
       </ekz>
@@ -75,15 +73,15 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,&#8224;,×)">(<g>E</g>,&#8224;,×)</frm>,
-      ke <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm> estas
+      <frm am="(bb E,&#x2020;,&#xD7;)">(<g>E</g>,&#x2020;,&#xD7;)</frm>,
+      ke <frm am="(bb E,&#x2020;)">(<g>E</g>,&#x2020;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">×</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">&#xD7;</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al
-      <frm am="&#8224;">&#8224;</frm>:
+      <frm am="&#x2020;">&#x2020;</frm>:
       <ekz>
-        la <tld/>o <frm am="(bb E^(bb E),+,circ)">(<g>E</g><sup><g>E</g></sup>,+,&#9702;)</frm> de la
+        la <tld/>o <frm am="(bb E^(bb E),+,circ)">(<g>E</g><sup><g>E</g></sup>,+,&#x25E6;)</frm> de la
         <ref cel="bild.0igo.MAT">bildigoj</ref> de komuteca grupo
         <frm am="(bb E,+)">(<g>E</g>,+)</frm> al si mem;
       </ekz>
@@ -183,8 +181,7 @@
 
 <drv mrk="ring.0ego">
   <kap><ofc>*</ofc><tld/>ego <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5185">ring'eg'</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5185">ring'eg'</url></lok></fnt></kap>
   <snc mrk="ring.0ego.KOMUNE">
     <dif>
       Granda <tld/>o.
@@ -220,17 +217,17 @@
   <snc mrk="ring.sub0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,×)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#x2020;,xx)">(<g>E</g>,&#x2020;,&#xD7;)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,×<sub>A</sub>)</frm>, ke
-      <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm>,
-      <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
+      <frm am="(bb A,&#x2020;_A,xx_A)">(<g>A</g>,&#x2020;<sub>A</sub>,&#xD7;<sub>A</sub>)</frm>, ke
+      <frm am="bb A sub bb E"><g>A</g>&#x2282;<g>E</g></frm>,
+      <frm am="(bb A,&#x2020;_A)">(<g>A</g>,&#x2020;<sub>A</sub>)</frm> estas
       <ref cel="grup.sub0o">subgrupo</ref> de 
-      <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
-      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>×<sub>A</sub><k>y</k> = <k>x</k>×<k>y</k>&#8712;A</frm>
+      <frm am="(bb E,&#x2020;)">(<g>E</g>,&#x2020;)</frm>
+      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>&#xD7;<sub>A</sub><k>y</k> = <k>x</k>&#xD7;<k>y</k>&#x2208;A</frm>
       por
       &ccirc;iuj
-      <frm am="x,y in A"><k>x</k>, <k>y</k>&#8712;A</frm>:
+      <frm am="x,y in A"><k>x</k>, <k>y</k>&#x2208;A</frm>:
       <ekz>
         la ringo de entjeroj estas subringo de la ringo
         de reeloj.
@@ -309,6 +306,7 @@
   <trd lng="ru">&c_b;&c_r;&c_a;&c_s;&c_l;&c_je;&c_t;</trd>
   <trd lng="sk">n&aacute;ramok</trd>
   <trd lng="tr">bilezik</trd>
+  <trd lng="uk">&#x431;&#x440;&#x430;&#x441;&#x43B;&#x435;&#x442;</trd>
 </drv>
 
 <drv mrk="ring.euxklida0o">
@@ -322,17 +320,16 @@
       <frm am="bb R"><g>R</g></frm>,
       konsiderata kune kun tia bildigo <frm am="phi">&phi;</frm>, ke al &ccirc;iu
       nenula elemento <frm am="a"><k>a</k></frm> &gcirc;i asocias entjeron
-      <frm am="phi(a) ge 0">&phi;(<k>a</k>) &#8805; 0</frm>, kaj ke
-      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>,
+      <frm am="phi(a) ge 0">&phi;(<k>a</k>) &#x2265; 0</frm>, kaj ke
+      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>,
       se <frm am="a"><k>a</k></frm> estas divizoro de 
       <frm am="b"><k>b</k></frm>, kun
       la
       aldona kondi&ccirc;o, ke por &ccirc;iu paro
       <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun nenula 
       <frm am="b"><k>b</k></frm> ekzistas
-      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx
-      q+r"><k>a</k> = <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
-      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
+      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx       q+r"><k>a</k> = <k>b</k>&#xD7;<k>q</k>+<k>r</k></frm> kaj
+      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#x2264; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
         <klr>(<frm am="phi(a) = |a|">&phi;(<k>a</k>) =
@@ -414,8 +411,7 @@
         besto, sed ja enhavas multe da informoj pri klimato en la pasinteco
         <fnt>
           <aut>Oliver Kim</aut>
-          <vrk><url ref="https://www.monato.be/2014/011359.php?p"
-              >Rekorda konkulo</url></vrk>
+          <vrk><url ref="https://www.monato.be/2014/011359.php?p">Rekorda konkulo</url></vrk>
           <lok>Monato, 2014-10</lok>
         </fnt>.
       </ekz>
@@ -436,7 +432,7 @@
       <ref tip="super" cel="bracel.0o">Braceleto</ref> portata &ccirc;e
       kruro:
       <ekz>
-        krur<tld/>o <klr>[&#8230;]</klr> por rajdistoj
+        krur<tld/>o <klr>[&#x2026;]</klr> por rajdistoj
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=34564">Ringo</url></lok>
@@ -467,9 +463,9 @@
       de &gcirc;i)</klr>
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
       de <frm am="bb R"><g>R</g></frm> rilate al <frm am="bb I"><g>I</g></frm>, provizita per la 
-      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)×(<k>b</k>+<g>I</g>)
+      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)&#xD7;(<k>b</k>+<g>I</g>)
       =
-      (<k>a</k>×<k>b</k>)+<g>I</g></frm>; 
+      (<k>a</k>&#xD7;<k>b</k>)+<g>I</g></frm>; 
       simb. <frm am="bb R//bb I"><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
