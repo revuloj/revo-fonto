@@ -1,45 +1,81 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bombar.xml,v 1.22 2022/03/14 09:30:32 revo Exp $">
+<art mrk="$Id: bombar.xml,v 1.23 2022/03/15 06:34:35 revo Exp $">
   <kap>
     <ofc>1</ofc>
     <rad>bombard</rad>/i <fnt><bib>PV</bib></fnt>
   </kap>
-  <drv mrk="bombar.0i">
-    <kap><tld/>i</kap>
-    <gra><vspec>tr</vspec></gra>
-    <snc mrk="bombar.0i.MIL">
-      <uzo tip="fak">MIL</uzo>
-      <dif>
-        Da&ubreve;re kanoni ion.
-      </dif>
-      <trd lng="de">beschie&szlig;en</trd>
-      <trdgrp lng="it">
-        <trd>cannoneggiare</trd>,
-        <trd>bersagliare</trd>
-      </trdgrp>
-      <trdgrp lng="pl">
-        <trd>bombardowa&cacute;</trd>,
-        <trd>prowadzi&cacute; <ind>ostrza&lstroke;</ind></trd>
-      </trdgrp>
-    </snc>
-    <snc mrk="bombar.0i.FIG">
-      <uzo tip="stl">FIG</uzo>
-      <dif>
-        Ripete senpaciencige direkti postulojn al iu:
-        <ekz><tld/>i iun per leteroj;</ekz>
-        <ekz>
-          sub la konstanta <tld/>ado de tiuj personoj, kiuj postulis
-          &scirc;an&gcirc;ojn, mi fine cedis<fnt>Z</fnt>.
-        </ekz>
-      </dif>
-      <trdgrp lng="it">
-        <trd>bombardare<klr> (fig.)</klr></trd>,
-        <trd>bersagliare</trd>
-      </trdgrp>
-      <trd lng="pl">bombardowa&cacute;</trd>
-    </snc>
+<drv mrk="bombar.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="bombar.0i.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      Da&ubreve;re <ref tip="super" cel="kanon1.0i">kanoni</ref> ion:
+      <ekz>
+        ili <tld/>os la urbon, se oni tu&scirc;os al la studentoj e&ccirc; unu haron
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la blankuloj <tld/>as ilin de aeroplanoj, kanonas de la maro per la alianca
+        &scirc;iparo, ver&scirc;as sur ilin murdan pluvegon de &ccirc;iuj flankoj
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+          <lok>3. La e&ubreve;rope edukita homo.</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="bomb.0i">bombi</ref>,
+      pri<ref cel="paf.0i.ARM">pafi</ref>
+    </refgrp>
+    <trd lng="de">beschie&szlig;en</trd>
+    <trdgrp lng="it">
+      <trd>cannoneggiare</trd>,
+      <trd>bersagliare</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>bombardowa&cacute;</trd>,
+      <trd>prowadzi&cacute; <ind>ostrza&lstroke;</ind></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="bombar.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Ripete senpaciencige direkti postulojn al iu:
+      <ekz>
+        la ru&gcirc;i&gcirc;o, kiu kovris lian viza&gcirc;on <klr>[&#8230;]</klr> estis e&ccirc; pala kompare al tiu,
+        kiu <tld/>is lin je tiu momento
+        <fnt>
+          <bib>KKl</bib>
+          <lok>&Ccirc;apitro 5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bazarulo <klr>[&#8230;]</klr> trovis sin foje sub la <tld/>ado de plendantino
+        <fnt>
+          <bib>KrM</bib>
+          <lok>16. Malsa&gcirc;uloj Kreskas Mem, Sen Plugo Kaj Sem&#8217;</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        individuaj esperantistoj <tld/>as anojn de la E&ubreve;ropa Parlamento per petleteroj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 6 (68)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="it">
+      <trd>bombardare<klr> (fig.)</klr></trd>,
+      <trd>bersagliare</trd>
+    </trdgrp>
+    <trd lng="pl">bombardowa&cacute;</trd>
+  </snc>
   <trd lng="be">&c_b;&c_a;&c_m;&c_b;&c_a;&c_r;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
     <trd>bombardovat</trd>,
@@ -49,19 +85,22 @@
   <trd lng="en">bombard</trd>
   <trd lng="es">bombardear</trd>
   <trd lng="fr">bombarder</trd>
-  <trd lng="he">&#x5DC;&#x5B0;&#x5D4;&#x5B7;&#x5E4;&#x5B0;&#x5E6;&#x5B4;&#x5D9;&#x5E5;</trd>
+  <trd lng="he">&lamed;&#1456;&he;&#1463;&pe;&#1456;&tsadi;&#1460;&yod;&ftsadi;</trd>
   <trd lng="ru">&c_b;&c_o;&c_m;&c_b;&c_a;&c_r;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>bombardova&tcaron;</trd>,
-    <trd>ostre&#x13E;ova&tcaron;</trd>
+    <trd>ostre&lcaron;ova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_b;&#x43E;&#x43C;&c_b;&c_a;&c_r;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_b;&c_o;&c_m;&c_b;&c_a;&c_r;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2022/03/15 06:34:35
+Wolfram Diestel: +ekz, ref
+
 versio 1.22 2022/03/14 09:30:32
 Wolfram Diestel: kor. trd
 
@@ -81,8 +120,5 @@ Revision 1.14  2009/03/20 17:30:41  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.13  2008/08/23 16:31:14  revo
-Russ Williams: trd +en
-
-Revision 1.12  2003/12/01 17:30:49  revo
 -->
 </vortaro>
