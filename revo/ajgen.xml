@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ajgen.xml,v 1.28 2021/05/27 07:38:24 revo Exp $">
+<art mrk="$Id: ajgen.xml,v 1.29 2022/03/16 15:54:20 revo Exp $">
 <kap>
   <rad>ajgen</rad>/o <fnt><bib>MatVort</bib></fnt>,
   <var><kap><rad>ejgen</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
@@ -68,6 +67,10 @@
     <trd>vlastn&eacute; &ccaron;&iacute;slo</trd>,
     <trd>vlastn&aacute; <klr>(charakteristick&aacute;)</klr> hodnota</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x43B;&#x430;&#x441;&#x43D;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x432;&#x43B;&#x430;&#x441;&#x43D;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x43E;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ajgen.0a">
@@ -96,8 +99,7 @@
         <ref cel="involu1.0o">involucio</ref>,
         tiam <frm am="lambda^2=1">&lambda;<sup>2</sup> = 1</frm>;
       </ekz><ekz>
-        en la spaco de senfine <ref
-        cel="deriv.0i.MAT">deriveblaj</ref> reelaj
+        en la spaco de senfine <ref cel="deriv.0i.MAT">deriveblaj</ref> reelaj
         funkcioj, derivado estas endomorfio, rilate al kiu &ccirc;iu reelo
         estas <tld/>a <klr>( &ccirc;ar se 
           <frm am="f_lambda(x)=e^(lambda x)">f<sub>&lambda;</sub>(x) =
@@ -115,12 +117,10 @@
         rilate al <ref cel="endomo.0o">endomorfio</ref>
         <frm am="f">f</frm> 
         en &gcirc;i)</klr>
-      Egala al la <ref tip="super"
-      cel="kern.0o.homomorfio">kerno</ref> de
+      Egala al la <ref tip="super" cel="kern.0o.homomorfio">kerno</ref> de
       <frm am="f-lambda*i d_bb E">f-&lambda;&middot;id<sub><g>E</g></sub></frm>
       por iu 
-      <tld/>a <sncref ref="ajgen.0a.skalaro"/> skalaro <frm
-      am="lambda">&lambda;</frm>:
+      <tld/>a <sncref ref="ajgen.0a.skalaro"/> skalaro <frm am="lambda">&lambda;</frm>:
       <ekz>
         la du <tld/>aj subspacoj de
         <ref cel="simetr.0o.vektora">simetrio</ref> estas
@@ -135,8 +135,7 @@
         rilate al <ref cel="endomo.0o">endomorfio</ref>
         <frm am="f">f</frm> en
         <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
-      Nenula kaj apartenanta al iu <tld/>a <sncref
-      ref="ajgen.0a.subspaco"/>
+      Nenula kaj apartenanta al iu <tld/>a <sncref ref="ajgen.0a.subspaco"/>
       subspaco de <frm am="f">f</frm>:
       <ekz>
         se <frm am="x">x</frm> estas <tld/>a vektoro rilate al 
@@ -205,6 +204,7 @@
         <ind>&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;</ind><klr tip="ind">
 (&c_e;&c_n;&c_d;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;&c_a;)</klr></trd>
   <trd lng="sk">vlastn&yacute; vektor</trd>
+  <trd lng="uk">&#x432;&#x43B;&#x430;&#x441;&#x43D;&#x438;&#x439; &#x432;&#x435;&#x43A;&#x442;&#x43E;&#x440;</trd>
 </drv>
 
 <drv mrk="ajgen.0subspaco">
@@ -235,8 +235,7 @@
   <trd lng="pl">podprzestrze&nacute; w&lstroke;asna</trd>
   <trd lng="pt">auto-espa&ccedil;o</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
-        <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind><klr
-tip="ind"> (&c_e;&c_n;&c_d;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;&c_a;)</klr></trd>
+        <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind><klr tip="ind"> (&c_e;&c_n;&c_d;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;&c_a;)</klr></trd>
   <trd lng="sk">vlastn&yacute; podpriestor</trd>
 </drv>
   </art>
