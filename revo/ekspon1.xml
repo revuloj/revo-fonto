@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ekspon1.xml,v 1.26 2020/02/22 18:10:28 revo Exp $">
+<art mrk="$Id: ekspon1.xml,v 1.27 2022/03/17 13:47:18 revo Exp $">
 <kap>
 <rad>eksponencial</rad>/o
 </kap>
@@ -17,15 +16,13 @@
       Tia <ref cel="kontin3.0a.cxie">kontinua</ref> reela 
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
       <frm am="f"><k>f</k></frm>, ke
-      <frm am="f(x+y)=f(x)*f(y)"
-      ><k>f</k>(<k>x</k>+<k>y</k>) = 
+      <frm am="f(x+y)=f(x)*f(y)"><k>f</k>(<k>x</k>+<k>y</k>) = 
       <k>f</k>(<k>x</k>)&middot;<k>f</k>(<k>y</k>)</frm>
       kaj <frm am="f(1)=a"><k>f</k>(1) = <k>a</k></frm>:
       <ekz>
-        <tld/>on de <frm am="x"><k>x</k></frm> kun bazo <frm am="a"
-        ><k>a</k></frm> oni kutime signas per
-        <frm am='exp_a(x)'>exp<sub><k>a</k></sub>(<k>x</k>)</frm>,
-        <frm am='"eksp"_a(x)'>eksp<sub><k>a</k></sub>(<k>x</k>)</frm> 
+        <tld/>on de <frm am="x"><k>x</k></frm> kun bazo <frm am="a"><k>a</k></frm> oni kutime signas per
+        <frm am="exp_a(x)">exp<sub><k>a</k></sub>(<k>x</k>)</frm>,
+        <frm am="&quot;eksp&quot;_a(x)">eksp<sub><k>a</k></sub>(<k>x</k>)</frm> 
         a&ubreve; <frm am="a^x"><k>a</k><sup><k>x</k></sup></frm>; 
       </ekz>
       <ekz>
@@ -33,8 +30,7 @@
         apartaj termoj, kaj <tld/>o de <frm>1</frm> egalas al la bazo;
       </ekz>
       <ekz>
-        <tld/>o egalas al sia <ref
-        cel="deriv.0ajxo.MAT">deriva&jcirc;o</ref>,
+        <tld/>o egalas al sia <ref cel="deriv.0ajxo.MAT">deriva&jcirc;o</ref>,
         dividita per la bazo;
       </ekz>
       <ekz>
@@ -63,8 +59,7 @@
       Bricard <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt> uzas la
       pli malpezan radikon <ctl>esponencialo</ctl>.
       Eblas vastigi tiun funkcion al kompleksoj, uzante la identa&jcirc;on
-      <frm am="e^(x+i*y)=e^x(cos y+i*sin y)"
-      ><k>e</k><sup><k>x</k>+<k>i</k>&middot;<k>y</k></sup> =
+      <frm am="e^(x+i*y)=e^x(cos y+i*sin y)"><k>e</k><sup><k>x</k>+<k>i</k>&middot;<k>y</k></sup> =
       <k>e</k><sup><k>x</k></sup>(cos<k>y</k> +
       <k>i</k>&middot;sin<k>y</k>)</frm>, 
       en kiu <frm am="e"><k>e</k></frm> estas la bazo de naturaj
@@ -87,7 +82,7 @@
   <trd lng="es">exponencial</trd>
   <trd lng="fr">exponentielle<klr tip="ind"> (subst., de base
   a)</klr></trd>
-  <trd lng="hu">exponenci&aacute;lis<klr tip="ind"> (f&uuml;ggv&eacute;ny)</klr>></trd>
+  <trd lng="hu">exponenci&aacute;lis<klr tip="ind"> (f&uuml;ggv&eacute;ny)</klr>&gt;</trd>
   <trdgrp lng="pl">
     <trd>funkcja wyk&lstroke;adnicza</trd>,
     <trd>funkcja eksponencjalna</trd>
@@ -103,6 +98,10 @@
     <trd>exponenci&aacute;l</trd>,
     <trd>exponenci&aacute;ln&iacute; funkce</trd>,
     <trd>exponenci&aacute;ln&iacute; rovnice</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x43E;&#x432;&#x430;</trd>,
+    <trd>&#x435;&#x43A;&#x441;&#x43F;&#x43E;&#x43D;&#x435;&#x43D;&#x446;&#x456;&#x430;&#x43B;&#x44C;&#x43D;&#x430; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x456;&#x44F;</trd>
   </trdgrp>
 </drv>
 </art>
