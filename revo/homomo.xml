@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: homomo.xml,v 1.22 2020/05/05 14:10:16 revo Exp $">
+<art mrk="$Id: homomo.xml,v 1.23 2022/03/20 17:24:55 revo Exp $">
 <kap>
 <rad>homomorfi</rad>/o
 </kap>
@@ -16,39 +15,34 @@
       samspecaj <ref cel="strukt.algebra0o">strukturoj</ref>, ke
       &gcirc;i iasence <ctl>respektas</ctl> ilin. Pli
       precize, se oni signas la strukturojn per
-      <frm am="(bb E,Delta_1,Delta_2,...,Delta_n)"
-      >(<g>E</g>,&#8710;<sub>1</sub>,&#8710;<sub>2</sub>,
-      ...,&#8710;<sub><k>n</k></sub>)</frm> kaj
-      <frm am="(bb F,nabla_1,nabla_2,...,nabla_n)"
-      >(<g>F</g>,&#8711;<sub>1</sub>,&#8711;<sub>2</sub>,
-      ...,&#8711;<sub><k>n</k></sub>)</frm>,
+      <frm am="(bb E,Delta_1,Delta_2,...,Delta_n)">(<g>E</g>,&#x2206;<sub>1</sub>,&#x2206;<sub>2</sub>,
+      ...,&#x2206;<sub><k>n</k></sub>)</frm> kaj
+      <frm am="(bb F,nabla_1,nabla_2,...,nabla_n)">(<g>F</g>,&#x2207;<sub>1</sub>,&#x2207;<sub>2</sub>,
+      ...,&#x2207;<sub><k>n</k></sub>)</frm>,
       la bildigo <frm am="f"><k>f</k></frm> estas tia, ke:
       (1) por &ccirc;iu duopo de
       <ref cel="operac.interna0o">internaj operacioj</ref>
-      <frm am="Delta_i">&#8710;<sub><k>i</k></sub></frm> kaj 
-      <frm am="nabla_i">&#8711;<sub><k>i</k></sub></frm> veras, ke
-      <frm am="f(x Delta_i y)=f(x) nabla_i f(y)"
-      ><k>f</k>(<k>x</k>&#8710;<sub><k>i</k></sub><k>y</k>) = 
-      <k>f</k>(<k>x</k>)&#8711;<sub><k>i</k></sub><k>f</k>(<k>y</k>)</frm>,
-      kiuj ajn estas <frm am="x,y in bb E"
-      ><k>x</k>, <k>y</k>&#8712;<g>E</g></frm>;
+      <frm am="Delta_i">&#x2206;<sub><k>i</k></sub></frm> kaj 
+      <frm am="nabla_i">&#x2207;<sub><k>i</k></sub></frm> veras, ke
+      <frm am="f(x Delta_i y)=f(x) nabla_i f(y)"><k>f</k>(<k>x</k>&#x2206;<sub><k>i</k></sub><k>y</k>) = 
+      <k>f</k>(<k>x</k>)&#x2207;<sub><k>i</k></sub><k>f</k>(<k>y</k>)</frm>,
+      kiuj ajn estas <frm am="x,y in bb E"><k>x</k>, <k>y</k>&#x2208;<g>E</g></frm>;
       (2) por &ccirc;iu duopo de
       <ref cel="operac.ekstera0o">eksteraj operacioj</ref>
-      <frm am="Delta_k">&#8710;<sub><k>k</k></sub></frm> kaj 
-      <frm am="nabla_k">&#8711;<sub><k>k</k></sub></frm> (de la sama aro 
+      <frm am="Delta_k">&#x2206;<sub><k>k</k></sub></frm> kaj 
+      <frm am="nabla_k">&#x2207;<sub><k>k</k></sub></frm> (de la sama aro 
       <frm am="bb R"><g>R</g></frm> super respektive
       <frm am="bb E"><g>E</g></frm> 
       kaj <frm am="bb F"><g>F</g></frm>) veras, ke
-      <frm am="f(alpha Delta_k x)=alpha nabla_k f(x)"
-      ><k>f</k>(&alfa;&#8710;<sub><k>k</k></sub><k>x</k>) = 
-      &alfa;&#8711;<sub><k>k</k></sub><k>f</k>(<k>x</k>)</frm>,
-      kiuj ajn estas <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm> 
-      kaj <frm am="alpha in bb R">&alfa;&#8712;<g>R</g></frm>:
+      <frm am="f(alpha Delta_k x)=alpha nabla_k f(x)"><k>f</k>(&alfa;&#x2206;<sub><k>k</k></sub><k>x</k>) = 
+      &alfa;&#x2207;<sub><k>k</k></sub><k>f</k>(<k>x</k>)</frm>,
+      kiuj ajn estas <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm> 
+      kaj <frm am="alpha in bb R">&alfa;&#x2208;<g>R</g></frm>:
       <ekz>
         grupa
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=87311'>Grupa
+          <lok><url ref="https://eo.wikipedia.org/?curid=87311">Grupa
           ago</url></lok>
         </fnt>, ringa, modula, vektor(spac)a <tld/>o;
       </ekz>
@@ -61,7 +55,7 @@
         de vektoraj spacoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=87325'>Lineara
+          <lok><url ref="https://eo.wikipedia.org/?curid=87325">Lineara
           bildigo</url></lok>
         </fnt>.
       </ekz>
@@ -96,6 +90,7 @@
   <trd lng="pl">homomorfizm</trd>
   <trd lng="pt">homomorfismo</trd>
   <trd lng="ru">&c_g;&c_o;&c_m;&c_o;&c_m;&c_o;&c_r;&c_f;&c_i;&c_z;&c_m;</trd>
+  <trd lng="uk">&#x433;&#x43E;&#x43C;&#x43E;&#x43C;&#x43E;&#x440;&#x444;&#x456;&#x44F;</trd>
 </drv>
 
 <drv mrk="homomo.0a">
@@ -123,8 +118,7 @@
         verticoj estas interapudaj en <frm am="H"><k>H</k></frm>
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=104312'
-          >Glosaro de grafeteorio</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=104312">Glosaro de grafeteorio</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -152,6 +146,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_o;&c_m;&c_a;&c_m;&c_o;&c_r;&c_f;&c_n;&c_y;</trd>
+  <trd lng="uk">&#x433;&#x43E;&#x43C;&#x43E;&#x43C;&#x43E;&#x440;&#x444;&#x456;&#x447;&#x43D;&#x438;&#x439;</trd>
 </drv>
 </art>
 <!--
