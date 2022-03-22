@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: latis.xml,v 1.12 2020/02/15 17:10:30 revo Exp $">
+<art mrk="$Id: latis.xml,v 1.13 2022/03/22 18:26:50 revo Exp $">
 <kap>
   <rad>latis</rad>/o
 </kap>
@@ -44,19 +44,18 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,vv,^^)">(<g>E</g>,&#8744;,&#8743;)</frm>, ke amba&ubreve; operacioj
+      <frm am="(bb E,vv,^^)">(<g>E</g>,&#x2228;,&#x2227;)</frm>, ke amba&ubreve; operacioj
       estas
       <ref cel="komut.0eca.operacio">komutecaj</ref> kaj
       <ref cel="asoci.0eca.operacio">asociecaj</ref>, kaj ke
-      <frm am="x vv(x ^^y)=x^^(x vv y)=x"
-      ><k>x</k>&#8744;(<k>x</k>&#8743;<k>y</k>) =
-      <k>x</k>&#8743;(<k>x</k>&#8744;<k>y</k>) = <k>x</k></frm>, kiuj ajn 
-      estas <frm am="x,y in bb E"><k>x</k>,<k>y</k>&#8712;<g>E</g></frm>
+      <frm am="x vv(x ^^y)=x^^(x vv y)=x"><k>x</k>&#x2228;(<k>x</k>&#x2227;<k>y</k>) =
+      <k>x</k>&#x2227;(<k>x</k>&#x2228;<k>y</k>) = <k>x</k></frm>, kiuj ajn 
+      estas <frm am="x,y in bb E"><k>x</k>,<k>y</k>&#x2208;<g>E</g></frm>
       <klr> (sorbada regulo)</klr>:
       <ekz>
-        se <frm am="(bb E,vv,^^)">(<g>E</g>,&#8744;,&#8743;)</frm> estas <tld/>o,
+        se <frm am="(bb E,vv,^^)">(<g>E</g>,&#x2228;,&#x2227;)</frm> estas <tld/>o,
         anka&ubreve;
-        <frm am="(bb E,^^,vv)">(<g>E</g>,&#8743;,&#8744;)</frm> estas
+        <frm am="(bb E,^^,vv)">(<g>E</g>,&#x2227;,&#x2228;)</frm> estas
         <klr>(duala <tld/>o)</klr>;
       </ekz>
       <ekz>
@@ -73,7 +72,7 @@
       <ref cel="komple2.0a.latiso">kompleta</ref>.
     </refgrp>
     <rim>
-      La rilato <frm am="x^^y=x"><k>x</k>&#8743;<k>y</k> = <k>x</k></frm>
+      La rilato <frm am="x^^y=x"><k>x</k>&#x2227;<k>y</k> = <k>x</k></frm>
       difinas
       <ref cel="rilat.ordo0o">ordo-rilaton</ref>
       super <frm am="bb E"><g>E</g></frm>. Alternative kaj ekvivalente
@@ -81,13 +80,13 @@
       difini
       <tld/>on kiel tian <ref tip="super" cel="ar.orda0o">ordan
       aron</ref>
-      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>, ke por ajnaj du elementoj 
+      <frm am="(bb E,le)">(<g>E</g>,&#x2264;)</frm>, ke por ajnaj du elementoj 
       <frm am="x,y"><k>x</k>, <k>y</k></frm> de &gcirc;i ekzistas iliaj 
       <ref cel="infim.0o">infimo</ref>
-      <klr>(signata per <frm am="x^^y"><k>x</k>&#8743;<k>y</k></frm>)</klr>
+      <klr>(signata per <frm am="x^^y"><k>x</k>&#x2227;<k>y</k></frm>)</klr>
       kaj 
       <ref cel="suprem.0o">supremo</ref>
-      <klr>(signata per <frm am="x vv y"><k>x</k>&#8744;<k>y</k></frm>)</klr>.
+      <klr>(signata per <frm am="x vv y"><k>x</k>&#x2228;<k>y</k></frm>)</klr>.
     </rim>
     <trdgrp lng="be">
       <trd>&c_k;&c_r;&c_a;&c_t;&c_a;</trd>,
@@ -111,6 +110,12 @@
   <trdgrp lng="sk">
     <trd>dr&ocirc;ten&eacute; pletivo</trd>,
     <trd>mre&zcaron;a</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x435;&#x448;&#x456;&#x442;&#x43A;&#x430;</trd>,
+    <trd>&#x440;&#x435;&#x448;&#x456;&#x442;&#x447;&#x430;&#x441;&#x442;&#x430; &#x437;&#x430;&#x433;&#x43E;&#x440;&#x43E;&#x434;&#x43A;&#x430;</trd>,
+    <trd>&#x448;&#x442;&#x430;&#x445;&#x435;&#x442;&#x438;</trd>,
+    <trd>&#x444;&#x435;&#x440;&#x43C;&#x430;</trd>
   </trdgrp>
 </drv>
 </art>
