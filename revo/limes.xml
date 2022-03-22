@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: limes.xml,v 1.21 2020/02/15 17:10:33 revo Exp $">
+<art mrk="$Id: limes.xml,v 1.22 2022/03/22 18:26:51 revo Exp $">
 <kap>
   <rad>limes</rad>/o
 </kap>
@@ -20,13 +19,11 @@
       simb. <frm am="p=lim(u_n)"><k>p</k> = lim
       (<k>u</k><sub><k>n</k></sub>)</frm>:
       <ekz>
-        la <tld/>o de <frm am="(1//n)_(n gt 0)"
-        >(1/<k>n</k>)<sub><k>n</k> &gt; 0</sub></frm>
+        la <tld/>o de <frm am="(1//n)_(n gt 0)">(1/<k>n</k>)<sub><k>n</k> &gt; 0</sub></frm>
         estas <frm>0</frm>;
       </ekz>
       <ekz>
-        la vico <frm am="(-1^n)_(n gt 0)"
-        >((-1)<sup><k>n</k></sup>)<sub><k>n</k> &gt; 0</sub></frm>
+        la vico <frm am="(-1^n)_(n gt 0)">((-1)<sup><k>n</k></sup>)<sub><k>n</k> &gt; 0</sub></frm>
         ne akceptas <tld/>on <klr>(ne konver&gcirc;as)</klr>.
       </ekz>
     </dif>
@@ -49,12 +46,10 @@
       <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
       <frm am="bb W"><g>W</g></frm>, ekzistas responda &ccirc;irka&ubreve;a&jcirc;o
       <frm am="bb V"><g>V</g></frm> de <frm am="a"><k>a</k></frm>, kies 
-      <ref cel="bild.0o.subaro">bildo</ref> per <frm
-      am="f"><k>f</k></frm>
+      <ref cel="bild.0o.subaro">bildo</ref> per <frm am="f"><k>f</k></frm>
       estas 
       inkluzivata de <frm am="bb W"><g>W</g></frm>;
-      simb. <frm  am="b=lim_(x to a)f(x)"
-      ><k>b</k> = lim<sub><k>x</k>&#8594;<k>a</k></sub>
+      simb. <frm am="b=lim_(x to a)f(x)"><k>b</k> = lim<sub><k>x</k>&#x2192;<k>a</k></sub>
       <k>f</k>(<k>x</k>)</frm>:
       <ekz>
         bildigo povas havi <tld/>on &ccirc;e punkto, en kiu &gcirc;i
@@ -66,8 +61,7 @@
         estas <frm>0</frm>;
       </ekz>
       <ekz>
-        se la <tld/>o de <frm am="f"><k>f</k></frm> &ccirc;e <frm
-        am="a"><k>a</k></frm> 
+        se la <tld/>o de <frm am="f"><k>f</k></frm> &ccirc;e <frm am="a"><k>a</k></frm> 
         egalas al <frm am="f(a)"><k>f</k>(<k>a</k>)</frm>, tiam oni
         diras,
         ke <frm am="f"><k>f</k></frm> estas 
@@ -79,11 +73,9 @@
         konver&gcirc;as al 
         <frm am="a"><k>a</k></frm>, kaj se <frm am="b"><k>b</k></frm>
         estas
-        <tld/>o de <frm am="f"><k>f</k></frm> &ccirc;e <frm
-        am="a"><k>a</k></frm>, tiam 
+        <tld/>o de <frm am="f"><k>f</k></frm> &ccirc;e <frm am="a"><k>a</k></frm>, tiam 
         &gcirc;i anka&ubreve; estas <tld/>o de la vico 
-        <frm
-        am="(f(u_n))">(<k>f</k>(<k>u</k><sub><k>n</k></sub>))</frm>.
+        <frm am="(f(u_n))">(<k>f</k>(<k>u</k><sub><k>n</k></sub>))</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -107,16 +99,12 @@
       Oni diras sendistinge, ke <ctl><frm am="b"><k>b</k></frm> estas
       <tld/>o
       de 
-      <frm am="f"><k>f</k></frm> &ccirc;e punkto <frm
-      am="a"><k>a</k></frm></ctl>, 
-      <ctl><frm am="f"><k>f</k></frm> akceptas <tld/>on <frm
-      am="b"><k>b</k></frm> &ccirc;e
+      <frm am="f"><k>f</k></frm> &ccirc;e punkto <frm am="a"><k>a</k></frm></ctl>, 
+      <ctl><frm am="f"><k>f</k></frm> akceptas <tld/>on <frm am="b"><k>b</k></frm> &ccirc;e
       punkto <frm am="a"><k>a</k></frm></ctl>, a&ubreve; ke 
-      <ctl><frm am="f(x)"><k>f</k>(<k>x</k>)</frm> strebas al <frm
-      am="b"><k>b</k></frm>,
+      <ctl><frm am="f(x)"><k>f</k>(<k>x</k>)</frm> strebas al <frm am="b"><k>b</k></frm>,
       kiam 
-      <frm am="x"><k>x</k></frm> strebas al <frm
-      am="a"><k>a</k></frm></ctl>.
+      <frm am="x"><k>x</k></frm> strebas al <frm am="a"><k>a</k></frm></ctl>.
     </rim>
   </subsnc>
   </snc>
@@ -140,6 +128,13 @@
     <trd>hrani&ccaron;n&aacute; hodnota</trd>,
     <trd>limita</trd>,
     <trd>zn. lim</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x433;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x44F;</trd>,
+    <trd>&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x43D;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x43B;&#x456;&#x43C;&#x435;&#x441;</trd>,
+    <trd>&#x43F;&#x440;&#x438;&#x43A;&#x43E;&#x440;&#x434;&#x43E;&#x43D;&#x43D;&#x430; &#x441;&#x43C;&#x443;&#x433;&#x430;</trd>,
+    <trd>&#x43A;&#x43E;&#x440;&#x434;&#x43E;&#x43D;</trd>
   </trdgrp>
 </drv>
 </art>

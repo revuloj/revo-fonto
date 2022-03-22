@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: linear.xml,v 1.28 2020/02/15 18:10:24 revo Exp $">
+<art mrk="$Id: linear.xml,v 1.29 2022/03/22 18:26:51 revo Exp $">
 <kap>
   <rad>linear</rad>/a
 </kap>
@@ -34,9 +33,8 @@
         por ke bildigo <frm am="f"><k>f</k></frm> inter vektoraj spacoj
         estu
         <tld/>a, sufi&ccirc;as, ke
-        <frm am="f(x+alpha*y)=f(x)+alpha*f(y)"
-        ><k>f</k>(<k>x</k>+&alfa;&#8729;<k>y</k>) =
-          <k>f</k>(<k>x</k>)+&alfa;&#8729;<k>f</k>(<k>y</k>)</frm>, kiuj ajn estas
+        <frm am="f(x+alpha*y)=f(x)+alpha*f(y)"><k>f</k>(<k>x</k>+&alfa;&#x2219;<k>y</k>) =
+          <k>f</k>(<k>x</k>)+&alfa;&#x2219;<k>f</k>(<k>y</k>)</frm>, kiuj ajn estas
         <frm am="x,y"><k>x</k>, <k>y</k></frm> kaj 
         <frm am="alpha">&alfa;</frm>.
       </ekz>
@@ -69,6 +67,7 @@
     <trd>line&aacute;rn&iacute;</trd>,
     <trd>spojit&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43B;&#x456;&#x43D;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="linear.n0a">
@@ -79,22 +78,18 @@
     <dif>
       <klr>(p.p. <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
       <ref cel="produt.kartezia0o">kartezia produto</ref>
-      de <frm am="n"><k>n</k></frm><klr> </klr> <ref
-      cel="modul.0o.strukt">moduloj</ref>
+      de <frm am="n"><k>n</k></frm><klr> </klr> <ref cel="modul.0o.strukt">moduloj</ref>
       <frm am="bb E_i"><g>E</g><sub><k>i</k></sub></frm>
       al modulo <frm am="bb F"><g>F</g></frm>)</klr>
       Tia, ke &ccirc;iu parta bildigo
-      <frm am="phi(x_i)=f(a_1,...,x_i,...a_n)"
-      >&phi;(<k>x</k><sub><k>i</k></sub>) =
+      <frm am="phi(x_i)=f(a_1,...,x_i,...a_n)">&phi;(<k>x</k><sub><k>i</k></sub>) =
       <k>f</k>(<k>a</k><sub>1</sub>,..., <k>x</k><sub><k>i</k></sub>,
       ...<k>a</k><sub><k>n</k></sub>)</frm>
-      estas homomorfio de <frm am="bb
-      E_i"><g>E</g><sub><k>i</k></sub></frm>
+      estas homomorfio de <frm am="bb       E_i"><g>E</g><sub><k>i</k></sub></frm>
       al <frm am="bb F"><g>F</g></frm>:
       <ekz>
         la bildigo
-        <frm am="f(x,y)=x xx y"
-        ><k>f</k>(<k>x</k>,<k>y</k>) = <k>x</k>&#215;<k>y</k></frm>
+        <frm am="f(x,y)=x xx y"><k>f</k>(<k>x</k>,<k>y</k>) = <k>x</k>&#xD7;<k>y</k></frm>
         super <ref cel="algebr.lineara0o.strukturo">algebro</ref>
         estas <ind>du<tld/>a</ind>;
         <trdgrp lng="be">
@@ -150,9 +145,8 @@
       <frm am="f"><k>f</k></frm> inter du
       <ref cel="spac.vektora0o">vektoraj spacoj</ref> super la korpo
       de <ref cel="komple.0o.MAT">kompleksoj</ref>)</klr>
-      Tia, ke &gcirc;i &jcirc;etas <frm am="x+alpha*y"><k>x</k>+&alfa;&#8729;<k>y</k></frm>
-      al <frm am="f(x)+kappa(alpha)*f(y)"
-      ><k>f</k>(<k>x</k>)+&kappa;(&alfa;)&#8729;<k>f</k>(<k>y</k>)</frm>,
+      Tia, ke &gcirc;i &jcirc;etas <frm am="x+alpha*y"><k>x</k>+&alfa;&#x2219;<k>y</k></frm>
+      al <frm am="f(x)+kappa(alpha)*f(y)"><k>f</k>(<k>x</k>)+&kappa;(&alfa;)&#x2219;<k>f</k>(<k>y</k>)</frm>,
       kie <frm am="kappa">&kappa;</frm> signas la operacion
       <ref cel="konjug.0o">konjugo</ref>:
       <ekz>
