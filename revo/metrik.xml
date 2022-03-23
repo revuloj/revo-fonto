@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: metrik.xml,v 1.23 2020/02/15 18:10:36 revo Exp $">
+<art mrk="$Id: metrik.xml,v 1.24 2022/03/23 14:01:46 revo Exp $">
 <kap>
 <ofc>2</ofc>
 <rad>metrik</rad>/o
@@ -30,18 +30,16 @@
     <dif>
       <klr>(en aro <frm am="bb M"><g>M</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      <frm am="d"><k>d</k></frm> de <frm am="bb M xx bb M"
-      ><g>M</g>&#215;<g>M</g></frm> al la aro de 
+      <frm am="d"><k>d</k></frm> de <frm am="bb M xx bb M"><g>M</g>&#xD7;<g>M</g></frm> al la aro de 
       pozitivaj reeloj, ke por &ccirc;iuj elementoj 
       <frm am="x,y,z in bb M"><k>x</k>, <k>y</k>,
-      <k>z</k>&#8712;<g>M</g></frm> 
+      <k>z</k>&#x2208;<g>M</g></frm> 
       veras, ke:
       (1) <frm am="d(x,y)=0"><k>d</k>(<k>x</k>,<k>y</k>) = 0</frm>, 
          se kaj nur se <frm am="x=y"><k>x</k> = <k>y</k></frm>;
-      (2) <frm am="x(x,y)=d(y,x)"
-      ><k>d</k>(<k>x</k>,<k>y</k>) = <k>d</k>(<k>y</k>,<k>x</k>)</frm>;
+      (2) <frm am="x(x,y)=d(y,x)"><k>d</k>(<k>x</k>,<k>y</k>) = <k>d</k>(<k>y</k>,<k>x</k>)</frm>;
       (3) <frm am="d(x,z) le d(x,y)+d(y,z)"><k>d</k>(<k>x</k>,<k>z</k>)
-      &#8804; 
+      &#x2264; 
       <k>d</k>(<k>x</k>,<k>y</k>)+<k>d</k>(<k>y</k>,<k>z</k>)</frm>:
       <ekz>
         la <ref cel="valor.absoluta0o">absoluta valoro</ref> de la
@@ -83,6 +81,10 @@
   <trd lng="pt">m&eacute;trica</trd>
   <trd lng="ru">&c_m;&c_je;&c_t;&c_r;&c_i;&c_k;&c_a;</trd>
   <trd lng="sk">metrika</trd>
+  <trdgrp lng="uk">
+    <trd>metro</trd>,
+    <trd>&#x43C;&#x435;&#x442;&#x440;&#x438;&#x43A;&#x430;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
