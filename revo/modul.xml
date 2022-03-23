@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: modul.xml,v 1.36 2020/02/15 19:10:21 revo Exp $">
+<art mrk="$Id: modul.xml,v 1.37 2022/03/23 14:02:26 revo Exp $">
 <kap>
   <rad>modul</rad>/o
 </kap>
@@ -34,7 +33,7 @@ n&eacute;zve</trd></trdgrp>
 <ind>&c_m;&c_o;&c_d;&c_u;&c_l;&c_ju;</ind></trd>
       </ekz>
       <ekz>
-        <klr>[en]</klr> Hebrea kalendaro,<klr>[&#8230;]</klr> jaro estas
+        <klr>[en]</klr> Hebrea kalendaro,<klr>[&#x2026;]</klr> jaro estas
         superjaro se 
         la resto post divido de 19 (jaro <tld/>o 19) estas 0, 3, 6, 8,
         11, 14 a&ubreve; 17
@@ -67,8 +66,7 @@ n&eacute;zve</trd></trdgrp>
         <trd lng="en">load module</trd>
         <trd lng="es">m&oacute;dulo de carga</trd>
         <trd lng="hu">bet&ouml;lthet&odblac; modul</trd>        
-        <trd
-lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
+        <trd lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
 &c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
       </ekz>
       <ekz>
@@ -104,27 +102,22 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
 &leftquot;ring-modulo&rightquot;</lok></fnt>
     <dif>
       <klr>(super <ref cel="unu.0hava">unuhava</ref>
-      <ref cel="ring.0o.MAT">ringo</ref> <frm am="bb
-      R"><g>R</g></frm>)</klr>
+      <ref cel="ring.0o.MAT">ringo</ref> <frm am="bb       R"><g>R</g></frm>)</klr>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb M,+,*)">(<g>M</g>,+,&#8729;)</frm>, ke 
+      <frm am="(bb M,+,*)">(<g>M</g>,+,&#x2219;)</frm>, ke 
       <frm am="(bb M,+)">(<g>M</g>,+)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>; <frm am="*">&#8729;</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>; <frm am="*">&#x2219;</frm> estas
       <ref cel="operac.ekstera0o">ekstera operacio</ref>
-      de <frm am="bb R"><g>R</g></frm> super <frm am="bb
-      M"><g>M</g></frm>;
-      kaj por &ccirc;iuj <frm am="alpha,beta in bb R">&alfa;, &beta;&#8712;<g>R</g></frm>
-      kaj <frm am="x,y inbb M"><k>x</k>, <k>y</k>&#8712;<g>M</g></frm> veras,
+      de <frm am="bb R"><g>R</g></frm> super <frm am="bb       M"><g>M</g></frm>;
+      kaj por &ccirc;iuj <frm am="alpha,beta in bb R">&alfa;, &beta;&#x2208;<g>R</g></frm>
+      kaj <frm am="x,y inbb M"><k>x</k>, <k>y</k>&#x2208;<g>M</g></frm> veras,
       ke:
-      (1) <frm am="(alpha+beta)*x=alpha*x+beta*x"
-      >(&alfa;+&beta;)&#8729;<k>x</k> = &alfa;&#8729;<k>x</k>+&beta;&#8729;<k>x</k></frm>;
-      (2) <frm am="alpha*(x+y)=alpha*x+beta*y"
-      >&alfa;&#8729;(<k>x</k>+<k>y</k>) = &alfa;&#8729;<k>x</k>+&alfa;&#8729;<k>y</k></frm>;
-      (3) <frm am="(alpha xx beta)*x = alpha*(beta*x)"
-      >(&alfa;&#215;&beta;)&#8729;<k>x</k> = &alfa;&#8729;(&beta;&#8729;<k>x</k>)</frm>;
-      kaj (4) <frm am="1*x=x">1&#8729;<k>x</k> = <k>x</k></frm>.
+      (1) <frm am="(alpha+beta)*x=alpha*x+beta*x">(&alfa;+&beta;)&#x2219;<k>x</k> = &alfa;&#x2219;<k>x</k>+&beta;&#x2219;<k>x</k></frm>;
+      (2) <frm am="alpha*(x+y)=alpha*x+beta*y">&alfa;&#x2219;(<k>x</k>+<k>y</k>) = &alfa;&#x2219;<k>x</k>+&alfa;&#x2219;<k>y</k></frm>;
+      (3) <frm am="(alpha xx beta)*x = alpha*(beta*x)">(&alfa;&#xD7;&beta;)&#x2219;<k>x</k> = &alfa;&#x2219;(&beta;&#x2219;<k>x</k>)</frm>;
+      kaj (4) <frm am="1*x=x">1&#x2219;<k>x</k> = <k>x</k></frm>.
     </dif>
     <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
     <refgrp tip="sub">
@@ -202,6 +195,7 @@ zespolonej)</klr></trd>
     <trd>absol&uacute;tna hodnota</trd>,
     <trd>modul</trd>
   </trdgrp>
+  <trd lng="uk">&#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;</trd>
 </drv>
 
 <drv mrk="modul.sub0o">
@@ -211,7 +205,7 @@ zespolonej)</klr></trd>
   <snc mrk="modul.sub0o.strukt">
     <dif>
       <klr>(de <ref cel="modul.0o.strukt"><tld/>o</ref>
-      <frm am="(bb M,+,*)">(<g>M</g>,+,&#8729;)</frm>)</klr>
+      <frm am="(bb M,+,*)">(<g>M</g>,+,&#x2219;)</frm>)</klr>
       Tia subaro de <frm am="bb M"><g>M</g></frm>, ke &gcirc;i egalas al la
       subaro, kiun &gcirc;i <ref cel="nask.0i.MAT">naskas</ref>:
       <ekz>
@@ -228,13 +222,12 @@ zespolonej)</klr></trd>
         simpla <tld/>o <frm am="S"><k>S</k></frm> estas <tld/>o kiu
         estas ne 
         <frm>{<k>0</k>}</frm> 
-        kaj solaj sub<tld/>oj <klr>[&#8230;]</klr> estas <frm>{<k>0</k>}</frm>
+        kaj solaj sub<tld/>oj <klr>[&#x2026;]</klr> estas <frm>{<k>0</k>}</frm>
         kaj 
         <frm am="S"><k>S</k></frm>
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=87314"
-          >Modulo (matematiko)</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=87314">Modulo (matematiko)</url></lok>
         </fnt>.
       </ekz>
     </dif>
