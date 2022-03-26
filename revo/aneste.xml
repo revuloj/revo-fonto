@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aneste.xml,v 1.24 2022/03/12 10:16:47 revo Exp $">
+<art mrk="$Id: aneste.xml,v 1.25 2022/03/26 07:27:44 revo Exp $">
 <kap>
   <rad>anestez</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -26,6 +26,7 @@
     </dif>
   </snc>
   <refgrp tip="vid">
+
     <ref cel="narkot.0i">narkoti</ref>
   </refgrp>
   <trdgrp lng="be">
@@ -39,7 +40,7 @@
   <trd lng="en">anesthetize</trd>
   <trd lng="es">anestesiar</trd>
   <trd lng="fr">anesth&eacute;sier</trd>
-  <trd lng="he">&#x5DC;&#x5D4;&#x5E8;&#x5D3;&#x5D9;&#x5DD;</trd>
+  <trd lng="he">&lamed;&he;&resh;&dalet;&yod;&fmem;</trd>
   <trd lng="hu">&eacute;rz&eacute;stelen&iacute;t</trd>  
   <trd lng="nl">verdoven</trd>
   <trdgrp lng="pl">
@@ -54,9 +55,9 @@
   <trd lng="sk">znecitlivi&tcaron;</trd>
   <trd lng="cs">znecitlivit</trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x43D;&#x435;&#x431;&#x43E;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x430;&#x43D;&#x435;&#x441;&#x442;&#x435;&#x437;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x43D;&#x435;&#x447;&#x443;&#x442;&#x442;&#x454;&#x432;&#x438;&#x43C;</trd>
+    <trd>&c_z;&c_n;&c_je;&c_b;&c_o;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_a;&c_n;&c_je;&c_s;&c_t;&c_je;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&c_o;&c_b;&c_i;&c_t;&c_i; &c_n;&c_je;&c_ch;&c_u;&c_t;&c_t;&c_jeu;&c_v;&c_i;&c_m;</trd>
   </trdgrp>
 </drv>
 
@@ -65,10 +66,19 @@
   <snc mrk="aneste.0o.MED">
     <dif>
       Pli a&ubreve; malpli kompleta senigo je la sentokapablo,
-      ka&ubreve;zita
-      de specialaj substancoj a&ubreve; de malsano.
+      ka&ubreve;zita de specialaj substancoj a&ubreve; de malsano:
+      <ekz>
+        ne timu, post <tld/>o mi facile aku&scirc;igos vin
+        <fnt>
+          <bib>KrB</bib>
+          <lok>E&ccirc; inter piuloj ne mankas pekuloj</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="vid" cel="dolor.sen0eco.MED">sendoloreco</ref>
+    <refgrp tip="vid">
+      <ref cel="analgezi.0o">analgezio</ref>,
+      <ref cel="dolor.sen0eco.MED">sendoloreco</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_n;&c_e;&c_s;&c_t;&c_e;&c_z;&c_ib;&c_ja;</trd>,
@@ -77,8 +87,8 @@
     <trd>&c_n;&c_a;&c_r;&c_k;&c_o;&c_z;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>anest&#xE9;zie</trd>,
-    <trd>znecitliv&#x11B;n&#xED;</trd>
+    <trd>anest&eacute;zie</trd>,
+    <trd>znecitliv&ecaron;n&iacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Bet&auml;ubung</trd>,
@@ -86,7 +96,7 @@
   </trdgrp>
   <trd lng="en">anesthesia</trd>
   <trd lng="fr">anesth&eacute;sie</trd>
-  <trd lng="he">&#x5D4;&#x5B7;&#x5E8;&#x5D3;&#x5B8;&#x5DE;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&he;&#1463;&resh;&dalet;&#1464;&mem;&#1464;&he;</trd>
   <trdgrp lng="hu">
     <trd>&eacute;rz&eacute;stelen&iacute;t&eacute;s</trd>,
     <trd>aneszt&eacute;zia</trd>
@@ -104,7 +114,7 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>anest&eacute;za</trd>,
-    <trd>anest&#xE9;zia</trd>,
+    <trd>anest&eacute;zia</trd>,
     <trd>znecitlivenie</trd>
   </trdgrp>
 </drv>
@@ -113,10 +123,15 @@
   <kap><tld/>ilo</kap>
   <snc mrk="aneste.0ilo.MED">
     <dif>
-      Substanco por anestezi, ekzemple kloroformo.
+      Substanco por anestezi, ekzemple <ref cel="klorof1.0o">kloroformo</ref>.
     </dif>
-    <ref tip="sin" cel="dolor.kontraux0ilo">kontra&ubreve;dolorilo, 
+    <ref tip="super" cel="dolor.kontraux0ilo">kontra&ubreve;dolorilo, 
     sendolorigilo</ref>
+    <refgrp tip="vid">
+      <ref cel="analgezik.0o">analgeziko</ref>,
+      <ref cel="narkot.0ajxo">narkotilo</ref>,
+      <ref cel="sedativ.0o">sedativo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_o;&c_l;&c_je;&c_s;&c_u;&c_c;&c_ib;&c_sh;&c_a;&c_l;&c_mol;&c_n;&c_y;
@@ -128,7 +143,7 @@
   <trdgrp lng="cs">
     <trd>anestezin</trd>,
     <trd>benzokain</trd>,
-    <trd>paraaminobenzoan etyln&#xFD;</trd>
+    <trd>paraaminobenzoan etyln&yacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Bet&auml;ubungsmittel</trd>,
@@ -137,7 +152,7 @@
   <trd lng="en">anesthetic</trd>
   <trd lng="es">anestesia</trd>
   <trd lng="fr">anesth&eacute;sique<klr> (subst.)</klr></trd>
-  <trd lng="he">&#x5D7;&#x5D5;&#x5DE;&#x5E8; &#x5D4;&#x5E8;&#x5D3;&#x5DE;&#x5D4;</trd>
+  <trd lng="he">&het;&vav;&mem;&resh; &he;&resh;&dalet;&mem;&he;</trd>
   <trd lng="hu">&eacute;rz&eacute;stelen&iacute;t&odblac;</trd>
   <trd lng="nl">verdovingsmiddel</trd>
   <trdgrp lng="pl">
@@ -159,6 +174,9 @@
 </art>
 <!--
 $Log$
+versio 1.25 2022/03/26 07:27:44
+Wolfram Diestel: +ekz, ref
+
 Revision 1.21  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -178,11 +196,5 @@ Revision 1.16  2005/08/13 16:33:26  revo
 Jeromo Vasxe: - mistajpo en dif
 
 Revision 1.15 2004/07/15 19:02:20 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14 2003/05/18 18:03:08 revo
-Viliam Bur: +trd sk
-
-Revision 1.13 2003/02/19 18:42:04 revo
 -->
 </vortaro>
