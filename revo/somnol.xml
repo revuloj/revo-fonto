@@ -2,18 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: somnol.xml,v 1.5 2018/06/16 19:10:15 revo Exp $">
+<art mrk="$Id: somnol.xml,v 1.6 2022/03/26 08:32:13 revo Exp $">
 <kap>
   <rad>somnol</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="somnol.0i">
   <kap><tld/>i</kap>
-  <uzo tip="stl">RAR</uzo>
+  <uzo tip="fak">RAR</uzo>
   <snc mrk="somnol.0i.KOMUNE">
     <dif>
-      <ref tip="dif" cel="dorm.duon0i.KOMUNE">Duondormi</ref>:
+      Nek dormi, nek maldormi, 
+      t.e. <ref tip="dif" cel="dorm.duon0i.KOMUNE">duondormi</ref>:
       <ekz>
-        &gcirc;i aspektas iom senvive, sed &gcirc;i nur <tld/>as
+        &gcirc;i aspektas iom senvive, sed &gcirc;i nur <tld/>as,
+        vidu, kiel moveti&gcirc;as la antenoj
         <fnt>
           <aut>J. Camacho</aut>,
           <vrk>La Majstro kaj Martinelli</vrk>,
@@ -21,28 +23,30 @@
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
-      <trd><ind>verschlafen</ind> sein</trd>,
-      <trd>halb <ind>schlafen</ind></trd>
-    </trdgrp>
+    <refgrp tip="vid">
+      <ref cel="hebet.0a">hebeta</ref>,
+      <ref cel="somnam.0i">somnambuli</ref>
+    </refgrp>
   </snc>
-  <ref tip="vid" cel="somnam.0i">somnambuli</ref>
   <trdgrp lng="cs">
     <trd>kl&iacute;mat</trd>,
     <trd>pod&rcaron;imovat</trd>
   </trdgrp>
-  <trd lng="de"/>
+  <trdgrp lng="de">
+    <trd><ind>benommen</ind> sein</trd>,
+    <trd>halb <ind>schlafen</ind></trd>,
+    <trd><ind>verschlafen</ind> sein</trd>
+  </trdgrp>
   <trd lng="sk">podriemkava&tcaron;</trd>
 </drv>
 
 <drv mrk="somnol.0o">
   <kap><tld/>o</kap>
-  <uzo tip="stl">RAR</uzo>
+  <uzo tip="fak">RAR</uzo>
   <snc mrk="somnol.0o.KOMUNE">
     <dif>
-      <ref tip="dif" cel="dorm.duon0o.KOMUNE">Duondormo</ref>,
-      <ref tip="vid" cel="letarg.0o.FIG">letargio<sncref/></ref>,
-      <ref tip="vid" cel="torpor.0o.KOMUNE">torporo</ref>:
+      Stato de reduktita vigleco, 
+      <ref tip="dif" cel="dorm.duon0o.KOMUNE">duondormo</ref>:
       <ekz>
         ankora&ubreve; en <tld/>o, &scirc;i trenis sin al la fenestro
         <fnt>
@@ -52,11 +56,20 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Halbschlaf</trd>
+    <refgrp tip="vid">
+      <ref cel="letarg.0o.FIG">letargio<sncref/></ref>,
+      <ref cel="stupor.0o">stuporo</ref>,
+      <ref cel="torpor.0o.KOMUNE">torporo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>d&rcaron;&iacute;mota</trd>,
     <trd>polosp&aacute;nek</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Somnolenz</trd>,
+    <trd>Benommenheit</trd>,
+    <trd>Halbschlaf</trd>
   </trdgrp>
   <trd lng="sk">polosp&aacute;nok</trd>
 </drv>
@@ -64,6 +77,9 @@
 
 <!--
 $Log$
+versio 1.6 2022/03/26 08:32:13
+Wolfram Diestel: trd de, ref, dif-precizigo
+
 Revision 1.4  2015/07/04 08:37:43  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -75,6 +91,5 @@ Jeromo Vasxe: - malplena fak
 
 Revision 1.1  2013/11/23 02:10:20  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>
