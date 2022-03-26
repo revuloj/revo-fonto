@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: produt.xml,v 1.43 2020/02/14 16:10:15 revo Exp $">
+<art mrk="$Id: produt.xml,v 1.44 2022/03/26 15:53:38 revo Exp $">
 <kap>
   <rad>produt</rad>/o
   <fnt>Z</fnt>
@@ -19,18 +19,16 @@
         kaj <frm>5</frm>;
       </ekz>
       <ekz>
-        la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm
-        am="b"><k>b</k></frm> 
-        oni signas per <frm am="a xx b"><k>a</k>&#215;<k>b</k></frm>,
+        la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm am="b"><k>b</k></frm> 
+        oni signas per <frm am="a xx b"><k>a</k>&#xD7;<k>b</k></frm>,
         <frm am="a*b"><k>a</k>&middot;<k>b</k></frm>, a&ubreve; simple 
         <frm am="ab"><k>a</k><k>b</k></frm>,
       </ekz>
       <ekz>
         kaj la <tld/>on de &ccirc;iuj termoj en 
         <ref cel="famili.0o.bildigo">familio</ref>
-        <frm am="(a_i)_(i in bb I)"
-        >(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
-        per <frm am="prod_(i in bb I)a_i">&Pi;<sub><k>i</k>&#8712;<g>I</g></sub> 
+        <frm am="(a_i)_(i in bb I)">(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#x2208;<g>I</g></sub></frm>
+        per <frm am="prod_(i in bb I)a_i">&Pi;<sub><k>i</k>&#x2208;<g>I</g></sub> 
         <k>a</k><sub><k>i</k></sub></frm>;
       </ekz>
       <ekz>
@@ -73,6 +71,7 @@
     <trd>n&aacute;sobok</trd>,
     <trd>s&uacute;&ccaron;in</trd>
   </trdgrp>
+  <trd lng="uk">&#x434;&#x43E;&#x431;&#x443;&#x442;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="produt.ekstera0o">
@@ -111,7 +110,7 @@
       <ekz>
         la kartezian <tld/>on de <frm am="bb E"><g>E</g></frm> kaj
         <frm am="bb F"><g>F</g></frm>
-        oni signas per <frm am="bb E xx bb F"><g>E</g>&#215;<g>F</g></frm>
+        oni signas per <frm am="bb E xx bb F"><g>E</g>&#xD7;<g>F</g></frm>
         <klr> (legu: e per fo, e kruco fo)</klr>;
       </ekz>
       <ekz>
@@ -125,18 +124,15 @@
     <ref tip="vid" cel="kartez.0o">Kartezio.</ref>
     <rim>
       La nocion eblas vastigi al <tld/>o de pli ol du aroj. Ekz-e la
-      <tld/>o <frm am="bb E xx bb F xx bb G"
-      ><g>E</g>&#215;<g>F</g>&#215;<g>G</g></frm> estas aro de
+      <tld/>o <frm am="bb E xx bb F xx bb G"><g>E</g>&#xD7;<g>F</g>&#xD7;<g>G</g></frm> estas aro de
       &ccirc;iuj <ref cel="op.0o.vico">opoj</ref>
       <frm am="(x,y,z)">(<k>x</k>,<k>y</k>,<k>z</k>)</frm> kun
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>,
-      <frm am="y in bb F"><k>y</k>&#8712;<g>F</g></frm>,
-      <frm am="z in bb G"><k>z</k>&#8712;<g>G</g></frm>.
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>,
+      <frm am="y in bb F"><k>y</k>&#x2208;<g>F</g></frm>,
+      <frm am="z in bb G"><k>z</k>&#x2208;<g>G</g></frm>.
       Eblas diri anka&ubreve;, ke &gcirc;i estas difinita kiel la duobla
-      <tld/>o <frm am="(bb E xx bb F) xx bb G"
-      >(<g>E</g>&#215;<g>F</g>)&#215;<g>G</g></frm> a&ubreve;
-      <frm am="bb E xx (bb F xx bb G)"
-      ><g>E</g>&#215;(<g>F</g>&#215;<g>G</g>)</frm>, kiujn oni arbitre
+      <tld/>o <frm am="(bb E xx bb F) xx bb G">(<g>E</g>&#xD7;<g>F</g>)&#xD7;<g>G</g></frm> a&ubreve;
+      <frm am="bb E xx (bb F xx bb G)"><g>E</g>&#xD7;(<g>F</g>&#xD7;<g>G</g>)</frm>, kiujn oni arbitre
       elektas identigi.
     </rim>
   </snc>
@@ -156,6 +152,7 @@
     <trd>&c_p;&c_r;&c_ja;&c_m;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
   </trdgrp>
   <trd lng="sk">kartezi&aacute;nsky s&uacute;&ccaron;in</trd>
+  <trd lng="uk">&#x434;&#x435;&#x43A;&#x430;&#x440;&#x442;&#x456;&#x432; &#x434;&#x43E;&#x431;&#x443;&#x442;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="produt.hermita_skalara0o">
@@ -166,10 +163,9 @@
     <dif>
       <klr>(super kompleksa <ref cel="spac.vektora0o">vektora
       spaco</ref> <frm am="bb E"><g>E</g></frm>)</klr>
-      Tia <ref cel="form.hermita0o">hermita formo</ref> <frm
-      am="phi">&phi;</frm>, ke
-      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>, kaj
+      Tia <ref cel="form.hermita0o">hermita formo</ref> <frm am="phi">&phi;</frm>, ke
+      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#x2265; 0</frm> por &ccirc;iuj
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>, kaj
       egalas al nulo, se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>.
     </dif>
     <refgrp tip="vid">
@@ -232,8 +228,8 @@
       Tia <ref cel="linear.n0a">dulineara</ref>
       <ref cel="simetr.0a.bildigo">simetria</ref>
       <ref cel="form.0o.bildigo">formo</ref> <frm am="phi">&phi;</frm>, ke
-      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>, kaj
+      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#x2265; 0</frm> por &ccirc;iuj
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>, kaj
       egalas al nulo, se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>.
     </dif>
     <refgrp tip="vid">
@@ -254,10 +250,8 @@
       <ekz>
         la skalaran <tld/>on de <frm am="x"><k>x</k></frm> kaj
         <frm am="y"><k>y</k></frm>
-        oni signas foje per <frm
-        am="x*y"><k>x</k>&middot;<k>y</k></frm>,
-        foje per <frm am="(:x|y:)"
-        >&lt;<k>x</k>|<k>y</k>&gt;</frm>.
+        oni signas foje per <frm am="x*y"><k>x</k>&middot;<k>y</k></frm>,
+        foje per <frm am="(:x|y:)">&lt;<k>x</k>|<k>y</k>&gt;</frm>.
       </ekz>
     </dif>
   <trdgrp lng="pt">
@@ -271,6 +265,7 @@
   <trd lng="hu">skal&aacute;ris <ind>szorzat</ind></trd>  
   <trd lng="pl">iloczyn skalarny</trd>
   <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+  <trd lng="uk">&#x441;&#x43A;&#x430;&#x43B;&#x44F;&#x440;&#x43D;&#x438;&#x439; &#x434;&#x43E;&#x431;&#x443;&#x442;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="produt.vektora0o">
@@ -285,16 +280,13 @@
       <frm am="bb E^(n-1)"><g>E</g><sup><k>n</k>-1</sup></frm>
       al <frm am="bb E"><g>E</g></frm>,
       kiu &jcirc;etas &ccirc;iun <frm am="(n-1)">(<k>n</k>-1)</frm>-opon
-      <frm am="(x_1,...,x_(n-1))"
-      >(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>)</frm>
+      <frm am="(x_1,...,x_(n-1))">(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>)</frm>
       al tia ununura vektoro <frm am="a"><k>a</k></frm>, ke la skalara
       <tld/>o
-      de <frm am="a"><k>a</k></frm> per <frm
-      am="x_n"><k>x</k><sub><k>n</k></sub></frm>
+      de <frm am="a"><k>a</k></frm> per <frm am="x_n"><k>x</k><sub><k>n</k></sub></frm>
       egalas al la
       <ref cel="determ.0anto.vektoroj">determinanto</ref> de
-      <frm am="(x_1,...,x_(n-1),x_n)"
-      >(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>,
+      <frm am="(x_1,...,x_(n-1),x_n)">(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>,
       <k>x</k><sub><k>n</k></sub>)</frm>, kiu ajn estas
       <frm am="x_n"><k>x</k><sub><k>n</k></sub></frm>.
     </dif>
@@ -312,7 +304,7 @@
         la vektoran <tld/>on de <frm am="x"><k>x</k></frm> kaj
         <frm am="y"><k>y</k></frm>
         en tridimensia spaco oni signas foje per
-        <frm am="x^^y"><k>x</k>&#8743;<k>y</k></frm>;
+        <frm am="x^^y"><k>x</k>&#x2227;<k>y</k></frm>;
       </ekz>
       <ekz>
         la <ref cel="kompon.0anto.MAT">komponantoj</ref> de la
@@ -320,8 +312,7 @@
         vektoroj
         de <frm am="n"><k>n</k></frm>-opo egalas al la
         <ref cel="kofakt.0o">kofaktoroj</ref> de elementoj en la lasta
-        vertikalo de la <frm
-        am="(n,n)">(<k>n</k>,<k>n</k>)</frm>-matrico de iliaj
+        vertikalo de la <frm am="(n,n)">(<k>n</k>,<k>n</k>)</frm>-matrico de iliaj
         komponantoj.
       </ekz>
     </dif>
@@ -335,6 +326,7 @@
   <trd lng="pl">iloczyn wektorowy</trd>
   <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
   <trd lng="sk">vektorov&yacute; s&uacute;&ccaron;in</trd>
+  <trd lng="uk">&#x432;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x43D;&#x438;&#x439; &#x434;&#x43E;&#x431;&#x443;&#x442;&#x43E;&#x43A;</trd>
 </drv>
 </art>
 <!--
