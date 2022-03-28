@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: topolo.xml,v 1.36 2021/05/11 14:52:30 revo Exp $">
+<art mrk="$Id: topolo.xml,v 1.37 2022/03/28 14:44:11 revo Exp $">
 <kap>
   <rad>topologi</rad>/o
 </kap>
@@ -66,8 +66,7 @@
         <trd lng="fr">topologie grossi&egrave;re</trd>
         <trd lng="hu">trivi&aacute;lis <ind>topol&oacute;gia</ind></trd>
 
-        <trd
-lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
+        <trd lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
       </ekz>
       <ekz>
@@ -85,8 +84,7 @@ lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         de subaroj de <frm am="bb E"><g>E</g></frm> 
         <klr>(<tld/>o, kies bazon konsistigas
         &ccirc;iuj finiaj komuna&jcirc;oj de elementoj en
-        <frm am="bb A uu {O/,bb E}"
-        ><g>A</g>&#8746;{&#8709;,<g>E</g>}</frm>)</klr>;
+        <frm am="bb A uu {O/,bb E}"><g>A</g>&#x222A;{&#x2205;,<g>E</g>}</frm>)</klr>;
       </ekz>
       <ekz>
         <tld/>o super <frm><g>E</g></frm>, difinita per aro de bildigoj
@@ -126,6 +124,7 @@ lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
   <trd lng="pl">topologia</trd>
   <trd lng="pt">topologia</trd>
   <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+  <trd lng="uk">&#x442;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x433;&#x456;&#x44F;</trd>
 </drv>
 
 <drv mrk="topolo.0a">
@@ -155,8 +154,7 @@ lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigo <frm am="x&#8224;y^-1"
-        ><k>x</k>&#8224;<k>y</k><sup>-1</sup></frm> estu
+        la bildigo <frm am="x&#x2020;y^-1"><k>x</k>&#x2020;<k>y</k><sup>-1</sup></frm> estu
         <ref cel="kontin3.0a.cxie">kontinua</ref>.
       </dif>
     </subsnc>
@@ -165,8 +163,8 @@ lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         <klr>(p.p. <ref cel="ring.0o.MAT">ringo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigoj <frm am="x&#8224;(-y)"><k>x</k>&#8224;(-<k>y</k>)</frm> kaj
-        <frm am="x*y"><k>x</k>&#8729;<k>y</k></frm> estu
+        la bildigoj <frm am="x&#x2020;(-y)"><k>x</k>&#x2020;(-<k>y</k>)</frm> kaj
+        <frm am="x*y"><k>x</k>&#x2219;<k>y</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
@@ -177,12 +175,11 @@ lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
         la bildigoj <frm am="x-y"><k>x</k>-<k>y</k></frm> kaj
-        <frm am="alpha*x">&alfa;&#8729;<k>x</k></frm> estu
+        <frm am="alpha*x">&alfa;&#x2219;<k>x</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
-    <trd
-lng="be">&c_t;&c_a;&c_p;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
+    <trd lng="be">&c_t;&c_a;&c_p;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
     <trd lng="de">topologisch</trd>
     <trd lng="en">topological</trd>
     <trd lng="es">topol&oacute;gico</trd>
@@ -244,7 +241,7 @@ tiu,
       La <ref tip="super" cel="topolo.0o.strukturo"><tld/>o</ref>,
       difinita per la aro de &ccirc;iuj bildigoj
       <frm am="theta_x">&theta;<sub><k>x</k></sub></frm> (por
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>), kiuj &jcirc;etas elementon
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>), kiuj &jcirc;etas elementon
       <frm am="phi">&phi;</frm> de la dualo al 
       <frm am="phi(x)">&phi;(<k>x</k>)</frm>:
       <ekz>

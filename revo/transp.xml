@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: transp.xml,v 1.19 2020/02/16 11:10:28 revo Exp $">
+<art mrk="$Id: transp.xml,v 1.20 2022/03/28 14:44:12 revo Exp $">
 <kap>
   <rad>transpon</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -63,6 +62,11 @@
   </trdgrp>
   <trd lng="fr">transposer</trd>
   <trd lng="sk">premiest&ncaron;ova&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x449;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="transp.0o">
@@ -74,12 +78,9 @@
       <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> 
       <frm am="A">A</frm>) </klr>
       <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kies rezulto
-      estas la <frm am="(p,n)"
-      >(<k>p</k>,<k>n</k>)</frm>-matrico <frm am="B">B</frm>, kies
+      estas la <frm am="(p,n)">(<k>p</k>,<k>n</k>)</frm>-matrico <frm am="B">B</frm>, kies
       
-      elementoj kun indico <frm
-      
-      am="(i,j)">(<k>i</k>,<k>j</k>)</frm> egalas
+      elementoj kun indico <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> egalas
       al la elementoj de <frm am="A">A</frm> kun indico
       <frm am="(j,i)">(<k>j</k>,<k>i</k>)</frm>:
       <ekz>
@@ -100,6 +101,12 @@
   <trd lng="nl">transpositie</trd>
   <trd lng="ru">&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">transponovanie</trd>
+  <trdgrp lng="uk">
+    <trd>&#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x44F;</trd>,
+    <trd>&#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x430;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="transp.0ajxo">
@@ -112,15 +119,14 @@
       Rezulto de &gcirc;ia <ref cel="transp.0o"><tld/>o</ref>:
       <ekz>
         la <tld/>a&jcirc;on de <frm am="A">A</frm> oni kutime signas per 
-        <frm am="A&#8242;">A&#8242;</frm> <klr> (legu: a streko)</klr> a&ubreve;&nbsp;
-        <frm am='""^tA'><sup>t</sup>A</frm> <klr> (legu: to a)</klr>;
+        <frm am="A&#x2032;">A&#x2032;</frm> <klr> (legu: a streko)</klr> a&ubreve;&nbsp;
+        <frm am="&quot;&quot;^tA"><sup>t</sup>A</frm> <klr> (legu: to a)</klr>;
       </ekz>
       <ekz>
-        la <tld/>a&jcirc;o de produto <frm am="A xx B">A&#215;B</frm> egalas al la
+        la <tld/>a&jcirc;o de produto <frm am="A xx B">A&#xD7;B</frm> egalas al la
         produto de la <tld/>a&jcirc;o de <frm am="B">B</frm> per tiu de 
-        <frm  am="A">A</frm> 
-        <klr> ( <frm am='""^t(AxxB)=""^tB xx ""^tA'
-        ><sup>t</sup>(A&#215;B) = <sup>t</sup>B&#215;<sup>t</sup>A</frm> )</klr>.
+        <frm am="A">A</frm> 
+        <klr> ( <frm am="&quot;&quot;^t(AxxB)=&quot;&quot;^tB xx &quot;&quot;^tA"><sup>t</sup>(A&#xD7;B) = <sup>t</sup>B&#xD7;<sup>t</sup>A</frm> )</klr>.
       </ekz>
     </dif>
   </snc>
