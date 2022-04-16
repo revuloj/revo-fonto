@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: asekur.xml,v 1.32 2022/03/12 13:22:01 revo Exp $">
+<art mrk="$Id: asekur.xml,v 1.33 2022/04/16 15:29:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>asekur</rad>/i <fnt><bib>PV</bib></fnt>
@@ -12,9 +12,8 @@
   <snc mrk="asekur.0i.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Protekti per kontrakto kun kompanio, kiu en okazo de doma&gcirc;o a&ubreve;
-      perdo
-      pagu kompensan monon:
+      <ref tip="super" cel="protek.0i">Protekti</ref> per kontrakto kun kompanio, 
+      kiu en okazo de doma&gcirc;o a&ubreve; perdo pagu kompensan monon:
       <ekz>
         <tld/>i domon kontra&ubreve; incendio;
       </ekz>
@@ -22,7 +21,26 @@
         sin <tld/>i kontra&ubreve; akcidentoj, morto;
       </ekz>
       <ekz>
-        <tld/>i sian vivon.
+        &scirc;i prenis sian &scirc;paritan monon por asekuri siajn du infanojn, tiel ke en okazo de
+        bezono la <tld/>o povos financi lernadon de profesio a&ubreve; studado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2008/009448.php"
+              >Krimaj ri&ccirc;uloj</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Munkena Reasekuro <klr>[&#8230;]</klr> <tld/>as <tld/>kompaniojn kontra&ubreve; plej grandaj
+        riskoj speciale pro naturkatastrofoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Fu&szlig;</aut>
+          <vrk><url ref="https://www.monato.be/2011/010273.php"
+              >Verdigu la dezertojn!</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">versichern</trd>
@@ -31,12 +49,15 @@
   <snc mrk="asekur.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Protekti, sekurigi kontra&ubreve; io:
+      Protekti, <ref tip="super" cel="sekur.0igi">sekurigi</ref> kontra&ubreve; io:
       <ekz>
         lia sorto estas de nun <tld/>ita;
       </ekz>
       <ekz>
-        laboro <tld/>as kontra&ubreve; mizero.
+        laboro <klr>[&#8230;]</klr> <tld/>as kontra&ubreve; mizero
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -56,13 +77,13 @@
   <trd lng="en">insure</trd>
   <trd lng="es">asegurar</trd>
   <trd lng="fr">assurer</trd>
-  <trd lng="he">&#x5DC;&#x5D1;&#x5D8;&#x5D7;</trd>
+  <trd lng="he">&lamed;&bet;&tet;&het;</trd>
   <trd lng="hu">biztos&iacute;t<klr tip="amb"> (vmi ellen)</klr></trd>
   <trd lng="it">assicurare<klr> (econ. e fig.)</klr></trd>
   <trd lng="nl">verzekeren</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sv">f&ouml;rs&auml;kra</trd>
-  <trd lng="uk">&#x441;&#x442;&#x440;&#x430;&#x445;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&c_s;&c_t;&c_r;&c_a;&c_h;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="asekur.0ado">
@@ -70,7 +91,17 @@
   <snc mrk="asekur.0ado.EKON">
   <uzo tip="fak">EKON</uzo>
     <dif>
-      Ago <tld/>i.
+      Ago <tld/>i:
+      <ekz>
+        <tld/>ado kontra&ubreve; kurzo&scirc;an&gcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bo Sandelin</aut>
+          <vrk><url ref="https://www.monato.be/2004/008235.html"
+              >Svedoj balotis kontra&ubreve; e&ubreve;ro</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_h;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
@@ -80,7 +111,7 @@
   </trdgrp>
   <trd lng="de">Versichern</trd>
   <trd lng="fr">assurance</trd>
-  <trd lng="he">&#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D7;</trd>
+  <trd lng="he">&bet;&yod;&tet;&vav;&het;</trd>
   <trd lng="hu">biztos&iacute;t&aacute;s</trd>
   <trd lng="it">assicurare<klr> (econ.)</klr></trd>
   <trd lng="nl">verzekering</trd>
@@ -93,23 +124,97 @@
   <snc mrk="asekur.0o.EKON">
   <uzo tip="fak">EKON</uzo>
     <dif>
-      Kontrakto por <tld/>i.
+      <ref tip="super" cel="kontra3.0o">Kontrakto</ref> por <tld/>i:
+      <ekz>
+        pri la sorto de mia familio post mia morto mi ne havos zorgojn, &ccirc;ar krom la
+        pensimono, anka&ubreve; la abunda <ind>viv<tld/>o</ind> donos sufi&ccirc;an fundamenton
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Unua &Ccirc;apitro</lok>
+        </fnt>;
+        <trd lng="de">Lebensversicherung</trd>
+      </ekz>
+      <ekz>
+        mi trovis dokumentojn de la kontra&ubreve;malsana <tld/>o
+        <fnt>
+          <bib>ChC</bib>
+          <lok>2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        47 milionoj homoj vivas sen <ind>san<tld/>o</ind>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2009/009916.php"
+              >Fendita nacio</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+        <trd lng="de">Krankenversicherung</trd>
+      </ekz>
+      <ekz>
+        plialtigi impostojn por <ind>socia <tld/>o</ind>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Straznickas</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006806.html"
+              >Litovio: &Ccirc;iea &scirc;parado</url></vrk>
+        </fnt>;
+        <trd lng="de">Sozialversicherung</trd>
+      </ekz>
+      <ekz>
+        dum 5 jaroj li ricevis subvencion el la <ind>senlabor-<tld/>o</ind>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2008/009448.php"
+              >Krimaj ri&ccirc;uloj</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+        <trd lng="de">Arbeitslosenversicherung</trd>
+      </ekz>
+      <ekz>
+        reformi la le&gcirc;an <ind>pensi-<tld/>o</ind>n
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006835.html"
+              >Germanio: Pekoj de patriarko</url></vrk>
+        </fnt>.
+        <trd lng="de">Rentenversicherung</trd>
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="asekur.0o.FIG">
+    <dif>
+      Sekurigo, protekto kontra&ubreve; io:
+      <ekz>
+        <klr>[&scirc;i]</klr> kun &gcirc;ojo enmetis sian manon en la manon de neri&ccirc;a, sed laborema
+        homo, pensante, ke <klr>[&#8230;tiel]</klr> &scirc;ia estonteco ricevis sufi&ccirc;an <tld/>on
+        kontra&ubreve; la suferoj de soleco
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_w;&c_k;&c_a;</trd>
   <trd lng="bg">&c_z;&c_a;&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_a;&c_n;&c_je;</trd>
-  <trd lng="bo">&#xF49;&#xF7A;&#xF53;&#xF0B;&#xF66;&#xFB2;&#xF74;&#xF44;&#xF0B;&#xF60;&#xF42;&#xF53;&#xF0B;&#xF63;&#xF7A;&#xF53;&#xF0B;</trd>
+  <trd lng="bo">&t_nya;&t_drengbu;&t_na;&t_tsheg;&t_sa;&t_rata;&t_shabchu;&t_nga;&t_tsheg;&t_-a;&t_ga;&t_na;&t_tsheg;&t_la;&t_drengbu;&t_na;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>asekurace</trd>,
     <trd>poj. smlouva</trd>,
     <trd>poji&scaron;t&ecaron;n&iacute;</trd>,
     <trd>zabezpe&ccaron;en&iacute;</trd>
   </trdgrp>
-  <trd lng="de">Versicherung</trd>
+  <trdgrp lng="de">
+    <trd>Versicherung</trd>,
+    <trd>Absicherung</trd>
+  </trdgrp>
   <trd lng="en">insurance</trd>
   <trd lng="es">seguro</trd>
   <trd lng="fr">assurance</trd>
-  <trd lng="he">&#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D7;</trd>
+  <trd lng="he">&bet;&yod;&tet;&vav;&het;</trd>
   <trd lng="hu">biztos&iacute;t&aacute;s<klr tip="amb"> (szerz&odblac;d&eacute;s)</klr></trd>
   <trd lng="it"><klr>(contratto d')</klr>assicurazione</trd>
   <trd lng="nl">verzekering</trd>
@@ -120,22 +225,80 @@
   </trdgrp>
   <trd lng="sv">f&ouml;rs&auml;kring</trd>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x441;&#x435;&#x43A;&#x443;&#x440;&#x430;&#x446;&#x456;&#x44F;</trd>,
-    <trd>&#x441;&#x442;&#x440;&#x430;&#x445;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x441;&#x442;&#x440;&#x430;&#x445;&#x43E;&#x432;&#x43A;&#x430;</trd>
+    <trd>&c_a;&c_s;&c_je;&c_k;&c_u;&c_r;&c_a;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_s;&c_t;&c_r;&c_a;&c_h;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="asekur.0a">
   <kap><tld/>a</kap>
   <snc mrk="asekur.0a.EKON">
-  <uzo tip="fak">EKON</uzo>
+    <uzo tip="fak">EKON</uzo>
     <dif>
+      Rilata al <tld/>o:
       <ekz>
-        <ind><tld/>a kompanio</ind>
+        direktoro de <ind><tld/>a kompanio</ind>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 8-9 (58-59)</lok>
+        </fnt>;
         <trd lng="de">Versicherungsgesellschaft</trd>
-        , agento, kontrakto.
       </ekz>
+      <ekz>
+        mi estas <ind><tld/>a agento</ind> kaj mia patro estas policisto
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 11 (109)</lok>
+        </fnt>;
+        <trd lng="de">Versicherungsvertreter</trd>
+      </ekz>
+      <ekz>
+        <tld/>a statistiko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2013/010943.php"
+              >Kiel ku&scirc;i klinike?</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nek la &scirc;tato nek la <tld/>aj kompanioj havas sufi&ccirc;e da mono por pagi tiom da
+        pensioj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007101.html"
+              >Pensoj pensiaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili apena&ubreve; ricevos <tld/>ajn a&ubreve; registarajn kompensojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007272.html"
+              >Reen al la edena paradizo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        montru al mi vian <tld/>an kontrakton por la a&ubreve;to
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sergeo Dereviannykh</aut>
+          <vrk><url ref="https://www.monato.be/2004/007562.html"
+              >Kiu instigas nin al farado, kiel plej multe faras</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a sumo de la tuto estis 70 milionoj da e&ubreve;roj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007065.html"
+              >Filatelo: VIPE 2000, a&ubreve; &ccirc;u la po&scirc;tmarkoj malaperos?</url></vrk>
+        </fnt>;
+      </ekz>
+
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_h;&c_a;&c_v;&c_y;</trd>
@@ -146,7 +309,7 @@
   </trdgrp>
   <trd lng="de">Versicherungs-</trd>
   <trd lng="fr">d'<ind>assurance</ind></trd>
-  <trd lng="he">&#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D7;&#x5D9;</trd>
+  <trd lng="he">&bet;&yod;&tet;&vav;&het;&yod;</trd>
   <trdgrp lng="hu">
     <trd>biztos&iacute;t&oacute;-</trd>,
     <trd>biztos&iacute;t&aacute;si</trd>
@@ -155,7 +318,7 @@
   <trd lng="nl">verzeker-</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_o;&c_j;</trd>
   <trd lng="sk">poistn&yacute;</trd>
-  <trd lng="uk">&#x441;&#x442;&#x440;&#x430;&#x445;&#x43E;&#x432;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="asekur.0atesto">
@@ -173,7 +336,7 @@
   <trd lng="en">insurance certificate</trd>
   <trdgrp lng="fr"><trd>attestation d'assurance</trd>, <trd>carte
   verte<klr> (a&ubreve;tomobila)</klr></trd></trdgrp>
-  <trd lng="he">&#x5E4;&#x5D5;&#x5DC;&#x5D9;&#x5E1;&#x5EA; &#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D7;</trd>
+  <trd lng="he">&pe;&vav;&lamed;&yod;&samekh;&tav; &bet;&yod;&tet;&vav;&het;</trd>
   <trd lng="hu">biztos&iacute;t&aacute;si bizonylat</trd>
   <trd lng="it">contrassegno<klr> (dell'assicurazione)</klr></trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_o;&c_je; &c_s;&c_v;&c_i;&c_d;&c_je;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
@@ -196,7 +359,7 @@
   </trdgrp>
   <trd lng="en">insurance book</trd>
   <trd lng="fr">portefeuille d'assurances</trd>
-  <trd lng="he">&#x5E1;&#x5E4;&#x5E8; &#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D7;</trd>
+  <trd lng="he">&samekh;&pe;&resh; &bet;&yod;&tet;&vav;&het;</trd>
   <trdgrp lng="hu">
     <trd>biztos&iacute;t&aacute;si &aacute;llom&aacute;ny</trd>,
     <trd>k&ouml;tv&eacute;ny&aacute;llom&aacute;ny</trd>
@@ -211,20 +374,47 @@
   <snc mrk="asekur.0isto.EKON">
   <uzo tip="fak">EKON</uzo>
     <dif>
-      Tiu, kiu sin okupas pri <tld/>oj.
+      Tiu, kiu sin okupas pri <tld/>oj:
+      <ekz>
+        la <tld/>istoj ne &gcirc;ustatempe respondas: pro tio multaj metiistoj alfrontas
+        bankroton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>D. E. Rogers</aut>
+          <vrk><url ref="https://www.monato.be/2011/010468.php"
+              >Tremoj teraj, financaj, politikaj</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="asekur.0isto.kompanio">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <tld lit="A"/>kompanio:
+      <ekz>
+        la plej granda <tld/>isto en la mondo, <nom>AIG</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marc Vanden Bempt</aut>
+          <vrk><url ref="https://www.monato.be/2008/009665.php"
+              >La nuna monda financa krizo</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_w;&c_sh;&c_ch;&c_y;&c_k;</trd>
   <trd lng="cs">poji&scaron;&tcaron;ovac&iacute; agent</trd>
   <trd lng="de">Versicherer</trd>
   <trd lng="fr">assureur</trd>
-  <trd lng="he">&#x5E1;&#x5D5;&#x5DB;&#x5DF; &#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D7;</trd>
+  <trd lng="he">&samekh;&vav;&kaf;&fnun; &bet;&yod;&tet;&vav;&het;</trd>
   <trd lng="hu">biztos&iacute;t&oacute;</trd>
   <trd lng="it">assicuratore</trd>
   <trd lng="nl">verzekeraar</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>
   <trd lng="sk">pois&tcaron;ovac&iacute; agent</trd>
-  <trd lng="uk">&#x441;&#x442;&#x440;&#x430;&#x445;&#x43E;&#x432;&#x438;&#x439; &#x430;&#x491;&#x435;&#x43D;&#x442;</trd>
+  <trd lng="uk">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_i;&c_j; &c_a;&c_gu;&c_je;&c_n;&c_t;</trd>
 </drv>
 
 <drv mrk="asekur.0amakleristo">
@@ -241,7 +431,7 @@
   <trd lng="de">Versicherungsmakler</trd>
   <trd lng="en">insurance broker</trd>
   <trd lng="fr">courtier d'assurances</trd>
-  <trd lng="he">&#x5E1;&#x5D5;&#x5DB;&#x5DF; &#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D7;</trd>
+  <trd lng="he">&samekh;&vav;&kaf;&fnun; &bet;&yod;&tet;&vav;&het;</trd>
   <trd lng="hu">biztos&iacute;t&aacute;si br&oacute;ker</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_a;&c_h;&c_o;&c_v;&c_o;&c_j; &c_a;&c_g;&c_je;&c_n;&c_t;</trd>
   <trd lng="sk">pois&tcaron;ovac&iacute; makl&eacute;r</trd>
@@ -249,6 +439,9 @@
 </art>
 <!--
 $Log$
+versio 1.33 2022/04/16 15:29:52
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
 Revision 1.28  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
