@@ -1,33 +1,63 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: piastr.xml,v 1.18 2022/03/26 10:43:37 revo Exp $">
+<art mrk="$Id: piastr.xml,v 1.19 2022/04/17 02:03:30 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>piastr</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>piastr</rad>/o <fnt><bib>VdE</bib></fnt>
 </kap>
 <drv mrk="piastr.0o">
   <kap><tld/>o</kap>
-  <snc mrk="piastr.0o.MON">
   <uzo tip="fak">EKON</uzo>
+  <snc mrk="piastr.0o.MON">
     <dif>
-      <ref tip="lst" cel="unu.monasub0o" lst="voko:monunuoj">Mona
-      subunuo</ref> 
-      uzata en Turkujo kaj pluraj okcidentaziaj regnoj
-      kiel centono de
-      <ref tip="malprt" cel="pund.0o.EKON">pundo</ref>,
-      <ref tip="malprt" cel="lir1.0o">liro</ref>;
-      tiomvalora <ref tip="super" cel="mon.0ero">monero</ref>:
+      <ref tip="super" cel="mon.0ero">Monero</ref> kies valoro variis
+      la&ubreve; epokoj kaj landoj:
       <ekz>
-        du pundojn kaj tridek <tld/>ojn
-        <fnt>
-          <aut>L. N. Newell</aut>,
-          <vrk><url ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Noveloj/baksis/piulo.html">
-          La &Jcirc;uro de Piulo</url></vrk>,
-          <lok>en: Bak&scirc;i&scirc;, 1938</lok>
-        </fnt>.
+        La turka piastro valoras 25 centimojn, la hispana 10 frankojn
+        <fnt><bib>VdE</bib></fnt>;
       </ekz>
     </dif>
+    <subsnc mrk="piastr.0o.talero">
+      <uzo tip="fak">HIS</uzo>
+      <dif>
+        Neformala italdevena internacia nomo de la hispana
+        <ref tip="sin" cel="pes1.0o">peso</ref> a&ubreve; alia simila ar&gcirc;enta
+        monero, farita la&ubreve; la modelo de <ref cel="taler.0o">talero</ref>
+        (dolaro, eskudo, la turka <trd lng="tr">kuru&scedil;</trd> ktp):
+        <ekz>
+          <klr>Kandido</klr> sciigis tra la urbo, ke li pagos la
+          voja&gcirc;on, la nutron kaj donacos du mil <tld/>ojn al
+          honestulo, kiu konsentos voja&gcirc;i kun li
+          <fnt><aut>Voltero, trad. Lanti</aut>:
+            <vrk>Kandid a&ubreve; la Optimismo</vrk>.
+            <lok>SAT: Paris, 1929. &Ccirc;ap. 19&#170;</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="piastr.0o.centono">
+      <dif>
+        Ekde la fino de la 19&#170; jc,
+        <ref tip="lst" cel="unu.monasub0o" lst="voko:monunuoj">mona
+        subunuo</ref> 
+        uzata en Turkujo kaj pluraj aliaj aziaj regnoj
+        kiel centono de
+        <ref tip="malprt" cel="pund.0o.EKON">pundo</ref>,
+        <ref tip="malprt" cel="lir1.0o">liro</ref>;
+        tiomvalora <ref tip="super" cel="mon.0ero">monero</ref>:
+        <ekz>
+          du pundojn kaj tridek <tld/>ojn
+          <fnt>
+            <aut>L. N. Newell</aut>,
+            <vrk><url
+                     ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Noveloj/baksis/piulo.html"
+              >La &Jcirc;uro de Piulo</url></vrk>,
+              <lok>en: Bak&scirc;i&scirc;, 1938</lok>
+              </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
   </snc>
   <trd lng="be">&c_p;&c_ib;&c_ja;&c_s;&c_t;&c_a;&c_r;</trd>
   <trd lng="cs">piastr</trd>
@@ -40,11 +70,14 @@
   <trd lng="ro">piastru</trd>
   <trd lng="ru">&c_p;&c_i;&c_a;&c_s;&c_t;&c_r;</trd>
   <trd lng="sk">piaster</trd>
-  <trd lng="uk">&#x43F;&#x456;&#x430;&#x441;&#x442;&#x440; (&#x433;&#x440;&#x43E;&#x448;&#x43E;&#x432;&#x430; &#x43E;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44F;)</trd>
+  <trd lng="uk">&#x43F;&c_ib;&c_a;&c_s;&c_t;&c_r; (&c_g;&c_r;&#x43E;&c_sh;&#x43E;&c_v;&c_a; &#x43E;&c_d;&c_i;&#x43D;&c_i;&c_c;&#x44F;)</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2022/04/17 02:03:30
+Sergio Pokrovskij: 2 subsnc
+
 versio 1.17 2022/02/14 23:29:12
 Vito Redsky: + trd pl + trd ro 
 
@@ -64,8 +97,5 @@ Revision 1.11  2006/03/01 17:32:02  revo
 Tulio Flores: +tr pt
 
 Revision 1.10  2003/07/17 16:34:14  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/12/06 19:40:19  revo
 -->
 </vortaro>
