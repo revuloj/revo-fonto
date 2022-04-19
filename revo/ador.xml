@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ador.xml,v 1.30 2022/04/18 20:29:34 revo Exp $">
+<art mrk="$Id: ador.xml,v 1.31 2022/04/19 06:35:15 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>ador</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -12,7 +12,8 @@
   <snc mrk="ador.0i.religie">
     <uzo tip="fak">REL</uzo>
     <dif>
-      Respektegi kaj honoregi kiel dion:
+      <ref tip="sin" cel="respek.0egi">Respektegi</ref> kaj 
+      <ref tip="super" cel="honor.0i.respekti">honoregi</ref> kiel dion:
       <ekz>
         ne <tld/>u iliajn diojn kaj ne servu ilin, <klr>[&#8230;]</klr> sed frakasu ilin kaj
         detruu iliajn statuojn
@@ -54,7 +55,6 @@
     </refgrp>
     <trd lng="be">&c_p;&c_a;&c_k;&c_l;&c_a;&c_n;&c_ja;&c_c;&c_c;&c_a;</trd>
     <trd lng="br">azeuli&ntilde;</trd>
-    <trd lng="de">anbeten</trd>
     <trd lng="ms">memuja</trd>
     <trdgrp lng="en">
       <trd>adore</trd>,
@@ -89,10 +89,11 @@
     </trdgrp>
     <trd lng="ru">&c_p;&c_o;&c_k;&c_l;&c_o;&c_n;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
-  <snc mrk="ador.0i.amegi">
+  <snc mrk="ador.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Pasie inklinegi al iu a&ubreve; io; <ref cel="glor.0i">glori</ref> kvaza&ubreve; dio a&ubreve; dia&jcirc;o:
+      Honoregi kvaza&ubreve; dion a&ubreve; dia&jcirc;on; 
+      pasie inklinegi al iu a&ubreve; io; 
       <ekz>
         mi <tld/>as la &ccirc;ampanon
         <fnt>
@@ -136,12 +137,6 @@
         </fnt>;
       </ekz>
       <ekz>
-        <ind>&ccirc;iu abomena&jcirc;o trovas sian <tld/>anton</ind>
-        <fnt><bib>PrV</bib></fnt>;
-        <trd lng="fr">tous les <ind>gout</ind>s sont dans la
-        nature</trd>
-      </ekz>
-      <ekz>
         vivanton ni malhonoras, mortinton ni <tld/>as
         <fnt>
           <bib>PrV</bib>
@@ -156,6 +151,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="am.0egi">amegi</ref>,
+      <ref cel="ard.0i.FIG">ardi<sncref/></ref>,
       <ref cel="sxat.0i">&scirc;ati</ref>
     </refgrp>
     <trdgrp lng="be">
@@ -194,8 +190,8 @@
     <trd>zbo&zcaron;&ncaron;ovat</trd>
   </trdgrp>
   <trdgrp lng="de">
-    <trd>verg&ouml;ttern</trd>,
-    <trd>anbeten</trd>
+    <trd>anbeten</trd>,
+    <trd>verg&ouml;ttern</trd>
   </trdgrp>
   <trd lng="he">&lamed;&he;&ayin;&resh;&yod;&ftsadi;</trd>
   <trd lng="hu">im&aacute;d</trd>
@@ -211,9 +207,79 @@
     <trd>&c_p;&c_o;&c_k;&c_l;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_s;&c_ja;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="ador.0anto">
+  <kap>
+    <tld/>anto
+  </kap>
+  <dif>
+    Iu, kiu <tld/>as:
+  </dif>
+  <snc ref="ador.0i.religie">
+      <ekz>
+        mi malamas la <tld/>antojn de vantaj idoloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 31:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        veraj <tld/>antoj <tld/>os la Patron la&ubreve; spirito kaj vero
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 4:23</lok>
+        </fnt>.
+      </ekz>
+  <trd lng="de">Anbeter</trd>
+  </snc>
+  <snc ref="ador.0i.FIG">
+      <ekz>
+        kolekti&gcirc;as la <tld/>antoj de <nom>Kama</nom>, nia pastrino
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>antoj de <nom>Thorwaldsen</nom>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Najbaraj familioj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nu, diris <nom>Stella</nom>, <klr>[&#8230;]</klr> elser&ccirc;u la pekulon <klr>[&#8230;]</klr> kaj starigu
+        lin en la vicon de miaj <tld/>antoj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia humila <tld/>anto opiniis, ke for de &scirc;ia &ccirc;eesto la tempo pasas vere tro
+        malrapide
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Na&ubreve;a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>&ccirc;iu abomena&jcirc;o trovas sian <tld/>anton</ind>
+        <fnt><bib>PrV</bib></fnt>.
+        <trd lng="fr">tous les <ind>gout</ind>s sont dans la
+        nature</trd>
+      </ekz>
+    <trd lng="de">Verehrer</trd>
+  </snc>
+</drv>
+
+
 </art>
 <!--
 $Log$
+versio 1.31 2022/04/19 06:35:15
+Wolfram Diestel: +~anto, ref-oj, trd de
+
 versio 1.30 2022/04/18 20:29:34
 Wolfram Diestel: +ekz-oj, ref-oj; vortigo dif FIG
 
@@ -233,8 +299,5 @@ Revision 1.22  2007/05/19 17:02:51  revo
 Wieland Pusch: +trd de
 
 Revision 1.21  2005/03/06 17:34:55  revo
-Marc Bavant: +trd fr, kor fnt, +mrk
-
-Revision 1.20  2005/02/26 17:31:35  revo
 -->
 </vortaro>
