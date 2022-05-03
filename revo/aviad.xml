@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aviad.xml,v 1.119 2022/05/03 06:35:36 revo Exp $">
+<art mrk="$Id: aviad.xml,v 1.120 2022/05/03 17:43:24 revo Exp $">
 <kap>
   <ofc>5</ofc>
   <rad>aviad</rad>/o <fnt><bib>PV</bib></fnt>
@@ -79,6 +79,11 @@
     <trd>aviatika</trd>,
     <trd>letectv&iacute;</trd>,
     <trd>l&eacute;t&aacute;n&iacute; letadlem</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Flugwesen</trd>,
+    <trd>Luftfahrt</trd>,
+    <trd>Aviatik</trd>
   </trdgrp>
   <trd lng="uk">&c_a;&c_v;&c_ib;&c_a;&c_c;&c_ib;&c_ja;</trd>
 </drv>
@@ -191,10 +196,6 @@
       <ref cel="avi.0o">avio</ref>
     </refgrp>
   </snc>
-  <adm>
-    Reverkenda artikolo, same kiel la tuta fako. 
-    <aut>MB</aut>
-  </adm>
   <trd lng="af">vliegtuig</trd>
   <trd lng="am">&#4768;&#4813;&#4654;&#4949;&#4619;&#4757;</trd>
   <trd lng="ar">&a_T;&a_A;&a_y_hamza;&a_r;&a_t_marbuta;</trd>
@@ -323,6 +324,10 @@
     </dif>
     <ref tip="sin" cel="flot.aero0o">aerofloto</ref>
     <trd lng="cs">skupina letadel</trd>
+    <trdgrp lng="de">
+      <trd>Flotte <klr>(Flugzeuge)</klr></trd>,
+      <trd>Flugzeuglotte</trd>
+    </trdgrp>
     <trd lng="en">aircraft fleet</trd>
     <trdgrp lng="fr">
       <trd>aviation<klr tip="ind"> (flotte)</klr></trd>,
@@ -359,6 +364,24 @@
     <dif>
       Tiu, kiu funkciigas <tld/>ilon:
       <ekz>
+        <tld/>isto &jcirc;us klarigis al la pasa&gcirc;eraro: &ndash; ni flugas dek mil futojn alte,
+        dekstre vi vidas la Alpojn
+        <fnt>
+          <bib>KrB</bib>
+          <lok>Excelsior!</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unufoje la piloto trafis rusajn soldatojn, <klr>[&#8230;]</klr> ili nur avertis la
+        <tld/>iston, ke li ne plu flugu per tiu flugaparato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Straznickas</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006877.html"
+              >Nekutimaj transportiloj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
         <tld/>istoj bombardas ruinojn lasitajn de Sovetio
         <fnt>
           <aut>M. Marko</aut>
@@ -369,14 +392,6 @@
       </ekz>
     </dif>
   </snc>
-  <adm>
-    "Aviadisto" ne nur veturas per ~ilo, sed stiras
-    &gcirc;in. Tial mi &scirc;an&gcirc;is la difinon de "aerveturisto"
-    al "tiu, kiu funkciigas". PIV montras la saman sencan
-    restrikton por "~i", kio tamen &scirc;ajnas iom troa. Komparu
-    "a&ubreve;ti"
-    kaj "a&ubreve;tisto".(MB)
-  </adm>
   <trdgrp lng="be">
     <trd>&c_l;&c_jo;&c_t;&c_ch;&c_y;&c_k;</trd>,
     <trd>&c_p;&c_ib;&c_l;&c_o;&c_t;</trd>
@@ -464,6 +479,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Frachtflugzeug</trd>
   <trdgrp lng="en">
     <trd>cargo aircraft</trd>,
     <trd>freight aircraft</trd>,
@@ -487,21 +503,42 @@
       <ref tip="super" cel="aviad.0ilo.AVI"><tld lit="A"/>ilo</ref>
       uzata de <ref cel="arme.aer0o">aerarmeo</ref>:
       <ekz>
+        Nagasako, urbo kies popolo preska&ubreve; malaperis pro atombombo sendita de milita
+        <tld/>ilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jozefo Lejte</aut>
+          <vrk><url ref="https://www.monato.be/2008/009468.php"
+              >Militoj kaj nuboj</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> donacis al la Ru&gcirc;a Armeo du milit<tld/>ilojn
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 8-9 (58-59)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la tekniko, kiu faris la tankojn kaj la milit<tld/>ilojn,
         <klr>[...]</klr> estis tiu sama tekniko, kiu eltrovis novajn
         metodojn por persekuti la homojn pro la raso, al kiu ili
-        apartenas,
-        la religio, kiun ili kredas, la lingvo, kiun ili parolas
+        apartenas, la religio, kiun ili kredas, la lingvo, kiun ili parolas
         <fnt>
-        <bib>Voja&gcirc;o</bib>
-        <aut>H. Tonkin</aut>
-        <vrk>Venas nun la periodo de disvastigo</vrk>
-        <lok>leciono 26a</lok>
+          <bib>Voja&gcirc;o</bib>
+          <aut>H. Tonkin</aut>
+          <vrk>Venas nun la periodo de disvastigo</vrk>
+          <lok>leciono 26a</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="cs">vojensk&eacute; letadlo</trd>
+  <trdgrp lng="de">
+    <trd>Kampfflugzeug</trd>,
+    <trd>Milit&auml;rflugzeug</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>military aircraft</trd>,
     <trd>warplane</trd>
@@ -529,6 +566,7 @@
       regno.
     </dif>
   </snc>
+  <trd lng="de">Luftflotte</trd>
   <trd lng="en">military aircraft fleet</trd>
   <trdgrp lng="es">
     <trd>aviaci&oacute;n<klr tip="ind"> (de guerra)</klr></trd>
@@ -597,6 +635,11 @@
   </snc>
   <trd lng="be">&c_r;&c_e;&c_a;&c_k;&c_t;&c_y;&c_w;&c_n;&c_y; &c_s;&c_a;&c_m;&c_a;&c_l;&c_jo;&c_t;</trd>
   <trd lng="cs">reaktivn&iacute; letadlo</trd>
+  <trdgrp lng="de">
+    <trd>Strahlflugzeug</trd>,
+    <trd>D&uuml;senjet</trd>,
+    <trd>Jet <klr>(Flugzeug)</klr></trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>jet</trd>,
     <trd>jet aircraft</trd>
@@ -616,6 +659,9 @@
 </art>
 <!--
 $Log$
+versio 1.120 2022/05/03 17:43:24
+Wolfram Diestel: +trdj de; ~isto, milit~ilo: +ekz
+
 versio 1.119 2022/05/03 06:35:36
 Wolfram Diestel: ~ilaro: +snc eskadro, ekz-oj, ref
 
@@ -635,8 +681,5 @@ Revision 1.41  2017/01/27 15:10:17  revo
 Adam Eng: +trd ms
 
 Revision 1.40  2016/11/09 12:10:15  revo
-Vito Redsky: kor lit rumana t
-
-Revision 1.39  2016/11/03 00:10:14  revo
 -->
 </vortaro>
