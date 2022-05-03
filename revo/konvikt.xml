@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konvikt.xml,v 1.6 2019/03/17 23:10:19 revo Exp $">
+<art mrk="$Id: konvikt.xml,v 1.7 2022/05/03 06:35:36 revo Exp $">
 <kap>
   <rad>konvikt</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -12,9 +12,10 @@
   <snc mrk="konvikt.0i.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Pruvi kulpa per demonstroj, atestoj...:
+      <ref tip="super" cel="pruv.0i.KOMUNE_iu">Pruvi</ref> kulpa per 
+      demonstroj, atestoj...:
       <ekz>
-        li <tld/>is Wang pri &scirc;telado de publika mono
+        li <tld/>is <nom>Wang</nom> pri &scirc;telado de publika mono
         <fnt>
           <aut>T. B. Talovich, trad. Miaohui</aut>,
           <vrk><url
@@ -32,11 +33,28 @@
           ref="http://members.cox.net/esperanto/finaprob/fina.htm">
           La Fina Problemo</url></vrk>,
           <lok>[vidita en 2011]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia edzino, forgesinte por tiuj momentoj &ccirc;iujn abomenajn adulta&jcirc;ojn pri kiuj la
+        malfeli&ccirc;ulo Arkadio <nom>Apolonovi&ccirc;</nom> estis <tld/>ita, el&scirc;ovis timigitan viza&gcirc;on tra
+        la pordo
+        <fnt>
+          <bib>MkM</bib>
+          <lok>27</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="akuz.0i">akuzi</ref>,
+      <ref cel="atest.0i.JUR">atesti<sncref/></ref>,
+      <ref cel="kondam.0i.JUR">kondamni</ref>,
+      <ref cel="kulp.0igi">kulpigi</ref>
+    </refgrp>
   </snc>
   <trd lng="cs">usv&ecaron;d&ccaron;ovat z</trd>
+  <trd lng="de">eines Verbrechens <ind>&uuml;berf&uuml;hren</ind></trd>
+  <trd lng="en">convict</trd>
   <trdgrp lng="es">
     <trd>condenar<klr tip="amb"> (en un juicio)</klr></trd>,
     <trd>hacer convicto<klr tip="amb"> (a alguien)</klr></trd>
@@ -58,7 +76,7 @@
       A&jcirc;o konsistiganta pruvon de kulpeco,
       uzebla por <tld/>i:
       <ekz>
-        li uzis sulfurajn alumetojn, sed ne la svedajn;
+        li uzis sulfurajn alumetojn, sed ne la svedajn,
         la alumeto eble estos <tld/>a&jcirc;o
         <fnt>
           <aut>A. &Ccirc;e&hcirc;ov, trad. A. Kor&jcirc;enkov</aut>,
@@ -69,7 +87,9 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="indik.0ajxo.JUR">indika&jcirc;o</ref>
   </snc>
+  <trd lng="de">Beweisst&uuml;ck</trd>
   <trd lng="fr">pi&egrave;ce &agrave; conviction</trd>
   <trd lng="pl">dow&oacute;d winy</trd>     
   <trd lng="ro">dovada vinov&abreve;&#539;iei</trd>
@@ -78,6 +98,9 @@
 
 <!--
 $Log$
+versio 1.7 2022/05/03 06:35:36
+Wolfram Diestel: +ekz, ref-oj, trd de
+
 Revision 1.5  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -92,6 +115,5 @@ Agustin Garcia Lopez: +trd (es)
 
 Revision 1.1  2011/06/28 14:10:09  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>
