@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kritik.xml,v 1.31 2022/05/01 08:09:25 revo Exp $">
+<art mrk="$Id: kritik.xml,v 1.32 2022/05/11 18:38:58 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kritik</rad>/i
@@ -85,10 +85,11 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="gxib.0o">&gcirc;ibo</ref>,
-      <ref cel="lign">lignero</ref>,
-      <ref cel="makul.0o">makulo</ref>,
-      <ref cel="trab.0o">trabo</ref>
+      <ref cel="grumbl.0i">grumbli</ref>,
+      <ref cel="plend.0i.malkontente">plendi<sncref/></ref>,
+      <ref cel="protes.0i.malkonsenti">protesti<sncref/></ref>,
+      <ref cel="riproc.0i">ripro&ccirc;i</ref>,
+      <ref cel="skold.0i">skoldi</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>kritisieren</trd>,
@@ -120,38 +121,51 @@
     <trd>podrobi&tcaron; kritike</trd>,
     <trd>pos&uacute;di&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&#x43A;&c_r;&c_i;&c_t;&c_i;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="kritik.0a">
   <kap><tld/>a</kap>
   <snc mrk="kritik.0a.ART">
     <dif>
-      Ekzamena:
+      Ekzamena priju&gcirc;e al kvalitoj kaj mankoj de io:
       <ekz>
-        <tld/>a esploro;
+        bonege skribita <tld/>a polemiko
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        traduko, eldono kun <tld/>aj notoj;
-      </ekz>
-      <ekz>
-        se tiuj &ccirc;i homoj havus tiom da propra <tld/>a kapablo, por <klr>[&#8230;]</klr>
+        se tiuj &ccirc;i homoj havus tiom da propra <tld/>a kapablo, por meti
+        <klr>[&#8230;]</klr> demandon &#8218;kial?&#8216;
         <fnt>
           <bib>EE</bib>
         </fnt>;
       </ekz>
       <ekz>
-        bonege skribita <tld/>a polemiko
+        dulingvismo <klr>[&#8230;]</klr> estas tre utila por la evoluigo de <tld/>a menso
         <fnt>
-          <bib>FK</bib>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld lit="K"/>a Ekzameno de la Proceso kontra&ubreve; Kristo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eldonante ekumenan Biblion kun <tld/>aj notoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
-    <trdgrp lng="de">
-      <trd>kritisch</trd>,
-      <trd>pr&uuml;fend</trd>
-    </trdgrp>
+    <trd lng="de">pr&uuml;fend</trd>
     <trd lng="en">critical</trd>
     <trd lng="es">cr&iacute;tico</trd>
     <trd lng="fr">critique<klr> (adj.)</klr></trd>
@@ -169,17 +183,42 @@
     <dif>
       Malla&ubreve;da:
       <ekz>
-        <tld/>a intenco;
+        <klr>[li]</klr> rigardas &ccirc;ion de <tld/>a vidpunkto
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>V</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li rigardis &scirc;in malame kaj <tld/>e.
+        lia esence intelekta poetiko kondukis lin al <tld/>a sinteno kontra&ubreve; homsubpremo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        soci-<tld/>a pensado
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne eblas ne fari almena&ubreve; kelkajn kritikajn rimarkojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvina Parto</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="grumbl.0ema">grumblema</ref>,
+      <ref cel="konten.mal0a">malkontenta</ref>
+    </refgrp>
     <trd lng="be">&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
     <trdgrp lng="de">
-      <trd>kritisch</trd>,
-      <trd>ablehnend</trd>,
-      <trd>abwertend</trd>
+      <trd>abwertend</trd>,
+      <trd>ablehnend</trd>
     </trdgrp>
     <trdgrp lng="en">
       <trd>critical</trd>,
@@ -222,10 +261,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
-      <trd>kritisch</trd>,
-      <trd>krisenhaft</trd>
-    </trdgrp>
+    <trd lng="de">krisenhaft</trd>
 <!-- ne traduku evitindajn:
     <trdgrp lng="en">
       <trd>critical</trd>,
@@ -233,6 +269,7 @@
     </trdgrp -->
   </snc>
   <trd lng="cs">kritick&yacute;</trd>
+  <trd lng="de">kritisch</trd>
   <trd lng="pl">krytyczny</trd>
   <trdgrp lng="ro">
     <trd>crucial</trd>,
@@ -322,7 +359,7 @@
     <trd>kritika</trd>,
     <trd>posudok</trd>
   </trdgrp>
-  <trd lng="uk">&#x43A;&c_r;&c_i;&c_t;&c_i;&#x43A;&c_a;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_a;</trd>
 </drv>
 
 <drv mrk="kritik.0acxi">
@@ -369,8 +406,8 @@
   <trd lng="pl">krytykowa&cacute; podle</trd>     
   <trd lng="ro">critic&abreve; &icirc;n mod josnic</trd>
   <trdgrp lng="uk">
-    <trd>&c_z;&c_a;&c_j;&#x43C;&c_a;&c_t;&c_i;&c_s;&#x44F; &#x43A;&c_r;&c_i;&c_t;&c_i;&#x43A;&c_a;&#x43D;&c_s;&c_t;&c_v;&#x43E;&#x43C;</trd>,
-    <trd>&#x43A;&c_r;&c_i;&c_t;&c_i;&#x43A;&c_a;&#x43D;&c_s;&c_t;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_z;&c_a;&c_j;&c_m;&c_a;&c_t;&c_i;&c_s;&c_ja; &c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;&c_m;</trd>,
+    <trd>&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_a;&c_n;&c_s;&c_t;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -438,8 +475,8 @@
     <trd>posudzova&ccaron;n&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_s;&c_h;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&c_j; &#x43A;&c_r;&c_i;&c_t;&c_i;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43A;&c_r;&c_i;&c_t;&c_i;&c_ch;&#x43D;&#x43E; &#x43D;&c_a;&#x43B;&c_a;&c_sh;&c_t;&#x43E;&c_v;&c_a;&#x43D;&c_i;&c_j;</trd>
+    <trd>&c_s;&c_h;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_k;&c_r;&c_i;&c_t;&c_i;&c_ch;&c_n;&c_o; &c_n;&c_a;&c_l;&c_a;&c_sh;&c_t;&c_o;&c_v;&c_a;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -479,7 +516,7 @@
   <trd lng="ro">critic</trd>
   <trd lng="ru">&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;</trd>
   <trd lng="sk">kritik</trd>
-  <trd lng="uk">&#x43A;&c_r;&c_i;&c_t;&c_i;&#x43A;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;</trd>
 </drv>
 
 <drv mrk="kritik.mem0o">
@@ -531,11 +568,14 @@
   <trd lng="pl">samokrytyka</trd>     
   <trd lng="ro">autocritic&abreve;</trd>
   <trd lng="sk">sebakritika</trd>
-  <trd lng="uk">&c_s;&c_a;&#x43C;&#x43E;&#x43A;&c_r;&c_i;&c_t;&c_i;&#x43A;&c_a;</trd>
+  <trd lng="uk">&c_s;&c_a;&c_m;&c_o;&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2022/05/11 18:38:58
+Wolfram Diestel: ~a: +ekz-oj; +ref-oj
+
 versio 1.31 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -555,8 +595,5 @@ Revision 1.25  2019/10/21 22:10:20  revo
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.24  2015/10/23 15:10:15  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.23  2015/07/04 08:37:38  revo
 -->
 </vortaro>
