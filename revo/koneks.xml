@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: koneks.xml,v 1.28 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: koneks.xml,v 1.29 2022/05/20 17:33:59 revo Exp $">
 <kap>
   <rad>koneks</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
@@ -10,11 +10,37 @@
   <kap><tld/>a</kap>
   <snc mrk="koneks.0a.KOMUNE">
     <dif>
-      Interligita; proksime interrilata kun analoga afero:
+      Abstrakte, koncepte, mense interligita; proksime interrilata kun analoga afero:
       <ekz>
-        tio estas <tld/>aj demandoj, kiujn oni ne povas aparte studi.
+        tio estas <tld/>aj demandoj, kiujn oni ne povas aparte studi;
+      </ekz>
+      <ekz>
+        mi pensis, ke la brueto kaj la brilanta objekto estas <tld/>aj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&uacute;lia Sigmond</aut>
+          <vrk><url ref="https://www.monato.be/2009/009693.php"
+              >La mistera nokto</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sinsekvo de eventoj, impresoj, prenitaj decidoj preska&ubreve; sen<tld/>aj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="https://www.monato.be/2014/011151.php"
+              >Kiu &ccirc;i mi?</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="dis.ne0igebla">nedisigebla</ref>
+    <refgrp tip="vid">
+      <ref cel="koalic.0a">koalicia</ref>,
+      <ref cel="koher.0a">kohera</ref>,
+      <ref cel="konekt.0ite">konektita</ref>
+    </refgrp>
     <trd lng="fa">&a_m;&a_r;&a_t;&a_b;&a_T;</trd>
     <trdgrp lng="fr">
       <trd>connexe<klr tip="ind"> (reli&eacute;)</klr></trd>,
@@ -98,8 +124,24 @@
   <kap><tld/>o</kap>
   <snc mrk="koneks.0o.KOMUNE">
     <dif>
-      Konstanta, proksima rilato,
-      <ref tip="vid" cel="lig.0o.kioligas">ligo</ref>:
+      Konstanta, proksima <ref tip="super" cel="rilat.0o.interligo">rilato</ref>
+      abstrakta, koncepta, mensa;  <ref tip="vid" cel="lig.0o.kioligas">ligo<sncref/></ref>:
+      <ekz>
+        la hejdelberga makzelo estas absolute senmentona <klr>[&#8230;]</klr> tiu fakto, en
+        <tld/>o kun la muskola strukturo de la lango, indikas, ke tre ver&scirc;ajne la
+        Hejdelbergulo ne povis <klr>[&#8230;]</klr> paroli
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi a&ubreve;dos mian nomon menciata en proksima <tld/>o kun la nomoj de tiuj personoj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 4 (66)</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         kun <klr>[fiziko kaj pedagogio]</klr> la fizikdidaktiko havas 
         senperajn <tld/>ojn
@@ -112,11 +154,23 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="asoci.0o.kunligiteco">asocio<sncref/></ref>,
+      <ref cel="fac.inter0o">interfaco</ref>,
+      <ref cel="junt.0o.kunigo">junto<sncref/></ref>,
+      <ref cel="komuni1.0igxo">komuniki&gcirc;o</ref>,
+      <ref cel="konekt.0o">konekto</ref>,
+      <ref cel="kontak.0o">kontakto</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>p&rcaron;&iacute;poj</trd>,
     <trd>spoj</trd>,
     <trd>spojen&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Zusammenhang</trd>,
+    <trd>Verbindung</trd>
   </trdgrp>
   <trd lng="fr">accointance</trd>
   <trd lng="pl">zwi&aogonek;zek</trd>     
@@ -163,6 +217,14 @@
       <ref tip="vid" cel="lig.0ekun.KOMUNE">Lige kun</ref>,
       <ref tip="vid" cel="rilat.0eal">rilate al</ref>:
       <ekz>
+        de kie aperis la nazpin&ccirc;ilo <klr>[&#8230;]</klr> kelkfoje ni vidas &gcirc;in <tld/>e kun la
+        kuracisto, kaj nur kun li
+        <fnt>
+          <bib>KFl</bib>
+          <lok>VIII. &Scirc;tupoj al idealo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <tld/>e kun tio, ke lupojn minacas kompleta ekstermo, 
         lastatempe alti&gcirc;is la interesi&gcirc;o pri ili 
         <fnt>
@@ -173,8 +235,15 @@
           <lok>Fokuso, 1987:1, p. 2a</lok>
         </fnt>.
       </ekz>
-    </dif>
+    </dif>  
+    <refgrp tip="vid">
+      <ref cel="kun.0e0">kune kun</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>im <ind>Zusammenhang</ind> mit</trd>,
+    <trd><ind>verbunden</ind> mit</trd>
+  </trdgrp>
   <trd lng="fr">en lien avec</trd>
   <trd lng="pl">w zwi&aogonek;zku z</trd>     
   <trd lng="ro">&icirc;n leg&abreve;tur&abreve; cu</trd>
@@ -247,6 +316,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2022/05/20 17:33:59
+Wolfram Diestel: ~a, ~o, ~e kun: +ekz-oj, ref-oj, trd de
+
 versio 1.28 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -266,8 +338,5 @@ Revision 1.23  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2014/12/30 21:10:14  revo
-Jeromo Vasxe: + ~o, ~e kun
-
-Revision 1.21  2009/07/12 16:30:43  revo
 -->
 </vortaro>
