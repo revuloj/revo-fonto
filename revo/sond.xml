@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sond.xml,v 1.23 2022/05/30 18:35:39 revo Exp $">
+<art mrk="$Id: sond.xml,v 1.24 2022/05/30 20:31:37 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>sond</rad>/i <fnt><bib>PV</bib></fnt>
@@ -48,6 +48,7 @@
     <refgrp tip="vid">
       <ref cel="detekt.0i">detekti</ref>,
       <ref cel="ekzame.0i.esplori">ekzameni<sncref/></ref>,
+      <ref cel="inspek.0i">inspekti</ref>,
       <ref cel="penetr.0i">penetri</ref>,
       <ref cel="sens.0i">sensi</ref>
     </refgrp>
@@ -146,9 +147,9 @@
   <kap><tld/>o</kap>
   <snc mrk="sond.0o.KOMUNE">
     <dif>
-      <tld lit="S"/>a esplorado:
+      <tld lit="S"/>a <ref tip="super" cel="esplor.0o">esplorado</ref>:
       <ekz>
-        por bori la putojn oni [...] uzis [...] post
+        por bori la putojn oni <klr>[&#8230;]</klr> uzis <klr>[&#8230;]</klr> post
         1930 sovetiajn kaj rumanajn <tld/>ojn per rondirado
         <fnt>
           <aut>F. Shehu</aut>,
@@ -158,6 +159,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ekzame.0o.esploro">ekzameno<sncref/></ref>,
+      <ref cel="enket.0o.esploro">enketo<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_a;&c_n;&c_d;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
@@ -201,11 +206,36 @@
           <vrk>Apena&ubreve; venko</vrk>,
           <bib>Monato</bib>,
           <lok>2002:6, p. 12a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tuja postbalota <tld/>a&jcirc;o indikis, ke klare venkos la konservativa partio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2015/011508.php"
+              >Malpli malbonaj inter aliaj malbonaj</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        opinio-<tld/>a&jcirc;oj en diversaj e&ubreve;ropaj landoj <klr>[&#8230;]</klr> indikis, ke
+        civitanoj <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2013/010967.php"
+              >Referendumo ena-ekstera</url></vrk>
+          <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_n;&c_ib;&c_k; <ind>&c_z;&c_a;&c_n;&c_d;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</ind></trd>
+  <trdgrp lng="de">
+    <trd>Umfrage</trd>,
+    <trd>Sondierung</trd>
+  </trdgrp>
   <trd lng="es">resultado de un <ind>sondeo</ind></trd>
   <trd lng="fr">r&eacute;sultat de <ind>sondage</ind></trd>
   <trd lng="hu">kutat&aacute;si eredm&eacute;ny</trd>
@@ -216,8 +246,34 @@
   <kap><tld/>ilo</kap>
   <snc mrk="sond.0ilo.KOMUNE">
     <dif>
-      Ilo, ma&scirc;ino, rimedo por <tld/>i.
+      Ilo, ma&scirc;ino, rimedo por <tld/>i:
+      <ekz>
+        enmeti en la televidilon a&ubreve; vidbendaparaton specialan <tld/>ilon, per kiu oni
+        mezuras internajn frekvencojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos I Font</aut>
+          <vrk><url ref="https://www.monato.be/2003/008062.html"
+              >Spektantoj spektataj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        E&ubreve;ropo prave fieris pro sia interplaneda <tld/>ilo <nom>Huygens</nom>, kiam &gcirc;i surluni&gcirc;is
+        sur Titano
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Eskil Svane</aut>
+          <vrk><url ref="https://www.monato.be/2005/008552.php"
+              >Ankora&ubreve; pri EDE</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="detekt.0ilo">detektilo</ref>,
+<ref cel="endosk.0o">endoskopo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_z;&c_o;&c_n;&c_d;</trd>
   <trd lng="cs">m&ecaron;&rcaron;&iacute;tko hloubky s olov&ecaron;n&yacute;m z&aacute;va&zcaron;&iacute;m</trd>
@@ -247,6 +303,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="penetr.ne0ebla">nepenetrebla</ref>,
+      <ref cel="vid.netra0ebla.FIG">netravidebla<sncref/></ref>,
+      <ref cel="opak.0a">opaka</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_ja;&c_z;&c_mol;&c_m;&c_je;&c_r;&c_n;&c_y;</trd>,
@@ -254,6 +315,10 @@
     <trd>&c_n;&c_je;&c_p;&c_a;&c_s;&c_mol;&c_c;&c_ib;&c_zh;&c_n;&c_y;</trd>
   </trdgrp>
   <trd lng="cs">nezjistiteln&yacute;</trd>
+  <trdgrp lng="de">
+    <trd>undurchdringlich</trd>,
+    <trd>unerforschlich</trd>
+  </trdgrp>
   <trd lng="es">insondable</trd>
   <trd lng="fr">insondable</trd>
   <trd lng="sk">nezistite&lcaron;n&yacute;</trd>
@@ -266,18 +331,29 @@
   <snc mrk="sond.opini0o.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      Enketo pri publika opinio pere de demandado
+      <ref tip="super" cel="enket.0o.esploro">Enketo</ref> pri 
+      publika opinio pere de demandado
       &ccirc;e elektita subaro de la koncerna homgrupo;
       <ref tip="sin" cel="enket.opini0o">opinienketo</ref>:
       <ekz>
-        la&ubreve; fre&scirc;aj opini<tld/>oj 60 % de la EU-civitanoj rifuzas man&gcirc;i
+        la&ubreve; fre&scirc;aj opini<tld/>oj 60&#8239;% de la EU-civitanoj rifuzas man&gcirc;i
         genteknike manipulitajn nutra&jcirc;ojn
-          <fnt>
-            <aut>Stefan Maul</aut>:
-            <vrk>Defio a&ubreve; devio de politiko</vrk>,
-            <bib>Monato</bib>,
-            <lok>2000:10, p. 6a</lok>
-          </fnt>.
+        <fnt>
+          <aut>Stefan Maul</aut>:
+          <vrk>Defio a&ubreve; devio de politiko</vrk>,
+          <bib>Monato</bib>,
+          <lok>2000:10, p. 6a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; opinio-<tld/>oj, malmultaj homoj intencis vo&ccirc;doni
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian PINARD</aut>
+          <vrk><url ref="https://www.monato.be/2004/008320.html"
+              >Vivas kunvivado</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -304,6 +380,9 @@
 </art>
 <!--
 $Log$
+versio 1.24 2022/05/30 20:31:37
+Wolfram Diestel: ~o..opini~o: +ekz-oj, ref-oj, trd de
+
 versio 1.23 2022/05/30 18:35:39
 Wolfram Diestel: ~i: +ekz-oj, ref-oj
 
@@ -323,8 +402,5 @@ Revision 1.15  2015/06/29 16:33:24  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.14  2014/12/14 14:10:40  revo
-Jeromo Vasxe: + ne~ebla
-
-Revision 1.13  2005/06/23 16:31:57  revo
 -->
 </vortaro>
