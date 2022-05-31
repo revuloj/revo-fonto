@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: penetr.xml,v 1.19 2022/05/31 06:37:11 revo Exp $">
+<art mrk="$Id: penetr.xml,v 1.20 2022/05/31 15:38:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>penetr</rad>/i
@@ -413,7 +413,7 @@
     <dif>
       Profunde <tld/>i:
       <ekz>
-        la &ccirc;ambro <klr>...</klr> estas tiel aran&gcirc;ita, ke la tutan
+        la &ccirc;ambro <klr>[&#8230;]</klr> estas tiel aran&gcirc;ita, ke la tutan
         pluvon,
         kiu povus en<tld/>i, &gcirc;i forkondukas
         <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj, la lo&gcirc;ejoj
@@ -447,34 +447,83 @@
 </drv>
 
 <drv mrk="penetr.ne0ebla">
-  <kap>ne<tld/>ebla</kap>
+  <kap>ne<tld/>ebla, <var><kap>netra<tld/>ebla</kap></var></kap>
   <snc mrk="penetr.ne0ebla.KOMUNE">
     <dif>
       Prezentanta netraireblan baron:
       <ekz>
-        ne<tld/>ebla grundo;
-      </ekz>
-      <ekz>
-        ne<tld/>ebla tolo<fnt>B</fnt>;
+        la mallumo estis netra<tld/>ebla
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
         ne<tld/>ebla viza&gcirc;o;
       </ekz>
       <ekz>
-        netra<tld/>ebla densejo
-        <fnt><bib>Fab1</bib>, <lok>&gcirc;ardeno de la paradizo</lok></fnt>.
+        tute ne<tld/>ebla arbaro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la dornoplenaj lianoj prezentas netra<tld/>eblan densejon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sin levis netra<tld/>ebla, silenta polva uragano
+        <fnt>
+          <bib>Lasta</bib>
+          <lok>La Lasta</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        netra<tld/>eblaj nebuloj
+        <fnt>
+          <bib>Lasta</bib>
+          <lok>La Lasta</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fine &ccirc;io malaperis en la griza, movi&gcirc;ema, netra<tld/>ebla abismo
+        <fnt>
+          <bib>Lasta</bib>
+          <lok>La Lasta</lok>
+        </fnt>;
+      </ekz>
+      <ekz>        
+        estas ne<tld/>ebla la Dia justeco
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="dens.0a.multnombre">densa</ref>,
+      <ref cel="ferm.0ita.PSI">fermita<sncref/></ref>,
       <ref cel="mister.0a">mistera</ref>,
+      <ref cel="sond.ne0ebla">nesondebla</ref>,
+      <ref cel="opak.0a.malluma">opaka<sncref/></ref>,
       <ref cel="vual.0i">vualita</ref>
+    </refgrp>
+    <refgrp tip="ant">
+      <ref cel="las.tra0ema">tralasema</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_n;&c_je;&c_p;&c_r;&c_a;&c_n;&c_ib;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="cs">neproniknuteln&yacute;</trd>
-  <trd lng="de">undurchdringlich</trd>
+  <trdgrp lng="de">
+    <trd>undurchdringlich</trd>,
+    <trd>undurchl&auml;ssig</trd>,
+    <trd>verschlossen <klr>(Gesicht)</klr></trd>
+  </trdgrp>
   <trd lng="fr">imp&eacute;n&eacute;trable</trd>
   <trdgrp lng="hu">
     <trd>&aacute;thatolhatatlan</trd>,
@@ -492,14 +541,14 @@
 <drv mrk="penetr.tra0i">
   <kap>tra<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="penetr.tra0i.tute">
     <dif>
       Tute, plene <tld/>i:
       <ekz>
         la suno ne sukcesas tra<tld/>i la nubojn;
       </ekz>
       <ekz>
-        tuta li <klr>...</klr> estis diafana, kvaza&ubreve; tra<tld/>ita per
+        tuta li <klr>[&#8230;]</klr> estis diafana, kvaza&ubreve; tra<tld/>ita per
         sunradioj
         <fnt><bib>Metrop</bib></fnt>;
       </ekz>
@@ -519,7 +568,7 @@
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="penetr.tra0i.perforte">
     <dif>
       Perforte <tld/>i:
       <ekz>
@@ -559,6 +608,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2022/05/31 15:38:16
+Wolfram Diestel: ne~ebla: +var, +ekz-oj, ref-oj
+
 versio 1.19 2022/05/31 06:37:11
 Wolfram Diestel: ~i..~ema: +ekz-oj, ref-oj, trd de
 
@@ -578,8 +630,5 @@ Revision 1.12  2005/01/18 17:31:47  revo
 Jeromo Vasxe: - () en rad, + kk ekz kaj fnt, + trd fr
 
 Revision 1.11 2004/08/26 16:32:23 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2004/08/04 16:31:54 revo
 -->
 </vortaro>
