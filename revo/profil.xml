@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: profil.xml,v 1.20 2022/06/10 17:30:43 revo Exp $">
+<art mrk="$Id: profil.xml,v 1.21 2022/06/10 19:22:38 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>profil</rad>/o <fnt><bib>PV</bib></fnt>
@@ -56,13 +56,16 @@
       <trd>profil</trd>
     </trdgrp>
   </snc>
-  <snc mrk="profil.0o.ARKI">
-    <uzo tip="fak">ARKI</uzo>
+  <snc mrk="profil.0o.sekco">
+    <uzo tip="fak">ARK</uzo>
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      <ref tip="super" cel="desegn.0o.desegnajxo">Desegno</ref> prezentanta 
-      perpendikularan <ref cel="trancx.0o">tran&ccirc;o</ref>n de objekto:
+      Vertikala <ref tip="dif" cel="sekc.0o.TEK">sekco</ref> de objekto:
       <ekz>
-        <tld/>o de konstruo, listelo;
+        <tld/>o de konstruo, listelo, topografio;
+      </ekz>
+      <ekz>
+        T-<tld/>o, U-<tld/>o, V-<tld/>o;
       </ekz>
       <ekz>
         astragalo <klr>[&#8230;]</klr> estas modlura <tld/>o komponita de duon-ronda surfaco
@@ -74,9 +77,13 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="relief.0o.FORM">reliefo<sncref/></ref>
+    </refgrp>
     <trdgrp lng="de">
+      <trd>Schnitt <klr>(Profil)</klr></trd>,
       <trd>Querschnitt</trd>,
-      <trd>Schnitt <klr>(Profil)</klr></trd>
+      <trd>L&auml;ngsschnitt</trd>
     </trdgrp>
     <trd lng="en">cross-sectional view</trd>
     <trdgrp lng="hu">
@@ -88,7 +95,8 @@
   </snc>
   <snc mrk="profil.0o.ecaro">
     <dif>
-      Karakteriza <ref tip="super" cel="ec.0aro">ecaro</ref>:
+      Karakteriza <ref tip="super" cel="ec.0aro">ecaro</ref>; formala priskribo de
+      tia ecaro:
       <ekz>
         900 kilometra longeco, 26&#8239;000 altecmetroj, 14 etapoj &dash; &ccirc;io &ccirc;i estas akordigita
         al la <tld/>o de bicikla montkonkurso kaj estas defio por &ccirc;iu montbiciklisto
@@ -185,8 +193,10 @@
       <ref cel="fason.0o">fasono</ref>,
       <ref cel="form.0ajxo">forma&jcirc;o</ref>,
       <ref cel="hxarakt.0o">&hcirc;araktero</ref>,
+      <ref cel="manife.0i">manifesti</ref>&gcirc;o,
       <ref cel="trajt.0o">trajt</ref>aro
     </refgrp>
+  <trd lng="de">Eckdaten</trd>
   </snc>
   <snc mrk="profil.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
@@ -201,6 +211,16 @@
           <vrk><url ref="http://radioverda.com/programoj/2010/3/14/rv161-20100314.html">
           Radio Verda</url></vrk>,
           <lok>RV161, 2010-03-14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Simonsen</nom> <klr>[&#8230;]</klr> &gcirc;isdatigis sian Fejsbuk-<tld/>on per nova foto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011218.php"
+              >Sen besto-testoj mi estus mortinta ...</url></vrk>
+          <lok>2014</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -227,9 +247,49 @@
   <trd lng="sv">profil</trd>
   <trd lng="uk">&c_p;&c_r;&c_o;&c_f;&c_ib;&c_l;&c_mol;</trd>
 </drv>
+
+<drv mrk="profil.0e">
+  <kap>
+    <tld/>e
+  </kap>
+  <snc>
+    <dif>
+      <klr>(pri viza&gcirc;o)</klr> De la flanko:
+      <ekz>
+        la personoj, kiuj interparolis en la salono <klr>[&#8230;]</klr> estis turnitaj
+        <tld/>e al la pordo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Vitalij</nom> observis ilin <tld/>e
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Ligia</nom>, kiu, turnita al &scirc;i <tld/>e, kun levita kapo kaj manoj, rigardis la &ccirc;ielon
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">im <ind>Profil</ind></trd>
+</drv>
+
+
+
+
+
 </art>
 <!--
 $Log$
+versio 1.21 2022/06/10 19:22:38
+Wolfram Diestel: +ekz-oj, ref, dif-adapto; +~e
+
 versio 1.20 2022/06/10 17:30:43
 Wolfram Diestel: +ekz-oj, ref-oj, trd de; +snc ecaro
 
@@ -249,8 +309,5 @@ Revision 1.13  2010/03/19 17:30:46  revo
 Jeromo Vasxe: + snc komp, + trd fr
 
 Revision 1.12  2006/03/21 17:32:00  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2004/08/24 16:32:24  revo
 -->
 </vortaro>
