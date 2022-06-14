@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: proskr.xml,v 1.15 2022/03/26 15:53:38 revo Exp $">
+<art mrk="$Id: proskr.xml,v 1.16 2022/06/14 22:28:33 revo Exp $">
 <kap>
   <rad>proskrib</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -14,7 +14,7 @@
       Senju&gcirc;e <ref tip="super" cel="ekzil.0i">ekzili</ref>, en tempo de
       ekstera a&ubreve; interna milito:
       <ekz>
-        &leftquot;Maskerado &ccirc;irka&ubreve; la morto&rightquot; <klr>[&#x2026;]</klr> vive kaj persone bildigas, kiel estis
+        &leftquot;Maskerado &ccirc;irka&ubreve; la morto&rightquot; <klr>[&#8230;]</klr> vive kaj persone bildigas, kiel estis
         esti judo <tld/>ita en naziokupita Hungarlando
         <fnt>
           <bib>Plumamikoj</bib>
@@ -39,6 +39,10 @@
     <trd>proskrib&aacute;l</trd>
   </trdgrp>
   <trd lng="nl">vogelvrij verklaren</trd>
+  <trdgrp lng="pl">
+    <trd>proskrybowa&cacute;</trd>,
+    <trd>skazywa&cacute; na banicj&eogonek;</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>proscrever</trd>,
     <trd>exilar</trd>,
@@ -56,9 +60,10 @@
     <trd>vyhosti&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x433;&#x430;&#x43D;&#x44F;&#x442;&#x438;</trd>,
-    <trd>&#x432;&#x438;&#x441;&#x438;&#x43B;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43E;&#x433;&#x43E;&#x43B;&#x43E;&#x448;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x43E;&#x437;&#x430; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43E;&#x43C;</trd>
+    <trd>&c_v;&c_i;&c_g;&c_a;&#x43D;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_s;&c_i;&#x43B;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&c_g;&#x43E;&#x43B;&#x43E;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i; &#x43F;&#x43E;&c_z;&c_a;
+    &c_z;&c_a;&#x43A;&#x43E;&#x43D;&#x43E;&#x43C;</trd>
   </trdgrp>
 </drv>
 
@@ -95,9 +100,14 @@
     <trd>proscriptie</trd>,
     <trd>vogelvrijverklaring</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>proskrypcja</trd>,
+    <trd>banicja</trd>
+  </trdgrp>
   <trd lng="pt">proscri&ccedil;&atilde;o, banimento, desterro, degredo,
   deporta&ccedil;&atilde;o</trd>
-    <trdgrp lng="ru">
+  <trd lng="ro">exilare</trd>
+  <trdgrp lng="ru">
     <trd>&c_i;&c_z;&c_g;&c_n;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_v;&c_y;&c_s;&c_y;&c_l;&c_k;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_s;&c_k;&c_r;&c_i;&c_p;&c_c;&c_i;&c_ja;</trd>
@@ -112,15 +122,19 @@
     <trd>vyho&scaron;t&ecaron;n&iacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x433;&#x43D;&#x430;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x432;&#x438;&#x441;&#x438;&#x43B;&#x43A;&#x430;</trd>,
-    <trd>&#x43F;&#x440;&#x43E;&#x441;&#x43A;&#x440;&#x438;&#x43F;&#x446;&#x456;&#x44F;</trd>,
-    <trd>&#x43E;&#x433;&#x43E;&#x43B;&#x43E;&#x448;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E;&#x437;&#x430; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43E;&#x43C;</trd>
+    <trd>&c_v;&c_i;&c_g;&#x43D;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_v;&c_i;&c_s;&c_i;&#x43B;&#x43A;&c_a;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&c_s;&#x43A;&c_r;&c_i;&#x43F;&c_c;&c_ib;&#x44F;</trd>,
+    <trd>&#x43E;&c_g;&#x43E;&#x43B;&#x43E;&c_sh;&c_je;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E;&c_z;&c_a;
+    &c_z;&c_a;&#x43A;&#x43E;&#x43D;&#x43E;&#x43C;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.16 2022/06/14 22:28:33
+Vito Redsky: + trd pl + trd ro 
+
 versio 1.14 2022/02/05 19:21:37
 Wolfram Diestel: +ekz, ref-oj
 
@@ -140,8 +154,5 @@ Revision 1.8  2004/08/19 16:32:17  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.7  2001/12/26 17:31:10  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/12/20 17:38:08 revo
 -->
 </vortaro>
