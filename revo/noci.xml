@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: noci.xml,v 1.19 2022/03/24 10:41:40 revo Exp $">
+<art mrk="$Id: noci.xml,v 1.20 2022/06/18 09:26:27 revo Exp $">
 <kap>
   <rad>noci</rad>/o
 </kap>
@@ -10,8 +10,8 @@
   <uzo tip="fak">SCI</uzo>
   <snc>
     <dif>
-      Unuo de pensado, kutime esprimata per vorto,
-      termino a&ubreve; simbolo:
+      Unuo de pensado, kutime esprimata per <ref cel="vort.0o.esprimo">vorto</ref>,
+      <ref cel="termin.0o">termino</ref> a&ubreve; <ref cel="simbol.0o.SCI">simbolo</ref>:
       <ekz>
         kaj se estas permesite korektadi la <tld/>ojn la&ubreve; la
         objektoj mem, kial ne estu permesite adapti la lingvon,
@@ -44,7 +44,10 @@
         <tld/>sistemo de koncerna scienca fako.
       </ekz>
     </dif>
-    <ref tip="sin" cel="kompre.0ajxo">komprena&jcirc;o</ref>
+    <refgrp tip="vid">
+      <ref cel="kompre.0ajxo">komprena&jcirc;o</ref>,
+      <ref cel="koncep.0o">koncepto</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_n;&c_ja;&c_c;&c_mol;&c_c;&c_je;</trd>
   <trdgrp lng="cs">
@@ -66,11 +69,11 @@
   <trd lng="pt">no&ccedil;&atilde;o</trd>
   <trdgrp lng="ro">
     <trd>concept  <klr>(filosof.)</klr></trd>,
-    <trd>no&#x21B;iune</trd>
+    <trd>no&#539;iune</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_je;</trd>
   <trd lng="sk">pojem</trd>
-  <trd lng="uk">&#x43F;&#x43E;&#x43D;&#x44F;&#x442;&#x442;&#x44F;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_t;&c_ja;</trd>
 </drv>
 
 <drv mrk="noci.0aro">
@@ -78,13 +81,26 @@
   <uzo tip="fak">SCI</uzo>
   <snc>
     <dif>
-      Sistemo da <tld/>oj de iu fako, teorio, verko ktp.
+      <ref tip="super" cel="sistem.0o.SCI">Sistemo</ref> da <tld/>oj de iu fako, teorio, verko ktp:
+      <ekz>
+        la &Ccirc;ina Anar&hcirc;i<klr>[i]</klr>sma tradicio ... parto de <klr>[kies]</klr> <tld/>aro estis la
+        elimino de etna, rasa, kaj nacia identecoj favore al internaciisma identeco
+        <fnt>
+          <vrk><url ref="https://libcom.org/article/sifo-1884-1915"
+              >Sifo (1884-1915) | libcom.org</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="klasif.0o">klasifiko</ref>,
+      <ref cel="terminologi.0o.terminaro">terminologio<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_y;&c_s;&c_t;&c_e;&c_m;&c_a; &c_p;&c_a;&c_n;&c_ja;&c_c;&c_mol;&c_c;&c_ja;&c_w;</trd>
+  <trd lng="de">Begriffssystem</trd>
   <trd lng="hu">fogalomrendszer</trd>
   <trd lng="pl">siatka poj&eogonek;ciowa</trd>
-  <trd lng="ro">re&#x21B;eaua conceptual&abreve;</trd>
+  <trd lng="ro">re&#539;eaua conceptual&abreve;</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_p;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_j;</trd>
 </drv>
 
@@ -102,8 +118,10 @@
         rilate al la <tld/>o <ctl>vesto</ctl>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="spec.sub0o">subspeco</ref>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_d;&c_p;&c_a;&c_n;&c_ja;&c_c;&c_mol;&c_c;&c_je;</trd>
+  <trd lng="de">Unterbegriff</trd>
   <trd lng="en">subnotion</trd>
   <trd lng="hu">al&aacute;rendelt <ind>fogalom</ind></trd>
   <trd lng="nl">hyponiem</trd>
@@ -136,11 +154,16 @@
         <ctl>robo</ctl> kaj <ctl>pantalono</ctl>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="katego.0o">kategorio</ref>,
+      <ref cel="spec.super0o">superspeco</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_a;&c_d;&c_p;&c_a;&c_n;&c_ja;&c_c;&c_mol;&c_c;&c_je;</trd>,
     <trd>&c_r;&c_o;&c_d;&c_a;&c_v;&c_a;&c_je; &c_p;&c_a;&c_n;&c_ja;&c_c;&c_mol;&c_c;&c_je;</trd>
   </trdgrp>
+  <trd lng="de">Oberbegriff</trd>
   <trd lng="en">supernotion</trd>
   <trd lng="hu">f&ouml;l&eacute;rendelt <ind>fogalom</ind></trd>
   <trd lng="nl">hyperoniem</trd>
@@ -165,6 +188,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2022/06/18 09:26:27
+Wolfram Diestel: +ekz, ref-oj, trd de
+
 versio 1.18 2021/11/11 23:30:15
 Vito Redsky: +trd pl +trd ro
 
@@ -184,8 +210,5 @@ Revision 1.12 2004/06/22 16:30:05 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.11 2004/02/20 17:30:43 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2002/10/24 21:19:00 revo
 -->
 </vortaro>
