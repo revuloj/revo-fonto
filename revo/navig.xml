@@ -1,54 +1,115 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: navig.xml,v 1.22 2022/04/25 07:30:25 revo Exp $">
-    <kap>
-      <rad>navig</rad>/i <fnt><bib>PV</bib></fnt>
-    </kap>
+  <art mrk="$Id: navig.xml,v 1.23 2022/06/22 05:30:27 revo Exp $">
+<kap>
+  <rad>navig</rad>/i <fnt><bib>PV</bib></fnt>
+</kap>
 
-    <drv mrk="navig.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>ntr</vspec></gra>
-      <snc mrk="navig.0i.veturi">
-        <uzo tip="fak">MAR</uzo>
-        <dif>
-          Sin transporti per tiucela veturilo (precipe &scirc;ipo) tra maro,
-          rivero, lago; tra aero a&ubreve; kosmo:
-          <ekz>
-            la&ubreve; irlanda tradicio, la sanktulo Brendan <tld/>is per
-            koraklo al
-            la ekstrema&jcirc;o de la oceano
-            <fnt><aut>G. MacAoidh</aut>:
-              <vrk>Frua irlanda migrado al Islando</vrk>,
-              <bib>Monato</bib>
-              <lok>jaro 1998a, numero 7a, p. 22a</lok></fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="sxip.0i">&scirc;ipi</ref>,
-          <ref cel="ir.sxip0i">&scirc;ipiri</ref>
-        </refgrp>
-      </snc>
+<drv mrk="navig.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="navig.0i.veturi">
+    <uzo tip="fak">MAR</uzo>
+    <dif>
+      Sin transporti per tiucela veturilo (precipe &scirc;ipo) tra maro,
+      rivero, lago (tra aero, kosmo):
+      <ekz>
+        la procesio de la nebulaj konturoj jam <tld/>is en la golfon, <klr>[&#8230;]</klr> la
+        remiloj ritme batis
+        <fnt>
+          <bib>Lasta</bib>
+          <lok>La Lasta</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ekfunkciigis la motoron kaj mi el<tld/>is al la maro
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekna&ubreve;a &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; irlanda tradicio, la sanktulo <nom>Brendan</nom> <tld/>is per
+        koraklo al la ekstrema&jcirc;o de la oceano
+        <fnt>
+          <aut>G. MacAoidh</aut>:
+          <vrk>Frua irlanda migrado al Islando</vrk>,
+          <bib>Monato</bib>
+          <lok>jaro 1998a, numero 7a, p. 22a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        perflose <tld/>i <klr>[&#8230;]</klr> sur la rivero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007186.html"
+              >Vakeroj de Alpoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        kristandemokratoj <klr>[&#8230;]</klr> <tld/>is sur ondego da simpatio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006835.html"
+              >Germanio: Pekoj de patriarko</url></vrk>
+        </fnt>;
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="naviga.0i.veturi">navigacii<sncref/></ref>,
+      <ref cel="sxip.0i">&scirc;ipi</ref>,
+      <ref cel="ir.sxip0i">&scirc;ipiri</ref>
+    </refgrp>
+    <ref tip="super" cel="direkt.0i.stiri">direkti<sncref/></ref>
+    <refgrp tip="sub">
+      <ref cel="board.0i">boardi</ref>,
+      <ref cel="driv.0i.MAR">drivi<sncref/></ref>,
+      <ref cel="flos.0i">flosi</ref>,
+      <ref cel="vel.0i">veli</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="navig.0i.retumi">
+    <uzo tip="fak">RET</uzo>
+    <dif>
+      <ref tip="dif" cel="ret.0umi">Retumi</ref>:
+      <ekz>
+        <klr>[la retumilo]</klr> inkluzivas <klr>[&#8230;]</klr> Guglo-ser&ccirc;ejon kaj la eblon
+        <tld/>i per langetoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="https://www.monato.be/2005/008483.php"
+              >Foliumiloj denove interbatalas</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">surfen <klr>(Web)</klr></trd>
+  </snc>
   <trd lng="be">&c_p;&c_l;&c_a;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_n;&c_a; &c_k;&c_a;&c_r;&c_a;&c_b;&c_l;&c_ib;)</klr></trd>
   <trdgrp lng="cs">
     <trd>navigovat</trd>,
     <trd>plavit se</trd>
   </trdgrp>
   <trdgrp lng="de">
-        <trd>zur See fahren</trd>,
-        <trd>Fl&uuml;sse befahren</trd>,
-        <trd>Seen befahren</trd>,
-        <trd>Meere befahren</trd>
-      </trdgrp>
+    <trd>zur See fahren</trd>,
+    <trd>Fl&uuml;sse befahren</trd>,
+    <trd>Seen befahren</trd>,
+    <trd>Meere befahren</trd>
+  </trdgrp>
   <trd lng="en">navigate</trd>
   <trd lng="es">navegar</trd>
   <trdgrp lng="fr">
-        <trd>naviguer</trd>,
-        <trd>voguer</trd>
-      </trdgrp>
+    <trd>naviguer</trd>,
+    <trd>voguer</trd>
+  </trdgrp>
   <trdgrp lng="nl">
-        <trd>navigeren</trd>,
-        <trd>varen</trd>
+    <trd>navigeren</trd>,
+    <trd>varen</trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>nawigowa&cacute;</trd>,
@@ -62,45 +123,45 @@
     <trd>plavi&tcaron; sa</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43B;&c_i;&c_s;&c_t;&c_i; (&#x43D;&c_a; &#x43A;&#x43E;&c_r;&c_a;&c_b;&#x43B;&c_ib;)</trd>,
-    <trd>&#x43B;&c_ib;&c_t;&c_a;&c_t;&c_i;</trd>,
-    <trd>&c_z;&c_d;&c_ib;&c_j;&c_s;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i; &#x43F;&#x43E;&#x43B;&#x44C;&#x43E;&c_t;&c_i;</trd>
+    <trd>&c_p;&c_l;&c_i;&c_s;&c_t;&c_i; (&c_n;&c_a; &c_k;&c_o;&c_r;&c_a;&c_b;&c_l;&c_ib;)</trd>,
+    <trd>&c_l;&c_ib;&c_t;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_d;&c_ib;&c_j;&c_s;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i; &c_p;&c_o;&c_l;&c_mol;&c_o;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="navig.0ado">
-      <kap><tld/>ado</kap>
-      <snc mrk="navig.0ado.veturado">
-        <dif>
-          La ago <tld/>i<sncref ref="navig.0i.veturi"/>:
-          <ekz>
-            post longa mar<tld/>ado
-            <fnt><aut>R. Roze</aut>:
-              <vrk>&leftquot;Bravado&rightquot; en Saint-Tropez</vrk>,
-              <bib>Monato</bib><lok>jaro 1997a, numero 2a, p.
-              28a</lok></fnt>.
-          </ekz>
-        </dif>
-        <trdgrp lng="be">
-          <trd>&c_n;&c_a;&c_v;&c_ib;&c_g;&c_a;&c_c;&c_y;&c_ja;</trd>,
-          <trd>&c_p;&c_l;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_n;&c_a; &c_k;&c_a;&c_r;&c_a;&c_b;&c_l;&c_ib;)</klr></trd>
-        </trdgrp>
-        <trdgrp lng="de">
-          <trd>Fahrt</trd>,
-          <trd>Navigation</trd>
-        </trdgrp>
-        <trd lng="en">navigation</trd>
-        <trd lng="es">navegaci&oacute;n</trd>
-        <trd lng="fr">navigation</trd>
-        <trdgrp lng="nl">
-          <trd>navigeren<klr tip="ind"> (zn.)</klr></trd>,
-          <trd>varen<klr tip="ind"> (zn.)</klr></trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_s;&c_u;&c_d;&c_o;&c_h;&c_o;&c_d;&c_s;&c_t;&c_v;&c_o;</trd>,
-          <trd>&c_p;&c_l;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_je;<klr> (&c_n;&c_a; &c_s;&c_u;&c_d;&c_n;&c_je;)</klr></trd>
-        </trdgrp>
-      </snc>
+<drv mrk="navig.0ado">
+  <kap><tld/>ado</kap>
+  <snc mrk="navig.0ado.veturado">
+    <dif>
+      La ago <tld/>i<sncref ref="navig.0i.veturi"/>:
+      <ekz>
+        post longa mar<tld/>ado
+        <fnt><aut>R. Roze</aut>:
+          <vrk>&leftquot;Bravado&rightquot; en Saint-Tropez</vrk>,
+          <bib>Monato</bib><lok>jaro 1997a, numero 2a, p.
+          28a</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_a;&c_v;&c_ib;&c_g;&c_a;&c_c;&c_y;&c_ja;</trd>,
+      <trd>&c_p;&c_l;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_n;&c_a; &c_k;&c_a;&c_r;&c_a;&c_b;&c_l;&c_ib;)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Fahrt</trd>,
+      <trd>Navigation</trd>
+    </trdgrp>
+    <trd lng="en">navigation</trd>
+    <trd lng="es">navegaci&oacute;n</trd>
+    <trd lng="fr">navigation</trd>
+    <trdgrp lng="nl">
+      <trd>navigeren<klr tip="ind"> (zn.)</klr></trd>,
+      <trd>varen<klr tip="ind"> (zn.)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_u;&c_d;&c_o;&c_h;&c_o;&c_d;&c_s;&c_t;&c_v;&c_o;</trd>,
+      <trd>&c_p;&c_l;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_je;<klr> (&c_n;&c_a; &c_s;&c_u;&c_d;&c_n;&c_je;)</klr></trd>
+    </trdgrp>
+  </snc>
   <trdgrp lng="cs">
     <trd>lodn&iacute; doprava</trd>,
     <trd>navigace</trd>,
@@ -112,39 +173,39 @@
   </trdgrp>
   <trdgrp lng="ro">
     <trd>orientare</trd>,
-    <trd>naviga&#x21B;ie</trd>
+    <trd>naviga&#539;ie</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>lodn&aacute; doprava</trd>,
     <trd>navig&aacute;cia</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&c_a;&c_v;&c_ib;&c_gu;&c_a;&c_c;&c_ib;&#x44F;</trd>,
-    <trd>&#x43F;&#x43B;&c_a;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x43F;&#x43E;&#x43B;&#x44C;&#x43E;&c_t;&c_i;</trd>
+    <trd>&c_n;&c_a;&c_v;&c_ib;&c_gu;&c_a;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_p;&c_l;&c_a;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_p;&c_o;&c_l;&c_mol;&c_o;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="navig.0ebla">
-      <kap><tld/>ebla</kap>
-      <snc mrk="navig.0ebla.MAR">
-        <dif>
-          &Scirc;ipirebla:
-          <ekz>
-            la fora Stanley-lago, de kie la Kongo-riverego estas
-            <tld/>ebla
-            <fnt><aut>W. M. A. De Smet</aut>:
-              <vrk>Anta&ubreve; cent jaroj</vrk>, <bib>Monato</bib>
-              <lok>jaro 1998a, numero 5a, p. 25a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
+<drv mrk="navig.0ebla">
+  <kap><tld/>ebla</kap>
+  <snc mrk="navig.0ebla.MAR">
+    <dif>
+      &Scirc;ipirebla:
+      <ekz>
+        la fora <nom>Stanley</nom>-lago, de kie la Kongo-riverego estas
+        <tld/>ebla
+        <fnt><aut>W. M. A. De Smet</aut>:
+          <vrk>Anta&ubreve; cent jaroj</vrk>, <bib>Monato</bib>
+          <lok>jaro 1998a, numero 5a, p. 25a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_s;&c_u;&c_d;&c_a;&c_h;&c_o;&c_d;&c_n;&c_y;</trd>
   <trd lng="cs">splavn&yacute;</trd>
   <trdgrp lng="de">
-        <trd>befahrbar</trd>,
-        <trd>schiffbar</trd>
-      </trdgrp>
+    <trd>befahrbar</trd>,
+    <trd>schiffbar</trd>
+  </trdgrp>
   <trd lng="en">navigable</trd>
   <trd lng="es">navegable</trd>
   <trd lng="fr">navigable</trd>
@@ -154,28 +215,28 @@
   <trd lng="ru">&c_s;&c_u;&c_d;&c_o;&c_h;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">splavn&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&c_s;&c_u;&c_d;&#x43D;&#x43E;&#x43F;&#x43B;&c_a;&c_v;&#x43D;&c_i;&c_j;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&c_d;&c_a;&c_t;&#x43D;&c_i;&c_j; &c_d;&#x43E; &#x43F;&#x43B;&c_a;&c_v;&c_a;&#x43D;&#x43D;&#x44F; (&#x43F;&c_r;&#x43E;
-    &c_v;&#x43E;&c_d;&#x43D;&c_i;&c_j; &c_sh;&#x43B;&#x44F;&c_h;)</trd>
+    <trd>&c_s;&c_u;&c_d;&c_n;&c_o;&c_p;&c_l;&c_a;&c_v;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_d;&c_a;&c_t;&c_n;&c_i;&c_j; &c_d;&c_o; &c_p;&c_l;&c_a;&c_v;&c_a;&c_n;&c_n;&c_ja; (&c_p;&c_r;&c_o;
+    &c_v;&c_o;&c_d;&c_n;&c_i;&c_j; &c_sh;&c_l;&c_ja;&c_h;)</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="navig.0isto">
-      <kap><tld/>isto</kap>
-      <snc mrk="navig.0isto.MAR">
-        <uzo tip="fak">MAR</uzo>
-        <dif>
-          Homo, kiu profesie <tld/>as:
-          <ekz>
-            La irlanda kronikisto Adamnan (&ccirc;. 624&ndash;704 p.K.) asertas, ke
-            la <tld/>isto estis ne Brandan
-            <fnt><aut>G. MacAoidh</aut>:
-              <vrk>Frua irlanda migrado al Islando</vrk>,
-              <bib>Monato</bib><lok>jaro 1998a, numero 7a, p.
-              22a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
+<drv mrk="navig.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="navig.0isto.MAR">
+    <uzo tip="fak">MAR</uzo>
+    <dif>
+      Homo, kiu profesie <tld/>as:
+      <ekz>
+        La irlanda kronikisto <nom>Adamnan</nom> (&ccirc;. 624&ndash;704 p.K.) asertas, ke
+        la <tld/>isto estis ne <nom>Brandan</nom>
+        <fnt><aut>G. MacAoidh</aut>:
+          <vrk>Frua irlanda migrado al Islando</vrk>,
+          <bib>Monato</bib><lok>jaro 1998a, numero 7a, p.
+          22a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_n;&c_a;&c_v;&c_ib;&c_g;&c_a;&c_t;&c_a;&c_r;</trd>
   <trd lng="cs">navig&aacute;tor</trd>
   <trd lng="de">Navigator</trd>
@@ -186,34 +247,34 @@
   <trd lng="pl">nawigator</trd>
   <trd lng="ro">navigator</trd>
   <trdgrp lng="ru">
-        <trd>&c_m;&c_o;&c_r;&c_je;&c_p;&c_l;&c_a;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
-        <trd>&c_m;&c_o;&c_r;&c_je;&c_h;&c_o;&c_d;</trd>
-      </trdgrp>
+    <trd>&c_m;&c_o;&c_r;&c_je;&c_p;&c_l;&c_a;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
+    <trd>&c_m;&c_o;&c_r;&c_je;&c_h;&c_o;&c_d;</trd>
+  </trdgrp>
   <trd lng="sk">navig&aacute;tor</trd>
   <trdgrp lng="uk">
-    <trd>&#x43B;&#x43E;&c_c;&#x43C;&c_a;&#x43D;</trd>,
-    <trd>&#x43F;&c_ib;&#x43B;&#x43E;&c_t;</trd>
+    <trd>&c_l;&c_o;&c_c;&c_m;&c_a;&c_n;</trd>,
+    <trd>&c_p;&c_ib;&c_l;&c_o;&c_t;</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="navig.0ilo">
-      <kap><tld/>ilo</kap>
-      <snc mrk="navig.0ilo.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <uzo tip="stl">FIG</uzo>
-        <dif>
-          Rimedo por <tld/>i en la Interreto (la Kiberkosmo), en
-          komplikita datumstrukturo ktp:
-          <ekz>
-            Mozilla evoluis el Neckejp-<tld/>ilo <klr>(Netscape
-            Navigator)</klr>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="navig.0ilo.bira">
-        <ref tip="dif" cel="naviga.0ilo.birilo">navigaciilo<sncref/></ref>
-      </snc>
-      <trd lng="be">&c_n;&c_a;&c_v;&c_ib;&c_g;&c_a;&c_t;&c_a;&c_r; <klr>(&c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_a;, &c_p;&c_r;&c_y;&c_l;&c_a;&c_d;&c_a;)</klr></trd>
+<drv mrk="navig.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="navig.0ilo.bira">
+    <ref tip="dif" cel="naviga.0ilo.birilo">navigaciilo<sncref/></ref>
+  <trd lng="de">Navigationsger&auml;t</trd>
+  </snc>
+  <snc mrk="navig.0ilo.RET">
+    <uzo tip="fak">RET</uzo>
+    <dif>
+      <ref tip="dif" cel="ret.0umilo">Retumilo</ref>:
+      <ekz>
+        <nom>Mozilla</nom> evoluis el <nom>Neckejp</nom>-<tld/>ilo <klr>(<nom>Netscape
+        Navigator</nom>)</klr>.
+      </ekz>
+    </dif>
+  <trd lng="de">Browser</trd>
+  </snc>
+  <trd lng="be">&c_n;&c_a;&c_v;&c_ib;&c_g;&c_a;&c_t;&c_a;&c_r; <klr>(&c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_a;, &c_p;&c_r;&c_y;&c_l;&c_a;&c_d;&c_a;)</klr></trd>
   <trd lng="cs">plavidlo</trd>
   <trd lng="en">navigator</trd>
   <trd lng="pl">przegl&aogonek;darka sieciowa</trd>
@@ -222,9 +283,12 @@
   <trd lng="sk">plavidlo</trd>
 </drv>
 
-  </art>
+</art>
   <!--
   $Log$
+versio 1.23 2022/06/22 05:30:27
+Wolfram Diestel: ~i: +ekz-oj, ref-oj; +snc "retumi"
+
 versio 1.22 2022/04/25 07:30:25
 Ulrich Fellmann: navigi: +4 DE trd, -1 DE trd
 
@@ -244,8 +308,5 @@ Vito Redsky: +trd pl +trd ro
   Jeromo Vasxe: kor 1 ref
 
   Revision 1.14  2010/05/11 16:30:24  revo
-  Sergio Pokrovskij: sencodisigo
-
-  Revision 1.13  2009/10/24 16:32:51  revo
 -->
 </vortaro>
