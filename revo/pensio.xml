@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pensio.xml,v 1.16 2022/06/28 04:10:45 revo Exp $">
+<art mrk="$Id: pensio.xml,v 1.17 2022/06/28 05:37:29 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>pension</rad>/o
@@ -25,7 +25,8 @@
   </snc>
   <snc mrk="pensio.0o.lernejo">
     <dif>
-      Lo&gcirc;lernejo, mezlernejo kun <tld/>o&#185;:
+      <ref tip="dif" cel="lern.logx0ejo">Lo&gcirc;lernejo</ref>, mez<tld/>ejo
+      kun <tld/>o<sncref ref="pensio.0o.gastejo"/>:
       <ekz>
         <nom>Mme Louise Zimmermann</nom>, direktorino de knabina
         <tld/>o en La&ubreve;zano
@@ -41,6 +42,7 @@
           </fnt>.
         </ekz>
     </dif>
+    <trd lng="en">boarding school</trd>
     <trd lng="ru">&c_p;&c_a;&c_n;&c_s;&c_i;&c_o;&c_n;</trd>
   </snc>
   <trdgrp lng="be">
@@ -68,7 +70,7 @@
   <kap><tld/>ano</kap>
   <snc mrk="pensio.0o.lernejano">
     <dif>
-      Lernanto de <tld/>o&quadrat;:
+      Lernanto de <tld/>o<sncref ref="pensio.0o.lernejo"/>:
       <ekz>
         Junaj <tld/>anoj plejofte dividas dormo&ccirc;ambron, dum pli
         maljunaj <tld/>anoj kutime havas siajn privatajn &ccirc;ambrojn 
@@ -96,7 +98,7 @@
   <kap><tld/>ulo</kap>
   <snc mrk="pensio.0o.gastejano">
     <dif>
-      Kliento de gasteja <tld/>o:
+      Kliento de <tld/>o<sncref ref="pensio.0o.gastejo"/>:
       <ekz>
         <klr>[La nomkarteto]</klr> estas de sinjoro Van Elshout, unu
         el miaj <tld/>uloj
@@ -112,6 +114,9 @@
 </art>
 <!--
 $Log$
+versio 1.17 2022/06/28 05:37:29
+Sergio Pokrovskij: TEZ
+
 versio 1.16 2022/06/28 04:10:45
 Sergio Pokrovskij: +~o.lernejo, +~ano, +~ulo
 
@@ -131,8 +136,5 @@ Revision 1.9  2003/09/12 16:31:04  revo
 Jeromo Vasxe: + ekz, + trd fr
 
 Revision 1.8 2001/12/13 17:34:06 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/09 18:16:02 revo
 -->
 </vortaro>
