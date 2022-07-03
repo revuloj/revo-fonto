@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lini.xml,v 1.106 2022/05/01 12:04:34 revo Exp $">
+<art mrk="$Id: lini.xml,v 1.107 2022/07/03 09:27:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lini</rad>/o <fnt><bib>PV</bib></fnt>
@@ -66,27 +66,11 @@
       <trd>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="lini.0o.KOMUNE">
-    <dif>
-      Strio, <ref tip="super" cel="vic.0o.spaca">vico</ref> de sinsekvaj a&jcirc;oj.
-    </dif>
-    <subsnc mrk="lini.0o.vico">
-      <dif>
-        <ref tip="vid" cel="vic.0o">Vico</ref> da objektoj a&ubreve; personoj
-        ordigitaj la&ubreve; difinita direkto:
-        <ekz>
-          duobla <tld/>o da arboj;
-        </ekz>
-        <ekz>
-          armeo ordigita la&ubreve; tri <tld/>oj.
-        </ekz>
-      </dif>
-    </subsnc>
-    <subsnc mrk="lini.0o.BELA">
+  <snc mrk="lini.0o.BELA">
       <uzo tip="fak">BELA</uzo>
       <dif>
         Kontinua <ref tip="vid" cel="strek.0o.KOMUNE">streko</ref>
-        montranta difinitan direkton:
+        videbla sur surfaco:
         <ekz>
           la belforma kaj delikata <tld/>o de tiu bu&scirc;o
           <fnt><bib>Marta</bib></fnt>;
@@ -102,13 +86,13 @@
         <ref cel="kontur.0o">konturo</ref>
       </refgrp>
       <trd lng="hu">vonal</trd>
-    </subsnc>
-    <subsnc mrk="lini.0o.TRA">
+  </snc>
+  <snc mrk="lini.0o.TRA">
       <tezrad fak="TRA"/>	  
       <uzo tip="fak">TRA</uzo>
       <dif>
-        Sinsekvo de <ref tip="prt" cel="voj.0o.TRA">vojoj</ref>
-        trairotaj:
+        Difinita serio de <ref tip="prt" cel="voj.0o.TRA">vojoj</ref>
+        kiun transportiloj trairas:
         <ekz>
           marvetura, trafika <tld/>o;
         </ekz>
@@ -117,12 +101,33 @@
         </ekz>
         <ekz>
           sekvu la fervoj<tld/>on, &gcirc;is vi alvenos la stacion
-          <fnt><bib>Mortul&Scirc;ip</bib>, <lok>unua libro, &ccirc;apitro
+          <fnt><bib>Mortul&Scirc;ip</bib> <lok>unua libro, &ccirc;apitro
           8a</lok></fnt>.
         </ekz>
       </dif>
+    <refgrp tip="vid">
+      <ref cel="kurs.0o.voja">kurso<sncref/></ref>,
+      <ref cel="rauxt.0o">ra&ubreve;to</ref>,
+      <ref cel="trajek.0o">trajektorio</ref>.
+    </refgrp>
       <trd lng="hu">&uacute;tvonal</trd>
-    <trd lng="th">&#3626;&#3634;&#3618;</trd>
+      <trd lng="th">&#3626;&#3634;&#3618;</trd>
+  </snc>
+  <snc mrk="lini.0o.KOMUNE">
+    <dif>
+      Strio, <ref tip="super" cel="vic.0o.spaca">vico</ref> de sinsekvaj a&jcirc;oj.
+    </dif>
+    <subsnc mrk="lini.0o.vico">
+      <dif>
+        <ref tip="vid" cel="vic.0o">Vico</ref> da objektoj a&ubreve; personoj
+        ordigitaj la&ubreve; difinita direkto:
+        <ekz>
+          duobla <tld/>o da arboj;
+        </ekz>
+        <ekz>
+          armeo ordigita la&ubreve; tri <tld/>oj.
+        </ekz>
+      </dif>
     </subsnc>
     <subsnc mrk="lini.0o.TIP">
       <uzo tip="fak">TIP</uzo>
@@ -485,7 +490,7 @@
       Linio anta&ubreve;desegnita por gvidi dum posta skribado, inkado,
       kolorigo...:
       <ekz>
-        J&aacute;nos, sen helpo de krajono a&ubreve; gvid<tld/>oj, tute nature kreas
+        <nom>J&aacute;nos</nom>, sen helpo de krajono a&ubreve; gvid<tld/>oj, tute nature kreas
         la&ubreve;
         bildo en sia kapo
         <fnt>
@@ -607,6 +612,9 @@
 </art>
 <!--
 $Log$
+versio 1.107 2022/07/03 09:27:32
+Jeromo Vasxe: ~o: rearangx snc
+
 versio 1.106 2022/05/01 12:04:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -626,8 +634,5 @@ Revision 1.32  2009/11/12 17:30:20  revo
 Jeromo Vasxe: ~o + snc gen
 
 Revision 1.31  2009/10/08 16:31:12  revo
-Paul Peeraerts: +nl
-
-Revision 1.30  2007/04/20 16:30:44  revo
 -->
 </vortaro>
