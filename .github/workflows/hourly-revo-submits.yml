@@ -25,7 +25,8 @@ on:
 
 env:
   # voko-formiko image tag {latest|stabila|2x}
-  IMAGE_TAG: 2f
+  FORMIKO_TAG: 2f
+  AFIDO_TAG: 2f
 
 jobs:
 
@@ -45,7 +46,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-        docker pull "ghcr.io/revuloj/voko-afido/voko-afido:latest"
+        docker pull "ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }}"
 
     - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
@@ -55,7 +56,7 @@ jobs:
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
-        ghcr.io/revuloj/voko-afido/voko-afido:latest 
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
         sleep 10
         docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
@@ -104,7 +105,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-        docker pull "ghcr.io/revuloj/voko-afido/voko-afido:latest"
+        docker pull "ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }}"
 
     - name: Akceptu redaktojn el submetoj, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
@@ -114,7 +115,7 @@ jobs:
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
-        ghcr.io/revuloj/voko-afido/voko-afido:latest 
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
         sleep 10
         docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
@@ -189,7 +190,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin 
-        docker pull "ghcr.io/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }}"
+        docker pull "ghcr.io/revuloj/voko-formiko/voko-formiko:${{ env.FORMIKO_TAG }}"
 
     - name: Aktualigu la artikolojn redaktitajn de hora-formiko ĝis HEAD
       if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
@@ -209,7 +210,7 @@ jobs:
         -e CGI_PASSWD2=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
         -v $GITHUB_WORKSPACE/.log:/home/formiko/log
-        ghcr.io/revuloj/voko-formiko/voko-formiko:${{ env.IMAGE_TAG }} formiko
+        ghcr.io/revuloj/voko-formiko/voko-formiko:${{ env.FORMIKO_TAG }} formiko
         -Dsha1=${{ steps.trovu_horan_formikon.outputs.sha_hf }} 
         -Dsha2=${{ steps.trovu_kapon.outputs.sha_hm }} 
         srv-servo-github-hore
