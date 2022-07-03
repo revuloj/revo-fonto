@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: interp2.xml,v 1.28 2022/06/29 16:02:30 revo Exp $">
+<art mrk="$Id: interp2.xml,v 1.29 2022/07/03 13:36:21 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>interpret</rad>/i <fnt><bib>PV</bib></fnt>
@@ -115,19 +115,19 @@
       </trdgrp>
   </snc>
   <snc mrk="interp2.0i.LIN">
-      <uzo tip="fak">LIN</uzo>
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      Tradukadi dum komunikado (prelego, konferenco, debato ktp),
+      interalie
+    </dif>
+    <subsnc mrk="interp2.0i.busxe">
       <ref tip="dif" cel="traduk.busx0i.LIN">Bu&scirc;traduki</ref>
       <ekz>
-        la kunveno da&ubreve;ris kvin horojn, sed la diskutado da&ubreve;ris
-        efektive nur unu horon, &ccirc;ar estis necese <tld/>i &ccirc;iun
-        paroladon;
-      </ekz><ekz>
-        <tld/>i la bu&scirc;movojn de nesurduloj
-        <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/006880.html">Ne &ccirc;iuj lingvoj estas
-          langaj</url></vrk>
-        </fnt>.
+        li prelegis germanlingve kaj Esperanten <tld/>is
+        <nom>Ursula Niesert</nom>
+        <fnt><aut>Alois Eder</aut>:
+          <vrk>Politikisto kaj diplomatoj en la komuna kongreso de EEU kaj GEA</vrk>
+          <bib>LOdE</bib>, <lok>&#8470;273 (2017:7).</lok></fnt>.
       </ekz>
       <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_k;&c_l;&c_a;&c_d;&c_a;&c_c;&c_mol; <klr>(&c_v;&c_u;&c_s;&c_n;&c_a;)</klr></trd>
       <trd lng="ca">interpretar</trd>
@@ -138,6 +138,38 @@
       <trd lng="hu">tolm&aacute;csol</trd>
       <trd lng="nl">vertolken</trd>
       <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol;<klr> (&c_u;&c_s;&c_t;&c_n;&c_o;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="interp2.0i.geste">
+      <dif>
+        Gesttraduki, <ref tip="super" cel="traduk.0i">traduki</ref>
+        parolon en surdulan gestolingvon:
+        <ekz>
+          ofte, kiam publikaj prelegoj, nova&jcirc;bultenoj, ktp estas
+          <tld/>ataj por surdaj "a&ubreve;skultantoj", la sistemo uzata
+          estas ne unu el la signolingvoj preferataj de la surdaj
+          komunumoj, sed la&ubreve;vorte tradukita angla, franca, ktp
+          <fnt><bib>Monato</bib>
+            <aut>YAMASAKI Seik&ocirc;</aut>
+            <vrk><url ref="http://steloj.de/esperanto/monato2/006880.html"
+              >Ne &ccirc;iuj lingvoj estas langaj</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="ru">&c_o;&c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_l;&c_ja;&c_t;&c_mol; <ind>&c_s;&c_u;&c_r;&c_d;&c_o;&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;</ind></trd>
+    </subsnc>
+  </snc>
+  <snc mrk="interp2.0i.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Tradukadi kaj tuj plenumadi komandojn per <tld/>ilo:
+      <ekz>
+        <klr>tredkodo estas</klr>
+        prezento de <tld/>ata programo, konsistanta el adresoj de
+        subprogramoj, plenumantaj la <tld/>ajn operaciojn
+        <fnt><bib>KomlLeks</bib></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_r;&c_p;&c_r;&c_je;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;<klr> (&c_k;&c_o;&c_m;&c_a;&c_d;&c_y; &c_i;&c_l;&c_i; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_u;)</klr></trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_ib;&c_n;&c_t;&c_e;&c_r;&c_p;&c_r;&c_e;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -370,6 +402,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2022/07/03 13:36:21
+Sergio Pokrovskij: + ~i.geste, +~i.KOMP
+
 versio 1.28 2022/06/29 16:02:30
 Sergio Pokrovskij: ~i reverkata2
 
@@ -389,8 +424,5 @@ Revision 1.21  2018/09/03 22:10:25  revo
 Wolfram Diestel: -ko
 
 Revision 1.20  2017/07/12 08:10:14  revo
-Wolfram Diestel: ekzemploj, kor. mrk
-
-Revision 1.19  2015/10/09 14:10:15  revo
 -->
 </vortaro>
