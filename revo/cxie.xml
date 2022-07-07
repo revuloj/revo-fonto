@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxie.xml,v 1.30 2022/03/14 15:25:40 revo Exp $">
+<art mrk="$Id: cxie.xml,v 1.31 2022/07/07 07:30:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;ie</rad> <fnt><bib>PV</bib></fnt>
@@ -23,7 +23,7 @@
     </dif>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_u;&c_s;&c_ju;&c_d;&c_y;</trd>,
+    <trd>&c_u;&c_s;&c_ju;&c_d;&c_y; <klr>(&c_d;&c_z;&c_je;)</klr></trd>,
     <trd>&c_p;&c_a;&c_w;&c_s;&c_ju;&c_d;&c_n;&c_a;</trd>,
     <trd>&c_s;&c_k;&c_r;&c_o;&c_z;&c_mol;</trd>
   </trdgrp>
@@ -56,8 +56,8 @@
   <trd lng="sk">v&scaron;ade</trd>
   <trd lng="sv">&ouml;verallt</trd>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x43A;&#x440;&#x456;&#x437;&#x44C;</trd>,
-    <trd>&#x443;&#x441;&#x44E;&#x434;&#x438;</trd>
+    <trd>&c_s;&#x43A;&c_r;&c_ib;&c_z;&#x44C;</trd>,
+    <trd>&c_u;&c_s;&#x44E;&c_d;&c_i;</trd>
   </trdgrp>
   <trd lng="vo">&uuml;bal</trd>
 </drv>
@@ -69,6 +69,7 @@
       Al &ccirc;iu loko
     </dif>
   </snc>
+  <trd lng="be">&c_u;&c_s;&c_ju;&c_d;&c_y; <klr>(&c_k;&c_u;&c_d;&c_y;)</klr></trd>
   <trd lng="de">&uuml;berallhin</trd>
   <trd lng="he">&#x5DC;&#x5DB;&#x5DC; &#x5DE;&#x5E7;&#x5D5;&#x5DD;</trd>
   <trd lng="nl">overal heen</trd>
@@ -89,6 +90,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_w;&c_s;&c_ju;&c_d;&c_n;&c_y;</trd>
   <trd lng="en">ubiquitous</trd>
   <trd lng="ru">&c_p;&c_o;&c_v;&c_s;&c_je;&c_m;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
 </drv>
@@ -100,7 +102,7 @@
   <snc>
     <dif>
       <ref cel="funkci.0o.MATEM">Funkcio<sncref/></ref>
-      <frm am="f: X -&gt; Y">f: X&#x2192;Y</frm> estas <tld/>a funkcio super
+      <frm am="f: X -&gt; Y">f: X&#8594;Y</frm> estas <tld/>a funkcio super
       <frm am="X">X</frm>, se
       &gcirc;i estas difinita (konver&gcirc;as) por &ccirc;iu <frm am="x">x</frm>
       el <frm am="X">X</frm>:
@@ -108,10 +110,12 @@
         problemo: &ccirc;u ekzistas <tld/>a komputebla funkcio, kiu ne estas
         primitive rekursia funkcio
         <fnt><bib>KompLeks</bib>,
-           <lok>art. &leftquot;<url ref="http://bertilow.com/div/komputada_leksikono/DI.html#DIAGONALADO">diagonalado</url>&rightquot;</lok></fnt>.
+           <lok>art. &leftquot;<url
+           ref="http://bertilow.com/div/komputada_leksikono/DI.html#DIAGONALADO">diagonalado</url>&rightquot;</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_k;&c_r;&c_o;&c_z;&c_mol; &c_v;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_y;&c_ja;</ind></trd>
   <trd lng="en">total function</trd>
   <trd lng="ru">&c_v;&c_s;&c_ju;&c_d;&c_u; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_a;&c_ja; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
 </drv>
@@ -133,7 +137,10 @@
         integralon.
       </ekz>
     </dif>
-    <trd lng="be">&c_a;&c_m;&c_a;&c_l;&c_mol; &c_u;&c_s;&c_ju;&c_d;&c_y;</trd>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_m;&c_a;&c_l;&c_mol; &c_s;&c_k;&c_r;&c_o;&c_z;&c_mol;</trd>,
+      <trd>&c_a;&c_m;&c_a;&c_l;&c_mol; &c_u;&c_s;&c_ju;&c_d;&c_y;</trd>
+    </trdgrp>
     <trd lng="de">fast &uuml;berall</trd>
     <trd lng="en">almost everywhere</trd>
     <trd lng="fr">presque partout</trd>
@@ -147,7 +154,10 @@
 
 </art>
 <!--
-$Log: cxie.xml,v $
+$Log$
+versio 1.31 2022/07/07 07:30:21
+Dmitri Gabinski: + trd be
+
 versio 1.27 2020/02/13 22:10:20
 Wolfram Diestel: formuloj per am
 
@@ -167,8 +177,5 @@ Revision 1.22  2016/03/18 19:10:39  revo
 Jeromo Vasxe: vspec adverbo
 
 Revision 1.21  2015/10/11 15:10:14  revo
-Evandro Avellar: +trd pt
-
-Revision 1.20  2008/01/29 17:30:32  revo
 -->
 </vortaro>
