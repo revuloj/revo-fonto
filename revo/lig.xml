@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lig.xml,v 1.62 2022/07/06 17:33:40 revo Exp $">
+<art mrk="$Id: lig.xml,v 1.63 2022/07/07 06:36:51 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lig</rad>/i <fnt><bib>PV</bib></fnt>
@@ -382,7 +382,7 @@
       </ekz>
       <ekz>
         eta aparato <klr>[&#8230;ebligas]</klr> <tld/>i ekranon al la komputilo per &gcirc;ia
-        USB-pordo
+        <nom>USB</nom>-pordo
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
@@ -691,7 +691,7 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="lig.0igxi.KOMUNE">
     <dif>
-      Fiksi&gcirc;i per <tld/>oj a&ubreve; simila rimedo al io:
+      <ref tip="super" cel="fiks.0igxi">Fiksi&gcirc;i</ref> per fizika rimedo al io:
       <ekz>
         la proteina toksino <tld/>i&gcirc;as al la membrano de
         &ccirc;eloj en la mezintesto de la larvo, malhelpante
@@ -714,21 +714,75 @@
       </ekz>
     </dif>
   </snc>
-  <snc mrk="lig.0igxi.FIG">
+  <snc mrk="lig.0igxi.morale">
     <dif>
-      Pliproksimi&gcirc;i, rilati&gcirc;i:
+      <ref tip="super" cel="lim.0igxi">Limi&gcirc;i</ref> en sia libereco per morala devo
+      pro mensa limigo:
       <ekz>
-        Marion, kiel mia edzino, estos post dek jaroj
+        <nom>Marion</nom>, kiel mia edzino, estos post dek jaroj
         <klr>[&#8230;]</klr> kredeble pli ri&ccirc;a, ol se &scirc;i
         <tld/>i&gcirc;os kun <nom>Alfred Heathfield</nom>
         <fnt>
           <aut>C. Dickens, trad. L. L. Zamenhof</aut>,
           <vrk>La Batalo de l' Vivo</vrk>,
           <lok>1891</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi nur volus rompi la katenojn, per kiuj viaj spiritoj <tld/>i&gcirc;is al tro
+        malvastaj konceptoj
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kampuloj, kiuj volas levi&gcirc;i super sian staton kaj edzo<tld/>i&gcirc;i kun domo de
+        nobelo
+        <fnt>
+          <bib>GDn</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por kio <tld/>i&gcirc;i kun ili por longe? kra&ccirc;u sur ilin
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        fian&ccirc;i&gcirc;is &dash; por &ccirc;iam <tld/>i&gcirc;is
+        <fnt>
+          <bib>PrV</bib>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <snc mrk="lig.0igxi.FIG">
+    <dif>
+      Rilati&gcirc;i, asocii&gcirc;i:
+      <ekz>
+        kun tiu e&hcirc;o de longepasinta&jcirc;a rememoro <tld/>i&gcirc;is la malfacila, tremanta de
+        malvarmo spirado de &scirc;ia infano
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se la adverbo anstata&ubreve;as vorton, kiu povas <tld/>i&gcirc;i kun substantivo nur per ia
+        prepozicio, tiam anka&ubreve; la adverbo akceptas post si tiun prepozicion
+        <fnt>
+          <bib>LR</bib>
+          <lok>Dua Parto &ndash; Gramatiko</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>sich <ind>verbinden</ind></trd>,
+    <trd>sich <ind>binden</ind></trd>
+  </trdgrp>
   <trd lng="fr">se <ind>lier</ind><klr> (&agrave;)</klr></trd>
   <trdgrp lng="uk">
     <trd>&c_z;&c_v;&#8217;&c_ja;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
@@ -1538,6 +1592,9 @@
 </art>
 <!--
 $Log$
+versio 1.63 2022/07/07 06:36:51
+Wolfram Diestel: ~iĝi: +snc "morale", ekz-oj, ref, trd de
+
 versio 1.62 2022/07/06 17:33:40
 Wolfram Diestel: ~i: +trd de; ~o: ekz-oj, ref
 
@@ -1557,8 +1614,5 @@ versio 1.57 2022/04/04 08:45:00
 Ulrich Fellmann: ligilo 1: +4 DE tradukoj, ligilo 2: +2 DE tradukoj
 
 versio 1.54 2021/06/17 06:38:29
-Dmitri Gabinski: + trd be
-
-versio 1.50 2020/02/15 17:10:20
 -->
 </vortaro>
