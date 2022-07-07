@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lig.xml,v 1.63 2022/07/07 06:36:51 revo Exp $">
+<art mrk="$Id: lig.xml,v 1.64 2022/07/07 16:49:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lig</rad>/i <fnt><bib>PV</bib></fnt>
@@ -796,19 +796,39 @@
 
 <drv mrk="lig.0ilo">
   <kap><tld/>ilo</kap>
-  <snc>
+    <snc mrk="lig.0ilo.fizika">
     <dif>
-      &Ccirc;io, kio servas por <tld/>i<sncref ref="lig.0i.malhelpimovon"/>,
-      a&ubreve; figursence por malhelpi <tld/>i<sncref ref="lig.0i.FIG"/>:
-      <ekz>
-        leda, pajla <tld/>ilo;
-      </ekz>
+      &Ccirc;io, kio servas por <tld/>i<sncref ref="lig.0i.malhelpimovon"/>:
       <ekz>
         kiu donis liberecon al la sova&gcirc;a azeno, kaj kiu
-        mal<tld/>is
-        &gcirc;iajn <tld/>ilojn?
-        <fnt><bib>MT</bib>, <lok>&Ijo; 39:5</lok></fnt>;
+        mal<tld/>is &gcirc;iajn <tld/>ilojn
+        <fnt><bib>MT</bib>, <lok>&Ijo; 39:5</lok></fnt>?
       </ekz>
+      <ekz>
+        vi perdus <tld/>ilon de &scirc;uo
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam mi tran&ccirc;is la <tld/>ilojn li profunde ek&gcirc;emis
+        <fnt>
+          <bib>Rob</bib>
+          <lok>Parto IV</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Fessel</trd>,
+      <trd>Schnur</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="lig.0ilo.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      &Ccirc;io, kio servas por malhelpe a&ubreve; kunige <tld/>i<sncref ref="lig.0i.FIG"/>
+      a&ubreve; <sncref ref="lig.0i.interrilatigi"/>:
       <ekz>
         <uzo tip="stl">FIG</uzo>
         Mi pasigos vin sub vergo kaj venigos vin en la
@@ -816,93 +836,160 @@
         <fnt><bib>MT</bib>, <lok>&Jeh; 20:37</lok></fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        la <tld/>ilo de la edzeco, de la amikeco;
+        <tld/>iloj de amo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ho&scirc;ea 11:4</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        estas dan&gcirc;ere &scirc;iri &ccirc;iun <tld/>ilon kun la
-        pasinta&jcirc;o.
+        super &ccirc;ion tion surmetu amon, kiu estas <tld/>ilo de perfekteco
+        <fnt>
+          <bib>NT</bib>
+          <lok>Koloseanoj 3:14</lok>
+        </fnt>;
       </ekz>
-    </dif>
-    <subsnc mrk="lig.0ilo.KOMP">
-      <uzo tip="fak">KOMP</uzo>
-      <dif>
-        Rimedo por konekti elementojn en datumstrukturo
-        (<tld/>illisto, hiperteksto), a&ubreve; komandojn a&ubreve;
-        subprogramojn:
-        <ekz>
-          <ind>rekta <tld/>ilo</ind>
-          <klr>(en Unikso, dosierujano indikanta la
-            saman indeksnodon)</klr>);
-          <trd lng="en">hard link</trd>
-          <trd lng="ru">&c_zh;&c_jo;&c_s;&c_t;&c_k;&c_a;&c_ja;
-          &c_s;&c_v;&c_ja;&c_z;&c_mol;</trd>
-        </ekz>
-        <ekz>
-          <ind>simbola <tld/>ilo</ind>
-          <trdgrp lng="en">
-            <trd>symlink<klr> (Unix)</klr></trd>,
-            <trd>shortcut<klr> (Windows)</klr></trd>
-          </trdgrp>
-          <trdgrp lng="pl">
-            <trd>dowi&aogonek;zanie symboliczne<klr>
-            (Unix)</klr></trd>
-            <trd>link<klr> (Windows)</klr></trd>
-          </trdgrp>
-          <trd lng="ru">&c_s;&c_i;&c_m;&c_v;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
-          &c_s;&c_s;&c_y;&c_l;&c_k;&c_a;</trd>
-        </ekz>
-      </dif>
-      <trdgrp lng="de">
-            <trd>Link</trd>,
-            <trd>Webseitenlink</trd>,
-            <trd>Weblink</trd>,
-            <trd>Internetlink</trd>
-      </trdgrp>
-      <trd lng="en">link</trd>
-      <trd lng="es">enlace</trd>
-    </subsnc>
-    <subsnc mrk="lig.0ilo.MAT">
-      <uzo tip="fak">MAT</uzo>
-      <dif>
-        En logiko (propozicia kalkulo), simbolo kiu servas por
-        fari unu novan
-        <ref cel="propoz.0o.aserto">propozicion<sncref/></ref>
-        el unu a&ubreve; pluraj donitaj:
-        <ekz>
-          <em>ne, kaj, a&ubreve;, se...tiam</em> estas tipaj logikaj
-          <tld/>iloj.
-        </ekz>
-        <ekz>
-          semantike al &ccirc;iu logika <tld/>ilo respondas
-          logika funkcio (a&ubreve;, alivorte,
-          <ref cel="operac.logika0o">logika operacio</ref>).
-        </ekz>
-      </dif>
-      <rim>
-        Memtrudi&gcirc;anta analogio estas kompari logikajn
-        <tld/>ilojn
-        kun la gramatikaj <ref cel="konjun.0o.GRA">konjunkcioj</ref>;
-        beda&ubreve;rinde, la internacia terminaro matematika rompas
-        la propozician metaforon, kaj tute konfuze atribuas al la
-        vorto <ctl>konjunkcio</ctl> specialan sencon de
-        <ref tip="sub" cel="kaj.0o">kajo</ref>.
-        <aut>Sergio Pokrovskij</aut>
-      </rim>
-      <trdgrp lng="de">
-            <trd>Verkn&uuml;pfung</trd>,
-            <trd>logische Verkn&uuml;pfung</trd>
-      </trdgrp>
-      <trd lng="en">connective</trd>
-      <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_k;&c_a;</trd>
-    </subsnc>
+      <ekz>
+        la <tld/>ilo de lia lango malstre&ccirc;i&gcirc;is, kaj li parolis klare
+        <fnt>
+          <bib>NT</bib>
+          <lok>Marko 7:35</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>iloj de solidareco
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la malferma kunveno de UEA &ccirc;e la Kvina Kongreso Esperantista en Barcelona en la 7a de septembro 1909</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dank&#8217; al la parencaj <tld/>iloj, kiuj nin kunigas, mi povos &scirc;in oftege vizitadi
+        en intimeco de familio
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia lingvo <klr>[&#8230;]</klr> servu kiel <tld/>ilo inter la popoloj
+        <fnt>
+          <bib>LR</bib>
+          <lok>Dua Parto &ndash; Gramatiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>iloj inter pasinteco kaj estonteco
+        <fnt>
+          <bib>Tor</bib>
+          <lok>V.</lok>
+        </fnt>.
+      </ekz>
+    </dif> 
     <rim>
       En &gcirc;ia figura senco <ctl><tld/>ilo</ctl> estas ofte
       anstata&ubreve;ata de <ctl><tld/>o</ctl>. Oni tamen &gcirc;in
-      uzas
-      por emfazi la forton de la malhelpo, kiun &gcirc;i estigas.
+      uzas por emfazi la forton de la malhelpo, kiun &gcirc;i estigas.
     </rim>
+    <trd lng="de">Bund</trd>
+  </snc>
+  <snc mrk="lig.0ilo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Rimedo por konekti elementojn en datumstrukturo
+      (<tld/>illisto, hiperteksto), a&ubreve; komandojn a&ubreve;
+      subprogramojn:
+      <ekz>
+        <ind>rekta <tld/>ilo</ind>
+        <klr>(en Unikso, dosierujano indikanta la
+          saman indeksnodon)</klr>;
+        <trdgrp lng="de">
+          <trd>harte <ind>Verkn&uuml;pfung</ind></trd>,
+          <trd>harter <ind>Link</ind></trd>,
+          <trd>Hardlink</trd>
+        </trdgrp>
+        <trd lng="en">hard link</trd>
+        <trd lng="ru">&c_zh;&c_jo;&c_s;&c_t;&c_k;&c_a;&c_ja;
+        &c_s;&c_v;&c_ja;&c_z;&c_mol;</trd>
+      </ekz>
+      <ekz>
+        <ind>simbola <tld/>ilo</ind>;
+        <trdgrp lng="de">
+          <trd>symbolische <ind>Verkn&uuml;pfung</ind></trd>,
+          <trd>symbolischer <ind>Link</ind></trd>,
+          <trd>Softlink</trd>
+        </trdgrp>
+        <trdgrp lng="en">
+          <trd>symlink<klr> (Unix)</klr></trd>,
+          <trd>shortcut<klr> (Windows)</klr></trd>
+        </trdgrp>
+        <trdgrp lng="pl">
+          <trd>dowi&aogonek;zanie symboliczne<klr>
+          (Unix)</klr></trd>
+          <trd>link<klr> (Windows)</klr></trd>
+        </trdgrp>
+        <trd lng="ru">&c_s;&c_i;&c_m;&c_v;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+        &c_s;&c_s;&c_y;&c_l;&c_k;&c_a;</trd>
+      </ekz>
+      <ekz>
+        la malnova tarifo <klr>[&#8230;]</klr> aperas maldekstre sub la <tld/>ilo Kotizoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://www.monato.be/2012/000011.php"
+              >&Scirc;paru rekotizante nun!</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi povis registri multajn vizitojn de via retpa&gcirc;aro <klr>[&#8230;]</klr> la <tld/>ilo
+        de La Ondo estas tiel populara
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 3 (101)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Link</trd>,
+      <trd>Referenz</trd>,
+      <trd>Weblink</trd>
+    </trdgrp>
+    <trd lng="en">link</trd>
+    <trd lng="es">enlace</trd>
+  </snc>
+  <snc mrk="lig.0ilo.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      En logiko (propozicia kalkulo), simbolo kiu servas por
+      fari unu novan
+      <ref cel="propoz.0o.aserto">propozicion<sncref/></ref>
+      el unu a&ubreve; pluraj donitaj:
+      <ekz>
+        <em>ne, kaj, a&ubreve;, se...tiam</em> estas tipaj logikaj
+        <tld/>iloj.
+      </ekz>
+      <ekz>
+        semantike al &ccirc;iu logika <tld/>ilo respondas
+        logika funkcio (a&ubreve;, alivorte,
+        <ref cel="operac.logika0o">logika operacio</ref>).
+      </ekz>
+    </dif>
+    <rim>
+      Memtrudi&gcirc;anta analogio estas kompari logikajn
+      <tld/>ilojn
+      kun la gramatikaj <ref cel="konjun.0o.GRA">konjunkcioj</ref>;
+      beda&ubreve;rinde, la internacia terminaro matematika rompas
+      la propozician metaforon, kaj tute konfuze atribuas al la
+      vorto <ctl>konjunkcio</ctl> specialan sencon de
+      <ref tip="sub" cel="kaj.0o">kajo</ref>.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+    <trdgrp lng="de">
+      <trd>Verkn&uuml;pfung</trd>,
+      <trd>logische <ind>Verkn&uuml;pfung</ind></trd>
+    </trdgrp>
+    <trd lng="en">connective</trd>
+    <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_k;&c_a;</trd>
   </snc>
   <trd lng="be">&c_s;&c_u;&c_v;&c_ja;&c_z;&c_mol;</trd>
   <trdgrp lng="cs">
@@ -1592,8 +1679,11 @@
 </art>
 <!--
 $Log$
+versio 1.64 2022/07/07 16:49:17
+Wolfram Diestel: ~ilo: iom rearanĝis snc, ekz-oj, trd de
+
 versio 1.63 2022/07/07 06:36:51
-Wolfram Diestel: ~iĝi: +snc "morale", ekz-oj, ref, trd de
+Wolfram Diestel: ~i&gcirc;i: +snc "morale", ekz-oj, ref, trd de
 
 versio 1.62 2022/07/06 17:33:40
 Wolfram Diestel: ~i: +trd de; ~o: ekz-oj, ref
@@ -1611,8 +1701,5 @@ versio 1.58 2022/05/01 12:04:34
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.57 2022/04/04 08:45:00
-Ulrich Fellmann: ligilo 1: +4 DE tradukoj, ligilo 2: +2 DE tradukoj
-
-versio 1.54 2021/06/17 06:38:29
 -->
 </vortaro>
