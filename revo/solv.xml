@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: solv.xml,v 1.104 2022/07/07 17:36:09 revo Exp $">
+  <art mrk="$Id: solv.xml,v 1.105 2022/07/07 18:36:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>solv</rad>/i
@@ -311,7 +311,6 @@
       <trd>issue<klr tip="ind"> (&agrave; un probl&egrave;me)</klr></trd>,
       <trd>rem&egrave;de<klr tip="ind"> (&agrave; un probl&egrave;me)</klr></trd>
     </trdgrp>
-    <trd lng="de">L&ouml;sung</trd>
     <trd lng="hu">megold&aacute;s</trd>
     <trd lng="ru">&c_r;&c_je;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
@@ -327,7 +326,6 @@
     </dif>
     <ref tip="sin" cel="solv.0ado"><tld/>ado</ref>
     <trd lng="be">&c_r;&c_a;&c_sh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
-    <trd lng="de">L&ouml;sung</trd>
     <trdgrp lng="fr">
       <trd>solution<klr tip="ind"> (action)</klr></trd>,
       <trd>dissolution<klr tip="ind"> (action)</klr></trd>,
@@ -341,7 +339,6 @@
     <fnt><bib>PIV1</bib></fnt>
     <ref tip="dif" cel="solv.0ajxo">solva&jcirc;o</ref>
     <trd lng="be">&c_r;&c_a;&c_s;&c_t;&c_v;&c_o;&c_r;</trd>
-    <trd lng="de">L&ouml;sung</trd>
     <trd lng="fr">solution<klr tip="ind"> (chimie)</klr></trd>
     <trd lng="ru">&c_r;&c_a;&c_s;&c_t;&c_v;&c_o;&c_r;</trd>
   </snc>
@@ -470,13 +467,56 @@
       <tld/>inta likvo:
       <ekz>
         diluita, koncentrita <tld/>a&jcirc;o;
-      </ekz><ekz>
-        <tld/>a&jcirc;o de natria klorido en akvo.
+      </ekz>
+      <ekz>
+        <tld/>a&jcirc;o de natria klorido en akvo;
+      </ekz>
+      <ekz>
+        &scirc;i eltiris el &scirc;ranko poteton plenan je <tld/>a&jcirc;o el araba gumo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la junulino metis sub la naztruojn de l&#8217; droninto la amoniakan <tld/>a&jcirc;on
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malsanulino senproteste <klr>[&#8230;]</klr> englutis <tld/>a&jcirc;on el fera peroksido
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Na&ubreve;a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Duponto <klr>[&#8230;]</klr> en&scirc;prucis sub &gcirc;ian ha&ubreve;ton malfortan kvanton da morfina
+        <tld/>a&jcirc;o
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekunua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni uzas la specialajn salajn <tld/>a&jcirc;ojn (<tld/>a&jcirc;oj de MOS), entenantajn en
+        necesaj koncentritecoj jonojn de natrio, kalio, kloro kaj aliaj, kiujn oni
+        enigas en la organismon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2010/010071.php"
+              >Antikva, sed ankora&ubreve; malica gasto</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="solv.0o.KEM"><tld/>o<sncref/></ref>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_s;&c_t;&c_v;&c_o;&c_r;</trd>
+  <trd lng="de">L&ouml;sung</trd>
   <trd lng="fr">solution<klr tip="ind"> (chimie)</klr></trd>
   <trd lng="hu">oldat</trd>
   <trd lng="ru">&c_r;&c_a;&c_s;&c_t;&c_v;&c_o;&c_r;</trd>
@@ -535,9 +575,7 @@
     <trd>se <ind>r&eacute;soudre</ind></trd>,
     <trd>fondre<klr tip="ind"> (se dissoudre)</klr></trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>sich aufl&ouml;sen</trd>
-  </trdgrp>
+  <trd lng="de">sich <ind>aufl&ouml;sen</ind></trd>
   <trdgrp lng="hu">
     <trd>old&oacute;dik</trd>,
     <trd>felold&oacute;dik</trd>
@@ -665,6 +703,9 @@
 </art>
   <!--
   $Log$
+versio 1.105 2022/07/07 18:36:53
+Wolfram Diestel: ~aĵo: +ekz-oj
+
 versio 1.104 2022/07/07 17:36:09
 Wolfram Diestel: ~i: +ekz-oj, ref
 
@@ -684,8 +725,5 @@ Jeromo Vasxe: + sen~a
   aldono de trd sk per skripto de M. von Laer
 
   Revision 1.21  2010/10/07 16:30:21  revo
-  Sergio Pokrovskij: fluajxo -> likvo, rim pri fundamenteco
-
-  Revision 1.20  2007/01/30 17:30:40  revo
 -->
 </vortaro>
