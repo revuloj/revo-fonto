@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aerobi.xml,v 1.28 2022/04/24 14:30:23 revo Exp $">
+<art mrk="$Id: aerobi.xml,v 1.29 2022/07/08 16:50:02 revo Exp $">
 <kap>
   <rad>aerobi</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
@@ -9,7 +9,7 @@
   <kap><tld/>a</kap>
   <snc mrk="aerobi.0a.KOMUNE">
     <dif>
-      Uzanta oksigenon.
+      Uzanta <ref cel="oksige.0o">oksigeno</ref>n.
     </dif>
     <subsnc mrk="aerobi.0a.FIZL">
       <uzo tip="fak">FIZL</uzo>
@@ -76,8 +76,31 @@
   </trdgrp>
 </drv>
 
+<drv mrk="aerobi.mal0a">
+  <kap>
+    mal<tld/>a
+  </kap>
+  <snc>
+    <uzo tip="fak">FIZL</uzo>
+    <dif>
+      Ne toleranta oksigenon:
+      <ekz>
+        mal<tld/>aj bakterioj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=21434"
+              >Nitrogena fiksado</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">obligat <ind>anaerob</ind></trd>
+  <trd lng="en">obligate <ind>anaerob</ind></trd>
+</drv>
+
+
 <drv mrk="aerobi.ne0a">
-  <kap>ne<tld/>a, <var><kap>mal<tld/>a</kap></var></kap>
+  <kap>ne<tld/>a</kap>
   <snc mrk="aerobi.ne0a.KOMUNE">
     <dif>
       Ne uzanta oksigenon.
@@ -118,7 +141,8 @@
     <trd>anaerobn&iacute;</trd>,
     <trd>bezkysl&iacute;kat&yacute;</trd>
   </trdgrp>
-  <trd lng="en">anaerobic</trd>
+  <trd lng="de">aerotolerant <ind>anaerob</ind></trd>
+  <trd lng="en">aerotolerant <ind>anaerobic</ind></trd>
   <trdgrp lng="es">
     <trd>anerobio</trd>,
     <trd>aner&oacute;bico</trd>
@@ -130,11 +154,17 @@
   <trd lng="ro">anaerobic</trd>
   <trd lng="sk">bezkysl&iacute;kat&yacute;</trd>
   <trd lng="sv">anaerob</trd>
-  <trd lng="uk">&c_o;&c_b;&c_l;&c_ib;&c_g;&c_a;&c_t;&c_n;&c_o;/&c_b;&c_je;&c_z;&c_u;&c_m;&c_o;&c_v;&c_n;&c_o; &c_a;&c_n;&c_a;&c_je;&c_r;&c_o;&c_b;&c_n;&c_i;&c_j;</trd>
+  <trd lng="usolvantok">&c_o;&c_b;&c_l;&c_ib;&c_g;&c_a;&c_t;&c_n;&c_o;/&c_b;&c_je;&c_z;&c_u;&c_m;&c_o;&c_v;&c_n;&c_o; &c_a;&c_n;&c_a;&c_je;&c_r;&c_o;&c_b;&c_n;&c_i;&c_j;</trd>
 </drv>
+
+
+
 </art>
 <!--
 $Log$
+versio 1.29 2022/07/08 16:50:02
+Wolfram Diestel: apartigo mal~a de ne~a
+
 versio 1.28 2022/04/24 14:30:23
 aktualigo ligvokodoj kaj URL-unuoj
 
@@ -154,8 +184,5 @@ Revision 1.21  2015/07/04 08:37:29  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.20  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.19  2013/04/16 07:10:12  revo
 -->
 </vortaro>
