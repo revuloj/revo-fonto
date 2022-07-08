@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: adres.xml,v 1.60 2022/07/08 17:36:49 revo Exp $">
+<art mrk="$Id: adres.xml,v 1.61 2022/07/08 20:33:13 revo Exp $">
 <kap>
    <ofc>*</ofc><ofc>1</ofc><ofc>8</ofc>
    <rad>adres</rad>/o <fnt><bib>PV</bib></fnt>
@@ -133,18 +133,24 @@
    <snc mrk="adres.0i.POSX">
      <uzo tip="fak">POSX</uzo>
      <dif>
-       Skribi adreson sur letero, paka&jcirc;o:
+       <ref tip="super" cel="skrib.0i.signojn">Skribi</ref> <tld/>on sur letero, paka&jcirc;o:
        <ekz>
          el la tri leteroj unu estis <tld/>ita: al Lia Episkopa
          Mo&scirc;to, Sinjoro N.
-         <fnt><bib>F</bib>, <lok>&FE; 42</lok></fnt>.
+         <fnt><bib>F</bib>, <lok>&FE; 42</lok></fnt>;
        </ekz>
+      <ekz>
+        mi <tld/>os divenprove strato Po&scirc;toficeja
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>.
+      </ekz>
      </dif>
      <trdgrp lng="br">
        <trd>skriva&ntilde; ar <ind>chomlec'h</ind></trd>,
        <trd>kas</trd>
      </trdgrp>
-     <trd lng="de">adressieren</trd>
      <trd lng="en">address <klr tip="ind">(a letter)</klr></trd>
      <trd lng="id">meng<ind>alamat</ind>i</trd>
      <trd lng="nl">adresseren</trd>
@@ -152,11 +158,31 @@
      <trd lng="pt">endere&ccedil;ar</trd>
      <trd lng="sv">adressera</trd>
      <trd lng="th">&#3648;&#3586;&#3637;&#3618;&#3609;&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>
-   </snc>
-   <snc mrk="adres.0i.sendi">
-     <dif>
-       Sendi ion al ies lo&gcirc;ejo.
-     </dif>
+  </snc>
+  <snc mrk="adres.0i.sendi">
+    <dif>
+      <ref tip="super" cel="send.0i.ion">Sendi</ref> ion al ies <tld/>o:
+      <ekz>
+        mi permesas al mi <tld/>i al vi mian prezaron &gcirc;eneralan kaj samtempe kelkajn
+        specimenojn de la vendobjektoj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu &scirc;atus kunlabori povas sin <tld/>i al respondeculino 
+        pri tema programo <klr>[&ccirc;e]</klr> <frm>cbaro@yahoo.com</frm>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2001, &#8470;3</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+     <trdgrp lng="de">
+       <trd>schicken</trd>,
+       <trd>senden</trd>
+     </trdgrp>
      <trd lng="en">send <klr tip="ind">(by mail)</klr></trd>
      <trd lng="es">remitir</trd>
      <trdgrp lng="id">
@@ -169,18 +195,38 @@
      </trdgrp>
      <trd lng="nl">verzenden</trd>
      <trd lng="th">&#3626;&#3656;&#3591;&#3652;&#3611;&#3605;&#3634;&#3617;&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>
-   </snc>
-   <snc mrk="adres.0i.alparoli">
-     <dif>
-       Direkti parolon al iu:
+  </snc>
+  <snc mrk="adres.0i.alparoli">
+    <dif>
+       <ref tip="super" cel="direkt.0i.stiri">Direkti</ref> parolon k.a. al iu:
        <ekz>
-         <tld/>i al iu sian dankon<fnt>Z</fnt>.
+         <tld/>i al iu sian dankon
+         <fnt><bib>PV</bib></fnt>;
        </ekz>
-     </dif>
-     <refgrp tip="vid">
+      <ekz>
+        la komandanto <klr>[&#8230;]</klr> lerte <tld/>is al &ccirc;iu &ccirc;eestanto &gcirc;entilan a&ubreve; spritan
+        vorton
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deksepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estas certa, ke tiun kisadon vi ne <tld/>as al alia viro
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
        <ref cel="direkt.sin0ial">sin direkti</ref>,
        <ref cel="turn.0igxi">sin turni</ref>
-     </refgrp>
+    </refgrp>
+     <trdgrp lng="de">
+       <trd>richten <klr>(an)</klr></trd>,
+       <trd>wenden <klr>(an)</klr></trd>
+     </trdgrp>
      <trd lng="en">address <klr tip="ind">(a person)</klr></trd>
      <trd lng="he">&lamed;&pe;&nun;&vav;&tav; &alef;&lamed;</trd>
      <trd lng="nl">zich <ind>richten</ind> tot</trd>
@@ -189,6 +235,7 @@
    </snc>
   <trd lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="cs">adresovat</trd>
+  <trd lng="de">adressieren</trd>
   <trdgrp lng="fr">
      <trd>adresser</trd>,
      <trd>envoyer</trd>,
@@ -457,6 +504,9 @@ pri tiaj vortoj ni povas
 </art>
 <!--
 $Log$
+versio 1.61 2022/07/08 20:33:13
+Wolfram Diestel: ~i: +ekz-oj, ref-oj, trd de
+
 versio 1.60 2022/07/08 17:36:49
 Wolfram Diestel: ~o: +ekz-oj, ref-oj
 
@@ -476,7 +526,5 @@ Revision 1.50  2018/09/02 22:10:22  revo
 Michel Cantigneaux: teknika ripareto de indikiloj
 
 Revision 1.49  2018/08/06 09:10:17  revo
-Michel Cantigneaux: adreso (1OA (1909)) aperas unue en vortaro en PV
-(1934)
 -->
 </vortaro>
