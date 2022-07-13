@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sum.xml,v 1.116 2022/07/13 16:48:41 revo Exp $">
+<art mrk="$Id: sum.xml,v 1.117 2022/07/13 18:33:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sum</rad>/o <fnt><bib>PV</bib></fnt>
@@ -19,6 +19,14 @@
           kaj <frm>2</frm>;
         </ekz>
         <ekz>
+          <uzo tip="stl">FIG</uzo>
+          <nom>Helga</nom> prezentis al si tage kaj nokte la tutan <tld/>on de &scirc;ia feli&ccirc;o
+          <fnt>
+            <bib>Fab4</bib>
+            <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
           la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm am="b"><k>b</k></frm> 
           oni signas per <frm am="a+b"><k>a</k>+<k>b</k></frm>,
         </ekz>
@@ -31,11 +39,7 @@
           <k>a</k><sub><k>i</k></sub></frm>;
         </ekz>
         <ekz>
-          <tld/>o de vektoroj, matricoj, polinomoj;
-        </ekz>
-        <ekz>
-          <uzo tip="stl">FIG</uzo>
-          jen la <tld/>o de miaj penoj.
+          <tld/>o de vektoroj, matricoj, polinomoj.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -56,7 +60,7 @@
         <ekz>
           se <frm am="|q| lt 1">|<k>q</k>| &lt; 1</frm>, 
           la <tld/>o de la serio kun 
-          &gcirc;enerala termo <frm><k>q</k><sup><k>n</k></sup></frm> estas
+          &gcirc;enerala termo <frm am="q^n"><k>q</k><sup><k>n</k></sup></frm> estas
           <frm am="(1-q)^-1">(1-<k>q</k>)<sup>-1</sup></frm>.
         </ekz>
       </dif>
@@ -64,11 +68,8 @@
         <tld lit="S"/>o de serio estas konceptebla kiel sumo de senfina
         nombro da termoj. Oni &gcirc;in ofte signas per
        <frm
-       am="u_0+u_1+u_2,..."><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm>
-             
-       a&ubreve; <frm am="sum_(n in                     
-             
-       NN)u_n">&Sigma;<sub><k>n</k>&#8712;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
+       am="u_0+u_1+u_2,..."><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm>             
+       a&ubreve; <frm am="sum_(n in NN)u_n">&Sigma;<sub><k>n</k>&#8712;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
       </rim>
       <trd lng="de">Summe<klr tip="ind"> (von einer Reihe)</klr></trd>
       <trd lng="en">sum<klr tip="ind"> (of a series)</klr></trd>
@@ -116,17 +117,35 @@
     <dif>
       <ref tip="dif" cel="sum.mon0o.EKON">Monsumo</ref>:
       <ekz>
-        devontigi sin al la pagado de grandaj
-        <tld/>oj<fnt>Z</fnt>.
+        prenu duoblan <tld/>on en viajn manojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 43:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per granda <tld/>o mi akiris tiun civitanecon
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 22:28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        devontigi sin <klr>[&#8230;]</klr> al la pagado de grandaj
+        <tld/>oj
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="hu">p&eacute;nz&ouml;sszeg</trd>    
   </snc>
   <trd lng="af">totale</trd>
-  <trd lng="am">&#4896;&#4677;&#x120B;&#x120B;</trd>
+  <trd lng="am">&#4896;&#4677;&#4619;&#4619;</trd>
   <trd lng="ar">&a_A;&a_l;&a_k;&a_l;</trd>
-  <trd lng="az">&#xFC;mumi</trd>
-  <trd lng="bn">&#x9AE;&#x9CB;&#x99F;</trd>
+  <trd lng="az">&uuml;mumi</trd>
+  <trd lng="bn">&#2478;&#2507;&#2463;</trd>
   <trd lng="bs">ukupno</trd>
   <trd lng="co">tutali</trd>
   <trdgrp lng="cs">
@@ -145,48 +164,48 @@
   <trd lng="eu">guztira</trd>
   <trd lng="fr">somme</trd>
   <trd lng="fy">https://googleads.g.doubleclick.net/</trd>
-  <trd lng="ga">ioml&#xE1;n</trd>
+  <trd lng="ga">ioml&aacute;n</trd>
   <trd lng="gd">gu h-iomlan</trd>
   <trd lng="gl">total de</trd>
-  <trd lng="gu">&#xA95;&#xAC1;&#xAB2;</trd>
-  <trd lng="hi">&#2360;&#2306;&#x92A;&#2370;&#2352;&#x94D;&#2339;</trd>
+  <trd lng="gu">&#2709;&#2753;&#2738;</trd>
+  <trd lng="hi">&#2360;&#2306;&#2346;&#2370;&#2352;&#2381;&#2339;</trd>
   <trd lng="hmn">tag nrho</trd>
   <trd lng="hr">ukupan</trd>
   <trd lng="ht">manm</trd>
   <trd lng="hy">&#1384;&#1398;&#1380;&#1392;&#1377;&#1398;&#1400;&#1410;&#1408;</trd>
-  <trd lng="ig">mkpok&#x1ECD;ta</trd>
+  <trd lng="ig">mkpok&#7885;ta</trd>
   <trd lng="is">alls</trd>
-  <trd lng="ja">&#21512;&#x8A08;</trd>
+  <trd lng="ja">&#21512;&#35336;</trd>
   <trd lng="jv">gunggung</trd>
-  <trd lng="ka">&#x10E1;&#x10E3;&#x10DA;</trd>
-  <trd lng="kk">&c_zh;&c_a;&#x43B;&#x43F;&#x44B;</trd>
-  <trd lng="km">&#6021;&#x17C6;&#6035;&#x17BD;&#6035;&#x179F;&#x179A;&#x17BB;&#6036;</trd>
-  <trd lng="kn">&#xC92;&#xC9F;&#xCCD;&#xC9F;&#xCC1;</trd>
-  <trd lng="ko">&#xCD1D;</trd>
-  <trd lng="ku">hem&#xEE;</trd>
-  <trd lng="ky">&c_zh;&c_a;&#x43B;&#x43F;&#x44B;</trd>
+  <trd lng="ka">&#4321;&#4323;&#4314;</trd>
+  <trd lng="kk">&c_zh;&c_a;&c_l;&c_p;&c_y;</trd>
+  <trd lng="km">&#6021;&#6086;&#6035;&#6077;&#6035;&#6047;&#6042;&#6075;&#6036;</trd>
+  <trd lng="kn">&#3218;&#3231;&#3277;&#3231;&#3265;</trd>
+  <trd lng="ko">&#52509;</trd>
+  <trd lng="ku">hem&icirc;</trd>
+  <trd lng="ky">&c_zh;&c_a;&c_l;&c_p;&c_y;</trd>
   <trd lng="lat">totalis</trd>
   <trd
-  lng="lo">&#xE88;&#xECD;&#xEB2;&#xE99;&#xEA7;&#xE99;&#xE97;&#xEB1;&#xE87;&#xEAB;&#xEA1;&#xEBB;&#xE94;</trd>
+  lng="lo">&#3720;&#3789;&#3762;&#3737;&#3751;&#3737;&#3735;&#3761;&#3719;&#3755;&#3745;&#3771;&#3732;</trd>
   <trd lng="lt">visas</trd>
-  <trd lng="lv">kop&#5603;jais</trd>
+  <trd lng="lv">kop&emacron;jais</trd>
   <trd lng="mg">tanteraka</trd>
   <trd lng="mi">katoa</trd>
-  <trd lng="mk">&c_V;&#x43A;&c_u;&#x43F;&#x43D;&#x43E;</trd>
-  <trd lng="ml">&#xD2E;&#xD4A;&#xD24;&#xD4D;&#xD24;&#xD02;</trd>
-  <trd lng="mn">&#x43D;&c_i;&c_j;&c_t;</trd>
-  <trd lng="mr">&#x90F;&#2325;&#2370;&#2339;</trd>
+  <trd lng="mk">&c_V;&c_k;&c_u;&c_p;&c_n;&c_o;</trd>
+  <trd lng="ml">&#3374;&#3402;&#3364;&#3405;&#3364;&#3330;</trd>
+  <trd lng="mn">&c_n;&c_i;&c_j;&c_t;</trd>
+  <trd lng="mr">&#2319;&#2325;&#2370;&#2339;</trd>
   <trd lng="ms">jumlah</trd>
-  <trd lng="my">&#4101;&#x102F;&#4101;&#x102F;&#4117;&#4145;&#x102B;&#4100;&#x103A;&#4152;</trd>
+  <trd lng="my">&#4101;&#4143;&#4101;&#4143;&#4117;&#4145;&#4139;&#4100;&#4154;&#4152;</trd>
   <trd lng="ne">&#2325;&#2369;&#2354;</trd>
   <trd lng="nl">som</trd>
   <trd lng="ny">okwana</trd>
-  <trd lng="pa">&#xA15;&#xA41;&#xA71;&#xA32;</trd>
-  <trd lng="ps">&#x67C;&a_w;&a_l;</trd>
+  <trd lng="pa">&#2581;&#2625;&#2673;&#2610;</trd>
+  <trd lng="ps">&#1660;&a_w;&a_l;</trd>
   <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;</trd>
   <trd lng="rw">yose hamwe</trd>
-  <trd lng="sd">&#x6AA;&a_l;</trd>
-  <trd lng="si">&#xDB8;&#xDD4;&#xDC5;&#xDD4;</trd>
+  <trd lng="sd">&#1706;&a_l;</trd>
+  <trd lng="si">&#3512;&#3540;&#3525;&#3540;</trd>
   <trdgrp lng="sk">
     <trd>suma</trd>,
     <trd>s&uacute;hrn</trd>,
@@ -200,19 +219,19 @@
   <trd lng="sq">totale</trd>
   <trd lng="st">kakaretso</trd>
   <trd lng="sw">jumla</trd>
-  <trd lng="ta">&#xBAE;&#xBCA;&#xBA4;&#xBCD;&#xBA4;</trd>
-  <trd lng="te">&#xC2E;&#xC4A;&#xC24;&#xC4D;&#xC24;&#xC02;</trd>
-  <trd lng="tg">&c_u;&#x43C;&c_u;&#x43C;&c_i;&c_i;</trd>
-  <trd lng="th">&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;</trd>
+  <trd lng="ta">&#2990;&#3018;&#2980;&#3021;&#2980;</trd>
+  <trd lng="te">&#3118;&#3146;&#3108;&#3149;&#3108;&#3074;</trd>
+  <trd lng="tg">&c_u;&c_m;&c_u;&c_m;&c_i;&c_i;</trd>
+  <trd lng="th">&#3607;&#3633;&#3657;&#3591;&#3627;&#3617;&#3604;</trd>
   <trd lng="tl">kabuuan</trd>
-  <trd lng="tt">&c_B;&c_a;&c_r;&#x43B;&#x44B;&c_g;&#x44B;</trd>
-  <trd lng="uk">&c_s;&#x43F;&c_ib;&#x43B;&#x44C;&#x43D;&c_u;</trd>
-  <trd lng="ur">&#x6A9;&a_l;</trd>
+  <trd lng="tt">&c_B;&c_a;&c_r;&c_l;&c_y;&c_g;&c_y;</trd>
+  <trd lng="uk">&c_s;&c_p;&c_ib;&c_l;&c_mol;&c_n;&c_u;</trd>
+  <trd lng="ur">&f_k;&a_l;</trd>
   <trd lng="uz">jami</trd>
-  <trd lng="vi">t&#x1ED5;ng s&#x1ED1;</trd>
+  <trd lng="vi">t&#7893;ng s&#7889;</trd>
   <trd lng="xh">iyonke</trd>
-  <trd lng="yi">&#x5D2;&#x5D0;&#x5B7;&#x5E0;&#x5E5;</trd>
-  <trd lng="yo">lapap&#x1ECD;</trd>
+  <trd lng="yi">&gimel;&alef;&#1463;&nun;&ftsadi;</trd>
+  <trd lng="yo">lapap&#7885;</trd>
   <trd lng="zu">inani</trd>
 </drv>
 
@@ -220,17 +239,69 @@
   <kap><tld/>e</kap>
   <snc>
     <dif>
-      &Ccirc;ion adiciante.
+      &Ccirc;ion adiciante:
+      <ekz>
+        viro tre altkreska <klr>[&#8230;]</klr> havis sur la manoj kaj sur la piedoj po ses
+        fingroj, <tld/>e dudek kvar
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 21:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la da&ubreve;ro de tuta semajno &ccirc;iuvespere <klr>[&#8230;]</klr> li rakontis al li,
+        tio estas <tld/>e sep historioj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e kiom mi &scirc;uldas
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        la domo ne estis granda, <tld/>e havis eble du-tri &ccirc;ambrojn
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dua &Ccirc;apitro</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="de">insgesamt</trd>
     <trd lng="hu">&ouml;sszesen</trd>    
   </snc>
   <snc>
     <dif>
-      &Ccirc;ion konsiderante.
+      &Ccirc;ion konsiderante:
+      <ekz>
+        mi estas tre tedita de <klr>[&#8230;]</klr> iliaj koketoj, de iliaj &jcirc;aluzoj, de iliaj
+        disputoj, <klr>[&#8230;]</klr> <tld/>e, &ccirc;i tiuj du junulinoj komencas tre tedi min
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e kaj resume, mi eksciis, ke li havas &gcirc;uste la saman kormal&gcirc;uston kiel mi
+        <fnt>
+          <bib>ChC</bib>
+          <lok>18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel ni povas vivi <tld/>e kaj komune tiel
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvina &Ccirc;apitro</lok>
+        </fnt>?
+      </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="tut.en0e">entute</ref>.
+      <ref cel="tut.en0e">entute</ref>
     </refgrp>
     <trd lng="de">im <ind>Ganzen</ind> betrachtet</trd>
     <trdgrp lng="es">
@@ -266,12 +337,77 @@
     <trd>vcelku</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_s;&c_u;&#x43C;&c_a;&c_r;&#x43D;&#x43E;</trd>,
-    <trd>&c_u; &#x43F;&c_ib;&c_d;&c_s;&c_u;&#x43C;&#x43A;&c_u;</trd>,
-    <trd>&c_r;&c_a;&c_z;&#x43E;&#x43C;</trd>,
-    <trd>&c_v;&c_s;&#x44C;&#x43E;&c_g;&#x43E;</trd>
+    <trd>&c_s;&c_u;&c_m;&c_a;&c_r;&c_n;&c_o;</trd>,
+    <trd>&c_u; &c_p;&c_ib;&c_d;&c_s;&c_u;&c_m;&c_k;&c_u;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_o;&c_m;</trd>,
+    <trd>&c_v;&c_s;&c_mol;&c_o;&c_g;&c_o;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="sum.0i">
+  <kap>
+    <tld/>i
+  </kap>
+  <snc>
+    <dif>
+      Konsistigi la <tld/>on de io; esti entute:
+      <ekz>
+        &gcirc;ia jarbud&gcirc;eto kune <klr>[&#8230;]</klr> <tld/>is apena&ubreve; dek milionojn da dolaroj
+        <fnt>
+          <bib>FSp</bib>
+          <lok>Tria Parto: Ligo De Nacioj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nuntempe la CO2-kvanto <tld/>as je 380 ppm kontraste al 270 ppm de la
+        anta&ubreve;industriaj tempoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="https://www.monato.be/2005/008735.php"
+              >&Ccirc;u la tero fari&gcirc;os sa&ubreve;no?</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> indi&gcirc;ena komunumo <tld/>as <klr>[&#8230;]</klr> dek mil parolantojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jos&eacute; Leite de Oliveira Junior</aut>
+          <vrk><url ref="https://www.monato.be/2006/009106.php"
+              >&Ccirc;u lingvoj formortu?</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dama&gcirc;oj ka&ubreve;zitaj de fungoj al tritiko, rizo kaj maizo <tld/>as jare je 60
+        miliardoj da dolaroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Joyce Bunting</aut>
+          <vrk><url ref="https://www.monato.be/2013/010846.php"
+              >Taktiko por noveca tritiko</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="amplek.0i">ampleksi</ref>,
+      <ref cel="ating.0i.FIG">atingi<sncref/></ref>,
+      <ref cel="ten.en0i">enteni</ref>,
+      <ref cel="nombr.0i.enteni">nombri<sncref/></ref>,
+      <ref cel="rezult.0i">rezulti</ref>
+    </refgrp>
+  </snc>
+</drv>
+
+
+
+
+
+
+
+
 
 <drv mrk="sum.0ero">
   <kap><tld/>ero</kap>
@@ -303,7 +439,30 @@
   <kap><tld/>igi</kap>
   <snc>
     <dif>
-      Adicii.
+      <ref tip="super" cel="adici.0i">Adicii</ref>:
+      <ekz>
+        en la vespero la kasistoj <tld/>igis la ricevitan enirmonon
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        skribu en &ccirc;i tiu notlibro iujn ajn nombrojn, kaj <nom>Madame Zila</nom>, kiu sidas tute
+        blindumita, <tld/>igos ilin
+        <fnt>
+          <bib>KrM</bib>
+          <lok>39. Ni Forton Pli Fre&scirc;an Akiras.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <tld/>igi en Kristo &ccirc;ion, kio estas en la &ccirc;ieloj kaj sur la tero
+        <fnt>
+          <bib>NT</bib>
+          <lok>Efesanoj 1:10</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="cs">nechat se&ccaron;&iacute;st</trd>
@@ -325,8 +484,8 @@
     <trd>zr&aacute;ta&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_ib;&c_d;&c_s;&c_u;&#x43C;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_ib;&c_d;&c_b;&c_i;&c_v;&c_a;&c_t;&c_i; &#x43F;&c_ib;&c_d;&c_s;&c_u;&#x43C;&#x43E;&#x43A;</trd>
+    <trd>&c_p;&c_ib;&c_d;&c_s;&c_u;&c_m;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_b;&c_i;&c_v;&c_a;&c_t;&c_i; &c_p;&c_ib;&c_d;&c_s;&c_u;&c_m;&c_o;&c_k;</trd>
   </trdgrp>
 </drv>
 
@@ -349,9 +508,23 @@
       Ia, iom granda kvanto da mono;
       <ref cel="sum.0o.mono">sumo<sncref/></ref>:
       <ekz>
+        oni parolas pri procentedono de mon<tld/>oj, pri a&ccirc;eto de akcioj al la Societo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[mi]</klr> deprenis mian &ccirc;apon kaj en&scirc;utis la tutan kolektitan mon<tld/>on
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         &scirc;i komencis senti, ke malgrandas la donacoj
         kiujn &scirc;i ricevas kompare kun la supoze altaj
-        mon<tld/>oj fordonitaj al E&ubreve;lalia
+        mon<tld/>oj fordonitaj al <nom>E&ubreve;lalia</nom>
         <fnt>
           <aut>M. Proust, trad. &Jcirc; Va&scirc;e</aut>
           <vrk><url ref="http://jxvasxe.free.fr/tradukoj/la-vojo-de-svan-eo.htm">
@@ -392,6 +565,9 @@
 </art>
 <!--
 $Log$
+versio 1.117 2022/07/13 18:33:36
+Wolfram Diestel: +ekz-oj
+
 versio 1.116 2022/07/13 16:48:41
 Wolfram Diestel: re/sum/* movita al aparta artikolo resum/
 
@@ -411,8 +587,5 @@ Revision 1.37  2019/02/09 23:11:28  revo
 Jeromo Vasxe: + mon~o
 
 Revision 1.36  2017/12/20 14:10:23  revo
-Michel Cantigneaux: "re/sum/i" fundamenta kunmetajxo el la U.V.
-
-Revision 1.35  2016/02/28 19:10:50  revo
 -->
 </vortaro>
