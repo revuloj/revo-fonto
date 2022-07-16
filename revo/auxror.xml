@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: auxror.xml,v 1.25 2022/07/16 13:33:34 revo Exp $">
+<art mrk="$Id: auxror.xml,v 1.26 2022/07/16 15:28:58 revo Exp $">
 <kap>
   <rad>a&ubreve;ror</rad>/o <fnt>Z</fnt> <fnt> <bib>PV</bib></fnt>
 </kap>
@@ -10,10 +10,12 @@
   <snc mrk="auxror.0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
-      Matena krepusko, matenru&gcirc;o:
+      Matena <ref tip="super" cel="krepus.0o.KAL">krepusko</ref>, 
+      <ref tip="sin" cel="maten.0rugxo">matenru&gcirc;o</ref>:
       <ekz>
         <tld/>o kun rozkoloraj fingroj
-        <klr>(konsiderata kiel manifesti&gcirc;o de la samnoma <ref cel="auxror.A0o">diino</ref>, beletra
+        <klr>(konsiderata kiel manifesti&gcirc;o de la samnoma 
+        <ref cel="auxror.A0o">diino</ref>, beletra
         metaforo)</klr>;
       </ekz>
       <ekz>
@@ -147,11 +149,19 @@
 </drv>
 
 <drv mrk="auxror.A0o">
-  <kap><tld lit="A"/>o, <var><kap><tld lit="A"/>a</kap></var></kap>
+  <kap><tld lit="A"/>o</kap>
   <uzo tip="fak">MIT</uzo>
   <snc>
     <dif>
-      Diino de la mateno en antikva greka mitaro.
+      <ref tip="super" cel="di.0ino">Diino</ref> de la mateno en antikva greka mitaro:
+      <ekz>
+        tiel povus aspekti <tld lit="A"/>o &ndash; kaj, kiel spertulo, li ekkomprenis, ke
+        estas en &scirc;i io eksterordinara
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Eos</trd>,
@@ -177,13 +187,20 @@
     <dif>
       Esti la momento de <tld/>o:
       <ekz>
+        en Moskvo <tld/>as, <klr>[&#8230;]</klr> de sube priradiate, ore brilas nubo
+        <fnt>
+          <bib>MkM</bib>
+          <lok>6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         eliru, dum palpe mateno <tld/>as, / tra l'&#8239;ombra &gcirc;ardeno
         senbrua
         <fnt>
-        <aut>Poul Thorsen</aut>,
-        <vrk>Babile kun mi mem. - Beletra: 1996</vrk>,
-        <lok><url ref="http://www.poulthorsen.dk/finbabile.htm">
-        Finbabile?</url></lok>
+          <aut>Poul Thorsen</aut>,
+          <vrk>Babile kun mi mem. - Beletra: 1996</vrk>,
+          <lok><url ref="http://www.poulthorsen.dk/finbabile.htm">
+          Finbabile?</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -195,6 +212,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="krepus.0igxi.KAL">krepuski&gcirc;i<sncref/></ref>
     <trd lng="es">amanecer</trd>
     <trdgrp lng="pl">
       <trd>&sacute;wita&cacute;</trd>,
@@ -229,6 +247,7 @@
       okazanta &ccirc;e la suda poluso.
     </dif>
   </snc>
+  <trd lng="de">S&uuml;dlicht</trd>
   <trdgrp lng="en">
     <trd>southern lights</trd>,
     <trd>aurora australis</trd>
@@ -241,11 +260,25 @@
 </drv>
 
 <drv mrk="auxror.arkta0o">
-  <kap>arkta <tld/>o</kap>
+  <kap>arkta <tld/>o, <var><kap>boreala <tld/>o</kap></var></kap>
   <snc mrk="auxror.arkta0o.AST">
     <uzo tip="fak">AST</uzo>
-    <ref cel="lum.nord0o" tip="dif">nordlumo</ref>
+    <dif>
+      <ref cel="lum.nord0o" tip="dif">Nordlumo</ref>:
+      <ekz>
+        <nom>M&aacute;ire</nom> esperis spekti la borealan <tld/>on, sed, kvankam ni dufoje eliris
+        dumnokte kun grupeto da turistoj, ni ne sukcesis vidi &gcirc;in
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj'</aut>
+          <vrk><url ref="https://www.monato.be/2015/011315.php"
+              >La islanda: revo de ne plu juna lernemulo</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="de">Nordlicht</trd>
   <trdgrp lng="en">
     <trd>northern lights</trd>,
     <trd>aurora borealis</trd>
@@ -262,6 +295,7 @@
     <uzo tip="fak">AST</uzo>
     <ref tip="dif" cel="auxror.0o.AST">a&ubreve;roro<sncref/></ref>
   </snc>
+  <trd lng="de">Polarlicht</trd>
   <trdgrp lng="en">
     <trd>polar lights</trd>,
     <trd>aurora polaris</trd>
@@ -273,8 +307,11 @@
 </art>
 <!--
 $Log$
+versio 1.26 2022/07/16 15:28:58
+Wolfram Diestel: +ekz-oj, ref
+
 versio 1.25 2022/07/16 13:33:34
-Wolfram Diestel: snc FIG: +citaĵoj
+Wolfram Diestel: snc FIG: +cita&jcirc;oj
 
 versio 1.24 2022/04/24 08:40:27
 Noam Mohr: +trd en auxror-
@@ -292,8 +329,5 @@ Revision 1.17  2006/11/06 17:30:16  revo
 Jeromo Vasxe: + fak kal, + kk mrk, + 1 ekz
 
 Revision 1.16 2006/03/09 17:31:36 revo
-Sergio Pokrovskij: TEZ, rim
-
-Revision 1.15 2005/06/16 17:43:22 revo
 -->
 </vortaro>
