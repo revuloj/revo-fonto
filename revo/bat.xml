@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bat.xml,v 1.144 2022/08/12 19:23:56 revo Exp $">
+<art mrk="$Id: bat.xml,v 1.145 2022/08/13 10:31:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bat</rad>/i <fnt><bib>PV</bib></fnt>
@@ -1319,16 +1319,67 @@
 <drv mrk="bat.re0i">
   <kap>re<tld/>i</kap>
   <gra><vspec>x</vspec></gra>
-  <snc mrk="bat.re0i.KOMUNE">
+  <snc mrk="bat.re0i.redoni">
     <dif>
-      Trafe kontra&ubreve;agi, kontra&ubreve;meti:
+      <ref tip="super" cel="recipr.0i">Reciproki</ref> ricevitan <tld/>on:
       <ekz>
-        re<tld/>i ek<tld/>on, argumenton<fnt>B</fnt>;
-      </ekz><ekz>
-        mi povus facile per malmulte da vortoj re<tld/>i tiajn
-        atakojn<fnt>Z</fnt>.
+        <uzo tip="stl">FIG</uzo>
+        a&ubreve;di&gcirc;is nun la frapbruo de marteloj, kies e&hcirc;oj re<tld/>is sin de la pli altaj
+        <klr>[muroj]</klr>
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LVIII</lok>
+        </fnt>;
       </ekz>
     </dif>
+    <trd lng="de">zur&uuml;ck <ind>schlagen</ind></trd>
+  </snc>
+  <snc mrk="bat.re0i.repusxi">
+    <dif>
+      Bate <ref cel="pusx.re0i">repu&scirc;i</ref>, sin defendi:
+      <ekz>
+        la lanco ne malutilos tiun, kiu scias &gcirc;in re<tld/>i
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;telistoj! <klr>[&#8230;]</klr> re<tld/>u ilin, kamarado
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>!
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>abwehren</trd>,
+      <trd>zur&uuml;ckschlagen</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="bat.re0i.parole">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="super" cel="parol.kontraux0i">Kontra&ubreve;paroli</ref>, kontra&ubreve;argumenti:
+      <ekz>
+        &scirc;i trovis neniun argumenton kapablan re<tld/>i la rezonojn de &scirc;ia amikino
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio estis nepre necesa, re<tld/>is la <klr>[&#8230;]</klr> doktoro
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>zur&uuml;ck <ind>geben</ind></trd>,
+      <trd>erwidern</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_d;&c_b;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -1341,7 +1392,6 @@
     <trd>vr&aacute;tit r&aacute;nu</trd>,
     <trd>znovu uhodit</trd>
   </trdgrp>
-  <trd lng="de">zur&uuml;ckschlagen</trd>
   <trdgrp lng="en">
     <trd>strike back</trd>,
     <trd>rebut</trd>
@@ -1515,6 +1565,10 @@
     <trd>&c_p;&c_o;&c_w;&c_h;&c_a;</trd>,
     <trd>&c_a;&c_p;&c_l;&c_ja;&c_v;&c_u;&c_h;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Backpfeife</trd>,
+    <trd>Ohrfeige</trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_l;&c_ja;&c_p;&c_a;&c_s;</trd>,
     <trd>&c_p;&c_o;&c_l;&c_i;&c_ch;&c_n;&c_i;&c_k;</trd>
@@ -1583,6 +1637,9 @@
 </art>
 <!--
 $Log$
+versio 1.145 2022/08/13 10:31:20
+Wolfram Diestel: re~i: apartigi 3 snc, ekz-oj, trd de
+
 versio 1.144 2022/08/12 19:23:56
 Wolfram Diestel: ~i: +ekz-oj
 
@@ -1602,8 +1659,5 @@ versio 1.130 2021/11/07 12:42:30
 Wolfram Diestel: +vango~o
 
 versio 1.129 2021/10/18 19:24:11
-Wolfram Diestel: hufo~i: +ref,trd-oj
-
-versio 1.128 2021/10/18 16:47:46
 -->
 </vortaro>
