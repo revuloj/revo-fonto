@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: transi.xml,v 1.18 2022/03/28 14:44:12 revo Exp $">
+<art mrk="$Id: transi.xml,v 1.19 2022/08/14 09:28:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>transit</rad>/o
@@ -12,20 +12,22 @@
   <snc>
   <uzo tip="fak">TRA</uzo>
     <dif>
-      Alcela movo pasanta tra unu a&ubreve; plurajn kromajn lokojn kaj
+      Alcela <ref tip="super" cel="mov.0o">movo</ref> pasanta tra unu a&ubreve; pluraj kromaj lokoj kaj
       konsiderata rilate al tiuj kromlokoj:
       <ekz>
         senimposta <tld/>o de varoj tra la lando;
       </ekz>
       <ekz>
-        <ind><tld/>a pasa&gcirc;ero</ind>, vizo, flugo, tarifo;
-        <trd lng="hu">tranzitutas</trd>
-        <trd lng="nl">transitpassagier</trd>
-      </ekz>
-      <ekz>
-        <uzo tip="fak">KOMP</uzo> <tld/>a reto.
+        la <tld/>o de ruslandanoj tra Litovio <klr>[&#8230;]</klr> al <nom>Kaliningrad</nom>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470; 12</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ekspor.0o">eksporto</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_r;&c_a;&c_n;&c_z;&c_y;&c_t;</trd>
   <trdgrp lng="cs">
@@ -49,13 +51,57 @@
     <trd>prevoz</trd>,
     <trd>tranzit</trd>
   </trdgrp>
-  <trd lng="uk">&#x442;&#x440;&#x430;&#x43D;&#x437;&#x438;&#x442;</trd>
+  <trd lng="uk">&c_t;&c_r;&c_a;&c_n;&c_z;&c_i;&c_t;</trd>
 </drv>
+
+<drv mrk="transi.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Rilata al <tld/>o; trapasa:
+      <ekz>
+        la po&scirc;ta&jcirc;oj difinitaj por la eksterlando kaj por <tld/>a trairo <klr>[&#8230;]</klr>
+        estas alportataj rekte al la Berlina &ccirc;efa urba po&scirc;tejo
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        senviza <tld/>a veturado
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470; 11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>a pasa&gcirc;ero</ind>, vizo, flugo, tarifo;
+        <trd lng="hu">tranzitutas</trd>
+        <trd lng="nl">transitpassagier</trd>
+      </ekz>
+      <ekz>
+        Albanio i&gcirc;os <tld/>a punkto inter la okcidenta kaj orienta merkatoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2003/007967.html"
+              >La Oka Koridoro</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="ir.trans0a.loke">transira</ref>
+  </snc>
+  <trd lng="de">Transit-</trd>
+</drv>
+
 
 <drv mrk="transi.0a_reto">
   <kap><tld/>a reto</kap>
   <snc>
-    <uzo tip="fak">KOMP</uzo>
+    <uzo tip="fak">RET</uzo>
     <dif>
       <ref tip="super" cel="ret.komputila0o">Komputila reto</ref>,
       transmetanta paka&jcirc;ojn ne nur inter siaj
@@ -74,6 +120,9 @@
 </art>
 <!--
 $Log$
+versio 1.19 2022/08/14 09:28:16
+Wolfram Diestel: +ekz; +~a
+
 versio 1.17 2021/05/10 07:03:27
 Wolfram Diestel: kor. drv@mrk
 
@@ -93,8 +142,5 @@ Revision 1.11  2006/02/16 17:33:43  revo
 Tulio Flores: +trd pt
 
 Revision 1.10  2004/12/16 17:31:39  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2003/10/01 16:32:01  revo
 -->
 </vortaro>
