@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aspekt.xml,v 1.35 2022/07/04 05:38:10 revo Exp $">
+<art mrk="$Id: aspekt.xml,v 1.36 2022/08/16 20:29:46 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>aspekt</rad>/i <fnt><bib>PV</bib></fnt>
@@ -474,6 +474,36 @@
   </trdgrp>
 </drv>
 
+<drv mrk="aspekt.0ismo">
+  <kap><tld/>ismo</kap>
+  <snc mrk="aspekt.0ismo.ESP">
+    <uzo tip="fak">ESP</uzo>
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      Gramatika skolo pri Esperanto, la&ubreve; kiu <em>it</em> kaj 
+      <em>at</em>-participoj havas precipe <tld/>an signifon
+      distingantan inter finiteco kaj plui&gcirc;o de okazado,
+      kontraste al <ref tip="ant" cel="temp.0ismo.ESP">tempismo</ref>:
+      <ekz>
+        la disputo inter tempismo kaj <tld/>ismo efektive limi&gcirc;as al
+        la elekto inter <ctl>ita</ctl> a&ubreve; <ctl>ata</ctl>
+        <fnt>
+          <aut>Klivo</aut>,
+          <vrk>La Analiza Skolo?</vrk>,
+          <lok><url ref="&SCE;">
+          soc.culture.esperanto</url>, 1999-11-14</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="ca">
+      <trd>itisme</trd>,
+      <trd>aspectisme</trd>
+    </trdgrp>
+    <trd lng="it">itismo</trd>
+  </snc>
+</drv>
+
+
 <drv mrk="aspekt.plur0e">
   <kap>
     plur<tld/>e, <var><kap>mult<tld/>e</kap></var>
@@ -504,50 +534,68 @@
         </fnt>.
       </ekz>
     </dif>
-<ref tip="vid" cel="facet.mult0a">multfaceta</ref>
+    <ref tip="vid" cel="facet.mult0a">multfaceta</ref>
   </snc>
   <trd lng="de">in mehrerer <ind>Hinsicht</ind></trd>
 </drv>
 
-
-
-
-
-
-
-
-
-<drv mrk="aspekt.0ismo">
-  <kap><tld/>ismo</kap>
-  <snc mrk="aspekt.0ismo.ESP">
-    <uzo tip="fak">ESP</uzo>
-    <uzo tip="fak">GRA</uzo>
+<drv mrk="aspekt.sam0a">
+  <kap>
+    sam<tld/>a
+  </kap>
+  <snc>
     <dif>
-      Gramatika skolo pri Esperanto, la&ubreve; kiu <em>it</em> kaj 
-      <em>at</em>-participoj havas precipe <tld/>an signifon
-      distingantan inter finiteco kaj plui&gcirc;o de okazado,
-      kontraste al <ref tip="ant" cel="temp.0ismo.ESP">tempismo</ref>:
+      De la sama <tld/>o; <ref cel="simil.0a">simila</ref>:
       <ekz>
-        la disputo inter tempismo kaj <tld/>ismo efektive limi&gcirc;as al
-        la elekto inter <ctl>ita</ctl> a&ubreve; <ctl>ata</ctl>
+        blanka kartono kun skribo sam<tld/>a kiel malkontinua linio de formikoj
+        distretitaj
         <fnt>
-          <aut>Klivo</aut>,
-          <vrk>La Analiza Skolo?</vrk>,
-          <lok><url ref="&SCE;">
-          soc.culture.esperanto</url>, 1999-11-14</lok>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        stari&gcirc;is novaj kvartaloj kaj urbetoj de sam<tld/>aj dometoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yves Nicolas</aut>
+          <vrk><url ref="https://www.monato.be/2012/010650.php"
+              >Laborista memoro</url></vrk>
+          <lok>2012</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="ca">
-      <trd>itisme</trd>,
-      <trd>aspectisme</trd>
-    </trdgrp>
-    <trd lng="it">itismo</trd>
+    <refgrp tip="vid">
+      <ref cel="egal.0a.simila">egala<sncref/></ref>,
+      <ref cel="monoto.0a.unutona">monotona<sncref/></ref>
+    </refgrp>
   </snc>
+  <trd lng="de">gleichaussehend</trd>
 </drv>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </art>
 <!--
 $Log$
+versio 1.36 2022/08/16 20:29:46
+Wolfram Diestel: +sam~a
+
 versio 1.35 2022/07/04 05:38:10
 Wolfram Diestel: +trd de, ref
 
@@ -567,8 +615,5 @@ Revision 1.28  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.27  2015/06/28 12:03:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.26  2014/12/25 09:10:18  revo
 -->
 </vortaro>
