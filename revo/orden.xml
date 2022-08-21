@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: orden.xml,v 1.26 2022/08/21 10:31:02 revo Exp $">
+<art mrk="$Id: orden.xml,v 1.27 2022/08/21 11:25:08 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>orden</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -10,7 +10,8 @@
   <snc mrk="orden.0o.KAT">
     <uzo tip="fak">KAT</uzo>
     <dif>
-      <ref tip="super" cel="societ.0o.institucio">Societo</ref> el kavaliroj a&ubreve; religiuloj, kiuj vivas kune la&ubreve; apartaj
+      <ref tip="super" cel="societ.0o.institucio">Societo</ref> el kavaliroj 
+      a&ubreve; religiuloj, kiuj vivas kune la&ubreve; apartaj
       reguloj, liginte sin per votoj:
       <ekz>
         la <ind>jezuita <tld/>o</ind>
@@ -27,14 +28,6 @@
           <lok>Anta&ubreve;parolo.</lok>
         </fnt>;
         <trd lng="de">Kreuzritterorden</trd>
-      </ekz>
-      <ekz>
-        <klr>[li]</klr> haltis por miope kaj esplore rigardi kelkajn tre ebriajn
-        komandorojn de la Vasa <tld/>o
-        <fnt>
-          <bib>Kiso</bib>
-          <lok>Poetoj Kaj Homoj</lok>
-        </fnt>;
       </ekz>
       <ekz>
         misiistoj de la <tld/>o <nom>Sacr&eacute; C&oelig;ur</nom>
@@ -107,8 +100,23 @@
       Honoriga socieco
       starigita de suvereno por rekompenci meriton:
       <ekz>
-        <tld/>o de Nigra Aglo, de &Scirc;trumpligilo, de Kristo, de Lenino
-        ktp.
+        <tld/>o de Nigra Aglo;
+      </ekz>
+      <ekz>
+        <tld lit="O"/>o de la &Gcirc;artero
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=201509"
+              >Ordeno de la &Gcirc;artero</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> haltis por miope kaj esplore rigardi kelkajn tre ebriajn
+        komandorojn de la Vasa <tld/>o
+        <fnt>
+          <bib>Kiso</bib>
+          <lok>Poetoj Kaj Homoj</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="fr">
@@ -217,14 +225,32 @@
 <drv mrk="orden.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="orden.0i.atribui">
     <dif>
-      Honori iun per <tld/>o:
+      Atribui <tld/>on, <ref tip="super" cel="honor.0i.igi">honori</ref> iun per <tld/>o:
       <ekz>
-        la Franca ministro pri la publika instruado <tld/>is nian
-        majstron per la Honora Legio.
+        dum la kongreso &scirc;tata prezidento <tld/>is medalojn de amikeco
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 10 (60)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la simplaj kaj sufi&ccirc;e senpretendaj verkoj <klr>[ne]</klr> permesas sincere
+        <tld/>i lin per tiu honora titolo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="https://www.monato.be/2004/008063.html"
+              >50-jara stabileco en verkado - &ccirc;u klasika?</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="distin.0igi">distingigi</ref>,
+      <ref cel="premi.0i">premii</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_u;&c_z;&c_n;&c_a;&c_g;&c_a;&c_r;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol; <ind>&c_o;&c_r;&c_d;&c_e;&c_n;&c_a;&c_m;</ind>
   </trd>
@@ -232,7 +258,10 @@
     <trd>ud&ecaron;lit &rcaron;&aacute;d</trd>,
     <trd>vyznamenat &rcaron;&aacute;dem</trd>
   </trdgrp>
-  <trd lng="de"><klr>(jmdm.) einen </klr>Orden <ind>verleihen</ind></trd>
+  <trdgrp lng="de">
+    <trd><klr>(jmdm.) einen </klr>Orden <ind>verleihen</ind></trd>,
+    <trd>auszeichnen</trd>
+  </trdgrp>
   <trd lng="en">decorate</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;corer<klr> (remettre une d&eacute;coration)</klr></trd>,
@@ -257,6 +286,9 @@
 </art>
 <!--
 $Log$
+versio 1.27 2022/08/21 11:25:08
+Wolfram Diestel: +ekz, ref
+
 versio 1.26 2022/08/21 10:31:02
 Wolfram Diestel: ~o: +ekz-oj
 
@@ -276,8 +308,5 @@ Revision 1.19  2012/03/11 20:10:12  revo
 Agustin Garcia Lopez: +trd(es)
 
 Revision 1.18  2006/09/17 16:31:08  revo
-Russ Williams: +trd en
-
-Revision 1.17  2004/08/24 16:33:19  revo
 -->
 </vortaro>
