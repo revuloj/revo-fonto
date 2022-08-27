@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kontin3.xml,v 1.30 2021/05/29 10:57:13 revo Exp $">
+<art mrk="$Id: kontin3.xml,v 1.31 2022/08/27 20:31:52 revo Exp $">
 <kap>
  <ofc>4</ofc>
  <rad>kontinu</rad>/a <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
@@ -62,6 +62,10 @@
       <trd>ci&aogonek;g&lstroke;y</trd>,
       <trd>nieprzerwany</trd>
     </trdgrp>
+    <trdgrp lng="ro">
+      <trd>continuu</trd>,
+      <trd>ne&icirc;ntrerupt&abreve;</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>,
       <trd>&c_s;&c_p;&c_l;&c_o;&c_sh;&c_n;&c_o;&c_j;</trd>
@@ -77,7 +81,7 @@
         de <ref cel="spac.topologia0o">topologia spaco</ref> 
         <frm am="bb E"><g>E</g></frm>
         al topologia spaco <frm am="bb F"><g>F</g></frm>,
-        &ccirc;e punkto <frm am="a in bb E"><k>a</k>&#x2208;<g>E</g></frm>)</klr>
+        &ccirc;e punkto <frm am="a in bb E"><k>a</k>&#8712;<g>E</g></frm>)</klr>
         Tia, ke &ccirc;iu ajn
         <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
         de <frm am="f(a)"><k>f</k>(<k>a</k>)</frm> inkluzivas la bildon
@@ -131,6 +135,7 @@
     <trd lng="de">stetig</trd>
     <trd lng="en">continuous</trd>
     <trd lng="pl">ci&aogonek;g&lstroke;y</trd>
+    <trd lng="ro">continuu</trd>
   </snc>
   <trd lng="ca">continu</trd>
   <trdgrp lng="cs">
@@ -152,6 +157,11 @@
   <trdgrp lng="pl">
     <trd>ci&aogonek;g&lstroke;y</trd>,
     <trd>nieprzerwany</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>continuu</trd>,
+    <trd>ne&icirc;ntrerupt&abreve;</trd>,
+    <trd>neobosit</trd>
   </trdgrp>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
@@ -186,7 +196,11 @@
  </trdgrp>
   <trd lng="hu">folytonos</trd>
   <trd lng="nl">doorlopen</trd>
-  <trd lng="pl">ci&aogonek;gn&aogonek;&cacute; si&eogonek;</trd>
+  <trdgrp lng="pl">
+    <trd>ci&aogonek;gn&aogonek;&cacute; si&eogonek;</trd>,
+    <trd>kontynuowa&cacute;</trd>
+  </trdgrp>
+  <trd lng="ro">continua</trd>
   <trdgrp lng="sk">
     <trd>by&tcaron; kontinu&aacute;lny</trd>,
     <trd>nepretr&zcaron;it&yacute;</trd>,
@@ -246,6 +260,7 @@
  </trdgrp>
   <trd lng="nl">continu&iuml;teit</trd>
   <trd lng="pl">ci&aogonek;g&lstroke;o&sacute;&cacute;</trd>
+  <trd lng="ro">continuitate</trd>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>kontinuita</trd>,
@@ -290,6 +305,7 @@
  <trd lng="fr">uniform&eacute;ment <ind>continu</ind></trd>
  <trd lng="hu">egyenletesen <ind>folytonos</ind></trd>
  <trd lng="pl">jednostajnie <ind>ci&aogonek;g&lstroke;y</ind></trd>
+ <trd lng="ro">uniform  <ind>continuu</ind></trd>
  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o; <ind>&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</ind></trd>
 </drv>
 
@@ -324,7 +340,7 @@
   </trdgrp>
   <trd lng="nl">voortzetten</trd>
   <trd lng="pl">kontynuowa&cacute;</trd>
-  <trd lng="ro">a continua</trd>
+  <trd lng="ro">continua</trd>
   <trd lng="sk">necha&tcaron; trva&tcaron;</trd>
 </drv>
 
@@ -349,16 +365,27 @@
     <ref cel="diskre.0a.nombrebla">diskreta<sncref/></ref>,
     <ref cel="romp.inter0i.cxesigi">interrompi</ref>
   </refgrp>
+  <trd lng="cs">p&rcaron;etr&zcaron;it&yacute;</trd> 
   <trdgrp lng="fr">
     <trd>discret<klr> (non continu)</klr></trd>,
     <trd>interrompu</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>nieci&aogonek;g&lstroke;y</trd>,
+    <trd>przerywany</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>discontinuu</trd>,
+    <trd>intermitent</trd>
+  </trdgrp>
   <trd lng="sk">pretr&zcaron;it&yacute;</trd>
-  <trd lng="cs">p&rcaron;etr&zcaron;it&yacute;</trd>
 </drv>
 </art>
 <!--
-$Log: kontin3.xml,v $
+$Log$
+versio 1.31 2022/08/27 20:31:52
+Vito Redsky:  +trd pl  + kor trd ro 
+
 versio 1.29 2020/02/15 11:10:20
 Wolfram Diestel: formuloj per am
 
@@ -378,8 +405,5 @@ Revision 1.24  2011/01/29 17:10:13  revo
 Wolfram Diestel: +germ trd
 
 Revision 1.23  2010/06/08 16:30:18  revo
-Agustin Garcia Lopez: eraro es (-igi)
-
-Revision 1.22  2009/09/01 16:30:53  revo
 -->
 </vortaro>
