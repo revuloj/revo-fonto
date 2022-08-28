@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aparta.xml,v 1.22 2022/08/28 09:28:20 revo Exp $">
+<art mrk="$Id: aparta.xml,v 1.23 2022/08/28 10:32:11 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>apartament</rad>/o
@@ -9,7 +9,7 @@
 
 <drv mrk="aparta.0o">
   <kap><tld/>o</kap>
-  <snc mrk="aparta.0o.dauxra">
+  <snc mrk="aparta.0o.doma">
     <dif>
       &Ccirc;iu el pluraj apartaj <ref tip="super" cel="logx.0ejo">lo&gcirc;ejo</ref>j en domo:
       <ekz>
@@ -85,10 +85,61 @@
       <trd>flat <klr>(brite)</klr></trd>
     </trdgrp>
   </snc>
-  <snc mrk="aparta.0o.feria">
+  <snc mrk="aparta.0o.hotela">
     <dif>
       Komforta, e&ccirc; luksa, <ref tip="super" cel="logx.0ejo">lo&gcirc;ejo</ref> el pluraj
-      apartigitaj &ccirc;ambroj en kastelo a&ubreve; hotelo, por dispono de gastoj:
+      apartigitaj &ccirc;ambroj en hotelo, por dispono de gastoj:
+      <ekz>
+        fra&ubreve;lino Kolardo resupreniris al la <tld/>o, kiun Maziero al &scirc;i &gcirc;entile donis,
+        en la dua eta&gcirc;o de sia hotelo, por la tuta da&ubreve;rado de la gefian&ccirc;i&gcirc;ado
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia malgranda <tld/>o de la Varena strato superis la &gcirc;ardenon de la Prelonga
+        hotelo
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deksepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rokmuzikisto kaj la aktorino, &ccirc;iam kunaj, tiam kunlo&gcirc;is en la <tld/>a hotelo
+        <nom>Domina Plaza</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="https://www.monato.be/2005/008491.php"
+              >En &ccirc;iu malbono ...</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd><ofc>3</ofc>Appartement</trd>,
+      <trd>Hotelsuite</trd>,
+      <trd>Zimmerflucht</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>suite <klr>(hotel)</klr></trd>,
+      <trd><ofc>3</ofc>apartments</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>vivienda</trd>,
+      <trd>piso</trd>,
+      <trd>apartamento</trd>,
+      <trd><ofc>3</ofc>apartamiento</trd>,
+    </trdgrp>
+    <trd lng="fr">appartement<klr> (de luxe)</klr></trd>
+  </snc>
+  <snc mrk="aparta.0o.kastela">
+    <uzo tip="fak">HIS</uzo><uzo tip="fak">ARKI</uzo>
+    <dif>
+      Unu a&ubreve; du vicoj da &ccirc;ambroj kun kuna funkcio apartigitaj en kastelo, 
+      ekz-e por dispono de la re&gcirc;a familio, gastoj,
+      por a&ubreve;diencoj, baloj k.s.:
       <ekz>
         la grandoficiroj kaj grandoficirinoj de la Re&gcirc;eco kondukis ilin en la <tld/>on
         de Lia Re&gcirc;a Mo&scirc;to
@@ -113,20 +164,17 @@
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
-      <trd><ofc>3</ofc>Appartement</trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd>suite <klr>(hotel)</klr></trd>,
-      <trd><ofc>3</ofc>apartments</trd>
-    </trdgrp>
-    <trdgrp lng="es">
-      <trd>vivienda</trd>,
-      <trd>piso</trd>,
-      <trd>apartamento</trd>,
-      <trd><ofc>3</ofc>apartamiento</trd>,
-    </trdgrp>
-    <trd lng="fr">appartement<klr> (de luxe)</klr></trd>
+    <bld
+      lok="&WCU;/thumb/4/49/Plans_of_ground_floor_and_second_floor_of_the_Chateau_Neuf.jpg/640px-Plans_of_ground_floor_and_second_floor_of_the_Chateau_Neuf.jpg"
+      prm="PD"
+      >Unuvicaj <tld/>oj apartigitaj per koridoroj en la kastelo de 
+      Meudon
+        <fnt>
+          <aut>Jules Hardouin-Mansart, http://www.artandarchitecture.org.uk/images/conway/8365063d.html</aut>
+          <lok><url ref="&WCW;/File:Plans_of_ground_floor_and_second_floor_of_the_Chateau_Neuf.jpg"
+              >https://commons.wikimedia.org/wiki/File:Plans_of_ground_floor_and_second_floor_of_the_Chateau_Neuf.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_p;&c_a;&c_r;&c_t;&c_a;&c_m;&c_e;&c_n;&c_t;</trd>,
@@ -156,6 +204,9 @@
 </art>
 <!--
 $Log$
+versio 1.23 2022/08/28 10:32:11
+Wolfram Diestel: plia apartigo de snc hotela kaj kastela
+
 versio 1.22 2022/08/28 09:28:20
 Wolfram Diestel: apartigita pli historia snc
 
@@ -175,8 +226,5 @@ Revision 1.15  2007/11/16 17:30:25  revo
 Wieland Pusch: +trd bg
 
 Revision 1.14  2004/03/21 17:31:00  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2003/05/20 16:31:17  revo
 -->
 </vortaro>
