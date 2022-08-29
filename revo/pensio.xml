@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pensio.xml,v 1.18 2022/06/28 11:27:33 revo Exp $">
+<art mrk="$Id: pensio.xml,v 1.19 2022/08/29 06:17:45 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>pension</rad>/o <fnt><bib>VdE</bib></fnt>
@@ -10,14 +10,42 @@
   <kap><tld/>o</kap>
   <snc mrk="pensio.0o.gastejo">
     <dif>
-      Domo, kie oni povas konstante lo&gcirc;i kaj man&gcirc;i, pagante
+      <ref tip="super" cel="dom.0o.konstruajxo">Domo</ref>, kie oni 
+      povas konstante lo&gcirc;i kaj man&gcirc;i, pagante
       interkonsentitan monsumon:
       <ekz>
-        libertempuloj <klr>...</klr> plenigis la <tld/>ojn dum julio kaj
+        unu domo estas uzata kiel <tld/>o, kies mastro, okupinte por si mem ne pli ol
+        unu &ccirc;ambron kaj kuirejeton, forluigas &ccirc;iujn aliajn <ref cel="aparta.0o">apartamento</ref>jn
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tra fenestroj de hoteloj, <tld/>oj, domoj kaj dometoj, multege da vizitantoj
+        rigardis &ccirc;agrene
+        <fnt>
+          <bib>TAA</bib>
+          <lok>&Ccirc;apitro XI.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        necesas mendi hotelon a&ubreve; <tld/>on minimume unu jaron anta&ubreve; la venonta festivalo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2006/009028.php"
+              >Angla festivalo en Kimrio</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        libertempuloj <klr>[&#8230;]</klr> plenigis la <tld/>ojn dum julio kaj
         a&ubreve;gusto
         <fnt><bib>Aventuroj</bib>, <lok>&ccirc;ap. 12a, p. 37a</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="gast.0ejo">gastejo</ref>
     <trd lng="en">boarding house</trd>
     <trd lng="fr">pension<klr> (r&eacute;sidence)</klr></trd>
     <trdgrp lng="ru">
@@ -25,25 +53,51 @@
       <trd>&c_p;&c_a;&c_n;&c_s;&c_i;&c_o;&c_n;&c_a;&c_t;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="pensio.0o.lernejo">
+  <snc mrk="pensio.0o.lernanta">
     <dif>
-      <ref tip="dif" cel="lern.logx0ejo">Lo&gcirc;lernejo</ref>, mez<tld/>ejo
-      kun <tld/>o<sncref ref="pensio.0o.gastejo"/>:
+      <tld lit="P"/>o<sncref ref="pensio.0o.gastejo"/> ebliganta
+      al lernantoj lo&gcirc;i proksime de lernejo:
+      <ekz>
+        li kune iru al la eduk<tld/>o, tie ili &ccirc;iam studadis kune, sin ekzercadis en la
+        latina lingvo
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en vesperoj kolekti&gcirc;is tie knaboj kaj knabinoj, lokaj kaj el la <tld/>o, por
+        rajdi
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <nom>Mme Louise Zimmermann</nom>, direktorino de knabina
         <tld/>o en La&ubreve;zano
           <fnt><aut>Karel &Ccaron;apek, tr. Josef Vondrou&scaron;ek</aut>:
             <vrk>Milito kontra&ubreve; salamandroj</vrk>.
-            <lok>INKO, 2003. Libro 2&#170;, &ccirc;ap. 2&#170;.</lok>
+            <lok>Inko, 2003. Libro 2ª, &ccirc;ap. 2ª.</lok>
           </fnt>;
-      </ekz><ekz>
-        Temis pri knabo, sen gepatroj, en lerneja <tld/>o
-        <fnt><aut>Julian MODEST</aut>:
+      </ekz>
+      <ekz>
+        temis pri knabo, sen gepatroj, en lerneja <tld/>o
+        <fnt><aut>Julian Modest</aut>:
           <vrk>La miraklo de la parolo</vrk>.
           <bib>Monato</bib> <lok>&#8470; 011503</lok>
           </fnt>.
-        </ekz>
+      </ekz>
     </dif>
+    <rim>
+      Alie ol &ccirc;e <refgrp tip="vid">
+      <ref cel="intern.0ulejo">internulejo</ref> a&ubreve;
+        <ref cel="lern.logx0ejo">lo&gcirc;lernejo</ref>
+      </refgrp> 
+      tia <tld/>o ne estas administrata de la lernejo, sed private
+      disponigita al malgrandaj grupoj de lernantoj, ofte de instruistoj mem.
+    </rim>    
+    <trd lng="de">Sch&uuml;lerpension</trd>
     <trd lng="en">boarding school</trd>
     <trd lng="ru">&c_p;&c_a;&c_n;&c_s;&c_i;&c_o;&c_n;</trd>
   </snc>
@@ -68,24 +122,51 @@
 
 <drv mrk="pensio.an0o">
   <kap><tld/>ano</kap>
-  <snc mrk="pensio.0o.lernejano">
+  <snc mrk="pensio.0o.lernanto">
     <dif>
       Lernanto de <tld/>o<sncref ref="pensio.0o.lernejo"/>:
       <ekz>
-        Junaj <tld/>anoj plejofte dividas dormo&ccirc;ambron, dum pli
+        estis nesufi&ccirc;a la salajro, la hejmo devis malfermi&gcirc;i al dek kvin &gcirc;is dudek
+        <tld/>anoj
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        najbaroj, de kiuj oni petis konsilon, indikis samregionaninon, s-inon <nom>Kergaran</nom>,
+        kiu akceptis <tld/>anojn
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 1 (51)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        junaj <tld/>anoj plejofte dividas dormo&ccirc;ambron, dum pli
         maljunaj <tld/>anoj kutime havas siajn privatajn &ccirc;ambrojn 
         <fnt><vrk><url
  ref="https://educationplanetonline.com/eo/all-best-secondary-schools-in-uk/"
               >&Ccirc;iuj Plej bonaj mezlernejoj en Britio</url></vrk></fnt>;
       </ekz><ekz>
-        Du tagojn poste mi komencis instrui la <tld/>aninojn de la
+        du tagojn poste mi komencis instrui la <tld/>aninojn de la
         Sentema Mimozo
         <fnt><aut>Louis Beaucaire</aut>:
           <vrk>Kiel mi fari&gcirc;is kunfondinto de UEA</vrk>.
           <lok><url ref="https://sezonoj.ru/2020/01/beaucaire">LOdE</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pli junaj <tld/>anoj, nomis ilin la &leftquot;fratinoj <nom>Bront&euml;</nom>&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="https://www.monato.be/2012/010361.php"
+              >Lisuarte</url></vrk>
+          <lok>2012</lok>
         </fnt>.
       </ekz>
     </dif>
+  <trd lng="de">Pensionssch&uuml;ler</trd>
   </snc>
   <trd lng="fr">pensionnaire</trd>
   <trdgrp lng="ru">
@@ -100,13 +181,24 @@
     <dif>
       Kliento de <tld/>o<sncref ref="pensio.0o.gastejo"/>:
       <ekz>
-        <klr>[La nomkarteto]</klr> estas de sinjoro Van Elshout, unu
-        el miaj <tld/>uloj
-        <fnt><aut>H. J. Bulthuis</aut>: <vrk>Idoj de Orfeo</vrk>.
-          <lok>&Ccirc;ap. 4&#170;</lok>.</fnt>.
+        &scirc;i devis pretigi la kafon, la teon kaj la man&gcirc;a&jcirc;on por multaj <tld/>uloj, kaj
+        alportante ilin en la forluigitajn &ccirc;ambrojn, &scirc;i restis &ccirc;iam kelkan tempon
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mastrino lo&gcirc;is en la unua eta&gcirc;o <klr>[&#8230;]</klr> kvar bretonaj <tld/>uloj lo&gcirc;is
+        en la tria kaj en la kvara
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 1 (51)</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Pensionsgast</trd>
   <trd lng="fr">pensionnaire</trd>
   <trd lng="ru">&c_p;&c_a;&c_n;&c_s;&c_i;&c_o;&c_n;&c_je;&c_r;</trd>
 </drv>
@@ -114,6 +206,9 @@
 </art>
 <!--
 $Log$
+versio 1.19 2022/08/29 06:17:45
+Wolfram Diestel: +ekz-oj, trd de, ref; plibonigis dif snc lernanta...
+
 versio 1.18 2022/06/28 11:27:33
 Sergio Pokrovskij: trd=en
 
@@ -133,8 +228,5 @@ Revision 1.11  2004/08/26 16:32:26  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10  2004/08/04 16:32:07  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2003/09/12 16:31:04  revo
 -->
 </vortaro>
