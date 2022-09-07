@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akv.xml,v 1.191 2022/09/07 15:34:24 revo Exp $">
+<art mrk="$Id: akv.xml,v 1.192 2022/09/07 20:37:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>akv</rad>/o <fnt><bib>PV</bib></fnt>
@@ -194,7 +194,7 @@
   <trd lng="lat">aquam</trd>
   <trd lng="lo">&#3737;&#3785;&#3789;&#3762;</trd>
   <trd lng="lt">vanduo</trd>
-  <trd lng="lv">&umacron;dens</trd>
+  <trd lng="lv">&#5691;dens</trd>
   <trd lng="mg">rano</trd>
   <trd lng="mi">wai</trd>
   <trd lng="mk">&c_v;&c_o;&c_d;&c_a;</trd>
@@ -211,7 +211,7 @@
   <trd lng="es">agua</trd>
   <trd lng="fa">&a_A_madda;&a_b;</trd>
   <trd lng="fr">eau</trd>
-  <trd lng="hi">&#2346;&#2366;&#2344;&#2368; [<ind>p&amacron;n&imacron;</ind>]</trd>
+  <trd lng="hi">&#2346;&#2366;&#2344;&#2368; [<ind>p&#5585;n&#5627;</ind>]</trd>
   <trd lng="id">air</trd>
   <trd lng="it">acqua</trd>
   <trd lng="ja">&#27700; [<ind>&#12415;&#12378;</ind>]</trd>
@@ -227,6 +227,7 @@
   <trd lng="pl">woda</trd>
   <trd lng="ps">&a_d; &a_A;&a_w;&a_b;&a_w; &a_d;</trd>
   <trd lng="pt">&aacute;gua</trd>
+  <trd lng="ro">ap&abreve;</trd>
   <trd lng="ru">&c_v;&c_o;&c_d;&c_a;</trd>
   <trd lng="rw">amazi</trd>
   <trd lng="sd">&f_p;&a_A;&#1723;&a_y;</trd>
@@ -475,6 +476,10 @@
   <trd lng="he">&mem;&yod;&mem;&yod;</trd>
   <trd lng="pl">wodny</trd>
   <trd lng="pt">aqu&aacute;tico</trd>
+  <trdgrp lng="ro">
+    <trd>acvatic</trd>,
+    <trd>ap&abreve;tos</trd>
+  </trdgrp>
   <trd lng="sk">vodn&yacute;</trd>
 </drv>
 
@@ -521,6 +526,14 @@
   <trd lng="fr">arroser</trd>
   <trd lng="he">&lamed;&he;&shin;&qof;&vav;&tav;</trd>
   <trd lng="id">meng<ind>air</ind>i</trd>
+  <trdgrp lng="pl">
+    <trd>podlewa&cacute;  <ind>wod&aogonek;</ind></trd>,
+    <trd>zaopatrzy&cacute; w  <ind>wod&eogonek;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>pui  <ind>ap&abreve;</ind></trd>,
+    <trd>furnizarea de  <ind>ap&abreve;</ind></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>polia&tcaron;</trd>,
     <trd>zavla&zcaron;i&tcaron;</trd>,
@@ -587,19 +600,26 @@
         </fnt>.
       </ekz>
     </dif>
+  </snc>    
     <trd lng="be">&c_v;&c_a;&c_d;&c_a;&c_z;&c_b;&c_o;&c_r;&c_n;&c_ib;&c_k;</trd>
-    <trd lng="th">&#3649;&#3627;&#3621;&#3656;&#3591;&#3609;&#3657;&#3635;</trd>
+    <trdgrp lng="de">
+      <trd>Wasserstelle</trd>,
+      <trd>Wasserloch</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>cours d'eau</trd>,
+      <trd>point d'eau</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>akwen</trd>,
+      <trd>jednolita cz&eogonek;&sacute;&cacute;  <ind>w&oacute;d</ind></trd>
+    </trdgrp>
     <trd lng="pt">corpo de &aacute;gua</trd>
-  </snc>
-
-  <trdgrp lng="de">
-    <trd>Wasserstelle</trd>,
-    <trd>Wasserloch</trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>cours d'eau</trd>,
-    <trd>point d'eau</trd>
-  </trdgrp>
+    <trdgrp lng="ro">
+      <trd>ape</trd>,
+      <trd>corp de  <ind>ap&abreve;</ind></trd>
+    </trdgrp>
+    <trd lng="th">&#3649;&#3627;&#3621;&#3656;&#3591;&#3609;&#3657;&#3635;</trd>
 </drv>
 
 <drv mrk="akv.0ero">
@@ -654,6 +674,7 @@
   <trd lng="fr">goutte d'eau</trd>
   <trd lng="nl">waterdruppel</trd>
   <trd lng="pl">kropla <ind>wody</ind></trd>
+  <trd lng="ro">pic&abreve;tur&abreve; de  <ind>ap&abreve;</ind></trd>
   <trd lng="ru">&c_k;&c_a;&c_p;&c_l;&c_ja; &c_v;&c_o;&c_d;&c_y;</trd>
   <trd lng="sk">kvapka vody</trd>
   <trd lng="sv">vattendroppe</trd>
@@ -709,8 +730,9 @@
     <trd lng="ja">&#23453;&#29942;&#23470;
     [<ind>&#12411;&#12358;&#12408;&#12356;&#12365;&#12421;&#12358;</ind>]</trd>
     <trd lng="nl">Waterman<klr tip="ind"> (sterrebeeld)</klr></trd>
-    <trd lng="pl">wodnik</trd>
+    <trd lng="pl">Wodnik  <klr>(gwiazdozbi&oacute;r)</klr></trd>
     <trd lng="pt">Aqu&aacute;rio<klr> (constela&ccedil;&atilde;o, signo zodiacal)</klr></trd>
+    <trd lng="ro">V&abreve;rs&abreve;torul  <klr>(constela&#539;ie)</klr></trd>
     <trd lng="ru">&c_V;&c_o;&c_d;&c_o;&c_l;&c_je;&c_j;</trd>
     <trd lng="sk">Vodn&aacute;r</trd>
     <trd lng="th">&#3585;&#3621;&#3640;&#3656;&#3617;&#3604;&#3634;&#3623;&#3588;&#3609;&#3649;&#3610;&#3585;&#3627;&#3617;&#3657;&#3629;&#3609;&#3657;&#3635;</trd>
@@ -809,6 +831,11 @@
     <trd>molhar</trd>,
     <trd>regar</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>iriga</trd>,
+    <trd>uda</trd>,
+    <trd>stropi</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>polia&tcaron;</trd>,
@@ -858,6 +885,8 @@
   </trdgrp>
   <trd lng="de">Gie&szlig;kanne</trd>
   <trd lng="fr">arrosoir</trd>
+  <trd lng="pl"> konewka</trd>
+  <trd lng="ro">stropitoare</trd>
 </drv>
 
 <drv mrk="akv.0ujo">
@@ -928,7 +957,7 @@
     <trd lng="de">Wasserbeh&auml;lter</trd>
     <trd lng="en">basin</trd>
     <trdgrp lng="fa">
-      <trd>&a_A_madda;&a_b;&zwnj;&a_A;&a_n;&a_b;&a_A;&a_r;</trd>,
+      <trd>&a_A_madda;&a_b;&#8204;&a_A;&a_n;&a_b;&a_A;&a_r;</trd>,
       <trd>&a_m;&a_kh;&a_z;&a_n; &a_A_madda;&a_b;</trd>
     </trdgrp>
     <trdgrp lng="fr">
@@ -946,6 +975,12 @@
       <trd>cisterna</trd>,
       <trd>caixa d'&aacute;gua</trd>,
       <trd>reservat&oacute;rio</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>ap&abreve; st&abreve;t&abreve;toare</trd>,
+      <trd>piscin&abreve; cu <ind>ap&abreve;</ind></trd>,
+      <trd>cistern&abreve; de <ind>ap&abreve;</ind></trd>,
+      <trd>rezervor</trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_c;&c_i;&c_s;&c_t;&c_je;&c_r;&c_n;&c_a;</trd>,
@@ -1059,6 +1094,10 @@
     <trd>wynurza&cacute; si&eogonek;<klr> z wody</klr></trd>
     <trd>wy&lstroke;ania&cacute; si&eogonek;<klr> z wody</klr></trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd> ridic&acirc;ndu-se din<ind>ap&abreve;</ind></trd>,
+    <trd>iese din<ind>ap&abreve;</ind></trd>
+  </trdgrp>
   <trd lng="ru">&c_v;&c_s;&c_p;&c_l;&c_y;&c_t;&c_mol;</trd>
 </drv>
 
@@ -1122,6 +1161,8 @@
     <trd>wassern</trd>,
     <trd>ins <ind>Wasser</ind> gehen</trd>
   </trdgrp>
+  <trd lng="pl">zanurza&cacute; si&eogonek;</trd>
+  <trd lng="ro">s&abreve; se scufunde</trd>
   <trdgrp lng="uk">
     <trd>&c_z;&c_a;&c_h;&c_o;&c_d;&c_i;&c_t;&c_i; &c_u; &c_v;&c_o;&c_d;&c_u;</trd>,
     <trd>&c_z;&c_a;&c_n;&c_u;&c_r;&c_ju;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
@@ -1180,6 +1221,7 @@
     <trd>cascata</trd>,
     <trd>queda-d'&aacute;gua</trd>
   </trdgrp>
+  <trd lng="ro">cascad&abreve;</trd>
   <trd lng="ru">&c_v;&c_o;&c_d;&c_o;&c_p;&c_a;&c_d;</trd>
   <trd lng="sk">vodop&aacute;d</trd>
   <trd lng="sv">vattenfall</trd>
@@ -1241,6 +1283,8 @@
   <trd lng="en">groundwater</trd>
   <trd lng="fr">eaux souterraines</trd>
   <trd lng="id"><ind>air</ind> tanah</trd>
+  <trd lng="pl">woda gruntowa</trd>
+  <trd lng="ro">ap&abreve; subteran&abreve;</trd>
 </drv>
 
 <drv mrk="akv.klor0o">
@@ -1267,6 +1311,8 @@
   <trd lng="fa">&a_A_madda;&a_b; &f_zh;&a_A;&a_w;&a_l;</trd>
   <trd lng="fr">eau de javel</trd>
   <trd lng="id"><ind>air</ind> berklorin</trd>
+  <trd lng="pl">woda chlorowana</trd>
+  <trd lng="ro">ap&abreve; clorat&abreve;</trd>
   <trd lng="sk">chl&oacute;rov&aacute; voda</trd>
 </drv>
 
@@ -1343,8 +1389,8 @@
 [<ind>&#12363;&#12356;&#12377;&#12356;</ind>]</trd>
   <trd lng="nl">zeewater</trd>
   <trd lng="pl">woda morska</trd>
-  <trd lng="ru">&c_m;&c_o;&c_r;&c_s;&c_k;&c_a;&c_ja;
-  &c_v;&c_o;&c_d;&c_a;</trd>
+  <trd lng="ro">ap&abreve; de mare</trd>
+  <trd lng="ru">&c_m;&c_o;&c_r;&c_s;&c_k;&c_a;&c_ja; &c_v;&c_o;&c_d;&c_a;</trd>
   <trd lng="sk">morsk&aacute; voda</trd>
   <trd lng="sv">havsvatten</trd>
   <trd lng="uk">&c_m;&c_o;&c_r;&c_s;&c_mol;&c_k;&c_a; &c_v;&c_o;&c_d;&c_a;</trd>
@@ -1383,15 +1429,12 @@
     <trd>Met</trd>,
     <trd>Honigwasser</trd>
   </trdgrp>
+  <trd lng="pl">mi&oacute;d pitny</trd>
+  <trdgrp lng="ro">
+    <trd>mied</trd>,
+    <trd>hidromel</trd>
+  </trdgrp>
 </drv>
-
-
-
-
-
-
-
-
 
 <drv mrk="akv.mineral0o">
   <kap>mineral<tld/>o</kap>
@@ -1503,10 +1546,12 @@
   <trd lng="de">Regenwasser</trd>
   <trd lng="fr">eau de pluie</trd>
   <trd lng="id"><ind>air</ind> hujan</trd>
+  <trd lng="pl">deszcz&oacute;wka  <klr>(woda)</klr></trd>
   <trdgrp lng="pt">
   <trd>&aacute;gua de chuva</trd>
   <trd>&aacute;gua pluvial</trd>
   </trdgrp> 
+  <trd lng="ro">ap&abreve; de ploaie</trd>
   <trd lng="uk">&c_d;&c_o;&c_shch;&c_ib;&c_v;&c_k;&c_a;</trd>
 </drv>
 
@@ -1541,6 +1586,7 @@
   <trd lng="id"><ind>air</ind> mawar</trd>
   <trd lng="nl">rozenwater</trd>
   <trd lng="pl">woda r&oacute;&zdot;ana</trd>
+  <trd lng="ro">ap&abreve; de trandafiri</trd>
   <trd lng="ru">&c_r;&c_o;&c_z;&c_o;&c_v;&c_a;&c_ja;
   &c_v;&c_o;&c_d;&c_a;</trd>
   <trd lng="sv">rosenvatten</trd>
@@ -1568,6 +1614,11 @@
   </snc>
   <trd lng="de">Abwasser</trd>
   <trd lng="fr">eaux us&eacute;es</trd>
+  <trd lng="pl">&sacute;ciek</trd>
+  <trdgrp lng="ro">
+    <trd>ap&abreve; uzat&abreve;</trd>,
+    <trd>ap&abreve; rezidual&abreve;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="akv.sankt0ujo">
@@ -1596,6 +1647,8 @@
     <trd>kropi&ccaron;ka <klr>(se sv&ecaron;cenou vodou)</klr></trd>
   </trdgrp>
   <trd lng="de">Weihwasserbecken</trd>
+  <trd lng="pl">kropielnica</trd>
+  <trd lng="ro">agheasmatar</trd>
   <trd lng="sk">n&aacute;dr&zcaron;ka na sv&auml;ten&uacute; vodu</trd>
   <trdgrp lng="uk">
     <trd>&c_p;&c_o;&c_s;&c_u;&c_d; &c_z;&c_ib; &c_s;&c_v;&c_ja;&c_ch;&c_je;&c_n;&c_o;&c_ju; &c_v;&c_o;&c_d;&c_o;&c_ju; (&c_u; &c_p;&c_r;&c_i;&c_t;&c_v;&c_o;&c_r;&c_ib; &c_h;&c_r;&c_a;&c_m;&c_u;)</trd>,
@@ -1645,6 +1698,7 @@
     <trd>spuitwater</trd>
   </trdgrp>
   <trd lng="pl">woda sodowa</trd>
+  <trd lng="ro">ap&abreve; gazoas&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_d;&c_o;&c_v;&c_a;&c_ja;
     &c_v;&c_o;&c_d;&c_a;</trd>,
@@ -1741,11 +1795,18 @@
   </trdgrp>
   <trd lng="id">[<ind>tenggelam</ind>] menenggelamkan</trd>
   <trd lng="nl">onder <ind>water</ind> zetten</trd>
-  <trd lng="pl">zanurza&cacute;<klr> w wodzie</klr></trd>
+  <trdgrp lng="pl">
+    <trd>zanurza&cacute; w  <ind>wodzie</ind></trd>,
+    <trd>utopi&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>submergir</trd>,
     <trd>mergulhar</trd>,
     <trd>afogar</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>se scufund&abreve; &icirc;n  <ind>ap&abreve;</ind></trd>,
+    <trd>&icirc;neca</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_t;&c_o;&c_p;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
@@ -1826,7 +1887,7 @@
   <trdgrp lng="fa">
     <trd>&a_d;&a_r; <ind>&a_A_madda;&a_b;</ind> &a_f;&a_r;&a_w;
     &a_r;&a_f;&a_t;&a_n;</trd>,
-    <trd>&a_gh;&a_w;&a_T;&a_h;&zwnj;&a_w;&a_r; &a_sh;&a_d;&a_n;</trd>
+    <trd>&a_gh;&a_w;&a_T;&a_h;&#8204;&a_w;&a_r; &a_sh;&a_d;&a_n;</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>plonger <klr>(intr.)</klr></trd>,
@@ -1834,11 +1895,18 @@
   </trdgrp>
   <trd lng="id">tenggelam</trd>
   <trd lng="nl">ondergaan<klr tip="ind"> (onder water)</klr></trd>
-  <trd lng="pl">zanurza&cacute;<klr> w wodzie</klr></trd>
+  <trdgrp lng="pl">
+    <trd>zanurza&cacute; si&eogonek; w  <ind>wodzie</ind></trd>,
+    <trd>zaton&aogonek;&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>submergir-se</trd>,
     <trd>mergulhar-se</trd>,
     <trd>afogar-se</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>s&abreve; intre &icirc;n <ind>ap&abreve;</ind></trd>,
+    <trd>scufunda</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_z;&c_a;&c_t;&c_o;&c_n;&c_u;&c_t;&c_mol;</trd>,
@@ -1901,6 +1969,14 @@
   <trd lng="fr">immersion</trd>
   <trd lng="id">selam</trd>
   <trd lng="nl">duiken<klr tip="ind"> (zn.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>zanurzenie</trd>,
+    <trd>zalew</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>pescaj</trd>,
+    <trd>afluen&#539;&abreve;</trd>
+  </trdgrp>
  </drv>
 
 <drv mrk="akv.sub0igxanto">
@@ -1931,6 +2007,8 @@
   <trd lng="fr">plongeur</trd>
   <trd lng="id">[<ind>selam</ind>], penyelam</trd>
   <trd lng="nl">duiker</trd>
+  <trd lng="pl">nurek</trd>
+  <trd lng="ro">scufund&abreve;tor</trd>
  </drv>
 
 <drv mrk="akv.sub0isto">
@@ -1977,14 +2055,13 @@
   <trd lng="de">Taucher</trd>
   <trd lng="en">diver</trd>
   <trd lng="fr">plongeur</trd>
+  <trd lng="pl">pracownik podwodny</trd>
+  <trd lng="ro">muncitor subacvatic</trd>
   <trdgrp lng="uk">
     <trd>&c_p;&c_ib;&c_d;&c_v;&c_o;&c_d;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_v;&c_o;&c_d;&c_o;&c_l;&c_a;&c_z;</trd>
   </trdgrp>
 </drv>
-
-
-
 
 <drv mrk="akv.super0i">
   <kap><ofc>*</ofc>super<tld/>i <fnt><bib>F</bib>, <lok>Universala
@@ -2044,6 +2121,10 @@
     <trd>inundar</trd>,
     <trd>alagar</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>toarn&abreve; ap&abreve;</trd>,
+    <trd>afunda</trd>
+  </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_t;&c_o;&c_p;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>vytopi&tcaron;</trd>,
@@ -2087,8 +2168,15 @@
     <trd>&aacute;rad&aacute;s</trd>,
     <trd>&aacute;rv&iacute;z</trd>
   </trdgrp>
-  <trd lng="id">banjir</trd>
-  <trd lng="pl">pow&oacute;d&zacute;</trd>
+  <trd lng="id">banjir</trd> 
+  <trdgrp lng="pl">
+    <trd>pow&oacute;d&zacute;</trd>,
+    <trd>wylew</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>inunda&#539;ie</trd>,
+    <trd>rev&abreve;rsa</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_v;&c_o;&c_d;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 
@@ -2145,7 +2233,15 @@
   <trd lng="fr">d&eacute;luge</trd>
   <trd lng="nl">overstroming</trd>
   <trd lng="id"><ind>banjir</ind> bandang</trd>
+  <trdgrp lng="pl">
+    <trd>pow&oacute;d&zacute;</trd>,
+    <trd>potop</trd>
+  </trdgrp>
   <trd lng="pt">dil&uacute;vio</trd>
+  <trdgrp lng="ro">
+    <trd>inunda&#539;ie</trd>,
+    <trd>potop</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_t;&c_o;&c_p;</trd>
   <trdgrp lng="sk">
     <trd>biblick&aacute; potopa</trd>,
@@ -2201,6 +2297,10 @@
     <trd>nawadnia&cacute;</trd>
   </trdgrp>
   <trd lng="pt">irrigar</trd>
+  <trdgrp lng="ro">
+    <trd>iriga</trd>,
+    <trd>ap&abreve; &icirc;n jos</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_v;&c_o;&c_d;&c_n;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_r;&c_o;&c_sh;&c_a;&c_t;&c_mol;</trd>
@@ -2257,6 +2357,7 @@
 [<ind>&#12398;&#12415;&#12415;&#12378;</ind>]</trd>
   <trd lng="nl">drinkwater</trd>
   <trd lng="pl">woda pitna</trd>
+  <trd lng="ro">ap&abreve; potabil&abreve;</trd>
   <trd lng="ru">&c_p;&c_i;&c_t;&c_mol;&c_je;&c_v;&c_a;&c_ja;
 &c_v;&c_o;&c_d;&c_a;</trd>
   <trdgrp lng="sk">
@@ -2272,7 +2373,8 @@
   <snc mrk="akv.0oscienco.SCI">
     <uzo tip="fak">SCI</uzo>
     <dif>
-      <ref tip="super" cel="scienc.0o.fako">Scienco</ref> pri <tld/>o, pri &gcirc;ia konsisto kaj &gcirc;ia natura
+      <ref tip="super" cel="scienc.0o.fako">Scienco</ref> pri <tld/>o, pri &gcirc;ia konsisto kaj &gcirc;ia
+      natura
       cirkulado tra  tero, aero, maroj:
       <ekz>
         pro grandaj klopodoj dum jarcentoj sur la tereno de
@@ -2294,7 +2396,7 @@
   <trd lng="ca">hidrologia</trd>
   <trd lng="de">Hydrologie</trd>
   <trd lng="en">hydrology</trd>
-  <trd lng="fa">&a_A_madda;&a_b;&zwnj;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>
+  <trd lng="fa">&a_A_madda;&a_b;&#8204;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>
   <trd lng="fr">hydrologie</trd>
   <trdgrp lng="nl">
     <trd>waterbouwkunde</trd>,
@@ -2302,6 +2404,7 @@
   </trdgrp>
   <trd lng="id">hidrologi</trd>
   <trd lng="pl">hydrologia</trd>
+  <trd lng="ro">hidrologie</trd>
   <trd lng="ru">&c_g;&c_i;&c_d;&c_r;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
 </drv>
 
@@ -2319,7 +2422,7 @@
   <trd lng="ca">hidr&ograve;leg</trd>
   <trd lng="de">Hydrologe</trd>
   <trd lng="en">hydrologist</trd>
-  <trd lng="fa">&a_A_madda;&a_b;&zwnj;&a_sh;&a_n;&a_A;&a_s;</trd>
+  <trd lng="fa">&a_A_madda;&a_b;&#8204;&a_sh;&a_n;&a_A;&a_s;</trd>
   <trdgrp lng="fr">
     <trd>hydrologiste</trd>,
     <trd>hydrologue</trd>
@@ -2331,11 +2434,15 @@
     <trd>hydroloog</trd>
   </trdgrp>
   <trd lng="pl">hydrolog</trd>
+  <trd lng="ro">hidrolog</trd>
   <trd lng="ru">&c_g;&c_i;&c_d;&c_r;&c_o;&c_l;&c_o;&c_g;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.192 2022/09/07 20:37:21
+Vito Redsky:  +trd pl  + trd ro  
+
 versio 1.191 2022/09/07 15:34:24
 Wolfram Diestel: trink~o: +ekz; ~oscienc(ist)o: +sin
 
@@ -2355,8 +2462,5 @@ versio 1.186 2022/09/04 17:30:34
 Wolfram Diestel: ~o: distingo de 4 snc kun ekz-oj, ref-oj
 
 versio 1.185 2022/09/01 11:29:33
-Wolfram Diestel: +kor. kap/mrk
-
-versio 1.184 2022/08/31 16:43:05
 -->
 </vortaro>
