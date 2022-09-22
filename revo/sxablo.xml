@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxablo.xml,v 1.28 2022/09/22 06:13:55 revo Exp $">
+<art mrk="$Id: sxablo.xml,v 1.29 2022/09/22 11:29:04 revo Exp $">
 <kap>
   <rad>&scirc;ablon</rad>/o
   <fnt><bib>PV</bib></fnt>
@@ -11,14 +11,14 @@
   <snc mrk="sxablo.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Plata <ref tip="super" cel="model.0o.KOMUNE">modelo</ref>, la&ubreve; kiu oni 
-      desegnas a&ubreve; formtran&ccirc;as objektojn:
+      Plata <ref tip="super" cel="model.0o.KOMUNE">modelo</ref>, la&ubreve; kies e&gcirc;oj
+      oni formas (desegnas, eltran&ccirc;as, modlas) la randon a&ubreve; surfacon de samformaj objektoj:
       <ekz>
-        fari veston, desegnon, stukon ... la&ubreve; <tld/>o;
+        fari veston, desegnon, stukon ... per <tld/>o;
       </ekz>
       <ekz>
         torni la &scirc;ra&ubreve;bojn, po mil kaj &ccirc;iujn la&ubreve; <tld/>o
-        <klr>(<ref cel="protot.0o.TEK">prototipo</ref>)</klr>
+        <klr>(vd <ref cel="protot.0o.TEK">prototipo</ref>)</klr>
         <fnt>
           <bib>Mortul&Scirc;ip</bib>
           <lok>&Ccirc;apitro 41</lok>
@@ -26,25 +26,13 @@
       </ekz>
       <ekz>
         pli simpla tekniko ta&ubreve;ga por etaj falsistoj estas la uzado de <klr>[&#8230;]</klr>
-        <tld/>oj <klr>(<ref cel="muld.0ilo">muldilo</ref>j)</klr> preparitaj per 
+        <tld/>oj <klr>(prefere <ref cel="muld.0ilo">muldilo</ref>j)</klr> preparitaj per 
         metodo uzanta harditan argilon
         <fnt>
           <bib>Monato</bib>
           <aut>DJ Cane</aut>
           <vrk><url ref="https://www.monato.be/2012/010564.php"
               >Monfalsada ekonomio</url></vrk>
-          <lok>2012</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">KOMP</uzo>
-        se oni uzas la saman <tld/>on por &ccirc;iu nomo kaj metas la jaron anta&ubreve; la
-        monatonumeron, komputilo scios &gcirc;uste ordigi la dosierojn en listo
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Roland Rotsaert</aut>
-          <vrk><url ref="https://www.monato.be/2012/010663.php"
-              >De papero al komputilo: bitigo de presitaj dokumentoj</url></vrk>
           <lok>2012</lok>
         </fnt>;
       </ekz>
@@ -59,6 +47,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sub" cel="stencil.0o">stencilo</ref>
     <refgrp tip="vid">
       <ref cel="form.0ilo">formilo</ref>,
       <ref cel="klisx.0o.TIP">kli&scirc;o<sncref/></ref>,
@@ -68,7 +57,7 @@
     <bld
       lok="&WCU;/thumb/c/c5/Schablone_f&uuml;r_Ablaufdiagramme.jpg/320px-Schablone_f&uuml;r_Ablaufdiagramme.jpg"
       prm="CC BY-SA 3.0"
-      ><tld/>o por desegnado de fludiagramoj
+      >tru<tld/>o por desegnado de fludiagramoj
         <fnt>
           <aut>JonnyBrazil, propra verko</aut>
           <lok><url ref="&WCW;/File:Schablone_f%C3%BCr_Ablaufdiagramme.jpg"
@@ -100,7 +89,9 @@
     <trdgrp lng="en">
       <trd>template</trd>,
       <trd>model</trd>,
-      <trd>pattern</trd>
+      <trd>pattern</trd>,
+      <trd>stencil</trd>,
+      <trd>die</trd>
     </trdgrp>
     <trdgrp lng="es">
       <trd>plantilla</trd>,
@@ -134,6 +125,40 @@
       <trd>modelo</trd>,
       <trd>padr&atilde;o</trd>
     </trdgrp>
+  </snc>
+  <snc mrk="sxablo.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Anta&ubreve;difinita <ref tip="super" cel="strukt.0o.konstruo">strukturo</ref>
+      kun malplenaj lokoj, kien oni metu specifan enhavon:
+      <ekz>
+        stil<tld/>o, dokument<tld/>o, <tld/>generilo, klas<tld/>o;
+      </ekz>
+      <ekz>
+        dokument<tld/>o por letero, fakturo, petskribo;
+      </ekz>
+      <ekz>
+        se oni uzas la saman <tld/>on por &ccirc;iu nomo kaj metas la jaron anta&ubreve; la
+        monatonumeron, komputilo scios &gcirc;uste ordigi la dosierojn en listo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2012/010663.php"
+              >De papero al komputilo: bitigo de presitaj dokumentoj</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="formul.0aro.POL">formularo<sncref/></ref>
+    <trdgrp lng="de">
+      <trd>Template</trd>,
+      <trd>Vorlage</trd>,
+      <trd>Maske</trd>
+    </trdgrp>
+  <trdgrp lng="en">
+    <trd>template</trd>,
+    <trd>mask</trd>
+  </trdgrp>
   </snc>
   <snc mrk="sxablo.0o.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -390,6 +415,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2022/09/22 11:29:04
+Wolfram Diestel: plibonigo dif, apartigo snc KOMP
+
 versio 1.28 2022/09/22 06:13:55
 Wolfram Diestel: +ekz-oj, ref, trd de
 
@@ -409,8 +437,5 @@ Revision 1.21  2011/12/25 09:10:07  revo
 Wolfram Diestel: pli da trd (de,en)
 
 Revision 1.20  2011/11/28 10:10:10  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.19  2011/04/29 19:10:31  revo
 -->
 </vortaro>
