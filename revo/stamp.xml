@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: stamp.xml,v 1.29 2022/09/20 20:34:09 revo Exp $">
+<art mrk="$Id: stamp.xml,v 1.30 2022/09/24 10:36:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>stamp</rad>/i <fnt><bib>PV</bib></fnt>
@@ -57,7 +57,7 @@
         <trd>&c_sh;&c_t;&c_a;&c_m;&c_p;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
         <trd>&c_ch;&c_a;&c_k;&c_a;&c_n;&c_ib;&c_c;&c_mol; &c_m;&c_a;&c_n;&c_e;&c_t;&c_u;</trd>
       </trdgrp>
-      <trd lng="de">pr&auml;gen</trd>
+      <trd lng="de"><ofc>*</ofc>pr&auml;gen</trd>
       <trdgrp lng="hu">
         <trd>ver<klr tip="amb"> (p&eacute;nzt)</klr></trd>,
         <trd>dombor&iacute;t</trd>
@@ -93,7 +93,8 @@
         </ekz>
         <ekz>
           <uzo tip="stl">FIG</uzo>
-          la tempo tiamaniere <tld/>is <klr>(kp <ref cel="gravur.0i.FIG">gravuri<sncref/></ref>)</klr>
+          la tempo tiamaniere <tld/>is <klr>(kp <ref
+          cel="gravur.0i.FIG">gravuri<sncref/></ref>)</klr>
           sur &ccirc;iu fenestrovitro sian bildon
           <fnt>
             <bib>Fab1</bib>
@@ -102,7 +103,8 @@
         </ekz>
         <ekz>
           <uzo tip="stl">FIG</uzo>
-          mi <tld/>os <klr>(<ref cel="mark.0i.iu">markos</ref>)</klr> la floron per mia signo! diris la limako
+          mi <tld/>os <klr>(<ref cel="mark.0i.iu">markos</ref>)</klr> la floron per mia signo! diris
+          la limako
           <fnt>
             <bib>Fab3</bib>
             <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
@@ -113,14 +115,16 @@
         <ref cel="pres.0i">presi</ref>
       </refgrp>
       <trd lng="be">&c_sh;&c_t;&c_a;&c_m;&c_p;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-      <trd lng="de">stempeln</trd>
+      <trd lng="de"><ofc>*</ofc>stempeln</trd>
       <trdgrp lng="hu">
         <trd>b&eacute;lyegez</trd>,
         <trd>leb&eacute;lyegez</trd>
       </trdgrp>
+      <trd lng="pl"><ofc>*</ofc>stemplowa&cacute;</trd>
       <trdgrp lng="ru">
         <trd>&c_sh;&c_t;&c_a;&c_m;&c_p;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_sh;&c_t;&c_je;&c_m;&c_p;&c_je;&c_l;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
+        <trd>&c_sh;&c_t;&c_je;&c_m;&c_p;&c_je;&c_l;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd><ofc>*</ofc>&c_k;&c_l;&c_a;&c_s;&c_t;&c_mol; <ind>&c_sh;&c_t;&c_je;&c_m;&c_p;&c_je;&c_l;&c_mol;</ind></trd>
       </trdgrp>
     </subsnc>
   </snc>
@@ -216,7 +220,10 @@
     <trd>razit mince</trd>,
     <trd>raz&iacute;tkovat</trd>
   </trdgrp>
-  <trd lng="en">stamp</trd>
+  <trdgrp lng="en">
+    <trd><ofc>*</ofc>stamp</trd>,
+    <trd><ofc>*</ofc>mark</trd>
+  </trdgrp>
   <trd lng="es">acu&ntilde;ar</trd>
   <trdgrp lng="fr">
     <trd>affranchir</trd>,
@@ -243,7 +250,8 @@
   <snc mrk="stamp.0o.presajxo">
     <uzo tip="fak">TIP</uzo>
     <dif>
-      Oficiala identiga <ref tip="super" cel="mark.0o.signo">marko</ref>, farita sur dokumento, monero kc 
+      Oficiala identiga <ref tip="super" cel="mark.0o.signo">marko</ref>, farita sur dokumento,
+      monero kc 
       per <tld/>ilo:
       <ekz>
         nobeleco <klr>[&#8230;]</klr> estas la ora monero, kiu portas sian valoron en sia
@@ -362,7 +370,9 @@
   <trdgrp lng="fr">
     <trd>cachet<klr> (estampage)</klr></trd>,
     <trd>flamme postale</trd>,
-    <trd>tampon<klr> (trace)</klr></trd>
+    <trd>tampon<klr> (trace)</klr></trd>,
+    <trd><ofc>*</ofc>estampille</trd>, 
+    <trd><ofc>*</ofc>timbre</trd>
   </trdgrp>
   <trd lng="hu">b&eacute;lyeg<klr tip="amb"> (&aacute;tv. is)</klr></trd>
   <trdgrp lng="sk">
@@ -527,6 +537,9 @@
 </art>
 <!--
 $Log$
+versio 1.30 2022/09/24 10:36:23
+Wolfram Diestel: +trd-oj *
+
 versio 1.29 2022/09/20 20:34:09
 Wolfram Diestel: +ekz-oj, ref-oj, trd de; ~i unue, ~i FIG: dif-vortigo
 
@@ -546,8 +559,5 @@ Revision 1.21  2017/11/01 21:10:14  revo
 Jeromo Vasxe: + ~ilo
 
 Revision 1.20  2015/07/04 08:37:44  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.19  2015/06/29 16:33:24  revo
 -->
 </vortaro>
