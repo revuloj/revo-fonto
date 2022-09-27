@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: minimu.xml,v 1.42 2022/03/23 14:02:26 revo Exp $">
+<art mrk="$Id: minimu.xml,v 1.43 2022/09/27 13:09:24 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>minimum</rad>/o
@@ -27,11 +27,11 @@
     <fnt><bib>MatTerm</bib><lok>p. 18, 20</lok></fnt>
     <dif>
       <klr>(de <ref cel="ar.orda0o">orda aro</ref>
-      <frm am="(bb E,le)">(<g>E</g>,&#x2264;)</frm>)</klr>
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
       Tia elemento <frm am="m">m</frm> en <frm am="bb E"><g>E</g></frm>,
       ke &ccirc;iuj
       aliaj estas pli grandaj ol &gcirc;i
-      (<frm am="m le x">m &#x2264; <k>x</k></frm> por &ccirc;iu ajn
+      (<frm am="m le x">m &#8804; <k>x</k></frm> por &ccirc;iu ajn
       <frm am="x"><k>x</k></frm> en <frm am="bb E"><g>E</g></frm>);
       simb. <frm am="m=min bb E">m = min <g>E</g></frm>:
       <ekz>
@@ -75,7 +75,7 @@
   <trd lng="hu">minimum</trd>
   <trd lng="pt">m&iacute;nimo</trd>
   <trd lng="ru">&c_m;&c_i;&c_n;&c_i;&c_m;&c_u;&c_m;</trd>
-  <trd lng="uk">&#x43C;&#x456;&#x43D;&#x456;&#x43C;&#x443;&#x43C;</trd>
+  <trd lng="uk">&#x43C;&c_ib;&#x43D;&c_ib;&#x43C;&c_u;&#x43C;</trd>
 </drv>
 
 <drv mrk="minimu.0a">
@@ -120,7 +120,7 @@
     <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(p.p. elemento de <ref cel="ar.orda0o">orda aro</ref>
-      <frm am="(bb E,le)">(<g>E</g>,&#x2264;)</frm>)</klr>
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
       Tia, ke ne ekzistas elemento de <frm am="bb E"><g>E</g></frm>
       strikte
       pli malgranda ol &gcirc;i:
@@ -140,11 +140,11 @@
     <trd lng="ru">&c_m;&c_i;&c_n;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind"> (&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</klr></trd>
   </snc>
   <trd lng="af">minste</trd>
-  <trd lng="am">&#x1262;&#x12EB;&#x1295;&#x1235;</trd>
+  <trd lng="am">&#4706;&#x12EB;&#4757;&#4661;</trd>
   <trd lng="ar">&a_A;&a_l;&a_A_hamza_sure;&a_q;&a_l;</trd>
   <trd lng="az">az</trd>  
   <trd lng="be">&c_m;&c_ib;&c_n;&c_ib;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
-  <trd lng="bn">&#x985;&#x9A8;&#x9CD;&#x9A4;&#x9A4;</trd>
+  <trd lng="bn">&#2437;&#x9A8;&#x9CD;&#x9A4;&#x9A4;</trd>
   <trd lng="bs">najmanje</trd>
   <trdgrp lng="cs">
     <trd>minim&aacute;ln&iacute;</trd>,
@@ -156,7 +156,7 @@
     <trd>legkevesebb</trd>,
     <trd>legkisebb</trd>
   </trdgrp>
-  <trd lng="hy">&#x576;&#x57E;&#x561;&#x566;&#x561;&#x563;&#x578;&#x582;&#x575;&#x576;&#x568;</trd>
+  <trd lng="hy">&#1398;&#x57E;&#1377;&#1382;&#1377;&#1379;&#1400;&#1410;&#1397;&#1398;&#1384;</trd>
   <trd lng="ru">&c_m;&c_i;&c_n;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>minim&aacute;lny</trd>,
@@ -164,7 +164,7 @@
   </trdgrp>
   <trd lng="sq">m&euml; pak</trd>
   <trd lng="tl">hindi bababa sa</trd>
-  <trd lng="uk">&#x43C;&#x456;&#x43D;&#x456;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&#x43C;&c_ib;&#x43D;&c_ib;&#x43C;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="minimu.0ejo">
@@ -174,6 +174,7 @@
   <snc>
     <ref tip="dif" cel="minimu.0iganto"><tld/>iganto.</ref>
   </snc>
+  <trd lng="be">&c_p;&c_u;&c_n;&c_k;&c_t; <ind>&c_m;&c_ib;&c_n;&c_ib;&c_m;&c_u;&c_m;&c_u;</ind></trd>
   <trd lng="cs">minimum <klr>(na k&rcaron;ivce| na grafu)</klr></trd>
   <trd lng="en">point of minimum</trd>
   <trd lng="hu">minimaliz&aacute;l&oacute;</trd>
@@ -243,6 +244,9 @@
 </art>
 <!--
 $Log$
+versio 1.43 2022/09/27 13:09:24
+Dmitri Gabinski: + trd be
+
 versio 1.41 2021/12/28 08:37:20
 Dmitri Gabinski: kor de trd be
 
@@ -262,8 +266,5 @@ Revision 1.33  2009/04/17 19:47:34  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.32  2009/03/25 17:30:38  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.31  2009/03/05 17:30:34  revo
 -->
 </vortaro>
