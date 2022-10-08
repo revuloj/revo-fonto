@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: eks.xml,v 1.35 2022/10/08 04:08:53 revo Exp $">
+<art mrk="$Id: eks.xml,v 1.36 2022/10/08 04:58:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>eks</rad>- <fnt><bib>PV</bib></fnt>
@@ -249,7 +249,10 @@
       <refgrp tip="vid">
         <ref cel="etat.0o.personaro">etato</ref>
       </refgrp>
-      <trd lng="ru">&c_u;&c_v;&c_o;&c_l;&c_i;&c_t;&c_mol; &c_v; &c_o;&c_t;&c_s;&c_t;&c_a;&c_v;&c_k;&c_u;</trd>
+      <trdgrp lng="ru">
+        <trd>&c_u;&c_v;&c_o;&c_l;&c_i;&c_t;&c_mol; &c_v; &c_o;&c_t;&c_s;&c_t;&c_a;&c_v;&c_k;&c_u;</trd>,
+        <trd>&c_i;&c_s;&c_k;&c_l;&c_ch;&c_i;&c_t;&c_mol;<klr> (&c_i;&c_z; &c_o;&c_r;&c_g;&c_a;&c_n;&c_i;&c_z;&c_a;&c_c;&c_i;&c_i;)</klr></trd>
+      </trdgrp>
     </snc>
     <snc mrk="eks.0igi.POL">
       <uzo tip="fak">POL</uzo>
@@ -354,6 +357,7 @@
       </trdgrp>
     <trd lng="sk">vyl&uacute;&ccaron;i&tcaron; zo spolo&ccaron;enstva</trd>
   </drv>
+
   <drv mrk="eks.0igo">
     <kap><tld/>igo</kap>
     <snc mrk="eks.0igo.KOMUNE">
@@ -366,10 +370,7 @@
         </ekz><ekz>
           mi ricevis <tld/>igon kaj krom &gcirc;i nur panbulon kaj kvar
           gro&scirc;ojn
-          <fnt>
-            <bib>ElektFab</bib>
-            <lok>Kamarado Gaja</lok>
-          </fnt>.
+          <fnt><bib>ElektFab</bib> <lok>Kamarado Gaja</lok></fnt>.
         </ekz>
       </dif>
       <trdgrp lng="be">
@@ -390,8 +391,8 @@
     <snc mrk="eks.0igo.POL">
       <uzo tip="fak">POL</uzo>
       <dif>
-        La ago <ref cel="eks.0igi"><tld/>igi</ref> kolektivan <ref
-        cel="organ.0o.POL">organon<sncref/></ref>:
+        La ago <ref cel="eks.0igi.POL"><tld/>igi<sncref/></ref>
+        kolektivan <ref cel="organ.0o.POL">organon<sncref/></ref>:
         <ekz>
           la oficiala letero de la Varsovia &Ccirc;efurba Oficejo, per kiu
           almena&ubreve; morale nuligi&gcirc;as la decido de 17 okt 1985 pri
@@ -569,6 +570,9 @@
 </art>
 <!--
 $Log$
+versio 1.36 2022/10/08 04:58:22
+Sergio Pokrovskij: TEZ
+
 versio 1.35 2022/10/08 04:08:53
 Sergio Pokrovskij: +0i.POL, +0igo.POL, TEZ
 
@@ -588,8 +592,5 @@ Revision 1.28  2017/03/25 09:10:13  revo
 Wolfram Diestel: kompletigis ekz-ojn
 
 Revision 1.27  2016/07/10 10:10:14  revo
-Carlos Garcia: krktd es -igi -igxi +trd es -igi -igxi -igo -igxo
-
-Revision 1.26  2016/06/27 12:10:23  revo
 -->
 </vortaro>
