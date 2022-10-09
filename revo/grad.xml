@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: grad.xml,v 1.123 2022/05/15 09:29:41 revo Exp $">
+<art mrk="$Id: grad.xml,v 1.124 2022/10/09 20:37:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>grad</rad>/o <fnt><bib>PV</bib></fnt>
@@ -95,7 +95,11 @@
       <ref cel="nuanc.0o">nuanco</ref>
     </refgrp>
     <trd lng="be">&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_mol;</trd>
-    <trd lng="de">Stufe</trd>
+    <trdgrp lng="de">
+      <trd>Umfang</trd>,
+      <trd>Stufe</trd>,
+      <trd>Intensit&auml;t</trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>grado</trd>,
       <trd>proporci&oacute;n</trd>,
@@ -112,7 +116,8 @@
   </snc>
   <snc mrk="grad.0o.sxtupo">
     <dif>
-      <ref tip="super" cel="sxtup.0o.FIG">&Scirc;tupo</ref> de <ref tip="malprt" cel="hierar.0o">hierar&hcirc;io</ref>, 
+      <ref tip="super" cel="sxtup.0o.FIG">&Scirc;tupo</ref> de <ref tip="malprt"
+      cel="hierar.0o">hierar&hcirc;io</ref>, 
       <ref tip="sin" cel="rang.0o.hierarkia">rango</ref>:
       <ekz>
         tiuj, kiuj bone servadis kiel diakonoj, akiras al si bonan <tld/>on kaj grandan
@@ -167,7 +172,10 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="distin.0o.pro_merito">distingo<sncref/></ref>
-  <trd lng="de">Stufe</trd>
+    <trdgrp lng="de">
+      <trd>Stufe</trd>,
+      <trd>Rang</trd>
+    </trdgrp>
   </snc>
   <snc mrk="grad.0o.SCI">
     <dif>
@@ -198,6 +206,7 @@
       <trd>nivel</trd>,
       <trd>rango</trd>
     </trdgrp>
+    <trd lng="de">Grad<klr> (Celsius, Fahrenheit, Reaumur)</klr></trd>
     <trd lng="hu">fok</trd>
     <trd lng="pl">stopie&nacute;</trd>
     <trdgrp lng="ru">
@@ -221,6 +230,9 @@
           <ref cel="radian.0o">radianoj</ref>.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Winkelgrad</trd>
+      </trdgrp>
       <trdgrp lng="ru">
         <trd>&c_g;&c_r;&c_a;&c_d;&c_u;&c_s;<klr tip="ind">
         (&c_u;&c_g;&c_l;&c_a;)</klr></trd>
@@ -321,7 +333,7 @@
   <trd lng="hy">&#1377;&#1405;&#1407;&#1387;&#1395;&#1377;&#1398;</trd>
   <trd lng="id">derajat</trd>
   <trd lng="ig">n&#8217;&oacute;k&egrave;</trd>
-  <trd lng="is">gr&aacute;ðu</trd>
+  <trd lng="is">gr&aacute;&#240;u</trd>
   <trd lng="ja">&#24230;</trd>
   <trd lng="jv">sarjana</trd>
   <trd lng="ka">&#4334;&#4304;&#4320;&#4312;&#4321;&#4334;&#4312;</trd>
@@ -334,7 +346,7 @@
   <trd lng="lat">gradum</trd>
   <trd lng="lo">&#3749;&#3760;&#3732;&#3761;&#3738;</trd>
   <trd lng="lt">laipsnis</trd>
-  <trd lng="lv">pak&amacron;pe</trd>
+  <trd lng="lv">pak&#5585;pe</trd>
   <trd lng="mg">diplaoma</trd>
   <trd lng="mi">tohu</trd>
   <trd lng="mk">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;</trd>
@@ -359,7 +371,7 @@
   <trd lng="si">&#3467;&#3508;&#3535;&#3504;&#3538;&#3514;</trd>
   <trd lng="sk">stupe&ncaron;</trd>
   <trd lng="sl">stopnja</trd>
-  <trd lng="sm">tiker&#299;</trd>
+  <trd lng="sm">tiker&imacron;</trd>
   <trd lng="sn">dhigirii</trd>
   <trd lng="sq">shkall&euml;</trd>
   <trd lng="st">tekanyo e</trd>
@@ -904,8 +916,11 @@
 </art>
 <!--
 $Log$
+versio 1.124 2022/10/09 20:37:37
+Ulrich Fellmann: grado: + 6 DE trdj
+
 versio 1.123 2022/05/15 09:29:41
-Wolfram Diestel: ~a..sufiĉa~e: ekz-oj, ref-oj, trd de
+Wolfram Diestel: ~a..sufi&ccirc;a~e: ekz-oj, ref-oj, trd de
 
 versio 1.122 2022/05/15 08:34:02
 Wolfram Diestel: ~o: apartigis snc "&scirc;tupo"; ~o, ~aro: ekz-oj, ref-oj, trd de
@@ -923,8 +938,5 @@ versio 1.44 2020/02/14 17:10:31
 Wolfram Diestel: formuloj per am
 
 Revision 1.43  2015/07/04 08:37:35  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.42  2015/06/29 16:29:39  revo
 -->
 </vortaro>
