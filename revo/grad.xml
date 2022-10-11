@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: grad.xml,v 1.124 2022/10/09 20:37:37 revo Exp $">
+<art mrk="$Id: grad.xml,v 1.125 2022/10/11 21:36:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>grad</rad>/o <fnt><bib>PV</bib></fnt>
@@ -96,6 +96,7 @@
     </refgrp>
     <trd lng="be">&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_mol;</trd>
     <trdgrp lng="de">
+      <trd>Grad<klr> [m]</klr></trd>,
       <trd>Umfang</trd>,
       <trd>Stufe</trd>,
       <trd>Intensit&auml;t</trd>
@@ -206,7 +207,7 @@
       <trd>nivel</trd>,
       <trd>rango</trd>
     </trdgrp>
-    <trd lng="de">Grad<klr> (Celsius, Fahrenheit, Reaumur)</klr></trd>
+    <trd lng="de">Grad<klr>[n] (Celsius, Fahrenheit, Reaumur)</klr></trd>
     <trd lng="hu">fok</trd>
     <trd lng="pl">stopie&nacute;</trd>
     <trdgrp lng="ru">
@@ -250,6 +251,9 @@
           polinomo estas <frm>0</frm>.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Grad <klr> [n] (eines Polynoms)</klr></trd>
+      </trdgrp>
     </subsnc>
     <subsnc mrk="grad.0o.ekvacio">
       <fnt><bib>MatStokTerm</bib><lok>p. 18</lok></fnt>
@@ -258,6 +262,9 @@
         La <tld/>o <sncref ref="grad.0o.polinomo"/> de la polinomo
         &gcirc;in difinanta.
       </dif>
+      <trdgrp lng="de">
+        <trd>Grad <klr> [n] (einer Gleichung)</klr></trd>
+      </trdgrp>
     </subsnc>
     <subsnc mrk="grad.0o.superkorpo">
       <fnt><bib>EKV</bib><lok>&para;342</lok></fnt>
@@ -300,6 +307,11 @@
         <ref cel="grad.eliraduon0o">elira duon<tld/>o</ref>,
         <ref cel="grad.eniraduon0o">enira duon<tld/>o</ref>.
       </refgrp>
+      <trdgrp lng="de">
+        <trd>Grad</trd>,
+        <trd>Knotengrad</trd>,
+        <trd>Valenz</trd>
+      </trdgrp>
     </subsnc>
     <trd lng="be">&c_g;&c_r;&c_a;&c_d;&c_u;&c_s;</trd>
     <trd lng="en">degree</trd>
@@ -317,7 +329,6 @@
   <trd lng="cs">stupe&ncaron;</trd>
   <trd lng="cy">gradd</trd>
   <trd lng="da">grad</trd>
-  <trd lng="de">Grad</trd>
   <trd lng="et">aste</trd>
   <trd lng="eu">maila</trd>
   <trd lng="fr">degr&eacute;</trd>
@@ -371,7 +382,7 @@
   <trd lng="si">&#3467;&#3508;&#3535;&#3504;&#3538;&#3514;</trd>
   <trd lng="sk">stupe&ncaron;</trd>
   <trd lng="sl">stopnja</trd>
-  <trd lng="sm">tiker&imacron;</trd>
+  <trd lng="sm">tiker&#5627;</trd>
   <trd lng="sn">dhigirii</trd>
   <trd lng="sq">shkall&euml;</trd>
   <trd lng="st">tekanyo e</trd>
@@ -916,6 +927,9 @@
 </art>
 <!--
 $Log$
+versio 1.125 2022/10/11 21:36:35
+Ulrich Fellmann: grado: - 1 DE trd, + 7 DE trdj
+
 versio 1.124 2022/10/09 20:37:37
 Ulrich Fellmann: grado: + 6 DE trdj
 
@@ -935,8 +949,5 @@ versio 1.118 2021/11/15 08:36:07
 Dmitri Gabinski: + trd be
 
 versio 1.44 2020/02/14 17:10:31
-Wolfram Diestel: formuloj per am
-
-Revision 1.43  2015/07/04 08:37:35  revo
 -->
 </vortaro>
