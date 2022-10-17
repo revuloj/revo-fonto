@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: oportu.xml,v 1.26 2022/10/16 20:35:46 revo Exp $">
+<art mrk="$Id: oportu.xml,v 1.27 2022/10/17 07:06:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>oportun</rad>/a <fnt><bib>PV</bib></fnt>
@@ -70,7 +70,8 @@
     <trd lng="ca">c&ograve;mode</trd>
     <trdgrp lng="de">
       <trd>zweckm&auml;&szlig;ig</trd>,
-      <trd>n&uuml;tzlich</trd>
+      <trd>n&uuml;tzlich</trd>,
+      <trd>annehmlich</trd>
     </trdgrp>
     <trd lng="hu">k&eacute;nyelmes</trd>
     <trd lng="oc">aisit</trd>
@@ -123,7 +124,8 @@
     </refgrp>
     <trdgrp lng="de">
       <trd>angemessen</trd>,
-      <trd>angebracht</trd>
+      <trd>angebracht</trd>,
+      <trd>g&uuml;nstig</trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>alkalmas</trd>,
@@ -151,14 +153,12 @@
     <trd>&c_z;&c_d;&c_a;&c_t;&c_n;&c_y;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_d;&c_a;&c_t;&c_n;&c_y;</trd>
   </trdgrp>
-  <trd lng="cs">vhodn&yacute;</trd>
-  <trdgrp lng="de">
-    <trd>opportun</trd>,
-    <trd>g&uuml;nstig</trd>,
-    <trd>zweckm&auml;&szlig;ig</trd>,
-    <trd>n&uuml;tzlich</trd>,
-    <trd>angebracht</trd>
+  <trdgrp lng="cs">
+    <trd>oportunn&iacute;</trd>,
+    <trd>pohodln&yacute;</trd>,
+    <trd>vhodn&yacute;</trd>
   </trdgrp>
+  <trd lng="de">opportun</trd>
   <trdgrp lng="es">
       <trd>pr&aacute;ctico</trd>,
       <trd>&uacute;til</trd>
@@ -195,14 +195,6 @@
     <trd>upotrebite&lcaron;n&yacute;</trd>,
     <trd>vhodn&yacute;</trd>,
     <trd>v&yacute;hodn&yacute;</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>oportunn&iacute;</trd>,
-    <trd>pohodln&yacute;</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>opportun</trd>,
-    <trd>g&uuml;nstig</trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_z;&c_r;&c_u;&c_ch;&c_n;&c_i;&c_j;</trd>,
@@ -283,7 +275,10 @@
       <trd>&c_d;&c_a;&c_r;&c_e;&c_ch;&c_y;</trd>,
       <trd>&c_d;&c_a; &c_m;&c_je;&c_s;&c_c;&c_a;</trd>
     </trdgrp>
-    <trd lng="de">angemessen</trd>
+    <trdgrp lng="de">
+      <trd>angemessen</trd>,
+      <trd>annehmlich</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>megfelel&odblac;en</trd>,
       <trd>c&eacute;lir&aacute;nyosan</trd>
@@ -361,12 +356,15 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="okaz.0o.bonsxanco">okazo<sncref/></ref>
+    <refgrp tip="sin">
+      <ref cel="okaz.0o.bonsxanco">okazo<sncref/></ref>,
+      <ref cel="sxanc.0o">&scirc;anco</ref>
+    </refgrp>
     <refgrp tip="vid">
-      <ref cel="sxanc.bon0o">bon&scirc;anco</ref>,
+      <ref cel="komfor.0o">komforto</ref>,
       <ref cel="konven1.0o.gxenerale">konvencio<sncref/></ref>,
       <ref cel="konven.0eco">konveneco</ref>,
-      <ref cel="kutim.0o.MOR">kutimo</ref>,
+      <ref cel="kutim.0o.MOR">kutimo</ref>
     </refgrp>
   </snc>
   <trdgrp lng="cs">
@@ -409,11 +407,44 @@
     <dif>
       Faciliga a&jcirc;o a&ubreve; flanko de situacio:
       <ekz>
-        Li sen&ccirc;ese inventas diversajn <tld/>a&jcirc;ojn por
-        faciligi al si la vivon.
+        posta &ccirc;ambreto <klr>[&#8230;]</klr> ornamita kaj provizita je &ccirc;iuspecaj <tld/>a&jcirc;oj,
+        kiujn amaj koroj povis proponi
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj konsideroj jam sufi&ccirc;e plipezas &ccirc;iujn favorajn <tld/>a&jcirc;ojn, kiuj sin povus
+        prezenti hodia&ubreve;
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        krom tiuj &ccirc;i naturaj vortfaraj <tld/>a&jcirc;oj, kiujn la lingvo Esperanto havas, vi
+        trovos en &gcirc;i ankora&ubreve; apartajn <klr>[&#8230;]</klr> rimedojn, kiuj enkondukas
+        grandegan ekonomion &ccirc;e la lernado de la vortoj
+        <fnt>
+          <bib>EE</bib>
+          <lok>V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &Ccirc;inio nepre disponigu grandegajn monsumojn al instruado, publika higieno,
+        <klr>[&#8230;]</klr> konstruado de bazaj <tld/>a&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="https://www.monato.be/2006/009055.php"
+              >Pezaj enlandaj &scirc;ar&gcirc;oj por la registaro</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Annehmlichkeit</trd>
   <trdgrp lng="fr">
     <trd>circonstance favorable</trd>,
     <trd>facilit&eacute;<klr tip="amb"> (offerte)</klr></trd>
@@ -439,26 +470,51 @@
   <dif>
     Karaktero de io <tld/>a.
   </dif>
-  <snc mrk="oportu.0eco.konveneco">
+  <snc ref="oportu.0a.konvena" mrk="oportu.0eco.konveneco">
     <ekz>
-      La <tld/>eco de tiaj mebloj estas pli ol duba;
+      por <tld/>eco de la vizitantoj, la verando estas disigita en apartaj kabinetoj
+      <fnt>
+        <bib>Metrop</bib>
+      </fnt>;
     </ekz>
     <ekz>
-      ricevinte de vi leteron kaj kompreninte &gcirc;in, kvankam
+      ricevinte de vi leteron <klr>[&#8230;]</klr> kaj kompreninte &gcirc;in, kvankam
       li la lingvon ne lernis, via adresito vidos praktike la <tld/>econ
-      de
-      la lingvo<fnt>Z</fnt>.
+      de l' lingvo
+        <fnt>
+          <bib>DL</bib>
+          <lok>Dua Libro de l' Lingvo Internacia</lok>
+        </fnt>;
+    </ekz>
+    <ekz>
+      la homoj vidas en la Esperantismo ne sole aferon de egoisma <tld/>eco, sed
+      gravan ideon
+      <fnt>
+        <bib>Paroloj</bib>
+        <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
+      </fnt>.
     </ekz>
     <trd lng="hu">k&eacute;nyelmess&eacute;g</trd>
     <trd lng="ru">&c_u;&c_d;&c_o;&c_b;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
-  <snc mrk="oportu.0eco.trafeco">
+  <snc ref="oportu.0a.trafa" mrk="oportu.0eco.trafeco">
     <ekz>
-      Mi ne vidas la <tld/>econ de tiu klopodo, se vi estas certa
+      mi ne vidas la <tld/>econ de tiu klopodo, se vi estas certa
       malsukcesi;
     </ekz>
     <ekz>
-      pro<tld/>eca<fnt>Z</fnt>, por<tld/>eca<fnt>Z</fnt> cedo.
+      pro<tld/>eca cedo 
+      <fnt>
+        <bib>Homaranismo</bib>
+        <vrk>Homaranismo</vrk>
+      </fnt>;
+    </ekz>
+    <ekz>
+      la temo de la kongreso <klr>[estis]</klr> &leftquot;lingvo, kulturo kaj oportunecoj&rightquot;
+      <fnt>
+        <bib>LOdE</bib>
+        <lok>2002, &#8470; 10</lok>
+      </fnt>.
     </ekz>
     <trdgrp lng="hu">
       <trd>alkalmass&aacute;g</trd>,
@@ -494,10 +550,52 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       Politika a&ubreve; ordinara sinteno, la&ubreve; kiu oni devas atenti la
-      cirkonstancajn <tld/>a&jcirc;ojn pli ol la principojn.
+      cirkonstancajn <tld/>a&jcirc;ojn pli ol la principojn:
+      <ekz>
+        nomante la gvidantaron de SAT <tld/>isma, nemarksisma, kontra&ubreve;soveta kaj
+        etbur&gcirc;a, la sovetaj SAT-anoj kaj iliaj samideanoj alilandaj trovi&gcirc;is sub la
+        premo de la decidoj de Komintern
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro <tld/>ismo la popolo finfine decidis tiel vo&ccirc;doni, subtenante la flankon,
+        kiu aperas pli forta
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="https://www.monato.be/2003/008112.html"
+              >Jes al E&ubreve;ropo sed &ccirc;u &scirc;anco perdita?</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekzistas ne nur oportunismo, sed anka&ubreve; &leftquot;politika toleremo&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Wolfgang Guenther</aut>
+          <vrk><url ref="https://www.monato.be/2008/009537.php"
+              >&Ccirc;u bojkoto? (12)</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        registaro aganta tiel ne povas eviti ripro&ccirc;on de <tld/>ismo, se subite ne plu
+        validas la anta&ubreve;aj argumentoj pri protektado de sano
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2009/009750.php"
+              >Kaspreto-teatro</url></vrk>
+          <lok>2009</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="pragma.0ismo.FIL">pragmatismo</ref>
+      <ref cel="pragma.0ismo.FIL">pragmatismo</ref>,
+      <ref cel="util.0ismo">utilismo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_p;&c_a;&c_r;&c_t;&c_u;&c_n;&c_ib;&c_z;&c_m;</trd>
@@ -522,6 +620,17 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       <tld lit="O"/>ismano:
+      <ekz>
+        j anglaj verkistoj kredas, ke Napoleono debutis kiel senprincipa <tld/>isto, kaj
+        post &ccirc;io estis paranoja megalomaniulo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>W. H. Simcock</aut>
+          <vrk><url ref="https://www.monato.be/2003/008033.html"
+              >Esti homa kaj literaturema</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <nom>K&uuml;nzli</nom> fakte prezentas min kiel senhontan <tld/>iston
         <fnt>
@@ -650,6 +759,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Unannehmlichkeit</trd>
   <trdgrp lng="fr">
     <trd>embarras</trd>,
     <trd>inconv&eacute;nient</trd>
@@ -690,6 +800,12 @@
     <trd>obt&ecaron;&zcaron;ovat</trd>,
     <trd>p&rcaron;ek&aacute;&zcaron;et</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>unangemessen</trd>,
+    <trd>unzweckm&auml;&szlig;ig</trd>,
+    <trd>unannehmlich</trd>,
+    <trd>unangebracht</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>encombrer</trd>,
     <trd>importuner</trd>
@@ -721,6 +837,9 @@
 </art>
 <!--
 $Log$
+versio 1.27 2022/10/17 07:06:21
+Wolfram Diestel: ~aĵo..~isto: +ekz-oj, ref, trd de
+
 versio 1.26 2022/10/16 20:35:46
 Wolfram Diestel: ~a..~o: +ekz-oj, ref-oj, trd de
 
@@ -740,8 +859,5 @@ Revision 1.19  2013/06/30 13:10:10  revo
 Benito Subejrano: + trd ca oc
 
 Revision 1.18  2010/03/27 17:30:24  revo
-Jeromo Vasxe: + kk mrk + 1 ekz
-
-Revision 1.17  2006/07/11 16:31:16  revo
 -->
 </vortaro>
