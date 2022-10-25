@@ -1,39 +1,100 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nomina.xml,v 1.22 2022/03/24 10:41:40 revo Exp $">
+<art mrk="$Id: nomina.xml,v 1.23 2022/10/25 18:07:39 revo Exp $">
 <kap>
    <ofc>3</ofc>
    <rad>nominal</rad>/a
 </kap>
 <drv mrk="nomina.0a">
-   <kap><tld/>a</kap>
-   <snc mrk="nomina.0a.KOMUNE">
-     <dif>
-       Noma, posedanta nur la nomon, ne la efektivan povon kaj rajton:
-       <ekz>
-         <tld/>a &ccirc;efo.
+ <kap><tld/>a</kap>
+ <snc mrk="nomina.0a.KOMUNE">
+   <dif>
+     Noma, posedanta nur la nomon, ne la efektivan povon kaj rajton:
+    <ekz>
+      &ccirc;efa celo de amba&ubreve; partioj estas fortordi la absolutan &ndash; almena&ubreve; <tld/>e
+      absolutan &ndash; povon for de la re&gcirc;o
+      <fnt>
+        <bib>I&scirc;tar</bib>
+        <lok>&Ccirc;apitro XII</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      virgulinoj, sin dedi&ccirc;inte al dumviva servo al <nom>I&scirc;tar</nom>, kelkafoje fari&gcirc;is <tld/>aj
+      edzinoj de nobeloj
+      <fnt>
+        <bib>I&scirc;tar</bib>
+        <lok>&Ccirc;apitro XI</lok>
+      </fnt>.
+    </ekz>
+   </dif>
+   <trdgrp lng="de">
+      <trd>nominell</trd>,
+      <trd><klr>dem </klr>Namen <ind>nach</ind></trd>
+   </trdgrp>
+  </snc>
+  <snc mrk="nomina.0a.EKON">
+    <dif>
+      Indikanta la deklaritan valoron de io kontraste al la efektiva:
+      <ekz>
+       a&gcirc;io estas la diferenco inter la <tld/>a kaj la efektiva
+       la&ubreve;kurza valoro;
+      </ekz>
+      <ekz>
+        kvankam la <tld/>a avera&gcirc;a salajro lastan jaron kreskis je 2,2 %, la reala
+        salajro, kiu enkalkulas inflacion, falis je 1,6 %, &ccirc;ar la prezoj kreskis pli
+        rapide
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2012/010660.php"
+              >Realaj salajroj falis</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu societa parto <tld/>e valoras 100,00 frankojn kaj sufi&ccirc;as a&ccirc;eti unu por esti
+        plenrajta membro
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
        </ekz>
-     </dif>
-     <trdgrp lng="de">
-        <trd>nominell</trd>,
-        <trd><klr>dem </klr>Namen <ind>nach</ind></trd>
-     </trdgrp>
-   </snc>
-   <snc mrk="nomina.0a.EKON">
-     <dif>
-       Indikanta la valoron de io per cifero diferenca je la efektiva
-       valoro:
        <ekz>
-         a&gcirc;io estas la diferenco inter la <tld/>a kaj la efektiva
-         la&ubreve;kurza valoro.
-       </ekz>
-     </dif>
-     <trdgrp lng="de">
-        <trd>Nominal-</trd>,
-        <trd>Nenn-</trd>
-     </trdgrp>
-   </snc>
+        Kroatio jam de kelkaj jaroj estas la&ubreve; <tld/>a sumo de salajroj en la dua loko
+        (post Slovenio) inter la transi&gcirc;antaj landoj, sed pro la altaj vivkostoj la
+        vivnivelo en &Ccirc;e&hcirc;io kaj Hungario estas pli alta, ol en Kroatio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Hin&scaron;t</aut>
+          <vrk><url ref="https://www.monato.be/2007/009212.php"
+              >Kiel oni (trans)vivas en Kroatio</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aperis nova a&ubreve;stra po&scirc;tmarko pri Esperanto-temo en eldonkvanto de 1500
+        ekzempleroj, &gcirc;ia <tld/>a valoro egalas al tiu de enlanda afranko por ordinara
+        letero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2012/010200.php"
+              >Nova Esperanto-po&scirc;tmarko</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Nominal-</trd>,
+      <trd>Nenn-</trd>
+    </trdgrp>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="formal.0a">formala</ref>,
+    <ref cel="oficia.0a">oficiala</ref>,
+    <ref cel="regul.0a.konforma">regula<sncref/></ref>
+  </refgrp>
   <trd lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trdgrp lng="cs">
     <trd>jmenovit&yacute;</trd>,
@@ -54,7 +115,7 @@
     <trd>menovit&aacute;</trd>,
     <trd>nomin&aacute;lna</trd>
   </trdgrp>
-  <trd lng="uk">&#x43D;&#x43E;&#x43C;&#x456;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_n;&c_o;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="nomina.0o">
@@ -114,11 +175,14 @@
   <trd lng="ro">nominalism</trd>
   <trd lng="ru">&c_n;&c_o;&c_m;&c_i;&c_n;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
   <trd lng="sk">nominalizmus</trd>
-  <trd lng="uk">&#x43D;&#x43E;&#x43C;&#x456;&#x43D;&#x430;&#x43B;&#x456;&#x437;&#x43C;</trd>
+  <trd lng="uk">&c_n;&c_o;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2022/10/25 18:07:39
+Wolfram Diestel: ~a: +ekz-oj, ref-oj, plibonigo dif-vortigo
+
 versio 1.21 2021/10/05 21:27:48
 Vito Redsky: +trd pl +trd ro
 
@@ -138,8 +202,5 @@ Revision 1.15  2004/06/24 16:32:21  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.14  2004/02/04 20:09:19  revo
-Emmanuel Debanne: + trd fr
-
-Revision 1.13  2003/09/01 16:31:37  revo
 -->
 </vortaro>
