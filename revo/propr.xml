@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: propr.xml,v 1.105 2022/10/27 20:32:58 revo Exp $">
+<art mrk="$Id: propr.xml,v 1.106 2022/10/28 13:04:56 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>propr</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
@@ -631,12 +631,44 @@
   <kap><tld/>eco</kap>
   <snc mrk="propr.0eco.KOMUNE">
     <dif>
-      Kvalito <tld/>a de objekto:
+      <ref tip="super" cel="kvalit.0o">Kvalito</ref> <tld/>a de objekto:
       <ekz>
-        la <tld/>ecoj de la metaloj, de la magneto.
+        la <tld/>ecoj de la metaloj, de la magneto;
+      </ekz>
+      <ekz>
+        spirite li vidis la gajan Kristoforon kaj la laboreman <nom>Kajsa</nom>n tute klare,
+        <klr>[&#8230;]</klr> iliaj kvalitoj kaj <tld/>ecoj estis tute klaraj al li
+        <fnt>
+          <bib>HsT</bib>
+          <lok>La nepo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pri kristalografio aperis Kristalaj <tld lit="P"/>ecoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la viruso de aidoso havas la specifan <tld/>econ infekti precipe la &ccirc;elojn de la
+        imunsistemo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009427.php"
+              >&Ccirc;u estas homoj rezistaj al aidoso?</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ec.0o">eco</ref>,
+      <ref cel="karakt.0o">karaktero</ref>,
+      <ref cel="trajt.0o">trajto</ref>
+    </refgrp>
     <trd lng="be">&c_u;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    <trd lng="de">Eigenschaft</trd>
     <trd lng="en">peculiarity</trd>
     <trd lng="fr">propri&eacute;t&eacute;</trd>
     <trdgrp lng="hu">
@@ -649,14 +681,31 @@
   <snc mrk="propr.0eco.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Le&gcirc;a, plena kaj <tld/>a posedo de io:
+      Le&gcirc;a, plena kaj <tld/>a <ref tip="super" cel="posed.0o.eblo">posedo</ref> de io:
       <ekz>
         la <tld/>eco estas la rajto &gcirc;ui kaj disponi la aferojn kiel
-        eble
-        plej absolute.
+        eble plej absolute;
+      </ekz>
+      <ekz>
+        li ricevis <klr>[&#8230;]</klr> la proprecon de bieno
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia propra hava&jcirc;o fari&gcirc;is la <tld/>eco de tiu tro amita virino
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekoka</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="propriet.0o">proprieto</ref>
+    </refgrp>
     <trd lng="be">&c_p;&c_r;&c_a;&c_v;&c_a; <ind>&c_w;&c_l;&c_a;&c_s;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_ib;</ind></trd>
+    <trd lng="de">Eigentum</trd>
     <trdgrp lng="en">
       <trd>property</trd>,
       <trd>ownership</trd>
@@ -665,8 +714,7 @@
     <trd lng="hu">tulajdonjog</trd>
     <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_o; <ind>&c_s;&c_o;&c_b;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_i;</ind></trd>
   </snc>
-  <trd lng="cs">vlastnost</trd>
-  
+  <trd lng="cs">vlastnost</trd>  
   <trd lng="es">propiedad</trd>
   <trd lng="nl">eigendom</trd>
   <trd lng="sk">vlastnos&tcaron;</trd>
@@ -934,8 +982,11 @@
 </art>
 <!--
 $Log$
+versio 1.106 2022/10/28 13:04:56
+Wolfram Diestel: ~eco: +ekz-oj, ref-oj, trd de
+
 versio 1.105 2022/10/27 20:32:58
-Wolfram Diestel: ~aĵo: +ekz--oj, ref-oj, trd de
+Wolfram Diestel: ~a&jcirc;o: +ekz-oj, ref-oj, trd de
 
 versio 1.104 2022/10/27 16:48:53
 Wolfram Diestel: ~a: redukto de emfaza uzo de snc al rim kund ekz-oj; +ekz-oj, ref; ~e: +ekz, ref, trd de
@@ -953,8 +1004,5 @@ versio 1.99 2022/01/10 09:33:00
 Sergio Pokrovskij: +~a.konvena
 
 versio 1.98 2021/10/29 21:25:36
-Shep Moore-Berg: +trd en
-
-Revision 1.22  2015/07/04 08:37:42  revo
 -->
 </vortaro>
