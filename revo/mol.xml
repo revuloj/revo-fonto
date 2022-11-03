@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mol.xml,v 1.122 2022/11/03 07:27:50 revo Exp $">
+<art mrk="$Id: mol.xml,v 1.123 2022/11/03 18:42:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mol</rad>/a <fnt><bib>PV</bib></fnt>
@@ -209,6 +209,10 @@
     <refgrp tip="vid">
       <ref cel="velur.0a.FIG">velura<sncref/></ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>sanft</trd>,
+      <trd>gef&uuml;gig</trd>
+    </trdgrp>
     <trd lng="es">suave</trd>
   </snc>
   <snc mrk="mol.0a.FON">
@@ -390,7 +394,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Milde</trd>
+    <trdgrp lng="de">
+      <trd>Milde</trd>,
+      <trd>Sanftheit</trd>
+    </trdgrp>
   </snc>
   <ref tip="hom" cel="mol1.0o">molo (kvanto)</ref>
 </drv>
@@ -416,10 +423,29 @@
           <aut>Okada H., trad. Konisi G.</aut>
           <vrk>Notoj pri la Delto</vrk>
           <lok>1992</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a&ccirc;aj manoj, kurioze gantitaj
+        <fnt>
+          <bib>Sol</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tero estis <tld/>a&ccirc;a kaj glita pro falintaj folioj
+        <fnt>
+          <bib>StU</bib>
+          <lok>Britujo</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>matschig</trd>,
+    <trd>breiig</trd>,
+    <trd>schwammig</trd>,
+    <trd>weichlich</trd>
+  </trdgrp>
   <trd lng="fr">mollasson</trd>
   <trdgrp lng="uk">
     <trd>&c_m;&c_l;&c_ja;&c_v;&c_i;&c_j;</trd>,
@@ -434,11 +460,49 @@
     <dif>
       Io <tld/>a a&ubreve; <tld/>a parto de io:
       <ekz>
-        la <ind><tld/>a&jcirc;o de pano</ind><fnt>B</fnt>,
+        la <ind><tld/>a&jcirc;o de pano</ind>
+        <fnt>
+          <aut>Kazimierz Bein (Kabe)</aut>
+          <vrk><url ref="https://dlibra.kul.pl/dlibra/publication/51791/edition/46340"
+              >Vortaro de Esperanto, 1911</url></vrk>
+        </fnt>;
+        <trd lng="de">Krume</trd>
         <trd lng="ru">&c_m;&c_ja;&c_k;&c_i;&c_sh;</trd>       
       </ekz>
       <ekz>
-        <ind><tld/>a&jcirc;o de frukto</ind> <fnt><bib>PV</bib></fnt>.
+        lanug&#8217;-<tld/>a&jcirc;o
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro XI.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kapo, premegita de pezega rokpeco <klr>[&#8230;]</klr> aliformigita en duberu&gcirc;an
+        <tld/>a&jcirc;on
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fali en <tld/>a&jcirc;on de fotelo <klr>[&#8230;]</klr> forgesante &ccirc;ion
+        <fnt>
+          <bib>KrM</bib>
+          <lok>24. Per Flugiloj De Facila Vento.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        maldensa vaporo ku&scirc;as kvaza&ubreve; ia <tld/>a&jcirc;o sur la suna akvovasto
+        <fnt>
+          <bib>ViV</bib>
+          <lok>IV.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>a&jcirc;o de frukto</ind>
+        <klr>(vd <ref tip="sin" cel="karn.0o.BOT">karno<sncref/></ref>)</klr>
+        <fnt><bib>PV</bib></fnt>.
+        <trd lng="de">Fruchtfleisch</trd>
         <trd lng="en">pulp</trd>
         <trd lng="pl">mi&aogonek;&zdot;sz</trd>
         <trd lng="ru">&c_m;&c_ja;&c_k;&c_o;&c_t;&c_mol;</trd>       
@@ -470,22 +534,85 @@
 <drv mrk="mol.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="mol.0igi.KOMUNE">
-    <dif>
-      Igi <tld/>a:
-      <ekz>
-        <tld/>igi vakson per varmo;
-      </ekz>
-      <ekz>
-        <tld/>igi (kompatigi, mildigi) la koron de iu;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">FON</uzo>
-        la sono j ordinare <tld/>igas la konsonanton, kiu
-        staras anta&ubreve; &gcirc;i
-        <fnt><bib>LR</bib>, <lok/></fnt>.
-      </ekz>
-    </dif>
+  <dif>
+    Igi <tld/>a:
+  </dif>
+  <snc ref="mol.0a.cedema" mrk="mol.0igi.KOMUNE">
+    <ekz>
+      vakso <tld/>igita per fajro
+      <fnt>
+        <bib>Marta</bib>
+      </fnt>;
+    </ekz>
+    <ekz>
+      ulceroj <klr>[&#8230;]</klr> <tld/>igitaj per oleo
+      <fnt>
+        <bib>MT</bib>
+        <lok>Jesaja 1:6</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      li pli volonte uzas la ardantan ka&ubreve;terizon ol la <tld/>igan &scirc;mira&jcirc;on
+      <fnt>
+        <bib>DKM</bib>
+        <lok>&Ccirc;apitro LXV</lok>
+      </fnt>;
+    </ekz>
+  </snc>
+  <snc ref="mol.0a.milda" mrk="mol.0igi.mildigi">
+    <uzo tip="stl">FIG</uzo>
+    <ekz>
+      la pezeco kaj la severeco de la konstrua&jcirc;o estis <tld/>igita per multaj subtilaj
+      ornama&jcirc;oj
+      <fnt>
+        <bib>I&scirc;tar</bib>
+        <lok>&Ccirc;apitro V</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      vi lin volu per vortoj delikataj <tld/>igi
+      <fnt>
+        <bib>FK</bib>
+        <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      Kristo <tld/>igadis korojn ankora&ubreve; pli malmolajn
+      <fnt>
+        <bib>QuV</bib>
+        <lok>&Ccirc;apitro XXVII</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      blua duonlumo <tld/>igas ru&gcirc;on sur la rozkoloraj vangoj
+      <fnt>
+        <bib>Metrop</bib>
+      </fnt>;
+    </ekz>
+    <ekz>
+      blueta vualo de la nebuleca aero <tld/>igis konturojn de la novaj ok- a&ubreve;
+      deketa&gcirc;aj konstrua&jcirc;egoj
+      <fnt>
+        <bib>Metrop</bib>
+      </fnt>;
+    </ekz>
+    <ekz>
+      subite <tld/>iginte la tonon, li demandis <klr>[&#8230;]</klr>
+      <fnt>
+        <bib>Metrop</bib>
+      </fnt>.
+    </ekz>
+  </snc>
+  <snc ref="mol.0a.FON" mrk="mol.0igi.FON">
+    <uzo tip="fak">FON</uzo>
+    <ekz>
+      la sono &leftquot;j&rightquot; ordinare <tld/>igas la konsonanton, kiu
+      staras anta&ubreve; &gcirc;i
+      <fnt>
+        <bib>LR</bib>
+        <lok>Dua Parto &ndash; Gramatiko</lok>
+      </fnt>.
+    </ekz>
   </snc>
   <trd lng="be">&c_z;&c_mol;&c_m;&c_ja;&c_k;&c_ch;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="br">
@@ -651,6 +778,9 @@
 </art>
 <!--
 $Log$
+versio 1.123 2022/11/03 18:42:47
+Wolfram Diestel: ~aĉa..~igi: ekz-oj, aranĝo, trd de
+
 versio 1.122 2022/11/03 07:27:50
 Wolfram Diestel: ~a: ekz-oj, trd de; +~o, ~eco
 
@@ -670,8 +800,5 @@ Revision 1.38  2017/02/14 16:10:29  revo
 Jeromo Vasxe: Senindulda ->  Senindulga
 
 Revision 1.37  2015/07/04 08:37:39  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.36  2015/06/29 16:33:20  revo
 -->
 </vortaro>
