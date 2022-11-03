@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mol.xml,v 1.123 2022/11/03 18:42:47 revo Exp $">
+<art mrk="$Id: mol.xml,v 1.124 2022/11/03 21:24:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mol</rad>/a <fnt><bib>PV</bib></fnt>
@@ -646,13 +646,64 @@
 <drv mrk="mol.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc mrk="mol.0igxi.KOMUNE">
-    <dif>
-      I&gcirc;i <tld/>a:
-      <ekz>
-        lia koro <tld/>i&gcirc;is<fnt>Z</fnt>.
-      </ekz>
-    </dif>
+  <dif>
+    I&gcirc;i <tld/>a:
+  </dif>
+  <snc ref="mol.0a.cedema" mrk="mol.0igxi.KOMUNE">
+    <ekz>
+      de la figarbo <klr>[&#8230;]</klr> bran&ccirc;o jam <tld/>i&gcirc;as kaj aperigas foliojn,
+      <klr>[&#8230;]</klr> la somero estas proksima
+      <fnt>
+        <bib>NT</bib>
+        <lok>Marko 13:28</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      la pordisto sentis siajn genuojn <tld/>i&gcirc;i
+      <fnt>
+        <bib>MkM</bib>
+        <lok>5</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      <nom>Pluriven</nom> sentis &ccirc;iujn muskolojn <tld/>i&gcirc;i, estis preska&ubreve; agrable
+      <fnt>
+        <bib>ChR</bib>
+        <lok>ABZ de murdo</lok>
+      </fnt>.
+    </ekz>
+  </snc>
+  <snc ref="mol.0a.milda" mrk="mol.0igxi.FIG">
+    <ekz>
+      via koro moli&gcirc;is kaj vi humili&gcirc;is anta&ubreve; la Eternulo
+      <fnt>
+        <bib>MT</bib>
+        <lok>II. Re&gcirc;oj 22:19</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      <nom>Sara</nom> <klr>[&#8230;]</klr> rigardis tiel plende, ke la kronprinco <tld/>i&gcirc;is kaj
+      karesis &scirc;in
+      <fnt>
+        <bib>Far1</bib>
+        <lok>&Ccirc;apitro XVII</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      la esploranta, penetra rigardo <tld/>i&gcirc;is la&ubreve; la varmi&gcirc;o de la printempo
+      <fnt>
+        <bib>HsT</bib>
+        <lok>Heredanto</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      la nokta krepusko ankora&ubreve; ne venis, sed koloroj kaj konturoj komencis pali&gcirc;i kaj
+      <tld/>i&gcirc;i
+      <fnt>
+        <bib>InfanTorent2</bib>
+        <lok>Dua Parto</lok>
+      </fnt>.
+    </ekz>
   </snc>
   <trd lng="be">&c_z;&c_mol;&c_m;&c_ja;&c_k;&c_ch;&c_a;&c_c;&c_c;&c_a;</trd>
   <trdgrp lng="fr">
@@ -742,7 +793,10 @@
     <dif>
       Dike, elaste <tld/>a:
       <ekz>
-        &scirc;vel<tld/>a tapi&scirc;o<fnt>Z</fnt>.
+        &scirc;vel<tld/>a tapi&scirc;o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -753,33 +807,14 @@
   </trdgrp>
 </drv>
 
-<drv mrk="mol.0matura">
-  <kap><tld/>matura</kap>
-  <uzo tip="klr">(pri frukto)</uzo>
-  <snc mrk="mol.0matura.KUI">
-    <uzo tip="fak">KUI</uzo>
-    <dif>
-      <tld lit="M"/>i&gcirc;inta kaj duone putri&gcirc;anta pro
-      tromatureco.
-    </dif>
-  </snc>
-  <trd lng="br">pezhell</trd>
-  <trd lng="en">overripe</trd>
-  <trdgrp lng="fa">
-    <trd>&a_z;&f_y;&a_A;&a_d;&a_r;&a_s;&f_y;&a_d;&a_h;<klr tip="ind">
-    (&a_m;&f_y;&a_w;&a_h;)</klr></trd>,
-    <trd>&a_l;&a_h;&f_y;&a_d;&a_h;<klr tip="ind">
-    (&a_m;&f_y;&a_w;&a_h;)</klr></trd>
-  </trdgrp>
-  <trd lng="fr">blet</trd>
-  <trd lng="nl">overrijp</trd>
-  <trd lng="pl">przejrza&lstroke;y</trd>
-</drv>
 </art>
 <!--
 $Log$
+versio 1.124 2022/11/03 21:24:27
+Wolfram Diestel: ~iĝi: +ekz-oj; ~matura movita al matur'
+
 versio 1.123 2022/11/03 18:42:47
-Wolfram Diestel: ~aĉa..~igi: ekz-oj, aranĝo, trd de
+Wolfram Diestel: ~a&ccirc;a..~igi: ekz-oj, aran&gcirc;o, trd de
 
 versio 1.122 2022/11/03 07:27:50
 Wolfram Diestel: ~a: ekz-oj, trd de; +~o, ~eco
@@ -797,8 +832,5 @@ Revision 1.39  2017/12/19 10:10:20  revo
 Michel Cantigneaux: fundamenta "molajxo" el la U.V.
 
 Revision 1.38  2017/02/14 16:10:29  revo
-Jeromo Vasxe: Senindulda ->  Senindulga
-
-Revision 1.37  2015/07/04 08:37:39  revo
 -->
 </vortaro>
