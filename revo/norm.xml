@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: norm.xml,v 1.56 2022/05/01 16:20:54 revo Exp $">
+<art mrk="$Id: norm.xml,v 1.57 2022/11/11 09:32:14 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>norm</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,7 +14,7 @@
       <!-- Principo a&ubreve; tipo starigita kiel regulo a&ubreve; modelo; -->
       Ordinara, la&ubreve;regula <ref tip="super" cel="stat.0o.atributa">stato</ref>:
       <ekz>
-        mil talentoj <klr>[&#x2026;]</klr> la&ubreve; la &gcirc;isnuna <tld/>o de l' elspezoj povis sufi&ccirc;i
+        mil talentoj <klr>[&#8230;]</klr> la&ubreve; la &gcirc;isnuna <tld/>o de l' elspezoj povis sufi&ccirc;i
         por sep &gcirc;is dek tagoj
         <fnt>
           <bib>Far3</bib>
@@ -77,7 +77,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        sen la skriba literaturo <klr>[&#x2026;]</klr> kultura kaj tradicia <tld/>oj neniam
+        sen la skriba literaturo <klr>[&#8230;]</klr> kultura kaj tradicia <tld/>oj neniam
         estus povintaj ekesti
         <fnt>
           <bib>EeP</bib>
@@ -89,6 +89,12 @@
       <ref cel="mezur.0o.FIG">mezuro<sncref/></ref>,
       <ref cel="uzanc.0o">uzanco</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_o;&c_r;&c_m;&c_a;</trd>,
+      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;</trd>,
+      <trd>&c_z;&c_v;&c_y;&c_ch;&c_a;&c_j;</trd>,
+      <trd>&c_k;&c_a;&c_n;&c_v;&c_e;&c_n;&c_c;&c_y;&c_ja;</trd>
+    </trdgrp>
     <trd lng="de">Konvention</trd>
   </snc>
   <snc mrk="norm.0o.TEK">
@@ -103,7 +109,7 @@
         <trd lng="hu">szabv&aacute;nyos&iacute;t</trd>
       </ekz>
       <ekz>
-        li proponis <klr>[&#x2026;]</klr> pligrandigon de la 
+        li proponis <klr>[&#8230;]</klr> pligrandigon de la 
         labor<tld/>oj <klr>(kp <ref cel="discip.0o.metodo">disciplino<sncref/></ref>)</klr> 
         &ccirc;e la sama salajro, a&ubreve; malpligrandigon de la salajro &ccirc;e la samaj <tld/>oj
         <fnt>
@@ -131,7 +137,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Steloj;monato2/007279.html">Anta&ubreve;merkantilisma ekonomia pensado</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007279.html">Anta&ubreve;merkantilisma ekonomia
+          pensado</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -169,7 +176,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la planeda semajnsistemo <klr>[en]</klr> la 20a jarcento <klr>[&#x2026;]</klr> fari&gcirc;is
+        la planeda semajnsistemo <klr>[en]</klr> la 20a jarcento <klr>[&#8230;]</klr> fari&gcirc;is
         internacia <tld/>o
         <fnt>
           <bib>Kon11</bib>
@@ -218,11 +225,11 @@
       <frm am="x"><k>x</k>, <k>y</k></frm>, kaj por &ccirc;iu ajn
       <ref cel="skalar.0o.MAT">skalaro</ref> <frm am="alpha">&alfa;</frm>
       veras:
-      (1) <frm am="p(x) ge 0"><k>p</k>(<k>x</k>) &#x2265; 0</frm>;
+      (1) <frm am="p(x) ge 0"><k>p</k>(<k>x</k>) &#8805; 0</frm>;
       (2) <frm am="p(x)=0"><k>p</k>(<k>x</k>) = 0</frm>,
         se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>;
-      (3) <frm am="p(alpha*x)=|alpha|p(x)"><k>p</k>(&alfa;&#x2219;<k>x</k>)=|&alfa;|<k>p</k>(<k>x</k>)</frm>;
-      kaj (4) <frm am="p(x+y) le p(x)+p(y)"><k>p</k>(<k>x</k>+<k>y</k>) &#x2264;
+      (3) <frm am="p(alpha*x)=|alpha|p(x)"><k>p</k>(&alfa;&#8729;<k>x</k>)=|&alfa;|<k>p</k>(<k>x</k>)</frm>;
+      kaj (4) <frm am="p(x+y) le p(x)+p(y)"><k>p</k>(<k>x</k>+<k>y</k>) &#8804;
       <k>p</k>(<k>x</k>)+<k>p</k>(<k>y</k>)</frm>:
       <ekz>
         la <tld/>on de vektoro <frm am="x"><k>x</k></frm> oni ofte
@@ -237,7 +244,7 @@
       <ekz>
         por <tld/>oj super <ref cel="algebr.lineara0o.strukturo">algebroj</ref>
         oni plie postulas, ke
-        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>&#xD7;<k>y</k>) &#x2264;
+        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>&#xD7;<k>y</k>) &#8804;
         <k>p</k>(<k>x</k>)&middot;<k>p</k>(<k>y</k>)</frm>;
       </ekz>
       <ekz>
@@ -252,15 +259,13 @@
         <ref cel="metrik.0o.MAT">metriko</ref>.
       </ekz>
     </dif>
-    <trd lng="be">&c_n;&c_o;&c_r;&c_m;&c_a;
-<klr>(&c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_a;)</klr></trd>
+    <trd lng="be">&c_n;&c_o;&c_r;&c_m;&c_a; <klr>(&c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_a;)</klr></trd>
     <trd lng="de">Norm</trd>
     <trd lng="en">norm</trd>
     <trd lng="fr">norme<klr tip="ind"> (d'un vecteur)</klr></trd>
     <trd lng="hu">norma</trd>
     <trd lng="pl">norma<klr tip="ind"> (wektora)</klr></trd>
-    <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind">
-(&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
+    <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
   </snc>
   <trd lng="bo">&t_tsha;&t_da;&t_tsheg;&t_la;&t_data;&t_na;&t_tsheg;</trd>
   <trd lng="ca">norma</trd>
@@ -280,10 +285,10 @@
     <trd>&scaron;tandard</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x43E;&#x440;&#x43C;&#x430;</trd>,
-    <trd>&#x435;&#x442;&#x430;&#x43B;&#x43E;&#x43D;</trd>,
-    <trd>&#x437;&#x440;&#x430;&#x437;&#x43E;&#x43A;</trd>,
-    <trd>&#x441;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;</trd>
+    <trd>&#x43D;&#x43E;&c_r;&#x43C;&c_a;</trd>,
+    <trd>&c_je;&c_t;&c_a;&#x43B;&#x43E;&#x43D;</trd>,
+    <trd>&c_z;&c_r;&c_a;&c_z;&#x43E;&#x43A;</trd>,
+    <trd>&c_s;&c_t;&c_a;&#x43D;&c_d;&c_a;&c_r;&c_t;</trd>
   </trdgrp>
 </drv>
 
@@ -300,29 +305,29 @@
         </fnt>;
       </ekz>
       <ekz>
-        mi fidis <klr>[&#x2026;]</klr> trovi la faktojn en unu-du <tld/>aj fakverkoj
+        mi fidis <klr>[&#8230;]</klr> trovi la faktojn en unu-du <tld/>aj fakverkoj
         <fnt>
           <bib>LOdE</bib>
-          <lok>2003, &#x2116; 5 (103)</lok>
+          <lok>2003, &#8470; 5 (103)</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la Valencia Lingvo-Akademio <klr>[&#x2026;]</klr> interakordis pasintlunde agnoski kiel
-        &#x201A;&ccirc;iucelan oficialan <tld/>an referencon&#x2018; la valencian uzitan ekde 1983 de la
+        la Valencia Lingvo-Akademio <klr>[&#8230;]</klr> interakordis pasintlunde agnoski kiel
+        &#x201A;&ccirc;iucelan oficialan <tld/>an referencon&#8216; la valencian uzitan ekde 1983 de la
         Departemento pri Klerigo kaj Kulturo
         <fnt>
           <bib>LOdE</bib>
-          <lok> 2002, &#x2116;7</lok>
+          <lok> 2002, &#8470;7</lok>
         </fnt>.
       </ekz>
     </dif>
     <rim>
-      Por distingi tiun sencon disde &#x201A;normkonforma&#x2018; oni povas uzi anka&ubreve; &#x201A;<tld/>iga&#x2018;:
+      Por distingi tiun sencon disde &#x201A;normkonforma&#8216; oni povas uzi anka&ubreve; &#x201A;<tld/>iga&#8216;:
       <ekz>
         anta&ubreve;nelonge aperis internaciaj <tld/>igaj dokumentoj pri doganaj aferoj
         <fnt>
           <bib>LOdE</bib>
-          <lok>2004, &#x2116; 4 (114)</lok>
+          <lok>2004, &#8470; 4 (114)</lok>
         </fnt>.
       </ekz>
     </rim>
@@ -401,14 +406,6 @@
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="be">
-      <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
-      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_n;&c_y;</trd>,
-      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y;
-<ind>&c_n;&c_o;&c_r;&c_m;&c_je;</ind></trd>;
-      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y;
-<ind>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_u;</ind></trd>.
-    </trdgrp>
     <trd lng="ca">normal</trd>
     <trdgrp lng="de">
       <trd>normgerecht</trd>,
@@ -432,6 +429,12 @@
       <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
+      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_n;&c_y;</trd>,
+      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y; <ind>&c_n;&c_o;&c_r;&c_m;&c_je;</ind></trd>;
+      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y; <ind>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_u;</ind></trd>.
+    </trdgrp>
   <trdgrp lng="cs">
     <trd>noremn&iacute;</trd>,
     <trd>normov&yacute;</trd>,
@@ -453,9 +456,9 @@
     <trd>predpisov&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x43D;&#x438;&#x439; &#x43D;&#x43E;&#x440;&#x43C;&#x456;</trd>,
-    <trd>&#x43D;&#x43E;&#x440;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x441;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_v;&c_ib;&c_d;&#x43F;&#x43E;&c_v;&c_ib;&c_d;&#x43D;&c_i;&c_j; &#x43D;&#x43E;&c_r;&#x43C;&c_ib;</trd>,
+    <trd>&#x43D;&#x43E;&c_r;&#x43C;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_t;&c_a;&#x43D;&c_d;&c_a;&c_r;&c_t;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -513,10 +516,11 @@
   <snc>
     <ref tip="dif" cel="norm.unu0igi">unu<tld/>igi</ref>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="cs">normalizovat</trd>
   <trd lng="hu">norm&aacute;l</trd>
   <trd lng="sk">normalizova&tcaron;</trd>
-  <trd lng="uk">&#x43D;&#x43E;&#x440;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&#x43D;&#x43E;&c_r;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="norm.0umita">
@@ -526,6 +530,7 @@
   <snc>
     <ref tip="dif" cel="norm.unu0a.vektoro">unu<tld/>a<sncref/></ref>
   </snc>
+  <trd lng="be">&c_u;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
 </drv>
 
 <drv mrk="norm.0hava">
@@ -546,7 +551,10 @@
       <ref cel="spac.normohava0o"><tld/>ohava spaco</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>,
+    <trd>&c_u;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="ca">normat</trd>
   <trd lng="de">normiert</trd>
   <trd lng="en">normed</trd>
@@ -582,6 +590,7 @@
       la germana kaj la rusa.
     </rim>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_w;&c_n;&c_o;&c_r;&c_m;&c_a;</trd>
   <trd lng="ca">seminorma</trd>
   <trdgrp lng="de">
     <trd>Halbnorm</trd>,
@@ -621,6 +630,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_je;&c_w;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+      <trd>&c_a;&c_d;&c_s;&c_u;&c_t;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol; <ind>&c_n;&c_o;&c_r;&c_m;&c_a;&c_w;</ind></trd>
+    </trdgrp>
     <trd lng="fr">pagaille</trd>
   </snc>
 </drv>
@@ -671,6 +684,10 @@
       a&ubreve; <ctl>dekbaza</ctl><fnt><bib>PIV2</bib></fnt>).
     </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>,
+    <trd>&c_u;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="ca">normalitzat</trd>
   <trd lng="pt">normal</trd>
 </drv>
@@ -713,11 +730,14 @@
   <trd lng="pt">normalizar</trd>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">normalizova&tcaron;</trd>
-  <trd lng="uk">&#x43D;&#x43E;&#x440;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&#x43D;&#x43E;&c_r;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.57 2022/11/11 09:32:14
+Dmitri Gabinski: + trd be
+
 versio 1.56 2022/05/01 16:20:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -737,8 +757,5 @@ Revision 1.49  2015/10/20 05:10:16  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.48  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.47  2015/06/29 16:33:21  revo
 -->
 </vortaro>
