@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: task.xml,v 1.38 2022/07/01 08:38:03 revo Exp $">
+<art mrk="$Id: task.xml,v 1.39 2022/11/15 07:25:54 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>task</rad>/o <fnt><bib>PV</bib></fnt>
@@ -172,7 +172,7 @@
     <trd>&uacute;loha</trd>
   </trdgrp>
   <trd lng="sv">process</trd>
-  <trd lng="uk">&c_z;&c_a;&c_v;&c_d;&c_a;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_z;&c_a;&c_v;&c_d;&c_a;&c_n;&c_n;&c_ja;</trd>
   <trd lng="vo">sugiv</trd>
 </drv>
 
@@ -183,7 +183,7 @@
     <dif>
       Difini, transdoni al iu kiel <tld/>on:
       <ekz>
-        re&gcirc;idoj, kiuj <klr>...</klr> ne povis diveni la aferojn,
+        re&gcirc;idoj, kiuj <klr>[&#8230;]</klr> ne povis diveni la aferojn,
         kiujn &scirc;i <tld/>is al ili
         <fnt><bib>Fab1</bib>, <lok>Vojkamarado</lok></fnt>;
       </ekz>
@@ -238,8 +238,8 @@
   <klr>(&c_z;&c_a;&c_d;&c_a;&c_ch;&c_u;)</klr></trd>
   <trd lng="sk">da&tcaron; za &uacute;lohu</trd>
   <trdgrp lng="uk">
-    <trd>&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_z;&c_a;&c_v;&c_d;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&c_d;&#x43E;&c_r;&c_u;&c_ch;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_z;&c_a;&c_v;&c_d;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_d;&c_o;&c_r;&c_u;&c_ch;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -281,6 +281,71 @@
   <trd lng="be">&c_v;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_c;&c_mol; <ind>&c_z;&c_a;&c_d;&c_a;&c_ch;&c_u;</ind></trd>
   <trd lng="de">zur <ind>Aufgabe</ind> machen</trd>
 </drv>
+
+<drv mrk="task.0aro">
+  <kap>
+    <tld/>aro
+  </kap>
+  <snc>
+    <dif>
+      Listo, (fizika au imagita), de ies <tld/>oj:
+      <ekz>
+        la iniciatinto de &leftquot;Evidente&rightquot; atingis la a&gcirc;on de 78 jaroj, kaj <klr>[&#8230;]</klr>
+        venis la tempo por transdoni la da&ubreve;re kreskantan <tld/>aron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jacques Tuinder</aut>
+          <vrk><url ref="https://www.monato.be/2011/010356.php"
+              >Fonda&jcirc;o E-vid-E-nt-E jam 45 jarojn aktivadas</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la taskaro de <nom>Simomura</nom> jenas: 1. kontroli kaj revizii lernolibrojn
+        <klr>[&#8230;]</klr>, 2. submeti &gcirc;isnunajn relative ne&ubreve;tralajn klerigajn komitatojn
+        en &ccirc;iuj municipoj sub a&ubreve;toritaton de la municipa &ccirc;efo, 3. <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="https://www.monato.be/2014/011320.php"
+              >Intervenu senbu&gcirc;ete!</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ver&scirc;ajne subtaksis la dimensiojn de la <tld/>aro de la CO
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 12 (110)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro troaj &scirc;ar&gcirc;oj en la ekstermovadaj agadoj petis modifi siajn estrarajn
+        <tld/>arojn <nom>Humphrey Tonkin</nom> kaj <nom>Ivo Osibov</nom>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 5 (103)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="agend.0o">agendo</ref>,
+      <ref cel="progra.0o.KOMUNE">programo<sncref/></ref>,
+      <ref cel="ord.tag0o">tagordo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Aufgabenliste</trd>,
+    <trd>Aufgaben <klr>(offizielle)</klr></trd>,
+    <trd>Verpflichtungen</trd>,
+    <trd>Pflichten</trd>
+  </trdgrp>
+  <trd lng="en">agenda</trd>
+</drv>
+
+
+
+
 
 <drv mrk="task.0igxi">
   <kap><tld/>i&gcirc;i</kap>
@@ -401,6 +466,9 @@
 </art>
 <!--
 $Log$
+versio 1.39 2022/11/15 07:25:54
+Wolfram Diestel: +~aro
+
 versio 1.38 2022/07/01 08:38:03
 Dmitri Gabinski: + trd be
 
@@ -420,8 +488,5 @@ versio 1.32 2021/04/28 13:11:07
 Guillermo Molleda Jimena: trd es
 
 Revision 1.30  2015/07/04 08:37:44  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.29  2015/06/29 16:40:19  revo
 -->
 </vortaro>
