@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: for.xml,v 1.63 2022/11/20 09:29:17 revo Exp $">
+<art mrk="$Id: for.xml,v 1.64 2022/11/20 11:25:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>for</rad> <fnt><bib>PV</bib></fnt>
@@ -982,13 +982,16 @@
         <ref cel="danc.for0i">fordanci</ref>,
         <ref cel="lud.for0i">forludi</ref>,
         <ref cel="labor.for0i">forlabori</ref>,
+        <ref cel="lek.for0i"><tld/>leki</ref>,
         for<ref cel="direkt.0i.stiri">direkti</ref>,
         for<ref cel="ofend.0i.iun">ofendi</ref>;
       </ekz>      
       <ekz>
            <ref cel="paf.for0i"><tld/>pafi</ref>,
            <ref cel="paf.for0igxi"><tld/>pafi&gcirc;i</ref>,
-          <ref cel="aper.formal0i"><tld/>malaperi</ref>;
+          <ref cel="aper.formal0i"><tld/>malaperi</ref>,
+          <ref cel="vetur.for0i">forveturi</ref>,
+          <ref cel="putr.for0i">forputri</ref>;
       </ekz>
       <ekz>
           <ind><tld/>eskorti</ind>;          
@@ -1022,7 +1025,7 @@
         <trd lng="uk">&c_v;&c_i;&c_m;&c_je;&c_r;&c_z;&c_a;&c_t;&c_i; (&c_p;&c_r;&c_o; &c_r;&c_o;&c_s;&c_l;&c_i;&c_n;&c_i; &c_ib; &c_t;. &c_p;.)</trd>
       </ekz>
       <ekz>
-        <ind><tld/>froti</ind>;
+        <ind><tld/>froti</ind>.
         <trd lng="cs">set&rcaron;&iacute;t</trd>
         <trd lng="de">wegreiben</trd>
         <trd lng="es">fregar</trd>
@@ -1035,71 +1038,9 @@
         <trd lng="sk">vytiera&tcaron;</trd>
         <trd lng="uk">&c_s;&c_t;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>
       </ekz>
-      <ekz>
-          <ref cel="lek.for0i"><tld/>leki</ref>;
-      </ekz>
   </dif>
 
-
 <!--
-<drv mrk="for.0pafi">
-  <kap><tld/>pafi</kap>
-  <snc>
-    <dif>
-      <tld lit="F"/>igi pafante:
-      <ekz>
-        per sia mallerteco li nur <tld/>pafis la birdojn.
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>abschie&szlig;en</trd>,
-      <trd>umschie&szlig;en</trd>,
-      <trd>verscheuchen</trd>
-    </trdgrp>
-    <trdgrp lng="es">
-      <trd>ahuyentar</trd>,
-      <trd>espantar</trd>
-    </trdgrp>
-    <trd lng="fr">effaroucher</trd>
-    <trd lng="nl">wegschieten</trd>
-    <trd lng="ru">&c_o;&c_t;&c_s;&c_t;&c_r;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>
-  </snc>
-  <trdgrp lng="uk">
-    <trd>&c_v;&c_ib;&c_d;&c_s;&c_t;&c_r;&c_ib;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&c_v;&c_i;&c_s;&c_t;&c_r;&c_ib;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>
-  </trdgrp>
-</drv>
-
-
-<drv mrk="for.0pafigxi">
-  <kap><tld/>pafi&gcirc;i, <var><kap>sin <tld/>pafi</kap></var>,
-  <var><kap>pafi sin <tld/></kap></var></kap>
-  <snc>
-    <dif>
-      Subite malaperi:
-      <ekz>
-        li pafis sin for<fnt><bib>PrV</bib></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="cs">pry&ccaron;</trd>
-  <trdgrp lng="de">
-    <trd>davonschie&szlig;en</trd>,
-    <trd>davonsausen</trd>,
-    <trd>davoneilen</trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>salir disparado</trd>,
-    <trd>despegar<klr> (un cohete)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>se tirer<klr tip="ind"> (s'en aller)</klr></trd>,
-    <trd>filer<klr tip="ind"> (s'en aller)</klr></trd>
-  </trdgrp>
-  <trd lng="nl">wegschieten<klr tip="ind"> (snel weglopen)</klr></trd>
-  <trd lng="sk">pre&ccaron;</trd>
-</drv>
--->
 
 <drv mrk="for.0putri0putrigxi">
   <kap><tld/>putri<fnt>Z</fnt>,
@@ -1137,14 +1078,15 @@
   <trd lng="uk">&c_v;&c_i;&c_ji;&c_zh;&c_d;&c_zh;&c_a;&c_t;&c_i; (&c_g;&c_je;&c_t;&c_mol;)</trd>
 </drv>
 
-    <adm>
-      &scirc;ovi deriva&jcirc;oj for-X al artikoloj X kaj anstata&ubreve;igu &ccirc;i tie per ekz/ref
-      <aut>WD</aut>
-    </adm>
+-->
+
 </subart>
 </art>
 <!--
 $Log$
+versio 1.64 2022/11/20 11:25:32
+Wolfram Diestel: ~ III: movis drv ~pafi, ~veturi, ~putri al kocnernaj art lasante cxi tie nur ref-on
+
 versio 1.63 2022/11/20 09:29:17
 Wolfram Diestel: ~ III: redukto de kelkaj drv al ekz/ref, movo al koncerna art ofend/aper/paf
 
@@ -1164,8 +1106,5 @@ versio 1.58 2022/11/19 09:27:03
 Wolfram Diestel: ~igi, ~i&gcirc;i: +ekz-oj, ref; +de~e
 
 versio 1.57 2022/11/18 21:25:33
-Wolfram Diestel: subart-mrk; ~..~a&jcirc;o: +ekz-oj, ref-oj, trd de; +~o
-
-versio 1.56 2022/11/17 07:27:02
 -->
 </vortaro>
