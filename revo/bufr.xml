@@ -1,127 +1,232 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: bufr.xml,v 1.24 2022/04/26 15:00:33 revo Exp $">
-    <kap>
-      <rad>bufr</rad>/o
-      <fnt>Z</fnt>
-    </kap>
-    <drv mrk="bufr.0o">
-      <kap><tld/>o</kap>
+  <art mrk="$Id: bufr.xml,v 1.25 2022/11/24 17:25:40 revo Exp $">
+  <kap>
+    <rad>bufr</rad>/o
+    <fnt><bib>PV</bib></fnt>
+  </kap>
+<drv mrk="bufr.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="bufr.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Parto de ma&scirc;ino a&ubreve; veturilo moderiganta tro fortajn 
+      eksterajn pu&scirc;ojn a&ubreve; premojn horizontalajn:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        rekte rilati interkulture estas timige, &ccirc;ar tiel perdi&gcirc;as la lingva barilo, kiu
+        agas <tld/>e kaj moderigas la &scirc;okojn
+        <fnt>
+          <bib>BonaLingvo</bib>
+          <lok>6. Ies Malfido, Fido Mia</lok>
+        </fnt>.
+      </ekz>
+    </dif> 
+    <subsnc mrk="bufr.0o.FER">
       <uzo tip="fak">FER</uzo>
-      <snc mrk="bufr.0o.TEK">
-        <uzo tip="fak">TEK</uzo>
-        <dif>
-          Pu&scirc;risortego por moderigi la kunpu&scirc;i&gcirc;ojn de
-          vagonoj.  
-        </dif>
-        <trd lng="es">tope<klr> (amortiguador entre vagones)</klr></trd>
-        <trd lng="fr">tampon <klr tip="ind">(amortisseur)</klr></trd>
-        <trd lng="hu">&uuml;tk&ouml;z&odblac;</trd>
-        <trd lng="it">respingente<klr> (ferr.)</klr></trd>
-        <trdgrp lng="pl">
-          <trd>bufor</trd>,
-          <trd>zderzak</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="bufr.0o.AUT">
-        <uzo tip="fak">AUT</uzo>
-        <dif>
-          Horizontala stango, kiu mildigas la dama&gcirc;ojn 
-          en kazo de kolizio, muntita kaj &ccirc;e la anta&ubreve;o kaj 
-          &ccirc;e la malanta&ubreve;o de la veturilo.          
-        </dif>
+      <dif>
+        &Scirc;tipforma instala&jcirc;o en la ekstremoj de vagonoj por moderigi iliajn kunpu&scirc;i&gcirc;ojn:
+        <ekz>
+          utiligante la momenton de haltigo <klr>[li]</klr> eksaltis sur la <tld/>ojn,
+          <klr>[kaj]</klr> pasis inter la du veturiloj
+          <fnt>
+            <bib>ChL</bib>
+            <lok>&Ccirc;apitro Unua</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la de&jcirc;oranto a&ubreve;digis akran fajfon, la vagonaro kolere ekgrincis per la <tld/>oj
+          <fnt>
+            <bib>Metrop</bib>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="es">tope<klr> (amortiguador entre vagones)</klr></trd>
+      <trd lng="fr">tampon <klr tip="ind">(amortisseur)</klr></trd>
+      <trd lng="hu">&uuml;tk&ouml;z&odblac;</trd>
+      <trd lng="it">respingente<klr> (ferr.)</klr></trd>
+      <trdgrp lng="pl">
+        <trd>bufor</trd>,
+        <trd>zderzak</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="bufr.0o.AUT">
+      <uzo tip="fak">AUT</uzo>
+      <dif>
+        Horizontala stango, kiu mildigas la dama&gcirc;ojn 
+        en kazo de kolizio, muntita &ccirc;e la anta&ubreve;o kaj 
+        &ccirc;e la malanta&ubreve;o de la veturilo.          
+      </dif>
+      <trdgrp lng="de">
+        <trd>Sto&szlig;stange</trd>,
+        <trd>Sto&szlig;f&auml;nger</trd>,
+        <trd>Knautschzone</trd>
+      </trdgrp>
       <trd lng="es">parachoques</trd>
       <trd lng="it">paraurti</trd>
       <trd lng="nl">bumper</trd>
-      </snc>
-      <snc mrk="bufr.0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          <ref tip="super" cel="memor.0o.KOMP">Memoro</ref> por
-          provizora konservado de datumoj, precipe &ccirc;e kunlaboro de
-          diversrapidaj traktiloj.          
-        </dif>
-       <trd lng="es">b&uacute;fer</trd>
-        <trd lng="sk">vyrovn&aacute;vacia <ind>pam&auml;&tcaron;</ind>
-        </trd>
-        <trdgrp lng="hu">
-           <trd>&aacute;tmeneti <ind>t&aacute;r</ind></trd>,
-           <trd>puffer</trd></trdgrp>
-        <trdgrp lng="it">
-           <trd>buffer</trd>,
-           <trd><ind>memoria</ind> tampone</trd>, 
-           <trd><ind>memoria</ind> ausiliaria</trd>
-         </trdgrp>
-         <trd lng="nl">buffer</trd>
-      </snc>
-     <snc mrk="bufr.0o.ELET">
-        <uzo tip="fak">ELE</uzo>
-        <uzo tip="fak">ELET</uzo>
-        <dif>
-        Ilo kiu konektas aparatojn kaj kondukilojn kun malsamaj elektraj
-        
-        rezistancoj a&ubreve; kiu stokas provizore energion por poste 
-        liveri &gcirc;in pli rapide.    
-        </dif>
-        <trd lng="es">condensador el&eacute;ctrico</trd>
-        <trdgrp lng="it">
-           <trd>buffer</trd>,
-           <trd>tampone</trd></trdgrp>
-           <trd lng="nl">condensator</trd>
-        </snc>
-      <snc mrk="bufr.0o.POL">
-        <uzo tip="fak">POL</uzo>
-        <dif>
-        Geografia zono a&ubreve; ne&ubreve;trala &scirc;tato inter du 
-        malamikaj a&ubreve; konfliktantaj &scirc;tatoj:       
-        </dif>
-       <ekz><ind><tld/>ozono</ind>
-      <fnt><bib>viki</bib><lok>
-      <url ref="&Viki;/Bufrozono">
-          bufrozono</url></lok></fnt>, 
-       <trd lng="es"><ind>zona</ind> neutral</trd>
-       <trd lng="it"><ind>area</ind> cuscinetto</trd>
-       <trd lng="nl">bufferzone</trd>
-       <trd lng="pl">strefa buforowa</trd>
-       </ekz>
-       <ekz>
-       <ind><tld/>o&scirc;tato</ind>
-       <fnt><bib>viki</bib><lok>
-      <url ref="&Viki;/Bufro%C5%9Dtato">
-          bufro&scirc;tato</url></lok></fnt>
-       <trd lng="es">estado neutral</trd>
-       <trd lng="it"><ind>stato</ind> cuscinetto</trd>
-       <trd lng="pl">pa&nacute;stwo buforowe</trd>
-       <trd lng="nl">bufferstaat</trd>
-       <trd lng="ro">stat tampon</trd>
-       </ekz>
-      <trd lng="es">zona desmilitarizada</trd>
-      <trd lng="it">cuscinetto</trd>
-      <trd lng="nl">buffer</trd>
-      </snc>
+    </subsnc>  
+    <rim>
+      Ne konfuzu kun
+      <refgrp tip="vid">
+        <ref cel="amorti.0ilo">amortizilo</ref>,
+        <ref cel="damp.0ilo.TEK">dampilo<sncref/></ref>
+      </refgrp>.
+    </rim>
+  </snc>
+  <snc mrk="bufr.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="super" cel="memor.0o.KOMP">Memoro</ref> por
+      provizora konservado de datumoj, precipe &ccirc;e kunlaboro de
+      diversrapidaj traktiloj.          
+    </dif>
+   <trdgrp lng="de">
+     <trd>Pufferspeicher</trd>,
+     <trd>Cache</trd>
+   </trdgrp>
+   <trd lng="es">b&uacute;fer</trd>
+    <trd lng="sk">vyrovn&aacute;vacia <ind>pam&auml;&tcaron;</ind>
+    </trd>
+    <trdgrp lng="hu">
+       <trd>&aacute;tmeneti <ind>t&aacute;r</ind></trd>,
+       <trd>puffer</trd></trdgrp>
+    <trdgrp lng="it">
+       <trd>buffer</trd>,
+       <trd><ind>memoria</ind> tampone</trd>, 
+       <trd><ind>memoria</ind> ausiliaria</trd>
+     </trdgrp>
+     <trd lng="nl">buffer</trd>
+  </snc>
+  <snc mrk="bufr.0o.ELET">
+    <uzo tip="fak">ELE</uzo>
+    <uzo tip="fak">ELET</uzo>
+    <dif>
+      Ilo kiu konektas aparatojn kaj kondukilojn kun malsamaj elektraj
+      
+      rezistancoj a&ubreve; kiu stokas provizore energion por poste 
+      liveri &gcirc;in pli rapide.    
+    </dif>
+    <trd lng="de">Pufferschaltung</trd>
+    <trd lng="es">condensador el&eacute;ctrico</trd>
+    <trdgrp lng="it">
+    <trd>buffer</trd>,
+    <trd>tampone</trd></trdgrp>
+    <trd lng="nl">condensator</trd>
+  </snc>
+  <snc mrk="bufr.0o.KEM">
+    <dif>
+      <ref tip="super" cel="miks.0ajxo">Miksa&jcirc;o</ref>, kiu reagas moderige al aldonado de substancoj, ekzemple konservas
+      pH-valoron malgra&ubreve; aldono de fortaj acidoj a&ubreve; bazoj:
+      <ekz>
+        kalcia karbonato <klr>[&#8230;]</klr> funkcias kiel <tld/>o kontra&ubreve; oceanacidi&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marco van Hulten</aut>
+          <vrk><url ref="https://www.monato.be/2015/011605.php"
+              >Interrilato de la oceano kaj klimat&scirc;an&gcirc;i&gcirc;o</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Puffer<klr>(l&ouml;sung)</klr></trd>
+  </snc>
+  <snc mrk="bufr.0o.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Geografia zono a&ubreve; ne&ubreve;trala &scirc;tato inter du 
+      malamikaj a&ubreve; konfliktantaj &scirc;tatoj:   
+      <ekz>
+         <ind><tld/>o&scirc;tato</ind>
+         <fnt><bib>viki</bib><lok>
+           <url ref="&Viki;/Bufro%C5%9Dtato">
+            bufro&scirc;tato</url></lok></fnt>;
+         <trd lng="es">estado neutral</trd>
+         <trd lng="it"><ind>stato</ind> cuscinetto</trd>
+         <trd lng="pl">pa&nacute;stwo buforowe</trd>
+         <trd lng="nl">bufferstaat</trd>
+         <trd lng="ro">stat tampon</trd>
+      </ekz>
+      <ekz>
+        en 1830 Belgio krei&gcirc;is kiel <tld/>o inter la eternaj rivaloj Francio kaj Germanio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="https://www.monato.be/2007/009338.php"
+              >Separismo ne, egalrajteco jes</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        minitan terenon <klr>[&#8230;]</klr> eniris membroj de la grek-kipra fajrobrigado,
+        kiam ili eniris la <ind><tld/>ozono</ind>n dividantan Kipron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2011/010254.php"
+              >Brigadistoj min-acitaj</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+        <trd lng="es"><ind>zona</ind> neutral</trd>
+        <trd lng="it"><ind>area</ind> cuscinetto</trd>
+        <trd lng="nl">bufferzone</trd>
+        <trd lng="pl">strefa buforowa</trd>
+      </ekz>    
+    </dif>
+    <trd lng="de">Pufferzone</trd>
+    <trd lng="es">zona desmilitarizada</trd>
+    <trd lng="it">cuscinetto</trd>
+    <trd lng="nl">buffer</trd>
+  </snc>
+  <snc mrk="bufr.0o.FIG">
+    <dif>
+      Ia rimedo, kiu efikas moderige kontra&ubreve; eksteraj dan&gcirc;eraj influoj:
+      <ekz>
+        Svedaj Sindikatoj <klr>[diskutas]</klr> pri starigo de &scirc;tataj <tld/>ofondusoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bo Sandelin</aut>
+          <vrk><url ref="https://www.monato.be/2004/008235.html"
+              >Svedoj balotis kontra&ubreve; e&ubreve;ro</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili historia kono estas <tld/>o kontra&ubreve; la kaptiloj de naiveco
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;4</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_b;&c_u;&c_f;&c_e;&c_r;</trd>
-  <trd lng="cs">vyrovn&#xE1;vac&#xED; pam&#x11B;&#x165;</trd>
+  <trd lng="cs">vyrovn&aacute;vac&iacute; pam&ecaron;&tcaron;</trd>
+  <trd lng="de">Puffer</trd>
   <trdgrp lng="en">
-         <trd>buffer</trd>,
-         <trd>bumper</trd>
-      </trdgrp>
-  <trd lng="he">&#x5E4;&#x5D2;&#x5D5;&#x5E9;</trd>
+    <trd>buffer</trd>,
+    <trd>bumper</trd>
+  </trdgrp>
+  <trd lng="he">&pe;&gimel;&vav;&shin;</trd>
   <trdgrp lng="pl">
-        <trd>bufor</trd>,
-        <trd>pami&eogonek;&cacute;<klr tip="amb"> (buforowa)</klr>
-        </trd>
-      </trdgrp>
+    <trd>bufor</trd>,
+    <trd>pami&eogonek;&cacute;<klr tip="amb"> (buforowa)</klr>
+    </trd>
+  </trdgrp>
   <trd lng="ru">&c_b;&c_u;&c_f;&c_je;&c_r;</trd>
-  <trd lng="sk">vyrovn&#xE1;vacia pam&#xE4;&#x165;</trd>
+  <trd lng="sk">vyrovn&aacute;vacia pam&auml;&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x431;&#x443;&#x444;&#x435;&#x440;</trd>,
-    <trd>&#x431;&#x430;&#x43C;&#x43F;&#x435;&#x440;</trd>
+    <trd>&c_b;&c_u;&c_f;&c_je;&c_r;</trd>,
+    <trd>&c_b;&c_a;&c_m;&c_p;&c_je;&c_r;</trd>
   </trdgrp>
 </drv>
-  </art>
+</art>
   <!--
   $Log$
+versio 1.25 2022/11/24 17:25:40
+Wolfram Diestel: snc FER k AUT kiel subsnc de snc TEK; +snc KEM; +ekz-oj, trd de
+
 versio 1.24 2022/04/26 15:00:33
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -141,8 +246,5 @@ aktualigo lingvokodoj kaj URL-unuoj
   Antonio Codazzi: +trd it; +fak AUT, ELE, ELET, POL
 
   Revision 1.15  2008/05/12 17:55:35  revo
-  Sebastian Cyprych: kor trd pl
-
-  Revision 1.14  2006/05/24 16:31:38  revo
 -->
 </vortaro>
