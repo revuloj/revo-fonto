@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: verb.xml,v 1.105 2022/11/29 04:35:19 revo Exp $">
+<art mrk="$Id: verb.xml,v 1.106 2022/11/29 07:26:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>verb</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>verb</rad>/o <fnt><bib>VdE</bib></fnt>
 </kap>
 <drv mrk="verb.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -113,8 +113,8 @@
   <trd lng="th">&#xE04;&#xE33;&#xE01;&#xE23;&#xE34;&#xE22;&#xE32;</trd>
   <trd lng="tl">pandiwa</trd>
   <trd lng="tr">fiil</trd>
-  <trd lng="tt">&c_f;&c_i;&c_g;&#x44B;&#x43B;&#x44C;</trd>
-  <trd lng="uk">&c_d;&c_ib;&c_jeu;&c_s;&#x43B;&#x43E;&c_v;&#x43E;</trd>
+  <trd lng="tt">&c_f;&c_i;&c_g;&c_y;&c_l;&c_mol;</trd>
+  <trd lng="uk">&c_d;&c_ib;&c_jeu;&c_s;&c_l;&c_o;&c_v;&c_o;</trd>
   <trd lng="ur">&a_f;&a_ayn;&a_l;</trd>
   <trd lng="uz">fe&#8217;l</trd>
   <trd lng="vi">&#273;&#x1ED9;ng t&#x1EEB;</trd>
@@ -149,8 +149,8 @@
   <trd lng="fr">convertir en <ind>verbe</ind></trd>
   <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_z;&c_o;&c_v;&c_y;&c_v;&c_a;&c_t;&c_mol; <ind>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</ind></trd>
   <trdgrp lng="uk">
-    <trd>&c_u;&c_t;&c_v;&#x43E;&c_r;&#x44E;&c_v;&c_a;&c_t;&c_i; &c_d;&c_ib;&c_jeu;&c_s;&#x43B;&#x43E;&c_v;&#x43E;</trd>,
-    <trd>&c_v;&c_je;&c_r;&c_b;&c_a;&#x43B;&c_ib;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_u;&c_t;&c_v;&c_o;&c_r;&c_ju;&c_v;&c_a;&c_t;&c_i; &c_d;&c_ib;&c_jeu;&c_s;&c_l;&c_o;&c_v;&c_o;</trd>,
+    <trd>&c_v;&c_je;&c_r;&c_b;&c_a;&c_l;&c_ib;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -196,6 +196,7 @@
       </ekz>
     </dif>
     <ref tip="ant" cel="verb.rezult0o">rezult<tld/>o</ref>
+    <ref tip="vid" cel="perfektiv.mal0o">malperfektivo</ref>
     <trd lng="en">atellic <ind>verb</ind></trd>
     <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</ind></trd>
   </snc>
@@ -219,7 +220,7 @@
   <trd lng="be">&c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_zh;&c_n;&c_y; <ind>&c_d;&c_z;&c_je;&c_ja;&c_s;&c_l;&c_o;&c_w;</ind></trd>
   <trd lng="en">auxiliary <ind>verb</ind></trd>
   <trd lng="ru">&c_v;&c_s;&c_p;&c_o;&c_m;&c_o;&c_g;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</ind></trd>
-  <trd lng="uk">&c_d;&#x43E;&#x43F;&#x43E;&#x43C;&c_ib;&c_zh;&#x43D;&c_je; &c_d;&c_ib;&c_jeu;&c_s;&#x43B;&#x43E;&c_v;&#x43E;</trd>
+  <trd lng="uk">&c_d;&c_o;&c_p;&c_o;&c_m;&c_ib;&c_zh;&c_n;&c_je; &c_d;&c_ib;&c_jeu;&c_s;&c_l;&c_o;&c_v;&c_o;</trd>
 </drv>
 
 <drv mrk="verb.rezult0o">
@@ -228,7 +229,7 @@
   <snc mrk="verb.rezult0o.gxenerale">
     <dif>
       <ref tip="super" cel="verb.ag0o">Ag<tld/>o</ref> kiu esprimas
-      la agon kiel limigitan per ia fina, rezulta stato, kiee atingo
+      la agon kiel limigitan per ia fina, rezulta stato, kies atingo
       malebligas pluigon de la ago:
       <ekz>
         La verbojn de da&ubreve;ro sen rezulto oni povas transformi en
@@ -238,6 +239,7 @@
       </ekz>
     </dif>
     <ref tip="ant" cel="verb.dauxr0o.senrezulta">da&ubreve;r<tld/>o</ref>
+    <ref tip="vid" cel="perfektiv.0o">perfektivo</ref>
     <trd lng="en">tellic verb</trd>
     <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</ind></trd>
   </snc>
@@ -268,6 +270,9 @@
 </art>
 <!--
 $Log$
+versio 1.106 2022/11/29 07:26:59
+Sergio Pokrovskij: -tajperaro, +TEZ
+
 versio 1.105 2022/11/29 04:35:19
 Sergio Pokrovskij: +fnt
 
@@ -287,8 +292,5 @@ Revision 1.23  2015/10/07 17:10:17  revo
 Joop Eggen: +trd bg
 
 Revision 1.22  2015/09/30 13:10:21  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.21  2015/07/04 08:37:45  revo
 -->
 </vortaro>
