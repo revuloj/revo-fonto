@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: varm.xml,v 1.152 2022/11/21 06:36:35 revo Exp $">
+<art mrk="$Id: varm.xml,v 1.153 2022/11/30 07:24:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>varm</rad>/a <fnt><bib>PV</bib></fnt>
@@ -975,7 +975,7 @@
       </ekz>
       <ekz>
         la limako ricevis la permeson sidi sur la
-        muro <klr>...</klr> kaj <ind><tld/>igi sin</ind> en la
+        muro <klr>[&#8230;]</klr> kaj <ind><tld/>igi sin</ind> en la
         suno
         <fnt><bib>Fab4</bib>, <lok>Kuristoj</lok></fnt>;
         <trd lng="ru">&c_g;&c_r;&c_je;&c_t;&c_mol;&c_s;&c_ja;</trd>
@@ -1364,6 +1364,13 @@
         </fnt>;
       </ekz>
       <ekz>
+        dum la tago min konsumis la <tld/>ego kaj dum la nokto la mal<tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 31:40</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <ind>mal<tld/>ujo</ind> <klr>(<ref cel="frid.0ujo">fridujo</ref>)</klr>    
         <fnt>
           <bib>Viki</bib>
@@ -1411,11 +1418,22 @@
         <trd lng="ru">&c_h;&c_o;&c_l;&c_o;&c_d;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
         <trd lng="sk">chladni&ccaron;ka</trd>
         <trdgrp lng="uk">
-          <trd>&c_h;&#x43E;&#x43B;&#x43E;&c_d;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;</trd>,
-          <trd>&c_r;&c_je;&c_f;&c_r;&c_i;&c_zh;&c_je;&c_r;&c_a;&c_t;&#x43E;&c_r;</trd>
+          <trd>&c_h;&c_o;&c_l;&c_o;&c_d;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>,
+          <trd>&c_r;&c_je;&c_f;&c_r;&c_i;&c_zh;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
         </trdgrp>
       </ekz>
+      <ekz>
+        mal<tld/>o ka&scirc;as sin en fendoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Na&hcirc;um 3:17</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="frid.0o">frido</ref>,
+      <ref cel="frost.0o">frosto</ref>
+    </refgrp>
   </snc>
   <snc mrk="varm.mal0o.SEN">
     <dif>
@@ -1425,19 +1443,47 @@
         <fnt><bib>Fab1</bib>, <lok>Elinjo-fingreto</lok></fnt>;
       </ekz>
       <ekz>
-        senti mal<tld/>on;
+        sentante mal<tld/>on en la koro
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        terurite li ektremis kaj mal<tld/>o trakuris lian dorson.
+        mal<tld/>o trakuris lin de la piedoj &gcirc;is la kapo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <snc mrk="varm.mal0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Malfervoro, senardeco:
+      <ref cel="kompat.sen0a">Senkompateco</ref>, senemocieco:
       <ekz>
-        montri al iu mal<tld/>on.
+        kvar sinjoroj &scirc;telrigardis min kun certa mal<tld/>o, kaj esti&gcirc;is pa&ubreve;zo
+        <fnt>
+          <bib>Kiso</bib>
+          <lok>La Sakramento De La Komunio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la poeto anka&ubreve; meditas pri la propra intimeco &ndash; soleco, animaj mal<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Antonio Val&eacute;n</aut>
+          <vrk><url ref="https://www.monato.be/2005/008499.php"
+              >&Ccirc;u Ertl provizore stilekzercas?</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el la sama bu&scirc;o li blovas <tld/>on kaj mal<tld/>on
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="br">yended</trd>
@@ -1949,6 +1995,9 @@
 </art>
 <!--
 $Log$
+versio 1.153 2022/11/30 07:24:30
+Wolfram Diestel: mal~o: +ekz-oj, ref, dif FIG
+
 versio 1.152 2022/11/21 06:36:35
 Wolfram Diestel: +ekz mal~ujo
 
@@ -1968,7 +2017,5 @@ Revision 1.63  2019/08/28 02:10:43  revo
 Sam Penter: +trd tp
 
 Revision 1.62  2019/08/11 22:10:26  revo
-Wolfram Diestel: fontoj, dif de ~a sen referenci al ~o, sintaksaj
-korektoj
 -->
 </vortaro>
