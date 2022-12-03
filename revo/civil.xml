@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: civil.xml,v 1.30 2022/03/14 15:25:39 revo Exp $">
+<art mrk="$Id: civil.xml,v 1.31 2022/12/03 09:23:56 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>civil</rad>/a <fnt><bib>PV</bib></fnt>
@@ -9,63 +9,146 @@
 
 <drv mrk="civil.0a">
   <kap><tld/>a</kap>
-  <snc mrk="civil.0a.nemilitista">
-    <dif>
-      Nemilitista:
-      <ekz>
-        <ind><tld/>aj vestoj</ind>, <tld/>a kura&gcirc;o.
-        <trd lng="nl">burgerkleding</trd>
-      </ekz>
-    </dif>
-    <trd lng="be">&c_c;&c_y;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
-    <trdgrp lng="ru">
-      <trd>&c_sh;&c_t;&c_a;&c_t;&c_s;&c_k;&c_i;&c_j;</trd>,
-      <trd>&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>,
-      <trd>&c_c;&c_i;&c_v;&c_i;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>zivil</trd>,
-      <trd>nichtmilit&auml;risch</trd>
-    </trdgrp>
-    <trd lng="fa">&a_gh;&f_y;&a_r;&a_n;&a_Z;&a_A;&a_m;&f_y;</trd>
-    <trd lng="pl">cywilny</trd>
-    <trd lng="sv">civil</trd>
-  </snc>
-  <snc mrk="civil.0a.neeklezia">
-    <dif>
-      Neeklezia:
-      <ekz>
-        <tld/>a edzi&gcirc;o.
-      </ekz>
-    </dif>
-    <refgrp tip="sub">
-      <ref cel="laik.0a">laika</ref>,
-      <ref cel="profan.0a.civila">profana</ref>
-    </refgrp>
-    <trdgrp lng="be">
-      <trd>&c_c;&c_y;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>,
-      <trd>&c_g;&c_r;&c_a;&c_m;&c_a;&c_d;&c_z;&c_ja;&c_n;&c_s;&c_k;&c_ib;</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>laienhaft</trd>,
-      <trd>nichtkirchlich</trd>
-    </trdgrp>
-    <trd lng="en">secular</trd>
-    <trd lng="fa">&a_gh;&f_y;&a_r;&a_m;&a_dh;&a_h;&a_b;&f_y;</trd>
-    <trd lng="pl">&sacute;wiecki</trd>
-    <trd lng="ru">&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>
-  </snc>
   <snc mrk="civil.0a.privata">
+    <dif>
+      Rilata al ordinara statuso de civitano, ne<ref tip="ant" cel="oficia.0a">oficiala</ref>, 
+      <ref tip="sin" cel="privat.0a">privata</ref>.
+    </dif>  
+    <subsnc mrk="civil.0a.nemilitista">
+      <dif>
+        Nemilitista:
+        <ekz>
+          <ind><tld/>aj vestoj</ind>
+          <fnt>
+            <bib>Revizoro</bib>
+            <lok>Akto unua</lok>
+          </fnt>;
+          <trd lng="de">Zivil <klr>(Kleidung)</klr></trd>
+          <trd lng="nl">burgerkleding</trd>
+        </ekz>
+        <ekz>
+          &ccirc;iuj pastroj, generaloj kaj <tld/>aj altranguloj jam kolekti&gcirc;is en la granda
+          salono
+          <fnt>
+            <bib>Far3</bib>
+            <lok>&Ccirc;apitro I</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          devigita forlasi la revojn pri milita kariero por sia filo, la patro decidis
+          destini lin por la <tld/>a servado
+          <fnt>
+            <bib>PatrojFiloj</bib>
+            <lok>I</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>a milito
+          <klr>(prefere: <ref tip="ant" cel="milit.intercivitana_0o">(inter)civitana 
+          milito</ref>)</klr>
+          <fnt>
+            <bib>Metrop</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>e vestita sinjoro sin turnis tre &gcirc;entile kaj amike al Vilfrido
+          <fnt>
+            <bib>MrA</bib>
+            <lok>&Ccirc;apitro XVI</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="be">&c_c;&c_y;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+      <trdgrp lng="ru">
+        <trd>&c_sh;&c_t;&c_a;&c_t;&c_s;&c_k;&c_i;&c_j;</trd>,
+        <trd>&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>,
+        <trd>&c_c;&c_i;&c_v;&c_i;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>zivil</trd>,
+        <trd>nichtmilit&auml;risch</trd>
+      </trdgrp>
+      <trd lng="fa">&a_gh;&f_y;&a_r;&a_n;&a_Z;&a_A;&a_m;&f_y;</trd>
+      <trd lng="pl">cywilny</trd>
+      <trd lng="sv">civil</trd>
+    </subsnc>
+    <subsnc mrk="civil.0a.neeklezia">
+      <dif>
+        Ne<ref tip="ant" cel="eklezi.0a">eklezia</ref>:
+        <ekz>
+          mi ne komprenas ke viro tiel inteligenta kiel vi donas la plej etan gravecon al
+          tiu vana formulo, kiun oni nomas la <tld/>a edzigo
+          <fnt>
+            <bib>KPr</bib>
+            <lok>&Ccirc;apitro Dekunua</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ju&gcirc;isto rilate al <tld/>aj kaj religiaj aferoj ordonis, ke mi ricevu cent
+          bastonfrapojn
+          <fnt>
+            <bib>Kandid</bib>
+            <lok>&Ccirc;apitro XXVIII</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="sub">
+        <ref cel="laik.0a">laika</ref>,
+        <ref cel="profan.0a.civila">profana</ref>
+      </refgrp>
+      <trdgrp lng="be">
+        <trd>&c_c;&c_y;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>,
+        <trd>&c_g;&c_r;&c_a;&c_m;&c_a;&c_d;&c_z;&c_ja;&c_n;&c_s;&c_k;&c_ib;</trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>laienhaft</trd>,
+        <trd>nichtkirchlich</trd>
+      </trdgrp>
+      <trd lng="en">secular</trd>
+      <trd lng="fa">&a_gh;&f_y;&a_r;&a_m;&a_dh;&a_h;&a_b;&f_y;</trd>
+      <trd lng="pl">&sacute;wiecki</trd>
+      <trd lng="ru">&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>
+    </subsnc>
+    <subsnc mrk="civil.0a.nepolitika">  
+      <dif>
+        Ne politika.
+      </dif>
+    </subsnc>
+  </snc>
+  <snc mrk="civil.0a.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Ne politika, sed
-      <ref tip="sin" cel="privat.0a.neoficiala">privata</ref>:
+      Koncernante la interpersonajn rilatojn; ne publika, ne 
+      <ref tip="ant" cel="krimin.0a">kriminala</ref>:
       <ekz>
         <tld/>aj rajtoj;
       </ekz>
       <ekz>
         <ind><tld/>a juro</ind> <klr>(nekriminala)</klr>;
         <trd lng="nl">burgerlijk <ind>recht</ind></trd>
+      </ekz>
+      <ekz>
+        homoj <klr>[&#8230;]</klr> &scirc;an&gcirc;inte sian <tld/>an etaton, 
+        rekomencis ekzistadon sub alia nomo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        via edzini&gcirc;o kun mi, reguligante la <tld/>an staton de tiu infano, redonante al
+        li la familion, kiun li perdis, faros lian feli&ccirc;on kaj samtempe la vian
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni eligis el la libroj de la <tld/>a registro tiun fatalan akton
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekoka</lok>
+        </fnt>;
       </ekz>
       <ekz>
         sin deklari <ind><tld/>a partio</ind>.
@@ -103,7 +186,7 @@
   <trd lng="en">civil</trd>
   <trd lng="es">civil</trd>
   <trd lng="fr">civil <klr tip="ind">(adj.)</klr></trd>
-  <trd lng="he">&#x5D0;&#x5B6;&#x5D6;&#x5E8;&#x5B8;&#x5D7;&#x5B4;&#x5D9;</trd>
+  <trd lng="he">&alef;&#1462;&zayin;&resh;&#1464;&het;&#1460;&yod;</trd>
   <trdgrp lng="hu">
     <trd>civil</trd>,
     <trd>polg&aacute;ri</trd>
@@ -114,7 +197,7 @@
     <trd>civiln&yacute;</trd>,
     <trd>ob&ccaron;iansky</trd>
   </trdgrp>
-  <trd lng="uk">&#x446;&#x438;&#x432;&#x456;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_c;&c_i;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="civil.0ulo">
@@ -132,10 +215,19 @@
           <aut>J. Francis</aut>,
           <vrk>La Granda Kaldrono</vrk>,
           <lok>1978</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>ulo estis sur la strato haltigita de nekonitaj junuloj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>Noto De L&#8217; A&ubreve;toro</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="burgx.0o.urbano">bur&gcirc;o<sncref/></ref>,
+      <ref cel="civit.0ano">civitano</ref>,
       <ref cel="laik.0o.pasxtato">laiko</ref>
     </refgrp>
   </snc>
@@ -148,7 +240,7 @@
   <trd lng="es">civil</trd>
   <trd lng="en">civilian</trd>
   <trd lng="fr">civil <klr tip="ind">(subst.)</klr></trd>
-  <trd lng="he">&#x5D0;&#x5D6;&#x5E8;&#x5D7;</trd>
+  <trd lng="he">&alef;&zayin;&resh;&het;</trd>
   <trd lng="hu">civil</trd>
   <trd lng="it">civile<klr tip="ind"> (sost.)</klr></trd>
   <trd lng="nl">burger</trd>
@@ -164,11 +256,14 @@
     <trd>civiln&iacute; osoba</trd>,
     <trd>nevoj&aacute;k</trd>
   </trdgrp>
-  <trd lng="uk">&#x446;&#x438;&#x432;&#x456;&#x43B;&#x44C;&#x43D;&#x438;&#x439; (&#x456;&#x43C;.)</trd>
+  <trd lng="uk">&c_c;&c_i;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_i;&c_j; (&c_ib;&c_m;.)</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2022/12/03 09:23:56
+Wolfram Diestel: ~a: ioma rearanĝo en du snc kun subsnc; +ekz-oj, ref-oj
+
 Revision 1.27  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
