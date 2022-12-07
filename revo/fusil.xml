@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fusil.xml,v 1.18 2022/03/20 13:07:56 revo Exp $">
+<art mrk="$Id: fusil.xml,v 1.19 2022/12/07 07:23:07 revo Exp $">
 <kap>
   <rad>fusil</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -10,16 +10,58 @@
   <snc mrk="fusil.0o.ARM">
     <dif>
       Portebla <ref tip="super" cel="paf.pulvo0ilo">pulvopafilo</ref>, 
-      konsistanta el ligna <ref tip="sub" cel="afust.0o">afusteto</ref>
-      kaj &scirc;tala <ref tip="sub" cel="tub.0o">tubo</ref>,
-      pli longa ol tiu de karabeno: 
+      konsistanta el ligna <ref tip="prt" cel="afust.0o">afusteto</ref>
+      kaj &scirc;tala <ref tip="prt" cel="tub.0o">tubo</ref>,
+      pli longa ol tiu de <ref cel="karabe.0o">karabeno</ref>: 
       <ekz>
-        militista, &ccirc;asa <tld/>o.
+        leonoj ne staras &ccirc;e la sama loko dum la &ccirc;asisto reiras hejmen por havigi <tld/>on
+        <fnt>
+          <bib>KKl</bib>
+          <lok>&Ccirc;apitro 8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni sendos vin kun <tld/>oj en la manoj kontra&ubreve; viaj sovetiaj fratoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>!
+      </ekz>
+      <ekz>
+        videblis la akraj linioj de la ru&gcirc;aj domoj de la cara <tld/>faktorio
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+          <lok>&Ccirc;e Lev Tolstoj en Jasnaja Poljana</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> bone konas la &ccirc;asarmilojn, malpezajn mitralojn, <tld/>ojn,
+        plumberpafilojn kaj aerpafilojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url ref="https://www.monato.be/2013/011065.php"
+              >&Ccirc;asado</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun surmetita bajoneto, kaj la <tld/>o &ccirc;epiede
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun fumanta <tld/>o enmane
+        <fnt>
+          <bib>KrB</bib>
+          <lok>En sia korto &ccirc;iu kok&#8217; estas forta</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="karabe.0o">karabeno</ref>,
-      <ref cel="paf.0ilo">pafilo</ref>.
+      <ref cel="paf.0ilo.fusilo">pafilo<sncref/></ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -46,7 +88,7 @@
   </trdgrp>
   <trd lng="pl">karabin</trd>   
   <trd lng="pt">fuzil</trd>
-  <trd lng="ro">pu&#x219;c&abreve;</trd>
+  <trd lng="ro">pu&#537;c&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_u;&c_zh;&c_mol;&c_jo;</trd>,
     <trd>&c_v;&c_i;&c_n;&c_t;&c_o;&c_v;&c_k;&c_a;</trd>
@@ -56,11 +98,11 @@
     <trd>pu&scaron;ka</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x444;&#x443;&#x437;&#x456;&#x44F;</trd>,
-    <trd>&#x444;&#x443;&#x437;&#x435;&#x44F;</trd>,
-    <trd>&#x43B;&#x435;&#x433;&#x43A;&#x438;&#x439; &#x43C;&#x443;&#x448;&#x43A;&#x435;&#x442;</trd>,
-    <trd>&#x440;&#x443;&#x448;&#x43D;&#x438;&#x446;&#x44F;</trd>,
-    <trd>&#x491;&#x432;&#x438;&#x43D;&#x442;&#x456;&#x432;&#x43A;&#x430;</trd>
+    <trd>&c_f;&c_u;&c_z;&c_ib;&c_ja;</trd>,
+    <trd>&c_f;&c_u;&c_z;&c_je;&c_ja;</trd>,
+    <trd>&c_l;&c_je;&c_g;&c_k;&c_i;&c_j; &c_m;&c_u;&c_sh;&c_k;&c_je;&c_t;</trd>,
+    <trd>&c_r;&c_u;&c_sh;&c_n;&c_i;&c_c;&c_ja;</trd>,
+    <trd>&c_gu;&c_v;&c_i;&c_n;&c_t;&c_ib;&c_v;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -69,7 +111,7 @@
   <snc mrk="fusil.0isto.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Soldato, armita per <tld/>o;
+      <ref tip="super" cel="soldat.0o.militisto">Soldato</ref>, armita per <tld/>o;
       <ref tip="sin" cel="fuzili.0o">fuziliero</ref>:
       <ekz>
         lian vo&ccirc;on superbruas la salvo de la <tld/>istoj
@@ -78,8 +120,15 @@
           <vrk><url ref="http://vortaro.hu/stelspec.pdf">
           Steloj de Eger</url></vrk>
           <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la 10a <tld/>ista divizio
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 7 (69)</lok>
         </fnt>.
-      </ekz> 
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_l;&c_o;&c_k;</trd>
@@ -101,14 +150,17 @@
   <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_l;&c_o;&c_k;</trd>
   <trd lng="sk">flintou ozbrojen&yacute; vojak</trd>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x442;&#x440;&#x456;&#x43B;&#x435;&#x446;&#x44C;</trd>,
-    <trd>&#x444;&#x443;&#x437;&#x438;&#x43B;&#x435;&#x440;</trd>
+    <trd>&c_s;&c_t;&c_r;&c_ib;&c_l;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_f;&c_u;&c_z;&c_i;&c_l;&c_je;&c_r;</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.19 2022/12/07 07:23:07
+Wolfram Diestel: kor. ref, +ekz-oj
+
 Revision 1.16  2017/07/02 19:10:17  revo
 Vito Redsky: +trd pl +trd ro
 
