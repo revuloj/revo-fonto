@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: munici.xml,v 1.19 2022/04/27 13:00:02 revo Exp $">
+<art mrk="$Id: munici.xml,v 1.20 2022/12/08 21:23:27 revo Exp $">
 <kap>
    <ofc>1</ofc>
    <rad>munici</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,8 +11,9 @@
   <snc mrk="munici.0o.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Provizo de militistaj pafa&jcirc;oj: pulvo, kugloj,
-      obusoj kaj similaj:
+      <ref tip="super" cel="proviz.0o.ajxo">Provizo</ref> de militistaj <ref cel="paf.0ajxo">pafa&jcirc;o</ref>j: 
+      <ref cel="pulv.0o">pulvo</ref>, 
+      <ref tip="sub" cel="kugl.0o">kuglo</ref>j, <ref tip="sub" cel="obus.0o">obuso</ref>j kaj similaj:
       <ekz>
        la matrosoj amasigis <tld/>on malanta&ubreve; la barikadoj kaj ili 
        ka&ubreve;ri&gcirc;is 
@@ -21,7 +22,38 @@
          <vrk><url ref="https://sites.google.com/site/laaventurojdeandreojelky">
          La aventuroj de Andreo Jelky</url></vrk>,
          <lok>[2010]</lok>
-       </fnt>.
+       </fnt>;
+      </ekz>
+      <ekz>
+        milicano en la tuta ekipo kaj <tld/>o
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu &ccirc;i domo ne estis <tld/>paligita
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        artileria <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2008/009466.php"
+              >Tragedio en Gerdec</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        ofte tia interparolado &ndash; post kiam la kutimaj sakrokanonadoj forpafis &ccirc;ian
+        <tld/>on &ndash; fini&gcirc;as
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 19</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -50,7 +82,7 @@
   <trd lng="nl">munitie</trd>
   <trd lng="pl">amunicja</trd>
   <trd lng="pt">muni&ccedil;&atilde;o</trd>
-  <trd lng="ro">muni&#x21B;ie</trd>
+  <trd lng="ro">muni&#539;ie</trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_o;&c_je;&c_p;&c_r;&c_i;&c_p;&c_a;&c_s;&c_y;</trd>,
     <trd>&c_b;&c_o;&c_je;&c_z;&c_a;&c_p;&c_a;&c_s;</trd>
@@ -59,11 +91,50 @@
     <trd>mun&iacute;cia</trd>,
     <trd>strelivo</trd>
   </trdgrp>
-  <trd lng="uk">&c_b;&#x43E;&c_j;&#x43E;&c_v;&c_ib; &#x43F;&c_r;&c_i;&#x43F;&c_a;&c_s;&c_i;</trd>
+  <trd lng="uk">&c_b;&c_o;&c_j;&c_o;&c_v;&c_ib; &c_p;&c_r;&c_i;&c_p;&c_a;&c_s;&c_i;</trd>
 </drv>
+
+<drv mrk="munici.0ejo">
+  <kap>
+    <tld/>ejo, <var><kap><tld/>deponejo</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="arsena.0o.armilejo">Arsenalo</ref> por stoki precipe <tld/>on:
+      <ekz>
+        <klr>[li]</klr> finance subtenis <klr>[&#8230;]</klr> familiojn afliktitajn de
+        eksplodo &ccirc;e la <nom>Gerdec</nom>-<tld/>ejo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2009/009669.php"
+              >Pli amu ...</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en Serbio estis konstruitaj novaj <tld/>o-deponejoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dimitrije Jani&ccaron;i&cacute;</aut>
+          <vrk><url ref="https://www.monato.be/2013/010867.php"
+              >Detruo-dilemo</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Munitionsdepot</trd>
+</drv>
+
+
+
 </art>
 <!--
 $Log$
+versio 1.20 2022/12/08 21:23:27
+Wolfram Diestel: +ekz-oj, ref; +~ejo
+
 versio 1.19 2022/04/27 13:00:02
 Ulrich Fellmann: municio: +2 DE trdj
 
@@ -83,8 +154,5 @@ Revision 1.12  2006/08/16 19:53:30  revo
 Tulio Flores: +tr pt
 
 Revision 1.11  2005/04/07 16:31:57  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10  2004/06/15 21:33:27  revo
 -->
 </vortaro>
