@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: persva.xml,v 1.25 2022/12/13 06:33:47 revo Exp $">
+  <art mrk="$Id: persva.xml,v 1.26 2022/12/13 08:33:21 revo Exp $">
     <kap>
       <ofc>9</ofc><rad>persvad</rad>/i
       <fnt><bib>VdE</bib></fnt>
@@ -76,6 +76,20 @@
         </refgrp>
         <trd lng="ru">&c_u;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>
       </snc>
+      <rim>
+        La konfuzo inter la da&ubreve;rverbo
+        <ref cel="persva.0i.dauxrverbo"><tld/>i<sncref/></ref> kaj la
+        rezultverbo <ref cel="persva.0i.rezultverbo"><tld/>i<sncref/></ref>
+        estas &gcirc;ena; la rilato inter la du sencoj similas tiun inter
+        &#8249;labori&#8250; kaj &#8249;per/labori&#8250;, kaj per sammaniera retroderivado
+        eblus malkonfuzi:
+        <tld/>i<sncref ref="persva.0i.dauxrverbo"/> = <em>svad/i</em>,
+        <tld/>i<sncref ref="persva.0i.rezultverbo"/> = <em>per/svad/i</em>.
+        Tia fakte estas la etimologio (kp la anglajn &#8249;per/suade&#8250;,
+        &#8249;dis/suade&#8250;, &#8249;suasion&#8250;). Tamen tiun eblon &gcirc;is nun la
+        esperantistoj ne profitis, la latenta verbo &#8249;svadi&#8250; ne ekzistas.
+        <aut>Sergio Pokrovskij</aut>
+      </rim>
       <trdgrp lng="be">
         <trd>&c_p;&c_je;&c_r;&c_a;&c_k;&c_a;&c_n;&c_a;&c_c;&c_mol;</trd>,
         <trd>&c_u;&c_g;&c_a;&c_v;&c_a;&c_r;&c_y;&c_c;&c_mol;</trd>,
@@ -151,7 +165,7 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      La ago <ref cel="persva.0i"><tld/>i</ref>:
+      La ago <ref cel="persva.0i.dauxrverbo"><tld/>i<sncref/></ref>:
       <ekz>
         Ni konvinku lin per milda <tld/>o &mdash; &ccirc;ar li ja ne la&ubreve;vole faras erarojn
         <fnt>
@@ -176,7 +190,10 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="es">persuasion</trd>
+  <trdgrp lng="en">
+    <trd>persuasion</trd>,
+    <trd>suasion</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_u;&c_v;&c_je;&c_shch;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_u;&c_b;&c_je;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;<klr> (&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;)</klr></trd>
@@ -186,6 +203,9 @@
 </art>
   <!--
   $Log$
+versio 1.26 2022/12/13 08:33:21
+Sergio Pokrovskij: +rim
+
 versio 1.25 2022/12/13 06:33:47
 Sergio Pokrovskij: disigo ~i, +~o
 
@@ -205,8 +225,5 @@ Sergio Pokrovskij: disigo ~i, +~o
   Damien Brucker: +trd fr
 
   Revision 1.17  2011/12/03 15:10:19  revo
-  Marc Rausell: kataluna traduko
-
-  Revision 1.16  2010/05/13 16:30:37  revo
 -->
 </vortaro>
