@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: topolo.xml,v 1.37 2022/03/28 14:44:11 revo Exp $">
+<art mrk="$Id: topolo.xml,v 1.38 2022/12/14 09:27:09 revo Exp $">
 <kap>
   <rad>topologi</rad>/o
 </kap>
@@ -84,7 +84,7 @@
         de subaroj de <frm am="bb E"><g>E</g></frm> 
         <klr>(<tld/>o, kies bazon konsistigas
         &ccirc;iuj finiaj komuna&jcirc;oj de elementoj en
-        <frm am="bb A uu {O/,bb E}"><g>A</g>&#x222A;{&#x2205;,<g>E</g>}</frm>)</klr>;
+        <frm am="bb A uu {O/,bb E}"><g>A</g>&#x222A;{&#8709;,<g>E</g>}</frm>)</klr>;
       </ekz>
       <ekz>
         <tld/>o super <frm><g>E</g></frm>, difinita per aro de bildigoj
@@ -124,7 +124,7 @@
   <trd lng="pl">topologia</trd>
   <trd lng="pt">topologia</trd>
   <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
-  <trd lng="uk">&#x442;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x433;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_t;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&c_g;&c_ib;&#x44F;</trd>
 </drv>
 
 <drv mrk="topolo.0a">
@@ -154,7 +154,7 @@
         <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigo <frm am="x&#x2020;y^-1"><k>x</k>&#x2020;<k>y</k><sup>-1</sup></frm> estu
+        la bildigo <frm am="x&#8224;y^-1"><k>x</k>&#8224;<k>y</k><sup>-1</sup></frm> estu
         <ref cel="kontin3.0a.cxie">kontinua</ref>.
       </dif>
     </subsnc>
@@ -163,8 +163,8 @@
         <klr>(p.p. <ref cel="ring.0o.MAT">ringo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigoj <frm am="x&#x2020;(-y)"><k>x</k>&#x2020;(-<k>y</k>)</frm> kaj
-        <frm am="x*y"><k>x</k>&#x2219;<k>y</k></frm> estu
+        la bildigoj <frm am="x&#8224;(-y)"><k>x</k>&#8224;(-<k>y</k>)</frm> kaj
+        <frm am="x*y"><k>x</k>&#8729;<k>y</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
@@ -175,11 +175,11 @@
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
         la bildigoj <frm am="x-y"><k>x</k>-<k>y</k></frm> kaj
-        <frm am="alpha*x">&alfa;&#x2219;<k>x</k></frm> estu
+        <frm am="alpha*x">&alfa;&#8729;<k>x</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
-    <trd lng="be">&c_t;&c_a;&c_p;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
+    
     <trd lng="de">topologisch</trd>
     <trd lng="en">topological</trd>
     <trd lng="es">topol&oacute;gico</trd>
@@ -187,6 +187,7 @@
     <trd lng="pl">topologiczny</trd>
     <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   </snc>
+  <trd lng="be">&c_t;&c_a;&c_p;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
   <trd lng="hu">topologikus</trd>  
 </drv>
 
@@ -222,6 +223,7 @@ tiu,
       En multaj aplikoj la forta <tld/>o estas difinita per normo.
     </rim>
   </snc>
+  <trd lng="be">&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja; <ind>&c_t;&c_a;&c_p;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</ind></trd>
   <trd lng="de">schwache <ind>Topologie</ind></trd>
   <trd lng="en">weak <ind>topology</ind></trd>
   <trd lng="fr">topologie faible</trd>
@@ -241,7 +243,7 @@ tiu,
       La <ref tip="super" cel="topolo.0o.strukturo"><tld/>o</ref>,
       difinita per la aro de &ccirc;iuj bildigoj
       <frm am="theta_x">&theta;<sub><k>x</k></sub></frm> (por
-      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>), kiuj &jcirc;etas elementon
+      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>), kiuj &jcirc;etas elementon
       <frm am="phi">&phi;</frm> de la dualo al 
       <frm am="phi(x)">&phi;(<k>x</k>)</frm>:
       <ekz>
@@ -266,6 +268,7 @@ tiu,
       ke <ctl>dualmalforta</ctl> ne estas kontentiga kunmeta&jcirc;o.
     </rim>
   </snc>
+  <trd lng="be">&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja; <ind>&c_t;&c_a;&c_p;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</ind></trd>
   <trd lng="de">schwache *-<ind>Topologie</ind></trd>
   <trd lng="en">weak* <ind>topology</ind></trd>
   <trdgrp lng="fr">
@@ -289,6 +292,7 @@ tiu,
       estas <ref cel="konver.simple0a">simple konver&gcirc;a</ref>.
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_a;&c_p;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja; &c_p;&c_r;&c_o;&c_s;&c_t;&c_a;&c_j; &c_z;&c_mol;&c_b;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>
   <trd lng="de">Topologie der punktweisen Konvergenz</trd>
   <trd lng="en">topology of pointwise convergence</trd>
   <trd lng="fr">topologie de la convergence simple</trd>
@@ -312,6 +316,7 @@ tiu,
     </dif>
     <ref tip="vid" cel="konver.unuforme0a">unuforme konver&gcirc;a.</ref>
   </snc>
+  <trd lng="be">&c_t;&c_a;&c_p;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja; &c_r;&c_a;&c_w;&c_n;&c_a;&c_m;&c_je;&c_r;&c_n;&c_a;&c_j; &c_z;&c_mol;&c_b;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>
   <trd lng="de">Topologie der gleichm&auml;&szlig;igen Konvergenz</trd>
   <trd lng="en">topology of uniform convergence</trd>
   <trd lng="fr">topologie de la convergence uniforme</trd>
@@ -324,6 +329,9 @@ tiu,
 </art>
 <!--
 $Log$
+versio 1.38 2022/12/14 09:27:09
+Dmitri Gabinski: + trd be
+
 versio 1.36 2021/05/11 14:52:30
 Wolfram Diestel: +kor. ref-cel
 
@@ -343,8 +351,5 @@ Revision 1.31  2012/10/23 00:14:03  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.30  2006/02/15 17:36:09  revo
-Tulio Flores: +trd pt
-
-Revision 1.29  2005/03/06 17:34:49  revo
 -->
 </vortaro>
