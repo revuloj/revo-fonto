@@ -2,7 +2,6 @@ name: akceptu-submetojn
 
 # Tiu ago unue rigardas per voko-afido ĉu novaj redaktoj alvenis (en gist.github.com)
 # kaj traktas tiujn. Poste ĝi aktualigas la artikolojn en Revo.
-# Do aktuale tio koncernas nur artikolojn redaktitajn ĉe https://revaj.steloj.de
 
 on:
 #  push:
@@ -72,7 +71,8 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        echo "::set-output name=KONFIRMO_GH::$(grep -l '\"konfirmo\"' .log/mail_sent*)"        
+        echo "{KONFIRMO_GH}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
+
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
@@ -131,7 +131,8 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        echo "::set-output name=KONFIRMO_DB::$(grep -l '\"konfirmo\"' .log/mail_sent*)"        
+        echo "{KONFIRMO_DB}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
+
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
