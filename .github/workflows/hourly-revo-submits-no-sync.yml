@@ -1,0 +1,149 @@
+name: akceptu-submetojn
+
+# Tiu ago unue rigardas per voko-afido ĉu novaj redaktoj alvenis (en gist.github.com)
+# kaj traktas tiujn. Sed ĝi ne aktualigas la artikolojn en Revo - provizora solvo, dum problemo kun la servilo!
+
+
+on:
+#  push:
+#    branches:
+#    - master  
+
+  # la tempo estas laŭ UTC, do laŭ mezeŭropa tempo tio
+  # vintre estas 23:15 kaj somere 00:15
+  #
+  # * estas speciala signo, do nepre uzu citilojn
+  schedule:
+  - cron:  '10 * * * *'
+  #- cron:  '10 */3 * * *'
+
+
+  # uzu 'access token' kun Git-arĥivo
+# https://www.innoq.com/de/blog/github-actions-automation/
+# https://github.com/ad-m/github-push-action/blob/master/start.sh
+
+
+env:
+  # voko-formiko image tag {latest|stabila|2x}
+  FORMIKO_TAG: 2g
+  AFIDO_TAG: 2f
+
+jobs:
+
+  revo-redaktoj-gh:
+    runs-on: ubuntu-latest
+    outputs:
+      KONFIRMO_GH: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_GH }}
+
+    steps:
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
+        mkdir .tmp
+        mkdir .log
+
+    - name: Saluto al ghcr.io kaj preni 'voko-afido'
+      env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
+        echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
+        docker pull "ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }}"
+
+    - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
+      run: |
+        docker run -d --name afido \
+        -e SMTP_SERVER=smtp.strato.de  \
+        -e SMTP_USER=${{ secrets.SMTP_USER }} \
+        -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
+        -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
+        -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
+        sleep 10
+        docker exec -u1074 \
+        -e GIT_REPO_REVO=revo-fonto \
+        -e CGI_USER=${{ secrets.CGI_USER }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
+        -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
+        -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
+        -e SIGELILO=${{secrets.SIGELILO}} \
+        afido \
+        afido
+
+    - name: Rigardu la protokolon 
+      id: rigardu_protokolon
+      run: |
+        ls -l .tmp/ .log/
+        echo "{KONFIRMO_GH}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT
+
+    - name: Konservu protokolojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: log-gh
+        path: .log
+
+    - name: Konservu la interrezultojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: tmp-gh
+        path: .tmp
+
+
+  revo-redaktoj-db:
+    runs-on: ubuntu-latest
+    # ne kuru ambaŭ samtempe, por eviti fand-konfliktojn de la git-arĥivo!
+    needs: revo-redaktoj-gh
+    outputs:
+      KONFIRMO_DB: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_DB }}
+
+    steps:
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
+        mkdir .tmp
+        mkdir .log
+
+    - name: Saluto al ghcr.io kaj preni 'voko-afido'
+      env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
+        echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
+        docker pull "ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }}"
+
+    - name: Akceptu redaktojn el submetoj, kontrolu, arĥivu kaj raportu al redaktantoj
+      run: |
+        docker run -d --name afido \
+        -e SMTP_SERVER=smtp.strato.de  \
+        -e SMTP_USER=${{ secrets.SMTP_USER }} \
+        -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
+        -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
+        -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
+        sleep 10
+        docker exec -u1074 \
+        -e GIT_REPO_REVO=revo-fonto \
+        -e CGI_USER=${{ secrets.CGI_USER }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
+        -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
+        -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
+        -e SIGELILO=${{secrets.SIGELILO}} \
+        afido \
+        afido subm
+
+    - name: Rigardu la protokolon 
+      id: rigardu_protokolon
+      run: |
+        ls -l .tmp/ .log/
+        echo "{KONFIRMO_DB}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
+
+    - name: Konservu protokolojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: log-db
+        path: .log
+
+    - name: Konservu la interrezultojn
+      uses: actions/upload-artifact@v1
+      with:
+        name: tmp-db
+        path: .tmp
+
+
+ 
