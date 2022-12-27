@@ -72,8 +72,8 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        echo "{KONFIRMO_GH}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT
-
+        echo "{KONFIRMO_GH}={$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)}" >> $GITHUB_OUTPUT      
+      
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
       with:
@@ -131,7 +131,7 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        echo "{KONFIRMO_DB}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
+        echo "{KONFIRMO_DB}={$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)}" >> $GITHUB_OUTPUT
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1

@@ -167,6 +167,8 @@ jobs:
         ls -l $GITHUB_WORKSPACE/tgz
         echo "::set-output name=revosql::$(basename -- tgz/revosql_20*)"
         echo "::set-output name=revosql_inx::$(basename -- tgz/revosql-inx_20*)"
+        #echo "{revosql}={$(basename -- tgz/revosql_20*)}" >> $GITHUB_OUTPUT
+        #echo "{revosql_inx}={$(basename -- tgz/revosql-inx_20*)}" >> $GITHUB_OUTPUT
 
     - name: Alpendigu sqlrevo-inx
       id: upload-inx 
@@ -248,6 +250,7 @@ jobs:
       run: |
         ls -l $GITHUB_WORKSPACE/tgz
         echo "::set-output name=revoxdxf::$(basename -- tgz/revoxdxf_20*.zip)"
+        #echo "{revoxdxf}={$(basename -- tgz/revoxdxf_20*.zip)}" >> $GITHUB_OUTPUT
 
     - name: Alpendigu xdxf
       id: upload-xdxf 
@@ -333,6 +336,7 @@ jobs:
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
         echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
+        #echo "{revohtml}={$(basename -- .tgz/revohtml_20*)}" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
@@ -418,6 +422,7 @@ jobs:
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
         echo "::set-output name=revohtml::$(basename -- .tgz/revoart_20*)"
+        #echo "{revohtml}={$(basename -- .tgz/revoart_20*)}" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
@@ -503,6 +508,7 @@ jobs:
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
         echo "::set-output name=revohtml::$(basename -- .tgz/revohst_20*)"
+        #echo "{revohtml}={$(basename -- .tgz/revohst_20*)}"" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
