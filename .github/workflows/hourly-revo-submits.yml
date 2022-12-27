@@ -71,7 +71,8 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        echo "{KONFIRMO_GH}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
+        echo "::set-output name=KONFIRMO_GH::$(grep -l '\"konfirmo\"' .log/mail_sent*)"
+        # echo "{KONFIRMO_GH}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
 
 
     - name: Konservu protokolojn
@@ -131,7 +132,8 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        echo "{KONFIRMO_DB}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
+        echo "::set-output name=KONFIRMO_DB::$(grep -l '\"konfirmo\"' .log/mail_sent*)"
+        # echo "{KONFIRMO_DB}={$(grep -l '\"konfirmo\"' .log/mail_sent*)}" >> $GITHUB_OUTPUT      
 
 
     - name: Konservu protokolojn
