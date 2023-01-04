@@ -154,29 +154,31 @@ jobs:
 
     steps:
 
-    - uses: actions/github-script@0.4.0
+    - uses: actions/github-script@v6
       name: Eltrovu la pozicion de marko 'hora-formiko'
       id: trovu_horan_formikon
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-          const ref = await github.git.getRef({...context.repo, ref: 'tags/hora-formiko'})
+          const ref = await github.rest.git.getRef({...context.repo, ref: 'tags/hora-formiko'})
           const sha = ref.data.object.sha
           console.log('hora-formiko estas ĉe: '+sha)
-          console.log('::set-output name=sha_hf::'+sha)
+          //console.log('::set-output name=sha_hf::'+sha)
+          core.setOutput('sha_hf',sha)
 
-    - uses: actions/github-script@0.4.0
+    - uses: actions/github-script@v6
       name: Eltrovu la nunan pozicion (kapo)
       id: trovu_kapon
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-          const ref = await github.git.getRef({...context.repo, ref: 'heads/master'})
+          const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          console.log('::set-output name=sha_hm::'+sha)
+          //console.log('::set-output name=sha_hm::'+sha)
+          core.setOutput('sha_hm',sha)
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
