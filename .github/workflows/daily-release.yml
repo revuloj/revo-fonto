@@ -15,13 +15,11 @@ on:
 env:
   # image tag {latest|stabila|1x}
   IMAGE_TAG: 2f
-  # permesu set-env en eligaĵoj...
-  # vd. https://github.blog/changelog/2020-10-01-github-actions-deprecating-set-env-and-add-path-commands/
-  # ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   
-# https://github.com/actions/create-release
-# https://help.github.com/en/actions/reference/development-tools-for-github-actions
+# agoj (gh-actions)
+# https://github.com/softprops/action-gh-release
 # https://github.com/actions/github-script
+# https://help.github.com/en/actions/reference/development-tools-for-github-actions
 
 jobs:
   eldono:
@@ -35,21 +33,21 @@ jobs:
       run: |
         echo $TAGO
 
-    - uses: actions/github-script@0.4.0
+    - uses: actions/github-script@v6
       name: Movu etikedon al la nuna kap-pozicio
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
           var result = {};
-          const ref = await github.git.getRef({
+          const ref = await github.rest.git.getRef({
               owner: context.repo.owner,
               repo: context.repo.repo,            
               ref: 'heads/master'})
           const sha = ref.data.object.sha;
           console.log('HEAD is: '+sha);
           try {
-            result = await github.git.updateRef({  
+            result = await github.rest.git.updateRef({  
               owner: context.repo.owner,
               repo: context.repo.repo,            
               sha: sha,
@@ -58,7 +56,7 @@ jobs:
           } catch(error) {
             console.log("ERROR:");
             console.log(error);
-            result = await github.git.createRef({  
+            result = await github.rest.git.createRef({  
               owner: context.repo.owner,
               repo: context.repo.repo,            
               sha: sha,
@@ -68,20 +66,20 @@ jobs:
           console.log("RESULT...")
           console.log(result)
 
-    - uses: actions/github-script@0.4.0
+    - uses: actions/github-script@v6
       name: Forigu malnovan eldonon de tiu tago
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
           try {
-            const release = await github.repos.getReleaseByTag({
+            const release = await github.rest.repos.getReleaseByTag({
                 owner: context.repo.owner,
                 repo: context.repo.repo,            
                 tag: 'v${{ env.TAGO }}' })
             const release_id = release.data.id
             console.log('Release id is: '+release_id)
-            const result = await github.repos.deleteRelease({  
+            const result = await github.rest.repos.deleteRelease({  
               owner: context.repo.owner,
               repo: context.repo.repo,            
               release_id: release_id })
@@ -96,12 +94,12 @@ jobs:
 #'
     - name: Rekreu eldonon kun sama etikedo (semajntago)
       id: create_release
-      uses: actions/create-release@v1
+      uses: softprops/action-gh-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: v${{ env.TAGO }}
-        release_name: Eldono de ${{ env.TAGO }}
+        name: Eldono de ${{ env.TAGO }}
         draft: false
         prerelease: false
 
@@ -118,27 +116,28 @@ jobs:
         echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
     - name: Eltrovu la URL de la hodiaŭa eldono
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@v6
       id: retrieve_release
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-            const release = await github.repos.getReleaseByTag({
+            const release = await github.rest.repos.getReleaseByTag({
                 owner: context.repo.owner,
                 repo: context.repo.repo,            
                 tag: 'v${{ env.TAGO }}'
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            console.log('::set-output name=upload_url::'+upload_url)
+            //console.log('::set-output name=upload_url::'+upload_url)
+            core.setOutput('upload_url',upload_url)
 
 ##'
 ## const core = require('@actions/core')
 ## core.setOutput('upload_url', upload_url)
 
     - name: Elŝutu la dosierojn 
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
     - name: Saluto al ghcr.io
         # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
         # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
@@ -165,10 +164,10 @@ jobs:
       id: retrovu_zip
       run: |
         ls -l $GITHUB_WORKSPACE/tgz
-        echo "::set-output name=revosql::$(basename -- tgz/revosql_20*)"
-        echo "::set-output name=revosql_inx::$(basename -- tgz/revosql-inx_20*)"
-        #echo "{revosql}={$(basename -- tgz/revosql_20*)}" >> $GITHUB_OUTPUT
-        #echo "{revosql_inx}={$(basename -- tgz/revosql-inx_20*)}" >> $GITHUB_OUTPUT
+        #echo "::set-output name=revosql::$(basename -- tgz/revosql_20*)"
+        #echo "::set-output name=revosql_inx::$(basename -- tgz/revosql-inx_20*)"
+        echo "revosql=$(basename -- tgz/revosql_20*)" >> $GITHUB_OUTPUT
+        echo "revosql_inx=$(basename -- tgz/revosql-inx_20*)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu sqlrevo-inx
       id: upload-inx 
@@ -202,27 +201,28 @@ jobs:
         echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
     - name: Eltrovu la URL de la hodiaŭa eldono
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@v6
       id: retrieve_release
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-            const release = await github.repos.getReleaseByTag({
+            const release = await github.rest.repos.getReleaseByTag({
                 owner: context.repo.owner,
                 repo: context.repo.repo,            
                 tag: 'v${{ env.TAGO }}'
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            console.log('::set-output name=upload_url::'+upload_url)
+            //console.log('::set-output name=upload_url::'+upload_url)
+            core.setOutput('upload_url',upload_url)
 
 ##'
 ## const core = require('@actions/core')
 ## core.setOutput('upload_url', upload_url)
 
     - name: Elŝutu la dosierojn 
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
     - name: Saluto al ghcr.io
         # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
         # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
@@ -249,8 +249,8 @@ jobs:
       id: retrovu_zip
       run: |
         ls -l $GITHUB_WORKSPACE/tgz
-        echo "::set-output name=revoxdxf::$(basename -- tgz/revoxdxf_20*.zip)"
-        #echo "{revoxdxf}={$(basename -- tgz/revoxdxf_20*.zip)}" >> $GITHUB_OUTPUT
+        #echo "::set-output name=revoxdxf::$(basename -- tgz/revoxdxf_20*.zip)"
+        echo "revoxdxf=$(basename -- tgz/revoxdxf_20*.zip)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu xdxf
       id: upload-xdxf 
@@ -274,17 +274,18 @@ jobs:
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
         echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
-    - uses: actions/github-script@0.4.0
+    - uses: actions/github-script@v6
       name: Eltrovu la nunan pozicion (kapo)
       id: trovu_kapon
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-          const ref = await github.git.getRef({...context.repo, ref: 'heads/master'})
+          const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          console.log('::set-output name=sha_hm::'+sha)
+          //console.log('::set-output name=sha_hm::'+sha)
+          core.setOutput('sha_hm',sh)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
     # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
@@ -316,27 +317,28 @@ jobs:
         ls -l .tgz/ .log/
         
     - name: Eltrovu la URL de la hodiaŭa eldono
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@v6
       id: retrieve_release
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-            const release = await github.repos.getReleaseByTag({
+            const release = await github.rest.repos.getReleaseByTag({
                 owner: context.repo.owner,
                 repo: context.repo.repo,            
                 tag: 'v${{ env.TAGO }}'
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            console.log('::set-output name=upload_url::'+upload_url)
+            //console.log('::set-output name=upload_url::'+upload_url)
+            core.setOutput('upload_url',upload_url)
 
     - name: Retrovu la rezultintan ZIP-dosierujon
       id: revo_zip
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
-        echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
-        #echo "{revohtml}={$(basename -- .tgz/revohtml_20*)}" >> $GITHUB_OUTPUT
+        #echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
+        echo "revohtml=$(basename -- .tgz/revohtml_20*)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
@@ -360,17 +362,18 @@ jobs:
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
         echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
-    - uses: actions/github-script@0.4.0
+    - uses: actions/github-script@v6
       name: Eltrovu la nunan pozicion (kapo)
       id: trovu_kapon
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-          const ref = await github.git.getRef({...context.repo, ref: 'heads/master'})
+          const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          console.log('::set-output name=sha_hm::'+sha)
+          //console.log('::set-output name=sha_hm::'+sha)
+          core.setOutput('sha_hm',sha)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
     # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
@@ -402,27 +405,28 @@ jobs:
         ls -l .tgz/ .log/
        
     - name: Eltrovu la URL de la hodiaŭa eldono
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@v6
       id: retrieve_release
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-            const release = await github.repos.getReleaseByTag({
+            const release = await github.rest.repos.getReleaseByTag({
                 owner: context.repo.owner,
                 repo: context.repo.repo,            
                 tag: 'v${{ env.TAGO }}'
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            console.log('::set-output name=upload_url::'+upload_url)
+            //console.log('::set-output name=upload_url::'+upload_url)
+            core.setOutput('upload_url',upload_url)
 
     - name: Retrovu la rezultintan ZIP-dosierujon
       id: revo_zip
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
-        echo "::set-output name=revohtml::$(basename -- .tgz/revoart_20*)"
-        #echo "{revohtml}={$(basename -- .tgz/revoart_20*)}" >> $GITHUB_OUTPUT
+        #echo "::set-output name=revohtml::$(basename -- .tgz/revoart_20*)"
+        echo "revohtml=$(basename -- .tgz/revoart_20*)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
@@ -446,17 +450,18 @@ jobs:
         Tagoj=(Dimanĉo Lundo Mardo Merkredo Ĵaudo Vendredo Sabato)
         echo "TAGO=${Tagoj[ $(date +'%w') ]}" >> $GITHUB_ENV
 
-    - uses: actions/github-script@0.4.0
+    - uses: actions/github-script@v6
       name: Eltrovu la nunan pozicion (kapo)
       id: trovu_kapon
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-          const ref = await github.git.getRef({...context.repo, ref: 'heads/master'})
+          const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          console.log('::set-output name=sha_hm::'+sha)
+          //console.log('::set-output name=sha_hm::'+sha)
+          core.setOutput('sha_hm',sha)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
     # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
@@ -488,27 +493,28 @@ jobs:
         ls -l .tgz/ .log/
         
     - name: Eltrovu la URL de la hodiaŭa eldono
-      uses: actions/github-script@0.4.0
+      uses: actions/github-script@v6
       id: retrieve_release
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         debug: true
         script: |
-            const release = await github.repos.getReleaseByTag({
+            const release = await github.rest.repos.getReleaseByTag({
                 owner: context.repo.owner,
                 repo: context.repo.repo,            
                 tag: 'v${{ env.TAGO }}'
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            console.log('::set-output name=upload_url::'+upload_url)
+            //console.log('::set-output name=upload_url::'+upload_url)
+            core.setOutput('upload_url',upload_url)
 
     - name: Retrovu la rezultintan ZIP-dosierujon
       id: revo_zip
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
-        echo "::set-output name=revohtml::$(basename -- .tgz/revohst_20*)"
-        #echo "{revohtml}={$(basename -- .tgz/revohst_20*)}"" >> $GITHUB_OUTPUT
+        #echo "::set-output name=revohtml::$(basename -- .tgz/revohst_20*)"
+        echo "revohtml=$(basename -- .tgz/revohst_20*)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
