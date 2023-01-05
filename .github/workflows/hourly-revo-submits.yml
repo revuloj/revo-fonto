@@ -71,8 +71,8 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        #echo "::set-output name=KONFIRMO_GH::$(grep -l '\"konfirmo\"' .log/mail_sent*)"
         echo "KONFIRMO_GH=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
+        cat .log/mail_sent*
         grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent* || true >> $GITHUB_STEP_SUMMARY
 
     - name: Konservu protokolojn
@@ -132,7 +132,6 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        #echo "::set-output name=KONFIRMO_DB::$(grep -l '\"konfirmo\"' .log/mail_sent*)"
         echo "KONFIRMO_DB=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
         grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent*  || true >> $GITHUB_STEP_SUMMARY
 
@@ -166,7 +165,6 @@ jobs:
           const ref = await github.rest.git.getRef({...context.repo, ref: 'tags/hora-formiko'})
           const sha = ref.data.object.sha
           console.log('hora-formiko estas ĉe: '+sha)
-          //console.log('::set-output name=sha_hf::'+sha)
           core.setOutput('sha_hf',sha)
 
     - uses: actions/github-script@v6
@@ -179,7 +177,6 @@ jobs:
           const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          //console.log('::set-output name=sha_hm::'+sha)
           core.setOutput('sha_hm',sha)
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
