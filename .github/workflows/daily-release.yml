@@ -171,7 +171,7 @@ jobs:
 
     - name: Alpendigu sqlrevo-inx
       id: upload-inx 
-      uses: actions/upload-release-asset@v1
+      uses: sekwah41/upload-release-assets@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -181,7 +181,7 @@ jobs:
         asset_content_type: application/zip
     - name: Alpendigu sqlrevo
       id: upload-inx-art 
-      uses: actions/upload-release-asset@v1
+      uses: sekwah41/upload-release-assets@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -254,7 +254,7 @@ jobs:
 
     - name: Alpendigu xdxf
       id: upload-xdxf 
-      uses: actions/upload-release-asset@v1
+      uses: sekwah41/upload-release-assets@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -342,7 +342,7 @@ jobs:
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
-      uses: actions/upload-release-asset@v1
+      uses: sekwah41/upload-release-assets@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -430,7 +430,7 @@ jobs:
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
-      uses: actions/upload-release-asset@v1
+      uses: sekwah41/upload-release-assets@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -518,7 +518,7 @@ jobs:
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
       id: upload-zip 
-      uses: actions/upload-release-asset@v1
+      uses: sekwah41/upload-release-assets@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
