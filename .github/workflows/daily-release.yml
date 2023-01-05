@@ -285,7 +285,7 @@ jobs:
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
           //console.log('::set-output name=sha_hm::'+sha)
-          core.setOutput('sha_hm',sh)
+          core.setOutput('sha_hm',sha)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
     # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
