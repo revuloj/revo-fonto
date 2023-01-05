@@ -72,8 +72,9 @@ jobs:
       run: |
         ls -l .tmp/ .log/
         echo "KONFIRMO_GH=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
-        cat .log/mail_sent*
+        cat .log/mail_sent* || true
         jq -r '[.[] | [.rezulto,.artikolo,.shangho]|join("; ")| gsub("[$]";"")]|join("\\n")' .log/mail_sent* >> $GITHUB_STEP_SUMMARY
+        # aŭ tabele: jq -r '[.[] | ["",.rezulto,.artikolo,.shangho,""]|join("|")| gsub("[$]";"")]|join("\\n")' ...
         # grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent* || true >> $GITHUB_STEP_SUMMARY
 
     - name: Konservu protokolojn
@@ -134,7 +135,7 @@ jobs:
       run: |
         ls -l .tmp/ .log/
         echo "KONFIRMO_DB=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
-        cat .log/mail_sent*
+        cat .log/mail_sent* || true
         jq -r '[.[] | [.rezulto,.artikolo,.shangho]|join("; ")| gsub("[$]";"")]|join("\\n")' .log/mail_sent* >> $GITHUB_STEP_SUMMARY
         #grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent*  || true >> $GITHUB_STEP_SUMMARY
 
