@@ -73,7 +73,8 @@ jobs:
         ls -l .tmp/ .log/
         echo "KONFIRMO_GH=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
         cat .log/mail_sent*
-        grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent* || true >> $GITHUB_STEP_SUMMARY
+        jq -r '[.[].rezulto,.[].artikolo,.[].shangho]|join("; ")| gsub("[$]";"")' .log/mail_sent* >> $GITHUB_STEP_SUMMARY
+        # grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent* || true >> $GITHUB_STEP_SUMMARY
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
@@ -133,7 +134,9 @@ jobs:
       run: |
         ls -l .tmp/ .log/
         echo "KONFIRMO_DB=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
-        grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent*  || true >> $GITHUB_STEP_SUMMARY
+        cat .log/mail_sent*
+        jq -r '[.[].rezulto,.[].artikolo,.[].shangho]|join("; ")| gsub("[$]";"")' .log/mail_sent* >> $GITHUB_STEP_SUMMARY
+        #grep -E -h -s '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent*  || true >> $GITHUB_STEP_SUMMARY
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
