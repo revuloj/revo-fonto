@@ -73,6 +73,7 @@ jobs:
         ls -l .tmp/ .log/
         #echo "::set-output name=KONFIRMO_GH::$(grep -l '\"konfirmo\"' .log/mail_sent*)"
         echo "KONFIRMO_GH=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
+        grep -E -h '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent* >> $GITHUB_STEP_SUMMARY
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
@@ -133,6 +134,7 @@ jobs:
         ls -l .tmp/ .log/
         #echo "::set-output name=KONFIRMO_DB::$(grep -l '\"konfirmo\"' .log/mail_sent*)"
         echo "KONFIRMO_DB=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
+        grep -E -h '^\"(artikolo|rezulto|shangho)\"' .log/mail_sent* >> $GITHUB_STEP_SUMMARY
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
