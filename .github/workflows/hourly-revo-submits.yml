@@ -140,7 +140,7 @@ jobs:
           echo "KONFIRMO_DB=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
           cat .log/mail_sent*
           jq -r '[.[] | ["",.rezulto,.artikolo,.shangho,""]|join("|")| gsub("[$]";"")]|join("\\n")' .log/mail_sent* >>   $GITHUB_STEP_SUMMARY
-        fir
+        fi
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v1
