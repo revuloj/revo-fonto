@@ -74,7 +74,8 @@ jobs:
         if ls .log/mail_sent* 2>/dev/null 1>&2; then
           # kontrolu ĉu estas iu konfirmita redakto, rezulto nur estu unulinia, pro tio ni uzas if...
           echo "KONFIRMO_GH=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
-          cat .log/mail_sent*
+          # cat .log/mail_sent*
+          echo "|-|-|" >> $GITHUB_STEP_SUMMARY
           jq -r '[.[] | ["",.rezulto,.artikolo,.shangho,""]|join("|")| gsub("[$]";"")]|join("\\n")' .log/mail_sent* >> $GITHUB_STEP_SUMMARY
         fi
 
@@ -138,7 +139,8 @@ jobs:
         if ls .log/mail_sent* 2>/dev/null 1>&2; then
           # kontrolu ĉu estas iu konfirmita redakto, rezulto nur estu unulinia, pro tio ni uzas if...
           echo "KONFIRMO_DB=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
-          cat .log/mail_sent*
+          # cat .log/mail_sent*
+          echo "|-|-|" >> $GITHUB_STEP_SUMMARY
           jq -r '[.[] | ["",.rezulto,.artikolo,.shangho,""]|join("|")| gsub("[$]";"")]|join("\\n")' .log/mail_sent* >>   $GITHUB_STEP_SUMMARY
         fi
 
