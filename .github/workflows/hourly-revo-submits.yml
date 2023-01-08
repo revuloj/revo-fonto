@@ -71,7 +71,7 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        if [[ -f ".log/mail_sent*" ]]; then
+        if ls .log/mail_sent* 2>/dev/null 1>&2; then
           # kontrolu ĉu estas iu konfirmita redakto, rezulto nur estu unulinia, pro tio ni uzas if...
           echo "KONFIRMO_GH=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
           cat .log/mail_sent*
@@ -135,7 +135,7 @@ jobs:
       id: rigardu_protokolon
       run: |
         ls -l .tmp/ .log/
-        if [[ -f ".log/mail_sent*" ]]; then
+        if ls .log/mail_sent* 2>/dev/null 1>&2; then
           # kontrolu ĉu estas iu konfirmita redakto, rezulto nur estu unulinia, pro tio ni uzas if...
           echo "KONFIRMO_DB=$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)" >> $GITHUB_OUTPUT
           cat .log/mail_sent*
