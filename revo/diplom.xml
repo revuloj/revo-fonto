@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: diplom.xml,v 1.20 2022/03/15 15:50:55 revo Exp $">
+<art mrk="$Id: diplom.xml,v 1.21 2023/01/11 07:24:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>diplom</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,21 +12,74 @@
   <snc mrk="diplom.0o.PED">
     <uzo tip="fak">PED</uzo>
     <dif>
-      Oficiala dokumento,
+      Oficiala <ref tip="super" cel="dokume.0o">dokumento</ref>,
       <ref tip="super" cel="atest.0ilo.JUR">atestilo</ref>
       pri rajto, privilegio a&ubreve; ranga titolo:
       <ekz>
-        pergamena, papirusa <tld/>o;
+        la somera kunveno <klr>[&#8230;]</klr> servas sole <klr>[&#8230;]</klr> por finado de la
+        lerna jaro kaj por disdono de <tld/>oj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>o pri nobeligo;
+        <tld/>o sub vitro
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oficistoj <klr>[&#8230;]</klr> eldonis aktojn kaj <tld/>ojn
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro VII.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Supera Helena Esperanta Instituto, kiu unuavice distribuas <tld/>ojn en tri
+        gradoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>.
+      </ekz>
+<!--
+      <ekz>
+        <tld/>o pri nobeligo.
         <trd lng="hu">nemesi <ind>oklev&eacute;l</ind></trd>
       </ekz>
+-->
+    </dif>
+  </snc>
+  <snc mrk="diplom.0o.akademia">
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      <ref tip="super" cel="atest.0o">Atesto</ref> pri sukcesa ekzamenado pri akademia edukado en iu fako:
       <ekz>
-        <tld/>o de profesoro;
+        per la studado de la parolarto kaj de la filozofio, sin turnis al la literatura
+        <tld/>o
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        post sukcesa ekzameno li ricevis la <tld/>on de abituriento.
+        la <tld/>on kuracistan Ludoviko <nom>Zamenhof</nom> ricevis jam du jarojn
+        anta&ubreve;<klr>[e]</klr>
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malgra&ubreve; mia <tld/>o, ricevita de la oksforda universitato, mi estos
+        <klr>[&#8230;]</klr> envicigita al iu malsupra lernejo
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvara &Ccirc;apitro</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -35,7 +88,7 @@
   <trdgrp lng="cs">
     <trd>diplom</trd>,
     <trd>listina</trd>,
-    <trd>osv&#x11B;d&#x10D;en&#xED;</trd>
+    <trd>osv&ecaron;d&ccaron;en&iacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Diplom</trd>,
@@ -62,11 +115,11 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>diplom</trd>,
-    <trd>osved&#x10D;enie</trd>
+    <trd>osved&ccaron;enie</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x438;&#x43F;&#x43B;&#x43E;&#x43C;</trd>,
-    <trd>&#x430;&#x442;&#x435;&#x441;&#x442;&#x430;&#x442;</trd>
+    <trd>&c_d;&c_i;&c_p;&c_l;&c_o;&c_m;</trd>,
+    <trd>&c_a;&c_t;&c_je;&c_s;&c_t;&c_a;&c_t;</trd>
   </trdgrp>
 </drv>
 
@@ -83,7 +136,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_y;&c_p;&c_l;&c_ja;&c_m;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="cs">ud&#x11B;lit diplom</trd>
+  <trd lng="cs">ud&ecaron;lit diplom</trd>
   <trdgrp lng="de">
     <trd>diplomieren</trd>,
     <trd>ernennen</trd>,
@@ -102,12 +155,66 @@
     &c_d;&c_i;&c_p;&c_l;&c_o;&c_m;&c_o;&c_m;</trd>,
     <trd>&c_d;&c_i;&c_p;&c_l;&c_o;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">udeli&#x165; diplom</trd>
-  <trd lng="uk">&#x432;&#x438;&#x43F;&#x443;&#x441;&#x43A;&#x430;&#x442;&#x438; &#x437; &#x434;&#x438;&#x43F;&#x43B;&#x43E;&#x43C;&#x43E;&#x43C;</trd>
+  <trd lng="sk">udeli&tcaron; diplom</trd>
+  <trd lng="uk">&c_v;&c_i;&c_p;&c_u;&c_s;&c_k;&c_a;&c_t;&c_i; &c_z; &c_d;&c_i;&c_p;&c_l;&c_o;&c_m;&c_o;&c_m;</trd>
 </drv>
+
+<drv mrk="diplom.0ito">
+  <kap>
+    <tld/>ito
+  </kap>
+  <snc>
+    <dif>
+      Akirinto de akademia titolo per <tld/>o<sncref ref="deiplom.0o.PED"/>:
+      <ekz>
+        <tld/>itoj de porinstruistaj kolegioj kaj de universitatoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007193.html"
+              >Pollando: Instruisto de la angla ser&ccirc;ata</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ito de barata universitato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2004/008223.html"
+              >&Ccirc;e-telefone ... kiu?</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        junaj <tld/>itoj de la universitatoj apena&ubreve; trovas laborpostenojn, aparte en
+        &scirc;tataj institucioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2012/010878.php"
+              >Vivi &ccirc;e la mar&gcirc;enoj</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="bakala.0o">bakala&ubreve;ro</ref>,
+      <ref cel="magist.0o.PED">magistro</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Diplom-</trd>,
+    <trd>Absolvent <klr>(Universit&auml;t)</klr></trd>
+  </trdgrp>
+</drv>
+
+
+
 </art>
 <!--
 $Log$
+versio 1.21 2023/01/11 07:24:15
+Wolfram Diestel: +snc PED; +~ito; ekz-oj, ref
+
 Revision 1.18  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -127,11 +234,5 @@ Revision 1.13  2007/08/08 16:30:30  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2003/12/13 17:34:05  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/07/14 16:33:19  revo
-Marc Bavant: kor mrk
-
-Revision 1.10  2003/05/19 19:38:29  revo
 -->
 </vortaro>
