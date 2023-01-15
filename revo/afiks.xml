@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: afiks.xml,v 1.34 2022/04/26 14:57:17 revo Exp $">
+<art mrk="$Id: afiks.xml,v 1.35 2023/01/15 19:22:56 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>afiks</rad>/o <fnt><bib>LR</bib></fnt>
@@ -100,6 +100,7 @@
     <trd>zrostek</trd>
   </trdgrp>
   <trd lng="pt">afixo</trd>
+  <trd lng="ro">afix</trd>
   <trd lng="ru">&c_a;&c_f;&c_f;&c_i;&c_k;&c_s;</trd>
   <trdgrp lng="sk">
     <trd>afix</trd>,
@@ -111,8 +112,8 @@
     <trd>till&auml;ggsstavelse</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x444;&#x456;&#x43A;&#x441;</trd>,
-    <trd>&#x441;&#x43B;&#x43E;&#x432;&#x43E;&#x442;&#x432;&#x43E;&#x440;&#x447;&#x430; &#x447;&#x430;&#x441;&#x442;&#x43A;&#x430;</trd>
+    <trd>&c_a;&c_f;&c_ib;&#x43A;&c_s;</trd>,
+    <trd>&c_s;&#x43B;&#x43E;&c_v;&#x43E;&c_t;&c_v;&#x43E;&c_r;&c_ch;&c_a; &c_ch;&c_a;&c_s;&c_t;&#x43A;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -123,7 +124,7 @@
     <dif>
       <ref tip="dif" cel="prefik.0o.GRA">Prefikso</ref>:
       <ekz>
-        anta&ubreve;<tld/>oj <klr>[&#x2026;]</klr> aperas anta&ubreve; aliaj radikoj
+        anta&ubreve;<tld/>oj <klr>[&#8230;]</klr> aperas anta&ubreve; aliaj radikoj
         <fnt>
           <aut>B. Wennergren</aut>,
           <vrk><url ref="http://eo.lernu.net/lernado/gramatiko/detala/vortfarado.php">
@@ -168,6 +169,7 @@
     <trd>przedrostek</trd>
   </trdgrp>
   <trd lng="pt">prefixo</trd>
+  <trd lng="ro">prefix</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
 </drv>
 
@@ -194,6 +196,11 @@
   <trd lng="en">circumfix</trd>
   <trd lng="fr">circonfixe</trd>
   <trd lng="it">circonfisso</trd>
+  <trdgrp lng="pl">
+    <trd>oko&lstroke;orostek</trd>,
+    <trd>cyrkumfiks</trd>
+  </trdgrp>
+  <trd lng="ro">circumfix</trd>
 </drv>
 
 <drv mrk="afiks.en0o">
@@ -204,8 +211,8 @@
       <ref tip="super" cel="afiks.0o.GRA">Afikso</ref>
       kiu enmeti&gcirc;as en la &ccirc;efparton de modifata vorto:
       <ekz>
-        la morfologio uzas <klr>[&#x2026;]</klr> multajn <tld/>ojn 
-        (anta&ubreve;<tld/>oj, post<tld/>oj, en<tld/>oj<klr>[&#x2026;]</klr>)
+        la morfologio uzas <klr>[&#8230;]</klr> multajn <tld/>ojn 
+        (anta&ubreve;<tld/>oj, post<tld/>oj, en<tld/>oj<klr>[&#8230;]</klr>)
         <fnt>
           <bib>Viki</bib>,
           <lok><url ref="&Viki;/Ithkuil">
@@ -228,6 +235,7 @@
     <trd>infiks</trd>,
     <trd>wrostek</trd>
   </trdgrp>
+  <trd lng="ro">&icirc;nfix</trd>
 </drv>
 
 <drv mrk="afiks.post0o">
@@ -242,7 +250,8 @@
         <ctl>um</ctl>
         <fnt>
           <aut>F. Bettani</aut>,
-          <vrk><url ref="http://groups.google.com/group/la-bona-lingvo/browse_thread/thread/5e753b493cc39265">
+          <vrk><url
+          ref="http://groups.google.com/group/la-bona-lingvo/browse_thread/thread/5e753b493cc39265">
           &hcirc;emiaj elementoj</url></vrk>,
           <lok>la bona lingvo, 2010-12-26</lok>
         </fnt>.
@@ -283,6 +292,7 @@
     <trd>sufiks</trd>,
     <trd>przyrostek</trd>
   </trdgrp>
+  <trd lng="ro">sufix</trd>
   <trd lng="ru">&c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s;</trd>
   <trd lng="sk">pr&iacute;pona</trd>
 </drv>
@@ -308,10 +318,15 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="pl">afiks pozorny</trd>
+  <trd lng="ro">afix aparent</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2023/01/15 19:22:56
+Vito Redsky: +trd pl + trd ro
+
 versio 1.34 2022/04/26 14:57:17
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -331,8 +346,5 @@ Revision 1.25  2015/07/04 08:37:29  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.24  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.23  2015/05/27 17:10:15  revo
 -->
 </vortaro>
