@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akcent.xml,v 1.46 2022/04/26 14:57:17 revo Exp $">
+<art mrk="$Id: akcent.xml,v 1.47 2023/01/18 22:29:21 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>akcent</rad>/i <fnt><bib>FK</bib></fnt>
 </kap>
@@ -156,6 +156,7 @@
   <trd lng="id"><baz>tekan</baz>menekankan</trd>
   <trd lng="pl">akcentowa&cacute;</trd>
   <trd lng="pt">acentuar</trd>
+  <trd lng="ro">accentua</trd>
   <trdgrp lng="ru">
     <trd>&c_a;&c_k;&c_c;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;
@@ -230,6 +231,7 @@
     <trd>acentuado</trd>,
     <trd>t&ocirc;nico</trd>
   </trdgrp>
+  <trd lng="ro">accentuat</trd>
   <trd lng="ru">&c_u;&c_d;&c_a;&c_r;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>pr&iacute;zvu&ccaron;n&yacute;</trd>,
@@ -308,8 +310,8 @@
       <trd>accent</trd>,
       <trd>klemtoon</trd>
     </trdgrp>
-    <trd lng="pl">akcent</trd>
     <trd lng="ms">loghat</trd>
+    <trd lng="pl">akcent</trd>
     <trdgrp lng="pt">
     <trd>acento</trd>,
     <trd>acento t&ocirc;nico</trd>
@@ -458,6 +460,8 @@
     <trd>met <ind>nevenklemtoon</ind></trd>,
     <trd>met <ind>nevenaccent</ind></trd>
   </trdgrp>
+  <trd lng="pl">z <ind>akcentem</ind> wt&oacute;rnym</trd>
+  <trd lng="ro">cu <ind>accent</ind> secundar</trd>
   <trd lng="pt">subt&ocirc;nico</trd>
 </drv>
 
@@ -507,6 +511,7 @@
     <trd>bezakcentowy</trd>
   </trdgrp>
   <trd lng="pt">&aacute;tono</trd>
+  <trd lng="ro">neaccentat</trd>
   <trd lng="ru">&c_b;&c_je;&c_z;&c_u;&c_d;&c_a;&c_r;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">nepr&iacute;zvu&ccaron;n&yacute;</trd>
 </drv>
@@ -539,6 +544,10 @@
     <trd><ind>akcent</ind> ekspiracyjny</trd>
   </trdgrp>
   <trd lng="pt">acento de intensidade</trd>
+  <trdgrp lng="ro">
+    <trd>accent dinamic</trd>,
+    <trd>accent expirator</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_i;&c_l;&c_o;&c_v;&c_o;&c_je;
 <ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>,
@@ -586,6 +595,7 @@
   <trd lng="nl">toonaccent</trd>
   <trd lng="pl"><ind>akcent</ind> toniczny</trd>
   <trd lng="pt">acento de altura</trd>
+  <trd lng="ro">accent tonic</trd>
   <trd lng="ru">&c_m;&c_u;&c_z;&c_y;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
 <ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>
 </drv>
@@ -627,6 +637,7 @@
   <trd lng="nl">hoofdaccent</trd>
   <trd lng="pl">akcent g&lstroke;&oacute;wny</trd>
   <trd lng="pt">acento principal</trd>
+  <trd lng="ro">accent principal</trd>
   <trd lng="ru">&c_s;&c_i;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>
 </drv>
 
@@ -666,7 +677,9 @@
   </trdgrp>
   <trd lng="he">&#x5D0;&#x5D5;&#x5D1;&#x5D3;&#x5DF; &#x5DE;&#x5D1;&#x5D8;&#x5D0;</trd>
   <trd lng="nl">accentverlies</trd>
+  <trd lng="pl">utrata  <ind>akcentu</ind></trd>
   <trd lng="pt">perda de <ind>acento</ind></trd>
+  <trd lng="ro">pierderea  <ind>accentului</ind></trd>
   <trd lng="ru">&c_s;&c_v;&c_je;&c_r;&c_h;&c_s;&c_h;&c_je;&c_m;&c_n;&c_o;&c_je;
 <ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>
 </drv>
@@ -711,11 +724,15 @@
   <trd lng="nl">ritmisch <ind>accent</ind></trd>
   <trd lng="pl"><ind>akcent</ind> rytmiczny</trd>
   <trd lng="pt">acento r&iacute;tmico</trd>
+  <trd lng="ro">accent ritmic</trd>
   <trd lng="ru">&c_r;&c_i;&c_t;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.47 2023/01/18 22:29:21
+Vito Redsky: +trd pl + trd ro
+
 versio 1.46 2022/04/26 14:57:17
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -735,9 +752,6 @@ Revision 1.38  2017/04/13 07:10:11  revo
 Ludoviko Francisco: +ind klr trd fr
 
 Revision 1.37  2017/02/24 23:10:21  revo
-Jeromo Vasxe: jurnalistoj -> jxurnalistoj
-
-Revision 1.36  2017/02/08 14:10:19  revo
 -->
 
 </vortaro>
