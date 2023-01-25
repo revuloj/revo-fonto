@@ -32,7 +32,6 @@ jobs:
           const ref = await github.rest.git.getRef({...context.repo, ref: 'tags/nokta-formiko'})
           const sha = ref.data.object.sha
           console.log('nokta-formiko estas ĉe: '+sha)
-          //console.log('::set-output name=sha_nf::'+sha)
           core.setOutput('sha_nf',sha)
 
     - uses: actions/github-script@v6
@@ -45,7 +44,6 @@ jobs:
           const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          //console.log('::set-output name=sha_hm::'+sha)
           core.setOutput('sha_hm',sha)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    

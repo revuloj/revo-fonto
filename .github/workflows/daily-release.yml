@@ -129,7 +129,6 @@ jobs:
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            //console.log('::set-output name=upload_url::'+upload_url)
             core.setOutput('upload_url',upload_url)
 
 ##'
@@ -164,8 +163,6 @@ jobs:
       id: retrovu_zip
       run: |
         ls -l $GITHUB_WORKSPACE/tgz
-        #echo "::set-output name=revosql::$(basename -- tgz/revosql_20*)"
-        #echo "::set-output name=revosql_inx::$(basename -- tgz/revosql-inx_20*)"
         echo "revosql=$(basename -- tgz/revosql_20*)" >> $GITHUB_OUTPUT
         echo "revosql_inx=$(basename -- tgz/revosql-inx_20*)" >> $GITHUB_OUTPUT
 
@@ -214,7 +211,6 @@ jobs:
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            //console.log('::set-output name=upload_url::'+upload_url)
             core.setOutput('upload_url',upload_url)
 
 ##'
@@ -249,7 +245,6 @@ jobs:
       id: retrovu_zip
       run: |
         ls -l $GITHUB_WORKSPACE/tgz
-        #echo "::set-output name=revoxdxf::$(basename -- tgz/revoxdxf_20*.zip)"
         echo "revoxdxf=$(basename -- tgz/revoxdxf_20*.zip)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu xdxf
@@ -284,7 +279,6 @@ jobs:
           const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          //console.log('::set-output name=sha_hm::'+sha)
           core.setOutput('sha_hm',sha)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
@@ -330,14 +324,12 @@ jobs:
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            //console.log('::set-output name=upload_url::'+upload_url)
             core.setOutput('upload_url',upload_url)
 
     - name: Retrovu la rezultintan ZIP-dosierujon
       id: revo_zip
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
-        #echo "::set-output name=revohtml::$(basename -- .tgz/revohtml_20*)"
         echo "revohtml=$(basename -- .tgz/revohtml_20*)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
@@ -372,7 +364,6 @@ jobs:
           const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          //console.log('::set-output name=sha_hm::'+sha)
           core.setOutput('sha_hm',sha)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
@@ -418,14 +409,12 @@ jobs:
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            //console.log('::set-output name=upload_url::'+upload_url)
             core.setOutput('upload_url',upload_url)
 
     - name: Retrovu la rezultintan ZIP-dosierujon
       id: revo_zip
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
-        #echo "::set-output name=revohtml::$(basename -- .tgz/revoart_20*)"
         echo "revohtml=$(basename -- .tgz/revoart_20*)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
@@ -460,7 +449,6 @@ jobs:
           const ref = await github.rest.git.getRef({...context.repo, ref: 'heads/master'})
           const sha = ref.data.object.sha
           console.log('heads/master estas ĉe: '+sha)
-          //console.log('::set-output name=sha_hm::'+sha)
           core.setOutput('sha_hm',sha)
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
@@ -506,14 +494,12 @@ jobs:
             })
             const upload_url = release.data.upload_url            
             console.log('UploadURL is: '+upload_url)
-            //console.log('::set-output name=upload_url::'+upload_url)
             core.setOutput('upload_url',upload_url)
 
     - name: Retrovu la rezultintan ZIP-dosierujon
       id: revo_zip
       run: |
         ls -l $GITHUB_WORKSPACE/.tgz
-        #echo "::set-output name=revohtml::$(basename -- .tgz/revohst_20*)"
         echo "revohtml=$(basename -- .tgz/revohst_20*)" >> $GITHUB_OUTPUT
 
     - name: Alpendigu revo-zip al la hodiaŭa eldono
