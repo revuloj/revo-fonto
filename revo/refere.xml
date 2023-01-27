@@ -1,131 +1,269 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: refere.xml,v 1.28 2022/03/26 18:10:07 revo Exp $">
-    <kap>
-      <ofc>3</ofc>
-      <rad>referenc</rad>/o
-    </kap>
+  <art mrk="$Id: refere.xml,v 1.29 2023/01/27 22:26:45 revo Exp $">
+<kap>
+  <ofc>3</ofc>
+  <rad>referenc</rad>/o
+</kap>
 
-    <drv mrk="refere.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="refere.0o.bibliografia">
-        <dif>
-          Atentigo pri originala pruva a&ubreve; utila teksto:
-          <ekz>
-            la &jcirc;us aperinta bibliografio enhavas <tld/>ojn al iom pli 
-            ol 2000 tradukoj
-            <fnt>
-              <aut>Paul Peeraerts</aut>,
-              <vrk>Kiu sekvos? (William Auld kaj E. G. Evans,
-              Bibliografio de
-                tradukoj el la angla lingvo)</vrk>,
-              <bib>Monato</bib>, <lok>jaro 1996a, numero 6a, p.
-              20a</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="biblio.0o">bibliografio</ref>,
-          <ref cel="cit.0ajxo">cita&jcirc;o</ref>
-        </refgrp>
-        <trdgrp lng="be">
-          <trd>&c_s;&c_p;&c_a;&c_s;&c_y;&c_l;&c_k;&c_a;</trd>,
-          <trd>&c_u;&c_k;&c_a;&c_z;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
-        </trdgrp>
-        <trdgrp lng="de">
-          <trd>Verweis</trd>,
-          <trd>Quellenangabe</trd>
-        </trdgrp>
-        <trd lng="en">reference</trd>
-        <trd lng="fa">&a_m;&a_r;&a_j;&a_ayn;</trd>
-        <trdgrp lng="fr">
-          <trd>r&eacute;f&eacute;rence<klr> (bibliographique)</klr></trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>hivatkoz&aacute;s</trd>,
-          <trd>referencia</trd>
-        </trdgrp>
-        <trdgrp lng="nl">
-          <trd>referentie</trd>,
-          <trd>bronvermelding</trd>
-        </trdgrp>
-        <trdgrp lng="pl">
-          <trd>odno&sacute;nik</trd>,
-          <trd>odsy&lstroke;acz</trd>
-        </trdgrp>
-        <trd lng="pt">refer&ecirc;ncia</trd>
-        <trd lng="ru">&c_s;&c_s;&c_y;&c_l;&c_k;&c_a;<klr tip="ind">
-        (&c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;)</klr></trd>
-      </snc>
-
-      <snc mrk="refere.0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <fnt><bib>KompLeks</bib></fnt>
-        <fnt><bib>PIV2</bib></fnt>
-        <dif>
-          Datumo a&ubreve; variablo, kies valoro estas la adreso de alia
-          datumo a&ubreve; variablo:
-          <ekz>
-            &Ccirc;i tie <frm>*fp</frm> estas montrilo, deklarita kiel
-            <frm>FILE(FILE&nbsp;*fp)</frm>,
-            en kiu ni tenos la <tld/>on al la malfermita dosiero.
-          </ekz>
-        </dif>
-        <trdgrp lng="en">
-          <trd>reference</trd>,
-          <trd>pointer</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_s;&c_s;&c_y;&c_l;&c_k;&c_a;<klr tip="ind"> (&c_u;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;)</klr></trd>,
-          <trd>&c_u;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
-        </trdgrp>
-      </snc>
-
-      <snc mrk="refere.0o.rekomendo">
-        <uzo tip="stl">RAR</uzo>
-        <uzo tip="stl">EVI</uzo>
-        <dif>
-          Rekomenda atesto.
-        </dif>
-        <ref tip="vid" cel="leter.rekomend0o">rekomendletero</ref>
-        <rim>
-          Tiu kromsignifo sen logika rilato al la &ccirc;efsignifo
-          <tld/>o<sncref ref="refere.0o.bibliografia"/>, pa&ubreve;sas
-          nacilingvan nelogika&jcirc;on de kelkaj naciaj lingvoj.
-        </rim>
-        <trdgrp lng="be">
-          <trd>&c_r;&c_e;&c_k;&c_a;&c_m;&c_e;&c_n;&c_d;&c_a;&c_c;&c_y;&c_ja;</trd>,
-          <trd>&c_r;&c_e;&c_k;&c_a;&c_m;&c_e;&c_n;&c_d;&c_a;&c_c;&c_y;&c_j;&c_n;&c_y; &c_l;&c_ib;&c_s;&c_t;</trd>
-        </trdgrp>
-        <trdgrp lng="de">
-          <trd>Referenz</trd>,
-          <trd>Empfehlungsschreiben</trd>
-        </trdgrp>
-        <trdgrp lng="en">
-          <trd>reference</trd>,
-          <trd>testimonial</trd>,
-          <trd>recommendation</trd>
-        </trdgrp>
-        <trdgrp lng="fa">
-          <trd>&a_t;&a_w;&a_S;&f_y;&a_h;&zwnj;&a_n;&a_A;&a_m;&a_h;</trd>,
-          <trd>&a_m;&a_ayn;&a_r;&a_f;&f_y;&zwnj;&a_n;&a_A;&a_m;&a_h;</trd>
-        </trdgrp>
-        <trdgrp lng="fr">
-          <trd>r&eacute;f&eacute;rence<klr> (recommandation)</klr></trd>
-        </trdgrp>
-        <trd lng="hu">referencia</trd>
-        <trd lng="nl">referentie</trd>
-        <trdgrp lng="pl">
-          <trd>referencje</trd>,
-          <trd>opnia</trd>,
-          <trd>&sacute;wiadectwo</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_r;&c_je;&c_k;&c_o;&c_m;&c_je;&c_n;&c_d;&c_a;&c_c;&c_i;&c_ja;</trd>,
-          <trd>&c_r;&c_je;&c_k;&c_o;&c_m;&c_je;&c_n;&c_d;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je; &c_p;&c_i;&c_s;&c_mol;&c_m;&c_o;</trd>
-        </trdgrp>
-      </snc>
+<drv mrk="refere.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="refere.0o.bibliografia">
+    <dif>
+      <ref tip="super" cel="indik.0o.sciigo">Indiko</ref> pri originala pruva a&ubreve; utila teksto:
+      <ekz>
+        bibliografiaj <tld/>oj
+        <fnt>
+          <bib>ChV</bib>
+          <lok>16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o al pa&gcirc;o 28
+        <fnt>
+          <bib>BonaLingvo</bib>
+          <lok>6. Ies Malfido, Fido Mia</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li sendos al mi tutan liston da <tld/>oj pri la temo
+        <fnt>
+          <bib>ChR</bib>
+          <lok>Ne nur tamtamado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        debato pri eksplicita <tld/>o al religio en estonta EU-konstitucio fervore bolas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istvan Ertl</aut>
+          <vrk><url ref="https://www.monato.be/2003/008103.html"
+              >Dio en la konstitucio, diablo en la detaloj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &jcirc;us aperinta bibliografio enhavas <tld/>ojn al iom pli 
+        ol 2000 tradukoj
+        <fnt>
+          <aut>Paul Peeraerts</aut>,
+          <vrk>Kiu sekvos? (William Auld kaj E. G. Evans,
+          Bibliografio de
+            tradukoj el la angla lingvo)</vrk>,
+          <bib>Monato</bib>, <lok>jaro 1996a, numero 6a, p.
+          20a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="biblio.0o">bibliografio</ref>,
+      <ref cel="cit.0ajxo">cita&jcirc;o</ref>,
+      <ref cel="menci.0o">mencio</ref>,
+      <ref cel="alud.0o">aludo</ref>
+    </refgrp>
+    <ref tip="vid" cel="verk.referenc0o">referencverko</ref>
+    <trdgrp lng="be">
+      <trd>&c_s;&c_p;&c_a;&c_s;&c_y;&c_l;&c_k;&c_a;</trd>,
+      <trd>&c_u;&c_k;&c_a;&c_z;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Verweis</trd>,
+      <trd>Quellenangabe</trd>
+    </trdgrp>
+    <trd lng="en">reference</trd>
+    <trd lng="fa">&a_m;&a_r;&a_j;&a_ayn;</trd>
+    <trdgrp lng="fr">
+      <trd>r&eacute;f&eacute;rence<klr> (bibliographique)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>hivatkoz&aacute;s</trd>,
+      <trd>referencia</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>referentie</trd>,
+      <trd>bronvermelding</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>odno&sacute;nik</trd>,
+      <trd>odsy&lstroke;acz</trd>
+    </trdgrp>
+    <trd lng="pt">refer&ecirc;ncia</trd>
+    <trd lng="ru">&c_s;&c_s;&c_y;&c_l;&c_k;&c_a;<klr tip="ind">
+    (&c_b;&c_i;&c_b;&c_l;&c_i;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;)</klr></trd>
+  </snc>
+  <snc mrk="refere.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <fnt><bib>KompLeks</bib></fnt>
+    <fnt><bib>PIV2</bib></fnt>
+    <dif>
+      Datumo a&ubreve; variablo, 
+      kies valoro estas la <ref tip="super" cel="adres.0o.KOMP">adreso</ref> 
+      de alia datumo a&ubreve; variablo:
+      <ekz>
+        <frm>k1</frm> deklarita kiel <frm>Konto&amp; k1</frm>
+        tenas referencon al kontobjekto
+        <klr>(kp <ref cel="montr.0ilo">montrilo</ref>)</klr>;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">RET</uzo>
+        malinstalu la programon liveritan kun la aparato kaj
+        instalu novan version, kies <tld/>o 
+        <klr>(<ref tip="sub" cel="adres.ret0o">retadreso</ref>,
+        <ref cel="lig.0ilo.KOMP">ligilo<sncref/></ref>)</klr> 
+        estis aldonita
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2008/009467.php"
+              >Pli komforte labori per komputilo</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>    
+    <trd lng="de">Referenz <klr>(Datentyp)</klr></trd>
+    <trdgrp lng="en">
+      <trd>reference</trd>,
+      <trd>pointer</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_s;&c_y;&c_l;&c_k;&c_a;<klr tip="ind"> (&c_u;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;)</klr></trd>,
+      <trd>&c_u;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="refere.0o.komparilo">
+    <dif>
+      <ref tip="super" cel="baz.0o.principo">Bazo</ref> por komparado, por normigo:
+      <ekz>
+        kompreni adjektivojn kiel ion absolutan, difinitan per si mem, dum fakte ili
+        postulas <tld/>on
+        <fnt>
+          <bib>BonaLingvo</bib>
+          <lok>3. Natura Sin-esprimado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili vivas la&ubreve; du <tld/>oj: la Religio (katolika) kaj la Patrio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marcel Lemeltier</aut>
+          <vrk><url ref="https://www.monato.be/2012/010235.php"
+              >&Ccirc;u forgesita trezoro?</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ekspansio de <nom>LF-koop</nom> faris el &ccirc;i tiu eldonejo kaj &gcirc;iaj multaj iniciatoj
+        <klr>[&#8230;]</klr> la &ccirc;efan <tld/>on por la tuta ra&ubreve;mismo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 5 (55)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Valencia Lingvo-Akademio <klr>[&#8230;]</klr> agnoski<klr>[s]</klr> kiel &#8218;&ccirc;iucelan
+        oficialan norman <tld/>on&#8216; la valencian uzitan ekde 1983 de la Departemento
+        pri Klerigo kaj Kulturo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;7</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="model.0o.tipo">modelo<sncref/></ref>,
+      <ref cel="norm.0o.TEK">normo<sncref/></ref>,
+      <ref cel="preced.0o">precedenco</ref>,
+      <ref cel="protot.0o.TEK">prototipo<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Referenz <klr>(Norm)</klr></trd>,
+      <trd>Vergleichsmuster</trd>,
+      <trd>Standard</trd>,
+      <trd>Bezug</trd>,
+      <trd>Muster <klr>(Referenz)</klr></trd>,
+      <trd>Referenzmuster</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="refere.0o.rekomendo">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      Rekomenda <ref cel="atest.0o">atesto</ref>:
+      <ekz>
+        scivolema kiel oni akceptos min, &ccirc;ar mi venis <klr>[&#8230;]</klr> sen rekomendoj kaj
+        nur kun <tld/>o al rapidaj konati&gcirc;oj dum mia pli frua vizito
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+          <lok>&Ccirc;e Lev Tolstoj en Jasnaja Poljana</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &scirc;ipoj, kiujn la viro veturis, estas la plej bonaj <tld/>oj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 38</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel <tld/>on, ni tamen povas aldoni, ke li havas &scirc;tatestrajn amikojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gilbert Ledon</aut>
+          <vrk><url ref="https://www.monato.be/2003/008015.html"
+              >Misa mondo</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la E&ubreve;ropa Komisiono opinias Esperanton artefarita lingvo, kiu ne havas
+        <klr>[&#8230;]</klr> kulturajn <tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="https://www.monato.be/2006/008980.php"
+              >Lingvo-politiko: mankas unueco en la Unio</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="leter.rekomend0o">rekomendletero</ref>
+    <rim>
+      Tiu kromsignifo sen logika rilato al la &ccirc;efsignifo
+      <tld/>o<sncref ref="refere.0o.bibliografia"/>, pa&ubreve;sas
+      el kelkaj naciaj lingvoj.
+    </rim>
+    <trdgrp lng="be">
+      <trd>&c_r;&c_e;&c_k;&c_a;&c_m;&c_e;&c_n;&c_d;&c_a;&c_c;&c_y;&c_ja;</trd>,
+      <trd>&c_r;&c_e;&c_k;&c_a;&c_m;&c_e;&c_n;&c_d;&c_a;&c_c;&c_y;&c_j;&c_n;&c_y; &c_l;&c_ib;&c_s;&c_t;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Referenz <klr>(Empfehlung)</klr></trd>,
+      <trd>Empfehlungsschreiben</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>reference</trd>,
+      <trd>testimonial</trd>,
+      <trd>recommendation</trd>
+    </trdgrp>
+    <trdgrp lng="fa">
+      <trd>&a_t;&a_w;&a_S;&f_y;&a_h;&zwnj;&a_n;&a_A;&a_m;&a_h;</trd>,
+      <trd>&a_m;&a_ayn;&a_r;&a_f;&f_y;&zwnj;&a_n;&a_A;&a_m;&a_h;</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>r&eacute;f&eacute;rence<klr> (recommandation)</klr></trd>
+    </trdgrp>
+    <trd lng="hu">referencia</trd>
+    <trd lng="nl">referentie</trd>
+    <trdgrp lng="pl">
+      <trd>referencje</trd>,
+      <trd>opnia</trd>,
+      <trd>&sacute;wiadectwo</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_je;&c_k;&c_o;&c_m;&c_je;&c_n;&c_d;&c_a;&c_c;&c_i;&c_ja;</trd>,
+      <trd>&c_r;&c_je;&c_k;&c_o;&c_m;&c_je;&c_n;&c_d;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je; &c_p;&c_i;&c_s;&c_mol;&c_m;&c_o;</trd>
+    </trdgrp>
+  </snc>
   <trdgrp lng="cs">
     <trd>dobrozd&aacute;n&iacute;</trd>,
     <trd>doporu&ccaron;en&iacute;</trd>,
@@ -142,110 +280,175 @@
     <trd>spr&aacute;va</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x43E;&#x432;&#x456;&#x434;&#x43A;&#x430;</trd>,
-    <trd>&#x43F;&#x43E;&#x441;&#x438;&#x43B;&#x430;&#x43D;&#x43D;&#x44F; (&#x443; &#x43A;&#x43D;&#x438;&#x436;&#x446;&#x456;)</trd>,
-    <trd>&#x440;&#x435;&#x43A;&#x43E;&#x43C;&#x435;&#x43D;&#x434;&#x430;&#x446;&#x456;&#x44F;</trd>,
-    <trd>&#x440;&#x435;&#x444;&#x435;&#x440;&#x435;&#x43D;&#x446;&#x456;&#x44F;</trd>
+    <trd>&c_d;&c_o;&c_v;&c_ib;&c_d;&c_k;&c_a;</trd>,
+    <trd>&c_p;&c_o;&c_s;&c_i;&c_l;&c_a;&c_n;&c_n;&c_ja; (&c_u; &c_k;&c_n;&c_i;&c_zh;&c_c;&c_ib;)</trd>,
+    <trd>&c_r;&c_je;&c_k;&c_o;&c_m;&c_je;&c_n;&c_d;&c_a;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_r;&c_je;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_ib;&c_ja;</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="refere.0i">
-      <kap><tld/>i</kap>
-      <snc>
-        <dif>
-          Prezenti indikon pri fonta, apoga dokumento:
-          <ekz>
-            la komentoj <klr>...</klr> donas
-            botanikajn informojn, <tld/>ante al a&ubreve;toroj kaj klasikaj 
-            kaj deksesjarcentaj
-            <fnt>
-              <aut>Johan Van Eenoo</aut>,
-              <vrk>La bru&gcirc;a Centuriae plantarum rariorum retrovita en
-                Krakovo</vrk>,
-              <bib>Monato</bib>, <lok>jaro 1998a, numero 1a, p.
-              16a</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
+<drv mrk="refere.0i">
+  <kap><tld/>i</kap>
+  <snc>
+    <dif>
+      Prezenti indikon pri fonta, apoga dokumento:
+      <ekz>
+        establi&gcirc;is la kutimo <tld/>i la enhavon de la platonaj verkoj per la pa&gcirc;nombroj
+        en la eldono de <nom>Stephanus</nom>
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Anta&ubreve;parolo de la Tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la komentoj <klr>[&#8230;]</klr> donas
+        botanikajn informojn, <tld/>ante al a&ubreve;toroj kaj klasikaj 
+        kaj deksesjarcentaj
+        <fnt>
+          <aut>Johan Van Eenoo</aut>,
+          <vrk>La bru&gcirc;a Centuriae plantarum rariorum retrovita en
+            Krakovo</vrk>,
+          <bib>Monato</bib>, <lok>jaro 1998a, numero 1a, p.
+          16a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nomo Lambiko referencas al la loko <nom>Lembeek</nom> sude de Bruselo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van De Velde</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007144.html"
+              >Bierlando Belgio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la frazo <tld/>is al la fakto, ke eldonejo Fonto estis promesinta duan verkon el
+        la Biblio post la unua volumo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="https://www.monato.be/2005/008553.php"
+              >Ankora&ubreve; Sanktaj Skriboj</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la redaktistoj de la dokumento &scirc;ajnas <tld/>i al tiu speco de kreismo, kiu sin
+        ligas al la la&ubreve;litera interpreto de la biblia teksto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="https://www.monato.be/2008/009419.php"
+              >Rezolucio de e&ubreve;ropa instanco pri evoluismo kaj kreismo</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu en sia maniero, ili <tld/>is al problemoj kun la estraro
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 12 (110)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="cit.0i.mencii">citi<sncref/></ref>,
+      <ref cel="indik.0i.montri">indiki<sncref/></ref>,
+      <ref cel="origin.0i">origini</ref>,
+      <ref cel="rilat.0o.ligo">rilati<sncref/></ref>,
+      <ref cel="montr.0i">montri</ref>,
+      <ref cel="menci.0i">mencii</ref>,
+      <ref cel="nom.0i.uzi">nomi<sncref/></ref>,
+      <ref cel="alud.0i">aludi</ref>
+    </refgrp>
+  </snc>
   <trdgrp lng="be">
-        <trd>&c_s;&c_p;&c_a;&c_s;&c_l;&c_a;&c_c;&c_c;&c_a;</trd>,
-        <trd>&c_d;&c_a;&c_c;&c_mol; <ind>&c_s;&c_p;&c_a;&c_s;&c_y;&c_l;&c_k;&c_u;</ind></trd>
-      </trdgrp>
+    <trd>&c_s;&c_p;&c_a;&c_s;&c_l;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_d;&c_a;&c_c;&c_mol; <ind>&c_s;&c_p;&c_a;&c_s;&c_y;&c_l;&c_k;&c_u;</ind></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>doporu&ccaron;it (n&ecaron;koho)</trd>,
     <trd>odk&aacute;zat <klr>(na n&ecaron;co, zejm. text, k n&ecaron;komu)</klr></trd>,
     <trd>podat zpr&aacute;vu (o n&ecaron;kom)</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>verweisen <klr>(auf...)</klr></trd>,
+    <trd>referenzieren</trd>,
+    <trd>sich <ind>beziehen</ind> <klr>(auf...)</klr></trd>
+  </trdgrp>
   <trd lng="en">reference</trd>
   <trdgrp lng="es">
-        <trd>referenciar</trd>,
-        <trd>referirse a</trd>
-      </trdgrp>
+    <trd>referenciar</trd>,
+    <trd>referirse a</trd>
+  </trdgrp>
   <trdgrp lng="fr">
-        <trd>se <ind>r&eacute;f&eacute;rer</ind> &agrave;</trd>,
-        <trd>faire <ind>r&eacute;f&eacute;rence</ind> &agrave;</trd>,
-        <trd>mentionner<klr> (une r&eacute;f&eacute;rence)</klr></trd>
-      </trdgrp>
+    <trd>se <ind>r&eacute;f&eacute;rer</ind> &agrave;</trd>,
+    <trd>faire <ind>r&eacute;f&eacute;rence</ind> &agrave;</trd>,
+    <trd>mentionner<klr> (une r&eacute;f&eacute;rence)</klr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
-        <trd>odsy&lstroke;a&cacute;</trd>,
-        <trd>odnosi&cacute;</trd>
-      </trdgrp>
-
+    <trd>odsy&lstroke;a&cacute;</trd>,
+    <trd>odnosi&cacute;</trd>
+  </trdgrp>
   <trd lng="pt">referenciar</trd>
   <trdgrp lng="ru">
-        <trd>&c_s;&c_s;&c_y;&c_l;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-        <trd>&c_s;&c_o;&c_s;&c_l;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-        <trd>&c_d;&c_a;&c_t;&c_mol; <ind>&c_s;&c_s;&c_y;&c_l;&c_k;&c_u;</ind></trd>
-      </trdgrp>
+    <trd>&c_s;&c_s;&c_y;&c_l;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_s;&c_o;&c_s;&c_l;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_d;&c_a;&c_t;&c_mol; <ind>&c_s;&c_s;&c_y;&c_l;&c_k;&c_u;</ind></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>odk&aacute;za&tcaron; <klr>(na nie&ccaron;o)</klr></trd>,
     <trd>odporu&ccaron;i&tcaron; (niekoho)</trd>,
     <trd>poda&tcaron; spr&aacute;vu</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x430;&#x432;&#x430;&#x442;&#x438; (&#x431;&#x456;&#x431;&#x43B;&#x456;&#x43E;&#x433;&#x440;&#x430;&#x444;&#x456;&#x447;&#x43D;&#x443;) &#x434;&#x43E;&#x432;&#x456;&#x434;&#x43A;&#x443;</trd>,
-    <trd>&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x43F;&#x43E;&#x441;&#x438;&#x43B;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; (&c_b;&c_ib;&c_b;&c_l;&c_ib;&c_o;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ch;&c_n;&c_u;) &c_d;&c_o;&c_v;&c_ib;&c_d;&c_k;&c_u;</trd>,
+    <trd>&c_r;&c_o;&c_b;&c_i;&c_t;&c_i; &c_p;&c_o;&c_s;&c_i;&c_l;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="refere.kruc0o">
-      <kap>kruc<tld/>o</kap>
-      <snc>
-        <uzo tip="stl">EVI</uzo>
-        <dif>
-          Montrilo al alia loko en la sama verko/dokumento.
-        </dif>
-        <rim>
-          Tiun terminon kun samsenca difino donas anka&ubreve; PIV kaj NPIV;
-          tamen &gcirc;i estas mise formita (&gcirc;i estas mistraduko de la angla
-          termino).  Pli trafe oni povus diri
-          <ctl>interna <tld/>o</ctl>; a&ubreve;, imitante la anglan ideon pri
-          referenco kondukanta tra (angle <ctl>across</ctl>) la teksto,
-          oni
-          povus diri <ctl>traa <tld/>o</ctl>, a&ubreve; <ctl>tra<tld/>o</ctl>.
-          En la formo <ctl>kruc<tld/>o</ctl> la termino pensigas pli
-          paro da interkruci&gcirc;antaj (reciprokaj, amba&ubreve;direktaj)
-          <tld/>oj, kaj tian memtrudi&gcirc;antan
-          miskomprenon mi efektive renkontadis en Esperanto.  La
-          difinoj tamen klare indikas, ke temas pri alia nocio.
-          <aut>Sergio Pokrovskij</aut>
-        </rim>
-      </snc>
+<drv mrk="refere.kruc0o">
+  <kap>kruc<tld/>o</kap>
+  <snc>
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      Montrilo al alia loko en la sama verko/dokumento.
+    </dif>
+    <rim>
+      Tiun terminon kun samsenca difino donas anka&ubreve; PIV kaj NPIV;
+      tamen &gcirc;i estas mise formita (&gcirc;i estas mistraduko de la angla
+      termino).  Pli trafe oni povus diri
+      <ctl>interna <tld/>o</ctl>; a&ubreve;, imitante la anglan ideon pri
+      <tld/>o kondukanta tra (angle &leftquot;<nac>across</nac>&rightquot;) la teksto,
+      oni
+      povus diri <ctl>traa <tld/>o</ctl>, a&ubreve; <ctl>tra<tld/>o</ctl>.
+      En la formo <ctl>kruc<tld/>o</ctl> la termino pensigas pri
+      paro da interkruci&gcirc;antaj (reciprokaj, amba&ubreve;direktaj)
+      <tld/>oj, kaj tian memtrudi&gcirc;antan
+      miskomprenon mi efektive renkontadis en Esperanto.  La
+      difinoj tamen klare indikas, ke temas pri alia nocio.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+  </snc>
+<!-- ne traduku evitindajn...
   <trd lng="cs">k&rcaron;&iacute;&zcaron;ov&yacute; odkaz <klr>(v knize)</klr></trd>
   <trd lng="en">cross-reference</trd>
   <trd lng="no">kryssreferanse</trd>
   <trdgrp lng="pl">
-        <trd>odsy&lstroke;acz</trd>,
-        <trd>odno&sacute;nik</trd>
-      </trdgrp>
+    <trd>odsy&lstroke;acz</trd>,
+    <trd>odno&sacute;nik</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_k;&c_r;&c_jo;&c_s;&c_t;&c_n;&c_a;&c_ja; &c_s;&c_s;&c_y;&c_l;&c_k;&c_a;</trd>
   <trd lng="sk">kr&iacute;&zcaron;ov&yacute; odkaz</trd>
-  <trd lng="uk">&#x43F;&#x43E;&#x441;&#x438;&#x43B;&#x430;&#x43D;&#x43D;&#x44F; &#x43D;&#x430; &#x456;&#x43D;&#x448;&#x435; &#x43C;&#x456;&#x441;&#x446;&#x435; &#x432; &#x446;&#x456;&#x439; &#x436;&#x435; &#x43A;&#x43D;&#x438;&#x436;&#x446;&#x456;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_s;&c_i;&c_l;&c_a;&c_n;&c_n;&c_ja; &c_n;&c_a; &c_ib;&c_n;&c_sh;&c_je; &c_m;&c_ib;&c_s;&c_c;&c_je; &c_v; &c_c;&c_ib;&c_j; &c_zh;&c_je; &c_k;&c_n;&c_i;&c_zh;&c_c;&c_ib;</trd>
+-->
 </drv>
-  </art>
+</art>
   <!--
   $Log$
+versio 1.29 2023/01/27 22:26:45
+Wolfram Diestel: ~o: +snc "bazo"; +ekz-oj, ref-oj; ~i: +ekz-oj, ref-oj
+
 versio 1.26 2020/06/09 06:10:33
 Sergio Pokrovskij: +KOMP
 
@@ -265,8 +468,5 @@ Sergio Pokrovskij: +KOMP
   Behnam Tabatabai: +trd fa
 
   Revision 1.20  2010/09/27 16:30:23  revo
-  Agustin Garcia Lopez: +trd es
-
-  Revision 1.19  2009/08/08 16:32:13  revo
 -->
 </vortaro>
