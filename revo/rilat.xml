@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rilat.xml,v 1.77 2022/05/11 20:30:13 revo Exp $">
+<art mrk="$Id: rilat.xml,v 1.78 2023/01/28 08:29:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rilat</rad>/i
@@ -722,6 +722,81 @@
   </trdgrp>
 </drv>
 
+<drv mrk="rilat.0igi">
+  <kap>
+    <tld/>igi
+  </kap>
+  <snc>
+    <dif>
+      Krei <tld/>on al iu a&ubreve; io:
+      <ekz>
+        <klr>[tio]</klr> povas esti tre malbona: sinjoro la revizoro <klr>[&#8230;]</klr>
+        povas <tld/>igi tion &ccirc;i al si
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        instinkte li tuj <tld/>igis la skriba&jcirc;on kun la 
+        insulto ricevita en la domo de siaj &scirc;ajnamikoj
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komuna laboro <tld/>igas la homojn unu al la alia
+        <klr>(<ref cel="rilat.inter0igi">interrilatigas</ref>)</klr>
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la omnibuso <klr>[&#8230;]</klr> <tld/>igas 
+        <klr>(<ref cel="komuni1.inter0igi">interkomunikigas</ref>)</klr> 
+        &ccirc;iujn fi&scirc;kaptistajn vila&gcirc;ojn
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pluraj scienculoj <tld/>igis la ekeston de la lingvo al interjekcioj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="asoci.0i.kunligi">asocii<sncref/></ref>,
+      <ref cel="lig.0i.rilatigi">ligi<sncref/></ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="koncer.0i">koncerni</ref>,
+      <ref cel="kun.0igi">kunigi</ref>,
+      <ref cel="refere.0i">referenci</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>beziehen <klr>(auf)</klr></trd>,
+    <trd>in <ind>Bezug</ind> setzen <klr>(zu)</klr></trd>,
+    <trd>zur&uuml;ckf&uuml;hren <klr>(auf)</klr></trd>,
+    <trd><ind>verbinden</ind> <klr>(mit)</klr></trd>,
+    <trd>in <ind>Verbindung</ind> bringen <klr>(mit)</klr></trd>
+  </trdgrp>
+  <trd lng="en">relate to</trd>
+</drv>
+
+
+
+
+
+
+
+
 <drv mrk="rilat.0ulo">
   <kap><tld/>ulo</kap>
   <snc mrk="rilat.0ulo.KOMUNE">
@@ -741,9 +816,11 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="kon.0ato">konato</ref>,
       <ref cel="proksi.0ulo.KOMUNE">proksimulo</ref>
     </refgrp>
   </snc>
+  <trd lng="de">Bekannte(r)</trd>
   <trd lng="fr">relation<klr> (personne)</klr></trd>
 </drv>
 
@@ -773,44 +850,6 @@
   </trdgrp>
 </drv>
 
-<drv mrk="rilat.ekvivalento0o">
-  <kap>ekvivalento-<tld/>o,
-  <var><kap>ekvivalent<tld/>o<fnt><bib>EKV</bib><lok>&para;115</lok></fnt></kap></var>,
-  <var><kap><tld/>o de ekvivalento<fnt><bib>PIV1</bib></fnt></kap></var>
-  </kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      <ref tip="super" cel="rilat.interna0o">Interna <tld/>o</ref>
-      samtempe
-      <ref cel="reflek1.0a.rilato">refleksiva</ref>,
-      <ref cel="simetr.0a.rilato">simetria</ref> kaj
-      <ref cel="transi1.0a.rilato">transitiva</ref>:
-      <ekz>
-        en la aro de &ccirc;iuj homoj la <tld/>o <ctl>x estas parenco
-        de y</ctl> estas ekvivalento-<tld/>o;
-      </ekz>
-      <ekz>
-        parta ekvivalent<tld/>o estas transitiva kaj simetria, sed ne
-        refleksiva
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=252542">Ekvivalentrilato</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="ar.kvocienta0o">kvocienta aro.</ref>
-    <trd lng="de">&Auml;quivalenzrelation</trd>
-    <trd lng="en">equivalence relation</trd>
-    <trd lng="fr">relation d'<ind>&eacute;quivalence</ind></trd>
-    <trd lng="hu">ekvivalenciarel&aacute;ci&oacute;</trd>    
-    <trdgrp lng="pl">
-      <trd>relacja r&oacute;wnowa&zdot;no&sacute;ciowa</trd>,
-      <trd>relacja r&oacute;wnowa&zdot;no&sacute;ci</trd>
-    </trdgrp>
-    <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je; &c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
-  </snc>
-</drv>
 
 <drv mrk="rilat.ia0e">
   <kap>ia<tld/>e</kap>
@@ -843,67 +882,6 @@
   <trd lng="fr">en quelque sorte</trd>
 </drv>
 
-<drv mrk="rilat.idento0o">
-  <kap>idento-<tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      <klr>(en aro <frm am="bb E"><g>E</g></frm>) </klr>
-      <ref tip="super" cel="rilat.interna0o">Interna rilato</ref>,
-      konsistanta el &ccirc;iuj paroj <frm am="(a,b)">(<k>a</k>,<k>a</k>)</frm>
-      kun <frm am="a in bb E"><k>a</k>&#8712;<g>E</g></frm>:
-      <ekz>
-        la idento-<tld/>on en <frm am="E"><g>E</g></frm> oni foje signas
-        per
-        <frm am="&quot;id&quot;_(bb E)">id<sub><g>E</g></sub></frm>;
-      </ekz>
-      <ekz>
-        la idento-<tld/>o estas bildigo.
-      </ekz>
-    </dif>
-    <ref tip="sin" cel="bild.idento0igo">idento-bildigo.</ref>
-  </snc>
-  <trdgrp lng="fr">
-    <trd>identit&eacute;<klr tip="ind"> (relation)</klr></trd>,
-    <trd>relation identique</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>azonoss&aacute;g<klr tip="ind"> (viszony)</klr></trd>,
-    <trd>azonoss&aacute;gi <ind>rel&aacute;ci&oacute;</ind></trd>
-  </trdgrp>
-  <trd lng="pl">to&zdot;samo&sacute;&cacute;</trd>
-</drv>
-
-<drv mrk="rilat.interna0o">
-  <kap>interna <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
-    <dif>
-      <klr>(ene de aro <frm><g>E</g></frm>) </klr>
-      <ref tip="super" cel="rilat.0o.MAT"><tld lit="R"/>o</ref> de
-      <frm><g>E</g></frm> al <frm><g>E</g></frm>.
-    </dif>
-    <refgrp tip="vid">
-      Rimarkindaj ecoj de interna rilato:
-      <ref cel="reflek1.0a.rilato">refleksiva</ref>,
-      <ref cel="reflek1.mal0a.rilato">malrefleksiva</ref>,
-      <ref cel="simetr.0a.rilato">simetria</ref>,
-      <ref cel="simetr.mal0a.rilato">malsimetria</ref>,
-      <ref cel="transi1.0a.rilato">transitiva</ref>;
-    </refgrp>
-    <refgrp tip="sub">
-      Specifaj internaj rilatoj:
-      <ref cel="rilat.ekvivalento0o">ekvivalento-<tld/>o</ref>,
-      <ref cel="rilat.ordo0o">ordo-<tld/>o</ref>,
-    </refgrp>
-  </snc>
-  <trd lng="de">Relation in einer Menge</trd>
-  <trd lng="en">relation on a set</trd>
-  <trd lng="fr">relation sur un ensemble</trd>
-  <trd lng="hu">homog&eacute;n <ind>rel&aacute;ci&oacute;</ind></trd>  
-  <trd lng="pl">relacja w zbiorze</trd>
-  <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je; &c_n;&c_a; &c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;</trd>
-</drv>
 
 <drv mrk="rilat.inter0o">
   <kap>inter<tld/>o</kap>
@@ -1062,6 +1040,166 @@
     </dif>
   </snc>
   <trd lng="fr">se mettre en <ind>relation</ind></trd>
+</drv>
+
+
+<drv mrk="rilat.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="rilat.sen0a.KOMUNE">
+    <dif>
+      Kiu ne <tld/>as al iu afero, ne koneksas,
+      ne dependas de &gcirc;i a&ubreve; &gcirc;in dependigas:
+      <ekz>
+        la &scirc;tono restas en &scirc;ia hejmo jam 36 jarojn, la familianoj 
+        atente &gcirc;in gardas, ignorante la kredon ke <ctl>estas
+        malbona&ubreve;gure 
+        en la hejmo havi tombo&scirc;tonon de sen<tld/>a homo</ctl>
+        <fnt>
+          <aut>Xie Ruifeng</aut>,
+          <vrk><url ref="http://esperanto.china.org.cn/2015-04/14/content_35317131.htm">
+          Kiu gardas la tombo&scirc;tonon de usona armeano en sudokcidenta
+          &Ccirc;inio?</url></vrk>,
+          <lok>El Popola &Ccirc;inio, 2015-04-14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi mencias tiun &scirc;ajne tute sen<tld/>an fakton, &ccirc;ar
+        <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="&Monato;/2009/009593.php">Porte(b)la
+          Ilustrita Vortaro</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">non concern&eacute;</trd>
+</drv>
+
+
+<drv mrk="rilat.sen0eal">
+  <kap>sen<tld/>e al</kap>
+  <gra><vspec>prepozicia&jcirc;o</vspec></gra>
+  <snc mrk="rilat.sen0eal.KOMUNE">
+    <dif>
+      Ne havante <tld/>on al...,
+      <ref tip="vid" cel="pend.sende0ede.KOMUNE">sendepende je</ref>...:
+      <ekz>
+        popoloj povus proksimi&gcirc;i, interparoli, amiki&gcirc;i tute sen<tld/>e 
+        al la &scirc;tato, religio, nacio, kulturo de la homoj
+        <fnt>
+          <aut>P. Fiocchi</aut>,
+          <vrk><url ref="http://www.espero.com.cn/2014-03/03/content_31649880.htm">
+          Mia Printempa Festo en Grekio</url></vrk>,
+          <lok>El Popola &Ccirc;inio, 2014-03-03</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">sans lien avec</trd>
+</drv>
+
+<drv mrk="rilat.ekvivalento0o">
+  <kap>ekvivalento-<tld/>o,
+  <var><kap>ekvivalent<tld/>o<fnt><bib>EKV</bib><lok>&para;115</lok></fnt></kap></var>,
+  <var><kap><tld/>o de ekvivalento<fnt><bib>PIV1</bib></fnt></kap></var>
+  </kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="rilat.interna0o">Interna <tld/>o</ref>
+      samtempe
+      <ref cel="reflek1.0a.rilato">refleksiva</ref>,
+      <ref cel="simetr.0a.rilato">simetria</ref> kaj
+      <ref cel="transi1.0a.rilato">transitiva</ref>:
+      <ekz>
+        en la aro de &ccirc;iuj homoj la <tld/>o <ctl>x estas parenco
+        de y</ctl> estas ekvivalento-<tld/>o;
+      </ekz>
+      <ekz>
+        parta ekvivalent<tld/>o estas transitiva kaj simetria, sed ne
+        refleksiva
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=252542">Ekvivalentrilato</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="ar.kvocienta0o">kvocienta aro.</ref>
+    <trd lng="de">&Auml;quivalenzrelation</trd>
+    <trd lng="en">equivalence relation</trd>
+    <trd lng="fr">relation d'<ind>&eacute;quivalence</ind></trd>
+    <trd lng="hu">ekvivalenciarel&aacute;ci&oacute;</trd>    
+    <trdgrp lng="pl">
+      <trd>relacja r&oacute;wnowa&zdot;no&sacute;ciowa</trd>,
+      <trd>relacja r&oacute;wnowa&zdot;no&sacute;ci</trd>
+    </trdgrp>
+    <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je; &c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
+  </snc>
+</drv>
+
+
+<drv mrk="rilat.idento0o">
+  <kap>idento-<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(en aro <frm am="bb E"><g>E</g></frm>) </klr>
+      <ref tip="super" cel="rilat.interna0o">Interna rilato</ref>,
+      konsistanta el &ccirc;iuj paroj <frm am="(a,b)">(<k>a</k>,<k>a</k>)</frm>
+      kun <frm am="a in bb E"><k>a</k>&#8712;<g>E</g></frm>:
+      <ekz>
+        la idento-<tld/>on en <frm am="E"><g>E</g></frm> oni foje signas
+        per
+        <frm am="&quot;id&quot;_(bb E)">id<sub><g>E</g></sub></frm>;
+      </ekz>
+      <ekz>
+        la idento-<tld/>o estas bildigo.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="bild.idento0igo">idento-bildigo.</ref>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>identit&eacute;<klr tip="ind"> (relation)</klr></trd>,
+    <trd>relation identique</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>azonoss&aacute;g<klr tip="ind"> (viszony)</klr></trd>,
+    <trd>azonoss&aacute;gi <ind>rel&aacute;ci&oacute;</ind></trd>
+  </trdgrp>
+  <trd lng="pl">to&zdot;samo&sacute;&cacute;</trd>
+</drv>
+
+<drv mrk="rilat.interna0o">
+  <kap>interna <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(ene de aro <frm><g>E</g></frm>) </klr>
+      <ref tip="super" cel="rilat.0o.MAT"><tld lit="R"/>o</ref> de
+      <frm><g>E</g></frm> al <frm><g>E</g></frm>.
+    </dif>
+    <refgrp tip="vid">
+      Rimarkindaj ecoj de interna rilato:
+      <ref cel="reflek1.0a.rilato">refleksiva</ref>,
+      <ref cel="reflek1.mal0a.rilato">malrefleksiva</ref>,
+      <ref cel="simetr.0a.rilato">simetria</ref>,
+      <ref cel="simetr.mal0a.rilato">malsimetria</ref>,
+      <ref cel="transi1.0a.rilato">transitiva</ref>;
+    </refgrp>
+    <refgrp tip="sub">
+      Specifaj internaj rilatoj:
+      <ref cel="rilat.ekvivalento0o">ekvivalento-<tld/>o</ref>,
+      <ref cel="rilat.ordo0o">ordo-<tld/>o</ref>,
+    </refgrp>
+  </snc>
+  <trd lng="de">Relation in einer Menge</trd>
+  <trd lng="en">relation on a set</trd>
+  <trd lng="fr">relation sur un ensemble</trd>
+  <trd lng="hu">homog&eacute;n <ind>rel&aacute;ci&oacute;</ind></trd>  
+  <trd lng="pl">relacja w zbiorze</trd>
+  <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je; &c_n;&c_a; &c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;</trd>
 </drv>
 
 <drv mrk="rilat.inversa0o">
@@ -1226,64 +1364,13 @@
   </snc>
 </drv>
 
-<drv mrk="rilat.sen0a">
-  <kap>sen<tld/>a</kap>
-  <snc mrk="rilat.sen0a.KOMUNE">
-    <dif>
-      Kiu ne <tld/>as al iu afero, ne koneksas,
-      ne dependas de &gcirc;i a&ubreve; &gcirc;in dependigas:
-      <ekz>
-        la &scirc;tono restas en &scirc;ia hejmo jam 36 jarojn, la familianoj 
-        atente &gcirc;in gardas, ignorante la kredon ke <ctl>estas
-        malbona&ubreve;gure 
-        en la hejmo havi tombo&scirc;tonon de sen<tld/>a homo</ctl>
-        <fnt>
-          <aut>Xie Ruifeng</aut>,
-          <vrk><url ref="http://esperanto.china.org.cn/2015-04/14/content_35317131.htm">
-          Kiu gardas la tombo&scirc;tonon de usona armeano en sudokcidenta
-          &Ccirc;inio?</url></vrk>,
-          <lok>El Popola &Ccirc;inio, 2015-04-14</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        mi mencias tiun &scirc;ajne tute sen<tld/>an fakton, &ccirc;ar
-        <klr>[&#8230;]</klr>
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Edmund Grimley Evans</aut>
-          <vrk><url ref="&Monato;/2009/009593.php">Porte(b)la
-          Ilustrita Vortaro</url></vrk>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="fr">non concern&eacute;</trd>
-</drv>
 
-<drv mrk="rilat.sen0eal">
-  <kap>sen<tld/>e al</kap>
-  <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-  <snc mrk="rilat.sen0eal.KOMUNE">
-    <dif>
-      Ne havante <tld/>on al...,
-      <ref tip="vid" cel="pend.sende0ede.KOMUNE">sendepende je</ref>...:
-      <ekz>
-        popoloj povus proksimi&gcirc;i, interparoli, amiki&gcirc;i tute sen<tld/>e 
-        al la &scirc;tato, religio, nacio, kulturo de la homoj
-        <fnt>
-          <aut>P. Fiocchi</aut>,
-          <vrk><url ref="http://www.espero.com.cn/2014-03/03/content_31649880.htm">
-          Mia Printempa Festo en Grekio</url></vrk>,
-          <lok>El Popola &Ccirc;inio, 2014-03-03</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="fr">sans lien avec</trd>
-</drv>
 </art>
 <!--
 $Log$
+versio 1.78 2023/01/28 08:29:52
+Wolfram Diestel: +~igi
+
 versio 1.77 2022/05/11 20:30:13
 Jeromo Vasxe: + am~o
 
@@ -1303,8 +1390,5 @@ Revision 1.70  2019/06/30 18:21:49  revo
 adaptis URL de Monato
 
 Revision 1.69  2019/06/30 07:43:29  revo
-adaptis URL de Monato
-
-Revision 1.68  2018/12/28 18:10:18  revo
 -->
 </vortaro>
