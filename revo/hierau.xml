@@ -1,29 +1,56 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: hierau.xml,v 1.38 2022/03/20 15:36:34 revo Exp $">
+<art mrk="$Id: hierau.xml,v 1.39 2023/02/02 07:23:30 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>hiera&ubreve;</rad>
 </kap>
 <drv mrk="hierau.0">
-   <kap><ofc>*</ofc><tld/></kap>
-   <gra><vspec>adverbo</vspec></gra>
-   <snc mrk="hierau.0.KOMUNE">
-     <dif>
-       En la &jcirc;us anta&ubreve;a tago, unu tagon
-       anta&ubreve; la nuna:
-       <ekz>
-         <ind><tld/> nokte</ind>
-         <trd lng="zh">&#x6628;&#x591C; [<ind>zu&oacute; y&egrave;</ind>]</trd>
-         .
-       </ekz>
+  <kap><ofc>*</ofc><tld/></kap>
+  <gra><vspec>adverbo</vspec></gra>
+  <snc mrk="hierau.0.KOMUNE">
+    <dif>
+      En la &jcirc;us anta&ubreve;a <ref tip="super" cel="tag.0o.diurn">tago</ref>, unu tagon
+      anta&ubreve; la nuna:
+      <ekz>
+        <tld/> estis vendredo, kaj postmorga&ubreve; estos lundo
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> je la sepa horo la febro lin forlasis
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 4:52</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> vespere ili estis ankora&ubreve; tiel belaj, kaj nun &ccirc;iuj floroj pendas
+        seki&gcirc;intaj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        <ind><tld/> nokte</ind> ni pasigis tre zorgoplenajn horojn
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>.
+        <trd lng="zh">&#26152;&#22812; [<ind>zu&oacute; y&egrave;</ind>]</trd>
+      </ekz>
      </dif>
-     <trd lng="th">&#xE40;&#xE21;&#xE37;&#xE48;&#xE2D;&#xE27;&#xE32;&#xE19;</trd>
+     <ref tip="vid" cel="hodiau.0">hodia&ubreve;</ref>
+     <ref tip="ant" cel="morgau.0">morga&ubreve;</ref>
+     <trd lng="th">&#3648;&#3617;&#3639;&#3656;&#3629;&#3623;&#3634;&#3609;</trd>
    </snc>
    <trd lng="be">&c_u;&c_ch;&c_o;&c_r;&c_a;</trd>
    <trd lng="bg">&c_v;&c_ch;&c_je;&c_r;&c_a;</trd>
-   <trd lng="bo">&#xF41;&#xF0B;&#xF66;&#xF44;&#xF0B;</trd>
+   <trd lng="bo">&t_kha;&t_tsheg;&t_sa;&t_nga;&t_tsheg;</trd>
   <trd lng="br">dec'h</trd>
    <trd lng="ca">ahir</trd>
    <trd lng="cs">v&ccaron;era</trd>
@@ -40,8 +67,8 @@
    <trd lng="hu">tegnap</trd>
    <trd lng="id">kemarin</trd>
    <trd lng="it">ieri</trd>
-   <trd lng="ja">&#x6628;&#x65E5;
-   [<ind>&#x304D;&#x306E;&#x3046;</ind>]</trd>
+   <trd lng="ja">&#26152;&#26085;
+   [<ind>&#12365;&#12398;&#12358;</ind>]</trd>
    <trd lng="nl">gisteren</trd>
    <trd lng="pl">wczoraj</trd>
    <trd lng="pt">ontem</trd>
@@ -49,11 +76,11 @@
    <trd lng="ru">&c_v;&c_ch;&c_je;&c_r;&c_a;</trd>
    <trd lng="sv">i <ind>g&aring;r</ind></trd>
    <trd lng="tr">d&uuml;n</trd>
-   <trd lng="uk">&#x443;&#x447;&#x43E;&#x440;&#x430;</trd>
+   <trd lng="uk">&c_u;&c_ch;&c_o;&c_r;&c_a;</trd>
   <trd lng="vo">yesdel</trd>
    <trdgrp lng="zh">
-     <trd>&#x6628;&#x65E5; [<ind>zu&oacute; r&igrave;</ind>]</trd>,
-     <trd>&#x6628;&#x5929; [<ind>zu&oacute; ti&amacron;n</ind>]</trd>
+     <trd>&#26152;&#26085; [<ind>zu&oacute; r&igrave;</ind>]</trd>,
+     <trd>&#26152;&#22825; [<ind>zu&oacute; ti&amacron;n</ind>]</trd>
    </trdgrp>
 </drv>
 
@@ -66,14 +93,26 @@
          lia <tld/>a parolo estis tre bela
          <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
        </ekz>
-       <ekz>
-         ne beda&ubreve;ru <tld/>an <klr>(tagon)</klr>, ne atendu
+      <ekz>
+        la vespero pasis kiel la <tld/>a
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+         ne beda&ubreve;ru <tld/>an <klr>(pasintan tagon a&ubreve; tempon)</klr>, ne atendu
          morga&ubreve;an, ne forlasu hodia&ubreve;an
          <fnt><bib>PrV</bib></fnt>.
-       </ekz>
-     </dif>
-   </snc>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="hodiau.0a">hodia&ubreve;a</ref>,
+      <ref cel="morgau.0a">morga&ubreve;a</ref>
+    </refgrp>
+  </snc>
    <trd lng="be">&c_u;&c_ch;&c_o;&c_r;&c_a;&c_sh;&c_n;&c_ib;</trd>
+   <trd lng="de">gestriger</trd>
    <trd lng="fi">eilinen</trd>
    <trdgrp lng="fr">
      <trd>d'<ind>hier</ind></trd>,
@@ -81,15 +120,40 @@
    </trdgrp>
    <trd lng="it">di <ind>ieri</ind></trd>
    <trd lng="pl">wczorajszy</trd>
-  <trd lng="uk">&#x443;&#x447;&#x43E;&#x440;&#x430;&#x448;&#x43D;&#x456;&#x439;</trd>
+  <trd lng="uk">&c_u;&c_ch;&c_o;&c_r;&c_a;&c_sh;&c_n;&c_ib;&c_j;</trd>
 </drv>
 
 <drv mrk="hierau.0o">
-   <kap><tld/>o</kap>
-   <snc mrk="hierau.0o.KOMUNE">
-     <ref tip="dif" cel="tag.antaux0o">anta&ubreve;tago, anta&ubreve;a
-     tago</ref>
-   </snc>
+  <kap><tld/>o</kap>
+  <snc mrk="hierau.0o.KOMUNE">
+    <dif>
+      <ref tip="dif" cel="tag.antaux0o">Anta&ubreve;tago, anta&ubreve;a
+      tago</ref>
+      <ekz>
+        vi demandas, kia estas mia opinio rilate al la <tld/>o? la simpla! &gcirc;i devis okazi
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la hiera&ubreve;o estis rekonstrui&gcirc;anta el malgrandaj pecetoj, sed maltrankvilo ne
+        forlasis la direktoron
+        <fnt>
+          <bib>MkM</bib>
+          <lok>7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kio alia estas la vivo, ol diferenco inter la <tld/>o kaj hodia&ubreve;o, kiam oni
+        atendas ion de la morga&ubreve;o
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Sesa &Ccirc;apitro</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="ant" cel="morgau.0o">morga&ubreve;o</ref>
+  </snc>
    <trdgrp lng="be">
      <trd>&c_u;&c_ch;&c_o;&c_r;&c_a;&c_sh;&c_n;&c_ib; &c_d;&c_z;&c_je;&c_n;&c_mol;</trd>,
      <trd>&c_u;&c_ch;&c_o;&c_r;&c_a;</trd>
@@ -97,6 +161,7 @@
    <trd lng="bg">&c_v;&c_ch;&c_je;&c_r;&c_a;&c_sh;&c_n;&c_i;&c_ja;&c_t; 
 &c_d;&c_je;&c_n;</trd>
    <trd lng="br">derc'hent</trd>
+   <trd lng="de">Gestern</trd>
    <trdgrp lng="fi">
      <trd>eilinen <klr tip="amb"> (subst.)</klr></trd>,
      <trd>eilisp&auml;iv&auml;</trd>,
@@ -113,20 +178,41 @@
      <trd>dzie&nacute; <ind>wczorajszy</ind></trd>
    </trdgrp>
    <trd lng="pt">o dia de <ind>ontem</ind></trd>
-  <trd lng="uk">&#x443;&#x447;&#x43E;&#x440;&#x430;&#x448;&#x43D;&#x456;&#x439; &#x434;&#x435;&#x43D;&#x44C;</trd>
+  <trd lng="uk">&c_u;&c_ch;&c_o;&c_r;&c_a;&c_sh;&c_n;&c_ib;&c_j; &c_d;&c_je;&c_n;&c_mol;</trd>
 </drv>
 
 <drv mrk="hierau.antaux0">
-   <kap>anta&ubreve;<tld/></kap>
-   <snc mrk="hierau.antaux0.KOMUNE">
-     <dif>
-       Du tagojn anta&ubreve; la nuna.
-     </dif>
-     <trd lng="th">&#xE27;&#xE32;&#xE19;&#xE0B;&#xE37;&#xE19;</trd>
-   </snc>
+  <kap>anta&ubreve;<tld/></kap>
+  <snc mrk="hierau.antaux0.KOMUNE">
+    <dif>
+      Du tagojn anta&ubreve; la nuna:
+      <ekz>
+        mi komencis labori anta&ubreve;<tld/>
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        male de la <tld/>aj kaj anta&ubreve;<tld/>aj kutimoj, la domo estis &ccirc;ie lumigata
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Na&ubreve;a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la anta&ubreve;hiera&ubreve;a fulmotondro tondro derompis angula&jcirc;on de la templo
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="th">&#3623;&#3634;&#3609;&#3595;&#3639;&#3609;</trd>
+  </snc>
    <trd lng="be">&c_p;&c_a;&c_z;&c_a;&c_w;&c_ch;&c_o;&c_r;&c_a;</trd>
    <trd lng="bg">&c_z;&c_a;&c_v;&c_ch;&c_je;&c_r;&c_a;</trd>
-   <trd lng="bo">&#xF41;&#xF60;&#xF72;&#xF0B;&#xF49;&#xF72;&#xF53;&#xF0B;&#xF58;&#xF0B;</trd>
+   <trd lng="bo">&t_kha;&t_-a;&t_gigu;&t_tsheg;&t_nya;&t_gigu;&t_na;&t_tsheg;&t_ma;&t_tsheg;</trd>
   <trd lng="br">derc'hent-dec'h</trd>
    <trd lng="de">vorgestern</trd>
    <trdgrp lng="el">
@@ -147,8 +233,8 @@
      <trd>avantieri</trd>,
      <trd>l'altro <ind>ieri</ind></trd>
    </trdgrp>
-   <trd lng="ja">&#x4E00;&#x6628;&#x65E5;
-[<ind>&#x304A;&#x3068;&#x3068;&#x3044;</ind>]</trd>
+   <trd lng="ja">&#19968;&#26152;&#26085;
+[<ind>&#12362;&#12392;&#12392;&#12356;</ind>]</trd>
    <trd lng="nl">eergisteren</trd>
    <trd lng="pl">przedwczoraj</trd>
    <trd lng="pt">anteontem</trd>
@@ -157,13 +243,16 @@
    <trd lng="sv">i <ind>f&ouml;rrg&aring;r</ind></trd>
    <trd lng="tr">evvelki g&uuml;n</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x437;&#x430;&#x432;&#x447;&#x43E;&#x440;&#x430;</trd>,
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x434;&#x443;&#x447;&#x43E;&#x440;&#x430;</trd>
+    <trd>&c_p;&c_o;&c_z;&c_a;&c_v;&c_ch;&c_o;&c_r;&c_a;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_d;&c_u;&c_ch;&c_o;&c_r;&c_a;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.39 2023/02/02 07:23:30
+Wolfram Diestel: +ekz, trd de, ref
+
 versio 1.36 2022/01/24 08:34:52
 Dmitri Gabinski: + trd be
 
@@ -183,8 +272,5 @@ Revision 1.28  2009/09/10 16:32:24  revo
 Antonio Codazzi: ++trd it
 
 Revision 1.27  2008/04/24 17:20:25  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.26  2007/07/23 16:30:55  revo
 -->
 </vortaro>
