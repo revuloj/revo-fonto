@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: posxt.xml,v 1.36 2022/10/25 07:54:13 revo Exp $">
+<art mrk="$Id: posxt.xml,v 1.37 2023/02/12 22:28:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>po&scirc;t</rad>/o <fnt><bib>PV</bib></fnt>
@@ -26,10 +26,12 @@
         <trd lng="be">&c_p;&c_a;&c_sh;&c_t;&c_o;&c_w;&c_k;&c_a;</trd>
         <trd lng="de">Postkarte</trd>
         <trd lng="en">postcard</trd>
+        <trd lng="es">tarjeta postal</trd>
         <trd lng="he">&gimel;&lamed;&vav;&yod;&he;</trd>
         <trd lng="hu">levelez&odblac;lap</trd>
         <trd lng="nl">briefkaart</trd>
-        <trd lng="es">tarjeta postal</trd>
+        <trd lng="pl">kartka <ind>pocztowa</ind></trd>
+        <trd lng="ro">carte  <ind>po&scedil;tal&abreve;</ind></trd>
         <trd lng="ru">&c_o;&c_t;&c_k;&c_r;&c_y;&c_t;&c_k;&c_a;</trd>
       </ekz>
       <ekz>
@@ -37,13 +39,15 @@
         <trd lng="be">&c_p;&c_a;&c_sh;&c_t;&c_o;&c_v;&c_a;&c_ja; <ind>&c_m;&c_a;&c_r;&c_k;&c_a;</ind></trd>
         <trd lng="de">Briefmarke</trd>
         <trd lng="en">stamp</trd>
+        <trd lng="es">estampilla</trd>
         <trdgrp lng="he">
           <trd>&bet;&vav;&lamed;<klr tip="ind"> (&tav;&vav;-&dalet;&vav;&alef;&resh;)</klr></trd>,
           <trd>&tav;&vav;-&dalet;&vav;&alef;&resh;</trd>
         </trdgrp>
         <trd lng="hu">postab&eacute;lyeg</trd>
         <trd lng="nl">postzegel</trd>
-        <trd lng="es">estampilla</trd>
+        <trd lng="pl">znaczek  <ind>pocztowy</ind></trd>
+        <trd lng="ro">marc&abreve;  <ind>po&#537;tal&abreve;</ind></trd>
         <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_o;&c_v;&c_a;&c_ja; <ind>&c_m;&c_a;&c_r;&c_k;&c_a;</ind></trd>
       </ekz>
       <ekz>
@@ -66,20 +70,22 @@
   <trd lng="de">Post</trd>
   <trd lng="cs">po&scaron;ta</trd>
   <trd lng="en">mail</trd>
+  <trdgrp lng="es">
+    <trd>correo</trd>,
+    <trd>correos<klr> (servicio de)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>poste<klr> (service)</klr></trd>
   </trdgrp>
   <trd lng="he">&dalet;&vav;&alef;&resh;</trd>
   <trd lng="hu">posta</trd>
   <trd lng="nl">post</trd>
+  <trd lng="pl">poczta</trd>
   <trdgrp lng="pt">
     <trd>correio</trd>,
     <trd>posta</trd>
   </trdgrp>
-  <trdgrp lng="es">
-    <trd>correo</trd>,
-    <trd>correos<klr> (servicio de)</klr></trd>
-  </trdgrp>
+<trd lng="ro">po&scedil;t&abreve;</trd>
   <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_a;<klr tip="amb"> (&c_s;&c_l;&c_u;&c_zh;&c_b;&c_a;)</klr></trd>
   <trd lng="uk">&c_p;&c_o;&c_sh;&c_t;&c_a;</trd>
   <trd lng="vo">pot</trd>
@@ -108,7 +114,9 @@
     <trd>postai</trd>
   </trdgrp>
   <trd lng="nl">post-</trd>
+  <trd lng="pl">pocztowy</trd>
   <trd lng="pt">postal</trd>
+  <trd lng="ro">po&scedil;tal</trd>
   <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_o;&c_v;&c_y;&c_j;</trd>
   <trd lng="uk">&c_p;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_i;&c_j;</trd>
 </drv>
@@ -152,7 +160,9 @@
     <trd>postzending</trd>,
     <trd>poststuk</trd>
   </trdgrp>
+  <trd lng="pl">przesy&lstroke;ka  <ind>pocztowa</ind></trd>
   <trd lng="pt">correspond&ecirc;ncia</trd>
+  <trd lng="ro">pachet <ind>po&#537;tal</ind></trd>
   <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_o;&c_v;&c_o;&c_je; &c_o;&c_t;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 
@@ -194,9 +204,17 @@
     <trd>postkantoor</trd>,
     <trd>postpunt</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>lokacja sieciowa</trd>,
+    <trd>poczta  <klr>(urz&aogonek;d)</klr></trd>
+  </trdgrp>
   <trdgrp lng="pt">
   <trd>ag&ecirc;ncia de correios</trd>
   <trd>ag&ecirc;ncia postal</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>loca&#539;ia de re&#539;ea</trd>,
+    <trd>po&#537;ta  <klr>(oficiul)</klr></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_ch;&c_t;&c_a;<klr tip="amb"> (&c_z;&c_d;&c_a;&c_n;&c_i;&c_je;)</klr></trd>,
@@ -243,7 +261,9 @@
   </trdgrp>
   <trd lng="hu">levelez&odblac;program</trd>
   <trd lng="nl">e-mailprogramma</trd>
+  <trd lng="pl">program  <ind>pocztowy</ind></trd>
   <trd lng="pt">programa de e-mail</trd>
+  <trd lng="ro">program de  <ind>mail</ind></trd>
   <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_o;&c_v;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;</ind></trd>
 </drv>
 
@@ -280,7 +300,15 @@
   <trd lng="hu">post&aacute;s</trd>
   <trd lng="es">cartero</trd>
   <trd lng="nl">postbode</trd>
+  <trdgrp lng="pl">
+    <trd>pocztowiec</trd>,
+    <trd>listonosz</trd>
+  </trdgrp>
   <trd lng="pt">carteiro</trd>
+  <trdgrp lng="ro">
+    <trd>po&scedil;ta&scedil;</trd>,
+    <trd>factor  <ind>po&scedil;tal</ind></trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_a;&c_l;&c_mol;&c_o;&c_n;</trd>
   <trd lng="uk">&c_p;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_i;&c_j; &c_s;&c_l;&c_u;&c_zh;&c_b;&c_o;&c_v;&c_je;&c_c;&c_mol;</trd>
 </drv>
@@ -305,13 +333,22 @@
   <trd lng="hu">felad</trd>
   <trd lng="es">enviar por correo</trd>
   <trd lng="nl">posten</trd>
+  <trdgrp lng="pl">
+    <trd>nadawa&cacute;  <ind>poczt&aogonek;</ind></trd>,
+    <trd>wysy&lstroke;a&cacute;  <ind>poczt&aogonek;</ind></trd>
+  </trdgrp>
   <trd lng="pt">postar</trd>
+  <trdgrp lng="ro">
+    <trd>trimite&tcedil;i prin  <ind>po&scedil;t&abreve;</ind></trd>,
+    <trd>predare prin  <ind>po&scedil;t&abreve;</ind></trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_a;&c_t;&c_mol; <klr>(&c_p;&c_o;&c_ch;&c_t;&c_o;&c_j;)</klr></trd>
   <trdgrp lng="uk">
     <trd>&c_z;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_n;&c_a; &c_p;&c_o;&c_sh;&c_t;&c_u; (&c_k;&c_o;&c_r;&c_je;&c_s;&c_p;&c_o;&c_n;&c_d;&c_je;&c_n;&c_c;&c_ib;&c_ju;)</trd>,
     <trd>&c_k;&c_i;&c_d;&c_a;&c_t;&c_i; &c_u; (&c_p;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_u;) &c_s;&c_k;&c_r;&c_i;&c_n;&c_mol;&c_k;&c_u;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="posxt.aer0a">
   <kap>
     aer<tld/>a
@@ -341,13 +378,9 @@
   <trd lng="de">Luftpost-</trd>
   <trd lng="en">by <ind>airmail</ind></trd>
   <trd lng="fr">par <ind>avion</ind></trd>
+  <trd lng="pl">poczta lotnicza</trd>
+  <trd lng="ro">po&#537;t&abreve; aerian&abreve;</trd>
 </drv>
-
-
-
-
-
-
 
 <drv mrk="posxt.0restante">
   <kap><tld/>restante</kap>
@@ -374,13 +407,18 @@
     <trd>poste restante</trd>
   </trdgrp>
   <trd lng="nl">poste restante</trd>
+  <trd lng="pl">poste restante</trd>
   <trd lng="pt">posta restante</trd>
+  <trd lng="ro">post-restant </trd>
   <trd lng="ru">&c_d;&c_o; &c_v;&c_o;&c_s;&c_t;&c_r;&c_je;&c_b;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
   <trd lng="uk">&c_d;&c_o; &c_z;&c_a;&c_p;&c_i;&c_t;&c_a;&c_n;&c_n;&c_ja; (&c_p;&c_r;&c_o; &c_k;&c_o;&c_r;&c_je;&c_s;&c_p;&c_o;&c_n;&c_d;&c_je;&c_n;&c_c;&c_ib;&c_ju;)</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.37 2023/02/12 22:28:37
+Vito Redsky: +trd pl + trd ro
+
 versio 1.36 2022/10/25 07:54:13
 Dmitri Gabinski: + trd be
 
@@ -400,8 +438,5 @@ Revision 1.28  2019/06/23 20:10:17  revo
 Jeromo Vasxe: + ret~ilo
 
 Revision 1.27  2018/04/30 14:10:15  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.26  2015/12/06 23:10:16  revo
 -->
 </vortaro>
