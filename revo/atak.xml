@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: atak.xml,v 1.36 2023/02/14 18:31:59 revo Exp $">
+<art mrk="$Id: atak.xml,v 1.37 2023/02/15 19:22:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>atak</rad>/i <fnt><bib>PV</bib></fnt>
@@ -344,23 +344,39 @@
 
 <drv mrk="atak.0anto">
   <kap><ofc>*</ofc><tld/>anto</kap>
-  <snc mrk="atak.0anto.ludo">
-    <uzo tip="fak">SPO</uzo>
-    <dif>
-      Homo kiu atakas, dum ludo a&ubreve; sporto, kiel piedpilkado
-    </dif>
-  </snc>
   <snc mrk="atak.0anto.batalo">
+    <uzo tip="fak">SPO</uzo>
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Homo kiu <tld/>as, komencas batalon:
+      Homo kiu <tld/>as, komencas batalon, sportludon ktp:
       <ekz>
         Kvinope ili sin &jcirc;etis sur min, sed mi venkis &ccirc;iujn kvin
         <tld/>antojn
-        <fnt><bib>F</bib>, <lok>&FE; 14</lok></fnt>.
+        <fnt><bib>F</bib>, <lok>&FE; 14</lok></fnt>;
+      </ekz>
+      <ekz>
+        Vi <klr>[&#8230;]</klr> helpas la fidantojn kontra&ubreve; la <tld/>antoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 17:7</lok>
+        </fnt>;
       </ekz>
     </dif>
   </snc>
+  <snc mrk="atak.0anto.FIG">
+    <dif>
+      Verva kritikanto:
+      <ekz>
+        de iliaj senka&ubreve;zaj <tld/>oj Esperanto ne pereos, kiel &gcirc;i ne pereis &gcirc;is nun,
+        malgra&ubreve; multaj miloj da <tld/>antoj
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Kion Zamenhof ne povis diri en &Gcirc;enevo.</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Angreifer</trd>
   <trd lng="fr">attaquant</trd>
   <trd lng="he">&tav;&vav;&#1465;&qof;&#1461;&fpe;</trd>
   <trdgrp lng="uk">
@@ -371,18 +387,14 @@
 
 <drv mrk="atak.0antino">
   <kap><tld/>antino</kap>
-  <snc mrk="atak.0antino.ludo">
-    <uzo tip="fak">SPO</uzo>
-    <dif>
-      Virina <tld/>anto
-    </dif>
-  </snc>
   <snc mrk="atak.0antino.batalo">
+    <uzo tip="fak">SPO</uzo>
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Virino kiu <tld/>as, komencas batalon.
+      Virina <tld/>anto.
     </dif>
   </snc>
+  <trd lng="de">Angreiferin</trd>
   <trd lng="fr">attaquante</trd>
 </drv>
 
@@ -390,9 +402,36 @@
   <kap><tld/>ema</kap>
   <snc mrk="atak.0ema.KOMUNE">
     <dif>
-      Batalema, spitema:
+      <ref cel="batal.0ema">Batalema</ref>, <ref cel="spit.0ema">spitema</ref>:
       <ekz>
-        <tld/>ema humoro;
+        <tld/>ema kiel leono
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi vidas la&ubreve; lia nazo, ke li estas forte <tld/>ema
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        doktoro <nom>Rees</nom> ofte ofendi&gcirc;is pro lia <tld/>ema malkredemo
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Franjo, spirito <tld/>ema, ekparolis vive per akra vo&ccirc;o
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro III</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -446,20 +485,37 @@
   <snc mrk="atak.kontraux0o.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Rebata
-      <ref tip="super" cel="atak.0o.batalo"><tld/>o</ref>
-      kontra&ubreve; atakinta malamiko:
+      Rebata <ref tip="super" cel="atak.0o.batalo"><tld/>o</ref>
+      kontra&ubreve; <tld/>inta malamiko:
       <ekz>
         kvaza&ubreve; prusa stabestro, mi preparis kontra&ubreve;<tld/>on
         <fnt>
           <aut>L. Beaucaire</aut>,
           <vrk>El la vivo de bervala senta&ubreve;gulo</vrk>,
           <lok>1974</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Lugosanoj sendos duan rabobandon, por repagi nian kontra&ubreve;<tld/>on
+        <fnt>
+          <bib>StU</bib>
+          <lok>Britujo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la du fu&gcirc;antoj kriegis nehoman krion kaj senespere kontra&ubreve;<tld/>is la &ccirc;asantojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Eizo Otsuka</aut>
+          <vrk><url ref="https://www.monato.be/2007/009193.php"
+              >Tri fu&gcirc;antoj</url></vrk>
+          <lok>2007</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_o;&c_n;&c_t;&c_r;&c_a;&c_t;&c_a;&c_k;&c_a;</trd>
+  <trd lng="de">Gegenangriff</trd>
   <trd lng="fr">contre-attaque</trd>
 </drv>
 
@@ -470,6 +526,22 @@
     <dif>
       Subita, neatendita
       <ref tip="super" cel="atak.0o.batalo"><tld/>o</ref>:
+      <ekz>
+        okazis rapida decido: surpriz<tld/>o en la urbeto, forigo de la oficantoj,
+        gvardi&scirc;an&gcirc;o, arestadoj
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        trafi ilin per surpriz<tld/>o, tiel ke ili ne havos tempon por alpreni siajn
+        batalpoziciojn
+        <fnt>
+          <bib>StU</bib>
+          <lok>Britujo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         separatismaj grupoj ofte surpriz<tld/>as
         en hindian teritorion
@@ -487,6 +559,7 @@
     <trd>p&rcaron;ekvapiv&yacute; &uacute;tok</trd>,
     <trd>p&rcaron;epad</trd>
   </trdgrp>
+  <trd lng="de">&Uuml;berraschungsangriff</trd>
   <trd lng="fr">raid</trd>
   <trdgrp lng="it">
     <trd>blitz</trd>,
@@ -499,7 +572,7 @@
 </drv>
 
 <drv mrk="atak.tromp0o">
-  <kap>tromp<tld/>o</kap>
+  <kap>tromp<tld/>o, <var><kap>&scirc;ajn<tld/>o</kap></var></kap>
   <snc mrk="atak.tromp0o.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
@@ -508,7 +581,7 @@
       por delogi malamikon,
       por provi lian rebatemon...:
       <ekz>
-        post la tromp<tld/>o de kunpaktuloj, ili <klr>...</klr> 
+        post la tromp<tld/>o de kunpaktuloj, ili <klr>[&#8230;]</klr> 
         komencis kontra&ubreve;<tld/>on
         <fnt>
           <aut>J. Francis</aut>,
@@ -518,6 +591,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Scheinangriff</trd>
   <trd lng="fr">fausse attaque</trd>
 </drv>
 
@@ -527,8 +601,7 @@
   <snc mrk="atak.vort0i.KOMUNE">
     <dif>
       <tld lit="A"/>i per malfavoraj diroj,
-      tre malla&ubreve;di,
-      forte <ref tip="vid" cel="kritik.0i.KOMUNE">kritiki</ref>:
+      tre malla&ubreve;di, forte <ref tip="vid" cel="kritik.0i.KOMUNE">kritiki</ref>:
       <ekz>
         &leftquot;vi estas stultulo kaj instruojn miajn vi ne 
         memoras,&rightquot; vort<tld/>is lin la maljuna sinjoro
@@ -537,9 +610,24 @@
           <vrk><url ref="http://www.literatura.bucek.name/nemcova/kaca.html">
           Diablo kaj Ka&ccirc;a</url></vrk>,
           <lok>[2009?]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la inundo de etaj vort<tld/>oj sen inteligenta argumentado ne 
+        meritas spacon en mondvasta gazeto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Elson B. Snow</aut>
+          <vrk><url ref="https://www.monato.be/2003/008006.html"
+              >Dio, benu Usonon! (2)</url></vrk>
+          <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kritik.0i">kritiki</ref>,
+      <ref cel="batal.vorto0i">vortobatali</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>obo&rcaron;it se</trd>,
@@ -557,6 +645,9 @@
 </art>
 <!--
 $Log$
+versio 1.37 2023/02/15 19:22:33
+Wolfram Diestel: ~ema..vort~i: +ekz-oj, ref-oj, trd de
+
 versio 1.36 2023/02/14 18:31:59
 Wolfram Diestel: ~i, ~o: +ekz-oj, ref-oj, trd de
 
@@ -576,8 +667,5 @@ Revision 1.28  2015/09/17 12:10:17  revo
 Evandro Avellar: +trd pt
 
 Revision 1.27  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.26  2015/06/28 12:03:36  revo
 -->
 </vortaro>
