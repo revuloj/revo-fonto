@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: eksklamaci.xml,v 1.6 2022/03/16 15:54:27 revo Exp $">
+<art mrk="$Id: eksklamaci.xml,v 1.7 2023/02/16 19:21:14 revo Exp $">
 <kap>
-  <rad>eksklamaci</rad>/o <fnt><bib>PIV1</bib></fnt>
+  <rad>eksklamaci</rad>/o <fnt><bib>PIV1</bib></fnt>,
+  <var><kap><rad var="m">eksklam</rad>/o</kap></var>
 </kap>
 <drv mrk="eksklamaci.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap><tld var="m"/>o</kap></var></kap>
   <uzo tip="stl">RAR</uzo>
   <snc mrk="eksklamaci.0o.BELE">
     <uzo tip="fak">BELE</uzo>
@@ -14,21 +15,49 @@
       <ref tip="vid" cel="patos.0a.BELA">Patosa</ref>
       ekkria, pasia esprimo:
       <ekz>
-        li <klr>...</klr> a&ubreve;skultas la amajn <tld/>ojn de sia 
+        li <klr>[&#8230;]</klr> a&ubreve;skultas la amajn <tld/>ojn de sia 
         amiko
         <fnt>
           <aut>A. Pu&scirc;kin, trad. A. Kor&jcirc;enkov</aut>,
           <vrk><url ref="http://www.esperanto-ondo.ru/Libroj/V_bibl01.pdf">
           La pika damo</url></vrk>,
           <lok>2003-2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        afekciaj perceptoj povas esti tre bone esprimataj per nelingvaj rimedoj:
+        vo&ccirc;-altigo, <tld var="m"/>oj (a&hcirc;!, oj!), viza&gcirc;esprimoj, gestoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj kutime komenci&gcirc;as per iu interjekcio: ho! ve! fi
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        por indiki la gradon de la falo de la moderna civilizo oni povus ne uzi la&ubreve;tajn
+        <tld/>ojn kaj fortajn esprimojn, sufi&ccirc;as mencii, ke <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 10 (108)</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="interj.0o">interjekcio</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>exklamace</trd>,
     <trd>zvol&aacute;n&iacute;</trd>
   </trdgrp>
+  <trd lng="de">Ausruf</trd>
+  <trd lng="en">exclamation</trd>
   <trd lng="fr">exclamation<klr> (rh&eacute;torique)</klr></trd>
   <trdgrp lng="pl">
     <trd>eksklamacja</trd>,
@@ -39,14 +68,56 @@
     <trd>zvolanie</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x433;&#x443;&#x43A;</trd>,
-    <trd>&#x43E;&#x43A;&#x43B;&#x438;&#x43A; (&#x443; &#x43F;&#x440;&#x43E;&#x43C;&#x43E;&#x432;&#x456;)</trd>
+    <trd>&c_v;&c_i;&c_g;&c_u;&c_k;</trd>,
+    <trd>&c_o;&c_k;&c_l;&c_i;&c_k; (&c_u; &c_p;&c_r;&c_o;&c_m;&c_o;&c_v;&c_ib;)</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="eksklamaci.0i">
+  <kap>
+    <tld/>i, <var><kap><tld var="m"/>i</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Patose, pasie <ref tip="super" cel="kri.ek0i">ekkrii</ref>:
+      <ekz>
+        &leftquot;ho, kara kamarado&rightquot;, mi <tld/>is, &leftquot;kiom ur&gcirc;e necesas ke <klr>[&#8230;]</klr>&rightquot;
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Kvin</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        subite unu el la gastoj, dika bakisto, levis la glaseton kaj <tld var="m"/>is: &leftquot;je la
+        sano de tiuj por kiuj ni laboras&rightquot;
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 6 (56)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="tamtam.0i">tamtami</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">ausrufen</trd>
+  <trd lng="en">exclaim</trd>
+</drv>
+
+
+
+
+
+
+
+
 </art>
 
 <!--
 $Log$
+versio 1.7 2023/02/16 19:21:14
+Wolfram Diestel: +~i, +var; +ekz-oj, ref, trd de, en
+
 Revision 1.4  2015/07/04 08:37:33  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -58,6 +129,5 @@ Alain Gerard: tajperaro
 
 Revision 1.1  2014/12/22 21:10:13  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>
