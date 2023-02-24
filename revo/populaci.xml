@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: populaci.xml,v 1.6 2022/05/04 22:32:51 revo Exp $">
+<art mrk="$Id: populaci.xml,v 1.7 2023/02/24 20:28:59 revo Exp $">
 <kap>
   <rad>populaci</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -9,6 +9,7 @@
   <kap><tld/>o</kap>
   <snc mrk="populaci.0o.EKOL">
     <uzo tip="fak">EKOL</uzo>
+    <uzo tip="fak">BIO</uzo>
     <dif>
       Tuto de samspecaj vivuloj, kiuj interagas
       kaj reprodukti&gcirc;as en komuna areo:
@@ -20,14 +21,60 @@
           <vrk><url ref="&STEB;zoologio/konduto_de_bestoj/f874-p30.htm">
           Pri la konduto de bestoj</url></vrk>,
           <lok>Fokuso, 1987:1, p. 2a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        infrastrukturaj projektoj en la malsupra Danubo povus tute malaperigi la forte
+        minacatajn <tld/>ojn de sturgo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2010/010038.php"
+              >Priatenti la naturprotekton</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la indi&gcirc;ena lo&gcirc;antaro uzas por malsamaj <tld/>oj de romaoj diversajn subtilajn
+        lingvajn deviojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2012/010624.php"
+              >Ciganoj a&ubreve; romaoj: &ccirc;u lingva problemo?</url></vrk>
+          <lok>2012</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="etn.0o">etno</ref>,
       <ref cel="greg.0o.AGR">grego</ref>,
       <ref cel="koloni.0o.EKOL">kolonio<sncref/></ref>,
+      <ref cel="popol.0o.etno">popolo<sncref/></ref>,
       <ref cel="rot.0o.aro_de_kunirantoj">roto<sncref/></ref>
     </refgrp>
+  </snc>
+  <snc mrk="populaci.0o.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <klr>(en statistiko)</klr> La aro de &ccirc;iuj objektoj kiujn esploro koncernas:
+      <ekz>
+        mezurado de la televid-spektantaro baze ne malsamas al aliaj statistikaj
+        esploroj: oni elektas muestron 
+        <klr>(<ref tip="prt" cel="specim.0aro">specimenaron</ref>)</klr>, 
+        analizas &gcirc;in kaj el ties konduto eksterpolas
+        la agadon de la tuta <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos I Font</aut>
+          <vrk><url ref="https://www.monato.be/2003/008062.html"
+              >Spektantoj spektataj</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Grundgesamtheit</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>obyvatelstvo</trd>,
@@ -37,15 +84,18 @@
   <trd lng="pl">populacja  <klr>(biologia)</klr></trd>
   <trd lng="ro">popula&#539;ie</trd>
   <trdgrp lng="sk">
-    <trd>obyvate&#x13E;stvo</trd>,
-    <trd>popul&#xE1;cia</trd>
+    <trd>obyvate&lcaron;stvo</trd>,
+    <trd>popul&aacute;cia</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&#x43E;&#x43F;&c_u;&#x43B;&#x44F;&c_c;&c_ib;&#x44F;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_p;&c_u;&c_l;&c_ja;&c_c;&c_ib;&c_ja;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.7 2023/02/24 20:28:59
+Wolfram Diestel: +ekz-oj; +snc statistika
+
 versio 1.6 2022/05/04 22:32:51
 Vito Redsky: + trd pl + trd ro 
 
