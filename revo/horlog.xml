@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: horlog.xml,v 1.128 2023/02/24 04:32:51 revo Exp $">
+<art mrk="$Id: horlog.xml,v 1.129 2023/02/26 08:31:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>horlo&gcirc;</rad>/o
@@ -456,13 +456,15 @@
 
 <drv mrk="horlog.klik0o">
   <kap>
-    klik<tld/>o
+    klik<tld/>o <fnt><bib>PIV1</bib></fnt>, 
+    <var><kap>stop<tld/>o <fnt><bib>KrDE</bib></fnt></kap></var>
   </kap>
   <snc>
     <uzo tip="fak">KAL</uzo>
+    <uzo tip="fak">SPO</uzo>
     <dif>
       <ref tip="super" cel="horlog.0o.KAL"><tld lit="H"/>o</ref> kun butonoj, kiuj startigas,
-         haltigas, kaj remetigas al nul la montriletojn, por mezuri la da&ubreve;ro de io:
+      haltigas, kaj renuligas la montriletojn, por mezuri la ekzaktan da&ubreve;ron de io:
       <ekz>
         mi mezuris per klik<tld/>o &gcirc;ian mekanikan reflekson
         <fnt>
@@ -470,6 +472,13 @@
           <vrk><url ref="https://esperanto-ondo.ru/Rato01.htm"
               >Naski&gcirc;o de la Rustimuna &Scirc;talrato</url></vrk>
           <lok>&Ccirc;apitro 1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li kuris per stop<tld/>o en la mano dum la trejnadoj por precize dividi la forton
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Paavo_Nurmi"
+              >Paavo Nurmi - Vikipedio</url></vrk>
         </fnt>;
       </ekz>
        <ekz>
@@ -489,8 +498,14 @@
         </fnt>.
       </ekz>
    </dif>
+   <ref tip="vid" cel="kronom.0o">kronometro</ref>
   </snc>
+  <trd lng="da">stopur</trd>
+  <trd lng="de">Stoppuhr</trd>
   <trd lng="en">stopwatch</trd>
+  <trd lng="el">&chi;&rho;&omikron;&ny;&omikron_ton;&my;&epsilon;&tau;&rho;&omikron;</trd>
+  <trd lng="pl">sekundomierz</trd>
+  <trd lng="ru">&c_s;&c_je;&c_k;&c_u;&c_n;&c_d;&c_o;&c_m;&c_je;&c_r;</trd>
 </drv>
 
 <drv mrk="horlog.mur0o">
@@ -713,8 +728,11 @@
 </art>
 <!--
 $Log$
+versio 1.129 2023/02/26 08:31:26
+Wolfram Diestel: +var stop~o kun fnt, ekz, trdj
+
 versio 1.128 2023/02/24 04:32:51
-Robert Baruch: +trd: en, +drv: klikhorloĝo
+Robert Baruch: +trd: en, +drv: klikhorlo&gcirc;o
 
 versio 1.127 2022/09/28 22:37:20
 Vito Redsky: +trd pl + trd ro
@@ -732,8 +750,5 @@ versio 1.117 2021/06/23 15:37:23
 Wolfram Diestel: movis mislokitajn trd-ojn de H~o al ~o
 
 Revision 1.39  2017/05/26 16:10:16  revo
-Ludoviko Francisco: +ekz
-
-Revision 1.38  2017/04/26 16:10:30  revo
 -->
 </vortaro>
