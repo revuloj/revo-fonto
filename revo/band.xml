@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: band.xml,v 1.101 2023/02/26 08:33:36 revo Exp $">
+<art mrk="$Id: band.xml,v 1.102 2023/02/26 10:31:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>band</rad>/o
@@ -10,7 +10,7 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="band.0o.irantaro">
     <dif>
-      Malgranda <ref tip="super" cel="grup.0o.personoj">grupo</ref>
+      Malgranda <ref tip="super" cel="grup.0o.personoj">grupo<sncref/></ref>
       kune vaganta, facile movi&gcirc;anta:
     </dif>
     <subsnc mrk="band.0o.ularo">
@@ -83,7 +83,6 @@
         <trd>Schar</trd>,
         <trd>Meute</trd>
       </trdgrp>
-      <trd lng="en">band</trd>
       <trd lng="hu">csapat</trd>
       <trd lng="nl">troep</trd>
       <trdgrp lng="pl">
@@ -100,8 +99,7 @@
     <snc mrk="band.0o.MUZ">
       <uzo tip="fak">MUZ</uzo>
       <dif>
-        Malgranda <ref tip="super" cel="grup.muzik0o.MUZ">muzikgrupo
-        </ref>
+        Malgranda <ref tip="super" cel="grup.muzik0o.MUZ">muzikgrupo</ref>
         kuniranta, kunlunda:
         <ekz>
           nova esperanta rok<tld/>o
@@ -123,8 +121,7 @@
         <trd>&c_g;&c_u;&c_r;&c_t;</trd>
       </trdgrp>
       <trdgrp lng="br">
-        <trd>laz<klr tip="ind"> (-kana&ntilde;, -seni&ntilde;)</klr>
-        </trd>,
+        <trd>laz<klr tip="ind"> (-kana&ntilde;, -seni&ntilde;)</klr></trd>,
         <trd>strollad<klr tip="ind"> (sonerezh)</klr></trd>,
         <trd>bagad<klr tip="ind"> (sonerien)</klr></trd>
       </trdgrp>
@@ -225,6 +222,7 @@
   <trd lng="cy">mand</trd>
   <trd lng="da">b&aring;nd</trd>
   <trd lng="de">Gruppe</trd>
+  <trd lng="en">band</trd>
   <trd lng="es">banda</trd>
   <trd lng="et">b&auml;nd</trd>
   <trd lng="fr">bande <klr tip="amb"> (groupe de personnes,
@@ -340,7 +338,7 @@
   <kap><tld/>ano</kap>
   <snc mrk="band.0ano.KOMUNE">
     <dif>
-      Unuopa ulo el <ref tip="malprt" cel="band.0o.KOMUNE"><tld/>o</ref>:
+      Unuopa ulo el <ref tip="malprt" cel="band.0o"><tld/>o</ref>:
     </dif>
     <subsnc mrk="band.0ano.MUZ">
       <ekz>
@@ -360,10 +358,8 @@
     <subsnc mrk="band.0ano.kunularo">
       <ekz>
         ribelemaj <tld/>anoj <klr>...</klr> asertis, ke nenia estro
-        havas la rajton tiel senigi la kunularon je tiel bela
-        kapta&jcirc;o
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 9a,
-        &leftquot;aventura voja&gcirc;o&rightquot;</lok></fnt>.
+        havas la rajton tiel senigi la kunularon je tiel bela kapta&jcirc;o
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 9a</lok></fnt>.
       </ekz>
       <refgrp tip="vid">
         <ref cel="bandit.0o">bandito</ref>
@@ -452,6 +448,9 @@
 </art>
 <!--
 $Log$
+versio 1.102 2023/02/26 10:31:25
+Sergio Pokrovskij: sncref
+
 versio 1.101 2023/02/26 08:33:36
 Sergio Pokrovskij: rearangxo
 
@@ -471,8 +470,5 @@ Revision 1.29  2017/02/19 11:10:13  revo
 Wolfram Diestel: ekz-oj kun fnt-oj, dif chirkau dif-ref
 
 Revision 1.28  2015/10/02 02:10:17  revo
-Evandro Avellar: +trd pt
-
-Revision 1.27  2015/09/30 13:10:18  revo
 -->
 </vortaro>
