@@ -1,47 +1,74 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: band.xml,v 1.100 2023/02/25 17:26:58 revo Exp $">
+<art mrk="$Id: band.xml,v 1.101 2023/02/26 08:33:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>band</rad>/o
 </kap>
 <drv mrk="band.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="band.0o.KOMUNE">
+  <snc mrk="band.0o.irantaro">
     <dif>
       Malgranda <ref tip="super" cel="grup.0o.personoj">grupo</ref>
-      facile
-      movi&gcirc;anta:
+      kune vaganta, facile movi&gcirc;anta:
     </dif>
-    <subsnc mrk="band.0o.irantaro">
+    <subsnc mrk="band.0o.ularo">
       <dif>
-        Irantaro:
+        Kune irantaj homoj:
         <ekz>
           <tld/>o da junuloj;
-        </ekz>
+        </ekz><ekz>
+          sekvis <tld/>o da migrantaj fra&ubreve;linoj, kiuj venis el la
+          virinejo <ctl>&ccirc;e la Azeno</ctl> en <nom>W&uuml;rzburg</nom> kaj
+          iris al la Roza Valo
+          <fnt><aut>H.Heine, &tZ;</aut>:
+             <vrk>La Rabeno de Ba&hcirc;ara&hcirc;</vrk></fnt>;
+        </ekz><ekz>
+          la kantoj kaj krioj de malfrui&gcirc;inta <tld/>o de dibo&ccirc;antoj
+        <fnt>
+          <aut>A. Conan Doyle, tr. Edmund Grimley Evans</aut>:
+          <vrk>La viro kun tordita lipo</vrk>
+          <lok>La aventuroj de &Scirc;erloko Holmso. Kaliningrado: Sezonoj, 2014</lok>
+        </fnt>.
+      </ekz>
+      </dif>
+      <trd lng="en">posse</trd>
+      <trdgrp lng="ru">
+        <trd>&c_v;&c_a;&c_t;&c_a;&c_g;&c_a;</trd>,
+        <trd>&c_k;&c_o;&c_m;&c_p;&c_a;&c_n;&c_i;&c_ja;</trd>,
+        <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="band.0o.bestaro">
+      <dif>
+        Grupo da kune vivantaj kaj kune agantaj (migrantaj, &ccirc;asantaj)
+        negrandaj bestoj:
         <ekz>
           li arkpafis la sova&gcirc;ajn birdojn, kies kriemaj <tld/>oj
           rondflugis multenombre
-          <fnt>
-            <bib>Far1</bib>
-            <lok>&Ccirc;apitro XVI</lok>
-          </fnt>;
-        </ekz>
-        <ekz>
-          li iam estis &ccirc;asita de <tld/>o da pario-hundoj en tombejon ie sur la bordoj de
-          Gango
+          <fnt><bib>Far1</bib> <lok>&Ccirc;apitro XVI</lok></fnt>;
+        </ekz><ekz>
+          li iam estis &ccirc;asita de <tld/>o da hundoj en tombejon ie sur
+          la bordoj de Gango
           <fnt>
             <aut>Hector Hugh Munro (Saki), trad. Edmund Grimley Evans</aut>
             <vrk>La lupino kaj aliaj rakontoj, Kembri&gcirc;o, 2005</vrk>
-            <lok>La malfermita pordo</lok>
+            <lok>La malfermita pordo, p.&nbsp;77.</lok>
           </fnt>.
         </ekz>
       </dif>
       <refgrp tip="vid">
         <ref cel="greg.0o.ZOO">grego</ref>,
-<ref cel="rot.0o.aro_de_kunirantoj">roto<sncref/></ref>
+        <ref cel="rot.0o.aro_de_kunirantoj">roto<sncref/></ref>
       </refgrp>
+      <trdgrp lng="en">
+        <trd>flight<klr> (a group of birds)</klr></trd>,
+        <trd>flock</trd>,
+        <trd>pack<klr> (a group of animals)</klr></trd>
+      </trdgrp>
+      <trd lng="ru">&c_s;&c_t;&c_a;&c_ja;</trd>
+    </subsnc>
       <trdgrp lng="be">
         <trd>&c_g;&c_r;&c_u;&c_p;&c_a;</trd>,
         <trd>&c_g;&c_u;&c_r;&c_t;</trd>
@@ -56,10 +83,7 @@
         <trd>Schar</trd>,
         <trd>Meute</trd>
       </trdgrp>
-      <trdgrp lng="en">
-        <trd>band</trd>,
-        <trd>posse</trd>
-      </trdgrp>
+      <trd lng="en">band</trd>
       <trd lng="hu">csapat</trd>
       <trd lng="nl">troep</trd>
       <trdgrp lng="pl">
@@ -68,13 +92,12 @@
         <trd>dru&zdot;yna<klr> (harcerzy starszych)</klr></trd>
       </trdgrp>
       <trd lng="pt">bando</trd>
-      <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
       <trdgrp lng="it">
         <trd>gruppo</trd>, 
         <trd>banda</trd>
       </trdgrp>
-    </subsnc>
-    <subsnc mrk="band.0o.MUZ">
+    </snc>
+    <snc mrk="band.0o.MUZ">
       <uzo tip="fak">MUZ</uzo>
       <dif>
         Malgranda <ref tip="super" cel="grup.muzik0o.MUZ">muzikgrupo
@@ -127,8 +150,8 @@
         <trd>banda</trd>
       </trdgrp>
       <trd lng="ro">f&acirc;&scedil;ie</trd>
-    </subsnc>
-    <subsnc mrk="band.0o.bandacxo">
+    </snc>
+    <snc mrk="band.0o.bandacxo">
       <dif>
         Pluraj uloj ordinare obeantaj unu &ccirc;efulon, minacaj,
         misfaraj, 
@@ -136,8 +159,7 @@
         <ekz>
           tutaj <tld/>oj da rabistoj
           <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 18a</lok></fnt>;
-        </ekz>
-        <ekz>
+        </ekz><ekz>
           sa&gcirc;aj homoj <klr>[&#8230;]</klr> foriru el tiu &ccirc;i krima 
           <tld/>o
           <fnt>
@@ -186,8 +208,7 @@
         <trd>gang</trd>,
         <trd>squadra d'azione<klr> (se fascista)</klr></trd>
       </trdgrp>
-    </subsnc>
-  </snc>
+    </snc>
   <trd lng="af">groep</trd>
   <trd lng="am">&#4707;&#4757;&#4853;</trd>
   <trd lng="ar">&a_f;&a_r;&a_q;&a_t_marbuta;</trd>
@@ -231,7 +252,7 @@
   <trd lng="lt">grup&#279;</trd>
   <trd lng="lv">grupa</trd>
   <trd lng="mg">tarika</trd>
-  <trd lng="mi">p&emacron;ne</trd>
+  <trd lng="mi">p&#5603;ne</trd>
   <trd lng="mk">&c_b;&c_je;&c_n;&c_d;&c_o;&c_t;</trd>
   <trd lng="ml">&#3349;&#3394;&#3359;&#3405;&#3359;&#3330;</trd>
   <trd lng="mn">&c_h;&c_a;&c_m;&c_t;&c_l;&c_a;&c_g;</trd>
@@ -277,8 +298,7 @@
       <ekz>
         defendi sian organizon kontra&ubreve; fa&scirc;ista <tld/>a&ccirc;o
         <fnt><bib>Lanti</bib>, <lok>&ccirc;u unue SAT-anoj?</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la plej terura brulego de tiu urbo, komencita kaj da&ubreve;rigita de
         la perfido kaj malico de papa <tld/>a&ccirc;o 
         <fnt>
@@ -389,8 +409,7 @@
           <lok><url ref="https://eo.wikipedia.org/?curid=22999">Sambo
           (muziko)</url></lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la pianon oni &scirc;losis, la &jcirc;az<tld/>o disiris
         <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 5a, p. 52a</lok></fnt>.
       </ekz>
@@ -433,6 +452,9 @@
 </art>
 <!--
 $Log$
+versio 1.101 2023/02/26 08:33:36
+Sergio Pokrovskij: rearangxo
+
 versio 1.100 2023/02/25 17:26:58
 Wolfram Diestel: +ekz, ref, trd de
 
@@ -452,8 +474,5 @@ Revision 1.28  2015/10/02 02:10:17  revo
 Evandro Avellar: +trd pt
 
 Revision 1.27  2015/09/30 13:10:18  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.26  2015/07/04 08:37:31  revo
 -->
 </vortaro>
