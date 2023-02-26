@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: band.xml,v 1.103 2023/02/26 11:24:45 revo Exp $">
+<art mrk="$Id: band.xml,v 1.104 2023/02/26 16:37:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>band</rad>/o
@@ -18,13 +18,13 @@
         Kune irantaj homoj:
         <ekz>
           <tld/>o da junuloj;
-          </ekz><ekz>
+        </ekz><ekz>
           sekvis <tld/>o da migrantaj fra&ubreve;linoj, kiuj venis el la
           virinejo <ctl>&ccirc;e la Azeno</ctl> en <nom>W&uuml;rzburg</nom> kaj
           iris al la Roza Valo
           <fnt><aut>H.Heine, &tZ;</aut>:
           <vrk>La Rabeno de Ba&hcirc;ara&hcirc;</vrk></fnt>;
-          </ekz><ekz>
+        </ekz><ekz>
           la kantoj kaj krioj de malfrui&gcirc;inta <tld/>o de dibo&ccirc;antoj
           <fnt>
             <aut>A. Conan Doyle, tr. Edmund Grimley Evans</aut>:
@@ -67,6 +67,11 @@
         <trd>flock</trd>,
         <trd>pack<klr> (a group of animals)</klr></trd>
       </trdgrp>
+      <trdgrp lng="fr">
+        <trd>nu&eacute;e<klr tip="ind"> (troupe d'animaux en vol)</klr></trd>,
+        <trd>vol<klr tip="ind"> (troupe d'oiseaux en vol)</klr></trd>,
+        <trd>vol&eacute;e<klr tip="ind"> (troupe d'oiseaux en vol)</klr></trd>
+      </trdgrp>
       <trd lng="ru">&c_s;&c_t;&c_a;&c_ja;</trd>
     </subsnc>
     <trdgrp lng="be">
@@ -82,6 +87,10 @@
       <trd>Gruppe</trd>,
       <trd>Schar</trd>,
       <trd>Meute</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>troupe<klr tip="ind"> (d'animaux ou de personnes qui se d&eacute;placent)</klr></trd>,
+      <trd>troupeau</trd>
     </trdgrp>
     <trd lng="hu">csapat</trd>
     <trd lng="nl">troep</trd>
@@ -102,6 +111,24 @@
     <dif>
       Aro da homoj havantajn komunajn interesojn, ideojn, celojn:
       <ekz>
+        Neniam en ia ajn urbo viglis tia <tld/>o da petoluloj, kian ni formis
+        <fnt><aut>Joh&aacute;n Valano</aut>:
+         <vrk>&Ccirc;u li bremsis sufi&ccirc;e?</vrk>. <lok>&Ccirc;ap. 20&#170;.</lok></fnt>;
+      </ekz><ekz>
+        li devus dum la tuta enketo labori kun <tld/>o da eksterlandaj
+        funkciuloj, pri kies metodoj, principoj kaj pensmanieroj li
+        scias nenion
+        <fnt><aut>Joh&aacute;n Balano</aut>:
+          <vrk>&Ccirc;u ni kunvenis vane?</vrk>. <lok>&Ccirc;ap. 3&#170;.</lok></fnt>;
+      </ekz><ekz>
+        Mi Apolonon petis, li forigu
+        De mia flanko la teruran <tld/>on
+        De l&#8217; ven&gcirc;fantomoj
+        <fnt>
+          <aut>Goeto, &tZ;</aut>:
+          <vrk>Ifigenio en Ta&ubreve;rido</vrk>. <lok>2:1</lok>
+        </fnt>;
+      </ekz><ekz>
         Aliaj verkoj <klr>&#8230;</klr> tiel plenas de
         sentencoj de Aristotelo, Platono kaj la tuta <tld/>o de
         filozofoj, ke la legantoj profunde impresi&gcirc;as <klr>&#8230;</klr>
@@ -249,8 +276,7 @@
   <trd lng="en">band</trd>
   <trd lng="es">banda</trd>
   <trd lng="et">b&auml;nd</trd>
-  <trd lng="fr">bande <klr tip="amb"> (groupe de personnes,
-  d'animaux)</klr></trd>
+  <trd lng="fr">bande <klr tip="amb"> (groupe de personnes, d'animaux)</klr></trd>
   <trd lng="ga">banna</trd>
   <trd lng="gd">c&ograve;mhlan</trd>
   <trd lng="gl">banda</trd>
@@ -285,8 +311,7 @@
   <trd lng="pa">&#2602;&#2617;&#2623;&#2608;&#2631;&#2598;&#2622;&#2608;</trd>
   <trd lng="ps">&a_b;&a_A;&a_n;&a_d;</trd>
   <trd lng="sd">&a_m;&a_w;&#1706;&a_l;&a_A;&a_y;&a_w;</trd>
-  <trd lng="si">&#3523;&#3458;&#3484;&#3539;&#3501;
-  &#3482;&#3499;&#3530;&#3497;&#3535;&#3514;&#3512;</trd>
+  <trd lng="si">&#3523;&#3458;&#3484;&#3539;&#3501; &#3482;&#3499;&#3530;&#3497;&#3535;&#3514;&#3512;</trd>
   <trd lng="sk">tlupa</trd>
   <trd lng="sl">pas</trd>
   <trd lng="sm">au</trd>
@@ -472,6 +497,9 @@
 </art>
 <!--
 $Log$
+versio 1.104 2023/02/26 16:37:09
+Sergio Pokrovskij: + ekz
+
 versio 1.103 2023/02/26 11:24:45
 Sergio Pokrovskij: + .samideanoj
 
@@ -491,8 +519,5 @@ Revision 1.31  2019/07/15 19:10:15  revo
 Wolfram Diestel: +var gxaz~o (forigonte apartan artikolon)
 
 Revision 1.30  2017/08/25 22:10:16  revo
-Vito Redsky: +trd ro
-
-Revision 1.29  2017/02/19 11:10:13  revo
 -->
 </vortaro>
