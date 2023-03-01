@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: rot.xml,v 1.31 2023/02/26 15:28:31 revo Exp $">
+  <art mrk="$Id: rot.xml,v 1.32 2023/03/01 04:35:53 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>rot</rad>/o
@@ -31,7 +31,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="kompan.0o.MIL">kompanio<sncref/></ref>
+    <refgrp tip="sin">
+      <ref cel="kompan.0o.MIL">kompanio<sncref/></ref>,
+      <ref cel="centuri.0o.MIL">centurio<sncref/></ref>
+    </refgrp>
     <adm>
       Ial &ccirc;i tiu senco perdi&gcirc;is en PIV-oj, favore al
       "kompanio". Tamen en UV "roto" &gcirc;uste traduki&gcirc;as
@@ -178,12 +181,11 @@
 </drv>
 
 <drv mrk="rot.0estro">
-  <kap><tld/>estro</kap>
-  <snc>
-    <uzo tip="stl">RAR</uzo>
-    <fnt><bib>PV</bib><lok>kapitano 2</lok></fnt>
+  <kap><tld/>estro<fnt><bib>PV</bib><lok>kapitano 2</lok></fnt></kap>
+  <snc mrk="rot.0estro.estro">
     <dif>
-      <ref tip="dif" cel="kapita1.0o.MIL">Kapitano</ref>:
+      Komandanto de <tld/>o<sncref ref="rot.0o.kompanio"/>, tipe oficiro
+      en la rango <ref cel="kapita1.0o.MIL">kapitano<sncref/></ref>:
       <ekz>
         la hetmanoj kaj centestroj, <tld/>estroj kun
         siaj <tld/>oj, kaj dolmanoj kun siaj ta&ccirc;mentoj
@@ -199,6 +201,31 @@
         <fnt>
           <bib>Monato</bib>
           <vrk><url ref="&Monato;/2003/007991.html">Espero</url></vrk>
+        </fnt>.
+      </ekz>
+      <refgrp tip="vid">
+        <ref cel="kapita1.0o.MIL">kapitano<sncref/></ref>,
+        <ref cel="cent.0estro">centestro</ref>,
+        <ref cel="centuri.0estro">centuriestro</ref>
+      </refgrp>
+    </dif>
+  </snc>
+  <snc mrk="rot.0estro.rango">
+    <dif>
+      En kelkaj landoj, epokoj kaj trupspecoj, la nomo de la oficira
+      rango egala al <ref tip="sin" cel="kapita1.0o.MIL">kapitano<sncref/></ref>,
+      sendepende tion, &ccirc;u la koncernulo efektive komandas <tld/>on a&ubreve; ian
+      alian trupunuon:
+      <ekz>
+        Kaj jen el la urbet&#8217; proksima &mdash;
+        De l&#8217; tuta fra&ubreve;linar&#8217; idol&#8217;
+        Kaj de l&#8217; patrinoj &gcirc;oj&#8217; senlima &mdash;
+        <tld lit="R"/>estro venis la&ubreve; bonvol&#8217;
+        <klr>(&ccirc;i-okaze <tld/>estro = &#8249;kavaleria kapitano&#8250;
+           <trd lng="de">Rittmeister</trd>)</klr>
+        <fnt><aut>A.S. Pu&scirc;kin, tr. N.Nekrasov</aut>:
+          <vrk>E&ubreve;geno Onegin</vrk>.
+          <lok>SAT, 1931. Noto pri 5:28.</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -234,9 +261,12 @@
   </trdgrp>
 </drv>
 
-  </art>
+</art>
   <!--
   $Log$
+versio 1.32 2023/03/01 04:35:53
+Sergio Pokrovskij: TEZ, ~estro.rango
+
 versio 1.31 2023/02/26 15:28:31
 Sergio Pokrovskij: + rim
 
@@ -255,8 +285,5 @@ Ulrich Fellmann: roto 3: +2 DE trd, -1 DE trd
   Revision 1.24  2018/05/08 18:10:16  revo
   Wolfram Diestel: -snc tachmento, +snc vico en falango, aparta artikolo
   rot1: greka litero, +ekz-oj
-
-  Revision 1.23  2016/02/03 21:10:24  revo
-  Filip van Laenen: +trd(nl,no)
 -->
 </vortaro>
