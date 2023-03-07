@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fojn.xml,v 1.29 2023/03/06 07:25:02 revo Exp $">
+<art mrk="$Id: fojn.xml,v 1.30 2023/03/07 07:24:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fojn</rad>/o
@@ -96,18 +96,29 @@
   <snc mrk="fojn.0ado.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
-      Rikoltado kaj sekigado de herbo por ricevi <tld/>on:
+      <ref tip="super" cel="rikolt.0o">Rikoltado</ref> kaj sekigado de herbo por ricevi <tld/>on:
       <ekz>
         tio detruis ilian tutan taglaboron je la <tld/>ado
         <fnt>
           <aut>H. Laxness, trad. B. Ragnarsson</aut>
           <vrk>Sendependaj homoj</vrk>
           <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili parolas, parolas, la tutan tagon anstata&ubreve; okupi&gcirc;i pri la <tld/>ado
+        <fnt>
+          <bib>StU</bib>
+          <lok>Britujo</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_je;&c_n;&c_a;&c_k;&c_o;&c_s;</trd>
+  <trdgrp lng="de">
+    <trd>Heuernte</trd>,
+    <trd>Heumahd</trd>
+  </trdgrp>
   <trd lng="fr">fenaison</trd>
   <trdgrp lng="uk">
     <trd>&c_s;&c_ib;&c_n;&c_o;&c_z;&c_a;&c_g;&c_o;&c_t;&c_ib;&c_v;&c_l;&c_ja;</trd>,
@@ -118,13 +129,28 @@
 </drv>
 
 <drv mrk="fojn.0ejo">
-   <kap><tld/>ejo</kap>
-   <snc mrk="fojn.0ejo.AGR">
-     <uzo tip="fak">AGR</uzo>
-     <dif>
-       Loko &gcirc;enerale subtegmenta por finsekigo kaj konservado de
-       <tld/>o:
-       <ekz>
+  <kap><tld/>ejo</kap>
+  <snc mrk="fojn.0ejo.AGR">
+    <uzo tip="fak">AGR</uzo>
+    <dif>
+      Dometo a&ubreve; subtegmenta loko por finsekigo kaj konservado de
+      <tld/>o:
+      <ekz>
+        la <tld/>ejo super la bovinejo
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        griza, diktrunka <tld/>ejo kun sia muskokovrita herba&jcirc;tegmento ka&ubreve;ris kiel eta
+        fabelkabano sub la vastaj kronoj de la altaj betuloj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
 	 petveturi, noktumi sub&ccirc;iele a&ubreve; en <tld/>ejoj
          <fnt>
            <aut>D. Cibulevskij</aut>
@@ -132,8 +158,13 @@
            <bib>Monato</bib>
            <lok>1997:8, p. 23a</lok>
          </fnt>.
-       </ekz>
-     </dif>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="garb.0ejo">garbejo</ref>,
+      <ref cel="stal.0o">stalo</ref>,
+      <ref cel="sxed.0o">&scirc;edo</ref>
+    </refgrp>
    </snc>
    <trdgrp lng="be">
      <trd>&c_a;&c_d;&c_r;&c_y;&c_n;&c_a;</trd>,
@@ -141,6 +172,10 @@
      <trd>&c_v;&c_y;&c_sh;&c_k;&c_ib;</trd>
    </trdgrp>
   <trd lng="cs">sen&iacute;k</trd>
+  <trdgrp lng="de">
+    <trd>Heuboden</trd>,
+    <trd>Scheune</trd>
+  </trdgrp>
   <trdgrp lng="es">
      <trd>henil</trd>,
      <trd>pajar</trd>
@@ -170,9 +205,15 @@
        <tld lit="F"/>o el dua rikolto en sama jaro.
      </dif>
      <ref tip="vid" cel="falcx.post0ajxo">postfal&ccirc;a&jcirc;o</ref>
-   </snc>
-   <trd lng="be">&c_a;&c_t;&c_a;&c_v;&c_a;</trd>
+  </snc>
+  <trd lng="be">&c_a;&c_t;&c_a;&c_v;&c_a;</trd>
   <trd lng="cs">usu&scaron;en&aacute; otava</trd>
+  <trdgrp lng="de">
+    <trd>gr&uuml;ne <ind>Mahd</ind></trd>,
+    <trd>Grummet</trd>,
+    <trd>zweite <ind>Mahd</ind> <klr>(Heu)</klr></trd>,
+    <trd>&Ouml;hmd</trd>
+  </trdgrp>
   <trdgrp lng="fr">
      <trd>arri&egrave;re-foin</trd>,
      <trd>refoin</trd>,
@@ -189,6 +230,9 @@
 </art>
 <!--
 $Log$
+versio 1.30 2023/03/07 07:24:40
+Wolfram Diestel: ~ado..post~o: +ekz-oj/ref-oj, trd de
+
 versio 1.29 2023/03/06 07:25:02
 Wolfram Diestel: ~o: +ekz-oj, ref-oj
 
@@ -208,8 +252,5 @@ Revision 1.20  2013/01/19 11:10:08  revo
 Carlos Garcia: +trd es -o
 
 Revision 1.19  2008/11/19 09:28:17  revo
-Russ Williams: redakto: +trd en
-
-Revision 1.18  2007/06/02 19:47:30  revo
 -->
 </vortaro>
