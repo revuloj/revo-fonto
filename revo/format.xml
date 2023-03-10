@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: format.xml,v 1.21 2023/03/10 07:24:55 revo Exp $">
+<art mrk="$Id: format.xml,v 1.22 2023/03/10 16:37:34 revo Exp $">
 <kap><ofc>1</ofc>
 <rad>format</rad>/o</kap>
 <drv mrk="format.0o">
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      La <ref tip="super" cel="dimens.0o">dimensioj</ref> de io, precipe rektangula prezenta&jcirc;o.
+      La <ref tip="super" cel="dimens.0o">dimensioj</ref> de io, precipe 
+      de dokumento a&ubreve; ties prezenta prezenta rimedo.
     </dif>
     <subsnc mrk="format.0o.TIP">
       <uzo tip="fak">TIP</uzo>
@@ -132,6 +133,10 @@
           </fnt>.
         </ekz>
       </dif>
+    <refgrp tip="vid">
+      <ref cel="grand.0o.mezuro">grando</ref>,
+      <ref cel="propor.0o">proporcio</ref>
+    </refgrp>
     </subsnc>
     <subsnc mrk="format.0o.FIG">
       <uzo tip="stl">FIG</uzo>
@@ -153,12 +158,13 @@
   </snc>
   <snc>
     <dif>
-      <ref cel="sxablo.0o.FIG">&Scirc;abloneca</ref>, normita, <ref tip="super" cel="arangx.0o">aran&gcirc;o</ref>.
+      <ref cel="sxablo.0o.FIG">&Scirc;abloneca</ref> <ref tip="super" cel="arangx.0o">aran&gcirc;o</ref>
+      de informoj konforme al iu konvencio.
     </dif>
     <subsnc mrk="format.0o.KIN">
       <uzo tip="fak">KIN</uzo>
       <dif>
-        Aran&gcirc;o la&ubreve; kiu estas produktita serio de elsendoj:
+        Aran&gcirc;o la&ubreve; kiu estas produktita serio de samspecaj elsendoj:
         <ekz>
           la produktistoj devis spici la formaton: steluletoj, nur kvaza&ubreve; famaj, a&ubreve;
           politikistoj, kiuj farus e&ccirc; ion pli teruran por levi sian popularecon, aperis
@@ -169,15 +175,16 @@
             <vrk><url ref="https://www.monato.be/2005/008601.php"
                 >Torturado televida</url></vrk>
             <lok>2005</lok>
-          </fnt>;
+          </fnt>.
         </ekz>
       </dif>
+      <ref tip="vid" cel="gxenr.0o">&gcirc;enro</ref>
     </subsnc>
     <subsnc mrk="format.0o.KOMP"> <fnt><bib>KompLeks</bib></fnt>
       <uzo tip="fak">KOMP</uzo>
       <dif>
-        Aran&gcirc;o de dokumento a&ubreve; de datumoj konforme al iu aparta 
-        kodo:
+        Aran&gcirc;o de tekstero, dokumento a&ubreve; datumoj konforme al iu aparta 
+        konvencio:
         <ekz>
           la revivi&gcirc;anta revuo <klr>[&#8230;]</klr> aperos ne nur papere sed anka&ubreve; en komputila
           <tld/>o
@@ -198,7 +205,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          <tld/>o multpa&gcirc;a TIFF
+          <tld/>o multpa&gcirc;a <nom>TIFF</nom>
           <fnt>
             <aut>M. Bavant</aut>,
             <vrk>Re: Maraj terminoj</vrk>,
@@ -207,7 +214,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          vi povas jam nun sendi viajn filmojn en VHS-<tld/>o
+          vi povas jam nun sendi viajn filmojn en <nom>VHS</nom>-<tld/>o
           <fnt>
             <bib>LOdE</bib>
             <lok>2003, &#8470; 1</lok>
@@ -219,27 +226,29 @@
           <fnt>
             <bib>LOdE</bib>
             <lok>2003, &#8470; 12 (110)</lok>
-          </fnt>;
-        </ekz>
-        <ekz>
-          la emblemo de <nom>LUKoil</nom> en bmp- kaj gif-<tld/>oj
-          <fnt>
-            <bib>Monato</bib>
-            <aut>Evgeni Georgiev</aut>
-            <vrk><url ref="http://steloj.de/esperanto/monato2/007307.html"
-                >Pliigita aktivado de LUKoil</url></vrk>
           </fnt>.
         </ekz>
       </dif>
+      <refgrp tip="vid">
+        <ref cel="kod.0o">kodo</ref>,
+        <ref cel="sxablo.0o.KOMP">&scirc;ablono<sncref/></ref>
+      </refgrp>
+      <rim>
+        En la komputila fako la termino &leftquot;skemo&rightquot; estas limigita al la logika, abstrakta, aran&gcirc;o
+        de informoj (ekz-e de objektspecoj kaj ties eblaj atributoj kaj rilatoj), dum por la fizika aran&gcirc;o de datumoj
+        en dosiero a&ubreve; sur datumportilo oni preferas la terminon &leftquot;<tld/>o&rightquot;.
+      </rim>
     </subsnc>
     <refgrp tip="vid">
       <ref cel="form.0o">formo</ref>,
       <ref cel="skem.0o">skemo</ref>
     </refgrp>  
+<!--
     <adm>
       Ekzistas jes, sed evitinde, cxu ne? La strukturo de komputila disko,
       estas io tute alia ol gxia formato. <aut>PP</aut>
     </adm>
+-->
   </snc>
   <trdgrp lng="be">
     <trd>&c_f;&c_a;&c_r;&c_m;&c_a;&c_t; <klr tip="amb">(&c_k;&c_n;&c_ib;&c_g;&c_ib; &c_ib; &c_d;&c_a;
@@ -290,8 +299,11 @@
 </art>
 <!--
 $Log$
+versio 1.22 2023/03/10 16:37:34
+Wolfram Diestel: plibonigeto de vortigo; +rim, ref-oj
+
 versio 1.21 2023/03/10 07:24:55
-Wolfram Diestel: Apartigo de snc dimensio k aranĝo kun pluraj subsnc; multaj ekz-oj; ref-oj
+Wolfram Diestel: Apartigo de snc dimensio k aran&gcirc;o kun pluraj subsnc; multaj ekz-oj; ref-oj
 
 Revision 1.18  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
@@ -309,8 +321,5 @@ Revision 1.14  2007/06/05 16:30:54  revo
 Tulio Flores: +tr pt
 
 Revision 1.13  2006/06/05 16:40:36  revo
-Jeromo Vasxe: + snc komp
-
-Revision 1.12  2004/01/04 17:31:56  revo
 -->
 </vortaro>
