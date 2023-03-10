@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: statur.xml,v 1.25 2022/10/07 10:42:44 revo Exp $">
+<art mrk="$Id: statur.xml,v 1.26 2023/03/10 07:27:41 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>statur</rad>/o <fnt><bib>VdE</bib></fnt>
@@ -45,7 +45,10 @@
         <lok>Vieno:IEM, 1997</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="kompleksi.0o">kompleksio</ref>
+    <refgrp tip="vid">
+      <ref cel="kompleksi.0o">kompleksio</ref>,
+      <ref cel="ten.sin0o">sinteno</ref>
+    </refgrp>
     <trdgrp lng="ru">
       <trd><ofc>1</ofc>&c_o;&c_s;&c_a;&c_n;&c_k;&c_a;</trd>,
       <trd><ofc>1</ofc>&c_s;&c_t;&c_a;&c_n;</trd>,
@@ -54,20 +57,22 @@
     </trdgrp>
   </snc>
   <snc mrk="statur.0o.alto">
-    <refgrp tip="dif">
-      <ref cel="alt.0eco.kresko">alteco<sncref/></ref>,
-      <ref cel="kresk.0o.KOMUNE">kresko<sncref/></ref>:
-    </refgrp>
-    <ekz>
-      aldoni unu ulnon al sia <tld/>o
-      <fnt><bib>NT</bib> <lok>&Mat; 6:27</lok></fnt>;
-    </ekz><ekz>
-      Jesuo progresis en sa&gcirc;eco kaj <tld/>o
-      <fnt><bib>NT</bib> <lok>&Luk; 2:52</lok></fnt>;
-    </ekz><ekz>
-      li estis malgranda je <tld/>o
-      <fnt><bib>NT</bib> <lok>&Luk; 19:3</lok></fnt>.
-    </ekz>
+    <dif>
+      <refgrp tip="dif">
+        <ref cel="alt.0eco.kresko">Alteco<sncref/></ref>,
+        <ref cel="kresk.0o.KOMUNE">kresko<sncref/></ref>
+      </refgrp>:
+      <ekz>
+        aldoni unu ulnon al sia <tld/>o
+        <fnt><bib>NT</bib> <lok>&Mat; 6:27</lok></fnt>;
+      </ekz><ekz>
+        Jesuo progresis en sa&gcirc;eco kaj <tld/>o
+        <fnt><bib>NT</bib> <lok>&Luk; 2:52</lok></fnt>;
+      </ekz><ekz>
+        li estis malgranda je <tld/>o
+        <fnt><bib>NT</bib> <lok>&Luk; 19:3</lok></fnt>.
+      </ekz>
+    </dif>
     <trd lng="ru">&c_r;&c_o;&c_s;&c_t;</trd>
   </snc>
   <snc mrk="statur.0o.FIG">
@@ -168,6 +173,9 @@
 </art>
 <!--
 $Log$
+versio 1.26 2023/03/10 07:27:41
+Wolfram Diestel: +ref
+
 versio 1.25 2022/10/07 10:42:44
 Sergio Pokrovskij: +sncref
 
@@ -187,8 +195,5 @@ versio 1.20 2022/10/03 08:48:48
 Sergio Pokrovskij: -tajperaro +ekz
 
 versio 1.19 2022/10/03 07:42:00
-Sergio Pokrovskij: +ofc
-
-versio 1.18 2022/05/04 08:37:13
 -->
 </vortaro>
