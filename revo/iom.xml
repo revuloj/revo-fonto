@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: iom.xml,v 1.117 2023/03/11 01:46:12 revo Exp $">
+<art mrk="$Id: iom.xml,v 1.118 2023/03/12 20:26:07 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>iom</rad> <fnt><bib>PV</bib></fnt>
@@ -78,6 +78,7 @@
       <trd>&c_v; &c_k;&c_a;&c_k;&c_o;&c_j;-&c_t;&c_o; &c_m;&c_je;&c_r;&c_je;</trd>
     </trdgrp>
   </snc>
+
   <rim>Teorie oni povas uzi la vorton <ekz><tld/></ekz> por ajna kvanto a&ubreve;
   grado, sed en praktika uzado preska&ubreve; &ccirc;iam temas pri kvanto a&ubreve; grado,
   kiu ne estas granda. En okazoj, kiam oni volus neambigue diri, ke
@@ -91,7 +92,10 @@
     <trd>&c_u; &c_p;&c_e;&c_w;&c_n;&c_a;&c_j; <ind>&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_ib;</ind></trd>
   </trdgrp>
   <trd lng="bo">&t_ca;&t_gigu;&t_ga;&t_tsheg;</trd>
-  <trd lng="de">einige</trd>
+  <trdgrp lng="de">
+    <trd>etwas</trd>,
+    <trd>ein <ind>bisschen</ind></trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>some</trd>,
     <trd>a certain number</trd>,
@@ -153,7 +157,7 @@
     <trd>&c_n;&c_je;&c_j;&c_k;&c_ib;</trd>
   </trdgrp>
   <trdgrp lng="de">
-    <trd>ein bisschen</trd>,
+    <trd>ein <ind>bisschen</ind></trd>,
     <trd>etwas</trd>
   </trdgrp>
   <trdgrp lng="en">
@@ -195,8 +199,7 @@
   </kap>
   <snc>
     <dif>
-      Je malgranda kvanto, nombro, grado, a&ubreve; mezuro, sed ne tiel malgranda kiel
-         <tld/>ete:
+      <ref tip="dif" cel="iom.0.iome">Iom<sncref/></ref>:
       <ekz>
         &ccirc;irka&ubreve; 10 milionoj iam <tld/>e studis &gcirc;in
         <fnt>
@@ -225,6 +228,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>etwas</trd>,
+    <trd>ein <ind>bisschen</ind></trd>
+  </trdgrp>
   <trd lng="en">somewhat</trd>
 </drv>
 
@@ -297,6 +304,10 @@
       </ekz>
     </dif>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="apenau.0.preskau_ne">apena&ubreve;<sncref/></ref>,
+    <ref cel="mult.mal0e">malmulte</ref>
+  </refgrp>
   <trd lng="af">sommige</trd>
   <trd lng="am">&#4768;&#4757;&#4851;&#4757;&#4853;</trd>
   <trd lng="ar">&a_b;&a_ayn;&a_D;</trd>
@@ -435,6 +446,7 @@
         </fnt>
       </ekz>
     </dif>
+    <ref tip="vid" cel="kelk.0e">kelke</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_k;&c_a;&c_l;&c_mol;&c_k;&c_ib;</trd>,
@@ -634,7 +646,7 @@
     <dif>
       Post <tld/>o da tempo:
       <ekz>
-        ili da&ubreve;rigis sian vojon <klr>...</klr>
+        ili da&ubreve;rigis sian vojon <klr>[&#8230;]</klr>
         &leftquot;kie ni trafos 'buson?&rightquot; demandis Georgo post<tld/>e
         <fnt>
           <aut>J. Francis</aut>,
@@ -663,11 +675,11 @@
     <dif>
       <ref tip="dif" cel="ajn.sen0a">Sen ajna, sen <tld/> ajn</ref>:
       <ekz>
-        tiun depozicion Gordens faris afereme kaj malrapide sed
+        tiun depozicion <nom>Gordens</nom> faris afereme kaj malrapide sed
         <ind>sen <tld/>a</ind> hezito
         <fnt><bib>UrdHadda</bib>, <lok>p. 7a</lok></fnt>;
       </ekz><ekz>
-        Hamul <klr>[...]</klr> devis igi sian beston,
+        <nom>Hamul</nom> <klr>[...]</klr> devis igi sian beston,
         <ind>ne sen <tld/>a</ind> peno, ka&ubreve;ri,
         por ke li povu elseli&gcirc;i
         <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 4a</lok></fnt>.
@@ -726,6 +738,9 @@
 </art>
 <!--
 $Log$
+versio 1.118 2023/03/12 20:26:07
+Wolfram Diestel: +ref-oj
+
 versio 1.117 2023/03/11 01:46:12
 Robert Baruch: +trd: en, +drv: iome
 
@@ -745,8 +760,5 @@ versio 1.111 2021/11/15 07:29:17
 Dmitri Gabinski: + trd be
 
 versio 1.34 2020/08/08 23:10:34
-Sam Penter: lingva korekteto en memverkita rim
-
-versio 1.33 2020/03/29 21:10:23
 -->
 </vortaro>
