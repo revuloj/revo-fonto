@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ring.xml,v 1.65 2023/01/14 16:33:29 revo Exp $">
+<art mrk="$Id: ring.xml,v 1.66 2023/03/19 21:25:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ring</rad>/o <fnt><bib>PV</bib></fnt>
@@ -51,6 +51,11 @@
         <trd lng="de">ringf&ouml;rmig</trd>
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Ring</trd>,
+      <trd>Reifen</trd>,
+      <trd>Reif</trd>
+    </trdgrp>
     <trd lng="fr">bague</trd>
     <trd lng="hu">gy&udblac;r&udblac;</trd>    
     <trd lng="sv">ring</trd>
@@ -122,8 +127,9 @@
       <ref cel="ring.kol0o">kolringo</ref>
     </refgrp>
     <trdgrp lng="de">
-      <trd>Reif <klr>(Ring)</klr></trd>,
-      <trd>Spange <klr>(Reif)</klr></trd>
+      <trd>Ring</trd>,
+      <trd>Reif</trd>,
+      <trd>Schmuckring</trd>
     </trdgrp>
   </snc>
   <snc mrk="ring.0o.FIG">
@@ -190,6 +196,7 @@
       <ref cel="cirkl.0o">cirklo</ref>,
       <ref cel="rond.0o">rondo</ref>
     </refgrp>
+    <trd lng="de">Ring</trd>
     <trd lng="sv">ring</trd>
     <trd lng="hu">karika</trd>    
   </snc>
@@ -208,6 +215,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Kreis</trd>,
+      <trd>Kringel</trd>
+    </trdgrp>
   </snc>
   <snc mrk="ring.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -215,10 +226,10 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,&#8224;,×)">(<g>E</g>,&#8224;,×)</frm>,
+      <frm am="(bb E,&#8224;,&#215;)">(<g>E</g>,&#8224;,&#215;)</frm>,
       ke <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">×</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">&#215;</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al
       <frm am="&#8224;">&#8224;</frm>:
@@ -288,6 +299,9 @@
     </rim>
     <trd lng="pl">pier&sacute;cie&nacute;<klr tip="ind"> (struktura
     algebraiczna)</klr></trd>
+    <trdgrp lng="de">
+      <trd>algebraischer Ring</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_o;&c_l;&c_a;</trd>,
@@ -303,7 +317,6 @@
     <trd>prstenec</trd>,
     <trd>ring</trd>
   </trdgrp>
-  <trd lng="de">Ring</trd>
   <trd lng="en">ring</trd>
   <trd lng="es">anillo</trd>
   <trd lng="fr">anneau</trd>
@@ -397,15 +410,15 @@
   <snc mrk="ring.sub0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,×)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,&#215;)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,×<sub>A</sub>)</frm>, ke
+      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,&#215;<sub>A</sub>)</frm>, ke
       <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm>,
       <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
       <ref cel="grup.sub0o">subgrupo</ref> de 
       <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
-      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>×<sub>A</sub><k>y</k> =
-      <k>x</k>×<k>y</k>&#8712;A</frm>
+      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>&#215;<sub>A</sub><k>y</k> =
+      <k>x</k>&#215;<k>y</k>&#8712;A</frm>
       por
       &ccirc;iuj
       <frm am="x,y in A"><k>x</k>, <k>y</k>&#8712;A</frm>:
@@ -510,7 +523,7 @@
       <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun nenula 
       <frm am="b"><k>b</k></frm> ekzistas
       almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx      
-      q+r"><k>a</k> = <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
+      q+r"><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
       <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
@@ -679,9 +692,9 @@
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
       de <frm am="bb R"><g>R</g></frm> rilate al <frm am="bb I"><g>I</g></frm>, provizita per la 
       multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb
-      I">(<k>a</k>+<g>I</g>)×(<k>b</k>+<g>I</g>)
+      I">(<k>a</k>+<g>I</g>)&#215;(<k>b</k>+<g>I</g>)
       =
-      (<k>a</k>×<k>b</k>)+<g>I</g></frm>; 
+      (<k>a</k>&#215;<k>b</k>)+<g>I</g></frm>; 
       simb. <frm am="bb R//bb I"><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
@@ -820,6 +833,9 @@
 </art>
 <!--
 $Log$
+versio 1.66 2023/03/19 21:25:06
+Ulrich Fellmann: ringo: + 8 DE trdj
+
 versio 1.65 2023/01/14 16:33:29
 Wolfram Diestel: +rad~o movita el rad/
 
@@ -839,8 +855,5 @@ versio 1.55 2021/12/20 14:29:20
 Dmitri Gabinski: + trd be
 
 versio 1.54 2021/08/11 21:27:45
-Jeromo Vasxe: + jar/kresko~o
-
-versio 1.51 2020/02/15 17:10:27
 -->
 </vortaro>
