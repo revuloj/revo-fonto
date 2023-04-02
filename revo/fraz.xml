@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fraz.xml,v 1.115 2022/06/24 22:30:35 revo Exp $">
+<art mrk="$Id: fraz.xml,v 1.116 2023/04/02 04:29:46 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>fraz</rad>/o
@@ -263,7 +263,7 @@
   </trdgrp>
   <trd lng="hu">sz&oacute;nokol <klr tip="amb">(pej.)</klr></trd>
   <trd lng="pl">wyg&lstroke;asza&cacute;  <ind>frazesy</ind></trd>
-  <trd lng="ro">pronun&#x021b;&abreve;  <ind>fraze</ind></trd>
+  <trd lng="ro">pronun&#539;&abreve;  <ind>fraze</ind></trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">vyjadrova&tcaron; sa vo fr&aacute;zach</trd>
   <trd lng="uk">&c_f;&c_r;&c_a;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
@@ -416,13 +416,24 @@
   <kap><tld/>rolo <fnt><bib>PMEG</bib></fnt>,
     <var><kap><tld/>membro<fnt><bib>PV</bib><lok>membro (de frazo)</lok></fnt></kap></var>,
     <var>
-      <kap><tld/>elemento<fnt><bib>PAG</bib></fnt><fnt><bib>PIV1</bib></fnt></kap>
+      <kap><tld/>elemento<fnt><bib>EdE</bib></fnt><fnt><bib>PAG</bib></fnt><fnt><bib>PIV1</bib></fnt></kap>
     </var>
   </kap>
   <snc mrk="fraz.0rolo.GRA">
     <uzo tip="fak">GRA</uzo>
     <dif>
-      Funkcio de <tld/>parto en la tuta <tld/>o.
+      <tld lit="F"/>parto formanta bazan sintaksan unuon:
+      <ekz>
+        rigidorda lingvo <klr>estas</klr> lingvo, en kiu la ordo de la
+        &ccirc;efaj <tld/>membroj estas rigide fiksita per la sintaksaj
+        reguloj
+        <fnt>
+          <vrk>Raporto de la Sekcio pri Gramatiko pri vortordo en Esperanto.</vrk>
+          <lok><url
+ ref="https://www.akademio-de-esperanto.org/oficialaj_informoj/oficialaj_informoj_35_2021.html"
+            >Oficialaj informoj, &#8470;35 (2021-07-14)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <refgrp tip="sub">
@@ -434,14 +445,17 @@
   <trd lng="de">Satzglied</trd>
   <trd lng="fr">membre de phrase</trd>
   <trd lng="hu">mondatfunkci&oacute;</trd>
-  <trd lng="pl">cz&eogonek;&sacute;&cacute;  <ind>zdania</ind></trd>
-  <trd lng="ro">parte de  <ind>propozi&#539;ie</ind></trd>
+  <trd lng="pl">cz&eogonek;&sacute;&cacute; <ind>zdania</ind></trd>
+  <trd lng="ro">parte de <ind>propozi&#539;ie</ind></trd>
   <trd lng="ru">&c_ch;&c_l;&c_je;&c_n; &c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
-  <trd lng="uk">&c_ch;&#x43B;&c_je;&#x43D; &c_r;&c_je;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_ch;&c_l;&c_je;&c_n; &c_r;&c_je;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.116 2023/04/02 04:29:46
+Sergio Pokrovskij: +~membro: dif, ekz, fnt
+
 versio 1.115 2022/06/24 22:30:35
 Vito Redsky: + trd pl + trd ro 
 
@@ -461,8 +475,5 @@ versio 1.32 2021/01/12 04:10:34
 Sergio Pokrovskij: +~membro
 
 versio 1.31 2020/10/14 06:36:59
-Wolfram Diestel: kor.ref-tip, sintaksaj adaptoj, snc-mrk
-
-Revision 1.29  2018/06/19 03:10:17  revo
 -->
 </vortaro>
