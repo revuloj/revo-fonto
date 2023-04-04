@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fraz.xml,v 1.117 2023/04/02 09:24:24 revo Exp $">
+<art mrk="$Id: fraz.xml,v 1.118 2023/04/04 06:31:26 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>fraz</rad>/o
@@ -411,14 +411,11 @@
   </trdgrp>
 </drv>
 
-<drv mrk="fraz.0rolo">
-  <kap><tld/>rolo <fnt><bib>PMEG</bib></fnt>,
-    <var><kap><tld/>membro<fnt><bib>PV</bib><lok>membro (de frazo)</lok></fnt></kap></var>,
-    <var>
-      <kap><tld/>elemento<fnt><bib>EdE</bib></fnt><fnt><bib>PAG</bib></fnt><fnt><bib>PIV1</bib></fnt></kap>
-    </var>
+<drv mrk="fraz.0elemento">
+  <kap><tld/>elemento<fnt><bib>EdE</bib></fnt><fnt><bib>PAG</bib></fnt><fnt><bib>PIV1</bib></fnt>,
+    <var><kap><tld/>membro<fnt><bib>PV</bib><lok>membro (de frazo)</lok></fnt></kap></var>
   </kap>
-  <snc mrk="fraz.0rolo.GRA">
+  <snc>
     <uzo tip="fak">GRA</uzo>
     <dif>
       <tld lit="F"/>parto formanta bazan sintaksan unuon:
@@ -438,6 +435,18 @@
       </ekz>
     </dif>
   </snc>
+  <rim>
+    La termino &leftquot;<tld/>elemento&rightquot; probable esti&gcirc;is per senpripensa
+    analogio kun &leftquot;<ref tip="vid" cel="elemen.parol0o"><tld/>elemento</ref>&rightquot;; sed dum tiu
+    lasta prezentas klaran metaforon de la sencoj filozofia kaj &hcirc;emia, 
+    por &leftquot;<tld/>elemento&rightquot; &gcirc;i ne validas. Pli ta&ubreve;ga kaj internacia
+    metaforo estas &leftquot;<tld/>membro&rightquot;, pensiganta pri &leftquot;korpomembro&rightquot;: &gcirc;i
+    same implicas ian funkcion (kp
+    &leftquot;<ref tip="malprt" cel="fraz.0rolo"><tld/>rolo</ref>&rightquot;), kaj krome
+    la ideon pri ekzemplero (kp &leftquot;amba&ubreve; membroj&rightquot;).
+    Tamen en la reala Esperanto &leftquot;<tld/>elemento&rightquot; estas multe pli ofta.
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
   <refgrp tip="sub">
     <ref cel="subjek.0o.GRA">subjekto<sncref/></ref>,
     <ref cel="predik1.0o.GRA">predikato<sncref/></ref>,
@@ -452,9 +461,45 @@
   <trd lng="ru">&c_ch;&c_l;&c_je;&c_n; &c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
   <trd lng="uk">&c_ch;&c_l;&c_je;&c_n; &c_r;&c_je;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>
 </drv>
+
+<drv mrk="fraz.0rolo">
+  <kap><tld/>rolo <fnt><bib>PMEG</bib></fnt></kap>
+  <snc>
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      &#171;Rolo, kiun <tld/>parto rolas en <tld/>o. Tradicie nomata
+      &leftquot;<ref tip="malprt" cel="fraz.0o"><tld/>elemento</ref>&rightquot;&#187;:
+      <ekz>
+        Rolfina&jcirc;o estas fina&jcirc;o, kiu montras <tld/>rolojn, kaj
+        rolvortetoj estas vortetoj, kiuj servas por indiki
+        <tld/>rolojn<fnt><bib>PMEG</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    Tiu netradicia termino estas aparta&jcirc;o de PMEG, kaj apena&ubreve; aperas
+    ekster tiu grava verko (krom en recenzoj pri PMEG).
+    &Gcirc;i malhavas bazon en la lingvoscienca tradicio.
+    &Gcirc;ia formo estas misgvida (apriore &gcirc;i &scirc;ajnas signifi &leftquot;rolo de
+    <tld/>o&rightquot;, sed la celata signifo estas &leftquot;rolo en <tld/>o&rightquot;).
+    PMEG &gcirc;in prezentas kiel sinonimon de &leftquot;<tld/>elemento&rightquot;, sed &gcirc;ia
+    formo ta&ubreve;gas nur por parto de tiu nocio: &ccirc;ar <tld/>elemento &mdash; na&ubreve;,
+    pli bone, <ref tip="malprt" cel="fraz.0o"><tld/>membro</ref> &mdash;
+    estas <em>kaj</em> <tld/>parto, <em>kaj</em> &gcirc;ia &leftquot;rolo&rightquot; (speco,
+    sintaksa nomo). Tial ordinaraj esprimoj kia ekz-e &leftquot;samspecaj
+    <tld/>membroj&rightquot; ne esprimeblas per &leftquot;samspecaj <tld/>roloj&rightquot; (tio
+    ekvivalentus al la sensenca &leftquot;samspecaj specoj&rightquot;). Eblus diri
+    &leftquot;samrolaj <tld/>rolantoj&rightquot; &mdash; sed tiel oni ne diras.
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.118 2023/04/04 06:31:26
+Sergio Pokrovskij: apartigo de ~rolo;  2 rim-oj
+
 versio 1.117 2023/04/02 09:24:24
 Sergio Pokrovskij: +ekz
 
@@ -474,8 +519,5 @@ versio 1.110 2021/08/03 16:55:50
 Wolfram Diestel: frap~o: +trd de, ref
 
 versio 1.33 2021/01/13 10:11:01
-Sergio Pokrovskij: +fnt
-
-versio 1.32 2021/01/12 04:10:34
 -->
 </vortaro>
