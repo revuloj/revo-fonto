@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trov.xml,v 1.106 2023/03/05 20:29:06 revo Exp $">
+<art mrk="$Id: trov.xml,v 1.107 2023/04/14 16:34:55 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>trov</rad>/i 
@@ -140,8 +140,8 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="ricev.0i">ricevi</ref>,
-      <ref cel="sufer.0i">suferi 5</ref>,
-      <ref cel="traf.0i">trafi 3</ref>
+      <ref cel="sufer.0i.akcepti">suferi<sncref/></ref>,
+      <ref cel="traf.0i.renkonti">trafi<sncref/></ref>
     </refgrp>
     <trd lng="sv">finna</trd>
   </snc>
@@ -189,7 +189,7 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="jugx.0i.taksi">ju&gcirc;i <sncref/></ref>,
+      <ref cel="jugx.0i.taksi">ju&gcirc;i<sncref/></ref>,
       <ref cel="taks.0i">taksi</ref>
     </refgrp>
     <trdgrp lng="de">
@@ -432,8 +432,7 @@
       Esti <tld/>ata, renkonti&gcirc;i, ekzisti en iu loko:
       <ekz>
         la <ctl>Fundamento de Esperanto</ctl> devas <tld/>i&gcirc;i en
-        la manoj
-        de &ccirc;iu bona esperantisto
+        la manoj de &ccirc;iu bona esperantisto
         <fnt><bib>F</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
       </ekz>
       <ekz>
@@ -461,7 +460,8 @@
       <ref cel="star.0i">stari</ref>
     </refgrp>
     <trdgrp lng="de">
-      <trd>sich befinden</trd>,
+      <trd>sich <ind>befinden</ind></trd>,
+      <trd>geben <klr>(sein)</klr></trd>,
       <trd>vorkommen</trd>
     </trdgrp>
     <trdgrp lng="hu">
@@ -823,6 +823,9 @@
 </art>
 <!--
 $Log$
+versio 1.107 2023/04/14 16:34:55
+Wolfram Diestel: sncref, +trd de
+
 versio 1.106 2023/03/05 20:29:06
 Jean-Marc Lugrin: Forigi malplenan fr difinon
 
@@ -842,8 +845,5 @@ Revision 1.22  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.21  2015/06/29 16:40:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.20  2015/01/01 15:10:19  revo
 -->
 </vortaro>
