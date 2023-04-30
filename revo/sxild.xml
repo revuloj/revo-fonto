@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxild.xml,v 1.37 2023/04/24 16:34:58 revo Exp $">
+<art mrk="$Id: sxild.xml,v 1.38 2023/04/30 16:32:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&scirc;ild</rad>/o
@@ -76,7 +76,7 @@
     <ref tip="vid" cel="blazon.0o">blazono</ref>
     <trd lng="be">&c_sh;&c_ch;&c_y;&c_t;</trd>
     <trd lng="bg">&c_Shch;&c_i;&c_t;</trd>
-    <trd lng="de">Schild<klr tip="amb"> (Waffe)</klr></trd>
+    <trd lng="de">Schild<klr tip="amb"> [Waffe]</klr></trd>
     <trd lng="en">shield</trd>
     <trd lng="es">escudo</trd>
     <trdgrp lng="fr">
@@ -131,7 +131,11 @@
       </ekz>
     </dif>
     <trd lng="be">&c_sh;&c_ch;&c_y;&c_t;</trd>
-    <trd lng="de">Schutzschild</trd>
+    <trdgrp lng="de">
+      <trd>Schutzschirm</trd>,
+      <trd>Schutzschild</trd>,
+      <trd>Schutzwall</trd>
+    </trdgrp>
   </snc>
   <snc mrk="sxild.0o.KOMUNE">
     <dif>
@@ -223,6 +227,9 @@
         <trd>placa</trd>,
         <trd>tabuleta</trd>
       </trdgrp>
+      <trdgrp lng="de">
+        <trd>Ladenschild</trd>
+      </trdgrp>
       <trd lng="ru">&c_v;&c_y;&c_v;&c_je;&c_s;&c_k;&c_a;</trd>
     </subsnc>
     <subsnc mrk="sxild.0o.TRA">
@@ -267,6 +274,10 @@
       <refgrp tip="sub">
         <ref cel="sxild.voj0o.TRA">voj<tld/>o</ref>
       </refgrp>
+      <trdgrp lng="de">
+        <trd>Informationsschild</trd>,
+        <trd>Anzeigetafel</trd>
+      </trdgrp>
       <trd lng="en">sign</trd>
       <trdgrp lng="fr">
         <trd>panneau indicateur</trd>,
@@ -297,6 +308,10 @@
           </fnt>.
         </ekz> 
       </dif>
+      <trdgrp lng="de">
+        <trd>Namensschild</trd>,
+        <trd>Namensschildchen</trd>
+      </trdgrp>
       <trdgrp lng="en">
         <trd>sign</trd>,
         <trd>tag</trd>
@@ -316,7 +331,6 @@
         <trd>&c_t;&c_a;&c_b;&c_l;&c_ib;&c_ch;&c_k;&c_a; <klr tip="amb">(&c_ib;&c_n;&c_f;&c_a;&c_r;&c_m;&c_a;&c_c;&c_y;&c_j;&c_n;&c_a;&c_ja;)</klr></trd>
       </trdgrp>
   </snc>
-  <trd lng="de">Schild</trd>
   <trdgrp lng="pl">
     <trd>szyld</trd>,
     <trd>tarcza</trd>
@@ -350,7 +364,11 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Schild <klr>(Sternbild)</klr></trd>
+    <trdgrp lng="de">
+      <trd>Schild<klr> [Sternbild]</klr></trd>,
+      <trd>Sobieskischer Schild</trd>,
+      <trd>Scutum<klr> [lat.]</klr></trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_Sh;&c_ch;&c_y;&c_t; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
   <trd lng="en">Scutum</trd>
@@ -397,7 +415,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_y;&c_l;&c_mol;&c_d;&c_a;&c_ch;&c_k;&c_a;</trd>
-  <trd lng="de">Schildchen</trd>
+  <trdgrp lng="de">
+      <trd>Klingelschild</trd>,
+      <trd>Informationstafel</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>sign</trd>,
     <trd>tag</trd>
@@ -578,7 +599,7 @@
     <trd lng="be">&c_d;&c_a;&c_r;&c_o;&c_zh;&c_n;&c_y; <ind>&c_z;&c_n;&c_a;&c_k;</ind></trd>
     <trdgrp lng="de">
       <trd>Verkehrsschild</trd>,
-      <trd>Verkehrsschild</trd>
+      <trd>Verkehrsinfotafel</trd>
     </trdgrp>
     <trd lng="es">se&ntilde;al de tr&aacute;fico</trd>
     <trd lng="fr">panneau</trd>
@@ -626,6 +647,9 @@
 </art>
 <!--
 $Log$
+versio 1.38 2023/04/30 16:32:23
+Ulrich Fellmann: ...sxild...: +11 DE trdj, 2 DE sxangxoj, 2 DE forigoj, 
+
 versio 1.37 2023/04/24 16:34:58
 Paul Peeraerts: @Steloj -> @Monato
 
@@ -645,8 +669,5 @@ Revision 1.29  2019/04/01 17:10:14  revo
 Alain Gerard: +trd fr
 
 Revision 1.28  2019/02/15 07:10:17  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.27  2018/07/26 17:10:13  revo
 -->
 </vortaro>
