@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: ident.xml,v 1.34 2023/04/30 21:21:00 revo Exp $">
+  <art mrk="$Id: ident.xml,v 1.35 2023/05/01 16:31:05 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>ident</rad>/a
@@ -83,10 +83,32 @@
 
 <drv mrk="ident.0o">
   <kap><tld/>o</kap>
-  <snc mrk="ident.0o.apartajxo">
+  <snc mrk="ident.0o.individuo">
     <dif>
-      la aparta&jcirc;oj kiuj determinas kiun a&ubreve; kion estas iu a&ubreve; io:
-      <ekz>!!!ekzemplo kun fonto!!!</ekz>
+      Tiu unika, kiu iu estas, per sia nomo, gepatroj, &scirc;tataneco:
+      <ekz>
+        la <tld/>o de la kulpulo estas ne divenebla &gcirc;is la fino de la libro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2007/009132.php"
+              >Nova krimromano el A&ubreve;stralio</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="indivi.0o.KOMUNE">individuo<sncref/></ref>,
+      <ref cel="person.0o.homo">persono<sncref/></ref>,
+      <ref cel="subjek.0o.FIL">subjekto<sncref/></ref>
+    </refgrp>
+    <trd lng="de">Identit&auml;t</trd>
+    <trd lng="en">identity</trd>
+  </snc>
+  <snc mrk="ident.0o.memdifino">
+    <dif>
+      Tiu unika, kiu iu difinas sin mem, apartigante sin de aliaj 
+      aparte per sia aneco, kredo ktp:
       <ekz>
         ili ekser&ccirc;as sian esperantistan <tld/>on
         <fnt>
@@ -101,13 +123,29 @@
         oni komencas detrui la <tld/>o-senton de la subjekto
         <fnt>
           <bib>MD05</bib>
-          <aut>John BERGER</aut>
+          <aut>John Berger</aut>
           <vrk><url ref="https://eo.mondediplo.com/article1273.html"
               >&Ccirc;u forvi&scirc;i la pasintecon?</url></vrk>
           <lok>1 A&ubreve;g 2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        grupo bezonas gardi koheron, <tld/>on &ndash; sed tio malhelpas kreskon
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 2 (100)</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="mem.0o">memo</ref>
+    <refgrp tip="vid">
+      <ref cel="bild.mem0o">membildo</ref>,
+      <ref cel="person.0eco">personeco</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Selbstverst&auml;ndnis</trd>,
+      <trd>Identit&auml;t <klr>(Selbstverst&auml;ndnis)</klr></trd>
+    </trdgrp>
     <trd lng="en">identity<klr> (set of characteristics)</klr></trd>
   </snc>
   <snc mrk="ident.0o.bildigo">
@@ -501,6 +539,9 @@
 </art>
   <!--
   $Log$
+versio 1.35 2023/05/01 16:31:05
+Wolfram Diestel: ~o: apartigo de du komunaj sencoj (individuo k membildo)
+
 versio 1.34 2023/04/30 21:21:00
 Robert Baruch: +trd: en, +snc: idento
 
@@ -520,8 +561,5 @@ Wolfram Diestel: formuloj per am
   Jeromo Vasxe: + ~igilo
 
   Revision 1.26  2017/07/06 19:10:13  revo
-  Wolfram Diestel: kor. mrk, +~o 2, ~eco 3, ekz-oj
-
-  Revision 1.25  2015/07/04 08:37:36  revo
 -->
 </vortaro>
