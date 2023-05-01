@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: matric.xml,v 1.43 2023/04/24 14:28:19 revo Exp $">
+<art mrk="$Id: matric.xml,v 1.44 2023/05/01 12:41:37 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>matric</rad>/o
   <fnt><bib>PV</bib></fnt>
@@ -97,7 +97,7 @@
       <ekz>
         en lineara algebro, determinanto estas funkcio kiu asociigas 
         skalaron <frm am="det(A)"><k>det</k>(<k>A</k>)</frm> al &ccirc;iu
-        <frm am="n xx n"><k>n</k>&#xD7;<k>n</k></frm> kvadrata <tld/>o
+        <frm am="n xx n"><k>n</k>×<k>n</k></frm> kvadrata <tld/>o
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=87309">Determinanto</url></lok>
@@ -156,9 +156,9 @@
   <trd lng="hu">m&aacute;trix</trd>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43C;&c_a;&c_t;&c_r;&c_i;&c_c;&#x44F;</trd>,
-    <trd>&#x43C;&c_a;&c_t;&c_je;&c_r;&c_i;&#x43D;&c_s;&#x44C;&#x43A;&c_a; &#x43F;&#x43E;&c_r;&#x43E;&c_d;&c_a;</trd>,
-    <trd>&c_zh;&c_i;&#x43B;&#x44C;&#x43D;&c_a; &#x43F;&#x43E;&c_r;&#x43E;&c_d;&c_a;</trd>
+    <trd>&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_ja;</trd>,
+    <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_n;&c_s;&c_mol;&c_k;&c_a; &c_p;&c_o;&c_r;&c_o;&c_d;&c_a;</trd>,
+    <trd>&c_zh;&c_i;&c_l;&c_mol;&c_n;&c_a; &c_p;&c_o;&c_r;&c_o;&c_d;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -177,6 +177,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>eine Matrix bilden</trd>,
+    <trd>eine Matrix formen</trd>
+  </trdgrp>
+  <trd lng="en">form a matrix</trd>
   <trd lng="es">formar una matriz</trd>
   <trd lng="fr">matricer</trd>
 </drv>
@@ -189,7 +194,7 @@
       <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
       <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb             K"><g>K</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm am="bb I xx bb J"><g>I</g>&#xD7;<g>J</g></frm> al 
+      <frm am="bb I xx bb J"><g>I</g>×<g>J</g></frm> al 
       <frm am="bb K"><g>K</g></frm>, kie
       <frm am="bb I={1,2,...,n}"><g>I</g> = {1, 2,..., <k>n</k>}</frm>
       kaj
@@ -198,7 +203,7 @@
         <tld/>on <frm am="A">A</frm> oni kutime signas kiel
         <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e.
         per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb        
-        J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>&#xD7;<g>J</g></sub></frm>,
+        J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>×<g>J</g></sub></frm>,
         kie <frm am="a_(ij)">a<sub><k>i</k><k>j</k></sub></frm> signas
         la bildon de
         <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> per <frm am="A">A</frm> kaj estas nomata
@@ -210,7 +215,7 @@
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>o oni nomas
         ties dimensioj kaj signas ilin per skriba&jcirc;o de la tipo
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm> a&ubreve;
-        <frm am="n xx p"><k>n</k>&#xD7;<k>p</k></frm>;
+        <frm am="n xx p"><k>n</k>×<k>p</k></frm>;
       </ekz>
       <ekz>
         eblas prezenti al si <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>on
@@ -278,10 +283,10 @@
   </bld>
   <trd lng="de">(n,p)-<ind>Matrix</ind></trd>
   <trd lng="en">n-by-p <ind>matrix</ind></trd>
-  <trd lng="fr">matrice n&#xD7;p</trd>
-  <trd lng="hu">n&#xD7;p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
-  <trd lng="pl">macierz n&#xD7;p</trd>
-  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n&#xD7;p</trd>
+  <trd lng="fr">matrice n×p</trd>
+  <trd lng="hu">n×p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
+  <trd lng="pl">macierz n×p</trd>
+  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n×p</trd>
 </drv>
 
 <drv mrk="matric.nul0o">
@@ -478,6 +483,9 @@
 </art>
 <!--
 $Log$
+versio 1.44 2023/05/01 12:41:37
+Christian Siefkes: +trd de, en
+
 versio 1.43 2023/04/24 14:28:19
 Paul Peeraerts: @Steloj -> @Monato
 
@@ -497,8 +505,5 @@ Revision 1.37  2020/02/14 23:10:47  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.36  2019/06/30 18:21:47  revo
-adaptis URL de Monato
-
-Revision 1.35  2018/08/06 22:11:43  revo
 -->
 </vortaro>
