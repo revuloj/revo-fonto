@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: ident.xml,v 1.36 2023/05/01 19:19:21 revo Exp $">
+  <art mrk="$Id: ident.xml,v 1.37 2023/05/02 06:29:14 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>ident</rad>/a
@@ -30,20 +30,64 @@
   <snc mrk="ident.0a.tia_sama">
     <uzo tip="stl">EVI</uzo>
     <dif>
-      <ref tip="sin" cel="egal.0a">Egala</ref>,
-      tia <ref tip="sin" cel="sam.0a.tia">sama<sncref/></ref>:
+      Nedistingeble <ref tip="sin" cel="egal.0a">egala</ref>,
+      tia <ref tip="sin" cel="sam.0a.tia">sama<sncref/></ref>;
+      havanta ekzakte la samajn trajtojn:
       <ekz>
-        la du kongresoj prenis <tld/>ajn decidojn;
-      </ekz><ekz>
-        la moralaj ecoj ne estas <tld/>aj &ccirc;e &ccirc;iuj homoj;
+        kelke da dekoj de tute <tld/>aj duonnudaj knabinoj komencis kolektivan dancon
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        liaj vortoj kaj agoj estis identaj
-      <fnt>
+        &ccirc;iuj domoj estas <tld/>aj, en &ccirc;iu estas kvin eta&gcirc;oj, en &ccirc;iu gisa pordego kaj
+        asfalta la&ubreve;tsona korto
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iutage oni vidas du individuojn, kiuj havas nenion komunan, kaj tamen kiuj
+        prezentas fizionomion kaj skribmanieron preska&ubreve; <tld/>ajn
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rakonto farita de la patro konformi&gcirc;as la&ubreve; tute <tld/>a maniero kun la
+        rakonto prezentita de la filo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Na&ubreve;a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se tia vorto kiel ekzemple &leftquot;redaktejo&rightquot;, estus tute <tld/>a 
+        <klr>(la&ubreve; signifo)</klr> kun la vorto
+        &leftquot;redakcio&rightquot; kaj povus &gcirc;in perfekte anstata&ubreve;i, certe neniu el ni plendus, se la
+        vorto &leftquot;redakcio&rightquot; balda&ubreve; malaperus el nia lingvo
+        <fnt>
+          <bib>LR</bib>
+          <lok>Unua Parto &ndash; Leksikologio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Amalio, se nia amo estis perfekte <tld/>a, &mdash; <klr>[&#8230;]</klr>, kiel do povas
+        diferenci la amantoj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        liaj vortoj kaj agoj estis <tld/>aj 
+        <klr>(tute <ref cel="konfor.0a">konforma</ref>j unu al alia)</klr>
+        <fnt>
           <bib>Monato</bib>
           <aut>Ji&rcaron;&iacute; Patera</aut>
           <vrk><url ref="&Monato;/2000/007031.php">Katolikismo:
-           Johano Hus &#8208; &ccirc;u ne plu herezulo?</url></vrk>
+           Johano Hus &ndash; &ccirc;u ne plu herezulo?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -84,8 +128,10 @@
 <drv mrk="ident.0o">
   <kap><tld/>o</kap>
   <snc mrk="ident.0o.individuo">
+    <uzo tip="fak">JUR</uzo>
     <dif>
-      Tiu unika, kiu iu estas, per sia nomo, gepatroj, &scirc;tataneco:
+      La tuto de oficialaj <ref tip="prt" cel="atribu1.0o.KOMUNE">atributo</ref>j 
+      kiel nomo, gepatroj, &scirc;tataneco, kiuj distingas individuon de aliaj:
       <ekz>
         la <tld/>o de la kulpulo estas ne divenebla &gcirc;is la fino de la libro
         <fnt>
@@ -100,6 +146,7 @@
     <refgrp tip="vid">
       <ref cel="indivi.0o.KOMUNE">individuo<sncref/></ref>,
       <ref cel="person.0o.homo">persono<sncref/></ref>,
+      <ref cel="status.0o">statuso</ref>,
       <ref cel="subjek.0o.FIL">subjekto<sncref/></ref>
     </refgrp>
     <trd lng="de">Identit&auml;t</trd>
@@ -107,8 +154,9 @@
   </snc>
   <snc mrk="ident.0o.memdifino">
     <dif>
-      Tiu unika, kiu iu difinas sin mem, apartigante sin de aliaj 
-      aparte per sia aneco, kredo ktp:
+      La tuto de <ref tip="prt" cel="trajt.0o.karakteriza">trajtoj</ref>, 
+      per kiuj iu difinas sin mem, ekzemple 
+      aparteno al grupo, kredo ktp:
       <ekz>
         ili ekser&ccirc;as sian esperantistan <tld/>on
         <fnt>
@@ -141,7 +189,9 @@
     <refgrp tip="vid">
       <ref cel="konsci.0o.cirkonstanca">konscio<sncref/></ref>,
       <ref cel="bild.mem0o">membildo</ref>,
-      <ref cel="person.0eco">personeco</ref>
+      <ref cel="person.0eco">personeco</ref>,
+      <ref cel="propr.0eco.KOMUNE">propreco<sncref/></ref>,
+      <ref cel="trajt.0aro">trajtaro</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>Selbstverst&auml;ndnis</trd>,
@@ -188,7 +238,14 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="ident.0ajxo.KOMUNE">
     <dif>
-      Io <tld/>a.
+      Io <tld/>a:
+      <ekz>
+        la medio, en kiu ili vivas, estas konsiderinda kiel <tld/>a&jcirc;o
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">identity<klr> (instance of something identical)</klr></trd>
     <trd lng="hu">azonos dolog</trd>
@@ -233,11 +290,13 @@
   <kap><tld/>eco</kap>
   <snc mrk="ident.0eco.egalo">
     <dif>
-      Plena simileco; sameco:
+      La fakto, ke io estas <tld/>a kun io alia; nedistingebla egaleco, sameco:
       <ekz>
-        la <tld/>eco de amba&ubreve; projektoj estas evidenta;
-      </ekz><ekz>
-        <tld/>eco pri la ideoj;
+        la&ubreve; lia opinio, inter burokratismo kaj <nom>Mos&hcirc;ozupr</nom> oni povas meti signon de l&#8217;
+        <tld/>eco
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>!
       </ekz>
       <ekz>
         li kro&ccirc;is sin al la penso, ke tiu <tld/>eco
@@ -271,19 +330,28 @@
   <snc mrk="ident.0eco.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      <refgrp tip="sin">
-        <ref cel="mem.0eco">Memeco</ref>,
-        <ref cel="person.0eco">personeco</ref>
-      </refgrp>
-      (eco de persono, kiu estas vere ne alia ol
-      li asertas esti a&ubreve; ol oni kredas, ke li estas):
+      <ref tip="dif" cel="ident.0o.individuo">Idento<sncref/></ref>:
       <ekz>
-        determini la <tld/>econ de akuzito;
-      </ekz><ekz>
-        pruvi sian <tld/>econ.
+        &ccirc;u tiu malfeli&ccirc;ulo ne portas sur si paperojn, kiuj povus al ni konigi lian
+        <tld/>econ
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ne konjektis, ke lia <tld/>eco estas protestebla kaj estos protestita
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekoka</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="legiti">legitimado</ref>
+    <refgrp tip="vid">
+      <ref cel="mem.0eco">memeco</ref>,
+      <ref cel="person.0eco">personeco</ref>,
+      <ref cel="legiti">legitimado</ref>
+    </refgrp>
     <rim>
       Tiu senco estas iom internacia, kvankam &gcirc;i estas senrilata
       al la &ccirc;efsenco de la radiko.
@@ -302,8 +370,8 @@
   </snc>
   <snc mrk="ident.0eco.identigho">
     <dif>
-      Identi&gcirc;o; sameco de kulturo, kredoj, ideologio kun grupo, al kiu
-      iu apartenas:
+      <ref tip="dif" cel="ident.0o.memdifino">Idento<sncref/></ref>;
+      <ref cel="aparte.0o">aparten</ref>sento al kulturo, kredoj, ideologio:
       <ekz>
         politikistoj pli klare montru sian vidpunkton kaj <tld/>econ
         rilate al sociaj problemoj
@@ -316,10 +384,17 @@
         </fnt>;
       </ekz>
       <ekz>
+        li malpermesis ke ni havu propran tombejon, kaj la albanaro tion sentis kiel
+        rifuzon al la propra <tld/>eco
+        <fnt>
+          <bib>ChB</bib>
+          <lok>9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         ni ne komplete perdu nian kulturan <tld/>econ
         <fnt>
-        <aut>Stefan Maul</aut>
-          
+          <aut>Stefan Maul</aut>          
           <vrk><url ref="&Monato;/2000/007174.php">Kiel savi la
           germanan kulturon</url></vrk>
           <bib>Monato</bib>
@@ -359,8 +434,9 @@
         la aktoro devas <tld/>igi sin kun la persono, kiun li ludas;
       </ekz>
       <ekz>
-        ne <tld/>igante <klr>[...]</klr> la liberkredon speciale kun
-        ateismo
+        mi devas <klr>[&#8230;]</klr> nomi min &leftquot;liberkreda&rightquot;, ne <tld/>igante tamen la
+        liberkredon speciale kun ateismo, sed rezervante al mia kredado plenan
+        liberecon
         <fnt>
           <bib>Homaranismo</bib>
           <vrk>Homaranismo</vrk>
@@ -369,7 +445,7 @@
       <ekz>
         multaj personoj eble <tld/>igos la homaranismon kun Esperanto 
         a&ubreve; kun la tiel nomata &leftquot;interna ideo de esperantismo&rightquot;
-        &#8208; tio tamen estus eraro
+        &ndash; tio tamen estus eraro
         <fnt>
           <bib>Homaranismo</bib>
           <vrk>Homaranismo</vrk>
@@ -540,6 +616,9 @@
 </art>
   <!--
   $Log$
+versio 1.37 2023/05/02 06:29:14
+Wolfram Diestel: ~a..~eco: +ekz-oj; ~o, ~eco: ioma koherigo de dif
+
 versio 1.36 2023/05/01 19:19:21
 Wolfram Diestel: +ref
 
@@ -559,8 +638,5 @@ versio 1.30 2021/11/23 09:31:34
 Dmitri Gabinski: + trd be
 
 versio 1.28 2020/02/15 00:10:28
-Wolfram Diestel: formuloj per am
-
-  Revision 1.27  2019/07/27 17:10:14  revo
 -->
 </vortaro>
