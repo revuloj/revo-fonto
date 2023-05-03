@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: ident.xml,v 1.37 2023/05/02 06:29:14 revo Exp $">
+  <art mrk="$Id: ident.xml,v 1.38 2023/05/03 06:28:25 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>ident</rad>/a
@@ -96,9 +96,9 @@
   </snc>
   <ref tip="vid" cel="kongru.0a">kongrua</ref>
   <trdgrp lng="be">
-        <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>,
-        <trd>&c_t;&c_o;&c_je;&c_s;&c_n;&c_y;</trd>
-      </trdgrp>
+    <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>,
+    <trd>&c_t;&c_o;&c_je;&c_s;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="bg">&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_je;&c_n;</trd>
   <trdgrp lng="cs">
     <trd>identick&yacute;</trd>,
@@ -110,9 +110,9 @@
   <trd lng="nl">identiek</trd>
   <trd lng="pt">id&ecirc;ntico<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="ru">
-        <trd>&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
-        <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
-      </trdgrp>
+    <trd>&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>identick&yacute;</trd>,
     <trd>toto&zcaron;n&yacute;</trd>
@@ -127,36 +127,65 @@
 
 <drv mrk="ident.0o">
   <kap><tld/>o</kap>
-  <snc mrk="ident.0o.individuo">
-    <uzo tip="fak">JUR</uzo>
+  <snc mrk="ident.0o.rilato">
     <dif>
-      La tuto de oficialaj <ref tip="prt" cel="atribu1.0o.KOMUNE">atributo</ref>j 
-      kiel nomo, gepatroj, &scirc;tataneco, kiuj distingas individuon de aliaj:
-      <ekz>
-        la <tld/>o de la kulpulo estas ne divenebla &gcirc;is la fino de la libro
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Donald Broadribb</aut>
-          <vrk><url ref="https://www.monato.be/2007/009132.php"
-              >Nova krimromano el A&ubreve;stralio</url></vrk>
-          <lok>2007</lok>
-        </fnt>.
-      </ekz>
+      Tia rilato, fakto, konstato en kiu pluraj aferoj montri&gcirc;as <tld/>aj:
     </dif>
-    <refgrp tip="vid">
-      <ref cel="indivi.0o.KOMUNE">individuo<sncref/></ref>,
-      <ref cel="person.0o.homo">persono<sncref/></ref>,
-      <ref cel="status.0o">statuso</ref>,
-      <ref cel="subjek.0o.FIL">subjekto<sncref/></ref>
-    </refgrp>
-    <trd lng="de">Identit&auml;t</trd>
-    <trd lng="en">identity</trd>
+    <subsnc mrk="ident.0o.bildigo">
+      <uzo tip="fak">MAT</uzo>
+      <dif>
+        <ref tip="dif" cel="bild.idento0igo"><tld lit="I"/>o-bildigo</ref>:
+        <ekz>
+          ilia geometria simetria grupo havas du erojn,
+          la <tld/>on kaj reflekton je linio paralela al
+          la lateroj de la kvadratoj
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=321296">8-kvadrato</url></lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="cs">identick&eacute; zobrazen&iacute;</trd>
+      <trd lng="en">identity<klr> (geometric similarity)</klr></trd>
+      <trd lng="sk">identick&eacute; zobrazenie</trd>
+    </subsnc>
+    <subsnc mrk="ident.0o.egalajxo">
+      <dif>
+        <ref tip="super" cel="egal.0ajxo">Egala&jcirc;o</ref> vera:
+        <ekz>
+          la e&ubreve;lera <tld/>o estas la <tld/>o <frm am="e^(i pi)+1=0"><k>e</k><sup>i&pi;</sup> + 1 =
+          0</frm>
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=265282">E&ubreve;lera
+            idento</url></lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="en">identity<klr> (mathematical equality)</klr></trd>
+    </subsnc>
+    <subsnc mrk="ident.0o.JUR">
+      <uzo tip="fak">JUR</uzo>
+      <dif>
+        <ref tip="dif" cel="ident.0eco.JUR">Identeco<sncref/></ref>:
+        <ekz>
+          la <tld/>o de la kulpulo estas ne divenebla &gcirc;is la fino de la libro
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Donald Broadribb</aut>
+            <vrk><url ref="https://www.monato.be/2007/009132.php"
+                >Nova krimromano el A&ubreve;stralio</url></vrk>
+            <lok>2007</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">Identit&auml;t</trd>
+      <trd lng="en">identity</trd>
+    </subsnc>
   </snc>
   <snc mrk="ident.0o.memdifino">
     <dif>
-      La tuto de <ref tip="prt" cel="trajt.0o.karakteriza">trajtoj</ref>, 
-      per kiuj iu difinas sin mem, ekzemple 
-      aparteno al grupo, kredo ktp:
+      <ref tip="dif" cel="ident.0eco.identigho">Identeco<sncref/></ref>:
       <ekz>
         ili ekser&ccirc;as sian esperantistan <tld/>on
         <fnt>
@@ -185,53 +214,13 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="mem.0o">memo</ref>
-    <refgrp tip="vid">
-      <ref cel="konsci.0o.cirkonstanca">konscio<sncref/></ref>,
-      <ref cel="bild.mem0o">membildo</ref>,
-      <ref cel="person.0eco">personeco</ref>,
-      <ref cel="propr.0eco.KOMUNE">propreco<sncref/></ref>,
-      <ref cel="trajt.0aro">trajtaro</ref>
-    </refgrp>
     <trdgrp lng="de">
       <trd>Selbstverst&auml;ndnis</trd>,
       <trd>Identit&auml;t <klr>(Selbstverst&auml;ndnis)</klr></trd>
     </trdgrp>
     <trd lng="en">identity<klr> (set of characteristics)</klr></trd>
   </snc>
-  <snc mrk="ident.0o.bildigo">
-    <uzo tip="fak">MAT</uzo>
-    <dif>
-      <ref tip="dif" cel="bild.idento0igo"><tld lit="I"/>o-bildigo</ref>:
-      <ekz>
-        ilia geometria simetria grupo havas du erojn,
-        la <tld/>on kaj reflekton je linio paralela al
-        la lateroj de la kvadratoj
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=321296">8-kvadrato</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="cs">identick&eacute; zobrazen&iacute;</trd>
-    <trd lng="en">identity<klr> (geometric similarity)</klr></trd>
-    <trd lng="sk">identick&eacute; zobrazenie</trd>
-  </snc>
-  <snc mrk="ident.0o.egalajxo">
-    <dif>
-      <ref tip="super" cel="egal.0ajxo">Egala&jcirc;o</ref> vera:
-      <ekz>
-        la e&ubreve;lera <tld/>o estas la <tld/>o <frm am="e^(i pi)+1=0"><k>e</k><sup>i&pi;</sup> + 1 =
-        0</frm>
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=265282">E&ubreve;lera
-          idento</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  <trd lng="en">identity<klr> (mathematical equality)</klr></trd>
-  </snc>
+
 </drv>
 
 <drv mrk="ident.0ajxo">
@@ -330,7 +319,8 @@
   <snc mrk="ident.0eco.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      <ref tip="dif" cel="ident.0o.individuo">Idento<sncref/></ref>:
+      La tuto de oficialaj <ref tip="prt" cel="atribu1.0o.KOMUNE">atributo</ref>j 
+      kiel nomo, gepatroj, &scirc;tataneco, kiuj distingas individuon de aliaj:
       <ekz>
         &ccirc;u tiu malfeli&ccirc;ulo ne portas sur si paperojn, kiuj povus al ni konigi lian
         <tld/>econ
@@ -348,9 +338,11 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="mem.0eco">memeco</ref>,
-      <ref cel="person.0eco">personeco</ref>,
-      <ref cel="legiti">legitimado</ref>
+      <ref cel="indivi.0o.KOMUNE">individuo<sncref/></ref>,
+      <ref cel="legiti.0ajxo">legitima&jcirc;o</ref>,
+      <ref cel="person.0o.homo">persono<sncref/></ref>,
+      <ref cel="status.0o">statuso</ref>,
+      <ref cel="subjek.0o.FIL">subjekto<sncref/></ref>
     </refgrp>
     <rim>
       Tiu senco estas iom internacia, kvankam &gcirc;i estas senrilata
@@ -370,7 +362,8 @@
   </snc>
   <snc mrk="ident.0eco.identigho">
     <dif>
-      <ref tip="dif" cel="ident.0o.memdifino">Idento<sncref/></ref>;
+      La tuto de <ref tip="prt" cel="trajt.0o.karakteriza">trajtoj</ref>, 
+      per kiuj iu difinas sin mem, ekzemple aparteno al grupo, kredo ktp;
       <ref cel="aparte.0o">aparten</ref>sento al kulturo, kredoj, ideologio:
       <ekz>
         politikistoj pli klare montru sian vidpunkton kaj <tld/>econ
@@ -402,6 +395,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="mem.0o">memo</ref>
+    <refgrp tip="vid">
+      <ref cel="konsci.0o.cirkonstanca">konscio<sncref/></ref>,
+      <ref cel="bild.mem0o">membildo</ref>,
+      <ref cel="mem.0eco">memeco</ref>,
+      <ref cel="person.0eco">personeco</ref>,
+      <ref cel="propr.0eco.KOMUNE">propreco<sncref/></ref>,
+      <ref cel="trajt.0aro">trajtaro</ref>
+    </refgrp>
     <trd lng="be">&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="en">identity<klr> (set of characteristics)</klr></trd>
   </snc>
@@ -520,7 +522,14 @@
     <uzo tip="fak">JUR</uzo>
     <dif>
       <ref cel="legiti.0ajxo.JUR">Legitimilo</ref>
-      kiu atestas la identecon de iu a&ubreve; io:
+      kiu atestas la <tld/>econ<sncref ref="ident.0eco.JUR"/> de iu a&ubreve; io:
+      <ekz>
+        &leftquot;bonvolu montri <tld/>igilon&rightquot;, li petis
+        <fnt>
+          <bib>ChB</bib>
+          <lok>15</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         neniu povas a&ccirc;eti bileton por longdistancaj
         busoj ne montrinte anta&ubreve;e validan <tld/>igilon
@@ -531,7 +540,13 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="indik.0ilo">indikilo</ref>,
+      <ref cel="mark.0o.signo">marko<sncref/></ref>,
+<ref cel="signatur.0o">signaturo</ref>
+    </refgrp>
     <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je; &c_a;&c_s;&c_o;&c_b;&c_y;</trd>
+    <trd lng="de">Ausweis</trd>
     <trd lng="en">identification<klr> (item which identifies a person)</klr></trd>
     <trd lng="fr">pi&egrave;ce d'identit&eacute;</trd>
   </snc>
@@ -552,10 +567,24 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="nom.0o.de_io">nomo<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_t;&c_a;&c_r;</trd>
+    <trdgrp lng="de">
+      <trd>Kennzeichen</trd>,
+      <trd>Kennung</trd>,
+      <trd>ID</trd>
+    </trdgrp>
     <trd lng="en"><klr>unique </klr>identity</trd>
     <trd lng="fr">identifiant</trd>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="kon.re0ilo.karakterizajxo">rekonilo<sncref/></ref>,
+    <ref cel="difere.0igilo">diferencigilo</ref>,
+    <ref cel="distin.0ilo">distingilo</ref>,
+    <ref cel="trajt.0o.karakteriza">trajto<sncref/></ref>
+  </refgrp>
   <trdgrp lng="uk">
     <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_ib;&c_k;&c_a;&c_c;&c_ib;&c_j;&c_n;&c_i;&c_j; &c_d;&c_o;&c_k;&c_u;&c_m;&c_je;&c_n;&c_t;</trd>,
     <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_ib;&c_k;&c_a;&c_t;&c_o;&c_r;</trd>
@@ -616,6 +645,9 @@
 </art>
   <!--
   $Log$
+versio 1.38 2023/05/03 06:28:25
+Wolfram Diestel: iom da reordigo, +ref-oj, trd de
+
 versio 1.37 2023/05/02 06:29:14
 Wolfram Diestel: ~a..~eco: +ekz-oj; ~o, ~eco: ioma koherigo de dif
 
@@ -635,8 +667,5 @@ versio 1.32 2023/03/27 08:33:31
 Paul Peeraerts: &Monato;
 
 versio 1.30 2021/11/23 09:31:34
-Dmitri Gabinski: + trd be
-
-versio 1.28 2020/02/15 00:10:28
 -->
 </vortaro>
