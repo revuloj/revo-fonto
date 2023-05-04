@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: disper.xml,v 1.16 2022/03/15 16:19:58 revo Exp $">
+<art mrk="$Id: disper.xml,v 1.17 2023/05/04 16:40:03 revo Exp $">
 <kap>
   <rad>dispers</rad>/i
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="disper.0i">
   <kap><tld/>i</kap>
-  <snc>
+  <snc mrk="disper.0i.FOT">
     <uzo tip="fak">FOT</uzo>
     <dif>
       Spektrigi <ref cel="lum.0o.FIZ">lumon</ref>
@@ -67,17 +68,17 @@
     <trd>rozpty&lcaron;ova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x440;&#x43E;&#x437;&#x441;&#x456;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x43F;&#x43E;&#x440;&#x43E;&#x448;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_r;&c_o;&c_z;&c_s;&c_ib;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_p;&c_o;&c_r;&c_o;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="disper.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="disper.0o.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Fenomeno de <tld/>ado:
+      <ref tip="super" cel="fenome.0o.FIL">Fenomeno</ref> de <tld/>ado:
       <ekz>
         aberacio <klr>[okazas pro]</klr> <tld/>o de lumradioj, kiu kontra&ubreve;staras formi&gcirc;on de la preciza bildo
         <fnt>
@@ -97,9 +98,10 @@
   <snc mrk="disper.0o.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      Miksa&jcirc;o <tld/>igita:
+      <ref tip="super" cel="miks.0ajxo">Miksa&jcirc;o</ref> <tld/>igita:
       <ekz>
-        la jonoj jodidaj estas multe pli grandaj ol la ordinaraj halogenidoj kaj tio rezultas en pli granda spaco por <tld/>o
+        la jonoj jodidaj estas multe pli grandaj ol la ordinaraj halogenidoj 
+        kaj tio rezultas en pli granda spaco por <tld/>o
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=520881">Jodida acido</url></lok>
@@ -127,7 +129,7 @@
   </trdgrp>
   <trd lng="fr">dispersion<klr tip="ind"> (de la
   lumi&egrave;re)</klr></trd>
-  <trd lng="he">&#x5E4;&#x5D9;&#x5D6;&#x5D5;&#x5E8; &#x5D0;&#x5D5;&#x5E8;</trd>
+  <trd lng="he">&pe;&yod;&zayin;&vav;&resh; &alef;&vav;&resh;</trd>
   <trdgrp lng="pl">
     <trd>dyspersja<klr> &sacute;wietlna</klr></trd>,
     <trd>rozszczepienie<klr> (&sacute;wiat&lstroke;a)</klr></trd>,
@@ -143,33 +145,25 @@
     <trd>rozptyl</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x438;&#x441;&#x43F;&#x435;&#x440;&#x441;&#x456;&#x44F;</trd>,
-    <trd>&#x434;&#x438;&#x441;&#x43F;&#x435;&#x440;&#x433;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_d;&c_i;&c_s;&c_p;&c_je;&c_r;&c_s;&c_ib;&c_ja;</trd>,
+    <trd>&c_d;&c_i;&c_s;&c_p;&c_je;&c_r;&c_g;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 
-<drv mrk="disper.0aangulo">
-  <kap><tld/>a angulo</kap>
-  <uzo tip="fak">FOT</uzo>
+<drv mrk="disper.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
   <snc>
+    <uzo tip="fak">KEM</uzo>
     <dif>
-      Angulo formata de ekstremaj radioj, kiuj iras &gcirc;is la
-      ekstremoj de la
-      spektro.
+      <ref tip="dif" cel="disper.0o.KEM">Disperso<sncref/></ref>.
     </dif>
+    <ref tip="sin" cel="koloid.0o">koloido</ref>
   </snc>
-  <trd lng="be">&c_v;&c_u;&c_g;&c_a;&c_l;
-  &c_r;&c_a;&c_s;&c_mol;&c_s;&c_je;&c_j;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</trd>
-  <trdgrp lng="de">
-    <trd>Dispersionswinkel</trd>,
-    <trd>Streuungswinkel</trd>
-  </trdgrp>
-  <trd lng="fr">angle de dispersion</trd>
-  <trd lng="he">&#x5D6;&#x5D5;&#x5D5;&#x5D9;&#x5EA; &#x5E4;&#x5D9;&#x5D6;&#x5D5;&#x5E8;</trd>
-  <trd lng="pt">&acirc;ngulo de dispers&atilde;o</trd>
-  <trd lng="ru">&c_u;&c_g;&c_o;&c_l;
-  &c_r;&c_a;&c_s;&c_s;&c_je;&c_ja;&c_n;&c_i;&c_ja;</trd>
+  <trd lng="de">Dispersion <klr>(Gemisch)</klr></trd>
 </drv>
+
 
 <drv mrk="disper.0eco">
   <kap><tld/>eco</kap>
@@ -193,11 +187,38 @@
   <trd lng="fr">dispersivit&eacute;</trd>
   <trd lng="ru">&c_d;&c_i;&c_s;&c_p;&c_je;&c_r;&c_s;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">disperzn&aacute; schopnos&tcaron;</trd>
-  <trd lng="uk">&#x434;&#x438;&#x441;&#x43F;&#x435;&#x440;&#x441;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
+  <trd lng="uk">&c_d;&c_i;&c_s;&c_p;&c_je;&c_r;&c_s;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
+
+<drv mrk="disper.0aangulo">
+  <kap><tld/>a angulo</kap>
+  <uzo tip="fak">FOT</uzo>
+  <snc>
+    <dif>
+      Angulo formata de ekstremaj radioj, kiuj iras &gcirc;is la
+      ekstremoj de la
+      spektro.
+    </dif>
+  </snc>
+  <trd lng="be">&c_v;&c_u;&c_g;&c_a;&c_l;
+  &c_r;&c_a;&c_s;&c_mol;&c_s;&c_je;&c_j;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</trd>
+  <trdgrp lng="de">
+    <trd>Dispersionswinkel</trd>,
+    <trd>Streuungswinkel</trd>
+  </trdgrp>
+  <trd lng="fr">angle de dispersion</trd>
+  <trd lng="he">&zayin;&vav;&vav;&yod;&tav; &pe;&yod;&zayin;&vav;&resh;</trd>
+  <trd lng="pt">&acirc;ngulo de dispers&atilde;o</trd>
+  <trd lng="ru">&c_u;&c_g;&c_o;&c_l;
+  &c_r;&c_a;&c_s;&c_s;&c_je;&c_ja;&c_n;&c_i;&c_ja;</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.17 2023/05/04 16:40:03
+Wolfram Diestel: fnt PV, +~aĵo, +ref-oj
+
 Revision 1.13  2018/09/14 19:10:15  revo
 Wolfram Diestel: +snc-oj KEM, +ekz-oj
 
@@ -217,8 +238,5 @@ Revision 1.8  2004/09/18 16:32:23  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.7  2003/09/19 16:30:43  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2002/05/08 16:33:16 revo
 -->
 </vortaro>
