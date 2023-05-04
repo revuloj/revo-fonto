@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aerosol.xml,v 1.12 2023/03/22 06:32:17 revo Exp $">
+<art mrk="$Id: aerosol.xml,v 1.13 2023/05/04 17:24:59 revo Exp $">
 <kap>
   <rad>aerosol</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,7 +10,8 @@
   <snc mrk="aerosol.0o.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      Substanco el subtilaj eroj &scirc;vebantaj en gaso:
+      <ref tip="super" cel="disper.0ajxo.KEM">Dispersa&jcirc;o</ref> el subtilaj 
+      eroj &scirc;vebantaj en gaso:
       <ekz>
         mi kun amiko ebrii&gcirc;is <klr>...</klr> &scirc;prucis 
         &ccirc;irka&ubreve;sidantojn per kontra&ubreve;skabia <tld/>o kaj kriis "mi cin 
@@ -33,6 +34,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="fum.0o">fumo</ref>,
+      <ref cel="nebul.0o.MET">nebulo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_e;&c_r;&c_a;&c_z;&c_o;&c_l;&c_mol;</trd>
   <trd lng="ca">aerosol</trd>
@@ -44,14 +49,17 @@
   <trd lng="nl">aerosol</trd>
   <trd lng="pl">aerozol</trd>
   <trd lng="ro">aerosol</trd>
-  <trd lng="sk">aeros&#xF3;l</trd>
+  <trd lng="sk">aeros&oacute;l</trd>
   <trd lng="sv">aerosol</trd>
-  <trd lng="uk">&c_a;&c_je;&c_r;&#x43E;&c_z;&#x43E;&#x43B;&#x44C;</trd>
+  <trd lng="uk">&c_a;&c_je;&c_r;&c_o;&c_z;&c_o;&c_l;&c_mol;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.13 2023/05/04 17:24:59
+Wolfram Diestel: +ref
+
 versio 1.12 2023/03/22 06:32:17
 Paul Peeraerts: + trd nl
 
@@ -71,8 +79,5 @@ Revision 1.5  2010/10/20 16:30:35  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.4  2010/04/16 16:31:03  revo
-Russ Williams: +trd en
-
-Revision 1.3  2010/04/15 16:30:40  revo
 -->
 </vortaro>
