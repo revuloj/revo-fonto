@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: solv.xml,v 1.110 2023/04/11 18:56:02 revo Exp $">
+  <art mrk="$Id: solv.xml,v 1.111 2023/05/04 17:24:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>solv</rad>/i
@@ -190,7 +190,7 @@
   <trd lng="ky">&c_ch;&c_je;&c_ch;&#1199;&#1199;</trd>
   <trd lng="lo">&#3713;&#3762;&#3737;&#3777;&#3713;&#3785;&#3780;&#3714;</trd>
   <trd lng="lt">i&scaron;spr&eogonek;sti</trd>
-  <trd lng="lv">atrisin&#5585;t</trd>
+  <trd lng="lv">atrisin&amacron;t</trd>
   <trd lng="mg">mamaha</trd>
   <trd lng="mi">te whakaoti</trd>
   <trd lng="mk">&c_r;&c_je;&c_sh;&c_i;</trd>
@@ -349,7 +349,7 @@
   <trd lng="lat">solutio</trd>
   <trd lng="lo">&#3713;&#3762;&#3737;&#3777;&#3713;&#3785;&#3780;&#3714;</trd>
   <trd lng="lt">sprendimas</trd>
-  <trd lng="lv">risin&#5585;jums</trd>
+  <trd lng="lv">risin&amacron;jums</trd>
   <trd lng="mg">vahaolana</trd>
   <trd lng="mi">otinga</trd>
   <trd lng="mk">&c_r;&c_je;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
@@ -417,7 +417,7 @@
     </dif>
     <trd lng="be">&c_r;&c_a;&c_sh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
     <trd lng="cs">&rcaron;e&scaron;en&iacute;</trd>
-    <trd lng="ru">&c_r;&c_je;&c_sh;&c_je;&c_n;&c_i;&c_je;<klr tip="amb"> (&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;, &#171;&c_r;&c_je;&c_sh;&c_a;&c_n;&c_i;&c_je;&#187;)</klr></trd>
+    <trd lng="ru">&c_r;&c_je;&c_sh;&c_je;&c_n;&c_i;&c_je;<klr tip="amb"> (&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;, «&c_r;&c_je;&c_sh;&c_a;&c_n;&c_i;&c_je;»)</klr></trd>
     <trd lng="sk">rie&scaron;enie</trd>
   </snc>
   <snc  mrk="solv.0ado.KEM">
@@ -482,6 +482,8 @@
       </ekz>
     </dif>
     <ref tip="sin" cel="solv.0o.KEM"><tld/>o<sncref/></ref>
+    <ref tip="super" cel="miks.0ajxo">miksa&jcirc;o</ref>
+    <ref tip="vid" cel="disper.0ajxo.KEM">dispersa&jcirc;o</ref>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_s;&c_t;&c_v;&c_o;&c_r;</trd>
   <trd lng="de">L&ouml;sung</trd>
@@ -663,22 +665,38 @@
     <uzo tip="fak">POL</uzo>
     <uzo tip="stl">EVI</uzo>
     <subsnc mrk="solv.dis0i.eksigi">
-      <ref tip="dif" cel="eks.0igi.POL">eksigi<sncref/></ref>
-      <ekz>
-        la prezidanto eldiris ultimaton por la registaro pro reformoj
-        kaj minacis aliokaze dis<tld/>i la parlamenton
-        <fnt><aut>Stefan MAUL</aut>: <vrk>Nova mizero</vrk>.
-          <bib>Monato</bib></fnt>.
-      </ekz>
+      <dif>
+        <ref tip="dif" cel="eks.0igi.POL">Eksigi<sncref/></ref>:
+        <ekz>
+          la prezidanto eldiris ultimaton por la registaro pro reformoj
+          kaj minacis aliokaze dis<tld/>i la parlamenton
+          <fnt><aut>Stefan MAUL</aut>: <vrk>Nova mizero</vrk>.
+            <bib>Monato</bib></fnt>.
+        </ekz>
+      </dif>
     </subsnc>
     <subsnc mrk="solv.dis0i.malfondi">
-      <ref tip="dif" cel="fond.mal0i.POL">malfondi</ref>
-      <ekz>
-        Por &scirc;an&gcirc;i la Statuton a&ubreve; dis<tld/>i la Ligon necesis tri
-        kvaronoj de la esprimitaj vo&ccirc;oj
-        <fnt><vrk>Esperanto en perspektivo</vrk>. <lok>1974. P. 574.</lok></fnt>.
-      </ekz>
+      <dif>
+        <ref tip="dif" cel="fond.mal0i.POL">Malfondi</ref>:
+        <ekz>
+          por &scirc;an&gcirc;i la Statuton a&ubreve; dis<tld/>i la Ligon necesis tri
+          kvaronoj de la esprimitaj vo&ccirc;oj
+          <fnt><vrk>Esperanto en perspektivo</vrk>. <lok>1974. P. 574.</lok></fnt>.
+        </ekz>
+      </dif>
     </subsnc>
+
+
+
+
+
+
+
+
+
+
+
+
     <rim>
       &Ccirc;i tiu nelogika pa&ubreve;sa&jcirc;o de la politikaj terminoj angla-francaj
       estas nederivebla el la signifoj de la radiko kaj nekomprenebla
@@ -798,6 +816,9 @@
 </art>
   <!--
   $Log$
+versio 1.111 2023/05/04 17:24:59
+Wolfram Diestel: +ref-oj
+
 versio 1.110 2023/04/11 18:56:02
 aktualigo Monato-URL
 
@@ -817,8 +838,5 @@ versio 1.105 2022/07/07 18:36:53
 Wolfram Diestel: ~a&jcirc;o: +ekz-oj
 
 versio 1.104 2022/07/07 17:36:09
-Wolfram Diestel: ~i: +ekz-oj, ref
-
-versio 1.103 2022/05/05 14:43:48
 -->
 </vortaro>
