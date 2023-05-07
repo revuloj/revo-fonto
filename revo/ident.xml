@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: ident.xml,v 1.42 2023/05/06 14:26:00 revo Exp $">
+<art mrk="$Id: ident.xml,v 1.43 2023/05/07 06:30:55 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>ident</rad>/a
@@ -27,11 +27,14 @@
         &ccirc;iutage oni vidas du individuojn, kiuj havas nenion komunan, kaj tamen kiuj
         prezentas fizionomion kaj skribmanieron preska&ubreve; <tld/>ajn
         <fnt><bib>ChL</bib> <lok>&Ccirc;apitro Sesa</lok></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <!--ekz>
         la rakonto farita de la patro konformi&gcirc;as la&ubreve; tute <tld/>a maniero kun la
         rakonto prezentita de la filo
         <fnt><bib>ChL</bib> <lok>&Ccirc;apitro Na&ubreve;a</lok></fnt>;
-      </ekz><ekz>
+        (fu&scirc;a ekzemplo: maniero <tld/>a kun kio? - Sergio)
+      </ekz-->
+      <ekz>
         se tia vorto kiel ekzemple &leftquot;redaktejo&rightquot;, estus tute <tld/>a
         <klr>(la&ubreve; signifo)</klr> kun la vorto &leftquot;redakcio&rightquot; kaj povus &gcirc;in
         perfekte anstata&ubreve;i, certe neniu el ni plendus, se la vorto
@@ -316,16 +319,10 @@
       <ekz>
         &ccirc;u tiu malfeli&ccirc;ulo ne portas sur si paperojn, kiuj povus al ni konigi lian
         <tld/>econ
-        <fnt>
-          <bib>ChL</bib>
-          <lok>&Ccirc;apitro Kvara</lok>
-        </fnt>;
+        <fnt><bib>ChL</bib> <lok>&Ccirc;apitro Kvara</lok></fnt>;
       </ekz><ekz>
         li ne konjektis, ke lia <tld/>eco estas protestebla kaj estos protestita
-        <fnt>
-          <bib>KPr</bib>
-          <lok>&Ccirc;apitro Dekoka</lok>
-        </fnt>.
+        <fnt><bib>KPr</bib> <lok>&Ccirc;apitro Dekoka</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -344,8 +341,7 @@
     <trd lng="de">Identit&auml;t</trd>
     <trd lng="en">identity<klr> (the fact of who a person is)</klr></trd>
     <trd lng="es">identidad<klr tip="ind"> (subst.)</klr></trd>
-    <trd lng="fr">identit&eacute;<klr tip="ind"> (d'une
-    personne)</klr></trd>
+    <trd lng="fr">identit&eacute;<klr tip="ind"> (d'une personne)</klr></trd>
     <trd lng="hu">szem&eacute;lyazonoss&aacute;g</trd>
     <trd lng="nl">identiteit</trd>
     <trd lng="pt">identidade<klr tip="ind"> (subst.)</klr></trd>
@@ -394,7 +390,11 @@
       <ref cel="trajt.0aro">trajtaro</ref>
     </refgrp>
     <trd lng="be">&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
-  <trd lng="en">identity<klr> (set of characteristics)</klr></trd>
+    <trd lng="en">identity<klr> (set of characteristics)</klr></trd>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_a;&c_m;&c_o;&c_b;&c_y;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
+      <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </trdgrp>
   </snc>
   <trd lng="bo">&t_nga;&t_naro;&t_tsheg;&t_sa;&t_pata;&t_rata;&t_naro;&t_da;&t_tsheg;</trd>
   <trdgrp lng="cs">
@@ -452,14 +452,84 @@
   <snc mrk="ident.0igi.rekoni">
     <dif>
       <ref tip="dif" cel="kon.re0i.retrovi">Rekoni<sncref/></ref>
-      iun a&ubreve; ion:
+      iun a&ubreve; ion,
+      <ref tip="sub" cel="sci.ek0i">ekscii</ref> kio estas iu a&ubreve; io:
       <ekz>
-        <tld/>igi krimulon, kadavron;
-      </ekz><ekz>
         <tld/>igi antikvan loknomon
         <klr>(trovi la respondan nomon nunan)</klr>.
       </ekz>
     </dif>
+    <subsnc mrk="ident.0igi.JUR">
+      <uzo tip="fak">JUR</uzo>
+      <dif>
+        Ekscii a&ubreve; pruvi <ref cel="ident.0eco.JUR"><tld/>econ</ref> de iu:
+        <ekz>
+          <tld/>igi krimulon, kadavron;
+        </ekz><ekz>
+          La registaro decidis starigi komisionon por trovi &ccirc;iujn
+          tombejojn kaj <tld/>igi la viktimojn
+          <fnt><aut>Bardhyl SELIMI</aut>: <vrk>Sekretoj eltombigitaj</vrk>
+            <bib>Monato</bib></fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="ru">
+        <trd>&c_o;&c_p;&c_o;&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_i;&c_t;&c_mol; &c_l;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="ident.0igi.SCI">
+      <uzo tip="fak">SCI</uzo>
+      <dif>
+        Klasi ion a&ubreve; iun:
+        <ekz>
+          Esploristoj de la universitato Tulane en Usono sukcese
+          <tld/>igis novan specion de malgranda &scirc;arko, kiu &ccirc;asas iom
+          nekutime
+          <fnt><aut>Julius HAUSER</aut>: <vrk>Memluma &scirc;arketo</vrk>
+            <bib>Monato</bib>, <lok>&#8470;012533</lok></fnt>;
+        </ekz><ekz>
+          iom pli ol 8000 linioj de la diserta&jcirc;o (el 16325) estis
+          <tld/>igitaj kiel plagiata&jcirc;oj
+          <fnt><aut>Reinhard FOESSMEIER</aut>:
+            <vrk>PLAGIATO. Fino de ministreco: kroniko</vrk>.
+            <bib>Monato</bib></fnt>;
+        </ekz><ekz>
+          kultura statuso, kiu <tld/>igas lin kun grupo da kiun la
+          amaso ne komprenas
+            <fnt>
+              <aut>Humphrey Tonkin</aut>:
+              <vrk>Shakespeare &mdash; interlingvisto</vrk>,
+              <lok><url
+ ref="http://ourworld.compuserve.com/homepages/profcon/m_shake.htm"
+                  >En: De A al B: Festlibro por Andr&eacute; Albault.
+                Saarbr&uuml;cken: Iltis></url></lok>
+            </fnt>;
+        </ekz>
+      </dif>
+      <trdgrp lng="ru">
+        <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_k;&c_l;&c_a;&c_s;&c_s;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="ident.0igi.apartigi">
+      <dif>
+        Apartigi per esploro kaj analizo:
+        <ekz>
+          Tamen, la proponoj kaj sugestoj de PAG sukcesas <tld/>igi
+          interesan problemaron
+          <fnt>
+            <aut>Jouko Lindstedt</aut>:
+            <vrk><url ref="http://www.helsinki.fi/~jslindst/pag_rec.html"
+                      >Recenzo de Plena Analiza Gramatiko</url></vrk>
+            </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="ru">
+        <trd>&c_v;&c_y;&c_d;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>,
+        <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+      </trdgrp>
+    </subsnc>
     <trdgrp lng="be">
       <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_a;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -468,11 +538,6 @@
     <trd lng="es">identificar</trd>
     <trd lng="nl">identificeren</trd>
     <trd lng="pt">identificar</trd>
-    <trdgrp lng="ru">
-      <trd>&c_o;&c_p;&c_o;&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>,
-      <trd>&c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_i;&c_t;&c_mol; &c_l;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
-      <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-    </trdgrp>
   </snc>
   <trd lng="bg">&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_a;&c_n;&c_je;</trd>
   <trdgrp lng="cs">
@@ -614,6 +679,9 @@
 </art>
   <!--
   $Log$
+versio 1.43 2023/05/07 06:30:55
+Sergio Pokrovskij: ~igi subsnc
+
 versio 1.42 2023/05/06 14:26:00
 Sergio Pokrovskij: for Rabistoj-ekz; + aliaj ekz
 
@@ -633,8 +701,5 @@ versio 1.37 2023/05/02 06:29:14
 Wolfram Diestel: ~a..~eco: +ekz-oj; ~o, ~eco: ioma koherigo de dif
 
 versio 1.36 2023/05/01 19:19:21
-Wolfram Diestel: +ref
-
-versio 1.35 2023/05/01 16:31:05
 -->
 </vortaro>
