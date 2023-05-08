@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: metod.xml,v 1.109 2023/05/08 06:29:49 revo Exp $">
+<art mrk="$Id: metod.xml,v 1.110 2023/05/08 20:24:24 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>metod</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,7 +10,7 @@
   <kap><tld/>o</kap>
   <snc mrk="metod.0o.KLA">
     <dif>
-      Sisteme pripensita maniero procedi por atingi difinitan
+      Sisteme pripensita <ref tip="super" cel="manier.0o">maniero</ref> procedi por atingi difinitan
       celon:
       <ekz>
         in&gcirc;enieroj alportis projektojn de novaj <tld/>oj de l' irigacio
@@ -80,42 +80,6 @@
         praktika, logika, scienca <tld/>o;
       </ekz>
       <ekz>
-        instru<tld/>o
-        <fnt><aut>Pejno Simono</aut>,
-        <vrk><url ref="&Monato;/2000/006942.php">Porke la kesto sciu pri digipetroj kaj
-        sizopoj!</url></vrk>,
-        <bib>Monato</bib>,
-        <lok>2000/09, p. 23</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        kurac-<tld/>o
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Stefan Maul</aut>
-          <vrk><url ref="&Monato;/2003/008129.html">Propagando dan&gcirc;era</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        labor<tld/>o
-        <fnt>
-          <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Monato;/2000/007052.php">Verda
-          nature, science, socie</url></vrk>
-          <bib>Monato</bib>
-          <lok>2000/08, p. 8</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        produkto<tld/>o
-        <fnt>
-	<aut>Guido van Damme</aut>
-	<vrk><url ref="&Monato;/2001/007272.php">Reen al la edena paradizo</url></vrk>
-	<bib>Monato</bib>
-	<lok>2001/02, p. 20</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
         <uzo tip="fak">KOMP</uzo>
         <klr>[la&ubreve;]</klr> &ccirc;i tiu <ind>enig<tld/>o</ind> mi tajpas la esperantajn literojn per anta&ubreve;a
         punktokomo: ;c = &ccirc;, ;u = &ubreve;, ktp
@@ -128,11 +92,32 @@
         </fnt>.
         <trd lng="de">Eingabemethode</trd>
       </ekz>
-    </dif>
-    <ref tip="super" cel="manier.0o">maniero</ref>
+    </dif>    
     <ref tip="malprt" cel="sistem.0o">sistemo</ref>
-    <ref tip="sub" cel="algor.0o">algoritmo</ref>
-    <ref tip="vid" cel="rimed.0o">rimedo</ref>
+    <refgrp tip="sub">
+      <ref cel="algor.0o">algoritmo</ref>,
+      <ref cel="proced.0o.agmaniero">procedo<sncref/></ref>      
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="ir.al0o.FIG">aliro<sncref/></ref>,
+      <ref cel="rimed.0o">rimedo</ref>,
+      <ref cel="tehxnik.0o">te&hcirc;niko</ref>,
+      <ref cel="voj.0o.FIG_rimedo">vojo<sncref/></ref>
+    </refgrp>
+  </snc>
+  <snc mrk="metod.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Funkcio a&ubreve; proceduro de objekto:
+      <ekz>
+        objektoj enhavas datumon pri si mem kaj <tld/>ojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=51042"
+              >Objekto (komputiko)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="af">metode</trd>
   <trd lng="am">&#4824;&#4852;</trd>
@@ -327,7 +312,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="skol.0o">skolo</ref>
+    <refgrp tip="vid">
+      <ref cel="paradi.0o.SCI">paradigmo<sncref/></ref>,
+      <ref cel="skol.0o">skolo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_m;&c_e;&c_t;&c_o;&c_d;&c_y;&c_k;&c_a;</trd>
   <trd lng="ca">metodologia</trd>
@@ -453,6 +441,55 @@
   <trd lng="uk">&c_m;&c_je;&c_t;&c_o;&c_d;&c_i;&c_s;&c_t;</trd>
 </drv>
 
+<drv mrk="metod.instru0o">
+  <kap>
+    instru<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="M"/>o la&ubreve; kiu oni instruas:
+      <ekz>
+        e&ccirc; la plej modernaj instru<tld/>oj donas nur tre modestajn rezultojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nova &scirc;atata instru<tld/>o lastatempe fari&gcirc;is la &leftquot;programita kurso&rightquot; de 
+        <nom>Hermann Behrmann</nom>
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Andreo <nom>Cseh</nom> <klr>[&#8230;]</klr> en printempo 1920 ellaboris sian faman instru<tld/>on
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la instru<tld/>o ne trudu la studon
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Sep</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="didakt.0o">didaktiko</ref>,
+      <ref cel="pedago1.0o">pedagogio</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">Lehrmethode</trd>
+</drv>
+
+
+
+
+
 <drv mrk="metod.kuir0o">
   <kap>
     kuir<tld/>o
@@ -479,6 +516,162 @@
   <trd lng="de">Zubereitungsart</trd>
 </drv>
 
+<drv mrk="metod.kurac0o">
+  <kap>
+    kurac<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="M"/>o la&ubreve; kiu oni kuracas:
+      <ekz>
+        &scirc;i deklaris, ke en mian kurac<tld/>on ver&scirc;ajne en&scirc;ovi&gcirc;is eraro, &ccirc;ar de kiam ni
+        tiel eksperimentas, mia stato <klr>[malboni&gcirc;is]</klr>
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Sepa &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        popolaj kurac<tld/>oj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 10 (60)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kurac<tld/>oj prisilentataj de la oficiala medicino
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmond Lamalrev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009644.php"
+              >&Jcirc;urnalistoj ne timigu</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>      
+    </dif>
+  </snc>
+  <trd lng="de">Heilmethode</trd>
+</drv>
+
+
+
+
+
+
+
+
+
+
+
+<drv mrk="metod.labor0o">
+  <kap>
+    labor<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="M"/>o la&ubreve; kiu oni laboras:
+      <ekz>
+        ne nur pro sia medikonscia labor<tld/>o la asocio malsimilas aliajn, tradiciajn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007052.html"
+              >Verda nature, science, socie</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        levi&gcirc;as neniu vo&ccirc;o kontra&ubreve; la labor<tld/>oj kaj laboriloj de la esperanta
+        terminografio, ankora&ubreve; tro posti&gcirc;intaj rilate al tiuj de naciaj lingvoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Reinaldo Marcelo Ferreira</aut>
+          <vrk><url ref="https://www.monato.be/2005/008650.php"
+              >Por pli kompleta lingvo</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li kritikadas sin mem, analizas siajn labor<tld/>on, kialojn kaj kielojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Raita Pyh&auml;l&auml;</aut>
+          <vrk><url ref="https://www.monato.be/2005/008685.php"
+              >Kesto de viveroj</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li enkondukis novajn labor<tld/>ojn de produktado (&ccirc;enstablo ktp), kiuj altigis
+        la produktivecon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2012/010830.php"
+              >Tom&aacute;&scaron; Ba&tcaron;a, re&gcirc;o de la &scirc;uistoj</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Arbeitsmethode</trd>
+</drv>
+
+<drv mrk="metod.produkt0o">
+  <kap>
+    produkt<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="M"/>o la&ubreve; kiu oni produktas varojn:
+      <ekz>
+        la tuta historio de la homaro estas, esence, historio de transpasado al pli
+        altaj produkto<tld/>oj surbaze de novaj, &ccirc;iam pli ta&ubreve;gaj produktiloj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nepre necesas altigi la produktadon de man&gcirc;a&jcirc;oj per novaj produkto<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2008/009511.php"
+              >Man&gcirc;i estos pli koste</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne temas pri absolute biologia produkto<tld/>o, tamen la intenco estas malpliigi
+        la uzon de kemiaj rikoltprotektiloj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007272.html"
+              >Reen al la edena paradizo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Herstellungsmethode</trd>
+</drv>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -489,6 +682,9 @@
 </art>
 <!--
 $Log$
+versio 1.110 2023/05/08 20:24:24
+Wolfram Diestel: +ekz-oj, snc KOMP, ref-oj; +drv-oj *~o
+
 versio 1.109 2023/05/08 06:29:49
 Wolfram Diestel: +kuir~o
 
@@ -507,8 +703,5 @@ aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.26 2021/04/29 07:50:11
 Dmitri Gabinski: +trd be
-
-Revision 1.24  2019/06/30 07:42:48  revo
-adaptis URL de Monato
 -->
 </vortaro>
