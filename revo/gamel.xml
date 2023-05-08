@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gamel.xml,v 1.18 2022/03/19 13:55:50 revo Exp $">
+<art mrk="$Id: gamel.xml,v 1.19 2023/05/08 06:29:50 revo Exp $">
 <kap>
   <rad>gamel</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="gamel.0o">
   <kap><tld/>o</kap>
@@ -11,27 +12,52 @@
     <uzo tip="fak">MAR</uzo>
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Soldata a&ubreve; &scirc;ipana man&gcirc;ovazo ordinare metala:
+      Soldata a&ubreve; &scirc;ipana man&gcirc;o<ref tip="super" cel="vaz.0o">vazo</ref> ordinare metala:
       <ekz>
         unutone tintas <tld/>o, kro&ccirc;ita al dorsosako
         <fnt>
-        <aut>Vladimir Glazunov</aut>,
-        <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/Cxarmo.html">La
-        &ccirc;armo de &Ccirc;ielmontaro</url></vrk>,
-        <lok>Fonto, numero 37a</lok>
+          <aut>Vladimir Glazunov</aut>,
+          <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/Cxarmo.html">La
+          &ccirc;armo de &Ccirc;ielmontaro</url></vrk>,
+          <lok>Fonto, numero 37a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi devis purigi la <tld/>ojn, do la klabitajn lavpelvojn, en kiuj oni alportis
+        la man&gcirc;on el la kuirejo
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la poto enhavis <tld/>ojn, kiuj dividis la spacon kaj entenis la diversajn
+        man&gcirc;a&jcirc;ojn
+        <fnt>
+          <bib>KrM</bib>
+          <lok>3. Ne Gutas Mielo El La &Ccirc;ielo.</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="super" cel="mangx.0ilo">man&gcirc;ilo</ref>
+    <refgrp tip="vid">
+      <ref cel="pot.0o">poto</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_c;&c_ja;&c_l;&c_o;&c_k; <klr>(&c_n;&c_a;&c_p;&c_r;., &c_zh;&c_a;&c_w;&c_n;&c_je;&c_r;&c_a;)</klr></trd>
   <trd lng="ca">carmanyola</trd>
   <trdgrp lng="cs">
-    <trd>e&#x161;us</trd>,
-    <trd>j&#xED;del. miska</trd>,
-    <trd>spole&#x10D;n&#xE1; m&#xED;sa</trd>,
-    <trd>&#x161;&#xE1;lek</trd>
+    <trd>e&scaron;us</trd>,
+    <trd>j&iacute;del. miska</trd>,
+    <trd>spole&ccaron;n&aacute; m&iacute;sa</trd>,
+    <trd>&scaron;&aacute;lek</trd>
   </trdgrp>
-  <trd lng="de">Essgeschirr</trd>
+  <trdgrp lng="de">
+    <trd>Essgeschirr</trd>,
+    <trd>Kochgeschirr</trd>,
+    <trd>Gamelle</trd>,
+    <trd>Blechnapf</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>billy can</trd>,
     <trd>dixie</trd>,
@@ -52,14 +78,17 @@
   <trd lng="pt">marmita</trd>
   <trd lng="ru">&c_k;&c_o;&c_t;&c_je;&c_l;&c_o;&c_k;<klr> (&c_p;&c_o;&c_h;&c_o;&c_d;&c_n;&c_a;&c_ja; &c_p;&c_o;&c_s;&c_u;&c_d;&c_a;)</klr></trd>
   <trdgrp lng="sk">
-    <trd>e&#x161;us</trd>,
-    <trd>vojensk&#xE1; &#x161;&#xE1;lka</trd>
+    <trd>e&scaron;us</trd>,
+    <trd>vojensk&aacute; &scaron;&aacute;lka</trd>
   </trdgrp>
-  <trd lng="uk">&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43E;&#x43A;&#xA0;(&#x43F;&#x43E;&#x445;&#x456;&#x434;&#x43D;&#x438;&#x439;)</trd>
+  <trd lng="uk">&c_k;&c_a;&c_z;&c_a;&c_n;&c_o;&c_k;&nbsp;(&c_p;&c_o;&c_h;&c_ib;&c_d;&c_n;&c_i;&c_j;)</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2023/05/08 06:29:50
+Wolfram Diestel: +ekz-oj, ref, trd de
+
 Revision 1.16  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -79,11 +108,5 @@ Revision 1.11 2005/04/19 16:31:17 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10 2003/10/28 17:30:56 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9 2001/12/11 18:23:20 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.8 2001/05/22 18:14:06 revo
 -->
 </vortaro>
