@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: om.xml,v 1.30 2022/04/07 07:29:16 revo Exp $">
+<art mrk="$Id: om.xml,v 1.31 2023/05/10 01:40:27 revo Exp $">
 <kap>
   <rad>Om</rad>/o
 </kap>
@@ -24,6 +24,7 @@
   <trd lng="be">&c_O;&c_m; <klr>(&c_n;&c_ja;&c_m;&c_je;&c_c;&c_k;&c_ib; &c_f;&c_ib;&c_z;&c_y;&c_k;)</klr></trd>
   <trd lng="ca">Ohm</trd>
   <trd lng="cs">G.S. Ohm</trd>
+  <trd lng="en">Ohm<klr> (Georg Simon)</klr></trd>
   <trd lng="fr">Ohm</trd>
   <trd lng="hu">Georg Simon <ind>Ohm</ind></trd>
   <trd lng="id">Ohm</trd>
@@ -58,6 +59,7 @@
   <trd lng="ca">ohm</trd>
   <trd lng="cs">G.S. Ohm</trd>
   <trd lng="de">Ohm</trd>
+  <trd lng="en">ohm</trd>
   <trd lng="fr">ohm</trd>
   <trd lng="hu">ohm</trd>
   <trd lng="id">ohm</trd>
@@ -68,7 +70,7 @@
   <trd lng="ru">&c_o;&c_m;</trd>
   <trd lng="sk">G.S. Ohm</trd>
   <trd lng="sv">ohm</trd>
-  <trd lng="uk">&#x41E;&#x43C; (&c_f;&c_ib;&c_z;&c_i;&#x43A;)</trd>
+  <trd lng="uk">&c_O;&c_m; (&c_f;&c_ib;&c_z;&c_i;&c_k;)</trd>
 </drv>
 
 <drv mrk="om.o0metro">
@@ -95,23 +97,48 @@
       kio estas evitinda pro homonimeco kaj aparte &ccirc;ar <tld lit="o"/>o estas mezurunuo kaj
       ne fizika grando.
     </rim>
+    <trd lng="be">&c_o;&c_m;&c_a;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
+    <trd lng="ca"><ind>ohm</ind> metre</trd>
+    <trdgrp lng="de">
+      <trd>Widerstandsmessger&auml;t</trd>,
+      <trd>Ohmmeter</trd>
+    </trdgrp>
+    <trd lng="en">ohm-meter<klr> (unit of measure)</klr></trd>
+    <trd lng="fr">ohm-m&egrave;tre<klr tip="ind">
+    (unit&eacute; de mesure)</klr></trd>
+    <trd lng="id">ohm-meter</trd>
+    <trd lng="it"><ind>ohm</ind> per metro</trd>
+    <trd lng="nl">ohm-meter</trd>
+    <trd lng="pl">omometr</trd>
   </snc>
-  <trd lng="be">&c_o;&c_m;&c_a;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
-  <trd lng="ca"><ind>ohm</ind> metre</trd>
-  <trdgrp lng="de">
-    <trd>Widerstandsmessger&auml;t</trd>,
-    <trd>Ohmmeter</trd>
-  </trdgrp>
-  <trd lng="fr">ohm-m&egrave;tre<klr tip="ind">
-  (unit&eacute; de mesure)</klr></trd>
-  <trd lng="id">ohm-meter</trd>
-  <trd lng="it"><ind>ohm</ind> per metro</trd>
-  <trd lng="nl">ohm-meter</trd>
-  <trd lng="pl">omometr</trd>
+  <snc mrk="om.o0metro.EVI">
+    <uzo tip="klr">(evitinda)</uzo>
+    <dif>
+      Instrumento por mezuri <ref tip="super" cel="rezistanc.0o.ELE">rezistancion</ref>:
+      <ekz>
+        <tld lit="o"/>ometro estas cifereca a&ubreve; analoga mezurilo de rezistanco en elektraj cirkvitoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/w/index.php?title=Omometro&amp;oldid=7275214"
+              >Omometro</url></lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <rim>
+      Oni uzu &leftquot;mezurilo de rezistancio&rightquot;,
+      &ccirc;ar &leftquot;ommetro&rightquot; kaj &leftquot;omometro&rightquot; estas evitindaj pro homonimeco kun la mezurunuo.
+    </rim>
+    <trd lng="de">Widerstandsmessger&auml;t</trd>
+    <trd lng="en">ohmmeter</trd>
+    <trd lng="fr">ohmm&egrave;tre</trd>
+  </snc>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2023/05/10 01:40:27
+Robert Baruch: +snc: mezurilo (evitinda)
+
 versio 1.30 2022/04/07 07:29:16
 Dmitri Gabinski: + trd be
 
@@ -131,8 +158,5 @@ Revision 1.23  2012/10/23 00:13:14  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.22  2012/08/04 08:10:46  revo
-Marc Rausell: + trd ca
-
-Revision 1.21  2009/12/09 17:30:39  revo
 -->
 </vortaro>
