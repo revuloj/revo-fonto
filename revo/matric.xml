@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: matric.xml,v 1.44 2023/05/01 12:41:37 revo Exp $">
+<art mrk="$Id: matric.xml,v 1.45 2023/05/11 09:25:21 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>matric</rad>/o
   <fnt><bib>PV</bib></fnt>
@@ -97,7 +97,7 @@
       <ekz>
         en lineara algebro, determinanto estas funkcio kiu asociigas 
         skalaron <frm am="det(A)"><k>det</k>(<k>A</k>)</frm> al &ccirc;iu
-        <frm am="n xx n"><k>n</k>×<k>n</k></frm> kvadrata <tld/>o
+        <frm am="n xx n"><k>n</k>&#215;<k>n</k></frm> kvadrata <tld/>o
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=87309">Determinanto</url></lok>
@@ -177,6 +177,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_u;&c_t;&c_v;&c_a;&c_r;&c_a;&c_c;&c_mol; <ind>&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_u;</ind></trd>
   <trdgrp lng="de">
     <trd>eine Matrix bilden</trd>,
     <trd>eine Matrix formen</trd>
@@ -194,7 +195,7 @@
       <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
       <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb             K"><g>K</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm am="bb I xx bb J"><g>I</g>×<g>J</g></frm> al 
+      <frm am="bb I xx bb J"><g>I</g>&#215;<g>J</g></frm> al 
       <frm am="bb K"><g>K</g></frm>, kie
       <frm am="bb I={1,2,...,n}"><g>I</g> = {1, 2,..., <k>n</k>}</frm>
       kaj
@@ -203,7 +204,7 @@
         <tld/>on <frm am="A">A</frm> oni kutime signas kiel
         <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e.
         per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb        
-        J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>×<g>J</g></sub></frm>,
+        J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>&#215;<g>J</g></sub></frm>,
         kie <frm am="a_(ij)">a<sub><k>i</k><k>j</k></sub></frm> signas
         la bildon de
         <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> per <frm am="A">A</frm> kaj estas nomata
@@ -215,7 +216,7 @@
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>o oni nomas
         ties dimensioj kaj signas ilin per skriba&jcirc;o de la tipo
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm> a&ubreve;
-        <frm am="n xx p"><k>n</k>×<k>p</k></frm>;
+        <frm am="n xx p"><k>n</k>&#215;<k>p</k></frm>;
       </ekz>
       <ekz>
         eblas prezenti al si <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>on
@@ -281,12 +282,13 @@
   <bld lok="../bld/matric.gif">
     (n,p)-<tld/>o
   </bld>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a; &c_p;&c_a;&c_m;&c_je;&c_r;&c_a;&c_m; n&#215;p</trd>
   <trd lng="de">(n,p)-<ind>Matrix</ind></trd>
   <trd lng="en">n-by-p <ind>matrix</ind></trd>
-  <trd lng="fr">matrice n×p</trd>
-  <trd lng="hu">n×p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
-  <trd lng="pl">macierz n×p</trd>
-  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n×p</trd>
+  <trd lng="fr">matrice n&#215;p</trd>
+  <trd lng="hu">n&#215;p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
+  <trd lng="pl">macierz n&#215;p</trd>
+  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n&#215;p</trd>
 </drv>
 
 <drv mrk="matric.nul0o">
@@ -305,6 +307,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_u;&c_l;&c_mol;-&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a;</trd>
   <trd lng="de">Nullmatrix</trd>
   <trd lng="en">null <ind>matrix</ind></trd>
   <trd lng="fr">matrice nulle</trd>
@@ -352,6 +355,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a;</trd>
   <trd lng="cs">submatice</trd>
   <trd lng="de">Untermatrix</trd>
   <trd lng="en">submatrix</trd>
@@ -380,6 +384,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a; &c_a;&c_d;&c_z;&c_ib;&c_n;&c_k;&c_a;&c_v;&c_a;&c_ja;</trd>
   <trd lng="de">Einheitsmatrix</trd>
   <trd lng="en">unit <ind>matrix</ind></trd>
   <trd lng="fr">matrice unit&eacute;</trd>
@@ -483,6 +488,9 @@
 </art>
 <!--
 $Log$
+versio 1.45 2023/05/11 09:25:21
+Dmitri Gabinski: + trd be
+
 versio 1.44 2023/05/01 12:41:37
 Christian Siefkes: +trd de, en
 
@@ -502,8 +510,5 @@ Revision 1.38  2020/02/15 17:10:34  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.37  2020/02/14 23:10:47  revo
-Wolfram Diestel: formuloj per am
-
-Revision 1.36  2019/06/30 18:21:47  revo
 -->
 </vortaro>
