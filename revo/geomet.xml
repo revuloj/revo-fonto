@@ -1,31 +1,39 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: geomet.xml,v 1.23 2022/03/19 16:47:06 revo Exp $">
-    <kap>
-      <ofc>7</ofc>
-      <rad>geometr</rad>/o <fnt><bib>PV</bib></fnt>
-    </kap>
-    <drv mrk="geomet.0o">
-      <kap>
-        <tld/>o
-      </kap>
-      <snc mrk="geomet.0o.sciencisto">
-        <ref tip="dif" cel="geomet1.0isto">geometriisto</ref>
-        <trdgrp lng="en">
-          <trd>geometer</trd>,
-          <trd>geometrician</trd>
-        </trdgrp>
-        <trd lng="hu">m&eacute;rtantud&oacute;s</trd>
-        <trd lng="nl">meetkundige</trd>
-        <trd lng="pt">ge&ocirc;metra</trd>
-        <trd lng="ru">&c_g;&c_je;&c_o;&c_m;&c_je;&c_t;&c_r;</trd>
-        <trd lng="tr">jeometre</trd>
-      </snc>
-      <snc mrk="geomet.0o.termezuristo">
-        <uzo tip="stl">ARK</uzo>
-        <dif>
-          = <ref tip="dif" cel="ter.0mezuristo">Termezuristo</ref>:
+<art mrk="$Id: geomet.xml,v 1.24 2023/05/13 07:20:36 revo Exp $">
+  <kap>
+    <ofc>7</ofc>
+    <rad>geometr</rad>/o <fnt><bib>PV</bib></fnt>
+  </kap>
+<drv mrk="geomet.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="geomet.0o.sciencisto">
+    <ref tip="dif" cel="geomet1.0isto">geometriisto</ref>
+    <trd lng="de">Geometriker</trd>
+    <trdgrp lng="en">
+      <trd>geometer</trd>,
+      <trd>geometrician</trd>
+    </trdgrp>
+    <trd lng="hu">m&eacute;rtantud&oacute;s</trd>
+    <trd lng="nl">meetkundige</trd>
+    <trd lng="pt">ge&ocirc;metra</trd>
+    <trd lng="ru">&c_g;&c_je;&c_o;&c_m;&c_je;&c_t;&c_r;</trd>
+    <trd lng="tr">jeometre</trd>
+  </snc>
+  <snc mrk="geomet.0o.termezuristo">
+    <dif>
+      <ref tip="dif" cel="ter.0mezuristo">Termezuristo</ref>:
+      <ekz>
+        Taleso <klr>[&#8230;]</klr> estis fama <tld/>o kaj filozofo
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Dek</lok>
+        </fnt>.
+      </ekz>
+<!-- la cita&jcirc;o estas pri ~isto...? ne pri ~o!
           <ekz>
             tuj post la tagman&gcirc;o venis la <tld/>isto &Scirc;midt kun
             lipharoj kaj pikradetoj &ccirc;e la botoj
@@ -33,48 +41,73 @@
               <aut>A. Pu&scirc;kin, tr. A. Grabowski</aut>:
               <vrk>La ne&gcirc;a blovado</vrk>.
               <lok>Jekaterinburg: Sezonoj, 1993.</lok>
-            </fnt>
+            </fnt>.
           </ekz>
-        </dif>
-        <trdgrp lng="de">
-          <trd>Landmesser</trd>,
-          <trd>Feldmesser</trd>,
-          <trd>Geod&auml;t</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>f&ouml;ldm&eacute;r&odblac;</trd>,
-          <trd>geod&eacute;ta</trd>
-        </trdgrp>
-        <trd lng="nl">landmeter</trd>
-      </snc>
-      <snc mrk="geomet.0o.genro">
-        <uzo tip="fak">ZOO</uzo>
-        <dif>
-          <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref tip="malprt" cel="geomet2.0oj"><tld/>edoj</ref>
-          (<trd lng="la">Geometra</trd>), nokta 
-          <ref tip="lst" cel="papili.0o" lst="voko:papilioj">papilio</ref>.
-        </dif>
-        <trdgrp lng="en">
-          <trd>geometer moths</trd>,
-          <trd>Geometra</trd>
-        </trdgrp>
-        <trd lng="hu">araszol&oacute;</trd>
-        <trd lng="nl">spanrups</trd>
-      </snc>
-      <trdgrp lng="fr">
-        <trd>g&eacute;om&egrave;tre<klr tip="ind"> (t.s.)</klr></trd>,
-        <trd>arpenteur</trd>,
-        <trd>chenille arpenteuse</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_p;&c_ja;&c_d;&c_je;&c_n;&c_i;&c_c;&c_a;</trd>,
-        <trd>&c_z;&c_je;&c_m;&c_l;&c_je;&c_m;&c_je;&c_r; <klr tip="amb">(&c_b;&c_a;&c_b;&c_o;&c_ch;&c_k;&c_a;)</klr></trd>
-      </trdgrp>
-      <trd lng="uk">&#x43F;&#x43B;&#x430;&#x43D;&#x456;&#x43C;&#x435;&#x442;&#x440;&#x456;&#x44F;</trd>
+-->
+    </dif>
+    <trdgrp lng="de">
+      <trd>Geometer</trd>,
+      <trd>Landmesser</trd>,
+      <trd>Feldmesser</trd>,
+      <trd>Geod&auml;t</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>f&ouml;ldm&eacute;r&odblac;</trd>,
+      <trd>geod&eacute;ta</trd>
+    </trdgrp>
+    <trd lng="nl">landmeter</trd>
+  </snc>
+  <snc mrk="geomet.0o.genro">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref> 
+      el familio <ref tip="malprt" cel="geomet2.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Geometra</trd>), nokta 
+      <ref tip="lst" cel="papili.0o" lst="voko:papilioj">papilio</ref>:
+      <ekz>
+        la ra&ubreve;poj el la familio de <tld/>oj movi&gcirc;as per alterna kuntiri&gcirc;o kaj etendi&gcirc;o kvaza&ubreve; la mano
+        de mezuristo mezuranta la&ubreve; spanoj.
+      </ekz>
+    </dif>
+    <bld
+      lok="&WCU;/thumb/0/09/Geometrid_caterpillar.jpg/600px-Geometrid_caterpillar.jpg"
+      prm="CC BY-SA 3.0"
+      >movi&gcirc;o de <tld/>a ra&ubreve;po
+        <fnt>
+          <aut>Keith Edkins</aut>
+          <lok><url ref="&WCW;/File:Geometrid_caterpillar.jpg"
+              >https://commons.wikimedia.org/wiki/File:Geometrid_caterpillar.jpg</url></lok>
+        </fnt>
+    </bld>
+    <trd lng="de">Spanner <klr>(Schmetterling)</klr></trd>
+    <trdgrp lng="en">
+      <trd>geometer moths</trd>,
+      <trd>Geometra</trd>
+    </trdgrp>
+    <trd lng="hu">araszol&oacute;</trd>
+    <trd lng="nl">spanrups</trd>
+  </snc>
+  <rim>
+    Oficialigita estas nur la senco de profesio, sed manke de difino a&ubreve; traduko en
+    <fnt><bib>OA7</bib></fnt>, ne estas klare kiu el amba&ubreve;.
+  </rim>
+  <trdgrp lng="fr">
+    <trd>g&eacute;om&egrave;tre<klr tip="ind"> (t.s.)</klr></trd>,
+    <trd>arpenteur</trd>,
+    <trd>chenille arpenteuse</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_ja;&c_d;&c_je;&c_n;&c_i;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_je;&c_m;&c_l;&c_je;&c_m;&c_je;&c_r; <klr tip="amb">(&c_b;&c_a;&c_b;&c_o;&c_ch;&c_k;&c_a;)</klr></trd>
+  </trdgrp>
+  <trd lng="uk">&c_p;&c_l;&c_a;&c_n;&c_ib;&c_m;&c_je;&c_t;&c_r;&c_ib;&c_ja;</trd>
 </drv>
   </art>
   <!--
   $Log$
+versio 1.24 2023/05/13 07:20:36
+Wolfram Diestel: +ekz-oj, trd de, bld, rim
+
   Revision 1.21  2013/10/07 15:11:04  revo
   Wolfram Diestel: ref la lst papilioj
 
@@ -94,27 +127,5 @@
   Sergio Pokrovskij: =termezuristo, stl=ARK, -trd=ru, -adm
 
   Revision 1.15  2002/07/02 17:32:18  revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.14  2001/12/24 19:28:49  revo
-  Paul Peeraerts: kor de propra fusho
-
-  Revision 1.13  2001/12/23 19:17:33  revo
-  Paul Peeraerts: ald trd nl
-
-  Revision 1.12  2001/11/21 17:39:13  revo
-  Yury Finkel: kor trd ru
-
-  Revision 1.11  2001/11/16 19:15:07  revo
-  Yury Finkel: +trd ru
-
-  Revision 1.10  2001/10/09 18:44:14  revo
-  Marc Bavant: +trd fr; ~o: -drv SCI (laux aliaj artikoloj); ~o
-  sciencisto:
-  -dif, +ref tip dif al geometriisto; ~o termezuristo: +adm
-
-  Revision 1.9  2001/05/27 18:18:14  revo
-  Ulrich Fellmann: + 3 germ trdj
-
-  -->
+-->
 </vortaro>
