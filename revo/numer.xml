@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: numer.xml,v 1.104 2022/12/02 09:27:14 revo Exp $">
+<art mrk="$Id: numer.xml,v 1.105 2023/05/14 04:29:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>numer</rad>/o
@@ -11,8 +11,7 @@
   <mlg>n-ro</mlg>
   <snc>
     <dif>
-      Cifero a&ubreve; nombro montranta la vicon de iu objekto inter
-      aliaj:
+      Cifero a&ubreve; nombro montranta la vicon de iu objekto inter aliaj:
       <ekz>
         <tld/>o de pa&gcirc;o, domo, telefono, bileto.
       </ekz>
@@ -27,8 +26,7 @@
       La objekto mem signita per iu <tld/>o:
       <ekz>
         <tld/>o de gazeto;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <ind>gajna <tld/>o</ind> de loterio<fnt>Z</fnt>.
         <trd lng="hu">nyer&odblac;sz&aacute;m</trd>
       </ekz>
@@ -183,16 +181,13 @@
     <dif>
       <klr>(p.p. <ref cel="ar.0o.MAT">aro</ref>)</klr>
       <ref cel="pov.sam0a.aroj">Sampova</ref>, kiel iu subaro de la aro
-      de
-      entjeroj:
+      de entjeroj:
       <ekz>
         finia aro estas <tld/>ebla;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la aro de racionaloj estas <tld/>ebla, la aro de reeloj ne
         estas;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <ref cel="spac.banahxa0o">bana&hcirc;a spaco</ref> povas havi
         <tld/>eblan dimension, nur se finidimensia.
       </ekz>
@@ -203,18 +198,13 @@
     </refgrp>
     <rim>
       Werner uzas por &ccirc;i tiu senco <ctl>nombrebla</ctl> (germane:
-      abz&auml;hlbar) &#8208; konforma al la nacilingvaj ekvivalentoj
-      &#8208;,
-      kiun li distingas disde <ctl><tld/>ebla</ctl> (germane:
-      numerierbar, malofta en faka kunteksto). Tamen niaj aliaj fontoj
-      mencias
-      nur <ctl><tld/>ebla</ctl> kaj ni preferis sekvi ilin. Notindas, ke
-      la
-      difino en <fnt><bib>EKV</bib><lok>&para;303</lok></fnt> postulas,
-      ke
-      nur
-      nefiniaj aroj povas esti <tld/>eblaj, sed malmultaj dividas tiun
-      &ccirc;i vidpunkton. Notu anka&ubreve;, ke Bricard
+      abz&auml;hlbar) &#8208; konforma al la nacilingvaj ekvivalentoj &#8208;, kiun li
+      distingas disde <ctl><tld/>ebla</ctl> (germane: numerierbar,
+      malofta en faka kunteksto). Tamen niaj aliaj fontoj mencias nur
+      <ctl><tld/>ebla</ctl> kaj ni preferis sekvi ilin. Notindas, ke
+      la difino en <fnt><bib>EKV</bib><lok>&para;303</lok></fnt> postulas,
+      ke nur nefiniaj aroj povas esti <tld/>eblaj, sed malmultaj
+      dividas tiun &ccirc;i vidpunkton. Notu anka&ubreve;, ke Bricard
       <fnt><bib>MatTerm</bib><lok>p. 18</lok></fnt> konas terminon
       <ctl>komputebla</ctl>, ver&scirc;ajne samsignifa.
     </rim>    
@@ -285,9 +275,48 @@
     <trd>num&abreve;rul de zero</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="numer.signo0o">
+  <kap>signo<tld/>o</kap>
+  <uzo tip="fak">KOMP</uzo>
+  <snc>
+    <dif>
+      En komputoscienco, nombro per kiu oni kodas
+      <ref cel="sign.0o.KOMP">signon<sncref/></ref> en
+      <ref cel="kod.0o.SCI">kodo<sncref/></ref>:
+      <ekz>
+        Oni akceptas la literojn <em>&ccirc;, &gcirc;, &hcirc;, &jcirc;, &scirc;, &ubreve;</em> kiel simplajn
+        signojn integrajn, kun la signo<tld/>oj &Ccirc;=264, &Gcirc;=284, &Hcirc;=292, <klr>&#8230;</klr>
+        <fnt><aut>S. Pokrovskij</aut>:
+          <vrk><url ref="https://lingvakritiko.com/2018/05/09/grafemo/"
+             >Grafemo</url></vrk>.
+          <lok>Lingva kritiko, 2018.</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <ref tip="super" cel="kod.0ero">kodero</ref>
+  <trdgrp lng="en">
+    <trd>code element</trd>,
+    <trd>code point</trd>,
+    <trd>code position</trd>
+  </trdgrp>
+    <trdgrp lng="fr">
+    <trd>&eacute;l&eacute;ment de <ind>code</ind></trd>,
+    <trd>mot-<ind>code</ind></trd>,
+    <trd>codet</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_k;&c_o;&c_d;&c_o;&c_v;&c_a;&c_ja; &c_k;&c_o;&c_m;&c_b;&c_i;&c_n;&c_a;&c_c;&c_i;&c_ja;</trd>,
+    <trd>&c_k;&c_o;&c_d;&c_o;&c_n;</trd>
+  </trdgrp>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.105 2023/05/14 04:29:17
+Sergio Pokrovskij: + signo~o
+
 versio 1.104 2022/12/02 09:27:14
 Dmitri Gabinski: + trd be
 
@@ -307,8 +336,5 @@ Revision 1.29  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.28  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2015/06/25 12:10:15  revo
 -->
 </vortaro>
