@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dank.xml,v 1.165 2023/05/12 08:29:50 revo Exp $">
+<art mrk="$Id: dank.xml,v 1.166 2023/05/14 09:21:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dank</rad>/i
@@ -386,7 +386,7 @@
     <trd>megk&ouml;sz&ouml;n&eacute;s</trd>
   </trdgrp>
   <trd lng="ig">na-ekele</trd>
-  <trd lng="is">&#254;akka</trd>
+  <trd lng="is">þakka</trd>
   <trd lng="ja">&#24863;&#35613;</trd>
   <trd lng="ka">&#4315;&#4304;&#4307;&#4314;&#4317;&#4305;&#4304;</trd>
   <trd lng="kk">&c_a;&c_l;&#1171;&c_y;&c_s; &c_a;&c_j;&c_t;&c_u;</trd>
@@ -397,7 +397,7 @@
   <trd lng="ky">&c_r;&c_a;&c_h;&c_m;&c_a;&c_t;</trd>
   <trd lng="lat">gratias</trd>
   <trd lng="lo">&#3714;&#3789;&#3714;&#3757;&#3738;&#3779;&#3720;</trd>
-  <trd lng="lt">a&ccaron;i&#5691;</trd>
+  <trd lng="lt">a&ccaron;i&umacron;</trd>
   <trd lng="lv">paldies</trd>
   <trd lng="mg">misaotra</trd>
   <trd lng="mi">whakawhetai</trd>
@@ -596,6 +596,7 @@
       <trd>&c_d;&c_z;&c_ja;&c_k;&c_u;&c_ju;&c_ch;&c_y;</trd>,
       <trd>&c_z; <ind>&c_u;&c_d;&c_z;&c_ja;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_ju;</ind></trd>
     </trdgrp>
+    <trd lng="de">dankbar</trd>
     <trd lng="es">con reconocimiento</trd>
     <trd lng="fr">avec reconnaissance</trd>
     <trd lng="he">&bet;&tav;&vav;&dalet;&he;</trd>
@@ -642,7 +643,11 @@
       <trd>&c_d;&c_z;&c_ja;&c_k;&c_u;&c_ju;&c_ch;&c_y;&#8230;</trd>,
       <trd>&c_z; <ind>&c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_g;&c_a;&c_j;</ind>&#8230;</trd>
     </trdgrp>
-    <trd lng="de">dank&#8230;</trd>
+    <trd lng="de">dank</trd>
+  <trdgrp lng="en">
+    <trd>thanks to</trd>,
+    <trd>because of</trd>
+  </trdgrp>
   </snc>
 </drv>
 
@@ -860,6 +865,10 @@
   </snc>
   <trd lng="be">&c_v;&c_a;&c_r;&c_t;&c_y; <ind>&c_p;&c_a;&c_d;&c_z;&c_ja;&c_k;&c_ib;</ind></trd>
   <trd lng="de">dankenswert</trd>
+<trdgrp lng="en">
+  <trd>deserving thanks</trd>,
+  <trd>thankworthy</trd>
+</trdgrp>
 </drv>
 
 
@@ -1057,6 +1066,11 @@
     <trd>&c_n;&c_ja;&c_w;&c_d;&c_z;&c_ja;&c_ch;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_n;&c_ja;&c_w;&c_d;&c_z;&c_ja;&c_ch;&c_n;&c_y; &c_ch;&c_a;&c_l;&c_a;&c_v;&c_je;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>undankbare Person</trd>,
+    <trd>undankbarer Mensch</trd>,
+    <trd>Undankbarer</trd>
+  </trdgrp>
   <trd lng="en">ingrate</trd>
   <trd lng="fr">ingrat<klr> (subst.)</klr></trd>
   <trd lng="pl">niewdzi&eogonek;cznik</trd>
@@ -1103,7 +1117,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Tirano ne diru, ke kuris de morto &#11005; Mi nur <tld/>' al mia anima malforto
+        Tirano ne diru, ke kuris de morto &parsl; Mi nur <tld/>' al mia anima malforto
         <fnt>
           <bib>FK</bib>
           <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
@@ -1167,7 +1181,10 @@
   <trd lng="br">a-drugarez da</trd>
   <trd lng="ca"><ind>gr&agrave;cies</ind> a</trd>
   <trd lng="de">dank<klr> [kun genitivo]</klr></trd>
-  <trd lng="en">thanks to</trd>
+  <trdgrp lng="en">
+    <trd>thanks to</trd>,
+    <trd>because of</trd>
+  </trdgrp>
   <trd lng="es"><ind>gracias</ind> a</trd>
   <trd lng="fr">gr&acirc;ce &agrave;</trd>
   <trdgrp lng="he">
@@ -1243,6 +1260,9 @@
 </art>
 <!--
 $Log$
+versio 1.166 2023/05/14 09:21:31
+Christian Siefkes: +trd de, en
+
 versio 1.165 2023/05/12 08:29:50
 Dmitri Gabinski: + trd be
 
@@ -1262,8 +1282,5 @@ versio 1.159 2022/11/09 18:38:26
 Wolfram Diestel: ~ofesto, ~otago movita al fest/ resp. tag/
 
 versio 1.158 2022/09/26 06:20:05
-Wolfram Diestel: +var mal~ulo; ~ al..sen~ulo: +ekz-oj
-
-versio 1.157 2022/09/25 20:33:16
 -->
 </vortaro>
