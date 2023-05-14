@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kod.xml,v 1.51 2023/05/14 03:25:41 revo Exp $">
+<art mrk="$Id: kod.xml,v 1.52 2023/05/14 05:27:19 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>kod</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -105,7 +105,7 @@
   </snc>
   <snc mrk="kod.0o.itajxo">
     <dif>
-      Grupo da signoj, identiganta ion la&ubreve; iu <tld/>o <sncref ref="kod.0o.SCI"/>:
+      Grupo da signoj, identiganta ion la&ubreve; iu <tld/>o<sncref ref="kod.0o.SCI"/>:
      <ekz>
         komizoj portos porteblajn skanilojn por legi stri<tld/>on, kiuj
         poste inter&scirc;an&gcirc;os 
@@ -257,7 +257,7 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="kod.0i.SCI">
     <dif>
-      Prezenti per <tld/>o <sncref ref="kod.0o.SCI"/>:
+      Prezenti per <tld/>o<sncref ref="kod.0o.SCI"/>:
       <ekz>
         <tld/>ita mesa&gcirc;o;
       </ekz><ekz>
@@ -325,13 +325,19 @@
   <snc mrk="kod.0ajxo.SCI">
     <uzo tip="fak">SCI</uzo>
     <dif>
-       Grupo da signoj, prezentanta koditan informon
+      Grupo da signoj, prezentanta koditan informon:
+      <ekz>
+        En ser&ccirc;esprimoj vi povas uzi diversajn specialajn <tld/>a&jcirc;ojn
+        <fnt><vrk><url ref="https://tekstaro.com/tekstaro.html"
+          >Tekstaro de Esperanto (Instrukcio)</url></vrk></fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="en">
     <trd>code</trd>,
     <trd>encoded message</trd>
   </trdgrp>
+  <trd lng="ru">&c_k;&c_o;&c_d;</trd>
 </drv>
       
 <drv mrk="kod.0ero">
@@ -340,7 +346,7 @@
   <fnt><bib>PIV2</bib></fnt>
   <snc mrk="kod.0ero.SCI">
     <dif>
-      En <tld/>o <sncref ref="kod.0o.SCI"/>,
+      En <tld/>o<sncref ref="kod.0o.SCI"/>,
       &ccirc;eno da signoj el <tld/>anta alfabeto (ekz-e punktoj kaj strekoj
       en Morsa <tld/>o, bitoj en komputilo) prezentanta signon el
       <tld/>ata alfabeto (ekz-e literon, signon interpunkcian ktp):
@@ -361,6 +367,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sub" cel="numer.signo0o">signonumero</ref>
     <rim>
       <ctl>Kodero</ctl> estas iom misgvida, &ccirc;ar la sufikso -er kutime
       indikas la plej simplan, atoman komponenton. Tial rilate al la
@@ -780,6 +787,9 @@
 </art>
 <!--
 $Log$
+versio 1.52 2023/05/14 05:27:19
+Sergio Pokrovskij: + ekz, TEZ
+
 versio 1.51 2023/05/14 03:25:41
 Sergio Pokrovskij: +ekz, +rim
 
@@ -799,8 +809,5 @@ versio 1.44 2021/06/18 09:32:34
 Dmitri Gabinski: + trd be
 
 versio 1.43 2021/05/23 19:13:33
-Wolfram Diestel: ref-hom
-
-Revision 1.41  2019/06/30 07:42:48  revo
 -->
 </vortaro>
