@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sign.xml,v 1.157 2023/05/15 02:43:31 revo Exp $">
+<art mrk="$Id: sign.xml,v 1.158 2023/05/15 04:29:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sign</rad>/o
@@ -178,7 +178,8 @@
     <uzo tip="klr">(fakula &jcirc;argono)</uzo>
     <dif>
       <klr>(de <ref cel="nombr.0o.MAT">nombro</ref>)</klr>
-      &Gcirc;ia eco esti <ref cel="poziti.0a.nombro">pozitiva</ref> a&ubreve;
+      <ref cel="sign.0umo.KOMP"><tld/>umo</ref>, la eco de nombro
+      esti <ref cel="poziti.0a.nombro">pozitiva</ref> a&ubreve;
       <ref cel="negati.0a.nombro">negativa</ref>:
       <ekz>
         pozitiva a&ubreve; plusa, negativa a&ubreve; minusa <tld/>o de variablo
@@ -555,7 +556,7 @@
     <subsnc mrk="sign.0umo.nombro">
       <fnt><bib>EKV</bib>, <lok>&para;393</lok></fnt>
       <dif>
-        <ref cel="sign.0umo"><tld/>umfunkcio</ref> a&ubreve;
+        La <ref cel="sign.0umfunkcio"><tld/>umfunkcio</ref> a&ubreve;
         bildo per tiu funkcio:
         <ekz>
           la produto de reelo per &gcirc;ia <tld/>umo egalas al
@@ -584,7 +585,7 @@
       </rim>
 
       <rim num="2">
-        Nombroprezento <frm>-123</frm> konsistas el 4
+        Nombroprezento <frm am="-a">-123</frm> konsistas el 4
         <ref cel="sign.0o.KOMP"><tld/>oj<sncref/></ref>, kaj &ccirc;iu el ili estas
         <ctl>nombra <tld/>o</ctl>. Rezervi la signifon de <ctl>nombra <tld/>o</ctl>
         nur al la unua estas nelogika kaj evitinda escepto.
@@ -629,12 +630,12 @@
       <dif>
         Funkcio, kiu &jcirc;etas <ref cel="permut.0o.bijekcio">permuton</ref>
         al <frm>1</frm>, se &gcirc;i estas
-        <ref cel="par.0a.permuto">para</ref>, kaj al <frm>-1</frm> alie:
+        <ref cel="par.0a.permuto">para</ref>, kaj al <frm am="-a">-1</frm> alie:
         <ekz>
           <tld/>umo estas la nura homomorfio de la
           <ref cel="grup.simetria0o">simetria grupo</ref> al la grupo
           <frm am="{-1,1}">{-1,1}</frm>, kiu &jcirc;etas la duelementajn
-          <ref cel="cikl.0o.permuto">ciklojn</ref> al <frm>-1</frm>.
+          <ref cel="cikl.0o.permuto">ciklojn</ref> al <frm am="-a">-1</frm>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -698,7 +699,7 @@
     <dif>
       Funkcio &jcirc;etanta reelon al <frm>+1</frm>, se la reelo
       estas pozitiva, al <frm>0</frm>, se &gcirc;i estas <frm>0</frm>,
-      al <frm>-1</frm>, se &gcirc;i estas negativa; bildo per tiu funkcio:
+      al <frm am="-a">-1</frm>, se &gcirc;i estas negativa; bildo per tiu funkcio:
       <ekz>
         Pruvu ke la <tld/>umfunkcio estas nek sur&jcirc;eta, nek dis&jcirc;eta.
       </ekz>
@@ -1520,17 +1521,31 @@
       <ekz>
         la funkcio <frm am="x^2-4"><k>x</k><sup>2</sup>-4</frm>
         prezentas <tld/>o&scirc;an&gcirc;on &ccirc;e
-        <frm>-2</frm> kaj alian &ccirc;e <frm>+2</frm>.
+        <frm am="-a">-2</frm> kaj alian &ccirc;e <frm am="-a">+2</frm>.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>change in sign</trd>,
+      <trd>sign inversal</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="sign.0osxangxo.KOMP">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Unuloka operacio &jcirc;etanta entjeron, reelon a&ubreve; kompleksan nombron
+      al &gcirc;ia kontra&ubreve;o:
+      <ekz>
+        la simbolo de <tld/>um&scirc;an&gcirc;o estas <ctl><frm am="-">-</frm></ctl>
+        (la unuloka minuso)
+        <fnt><bib>KompLeks</bib></fnt>.
+      </ekz>
+    </dif>
+    <trd  lng="en">sign inversion</trd>
   </snc>
   <trdgrp lng="de">
     <trd>Vorzeichen&auml;nderung</trd>,
     <trd>Vorzeichenwechsel</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>change in sign</trd>,
-    <trd>sign inversal</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>changement de signe</trd>,
@@ -1543,6 +1558,9 @@
 </art>
 <!--
 $Log$
+versio 1.158 2023/05/15 04:29:47
+Sergio Pokrovskij: signumsxangxo
+
 versio 1.157 2023/05/15 02:43:31
 Sergio Pokrovskij: pri signumo
 
@@ -1562,8 +1580,5 @@ versio 1.152 2022/05/05 05:09:56
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.151 2022/03/30 17:30:29
-Wolfram Diestel: kor. trd uk
-
-versio 1.144 2022/02/08 18:30:21
 -->
 </vortaro>
