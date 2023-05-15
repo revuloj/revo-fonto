@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sign.xml,v 1.158 2023/05/15 04:29:47 revo Exp $">
+<art mrk="$Id: sign.xml,v 1.159 2023/05/15 06:32:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sign</rad>/o
@@ -585,10 +585,10 @@
       </rim>
 
       <rim num="2">
-        Nombroprezento <frm am="-a">-123</frm> konsistas el 4
+        Nombroprezento &#8722;123 konsistas el 4
         <ref cel="sign.0o.KOMP"><tld/>oj<sncref/></ref>, kaj &ccirc;iu el ili estas
         <ctl>nombra <tld/>o</ctl>. Rezervi la signifon de <ctl>nombra <tld/>o</ctl>
-        nur al la unua estas nelogika kaj evitinda escepto.
+        nur al la unua estas tradicia, sed nelogika kaj evitinda escepto.
         <aut>Sergio Pokrovskij</aut>
       </rim>
       
@@ -600,15 +600,19 @@
         Indus trovi aliajn ekz-ojn. <aut>MB</aut>
       </adm>
       <adm>
-        Malprave. &#171;Signum&scirc;an&gcirc;o&#187; estas unuloka operacio (sign
-        inversion) simbolata per minuso, samkiel subtraho estas duloka
-        operacio simbolata per minuso.
-        -1 ja estas negativa.
+        Malprave. La valoro de reela variablo x havas ian sihnumo.
+        &#171;Signum&scirc;an&gcirc;o&#187; &#8722;x estas unuloka operacio
+        (sign inversion) simbolata per minuso,
+        samkiel subtraho estas duloka operacio simbolata per minuso.
+        &#8722;1 ja estas negativa.
+        Fleksante la nombran akson, oni povas kunglui +&#8734; kaj &#8722;&#8734; en unu &#8734;;
+        kaj la kompleksa malfinio estas sensignuma.
         &rightquot;This infinity can be either positive, negative, or unsigned, depending on context.&#8221;
         https://en.wikipedia.org/wiki/Division_by_zero#Formal_operations
         Mi tamen koncedas, ke &#171;sensignuma nombroprezento&#187; estas
         pozitiva (123 = +123), do havas pozitivan signumon. Tiurilate
-        la kritiko de MB estas prava. 
+        la kritiko de MB estas prava (nu, eblus &gcirc;ustigi per iom
+        pedanta &#171;sen-signum-signa&#187;). 
         <aut>Sergio</aut></adm>
       <trd lng="de">Signum(funktion)</trd>
       <trd lng="en">signum (function)</trd>
@@ -630,12 +634,12 @@
       <dif>
         Funkcio, kiu &jcirc;etas <ref cel="permut.0o.bijekcio">permuton</ref>
         al <frm>1</frm>, se &gcirc;i estas
-        <ref cel="par.0a.permuto">para</ref>, kaj al <frm am="-a">-1</frm> alie:
+        <ref cel="par.0a.permuto">para</ref>, kaj al <frm am="-1">-1</frm> alie:
         <ekz>
           <tld/>umo estas la nura homomorfio de la
           <ref cel="grup.simetria0o">simetria grupo</ref> al la grupo
           <frm am="{-1,1}">{-1,1}</frm>, kiu &jcirc;etas la duelementajn
-          <ref cel="cikl.0o.permuto">ciklojn</ref> al <frm am="-a">-1</frm>.
+          <ref cel="cikl.0o.permuto">ciklojn</ref> al <frm am="-1">-1</frm>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -699,7 +703,7 @@
     <dif>
       Funkcio &jcirc;etanta reelon al <frm>+1</frm>, se la reelo
       estas pozitiva, al <frm>0</frm>, se &gcirc;i estas <frm>0</frm>,
-      al <frm am="-a">-1</frm>, se &gcirc;i estas negativa; bildo per tiu funkcio:
+      al <frm am="-1">-1</frm>, se &gcirc;i estas negativa; bildo per tiu funkcio:
       <ekz>
         Pruvu ke la <tld/>umfunkcio estas nek sur&jcirc;eta, nek dis&jcirc;eta.
       </ekz>
@@ -1521,13 +1525,14 @@
       <ekz>
         la funkcio <frm am="x^2-4"><k>x</k><sup>2</sup>-4</frm>
         prezentas <tld/>o&scirc;an&gcirc;on &ccirc;e
-        <frm am="-a">-2</frm> kaj alian &ccirc;e <frm am="-a">+2</frm>.
+        <frm am="-2">-2</frm> kaj alian &ccirc;e <frm am="+2">+2</frm>.
       </ekz>
     </dif>
     <trdgrp lng="en">
       <trd>change in sign</trd>,
       <trd>sign inversal</trd>
     </trdgrp>
+    <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_a; &c_z;&c_n;&c_a;&c_k;&c_a;</trd>
   </snc>
   <snc mrk="sign.0osxangxo.KOMP">
     <uzo tip="fak">MAT</uzo>
@@ -1542,6 +1547,7 @@
       </ekz>
     </dif>
     <trd  lng="en">sign inversion</trd>
+    <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_n;&c_je;&c_n;&c_i;&c_je; &c_z;&c_n;&c_a;&c_k;&c_a;</trd>
   </snc>
   <trdgrp lng="de">
     <trd>Vorzeichen&auml;nderung</trd>,
@@ -1553,11 +1559,13 @@
   </trdgrp>
   <trd lng="hu">el&odblac;jelv&aacute;lt&aacute;s</trd>
   <trd lng="pl">zmiana znaku</trd>
-  <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_n;&c_je;&c_n;&c_i;&c_je; &c_z;&c_n;&c_a;&c_k;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.159 2023/05/15 06:32:21
+Sergio Pokrovskij: adm
+
 versio 1.158 2023/05/15 04:29:47
 Sergio Pokrovskij: signumsxangxo
 
@@ -1577,8 +1585,5 @@ versio 1.153 2023/02/11 18:31:55
 Wolfram Diestel: super~p: +trd nl el super/
 
 versio 1.152 2022/05/05 05:09:56
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.151 2022/03/30 17:30:29
 -->
 </vortaro>
