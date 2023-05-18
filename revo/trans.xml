@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trans.xml,v 1.38 2022/08/07 18:35:40 revo Exp $">
+<art mrk="$Id: trans.xml,v 1.39 2023/05/18 07:24:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>trans</rad> 
@@ -955,9 +955,6 @@
     <dif>
       Irante <tld/>en:
       <ekz>
-        <ref cel="ir.trans0i">transiri</ref>;
-      </ekz>
-      <ekz>
         <ind><tld/>&jcirc;eti</ind>;
         <trd lng="es">lanzar</trd>
         <trd lng="hu">&aacute;tdob</trd>
@@ -967,12 +964,6 @@
         <ind><tld/>kapi&gcirc;i</ind>;
         <trd lng="es">dar volteretas</trd>
         <trd lng="hu">bukfencezik</trd>
-      </ekz>
-      <ekz>
-        <ref cel="pas.trans0i">transpasi</ref>;
-      </ekz>
-      <ekz>
-        <ref cel="salt.trans0i">transsalti</ref>;
       </ekz>
       <ekz>
         <ref cel="port.trans0i">transporti</ref>
@@ -1009,14 +1000,16 @@
       <ekz>
         <tld/>limaj amikecoj.
       </ekz>
-    </dif>
+    </dif>    
+    <refgrp tip="vid">
+      <ref cel="ir.trans0i">transiri</ref>,
+      <ref cel="pas.trans0i">transpasi</ref>,
+      <ref cel="salt.trans0i">transsalti</ref>
+    </refgrp>
   </snc>
   <snc mrk="trans.0_.sxangxe">
     <dif>
       &Scirc;an&gcirc;ante lokon a&ubreve; staton:
-      <ekz>
-        <ref cel="plant.trans0i">transplanti</ref>,
-      </ekz>
       <ekz>
         <ind><tld/>ver&scirc;i</ind>,
         <trdgrp lng="es">
@@ -1032,12 +1025,6 @@
         </trdgrp>
         <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_l;&c_i;&c_t;&c_mol; <klr tip="amb">(&c_o;&c_t;&c_k;&c_u;&c_d;&c_a;-&c_t;&c_o;
         &c_k;&c_u;&c_d;&c_a;-&c_t;&c_o;)</klr></trd>
-      </ekz>
-      <ekz>
-        <ref cel="lok.trans0i">transloki</ref>,
-      </ekz>
-      <ekz>
-        <ref cel="skrib.trans0i">transskribi</ref> <klr>(kopii)</klr>;
       </ekz>
       <ekz>
         oni <ref cel="dir.trans0i">transdiri</ref>s al li la vortojn de
@@ -1103,6 +1090,12 @@
         mi <tld/>prenos la devon respondi.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+        <ref cel="ag.trans0o">transago</ref>,
+        <ref cel="lok.trans0i">transloki</ref>,
+        <ref cel="skrib.trans0i.kopii">transskribi<sncref/></ref>,
+        <ref cel="plant.trans0i">transplanti</ref>
+    </refgrp>
     <trdgrp lng="hu">
       <trd>&aacute;t-</trd>,
       <trd>transz-</trd>
@@ -1135,6 +1128,9 @@
 </art>
 <!--
 $Log$
+versio 1.39 2023/05/18 07:24:09
+Wolfram Diestel: ~ III: reduktis kelkajn ekz al ref, +~ago
+
 versio 1.38 2022/08/07 18:35:40
 Ulrich Fellmann: trans: + 2 DE trdj
 
@@ -1154,8 +1150,5 @@ Revision 1.30  2019/09/05 22:10:21  revo
 Wolfram Diestel: +ekz-oj/fnt-oj, ~igi(lo): pliaj snc-oj
 
 Revision 1.29  2019/05/11 13:10:14  revo
-Robin van der Vliet: mallongigo de ekzempla frazo
-
-Revision 1.28  2019/03/26 19:10:17  revo
 -->
 </vortaro>
