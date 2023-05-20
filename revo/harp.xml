@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: harp.xml,v 1.30 2022/03/20 15:11:16 revo Exp $">
+<art mrk="$Id: harp.xml,v 1.31 2023/05/20 17:23:04 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>harp</rad>/o
@@ -9,7 +9,7 @@
 <drv mrk="harp.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">MUZ</uzo>
-  <snc>
+  <snc mrk="harp.0o.MUZ">
     <dif>
       Iu el diversaj
       <ref tip="lst" cel="instru2.kord0o.MUZ" lst="voko:kordinstrumentoj">kordinstrumentoj</ref>
@@ -18,11 +18,41 @@
       kontraste al
       <ref tip="vid" cel="citr.0o.MUZ">citroj</ref>,
       <ref tip="vid" cel="lir.0o.MUZ">liroj</ref>,
-      <ref tip="vid" cel="liut.0o">liutoj</ref>.
+      <ref tip="vid" cel="liut.0o">liutoj</ref>:
       <ekz>
-        pin&ccirc;i <tld/>on.
+        vi renkontos grupon da profetoj, irantaj malsupren de la alta&jcirc;o, kaj anta&ubreve; ili
+        <ref cel="psalte.0o">psaltero</ref>n, tamburinon, fluton, kaj <tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 10:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u li ne kantis jam al la &ccirc;ielaj a&ubreve;skultantoj la nomon Amalio sur la serafa
+        <tld/>o
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de Eolo, korda instrumento muzika kiun tonigas ekblovoj de vento
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro VIII.</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/6/6f/Eliza_Ridgely_with_a_Harp_NGA.jpg/319px-Eliza_Ridgely_with_a_Harp_NGA.jpg"
+      prm="PD"
+      >Eliza Ridgely kun <tld/>o
+        <fnt>
+          <aut>Thomas Sully, National Gallery of Art, Washington, D. C., online collection</aut>
+          <lok><url ref="&WCW;/File:Eliza_Ridgely_with_a_Harp_NGA.jpg"
+              >https://commons.wikimedia.org/wiki/File:Eliza_Ridgely_with_a_Harp_NGA.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="kek">aarp</trd>
   <trd lng="be">&c_a;&c_r;&c_f;&c_a;</trd>
@@ -43,7 +73,7 @@
   <trd lng="ru">&c_a;&c_r;&c_f;&c_a;</trd>
   <trd lng="sk">harfa</trd>
   <trd lng="sv">harpa</trd>
-  <trd lng="uk">&#x430;&#x440;&#x444;&#x430;</trd>
+  <trd lng="uk">&c_a;&c_r;&c_f;&c_a;</trd>
 </drv>
 
 <drv mrk="harp.0i">
@@ -54,11 +84,14 @@
       Ludi <tld/>on.
     </dif>
   </snc>
+<!-- tro &gcirc;enerala rimarko pri gramatika demando, &ccirc;u?
+  cetere oni povas uzi la verbon anka&ubreve; netransitive...
   <rim>
   &Ccirc;iuj verboj, derivitaj de nomoj de muzikiloj,
   konsekvence devas esti transitivaj, &ccirc;ar kiel rekta objekto
   servas ludata muzika&jcirc;o, ekz.: <tld/>i suiton. (Jurij Finkel)
   </rim>
+-->
   <trd lng="be">&c_g;&c_r;&c_a;&c_c;&c_mol; &c_n;&c_a; <ind>&c_a;&c_r;&c_f;&c_je;</ind></trd>
   <trd lng="bg">&c_s;&c_v;&c_i;&c_r;&c_ja; &c_n;&c_a; &c_a;&c_r;&c_f;&c_a;</trd>
   <trd lng="br">telenna&ntilde;</trd>
@@ -73,14 +106,17 @@
   <trd lng="pt">tocar <ind>harpa</ind></trd>
   <trd lng="ru">&c_i;&c_g;&c_r;&c_a;&c_t;&c_mol; &c_n;&c_a; 
 &c_a;&c_r;&c_f;&c_je;</trd>
-  <trdgrp lng="kek"><trd>aarpik</trd><trd>aarpib&#x315;k</trd></trdgrp>
-  <trd lng="sk">hra&#x165; na harfe</trd>
-  <trd lng="cs">hr&#xE1;t na harfu</trd>
-  <trd lng="uk">&#x433;&#x440;&#x430;&#x442;&#x438; &#x43D;&#x430; &#x430;&#x440;&#x444;&#x456;</trd>
+  <trdgrp lng="kek"><trd>aarpik</trd><trd>aarpib&#789;k</trd></trdgrp>
+  <trd lng="sk">hra&tcaron; na harfe</trd>
+  <trd lng="cs">hr&aacute;t na harfu</trd>
+  <trd lng="uk">&c_g;&c_r;&c_a;&c_t;&c_i; &c_n;&c_a; &c_a;&c_r;&c_f;&c_ib;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2023/05/20 17:23:04
+Wolfram Diestel: +ekz-oj, bld
+
 Revision 1.28  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -100,11 +136,5 @@ Revision 1.23  2010/05/26 17:01:48  revo
 Antonio Codazzi: +aldono en trd it
 
 Revision 1.22  2009/09/02 16:31:13  revo
-Antonio Codazzi: +trd it
-
-Revision 1.21  2009/02/22 17:30:37  revo
-Russ Williams: +trd en
-
-Revision 1.20  2008/04/22 17:50:07  revo
 -->
 </vortaro>
