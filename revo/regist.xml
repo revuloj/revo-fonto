@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: regist.xml,v 1.38 2023/05/06 14:26:04 revo Exp $">
+<art mrk="$Id: regist.xml,v 1.39 2023/05/23 06:31:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>registr</rad>/o 
@@ -71,6 +71,9 @@
       <ref cel="matrik.0o">matrikulo</ref>,
       <ref cel="statis.0o.statistikajxo">statistiko<sncref/></ref>
     </refgrp>
+    <rim>
+      La vorto devenas el latina &#8218;<nac>regerere</nac>&#8216;, t.e. alporti, enskribi.
+    </rim>
     <trdgrp lng="be">
       <trd>&c_r;&c_e;&c_je;&c_s;&c_t;&c_a;&c_r;</trd>,
       <trd>&c_p;&c_je;&c_r;&c_a;&c_l;&c_ib;&c_k;</trd>
@@ -91,37 +94,10 @@
     </trdgrp>
     <trd lng="ru">&c_r;&c_je;&c_je;&c_s;&c_t;&c_r;</trd>
   </snc>
-  <snc mrk="regist.0o.MUZ">
-    <uzo tip="fak">MUZ</uzo>
-    <dif>
-      Absoluta amplekso de vo&ccirc;o a&ubreve; muzikilo
-      de plej malalta al plej alta tonoj, kiujn &gcirc;i
-      kapablas sonigi:
-      <ekz>
-        la mezaj <tld/>oj estas baritono &ccirc;e viroj kaj mezosoprano &ccirc;e virinoj
-        <fnt>
-          <bib>Ret</bib>
-          <lok>Dua Parto</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        kantisto, kies vo&ccirc;a <tld/>o estis kvin oktavoj
-        <fnt>
-          <bib>Ret</bib>
-          <lok>Dua Parto</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <ref tip="sin" cel="vocx.0o.registro">vo&ccirc;o<sncref/></ref>
-    <trd lng="be">&c_r;&c_e;&c_g;&c_ib;&c_s;&c_t;&c_a;&c_r;</trd>
-    <trdgrp lng="de">
-      <trd>Register</trd>,
-      <trd>Stimmumfang</trd>
-    </trdgrp>
-    <trd lng="es">registro</trd>
-    <trd lng="ru">&c_r;&c_je;&c_g;&c_i;&c_s;&c_t;&c_r;</trd>
-  </snc>
-<ref tip="hom" cel="regxistr.0o">re&gcirc;istro</ref>
+  <refgrp tip="hom">
+    <ref cel="regist1.0o">registro <klr>(muz.)</klr></ref>,
+    <ref cel="regxistr.0o">re&gcirc;istro <klr>(komp.)</klr></ref>
+  </refgrp>
   <trdgrp lng="cs">
     <trd>kniha z&aacute;znam&uring;</trd>,
     <trd>registra&ccaron;n&iacute; kniha</trd>,
@@ -594,7 +570,7 @@
       en liston, en <tld/>on por konservo;
       enskribi&gcirc;i:
       <ekz>
-        enigu vian retpo&scirc;t­adreson per kiu vi <tld/>i&gcirc;is
+        enigu vian retpo&scirc;t&#173;adreson per kiu vi <tld/>i&gcirc;is
         kaj ni retpo&scirc;te sendos instrukciojn
         <fnt>
           <aut>-</aut>
@@ -607,7 +583,8 @@
         por loka konkurso de legado de la Korano
         <fnt>
           <aut>G. P. Savio</aut>
-          <vrk><url ref="http://esperantaretradio.blogspot.com/2016/07/kial-oni-malpermesas-al-knabinoj-bicikli.html">Kial
+          <vrk><url
+          ref="http://esperantaretradio.blogspot.com/2016/07/kial-oni-malpermesas-al-knabinoj-bicikli.html">Kial
           oni malpermesas al knabinoj bicikli?</url></vrk>
           <lok>Esperanta Retradio, 2016-07-15</lok>
         </fnt>.
@@ -814,6 +791,9 @@
 </art>
 <!--
 $Log$
+versio 1.39 2023/05/23 06:31:42
+Wolfram Diestel: apartigo ~o MUZ al aparta artikolo
+
 versio 1.38 2023/05/06 14:26:04
 revo: aktualigo URL-unuoj
 
@@ -833,8 +813,5 @@ versio 1.33 2022/07/02 18:32:07
 Wolfram Diestel: ~i: +ekz-oj, ref-oj
 
 versio 1.32 2022/07/02 17:27:28
-Wolfram Diestel: ~o: +ekz-oj, ref-oj
-
-versio 1.31 2022/05/04 19:19:16
 -->
 </vortaro>
