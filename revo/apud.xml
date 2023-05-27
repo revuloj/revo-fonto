@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: apud.xml,v 1.57 2023/05/07 08:25:38 revo Exp $">
+<art mrk="$Id: apud.xml,v 1.58 2023/05/27 07:20:23 revo Exp $">
 <kap>
-  <ofc>*</ofc> <rad>apud</rad> <fnt><bib>PV</bib></fnt>
+  <ofc>*</ofc> <rad>apud</rad> 
+  <fnt> <bib>PV</bib></fnt>
 </kap>
 <subart>
   <dif>
@@ -217,6 +218,63 @@
       <trd>from next to</trd>
     </trdgrp>
   </drv>
+
+<drv mrk="apud.unu_0_alia">
+  <kap>
+    unu <tld/> alia
+  </kap>
+  <uzo tip="stl">FRAZ</uzo>
+  <snc>
+    <dif>
+      <ref tip="sin" cel="flank.0o_che_0o">Flanko &ccirc;e flanko</ref> &ccirc;e flanko, 
+      orientita samdirekte:
+      <ekz>
+        la du homoj mar&scirc;is silente unu <tld/> alia
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en du vicoj, unu <tld/> alia, ku&scirc;is kvar grandegaj kvadratoj, kunmetitaj el ru&gcirc;a
+        fazeolo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej malsamaj popoloj staras unu <tld/> alia ne kiel fremduloj, ne kiel
+        konkurantoj, sed kiel fratoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la flankaj galerioj, unu <tld/> la alia, havis la longon de tridek tri futoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 41:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homoj, kiuj restis ankora&ubreve; vivaj, faladis amase unu <tld/> aliaj
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LVI</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">nebeneinander</trd>
+  <trd lng="en">side by side</trd>
+  <trd lng="fr">cote &agrave; cote</trd>
+</drv>
+
+
+
+
 </subart>
 
 <subart>
@@ -526,6 +584,8 @@
 <subart>
   <dif>
     Prefikso kun tiu signifo:
+  </dif>
+  <snc>
     <ekz>
       li <tld/>estas al sia patro;
     </ekz>
@@ -555,17 +615,20 @@
     </ekz>
     <refgrp tip="vid">
       <ref cel="cxe">&ccirc;e</ref>,
-      <ref cel="en">en</ref>.
+      <ref cel="en">en</ref>
     </refgrp>
-  </dif>
-  <trdgrp lng="hu">
-    <trd>mell&eacute;-</trd>,
-    <trd>mellette</trd>
-  </trdgrp>
+    <trdgrp lng="hu">
+      <trd>mell&eacute;-</trd>,
+      <trd>mellette</trd>
+    </trdgrp>
+</snc>
 </subart>
 </art>
 <!--
 $Log$
+versio 1.58 2023/05/27 07:20:23
+Wolfram Diestel: +unu ~ alia
+
 versio 1.57 2023/05/07 08:25:38
 Christian Siefkes: +trd de, en
 
@@ -585,8 +648,5 @@ versio 1.50 2021/12/10 03:40:27
 Warut Bunprasert: +trd th
 
 Revision 1.46  2016/12/23 10:10:13  revo
-Wolfram Diestel: ekz-oj, plibonigis aranghon iom, germ trd de ~eco
-
-Revision 1.45  2015/09/16 11:10:18  revo
 -->
 </vortaro>
