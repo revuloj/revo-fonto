@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kolekt1.xml,v 1.24 2023/05/04 16:53:14 revo Exp $">
+<art mrk="$Id: kolekt1.xml,v 1.25 2023/05/29 07:22:50 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>kolektiv</rad>/a <fnt><bib>PV</bib></fnt>
@@ -10,14 +10,42 @@
   <kap><tld/>a</kap>
   <snc mrk="kolekt1.0a.KOMUNE">
     <dif>
-      Kuniganta plurajn personojn por komuna agado:
+      Kuniganta plurajn personojn por <ref tip="sin" cel="komun.0a">komuna</ref> agado:
       <ekz>
-        <tld/>a verko, protesto, vizito.
+        <tld/>a verko, protesto, vizito;
+      </ekz>
+      <ekz>
+        junaj patrinoj <klr>[&#8230;]</klr> <tld/>e malbenante sian sorton
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        duonnudaj knabinoj komencis <tld/>an dancon
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ofte la oficistoj bonhumore estis mem partoprenantaj la <tld/>an konversacion
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a fi-faro estas malpli facile decidebla ol unuopula krimo
+        <fnt>
+          <bib>ChB</bib>
+          <lok>4</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="gxener.0a">&gcirc;enerala</ref>,
       <ref cel="op.0a">opa</ref>,
-      <ref cel="korpor">korporacia</ref>.
+      <ref cel="kolekt.0i.kunvenigi">kolekta</ref>,
+      <ref cel="korpor">korporacia</ref>,
+      <ref cel="kun.0a">kuna</ref>
     </refgrp>
     <trd lng="be">&c_k;&c_a;&c_l;&c_je;&c_k;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>
     <trdgrp lng="de">
@@ -43,13 +71,25 @@
     <dif>
       Kuniganta plurajn personojn a&ubreve; objektojn sub komuna nomo:
       <ekz>
-        <ind><tld/>a vorto</ind>.
+        <ind><tld/>a vorto</ind>;
         <trd lng="be">&c_z;&c_b;&c_o;&c_r;&c_n;&c_a;&c_je; &c_s;&c_l;&c_o;&c_v;&c_a;</trd>
         <trd lng="hu">k&ouml;zn&eacute;v</trd>
         <trd lng="pl">zaimek upowszechniaj&aogonek;cy</trd>     
         <trd lng="ro">pronume diseminare</trd>
       </ekz>
+      <ekz>
+        la sufikson &leftquot;ar&rightquot; ni devas uzi nur por esprimi <klr>[&#8230;]</klr> <tld/>an objekton
+        (ekzemple &leftquot;vortaro&rightquot;, &leftquot;arbaro&rightquot;, &leftquot;homaro&rightquot;)
+        <fnt>
+          <bib>LR</bib>
+          <lok>Unua Parto &ndash; Leksikologio</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kolekt.0i.kunmeti">kolekta</ref>,
+      <ref cel="kun.0igi">kuniga</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_z;&c_mol;&c_b;&c_ib;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
       <trd>&c_z;&c_b;&c_o;&c_r;&c_n;&c_y;</trd>
@@ -99,14 +139,28 @@
 
 <drv mrk="kolekt1.0o">
   <kap><tld/>o</kap>
+  <snc mrk="kolekt1.0o.stato">
+    <dif>
+      Stato de homoj komune agantaj a&ubreve; objektoj kunigita sub komuna nomo, t.e. <tld/>eco.
+    </dif>
+    <trd lng="de">Kollektive</trd>
+  </snc>
   <snc mrk="kolekt1.0o.KOMUNE">
     <dif>
       Iom granda
       <ref tip="super" cel="grup.0o.personoj">grupo</ref>
-      da personoj komune agantaj a&ubreve; laborantaj a&ubreve; kunigitaj
-      per komunaj interesoj.
+      da personoj komune agantaj;
+      <tld/>a&jcirc;o:
       <ekz>
-        &ccirc;i-jare festas sian dudekjari&gcirc;on MASI &ndash; la plej aktiva 
+        la Internacia Lingvo (Esperanto) iniciatita de D-ro <nom>Zamenhof</nom> transformi&gcirc;is en
+        vivantan lingvon de vivanta internacia <tld/>o
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;i-jare festas sian dudekjari&gcirc;on <nom>MASI</nom> &ndash; la plej aktiva 
         esperantista <tld/>o en Ruslando
         <fnt>
           <aut>A. Kor&jcirc;enkov</aut>
@@ -116,16 +170,14 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Kollektiv</trd>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_l;&c_je;&c_k;&c_t;&c_y;&c_w;</trd>
   <trdgrp lng="cs">
     <trd>kolektivum</trd>,
     <trd>podstatn&eacute; jm&eacute;no hromadn&eacute;</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>Kollektiv</trd>,
-    <trd>Gemeinschaft</trd>
-  </trdgrp>
+  <trd lng="de">Gemeinschaft</trd>
   <trdgrp lng="en">
     <trd>collective</trd>
   </trdgrp>
@@ -166,8 +218,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="posed.sen0igi">senposedigi</ref>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_l;&c_je;&c_k;&c_t;&c_y;&c_v;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd>kollektivieren</trd>,
+    <trd>vergemeinschaften</trd>,
+    <trd>vergesellschaften</trd>,
+    <trd>enteignen</trd>
+  </trdgrp>
   <trd lng="fr">collectiviser</trd>
 </drv>
 
@@ -204,6 +263,11 @@
         </fnt>;
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ekonom1.plan0o">planekonomio</ref>,
+      <ref cel="komun.0ismo">komunismo</ref>,
+      <ref cel="social.0ismo">socialismo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_l;&c_je;&c_k;&c_t;&c_y;&c_v;&c_ib;&c_z;&c_m;</trd>
   <trd lng="cs">kolektivizmus</trd>
@@ -225,6 +289,9 @@
 </art>
 <!--
 $Log$
+versio 1.25 2023/05/29 07:22:50
+Wolfram Diestel: ekz-oj, ref-oj, ~o: 2 snc
+
 versio 1.24 2023/05/04 16:53:14
 revo: aktualigo URL-unuoj
 
@@ -244,8 +311,5 @@ Revision 1.17  2015/07/10 18:10:16  revo
 Jeromo Vasxe: + 1 ekz
 
 Revision 1.16  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.15  2015/06/29 16:33:17  revo
 -->
 </vortaro>
