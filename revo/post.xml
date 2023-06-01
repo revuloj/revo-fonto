@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: post.xml,v 1.137 2023/05/28 17:23:41 revo Exp $">
+<art mrk="$Id: post.xml,v 1.138 2023/06/01 15:24:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>post</rad>
@@ -881,15 +881,51 @@
       <ref tip="sin" cel="antaux.mal0o">malanta&ubreve;o,
       malanta&ubreve;a&jcirc;o</ref>:
       <ekz>
-        la <tld/>o de vesto
-        <fnt><bib>PV</bib></fnt>;
+        lia sekvantaro en uniformoj <klr>[&#8230;]</klr> staris en la <tld/>o de la lo&gcirc;io
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rigardante de la <tld/>o de la &scirc;ipo al la ar&gcirc;enta vojo, kiun &scirc;i <tld/>lasis
+        <fnt>
+          <bib>KKl</bib>
+          <lok>&Ccirc;apitro 5</lok>
+        </fnt>;
       </ekz>
       <ekz>
         Patroklo okupis iliajn <tld/>ojn!
         <klr>(la <tld/>ajn poziciojn de ilia armeo)</klr>
-        <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 18a</lok></fnt>.
+        <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 18a</lok></fnt>;
+      </ekz>
+      <ekz>
+        sur la foto de anta&ubreve;o al <tld/>o kaj de maldekstro dekstren: 
+        unuavice <klr>[&#8230;]</klr>, duavice <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fronto kiel arkeo, kaj <tld/>o &mdash; sanktejo
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro IV.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o de vesto
+        <fnt><bib>PV</bib></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="dors.0o">dorso</ref>,
+      <ref cel="pob.0o">pobo</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="fon.0o">fono</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>Hinterteil</trd>,
       <trd>R&uuml;cken <klr>(von etwas)</klr></trd>,
@@ -1112,7 +1148,7 @@
   <kap><tld/>ea</kap>
   <snc>
     <dif>
-     <ref tip="dif" cel="post.0a.tempe"><tld/>a <sncref/></ref>:
+     <ref tip="dif" cel="post.0a.tempe"><tld lit="P"/>a<sncref/></ref>:
       <ekz>
         la&ubreve; <tld/>eaj komentistoj Pitagoro komprenadis filozofion kiel
         amon de sa&gcirc;o
@@ -1153,8 +1189,12 @@
         la minaco <tld/>enigis la atakantojn.
       </ekz>
     </dif>
-    <ref tip="hom" cel="posten.0igi">posten&middot;igi</ref>
+    <refgrp tip="sin">
+      <ref cel="fru.mal0igi">malfruigi</ref>,
+      <ref cel="prokra.0i">prokrasti</ref>
+    </refgrp>
   </snc>
+  <ref tip="hom" cel="posten.0igi">posten&middot;igi</ref>
   <trdgrp lng="cs">
     <trd>odd&aacute;lit</trd>,
     <trd>p&rcaron;id&ecaron;lit stanovi&scaron;t&ecaron;</trd>,
@@ -1688,6 +1728,9 @@
 </art>
 <!--
 $Log$
+versio 1.138 2023/06/01 15:24:09
+Wolfram Diestel: ~o: +ekz, ref; ~enigi: +ref
+
 versio 1.137 2023/05/28 17:23:41
 Wolfram Diestel: +ekz, ref
 
@@ -1707,8 +1750,5 @@ versio 1.57 2020/05/05 15:10:16
 Damien Brucker: -eraro cxe cel en ref
 
 Revision 1.55  2019/10/28 09:10:18  revo
-Damien Brucker: -eraro cxe cel en ref
-
-Revision 1.54  2019/06/30 18:21:49  revo
 -->
 </vortaro>
