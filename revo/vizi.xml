@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vizi.xml,v 1.23 2023/06/04 08:25:49 revo Exp $">
+<art mrk="$Id: vizi.xml,v 1.24 2023/06/04 17:23:39 revo Exp $">
 <kap>
   <ofc>6</ofc>
   <rad>vizi</rad>/o <fnt><bib>PV</bib></fnt>
@@ -102,6 +102,7 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="ideal.0o.perfekteco">idealo<sncref/></ref>,
       <ref cel="imag.0o.imagado">imago<sncref/></ref>,
       <ref cel="rev.0o">revo</ref>,
       <ref cel="utopi.0o">utopio</ref>
@@ -131,16 +132,37 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="vizi.0i.KOMUNE">
     <dif>
-      Vidi en <tld/>o:
+      <ref tip="super" cel="vid.0i">Vidi</ref> en <tld/>o:
       <ekz>
         profeta&jcirc;o pri <nom>Babel</nom>, kiun <tld/>is <nom>Jesaja</nom>
-        <fnt><bib>MT</bib>, <lok>&Jes; 13:1</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Jes; 13:1</lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        mia artikolo en 1995 <tld/>is ian formorton de la kino hungara, profite al
+        filmoj usonaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istvan Ertl</aut>
+          <vrk><url ref="https://www.monato.be/2008/009378.php"
+              >Kinejoj kaj ciferoj: rekonkereto en Hungario</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="vid.antaux0i">anta&ubreve;vidi</ref>,
+      <ref cel="auxgur.0i">a&ubreve;guri</ref>,
+      <ref cel="profet.0i">profeti</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>m&iacute;t vizi</trd>,
     <trd>vid&ecaron;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>in einer <ind>Vision</ind> sehen</trd>,
+    <trd>visionieren</trd>
   </trdgrp>
   <trd lng="fr">avoir une <ind>vision</ind></trd>
   <trdgrp lng="hu">
@@ -159,13 +181,12 @@
   </trdgrp>
 </drv>
 
-<drv mrk="vizi.0isto">
-  <kap>
-    <tld/>isto
-  </kap>
-  <snc>
+
+<drv mrk="vizi.0ulo">
+  <kap><tld/>ulo, <var><kap><tld/>isto</kap></var></kap>
+  <snc mrk="vizi.0ulo.auxguristo">
     <dif>
-      Iu, kiu profetas per <tld/>oj:
+      Iu, kiu a&ubreve;guras per <tld/>oj:
       <ekz>
         la Eternulo parolis al la profeto <nom>Gad</nom>, la viziist<tld/>o de <nom>David</nom>
         <fnt>
@@ -178,54 +199,71 @@
       <ref cel="auxgur.0isto">a&ubreve;guristo</ref>,
       <ref cel="profet.0o">profeto</ref>
     </refgrp>
+    <trd lng="de">Seher</trd>
   </snc>
-  <trd lng="de">Seher</trd>
-</drv>
-
-
-
-
-
-
-
-<drv mrk="vizi.0ulo">
-  <kap><tld/>ulo</kap>
   <snc mrk="vizi.0ulo.KOMUNE">
     <dif>
-      Homo kiu havas <tld/>ojn (a&ubreve; kies halucinojn oni opinias
-      valoraj <tld/>oj):
+      Homo kun originalaj ideoj kaj revoj pri la estonteco:
       <ekz>
-        en politiko la <tld/>uloj estas e&ccirc; pli dan&gcirc;eraj ol la friponoj.
+        en politiko la <tld/>uloj estas e&ccirc; pli dan&gcirc;eraj ol la friponoj;
+      </ekz>
+      <ekz>
+        neniu a&ubreve;skultas lin <klr>[&#8230;]</klr> li estas <tld/>ulo a&ubreve; folulo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/010777.php"
+              >&Gcirc;is la tero tremas</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi nun faras mallongan portretan filmon <klr>[&#8230;]</klr> pri la
+        desegnisto/<tld/>ulo <nom>Buckminster Fuller</nom>
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Intervjuo</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="pionir.0o.FIG">pioniro<sncref/></ref>,
+      <ref cel="utopi.0isto">utopiisto</ref>
+    </refgrp>
+    <trd lng="de">Vision&auml;r</trd>
+    <trd lng="el">&omikron;&rho;&alfa;&my;&alfa;&tau;&jota;&sigma;&tau;&eta_ton;&sigma_fina;</trd>
+    <trd lng="en">visionary</trd>
+    <trd lng="fr">visionnaire<klr> (subst.)</klr></trd>
+    <trd lng="hu">l&aacute;tnok</trd>
+    <trd lng="nl">ziener</trd>
+    <trd lng="pt">vision&aacute;rio</trd>
+    <trdgrp lng="ru">
+      <trd>&c_v;&c_i;&c_z;&c_i;&c_o;&c_n;&c_je;&c_r;</trd>,
+      <trd>&c_p;&c_r;&c_o;&c_v;&c_i;&c_d;&c_je;&c_c;</trd>,
+      <trd>&c_d;&c_u;&c_h;&c_o;&c_v;&c_i;&c_d;&c_je;&c_c;</trd>
+    </trdgrp>
+    <trd lng="sk">vizion&aacute;r</trd>
+    <trdgrp lng="sk">
+      <trd>bl&uacute;znivec</trd>,
+      <trd>rojko</trd>
+    </trdgrp>
+    <trd lng="cs">vizion&aacute;&rcaron;</trd>
+    <trdgrp lng="de">
+      <trd>Vision&auml;r</trd>,
+      <trd>Vordenker</trd>
+    </trdgrp>
+    <trdgrp lng="uk">
+      <trd>&c_p;&c_r;&c_o;&c_v;&c_i;&c_d;&c_je;&c_c;&c_mol;</trd>,
+      <trd>&c_m;&c_ib;&c_s;&c_t;&c_i;&c_k;</trd>
+    </trdgrp>
   </snc>
-  <ref tip="vid" cel="profet.0o">profeto</ref>
-  <trd lng="de">Vision&auml;r</trd>
-  <trd lng="el">&omikron;&rho;&alfa;&my;&alfa;&tau;&jota;&sigma;&tau;&eta_ton;&sigma_fina;</trd>
-  <trd lng="en">visionary</trd>
-  <trd lng="fr">visionnaire<klr> (subst.)</klr></trd>
-  <trd lng="hu">l&aacute;tnok</trd>
-  <trd lng="nl">ziener</trd>
-  <trd lng="pt">vision&aacute;rio</trd>
-  <trdgrp lng="ru">
-    <trd>&c_v;&c_i;&c_z;&c_i;&c_o;&c_n;&c_je;&c_r;</trd>,
-    <trd>&c_p;&c_r;&c_o;&c_v;&c_i;&c_d;&c_je;&c_c;</trd>,
-    <trd>&c_d;&c_u;&c_h;&c_o;&c_v;&c_i;&c_d;&c_je;&c_c;</trd>
-  </trdgrp>
-  <trd lng="sk">vizion&aacute;r</trd>
-  <trdgrp lng="sk">
-    <trd>bl&uacute;znivec</trd>,
-    <trd>rojko</trd>
-  </trdgrp>
-  <trd lng="cs">vizion&aacute;&rcaron;</trd>
-  <trdgrp lng="uk">
-    <trd>&c_p;&c_r;&c_o;&c_v;&c_i;&c_d;&c_je;&c_c;&c_mol;</trd>,
-    <trd>&c_m;&c_ib;&c_s;&c_t;&c_i;&c_k;</trd>
-  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2023/06/04 17:23:39
+Wolfram Diestel: +ekz, ref, trd de
+
 versio 1.23 2023/06/04 08:25:49
 Wolfram Diestel: ~o: +ekz, ref; +~isto
 
@@ -245,8 +283,5 @@ Revision 1.16  2005/02/03 17:34:11  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.15  2004/10/07 16:31:53  revo
-Jean Hennebert: +trd fr
-
-Revision 1.14  2003/12/26 17:30:38  revo
 -->
 </vortaro>
