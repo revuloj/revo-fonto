@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: patr.xml,v 1.171 2023/04/24 09:26:44 revo Exp $">
+<art mrk="$Id: patr.xml,v 1.172 2023/06/08 12:41:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>patr</rad>/o
@@ -179,7 +179,7 @@
   <trd lng="ht">papa</trd>
   <trd lng="hy">&#1392;&#1377;&#1397;&#1408;</trd>
   <trd lng="ig">nna</trd>
-  <trd lng="is">fa&#240;ir</trd>
+  <trd lng="is">faðir</trd>
   <trd lng="it">padre</trd>
   <trd lng="ja">&#29238;</trd>
   <trd lng="jv">rama</trd>
@@ -193,7 +193,7 @@
   <trd lng="lat">pater</trd>
   <trd lng="lo">&#3742;&#3789;&#3784;</trd>
   <trd lng="lt">t&#279;vas</trd>
-  <trd lng="lv">t&#5603;vs</trd>
+  <trd lng="lv">t&emacron;vs</trd>
   <trd lng="mg">ray</trd>
   <trd lng="mi">papa</trd>
   <trd lng="mk">&c_t;&c_a;&c_t;&c_k;&c_o;</trd>
@@ -433,7 +433,7 @@
   <trd lng="hy">&#1396;&#1377;&#1397;&#1408;</trd>
   <trd lng="id">ibu</trd>
   <trd lng="ig">nne</trd>
-  <trd lng="is">m&oacute;&#240;ir</trd>
+  <trd lng="is">m&oacute;ðir</trd>
   <trd lng="it">madre</trd>
   <trd lng="ja">&#27597;</trd>
   <trd lng="jv">ibune</trd>
@@ -450,7 +450,7 @@
   <trd lng="lat">mater</trd>
   <trd lng="lo">&#3777;&#3745;&#3784;</trd>
   <trd lng="lt">motina</trd>
-  <trd lng="lv">m&#5585;te</trd>
+  <trd lng="lv">m&amacron;te</trd>
   <trd lng="mg">ny reniny</trd>
   <trd lng="mi">whaea</trd>
   <trd lng="mk">&c_m;&c_a;&#1112;&c_k;&c_a;</trd>
@@ -591,11 +591,27 @@
     <dif>
       Agi kiel <tld/>o al...:
       <ekz>
+        &scirc;i bezonis, ke iu okupi&gcirc;u pri &scirc;i, <tld/>u al &scirc;i
+        <fnt>
+          <bib>ChC</bib>
+          <lok>17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         li eble mem konsentos lin <tld/>i pro inklino
         <fnt>
           <aut>J. Racine, trad. G. Lagrange</aut>,
           <vrk>Fedra</vrk>,
           <lok>1991</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la estrara kunsidejo scias, &ccirc;u tiun miskalkulon <tld/>is <nom>Corsetti</nom> mem a&ubreve; liaj
+        kunestraranoj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 6 (104)</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -605,6 +621,7 @@
     <trd>&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_c;&c_a; <ind>&c_p;&c_a;-&c_b;&c_a;&c_c;&c_mol;&c_k;&c_o;&c_w;&c_s;&c_k;&c_u;</ind></trd>
   </trdgrp>
   <trd lng="cs">b&yacute;t otcem <klr>(n&ecaron;komu)</klr></trd>
+  <trd lng="de">wie ein Vater <ind>umsorgen</ind></trd>
   <trd lng="fr">se conduire comme un <ind>p&egrave;re</ind>
   pour...</trd>
   <trd lng="sk">by&tcaron; otcom</trd>
@@ -1282,7 +1299,7 @@
   <trd lng="lat">parente</trd>
   <trd lng="lo">&#3742;&#3789;&#3784;&#3777;&#3745;&#3784;</trd>
   <trd lng="lt">t&#279;v&#371;</trd>
-  <trd lng="lv">vec&#5585;ks</trd>
+  <trd lng="lv">vec&amacron;ks</trd>
   <trd lng="mg">ray aman-dreny</trd>
   <trd lng="mi">matua</trd>
   <trd lng="mk">&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;</trd>
@@ -1371,7 +1388,10 @@
     <trd>p&rcaron;edek</trd>,
     <trd>vzd&aacute;len&yacute; p&rcaron;edek</trd>
   </trdgrp>
-  <trd lng="de">Vorfahre</trd>
+  <trdgrp lng="de">
+    <trd>Vorfahre</trd>,
+    <trd>Urvater</trd>
+  </trdgrp>
   <trd lng="en">forefather</trd>
   <trdgrp lng="fr">
     <trd>a&iuml;eul<klr> (anc&ecirc;tre masculin)</klr></trd>,
@@ -1461,6 +1481,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_a;&c_c;&c_ib;</trd>
+  <trdgrp lng="de">
+    <trd>Vorfahrin</trd>,
+    <trd>Urmutter</trd>
+  </trdgrp>
   <trd lng="en">foremother</trd>
   <trdgrp lng="fr">
     <trd>a&iuml;eule<klr> (anc&ecirc;tre f&eacute;minin)</klr></trd>,
@@ -1498,8 +1522,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="vic.0.GEN">vic-<sncref/></ref>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_jo;&c_m;&c_n;&c_y; <ind>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;</ind></trd>
+  <trd lng="de">Adoptivvater</trd>
   <trd lng="en">adoptive father</trd>
   <trd lng="fr">p&egrave;re adoptif</trd>
   <trd lng="nl">adoptievader</trd>
@@ -1524,6 +1550,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_jo;&c_m;&c_n;&c_a;&c_ja; <ind>&c_m;&c_a;&c_c;&c_ib;</ind></trd>
+  <trd lng="de">Adoptivmutter</trd>
   <trd lng="en">adoptive mother</trd>
   <trd lng="fr">m&egrave;re adoptive</trd>
   <trd lng="nl">adoptiemoeder</trd>
@@ -1531,6 +1558,9 @@
 </art>
 <!--
 $Log$
+versio 1.172 2023/06/08 12:41:42
+Wolfram Diestel: ~i: +ekz; +trd de
+
 versio 1.171 2023/04/24 09:26:44
 Paul Peeraerts: @Sxteloj -> @Monato
 
@@ -1550,8 +1580,5 @@ versio 1.163 2021/12/12 17:41:16
 Warut Bunprasert: red th
 
 versio 1.85 2020/12/29 07:11:19
-Aleks Andre: bo
-
-versio 1.84 2020/07/20 13:10:32
 -->
 </vortaro>
