@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: paskvi.xml,v 1.22 2023/01/27 08:33:02 revo Exp $">
+<art mrk="$Id: paskvi.xml,v 1.23 2023/06/15 20:26:45 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>paskvil</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="paskvi.0o">
   <kap><tld/>o <fnt><bib>VdE</bib></fnt></kap>
@@ -16,10 +17,18 @@
       <ekz>
         oni rigardus &gcirc;in kiel malamikan <tld/>on kontra&ubreve; la homa
         gento, se mi &gcirc;in rakontus&#8230;
-        <fnt><aut>&Scirc;ilero, tr. %Z;</aut>: <vrk>La rabistoj</vrk>.
+        <fnt><aut>&Scirc;ilero, tr. &Z;</aut>: <vrk>La rabistoj</vrk>.
          <lok>1:2</lok></fnt>;
-      </ekz><ekz>
-        Ne larmomelke kaj <tld/>e, sed sarkasme kaj satire
+      </ekz>
+      <ekz>
+        tio pri Kama&ccirc;o kaj mi-ne-cerbas-kia <tld/>o katilina
+        <fnt>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne larmomelke kaj <tld/>e, sed sarkasme kaj satire
         <fnt><aut>Gon&ccedil;alo Neves</aut>:
         <vrk><url ref="esperanto.net/literaturo/uea/ajsezonrec.html">Moderne kaj
         koncerne.</url></vrk>.
@@ -62,15 +71,21 @@
     <trd>hanopis</trd>,
     <trd>paskvil</trd>
   </trdgrp>
-  <trd lng="de">Pasquill</trd>
+  <trdgrp lng="de">
+    <trd>Pasquill</trd>,
+    <trd><ofc>1</ofc>Schm&auml;hschrift</trd>,
+    <trd>Spottschrift</trd>,
+    <trd>Pamphlet <klr>(Schm&auml;hschrift)</klr></trd>
+  </trdgrp>
   <trdgrp lng="en">
-    <trd>pasquinade</trd>,
+    <trd><ofc>1</ofc>pasquinade</trd>,
     <trd>lampoon</trd>
   </trdgrp>
   <trd lng="fa">&a_h;&a_j;&a_w;&a_n;&a_A;&a_m;&a_h;</trd>
   <trdgrp lng="fr">
     <trd>libelle</trd>,
-    <trd>pamphlet</trd>
+    <trd><ofc>1</ofc>pasquinade</trd>,
+    <trd><ofc>1</ofc>pamphlet</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>g&uacute;nyirat</trd>,
@@ -84,9 +99,9 @@
     <trd>paskwil</trd>,
     <trd>schotschrift</trd>
   </trdgrp>
-  <trd lng="pl">paszkwil</trd>
+  <trd lng="pl"><ofc>1</ofc>paszkwil</trd>
   <trd lng="pt">pasquim</trd>
-  <trd lng="ru">&c_p;&c_a;&c_s;&c_k;&c_v;&c_i;&c_l;&c_mol;</trd>
+  <trd lng="ru"><ofc>1</ofc>&c_p;&c_a;&c_s;&c_k;&c_v;&c_i;&c_l;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>hanopis</trd>,
     <trd>pa&scaron;kvil</trd>
@@ -100,7 +115,7 @@
     <dif>
       Verki, publikigi, dissendi <tld/>ojn:
       <ekz>
-        En 1995 la romano <ctl>Vasta kampo</ctl>, kiu tre kritike
+        en 1995 la romano <ctl>Vasta kampo</ctl>, kiu tre kritike
         traktas la t.n. reunui&gcirc;on de Germanio, fari&gcirc;is tutsomera
         <tld/>ado anka&ubreve; ekster pure literaturaj medioj
         <fnt><aut>Wolfgang Kirschstein</aut>:
@@ -131,6 +146,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_s;&c_k;&c_v;&c_ib;&c_l;&c_ja;&c_n;&c_t;</trd>
+  <trd lng="de">Pasquillant</trd>
   <trd lng="ru">&c_p;&c_a;&c_s;&c_k;&c_v;&c_i;&c_l;&c_ja;&c_n;&c_t;</trd>
   <trd lng="uk">&#x43F;&c_a;&c_s;&#x43A;&c_v;&c_ib;&#x43B;&#x44F;&#x43D;&c_t;</trd>
 </drv>
@@ -138,6 +154,9 @@
 </art>
 <!--
 $Log$
+versio 1.23 2023/06/15 20:26:45
+Wolfram Diestel: +trd de, OA1, ekz
+
 versio 1.22 2023/01/27 08:33:02
 Dmitri Gabinski: + trd be
 
@@ -157,8 +176,5 @@ Revision 1.15  2014/01/02 13:10:20  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.14  2011/10/01 22:10:08  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.13  2010/04/16 16:31:28  revo
 -->
 </vortaro>
