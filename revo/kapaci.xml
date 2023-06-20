@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kapaci.xml,v 1.21 2022/03/21 17:51:56 revo Exp $">
+<art mrk="$Id: kapaci.xml,v 1.22 2023/06/20 19:19:16 revo Exp $">
 <kap>
   <rad>kapacit</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -9,81 +9,259 @@
   <kap>
     <tld/>o
   </kap>
-  <snc mrk="kapaci.0o.enhaveco">
-    <uzo tip="fak">SCI</uzo>
-    <uzo tip="fak">FIZ</uzo>
+  <snc>
+    <uzo tip="stl">KOMUNE</uzo>
     <dif>
-      Gasa, likva a&ubreve; solida materiokvanto, kiun povas enteni ujo:
+      Maksimuma <ref tip="super" cel="kapabl.0o">kapablo</ref> ion enteni, trafluigi, eligi:
       <ekz>
-        <tld/>o de vazo.
+        nova vojo kondukas nun tra Hungario kaj Rumanio, sed tie la <tld/>o de la
+        limkontrolejoj estas malalta
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9310-artikoletoj.txt"
+              >Malkopiilo</url></vrk>
+          <lok>93/10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        se la oratoro ne volas paroli en malplenon, li nepre devas adapti sian paroladon
+        al la intelekta <tld/>o de la publiko
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi nombris tri a&ubreve; kvar kunvenejojn kun <tld/>o inter 100 kaj 500 personoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2007/009191.php"
+              >Spertoj de amatora lobianto</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pli ol 50 gelernantoj ne povis partopreni la kurson pro manko de spaco en la
+        klas&ccirc;ambro (deziris ali&gcirc;i pli ol duoblo de la tuta <tld/>o)
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 2 (52)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se oni konvertus parton de la ligno <klr>[&#8230;]</klr> al tia karbo, oni
+        pligrandigus la arbaran <tld/>on por konservado de karbono
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Fu&szlig;</aut>
+          <vrk><url ref="https://www.monato.be/2011/010273.php"
+              >Verdigu la dezertojn!</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="hav.en0eco">enhaveco</ref>
-    <trd lng="en">capacity</trd>
-    <trd lng="ca">capacitat</trd>
-    <trdgrp lng="fr">
-      <trd>contenance</trd>,
-      <trd>capacit&eacute;<klr tip="ind"> (contenance)</klr></trd>
-    </trdgrp>
-    <trd lng="es">capacidad <klr tip="ind">(volumen)</klr></trd>
-    <trdgrp lng="hu">
-      <trd>befogad&oacute;k&eacute;pess&eacute;g</trd>,
-      <trd>&udblac;rtartalom</trd>
-    </trdgrp>
-    <trdgrp lng="nl">
-      <trd>capaciteit</trd>,
-      <trd>inhoud</trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>obj&eogonek;to&sacute;&cacute;</trd>,
-      <trd>pojemno&sacute;&cacute;</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_jo;&c_m;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>,
-      <trd>&c_v;&c_m;&c_je;&c_s;&c_t;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;
-      </trd>
-    </trdgrp>
   </snc>
-  <snc mrk="kapaci.0o.akumulatoro">
-    <uzo tip="fak">ELE</uzo>
+  <snc mrk="kapaci.0o.SCI">
+    <uzo tip="fak">SCI</uzo>
     <dif>
-      <klr>(de <ref cel="akumul1.0o">akumulatoro</ref>)</klr>
-      Plej granda <ref cel="sxarg.0o.grando">&scirc;argo</ref>, kiun
-      &gcirc;i povas enteni.
+      En scienco, diversfake:
     </dif>
-    <trdgrp lng="en"><trd>capacity</trd>,
-    <trd>capacitance</trd></trdgrp>
-    <trd lng="ca">capacitat</trd>
-    <trd lng="fr">capacit&eacute;<klr tip="ind"> (d'un accu)</klr></trd>
-    <trd lng="hu">kapacit&aacute;s<klr tip="ind">
-    (akkumul&aacute;tor&eacute;)</klr></trd>
-    <trd lng="nl">vermogen</trd>
-    <trd lng="pl">pojemno&sacute;&cacute;</trd>
-    <trd lng="ru">&c_jo;&c_m;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
-  </snc>
-  <snc mrk="kapaci.0o.kapacitanco">
-    <uzo tip="fak">ELE</uzo>
-    <fnt><bib>ScTerm</bib><lok>p. 34</lok></fnt>
-    <fnt><bib>PV</bib></fnt>
-    <uzo tip="stl">ARK</uzo>
-    <ref tip="dif" cel="kapaci1.0o">kapacitanco</ref>
-    <trd lng="en">capacitance</trd>
-    <trd lng="ca">capacit&agrave;ncia</trd>
-    <trd lng="es">capacitancia</trd>
-    <trd lng="nl">capaciteit<klr tip="ind"> (arch.)</klr></trd>
-    <trd lng="pl">pojemno&sacute;&cacute;</trd>
-    <trd lng="ru">&c_jo;&c_m;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <subsnc mrk="kapaci.0o.produktado">
+      <uzo tip="fak">EKON</uzo>
+      <dif>
+        Maksimuma produktokapablo je difinita tempo per &ccirc;iuj disponeblaj rimedoj de iu
+        entrepreno:
+        <ekz>
+          plen<tld/>e laboras uzinoj kaj minejoj, sed e&ccirc; la tuta <tld/>o ne sufi&ccirc;as por
+          plenumi la mendojn
+          <fnt>
+            <bib>InfanTorent2</bib>
+            <lok>Dua Parto</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          a&ubreve;stra produktanto de ventelektro
+          <nom>DonauWind</nom> havas planojn por plikreskigo de la ventelektrejaj <tld/>oj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Evgeni Georgiev</aut>
+            <vrk><url ref="http://steloj.de/esperanto/monato2/007271.html"
+                >Ventelektrejoj en ofensivo</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ne pluvis sufi&ccirc;e, tial la generatoroj, kiuj &ccirc;efe uzas akvofalan energion,
+          ne povas funkcii je sia normala <tld/>o
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Bardhyl Selimi</aut>
+            <vrk><url ref="http://steloj.de/esperanto/monato2/007285.html"
+                >Energia katastrofo</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="pov.0o">povo</ref>
+      </refgrp>
+    </subsnc>
+    <subsnc mrk="kapaci.0o.enhaveco">
+      <uzo tip="fak">FIZ</uzo>
+      <dif>
+        <ref tip="super" cel="kvant.0o">Kvanto</ref> (gasa, likva a&ubreve; solida),
+        kiun povas enteni ujo:
+        <ekz>
+          <tld/>o de vazo;
+        </ekz>
+        <ekz>
+          la &scirc;ipo estus povinta kolekti en unu semajno &ccirc;iun nafton elfluintan
+          <klr>[&#8230;]</klr> la projekto anticipas trimaranon, kies centra &scirc;elo havus pli
+          grandan <tld/>on
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Christian Bertin</aut>
+            <vrk><url ref="https://www.monato.be/2003/008085.html"
+                >&Ccirc;u revo iam fari&gcirc;os realo?</url></vrk>
+            <lok>2003</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="sin">
+        <ref cel="hav.en0eco">enhaveco</ref>,
+        <ref cel="volume.0o.kapacito">volumeno<sncref/></ref>
+      </refgrp>
+      <trd lng="en">capacity</trd>
+      <trd lng="ca">capacitat</trd>
+      <trdgrp lng="fr">
+        <trd>contenance</trd>,
+        <trd>capacit&eacute;<klr tip="ind"> (contenance)</klr></trd>
+      </trdgrp>
+      <trd lng="es">capacidad <klr tip="ind">(volumen)</klr></trd>
+      <trdgrp lng="hu">
+        <trd>befogad&oacute;k&eacute;pess&eacute;g</trd>,
+        <trd>&udblac;rtartalom</trd>
+      </trdgrp>
+      <trdgrp lng="nl">
+        <trd>capaciteit</trd>,
+        <trd>inhoud</trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>obj&eogonek;to&sacute;&cacute;</trd>,
+        <trd>pojemno&sacute;&cacute;</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_jo;&c_m;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>,
+        <trd>&c_v;&c_m;&c_je;&c_s;&c_t;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;
+        </trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="kapaci.0o.memora">
+      <uzo tip="fak">KOMP</uzo>
+      <dif>
+        Maksimuma kvanto da datumoj, kiujn ia dispona&jcirc;o (memoro, procezilo,
+        komunikkanalo) povas enteni a&ubreve; trakti:
+        <ekz>
+          <klr>[la]</klr> tekokomputilo <klr>[&#8230;]</klr> proponas grandegajn kalkulpovon,
+          konserv-<tld/>on
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Rob Ebenau</aut>
+            <vrk><url ref="https://www.monato.be/2005/008528.php"
+                >Kiel protekti kontra&ubreve; perdo kaj &scirc;telo?</url></vrk>
+            <lok>2005</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          senpagaj retpa&gcirc;oj por individuoj kutime havas maksimuman <tld/>on de 100
+          megabajtoj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Roland Rotsaert</aut>
+            <vrk><url ref="https://www.monato.be/2012/010663.php"
+                >De papero al komputilo: bitigo de presitaj dokumentoj</url></vrk>
+            <lok>2012</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la komenca indeksado povas da&ubreve;ri kelkajn &gcirc;is kelkdek horojn, sed &gcirc;i okazas, nur
+          kiam sufi&ccirc;e da komputila <tld/>o estas je dispono
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Roland Rotsaert</aut>
+            <vrk><url ref="https://www.monato.be/2005/008753.php"
+                >Google Desktop Search: ser&ccirc;ilo por la propra komputilo</url></vrk>
+            <lok>2005</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="kapaci.0o.akumulatoro">
+      <uzo tip="fak">ELE</uzo>
+      <dif>
+        <klr>(de <ref cel="akumul1.0o">akumulatoro</ref>)</klr>
+        Plej granda <ref cel="sxarg.0o.grando">&scirc;argo</ref>, kiun
+        &gcirc;i povas enteni:
+        <ekz>
+          la po&scirc;telefon<klr>[o&#8230;]</klr> havas akumulatoron kun <tld/>o sufi&ccirc;a por tuta tago
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Franck Arnaud</aut>
+            <vrk><url ref="https://www.monato.be/2010/010076.php"
+                >Parto 3: Apple iPad - &ccirc;u revolucio a&ubreve; evolucio?</url></vrk>
+            <lok>2010</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="en"><trd>capacity</trd>,
+      <trd>capacitance</trd></trdgrp>
+      <trd lng="ca">capacitat</trd>
+      <trd lng="fr">capacit&eacute;<klr tip="ind"> (d'un accu)</klr></trd>
+      <trd lng="hu">kapacit&aacute;s<klr tip="ind">
+      (akkumul&aacute;tor&eacute;)</klr></trd>
+      <trd lng="nl">vermogen</trd>
+      <trd lng="pl">pojemno&sacute;&cacute;</trd>
+      <trd lng="ru">&c_jo;&c_m;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </subsnc>
+    <subsnc mrk="kapaci.0o.kapacitanco">
+      <uzo tip="fak">ELE</uzo>
+      <fnt><bib>ScTerm</bib><lok>p. 34</lok></fnt>
+      <fnt><bib>PV</bib></fnt>
+      <uzo tip="stl">ARK</uzo>
+      <dif>
+        <ref tip="dif" cel="kapaci1.0o">Kapacitanco</ref>:
+        <ekz>
+          la ekrano uzas <tld/>an tu&scirc;ekranon
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Franck Arnaud</aut>
+            <vrk><url ref="https://www.monato.be/2010/010076.php"
+                >Parto 3: Apple iPad - &ccirc;u revolucio a&ubreve; evolucio?</url></vrk>
+            <lok>2010</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="en">capacitance</trd>
+      <trd lng="ca">capacit&agrave;ncia</trd>
+      <trd lng="es">capacitancia</trd>
+      <trd lng="nl">capaciteit<klr tip="ind"> (arch.)</klr></trd>
+      <trd lng="pl">pojemno&sacute;&cacute;</trd>
+      <trd lng="ru">&c_jo;&c_m;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </subsnc>
   </snc>
   <trd lng="be">&c_jo;&c_m;&c_ib;&c_s;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="de">Kapazit&auml;t</trd>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x456;&#x441;&#x442;&#x43A;&#x456;&#x441;&#x442;&#x44C;</trd>,
-    <trd>&#x454;&#x43C;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
+    <trd>&c_m;&c_ib;&c_s;&c_t;&c_k;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_jeu;&c_m;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/06/20 19:19:16
+Wolfram Diestel: amplekse reverkita: +snc KOMUNE, EKON, KOMP, multaj ekz-oj
+
 Revision 1.19  2015/09/16 15:10:23  revo
 Cindy Moon McKee: +trd en
 
