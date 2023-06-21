@@ -1,82 +1,174 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: volume.xml,v 1.26 2022/03/28 11:08:55 revo Exp $">
-    <kap>
-      <ofc>4</ofc>
-      <rad>volumen</rad>/o
-      <fnt>Z</fnt>
-    </kap>
+<art mrk="$Id: volume.xml,v 1.27 2023/06/21 06:30:02 revo Exp $">
+<kap>
+  <ofc>4</ofc>
+  <rad>volumen</rad>/o
+  <fnt><bib>PV</bib></fnt>
+</kap>
 
-    <drv mrk="volume.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="volume.0o.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
-        <dif>
-          Mezuro de <ref cel="solid.0o.geometrio">solido</ref>:
-          <ekz>
-            la <tld/>o de <ref cel="kub.0o.figuro">kubo</ref> egalas
-            al la <ref cel="kub.0o.algebra">kubo</ref> de &gcirc;ia e&gcirc;o;
-          </ekz><ekz>
-            la <tld/>o de <ref cel="sfer.0o.solido">sfero</ref> estas
-            proporcia al la <ref cel="kub.0o.algebra">kubo</ref> de
-            &gcirc;ia radiuso;
-          </ekz><ekz>
-            el &ccirc;iuj solidoj havantaj saman <ref cel="are.0o.mezuro">areon</ref>
-            la <ref cel="sfer.0o.solido">sfero</ref> havas la plej
-            grandan <tld/>on.
-          </ekz>
-        </dif>
-        <trd lng="pl">obj&eogonek;to&sacute;&cacute;</trd>
-      </snc>
-      <snc mrk="volume.0o.FIZ">
-        <uzo tip="fak">FIZ</uzo>
-        <dif>
-          <ref tip="super" cel="grand.fizika0o">Fizika grando</ref>,
-          esprimanta la mezuron de la spaco okupata de objekto:
-          <ekz>
-            la <ref cel="dimens.0o.FIZ">dimensioj</ref> de <tld/>o estas
-            <frm am="M^0L^3T^0">M<sup>0</sup>L<sup>3</sup>T<sup>0</sup></frm>.
-          </ekz><ekz>
-            la variado de la <tld/>o de gaso depende je la temperaturo
-            kaj premo;
-          </ekz><ekz>
-            <ind>specifa <tld/>o</ind>
-            <klr>(la <tld/>o de 1 masunuo da substanco)</klr>.
-            <trd lng="ru">&c_u;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_o;&c_b;&c_malmol;&c_jo;&c_m;</trd>
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="metr.kuba0o">kuba metro</ref>.
-        </refgrp>
-      </snc>
-
-      <snc mrk="volume.0o.kapacito">
-        <dif>
-          <ref tip="dif" cel="kapaci.0o.enhaveco">Kapacito<sncref/></ref>:
-          <ekz>
-            kesto kun granda <tld/>o, sed malgranda pezo.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="amplek.0o">amplekso</ref>,
-          <ref cel="hav.en0o">enhavo</ref>.
-        </refgrp>
-      </snc>
-
-      <snc mrk="volume.0o.malklara">
-        <dif>
-          Neklare konturita a&ubreve; malfacile priskribebla objekto
-          tridimensia:
-          <ekz>
-            &scirc;ian atenton kaptis la luksa <tld/>ego de oketa&gcirc;a, evidente
-            &jcirc;us konstruita domo
-            <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 21</lok></fnt>.
-          </ekz>
-        </dif>
-        <ref tip="sin" cel="mas.0o.kacxo">maso<sncref/></ref>
-      </snc>
+<drv mrk="volume.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="volume.0o.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      <ref tip="super" cel="grand.fizika0o">Fizika grando</ref>,
+      esprimanta la mezuron de la spaco okupata de objekto:
+      <ekz>
+        la <ref cel="dimens.0o.FIZ">dimensioj</ref> de <tld/>o estas
+        <frm am="M^0L^3T^0">M<sup>0</sup>L<sup>3</sup>T<sup>0</sup></frm>.
+      </ekz>
+      <ekz>
+        la variado de la <tld/>o de gaso depende je la temperaturo
+        kaj premo;
+      </ekz>
+      <ekz>
+        <ind>specifa <tld/>o</ind>
+        <klr>(la <tld/>o de 1 masunuo da substanco)</klr>;
+        <trd lng="ru">&c_u;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_o;&c_b;&c_malmol;&c_jo;&c_m;</trd>
+      </ekz>
+      <ekz>
+        se specifa <tld/>o de oksigeno devus havi pezon de 1 kilogramo &ndash; la&ubreve; sia nombro
+        de la protonoj en &ccirc;iu atomo &ndash; en la realo, &gcirc;i pro la aldonaj ne&ubreve;tronoj fakte
+        havos pezon de preska&ubreve; 2 kilogramoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="https://www.monato.be/2011/010370.php"
+              >Moderna minaco: radioaktiveco</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la a&ubreve;toro konsideras grandojn, derivitajn el bazaj kvantograndoj (maso, <tld/>o
+        kaj substanckvanto) per frakci-formaj rilatoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anna kaj Mati Pentus</aut>
+          <vrk><url ref="https://www.monato.be/2008/009306.php"
+              >Lingvo, Interreto kaj ... alio</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Gronlando, kovrita de dikaj gla&ccirc;eroj, la glacia volumeno estas 3&#8239;000&#8239;000&#8239;km<sup>3</sup>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2012/010551.php"
+              >Klimat&scirc;an&gcirc;aj fabeloj</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvankam bonkreskaj, <klr>[ili]</klr> havas muskolojn kovritajn de graso kaj pli
+        grandan volumenon, ol forton
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXVIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="metr.kuba0o">kuba metro</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="volume.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+    <dif>
+      Mezuro de <ref cel="solid.0o.geometrio">solido</ref>:
+      <ekz>
+        la <tld/>o de <ref cel="kub.0o.figuro">kubo</ref> egalas
+        al la <ref cel="kub.0o.algebra">kubo</ref> de &gcirc;ia e&gcirc;o;
+      </ekz>
+      <ekz>
+        la <tld/>o de <ref cel="sfer.0o.solido">sfero</ref> estas
+        proporcia al la <ref cel="kub.0o.algebra">kubo</ref> de
+        &gcirc;ia radiuso;
+      </ekz>
+      <ekz>
+        el &ccirc;iuj solidoj havantaj saman <ref cel="are.0o.mezuro">areon</ref>
+        la <ref cel="sfer.0o.solido">sfero</ref> havas la plej
+        grandan <tld/>on.
+      </ekz>
+    </dif>
+    <trd lng="pl">obj&eogonek;to&sacute;&cacute;</trd>
+  </snc>
+  <snc mrk="volume.0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Vendosumo, kiun atingas iu <ref tip="malprt" cel="merkat.0o">merkato</ref>:
+      <ekz>
+        oni enportis &ccirc;irka&ubreve; 600 a&ubreve; 800 miloj da litroj &ccirc;iutage, dume, la produktado de
+        biero apena&ubreve; atingis trionon de tiu &ccirc;i <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007033.html"
+              >Centra Ameriko: Nepre &gcirc;ia nomo estas Meksiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o de ekstera komerco de la ok novaj EU-membroj plii&gcirc;is en
+        la periodo 1990-2003 de 62,5 miliardoj al 370 miliardoj da e&ubreve;roj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2004/008396.html"
+              >Profunda struktur&scirc;an&gcirc;o en meza kaj orienta E&ubreve;ropo</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la volumeno de la industria produktado en &Ccirc;inio kreskis je preska&ubreve; 10&#8239;%
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2014/011274.php"
+              >Bonaj perspektivoj por 2014</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kapaci.0o.EKON">kapacito</ref>
+    </refgrp>
+    <trd lng="de">Marktvolumen</trd>
+  </snc>
+  <snc mrk="volume.0o.kapacito">
+    <dif>
+      <ref tip="dif" cel="kapaci.0o.enhaveco">Kapacito<sncref/></ref>:
+      <ekz>
+        kesto kun granda <tld/>o, sed malgranda pezo.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="amplek.0o">amplekso</ref>,
+      <ref cel="hav.en0o">enhavo</ref>
+    </refgrp>
+    <trd lng="de">Fassungsverm&ouml;gen</trd>
+  </snc>
+  <snc mrk="volume.0o.malklara">
+    <dif>
+      Neklare konturita a&ubreve; malfacile priskribebla objekto
+      tridimensia:
+      <ekz>
+        &scirc;ian atenton kaptis la luksa <tld/>ego de oketa&gcirc;a, evidente
+        &jcirc;us konstruita domo
+        <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 21</lok></fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia <tld/>o estis ege ampleksa kaj &scirc;iaj astronomie &scirc;velaj konturoj ka&ubreve;zis
+        angoron al junaj viroj
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="mas.0o.kacxo">maso<sncref/></ref>
+  </snc>
   <trd lng="be">&c_a;&c_b;'&c_jo;&c_m;</trd>
   <trd lng="br">volum</trd>
   <trdgrp lng="cs">
@@ -90,85 +182,89 @@
   <trd lng="fr">volume<klr tip="ind"> (mesure)</klr></trd>
   <trd lng="he">&nun;&pe;&het;</trd>
   <trdgrp lng="hu">
-        <trd>t&eacute;rfogat</trd>,
-        <trd>terjedelem</trd>
-      </trdgrp>
+    <trd>t&eacute;rfogat</trd>,
+    <trd>terjedelem</trd>
+  </trdgrp>
   <trdgrp lng="nl">
-        <trd>volume<klr tip="ind"> (inhoud)</klr></trd>,
-        <trd>inhoud</trd>
-      </trdgrp>
+    <trd>volume<klr tip="ind"> (inhoud)</klr></trd>,
+    <trd>inhoud</trd>
+  </trdgrp>
   <trd lng="pt">volume</trd>
   <trd lng="ru">&c_o;&c_b;&c_malmol;&c_jo;&c_m;</trd>
   <trd lng="sk">objem</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x431;&#x2019;&#x454;&#x43C;</trd>,
-    <trd>&#x43C;&#x430;&#x441;&#x430;</trd>,
-    <trd>&#x43E;&#x431;&#x441;&#x44F;&#x433;</trd>
+    <trd>&c_o;&c_b;&#8217;&c_jeu;&c_m;</trd>,
+    <trd>&c_m;&c_a;&c_s;&c_a;</trd>,
+    <trd>&c_o;&c_b;&c_s;&c_ja;&c_g;</trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="volume.0ajxo">
-      <kap><tld/>a&jcirc;o</kap>
-      <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
-      <snc mrk="volume.0ajxo.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <uzo tip="stl">ARK</uzo>
-        <dif>
-          <ref tip="dif" cel="solid.0o.geometrio">Solido</ref>, precipe
-          se
-          &gcirc;i havas finian <tld/>on.
-        </dif>
-        <trd lng="es">volumen</trd>
-      </snc>
+<drv mrk="volume.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+  <snc mrk="volume.0ajxo.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="stl">ARK</uzo>
+    <dif>
+      <ref tip="dif" cel="solid.0o.geometrio">Solido</ref>, precipe
+      se
+      &gcirc;i havas finian <tld/>on.
+    </dif>
+    <trd lng="es">volumen</trd>
+  </snc>
 
-      <snc mrk="volume.0ajxo.TEK">
-        <uzo tip="fak">TEK</uzo>
-        <dif>
-          Kromsubstanco aldonata al la &ccirc;efa substanco por plenigi
-          <tld/>on, kompaktigi, remburi ktp:
-          <ekz>
-            asfalto <klr>...</klr> estas kapabla ligi la grajnojn
-            de <tld/>a&jcirc;o <klr>(ekz-e gruzo)</klr> kaj tiel
-            konsistigi firman kaj elastan materialon
-            <fnt>
-              <aut>Jan Werner</aut>:
-              <vrk><url ref="http://www.mujweb.cz/Kultura/malovec/BETONO.HTM">Terminaro de betono kaj betonistaj laboroj</url></vrk>
-            </fnt>;
-          </ekz><ekz>
-            <ind>&scirc;a&ubreve;migita <tld/>a&jcirc;o</ind>
-            <trd lng="de">Schaumzuschlagstoff</trd>
-            <trd lng="en">foamed aggregate</trd>
-            <trd lng="ru">&c_p;&c_je;&c_n;&c_n;&c_y;&c_j;
-&c_n;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
-          </ekz>
-        </dif>
-        <trd lng="de">Zuschlag</trd>
-        <trd lng="en">aggregate</trd>
-        <trd lng="ru">&c_n;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
-      </snc>
-    </drv>
+  <snc mrk="volume.0ajxo.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Kromsubstanco aldonata al la &ccirc;efa substanco por plenigi
+      <tld/>on, kompaktigi, remburi ktp:
+      <ekz>
+        asfalto <klr>[&#8230;]</klr> estas kapabla ligi la grajnojn
+        de <tld/>a&jcirc;o <klr>(ekz-e gruzo)</klr> kaj tiel
+        konsistigi firman kaj elastan materialon
+        <fnt>
+          <aut>Jan Werner</aut>:
+          <vrk><url ref="http://www.mujweb.cz/Kultura/malovec/BETONO.HTM"
+          >Terminaro de betono kaj betonistaj laboroj</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        <ind>&scirc;a&ubreve;migita <tld/>a&jcirc;o</ind>
+        <trd lng="de">Schaumzuschlagstoff</trd>
+        <trd lng="en">foamed aggregate</trd>
+        <trd lng="ru">&c_p;&c_je;&c_n;&c_n;&c_y;&c_j;
+        &c_n;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+      </ekz>
+    </dif>
+    <trd lng="de">Zuschlag</trd>
+    <trd lng="en">aggregate</trd>
+    <trd lng="ru">&c_n;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  </snc>
+</drv>
 
-    <drv mrk="volume.sam0a">
-      <kap>sam<tld/>a</kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
-      <snc>
-        <dif>
-          <klr>(p.p. <ref cel="solid.0o.geometrio">solidoj</ref>)</klr>
-          Havantaj saman <ref cel="volume.0o"><tld/>on</ref>.
-        </dif>
-      </snc>
-      <trd lng="de">mit gleichem <ind>Volumen</ind></trd>
-      <trd lng="en">of the same <ind>volume</ind></trd>
-      <trd lng="he">&shin;&vav;&vav;&he; &nun;&pe;&het;</trd>
-      <trd lng="fr">de m&ecirc;me <ind>volume</ind></trd>
-      <trd lng="hu">azonos <ind>t&eacute;rfogat&uacute;</ind></trd>
-      <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_o;&c_b;&c_malmol;&c_jo;&c_m;&c_n;&c_y;&c_j;</trd>
-    </drv>
+<drv mrk="volume.sam0a">
+  <kap>sam<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatTerm</bib><lok>p. 30</lok></fnt>
+  <snc>
+    <dif>
+      <klr>(p.p. <ref cel="solid.0o.geometrio">solidoj</ref>)</klr>
+      Havantaj saman <ref cel="volume.0o"><tld/>on</ref>.
+    </dif>
+  </snc>
+  <trd lng="de">mit gleichem <ind>Volumen</ind></trd>
+  <trd lng="en">of the same <ind>volume</ind></trd>
+  <trd lng="he">&shin;&vav;&vav;&he; &nun;&pe;&het;</trd>
+  <trd lng="fr">de m&ecirc;me <ind>volume</ind></trd>
+  <trd lng="hu">azonos <ind>t&eacute;rfogat&uacute;</ind></trd>
+  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_o;&c_b;&c_malmol;&c_jo;&c_m;&c_n;&c_y;&c_j;</trd>
+</drv>
 
-  </art>
+</art>
   <!--
-  $Log: volume.xml,v $
+  $Log$
+versio 1.27 2023/06/21 06:30:02
+Wolfram Diestel: +ekz-oj, +snc EKON
+
 versio 1.25 2020/02/16 12:10:38
 Wolfram Diestel: formuloj per am
 
@@ -188,8 +284,5 @@ Wolfram Diestel: formuloj per am
   Marc Bavant: +trd ru/en
 
   Revision 1.19  2003/04/08 16:31:50  revo
-  Marc Bavant: sam~a: +trd de
-  Revision 1.18  2003/01/13 17:34:54  revo
-  Marc Bavant: sam~a: +trd
 -->
 </vortaro>
