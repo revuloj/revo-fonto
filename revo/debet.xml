@@ -1,27 +1,63 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: debet.xml,v 1.18 2022/03/15 15:50:54 revo Exp $">
+<art mrk="$Id: debet.xml,v 1.19 2023/06/22 06:29:27 revo Exp $">
 <kap>
-<ofc>3</ofc>
-<rad>debet</rad>/o
+  <ofc>3</ofc>
+  <rad>debet</rad>/o
 </kap>
+
 <drv mrk="debet.0o">
-<kap><tld/>o</kap>
-  <snc>
-  <uzo tip="fak">EKON</uzo>
-  <dif>
-    Tuto de &ccirc;iuj sumoj &scirc;ulditaj de iu al komercisto:
-    <ekz>via <tld/>o atingas &gcirc;is 1.700 dolaroj.
-  </ekz>
-  </dif>
-  <ref tip="sin" cel="sxuld.0o">&scirc;uldo</ref>
+  <kap><tld/>o</kap>
+  <snc mrk="debet.0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Tuto de &ccirc;iuj sumoj &scirc;ulditaj de iu al komercisto:
+      <ekz>
+        via <tld/>o atingas 1&#8239;700 dolarojn;
+      </ekz>
+      <ekz>
+        &ccirc;iun e&ccirc; plej etan eventon oni imputos <tld/>e al mia konto
+        <fnt>
+          <bib>SkandalJozef</bib>
+          <lok>Potifar, la bonkorulo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akiri kontantan monon per kreditkarto ofte multe kostas, pli racia kaj enlande
+        kutime uzata estas la <ind><tld/>karto</ind>, <klr>[&#8230;]</klr> elspezoj per &gcirc;i estas tuj
+        subtrahataj de la kontosaldo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2006/008954.php"
+              >SEPA: la fina fazo de la enkonduko de e&ubreve;ro</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+        <trdgrp lng="de">
+          <trd>Debitkarte</trd>,
+          <trd>Bankkarte</trd>,
+          <trd>Girocard</trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la tempiojn &dash; sen riparo &dash; &parsl; Anserpiede stampas faldoj, &parsl; Kaj la &ccirc;apitro de l'
+        hararo &parsl; Prezentas sin kun <tld/>saldoj <klr>(harelfalo, kalveco)</klr>
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Anta&ubreve;signoj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="sxuld.0o">&scirc;uldo</ref>
+    <ref tip="ant" cel="kredit.0o.konto">kredito</ref>
   </snc>
   <trd lng="be">&c_d;&c_e;&c_b;&c_e;&c_t;</trd>
   <trdgrp lng="cs">
     <trd>debet</trd>,
     <trd>dluh</trd>,
-    <trd>strana "m&#xE1; d&#xE1;t"</trd>
+    <trd>strana "m&aacute; d&aacute;t"</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Soll</trd>,
@@ -31,7 +67,7 @@
   </trdgrp>
   <trd lng="en">debits</trd>
   <trd lng="fr">d&eacute;bit<klr tip="ind"> (d'un compte)</klr></trd>
-  <trd lng="he">&#x5D7;&#x5D5;&#x5D1;</trd>
+  <trd lng="he">&het;&vav;&bet;</trd>
   <trdgrp lng="hu">
     <trd>k&ouml;vetel&eacute;s<klr tip="ind">
     (sz&aacute;ml&aacute;n)</klr></trd>,
@@ -52,23 +88,47 @@
   <trd lng="ru">&c_d;&c_je;&c_b;&c_je;&c_t;</trd>
   <trdgrp lng="sk">
     <trd>dlh</trd>,
-    <trd>dl&#x17E;oba</trd>
+    <trd>dl&zcaron;oba</trd>
   </trdgrp>
-  <trd lng="uk">&#x434;&#x435;&#x431;&#x435;&#x442;</trd>
+  <trd lng="uk">&c_d;&c_je;&c_b;&c_je;&c_t;</trd>
 </drv>
 
 <drv mrk="debet.0i">
-<kap><tld/>i</kap>
-<gra><vspec>tr</vspec></gra>
-  <snc>
-  <uzo tip="fak">EKON</uzo>
-  <dif>
-    Enskribi en konton la &scirc;uldojn de iu; malkrediti: <ekz>oni
-    <tld/>as
-    la klienton per &ccirc;io, kion li ricevas, kaj oni kreditas lin per
-    &ccirc;io, kion li pagas.
-  </ekz>
-  </dif>
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="debet.0i.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Enskribi en konton la &scirc;uldojn de iu:
+      <ekz>
+        oni <tld/>as la klienton per &ccirc;io, kion li ricevas, kaj oni kreditas lin per
+        &ccirc;io, kion li pagas;
+      </ekz>
+      <ekz>
+        tiun sperton li ekspluatis por krediti kaj <tld/>i monon &ccirc;e alia mon&scirc;an&gcirc;ejo
+        <klr>[&#8230;]</klr> iel la nigra mono forvagis al senimposta paradizo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Karlo Juh&aacute;sz</aut>
+          <vrk><url ref="https://www.monato.be/2004/008312.html"
+              >Banko-manko</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="ant" cel="kredit.0i.konto">krediti</ref>
+    <rim>
+      Ne konfuzu kun <ref tip="hom" cel="debit.0i">debiti</ref>:
+      <ekz>
+        la Israela UK estis bona preteksto por <mis>debeti</mis>
+        <klr>(debiti, t.e. vendi)</klr> la kajerojn de la jid-literatura
+        klasikulo, kaj ni ekhavis novan rekordon &ndash; 39 libroj jare
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2001, &#8470;2</lok>
+        </fnt>!
+      </ekz>
+    </rim>
   </snc>
   <trdgrp lng="be">
     <trd>&c_d;&c_e;&c_b;&c_e;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -76,10 +136,10 @@
     <ind>&c_d;&c_e;&c_b;&c_e;&c_t;</ind></trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>b&#xFD;t dlu&#x17E;en</trd>,
-    <trd>dlu&#x17E;it</trd>,
-    <trd>ps&#xE1;t na vrub</trd>,
-    <trd>zat&#xED;&#x17E;it</trd>
+    <trd>b&yacute;t dlu&zcaron;en</trd>,
+    <trd>dlu&zcaron;it</trd>,
+    <trd>ps&aacute;t na vrub</trd>,
+    <trd>zat&iacute;&zcaron;it</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>belasten</trd>,
@@ -92,7 +152,7 @@
     <trd>d&eacute;biter<klr tip="ind"> (porter au
     d&eacute;bit)</klr></trd>,
     <trd>porter au <ind>d&eacute;bit</ind></trd></trdgrp>
-  <trd lng="he">&#x5DC;&#x5D4;&#x5D9;&#x5D5;&#x5EA; &#x5D7;&#x5D9;&#x5D9;&#x5D1;</trd>
+  <trd lng="he">&lamed;&he;&yod;&vav;&tav; &het;&yod;&yod;&bet;</trd>
   <trd lng="hu">megterhel<klr tip="ind">
   (sz&aacute;ml&aacute;t)</klr></trd>
   <trd lng="nl">debiteren</trd>
@@ -104,12 +164,15 @@
   </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_i;&c_s;&c_a;&c_t;&c_mol; &c_v;
   &c_d;&c_je;&c_b;&c_je;&c_t;</trd>
-  <trd lng="sk">za&#x165;a&#x17E;i&#x165; dl&#x17E;obou</trd>
-  <trd lng="uk">&#x437;&#x430;&#x43F;&#x438;&#x441;&#x443;&#x432;&#x430;&#x442;&#x438; &#x432; &#x434;&#x435;&#x431;&#x435;&#x442;</trd>
+  <trd lng="sk">za&tcaron;a&zcaron;i&tcaron; dl&zcaron;obou</trd>
+  <trd lng="uk">&c_z;&c_a;&c_p;&c_i;&c_s;&c_u;&c_v;&c_a;&c_t;&c_i; &c_v; &c_d;&c_je;&c_b;&c_je;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2023/06/22 06:29:27
+Wolfram Diestel: +ekz-oj, ref, rim
+
 Revision 1.15  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -129,11 +192,5 @@ Revision 1.10  2003/08/02 10:29:31  revo
 Christopher Zervic: + ang
 
 Revision 1.9  2003/04/03 16:31:05  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/06/08 17:31:22  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/04/08 18:32:43  revo
 -->
 </vortaro>
