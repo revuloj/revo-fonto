@@ -1,20 +1,26 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: debit.xml,v 1.21 2023/06/22 13:30:24 revo Exp $">
+<art mrk="$Id: debit.xml,v 1.22 2023/06/24 16:34:42 revo Exp $">
 <kap>
   <rad>debit</rad>/o
   <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="debit.0o">
   <kap><tld/>o</kap>
-  <snc mrk="debit.0o.EKON">
-    <uzo tip="fak">EKON</uzo>
+  <snc mrk="debit.0o.bonvendo">
+    <uzo tip="stl">EVI</uzo>
     <dif>
-      Facila <ref cel="detal.po0a">podetala</ref> a&ubreve; pogranda
-      <ref tip="super" cel="vend.0o">vendado</ref> de varo:
+      Bonvendado:
       <ekz>
-        tiu komerca&jcirc;o havas grandan <tld/>on;
+        la poeziaj kolektoj de <nom>Heaney</nom> &gcirc;uas rekordan kaj senprecedencan <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="https://www.monato.be/2013/011130.php"
+              >Morto de elstara irlanda poeto kaj homaramanto</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mi devas konstante modernigi la&ubreve; la lastdataj komercaj postuloj, stimuli, hm, la
@@ -37,16 +43,6 @@
         <fnt>
           <bib>LOdE</bib>
           <lok>2001, &#8470;11</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la poeziaj kolektoj de <nom>Heaney</nom> &gcirc;uas rekordan kaj senprecedencan <tld/>on
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Garvan Makaj</aut>
-          <vrk><url ref="https://www.monato.be/2013/011130.php"
-              >Morto de elstara irlanda poeto kaj homaramanto</url></vrk>
-          <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -55,7 +51,10 @@
       <ref cel="kvant.vendo0o">vendokvanto</ref>
     </refgrp>
     <rim>
-      Ne konfuzu kun <ref tip="hom" cel="debet.0o">debeto</ref>.
+      La vorto estas nek oficiala nek internacia kaj la franca &leftquot;<nac>deb&iacute;t</nac>&rightquot; havas multajn
+      diversajn signifojn: traflukvanto, eligo, trinkvendejo... kaj cetere oni facile
+      konfuzas &gcirc;in kun &leftquot;<ref tip="hom" cel="debet.0o">debeto</ref>&rightquot;. Do, resume mi malrekomendas uzi &gcirc;in.
+      <aut>Wolfram Diestel</aut>
     </rim>
   </snc>
   <trd lng="be">&c_z;&c_b;&c_y;&c_t; <klr tip="amb">(&c_t;&c_a;&c_v;&c_a;&c_r;&c_a;)</klr></trd>
@@ -65,8 +64,6 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>Absatz <klr>(Verkauf)</klr></trd>,
-    <trd>Vertrieb</trd>,
-    <trd>Umsatz <klr>(Waren)</klr></trd>,
     <trd>Warenumsatz</trd>
   </trdgrp>
   <trdgrp lng="en">
@@ -113,6 +110,10 @@
     <aut>WD</aut>
   </adm>
 </drv>
+
+<!-- la vorto ~o ne estas sufi&ccirc;e internacia
+  kaj aparte &gcirc;iaj deriva&jcirc;oj nk havas stabilan signifon/uzon. Do ni provizore
+  forkmentas ilin:
 
 <drv mrk="debit.0i">
   <kap><tld/>i</kap>
@@ -201,9 +202,15 @@
     <trd>predaj&ncaron;a v malom</trd>
   </trdgrp>
 </drv>
+
+-->
+
 </art>
 <!--
 $Log$
+versio 1.22 2023/06/24 16:34:42
+Wolfram Diestel: dif-koncizigo, rim: malrekomendo
+
 versio 1.21 2023/06/22 13:30:24
 Wolfram Diestel: +ref
 
@@ -223,8 +230,5 @@ Revision 1.13  2009/08/30 16:31:01  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.12  2009/04/29 16:31:25  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.11  2008/11/02 17:30:46  revo
 -->
 </vortaro>
