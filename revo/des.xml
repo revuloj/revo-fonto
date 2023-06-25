@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: des.xml,v 1.25 2023/06/24 20:27:29 revo Exp $">
+<art mrk="$Id: des.xml,v 1.26 2023/06/25 07:24:12 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>des</rad></kap>
 <drv mrk="des.0">
   <kap><ofc>*</ofc><tld/></kap>
-  <snc>
+  <snc mrk="des.0.kun_ju">
     <dif>
       Adverbo uzata anta&ubreve; <em>pli</em> kaj <em>malpli</em>
       responde al <ref cel="ju.0">ju</ref> por montri ke io varias paralele kaj
@@ -45,10 +45,9 @@
       </ekz>
     </dif>
   </snc>
-  <snc mrk="des.0.pliigo">
+  <snc mrk="des.0.sen_ju">
     <dif>
-      Adverbo, kiu esprimas pliigon kompare kun anta&ubreve;e menciita fakto;
-      <ref tip="sin" cel="ankora.0.komparativa">ankora&ubreve;<sncref/></ref>:
+      Adverbo, kiu esprimas pliigon kompare kun anta&ubreve;e menciita fakto:
       <ekz>
         kiso ne estas ja peko, <tld/> pli, se oni sin reciproke efektive amas
         <fnt>
@@ -96,11 +95,14 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="tiom.0.grado">tiom<sncref/></ref>
+    <refgrp tip="sin">
+      <ref cel="ankora.0.komparativa">ankora&ubreve;<sncref/></ref>,
+      <ref cel="tiom.0.grado">tiom<sncref/></ref>
+    </refgrp>
     <rim>
-      Oni uzas tiun stilan rimedon aparte, por pliigi jaman superlativon a&ubreve;
-      tre unikan a&ubreve; esceptan okazon. Tiu ofte emfazi&gcirc;as
-      per &leftquot;<ref cel="ja.0.sed">ja</ref>&rightquot; a&ubreve; &leftquot;<ref cel="ecx.0">e&ccirc;</ref>&rightquot;.
+      Oni uzas tiun stilan rimedon aparte, por prezenti okazon kiel pli esceptan
+      kompare kun rilata okazo simile escepta. Tiu ofte emfazi&gcirc;as per
+      &leftquot;<ref cel="ja.0.sed">ja</ref>&rightquot; a&ubreve; &leftquot;<ref cel="ecx.0">e&ccirc;</ref>&rightquot;.
     </rim>
   </snc>
   <trd lng="be">&c_t;&c_y;&c_m; <klr>(&c_p;&c_r;&c_y;
@@ -140,8 +142,11 @@
 </art>
 <!--
 $Log$
+versio 1.26 2023/06/25 07:24:12
+Wolfram Diestel: snc-mrk, ref-tip; revortigo de rim
+
 versio 1.25 2023/06/24 20:27:29
-Wolfram Diestel: +ekz-oj; +aparta snc 2 (antaŭa rim ne tute trafis ĝin)
+Wolfram Diestel: +ekz-oj; +aparta snc 2 (anta&ubreve;a rim ne tute trafis &gcirc;in)
 
 Revision 1.22  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
@@ -159,8 +164,5 @@ Revision 1.18  2009/07/01 17:23:01  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.17  2009/06/04 16:30:48  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.16  2007/07/23 16:31:10  revo
 -->
 </vortaro>
