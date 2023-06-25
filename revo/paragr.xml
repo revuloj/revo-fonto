@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: paragr.xml,v 1.23 2023/06/25 08:33:43 revo Exp $">
+<art mrk="$Id: paragr.xml,v 1.24 2023/06/25 12:47:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>paragraf</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,33 +11,57 @@
   <snc mrk="paragr.0o.KLA">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Sentitola parto de jura a&ubreve; faka teksto,
+      Sentitola parto de jura a&ubreve; faka <ref tip="malprt" cel="tekst.0o.KOMUNE.1.b">teksto</ref>,
       malpli granda ol &ccirc;apitro kaj artikolo,
-      konsistanta el unu a&ubreve; pluraj
-      <ref tip="vid" cel="aline.0o">alineoj</ref>,
-      por oportuna referencado provizita je numero,
-      kiun ofte anta&ubreve;as speciala
-      signo (<tld/>o, 2):
+      konsistanta el unu a&ubreve; pluraj <ref tip="vid" cel="aline.0o">alineoj</ref>,
+      por oportuna referencado provizita je numero, kiun ofte anta&ubreve;as speciala
+      signo (<tld/>o<sncref ref="paragr.0o.TIP"/>):
       <ekz>
         vd &para;1, art. 3 <klr>(legu: <ctl>vidu
         la <tld/>on unuan de la artikolo tria</ctl>)</klr>
       </ekz>
       <ekz>
-      en la lasta [referendumo] oni devis jesi a&ubreve; maljesi al nova <tld/>o, aldonota al la
-      konstitucio, kiu tute malpermesos abortigon
-      <fnt>
-        <aut>Garbhan MacAoidh</aut>
-        <vrk><url ref="&Monato;/2002/007772.html">&Ccirc;u da&ubreve;re navigas &leftquot;pram&scirc;ipo de larmoj&#8221;?</url></vrk>
-        <bib>Monato</bib>
-        <lok>2002/04, p. 14</lok>
-      </fnt>.
+        <klr>[li]</klr> konati&gcirc;is kun &ccirc;iuj <tld/>oj de &ccirc;iuj korporaciaj le&gcirc;oj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Johan&ccirc;jo-malsa&gcirc;ulo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        deklaro el dek du <tld/>oj formis la kredaron <klr>(homaranismo)</klr>
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o 1 de la konstitucio &scirc;irmas la homojn individue kontra&ubreve; la eblo de &scirc;tata
+        perforto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2006/008952.php"
+              >Toleremo kaj liberecoj en Nederlando</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la lasta <klr>[referendumo]</klr> oni devis jesi a&ubreve; maljesi al nova <tld/>o, aldonota al la
+        konstitucio, kiu tute malpermesos abortigon
+        <fnt>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/2002/007772.html">&Ccirc;u da&ubreve;re navigas &leftquot;pram&scirc;ipo de larmoj&#8221;?</url></vrk>
+          <bib>Monato</bib>
+          <lok>2002/04, p. 14</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <rim>
-      Ne konfuzu kun
-      <ref tip="vid" cel="aline.0o">alineo</ref>
-      en ordinara proza teksto.
-    </rim>
+    <trd lng="be">&c_p;&c_a;&c_r;&c_a;&c_g;&c_r;&c_a;&c_f;</trd>
+    <trdgrp lng="cs">
+      <trd>odstavec</trd>,
+      <trd>paragraf</trd>
+    </trdgrp>
+    <trd lng="de">Paragraf</trd>
     <trdgrp lng="en">
       <trd>paragraph</trd>,
       <trd>section</trd>
@@ -47,7 +71,12 @@
     <trd lng="hu">paragrafus</trd>
     <trd lng="nl">paragraaf</trd>
     <trd lng="pl">paragraf</trd>
+    <trdgrp lng="sk">
+      <trd>odstavec</trd>,
+      <trd>paragraf</trd>
+    </trdgrp>
     <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_g;&c_r;&c_a;&c_f;</trd>
+    <trd lng="uk">&c_p;&c_a;&c_r;&c_a;&c_g;&c_r;&c_a;&c_f;</trd>
   </snc>
   <snc mrk="paragr.0o.TIP">
     <uzo tip="fak">TIP</uzo>
@@ -55,7 +84,7 @@
       Signo por marki <tld/>on:
       <ekz>
         la <tld/>signo kurba <klr>(&para;)</klr>,
-        rekta <klr>(&#xb6;)</klr>
+        rekta <klr>(¶)</klr>
       </ekz>
     </dif>
     <rim num="1">
@@ -69,6 +98,7 @@
       estas uzata por bildigi finon de alineo (pro anglalingva
       kalembura konfuzo inter <tld/>o kaj alineo).
     </rim>
+    <trd lng="de">Paragrafzeichen</trd>
     <trdgrp lng="en">
       <trd>paragraph<klr> (sign, symbol)</klr></trd>,
       <trd>section<klr> (sign, symbol)</klr></trd>
@@ -79,21 +109,35 @@
     <trd lng="pl">paragraf<klr> (znak)</klr></trd>
     <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_g;&c_r;&c_a;&c_f;</trd>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_r;&c_a;&c_g;&c_r;&c_a;&c_f;</trd>
-  <trdgrp lng="cs">
-    <trd>odstavec</trd>,
-    <trd>paragraf</trd>
-  </trdgrp>
-  <trd lng="de">Paragraph</trd>
-  <trdgrp lng="sk">
-    <trd>odstavec</trd>,
-    <trd>paragraf</trd>
-  </trdgrp>
-  <trd lng="uk">&#x43F;&c_a;&c_r;&c_a;&c_g;&c_r;&c_a;&c_f;</trd>
+  <snc mrk="paragr.0o.alineo">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <ref tip="dif" cel="aline.0o.TIP">Alineo</ref>:
+      <ekz>
+        el la vidpunkto de beletra arto, la libron makulas kelkaj nenecese erotikaj
+        <tld/>oj, kaj foje la situacioj estas tiel melodramaj
+        <fnt>
+          <bib>KPr</bib>
+          <lok>Anta&ubreve;vorto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li eksperimentis en Esperanta prozo, <klr>[&#8230;]</klr> kun nervaj frazkonstruoj,
+        hastaj, malegalaj <tld/>oj, kiuj sekvas la ritmon de la pensodisvolvi&gcirc;o
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2023/06/25 12:47:48
+Wolfram Diestel: +ekz-oj, snc EVI
+
 versio 1.23 2023/06/25 08:33:43
 Wolfram Diestel: kor. p-signon
 
@@ -113,8 +157,5 @@ Revision 1.16  2011/02/24 14:10:08  revo
 Russ Williams: +rim ne konfuzu kun alineo
 
 Revision 1.15  2008/02/20 17:30:17  revo
-Russ Williams: +trd en (section)
-
-Revision 1.14  2007/10/22 16:30:17  revo
 -->
 </vortaro>
