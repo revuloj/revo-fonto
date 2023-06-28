@@ -1,25 +1,77 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: diakrit.xml,v 1.16 2023/03/31 22:27:09 revo Exp $">
+<art mrk="$Id: diakrit.xml,v 1.17 2023/06/28 03:08:56 revo Exp $">
 <kap>
-  <rad>diakrit</rad>/i
+  <rad>diakrit</rad>/o
 </kap>
+
+<drv mrk="diakrit.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="diakrit.0o.LIN">
+    <uzo tip="fak">LIN</uzo>
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      <ref tip="super" cel="sign.krom0o.TIP">Kromsigno</ref> &ccirc;e litero
+      indikanta ke la sonvaloro, la deveno a&ubreve; alia eco de la litero estas
+      aliaj, ol tiuj de la litero sen &gcirc;i a&ubreve; kun alia <tld/>o:
+      <ekz>
+        la latinaj literoj kun <tld/>oj
+        <fnt><aut>Carlo MINNAJA</aut>:
+          <vrk>Interlingvo: komparo inter du solvoj</vrk>
+          <bib>Monato</bib></fnt>;
+      </ekz><ekz>
+        la&ubreve; ilia pozicio rilate al la baza litero oni klasas <tld/>ojn
+        en supersignojn (kiel &ccirc;), subsignojn (kiel &ccedil;) kaj
+        enliniajn <tld/>ojn (kiel en la hebrea &bet;&#x5BC;, kp &bet;);
+      </ekz><ekz>
+        Esperanto uzas du <tld/>ojn:
+        la <ref cel="cxapel.0o.supersigno">&ccirc;apelon<sncref/></ref> super &ccirc;,
+        &gcirc;, &hcirc;, &jcirc;, &scirc;, kaj la <ref cel="bovl.0o.LIN">bovlon<sncref/></ref> super &ubreve;.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y; &c_z;&c_n;&c_a;&c_k;</trd>
+    <trdgrp lng="ca">
+      <trd>diacr&iacute;tic</trd>,
+      <trd>signe diacr&iacute;tic</trd>
+    </trdgrp>
+    <trd lng="de">diakritisches Zeichen</trd>
+    <trdgrp lng="en">
+      <trd>diacritic</trd>,
+      <trd>diacritic mark</trd>,
+      <trd>accent<klr tip="ind"> (=diacritic)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>diacr&iacute;tico</trd>,
+      <trd>signo diacr&iacute;tico</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>diakritikus jel</trd>,
+      <trd>mell&eacute;kjel</trd>
+    </trdgrp>
+    <trd lng="pl">znak <ind>diakrytyczny</ind></trd>
+    <trd lng="ru">&c_d;&c_i;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_z;&c_n;&c_a;&c_k;</trd>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>signe diacritique</trd>,
+    <trd>diacritique<klr tip="ind"> (signe diacritique)</klr></trd>,
+    <trd>accent<klr tip="ind"> (signe diacritique)</klr></trd>
+  </trdgrp>
+  <trd lng="sk">diakritick&eacute; znamienko</trd>
+</drv>
+
 <drv mrk="diakrit.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="diakrit.0i.LIN">
     <uzo tip="fak">LIN</uzo>
     <dif>
-      Marki bazan literon per kromsigno por modifi a&ubreve; precizigi
-      &gcirc;ian sonvaloron:
+      Marki literon per <tld/>o:
       <ekz>
         <tld/>ita litero.
       </ekz>
     </dif>
-    <trd lng="be">&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_mol;
-    <ind>&c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y;
-    &c_z;&c_n;&c_a;&c_k;</ind></trd>
+    <trd lng="be">&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_mol; <ind>&c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y; &c_z;&c_n;&c_a;&c_k;</ind></trd>
     <trdgrp lng="ca">
       <trd>diferenciar</trd>,
       <trd>accentuar <klr>(amb un diacr&iacute;tic)</klr></trd>
@@ -29,13 +81,10 @@
       <trd>mell&eacute;kjelez</trd>,
       <trd>&eacute;kezettel l&aacute;t el</trd>
     </trdgrp>
-    <trd lng="ru">&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;
-    <ind>&c_d;&c_i;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;
-    &c_z;&c_n;&c_a;&c_k;</ind></trd>
+    <trd lng="ru">&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol; <ind>&c_d;&c_i;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_z;&c_n;&c_a;&c_k;</ind></trd>
   </snc>
   <trdgrp lng="fr">
-    <trd>accentuer<klr tip="ind"> (mettre un accent
-    graphique)</klr></trd>,
+    <trd>accentuer<klr tip="ind"> (mettre un accent graphique)</klr></trd>,
     <trd>mettre un <ind>diacritique</ind></trd>
   </trdgrp>
   <trdgrp lng="pl">
@@ -50,20 +99,17 @@
   <snc mrk="diakrit.0a.LIN">
     <uzo tip="fak">LIN</uzo>
     <dif>
-      Rilata al <tld/>ado:
+      Rilata al <tld/>oj a&ubreve; <tld/>ado:
       <ekz>
-        <tld/>aj signoj<fnt>PIV</fnt> <klr>(=<tld/>iloj)</klr>;
-      </ekz>
-      <ekz>
-        <tld/>a skribo <klr>(uzanta <tld/>ilojn)</klr>;
-      </ekz>
-      <ekz>
+        <tld/>aj signoj<fnt>PIV</fnt> <klr>(=<tld/>oj)</klr>;
+      </ekz><ekz>
+        <tld/>a skribo <klr>(uzanta <tld/>ojn)</klr>;
+      </ekz><ekz>
         la normigitaj nomoj de <tld/>aj latinaj literoj
         <klr>(=<tld/>a&jcirc;oj)</klr> estas troveblaj en la
         normo ISO-8859
         <fnt><lok><url>http://www.forst.tu-muenchen.de/EXT/AIS/scio/iso8859.html</url></lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la <tld/>a uzo de la litero <em>h</em> en la lingvoj angla
         kaj franca, de <em>z</em> la pola.
       </ekz>
@@ -98,16 +144,13 @@
       <tld lit="D"/>ita litero:
       <ekz>
         atentu ke <em>&hcirc;</em> kaj la majusklaj <tld/>a&jcirc;oj
-        elstaras
-        en la interlinian spacon;
-      </ekz>
-      <ekz>
+        elstaras en la interlinian spacon;
+      </ekz><ekz>
         en esperantlingva teksto proksimume 2% de la literoj estas
         <tld/>a&jcirc;oj.
       </ekz>
     </dif>
-    <trd lng="be">&c_l;&c_ib;&c_t;&c_a;&c_r;&c_a; &c_z;
-    &c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_k;&c_a;&c_j;</trd>
+    <trd lng="be">&c_l;&c_ib;&c_t;&c_a;&c_r;&c_a; &c_z; &c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_k;&c_a;&c_j;</trd>
     <trd lng="ca">lletra amb un diacr&iacute;tic</trd>
     <trd lng="en">accented letter</trd>
     <trd lng="es">letra con un signo diacr&iacute;tico</trd>
@@ -117,8 +160,7 @@
     </trdgrp>
     <trd lng="hu">&eacute;kezetes <ind>bet&udblac;</ind></trd>
     <trd lng="pl">litera <ind>diakrytyczna</ind></trd>
-    <trd lng="ru">&c_b;&c_u;&c_k;&c_v;&c_a; &c_s;
-    &c_d;&c_i;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_o;&c_j;</trd>
+    <trd lng="ru">&c_b;&c_u;&c_k;&c_v;&c_a; &c_s; &c_d;&c_i;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_k;&c_o;&c_j;</trd>
   </snc>
 </drv>
 
@@ -127,23 +169,17 @@
   <snc mrk="diakrit.0ilo.LIN">
     <uzo tip="fak">LIN</uzo>
     <uzo tip="fak">TIP</uzo>
-    <dif>
-      <ref tip="super" cel="sign.krom0o.TIP">Kromsigno</ref> uzata por
-      <tld/>i:
+      <ref tip="dif" cel="diakrit"><tld/>o</ref>
       <ekz>
-        la&ubreve; ilia pozicio rilate al la baza litero oni klasas
-        <tld/>ilojn
-        en supersignojn (kiel &ccirc;), subsignojn (kiel &ccedil;) kaj
-        enliniajn <tld/>ilojn (kiel en la hebrea &bet;&#x5BC;, kp &bet;);
+        Temas plejparte pri proponoj &scirc;an&gcirc;i la ortografion de
+        Esperanto, kaj per forigo de la supersignitaj literoj, kaj per
+        aldono de novaj <tld/>iloj kaj anka&ubreve; litersignoj por
+        pliperfektigi la Esperantan alfabeton la&ubreve; fonetika vidpunkto
+        <fnt><aut>Bernard GOLDEN</aut>:
+          <vrk>Eternaj reformantoj</vrk>.
+          <lok>Kajeroj el la Sudo, &#8470;16 (1992:10), p.&nbsp;6</lok></fnt>.
       </ekz>
-      <ekz>
-        Esperanto uzas du <tld/>ilojn: &ccirc;apelon super &ccirc;,
-        &gcirc;, &hcirc;, &jcirc;,
-        &scirc;, kaj lunarkon super &ubreve;.
-      </ekz>
-    </dif>
-    <trd lng="be">&c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y;
-    &c_z;&c_n;&c_a;&c_k;</trd>
+    <trd lng="be">&c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y; &c_z;&c_n;&c_a;&c_k;</trd>
     <trdgrp lng="ca">
       <trd>diacr&iacute;tic</trd>,
       <trd>signe diacr&iacute;tic</trd>
@@ -159,9 +195,20 @@
       <trd>mell&eacute;kjel</trd>
     </trdgrp>
     <trd lng="pl">znak <ind>diakrytyczny</ind></trd>
-    <trd lng="ru">&c_d;&c_i;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;
-    &c_z;&c_n;&c_a;&c_k;</trd>
+    <trd lng="ru">&c_d;&c_i;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_z;&c_n;&c_a;&c_k;</trd>
   </snc>
+  <rim>
+    En Esperanto ankora&ubreve; estas hezito, &ccirc;u la radiko <em>diakrit/</em>
+    estu substantiva (kiel en &ccirc;i tiu artikolo: la baza formo estas
+    <ref tip="dif" cel="diakrit"><tld/>o</ref>), &ccirc;u verba (la&ubreve; la
+    greka etimo), &ccirc;u adjektiva (kiel en la PIV-oj). La adjektiva
+    kategoriigo estas bazita sur la plej ofta kombino &leftquot;<tld/>a signo&rightquot;;
+    sed se la radiko &ccirc;iam aperas en tia kombino, tiam estas pli racie
+    atribui al &gcirc;i la kombinitan signifon (kaj tiel estas en pluraj
+    lingvoj, i.a. en la angla kaj la hispana). La formo &leftquot;<tld/>ilo&rightquot; &ccirc;e
+    tia traktado estas pleonasma kaj evitinda.
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
   <trdgrp lng="fr">
     <trd>signe diacritique</trd>,
     <trd>diacritique<klr tip="ind"> (signe diacritique)</klr></trd>,
@@ -172,6 +219,9 @@
 </art>
 <!--
 $Log$
+versio 1.17 2023/06/28 03:08:56
+Sergio Pokrovskij: substantiva karaktero
+
 versio 1.16 2023/03/31 22:27:09
 Vito Redsky: +trd pl 
 
@@ -191,8 +241,5 @@ Revision 1.8 2003/05/06 16:32:19 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.7 2002/09/13 16:35:06 revo
-Viliam Bur: +trd sk
-
-Revision 1.6 2002/04/22 16:33:40 revo
 -->
 </vortaro>
