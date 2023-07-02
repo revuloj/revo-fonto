@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: adres.xml,v 1.64 2023/04/18 14:35:18 revo Exp $">
+<art mrk="$Id: adres.xml,v 1.65 2023/07/02 14:30:33 revo Exp $">
 <kap>
    <ofc>*</ofc><ofc>1</ofc><ofc>8</ofc>
    <rad>adres</rad>/o <fnt><bib>PV</bib></fnt>
@@ -47,7 +47,7 @@
          <trd>&#12450;&#12489;&#12524;&#12473; [<ind>&#12354;&#12393;&#12428;&#12377;</ind>]</trd>
        </trdgrp>
        <trd lng="ms">alamat</trd>
-       <trd lng="pl">adres<klr> pocztowy</klr></trd>
+       <trd lng="pl">adres pocztowy</trd>
        <trd lng="th">&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>
      </subsnc>
      <subsnc mrk="adres.0o.KOMP">
@@ -95,10 +95,6 @@
     </refgrp>
      </subsnc>
      <trd lng="ja">&#12450;&#12489;&#12524;&#12473; [<ind>&#12354;&#12393;&#12428;&#12377;</ind>]</trd>
-     <trdgrp lng="pl">
-       <trd>adres<klr> elektroniczny</klr></trd>,
-       <trd>adres<klr> sieciowy</klr></trd>,
-     </trdgrp>
    </snc>
   <trd lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;</trd>
   <trd lng="bg">&c_a;&c_d;&c_r;&c_je;&c_s;</trd>
@@ -117,6 +113,7 @@
   <trd lng="id">alamat</trd>
   <trd lng="it">indirizzo</trd>
   <trd lng="nl">adres</trd>
+  <trd lng="pl">adres</trd>
   <trd lng="pt">endere&ccedil;o</trd>
   <trd lng="ru">&c_a;&c_d;&c_r;&c_je;&c_s;</trd>
   <trd lng="sk">adresa</trd>
@@ -525,7 +522,10 @@
        <trd><ind>indirizzo</ind> di posta elettronica</trd>
      </trdgrp>
      <trd lng="nl">Internet-adres</trd>
-     <trd lng="pl">adres sieciowy</trd>
+     <trdgrp lng="pl">
+        <trd>adres elektroniczny</trd>,
+        <trd>adres sieciowy</trd>,
+     </trdgrp>
      <trd lng="pt">endere&ccedil;o eletr&ocirc;nico</trd>
      <trdgrp lng="ru">
        <trd>&c_s;&c_je;&c_t;&c_je;&c_v;&c_o;&c_j; &c_a;&c_d;&c_r;&c_je;&c_s;</trd>,
@@ -549,6 +549,9 @@
 </art>
 <!--
 $Log$
+versio 1.65 2023/07/02 14:30:33
+Vito Redsky: +trd pl kor
+
 versio 1.64 2023/04/18 14:35:18
 Paul Peeraerts: Steloj -> monato.be
 
@@ -568,8 +571,5 @@ versio 1.56 2021/05/13 07:04:57
 Wolfram Diestel: kor. ref-cel
 
 versio 1.55 2021/05/12 08:59:03
-Dmitri Gabinski: + trd be
-
-versio 1.54 2020/08/31 20:10:32
 -->
 </vortaro>
