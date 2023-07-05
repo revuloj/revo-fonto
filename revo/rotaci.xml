@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rotaci.xml,v 1.37 2023/05/01 11:23:53 revo Exp $">
+<art mrk="$Id: rotaci.xml,v 1.38 2023/07/05 18:35:59 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>rotaci</rad>/i
   <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
@@ -83,6 +83,7 @@
     <trd>roteren</trd>,
     <trd>draaien</trd>
   </trdgrp>
+  <trd lng="pl">obraca&cacute; si&eogonek;<klr>  (dooko&lstroke;a osi)</klr></trd>
   <trdgrp lng="pt">
     <trd>rodar</trd>,
     <trd>rotar</trd>
@@ -232,11 +233,11 @@
           <ref cel="centr.0o.rotacio">centro</ref> de la <tld/>o;
         </ekz>
         <ekz>
-          se <frm am="O">O</frm> estas la centro de <tld/>o kaj 
+          se <frm am="O">O</frm> estas la centro de <tld/>o kaj
           <frm am="M&minute;">M'</frm> estas
           la bildo per &gcirc;i de punkto <frm am="M">M</frm>, la mezuro de la
           <ref cel="angul.0o.afina">angulo</ref> randata de duonrektoj
-          <frm am="OM">OM</frm> kaj <frm am="OM&minute;">OM'</frm> 
+          <frm am="OM">OM</frm> kaj <frm am="OM&minute;">OM'</frm>
           ne dependas de <frm am="M">M</frm>
           kaj estas nomata la angulo de la <tld/>o;
         </ekz>
@@ -273,6 +274,10 @@
     math.)</klr></trd>
   </trdgrp>
   <trd lng="nl">rotatie</trd>
+  <trdgrp lng="pl">
+    <trd>rotacja</trd>,
+    <trd>obr&oacute;t</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>obeh</trd>,
     <trd>obiehanie</trd>,
@@ -298,6 +303,7 @@
         <trd lng="de">Rotationsdruckmaschine</trd>
         <trd lng="fr">rotative<klr tip="ind"> (machine &agrave;
         imprimer)</klr></trd>
+        <trd lng="pl">rotacyjna drukarka</trd>
         <trd lng="ru">&c_r;&c_o;&c_t;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_a;&c_ja;
         &c_p;&c_je;&c_ch;&c_a;&c_t;&c_n;&c_a;&c_ja;
         &c_m;&c_a;&c_sh;&c_i;&c_n;&c_a;</trd>
@@ -319,6 +325,7 @@
       <trd>de <ind>rotation</ind></trd>,
       <trd>rotatoire</trd>
     </trdgrp>
+    <trd lng="pl">rotacyjny</trd>
   </snc>
   <snc mrk="rotaci.0a.TEK">
     <uzo tip="fak">TEK</uzo>
@@ -340,6 +347,10 @@
     <trdgrp lng="nl">
       <trd>roterend</trd>,
       <trd>draaiend</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>wirowy</trd>,
+      <trd>obrotowy</trd>
     </trdgrp>
   </snc>
   <snc mrk="rotaci.0a.MAT">
@@ -404,6 +415,7 @@
     <ref tip="dif" cel="rotaci.0o.afina"><tld/>o <sncref ref="rotaci.0o.afina"/>.</ref>
   </snc>
   <trd lng="fr">rotation affine</trd>
+  <trd lng="pl">rotacja afiniczna</trd>
 </drv>
 
 <drv mrk="rotaci.vektora0o">
@@ -413,10 +425,14 @@
     <ref tip="dif" cel="rotaci.0o.vektora"><tld/>o <sncref ref="rotaci.0o.vektora"/>.</ref>
   </snc>
   <trd lng="fr">rotation vectorielle</trd>
+  <trd lng="pl">rotacja wektora</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.38 2023/07/05 18:35:59
+Vito Redsky: +trd pl 
+
 versio 1.37 2023/05/01 11:23:53
 Paul Peeraerts: Steloj -> monato
 
@@ -436,8 +452,5 @@ versio 1.31 2020/02/16 00:10:53
 Wolfram Diestel: formuloj per am
 
 Revision 1.30  2018/08/24 15:15:13  revo
-kor. ecaron en la chehha
-
-Revision 1.29  2018/08/06 22:11:54  revo
 -->
 </vortaro>
