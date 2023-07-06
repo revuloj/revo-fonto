@@ -1,29 +1,94 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: resurs.xml,v 1.6 2022/12/19 07:24:27 revo Exp $">
+<art mrk="$Id: resurs.xml,v 1.7 2023/07/06 17:29:39 revo Exp $">
 <kap>
-  <rad>resurs</rad>/o <fnt><bib>PIV2</bib></fnt>
+  <rad>resurs</rad>/o <fnt><bib>PIV2</bib></fnt>,
+  <var><kap><rad var="i">risurc</rad>/o</kap></var>
 </kap>
 <drv mrk="resurs.0o">
   <kap><tld/>o</kap>
-  <uzo tip="stl">RAR</uzo>
   <snc mrk="resurs.0o.KOMUNE">
     <dif>
-      Proviza&jcirc;o, materialo, disponebla <ref tip="vid" cel="rimed.0o">rimedo</ref>, <ref tip="vid"
-      cel="font.0o.originoDeForto">fonto<sncref/></ref>:
+      <ref tip="super" cel="rimed.0o">Rimedo</ref>, kiun oni foruzas dum &gcirc;ia utiligo:
+      <ref tip="sub" cel="proviz.0ajxo">proviza&jcirc;o</ref>,
+      <ref tip="sub" cel="materi1.0o.krudajxo">materialo</ref>,
+      <ref cel="font.0o.originoDeForto">fonto<sncref/></ref> (de energio, krudmaterialo ks):
       <ekz>
-        oni venas <klr>...</klr> al la ekonomiko kiel teorio
-        pri <klr>...</klr> mastrumado super la naturo kaj &gcirc;iaj <tld/>oj
+        malgrandi&gcirc;o de energiaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="https://www.monato.be/2008/009544.php"
+              >Ekologia pre&gcirc;ejo</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        delonge estas konata la nocio &leftquot;ekologia piedsigno&rightquot;, t.e. la naturaj <tld/>oj,
+        kiujn uzas iu persono
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2010/010051.php"
+              >Monda akvo fluas en malbonaj direktoj</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Windows CE</nom>, kiel vera majkrosofta&jcirc;o, estas ege <tld var="i"/>oraba
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470; 10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &Ccirc;inio malhavis sufi&ccirc;e da homaj kaj materiaj <tld var="i"/>oj por teni tie defendantojn,
+        kaj fortika&jcirc;o sen defendantoj ne estas serioza barilo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 2 (100)</lok>
+        </fnt>.
+      </ekz>
+      <ekz>
+        balda&ubreve; &ccirc;iuj niaj <tld/>oj trovi&gcirc;os ne en minejoj sed en ruba&jcirc;ejoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ren&eacute;e Triolle</aut>
+          <vrk><url ref="https://www.monato.be/2011/010268.php"
+              >Kiel savi la planedon?</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni venas <klr>[&#8230;]</klr> al la ekonomiko kiel teorio
+        pri <klr>[&#8230;]</klr> mastrumado super la naturo kaj &gcirc;iaj <tld/>oj
         <fnt>
           <aut>V. O&scaron;lak</aut>,
           <vrk>Foje e&ccirc; pensi estas &gcirc;uo</vrk>,
           <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malnovaj tramoj, produktitaj en la fama &ccirc;e&hcirc;a uzino <nom>&Scaron;koda</nom> <klr>[&#8230;]</klr> delonge
+        atendis sian emeritecon, &ccirc;iuj eblaj iliaj <tld/>oj estis jam delonge foruzitaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dmitrij Cibulevskij</aut>
+          <vrk><url ref="https://www.monato.be/2007/009112.php"
+              >Busvoja&gcirc;o</url></vrk>
+          <lok>2007</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_s;&c_u;&c_r;&c_s;</trd>
+  <trdgrp lng="de">
+    <trd>Ressource</trd>,
+    <trd>Rohstoff</trd>,
+    <trd>Produktionsmittel</trd>,
+    <trd>Bodenschatz</trd>
+  </trdgrp>
   <trd lng="en">resource</trd>
   <trd lng="fr">ressource</trd>
   <trd lng="pl">zas&oacute;b  <klr>(zarz&aogonek;dzanie)</klr></trd>
@@ -34,6 +99,9 @@
 
 <!--
 $Log$
+versio 1.7 2023/07/06 17:29:39
+Wolfram Diestel: dif-vortigo, ref; +var, +ekz-oj
+
 versio 1.6 2022/12/19 07:24:27
 Dmitri Gabinski: + trd be
 
