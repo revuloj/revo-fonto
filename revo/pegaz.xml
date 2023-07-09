@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pegaz.xml,v 1.17 2023/01/01 22:27:52 revo Exp $">
+<art mrk="$Id: pegaz.xml,v 1.18 2023/07/09 14:27:45 revo Exp $">
 <kap>
   <rad>Pegaz</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,14 +10,31 @@
   <snc mrk="pegaz.0o.MIT">
     <uzo tip="fak">MIT</uzo>
     <dif>
-      Flugilhava &ccirc;evalo, simbolo de la poezia fantazio:
+      Flugilhava <ref cel="cxeval.0o">&ccirc;evalo</ref>, simbolo de la poezia fantazio:
+      <ekz>
+        por montri laboron de poeto oni ofte uzas <tld/>on
+        <fnt>
+          <bib>KFl</bib>
+          <lok>IV. El vivo de sistemoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        via task' konsistis nur el tio: &parsl; Kolekti la sterkpomojn de <tld/>o
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Oni Malfermas La Butikon</lok>
+        </fnt>!
+      </ekz>
       <ekz>
         mi e&ccirc; imagos, ke mi rajdas sur la &ccirc;evalo <tld/>o
         <fnt><bib>DonKihxoto</bib>, <lok>parto 1a, &ccirc;apitro 29a, p.
         220a</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="hipogrif.0o">hipogrifo</ref>
+    <refgrp tip="vid">
+      <ref cel="ccentau.0o">centa&ubreve;ro</ref>,
+      <ref cel="hipogrif.0o">hipogrifo</ref>
+    </refgrp>
     <trd lng="be">&c_p;&c_e;&c_g;&c_a;&c_s;</trd>
     <trd lng="ca">Peg&agrave;s</trd>
     <trdgrp lng="fa">
@@ -28,28 +45,28 @@
     <trd lng="ro">Pegas </trd>
   </snc>
 
-<snc mrk="pegaz.0o.AST">
-  <mlg>Peg</mlg>
-  <fnt>
-    <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
-    <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
-    universo</vrk>.
-    <lok>FEL, Antverpeno, 2005</lok>
-  </fnt>
-  <uzo tip="fak">AST</uzo>
- <dif>
-Nord-hemisfera kvadratforma
-<ref tip="lst" cel="stel.0figuro" lst="voko:stelfiguroj">stelfiguro</ref> (
-<trd lng="la">Pegasus</trd>).
- </dif>
- <trd lng="be">&c_P;&c_e;&c_g;&c_a;&c_s; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
- <trd lng="ca">el Peg&agrave;s</trd>
- <trdgrp lng="fa">
-   <trd>&a_A;&a_s;&a_b; &a_b;&a_A;&a_l;&a_d;&a_A;&a_r;<klr tip="amb"> (&a_S;&a_w;&a_r;&a_t; &a_f;&a_l;&f_k;&f_y;)</klr></trd>,
-   <trd>&a_f;&a_fatha;&a_r;&a_fatha;&a_s; &a_A;&a_ayn;&a_Z;&a_m;</trd>
- </trdgrp>
- <trd lng="pl">Pegaz  <klr>(gwiazdozbi&oacute;r)</klr></trd>
- <trd lng="ro">Pegas  <klr>(constela&#539;ie)</klr></trd>
+  <snc mrk="pegaz.0o.AST">
+    <mlg>Peg</mlg>
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+    <uzo tip="fak">AST</uzo>
+   <dif>
+     Nord-hemisfera kvadratforma
+     <ref tip="lst" cel="stel.0figuro" lst="voko:stelfiguroj">stelfiguro</ref>
+     (<trd lng="la">Pegasus</trd>).
+   </dif>
+   <trd lng="be">&c_P;&c_e;&c_g;&c_a;&c_s; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
+   <trd lng="ca">el Peg&agrave;s</trd>
+   <trdgrp lng="fa">
+     <trd>&a_A;&a_s;&a_b; &a_b;&a_A;&a_l;&a_d;&a_A;&a_r;<klr tip="amb"> (&a_S;&a_w;&a_r;&a_t; &a_f;&a_l;&f_k;&f_y;)</klr></trd>,
+     <trd>&a_f;&a_fatha;&a_r;&a_fatha;&a_s; &a_A;&a_ayn;&a_Z;&a_m;</trd>
+   </trdgrp>
+   <trd lng="pl">Pegaz <klr>(gwiazdozbi&oacute;r)</klr></trd>
+   <trd lng="ro">Pegas <klr>(constela&#539;ie)</klr></trd>
  </snc>
   <trdgrp lng="cs">
     <trd>Pegas</trd>,
@@ -65,12 +82,15 @@ Nord-hemisfera kvadratforma
   <trd lng="nl">Pegasus</trd>
   <trd lng="pt">P&eacute;gaso</trd>
   <trd lng="sk">Pegas</trd>
-  <trd lng="uk">&#x41F;&c_je;&c_g;&c_a;&c_s;</trd>
+  <trd lng="uk">&c_P;&c_je;&c_g;&c_a;&c_s;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.18 2023/07/09 14:27:45
+Wolfram Diestel: +ekz, ref
+
 versio 1.17 2023/01/01 22:27:52
 Ulrich Fellmann: pegazo: +2 DE trdj
 
@@ -90,8 +110,5 @@ Revision 1.10  2015/06/29 16:40:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.9  2013/08/25 08:10:38  revo
-Wolfram Diestel: referenco al listo stelfiguroj
-
-Revision 1.8  2011/12/05 01:10:38  revo
 -->
 </vortaro>
