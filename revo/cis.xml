@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cis.xml,v 1.10 2022/03/14 15:25:39 revo Exp $">
+<art mrk="$Id: cis.xml,v 1.11 2023/07/15 18:30:11 revo Exp $">
 <kap>
-  <rad>cis</rad> <fnt><bib>PIV1</bib></fnt> <fnt><bib>PMEG</bib></fnt>
+  <rad>cis</rad>
+  <fnt> <bib>PIV1</bib></fnt>
+  <fnt><bib>PMEG</bib></fnt>
 </kap>
 <drv mrk="cis.0o">
   <kap><tld/></kap>
   <uzo tip="stl">RAR</uzo>
-  <snc mrk="cis.0o.prep">
+  <subdrv mrk="cis.0o.prep">
     <dif>
-      Prepozicio kun la senco de mal<ref tip="ant" cel="trans.0.loko">trans</ref>,
+      Prepozicio kun la senco de
+      mal<ref tip="ant" cel="trans.0.loko">trans</ref>,
       <ref tip="sin" cel="flank.0ede">&ccirc;i-flanke de</ref>,
       pli proksime ol:
       <ekz>
@@ -20,30 +23,59 @@
         restu <tld/> &ccirc;i tiu linio!
       </ekz>
     </dif>
-    <trd lng="fr">de ce c&ocirc;t&eacute;-ci de</trd>
-  </snc>
-  <snc mrk="cis.0o.pref">
-  <dif>
-  Prefikso montranta lokon, situantan, en rilato al difinita metropolo,
-  pli proksime ol la objekto, kiun &gcirc;i enkondukas (malo de <ref tip="ant" cel="trans.0.loko">trans</ref>):
-  <ekz>cisalpa 
-(vidata de Romo), cisdanuba regiono (vidata de Vieno).</ekz>
-  </dif>
-  </snc>
-  <rim>
+    <rim>
       La sinonimoj <em>maltrans</em>
       kaj <em>&ccirc;i-flanke de</em> estas preferataj.
     </rim>
+    <trd lng="de">diesseits</trd>
+    <trd lng="fr">de ce c&ocirc;t&eacute;-ci de</trd>
+  </subdrv>
+  <subdrv mrk="cis.0o.pref">
+    <dif>
+      Prefikso montranta lokon, kiu en rilato al difinita situo,
+      estas pli proksima ol la objekto, kiun &gcirc;i enkondukas
+      (malo de <ref tip="ant" cel="trans.0_.space">trans-</ref>):
+      <ekz>
+        <tld/>alpa <klr>(ekz-e vidata de Romo)</klr>,
+        <tld/>danuba regiono <klr>(ekz-e vidata de Vieno)</klr>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> ku&scirc;as <tld/>rande, &ccirc;ar &gcirc;i rifuzas
+        cedi sian lokon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Wim Jansen</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006827.html"
+              >Reago de &Gcirc;ermano: La germana kaj Esperanto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        resurekto estas por <nom>Tolstoj</nom> <tld/>monda
+        <klr>(&ccirc;i-monda, t.e. ne transmonda, postmorta)</klr>
+        ekzistencialista sperto, kiu inkluzivas,
+        ke homoj ne plu sekvas idolojn, sed obeas la
+        internan vo&ccirc;on de dia justeco
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </subdrv>
 
-  <trd lng="he">&#x5DE;&#x5E6;&#x5D3; &#x5D6;&#x5D4; &#x5E9;&#x5DC;</trd>
+  <trd lng="he">&mem;&tsadi;&dalet; &zayin;&he; &shin;&lamed;</trd>
   <trd lng="sk">ne tejto strane <klr>(pred)</klr></trd>
-  <trd lng="cs">na t&#xE9;to stran&#x11B; <klr>(p&#x159;ed)</klr></trd>
-  <trd lng="uk">&#x43F;&#x440;&#x438;&#x439;&#x43C;. &#x43F;&#x43E; &#x446;&#x435;&#x439; &#x431;&#x456;&#x43A;</trd>
+  <trd lng="cs">na t&eacute;to stran&ecaron; <klr>(p&rcaron;ed)</klr></trd>
+  <trd lng="uk">&c_p;&c_r;&c_i;&c_j;&c_m;. &c_p;&c_o; &c_c;&c_je;&c_j; &c_b;&c_ib;&c_k;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.11 2023/07/15 18:30:11
+Wolfram Diestel: apartigo subdrv, +ekz, ref, trd de
+
 Revision 1.7  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -62,9 +94,5 @@ senca ne gramatika, 2 ekz
 
 Revision 1.2  2013/08/28 06:10:11  revo
 Damien Brucker: Sxangxo de la fonto
-
-Revision 1.1  2013/08/27 09:10:24  revo
-Damien Brucker: nova artikolo
-
 -->
 </vortaro>
