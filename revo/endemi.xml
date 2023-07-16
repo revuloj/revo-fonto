@@ -1,19 +1,31 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: endemi.xml,v 1.21 2023/02/17 07:26:37 revo Exp $">
+<art mrk="$Id: endemi.xml,v 1.22 2023/07/16 17:27:12 revo Exp $">
 <kap>
-  <rad>endemi</rad>/o <fnt>Z</fnt> <fnt> <bib>PV</bib></fnt>
+  <rad>endemi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="endemi.0o">
   <kap><tld/>o</kap>
   <snc mrk="endemi.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Malsano reganta konstante en iu lando a&ubreve; regiono. 
+      Malsano reganta konstante en iu lando a&ubreve; regiono:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        ili demandas sin, &ccirc;u rasismo <tld/>as en la
+        lando de cent mil bonvenigoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007170.html"
+              >Ni hontas kaj postulas</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="epidem.0o">epidemio</ref>.
+      <ref cel="epidem.0o">epidemio</ref>,
+      <ref cel="pandemi.0o">pandemio</ref>
     </refgrp>
     <trd lng="be">&c_e;&c_n;&c_d;&c_e;&c_m;&c_ib;&c_ja;</trd>
     <trdgrp lng="cs">
@@ -45,17 +57,47 @@
         </fnt>.
       </ekz>
     </dif>
-    
-    <trd lng="de">endemische Art</trd>
+
+    <trdgrp lng="de">
+      <trd>endemische Art</trd>,
+      <trd>Endemit</trd>
+    </trdgrp>
   </snc>
-  <trd lng="uk">&c_je;&#x43D;&c_d;&c_je;&#x43C;&c_ib;&#x44F;</trd>
+  <trd lng="uk">&c_je;&c_n;&c_d;&c_je;&c_m;&c_ib;&c_ja;</trd>
 </drv>
 
 <drv mrk="endemi.0a">
   <kap><tld/>a</kap>
+  <dif>
+    Havanta karakteron de <tld/>o; enlanda, loka:
+  </dif>
+  <snc mrk="endemi.0a.MED">
+    <uzo tip="fak">MED</uzo>
+      <ekz>
+        kuruo estis <tld/>a nur inter aborigenoj de Nov-Gvineo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2006/008861.php"
+              >Nova etapo en biologio kaj medicino</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estis efektivigita rigora izolado de
+        infektitoj <klr>[&#8230;]</klr> oni kontrolis
+        &ccirc;iun alvenintan, precipe el <tld/>aj regionoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2005/008721.php"
+              >De kie venis kaj kial &ccirc;esis netipa pne&ubreve;monio?</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+  </snc>
   <snc mrk="endemi.0a.BIO">
-    <dif>
-      Havanta karakteron de <tld/>o; enlanda, loka:
+    <uzo tip="fak">BIO</uzo>
       <ekz>
         7%  de la insulaj birdoj estas <tld/>aj
         <fnt>
@@ -66,10 +108,12 @@
          <lok>Radio Havano Kubo, 2014-12-09</lok>
         </fnt>.
       </ekz>
-    </dif>
   </snc>
   <trd lng="be">&c_e;&c_n;&c_d;&c_e;&c_m;&c_ib;&c_ch;&c_n;&c_y;</trd>
-  <trd lng="de">endemisch</trd>
+  <trdgrp lng="de">
+    <trd>endemisch</trd>,
+    <trd>heimisch</trd>
+  </trdgrp>
   <trd lng="en">endemic</trd>
   <trd lng="es">end&eacute;mico</trd>
   <trd lng="fr">end&eacute;mique</trd>
@@ -78,7 +122,7 @@
   <trd lng="pl">endemiczny</trd>
   <trd lng="pt">end&ecirc;mico</trd>
   <trd lng="ru">&c_e;&c_n;&c_d;&c_je;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
-  <trd lng="uk">&c_je;&#x43D;&c_d;&c_je;&#x43C;&c_ib;&c_ch;&#x43D;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_je;&c_n;&c_d;&c_je;&c_m;&c_ib;&c_ch;&c_n;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="endemi.0eco">
@@ -104,11 +148,14 @@
   <trd lng="cs">endemismus</trd>
   <trd lng="fr">end&eacute;misme</trd>
   <trd lng="sk">endemizmus</trd>
-  <trd lng="uk">&c_je;&#x43D;&c_d;&c_je;&#x43C;&c_ib;&c_ch;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
+  <trd lng="uk">&c_je;&c_n;&c_d;&c_je;&c_m;&c_ib;&c_ch;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/07/16 17:27:12
+Wolfram Diestel: +ekz-oj, trd de
+
 versio 1.21 2023/02/17 07:26:37
 Dmitri Gabinski: + trd be
 
@@ -128,8 +175,5 @@ Revision 1.14  2010/10/16 16:30:29  revo
 Russ Williams: +trd en
 
 Revision 1.13  2010/02/01 17:30:27  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2008/07/15 16:30:37  revo
 -->
 </vortaro>
