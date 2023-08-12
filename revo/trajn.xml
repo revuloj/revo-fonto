@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trajn.xml,v 1.109 2023/07/09 15:27:48 revo Exp $">
+<art mrk="$Id: trajn.xml,v 1.110 2023/08/12 10:26:14 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>trajn</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,14 +14,64 @@
     <uzo tip="fak">FER</uzo>
     <uzo tip="fak">TEK</uzo>
     <dif>
-      <ref tip="dif" cel="vagon.0aro">Vagonaro</ref>:
+      <ref tip="sin" cel="vagon.0aro">Vagonaro</ref> kun lokomotivo a&ubreve; motorvagono
+      por transporto de personoj a&ubreve; materialo:
       <ekz>
-        mi alvenis &gcirc;uste je tagi&gcirc;o al la urbo Tula; la <tld/>o
-        de tie al <nom>Koslovka</nom> <klr>[&#8230;]</klr> estis forironta pli
-        poste en la mateno
-        <fnt><bib>Voja&gcirc;Imp</bib></fnt>.
+        trivagona <tld/>o
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dua &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iri hejmen per la malfruvespera <tld/>o
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Disaj vojoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o trapasas grandajn vila&gcirc;ojn kaj grandajn urbojn
+        <fnt>
+          <bib>Tor</bib>
+          <lok>V.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur la fervojo inter la stacio kaj la uzino venis <tld/>oj kun brikoj kaj ligno
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> ekskuzis sin, ke la tempo ne permesas tian tralegon, ke li devas
+        kapti <klr>(atingi)</klr> <tld/>on
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+          <lok>&Ccirc;e Lev Tolstoj en Jasnaja Poljana</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por tiu <tld/>o ne necesas rezervi sidlokon
+        <fnt>
+          <bib>FSI</bib>
+          <lok>IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi vendrede matene alvenas en la stacidomo &leftquot;<nom>Berlin Zoo</nom>&rightquot;, kie mi devas &scirc;an&gcirc;i en
+        <tld/>on al Pollando
+        <fnt>
+          <bib>FSI</bib>
+          <lok>IV</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="metro.0o">metroo</ref>,
+      <ref cel="tram.0o">tramo</ref>
+    </refgrp>
     <trd lng="be">&c_c;&c_ja;&c_g;&c_n;&c_ib;&c_k;</trd>
     <trd lng="bg">&c_v;&c_l;&c_a;&c_k;</trd>
     <trd lng="ca">tren</trd>
@@ -46,12 +96,6 @@
     <trd lng="ro">tren</trd>
     <trd lng="ru">&c_p;&c_o;&c_je;&c_z;&c_d;</trd>
     <trd lng="sv">t&aring;g</trd>
-    <adm>
-	La Fervoja Terminaro, kiu sekvas la internacian UIC-terminologion, ellaborita de 
-        fakuloj de Terminara Komisiono de I.F.E.F., distingas inter la terminoj "trajno" kaj 
-        "vagonaro" tiel, ke trajno estas ne nur aro de vagonoj, sed la kompleto el
-        vagonaro kaj lokomotivo. Sekve, ne estas &gcirc;uste indiki vagonaro = trajno. [Ulriko]
-    </adm>
   </snc>
   <snc mrk="trajn.0o.MIL">
     <uzo tip="fak">MIL</uzo>
@@ -81,62 +125,62 @@
     <trd lng="ru">&c_o;&c_b;&c_o;&c_z;</trd>
   </snc>
   <trd lng="af">trein</trd>
-  <trd lng="am">&#4707;&#4705;&#x122D;</trd>
+  <trd lng="am">&#4707;&#4705;&#4653;</trd>
   <trd lng="ar">&a_q;&a_T;&a_A;&a_r;</trd>
   <trd lng="az">qatar</trd>
-  <trd lng="bn">&#x99F;&#x9CD;&#x9B0;&#x9C7;&#x9A8;</trd>
-  <trd lng="bo">&#xF62;&#xF72;&#xF0B;&#xF63;&#xF72;&#xF0B;</trd>
+  <trd lng="bn">&#2463;&#2509;&#2480;&#2503;&#2472;</trd>
+  <trd lng="bo">&t_ra;&t_gigu;&t_tsheg;&t_la;&t_gigu;&t_tsheg;</trd>
   <trd lng="bs">voz</trd>
   <trd lng="co">treno</trd>
   <trd lng="cs">vlak</trd>
-  <trd lng="cy">tr&#xEA;n</trd>
+  <trd lng="cy">tr&ecirc;n</trd>
   <trd lng="da">tog</trd>
   <trd lng="et">rong</trd>
   <trd lng="eu">trena</trd>
   <trd lng="fy">trein</trd>
   <trd lng="ga">traein</trd>
-  <trd lng="gd">tr&#xE8;ana</trd>
+  <trd lng="gd">tr&egrave;ana</trd>
   <trd lng="gl">tren</trd>
-  <trd lng="gu">&#xA9F;&#xACD;&#xAB0;&#xAC7;&#xAA8;</trd>
+  <trd lng="gu">&#2719;&#2765;&#2736;&#2759;&#2728;</trd>
   <trd lng="ha">jirgin kasa</trd>
-  <trd lng="hi">&#2360;&#x92B;&#2352;</trd>
+  <trd lng="hi">&#2360;&#2347;&#2352;</trd>
   <trd lng="hmn">tsheb ciav hlau</trd>
   <trd lng="hr">vlak</trd>
   <trd lng="ht">tren</trd>
   <trd lng="hy">&#1379;&#1398;&#1377;&#1409;&#1412;</trd>
-  <trd lng="ig">&#x1EE5;gb&#x1ECD;</trd>
+  <trd lng="ig">&#7909;gb&#7885;</trd>
   <trd lng="is">lest</trd>
-  <trd lng="ja">&#21015;&#x8ECA;</trd>
+  <trd lng="ja">&#21015;&#36554;</trd>
   <trd lng="jv">sepur</trd>
   <trd
-  lng="ka">&#x10DB;&#x10D0;&#x10E2;&#x10D0;&#x10E0;&#x10D4;&#x10D1;&#x10D4;&#x10DA;&#x10D8;</trd>
-  <trd lng="kk">&#x43F;&#x43E;&c_je;&c_z;&c_d;</trd>
-  <trd lng="km">&#x179A;&#6032;&#6039;&#x17D2;&#x179B;&#x17BE;&#6020;</trd>
-  <trd lng="kn">&#xCB0;&#xCC8;&#xCB2;&#xCC1;</trd>
-  <trd lng="ko">&#xAE30;&#xCC28;</trd>
-  <trd lng="ku">tir&#xEA;n</trd>
-  <trd lng="ky">&#x43F;&#x43E;&c_je;&c_z;&c_d;</trd>
+  lng="ka">&#4315;&#4304;&#4322;&#4304;&#4320;&#4308;&#4305;&#4308;&#4314;&#4312;</trd>
+  <trd lng="kk">&c_p;&c_o;&c_je;&c_z;&c_d;</trd>
+  <trd lng="km">&#6042;&#6032;&#6039;&#6098;&#6043;&#6078;&#6020;</trd>
+  <trd lng="kn">&#3248;&#3272;&#3250;&#3265;</trd>
+  <trd lng="ko">&#44592;&#52264;</trd>
+  <trd lng="ku">tir&ecirc;n</trd>
+  <trd lng="ky">&c_p;&c_o;&c_je;&c_z;&c_d;</trd>
   <trd lng="lat">erant</trd>
   <trd
-  lng="lo">&#xE81;&#xEB2;&#xE99;&#xE9D;&#xEB6;&#xE81;&#xEAD;&#xEBB;&#xE9A;&#xEAE;&#xEBB;&#xEA1;</trd>
+  lng="lo">&#3713;&#3762;&#3737;&#3741;&#3766;&#3713;&#3757;&#3771;&#3738;&#3758;&#3771;&#3745;</trd>
   <trd lng="lt">traukinys</trd>
   <trd lng="lv">vilciens</trd>
   <trd lng="mg">fiaran-dalamby</trd>
   <trd lng="mi">tereina</trd>
-  <trd lng="mk">&c_v;&#x43E;&c_z;</trd>
-  <trd lng="ml">&#xD24;&#xD40;&#xD35;&#xD23;&#xD4D;&#xD1F;&#xD3F;</trd>
-  <trd lng="mn">&c_g;&c_a;&#x43B;&c_t; &c_t;&#x44D;&c_r;&#x44D;&c_g;</trd>
-  <trd lng="mr">&#2352;&#2375;&#2354;&#x94D;&#2357;&#2375;</trd>
+  <trd lng="mk">&c_v;&c_o;&c_z;</trd>
+  <trd lng="ml">&#3364;&#3392;&#3381;&#3363;&#3405;&#3359;&#3391;</trd>
+  <trd lng="mn">&c_g;&c_a;&c_l;&c_t; &c_t;&c_e;&c_r;&c_e;&c_g;</trd>
+  <trd lng="mr">&#2352;&#2375;&#2354;&#2381;&#2357;&#2375;</trd>
   <trd lng="ms">kereta api</trd>
   <trd lng="mt">ferrovija</trd>
-  <trd lng="my">&#4121;&#x102E;&#4152;&#x101B;&#4113;&#x102C;&#4152;</trd>
+  <trd lng="my">&#4121;&#4142;&#4152;&#4123;&#4113;&#4140;&#4152;</trd>
   <trd lng="ne">&#2352;&#2375;&#2354;</trd>
   <trd lng="ny">sitima</trd>
-  <trd lng="pa">&#xA30;&#xA47;&#xA32; &#xA17;&#xA71;&#xA21;&#xA40;</trd>
+  <trd lng="pa">&#2608;&#2631;&#2610; &#2583;&#2673;&#2593;&#2624;</trd>
   <trd lng="ps">&a_r;&a_w;&a_z;&a_n;&a_h;</trd>
   <trd lng="rw">gari ya moshi</trd>
-  <trd lng="sd">&a_s;&#x6A9;&#x64A;&a_A;</trd>
-  <trd lng="si">&#xDAF;&#xDD4;&#xDB8;&#xDCA;&#xDBB;&#xDD2;&#xDBA;</trd>
+  <trd lng="sd">&a_s;&f_k;&a_y;&a_A;</trd>
+  <trd lng="si">&#3503;&#3540;&#3512;&#3530;&#3515;&#3538;&#3514;</trd>
   <trd lng="sk">vlak</trd>
   <trd lng="sl">vlak</trd>
   <trd lng="sm">nofoa afi</trd>
@@ -146,24 +190,25 @@
   <trd lng="st">terene e</trd>
   <trd lng="su">ngadidik</trd>
   <trd lng="sw">treni</trd>
-  <trd lng="ta">&#xBB0;&#xBAF;&#xBBF;&#xBB2;&#xBCD;</trd>
-  <trd lng="te">&#xC30;&#xC48;&#xC32;&#xC41;</trd>
-  <trd lng="tg">&#x43F;&#x43E;&c_je;&c_z;&c_d;</trd>
-  <trd lng="th">&#xE23;&#xE16;&#xE44;&#xE1F;</trd>
+  <trd lng="ta">&#2992;&#2991;&#3007;&#2994;&#3021;</trd>
+  <trd lng="te">&#3120;&#3144;&#3122;&#3137;</trd>
+  <trd lng="tg">&c_p;&c_o;&c_je;&c_z;&c_d;</trd>
+  <trd lng="th">&#3619;&#3606;&#3652;&#3615;</trd>
   <trd lng="tl">tren</trd>
-  <trd lng="tt">&#x43F;&#x43E;&c_je;&c_z;&c_d;</trd>
-  <trd lng="uk">&#x43F;&#x43E;&c_ji;&c_z;&c_d;</trd>
-  <trd lng="ur">&#1657;&a_r;&#x6CC;&a_n;</trd>
+  <trd lng="tt">&c_p;&c_o;&c_je;&c_z;&c_d;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_ji;&c_z;&c_d;</trd>
+  <trd lng="ur">&#1657;&a_r;&f_y;&a_n;</trd>
   <trd lng="uz">poezd</trd>
-  <trd lng="vi">&#273;&#xE0;o t&#x1EA1;o</trd>
+  <trd lng="vi">&#273;&agrave;o t&#7841;o</trd>
   <trd lng="xh">uloliwe</trd>
-  <trd lng="yi">&#x5D1;&#x5D0;&#x5B7;&#x5DF;</trd>
+  <trd lng="yi">&bet;&alef;&#1463;&fnun;</trd>
   <trd lng="yo">oko</trd>
   <trd lng="zu">isitimela</trd>
 </drv>
 
 <drv mrk="trajn.kargo0o">
   <kap>kargo<tld/>o,
+  <var><kap>&scirc;ar&gcirc;<tld/>o</kap></var>,
   <var><kap>var<tld/>o</kap></var>
   </kap>
   <snc mrk="trajn.kargo0o.FER">
@@ -178,13 +223,67 @@
           <aut>K. Kniivil&auml;</aut>
           <vrk>Homoj de Putin</vrk>
           <lok>2016</lok>
-        </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        longa &scirc;ar&gcirc;<tld/>o forlasis la urbon kun valoraj provizvaroj, kiujn la milito
+        su&ccirc;is al si
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>;
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_a;&c_v;&c_a;&c_r;&c_n;&c_y; <ind>&c_c;&c_ja;&c_g;&c_n;&c_ib;&c_k;</ind></trd>
   <trd lng="fr">train de marchandises</trd>
-  <trd lng="uk">&c_t;&#x43E;&c_v;&c_a;&c_r;&#x43D;&c_i;&c_j;/&c_v;&c_a;&#x43D;&c_t;&c_a;&c_zh;&#x43D;&c_i;&c_j; &#x43F;&#x43E;&c_ji;&c_z;&c_d;</trd>
+  <trd lng="uk">&c_t;&c_o;&c_v;&c_a;&c_r;&c_n;&c_i;&c_j;/&c_v;&c_a;&c_n;&c_t;&c_a;&c_zh;&c_n;&c_i;&c_j; &c_p;&c_o;&c_ji;&c_z;&c_d;</trd>
+</drv>
+
+<drv mrk="trajn.magnet0o">
+  <kap>
+    magnet<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Trajno &scirc;vebanta supre la relo per magneta forto:
+      <ekz>
+        per magnet<tld/>o la voja&gcirc;o da&ubreve;ros nur 10 minutojn je pinta rapideco de 350 km/h
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Reinhard F&ouml;ssmeier</aut>
+          <vrk><url ref="&Monato;/2004/008200.html"
+              >&Ccirc;u iam rapidos Transrapid?</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Magnetschwebebahn</trd>
+  <trd lng="en">Maglev</trd>
+  <trd lng="fr">Maglev</trd>
+</drv>
+
+<drv mrk="trajn.metro0o">
+  <kap>
+    metro<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="T"/>o de la <ref tip="malprt" cel="metro.0o">metroo</ref>:
+      <ekz>
+        mi veturas per metro<tld/>o en la vienan urbocentron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2015/011574.php"
+              >Supo, panoj kaj bananoj</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">U-Bahn-Zug</trd>
 </drv>
 
 <drv mrk="trajn.pasagxer0o">
@@ -194,6 +293,16 @@
     <dif>
       <ref tip="super" cel="trajn.0o.FER"><tld lit="T"/>o<sncref/></ref>
       portanta homojn, voja&gcirc;antojn:
+      <ekz>
+        neniu pasa&gcirc;er<tld/>o haltus, kie ne estas kajo nek signaloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2006/008788.php"
+              >Tenebro</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         Kenja prezidento <nom>Uhuru Kenyatta</nom> merkrede
         lan&ccirc;is la servon de pasa&gcirc;er<tld/>o de la 480-kilometra
@@ -209,11 +318,97 @@
   </snc>
   <trd lng="be">&c_p;&c_a;&c_s;&c_a;&c_zh;&c_y;&c_r;&c_s;&c_k;&c_ib; <ind>&c_c;&c_ja;&c_g;&c_n;&c_ib;&c_k;</ind></trd>
   <trd lng="fr">train de voyageurs</trd>
-  <trd lng="uk">&#x43F;&c_a;&c_s;&c_a;&c_zh;&c_i;&c_r;&c_s;&#x44C;&#x43A;&c_i;&c_j; &#x43F;&#x43E;&c_ji;&c_z;&c_d;</trd>
+  <trd lng="uk">&c_p;&c_a;&c_s;&c_a;&c_zh;&c_i;&c_r;&c_s;&c_mol;&c_k;&c_i;&c_j; &c_p;&c_o;&c_ji;&c_z;&c_d;</trd>
 </drv>
+
+<drv mrk="trajn.rapid0o">
+  <kap>
+    rapid<tld/>o, <var><kap>ekspresa <tld/>o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Trajno iranta pli rapida ol ordinara kaj haltanta nur en gravaj stacioj:
+      <ekz>
+        la ekspresa trajno Parizo-Limo&gcirc;o
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        elreligo de rapid<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul GUBBINS</aut>
+          <vrk>Politiko elreligita</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        cent homoj mortis en germana ekspres<tld/>o <klr>[&#8230;]</klr> pro unu rompi&gcirc;inta
+        rado
+        <fnt>
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post eniro en la ekspresan <tld/>on &leftquot;Oriento-Okcidento&rightquot; mi denove devas stari en
+        la koridoro
+        <fnt>
+          <bib>FSI</bib>
+          <lok>IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en novaj rapid<tld/>oj oni provizu spacon por bicikloj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Monato;/2004/008262.html"
+              >Kiel solvi trafikproblemojn</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Schnellzug</trd>
+  <trd lng="en">express train</trd>
+  <trd lng="fr">train express</trd>
+</drv>
+
+<drv mrk="trajn.urbo0o">
+  <kap>
+    urbo<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Trajno kiu veturas nur inter stacioj de urbo kaj eventuale ties &ccirc;irka&ubreve;a&jcirc;o, sed
+      alie ol tramo ne surstrate:
+      <ekz>
+        Munkeno <klr>[&#8230;]</klr> preferas konstrui rapidan urbo<tld/>on, kiu kostus multe
+        malpli kaj kondukus pasa&gcirc;erojn ne multe malpli rapide al la flughaveno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2007/009349.php"
+              >Superflua rapidego</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">S-Bahn</trd>
+  <trdgrp lng="en">
+    <trd>S-train</trd>,
+    <trd>urban-suburban rail</trd>
+  </trdgrp>
+  <trd lng="fr">train express urbain</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.110 2023/08/12 10:26:14
+Wolfram Diestel: dif-precizigo, ekz-oj, ref; +ŝarĝ~o, magnet~o, metro~o, urbo~o, rapid/ekspres~o
+
 versio 1.109 2023/07/09 15:27:48
 Ulrich Fellmann: trajno: + administra noto pri la nefaka aserto ke vagonaro = trajno
 
@@ -233,8 +428,5 @@ Revision 1.25  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.24  2015/06/29 16:40:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.23  2010/06/11 16:30:41  revo
 -->
 </vortaro>
