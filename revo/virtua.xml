@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: virtua.xml,v 1.19 2023/08/13 08:24:32 revo Exp $">
+<art mrk="$Id: virtua.xml,v 1.20 2023/08/14 05:25:48 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>virtual</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
@@ -51,8 +51,10 @@
     <trd lng="hu">virtu&aacute;lis</trd>
   </snc>
   <snc mrk="virtua.0a.sxajna">
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      &Scirc;ajniganta realon, kiu fizike ne ekzistas:
+      &Scirc;ajniganta realon, kiu fizike ne ekzistas; <ref tip="sin" cel="iluzi.0a">iluzia</ref>,
+      real<ref cel="imit.0i.fari">imita</ref>:
       <ekz>
         <nom>Russel Tyalor</nom> kaj <nom>Warren Robinett</nom>, &ccirc;e la usona Universitato
         <nom>Chapel Hill</nom> (Norda Karolino), parigante la tunelefikan mikroskopon kaj
@@ -63,9 +65,45 @@
           <vrk><url ref="&Monato;/1997/005286.html">Mikroskope vastaj
           horizontoj</url></vrk>,
           <bib>Monato</bib>,
-          <lok>1997/02</lok>;
-        </fnt>
+          <lok>1997/02</lok>
+        </fnt>;
       </ekz>
+      <ekz>
+        homoj &scirc;ategas la <tld/>econ, &ccirc;ar ili povas fu&gcirc;i de la realeco, ili kreas novan
+        mistikan mondon, kie ili sin izolas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <vrk>Bugra bug-insekto</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili roboti&gcirc;inte ne plu vidas ion ekster <tld/>a&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Michel Marko</aut>
+          <vrk><url ref="&Monato;/2005/008537.php"
+              >Kia revuo</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+      <ref cel="auxten.0a">a&ubreve;tentika</ref>,
+      <ref cel="real.0a">reala</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="fikci.0a">fikcia</ref>,
+      <ref cel="imag.0a.nereala">imaga<sncref/></ref>,
+      <ref cel="pseuxd.0a">pse&ubreve;da</ref>,
+      <ref cel="sxajn.0a">&scirc;ajna</ref>
+    </refgrp>
+    <trd lng="hu">l&aacute;tsz&oacute;lagos</trd>
+  </snc>
+  <snc mrk="virtua.0a.reta">
+    <uzo tip="fak">RET</uzo>
+    <dif>
+      Interreta:
       <ekz>
         komence de la jaro 2000 esti&gcirc;is <tld/>e, do en la reto, la Astronomia
         Esperanto-Klubo
@@ -104,39 +142,9 @@
           <vrk><url ref="&Monato;/2013/011017.php"
               >Bitcoin: &ccirc;u scienca eksperimento, trompado a&ubreve; reale uzebla virtuala mono?</url></vrk>
           <lok>2013</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        homoj &scirc;ategas la <tld/>econ, &ccirc;ar ili povas fu&gcirc;i de la realeco, ili kreas novan
-        mistikan mondon, kie ili sin izolas
-        <fnt>
-          <bib>Monato</bib>
-          <aut>S. Maul</aut>
-          <vrk>Bugra bug-insekto</vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        ili roboti&gcirc;inte ne plu vidas ion ekster <tld/>a&jcirc;oj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Michel Marko</aut>
-          <vrk><url ref="&Monato;/2005/008537.php"
-              >Kia revuo</url></vrk>
-          <lok>2005</lok>
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="ant">
-      <ref cel="auxten.0a">a&ubreve;tentika</ref>,
-      <ref cel="real.0a">reala</ref>
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="fikci.0a">fikcia</ref>,
-      <ref cel="imag.0a.nereala">imaga<sncref/></ref>,
-      <ref cel="pseuxd.0a">pse&ubreve;da</ref>,
-      <ref cel="sxajn.0a">&scirc;ajna</ref>
-    </refgrp>
-    <trd lng="hu">l&aacute;tsz&oacute;lagos</trd>
   </snc>
   <trd lng="be">&c_v;&c_ib;&c_r;&c_t;&c_u;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="ca">virtual</trd>
@@ -157,6 +165,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2023/08/14 05:25:48
+Wolfram Diestel: apartigo snc "interreta"; +ref
+
 versio 1.19 2023/08/13 08:24:32
 Wolfram Diestel: modernigo dif, +ekz-oj
 
@@ -176,8 +187,5 @@ Revision 1.12  2002/07/27 19:02:36  revo
 Eduardo M. Kalinowski: ald trd pt
 
 Revision 1.11  2002/06/01 05:58:31  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.10  2002/03/19 17:32:58  revo
 -->
 </vortaro>
