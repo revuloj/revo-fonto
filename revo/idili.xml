@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: idili.xml,v 1.20 2023/06/01 23:26:49 revo Exp $">
+<art mrk="$Id: idili.xml,v 1.21 2023/08/15 16:29:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>idili</rad>/o
@@ -11,40 +11,74 @@
   <snc mrk="idili.0o.POE">
     <uzo tip="fak">POE</uzo>
     <dif>
-      Poemeto pri la&ubreve;natura, kampara vivo, kaj plejofte pri naivaj amoj
-      de pa&scirc;tistoj:
+      <ref cel="poem.0o.versajxo">Poemeto</ref> pri la&ubreve;natura, kampara vivo,
+      kaj plejofte pri naivaj amoj de pa&scirc;tistoj:
       <ekz>
-        la <tld/>oj de Teokrito, Vergilio;
+        legisto legis al ili dum la man&gcirc;o <tld/>ojn de Teokrito
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LVII</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <ind><tld/>a</ind> pejza&gcirc;o
-        <trd lng="fr">idyllique</trd>.
+        dialogaj <tld/>oj bone verkitaj kaj rimitaj
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
+    <refgrp tip="sin">
+      <ref cel="bukolik.0o">bukoliko</ref>,
       <ref cel="eklog.0o">eklogo</ref>
     </refgrp>
-    <trdgrp lng="de">
-      <trd>Idylle</trd>,
-      <trd>Idyll</trd>
-    </trdgrp>
   </snc>
   <snc mrk="idili.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Trankvila kaj naiva amo:
+      Loko, situacio trankvila, amplena, tia, kiel &gcirc;in priskribas <ref cel="idili.0o.POE">idilio<sncref/></ref>:
       <ekz>
         la sennuba <tld/>o de &scirc;ia infaneco
         <fnt><bib>Marta</bib></fnt>;
       </ekz>
+      <ekz>
+        tia kvieto trankviligas kaj igas son&gcirc;i, inter &ccirc;i tiuj arboj oni dezirus vidi
+        <tld/>on
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam mi eliris el la brakoj de mia amikino, la <tld/>o aliformi&gcirc;is en tragedion
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u kun multa turismo tia <tld/>o restos paradizo, estas alia afero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan MAUL</aut>
+          <vrk>Ri&ccirc;a per .tv</vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="de">zarte Liebe</trd>
+    <refgrp tip="vid">
+      <ref cel="eden.0o.FIG">edeno<sncref/></ref>,
+      <ref cel="paradi1.0o.FIG">paradizo<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_ib;&c_d;&c_y;&c_l;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_i;&c_d;&c_i;&c_l;&c_i;&c_ja;</trd>
   <trdgrp lng="cs">
     <trd>idyla</trd>,
     <trd>selanka</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Idylle</trd>,
+    <trd>Idyll</trd>
   </trdgrp>
   <trd lng="en">idyll</trd>
   <trd lng="fr">idylle</trd>
@@ -57,13 +91,16 @@
   <trd lng="pt">id&iacute;lio</trd>
   <trd lng="ru">&c_i;&c_d;&c_i;&c_l;&c_l;&c_i;&c_ja;</trd>
   <trd lng="sk">idyla</trd>
-  <trd lng="uk">&c_ib;&c_d;&c_i;&#x43B;&c_ib;&#x44F;</trd>
+  <trd lng="uk">&c_ib;&c_d;&c_i;&c_l;&c_ib;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2023/08/15 16:29:43
+Wolfram Diestel: snc FIG: revortigo, +ekz-oj, ref-oj
+
 versio 1.20 2023/06/01 23:26:49
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 Revision 1.17  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
@@ -81,8 +118,5 @@ Revision 1.13  2005/10/25 16:31:06  revo
 Luiz Portella: +trd pt
 
 Revision 1.12  2004/01/19 17:31:04  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/10/07 16:30:43  revo
 -->
 </vortaro>
