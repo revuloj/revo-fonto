@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: diakrit.xml,v 1.19 2023/06/28 11:26:08 revo Exp $">
+<art mrk="$Id: diakrit.xml,v 1.20 2023/08/23 06:27:55 revo Exp $">
 <kap>
   <rad>diakrit</rad>/o
+  <fnt><bib>PIV1</bib></fnt>
 </kap>
 
 <drv mrk="diakrit.0o">
@@ -17,15 +18,15 @@
       aliaj, ol tiuj de la litero sen &gcirc;i a&ubreve; kun alia <tld/>o:
       <ekz>
         la latinaj literoj kun <tld/>oj
-        <fnt><aut>Carlo MINNAJA</aut>:
+        <fnt><aut>Carlo Minnaja</aut>:
           <vrk><url ref="&Monato;/2010/009999.php">Interlingvo: komparo inter du solvoj</url></vrk>
           <bib>Monato</bib>
           <lok>2010/04, p. 24-25</lok>
           </fnt>;
       </ekz><ekz>
         la&ubreve; ilia pozicio rilate al la baza litero oni klasas <tld/>ojn
-        en supersignojn (kiel &ccirc;), subsignojn (kiel &ccedil;) kaj
-        enliniajn <tld/>ojn (kiel en la hebrea &bet;&#x5BC;, kp &bet;);
+        en supersignojn (kiel <nom>&ccirc;</nom>), subsignojn (kiel <nom>&ccedil;</nom>) kaj
+        enliniajn <tld/>ojn (kiel en la hebrea <nom>&bet;&#1468;</nom>, kp <nom>&bet;</nom>);
       </ekz><ekz>
         Esperanto uzas du <tld/>ojn:
         la <ref cel="cxapel.0o.supersigno">&ccirc;apelon<sncref/></ref> super &ccirc;,
@@ -101,7 +102,7 @@
 </drv>
 
 <drv mrk="diakrit.0a">
-  <kap><tld/>a <fnt>PIV</fnt></kap>
+  <kap><tld/>a <fnt>PIV1</fnt></kap>
   <snc mrk="diakrit.0a.LIN">
     <uzo tip="fak">LIN</uzo>
     <dif>
@@ -134,8 +135,8 @@
   </snc>
   <trd lng="fr">diacritique<klr tip="amb"> (adj.)</klr></trd>
   <trdgrp lng="he">
-    <trd>&#x5D3;&#x5D9;&#x5D0;&#x5E7;&#x5E8;&#x5D9;&#x5D8;&#x5D9;</trd>,
-    <trd>&#x5DE;&#x5E0;&#x5E7;&#x5D3;</trd>
+    <trd>&dalet;&yod;&alef;&qof;&resh;&yod;&tet;&yod;</trd>,
+    <trd>&mem;&nun;&qof;&dalet;</trd>
   </trdgrp>
   <trd lng="sk">diakritick&yacute;</trd>
   <trd lng="uk">&c_d;&c_ib;&c_a;&c_k;&c_r;&c_i;&c_t;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>
@@ -175,16 +176,18 @@
   <snc mrk="diakrit.0ilo.LIN">
     <uzo tip="fak">LIN</uzo>
     <uzo tip="fak">TIP</uzo>
-      <ref tip="dif" cel="diakrit.0o"><tld/>o</ref>
+    <dif>
+      <ref tip="dif" cel="diakrit.0o"><tld lit="D"/>o</ref>:
       <ekz>
-        Temas plejparte pri proponoj &scirc;an&gcirc;i la ortografion de
+        temas plejparte pri proponoj &scirc;an&gcirc;i la ortografion de
         Esperanto, kaj per forigo de la supersignitaj literoj, kaj per
         aldono de novaj <tld/>iloj kaj anka&ubreve; litersignoj por
         pliperfektigi la Esperantan alfabeton la&ubreve; fonetika vidpunkto
-        <fnt><aut>Bernard GOLDEN</aut>:
+        <fnt><aut>Bernard Golden</aut>:
           <vrk>Eternaj reformantoj</vrk>.
           <lok>Kajeroj el la Sudo, &#8470;16 (1992:10), p.&nbsp;6</lok></fnt>.
       </ekz>
+    </dif>
     <trd lng="be">&c_d;&c_y;&c_ja;&c_k;&c_r;&c_y;&c_t;&c_y;&c_ch;&c_n;&c_y; &c_z;&c_n;&c_a;&c_k;</trd>
     <trdgrp lng="ca">
       <trd>diacr&iacute;tic</trd>,
@@ -206,7 +209,7 @@
   <rim>
     En Esperanto ankora&ubreve; estas hezito, &ccirc;u la radiko <em>diakrit/</em>
     estu substantiva (kiel en &ccirc;i tiu artikolo: la baza formo estas
-    <ref tip="dif" cel="diakrit.0o"><tld/>o</ref>), &ccirc;u verba (la&ubreve; la
+    <ref cel="diakrit.0o"><tld/>o</ref>), &ccirc;u verba (la&ubreve; la
     greka etimo), &ccirc;u adjektiva (kiel en la PIV-oj). La adjektiva
     kategoriigo estas bazita sur la plej ofta kombino &leftquot;<tld/>a signo&rightquot;;
     sed se la radiko &ccirc;iam aperas en tia kombino, tiam estas pli racie
@@ -225,6 +228,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2023/08/23 06:27:55
+Wolfram Diestel: fnt PIV1, sintaksaj adaptoj
+
 versio 1.19 2023/06/28 11:26:08
 Paul Peeraerts:  + trd nl + lok + url
 
@@ -244,8 +250,5 @@ Revision 1.11  2007/07/24 19:11:42  revo
 Tulio Flores: +tr pt
 
 Revision 1.10  2005/08/13 16:34:22  revo
-Jeromo Vasxe: + fak tip, + 1 tez
-
-Revision 1.9 2004/03/06 17:30:54 revo
 -->
 </vortaro>
