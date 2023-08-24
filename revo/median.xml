@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: median.xml,v 1.21 2023/01/04 12:48:53 revo Exp $">
+<art mrk="$Id: median.xml,v 1.22 2023/08/24 20:24:26 revo Exp $">
 <kap>
 <rad>median</rad>/o
 </kap>
@@ -11,7 +11,7 @@
   <snc mrk="median.0o.triangulo">
     <fnt><bib>PV</bib></fnt>
     <dif>
-      <klr>(de <ref cel="angul.tri0o">triangulo</ref>)</klr>
+      <klr>(geometrio, de <ref cel="angul.tri0o">triangulo</ref>)</klr>
       <ref tip="super" cel="rekt.0o.MAT">Rekto</ref>, trairanta
       verticon de &gcirc;i kaj la mezon de la
       <ref cel="kontraux.0a.triangulo">kontra&ubreve;a</ref> latero:
@@ -23,11 +23,21 @@
     <bld lok="../bld/e_medianoj.svg" tip="svg" alt="400" lrg="400">
       <tld/>oj de triangulo
     </bld>
+    <rim>
+      Por tiu &ccirc;i nocio <nom>Bricard</nom>
+      <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
+      uzis la terminon <ctl>mezanto</ctl>. La sama termino trovi&gcirc;as
+      anka&ubreve; en <fnt><bib>PIV1</bib></fnt>, sed la a&ubreve;toroj de tiu
+      verko nemalprave opiniis, ke <ctl>mezant&middot;o</ctl> ne bone sidas sub
+      radiko <ctl>mez</ctl> kaj havigis al &gcirc;i propran radikon. La situacio
+      renversi&gcirc;is en <fnt><bib>PIV2</bib></fnt>, kie <ctl>mezanto</ctl>
+      estas signita kiel evitinda.
+    </rim>
     <trd lng="pl">&sacute;rodkowa</trd>
   </snc>
   <snc mrk="median.0o.kvaredro">
     <dif>
-      <klr>(de <ref cel="edr.n0o">kvaredro</ref>)</klr>
+      <klr>(geometrio, de <ref cel="edr.n0o">kvaredro</ref>)</klr>
       <ref tip="super" cel="rekt.0o.MAT">Rekto</ref>, trairanta
       verticon de &gcirc;i kaj la <ref cel="centr.pezo0o.MAT">pezocentron</ref>
       de la <ref cel="kontraux.0a.kvaredro">kontra&ubreve;a</ref> faco:
@@ -36,23 +46,13 @@
       </ekz>
     </dif>
   </snc>
-  <rim>
-    Por tiu &ccirc;i nocio <nom>Bricard</nom>
-    <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
-    uzis la terminon <ctl>mezanto</ctl>. La sama termino trovi&gcirc;as
-    anka&ubreve; en <fnt><bib>PIV1</bib></fnt>, sed la a&ubreve;toroj de tiu
-    verko nemalprave opiniis, ke <ctl>mezanto</ctl> ne bone sidas sub
-    radiko 
-    <ctl>mez</ctl> kaj havigis al &gcirc;i propran radikon. La situacio
-    renversi&gcirc;is en <fnt><bib>PIV2</bib></fnt>, kie <ctl>mezanto</ctl>
-    estas signita kiel evitinda.
-  </rim>
   <snc mrk="median.0o.statistiko">
+    <fnt><bib>PIV3</bib></fnt>
+    <uzo tip="klr">(statistiko)</uzo>
     <dif>
-      Nombro tia, ke egale multaj nombroj superas &gcirc;in kiel malsuperas &gcirc;in. Sin. mediana valoro,
-      duilo.
+      Nombro tia, ke egale multaj nombroj superas &gcirc;in kiel malsuperas &gcirc;in (sinonimoj: <tld/>a valoro,
+      duilo).
     </dif>
-    <fnt>PIV2020, SAT, Parizo 2020, rete alirebla je vortaro.net</fnt>
     <trdgrp lng="de">
       <trd>Median</trd>,
       <trd>Medianwert</trd>
@@ -76,13 +76,16 @@
     <trd>spiritista</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&c_je;&c_d;&c_ib;&c_a;&#x43D;&c_a;</trd>,
-    <trd>&c_s;&c_je;&c_r;&c_je;&c_d;&c_i;&#x43D;&#x43D;&c_i;&c_j; &#x43D;&c_je;&c_r;&c_v;</trd>
+    <trd>&c_m;&c_je;&c_d;&c_ib;&c_a;&c_n;&c_a;</trd>,
+    <trd>&c_s;&c_je;&c_r;&c_je;&c_d;&c_i;&c_n;&c_n;&c_i;&c_j; &c_n;&c_je;&c_r;&c_v;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/08/24 20:24:26
+Wolfram Diestel: ĝustigis aranĝon post aldono de snc statistika
+
 versio 1.21 2023/01/04 12:48:53
 Ulrich Fellmann: mediano (3): aldono de tria signifo kaj 2 DE trdj
 
@@ -102,8 +105,5 @@ Revision 1.15  2010/01/18 17:31:47  revo
 Mireille Corobu: svg->gif
 
 Revision 1.14  2009/08/08 16:33:03  revo
-Wieland Pusch: +trd bg
-
-Revision 1.13  2009/07/17 16:31:28  revo
 -->
 </vortaro>
