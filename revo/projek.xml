@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: projek.xml,v 1.37 2023/05/11 21:23:34 revo Exp $">
+<art mrk="$Id: projek.xml,v 1.38 2023/08/24 07:21:12 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>projekci</rad>/o
@@ -17,13 +17,21 @@
       <uzo tip="fak">GEOG</uzo>
       <dif>
         &Ccirc;iu el la diversaj metodoj, uzataj por prezenti sur ebena surfaco
-        parton a&ubreve; tuton de la tera a&ubreve; &ccirc;iela sfero.
+        parton a&ubreve; tuton de la tera a&ubreve; &ccirc;iela sfero:
+        <ekz>
+          la sunhorlo&gcirc;o Dijona estas la <tld/>o horizonta de la sunhorlo&gcirc;o tagnoktegaliga
+          <fnt>
+            <bib>FK</bib>
+            <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+          </fnt>.
+        </ekz>
       </dif>
+      <trd lng="de">Projektion</trd>
+      <trdgrp lng="pl">
+        <trd>rzutowanie</trd>,
+        <trd>wy&sacute;wietlanie</trd>
+      </trdgrp>
     </subsnc>
-    <trdgrp lng="pl">
-      <trd>rzutowanie</trd>,
-      <trd>wy&sacute;wietlanie</trd>
-    </trdgrp>
     <subsnc mrk="projek.0o.TEK">
       <uzo tip="fak">TEK</uzo>
       <dif>
@@ -33,6 +41,7 @@
           horizontala, vertikala, profila <tld/>o.
         </ekz>
       </dif>
+    <trd lng="de">Risszeichnung</trd>
     </subsnc>
     <subsnc mrk="projek.0o.FOT">
       <uzo tip="fak">FOT</uzo>
@@ -40,6 +49,7 @@
         Luma bildo, sendata sur pli-malpli proksiman ekranon per speciala
         lanterno.
       </dif>
+    <trd lng="de">Abbildung</trd>
     </subsnc>
   </snc>
   <snc mrk="projek.0o.PSI">
@@ -58,6 +68,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Projektion</trd>
     <trd lng="pl">projekcja</trd>
   </snc>
   <snc mrk="projek.0o.MAT">
@@ -67,7 +78,7 @@
         <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
         <ref cel="produt.kartezia0o">kartezia produto</ref> de pluraj
         aroj
-        al la <frm am="p"><k>p</k></frm>-a inter ili, kiu &jcirc;etas &ccirc;iun 
+        al la <frm am="p"><k>p</k></frm>-a inter ili, kiu &jcirc;etas &ccirc;iun
         opon al &gcirc;ia <frm am="p"><k>p</k></frm>-a
         <ref cel="term.0o.opo">termo</ref>:
         <ekz>
@@ -87,9 +98,9 @@
       <dif>
         <klr>(en <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
         Tia <ref tip="super" cel="homomo.0o">endomorfio</ref>
-        <frm am="p"><k>p</k></frm>, ke &gcirc;i egalas al la 
+        <frm am="p"><k>p</k></frm>, ke &gcirc;i egalas al la
         <ref cel="lig.kun0ajxo.rilatoj">kunliga&jcirc;o</ref>
-        kun si mem; simb. <frm am="p circ p=p"><k>p</k>&#x25E6;<k>p</k> =
+        kun si mem; simb. <frm am="p circ p=p"><k>p</k>&#9702;<k>p</k> =
         <k>p</k></frm>:
         <ekz>
           la <ref cel="kern.0o.homomorfio">kerno</ref> kaj la
@@ -98,8 +109,8 @@
         </ekz>
         <ekz>
           se <frm am="bb U"><g>U</g></frm> estas la kerno de
-          <frm am="p"><k>p</k></frm> kaj 
-          <frm am="bb V"><g>V</g></frm> &gcirc;ia bildaro, tiam oni diras, ke 
+          <frm am="p"><k>p</k></frm> kaj
+          <frm am="bb V"><g>V</g></frm> &gcirc;ia bildaro, tiam oni diras, ke
           <frm am="p"><k>p</k></frm> estas <ctl><tld/>o al subspaco
           <frm am="bb V"><g>V</g></frm>, paralele al subspaco
           <frm am="bb U"><g>U</g></frm></ctl>.
@@ -112,7 +123,7 @@
         <klr>(en <ref cel="spac.afina0o">afina spaco</ref>) </klr>
         <ref cel="afin.0a.bildigo">Afina</ref>
         <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>, asociita al
-        <ref cel="projek.0o.vektora"><tld/>o 
+        <ref cel="projek.0o.vektora"><tld/>o
         <sncref ref="projek.0o.vektora"/></ref>.
       </dif>
       <ref tip="sin" cel="projek.oblikva0o">oblikva <tld/>o.</ref>
@@ -156,14 +167,14 @@
     <trd>projekci&oacute;</trd>
   </trdgrp>
   <trd lng="nl">projectie</trd>
-  <trd lng="pl">projekcja</trd> 
+  <trd lng="pl">projekcja</trd>
   <trd lng="pt">proje&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
     <trd>premietanie</trd>,
     <trd>priemet</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&c_r;&#x43E;&c_je;&#x43A;&c_c;&c_ib;&#x44F;</trd>
+  <trd lng="uk">&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_ib;&c_ja;</trd>
 </drv>
 
 <drv mrk="projek.0i">
@@ -171,7 +182,7 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Desegni <tld/>on de io; trovi la bildon de punkto a&ubreve; figuro per
+      <ref cel="desegn.0i.TEK">Desegni</ref> <tld/>on de io; trovi la bildon de punkto a&ubreve; figuro per
       <tld/>o.
     </dif>
   </snc>
@@ -183,6 +194,13 @@
         <tld/>i lumbildojn;
       </ekz>
       <ekz>
+        Esperanta sonfilmo estis <tld/>ita dum la Universala Kongreso en <nom>Oxford</nom> 1930
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         &scirc;i ne havas videoaparaton por <tld/>i al li ian infanan bildfilmon
         <fnt>
           <bib>Monato</bib>
@@ -192,14 +210,34 @@
         </fnt>;
       </ekz>
       <ekz>
-        tiu unua fotokompostilo estis maleleganta skatolo preska&ubreve; unu kuban metron
-        granda, en kiu fulmilo <tld/>is lumon sur sentiva fotopapero
+        tiu unua fotokompostilo estis maleleganta skatolo <klr>[&#8230;]</klr>,
+        en kiu fulmilo <tld/>is lumon sur sentiva fotopapero
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Peeraerts</aut>
           <vrk><url ref="&Monato;/2004/008280.html">Komposta revolucio kaj presada
           stabileco</url></vrk>
           <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kinejoj en 1985 nombris 257 <klr>[&#8230;]</klr> nuntempe restas en Budape&scirc;to
+        trideko da <tld/>ejoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istvan Ertl</aut>
+          <vrk><url ref="&Monato;/2008/009378.php"
+              >Kinejoj kaj ciferoj: rekonkereto en Hungario</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li estas poeto <klr>[&#8230;]</klr> pri tuthomaraj problemoj, kiujn li <tld/>as tra
+        sia esence lirika personeco
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -215,10 +253,18 @@
         </fnt>.
       </ekz>
     </dif>
+  <trdgrp lng="de">
+    <trd>an die Wand <ind>werfen</ind></trd>,
+    <trd><klr>(einen Film) </klr>vorf&uuml;hren</trd>
+  </trdgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>projektovat</trd>,
     <trd>prom&iacute;tat</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>projizieren</trd>,
+    <trd>abbilden</trd>
   </trdgrp>
   <trd lng="fr">projeter</trd>
   <trd lng="hu">vet&iacute;t</trd>
@@ -230,8 +276,8 @@
   <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">premieta&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_je;&#x43A;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&c_v;&c_i;&#x43A;&#x43E;&#x43D;&c_a;&c_t;&c_i; &#x43F;&c_r;&#x43E;&c_je;&#x43A;&c_c;&c_ib;&#x44E;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_k;&c_o;&c_n;&c_a;&c_t;&c_i; &c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_ib;&c_ju;</trd>
   </trdgrp>
 </drv>
 
@@ -249,14 +295,14 @@
     <rim>
       <nom>Bricard</nom>
       <fnt><bib>MatTerm</bib><lok>p. 26</lok></fnt> konas la terminon,
-      sed sub formo <ctl>projecia&jcirc;o</ctl>. Cetere,
+      sed sub formo &leftquot;<esc>projecia&jcirc;o</esc>&rightquot;. Cetere,
       ekster la rigora faka lingva&jcirc;o, eblas konsideri, ke anka&ubreve;
       <ctl><tld/>o</ctl> havas &ccirc;i tiun sencon.
     </rim>
     <trd lng="de">Projektion</trd>
     <trd lng="en">projection</trd>
     <trd lng="fr">projection<klr tip="ind"> (math., image)</klr></trd>
-    <trd lng="hu">vet&uuml;let</trd>    
+    <trd lng="hu">vet&uuml;let</trd>
     <trd lng="pl">rzut<klr tip="ind"> (obraz)</klr></trd>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
   </snc>
@@ -320,6 +366,10 @@
     <trd>projek&ccaron;n&iacute; p&rcaron;&iacute;stroj</trd>,
     <trd>prom&iacute;tac&iacute; p&rcaron;&iacute;stroj</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Projektor</trd>,
+    <trd>Bildwerfer</trd>
+  </trdgrp>
   <trd lng="fr">projecteur<klr tip="ind"> (film, diapos,
   etc.)</klr></trd>
   <trd lng="hu">vet&iacute;t&odblac;g&eacute;p</trd>
@@ -331,8 +381,8 @@
   <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">projek&ccaron;n&yacute; pr&iacute;stroj</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_je;&#x43A;&c_t;&#x43E;&c_r;</trd>,
-    <trd>&#x43F;&c_r;&#x43E;&c_je;&#x43A;&c_c;&c_ib;&c_j;&#x43D;&c_i;&c_j; &c_a;&#x43F;&c_a;&c_r;&c_a;&c_t;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_ib;&c_j;&c_n;&c_i;&c_j; &c_a;&c_p;&c_a;&c_r;&c_a;&c_t;</trd>
   </trdgrp>
 </drv>
 
@@ -343,9 +393,10 @@
       Aparato por <tld/>i travideblajn foliojn sur ekrano.
     </dif>
   </snc>
+  <trd lng="de"> R&uuml;ckprojektor</trd>
   <trd lng="en">overhead projector</trd>
   <trd lng="fr">r&eacute;troprojecteur</trd>
-  <trd lng="hu">&iacute;r&aacute;svet&iacute;t&odblac;</trd>  
+  <trd lng="hu">&iacute;r&aacute;svet&iacute;t&odblac;</trd>
   <trd lng="nl">overheadprojector</trd>
   <trd lng="pl">grafoskop</trd>
   <trd lng="ru">&c_e;&c_p;&c_i;&c_d;&c_i;&c_a;&c_s;&c_k;&c_o;&c_p;</trd>
@@ -361,7 +412,7 @@
       al ebeno <frm am="P">P</frm>, rilate al punkto <frm am="O">O</frm>
       situanta ekster <frm am="P">P</frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref>, kiu &jcirc;etas
-      punkton <frm am="M">M</frm> al la intersekco de rekto 
+      punkton <frm am="M">M</frm> al la intersekco de rekto
       <frm am="OM">OM</frm> kun <frm am="P">P</frm>:
       <ekz>
         la punkton <frm am="O">O</frm> oni nomas centro de la centra
@@ -372,8 +423,8 @@
       </ekz>
       <ekz>
         la punktoj de la ebeno paralela al <frm am="P">P</frm> kaj
-        trairanta 
-        <frm am="O">O</frm> ne havas bildon per centra <tld/>o al ebeno 
+        trairanta
+        <frm am="O">O</frm> ne havas bildon per centra <tld/>o al ebeno
         <frm am="P">P</frm> rilate al <frm am="O">O</frm>.
       </ekz>
     </dif>
@@ -381,7 +432,7 @@
   <trd lng="de">Zentralprojektion</trd>
   <trd lng="en">central <ind>projection</ind></trd>
   <trd lng="fr">projection centrale</trd>
-  <trd lng="hu">k&ouml;z&eacute;ppontos <ind>vet&iacute;t&eacute;s</ind></trd>  
+  <trd lng="hu">k&ouml;z&eacute;ppontos <ind>vet&iacute;t&eacute;s</ind></trd>
   <trd lng="pl">rzut &sacute;rodkowy</trd>
   <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -399,8 +450,8 @@
   <trd lng="de">kanonische <ind>Projektion</ind></trd>
   <trd lng="en">canonical <ind>projection</ind></trd>
   <trd lng="fr">projection canonique</trd>
-  <trd lng="hu">kanonikus <ind>projekci&oacute;</ind></trd> 
-  <trd lng="pl">rzut kanoniczny</trd>   
+  <trd lng="hu">kanonikus <ind>projekci&oacute;</ind></trd>
+  <trd lng="pl">rzut kanoniczny</trd>
   <trd lng="ru">&c_k;&c_a;&c_n;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
 
@@ -414,7 +465,7 @@
   <trd lng="de">schiefe <ind>Projektion</ind></trd>
   <trd lng="en">skew <ind>projection</ind></trd>
   <trd lng="fr">projection oblique</trd>
-  <trd lng="hu">ferde p&aacute;rhuzamos <ind>projekci&oacute;</ind></trd>    
+  <trd lng="hu">ferde p&aacute;rhuzamos <ind>projekci&oacute;</ind></trd>
   <trd lng="pl">rzut uko&sacute;ny</trd>
   <trd lng="ru">&c_k;&c_o;&c_s;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -429,7 +480,7 @@
   <trd lng="de">orthogonale <ind>Projektion</ind></trd>
   <trd lng="en">orthogonal <ind>projection</ind></trd>
   <trd lng="fr">projection orthogonale</trd>
-  <trd lng="hu">mer&odblac;leges <ind>vet&iacute;t&eacute;s</ind></trd>    
+  <trd lng="hu">mer&odblac;leges <ind>vet&iacute;t&eacute;s</ind></trd>
   <trd lng="pl">rzut prostok&aogonek;tny</trd>
   <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -447,7 +498,7 @@
   <trd lng="de">Parallelprojektion</trd>
   <trd lng="en">parallel <ind>projection</ind></trd>
   <trd lng="fr">projection parall&egrave;le</trd>
-  <trd lng="hu">p&aacute;rhuzamos <ind>vet&iacute;t&eacute;s</ind></trd>    
+  <trd lng="hu">p&aacute;rhuzamos <ind>vet&iacute;t&eacute;s</ind></trd>
   <trd lng="pl">rzut r&oacute;wnoleg&lstroke;y</trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_o;&c_je;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -456,23 +507,26 @@
   <kap>vektora <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
-    <ref tip="dif" cel="projek.0o.vektora"><tld/>o <sncref/>.</ref>
+    <ref tip="dif" cel="projek.0o.vektora"><tld/>o<sncref/></ref>
   </snc>
-  <trd lng="de">Projektor</trd>
+  <trd lng="de">Projektor <klr>(Vektor)</klr></trd>
   <trd lng="en">projector</trd>
   <trdgrp lng="fr">
     <trd>projection vectorielle</trd>,
     <trd>projecteur<klr tip="ind"> (math.)</klr></trd>
   </trdgrp>
   <trd lng="hu">vet&iacute;t&eacute;s</trd>
-  <trd lng="pl">rzut wektorowy</trd>    
+  <trd lng="pl">rzut wektorowy</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.38 2023/08/24 07:21:12
+Wolfram Diestel: +trd de, ekz
+
 versio 1.37 2023/05/11 21:23:34
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.36 2023/04/11 09:27:07
 Paul Peeraerts: Steloj -> monato.be
@@ -490,8 +544,5 @@ versio 1.31 2020/09/26 22:32:22
 Jeromo Vasxe: ~o: rearangx. snc
 
 Revision 1.30  2020/02/13 20:10:15  revo
-Wolfram Diestel: formuloj per am
-
-Revision 1.29  2015/07/04 08:37:42  revo
 -->
 </vortaro>
