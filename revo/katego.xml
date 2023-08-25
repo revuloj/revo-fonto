@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: katego.xml,v 1.24 2023/04/11 16:10:36 revo Exp $">
+<art mrk="$Id: katego.xml,v 1.25 2023/08/25 15:24:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>kategori</rad>/o
@@ -37,7 +37,7 @@
         </fnt>;
       </ekz><ekz>
         &ccirc;iujn specojn de paroladoj <klr>[Aristotelo]</klr> dividas je tri &ccirc;efaj
-        <tld/>oj: paroladoj deliberativaj (politikaj), demonstrativaj kaj ju&gcirc;ejaj
+        <tld/>oj: paroladoj <esc>deliberativaj</esc> (politikaj), <esc>demonstrativaj</esc> kaj ju&gcirc;ejaj
         <fnt><bib>Ret</bib> <lok>Dua Parto</lok></fnt>;
       </ekz><ekz>
         la sonoraj literoj, estas la vokaloj, dum al la dua <tld/>o apartenas la
@@ -94,7 +94,7 @@
     <trd>oszt&aacute;ly</trd>
   </trdgrp>
   <trd lng="nl">categorie</trd>
-  <trd lng="pl">kategoria</trd>     
+  <trd lng="pl">kategoria</trd>
   <trd lng="ro">categorie</trd>
   <trd lng="ru">&c_k;&c_a;&c_t;&c_je;&c_g;&c_o;&c_r;&c_i;&c_ja;</trd>
   <trd lng="uk">&c_k;&c_a;&c_t;&c_je;&c_g;&c_o;&c_r;&c_ib;&c_ja;</trd>
@@ -122,7 +122,7 @@
     </dif>
     <trd lng="be">&c_k;&c_a;&c_t;&c_e;&c_g;&c_a;&c_r;&c_y;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>
     <trd lng="es">de <ind>categor&iacute;a</ind></trd>
-    <trd lng="fa">&a_m;&a_q;&a_w;&a_l;&a_h;&#8204;&a_A;&f_y;</trd>
+    <trd lng="fa">&a_m;&a_q;&a_w;&a_l;&a_h;&zwnj;&a_A;&f_y;</trd>
     <trdgrp lng="fr">
       <trd>de <ind>cat&eacute;gorie</ind></trd>,
       <trd>cat&eacute;goriel</trd>
@@ -148,12 +148,12 @@
     <trd>kategoryczny</trd>,
     <trd>stanowczy</trd>,
     <trd>zdeklarowany</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>categoric</trd>,
     <trd>declarat</trd>,
     <trd>ferm</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>kategorick&yacute;</trd>,
     <trd>rozhodn&yacute;</trd>
@@ -171,13 +171,15 @@
   <kap>gramatika <tld/>o</kap>
   <uzo tip="fak">LIN</uzo>
   <snc mrk="katego.gramatika0o.parolelemento">
-    <ref tip="dif" cel="elemen.parol0o">parolelemento</ref>
-    <ekz>
-      kompreneble ni devis fronti la tre oficialan sed kontestatan
-      demandon de la gramatikaj <tld/>oj de la radikoj
-      <fnt><aut>Georges Lagrange</aut> <bib>LOdE</bib>
-        <lok>&#8470;105 (2003:7)</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="elemen.parol0o">Parolelemento</ref>:
+      <ekz>
+        kompreneble ni devis fronti la tre oficialan sed kontestatan
+        demandon de la gramatikaj <tld/>oj de la radikoj
+        <fnt><aut>Georges Lagrange</aut> <bib>LOdE</bib>
+          <lok>&#8470;105 (2003:7)</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <snc mrk="katego.gramatika0o.eco">
     <dif>
@@ -195,7 +197,7 @@
       </ekz><ekz>
         <klr>[akordado]</klr> signifas, ke unu signifero, a&ubreve; indikilo de unu
         gramatika <tld/>o, povas aperi du fojojn a&ubreve; pli, en apartaj
-        vortoj 
+        vortoj
         <fnt><aut>J.C.Wells</aut>:
           <vrk>Lingvistikaj aspektoj de Esperanto</vrk> <lok>1978.</lok>
         </fnt>;
@@ -224,6 +226,9 @@
 </art>
 <!--
 $Log$
+versio 1.25 2023/08/25 15:24:16
+Wolfram Diestel: sintaksaj adaptoj
+
 versio 1.24 2023/04/11 16:10:36
 aktualigo Monato-URL
 
@@ -243,8 +248,5 @@ versio 1.19 2022/04/29 10:33:27
 Ulrich Fellmann: kategoria: +6 DE trdj
 
 Revision 1.16  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.15  2015/06/29 16:33:17  revo
 -->
 </vortaro>
