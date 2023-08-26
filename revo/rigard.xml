@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rigard.xml,v 1.139 2023/07/18 21:22:27 revo Exp $">
+<art mrk="$Id: rigard.xml,v 1.140 2023/08/26 20:22:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rigard</rad>/i
@@ -64,7 +64,7 @@
           <bib>BdV</bib>
         </fnt>;
       </ekz>
-     <ekz>
+      <ekz>
         ni <tld/>is sur la maron, sur la multajn &scirc;ipojn kaj
         transen al la sveda bordo
         <fnt>
@@ -91,6 +91,10 @@
         la sunradioj neniam <tld/>as tiun fa&ubreve;kon.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="vid.0i.SEN">vidi</ref>,
+      <ref cel="okul.0i">okuli</ref>
+    </refgrp>
     <trd lng="be">&c_g;&c_l;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol;</trd>
     <trdgrp lng="hu">
       <trd>n&eacute;z</trd>,
@@ -123,6 +127,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="direkt.0igxial">direkti&gcirc;i al</ref>,
+      <ref cel="ir.0i.konduki">iri<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_g;&c_l;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol;</trd>
     <trd lng="de">blicken</trd>
     <trd lng="hu">n&eacute;z</trd>
@@ -135,7 +143,8 @@
     <uzo tip="stl">FIG</uzo>
     <uzo tip="klr">(iu)</uzo>
     <dif>
-      Informi sin, kontroli, konstati:
+      Informi sin, <ref cel="kontro.0i.detale_esplori">kontroli</ref>,
+      <ref cel="konsta1.0i">konstati</ref>:
       <ekz>
         Marinjo, <tld/>u, kio eliras el la bu&scirc;o de via fratino
         <fnt><bib>F</bib>, <lok>&FE; 17</lok></fnt>;
@@ -160,13 +169,19 @@
           <bib>FK</bib>
         </fnt>;
       </ekz><ekz>
-        anstata&ubreve; blinde babiladi, <tld/>u <klr>(konsideru)</klr>
+        anstata&ubreve; blinde babiladi, <tld/>u
+        <klr>(<ref cel="konsid.0i.ekzameni">konsideru</ref>)</klr>
         la faktojn
         <fnt>
           <bib>EE</bib>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="esplor.0i">esplori</ref>,
+      <ref cel="inform.0igxi">informi&gcirc;i</ref>,
+      <ref cel="sci.0igxi">scii&gcirc;i</ref>
+    </refgrp>
     <trd lng="be">&c_p;&c_a;&c_g;&c_l;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol;</trd>
     <trdgrp lng="de">
       <trd>schauen</trd>,
@@ -182,7 +197,8 @@
     <uzo tip="stl">FIG</uzo>
     <uzo tip="klr">(iu)</uzo>
     <dif>
-      Atribui al iu a&ubreve; io ian econ; ju&gcirc;i, taksi, opinii:
+      Atribui al iu a&ubreve; io ian econ; <ref cel="jugx.0i.taksi">ju&gcirc;i</ref>,
+      <ref cel="taks.0i.KOMUNE">taksi</ref>, <ref cel="opini.0i">opinii</ref>:
       <ekz>
         ni devus <tld/>i lin kiel perfidulon
         <fnt>
@@ -247,10 +263,8 @@
     </dif>
     <refgrp tip="sin">
       <ref cel="konsid.0i">konsideri</ref>,
-      <ref cel="pren.0i.konsideri">preni <sncref/></ref>,
-      <ref cel="taks.0i">taksi</ref>
+      <ref cel="pren.0i.konsideri">preni <sncref/></ref>
     </refgrp>
-    <ref tip="vid" cel="okul.0o">okulo</ref>
     <trdgrp lng="be">
       <trd>&c_r;&c_a;&c_z;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_c;&c_mol; <klr>(&c_u; &c_ja;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ib;...)</klr></trd>,
       <trd>&c_u;&c_v;&c_a;&c_zh;&c_a;&c_c;&c_mol; <klr>(&c_z;&c_a;)</klr></trd>
@@ -317,8 +331,8 @@
   <trd lng="ky">&c_k;&c_a;&c_r;&c_o;&c_o;</trd>
   <trd lng="lat">respice</trd>
   <trd lng="lo">&#3776;&#3738;&#3764;&#3784;&#3719;</trd>
-  <trd lng="lt">&zcaron;i&#5691;r&#279;ti</trd>
-  <trd lng="lv">mekl&#5603;t</trd>
+  <trd lng="lt">&zcaron;i&umacron;r&#279;ti</trd>
+  <trd lng="lv">mekl&emacron;t</trd>
   <trd lng="mg">mijery</trd>
   <trd lng="mi">titiro</trd>
   <trd lng="mk">&c_p;&c_o;&c_g;&c_l;&c_je;&c_d;&c_n;&c_je;&c_t;&c_je;</trd>
@@ -584,9 +598,24 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="rigard.tra0i.KOMP">
     <dif>
-      Anticipe ekzameni:
+      Anticipe <tld/>i:
       <ekz>
-        estas tre rekomendinde &ccirc;iam anta&ubreve;rigardi, kaj nur poste
+        ne sen maltrankvileco &scirc;i anta&ubreve;<tld/>is la epokon en kiu, kiam &scirc;ia gravedo
+        fari&gcirc;os videbla, &scirc;i ne povos plu &gcirc;in ka&scirc;i
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekunua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kredu al mi, mi anta&ubreve;<tld/>is tiun &ccirc;i viziton kun nemalgranda avideco
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas tre rekomendinde &ccirc;iam anta&ubreve;<tld/>i, kaj nur poste
         konservi <klr>(la tekston de redaktata artikolo)</klr>
         <fnt><bib>Viki</bib>:
           <vrk><url ref="https://www.wikidata.org/wiki/Q6521720">Helpo:Kiel
@@ -594,7 +623,16 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="vid.antaux0i">anta&ubreve;vidi</ref>,
+      <ref cel="antici.0i">anticipi</ref>,
+      <ref cel="atend.0i.antauxvidi">atendi<sncref/></ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>sichten</trd>,
+    <trd>durchsehen</trd>
+  </trdgrp>
   <trd lng="es">previsualizar</trd>
   <trd lng="en">preview<klr> (vt)</klr></trd>
   <trd lng="pl">podgl&aogonek;da&cacute;</trd>
@@ -609,6 +647,10 @@
       Anticipa ekzameno.
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>Sichtung</trd>,
+    <trd>Durchsicht</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>previsualizaci&oacute;n</trd>,
     <trd>vista previa</trd>
@@ -626,7 +668,7 @@
     <dif>
       <tld lit="R"/>i &ccirc;irka&ubreve; si, al diversaj direktoj:
       <ekz>
-        d-ro Gal&eacute;n &ccirc;irka&ubreve;<tld/>as kaj vidante, ke li
+        d-ro <nom>Gal&eacute;n</nom> &ccirc;irka&ubreve;<tld/>as kaj vidante, ke li
         estas sola, elpo&scirc;igas bulkon kaj ekma&ccirc;as
         <fnt>
           <aut>K. &Ccaron;apek, trad. Th. Kilian</aut>,
@@ -1047,7 +1089,7 @@
       <ref tip="vid" cel="admir.0i">admiri</ref>,
       <ref tip="vid" cel="kontempl.0i.KOMUNE">kontempli</ref>:
       <ekz>
-        kara Marija, de kiam vi kreskis, mia okulo &ccirc;iam postsekvas
+        kara <nom>Marija</nom>, de kiam vi kreskis, mia okulo &ccirc;iam postsekvas
         vin, mi neniel povas sufi&ccirc;e &gcirc;u<tld/>i vin
         <fnt>
           <aut>E. Kumi&ccaron;i&cacute;, trad. S. Rukelj</aut>,
@@ -1058,6 +1100,13 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_l;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol; &c_z; &c_z;&c_a;&c_d;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;&c_m;</trd>
+  <trdgrp lng="de">
+    <trd>mit <ind>Freude</ind> ansehen</trd>,
+    <trd>bewundern</trd>,
+    <trd>anschmachten</trd>,
+    <trd>verzehren</trd>,
+    <trd>genussvoll <ind>ansehen</ind></trd>
+  </trdgrp>
   <trd lng="es">contemplar con placer</trd>
   <trd lng="fr">contempler avec plaisir</trd>
   <trd lng="pl">ogl&aogonek;da&cacute; z przyjemno&sacute;ci&aogonek;</trd>
@@ -1069,7 +1118,7 @@
     <dif>
       <tld lit="R"/>i kun mira mieno:
       <ekz>
-        &ccirc;u Min estis konsternita de la vida&jcirc;o,
+        &ccirc;u <nom>Min</nom> estis konsternita de la vida&jcirc;o,
         mir<tld/>ante la delegiton kiel viro el &scirc;tono
         <fnt>
           <aut>Chun-Chan Yeh, trad. W. Auld</aut>,
@@ -1079,6 +1128,12 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>bestaunen</trd>,
+    <trd>begaffen</trd>,
+    <trd>angaffen</trd>,
+    <trd>anstarren</trd>
+  </trdgrp>
   <trd lng="es">mirar con sorpresa</trd>
   <trd lng="fr">regarder avec surprise</trd>
   <trd lng="pl">ogl&aogonek;da&cacute; ze zdziwieniem</trd>
@@ -1090,7 +1145,7 @@
     <dif>
       <ref tip="dif" cel="koncep.mond0o">Mondkoncepto</ref>:
       <ekz>
-        la a&ubreve;toro dum sia nelonga vivo <klr>...</klr>
+        la a&ubreve;toro dum sia nelonga vivo <klr>[&#8230;]</klr>
         sukcesis partopreni gravegajn eventojn kaj dramece
         evoluigi sian mond<tld/>on
         <fnt>
@@ -1103,6 +1158,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_v;&c_je;&c_t;&c_a;&c_p;&c_o;&c_g;&c_l;&c_ja;&c_d;</trd>
+  <trd lng="de">Weltsicht</trd>
   <trd lng="uk">&c_s;&c_v;&c_ib;&c_t;&c_o;&c_g;&c_l;&c_ja;&c_d;</trd>
   <trdgrp lng="pl">
     <trd>pogl&aogonek;d na &sacute;wiat</trd>,
@@ -1122,7 +1178,7 @@
         <fnt><bib>Fab2</bib>, <lok>Najbaraj familioj</lok></fnt>;
       </ekz>
       <ekz>
-        Zalmuna sin turnis al Ilu-ulba, kiu post<tld/>is la
+        <nom>Zalmuna</nom> sin turnis al <nom>Ilu-ulba</nom>, kiu post<tld/>is la
         elirantan edzinon kun mieno, esprimanta koleron, honton kaj
         anta&ubreve;timon
         <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 21a</lok></fnt>.
@@ -1259,6 +1315,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">sich <ind>sattsehen</ind></trd>
   <trd lng="es">mirar con satisfacci&oacute;n</trd>
   <trd lng="fr">regarder &agrave; loisir</trd>
   <trd lng="pl">napatrzy&cacute; si&eogonek;</trd>
@@ -1325,7 +1382,7 @@
       <tld lit="R"/>i de sube supren;
       al homo ofte en esprimo de humileco, de peto...:
       <ekz>
-        Udan hezitis, iom sub<tld/>is &Ccirc;anon, &ccirc;u li reagas
+        <nom>Udan</nom> hezitis, iom sub<tld/>is &Ccirc;anon, &ccirc;u li reagas
         <fnt><aut>E. de Zilah</aut>, <vrk>La Princo &ccirc;e la
             Hunoj</vrk>,
           <lok>2011</lok></fnt>.
@@ -1432,6 +1489,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">&Uuml;berblick</trd>
     <trd lng="es">revisi&oacute;n</trd>
     <trd lng="pl">ogl&aogonek;d</trd>
     <trd lng="ru">&c_o;&c_b;&c_z;&c_o;&c_r;</trd>
@@ -1451,6 +1509,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Aufsicht</trd>,
+      <trd>&Uuml;bersicht</trd>,
+      <trd>&Uuml;berblick <klr>(&uuml;ber ein Thema etc.)</klr></trd>
+    </trdgrp>
     <trd lng="es">vigilancia</trd>
     <trd lng="pl">nadz&oacute;r</trd>
     <trd lng="ru">&c_n;&c_a;&c_d;&c_z;&c_o;&c_r;</trd>
@@ -1486,7 +1549,7 @@
       <tld lit="R"/>i &gcirc;isfine ion en &ccirc;iuj &gcirc;iaj partoj,
       unu post la alia, kvaza&ubreve; skanante:
       <ekz>
-        mi hodia&ubreve; tra<tld/>is la liston de 465 Yahoo-grupoj kiuj
+        mi hodia&ubreve; tra<tld/>is la liston de 465 <nom>Yahoo</nom>-grupoj kiuj
         troveblas sub la ser&ccirc;vorto "Esperanto".
         <fnt>
           <aut>A. Oberndorfer</aut>,
@@ -1545,8 +1608,11 @@
 </art>
 <!--
 $Log$
+versio 1.140 2023/08/26 20:22:38
+Wolfram Diestel: +ref-oj, trd de; antaŭ~i: +ekz
+
 versio 1.139 2023/07/18 21:22:27
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.138 2023/05/06 14:26:04
 revo: aktualigo URL-unuoj
@@ -1564,8 +1630,5 @@ versio 1.134 2023/01/28 01:53:46
 Robert Baruch: +drv: ekrigardi, ekrigardo
 
 versio 1.133 2022/05/04 19:19:16
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.132 2022/04/25 16:42:39
 -->
 </vortaro>
