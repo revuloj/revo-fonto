@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kap.xml,v 1.147 2023/08/16 15:26:46 revo Exp $">
+<art mrk="$Id: kap.xml,v 1.148 2023/08/26 08:25:41 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kap</rad>/o <fnt><bib>PV</bib></fnt>
@@ -683,7 +683,7 @@
   <trd lng="ht">t&egrave;t</trd>
   <trd lng="hy">&#1394;&#1381;&#1391;&#1377;&#1406;&#1377;&#1408;</trd>
   <trd lng="ig">isi</trd>
-  <trd lng="is">h&ouml;fu&#240;</trd>
+  <trd lng="is">h&ouml;fuð</trd>
   <trd lng="ja">&#12504;&#12483;&#12489;</trd>
   <trd lng="jv">sirah</trd>
   <trd lng="ka">&#4323;&#4324;&#4320;&#4317;&#4321;&#4312;</trd>
@@ -695,7 +695,7 @@
   <trd lng="lat">caput</trd>
   <trd lng="lo">&#3755;&#3771;&#3751;</trd>
   <trd lng="lt">vadovas</trd>
-  <trd lng="lv">vad&#5627;t&#5585;js</trd>
+  <trd lng="lv">vad&imacron;t&amacron;js</trd>
   <trd lng="mg">lohany</trd>
   <trd lng="mi">upoko</trd>
   <trd lng="mk">&c_g;&c_l;&c_a;&c_v;&c_a;</trd>
@@ -797,9 +797,18 @@
         </fnt>;
       </ekz>
       <ekz>
-        kelke da ridetantaj infanaj <tld/>etoj
+        &scirc;i ka&scirc;is sin sub la varmaj plumoj de la birdo kaj el&scirc;ovis nur la <tld/>eton
         <fnt>
-          <bib>Marta</bib>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        superruzis lin la <tld/>eto de tiu lerta flegistino
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XV</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -819,10 +828,57 @@
     <trd lng="pt">cabecinha</trd>
     <trd lng="ru">&c_g;&c_o;&c_l;&c_o;&c_v;&c_k;&c_a;</trd>
   </snc>
+  <snc mrk="kap.0eto.tubero">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Kapforma <ref cel="tuber.0o.sxvelajxo">tubero</ref>, <ref cel="nod.0o.tubero">nodo</ref>:
+      <ekz>
+        per for&gcirc;a laboro estu farita la kandelabro; &gcirc;ia trunko kaj &gcirc;iaj bran&ccirc;oj, &gcirc;iaj
+        kalikoj, &gcirc;iaj <tld/>etoj, kaj &gcirc;iaj floroj elstaru el &gcirc;i
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 25:31</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la stangoj estis tiel longaj, ke la <tld/>etoj de la stangoj estis videblaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 8:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        parabolspegula antenpelvo kun enmuntita <tld/>eto, la tiel nomata malaltbrua
+        konvertilo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk>Radio</vrk>
+          <lok>95/04</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Knospe</trd>
+  </snc>
   <snc mrk="kap.0eto.butono">
-    <uzo tip="stl">ARK</uzo>
     <fnt><bib>PV</bib></fnt>
-    <ref tip="dif" cel="buton.0o.BOT">butono</ref>
+    <uzo tip="fak">BOT</uzo>
+      <dif>
+        <ref tip="dif" cel="kap.0o.BOT">Kapo<sncref/></ref>; <klr>(komune)</klr> finstara floro a&ubreve; floraro:
+        <ekz>
+          ekstere de la industrieja barilo brilis la <tld/>etoj de sunflavaj tusilagoj
+          <fnt>
+            <bib>InfanTorent2</bib>
+            <lok>Unua Parto</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          forskuante per bastoneto <tld/>etojn de apudvojaj cejanoj, li revis
+          <fnt>
+            <bib>Metrop</bib>
+          </fnt>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="buton.flor0o">florbutono</ref>
     <trd lng="ca">bot&oacute;</trd>
     <trd lng="de">Knopf</trd>
     <trd lng="en">head</trd>
@@ -832,9 +888,8 @@
     <trd lng="ru">&c_g;&c_o;&c_l;&c_o;&c_v;&c_k;&c_a;</trd>
   </snc>
   <snc mrk="kap.0eto.klinko">
-    <uzo tip="stl">ARK</uzo>
     <fnt><bib>PV</bib></fnt>
-    <ref tip="dif" cel="klink.0o">klinko</ref>
+    <dif><ref cel="buton.0o.TEK">Butono<sncref/></ref> de pordo (vd <ref cel="ans.0o.rim">anso, rim.</ref>).</dif>
     <trd lng="ca">pestell</trd>
     <trd lng="de">Knauf</trd>
     <trd lng="hu">ajt&oacute;gomb</trd>
@@ -860,12 +915,12 @@
     <trd>hlavica</trd>,
     <trd>hlavi&ccaron;ka</trd>
   </trdgrp>
+  <trd lng="uk">&c_g;&c_o;&c_l;&c_ib;&c_v;&c_k;&c_a;</trd>
   <adm>
    Mi ne trovis uzojn la&ubreve; la sencoj "butono" kaj "pordtenilo". &Ccirc;u forigi
    ilin el la vortaro?
    <aut>WD</aut>
   </adm>
-  <trd lng="uk">&c_g;&c_o;&c_l;&c_ib;&c_v;&c_k;&c_a;</trd>
 </drv>
 
 <drv mrk="kap.en0igi">
@@ -947,7 +1002,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        raz<tld/>uloj <klr>...</klr> brutale persekutas kaj bategas
+        raz<tld/>uloj <klr>[&#8230;]</klr> brutale persekutas kaj bategas
         eksterlandanojn kaj murdas iujn
         <fnt>
           <aut>S. Maul</aut>,
@@ -974,9 +1029,9 @@
      Nombrante la <tld/>ojn, tio estas la ulojn rigardatajn kiel
      unuojn:
       <ekz>
-	la filoj de <nom>Simeon</nom> <klr>...</klr> kalkulitaj la&ubreve; la
-	nombro da nomoj la&ubreve;<tld/>e, <klr>...</klr> prezentis
-	<klr>...</klr> la nombron de kvindek na&ubreve; mil tricent
+	la filoj de <nom>Simeon</nom> <klr>[&#8230;]</klr> kalkulitaj la&ubreve; la
+	nombro da nomoj la&ubreve;<tld/>e, <klr>[&#8230;]</klr> prezentis
+	<klr>[&#8230;]</klr> la nombron de kvindek na&ubreve; mil tricent
 	<fnt><bib>MT</bib>, <lok>&Nom; 1:22-23</lok></fnt>.
       </ekz>
     </dif>
@@ -1003,7 +1058,7 @@
     <dif>
       <ref tip="vid" cel="stult.0ulo.KOMUNE">Stultulego</ref>:
       <ekz>
-        &ccirc;u povas natura napo<tld/>ulo <klr>...</klr>
+        &ccirc;u povas natura napo<tld/>ulo <klr>[&#8230;]</klr>
         objektive servi al poparo
         <fnt>
           <aut>U. Karatkevi&ccirc;, trad.  Z. Lapcionak</aut>,
@@ -1362,6 +1417,9 @@
 </art>
 <!--
 $Log$
+versio 1.148 2023/08/26 08:25:41
+Wolfram Diestel: ~eto: +ekz, precizigo snc 2, 3 k 4
+
 versio 1.147 2023/08/16 15:26:46
 Dmitri Gabinski: + trd be
 
@@ -1381,8 +1439,5 @@ versio 1.106 2021/06/17 06:38:29
 Dmitri Gabinski: + trd be
 
 versio 1.65 2021/05/23 16:02:51
-Wolfram Diestel: ref-hom
-
-versio 1.64 2020/05/05 08:10:22
 -->
 </vortaro>
