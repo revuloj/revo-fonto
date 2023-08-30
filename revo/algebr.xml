@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: algebr.xml,v 1.56 2022/12/02 09:27:13 revo Exp $">
+<art mrk="$Id: algebr.xml,v 1.57 2023/08/30 18:23:32 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>algebr</rad>/o
@@ -58,6 +58,7 @@
   <trd lng="fr">alg&egrave;bre</trd>
   <trd lng="he">&#x5D0;&#x5B7;&#x5DC;&#x5D2;&#x5B6;&#x5D1;&#x5BC;&#x5E8;&#x5B8;&#x5D4;</trd>
   <trd lng="hu">algebra</trd>
+  <trd lng="ja">&#x4EE3;&#x6570;&#x5B66;  [<ind>&#x3060;&#x3044;&#x3059;&#x3046;&#x304C;&#x304F;</ind>]</trd>
   <trd lng="nl">algebra</trd>
   <trd lng="pt">&aacute;lgebra</trd>
   <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</trd>
@@ -211,26 +212,26 @@
   <snc mrk="algebr.bulea0o.strukturo">
     <dif>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      <frm am="(bb       A,vv,^^,f)">(<g>A</g>,&#8744;,&#8743;,<k>f</k>)</frm>, kie 
+      <frm am="(bb       A,vv,^^,f)">(<g>A</g>,&#x2228;,&#x2227;,<k>f</k>)</frm>, kie 
       <frm am="f">f</frm> estas
       <ref cel="involu1.0o">involucio</ref> <klr>(nomata
       komplemento)</klr>, ke
       (1) amba&ubreve; operacioj estas asociecaj kaj komutecaj;
       (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio
       <klr>(signataj
-      per <frm am="0">0</frm> por <frm am="vv">&#8744;</frm>, 
-      kaj <frm am="1">1</frm> por <frm am="^^">&#8743;</frm>)</klr>;
+      per <frm am="0">0</frm> por <frm am="vv">&#x2228;</frm>, 
+      kaj <frm am="1">1</frm> por <frm am="^^">&#x2227;</frm>)</klr>;
       (3) &ccirc;iu operacio estas distribueca rilate al la alia;
       (4) 
-      <frm am="x^^x=x vv x=x">x&#8743;x = x&#8744;x = x</frm>, &nbsp;
-      <frm am="x vv f(x)=1">x&#8744;f(x) = 1</frm> kaj 
-      <frm am="x^^f(x)=0">x&#8743;f(x) = 0</frm>,
-      kiu ajn estas <frm am="x &#8712; bb A">x&#8712;<g>A</g></frm>;
-      (5) <frm am="f(x vv y)=f(x)^^f(y)">f(x&#8744;y) =
-      f(x)&#8743;f(y)</frm> 
-      kaj <frm am="f(x^^y)=f(x) vv f(y)">f(x&#8743;y) =
-      f(x)&#8744;f(y)</frm>,
-      kiuj ajn estas <frm am="x,y &#8712; bb A">x,y&#8712;<g>A</g></frm>.
+      <frm am="x^^x=x vv x=x">x&#x2227;x = x&#x2228;x = x</frm>, &nbsp;
+      <frm am="x vv f(x)=1">x&#x2228;f(x) = 1</frm> kaj 
+      <frm am="x^^f(x)=0">x&#x2227;f(x) = 0</frm>,
+      kiu ajn estas <frm am="x &#x2208; bb A">x&#x2208;<g>A</g></frm>;
+      (5) <frm am="f(x vv y)=f(x)^^f(y)">f(x&#x2228;y) =
+      f(x)&#x2227;f(y)</frm> 
+      kaj <frm am="f(x^^y)=f(x) vv f(y)">f(x&#x2227;y) =
+      f(x)&#x2228;f(y)</frm>,
+      kiuj ajn estas <frm am="x,y &#x2208; bb A">x,y&#x2208;<g>A</g></frm>.
     </dif>
     <trd lng="nl">Booleaanse <ind>algebra</ind></trd>
     <trd lng="pl">algebra Boole'a</trd>
@@ -246,6 +247,7 @@
   <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline,
   structure)</klr></trd>
   <trd lng="hu">Boule-algebra</trd>  
+  <trd lng="ja">&#x30D6;&#x30FC;&#x30EB;&#x4EE3;&#x6570;  [<ind>&#x30D6;&#x30FC;&#x30EB;&#x3060;&#x3044;&#x3059;&#x3046;</ind>]</trd>
   <trd lng="ru">&c_b;&c_u;&c_l;&c_je;&c_v;&c_a;
   <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
   <trd lng="sk">Booleova algebra</trd>
@@ -286,9 +288,8 @@
       estas <ref tip="super" cel="spac.vektora0o">vektora spaco</ref>
       super
       <frm am="bb K"><g>K</g></frm>, kaj la tri koncernaj multiplikoj
-      verigas, ke <frm am="(&alfa;*x)&#xD7;(&beta;*y) = (&alfa;&#xD7;&beta;)*(x &#xD7;
-      y)">(&alfa;&#8729;<k>x</k>)&#xD7;(&beta;&#8729;<k>y</k>) =         
-      (&alfa;&#xD7;&beta;)&#8729;(<k>x</k>&#xD7;<k>y</k>)</frm> por
+      verigas, ke <frm am="(&alfa;*x)&#xD7;(&beta;*y) = (&alfa;&#xD7;&beta;)*(x &#xD7;       y)">(&alfa;&#x2219;<k>x</k>)&#xD7;(&beta;&#x2219;<k>y</k>) =         
+      (&alfa;&#xD7;&beta;)&#x2219;(<k>x</k>&#xD7;<k>y</k>)</frm> por
       ajnaj skalaroj <frm am="alpha">&alfa;</frm>,
       <frm am="beta">&beta;</frm> kaj vektoroj
       <frm am="x">x</frm>, <frm am="y">y</frm>:
