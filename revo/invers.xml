@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: invers.xml,v 1.43 2023/04/30 13:26:21 revo Exp $">
+<art mrk="$Id: invers.xml,v 1.44 2023/08/31 16:40:58 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>invers</rad>/a
@@ -80,10 +80,10 @@
         la <tld/>a rilato de funkcio
         <frm am="f: X to Y"><k>f</k>:<k>X</k>&#x27F6;<k>Y</k></frm> 
         estas la duargumenta rilato
-        <frm am="f^-1 sube Y xx X"><k>f</k><sup>-1</sup>&#8838;<k>Y</k>&#xD7;<k>X</k></frm> 
+        <frm am="f^-1 sube Y xx X"><k>f</k><sup>-1</sup>&#x2286;<k>Y</k>&#xD7;<k>X</k></frm> 
         difinita per
         <frm am="f^-1={(y,x): (x,y) in f}"><k>f</k><sup>-1</sup>={(<k>y</k>,<k>x</k>):
-        (<k>x</k>,<k>y</k>)&#8712;<k>f</k>}</frm>        
+        (<k>x</k>,<k>y</k>)&#x2208;<k>f</k>}</frm>        
         <klr> [...]</klr> en la okazo ke &gcirc;i estas funkcio, &gcirc;i        
         nomi&gcirc;as <klr>[...]</klr> <tld/>a funkcio 
         <fnt>
@@ -115,8 +115,7 @@
       <trd>&c_p;&c_r;&c_o;&c_c;&c_ib;&c_l;&c_je;&c_zh;&c_n;&c_y;</trd>,
       <trd>&c_a;&c_d;&c_v;&c_a;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
     </trdgrp>
-  <trd
-  lng="bo">&#xF66;&#xFB3;&#xF7C;&#xF42;&#xF0B;&#xF66;&#xFB3;&#xF7C;&#xF42;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&#xF66;&#xFB3;&#xF7C;&#xF42;&#xF0B;&#xF66;&#xFB3;&#xF7C;&#xF42;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>inverzn&iacute;</trd>,
     <trd>opa&ccaron;n&yacute;</trd>,
@@ -128,6 +127,10 @@
     <trd>invers</trd>
   </trdgrp>
   <trd lng="es">inverso</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x306E;  [<ind>&#x304E;&#x3083;&#x304F;&#x306E;</ind>]</trd>,
+    <trd>&#x53CD;&#x5BFE;&#x306E;  [<ind>&#x306F;&#x3093;&#x305F;&#x3044;&#x306E;</ind>]</trd>
+  </trdgrp>
   <trd lng="nl">omgekeerd</trd>
   <trd lng="pt">inverso</trd>
   <trdgrp lng="ru">
@@ -190,7 +193,7 @@
         <ref cel="neuxtr.0iganto.MAT">Ne&ubreve;triganto</ref> rilate
         al multiplike signata <ref cel="operac.0o.MAT">operacio</ref>:
         <ekz>
-          la <tld/>o de <frm>3</frm> estas <frm>&#8531;</frm>;
+          la <tld/>o de <frm>3</frm> estas <frm>&#x2153;</frm>;
         </ekz>
         <ekz>
           por &ccirc;iu elemento de grupo ekzistas &gcirc;ia <tld/>o.
@@ -232,7 +235,7 @@
         <ref cel="bild.0o.MAT">Bildigo</ref>, funkcio esti&gcirc;anta per
         inter&scirc;an&gcirc;o de origino kaj bildopunkto:
         <ekz>
-          sekanto &#8208; la <tld/>o de la kosinuso, kosekanto &#8208; la <tld/>o de
+          sekanto &#x2010; la <tld/>o de la kosinuso, kosekanto &#x2010; la <tld/>o de
           la sinuso
           <fnt>
             <bib>Viki</bib>
@@ -299,6 +302,11 @@
     <trd>&c_p;&c_r;&c_o;&c_c;&c_ib;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_c;&c_ib;&c_l;&c_je;&c_g;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9006;  [<ind>&#x3055;&#x304B;</ind>]</trd>,
+    <trd>&#x53CD;&#x5BFE;  [<ind>&#x306F;&#x3093;&#x305F;&#x3044;</ind>]</trd>,
+    <trd>&#x9006;&#x6570;  [<ind>&#x304E;&#x3083;&#x304F;&#x3059;&#x3046;</ind>]</trd>
+  </trdgrp>
   <trd lng="sk">inverzn&eacute; zobrazenie</trd>
   <trd lng="cs">inverzn&iacute; zobrazen&iacute;</trd>
   <trdgrp lng="uk">
@@ -362,6 +370,10 @@
     <trd>&agrave; <ind>rebours</ind></trd>
   </trdgrp>
   <trd lng="hu">ford&iacute;tva</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x306B;  [<ind>&#x304E;&#x3083;&#x304F;&#x306B;</ind>]</trd>,
+    <trd>&#x3042;&#x3079;&#x3053;&#x3079;&#x306B;</trd>
+  </trdgrp>
   <trd lng="nl">omgekeerd</trd>
   <trdgrp lng="pt">
     <trd>inversamente</trd>,
@@ -445,6 +457,10 @@
     <trd>zvr&aacute;tit</trd>
   </trdgrp>
   <trd lng="es">invertir</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x306B;&#x3059;&#x308B;  [<ind>&#x304E;&#x3083;&#x304F;&#x306B;&#x3059;&#x308B;</ind>]</trd>,
+    <trd>&#x9006;&#x8EE2;&#x3055;&#x305B;&#x308B;  [<ind>&#x304E;&#x3083;&#x304F;&#x3066;&#x3093;&#x3055;&#x305B;&#x308B;</ind>]</trd>
+  </trdgrp>
   <trd lng="pt">inverter</trd>
   <trd lng="sk">vypo&ccaron;&iacute;ta&tcaron; inverziu</trd>
   <trd lng="uk">&c_z;&#x43C;&c_ib;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i; &#x43D;&c_a;&#x43F;&c_r;&#x44F;&#x43C;&#x43E;&#x43A;
@@ -587,6 +603,10 @@
   <trd lng="de">umkehrbar</trd>
   <trd lng="es">invertible</trd>
   <trd lng="fr">inversible</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x8EE2;&#x3067;&#x304D;&#x308B;  [<ind>&#x304E;&#x3083;&#x304F;&#x3066;&#x3093;&#x3067;&#x304D;&#x308B;</ind>]</trd>,
+    <trd>&#x53EF;&#x9006;&#x306E;</trd>
+  </trdgrp>
   <trd lng="nl">omkeerbaar</trd>
   <trd lng="pt">invert&iacute;vel</trd>
   <trdgrp lng="sk">
@@ -640,6 +660,10 @@
   <trd lng="en">non-inversible</trd>
   <trd lng="fr">non inversible</trd>
   <trd lng="hu">nem invert&aacute;lhat&oacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x8EE2;&#x3067;&#x304D;&#x306A;&#x3044;  [<ind>&#x304E;&#x3083;&#x304F;&#x3066;&#x3093;&#x3067;&#x304D;&#x306A;&#x3044;</ind>]</trd>,
+    <trd>&#x4E0D;&#x53EF;&#x9006;&#x306E;  [<ind>&#x3075;&#x304B;&#x304E;&#x3083;&#x304F;&#x306E;</ind>]</trd>
+  </trdgrp>
   <trd lng="nl">onomkeerbaar</trd>
   <trd lng="pl">nieodwracalny</trd>
   <trd lng="pt">n&atilde;o invert&iacute;vel</trd>
