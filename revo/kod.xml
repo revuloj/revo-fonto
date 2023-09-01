@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kod.xml,v 1.52 2023/05/14 05:27:19 revo Exp $">
+<art mrk="$Id: kod.xml,v 1.53 2023/09/01 15:46:40 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>kod</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -58,7 +58,7 @@
         sepbita <tld/>o;
       </ekz><ekz>
         <klr>[li]</klr> klarigas, kio estas signo<tld/>oj, <ref tip="sub" cel="aski.0o">Askio</ref>,
-        <tld/>pa&gcirc;oj <klr>[&#8230;]</klr> 
+        <tld/>pa&gcirc;oj <klr>[&#x2026;]</klr> 
         kaj donas praktikajn konsilojn, kiel uzi <ref tip="sub" cel="unikod.0o">Uni<tld/>o</ref>n
         <fnt>
           <bib>Monato</bib>
@@ -248,6 +248,12 @@
     <trd>code</trd>,
     <trd>encryption</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6CD5;&#x5178;  [<ind>&#x307B;&#x3046;&#x3066;&#x3093;</ind>]</trd>,
+    <trd>&#x7B26;&#x53F7;  [<ind>&#x3075;&#x3054;&#x3046;</ind>]</trd>,
+    <trd>&#x6697;&#x53F7;  [<ind>&#x3042;&#x3093;&#x3054;&#x3046;</ind>]</trd>,
+    <trd>&#x30B3;&#x30FC;&#x30C9;</trd>
+  </trdgrp>
   <trd lng="pt">c&oacute;digo</trd>
   <trd lng="uk">&c_k;&c_o;&c_d;&c_je;&c_k;&c_s;</trd>
 </drv>
@@ -271,7 +277,7 @@
         </trdgrp>
         <trd lng="hu">k&oacute;dol&aacute;s</trd>
       </ekz><ekz>
-        niaj genoj, <tld/>itaj per blokoj da DNA <klr>[&#8230;]</klr> sin
+        niaj genoj, <tld/>itaj per blokoj da DNA <klr>[&#x2026;]</klr> sin
         trovas ene de &ccirc;iu &ccirc;elo de nia korpo
         <fnt>
           <bib>Monato</bib>
@@ -312,7 +318,12 @@
       <trd>encoder</trd>
     </trdgrp>
     <trd lng="hu">k&oacute;dol</trd>
-    <trd lng="nl">coderen</trd>
+    <trdgrp lng="ja">
+    <trd>&#x7B26;&#x53F7;&#x5316;&#x3059;&#x308B;  [<ind>&#x3075;&#x3054;&#x3046;&#x304B;&#x3059;&#x308B;</ind>]</trd>,
+    <trd>&#x30A8;&#x30F3;&#x30B3;&#x30FC;&#x30C9;&#x3059;&#x308B;</trd>,
+    <trd>&#x6697;&#x53F7;&#x5316;&#x3059;&#x308B;  [<ind>&#x3042;&#x3093;&#x3054;&#x3046;&#x304B;&#x3059;&#x308B;</ind>]</trd>
+  </trdgrp>
+  <trd lng="nl">coderen</trd>
     <trdgrp lng="pl">
       <trd>kodowa&cacute;</trd>,
       <trd>zakodowywa&cacute;</trd>
@@ -328,14 +339,17 @@
       Grupo da signoj, prezentanta koditan informon:
       <ekz>
         En ser&ccirc;esprimoj vi povas uzi diversajn specialajn <tld/>a&jcirc;ojn
-        <fnt><vrk><url ref="https://tekstaro.com/tekstaro.html"
-          >Tekstaro de Esperanto (Instrukcio)</url></vrk></fnt>.
+        <fnt><vrk><url ref="https://tekstaro.com/tekstaro.html">Tekstaro de Esperanto (Instrukcio)</url></vrk></fnt>.
       </ekz>
     </dif>
   </snc>
   <trdgrp lng="en">
     <trd>code</trd>,
     <trd>encoded message</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x30B3;&#x30FC;&#x30C9;</trd>,
+    <trd>&#x7B26;&#x53F7;  [<ind>&#x3075;&#x3054;&#x3046;</ind>]</trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_d;</trd>
 </drv>
@@ -457,6 +471,10 @@
     <trd>kodifikovat</trd>,
     <trd>nechat zak&oacute;dovat</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6CD5;&#x5178;&#x306B;&#x307E;&#x3068;&#x3081;&#x308B;  [<ind>&#x307B;&#x3046;&#x3066;&#x3093;&#x306B;&#x307E;&#x3068;&#x3081;&#x308B;</ind>]</trd>,
+    <trd>&#x96FB;&#x4FE1;&#x7B26;&#x53F7;&#x306B;&#x3059;&#x308B;  [<ind>&#x3067;&#x3093;&#x3057;&#x3093;&#x3075;&#x3054;&#x3046;&#x306B;&#x3059;&#x308B;</ind>]</trd>
+  </trdgrp>
   <trd lng="sk">kodifikova&tcaron;</trd>
   <trdgrp lng="uk">
     <trd>&c_k;&c_o;&c_d;&c_i;&c_f;&c_ib;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
@@ -473,7 +491,7 @@
       mal&ccirc;ifri:
       <ekz>
         sciencistoj de la universitato de Vieno mal<tld/>is la &leftquot;sekretan
-        lingvon&#8221; de elefantoj
+        lingvon&#x201D; de elefantoj
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
@@ -499,7 +517,12 @@
       <trd>dek&oacute;dol</trd>,
       <trd>k&oacute;dot megfejt</trd>
     </trdgrp>
-    <trd lng="nl">decoderen</trd>
+    <trdgrp lng="ja">
+    <trd>&#x8907;&#x53F7;&#x3059;&#x308B;</trd>,
+    <trd>&#x30C7;&#x30B3;&#x30FC;&#x30C9;&#x3059;&#x308B;</trd>,
+    <trd>&#x89E3;&#x8AAD;&#x3059;&#x308B;  [<ind>&#x304B;&#x3044;&#x3069;&#x304F;&#x3059;&#x308B;</ind>]</trd>
+  </trdgrp>
+  <trd lng="nl">decoderen</trd>
     <trdgrp lng="pl">
       <trd>odkodowywa&cacute;</trd>,
       <trd>rozkodowywa&cacute;</trd>
@@ -642,6 +665,7 @@
     <trd>codebreaker</trd>,
     <trd>hacker</trd>
   </trdgrp>
+  <trd lng="ja">&#x30AF;&#x30E9;&#x30C3;&#x30AB;&#x30FC;</trd>
 </drv>
 
 <drv mrk="kod.morsa0o">
@@ -675,6 +699,7 @@
     <trd>morse<klr tip="ind"> (code)</klr></trd>
   </trdgrp>
   <trd lng="hu">morze&aacute;b&eacute;c&eacute;</trd>
+  <trd lng="ja">&#x30E2;&#x30FC;&#x30EB;&#x30B9;&#x7B26;&#x53F7;  [<ind>&#x30E2;&#x30FC;&#x30EB;&#x30B9;&#x3075;&#x3054;&#x3046;</ind>]</trd>
   <trd lng="nl">morsealfabet</trd>
   <trd lng="pl">alfabet Morse'a</trd>
   <trdgrp lng="ru">
@@ -730,7 +755,7 @@
         de certa lando, tiuj <tld/>oj kutime komenci&gcirc;as per du nuloj
         (&leftquot;00&rightquot;), en pluraj 
         telefonoj nun eblas uzi specialan signon por tiuj du nuloj &mdash;
-        pluson (&leftquot;+&rightquot;) &#8208; kiu esence estas tute la sama
+        pluson (&leftquot;+&rightquot;) &#x2010; kiu esence estas tute la sama
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=103732">Telefona
