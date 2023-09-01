@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: list.xml,v 1.109 2023/05/15 12:47:35 revo Exp $">
+<art mrk="$Id: list.xml,v 1.110 2023/09/01 19:11:00 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>list</rad>/o
@@ -118,7 +118,7 @@
   <trd lng="ar">&a_q;&a_A;&a_y_hamza;&a_m;&a_t_marbuta;</trd>
   <trd lng="az">siyah&inodot;s&inodot;</trd>
   <trd lng="be">&c_s;&c_mol;&c_p;&c_ib;&c_s;</trd>
-  <trd lng="bn">&#x9A4;&#x9BE;&#x9B2;&#x9BF;&#2453;&#x9BE;</trd>
+  <trd lng="bn">&#x9A4;&#x9BE;&#x9B2;&#x9BF;&#x995;&#x9BE;</trd>
   <trd lng="bs">popis</trd>
   <trd lng="co">lists</trd>
   <trdgrp lng="cs">
@@ -144,7 +144,7 @@
   <trd lng="gl">lista</trd>
   <trd lng="gu">&#xAAF;&#xABE;&#xAA6;&#xAC0;</trd>
   <trd lng="he">&resh;&shin;&yod;&mem;&he;</trd>
-  <trd lng="hi">&#2360;&#2370;&#x91A;&#2368;</trd>
+  <trd lng="hi">&#x938;&#x942;&#x91A;&#x940;</trd>
   <trd lng="hmn">daim ntawv teev</trd>
   <trd lng="hr">popis</trd>
   <trd lng="ht">lis</trd>
@@ -153,14 +153,14 @@
     <trd>lista</trd>,
     <trd>lajstrom</trd>
   </trdgrp>
-  <trd lng="hy">&#1409;&#1400;&#1410;&#1409;&#1377;&#x56F;</trd>
+  <trd lng="hy">&#x581;&#x578;&#x582;&#x581;&#x561;&#x56F;</trd>
   <trd lng="ig">ndep&#x1EE5;ta</trd>
   <trd lng="is">listi</trd>
   <trd lng="ja">&#x30EA;&#x30B9;&#x30C8;</trd>
   <trd lng="jv">dhaftar</trd>
   <trd lng="ka">&#x10E1;&#x10D8;&#x10D0;</trd>
   <trd lng="kk">&c_t;&c_ib;&c_z;&c_ib;&c_m;</trd>
-  <trd lng="km">&#6036;&#6025;&#x17D2;&#6023;&#x17B8;</trd>
+  <trd lng="km">&#x1794;&#x1789;&#x17D2;&#x1787;&#x17B8;</trd>
   <trd lng="kn">&#xCAA;&#xC9F;&#xCCD;&#xC9F;&#xCBF;</trd>
   <trd lng="ko">&#xD45C;</trd>
   <trd lng="ku">l&icirc;ste</trd>
@@ -170,15 +170,15 @@
   <trd lng="lt">s&aogonek;ra&scaron;as</trd>
   <trd lng="lv">saraksts</trd>
   <trd lng="mg">lisitra</trd>
-  <trd lng="mi">r&#5585;rangi</trd>
+  <trd lng="mi">r&#x15D1;rangi</trd>
   <trd lng="mk">&c_l;&c_i;&c_s;&c_t;&c_a;</trd>
   <trd lng="ml">&#xD2A;&#xD1F;&#xD4D;&#xD1F;&#xD3F;&#xD15;</trd>
   <trd lng="mn">&c_zh;&c_a;&c_g;&c_s;&c_a;&c_a;&c_l;&c_t;</trd>
-  <trd lng="mr">&#x92F;&#x93E;&#2342;&#2368;</trd>
+  <trd lng="mr">&#x92F;&#x93E;&#x926;&#x940;</trd>
   <trd lng="ms">senarai</trd>
   <trd lng="mt">lista</trd>
-  <trd lng="my">&#4101;&#x102C;&#x101B;&#4100;&#x103A;&#4152;</trd>
-  <trd lng="ne">&#2360;&#2370;&#x91A;&#2368;</trd>
+  <trd lng="my">&#x1005;&#x102C;&#x101B;&#x1004;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x938;&#x942;&#x91A;&#x940;</trd>
   <trd lng="nl">lijst</trd>
   <trd lng="no">liste</trd>
   <trd lng="ny">mndandanda</trd>
@@ -224,7 +224,7 @@
   <trd lng="tt">&c_i;&c_s;&c_je;&c_m;&c_l;&c_je;&c_g;&c_je;</trd>
   <trd lng="uk">&c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>
   <trd lng="ur">&a_f;&#x6C1;&a_r;&a_s;&a_t;</trd>
-  <trd lng="uz">ro&#8217;yxat</trd>
+  <trd lng="uz">ro&#x2019;yxat</trd>
   <trd lng="vi">danh s&aacute;ch</trd>
   <trd lng="xh">uluhlu</trd>
   <trd lng="yi">&resh;&shin;&yod;&mem;&he;</trd>
@@ -274,8 +274,7 @@
       <ekz>
         la <tld/>eroj 1 kaj 2 rilatas al tekstaj dosieroj
         <fnt>
-          <vrk><url
-          ref="https://interkonekto.sourceforge.io/dok/manlibro004.html">Metodo</url></vrk>
+          <vrk><url ref="https://interkonekto.sourceforge.io/dok/manlibro004.html">Metodo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -305,7 +304,7 @@
     <dif>
       Starigi <tld/>on de iuj aferoj, objektoj:
       <ekz>
-        estas bone <tld/>igi tie &ccirc;i <klr>[&#8230;]</klr> tradukitajn verkojn
+        estas bone <tld/>igi tie &ccirc;i <klr>[&#x2026;]</klr> tradukitajn verkojn
         <fnt><bib>Plumamikoj</bib>, <lok>tradukoj</lok></fnt>;
       </ekz>
       <ekz>
@@ -343,6 +342,7 @@
     <trd>&eacute;num&eacute;rer</trd>,
     <trd>lister</trd>
   </trdgrp>
+  <trd lng="ja">&#x8868;&#x306B;&#x8F09;&#x305B;&#x308B;  [<ind>&#x304A;&#x3082;&#x3066;&#x306B;&#x306E;&#x305B;&#x308B;</ind>]</trd>
   <trd lng="pl">robi&cacute; <ind>list&eogonek;</ind></trd>
   <trd lng="ro">face o <ind>list&abreve;</ind></trd>
   <trd lng="sk">usporiada&tcaron; do zoznamu</trd>
@@ -396,6 +396,7 @@
   <trdgrp lng="fr">
     <trd>ajouter &agrave; la <ind>liste</ind></trd>
   </trdgrp>
+  <trd lng="ja">&#x8868;&#x306B;&#x8F09;&#x305B;&#x308B;  [<ind>&#x304A;&#x3082;&#x3066;&#x306B;&#x306E;&#x305B;&#x308B;</ind>]</trd>
   <trd lng="pl">wprowadzi&cacute; na <ind>list&eogonek;</ind></trd>
   <trd lng="ro">pune pe <ind>list&abreve;</ind></trd>
   <trd lng="sk">zap&iacute;sa&tcaron; do zoznamu</trd>
@@ -439,7 +440,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[ni]</klr> aran&gcirc;is krediton por a&ccirc;eti sian novan <nom>Mazda</nom>, <klr>[&#8230;]</klr> en
+        <klr>[ni]</klr> aran&gcirc;is krediton por a&ccirc;eti sian novan <nom>Mazda</nom>, <klr>[&#x2026;]</klr> en
         1980 oni devis registri sin sur la atendo<tld/>o por a&ccirc;eti &gcirc;in, ni havis la
         prioritaton &ccirc;ar mia avo estis malsanulo
         <fnt>
@@ -455,6 +456,10 @@
   <trd lng="be">&c_s;&c_mol;&c_p;&c_ib;&c_s; &c_ch;&c_a;&c_k;&c_a;&c_n;&c_mol;&c_n;&c_ja;</trd>
   <trd lng="de">Warteliste</trd>
   <trd lng="en">waiting list</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F85;&#x6A5F;&#x8005;&#x30EA;&#x30B9;&#x30C8;  [<ind>&#x305F;&#x3044;&#x304D;&#x3057;&#x3083;&#x308A;&#x3059;&#x3068;</ind>]</trd>,
+    <trd>&#x9806;&#x756A;&#x5F85;&#x3061;&#x540D;&#x7C3F;  [<ind>&#x3058;&#x3085;&#x3093;&#x3070;&#x3093;&#x307E;&#x3061;&#x3081;&#x3044;&#x307C;</ind>]</trd>
+  </trdgrp>
 </drv>
 
 
@@ -510,13 +515,14 @@
   <trd lng="fr">liste de diffusion</trd>
   <trd lng="he">&resh;&shin;&yod;&mem;&tav; &tav;&pe;&vav;&tsadi;&he;</trd>
   <trd lng="hu">levelez&eacute;si lista</trd>
+  <trd lng="ja">&#x30E1;&#x30FC;&#x30EA;&#x30F3;&#x30B0;&#x30EA;&#x30B9;&#x30C8;</trd>
   <trd lng="nl">verzendlijst</trd>
   <trdgrp lng="pl">
     <trd>lista adresowa</trd>,
     <trd>lista dystrybucyjna</trd>
   </trdgrp>
   <trdgrp lng="ro">
-    <trd>list&abreve; de expediere po&#537;tal&abreve;</trd>,
+    <trd>list&abreve; de expediere po&#x219;tal&abreve;</trd>,
     <trd>list&abreve; de email-uri</trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_p;&c_i;&c_s;&c_o;&c_k; &c_r;&c_a;&c_s;&c_s;&c_y;&c_l;&c_k;&c_i;</trd>
@@ -571,6 +577,7 @@
     <trd>kapcsolt lista</trd>,
     <trd>l&aacute;ncolt lista</trd>
   </trdgrp>
+  <trd lng="ja">&#x9023;&#x7D50;&#x30EA;&#x30B9;&#x30C8;  [<ind>&#x308C;&#x3093;&#x3051;&#x3064;&#x30EA;&#x30B9;&#x30C8;</ind>]</trd>
   <trd lng="pl">lista po&lstroke;&aogonek;czona</trd>
   <trd lng="pt">lista encadeada</trd>
   <trd lng="ro">list&abreve; legat&abreve;</trd>
@@ -579,7 +586,7 @@
     <trd>sp&aacute;jan&yacute; <ind>zoznam</ind></trd>,
     <trd>zoznam d&aacute;t</trd>
   </trdgrp>
-  <trd lng="uk">&c_z;&c_v;&#8217;&#x44F;&c_z;&c_a;&#x43D;&c_i;&c_j; &c_s;&#x43F;&c_i;&c_s;&#x43E;&#x43A;</trd>
+  <trd lng="uk">&c_z;&c_v;&#x2019;&#x44F;&c_z;&c_a;&#x43D;&c_i;&c_j; &c_s;&#x43F;&c_i;&c_s;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="list.nigra_0o">
@@ -597,7 +604,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        e&ccirc; nigra <tld/>o de &jcirc;urnalistoj <klr>[&#8230;]</klr> taksitaj tro kritikemaj estis
+        e&ccirc; nigra <tld/>o de &jcirc;urnalistoj <klr>[&#x2026;]</klr> taksitaj tro kritikemaj estis
         farita por malebligi al ili aliron al grandaj &jcirc;urnaloj
         <fnt>
           <bib>MD17</bib>
@@ -629,6 +636,7 @@
   <trd lng="be">&c_ch;&c_o;&c_r;&c_n;&c_y; <ind>&c_s;&c_mol;&c_p;&c_ib;&c_s;</ind></trd>
   <trd lng="de">Schwarze Liste</trd>
   <trd lng="en">black list</trd>
+  <trd lng="ja">&#x30D6;&#x30E9;&#x30C3;&#x30AF;&#x30EA;&#x30B9;&#x30C8;</trd>
   <trd lng="uk">&c_ch;&#x43E;&c_r;&#x43D;&c_i;&c_j; &c_s;&#x43F;&c_i;&c_s;&#x43E;&#x43A;</trd>
 </drv>
 
