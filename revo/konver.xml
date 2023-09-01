@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: konver.xml,v 1.52 2022/07/17 16:41:46 revo Exp $">
+<art mrk="$Id: konver.xml,v 1.53 2023/09/01 15:46:43 revo Exp $">
 <kap>
   <rad>konver&gcirc;</rad>/i <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -79,14 +78,12 @@
         reelo
         <frm am="c"><k>c</k></frm> ekzistas tia numero
         <frm am="n"><k>n</k></frm>, ke
-        <frm am="|p-xi| lt c"
-        >|<k>p</k>-<k>x</k><sub><k>i</k></sub>| &lt; <k>c</k></frm>
+        <frm am="|p-xi| lt c">|<k>p</k>-<k>x</k><sub><k>i</k></sub>| &lt; <k>c</k></frm>
         por &ccirc;iu <frm am="i gt n"><k>i</k> &gt; <k>n</k></frm>.
       </dif>
       <rim>
         La nocion oni &gcirc;eneraligas por funkcioj kaj serioj.
-        Tia <frm am="p"><k>p</k></frm> estas nomata <ref
-        cel="limes.0o">limeso</ref>.
+        Tia <frm am="p"><k>p</k></frm> estas nomata <ref cel="limes.0o">limeso</ref>.
       </rim>
       <trd lng="pl">by&cacute; <ind>zbie&zdot;nym</ind></trd>
     </subsnc>
@@ -128,10 +125,9 @@
       laboron kaj liveras rezulton; tiam oni anka&ubreve; diras, ke la
       funkcio <frm am="f">f</frm>, kiun la algoritmo komputas,
       <em>estas difinita</em> por <frm am="x">x</frm>;
-      simbole <frm am="f(x)darr">f(x)&#8595;</frm> a&ubreve;
-      <frm am="x in bb{dom} f">x&#8712;<g>dom</g>&nbsp;f</frm>
-      <klr> (vd <ref
-      cel="domajn.0o.algoritmo">domajno<sncref/></ref>)</klr>.
+      simbole <frm am="f(x)darr">f(x)&#x2193;</frm> a&ubreve;
+      <frm am="x in bb{dom} f">x&#x2208;<g>dom</g>&nbsp;f</frm>
+      <klr> (vd <ref cel="domajn.0o.algoritmo">domajno<sncref/></ref>)</klr>.
     </dif>
           <trd lng="de">konvergieren</trd>
   </snc>
@@ -147,6 +143,12 @@
     <trd>konverg&aacute;l</trd>,
     <trd>&ouml;sszetart</trd>
     <trd>&ouml;sszefut</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x4E00;&#x70B9;&#x306B;&#x96C6;&#x307E;&#x308B;  [<ind>&#x3072;&#x3068;&#x3066;&#x3093;&#x306B;&#x3042;&#x3064;&#x307E;&#x308B;</ind>]</trd>,
+    <trd>&#x96C6;&#x4E2D;&#x3059;&#x308B;  [<ind>&#x3057;&#x3085;&#x3046;&#x3061;&#x3085;&#x3046;&#x3059;&#x308B;</ind>]</trd>,
+    <trd>&#x96C6;&#x675F;&#x3059;&#x308B;  [<ind>&#x3057;&#x3085;&#x3046;&#x305F;&#x3070;&#x3059;&#x308B;</ind>]</trd>,
+    <trd>&#x53CE;&#x675F;&#x3059;&#x308B;  [<ind>&#x3057;&#x3085;&#x3046;&#x305D;&#x304F;&#x3059;&#x308B;</ind>]</trd>
   </trdgrp>
   <trd lng="pt">convergir</trd>
   <trd lng="ru">&c_s;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
@@ -174,8 +176,7 @@
         <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
         Tia, ke &ccirc;iuj &gcirc;iaj termoj (krom finia nombro da ili)
         apartenas
-        al <ref
-        cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
+        al <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o</ref>
         de iu punkto <klr>(&gcirc;ia
         <ref cel="limes.0o.vico">limeso</ref>)</klr>, kiel ajn oni
         elektas la
@@ -186,8 +187,7 @@
         </ekz>
         <ekz>
           en <ref cel="spac.metrika0o">metrika spaco</ref>, la
-          distanco inter termo <frm
-          am="x_n"><k>x</k><sub><k>n</k></sub></frm>
+          distanco inter termo <frm am="x_n"><k>x</k><sub><k>n</k></sub></frm>
           de <tld/>a vico kaj &gcirc;ia limeso estas arbitre malgranda,
           se <frm am="n"><k>n</k></frm> estas sufi&ccirc;e granda;
         </ekz>
@@ -220,6 +220,7 @@
     <trd>&ouml;sszetart&oacute;</trd>
     <trd>&ouml;sszefut&oacute;</trd>
   </trdgrp>  
+  <trd lng="ja">&#x96C6;&#x4E2D;&#x306E;  [<ind>&#x3057;&#x3085;&#x3046;&#x3061;&#x3085;&#x3046;&#x306E;</ind>]</trd>
 </drv>
 
 <drv mrk="konver.0o">
@@ -236,8 +237,7 @@
         pri la sama Dio sub malsamaj nomoj
         <fnt>
           <aut>C. Gacond</aut>
-          <vrk><url
-          ref="http://www.esperanto-gacond.ch/Claude_Gacond_Radioprelego-0017.pdf">
+          <vrk><url ref="http://www.esperanto-gacond.ch/Claude_Gacond_Radioprelego-0017.pdf">
           17-a radioprelego</url></vrk>
           <lok>Svisa Radio Internacia, 1963-03-27</lok>
         </fnt>.
@@ -255,8 +255,7 @@
         kaj de vertebruloj (ekz. mamuloj)
         <fnt>
           <bib>Viki</bib>
-          <vrk><url
-          ref="&Viki;/Konver%C4%9Da_evoluo">
+          <vrk><url ref="&Viki;/Konver%C4%9Da_evoluo">
           Konver&gcirc;a evoluo</url>, 2017-04-11</vrk>
         </fnt>.
       </ekz>
@@ -267,6 +266,10 @@
   </snc>
   <trd lng="be">&c_z;&c_mol;&c_b;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="fr">convergence</trd>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x675F;  [<ind>&#x3057;&#x3085;&#x3046;&#x305D;&#x304F;</ind>]</trd>,
+    <trd>&#x53CE;&#x675F;  [<ind>&#x3057;&#x3085;&#x3046;&#x305D;&#x304F;</ind>]</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="konver.0igi">
@@ -287,6 +290,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x675F;&#x3055;&#x305B;&#x308B;  [<ind>&#x3057;&#x3085;&#x3046;&#x305F;&#x3070;&#x3055;&#x305B;&#x308B;</ind>]</trd>,
+    <trd>&#x53CE;&#x675F;&#x3055;&#x305B;&#x308B;  [<ind>&#x3057;&#x3085;&#x3046;&#x305D;&#x304F;&#x3055;&#x305B;&#x308B;</ind>]</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="konver.mal0i">
@@ -343,8 +350,7 @@
     <trd>sz&eacute;tfut&oacute;</trd>
   </trdgrp>  
   <trd lng="pl">rozbie&zdot;ny</trd>
-  <trd
-  lng="ru">&c_r;&c_a;&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
+  <trd lng="ru">&c_r;&c_a;&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
 </drv>
 
 <drv mrk="konver.absolute0a">
@@ -440,8 +446,7 @@
   measure</trd>
   <trd lng="fr"><klr tip="amb">(suite de fonctions) </klr>convergente en
   mesure</trd>
-  <trd lng="hu">majdnem minden&uuml;tt <ind>konvergens</ind><klr
-  tip="amb">(m&eacute;rt&eacute;k szerint) </klr></trd>    
+  <trd lng="hu">majdnem minden&uuml;tt <ind>konvergens</ind><klr tip="amb">(m&eacute;rt&eacute;k szerint) </klr></trd>    
   <trd lng="pl"><klr tip="ind">(ci&aogonek;g funkcyjny)
   </klr>zbie&zdot;ny wed&lstroke;ug miary</trd>
   <trd lng="ru">&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;
@@ -540,8 +545,7 @@
       <frm am="(X_n)">(X<sub><k>n</k></sub>)</frm>, al limeso
       <frm am="X">X</frm>)</klr>
       Tia, ke la probablo de la aro de &ccirc;iuj <frm am="omega">&omega;</frm>,
-      por kiuj la vico <frm am="(X_n(omega))"
-      >(X<sub><k>n</k></sub>(&omega;))</frm>
+      por kiuj la vico <frm am="(X_n(omega))">(X<sub><k>n</k></sub>(&omega;))</frm>
       ne <tld/>as al <frm am="X(omega)">X(&omega;)</frm>, estas nula:
       <ekz>
         <tld/>o preska&ubreve; certa implicas <tld/>o en probablo.
@@ -623,13 +627,11 @@
   <ind>zbie&zdot;ny</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_t;&c_o;&c_ch;&c_je;&c_ch;&c_n;&c_o;
-    &c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;<klr
-    tip="amb">
+    &c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;<klr tip="amb">
     (&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;
     &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>,
     <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_o;
-    <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;</ind><klr
-    tip="amb">
+    <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_a;&c_ja;&c_s;&c_ja;</ind><klr tip="amb">
     (&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;
     &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>
   </trdgrp>
@@ -667,8 +669,7 @@
     </rim>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_w;&c_n;&c_a;&c_m;&c_je;&c_r;&c_n;&c_a; <ind>&c_z;&c_mol;&c_b;&c_je;&c_zh;&c_n;&c_y;</ind></trd>
-  <trd lng="de">gleichm&auml;&szlig;ig <ind>konvergent</ind><klr
-  tip="ind"> (-e Funktionsfolge)</klr></trd>
+  <trd lng="de">gleichm&auml;&szlig;ig <ind>konvergent</ind><klr tip="ind"> (-e Funktionsfolge)</klr></trd>
   <trd lng="en">uniformly <ind>convergent</ind><klr tip="ind"> (function
   sequence)</klr></trd>
   <trd lng="es">uniformemente <ind>convergente</ind></trd>

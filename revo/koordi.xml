@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: koordi.xml,v 1.33 2023/06/09 14:28:30 revo Exp $">
+<art mrk="$Id: koordi.xml,v 1.34 2023/09/01 15:46:43 revo Exp $">
 <kap>
   <rad>koordinat</rad>/o
   <fnt>Z</fnt>
@@ -32,8 +31,7 @@
   <snc mrk="koordi.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      <ref tip="vid" cel="longit.0o.GEOG">Longitudo</ref> a&ubreve; <ref
-      tip="vid" cel="latitu.0o.GEOG_AST">latitudo</ref>:
+      <ref tip="vid" cel="longit.0o.GEOG">Longitudo</ref> a&ubreve; <ref tip="vid" cel="latitu.0o.GEOG_AST">latitudo</ref>:
       <ekz>
         &ccirc;e la rivernomoj, la <tld/>oj difinas la situon de la
         enfluejo
@@ -53,6 +51,10 @@
   <trd lng="es">coordenada</trd>
   <trd lng="fr">coordonn&eacute;e</trd>
   <trd lng="hu">koordin&aacute;ta</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5EA7;&#x6A19;  [<ind>&#x3056;&#x3072;&#x3087;&#x3046;</ind>]</trd>,
+    <trd>&#x7D4C;&#x7DEF;&#x5EA6;  [<ind>&#x3051;&#x3044;&#x3044;&#x3069;</ind>]</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>wsp&oacute;&lstroke;rz&eogonek;dna</trd>,
     <trd>koordynata</trd>
@@ -97,6 +99,7 @@
     <trd>rep&egrave;re</trd>
   </trdgrp>
   <trd lng="hu">koordin&aacute;tarendszer</trd>
+  <trd lng="ja">&#x5EA7;&#x6A19;&#x7CFB;  [<ind>&#x3056;&#x3072;&#x3087;&#x3046;&#x3051;&#x3044;</ind>]</trd>
   <trd lng="pl">uk&lstroke;ad wsp&oacute;&lstroke;rz&eogonek;dnych</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;
   &c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;</trd>
@@ -123,8 +126,7 @@
       <frm am="(O,bb i,bb j)">(O, <g>i</g>, <g>j</g>)</frm>, kaj
       <frm am="z"><k>z</k></frm> estas
       la
-      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de <frm
-      am="M">M</frm>.
+      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de <frm am="M">M</frm>.
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
   </snc>
@@ -163,14 +165,11 @@
   <fnt><bib>MatTerm</bib>, <lok>p. 31</lok></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm am="M">M</frm> en <ref
-      cel="spac.afina0o">afina
+      <klr>(de punkto <frm am="M">M</frm> en <ref cel="spac.afina0o">afina
       spaco</ref>
-      rilate al <ref
-      cel="origin.0o.de_kartezia_koordinatsistemo">origino</ref>
+      rilate al <ref cel="origin.0o.de_kartezia_koordinatsistemo">origino</ref>
       <frm am="O">O</frm> la&ubreve;
-      <ref cel="baz.0o.vektoraspaco">bazo</ref> <frm
-      am="B">B</frm>)</klr>
+      <ref cel="baz.0o.vektoraspaco">bazo</ref> <frm am="B">B</frm>)</klr>
       &Ccirc;iu el la <ref cel="kompon.0anto.MAT">komponantoj</ref>
       de vektoro <frm am="OM">OM</frm> (t.e. <frm am="M-O">M-O</frm>)
       la&ubreve;
@@ -178,11 +177,9 @@
       <ekz>
         en la tridimensia reela afina spaco, kiu figuras la fizikan
         spacon, oni ofte signas la karteziajn <tld/>ojn de punkto
-        per la triopo <frm am="(x,y,z)"
-        >(<k>x</k>, <k>y</k>, <k>z</k>)</frm> kaj la
+        per la triopo <frm am="(x,y,z)">(<k>x</k>, <k>y</k>, <k>z</k>)</frm> kaj la
         <ref cel="koordi.0sistemo"><tld/>sistemon</ref>
-        mem per kvaropo <frm am="(O,bb i,bb j,bb k)"
-        >(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>;
+        mem per kvaropo <frm am="(O,bb i,bb j,bb k)">(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>;
       </ekz>
       <ekz>
         <ind>x-<tld/>o</ind>
@@ -322,25 +319,20 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de punkto <frm am="M">M</frm> en <frm
-      am="n"><k>n</k></frm>-dimensia
+      <klr>(de punkto <frm am="M">M</frm> en <frm am="n"><k>n</k></frm>-dimensia
       <ref cel="spac.afina0o">afina spaco</ref>
       rilate al <frm am="n+1"><k>n</k>+1</frm> punktoj
-      <frm am="(A_i)_(0 le i le n)"
-      >(A<sub><k>i</k></sub>)<sub>0&#8804;<k>i</k>&#8804;<k>n</k></sub></frm>
+      <frm am="(A_i)_(0 le i le n)">(A<sub><k>i</k></sub>)<sub>0&#x2264;<k>i</k>&#x2264;<k>n</k></sub></frm>
       ne apartenantaj al la sama hiperebeno)</klr>
-      &Ccirc;iu el la termoj de iu ajn tia <frm
-      am="n+1">(<k>n</k>+1)</frm>-opo
-      <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>, ke <frm
-      am="M">M</frm>
+      &Ccirc;iu el la termoj de iu ajn tia <frm am="n+1">(<k>n</k>+1)</frm>-opo
+      <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>, ke <frm am="M">M</frm>
       estas la <ref cel="centr.pezo0o">pezocentro</ref> de la punktoj
       <frm am="(A_i)">(A<sub><k>i</k></sub>)</frm> kun la koeficientoj
       <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>.
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
     <rim>
-      Tiuj koordinatoj estas <ref
-      cel="homoge.0a.koordinatoj">homogenaj</ref>.
+      Tiuj koordinatoj estas <ref cel="homoge.0a.koordinatoj">homogenaj</ref>.
       Trovi&gcirc;as aliaj difinoj, kiuj <ctl>malhomogeneigas</ctl>
       ilin,
       postulante ekzemple, ke <frm am="alpha_0=1">&alfa;<sub>0</sub> =
@@ -361,8 +353,7 @@
     <ind>koordin&aacute;ta</ind></trd>
   </trdgrp>
   <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna barycentryczna</trd>
-  <trd
-  lng="ru">&c_b;&c_a;&c_r;&c_i;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+  <trd lng="ru">&c_b;&c_a;&c_r;&c_i;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
   <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="sk">barycentrick&aacute; s&uacute;radnica</trd>
   <trd lng="cs">barycentrick&aacute; sou&rcaron;adnice</trd>
@@ -390,11 +381,9 @@
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
     <rim>
       La koncernan ebenon oni samtempe provizas per orta kaj ununorma
-      koordinatsistemo <frm am="(O,bb i,bb j)"
-      >(O, <g>i</g>, <g>j</g>)</frm>, kie
+      koordinatsistemo <frm am="(O,bb i,bb j)">(O, <g>i</g>, <g>j</g>)</frm>, kie
       <frm am="O">O</frm>
-      estas la origino de la polusa akso kaj <frm am="bb
-      i"><g>i</g></frm>
+      estas la origino de la polusa akso kaj <frm am="bb       i"><g>i</g></frm>
       &gcirc;ia ununorma direktanta vektoro.
     </rim>
   </snc>
@@ -420,8 +409,7 @@
       <klr>(de punkto <frm am="M">M</frm> en tridimensia reela e&ubreve;klida
       <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
       ununorma koordinatsistemo
-      <frm am="(O,bb i,bb j,bb k)"
-      >(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
+      <frm am="(O,bb i,bb j,bb k)">(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
       &Ccirc;iu el la tri reeloj
       <ref cel="distan.polusa0o">polusa distanco</ref>,
       <ref cel="longit.0o.MAT">longitudo</ref> kaj
@@ -444,8 +432,7 @@
   <trd lng="fr">coordonn&eacute;e sph&eacute;rique</trd>
   <trd lng="hu">g&ouml;mbi <ind>koordin&aacute;ta</ind></trd>
   <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna sferyczna</trd>
-  <trd
-  lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
+  <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="sk">sf&eacute;rick&aacute; s&uacute;radnica</trd>
 </drv>
 </art>
