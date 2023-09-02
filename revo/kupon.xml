@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kupon.xml,v 1.21 2023/09/01 15:46:46 revo Exp $">
+<art mrk="$Id: kupon.xml,v 1.22 2023/09/02 06:26:03 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>kupon</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,14 +10,33 @@
   <kap><tld/>o</kap>
   <snc mrk="kupon.0o.KOMUNE">
     <dif>
-      <ref tip="super" cel="bilet.0o.KOMUNE">Bileto</ref> 
-      detondita a&ubreve; de&scirc;irita de registro a&ubreve; de pli granda folio.
+      <ref tip="super" cel="bilet.0o.KOMUNE">Bileto</ref>
+      detondita a&ubreve; de&scirc;irita de registro a&ubreve; de pli granda folio:
+      <ekz>
+        legantoj de la Unua Libro estis petitaj subskribi kaj resendi al la a&ubreve;toro
+        <tld/>ojn kun la jena promeso: &leftquot;mi, subskribi(n)ta, promesas ellerni la
+        proponitan de d-ro Esperanto lingvon internacian&rightquot;
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Ligo emisiis t.n. Premio-<tld lit="K"/>ojn en valoro de unu stelo
+        <klr>[&#8230;]</klr> pro varbo de novaj membroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lawrence Mee</aut>
+          <vrk>La stelo</vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <subsnc mrk="kupon.0o.EKON">
       <uzo tip="fak">EKON</uzo>
       <dif>
         <ref tip="super" cel="bilet.0o.KOMUNE">Bileto</ref> detondita
-        de akcio a&ubreve; obligacio, rajtiganta la
+        de <ref tip="malprt" cel="akci.0o">akcio</ref> a&ubreve; obligacio, rajtiganta la
         havanton ricevi difinitan dividendon a&ubreve; procenton.
       </dif>
       <trdgrp lng="de">
@@ -47,7 +66,7 @@
     <subsnc mrk="kupon.0o.TEA">
       <uzo tip="fak">TEA</uzo>
       <dif>
-        <ref tip="super" cel="bilet.0o.KOMUNE">Bileto</ref> detondita 
+        <ref tip="super" cel="bilet.0o.KOMUNE">Bileto</ref> detondita
         de registro, rajtiganta la havanton okupi lokon en teatro ktp.
       </dif>
       <trdgrp lng="de">
@@ -72,9 +91,20 @@
     <subsnc mrk="kupon.0o.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-       <ref tip="super" cel="bilet.0o.KOMUNE">Bileto</ref> dum- a&ubreve; 
-       post-milite rajtiganta la havanton ricevi a&ubreve; 
+       <ref tip="super" cel="bilet.0o.KOMUNE">Bileto</ref> dum- a&ubreve;
+       post-milite rajtiganta la havanton ricevi a&ubreve;
        a&ccirc;eti difinitan nutra&jcirc;oporcion, vesta&jcirc;ojn, k.s.:
+      <ekz>
+        kun la salajro oni ricevis foliojn (de formato A4) kun fortran&ccirc;eblaj
+        diversvaloraj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dmitrij Cibulevskij</aut>
+          <vrk><url ref="&Monato;/2011/010444.php"
+              >Kupono-mono</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
        <ekz>
           <ind>nutra&jcirc;<tld/>o</ind>j anka&ubreve; i&gcirc;as pli kaj pli
           senvaloraj, &ccirc;ar sur
@@ -84,16 +114,21 @@
            <trd lng="fa">&f_k;&a_w;&f_p;&a_n; &a_gh;&a_dh;&a_A;</trd>
            <trd lng="nl">voedselcoupon</trd>
         </ekz>
-        </dif>
-        <trdgrp lng="it">
-        <trd>bollino<klr> (buono per generi alimentari)</klr></trd>,
-        <trd>tessera<klr> (per alimenti)</klr></trd>,
-        <trd>cedola</trd>,
-        <trd>buono<klr> pasto</klr></trd>
-        </trdgrp>
-        <trd lng="pl">kartki</trd>
-        <trd lng="nl">coupon</trd>
-        </subsnc>
+      </dif>
+      <trd lng="de">Lebensmittelmarke</trd>
+      <trdgrp lng="it">
+      <trd>bollino<klr> (buono per generi alimentari)</klr></trd>,
+      <trd>tessera<klr> (per alimenti)</klr></trd>,
+      <trd>cedola</trd>,
+      <trd>buono<klr> pasto</klr></trd>
+      </trdgrp>
+      <trd lng="pl">kartki</trd>
+      <trd lng="nl">coupon</trd>
+    </subsnc>
+    <refgrp tip="vid">
+      <ref cel="jxeton.0o">&jcirc;etono</ref>,
+      <ref cel="mark.0o.objekto">marko<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>kup&oacute;n</trd>,
@@ -102,14 +137,14 @@
   <trd lng="fa">&f_k;&a_w;&f_p;&a_n;</trd>
   <trd lng="fr">coupon</trd>
   <trdgrp lng="ja">
-    <trd>&#x30AF;&#x30FC;&#x30DD;&#x30F3;</trd>,
-    <trd>&#x5207;&#x7B26;&#x306E;&#x534A;&#x5238;  [<ind>&#x304D;&#x3063;&#x3077;&#x306E;&#x306F;&#x3093;&#x3051;&#x3093;</ind>]</trd>,
-    <trd>&#x5229;&#x672D;  [<ind>&#x308A;&#x3055;&#x3064;</ind>]</trd>
+    <trd>&#12463;&#12540;&#12509;&#12531;</trd>,
+    <trd>&#20999;&#31526;&#12398;&#21322;&#21048;  [<ind>&#12365;&#12387;&#12407;&#12398;&#12399;&#12435;&#12369;&#12435;</ind>]</trd>,
+    <trd>&#21033;&#26413;  [<ind>&#12426;&#12373;&#12388;</ind>]</trd>
   </trdgrp>
   <trd lng="sk">&uacute;stri&zcaron;ok</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x443;&#x43F;&#x43E;&#x43D;</trd>,
-    <trd>&#x432;&#x456;&#x434;&#x440;&#x456;&#x437;&#x43D;&#x438;&#x439; &#x442;&#x430;&#x43B;&#x43E;&#x43D;</trd>
+    <trd>&c_k;&c_u;&c_p;&c_o;&c_n;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_r;&c_ib;&c_z;&c_n;&c_i;&c_j; &c_t;&c_a;&c_l;&c_o;&c_n;</trd>
   </trdgrp>
 </drv>
 
@@ -118,10 +153,39 @@
   <snc mrk="kupon.internaciarespond0o.POSX">
     <uzo tip="fak">POSX</uzo>
     <dif>
-      En &ccirc;iuj landoj de la Universala Po&scirc;ta Unui&gcirc;o inter&scirc;an&gcirc;ebla
-      <ref tip="super" cel="bilet.0o.KOMUNE">bileto</ref>,
-      kiu tial povas servi kiel internacia pagrimedo.
+      En &ccirc;iuj landoj de la Universala Po&scirc;ta Unui&gcirc;o, inter&scirc;an&gcirc;ebla
+      <ref tip="super" cel="bilet.0o.KOMUNE">bileto</ref> valora afrankon de simpla letero,
+      kaj kiu tiel povas servi kiel internacia pagrimedo:
+      <ekz>
+        <klr>[por]</klr> uzi tiun &ccirc;i servon, <klr>[vi]</klr> estas petataj sendi &ccirc;iujn
+        leterojn kun du internaciaj respond<tld/>oj al Universala Esperanto-Asocio
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el ekonomia vidpunkto la sistemo de internaciaj respond<tld/>oj (IRK) estas
+        unika&jcirc;o: per &gcirc;i eblas protekti sian investon kontra&ubreve; inflacio kaj kontra&ubreve;
+        valut&scirc;an&gcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2007/009087.php"
+              >Internaciaj respondkuponoj: &ccirc;u fino alproksimi&gcirc;as?</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        niaj eksterlandaj abonantoj povas mendi <klr>[&#8230;]</klr> rekte &ccirc;e ni sendinte 6
+        internaciajn respond<tld/>ojn
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 7 (57)</lok>
+        </fnt>.
+      </ekz>
     </dif>
+  <trd lng="de">Internationaler Antwortschein</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>mezin&aacute;rodn&iacute; odpov&ecaron;dka</trd>,
@@ -155,6 +219,9 @@
 </art>
 <!--
 $Log$
+versio 1.22 2023/09/02 06:26:03
+Wolfram Diestel: +ekz-oj
+
 Revision 1.18  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -173,6 +240,5 @@ Paul Peeraerts: +nl +subsnc 3 +adapto de dif kiu ne kongruis kun subsnc
 
 Revision 1.13  2008/04/10 19:55:25  revo
 Jeromo Vasxe: snc/subsnc + mrk + trd fr
-
 -->
 </vortaro>
