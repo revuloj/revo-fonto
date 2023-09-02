@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: matric.xml,v 1.45 2023/05/11 09:25:21 revo Exp $">
+<art mrk="$Id: matric.xml,v 1.46 2023/09/02 06:04:10 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>matric</rad>/o
   <fnt><bib>PV</bib></fnt>
@@ -97,7 +97,7 @@
       <ekz>
         en lineara algebro, determinanto estas funkcio kiu asociigas 
         skalaron <frm am="det(A)"><k>det</k>(<k>A</k>)</frm> al &ccirc;iu
-        <frm am="n xx n"><k>n</k>&#215;<k>n</k></frm> kvadrata <tld/>o
+        <frm am="n xx n"><k>n</k>&#xD7;<k>n</k></frm> kvadrata <tld/>o
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=87309">Determinanto</url></lok>
@@ -154,6 +154,15 @@
   <trd lng="en">matrix</trd>
   <trd lng="es">matriz</trd>
   <trd lng="hu">m&aacute;trix</trd>
+  <trdgrp lng="ja">
+    <trd>&#x92F3;&#x578B;  [<ind>&#x3044;&#x304C;&#x305F;</ind>]</trd>,
+    <trd>&#x91D1;&#x578B;  [<ind>&#x304B;&#x306A;&#x304C;&#x305F;</ind>]</trd>,
+    <trd>&#x629C;&#x304D;&#x578B;  [<ind>&#x306C;&#x304D;&#x304C;&#x305F;</ind>]</trd>,
+    <trd>&#x6BCD;&#x578B;  [<ind>&#x307C;&#x3051;&#x3044;</ind>]</trd>,
+    <trd>&#x884C;&#x5217;  [<ind>&#x304E;&#x3087;&#x3046;&#x308C;&#x3064;</ind>]</trd>,
+    <trd>&#x77F3;&#x57FA;  [<ind>&#x305B;&#x3063;&#x304D;</ind>]</trd>,
+    <trd>&#x57FA;&#x8CEA;  [<ind>&#x304D;&#x3057;&#x3064;</ind>]</trd>
+  </trdgrp>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
   <trdgrp lng="uk">
     <trd>&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_ja;</trd>,
@@ -195,7 +204,7 @@
       <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
       <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb             K"><g>K</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm am="bb I xx bb J"><g>I</g>&#215;<g>J</g></frm> al 
+      <frm am="bb I xx bb J"><g>I</g>&#xD7;<g>J</g></frm> al 
       <frm am="bb K"><g>K</g></frm>, kie
       <frm am="bb I={1,2,...,n}"><g>I</g> = {1, 2,..., <k>n</k>}</frm>
       kaj
@@ -203,8 +212,7 @@
       <ekz>
         <tld/>on <frm am="A">A</frm> oni kutime signas kiel
         <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e.
-        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb        
-        J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#8712;<g>I</g>&#215;<g>J</g></sub></frm>,
+        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb                 J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#x2208;<g>I</g>&#xD7;<g>J</g></sub></frm>,
         kie <frm am="a_(ij)">a<sub><k>i</k><k>j</k></sub></frm> signas
         la bildon de
         <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> per <frm am="A">A</frm> kaj estas nomata
@@ -216,7 +224,7 @@
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>o oni nomas
         ties dimensioj kaj signas ilin per skriba&jcirc;o de la tipo
         <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm> a&ubreve;
-        <frm am="n xx p"><k>n</k>&#215;<k>p</k></frm>;
+        <frm am="n xx p"><k>n</k>&#xD7;<k>p</k></frm>;
       </ekz>
       <ekz>
         eblas prezenti al si <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-<tld/>on
@@ -282,13 +290,13 @@
   <bld lok="../bld/matric.gif">
     (n,p)-<tld/>o
   </bld>
-  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a; &c_p;&c_a;&c_m;&c_je;&c_r;&c_a;&c_m; n&#215;p</trd>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a; &c_p;&c_a;&c_m;&c_je;&c_r;&c_a;&c_m; n&#xD7;p</trd>
   <trd lng="de">(n,p)-<ind>Matrix</ind></trd>
   <trd lng="en">n-by-p <ind>matrix</ind></trd>
-  <trd lng="fr">matrice n&#215;p</trd>
-  <trd lng="hu">n&#215;p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
-  <trd lng="pl">macierz n&#215;p</trd>
-  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n&#215;p</trd>
+  <trd lng="fr">matrice n&#xD7;p</trd>
+  <trd lng="hu">n&#xD7;p m&eacute;ret&udblac; <ind>m&aacute;trix</ind></trd>
+  <trd lng="pl">macierz n&#xD7;p</trd>
+  <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a; &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a; n&#xD7;p</trd>
 </drv>
 
 <drv mrk="matric.nul0o">
@@ -325,8 +333,8 @@
       <frm am="A">A</frm>)</klr>
       Tia <frm am="(n&minute;,p&minute;)">(<k>n'</k>,<k>p'</k>)</frm>-<tld/>o
       <frm am="B">B</frm>, ke
-      (1) <frm am="n&minute; le n"><k>n'</k> &#8804; <k>n</k></frm> kaj
-      <frm am="p&minute; le p"><k>p'</k> &#8804; <k>p</k></frm>,
+      (1) <frm am="n&minute; le n"><k>n'</k> &#x2264; <k>n</k></frm> kaj
+      <frm am="p&minute; le p"><k>p'</k> &#x2264; <k>p</k></frm>,
       (2) la elemento de <frm am="B">B</frm> kun indico
       <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> egalas al la elemento de
       <frm am="A">A</frm>
@@ -418,7 +426,7 @@
         la &gcirc;enerala elemento de la jakobia <tld/>o de
         <frm am="f"><k>f</k></frm> &ccirc;e <frm am="a"><k>a</k></frm> egalas
         al
-        <frm am="del_jf_i(a)">&#8706;<sub><k>j</k></sub><k>f</k><sub><k>i</k></sub>(<k>a</k>)</frm>.
+        <frm am="del_jf_i(a)">&#x2202;<sub><k>j</k></sub><k>f</k><sub><k>i</k></sub>(<k>a</k>)</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
