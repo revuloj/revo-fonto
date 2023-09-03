@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: produt.xml,v 1.46 2023/04/23 22:27:18 revo Exp $">
+<art mrk="$Id: produt.xml,v 1.47 2023/09/03 12:45:12 revo Exp $">
 <kap>
   <rad>produt</rad>/o
   <fnt>Z</fnt>
@@ -27,8 +27,8 @@
       <ekz>
         kaj la <tld/>on de &ccirc;iuj termoj en 
         <ref cel="famili.0o.bildigo">familio</ref>
-        <frm am="(a_i)_(i in bb I)">(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
-        per <frm am="prod_(i in bb I)a_i">&Pi;<sub><k>i</k>&#8712;<g>I</g></sub> 
+        <frm am="(a_i)_(i in bb I)">(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#x2208;<g>I</g></sub></frm>
+        per <frm am="prod_(i in bb I)a_i">&Pi;<sub><k>i</k>&#x2208;<g>I</g></sub> 
         <k>a</k><sub><k>i</k></sub></frm>;
       </ekz>
       <ekz>
@@ -67,6 +67,7 @@
     <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; <klr>(&c_m;&c_a;&c_t;&c_e;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;)</klr></trd>
   <trd lng="cs">sou&ccaron;in</trd>
   <trd lng="de">Produkt</trd>
+  <trd lng="ja">&#x7A4D;  [<ind>&#x305B;&#x304D;</ind>]</trd>
   <trdgrp lng="sk">
     <trd>n&aacute;sobok</trd>,
     <trd>s&uacute;&ccaron;in</trd>
@@ -129,9 +130,9 @@
       <tld/>o <frm am="bb E xx bb F xx bb G"><g>E</g>&#xD7;<g>F</g>&#xD7;<g>G</g></frm> estas aro de
       &ccirc;iuj <ref cel="op.0o.vico">opoj</ref>
       <frm am="(x,y,z)">(<k>x</k>,<k>y</k>,<k>z</k>)</frm> kun
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>,
-      <frm am="y in bb F"><k>y</k>&#8712;<g>F</g></frm>,
-      <frm am="z in bb G"><k>z</k>&#8712;<g>G</g></frm>.
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>,
+      <frm am="y in bb F"><k>y</k>&#x2208;<g>F</g></frm>,
+      <frm am="z in bb G"><k>z</k>&#x2208;<g>G</g></frm>.
       Eblas diri anka&ubreve;, ke &gcirc;i estas difinita kiel la duobla
       <tld/>o <frm am="(bb E xx bb F) xx bb G">(<g>E</g>&#xD7;<g>F</g>)&#xD7;<g>G</g></frm> a&ubreve;
       <frm am="bb E xx (bb F xx bb G)"><g>E</g>&#xD7;(<g>F</g>&#xD7;<g>G</g>)</frm>, kiujn oni
@@ -168,8 +169,8 @@
       <klr>(super kompleksa <ref cel="spac.vektora0o">vektora
       spaco</ref> <frm am="bb E"><g>E</g></frm>)</klr>
       Tia <ref cel="form.hermita0o">hermita formo</ref> <frm am="phi">&phi;</frm>, ke
-      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>, kaj
+      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#x2265; 0</frm> por &ccirc;iuj
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>, kaj
       egalas al nulo, se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>.
     </dif>
     <refgrp tip="vid">
@@ -236,8 +237,8 @@
       Tia <ref cel="linear.n0a">dulineara</ref>
       <ref cel="simetr.0a.bildigo">simetria</ref>
       <ref cel="form.0o.bildigo">formo</ref> <frm am="phi">&phi;</frm>, ke
-      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>, kaj
+      <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#x2265; 0</frm> por &ccirc;iuj
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>, kaj
       egalas al nulo, se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>.
     </dif>
     <refgrp tip="vid">
@@ -313,7 +314,7 @@
         la vektoran <tld/>on de <frm am="x"><k>x</k></frm> kaj
         <frm am="y"><k>y</k></frm>
         en tridimensia spaco oni signas foje per
-        <frm am="x^^y"><k>x</k>&#8743;<k>y</k></frm>;
+        <frm am="x^^y"><k>x</k>&#x2227;<k>y</k></frm>;
       </ekz>
       <ekz>
         la <ref cel="kompon.0anto.MAT">komponantoj</ref> de la
