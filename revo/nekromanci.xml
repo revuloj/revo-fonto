@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nekromanci.xml,v 1.13 2023/09/02 12:44:20 revo Exp $">
+<art mrk="$Id: nekromanci.xml,v 1.14 2023/09/12 17:25:35 revo Exp $">
 <kap>
   <rad>nekromanci</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -9,7 +9,7 @@
   <kap><tld/>o</kap>
   <snc mrk="nekromanci.0o.DIV">
     <dif>
-      Fantoma&ubreve;gurado, 
+      Fantom<ref tip="super" cel="auxgur.0o.DIV">a&ubreve;gurado</ref>,
       aperigo kaj pridemandado de spiritoj por sortodiveno:
       <ekz>
         <tld/>o estis vaste praktikita de Babilonanoj, Egiptanoj, grekoj
@@ -21,17 +21,26 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="okult.0ismo">okultismo</ref>,
+      <ref cel="spirit.0ismo">spiritismo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_n;&c_e;&c_k;&c_r;&c_a;&c_m;&c_a;&c_n;&c_t;&c_y;&c_ja;</trd>
   <trd lng="ca">nigrom&agrave;ncia</trd>
   <trd lng="cs">p&rcaron;edpov&iacute;d&aacute;n&iacute; budoucnosti vyvol&aacute;v&aacute;n&iacute;m mrtv&yacute;ch</trd>
+  <trdgrp lng="de">
+    <trd>Nekromantie</trd>,
+    <trd>Geisterbeschw&ouml;rung</trd>,
+    <trd>S&eacute;ance</trd>
+  </trdgrp>
   <trd lng="en">necromancy</trd>
   <trd lng="fr">n&eacute;cromancie</trd>
   <trd lng="hu">halottid&eacute;z&eacute;s</trd>
   <trdgrp lng="ja">
-    <trd>&#x964D;&#x970A;&#x5360;&#x3044;  [<ind>&#x964D;&#x970A;&#x3046;&#x3089;&#x306A;&#x3044;</ind>]</trd>,
-    <trd>&#x964D;&#x970A;&#x8853;  [<ind>&#x3053;&#x3046;&#x308C;&#x3044;&#x3058;&#x3085;&#x3064;</ind>]</trd>,
-    <trd>&#x53E3;&#x5BC4;&#x305B;  [<ind>&#x304F;&#x3061;&#x3088;&#x305B;</ind>]</trd>
+    <trd>&#x964D;&#x970A;&#21344;&#12356;  [<ind>&#12371;&#12358;&#12428;&#12356;&#12358;&#12425;&#12394;&#12356;</ind>]</trd>,
+    <trd>&#x964D;&#x970A;&#34899;  [<ind>&#12371;&#12358;&#x308C;&#12356;&#12376;&#12421;&#12388;</ind>]</trd>,
+    <trd>&#x53E3;&#x5BC4;&#x305B;  [<ind>&#x304F;&#12385;&#12424;&#x305B;</ind>]</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>necromantie</trd>,
@@ -46,10 +55,10 @@
   <kap><tld/>isto</kap>
   <snc mrk="nekromanci.0isto.DIV">
     <dif>
-      <ref tip="super" cel="auxgur.0isto.DIV">A&ubreve;guristo</ref> kiu 
+      <ref tip="super" cel="auxgur.0isto.DIV">A&ubreve;guristo</ref> kiu
       aperigas kaj pridemandas spiritojn de mortintoj:
       <ekz>
-        malbonintencaj kritikantoj priskribas la seancojn, kiel 
+        malbonintencaj kritikantoj priskribas la seancojn, kiel
         kunsidojn de <tld/>istoj a&ubreve; sor&ccirc;istoj
         <fnt>
           <aut>A. Kardec, trad. A. K. Afondo Costa, trad. B.
@@ -66,6 +75,11 @@
     <trd>nigrom&agrave;ntic</trd>,
     <trd>nigromant</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Nekromant</trd>,
+    <trd>Geisterbeschw&ouml;rer</trd>,
+    <trd>Schwarzk&uuml;nstler</trd>
+  </trdgrp>
   <trd lng="en">necromancer</trd>
   <trdgrp lng="fr">
     <trd>n&eacute;cromancien</trd>,
@@ -76,8 +90,8 @@
   <trd>szellemid&eacute;z&odblac;</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x964D;&#x970A;&#x5360;&#x3044;&#x5E2B;  [<ind>&#x964D;&#x970A;&#x3046;&#x3089;&#x306A;&#x3044;&#x3057;</ind>]</trd>,
-    <trd>&#x964D;&#x970A;&#x8853;&#x5E2B;  [<ind>&#x964D;&#x970A;&#x3058;&#x3085;&#x3064;&#x3057;</ind>]</trd>
+    <trd>&#x964D;&#x970A;&#21344;&#12356;&#x5E2B;  [<ind>&#12371;&#12358;&#12428;&#12356;&#12358;&#12425;&#12394;&#12356;&#12375;</ind>]</trd>,
+    <trd>&#x964D;&#x970A;&#34899;&#x5E2B;  [<ind>&#12371;&#12358;&#12428;&#12356;&#12376;&#12421;&#12388;&#12375;</ind>]</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>dodenbezweerder</trd>,
@@ -89,6 +103,9 @@
 
 <!--
 $Log$
+versio 1.14 2023/09/12 17:25:35
+Wolfram Diestel: +trd de; ref; pr. ja
+
 versio 1.12 2023/01/18 19:23:06
 Dmitri Gabinski: +trd be
 
@@ -108,8 +125,5 @@ Revision 1.5  2011/12/05 10:10:14  revo
 Marc Rausell: kataluna traduko
 
 Revision 1.4  2009/10/15 16:31:21  revo
-Paul Peeraerts: +nl
-
-Revision 1.3  2009/05/17 16:31:51  revo
 -->
 </vortaro>
