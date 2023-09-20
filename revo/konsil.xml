@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konsil.xml,v 1.39 2023/09/08 14:27:07 revo Exp $">
+<art mrk="$Id: konsil.xml,v 1.40 2023/09/20 18:27:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konsil</rad>/i <fnt><bib>PV</bib></fnt>
@@ -62,9 +62,9 @@
   </trdgrp>
   <trd lng="id"><baz>saran</baz>menyarankan</trd>
   <trdgrp lng="ja">
-    <trd>&#x52A9;&#x8A00;&#12377;&#x308B;  [<ind>&#12376;&#12423;&#12370;&#12435;&#12377;&#x308B;</ind>]</trd>,
-    <trd>&#x52E7;&#12417;&#x308B;  [<ind>&#12377;&#12377;&#12417;&#x308B;</ind>]</trd>,
-    <trd>&#x5FE0;&#x544A;&#12377;&#x308B;  [<ind>&#12385;&#12421;&#12358;&#12371;&#x304F;&#12377;&#x308B;</ind>]</trd>
+    <trd>&#21161;&#35328;&#12377;&#12427;  [<ind>&#12376;&#12423;&#12370;&#12435;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#21223;&#12417;&#12427;  [<ind>&#12377;&#12377;&#12417;&#12427;</ind>]</trd>,
+    <trd>&#24544;&#21578;&#12377;&#12427;  [<ind>&#12385;&#12421;&#12358;&#12371;&#12367;&#12377;&#12427;</ind>]</trd>
   </trdgrp>
   <trd lng="nl">aanraden</trd>
   <trd lng="ms">menasihat</trd>
@@ -89,10 +89,25 @@
     <dif>
       Indiko donita al iu pri tio, kion oni opinias, ke li devus fari:
       <ekz>
+        li ne atentis la <tld/>on de la maljunuloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 12:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         sa&gcirc;ulo a&ubreve;skultas <tld/>on
         <fnt>
           <bib>MT</bib>. <lok>Sentencoj 12:15</lok></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
+        anstata&ubreve; kuri sur la teraso, obeu mian <tld/>on kaj ku&scirc;i&gcirc;u
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         Kaj vi de mi akceptu la <tld/>on, //
         Ne amu tro la sunon kaj la stelojn
         <fnt>
@@ -100,16 +115,13 @@
           <vrk>Ifigenio en Ta&ubreve;rido</vrk>. <lok>3:1</lok>
         </fnt>;
       </ekz><ekz>
-        vi ne sekvis la <tld/>on de fidelulo!
+        vi ne sekvis la <tld/>on de fidelulo
         <fnt>
           <aut>Goeto, tr. &Z;</aut>:
           <vrk>Ifigenio en Ta&ubreve;rido</vrk>. <lok>4:2</lok>
-        </fnt>;
+        </fnt>!
       </ekz><ekz>
         montroj kaj <tld/>oj estas facilaj
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        post dorma trankvilo venas bona <tld/>o
         <fnt><bib>PrV</bib></fnt>;
       </ekz><ekz>
         peti <tld/>on de iu
@@ -125,8 +137,9 @@
       <ref cel="instru.0o">instruo</ref>
     </refgrp>
     <trdgrp lng="de">
-    <trd>Rat</trd>,
-    <trd>Ratschlag</trd>
+      <trd>Rat</trd>,
+      <trd>Ratschlag</trd>,
+      <trd>Empfehlung</trd>
     </trdgrp>
     <trd lng="ms">nashihat</trd>
     <trdgrp lng="en">
@@ -147,51 +160,50 @@
   <snc mrk="konsil.0o.rimedo">
     <uzo tip="stl">ARK</uzo>
     <dif>
-      Proponita agmaniero, rimedo:
+      <ref tip="dif" cel="turn.el0igxo">Elturni&gcirc;o</ref> el embaraso:
       <ekz>
-        kontra&ubreve; &ccirc;iu malfacilo ekzistas <tld/>o
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
         ni ne scias alian <tld/>on ol prokrasti la aferon;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         ne ekzistas sa&gcirc;o, ne ekzistas prudento,
         ne ekzistas <tld/>o kontra&ubreve; la Eternulo
         <fnt>
           <bib>MT</bib>
           <lok>Sentencoj 21:30</lok>
-        </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        kontra&ubreve; &ccirc;iu malfacilo ekzistas <tld/>o
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        post dorma trankvilo venas bona <tld/>o
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ebl.0eco">ebleco</ref>,
+      <ref cel="ir.el0ejo.FIG">elirejo<sncref/></ref>,
+      <ref cel="help.0o">helpo</ref>,
+      <ref cel="solv.0o.ago">solvo<sncref/></ref>
+    </refgrp>
     <trdgrp lng="de">
-    <trd>Empfehlung</trd>,
-    <trd>Rat</trd>
+      <trd>Abhilfe</trd>,
+      <trd>Rat <klr>(Abhilfe)</klr></trd>
     </trdgrp>
-    <trd lng="en">counsel</trd>
+    <trdgrp lng="en">
+      <trd>counsel</trd>,
+      <trd>clue</trd>
+    </trdgrp>
     <trdgrp lng="nl">
       <trd>raad<klr tip="ind"> (arch.)</klr></trd>,
       <trd>aanbeveling<klr tip="ind"> (arch.)</klr></trd>
     </trdgrp>
     <trd lng="pl">rada</trd>
   </snc>
-  <snc mrk="konsil.0o.konsilistaro">
-    <uzo tip="stl">EVI</uzo>
-    <dif>
-      <ref tip="dif" cel="konsil.0istaro"><tld lit="K"/>istaro</ref>:
-      <ekz>
-        kunvoki la <tld/>on.
-      </ekz>
-    </dif>
-    <!--
-     ne traduku evitindan vorton
-    <trdgrp lng="nl">
-      <trd>raad<klr tip="ind"> (ontr.)</klr></trd>
-    </trdgrp>
-    <trd lng="pl">rada</trd>
-    -->
-  </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_a;&c_d;&c_a;</trd>
   <trd
-  lng="bo">&#xF56;&#xF66;&#xFB3;&#xF56;&#xF0B;&#xF56;&#xFB1;&#xF0B;&#xF62;&#xF92;&#xFB1;&#xF42;&#xF0B;</trd>
+  lng="bo">&t_ba;&t_sa;&t_lata;&t_ba;&t_tsheg;&t_ba;&t_yata;&t_tsheg;&t_ra;&t_gata;&t_yata;&t_ga;&t_tsheg;</trd>
   <trd lng="cs">rada <klr>(ud&ecaron;lovan&aacute;)</klr></trd>
   <trdgrp lng="en">
     <trd>council</trd>,
@@ -205,9 +217,9 @@
     <trd>saran</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x52A9;&#x8A00;  [<ind>&#12376;&#12423;&#12370;&#12435;</ind>]</trd>,
-    <trd>&#x52E7;&#x544A;  [<ind>&#x304B;&#12435;&#12371;&#x304F;</ind>]</trd>,
-    <trd>&#x5FE0;&#x544A;  [<ind>&#12385;&#12421;&#12358;&#12371;&#x304F;</ind>]</trd>
+    <trd>&#21161;&#35328;  [<ind>&#12376;&#12423;&#12370;&#12435;</ind>]</trd>,
+    <trd>&#21223;&#21578;  [<ind>&#12363;&#12435;&#12371;&#12367;</ind>]</trd>,
+    <trd>&#24544;&#21578;  [<ind>&#12385;&#12421;&#12358;&#12371;&#12367;</ind>]</trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_o;&c_v;&c_je;&c_t;</trd>
   <trd lng="sk">rada</trd>
@@ -286,8 +298,8 @@
     <trd>pe<ind>nasihat</ind></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x52A9;&#x8A00;&#32773;  [<ind>&#12376;&#12423;&#12370;&#12435;&#12375;&#12419;</ind>]</trd>,
-    <trd>&#39015;&#x554F;  [<ind>&#12371;&#12418;&#12435;</ind>]</trd>
+    <trd>&#21161;&#35328;&#32773;  [<ind>&#12376;&#12423;&#12370;&#12435;&#12375;&#12419;</ind>]</trd>,
+    <trd>&#39015;&#21839;  [<ind>&#12371;&#12418;&#12435;</ind>]</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>raadgever</trd>,
@@ -336,7 +348,7 @@
   <trd lng="en">council</trd>
   <trd lng="fr">conseil<klr> (groupe de conseillers)</klr></trd>
   <trd lng="id">dewan</trd>
-  <trd lng="ja">&#39015;&#x554F;&#x56E3;  [<ind>&#12371;&#12418;&#12435;&#12384;&#12435;</ind>]</trd>
+  <trd lng="ja">&#39015;&#21839;&#22243;  [<ind>&#12371;&#12418;&#12435;&#12384;&#12435;</ind>]</trd>
   <trd lng="nl">raad<klr tip="ind"> (raadgevend
   lichaam)</klr></trd>
   <trd lng="pl">rada <klr>(organ doradczy)</klr></trd>
@@ -420,10 +432,10 @@
   </trdgrp>
   <trd lng="fr">conseiller</trd>
   <trdgrp lng="ja">
-    <trd>&#x53C2;&#x8B70;  [<ind>&#12373;&#12435;&#x304E;</ind>]</trd>,
-    <trd>&#39015;&#x554F;&#x5B98;  [<ind>&#12371;&#12418;&#12435;&#x304B;&#12435;</ind>]</trd>,
-    <trd>&#x53C2;&#x4E8B;&#x5B98;  [<ind>&#12373;&#12435;&#12376;&#x304B;&#12435;</ind>]</trd>,
-    <trd>&#x53C2;&#x8B70;&#38498;&#x8B70;&#x54E1;  [<ind>&#12373;&#12435;&#x304E;&#12356;&#12435;&#x304E;&#12356;&#12435;</ind>]</trd>
+    <trd>&#21442;&#35696;  [<ind>&#12373;&#12435;&#12366;</ind>]</trd>,
+    <trd>&#39015;&#21839;&#23448;  [<ind>&#12371;&#12418;&#12435;&#12363;&#12435;</ind>]</trd>,
+    <trd>&#21442;&#20107;&#23448;  [<ind>&#12373;&#12435;&#12376;&#12363;&#12435;</ind>]</trd>,
+    <trd>&#21442;&#35696;&#38498;&#35696;&#21729;  [<ind>&#12373;&#12435;&#12366;&#12356;&#12435;&#12366;&#12356;&#12435;</ind>]</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>poradca</trd>,
@@ -509,9 +521,9 @@
   <trd lng="fr">demander conseil</trd>
   <trd lng="id">ber<ind>konsultasi</ind></trd>
   <trdgrp lng="ja">
-    <trd>&#x52A9;&#x8A00;&#12434;&#x6C42;&#12417;&#x308B;  [<ind>&#12376;&#12423;&#12370;&#12435;&#12434;&#12418;&#12392;&#12417;&#x308B;</ind>]</trd>,
-    <trd>&#x76F8;&#x8AC7;&#12377;&#x308B;  [<ind>&#x305D;&#12358;&#12384;&#12435;&#12377;&#x308B;</ind>]</trd>,
-    <trd>&#x5BE9;&#x8B70;&#12377;&#x308B;  [<ind>&#12375;&#12435;&#x304E;&#12377;&#x308B;</ind>]</trd>
+    <trd>&#21161;&#35328;&#12434;&#27714;&#12417;&#12427;  [<ind>&#12376;&#12423;&#12370;&#12435;&#12434;&#12418;&#12392;&#12417;&#12427;</ind>]</trd>,
+    <trd>&#30456;&#35527;&#12377;&#12427;  [<ind>&#12381;&#12358;&#12384;&#12435;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#23529;&#35696;&#12377;&#12427;  [<ind>&#12375;&#12435;&#12366;&#12377;&#12427;</ind>]</trd>
   </trdgrp>
   <trd lng="nl">beraadslagen</trd>
   <trdgrp lng="pl">
@@ -553,10 +565,10 @@
   <trd lng="es">desaconsejar</trd>
   <trd lng="fr">d&eacute;conseiller</trd>
   <trdgrp lng="ja">
-    <trd>&#xFF5E;&#12375;&#x306A;&#12356;&#12424;&#12358;&#x52E7;&#12417;&#x308B;  [&#xFF5E;<ind>&#12375;&#x306A;&#12356;&#12424;&#12358;&#12377;&#12377;&#12417;&#x308B;</ind>]</trd>,
-    <trd>&#12420;&#12417;&#x308B;&#12424;&#12358;&#x306B;&#x8A00;&#12358;  [<ind>&#12420;&#12417;&#x308B;&#12424;&#12358;&#x306B;&#12356;&#12358;</ind>]</trd>,
-    <trd>&#x601D;&#12356;&#12392;&#x307E;&#12425;&#x305B;&#x308B; 
-    [<ind>&#x304A;&#12418;&#12356;&#12392;&#x307E;&#12425;&#x305B;&#x308B;</ind>]</trd>
+    <trd>&#65374;&#12375;&#12394;&#12356;&#12424;&#12358;&#21223;&#12417;&#12427;  [&#65374;<ind>&#12375;&#12394;&#12356;&#12424;&#12358;&#12377;&#12377;&#12417;&#12427;</ind>]</trd>,
+    <trd>&#12420;&#12417;&#12427;&#12424;&#12358;&#12395;&#35328;&#12358;  [<ind>&#12420;&#12417;&#12427;&#12424;&#12358;&#12395;&#12356;&#12358;</ind>]</trd>,
+    <trd>&#24605;&#12356;&#12392;&#12414;&#12425;&#12379;&#12427;
+    [<ind>&#12362;&#12418;&#12356;&#12392;&#12414;&#12425;&#12379;&#12427;</ind>]</trd>
   </trdgrp>
   <trd lng="nl">afraden</trd>
   <trd lng="pl">odradza&cacute;</trd>
@@ -579,6 +591,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="embara.0i.FIG">embarasita</ref>,
+      <ref cel="perple.0a">perpleksa</ref>,
+      <ref cel="help.sen0a">senhelpa</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_ja;&c_z;&c_r;&c_a;&c_d;&c_n;&c_y;</trd>,
@@ -593,9 +610,9 @@
   </trdgrp>
   <trd lng="id">putus asa</trd>
   <trdgrp lng="ja">
-    <trd>&#36884;&#x65B9;&#x306B;&#x66AE;&#x308C;&#x305F; 
-    [<ind>&#12392;&#x307B;&#12358;&#x306B;&#x304F;&#x308C;&#x305F;</ind>]</trd>,
-    <trd>&#x304A;&#x624B;&#x4E0A;&#12370;&#x306E;  [<ind>&#x304A;&#12390;&#12354;&#12370;&#x306E;</ind>]</trd>
+    <trd>&#36884;&#26041;&#12395;&#26286;&#12428;&#12383;
+    [<ind>&#12392;&#12411;&#12358;&#12395;&#12367;&#12428;&#12383;</ind>]</trd>,
+    <trd>&#12362;&#25163;&#19978;&#12370;&#12398;  [<ind>&#12362;&#12390;&#12354;&#12370;&#12398;</ind>]</trd>
   </trdgrp>
   <trd lng="pl">bezradny</trd>
   <trd lng="ru">&c_b;&c_je;&c_s;&c_p;&c_o;&c_m;&c_o;&c_shch;&c_n;&c_y;&c_j;</trd>
@@ -609,7 +626,7 @@
       Stato de tiu, kiu agas sen memcerto, ne sciante &ccirc;u bone a&ubreve;
       malbone:
       <ekz>
-        liaj problemoj ligi&gcirc;as <klr>...</klr> al la
+        liaj problemoj ligi&gcirc;as <klr>[&#8230;]</klr> al la
         sen<tld/>eco de patrino devanta lin eduki sola
         <fnt>
           <aut>C. Piron</aut>,
@@ -634,6 +651,9 @@
 </art>
 <!--
 $Log$
+versio 1.40 2023/09/20 18:27:31
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
 versio 1.39 2023/09/08 14:27:07
 Wolfram Diestel: kor. ja ind.
 
