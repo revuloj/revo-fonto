@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: frakci.xml,v 1.131 2023/08/29 20:27:10 revo Exp $">
+<art mrk="$Id: frakci.xml,v 1.132 2023/09/20 06:28:09 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>frakci</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>frakci</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="frakci.0o">
   <kap><tld/>o</kap>
@@ -23,7 +23,7 @@
         norma, vera <fnt><bib>MatVort</bib></fnt> a&ubreve;
         <ind>propra <tld/>o</ind>
         <klr>(kies denominatoro estas pli granda ol la numeratoro en
-        absoluta valoro: <frm>&#189;</frm> ktp)</klr>;
+        absoluta valoro: <frm>½</frm> ktp)</klr>;
         <trd lng="be">&c_d;&c_r;&c_o;&c_b; &c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
         <trd lng="ca">fracci&oacute; pr&ograve;pia</trd>
         <trd lng="de">echter <ind>Bruch</ind></trd>
@@ -95,7 +95,7 @@
         <ind>miksa <tld/>o</ind> <fnt><bib>PIV1</bib></fnt>
         a&ubreve; <tld/>a nombro <fnt><bib>PIV2</bib></fnt>
         <klr>(konsistanta el entjera kaj frakcia partoj,
-        ekz-e <frm>2&#189;</frm> ktp)</klr>.
+        ekz-e <frm>2½</frm> ktp)</klr>.
         <trd lng="be">&c_d;&c_r;&c_o;&c_b; &c_m;&c_ja;&c_sh;&c_a;&c_n;&c_y;</trd>
         <trd lng="ca">nombre <ind>mixt</ind></trd>
         <trd lng="de">gemischter <ind>Bruch</ind></trd>
@@ -109,15 +109,15 @@
         <ind>&c_d;&c_r;&c_o;&c_b;&c_mol;</ind></trd>
       </ekz>
     </dif>
-    <ref tip="sub" cel="on.0o.frakcio">ono;</ref>
+    <ref tip="sub" cel="on.0o.frakcio">ono</ref>
     <refgrp tip="sin">
-      <ref cel="frakci.kvocienta0o">kvocienta frakcio</ref>;
+      <ref cel="frakci.kvocienta0o">kvocienta frakcio</ref>
     </refgrp>
-    <ref tip="vid" cel="frakci.pozicia0o">pozicia frakcio.</ref>
+    <ref tip="vid" cel="frakci.pozicia0o">pozicia frakcio</ref>
     <rim>
-      Por &ccirc;i tiu nocio Bricard
+      Por &ccirc;i tiu nocio <nom>Bricard</nom>
       <fnt><bib>MatTerm</bib><lok>p. 7</lok></fnt> proponis la formon
-      <ctl>fracio</ctl>, kiu ne enradiki&gcirc;is.
+      &leftquot;<esc>fracio</esc>&rightquot;, kiu ne enradiki&gcirc;is.
     </rim>
     <rim>
       La tradicia matematika lingva&jcirc;o ne rigore distingas inter la
@@ -159,7 +159,7 @@
   <snc mrk="frakci.0o.SCI">
     <uzo tip="fak">SCI</uzo>
     <dif>
-      Parto de materia&jcirc;o, kiun analiza operacio apartigas
+      <ref tip="super" cel="part.0o">Parto</ref> de materia&jcirc;o, kiun analiza operacio apartigas
       pro iu &gcirc;ia propreco.
     </dif>
     <subsnc mrk="frakci.0o.KEM">
@@ -202,7 +202,8 @@
   <snc mrk="frakci.0o.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      Organizita grupo de samopiniantoj ene de politika partio
+      Organizita <ref tip="super" cel="grup.0o.personoj">grupo</ref> de samopiniantoj ene de politika
+      <ref tip="malprt" cel="parti.0o.POL">partio</ref>
       a&ubreve; parlamento:
       <ekz>
         la Komunista <tld lit="F"/>o de SAT akceptas la
@@ -311,7 +312,7 @@
   <trd
   lng="lo">&#3777;&#3733;&#3784;&#3754;&#3784;&#3751;&#3737;&#3755;&#3737;&#3766;&#3784;&#3719;,</trd>
   <trd lng="lt">frakcija</trd>
-  <trd lng="lv">da&#5644;a</trd>
+  <trd lng="lv">da&lcommaaccent;a</trd>
   <trd lng="mg">ampahany</trd>
   <trd lng="mi">hautanga</trd>
   <trd lng="mk">&c_d;&c_je;&c_l;</trd>
@@ -360,9 +361,10 @@
   <kap>
     <tld/>a
   </kap>
-  <snc>
-    <dif>
-      Rilata al <tld/>o:
+  <dif>
+    Rilata al <tld/>o:
+  </dif>
+  <snc ref="frakci.0o.SCI">
       <ekz>
         &gcirc;i facile produkteblas per <tld/>a distilado de esencoleoj trovataj en multaj
         plantoj
@@ -372,7 +374,20 @@
           <lok>Nerila acetato</lok>
         </fnt>.
       </ekz>
-    </dif>
+  </snc>
+  <snc ref="frakci.0o.POL">
+      <ekz>
+        en la E&ubreve;ropa Parlamento <klr>[&#8230;]</klr> ekzistas tri &ccirc;efaj kampoj:
+        unue la komisionaj kunsidoj, due la <tld/>aj kunsidoj
+        kaj fine la plenkunsidoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2004/008309.html"
+              >Plurlingvismo valoras siajn kostojn</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
   </snc>
   <trd lng="en">fractional</trd>
 </drv>
@@ -380,20 +395,10 @@
 <drv mrk="frakci.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
-    <dif>
-      <ref tip="super" cel="divid.0i.partigi">Dividi</ref> en <tld/>ojn:
-      <ekz>
-        politikaj principoj <klr>[&#8230;]</klr> <tld/>igas la
-        laboristojn je la nomo de nova flago de la emancip<klr>[ado]</klr>
-        <fnt>
-          <vrk><url
-          ref="https://bibliotekoj.org/esperantajbitoj/PDF/Informa%20Bulteno%2019371210%20n11.pdf"
-              >Internacia Laborist-asocio Informa Bulteno (II-a jaro, Num. 11, 10 Dec
-              1937)</url></vrk>
-          <lok>Nur la Sindikatoj Venkos la Fa&scirc;ismon</lok>
-        </fnt>;
-      </ekz>
+  <dif>
+    <ref tip="super" cel="divid.0i.partigi">Dividi</ref> en <tld/>ojn:
+  </dif>
+  <snc ref="frakci.0o.SCI">
       <ekz>
         &ccirc;e la pacientoj de la unua grupo estis aplikita <tld/>igita gama-terapio, celita
         sur la areon de lieno
@@ -404,15 +409,28 @@
           <lok>Aktinoterapio &ccirc;e Kronikaj Medolole&ubreve;kozoj</lok>
         </fnt>.
       </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="apart.0igi">apartigi</ref>,
-      <ref cel="fragme.0i">fragmenti</ref>
-    </refgrp>
   </snc>
+  <snc ref="frakci.0o.POL">
+      <ekz>
+        politikaj principoj <klr>[&#8230;]</klr> <tld/>igas la
+        laboristojn je la nomo de nova flago de la emancip<klr>[ado]</klr>
+        <fnt>
+          <vrk><url
+          ref="https://bibliotekoj.org/esperantajbitoj/PDF/Informa%20Bulteno%2019371210%20n11.pdf"
+              >Internacia Laborist-asocio Informa Bulteno (II-a jaro, Num. 11, 10 Dec
+              1937)</url></vrk>
+          <lok>Nur la Sindikatoj Venkos la Fa&scirc;ismon</lok>
+        </fnt>.
+      </ekz>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="apart.0igi">apartigi</ref>,
+    <ref cel="fragme.0i">fragmenti</ref>,
+    <ref cel="rafin.0i.KEM">rafini<sncref/></ref>
+  </refgrp>
   <adm>
     PIV1 uzas ~i cxi-sence. Cetere tia senco bazigxas sur alia
-    sencon de ~o, nome &leftquot;parto&rightquot;. <aut>MB</aut>
+    senco de ~o, nome &leftquot;parto&rightquot;. <aut>MB</aut>
   </adm>
   <trdgrp lng="be">
     <trd>&c_f;&c_r;&c_a;&c_k;&c_c;&c_y;&c_ja;&c_n;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -534,52 +552,12 @@
   <trd lng="sk">algebrick&yacute; zlomok</trd>
 </drv>
 
-<drv mrk="frakci.cxena0o">
-  <kap>&ccirc;ena <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV2</bib></fnt>
-  <snc>
-    <dif>
-      <ref tip="dif" cel="frakci.cxen0o">&Ccirc;en<tld/>o</ref>:
-      <ekz>
-        &ccirc;iuj reelaj nombroj estas prezenteblaj kiel regularaj &ccirc;enaj
-        <tld/>oj,
-        racionalaj nombroj estas prezenteblaj per finiaj <tld/>oj,
-        neracionalaj per nefiniaj
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=388067">&Ccirc;ena
-          frakcio</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_d;&c_r;&c_o;&c_b; &c_l;&c_a;&c_n;&c_c;&c_u;&c_g;&c_o;&c_v;&c_y;</trd>,
-    <trd>&c_d;&c_r;&c_o;&c_b; &c_n;&c_je;&c_p;&c_a;&c_r;&c_y;&c_w;&c_n;&c_y;</trd>
-  </trdgrp>
-  <trd lng="ca">fracci&oacute; cont&iacute;nua</trd>
-  <trdgrp lng="de">
-    <trd>Kettenbruch</trd>,
-    <trd>kontinuierlicher <ind>Bruch</ind></trd>
-  </trdgrp>
-  <trd lng="en">continued <ind>fraction</ind></trd>
-  <trd lng="fr">fraction continue</trd>
-  <trd lng="he">&shin;&bet;&resh; &shin;&resh;&shin;&resh;&tav;</trd>
-  <trdgrp lng="pl">
-    <trd>u&lstroke;amek &lstroke;a&nacute;cuchowy</trd>,
-    <trd>u&lstroke;amek ci&aogonek;g&lstroke;y</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_c;&c_je;&c_p;&c_n;&c_a;&c_ja; <ind>&c_d;&c_r;&c_o;&c_b;&c_mol;</ind></trd>,
-    <trd>&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_a;&c_ja; <ind>&c_d;&c_r;&c_o;&c_b;&c_mol;</ind></trd>
-  </trdgrp>
-</drv>
-
 <drv mrk="frakci.cxen0o">
-  <kap>&ccirc;en<tld/>o</kap>
+  <kap>
+    &ccirc;en<tld/>o <fnt><bib>PIV1</bib></fnt>,
+    <var><kap>&ccirc;ena <tld/>o <fnt><bib>PIV2</bib></fnt></kap></var>
+  </kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
       <ref tip="super" cel="vic.0o.MAT">Vico</ref> <frm am="u"><k>u</k></frm>
@@ -603,6 +581,17 @@
         lasta termo de la responda vico <frm am="v"><k>v</k></frm>)</klr>;
       </ekz>
       <ekz>
+        &ccirc;iuj reelaj nombroj estas prezenteblaj kiel regularaj &ccirc;enaj
+        <tld/>oj,
+        racionalaj nombroj estas prezenteblaj per finiaj <tld/>oj,
+        neracionalaj per nefiniaj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=388067">&Ccirc;ena
+          frakcio</url></lok>
+        </fnt>.
+      </ekz>
+      <ekz>
         por &ccirc;iu transcenda reelo ekzistas unika elvolva&jcirc;o en
         nefinian &ccirc;en<tld/>on <klr>(la konsiderata nombro egalas al la
         limeso de <frm am="v"><k>v</k></frm>)</klr>;
@@ -615,9 +604,9 @@
       </ekz>
     </dif>
     <rim>
-      La termino jam ekzistas &ccirc;e Bricard
+      La termino jam ekzistas &ccirc;e <nom>Bricard</nom>
       <fnt><bib>MatTerm</bib><lok>p. 11</lok></fnt>, sed sub la formo
-      <ctl>&ccirc;enfracio</ctl>.
+      &leftquot;<esc>&ccirc;enfracio</esc>&rightquot;.
     </rim>
   </snc>
   <bld lok="../bld/frakci.cxen0o.jpg">
@@ -634,6 +623,7 @@
   </trdgrp>
   <trd lng="en">continued <ind>fraction</ind></trd>
   <trd lng="fr">fraction continue</trd>
+  <trd lng="he">&shin;&bet;&resh; &shin;&resh;&shin;&resh;&tav;</trd>
   <trdgrp lng="pl">
     <trd>u&lstroke;amek &lstroke;a&nacute;cuchowy</trd>,
     <trd>u&lstroke;amek ci&aogonek;g&lstroke;y</trd>
@@ -655,7 +645,7 @@
       <ref cel="frakci.pozicia0o">pozicia frakcio</ref>)</klr>:
       <ekz>
         al la dekuma 0,75 respondas la duuma 0,11 (samkiel la dekuma
-        kvocienta <tld/>o <frm>&#190;</frm>)
+        kvocienta <tld/>o <frm>¾</frm>)
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=389772">Pozicia
@@ -815,7 +805,7 @@
         la racionala <tld/>o <frm am="bb 1 / bb X"><g>1</g>/<g>X</g></frm> estas la
         ekvivalento-klaso de &ccirc;iuj tiaj polinom-paroj
         <frm am="(bb P,bb Q)">(<g>P</g>,<g>Q</g>)</frm>, ke
-        <frm am="bb P xx bb X=bb Q"><g>P</g>&#215;<g>X</g> = <g>Q</g></frm>.
+        <frm am="bb P xx bb X=bb Q"><g>P</g>×<g>X</g> = <g>Q</g></frm>.
       </ekz>
     </dif>
     <rim>
@@ -838,6 +828,9 @@
 </art>
 <!--
 $Log$
+versio 1.132 2023/09/20 06:28:09
+Wolfram Diestel: ~a: +ekz, iom da rearanĝo
+
 versio 1.131 2023/08/29 20:27:10
 Wolfram Diestel: ja: prononco
 
@@ -857,8 +850,5 @@ versio 1.126 2022/05/13 07:32:14
 Dmitri Gabinski: + trd be
 
 versio 1.125 2022/04/27 17:19:11
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.48 2020/02/13 22:10:18
 -->
 </vortaro>
