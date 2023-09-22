@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: revizi.xml,v 1.30 2023/09/20 20:25:28 revo Exp $">
+<art mrk="$Id: revizi.xml,v 1.31 2023/09/22 06:28:07 revo Exp $">
 <kap>
   <ofc>3</ofc><rad>revizi</rad>/i <fnt><bib>JED</bib></fnt>,
   <var><kap><rad var="z">reviz</rad>/i <fnt><bib>PVEF</bib></fnt></kap></var>
@@ -52,6 +52,7 @@
     <refgrp tip="vid">
       <ref cel="ekzame.0i.esplori">ekzameni<sncref/></ref>,
       <ref cel="inspek.0i">inspekti</ref>,
+      <ref cel="invent1.0i">inventari</ref>,
       <ref cel="rigard.super0i.FIG">superrigardi<sncref/></ref>
     </refgrp>
     <trdgrp lng="be">
@@ -81,8 +82,8 @@
   </snc>
   <snc mrk="revizi.0i.verkon">
     <dif>
-      Ekzameni verkon, agadon, pensmanieron por fari
-      &scirc;an&gcirc;ojn, se necese:
+      Re<ref tip="super" cel="ekzame.0i.esplori">ekzameni</ref> verkon,
+      rekonsideri agadon, pensmanieron kaj fari necesajn &scirc;an&gcirc;ojn:
       <ekz>
         la tuta Malnova Testamento, <tld/>ita de anglikanaj pastoroj, aperis en 1926
         <fnt>
@@ -106,6 +107,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="korekt.0i">korekti</ref>,
+      <ref cel="recenz.0i">recenzi</ref>,
       <ref cel="redakt.0i">redakti</ref>,
       <ref cel="tusx.re0i.bildon">retu&scirc;i</ref>
     </refgrp>
@@ -118,7 +120,10 @@
       <trd><ofc>3</ofc> revidieren</trd>,
       <trd>&uuml;berarbeiten</trd>
     </trdgrp>
-    <trd lng="en"><ofc>3</ofc> revise</trd>
+    <trdgrp lng="en">
+      <trd><ofc>3</ofc> revise</trd>,
+      <trd>review</trd>
+    </trdgrp>
     <trd lng="fr"><ofc>3</ofc> r&eacute;viser</trd>
     <trdgrp lng="hu">
       <trd>fel&uuml;lvizsg&aacute;l</trd>,
@@ -133,10 +138,6 @@
       <trd>&c_p;&c_r;&c_o;&c_v;&c_je;&c_r;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_r;&c_je;&c_v;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
-
-      <adm> Propono de pli klara difino:
-        Reekzameni verkon, rekonsideri agadon, pensmanieron kaj fari necesajn &scirc;an&gcirc;ojn.
-      </adm>
   </snc>
   <snc mrk="revizi.0i.JUR">
     <uzo tip="fak">JUR</uzo>
@@ -166,15 +167,15 @@
   </trdgrp>
   <trd lng="es">revisar</trd>
   <trdgrp lng="ja">
-    <trd>&#x691C;&#x67FB;&#12377;&#x308B;  [<ind>&#12369;&#12435;&#12373;&#12377;&#x308B;</ind>]</trd>,
-    <trd>&#x518D;&#x691C;&#x8A0E;&#12377;&#x308B;  [<ind>&#12373;&#12356;&#12369;&#12435;&#12392;&#12358;&#12377;&#x308B;</ind>]</trd>,
-    <trd>&#x898B;&#x76F4;&#12377;  [<ind>&#x307F;&#x306A;&#x304A;&#12377;</ind>]</trd>,
-    <trd>&#x4FEE;&#x6B63;&#12377;&#x308B;  [<ind>&#12375;&#12421;&#12358;&#x305B;&#12356;&#12377;&#x308B;</ind>]</trd>,
-    <trd>&#26657;&#x6B63;&#12377;&#x308B;  [<ind>&#12371;&#12358;&#x305B;&#12356;&#12377;&#x308B;</ind>]</trd>,
-    <trd>&#26657;&#x8A02;&#12377;&#x308B; [<ind>&#12371;&#12358;&#12390;&#12356;&#12377;&#12427;</ind>]</trd>,
-    <trd>&#26657;&#x95B2;&#12377;&#x308B; [<ind>&#12371;&#12358;&#12360;&#12388;&#12377;&#12427;</ind>]</trd>,
-    <trd>&#x518D;&#x5BE9;&#12377;&#x308B;  [<ind>&#12373;&#12356;&#12375;&#12435;&#12377;&#x308B;</ind>]</trd>,
-    <trd>&#x4FDD;&#x5B88;&#x70B9;&#x691C;&#12377;&#x308B;  [<ind>&#x307B;&#12375;&#12421;&#12390;&#12435;&#12369;&#12435;&#12377;&#x308B;</ind>]</trd>
+    <trd>&#26908;&#26619;&#12377;&#12427;  [<ind>&#12369;&#12435;&#12373;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#20877;&#26908;&#35342;&#12377;&#12427;  [<ind>&#12373;&#12356;&#12369;&#12435;&#12392;&#12358;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#35211;&#30452;&#12377;  [<ind>&#12415;&#12394;&#12362;&#12377;</ind>]</trd>,
+    <trd>&#20462;&#27491;&#12377;&#12427;  [<ind>&#12375;&#12421;&#12358;&#12379;&#12356;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#26657;&#27491;&#12377;&#12427;  [<ind>&#12371;&#12358;&#12379;&#12356;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#26657;&#35330;&#12377;&#12427; [<ind>&#12371;&#12358;&#12390;&#12356;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#26657;&#38322;&#12377;&#12427; [<ind>&#12371;&#12358;&#12360;&#12388;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#20877;&#23529;&#12377;&#12427;  [<ind>&#12373;&#12356;&#12375;&#12435;&#12377;&#12427;</ind>]</trd>,
+    <trd>&#20445;&#23432;&#28857;&#26908;&#12377;&#12427;  [<ind>&#12411;&#12375;&#12421;&#12390;&#12435;&#12369;&#12435;&#12377;&#12427;</ind>]</trd>
   </trdgrp>
   <trd lng="pl"><ofc>3</ofc>rewidowa&cacute;</trd>
   <trdgrp lng="sk">
@@ -183,8 +184,8 @@
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_r;&c_je;&c_v;&c_ib;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_je;&c_v;&c_ib;&c_r;&#x44F;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_je;&c_g;&#x43B;&#x44F;&c_d;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_ib;&c_r;&c_ja;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -238,7 +239,7 @@
       <ekz>
         la dua Forumo de la Esperanta Civito decidis apogi la
         klopodojn por la <tld/>o de la proceso kiu kondamnis
-        je mortopuno <nom>N.&#x202F;I. Sequoyah</nom>
+        je mortopuno <nom>N.&#8239;I. Sequoyah</nom>
         <fnt>
           <aut>HeKo</aut>:
           <vrk>Amnestio Internacia pledos por Sequoyah?</vrk>.
@@ -251,24 +252,129 @@
     <trd lng="fr">cassation</trd>
   </snc>
   <trdgrp lng="ja">
-    <trd>&#x691C;&#x67FB;  [<ind>&#12369;&#12435;&#12373;</ind>]</trd>,
-    <trd>&#x518D;&#x691C;&#x8A0E;  [<ind>&#12373;&#12356;&#12369;&#12435;&#12392;&#12358;</ind>]</trd>,
-    <trd>&#x898B;&#x76F4;&#12375;  [<ind>&#x307F;&#x306A;&#x304A;&#12375;</ind>]</trd>,
-    <trd>&#x4FEE;&#x6B63;  [<ind>&#12375;&#12421;&#12358;&#x305B;&#12356;</ind>]</trd>,
-    <trd>&#26657;&#x6B63;  [<ind>&#12371;&#12358;&#x305B;&#12356;</ind>]</trd>,
-    <trd>&#26657;&#x8A02;  [<ind>&#12371;&#12358;&#12390;&#12356;</ind>]</trd>,
-    <trd>&#26657;&#x95B2;  [<ind>&#12371;&#12358;&#12360;&#12388;</ind>]</trd>,
-    <trd>&#x518D;&#x5BE9;  [<ind>&#12373;&#12356;&#12375;&#12435;</ind>]</trd>,
-    <trd>&#x4FDD;&#x5B88;&#x70B9;&#x691C;  [<ind>&#x307B;&#12375;&#12421;&#12390;&#12435;&#12369;&#12435;</ind>]</trd>
+    <trd>&#26908;&#26619;  [<ind>&#12369;&#12435;&#12373;</ind>]</trd>,
+    <trd>&#20877;&#26908;&#35342;  [<ind>&#12373;&#12356;&#12369;&#12435;&#12392;&#12358;</ind>]</trd>,
+    <trd>&#35211;&#30452;&#12375;  [<ind>&#12415;&#12394;&#12362;&#12375;</ind>]</trd>,
+    <trd>&#20462;&#27491;  [<ind>&#12375;&#12421;&#12358;&#12379;&#12356;</ind>]</trd>,
+    <trd>&#26657;&#27491;  [<ind>&#12371;&#12358;&#12379;&#12356;</ind>]</trd>,
+    <trd>&#26657;&#35330;  [<ind>&#12371;&#12358;&#12390;&#12356;</ind>]</trd>,
+    <trd>&#26657;&#38322;  [<ind>&#12371;&#12358;&#12360;&#12388;</ind>]</trd>,
+    <trd>&#20877;&#23529;  [<ind>&#12373;&#12356;&#12375;&#12435;</ind>]</trd>,
+    <trd>&#20445;&#23432;&#28857;&#26908;  [<ind>&#12411;&#12375;&#12421;&#12390;&#12435;&#12369;&#12435;</ind>]</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_r;&c_je;&c_v;&c_ib;&c_z;&c_ib;&#x44F;</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_je;&c_g;&#x43B;&#x44F;&c_d;</trd>
+    <trd>&c_r;&c_je;&c_v;&c_ib;&c_z;&c_ib;&c_ja;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_g;&c_l;&c_ja;&c_d;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="revizi.0ismo">
+  <kap>
+    <tld/>ismo
+  </kap>
+  <snc>
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Metoda provo, movado, tendenco, <tld/>i &gcirc;enerale akceptitan pozicion historian, politikan, sciencan:
+      <ekz>
+        jam en la volapuka movado oni parolis pri la Interna Ideo, la <tld/>ismo de
+        <nom>Zamenhof</nom> celis <tld/>i &ccirc;efe la leksikan kaj fonetikan konceptojn de Volapuko,
+        fakte krei novan kvaliton interlingvistikan, sen Volapuko kaj ties interna
+        ideo ne naski&gcirc;us Esperanto
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 3 (65)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Revisionismus</trd>
+  <trd lng="en">revisionism</trd>
+  <trd lng="fr">r&eacute;visionnisme</trd>
+</drv>
+
+<drv mrk="revizi.0isto">
+  <kap>
+    <tld/>isto
+  </kap>
+  <snc>
+    <dif>
+      Iu, kies okupo estas <tld/>ado:
+      <ekz>
+        la Internacia Konferenco pri Homaj Rajtoj <klr>[&#8230;]</klr> postulis la servojn de
+        22 interpretistoj, 59 tradukistoj, 17 <tld/>istoj, 96 tajpistinoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> aprobis kelkajn pliajn &scirc;tatfunkciulajn postenojn por
+        lingvistoj-<tld/>istoj, kies tasko estas transskribi la parlamentan &jcirc;argonon
+        en bonan, klaran, belan kaj &gcirc;ustan lingvon
+        <fnt>
+          <bib>ChC</bib>
+          <lok>7</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="revizi.0isto.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Iu, kiu iniciatas a&ubreve; subtenas <tld/>ismon:
+      <ekz>
+        reformistoj ne estas <tld/>istoj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 3 (65)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Enver Hoxha</nom> staras surpiede, kun montrofingro direktita kontra&ubreve; la <tld/>istoj
+        kaj defendante marksismo-leninismon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2009/009752.php"
+              >Peniko kaj propagando</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekde 1919 registaroj kaj historiistoj, okupi&gcirc;antaj kiel <tld/>istoj pri tiu
+        demando (ili volis <tld/>i la verdikton de Versajlo), koliziis kun
+        kontra&ubreve;<tld/>istoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenio Marobin</aut>
+          <vrk><url ref="&Monato;/2014/011264.php"
+              >La unua mondomilito: kiu &gcirc;in ka&ubreve;zis?</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Revisionist</trd>
+    <trd lng="en">revisionist</trd>
+    <trd lng="fr">r&eacute;visionniste</trd>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Revisor</trd>,
+    <trd>Korrektor</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>auditor</trd>,
+    <trd>revisor</trd>,
+    <trd>proofreader</trd>
+  </trdgrp>
+</drv>
+
 </art>
   <!--
   $Log$
+versio 1.31 2023/09/22 06:28:07
+Wolfram Diestel: precizigo dif snc 2 (verkon); +~isto, ~ismo
+
 versio 1.30 2023/09/20 20:25:28
 Wolfram Diestel: +fnt JED, PVEF, +ref-oj
 
@@ -288,8 +394,5 @@ Wolfram Diestel: +tld-var
   Wolfram Diestel: -rad en drv/kap
 
   Revision 1.22  2019/10/28 09:10:17  revo
-  Damien Brucker: -eraro &ccirc;e kap
-
-  Revision 1.21  2019/10/27 18:10:17  revo
 -->
 </vortaro>
