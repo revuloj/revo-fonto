@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konvek.xml,v 1.31 2023/09/01 15:46:43 revo Exp $">
+<art mrk="$Id: konvek.xml,v 1.32 2023/10/02 07:23:37 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>konveks</rad>/a
@@ -86,11 +86,11 @@
         <frm am="f"><k>f</k></frm>
         de la aro de <ref cel="reel.0o.MAT">reeloj</ref> al si
         mem)</klr>
-        Tia, ke 
-        <frm am="f(tx+(1-t)y) le tf(x)+(1-t)f(y)"><k>f</k>(<k>tx</k>+(1-<k>t</k>)<k>y</k>) &#x2264; 
+        Tia, ke
+        <frm am="f(tx+(1-t)y) le tf(x)+(1-t)f(y)"><k>f</k>(<k>tx</k>+(1-<k>t</k>)<k>y</k>) &#8804;
         <k>t</k><k>f</k>(<k>x</k>)+(1-<k>t</k>)<k>f</k>(<k>y</k>)</frm>,
-        kiaj ajn estas <frm am="x,y"><k>x</k>, <k>y</k></frm>, 
-        kaj por &ccirc;iu <frm am="t in [0,1]"><k>t</k>&#x2208;[0,1]</frm>:
+        kiaj ajn estas <frm am="x,y"><k>x</k>, <k>y</k></frm>,
+        kaj por &ccirc;iu <frm am="t in [0,1]"><k>t</k>&#8712;[0,1]</frm>:
         <ekz>
           la surfaco situanta super grafika&jcirc;o de <tld/>a reela
           funkcio estas mem <tld/>a.
@@ -115,8 +115,8 @@
       <trd lng="pl"><klr tip="amb">(funkcja) </klr><ind>wypuk&lstroke;a</ind></trd>
       <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_a;&c_ja;<klr tip="amb"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr></trd>
     </subsnc>
-  </snc>
   <trd lng="be">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;</trd>
+  </snc>
   <trd lng="ca">convex</trd>
   <trdgrp lng="cs">
     <trd>klenut&yacute;</trd>,
@@ -125,7 +125,7 @@
   </trdgrp>
   <trd lng="es">convexo</trd>
   <trd lng="hu">konvex</trd>
-  <trd lng="ja">&#x51F8;&#x306E;  [<ind>&#x3068;&#x3064;&#x306E;</ind>]</trd>
+  <trd lng="ja">&#x51F8;&#x306E;  [<ind>&#12392;&#12388;&#x306E;</ind>]</trd>
   <trd lng="pt">convexo</trd>
   <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
@@ -146,21 +146,27 @@
       </ekz><ekz>
         <nom>Exemestane</nom> estas ronda, du<tld/>a, blankeca,
         kovrita tablojdo kun 7663 sur unu flanko
-        <fnt><vrk><url ref="https://eo.manuals.plus/pfizer/exemestane-25-mg-coated-tablets-manual">Instrukcioj pri Pfizer Exemestane</url></vrk></fnt>.
+        <fnt><vrk><url
+        ref="https://eo.manuals.plus/pfizer/exemestane-25-mg-coated-tablets-manual">Instrukcioj pri
+        Pfizer Exemestane</url></vrk></fnt>.
       </ekz>
     </dif>
   </snc>
   <ref tip="sub" cel="lent.0oforma">lentoforma</ref>
+  <trd lng="be">&c_d;&c_v;&c_a;&c_ja;&c_k;&c_a;&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;</trd>
   <trdgrp lng="en">
     <trd>biconvex</trd>,
     <trd>convexo-convex</trd>
   </trdgrp>
-  <trd lng="ja">&#x4E21;&#x51F8;&#x306E;  [<ind>&#x308A;&#x3087;&#x3046;&#x3068;&#x3064;&#x306E;</ind>]</trd>
+  <trd lng="ja">&#x4E21;&#x51F8;&#x306E;  [<ind>&#x308A;&#12423;&#12358;&#12392;&#12388;&#x306E;</ind>]</trd>
   <trd lng="ru">&c_d;&c_v;&c_o;&c_ja;&c_k;&c_o;&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/02 07:23:37
+Dmitri Gabinski: + trd be
+
 versio 1.30 2023/03/26 03:29:52
 Sergio Pokrovskij: +ekz, TEZ
 
@@ -180,8 +186,5 @@ Revision 1.25  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.24  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.23  2012/01/01 20:10:21  revo
 -->
 </vortaro>
