@@ -1,21 +1,37 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: abol.xml,v 1.21 2023/04/15 08:29:04 revo Exp $">
+<art mrk="$Id: abol.xml,v 1.22 2023/10/14 15:20:26 revo Exp $">
 <kap>
-  <rad>abol</rad>/i <fnt><bib>PIV1</bib></fnt>
+  <rad>abol</rad>/i <fnt><bib>PIV1</bib></fnt>,
+  <var><kap><rad var="c">abolici</rad>/i <fnt><bib>PVEF</bib></fnt></kap></var>
 </kap>
-  
+
 <drv mrk="abol.0i">
-  <kap><tld/>i</kap>
+  <kap><tld/>i, <var><kap><tld var="c"/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="abol.0i.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Per jura akto definitive nuligi le&gcirc;on a&ubreve; forigi kutimon;
-      <ref tip="sin" cel="abolic.0i">abolicii</ref>:
+      Per jura akto definitive <ref tip="super" cel="nul0.0igi.KOMUNE">nuligi</ref> le&gcirc;on a&ubreve; forigi kutimon:
       <ekz>
         sklaveco estis <tld/>ita en Brazilo en 1888;
+      </ekz>
+      <ekz>
+        ili reeltrovos <klr>[&#8230;]</klr> &ccirc;iujn la&ubreve;&scirc;ajne malgravajn kutimojn kiujn la
+        anta&ubreve;uloj <tld/>is
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Kvar</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la prezidento <nom>Putin</nom> <tld var="c"/>is la &scirc;tatan komitaton pri ekologio kiel memstaran
+        organiza&jcirc;on
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 8-9</lok>
+        </fnt>;
       </ekz>
       <ekz>
         estas afero de la &scirc;tatoj difini kaj redifini, ratifi kaj <tld/>i sian pun-juron
@@ -24,8 +40,7 @@
           <vrk><url ref="&Monato;/2000/006848.php">Mallogika kaj senracia</url></vrk>
           <bib>Monato</bib>
           <lok>2000/03, p. 4</lok>
-          </fnt>;
-
+        </fnt>;
       </ekz>
       <ekz>
         <tld/>i le&gcirc;ojn de eksa Jugoslavio bremsantajn privatigon
@@ -61,16 +76,31 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="super">
-       <ref cel="fin.0i">fini</ref>,
-       <ref cel="nul0.0igi.KOMUNE">nuligi</ref>
-    </refgrp>
-    <refgrp tip="ant">
-      <ref cel="konduk.en0i.FIG">enkonduki</ref>,
-      <ref cel="fond.0i.starigi">fondi</ref>,
-      <ref cel="star.0igi.fondi">starigi</ref>
-    </refgrp>
   </snc>
+  <snc mrk="abol.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Malfondi, &ccirc;esigi:
+      <ekz>
+        Germana Po&scirc;to jam <tld var="c"/>is &ndash; pro interreto &ndash; la telegramservon
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 12</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="super">
+    <ref cel="cxes.0igi">&ccirc;esigi</ref>,
+    <ref cel="fin.0i.ne_plu_agi">fini<sncref/></ref>,
+    <ref cel="for.0igi">forigi</ref>
+  </refgrp>
+  <refgrp tip="ant">
+    <ref cel="konduk.en0i.FIG">enkonduki</ref>,
+    <ref cel="establ.0i.fondi">establi<sncref/></ref>,
+    <ref cel="fond.0i.starigi">fondi</ref>,
+    <ref cel="star.0igi.fondi">starigi</ref>
+  </refgrp>
   <trdgrp lng="be">
     <trd>&c_a;&c_d;&c_m;&c_ja;&c_n;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_k;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -87,13 +117,15 @@
     <trd>zru&scaron;it z&aacute;kon</trd>
   </trdgrp>
   <trdgrp lng="da">
+    <trd>afskaffe</trd>,
+    <trd>oph&aelig;ve</trd>,
     <trd>afskaffelse</trd>,
     <trd>abolition</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>aufheben</trd>,
     <trd>abschaffen</trd>,
-    <trd>einstellen</trd>
+    <trd>einstellen <klr>(abschaffen)</klr></trd>
   </trdgrp>
   <trd lng="en">abolish</trd>
   <trd lng="es">abolir</trd>
@@ -106,12 +138,18 @@
     <trd>abroger</trd>,
     <trd>annuler<klr tip="ind"> (par un acte juridique)</klr></trd>
   </trdgrp>
-  <trd lng="he">&bet;&vav;&tet;&lamed;</trd>
+  <trdgrp lng="he">
+    <trd>&bet;&vav;&tet;&lamed;</trd>,
+    <trd>&lamed;&bet;&tet;&lamed;</trd>
+  </trdgrp>
   <trd lng="hu">elt&ouml;r&ouml;l</trd>
   <trdgrp lng="it">
-    <trd>abolire</trd>, <trd>abrogare</trd>
+    <trd>abolire</trd>,
+    <trd>abrogare</trd>
   </trdgrp>
+  <trd lng="ja">&#24259;&#27490;&#12377;&#12427; <pr>&#12399;&#12356;&#12375;&#12377;&#12427;</pr></trd>
   <trd lng="nl">afschaffen</trd>
+  <trd lng="oc">abolir</trd>
   <trdgrp lng="pl">
     <trd>umorzy&cacute;</trd>,
     <trd>uchyli&cacute;</trd>,
@@ -128,17 +166,19 @@
     <trd>&c_u;&c_p;&c_r;&c_a;&c_z;&c_d;&c_n;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="sk">
+    <trd>dekr&eacute;t</trd>,
     <trd>odstr&aacute;ni&tcaron; zvyk</trd>,
     <trd>odstr&aacute;ni&tcaron; z&aacute;kon</trd>,
     <trd>zru&scaron;i&tcaron; <klr>(z&aacute;kon, oby&ccaron;aj)</klr></trd>,
     <trd>zru&scaron;i&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&c_s;&#x43A;&c_a;&c_s;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trd lng="uk">&c_s;&c_k;&c_a;&c_s;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="abol.0o">
   <kap>
-    <tld/>o
+    <tld/>o,
+    <var><kap><tld var="c"/>o</kap></var>
   </kap>
   <snc mrk="abol.0o.JUR">
     <uzo tip="fak">JUR</uzo>
@@ -146,8 +186,7 @@
       Jura forigo, malvalidigo de le&gcirc;o, regulo, kutimo:
       <ekz>
         en 1872 <nom>Mori Arinori</nom>, la posta japana ministro pri klerigado,
-        e&ccirc; proponis la
-        <tld/>on de la japana lingvo kaj ties anstata&ubreve;igon per la angla: tiun ideon
+        e&ccirc; proponis la <tld/>on de la japana lingvo kaj ties anstata&ubreve;igon per la angla: tiun ideon
         tamen oni ne konsideris serioze
         <fnt>
           <aut>Isikawa T.</aut>
@@ -156,18 +195,58 @@
           <lok>Monato, 2018:04, p. 14a</lok>
         </fnt>;
       </ekz>
+      <ekz>
+        <tld/>on de &ccirc;i tiuj diskriminaciaj dispozicioj iniciatis gejaj organiza&jcirc;oj jam
+        en 1993 per propono submetita al la Konstitucia Kortumo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="&Monato;/2003/007977.html"
+              >Gaji&gcirc;as gejoj</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la koncepto de &leftquot;ne&ubreve;trala religio&rightquot; povas pluvivi nur &ccirc;e kompleta <tld var="c"/>o de la
+        kredo entute
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="&Monato;/2007/009079.php"
+              >Mi estas homo</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por pensantaj homoj fari&gcirc;is neakcepteblaj anta&ubreve;ju&gcirc;oj seksaj, rasaj a&ubreve; naciaj,
+        kaj <klr>[&#8230;]</klr> malgra&ubreve; ilia pluekzistado regas forta tendenco al ilia
+        kompleta <tld var="c"/>o
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470; 8-9</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>Aufhebung</trd>,
+    <trd>Abschaffung</trd>,
+    <trd>Einstellung <klr>(Abschaffung)</klr></trd>
+  </trdgrp>
   <trd lng="fr">abolition</trd>
   <trdgrp lng="uk">
-    <trd>&c_a;&c_b;&#x43E;&#x43B;&c_ib;&c_c;&c_ib;&#x44F;</trd>,
-    <trd>&c_s;&#x43A;&c_a;&c_s;&c_u;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_a;&c_b;&c_o;&c_l;&c_ib;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_s;&c_k;&c_a;&c_s;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.22 2023/10/14 15:20:26
+Wolfram Diestel: kunigo kun var abolicii
+
 versio 1.21 2023/04/15 08:29:04
 Paul Peeraerts: Steloj -> monato.be
 
@@ -187,8 +266,5 @@ Revision 1.13  2015/07/04 08:37:29  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.12  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.11  2015/03/05 19:10:15  revo
 -->
 </vortaro>
