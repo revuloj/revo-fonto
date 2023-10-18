@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxes.xml,v 1.35 2023/10/14 21:17:39 revo Exp $">
+<art mrk="$Id: cxes.xml,v 1.36 2023/10/18 15:23:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;es</rad>/i
@@ -105,7 +105,7 @@
       kiu fini&gcirc;as. Se la subjekto estas la persono, kiu haltigas ion,
       tiam eblus konsideri la verbon transitiva, sed &gcirc;ia
       objekto povas esti nur infinitivo. Oni ja diras <ctl>&ccirc;esu
-      labori</ctl>, sed ne <ctl>&ccirc;esu la laboron</ctl>. La &scirc;ajna
+      labori</ctl>, sed ne <mis>&ccirc;esu la laboron</mis>. La &scirc;ajna
       malkohera&jcirc;o solvi&gcirc;as, se oni konsideras, ke la verbo
       <ctl>&ccirc;esi</ctl> &ccirc;iam interpreti&gcirc;as per
       <ctl>interrompi&gcirc;i</ctl> kaj ke la komplementa infinitivo estas
@@ -119,7 +119,10 @@
   </trdgrp>
   <trd lng="bo">&t_ra;&t_dzata;&t_naro;&t_ga;&t_sa;&t_tsheg;</trd>
   <trd lng="cs">p&rcaron;estat</trd>
-  <trd lng="de">aufh&ouml;ren</trd>
+  <trdgrp lng="de">
+    <trd>aufh&ouml;ren</trd>,
+    <trd>enden</trd>
+  </trdgrp>
   <trd lng="en">cease</trd>
   <trd lng="es">cesar</trd>
   <trdgrp lng="fr">
@@ -326,18 +329,51 @@
   <kap><tld/>i&gcirc;i</kap>
   <snc>
     <dif>
-      Komenci <tld/>i, iom post iom <tld/>i:
+      <klr>(io)</klr> Ne da&ubreve;ri pro ia ekstera ka&ubreve;zo:
       <ekz>
         <tld/>i&gcirc;is la pluvo
-        <fnt><bib>MT</bib>, <lok>&Gen; 8:2</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Gen; 8:2</lok></fnt>;
+      </ekz>
+      <ekz>
+        subite la stamfado de la ma&scirc;ino <tld/>i&gcirc;as
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 33</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la denseco fari&gcirc;is &ccirc;iam pli granda, la vojo &ccirc;iam pli mallar&gcirc;a, kie la vojo fine
+        e&ccirc; tute <tld/>i&gcirc;is
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam nia vivo <tld/>i&gcirc;as, ni turni&gcirc;as en &scirc;a&ubreve;mon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="fin.0igxi.cxesi">fini&gcirc;i<sncref/></ref>
+    <rim>
+      Oni &scirc;ajnas preferi la formon kun aldona sufikso &leftquot;-i&gcirc;&rightquot; al simpla &leftquot;<tld/>i&rightquot;,
+      kiam tio, kio ne da&ubreve;ras mem ne estas
+      konscia aganto kaj do ne decidas la interrompon.
+      <aut>Wolfram Diestel</aut>
+    </rim>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_p;&c_y;&c_n;&c_ib;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_a;&c_p;&c_y;&c_n;&c_ib;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_s;&c_k;&c_o;&c_n;&c_ch;&c_y;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_a;&c_r;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>allm&auml;hlich <ind>aufh&ouml;ren</ind></trd>,
+    <trd>auslaufen <klr>(aufh&ouml;ren)</klr></trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>interrumpirse</trd>
@@ -513,6 +549,9 @@
 </art>
 <!--
 $Log$
+versio 1.36 2023/10/18 15:23:23
+Wolfram Diestel: ~iĝi: ekz-oj, dif+rim kohere kun tiuj
+
 versio 1.35 2023/10/14 21:17:39
 Wolfram Diestel: ~igi: +ekz, rim
 
@@ -532,8 +571,5 @@ versio 1.29 2022/08/02 22:33:42
 Vito Redsky:  +trd pl  + kor trd ro
 
 Revision 1.24  2014/06/16 12:10:13  revo
-Damien Brucker: +trd fr
-
-Revision 1.23  2009/04/27 16:31:23  revo
 -->
 </vortaro>
