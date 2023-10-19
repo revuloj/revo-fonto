@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: karame.xml,v 1.24 2023/09/01 13:58:56 revo Exp $">
+<art mrk="$Id: karame.xml,v 1.25 2023/10/19 06:28:40 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>karamel</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="karame.0o">
   <kap><tld/>o</kap>
@@ -12,21 +13,6 @@
     <uzo tip="fak">KUI</uzo>
     <dif>
       Rostita bruni&gcirc;inta <ref tip="super" cel="suker.0o">sukero</ref>:
-
-      <ekz>
-        li neniam venis al Novponto sen kunporti saketon da <tld/>oj a&ubreve; alian bongusta&jcirc;on
-        <fnt>
-          <aut>Stellan Engholm</aut>
-          <vrk><url ref="&Tekstaro;?nomo=homoj-sur-la-tero">Homoj sur la tero</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        li eltiris el la po&scirc;o <tld/>ojn
-        <klr>(<tld/>bombonojn)</klr>
-        <fnt><aut>Lina Gabrielli</aut>, <vrk>Karnavalo. &dash; Romo:
-        International Center of Arts, 1973</vrk>, <lok>p.
-        11a</lok></fnt>;
-      </ekz>
       <ekz>
         <tld/>a siropo
         <fnt>
@@ -37,16 +23,34 @@
         </fnt>;
       </ekz>
       <ekz>
-        deserto <klr>[&#x2026;]</klr> kovrita de <tld/>igita sukero
+        li &scirc;atis brunajn kafajn volva&jcirc;ojn kun <tld/>a kovrilo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Petro De Smet'</aut>
-          <vrk><url ref="&Monato;/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
-          <lok>2008</lok>
+          <bib>OIP</bib>
+          <lok>Ombro sur interna pejza&gcirc;o</lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="kand.0o">kando</ref>
+  </snc>
+  <snc mrk="karame.0o.bombono">
+    <dif>
+      <ref tip="dif" cel="karame.0bombono"><tld lit="K"/>bombono</ref>:
+      <ekz>
+        li neniam venis al Novponto sen kunporti saketon da <tld/>oj
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Sia propra mastro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun la granda <tld/>o en &scirc;ia bu&scirc;o, &scirc;i jam a&ubreve;tas en la kontra&ubreve;an direkton
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Karamelle</trd>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_r;&c_a;&c_m;&c_e;&c_l;&c_mol;</trd>
   <trd lng="bg">&c_k;&c_a;&c_r;&c_a;&c_m;&c_je;&c_l;</trd>
@@ -63,7 +67,7 @@
   <trd lng="es">caramelo</trd>
   <trd lng="fr">caramel</trd>
   <trd lng="hu">karamella</trd>
-  <trd lng="ja">&#x30AB;&#x30E9;&#x30E1;&#x30EB;</trd>
+  <trd lng="ja">&#12459;&#12521;&#12513;&#12523;</trd>
   <trd lng="nl">caramel</trd>
   <trd lng="pl">karmel</trd>
   <trd lng="ro">caramel</trd>
@@ -76,11 +80,57 @@
     <trd>karamel</trd>
   </trdgrp>
   <trd lng="tr">karamela</trd>
-  <trd lng="uk">&#x43A;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x43B;&#x44C;</trd>
+  <trd lng="uk">&c_k;&c_a;&c_r;&c_a;&c_m;&c_je;&c_l;&c_mol;</trd>
 </drv>
+
+<drv mrk="karame.0igi">
+  <kap>
+    <tld/>igi
+  </kap>
+  <snc>
+    <dif>
+      Rosti sukersiropon al <tld/>o; kovri per <tld/>o:
+      <ekz>
+        deserto <klr>[&#8230;]</klr> kovrita de <tld/>igita sukero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="&Monato;/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="kand.0i">kandi</ref>
+  </snc>
+  <trd lng="de">karamellisieren</trd>
+</drv>
+
+<drv mrk="karame.0bombono">
+  <kap>
+    <tld/>bombono
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="bombon.0o">Bombono</ref> el <tld/>o,
+      eventuale kun aldonitaj aromoj:
+      <ekz>
+        Jo&ccirc;jo ricevis <tld/>bonbonon
+        <fnt>
+          <bib>ChC</bib>
+          <lok>17</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Karamellbonbon</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/19 06:28:40
+Wolfram Diestel: +snc bombono, +~igi, +~bombono
+
 versio 1.23 2023/05/04 16:53:13
 revo: aktualigo URL-unuoj
 
@@ -100,8 +150,5 @@ Revision 1.16  2009/08/28 16:32:24  revo
 Wieland Pusch: +trd bg
 
 Revision 1.15  2009/08/27 16:31:57  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.14  2005/08/05 16:31:36  revo
 -->
 </vortaro>
