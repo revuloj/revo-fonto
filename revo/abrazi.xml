@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: abrazi.xml,v 1.9 2022/04/24 08:53:34 revo Exp $">
+<art mrk="$Id: abrazi.xml,v 1.10 2023/10/22 12:36:12 revo Exp $">
 <kap>
   <rad>abrazi</rad>/i
+  <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="abrazi.0i">
   <kap><tld/>i</kap>
@@ -35,6 +36,10 @@
     <trd>&c_s;&c_mol;&c_c;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="cs">vyml&iacute;t</trd>
+  <trdgrp lng="de">
+    <trd>abschaben</trd>,
+    <trd>abschleifen</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>abrade</trd>,
     <trd>wear away</trd>
@@ -48,10 +53,10 @@
 </drv>
 
 <drv mrk="abrazi.0o">
-  <kap><tld/>o <fnt><bib>PIV1</bib></fnt></kap>
+  <kap><tld/>o</kap>
   <snc mrk="abrazi.0o.TEK">
-    <uzo tip="stl">RAR</uzo>
     <uzo tip="fak">TEK</uzo>
+    <uzo tip="fak">SCI</uzo>
     <dif>
       Eluzado, deprenado de surfacaj eroj per ripetaj
       frotoj, skrapoj, batetoj:
@@ -66,20 +71,38 @@
         </fnt>.
       </ekz>
     </dif>
+    <subsnc>
+      <uzo tip="fak">GEOL</uzo>
+      <dif>
+        Erozio per frotado de movataj eroj en aero, akvo, glacio.
+      </dif>
+    </subsnc>
+    <subsnc>
+      <uzo tip="fak">MED</uzo>
+      <dif>
+        Forskrapo de histo, &ccirc;u pro vundi&gcirc;o, &ccirc;u por kuraca celo.
+      </dif>
+    <trd lng="de">Ausschabung</trd>
+    </subsnc>
+    <ref tip="vid" cel="ablaci.0o">ablacio</ref>
   </snc>
   <trd lng="be">&c_a;&c_b;&c_r;&c_a;&c_z;&c_ib;&c_ja;</trd>
+  <trd lng="de">Abrasion</trd>
   <trd lng="en">abrasion</trd>
   <trd lng="fr">abrasion</trd>
   <trd lng="pl">abrazja</trd>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x431;&#x440;&#x430;&#x437;&#x456;&#x44F;</trd>,
-    <trd>&#x432;&#x438;&#x441;&#x43A;&#x440;&#x456;&#x431;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_a;&c_b;&c_r;&c_a;&c_z;&c_ib;&c_ja;</trd>,
+    <trd>&c_v;&c_i;&c_s;&c_k;&c_r;&c_ib;&c_b;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.10 2023/10/22 12:36:12
+Wolfram Diestel: subsnc GEOL+MED, trd de
+
 versio 1.9 2022/04/24 08:53:34
 aktualigo ligvokodoj kaj URL-unuoj
 
@@ -99,6 +122,5 @@ Revision 1.2  2013/04/04 17:10:11  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.1  2013/01/09 21:10:12  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>
