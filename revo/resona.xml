@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: resona.xml,v 1.19 2023/10/20 19:20:37 revo Exp $">
+<art mrk="$Id: resona.xml,v 1.20 2023/10/29 09:22:10 revo Exp $">
 <kap>
   <rad>resonanc</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,11 +10,42 @@
   <snc mrk="resona.0o.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Amplituda kresko de oscilado en elektra, me&hcirc;anika a&ubreve;
+      Amplituda kresko de <ref cel="oscil.0i.FIZ">oscilado</ref> en elektra, me&hcirc;anika a&ubreve;
       akustika sistemo sekve de periodaj eksteraj impulsoj kies
       frekvenco proksimas al la propra frekvenco de la sistemo:
       <ekz>
+        pere de rafinitaj magnet-<tld/>aj aparatoj oni studis la strukturon de ilia cerbo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paulo S&eacute;rgio Viana</aut>
+          <vrk><url ref="&Monato;/2015/011485.php"
+              >Malpura aero dama&gcirc;as infanan cerbon</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
+        lia obtuza vo&ccirc;o <klr>[&#8230;]</klr> rea&ubreve;di&gcirc;is e&ccirc; post lia foriro, mia memo <tld/>is
+        per &gcirc;i
+        <fnt>
+          <bib>SkandalJozef</bib>
+          <lok>Konfeso de la Potifar-edzino</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="son.re0ado.FIZ">resonado<sncref/></ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="son.re0ilo.TEK">resonilo</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="resona.0o.kunsento">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref cel="sent.kun0o">Kunsento</ref>, <ref cel="konsen.0o.akordo">konsento</ref>
+      elvokata &ccirc;e publiko:
+      <ekz>
         la poeto elmetas sin komplete kaj sen reteni&gcirc;emo al la ju&gcirc;o de la legantoj,
         tu&scirc;as siajn personajn kordojn kaj elmetas siajn sonojn, &ccirc;u ili trovos
         <tld/>on en aliuloj, tio lin ne tu&scirc;as
@@ -25,12 +56,6 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="son.re0ado.FIZ">resonado <sncref/></ref>
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="son.re0ilo.TEK">resonilo</ref>
-    </refgrp>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_z;&c_a;&c_n;&c_a;&c_n;&c_s;</trd>
   <trd lng="bg">&c_r;&c_je;&c_z;&c_o;&c_n;&c_a;&c_n;&c_s;</trd>
@@ -51,15 +76,15 @@
     <trd>egy&uuml;ttrezg&eacute;s</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x5171;&#x9CF4;  <pr>&#x304D;&#x3087;&#x3046;&#x3081;&#x3044;</pr></trd>,
-    <trd>&#x5171;&#x632F;  <pr>&#x304D;&#x3087;&#x3046;&#x3057;&#x3093;</pr></trd>
+    <trd>&#20849;&#40180;  <pr>&#12365;&#12423;&#12358;&#12417;&#12356;</pr></trd>,
+    <trd>&#20849;&#25391;  <pr>&#12365;&#12423;&#12358;&#12375;&#12435;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>weerklank</trd>,
     <trd>resonantie</trd>
   </trdgrp>
   <trd lng="pl">rezonans</trd>
-  <trd lng="ro">rezonan&#x21B;&abreve;</trd>
+  <trd lng="ro">rezonan&tcomma;&abreve;</trd>
   <trd lng="pt">resson&acirc;ncia</trd>
   <trd lng="ru">&c_r;&c_je;&c_z;&c_o;&c_n;&c_a;&c_n;&c_s;</trd>
   <trdgrp lng="sk">
@@ -68,11 +93,14 @@
     <trd>ozvuk</trd>,
     <trd>rezonancia</trd>
   </trdgrp>
-  <trd lng="uk">&c_r;&c_je;&c_z;&#x43E;&#x43D;&c_a;&#x43D;&c_s;</trd>
+  <trd lng="uk">&c_r;&c_je;&c_z;&c_o;&c_n;&c_a;&c_n;&c_s;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2023/10/29 09:22:10
+Wolfram Diestel: apartigo snc FIG, +ekz-oj
+
 versio 1.19 2023/10/20 19:20:37
 revo: transskribo per <pr>
 
@@ -92,8 +120,5 @@ Revision 1.11  2013/08/17 01:10:22  revo
 Joop Eggen: +trd bg en
 
 Revision 1.10  2006/02/20 17:33:30  revo
-Tulio Flores: +trd pt
-
-Revision 1.9  2005/08/24 16:31:20  revo
 -->
 </vortaro>
