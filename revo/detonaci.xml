@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: detonaci.xml,v 1.12 2023/10/14 11:26:53 revo Exp $">
+<art mrk="$Id: detonaci.xml,v 1.13 2023/11/02 21:22:22 revo Exp $">
 <kap>
   <rad>detonaci</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,13 +10,24 @@
   <snc mrk="detonaci.0i.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Eksplodi kun premondo de supersona rapido:
+      <ref tip="super" cel="eksplo.0i">Eksplodi</ref> kun premondo de supersona rapido:
       <ekz>
         la tero <tld/>is sub niaj piedoj
         <fnt>
         <bib>Salamandroj</bib>,
         <lok>libro 3a, &ccirc;apitro 1a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la polico trovas po&scirc;telefonon, sep <ind><tld/>igilo</ind>jn, kelkajn vesta&jcirc;ojn kaj kasedon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos I Font</aut>
+          <vrk><url ref="&Monato;/2004/008300.html"
+              >Kronologio de kanajla mistifikado</url></vrk>
+          <lok>2004</lok>
         </fnt>.
+        <trd lng="de">Z&uuml;nder</trd>
       </ekz>
     </dif>
   </snc>
@@ -24,10 +35,11 @@
     <trd>detonovat</trd>,
     <trd>vybouchnout</trd>
   </trdgrp>
+  <trd lng="de">detonieren</trd>
   <trd lng="en">detonate</trd>
   <trd lng="fr">d&eacute;toner<klr> (explosion)</klr></trd>
   <trd lng="he">&lamed;&nun;&pe;&ftsadi;</trd>
-  <trd lng="ja">&#x7206;&#x8F5F;&#x3055;&#x305B;&#x308B;  <pr>&#x3070;&#x304F;&#x3054;&#x3046;&#x3055;&#x305B;&#x308B;</pr></trd>
+  <trd lng="ja">&#29190;&#36703;&#12373;&#12379;&#12427;  <pr>&#12400;&#12367;&#12372;&#12358;&#12373;&#12379;&#12427;</pr></trd>
   <trd lng="pl">detonowa&cacute;</trd>
   <trd lng="pt">detonar</trd>
   <trdgrp lng="sk">
@@ -40,13 +52,13 @@
   <kap><tld/>o</kap>
   <snc mrk="detonaci.0o.FIZ">
     <dif>
-      Eksplodo kun supersona premondo:
+      <ref tip="super" cel="eksplo.0o">Eksplodo</ref> kun supersona premondo:
       <ekz>
         iom poste, serio da <tld/>oj estis a&ubreve;ditaj en Bagdado
         <fnt>
         <aut>&Gcirc;angalo</aut>,
-        <vrk><url ref="http://gxangalo.com/modules/news/article.php?storyid=1780">Serio da
-atakoj per bomba&ubreve;toj...</url></vrk>,
+        <vrk><url ref="http://gxangalo.com/modules/news/article.php?storyid=1780"
+            >Serio da atakoj per bomba&ubreve;toj...</url></vrk>,
         <lok>2004-10-24</lok>
         </fnt>.
       </ekz>
@@ -56,10 +68,11 @@ atakoj per bomba&ubreve;toj...</url></vrk>,
     <trd>detonace</trd>,
     <trd>v&yacute;buch</trd>
   </trdgrp>
+  <trd lng="de">Detonation</trd>
   <trd lng="en">detonation</trd>
   <trd lng="fr">d&eacute;tonation</trd>
-  <trd lng="he">&he;&#x5B4;&tav;&#x5B0;&pe;&#x5BC;&vav;&#x5B9;&tsadi;&#x5B0;&tsadi;&vav;&#x5BC;&tav;</trd>
-  <trd lng="ja">&#x7206;&#x8F5F;  <pr>&#x3070;&#x304F;&#x3054;&#x3046;</pr></trd>
+  <trd lng="he">&he;&#1460;&tav;&#1456;&pe;&#1468;&vav;&#1465;&tsadi;&#1456;&tsadi;&vav;&#1468;&tav;</trd>
+  <trd lng="ja">&#29190;&#36703;  <pr>&#12400;&#12367;&#12372;&#12358;</pr></trd>
   <trd lng="pl">detonacja</trd>
   <trd lng="pt">detona&ccedil;&atilde;o</trd>
   <trdgrp lng="sk">
@@ -67,14 +80,17 @@ atakoj per bomba&ubreve;toj...</url></vrk>,
     <trd>v&yacute;buch</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x435;&#x442;&#x43E;&#x43D;&#x430;&#x446;&#x456;&#x44F;</trd>,
-    <trd>&#x432;&#x438;&#x431;&#x443;&#x445;</trd>
+    <trd>&c_d;&c_je;&c_t;&c_o;&c_n;&c_a;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_v;&c_i;&c_b;&c_u;&c_h;</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.13 2023/11/02 21:22:22
+Wolfram Diestel: +ekz, trd de
+
 versio 1.12 2023/10/14 11:26:53
 revo: transskribo per <pr>
 
@@ -94,8 +110,5 @@ Revision 1.3  2007/07/23 16:31:24  revo
 Tulio Flores: +tr pt
 
 Revision 1.2  2006/09/14 16:30:45  revo
-Jeromo Vasxe: provas korekti dif. laux grupa diskuto
-
-Revision 1.1  2006/07/31 16:31:39  revo
 -->
 </vortaro>
