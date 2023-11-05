@@ -1,20 +1,32 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: adam.xml,v 1.20 2023/10/27 13:42:09 revo Exp $">
+<art mrk="$Id: adam.xml,v 1.21 2023/11/05 12:38:23 revo Exp $">
 <kap>
 <rad>Adam</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 
 <drv mrk="adam.0o">
-  <kap><tld/>o,
-    <var><kap><tld/></kap></var>
-  </kap>
+  <kap><tld/>o</kap>
   <snc mrk="adam.0o.NOM">
     <uzo tip="fak">NOM</uzo>
     <dif>
       Vira <ref tip="lst" cel="nom.antaux0o" lst="voko:personaj_nomoj">anta&ubreve;nomo</ref> hebredevena:
-      <ekz><tld/>o, la filo de la Majstro, invitis lin hejmen post
+      <ekz>
+        <tld/>o! eksonis en tiu momento la vo&ccirc;o de la lo&gcirc;ejmastrino
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li deziris nepre perlabori vivrimedon, jam naski&gcirc;is gefiletoj <tld/>o kaj Sofio
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o, la filo de la Majstro, invitis lin hejmen post
         iu publika prezento
         <fnt>
           <aut>W. Messing</aut>,
@@ -25,21 +37,59 @@
       </ekz>
     </dif>
     <trdgrp lng="zh">
-    <trd>&#x4E9A;&#x5F53; <pr>y&#xE0;d&#x101;ng</pr></trd>,
-    <trd>&#x4E9E;&#x7576; <pr>y&#xE0;d&#x101;ng</pr></trd>
-  </trdgrp>
-</snc>
+      <trd>&#20122;&#24403; <pr>y&agrave;d&#257;ng</pr></trd>,
+      <trd>&#20126;&#30070; <pr>y&agrave;d&#257;ng</pr></trd>
+    </trdgrp>
+  </snc>
   <snc mrk="adam.0o.BIB">
     <uzo tip="fak">BIB</uzo>
     <uzo tip="fak">PERS</uzo>
     <dif>
       La&ubreve; la Biblio, la unua homo:
-      <ekz>Kaj Dio la Eternulo faris por <tld/> kaj por lia
-        edzino vestojn el felo
-        <fnt><bib>MT</bib>, <lok>&Gen; 3:21</lok></fnt>.
+      <ekz>
+        Li elpelis <tld/>on, kaj lokis anta&ubreve; la Edena &gcirc;ardeno la kerubon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 3:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; niaj legendoj, <tld/>o forlasis la paradizon por <nom>Eva</nom>
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li diris: alpa&scirc;u &ccirc;i tien, vi idoj de <tld/>o, &mdash; mi pesas la pensojn en la
+        pesiltaso de mia kolero
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu en la mondo estas pli antikva nobelo, ol la &gcirc;ardenistoj, fosistoj kaj
+        tombistoj: ili da&ubreve;rigas la profesion de <tld/>o
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komenci de <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        parenco per <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
-  </snc>                  
+  </snc>
   <trd lng="be">&c_A;&c_d;&c_a;&c_m;</trd>
   <trd lng="bg">&c_A;&c_d;&c_a;&c_m;</trd>
   <trd lng="br">Adam</trd>
@@ -51,19 +101,22 @@
   <trd lng="fr">Adam</trd>
   <trd lng="he">&alef;&dalet;&fmem;</trd>
   <trd lng="it">Adamo</trd>
-  <trd lng="ja">&#x30A2;&#x30C0;&#x30E0;</trd>
+  <trd lng="ja">&#12450;&#12480;&#12512;</trd>
   <trd lng="nl">Adam</trd>
   <trd lng="pl">Adam</trd>
   <trd lng="pt">Ad&atilde;o</trd>
   <trd lng="ru">&c_A;&c_d;&c_a;&c_m;</trd>
   <trd lng="sv">Adam</trd>
   <trd lng="ms">Adam</trd>
-  <trd lng="uk">&#x410;&#x434;&#x430;&#x43C;</trd>
+  <trd lng="uk">&c_A;&c_d;&c_a;&c_m;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.21 2023/11/05 12:38:23
+Wolfram Diestel: +ekz-oj
+
 versio 1.17 2022/03/03 21:40:27
 Sam Penter: +trd nl
 
@@ -83,8 +136,5 @@ Revision 1.11  2010/06/15 16:30:33  revo
 Evandro Avellar: +trd pt
 
 Revision 1.10  2009/10/30 17:31:05  revo
-Antonio Codazzi: +trd it
-
-Revision 1.9  2009/03/03 17:30:24  revo
 -->
 </vortaro>
