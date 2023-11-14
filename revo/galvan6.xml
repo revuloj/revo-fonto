@@ -1,27 +1,40 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: galvan6.xml,v 1.11 2023/10/15 06:07:00 revo Exp $">
-<kap><rad>galvanism</rad>/o</kap>
+<art mrk="$Id: galvan6.xml,v 1.12 2023/11/14 09:25:26 revo Exp $">
+<kap>
+  <rad>galvanism</rad>/o
+  <fnt><bib>JED</bib></fnt>
+</kap>
 <drv mrk="galvan6.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ELE</uzo>
-  <uzo tip="fak">KEM</uzo>
-  <snc>
+  <snc mrk="galvan6.0o.FIZL">
+    <uzo tip="fak">FIZL</uzo><uzo tip="fak">HIS</uzo>
     <dif>
-      Elektra <ref tip="super" cel="fenome.0o">fenomeno</ref>
-      produktata de &hcirc;emia energio:
+      Fenomeno de elektrefiko al organismo, aparte la muskoloj (nun nomata
+      elektrofiziologio):
       <ekz>
-        <nom>Luigi Galvani</nom> <klr>[&#x2026;]</klr> malkovri<klr>[s]</klr> la 6-an de novembro 1780 la,
+        <nom>Luigi Galvani</nom> <klr>[&#8230;]</klr> malkovri<klr>[s]</klr> la 6-an de novembro 1780 la,
         la&ubreve; li nomitan, <tld/>on
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=130166">Luigi Galvani</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni povis opinii, ke la balanci&gcirc;ado de la teruraspekta maljunulino devenis ne de
+        &scirc;ia volo, sed pro efiko de ka&scirc;ita <tld/>o
+        <fnt>
+          <aut>A. S. Pu&scirc;kin, trad. D-ro Andreo Fi&scirc;er</aut>
+          <vrk><url ref="https://www.gutenberg.org/files/63105/63105-h/63105-h.htm"
+              >Tri Noveloj, III</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="galvan6.0o.ELE">
+    <uzo tip="fak">ELE</uzo>
+    <uzo tip="fak">KEM</uzo>
     <dif>
       Parto de la elektroscienco, kiu pritraktas fenomenojn
       ligitajn kun <ref cel="kurent.kontinua0o">kontinuaj
@@ -29,15 +42,8 @@
     </dif>
   </snc>
   <refgrp tip="vid">
-    <ref cel="galvan.0a">galvana</ref>.
+    <ref cel="galvan.0a">galvana</ref>
   </refgrp>
-  <adm>
-    Devenas de artikolo &leftquot;galvan&rightquot;. Mi modifetis la duan sencon (&leftquot;la
-    fenomenojn de la galvana fluo&rightquot;), sed ne certas, cxu la difinoj estas
-    gxustaj. En la franca &leftquot;galvanisme&rightquot; referencas al la eksperimentoj
-    de Galvani pri la influo de kurentoj sur vivajn organojn.
-    <aut>MB</aut>
-  </adm>
   <trd lng="be">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_ib;&c_z;&c_m;</trd>
   <trd lng="ca">galvanisme</trd>
   <trd lng="de">Galvanismus</trd>
@@ -45,8 +51,8 @@
   <trd lng="fr">galvanisme</trd>
   <trd lng="hu">galv&aacute;noss&aacute;g</trd>
   <trdgrp lng="ja">
-    <trd>&#x30AC;&#x30EB;&#x30D0;&#x30FC;&#x30CB;&#x96FB;&#x6C17;  <pr>&#x30AC;&#x30EB;&#x30D0;&#x30FC;&#x30CB;&#x3067;&#x3093;&#x304D;</pr></trd>,
-    <trd>&#x76F4;&#x6D41;&#x96FB;&#x6C17;  <pr>&#x3061;&#x3087;&#x304F;&#x308A;&#x3085;&#x3046;&#x3067;&#x3093;&#x304D;</pr></trd>
+    <trd>&#12460;&#12523;&#12496;&#12540;&#12491;&#38651;&#27671;  <pr>&#12460;&#12523;&#12496;&#12540;&#12491;&#12391;&#12435;&#12365;</pr></trd>,
+    <trd>&#30452;&#27969;&#38651;&#27671;  <pr>&#12385;&#12423;&#12367;&#12426;&#12421;&#12358;&#12391;&#12435;&#12365;</pr></trd>
   </trdgrp>
   <trd lng="nl">galvanisme</trd>
   <trd lng="pt">galvanismo</trd>
@@ -57,6 +63,9 @@
 </art>
 <!--
 $Log$
+versio 1.12 2023/11/14 09:25:26
+Wolfram Diestel: fnt JED, snc 1 redifino (FIZL), +ekz
+
 versio 1.11 2023/10/15 06:07:00
 revo: transskribo per <pr>
 
@@ -76,8 +85,5 @@ Revision 1.4  2002/09/19 16:33:30  revo
 Eduardo M. Kalinowski: ald trd el, pt
 
 Revision 1.3  2001/12/11 18:23:07  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.2 2001/10/09 18:41:51 revo
 -->
 </vortaro>
