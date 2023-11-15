@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: born.xml,v 1.12 2023/11/15 06:30:11 revo Exp $">
+<art mrk="$Id: born.xml,v 1.13 2023/11/15 18:27:44 revo Exp $">
 <kap>
-    <rad>born</rad>/o <fnt><bib>PIV3</bib></fnt>
+    <rad>born</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="born.0o">
   <kap><tld/>o</kap>
   <snc mrk="born.0o.SNC">
     <uzo tip="fak">ELE</uzo>
     <dif>
-      <ref tip="dif" cel="klem.0o">Klemo</ref>:
+      Elektra <ref tip="super" cel="konekt.0ilo">konektilo</ref> (&ccirc;e poluso de baterio ks):
       <ekz>
         oni metas en la lampon metalan platon, nomatan &leftquot;anodo&rightquot;, konektas &gcirc;in kun la
         pozitiva <tld/>o de galvana baterio, kies negativa
@@ -31,13 +31,21 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="konekt.0ilo">konektilo</ref>,
+      <ref cel="elektr3.0o">elektrodo</ref>,
+      <ref cel="klem.0o">klemo</ref>,
       <ref cel="polus.0o.ELE">poluso<sncref/></ref>
     </refgrp>
+    <rim>
+      <fnt><bib>PIV1</bib></fnt> difinas <tld/>on kiel sinonimon de klemo, sed &scirc;ajnas al
+      mi ke <tld/>o estas simpla etenda&jcirc;o, surfaceto ekz-e de baterio, kie oni
+      povas krei elektran kontakton, dum klemo estas iu pin&ccirc;a peco, per kiu oni kunigas
+      elektrajn kondukilojn.
+      <aut>Wolfram Diestel</aut>
+    </rim>
     <trdgrp lng="de">
-      <trd>Klemme</trd>,
+      <trd>Polbolzen</trd>,
       <trd>Kontaktfl&auml;che</trd>,
-      <trd>Polbolzen</trd>
+      <trd>Klemme</trd>
     </trdgrp>
     <trdgrp lng="zh">
     <trd>&#31471;&#23376; <pr>du&#257;nzi</pr></trd>,
@@ -72,6 +80,9 @@
 
 <!--
 $Log$
+versio 1.13 2023/11/15 18:27:44
+Wolfram Diestel: ĝeneraligo dif, +rim
+
 versio 1.12 2023/11/15 06:30:11
 Wolfram Diestel: +ekz, trd de
 
@@ -91,8 +102,5 @@ Revision 1.3  2015/07/04 08:37:31  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.2  2015/06/29 16:29:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.1  2014/01/13 13:10:12  revo
 -->
 </vortaro>
