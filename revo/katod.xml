@@ -1,22 +1,32 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: katod.xml,v 1.24 2023/10/18 14:48:10 revo Exp $">
+<art mrk="$Id: katod.xml,v 1.25 2023/11/15 18:27:44 revo Exp $">
 <kap>
   <rad>katod</rad>/o
+  <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="katod.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">ELE</uzo>
-  <snc>
+  <snc mrk="katod.0o.ELE">
     <dif>
-      Negativa
-      <ref tip="super" cel="elektr3.0o">elektrodo</ref> de
-      <ref tip="malprt" cel="pil.0o">pilo</ref>,
-      <ref tip="malprt" cel="valv.0o.ELE">valvo</ref> a&ubreve; alia
-      elektra aparato:
+      En elektro&hcirc;emio, <ref tip="super" cel="elektr3.0o">elektrodo</ref>
+      &ccirc;e kiu okazas redukti&gcirc;o, kiu provizas elektronojn,
+      pozitiva &ccirc;e mal&scirc;argo de akumulatoro a&ubreve; pilo,
+      negativa dum &scirc;argo, elektrolizo a&ubreve; &ccirc;e elektronika
+      <ref tip="malprt" cel="valv.0o.ELE">valvo</ref>:
       <ekz>
-        amalgamo<klr>[n&#x2026;]</klr> oni faras <klr>[&#x2026;]</klr> el la malpli facile
+        inter la <tld/>o kaj la anoda bloko situas la spaco de interago, konstanta
+        magneto estigas konstantan aksodirektan magnetan kampon
+        <fnt>
+          <aut>L&aacute;szl&oacute; Szilv&aacute;si</aut>
+          <vrk><url ref="http://www.eventoj.hu/steb/ingxenierado/elektro/magnetron/magnetron.htm"
+              >Pri la magnetrono</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        amalgamo<klr>[n&#8230;]</klr> oni faras <klr>[&#8230;]</klr> el la malpli facile
         amalgamantaj metaloj per elektrolita metodo, kiam oni elektrolizas la
         solva&jcirc;on de la metala salo per hidrarga <tld/>o
         <fnt>
@@ -26,7 +36,7 @@
       </ekz>
     </dif>
     <refgrp tip="ant">
-      <ref cel="anod.0o">anodo</ref>.
+      <ref cel="anod.0o">anodo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_t;&c_o;&c_d;</trd>
@@ -38,10 +48,7 @@
     <trd>katoda</trd>,
     <trd>z&aacute;porn&aacute; elektroda</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>Minuspol</trd>,
-    <trd>Kathode</trd>
-  </trdgrp>
+  <trd lng="de">Kathode</trd>
   <trdgrp lng="en">
     <trd>cathode</trd>,
     <trd>negative electrode</trd>
@@ -61,8 +68,8 @@
   <trd lng="hu">kat&oacute;d</trd>
   <trd lng="it">catodo</trd>
   <trdgrp lng="ja">
-    <trd>&#x30AB;&#x30BD;&#x30FC;&#x30C9;</trd>,
-    <trd>&#x9670;&#x6975;  <pr>&#x3044;&#x3093;&#x304D;&#x3087;&#x304F;</pr></trd>
+    <trd>&#12459;&#12477;&#12540;&#12489;</trd>,
+    <trd>&#38512;&#26997;  <pr>&#12356;&#12435;&#12365;&#12423;&#12367;</pr></trd>
   </trdgrp>
   <trd lng="nl">kathode</trd>
   <trd lng="pl">katoda</trd>
@@ -72,11 +79,14 @@
     <trd>z&aacute;porn&aacute; elektr&oacute;da</trd>
   </trdgrp>
   <trd lng="sv">katod</trd>
-  <trd lng="uk">&#x43A;&#x430;&#x442;&#x43E;&#x434;</trd>
+  <trd lng="uk">&c_k;&c_a;&c_t;&c_o;&c_d;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/11/15 18:27:44
+Wolfram Diestel: +fnt PVEF, kor. dif, ekz
+
 versio 1.24 2023/10/18 14:48:10
 revo: transskribo per <pr>
 
@@ -96,8 +106,5 @@ Revision 1.16  2010/04/24 17:07:45  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.15  2010/01/26 17:30:24  revo
-Wieland Pusch: +trd bg
-
-Revision 1.14  2010/01/25 17:30:42  revo
 -->
 </vortaro>
