@@ -1,21 +1,49 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: insolent.xml,v 1.11 2022/03/21 15:27:49 revo Exp $">
+<art mrk="$Id: insolent.xml,v 1.12 2023/11/19 09:22:21 revo Exp $">
 <kap>
    <rad>insolent</rad>/a <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="insolent.0a">
-   <kap><tld/>a</kap>
-   <uzo tip="stl">RAR</uzo>
-   <snc>
-     <ref tip="dif" cel="impert.0a">impertinenta</ref>
-   </snc>
+  <kap><tld/>a</kap>
+  <uzo tip="stl">RAR</uzo>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="impert.0a">Impertinenta</ref>:
+      <ekz>
+        <nom>Em&egrave;ric</nom> demandis La Majstron pri <klr>[&#8230;]</klr> a&hcirc;ila kalkano de la <tld/>a
+        madridano
+        <fnt>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la paca tempo iu politika ofendo, iu <tld/>a inter&scirc;tata kontrakto
+        <klr>[&#8230;]</klr> iritas la homojn multe pli ol la malka&scirc;a batalo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2001, &#8470;10</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="arog.0i">aroga</ref>,
+      <ref cel="modest.mal0a">malmodesta</ref>,
+      <ref cel="hont.sen0a">senhonta</ref>
+    </refgrp>
+  </snc>
   <trd lng="be">&c_n;&c_a;&c_h;&c_a;&c_b;&c_n;&c_y;</trd>
   <trdgrp lng="cs">
-    <trd>drz&#xFD;</trd>,
-    <trd>nestoudn&#xFD;</trd>,
-    <trd>opov&#xE1;&#x17E;liv&#xFD;</trd>
+    <trd>drz&yacute;</trd>,
+    <trd>nestoudn&yacute;</trd>,
+    <trd>opov&aacute;&zcaron;liv&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>ungeb&uuml;hrlich</trd>,
+    <trd>anma&szlig;end</trd>,
+    <trd>unversch&auml;mt</trd>
   </trdgrp>
   <trdgrp lng="en">
      <trd>insolent</trd>,
@@ -39,8 +67,8 @@
      <trd>arc&aacute;tlan</trd>
    </trdgrp>
   <trdgrp lng="pt">
-    <trd>impertinente<klr tip="ind"> (adj.)</klr></trd>, 
-    <trd>insolente<klr tip="ind"> (adj.)</klr></trd> 
+    <trd>impertinente<klr tip="ind"> (adj.)</klr></trd>,
+    <trd>insolente<klr tip="ind"> (adj.)</klr></trd>
    </trdgrp>
   <trdgrp lng="ru">
      <trd>&c_d;&c_je;&c_r;&c_z;&c_k;&c_i;&c_j;</trd>,
@@ -48,13 +76,13 @@
      <trd>&c_n;&c_a;&c_h;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
    </trdgrp>
   <trdgrp lng="sk">
-    <trd>drz&#xFD;</trd>,
-    <trd>vyz&#xFD;vav&#xFD;</trd>
+    <trd>drz&yacute;</trd>,
+    <trd>vyz&yacute;vav&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x443;&#x445;&#x432;&#x430;&#x43B;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x430;&#x445;&#x430;&#x431;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x431;&#x435;&#x437;&#x446;&#x435;&#x440;&#x435;&#x43C;&#x43E;&#x43D;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_z;&c_u;&c_h;&c_v;&c_a;&c_l;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_a;&c_h;&c_a;&c_b;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_je;&c_z;&c_c;&c_je;&c_r;&c_je;&c_m;&c_o;&c_n;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -80,6 +108,10 @@
     <trd>insolence</trd>,
     <trd>nestoudnost</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Anma&szlig;ung</trd>,
+    <trd>Unversch&auml;mtheit</trd>
+  </trdgrp>
   <trdgrp lng="fr">
      <trd>effronterie</trd>,
      <trd>impertinence</trd>,
@@ -95,13 +127,16 @@
      <trd>&c_n;&c_a;&c_h;&c_a;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
    </trdgrp>
   <trdgrp lng="sk">
-    <trd>drzos&#x165;</trd>,
-    <trd>nehanebnos&#x165;</trd>
+    <trd>drzos&tcaron;</trd>,
+    <trd>nehanebnos&tcaron;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.12 2023/11/19 09:22:21
+Wolfram Diestel: +ekz, ref, trd de
+
 Revision 1.9  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -121,11 +156,5 @@ Revision 1.4  2003/09/24 16:30:38  revo
 Jeromo Vasxe: - poe + rar
 
 Revision 1.3 2003/07/23 17:41:24 revo
-Marc Bavant: ~a: forigis duoblan trd fr
-
-Revision 1.2 2003/07/20 18:16:53 revo
-Karlo Freeman: +trd = en
-
-Revision 1.1 2003/07/17 16:31:33 revo
 -->
 </vortaro>
