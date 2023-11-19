@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-  <art mrk="$Id: implikaci.xml,v 1.10 2020/02/13 14:10:25 revo Exp $">
+  <art mrk="$Id: implikaci.xml,v 1.11 2023/11/19 10:22:12 revo Exp $">
     <kap>
       <rad>implikaci</rad>/o
     </kap>
@@ -16,27 +15,23 @@
           <ref tip="super" cel="lig.0ilo.MAT">ligilo<sncref/></ref>
           kaj la responda         
           <ref tip="super" cel="operac.logika0o">logika operacio</ref>,
-          simbole skribata <frm am="A =&gt; B">A&#8658;B</frm>
+          simbole skribata <frm am="A =&gt; B">A&#x21D2;B</frm>
           (legu: <ctl>se a, tiam bo</ctl>) kaj reduktebla al kombino
-          de nego kaj a&ubreve;o: <frm am="neg A vv B">&#172;A&#8744;B</frm>;
+          de nego kaj a&ubreve;o: <frm am="neg A vv B">&#xAC;A&#x2228;B</frm>;
           <ekz>
             ili <klr>(aprioraj lingvoj)</klr> havas simplan, rigidan
             sintakson, kaj <klr>...</klr> dependas kvaza&ubreve; parazite de
             aliaj lingvoj, konsistante el logikaj <tld/>oj (rilatoj
-            <ctl>se &#8208; tiam</ctl>)
-	    <fnt><lok><url
- ref="http://wwwcs.uni-paderborn.de/extern/fb/2/Kyb.Paed/INT/01-int.htm"
-		  >Enkonduka lernolibro de interlingvistiko</url></lok></fnt>;
+            <ctl>se &#x2010; tiam</ctl>)
+	    <fnt><lok><url ref="http://wwwcs.uni-paderborn.de/extern/fb/2/Kyb.Paed/INT/01-int.htm">Enkonduka lernolibro de interlingvistiko</url></lok></fnt>;
           </ekz><ekz>
             rimarku la plej gravan &scirc;an&gcirc;on &ccirc;e la transformo de
-            <frm am="A=&gt;B">A&#8658;B</frm> al <frm am="B">B</frm>: 
+            <frm am="A=&gt;B">A&#x21D2;B</frm> al <frm am="B">B</frm>: 
             ... regulo kiun oni bezonas
             estas nomata forigo de <tld/>o, a&ubreve; el<tld/>igo
             <fnt>
               <aut>Daniel Clemente Laboreo</aut>:
-              <vrk><url
-                  ref="http://www.danielclemente.com/logica/dn.eo.pdf"
-                  >Enkonduko al natura dedukto</url></vrk>.
+              <vrk><url ref="http://www.danielclemente.com/logica/dn.eo.pdf">Enkonduko al natura dedukto</url></vrk>.
             </fnt>;
           </ekz><ekz>
             teoremoj ofte havas formon de <tld/>o;
@@ -63,6 +58,7 @@
     <trd>z&aacute;pletka</trd>
   </trdgrp>
   <trd lng="sk">z&aacute;pletka</trd>
+  <trd lng="zh">&#x6DB5;&#x4E49; <pr>h&#xE1;ny&#xEC;</pr></trd>
 </drv>
 
     <drv mrk="implikaci.0a">
@@ -73,9 +69,8 @@
           Rilata al <tld/>o, entenanta <tld/>on:
           <ekz>
             la pozitiva <tld/>a propozicikalkulo entenas du aksiomojn:
-            <frm am="A=&gt;(B=&gt;A)">A&#8658;(B&#8658;A)</frm> kaj
-            <frm am="(A=&gt;(B=&gt;C))=&gt;((A=&gt;B)=&gt;(A=&gt;C))"
-            >(A&#8658;(B&#8658;C))&#8658;((A&#8658;B)&#8658;(A&#8658;C)</frm>,
+            <frm am="A=&gt;(B=&gt;A)">A&#x21D2;(B&#x21D2;A)</frm> kaj
+            <frm am="(A=&gt;(B=&gt;C))=&gt;((A=&gt;B)=&gt;(A=&gt;C))">(A&#x21D2;(B&#x21D2;C))&#x21D2;((A&#x21D2;B)&#x21D2;(A&#x21D2;C)</frm>,
             kaj unu derivregulon: la el<tld/>igon.
           </ekz>
         </dif>
@@ -93,11 +88,10 @@
       <uzo tip="fak">MAT</uzo>
       <snc>
         <dif>
-          Por du propozicioj <frm am="A">A</frm> kaj <frm
-          am="B">B</frm>, kajo de
+          Por du propozicioj <frm am="A">A</frm> kaj <frm am="B">B</frm>, kajo de
           iliaj reciprokaj <tld/>oj:
-          <frm am="A iff B equiv (A =&gt; B) ^^ (B =&gt; A)">A&#8660;B =
-          (A&#8658;B)&#8743;(B&#8658;A)</frm>;
+          <frm am="A iff B equiv (A =&gt; B) ^^ (B =&gt; A)">A&#x21D4;B =
+          (A&#x21D2;B)&#x2227;(B&#x21D2;A)</frm>;
           <ekz>
             difini ekvivalentecon per amba&ubreve;direkta <tld/>o.
           </ekz>
@@ -130,7 +124,7 @@
           Unu el la &ccirc;efaj derivreguloj de la propozicia kalkulo:
           kiam estas konstatitaj la propozicioj <frm am="A">A</frm>
           kaj
-          <frm am="A=&gt;B">A&#8658;B</frm>, tiam oni rajtas konkludi,
+          <frm am="A=&gt;B">A&#x21D2;B</frm>, tiam oni rajtas konkludi,
           ke
           validas
           <frm am="B">B</frm>.
