@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: diverg1.xml,v 1.20 2023/11/04 14:29:03 revo Exp $">
+<art mrk="$Id: diverg1.xml,v 1.21 2023/11/21 15:28:31 revo Exp $">
   <kap>
     <rad>diver&gcirc;enc</rad>/o
   </kap>
@@ -20,10 +20,10 @@
       de la komponantoj de la vektora kampo la&ubreve; &ccirc;iu la&ubreve;vica
       <ref tip="vid" cel="koordi.0o.MAT">koordinato</ref>:
       <ekz>
-        la <tld/>on de <frm am="E">E</frm> oni kutime signas per 
-        <frm am="nabla*E">&#x2207;&middot;E</frm> a&ubreve; 
-        <frm am="&quot;div&quot; E=sum del_iE_i">div E = 
-        &#x2211;&#x2202;<sub><k>i</k></sub>E<sub><k>i</k></sub></frm>.
+        la <tld/>on de <frm am="E">E</frm> oni kutime signas per
+        <frm am="nabla*E">&#8711;&middot;E</frm> a&ubreve;
+        <frm am="&quot;div&quot; E=sum del_iE_i">div E =
+        &#8721;&#8706;<sub><k>i</k></sub>E<sub><k>i</k></sub></frm>.
       </ekz>
     </dif>
   </snc>
@@ -33,17 +33,17 @@
   <trd lng="es">divergencia</trd>
   <trd lng="fa">&a_d;&f_y;&a_w;&a_r;&f_zh;&a_A;&a_n;&a_s;</trd>
   <trd lng="fr">divergence<klr tip="ind"> (d'un champ)</klr></trd>
-  <trd lng="ja">&#x767A;&#x6563;  <pr>&#x306F;&#x3063;&#x3055;&#x3093;</pr></trd>
+  <trd lng="ja">&#x767A;&#25955;  <pr>&#x306F;&#12387;&#12373;&#12435;</pr></trd>
   <trd lng="pl">dywergencja</trd>
   <trd lng="pt">diverg&ecirc;ncia</trd>
   <trd lng="ru">&c_d;&c_i;&c_v;&c_je;&c_r;&c_g;&c_je;&c_n;&c_c;&c_i;&c_ja;</trd>
-  <trd lng="uk">&#x434;&#x438;&#x432;&#x435;&#x440;&#x433;&#x435;&#x43D;&#x446;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_d;&c_i;&c_v;&c_je;&c_r;&c_g;&c_je;&#x43D;&c_c;&c_ib;&#x44F;</trd>
   <trdgrp lng="zh">
-    <trd>&#x504F;&#x79BB; <pr>pi&#x101;nl&#xED;</pr></trd>,
-    <trd>&#x53D1;&#x6563;&#x91CF; <pr>f&#x101;s&#xE0;nli&#xE0;ng</pr></trd>,
-    <trd>&#x6563;&#x5EA6; <pr>s&#xE0;nd&#xF9;</pr></trd>,
-    <trd>&#x53D1;&#x6563;&#x6027; <pr>f&#x101;s&#xE0;nx&#xEC;ng</pr></trd>,
-    <trd>&#x53D1;&#x6563; <pr>f&#x101;s&#xE0;n</pr></trd>
+    <trd>&#x504F;&#x79BB; <pr>pi&amacron;nl&#xED;</pr></trd>,
+    <trd>&#x53D1;&#25955;&#x91CF; <pr>f&amacron;s&#xE0;nli&#xE0;ng</pr></trd>,
+    <trd>&#25955;&#x5EA6; <pr>s&#xE0;nd&#xF9;</pr></trd>,
+    <trd>&#x53D1;&#25955;&#24615; <pr>f&amacron;s&#xE0;nx&#xEC;ng</pr></trd>,
+    <trd>&#x53D1;&#25955; <pr>f&amacron;s&#xE0;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -61,12 +61,13 @@
   Mi ne trovis auxtoritatan fonton, sed la termino estas tute
   logika. <aut>MB</aut>
   </adm>
+  <trd lng="be">&c_z; &c_n;&c_u;&c_l;&c_ja;&c_v;&c_o;&c_j; <ind>&c_d;&c_y;&c_v;&c_e;&c_r;&c_g;&c_je;&c_n;&c_c;&c_y;&c_ja;&c_j;</ind></trd>
   <trd lng="de">divergenzfrei<klr tip="ind"> (-es
   Vektorfeld)</klr></trd>
   <trd lng="en">zero-divergence<klr tip="amb"> (field)</klr></trd>
   <trdgrp lng="fr">
     <trd><klr tip="ind">(champ [&agrave; flux]) </klr>conservatif</trd>,
-    <trd><klr tip="ind">(champ) </klr>indivergentiel</trd></trdgrp> 
+    <trd><klr tip="ind">(champ) </klr>indivergentiel</trd></trdgrp>
   <trd lng="he">&#x5DE;&#x5B4;&#x5E1;&#x5EA;&#x5B7;&#x5E2;&#x5B5;&#x5E3;</trd>
   <trd lng="pl"><klr tip="amb">(pole) </klr>bez&zacute;r&oacute;d&lstroke;owe</trd>
   <trd lng="ru">&c_s;&c_o;&c_l;&c_je;&c_n;&c_o;&c_i;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;<klr tip="amb"> (&c_p;&c_o;&c_l;&c_je;)</klr></trd>
@@ -75,6 +76,9 @@
 
 <!--
 $Log$
+versio 1.21 2023/11/21 15:28:31
+Dmitri Gabinski: + trd be
+
 versio 1.19 2023/10/14 11:26:54
 revo: transskribo per <pr>
 
@@ -94,8 +98,5 @@ Revision 1.11  2004/12/05 17:32:10  revo
 Marc Bavant: mod dif/klr
 
 Revision 1.10  2004/08/10 16:32:23  revo
-Dmitri Gabinski: +trd be
-Revision 1.9  2003/02/24 17:32:51  revo
-Marc Bavant: mod klr tip cxe trd de
 -->
 </vortaro>
