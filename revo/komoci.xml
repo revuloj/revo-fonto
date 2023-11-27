@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: komoci.xml,v 1.11 2022/04/14 08:36:45 revo Exp $">
+<art mrk="$Id: komoci.xml,v 1.12 2023/11/27 09:25:31 revo Exp $">
 <kap>
   <rad>komoci</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -9,9 +9,10 @@
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <uzo tip="fak">MED</uzo>
-  <snc>
+  <snc mrk="komoci.0i.skuegi">
     <dif>
-      &Scirc;okegi ies korpon, ka&ubreve;zante momentan senmovecon a&ubreve; perturbante
+      <ref cel="sku.0i.MOV_sxanceli">Skuegi</ref>, pu&scirc;egi ies korpon,
+      ka&ubreve;zante momentan senmovecon a&ubreve; perturbante
       organon:
       <ekz>
         la vasko ku&scirc;is tiel <tld/>ita, ke li ne povis respondi e&ccirc; unu
@@ -20,15 +21,21 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="kontuz.0i">kontuzi</ref>
+      <ref cel="konste1.0i">konsterni</ref>,
+      <ref cel="kontuz.0i">kontuzi</ref>,
+      <ref cel="sxok.0i">&scirc;oki</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_k;&c_l;&c_ib;&c_k;&c_a;&c_c;&c_mol; <ind>&c_s;&c_t;&c_r;&c_a;&c_s;&c_je;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
   <trd lng="cs">zp&uring;sobit ot&rcaron;es</trd>
+  <trdgrp lng="de">
+    <trd>schwer <ind>ersch&uuml;ttern</ind></trd>,
+    <trd>in <ind>Schock</ind>zustand versetezen</trd>
+  </trdgrp>
   <trd lng="fr">commotionner</trd>
   <trd lng="hu">megr&aacute;zk&oacute;dtat</trd>
   <trd lng="nl">schokken<klr tip="ind"> (v.e.orgaan)</klr></trd>
-  <trd lng="pl">wstrz&aogonek;sn&aogonek;&cacute;</trd>     
+  <trd lng="pl">wstrz&aogonek;sn&aogonek;&cacute;</trd>
   <trd lng="pt">concutir</trd>
   <trd lng="ro">scutura</trd>
   <trd lng="ru">&c_v;&c_y;&c_z;&c_v;&c_a;&c_t;&c_mol; <ind>&c_s;&c_o;&c_t;&c_r;&c_ja;&c_s;&c_je;&c_n;&c_i;&c_je;</ind><klr>
@@ -40,10 +47,15 @@
 <drv mrk="komoci.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MED</uzo>
-  <snc>
+  <snc mrk="komoci.0o.senmoveco">
     <dif>
-      Sekvoj de korpa &scirc;okego, kiel doloro, senmoveco ktp.
+      Momenta senmoveco pro forta skuo.
     </dif>
+    <refgrp tip="vid">
+      <ref cel="konste1.0o">konsterno</ref>,
+      <ref cel="sxok.0o">&scirc;oko</ref>,
+      <ref cel="trauxmat.0o.MED">tra&ubreve;mato<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_s;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trdgrp lng="cs">
@@ -51,15 +63,20 @@
     <trd>ot&rcaron;es mozku</trd>,
     <trd>pohnut&iacute;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Kommotio</trd>,
+    <trd>schwere <ind>Ersch&uuml;tterung</ind></trd>,
+    <trd>Gehirnersch&uuml;tterung</trd>
+  </trdgrp>
   <trd lng="fr">commotion</trd>
   <trd lng="hu">megr&aacute;zk&oacute;dtat&aacute;s</trd>
   <trd lng="nl">schok<klr tip="ind"> (v.e.orgaan)</klr></trd>
-  <trd lng="pl">wstrz&aogonek;s</trd>     
+  <trd lng="pl">wstrz&aogonek;s</trd>
   <trdgrp lng="pt">
     <trd>concuss&atilde;o</trd>,
     <trd>como&ccedil;&atilde;o</trd>
   </trdgrp>
-  <trd lng="ro">&#537;oc</trd>
+  <trd lng="ro">&scomma;oc</trd>
   <trd lng="ru">&c_s;&c_o;&c_t;&c_r;&c_ja;&c_s;&c_je;&c_n;&c_i;&c_je;<klr> (&c_m;&c_je;&c_d;.)</klr></trd>
   <trdgrp lng="sk">
     <trd>otras</trd>,
@@ -67,13 +84,16 @@
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_s;&c_t;&c_r;&c_u;&c_s;</trd>,
-    <trd>&#x43A;&#x43E;&#x43C;&#x43E;&c_c;&c_ib;&#x44F;</trd>
+    <trd>&c_k;&c_o;&c_m;&c_o;&c_c;&c_ib;&c_ja;</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.12 2023/11/27 09:25:31
+Wolfram Diestel: +trd de, dif-precizigo, ref-oj
+
 versio 1.11 2022/04/14 08:36:45
 Dmitri Gabinski: + trd be
 
@@ -93,8 +113,5 @@ Revision 1.4  2007/01/06 17:30:21  revo
 Tulio Flores: +tr pt
 
 Revision 1.3  2004/06/21 17:35:53  revo
-Gert Bolten Maizonave: +trd pt
-
-Revision 1.2  2003/09/16 16:30:47  revo
 -->
 </vortaro>
