@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kejl.xml,v 1.27 2023/10/18 14:48:10 revo Exp $">
+<art mrk="$Id: kejl.xml,v 1.28 2023/11/29 21:22:27 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>kejl</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>kejl</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
 
 <drv mrk="kejl.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">TEK</uzo>
-  <snc>
+  <snc mrk="kejl.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      Ligna a&ubreve; metala peco, &gcirc;enerale <ref tip="vid" cel="kojn.0o">kojno</ref>forma, uzata anstata&ubreve;
-      najlo,
-      por perforte &scirc;topi truon a&ubreve; rigide kunfiksi du partopecojn:
+      Ligna a&ubreve; metala <ref tip="super" cel="pec.0o.rompajxo">peco</ref>,
+      &gcirc;enerale <ref cel="kojn.0o">kojno</ref>forma, uzata anstata&ubreve;
+      najlo, por perforte &scirc;topi truon a&ubreve; rigide kunfiksi du partopecojn:
       <ekz>
         al&gcirc;ustiga, duobla, kalkana, konkava, kvadrata, ronda <tld/>o;
       </ekz>
@@ -42,99 +42,105 @@
       <ref cel="tenon.0o">tenono</ref>
     </refgrp>
     <trdgrp lng="be">
-    <trd>&c_z;&c_a;&c_g;&c_v;&c_a;&c_z;&c_d;&c_k;&c_a;</trd>,
-    <trd>&c_k;&c_a;&c_l;&c_o;&c_k;</trd>,
-    <trd>&c_sh;&c_y;&c_p;</trd>
-  </trdgrp>
-  <trd lng="br">ibil</trd>
-  <trdgrp lng="cs">
-    <trd>kl&iacute;n</trd>,
-    <trd>kol&iacute;k</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Stopfen</trd>,
-    <trd>Pfropfen</trd>,
-    <trd>Stift</trd>,
-    <trd>Keil</trd>,
-    <trd>Holznagel</trd>,
-    <trd>Hering <klr>(Zeltnagel)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>peg</trd>,
-    <trd>pin</trd>
-  </trdgrp>
-  <trd lng="fr">cheville<klr tip="ind"> (de fixation)</klr></trd>
-  <trdgrp lng="hu">
-    <trd>&eacute;k</trd>,
-    <trd>csap</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>spie</trd>,
-    <trd>pin</trd>
-  </trdgrp>
-  <trd lng="pl">klin</trd>     
-  <trd lng="ro">pan&abreve;</trd>
-  <trdgrp lng="ru">
-    <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
-    <trd>&c_k;&c_o;&c_l;&c_y;&c_sh;&c_je;&c_k;</trd>,
-    <trd>&c_sh;&c_i;&c_p;</trd>
-  </trdgrp>
-  <trdgrp lng="sk">
-    <trd>klin <klr>(sp&aacute;jac&iacute;, upev&ncaron;ovac&iacute;)</klr></trd>,
-    <trd>klin <klr>(sp&aacute;jac&iacute;| upev&ncaron;ovac&iacute;)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="uk">
-    <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
-    <trd>&c_z;&c_a;&c_g;&c_v;&c_ib;&c_z;&c_d;&c_o;&c_k;</trd>,
-    <trd>&c_d;&c_je;&c_r;&c_je;&c_v;&#x2019;&c_ja;&c_n;&c_i;&c_j; &c_c;&c_v;&c_ja;&c_h;</trd>,
-    <trd>&c_k;&c_ib;&c_l;&c_o;&c_ch;&c_o;&c_k;</trd>,
-    <trd>&c_sh;&c_i;&c_p;</trd>,
-    <trd>&c_z;&c_a;&c_j;&c_v;&c_ib; &c_s;&c_l;&c_o;&c_v;&c_a;</trd>,
-    <trd>&c_r;&c_o;&c_z;&c_t;&c_ja;&c_g;&c_n;&c_u;&c_t;&c_ib;&c_s;&c_t;&c_mol; (&c_u; &c_v;&c_ib;&c_r;&c_sh;&c_ib;)</trd>
-  </trdgrp>
+      <trd>&c_z;&c_a;&c_g;&c_v;&c_a;&c_z;&c_d;&c_k;&c_a;</trd>,
+      <trd>&c_k;&c_a;&c_l;&c_o;&c_k;</trd>,
+      <trd>&c_sh;&c_y;&c_p;</trd>
+    </trdgrp>
+    <trd lng="br">ibil</trd>
+    <trdgrp lng="cs">
+      <trd>kl&iacute;n</trd>,
+      <trd>kol&iacute;k</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Stopfen</trd>,
+      <trd>Pfropfen</trd>,
+      <trd>Stift</trd>,
+      <trd>Keil</trd>,
+      <trd>Holznagel</trd>,
+      <trd>Hering <klr>(Zeltnagel)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>peg</trd>,
+      <trd>pin</trd>
+    </trdgrp>
+    <trd lng="fr">cheville<klr tip="ind"> (de fixation)</klr></trd>
+    <trdgrp lng="hu">
+      <trd>&eacute;k</trd>,
+      <trd>csap</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>spie</trd>,
+      <trd>pin</trd>
+    </trdgrp>
+    <trd lng="pl">klin</trd>
+    <trd lng="ro">pan&abreve;</trd>
+    <trdgrp lng="ru">
+      <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
+      <trd>&c_k;&c_o;&c_l;&c_y;&c_sh;&c_je;&c_k;</trd>,
+      <trd>&c_sh;&c_i;&c_p;</trd>
+    </trdgrp>
+    <trdgrp lng="sk">
+      <trd>klin <klr>(sp&aacute;jac&iacute;, upev&ncaron;ovac&iacute;)</klr></trd>,
+      <trd>klin <klr>(sp&aacute;jac&iacute;| upev&ncaron;ovac&iacute;)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="uk">
+      <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
+      <trd>&c_z;&c_a;&c_g;&c_v;&c_ib;&c_z;&c_d;&c_o;&c_k;</trd>,
+      <trd>&c_d;&c_je;&c_r;&c_je;&c_v;&#8217;&c_ja;&c_n;&c_i;&c_j; &c_c;&c_v;&c_ja;&c_h;</trd>,
+      <trd>&c_k;&c_ib;&c_l;&c_o;&c_ch;&c_o;&c_k;</trd>,
+      <trd>&c_sh;&c_i;&c_p;</trd>,
+      <trd>&c_z;&c_a;&c_j;&c_v;&c_ib; &c_s;&c_l;&c_o;&c_v;&c_a;</trd>,
+      <trd>&c_r;&c_o;&c_z;&c_t;&c_ja;&c_g;&c_n;&c_u;&c_t;&c_ib;&c_s;&c_t;&c_mol; (&c_u; &c_v;&c_ib;&c_r;&c_sh;&c_ib;)</trd>
+    </trdgrp>
   </snc>
- 
   <snc mrk="kejl.0o.figure">
-  <dif>(figure) Vorto a&ubreve; vortgrupo, kiun parolanto a&ubreve; verkanto uzas sen doni al &gcirc;i multe da signifo:
-  <ekz>
-  &gcirc;i &gcirc;enas se tro persista, des pli se kombine kun unusilabaj <tld/>oj kiel &rightquot;ja&#x201D;, &rightquot;jen&#x201D;, &rightquot;do&#x201D; kaj
-  similaj
-  <fnt>
-  <aut>Jorge Camacho</aut>
-  <vrk><url ref="&Monato;/2000/006767.php">Pretas jen monument&#x2019;!</url></vrk>
-  <bib>Monato</bib>
-  <lok>2000/01, p. 6</lok>
-  </fnt>.
-  </ekz>
-  </dif>
-  <trd lng="de">F&uuml;llwort</trd>
-  <trd lng="es">muletilla</trd>
-  <trd lng="nl">stopwoord</trd>
+    <uzo tip="fak">LIN</uzo>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="super" cel="vort.0o.esprimo">Vorto</ref> a&ubreve; vortgrupo, kiun parolanto a&ubreve; verkanto uzas sen doni al &gcirc;i multe da signifo:
+      <ekz>
+        ripetata apostrofado <klr>[&#8230;]</klr> &gcirc;enas se tro persista, des pli se kombine kun unusilabaj
+        <tld/>oj kiel &leftquot;ja&rightquot;, &leftquot;jen&rightquot;, &leftquot;do&rightquot;
+        <fnt>
+          <aut>Jorge Camacho</aut>
+          <vrk><url ref="&Monato;/2000/006767.php">Pretas jen monument&#8217;!</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/01, p. 6</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="jxoker.0o.KOMP">&jcirc;okero</ref>
+    <trd lng="de">F&uuml;llwort</trd>
+    <trd lng="es">muletilla</trd>
+    <trd lng="nl">stopwoord</trd>
   </snc>
-  
   <snc mrk="kejl.0o.TIP">
     <uzo tip="fak">TIP</uzo>
-    <dif>(figure) Foto, desegna&jcirc;o, teksto a&ubreve; io ajn uzata por plenigi truon esti&gcirc;intan dum enpa&gcirc;igo:
-    <ekz>
-    la redaktoroj sugestu al la grafikisto kelkajn <tld/>ojn por &scirc;topi truojn dum la enpa&gcirc;igo
-    <fnt>
-    <bib>Monato</bib>
-    <vrk><url ref="&Monato;/red/xml.php">Teknikaj konvencioj</url></vrk>,
-    
-    </fnt>
-    </ekz>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Bildo, sentenco, anonceto ks uzata por plenigi truon esti&gcirc;intan dum enpa&gcirc;igo:
+      <ekz>
+        la redaktoroj sugestu al la grafikisto kelkajn <tld/>ojn por &scirc;topi truojn dum la enpa&gcirc;igo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Monato;/red/xml.php">Teknikaj konvencioj</url></vrk>,
+        </fnt>.
+      </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>F&uuml;ller <klr>(Textsatz)</klr></trd>,
+      <trd>Platzhalter</trd>
+    </trdgrp>
     <trd lng="nl">bladvulsel</trd>
-    </snc>
-  
+  </snc>
   <trdgrp lng="ja">
-    <trd>&#x6728;&#x91D8;  <pr>&#x304D;&#x304F;&#x304E;</pr></trd>,
-    <trd>&#x6813;  <pr>&#x305B;&#x3093;</pr></trd>,
-    <trd>&#x304F;&#x3055;&#x3073;</trd>,
-    <trd>&#x30AD;&#x30FC;  <pr>&#x304D;&#x30FC;</pr></trd>,
-    <trd>&#x30D4;&#x30F3;</trd>,
-    <trd>&#x5197;&#x8A9E;  <pr>&#x3058;&#x3087;&#x3046;&#x3054;</pr></trd>,
-    <trd>&#x865A;&#x8F9E;  <pr>&#x304D;&#x3087;&#x3058;</pr></trd>
+    <trd>&#26408;&#37336;  <pr>&#12365;&#12367;&#12366;</pr></trd>,
+    <trd>&#26643;  <pr>&#12379;&#12435;</pr></trd>,
+    <trd>&#12367;&#12373;&#12403;</trd>,
+    <trd>&#12461;&#12540;  <pr>&#12365;&#12540;</pr></trd>,
+    <trd>&#12500;&#12531;</trd>,
+    <trd>&#20887;&#35486;  <pr>&#12376;&#12423;&#12358;&#12372;</pr></trd>,
+    <trd>&#34394;&#36766;  <pr>&#12365;&#12423;&#12376;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -142,7 +148,16 @@
   <kap><tld/>i</kap>
   <snc>
     <dif>
-      Ligi a&ubreve; fiksi per <tld/>o.
+      Ligi a&ubreve; fiksi per <tld/>o:
+      <ekz>
+        sekigado sur horizontala <tld/>ita kadro
+        <fnt>
+          <aut>Genevi&egrave;ve kaj Maurice Gourichon</aut>
+          <vrk><url ref="http://www.esperanto-angers.fr/spip/IMG/pdf/Folio_23.pdf"
+              >Vizito al la Centro de la pergameno kaj miniatur-arto</url></vrk>
+          <lok>La An&gcirc;eva Folio, n-ro 23, majo 2012, p. 3 </lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -168,18 +183,18 @@
     <trd>&ouml;csapol</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x6728;&#x91D8;&#x3092;&#x6253;&#x3064;  <pr>&#x304D;&#x304F;&#x304E;&#x3092;&#x3046;&#x3064;</pr></trd>,
-    <trd>&#x304F;&#x3055;&#x3073;&#x3067;&#x6B62;&#x3081;&#x308B;  <pr>&#x304F;&#x3055;&#x3073;&#x3067;&#x3068;&#x3069;&#x3081;&#x308B;</pr></trd>
+    <trd>&#26408;&#37336;&#12434;&#25171;&#12388;  <pr>&#12365;&#12367;&#12366;&#12434;&#12358;&#12388;</pr></trd>,
+    <trd>&#12367;&#12373;&#12403;&#12391;&#27490;&#12417;&#12427;  <pr>&#12367;&#12373;&#12403;&#12391;&#12392;&#12393;&#12417;&#12427;</pr></trd>
   </trdgrp>
   <trd lng="nl">vastpinnen</trd>
   <trdgrp lng="pl">
     <trd>klinowa&cacute;</trd>,
     <trd>mocowa&cacute;</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>bloca</trd>,
     <trd>fixa</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_k;&c_r;&c_je;&c_p;&c_l;&c_ja;&c_t;&c_mol; <ind>&c_k;&c_o;&c_l;&c_y;&c_sh;&c_k;&c_o;&c_m;</ind></trd>
   <trdgrp lng="sk">
     <trd>sp&aacute;ja&tcaron;</trd>,
@@ -194,6 +209,9 @@
 </art>
 <!--
 $Log$
+versio 1.28 2023/11/29 21:22:27
+Wolfram Diestel: fnt PVEF, sintakskorektoj, +ekz, ref, trd de
+
 versio 1.27 2023/10/18 14:48:10
 revo: transskribo per <pr>
 
@@ -213,8 +231,5 @@ versio 1.21 2022/03/30 09:33:02
 Dmitri Gabinski: + trd be
 
 Revision 1.18  2018/08/06 22:10:33  revo
-Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
-
-Revision 1.17  2015/07/04 08:37:37  revo
 -->
 </vortaro>
