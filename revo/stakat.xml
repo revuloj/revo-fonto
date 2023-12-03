@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: stakat.xml,v 1.10 2022/07/05 11:38:23 revo Exp $">
+<art mrk="$Id: stakat.xml,v 1.11 2023/12/03 15:23:09 revo Exp $">
 <kap>
   <rad>stakat</rad>/o <fnt><bib>MuzTerm</bib></fnt>
 </kap>
@@ -21,12 +21,13 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="ant">
+      <ref cel="legat1.0o">legato</ref>
+    </refgrp>
   </snc>
-  <refgrp tip="ant">
-    <ref cel="legat1.0o">legato</ref>
-  </refgrp>
   <trd lng="be">&c_s;&c_t;&c_a;&c_k;&c_a;&c_t;&c_a; <klr>(&c_n;&c_a;&c_z;.)</klr></trd>
   <trd lng="de">Staccato</trd>
+  <trd lng="en">staccato</trd>
   <trdgrp lng="fr">
     <trd>staccato</trd>
   </trdgrp>
@@ -39,19 +40,42 @@
   </trdgrp>
   <trd lng="pl">staccato</trd>
   <trd lng="ru">&c_s;&c_t;&c_a;&c_k;&c_k;&c_a;&c_t;&c_o;</trd>
-  <trd lng="uk">&c_s;&c_t;&c_a;&#x43A;&c_a;&c_t;&#x43E; (&c_u; &c_z;&#x43D;&c_a;&c_ch;. &c_ib;&#x43C;.)</trd>
+  <trd lng="uk">&c_s;&c_t;&c_a;&c_k;&c_a;&c_t;&c_o; (&c_u; &c_z;&c_n;&c_a;&c_ch;. &c_ib;&c_m;.)</trd>
 </drv>
 
 <drv mrk="stakat.0e">
   <kap><tld/>e</kap>
   <snc>
     <dif>
-      Mallige, disigante la sinsekvajn tonojn.
+      Mallige, disigante la sinsekvajn tonojn:
+      <ekz>
+        li direktis al la enketistoj, <tld/>e, strangajn, tuj estingatajn ridetojn
+        <fnt>
+          <bib>CKv</bib>
+          <lok>8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mallongaj, <klr>[&#8230;]</klr> monotonaj kaj <tld/>aj frazoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2012/010885.php"
+              >Vo&ccirc;o de ripro&ccirc;o</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="abrupt.0e">abrupte</ref>,
+      <ref cel="interm.0e">intermite</ref>,
+      <ref cel="koher.mal0a">malkohere</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_a;&c_k;&c_a;&c_t;&c_a; <klr>(&c_p;&c_r;&c_y;&c_s;&c_l;.)</klr></trd>
   <trd lng="cs">staccato</trd>
   <trd lng="de">abgehackt <klr>(T&ouml;ne)</klr></trd>
+  <trd lng="en">choppily</trd>
   <trdgrp lng="fr">
     <trd>staccato</trd>
   </trdgrp>
@@ -65,14 +89,17 @@
   <trd lng="ru">&c_s;&c_t;&c_a;&c_k;&c_k;&c_a;&c_t;&c_o;</trd>
   <trd lng="sk">staccato</trd>
   <trdgrp lng="uk">
-    <trd>&c_s;&c_t;&c_a;&#x43A;&c_a;&c_t;&#x43E; (&#x43A;&#x43E;&c_r;&#x43E;&c_t;&#x43A;&#x43E;</trd>,
-    <trd>&c_u;&c_r;&c_i;&c_v;&c_ch;&c_a;&c_s;&c_t;&#x43E;)</trd>
+    <trd>&c_s;&c_t;&c_a;&c_k;&c_a;&c_t;&c_o; (&c_k;&c_o;&c_r;&c_o;&c_t;&c_k;&c_o;</trd>,
+    <trd>&c_u;&c_r;&c_i;&c_v;&c_ch;&c_a;&c_s;&c_t;&c_o;)</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.11 2023/12/03 15:23:09
+Wolfram Diestel: +ekz, ref, trd de,en
+
 versio 1.10 2022/07/05 11:38:23
 Dmitri Gabinski: + trd be
 
@@ -92,8 +119,5 @@ Revision 1.3  2004/10/28 16:31:43  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.2  2003/02/18 17:31:35  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.1  2002/06/10 17:31:27  revo
 -->
 </vortaro>
