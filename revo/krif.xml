@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: krif.xml,v 1.13 2023/12/03 09:59:01 revo Exp $">
+<art mrk="$Id: krif.xml,v 1.14 2023/12/04 19:21:04 revo Exp $">
 <kap>
-<rad>krif</rad>/o
+  <rad>krif</rad>/o
+  <fnt><bib>PIV1</bib></fnt>
 </kap>
 
 <drv mrk="krif.0o">
@@ -11,27 +12,30 @@
   <snc mrk="krif.0o.POE">
     <uzo tip="fak">POE</uzo>
     <dif>
-      Ungego de sova&gcirc;aj bestoj kaj rabobirdoj.
+      <ref tip="dif" cel="ung.0ego">Ungego</ref> de sova&gcirc;aj bestoj kaj rabobirdoj:
+      <ekz>
+        la kato saltis <klr>[&#8230;]</klr>, kaptis per la <tld/>oj ka&ubreve;&ccirc;ukan tubon fiksitan &ccirc;e
+        la malanta&ubreve;a vando kaj forveturis
+        <fnt>
+          <bib>MkM</bib>
+          <lok>4</lok>
+        </fnt>.
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        falinte en iliajn <tld/>ojn <klr>(sub tirenecon)</klr>
+        mi unue perdis liberon kaj propran volon
+        <fnt><aut>Horst Vogt</aut><vrk>Paperfolioj</vrk><lok>La Gazeto,
+           jaro 2005a, numero 117, p. 27a</lok>
+        </fnt>.
+        <trd lng="pl">szpony</trd>
+      </ekz>
     </dif>
     <trdgrp lng="pl">
     <trd>szpon</trd>,
     <trd>pazur</trd>
     </trdgrp>
     <trd lng="pt">garra</trd>
-  </snc>
-  <snc mrk="krif.0o.FIG">
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-    Tiraneco, arbitra superpotenco, subpremado:
-      <ekz>
-      falinte en iliajn <tld/>ojn mi unue perdis liberon kaj propran
-      volon
-       <fnt><aut>Horst Vogt</aut><vrk>Paperfolioj</vrk><lok>La Gazeto,
-       jaro 2005a, numero 117, p. 27a</lok></fnt>.
-      </ekz>
-    </dif>
-    <trd lng="pl">szpony</trd>
-    <trd lng="pt">garra<klr tip="amb"> (figurado)</klr></trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_p;&c_c;&c_ju;&c_r;</trd>,
@@ -40,25 +44,31 @@
   </trdgrp>
   <trd lng="bg">&c_n;&c_o;&c_k;&c_malmol;&c_t;</trd>
   <trdgrp lng="cs">
-    <trd>pa&#x159;&#xE1;t</trd>,
-    <trd>sp&#xE1;r</trd>
+    <trd>pa&rcaron;&aacute;t</trd>,
+    <trd>sp&aacute;r</trd>
   </trdgrp>
-  <trd lng="de">Kralle</trd>
+  <trdgrp lng="de">
+    <trd>Kralle</trd>,
+    <trd>Klaue</trd>
+  </trdgrp>
   <trd lng="fr">griffe</trd>
   <trd lng="hu">karom</trd>
   <trd lng="nl">klauw</trd>
   <trd lng="ru">&c_k;&c_o;&c_g;&c_o;&c_t;&c_mol;</trd>
-  <trd lng="sk">drap&#xE1;k</trd>
-  <trd lng="uk">&#x43F;&#x430;&#x437;&#x443;&#x440;</trd>
+  <trd lng="sk">drap&aacute;k</trd>
+  <trd lng="uk">&c_p;&c_a;&c_z;&c_u;&c_r;</trd>
   <trdgrp lng="zh">
-    <trd>&#x722A; <pr>zhu&#x1CE;</pr></trd>,
-    <trd>&#x722A;&#x5B50; <pr>zhu&#x1CE;zi</pr></trd>
+    <trd>&#29226; <pr>zhu&#462;</pr></trd>,
+    <trd>&#29226;&#23376; <pr>zhu&#462;zi</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.14 2023/12/04 19:21:04
+Wolfram Diestel: fnt PIV1, ekz, redukto snc FIG al ekz
+
 Revision 1.10  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -78,11 +88,5 @@ Revision 1.5  2007/07/28 16:30:37  revo
 Wieland Pusch: +trd de bg
 
 Revision 1.4  2005/06/26 16:34:29  revo
-Luiz Portella: kor fnt
-
-Revision 1.3  2005/06/15 16:31:36  revo
-Yury Finkel: +trd ru
-
-Revision 1.2  2005/06/08 16:31:54  revo
 -->
 </vortaro>
