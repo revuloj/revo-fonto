@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kroz.xml,v 1.29 2023/12/05 18:29:32 revo Exp $">
+<art mrk="$Id: kroz.xml,v 1.30 2023/12/05 19:19:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kroz</rad>/i <fnt><bib>UV</bib></fnt>
@@ -279,7 +279,7 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Ago <tld/>i:
+      Ago <tld/>i; <tld/>veturo:
       <ekz>
         sestagaj transatlantikaj <tld/>oj <klr>[&#8230;]</klr> kostos inter 3100 kaj 41&#8239;000
         e&ubreve;rojn
@@ -295,7 +295,10 @@
   </snc>
   <trd lng="be">&c_k;&c_r;&c_e;&c_j;&c_s;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="cs">k&rcaron;i&zcaron;ov&aacute;n&iacute;</trd>
-  <trd lng="de">Kreuzen</trd>
+  <trdgrp lng="de">
+    <trd>Kreuzen</trd>,
+    <trd>Kreuzfahrt</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>croisi&egrave;re</trd>,
     <trd>balade</trd>,
@@ -307,14 +310,37 @@
   <trd lng="sk">kri&zcaron;ovanie</trd>
 </drv>
 
+<drv mrk="kroz.0anto">
+  <kap>
+    <tld/>anto
+  </kap>
+  <snc mrk="kroz.0anto.turisto">
+    <dif>
+      Turisto partoprenanta <tld/>adon:
+      <ekz>
+        novaj <tld/>antoj komencos siajn aventurojn, dum <tld/>intoj a&ubreve;tobusos al la
+        flughaveno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url ref="&Monato;/2015/011433.php"
+              >Krozi la&ubreve; la norvega marbordo</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Kreuzfahrer <klr>(Tourist)</klr></trd>
+</drv>
+
 <drv mrk="kroz.0ilo">
   <kap><tld/>ilo</kap>
-  <uzo tip="fak">KOMP</uzo>
-  <snc>
+  <snc mrk="kroz.0ilo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
     <dif>
       <ref tip="dif" cel="foli.0umilo">Foliumilo</ref>:
       <ekz>
-        retumi kiam ajn kaj kie ajn per la makinto&scirc;a <tld/>ilo Safari
+        retumi kiam ajn kaj kie ajn per la makinto&scirc;a <tld/>ilo <nom>Safari</nom>
         <fnt>
           <bib>Monato</bib>
           <aut>Pa&ubreve;l Peeraerts</aut>
@@ -352,15 +378,18 @@
   </trdgrp>
 </drv>
 
-<drv mrk="kroz.0anto">
-  <kap><tld/>anto</kap>
+<drv mrk="kroz.0isto">
+  <kap><tld/>isto <fnt><bib>JED</bib></fnt>,
+    <var><kap><tld/>anto <fnt><bib>PV</bib></fnt></kap></var></kap>
+  <!--
   <uzo tip="fak">MAR</uzo>
   <uzo tip="fak">MIL</uzo>
-  <fnt><bib>PV</bib></fnt>
+  -->
   <uzo tip="stl">EVI</uzo>
-  <snc>
+  <snc mrk="kroz.0isto.sxipo">
     <ref tip="dif" cel="sxip.kroz0o"><tld/>&scirc;ipo</ref>
   </snc>
+  <!-- ne traduku EVI
   <trd lng="be">&c_k;&c_r;&c_e;&c_j;&c_s;&c_e;&c_r;</trd>
   <trd lng="cs">k&rcaron;i&zcaron;n&iacute;k</trd>
   <trd lng="de">Kreuzer</trd>
@@ -372,32 +401,15 @@
   <trd lng="ro">cruci&scomma;&abreve;tor</trd>
   <trd lng="ru">&c_k;&c_r;&c_je;&c_j;&c_s;&c_je;&c_r;</trd>
   <trd lng="sk">kr&iacute;&zcaron;nik</trd>
+  -->
 </drv>
 
-<drv mrk="kroz.0isto">
-  <kap><tld/>isto<fnt>Z</fnt></kap>
-  <uzo tip="fak">MAR</uzo>
-  <uzo tip="fak">MIL</uzo>
-  <uzo tip="stl">EVI</uzo>
-  <snc>
-    <ref tip="dif" cel="sxip.kroz0o"><tld/>&scirc;ipo</ref>
-  </snc>
-  <trd lng="be">&c_k;&c_r;&c_e;&c_j;&c_s;&c_e;&c_r;</trd>
-  <trd lng="cs">k&rcaron;i&zcaron;n&iacute;k</trd>
-  <trd lng="de">Kreuzer</trd>
-  <trd lng="en">crusier</trd>
-  <trd lng="hu">cirk&aacute;l&oacute; <klr tip="ind">(haj&oacute;)</klr></trd>
-  <trd lng="it">incrociatore</trd>
-  <trd lng="nl">kruiser<klr tip="ind"> (ontr.)</klr></trd>
-  <trd lng="pl">kr&aogonek;&zdot;ownik</trd>
-  <trd lng="ro">croazier&abreve;</trd>
-  <trd lng="ru">&c_k;&c_r;&c_je;&c_j;&c_s;&c_je;&c_r;</trd>
-  <trd lng="sk">kr&iacute;&zcaron;nik</trd>
-  <trd lng="uk">&c_k;&c_r;&c_je;&c_j;&c_s;&c_je;&c_r;</trd>
-</drv>
 </art>
 <!--
 $Log$
+versio 1.30 2023/12/05 19:19:39
+Wolfram Diestel: +~anto turisto, iom da plia plrilaboro
+
 versio 1.29 2023/12/05 18:29:32
 Wolfram Diestel: ~ilo: +ekz
 
@@ -417,8 +429,5 @@ Revision 1.20  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.19  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2010/06/16 16:30:28  revo
 -->
 </vortaro>
