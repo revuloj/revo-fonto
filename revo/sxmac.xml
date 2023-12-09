@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxmac.xml,v 1.20 2023/12/08 21:22:14 revo Exp $">
+<art mrk="$Id: sxmac.xml,v 1.21 2023/12/09 08:27:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&scirc;mac</rad>/i
+  <fnt><bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="sxmac.0">
@@ -12,7 +13,7 @@
   <gra><vspec>sonimito</vspec></gra>
   <snc mrk="sxmac.0.KOMUNE">
     <dif>
-      Bruo de su&ccirc;o, de kiso kaj similaj:
+      Bruo kiel &ccirc;e subita lipmalfermo (kiso, ma&ccirc;o):
       <ekz>
         <tld lit="&Scirc;"/>', survango a&ubreve;di&gcirc;is en vic-ordo tia, &parsl;
         Kiel vorto post vorto, unu post alia
@@ -48,7 +49,10 @@
   <snc mrk="sxmac.0i.brui">
     <gra><vspec>ntr</vspec></gra>
     <dif>
-      Brui kiel forta kiso, kiel su&ccirc;o dum man&gcirc;ado a&ubreve; simile:
+      <ref tip="super" cel="bru.0i.soni">Brui</ref> kiel &ccirc;e subita malfermo
+      de la <ref cel="lip.0o.ANA_busxa">lipo</ref>j,
+      ekz-e &ccirc;e forta <ref cel="kis.0i.FIZL">kiso</ref>,
+      brua man&gcirc;ado, eltiro de piedo el &scirc;limo k.s.:
       <ekz>
         li time kra&ccirc;otusis kaj <tld/>is per la lipoj
         <fnt>
@@ -82,6 +86,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      lango<ref cel="klak.0i.KOMUNE">klaki</ref>,
+      <ref cel="macx.0i.ANA">ma&ccirc;i</ref>,
+      <ref cel="sucx.0i">su&ccirc;i</ref>
+    </refgrp>
   </snc>
   <snc mrk="sxmac.0i.tr">
     <gra><vspec>tr</vspec></gra>
@@ -114,14 +123,20 @@
     <trd>&c_ch;&c_v;&c_ja;&c_k;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_h;&c_l;&c_ju;&c_p;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="de">schmatzen</trd>
-  <trd lng="en">smack</trd>
+  <trd lng="de"><ofc>*</ofc>schmatzen</trd>
+  <trdgrp lng="en">
+    <trd>smack</trd>,
+    <trd><ofc>*</ofc>kiss loudly <klr>(with a smack)</klr></trd>
+  </trdgrp>
   <trd lng="es">besar o comer con ruido</trd>
   <trdgrp lng="fa">
     <trd>&a_m;&a_l;&f_ch;&zwnj;&a_m;&a_l;&a_w;&f_ch; &f_k;&a_r;&a_d;&a_n;</trd>,
     <trd>&a_m;&a_A;&f_ch;&zwnj;&a_w;&a_m;&a_w;&f_ch; &f_k;&a_r;&a_d;&a_n;</trd>
   </trdgrp>
-  <trd lng="fr">faire un bruit de <ind>succion</ind></trd>
+  <trdgrp lng="fr">
+    <trd><ofc>*</ofc>baiser bruyamment</trd>,
+    <trd>faire un bruit de <ind>succion</ind></trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>cs&aacute;mcsog</trd>,
     <trd>cuppant</trd>,
@@ -137,7 +152,7 @@
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_ch;&c_a;&c_v;&c_k;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_ch;&c_m;&c_o;&c_k;&c_a;&c_t;&c_mol;
+    <trd><ofc>*</ofc>&c_ch;&c_m;&c_o;&c_k;&c_a;&c_t;&c_mol;
 <klr>(&c_g;&c_u;&c_b;&c_a;&c_m;&c_i;)</klr></trd>,
     <trd>&c_h;&c_l;&c_ju;&c_p;&c_a;&c_t;&c_mol; <klr>(&c_o;
 &c_g;&c_r;&c_ja;&c_z;&c_i;)</klr></trd>
@@ -153,6 +168,9 @@
 </art>
 <!--
 $Log$
+versio 1.21 2023/12/09 08:27:11
+Wolfram Diestel: +fnt/trd UV, ref-oj, vortigo
+
 versio 1.20 2023/12/08 21:22:14
 Wolfram Diestel: +ekz-oj, ~i tr
 
@@ -172,8 +190,5 @@ Revision 1.12  2010/05/08 16:30:47  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.11  2009/04/05 16:30:56  revo
-Antonio Codazzi: +trd it
-
-Revision 1.10  2002/10/24 16:32:23  revo
 -->
 </vortaro>
