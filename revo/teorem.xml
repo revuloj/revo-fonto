@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: teorem.xml,v 1.22 2023/10/21 13:02:26 revo Exp $">
+<art mrk="$Id: teorem.xml,v 1.23 2023/12/11 21:21:16 revo Exp $">
 <kap>
-<ofc>2</ofc>
-<rad>teorem</rad>/o
+  <ofc>2</ofc>
+  <rad>teorem</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="teorem.0o">
   <kap><tld/>o</kap>
@@ -12,16 +13,31 @@
   <fnt><bib>MatTerm</bib><lok>p. 6</lok></fnt>
   <snc>
     <dif>
-      Aserto, kiun oni povas <ref cel="demons.0i">demonstri</ref>
+      Aserto, kiun oni povas <ref cel="demons1.0i">demonstri</ref>
       kadre de iu matematika teorio:
       <ekz>
-        la <ctl>malgranda</ctl> <tld/>o (fare) de Fermat asertas,
-        ke se <frm am="p"><k>p</k></frm> estas 
+        la <ctl>malgranda</ctl> <tld/>o (fare) de <nom>Fermat</nom> asertas,
+        ke se <frm am="p"><k>p</k></frm> estas
         <ref cel="prim.0o.entjero">primo</ref>, la <frm am="p"><k>p</k></frm>-a
         <ref cel="potenc.0o.per_entjero">potenco</ref> de
-        <ref cel="entjer.natura0o">natura entjero</ref> 
+        <ref cel="entjer.natura0o">natura entjero</ref>
         <frm am="a"><k>a</k></frm> estas <ref cel="kongru.0a.module">kongrua</ref>
-        kun <frm am="a"><k>a</k></frm> module <frm am="p"><k>p</k></frm>.
+        kun <frm am="a"><k>a</k></frm> module <frm am="p"><k>p</k></frm>;
+      </ekz>
+      <ekz>
+        pruvoj de matematikaj <tld/>oj pere de indukto
+        <fnt>
+          <bib>FSI</bib>
+          <lok>I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Pitagoro, kies <tld/>on Sokrato kritikas vivis &ccirc;. cent jarojn pli frue ol
+        Sokrato, do liaj geometriaj instruoj ankora&ubreve; &scirc;ajnis nova&jcirc;o
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Sep</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -48,7 +64,7 @@
     <trd>tant&eacute;tel</trd>,
     <trd>&aacute;ll&iacute;t&aacute;s</trd>
   </trdgrp>
-  <trd lng="ja">&#x5B9A;&#x7406;  <pr>&#x3066;&#x3044;&#x308A;</pr></trd>
+  <trd lng="ja">&#23450;&#29702;  <pr>&#12390;&#12356;&#12426;</pr></trd>
   <trdgrp lng="nl">
     <trd>theorema</trd>,
     <trd>stelling</trd>
@@ -59,12 +75,15 @@
   </trdgrp>
   <trd lng="ru">&c_t;&c_je;&c_o;&c_r;&c_je;&c_m;&c_a;</trd>
   <trd lng="sk">teor&eacute;ma</trd>
-  <trd lng="uk">&#x442;&#x435;&#x43E;&#x440;&#x435;&#x43C;&#x430;</trd>
+  <trd lng="uk">&c_t;&c_je;&c_o;&c_r;&c_je;&c_m;&c_a;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.23 2023/12/11 21:21:16
+Wolfram Diestel: fnt JED, +ekz-oj
+
 versio 1.22 2023/10/21 13:02:26
 revo: transskribo per <pr>
 
@@ -84,8 +103,5 @@ Revision 1.15  2006/02/15 17:32:59  revo
 Tulio Flores: +trd pt
 
 Revision 1.14  2005/04/16 16:34:58  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.13  2004/11/26 17:31:46  revo
 -->
 </vortaro>
