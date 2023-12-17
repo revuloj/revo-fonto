@@ -1,21 +1,61 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konvek.xml,v 1.34 2023/12/03 09:58:57 revo Exp $">
+<art mrk="$Id: konvek.xml,v 1.35 2023/12/17 21:21:11 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>konveks</rad>/a
-  <fnt>Z</fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="konvek.0a">
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Prezentanta elstaran randon, kiel cirklo a&ubreve; sfero:
+      Prezentanta elstaran surfacon a&ubreve; konturon, kiel la ekstero de cirklo a&ubreve; sfero,
+      volbita eksteren:
       <ekz>
-        la <tld/>aj speguloj malgrandigas la objektojn.
+        <tld/>aj speguloj malgrandigas la objektojn;
+      </ekz>
+      <ekz>
+        jen ili per la <tld/>aj speguloj eltirigas stangformajn figurojn kun ovsimilaj
+        kapoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        liaj malhele blondaj haroj, longaj kaj densaj, ne ka&scirc;is la vastajn <tld/>a&jcirc;ojn
+        de lia granda kranio
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i ekvidis liajn <tld/>ajn, bluajn okulojn, fermiti&gcirc;antajn pro troo da lumo
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la luksemburga delegito portis la dekstran manon al la <tld/>a ventro, preska&ubreve;
+        pli remburita ol la apogse&gcirc;oj
+        <fnt>
+          <bib>CKv</bib>
+          <lok>19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la du kumuletoj de &scirc;iaj mamoj kaj la freneziga <tld/>eco de la gluteoj min
+        amoregigis
+        <fnt>
+          <bib>SatirRak</bib>
+          <lok>Tria pre&gcirc;o de Pygmalion</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="konkav.0a">konkava</ref>
     <trdgrp lng="be">
       <trd>&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;</trd>,
       <trd>&c_p;&c_u;&c_k;&c_a;&c_t;&c_y;</trd>
@@ -69,7 +109,7 @@
           vektora spaco)</klr>.
         </ekz>
       </dif>
-      <ref tip="ant" cel="konkav.0a.subaro">konkava.</ref>
+      <ref tip="ant" cel="konkav.0a.subaro">konkava<sncref/></ref>
       <trd lng="de">konvex<klr tip="ind"> (-e Untermenge)</klr></trd>
       <trd lng="en">convex<klr tip="ind"> (subset)</klr></trd>
       <trd lng="fa"><klr tip="ind">(&a_z;&f_y;&a_r;&a_m;&a_j;&a_m;&a_w;&a_ayn;&a_h;)
@@ -87,16 +127,16 @@
         de la aro de <ref cel="reel.0o.MAT">reeloj</ref> al si
         mem)</klr>
         Tia, ke
-        <frm am="f(tx+(1-t)y) le tf(x)+(1-t)f(y)"><k>f</k>(<k>tx</k>+(1-<k>t</k>)<k>y</k>) &#x2264;
+        <frm am="f(tx+(1-t)y) le tf(x)+(1-t)f(y)"><k>f</k>(<k>tx</k>+(1-<k>t</k>)<k>y</k>) &#8804;
         <k>t</k><k>f</k>(<k>x</k>)+(1-<k>t</k>)<k>f</k>(<k>y</k>)</frm>,
         kiaj ajn estas <frm am="x,y"><k>x</k>, <k>y</k></frm>,
-        kaj por &ccirc;iu <frm am="t in [0,1]"><k>t</k>&#x2208;[0,1]</frm>:
+        kaj por &ccirc;iu <frm am="t in [0,1]"><k>t</k>&#8712;[0,1]</frm>:
         <ekz>
           la surfaco situanta super grafika&jcirc;o de <tld/>a reela
           funkcio estas mem <tld/>a.
         </ekz>
       </dif>
-      <ref tip="ant" cel="konkav.0a.bildigo">konkava.</ref>
+      <ref tip="ant" cel="konkav.0a.bildigo">konkava<sncref/></ref>
       <rim>
         Se egaleco okazas, nur kiam <frm am="t"><k>t</k></frm> egalas
         al <frm>0</frm> a&ubreve; <frm>1</frm>, oni diras, ke la bildigo
@@ -115,7 +155,7 @@
       <trd lng="pl"><klr tip="amb">(funkcja) </klr><ind>wypuk&lstroke;a</ind></trd>
       <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_a;&c_ja;<klr tip="amb"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;)</klr></trd>
     </subsnc>
-  <trd lng="be">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;</trd>
+    <trd lng="be">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;</trd>
   </snc>
   <trd lng="ca">convex</trd>
   <trdgrp lng="cs">
@@ -125,14 +165,14 @@
   </trdgrp>
   <trd lng="es">convexo</trd>
   <trd lng="hu">konvex</trd>
-  <trd lng="ja">&#x51F8;&#x306E;  <pr>&#x3068;&#x3064;&#x306E;</pr></trd>
+  <trd lng="ja">&#20984;&#12398;  <pr>&#12392;&#12388;&#12398;</pr></trd>
   <trd lng="pt">convexo</trd>
   <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>klenut&yacute;</trd>,
     <trd>vypukl&yacute;</trd>
   </trdgrp>
-  <trd lng="zh">&#x51F8;&#x9762; <pr>t&#x16B;mi&#xE0;n</pr></trd>
+  <trd lng="zh">&#20984;&#38754; <pr>t&umacron;mi&agrave;n</pr></trd>
 </drv>
 
 <drv mrk="konvek.du0a">
@@ -158,16 +198,19 @@
     <trd>biconvex</trd>,
     <trd>convexo-convex</trd>
   </trdgrp>
-  <trd lng="ja">&#x4E21;&#x51F8;&#x306E;  <pr>&#x308A;&#x3087;&#x3046;&#x3068;&#x3064;&#x306E;</pr></trd>
+  <trd lng="ja">&#20001;&#20984;&#12398;  <pr>&#12426;&#12423;&#12358;&#12392;&#12388;&#12398;</pr></trd>
   <trd lng="ru">&c_d;&c_v;&c_o;&c_ja;&c_k;&c_o;&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;&c_j;</trd>
   <trdgrp lng="zh">
-    <trd>&#x51F8;&#x51F8; <pr>t&#x16B;t&#x16B;</pr></trd>,
-    <trd>&#x53CC;&#x51F8;&#x9762; <pr>shu&#x101;ngt&#x16B;mi&#xE0;n</pr></trd>
+    <trd>&#20984;&#20984; <pr>t&umacron;t&umacron;</pr></trd>,
+    <trd>&#21452;&#20984;&#38754; <pr>shu&amacron;ngt&umacron;mi&agrave;n</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2023/12/17 21:21:11
+Wolfram Diestel: +fnt JED, ekz-oj
+
 versio 1.33 2023/10/18 17:23:24
 revo: transskribo per <pr>
 
@@ -187,8 +230,5 @@ versio 1.27 2020/02/15 16:10:15
 Wolfram Diestel: formuloj per am
 
 Revision 1.26  2018/05/21 14:10:16  revo
-Dusan Juretic: +trd es
-
-Revision 1.25  2015/07/04 08:37:38  revo
 -->
 </vortaro>
