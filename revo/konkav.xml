@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konkav.xml,v 1.27 2023/12/03 09:58:56 revo Exp $">
+<art mrk="$Id: konkav.xml,v 1.28 2023/12/17 21:21:11 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>konkav</rad>/a
-  <fnt>Z</fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="konkav.0a">
   <kap>
@@ -13,11 +13,35 @@
   </kap>
   <snc>
     <dif>
-      Prezentanta kavan randon, kiel interno de cirklo a&ubreve; sfero:
+      Prezentanta kavan surfacon a&ubreve; konturon, kiel interno de cirklo a&ubreve; sfero;
+      volbita internen:
       <ekz>
-        la <tld/>a supra&jcirc;o de okulvitro por miopulo.
+        la <tld/>a lenso de okulvitro por miopulo;
+      </ekz>
+      <ekz>
+        koloroj trompas la okulojn, tiel ke objekto en bildo povas &scirc;ajni <tld/>a a&ubreve;
+        konveksa
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Dek</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Vitalij</nom> kaj <nom>Alice</nom> admiras siajn proprajn bildojn en <tld/>aj speguloj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rompitan brakon <klr>[&#8230;]</klr> <nom>Glaucus</nom> enigis en du <tld/>ajn tabuletojn kaj
+        poste &ccirc;irka&ubreve;ligis rapide kaj forte, por &gcirc;in senmovigi
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="konvek.0a">konveksa</ref>
     <trd lng="en">concave</trd>
     <trd lng="es">c&oacute;ncavo</trd>
     <trd lng="fr">concave</trd>
@@ -44,7 +68,7 @@
         </ekz>
       </dif>
       <refgrp tip="ant">
-        <ref cel="konvek.0a.subaro">konveksa</ref>.
+        <ref cel="konvek.0a.subaro">konveksa<sncref/></ref>
       </refgrp>
       <rim>
         <tld lit="K"/>ajn angulojn oni foje nomas
@@ -67,10 +91,10 @@
         de la aro de <ref cel="reel.0o.MAT">reeloj</ref> al si
         mem)</klr>
         Tia, ke &gcirc;ia <ref cel="egal.kontraux0o">kontra&ubreve;egalo</ref>
-        estas <ref cel="konvek.0a.bildigo">konveksa</ref>.
+        estas <ref cel="konvek.0a.bildigo">konveksa<sncref/></ref>.
       </dif>
       <refgrp tip="ant">
-        <ref cel="konvek.0a.bildigo">konveksa</ref>.
+        <ref cel="konvek.0a.bildigo">konveksa</ref>
       </refgrp>
       <trd lng="de">konkav<klr tip="ind"> (-e Funktion)</klr></trd>
       <trd lng="en">concave<klr tip="ind"> (function)</klr></trd>
@@ -87,14 +111,17 @@
     <trd>&c_u;&c_g;&c_n;&c_u;&c_t;&c_y;</trd>
   </trdgrp>
   <trd lng="ca">c&ograve;ncau</trd>
-  <trd lng="ja">&#x51F9;&#x306E;  <pr>&#x304A;&#x3046;&#x306E;</pr></trd>
+  <trd lng="ja">&#20985;&#12398;  <pr>&#12362;&#12358;&#12398;</pr></trd>
   <trd lng="pt">c&ocirc;ncavo</trd>
   <trd lng="ru">&c_v;&c_o;&c_g;&c_n;&c_u;&c_t;&c_y;&c_j;</trd>
-  <trd lng="zh">&#x51F9; <pr>&#x101;o</pr></trd>
+  <trd lng="zh">&#20985; <pr>&amacron;o</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/12/17 21:21:11
+Wolfram Diestel: +fnt JED, ekz
+
 versio 1.26 2023/10/18 17:23:24
 revo: transskribo per <pr>
 
@@ -114,8 +141,5 @@ Revision 1.19  2003/04/07 16:35:52  revo
 Marc Bavant: ~a (bildigo): +ref en dif
 
 Revision 1.18  2003/03/05 17:35:00  revo
-Marc Bavant: ~a MAT: +fnt
-Revision 1.17  2003/02/24 17:33:33  revo
-Marc Bavant: mod klr tip cxe trd de
 -->
 </vortaro>
