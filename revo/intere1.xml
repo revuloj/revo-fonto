@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: intere1.xml,v 1.23 2023/11/19 10:22:13 revo Exp $">
+<art mrk="$Id: intere1.xml,v 1.24 2023/12/19 06:29:42 revo Exp $">
 <kap>
   <rad>interez</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="intere1.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="intere1.0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Kompenso, kalkulita en procentoj, kurante pagota krom la &ccirc;efa
+      Kompenso, kalkulita en <ref cel="procen.0o.profito">procento</ref>j, kurante pagota krom la &ccirc;efa
       &scirc;uldo de &scirc;uldanto por la fruktuzo de fremdaj valoroj:
       <ekz>
         la&ubreve; la le&gcirc;aro de la jaro 1734, <tld/>o ne superu 6
@@ -21,9 +22,39 @@
         <aut>Bo Sandelin</aut>
         <vrk>Anta&ubreve;merkantilisma ekonomia pensado</vrk>
         <bib>Monato</bib>
-        <lok>2001:2, p. 16a</lok></fnt>.
+        <lok>2001:2, p. 16a</lok></fnt>;
+      </ekz>
+      <ekz>
+        oni celas atingi kapitalon de 10&#8239;000 pundoj, elspezebla estas nur la <tld/>o
+        <klr>(vd <ref cel="rent.0o">rento</ref>)</klr>
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por tempoda&ubreve;ro de 10 jaroj je <tld/>o de 2% oni pruntos samajn sumojn por
+        tempoda&ubreve;ro de 6 jaroj senintereze
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam venis la krizo, la fabrikoj bankrotis kaj senlaboreco kreskis, multaj ne
+        plu povis pagi e&ccirc; <tld/>on
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Lo&gcirc;ado</lok>
+        </fnt>;
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kupon.0o.EKON">kupono<sncref/></ref>,
+      <ref cel="kvot.0odeinterezoj">kvoto de interezoj</ref>,
+      <ref cel="profit.0o.EKON">profito<sncref/></ref>,
+      <ref cel="rent.0umo">rentumo</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>Zins</trd>,
       <trd>Zinsen</trd>,
@@ -34,37 +65,18 @@
     <trd>odsetka</trd>
     </trdgrp>
   </snc>
-  <snc>
-    <uzo tip="fak">MAH</uzo>
-    <dif>
-      Parto de la plusvaloro, aperanta kiel kompenso kalkulita en
-      procentoj, kurante pagota krom la &ccirc;efa &scirc;uldo de &scirc;uldanto pro la
-      fruktuzo de fremdaj valoroj.
-    </dif>
-  </snc>
-  <refgrp tip="vid">
-    <ref cel="kupon.0o">kupono</ref>,
-    <ref cel="kvot.0o">kvoto</ref>,
-    <ref cel="profit.0o">profito</ref>,
-    <ref cel="rent.0o">rento</ref>,
-    <ref cel="spez">enspezo</ref>,
-    <ref cel="valor.0o">valoro</ref>.
-  </refgrp>
   <trd lng="be">&c_p;&c_r;&c_a;&c_c;&c_e;&c_n;&c_t; <klr>(&c_u; &c_f;&c_ib;&c_n;&c_a;&c_n;&c_s;&c_a;&c_h;)</klr></trd>
   <trd lng="ca">inter&eacute;s</trd>
-  <trdgrp lng="de">
-    <trd>Zinsen</trd>
-  </trdgrp>
   <trd lng="es">inter&eacute;s</trd>
   <trdgrp lng="fr">
     <trd>int&eacute;r&ecirc;t<klr tip="ind"> (finance)</klr></trd>
   </trdgrp>
   <trd lng="hu">kamat</trd>
   <trdgrp lng="ja">
-    <trd>&#x5229;&#x5B50;  <pr>&#x308A;&#x3057;</pr></trd>,
-    <trd>&#x5229;&#x606F;  <pr>&#x308A;&#x305D;&#x304F;</pr></trd>,
-    <trd>&#x91D1;&#x5229;  <pr>&#x304D;&#x3093;&#x308A;</pr></trd>,
-    <trd>&#x5229;&#x6F64;  <pr>&#x308A;&#x3058;&#x3085;&#x3093;</pr></trd>
+    <trd>&#21033;&#23376;  <pr>&#12426;&#12375;</pr></trd>,
+    <trd>&#21033;&#24687;  <pr>&#12426;&#12381;&#12367;</pr></trd>,
+    <trd>&#37329;&#21033;  <pr>&#12365;&#12435;&#12426;</pr></trd>,
+    <trd>&#21033;&#28516;  <pr>&#12426;&#12376;&#12421;&#12435;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>rente</trd>,
@@ -75,15 +87,15 @@
    <trd>renda de capital</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_c;&c_je;&c_n;&c_t;</trd>
-  <trd lng="sk">&#xFA;rok</trd>
-  <trd lng="cs">&#xFA;rok</trd>
-  <trd lng="uk">&c_v;&c_ib;&c_d;&c_s;&#x43E;&c_t;&#x43E;&#x43A;</trd>
+  <trd lng="sk">&uacute;rok</trd>
+  <trd lng="cs">&uacute;rok</trd>
+  <trd lng="uk">&c_v;&c_ib;&c_d;&c_s;&c_o;&c_t;&c_o;&c_k;</trd>
   <trdgrp lng="zh">
-    <trd>&#x5229;&#x606F; <pr>l&#xEC;x&#x12B;</pr></trd>,
-    <trd>&#x5229;&#x606F; <pr>l&#xEC;x&#xED;</pr></trd>,
-    <trd>&#x546C;&#x9322; <pr>x&#xED;qi&#xE1;n</pr></trd>,
-    <trd>&#x606F;&#x9322; <pr>x&#xED;qi&#xE1;n</pr></trd>,
-    <trd>&#x7A05;&#x9EDE; <pr>shu&#xEC;di&#x1CE;n</pr></trd>
+    <trd>&#21033;&#24687; <pr>l&igrave;x&imacron;</pr></trd>,
+    <trd>&#21033;&#24687; <pr>l&igrave;x&iacute;</pr></trd>,
+    <trd>&#21612;&#37666; <pr>x&iacute;qi&aacute;n</pr></trd>,
+    <trd>&#24687;&#37666; <pr>x&iacute;qi&aacute;n</pr></trd>,
+    <trd>&#31237;&#40670; <pr>shu&igrave;di&#462;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -104,6 +116,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_je;&c_s;&c_p;&c_r;&c_a;&c_c;&c_e;&c_n;&c_t;&c_n;&c_y;</trd>
+  <trd lng="de">zinslos</trd>
   <trd lng="fr">&agrave; taux z&eacute;ro</trd>
 </drv>
 <adm>
@@ -114,6 +127,9 @@
 </art>
 <!--
 $Log$
+versio 1.24 2023/12/19 06:29:42
+Wolfram Diestel: fnt, ekz, -snc MAH
+
 versio 1.22 2023/11/12 15:25:25
 Dmitri Gabinski: + trd be
 
@@ -133,8 +149,5 @@ Revision 1.14  2012/07/20 13:10:13  revo
 Marc Rausell: + trd ca
 
 Revision 1.13  2007/05/30 16:31:11  revo
-Wieland Pusch: +trd de
-
-Revision 1.12  2005/11/14 17:31:14  revo
 -->
 </vortaro>
