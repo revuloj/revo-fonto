@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: glaci.xml,v 1.125 2023/12/23 18:27:40 revo Exp $">
+<art mrk="$Id: glaci.xml,v 1.126 2023/12/25 09:26:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>glaci</rad>/o <fnt><bib>UV</bib></fnt>
@@ -260,7 +260,7 @@
   <trd lng="en">icy</trd>
   <trdgrp lng="fa">
     <trd>&f_y;&a_kh;&f_y;</trd>,
-    <trd>&f_y;&a_kh;&zwnj;&f_p;&a_w;&a_sh;&f_y;&a_d;&a_h;</trd>
+    <trd>&f_y;&a_kh;&#8204;&f_p;&a_w;&a_sh;&f_y;&a_d;&a_h;</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>glac&eacute;<klr tip="ind"> (froid)</klr></trd>,
@@ -453,11 +453,13 @@
       <trd>&c_g;&c_l;&c_je;&c_t;&c_ch;&c_je;&c_r;</trd>
     </trdgrp>
     <trd lng="zh">&#20912;&#24029; <pr>b&imacron;ngchu&amacron;n</pr></trd>
-</snc>
+  </snc>
+    <!--
   <snc mrk="glaci.0ejo.ujo">
     <uzo tip="stl">ARK</uzo>
     <ref tip="dif" cel="glaci.0ujo0sxranko0tenejo"><tld/>ujo</ref>
   </snc>
+    -->
   <trd lng="ja">&#27703;&#27827;  <pr>&#12402;&#12423;&#12358;&#12364;</pr></trd>
   <trd lng="sk">&lcaron;adovec</trd>
   <trd lng="uk">&c_l;&c_mol;&c_o;&c_d;&c_o;&c_v;&c_i;&c_k;</trd>
@@ -698,7 +700,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="frost.0igilo">frostofako</ref>,
-      <ref cel="sxrank.frosto0o">frosto&scirc;ranko, <tld/>&scirc;ranko</ref>,
+      <ref cel="sxrank.frosto0o"><tld/>&scirc;ranko</ref>,
       <ref cel="ten.glaci0ejo">glacitenejo</ref>
     </refgrp>
     <trd lng="be">&c_l;&c_ja;&c_d;&c_o;&c_w;&c_n;&c_ja;</trd>
@@ -746,7 +748,8 @@
         <nom>Heidsieck</nom> <klr>(&scirc;a&ubreve;mvino)</klr>
         <fnt>
           <aut>Louis Couperus, trad. Gerrit Berveling</aut>
-          <vrk><url ref="https://books.google.de/books?id=gM3DyPtTq08C&amp;lpg=PA107&amp;pg=PA107#v=onepage"
+          <vrk><url
+          ref="https://books.google.de/books?id=gM3DyPtTq08C&amp;lpg=PA107&amp;pg=PA107#v=onepage"
               >Pri Maljunuloj, la a&jcirc;oj kiuj pasas...</url></vrk>
         </fnt>.
       </ekz>
@@ -860,7 +863,7 @@
   </snc>
   <trd lng="cs">&uacute;doln&iacute; ledovec</trd>
   <trd lng="de">Gletscherzunge</trd>
-  <trd lng="fa">&f_y;&a_kh;&zwnj;&a_r;&a_w;&a_d;</trd>
+  <trd lng="fa">&f_y;&a_kh;&#8204;&a_r;&a_w;&a_d;</trd>
   <trd lng="ja">&#27703;&#27827;  <pr>&#12402;&#12423;&#12358;&#12364;</pr></trd>
   <trd lng="sk">&uacute;doln&yacute; &lcaron;adovec</trd>
   <trd lng="sv">dalglaci&auml;r</trd>
@@ -908,7 +911,7 @@
   <trd lng="de">Eisbrecher</trd>
   <trd lng="en">icebreaker</trd>
   <trd lng="es">rompehielos</trd>
-  <trd lng="fa">&f_y;&a_kh;&zwnj;&a_sh;&f_k;&a_n;<klr> (&f_k;&a_sh;&a_t;&f_y;)</klr></trd>
+  <trd lng="fa">&f_y;&a_kh;&#8204;&a_sh;&f_k;&a_n;<klr> (&f_k;&a_sh;&a_t;&f_y;)</klr></trd>
   <trd lng="fr">brise-glace</trd>
   <trd lng="ja">&#30741;&#27703;&#33337;  <pr>&#12373;&#12356;&#12402;&#12423;&#12358;&#12379;&#12435;</pr></trd>
   <trd lng="nl">ijsbreker</trd>
@@ -923,6 +926,9 @@
 </art>
 <!--
 $Log$
+versio 1.126 2023/12/25 09:26:09
+Wolfram Diestel: kor. ref, forkomentis ~ejo 2
+
 versio 1.125 2023/12/23 18:27:40
 Wolfram Diestel: ~ujo: revortigita dif, +snc ~vazo
 
@@ -942,8 +948,5 @@ versio 1.118 2023/08/27 12:40:35
 Wolfram Diestel: ja: +hiragano
 
 versio 1.117 2023/06/24 08:31:23
-Wolfram Diestel: ~a&jcirc;o: +ekz, movis ~insul|mont/o al insul/ k mont/
-
-versio 1.116 2023/06/23 20:27:59
 -->
 </vortaro>
