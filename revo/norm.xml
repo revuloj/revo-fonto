@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: norm.xml,v 1.62 2023/11/21 18:31:06 revo Exp $">
+<art mrk="$Id: norm.xml,v 1.63 2023/12/27 08:29:13 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>norm</rad>/o
@@ -245,7 +245,7 @@
       <ekz>
         por <tld/>oj super <ref cel="algebr.lineara0o.strukturo">algebroj</ref>
         oni plie postulas, ke
-        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>×<k>y</k>) &#8804;
+        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>&#215;<k>y</k>) &#8804;
         <k>p</k>(<k>x</k>)&middot;<k>p</k>(<k>y</k>)</frm>;
       </ekz>
       <ekz>
@@ -535,7 +535,7 @@
     <dif>
       <ref tip="super" cel="regul.0igi.submeti">Reguligi</ref> per <tld/>o:
       <ekz>
-        normigita biblioteka slipo (12,5 × 7,5 mm)
+        normigita biblioteka slipo (12,5 &#215; 7,5 mm)
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
@@ -573,6 +573,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_u;&c_n;&c_a;&c_r;&c_m;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_y;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>normieren</trd>,
     <trd>standardisieren</trd>
@@ -701,6 +705,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_n;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
+    <trd>&c_p;&c_a;-&c_z;&c_a; <ind>&c_n;&c_o;&c_r;&c_m;&c_a;&c_j;</ind></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>regelwidrig</trd>,
     <trd>anormal</trd>,
@@ -833,8 +841,11 @@
 </art>
 <!--
 $Log$
+versio 1.63 2023/12/27 08:29:13
+Dmitri Gabinski: + trd be
+
 versio 1.62 2023/11/21 18:31:06
-Wolfram Diestel: +~igi, kontraŭ~a
+Wolfram Diestel: +~igi, kontra&ubreve;~a
 
 versio 1.61 2023/10/20 05:22:00
 revo: transskribo per <pr>
@@ -852,8 +863,5 @@ versio 1.56 2022/05/01 16:20:54
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.54 2022/01/15 14:26:29
-Wolfram Diestel: ~a: dif-precizigo, ekz-oj, ref-oj
-
-versio 1.53 2022/01/15 12:46:52
 -->
 </vortaro>
