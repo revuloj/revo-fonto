@@ -1,35 +1,57 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: adiaux.xml,v 1.48 2023/10/27 13:42:09 revo Exp $">
+<art mrk="$Id: adiaux.xml,v 1.49 2024/01/13 09:23:04 revo Exp $">
 <kap>
-  <ofc>*</ofc><rad>adia&ubreve;</rad> <fnt><bib>PV</bib></fnt> 
+  <ofc>*</ofc><rad>adia&ubreve;</rad>
+  <fnt> <bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="adiaux.0">
   <kap><ofc>*</ofc><tld/></kap>
+  <gra><vspec>interjekcio</vspec></gra>
   <snc mrk="adiaux.0.MOR">
     <dif>
       Vorto, per kiu oni salutas iun, kiam oni foriras de li,
       &ccirc;efe se por longa tempo a&ubreve; definitive:
+      <ekz>
+        estis mal&gcirc;entile, ke mi ne diris <tld/> al via patrino
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <tld/> kara amiko, &gcirc;is revido en la
         plej proksima kongreso!
         <fnt><bib>VdE</bib></fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        mi diris <tld/> al miaj lastaj esperoj
-        <klr>(mi ilin definitive perdis)</klr>;
+        mi iras por zorgi pri miaj aferoj: <tld/>
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXVI</lok>
+        </fnt>.
       </ekz>
+    </dif>
+    <ref tip="vid" cel="vid.re0o">&gcirc;is revido</ref>
+    <trd lng="th">&#3621;&#3634;&#3585;&#3656;&#3629;&#3609;</trd>
+    <trdgrp lng="zh">
+      <trd>&#25308;&#25308; <pr>b&aacute;ib&aacute;i</pr></trd>,
+      <trd>&#20877;&#20250; <pr>z&agrave;ihu&igrave;</pr></trd>,
+      <trd>&#20877;&#26371; <pr>z&agrave;ihu&igrave;</pr></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="adiaux.0.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Iaj vortoj kaj gestoj per kiu oni salutas anta&ubreve; foriro:
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        li diris <tld/> al la mondo surtera
-        <klr>(li mortis)</klr>
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        kapsigni <ind><tld/>o</ind>n al iu<fnt>Z</fnt>;
+        Johano kapsignis al li<ind> <tld/>o</ind>n, kaj la spirito svingis sian ru&gcirc;an &ccirc;apeton
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
         <trdgrp lng="fr">
           <trd>adieu<klr tip="ind"> (subst.)</klr></trd>,
           <trd><ind>adieu</ind>x</trd>
@@ -38,20 +60,29 @@
         <trd lng="nl">afscheid</trd>
       </ekz>
       <ekz>
-        ni faris por la foriro de nia prezidanto <ind><tld/>a</ind>n
-kunvenon.
+        <nom>Gering</nom> iris anta&ubreve;en, por komenci sian preparitan parolon de <tld/>
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li diris <tld/> al la mondo surtera
+        <klr>(li mortis)</klr>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        ili jam komencis siajn <ind><tld/>a</ind>jn afabla&jcirc;ojn al la gemastroj
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deksepa</lok>
+        </fnt>.
         <trd lng="fr">d'<ind>adieu</ind></trd>
         <trd lng="nl">afscheids-</trd>
       </ekz>
     </dif>
-    <ref tip="vid" cel="kri.ek0o">ekkrio</ref>
-    <trd lng="th">&#xE25;&#xE32;&#xE01;&#xE48;&#xE2D;&#xE19;</trd>
-    <trdgrp lng="zh">
-    <trd>&#x62DC;&#x62DC; <pr>b&#xE1;ib&#xE1;i</pr></trd>,
-    <trd>&#x518D;&#x4F1A; <pr>z&#xE0;ihu&#xEC;</pr></trd>,
-    <trd>&#x518D;&#x6703; <pr>z&#xE0;ihu&#xEC;</pr></trd>
-  </trdgrp>
-</snc>
+  </snc>
   <trd lng="be">&c_b;&c_y;&c_v;&c_a;&c_j;</trd>
   <trd lng="bg">&c_s;&c_b;&c_o;&c_g;&c_o;&c_m;</trd>
   <trd lng="bo">&t_ga;&t_tsheg;&t_la;&t_drengbu;&t_tsheg;&t_pha;&t_drengbu;&t_ba;&t_sa;&t_tsheg;</trd>
@@ -60,7 +91,12 @@ kunvenon.
   <trd>ad&eacute;u</trd>,
   <trd>ad&eacute;u-siau</trd>
 </trdgrp>
-  <trd lng="de">tsch&uuml;ss</trd>
+  <trdgrp lng="de">
+    <trd>tsch&uuml;ss</trd>,
+    <trd>adieu</trd>,
+    <trd>ade</trd>,
+    <trd>lebwohl</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>adieu</trd>,
     <trd>good-bye</trd>,
@@ -105,19 +141,101 @@ kunvenon.
   </trdgrp>
 </drv>
 
+<drv mrk="adiaux.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Rilata al foriro; signanta, enkondukanta foriron:
+      <ekz>
+        <klr>[li]</klr> faris <tld/>an kapsignon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sonorilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sentoj de la <tld/>a momento
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Disaj vojoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a parolo
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi ricevos de mi <tld/>an donacon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova strata lanterno</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li premis la <tld/>an kison sur &scirc;iajn lipojn
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Nikolao <nom>Petrovi&ccirc;</nom> donis <tld/>an tagman&gcirc;on al sia frato
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XXVIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+
 <drv mrk="adiaux.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="adiaux.0i.KOMUNE">
     <dif>
-      Kapsigni <tld/>on, <ref cel="adiaux.0diri"><tld/>diri</ref> al iu:
+      Signi, diri <tld/>on al iu:
       <ekz>
-        li <tld/>is &scirc;in, al &scirc;i kun larmoj;
+        Pa&ubreve;lo, restinte <klr>[&#8230;]</klr> dum multe da tagoj, <tld/>is la fratojn, kaj de
+        tie &scirc;ipiris al Sirio
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 18:18</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        &Z; <tld/>is la honorojn
-        <fnt><bib>VivZam</bib><lok>11</lok></fnt>;
+        &scirc;i <tld/>is lin per la mano kaj malaperis
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kronprinco <klr>[&#8230;]</klr> <tld/>is siajn regimentojn, ordonante al ili iri
+        orienton
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is sian junecon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li fine <tld/>is kaj foriris
+        <fnt>
+          <bib>ChB</bib>
+          <lok>13</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mi atendis ekstere por eviti la tradician larmplenan
@@ -127,6 +245,9 @@ kunvenon.
         <trd lng="nl">afscheid</trd>
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="las.for0i">forlasi</ref>
+    </refgrp>
     <trd lng="be">&c_r;&c_a;&c_z;&c_mol;&c_v;&c_ib;&c_t;&c_a;&c_c;&c_c;&c_a;</trd>
     <trd lng="br">kimiadi&ntilde;</trd>
     <trd lng="de"><klr>(sich)</klr> verabschieden</trd>
@@ -180,17 +301,53 @@ kunvenon.
       <trd>s&auml;ga <ind>adj&ouml;</ind></trd>
     </trdgrp>
     <trdgrp lng="zh">
-    <trd>&#x544A;&#x5225; <pr>g&#xE0;obi&#xE9;</pr></trd>,
-    <trd>&#x544A;&#x522B; <pr>g&#xE0;obi&#xE9;</pr></trd>,
-    <trd>&#x62DC;&#x5225; <pr>b&#xE0;ibi&#xE9;</pr></trd>,
-    <trd>&#x62DC;&#x522B; <pr>b&#xE0;ibi&#xE9;</pr></trd>
-  </trdgrp>
-</snc>
+    <trd>&#21578;&#21029; <pr>g&agrave;obi&eacute;</pr></trd>,
+      <trd>&#21578;&#21035; <pr>g&agrave;obi&eacute;</pr></trd>,
+      <trd>&#25308;&#21029; <pr>b&agrave;ibi&eacute;</pr></trd>,
+      <trd>&#25308;&#21035; <pr>b&agrave;ibi&eacute;</pr></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="adiaux.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="sin" cel="ced.for0i">Forcedi</ref>,
+      <ref cel="rezign.0i">rezigni</ref>:
+      <ekz>
+        &Z; <tld/>is la honorojn: <klr>[&#8230;]</klr>
+        mi ne deziras, ke mia privata kredo estu rigardata kiel deviga
+        <fnt><bib>VivZam</bib><lok>11</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i &ccirc;ian esperon iam ajn liberi&gcirc;i
+        <fnt>
+          <bib>StU</bib>
+          <lok>Al Romo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se la vin&ccirc;o <tld/>os nin, tiam ni povos levi la cindron per la manoj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vitrotubeto &jcirc;us <tld/>is la de&jcirc;oron
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 42</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="rifuz.for0i">forrifuzi</ref>
+    <trd lng="de">aufgeben <klr>(Hoffnung, Geist etc.)</klr></trd>
+    <trd lng="en">abandon</trd>
+  </snc>
   <snc mrk="adiaux.0i.komp">
     <uzo tip="fak">KOMP</uzo>
     <fnt><lok><url ref="&KompLeks;/A.html#ADIAUxI">KompLeks</url></lok></fnt>
-    <fnt><lok><url ref="http://www.rano.demon.co.uk/pivkomp/_adiaux.html">PIV-2Komp</url></lok>
-</fnt>
+    <fnt><lok><url ref="http://www.rano.demon.co.uk/pivkomp/_adiaux.html"
+        >PIV-2Komp</url></lok></fnt>
     <dif>
       Indiki al komputilo finon de seanco kun dialoga programo;
       <ref tip="sin" cel="salut.el0i.KOMP">elsaluti</ref>.
@@ -212,7 +369,7 @@ kunvenon.
 (&bet;&mem;&het;&shin;&bet;&yod;&fmem;)</klr></trd>
     <trd lng="hu">kijelentkezik</trd>
     <trd lng="id"><ind>keluar</ind> log</trd>
-    <trd lng="it">logout</trd>    
+    <trd lng="it">logout</trd>
     <trd lng="nl">uitloggen</trd>
     <trd lng="pl">wylogowa&cacute;</trd>
     <trd lng="pt"><ind>desligar</ind> o microcomputador</trd>
@@ -230,17 +387,17 @@ kunvenon.
     <dif>
       Diri <tld/>:
     <ekz>
-      l&#x2019;a&ubreve;dienco estis finita kaj ni levi&gcirc;is por
+      l&#8217;a&ubreve;dienco estis finita kaj ni levi&gcirc;is por
       <tld/>diri
       <fnt>
       <bib>Voja&gcirc;Imp</bib>
-      <lok>&Ccirc;e A&hcirc;med&#x2019; Pa&scirc;a&#x2019;, la granda
+      <lok>&Ccirc;e A&hcirc;med&#8217; Pa&scirc;a&#8217;, la granda
       pentristo</lok>
       </fnt>;
     </ekz>
     <ekz>
       mi neniam iris dormi sen pensado pri la propraj vortoj
-      de Alfred &ccirc;e la <ind><tld/>diro</ind>
+      de <nom>Alfred</nom> &ccirc;e la <ind><tld/>diro</ind>
       <fnt>
       <aut>C. Dickens trad. L.L. Zamenhof</aut>
       <vrk>Batalo de l' vivo</vrk>
@@ -267,7 +424,7 @@ kunvenon.
     <trd>decirle adi&oacute;s a</trd>,
     <trd>despedirse de</trd>
   </trdgrp>
-  <trd lng="hu">b&uacute;cs&uacute;t mond</trd>  
+  <trd lng="hu">b&uacute;cs&uacute;t mond</trd>
   <trd lng="it">dire <ind>addio</ind></trd>
    <trdgrp lng="nl">
       <trd><ind>afscheid</ind> nemen</trd>,
@@ -284,6 +441,9 @@ kunvenon.
 </art>
 <!--
 $Log$
+versio 1.49 2024/01/13 09:23:04
+Wolfram Diestel: +ekz-oj, ref; +snc FIG; +~a
+
 versio 1.47 2023/05/18 14:24:42
 Christian Siefkes: +trd de, en
 
@@ -303,8 +463,5 @@ Revision 1.40  2013/08/01 01:10:22  revo
 Jeromo Vasxe: + ref sin
 
 Revision 1.39  2013/05/31 17:10:07  revo
-Benito Subejrano: + trd ca oc
-
-Revision 1.38  2013/03/30 14:10:12  revo
 -->
 </vortaro>
