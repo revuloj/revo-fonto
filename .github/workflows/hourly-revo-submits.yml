@@ -13,8 +13,8 @@ on:
   #
   # * estas speciala signo, do nepre uzu citilojn
   schedule:
-  - cron:  '10 * * * *'
-  #- cron:  '10 */3 * * *'
+  #- cron:  '10 * * * *'
+  - cron:  '10 */3 * * *'
 
 
   # uzu 'access token' kun Git-arĥivo
@@ -24,7 +24,7 @@ on:
 
 env:
   # voko-formiko image tag {latest|stabila|2x}
-  FORMIKO_TAG: 2k
+  FORMIKO_TAG: 2l
   AFIDO_TAG: 2k
 
 jobs:
