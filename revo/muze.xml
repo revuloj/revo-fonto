@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: muze.xml,v 1.32 2023/10/19 18:36:53 revo Exp $">
+<art mrk="$Id: muze.xml,v 1.33 2024/01/25 21:18:59 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>muze</rad>/o
-  <fnt><bib>PV</bib></fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="muze.0o">
   <kap><tld/>o</kap>
@@ -15,7 +15,7 @@
       Ejo por konstanta elmontrado de objektoj kaj dokumentoj pri sciencoj,
       arto a&ubreve; aliaj temoj:
       <ekz>
-        mi utiligis mian libertempon, vizitante <klr>[&#x2026;]</klr> la <tld/>ojn kaj la
+        mi utiligis mian libertempon, vizitante <klr>[&#8230;]</klr> la <tld/>ojn kaj la
         diversajn monumentojn de Parizo
         <fnt>
           <bib>ChL</bib>
@@ -97,10 +97,10 @@
   <trd lng="hu">m&uacute;zeum</trd>
   <trd lng="id">museum</trd>
   <trdgrp lng="ja">
-    <trd>&#x535A;&#x7269;&#x9928;  <pr>&#x306F;&#x304F;&#x3076;&#x3064;&#x304B;&#x3093;</pr></trd>,
-    <trd>&#x7F8E;&#x8853;&#x9928;  <pr>&#x3073;&#x3058;&#x3085;&#x3064;&#x304B;&#x3093;</pr></trd>,
-    <trd>&#x53CE;&#x8535;&#x54C1;  <pr>&#x3057;&#x3085;&#x3046;&#x305E;&#x3046;&#x3072;&#x3093;</pr></trd>,
-    <trd>&#x53CE;&#x96C6;&#x54C1;  <pr>&#x3057;&#x3085;&#x3046;&#x3057;&#x3085;&#x3046;&#x3072;&#x3093;</pr></trd>
+    <trd>&#21338;&#29289;&#39208;  <pr>&#12399;&#12367;&#12406;&#12388;&#12363;&#12435;</pr></trd>,
+    <trd>&#32654;&#34899;&#39208;  <pr>&#12403;&#12376;&#12421;&#12388;&#12363;&#12435;</pr></trd>,
+    <trd>&#21454;&#34101;&#21697;  <pr>&#12375;&#12421;&#12358;&#12382;&#12358;&#12402;&#12435;</pr></trd>,
+    <trd>&#21454;&#38598;&#21697;  <pr>&#12375;&#12421;&#12358;&#12375;&#12421;&#12358;&#12402;&#12435;</pr></trd>
   </trdgrp>
   <trd lng="nl">museum</trd>
   <trd lng="pl">muzeum</trd>
@@ -111,7 +111,7 @@
   <trd lng="tr">m&uuml;ze</trd>
   <trd lng="uk">&c_m;&c_u;&c_z;&c_je;&c_j;</trd>
   <trd lng="vo">musof&ouml;p</trd>
-  <trd lng="zh">&#x535A;&#x7269;&#x9986; <pr>b&oacute;w&ugrave;gu&#x1CE;n</pr></trd>
+  <trd lng="zh">&#21338;&#29289;&#39302; <pr>b&oacute;w&ugrave;gu&#462;n</pr></trd>
 </drv>
 
 <drv mrk="muze.0scienco">
@@ -131,13 +131,14 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="muzeologi.0o">muzeologio</ref>
   </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
     <trd>&c_m;&c_u;&c_z;&c_e;&c_ja;&c_z;&c_n;&c_a;&c_w;&c_s;&c_t;&c_v;&c_a;</trd>,
     <trd>&c_m;&c_u;&c_z;&c_e;&c_ja;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
   </trdgrp>
-  <trd lng="de">Museologe</trd>
-  <trd lng="fa">&a_m;&a_w;&a_z;&a_h;&#x200C;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>
+  <trd lng="de">Museologie</trd>
+  <trd lng="fa">&a_m;&a_w;&a_z;&a_h;&zwnj;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>
   <trd lng="fr">mus&eacute;ologie</trd>
   <trd lng="id">museologi</trd>
   <trd lng="it">museologia</trd>
@@ -154,13 +155,14 @@
     <dif>
       Fakulo pri <tld/>scienco.
     </dif>
+    <ref tip="sin" cel="muzeolog.0o">muzeologo</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_m;&c_u;&c_z;&c_e;&c_ja;&c_z;&c_n;&c_a;&c_v;&c_je;&c_c;</trd>,
     <trd>&c_m;&c_u;&c_z;&c_e;&c_ja;&c_z;&c_n;&c_a;&c_w;&c_c;&c_a;</trd>
   </trdgrp>
-  <trd lng="de">Museologie</trd>
-  <trd lng="fa">&a_m;&a_w;&a_z;&a_h;&#x200C;&a_sh;&a_n;&a_A;&a_s;</trd>
+  <trd lng="de">Museologe</trd>
+  <trd lng="fa">&a_m;&a_w;&a_z;&a_h;&zwnj;&a_sh;&a_n;&a_A;&a_s;</trd>
   <trd lng="fr">mus&eacute;ologue</trd>
   <trd lng="id">museolog</trd>
   <trdgrp lng="nl">
@@ -172,6 +174,9 @@
 </art>
 <!--
 $Log$
+versio 1.33 2024/01/25 21:18:59
+Wolfram Diestel: fnt JED, kor. trd de, +ref
+
 versio 1.32 2023/10/19 18:36:53
 revo: transskribo per <pr>
 
@@ -191,8 +196,5 @@ Revision 1.23  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.22  2015/06/29 16:33:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.21  2014/06/27 14:10:15  revo
 -->
 </vortaro>
