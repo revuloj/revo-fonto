@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: san.xml,v 1.104 2024/01/12 07:24:15 revo Exp $">
+<art mrk="$Id: san.xml,v 1.105 2024/02/02 01:22:55 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>san</rad>/a
@@ -288,7 +288,7 @@
   </trdgrp>
   <trd lng="he">&bet;&resh;&yod;&alef;&vav;&tav;</trd>
   <trd lng="hu">eg&eacute;szs&eacute;g</trd>
-  <trd lng="id">ke<ind>sehat</ind>an</trd>
+  <trd lng="id"><baz>sehat</baz>kesehatan</trd>
   <trd lng="it">salute</trd>
   <trd lng="ja">&#20581;&#24247;  <pr>&#12369;&#12435;&#12371;&#12358;</pr></trd>
   <trd lng="nl">gezondheid</trd>
@@ -957,7 +957,10 @@
     <trd>maladif</trd>
   </trdgrp>
   <trd lng="id"><baz>sakit</baz>berpenyakit</trd>
-  <trd lng="id"><ind>sakit</ind>-sakitan</trd>
+  <trdgrp lng="id">
+    <trd><baz>sakit</baz>sakit-sakitan</trd>,
+    <trd><baz>sakit</baz>berpenyakit</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>cagionevole</trd>,
     <trd>malaticcio</trd>
@@ -1192,7 +1195,7 @@
   </trdgrp>
   <trd lng="he">&bet;&yod;&tav; &het;&vav;&lamed;&yod;&fmem;</trd>
   <trd lng="hu">k&oacute;rh&aacute;z</trd>
-  <trd lng="id">rumah sakit</trd>
+  <trd lng="id"><ind>rumah</ind> sakit</trd>
   <trd lng="it">ospedale</trd>
   <trd lng="ja">&#30149;&#38498;  <pr>&#12403;&#12423;&#12358;&#12356;&#12435;</pr></trd>
   <trd lng="nl">ziekenhuis</trd>
@@ -1434,7 +1437,10 @@
   </trdgrp>
   <trd lng="fr">gu&eacute;rir<klr tip="amb"> (intr.)</klr></trd>
   <trd lng="hu">meggy&oacute;gyul</trd>
-  <trd lng="id">sembuh</trd>
+  <trdgrp lng="id">
+    <trd>sembuh</trd>,
+    <trd>pulih</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>guarire<klr> (ntr.)</klr></trd>,
     <trd>risanarsi</trd>
@@ -1837,6 +1843,9 @@
 </art>
 <!--
 $Log$
+versio 1.105 2024/02/02 01:22:55
+Eko Nur Syah Hidayat: +trd id 2
+
 versio 1.104 2024/01/12 07:24:15
 Wolfram Diestel: +mal~iga
 
@@ -1856,7 +1865,5 @@ versio 1.98 2023/04/26 12:45:57
 
 versio 1.97 2023/04/25 15:27:38
 Paul Peeraerts: @Steloj -> @Monato
-
-versio 1.96 2023/04/24 06:32:34
 -->
 </vortaro>
