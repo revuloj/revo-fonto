@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: paletr.xml,v 1.28 2023/10/20 14:25:19 revo Exp $">
+<art mrk="$Id: paletr.xml,v 1.29 2024/02/10 21:21:20 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>paletr</rad>/o
+  <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="paletr.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -23,6 +24,7 @@
       </ekz>
     </dif>
     <trd lng="de">Farbpalette</trd>
+    <ref tip="sin" cel="plat.farbo0o.BELA">farboplato</ref>
   </snc>
   <snc mrk="paletr.0o.figure">
     <uzo tip="stl">FIG</uzo>
@@ -53,7 +55,19 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Repertoire</trd>
+    <refgrp tip="vid">
+      <ref cel="gam.0o.FIG">gamo</ref>,
+      <ref cel="repert.0o">repertuaro</ref>,
+      <ref cel="sortim.0o">sortimento</ref>,
+      <ref cel="spektr.0o.FIG">spektro</ref>
+    </refgrp>
+  <trdgrp lng="de">
+    <trd>Angebot <klr>(Sortiment)</klr></trd>,
+    <trd>Breite <klr>(M&ouml;glichkeiten)</klr></trd>,
+    <trd>Repertoire</trd>,
+    <trd>Sortiment</trd>,
+    <trd>Spektrum <klr>(Palette)</klr></trd>
+  </trdgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_l;&c_ib;&c_t;&c_r;&c_a;</trd>
   <trd lng="ca">paleta</trd>
@@ -65,7 +79,7 @@
   <trd lng="hu">paletta</trd>
   <trdgrp lng="ja">
     <trd>&#x30D1;&#x30EC;&#x30C3;&#x30C8;</trd>,
-    <trd>&#x8272;&#x8ABF;  <pr>&#x3057;&#x304D;&#x3061;&#x3087;&#x3046;</pr></trd>
+    <trd>&#33394;&#x8ABF;  <pr>&#12375;&#x304D;&#12385;&#12423;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="nl">palet</trd>
   <trd lng="no">palett</trd>
@@ -81,6 +95,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2024/02/10 21:21:20
+Wolfram Diestel: +ref-oj, trd de
+
 versio 1.28 2023/10/20 14:25:19
 revo: transskribo per <pr>
 
@@ -100,8 +117,5 @@ Revision 1.20  2018/11/30 21:10:14  revo
 Wolfram Diestel: +snc figure, +ekz-oj
 
 Revision 1.19  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.18  2015/06/29 16:40:17  revo
 -->
 </vortaro>
