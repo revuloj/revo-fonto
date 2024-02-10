@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: oftalmologi.xml,v 1.18 2024/01/30 16:09:26 revo Exp $">
+<art mrk="$Id: oftalmologi.xml,v 1.19 2024/02/10 12:34:30 revo Exp $">
 <kap>
   <rad>oftalmologi</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,8 +10,9 @@
   <snc mrk="oftalmologi.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Medicina fako, kiu studas la <ref tip="vid" cel="fiziol1.0o">fiziologion</ref> kaj la <ref tip="vid" cel="patolo.0o">patologion</ref> de la okuloj kaj de iliaj
-      aneksoj:
+      Medicina <ref tip="super" cel="fak.0o.brancxo">fako</ref>, kiu studas la <ref tip="vid" cel="fiziol1.0o">fiziologion</ref>
+      kaj la <ref tip="vid" cel="patolo.0o">patologion</ref> de la okuloj kaj kaj kunligitaj
+      organoj:
       <ekz>
         li voja&gcirc;is al Vieno por studadi <tld/>on
         <fnt><bib>VivZam</bib> <lok>&ccirc;apitro 5a, p. 49a</lok></fnt>;
@@ -19,14 +20,15 @@
       <ekz>
         mi estis malvolonte enkarcerigita pro grava okulo-malsano en
         <tld/>a malsanulejo
-         <fnt><aut>Garbhan MacAoidh</aut>, 
-         <vrk><url ref="&Monato;/2001/007517.html">Perdita
-      paradizo</url></vrk>
-      <bib>Monato</bib>
-      <lok>2002/08, p.
-      8</lok></fnt>.
+        <fnt><aut>Garbhan MacAoidh</aut>,
+          <vrk><url ref="&Monato;/2001/007517.html">Perdita paradizo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2002/08, p.
+          8</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="kurac.okul0o">okulkuracado</ref>
     <ref tip="vid" cel="oftalmolog.0o">oftalmologo</ref>
   </snc>
   <trd lng="be">&c_a;&c_f;&c_t;&c_a;&c_l;&c_mol;&c_m;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
@@ -36,7 +38,10 @@
     <trd>oftalmologie</trd>,
     <trd>o&ccaron;n&iacute; l&eacute;ka&rcaron;stv&iacute;</trd>
   </trdgrp>
-  <trd lng="de">Augenheilkunde</trd>
+  <trdgrp lng="de">
+    <trd>Augenheilkunde</trd>,
+    <trd>Ophthalmologie</trd>
+  </trdgrp>
   <trd lng="en">ophthalmology</trd>
   <trd lng="es">oftalmolog&iacute;a</trd>
   <trd lng="fr">ophtalmologie</trd>
@@ -44,7 +49,7 @@
     <trd>szem&eacute;szet</trd>,
     <trd>oftalmol&oacute;gia</trd>
   </trdgrp>
-  <trd lng="ja">&#x773C;&#x79D1;  <pr>&#x304C;&#x3093;&#x304B;</pr></trd>
+  <trd lng="ja">&#30524;&#31185;  <pr>&#12364;&#12435;&#12363;</pr></trd>
   <trdgrp lng="nl">
     <trd>oftalmologie</trd>,
     <trd>oogheelkunde</trd>
@@ -58,17 +63,20 @@
   <trd lng="ro">oftalmologie</trd>
   <trd lng="ru">&c_o;&c_f;&c_t;&c_a;&c_l;&c_mol;&c_m;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
   <trd lng="sk">o&ccaron;n&eacute; lek&aacute;rstvo</trd>
-  <trd lng="uk">&#x43E;&c_f;&c_t;&c_a;&#x43B;&#x44C;&#x43C;&#x43E;&#x43B;&#x43E;&c_g;&c_ib;&#x44F;</trd>
+  <trd lng="uk">&c_o;&c_f;&c_t;&c_a;&c_l;&c_mol;&c_m;&c_o;&c_l;&c_o;&c_g;&c_ib;&c_ja;</trd>
   <trdgrp lng="zh">
-    <trd>&#x773C;&#x79D1; <pr>y&#x1CE;nk&#x113;</pr></trd>,
-    <trd>&#x773C;&#x79D1;&#x5B66; <pr>y&#x1CE;nk&#x113;xu&#xE9;</pr></trd>,
-    <trd>&#x773C;&#x79D1;&#x5B78; <pr>y&#x1CE;nk&#x113;xu&#xE9;</pr></trd>
+    <trd>&#30524;&#31185; <pr>y&#462;nk&emacron;</pr></trd>,
+    <trd>&#30524;&#31185;&#23398; <pr>y&#462;nk&emacron;xu&eacute;</pr></trd>,
+    <trd>&#30524;&#31185;&#23416; <pr>y&#462;nk&emacron;xu&eacute;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.19 2024/02/10 12:34:30
+Wolfram Diestel: +sin, trd de
+
 versio 1.17 2023/10/20 13:11:47
 revo: transskribo per <pr>
 
@@ -88,8 +96,5 @@ Revision 1.9  2009/10/06 16:43:51  revo
 Wieland Pusch: +trd bg
 
 Revision 1.8  2009/10/04 16:30:43  revo
-Paul Peeraerts: +nl +ref
-
-Revision 1.7  2006/04/20 19:24:19  revo
 -->
 </vortaro>
