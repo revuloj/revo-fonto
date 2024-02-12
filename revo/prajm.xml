@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: prajm.xml,v 1.23 2023/10/20 16:38:17 revo Exp $">
+<art mrk="$Id: prajm.xml,v 1.24 2024/02/12 09:23:36 revo Exp $">
 <kap>
-  <rad>prajm</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>prajm</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="prajm.0o">
   <kap><tld/>o</kap>
   <snc mrk="prajm.0o.ARM">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Ujeto, enhavanta eksplodeman substancon kaj per kiu oni
+      <ref tip="super" cel="eksplo.0igilo.TEK">Eksplodigilo<sncref/></ref>,
+      enhavanta eksplodeman substancon kaj per kiu oni
       eksplodigas la pulvon de <ref tip="malprt" cel="kartoc.0o.MIL">karto&ccirc;o</ref>:
       <ekz>
-        <nom>Johann Nikolaus von Dreyse</nom> <klr>[&#x2026;]</klr> en 1827 <klr>[&#x2026;]</klr> sukcesis
+        <nom>Johann Nikolaus von Dreyse</nom> <klr>[&#8230;]</klr> en 1827 <klr>[&#8230;]</klr> sukcesis
         konstrui
         nadlo-<tld/>an fusilon, kies <tld/>a mekanismo estis komplete interna,
-        do bone protektita, &gcirc;i estis &scirc;argata per nura karto&ccirc;o, kiu enhavis kuglon, 
+        do bone protektita, &gcirc;i estis &scirc;argata per nura karto&ccirc;o, kiu enhavis kuglon,
         pulvon kaj <tld/>on
         <fnt>
           <bib>Viki</bib>
@@ -38,7 +39,10 @@
     <trd>rozn&ecaron;tka</trd>,
     <trd>z&aacute;palka <klr>(n&aacute;boje)</klr></trd>
   </trdgrp>
-  <trd lng="de">Z&uuml;ndkapsel</trd>
+  <trdgrp lng="de">
+    <trd>Z&uuml;ndkapsel</trd>,
+    <trd>Sprengkapsel</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>detonator</trd>,
     <trd>percussion cap</trd>,
@@ -54,8 +58,8 @@
     <trd>detonatore</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x96F7;&#x7BA1;  <pr>&#x3089;&#x3044;&#x304B;&#x3093;</pr></trd>,
-    <trd>&#x4FE1;&#x7BA1;  <pr>&#x3057;&#x3093;&#x304B;&#x3093;</pr></trd>
+    <trd>&#38647;&#31649;  <pr>&#12425;&#12356;&#12363;&#12435;</pr></trd>,
+    <trd>&#20449;&#31649;  <pr>&#12375;&#12435;&#12363;&#12435;</pr></trd>
   </trdgrp>
   <trd lng="nl">slaghoedje</trd>
   <trdgrp lng="pl">
@@ -78,33 +82,61 @@
   </trdgrp>
   <trd lng="sk">rozbu&scaron;ka <klr>(tech.)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_ib;&c_s;&c_t;&#x43E;&#x43D;</trd>,
-    <trd>&#x43A;&c_a;&#x43F;&c_s;&c_u;&#x43B;&#x44C;</trd>,
-    <trd>&c_z;&c_a;&#x43F;&c_a;&#x43B;</trd>,
-    <trd>&c_d;&c_je;&c_t;&#x43E;&#x43D;&c_a;&c_t;&#x43E;&c_r;</trd>,
-    <trd>&#x43F;&c_ib;&c_d;&c_r;&c_i;&c_v;&#x43D;&c_i;&#x43A;</trd>,
-    <trd>&c_v;&c_i;&c_s;&c_a;&c_d;&#x43D;&c_i;&#x43A;</trd>
+    <trd>&c_p;&c_ib;&c_s;&c_t;&c_o;&c_n;</trd>,
+    <trd>&c_k;&c_a;&c_p;&c_s;&c_u;&c_l;&c_mol;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_a;&c_l;</trd>,
+    <trd>&c_d;&c_je;&c_t;&c_o;&c_n;&c_a;&c_t;&c_o;&c_r;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_r;&c_i;&c_v;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_v;&c_i;&c_s;&c_a;&c_d;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
 </drv>
 
-<!-- ne trovis uzata...
 <drv mrk="prajm.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="prajm.0i.ARM">
+  <snc mrk="prajm.0i.provizi">
+    <fnt><bib>PVEF</bib></fnt>
     <dif>
-      Meti <tld/>on.
+      Provizi per <tld/>o.
     </dif>
+    <trd lng="cs">zp&uring;sobit rozn&ecaron;t</trd>
+    <trdgrp lng="de">
+      <trd><ind>Z&uuml;ndkapsel</ind> aufsetzen</trd>,
+      <trd>anw&uuml;rgen</trd>
+    </trdgrp>
+    <trd lng="nl">v.e. <ind>slaghoedje</ind> voorzien</trd>
+    <trd lng="pl">uzbroi&cacute;</trd>
+    <trd lng="ru">&c_v;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;
+    <ind>&c_z;&c_a;&c_p;&c_a;&c_l;</ind></trd>
+    <trd lng="sk">sp&ocirc;sobi&tcaron; roznet</trd>
   </snc>
-  <trd lng="cs">zp&uring;sobit rozn&ecaron;t</trd>
-  <trd lng="de">Z&uuml;ndkapsel aufsetzen</trd>
-  <trd lng="nl">v.e. <ind>slaghoedje</ind> voorzien</trd>
-  <trd lng="pl">uzbroi&cacute;</trd>
-  <trd lng="ru">&c_v;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;
-  <ind>&c_z;&c_a;&c_p;&c_a;&c_l;</ind></trd>
-  <trd lng="sk">sp&ocirc;sobi&tcaron; roznet</trd>
+  <snc mrk="prajm.0i.eksplodigi">
+    <dif>
+      <ref tip="super" cel="eksplo.0igi">Eksplodigi</ref> la <tld/>on:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <nom>Auld</nom> poiome fari&gcirc;is ikono de la movado, li mem nek <tld/>is nek nutris tiun
+        disvolvi&gcirc;on, sed li akceptis &gcirc;in pasive
+        <fnt>
+          <vrk><url ref="https://www.liberafolio.org/arkivo/www.liberafolio.org/2006/auldneves/"
+              >Mortis la bonzo, restu la bardo </url></vrk>
+          <lok>Libera Folio, 2006-10-14</lok>
+        </fnt>.
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        franca ministro pri eksteraj aferoj, per publika deklaro <tld/>is la procezon
+        kiu kondukos &gcirc;is la nuna E&ubreve;ropa Unio
+        <fnt>
+          <vrk><url ref="https://www.esperantio.net/index.php?id=4047"
+              >Kiom e&ubreve;ropisma estas Esperantio?</url></vrk>
+          <lok>HeKo 734 7-E, 9 maj 2020</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">z&uuml;nden <klr>(Sprengladung)</klr></trd>
+  </snc>
 </drv>
--->
 
 <drv mrk="prajm.sen0igi">
   <kap>sen<tld/>igi</kap>
@@ -121,6 +153,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">entsch&auml;rfen</trd>
   <trd lng="en">defuse</trd>
   <trd lng="fr">d&eacute;samorcer</trd>
   <trd lng="pl">rozbroi&cacute;</trd>
@@ -129,11 +162,14 @@
 </art>
 <!--
 $Log$
+versio 1.24 2024/02/12 09:23:36
+Wolfram Diestel: +ekz-oj, fnt PVEF, remetis ~i aldonante snc eksplodigi
+
 versio 1.23 2023/10/20 16:38:17
 revo: transskribo per <pr>
 
 versio 1.21 2022/05/12 21:28:21
-Vito Redsky: + trd pl + trd ro 
+Vito Redsky: + trd pl + trd ro
 
 versio 1.19 2022/02/21 11:40:25
 Noam Mohr: +trd en prajmo
@@ -148,8 +184,5 @@ Revision 1.15  2015/07/04 08:37:41  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.14  2015/06/29 16:40:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.13  2013/08/12 17:10:16  revo
 -->
 </vortaro>
