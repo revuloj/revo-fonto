@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: prepos.xml,v 1.16 2024/02/13 18:29:38 revo Exp $">
+<art mrk="$Id: prepos.xml,v 1.17 2024/02/15 06:26:47 revo Exp $">
 <kap>
   <rad>prepost</rad>/o
   <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="prepos.0o">
   <kap><tld/>o</kap>
-  <snc mrk="prepos.0o.KRI">
-    <uzo tip="fak">KRI</uzo>
+  <uzo tip="fak">KRI</uzo>
+  <snc mrk="prepos.0o.de_distrikto">
     <dif>
       Eklezia ofico range inter <ref cel="prelat.0o">prelato</ref>
-      kaj <ref cel="episko.0o">episkopo</ref>; estro de <tld/>ejo:
+      kaj <ref cel="episko.0o">episkopo</ref>, respondeca pri pluraj paro&hcirc;oj
+      ene de diocezo:
       <ekz>
         la patro estis promociita kaj fari&gcirc;is <tld/>o
         <fnt>
@@ -37,6 +38,9 @@
     <refgrp tip="sin">
       <ref cel="parohx">paro&hcirc;estro</ref>
     </refgrp>
+  </snc>
+  <snc mrk="prepos.0o.de_kapitulo">
+    <dif><klr>(en la romkatolika eklezio)</klr> Estro de <ref tip="malprt" cel="kapitul1.0o.KAT">kapitulo</ref>.</dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_o;&c_b;&c_a;&c_sh;&c_ch;</trd>
   <trdgrp lng="de">
@@ -72,30 +76,19 @@
     <tld/>ejo
   </kap>
   <uzo tip="fak">KRI</uzo>
-  <snc mrk="prepos.0ejo.pregxejo">
+  <snc mrk="prepos.0ejo.sidejo">
     <dif>
-      &Ccirc;efa <ref tip="super" cel="pregx.0ejo">pre&gcirc;ejo</ref> de urbo a&ubreve; regiono, distingigita de la
-      papo a&ubreve; dioceza episkopo kaj
-      estrata de <tld/>o; la sidejo de <tld/>o:
+      La sidejo de <tld/>o, &ccirc;e la
+      &ccirc;efa <ref tip="super" cel="pregx.0ejo">pre&gcirc;ejo</ref> de urbo a&ubreve; regiono, distingigita de la
+      papo a&ubreve; dioceza episkopo kaj estrata de <tld/>o:
       <ekz>
-        En drinkej&#8217; oni krias, <tld/>ejo helas &#11005; &Ccirc;iuj kuras, demandas: kion oni celas
+        En drinkej&#8217; oni krias, <tld/>ejo helas &parsl; &Ccirc;iuj kuras, demandas: kion oni celas
         <fnt>
           <bib>SrT</bib>
           <lok>Libro VI.</lok>
         </fnt>?
       </ekz>
     </dif>
-    <trd lng="de">Propsteikirche</trd>
-  </snc>
-  <snc mrk="prepos.0ejo.subdiocezo">
-    <dif>
-      <klr>(en la evangelia eklezio)</klr> Administra unuo el pluraj <ref tip="prt"
-      cel="parohx.0o">paro&hcirc;o</ref>j,
-      subdivido de <ref tip="malprt" cel="diocez.0o.KRI">diocezo</ref> kaj estrata de <tld/>o.
-    </dif>
-  </snc>
-  <snc mrk="prepos.0ejo.kapitulo">
-    <dif><klr>(en la romkatolika eklezio)</klr> <ref cel="kapitul1.0o.KAT">Kapitulo</ref>.</dif>
   </snc>
   <trd lng="de">Propstei</trd>
 </drv>
@@ -103,6 +96,9 @@
 </art>
 <!--
 $Log$
+versio 1.17 2024/02/15 06:26:47
+Wolfram Diestel: koncizigo de la artikolo
+
 versio 1.16 2024/02/13 18:29:38
 Wolfram Diestel: +trd it, adaptetoj
 
@@ -122,8 +118,5 @@ versio 1.9 2022/02/17 08:33:13
 Dmitri Gabinski: + trd be
 
 Revision 1.7  2006/03/20 17:31:49  revo
-Tulio Flores: +tr pt
-
-Revision 1.6  2004/08/27 16:31:32  revo
 -->
 </vortaro>
