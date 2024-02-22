@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxarg.xml,v 1.114 2024/02/17 01:22:00 revo Exp $">
+<art mrk="$Id: sxarg.xml,v 1.115 2024/02/22 01:22:04 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&scirc;arg</rad>/i
@@ -11,6 +11,7 @@
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="sxarg.0i.aparaton">
+    <uzo tip="fak">MAS</uzo>
     <dif>
       Provizi aparaton je konsuma&jcirc;o, forto, energio necesa por
       &gcirc;ia funkciado:
@@ -19,6 +20,7 @@
       </ekz>
     </dif>
     <subsnc mrk="sxarg.0i.pafilon">
+      <uzo tip="fak">MIL</uzo>
       <dif>
         Enmeti eksploda&jcirc;on kaj pafa&jcirc;on en ian ajn pafilon:
         <ekz>
@@ -57,15 +59,6 @@
       <dif>
         Provizi elektran fonton, ekz. akumulatoron:
         <ekz>
-          la uzo de re<tld/>eblaj piloj estus e&ccirc; pli bona, ol la reportado de malplenaj ekzempleroj
-          <klr>(al la vendejo)</klr>
-          <fnt>
-            <bib>Monato</bib>
-            <aut>Pa&ubreve;l Peeraerts</aut>
-            <vrk><url ref="&Monato;/2008/009656.php">Belgio pintas</url></vrk>
-          </fnt>;
-        </ekz>
-        <ekz>
           &gcirc;i havas akumulatoron kun kapacito sufi&ccirc;a por tuta tago, tiel ke sufi&ccirc;as &ccirc;iunokte remeti
           la tabulon en &gcirc;ian <tld/>odokon
           <fnt>
@@ -73,14 +66,6 @@
             <aut>Franck Arnaud</aut>
             <vrk><url ref="&Monato;/2010/010076.php">Parto 3: Apple iPad &dash; &ccirc;u revolucio a&ubreve;
             evolucio?</url></vrk>
-          </fnt>;
-        </ekz>
-        <ekz>
-          mal<tld/>i&gcirc;inta baterio
-          <fnt>
-            <bib>Monato</bib>
-            <aut>Walter Klag</aut>
-            <vrk><url ref="&Monato;/2014/011240.php">Elektro elektita</url></vrk>
           </fnt>;
         </ekz>
         <ekz>
@@ -504,9 +489,70 @@
     <trd>&c_z;&c_a;&c_v;&c_a;&c_n;&c_t;&c_a;&c_zh;&c_u;&c_v;&c_a;&c_ch;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="sxarg.mal0i">
+  <kap>mal<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="sxarg.mal0i.MAS">
+    <dif>
+      Senigi je energio, pafa&jcirc;o, provizo:
+      <ekz>
+        mal<tld/>i mian pistolon
+        <fnt>
+          <aut>A. Pu&scirc;kin, trad. A. Fi&scirc;er</aut>
+          <vrk><url ref="https://eo.wikisource.org/wiki/La_Pafo">
+          La Pafo</url></vrk>
+          <lok>1913</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">d&eacute;charger</trd>
+</drv>
+
+<drv mrk="sxarg.mal0igxi">
+  <kap>mal<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="sxarg.mal0igxi.MAS">
+    <dif>
+      Forperdi, el&ccirc;erpi sian &scirc;argon:
+        <ekz>
+          mal<tld/>i&gcirc;inta baterio
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Walter Klag</aut>
+            <vrk><url ref="&Monato;/2014/011240.php">Elektro elektita</url></vrk>
+          </fnt>.
+        </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se d&eacute;charger</trd>
+</drv>
+
+<drv mrk="sxarg.re0ebla">
+  <kap>re<tld/>ebla</kap>
+  <snc mrk="sxarg.re0ebla.MAS">
+    <dif>
+      Kiu povas ricevi novan <tld/>on post mal<tld/>i&gcirc;o:
+        <ekz>
+          la uzo de re<tld/>eblaj piloj estus e&ccirc; pli bona, ol la reportado de malplenaj ekzempleroj
+          <klr>(al la vendejo)</klr>
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Pa&ubreve;l Peeraerts</aut>
+            <vrk><url ref="&Monato;/2008/009656.php">Belgio pintas</url></vrk>
+          </fnt>.
+        </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">rechargeable</trd>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.115 2024/02/22 01:22:04
+Jeromo Vasxe: + mal~i/igxi + re~ebla
+
 versio 1.114 2024/02/17 01:22:00
 Jeromo Vasxe: + ~igxi
 
@@ -526,8 +572,5 @@ versio 1.108 2022/05/05 14:43:49
 aktualigo lingvokodoj kaj URL-unuoj
 
 Revision 1.31  2019/06/30 18:21:50  revo
-adaptis URL de Monato
-
-Revision 1.30  2018/10/11 20:10:15  revo
 -->
 </vortaro>
