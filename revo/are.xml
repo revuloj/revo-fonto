@@ -1,39 +1,67 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: are.xml,v 1.101 2023/10/28 08:33:08 revo Exp $">
+<art mrk="$Id: are.xml,v 1.102 2024/02/23 18:26:25 revo Exp $">
 <kap>
   <ofc>9</ofc>
   <rad>are</rad>/o
-  <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="are.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
   <snc mrk="are.0o.KOMUNE">
+    <fnt><bib>PV</bib></fnt>
     <dif>
       Parto de la tera surfaco, kun difinitaj limoj a&ubreve; difinita
       uzo:
       <ekz>
-        la inundo kovris milhektaran <tld/>on;
+        <klr>[jen]</klr> plano de la <tld/>o
+        <fnt>
+          <bib>ChB</bib>
+          <lok>19</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        alteri&gcirc;a <tld/>o;
+        &ccirc;u vi ne konas persone tiun civitanon, al kiu vi disponigis la <tld/>on
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>?
       </ekz>
       <ekz>
-        tie estas parka <tld/>o, kie oni povas promeni
-        <fnt><bib>OA9</bib></fnt>;
+        eksplodo <klr>[&#8230;]</klr> ka&ubreve;zis la formadon de radioaktiva nubo sur <tld/>o de
+        proksimume 23&#8239;000 kvadrataj kilometroj
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kulturata <tld/>o
-        <fnt><bib>OA9</bib></fnt>.
+        oni simple boras putojn en foraj, preska&ubreve; tute senhomaj <tld/>oj
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Klimata &scirc;an&gcirc;i&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li volis lumigi al tiu <tld/>o kaj peti klarigojn, sed Re&gcirc;ino <klr>[&#8230;]</klr> sin
+        &scirc;irmis malanta&ubreve; malprecizajn frazojn
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="teren.0o">tereno</ref>,
       <ref cel="aren.0o">areno</ref>,
-      <ref cel="region.0o">regiono</ref>.
+      <ref cel="parcel.0o">parcelo</ref>,
+      <ref cel="region.0o">regiono</ref>,
+      <ref cel="teren.0o">tereno</ref>
     </refgrp>
-    <trd lng="de">Fl&auml;che</trd>
+    <trdgrp lng="de">
+      <trd>Gel&auml;nde</trd>,
+      <trd>Gebiet</trd>
+    </trdgrp>
     <trd lng="nl">oppervlak</trd>
     <trdgrp lng="pl">
       <trd>powierzchnia</trd>,
@@ -41,10 +69,10 @@
       <trd>obszar</trd>
     </trdgrp>
     <trdgrp lng="zh">
-    <trd>&#x5730;&#x76D8; <pr>d&#xEC;p&#xE1;n</pr></trd>,
-    <trd>&#x5730;&#x76E4; <pr>d&#xEC;p&#xE1;n</pr></trd>
-  </trdgrp>
-</snc>
+      <trd>&#22320;&#30424; <pr>d&igrave;p&aacute;n</pr></trd>,
+      <trd>&#22320;&#30436; <pr>d&igrave;p&aacute;n</pr></trd>
+    </trdgrp>
+  </snc>
   <snc mrk="are.0o.parto">
     <dif>
       Difinita parto de <ref tip="malprt" cel="surfac.0o.KOMUNE">surfaco<sncref/></ref>:
@@ -55,13 +83,26 @@
           <aut>M. Vrazitulis</aut>
           <vrk><url ref="https://tubaro.aperu.net/v/ytb_JWSsrZFwddg/">Kiel nia cerbo komprenas lingva&jcirc;on?</url></vrk>
           <lok>TEJO Esperanto, 2022-06-07</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per aktivado de specifaj cerbaj <tld/>oj, oni scias ke
+        <klr>[amo]</klr> povas krei dependecon, vuali la racion kaj ju&gcirc;kapablojn
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Intervjuo</lok>
         </fnt>.
       </ekz>
     </dif>
+  <trdgrp lng="de">
+    <trd>Areal</trd>,
+    <trd>Region</trd>
+  </trdgrp>
   </snc>
   <snc mrk="are.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="are.0o.mezuro">
+      <fnt><bib>JED</bib></fnt>
       <fnt><bib>MatTerm</bib><lok>p. 29</lok></fnt>
       <dif>
         Mezuro de <ref cel="surfac.0o.MAT">surfaco</ref>:
@@ -72,7 +113,15 @@
         <ekz>
           la <tld/>o de <ref cel="cirkl.0o.surfaco">cirklo</ref> estas
           proporcia al la <ref cel="kvadra1.0o.algebra">kvadrato</ref>
-          de &gcirc;ia radiuso.
+          de &gcirc;ia radiuso;
+        </ekz>
+        <ekz>
+          &scirc;i sukcesis meti <klr>[la librojn]</klr> sur ses librobretojn en &ccirc;ambro kun
+          <tld/>o de malpli ol 10 kvadrataj metroj
+          <fnt>
+            <bib>Kon11</bib>
+            <lok>El &Ccirc;inio</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trd lng="de">Fl&auml;cheninhalt</trd>
@@ -91,7 +140,7 @@
         <ref cel="sinus.are0o"><tld/>sinuso</ref>,
         <ref cel="kosinu.are0o"><tld/>kosinuso</ref>,
         <ref cel="tangen.are0o"><tld/>tangento</ref>,
-        <ref cel="kotang.are0o"><tld/>kotangento</ref>.
+        <ref cel="kotang.are0o"><tld/>kotangento</ref>
       </refgrp>
       <rim>
         Ne temas pri vera senco, sed pri uzo de la radiko
@@ -99,7 +148,7 @@
         kunmeta&jcirc;ojn pro imito al internacia
         uzo. Supozeble estus preferinde konsideri la rezultajn
         kunmeta&jcirc;ojn kiel apartajn radikojn. La problemo similas al
-        tiu de <ref cel="ark.0o.angulo">arko <sncref/></ref>.
+        tiu de <ref cel="ark.0o.angulo">arko<sncref/></ref>.
       </rim>
     </subsnc>
   </snc>
@@ -118,21 +167,21 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="metr.kvadrata0o">kvadrata metro</ref>.
+      <ref cel="metr.kvadrata0o">kvadrata metro</ref>
     </refgrp>
     <trd lng="pl">pole<klr> powierzchni</klr></trd>
   </snc>
   <trd lng="af">gebied</trd>
-  <trd lng="am">&#x12A0;&#x12AB;&#x1263;&#x1262;</trd>
+  <trd lng="am">&#4768;&#4779;&#4707;&#4706;</trd>
   <trd lng="ar">&a_m;&a_n;&a_T;&a_q;&a_t_marbuta;</trd>
-  <trd lng="az">sah&#x259;si</trd>
+  <trd lng="az">sah&#601;si</trd>
   <trdgrp lng="be">
     <trd>&c_p;&c_l;&c_o;&c_sh;&c_ch;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_s;&c_t;&c_o;&c_r;&c_a;</trd>,
     <trd>&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;&c_n;&c_ja;</trd>,
     <trd>&c_z;&c_o;&c_n;&c_a;</trd>
   </trdgrp>
-  <trd lng="bn">&#x995;&#x9CD;&#x9B7;&#x9C7;&#x9A4;&#x9CD;&#x9B0;</trd>
+  <trd lng="bn">&#2453;&#2509;&#2487;&#2503;&#2468;&#2509;&#2480;</trd>
   <trd lng="bs">podru&ccaron;ju</trd>
   <trd lng="co">spaziu</trd>
   <trd lng="cy">ardal</trd>
@@ -156,9 +205,9 @@
   <trd lng="ga">limist&eacute;ar</trd>
   <trd lng="gd">sg&igrave;re</trd>
   <trd lng="gl">&aacute;rea</trd>
-  <trd lng="gu">&#xAB5;&#xABF;&#xAB8;&#xACD;&#xAA4;&#xABE;&#xAB0;</trd>
-  <trd lng="he">&alef;&#x5B5;&zayin;&vav;&#x5B9;&resh;</trd>
-  <trd lng="hi">&#x915;&#x94D;&#x937;&#x947;&#x924;&#x94D;&#x930;</trd>
+  <trd lng="gu">&#2741;&#2751;&#2744;&#2765;&#2724;&#2750;&#2736;</trd>
+  <trd lng="he">&alef;&#1461;&zayin;&vav;&#1465;&resh;</trd>
+  <trd lng="hi">&#2325;&#2381;&#2359;&#2375;&#2340;&#2381;&#2352;</trd>
   <trd lng="hmn">cheeb tsam</trd>
   <trd lng="hr">podru&ccaron;je</trd>
   <trd lng="ht">z&ograve;n</trd>
@@ -167,34 +216,34 @@
     <trd>fel&uuml;let<klr tip="ind"> (ter&uuml;letr&eacute;sz)</klr>
     </trd>
   </trdgrp>
-  <trd lng="hy">&#x577;&#x580;&#x57B;&#x561;&#x576;</trd>
+  <trd lng="hy">&#1399;&#1408;&#1403;&#1377;&#1398;</trd>
   <trd lng="ig">mpaghara</trd>
-  <trd lng="is">sv&aelig;&#xF0;i</trd>
-  <trd lng="ja">&#x30A8;&#x30EA;&#x30A2;</trd>
-  <trd lng="ka">&#x10E4;&#x10D0;&#x10E0;&#x10D7;&#x10D8;</trd>
+  <trd lng="is">sv&aelig;ði</trd>
+  <trd lng="ja">&#12456;&#12522;&#12450;</trd>
+  <trd lng="ka">&#4324;&#4304;&#4320;&#4311;&#4312;</trd>
   <trd lng="kk">&c_a;&c_u;&c_d;&c_a;&c_n;</trd>
-  <trd lng="km">&#x178F;&#x17C6;&#x1794;&#x1793;&#x17CB;</trd>
-  <trd lng="kn">&#xCAA;&#xCCD;&#xCB0;&#xCA6;&#xCC7;&#xCB6;</trd>
-  <trd lng="ko">&#xC9C0;&#xC5ED;</trd>
+  <trd lng="km">&#6031;&#6086;&#6036;&#6035;&#6091;</trd>
+  <trd lng="kn">&#3242;&#3277;&#3248;&#3238;&#3271;&#3254;</trd>
+  <trd lng="ko">&#51648;&#50669;</trd>
   <trd lng="ku">dewer</trd>
   <trd lng="ky">&c_a;&c_j;&c_m;&c_a;&c_k;</trd>
-  <trd lng="lo">&#xEC0;&#xE82;&#xE94;&#xE9E;&#xEB7;&#xEC9;&#xE99;&#xE97;&#xEB5;&#xEC8;</trd>
+  <trd lng="lo">&#3776;&#3714;&#3732;&#3742;&#3767;&#3785;&#3737;&#3735;&#3765;&#3784;</trd>
   <trd lng="lt">plotas</trd>
   <trd lng="lv">plat&imacron;ba</trd>
   <trd lng="mg">faritra</trd>
   <trd lng="mi">rohe</trd>
   <trd lng="mk">&c_o;&c_b;&c_l;&c_a;&c_s;&c_t;</trd>
-  <trd lng="ml">&#xD2A;&#xD4D;&#xD30;&#xD26;&#xD47;&#xD36;&#xD02;</trd>
+  <trd lng="ml">&#3370;&#3405;&#3376;&#3366;&#3399;&#3382;&#3330;</trd>
   <trd lng="mn">&c_g;&c_a;&c_z;&c_a;&c_r;</trd>
-  <trd lng="mr">&#x915;&#x94D;&#x937;&#x947;&#x924;&#x94D;&#x930;</trd>
+  <trd lng="mr">&#2325;&#2381;&#2359;&#2375;&#2340;&#2381;&#2352;</trd>
   <trd lng="ms">kawasan</trd>
   <trd lng="mt">&zdot;ona</trd>
-  <trd lng="my">&#x1027;&#x101B;&#x102D;&#x101A;&#x102C;</trd>
-  <trd lng="ne">&#x915;&#x94D;&#x937;&#x947;&#x924;&#x94D;&#x930;</trd>
+  <trd lng="my">&#4135;&#4123;&#4141;&#4122;&#4140;</trd>
+  <trd lng="ne">&#2325;&#2381;&#2359;&#2375;&#2340;&#2381;&#2352;</trd>
   <trd lng="nl">oppervlakte</trd>
   <trd lng="ny">dera</trd>
-  <trd lng="pa">&#xA16;&#xA47;&#xA24;&#xA30; &#xA26;&#xA47;</trd>
-  <trd lng="ps">&f_p;&a_h; &a_s;&a_y;&a_m;&a_h; &f_k;&#x6D0;</trd>
+  <trd lng="pa">&#2582;&#2631;&#2596;&#2608; &#2598;&#2631;</trd>
+  <trd lng="ps">&f_p;&a_h; &a_s;&a_y;&a_m;&a_h; &f_k;&#1744;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_l;&c_o;&c_shch;&c_a;&c_d;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;
@@ -206,7 +255,7 @@
   </trdgrp>
   <trd lng="rw">akarere</trd>
   <trd lng="sd">&a_ayn;&a_l;&a_A;&a_y_hamza;&a_q;&a_y;</trd>
-  <trd lng="si">&#xDB4;&#xDCA;&#xDBB;&#xDAF;&#xDDA;&#xDC1;&#xDBA;&#xDDA;</trd>
+  <trd lng="si">&#3508;&#3530;&#3515;&#3503;&#3546;&#3521;&#3514;&#3546;</trd>
   <trd lng="sk">plocha</trd>
   <trd lng="sl">obmo&ccaron;je</trd>
   <trd lng="sm">eria</trd>
@@ -216,16 +265,16 @@
   <trd lng="st">sebakeng seo</trd>
   <trd lng="su">wewengkon</trd>
   <trd lng="sw">eneo</trd>
-  <trd lng="ta">&#xBAA;&#xB95;&#xBC1;&#xBA4;&#xBBF;</trd>
-  <trd lng="te">&#xC2A;&#xC4D;&#xC30;&#xC3E;&#xC02;&#xC24;&#xC02;</trd>
+  <trd lng="ta">&#2986;&#2965;&#3009;&#2980;&#3007;</trd>
+  <trd lng="te">&#3114;&#3149;&#3120;&#3134;&#3074;&#3108;&#3074;</trd>
   <trd lng="tg">&c_m;&c_a;&c_j;&c_d;&c_o;&c_n;</trd>
-  <trd lng="th">&#xE1E;&#xE37;&#xE49;&#xE19;&#xE17;&#xE35;&#xE48;</trd>
+  <trd lng="th">&#3614;&#3639;&#3657;&#3609;&#3607;&#3637;&#3656;</trd>
   <trd lng="tl">lugar</trd>
-  <trd lng="tt">&c_m;&#x4D9;&c_j;&c_d;&c_a;&c_n;&c_y;</trd>
+  <trd lng="tt">&c_m;&#1241;&c_j;&c_d;&c_a;&c_n;&c_y;</trd>
   <trd lng="uk">&c_p;&c_l;&c_o;&c_shch;&c_a;</trd>
-  <trd lng="ur">&a_ayn;&a_l;&a_A;&a_q;&#x6D2;</trd>
+  <trd lng="ur">&a_ayn;&a_l;&a_A;&a_q;&#1746;</trd>
   <trd lng="uz">maydon</trd>
-  <trd lng="vi">khu v&#x1EF1;c</trd>
+  <trd lng="vi">khu v&#7921;c</trd>
   <trd lng="xh">ummandla</trd>
   <trd lng="yi">&gimel;&ayin;&gimel;&nun;&tet;</trd>
   <trd lng="yo">agbegbe</trd>
@@ -268,8 +317,8 @@
       &gcirc;i havas finitan <tld/>on.
     </dif>
     <trdgrp lng="zh">
-    <trd>&#x5206;&#x4F48;&#x5340; <pr>f&#x113;nb&#xF9;q&#x16B;</pr></trd>,
-    <trd>&#x5206;&#x5E03;&#x533A; <pr>f&#x113;nb&#xF9;q&#x16B;</pr></trd>
+    <trd>&#20998;&#20296;&#21312; <pr>f&emacron;nb&ugrave;q&umacron;</pr></trd>,
+    <trd>&#20998;&#24067;&#21306; <pr>f&emacron;nb&ugrave;q&umacron;</pr></trd>
   </trdgrp>
 </snc>
   <trd lng="be">&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;&c_n;&c_ja;</trd>
@@ -281,7 +330,7 @@
   <trdgrp lng="en">
     <trd>area</trd>
   </trdgrp>
-  <trd lng="he">&alef;&#x5B5;&zayin;&vav;&#x5B9;&resh;</trd>
+  <trd lng="he">&alef;&#1461;&zayin;&vav;&#1465;&resh;</trd>
   <trdgrp lng="nl">
     <trd>oppervlakte</trd>,
     <trd>gebied</trd>
@@ -298,9 +347,9 @@
       Havantaj saman <ref cel="are.0o"><tld/>on</ref>.
     </dif>
     <trdgrp lng="zh">
-    <trd>&#x5E73;&#x9762;&#x76F8;&#x7B49; <pr>p&#xED;ngmi&#xE0;nxi&#x101;ngd&#x11B;ng</pr></trd>,
-    <trd>&#x9762;&#x79EF;&#x76F8;&#x7B49; <pr>mi&#xE0;njixi&#x101;ngd&#x11B;ng</pr></trd>,
-    <trd>&#x9762;&#x7A4D;&#x76F8;&#x7B49; <pr>mi&#xE0;njixi&#x101;ngd&#x11B;ng</pr></trd>
+    <trd>&#24179;&#38754;&#30456;&#31561; <pr>p&iacute;ngmi&agrave;nxi&amacron;ngd&ecaron;ng</pr></trd>,
+    <trd>&#38754;&#31215;&#30456;&#31561; <pr>mi&agrave;njixi&amacron;ngd&ecaron;ng</pr></trd>,
+    <trd>&#38754;&#31309;&#30456;&#31561; <pr>mi&agrave;njixi&amacron;ngd&ecaron;ng</pr></trd>
   </trdgrp>
 </snc>
   <trd lng="be">&c_a;&c_d;&c_n;&c_o;&c_l;&c_mol;&c_k;&c_a;&c_v;&c_a;&c_j; <ind>&c_p;&c_l;&c_o;&c_sh;&c_ch;&c_y;</ind></trd>
@@ -318,6 +367,9 @@
 </art>
 <!--
 $Log$
+versio 1.102 2024/02/23 18:26:25
+Wolfram Diestel: ~o: fnt, ekz-oj, trd de
+
 versio 1.100 2023/10/08 18:33:35
 revo: transskribo per <pr>
 
@@ -337,8 +389,5 @@ versio 1.22 2020/02/16 12:10:26
 Wolfram Diestel: formuloj per am
 
 Revision 1.21  2018/08/06 12:10:16  revo
-Michel Cantigneaux: aperas unue en PV (1934), oficiala en 9OA (2007)
-
-Revision 1.20  2008/11/16 17:31:05  revo
 -->
 </vortaro>
