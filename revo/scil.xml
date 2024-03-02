@@ -1,58 +1,66 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: scil.xml,v 1.7 2023/07/28 21:23:14 revo Exp $">
-    <kap>
-      <rad>Scil</rad>/o <fnt>Z</fnt><fnt>, <bib>PIV1</bib></fnt>
-    </kap>
-    <drv mrk="scil.S0o">
-      <kap><tld lit="S"/>o</kap>
-      <snc mrk="scil.S0o.MAR">
-        <uzo tip="fak">MAR</uzo>
-        <dif>
-          Roko en la Mesina markolo, &ccirc;e la kalabria bordo,
-          je la sagofluga distanco de &Hcirc;aribdo:
-          <ekz>
-            <uzo tip="stl">FRAZ</uzo>
-            trafi de <tld lit="S"/>o al &Hcirc;aribdo
-            <fnt><bib>PrV</bib></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="scil.S0o.MIT">
-        <uzo tip="fak">MIT</uzo>
-        <uzo tip="fak">PERS</uzo>
-        <dif>
-          Monstrino kiu lo&gcirc;is en kavo de la roko
-          <tld lit="S"/>o<sncref ref="scil.S0o.MAR"/>
-          kaj forvoradis preternavigantajn maristojn.
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_S;&c_k;&c_ib;&c_l;&c_a;</trd>,
-        <trd>&c_S;&c_c;&c_y;&c_l;&c_a;</trd>
-      </trdgrp>
+<art mrk="$Id: scil.xml,v 1.8 2024/03/02 09:18:51 revo Exp $">
+<kap>
+   <rad>Scil</rad>/o <fnt><bib>PIV1</bib></fnt>
+</kap>
+<drv mrk="scil.S0o">
+  <kap><tld lit="S"/>o</kap>
+  <snc mrk="scil.S0o.MAR">
+     <uzo tip="fak">MAR</uzo>
+     <dif>
+       Roko en la Mesina markolo, &ccirc;e la kalabria bordo,
+       je la sagofluga distanco de <ref cel="hxaribd.Hx0o.MAR">&Hcirc;aribdo</ref>:
+       <ekz>
+         <uzo tip="stl">FRAZ</uzo>
+         trafi de <tld lit="S"/>o al &Hcirc;aribdo
+         <fnt><bib>PrV</bib></fnt>.
+       </ekz>
+     </dif>
+  <trdgrp lng="de">
+    <trd>Scilla <klr>(Kalabrien)</klr></trd>,
+    <trd>Scyllaeum</trd>
+  </trdgrp>
+  </snc>
+  <snc mrk="scil.S0o.MIT">
+    <uzo tip="fak">MIT</uzo>
+    <dif>
+       <ref tip="super" cel="monstr.0o.FIG">Monstrino</ref> kiu lo&gcirc;is en kavo de la roko
+       <tld lit="S"/>o<sncref ref="scil.S0o.MAR"/>
+       kaj forvoradis preternavigantajn maristojn.
+    </dif>
+    <trd lng="de">Skylla</trd>
+    <trd lng="grc">&Sigma;&kappa;&ypsilon_ton;&lambda;&lambda;&alfa;</trd>
+  </snc>
+  <trdgrp lng="be">
+     <trd>&c_S;&c_k;&c_ib;&c_l;&c_a;</trd>,
+     <trd>&c_S;&c_c;&c_y;&c_l;&c_a;</trd>
+  </trdgrp>
   <trd lng="cs">Skylla</trd>
   <trd lng="el">&Sigma;&kappa;&ypsilon_ton;&lambda;&lambda;&alfa;</trd>
   <trd lng="en">Scylla</trd>
   <trd lng="fr">Scylla</trd>
   <trd lng="pl">Skylla</trd>
   <trdgrp lng="ru">
-        <trd>&c_S;&c_k;&c_i;&c_l;&c_l;&c_a;</trd>,
-        <trd>&c_S;&c_c;&c_i;&c_l;&c_l;&c_a;</trd>,
-      </trdgrp>
+    <trd>&c_S;&c_k;&c_i;&c_l;&c_l;&c_a;</trd>,
+    <trd>&c_S;&c_c;&c_i;&c_l;&c_l;&c_a;</trd>,
+  </trdgrp>
   <trd lng="sk">Skylla</trd>
   <trdgrp lng="uk">
-    <trd>&c_S;&c_c;&c_ib;&#x43B;&#x43B;&c_a;</trd>,
-    <trd>&c_S;&#x43A;&c_ib;&#x43B;&#x43B;&c_a;</trd>
+    <trd>&c_S;&c_c;&c_ib;&c_l;&c_l;&c_a;</trd>,
+    <trd>&c_S;&c_k;&c_ib;&c_l;&c_l;&c_a;</trd>
   </trdgrp>
 </drv>
   </art>
 
 <!--
 $Log$
+versio 1.8 2024/03/02 09:18:51
+Wolfram Diestel: +trd de, grc, +ref
+
 versio 1.7 2023/07/28 21:23:14
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.6 2023/01/04 07:25:49
 Dmitri Gabinski: + trd be
