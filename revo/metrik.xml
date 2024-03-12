@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: metrik.xml,v 1.27 2024/01/25 20:10:36 revo Exp $">
+<art mrk="$Id: metrik.xml,v 1.28 2024/03/12 21:22:00 revo Exp $">
 <kap>
 <ofc>2</ofc>
 <rad>metrik</rad>/o
@@ -23,6 +23,7 @@
       <ref cel="vers.0farado">versfarado</ref>
     </refgrp>
     <trd lng="fr">m&eacute;trique<klr tip="ind"> (en po&eacute;sie)</klr></trd>
+    <trd lng="pl">metrum</trd>
   </snc>
   <snc mrk="metrik.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -30,20 +31,20 @@
     <dif>
       <klr>(en aro <frm am="bb M"><g>M</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
-      <frm am="d"><k>d</k></frm> de <frm am="bb M xx bb M"><g>M</g>&#xD7;<g>M</g></frm> al la aro de 
-      pozitivaj reeloj, ke por &ccirc;iuj elementoj 
+      <frm am="d"><k>d</k></frm> de <frm am="bb M xx bb M"><g>M</g>&#xD7;<g>M</g></frm> al la aro de
+      pozitivaj reeloj, ke por &ccirc;iuj elementoj
       <frm am="x,y,z in bb M"><k>x</k>, <k>y</k>,
-      <k>z</k>&#x2208;<g>M</g></frm> 
+      <k>z</k>&#8712;<g>M</g></frm>
       veras, ke:
-      (1) <frm am="d(x,y)=0"><k>d</k>(<k>x</k>,<k>y</k>) = 0</frm>, 
+      (1) <frm am="d(x,y)=0"><k>d</k>(<k>x</k>,<k>y</k>) = 0</frm>,
          se kaj nur se <frm am="x=y"><k>x</k> = <k>y</k></frm>;
       (2) <frm am="x(x,y)=d(y,x)"><k>d</k>(<k>x</k>,<k>y</k>) = <k>d</k>(<k>y</k>,<k>x</k>)</frm>;
       (3) <frm am="d(x,z) le d(x,y)+d(y,z)"><k>d</k>(<k>x</k>,<k>z</k>)
-      &#x2264; 
+      &#8804;
       <k>d</k>(<k>x</k>,<k>y</k>)+<k>d</k>(<k>y</k>,<k>z</k>)</frm>:
       <ekz>
         la <ref cel="valor.absoluta0o">absoluta valoro</ref> de la
-        diferenco 
+        diferenco
         inter du nombroj estas <tld/>o en la aro de la koncernaj
         nombroj.
       </ekz>
@@ -56,13 +57,13 @@
     <rim>
       <tld lit="M"/>o estas matematika formaligo de la nocio distanco.
       La valoron <frm am="d(x,y)"><k>d</k>(<k>x</k>,<k>y</k>)</frm> oni
-      kutime 
+      kutime
       nomas distanco inter <ctl>punktoj</ctl> <frm am="x"><k>x</k></frm>
       kaj
-      <frm am="y"><k>y</k></frm>. 
-      La tria aksiomo, foje nomata <ctl>triangula 
+      <frm am="y"><k>y</k></frm>.
+      La tria aksiomo, foje nomata <ctl>triangula
       neegala&jcirc;o</ctl>, signifas, ke la <ctl>rekta</ctl> vojo de iu
-      punkto 
+      punkto
       al alia estas anka&ubreve; la malplej longa.
     </rim>
     <trdgrp lng="fr">
@@ -78,27 +79,30 @@
   <trd lng="en">metric</trd>
   <trd lng="hu">metrika</trd>
   <trdgrp lng="ja">
-    <trd>&#x97FB;&#x5F8B;&#x5B66;  <pr>&#x3044;&#x3093;&#x308A;&#x3064;&#x304C;&#x304F;</pr></trd>,
-    <trd>&#x8A08;&#x91CF;  <pr>&#x3051;&#x3044;&#x308A;&#x3087;&#x3046;</pr></trd>,
-    <trd>&#x8DDD;&#x96E2;  <pr>&#x304D;&#x3087;&#x308A;</pr></trd>
+    <trd>&#x97FB;&#x5F8B;&#x5B66;  <pr>&#12356;&#12435;&#x308A;&#12388;&#x304C;&#x304F;</pr></trd>,
+    <trd>&#x8A08;&#x91CF;  <pr>&#12369;&#12356;&#x308A;&#12423;&#12358;</pr></trd>,
+    <trd>&#x8DDD;&#x96E2;  <pr>&#x304D;&#12423;&#x308A;</pr></trd>
   </trdgrp>
   <trd lng="nl">metriek</trd>
   <trd lng="pt">m&eacute;trica</trd>
   <trd lng="ru">&c_m;&c_je;&c_t;&c_r;&c_i;&c_k;&c_a;</trd>
   <trd lng="sk">metrika</trd>
-  <trd lng="uk">&#x43C;&#x435;&#x442;&#x440;&#x438;&#x43A;&#x430;</trd>
+  <trd lng="uk">&#x43C;&c_je;&c_t;&c_r;&c_i;&#x43A;&c_a;</trd>
   <trdgrp lng="zh">
     <trd>&#x683C;&#x97F5;&#x5B66; <pr>g&#xE9;y&#xF9;nxu&#xE9;</pr></trd>,
     <trd>&#x683C;&#x97FB;&#x5B78; <pr>g&#xE9;y&#xF9;nxu&#xE9;</pr></trd>,
     <trd>&#x7BC0;&#x594F;&#x5B78; <pr>ji&#xE9;z&#xF2;uxu&#xE9;</pr></trd>,
-    <trd>&#x8282;&#x594F;&#x5B66; <pr>ji&#xE9;z&#xF2;uxu&#xE9;</pr></trd>,
-    <trd>&#x516C;&#x5236; <pr>g&#x14D;ngzh&#xEC;</pr></trd>,
-    <trd>&#x7C73;&#x5236; <pr>m&#x1D0;zh&#xEC;</pr></trd>
+    <trd>&#33410;&#x594F;&#x5B66; <pr>ji&#xE9;z&#xF2;uxu&#xE9;</pr></trd>,
+    <trd>&#x516C;&#21046; <pr>g&#x14D;ngzh&#xEC;</pr></trd>,
+    <trd>&#x7C73;&#21046; <pr>m&#x1D0;zh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2024/03/12 21:22:00
+Vito Redsky: +trd pl 
+
 versio 1.26 2023/10/19 15:13:16
 revo: transskribo per <pr>
 
@@ -118,8 +122,5 @@ Revision 1.19  2006/08/01 16:33:18  revo
 Tulio Flores: +tr pt
 
 Revision 1.18  2005/03/28 17:13:19  revo
-Jeromo Vasxe: + ekz, + vid
-
-Revision 1.17  2004/06/10 16:32:12  revo
 -->
 </vortaro>
