@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: person.xml,v 1.137 2024/03/14 01:22:18 revo Exp $">
+<art mrk="$Id: person.xml,v 1.138 2024/03/14 12:39:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>person</rad>/o
@@ -113,6 +113,12 @@
       <trd>Mensch</trd>,
       <trd>Individuum</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>pribadi</trd>,
+      <trd>orang</trd>,
+      <trd>sosok</trd>,
+      <trd>tokoh</trd>
+    </trdgrp>
     <trd lng="pl">osoba</trd>
     <trd lng="pt">pessoa</trd>
     <trd lng="ro">persoana</trd>
@@ -170,10 +176,10 @@
     </trdgrp>
     <trd lng="en">character</trd>
     <trdgrp lng="id">
-      <trd>figur</trd>
+      <trd>figur</trd>,
       <trd>karakter</trd>,
       <trd>peran</trd>,
-      <trd>tokoh</trd>
+      <trd>tokoh<klr> (dlm film)</klr></trd>
     </trdgrp>
     <trd lng="ru">&c_p;&c_je;&c_r;&c_s;&c_o;&c_n;&c_a;&c_zh;</trd>
   </snc>
@@ -268,10 +274,6 @@
   <trd lng="ht">moun</trd>
   <trd lng="hu">szem&eacute;ly</trd>
   <trd lng="hy">&#1396;&#1377;&#1408;&#1380;</trd>
-  <trdgrp lng="id">
-    <trd>orang</trd>,
-    <trd>pribadi</trd>
-  </trdgrp>
   <trd lng="ig">onye</trd>
   <trd lng="is">ma&#xF0;ur</trd>
   <trd lng="ja">&#x4EBA; <pr>&#x306B;&#12435;</pr></trd>
@@ -421,7 +423,7 @@
       <trd>peszon&aacute;l-</trd>
     </trdgrp>
     <trdgrp lng="id">
-      <trd>perse<ind>orang</ind>an</trd>,
+      <trd><baz>orang</baz>perseorangan</trd>,
       <trd>personal</trd>,
       <trd>pribadi</trd>
     </trdgrp>
@@ -545,9 +547,9 @@
   <trd lng="fr">personnellement</trd>
   <trd lng="hu">szem&eacute;lyesen</trd>
   <trdgrp lng="id">
-      <trd>secara perse<ind>orang</ind>an</trd>,
-      <trd>secara <ind>personal</ind></trd>,
-      <trd>secara <ind>pribadi</ind></trd>
+    <trd>secara <baz>orang</baz>perseorangan</trd>,
+    <trd>secara <ind>personal</ind></trd>,
+    <trd>secara <ind>pribadi</ind></trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x500B;&#x4EBA;&#30340;&#x306B;  <pr>&#12371;&#12376;&#12435;&#12390;&#x304D;&#x306B;</pr></trd>,
@@ -601,6 +603,7 @@
     </dif>
   </snc>
   <trd lng="de">Persone <klr>(schwed. Band)</klr></trd>
+  <trd lng="id">Persone<klr> (grup musik Esperanto)</klr></trd>
   <trd lng="pl">Persone  <klr>(szwedzki zesp&oacute;&lstroke; muzyczny)</klr></trd>
 </drv>
 
@@ -675,6 +678,12 @@
       </ekz>
     </dif>
     <!-- ne traduku evitindajn vortojn:
+      <trdgrp lng="id">
+        <trd>figur</trd>,
+        <trd>karakter</trd>,
+        <trd>peran</trd>,
+        <trd>tokoh<klr> (dlm film)</klr></trd>
+      </trdgrp>
       <trd lng="nl">personage<klr tip="ind"> (ontr.)</klr></trd>
     -->
   </snc>
@@ -738,6 +747,7 @@
         <trd>personnel<klr tip="ind"> (ensemble des employ&eacute;s)</klr></trd>,
         <trd>effectif<klr tip="ind"> (ensemble des employ&eacute;s)</klr></trd>
       </trdgrp>
+    <trd lng="id">staf</trd>
     </subsnc>
     <subsnc mrk="person.0aro.KIN">
       <uzo tip="fak">KIN</uzo>
@@ -754,6 +764,10 @@
       <trdgrp lng="fr">
         <trd>casting</trd>,
         <trd>distribution<klr tip="ind"> (ensembles des interpr&egrave;tes)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="id">
+        <trd><baz>main</baz>pemain<klr> (film dsb.)</klr></trd>,
+        <trd><baz>peran</baz>pemeran</trd>
       </trdgrp>
       <trd lng="pl">obsada</trd>
     </subsnc>
@@ -867,7 +881,9 @@
   <trd lng="hu">szem&eacute;lyis&eacute;g</trd>
   <trdgrp lng="id">
     <trd>personalitas</trd>,
-    <trd>ke<ind>pribadi</ind>an</trd>
+    <trd><baz>pribadi</baz>kepribadian</trd>,
+    <trd>sifat</trd>,
+    <trd>watak</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x500B;&#24615;  <pr>&#12371;&#x305B;&#12356;</pr></trd>,
@@ -1087,7 +1103,7 @@
   </trdgrp>
   <trd lng="hu">jogi szem&eacute;ly</trd>
   <trdgrp lng="id">
-    <trd>badan hukum</trd>,
+    <trd><ind>badan</ind> hukum</trd>,
     <trd>rechts persoon</trd>
   </trdgrp>
   <trd lng="ja">&#x6CD5;&#x4EBA;  <pr>&#x307B;&#12358;&#12376;&#12435;</pr></trd>
@@ -1151,8 +1167,11 @@
 </art>
 <!--
 $Log$
+versio 1.138 2024/03/14 12:39:26
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
+
 versio 1.137 2024/03/14 01:22:18
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.135 2024/02/09 18:25:26
 Wolfram Diestel: fnt UV, ~e, P~e: &gcirc;ustigis trd-ojn
@@ -1170,8 +1189,5 @@ versio 1.131 2023/10/17 01:25:19
 Eko Nur Syah Hidayat: +trd id
 
 versio 1.129 2023/08/29 16:35:07
-Wolfram Diestel: ja: prononco
-
-versio 1.128 2023/05/06 14:26:03
 -->
 </vortaro>
