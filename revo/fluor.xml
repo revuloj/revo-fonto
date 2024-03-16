@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fluor.xml,v 1.30 2023/11/09 20:48:33 revo Exp $">
+<art mrk="$Id: fluor.xml,v 1.31 2024/03/16 08:24:01 revo Exp $">
   <kap>
     <rad>fluor</rad>/o
-    <fnt>Z</fnt>
+    <fnt><bib>JED</bib></fnt>
   </kap>
 <drv mrk="fluor.0o">
   <kap><tld/>o</kap>
@@ -13,10 +13,10 @@
   <snc>
     <dif>
       &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM" lst="voko:&hcirc;emiaj_elementoj" val="9">elemento</ref> kun
-      atomnumero 9, atompezo 18,9984; verdete flava 
-      <ref tip="super" cel="gas.0o">gaso</ref>, <ref tip="super" cel="haloge.0o">halogeno</ref>, 
+      atomnumero 9, atompezo 18,9984; verdete flava
+      <ref tip="super" cel="gas.0o">gaso</ref>, <ref tip="super" cel="haloge.0o">halogeno</ref>,
       malkomponanta akvon kaj formanta kombina&jcirc;ojn
-      kun &ccirc;iuj elementoj escepte de 
+      kun &ccirc;iuj elementoj escepte de
       <ref tip="vid" cel="oksige.0o">oksigeno</ref>:
       <ekz>
         oni la&ubreve; le&gcirc;o aldonas jodon kaj <tld/>on por preventi manko-malsanojn
@@ -24,15 +24,6 @@
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
           <vrk><url ref="&Monato;/2013/010970.php">Salutinda salminejo</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la fluorito, a&ubreve; <tld/>spato, estas mineralo de la grupo III (halogenidoj) la&ubreve; la
-        klasado de <nom>Strunz</nom>, formata de la kombino de kalcio kaj <tld/>o, de formulo
-        <frm>CaF<sub>2</sub></frm>
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=353854">Fluorito</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -49,7 +40,7 @@
   <trd lng="hu">fluor</trd>
   <trd lng="id">fluorin</trd>
   <trd lng="it">fluoro</trd>
-  <trd lng="ja">&#x30D5;&#x30C3;&#x7D20;  <pr>&#x30D5;&#x30C3;&#x305D;</pr></trd>
+  <trd lng="ja">&#12501;&#12483;&#32032;  <pr>&#12501;&#12483;&#12381;</pr></trd>
   <trd lng="la">Fluorum</trd>
   <trd lng="nl">fluor</trd>
   <trd lng="pl">fluor</trd>
@@ -58,14 +49,53 @@
   <trd lng="sk">flu&oacute;r</trd>
   <trd lng="sv">fluor</trd>
   <trdgrp lng="uk">
-    <trd>&#x444;&#x43B;&#x443;&#x43E;&#x440; (&#x445;&#x456;&#x43C;&#x456;&#x447;&#x43D;&#x438;&#x439; &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;)</trd>,
-    <trd>&#x444;&#x442;&#x43E;&#x440; (&#x43F;&#x440;&#x43E;&#x441;&#x442;&#x430; &#x440;&#x435;&#x447;&#x43E;&#x432;&#x438;&#x43D;&#x430;)</trd>
+    <trd>&c_f;&c_l;&c_u;&c_o;&c_r; (&c_h;&c_ib;&c_m;&c_ib;&c_ch;&c_n;&c_i;&c_j; &c_je;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;)</trd>,
+    <trd>&c_f;&c_t;&c_o;&c_r; (&c_p;&c_r;&c_o;&c_s;&c_t;&c_a; &c_r;&c_je;&c_ch;&c_o;&c_v;&c_i;&c_n;&c_a;)</trd>
   </trdgrp>
-  <trd lng="zh">&#x82B4; <pr>w&#xF9;</pr></trd>
+  <trd lng="zh">&#33460; <pr>w&ugrave;</pr></trd>
 </drv>
+
+<drv mrk="fluor.0spato">
+  <kap>
+    <tld/>spato
+  </kap>
+  <uzo tip="fak">MIN</uzo>
+  <snc>
+    <dif>
+      <frm>CaF<sub>2</sub></frm>, fluorito; mineralo kies kristala formo estas <ref tip="super" cel="spat.0o.MIN">spato</ref>:
+      <ekz>
+        murho <klr>[estas]</klr> mineralo, el kiu oni faris multekostajn vazojn
+        (<tld/>spato)
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fluorito, a&ubreve; <tld/>spato, estas mineralo de la grupo III (halogenidoj) la&ubreve; la
+        klasado de <nom>Strunz</nom>, formata de la kombino de kalcio kaj <tld/>o, de formulo
+        <frm>CaF<sub>2</sub></frm>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=353854">Fluorito</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Flussspat</trd>,
+    <trd>Flourit</trd>
+  </trdgrp>
+  <trd lng="en">flourite</trd>
+  <trd lng="fr">flourine</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.31 2024/03/16 08:24:01
+Wolfram Diestel: + ~spato
+
 versio 1.29 2023/10/14 19:15:45
 revo: transskribo per <pr>
 
@@ -85,8 +115,5 @@ Revision 1.21  2013/09/23 08:10:17  revo
 Wolfram Diestel: +val, mlg
 
 Revision 1.20  2013/09/15 16:10:24  revo
-Wolfram Diestel: simb. laux IUPAC
-
-Revision 1.19  2013/08/24 20:10:54  revo
 -->
 </vortaro>
