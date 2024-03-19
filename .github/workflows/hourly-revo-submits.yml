@@ -81,13 +81,13 @@ jobs:
         fi
 
     - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: log-gh
         path: .log
 
     - name: Konservu la interrezultojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: tmp-gh
         path: .tmp
@@ -147,13 +147,13 @@ jobs:
         fi
 
     - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: log-db
         path: .log
 
     - name: Konservu la interrezultojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: tmp-db
         path: .tmp
@@ -233,13 +233,13 @@ jobs:
         ls -l .tgz/ .log/
 
     - name: Konservu rezultintajn arĥivojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: tgz
         path: .tgz
 
     - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: log
         path: .log        
