@@ -209,7 +209,6 @@ jobs:
       if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
       run: docker run -u1001
         -e GIT_REPO_REVO=https://github.com/revuloj/revo-fonto.git
-        -e FTP_SERVER=cyberwebserver-21.de
         -e FTP_USER=${{ secrets.FTP_USER }}
         -e FTP_PASSWD=${{ secrets.FTP_PASSWD }}
         -e FTP_SERVER2=314802.webhosting7.1blu.de
