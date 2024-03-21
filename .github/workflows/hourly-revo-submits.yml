@@ -30,7 +30,7 @@ env:
 jobs:
 
   revo-redaktoj-gh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     outputs:
       KONFIRMO_GH: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_GH }}
 
@@ -94,7 +94,7 @@ jobs:
 
 
   revo-redaktoj-db:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     # ne kuru ambaŭ samtempe, por eviti fand-konfliktojn de la git-arĥivo!
     needs: revo-redaktoj-gh
     outputs:
@@ -162,7 +162,7 @@ jobs:
   revo-aktualigo:
     needs: [revo-redaktoj-gh,revo-redaktoj-db]
     if: ${{needs.revo-redaktoj-gh.outputs.KONFIRMO_GH || needs.revo-redaktoj-db.outputs.KONFIRMO_DB }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
 
