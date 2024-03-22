@@ -35,9 +35,14 @@ jobs:
       KONFIRMO_GH: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_GH }}
 
     steps:
+
+    # fix for curl timeout
+    # vd. https://github.com/actions/runner-images/issues/1187#issuecomment-686735760
+    # https://github.com/termux/termux-packages/pull/6858/commits/a5f6e66eb1971cfc8ec946553d9066be78050b8d        
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
+        sudo ethtool -K eth0 tx off rx off
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -106,9 +111,14 @@ jobs:
       KONFIRMO_DB: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_DB }}
 
     steps:
+
+    # fix for curl timeout
+    # vd. https://github.com/actions/runner-images/issues/1187#issuecomment-686735760
+    # https://github.com/termux/termux-packages/pull/6858/commits/a5f6e66eb1971cfc8ec946553d9066be78050b8d        
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
+        sudo ethtool -K eth0 tx off rx off
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -176,9 +186,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
+        sudo ethtool -K eth0 tx off rx off
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - uses: actions/github-script@v7
