@@ -35,9 +35,13 @@ jobs:
       KONFIRMO_GH: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_GH }}
 
     steps:
-    - name: Kreu dosierujojn por konservi la rezultojn ...
+    - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+
+    - name: Kreu dosierujojn por konservi la rezultojn ...
+      run: |
         mkdir .tmp
         mkdir .log
 
@@ -95,13 +99,18 @@ jobs:
 
 
   revo-redaktoj-db:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     # ne kuru ambaŭ samtempe, por eviti fand-konfliktojn de la git-arĥivo!
     needs: revo-redaktoj-gh
     outputs:
       KONFIRMO_DB: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_DB }}
 
     steps:
+    - name: Antaŭkontrolo por identigi eblajn problemojn
+      run: |
+        uname -a
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
         uname -a
@@ -167,8 +176,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Antaŭkontrolo por identigi eblajn problemojn
+      run: |
+        uname -a
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
-    - uses: actions/github-script@v6
+    - uses: actions/github-script@v7
       name: Eltrovu la pozicion de marko 'hora-formiko'
       id: trovu_horan_formikon
       with:
@@ -180,7 +193,7 @@ jobs:
           console.log('hora-formiko estas ĉe: '+sha)
           core.setOutput('sha_hf',sha)
 
-    - uses: actions/github-script@v6
+    - uses: actions/github-script@v7
       name: Eltrovu la nunan pozicion (kapo)
       id: trovu_kapon
       with:
@@ -247,7 +260,7 @@ jobs:
         name: log
         path: .log        
 
-    - uses: actions/github-script@v6
+    - uses: actions/github-script@v7
       if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
       name: Movu antaŭen la formikon
       with:
