@@ -56,6 +56,7 @@ jobs:
         mkdir .tgz
         mkdir .log
         lsb_release -a
+        uname -a
 
     # https://github.community/t5/GitHub-Actions/Use-docker-images-from-GitHub-Package-Registry/td-p/30407    
     # https://github.com/actions/starter-workflows/blob/master/ci/docker-push.yml    
