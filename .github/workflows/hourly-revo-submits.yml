@@ -42,8 +42,8 @@ jobs:
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
-        sudo ethtool -K eth0 tx off rx off
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+        # sudo ethtool -K eth0 tx off rx off
+        curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
@@ -118,8 +118,8 @@ jobs:
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
-        sudo ethtool -K eth0 tx off rx off
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+        # sudo ethtool -K eth0 tx off rx off
+        curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
@@ -190,8 +190,8 @@ jobs:
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
-        sudo ethtool -K eth0 tx off rx off
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+        # sudo ethtool -K eth0 tx off rx off
+        curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - uses: actions/github-script@v7
       name: Eltrovu la pozicion de marko 'hora-formiko'
