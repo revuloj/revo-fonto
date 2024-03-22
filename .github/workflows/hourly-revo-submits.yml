@@ -43,6 +43,7 @@ jobs:
       run: |
         uname -a
         # sudo ethtool -K eth0 tx off rx off
+        ping -c 2 reta-vortaro.de
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -119,6 +120,7 @@ jobs:
       run: |
         uname -a
         # sudo ethtool -K eth0 tx off rx off
+        ping -c 2 reta-vortaro.de
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -191,6 +193,7 @@ jobs:
       run: |
         uname -a
         # sudo ethtool -K eth0 tx off rx off
+        ping -c 2 reta-vortaro.de
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - uses: actions/github-script@v7
