@@ -30,13 +30,14 @@ env:
 jobs:
 
   revo-redaktoj-gh:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     outputs:
       KONFIRMO_GH: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_GH }}
 
     steps:
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
+        uname -a
         mkdir .tmp
         mkdir .log
 
@@ -103,6 +104,7 @@ jobs:
     steps:
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
+        uname -a
         mkdir .tmp
         mkdir .log
 
@@ -162,7 +164,7 @@ jobs:
   revo-aktualigo:
     needs: [revo-redaktoj-gh,revo-redaktoj-db]
     if: ${{needs.revo-redaktoj-gh.outputs.KONFIRMO_GH || needs.revo-redaktoj-db.outputs.KONFIRMO_DB }}
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
 
@@ -192,6 +194,7 @@ jobs:
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
+        uname -a
         mkdir .tgz
         mkdir .log
 
