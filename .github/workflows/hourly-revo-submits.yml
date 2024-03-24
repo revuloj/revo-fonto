@@ -44,6 +44,7 @@ jobs:
         uname -a
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
+        set +e
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then 
           ip a
@@ -125,6 +126,7 @@ jobs:
         uname -a
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
+        set +e
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
         if [ $? == 28 ]; then 
           ip a
