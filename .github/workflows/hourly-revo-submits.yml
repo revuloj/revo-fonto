@@ -13,8 +13,8 @@ on:
   #
   # * estas speciala signo, do nepre uzu citilojn
   schedule:
-  #- cron:  '10 * * * *'
-  - cron:  '10 */3 * * *'
+  - cron:  '10 * * * *'
+  #- cron:  '10 */3 * * *'
 
 
   # uzu 'access token' kun Git-arĥivo
@@ -212,6 +212,8 @@ jobs:
         uname -a
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
+        echo "proxy: $https_proxy"
+        echo "PROXY: $HTTPS_PROXY"
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - uses: actions/github-script@v7
