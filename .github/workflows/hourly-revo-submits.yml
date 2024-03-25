@@ -46,9 +46,11 @@ jobs:
         # ping -c 2 reta-vortaro.de
         set +e
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
-        if [ $? == 28 ]; then 
+        if [ $? == 28 ]; then
           ip a
           ip r
+          set -e
+          exit 1
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -131,6 +133,8 @@ jobs:
         if [ $? == 28 ]; then 
           ip a
           ip r
+          set -e
+          exit 1
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
