@@ -49,6 +49,8 @@ jobs:
         if [ $? == 28 ]; then
           ip a
           ip r
+          echo "proxy: $https_proxy"
+          echo "PROXY: $HTTPS_PROXY"
           set -e
           exit 1
         fi 
@@ -133,6 +135,8 @@ jobs:
         if [ $? == 28 ]; then 
           ip a
           ip r
+          echo "proxy: $https_proxy"
+          echo "PROXY: $HTTPS_PROXY"
           set -e
           exit 1
         fi 
