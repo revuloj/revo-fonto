@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: start.xml,v 1.35 2024/03/17 15:23:26 revo Exp $">
+<art mrk="$Id: start.xml,v 1.36 2024/03/25 07:28:36 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>start</rad>/i <fnt><bib>PV</bib></fnt>
@@ -31,7 +31,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[la]</klr> trajno <klr>[&#8230;]</klr> re<tld/>os je la kvara kaj dudek kvin
+        <klr>[la]</klr> trajno <klr>[&#x2026;]</klr> re<tld/>os je la kvara kaj dudek kvin
         <fnt>
           <aut>Konstanten Krysakov</aut>
           <vrk><url ref="&Monato;/2000/006805.php">Kota akvo</url></vrk>
@@ -88,8 +88,8 @@
     <trd>startol</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#12377;&#x308B;  <pr>&#12377;&#x305F;&#x30FC;&#12392;&#12377;&#x308B;</pr></trd>,
-    <trd>&#x59CB;&#x52D5;&#12377;&#x308B;  <pr>&#12375;&#12393;&#12358;&#12377;&#x308B;</pr></trd>
+    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#x3059;&#x308B;  <pr>&#x3059;&#x305F;&#x30FC;&#x3068;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x59CB;&#x52D5;&#x3059;&#x308B;  <pr>&#x3057;&#x3069;&#x3046;&#x3059;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">starten</trd>
   <trdgrp lng="pl">
@@ -107,6 +107,10 @@
     <trd>&c_r;&c_u;&c_sh;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_r;&c_u;&c_sh;&c_a;&c_t;&c_i; &c_z; &#x43C;&c_ib;&c_s;&c_c;&#x44F;</trd>,
     <trd>&c_z;&#x43B;&c_ib;&c_t;&c_a;&c_t;&c_i; <klr>(&#x43F;&c_r;&#x43E; &#x43B;&c_ib;&c_t;&c_a;&#x43A;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x542F;&#x52A8; <pr>q&#x1D0;d&#xF2;ng</pr></trd>,
+    <trd>&#x555F;&#x52D5; <pr>q&#x1D0;d&#xF2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -161,7 +165,7 @@
     <dif>
       Ekirejo:
       <ekz>
-        &ccirc;iu etapo estas tiel konceptita, ke <klr>[&#8230;]</klr> fine oni revenas al la
+        &ccirc;iu etapo estas tiel konceptita, ke <klr>[&#x2026;]</klr> fine oni revenas al la
         <tld/>o mem
         <fnt>
           <aut>Evgeni Georgiev</aut>
@@ -189,9 +193,9 @@
   <trd lng="en">start</trd>
   <trd lng="es">comienzo</trd>
   <trdgrp lng="ja">
-    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;  <pr>&#12377;&#x305F;&#x30FC;&#12392;</pr></trd>,
-    <trd>&#x51FA;&#x767A;  <pr>&#12375;&#12421;&#12387;&#12401;&#12388;</pr></trd>,
-    <trd>&#x59CB;&#x52D5;  <pr>&#12375;&#12393;&#12358;</pr></trd>
+    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;  <pr>&#x3059;&#x305F;&#x30FC;&#x3068;</pr></trd>,
+    <trd>&#x51FA;&#x767A;  <pr>&#x3057;&#x3085;&#x3063;&#x3071;&#x3064;</pr></trd>,
+    <trd>&#x59CB;&#x52D5;  <pr>&#x3057;&#x3069;&#x3046;</pr></trd>
   </trdgrp>
   <trd lng="nl">starten</trd>
   <trdgrp lng="pl">
@@ -204,6 +208,14 @@
     <trd>&#x43D;&c_a;&c_ch;&c_a;&#x43B;&#x43E;</trd>,
     <trd>&c_z;&#x43B;&c_ib;&c_t; <klr>(&#x43B;&c_ib;&c_t;&c_a;&#x43A;&c_a;)</klr></trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8D77;&#x70B9; <pr>q&#x1D0;di&#x1CE;n</pr></trd>,
+    <trd>&#x8D77;&#x9EDE; <pr>q&#x1D0;di&#x1CE;n</pr></trd>,
+    <trd>&#x7AEF; <pr>du&#x101;n</pr></trd>,
+    <trd>&#x8011; <pr>du&#x101;n</pr></trd>,
+    <trd>&#x5F00;&#x7AEF; <pr>k&#x101;idu&#x101;n</pr></trd>,
+    <trd>&#x958B;&#x7AEF; <pr>k&#x101;idu&#x101;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="start.0anto">
@@ -215,8 +227,7 @@
         por la <tld/>anto la situacio ofte estas aparte komplika, se li / &scirc;i volas verki
         ion vere novan
         <fnt>
-          <vrk><url
-          ref="http://www.blanke-info.de/files/CD_Interlingvistiko_kaj_esperantologio.pdf">Interlingvistiko
+          <vrk><url ref="http://www.blanke-info.de/files/CD_Interlingvistiko_kaj_esperantologio.pdf">Interlingvistiko
           kaj esperantologio</url></vrk>
         </fnt>.
       </ekz>
@@ -228,8 +239,8 @@
   <trd lng="es">principiante</trd>
   <trd lng="hu">indul&oacute;<klr tip="ind">(sport)</klr></trd>
   <trdgrp lng="ja">
-    <trd>&#x51FA;&#22580;&#32773;  <pr>&#12375;&#12421;&#12388;&#12376;&#12423;&#12358;&#12375;&#12419;</pr></trd>,
-    <trd>&#x51FA;&#x8D70;&#32773;  <pr>&#12375;&#12421;&#12387;&#x305D;&#12358;&#12375;&#12419;</pr></trd>
+    <trd>&#x51FA;&#x5834;&#x8005;  <pr>&#x3057;&#x3085;&#x3064;&#x3058;&#x3087;&#x3046;&#x3057;&#x3083;</pr></trd>,
+    <trd>&#x51FA;&#x8D70;&#x8005;  <pr>&#x3057;&#x3085;&#x3063;&#x305D;&#x3046;&#x3057;&#x3083;</pr></trd>
   </trdgrp>
   <trd lng="nl">iem. die aan de <ind>start</ind> deelneemt</trd>
   <trdgrp lng="pl">
@@ -245,11 +256,11 @@
     <dif>
       Signali a&ubreve; ka&ubreve;zi <tld/>on:
       <ekz>
-        mi <klr>[&#8230;]</klr> <tld/>igis la motoron, kaj veturis malrapide
+        mi <klr>[&#x2026;]</klr> <tld/>igis la motoron, kaj veturis malrapide
         <fnt><bib>&Scirc;talrato</bib>, <lok>&ccirc;apitro 7a</lok></fnt>;
       </ekz>
       <ekz>
-        ili <tld/>igis novan <klr>[&#8230;]</klr> militon
+        ili <tld/>igis novan <klr>[&#x2026;]</klr> militon
         <fnt>
           <bib>Monato</bib>
           <aut>Aleksandro Gofen</aut>
@@ -258,7 +269,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &leftquot;trojanaj &ccirc;evaloj&rightquot; <klr>[&#8230;]</klr> je certa dato a&ubreve; je certaj medikondi&ccirc;oj
+        &leftquot;trojanaj &ccirc;evaloj&rightquot; <klr>[&#x2026;]</klr> je certa dato a&ubreve; je certaj medikondi&ccirc;oj
         <tld/>igas misfunkciojn de komputiloj
         <fnt>
           <aut>Stefan Maul</aut>
@@ -296,11 +307,11 @@
     <trd>mettre en route</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#12373;&#x305B;&#x308B;
-    <pr>&#12377;&#x305F;&#x30FC;&#12392;&#12373;&#x305B;&#x308B;</pr></trd>,
-    <trd>&#x59CB;&#x52D5;&#12373;&#x305B;&#x308B;  <pr>&#12375;&#12393;&#12358;&#12373;&#x305B;&#x308B;</pr></trd>,
-    <trd>&#x8D77;&#x52D5;&#12377;&#x308B;  <pr>&#x304D;&#12393;&#12358;&#12377;&#x308B;</pr></trd>,
-    <trd>&#x30D6;&#x30FC;&#x30C8;&#12377;&#x308B;</trd>
+    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#x3055;&#x305B;&#x308B;
+    <pr>&#x3059;&#x305F;&#x30FC;&#x3068;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x59CB;&#x52D5;&#x3055;&#x305B;&#x308B;  <pr>&#x3057;&#x3069;&#x3046;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x8D77;&#x52D5;&#x3059;&#x308B;  <pr>&#x304D;&#x3069;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x30D6;&#x30FC;&#x30C8;&#x3059;&#x308B;</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>iets <ind>starten</ind></trd>,
@@ -312,6 +323,12 @@
     <trd>spusti&tcaron; motor</trd>
   </trdgrp>
   <trd lng="uk">&c_z;&c_a;&#x43F;&c_u;&c_s;&#x43A;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8D77;&#x52A8; <pr>q&#x1D0;d&#xF2;ng</pr></trd>,
+    <trd>&#x8D77;&#x52D5; <pr>q&#x1D0;d&#xF2;ng</pr></trd>,
+    <trd>&#x5F00;&#x8F66; <pr>k&#x101;ich&#x113;</pr></trd>,
+    <trd>&#x958B;&#x8ECA; <pr>k&#x101;ich&#x113;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
