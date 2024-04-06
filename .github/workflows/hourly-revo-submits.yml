@@ -47,12 +47,10 @@ jobs:
         set +e
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then
-          ip a
-          ip r
-          echo "proxy: $https_proxy"
-          echo "PROXY: $HTTPS_PROXY"
-          set -e
-          exit 1
+          # provu uzi proxy, se ni nie povas rekte atingi retan vortaron
+          # elektita el https://www.netzwelt.de/proxy/index.html
+          export SOCKS4_PROXY=212.62.95.45:1080
+          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -73,6 +71,7 @@ jobs:
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
+        -e SOCKS4_PROXY \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
         ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
@@ -84,6 +83,7 @@ jobs:
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
+        -e SOCKS4_PROXY \
         afido \
         afido
 
@@ -133,12 +133,10 @@ jobs:
         set +e
         curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
         if [ $? == 28 ]; then 
-          ip a
-          ip r
-          echo "proxy: $https_proxy"
-          echo "PROXY: $HTTPS_PROXY"
-          set -e
-          exit 1
+          # provu uzi proxy, se ni nie povas rekte atingi retan vortaron
+          # elektita el https://www.netzwelt.de/proxy/index.html
+          export SOCKS4_PROXY=212.62.95.45:1080
+          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -160,6 +158,7 @@ jobs:
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
+        -e SOCKS4_PROXY \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
         ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
@@ -171,6 +170,7 @@ jobs:
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
+        -e SOCKS4_PROXY \
         afido \
         afido subm
 
