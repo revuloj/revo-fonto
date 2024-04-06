@@ -45,12 +45,13 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then
           # provu uzi proxy, se ni nie povas rekte atingi retan vortaron
           # elektita el https://www.netzwelt.de/proxy/index.html
+          echo "problemo atingi reta-vortaro.de, provu uzi proksimservon"
           export SOCKS4_PROXY=212.62.95.45:1080
-          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -131,12 +132,13 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
         if [ $? == 28 ]; then 
           # provu uzi proxy, se ni nie povas rekte atingi retan vortaron
           # elektita el https://www.netzwelt.de/proxy/index.html
+          echo "problemo atingi reta-vortaro.de, provu uzi proksimservon"
           export SOCKS4_PROXY=212.62.95.45:1080
-          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -214,7 +216,7 @@ jobs:
         # ping -c 2 reta-vortaro.de
         echo "proxy: $https_proxy"
         echo "PROXY: $HTTPS_PROXY"
-        curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
 
     - uses: actions/github-script@v7
       name: Eltrovu la pozicion de marko 'hora-formiko'
