@@ -45,9 +45,9 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  & ss -t -4
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  & ss -t -4 -a -o
         if [ $? == 28 ]; then
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4
+          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep ss -t -4 -a -p
           echo "###### log ##########"
           # ls -l /var/log
           sudo tail /var/log/syslog
@@ -55,7 +55,7 @@ jobs:
           ip -s -h link
           sudo iptables -L
           echo "###### curl ##########"
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4 -a -o
           exit 1
         fi 
 
@@ -135,9 +135,9 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4  
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4 -a -o
         if [ $? == 28 ]; then 
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4 -a -o
           echo "###### log ##########"
           # ls -l /var/log
           echo "###### net ##########"
@@ -145,7 +145,7 @@ jobs:
           ip -s -h link
           sudo iptables -L
           echo "###### curl ##########"
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4 -a -o
           exit 1
         fi 
 
