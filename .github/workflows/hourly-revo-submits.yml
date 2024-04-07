@@ -45,8 +45,11 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  & ss -t -4 -a -o
+        ip -s -h link
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then
+          printenv
+          ip -s -h link
           curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep ss -t -4 -a -p
           echo "###### log ##########"
           # ls -l /var/log
@@ -135,8 +138,11 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4 -a -o
+        ip -s -h link
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then 
+          printenv
+          ip -s -h link
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4 -a -o
           echo "###### log ##########"
           # ls -l /var/log
