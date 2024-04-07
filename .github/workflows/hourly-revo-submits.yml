@@ -45,14 +45,17 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  & ss -t -4
         if [ $? == 28 ]; then
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4
-          ls -l /var/log
+          echo "###### log ##########"
+          # ls -l /var/log
           sudo tail /var/log/syslog
+          echo "###### net ##########"
           ip -s -h link
           sudo iptables -L
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
+          echo "###### curl ##########"
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4
           exit 1
         fi 
 
@@ -132,14 +135,17 @@ jobs:
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
         set +e
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4  
         if [ $? == 28 ]; then 
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4
-          ls -l /var/log
+          echo "###### log ##########"
+          # ls -l /var/log
+          echo "###### net ##########"
           sudo tail /var/log/syslog
           ip -s -h link
           sudo iptables -L
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
+          echo "###### curl ##########"
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4
           exit 1
         fi 
 
