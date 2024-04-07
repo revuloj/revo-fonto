@@ -49,6 +49,7 @@ jobs:
         if [ $? == 28 ]; then
           ls -l /var/log
           sudo tail /var/log/syslog
+          sudo iptables -L
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
           exit 1
         fi 
@@ -133,6 +134,7 @@ jobs:
         if [ $? == 28 ]; then 
           ls -l /var/log
           sudo tail /var/log/syslog
+          sudo iptables -L
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
           exit 1
         fi 
