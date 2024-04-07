@@ -47,8 +47,10 @@ jobs:
         set +e
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4
           ls -l /var/log
           sudo tail /var/log/syslog
+          ip -s -h link
           sudo iptables -L
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
           exit 1
@@ -132,8 +134,10 @@ jobs:
         set +e
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
         if [ $? == 28 ]; then 
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & ss -t -4
           ls -l /var/log
           sudo tail /var/log/syslog
+          ip -s -h link
           sudo iptables -L
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
           exit 1
