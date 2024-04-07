@@ -55,6 +55,8 @@ jobs:
           # ls -l /var/log
           sudo tail /var/log/syslog
           echo "###### net ##########"
+          ls /proc/sys/net/ipv4/tcp_tw_*
+          cat /proc/sys/net/ipv4/tcp_tw_*
           ip -s -h link
           sudo iptables -L
           echo "###### curl ##########"
@@ -141,12 +143,14 @@ jobs:
         ip -s -h link
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then 
-          # printenv
+          # printenv          
           ip -s -h link
           curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep 1 && ss -t -4 -a -o
           echo "###### log ##########"
           # ls -l /var/log
           echo "###### net ##########"
+          ls /proc/sys/net/ipv4/tcp_tw_*
+          cat /proc/sys/net/ipv4/tcp_tw_*
           sudo tail /var/log/syslog
           ip -s -h link
           sudo iptables -L
