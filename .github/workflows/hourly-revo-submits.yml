@@ -47,11 +47,10 @@ jobs:
         set +e
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then
-          # provu uzi proxy, se ni nie povas rekte atingi retan vortaron
-          # elektita el https://www.netzwelt.de/proxy/index.html
-          echo "problemo atingi reta-vortaro.de, provu uzi proksimservon"
-          export SOCKS4_PROXY=212.62.95.45:1080
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+          ls -l /var/log
+          sudo tail /var/log/syslog
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
+          exit 1
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -72,7 +71,6 @@ jobs:
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
-        -e SOCKS4_PROXY \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
         ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
@@ -84,7 +82,6 @@ jobs:
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
-        -e SOCKS4_PROXY \
         afido \
         afido
 
@@ -134,11 +131,10 @@ jobs:
         set +e
         curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
         if [ $? == 28 ]; then 
-          # provu uzi proxy, se ni nie povas rekte atingi retan vortaron
-          # elektita el https://www.netzwelt.de/proxy/index.html
-          echo "problemo atingi reta-vortaro.de, provu uzi proksimservon"
-          export SOCKS4_PROXY=212.62.95.45:1080
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+          ls -l /var/log
+          sudo tail /var/log/syslog
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de
+          exit 1
         fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
@@ -160,7 +156,6 @@ jobs:
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
-        -e SOCKS4_PROXY \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
         ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
@@ -172,7 +167,6 @@ jobs:
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
-        -e SOCKS4_PROXY \
         afido \
         afido subm
 
