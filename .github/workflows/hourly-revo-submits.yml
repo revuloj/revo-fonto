@@ -50,7 +50,7 @@ jobs:
         if [ $? == 28 ]; then
           # printenv
           ip -s -h link
-          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep 1 & ss --info -t4aop dport = :443
+          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep 1 && ss --info -t4aop dport = :443
           echo "###### log ##########"
           # ls -l /var/log
           sudo tail /var/log/syslog
@@ -60,7 +60,7 @@ jobs:
           ip -s -h link
           sudo iptables -L
           echo "###### curl ##########"
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4 -a -o
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 -o /dev/null https://reta-vortaro.de & sleep 0.1 && ss -t -4 -a -o
           exit 1
         fi 
 
@@ -155,7 +155,7 @@ jobs:
           ip -s -h link
           sudo iptables -L
           echo "###### curl ##########"
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://esperanto.de & ss -t -4 -a -o
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 -o /dev/null https://reta-vortaro.de & sleep 0.1 && ss -t -4 -a -o
           exit 1
         fi 
 
