@@ -44,25 +44,25 @@ jobs:
         uname -a
         # sudo ethtool -K eth0 tx off rx off
         # ping -c 2 reta-vortaro.de
-        set +e
-        ip -s -h link
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
-        if [ $? == 28 ]; then
-          # printenv
-          ip -s -h link
-          curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep 1 && ss --info -t4aop dport = :443
-          echo "###### log ##########"
-          # ls -l /var/log
-          sudo tail /var/log/syslog
-          echo "###### net ##########"
-          ls /proc/sys/net/ipv4/tcp_tw_*
-          cat /proc/sys/net/ipv4/tcp_tw_*
-          ip -s -h link
-          sudo iptables -L
-          echo "###### curl ##########"
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 -o /dev/null https://reta-vortaro.de & sleep 0.1 && ss -t -4 -a -o
-          exit 1
-        fi 
+        #set +e
+        #ip -s -h link
+        #curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+        #if [ $? == 28 ]; then
+        #  # printenv
+        #  ip -s -h link
+        #  curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep 1 && ss --info -t4aop dport = :443
+        #  echo "###### log ##########"
+        #  # ls -l /var/log
+        #  sudo tail /var/log/syslog
+        #  echo "###### net ##########"
+        #  ls /proc/sys/net/ipv4/tcp_tw_*
+        #  cat /proc/sys/net/ipv4/tcp_tw_*
+        #  ip -s -h link
+        #  sudo iptables -L
+        #  echo "###### curl ##########"
+        #  curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 -o /dev/null https://reta-vortaro.de & sleep 0.1 && ss -t -4 -a -o
+        #  exit 1
+        #fi 
 
     - name: Kreu dosierujojn por konservi la rezultojn ...
       run: |
@@ -88,8 +88,9 @@ jobs:
         sleep 10
         docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
+        -e REVO_HOST=svagaj.steloj.de \
         -e CGI_USER=${{ secrets.CGI_USER }} \
-        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD_RS }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
