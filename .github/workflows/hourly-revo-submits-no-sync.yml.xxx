@@ -75,13 +75,13 @@ jobs:
         echo "{KONFIRMO_GH}={$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)}" >> $GITHUB_OUTPUT      
       
     - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: log-gh
         path: .log
 
     - name: Konservu la interrezultojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: tmp-gh
         path: .tmp
@@ -134,13 +134,13 @@ jobs:
         echo "{KONFIRMO_DB}={$(if [[ $(grep -l '\"konfirmo\"' .log/mail_sent*) ]]; then echo "1"; fi)}" >> $GITHUB_OUTPUT
 
     - name: Konservu protokolojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: log-db
         path: .log
 
     - name: Konservu la interrezultojn
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: tmp-db
         path: .tmp
