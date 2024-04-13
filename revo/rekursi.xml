@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: rekursi.xml,v 1.8 2023/06/08 22:29:32 revo Exp $">
+  <art mrk="$Id: rekursi.xml,v 1.9 2024/04/13 20:15:52 revo Exp $">
     <kap>
       <rad>rekursi</rad>/o <fnt><bib>KompLeks</bib></fnt>
     </kap>
@@ -40,6 +40,12 @@
       <trd lng="pl">rekurencja</trd>
       <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_ja;</trd>
       <trd lng="uk">&c_r;&c_je;&#x43A;&c_u;&c_r;&c_s;&c_ib;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x9012;&#x63A8; <pr>d&#xEC;tu&#x12B;</pr></trd>,
+    <trd>&#x905E;&#x63A8; <pr>d&#xEC;tu&#x12B;</pr></trd>,
+    <trd>&#x9012;&#x5F52; <pr>d&#xEC;gu&#x12B;</pr></trd>,
+    <trd>&#x905E;&#x6B78; <pr>d&#xEC;gu&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
     <drv mrk="rekursi.0a">
@@ -69,6 +75,12 @@
       </trdgrp>
       <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
       <trd lng="uk">&c_r;&c_je;&#x43A;&c_u;&c_r;&c_s;&c_i;&c_v;&#x43D;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x9012;&#x63A8; <pr>d&#xEC;tu&#x12B;</pr></trd>,
+    <trd>&#x905E;&#x63A8; <pr>d&#xEC;tu&#x12B;</pr></trd>,
+    <trd>&#x9012;&#x5F52; <pr>d&#xEC;gu&#x12B;</pr></trd>,
+    <trd>&#x905E;&#x6B78; <pr>d&#xEC;gu&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
     <drv mrk="rekursi.0afunkcio">
@@ -81,7 +93,7 @@
           komputajn problemojn al
           <ref cel="nombr.natura0o">naturnombraj</ref>
           <ref cel="funkci.0o.MATEM">funkcioj<sncref/></ref>
-          <frm am="N^n -&gt;N">N&#x207F;&#8594;N</frm>, kaj konstruas hierarkion el 3
+          <frm am="N^n -&gt;N">N&#x207F;&#x2192;N</frm>, kaj konstruas hierarkion el 3
           subklasoj:
           <refgrp tip="sub">
             <ref cel="rekursi.primitive0afunkcio">primitive <tld/>aj
@@ -96,8 +108,7 @@
           &gcirc;uste tiun &ccirc;i klason:
           <ekz>
             simbole la hierarkion de la <tld/>aj funkcioj eblas
-            prezenti per la formulo <frm am="&quot;PRF&quot; sub &quot;&Ccirc;RF&quot; sub
-            &quot;MRF&quot;">PRF &#8834; &Ccirc;RF &#8834; MRF</frm>;
+            prezenti per la formulo <frm am="&quot;PRF&quot; sub &quot;&Ccirc;RF&quot; sub             &quot;MRF&quot;">PRF &#x2282; &Ccirc;RF &#x2282; MRF</frm>;
           </ekz><ekz>
             estas pruvite, ke la klaso da <tld/>aj funkcioj, la
             klaso da funkcioj difineblaj per Turinga a&ubreve;tomato, per
@@ -126,9 +137,8 @@
           la <ref cel="krement.al0i">alkremento</ref>
           <frm am="S(x)=x+1">S(x)=x+1</frm>;
           la <ref cel="projek.0o.kanona">projekcioj</ref>
-          <frm am="&quot;Pr&quot;[m,n](x_1,...x_n)=x_m,1 le m le
-          n">Pr[m,n](x<sub>1</sub>,&#8230;x<sub>n</sub>)=x<sub>m</sub>,
-          1&#8804;m&#8804;n</frm>.
+          <frm am="&quot;Pr&quot;[m,n](x_1,...x_n)=x_m,1 le m le           n">Pr[m,n](x<sub>1</sub>,&#x2026;x<sub>n</sub>)=x<sub>m</sub>,
+          1&#x2264;m&#x2264;n</frm>.
           La operatoroj estas
           la <ref cel="lig.kun0o.MAT">kunligo<sncref/></ref> kaj la
           <ref cel="rekursi.primitiva0ilo">primitiva <tld/>ilo</ref>.
@@ -138,7 +148,7 @@
             <frm am="S(S(x))">S(S(x))</frm> estas primitive <tld/>a
             funkcio &ccirc;ar &gcirc;i
             estas kunligo de du alkrenentoj <klr>(&gcirc;i
-            &jcirc;etas <frm am="x to x+2">x&#8594;x+2</frm>)</klr>;
+            &jcirc;etas <frm am="x to x+2">x&#x2192;x+2</frm>)</klr>;
           </ekz><ekz>
             &ccirc;iuj primitive <tld/>aj funkcioj estas
             <ref cel="cxie.0afunkcio">&ccirc;ieaj funkcioj</ref>;
@@ -173,13 +183,11 @@
           primitiva <tld/>ilo al la paro da funkcioj <frm am="(f,g)">(f,g)</frm>
           estas tia <frm am="n+2">n+2</frm>-loka funkcio <frm am="h">h</frm>, ke
           <em>baze:</em>
-          <frm
-          am="h(x_1,...,x_n,0)=f(x_1,...,x_n)">h(x<sub>1</sub>,&#8230;,x<sub>n</sub>,0)=f(x<sub>1</sub>,&#8230;,x<sub>n</sub>)</frm>;
+          <frm am="h(x_1,...,x_n,0)=f(x_1,...,x_n)">h(x<sub>1</sub>,&#x2026;,x<sub>n</sub>,0)=f(x<sub>1</sub>,&#x2026;,x<sub>n</sub>)</frm>;
           kaj <em>rikure:</em>
-          <frm
-          am="h(x_1,...x_n,y+1)=g(x_1,...x_n,y,h(x_1,...,x_n,y))">h(x<sub>1</sub>,&#8230;,x<sub>n</sub>,y+1)
+          <frm am="h(x_1,...x_n,y+1)=g(x_1,...x_n,y,h(x_1,...,x_n,y))">h(x<sub>1</sub>,&#x2026;,x<sub>n</sub>,y+1)
           =
-            g(x<sub>1</sub>,&#8230;,x<sub>n</sub>,y,h(x<sub>1</sub>,&#8230;,x<sub>n</sub>,y))</frm>.
+            g(x<sub>1</sub>,&#x2026;,x<sub>n</sub>,y,h(x<sub>1</sub>,&#x2026;,x<sub>n</sub>,y))</frm>.
           <ekz>
             Estu <frm am="f(x)=&quot;Pr&quot;[1,1](x)=x">f(x)=Pr[1,1](x)=x</frm>
             kaj
