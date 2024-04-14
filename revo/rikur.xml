@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rikur.xml,v 1.7 2022/11/08 22:33:32 revo Exp $">
+<art mrk="$Id: rikur.xml,v 1.8 2024/04/14 05:46:54 revo Exp $">
 <kap>
   <rad>rikur</rad>/o <fnt><bib>EKV</bib></fnt>
 </kap>
@@ -28,19 +28,17 @@
       <dif>
         <tld lit="R"/>o de la ordo <frm am="k"><k>k</k></frm> estas
         difino de la
-        formo <frm am="a_n=f(n,a_(n-1),a_(n-2),...,a_(n-k))">a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
-        a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;<k>k</k></sub>)</frm>, kie
-        <frm am="n ge k+1 ge 0">n&#x202F;&#8805;&#x202F;<k>k</k>+1&#x202F;&#8805;&#x202F;0</frm>:
+        formo <frm am="a_n=f(n,a_(n-1),a_(n-2),...,a_(n-k))">a<sub>n</sub> = f(n, a<sub>n&#x2212;1</sub>,
+        a<sub>n&#x2212;2</sub>, &#x2026; a<sub>n&#x2212;<k>k</k></sub>)</frm>, kie
+        <frm am="n ge k+1 ge 0">n&#x202F;&#x2265;&#x202F;<k>k</k>+1&#x202F;&#x2265;&#x202F;0</frm>:
         <ekz>
           la difino de Fibona&ccirc;ia vico ekde la 3-a ano
-          <frm am="(n ge 3)">(n&#8805;3)</frm> uzas <tld/>on de la 2-a ordo:
-          <frm
-          am="f_n=f_(n-2)+f_(n-1)">f<sub>n</sub>&#x202F;=&#x202F;f<sub>n&#8722;2</sub>+f<sub>n&#8722;1</sub></frm>;
+          <frm am="(n ge 3)">(n&#x2265;3)</frm> uzas <tld/>on de la 2-a ordo:
+          <frm am="f_n=f_(n-2)+f_(n-1)">f<sub>n</sub>&#x202F;=&#x202F;f<sub>n&#x2212;2</sub>+f<sub>n&#x2212;1</sub></frm>;
         </ekz><ekz>
-          difino de la iteraciilo <frm>&#8721;</frm> per <tld/>o:
-          <frm am="sum_(i=0)^0=a_0,
-          sum_(i=0)^(k+1)=sum_(i=0)^k+a_(k+1)">&#8721;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
-            &#8721;<sup>k+1</sup><sub>i=0</sub>=&#8721;<sup>k</sup><sub>i=0</sub>+a<sub>k+1</sub>;
+          difino de la iteraciilo <frm>&#x2211;</frm> per <tld/>o:
+          <frm am="sum_(i=0)^0=a_0,           sum_(i=0)^(k+1)=sum_(i=0)^k+a_(k+1)">&#x2211;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
+            &#x2211;<sup>k+1</sup><sub>i=0</sub>=&#x2211;<sup>k</sup><sub>i=0</sub>+a<sub>k+1</sub>;
           </frm>
         </ekz><ekz>
           por solvi la ekvacion <frm am="f(x)=0">f(x)&#x202F;=&#x202F;0</frm> ofte
@@ -48,7 +46,7 @@
           la iteracian <em>metodon Ne&ubreve;tonan</em>, difinitan per
           la <tld/>o
            <frm am="x_(n+1)=x_n-f(x_n)//f&minute;(x_n)">x<sub>n+1</sub>&#x202F;=
-x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
+x<sub>n</sub>&#x2212;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         </ekz>
       </dif>
       <rim>
@@ -58,7 +56,7 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         <ref cel="iteraci.kondicxa0o">kondi&ccirc;a iteracio</ref>
         por la Ne&ubreve;tona metodo,
         <ref cel="iteraci.nombrila0o">nombrila iteracio</ref>
-        por <frm>&#8721;</frm> ktp.
+        por <frm>&#x2211;</frm> ktp.
         En matematiko la nocio unue aperis en la verkoj de
         Muavro (<nom>Abraham de Moivre</nom>, 1667&ndash;1754) kaj
         <nom>Daniel Bernoulli</nom> (1700&ndash;1782), &gcirc;in sistemigis
@@ -74,11 +72,10 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
           <tld/>on uzatan en pruvoj a&ubreve; difinoj oni anka&ubreve; nomas
           &leftquot;<ref tip="sub" cel="indukt.0o.MAT">matematika indukto</ref>&rightquot;
           <fnt><bib>KompLeks</bib>,
-            <lok><url
-            ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA">rikura</url></lok></fnt>;
+            <lok><url ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA">rikura</url></lok></fnt>;
         </ekz><ekz>
           la E&ubreve;klida algoritmo por trovi la plej grandan komunan
-          divizoron (PGKD) de <frm am="a,b in           NN_0">a,b&#8712;N<sub>0</sub></frm> uzas
+          divizoron (PGKD) de <frm am="a,b in           NN_0">a,b&#x2208;N<sub>0</sub></frm> uzas
           <tld/>on: <frm am="&quot;PGKD&quot;(a,b)=&quot;PGKD&quot;(a mod b,b)">PGKD(a,b)=PGKD(a
           <g>mod</g> b,b)</frm>,
           kie <frm am="a mod b">a <g>mod</g> b</frm> estas la
@@ -143,6 +140,12 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
    <trd lng="pl">rekurencja</trd>
    <trd lng="ro">recursivitate</trd>
   <trd lng="uk">&c_ib;&#x43D;&c_d;&c_u;&#x43A;&c_c;&c_ib;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5FAA;&#x73AF; <pr>x&#xFA;nhu&#xE1;n</pr></trd>,
+    <trd>&#x5FAA;&#x74B0; <pr>x&#xFA;nhu&#xE1;n</pr></trd>,
+    <trd>&#x9012;&#x5F52; <pr>d&#xEC;gu&#x12B;</pr></trd>,
+    <trd>&#x905E;&#x6B78; <pr>d&#xEC;gu&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rikur.0a">
@@ -154,7 +157,7 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
     <dif>
       Uzanta <tld/>on, karakterizata de <tld/>o:
       <ekz>
-        Tapi&scirc;o de <nom>Sjerpinski</nom> <klr>[&#8230;]</klr> ekestas per
+        Tapi&scirc;o de <nom>Sjerpinski</nom> <klr>[&#x2026;]</klr> ekestas per
         <tld/>a divido de kvadrato al
         3&#x202F;&#xD7;&#x202F;3 subkvadratoj kaj forpreno de la mezaj subkvadratoj
         <fnt>
@@ -180,8 +183,7 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         kaj <tld/>o-pa&scirc;o
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://www.know.cf/enciclopedia/tab/eo/Matematika_indukto/3b16fce43557e5dce6c63345c38a354fea658b37">Rikura
+          <lok><url ref="https://www.know.cf/enciclopedia/tab/eo/Matematika_indukto/3b16fce43557e5dce6c63345c38a354fea658b37">Rikura
           a&ubreve; indukta difino</url></lok></fnt>;
       </ekz><ekz>
         la &Ccirc;ebi&scirc;ovaj polinomoj de la unua
@@ -189,11 +191,10 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         <tld/>a
         formulo de la 2a ordo:
         <frm am="T_n(x)=2*x*T_(n-1)(x)-T_(n-2)(x)">T<sub>n</sub>(x) =
-        2&#x22C5;x&#x22C5;T<sub>n&#8722;1</sub>(x) &#8722;
-        T<sub>n&#8722;2</sub>(x)</frm>
+        2&#x22C5;x&#x22C5;T<sub>n&#x2212;1</sub>(x) &#x2212;
+        T<sub>n&#x2212;2</sub>(x)</frm>
         <fnt><bib>KompLeks</bib>,
-          <lok><url
-          ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA">rikura</url></lok></fnt>.
+          <lok><url ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA">rikura</url></lok></fnt>.
       </ekz>
     </dif>
     <ref tip="super" cel="rekursi.0a">rekursia</ref>
@@ -203,7 +204,13 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
       <trd>recurrent</trd>, <trd>recursive</trd>
     </trdgrp>
     <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_r;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x9012;&#x63A8; <pr>d&#xEC;tu&#x12B;</pr></trd>,
+    <trd>&#x905E;&#x63A8; <pr>d&#xEC;tu&#x12B;</pr></trd>,
+    <trd>&#x9012;&#x5F52; <pr>d&#xEC;gu&#x12B;</pr></trd>,
+    <trd>&#x905E;&#x6B78; <pr>d&#xEC;gu&#x12B;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="rikur.0o.rekursia">
     <uzo tip="fak">MAT</uzo>
     <uzo tip="fak">KOMP</uzo>
