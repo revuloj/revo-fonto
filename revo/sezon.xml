@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sezon.xml,v 1.119 2024/04/16 03:25:52 revo Exp $">
+<art mrk="$Id: sezon.xml,v 1.120 2024/04/16 07:24:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sezon</rad>/o <fnt><bib>PV</bib></fnt>
@@ -98,6 +98,7 @@
       </dif>
       <ref tip="vid" cel="muson.0o">musono</ref>
       <trd lng="be">&c_s;&c_e;&c_z;&c_o;&c_n;</trd>
+       <trd lng="ru">&c_s;&c_je;&c_z;&c_o;&c_n;</trd>
     </subsnc>
     <subsnc mrk="sezon.0o.okupo">
       <dif>
@@ -141,11 +142,11 @@
         </ekz><ekz>
           la <ind>rikolta <tld/>o</ind>
           <fnt>
-       <aut>Evgeni Georgiev/pg</aut>
-          <vrk><url ref="&Monato;/2001/007150.html">Nova ponto sur Danubo</url></vrk>
-          <bib>Monato</bib>
-          <lok>2001/01, p. 11</lok>
-        </fnt>;
+             <aut>Evgeni Georgiev/pg</aut>
+             <vrk><url ref="&Monato;/2001/007150.html">Nova ponto sur Danubo</url></vrk>
+             <bib>Monato</bib>
+             <lok>2001/01, p. 11</lok>
+          </fnt>;
           <trd lng="de">Erntesaison</trd>
           <trd lng="nl">oogstseizoen</trd>
         </ekz><ekz>
@@ -343,7 +344,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="sezon.morta0o">morta <tld/>o</ref>
+    <ref tip="sin" cel="sezon.mal0o">mal<tld/>o</ref>
     <trd lng="ru">&c_m;&c_je;&c_zh;&c_s;&c_je;&c_z;&c_o;&c_n;&c_mol;&c_je;</trd>
   </snc>
   <snc mrk="sezon.inter0o.jarkvarono">
@@ -362,8 +363,8 @@
         jarsezonoj?</url></vrk>
         </fnt>.
       </ekz>
-      <trd lng="ru">&c_d;&c_je;&c_m;&c_i;&c_s;&c_je;&c_z;&c_o;&c_n;</trd>
-    </dif>
+     </dif>
+     <trd lng="ru">&c_d;&c_je;&c_m;&c_i;&c_s;&c_je;&c_z;&c_o;&c_n;</trd>
    </snc>
   <trd lng="be">&c_m;&c_ib;&c_zh;&c_s;&c_e;&c_z;&c_o;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="de">Zwischensaison</trd>
@@ -378,7 +379,7 @@
   <snc>
     <dif>
       La malo de <ref tip="ant" cel="sezon.0o.okupo"><tld/>o<sncref/></ref>,
-      tempoperiodo malfavora por ia agado:
+      tempoperiodo malfavora por ia agado, ekz-e kiam ne okazas kultivado, turismo ks:
       <ekz>
         Se oni ne faris tiajn mendojn dum la somero, certe neniu volos
         pentrigi sian domon dum la nuna mal<tld/>o
@@ -387,7 +388,13 @@
           <lok>Literatura Mondo, <url
  ref="https://bibliotekoj.org/literaturamondo/PDF/1935/LM%201935-10c.pdf"
                                    >Decembro 1935</url>,
-            p.&nbsp;184</lok></fnt>.
+            p.&nbsp;184</lok></fnt>;
+      </ekz><ekz>
+        Ne na&gcirc;u sur la Okcidenta marbordo (Andamana Maro) en la
+        malalta <tld/>o (mal<tld/>o; majo &ndash; novembro)
+        <fnt><lok><url
+ ref="https://www.thailandblog.nl/eo/thailand-tips/lezersinzending-top-10-dingen-moet-phuket/"
+ >Tajlanda blogo</url></lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -412,8 +419,7 @@
 <drv mrk="sezon.morta0o">
   <kap>morta <tld/>o</kap>
   <snc>
-    <dif>
-      Tempo de la jaro kun malmulte da aktiveco, kiam ne okazas kultivado, turismo ks:
+    <ref tip="dif" cel="sezon.mal0o">mal<tld/>o</ref>
       <ekz>
         en la morta <tld/>o de agrikulturaj laboroj li ankora&ubreve; ser&ccirc;is kromokupojn
         <fnt>
@@ -423,8 +429,20 @@
           <lok>2012</lok>
         </fnt>.
       </ekz>
-    </dif>
   </snc>
+  <rim>
+    &Ccirc;i tiu esprimo estas duoble malta&ubreve;ga.
+    <em>Unue</em>, &ccirc;ar &gcirc;i uzas la adjektivon <ctl>morta</ctl> en la
+    kontra&ubreve;fundamenta signifo <ctl>malvigla, senefika</ctl>
+    (<ref cel="mort.0a.senefika">morta<sncref/></ref>; vidu la tiean rimarkigon).
+    <em>Due</em>, pro la aparta signifo de la vorto <tld/>o, kiun &gcirc;i
+    karakterizas: se &leftquot;feria <tld/>o&rightquot; estas la <tld/>o konvena por
+    feriado, tiam &leftquot;morta <tld/>o&rightquot; devas esti <tld/>o konvena por mortado.
+    La adjektivo <ctl>morta</ctl>, e&ccirc; en sia kontra&ubreve;fundamenta signifo,
+    povas nur malfortigi la signifon de <tld/>o<sncref ref="sezon.0o.okupo"/>,
+    sed ne inversigi &gcirc;in, kiel la prefikso &leftquot;mal-&rightquot; en &leftquot;mal<tld/>o&rightquot;.
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
   <trd lng="be">&c_m;&c_jo;&c_r;&c_t;&c_v;&c_y; <ind>&c_s;&c_e;&c_z;&c_o;&c_n;</ind></trd>
   <trd lng="de">Zeit au&szlig;erhalb der <ind>Saison</ind></trd>
   <trdgrp lng="en">
@@ -549,8 +567,7 @@
   <kap>turisma <tld/>o</kap>
   <snc mrk="sezon.turisma0o.KOMUNE">
     <dif>
-      <tld lit="S"/>o favora por turismo,
-      &gcirc;enerale mildavetera:
+      <tld lit="S"/>o favora por turismo, &gcirc;enerale mildavetera:
       <ekz>
         meze en la turisma <tld/>o
         <fnt>
@@ -587,6 +604,9 @@
 </drv>
 </art><!--
 $Log$
+versio 1.120 2024/04/16 07:24:21
+Sergio Pokrovskij: ref-dif, +rim
+
 versio 1.119 2024/04/16 03:25:52
 Sergio Pokrovskij: +mal~o
 
@@ -606,8 +626,5 @@ versio 1.112 2023/05/02 09:25:40
 Dmitri Gabinski: + trd be
 
 versio 1.111 2023/04/20 12:45:42
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.110 2022/07/24 18:37:47
 -->
 </vortaro>
