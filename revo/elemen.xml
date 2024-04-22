@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: elemen.xml,v 1.129 2024/04/22 06:27:33 revo Exp $">
+<art mrk="$Id: elemen.xml,v 1.130 2024/04/22 20:22:39 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>element</rad>/o
@@ -9,45 +9,145 @@
 </kap>
 <drv mrk="elemen.0o">
   <kap><tld/>o</kap>
-  <snc mrk="elemen.0o.KOMUNE">
+  <snc mrk="elemen.0o.de_naturo">
     <dif>
-      Baza <ref cel="part.0o.KOMUNE">parto</ref> a&ubreve; substanco de tuta&jcirc;o:
+      &Ccirc;iu el aro de bazaj <ref cel="part.0o.KOMUNE">parto</ref>j a&ubreve; substancoj, el kies
+      kombini&gcirc;oj konsistas la materia naturo:
+    </dif>
+    <subsnc mrk="elemen.0o.FIL">
+      <uzo tip="fak">FIL</uzo>
+      <dif>
+        &Ccirc;iu el la bazaj ioj (substancoj, fenomenoj), el kiuj, la&ubreve;
+        kredo de la antikvuloj, konsistas a&ubreve; estas farita la
+        universo:
+        <ekz>
+          grekaj filozofoj konis kvar <tld/>ojn:
+          aeron, fajron, akvon kaj teron;
+        </ekz>
+        <ekz>
+          la &ccirc;ina medicino klasifikas &ccirc;iujn aferojn la&ubreve;
+          la kvin <tld/>oj &ndash; metalo, akvo, ligno, fajro kaj tero
+          <fnt><bib>EncCxi</bib>,
+            <lok>&ccirc;apitro &leftquot;&ccirc;ina medicino&rightquot;, p. 274a</lok></fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="be">
+        <trd>&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t;</trd>,
+        <trd>&c_s;&c_t;&c_y;&c_h;&c_ib;&c_ja;</trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>pierwiastek</trd>,
+        <trd>&zdot;ywio&lstroke;</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>,
+        <trd>&c_s;&c_t;&c_i;&c_h;&c_i;&c_ja;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="elemen.0o.medio">
+      <dif>
+        Natura medio kiun konsistigas tia
+        <tld/>o<sncref ref="elemen.0o.FIL"/>:
+        <ekz>
+          en tiu tago la &ccirc;ielo forpasos kun mu&gcirc;a bruego, kaj la
+          <tld/>oj brulante solvi&gcirc;os, kaj la tero kaj la
+          farita&jcirc;oj en &gcirc;i forbrulos
+          <fnt><bib>NT</bib>, <lok>&Pe2; 3:10</lok></fnt>;
+        </ekz>
+        <ekz>
+          la akvo ekkovris al ili la kapon, <klr>[&#8230;]</klr> ili sentis sin bone en la
+          malseka <tld/>o
+          <fnt>
+            <bib>Fab2</bib>
+            <lok>Malbela anasido</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          la societo babiladis pri <klr>[&#8230;]</klr> vetero kaj cetero, kaj la fra&ubreve;lino estis
+          en sia <tld/>o
+          <fnt>
+            <bib>IdO</bib>
+            <lok>Tria Parto</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="be">&c_s;&c_t;&c_y;&c_h;&c_ib;&c_ja;</trd>
+      <trd lng="pl">&zdot;ywio&lstroke;</trd>
+      <trd lng="ru">&c_s;&c_t;&c_i;&c_h;&c_i;&c_ja;</trd>
+    </subsnc>
+    <subsnc mrk="elemen.0o.kataklismo">
+      <dif>
+        Natura forto perceptata kiel manifestigo
+        de <tld/>oj<sncref ref="elemen.0o.FIL"/> (ventego, inundo, incendio,
+        tertremo, erupcio ktp) kiel nehaltigebla
+        kaj superhoma detrua natura fenomeno:
+        <ekz>
+          la ekstere furiozantaj <tld/>oj;
+        </ekz>
+        <ekz>
+          oni diras, ke &scirc;ipo povos veturi kontra&ubreve; la vento kaj
+          malbonvetero, ke &gcirc;i estos potenco kontra&ubreve; la <tld/>oj
+          <fnt><bib>Fab3</bib>, <lok>dorna vojo de la
+          honoro</lok></fnt>.
+        </ekz>
+      </dif>
+      <trd lng="be">&c_s;&c_t;&c_y;&c_h;&c_ib;&c_ja;</trd>
+      <trd lng="pl">&zdot;ywio&lstroke;</trd>
+      <trd lng="ru">&c_s;&c_t;&c_i;&c_h;&c_i;&c_ja;</trd>
+    </subsnc>
+    <subsnc mrk="elemen.0o.KEM">
+      <tezrad fak="KEM"/>
+      <uzo tip="fak">KEM</uzo>
+      <dif>
+        <ref tip="super" cel="substa.0o">Substanco</ref> supozata simpla,
+        kaj konsistanta el samsubstancaj eroj:
+        <ekz>
+          ne &ccirc;iuj <ref cel="izotop.0o">izotopo</ref>j de &ccirc;iuj <tld/>oj estas stabilaj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Pejno Simono</aut>
+            <vrk><url ref="&Monato;/2011/010370.php"
+                >Moderna minaco: radioaktiveco</url></vrk>
+            <lok>2011</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          per spektroskopio, astronomoj e&ccirc; kapablas analizi, kiaj <tld/>oj trovi&gcirc;as sur
+          tiuj planedoj, kaj &ccirc;u ili posedas akvon
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Garvan Makaj</aut>
+            <vrk><url ref="&Monato;/2013/011081.php"
+                >Astrobiologio kaj religio</url></vrk>
+            <lok>2013</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <lstref lst="voko:hxemiaj_elementoj">&hcirc;emiaj <tld/>oj</lstref>
+      <url ref="&Viki;/Dosiero:Periodic_table.svg">
+      perioda tabelo de &hcirc;emiaj elementoj
+      </url>
+      <trd lng="be">&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t;</trd>
+      <trd lng="de">chemisches Element</trd>
+      <trd lng="pl">pierwiastek</trd>
+      <trd lng="pt">elemento</trd>
+      <trd lng="ru">&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>
+      <trd lng="tr">element</trd>
+    </subsnc>
+  </snc>
+  <snc mrk="elemen.0o.de_sistemo">
+    <dif>
+      &Ccirc;iu el la bazaj konsistigaj partoj formantaj sistemon
+      (abstraktan: teorion a&ubreve; konkretan: aparaton),
+      ideon, verkon ktp:
       <ekz>
         la <tld/>oj de elektra pilo;
-      </ekz>
-      <ekz>
-        en la landon alfluis fremdaj <tld/>oj
-        <fnt><bib>Far1</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
       </ekz>
       <ekz>
         kompatemaj manoj &gcirc;enerale enhavas en si kruelan <tld/>on de necerteco
         <fnt>
           <bib>Marta</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la rakonto estas lerte konstruita, kaj enhavas tiun esencan <tld/>on de
-        konflikto, kiu distingas vivan historion de banala&jcirc;o
-        <fnt>
-          <bib>KPr</bib>
-          <lok>Anta&ubreve;vorto</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        Frederiko promenadis la&ubreve;longe kaj la&ubreve;lar&gcirc;e anta&ubreve; la malnova konstrua&jcirc;o, studante
-        tre atente &ccirc;iujn ar&hcirc;itekturajn <tld/>ojn, ornama&jcirc;ojn, kornicojn, balkonojn
-        kaj elstara&jcirc;ojn
-        <fnt>
-          <bib>KPr</bib>
-          <lok>&Ccirc;apitro Kvina</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la &ccirc;areto anta&ubreve;eniris en la &ccirc;ambron, alportante &ccirc;iujn <tld/>ojn de bongusta
-        vesperman&gcirc;o
-        <fnt>
-          <bib>KPr</bib>
-          <lok>&Ccirc;apitro Deksesa</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -122,121 +222,7 @@
           <lok>&Ccirc;apitro II</lok>
         </fnt>;
       </ekz>
-      <ekz>
-        la fu&scirc;agitisto estas kontra&ubreve;soveta <tld/>o
-        <fnt>
-          <bib>Metrop</bib>
-        </fnt>!
-      </ekz>
-      <ekz>
-        vi estis en sklaveco al tiuj, kiuj nature ne estas dioj <klr>[&#8230;]</klr> kial vi
-        returni&gcirc;as al la malfortaj kaj mizeraj <tld/>oj, al kiuj vi deziras denove
-        sklavi&gcirc;i
-        <fnt>
-          <bib>NT</bib>
-          <lok>Galatoj 4:9</lok>
-        </fnt>?
-      </ekz>
     </dif>
-    <subsnc mrk="elemen.0o.FIL">
-      <uzo tip="fak">FIL</uzo>
-      <dif>
-        &Ccirc;iu el la bazaj ioj (substancoj, fenomenoj), el kiuj, la&ubreve;
-        kredo de la antikvuloj, konsistas a&ubreve; estas farita la
-        universo:
-        <ekz>
-          grekaj filozofoj konis kvar <tld/>ojn:
-          aeron, fajron, akvon kaj teron;
-        </ekz>
-        <ekz>
-          la &ccirc;ina medicino klasifikas &ccirc;iujn aferojn la&ubreve;
-          la kvin <tld/>oj &ndash; metalo, akvo, ligno, fajro kaj tero
-          <fnt><bib>EncCxi</bib>,
-            <lok>&ccirc;apitro &leftquot;&ccirc;ina medicino&rightquot;, p. 274a</lok></fnt>.
-        </ekz>
-      </dif>
-      <trdgrp lng="be">
-        <trd>&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t;</trd>,
-        <trd>&c_s;&c_t;&c_y;&c_h;&c_ib;&c_ja;</trd>
-      </trdgrp>
-      <trdgrp lng="pl">
-        <trd>pierwiastek</trd>,
-        <trd>&zdot;ywio&lstroke;</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>,
-        <trd>&c_s;&c_t;&c_i;&c_h;&c_i;&c_ja;</trd>
-      </trdgrp>
-    </subsnc>
-    <subsnc mrk="elemen.0o.medio">
-      <dif>
-        Natura medio kiun konsistigas tia
-        <tld/>o<sncref ref="elemen.0o.FIL"/>
-        <ekz>
-          en tiu tago la &ccirc;ielo forpasos kun mu&gcirc;a bruego, kaj la
-          <tld/>oj brulante solvi&gcirc;os, kaj la tero kaj la
-          farita&jcirc;oj en &gcirc;i forbrulos
-          <fnt><bib>NT</bib>, <lok>&Pe2; 3:10</lok></fnt>;
-        </ekz>
-        <ekz>
-          la akvo ekkovris al ili la kapon, <klr>[&#8230;]</klr> ili sentis sin bone en la
-          malseka <tld/>o
-          <fnt>
-            <bib>Fab2</bib>
-            <lok>Malbela anasido</lok>
-          </fnt>;
-        </ekz>
-        <ekz>
-          <uzo tip="stl">FIG</uzo>
-          la societo babiladis pri <klr>[&#8230;]</klr> vetero kaj cetero, kaj la fra&ubreve;lino estis
-          en sia <tld/>o
-          <fnt>
-            <bib>IdO</bib>
-            <lok>Tria Parto</lok>
-          </fnt>.
-        </ekz>
-      </dif>
-      <trd lng="be">&c_s;&c_t;&c_y;&c_h;&c_ib;&c_ja;</trd>
-      <trd lng="pl">&zdot;ywio&lstroke;</trd>
-      <trd lng="ru">&c_s;&c_t;&c_i;&c_h;&c_i;&c_ja;</trd>
-    </subsnc>
-    <subsnc mrk="elemen.0o.kataklismo">
-      <dif>
-        La materia parto de natura fenomeno (ventego, inundo,
-        tertremo, erupcio ktp) kiu manifesti&gcirc;as kiel nehaltigebla
-        kaj superhoma detrua forto:
-        <ekz>
-          la ekstere furiozantaj <tld/>oj;
-        </ekz>
-        <ekz>
-          oni diras, ke &scirc;ipo povos veturi kontra&ubreve; la vento kaj
-          malbonvetero, ke &gcirc;i estos potenco kontra&ubreve; la <tld/>oj
-          <fnt><bib>Fab3</bib>, <lok>dorna vojo de la
-          honoro</lok></fnt>.
-        </ekz>
-      </dif>
-      <trd lng="be">&c_s;&c_t;&c_y;&c_h;&c_ib;&c_ja;</trd>
-      <trd lng="pl">&zdot;ywio&lstroke;</trd>
-      <trd lng="ru">&c_s;&c_t;&c_i;&c_h;&c_i;&c_ja;</trd>
-    </subsnc>
-    <subsnc mrk="elemen.0o.KEM">
-      <tezrad fak="KEM"/>
-      <uzo tip="fak">KEM</uzo>
-      <dif>
-        <ref tip="super" cel="substa.0o">Substanco</ref> supozata simpla,
-        kaj konsistanta el samsubstancaj eroj.
-      </dif>
-      <lstref lst="voko:hxemiaj_elementoj">&hcirc;emiaj <tld/>oj</lstref>
-      <url ref="&Viki;/Dosiero:Periodic_table.svg">
-      perioda tabelo de &hcirc;emiaj elementoj
-      </url>
-      <trd lng="be">&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t;</trd>
-      <trd lng="de">chemisches Element</trd>
-      <trd lng="pl">pierwiastek</trd>
-      <trd lng="pt">elemento</trd>
-      <trd lng="ru">&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>
-      <trd lng="tr">element</trd>
-    </subsnc>
     <subsnc mrk="elemen.0o.PED">
       <uzo tip="fak">PED</uzo>
       <dif>
@@ -280,6 +266,36 @@
         <trd>&c_a;&c_z;&c_y;</trd>
       </trdgrp>
     </subsnc>
+    <subsnc mrk="elemen.0o.de_artverko">
+      <dif>
+        &Ccirc;iu el la partoj, el kiuj komponi&gcirc;as artverko la&ubreve; certaj principoj:
+        <ekz>
+         la rakonto estas lerte konstruita, kaj enhavas tiun esencan <tld/>on de
+         konflikto, kiu distingas vivan historion de banala&jcirc;o
+         <fnt>
+           <bib>KPr</bib>
+           <lok>Anta&ubreve;vorto</lok>
+         </fnt>;
+        </ekz>
+        <ekz>
+         Frederiko promenadis la&ubreve;longe kaj la&ubreve;lar&gcirc;e anta&ubreve; la malnova konstrua&jcirc;o, studante
+         tre atente &ccirc;iujn ar&hcirc;itekturajn <tld/>ojn, ornama&jcirc;ojn, kornicojn, balkonojn
+         kaj elstara&jcirc;ojn
+         <fnt>
+           <bib>KPr</bib>
+           <lok>&Ccirc;apitro Kvina</lok>
+         </fnt>;
+        </ekz>
+        <ekz>
+         la &ccirc;areto anta&ubreve;eniris en la &ccirc;ambron, alportante &ccirc;iujn <tld/>ojn de bongusta
+         vesperman&gcirc;o
+         <fnt>
+           <bib>KPr</bib>
+           <lok>&Ccirc;apitro Deksesa</lok>
+         </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
     <refgrp tip="vid">
       <ref cel="aspekt.0o.perspektivo">aspekto<sncref/></ref>,
       <ref cel="ingred.0o">ingredienco</ref>,
@@ -290,98 +306,122 @@
       <trd>elementarer <ind>Bestandteil</ind></trd>
     </trdgrp>
   </snc>
-  <snc mrk="elemen.0o.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV1</bib>, <lok>aro</lok></fnt>
+  <snc mrk="elemen.0o.de_aro">
     <dif>
-      &Ccirc;iu el la objektoj apartenantaj al
-      <ref cel="ar.0o.MAT">aro</ref>:
+      &Ccirc;iu unuopa ero de ia aro, socio ktp:
       <ekz>
-        la aro signita per <frm>{<k>a</k>,<k>b</k>}</frm>
-        enhavas du <tld/>ojn;
+        la fu&scirc;agitisto estas kontra&ubreve;soveta <tld/>o
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>!
       </ekz>
       <ekz>
-        la nombro <frm>&pi;</frm> estas <tld/>o de la aro de reeloj.
+        en la landon alfluis fremdaj <tld/>oj
+        <fnt><bib>Far1</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
+      </ekz>
+      <ekz>
+        vi estis en sklaveco al tiuj, kiuj nature ne estas dioj <klr>[&#8230;]</klr> kial vi
+        returni&gcirc;as al la malfortaj kaj mizeraj <tld/>oj, al kiuj vi deziras denove
+        sklavi&gcirc;i
+        <fnt>
+          <bib>NT</bib>
+          <lok>Galatoj 4:9</lok>
+        </fnt>?
       </ekz>
     </dif>
-    <ref tip="vid" cel="aparte.0i.aro">aparteni</ref>
-    <trd lng="be">&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t;</trd>
-    <trd lng="de">Element<klr tip="ind"> (einer Menge)</klr></trd>
-    <trd lng="en">element<klr tip="ind"> (of a set)</klr></trd>
-    <trd lng="fr">&eacute;l&eacute;ment<klr tip="ind"> (d'un ensemble)</klr></trd>
-    <trd lng="pl">element<klr tip="ind"> (zbioru)</klr></trd>
-    <trd lng="pt">elemento</trd>
-    <trd lng="ru">&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;<klr tip="ind">
-    (&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
-  </snc>
-  <snc mrk="elemen.0o.matrico">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib>, <lok>p. 14 (de determinanto)</lok></fnt>
-    <dif>
-      <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
-      <refgrp tip="sin">
-        <ref cel="term.0o.matrico">Termo</ref>,
-        <ref cel="koefic.0o.matrico">koeficiento</ref>:
-      </refgrp>
-      <ekz>
-        <frm>(<k>n</k>,<k>p</k>)</frm>-matrico enhavas
-        <frm><k>n</k><k>p</k></frm> <tld/>ojn;
-      </ekz>
-      <ekz>
-        &ccirc;iuj elementoj de nulmatrico egalas al <frm>0</frm>.
-      </ekz>
-    </dif>
-    <rim>
-      Tiu internacia termino trovi&gcirc;as anka&ubreve; en
-      <fnt><bib>MatStokTerm</bib>, <lok>p. 25</lok></fnt>.
-      Estas la sama problemo kun &gcirc;i, kiel estas
-      kun <ctl>vico</ctl>, <ctl>opo</ctl>, <ctl>familio</ctl> a&ubreve;
-      <ctl>polinomo</ctl>: la naciaj lingvoj uzas preska&ubreve; indiferente,
-      sed nekohere inter si, terminojn de la tipo <ctl>termo</ctl>,
-      <ctl>elemento</ctl>, <ctl>koeficiento</ctl>, <ctl>membro</ctl> ks.
-      <ctl>Elemento</ctl> estas aparte malbonvena pro &gcirc;ia kolizio kun
-      la arteoria senco, des pli ke gravas ne konfuzi opon
-      a&ubreve; matricon kun aro. <ctl>Termo</ctl> ne pla&ccirc;as al la
-      &gcirc;erman- kaj slav-lingvanoj pro &gcirc;ia troa ligiteco kun adicio,
-      same kiel aliajn &scirc;okus <ctl>faktoro</ctl>, dum ili facilanime
-      akceptas <ctl>koeficiento</ctl>. Tamen &ccirc;i-lasta &gcirc;uste &scirc;okas,
-      kiam ne plu klare aperas, al kiu grando, &gcirc;i multiplike
-      apliki&gcirc;as (do uzi &gcirc;in por matrico implicite resendas al
-      <ctl>matrico de lineara ekvaciaro</ctl>, kio estas nur unu
-      aplikkampo de matricoj). <ctl>Membro</ctl>, <ctl>ano</ctl>
-      a&ubreve; e&ccirc; <ctl>ero</ctl>, povus esti solvoj al tiu problemo,
-      sed &scirc;ajne ne estas uzataj.
-    </rim>
-    <trdgrp lng="be">
-      <trd>&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t; <klr tip="ind">(&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_y;)</klr></trd>,
-      <trd>&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_e;&c_n;&c_t; <klr tip="ind">(&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_y;)</klr></trd>,
-      <trd>&c_k;&c_a;&c_e;&c_f;&c_ib;&c_c;&c_y;&c_je;&c_n;&c_t; <klr tip="ind">(&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_y;)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>Element<klr tip="ind"> (einer Matrix)</klr></trd>,
-      <trd>Glied<klr tip="ind"> (einer Matrix)</klr></trd>,
-      <trd>Koeffizient<klr tip="ind"> (einer Matrix)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd>element<klr tip="ind"> (of a matrix)</klr></trd>,
-      <trd>coefficient<klr tip="ind"> (of a matrix)</klr></trd>,
-      <trd>entry<klr tip="ind"> (of a matrix)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>&eacute;l&eacute;ment<klr tip="ind"> (d'une matrice)</klr></trd>,
-      <trd>coefficient<klr tip="ind"> (d'une matrice)</klr></trd>,
-      <trd>terme<klr tip="ind"> (d'une matrice)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>element<klr tip="ind"> (macierzy)</klr></trd>,
-      <trd>wsp&oacute;&lstroke;czynnik<klr tip="ind"> (macierzy)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;<klr tip="ind">
-      (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>,
-      <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;<klr tip="ind">
-      (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>
-    </trdgrp>
+    <subsnc mrk="elemen.0o.MAT">
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>PIV1</bib>, <lok>aro</lok></fnt>
+      <dif>
+        &Ccirc;iu el la objektoj apartenantaj al
+        <ref cel="ar.0o.MAT">aro</ref>:
+        <ekz>
+          la aro signita per <frm>{<k>a</k>,<k>b</k>}</frm>
+          enhavas du <tld/>ojn;
+        </ekz>
+        <ekz>
+          la nombro <frm>&pi;</frm> estas <tld/>o de la aro de reeloj.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="aparte.0i.aro">aparteni</ref>
+      <trd lng="be">&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t;</trd>
+      <trd lng="de">Element<klr tip="ind"> (einer Menge)</klr></trd>
+      <trd lng="en">element<klr tip="ind"> (of a set)</klr></trd>
+      <trd lng="fr">&eacute;l&eacute;ment<klr tip="ind"> (d'un ensemble)</klr></trd>
+      <trd lng="pl">element<klr tip="ind"> (zbioru)</klr></trd>
+      <trd lng="pt">elemento</trd>
+      <trd lng="ru">&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;<klr tip="ind">
+      (&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="elemen.0o.matrico">
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>MatTerm</bib>, <lok>p. 14 (de determinanto)</lok></fnt>
+      <dif>
+        <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>)</klr>
+        <refgrp tip="sin">
+          <ref cel="term.0o.matrico">Termo</ref>,
+          <ref cel="koefic.0o.matrico">koeficiento</ref>:
+        </refgrp>
+        <ekz>
+          <frm>(<k>n</k>,<k>p</k>)</frm>-matrico enhavas
+          <frm><k>n</k><k>p</k></frm> <tld/>ojn;
+        </ekz>
+        <ekz>
+          &ccirc;iuj elementoj de nulmatrico egalas al <frm>0</frm>.
+        </ekz>
+      </dif>
+      <rim>
+        Tiu internacia termino trovi&gcirc;as anka&ubreve; en
+        <fnt><bib>MatStokTerm</bib>, <lok>p. 25</lok></fnt>.
+        Estas la sama problemo kun &gcirc;i, kiel estas
+        kun <ctl>vico</ctl>, <ctl>opo</ctl>, <ctl>familio</ctl> a&ubreve;
+        <ctl>polinomo</ctl>: la naciaj lingvoj uzas preska&ubreve; indiferente,
+        sed nekohere inter si, terminojn de la tipo <ctl>termo</ctl>,
+        <ctl>elemento</ctl>, <ctl>koeficiento</ctl>, <ctl>membro</ctl> ks.
+        <ctl>Elemento</ctl> estas aparte malbonvena pro &gcirc;ia kolizio kun
+        la arteoria senco, des pli ke gravas ne konfuzi opon
+        a&ubreve; matricon kun aro. <ctl>Termo</ctl> ne pla&ccirc;as al la
+        &gcirc;erman- kaj slav-lingvanoj pro &gcirc;ia troa ligiteco kun adicio,
+        same kiel aliajn &scirc;okus <ctl>faktoro</ctl>, dum ili facilanime
+        akceptas <ctl>koeficiento</ctl>. Tamen &ccirc;i-lasta &gcirc;uste &scirc;okas,
+        kiam ne plu klare aperas, al kiu grando, &gcirc;i multiplike
+        apliki&gcirc;as (do uzi &gcirc;in por matrico implicite resendas al
+        <ctl>matrico de lineara ekvaciaro</ctl>, kio estas nur unu
+        aplikkampo de matricoj). <ctl>Membro</ctl>, <ctl>ano</ctl>
+        a&ubreve; e&ccirc; <ctl>ero</ctl>, povus esti solvoj al tiu problemo,
+        sed &scirc;ajne ne estas uzataj.
+      </rim>
+      <trdgrp lng="be">
+        <trd>&c_e;&c_l;&c_je;&c_m;&c_e;&c_n;&c_t; <klr tip="ind">(&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_y;)</klr></trd>,
+        <trd>&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_e;&c_n;&c_t; <klr tip="ind">(&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_y;)</klr></trd>,
+        <trd>&c_k;&c_a;&c_e;&c_f;&c_ib;&c_c;&c_y;&c_je;&c_n;&c_t; <klr tip="ind">(&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_y;)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>Element<klr tip="ind"> (einer Matrix)</klr></trd>,
+        <trd>Glied<klr tip="ind"> (einer Matrix)</klr></trd>,
+        <trd>Koeffizient<klr tip="ind"> (einer Matrix)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>element<klr tip="ind"> (of a matrix)</klr></trd>,
+        <trd>coefficient<klr tip="ind"> (of a matrix)</klr></trd>,
+        <trd>entry<klr tip="ind"> (of a matrix)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>&eacute;l&eacute;ment<klr tip="ind"> (d'une matrice)</klr></trd>,
+        <trd>coefficient<klr tip="ind"> (d'une matrice)</klr></trd>,
+        <trd>terme<klr tip="ind"> (d'une matrice)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>element<klr tip="ind"> (macierzy)</klr></trd>,
+        <trd>wsp&oacute;&lstroke;czynnik<klr tip="ind"> (macierzy)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;<klr tip="ind">
+        (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>,
+        <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;<klr tip="ind">
+        (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_y;)</klr></trd>
+      </trdgrp>
+    </subsnc>
   </snc>
   <trd lng="af">element</trd>
   <trd lng="am">&#4757;&#4901;&#4648; &#4752;&#4872;&#4653;</trd>
@@ -639,6 +679,9 @@ objektoj &ccirc;e
 </art>
 <!--
 $Log$
+versio 1.130 2024/04/22 20:22:39
+Wolfram Diestel: ~o: rearanĝo en tri snc kun subsnc
+
 versio 1.129 2024/04/22 06:27:33
 Wolfram Diestel: ~o: +ekz-oj, ref-oj, trd de
 
@@ -658,8 +701,5 @@ versio 1.50 2021/04/11 17:29:44
 Wolfram Diestel: +kor. lst-nomon
 
 versio 1.49 2021/04/11 15:58:47
-Wolfram Diestel: +lstref
-
-Revision 1.46  2015/06/29 16:29:37  revo
 -->
 </vortaro>
