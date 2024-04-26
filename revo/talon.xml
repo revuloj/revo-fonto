@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: talon.xml,v 1.12 2023/09/12 14:26:53 revo Exp $">
+<art mrk="$Id: talon.xml,v 1.13 2024/04/26 16:28:21 revo Exp $">
 <kap>
   <rad>talon</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,9 +11,25 @@
     <uzo tip="fak">EKON</uzo>
     <dif>
       Resta, atesta <ref tip="super" cel="stump.0o.FIG">stumpo</ref> de
-      &ccirc;eko a&ubreve; alia kontrakta dokumento:
+      &ccirc;eko, bileto ks:
       <ekz>
-        &Scirc;i rigardis &ccirc;irka&ubreve;e kaj ekvidis sur la apudlita tablo <tld/>on
+        <nom>Ivagin</nom> prenis de mi centon da <klr>[&#8230;]</klr> a&ubreve;tobusaj <tld/>oj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        esperantlingva <tld/>o kun po&scirc;tmarko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bert Boon</aut>
+          <vrk><url ref="&Monato;/2005/008538.php"
+              >Pli ol ri-mark-inde</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i rigardis &ccirc;irka&ubreve;e kaj ekvidis sur la apudlita tablo <tld/>on
         de la &scirc;tata numerloterio
         <fnt>
           <aut>Sten Johansson</aut>:
@@ -22,8 +38,9 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="foli.kontraux0o">kontra&ubreve;folio</ref>
     <refgrp tip="vid">
+      <ref cel="foli.kontraux0o">kontra&ubreve;folio</ref>,
+      <ref cel="kontra6.0o">kontramarko</ref>,
       <ref cel="kupon.0o">kupono</ref>
     </refgrp>
     <trdgrp lng="be">
@@ -61,6 +78,10 @@
       <trd>munt</trd>,
       <trd>pila<klr> (de cartes)</klr></trd>
     </trdgrp>
+    <trdgrp lng="de">
+      <trd>Kartenstapel</trd>,
+      <trd>Spielvorrat</trd>
+    </trdgrp>
     <trd lng="fr">talon<klr> (jeu de cartes)</klr></trd>
     <trdgrp lng="hu">
       <trd>talon<klr> (k&aacute;rty&aacute;ban)</klr></trd>,
@@ -73,17 +94,21 @@
     <trd lng="ru">&c_p;&c_r;&c_i;&c_k;&c_u;&c_p;</trd>
   </snc>
   <trd lng="cs">tal&oacute;n</trd>
+  <trd lng="de">Talon</trd>
   <trd lng="sk">tal&oacute;n</trd>
   <trdgrp lng="uk">
-    <trd>&c_t;&c_a;&#x43B;&#x43E;&#x43D;</trd>,
-    <trd>&c_v;&c_ib;&c_d;&c_r;&c_i;&c_v;&#x43D;&c_a; &c_ch;&c_a;&c_s;&c_t;&c_i;&#x43D;&c_a; (&c_ch;&c_je;&#x43A;&c_a;</trd>,
-    <trd>&#x43A;&c_v;&c_i;&c_t;&#x43A;&c_a; &c_ib; &c_t;.&#x43F;.)</trd>
+    <trd>&c_t;&c_a;&c_l;&c_o;&c_n;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_r;&c_i;&c_v;&c_n;&c_a; &c_ch;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a; (&c_ch;&c_je;&c_k;&c_a;</trd>,
+    <trd>&c_k;&c_v;&c_i;&c_t;&c_k;&c_a; &c_ib; &c_t;.&c_p;.)</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.13 2024/04/26 16:28:21
+Wolfram Diestel: +ekz, ref, trd de
+
 versio 1.12 2023/09/12 14:26:53
 Dmitri Gabinski: + trd be
 
@@ -103,8 +128,5 @@ Revision 1.5  2006/02/03 17:33:10  revo
 Tulio Flores: +trd pt
 
 Revision 1.4  2005/02/08 17:31:30  revo
-Yury Finkel: +trd ru
-
-Revision 1.3  2004/11/16 17:32:30  revo
 -->
 </vortaro>
