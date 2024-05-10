@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tring.xml,v 1.6 2024/05/10 10:43:47 afido Exp $">
+<art mrk="$Id: tring.xml,v 1.7 2024/05/10 18:27:19 afido Exp $">
 <kap>
   <rad>tring</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,19 +11,39 @@
   <snc mrk="tring.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Vadbirdo kun mezlonga beko kaj longaj brilkoloraj kruroj,
-      vivanta en mezvarmaj landoj;
-      genro el familio <ref tip="malprt" cel="skolop2.0oj">skolopedoj</ref>
+      <ref tip="lst" lst="voko:birdoj" cel="bird.vad0oj">Vadbirdo</ref> kun mezlonga beko
+      kaj longaj brilkoloraj kruroj, vivanta en mezvarmaj landoj;
+      <ref tip="lst" lst="voko:zoologiaj_genroj" cel="genr.0o.BIO">genro</ref> el
+      familio <ref tip="malprt" cel="skolop2.0oj">skolopedoj</ref>
       (<trd lng="la">Tringa</trd>):
-     <ekz>
+      <ekz>
         iuj <tld/>aj paroj superflugis el la oriento
         <fnt>
           <aut>H. Laxness</aut>
           <vrk>Sendependaj homoj</vrk>
           <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Blankventra <tld/>o venis flugante de la nordo al la boathaveno
+        <fnt>
+          <aut>Jan Hellstr&ouml;m</aut>
+          <vrk><url ref="https://www.esperanto-gbg.org/oraklubo/Ora_Jxurnalo_n-ro_41.pdf"
+              >Vesperaj sonoj de birdoj &ccirc;e rivero G&ouml;ta &Auml;lv</url></vrk>
+          <lok>Ora &Jcirc;urnalo, n.ro 41, Junio&ndash;Julio 2021, p. 10</lok>
         </fnt>.
       </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/9/9a/Wood_sandpiper_2.jpg/640px-Wood_sandpiper_2.jpg"
+      prm="CC BY-SA 4.0"
+      ><tld/>o (Tringa glareola)
+        <fnt>
+          <aut>Artemy Voikhansky, propra verko</aut>
+          <lok><url ref="&WCW;/File:Wood_sandpiper_2.jpg"
+              >https://commons.wikimedia.org/wiki/File:Wood_sandpiper_2.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_u;&c_l;&c_ib;&c_t;</trd>,
@@ -32,24 +52,27 @@
   <trd lng="de">Wasserl&auml;ufer</trd>
   <trd lng="fr">chevalier<klr> (oiseau)</klr></trd>
   <trd lng="pl">brodziec</trd>
-  <trd lng="uk">&#x43A;&#x43E;&#x43B;&#x43E;&c_v;&#x43E;&c_d;&#x43D;&c_i;&#x43A;</trd>
+  <trd lng="uk">&c_k;&c_o;&c_l;&c_o;&c_v;&c_o;&c_d;&c_n;&c_i;&c_k;</trd>
   <trdgrp lng="zh">
-    <trd>&#x5C0F;&#x9EC3;&#x8173;&#x9DF8; <pr>xi&#x1CE;ohu&#xE1;ngji&#x1CE;oy&#xF9;</pr></trd>,
-    <trd>&#x5C0F;&#x9EC4;&#x811A;&#x9E6C; <pr>xi&#x1CE;ohu&#xE1;ngji&#x1CE;oy&#xF9;</pr></trd>,
-    <trd>&#x6F02;&#x9DF8; <pr>pi&#x101;oy&#xF9;</pr></trd>,
-    <trd>&#x6F02;&#x9E6C; <pr>pi&#x101;oy&#xF9;</pr></trd>,
-    <trd>&#x6797;&#x9DF8; <pr>l&#xED;ny&#xF9;</pr></trd>,
-    <trd>&#x6797;&#x9E6C; <pr>l&#xED;ny&#xF9;</pr></trd>,
-    <trd>&#x9752;&#x811A;&#x9E6C; <pr>q&#x12B;ngji&#x1CE;oy&#xF9;</pr></trd>,
-    <trd>&#x9752;&#x8173;&#x9DF8; <pr>q&#x12B;ngji&#x1CE;oy&#xF9;</pr></trd>,
-    <trd>&#x7D05;&#x8173;&#x9DF8; <pr>h&#xF3;ngji&#x1CE;oy&#xF9;</pr></trd>,
-    <trd>&#x7EA2;&#x811A;&#x9E6C; <pr>h&#xF3;ngji&#x1CE;oy&#xF9;</pr></trd>
+    <trd>&#23567;&#40643;&#33139;&#40440; <pr>xi&#462;ohu&aacute;ngji&#462;oy&ugrave;</pr></trd>,
+    <trd>&#23567;&#40644;&#33050;&#40556; <pr>xi&#462;ohu&aacute;ngji&#462;oy&ugrave;</pr></trd>,
+    <trd>&#28418;&#40440; <pr>pi&amacron;oy&ugrave;</pr></trd>,
+    <trd>&#28418;&#40556; <pr>pi&amacron;oy&ugrave;</pr></trd>,
+    <trd>&#26519;&#40440; <pr>l&iacute;ny&ugrave;</pr></trd>,
+    <trd>&#26519;&#40556; <pr>l&iacute;ny&ugrave;</pr></trd>,
+    <trd>&#38738;&#33050;&#40556; <pr>q&imacron;ngji&#462;oy&ugrave;</pr></trd>,
+    <trd>&#38738;&#33139;&#40440; <pr>q&imacron;ngji&#462;oy&ugrave;</pr></trd>,
+    <trd>&#32005;&#33139;&#40440; <pr>h&oacute;ngji&#462;oy&ugrave;</pr></trd>,
+    <trd>&#32418;&#33050;&#40556; <pr>h&oacute;ngji&#462;oy&ugrave;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.7 2024/05/10 18:27:19
+Wolfram Diestel: +bld, ekz
+
 versio 1.5 2024/05/09 19:19:16
 Wolfram Diestel: trd de
 
