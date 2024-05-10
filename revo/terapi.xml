@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: terapi.xml,v 1.29 2024/02/02 21:20:21 revo Exp $">
+<art mrk="$Id: terapi.xml,v 1.30 2024/05/10 08:31:31 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>terapi</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,7 +14,7 @@
     <dif>
       Metoda <ref tip="super" cel="kurac.0o">kuracado</ref>:
       <ekz>
-        vane Maziero <klr>[&#8230;]</klr> konsumis unu post la alia la &ccirc;iujn provizojn de la
+        vane Maziero <klr>[&#x2026;]</klr> konsumis unu post la alia la &ccirc;iujn provizojn de la
         <tld/>o
         <fnt>
           <bib>ChL</bib>
@@ -102,8 +102,8 @@
     <trd>ter&aacute;pia</trd>,
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#30274;&#x6CD5;  <pr>&#x308A;&#12423;&#12358;&#x307B;&#12358;</pr></trd>,
-    <trd>&#x6CBB;&#30274;&#x6CD5;  <pr>&#12385;&#x308A;&#12423;&#12358;&#x307B;&#12358;</pr></trd>
+    <trd>&#x7642;&#x6CD5;  <pr>&#x308A;&#x3087;&#x3046;&#x307B;&#x3046;</pr></trd>,
+    <trd>&#x6CBB;&#x7642;&#x6CD5;  <pr>&#x3061;&#x308A;&#x3087;&#x3046;&#x307B;&#x3046;</pr></trd>
   </trdgrp>
   <trd lng="nl">therapie</trd>
   <trd lng="pl">terapia</trd>
@@ -114,6 +114,14 @@
     <trd>&c_t;&c_je;&c_r;&c_a;&c_p;&c_ib;&c_ja;</trd>,
     <trd>&c_t;&c_je;&c_r;&c_a;&c_p;&c_je;&c_v;&c_t;&c_i;&c_k;&c_a;</trd>,
     <trd>&c_l;&c_ib;&c_k;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7597;&#x6CD5; <pr>li&#xE1;of&#x1CE;</pr></trd>,
+    <trd>&#x7642;&#x6CD5; <pr>li&#xE1;of&#x1CE;</pr></trd>,
+    <trd>&#x7597;&#x6108; <pr>li&#xE1;oy&#xF9;</pr></trd>,
+    <trd>&#x7642;&#x7652; <pr>li&#xE1;oy&#xF9;</pr></trd>,
+    <trd>&#x6CBB;&#x7597;&#x6CD5; <pr>zh&#xEC;li&#xE1;of&#x1CE;</pr></trd>,
+    <trd>&#x6CBB;&#x7642;&#x6CD5; <pr>zh&#xEC;li&#xE1;of&#x1CE;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -191,11 +199,17 @@
   <trd lng="be">&c_t;&c_e;&c_r;&c_a;&c_p;&c_je;&c_w;&c_t;</trd>
   <trd lng="de">Therapeuth</trd>
   <trdgrp lng="ja">
-    <trd>&#x6CBB;&#30274;&#x5C02;&#38272;&#x5BB6;  <pr>&#12385;&#x308A;&#12423;&#12358;&#x305B;&#12435;&#12418;&#12435;&#x304B;</pr></trd>,
-    <trd>&#30274;&#x6CD5;&#x58EB;  <pr>&#x308A;&#12423;&#12358;&#x307B;&#12358;&#12375;</pr></trd>,
+    <trd>&#x6CBB;&#x7642;&#x5C02;&#x9580;&#x5BB6;  <pr>&#x3061;&#x308A;&#x3087;&#x3046;&#x305B;&#x3093;&#x3082;&#x3093;&#x304B;</pr></trd>,
+    <trd>&#x7642;&#x6CD5;&#x58EB;  <pr>&#x308A;&#x3087;&#x3046;&#x307B;&#x3046;&#x3057;</pr></trd>,
     <trd>&#x30BB;&#x30E9;&#x30D4;&#x30B9;&#x30C8;</trd>
   </trdgrp>
   <trd lng="pl">terapeuta</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E34;&#x5E8A;&#x533B;&#x5B66;&#x5BB6; <pr>l&#xED;nchu&#xE1;ngy&#x12B;xu&#xE9;ji&#x101;</pr></trd>,
+    <trd>&#x81E8;&#x5E8A;&#x91AB;&#x5B78;&#x5BB6; <pr>l&#xED;nchu&#xE1;ngy&#x12B;xu&#xE9;ji&#x101;</pr></trd>,
+    <trd>&#x6CBB;&#x7597;&#x8005; <pr>zh&#xEC;li&#xE1;ozh&#x11B;</pr></trd>,
+    <trd>&#x6CBB;&#x7642;&#x8005; <pr>zh&#xEC;li&#xE1;ozh&#x11B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="terapi.galvano0o">
@@ -213,8 +227,8 @@
   <trd lng="en">galvanotherapy</trd>
   <trd lng="fr">galvanoth&eacute;rapie</trd>
   <trd lng="hu">galvanoter&aacute;pia</trd>
-  <trd lng="ja">&#x76F4;&#x6D41;&#x96FB;&#x6C17;&#30274;&#x6CD5;
-  <pr>&#12385;&#12423;&#x304F;&#x308A;&#12421;&#12358;&#12391;&#12435;&#x304D;&#x308A;&#12423;&#12358;&#x307B;&#12358;</pr></trd>
+  <trd lng="ja">&#x76F4;&#x6D41;&#x96FB;&#x6C17;&#x7642;&#x6CD5;
+  <pr>&#x3061;&#x3087;&#x304F;&#x308A;&#x3085;&#x3046;&#x3067;&#x3093;&#x304D;&#x308A;&#x3087;&#x3046;&#x307B;&#x3046;</pr></trd>
   <trd lng="nl">galvanotherapie</trd>
   <trd lng="pl">galwanoterapia</trd>
   <trd lng="pt">galvanoterapia</trd>
@@ -241,7 +255,7 @@
   <trd lng="en">serotherapy</trd>
   <trd lng="fr">s&eacute;roth&eacute;rapie</trd>
   <trd lng="hu">szeroter&aacute;pia</trd>
-  <trd lng="ja">&#34880;&#x6E05;&#30274;&#x6CD5;  <pr>&#12369;&#12387;&#x305B;&#12356;&#x308A;&#12423;&#12358;&#x307B;&#12358;</pr></trd>
+  <trd lng="ja">&#x8840;&#x6E05;&#x7642;&#x6CD5;  <pr>&#x3051;&#x3063;&#x305B;&#x3044;&#x308A;&#x3087;&#x3046;&#x307B;&#x3046;</pr></trd>
   <trd lng="nl">serumtherapie</trd>
   <trd lng="pl">seroterapia</trd>
   <trd lng="ru">&c_s;&c_je;&c_r;&c_o;&c_t;&c_je;&c_r;&c_a;&c_p;&c_i;&c_ja;</trd>
