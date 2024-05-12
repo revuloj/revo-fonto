@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vigil.xml,v 1.8 2024/02/14 09:23:31 revo Exp $">
+<art mrk="$Id: vigil.xml,v 1.9 2024/05/12 21:22:09 revo Exp $">
 <kap>
   <rad>vigil</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,12 +10,17 @@
   <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
-      <ref tip="vid" cel="dorm.mal0i">Maldormi</ref> pro vola sindeteno:
+      <ke><ref tip="dif" cel="vigl.0i.maldormi">Vigli<sncref/></ref></ke>,
+      <ref tip="super" cel="dorm.mal0i">maldormi</ref> pro vola sindeteno:
       <ekz>
         &ccirc;i-nokte en la kapelo de &ccirc;i kastelo mi <tld/>os
         <fnt><bib>DonKihxoto</bib> <lok>&ccirc;apitro 3a, p. 39a</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="gvat.0i.dejxore">gvati</ref>,
+      <ref cel="vacx.0i">va&ccirc;i</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_ja; <ind>&c_s;&c_p;&c_a;&c_c;&c_mol;</ind></trd>,
@@ -24,6 +29,11 @@
   <trdgrp lng="cs">
     <trd>bd&#xED;t</trd>,
     <trd>br&#xE1;nit se sp&#xE1;nku</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>wachen</trd>,
+    <trd><ind>wach</ind> bleiben</trd>,
+    <trd>aufbleiben</trd>
   </trdgrp>
   <trd lng="es">velar</trd>
   <trd lng="fr">veiller<klr> (s'abstenir de dormir)</klr></trd>
@@ -42,6 +52,9 @@
 
 <!--
 $Log$
+versio 1.9 2024/05/12 21:22:09
+Wolfram Diestel: +ref, trd de
+
 versio 1.8 2024/02/14 09:23:31
 Dmitri Gabinski: + trd be
 
