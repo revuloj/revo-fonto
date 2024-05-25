@@ -26,6 +26,7 @@ env:
   # voko-formiko image tag {latest|stabila|2x}
   FORMIKO_TAG: 2m
   AFIDO_TAG: 2l
+  REVO_HOST: reta-vortaro.de
 
 jobs:
 
@@ -42,25 +43,7 @@ jobs:
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
-        # sudo ethtool -K eth0 tx off rx off
-        # ping -c 2 reta-vortaro.de
-        #set +e
-        #ip -s -h link
-        #curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
-        #if [ $? == 28 ]; then
-        #  # printenv
-        #  ip -s -h link
-        #  curl -v --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep 1 && ss --info -t4aop dport = :443
-        #  echo "###### log ##########"
-        #  # ls -l /var/log
-        #  sudo tail /var/log/syslog
-        #  echo "###### net ##########"
-        #  ls /proc/sys/net/ipv4/tcp_tw_*
-        #  cat /proc/sys/net/ipv4/tcp_tw_*
-        #  ip -s -h link
-        #  sudo iptables -L
-        #  echo "###### curl ##########"
-        #  curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 -o /dev/null https://reta-vortaro.de & sleep 0.1 && ss -t -4 -a -o
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 -o /dev/null https://${{ env.REVO_HOST }}/cgi-bin/admin/time.pl & sleep 0.1 && ss -t -4 -a -o
         #  exit 1
         #fi 
 
@@ -138,16 +121,14 @@ jobs:
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
         uname -a
-        # sudo ethtool -K eth0 tx off rx off
-        # ping -c 2 reta-vortaro.de
         set +e
-        # ip -s -h link
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://${{ env.REVO_HOST }}/cgi-bin/admin/time.pl
         if [ $? == 28 ]; then 
           # printenv          
           # ip -s -h link
-          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl & sleep 1 && ss --info -t4aop dport = :443
-          echo "###### log ##########"
+          curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://${{ env.REVO_HOST }}/cgi-bin/admin/time.pl & sleep 1 && ss --info -t4aop dport = :443
+
+          # echo "###### log ##########"
           # ls -l /var/log
           echo "###### net ##########"
           # ls /proc/sys/net/ipv4/tcp_tw_*
@@ -155,8 +136,7 @@ jobs:
           sudo tail /var/log/syslog
           ip -s -h link
           # sudo iptables -L
-          echo "###### curl ##########"
-          # curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 -o /dev/null https://reta-vortaro.de & sleep 0.1 && ss -t -4 -a -o
+
           exit 1
         fi 
 
@@ -228,12 +208,7 @@ jobs:
       
     - name: Antaŭkontrolo por identigi eblajn problemojn
       run: |
-        uname -a
-        # sudo ethtool -K eth0 tx off rx off
-        # ping -c 2 reta-vortaro.de
-        echo "proxy: $https_proxy"
-        echo "PROXY: $HTTPS_PROXY"
-        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://reta-vortaro.de/cgi-bin/admin/time.pl  
+        curl --user ${{ secrets.CGI_USER }}:${{ secrets.CGI_PASSWD }} --max-time 20 https://${{ env.REVO_HOST }}/cgi-bin/admin/time.pl  
 
     - uses: actions/github-script@v7
       name: Eltrovu la pozicion de marko 'hora-formiko'
@@ -284,10 +259,10 @@ jobs:
         -e FTP_SERVER2=314802.webhosting7.1blu.de
         -e FTP_USER2="${{ secrets.FTP_USER2 }}"
         -e FTP_PASSWD2="${{ secrets.FTP_PASSWD2 }}"
-        -e CGI_SERVER=reta-vortaro.de
+        -e CGI_SERVER=${{ env.REVO_HOST }}
         -e CGI_USER=${{ secrets.CGI_USER }}
         -e CGI_PASSWD=${{ secrets.CGI_PASSWD }}
-        -e CGI_SERVER2=reta-vortaro.de
+        -e CGI_SERVER2=${{ env.REVO_HOST }}
         -e CGI_USER2=${{ secrets.CGI_USER }}
         -e CGI_PASSWD2=${{ secrets.CGI_PASSWD }}
         -v $GITHUB_WORKSPACE/.tgz:/home/formiko/tgz
