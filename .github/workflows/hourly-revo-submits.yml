@@ -71,7 +71,7 @@ jobs:
         sleep 10
         docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
-        -e REVO_HOST=svagaj.steloj.de \
+        -e REVO_HOST=${{ env.REVO_HOST }} \
         -e CGI_USER=${{ secrets.CGI_USER }} \
         -e CGI_PASSWORD=${{ secrets.CGI_PASSWD_RS }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
@@ -165,6 +165,7 @@ jobs:
         sleep 10
         docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
+        -e REVO_HOST=${{ env.REVO_HOST }} \
         -e CGI_USER=${{ secrets.CGI_USER }} \
         -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
