@@ -26,7 +26,7 @@ env:
   # voko-formiko image tag {latest|stabila|2x}
   FORMIKO_TAG: 2m
   AFIDO_TAG: 2l
-  REVO_HOST: reta-vortaro.de
+  REVO_HOST: ${{ secrets.REVO_HOST2 }}
 
 jobs:
 
