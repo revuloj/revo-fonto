@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: viatik.xml,v 1.20 2024/05/19 11:18:32 revo Exp $">
+<art mrk="$Id: viatik.xml,v 1.21 2024/05/28 06:31:25 revo Exp $">
 <kap>
   <rad>viatik</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -10,12 +10,19 @@
   <snc mrk="viatik.0o.KAT">
     <uzo tip="fak">KAT</uzo>
     <dif>
-      Lasta anta&ubreve;morta komunio:
+      Lasta anta&ubreve;morta <ref tip="super" cel="komuni.0o">komunio</ref>:
       <ekz>
-        Patro Antonio Isabel alvenis kun la <tld/>o al la domo
+        Patro Antonio <nom>Isabel</nom> alvenis kun la <tld/>o al la domo
         <fnt>
         <aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>,
-        <vrk>Cent Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>.
+        <vrk>Cent Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>;
+      </ekz>
+      <ekz>
+        nun volu al preposto sendi, &parsl; Ke plej rapide venu li kun <tld/>o
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro X.</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -27,8 +34,8 @@
   <trd lng="hu">betegek <ind>szents&eacute;ge</ind></trd>
   <trd lng="it">viatico</trd>
   <trdgrp lng="ja">
-    <trd>&#x81E8;&#x7D42;&#x306E;&#x8056;&#x4F53;&#x62DD;&#x9818;  <pr>&#x308A;&#x3093;&#x3058;&#x3085;&#x3046;&#x306E;&#x305B;&#x3044;&#x305F;&#x3044;&#x62DD;&#x9818;</pr></trd>,
-    <trd>&#x81E8;&#x7D42;&#x306E;&#x8056;&#x9910;  <pr>&#x308A;&#x3093;&#x3058;&#x3085;&#x3046;&#x306E;&#x305B;&#x3044;&#x3055;&#x3093;</pr></trd>
+    <trd>&#33256;&#32066;&#12398;&#32854;&#20307;&#25309;&#38936; <pr>&#12426;&#12435;&#12376;&#12421;&#12358;&#12398;&#12379;&#12356;&#12383;&#12356;&#12399;&#12356;&#12426;&#12423;&#12358;</pr></trd>,
+    <trd>&#33256;&#32066;&#12398;&#32854;&#39184; <pr>&#12426;&#12435;&#12376;&#12421;&#12358;&#12398;&#12379;&#12356;&#12373;&#12435;</pr></trd>
   </trdgrp>
   <trd lng="nl">sacrament der stervenden</trd>
   <trd lng="pl">wiatyk</trd>
@@ -37,19 +44,22 @@
   &c_s;&c_o;&c_b;&c_o;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">viatikum</trd>
   <trdgrp lng="uk">
-    <trd>&c_s;&#x43E;&c_b;&#x43E;&c_r;&c_u;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&c_ch;&c_a;&c_shch;&c_a;&#x43D;&#x43D;&#x44F; &c_v;&#x43C;&c_i;&c_r;&c_a;&#x44E;&c_ch;&#x43E;&c_g;&#x43E;</trd>
+    <trd>&c_s;&c_o;&c_b;&c_o;&c_r;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_ch;&c_a;&c_shch;&c_a;&c_n;&c_n;&c_ja; &c_v;&c_m;&c_i;&c_r;&c_a;&c_ju;&c_ch;&c_o;&c_g;&c_o;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x6700;&#x540E;&#x665A;&#x9910; <pr>zu&#xEC;h&#xF2;uw&#x1CE;nc&#x101;n</pr></trd>,
-    <trd>&#x6700;&#x5F8C;&#x665A;&#x9910; <pr>zu&#xEC;h&#xF2;uw&#x1CE;nc&#x101;n</pr></trd>,
-    <trd>&#x5723;&#x9910;&#x793C; <pr>sh&#xE8;ngc&#x101;nl&#x1D0;</pr></trd>,
-    <trd>&#x8056;&#x9910;&#x79AE; <pr>sh&#xE8;ngc&#x101;nl&#x1D0;</pr></trd>
+    <trd>&#26368;&#21518;&#26202;&#39184; <pr>zu&igrave;h&ograve;uw&#462;nc&amacron;n</pr></trd>,
+    <trd>&#26368;&#24460;&#26202;&#39184; <pr>zu&igrave;h&ograve;uw&#462;nc&amacron;n</pr></trd>,
+    <trd>&#22307;&#39184;&#31036; <pr>sh&egrave;ngc&amacron;nl&#464;</pr></trd>,
+    <trd>&#32854;&#39184;&#31150; <pr>sh&egrave;ngc&amacron;nl&#464;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2024/05/28 06:31:25
+Wolfram Diestel: +ekz
+
 versio 1.19 2023/10/21 16:50:36
 revo: transskribo per <pr>
 
@@ -69,8 +79,5 @@ Revision 1.11  2008/05/20 16:30:38  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.10  2007/04/17 16:30:23  revo
-Jeromo Vasxe: + ekz + trd fr
-
-Revision 1.9  2005/02/02 17:33:43  revo
 -->
 </vortaro>
