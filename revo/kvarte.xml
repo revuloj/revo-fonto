@@ -1,21 +1,29 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kvarte.xml,v 1.20 2023/12/03 09:59:05 revo Exp $">
+<art mrk="$Id: kvarte.xml,v 1.21 2024/06/03 06:32:13 revo Exp $">
 <kap>
    <rad>kvartet</rad>/o
-   <fnt>Z</fnt>
+   <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="kvarte.0o">
    <kap>
      <tld/>o
    </kap>
-   <uzo tip="fak">MUZ</uzo>
-   <snc>
+   <snc mrk="kvarte.0o.verko">
+     <uzo tip="fak">MUZ</uzo>
     <dif>
-       Muzika verko por kvar vo&ccirc;oj a&ubreve; kvar instrumentoj:
+      <ref tip="super" cel="muzik.0ajxo">Muzika&jcirc;o</ref> por kvar vo&ccirc;oj a&ubreve; kvar instrumentoj:
       <ekz>
-        &leftquot;Ran<tld/>o&#x201D;
+        Kion vi ludos? &ndash; <klr>[&#8230;]</klr> la grandan <tld/>on en Cis mol de sinjoro
+        <nom>Beethoven</nom>
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;Ran<tld/>o&#8221;
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
@@ -24,12 +32,20 @@
       </ekz>
     </dif>
   </snc>
-  <snc>
-     <dif>
-       Personoj, kiuj ludas tian verkon:
+  <snc mrk="kvarte.0o.kvaro">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      Kvaro de muzikantoj:
       <ekz>
-        en unu el siaj leteroj al la &leftquot;<tld lit="K"/>o de <nom>Sendlerowa</nom>&#x201D;
-        (kiel oni nomas en Usono la s.m. teatran grupon) &scirc;i skribis: <klr>[&#x2026;]</klr>
+        ludi en <tld/>o
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en unu el siaj leteroj al la &leftquot;<tld lit="K"/>o de <nom>Sendlerowa</nom>&#8221;
+        (kiel oni nomas en Usono la s.m. teatran grupon) &scirc;i skribis: <klr>[&#8230;]</klr>
         <fnt>
           <bib>Monato</bib>
           <aut>Zofia Banet-Fornalowa</aut>
@@ -37,11 +53,26 @@
         </fnt>;
       </ekz>
       <ekz>
-        ar&ccirc;a <tld/>o estas muzika ensemblo de kvar ar&ccirc;aj instrumentoj 
-        &mdash; kutime du violonoj, aldviolono kaj violon&ccirc;elo 
+        ar&ccirc;a <tld/>o estas muzika ensemblo de kvar ar&ccirc;aj instrumentoj
+        &mdash; kutime du violonoj, aldviolono kaj violon&ccirc;elo
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=34794">Ar&ccirc;a kvarteto</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="kvarte.0o.kartludo">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Kartludo en kiu oni kolektas seriojn de po kvar kartoj:
+      <ekz>
+        aperis nova kartludo por paroligi komencantojn, &gcirc;i nomi&gcirc;as
+        &leftquot;Esperanto-<tld/>o&rightquot; kaj konsistas el 28 koloraj kartoj
+        <fnt>
+          <aut>Ulrich Matthias</aut>
+          <vrk><url ref="https://www.ilei.info/ipr/kvarteto.htm"
+              >Esperanto-kvarteto &ndash; Por paroligi komencantojn</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -54,7 +85,7 @@
      <trd>kvartett</trd>,
      <trd>n&eacute;gyes</trd>
    </trdgrp>
-   <trd lng="ja">&#x30AB;&#x30EB;&#x30C6;&#x30C3;&#x30C8;</trd>
+   <trd lng="ja">&#12459;&#12523;&#12486;&#12483;&#12488;</trd>
   <trd lng="nl">kwartet</trd>
    <trdgrp lng="fr"><trd>quatuor</trd><trd>quartette <klr>pour des
 joueurs de jazz</klr></trd></trdgrp>
@@ -62,12 +93,15 @@ joueurs de jazz</klr></trd></trdgrp>
    <trd lng="pt">quarteto <klr tip="ind">(m&uacute;s.)</klr></trd>
    <trd lng="ro">cvartet</trd>
    <trd lng="ru">&c_k;&c_v;&c_a;&c_r;&c_t;&c_je;&c_t;</trd>
-  <trd lng="uk">&#x43A;&#x432;&#x430;&#x440;&#x442;&#x435;&#x442;</trd>
-  <trd lng="zh">&#x56DB;&#x91CD;&#x594F;&#x6F14;&#x594F;&#x8005; <pr>s&#xEC;ch&#xF3;ngz&#xF2;uy&#x1CE;nz&#xF2;uzh&#x11B;</pr></trd>
+  <trd lng="uk">&c_k;&c_v;&c_a;&c_r;&c_t;&c_je;&c_t;</trd>
+  <trd lng="zh">&#22235;&#37325;&#22863;&#28436;&#22863;&#32773; <pr>s&igrave;ch&oacute;ngz&ograve;uy&#462;nz&ograve;uzh&ecaron;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2024/06/03 06:32:13
+Wolfram Diestel: fnt JED, +ekz; +snc kartludo
+
 versio 1.18 2022/05/01 08:09:26
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -87,8 +121,5 @@ Revision 1.11  2009/02/22 17:30:36  revo
 Russ Williams: +trd en
 
 Revision 1.10  2006/09/22 12:27:34  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2004/03/27 17:31:22  revo
 -->
 </vortaro>
