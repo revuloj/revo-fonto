@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: enorm.xml,v 1.20 2023/11/07 20:34:10 revo Exp $">
+<art mrk="$Id: enorm.xml,v 1.21 2024/06/20 08:31:58 revo Exp $">
 <kap>
   <rad>enorm</rad>/a
+  <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="enorm.0a">
   <kap>
     <tld/>a
-    <fnt><bib>PIV1</bib></fnt>
   </kap>
   <uzo tip="stl">RAR</uzo>
   <snc mrk="enorm.0a.ega">
@@ -16,7 +16,7 @@
       Supermezure granda; <ref tip="dif" cel="eg.0a">ega</ref>:
       <ekz>
         tiu tuta <tld/>a laboro, kiu postulis precizan planadon, firman organizitecon
-        kaj multe da persona sindedi&ccirc;o, povis esti realigita dank&#x2019; al Esperanto
+        kaj multe da persona sindedi&ccirc;o, povis esti realigita dank&#8217; al Esperanto
         <fnt>
           <bib>EeP</bib>
           <lok>Tria Parto</lok>
@@ -60,7 +60,7 @@
           </fnt>;
       </ekz>
       <ekz>
-        estas <klr>[&#x2026;]</klr> <tld/>a svarmo de kurieroj tie &ccirc;i
+        estas <klr>[&#8230;]</klr> <tld/>a svarmo de kurieroj tie &ccirc;i
         <fnt>
           <aut>Michael Ende, trad. Wolfram Diestel</aut>
           <vrk>La Sen&ccirc;esa Rakonto</vrk>
@@ -77,7 +77,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="ordina.ekster0a.lau_grado">eksterordinara</ref>
+    <refgrp tip="vid">
+      <ref cel="mezur.sen0asuper0a">pretermezura, supermezura</ref>,
+      <ref cel="ordina.ekster0a.lau_grado">eksterordinara</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_ja;&c_l;&c_ib;&c_z;&c_n;&c_y;</trd>,
@@ -117,10 +120,10 @@
     <trd>&c_n;&c_je;&c_p;&c_o;&c_m;&c_ib;&c_r;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x975E;&#x5E38;&#x5927; <pr>f&#x113;ich&#xE1;ngd&#xE0;i</pr></trd>,
-    <trd>&#x6781;&#x5927; <pr>j&#xED;d&#xE0;</pr></trd>,
+    <trd>&#x975E;&#x5E38;&#22823; <pr>f&emacron;ich&#xE1;ngd&#xE0;i</pr></trd>,
+    <trd>&#26497;&#22823; <pr>j&#xED;d&#xE0;</pr></trd>,
     <trd>&#x866F;&#x87E0; <pr>qi&#xFA;p&#xE1;n</pr></trd>,
-    <trd>&#x5927;&#x5927; <pr>d&#xE0;d&#xE0;</pr></trd>
+    <trd>&#22823;&#22823; <pr>d&#xE0;d&#xE0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -163,12 +166,18 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_z;&c_mol;&c_m;&c_je;&c_r;&c_n;&c_a;</trd>
-  <trd lng="de">enorm</trd>
+  <trdgrp lng="de">
+    <trd>enorm</trd>,
+    <trd>immens</trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.21 2024/06/20 08:31:58
+Wolfram Diestel: +ref, trd de
+
 versio 1.19 2023/11/07 18:29:19
 Wolfram Diestel: fnt PIV1, +ekz, sintakso
 
@@ -188,8 +197,5 @@ versio 1.13 2021/04/09 07:53:49
 Dmitri Gabinski: + trd be
 
 Revision 1.10  2015/10/04 13:10:20  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.9  2015/07/04 08:37:33  revo
 -->
 </vortaro>
