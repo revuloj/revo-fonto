@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: norm.xml,v 1.66 2024/06/28 05:27:36 revo Exp $">
+<art mrk="$Id: norm.xml,v 1.67 2024/06/29 23:26:14 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>norm</rad>/o
@@ -257,7 +257,7 @@
       <ekz>
         por <tld/>oj super <ref cel="algebr.lineara0o.strukturo">algebroj</ref>
         oni plie postulas, ke
-        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>×<k>y</k>) &#8804;
+        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>&#215;<k>y</k>) &#8804;
         <k>p</k>(<k>x</k>)&middot;<k>p</k>(<k>y</k>)</frm>;
       </ekz>
       <ekz>
@@ -560,7 +560,7 @@
     <dif>
       <ref tip="super" cel="regul.0igi.submeti">Reguligi</ref> per <tld/>o:
       <ekz>
-        normigita biblioteka slipo (12,5 × 7,5 mm)
+        normigita biblioteka slipo (12,5 &#215; 7,5 mm)
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
@@ -776,6 +776,10 @@
     <trd>calibrate</trd>
   </trdgrp>
   <trd lng="fr">jauger</trd>
+  <trdgrp lng="pl">
+    <trd>normalizowa&cacute;</trd>,
+    <trd>kalibrowa&cacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="norm.sen0eco">
@@ -908,8 +912,11 @@
 </art>
 <!--
 $Log$
+versio 1.67 2024/06/29 23:26:14
+Vito Redsky: +trd pl 
+
 versio 1.66 2024/06/28 05:27:36
-Wolfram Diestel: +laŭ~igi
+Wolfram Diestel: +la&ubreve;~igi
 
 versio 1.65 2024/06/21 20:29:41
 Vito Redsky: +trd pl
@@ -927,8 +934,5 @@ versio 1.59 2023/05/01 06:31:56
 Paul Peeraerts: Steloj -> monato
 
 versio 1.58 2023/04/18 13:30:58
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.57 2022/11/11 09:32:14
 -->
 </vortaro>
