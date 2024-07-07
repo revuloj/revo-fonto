@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nom.xml,v 1.193 2024/04/11 19:16:55 revo Exp $">
+<art mrk="$Id: nom.xml,v 1.194 2024/07/07 08:27:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>nom</rad>/o <fnt><bib>UV</bib></fnt>
@@ -1991,6 +1991,59 @@
   </trdgrp>
 </drv>
 
+<drv mrk="nom.ret0o">
+  <kap>
+    ret<tld/>o
+  </kap>
+  <uzo tip="fak">RET</uzo>
+  <snc mrk="nom.ret0o.domajno">
+    <dif>
+      Registrita nomo de komputila reto, <ref tip="dif" cel="domajn.0o.KOMP">domajno</ref>:
+      <ekz>
+        ekde la komenco de marto 2006 eblas en Finnlando registri sian propran nomon
+        kiel retnomon kun la fina&jcirc;o <nom>.fi</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jukka Pietil&auml;inen</aut>
+          <vrk><url ref="http://www.monato.be/2006/009040.php"
+              >Interrete anka&ubreve; per naciaj literoj</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi iniciatis financan subtenon de la retejo <nom>eoru.ru</nom> <klr>[kovranta]</klr>
+        elspezojn por ret<tld/>o kaj lokigo de la serviloj
+        <fnt>
+          <bib>LOdE</bib>
+          <aut>Grigorij Arosev</aut>
+          <vrk><url ref="https://esperanto-ondo.ru/Historio/225arosv.htm"
+              >Postprezidaj meditoj</url></vrk>
+          <lok>2013, n-ro 7 (225)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="region.ret0o">retregiono</ref>
+  <trd lng="de">Domainname</trd>
+  </snc>
+  <snc mrk="nom.ret0o.kasxnomo">
+    <dif>
+      <ref tip="super" cel="nom.kasx0o">Ka&scirc;nomo</ref> uzata en socia reto:
+      <ekz>
+        kutime ret<tld/>oj estas uzataj je retforumoj, blogoj, babilejoj, ktp
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=564567"
+              >Kromnomo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  <trdgrp lng="de">
+    <trd>Nickname</trd>,
+    <trd>Alias <klr>(Pseudonym)</klr></trd>
+  </trdgrp>
+  </snc>
+</drv>
+
 <drv mrk="nom.sam0ulo">
   <kap>sam<tld/>ulo</kap>
   <snc mrk="nom.sam0ulo.KOMUNE">
@@ -2351,6 +2404,7 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_a;&c_je; <ind>&c_ib;&c_m;&c_ja;</ind></trd>
+  <trd lng="de">Guter Name</trd>
   <trd lng="en">good name</trd>
   <trd lng="pl">dobre  <ind>imi&eogonek;</ind></trd>
   <trd lng="ru">&c_d;&c_o;&c_b;&c_r;&c_o;&c_je; <ind>&c_i;&c_m;&c_ja;</ind></trd>
@@ -2464,6 +2518,7 @@
     </rim>
   </snc>
   <ref tip="ant" cel="nom.komuna0o.GRA">komuna <tld/>o<sncref/></ref>
+  <trd lng="de">Eigenname</trd>
   <trdgrp lng="en">
     <trd>proper name</trd>, <trd>proper noun</trd>
   </trdgrp>
@@ -2474,6 +2529,9 @@
 </art>
 <!--
 $Log$
+versio 1.194 2024/07/07 08:27:59
+Wolfram Diestel: +ret~o
+
 versio 1.193 2024/04/11 19:16:55
 Wolfram Diestel: +snc "renomo"
 
@@ -2493,8 +2551,5 @@ versio 1.187 2023/11/30 15:27:01
 Sergio Pokrovskij: kor dif
 
 versio 1.186 2023/11/28 09:26:54
-Dmitri Gabinski: + trd be
-
-versio 1.185 2023/11/05 09:24:52
 -->
 </vortaro>
