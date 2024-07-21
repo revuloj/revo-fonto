@@ -1,77 +1,37 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: domajn.xml,v 1.6 2024/07/07 08:29:58 revo Exp $">
+<art mrk="$Id: domajn.xml,v 1.7 2024/07/21 12:42:14 revo Exp $">
 <kap>
   <rad>domajn</rad>/o <fnt><bib>EKV</bib></fnt>
 </kap>
 <drv mrk="domajn.0o">
   <kap><tld/>o</kap>
-  <snc mrk="domajn.0o.NEO">
-    <uzo tip="stl">NEO</uzo>
+  <snc mrk="domajn.0o.RET">
+    <uzo tip="fak">RET</uzo> <fnt><bib>KompLeks</bib></fnt>
     <dif>
-      <ref tip="sin" cel="kamp.0o.tereno">Kampo<sncref/></ref>
-      de agado, influo, regado:
-      <ekz>
-        <nom>Google</nom> sukcese etendis la domajnon de kapitalismo en la lingvon mem, farante
-        varojn el vortoj
-        <fnt>
-          <bib>MD11</bib>
-          <vrk>Survoje al lingva kapitalismo</vrk>
-        </fnt>.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="brancx.0o.FIG">bran&ccirc;o<sncref/></ref>,
-      <ref cel="fak.0o.brancxo">fako<sncref/></ref>,
-      <ref cel="sektor.0o.EKON">sektoro<sncref/></ref>
-    </refgrp>
-    <rim>
-      Per la vorto &leftquot;<ref cel="domin.0i">domini</ref>&rightquot; oni povas formi sinonimon &leftquot;dominejo&rightquot;.
-    </rim>
-  </snc>
-  <snc mrk="domajn.0o.MAT">
-    <uzo tip="fak">MAT</uzo> <fnt><bib>KompLeks</bib></fnt>
-    <subsnc mrk="domajn.0o.jxeto">
-      <dif>
-        Por <ref cel="jxet.0o.MAT">&jcirc;eto<sncref/></ref>, la
-        maksimuma subaro de la <ref tip="malprt" cel="ar.fonto0o">fonta aro</ref>, sur kies
-        elementoj la
-        &jcirc;eto estas difinita.
-      </dif>
-    </subsnc>
-    <subsnc mrk="domajn.0o.rilato">
-      <dif>
-        Por duloka rilato <frm am="RsubeAxxB">R&#8838;A&#xD7;B</frm>, la
-        aro <frm am="{x in A: (EEy in B)[(x,y)in R]}">{x&#8712;A : (&#8707;y&#8712;B)[(x,y)&#8712;R]}</frm>.
-      </dif>
-    </subsnc>
-    <subsnc mrk="domajn.0o.algoritmo">
-      <dif>
-        Por algoritmo <frm am="A">A</frm>, &gcirc;ia
-        &leftquot;<ref cel="konver.0i.KOMP">konver&gcirc;ejo</ref>&rightquot;,
-        <frm am="bb &quot;dom&quot; A={x: A(x)darr}"><g>dom</g>&nbsp;A={x: A(x)&#8595;}</frm>.
-      </dif>
-   </subsnc>
-    <trd lng="ru">&c_o;&c_b;&c_l;&c_a;&c_s;&c_t;&c_mol; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
-  </snc>
-  <snc mrk="domajn.0o.KOMP">
-    <uzo tip="fak">KOMP</uzo> <fnt><bib>KompLeks</bib></fnt>
-    <dif>
-      En la <ref cel="ret.Inter0o.KOMP">Interreto</ref>, grupo de
-      komputiloj kies retnomo havas komunan finparton, la
-      <tld/>nomon. La <tld/>oj formas hierarkion; kiam oni uzas la
-      vorton sen precizigo, kutime temas pri maksimuma (pinta)
-      <tld/>o, a&ubreve; <ref tip="sub" cel="region.ret0o">retregiono</ref>:
+      (en sistemo de retnomoj), komuna nomparto
+      indikanta unu servon, institucion a&ubreve; retregionon; la tuto de retnodoj
+      atingeblaj sub tiu komuna nomo:
       <ekz>
         <ctl>Eventoj</ctl> estis la unua Esperanto-gazeto, kiu
-        siatempe
-        registris por si propran interretan
+        siatempe registris por si propran interretan
         <tld/>on: <ctl>eventoj.hu</ctl>
         <fnt>
           <vrk>Jubileo kaj interesa&jcirc;oj &ccirc;e Lingvo-Studio</vrk>,
           <lok><url ref="http://www.eventoj.hu/lingvo-studio-jubileo30.htm">Eventoj</url></lok>
         </fnt>;
+      </ekz>
+      <ekz>
+        krom la ser&ccirc;ma&scirc;ino, <nom>Google</nom> ofertas aliajn servojn en apartaj sub<tld/>oj,
+        la mapservo estas atingebla sub la domajno <nom>maps.google.com</nom>;
+      </ekz>
+      <ekz>
+        la ser&ccirc;ilo de <nom>Google</nom> estas atingebla en diversaj landaj domajnoj, la nederlanda
+        <nom>google.nl</nom> estas registrita en la landa domajno &leftquot;<nom>nl</nom>&rightquot;.
+      </ekz>
+      <ekz>
+        <nom>Google</nom> anka&ubreve; ofertas publikan retpo&scirc;tservon en la domajno <nom>gmail.com</nom>;
       </ekz>
       <ekz>
         Interreto estas mastrumata de <klr>[&#8230;]</klr> <nom>ICANN</nom>, kiu mastrumas la adresojn
@@ -91,6 +51,80 @@
     <trd lng="de">Domain</trd>
     <trd lng="ru">&c_d;&c_o;&c_m;&c_je;&c_n;</trd>
   </snc>
+  <snc mrk="domajn.0o.kampo">
+    <uzo tip="stl">NEO</uzo>
+    <dif>
+      <ref tip="sin" cel="kamp.0o.tereno">Kampo<sncref/></ref>
+      de agado, influo, regado:
+      <ekz>
+        &ccirc;iuj el liaj rakontoj nun estas en la publika <tld/>o
+        <fnt>
+          <vrk><url ref="https://www.reddit.com/r/Esperanto/comments/wbdr6u/mi_mi_estas_tradukanto_de_lovecraft_rakontoj_pri/"
+              >Mi estas tradukanto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Google</nom> sukcese etendis la domajnon de kapitalismo en la lingvon mem, farante
+        varojn el vortoj
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>Survoje al lingva kapitalismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        similaj incidentoj &scirc;ajne okazis en aliaj orientaj urboj, kiel Donecko (<tld/>o
+        de la eks-prezidento Ianukovi&ccirc;) kaj Mariupol
+        <fnt>
+          <vrk><url ref="http://neniammilitointerni.over-blog.com/2014/03/ukrainio-pa%C5%9Dado-al-milito.html"
+              >Ukrainio : pa&scirc;ado al milito?</url></vrk>
+          <lok>Neniam milito inter ni, 2014-03-02</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="brancx.0o.FIG">bran&ccirc;o<sncref/></ref>,
+      <ref cel="fak.0o.brancxo">fako<sncref/></ref>,
+      <ref cel="kadr.0o.medio">kadro<sncref/></ref>,
+      <ref cel="medi.0o">medio</ref>,
+      <ref cel="sektor.0o.EKON">sektoro<sncref/></ref>
+    </refgrp>
+    <rim>
+      Per la vorto &leftquot;<ref cel="domin.0i">domini</ref>&rightquot; oni povas formi sinonimon &leftquot;dominejo&rightquot;.
+    </rim>
+  </snc>
+  <snc mrk="domajn.0o.MAT">
+    <uzo tip="fak">MAT</uzo> <fnt><bib>KompLeks</bib></fnt>
+    <subsnc mrk="domajn.0o.jxeto">
+      <dif>
+        Por <ref cel="jxet.0o.MAT">&jcirc;eto<sncref/></ref>, la
+        maksimuma subaro de la <ref tip="malprt" cel="ar.fonto0o">fonta aro</ref>, sur kies
+        elementoj la &jcirc;eto estas difinita:
+        <ekz>
+          en matematiko kaj teoria komputiko, bulea <tld/>o estas kutime skribata kiel
+          <frm>{0, 1}</frm> a&ubreve; <frm>{&#8869;, &#8868;}</frm>
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=257980"
+                >Bulea domajno</url></lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="domajn.0o.rilato">
+      <dif>
+        Por duloka rilato <frm am="RsubeAxxB">R&#8838;A×B</frm>, la
+        aro <frm am="{x in A: (EEy in B)[(x,y)in R]}">{x&#8712;A : (&#8707;y&#8712;B)[(x,y)&#8712;R]}</frm>.
+      </dif>
+    </subsnc>
+    <subsnc mrk="domajn.0o.algoritmo">
+      <dif>
+        Por algoritmo <frm am="A">A</frm>, &gcirc;ia
+        &leftquot;<ref cel="konver.0i.KOMP">konver&gcirc;ejo</ref>&rightquot;,
+        <frm am="bb &quot;dom&quot; A={x: A(x)darr}"><g>dom</g>&nbsp;A={x: A(x)&#8595;}</frm>.
+      </dif>
+   </subsnc>
+    <trd lng="ru">&c_o;&c_b;&c_l;&c_a;&c_s;&c_t;&c_mol; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
+  </snc>
   <rim>
     Ne konfuzu kun la similsona fundamenta vorto &leftquot;<ref tip="hom" cel="domen.0o">domeno</ref>&rightquot; (ludo,
     mantelo).
@@ -98,10 +132,10 @@
   <trd lng="de">Dom&auml;ne</trd>
   <trd lng="en">domain</trd>
   <trdgrp lng="zh">
-    <trd>&#x77E5;&#x8B58;&#38936;&#x57DF; <pr>zh&#x12B;shil&#x1D0;ngy&#xF9;</pr></trd>,
-    <trd>&#29699;&#x72B6; <pr>qi&#xFA;zhu&#xE0;ng</pr></trd>,
-    <trd>&#38936;&#x57DF; <pr>l&#x1D0;ngy&#xF9;</pr></trd>,
-    <trd>&#38936;&#22320; <pr>l&#x1D0;ngd&#xEC;</pr></trd>
+    <trd>&#30693;&#35672;&#38936;&#22495; <pr>zh&imacron;shil&#464;ngy&ugrave;</pr></trd>,
+    <trd>&#29699;&#29366; <pr>qi&uacute;zhu&agrave;ng</pr></trd>,
+    <trd>&#38936;&#22495; <pr>l&#464;ngy&ugrave;</pr></trd>,
+    <trd>&#38936;&#22320; <pr>l&#464;ngd&igrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -109,6 +143,9 @@
 
 <!--
 $Log$
+versio 1.7 2024/07/21 12:42:14
+Wolfram Diestel: +ekz-oj, snc-mrk, snc RET unue
+
 versio 1.6 2024/07/07 08:29:58
 Wolfram Diestel: +ref
 
