@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kriz.xml,v 1.29 2024/07/20 21:24:28 revo Exp $">
+<art mrk="$Id: kriz.xml,v 1.30 2024/07/21 09:25:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kriz</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>kriz</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="kriz.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -18,6 +18,19 @@
         la homaro spertas nun gravan moralan <tld/>on;
       </ekz>
       <ekz>
+        kiel anta&ubreve; la <tld/>o li denove faris siajn laborperiodojn
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tramo ne kapablas solvi la transportan <tld/>on
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         &jcirc;us mi malfermis butikon &ccirc;e angulo de la stratoj Optimismo
         kaj Bonhumoro, kontra&ubreve; la konata statuo de la Granda <tld lit="K"/>o
         <fnt>
@@ -27,7 +40,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la bombado fare de NATO-aviadiloj dum la Kosovo-<tld/>o en 1999
+        la bombado fare de <nom>NATO</nom>-aviadiloj dum la Kosovo-<tld/>o en 1999
         <fnt>
           <bib>Monato</bib>
           <aut>E. Georgiev</aut>
@@ -36,12 +49,40 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kulmin.mal0o">malkulmino</ref>,
+      <ref cel="mizer.0o">mizero</ref>
+      <ref cel="nadir.0o.FIG">nadiro<sncref/></ref>
+    </refgrp>
+    <trd lng="de">gef&auml;hrliche Lage</trd>
   </snc>
   <snc mrk="kriz.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
       Grava fazo de malsano, kiu estas decidiga por &scirc;an&gcirc;i&gcirc;o en
       bonon a&ubreve; malbonon:
+      <ekz>
+        nia malfeli&ccirc;a onklino havis ankora&ubreve; tiumatene <tld/>on de sufoko
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oftaj <tld/>oj de astmo
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekkvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Gastono havis teruran <tld/>on de malespero
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekoka</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la <tld/>oj <klr>[de epilepsio]</klr> tre varias la&ubreve; la homoj,
         kelkfoje estas senkonscii&gcirc;o, ekkrioj senavertaj, faloj
@@ -54,16 +95,14 @@
     <ref tip="sub" cel="ikt.0o.MED">ikto</ref>
     <ref tip="vid" cel="kulmin.0o.FIG">kulmino<sncref/></ref>
     <rim>Krizo ne nepre venas subite, kiel ikto.</rim>
+  <trd lng="de">Wendepunkt</trd>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_y;&c_z;&c_y;&c_s;</trd>
   <trdgrp lng="cs">
     <trd>kritick&eacute; obdob&iacute;</trd>,
     <trd>krize</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>Krise</trd>,
-    <trd>gef&auml;hrliche Lage</trd>
-  </trdgrp>
+  <trd lng="de">Krise</trd>
   <trdgrp lng="en">
     <trd>crisis</trd>,
     <trd>emergency</trd>,
@@ -254,15 +293,16 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="depresi.0o.EKON">depresio<sncref/></ref>,
+      <ref cel="recesi.0o.EKON">recesio</ref>
+    </refgrp>
   </snc>
-  <refgrp tip="vid">
-    <ref cel="depresi.0o.EKON">depresio<sncref/></ref>,
-    <ref cel="recesi.0o.EKON">recesio</ref>
-  </refgrp>
+  <trd lng="de">Wirtschaftskrise</trd>
   <trd lng="fr">crise &eacute;conomique</trd>
 </drv>
 
-<drv mrk="kriz.mezagxa0">
+<drv mrk="kriz.mezagxa0o">
   <kap>meza&gcirc;a <tld/>o</kap>
   <snc mrk="kriz.mezagxa0o.PSI">
     <uzo tip="fak">PSI</uzo>
@@ -281,6 +321,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Midlifecrisis</trd>
   <trdgrp lng="fr">
     <trd>crise de la quarantaine</trd>,
     <trd>crise de milieu de vie</trd>
@@ -289,6 +330,9 @@
 </art>
 <!--
 $Log$
+versio 1.30 2024/07/21 09:25:38
+Wolfram Diestel: +ekz, trd de, kor. drv-mrk
+
 versio 1.29 2024/07/20 21:24:28
 Jeromo Vasxe: + mezagxa ~o, + ekonomia ~o
 
@@ -307,8 +351,5 @@ Dmitri Gabinski: +trd be
 Revision 1.20  2017/07/07 18:10:24  revo
 Wolfram Diestel: prilaboris ekz-ojn, provis dissolvi la ciklan difinon
 krizo=ikto
-
-Revision 1.19  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
 -->
 </vortaro>
