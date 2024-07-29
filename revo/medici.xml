@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: medici.xml,v 1.36 2024/05/06 07:23:51 revo Exp $">
+<art mrk="$Id: medici.xml,v 1.37 2024/07/29 06:33:49 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>medicin</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="medici.0o">
   <kap><tld/>o</kap>
@@ -13,8 +14,7 @@
     <uzo tip="fak">SCI</uzo>
     <dif>
       <ref tip="lst" cel="scienc.0o.fako" lst="voko:sciencoj">Scienco</ref> pri sano kaj malsano,
-      aplikata
-      al kuracado:
+      aplikata al <ref cel="kurac.0o">kuracado</ref>:
       <ekz>
         oni instruis la <tld/>on
         <fnt>
@@ -44,6 +44,21 @@
         26a</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="prt" cel="art.kurac0o">kuracarto</ref>
+  </snc>
+  <snc mrk="medici.0o.medicinajxo">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <ref tip="dif" cel="medici.0ajxo">Medicina&jcirc;o</ref>, kuracilo:
+      <ekz>
+        Kristoforo devis rapide kuri al la apoteko por alporti <tld/>on
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <!-- ne traduku EVI -->
   </snc>
   <trd lng="be">&c_m;&c_e;&c_d;&c_y;&c_c;&c_y;&c_n;&c_a;</trd>
   <trdgrp lng="br">
@@ -68,9 +83,9 @@
   </trdgrp>
   <trd lng="id"><baz>dokter</baz>kedokteran</trd>
   <trdgrp lng="ja">
-    <trd>&#x533B;&#x5B66;  <pr>&#12356;&#x304C;&#x304F;</pr></trd>,
-    <trd>&#x533B;&#34899;  <pr>&#12356;&#12376;&#12421;&#12388;</pr></trd>,
-    <trd>&#x533B;&#30274;  <pr>&#12356;&#x308A;&#12423;&#12358;</pr></trd>
+    <trd>&#21307;&#23398;  <pr>&#12356;&#12364;&#12367;</pr></trd>,
+    <trd>&#21307;&#34899;  <pr>&#12356;&#12376;&#12421;&#12388;</pr></trd>,
+    <trd>&#21307;&#30274;  <pr>&#12356;&#12426;&#12423;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="nl">geneeskunde</trd>
   <trd lng="pl">medycyna</trd>
@@ -80,8 +95,8 @@
   <trd lng="sk">lek&aacute;rska veda</trd>
   <trd lng="uk">&c_m;&c_je;&c_d;&c_i;&c_c;&c_i;&c_n;&c_a;</trd>
   <trdgrp lng="zh">
-    <trd>&#x533B;&#x5B66; <pr>y&#x12B;xu&#xE9;</pr></trd>,
-    <trd>&#x91AB;&#x5B78; <pr>y&#x12B;xu&#xE9;</pr></trd>
+    <trd>&#21307;&#23398; <pr>y&imacron;xu&eacute;</pr></trd>,
+    <trd>&#37291;&#23416; <pr>y&imacron;xu&eacute;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -133,9 +148,9 @@
   </trdgrp>
   <trd lng="id">medis</trd>
   <trdgrp lng="ja">
-    <trd>&#x533B;&#x5B66;&#x306E;  <pr>&#12356;&#x304C;&#x304F;&#x306E;</pr></trd>,
-    <trd>&#x533B;&#x5B66;&#30340;&#x306A;  <pr>&#12356;&#x304C;&#x304F;&#12390;&#x304D;&#x306A;</pr></trd>,
-    <trd>&#x85AC;&#29992;&#x306E;  <pr>&#12420;&#x304F;&#12424;&#12358;&#x306E;</pr></trd>
+    <trd>&#21307;&#23398;&#12398;  <pr>&#12356;&#12364;&#12367;&#12398;</pr></trd>,
+    <trd>&#21307;&#23398;&#30340;&#12394;  <pr>&#12356;&#12364;&#12367;&#12390;&#12365;&#12394;</pr></trd>,
+    <trd>&#34220;&#29992;&#12398;  <pr>&#12420;&#12367;&#12424;&#12358;&#12398;</pr></trd>
   </trdgrp>
   <trd lng="nl">geneeskundig</trd>
   <trd lng="pl">medyczny</trd>
@@ -147,8 +162,8 @@
   </trdgrp>
   <trd lng="uk">&c_m;&c_je;&c_d;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>
   <trdgrp lng="zh">
-    <trd>&#x533B;&#x62A4; <pr>y&#x12B;h&#xF9;</pr></trd>,
-    <trd>&#x91AB;&#x8B77; <pr>y&#x12B;h&#xF9;</pr></trd>
+    <trd>&#21307;&#25252; <pr>y&imacron;h&ugrave;</pr></trd>,
+    <trd>&#37291;&#35703; <pr>y&imacron;h&ugrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -222,18 +237,18 @@
   </trdgrp>
   <trd lng="uk">&c_m;&c_je;&c_d;&c_i;&c_k;&c_a;&c_m;&c_je;&c_n;&c_t;</trd>
   <trdgrp lng="zh">
-    <trd>&#x533B; <pr>y&#x12B;</pr></trd>,
-    <trd>&#x91AB; <pr>y&#x12B;</pr></trd>,
-    <trd>&#x533B;&#x5B66; <pr>y&#x12B;xu&#xE9;</pr></trd>,
-    <trd>&#x91AB;&#x5B78; <pr>y&#x12B;xu&#xE9;</pr></trd>,
-    <trd>&#x836F;&#29289; <pr>y&#xE0;ow&#xF9;</pr></trd>,
-    <trd>&#x85E5;&#29289; <pr>y&#xE0;ow&#xF9;</pr></trd>,
-    <trd>&#x836F;&#x54C1; <pr>y&#xE0;op&#x1D0;n</pr></trd>,
-    <trd>&#x85E5;&#x54C1; <pr>y&#xE0;op&#x1D0;n</pr></trd>,
-    <trd>&#x836F; <pr>y&#xE0;o</pr></trd>,
-    <trd>&#x85E5; <pr>y&#xE0;o</pr></trd>,
-    <trd>&#x533B;&#x836F; <pr>y&#x12B;y&#xE0;o</pr></trd>,
-    <trd>&#x91AB;&#x85E5; <pr>y&#x12B;y&#xE0;o</pr></trd>
+    <trd>&#21307; <pr>y&imacron;</pr></trd>,
+    <trd>&#37291; <pr>y&imacron;</pr></trd>,
+    <trd>&#21307;&#23398; <pr>y&imacron;xu&eacute;</pr></trd>,
+    <trd>&#37291;&#23416; <pr>y&imacron;xu&eacute;</pr></trd>,
+    <trd>&#33647;&#29289; <pr>y&agrave;ow&ugrave;</pr></trd>,
+    <trd>&#34277;&#29289; <pr>y&agrave;ow&ugrave;</pr></trd>,
+    <trd>&#33647;&#21697; <pr>y&agrave;op&#464;n</pr></trd>,
+    <trd>&#34277;&#21697; <pr>y&agrave;op&#464;n</pr></trd>,
+    <trd>&#33647; <pr>y&agrave;o</pr></trd>,
+    <trd>&#34277; <pr>y&agrave;o</pr></trd>,
+    <trd>&#21307;&#33647; <pr>y&imacron;y&agrave;o</pr></trd>,
+    <trd>&#37291;&#34277; <pr>y&imacron;y&agrave;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -291,8 +306,8 @@
   </trdgrp>
   <trd lng="id">dokter</trd>
   <trdgrp lng="ja">
-    <trd>&#x533B;&#x5B66;&#32773;  <pr>&#12356;&#x304C;&#x304F;&#12375;&#12419;</pr></trd>,
-    <trd>&#x533B;&#x5E2B;  <pr>&#x304F;&#12377;&#12375;</pr></trd>
+    <trd>&#21307;&#23398;&#32773;  <pr>&#12356;&#12364;&#12367;&#12375;&#12419;</pr></trd>,
+    <trd>&#21307;&#24107;  <pr>&#12367;&#12377;&#12375;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>arts</trd>,
@@ -332,18 +347,21 @@
   <trd lng="en">forensic medicine</trd>
   <trd lng="fr">m&eacute;decine l&eacute;gale</trd>
   <trd lng="id"><baz>dokter</baz>kedokteran forensik</trd>
-  <trd lng="ja">&#x6CD5;&#x533B;&#x5B66;  <pr>&#x307B;&#12358;&#12356;&#x304C;&#x304F;</pr></trd>
+  <trd lng="ja">&#27861;&#21307;&#23398;  <pr>&#12411;&#12358;&#12356;&#12364;&#12367;</pr></trd>
   <trd lng="pl">medycyna s&aogonek;dowa</trd>
   <trd lng="ro">medicin&abreve; legal&abreve;</trd>
   <trd lng="uk">&c_p;&c_r;&c_a;&c_v;&c_o;&c_v;&c_a; &c_m;&c_je;&c_d;&c_i;&c_c;&c_i;&c_n;&c_a;</trd>
   <trdgrp lng="zh">
-    <trd>&#x6CD5;&#x533B;&#x5B66; <pr>f&#x1CE;y&#x12B;xu&#xE9;</pr></trd>,
-    <trd>&#x6CD5;&#x91AB;&#x5B78; <pr>f&#x1CE;y&#x12B;xu&#xE9;</pr></trd>
+    <trd>&#27861;&#21307;&#23398; <pr>f&#462;y&imacron;xu&eacute;</pr></trd>,
+    <trd>&#27861;&#37291;&#23416; <pr>f&#462;y&imacron;xu&eacute;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.37 2024/07/29 06:33:49
+Wolfram Diestel: fnt JED, +ekz
+
 versio 1.36 2024/05/06 07:23:51
 Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
 
@@ -363,8 +381,5 @@ Revision 1.25  2019/10/15 17:10:19  revo
 Wolfram Diestel: +ekz-oj
 
 Revision 1.24  2019/07/26 09:10:14  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.23  2015/07/04 08:37:39  revo
 -->
 </vortaro>
