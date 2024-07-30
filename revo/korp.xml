@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: korp.xml,v 1.140 2024/07/30 06:33:20 revo Exp $">
+<art mrk="$Id: korp.xml,v 1.141 2024/07/30 18:33:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>korp</rad>/o <fnt><bib>UV</bib></fnt>
@@ -56,7 +56,7 @@
     <bld
       lok="&WCU;/thumb/7/7a/Korper_inVordrtansicht_mit_eingezeichnetemSkelett.gif/233px-Korper_inVordrtansicht_mit_eingezeichnetemSkelett.gif"
       prm="PD"
-      ><tld/>o kun skeleto
+      >anatomio de homa <tld/>o
         <fnt>
           <lok><url ref="&WCW;/File:Korper_inVordrtansicht_mit_eingezeichnetemSkelett.gif"
               >https://commons.wikimedia.org/wiki/File:Korper_inVordrtansicht_mit_eingezeichnetemSkelett.gif</url></lok>
@@ -64,14 +64,16 @@
         <mrk stl="top:2%;left:12%;color:white;background:darkgreen" cel="kap.0o.ANA">kapo</mrk>
         <mrk stl="top:13%;left:33%;color:white;background:darkgreen" cel="kol.0o.ANA">kolo</mrk>
         <mrk stl="top:11%;left:66%;color:white;background:darkgreen" cel="nuk.0o.ANA">nuko</mrk>
-        <mrk stl="top:16%;left:12%;color:white;background:darkgreen" cel="sxultr.0o.ANA">&scirc;ultro</mrk>
+        <mrk stl="top:16%;left:12%;color:white;background:darkgreen"
+        cel="sxultr.0o.ANA">&scirc;ultro</mrk>
         <mrk stl="top:25%;left:2%;color:white;background:darkgreen" cel="brak.0o.ANA">brako</mrk>
         <mrk stl="top:24%;left:45%;color:white;background:darkgreen" cel="brust.0o.ANA">brusto</mrk>
         <mrk stl="top:31%;left:0%;color:white;background:darkgreen" cel="kubut.0o.ANA">kubuto</mrk>
         <mrk stl="top:54.5%;left:2%;color:white;background:darkgreen" cel="man.0o.ANA">mano</mrk>
         <mrk stl="top:42%;left:16%;color:white;background:darkgreen" cel="koks.0o.ANA">kokso</mrk>
         <mrk stl="top:32%;left:67%;color:white;background:darkgreen" cel="lumb.0o.ANA">lumbo</mrk>
-        <mrk stl="top:36%;left:35%;color:white;background:darkgreen" cel="abdome.0o.ANA">abdomeno</mrk>
+        <mrk stl="top:36%;left:35%;color:white;background:darkgreen"
+        cel="abdome.0o.ANA">abdomeno</mrk>
         <mrk stl="top:41%;left:46%;color:white;background:darkgreen" cel="pelv.0o.ANA">pelvo</mrk>
         <mrk stl="top:60%;left:10%;color:white;background:darkgreen" cel="krur.0o.ANA">kruro</mrk>
         <mrk stl="top:55%;left:50%;color:white;background:darkgreen" cel="femur.0o.ANA">femuro</mrk>
@@ -156,11 +158,11 @@
     <dif>
       Tia <ref cel="unu.0hava">unuhava</ref>
       <ref tip="super" cel="ring.0o.MAT">ringo</ref>
-      <frm>(<g>E</g>,&#8224;,×)</frm>, ke krom la
+      <frm>(<g>E</g>,&#8224;,&#215;)</frm>, ke krom la
       <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref>
       de <frm>&#8224;</frm> &ccirc;iuj aliaj elementoj estas
       <ref cel="neuxtr.0igebla.MAT">ne&ubreve;trigeblaj</ref>
-      rilate al <frm>×</frm>:
+      rilate al <frm>&#215;</frm>:
       <ekz>
         la <tld/>o de racionalaj nombroj;
       </ekz>
@@ -187,7 +189,7 @@
       <ref cel="korp.super0o">super<tld/>o</ref>.
     </refgrp>
     <rim>
-      La&ubreve; kelkaj la komuteco de operacio <frm>×</frm> estas
+      La&ubreve; kelkaj la komuteco de operacio <frm>&#215;</frm> estas
       deviga en la difino de <tld/>o. Aliaj preferas nomi
       <ctl>kampoj</ctl>
       la <ref cel="komut.0eca.ringo">komutecajn</ref> <tld/>ojn.
@@ -621,7 +623,7 @@
   </trdgrp>
   <trdgrp lng="ro">
     <trd>imaterial</trd>,
-    <trd>nesubstan&tcomma;ial</trd>
+    <trd>nesubstan&#539;ial</trd>
   </trdgrp>
   <trdgrp lng="zh">
     <trd>&#27794;&#26377;&#36523;&#39636; <pr>m&eacute;iy&#466;ush&emacron;nt&#464;</pr></trd>,
@@ -825,7 +827,7 @@
   </trdgrp>
   <trd lng="fr">corps des fractions</trd>
   <trd lng="pl">cia&lstroke;o u&lstroke;amk&oacute;w</trd>
-  <trd lng="ro">frac&tcomma;iuni ale corpului</trd>
+  <trd lng="ro">frac&#539;iuni ale corpului</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_je;
     &c_ch;&c_a;&c_s;&c_t;&c_n;&c_y;&c_h;</trd>,
@@ -878,7 +880,8 @@
       finian <ref cel="grad.0o.superkorpo">gradon</ref> kaj ke la
       <ref cel="korp.invarianto0o">invariantokorpo</ref> de la
       <ref cel="grup.galeza0o.de_superkorpo">galeza grupo</ref>
-      <frm am="&quot;Gal&quot;(bb K&minute;//bb K)">Gal(<g>K'</g>/<g>K</g>)</frm> egalas al <frm am="bb                   K"><g>K</g></frm>.
+      <frm am="&quot;Gal&quot;(bb K&minute;//bb K)">Gal(<g>K'</g>/<g>K</g>)</frm> egalas al <frm am="bb    
+                    K"><g>K</g></frm>.
     </dif>
     <refgrp tip="vid">
       <ref cel="galez.0o">Galezo</ref>.
@@ -922,7 +925,7 @@
   <trd lng="en">fixed <ind>field</ind></trd>
   <trd lng="fr">corps des invariants</trd>
   <trd lng="pl">cia&lstroke;o niezmiennik&oacute;w</trd>
-  <trd lng="ro">invarian&tcomma;i corp</trd>
+  <trd lng="ro">invarian&#539;i corp</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_je;
   &c_i;&c_n;&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;&c_o;&c_v;</trd>
 </drv>
@@ -967,6 +970,9 @@
 </art>
 <!--
 $Log$
+versio 1.141 2024/07/30 18:33:50
+Wolfram Diestel: bld-titolo
+
 versio 1.140 2024/07/30 06:33:20
 Wolfram Diestel: +bld korpopopartoj
 
@@ -986,8 +992,5 @@ versio 1.133 2021/11/19 08:35:17
 Dmitri Gabinski: + trd be
 
 versio 1.132 2021/09/20 16:43:10
-Wolfram Diestel: +ref
-
-versio 1.55 2020/05/12 13:11:47
 -->
 </vortaro>
