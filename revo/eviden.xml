@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: eviden.xml,v 1.28 2024/07/29 18:33:50 revo Exp $">
+<art mrk="$Id: eviden.xml,v 1.29 2024/07/30 06:33:20 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>evident</rad>/a
@@ -238,20 +238,11 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="eviden.0ajxo.LOG">
     <dif>
-      Afero evidenta, klare videbla a&ubreve; memkomprenebla, kiu ne bezonas <ref
-      cel="pruv.0o">pruvo</ref>n:
+      Afero evidenta, klare videbla a&ubreve; memkomprenebla, kiu ne bezonas pruvon:
       <ekz>
         li ekkredis, kiel oni kredas <tld/>a&jcirc;on
         <fnt>
           <bib>QuV</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <klr>[li]</klr> rigardis <klr>[&#8230;]</klr> unu el la &ccirc;ieaj <tld/>a&jcirc;oj
-        <klr>(<ref cel="atest.0o">atestoj</ref>)</klr> de idolkulto
-        <fnt>
-          <bib>I&scirc;tar</bib>
-          <lok>&Ccirc;apitro XVIII</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -263,13 +254,33 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Offensichtliches</trd>,
+      <trd>Offenbarung</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="eviden.0ajxo.atesto">
+    <dif>
+      Evidentiga&jcirc;o, <ref cel="manife.0ajxo">manifesta&jcirc;o</ref>:
+      <ekz>
+        <klr>[li]</klr> rigardis <klr>[&#8230;]</klr> unu el la &ccirc;ieaj <tld/>a&jcirc;oj de idolkulto
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="atest.0o">atesto</ref>,
+      <ref cel="pruv.0o">pruvo</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Daseinsbeweis</trd>,
+      <trd>Anzeichen</trd>,
+      <trd>Manifestation</trd>
+    </trdgrp>
   </snc>
   <trd lng="be"> &c_v;&c_ib;&c_d;&c_a;&c_v;&c_o;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol; <klr>(&c_n;&c_je;&c_sh;&c_t;&c_a;)</klr></trd>
-  <trdgrp lng="de">
-    <trd>Offensichtliches</trd>,
-    <trd>Offenbarung</trd>,
-    <trd>Daseinsbeweis</trd>
-  </trdgrp>
   <trd lng="fr">&eacute;vidence</trd>
 </drv>
 
@@ -427,6 +438,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2024/07/30 06:33:20
+Wolfram Diestel: ~ajxo: snc-apartigo
+
 versio 1.28 2024/07/29 18:33:50
 Wolfram Diestel: +ref
 
@@ -446,8 +460,5 @@ versio 1.20 2021/06/17 06:38:35
 Dmitri Gabinski: + trd be
 
 Revision 1.17  2015/12/28 04:10:18  revo
-Alain Gerard: +fnt +trd fr
-
-Revision 1.16  2015/07/04 08:37:33  revo
 -->
 </vortaro>
