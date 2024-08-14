@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: poac.xml,v 1.17 2024/04/17 08:27:22 revo Exp $">
-<kap><rad>poac</rad>/oj</kap>
+<art mrk="$Id: poac.xml,v 1.18 2024/08/14 18:32:30 revo Exp $">
+<kap>
+  <rad>poac</rad>/oj
+  <fnt><bib>PIV2</bib></fnt>
+</kap>
 <drv mrk="poac.0oj">
   <kap><tld/>oj</kap>
   <snc mrk="poac.0oj.BOT">
@@ -35,11 +38,18 @@
   </trdgrp>
   </snc>
   <bld lok="../bld/po1.png">
-    folio<klr>: 1. foliplato (limbo), 2. ligulo, 3. oreleto, 4.
-    foliingo,
-    5. folinodo</klr>; floro<klr>: a. stameno, b. pistilo, c. lodiklo,
-    d. interna paleo, e. ekstera paleo, f. aristo</klr>; spiketo<klr>:
-    A. ekstera glumo, B. interna glumo, C. unuopa floro</klr>
+    folio<klr>:
+    <refgrp tip="prt">
+    1. foliplato (<ref cel="limb.0o.de_folio">limbo</ref>), 2. <ref cel="ligul.0o">ligulo</ref>, 3. oreleto, 4.
+    foliingo, 5. folinodo</refgrp></klr>;
+    floro<klr>:
+    <refgrp tip="prt">
+      a. <ref cel="stamen.0o">stameno</ref>, b. <ref cel="pistil.0o">pistilo</ref>, c. <ref cel="lodikl.0o">lodiklo</ref>,
+      d. interna <ref cel="pale.0o">paleo</ref>, e. ekstera paleo, f. <ref cel="arist.0o.BOT">aristo</ref></refgrp></klr>;
+    spiketo<klr>:
+    <refgrp tip="prt">
+      A. ekstera <ref cel="glum.0o">glumo</ref>, B. interna glumo, C. unuopa floro
+    </refgrp></klr>
   </bld>
   <trd lng="be">&c_z;&c_l;&c_a;&c_k;&c_ib; <klr>(&c_s;&c_ja;&c_m;&#8217;&c_ja;)</klr></trd>
   <trdgrp lng="ca">
@@ -67,15 +77,18 @@
   <trd lng="ru">&c_z;&c_l;&c_a;&c_k;&c_i; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
   <trd lng="sv">gr&auml;s</trd>
   <trdgrp lng="uk">
-    <trd>&c_z;&#x43B;&c_a;&#x43A;&c_i;</trd>,
-    <trd>&c_z;&#x43B;&c_a;&#x43A;&#x43E;&c_v;&c_ib;</trd>
+    <trd>&c_z;&c_l;&c_a;&c_k;&c_i;</trd>,
+    <trd>&c_z;&c_l;&c_a;&c_k;&c_o;&c_v;&c_ib;</trd>
   </trdgrp>
-  <trd lng="zh">&#x79BE;&#x672C;&#x79D1; <pr>h&#xE9;b&#x11B;nk&emacron;</pr></trd>
+  <trd lng="zh">&#31166;&#26412;&#31185; <pr>h&eacute;b&ecaron;nk&emacron;</pr></trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.18 2024/08/14 18:32:30
+Wolfram Diestel: +ref-oj
+
 versio 1.17 2024/04/17 08:27:22
 Eko Nur Syah Hidayat: +trd id
 
@@ -95,8 +108,5 @@ Revision 1.9  2012/01/01 20:10:31  revo
 Marc Rausell: +trd ca
 
 Revision 1.8  2010/05/30 16:30:20  revo
-Jose Antonio del Barrio: tr es
-
-Revision 1.7  2006/03/08 17:33:09  revo
 -->
 </vortaro>
