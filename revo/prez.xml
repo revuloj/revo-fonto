@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: prez.xml,v 1.23 2024/02/17 07:52:36 revo Exp $">
+<art mrk="$Id: prez.xml,v 1.24 2024/08/15 21:25:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>prez</rad>/o
+  <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="prez.0o">
   <kap>
@@ -13,48 +14,67 @@
   <uzo tip="fak">EKON</uzo>
   <snc>
     <dif>
-      Vendvaloro de objekto:
+      Vend<ref cel="valor.0o.prezo">valoro</ref> de objekto:
       <ekz>
         por tiu ma&scirc;ino kies kosto estis mil markoj, la fabrikanto
-        postulas
-        <tld/>on de du mil dum &gcirc;ia valoro ne atingas e&ccirc; kvincent
+        postulas <tld/>on de du mil dum &gcirc;ia valoro ne atingas e&ccirc; kvincent
         markojn;
       </ekz>
       <ekz>
-        <ind><tld/>aro</ind>
-        <klr>(tabelo de varoj kun <tld/>o)</klr>;
-        <trdgrp lng="be">
-          <trd>&c_p;&c_r;&c_a;&c_j;&c_s;-&c_l;&c_ib;&c_s;&c_t;</trd>,
-          <trd>&c_p;&c_r;&c_e;&c_j;&c_s;&c_k;&c_u;&c_r;&c_a;&c_n;&c_t;</trd>
-        </trdgrp>
-        <trd lng="de">Preisliste</trd>
-        <trd lng="hu">&aacute;rjegyz&eacute;k</trd>        
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_je;&c_j;&c_s;&c_k;&c_u;&c_r;&c_a;&c_n;&c_t;</trd>,
-          <trd>&c_p;&c_r;&c_a;&c_j;&c_s;-&c_l;&c_i;&c_s;&c_t;</trd>
-        </trdgrp>
+        mi volas a&ccirc;eti de vi pro difinita <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 24:24</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        anonci <tld/>on por la kapo de krimulo
-        (<ref tip="sin" cel="premi.0o">premio</ref>);
-      </ekz>
-      <ekz>malgranda pezo, sed granda <tld/>o
-<fnt><bib>PrV</bib></fnt>;</ekz>
-      <ekz>ju pli da a&ccirc;etantoj, des pli alta la <tld/>o
-<fnt><bib>PrV</bib></fnt>;</ekz>
-      <ekz>
-        la <tld/>oj falis tre malalten;
+        ili sie&gcirc;is <klr>[Samarion]</klr> tiel longe, &gcirc;is kapo de azeno ricevis la
+        <tld/>on de okdek sikloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 6:25</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        granda<tld/>a.
+        oni sendis post li kaptordonajn leterojn, <klr>[&#8230;]</klr> <tld/>o
+        <klr>(<ref tip="sin" cel="premi.0o">premio</ref>)</klr>
+        estas anoncita por lia kapo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pastroj <klr>[&#8230;]</klr> taksos niajn ri&ccirc;a&jcirc;ojn je ridinda <tld/>o kaj ne pagos
+        kontante
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la konkurado estas grandega, sekve la <tld/>oj estas tre malaltaj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malgranda pezo, sed granda <tld/>o
+        <fnt><bib>PrV</bib></fnt>;</ekz>
+      <ekz>
+        ju pli da a&ccirc;etantoj, des pli alta la <tld/>o
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="kost.0o">kosto</ref>
-    <ref tip="vid" cel="lu.0prezo">luprezo</ref>
+    <refgrp tip="vid">
+      <ref cel="kost.0o">kosto</ref>,
+      <ref cel="kurz.0o">kurzo</ref>,
+      <ref cel="pag.0o.ajxo">pago<sncref/></ref>,
+    </refgrp>
   </snc>
   <trd lng="be">&c_c;&c_a;&c_n;&c_a;</trd>
   <trd lng="bg">&c_c;&c_je;&c_n;&c_a;</trd>
-  <trd lng="bo">&#xF42;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&t_ga;&t_naro;&t_nga;&t_tsheg;</trd>
   <trd lng="de">Preis</trd>
   <trd lng="en">price</trd>
   <trd lng="es">precio</trd>
@@ -63,30 +83,233 @@
     <trd>&a_q;&f_y;&a_m;&a_t;</trd>
   </trdgrp>
   <trd lng="fr">prix</trd>
-  <trd lng="hu">&aacute;r</trd>  
+  <trd lng="hu">&aacute;r</trd>
   <trd lng="it">prezzo</trd>
   <trdgrp lng="ja">
-    <trd>&#x4FA1;&#x683C;  <pr>&#x304B;&#x304B;&#x304F;</pr></trd>,
-    <trd>&#x5024;&#x6BB5;  <pr>&#x306D;&#x3060;&#x3093;</pr></trd>,
-    <trd>&#x5B9A;&#x4FA1;  <pr>&#x3066;&#x3044;&#x304B;</pr></trd>
+    <trd>&#20385;&#26684;  <pr>&#12363;&#12363;&#12367;</pr></trd>,
+    <trd>&#20516;&#27573;  <pr>&#12397;&#12384;&#12435;</pr></trd>,
+    <trd>&#23450;&#20385;  <pr>&#12390;&#12356;&#12363;</pr></trd>
   </trdgrp>
   <trd lng="nl">prijs</trd>
   <trd lng="pl">cena</trd>
   <trd lng="pt">pre&ccedil;o</trd>
   <trd lng="ru">&c_c;&c_je;&c_n;&c_a;</trd>
-  <trd lng="uk">&#x446;&#x456;&#x43D;&#x430;</trd>
+  <trd lng="uk">&c_c;&c_ib;&c_n;&c_a;</trd>
   <trdgrp lng="zh">
-    <trd>&#x4EF7;&#x683C; <pr>ji&#xE0;g&#xE9;</pr></trd>,
-    <trd>&#x50F9;&#x683C; <pr>ji&#xE0;g&#xE9;</pr></trd>,
-    <trd>&#x4EE3;&#x4EF7; <pr>d&#xE0;iji&#xE0;</pr></trd>,
-    <trd>&#x4EE3;&#x50F9; <pr>d&#xE0;iji&#xE0;</pr></trd>,
-    <trd>&#x4EF7;&#x94B1; <pr>ji&#xE0;qian</pr></trd>,
-    <trd>&#x50F9;&#x9322; <pr>ji&#xE0;qian</pr></trd>
+    <trd>&#20215;&#26684; <pr>ji&agrave;g&eacute;</pr></trd>,
+    <trd>&#20729;&#26684; <pr>ji&agrave;g&eacute;</pr></trd>,
+    <trd>&#20195;&#20215; <pr>d&agrave;iji&agrave;</pr></trd>,
+    <trd>&#20195;&#20729; <pr>d&agrave;iji&agrave;</pr></trd>,
+    <trd>&#20215;&#38065; <pr>ji&agrave;qian</pr></trd>,
+    <trd>&#20729;&#37666; <pr>ji&agrave;qian</pr></trd>
   </trdgrp>
 </drv>
+
+<drv mrk="prez.0aro">
+  <kap>
+    <tld/>aro
+  </kap>
+  <snc>
+    <dif>
+      Listo de ofertoj (varoj, servoj) kun ilia <tld/>o:
+      <ekz>
+        mi permesas al mi adresi al vi mian <tld/>aron &gcirc;eneralan kaj samtempe kelkajn
+        specimenojn de la vendobjektoj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        firmoj komencis eldonadi prospektojn, <tld/>arojn kaj katalogojn en Esperanto
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="katalo.0o">katalogo</ref>,
+      <ref cel="prospe.0o">prospekto</ref>,
+      <ref cel="tarif.0o">tarifo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_a;&c_j;&c_s;-&c_l;&c_ib;&c_s;&c_t;</trd>,
+    <trd>&c_p;&c_r;&c_e;&c_j;&c_s;&c_k;&c_u;&c_r;&c_a;&c_n;&c_t;</trd>
+  </trdgrp>
+  <trd lng="de">Preisliste</trd>
+  <trd lng="hu">&aacute;rjegyz&eacute;k</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_je;&c_j;&c_s;&c_k;&c_u;&c_r;&c_a;&c_n;&c_t;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_j;&c_s;-&c_l;&c_i;&c_s;&c_t;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="prez.alt0a">
+  <kap>
+    alt<tld/>a,
+    <var><kap>grand<tld/>a</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Havanta relative altan <tld/>on:
+      <ekz>
+        li alportu por ili <klr>[&#8230;]</klr> perlojn kaj alt<tld/>ajn &scirc;tonojn
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Cindrulino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la popolanoj &gcirc;enerale emas a&ccirc;eti komerca&jcirc;ojn bonkvalitajn kaj alt<tld/>ajn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="&Monato;/2005/008531.php"
+              >Konsumado de luksaj varoj kreskas</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la vorto de la Eternulo estis grand<tld/>a en tiu tempo
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 3:1</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="kar.0a.EKON">kara<sncref/></ref>,
+      <ref cel="kost.multe0a">multekosta</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">teuer</trd>
+  <trd lng="en">expensive</trd>
+</drv>
+
+<drv mrk="prez.favor0a">
+  <kap>
+    favor<tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Havanta favoran <tld/>on (kaj bonan kvaliton); meritanta sian
+
+ <tld/>on:
+      <ekz>
+        mi do formar&scirc;os por profiti la favor<tld/>ajn gluta&jcirc;ojn, kiujn &ccirc;i tiu insuleto
+        regalas al soifantoj
+        <fnt>
+          <bib>KrM</bib>
+          <lok>22. Per Lerta Admono Alfluas La Mono.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiel nomataj &leftquot;Civitanaj Institutoj&rightquot; en &ccirc;iu vila&gcirc;o kaj urbo, kiuj organizas
+        favor<tld/>ajn kursojn por lernemuloj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Monato;/2004/008393.html"
+              >Alproprigi hobion</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum jardeko Germana Esperanto-Junularo ricevis konsiderindan sumon ebligante la
+        favor<tld/>an Internacian Seminarion
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2004, &#8470; 1 (111)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>preiswert</trd>,
+    <trd>g&uuml;nstig <klr>(preiswert)</klr></trd>
+  </trdgrp>
+  <trd lng="en">priceworthy</trd>
+</drv>
+
+<drv mrk="prez.malalt0a">
+  <kap>
+    malalt<tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Havanta relative malaltan <tld/>on:
+      <ekz>
+        mi ser&ccirc;is malalt<tld/>an lo&gcirc;ejon kaj vivis per iom da mono, kiun mi &scirc;paris
+        <fnt>
+          <bib>KrM</bib>
+          <lok>2. La &Jcirc;eto Estas Farita.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam Japanio ekonomie &leftquot;bolis&rightquot;, oni hontis eniri malalt<tld/>ajn butikojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Jasuo/pg</aut>
+          <vrk><url ref="&Monato;/2006/008730.php"
+              >Vendejen!</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="cxip.0a">&ccirc;ipa</ref>,
+      <ref cel="kar.mal0a.senvalora">malkara<sncref/></ref>,
+      <ref cel="kost.malmulte0a">malmultekosta</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>billig</trd>,
+    <trd>g&uuml;nstig</trd>
+  </trdgrp>
+  <trd lng="en">cheap</trd>
+</drv>
+
+<drv mrk="prez.sen0a">
+  <kap>
+    sen<tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Tiam valora, ke oni ne povas esprimi tion per iu <tld/>o:
+      <ekz>
+        &gcirc;uste pro la supre menciitaj ecoj, en ilia duobla funkcio interna kaj ekstera
+        eventoj ludas sen<tld/>an rolon, kaj indas strebi por ilin organizi kiom eble
+        plej bone
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Organizado de eventoj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="rar.0a.valora">rara<sncref/></ref>,
+      <ref cel="unik.0a.eksterordinara">unika<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>unsch&auml;tzbar</trd>,
+    <trd>nicht mit Geld aufzuwiegen</trd>,
+    <trd>kostbar</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>invaluable</trd>,
+    <trd>priceless</trd>
+  </trdgrp>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.24 2024/08/15 21:25:54
+Wolfram Diestel: +ekz, +~aro, (mal)alt~a, favor~a, sen~a
+
 versio 1.22 2023/10/20 16:38:17
 revo: transskribo per <pr>
 
@@ -106,8 +329,5 @@ Revision 1.13  2004/08/25 16:31:32  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12  2003/07/19 16:31:36  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/01/21 21:47:59  revo
 -->
 </vortaro>
