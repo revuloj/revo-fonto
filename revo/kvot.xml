@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kvot.xml,v 1.35 2023/12/03 09:59:05 revo Exp $">
+<art mrk="$Id: kvot.xml,v 1.36 2024/08/15 15:26:10 revo Exp $">
 <kap>
-  <rad>kvot</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>kvot</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="kvot.0o">
   <kap><tld/>o</kap>
@@ -73,12 +73,13 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="anuitat.0o">anuitato</ref>,
+      <ref cel="frakci.0o">frakcio</ref>,
+      <ref cel="kvocie.0o">kvociento</ref>,
+      <ref cel="minimu.0o">minimumo</ref>,
       <ref cel="porci.0o">porcio</ref>,
       <ref cel="propor.0o.parto_tuto">proporcio<sncref/></ref>,
       <ref cel="procen.0o">procento</ref>,
-      <ref cel="kvocie.0o">kvociento</ref>,
-      <ref cel="frakci.0o">frakcio</ref>,
-      <ref cel="minimu.0o">minimumo</ref>
+      <ref cel="tarif.0o">tarifo</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -119,9 +120,9 @@
     <trd>r&eacute;szesed&eacute;s</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x5272;&#x5F53;&#x3066;&#x5206;  <pr>&#x308F;&#x308A;&#x3042;&#x3066;&#x3076;&#x3093;</pr></trd>,
-    <trd>&#x5206;&#x62C5;&#x984D;  <pr>&#x3076;&#x3093;&#x305F;&#x3093;&#x304C;&#x304F;</pr></trd>,
-    <trd>&#x516C;&#x5B9A;&#x76F8;&#x5834;  <pr>&#x3053;&#x3046;&#x3066;&#x3044;&#x305D;&#x3046;&#x3070;</pr></trd>
+    <trd>&#21106;&#24403;&#12390;&#20998;  <pr>&#12431;&#12426;&#12354;&#12390;&#12406;&#12435;</pr></trd>,
+    <trd>&#20998;&#25285;&#38989;  <pr>&#12406;&#12435;&#12383;&#12435;&#12364;&#12367;</pr></trd>,
+    <trd>&#20844;&#23450;&#30456;&#22580;  <pr>&#12371;&#12358;&#12390;&#12356;&#12381;&#12358;&#12400;</pr></trd>
   </trdgrp>
   <trd lng="nl">quotum</trd>
   <trd lng="pl">kwota</trd>
@@ -140,19 +141,19 @@
     <trd>podiel</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&c_v;&#x43E;&c_t;&c_a;</trd>,
-    <trd>&c_ch;&c_a;&c_s;&c_t;&#x43A;&c_a;</trd>,
-    <trd>&c_d;&#x43E;&#x43B;&#x44F;</trd>
+    <trd>&c_k;&c_v;&c_o;&c_t;&c_a;</trd>,
+    <trd>&c_ch;&c_a;&c_s;&c_t;&c_k;&c_a;</trd>,
+    <trd>&c_d;&c_o;&c_l;&c_ja;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x914D;&#x984D; <pr>p&#xE8;i&#xE9;</pr></trd>,
-    <trd>&#x914D;&#x989D; <pr>p&#xE8;i&#xE9;</pr></trd>,
-    <trd>&#x4EFD;&#x984D; <pr>f&#xE8;n&#xE9;</pr></trd>,
-    <trd>&#x4EFD;&#x989D; <pr>f&#xE8;n&#xE9;</pr></trd>,
-    <trd>&#x984D;&#x5EA6; <pr>&#xE9;d&#xF9;</pr></trd>,
-    <trd>&#x989D;&#x5EA6; <pr>&#xE9;d&#xF9;</pr></trd>,
-    <trd>&#x9650;&#x984D; <pr>xi&#xE0;n&#xE9;</pr></trd>,
-    <trd>&#x9650;&#x989D; <pr>xi&#xE0;n&#xE9;</pr></trd>
+    <trd>&#37197;&#38989; <pr>p&egrave;i&eacute;</pr></trd>,
+    <trd>&#37197;&#39069; <pr>p&egrave;i&eacute;</pr></trd>,
+    <trd>&#20221;&#38989; <pr>f&egrave;n&eacute;</pr></trd>,
+    <trd>&#20221;&#39069; <pr>f&egrave;n&eacute;</pr></trd>,
+    <trd>&#38989;&#24230; <pr>&eacute;d&ugrave;</pr></trd>,
+    <trd>&#39069;&#24230; <pr>&eacute;d&ugrave;</pr></trd>,
+    <trd>&#38480;&#38989; <pr>xi&agrave;n&eacute;</pr></trd>,
+    <trd>&#38480;&#39069; <pr>xi&agrave;n&eacute;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -176,22 +177,22 @@
   <trd lng="es">cotizaci&oacute;n</trd>
   <trd lng="fr">cotation</trd>
   <trdgrp lng="ja">
-    <trd>&#x5272;&#x308A;&#x5F53;&#x3066;  <pr>&#x308F;&#x308A;&#x3042;&#x3066;</pr></trd>,
-    <trd>&#x76F8;&#x5834;&#x4ED8;  <pr>&#x305D;&#x3046;&#x3070;&#x3065;&#x3051;</pr></trd>
+    <trd>&#21106;&#12426;&#24403;&#12390;  <pr>&#12431;&#12426;&#12354;&#12390;</pr></trd>,
+    <trd>&#30456;&#22580;&#20184;  <pr>&#12381;&#12358;&#12400;&#12389;&#12369;</pr></trd>
   </trdgrp>
   <trd lng="nl">toewijzing</trd>
   <trdgrp lng="pl">
     <trd>przydzia&lstroke;</trd>,
     <trd>przydzielenie</trd>,
     <trd>wyznaczenie</trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="ro">alocare</trd>
   <trd lng="ru">&c_k;&c_o;&c_t;&c_i;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
   <trdgrp lng="sk">
     <trd>kv&oacute;tovanie</trd>,
     <trd>ur&ccaron;enie kv&oacute;ty</trd>
   </trdgrp>
-  <trd lng="uk">&c_v;&c_s;&c_t;&c_a;&#x43D;&#x43E;&c_v;&#x43B;&c_je;&#x43D;&#x43D;&#x44F; &#x43A;&c_v;&#x43E;&c_t;</trd>
+  <trd lng="uk">&c_v;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_l;&c_je;&c_n;&c_n;&c_ja; &c_k;&c_v;&c_o;&c_t;</trd>
 </drv>
 
 <drv mrk="kvot.profit0o">
@@ -217,18 +218,18 @@
     </trdgrp>
     <trd lng="ru">&c_d;&c_o;&c_l;&c_ja; &c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_i;</trd>
     <trdgrp lng="zh">
-    <trd>&#x7D05;&#x5229; <pr>h&#xF3;ngl&#xEC;</pr></trd>,
-    <trd>&#x7EA2;&#x5229; <pr>h&#xF3;ngl&#xEC;</pr></trd>,
-    <trd>&#x80A1;&#x606F; <pr>g&#x1D4;x&#xED;</pr></trd>
+    <trd>&#32005;&#21033; <pr>h&oacute;ngl&igrave;</pr></trd>,
+    <trd>&#32418;&#21033; <pr>h&oacute;ngl&igrave;</pr></trd>,
+    <trd>&#32929;&#24687; <pr>g&#468;x&iacute;</pr></trd>
   </trdgrp>
 </snc>
   <trd lng="cs">m&iacute;ra zisku</trd>
   <trd lng="es">dividendo</trd>
-  <trd lng="ja">&#x5229;&#x6F64;&#x7387;  <pr>&#x308A;&#x3058;&#x3085;&#x3093;&#x308A;&#x3064;</pr></trd>
-  <trd lng="pl">kwota zysku</trd>     
+  <trd lng="ja">&#21033;&#28516;&#29575;  <pr>&#12426;&#12376;&#12421;&#12435;&#12426;&#12388;</pr></trd>
+  <trd lng="pl">kwota zysku</trd>
   <trd lng="ro">valoarea profitului</trd>
   <trd lng="sk">podiel na zisku</trd>
-  <trd lng="uk">&c_ch;&c_a;&c_s;&c_t;&#x43A;&c_a; &c_d;&#x43E;&c_h;&#x43E;&c_d;&c_ib;&c_v;</trd>
+  <trd lng="uk">&c_ch;&c_a;&c_s;&c_t;&c_k;&c_a; &c_d;&c_o;&c_h;&c_o;&c_d;&c_ib;&c_v;</trd>
 </drv>
 
 <!--
@@ -245,7 +246,7 @@
   <ind>&c_v;&c_a;&c_r;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_ib;</ind></trd>
   <trd lng="cs">m&iacute;ra nadhodnoty</trd>
   <trd lng="hu">&eacute;rt&eacute;kt&ouml;bbletr&aacute;ta</trd>
-  <trd lng="pl">kwota warto&sacute;ci dodanej</trd>     
+  <trd lng="pl">kwota warto&sacute;ci dodanej</trd>
   <trd lng="ro">cantitatea de valoare ad&abreve;ugat&abreve;</trd>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a; &c_p;&c_r;&c_i;&c_b;&c_a;&c_v;&c_o;&c_ch;&c_n;&c_o;&c_j;
   &c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
@@ -268,14 +269,17 @@
     <trd>tasa de inter&eacute;s</trd>
   </trdgrp>
   <trd lng="nl">rente</trd>
-  <trd lng="pl">kwota odsetek</trd>     
+  <trd lng="pl">kwota odsetek</trd>
   <trd lng="ro">valoarea dob&acirc;nzii</trd>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a; &c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_i;</trd>
-  <trd lng="zh">&#x5229;&#x7387; <pr>l&#xEC;l&#xFC;</pr></trd>
+  <trd lng="zh">&#21033;&#29575; <pr>l&igrave;l&uuml;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.36 2024/08/15 15:26:10
+Wolfram Diestel: fnt PVEF
+
 versio 1.34 2023/10/18 17:23:25
 revo: transskribo per <pr>
 
@@ -295,8 +299,5 @@ Revision 1.26  2019/06/30 18:21:03  revo
 adaptis URL de Monato
 
 Revision 1.25  2019/06/30 07:42:48  revo
-adaptis URL de Monato
-
-Revision 1.24  2018/12/13 07:10:15  revo
 -->
 </vortaro>
