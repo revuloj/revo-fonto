@@ -1,24 +1,56 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kotiz.xml,v 1.21 2023/12/03 09:58:59 revo Exp $">
+<art mrk="$Id: kotiz.xml,v 1.22 2024/08/29 15:28:44 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>kotiz</rad>/i
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="kotiz.0i">
   <kap>
     <tld/>i
   </kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="kotiz.0i.EKON">
   <uzo tip="fak">EKON</uzo>
     <dif>
-      Pagi sian parton por komuna elspezo:
+      <ref tip="super" cel="pag.0i.EKON">Pagi</ref> sian parton por komuna elspezo:
       <ekz>
-        la lernantoj <tld/>is por donaci memora&jcirc;on al la instruisto.
+        la lernantoj <tld/>is por donaci memora&jcirc;on al la instruisto;
+      </ekz>
+      <ekz>
+        pli da mono ol tiuj junuloj povus <tld/>i
+        <fnt>
+          <bib>ChC</bib>
+          <lok>25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        institucioj varbas por si &leftquot;amikan rondon&rightquot;, al kiu la individuo memkompreneble
+        <tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2013/010938.php"
+              >Kison al la tuta mondo (sed nuntempe pagu)!</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por mendi lo&gcirc;adon &ccirc;iuj grupanoj devis <tld/>i al UK kaj al UEA
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 4 (54)</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="abon.0i">aboni</ref>,
+      <ref cel="al.0igxi">ali&gcirc;i</ref>,
+      <ref cel="kontin2.0i">kontingenti</ref>,
+      <ref cel="kontri.0i">kontribui</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_l;&c_a;&c_c;&c_ib;&c_c;&c_mol; &c_u;&c_z;&c_n;&c_o;&c_s;</trd>,
@@ -48,7 +80,7 @@
     <trd>j&aacute;rul&eacute;kot fizet</trd>,
     <trd>illet&eacute;ket fizet</trd>
   </trdgrp>
-  <trd lng="ja">&#x6255;&#x3046;  <pr>&#x306F;&#x3089;&#x3046;</pr></trd>
+  <trd lng="ja">&#25173;&#12358;  <pr>&#12399;&#12425;&#12358;</pr></trd>
   <trdgrp lng="nl">
     <trd>contributie betalen</trd>,
     <trd>bijdragen</trd>
@@ -58,8 +90,8 @@
   <trd lng="ro">plat&abreve; premium</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_t;&c_i;&c_t;&c_mol; &c_v;&c_z;&c_n;&c_o;&c_s;</trd>
   <trdgrp lng="zh">
-    <trd>&#x6350; <pr>ju&#x101;n</pr></trd>,
-    <trd>&#x6350;&#x52A9; <pr>ju&#x101;nzh&#xF9;</pr></trd>
+    <trd>&#25424; <pr>ju&amacron;n</pr></trd>,
+    <trd>&#25424;&#21161; <pr>ju&amacron;nzh&ugrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -67,18 +99,42 @@
   <kap>
     <tld/>o
   </kap>
-  <snc>
+  <snc mrk="kotiz.0o.EKON">
   <uzo tip="fak">EKON</uzo>
     <dif>
       Ago <tld/>i, rezulto a&ubreve; kosto de la ago:
       <ekz>
-        multaj societanoj ne repagis la kotizon, kvankam &gcirc;i estas
-        malalta.
+        kelkaj funkciuloj de Hamburga Komunista organiza&jcirc;o mal&scirc;paris partiajn <tld/>ojn
+        por propraj bezonoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kial niaj konsumkooperativoj <klr>[&#8230;]</klr> prenas tiajn altajn <tld/>ojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        19 &scirc;tatoj tiam pagadis <klr>[&#8230;]</klr> <tld/>on al la Monda Organiza&jcirc;o pri Sano
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la depreno el la kongresaj <tld/>oj estis altigita al 25%
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="kontin2.0i">kontingenti</ref>,
-      <ref cel="kontri.0i">kontribui</ref>.
+    <refgrp tip="vid">
+      <ref cel="impost.0o">imposto</ref>,
+      <ref cel="kontri.0ajxo">kontribua&jcirc;o</ref>,
+      <ref cel="kvest1.0o">kvesto</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -87,11 +143,15 @@
     <trd>&c_d;&c_o;&c_l;&c_ja; <klr>(&c_u; &c_s;&c_u;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_h; &c_v;&c_y;&c_d;&c_a;&c_t;&c_k;&c_a;&c_h;)</klr></trd>
   </trdgrp>
   <trd lng="bg">&c_p;&c_r;&c_i;&c_n;&c_o;&c_s;</trd>
-  <trd lng="bo">&#xF42;&#xFB3;&#xF0B;</trd>
+  <trd lng="bo">&t_ga;&t_lata;&t_tsheg;</trd>
   <trd lng="de">Beitrag</trd>
   <trdgrp lng="ca">
     <trd>quota</trd>,
     <trd>contribuci&oacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Beitrag</trd>,
+    <trd>Geb&uuml;hr <klr>(Beitrag)</klr></trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>contribution</trd>,
@@ -112,26 +172,29 @@
     <trd>d&iacute;j</trd>,
     <trd>j&aacute;rul&eacute;k</trd>,
     <trd>illet&eacute;k</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x4F1A;&#x8CBB;  <pr>&#x304B;&#x3044;&#x3072;</pr></trd>,
-    <trd>&#x5206;&#x62C5;&#x984D;  <pr>&#x3076;&#x3093;&#x305F;&#x3093;&#x304C;&#x304F;</pr></trd>
+    <trd>&#20250;&#36027;  <pr>&#12363;&#12356;&#12402;</pr></trd>,
+    <trd>&#20998;&#25285;&#38989;  <pr>&#12406;&#12435;&#12383;&#12435;&#12364;&#12367;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>contributie</trd>,
     <trd>bijdrage</trd>
   </trdgrp>
-  <trd lng="pl">sk&lstroke;adka</trd>     
-  <trd lng="ro">contribu&#x21B;ie</trd>
+  <trd lng="pl">sk&lstroke;adka</trd>
+  <trd lng="ro">contribu&tcomma;ie</trd>
   <trd lng="ru">&c_v;&c_z;&c_n;&c_o;&c_s;</trd>
   <trdgrp lng="zh">
-    <trd>&#x6350;&#x52A9; <pr>ju&#x101;nzh&#xF9;</pr></trd>,
-    <trd>&#x4F1A;&#x5458;&#x8D39; <pr>hu&#xEC;yu&#xE1;nf&#xE8;i</pr></trd>
+    <trd>&#25424;&#21161; <pr>ju&amacron;nzh&ugrave;</pr></trd>,
+    <trd>&#20250;&#21592;&#36153; <pr>hu&igrave;yu&aacute;nf&egrave;i</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2024/08/29 15:28:44
+Wolfram Diestel: +ekz-oj, ref
+
 versio 1.20 2023/10/18 17:23:25
 revo: transskribo per <pr>
 
@@ -151,8 +214,5 @@ Revision 1.12  2005/04/18 16:33:33  revo
 Raul Salinas Monteagudo: +trd es
 
 Revision 1.11  2004/04/23 16:31:45  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/12/17 20:10:44  revo
 -->
 </vortaro>
