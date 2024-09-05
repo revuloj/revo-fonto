@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: invest.xml,v 1.26 2023/11/19 10:22:14 revo Exp $">
-    <kap>
-      <rad>invest</rad>/i
-    </kap>
+<art mrk="$Id: invest.xml,v 1.27 2024/09/05 12:49:01 revo Exp $">
+ <kap>
+   <rad>invest</rad>/i
+   <fnt><bib>PV</bib></fnt>
+ </kap>
 
 <drv mrk="invest.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
- 
+
   <snc mrk="invest.0i.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Elspezi monon, kapitalon por produktodona celo, ekz-e
-      por plibonigi laborejon, alkonstrui novan domon, ala&ccirc;eti
-      novajn
+      <ref tip="super" cel="spez.el0i">Elspezi</ref> monon, kapitalon por produktodona celo, ekz-e
+      por plibonigi laborejon, alkonstrui novan domon, ala&ccirc;eti novajn
       ma&scirc;inojn ktp:
       <ekz>
         se Britio akceptus la e&ubreve;ron, &ccirc;u kreskus la ekonomio, &ccirc;u
@@ -46,7 +46,7 @@
     </dif>
     <trdgrp lng="de">
       <trd>investieren</trd>,
-      <trd>anlegen</trd>
+      <trd>anlegen <klr>(investieren)</klr></trd>
     </trdgrp>
     <trd lng="es">invertir<klr tip="ind"> (finanzas)</klr></trd>
     <trd lng="fr">investir<klr tip="ind"> (finance)</klr></trd>
@@ -75,12 +75,12 @@
     <trd>uv&eacute;st do &uacute;&rcaron;adu</trd>
   </trdgrp>
   <trd lng="en">invest</trd>
-  <trd lng="ja">&#x6295;&#x8CC7;&#x3059;&#x308B;  <pr>&#x3068;&#x3046;&#x3057;&#x3059;&#x308B;</pr></trd>
+  <trd lng="ja">&#25237;&#36039;&#12377;&#12427;  <pr>&#12392;&#12358;&#12375;&#12377;&#12427;</pr></trd>
   <trd lng="sk">investova&tcaron; kapit&aacute;l</trd>
   <trdgrp lng="zh">
-    <trd>&#x6295;&#x8CC7; <pr>t&#xF3;uz&#x12B;</pr></trd>,
-    <trd>&#x5165;&#x80A1; <pr>r&#xF9;g&#x1D4;</pr></trd>,
-    <trd>&#x51FA;&#x8CC7; <pr>ch&#x16B;z&#x12B;</pr></trd>
+    <trd>&#25237;&#36039; <pr>t&oacute;uz&imacron;</pr></trd>,
+    <trd>&#20837;&#32929; <pr>r&ugrave;g&#468;</pr></trd>,
+    <trd>&#20986;&#36039; <pr>ch&umacron;z&imacron;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -89,7 +89,7 @@
   <snc mrk="invest.0o.ajxo">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      <tld lit="I"/>a&jcirc;o<sncref ref="invest.0ajxo.kapitalo"/>:
+      <ref tip="dif" cel="invest.0ajxo.kapitalo"><tld lit="I"/>a&jcirc;o<sncref/></ref>:
       <ekz>
         &ccirc;iu serioza industria entrepreno bezonas <tld/>ojn
         <fnt><bib>PV</bib></fnt>;
@@ -103,13 +103,13 @@
         </fnt>.
       </ekz>
     </dif>
-  <trdgrp lng="be">
-    <trd>&c_ib;&c_n;&c_v;&c_e;&c_s;&c_t;&c_y;&c_c;&c_y;&c_ja;</trd>,
-    <trd>&c_k;&c_a;&c_p;&c_ib;&c_t;&c_a;&c_l;&c_a;&c_w;&c_k;&c_l;&c_a;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
-  </trdgrp>
+    <trdgrp lng="be">
+      <trd>&c_ib;&c_n;&c_v;&c_e;&c_s;&c_t;&c_y;&c_c;&c_y;&c_ja;</trd>,
+      <trd>&c_k;&c_a;&c_p;&c_ib;&c_t;&c_a;&c_l;&c_a;&c_w;&c_k;&c_l;&c_a;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+    </trdgrp>
     <trd lng="fr">investissement<klr tip="ind"> (finance,
     acte)</klr></trd>
-    <trdgrp lng="ru">   
+    <trdgrp lng="ru">
       <trd>&c_k;&c_a;&c_p;&c_i;&c_t;&c_a;&c_l;&c_o;&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_i;&c_ja;</trd>
     </trdgrp>
@@ -117,7 +117,7 @@
   <snc mrk="invest.0o.ado">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      <tld lit="I"/>ado<sncref ref="invest.0ado.EKON"/>:
+      <ref tip="dif" cel="invest.0ado.EKON"><tld lit="I"/>ado<sncref/></ref>:
       <ekz>
         siaflanke, Albanio starigis agentejon por stimuli
         eleksterlandajn <tld/>ojn
@@ -133,7 +133,7 @@
         </fnt>;
       </ekz><ekz>
         &ccirc;ar la Muzikaj Bankoj pagas malaltan a&ubreve;
-        e&ccirc; nenian dividendon <klr>...</klr> la homoj <klr>...</klr>
+        e&ccirc; nenian dividendon <klr>[&#8230;]</klr> la homoj <klr>[&#8230;]</klr>
         preferas <tld/>ojn, kiuj liveros al ili pli konkretan
         enspezon
         <fnt>
@@ -156,9 +156,13 @@
   <ref tip="hom" cel="invest2.0o.enoficigo">investo<sncref/> <klr>(al
   ofico)</klr></ref>
   <trd lng="cs">investov&aacute;n&iacute;</trd>
+  <trdgrp lng="de">
+    <trd>Investition</trd>,
+    <trd>Anlage <klr>(Investition)</klr></trd>
+  </trdgrp>
   <trd lng="en">investment</trd>
   <trd lng="sk">investovanie</trd>
-  <trd lng="zh">&#x6295;&#x8CC7; <pr>t&#xF3;uz&#x12B;</pr></trd>
+  <trd lng="zh">&#25237;&#36039; <pr>t&oacute;uz&imacron;</pr></trd>
 </drv>
 
 <drv mrk="invest.0ado">
@@ -166,7 +170,7 @@
   <snc mrk="invest.0ado.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Ago <tld/>i <sncref ref="invest.0i.EKON"/>:
+      Ago <tld/>i<sncref ref="invest.0i.EKON"/>:
       <ekz>
         tiuj 40 milionoj da e&ubreve;roj de <tld/>ado el Belgio en Kongo,
         lando kun &ccirc;irka&ubreve; 50 milionoj da lo&gcirc;antoj,
@@ -195,28 +199,29 @@
       <trd>&c_i;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_i;&c_ja;</trd>
     </trdgrp>
   </snc>
-  <ref tip="hom" cel="invest2.0o.enoficigo">investado<sncref/> <klr>(al 
+  <ref tip="hom" cel="invest2.0o.enoficigo">investado<sncref/> <klr>(al
      ofico)</klr></ref>
     <trdgrp lng="be">
       <trd>&c_ib;&c_n;&c_v;&c_e;&c_s;&c_t;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
       <trd>&c_u;&c_k;&c_l;&c_a;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_je; <ind>&c_g;&c_r;&c_o;&c_sh;&c_a;&c_w;</ind></trd>
     </trdgrp>
   <trd lng="cs">investov&aacute;n&iacute;</trd>
+  <trd lng="de">Investieren</trd>
   <trd lng="en">investment</trd>
   <trdgrp lng="ja">
-    <trd>&#x4EFB;&#x547D;  <pr>&#x306B;&#x3093;&#x3081;&#x3044;</pr></trd>,
-    <trd>&#x53D9;&#x4EFB;  <pr>&#x3058;&#x3087;&#x306B;&#x3093;</pr></trd>,
-    <trd>&#x6295;&#x8CC7;  <pr>&#x3068;&#x3046;&#x3057;</pr></trd>
+    <trd>&#20219;&#21629;  <pr>&#12395;&#12435;&#12417;&#12356;</pr></trd>,
+    <trd>&#21465;&#20219;  <pr>&#12376;&#12423;&#12395;&#12435;</pr></trd>,
+    <trd>&#25237;&#36039;  <pr>&#12392;&#12358;&#12375;</pr></trd>
   </trdgrp>
   <trd lng="sk">investovanie</trd>
   <trdgrp lng="uk">
-    <trd>&c_d;&c_a;&c_r;&c_u;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x43D;&c_a;&c_d;&c_ib;&#x43B;&c_je;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&c_ib;&#x43D;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_ib;&#x44F;</trd>,
-    <trd>&c_ib;&#x43D;&c_v;&c_je;&c_s;&c_t;&c_u;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&c_v;&#x43A;&#x43B;&c_a;&c_d;&c_je;&#x43D;&#x43D;&#x44F; &c_g;&c_r;&#x43E;&c_sh;&c_je;&c_j;/&#x43A;&c_a;&#x43F;&c_ib;&c_t;&c_a;&#x43B;&c_u;</trd>
+    <trd>&c_d;&c_a;&c_r;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_n;&c_a;&c_d;&c_ib;&c_l;&c_je;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_ib;&c_n;&c_v;&c_je;&c_s;&c_t;&c_i;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_ib;&c_n;&c_v;&c_je;&c_s;&c_t;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_v;&c_k;&c_l;&c_a;&c_d;&c_je;&c_n;&c_n;&c_ja; &c_g;&c_r;&c_o;&c_sh;&c_je;&c_j;/&c_k;&c_a;&c_p;&c_ib;&c_t;&c_a;&c_l;&c_u;</trd>
   </trdgrp>
-  <trd lng="zh">&#x6295;&#x8CC7; <pr>t&#xF3;uz&#x12B;</pr></trd>
+  <trd lng="zh">&#25237;&#36039; <pr>t&oacute;uz&imacron;</pr></trd>
 </drv>
 
 <drv mrk="invest.0ajxo">
@@ -226,7 +231,7 @@
     <fnt><bib>PIV2</bib></fnt>
     <uzo tip="klr">(plejofte plurale)</uzo>
     <dif>
-      La kapitalo kiun oni <tld/>as<sncref ref="invest.0i.EKON"/>:
+      La <ref cel="kapita.0o">kapitalo</ref> kiun oni <tld/>as<sncref ref="invest.0i.EKON"/>:
       <ekz>
         kun pli ol ok miliardoj da e&ubreve;roj en fremdlandaj rektaj
         <tld/>a&jcirc;oj en la jaro 2004 sud-orienta E&ubreve;ropo sukcesis
@@ -260,6 +265,10 @@
     <trd>&c_ib;&c_n;&c_v;&c_e;&c_s;&c_t;&c_y;&c_c;&c_y;&c_ja;</trd>,
     <trd>&c_k;&c_a;&c_p;&c_ib;&c_t;&c_a;&c_l;&c_a;&c_w;&c_k;&c_l;&c_a;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Investition</trd>,
+    <trd>Anlage <klr>(Investition)</klr></trd>
+  </trdgrp>
   <trd lng="en">investment</trd>
   <trd lng="es">inversi&oacute;n<klr tip="ind"> (finanzas,
     capital)</klr>
@@ -267,25 +276,27 @@
   <trd lng="fr">investissement<klr tip="ind"> (finance,
     capital)</klr>
   </trd>
-  <trd lng="ja">&#x6295;&#x8CC7;&#x8CA1;  <pr>&#x3068;&#x3046;&#x3057;&#x3056;&#x3044;</pr></trd>
+  <trd lng="ja">&#25237;&#36039;&#36001;  <pr>&#12392;&#12358;&#12375;&#12374;&#12356;</pr></trd>
   <trd lng="pt">investimento<klr tip="amb">
       (capital; economia, finan&ccedil;as, com&eacute;rcio)</klr>
   </trd>
+  <trdgrp lng="zh">
+    <trd>&#25237;&#36039; <pr>t&oacute;uz&imacron;</pr></trd>,
+    <trd>&#25237;&#20837; <pr>t&oacute;ur&ugrave;</pr></trd>
+  </trdgrp>
   <adm>
     PIV2 havas ankaux plian sencon, kiu sxajne
     samsencas kun la dua, sed en alia kunteksto.
     <aut>MB</aut>
   </adm>
-
-  <trdgrp lng="zh">
-    <trd>&#x6295;&#x8CC7; <pr>t&#xF3;uz&#x12B;</pr></trd>,
-    <trd>&#x6295;&#x5165; <pr>t&#xF3;ur&#xF9;</pr></trd>
-  </trdgrp>
 </drv>
 
 </art>
   <!--
   $Log$
+versio 1.27 2024/09/05 12:49:01
+Wolfram Diestel: trd de, ref
+
 versio 1.25 2023/10/17 16:46:14
 revo: transskribo per <pr>
 
@@ -305,8 +316,5 @@ Neil Roberts: Ripari ref
   aldono de trd cs per skripto de M. von Laer
 
   Revision 1.17  2015/06/29 16:33:16  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.16  2008/12/11 17:31:17  revo
 -->
 </vortaro>
