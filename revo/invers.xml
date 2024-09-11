@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: invers.xml,v 1.50 2024/02/04 09:20:02 revo Exp $">
+<art mrk="$Id: invers.xml,v 1.51 2024/09/11 15:31:02 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>invers</rad>/a
@@ -41,7 +41,7 @@
       <ekz>
         en <klr>[...]</klr> la hispana lingvo demandaj &ccirc;effrazoj estu
         komencataj per
-        <tld/>a (surkapa, turnita) demandosigno (¿) kaj finataj per la
+        <tld/>a (surkapa, turnita) demandosigno (&#191;) kaj finataj per la
         tradicia demandosigno
         <fnt>
           <bib>Viki</bib>
@@ -80,7 +80,7 @@
         la <tld/>a rilato de funkcio
         <frm am="f: X to Y"><k>f</k>:<k>X</k>&#10230;<k>Y</k></frm>
         estas la duargumenta rilato
-        <frm am="f^-1 sube Y xx X"><k>f</k><sup>-1</sup>&#8838;<k>Y</k>×<k>X</k></frm>
+        <frm am="f^-1 sube Y xx X"><k>f</k><sup>-1</sup>&#8838;<k>Y</k>&#215;<k>X</k></frm>
         difinita per
         <frm am="f^-1={(y,x): (x,y) in f}"><k>f</k><sup>-1</sup>={(<k>y</k>,<k>x</k>):
         (<k>x</k>,<k>y</k>)&#8712;<k>f</k>}</frm>
@@ -711,6 +711,7 @@
   <snc>
     <ref tip="dif" cel="invers.0igebla.MAT"><tld/>igebla</ref>
   </snc>
+  <trd lng="be">&c_a;&c_b;&c_a;&c_r;&c_a;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="de">umkehrbar</trd>
   <trd lng="en">inversible</trd>
   <trd lng="fr">inversible</trd>
@@ -730,6 +731,7 @@
   <snc>
     <ref tip="dif" cel="invers.ne0igebla">ne<tld/>igebla</ref>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_a;&c_b;&c_a;&c_r;&c_a;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="de">unumkehrbar</trd>
   <trd lng="en">non-inversible</trd>
   <trd lng="fr">non inversible</trd>
@@ -743,6 +745,9 @@
 </art>
 <!--
 $Log$
+versio 1.51 2024/09/11 15:31:02
+Dmitri Gabinski: + trd be
+
 versio 1.50 2024/02/04 09:20:02
 Alain Gerard: +trd fr
 
@@ -762,8 +767,5 @@ versio 1.43 2023/04/30 13:26:21
 Paul Peeraerts: Steloj -> monato
 
 versio 1.42 2022/12/30 08:31:51
-Dmitri Gabinski: + trd be
-
-versio 1.41 2022/04/30 08:42:42
 -->
 </vortaro>
