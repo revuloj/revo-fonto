@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: distri2.xml,v 1.22 2022/03/15 16:19:58 revo Exp $">
+<art mrk="$Id: distri2.xml,v 1.23 2024/09/16 09:34:06 revo Exp $">
 <kap>
   <rad>distribuci</rad>/o
 </kap>
@@ -52,6 +52,7 @@
       barita <ref cel="ten.sub0anto.MAT">subtenanto</ref>.
     </rim>
   </snc>
+  <trd lng="be">&c_r;&c_a;&c_z;&c_mol;&c_m;&c_je;&c_r;&c_k;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je; <klr tip="amb">(&c_m;&c_a;&c_t;.)</klr></trd>
   <trd lng="ca">distribuci&oacute;</trd>
   <trd lng="cs">distributivnost</trd>
   <trdgrp lng="de">
@@ -65,7 +66,7 @@
   </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_t;&a_w;&a_z;&f_y;&a_ayn;</trd>,
-    <trd>&a_t;&a_A;&a_b;&a_ayn; &a_t;&a_ayn;&a_m;&f_y;&a_m;&zwnj;&f_y;&a_A;&a_f;&a_t;&a_h;</trd>
+    <trd>&a_t;&a_A;&a_b;&a_ayn; &a_t;&a_ayn;&a_m;&f_y;&a_m;&#8204;&f_y;&a_A;&a_f;&a_t;&a_h;</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>distribution<klr tip="ind"> (fonction
@@ -87,7 +88,7 @@
     <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
   </trdgrp>
   <trd lng="sk">distribut&iacute;vnos&tcaron;</trd>
-  <trd lng="uk">&#x434;&#x438;&#x441;&#x442;&#x440;&#x438;&#x431;&#x443;&#x446;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_d;&c_i;&c_s;&c_t;&c_r;&c_i;&c_b;&c_u;&c_c;&c_ib;&#x44F;</trd>
 </drv>
 
 <drv mrk="distri2.diraka0o">
@@ -98,7 +99,7 @@
       <klr>(&ccirc;e punkto <frm am="a"><k>a</k></frm>)</klr>
       <ref tip="super" cel="distri2.0o"><tld lit="D"/>o</ref>, kiu
       &jcirc;etas
-      testan funkcion <frm am="phi">&phi;</frm> al 
+      testan funkcion <frm am="phi">&phi;</frm> al
       <frm am="phi(a)">&phi;(<k>a</k>)</frm>:
       <ekz>
         la dirakan <tld/>on &ccirc;e punkto a oni kutime signas per
@@ -124,6 +125,10 @@
       asociebla al neniu vera funkcio.
     </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_e;&c_l;&c_mol;&c_t;&c_a;-&c_f;&c_u;&c_n;&c_k;&c_c;&c_y;&c_ja;</trd>,
+    <trd>&delta;-<ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_y;&c_ja;</ind> <klr>(&c_d;&c_y;&c_r;&c_a;&c_k;&c_a;&c_v;&c_a;)</klr></trd>
+  </trdgrp>
   <trd lng="ca">distribuci&oacute; de Dirac</trd>
   <trd lng="de">Diracsche Funktion</trd>
   <trd lng="en">Dirac['s] distribution</trd>
@@ -143,7 +148,10 @@
 </drv>
 </art>
 <!--
-$Log: distri2.xml,v $
+$Log$
+versio 1.23 2024/09/16 09:34:06
+Dmitri Gabinski: + trd be
+
 versio 1.21 2020/02/14 12:10:24
 Wolfram Diestel: formuloj per am
 
@@ -163,8 +171,5 @@ Revision 1.16  2007/08/08 16:31:17  revo
 Tulio Flores: +tr pt
 
 Revision 1.15  2003/05/09 16:31:17  revo
-Marc Bavant: mod trd ru
-
-Revision 1.14  2003/04/07 16:34:44  revo
 -->
 </vortaro>
