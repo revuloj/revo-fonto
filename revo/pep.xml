@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pep.xml,v 1.33 2024/05/06 07:23:47 revo Exp $">
+<art mrk="$Id: pep.xml,v 1.34 2024/09/28 03:34:55 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pep</rad>/i <fnt><bib>PV</bib></fnt>
@@ -168,7 +168,14 @@
       </ekz>
     </dif>
     <trd lng="de">twittern</trd>
-    <trd lng="en">twitter</trd>
+    <trdgrp lng="en">
+      <trd>tweet</trd>,
+      <trd>twitter</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>tweeten</trd>
+      <trd>twitteren</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_sh;&c_ch;&c_a;&c_b;&c_ja;&c_t;&c_a;&c_c;&c_mol;</trd>,
@@ -187,7 +194,11 @@
   <trd lng="de">zwitschern</trd>
   <trdgrp lng="en">
     <trd>chirp</trd>,
-    <trd>beep</trd>
+    <trd>cheep</trd>,
+    <trd>peep</trd>,
+    <trd>tweet</trd>,
+    <trd>twitter</trd>,
+    <trd>warble</trd>
   </trdgrp>
   <trd lng="es">piar<klr tip="amb"> (un pajarillo)</klr></trd>
   <trd lng="fr">piailler</trd>
@@ -198,12 +209,13 @@
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#12373;&#12360;&#x305A;&#x308B;</trd>,
-    <trd>&#x30D4;&#x30A3;&#x30D4;&#x30A3;&#x9CF4;&#x304F; 
+    <trd>&#x30D4;&#x30A3;&#x30D4;&#x30A3;&#x9CF4;&#x304F;
     <pr>&#x30D4;&#x30A3;&#x30D4;&#x30A3;&#x306A;&#x304F;</pr></trd>,
     <trd>&#x30DA;&#x30C1;&#x30E3;&#x30AF;&#x30C1;&#x30E3;&#12375;&#12419;&#12409;&#x308B;</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>piepen</trd>,
+    <trd>tjilpen</trd>,
     <trd>sjilpen</trd>,
     <trd>kwetteren</trd>
   </trdgrp>
@@ -268,7 +280,10 @@
     <trd>piep</trd>,
     <trd>tschilp</trd>
   </trdgrp>
-  <trd lng="en">chirp!</trd>
+  <trdgrp lng="en">
+    <trd>chirp!</trd>,
+    <trd>tweet!</trd>
+  </trdgrp>
   <trd lng="fr">piou !<klr> (cri d'oiseau)</klr></trd>
   <trdgrp lng="hu">
     <trd>csip</trd>,
@@ -291,7 +306,7 @@
   <kap>
     <tld/>o
   </kap>
-  <snc>
+  <snc mrk="pep.0o.bleko">
     <dif>
       Ago <tld/>i; la sono farita:
       <ekz>
@@ -322,18 +337,73 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_sh;&c_ch;&c_e;&c_b;&c_je;&c_t;</trd>,
+      <trd>&c_p;&c_ib;&c_s;&c_k;</trd>,
+      <trd>&c_c;&c_v;&c_y;&c_r;&c_k;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Zwitschern</trd>,
+      <trd>Piepen</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>chirp</trd>,
+      <trd>peep</trd>,
+      <trd>tweet</trd>
+    </trdgrp>
+    <trd lng="zh">&#21553;&#21553;&#x53EB; <pr>z&#x12B;z&#x12B;ji&#xE0;o</pr></trd>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_sh;&c_ch;&c_e;&c_b;&c_je;&c_t;</trd>,
-    <trd>&c_p;&c_ib;&c_s;&c_k;</trd>,
-    <trd>&c_c;&c_v;&c_y;&c_r;&c_k;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <snc mrk="pep.0o.RET">
+    <uzo tip="fak">RET</uzo>
+    <dif>
+      <ref tip="dif" cel="pep.0ajxo">pepa&jcirc;o</ref>:
+      <ekz>
+        tiel la mondo legas. librojn, gazetojn, bildstriojn, subtekstojn, retmesa&gcirc;ojn,
+        Facebook-komentojn, <tld/>ojn kaj apojn
+        <fnt><bib>Kontakto</bib></fnt>
+      </ekz>
+    </dif>
+    <trd lng="en">tweet</trd>
+    <trdgrp lng="nl">
+      <trd>tweet</trd>,
+      <trd>Twitterbericht</trd>
+    </trdgrp>
+  </snc>
+</drv>
+
+<drv mrk="pep.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <uzo tip="fak">RET</uzo>
+    <dif>
+      <ref cel="tviter.0o">Tviter</ref>-mesa&gcirc;o
+      <ekz>
+        &ccirc;iu profilo, &ccirc;iu &rightquot;mi &scirc;atas&#8221;, &ccirc;iu tviter<tld/>a&jcirc;o, &ccirc;iu peto, &ccirc;iu klako, ver&scirc;as valorigeblan
+        guton da informo en la oceano de la frostigitaj serviloj
+        <fnt>
+          <aut>Pierre Rimbert, trad. Jeanne-Marie Cash</aut>
+          <vrk><url ref="https://eo.mondediplo.com/2016/09/article2402.html">Personaj datumoj,
+          politika afero</url>, </vrk>
+          <bib>MD14</bib>
+        </fnt>
+      </ekz>
+      <ekz>
+        se vi bone a&ubreve;dis &ccirc;i tiun epizodon, aldonu <tld/>a&jcirc;on, afi&scirc;on a&ubreve; simplan mesa&gcirc;on
+        <fnt>
+          <aut>La Malfamuloj</aut>
+          <vrk>La Famuloj - 2 - Keanu Reeves</vrk>
+          <lok>2022-07-19</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">tweet</trd>
+  <trdgrp lng="nl">
+    <trd>tweet</trd>,
+    <trd>Twitterbericht</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>Zwitschern</trd>,
-    <trd>Piepen</trd>
-  </trdgrp>
-  <trd lng="en">beep</trd>
-  <trd lng="zh">&#21553;&#21553;&#x53EB; <pr>z&#x12B;z&#x12B;ji&#xE0;o</pr></trd>
 </drv>
 
 <drv mrk="pep.plor0i">
@@ -373,6 +443,9 @@
 </art>
 <!--
 $Log$
+versio 1.34 2024/09/28 03:34:55
+Sam Penter: + ~ajxo kaj sinonima senco de ~o; +trd
+
 versio 1.33 2024/05/06 07:23:47
 Dmitri Gabinski: + trd be
 
@@ -392,8 +465,5 @@ versio 1.26 2023/02/22 06:35:20
 Dmitri Gabinski: + trd be
 
 versio 1.25 2022/08/29 21:30:04
-Vito Redsky:  +trd pl  + trd ro
-
-versio 1.23 2022/02/15 03:40:29
 -->
 </vortaro>

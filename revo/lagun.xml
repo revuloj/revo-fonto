@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lagun.xml,v 1.21 2024/01/15 16:14:08 revo Exp $">
+<art mrk="$Id: lagun.xml,v 1.22 2024/10/05 12:47:40 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>lagun</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="lagun.0o">
   <kap>
@@ -13,28 +14,50 @@
   <uzo tip="fak">GEOG</uzo>
   <snc>
     <dif>
-      Apudborda, malmulte profunda lageto, formita de maro, el kiu &gcirc;i
+      Apudborda, neprofunda <ref tip="super" cel="lag.0o">lageto</ref>, formita de maro, el kiu &gcirc;i
       estas apartigita de sablaj amasoj:
       <ekz>
-        la <tld/>oj de Dancigo, de Venecio.
+        la <tld/>oj de Dancigo, de Venecio;
+      </ekz>
+      <ekz>
+        ili vidis la maron, &gcirc;is tiam de ili ne viditan: &gcirc;i &scirc;ajnis al ili tre vasta kaj
+        longa, multe pli ol la <tld/>oj de <nom>Ruidera</nom>, kiujn en la Man&ccirc;o ili vidis
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sekvan tagon trovi&gcirc;is kadavroj en <tld/>o en la &ccirc;efurbo Lomeo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gbeglo Koffi/pg</aut>
+          <vrk><url ref="&Monato;/2005/008605.php"
+              >Kadavroj kaj kandidatoj</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_l;&c_a;&c_g;&c_u;&c_n;&c_a;</trd>   
+  <trd lng="be">&c_l;&c_a;&c_g;&c_u;&c_n;&c_a;</trd>
   <trd lng="br">loc'h<klr tip="ind"> (lenn)</klr></trd>
   <trd lng="el">&lambda;&jota;&my;&ny;&omikron;&theta;&alfa_ton;&lambda;&alfa;&sigma;&sigma;&alfa;</trd>
-  <trd lng="de">Lagune</trd>
+  <trdgrp lng="de">
+    <trd>Lagune</trd>,
+    <trd>Haff</trd>,
+    <trd>Liman</trd>
+  </trdgrp>
   <trd lng="en">lagoon</trd>
   <trd lng="es">laguna</trd>
-  <trdgrp lng="fr">   
-    <trd>lagon</trd>,   
+  <trdgrp lng="fr">
+    <trd>lagon</trd>,
     <trd>lagune</trd>
   </trdgrp>
   <trd lng="hu">laguna</trd>
   <trdgrp lng="ja">
-    <trd>&#x6F5F;  <pr>&#x304B;&#x305F;</pr></trd>,
-    <trd>&#x6F5F;&#x6E56;  <pr>&#x305B;&#x304D;&#x3053;</pr></trd>,
-    <trd>&#x7901;&#x6E56;  <pr>&#x3057;&#x3087;&#x3046;&#x3053;</pr></trd>
+    <trd>&#28511;  <pr>&#12363;&#12383;</pr></trd>,
+    <trd>&#28511;&#28246;  <pr>&#12379;&#12365;&#12371;</pr></trd>,
+    <trd>&#30977;&#28246;  <pr>&#12375;&#12423;&#12358;&#12371;</pr></trd>
   </trdgrp>
   <trd lng="nl">lagune</trd>
   <trd lng="pl">laguna</trd>
@@ -42,17 +65,20 @@
   <trd lng="ro">lagun&abreve;</trd>
   <trd lng="ru">&c_l;&c_a;&c_g;&c_u;&c_n;&c_a;</trd>
   <trd lng="sv">lagun</trd>
-  <trd lng="uk">&#x43B;&#x430;&#x491;&#x443;&#x43D;&#x430;</trd>
+  <trd lng="uk">&c_l;&c_a;&c_gu;&c_u;&c_n;&c_a;</trd>
   <trdgrp lng="zh">
-    <trd>&#x6F5F;&#x6E56; <pr>x&#xEC;h&#xFA;</pr></trd>,
-    <trd>&#x6CFB;&#x6E56; <pr>xi&#xE8;h&#xFA;</pr></trd>,
-    <trd>&#x7009;&#x6E56; <pr>xi&#xE8;h&#xFA;</pr></trd>,
-    <trd>&#x7901;&#x6E56; <pr>ji&#x101;oh&#xFA;</pr></trd>
+    <trd>&#28511;&#28246; <pr>x&igrave;h&uacute;</pr></trd>,
+    <trd>&#27899;&#28246; <pr>xi&egrave;h&uacute;</pr></trd>,
+    <trd>&#28681;&#28246; <pr>xi&egrave;h&uacute;</pr></trd>,
+    <trd>&#30977;&#28246; <pr>ji&amacron;oh&uacute;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2024/10/05 12:47:40
+Wolfram Diestel: fnt JED, +ekz, trd de
+
 versio 1.20 2023/10/19 05:15:34
 revo: transskribo per <pr>
 
@@ -72,8 +98,5 @@ Revision 1.12  2002/08/18 18:00:43  revo
 Eduardo M. Kalinowski: ald trd el, pt
 
 Revision 1.11  2002/07/09 17:33:43  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/06/05 17:31:26  revo
 -->
 </vortaro>
