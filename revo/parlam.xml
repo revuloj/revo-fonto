@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: parlam.xml,v 1.26 2024/02/24 09:19:04 revo Exp $">
+<art mrk="$Id: parlam.xml,v 1.27 2024/10/08 05:29:58 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>parlament</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="parlam.0o">
   <kap><tld/>o</kap>
-  <snc mrk="parlam.0o.POL">
+  <snc mrk="parlam.0o.sxtata">
     <uzo tip="fak">POL</uzo>
     <dif>
       Reprezentantaro de la civitanoj, kiu, en konstituciaj landoj, faras
@@ -21,6 +21,41 @@
         </fnt>;
       </ekz>
       <ekz>
+        oratoro, parolanta en <tld/>o, evoluigas siajn pensojn anta&ubreve; publiko, kiu
+        estas sufi&ccirc;e homogena el retorika vidpunkto, kvankam la deputitoj apartenas
+        al diversaj partioj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <ref tip="prt" cel="frakci.0o.POL">frakcio<sncref/></ref>
+  </snc>
+  <snc mrk="parlam.0o.nesxtata">
+    <dif>
+      <ref tip="super" cel="deput.0itaro">Deputitaro</ref> de ne&scirc;tata (urba, distrikta) publika instanco,
+      ofte nele&gcirc;dona sed plenuma:
+      <ekz>
+        la Pirato-Partio ricevis 2,7 % de la vo&ccirc;oj kaj akiris tiel unu reprezentanton en
+        la urba <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2013/010916.php"
+              >Progresas piratoj</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>European Youth Event</nom> <klr>[&#8230;]</klr> estas organizata kun la helpo de la E&ubreve;ropa
+        <tld/>o
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>TEJO kaj FoJE</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         prezidanto de la <tld/>o en la Provenco
         <fnt>
           <bib>FK</bib>
@@ -28,7 +63,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[ano]</klr> de l&#8217; parlamento por la elekta distrikto de Romfordo
+        <klr>[ano]</klr> de l&#8217; <tld/>o por la elekta distrikto de Romfordo
         <fnt>
           <bib>MrA</bib>
           <lok>&Ccirc;apitro XIV</lok>
@@ -44,38 +79,9 @@
           <vrk><url ref="&Monato;/2009/009871.php"
               >Kverelas la komunumoj</url></vrk>
           <lok>2009</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <nom>European Youth Event</nom> <klr>[&#8230;]</klr> estas organizata kun la helpo de la E&ubreve;ropa
-        <tld/>o
-        <fnt>
-          <bib>Kon11</bib>
-          <lok>TEJO kaj FoJE</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la Pirato-Partio ricevis 2,7 % de la vo&ccirc;oj kaj akiris tiel unu reprezentanton en
-        la urba <tld/>o
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Walter Klag</aut>
-          <vrk><url ref="&Monato;/2013/010916.php"
-              >Progresas piratoj</url></vrk>
-          <lok>2013</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        oratoro, parolanta en <tld/>o, evoluigas siajn pensojn anta&ubreve; publiko, kiu
-        estas sufi&ccirc;e homogena el retorika vidpunkto, kvankam la deputitoj apartenas
-        al diversaj partioj
-        <fnt>
-          <bib>Ret</bib>
-          <lok>Dua Parto</lok>
-        </fnt>;
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="prt" cel="frakci.0o.POL">frakcio<sncref/></ref>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_l;&c_ja;&c_m;&c_e;&c_n;&c_t; <klr>(&c_v;&c_o;&c_r;&c_g;&c_a;&c_n;)</klr></trd>
   <trd lng="bg">&c_p;&c_a;&c_r;&c_l;&c_a;&c_m;&c_je;&c_n;&c_t;</trd>
@@ -129,7 +135,7 @@
       <ekz>
         <nom>Marco Cappato</nom> estas la unua <tld/>ano
         <klr>[&#8230;]</klr> kiu sukcesis devigi la
-        EU-parlamenton esprimi sin pri esperanto
+        EU-<tld/>on esprimi sin pri esperanto
         <fnt>
           <aut>G. Silfer</aut>,
           <vrk><url ref="http://www.esperantio.net/index.php?id=883">
@@ -154,7 +160,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="deput.0ito">deputito</ref>
+    <ref tip="super" cel="deput.0ito">deputito</ref>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_l;&c_ja;&c_m;&c_e;&c_n;&c_t;&c_a;&c_r;&c_y;&c_j;</trd>
   <trdgrp lng="de">
@@ -313,6 +319,9 @@
 </art>
 <!--
 $Log$
+versio 1.27 2024/10/08 05:29:58
+Wolfram Diestel: apartigo snc neŝtata ~o
+
 versio 1.26 2024/02/24 09:19:04
 Wolfram Diestel: fnt JED, aktualigo dif, ekz, ref
 
@@ -332,8 +341,5 @@ Revision 1.16  2015/06/29 16:40:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.15  2014/11/13 21:10:15  revo
-Jeromo Vasxe: + ~ano ~ejo
-
-Revision 1.14  2014/01/05 13:10:29  revo
 -->
 </vortaro>
