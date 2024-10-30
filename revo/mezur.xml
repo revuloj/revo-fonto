@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mezur.xml,v 1.148 2024/10/29 22:32:17 revo Exp $">
+<art mrk="$Id: mezur.xml,v 1.149 2024/10/30 22:32:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mezur</rad>/i <fnt><bib>UV</bib></fnt>
@@ -1043,7 +1043,7 @@
   <kap>
     bon<tld/>a
   </kap>
-  <snc>
+  <snc mrk="mezur.bon0a.KOMUNE">
     <dif>
       Havanta bonan <tld/>on:
       <ekz>
@@ -1055,7 +1055,7 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-    <ref cel="adekva.0a">adekvata</ref>
+    <ref cel="adekva.0a">adekvata</ref>,
       <ref cel="konven.0a.alsituacio">konvena<sncref/></ref>,
       <ref cel="mezur.laux0a">la&ubreve;mezura</ref>,
       <ref cel="oportu.0a.konvena">oportuna<sncref/></ref>
@@ -1065,6 +1065,7 @@
     <trd>passend</trd>,
     <trd>in der richtigen <ind>Gr&ouml;&szlig;e</ind></trd>
   </trdgrp>
+  <trd lng="fr">de la bonne <ind>taille</ind></trd>
 </drv>
 
 <drv mrk="mezur.cxirkaux0o">
@@ -1440,7 +1441,7 @@
     <uzo tip="fak">TEK</uzo>
     <dif>
       <ref tip="super" cel="mezur.0ilo.TEK"><tld lit="M"/>ilo</ref>,
-      ordinare vazo, per kiu oni <tld/>as kvanton de greno:
+      ordinare vazo, per kiu oni <tld/>as kvantojn da greno:
       <ekz>
         kiam oni bruligas lampon, oni metas &gcirc;in ne sub gren<tld/>ilon, sed sur la lampingon
         <fnt>
@@ -1451,6 +1452,42 @@
     </dif>
   </snc>
   <trd lng="fr">boisseau<klr> (r&eacute;cipient)</klr></trd>
+</drv>
+
+<drv mrk="mezur.rapido0ilo">
+  <kap>rapido<tld/>ilo,
+  <var><kap>rapid<tld/>ilo</kap></var></kap>
+  <snc mrk="mezur.rapido0ilo.MEZ">
+    <uzo tip="fak">AUT</uzo>
+    <dif>
+      <ref tip="super" cel="mezur.0ilo.TEK"><tld lit="M"/>ilo</ref> de rapido de iranto, veturanto;
+      <ref tip="sin" cel="rapidometr.0o.MEZ">rapidometro</ref>:
+      <ekz>
+        la rapido<tld/>ilo indikis 95 mejlojn hore
+        <fnt>
+          <aut>GrizaLeono</aut>
+          <vrk><url ref="https://tatoeba.org/eo/sentences/show/2979652">
+          Frazo n-ro 2979652</url></vrk>
+          <lok>Tatoeba, 2014-01-12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kriminala policasistanto rigardis la rapid<tld/>ilon; &gcirc;i levi&gcirc;is nun &gcirc;is 100 kilometroj,
+        kaj li ne kura&gcirc;is altigi la rapidon
+        <fnt>
+          <aut>A. Lindgren, trad. I. Krotova</aut>
+          <vrk><url
+          ref="https://www.yumpu.com/it/document/view/7602725/majstro-detektivo-blomkvist">
+          Majstro-detektivo Blomkvist</url></vrk>
+          <lok>[vidita en 2024]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>compteur de vitesse</trd>,
+    <trd>indicateur de vitesse</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mezur.diraka0o">
@@ -1514,6 +1551,9 @@
 </art>
 <!--
 $Log$
+versio 1.149 2024/10/30 22:32:06
+Jeromo Vasxe: + rapido~ilo
+
 versio 1.148 2024/10/29 22:32:17
 Jeromo Vasxe: + gren~ilo
 
@@ -1533,8 +1573,5 @@ versio 1.142 2023/12/12 20:10:24
 revo: kor. lat. transskribo/latvaj literoj
 
 versio 1.141 2023/10/19 15:13:16
-revo: transskribo per <pr>
-
-versio 1.139 2023/08/29 17:27:17
 -->
 </vortaro>
