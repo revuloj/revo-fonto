@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mezur.xml,v 1.149 2024/10/30 22:32:06 revo Exp $">
+<art mrk="$Id: mezur.xml,v 1.150 2024/10/31 22:32:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mezur</rad>/i <fnt><bib>UV</bib></fnt>
@@ -1361,6 +1361,50 @@
   </trdgrp>
 </drv>
 
+<drv mrk="mezur.akcelo0ilo">
+  <kap>akcelo<tld/>ilo,
+  <var><kap>akcel<tld/>ilo</kap></var></kap>
+  <snc mrk="mezur.akcelo0ilo.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      <ref tip="super" cel="mezur.0ilo.TEK"><tld lit="M"/>ilo</ref>,
+      kaj indikilo de la akcelo dum movo;
+      <ref tip="sin" cel="akcelometr.0o">akcelometro</ref>:
+      <ekz>
+        la memekvilibriga mekanismo uzas giroskopojn kaj akcelo<tld/>ilojn
+        <fnt>
+          <aut>D. Touller</aut>
+          <vrk>Ser&ccirc;ado de ta&ubreve;ga veturilo</vrk>
+          <lok><url ref="http://www.esperanto-indre.com/IMG/pdf/norda_kuriero_020.pdf">
+          Norda Kuriero, 2024-03-28 (20)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akcel<tld/>ilo: instrumento por mezuri angulan a&ubreve; rektan akceladon en difinita direkto
+        <fnt>
+          <aut>E. D. Durrant</aut>
+          <vrk><url
+          ref="http://www.eventoj.hu/steb/vortaroj/aeronautika-terminaro-jarlibro-1941-iel.pdf">
+          Aerona&ubreve;tika Terminaro</url></vrk>
+          <lok>Jarlibro de Internacia Esperanto-ligo, 1941</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_a;&c_k;&c_s;&c_e;&c_l;&c_je;&c_r;&c_o;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="de">
+      <trd>Beschleunigungssensor</trd>,
+      <trd>Beschleunigungsmesser</trd>
+  </trdgrp>
+  <trd lng="en">accelerometer</trd>
+  <trd lng="es">aceler&oacute;metro</trd>
+  <trd lng="fr">acc&eacute;l&eacute;rom&egrave;tre</trd>
+  <trdgrp lng="pl">
+      <trd>akcelerometr</trd>,
+      <trd>miernik przy&sacute;pieszenia</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="mezur.angul0ilo">
   <kap>angul<tld/>ilo</kap>
   <fnt><bib>PIV1</bib></fnt>
@@ -1418,9 +1462,21 @@
     <uzo tip="fak">TEK</uzo>
     <dif>
       Aparato kiu reguligas la fluon kaj registras la kvanton de
-      trakondukata brulgaso.
+      trakondukata brulgaso:
+      <ekz>
+         fermovalvo de gas<tld/>ilo
+         <fnt>
+           <aut>-</aut>
+           <vrk><url ref="http://eo.smartmotorvalve.com/">
+           smart motor valve</url></vrk>
+           <lok>[vidita en 2024]</lok>
+         </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="gasome.0o">gasometro</ref>
+  </refgrp>
   <trd lng="be">&c_g;&c_a;&c_z;&c_a;&c_v;&c_y; &c_l;&c_ib;&c_ch;&c_y;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   <trd lng="cs">plynom&ecaron;r</trd>
   <trd lng="de">Gasz&auml;hler</trd>
@@ -1551,6 +1607,9 @@
 </art>
 <!--
 $Log$
+versio 1.150 2024/10/31 22:32:19
+Jeromo Vasxe: + akcelo~ilo
+
 versio 1.149 2024/10/30 22:32:06
 Jeromo Vasxe: + rapido~ilo
 
@@ -1570,8 +1629,5 @@ versio 1.144 2024/01/28 18:23:35
 Wolfram Diestel: +trd de
 
 versio 1.142 2023/12/12 20:10:24
-revo: kor. lat. transskribo/latvaj literoj
-
-versio 1.141 2023/10/19 15:13:16
 -->
 </vortaro>
