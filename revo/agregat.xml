@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: agregat.xml,v 1.3 2024/10/29 06:36:49 afido Exp $">
+<art mrk="$Id: agregat.xml,v 1.4 2024/11/01 08:34:37 afido Exp $">
   <kap>
     <rad>agregat</rad>/o <fnt><bib>VdE</bib></fnt>
   </kap>
@@ -60,29 +60,6 @@
     <uzo tip="fak">MIN</uzo>
     <ref tip="dif" cel="agreg.0ajxo.MIN">agrega&jcirc;o<sncref/></ref>
   </snc>
-  <snc mrk="agregat.0o.FIZ">
-    <uzo tip="fak">FIZ</uzo>
-    <uzo tip="stl">EVI</uzo>
-    <dif>
-      <ref tip="dif" cel="stat.materi0o">Materistato</ref>:
-      <ekz>
-        pri la figuro de tiu stranga esta&jcirc;o la opinioj estis diversaj, e&ccirc; &gcirc;ia <tld/>eco
-        ne estis klara anta&ubreve; ili
-        <fnt>
-          <bib>VaK</bib>
-          <lok>Deka &Ccirc;apitro</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        gasformaj molekuloj kunligi&gcirc;as, transiras al solida <tld/>a stato
-        <fnt>
-          <vrk><url ref="http://esperantaretradio.blogspot.com/2023/09/plantoj-ludas-grandan-rolon-en-la.html"
-              >Plantoj ludas grandan rolon en la formi&gcirc;o de nuboj</url></vrk>
-          <lok>Esperanta Retradio, 2023-09-21</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
   <snc mrk="agregat.0o.PED">
     <uzo tip="fak">PED</uzo>
     <uzo tip="stl">ARK</uzo>
@@ -104,12 +81,74 @@
     </dif>
   </snc>
 </drv>
+
+<drv mrk="agregat.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="agregat.0a.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Rilata al <ref cel="agregat.0o.TEK"><tld/>o<sncref/></ref>:
+      <ekz>
+        En &ccirc;iu <tld/>a bloko trovi&gcirc;as vertikala hidro<tld/>o
+        pov<klr>um</klr>a je 65 mW kaj 3 &ccirc;efundaj akvoduktoj
+        <fnt><bib>Vikio</bib>
+          <lok><url ref="https://eo.wikipedia.org/wiki/Novosibirska_hidroelektra_centralo"
+             >Novosibirska hidroelektra centralo</url></lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="agregat.0a.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      Vd &leftquot;<tld/>a stato&rightquot;.
+    </dif>
+  </snc>
+  <trd lng="ru">&c_a;&c_g;&c_r;&c_je;&c_g;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
+</drv>
+
+<drv mrk="agregat.0astato">
+  <kap><tld/>a stato,
+    <var><kap><tld/>eco</kap></var>
+  </kap>
+      <uzo tip="fak">FIZ</uzo>
+     <uzo tip="stl">EVI</uzo>
+  <snc>
+  <dif>
+    = <ref tip="dif" cel="stat.materi0o">Materistato</ref>:
+      <ekz>
+        pri la figuro de tiu stranga esta&jcirc;o la opinioj estis diversaj, e&ccirc; &gcirc;ia <tld/>eco
+        ne estis klara anta&ubreve; ili
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Deka &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        gasformaj molekuloj kunligi&gcirc;as, transiras al solida <tld/>a stato
+        <fnt>
+          <vrk><url
+          ref="http://esperantaretradio.blogspot.com/2023/09/plantoj-ludas-grandan-rolon-en-la.html"
+              >Plantoj ludas grandan rolon en la formi&gcirc;o de nuboj</url></vrk>
+          <lok>Esperanta Retradio, 2023-09-21</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    &Ccirc;i tiu termino estas evitinda, &ccirc;ar en Esperanto &gcirc;ia rilato al la radiko
+    &leftquot;<tld/>&rightquot; ne estas klara. <aut>Sergio Pokrovskij</aut>
+  </rim>
+</drv>
 </art>
 
 <!--
 $Log$
+versio 1.4 2024/11/01 08:34:37
+Sergio Pokrovskij: + ~a stato
+
 versio 1.3 2024/10/29 06:36:49
-Wolfram Diestel: +snc FIZ, iom da aranĝa/sintaksa adapto
+Wolfram Diestel: +snc FIZ, iom da aran&gcirc;a/sintaksa adapto
 
 versio 1.2 2024/10/29 01:58:04
 Sergio Pokrovskij: + =agregato.PED
