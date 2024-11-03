@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: onisk.xml,v 1.11 2023/12/28 13:31:36 revo Exp $">
+<art mrk="$Id: onisk.xml,v 1.12 2024/11/03 23:29:16 revo Exp $">
 <kap>
   <rad>onisk</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -12,14 +12,44 @@
     <dif>
       Iu el <ref tip="malprt" cel="onisk.0oj"><tld/>oj</ref>.
     </dif>
+    <ref tip="super" cel="izopod.0o">izopodo</ref>
     <ref tip="lst" cel="krust.0ulo" lst="voko:krustuloj">krustulo</ref>
   </snc>
     <trdgrp lng="be">
     <trd>&c_s;&c_t;&c_a;&c_n;&c_o;&c_zh;&c_k;&c_a;</trd>,
     <trd>&c_m;&c_a;&c_k;&c_r;&c_y;&c_c;&c_a;</trd>
   </trdgrp>
-  <trd lng="fr">cloporte</trd>
-  <trd lng="ja">&#x30EF;&#x30E9;&#x30B8;&#x30E0;&#x30B7;</trd>
+  <trdgrp lng="de">
+    <trd>Landassel</trd>,
+    <trd><klr>(komune) </klr>Kellerassel</trd>
+  </trdgrp>
+  <trd lng="el">&omikron;&ny;&jota_ton;&sigma;&kappa;&omikron;&sigma_fina;</trd>
+   <trdgrp lng="en">
+     <trd>woodlouse</trd>,
+     <trd>slater<klr tip="ind"> (woodlouse)</klr></trd>,
+     <trd>pill bug<klr> (se povas volvi&gcirc;i al pilko)</klr></trd>,
+     <trd>roly poly<klr tip="ind"> (woodlouse)</klr><klr> (se povas volvi&gcirc;i al pilko)</klr></trd>
+   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>cloporte</trd>,
+    <trd>cochon de saint Antoine</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>onisco</trd>
+    <trd>porcellino di terra<klr> (specio Armadillidium vulgare)</klr></trd>,
+    <trd>porcellino di sant'Antonio<klr> (specio Armadillidium vulgare)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12527;&#12521;&#12472;&#12512;&#12471;<klr> (se ne povas volvi&gcirc;i al pilko)</klr></trd>,
+    <trd>&#12480;&#12531;&#12468;&#12512;&#12471;<klr> (se ja povas volvi&gcirc;i al pilko)</klr></trd>,
+    <trd>&#33609;&#38795;&#34411; <pr>&#12431;&#12425;&#12375;&#12416;&#12375;</pr><klr> (se ne povas volvi&gcirc;i al pilko)</klr></trd>,
+    <trd>&#22243;&#23376;&#34411; <pr>&#12384;&#12435;&#12372;&#12416;&#12375;</pr><klr> (se ja povas volvi&gcirc;i al pilko)</klr></trd>
+  </trdgrp>
+  <trd lng="lat">oniscus</trd>
+  <trdgrp lng="nl">
+    <trd>landpissebed</trd>,
+    <trd><klr>(komune) </klr>pissebed</trd>
+  </trdgrp>
   <trd lng="pl">stonoga</trd>
   <trd lng="ro">molia zidurilor</trd>
   <trd lng="uk">&c_s;&c_t;&#x43E;&#x43D;&#x43E;&c_g;&c_a;</trd>
@@ -33,7 +63,7 @@
       Malgrandaj <ref tip="malprt" cel="krust.0uloj">krustuloj</ref>
       kun plurparta &scirc;elo kaj sep kruroparoj,
       da&ubreve;re vivantaj ekster akvo kaj kapablaj fekundi&gcirc;i tie;
-      subordo de izopodoj
+      subordo de <ref tip="malprt" cel="izopod.0oj">izopodoj</ref>
       (<trd lng="la">Oniscidea</trd>):
       <ekz>
         la el&jcirc;etado de <klr>...</klr> centoj da bruligitaj skaraboj kaj
@@ -54,12 +84,14 @@
   </trdgrp>
   <trd lng="ca">panerola</trd>
   <trd lng="de">Landasseln</trd>
-   <trdgrp lng="en">
-     <trd>woodlouse</trd>
-     <trd>pill bug</trd>
-   </trdgrp>
+  <trdgrp lng="en">
+    <trd>woodlice</trd>,
+    <trd>oniscideans</trd>,
+    <trd>Oniscidea</trd>
+  </trdgrp>
   <trd lng="fr">cloportes</trd>
-  <trd lng="it">onisco</trd>
+  <trd lng="ja">&#12527;&#12521;&#12472;&#12512;&#12471;&#20124;&#30446; <pr>&#12431;&#12425;&#12376;&#12416;&#12375;&#12354;&#12418;&#12367;</pr></trd>
+  <trd lng="nl">landpissebedden</trd>
   <trd lng="pl">stonogi</trd>
   <trd lng="ro">oniscidee</trd>
 </drv>
@@ -67,6 +99,9 @@
 
 <!--
 $Log$
+versio 1.12 2024/11/03 23:29:16
+Sam Penter: +ref; +trd
+
 versio 1.11 2023/12/28 13:31:36
 Dmitri Gabinski: + trd be
 
@@ -86,8 +121,5 @@ Revision 1.3  2013/10/22 18:10:20  revo
 Wolfram Diestel: ref-oj, prilaboris dif, germ trd
 
 Revision 1.2  2011/12/07 01:10:19  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.1  2007/03/04 17:30:27  revo
 -->
 </vortaro>
