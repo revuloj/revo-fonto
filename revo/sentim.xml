@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sentim.xml,v 1.21 2024/03/24 20:00:01 revo Exp $">
+<art mrk="$Id: sentim.xml,v 1.22 2024/11/04 07:26:31 revo Exp $">
 <kap>
-  <rad>sentiment</rad>/a
+  <rad>sentiment</rad>/o
+  <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="sentim.0o">
   <kap><tld/>o</kap>
   <snc mrk="sentim.0o.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
-      <ref tip="dif" cel="sent.0o.emocio">Sento <sncref/></ref>,
+      <ref tip="dif" cel="sent.0o.emocio">Sento<sncref/></ref>,
       precipe kuna&jcirc;o de diversaj sentoj malfacile disigeblaj:
       <ekz>
         ne pro logikaj sed pro <tld/>aj ka&ubreve;zoj;
@@ -31,10 +32,11 @@
     </trdgrp>
     <trd lng="ca">sentiment</trd>
     <trdgrp lng="de">
-      <trd>Gef&uuml;hl</trd>,
+      <trd>Empfinden</trd>,
+      <trd>Gef&uuml;hle</trd>,
       <trd>Gem&uuml;t</trd>
     </trdgrp>
-    <trd lng="hu">&eacute;rzelem</trd>    
+    <trd lng="hu">&eacute;rzelem</trd>
     <trdgrp lng="ru">
       <trd>&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;</trd>,
       <trd>&c_e;&c_m;&c_o;&c_c;&c_i;&c_ja;</trd>,
@@ -47,7 +49,7 @@
       <ref tip="sin" cel="sent.0o.inklino">sento<sncref/></ref>,
       <ref tip="dif" cel="inklin.kor0o">korinklino</ref>:
       <ekz>
-        <nom>Stella</nom> mallevis la kapon <klr>[&#x2026;]</klr> eble mi lin revidos neniam!
+        <nom>Stella</nom> mallevis la kapon <klr>[&#8230;]</klr> eble mi lin revidos neniam!
         &mdash; kiaj <tld/>aj kapricoj tio estas? &dash; demandis sinjorino <nom>Breine</nom>
         <fnt>
           <bib>FK</bib>
@@ -62,20 +64,20 @@
         </fnt>;
       </ekz>
       <ekz>
-        kio estas la amo? <klr>[&#x2026;]</klr> povas &gcirc;i esti vera <tld/>o! 
+        kio estas la amo? <klr>[&#8230;]</klr> povas &gcirc;i esti vera <tld/>o
         <fnt>
-       <aut>Manoel BORGES DOS SANTOS</aut>
+          <aut>Manoel BORGES DOS SANTOS</aut>
           <vrk><url ref="&Monato;/2000/006863.php">Poemoj</url></vrk>
           <bib>Monato</bib>
           <lok>2000/04, p. 32</lok>
-        </fnt>
+        </fnt>!
       </ekz>
      </dif>
     <trdgrp lng="de">
       <trd>Sentimentalit&auml;t</trd>,
       <trd>Gef&uuml;hlsduselei</trd>
     </trdgrp>
-    <trd lng="hu">&eacute;rzelmess&eacute;g</trd>      
+    <trd lng="hu">&eacute;rzelmess&eacute;g</trd>
     <trd lng="ru">&c_s;&c_a;&c_n;&c_t;&c_i;&c_m;&c_je;&c_n;&c_t;</trd>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_n;&c_t;&c_y;&c_m;&c_e;&c_n;&c_t;</trd>
@@ -88,7 +90,7 @@
   </trdgrp>
   <trd lng="fr">sentiment</trd>
   <trdgrp lng="it">
-    <trd>sentimento</trd>, 
+    <trd>sentimento</trd>,
     <trd>emozione</trd>
   </trdgrp>
   <trd lng="nl">gevoeligheid</trd>
@@ -100,20 +102,23 @@
     <trd>sentiment</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&c_ch;&c_u;&c_t;&c_t;&#x44F;</trd>,
-    <trd>&c_je;&#x43C;&#x43E;&c_c;&c_ib;&#x44F;</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_je;&c_zh;&c_i;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&c_ch;&c_u;&c_t;&#x43B;&c_i;&c_v;&c_ib;&c_s;&c_t;&#x44C;</trd>
+    <trd>&c_p;&c_o;&c_ch;&c_u;&c_t;&c_t;&c_ja;</trd>,
+    <trd>&c_je;&c_m;&c_o;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_zh;&c_i;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_ch;&c_u;&c_t;&c_l;&c_i;&c_v;&c_ib;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x60C5; <pr>q&#xED;ng</pr></trd>,
-    <trd>&#x60C5;&#x8ABF; <pr>q&#xED;ngdi&#xE0;o</pr></trd>,
-    <trd>&#x60C5;&#x8C03; <pr>q&#xED;ngdi&#xE0;o</pr></trd>
+    <trd>&#24773; <pr>q&iacute;ng</pr></trd>,
+    <trd>&#24773;&#35519; <pr>q&iacute;ngdi&agrave;o</pr></trd>,
+    <trd>&#24773;&#35843; <pr>q&iacute;ngdi&agrave;o</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2024/11/04 07:26:31
+Wolfram Diestel: fnt PVEF
+
 versio 1.20 2023/04/25 06:32:39
 Paul Peeraerts: @Steloj -> @Monato
 
@@ -133,8 +138,5 @@ Revision 1.13  2013/01/01 14:10:20  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2012/08/10 14:11:47  revo
-Marc Rausell: + trd ca
-
-Revision 1.11  2009/10/24 16:33:22  revo
 -->
 </vortaro>
