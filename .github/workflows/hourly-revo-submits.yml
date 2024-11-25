@@ -13,8 +13,8 @@ on:
   #
   # * estas speciala signo, do nepre uzu citilojn
   schedule:
-  - cron:  '10 * * * *'
-  #- cron:  '10 */2 * * *'
+  #- cron:  '10 * * * *'
+  - cron:  '10 */2 * * *'
   #- cron:  '10 */3 * * *'
 
 
@@ -29,8 +29,7 @@ env:
   AFIDO_TAG: 2m
   #AFIDO_TAG: 2k
   REVO_HOST: ${{ secrets.REVO_HOST }}
-  #REVO_HOST: reta-vortaro.de
-
+  
 jobs:
 
   revo-redaktoj-gh:
@@ -74,9 +73,9 @@ jobs:
         sleep 10
         docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
-        -e REVO_HOST=svagaj.steloj.de \
+        -e REVO_HOST=${{ env.REVO_HOST }} \
         -e CGI_USER=${{ secrets.CGI_USER }} \
-        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD_RS }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
