@@ -30,10 +30,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install rxp curl
-      - name: Akiru vokosgn.dtd
+      - name: Akiru vokosgn.dtd, vokoenh.dtd
         run: |
           mkdir dtd
           curl -O --output-dir dtd https://raw.githubusercontent.com/revuloj/voko-grundo/refs/heads/master/dtd/vokosgn.dtd
+          curl -O --output-dir dtd https://raw.githubusercontent.com/revuloj/voko-grundo/refs/heads/master/dtd/vokoenh.dtd
       - name: Kurigu test-skripton
         run: |
           ./tst/xml-test.sh
