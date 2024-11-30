@@ -5,6 +5,7 @@
 set -e
 
 echo "Ni testas la sintakson de agordodosieroj. Necesas instalita programo rxp."
+echo "Ni ankaŭ bezonas dtd/vokosgn.dtd por la bibliografio!"
 
 echo "cfg/bibliogr.xml"
 rxp -Vs cfg/bibliogr.xml
