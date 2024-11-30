@@ -21,8 +21,23 @@ env:
 
 
 jobs:
+  testo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prenu 
+        uses: actions/checkout@v4
+      - name: Instalu XML-kontrolilon 'rxp'
+        run: |
+          sudo apt-get update
+          sudo apt-get install rxp
+      - name: Kurigu test-skripton
+        run: |
+          ./tst/xml-test.sh
 
   revo-aktualigo:
+    # Certigu ke testo estis sukcesa antaŭ puŝi la procezujon
+    needs: testo
+    
     runs-on: ubuntu-latest
 
     steps:
