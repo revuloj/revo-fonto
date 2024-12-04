@@ -1,42 +1,103 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: basen.xml,v 1.38 2024/10/07 18:36:25 revo Exp $">
+<art mrk="$Id: basen.xml,v 1.39 2024/12/04 08:35:50 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>basen</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>basen</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="basen.0o">
   <kap><tld/>o</kap>
   <snc mrk="basen.0o.HOR">
     <uzo tip="fak">HOR</uzo>
     <dif>
-      Iom granda fosa&jcirc;o por teni akvon:
+      Iom granda <ref tip="super" cel="fos.0ajxo">fosa&jcirc;o</ref> por teni akvon:
       <ekz>
         inter la du muroj vi faris <tld/>on por la akvo de la malnova
         lageto
-        <fnt><bib>MT</bib>, <lok>&Jes; 22:11</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Jes; 22:11</lok></fnt>;
+      </ekz>
+      <ekz>
+        en la mezo de la granda salono batis alta fontano <klr>[&#8230;]</klr> en la granda
+        <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i celis na&gcirc;i almena&ubreve; dek du fojojn la longecon de la <tld/>o
+        <fnt>
+          <bib>MJA</bib>
+          <lok>Parto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        okazas en Finnlando anka&ubreve; vintraj na&gcirc;okonkursoj en sub&ccirc;ielaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url ref="&Monato;/2009/009629.php"
+              >Vintra banado</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kadavrosimile li &scirc;vebis sur la varma akvo de la kuracbaneja <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2004/008358.html"
+              >Kuracbaneje</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="lag.0eto">lageto</ref>,
+      <ref cel="vask1.0o">vasko</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Becken <klr>(Bassin)</klr></trd>,
+      <trd>Bassin</trd>
+    </trdgrp>
     <trd lng="es">cisterna</trd>
     <trd lng="hu">medence</trd>
     <trd lng="it">bacino <klr tip="amb">(d'acqua)</klr></trd>
     <trd lng="nl">bassin</trd>
     <trd lng="pl">basen</trd>
-  <trdgrp lng="pt">
-    <trd>lago <klr tip="amb">(de parque, jardim)</klr></trd>,
-    <trd>dique</trd>,
-    <trd>a&ccedil;ude</trd>,
-    <trd>represa</trd>
-  </trdgrp>
+    <trdgrp lng="pt">
+      <trd>lago <klr tip="amb">(de parque, jardim)</klr></trd>,
+      <trd>dique</trd>,
+      <trd>a&ccedil;ude</trd>,
+      <trd>represa</trd>
+    </trdgrp>
     <trd lng="ru">&c_b;&c_a;&c_s;&c_s;&c_je;&c_j;&c_n;</trd>
     <trd lng="sk">baz&eacute;n</trd>
   </snc>
   <snc mrk="basen.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      Regiono el kiu kolekti&gcirc;as akvo kunfluanta al unu rivero,
+      <ref tip="super" cel="region.0o.land">Regiono</ref> el kiu kolekti&gcirc;as akvo kunfluanta al unu rivero,
       lago a&ubreve; maro:
+      <ekz>
+        senna&gcirc;ilaj focenoj <klr>[&#8230;]</klr> vivas en la meza kaj malsupra <tld/>oj de la
+        Jangzi-rivero
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;ina civilizacio fontis de la <tld/>o de la Flava Rivero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alice Liu</aut>
+          <vrk><url ref="&Monato;/2009/009901.php"
+              >Enigmoj de Sanxingdui</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         koncepte, Siberio estas la Azia parto de la akvokolekta
         <tld/>o de la Arkta Oceano, la Orienta Azio ku&scirc;as
@@ -45,6 +106,8 @@
         de la du oceanoj.
       </ekz>
     </dif>
+    <ref tip="vid" cel="val.0o">valo</ref>
+    <trd lng="de">Becken <klr>(Geog.)</klr></trd>
     <trd lng="es">cuenca</trd>
     <trd lng="hu">v&iacute;zgy&udblac;jt&odblac; <ind>medence</ind></trd>
     <trd lng="it">bacino <klr tip="amb"> (idrografico)</klr></trd>
@@ -66,25 +129,29 @@
     <trd lng="pt">doca</trd>
   </snc>
   <rim>
-    PIV rimarkigas:
-    <ctl>La signifo <em>pelvo</em> [aperinta en PV] estas nek
-    oficiala nek rekomendinda</ctl>.
+    Pri la signifo &leftquot;pelvo&rightquot; aperinta en PV, en PIV oni rimarkigas:
+    <ctl>Ne uzu baseno kun la senco de pelvo</ctl>.
   </rim>
   <trd lng="be">&c_b;&c_a;&c_s;&c_e;&c_j;&c_n;</trd>
-  <trd lng="bo">&#xF42;&#xF51;&#xF74;&#xF44;&#xF0B;&#xF55;&#xF53;&#xF0B;</trd>
-  <trd lng="de">Becken</trd>
+  <trd lng="bo">&t_ga;&t_da;&t_shabchu;&t_nga;&t_tsheg;&t_pha;&t_na;&t_tsheg;</trd>
+  <trdgrp lng="cs">
+    <trd>baz&eacute;n</trd>,
+    <trd>kotlina</trd>,
+    <trd>povod&iacute;</trd>,
+    <trd>p&aacute;nev</trd>
+  </trdgrp>
   <trd lng="en">basin</trd>
   <trd lng="fr">bassin</trd>
   <trdgrp lng="he">
-    <trd>&#x5D0;&#x5B7;&#x5D2;&#x5B8;&#x5DF;</trd>,
-    <trd>&#x5D1;&#x5E8;&#x5D9;&#x5DB;&#x5D4;</trd>
+    <trd>&alef;&#1463;&gimel;&#1464;&fnun;</trd>,
+    <trd>&bet;&resh;&yod;&kaf;&he;</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x6CC9;&#x6C34;  <pr>&#x305B;&#12435;&#12377;&#12356;</pr></trd>,
-    <trd>&#x305F;&#12417;&#x6C60;  <pr>&#x305F;&#12417;&#12356;&#12369;</pr></trd>,
-    <trd>&#33337;&#x6E9C;&#x307E;&#x308A;  <pr>&#12405;&#x306A;&#12384;&#x307E;&#x308A;</pr></trd>,
-    <trd>&#x6D41;&#x57DF;  <pr>&#x308A;&#12421;&#12358;&#12356;&#x304D;</pr></trd>,
-    <trd>&#x76C6;&#22320;  <pr>&#x307C;&#12435;&#12385;</pr></trd>
+    <trd>&#27849;&#27700; <pr>&#12379;&#12435;&#12377;&#12356;</pr></trd>,
+    <trd>&#12383;&#12417;&#27744; <pr>&#12383;&#12417;&#12356;&#12369;</pr></trd>,
+    <trd>&#33337;&#28316;&#12414;&#12426; <pr>&#12405;&#12394;&#12384;&#12414;&#12426;</pr></trd>,
+    <trd>&#27969;&#22495; <pr>&#12426;&#12421;&#12358;&#12356;&#12365;</pr></trd>,
+    <trd>&#30406;&#22320; <pr>&#12412;&#12435;&#12385;</pr></trd>
   </trdgrp>
   <trd lng="pl">basen</trd>
   <trdgrp lng="ro">
@@ -98,18 +165,12 @@
   <trd lng="tr">havuz</trd>
   <trdgrp lng="sk">
     <trd>kotlina</trd>,
-    <trd>vodn&#xE1; n&#xE1;dr&#x17E;</trd>,
+    <trd>vodn&aacute; n&aacute;dr&zcaron;</trd>,
     <trd>vodojem</trd>
   </trdgrp>
-  <trdgrp lng="cs">
-    <trd>baz&#xE9;n</trd>,
-    <trd>kotlina</trd>,
-    <trd>povod&#xED;</trd>,
-    <trd>p&#xE1;nev</trd>
-  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_b;&c_a;&c_s;&c_je;&c_j;&#x43D;</trd>,
-    <trd>&c_v;&#x43E;&c_d;&#x43E;&c_j;&#x43C;</trd>
+    <trd>&c_b;&c_a;&c_s;&c_je;&c_j;&c_n;</trd>,
+    <trd>&c_v;&c_o;&c_d;&c_o;&c_j;&c_m;</trd>
   </trdgrp>
 </drv>
 
@@ -127,11 +188,19 @@
           </vrk>,
           <lok><url ref="http://www.volny.cz/toutf8.cs/aeh-ikeh/informilo/INFORMILO_2003_7_8.htm ">
           Informilo 2003, 7-8</url></lok>
-        </fnt>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li prenis &scirc;in en siaj brakoj kaj &scirc;ajnigis, ke li &jcirc;etos &scirc;in en la na&gcirc;<tld/>on,
+        kaj &scirc;i krietis kaj alkro&ccirc;is sin al li
+        <fnt>
+          <bib>MJA</bib>
+          <lok>Parto Tria</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <trd lng="zh">&#x6E38;&#x6CF3;&#x6C60; <pr>y&#xF3;uy&#x1D2;ngch&#xED;</pr></trd>
-</snc>
+    <trd lng="zh">&#28216;&#27891;&#27744; <pr>y&oacute;uy&#466;ngch&iacute;</pr></trd>
+  </snc>
   <trd lng="be">&c_p;&c_l;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_y; <ind>&c_b;&c_a;&c_s;&c_e;&c_j;&c_n;</ind></trd>
   <trd lng="de">Schwimmbecken</trd>
   <trd lng="en">swimming pool</trd>
@@ -145,13 +214,16 @@
     <trd>p&lstroke;ywalnia</trd>
   </trdgrp>
   <trd lng="tr">y&uuml;zme havuzu</trd>
-  <trd lng="uk">&#x43F;&#x43B;&c_a;&c_v;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j; &c_b;&c_a;&c_s;&c_je;&c_j;&#x43D;</trd>
+  <trd lng="uk">&c_p;&c_l;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_b;&c_a;&c_s;&c_je;&c_j;&c_n;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.39 2024/12/04 08:35:50
+Wolfram Diestel: JED, ekz-oj
+
 versio 1.38 2024/10/07 18:36:25
-Vito Redsky: + trd ro 
+Vito Redsky: + trd ro
 
 versio 1.36 2023/10/14 08:39:48
 revo: transskribo per <pr>
@@ -169,8 +241,5 @@ Revision 1.26  2014/02/24 02:10:16  revo
 Carlos Garcia: trd+ es -o nagx-o
 
 Revision 1.25  2014/02/17 13:10:19  revo
-Jessica Grasso: +tr en
-
-Revision 1.24  2014/01/13 07:10:18  revo
 -->
 </vortaro>
