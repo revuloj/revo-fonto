@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: zaratusxtr.xml,v 1.16 2024/07/23 21:28:07 revo Exp $">
+<art mrk="$Id: zaratusxtr.xml,v 1.17 2024/12/07 10:30:10 revo Exp $">
 <kap>
-  <rad>Zaratu&scirc;tr</rad>/o <fnt><bib>PIV1</bib></fnt>
+  <rad>Zaratu&scirc;tr</rad>/o <fnt><bib>PIV1</bib></fnt>,
+  <var><kap><rad var="o">Zoroastr</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="zaratusxtr.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap><tld var="o"/>o</kap></var></kap>
   <snc mrk="zaratusxtr.0o.PERS">
     <uzo tip="fak">PERS</uzo>
     <uzo tip="fak">REL</uzo>
@@ -15,6 +16,16 @@
       (proksimume 660 a.&nbsp;K. &ndash; proksimume 583 a.&nbsp;K.),
       reforminto de la antikva irana religio, kiu sekve i&gcirc;is
       <ref tip="vid" cel="mazda.0ismo.REL">mazdaismo</ref>:
+      <ekz>
+        mi ja iom profunde studis la historion kaj teologion de la <tld var="o"/>a religio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="&Monato;/2008/009402.php"
+              >Socipolitika satiro</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         bahaanoj kredas je procezo, kiun ili nomas &leftquot;progresa revelacio&rightquot;,
         agnoskante &ccirc;iujn fondintojn de la grandaj mondreligioj, inkluzive
@@ -33,7 +44,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &leftquot;Tiele parolis Zaratu&scirc;tro: Libro por &Ccirc;iu kaj Neniu&rightquot; estas poeta-filozofia
+        &leftquot;Tiele parolis <tld/>o: Libro por &Ccirc;iu kaj Neniu&rightquot; estas poeta-filozofia
         verko de la germana filozofo <nom>Friedrich Nietzsche</nom>
         <fnt>
           <bib>Viki</bib>
@@ -86,16 +97,45 @@
     <trd>Zaratustra</trd>,
     <trd>Zoroastro</trd>
   </trdgrp>
-  <trd lng="uk">&c_Z;&#x43E;&c_r;&c_a;&c_t;&c_u;&c_sh;&c_t;&c_r;&c_a;</trd>
+  <trd lng="uk">&c_Z;&c_o;&c_r;&c_a;&c_t;&c_u;&c_sh;&c_t;&c_r;&c_a;</trd>
   <trdgrp lng="zh">
-    <trd>&#29712;&#x7F57;&#x4E9A;&#x65AF;&#29305; <pr>Su&#x1D2;lu&#xF3;y&#xE0;s&#x12B;t&#xE8;</pr></trd>,
-    <trd>&#29795;&#x7F85;&#x4E9E;&#x65AF;&#29305; <pr>Su&#x1D2;lu&#xF3;y&#xE0;s&#x12B;t&#xE8;</pr></trd>
+    <trd>&#29712;&#32599;&#20122;&#26031;&#29305; <pr>Su&#466;lu&oacute;y&agrave;s&imacron;t&egrave;</pr></trd>,
+    <trd>&#29795;&#32645;&#20126;&#26031;&#29305; <pr>Su&#466;lu&oacute;y&agrave;s&imacron;t&egrave;</pr></trd>
   </trdgrp>
 </drv>
+
+<drv mrk="zaratusxtr.0ismo">
+  <kap>
+    <tld/>ismo, <var><kap><tld var="o"/>ismo</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      La religio fondita de <tld/>o; <ref tip="dif" cel="mazda.0ismo">mazdaismo</ref>:
+      <ekz>
+        tiutempe en nia regiono estis disvasti&gcirc;intaj <tld var="o"/>ismo, budhismo, mani&hcirc;eismo
+        kaj kristanismo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dina Newman kaj Firda&ubreve;s &Scirc;ukurov</aut>
+          <vrk><url ref="&Monato;/2008/009332.php"
+              >Budhismo en Ta&gcirc;ikio</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Zoroastrismus</trd>
+  <trd lng="en">zoroastrianism</trd>
+  <trd lng="fr">zoroastrisme</trd>
+</drv>
+
 </art>
 
 <!--
 $Log$
+versio 1.17 2024/12/07 10:30:10
+Wolfram Diestel: +var, +~ismo
+
 versio 1.16 2024/07/23 21:28:07
 Vito Redsky: + trd pl
 
@@ -115,8 +155,5 @@ Revision 1.8  2009/03/10 17:31:04  revo
 Wieland Pusch: +trd bg
 
 Revision 1.7  2009/03/09 17:30:43  revo
-Antonio Codazzi: +trd it
-
-Revision 1.6  2005/05/10 16:33:14  revo
 -->
 </vortaro>
