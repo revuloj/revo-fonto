@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aritme.xml,v 1.28 2023/10/28 08:33:08 revo Exp $">
+<art mrk="$Id: aritme.xml,v 1.29 2024/12/11 20:32:03 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>aritmetik</rad>/o
@@ -15,7 +15,7 @@
       Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
       studanta operaciojn super entjeroj kaj racionaloj:
       <ekz>
-        li venigis hejmen junan instruiston, kiu dum kelkaj semajnoj <klr>[&#x2026;]</klr>
+        li venigis hejmen junan instruiston, kiu dum kelkaj semajnoj <klr>[&#8230;]</klr>
         multe progresigis Karlon en la scio pri <tld/>o kaj ortografio
         <fnt>
           <aut>E. Privat</aut>
@@ -56,12 +56,14 @@
     <trd>sz&aacute;mtan</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x7B97;&#x6570;  <pr>&#x3055;&#x3093;&#x3059;&#x3046;</pr></trd>,
-    <trd>&#x7B97;&#x8853;  <pr>&#x3055;&#x3093;&#x3058;&#x3085;&#x3064;</pr></trd>
+    <trd>&#x7B97;&#25968;  <pr>&#12373;&#12435;&#12377;&#12358;</pr></trd>,
+    <trd>&#x7B97;&#34899;  <pr>&#12373;&#12435;&#12376;&#12421;&#12388;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>arytmetyka</trd>,
-    <trd>teoria liczb</trd></trdgrp>
+    <trd>teoria liczb</trd>
+  </trdgrp>
+  <trd lng="ro">aritmetic&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_a;&c_r;&c_i;&c_f;&c_m;&c_je;&c_t;&c_i;&c_k;&c_a;</trd>,
     <trd>&c_t;&c_je;&c_o;&c_r;&c_i;&c_ja; &c_ch;&c_i;&c_s;&c_je;&c_l;</trd>
@@ -88,10 +90,10 @@
       </ekz>
     </dif>
     <trdgrp lng="zh">
-    <trd>&#x6570;&#x5B66;&#x4E0A; <pr>sh&#xF9;xu&#xE9;sh&#xE0;ng</pr></trd>,
-    <trd>&#x6578;&#x5B78;&#x4E0A; <pr>sh&#xF9;xu&#xE9;sh&#xE0;ng</pr></trd>,
+    <trd>&#25968;&#x5B66;&#x4E0A; <pr>sh&#xF9;xu&#xE9;sh&#xE0;ng</pr></trd>,
+    <trd>&#25976;&#x5B78;&#x4E0A; <pr>sh&#xF9;xu&#xE9;sh&#xE0;ng</pr></trd>,
     <trd>&#x7B97;&#x672F;&#x4E0A; <pr>su&#xE0;nsh&#xF9;sh&#xE0;ng</pr></trd>,
-    <trd>&#x7B97;&#x8853;&#x4E0A; <pr>su&#xE0;nsh&#xF9;sh&#xE0;ng</pr></trd>
+    <trd>&#x7B97;&#34899;&#x4E0A; <pr>su&#xE0;nsh&#xF9;sh&#xE0;ng</pr></trd>
   </trdgrp>
 </snc>
   <snc>
@@ -111,6 +113,7 @@
     <trd>sz&aacute;mtani</trd>
   </trdgrp>
   <trd lng="pl">arytmetyczny</trd>
+  <trd lng="ro">aritmetic&abreve;</trd>
   <trd lng="ru">&c_a;&c_r;&c_i;&c_f;&c_m;&c_je;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   <trd lng="sk">aritmetick&yacute;</trd>
 </drv>
@@ -129,11 +132,12 @@
   <trd lng="be">&c_v;&c_y;&c_k;&c_o;&c_n;&c_v;&c_a;&c_c;&c_mol; &c_a;&c_r;&c_y;&c_t;&c_m;&c_e;&c_t;&c_y;&c_ch;&c_n;&c_y;&c_ja; &c_a;&c_p;&c_e;&c_r;&c_a;&c_c;&c_y;&c_ib;</trd>
   <trd lng="fr">calculer</trd>
   <trd lng="hu">aritmetikai m&udblac;veletet v&eacute;gez</trd>
-  <trd lng="sk">po&ccaron;&iacute;ta&tcaron;</trd>
+  <trd lng="pl">wykonywa&cacute; operacje  <ind>arytmetyczne</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_ja;&c_t;&c_mol; &c_a;&c_r;&c_i;&c_f;&c_m;&c_je;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_je; &c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_i;</trd>
   </trdgrp>
+  <trd lng="sk">po&ccaron;&iacute;ta&tcaron;</trd>
 </drv>
 
 <drv mrk="aritme.0ilo">
@@ -158,11 +162,14 @@
       <trd>aritmetikai egys&eacute;g</trd>,
       <trd>AU</trd>
     </trdgrp>
-    <trd lng="sk">aritmeticko logick&aacute; jednotka</trd>
   </snc>
   <trdgrp lng="en">
     <trd>arithmetic and logical unit</trd>,
     <trd>ALU</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>jednostka arytmetyczno-logiczna</trd>,
+    <trd>koprocesor  <ind>arytmetyczny</ind></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_a;&c_r;&c_i;&c_f;&c_m;&c_je;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
@@ -171,10 +178,14 @@
     &c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_A;&c_L;&c_U;</trd>
   </trdgrp>
+  <trd lng="sk">aritmeticko logick&aacute; jednotka</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.29 2024/12/11 20:32:03
+Vito Redsky: + trd pl ro
+
 versio 1.27 2023/10/13 16:46:48
 revo: transskribo per <pr>
 
@@ -194,8 +205,5 @@ Revision 1.16  2004/03/30 16:32:55  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.15  2003/03/10 17:32:46  revo
-Marc Bavant: ~o : mod trd en
-
-Revision 1.14  2003/01/02 17:43:51  revo
 -->
 </vortaro>
