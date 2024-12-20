@@ -1,12 +1,37 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: retroa.xml,v 1.19 2023/10/20 19:20:37 revo Exp $">
+<art mrk="$Id: retroa.xml,v 1.20 2024/12/20 08:32:11 revo Exp $">
 <kap>
-  <rad>retroaktiv</rad>/a <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <rad>retroaktiv</rad>/a <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="retroa.0a">
   <kap><tld/>a</kap>
+  <snc mrk="retroa.0a.PSI">
+    <uzo tip="fak">PSI</uzo>
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      Influo de posta lernado al anta&ubreve;e lernita:
+      <ekz>
+        <tld/>a interfero;
+      </ekz>
+      <ekz>
+        <tld/>a kuplo <klr>(kp <ref cel="retrokupl.0o.kritiko">retrokuplo</ref>)</klr>
+        <fnt>
+          <vrk><url ref="http://www.eventoj.hu/steb/vortaroj/pedagogia-terminaro-malovec.htm"
+              >Pedagogia terminaro</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> sentis <tld/>an tremeton, kiu lin frostigis &gcirc;is koro,
+        pripensante la dan&gcirc;eron kiun, pro unu minuto de prokrasto, li estus riskinta
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deka</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <snc mrk="retroa.0a.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
@@ -28,6 +53,7 @@
         </fnt>.
       </ekz>
     </dif>
+  <trd lng="de">r&uuml;ckwirkend</trd>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_t;&c_r;&c_a;&c_a;&c_k;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>
   <trd lng="bg">&c_s; <ind>&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_a; &c_s;&c_i;&c_l;&c_a;</ind></trd>
@@ -36,7 +62,10 @@
     <trd>se zp&ecaron;tnou &uacute;&ccaron;innost&aacute; <klr>(adj.)</klr></trd>,
     <trd>zp&ecaron;tn&ecaron; p&uring;sob&iacute;c&iacute;</trd>
   </trdgrp>
-  <trd lng="de">r&uuml;ckwirkend</trd>
+  <trdgrp lng="de">
+    <trd>retroaktiv</trd>,
+    <trd>r&uuml;ckl&auml;ufig</trd>
+  </trdgrp>
   <trd lng="en">retroactive</trd>
   <trd lng="fr">r&eacute;troactif</trd>
   <trdgrp lng="hu">
@@ -44,8 +73,8 @@
     <trd>visszahat&oacute;</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x9061;&#x53CA;&#x529B;&#x306E;&#x3042;&#x308B;  <pr>&#x305D;&#x304D;&#x3085;&#x3046;&#x3061;&#x304B;&#x3089;&#x306E;&#x3042;&#x308B;</pr></trd>,
-    <trd>&#x904E;&#x53BB;&#x306B;&#x3055;&#x304B;&#x306E;&#x307C;&#x3063;&#x3066;&#x9069;&#x7528;&#x3055;&#x308C;&#x308B;  <pr>&#x304B;&#x3053;&#x306B;&#x3055;&#x304B;&#x306E;&#x307C;&#x3063;&#x3066;&#x3066;&#x304D;&#x3088;&#x3046;&#x3055;&#x308C;&#x308B;</pr></trd>
+    <trd>&#36961;&#21450;&#21147;&#12398;&#12354;&#12427;  <pr>&#12381;&#12365;&#12421;&#12358;&#12385;&#12363;&#12425;&#12398;&#12354;&#12427;</pr></trd>,
+    <trd>&#36942;&#21435;&#12395;&#12373;&#12363;&#12398;&#12412;&#12387;&#12390;&#36969;&#29992;&#12373;&#12428;&#12427;  <pr>&#12363;&#12371;&#12395;&#12373;&#12363;&#12398;&#12412;&#12387;&#12390;&#12390;&#12365;&#12424;&#12358;&#12373;&#12428;&#12427;</pr></trd>
   </trdgrp>
   <trd lng="nl">met <ind>terugwerkende kracht</ind></trd>
   <trdgrp lng="pl">
@@ -64,6 +93,9 @@
 </art>
 <!--
 $Log$
+versio 1.20 2024/12/20 08:32:11
+Wolfram Diestel: fnt JED, +snc PSI/PED
+
 versio 1.19 2023/10/20 19:20:37
 revo: transskribo per <pr>
 
@@ -83,8 +115,5 @@ Revision 1.12  2013/09/11 07:10:14  revo
 Joop Eggen: +trd bg en
 
 Revision 1.11  2011/06/03 22:10:08  revo
-Jeromo Vasxe: + fak + trd fr
-
-Revision 1.10  2006/02/20 17:33:55  revo
 -->
 </vortaro>
