@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxes.xml,v 1.38 2024/05/14 06:32:10 revo Exp $">
+<art mrk="$Id: cxes.xml,v 1.39 2024/12/26 20:28:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;es</rad>/i
@@ -12,7 +12,7 @@
   <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
-      Ne esti plu, ne agi plu, ne da&ubreve;ri plu, interrompi&gcirc;i:
+      Ne esti plu, ne agi plu, ne <ref tip="ant" cel="dauxr.0i">da&ubreve;ri</ref> plu, interrompi&gcirc;i:
       <ekz>
         la infano ne <tld/>as petoli
         <fnt><bib>F</bib>, <lok>&FE; 20</lok></fnt>;
@@ -346,7 +346,7 @@
   <kap><tld/>i&gcirc;i</kap>
   <snc>
     <dif>
-      <klr>(io)</klr> Ne da&ubreve;ri pro ia ekstera ka&ubreve;zo:
+      <klr>(io)</klr> Ne <ref tip="ant" cel="dauxr.0i">da&ubreve;ri</ref> pro ia ekstera ka&ubreve;zo:
       <ekz>
         <tld/>i&gcirc;is la pluvo
         <fnt><bib>MT</bib>, <lok>&Gen; 8:2</lok></fnt>;
@@ -424,7 +424,9 @@
   <kap>sen<tld/>a</kap>
   <snc>
     <dif>
-      Da&ubreve;re, konstante, neinterrompita:
+      <ref tip="sin" cel="dauxr.0a.dauxranta">Da&ubreve;ra</ref>, <ref tip="sin"
+      cel="kontin3.0a">kontinua</ref>,
+      <ref tip="sin" cel="romp.seninter0a">neinterrompita</ref>:
       <ekz>
         mi havas grandan mal&gcirc;ojon kaj sen<tld/>an doloron en la koro
         <fnt>
@@ -482,6 +484,10 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>unaufh&ouml;rlich</trd>, <trd>unendlich</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>never ending</trd>,
+    <trd>nonstop</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>continuo</trd>,
@@ -549,13 +555,21 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="armistic.0o">armistico</ref>,
+      <ref cel="pauxz.milit0o">militpa&ubreve;zo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_m;&c_ib;&c_r;&c_e;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_u; &c_v;&c_a;&c_j;&c_n;&c_je;)</klr></trd>
   <trdgrp lng="de">
     <trd>Feuerpause</trd>,
-    <trd>Waffenruhe</trd>
+    <trd>Waffenruhe</trd>,
+    <trd>Waffenstillstand</trd>
   </trdgrp>
-  <trd lng="en">ceasefire</trd>
+  <trdgrp lng="en">
+    <trd>ceasefire</trd>,
+    <trd>truce</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>alto al fuego</trd>,
     <trd>cese al fuego</trd>
@@ -587,6 +601,9 @@
 </art>
 <!--
 $Log$
+versio 1.39 2024/12/26 20:28:36
+Wolfram Diestel: ref-oj, +trd de, en
+
 versio 1.38 2024/05/14 06:32:10
 Eko Nur Syah Hidayat: +trd id
 
@@ -606,8 +623,5 @@ versio 1.31 2023/04/11 05:36:21
 aktualigo Monato-URL
 
 versio 1.30 2023/03/31 06:30:37
-Wolfram Diestel: ~i, sen~a: ekz-oj
-
-versio 1.29 2022/08/02 22:33:42
 -->
 </vortaro>
