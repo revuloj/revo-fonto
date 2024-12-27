@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: infim.xml,v 1.26 2023/11/19 10:22:13 revo Exp $">
+<art mrk="$Id: infim.xml,v 1.27 2024/12/27 08:33:11 revo Exp $">
 <kap>
   <rad>infim</rad>/o
 </kap>
@@ -12,7 +12,7 @@
   <snc>
     <dif>
       <klr>(de subaro <frm am="bb A"><g>A</g></frm> de
-      <ref cel="ar.orda0o">orda aro</ref> <frm am="(bb E,le)">(<g>E</g>,&#x2264;)</frm>)</klr>
+      <ref cel="ar.orda0o">orda aro</ref> <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>)</klr>
       La <ref tip="super" cel="maksim1.0o.MAT">maksimumo</ref> de la aro
       de &gcirc;iaj subaj <ref cel="bar.0o.MAT">baroj</ref>;
       alidire: la plej granda suba baro; simb. <frm am="&quot;inf&quot; bb A">inf <g>A</g></frm>:
@@ -34,6 +34,7 @@
       kiel en <fnt><bib>EKV</bib><lok>&para;252</lok></fnt>.
     </rim>
   </snc>
+  <trd lng="be">&c_m;&c_ja;&c_zh;&c_a; &c_n;&c_ib;&c_zh;&c_n;&c_ja;&c_ja; &c_d;&c_a;&c_k;&c_l;&c_a;&c_d;&c_n;&c_a;&c_ja;</trd>
   <trd lng="cs">infimum</trd>
   <trdgrp lng="de">
     <trd>Infimum</trd>,
@@ -47,10 +48,10 @@
     <trd>&iacute;nfimo <klr tip="amb">(mat.)(subst.)</klr></trd>,
     <trd>extremo inferior <klr tip="amb">(mat.)</klr></trd>
   </trdgrp>
-  <trd lng="ru">&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja; &c_n;&c_i;&c_zh;&c_n;&c_ja;&c_ja; 
+  <trd lng="ru">&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja; &c_n;&c_i;&c_zh;&c_n;&c_ja;&c_ja;
   <ind>&c_g;&c_r;&c_a;&c_n;&c_mol;</ind></trd>
   <trd lng="sk">infimum</trd>
-  <trd lng="uk">&#x442;&#x43E;&#x447;&#x43D;&#x430; &#x43D;&#x438;&#x436;&#x43D;&#x44F; &#x43C;&#x435;&#x436;&#x430;</trd>
+  <trd lng="uk">&c_t;&#x43E;&c_ch;&#x43D;&c_a; &#x43D;&c_i;&c_zh;&#x43D;&#x44F; &#x43C;&c_je;&c_zh;&c_a;</trd>
   <trd lng="zh">&#x4E0B;&#x786E;&#x754C; <pr>xi&#xE0;qu&#xE8;ji&#xE8;</pr></trd>
 </drv>
 
@@ -78,7 +79,7 @@
         La <ref cel="infim.0o"><tld/>o</ref> de la aro de punktoj,
         <ref cel="adher.0a.bildigo">adheraj</ref> al
         <frm am="f"><k>f</k></frm> &ccirc;e <frm am="a"><k>a</k></frm>;
-        simb. <frm am="&quot;lim inf&quot;_(x to a)f(x)">lim inf<sub><k>x</k>&#x2192;<k>a</k></sub>
+        simb. <frm am="&quot;lim inf&quot;_(x to a)f(x)">lim inf<sub><k>x</k>&#8594;<k>a</k></sub>
         <k>f</k>(<k>x</k>)</frm>.
       </dif>
       <refgrp tip="ant">
@@ -86,6 +87,7 @@
       </refgrp>
     </subsnc>
   </snc>
+  <trd lng="be">&c_l;&c_ib;&c_m;&c_ib;&c_t; &c_n;&c_ib;&c_zh;&c_n;&c_ib;</trd>
   <trdgrp lng="de">
     <trd>unterer <ind>Limes</ind></trd>,
     <trd>limes inferior</trd>
@@ -111,7 +113,10 @@
 </drv>
 </art>
 <!--
-$Log: infim.xml,v $
+$Log$
+versio 1.27 2024/12/27 08:33:11
+Dmitri Gabinski: + trd be
+
 versio 1.24 2020/02/15 00:10:35
 Wolfram Diestel: formuloj per am
 
@@ -131,8 +136,5 @@ Revision 1.19  2004/01/21 19:01:42  revo
 Jozefo Horvath: +trd hu
 Revision 1.18  2003/05/13 16:32:53  revo
 Marc Bavant: ~o: mod ekz
-Revision 1.17  2003/05/09 16:31:27  revo
-Marc Bavant: ~o: mod trd ru
-Revision 1.16  2003/03/05 17:34:34  revo
 -->
 </vortaro>
