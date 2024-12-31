@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: barel.xml,v 1.42 2024/12/13 10:31:33 revo Exp $">
+<art mrk="$Id: barel.xml,v 1.43 2024/12/31 22:27:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>barel</rad>/o <fnt><bib>UV</bib></fnt>
@@ -72,14 +72,14 @@
       <trd>tonneau</trd>
     </trdgrp>
     <trd lng="hu">hord&oacute;</trd>
-    <trdgrp lng="pl">
-      <trd>beczka</trd>,
-      <trd>bary&lstroke;ka</trd>
-    </trdgrp>
     <trdgrp lng="it">
       <trd>barile</trd>,
       <trd>fusto<klr> (botte)</klr></trd>,
       <trd>botte</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>beczka</trd>,
+      <trd>bary&lstroke;ka</trd>
     </trdgrp>
     <trdgrp lng="pt">
       <trd>barril</trd>,
@@ -87,6 +87,7 @@
       <trd>barrica</trd>,
       <trd>casco <klr tip="amb">(vasilha)</klr></trd>
     </trdgrp>
+    <trd lng="ro">butoi</trd>
     <trd lng="ru">&c_b;&c_o;&c_ch;&c_k;&c_a;</trd>
     <trd lng="sk">sud</trd>
     <trd lng="zh">&#23631;&#34109;&#32592; <pr>p&iacute;ngb&igrave;gu&agrave;n</pr></trd>
@@ -199,6 +200,10 @@
   <trd lng="hu">k&aacute;d&aacute;rm&udblac;hely</trd>
   <trd lng="it">bottificio</trd>
   <trd lng="ja">&#27197;&#24037;&#22580;  <pr>&#12383;&#12427;&#12371;&#12358;&#12376;&#12423;&#12358;</pr></trd>
+  <trdgrp lng="pl">
+    <trd>wytw&oacute;rnia  <ind>beczek</ind></trd>,
+    <trd>pracownia bednarska</trd>
+  </trdgrp>
   <trd lng="ru">&c_b;&c_o;&c_n;&c_d;&c_a;&c_r;&c_n;&c_ja;</trd>
   <trd lng="sk">v&yacute;rob&ncaron;a sudov</trd>
   <trd lng="uk">&c_b;&c_o;&c_n;&c_d;&c_a;&c_r;&c_n;&c_ja;</trd>
@@ -442,7 +447,7 @@
     <trd>imbottare</trd>
   </trdgrp>
   <trdgrp lng="pl">
-    <trd>w&lstroke;o&zdot;y&cacute; do <ind>beczki</ind></trd>
+    <trd>wla&cacute; do <ind>beczki</ind></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_m;&c_je;&c_s;&c_t;&c_i;&c_t;&c_mol; &c_v;
@@ -482,9 +487,7 @@
   <trd lng="fr">tirer<klr tip="ind"> (du tonneau)</klr></trd>
   <trd lng="hu">hord&oacute;b&oacute;l kit&ouml;lt</trd>
   <trd lng="it">spillare</trd>
-  <trdgrp lng="pl">
-    <trd>wyj&aogonek;&cacute; z <ind>beczki</ind></trd>
-  </trdgrp>
+  <trd lng="pl">wyla&cacute; z <ind>beczki</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_n;&c_u;&c_t;&c_mol; &c_i;&c_z;
     <ind>&c_b;&c_o;&c_ch;&c_k;&c_i;</ind></trd>,
@@ -554,14 +557,14 @@
     <trd>b&oacute;ja</trd>,
     <trd>&uacute;sz&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="hu">
+    <trd>&uacute;sz&oacute;</trd>,
+    <trd>b&oacute;ja</trd>
+  </trdgrp>
   <trd lng="it">boa</trd>
   <trdgrp lng="nl">
     <trd>boei</trd>,
     <trd>baken</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>&uacute;sz&oacute;</trd>,
-    <trd>b&oacute;ja</trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>boja</trd>,
@@ -577,11 +580,14 @@
     <trd>b&oacute;ja</trd>,
     <trd>plav&aacute;k</trd>
   </trdgrp>
-</drv>
+ </drv>
 </art>
 <!--
 
 $Log$
+versio 1.43 2024/12/31 22:27:18
+Vito Redsky: + trd pl ro
+
 versio 1.42 2024/12/13 10:31:33
 Wolfram Diestel: UV
 
@@ -601,9 +607,6 @@ versio 1.35 2022/11/09 09:32:02
 Dmitri Gabinski: + trd be
 
 versio 1.33 2021/08/17 17:32:12
-Wolfram Diestel: nagx~o: +ekz, trd el nagx.xml
-
-Revision 1.30  2015/07/04 08:37:31  revo
 -->
 
 </vortaro>
