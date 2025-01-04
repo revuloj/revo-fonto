@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trole.xml,v 1.12 2024/05/10 10:43:47 revo Exp $">
+<art mrk="$Id: trole.xml,v 1.13 2025/01/04 16:29:12 revo Exp $">
 <kap>
   <rad>trole</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="trole.0o">
   <kap><tld/>o</kap>
-  <snc mrk="trole.0o.AUT">
-    <uzo tip="fak">AUT</uzo>
+  <snc mrk="trole.0o.TRA">
+    <uzo tip="fak">TRA</uzo>
     <dif>
       Elektropera aparato el radeto ruli&gcirc;anta sur
       elektra kablo kaj stangoj, kiuj kondukas la
@@ -23,6 +23,17 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="pantograf.0o">pantografo</ref>
+    <bld
+      lok="&WCU;/thumb/f/f2/Trolley_Wheel.jpg/320px-Trolley_Wheel.jpg"
+      prm="CC BY-SA 4.0"
+      ><tld/>rado
+        <fnt>
+          <aut>Ben Franske, propra verko</aut>
+          <lok><url ref="&WCW;/File:Trolley_Wheel.jpg"
+              >https://commons.wikimedia.org/wiki/File:Trolley_Wheel.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_t;&c_r;&c_a;&c_l;&c_je;&c_j;</trd>
   <trd lng="ca">tr&ograve;lei</trd>
@@ -30,15 +41,18 @@
     <trd>sb&ecaron;ra&ccaron;</trd>,
     <trd>trolej</trd>
   </trdgrp>
-  <trd lng="de">Stromabnehmer</trd>
+  <trdgrp lng="de">
+    <trd>Stromabnehmer <klr>(mit Rolle)</klr></trd>,
+    <trd>Rollenstromabnehmer</trd>
+  </trdgrp>
   <trdgrp lng="en">
      <trd>trolley pole</trd>
      <trd>trolley</trd>
   </trdgrp>
   <trd lng="fr">trolley</trd>
   <trdgrp lng="ja">
-    <trd>&#x30C8;&#x30ED;&#x30EA;&#x30FC;</trd>,
-    <trd>&#x89E6;&#x8F2A;  <pr>&#x3055;&#x308F;&#x308A;&#x3093;</pr></trd>
+    <trd>&#12488;&#12525;&#12522;&#12540;</trd>,
+    <trd>&#35302;&#36650;  <pr>&#12373;&#12431;&#12426;&#12435;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>odbierak pr&aogonek;du</trd>,
@@ -49,20 +63,23 @@
     <trd>zbern&aacute; ty&ccaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_t;&c_r;&#x43E;&#x43B;&c_je;&c_j;</trd>,
-    <trd>&#x43A;&#x43E;&#x43D;&c_t;&c_a;&#x43A;&c_t;&#x43D;&c_i;&c_j; &c_r;&#x43E;&#x43B;&c_i;&#x43A;</trd>,
-    <trd>&c_s;&c_t;&c_r;&c_u;&#x43C;&#x43E;&#x43F;&c_r;&c_i;&c_j;&#x43C;&c_a;&c_ch;</trd>,
-    <trd>&c_r;&#x43E;&#x43B;&c_i;&#x43A;&#x43E;&c_v;&c_i;&c_j; &c_s;&c_t;&c_r;&c_u;&#x43C;&#x43E;&c_z;&#x43D;&c_ib;&#x43C;&c_a;&c_ch;</trd>
+    <trd>&c_t;&c_r;&c_o;&c_l;&c_je;&c_j;</trd>,
+    <trd>&c_k;&c_o;&c_n;&c_t;&c_a;&c_k;&c_t;&c_n;&c_i;&c_j; &c_r;&c_o;&c_l;&c_i;&c_k;</trd>,
+    <trd>&c_s;&c_t;&c_r;&c_u;&c_m;&c_o;&c_p;&c_r;&c_i;&c_j;&c_m;&c_a;&c_ch;</trd>,
+    <trd>&c_r;&c_o;&c_l;&c_i;&c_k;&c_o;&c_v;&c_i;&c_j; &c_s;&c_t;&c_r;&c_u;&c_m;&c_o;&c_z;&c_n;&c_ib;&c_m;&c_a;&c_ch;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x96C6;&#x7535;&#x6746; <pr>j&#xED;di&#xE0;ng&#x1CE;n</pr></trd>,
-    <trd>&#x96C6;&#x96FB;&#x687F; <pr>j&#xED;di&#xE0;ng&#x1CE;n</pr></trd>
+    <trd>&#38598;&#30005;&#26438; <pr>j&iacute;di&agrave;ng&#462;n</pr></trd>,
+    <trd>&#38598;&#38651;&#26751; <pr>j&iacute;di&agrave;ng&#462;n</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.13 2025/01/04 16:29:12
+Wolfram Diestel: ref, bld, trd de
+
 versio 1.11 2024/01/25 21:21:05
 Vito Redsky: +trd pl
 
@@ -82,8 +99,5 @@ Revision 1.3  2012/08/14 14:10:16  revo
 Marc Rausell: + trd ca
 
 Revision 1.2  2011/04/29 19:10:41  revo
-Wieland Pusch: +trd de
-
-Revision 1.1  2011/04/18 08:10:10  revo
 -->
 </vortaro>
