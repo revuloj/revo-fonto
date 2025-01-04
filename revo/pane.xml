@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pane.xml,v 1.32 2024/04/10 02:30:57 revo Exp $">
+<art mrk="$Id: pane.xml,v 1.33 2025/01/04 10:26:55 revo Exp $">
 <kap>
-  <ofc>8</ofc><rad>pane</rad>/o <fnt><bib>PV</bib></fnt>
+  <ofc>8</ofc><rad>pane</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="pane.0o">
   <kap><tld/>o</kap>
   <snc mrk="pane.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Subita malfunkcio de ma&scirc;ino a&ubreve; procedo:
+      Subita malfunkcio de veturilo, ma&scirc;ino a&ubreve; procedo:
       <ekz>
         &ccirc;iutagas malfrui&gcirc;oj kaj <tld/>oj (ne nur de malnovaj
         lokomotivoj sed de signala infrastrukturo instalita en la 60aj
@@ -107,7 +107,10 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>Panne</trd>,
-    <trd>Ausfall <klr>(Panne)</klr></trd>
+    <trd>Ausfall <klr>(Panne)</klr></trd>,
+    <trd>Betriebsst&ouml;rung</trd>,
+    <trd>Funktionsst&ouml;rung</trd>,
+    <trd>Stillstand <klr>(Panne)</klr></trd>
   </trdgrp>
   <trd lng="en">breakdown</trd>
   <trd lng="es">aver&iacute;a</trd>
@@ -120,9 +123,9 @@
     <trd>le&aacute;ll&aacute;s <klr tip="ind">(m&udblac;k&ouml;d&eacute;s&eacute;ben)</klr></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x505C;&#x6B62;  <pr>&#12390;&#12356;&#12375;</pr></trd>,
-    <trd>&#x505C;&#33337;  <pr>&#12390;&#12356;&#x305B;&#12435;</pr></trd>,
-    <trd>&#x30AF;&#x30E9;&#x30C3;&#x30B7;&#x30E5;</trd>
+    <trd>&#20572;&#27490;  <pr>&#12390;&#12356;&#12375;</pr></trd>,
+    <trd>&#20572;&#33337;  <pr>&#12390;&#12356;&#12379;&#12435;</pr></trd>,
+    <trd>&#12463;&#12521;&#12483;&#12471;&#12517;</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>panne</trd>,
@@ -133,7 +136,7 @@
     <trd>defekt</trd>
   </trdgrp>
   <trd lng="pt">pane</trd>
-  <trd lng="ro">defec&#x21B;iunea</trd>
+  <trd lng="ro">defec&tcomma;iunea</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_o;&c_m;&c_k;&c_a;</trd>,
     <trd>&c_a;&c_v;&c_a;&c_r;&c_i;&c_ja;</trd>,
@@ -148,7 +151,7 @@
     <trd>&c_a;&c_v;&c_a;&c_r;&c_ib;&c_ja;</trd>,
     <trd>&c_n;&c_je;&c_p;&c_o;&c_l;&c_a;&c_d;&c_k;&c_i;</trd>
   </trdgrp>
-  <trd lng="zh">&#25925;&#x969C; <pr>g&#xF9;zh&#xE0;ng</pr></trd>
+  <trd lng="zh">&#25925;&#38556; <pr>g&ugrave;zh&agrave;ng</pr></trd>
 </drv>
 
 <drv mrk="pane.0i">
@@ -239,9 +242,9 @@
     <trd>le&aacute;ll <klr tip="ind">(m&udblac;k&ouml;d&eacute;s&eacute;ben)</klr></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x505C;&#x6B62;&#12377;&#x308B;  <pr>&#12390;&#12356;&#12375;&#12377;&#x308B;</pr></trd>,
-    <trd>&#x505C;&#33337;&#12377;&#x308B;  <pr>&#12390;&#12356;&#x305B;&#12435;&#12377;&#x308B;</pr></trd>,
-    <trd>&#x30AF;&#x30E9;&#x30C3;&#x30B7;&#x30E5;&#12377;&#x308B;</trd>
+    <trd>&#20572;&#27490;&#12377;&#12427;  <pr>&#12390;&#12356;&#12375;&#12377;&#12427;</pr></trd>,
+    <trd>&#20572;&#33337;&#12377;&#12427;  <pr>&#12390;&#12356;&#12379;&#12435;&#12377;&#12427;</pr></trd>,
+    <trd>&#12463;&#12521;&#12483;&#12471;&#12517;&#12377;&#12427;</trd>
   </trdgrp>
   <trd lng="nl">in <ind>panne</ind> vallen</trd>
   <trdgrp lng="pl">
@@ -249,7 +252,7 @@
     <trd>defektowa&cacute;</trd>
   </trdgrp>
   <trdgrp lng="ro">
-    <trd>e&#537;ecul de a avea</trd>,
+    <trd>e&scomma;ecul de a avea</trd>,
     <trd>defect&abreve;</trd>
   </trdgrp>
   <trdgrp lng="ru">
@@ -271,11 +274,14 @@
     <trd>&c_p;&c_o;&c_t;&c_je;&c_r;&c_p;&c_ib;&c_t;&c_i; &c_a;&c_v;&c_a;&c_r;&c_ib;&c_ju;</trd>,
     <trd>&c_l;&c_ja;&c_g;&c_a;&c_t;&c_i; &c_v; &c_d;&c_r;&c_je;&c_j;&c_f; (&c_p;&c_r;&c_o; &c_s;&c_u;&c_d;&c_n;&c_o;)</trd>
   </trdgrp>
-  <trd lng="zh">&#x51FA;&#x6BDB;&#x75C5; <pr>ch&#x16B;m&#xE1;ob&#xEC;ng</pr></trd>
+  <trd lng="zh">&#20986;&#27611;&#30149; <pr>ch&umacron;m&aacute;ob&igrave;ng</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2025/01/04 10:26:55
+Wolfram Diestel: PVEF, trd de
+
 versio 1.32 2024/04/10 02:30:57
 Matt Brooks: +trd en
 
@@ -295,8 +301,5 @@ versio 1.24 2021/10/31 22:30:04
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.22  2018/08/24 15:15:13  revo
-kor. ecaron en la chehha
-
-Revision 1.21  2018/08/06 20:10:40  revo
 -->
 </vortaro>
