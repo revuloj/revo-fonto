@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vertik.xml,v 1.34 2024/07/20 01:40:03 revo Exp $">
+<art mrk="$Id: vertik.xml,v 1.35 2025/01/05 16:28:41 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vertikal</rad>/a
+  <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="vertik.0a">
   <kap>
@@ -144,9 +145,9 @@
   <trd lng="fr">vertical<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="hu">f&uuml;gg&odblac;leges</trd>
   <trdgrp lng="ja">
-    <trd>&#x925B;&#x76F4;&#x306E;  <pr>&#12360;&#12435;&#12385;&#12423;&#x304F;&#x306E;</pr></trd>,
-    <trd>&#22402;&#x76F4;&#x306A;  <pr>&#12377;&#12356;&#12385;&#12423;&#x304F;&#x306A;</pr></trd>,
-    <trd>&#x7E26;&#x306E;  <pr>&#x305F;&#12390;&#x306E;</pr></trd>
+    <trd>&#37467;&#30452;&#12398;  <pr>&#12360;&#12435;&#12385;&#12423;&#12367;&#12398;</pr></trd>,
+    <trd>&#22402;&#30452;&#12394;  <pr>&#12377;&#12356;&#12385;&#12423;&#12367;&#12394;</pr></trd>,
+    <trd>&#32294;&#12398;  <pr>&#12383;&#12390;&#12398;</pr></trd>
   </trdgrp>
   <trd lng="nl">verticaal</trd>
   <trd lng="pl">pionowy</trd>
@@ -161,15 +162,15 @@
     <trd>&c_p;&c_r;&c_ja;&c_m;&c_o;&c_v;&c_i;&c_s;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x7ACB;&#x5F0F; <pr>l&#xEC;sh&#xEC;</pr></trd>,
-    <trd>&#x7AD6; <pr>sh&#xF9;</pr></trd>,
-    <trd>&#x8C4E; <pr>sh&#xF9;</pr></trd>,
-    <trd>&#22402;&#x76F4; <pr>chu&#xED;zh&#xED;</pr></trd>,
-    <trd>&#x925B;&#22402;&#30340; <pr>qi&amacron;nchu&#xED;de</pr></trd>,
-    <trd>&#x94C5;&#22402;&#30340; <pr>qi&amacron;nchu&#xED;de</pr></trd>,
-    <trd>&#38914;&#x9EDE;&#30340; <pr>d&#x1D0;ngdi&#x1CE;nde</pr></trd>,
-    <trd>&#39030;&#x70B9;&#30340; <pr>d&#x1D0;ngdi&#x1CE;nde</pr></trd>,
-    <trd>&#x7ACB; <pr>l&#xEC;</pr></trd>
+    <trd>&#31435;&#24335; <pr>l&igrave;sh&igrave;</pr></trd>,
+    <trd>&#31446; <pr>sh&ugrave;</pr></trd>,
+    <trd>&#35918; <pr>sh&ugrave;</pr></trd>,
+    <trd>&#22402;&#30452; <pr>chu&iacute;zh&iacute;</pr></trd>,
+    <trd>&#37467;&#22402;&#30340; <pr>qi&amacron;nchu&iacute;de</pr></trd>,
+    <trd>&#38085;&#22402;&#30340; <pr>qi&amacron;nchu&iacute;de</pr></trd>,
+    <trd>&#38914;&#40670;&#30340; <pr>d&#464;ngdi&#462;nde</pr></trd>,
+    <trd>&#39030;&#28857;&#30340; <pr>d&#464;ngdi&#462;nde</pr></trd>,
+    <trd>&#31435; <pr>l&igrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -181,9 +182,8 @@
     <uzo tip="fak">FIZ</uzo>
     <dif>
       <klr>(de iu loko de la tersurfaco)</klr>
-      Direkto de rekto trairanta la koncernan lokon kaj la centron de
-      Tero;
-      &ccirc;iu rekto kun tia direkto:
+      <ref tip="super" cel="direkt.0o">Direkto</ref> de rekto trairanta la koncernan lokon kaj la centron de
+      Tero; &ccirc;iu <ref tip="super" cel="rekt.0o.MAT">rekto</ref> kun tia direkto:
       <ekz>
         se la koncerna loko estas sufi&ccirc;e malgranda, eblas konsideri,
         ke &ccirc;iuj &gcirc;iaj <tld/>oj estas paralelaj.
@@ -201,11 +201,19 @@
     <uzo tip="fak">SPO</uzo>
     <dif>
       Vico de elementoj de teksto, matrico, &scirc;aktabulo, kies
-      aran&gcirc;o estas <tld/>a <sncref ref="vertik.0a.kolumna"/>:
+      aran&gcirc;o estas <tld/>a<sncref ref="vertik.0a.kolumna"/>:
       <ekz>
-        movi la turon sur la re&gcirc;an <tld/>on.
+        movi la turon sur la re&gcirc;an <tld/>on;
+      </ekz>
+      <ekz>
+        vortoj legeblas la&ubreve; rekta linio &ndash; la&ubreve; horizontalo, <tld/>o a&ubreve; diagonalo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;6</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="kolumn.0o.TIP">kolumno<sncref/></ref>
     <trd lng="es">columna</trd>
     <trdgrp lng="fr">
       <trd>rang&eacute;e verticale<klr tip="ind"> (dans un
@@ -305,7 +313,15 @@
       <ekz>
         la Sinjoro staris sur murego <tld/>a, kaj <tld/>on Li tenis en
         Sia mano
-        <fnt><bib>MT</bib>, <lok>&Amo; 7:7</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Amo; 7:7</lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Li etendos super &gcirc;i rekto&scirc;nuron de ruinigo kaj <tld/>on de detruo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 34:11</lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -317,22 +333,22 @@
   <trd lng="be">&c_v;&c_e;&c_r;&c_t;&c_y;&c_k;&c_a;&c_l;&c_mol;</trd>
   <trd lng="es">vertical<klr> (subst.)</klr></trd>
   <trdgrp lng="ja">
-    <trd>&#x925B;&#x76F4;  <pr>&#12360;&#12435;&#12385;&#12423;&#x304F;</pr></trd>,
-    <trd>&#x925B;&#x76F4;&#x7DDA;  <pr>&#12360;&#12435;&#12385;&#12423;&#x304F;&#x305B;&#12435;</pr></trd>,
-    <trd>&#21015;  <pr>&#x308C;&#12388;</pr></trd>,
-    <trd>&#x7E26;&#21015;  <pr>&#12376;&#12421;&#12358;&#x308C;&#12388;</pr></trd>,
-    <trd>&#x7B4B;  <pr>&#x304D;&#12435;</pr></trd>,
-    <trd>&#x7E26;&#x7DDA;  <pr>&#12376;&#12421;&#12358;&#x305B;&#12435;</pr></trd>,
-    <trd>&#x7E26;&#x68D2;  <pr>&#x305F;&#12390;&#x307C;&#12358;</pr></trd>,
-    <trd>&#x925B;&#x76F4;&#x570F;  <pr>&#12360;&#12435;&#12385;&#12423;&#x304F;&#12369;&#12435;</pr></trd>
+    <trd>&#37467;&#30452;  <pr>&#12360;&#12435;&#12385;&#12423;&#12367;</pr></trd>,
+    <trd>&#37467;&#30452;&#32218;  <pr>&#12360;&#12435;&#12385;&#12423;&#12367;&#12379;&#12435;</pr></trd>,
+    <trd>&#21015;  <pr>&#12428;&#12388;</pr></trd>,
+    <trd>&#32294;&#21015;  <pr>&#12376;&#12421;&#12358;&#12428;&#12388;</pr></trd>,
+    <trd>&#31563;  <pr>&#12365;&#12435;</pr></trd>,
+    <trd>&#32294;&#32218;  <pr>&#12376;&#12421;&#12358;&#12379;&#12435;</pr></trd>,
+    <trd>&#32294;&#26834;  <pr>&#12383;&#12390;&#12412;&#12358;</pr></trd>,
+    <trd>&#37467;&#30452;&#22287;  <pr>&#12360;&#12435;&#12385;&#12423;&#12367;&#12369;&#12435;</pr></trd>
   </trdgrp>
   <trd lng="pl">pion</trd>
   <trd lng="uk">&c_v;&c_je;&c_r;&c_t;&c_i;&c_k;&c_a;&c_l;&c_mol;</trd>
   <trdgrp lng="zh">
-    <trd>&#x925B;&#22402;&#x7DDA; <pr>qi&amacron;nchu&#xED;xi&#xE0;n</pr></trd>,
-    <trd>&#x94C5;&#22402;&#x7EBF; <pr>qi&amacron;nchu&#xED;xi&#xE0;n</pr></trd>,
-    <trd>&#x7AD6; <pr>sh&#xF9;</pr></trd>,
-    <trd>&#x8C4E; <pr>sh&#xF9;</pr></trd>
+    <trd>&#37467;&#22402;&#32218; <pr>qi&amacron;nchu&iacute;xi&agrave;n</pr></trd>,
+    <trd>&#38085;&#22402;&#32447; <pr>qi&amacron;nchu&iacute;xi&agrave;n</pr></trd>,
+    <trd>&#31446; <pr>sh&ugrave;</pr></trd>,
+    <trd>&#35918; <pr>sh&ugrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -349,18 +365,19 @@
       kontroli <tld/>econ.
     </dif>
     <refgrp tip="sin">
-      <ref cel="vertik.0o.0ilo"><tld/>o <sncref ref="vertik.0o.0ilo"/></ref>,
-      <ref cel="faden.plumbo0o">plumbofadeno</ref>.
+      <ref cel="vertik.0o.0ilo"><tld/>o<sncref ref="vertik.0o.0ilo"/></ref>,
+      <ref cel="faden.plumbo0o">plumbofadeno</ref>
     </refgrp>
+    <ref tip="vid" cel="sxnur.rekto0o">rekto&scirc;nuro</ref>
   </snc>
   <adm>
-  Ne ekzistas senca diferenco inter ~ilo kaj plumbofadeno, &ccirc;i-lasta
-  aspektas kiel pa&ubreve;sa&jcirc;o de la franca kaj eble tial PIV1 enkondukis
-  ~ilo, kiu pli proksimi&gcirc;as al la Biblia uzo.
-  PV donis "rekto&scirc;nuro" kiel kvaza&ubreve;sinonimon, kio estas mal&gcirc;usta.
-  Indas rimarki, ke malgra&ubreve;  la simetrio, neniu proponas "horizontalilo"
-  anstata&ubreve; "nivelilo"...
-  <aut>MB</aut>
+    Ne ekzistas senca diferenco inter ~ilo kaj plumbofadeno, &ccirc;i-lasta
+    aspektas kiel pa&ubreve;sa&jcirc;o de la franca kaj eble tial PIV1 enkondukis
+    ~ilo, kiu pli proksimi&gcirc;as al la Biblia uzo.
+    PV donis "rekto&scirc;nuro" kiel kvaza&ubreve;sinonimon, kio estas mal&gcirc;usta.
+    Indas rimarki, ke malgra&ubreve;  la simetrio, neniu proponas "horizontalilo"
+    anstata&ubreve; "nivelilo"...
+    <aut>MB</aut>
   </adm>
   <trdgrp lng="be">
     <trd>&c_g;&c_r;&c_u;&c_n;&c_t;&c_v;&c_a;&c_g;&c_a;</trd>,
@@ -372,8 +389,8 @@
   <trd lng="fr">fil &agrave; plomb</trd>
   <trd lng="hu">f&uuml;gg&odblac;&oacute;n</trd>
   <trdgrp lng="ja">
-    <trd>&#x4E0B;&#12370;&#x632F;&#x308A;  <pr>&#12373;&#12370;&#12405;&#x308A;</pr></trd>,
-    <trd>&#37656;&#x91CD;  <pr>&#x304A;&#12418;&#x308A;&#12376;&#12421;&#12358;</pr></trd>
+    <trd>&#19979;&#12370;&#25391;&#12426;  <pr>&#12373;&#12370;&#12405;&#12426;</pr></trd>,
+    <trd>&#37656;&#37325;  <pr>&#12362;&#12418;&#12426;&#12376;&#12421;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="nl">schietlood</trd>
   <trd lng="pl">pion<klr>  (ci&eogonek;&zdot;arek)</klr></trd>
@@ -384,6 +401,9 @@
 </art>
 <!--
 $Log$
+versio 1.35 2025/01/05 16:28:41
+Wolfram Diestel: ~o: +ekz, ref
+
 versio 1.34 2024/07/20 01:40:03
 Vito Redsky: + trd pl
 
@@ -403,8 +423,5 @@ versio 1.26 2021/08/25 07:27:34
 Dmitri Gabinski: + trd be
 
 versio 1.25 2020/02/16 12:10:20
-Wolfram Diestel: formuloj per am
-
-Revision 1.24  2012/08/13 08:10:24  revo
 -->
 </vortaro>
