@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: volt.xml,v 1.19 2024/05/19 11:18:33 revo Exp $">
+<art mrk="$Id: volt.xml,v 1.20 2025/01/05 02:01:16 revo Exp $">
 <kap>
   <rad>Volt</rad>/o
 </kap>
 
 <drv mrk="volt.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">PERS</uzo>
-  <snc>
+  <snc mrk="volt.0o.PERS">
+    <uzo tip="fak">PERS</uzo>
     <dif>
       Itallingve: <trd lng="it">Volta <klr tip="amb">(Alessandro)</klr></trd>,
       1745-1827, itala fizikisto.
@@ -29,10 +29,10 @@
 
 <drv mrk="volt.v0o">
   <kap><tld lit="v"/>o</kap>
-  <uzo tip="fak">ELE</uzo>
   <fnt><bib>PV</bib></fnt>
   <mlg kod="SI">V</mlg>
-  <snc>
+  <snc mrk="volt.v0o.ELE">
+    <uzo tip="fak">ELE</uzo>
     <dif>
       <ref tip="lst" cel="unu.mezur0o" lst="voko:mezurunuoj">Mezurunuo</ref> de
       <ref cel="fort.elektromova0o">elektromova forto</ref>
@@ -63,33 +63,34 @@
    <trd>volt</trd>
   </trdgrp>
   <trd lng="ru">&c_v;&c_o;&c_l;&c_mol;&c_t;</trd>
-  <trd lng="zh">&#x4F0F;&#x7279; <pr>f&#xFA;t&#xE8;</pr></trd>
+  <trd lng="zh">&#x4F0F;&#29305; <pr>f&#xFA;t&#xE8;</pr></trd>
 </drv>
 
 <drv mrk="volt.v0ojemetro">
   <kap><tld lit="v"/>o je metro</kap>
-  <uzo tip="fak">ELE</uzo>
   <fnt><bib>PIV1</bib><lok>artikolo: kampo</lok></fnt>
-  <snc>
+  <mlg kod="SI">V/m</mlg>
+  <snc mrk="volt.v0ojemetro.ELE">
+    <uzo tip="fak">ELE</uzo>
     <dif>
       <ref tip="lst" cel="unu.mezur0o" lst="voko:mezurunuoj">Mezurunuo</ref> de
       <ref cel="elektr.0akampintenso">elektra kampintenso</ref>
-      en la Internacia Sistemo de unuoj; simb. V/m.
+      en la Internacia Sistemo de unuoj.
     </dif>
   </snc>
   <adm>
-    Cxu ekzistas unueca dirmaniero por la kunmetitaj
+    &Ccirc;u ekzistas unueca dirmaniero por la kunmetitaj
     mezurunuoj? PIV1 diras "kilometro en sekundo"
     (sub "rapido"), sed "volto je metro" (sub "kampo").
-    Mi gxis nun en REVO cxiam skribis "en" (m/s,
-    kg/m3,...). 
-    
-    Eventuale aldoni ekz-on kun la vera difino (kio 
-    versxajne necesigos uzi "kampolinio").
+    Mi &gcirc;is nun en REVO &ccirc;iam skribis "en" (m/s,
+    kg/m3,...).
+
+    Eventuale aldoni ekz-on kun la vera difino (kio
+    ver&scirc;ajne necesigos uzi "kampolinio").
 
     <aut>MB</aut>
   </adm>
-  <trd lng="be"><ind>&c_v;&c_o;&c_l;&c_mol;&c_t;</ind> 
+  <trd lng="be"><ind>&c_v;&c_o;&c_l;&c_mol;&c_t;</ind>
     &c_n;&c_a; &c_m;&c_e;&c_t;&c_a;&c_r;</trd>
   <trd lng="de">Volt pro Meter (Elektrische Feldst&auml;rke)</trd>
   <trd lng="en">volt per meter <klr>(V/m)</klr></trd>
@@ -99,13 +100,16 @@
   <trd lng="it"><ind>volt</ind> al metro</trd>
   <trd lng="ru">&c_v;&c_o;&c_l;&c_mol;&c_t; &c_n;&c_a; &c_m;&c_je;&c_t;&c_r;</trd>
   <trdgrp lng="zh">
-    <trd>&#x4F0F;&#x7279;&#x8A08; <pr>f&#xFA;t&#xE8;j&#xEC;</pr></trd>,
-    <trd>&#x4F0F;&#x7279;&#x8BA1; <pr>f&#xFA;t&#xE8;j&#xEC;</pr></trd>
+    <trd>&#x4F0F;&#29305;&#x8A08; <pr>f&#xFA;t&#xE8;j&#xEC;</pr></trd>,
+    <trd>&#x4F0F;&#29305;&#x8BA1; <pr>f&#xFA;t&#xE8;j&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2025/01/05 02:01:16
+Jeromo Vasxe: ~o je m: + mlg
+
 Revision 1.17  2014/07/02 15:10:57  revo
 Eko Nur Syah Hidayat: +id
 
