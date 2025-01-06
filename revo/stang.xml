@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: stang.xml,v 1.47 2024/04/17 10:27:23 revo Exp $">
+<art mrk="$Id: stang.xml,v 1.48 2025/01/06 22:28:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>stang</rad>/o
@@ -16,7 +16,7 @@
         faru la <tld/>ojn el akacia ligno
         <fnt>
           <bib>MT</bib>
-          <lok>Eliro 30:5</lok>
+          <lok>&Eli; 30:5</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -24,14 +24,14 @@
         per ili
         <fnt>
           <bib>MT</bib>
-          <lok>Eliro 25:14</lok>
+          <lok>&Eli; 25:14</lok>
         </fnt>;
       </ekz>
       <ekz>
         armi sin per <klr>[&#8230;]</klr> <tld/>o de lanco
         <fnt>
           <bib>MT</bib>
-          <lok>II. Samuel 23:7</lok>
+          <lok>&Sa2; 23:7</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -105,7 +105,8 @@
     <trd>barilla</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>barre</trd>
+    <trd>barre</trd>,
+    <trd>tringle</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>r&uacute;d</trd>,
@@ -169,7 +170,7 @@
         pezon de kvindek sikloj
         <fnt>
           <bib>MT</bib>
-          <lok>Josuo 7:21</lok>
+          <lok>&Jos; 7:21</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -210,6 +211,7 @@
     </dif>
     <refgrp tip="sub">
       <ref cel="baston.0o">bastono</ref>,
+      <ref cel="rung.0o">rungo</ref>,
       <ref cel="verg.0o">vergo</ref>
     </refgrp>
   </snc>
@@ -433,6 +435,25 @@
   </trdgrp>
 </drv>
 
+<drv mrk="stang.rapidum0o">
+  <kap>rapidum<tld/>o</kap>
+  <snc mrk="stang.rapidum0o.AUT">
+    <uzo tip="fak">AUT</uzo>
+    <dif>
+      <tld lit="S"/>o per kiu stiranto de veturilo povas &scirc;alti iun a&ubreve; alian
+      <ref tip="vid" cel="rapid.0umo.TEK">rapidumon</ref>:
+      <ekz>
+        la bremsosistemo funkcius nur depende de regilo fiksita per tri sekurpecoj
+        tiamaniere ligitaj al la <tld/>umstango ke &ccirc;iufoje kiam oni metas tiun sur
+        retroiran pozicion, unu el la eroj malkro&ccirc;i&gcirc;as
+        <fnt><aut>C. Piron</aut> <vrk>&Ccirc;u li bremsis
+        sufi&ccirc;e?</vrk> <lok>1979</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">levier de vitesse</trd>
+</drv>
+
 <drv mrk="stang.rosto0o">
   <kap>rosto<tld/>o</kap>
   <snc mrk="stang.rosto0o.KUI">
@@ -494,9 +515,12 @@
         &scirc;argo<tld/>oj ekbrilis subite en la sunlumo dum ili estis
         tiritaj el la tuboj, turnitaj en la aero, kaj &scirc;ovitaj en
         siajn ingojn
-        <fnt><aut>Ambrose Bierce, tr. Russ Williams</aut>:
-          <vrk>Okaza&jcirc;o &ccirc;e la ponto super la rivereto Strigo</vrk>.
-          <bib>LOdE</bib>, <lok>&#8470;277 (2017:11)</lok></fnt>.
+        <fnt>
+          <aut>A. Bierce, trad. R. Williams</aut>
+          <vrk>Okaza&jcirc;o &ccirc;e la ponto super la rivereto Strigo</vrk>
+          <bib>LOdE</bib>
+          <lok>&#8470;277 (2017:11)</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -506,6 +530,10 @@
   </trdgrp>
   <trd lng="de">Ladestock</trd>
   <trd lng="en">ramrod</trd>
+  <trdgrp lng="fr">
+    <trd>baguette<klr> (refouloir)</klr></trd>,
+    <trd>refouloir</trd>
+  </trdgrp>
   <trd lng="ja">&#26388;&#26454; <pr>&#12373;&#x304F;&#12376;&#12423;&#12358;</pr></trd>
   <trd lng="pl">wycior</trd>
   <trd lng="ru">&c_sh;&c_o;&c_m;&c_p;&c_o;&c_l;</trd>
@@ -590,6 +618,9 @@
 </art>
 <!--
 $Log$
+versio 1.48 2025/01/06 22:28:42
+Jeromo Vasxe: + rapidum~o
+
 versio 1.47 2024/04/17 10:27:23
 Dmitri Gabinski: + trd be
 
@@ -609,8 +640,5 @@ versio 1.40 2023/08/24 07:21:13
 Wolfram Diestel: -adm
 
 versio 1.39 2023/08/23 19:12:50
-revo: movu drv hok.0stango al stang/
-
-versio 1.38 2023/07/10 07:27:33
 -->
 </vortaro>
