@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: auxt.xml,v 1.134 2024/12/21 01:52:27 revo Exp $">
+<art mrk="$Id: auxt.xml,v 1.135 2025/01/10 20:29:37 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>a&ubreve;t</rad>/o <fnt><bib>PV</bib></fnt>
@@ -587,6 +587,67 @@
   </trdgrp>
 </drv>
 
+<drv mrk="auxt.kombi0o">
+  <kap>kombi<tld/>o <fnt><aut>P. Desmet', J. Horvath</aut> <vrk>Bildvortaro</vrk>
+  <lok>2012</lok></fnt></kap>
+  <snc mrk="auxt.kombi0o.AUT">
+    <uzo tip="fak">AUT</uzo>
+    <dif>
+      <ref tip="super" cel="auxt.0o.AUT">A&ubreve;to</ref> kun malanta&ubreve;a parto same alta kiel la kajuto:
+      <ekz>
+        la a&ubreve;tofamilio <esc>LADA 110</esc> ... inklizivis anka&ubreve; kombi<tld/>on <esc>VAZ-2111</esc>
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="https://eo.wikibooks.org/wiki/La_rusa_lingvo_en_vivo/%C5%9Cofori_en_Rusio">
+          La rusa lingvo en vivo - &scirc;ofori en Rusio</url></vrk>
+          <lok>Vikilibroj, 2024</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>voiture <ind>break</ind></trd>,
+    <trd>voiture <ind>familiale</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="auxt.liver0o">
+  <kap>liver<tld/>o</kap>
+  <snc mrk="auxt.liver0o.AUT">
+    <uzo tip="fak">AUT</uzo>
+    <dif>
+      <ref tip="super" cel="auxt.0o.AUT">A&ubreve;to</ref> plejofte kun du a&ubreve; tri anta&ubreve;aj sidlokoj
+      kaj kun vasta kofro por transporto kaj livero:
+      <ekz>
+        la liver<tld/>o estas malpli granda ol la kamiono
+        <fnt>
+          <aut>A. Childs-Mee k. a.</aut>
+          <vrk><url ref="http://kursosaluton.org/057m.html">
+          Esperanto A&ubreve;todidakte</url></vrk>
+          <lok>[vidita en 2025]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la du livera&ubreve;toj forte inter si koliziis
+        <fnt>
+          <aut>GrizaLeono</aut>
+          <vrk><url ref="https://tatoeba.org/eo/sentences/show/1275496">
+          Frazo n-ro 1275496</url></vrk>
+          <lok>Tatoeba, 2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="furgon.0o.TRA">furgono</ref>,
+    <ref cel="kamion.0eto.AUT">kamioneto</ref>
+  </refgrp>
+  <trdgrp lng="fr">
+    <trd>camionnette</trd>,
+    <trd>fourgonnette</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="auxt.logx0o">
   <kap>lo&gcirc;<tld/>o</kap>
   <snc mrk="auxt.logx0o.AUT">
@@ -657,6 +718,38 @@
     <trd>kamper</trd>
   </trdgrp>
   <trd lng="tr">karavan</trd>
+</drv>
+
+<drv mrk="auxt.sport0o">
+  <kap>sport<tld/>o,
+  <var><kap>sporta <tld/>o</kap></var></kap>
+  <snc mrk="auxt.sport0o.AUT">
+    <uzo tip="fak">AUT</uzo>
+    <dif>
+      <ref tip="super" cel="auxt.0o.AUT">A&ubreve;to</ref> fasonita por rapideco, sen granda
+      transport-kapacito:
+      <ekz>
+        forpasis <nom>Ferdinand Alexander Porsche</nom>, la nepo de la kreinto de la kompanio
+        kaj la dezajnisto de la sport<tld/>o <esc>Porsche-911</esc>
+        <fnt>
+          <aut>Xiong Linping</aut>
+          <vrk><url ref="https://esperanto.cri.cn/581/2012/04/06/1s134646.htm">
+          Forpasis dezajnisto de sporta&ubreve;to Porsche-911</url></vrk>
+          <lok>&Ccirc;ina Radio Internacia, 2012-04-06</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li a&ccirc;etis t.n. sportan <tld/>on, rapidegan, kredu min, kaj &gcirc;in stiris foje al mortiga
+        akcidento
+        <fnt>
+          <aut>J. Valano</aut>
+          <vrk>&Ccirc;u rakonti novele?</vrk>
+          <lok>1986</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">voiture de sport</trd>
 </drv>
 
 <drv mrk="auxt.sxargx0o">
@@ -823,6 +916,9 @@
 </art>
 <!--
 $Log$
+versio 1.135 2025/01/10 20:29:37
+Jeromo Vasxe: + kombi/liver/sport~o
+
 versio 1.134 2024/12/21 01:52:27
 Vito Redsky: + trd pl ro
 
@@ -842,8 +938,5 @@ versio 1.128 2023/08/04 21:20:23
 Jeromo Vasxe: + teren~o
 
 versio 1.127 2023/05/12 15:25:55
-Paul Peeraerts: + lok
-
-versio 1.126 2023/04/25 05:27:57
 -->
 </vortaro>
