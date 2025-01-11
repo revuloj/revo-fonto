@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: indik.xml,v 1.116 2025/01/07 20:29:07 revo Exp $">
+  <art mrk="$Id: indik.xml,v 1.117 2025/01/11 10:26:32 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>indik</rad>/i
@@ -547,8 +547,21 @@
       <tld/>anta &ccirc;eeston de io a&ubreve; evoluon de procezo en formo konvena por la homa percepto:
       <ekz>
         <tld/>ilo de tensio, premo;
-      </ekz><ekz>
-        la &scirc;oforo avertis pri direkto&scirc;an&gcirc;o per turn<tld/>ilo;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">AUT</uzo>
+        ni regule rigardas anka&ubreve; la <tld/>iltabulon por vidi, &ccirc;u <ind>turn<tld/>ilo</ind>j
+        <klr>(vd. <ref tip="sub" cel="blink.0ilo.LUM">blinkilo</ref>;
+        direktindikilo en venonta PIV4)</klr>
+        ne&ubreve;trali&gcirc;is
+        <fnt>
+          <vrk><url ref="https://esperanto.org.au/ftp-uploads/AE-416.pdf"
+              >A&ubreve;straliaj Esperantistoj</url></vrk>
+          <lok>n-ro 460, 07/03/2019</lok>
+        </fnt>;
+        <trd lng="de">Fahrtrichtungsanzeiger</trd>
+        <trd lng="en">turn signal</trd>
+        <trd lng="fr">clignotant</trd>
       </ekz>
       <ekz>
         padoj, markitaj per ne tro atentokaptaj lignaj <tld/>iloj
@@ -592,7 +605,7 @@
       <ref cel="aviz.0o.KOMUNE">avizo<sncref/></ref>,
       <ref cel="indic.0o.SCI">indico<sncref/></ref>,
       <ref cel="mark.0o.signo">marko<sncref/></ref>,
-      <ref cel="sign.0o">signo</ref>,
+      <ref cel="sign.0o">signo</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -650,6 +663,10 @@
   </trdgrp>
 </drv>
 
+<!-- tiel en presitaj PIV, sed malrekomendota ekde la venonta eldono de PIV,
+  direkto&scirc;an&gcirc;ojn oni nomu turni a&ubreve; giri kaj do la indikilo estus turnindikilo,
+  direktindikilo, girsignalo a.s.
+
 <drv mrk="indik.gxir0ilo">
   <kap>&gcirc;ir<tld/>ilo</kap>
   <snc mrk="indik.gxir0ilo.AUT">
@@ -673,6 +690,7 @@
   <trd lng="fr">clignotant</trd>
 </drv>
 
+-->
 <drv mrk="indik.uz0o">
   <kap>uz<tld/>o</kap>
   <snc mrk="indik.uz0o.KOMUNE">
@@ -716,6 +734,9 @@
 </art>
   <!--
   $Log$
+versio 1.117 2025/01/11 10:26:32
+Wolfram Diestel: -ĝir~ilo; +ekz turn~ilo
+
 versio 1.116 2025/01/07 20:29:07
 Jeromo Vasxe: + gxir~ilo
 
@@ -735,8 +756,5 @@ versio 1.109 2023/08/29 16:33:57
 Wolfram Diestel: ja: prononco
 
 versio 1.108 2023/05/24 09:25:56
-Paul Peeraerts: + trd nl + lok + url + aut
-
-versio 1.107 2023/04/30 12:42:40
 -->
 </vortaro>
