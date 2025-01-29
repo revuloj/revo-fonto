@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trauxmat.xml,v 1.20 2024/05/10 10:43:46 revo Exp $">
+<art mrk="$Id: trauxmat.xml,v 1.21 2025/01/29 18:33:21 revo Exp $">
 <kap>
   <rad>tra&ubreve;mat</rad>/o <fnt><bib>PIV1</bib></fnt>,
-  <var><kap><rad var="m">tra&ubreve;m</rad>/o <fnt><bib>NeoGlo</bib></fnt></kap></var>
+  <var><kap><rad var="m">tra&ubreve;m</rad>/o <fnt><bib>SPV</bib></fnt></kap></var>
 </kap>
 <drv mrk="trauxmat.0o">
   <kap><tld/>o, <var><kap><tld var="m"/>o</kap></var></kap>
@@ -12,9 +12,9 @@
     <uzo tip="fak">MED</uzo>
     <dif>
       Hista dama&gcirc;i&gcirc;o ka&ubreve;zita per deekstera influo me&hcirc;anika,
-      termika, &hcirc;emia a&ubreve; radia:
+      brula, &hcirc;emia a&ubreve; radia:
       <ekz>
-        &scirc;okego en sporto &#x2010; pro <tld/>o de la kapo, ricevita dum
+        &scirc;okego en sporto &ndash; pro <tld/>o de la kapo, ricevita dum
         piedpilka mat&ccirc;o
         <fnt><aut>G. Arosev</aut>, <vrk>Tragika morto de golulo</vrk>,
          <bib>Monato</bib>, <lok>2001/11, p. 11</lok></fnt>;
@@ -39,7 +39,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Gehirnersch&uuml;tterung</trd>
+    <trdgrp lng="de">
+      <trd>Verletzung</trd>,
+      <trd>Gewebesch&auml;digung</trd>
+    </trdgrp>
     <trdgrp lng="fa">
       <trd>&a_A_madda;&a_s;&f_y;&a_b;</trd>,
       <trd>&a_j;&a_r;&a_A;&a_H;&a_t;</trd>
@@ -64,7 +67,7 @@
       </ekz>
       <ekz>
         el la vundo (la <tld var="m"/>o, se vi preferas fak&jcirc;argoni)
-        <klr>[&#x2026;]</klr> mi neniam resani&gcirc;is
+        <klr>[&#8230;]</klr> mi neniam resani&gcirc;is
         <fnt><bib>BonaLingvo</bib>, <lok>p. 9a</lok></fnt>;
       </ekz>
       <ekz>
@@ -78,6 +81,18 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
+        <klr>[la]</klr> katastrofa malvenko <ind><tld/>igi</ind>s la romianojn, kiuj kutimis je
+        venkoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=139774"
+              >Arminio (&Hcirc;eruska tribestro)</url></lok>
+        </fnt>;
+        <trd lng="de">traumatisieren</trd>
+        <trd lng="en">traumatize</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
         Usono, kiu ja havis sian <tld/>on pro Vjetnamio kaj &ccirc;irka&ubreve; &gcirc;i kreis propran
         memor-kulturon
         <fnt>
@@ -88,8 +103,7 @@
       </ekz>
     </dif>
     <trdgrp lng="de">
-      <trd>seelische Ersch&uuml;tterung</trd>,
-      <trd>Trauma</trd>,
+      <trd>seelische <ind>Ersch&uuml;tterung</ind></trd>,
       <trd>Psychotrauma</trd>
     </trdgrp>
     <trdgrp lng="en">
@@ -104,13 +118,14 @@
     </trdgrp>
     <trd lng="pl">uraz psychiczny</trd>
     <trdgrp lng="zh">
-    <trd>&#x5FC3;&#x7406;&#x521B;&#x4F24; <pr>x&#x12B;nl&#x1D0;chu&#x101;ngsh&#x101;ng</pr></trd>,
-    <trd>&#x5FC3;&#x7406;&#x5275;&#x50B7; <pr>x&#x12B;nl&#x1D0;chu&#x101;ngsh&#x101;ng</pr></trd>
-  </trdgrp>
-</snc>
+      <trd>&#24515;&#29702;&#21019;&#20260; <pr>x&imacron;nl&#464;chu&amacron;ngsh&amacron;ng</pr></trd>,
+      <trd>&#24515;&#29702;&#21109;&#20663; <pr>x&imacron;nl&#464;chu&amacron;ngsh&amacron;ng</pr></trd>
+    </trdgrp>
+  </snc>
   <trd lng="be">&c_t;&c_r;&c_a;&c_w;&c_m;&c_a;</trd>
   <trd lng="bg">&c_t;&c_r;&c_a;&c_v;&c_m;&c_a;</trd>
   <trd lng="ca">trauma</trd>
+  <trd lng="de">Trauma</trd>
   <trdgrp lng="en">
     <trd>trauma</trd>,
     <trd>traumatism</trd>
@@ -132,6 +147,9 @@
 
 <!--
 $Log$
+versio 1.21 2025/01/29 18:33:21
+Wolfram Diestel: SPV, kor. trd de, +ekz ~igi
+
 versio 1.19 2024/01/25 01:37:11
 Vito Redsky: +trd pl
 
@@ -151,8 +169,5 @@ versio 1.13 2020/09/06 20:10:36
 Wolfram Diestel: +tld-var
 
 Revision 1.11  2019/09/08 09:10:14  revo
-Wolfram Diestel: +var, +ekz-oj
-
-Revision 1.10  2015/10/09 13:10:18  revo
 -->
 </vortaro>
