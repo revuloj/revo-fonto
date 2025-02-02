@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sign.xml,v 1.174 2025/01/03 08:33:30 revo Exp $">
+<art mrk="$Id: sign.xml,v 1.175 2025/02/02 20:26:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sign</rad>/o
@@ -890,6 +890,31 @@
   </trdgrp>
 </drv>
 
+<drv mrk="sign.helpo0o">
+  <kap>helpo<tld/>o</kap>
+  <snc mrk="sign.helpo0o.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      Memstara <ref tip="super" cel="sign.skrib0o.TIP">skribo<tld/>o</ref>,
+      kiu ne havas propran valoron, sed precizigas la celatan sencon, sonon,
+      la aran&gcirc;on de la frazo..., evitigante misinterpretojn:
+      <ekz>
+        krom literoj oni uzas anka&ubreve; helpo<tld/>ojn
+        <fnt>
+          <bib>PMEG</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="interp3.0o.TIP">interpunkcio</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>signe auxiliaire</trd>,
+    <trd>signe de ponctuation</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="sign.kontraux0a">
   <kap>kontra&ubreve;<tld/>a</kap>
   <fnt><bib>MatTerm</bib>, <lok>p. 7</lok></fnt>
@@ -978,9 +1003,8 @@
   <snc mrk="sign.krom0o.TIP">
     <uzo tip="fak">TIP</uzo>
     <dif>
-      Skrib<tld/>o kiu ne apartenas al la baza <tld/>aro (alfabeto) de
-      skriba&jcirc;o, ne funkcias sole, sed helpas kompreni a&ubreve; &gcirc;uste interpreti
-      la skriba&jcirc;on, precizigante a&ubreve; modifante &gcirc;ian valoron; interalie:
+      <ref tip="super" cel="sign.skrib0o.TIP">Skribo<tld/>o</ref> kiu ne funkcias sole,
+      sed aldoni&gcirc;as al alia signo, modifante &gcirc;ian valoron; interalie:
     </dif>
     <subsnc mrk="sign.krom0o.diakrita">
       <dif>
@@ -1532,13 +1556,14 @@
 
 <drv mrk="sign.skrib0o">
   <kap>
-    skrib<tld/>o
+    skrib<tld/>o, <var><kap>skribo<tld/>o</kap></var>
   </kap>
-  <snc mrk="sign.skrib0o.signo">
+  <snc mrk="sign.skrib0o.TIP">
+    <uzo tip="fak">TIP</uzo>
     <dif>
       <ref tip="super" cel="sign.0o.KOMP">Signo<sncref/></ref> en sia
-      skriba formo,
-      litero a&ubreve; interpunkcia <tld/>o de skribata lingvo:
+      skriba formo: litero a&ubreve; alia elemento de
+      <ref tip="malprt" cel="sistem.skrib0o.KOMUNE">skribosistemo</ref>:
       <ekz>
         skribata per arabaj skrib<tld/>oj
         <fnt>
@@ -1547,7 +1572,8 @@
           <vrk><url ref="&Monato;/2014/011224.php">Lingvo
           kiel sukero: notoj pri la nuntempa persa</url></vrk>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         kojnoformaj skrib<tld/>oj (la&ubreve; <klr>[novasiria]</klr> skribsistemo, tio
         estas unu el la skriboj de la unua jarmilo a.K.)
         <fnt>
@@ -1556,13 +1582,25 @@
           <vrk><url ref="&Monato;/2014/011245.php">Emesal:
           &ccirc;u la plej antikva planlingvo?</url></vrk>
         </fnt>;
-      </ekz><ekz>
-        skrib<tld/>oj, kiuj nun formi&gcirc;is sub la krajono de la
+      </ekz>
+      <ekz>
+        skrib<tld/>oj <klr>[&#8230;]</klr> nun formi&gcirc;is sub la krajono de la
         maljunulo
         <fnt>
           <aut>Michael Ende, trad. Wolfram Diestel</aut>
           <vrk>La Sen&ccirc;esa Rakonto</vrk>
           <lok>La Maljunulo de la Migranta Monto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;ina signo <nac>bi&aacute;ng</nac> (speco de pasta&jcirc;o) estas eble la plej komplika skribo<tld/>o
+        plu uzata
+        <fnt>
+          <aut>J. Lindstedt</aut>
+          <vrk><url
+          ref="https://www.liberafolio.org/arkivo/www.liberafolio.org/2014/cu-esperanto-estas-simpla-kaj-facila/">
+          &Ccirc;u Esperanto estas simpla kaj facila?</url></vrk>
+          <lok>libera folio, 2014-05-15</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1570,6 +1608,10 @@
   <trd lng="be">&c_z;&c_n;&c_a;&c_k; <klr>(&c_p;&c_ib;&c_s;&c_mol;&c_m;&c_a;)</klr></trd>
   <trd lng="de">Schriftzeichen</trd>
   <trd lng="en">character</trd>
+  <trdgrp lng="fr">
+    <trd>caract&egrave;re<klr> (d'&eacute;criture)</klr></trd>,
+    <trd>signe &eacute;crit</trd>
+  </trdgrp>
   <trd lng="pl">znak pisma</trd>
   <trd lng="zh">&#23383;&#31526; <pr>z&igrave;f&uacute;</pr></trd>
 </drv>
@@ -1927,6 +1969,9 @@
 </art>
 <!--
 $Log$
+versio 1.175 2025/02/02 20:26:28
+Jeromo Vasxe: krom~o preciz dif, + helpo~o
+
 versio 1.174 2025/01/03 08:33:30
 Dmitri Gabinski: + trd be
 
@@ -1946,8 +1991,5 @@ versio 1.169 2024/04/04 06:26:03
 Wolfram Diestel: +vi&scirc;~o, -ekz krisigno (jam kiel drv)
 
 versio 1.167 2023/12/12 20:10:27
-revo: kor. lat. transskribo/latvaj literoj
-
-versio 1.166 2023/10/21 07:46:47
 -->
 </vortaro>
