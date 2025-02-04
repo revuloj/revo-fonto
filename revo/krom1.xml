@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: krom1.xml,v 1.40 2025/01/27 22:27:31 revo Exp $">
+<art mrk="$Id: krom1.xml,v 1.41 2025/02/04 18:33:45 revo Exp $">
 <kap>
-  <rad>krom</rad>/o <fnt><bib>VdE</bib></fnt>,
+  <rad>krom</rad>/o <fnt><bib>JED</bib></fnt>,
   <var><kap><rad var="&hcirc;">&hcirc;rom</rad>/o</kap></var>,
   <var><kap><rad var="i">kromi</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
 </kap>
@@ -50,6 +50,14 @@
           <vrk><url ref="&Monato;/2011/010474.php">Ri&ccirc;a tero, malri&ccirc;a popolo</url></vrk>
         </fnt>;
       </ekz>
+      <ekz>
+        mi faros ilin oran&gcirc;tonaj, <tld var="&hcirc;"/>-koloraj
+        <klr>(oran&gcirc;koloro de oksido <frm>Pb<sub>2</sub>CrO<sub>5</sub></frm>)</klr>, helcitronaj
+        <fnt>
+          <bib>KFl</bib>
+          <lok>VI. Trigonometrio de arto</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <rim>
       PV kaj PIV nomas la elementon <ctl><tld/>o</ctl>, kaj markas
@@ -81,7 +89,7 @@
   <trd lng="hu">kr&oacute;m</trd>
   <trd lng="id">kromium</trd>
   <trd lng="it">cromo</trd>
-  <trd lng="ja">&#x30AF;&#x30ED;&#x30E0;</trd>
+  <trd lng="ja">&#12463;&#12525;&#12512;</trd>
   <trd lng="la">Chromium</trd>
   <trd lng="nl">chroom</trd>
   <trd lng="no">krom</trd>
@@ -92,12 +100,12 @@
   </trdgrp>
   <trd lng="ru">&c_h;&c_r;&c_o;&c_m;</trd>
   <trd lng="sv">krom</trd>
-  <trd lng="uk">&c_h;&c_r;&#x43E;&#x43C;</trd>
+  <trd lng="uk">&c_h;&c_r;&c_o;&c_m;</trd>
   <trdgrp lng="zh">
-    <trd>&#x927B; <pr>g&#xE8;</pr></trd>,
-    <trd>&#x94EC; <pr>g&#xE8;</pr></trd>,
-    <trd>&#x91D1;&#x5C5E;&#x94EC; <pr>j&#x12B;nsh&#x1D4;g&#xE8;</pr></trd>,
-    <trd>&#x91D1;&#x5C6C;&#x927B; <pr>j&#x12B;nsh&#x1D4;g&#xE8;</pr></trd>
+    <trd>&#37499; <pr>g&egrave;</pr></trd>,
+    <trd>&#38124; <pr>g&egrave;</pr></trd>,
+    <trd>&#37329;&#23646;&#38124; <pr>j&imacron;nsh&#468;g&egrave;</pr></trd>,
+    <trd>&#37329;&#23660;&#37499; <pr>j&imacron;nsh&#468;g&egrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -118,19 +126,20 @@
   </snc>
   <ref tip="hom" cel="krom.0a">kroma</ref>
   <trd lng="be">&c_h;&c_r;&c_o;&c_m;&c_a;&c_v;&c_y;</trd>
+  <trd lng="de">Chrom-</trd>
   <trd lng="en">chromic</trd>
   <trd lng="fr">chrom&eacute;</trd>
   <trd lng="id">kromat</trd>
   <trdgrp lng="ja">
-    <trd>&#x307B;&#x304B;&#x306E;</trd>,
-    <trd>&#x4F59;&#20998;&#x306E;  <pr>&#12424;&#12406;&#12435;&#x306E;</pr></trd>
+    <trd>&#12411;&#12363;&#12398;</trd>,
+    <trd>&#20313;&#20998;&#12398;  <pr>&#12424;&#12406;&#12435;&#12398;</pr></trd>
   </trdgrp>
   <trd lng="pl">chromowy</trd>
   <trd lng="ru">&c_h;&c_r;&c_o;&c_m;&c_o;&c_v;&c_y;&c_j;</trd>
-  <trd lng="uk">&c_d;&#x43E;&c_d;&c_a;&c_t;&#x43A;&#x43E;&c_v;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_d;&c_o;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_i;&c_j;</trd>
   <trdgrp lng="zh">
-    <trd>&#x927B;&#x9EC3; <pr>g&#xE8;hu&#xE1;ng</pr></trd>,
-    <trd>&#x94EC;&#x9EC4; <pr>g&#xE8;hu&#xE1;ng</pr></trd>
+    <trd>&#37499;&#40643; <pr>g&egrave;hu&aacute;ng</pr></trd>,
+    <trd>&#38124;&#40644; <pr>g&egrave;hu&aacute;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -148,6 +157,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_h;&c_r;&c_a;&c_m;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="de">verchromen</trd>
   <trd lng="en">chrome-plate</trd>
   <trd lng="es">cromar</trd>
   <trd lng="fr">chromer</trd>
@@ -158,6 +168,9 @@
 </art>
   <!--
   $Log$
+versio 1.41 2025/02/04 18:33:45
+Wolfram Diestel: +ekz, trd de
+
 versio 1.40 2025/01/27 22:27:31
 Jeromo Vasxe: relokis iupac-kodon
 
@@ -177,8 +190,5 @@ Wolfram Diestel: +tld-var
   Wolfram Diestel: +var kromio, pliaj ekz-oj
 
   Revision 1.30  2016/11/18 19:10:15  revo
-  Filip van Laenen: +trd no
-
-  Revision 1.29  2015/01/15 18:10:16  revo
 -->
 </vortaro>
