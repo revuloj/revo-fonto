@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: substr.xml,v 1.20 2024/03/25 07:28:37 revo Exp $">
+<art mrk="$Id: substr.xml,v 1.21 2025/02/05 20:29:30 revo Exp $">
 <kap>
   <rad>substrat</rad>/o
 </kap>
 <drv mrk="substr.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">FIL</uzo>
   <snc mrk="substr.0o.ekzista">
+    <uzo tip="fak">FIL</uzo>
     <dif>
       Ia ajn <ref tip="super" cel="real.0ajxo">reala&jcirc;o</ref>, substanca a&ubreve; fenomena, kiu ebligas la
-      ekziston
-      de alia, kaj kvaza&ubreve; subportas &gcirc;in:
+      ekziston de alia, kaj kvaza&ubreve; subportas &gcirc;in:
       <ekz>
         en plantdomo la plantoj kreskas plej ofte en <tld/>oj, kiuj pli a&ubreve; malpli ne havas kontakton
         al la tero
@@ -50,6 +49,22 @@
     </dif>
     <trd lng="hu">eszmei <ind>alap</ind></trd>
   </snc>
+  <snc mrk="substr.0o.LIN">
+    <uzo tip="fak">FIL</uzo>
+    <dif>
+      Anta&ubreve;estanta, anta&ubreve;estinta lingvo, kiu influas pli nove adoptitan lingvon:
+      <ekz>
+        malnovaj lingvoj en la lando ne laste en la fonemaro efikas sur tie pli novajn lingvojn kiel
+        <tld/>oj
+        <fnt>
+          <aut>W. von Soden, trad. M. Wolf</aut>
+          <vrk><url ref="http://www.sorbzilla.de/aorient/aorient.pdf">
+          Enkonduko en la Antikvan Orienton</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_s;&c_u;&c_b;&c_s;&c_t;&c_r;&c_a;&c_t;</trd>
   <trdgrp lng="cs">
     <trd>podklad</trd>,
@@ -63,12 +78,12 @@
     <trd>sostrato<klr> (fil.)</klr></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x4E0B;&#x5730;  <pr>&#x3057;&#x305F;&#x3058;</pr></trd>,
-    <trd>&#x57FA;&#x76E4;  <pr>&#x304D;&#x3070;&#x3093;</pr></trd>,
-    <trd>&#x57FA;&#x4F53;  <pr>&#x304D;&#x305F;&#x3044;</pr></trd>,
-    <trd>&#x57FA;&#x5C64;  <pr>&#x304D;&#x305D;&#x3046;</pr></trd>,
-    <trd>&#x57FA;&#x8CEA;  <pr>&#x304D;&#x3057;&#x3064;</pr></trd>,
-    <trd>&#x57FA;&#x677F;  <pr>&#x304D;&#x3070;&#x3093;</pr></trd>
+    <trd>&#x4E0B;&#22320;  <pr>&#12375;&#x305F;&#12376;</pr></trd>,
+    <trd>&#x57FA;&#x76E4;  <pr>&#x304D;&#12400;&#12435;</pr></trd>,
+    <trd>&#x57FA;&#x4F53;  <pr>&#x304D;&#x305F;&#12356;</pr></trd>,
+    <trd>&#x57FA;&#x5C64;  <pr>&#x304D;&#x305D;&#12358;</pr></trd>,
+    <trd>&#x57FA;&#x8CEA;  <pr>&#x304D;&#12375;&#12388;</pr></trd>,
+    <trd>&#x57FA;&#x677F;  <pr>&#x304D;&#12400;&#12435;</pr></trd>
   </trdgrp>
   <trd lng="nl">substraat</trd>
   <trdgrp lng="pl">
@@ -90,21 +105,24 @@
     <trd>&#x43D;&c_i;&c_zh;&#x43D;&c_ib;&c_j; &c_sh;&c_a;&c_r;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x57FA;&#x6750; <pr>j&#x12B;c&#xE1;i</pr></trd>,
+    <trd>&#x57FA;&#26448; <pr>j&#x12B;c&#xE1;i</pr></trd>,
     <trd>&#x57FA;&#x5C42; <pr>j&#x12B;c&#xE9;ng</pr></trd>,
     <trd>&#x57FA;&#x5C64; <pr>j&#x12B;c&#xE9;ng</pr></trd>,
-    <trd>&#x5E95;&#x7269; <pr>d&#x1D0;w&#xF9;</pr></trd>,
+    <trd>&#x5E95;&#29289; <pr>d&#x1D0;w&#xF9;</pr></trd>,
     <trd>&#x886C;&#x5E95; <pr>ch&#xE8;nd&#x1D0;</pr></trd>,
     <trd>&#x896F;&#x5E95; <pr>ch&#xE8;nd&#x1D0;</pr></trd>,
-    <trd>&#x57FA;&#x7247; <pr>j&#x12B;pi&#xE0;n</pr></trd>,
+    <trd>&#x57FA;&#29255; <pr>j&#x12B;pi&#xE0;n</pr></trd>,
     <trd>&#x57FA;&#x5E95; <pr>j&#x12B;d&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2025/02/05 20:29:30
+Jeromo Vasxe: + snc lin
+
 versio 1.19 2023/11/21 18:33:17
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.18 2023/10/21 07:46:48
 revo: transskribo per <pr>
@@ -122,8 +140,5 @@ Revision 1.11  2014/03/31 15:10:23  revo
 Damien Brucker: +trd fr
 
 Revision 1.10  2009/10/18 16:30:31  revo
-Antonio Codazzi: +trd it
-
-Revision 1.9  2004/11/04 17:31:33  revo
 -->
 </vortaro>
