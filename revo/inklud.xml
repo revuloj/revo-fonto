@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: inklud.xml,v 1.25 2023/11/19 10:22:13 revo Exp $">
+<art mrk="$Id: inklud.xml,v 1.26 2025/02/19 06:34:55 revo Exp $">
 <kap>
   <rad>inklud</rad>/i
+  <fnt><bib>PIV1</bib></fnt>
 </kap>
 
 <drv mrk="inklud.0i">
@@ -22,7 +23,7 @@
       </ekz>
       <ekz>
         la misiistoj lastatempe volas <tld/>i e&ccirc; la gardantojn en la
-        rondon familian &#x2010; &ccirc;u pro kristana amo, &ccirc;u pro taktiko
+        rondon familian &ndash; &ccirc;u pro kristana amo, &ccirc;u pro taktiko
         <fnt>
           <aut>Sten Johansson</aut>: <vrk>Garantiulo</vrk>.
           <lok>En: Denaska kongresano, ISBN 91-7303-070-0, p.
@@ -30,6 +31,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="don.al0i">aldoni</ref>,
+      <ref cel="al.0igi">aligi</ref>,
+      <ref cel="implic.0i.iu">implici<sncref/></ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_u;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_c;&c_mol; &c_u; &c_s;&c_ja;&c_b;&c_je;</trd>,
       <trd>&c_u;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -88,9 +94,13 @@
           <aut>Sergio Pokrovskij</aut>: <vrk>Internaciismo kaj
           purismo</vrk>.
           <bib>LOdE</bib>. <lok>2000:10</lok>.
-        </fnt>
-      </ekz>.
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="hav.en0i">enhavi</ref>,
+      <ref cel="implic.0i.io">implici<sncref/></ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_u;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_c;&c_mol; <klr>(&c_u; &c_sh;&c_t;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>,
       <trd>&c_d;&c_a;&c_l;&c_u;&c_ch;&c_a;&c_c;&c_mol;</trd>
@@ -110,27 +120,30 @@
   </trdgrp>
   <trd lng="en">include</trd>
   <trd lng="es">incluir</trd>
-  <trd lng="ja">&#x542B;&#x3093;&#x3067;&#x3044;&#x308B;  <pr>&#x3075;&#x304F;&#x3093;&#x3067;&#x3044;&#x308B;</pr></trd>
+  <trd lng="ja">&#21547;&#12435;&#12391;&#12356;&#12427;  <pr>&#12405;&#12367;&#12435;&#12391;&#12356;&#12427;</pr></trd>
   <trdgrp lng="sk">
     <trd>obsahova&tcaron;</trd>,
     <trd>zahrnova&tcaron;</trd>
   </trdgrp>
   <trd lng="uk">&c_v;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_i;</trd>
   <trdgrp lng="zh">
-    <trd>&#x5167;&#x542B; <pr>n&#xE8;ih&#xE1;n</pr></trd>,
-    <trd>&#x5305;&#x62EC; <pr>b&#x101;oku&#xF2;</pr></trd>,
-    <trd>&#x5305;&#x7F57; <pr>b&#x101;olu&#xF3;</pr></trd>,
-    <trd>&#x542B;&#x62EC; <pr>h&#xE1;ngu&#x101;</pr></trd>,
-    <trd>&#x56CA;&#x62EC; <pr>n&#xE1;ngku&#xF2;</pr></trd>,
-    <trd>&#x62EC; <pr>ku&#xF2;</pr></trd>,
-    <trd>&#x6536;&#x5217; <pr>sh&#x14D;uli&#xE8;</pr></trd>,
-    <trd>&#x5F52;&#x5165; <pr>gu&#x12B;r&#xF9;</pr></trd>,
-    <trd>&#x6DB5; <pr>h&#xE1;n</pr></trd>
+    <trd>&#20839;&#21547; <pr>n&egrave;ih&aacute;n</pr></trd>,
+    <trd>&#21253;&#25324; <pr>b&amacron;oku&ograve;</pr></trd>,
+    <trd>&#21253;&#32599; <pr>b&amacron;olu&oacute;</pr></trd>,
+    <trd>&#21547;&#25324; <pr>h&aacute;ngu&amacron;</pr></trd>,
+    <trd>&#22218;&#25324; <pr>n&aacute;ngku&ograve;</pr></trd>,
+    <trd>&#25324; <pr>ku&ograve;</pr></trd>,
+    <trd>&#25910;&#21015; <pr>sh&omacron;uli&egrave;</pr></trd>,
+    <trd>&#24402;&#20837; <pr>gu&imacron;r&ugrave;</pr></trd>,
+    <trd>&#28085; <pr>h&aacute;n</pr></trd>
   </trdgrp>
 </drv>
 </art>
   <!--
   $Log$
+versio 1.26 2025/02/19 06:34:55
+Wolfram Diestel: +fnt, ref
+
 versio 1.24 2023/11/17 09:26:18
 Dmitri Gabinski: + trd be
 
@@ -150,8 +163,5 @@ versio 1.18 2022/03/23 05:40:27
 Noam Mohr: +trd en inkludi
 
   Revision 1.15  2015/07/04 08:37:36  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.14  2015/06/29 16:33:15  revo
 -->
 </vortaro>
