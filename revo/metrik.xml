@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: metrik.xml,v 1.28 2024/03/12 21:22:00 revo Exp $">
+<art mrk="$Id: metrik.xml,v 1.29 2025/03/06 19:29:33 revo Exp $">
 <kap>
 <ofc>2</ofc>
 <rad>metrik</rad>/o
-</kap>
+<fnt><bib>JED</bib></fnt></kap>
 <drv mrk="metrik.0o">
   <kap><tld/>o</kap>
   <snc mrk="metrik.0o.POE">
@@ -34,13 +34,13 @@
       <frm am="d"><k>d</k></frm> de <frm am="bb M xx bb M"><g>M</g>&#xD7;<g>M</g></frm> al la aro de
       pozitivaj reeloj, ke por &ccirc;iuj elementoj
       <frm am="x,y,z in bb M"><k>x</k>, <k>y</k>,
-      <k>z</k>&#8712;<g>M</g></frm>
+      <k>z</k>&#x2208;<g>M</g></frm>
       veras, ke:
       (1) <frm am="d(x,y)=0"><k>d</k>(<k>x</k>,<k>y</k>) = 0</frm>,
          se kaj nur se <frm am="x=y"><k>x</k> = <k>y</k></frm>;
       (2) <frm am="x(x,y)=d(y,x)"><k>d</k>(<k>x</k>,<k>y</k>) = <k>d</k>(<k>y</k>,<k>x</k>)</frm>;
       (3) <frm am="d(x,z) le d(x,y)+d(y,z)"><k>d</k>(<k>x</k>,<k>z</k>)
-      &#8804;
+      &#x2264;
       <k>d</k>(<k>x</k>,<k>y</k>)+<k>d</k>(<k>y</k>,<k>z</k>)</frm>:
       <ekz>
         la <ref cel="valor.absoluta0o">absoluta valoro</ref> de la
@@ -79,9 +79,9 @@
   <trd lng="en">metric</trd>
   <trd lng="hu">metrika</trd>
   <trdgrp lng="ja">
-    <trd>&#x97FB;&#x5F8B;&#x5B66;  <pr>&#12356;&#12435;&#x308A;&#12388;&#x304C;&#x304F;</pr></trd>,
-    <trd>&#x8A08;&#x91CF;  <pr>&#12369;&#12356;&#x308A;&#12423;&#12358;</pr></trd>,
-    <trd>&#x8DDD;&#x96E2;  <pr>&#x304D;&#12423;&#x308A;</pr></trd>
+    <trd>&#x97FB;&#x5F8B;&#x5B66;  <pr>&#x3044;&#x3093;&#x308A;&#x3064;&#x304C;&#x304F;</pr></trd>,
+    <trd>&#x8A08;&#x91CF;  <pr>&#x3051;&#x3044;&#x308A;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x8DDD;&#x96E2;  <pr>&#x304D;&#x3087;&#x308A;</pr></trd>
   </trdgrp>
   <trd lng="nl">metriek</trd>
   <trd lng="pt">m&eacute;trica</trd>
@@ -92,9 +92,9 @@
     <trd>&#x683C;&#x97F5;&#x5B66; <pr>g&#xE9;y&#xF9;nxu&#xE9;</pr></trd>,
     <trd>&#x683C;&#x97FB;&#x5B78; <pr>g&#xE9;y&#xF9;nxu&#xE9;</pr></trd>,
     <trd>&#x7BC0;&#x594F;&#x5B78; <pr>ji&#xE9;z&#xF2;uxu&#xE9;</pr></trd>,
-    <trd>&#33410;&#x594F;&#x5B66; <pr>ji&#xE9;z&#xF2;uxu&#xE9;</pr></trd>,
-    <trd>&#x516C;&#21046; <pr>g&#x14D;ngzh&#xEC;</pr></trd>,
-    <trd>&#x7C73;&#21046; <pr>m&#x1D0;zh&#xEC;</pr></trd>
+    <trd>&#x8282;&#x594F;&#x5B66; <pr>ji&#xE9;z&#xF2;uxu&#xE9;</pr></trd>,
+    <trd>&#x516C;&#x5236; <pr>g&#x14D;ngzh&#xEC;</pr></trd>,
+    <trd>&#x7C73;&#x5236; <pr>m&#x1D0;zh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 </art>
