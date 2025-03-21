@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: neuxron.xml,v 1.14 2024/01/29 15:21:35 revo Exp $">
+<art mrk="$Id: neuxron.xml,v 1.15 2025/03/21 22:29:32 revo Exp $">
 <kap>
   <rad>ne&ubreve;ron</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,7 +10,7 @@
   <snc mrk="neuxron.0o.FIZL">
     <uzo tip="fak">FIZL</uzo>
     <dif>
-      <ref tip="super" cel="cxel.nervo0o.FIZL">Nervo&ccirc;elo</ref> peranta 
+      <ref tip="super" cel="cxel.nervo0o.FIZL">Nervo&ccirc;elo</ref> peranta
       nervajn impulsojn:
       <ekz>
         polemiko estas sana ekzerco por niaj <tld/>oj
@@ -22,13 +22,31 @@
         </fnt>;
       </ekz>
       <ekz>
-        kvankam iliaj <tld/>oj normale funkcias, kaj ilia pensado estas 
+        kvankam iliaj <tld/>oj normale funkcias, kaj ilia pensado estas
         klara kaj preciza, ties esprimon malhelpas nepovo, handikapo
         <fnt>
           <aut>C. Piron</aut>,
           <vrk><url ref="http://www.esperanto-sat.info/article935.html">
           Lingvoj, cerbo kaj publika sano</url></vrk>,
           <lok>SAT-Amikaro, [2007]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="neuxron.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Matematika a&ubreve; komputika elemento, kiu ricevas pesitajn informojn de aliaj elementoj
+      kaj depende je iliaj valoroj eligas rezulton:
+      <ekz>
+        artefaritaj <tld/>oj povas ricevi, prilabori kaj elsendi informojn
+        <fnt>
+          <aut>J. Florkin</aut>
+          <vrk><url
+          ref="https://julienflorkin.com/eo/technology/artificial-intelligence/neuromorphic-systems/">
+          Gravaj Aspektoj pri La Sekva Evoluo de Artefarita Inteligenteco</url></vrk>
+          <lok>2024</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -47,20 +65,23 @@
   <trd lng="nl">neuron</trd>
   <trd lng="pl">neuron</trd>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x435;&#x439;&#x440;&#x43E;&#x43D;</trd>,
-    <trd>&#x43D;&#x435;&#x432;&#x440;&#x43E;&#x43D;</trd>
+    <trd>&#x43D;&c_je;&c_j;&c_r;&#x43E;&#x43D;</trd>,
+    <trd>&#x43D;&c_je;&c_v;&c_r;&#x43E;&#x43D;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x795E;&#x7D93;&#x7D30;&#x80DE; <pr>sh&#xE9;nj&#x12B;ngx&#xEC;b&#x101;o</pr></trd>,
-    <trd>&#x795E;&#x7ECF;&#x7EC6;&#x80DE; <pr>sh&#xE9;nj&#x12B;ngx&#xEC;b&#x101;o</pr></trd>,
-    <trd>&#x795E;&#x7D93;&#x5143; <pr>sh&#xE9;nj&#x12B;ngyu&#xE1;n</pr></trd>,
-    <trd>&#x795E;&#x7ECF;&#x5143; <pr>sh&#xE9;nj&#x12B;ngyu&#xE1;n</pr></trd>
+    <trd>&#x795E;&#x7D93;&#x7D30;&#x80DE; <pr>sh&#xE9;nj&#x12B;ngx&#xEC;b&amacron;o</pr></trd>,
+    <trd>&#x795E;&#x7ECF;&#x7EC6;&#x80DE; <pr>sh&#xE9;nj&#x12B;ngx&#xEC;b&amacron;o</pr></trd>,
+    <trd>&#x795E;&#x7D93;&#20803; <pr>sh&#xE9;nj&#x12B;ngyu&#xE1;n</pr></trd>,
+    <trd>&#x795E;&#x7ECF;&#20803; <pr>sh&#xE9;nj&#x12B;ngyu&#xE1;n</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.15 2025/03/21 22:29:32
+Jeromo Vasxe: + snc mat komp
+
 versio 1.13 2022/05/01 16:20:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -80,8 +101,5 @@ Revision 1.6  2009/09/11 16:30:58  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.5  2009/09/01 04:53:53  revo
-Wieland Pusch: +trd bg
-
-Revision 1.4  2009/08/30 16:31:05  revo
 -->
 </vortaro>
