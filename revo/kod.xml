@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kod.xml,v 1.59 2025/03/21 18:38:20 revo Exp $">
+<art mrk="$Id: kod.xml,v 1.60 2025/03/21 20:29:48 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>kod</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -345,13 +345,17 @@
     <dif>
       Grupo da signoj, prezentanta koditan informon:
       <ekz>
-        En ser&ccirc;esprimoj vi povas uzi diversajn specialajn <tld/>a&jcirc;ojn
+        en ser&ccirc;esprimoj vi povas uzi diversajn specialajn <tld/>a&jcirc;ojn
         <fnt><vrk><url ref="https://tekstaro.com/tekstaro.html">Tekstaro de Esperanto
         (Instrukcio)</url></vrk></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_o;&c_d;</trd>
+  <trdgrp lng="de">
+    <trd>Code <klr>(Text)</klr></trd>,
+    <trd>codierter Text</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>code</trd>,
     <trd>encoded message</trd>
@@ -636,6 +640,10 @@
   <trd lng="ru">&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
   <trd lng="sk">zak&oacute;dovanie</trd>
   <trd lng="cs">zak&oacute;dov&aacute;n&iacute;</trd>
+<trdgrp lng="de">
+  <trd>Kodierung</trd>,
+  <trd>Kodrepr&auml;sentation</trd>
+</trdgrp>
 </drv>
 
 <drv mrk="kod.0rompisto">
@@ -700,7 +708,7 @@
   <trd lng="ja">&#x30AF;&#x30E9;&#x30C3;&#x30AB;&#x30FC;</trd>
 </drv>
 
-<drv mrk="kod.fonto0">
+<drv mrk="kod.fonto0o">
   <kap>fonto<tld/>o, <var><kap>font<tld/>o</kap></var></kap>
   <snc mrk="kod.fonto0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
@@ -718,7 +726,9 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="progra.font0o">fontprogramo</ref>
   </snc>
+  <trd lng="de">Quellcode</trd>
   <trdgrp lng="fr">
     <trd>code source</trd>,
     <trd>programme source</trd>
@@ -891,6 +901,9 @@
 </art>
 <!--
 $Log$
+versio 1.60 2025/03/21 20:29:48
+Wolfram Diestel: kor. drv-mrk, +trd de
+
 versio 1.59 2025/03/21 18:38:20
 Jeromo Vasxe: + fonto~o
 
@@ -910,8 +923,5 @@ versio 1.52 2023/05/14 05:27:19
 Sergio Pokrovskij: + ekz, TEZ
 
 versio 1.51 2023/05/14 03:25:41
-Sergio Pokrovskij: +ekz, +rim
-
-versio 1.50 2023/05/04 22:28:09
 -->
 </vortaro>
