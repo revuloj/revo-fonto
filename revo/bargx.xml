@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bargx.xml,v 1.22 2025/03/02 11:21:23 revo Exp $">
+<art mrk="$Id: bargx.xml,v 1.23 2025/03/24 08:35:24 revo Exp $">
 <kap>
   <rad>bar&gcirc;</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
@@ -10,18 +10,34 @@
   <snc mrk="bargx.0o.SHI">
     <uzo tip="fak">SHI</uzo>
     <dif>
-      &Scirc;ar&gcirc;boato, kun plata fundo, uzata en havenoj, sur
-      riveroj
-      a&ubreve; kanaloj:
+      <ref tip="super" cel="boat.sxargx0o">&Scirc;ar&gcirc;boato</ref>, kun plata fundo, uzata en havenoj, sur
+      riveroj a&ubreve; kanaloj:
       <ekz>
-        Post jaro da lernado, li trovas laborlokon en nederlanda
+        post jaro da lernado, li trovas laborlokon en nederlanda
         river<tld/>o
         <fnt><aut>S. MacGill</aut>, <vrk>Rutine tra
         tumulto</vrk>, <bib>Monato</bib>, <lok>2002:4, p.
         20a</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="bark.0o">barko</ref>
+    <refgrp tip="vid">
+      <ref cel="bark.0o">barko</ref>,
+      <ref cel="boat.platfunda0o">platfunda boato</ref>
+    </refgrp>
+    <rim>
+      Ne uzu kun la senco de barko:
+      <ekz>
+        la plej bela objekto estas <mis>re&gcirc;a bar&gcirc;o</mis>, kiun veturigis 78 remistoj kaj kiun
+        komandis re&gcirc;ino Maria la 1a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>William Simcock</aut>
+          <vrk><url ref="&Monato;/2003/007873.html"
+              >Impresoj pri Portugalio</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </rim>
     <adm>
       Kelkaj lingvoj distingas inter bar&gcirc;o kun
       a&ubreve; sen propra movrimedo. &Scirc;ajnas, ke
@@ -45,17 +61,17 @@
     <trd>p&eacute;niche</trd>
   </trdgrp>
   <trdgrp lng="he">
-    <trd>&#x5D3;&#x5D5;&#x5B9;&#x5D1;&#x5B0;&#x5E8;&#x5B8;&#x5D4;</trd>,
-    <trd>&#x5E1;&#x5D9;&#x5E8;&#x5EA; &#x5D2;&#x5E8;&#x5E8;</trd>
+    <trd>&dalet;&vav;&#1465;&bet;&#1456;&resh;&#1464;&he;</trd>,
+    <trd>&samekh;&yod;&resh;&tav; &gimel;&resh;&resh;</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>b&aacute;rka</trd>,
     <trd>usz&aacute;ly</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x5E73;&#x5E95;&#x306E;&#x8377;&#x8239;  <pr>&#x3072;&#x3089;&#x305D;&#x3053;&#x306E;&#x306B;&#x305B;&#x3093;</pr></trd>,
-    <trd>&#x306F;&#x3057;&#x3051;</trd>,
-    <trd>&#x30D0;&#x30FC;&#x30B8;</trd>
+    <trd>&#24179;&#24213;&#12398;&#33655;&#33337;  <pr>&#12402;&#12425;&#12381;&#12371;&#12398;&#12395;&#12379;&#12435;</pr></trd>,
+    <trd>&#12399;&#12375;&#12369;</trd>,
+    <trd>&#12496;&#12540;&#12472;</trd>
   </trdgrp>
   <trd lng="nl">aak</trd>
   <trdgrp lng="pl">
@@ -68,7 +84,7 @@
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_b;&c_a;&c_r;&c_zh;&c_a;</trd>,
-    <trd>&c_sh;&c_a;&#x43B;&c_a;&#x43D;&c_d;&c_a;</trd>
+    <trd>&c_sh;&c_a;&c_l;&c_a;&c_n;&c_d;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -89,14 +105,21 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_r;&c_zh;&c_a; <klr tip="amb">(&c_n;&c_je;&c_s;&c_a;&c_m;&c_a;&c_h;&c_o;&c_d;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trdgrp lng="de">
+    <trd>Treidelkahn</trd>,
+    <trd>Schleppkahn</trd>
+  </trdgrp>
   <trd lng="fr">coche d'eau</trd>
   <trd lng="pl">holownik <klr>(bez nap&eogonek;du)</klr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2025/03/24 08:35:24
+Wolfram Diestel: +ref, trd de, rim
+
 versio 1.21 2024/05/11 01:26:16
-Vito Redsky: + trd pl 
+Vito Redsky: + trd pl
 
 versio 1.20 2023/10/14 08:39:48
 revo: transskribo per <pr>
@@ -114,8 +137,5 @@ Revision 1.12  2003/11/19 20:02:43  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2003/03/27 17:31:24  revo
-Ulrich Fellmann: + 4 trd=de
-
-Revision 1.10  2003/01/10 17:32:44  revo
 -->
 </vortaro>
