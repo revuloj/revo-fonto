@@ -1,15 +1,29 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: burask.xml,v 1.9 2022/05/24 06:39:28 revo Exp $">
+<art mrk="$Id: burask.xml,v 1.10 2025/03/27 06:37:09 revo Exp $">
 <kap>
   <rad>burask</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="burask.0o">
   <kap><tld/>o</kap>
   <uzo tip="stl">RAR</uzo>
-  <snc mrk="burask.0o.MET">
-    <uzo tip="fak">MET</uzo>
+  <uzo tip="fak">MET</uzo>
+  <snc mrk="burask.0o.ciklono">
+    <dif>
+      <ref tip="sin" cel="ciklon.0o">Ciklono</ref>, <ref tip="dif" cel="tempes.0o">tempesto</ref>:
+      <ekz>
+        efektive, <tld/>oj kaj kontra&ubreve;ciklonoj agas tute sendepende de la veteraj mapoj
+        kaj fizikistaj kalkuloj
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Blogo de eksedzo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Unwetter</trd>
+  </snc>
+  <snc mrk="burask.0o.ventopusxo">
     <dif>
       <ref tip="dif" cel="pusx.vento0o.MET">Ventopu&scirc;o</ref>:
       <ekz>
@@ -30,23 +44,29 @@
         </fnt>.
       </ekz>
     </dif>
+    <!-- forman maloftan traduku per malofta&jcirc;o se tia ekzistas -->
+    <trd lng="be">&c_b;&c_u;&c_r;&c_a;&c_n;</trd>
+    <trd lng="cs">pl&iacute;skanice</trd>
+    <trd lng="de">Windb&ouml;</trd>
+    <trd lng="en">squall</trd>
+    <trd lng="es">borrasca</trd>
+    <trdgrp lng="fr">
+      <trd>rafale</trd>,
+      <trd>bourrasque</trd>
+    </trdgrp>
+    <trd lng="nl">windstoot</trd>
+    <trd lng="sk">&ccaron;&lcaron;apkanica</trd>
+    <trd lng="uk">&c_s;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_v;&c_ib;&c_t;&c_je;&c_r; &c_z; &c_d;&c_o;&c_shch;&c_je;&c_m;
+    &c_a;&c_b;&c_o;&nbsp;&c_s;&c_n;&c_ib;&c_g;&c_o;&c_m;</trd>
   </snc>
-  <!-- forman maloftan traduku per malofta&jcirc;o se tia ekzistas -->
-  <trd lng="be">&c_b;&c_u;&c_r;&c_a;&c_n;</trd>
-  <trd lng="de">Windb&ouml;</trd>
-  <trd lng="en">squall</trd>
-  <trd lng="es">borrasca</trd>
-  <trd lng="fr">rafale</trd>
-  <trd lng="nl">windstoot</trd>
-  <trd lng="sk">&ccaron;&lcaron;apkanica</trd>
-  <trd lng="cs">pl&iacute;skanice</trd>
-  <trd lng="uk">&c_s;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&c_j; &c_v;&c_ib;&c_t;&c_je;&c_r; &c_z; &c_d;&#x43E;&c_shch;&c_je;&#x43C;
-  &c_a;&c_b;&#x43E;&#xA0;&c_s;&#x43D;&c_ib;&c_g;&#x43E;&#x43C;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.10 2025/03/27 06:37:09
+Wolfram Diestel: +snc ciklono, tempesto (laŭ kaj plia ekz PIV)
+
 versio 1.9 2022/05/24 06:39:28
 Dmitri Gabinski: + trd be
 
@@ -66,6 +86,5 @@ Revision 1.2  2014/12/03 21:10:10  revo
 Filip van Laenen: +trd(nl)
 
 Revision 1.1  2014/11/28 23:11:59  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>
