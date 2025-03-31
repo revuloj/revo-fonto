@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cert.xml,v 1.136 2025/03/15 18:33:17 revo Exp $">
+<art mrk="$Id: cert.xml,v 1.137 2025/03/31 14:31:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>cert</rad>/a <fnt><bib>UV</bib></fnt>
@@ -76,6 +76,7 @@
     <trd lng="nl">zeker</trd>
     <trd lng="no">sikker</trd>
     <trd lng="pl">pewny</trd>
+    <trd lng="ro">cert</trd>
     <trd lng="ru">&c_u;&c_v;&c_je;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
   <snc mrk="cert.0a.nedubebla">
@@ -135,6 +136,7 @@
       <trd>niew&aogonek;tpliwy</trd>,
       <trd>bezsprzeczny</trd>
     </trdgrp>
+    <trd lng="ro">desigur</trd>
     <trdgrp lng="ru">
       <trd>&c_n;&c_je;&c_s;&c_o;&c_m;&c_n;&c_je;&c_n;&c_n;&c_y;&c_j;
       </trd>,
@@ -146,7 +148,8 @@
     <dif>
       Tia, ke oni ne povas perdi a&ubreve; eviti &gcirc;in; <ref cel="garant.0i.igi_certa">garantiita</ref>:
       <ekz>
-        vi timos tage kaj nokte, kaj vi ne estos <tld/>a <klr>(<ref cel="sekur.0a">sekura</ref>)</klr>
+        vi timos tage kaj nokte, kaj vi ne estos <tld/>a <klr>(<ref
+        cel="sekur.0a">sekura</ref>)</klr>
         pri via vivo
         <fnt>
           <bib>MT</bib>
@@ -369,8 +372,10 @@
   <trd lng="ne">&#2344;&#2367;&#2358;&#2381;&#2330;&#2367;&#2340;</trd>
   <trd lng="ny">ena</trd>
   <trd lng="pa">&#2581;&#2625;&#2589; &#2582;&#2622;&#2616;</trd>
+  <trd lng="pl">pewny</trd>
   <trd lng="ps">&a_d; &#1665;&a_A;&a_n;&#1707;&#1683;&a_w;</trd>
   <trd lng="pt">certo</trd>
+  <trd lng="ro">cert</trd>
   <trd lng="rw">runaka</trd>
   <trd lng="sd">&#1706;&a_j;&a_h;&a_h;</trd>
   <trd lng="si">&#3463;&#3501;&#3536;&#3512;&#3530;</trd>
@@ -567,6 +572,7 @@
     <trd>jasne<klr> (pot.)</klr></trd>
   </trdgrp>
   <trd lng="pt">certamente</trd>
+  <trd lng="ro">&icirc;n mod sigur</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_je;&c_s;&c_o;&c_m;&c_n;&c_je;&c_n;&c_n;&c_o;</trd>,
     <trd>&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;</trd>,
@@ -647,9 +653,8 @@
     </trdgrp>
     <trd lng="id"><baz>yakin</baz>keyakinan</trd>
     <trd lng="nl">zekerheid</trd>
-    <trdgrp lng="pl">
-      <trd>pewno&sacute;&cacute;</trd>
-    </trdgrp>
+    <trd lng="pl">pewno&sacute;&cacute;</trd>
+    <trd lng="ro">certitudine</trd>
     <trd lng="ru">
     &c_u;&c_v;&c_je;&c_r;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
@@ -818,6 +823,8 @@
     </trdgrp>
     <trd lng="hu">biztos&iacute;t</trd>
     <trd lng="id"><baz>yakin</baz>meyakinkan</trd>
+    <trd lng="pl">po&sacute;wiadcza&cacute;</trd>
+    <trd lng="ro">certifica</trd>
     <trdgrp lng="ru">
       <trd>&c_u;&c_v;&c_je;&c_r;&c_ja;&c_t;&c_mol;</trd>,
       <trd>&c_u;&c_b;&c_je;&c_zh;&c_d;&c_a;&c_t;&c_mol;</trd>
@@ -1208,6 +1215,10 @@
   </trdgrp>
   <trd lng="id"><ind>percaya</ind> diri</trd>
   <trd lng="ja">&#33258;&#20449;&#12364;&#12354;&#12427;  <pr>&#12376;&#12375;&#12435;&#12364;&#12354;&#12427;</pr></trd>
+  <trdgrp lng="pl">
+    <trd>pewny siebie</trd>,
+    <trd>zarozumia&lstroke;y</trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_s;&c_a;&c_m;&c_o;&c_v;&c_p;&c_je;&c_v;&c_n;&c_je;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_s;&c_a;&c_m;&c_o;&c_n;&c_a;&c_d;&c_ib;&c_ja;&c_n;&c_i;&c_j;</trd>
@@ -1260,21 +1271,25 @@
     <trd>ganz <ind>gewiss</ind></trd>,
     <trd>todsicher</trd>
   </trdgrp>
-<trdgrp lng="en">
-  <trd>most <ind>certainly</ind></trd>,
-  <trd>most <ind>definitely</ind></trd>,
-  <trd>doubtless</trd>,
-  <trd>no <ind>doubt</ind></trd>,
-  <trd>without a <ind>doubt</ind></trd>
-</trdgrp>
+  <trdgrp lng="en">
+     <trd>most <ind>certainly</ind></trd>,
+     <trd>most <ind>definitely</ind></trd>,
+     <trd>doubtless</trd>,
+     <trd>no <ind>doubt</ind></trd>,
+     <trd>without a <ind>doubt</ind></trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#12414;&#12387;&#12383;&#12367;&#12418;&#12387;&#12390;</trd>,
     <trd>&#12365;&#12387;&#12392;&#30906;&#12363;&#12395;  <pr>&#12365;&#12387;&#12392;&#12383;&#12375;&#12363;&#12395;</pr></trd>
   </trdgrp>
+  <trd lng="pl">z ca&lstroke;&aogonek; <ind>pewno&sacute;ci&aogonek;</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.137 2025/03/31 14:31:37
+Vito Redsky: trd pl ro
+
 versio 1.136 2025/03/15 18:33:17
 Robert Baruch: +en
 
@@ -1294,8 +1309,5 @@ versio 1.128 2023/04/29 18:29:12
 Paul Peeraerts: Steloj -> monato
 
 versio 1.127 2022/11/24 07:26:55
-Dmitri Gabinski: + trd be
-
-versio 1.126 2022/11/11 06:42:43
 -->
 </vortaro>
