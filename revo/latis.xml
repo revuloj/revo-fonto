@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: latis.xml,v 1.17 2025/03/06 16:35:07 revo Exp $">
+<art mrk="$Id: latis.xml,v 1.18 2025/04/02 05:08:27 revo Exp $">
 <kap>
   <rad>latis</rad>/o
 <fnt><bib>PVEF</bib></fnt></kap>
@@ -44,18 +44,18 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,vv,^^)">(<g>E</g>,&#x2228;,&#x2227;)</frm>, ke amba&ubreve; operacioj
+      <frm am="(bb E,vv,^^)">(<g>E</g>,&#8744;,&#8743;)</frm>, ke amba&ubreve; operacioj
       estas
       <ref cel="komut.0eca.operacio">komutecaj</ref> kaj
       <ref cel="asoci.0eca.operacio">asociecaj</ref>, kaj ke
-      <frm am="x vv(x ^^y)=x^^(x vv y)=x"><k>x</k>&#x2228;(<k>x</k>&#x2227;<k>y</k>) =
-      <k>x</k>&#x2227;(<k>x</k>&#x2228;<k>y</k>) = <k>x</k></frm>, kiuj ajn 
-      estas <frm am="x,y in bb E"><k>x</k>,<k>y</k>&#x2208;<g>E</g></frm>
+      <frm am="x vv(x ^^y)=x^^(x vv y)=x"><k>x</k>&#8744;(<k>x</k>&#8743;<k>y</k>) =
+      <k>x</k>&#8743;(<k>x</k>&#8744;<k>y</k>) = <k>x</k></frm>, kiuj ajn 
+      estas <frm am="x,y in bb E"><k>x</k>,<k>y</k>&#8712;<g>E</g></frm>
       <klr> (sorbada regulo)</klr>:
       <ekz>
-        se <frm am="(bb E,vv,^^)">(<g>E</g>,&#x2228;,&#x2227;)</frm> estas <tld/>o,
+        se <frm am="(bb E,vv,^^)">(<g>E</g>,&#8744;,&#8743;)</frm> estas <tld/>o,
         anka&ubreve;
-        <frm am="(bb E,^^,vv)">(<g>E</g>,&#x2227;,&#x2228;)</frm> estas
+        <frm am="(bb E,^^,vv)">(<g>E</g>,&#8743;,&#8744;)</frm> estas
         <klr>(duala <tld/>o)</klr>;
       </ekz>
       <ekz>
@@ -72,7 +72,7 @@
       <ref cel="komple2.0a.latiso">kompleta</ref>.
     </refgrp>
     <rim>
-      La rilato <frm am="x^^y=x"><k>x</k>&#x2227;<k>y</k> = <k>x</k></frm>
+      La rilato <frm am="x^^y=x"><k>x</k>&#8743;<k>y</k> = <k>x</k></frm>
       difinas
       <ref cel="rilat.ordo0o">ordo-rilaton</ref>
       super <frm am="bb E"><g>E</g></frm>. Alternative kaj ekvivalente
@@ -80,13 +80,13 @@
       difini
       <tld/>on kiel tian <ref tip="super" cel="ar.orda0o">ordan
       aron</ref>
-      <frm am="(bb E,le)">(<g>E</g>,&#x2264;)</frm>, ke por ajnaj du elementoj 
+      <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>, ke por ajnaj du elementoj 
       <frm am="x,y"><k>x</k>, <k>y</k></frm> de &gcirc;i ekzistas iliaj 
       <ref cel="infim.0o">infimo</ref>
-      <klr>(signata per <frm am="x^^y"><k>x</k>&#x2227;<k>y</k></frm>)</klr>
+      <klr>(signata per <frm am="x^^y"><k>x</k>&#8743;<k>y</k></frm>)</klr>
       kaj 
       <ref cel="suprem.0o">supremo</ref>
-      <klr>(signata per <frm am="x vv y"><k>x</k>&#x2228;<k>y</k></frm>)</klr>.
+      <klr>(signata per <frm am="x vv y"><k>x</k>&#8744;<k>y</k></frm>)</klr>.
     </rim>
     <trdgrp lng="be">
       <trd>&c_k;&c_r;&c_a;&c_t;&c_a;</trd>,
@@ -103,33 +103,37 @@
       <trd>&c_s;&c_t;&c_r;&c_u;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>
     </trdgrp>
     <trdgrp lng="zh">
-    <trd>&#x683C;&#x5B50; <pr>g&#xE9;zi</pr></trd>,
-    <trd>&#x68C2; <pr>l&#xED;ng</pr></trd>,
-    <trd>&#x6AFA; <pr>l&#xED;ng</pr></trd>,
-    <trd>&#x67F5;&#x683C; <pr>sh&#x101;ng&#xE9;</pr></trd>,
-    <trd>&#x6805;&#x683C; <pr>sh&#x101;ng&#xE9;</pr></trd>
-  </trdgrp>
-</snc>
+      <trd>&#26684;&#23376; <pr>g&#233;zi</pr></trd>,
+      <trd>&#26818; <pr>l&#237;ng</pr></trd>,
+      <trd>&#27386; <pr>l&#237;ng</pr></trd>,
+      <trd>&#26613;&#26684; <pr>sh&#257;ng&#233;</pr></trd>,
+      <trd>&#26629;&#26684; <pr>sh&#257;ng&#233;</pr></trd>
+    </trdgrp>
+  </snc>
+  <rim>
+    La&#365; <fnt><bib>BL</bib></fnt>: Prefere diru <ke>krado</ke>.
+  </rim>
+
   <trdgrp lng="cs">
     <trd>m&rcaron;&iacute;&zcaron;</trd>,
     <trd>s&iacute;&tcaron;ov&aacute; m&rcaron;&iacute;&zcaron;ka</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x683C;&#x5B50;  <pr>&#x3053;&#x3046;&#x3057;</pr></trd>,
-    <trd>&#x7DB2;&#x683C;&#x5B50;  <pr>&#x3042;&#x307F;&#x3053;&#x3046;&#x3057;</pr></trd>,
-    <trd>&#x30E9;&#x30C1;&#x30B9;</trd>,
-    <trd>&#x91D1;&#x7DB2;  <pr>&#x304B;&#x306A;&#x3042;&#x307F;</pr></trd>,
-    <trd>&#x683C;&#x5B50;&#x72B6;&#x306E;&#x69CB;&#x9020;  <pr>&#x3053;&#x3046;&#x3057;&#x3058;&#x3087;&#x3046;&#x306E;&#x3053;&#x3046;&#x305E;&#x3046;</pr></trd>
+    <trd>&#26684;&#23376;  <pr>&#12371;&#12358;&#12375;</pr></trd>,
+    <trd>&#32178;&#26684;&#23376;  <pr>&#12354;&#12415;&#12371;&#12358;&#12375;</pr></trd>,
+    <trd>&#12521;&#12481;&#12473;</trd>,
+    <trd>&#37329;&#32178;  <pr>&#12363;&#12394;&#12354;&#12415;</pr></trd>,
+    <trd>&#26684;&#23376;&#29366;&#12398;&#27083;&#36896;  <pr>&#12371;&#12358;&#12375;&#12376;&#12423;&#12358;&#12398;&#12371;&#12358;&#12382;&#12358;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>dr&ocirc;ten&eacute; pletivo</trd>,
     <trd>mre&zcaron;a</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x440;&#x435;&#x448;&#x456;&#x442;&#x43A;&#x430;</trd>,
-    <trd>&#x440;&#x435;&#x448;&#x456;&#x442;&#x447;&#x430;&#x441;&#x442;&#x430; &#x437;&#x430;&#x433;&#x43E;&#x440;&#x43E;&#x434;&#x43A;&#x430;</trd>,
-    <trd>&#x448;&#x442;&#x430;&#x445;&#x435;&#x442;&#x438;</trd>,
-    <trd>&#x444;&#x435;&#x440;&#x43C;&#x430;</trd>
+    <trd>&#1088;&#1077;&#1096;&#1110;&#1090;&#1082;&#1072;</trd>,
+    <trd>&#1088;&#1077;&#1096;&#1110;&#1090;&#1095;&#1072;&#1089;&#1090;&#1072; &#1079;&#1072;&#1075;&#1086;&#1088;&#1086;&#1076;&#1082;&#1072;</trd>,
+    <trd>&#1096;&#1090;&#1072;&#1093;&#1077;&#1090;&#1080;</trd>,
+    <trd>&#1092;&#1077;&#1088;&#1084;&#1072;</trd>
   </trdgrp>
 </drv>
 </art>
