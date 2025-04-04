@@ -1,71 +1,75 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: numera.xml,v 1.24 2025/03/07 16:21:53 revo Exp $">
-    <kap>
-      <rad>numeral</rad>/o
-    <fnt><bib>JED</bib></fnt></kap>
-    <drv mrk="numera.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="numera.0o.gra">
-        <uzo tip="fak">GRA</uzo>
-        <dif>
-          Vorto a&ubreve; grupo da vortoj indikanta nombron a&ubreve; numeron,
-          <ref tip="sin" cel="nombr.0onomo">nombronomo</ref>:
-          <ekz>
-            unu, du, cent estas bazaj <tld/>oj;</ekz><ekz>
-            "mil sepcent tridek dua" estas orda <tld/>o.</ekz>
-        </dif>
-        <trd lng="be">&c_l;&c_ib;&c_ch;&c_e;&c_b;&c_n;&c_ib;&c_k;</trd>
-        <trd lng="de">Zahlwort</trd>
-        <trd lng="en">numeral</trd>
-        <trd lng="es">numeral</trd>
-        <trd lng="hu">sz&aacute;mn&eacute;v</trd>        
-        <trd lng="nl">telwoord</trd>
-        <trd lng="pl">liczebnik</trd>
-        <trd lng="ro">numeral</trd>
-        <trd lng="ru">&c_ch;&c_i;&c_s;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;</trd>
-        <trdgrp lng="zh">
-    <trd>&#x6570;&#x8BCD; <pr>sh&#xF9;c&#xED;</pr></trd>,
-    <trd>&#x6578;&#x8A5E; <pr>sh&#xF9;c&#xED;</pr></trd>
-  </trdgrp>
-</snc>
-      <snc mrk="numera.0o.komp">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          En programlingvo, teksta &ccirc;eno indikanta nombron a&ubreve; numeron
-          la&ubreve; <ref tip="malprt" cel="nombr.0osistemo">nombrosistemo</ref>:
-          <ekz>
-            3,14 estas reela <tld/>o, 1999 estas entjera <tld/>o.</ekz>
-        </dif>
-        <refgrp tip="prt">
-          <ref cel="cifer.0o">cifero</ref>,
-          <ref cel="sign.0umo.KOMP">signumo</ref>,
-          <ref cel="on.0komo">onpunkto</ref>.
-        </refgrp>
-        <trdgrp lng="en"><trd>numeral</trd>,
-          <trd>number denotation</trd>,
-          <trd>manifest constant</trd></trdgrp>
-        <trdgrp lng="hu">
-          <trd>sz&aacute;mn&eacute;v</trd>,
-          <trd>numer&aacute;l</trd>
-        </trdgrp>
-        <trd lng="nl">getal</trd>
-        <trd lng="pl">liczba</trd>
-        <trd lng="ro">num&abreve;r</trd>
-<trdgrp lng="ru"><trd>&c_i;&c_z;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_a;</trd>,
-          <trd>&c_s;&c_a;&c_m;&c_o;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_a;&c_ja; &c_k;&c_o;&c_n;&c_s;&c_t;&c_a;&c_n;&c_t;&c_a;</trd>
-          </trdgrp>
-      </snc>
+<art mrk="$Id: numera.xml,v 1.25 2025/04/04 15:46:02 revo Exp $">
+<kap>
+  <rad>numeral</rad>/o
+<fnt><bib>JED</bib></fnt></kap>
+<drv mrk="numera.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="numera.0o.gra">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      Vorto a&ubreve; grupo da vortoj indikanta nombron a&ubreve; numeron,
+      <ref tip="sin" cel="nombr.0onomo">nombronomo</ref>:
+      <ekz>
+        unu, du, cent estas bazaj <tld/>oj;</ekz><ekz>
+        "mil sepcent tridek dua" estas orda <tld/>o.</ekz>
+    </dif>
+    <trd lng="be">&c_l;&c_ib;&c_ch;&c_e;&c_b;&c_n;&c_ib;&c_k;</trd>
+    <trd lng="de">Zahlwort</trd>
+    <trd lng="en">numeral</trd>
+    <trd lng="es">numeral</trd>
+    <trd lng="hu">sz&aacute;mn&eacute;v</trd>        
+    <trd lng="nl">telwoord</trd>
+    <trd lng="pl">liczebnik</trd>
+    <trd lng="ro">numeral</trd>
+    <trd lng="ru">&c_ch;&c_i;&c_s;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;</trd>
+    <trdgrp lng="zh">
+      <trd>&#25968;&#35789; <pr>sh&#249;c&#237;</pr></trd>,
+      <trd>&#25976;&#35422; <pr>sh&#249;c&#237;</pr></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="numera.0o.komp">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      En programlingvo, teksta &ccirc;eno indikanta nombron a&ubreve; numeron
+      la&ubreve; <ref tip="malprt" cel="nombr.0osistemo">nombrosistemo</ref>:
+      <ekz>
+        3,14 estas reela <tld/>o, 1999 estas entjera <tld/>o.</ekz>
+    </dif>
+    <refgrp tip="prt">
+      <ref cel="cifer.0o">cifero</ref>,
+      <ref cel="sign.0umo.KOMP">signumo</ref>,
+      <ref cel="on.0komo">onpunkto</ref>.
+    </refgrp>
+    <trdgrp lng="en"><trd>numeral</trd>,
+      <trd>number denotation</trd>,
+      <trd>manifest constant</trd></trdgrp>
+    <trdgrp lng="hu">
+      <trd>sz&aacute;mn&eacute;v</trd>,
+      <trd>numer&aacute;l</trd>
+    </trdgrp>
+    <trd lng="nl">getal</trd>
+    <trd lng="pl">liczba</trd>
+    <trd lng="ro">num&abreve;r</trd>
+    <trdgrp lng="ru"><trd>&c_i;&c_z;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_a;</trd>,
+      <trd>&c_s;&c_a;&c_m;&c_o;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_a;&c_ja; &c_k;&c_o;&c_n;&c_s;&c_t;&c_a;&c_n;&c_t;&c_a;</trd>
+      </trdgrp>
+  </snc>
+  <rim>
+    La&#365; <fnt><bib>BL</bib></fnt>: Prefere diru <ke>nombrovorto</ke>.
+  </rim>
+
   <trdgrp lng="cs">
     <trd>numerale</trd>,
     <trd>&ccaron;&iacute;slice</trd>,
     <trd>&ccaron;&iacute;slovka <klr>(gramat.)</klr></trd>
   </trdgrp>
-  <trd lng="ja">&#x6570;&#x8A5E;  <pr>&#x3059;&#x3046;&#x3057;</pr></trd>
+  <trd lng="ja">&#25968;&#35422;  <pr>&#12377;&#12358;&#12375;</pr></trd>
   <trd lng="pt">numeral</trd>
   <trd lng="sk">&ccaron;&iacute;slovka</trd>
-  <trd lng="uk">&#x447;&#x438;&#x441;&#x43B;&#x456;&#x432;&#x43D;&#x438;&#x43A;</trd>
+  <trd lng="uk">&#1095;&#1080;&#1089;&#1083;&#1110;&#1074;&#1085;&#1080;&#1082;</trd>
 </drv>
   </art>
   <!--
