@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: blat.xml,v 1.32 2025/03/02 11:21:24 revo Exp $">
+<art mrk="$Id: blat.xml,v 1.33 2025/04/18 12:52:26 revo Exp $">
 <kap><ofc>*</ofc>
-<rad>blat</rad>/o<fnt><bib>UV</bib></fnt></kap>
+<rad>blat</rad>/o
+<fnt><bib>UV</bib></fnt></kap>
 <drv mrk="blat.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
     <dif>
       Iu el la ordo de insektoj, al kiu apartenas
-      <tld/>o <sncref ref="blat.0o.ZOO"/>.
+      <tld/>o<sncref ref="blat.0o.ZOO"/>.
     </dif>
     <trd lng="be">&c_t;&c_a;&c_r;&c_a;&c_k;&c_a;&c_n;</trd>
     <trd lng="de">Schabe</trd>
-    <trd lng="en">cockroach</trd>    
+    <trd lng="en">cockroach</trd>
     <trd lng="es">cucaracha</trd>
     <trd lng="fr">blatte</trd>
     <trd lng="he">&mem;&qof;&qof;</trd>
@@ -33,19 +34,44 @@
   <snc mrk="blat.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <tld/>edoj (<trd lng="la">Blatta</trd>),
+      <ref tip="lst" lst="voko:zoologiaj_genroj" cel="genr.0o.BIO">Genro</ref>
+      el familio <tld/>edoj (<trd lng="la">Blatta</trd>),
       ofte vivanta en kuirejoj, bakejoj ktp:
       <ekz>
-        verdire gastis &ccirc;e li pli ofte <tld/>oj ol
-        homoj<fnt><aut>Pejno
+        la <tld/>oj, &scirc;ajne, veki&gcirc;is, io susuras post la forno
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        verdire gastis &ccirc;e li pli ofte <tld/>oj ol homoj
+        <fnt><aut>Pejno
         Simono</aut>: <vrk>La lernemulo</vrk>,
         <bib>Monato</bib><lok>jaro
-        1999a, numero 6a, p. 23a</lok></fnt>.
+        1999a, numero 6a, p. 23a</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj havas estiel insektoj ne ok sed nur ses krurojn, pro kio simple ne
+        eblas vidi okkrurajn blatojn ie ajn
+        <fnt>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 12</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/1/11/Blatta_orientalis_-_Wilhelma_01.jpg/640px-Blatta_orientalis_-_Wilhelma_01.jpg"
+      prm="CC BY-SA 3.0"
+      >Orienta <tld/>o sur legomo
+        <fnt>
+          <aut>H. Zell, propra foto</aut>
+          <lok><url ref="&WCW;/File:Blatta_orientalis_-_Wilhelma_01.jpg"
+              >https://commons.wikimedia.org/wiki/File:Blatta_orientalis_-_Wilhelma_01.jpg</url></lok>
+        </fnt>
+    </bld>
     <trdgrp lng="be">
-      <trd>&c_t;&c_a;&c_r;&c_a;&c_k;&c_a;&c_n;</trd>, 
-      <trd>&c_p;&c_r;&c_u;&c_s;</trd>, 
+      <trd>&c_t;&c_a;&c_r;&c_a;&c_k;&c_a;&c_n;</trd>,
+      <trd>&c_p;&c_r;&c_u;&c_s;</trd>,
       <trd>&c_p;&c_r;&c_u;&c_s;&c_a;&c_k;</trd>
     </trdgrp>
     <trd lng="bg">&c_h;&c_l;&c_je;&c_b;&c_a;&c_r;&c_k;&c_i;</trd>
@@ -54,7 +80,7 @@
       <trd>kloreg</trd>
     </trdgrp>
     <trd lng="de">K&uuml;chenschabe</trd>
-    <trd lng="en">cockroach</trd>    
+    <trd lng="en">cockroach</trd>
     <trd lng="es">cucaracha</trd>
     <trdgrp lng="fr">
       <trd>blatte</trd>,
@@ -69,10 +95,10 @@
     <trd lng="nl">kakkerlak</trd>
     <trd lng="ru">&c_t;&c_a;&c_r;&c_a;&c_k;&c_a;&c_n;</trd>
     <trdgrp lng="zh">
-    <trd>&#x5C0F;&#x5F37; <pr>xi&#x1CE;oqi&#xE1;ng</pr></trd>,
-    <trd>&#x871A;&#x880A; <pr>f&#x11B;ili&#xE1;n</pr></trd>
-  </trdgrp>
-</snc>
+    <trd>&#23567;&#24375; <pr>xi&#462;oqi&aacute;ng</pr></trd>,
+      <trd>&#34586;&#34826; <pr>f&ecaron;ili&aacute;n</pr></trd>
+    </trdgrp>
+  </snc>
   <snc mrk="blat.0o.ic">
     <uzo tip="fak">ELE</uzo>
     <uzo tip="fak">KOMP</uzo>
@@ -81,10 +107,19 @@
       <ref cel="cirkvi.integra_0o">Integra cirkvito</ref>
       provizita je tega&jcirc;o kaj malgrandaj konektiloj por muntado:
       <ekz>
-        Intel unue ekmetis la staplomemoron en la saman <tld/>on kun la
-        procesoro<fnt><aut>Frank Arnaud</aut>: <vrk>Intel alfrontas
+        <nom>Intel</nom> unue ekmetis la staplomemoron en la saman <tld/>on kun la
+        procesoro
+        <fnt><aut>Frank Arnaud</aut>: <vrk>Intel alfrontas
         konkurencon</vrk>, <bib>Monato</bib><lok>jaro 2000a, numero 10a,
-        p. 16a</lok></fnt>.
+        p. 16a</lok></fnt>;
+      </ekz>
+      <ekz>
+        unuafoje en la historio &leftquot;cifereca pilolo&rightquot; estis aprobita por komercado, &gcirc;i estas
+        drogo, kiu enhavas spureblan <tld/>on (integran cirkviton)
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>KontakTEK</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_ch;&c_y;&c_p;</trd>
@@ -110,20 +145,23 @@
       <trd>chip</trd>
     </trdgrp>
     <trd lng="ru">&c_ch;&c_i;&c_p;</trd>
-    <trd lng="zh">&#x7535;&#x5B50;&#x82AF;&#x7247; <pr>di&#xE0;nz&#x1D0;x&#xEC;npi&#xE0;n</pr></trd>
+    <trd lng="zh">&#30005;&#23376;&#33455;&#29255; <pr>di&agrave;nz&#464;x&igrave;npi&agrave;n</pr></trd>
 </snc>
   <trd lng="bg">&c_h;&c_l;&c_je;&c_b;&c_a;&c_r;&c_k;&c_a;</trd>
   <trd lng="cs">&scaron;v&aacute;b</trd>
-  <trd lng="ja">&#x30B4;&#x30AD;&#x30D6;&#x30EA;</trd>
+  <trd lng="ja">&#12468;&#12461;&#12502;&#12522;</trd>
   <trd lng="sk">&scaron;v&aacute;b</trd>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x430;&#x440;&#x433;&#x430;&#x43D;</trd>,
-    <trd>&#x43F;&#x440;&#x443;&#x441;&#x430;&#x43A;</trd>
+    <trd>&c_t;&c_a;&c_r;&c_g;&c_a;&c_n;</trd>,
+    <trd>&c_p;&c_r;&c_u;&c_s;&c_a;&c_k;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
-$Log: blat.xml,v $
+$Log$
+versio 1.33 2025/04/18 12:52:26
+Wolfram Diestel: +ekz, bld
+
 versio 1.28 2020/04/04 11:10:21
 Damien Brucker: -eraro cxe cel en ref
 
@@ -143,8 +181,5 @@ Revision 1.23  2013/12/01 20:10:17  revo
 Jessica Grasso: +tr en
 
 Revision 1.22  2012/01/26 11:10:12  revo
-Antonio Codazzi: +trd it
-
-Revision 1.21  2009/03/12 17:32:09  revo
 -->
 </vortaro>
