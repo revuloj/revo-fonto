@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: testam.xml,v 1.44 2025/03/08 12:29:46 revo Exp $">
+<art mrk="$Id: testam.xml,v 1.45 2025/04/27 18:34:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>testament</rad>/o <fnt><bib>UV</bib></fnt>
@@ -11,7 +11,7 @@
   <snc mrk="testam.0o.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      <ref cel="skrib.0ajxo">Skriba&jcirc;o</ref> per kiu iu 
+      <ref cel="skrib.0ajxo">Skriba&jcirc;o</ref> per kiu iu
       persono deklaras siajn lastajn
       volojn kaj ordonas pri asigno de la postlasota
       hereda&jcirc;o:
@@ -57,7 +57,7 @@
       <trd>Letzter <ind>Wille</ind></trd>
     </trdgrp>
     <trd lng="en">will</trd>
-    <trd lng="fa">&a_w;&a_S;&f_y;&a_t;&#x200C;&a_n;&a_A;&a_m;&a_h;</trd>
+    <trd lng="fa">&a_w;&a_S;&f_y;&a_t;&zwnj;&a_n;&a_A;&a_m;&a_h;</trd>
     <trdgrp lng="hu">
       <trd>v&eacute;grendelet</trd>,
       <trd>testamentum</trd>
@@ -128,9 +128,9 @@
   </trdgrp>
   <trd lng="fr">testament</trd>
   <trdgrp lng="ja">
-    <trd>&#x907A;&#x8A00;  <pr>&#x3086;&#x3044;&#x3054;&#x3093;</pr></trd>,
-    <trd>&#x907A;&#x8A00;&#x72B6;  <pr>&#x3086;&#x3044;&#x3054;&#x3093;&#x3058;&#x3087;&#x3046;</pr></trd>,
-    <trd>&#x8056;&#x7D04;  <pr>&#x3072;&#x3058;&#x308A;&#x3084;&#x304F;</pr></trd>
+    <trd>&#36986;&#35328;  <pr>&#12422;&#12356;&#12372;&#12435;</pr></trd>,
+    <trd>&#36986;&#35328;&#29366;  <pr>&#12422;&#12356;&#12372;&#12435;&#12376;&#12423;&#12358;</pr></trd>,
+    <trd>&#32854;&#32004;  <pr>&#12402;&#12376;&#12426;&#12420;&#12367;</pr></trd>
   </trdgrp>
   <trd lng="nl">testament</trd>
   <trdgrp lng="sk">
@@ -146,15 +146,14 @@
     <trd>&c_z;&c_a;&c_v;&c_ib;&c_t;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x9057;&#x4E66; <pr>y&#xED;sh&#x16B;</pr></trd>,
-    <trd>&#x907A;&#x66F8; <pr>y&#xED;sh&#x16B;</pr></trd>,
-    <trd>&#x9057;&#x8A00; <pr>y&#xED;y&#xE1;n</pr></trd>,
-    <trd>&#x907A;&#x8A00; <pr>y&#xED;y&#xE1;n</pr></trd>,
-    <trd>&#x9057;&#x5631; <pr>y&#xED;zh&#x1D4;</pr></trd>,
-    <trd>&#x907A;&#x56D1; <pr>y&#xED;zh&#x1D4;</pr></trd>
+    <trd>&#36951;&#20070; <pr>y&iacute;sh&umacron;</pr></trd>,
+    <trd>&#36986;&#26360; <pr>y&iacute;sh&umacron;</pr></trd>,
+    <trd>&#36951;&#35328; <pr>y&iacute;y&aacute;n</pr></trd>,
+    <trd>&#36986;&#35328; <pr>y&iacute;y&aacute;n</pr></trd>,
+    <trd>&#36951;&#22065; <pr>y&iacute;zh&#468;</pr></trd>,
+    <trd>&#36986;&#22225; <pr>y&iacute;zh&#468;</pr></trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="testam.0i">
   <kap><tld/>i</kap>
@@ -185,7 +184,7 @@
       </ekz>
       <ekz>
         jen, tion &ccirc;i... &scirc;i <tld/>is, ke mi transdonu al vi
-        <fnt><aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen titolo</vrk>, 
+        <fnt><aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen titolo</vrk>,
         <lok>&ccirc;apitro 35a</lok></fnt>.
       </ekz>
     </dif>
@@ -193,9 +192,12 @@
     <trdgrp lng="de">
       <trd>testamentarisch <ind>vererben</ind></trd>,
       <trd>im <ind>Testament</ind> hinterlassen</trd>,
-      <trd>ver&#xAD;ga&#xAD;ben</trd>
+      <trd>ver­ga­ben</trd>
     </trdgrp>
-    <trd lng="en"><klr>(distribute by)</klr> will</trd>
+    <trdgrp lng="en">
+      <trd><klr>(distribute by)</klr> will</trd>,
+      <trd>leave <klr>(by a will)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>&ouml;r&ouml;k&uuml;l hagy</trd>,
       <trd>hagyom&aacute;nyoz</trd>
@@ -222,6 +224,7 @@
       </ekz>
     </dif>
     <trd lng="de">hinterlassen</trd>
+    <trd lng="en">leave <klr>(as if by a will)</klr></trd>
     <trd lng="hu">hagyom&aacute;nyoz</trd>
       <trd lng="nl">nalaten<klr tip="ind"> (een waarde)</klr></trd>
     <trdgrp lng="pl">
@@ -247,9 +250,9 @@
   <trd lng="fa">&a_w;&a_S;&f_y;&a_t; &f_k;&a_r;&a_d;&a_n;</trd>
   <trd lng="fr">l&eacute;guer</trd>
   <trdgrp lng="ja">
-    <trd>&#x907A;&#x8A00;&#x3059;&#x308B;  <pr>&#x3086;&#x3044;&#x3054;&#x3093;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x907A;&#x8D08;&#x3059;&#x308B;  <pr>&#x3044;&#x305E;&#x3046;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x6B8B;&#x3057;&#x4F1D;&#x3048;&#x308B;  <pr>&#x306E;&#x3053;&#x3057;&#x3064;&#x305F;&#x3048;&#x308B;</pr></trd>
+    <trd>&#36986;&#35328;&#12377;&#12427;  <pr>&#12422;&#12356;&#12372;&#12435;&#12377;&#12427;</pr></trd>,
+    <trd>&#36986;&#36104;&#12377;&#12427;  <pr>&#12356;&#12382;&#12358;&#12377;&#12427;</pr></trd>,
+    <trd>&#27531;&#12375;&#20253;&#12360;&#12427;  <pr>&#12398;&#12371;&#12375;&#12388;&#12383;&#12360;&#12427;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>odk&aacute;za&tcaron; z&aacute;vetom</trd>,
@@ -258,12 +261,12 @@
   </trdgrp>
   <trd lng="uk">&c_z;&c_a;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_t;&c_i;</trd>
   <trdgrp lng="zh">
-    <trd>&#x8A52; <pr>y&#xED;</pr></trd>,
-    <trd>&#x8BD2; <pr>y&#xED;</pr></trd>,
-    <trd>&#x8CBD; <pr>y&#xED;</pr></trd>,
-    <trd>&#x8D3B; <pr>y&#xED;</pr></trd>,
-    <trd>&#x9057;&#x7559; <pr>y&#xED;li&#xFA;</pr></trd>,
-    <trd>&#x907A;&#x7559; <pr>y&#xED;li&#xFA;</pr></trd>
+    <trd>&#35410; <pr>y&iacute;</pr></trd>,
+    <trd>&#35794; <pr>y&iacute;</pr></trd>,
+    <trd>&#36029; <pr>y&iacute;</pr></trd>,
+    <trd>&#36155; <pr>y&iacute;</pr></trd>,
+    <trd>&#36951;&#30041; <pr>y&iacute;li&uacute;</pr></trd>,
+    <trd>&#36986;&#30041; <pr>y&iacute;li&uacute;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -285,7 +288,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la <nom>Codex Vaticanus</nom> (Vatikana Kodekso), <klr>[&#x2026;]</klr> estas unu el la plej
+        la <nom>Codex Vaticanus</nom> (Vatikana Kodekso), <klr>[&#8230;]</klr> estas unu el la plej
         antikvaj manskribitaj kodeksoj (el la 4a jarcento) kun preska&ubreve; la tuta
         malnova <tld/>o
         <fnt>
@@ -331,12 +334,12 @@
   &c_V;&c_je;&c_t;&c_h;&c_i;&c_j; &c_z;&c_a;&c_v;&c_je;&c_t;</trd>
   <trd lng="sk">Star&yacute; z&aacute;kon</trd>
   <trdgrp lng="zh">
-    <trd>&#x65E7;&#x7EA6; <pr>Ji&#xF9;yu&#x113;</pr></trd>,
-    <trd>&#x820A;&#x7D04; <pr>Ji&#xF9;yu&#x113;</pr></trd>,
-    <trd>&#x65E7;&#x7EA6;&#x5168;&#x4E66; <pr>ji&#xF9;yu&#x113;qu&#xE1;nsh&#x16B;</pr></trd>,
-    <trd>&#x820A;&#x7D04;&#x5168;&#x66F8; <pr>ji&#xF9;yu&#x113;qu&#xE1;nsh&#x16B;</pr></trd>,
-    <trd>&#x65E7;&#x7EA6;&#x5723;&#x7ECF; <pr>ji&#xF9;yu&#x113;sh&#xE8;ngj&#x12B;ng</pr></trd>,
-    <trd>&#x820A;&#x7D04;&#x8056;&#x7D93; <pr>ji&#xF9;yu&#x113;sh&#xE8;ngj&#x12B;ng</pr></trd>
+    <trd>&#26087;&#32422; <pr>Ji&ugrave;yu&emacron;</pr></trd>,
+    <trd>&#33290;&#32004; <pr>Ji&ugrave;yu&emacron;</pr></trd>,
+    <trd>&#26087;&#32422;&#20840;&#20070; <pr>ji&ugrave;yu&emacron;qu&aacute;nsh&umacron;</pr></trd>,
+    <trd>&#33290;&#32004;&#20840;&#26360; <pr>ji&ugrave;yu&emacron;qu&aacute;nsh&umacron;</pr></trd>,
+    <trd>&#26087;&#32422;&#22307;&#32463; <pr>ji&ugrave;yu&emacron;sh&egrave;ngj&imacron;ng</pr></trd>,
+    <trd>&#33290;&#32004;&#32854;&#32147; <pr>ji&ugrave;yu&emacron;sh&egrave;ngj&imacron;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -349,14 +352,14 @@
       La dua parto de la kristana <ref tip="malprt" cel="bibli.0o.KRI">Biblio</ref>
       (la parto propre kristana):
       <ekz>
-        la rektoro <klr>[&#x2026;]</klr> ordonis, ke Jo&ccirc;jo traduku sur la
+        la rektoro <klr>[&#8230;]</klr> ordonis, ke Jo&ccirc;jo traduku sur la
         klastabulo unu simplan fragmenton el la Nova <tld lit="T"/>o
         <fnt><aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen titolo</vrk>,
         <lok>&ccirc;apitro 32a</lok></fnt>.
       </ekz>
       <ekz>
         en la nova <tld/>o ne estas eksplicita malpermeso de interezo
-        <fnt><aut>Bo Sandelin</aut>: 
+        <fnt><aut>Bo Sandelin</aut>:
           <vrk><url ref="&Monato;/2001/007279.php">Anta&ubreve;merkantilisma ekonomia pensado</url></vrk>,
           <bib>Monato</bib>
           <lok>2001/02, p. 16</lok>
@@ -401,18 +404,21 @@
   <trd lng="sk">Nov&yacute; z&aacute;kon</trd>
   <trd lng="tr">&Idot;ncil</trd>
   <trdgrp lng="zh">
-    <trd>&#x65B0;&#x7D04; <pr>X&#x12B;nyu&#x113;</pr></trd>,
-    <trd>&#x65B0;&#x7EA6; <pr>X&#x12B;nyu&#x113;</pr></trd>,
-    <trd>&#x65B0;&#x7D04;&#x5168;&#x66F8; <pr>X&#x12B;nyu&#x113;qu&#xE1;nsh&#x16B;</pr></trd>,
-    <trd>&#x65B0;&#x7EA6;&#x5168;&#x4E66; <pr>X&#x12B;nyu&#x113;qu&#xE1;nsh&#x16B;</pr></trd>,
-    <trd>&#x65B0;&#x7D04;&#x8056;&#x7D93; <pr>x&#x12B;nyu&#x113;sh&#xE8;ngj&#x12B;ng</pr></trd>,
-    <trd>&#x65B0;&#x7EA6;&#x5723;&#x7ECF; <pr>x&#x12B;nyu&#x113;sh&#xE8;ngj&#x12B;ng</pr></trd>
+    <trd>&#26032;&#32004; <pr>X&imacron;nyu&emacron;</pr></trd>,
+    <trd>&#26032;&#32422; <pr>X&imacron;nyu&emacron;</pr></trd>,
+    <trd>&#26032;&#32004;&#20840;&#26360; <pr>X&imacron;nyu&emacron;qu&aacute;nsh&umacron;</pr></trd>,
+    <trd>&#26032;&#32422;&#20840;&#20070; <pr>X&imacron;nyu&emacron;qu&aacute;nsh&umacron;</pr></trd>,
+    <trd>&#26032;&#32004;&#32854;&#32147; <pr>x&imacron;nyu&emacron;sh&egrave;ngj&imacron;ng</pr></trd>,
+    <trd>&#26032;&#32422;&#22307;&#32463; <pr>x&imacron;nyu&emacron;sh&egrave;ngj&imacron;ng</pr></trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.45 2025/04/27 18:34:29
+Robert Baruch: +en
+
 versio 1.42 2023/10/21 13:02:26
 revo: transskribo per <pr>
 
@@ -432,8 +438,5 @@ versio 1.36 2023/04/11 19:23:02
 aktualigo Monato-URL
 
 versio 1.35 2023/03/27 17:27:15
-Wolfram Diestel: +ekz-oj
-
-versio 1.33 2021/05/14 14:06:18
 -->
 </vortaro>
