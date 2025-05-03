@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ring.xml,v 1.80 2025/04/05 10:02:34 revo Exp $">
+<art mrk="$Id: ring.xml,v 1.81 2025/05/03 16:32:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ring</rad>/o <fnt><bib>UV</bib></fnt>
@@ -57,6 +57,7 @@
       <trd>Reifen</trd>,
       <trd>Reif</trd>
     </trdgrp>
+    <trd lng="en">ring <klr>(hard shape)</klr></trd>
     <trd lng="fr">bague</trd>
     <trd lng="hu">gy&udblac;r&udblac;</trd>
     <trd lng="sv">ring</trd>
@@ -124,6 +125,7 @@
       <trd>Reif</trd>,
       <trd>Schmuckring</trd>
     </trdgrp>
+  <trd lng="en">ring <klr>(jewelry)</klr></trd>
   </snc>
   <snc mrk="ring.0o.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -182,6 +184,7 @@
       <ref cel="rond.0o">rondo</ref>
     </refgrp>
     <trd lng="de">Ring</trd>
+    <trd lng="en">ring <klr>(soft shape)</klr></trd>
     <trd lng="sv">ring</trd>
     <trd lng="hu">karika</trd>
     <trdgrp lng="zh">
@@ -209,6 +212,7 @@
       <trd>Kreis</trd>,
       <trd>Kringel</trd>
     </trdgrp>
+  <trd lng="en">ring <klr>(typography)</klr></trd>
   </snc>
   <snc mrk="ring.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -216,10 +220,10 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm am="(bb E,&#8224;,&#215;)">(<g>E</g>,&#8224;,&#215;)</frm>,
+      <frm am="(bb E,&#8224;,×)">(<g>E</g>,&#8224;,×)</frm>,
       ke <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">&#215;</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">×</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al
       <frm am="&#8224;">&#8224;</frm>:
@@ -291,13 +295,14 @@
     <trdgrp lng="de">
       <trd>algebraischer Ring</trd>
     </trdgrp>
+    <trd lng="en">ring <klr>(mathematics)</klr></trd>
     <trdgrp lng="zh">
     <trd>&#29615; <pr>hu&aacute;n</pr></trd>,
     <trd>&#29872; <pr>hu&aacute;n</pr></trd>
   </trdgrp>
 </snc>
   <rim>
-    La&#365; <fnt><bib>BL</bib></fnt>: (en boksado) prefere diru <ke>boksejo</ke>, <ke>boksa podio</ke>, <ke>pugnobatala podio</ke>.
+    La&ubreve; <fnt><bib>BL</bib></fnt>: (en boksado) prefere diru <ke>boksejo</ke>, <ke>boksa podio</ke>, <ke>pugnobatala podio</ke>.
   </rim>
 
   <trdgrp lng="be">
@@ -418,7 +423,7 @@
   </trdgrp>
   <trd lng="pl">obr&eogonek;cz</trd>
   <trd lng="uk">&c_o;&c_b;&c_r;&c_u;&c_ch;</trd>
-  <trd lng="zh">&#31629; <pr>g&#363;</pr></trd>
+  <trd lng="zh">&#31629; <pr>g&umacron;</pr></trd>
 </drv>
 
 <drv mrk="ring.sub0o">
@@ -426,15 +431,15 @@
   <snc mrk="ring.sub0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,&#215;)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,×)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,&#215;<sub>A</sub>)</frm>, ke
+      <frm am="(bb A,&#8224;_A,xx_A)">(<g>A</g>,&#8224;<sub>A</sub>,×<sub>A</sub>)</frm>, ke
       <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm>,
       <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
       <ref cel="grup.sub0o">subgrupo</ref> de
       <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
-      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>&#215;<sub>A</sub><k>y</k> =
-      <k>x</k>&#215;<k>y</k>&#8712;A</frm>
+      kaj <frm am="x xx_Ay=x xx y in A"><k>x</k>×<sub>A</sub><k>y</k> =
+      <k>x</k>×<k>y</k>&#8712;A</frm>
       por
       &ccirc;iuj
       <frm am="x,y in A"><k>x</k>, <k>y</k>&#8712;A</frm>:
@@ -556,7 +561,7 @@
       aldona kondi&ccirc;o, ke por &ccirc;iu paro
       <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun nenula
       <frm am="b"><k>b</k></frm> ekzistas
-      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx q+r"><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
+      almena&ubreve; unu tia paro <frm am="(q,r)">(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx q+r"><k>a</k> = <k>b</k>×<k>q</k>+<k>r</k></frm> kaj
       <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
@@ -614,14 +619,14 @@
     <trd>c&egrave;rcol</trd>,
     <trd>hula hoop</trd>
   </trdgrp>
-  <trd lng="en">hula hoop</trd>
+  <trd lng="en">hula <ind>hoop</ind></trd>
   <trd lng="fr">hula hoop</trd>
   <trd lng="ja">&#12501;&#12521;&#12501;&#12540;&#12503;</trd>
   <trd lng="pl">hula-hoop</trd>
   <trd lng="uk">&c_h;&c_u;&c_l;&c_a;-&c_h;&c_u;&c_p;</trd>
   <trdgrp lng="zh">
-    <trd>&#21628;&#21862;&#22280; <pr>h&#363;l&amacron;qu&amacron;n</pr></trd>,
-    <trd>&#21628;&#25289;&#22280; <pr>h&#363;l&amacron;qu&amacron;n</pr></trd>
+    <trd>&#21628;&#21862;&#22280; <pr>h&umacron;l&amacron;qu&amacron;n</pr></trd>,
+    <trd>&#21628;&#25289;&#22280; <pr>h&umacron;l&amacron;qu&amacron;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -658,6 +663,7 @@
   </snc>
   <trd lng="be">&c_g;&c_a;&c_d;&c_a;&c_v;&c_o;&c_je; &c_k;&c_o;&c_l;&c_c;&c_a;</trd>
   <trd lng="ca">anell de creixement</trd>
+  <trd lng="en">growth <ind>ring</ind></trd>
   <trdgrp lng="fr">
     <trd>anneau de croissance</trd>,
     <trd>cerne</trd>
@@ -697,6 +703,7 @@
     <trd>collar</trd>
   </trdgrp>
   <trd lng="de">Halsreif</trd>
+  <trd lng="en">necklace</trd>
   <trd lng="hu">nyak&ouml;rv</trd>
   <trdgrp lng="ja">
     <trd>&#39318;&#39166;&#12426;  <pr>&#12367;&#12403;&#12363;&#12374;&#12426;</pr></trd>,
@@ -729,8 +736,9 @@
     <trd>canyellera, turmellera</trd>
   </trdgrp>
   <trdgrp lng="en">
-    <trd>ankle bracelet</trd>,
-    <trd>anklet</trd>, <trd>leg bangle</trd>
+    <trd>ankle <ind>bracelet</ind></trd>,
+    <trd>anklet</trd>,
+    <trd>leg <ind>bangle</ind></trd>
   </trdgrp>
   <trd lng="fr">bracelet<klr tip="ind"> (de cheville)</klr></trd>
   <trd lng="nl">enkelband</trd>
@@ -751,9 +759,9 @@
       de &gcirc;i)</klr>
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref>
       de <frm am="bb R"><g>R</g></frm> rilate al <frm am="bb I"><g>I</g></frm>, provizita per la
-      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)&#215;(<k>b</k>+<g>I</g>)
+      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I">(<k>a</k>+<g>I</g>)×(<k>b</k>+<g>I</g>)
       =
-      (<k>a</k>&#215;<k>b</k>)+<g>I</g></frm>;
+      (<k>a</k>×<k>b</k>)+<g>I</g></frm>;
       simb. <frm am="bb R//bb I"><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
@@ -805,6 +813,7 @@
     <trd lng="pl">kolczyk</trd>
   </snc>
 <trd lng="be">&c_k;&c_o;&c_l;&c_c;&c_a; &c_w; &c_n;&c_o;&c_s;&c_je;</trd>
+<trd lng="en">nose <ind>ring</ind></trd>
 </drv>
 
 <drv mrk="ring.orel0o">
@@ -831,6 +840,7 @@
   <trd lng="ca">arracada</trd>
   <trd lng="cs">n&aacute;u&scaron;nice</trd>
   <trd lng="de">Ohrring</trd>
+  <trd lng="en">earring</trd>
   <trd lng="es">pendiente</trd>
   <trd lng="fr">boucle d'<ind>oreille</ind></trd>
   <trd lng="he">&ayin;&#8503;&yod;&lamed;</trd>
@@ -882,7 +892,7 @@
   <trd lng="be">&c_k;&c_o;&c_l;&c_c;&c_a;
   &c_m;&c_n;&c_a;&c_g;&c_a;&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_w;</trd>
   <trd lng="de">Polynomring</trd>
-  <trd lng="en">polynomial ring</trd>
+  <trd lng="en">polynomial <ind>ring</ind></trd>
   <trd lng="fr">anneau des polyn&ocirc;mes</trd>
   <trd lng="hu">polinomgy&udblac;r&udblac;</trd>
   <trd lng="pl">pier&sacute;cie&nacute; wielomian&oacute;w</trd>
@@ -927,6 +937,7 @@
   </trdgrp>
   <trd lng="cs">obru&ccaron; kola</trd>
   <trd lng="de">Radreifen</trd>
+  <trd lng="en">tire <klr>(wheel)</klr></trd>
   <trd lng="hu">ker&eacute;kabroncs</trd>
   <trd lng="id">ban</trd>
   <trd lng="nl">band<klr tip="ind"> (v.e.wiel)</klr></trd>
@@ -935,14 +946,17 @@
   <trd lng="sk">obru&ccaron; kolesa</trd>
   <trd lng="uk">&c_o;&c_b;&c_ib;&c_d; (&c_k;&c_o;&c_l;&c_je;&c_s;&c_a;)</trd>
   <trdgrp lng="zh">
-    <trd>&#36650;&#31629; <pr>l&uacute;ng&#363;</pr></trd>,
-    <trd>&#36718;&#31629; <pr>l&uacute;ng&#363;</pr></trd>
+    <trd>&#36650;&#31629; <pr>l&uacute;ng&umacron;</pr></trd>,
+    <trd>&#36718;&#31629; <pr>l&uacute;ng&umacron;</pr></trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.81 2025/05/03 16:32:38
+Robert Baruch: +en
+
 versio 1.79 2025/03/19 20:00:21
 Hector Alos i Font: +trd ca
 
@@ -962,8 +976,5 @@ versio 1.72 2023/10/21 05:38:06
 revo: transskribo per <pr>
 
 versio 1.70 2023/06/27 21:26:52
-Vito Redsky: +trd pl
-
-versio 1.69 2023/04/19 11:24:15
 -->
 </vortaro>
