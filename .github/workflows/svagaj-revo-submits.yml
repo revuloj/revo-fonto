@@ -1,4 +1,4 @@
-name: akceptu-submetojn
+name: akceptu-submetojn-svagajn
 
 # Tiu ago unue rigardas per voko-afido ĉu novaj redaktoj alvenis (en gist.github.com)
 # kaj traktas tiujn. Poste ĝi aktualigas la artikolojn en Revo.
@@ -65,7 +65,7 @@ jobs:
         docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
         -e REVO_HOST=${{ env.CETONIO_HOST }} \
-        -e ADM_URL=/admin \
+        -e ADM_URL=/redaktilo/admin \
         -e ADM_USER=${{ secrets.CETONIO_ADM_USER }} \
         -e ADM_PASSWORD=${{ secrets.CETONIO_ADM_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
