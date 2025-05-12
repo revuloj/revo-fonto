@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: las.xml,v 1.123 2025/02/22 18:31:33 revo Exp $">
+<art mrk="$Id: las.xml,v 1.124 2025/05/12 14:31:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>las</rad>/i <fnt><bib>UV</bib></fnt>
@@ -635,31 +635,58 @@
 <drv mrk="las.al0i">
   <kap>al<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="las.al0i.lasi_veni">
     <dif>
-      <tld lit="L"/>i veni; ne <ref tip="ant" cel="star.kontraux0i">kontra&ubreve;stari</ref>;
-      permesi, ke iu faru, ke io okazu:
+      <tld lit="L"/>i veni:
       <ekz>
         sidi &ccirc;iam en profunda mallumo kaj al<tld/>i al si nenian radion de la suno
         <fnt><bib>FK</bib></fnt>;
-      </ekz><ekz>
-        <klr>[ili]</klr> akceptas tiun &ccirc;i le&gcirc;on <klr>[&#8230;]</klr> al<tld/>antan jam nenian
-        dubon
-        <fnt><bib>FK</bib></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         ili ne volas al<tld/>i al la malsupro de l' trono homojn de alia kredo
         <fnt>
           <bib>Far1</bib>
           <lok>&Ccirc;apitro VII</lok>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
+        oni altigos la <klr>[&#8230;]</klr> imposton je la al<tld/>o de a&ubreve;toj kaj motorcikloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2014/011213.php"
+              >Modelo por E&ubreve;ropo</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ven.0igi.inviti">venigi<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>vorlassen</trd>,
+      <trd>heranlassen</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="las.al0i.permesi">
+    <dif>
+      Ne <ref tip="ant" cel="star.kontraux0i">kontra&ubreve;stari</ref>;
+      <ref tip="sin" cel="permes.0i.iu">permesi</ref>, ke iu faru,
+      ke io okazu:
+      <ekz>
+        <klr>[ili]</klr> akceptas tiun &ccirc;i le&gcirc;on <klr>[&#8230;]</klr> al<tld/>antan jam nenian
+        dubon
+        <fnt><bib>FK</bib></fnt>;
+      </ekz>
+      <ekz>
         <nom>Sara</nom>, sciu, ke se vi al<tld/>us min al intimeco kun vi, mi donus al vi du
         talentojn, kaj al via patro unu talenton
         <fnt>
           <bib>Far1</bib>
           <lok>&Ccirc;apitro XIII</lok>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         li facile ekregus sian sangon, sed io alia naski&gcirc;is en li, kion li ne volis
         al<tld/>i
         <fnt><bib>PatrojFiloj</bib></fnt>;
@@ -671,10 +698,14 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="akcept.0i">akcepti</ref>
-    </refgrp>
+    <trdgrp lng="de">
+      <trd>zulassen</trd>,
+      <trd>erlauben</trd>
+    </trdgrp>
   </snc>
+  <refgrp tip="sin">
+    <ref cel="akcept.0i">akcepti</ref>
+  </refgrp>
   <trdgrp lng="be">
     <trd>&c_u;&c_p;&c_u;&c_s;&c_k;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_d;&c_a;&c_p;&c_u;&c_s;&c_k;&c_a;&c_c;&c_mol;</trd>
@@ -688,10 +719,6 @@
     <trd>dopustit</trd>,
     <trd>dovolit</trd>,
     <trd>p&rcaron;ipustit</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>zulassen</trd>,
-    <trd>vorlassen</trd>
   </trdgrp>
   <trd lng="en">allow</trd>
   <trdgrp lng="fr">
@@ -1589,6 +1616,9 @@
 </art>
 <!--
 $Log$
+versio 1.124 2025/05/12 14:31:59
+Wolfram Diestel: al~i: apartigo 2 snc
+
 versio 1.123 2025/02/22 18:31:33
 Robert Baruch: +en
 
@@ -1608,8 +1638,5 @@ versio 1.116 2023/06/01 06:32:20
 Wolfram Diestel: +trd de
 
 versio 1.115 2023/05/26 08:30:10
-Sergio Pokrovskij: + re~i
-
-versio 1.114 2023/05/07 12:41:10
 -->
 </vortaro>
