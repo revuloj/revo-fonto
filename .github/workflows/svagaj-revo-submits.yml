@@ -100,7 +100,7 @@ jobs:
         
   revo-aktualigo:
     needs: [revo-redaktoj-svagaj]
-    if: ${{ needs.revo-redaktoj-db.outputs.KONFIRMO_DB }}
+    if: ${{ needs.revo-redaktoj-svagaj.outputs.KONFIRMO_DB }}
     runs-on: ubuntu-latest
 
     steps:
