@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nom.xml,v 1.199 2025/05/12 14:34:12 revo Exp $">
+<art mrk="$Id: nom.xml,v 1.200 2025/05/13 06:39:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>nom</rad>/o <fnt><bib>UV</bib></fnt>
@@ -436,7 +436,7 @@
     <trd>chamar-se</trd>
   </trdgrp>
   <trdgrp lng="ro">
-    <trd>numi&#539;i</trd>,
+    <trd>numi&tcomma;i</trd>,
     <trd>numi</trd>,
     <trd>calculeaz&abreve;</trd>,
     <trd>chema</trd>
@@ -954,7 +954,7 @@
   </trdgrp>
   <trd lng="pt">nomear</trd>
   <trdgrp lng="ro">
-    <trd>numi&#539;i</trd>,
+    <trd>numi&tcomma;i</trd>,
     <trd>aloc&abreve;</trd>
   </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_z;&c_n;&c_a;&c_ch;&c_i;&c_t;&c_mol;</trd>
@@ -1066,7 +1066,7 @@
   </trdgrp>
   <trdgrp lng="ro">
     <trd>ad&abreve;ugarea</trd>,
-    <trd>referin&#539;&abreve;</trd>,
+    <trd>referin&tcomma;&abreve;</trd>,
     <trd>simbol de &icirc;nlocuire</trd>,
     <trd>anularea la</trd>
   </trdgrp>
@@ -1388,13 +1388,24 @@
       <ref tip="vid" cel="konfes.mal0i.agnoski">Malkonfesi</ref>;
       rifuzi iun <tld/>on al iu:
       <ekz>
-        se vi tion faros, mi for<tld/>os vin mia amiko.
+        se vi tion faros, mi for<tld/>os vin mia amiko;
+      </ekz>
+      <ekz>
+        la morala konscienco, kiun multaj sensenculoj ofendis kaj kiun multaj aliaj
+        for<tld/>is, estas afero ekzistanta kaj &ccirc;iam ekzistinta, &gcirc;i ne estis
+        elpensa&jcirc;o de la filozofoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=6481"
+              >Eseo pri blindeco</url></lok>
+        </fnt>.
       </ekz>
     </dif>
-    <adm>
-      Mi ne trovis iun ekzemplan uzon de tiu vorto. &Ccirc;u &gcirc;i vere uzi&gcirc;as?
-      <aut>WD</aut>
-    </adm>
+    <refgrp tip="vid">
+      <ref cel="ne.for0i">fornei</ref>,
+      <ref cel="rifuz.for0i">forrifuzi</ref>,
+      <ref cel="agnosk.mal0i">malagnoski</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je; <ind>&c_n;&c_a;&c_z;&c_y;&c_v;&c_a;&c_c;&c_mol;</ind>
@@ -1485,7 +1496,7 @@
   <trd lng="de">unzutreffend <ind>benennen</ind></trd>
   <trd lng="en">misname</trd>
   <trd lng="pl">&zacute;le nazwa&cacute;</trd>
-  <trd lng="ro">numi&#539;i-l gre&#537;it</trd>
+  <trd lng="ro">numi&tcomma;i-l gre&scomma;it</trd>
 </drv>
 
 <drv mrk="nom.laux0a">
@@ -2359,7 +2370,7 @@
   <trd lng="pl">imi&eogonek;</trd>
   <trdgrp lng="ro">
     <trd>prenume</trd>,
-    <trd>nume de na&#537;tere</trd>
+    <trd>nume de na&scomma;tere</trd>
   </trdgrp>
   <trd lng="ru">&c_i;&c_m;&c_ja; <klr tip="amb">(&c_l;&c_i;&c_ch;&c_n;&c_o;&c_je;)</klr></trd>
   <trd lng="sv">f&ouml;rnamn</trd>
@@ -2535,6 +2546,9 @@
 </art>
 <!--
 $Log$
+versio 1.200 2025/05/13 06:39:33
+Wolfram Diestel: for~i: +ekz, ref
+
 versio 1.199 2025/05/12 14:34:12
 Dmitri Gabinski: + trd be
 
@@ -2554,8 +2568,5 @@ versio 1.194 2024/07/07 08:27:59
 Wolfram Diestel: +ret~o
 
 versio 1.193 2024/04/11 19:16:55
-Wolfram Diestel: +snc "renomo"
-
-versio 1.192 2024/04/11 17:24:49
 -->
 </vortaro>
