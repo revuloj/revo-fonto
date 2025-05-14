@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: negaci.xml,v 1.26 2025/03/07 15:09:05 revo Exp $">
+<art mrk="$Id: negaci.xml,v 1.27 2025/05/14 12:58:41 revo Exp $">
 <kap>
   <rad>negaci</rad>/o
   <fnt><bib>PVEF</bib></fnt>
@@ -31,20 +31,20 @@
     <dif>
       <ref tip="super" cel="operac.logika0o">Logika operacio</ref>,
       kiu al <ref cel="propoz.0o.aserto">propozicio</ref>
-      <frm am="P">P</frm> asocias la propozicion, kiu estas vera, 
-      se kaj nur se <frm am="P">P</frm> estas falsa:
+      <frm am="P">P</frm> asocias la propozicion, kiu estas vera,
+      se kaj nur se <frm am="P">P</frm> estas malvera:
       <ekz>
         la <tld/>on de <frm am="P">P</frm> oni kutime signas per
         <frm am="neg P">&#xAC;P</frm> <klr> (legu: ne po)</klr>;
       </ekz>
       <ekz>
-        la <tld/>o de propozicio 
-        <ctl><frm am="a in bb A"><k>a</k>&#x2208;<g>A</g></frm></ctl> estas
-        <ctl><frm am="a ne bb A"><k>a</k>&#x2209;<g>A</g></frm></ctl>;
+        la <tld/>o de propozicio
+        <ctl><frm am="a in bb A"><k>a</k>&#8712;<g>A</g></frm></ctl> estas
+        <ctl><frm am="a ne bb A"><k>a</k>&#8713;<g>A</g></frm></ctl>;
       </ekz>
       <ekz>
-        la <tld/>o de propozicio <frm am="P vv Q">P&#x2228;Q</frm> estas
-        <frm am="neg P ^^ neg Q">&#xAC;P&#x2227;&#xAC;Q</frm> 
+        la <tld/>o de propozicio <frm am="P vv Q">P&#8744;Q</frm> estas
+        <frm am="neg P ^^ neg Q">&#xAC;P&#8743;&#xAC;Q</frm>
         <klr>(legu: ne po kaj ne kuo)</klr>.
       </ekz>
     </dif>
@@ -61,7 +61,7 @@
     <trdgrp lng="pl">
       <trd>przeczenie</trd>,
       <trd>negacja</trd>
-    </trdgrp> 
+    </trdgrp>
     <trd lng="pt">nega&ccedil;&atilde;o</trd>
     <trd lng="ru">
     <klr tip="ind">
@@ -69,35 +69,38 @@
     </klr>&c_o;&c_t;&c_r;&c_i;&c_c;&c_a;&c_n;&c_i;&c_je;
     </trd>
     <trdgrp lng="zh">
-    <trd>&#x4E0D;&#x5B58;&#x5728; <pr>b&#xF9;c&#xFA;nz&#xE0;i</pr></trd>,
-    <trd>&#x903B;&#x8F91;&#x975E; <pr>lu&#xF3;jif&#x113;i</pr></trd>,
-    <trd>&#x908F;&#x8F2F;&#x975E; <pr>lu&#xF3;jif&#x113;i</pr></trd>
-  </trdgrp>
-</snc>
+    <trd>&#x4E0D;&#x5B58;&#22312; <pr>b&#xF9;c&#xFA;nz&#xE0;i</pr></trd>,
+      <trd>&#x903B;&#x8F91;&#x975E; <pr>lu&#xF3;jif&emacron;i</pr></trd>,
+      <trd>&#x908F;&#x8F2F;&#x975E; <pr>lu&#xF3;jif&emacron;i</pr></trd>
+    </trdgrp>
+  </snc>
   <trdgrp lng="cs">
     <trd>negace</trd>,
     <trd>z&aacute;por</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x5426;&#x5B9A;  <pr>&#x3072;&#x3066;&#x3044;</pr></trd>,
-    <trd>&#x5426;&#x8A8D;  <pr>&#x3072;&#x306B;&#x3093;</pr></trd>,
-    <trd>&#x5426;&#x5B9A;&#x8A9E;  <pr>&#x3072;&#x3066;&#x3044;&#x3054;</pr></trd>
+    <trd>&#21542;&#x5B9A;  <pr>&#12402;&#12390;&#12356;</pr></trd>,
+    <trd>&#21542;&#x8A8D;  <pr>&#12402;&#x306B;&#12435;</pr></trd>,
+    <trd>&#21542;&#x5B9A;&#x8A9E;  <pr>&#12402;&#12390;&#12356;&#12372;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>neg&aacute;cia</trd>,
     <trd>z&aacute;por</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x430;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x437;&#x430;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x437;&#x430;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x43D;&#x430; &#x447;&#x430;&#x441;&#x442;&#x43A;&#x430;</trd>,
-    <trd>&#x437;&#x430;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x43D;&#x438;&#x439; &#x437;&#x430;&#x439;&#x43C;&#x435;&#x43D;&#x43D;&#x438;&#x43A;</trd>,
-    <trd>&#x437;&#x430;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x43D;&#x435; &#x440;&#x435;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_z;&c_a;&#x43F;&c_je;&c_r;&c_je;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_z;&c_a;&#x43F;&c_je;&c_r;&c_je;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_z;&c_a;&#x43F;&c_je;&c_r;&c_je;&c_ch;&#x43D;&c_a; &c_ch;&c_a;&c_s;&c_t;&#x43A;&c_a;</trd>,
+    <trd>&c_z;&c_a;&#x43F;&c_je;&c_r;&c_je;&c_ch;&#x43D;&c_i;&c_j; &c_z;&c_a;&c_j;&#x43C;&c_je;&#x43D;&#x43D;&c_i;&#x43A;</trd>,
+    <trd>&c_z;&c_a;&#x43F;&c_je;&c_r;&c_je;&c_ch;&#x43D;&c_je; &c_r;&c_je;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2025/05/14 12:58:41
+Wolfram Diestel: dif: falsa -> malvera
+
 versio 1.24 2023/10/19 20:12:37
 revo: transskribo per <pr>
 
@@ -117,8 +120,5 @@ Revision 1.17  2010/01/18 17:31:15  revo
 Mireille Corobu: svg->gif
 
 Revision 1.16  2008/06/20 16:30:18  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2006/06/08 16:31:49  revo
 -->
 </vortaro>
