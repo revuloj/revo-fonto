@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: koordi.xml,v 1.37 2025/03/05 18:24:31 revo Exp $">
+<art mrk="$Id: koordi.xml,v 1.38 2025/05/28 20:48:05 revo Exp $">
 <kap>
   <rad>koordinat</rad>/o
   <fnt><bib>PVEF</bib></fnt>
@@ -13,11 +13,27 @@
     <fnt><bib>MatTerm</bib>, <lok>p. 31</lok></fnt>
     <dif>
       &Ccirc;iu el la nombroj, kiuj estas necesaj por difini la situon
-      de
-      punkto en <ref cel="spac.afina0o">afina spaco</ref>:
+      de punkto en <ref cel="spac.afina0o">afina spaco</ref>:
       <ekz>
         <tld/>a opo <klr>(<ref cel="op.0o.vico">opo</ref> el
-        <tld/>oj)</klr>.
+        <tld/>oj)</klr>;
+      </ekz>
+      <ekz>
+        en tiu &ccirc;i horlo&gcirc;o <klr>[&#8230;]</klr> la <tld/>oj x, y de &ccirc;iu marko <klr>[&#8230;]</klr>
+        estas funkcioj nur de la horo
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        argumentado per si mem, malhavanta la fiksan punkton, per kiu &gcirc;i alkro&ccirc;i&gcirc;us al
+        la <tld/>oj de la reala vivo
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Deka &Ccirc;apitro</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sub">
@@ -25,19 +41,37 @@
       <ref cel="koordi.pezocentra0o">pezocentra <tld/>o</ref>,
       <ref cel="koordi.polusa0o">polusa <tld/>o</ref>,
       <ref cel="koordi.cilindra0o">cilindra <tld/>o</ref>,
-      <ref cel="koordi.sfera0o">sfera <tld/>o</ref>.
+      <ref cel="koordi.sfera0o">sfera <tld/>o</ref>
     </refgrp>
   </snc>
   <snc mrk="koordi.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
+    <uzo tip="fak">AST</uzo>
     <dif>
       <ref tip="vid" cel="longit.0o.GEOG">Longitudo</ref> a&ubreve; <ref tip="vid" cel="latitu.0o.GEOG_AST">latitudo</ref>:
       <ekz>
         &ccirc;e la rivernomoj, la <tld/>oj difinas la situon de la
-        enfluejo
-        <fnt><aut>Gaston Waringhien</aut>, <bib>PIV2</bib>,
+        enfluejo <fnt><aut>Gaston Waringhien</aut>, <bib>PIV2</bib>,
         <lok>&leftquot;kiel uzi
-        la vortaron&rightquot;, p. 36a</lok></fnt>.
+        la vortaron&rightquot;, p. 36a</lok></fnt>;
+      </ekz>
+      <ekz>
+        se vi ne scias la <tld/>ojn de via lo&gcirc;loko, vi povus scii ilin helpe de
+        <nom>Google Maps</nom>
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la verko estas determinitaj la <tld/>oj de 1018 steloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anatoli Ionesov</aut>
+          <vrk><url ref="&Monato;/2006/008920.php"
+              >Perlo &ccirc;e la Silka Vojo</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -52,8 +86,8 @@
   <trd lng="fr">coordonn&eacute;e</trd>
   <trd lng="hu">koordin&aacute;ta</trd>
   <trdgrp lng="ja">
-    <trd>&#x5EA7;&#x6A19;  <pr>&#x3056;&#x3072;&#x3087;&#x3046;</pr></trd>,
-    <trd>&#x7D4C;&#x7DEF;&#x5EA6;  <pr>&#x3051;&#x3044;&#x3044;&#x3069;</pr></trd>
+    <trd>&#24231;&#27161;  <pr>&#12374;&#12402;&#12423;&#12358;</pr></trd>,
+    <trd>&#32076;&#32239;&#24230;  <pr>&#12369;&#12356;&#12356;&#12393;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>wsp&oacute;&lstroke;rz&eogonek;dna</trd>,
@@ -61,7 +95,7 @@
   </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</trd>
   <trd lng="sk">kart&eacute;zsky s&uacute;radnicov&yacute; syst&eacute;m</trd>
-  <trd lng="zh">&#x5750;&#x6807; <pr>zu&#xF2;bi&#x101;o</pr></trd>
+  <trd lng="zh">&#22352;&#26631; <pr>zu&ograve;bi&amacron;o</pr></trd>
 </drv>
 
 <drv mrk="koordi.0sistemo">
@@ -100,14 +134,14 @@
     <trd>rep&egrave;re</trd>
   </trdgrp>
   <trd lng="hu">koordin&aacute;tarendszer</trd>
-  <trd lng="ja">&#x5EA7;&#x6A19;&#x7CFB;  <pr>&#x3056;&#x3072;&#x3087;&#x3046;&#x3051;&#x3044;</pr></trd>
+  <trd lng="ja">&#24231;&#27161;&#31995;  <pr>&#12374;&#12402;&#12423;&#12358;&#12369;&#12356;</pr></trd>
   <trd lng="pl">uk&lstroke;ad wsp&oacute;&lstroke;rz&eogonek;dnych</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;
   &c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;</trd>
   <trd lng="sk">s&uacute;radnicov&yacute; syst&eacute;m</trd>
   <trdgrp lng="zh">
-    <trd>&#x5EA7;&#x6807;&#x7CFB;&#x7EDF; <pr>zu&#xF2;bi&#x101;ox&#xEC;t&#x1D2;ng</pr></trd>,
-    <trd>&#x5750;&#x6807;&#x7CFB; <pr>zu&#xF2;bi&#x101;ox&#xEC;</pr></trd>
+    <trd>&#24231;&#26631;&#31995;&#32479; <pr>zu&ograve;bi&amacron;ox&igrave;t&#466;ng</pr></trd>,
+    <trd>&#22352;&#26631;&#31995; <pr>zu&ograve;bi&amacron;ox&igrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -162,7 +196,7 @@
     <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   </trdgrp>
   <trd lng="sk">cylindrick&aacute; s&uacute;radnica</trd>
-  <trd lng="zh">&#x5706;&#x67F1;&#x5750;&#x6807;&#x7CFB; <pr>yu&#xE1;nzh&#xF9;zu&#xF2;bi&#x101;ox&#xEC;</pr></trd>
+  <trd lng="zh">&#22278;&#26609;&#22352;&#26631;&#31995; <pr>yu&aacute;nzh&ugrave;zu&ograve;bi&amacron;ox&igrave;</pr></trd>
 </drv>
 
 <drv mrk="koordi.kartezia0o">
@@ -319,8 +353,8 @@
   <trd lng="ru">&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v;&c_a;
   <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trdgrp lng="zh">
-    <trd>&#x76F4;&#x89D2;&#x5750;&#x6807; <pr>zh&#xED;ji&#x1CE;ozu&#xF2;bi&#x101;o</pr></trd>,
-    <trd>&#x7B1B;&#x5361;&#x513F;&#x5750;&#x6807; <pr>d&#xED;k&#x1CE;&#xE9;rzu&#xF2;bi&#x101;o</pr></trd>
+    <trd>&#30452;&#35282;&#22352;&#26631; <pr>zh&iacute;ji&#462;ozu&ograve;bi&amacron;o</pr></trd>,
+    <trd>&#31515;&#21345;&#20799;&#22352;&#26631; <pr>d&iacute;k&#462;&eacute;rzu&ograve;bi&amacron;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -332,7 +366,7 @@
       <klr>(de punkto <frm am="M">M</frm> en <frm am="n"><k>n</k></frm>-dimensia
       <ref cel="spac.afina0o">afina spaco</ref>
       rilate al <frm am="n+1"><k>n</k>+1</frm> punktoj
-      <frm am="(A_i)_(0 le i le n)">(A<sub><k>i</k></sub>)<sub>0&#x2264;<k>i</k>&#x2264;<k>n</k></sub></frm>
+      <frm am="(A_i)_(0 le i le n)">(A<sub><k>i</k></sub>)<sub>0&#8804;<k>i</k>&#8804;<k>n</k></sub></frm>
       ne apartenantaj al la sama hiperebeno)</klr>
       &Ccirc;iu el la termoj de iu ajn tia <frm am="n+1">(<k>n</k>+1)</frm>-opo
       <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>, ke <frm am="M">M</frm>
@@ -380,20 +414,19 @@
       <klr>(de punkto <frm am="M">M</frm> en reela e&ubreve;klida
       <ref cel="eben.afina0o">afina ebeno</ref> rilate al
       <ref cel="aks.polusa0o">polusa akso</ref>)</klr>
-      &Ccirc;iu el la du reeloj
-      <ref cel="distan.polusa0o">polusa distanco</ref>
+      &Ccirc;iu el la du reeloj <ref cel="distan.polusa0o">polusa distanco</ref>
       kaj <ref cel="angul.polusa0o">polusa angulo</ref>:
       <ekz>
         oni ofte signas la polusajn <tld/>ojn de punkto per la paro
         <frm am="(rho,theta)">(&rho;, &theta;)</frm>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
+    <ref tip="vid" cel="koordi.0o"><tld/>o</ref>
     <rim>
       La koncernan ebenon oni samtempe provizas per orta kaj ununorma
       koordinatsistemo <frm am="(O,bb i,bb j)">(O, <g>i</g>, <g>j</g>)</frm>, kie
       <frm am="O">O</frm>
-      estas la origino de la polusa akso kaj <frm am="bb       i"><g>i</g></frm>
+      estas la origino de la polusa akso kaj <frm am="bb i"><g>i</g></frm>
       &gcirc;ia ununorma direktanta vektoro.
     </rim>
   </snc>
@@ -408,7 +441,7 @@
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja;
   <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="sk">pol&aacute;rne s&uacute;radnice</trd>
-  <trd lng="zh">&#x6781;&#x5750;&#x6807; <pr>j&#xED;zu&#xF2;bi&#x101;o</pr></trd>
+  <trd lng="zh">&#26497;&#22352;&#26631; <pr>j&iacute;zu&ograve;bi&amacron;o</pr></trd>
 </drv>
 
 <drv mrk="koordi.sfera0o">
@@ -430,7 +463,7 @@
         <frm am="(rho,theta,phi)">(&rho;, &theta;, &phi;)</frm>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
+    <ref tip="vid" cel="koordi.0o"><tld/>o</ref>
   </snc>
   <trd lng="be">&c_s;&c_f;&c_e;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_k;&c_a;&c_a;&c_r;&c_d;&c_y;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="cs">sf&eacute;rick&aacute; sou&rcaron;adnice</trd>
@@ -445,11 +478,14 @@
   <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna sferyczna</trd>
   <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="sk">sf&eacute;rick&aacute; s&uacute;radnica</trd>
-  <trd lng="zh">&#x7403;&#x9762;&#x5750;&#x6807; <pr>qi&#xFA;mi&#xE0;nzu&#xF2;bi&#x101;o</pr></trd>
+  <trd lng="zh">&#29699;&#38754;&#22352;&#26631; <pr>qi&uacute;mi&agrave;nzu&ograve;bi&amacron;o</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.38 2025/05/28 20:48:05
+Wolfram Diestel: +ekz
+
 versio 1.35 2023/10/18 17:23:25
 revo: transskribo per <pr>
 
@@ -469,8 +505,5 @@ Revision 1.29  2019/07/17 08:10:21  revo
 Sebastian Cyprych: kor trd pl
 
 Revision 1.28  2018/06/11 02:10:17  revo
-Dusan Juretic: +trd es
-
-Revision 1.27  2015/07/04 08:37:38  revo
 -->
-</vortaro>
+</vortaro>
