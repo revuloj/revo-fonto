@@ -1,19 +1,22 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: citologi.xml,v 1.10 2022/03/21 14:34:56 revo Exp $">
+<art mrk="$Id: citologi.xml,v 1.11 2025/06/05 22:31:01 revo Exp $">
 <kap>
-  <rad>citologi</rad>/o <fnt><bib>PIV1</bib></fnt>
+  <rad>citologi</rad>/o <fnt><bib>PIV1</bib></fnt>,
+  <var><kap><rad  var="el">&ccirc;elologio</rad> <fnt><bib>PIV2</bib></fnt></kap></var>
 </kap>
 <drv mrk="citologi.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+  <var><kap><tld  var="el"/></kap></var></kap>
   <snc mrk="citologi.0o.SCI">
     <uzo tip="fak">BIO</uzo>
     <uzo tip="fak">SCI</uzo>
     <dif>
-      <ref tip="vid" cel="cxel.0o.BIO">&Ccirc;elo</ref>scienco:
+      <ref tip="malprt" cel="biolog1.0o.SCI">Biologia fako</ref>, kiu studas <ref tip="vid"
+      cel="cxel.0o.BIO">&ccirc;elojn</ref>:
       <ekz>
-        eblos senpage <klr>...</klr> fari anka&ubreve; pli komplikajn 
+        eblos senpage <klr>...</klr> fari anka&ubreve; pli komplikajn
         medicinajn ekzamenojn kiel <tld/>on a&ubreve; spirometrion
         <fnt>
           <aut>-</aut>,
@@ -36,7 +39,7 @@
   <trd lng="be">&c_c;&c_y;&c_t;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
   <trd lng="ca">citologia</trd>
   <trd lng="cs">cytologie</trd>
-  <trd lng="fa">&f_y;&a_A;&a_kh;&a_t;&a_h;&zwnj;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>
+  <trd lng="fa">&f_y;&a_A;&a_kh;&a_t;&a_h;&#8204;&a_sh;&a_n;&a_A;&a_s;&f_y;</trd>
   <trd lng="fr">cytologie</trd>
   <trd lng="it">citologia</trd>
   <trd lng="pl">cytologia</trd>
@@ -49,12 +52,12 @@
   <kap><tld/>isto</kap>
   <snc mrk="citologi.0isto.SCI">
     <dif>
-      &Ccirc;elosciencisto.
+      &Ccirc;elosciencisto, <ref tip="sin" cel="citolog.0o.SCI">citologo</ref>.
     </dif>
   </snc>
   <trd lng="be">&c_c;&c_y;&c_t;&c_o;&c_l;&c_ja;&c_g;</trd>
   <trd lng="ca">cit&ograve;leg</trd>
-  <trd lng="fa">&f_y;&a_A;&a_kh;&a_t;&a_h;&zwnj;&a_sh;&a_n;&a_A;&a_s;</trd>
+  <trd lng="fa">&f_y;&a_A;&a_kh;&a_t;&a_h;&#8204;&a_sh;&a_n;&a_A;&a_s;</trd>
   <trdgrp lng="fr">
     <trd>cytologiste</trd>,
     <trd>cytologue</trd>
@@ -67,6 +70,9 @@
 
 <!--
 $Log$
+versio 1.11 2025/06/05 22:31:01
+Jeromo Vasxe: + var cxelologi, ref malprt biologio
+
 versio 1.10 2022/03/21 14:34:56
 Dmitri Gabinski: + trd be
 
@@ -86,8 +92,5 @@ Revision 1.3  2009/04/17 19:50:26  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.2  2008/03/04 17:30:31  revo
-Tulio Flores: +tr pt
-
-Revision 1.1  2008/03/02 17:30:22  revo
 -->
 </vortaro>
