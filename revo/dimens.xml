@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dimens.xml,v 1.55 2025/03/02 15:10:57 revo Exp $">
+<art mrk="$Id: dimens.xml,v 1.56 2025/07/20 16:37:34 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>dimensi</rad>/o <fnt><bib>JED</bib></fnt>
@@ -44,11 +44,12 @@
       <trd>rozmiar</trd>,
       <trd>wymiar</trd>
     </trdgrp>
+    <trd lng="ro">dimensiune</trd>
     <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r; <klr>(&c_p;&c_o;
     &c_k;&c_a;&c_zh;&c_d;&c_o;&c_m;&c_u;
     &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ju;)</klr></trd>
     <trdgrp lng="zh">
-    <trd>&#x7DAD;&#x6578; <pr>w&#xE9;ish&#xF9;</pr></trd>,
+    <trd>&#x7DAD;&#25976; <pr>w&#xE9;ish&#xF9;</pr></trd>,
     <trd>&#x91CF;&#x7DB1; <pr>li&#xE0;ngg&amacron;ng</pr></trd>
   </trdgrp>
 </snc>
@@ -229,10 +230,10 @@
   </trdgrp>
   <trd lng="he">&mem;&#x5B5;&mem;&#x5B7;&dalet;</trd>
   <trdgrp lng="ja">
-    <trd>&#x5BF8;&#x6CD5;  <pr>&#x3059;&#x3093;&#x307D;&#x3046;</pr></trd>,
-    <trd>&#x6B21;&#x5143;  <pr>&#x3058;&#x3052;&#x3093;</pr></trd>,
+    <trd>&#x5BF8;&#x6CD5;  <pr>&#12377;&#12435;&#x307D;&#12358;</pr></trd>,
+    <trd>&#x6B21;&#20803;  <pr>&#12376;&#12370;&#12435;</pr></trd>,
     <trd>&#x898F;&#x6A21;  <pr>&#x304D;&#x307C;</pr></trd>,
-    <trd>&#x5E83;&#x304C;&#x308A;  <pr>&#x3072;&#x308D;&#x304C;&#x308A;</pr></trd>
+    <trd>&#x5E83;&#x304C;&#x308A;  <pr>&#12402;&#x308D;&#x304C;&#x308A;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>rozmiar</trd>,
@@ -281,7 +282,8 @@
     <trd>en <ind>deux dimensions</ind></trd>
   </trdgrp>
   <trd lng="he">&dalet;&vav;-&mem;&yod;&mem;&dalet;&yod;</trd>
-  <trd lng="ja">&#x4E8C;&#x6B21;&#x5143;&#x306E;  <pr>&#x3075;&#x305F;&#x3058;&#x3052;&#x3093;&#x306E;</pr></trd>
+  <trd lng="ja">&#x4E8C;&#x6B21;&#20803;&#x306E;  <pr>&#12405;&#x305F;&#12376;&#12370;&#12435;&#x306E;</pr></trd>
+  <trd lng="pl">dwuwymiarowy</trd>
   <trd lng="sk">dvojrozmern&yacute;</trd>
   <trdgrp lng="zh">
     <trd>&#x4E24;&#x79CD;&#x5C3A;&#x5BF8; <pr>li&#x1CE;ngzh&#x1D2;ngch&#xED;cun</pr></trd>,
@@ -386,7 +388,7 @@
   <trd lng="cs">trojrozm&ecaron;rn&yacute;</trd>
   <trdgrp lng="en">
     <trd>three-dimensional space</trd>,
-    <trd>three&#x2010;dimensional</trd>
+    <trd>three&#8208;dimensional</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>tridimensional</trd>,
@@ -396,7 +398,8 @@
     <trd>tridimensionnel</trd>,
     <trd>en <ind>trois dimensions</ind></trd>
   </trdgrp>
-  <trd lng="ja">&#x4E09;&#x6B21;&#x5143;&#x306E;  <pr>&#x307F;&#x3063;&#x3058;&#x3052;&#x3093;&#x306E;</pr></trd>
+  <trd lng="ja">&#x4E09;&#x6B21;&#20803;&#x306E;  <pr>&#x307F;&#12387;&#12376;&#12370;&#12435;&#x306E;</pr></trd>
+  <trd lng="pl">tr&oacute;jwymiarowy</trd>
   <trd lng="sk">trojrozmern&yacute;</trd>
   <trdgrp lng="zh">
     <trd>&#x4E09;&#x7DAD; <pr>s&amacron;nw&#xE9;i</pr></trd>,
@@ -420,8 +423,11 @@
       <trd>dimenzionalit&aacute;s</trd>,
       <trd>kiterjed&eacute;s</trd>
     </trdgrp>
-    <trd lng="ru">
-    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <trdgrp lng="pl">
+      <trd>wymiarowo&sacute;&cacute;</trd>,
+      <trd>liczba  <ind>wymiar&oacute;w</ind></trd>
+    </trdgrp>
+    <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="dimens.0nombro.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -429,8 +435,7 @@
     <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
     </ref>
     <trd lng="hu">dimenzi&oacute;</trd>
-    <trd lng="ru">
-    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_m;&c_je;&c_r;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
@@ -446,6 +451,9 @@
 </art>
 <!--
 $Log$
+versio 1.56 2025/07/20 16:37:34
+Vito Redsky: trd pl ro
+
 versio 1.54 2024/05/02 14:24:56
 Dmitri Gabinski: + trd be
 
@@ -465,8 +473,5 @@ versio 1.45 2020/02/16 12:10:28
 Wolfram Diestel: formuloj per am
 
 Revision 1.44  2015/07/04 08:37:32  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.43  2015/06/29 16:29:36  revo
 -->
 </vortaro>
