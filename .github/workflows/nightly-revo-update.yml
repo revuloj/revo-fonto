@@ -94,12 +94,14 @@ jobs:
       with:
         name: tgz
         path: .tgz
+        include-hidden-files: true
 
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v4
       with:
         name: log
         path: .log
+        include-hidden-files: true
         
     - uses: actions/github-script@v7
       if: steps.trovu_noktan_formikon.outputs.sha_nf != steps.trovu_kapon.outputs.sha_hm
