@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tabel.xml,v 1.51 2025/03/08 12:29:45 revo Exp $">
+<art mrk="$Id: tabel.xml,v 1.52 2025/08/03 10:00:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tabel</rad>/o
@@ -41,6 +41,10 @@
       </ekz>
     </dif>
     <trd lng="be">&c_t;&c_a;&c_b;&c_l;&c_ib;&c_ch;&c_k;&c_a;</trd>
+    <trdgrp lng="ca">
+      <trd>taula</trd>,
+      <trd>tauleta</trd>
+    </trdgrp>
     <trd lng="en">tablet</trd>
     <trd lng="nl">tafel</trd>
   </snc>
@@ -96,6 +100,7 @@
     <refgrp tip="vid">
       <ref cel="regist.0o.dokumento">registro <sncref/></ref>
     </refgrp>
+    <trd lng="ca">taula</trd>
     <trdgrp lng="nl">
       <trd>tafel</trd>,
       <trd>tabel</trd>,
@@ -131,6 +136,7 @@
     <ref tip="vid" cel="list.0o.KOMP">listo</ref>
     <ref tip="super" cel="tip.datum0o">datumtipo</ref>
     <trd lng="be">&c_m;&c_a;&c_s;&c_ib;&c_w;</trd>
+    <trd lng="ca">taula <klr tip="ind">(inform&agrave;tica)</klr></trd>
     <trd lng="de">Feld</trd>
     <trd lng="en">array</trd>
     <trd lng="hu">t&ouml;mb <klr tip="ind">(array)</klr></trd>
@@ -162,10 +168,10 @@
   </trdgrp>
   <trd lng="fr">tableau</trd>
   <trdgrp lng="ja">
-    <trd>&#x8868;  <pr>&#x3072;&#x3087;&#x3046;</pr></trd>,
-    <trd>&#x4E00;&#x89A7;&#x8868;  <pr>&#x3044;&#x3061;&#x3089;&#x3093;&#x3072;&#x3087;&#x3046;</pr></trd>,
-    <trd>&#x76EE;&#x9332;  <pr>&#x3082;&#x304F;&#x308D;&#x304F;</pr></trd>,
-    <trd>&#x6570;&#x8868;  <pr>&#x3059;&#x3046;&#x3072;&#x3087;&#x3046;</pr></trd>
+    <trd>&#34920;  <pr>&#12402;&#12423;&#12358;</pr></trd>,
+    <trd>&#19968;&#35239;&#34920;  <pr>&#12356;&#12385;&#12425;&#12435;&#12402;&#12423;&#12358;</pr></trd>,
+    <trd>&#30446;&#37682;  <pr>&#12418;&#12367;&#12429;&#12367;</pr></trd>,
+    <trd>&#25968;&#34920;  <pr>&#12377;&#12358;&#12402;&#12423;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="pl">tabela</trd>
   <trdgrp lng="sk">
@@ -175,14 +181,14 @@
     <trd>zoskupenie</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_t;&c_a;&c_b;&#x43B;&c_i;&c_c;&#x44F;</trd>,
-    <trd>&c_t;&c_a;&c_b;&c_je;&#x43B;&#x44C;</trd>,
-    <trd>&c_r;&#x43E;&c_z;&#x43A;&#x43B;&c_a;&c_d;</trd>
+    <trd>&c_t;&c_a;&c_b;&c_l;&c_i;&c_c;&c_ja;</trd>,
+    <trd>&c_t;&c_a;&c_b;&c_je;&c_l;&c_mol;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_k;&c_l;&c_a;&c_d;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x5BF9;&#x7167;&#x8868; <pr>du&#xEC;zh&#xE0;obi&#x1CE;o</pr></trd>,
-    <trd>&#x5C0D;&#x7167;&#x8868; <pr>du&#xEC;zh&#xE0;obi&#x1CE;o</pr></trd>,
-    <trd>&#x8868;&#x683C; <pr>bi&#x1CE;og&#xE9;</pr></trd>
+    <trd>&#23545;&#29031;&#34920; <pr>du&igrave;zh&agrave;obi&#462;o</pr></trd>,
+    <trd>&#23565;&#29031;&#34920; <pr>du&igrave;zh&agrave;obi&#462;o</pr></trd>,
+    <trd>&#34920;&#26684; <pr>bi&#462;og&eacute;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -197,7 +203,7 @@
       <ref cel="pronom.0o.noma">pronomoj<sncref/></ref> kaj
       <ref cel="adverb.0o">adverboj</ref>:
       <ekz>
-        anta&ubreve; la apero de la Aldono al la Dua Libro de l&#x2019; Lingvo
+        anta&ubreve; la apero de la Aldono al la Dua Libro de l&#8217; Lingvo
         Internacia (1888) la
         <tld/>vortoj je <nom>-AM</nom> fini&gcirc;is per <nom>-AN</nom>
         <fnt>
@@ -236,7 +242,8 @@
       radikoj per si mem, nur kun korelativa
       fina&jcirc;o ili havas signifon. Oni devas do almeti ne<tld/>vortajn
       fina&jcirc;ojn al plenaj <tld/>vortoj (ekzemple: <ekz>kialo; tiama;
-      tiamaniere</ekz>), krom en malmultaj okazoj (ekzemple: <ekz><ref tip="dif" cel="neni.0igi">neniigi</ref>;
+      tiamaniere</ekz>), krom en malmultaj okazoj (ekzemple: <ekz><ref tip="dif"
+      cel="neni.0igi">neniigi</ref>;
       nenii&gcirc;i</ekz>), kie la rezulta vorto estas
       jam establita. 
     </rim>
@@ -275,13 +282,13 @@
     <trd>tabellasz&oacute;</trd>,
     <trd>egyszer&udblac; sz&oacute;</trd>
   </trdgrp>
-  <trd lng="ja">&#x76F8;&#x95A2;&#x8A9E;  <pr>&#x305D;&#x3046;&#x304B;&#x3093;&#x3054;</pr></trd>
+  <trd lng="ja">&#30456;&#38306;&#35486;  <pr>&#12381;&#12358;&#12363;&#12435;&#12372;</pr></trd>
   <trd lng="pl">s&lstroke;owo z tabeli korelatywnej</trd>
   <trd lng="ru">&c_t;&c_a;&c_b;&c_l;&c_i;&c_ch;&c_n;&c_o;&c_je;
   &c_m;&c_je;&c_s;&c_t;&c_o;&c_i;&c_m;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">korelat&iacute;vum</trd>
   <trd lng="cs">korelativum</trd>
-  <trd lng="uk">&#x43A;&#x43E;&c_r;&c_je;&#x43B;&#x44F;&c_t;&c_i;&c_v;&#x43D;&c_je; &c_s;&#x43B;&#x43E;&c_v;&#x43E;</trd>
+  <trd lng="uk">&c_k;&c_o;&c_r;&c_je;&c_l;&c_ja;&c_t;&c_i;&c_v;&c_n;&c_je; &c_s;&c_l;&c_o;&c_v;&c_o;</trd>
 </drv>
 
 <drv mrk="tabel.enhav0o">
@@ -338,13 +345,13 @@
     <trd>sommaire</trd>,
     <trd>table des mati&egrave;res</trd>
   </trdgrp>
-  <trd lng="ja">&#x76EE;&#x6B21;  <pr>&#x3082;&#x304F;&#x3058;</pr></trd>
+  <trd lng="ja">&#30446;&#27425;  <pr>&#12418;&#12367;&#12376;</pr></trd>
   <trd lng="nl">inhoudstafel</trd>
   <trd lng="pl">spis tre&sacute;ci</trd>
   <trdgrp lng="zh">
-    <trd>&#x76EE;&#x5F55; <pr>m&#xF9;l&#xF9;</pr></trd>,
-    <trd>&#x76EE;&#x9304; <pr>m&#xF9;l&#xF9;</pr></trd>,
-    <trd>&#x7BC7;&#x76EE; <pr>pi&#x101;nm&#xF9;</pr></trd>
+    <trd>&#30446;&#24405; <pr>m&ugrave;l&ugrave;</pr></trd>,
+    <trd>&#30446;&#37636; <pr>m&ugrave;l&ugrave;</pr></trd>,
+    <trd>&#31687;&#30446; <pr>pi&#257;nm&ugrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -405,8 +412,8 @@
     <trd>horaire<klr tip="amb"> (ch. de fer etc.)</klr></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x6642;&#x523B;&#x8868;  <pr>&#x3058;&#x3053;&#x304F;&#x3072;&#x3087;&#x3046;</pr></trd>,
-    <trd>&#x6642;&#x9593;&#x5272;  <pr>&#x3058;&#x304B;&#x3093;&#x308F;&#x308A;</pr></trd>
+    <trd>&#26178;&#21051;&#34920;  <pr>&#12376;&#12371;&#12367;&#12402;&#12423;&#12358;</pr></trd>,
+    <trd>&#26178;&#38291;&#21106;  <pr>&#12376;&#12363;&#12435;&#12431;&#12426;</pr></trd>
   </trdgrp>
   <trd lng="nl">dienstregeling</trd>
   <trd lng="pl">rozk&lstroke;ad godzinowy<klr> (np.
@@ -417,17 +424,17 @@
     <trd>&ccaron;asov&yacute; poriadok</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x65F6;&#x523B;&#x8868; <pr>sh&#xED;k&#xE8;bi&#x1CE;o</pr></trd>,
-    <trd>&#x6642;&#x523B;&#x8868; <pr>sh&#xED;k&#xE8;bi&#x1CE;o</pr></trd>,
-    <trd>&#x65F6;&#x7A0B; <pr>sh&#xED;ch&#xE9;ng</pr></trd>,
-    <trd>&#x6642;&#x7A0B; <pr>sh&#xED;ch&#xE9;ng</pr></trd>,
-    <trd>&#x65F6;&#x95F4;&#x8868; <pr>sh&#xED;ji&#x101;nbi&#x1CE;o</pr></trd>,
-    <trd>&#x6642;&#x9593;&#x8868; <pr>sh&#xED;ji&#x101;nbi&#x1CE;o</pr></trd>,
-    <trd>&#x65E5;&#x7A0B;&#x8868; <pr>r&#xEC;ch&#xE9;ngbi&#x1CE;o</pr></trd>,
-    <trd>&#x8AB2;&#x7A0B;&#x8868; <pr>k&#xE8;ch&#xE9;ngbi&#x1CE;o</pr></trd>,
-    <trd>&#x8BFE;&#x7A0B;&#x8868; <pr>k&#xE8;ch&#xE9;ngbi&#x1CE;o</pr></trd>,
-    <trd>&#x8AB2;&#x8868; <pr>k&#xE8;bi&#x1CE;o</pr></trd>,
-    <trd>&#x8BFE;&#x8868; <pr>k&#xE8;bi&#x1CE;o</pr></trd>
+    <trd>&#26102;&#21051;&#34920; <pr>sh&iacute;k&egrave;bi&#462;o</pr></trd>,
+    <trd>&#26178;&#21051;&#34920; <pr>sh&iacute;k&egrave;bi&#462;o</pr></trd>,
+    <trd>&#26102;&#31243; <pr>sh&iacute;ch&eacute;ng</pr></trd>,
+    <trd>&#26178;&#31243; <pr>sh&iacute;ch&eacute;ng</pr></trd>,
+    <trd>&#26102;&#38388;&#34920; <pr>sh&iacute;ji&#257;nbi&#462;o</pr></trd>,
+    <trd>&#26178;&#38291;&#34920; <pr>sh&iacute;ji&#257;nbi&#462;o</pr></trd>,
+    <trd>&#26085;&#31243;&#34920; <pr>r&igrave;ch&eacute;ngbi&#462;o</pr></trd>,
+    <trd>&#35506;&#31243;&#34920; <pr>k&egrave;ch&eacute;ngbi&#462;o</pr></trd>,
+    <trd>&#35838;&#31243;&#34920; <pr>k&egrave;ch&eacute;ngbi&#462;o</pr></trd>,
+    <trd>&#35506;&#34920; <pr>k&egrave;bi&#462;o</pr></trd>,
+    <trd>&#35838;&#34920; <pr>k&egrave;bi&#462;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -455,7 +462,8 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_t;&c_a;&c_b;&c_l;&c_ib;&c_c;&c_a; &c_p;&c_r;&c_a;&c_w;&c_d;&c_z;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>
+  <trd lng="be">&c_t;&c_a;&c_b;&c_l;&c_ib;&c_c;&c_a;
+  &c_p;&c_r;&c_a;&c_w;&c_d;&c_z;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>
   <trd lng="ca">taula de la <ind>veritat</ind></trd>
   <trdgrp lng="de">
     <trd>Wahrheitstafel</trd>,
@@ -468,18 +476,21 @@
   </trdgrp>
   <trd lng="fr">table de v&eacute;rit&eacute;</trd>
   <trd lng="hu">igazs&aacute;gt&aacute;bla</trd>
-  <trd lng="ja">&#x771F;&#x7406;&#x5024;&#x8868;  <pr>&#x3057;&#x3093;&#x308A;&#x3061;&#x3072;&#x3087;&#x3046;</pr></trd>
+  <trd lng="ja">&#30495;&#29702;&#20516;&#34920;  <pr>&#12375;&#12435;&#12426;&#12385;&#12402;&#12423;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>tabela logiczna</trd>,
     <trd>tabela prawdy</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_a;&c_b;&c_l;&c_i;&c_c;&c_a;
   &c_i;&c_s;&c_t;&c_i;&c_n;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
-  <trd lng="uk">&c_t;&c_a;&c_b;&#x43B;&c_i;&c_c;&#x44F; &c_ib;&c_s;&c_t;&c_i;&#x43D;&#x43D;&#x43E;&c_s;&c_t;&c_ib;</trd>
+  <trd lng="uk">&c_t;&c_a;&c_b;&c_l;&c_i;&c_c;&c_ja; &c_ib;&c_s;&c_t;&c_i;&c_n;&c_n;&c_o;&c_s;&c_t;&c_ib;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.52 2025/08/03 10:00:20
+Hector Alos i Font: +trd ca
+
 versio 1.49 2023/10/21 13:02:26
 revo: transskribo per <pr>
 
@@ -499,8 +510,5 @@ versio 1.41 2021/11/12 07:41:14
 Noam Mohr: +trd en tabel-
 
 versio 1.40 2021/10/19 09:30:25
-Dmitri Gabinski: +trd be
-
-versio 1.39 2021/09/27 16:50:19
 -->
 </vortaro>
