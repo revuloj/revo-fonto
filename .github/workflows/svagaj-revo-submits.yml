@@ -54,22 +54,19 @@ jobs:
 
     - name: Akceptu redaktojn el submetoj, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
-        docker run -d --name afido \
+        docker run --name afido \
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
-        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
-        sleep 10
-        docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
         -e REVO_HOST=${{ env.CETONIO_HOST }} \
         -e ADM_URL=/redaktilo/admin \
         -e ADM_USER=${{ secrets.CETONIO_ADM_USER }} \
         -e ADM_PASSWORD=${{ secrets.CETONIO_ADM_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
-        afido \
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} \
         afido subm
 
     - name: Rigardu la protokolon 
