@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kvalifik.xml,v 1.25 2025/08/25 10:49:39 revo Exp $">
+<art mrk="$Id: kvalifik.xml,v 1.26 2025/08/25 15:48:57 revo Exp $">
 <kap>
   <rad>kvalifik</rad>/i <fnt><bib>JED</bib></fnt>,
   <var><kap><rad var="f">kvalif</rad>/i <fnt><bib>PV</bib></fnt></kap><uzo tip="stl">RAR</uzo></var>
@@ -17,7 +17,7 @@
         la trompan forprenon la kodo <tld/>as &scirc;tela;
       </ekz>
       <ekz>
-        mi ne povas kvalifiki <klr>[la leteron]</klr>, mi rompas al mi la kapon super &gcirc;i
+        mi ne povas <tld/>i <klr>[la leteron]</klr>, mi rompas al mi la kapon super &gcirc;i
         ekde &gcirc;ia ricevo
         <fnt>
           <bib>ChC</bib>
@@ -52,6 +52,12 @@
         </fnt>?
       </ekz>
       <ekz>
+        <uzo tip="fak">JUR</uzo>
+        <ind><tld/>ita krimo</ind> <klr>(pro aldona cirkonstanco pli forte punata)</klr>
+        <trd lng="de">qualifizierte Straftat</trd>
+        <trd lng="en">aggravated crime</trd>
+      </ekz>
+      <ekz>
         striktasence tiun &ccirc;i interparolon oni ne povus <tld var="f"/>i dubinda
         <fnt>
           <bib>MkM</bib>
@@ -77,6 +83,11 @@
       La&ubreve; <fnt><bib>BL</bib></fnt>: Prefere diru <ke>konsideri</ke>, <ke>taksi</ke>, <ke>estimi</ke>.
     </rim>
     <trd lng="be">&c_k;&c_v;&c_a;&c_l;&c_ib;&c_f;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trdgrp lng="de">
+      <trd>kennzeichnen</trd>,
+      <trd>einordnen</trd>,
+      <trd>beurteilen</trd>
+    </trdgrp>
     <trd lng="nl">kwalificeren</trd>
     <trd lng="es">calificar</trd>
     <trd lng="ru">&c_k;&c_v;&c_a;&c_l;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -146,6 +157,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="eduk.0i.socie">eduki<sncref/></ref>,
+      <ref cel="kler.0igi">klerigi</ref>
+    </refgrp>
+    <trd lng="de">weiterbilden</trd>
   </snc>
   <snc mrk="kvalifik.0i.GRA">
     <uzo tip="fak">GRA</uzo>
@@ -179,10 +195,7 @@
   </snc>
 
   <trd lng="cs">kvalifikovat</trd>
-  <trdgrp lng="de">
-    <trd>kennzeichnen</trd>,
-    <trd>qualifizieren</trd>
-  </trdgrp>
+  <trd lng="de">qualifizieren</trd>
   <trd lng="fr">qualifier</trd>
   <trdgrp lng="ja">
     <trd>&#x898F;&#x5B9A;&#x3059;&#x308B;  <pr>&#x304D;&#x3066;&#x3044;&#x3059;&#x308B;</pr></trd>,
@@ -311,7 +324,7 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="kvalifik.0igxi.PED">
     <dif>
-      Elpruvi sian kapablon, sian konformecon
+      Plibonigi kaj elpruvi sian kapablon, sian konformecon
       al iuj difinitaj postuloj:
       <ekz>
         mi <tld/>i&gcirc;u kiel tradukisto
@@ -405,7 +418,7 @@
     <tld/>ita plimulto
   </kap>
   <uzo tip="fak">POL</uzo>
-  <snc>
+  <snc mrk="kvalifik.0ita_plimulto.POL">
     <dif>
       <klr>(&ccirc;e balotoj)</klr> plimulto plenumanta pli altajn postulojn
       ol simpla plimulto, ekz-e du trionoj el la vo&ccirc;oj a&ubreve; reprezenton
@@ -431,6 +444,9 @@
 
 <!--
 $Log$
+versio 1.26 2025/08/25 15:48:57
+Wolfram Diestel: +trd de, ref
+
 versio 1.25 2025/08/25 10:49:39
 Wolfram Diestel: ~i: ref, ekz-oj, +snc PED/SPO; +~ita plimulto
 
@@ -450,8 +466,5 @@ versio 1.16 2023/04/18 08:31:13
 Paul Peeraerts: Steloj -> monato.be
 
 versio 1.15 2023/04/18 05:27:33
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.14 2023/04/11 09:27:26
 -->
 </vortaro>
