@@ -63,7 +63,7 @@ jobs:
 
     - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
-        docker run -d --name afido \
+        docker run --name afido \
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
@@ -155,7 +155,7 @@ jobs:
 
     - name: Akceptu redaktojn el submetoj, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
-        docker run -d --name afido \
+        docker run --name afido \
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
