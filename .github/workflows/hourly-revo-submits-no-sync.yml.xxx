@@ -56,17 +56,14 @@ jobs:
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
-        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
-        sleep 10
-        docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
         -e CGI_USER=${{ secrets.CGI_USER }} \
         -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
-        afido \
-        afido
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} \
+        afido subm
 
     - name: Rigardu la protokolon 
       id: rigardu_protokolon
@@ -115,16 +112,13 @@ jobs:
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
-        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
-        sleep 10
-        docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
         -e CGI_USER=${{ secrets.CGI_USER }} \
         -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
         -e SIGELILO=${{secrets.SIGELILO}} \
-        afido \
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} \
         afido subm
 
     - name: Rigardu la protokolon 
