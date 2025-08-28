@@ -162,8 +162,8 @@ jobs:
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
         -e GIT_REPO_REVO=revo-fonto \
         -e REVO_HOST=${{ env.REVO_HOST }} \
-        -e ADM_USER=${{ secrets.CETONIO_ADM_USER }} \
-        -e ADM_PASSWORD=${{ secrets.CETONIO_ADM_PASSWD }} \
+        -e ADM_USER=${{ secrets.CGI_USER }} \
+        -e ADM_PASSWORD=${{ secrets.CGI_PASSWD }} \
         -e ADM_URL=/cgi-bin/admin \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
         ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} \
