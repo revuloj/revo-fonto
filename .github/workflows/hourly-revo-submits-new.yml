@@ -108,7 +108,7 @@ jobs:
   revo-redaktoj-rv:
     runs-on: ubuntu-latest
     # ne kuru ambaŭ samtempe, por eviti fand-konfliktojn de la git-arĥivo!
-    if: ${{ false }}  # malŝaltu provizore, necesas analizi eraron
+    # if: ${{ false }}  # malŝaltu provizore, necesas analizi eraron
     needs: revo-redaktoj-rs
     outputs:
       KONFIRMO_DB: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_DB }}
