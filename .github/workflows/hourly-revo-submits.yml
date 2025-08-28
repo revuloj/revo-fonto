@@ -108,6 +108,7 @@ jobs:
   revo-redaktoj-rv:
     runs-on: ubuntu-latest
     # ne kuru ambaŭ samtempe, por eviti fand-konfliktojn de la git-arĥivo!
+    if: ${{ false }}  # malŝaltu provizore, necesas analizi eraron
     needs: revo-redaktoj-rs
     outputs:
       KONFIRMO_DB: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_DB }}
@@ -197,8 +198,10 @@ jobs:
         include-hidden-files: true
         
   revo-aktualigo:
-    needs: [revo-redaktoj-rs,revo-redaktoj-rv]
-    if: ${{needs.revo-redaktoj-rs.outputs.KONFIRMO_GH || needs.revo-redaktoj-rv.outputs.KONFIRMO_DB }}
+    #needs: [revo-redaktoj-rs,revo-redaktoj-rv]
+    needs: [revo-redaktoj-rs]
+    #if: ${{needs.revo-redaktoj-rs.outputs.KONFIRMO_GH || needs.revo-redaktoj-rv.outputs.KONFIRMO_DB }}
+    if: ${{needs.revo-redaktoj-rs.outputs.KONFIRMO_GH }}
     runs-on: ubuntu-latest
 
     steps:
