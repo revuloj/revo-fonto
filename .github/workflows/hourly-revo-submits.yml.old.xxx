@@ -14,7 +14,7 @@ on:
   # * estas speciala signo, do nepre uzu citilojn
   schedule:
   #- cron:  '10 * * * *'
-  - cron:  '10 */2 * * *'
+  - cron:  '50 */4 * * *'
   #- cron:  '10 */3 * * *'
 
 
@@ -26,13 +26,12 @@ on:
 env:
   # voko-formiko image tag {latest|stabila|2x}
   FORMIKO_TAG: 2o
-  AFIDO_TAG: 2o
+  AFIDO_TAG: 2n
   REVO_HOST: ${{ secrets.REVO_HOST }}
-  CETONIO_HOST: ${{ secrets.CETONIO_HOST }}
   
 jobs:
 
-  revo-redaktoj-rs:
+  revo-redaktoj-gh:
     runs-on: ubuntu-latest
     outputs:
       KONFIRMO_GH: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_GH }}
@@ -63,20 +62,24 @@ jobs:
 
     - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
-        docker run --name afido \
+        docker run -d --name afido \
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
+        sleep 10
+        docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
-        -e REVO_HOST=${{ env.CETONIO_HOST }} \
-        -e ADM_URL=/redaktilo/admin \
-        -e ADM_USER=${{ secrets.CETONIO_ADM_USER }} \
-        -e ADM_PASSWORD=${{ secrets.CETONIO_ADM_PASSWD }} \
+        -e REVO_HOST=${{ env.REVO_HOST }} \
+        -e CGI_USER=${{ secrets.CGI_USER }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
-        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} \
-        afido subm
+        -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
+        -e SIGELILO=${{secrets.SIGELILO}} \
+        afido \
+        afido
 
     - name: Rigardu la protokolon 
       id: rigardu_protokolon
@@ -94,22 +97,21 @@ jobs:
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v4
       with:
-        name: log-rs
+        name: log-gh
         path: .log
         include-hidden-files: true        
 
     - name: Konservu la interrezultojn
       uses: actions/upload-artifact@v4
       with:
-        name: tmp-rs
+        name: tmp-gh
         path: .tmp
         include-hidden-files: true
 
-  revo-redaktoj-rv:
+  revo-redaktoj-db:
     runs-on: ubuntu-latest
     # ne kuru ambaŭ samtempe, por eviti fand-konfliktojn de la git-arĥivo!
-    # if: ${{ false }}  # malŝaltu provizore, necesas analizi eraron
-    needs: revo-redaktoj-rs
+    needs: revo-redaktoj-gh
     outputs:
       KONFIRMO_DB: ${{ steps.rigardu_protokolon.outputs.KONFIRMO_DB }}
 
@@ -155,19 +157,23 @@ jobs:
 
     - name: Akceptu redaktojn el submetoj, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
-        docker run --name afido \
+        docker run -d --name afido \
         -e SMTP_SERVER=smtp.strato.de  \
         -e SMTP_USER=${{ secrets.SMTP_USER }} \
         -e SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }} \
         -v $GITHUB_WORKSPACE/.tmp:/home/afido/dict/tmp \
         -v $GITHUB_WORKSPACE/.log:/home/afido/dict/log \
+        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} 
+        sleep 10
+        docker exec -u1074 \
         -e GIT_REPO_REVO=revo-fonto \
         -e REVO_HOST=${{ env.REVO_HOST }} \
-        -e ADM_USER=${{ secrets.CGI_USER }} \
-        -e ADM_PASSWORD=${{ secrets.CGI_PASSWD }} \
-        -e ADM_URL=/cgi-bin/admin \
+        -e CGI_USER=${{ secrets.CGI_USER }} \
+        -e CGI_PASSWORD=${{ secrets.CGI_PASSWD }} \
         -e GITHUB_TOKEN=${{secrets.GITHUB_TOKEN}} \
-        ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }} \
+        -e REVO_TOKEN=${{secrets.REVO_TOKEN}} \
+        -e SIGELILO=${{secrets.SIGELILO}} \
+        afido \
         afido subm
 
     - name: Rigardu la protokolon 
@@ -186,22 +192,20 @@ jobs:
     - name: Konservu protokolojn
       uses: actions/upload-artifact@v4
       with:
-        name: log-rv
+        name: log-db
         path: .log
         include-hidden-files: true        
 
     - name: Konservu la interrezultojn
       uses: actions/upload-artifact@v4
       with:
-        name: tmp-rv
+        name: tmp-db
         path: .tmp
         include-hidden-files: true
         
   revo-aktualigo:
-    #needs: [revo-redaktoj-rs,revo-redaktoj-rv]
-    needs: [revo-redaktoj-rs]
-    #if: ${{needs.revo-redaktoj-rs.outputs.KONFIRMO_GH || needs.revo-redaktoj-rv.outputs.KONFIRMO_DB }}
-    if: ${{needs.revo-redaktoj-rs.outputs.KONFIRMO_GH }}
+    needs: [revo-redaktoj-gh,revo-redaktoj-db]
+    if: ${{needs.revo-redaktoj-gh.outputs.KONFIRMO_GH || needs.revo-redaktoj-db.outputs.KONFIRMO_DB }}
     runs-on: ubuntu-latest
 
     steps:
