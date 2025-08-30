@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cifer.xml,v 1.52 2025/03/02 13:50:52 revo Exp $">
+<art mrk="$Id: cifer.xml,v 1.53 2025/08/30 06:38:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>cifer</rad>/o
@@ -24,7 +24,7 @@
       <ekz>
         e&ubreve;ropaj <klr>(<frm>0123456789</frm>)</klr>,
         romaj <klr>(<frm>IVXLCDM</frm>)</klr>,
-        hindaj <klr>(<frm>&#x966;&#x967;&#x968;&#x969;&#x96A;&#x96B;&#x96C;&#x96D;&#x96E;&#x96F;</frm>)</klr>,
+        hindaj <klr>(<frm>&#2406;&#2407;&#2408;&#2409;&#x96A;&#x96B;&#x96C;&#x96D;&#x96E;&#x96F;</frm>)</klr>,
         arabaj  <klr>(<frm>&a_0;&a_1;&a_2;&a_3;&a_4;&a_5;&a_6;&a_7;&a_8;&a_9;</frm>)</klr>
         <tld/>oj;
       </ekz>
@@ -82,6 +82,11 @@
     <trd lng="fa">&a_r;&a_q;&a_m;</trd>
     <trd lng="fr">chiffre</trd>
     <trd lng="hu">sz&aacute;mjegy</trd>
+    <trdgrp lng="id">
+      <trd>angka</trd>,
+      <trd>digit</trd>,
+      <trd>sandi</trd>
+    </trdgrp>
     <trd lng="it">cifra</trd>
     <trd lng="nl">cijfer</trd>
     <trd lng="oc">chifra</trd>
@@ -95,14 +100,15 @@
     </trdgrp>
     <trd lng="sv">siffra</trd>
     <trdgrp lng="zh">
-    <trd>&#x4F4D;&#x6570; <pr>w&#xE8;ish&#xF9;</pr></trd>,
-    <trd>&#x7801;&#x5B57; <pr>m&#x1CE;z&#xEC;</pr></trd>
+    <trd>&#x4F4D;&#25968; <pr>w&#xE8;ish&#xF9;</pr></trd>,
+    <trd>&#30721;&#x5B57; <pr>m&#x1CE;z&#xEC;</pr></trd>
   </trdgrp>
 </snc>
   <snc mrk="cifer.0o.nombro">
     <uzo tip="klr">(metonimie)</uzo>
     <dif>
-      <ref tip="dif" cel="nombr.0o">Nombro</ref>, reprezentita per <tld/>o(j)<sncref ref="cifer.0o.MAT"/>:
+      <ref tip="dif" cel="nombr.0o">Nombro</ref>, reprezentita per <tld/>o(j)<sncref
+      ref="cifer.0o.MAT"/>:
       <ekz>
         la nombro de la entuziasmuloj atingos certan <tld/>on kaj haltos
         <fnt>
@@ -145,7 +151,7 @@
     <trd>&ccaron;&iacute;slice</trd>
   </trdgrp>
   <trd lng="he">&samekh;&pe;&resh;&he;</trd>
-  <trd lng="ja">&#x6570;&#x5B57;  <pr>&#x3059;&#x3046;&#x3058;</pr></trd>
+  <trd lng="ja">&#25968;&#x5B57;  <pr>&#12377;&#12358;&#12376;</pr></trd>
   <trd lng="uk">&c_c;&c_i;&c_f;&c_r;&c_a;</trd>
 </drv>
 
@@ -213,14 +219,15 @@
     <trd>digit&aacute;ln&iacute;</trd>,
     <trd>&ccaron;&iacute;seln&yacute;</trd>
   </trdgrp>
+  <trd lng="id">digital</trd>
   <trdgrp lng="sk">
     <trd>digit&aacute;lny</trd>,
     <trd>&ccaron;&iacute;seln&yacute;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x6570;&#x5B57;&#x4E0A; <pr>sh&#xF9;z&#xEC;sh&#xE0;ng</pr></trd>,
-    <trd>&#x7528;&#x6570;&#x5B57;&#x8868;&#x793A; <pr>y&#xF2;ngsh&#xF9;z&#xEC;bi&#x1CE;osh&#xEC;</pr></trd>,
-    <trd>&#x6570;&#x8BCD; <pr>sh&#xF9;c&#xED;</pr></trd>
+    <trd>&#25968;&#x5B57;&#x4E0A; <pr>sh&#xF9;z&#xEC;sh&#xE0;ng</pr></trd>,
+    <trd>&#29992;&#25968;&#x5B57;&#34920;&#x793A; <pr>y&#xF2;ngsh&#xF9;z&#xEC;bi&#x1CE;osh&#xEC;</pr></trd>,
+    <trd>&#25968;&#x8BCD; <pr>sh&#xF9;c&#xED;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -255,7 +262,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        tiu sistemo <klr>[&#x2026;]</klr> ne uzeblas por <tld/>ecaj elsendoj
+        tiu sistemo <klr>[&#8230;]</klr> ne uzeblas por <tld/>ecaj elsendoj
         <fnt>
           <bib>Monato</bib>
           <aut>Hektor Alos I Font</aut>
@@ -287,12 +294,16 @@
   </snc>
   <trd lng="cs">celo&ccaron;&iacute;seln&yacute;</trd>
   <trd lng="he">&dalet;&#x5B4;&yod;&gimel;&#x5B4;&yod;&tet;&#x5B8;&lamed;&yod;</trd>
-  <trd lng="ja">&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#x306E;  <pr>&#x3067;&#x3058;&#x305F;&#x308B;&#x306E;</pr></trd>
+  <trdgrp lng="id">
+    <trd>numerik</trd>,
+    <trd>numeris</trd>
+  </trdgrp>
+  <trd lng="ja">&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#x306E;  <pr>&#12391;&#12376;&#x305F;&#x308B;&#x306E;</pr></trd>
   <trd lng="sk">celo&ccaron;&iacute;seln&yacute;</trd>
   <trd lng="uk">&c_c;&c_i;&c_f;&c_r;&c_o;&c_v;&c_i;&c_j; (&c_p;&c_r;&c_o; &c_u;&c_s;&c_t;&c_a;&c_t;&c_k;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;)</trd>
   <trdgrp lng="zh">
-    <trd>&#x6570;&#x5B57;&#x5F0F; <pr>sh&#xF9;z&#xEC;sh&#xEC;</pr></trd>,
-    <trd>&#x6570;&#x7801; <pr>sh&#xF9;m&#x1CE;</pr></trd>
+    <trd>&#25968;&#x5B57;&#x5F0F; <pr>sh&#xF9;z&#xEC;sh&#xEC;</pr></trd>,
+    <trd>&#25968;&#30721; <pr>sh&#xF9;m&#x1CE;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -330,7 +341,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="https://www.monato.be/2009/009721.php">Europeana: kultura hereda&jcirc;o i&gcirc;os 
+          <vrk><url ref="https://www.monato.be/2009/009721.php">Europeana: kultura hereda&jcirc;o i&gcirc;os
           alirebla por &ccirc;iuj</url></vrk>
           <lok>2009</lok>
         </fnt>.
@@ -357,10 +368,15 @@
     <trd>&c_a;&c_l;&c_ib;&c_ch;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="cs">digitalizovat</trd>
-  <trd lng="ja">&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#x5316;&#x3059;&#x308B;
-  <pr>&#x3067;&#x3058;&#x305F;&#x308B;&#x304B;&#x3059;&#x308B;</pr></trd>
+  <trdgrp lng="id">
+    <trd><baz>digital</baz>mendigitalkan</trd>,
+    <trd><baz>digitisasi</baz>mendigitisasi</trd>,
+    <trd><baz>digitalisasi</baz>mendigitalisasi</trd>
+  </trdgrp>
+  <trd lng="ja">&#x30C7;&#x30B8;&#x30BF;&#x30EB;&#21270;&#12377;&#x308B;
+  <pr>&#12391;&#12376;&#x305F;&#x308B;&#x304B;&#12377;&#x308B;</pr></trd>
   <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_i;&c_t;&c_i; &c_a;&c_n;&c_a;&c_l;&c_o;&c_g;&c_o;&c_v;&c_ib; &c_s;&c_i;&c_gu;&c_n;&c_a;&c_l;&c_i; &c_v; &c_c;&c_i;&c_f;&c_r;&c_o;&c_v;&c_ib;</trd>
-  <trd lng="zh">&#x6570;&#x7801;&#x5316; <pr>sh&#xF9;m&#x1CE;hu&#xE0;</pr></trd>
+  <trd lng="zh">&#25968;&#30721;&#21270; <pr>sh&#xF9;m&#x1CE;hu&#xE0;</pr></trd>
 </drv>
 
 <drv mrk="cifer.0ecigilo">
@@ -402,13 +418,17 @@
     <trd>digitalizer</trd>,
     <trd>za&rcaron;&iacute;zen&iacute; k p&rcaron;evodu vstupn&iacute;ho sign&aacute;lu do &ccaron;&iacute;seln&eacute; formy</trd>
   </trdgrp>
+  <trd lng="id"><baz>digit</baz>pendigit</trd>
   <trd lng="ja">&#x30C7;&#x30B8;&#x30BF;&#x30A4;&#x30B6;&#x30FC;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.53 2025/08/30 06:38:59
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.51 2024/11/06 18:37:48
-Vito Redsky: + trd ro 
+Vito Redsky: + trd ro
 
 versio 1.50 2024/02/22 06:28:36
 Dmitri Gabinski: + trd be
@@ -426,8 +446,5 @@ versio 1.44 2023/05/18 07:21:18
 Wolfram Diestel: +ekz-oj
 
 versio 1.42 2021/07/27 08:33:54
-Dmitri Gabinski: + trd be
-
-Revision 1.39  2015/07/04 08:37:32  revo
 -->
 </vortaro>
