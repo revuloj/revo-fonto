@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aprior.xml,v 1.24 2024/05/14 03:27:07 revo Exp $">
+<art mrk="$Id: aprior.xml,v 1.25 2025/09/13 08:31:52 revo Exp $">
 <kap>
   <rad>aprior</rad>/a
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="aprior.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="aprior.0a.ekstersperta">
     <uzo tip="fak">FIL</uzo>
     <dif>
       Anta&ubreve;sperta a&ubreve; ekstersperta, kiu anta&ubreve;as
-      sperton a&ubreve; estas premiso
+      sperton a&ubreve; estas <ref cel="premis.0o.LOG">premiso</ref>
       por akiri sperton a&ubreve; faktojn:
       <ekz>
-        la&ubreve; Kant, la konceptoj pri tempo kaj spaco estas
+        la&ubreve; Kantio, la konceptoj pri tempo kaj spaco estas
         <tld/>aj.
       </ekz>
     </dif>
@@ -36,15 +37,35 @@
     <trd lng="pl">a priori</trd>
     <trd lng="ru">&c_a;&c_p;&c_r;&c_i;&c_o;&c_r;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc>
+  <snc mrk="aprior.0a.teoria">
     <uzo tip="fak">FIL</uzo>
+    <uzo tip="fak">LIN</uzo>
     <dif>
       Bazita sur teorio:
       <ekz>
-        Lo&jcirc;bano estas artefarita lingvo <tld/>a.
+        Lo&jcirc;bano estas artefarita lingvo <tld/>a;
+      </ekz>
+      <ekz>
+        koncerne la radikojn Zamenhof <klr>[&#x2026;]</klr> en la unua tempo pensis, ke ili
+        devus esti kiel eble plej mallongaj, do elpensitaj <tld/>e
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum <tld/>e anta&ubreve;eksperimente li tion pruvas <klr>[la aferoj evoluas alie]</klr>
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="spekul2.0a">spekulativa</ref>
+    <ref tip="ant" cel="empiri.0a">empiria</ref>
+    <refgrp tip="vid">
+      <ref cel="spekul2.0a">spekulativa</ref>,
+      <ref cel="teori.0a.KOMUNE">teoria</ref>
+    </refgrp>
     <trd lng="be">&c_a;&c_p;&c_r;&c_y;&c_jo;&c_r;&c_n;&c_y;</trd>
     <trd lng="de">apriorisch</trd>
     <trd lng="es">a priori</trd>
@@ -53,22 +74,38 @@
     <trd lng="pl">a priori</trd>
     <trd lng="ru">&c_a;&c_p;&c_r;&c_i;&c_o;&c_r;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc>
+  <snc mrk="aprior.0a.anticipa">
     <uzo tip="stl">KOMUNE</uzo>
     <dif>
-      Anticipa, anta&ubreve;fakta, bazita sur &gcirc;eneralaj konsideroj,
+      <ref tip="super" cel="antici.0i">Anticipa</ref>, anta&ubreve;fakta, bazita sur &gcirc;eneralaj konsideroj,
       dum faktoj mankas:
       <ekz>
-        <tld/>e tio &scirc;ajnas bona solvo.
+        <tld/>e tio &scirc;ajnas bona solvo;
+      </ekz>
+      <ekz>
+        &leftquot;Esperanto ne povas evolui&rightquot; a&ubreve; ke &gcirc;i &leftquot;devos disfali en dialektojn&rightquot;
+        <klr>[&#x2026;jen]</klr> temas denove pri <tld/>aj asertoj sen ia ajn kono de la
+        faktoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi plej multe &gcirc;uis voja&gcirc;on en landon <klr>[&#x2026;]</klr> kiu <tld/>e &scirc;ajnis al mi
+        tute seninteresa
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 7 (57)</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="antici.0i">anticipa</ref>
     <trd lng="be">&c_a;&c_p;&c_r;&c_y;&c_jo;&c_r;&c_n;&c_y;</trd>
     <trdgrp lng="de">
       <trd>a priori</trd>,
       <trd>apriorisch</trd>,
       <trd>mutma&szlig;lich</trd>,
-      <trd>ohne &Uuml;berpr&uuml;fung</trd>
+      <trd>ohne <ind>&Uuml;berpr&uuml;fung</ind></trd>
     </trdgrp>
     <trd lng="es">a priori</trd>
     <trd lng="fr">a priori</trd>
@@ -80,17 +117,22 @@
     <trd lng="pl">a priori</trd>
     <trd lng="ru">&c_a;&c_p;&c_r;&c_i;&c_o;&c_r;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc>
+  <snc mrk="aprior.0a.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
       En programlingvo, pri esprimilo kiu kvankam formale
       apartenas al kategorio de deklarendaj objektoj (proceduro,
       funkcio, datumtipo, konstanto, variablo), tamen estas
-      disponebla en la fontaj programoj sen deklaro a&ubreve; difino:
+      disponebla en la fontaj programoj sen deklaro a&ubreve; difino;
+      <ref cel="difin.antaux0i">anta&ubreve;difinita</ref>:
       <ekz>
         en Paskalo <em>abs</em> estas <tld/>a funkcio.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="defauxlt.0o">defa&ubreve;lta</ref>,
+      <ref cel="implic.0a">implica</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_a;&c_p;&c_r;&c_y;&c_jo;&c_r;&c_n;&c_y;</trd>,
       <trd>&c_p;&c_je;&c_r;&c_a;&c_d;&c_v;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_n;&c_y;</trd>,
@@ -120,16 +162,19 @@
       <trd>standard</trd>
     </trdgrp>
   </snc>
+  <refgrp tip="ant">
+    <ref cel="aposte.0a">aposteriora</ref>
+  </refgrp>
   <trdgrp lng="cs">
-    <trd>apriorn&#xED;</trd>,
-    <trd>dan&#xFD;</trd>,
-    <trd>zalo&#x17E;en&#xFD; na teorii</trd>
+    <trd>apriorn&iacute;</trd>,
+    <trd>dan&yacute;</trd>,
+    <trd>zalo&zcaron;en&yacute; na teorii</trd>
   </trdgrp>
-  <trd lng="he">&#x5DE;&#x5E8;&#x5D0;&#x5E9;</trd>
+  <trd lng="he">&mem;&resh;&alef;&shin;</trd>
   <trd lng="it">a priori</trd>
   <trdgrp lng="ja">
-    <trd>&#20808;&#22825;&#30340;&#x306A;  <pr>&#x305B;&#12435;&#12390;&#12435;&#12390;&#x304D;&#x306A;</pr></trd>,
-    <trd>&#x6F14;&#x7E79;&#30340;&#x306A;  <pr>&#12360;&#12435;&#12360;&#x304D;&#12390;&#x304D;&#x306A;</pr></trd>
+    <trd>&#x5148;&#x5929;&#x7684;&#x306A;  <pr>&#x305B;&#x3093;&#x3066;&#x3093;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x6F14;&#x7E79;&#x7684;&#x306A;  <pr>&#x3048;&#x3093;&#x3048;&#x304D;&#x3066;&#x304D;&#x306A;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>predefiniowany</trd>,
@@ -137,21 +182,21 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>apri&oacute;rny</trd>,
-    <trd>apri&#xF3;rny</trd>
+    <trd>apri&oacute;rny</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_a;&#x43F;&c_r;&c_ib;&#x43E;&c_r;&#x43D;&c_i;&c_j;</trd>,
-    <trd>&#x43D;&c_je;&c_z;&c_a;&#x43B;&c_je;&c_zh;&#x43D;&c_i;&c_j; &c_v;&c_ib;&c_d; &c_d;&#x43E;&c_s;&c_v;&c_ib;&c_d;&c_u;</trd>
+    <trd>&c_a;&c_p;&c_r;&c_ib;&c_o;&c_r;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_i;&c_j; &c_v;&c_ib;&c_d; &c_d;&c_o;&c_s;&c_v;&c_ib;&c_d;&c_u;</trd>
   </trdgrp>
 </drv>
-<refgrp tip="ant">
-  <ref cel="aposte.0a">aposteriora</ref>.
-</refgrp>
 </art>
 <!--
 $Log$
+versio 1.25 2025/09/13 08:31:52
+Wolfram Diestel: +ekz, ref
+
 versio 1.24 2024/05/14 03:27:07
-Vito Redsky: + trd pl 
+Vito Redsky: + trd pl
 
 versio 1.23 2023/10/13 16:46:48
 revo: transskribo per <pr>
@@ -169,8 +214,5 @@ Revision 1.15  2009/03/07 17:30:35  revo
 Antonio Codazzi: +trd it
 
 Revision 1.14  2004/07/15 19:02:55  revo
-Viliam Bur: +trd sk
-
-Revision 1.13  2003/11/10 17:31:09  revo
 -->
-</vortaro>
+</vortaro>
