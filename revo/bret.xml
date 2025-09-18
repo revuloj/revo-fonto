@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bret.xml,v 1.112 2025/07/21 10:00:21 revo Exp $">
+<art mrk="$Id: bret.xml,v 1.113 2025/09/18 22:28:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bret</rad>/o <fnt><bib>UV</bib></fnt>
@@ -29,15 +29,6 @@
     <refgrp tip="vid">
       <ref cel="rak.0o.MEBL">rako</ref>
     </refgrp>
-    <trdgrp lng="zh">
-    <trd>&#26827;&#30424; <pr>q&iacute;p&aacute;n</pr></trd>,
-    <trd>&#29263; <pr>t&oacute;u</pr></trd>,
-    <trd>&#28369;&#38634;&#26495; <pr>hu&aacute;xu&ecaron;b&#462;n</pr></trd>,
-    <trd>&#36339;&#26495; <pr>ti&agrave;ob&#462;n</pr></trd>,
-    <trd>&#26408;&#26495; <pr>m&ugrave;b&#462;n</pr></trd>,
-    <trd>&#26495; <pr>b&#462;n</pr></trd>
-  </trdgrp>
-</snc>
   <trd lng="af">direksie</trd>
   <trd lng="am">&#4656;&#4620;&#4851;</trd>
   <trd lng="ar">&a_m;&a_j;&a_l;&a_s; &a_A;&a_l;&a_A_hamza_sube;&a_d;&a_A;&a_r;&a_t_marbuta;</trd>
@@ -144,7 +135,33 @@
   <trd lng="xh">ibhodi</trd>
   <trd lng="yi">&bet;&resh;&ayin;&tet;</trd>
   <trd lng="yo">&#7885;k&#7885;</trd>
+  <trdgrp lng="zh">
+    <trd>&#26827;&#30424; <pr>q&iacute;p&aacute;n</pr></trd>,
+    <trd>&#29263; <pr>t&oacute;u</pr></trd>,
+    <trd>&#28369;&#38634;&#26495; <pr>hu&aacute;xu&ecaron;b&#462;n</pr></trd>,
+    <trd>&#36339;&#26495; <pr>ti&agrave;ob&#462;n</pr></trd>,
+    <trd>&#26408;&#26495; <pr>m&ugrave;b&#462;n</pr></trd>,
+    <trd>&#26495; <pr>b&#462;n</pr></trd>
+  </trdgrp>
   <trd lng="zu">ebhodini</trd>
+  </snc>
+  <snc mrk="bret.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      En la <ref tip="malprt" cel="fasad.0o.KOMP">fasado</ref> de komputa programo,
+      spaco en kiu vici&gcirc;as butonoj, vinjetoj a&ubreve; similaj elementoj, per kiuj uzanto povas
+      informi&gcirc;i a&ubreve; agi:
+      <ekz>
+        montri menuo<tld/>on
+        <fnt>
+          <aut>-</aut>
+          <vrk>Menuo &leftquot;agordoj&rightquot;</vrk>
+          <lok>Kate, versio 25.07.70</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">barre<klr> (de menu etc., informatique)</klr></trd>
+  </snc>
 </drv>
 
 <drv mrk="bret.0aro">
@@ -236,10 +253,10 @@
     </dif>
     <ref tip="vid" cel="sxrank.libro0o">libro&scirc;ranko</ref>
     <trdgrp lng="zh">
-    <trd>&#26029;&#23618;&#24335;&#20070;&#26550; <pr>du&agrave;nc&eacute;ngsh&igrave;sh&#363;ji&agrave;</pr></trd>,
-    <trd>&#20070;&#26550; <pr>sh&#363;ji&agrave;</pr></trd>,
-    <trd>&#22270;&#20070;&#26550; <pr>t&uacute;sh&#363;ji&agrave;</pr></trd>,
-    <trd>&#20070;&#26588; <pr>sh&#363;gu&igrave;</pr></trd>
+    <trd>&#26029;&#23618;&#24335;&#20070;&#26550; <pr>du&agrave;nc&eacute;ngsh&igrave;sh&umacron;ji&agrave;</pr></trd>,
+    <trd>&#20070;&#26550; <pr>sh&umacron;ji&agrave;</pr></trd>,
+    <trd>&#22270;&#20070;&#26550; <pr>t&uacute;sh&umacron;ji&agrave;</pr></trd>,
+    <trd>&#20070;&#26588; <pr>sh&umacron;gu&igrave;</pr></trd>
   </trdgrp>
 </snc>
   <trd lng="be">&c_s;&c_t;&c_e;&c_l;&c_ja;&c_zh; <klr>(&c_k;&c_n;&c_ib;&c_zh;&c_n;&c_y;)</klr></trd>
@@ -248,7 +265,7 @@
   <trd lng="de">B&uuml;cherregal</trd>
   <trd lng="en">bookcase</trd>
   <trd lng="es">estanter&iacute;a para libros</trd>
-  <trd lng="fa">&a_q;&a_f;&a_s;&a_h;&a_hamza_sure;&zwnj; &f_k;&a_t;&a_A;&a_b;</trd>
+  <trd lng="fa">&a_q;&a_f;&a_s;&a_h;&a_hamza_sure;&#8204; &f_k;&a_t;&a_A;&a_b;</trd>
   <trd lng="fr">rayonnage &agrave; livres</trd>
   <trd lng="ja">&#26412;&#26842;  <pr>&#12411;&#12435;&#12384;&#12394;</pr></trd>
   <trd lng="nl">boekenrek</trd>
@@ -340,6 +357,9 @@
 </art>
 <!--
 $Log$
+versio 1.113 2025/09/18 22:28:16
+Jeromo Vasxe: ~o + snc komp
+
 versio 1.112 2025/07/21 10:00:21
 Hector Alos i Font: +trd es,ca
 
@@ -359,8 +379,5 @@ versio 1.30 2020/08/23 10:32:35
 Jeromo Vasxe: kontinent~o: + trd fr
 
 versio 1.29 2020/08/22 20:32:34
-Jeromo Vasxe: + kontinento~o
-
-Revision 1.27  2015/10/06 11:10:16  revo
 -->
 </vortaro>
