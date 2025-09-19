@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sankt.xml,v 1.64 2025/05/29 02:10:01 revo Exp $">
+<art mrk="$Id: sankt.xml,v 1.65 2025/09/19 10:34:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sankt</rad>/a
@@ -16,6 +16,7 @@
       <ekz>
         la <ind><tld lit="S"/>a Skribo</ind>;
         <trd lng="hu">Szent&iacute;r&aacute;s</trd>
+        <trd lng="id"><baz>kitab</baz>kitab suci</trd>
         <trd lng="nl">Heilige Schrift</trd>
         <trd lng="pl">Pismo &Sacute;wi&eogonek;te</trd>
         <trd lng="ru">
@@ -46,11 +47,12 @@
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>olei re&gcirc;on
+        <ind><tld/>olei</ind> re&gcirc;on
         <fnt>
           <bib>MT</bib>
           <lok>Ju&gcirc;istoj 9:8</lok>
         </fnt>;
+      <trd lng="id"><baz>urap</baz>mengurapi</trd>
       </ekz>
       <ekz>
         en la sepa tago faru al vi <tld/>an kunvenon, nenia laboro estu
@@ -61,10 +63,11 @@
         </fnt>;
       </ekz>
       <ekz>
-        la Sankta Kruco
+        la <ind>Sankta Kruco</ind>
         <fnt>
           <bib>Marta</bib>
         </fnt>;
+        <trd lng="id"><baz>salib</baz>Salib Suci</trd>
       </ekz>
       <ekz>
         <tld/>a devo
@@ -91,6 +94,7 @@
         <klr>(papa registaro)</klr>;
         <trd lng="de">Heiliger Stuhl</trd>
         <trd lng="hu">Szentsz&eacute;k</trd>
+        <trd lng="id"><baz>takhta</baz>Takhta Suci</trd>
         <trd lng="nl">Heilige <ind>Stoel</ind></trd>
         <trd lng="pl">Tron Piotrowy</trd>
         <trd lng="ru">&c_s;&c_v;&c_ja;&c_t;&c_o;&c_j; &c_p;&c_r;&c_je;&c_s;&c_t;&c_o;&c_l;</trd>
@@ -112,29 +116,33 @@
     <dif>
       Epiteto de <tld/>ulo a&ubreve; <tld/>ulino:
       <ekz>
-        <tld/>a Petro
+        <ind><tld/>a Petro</ind>
         <fnt>
           <bib>ElektFab</bib>
           <lok>Kamarado Gaja</lok>
         </fnt>;
+        <trd lng="id"><baz>santo</baz>Santo Petrus</trd>
       </ekz>
       <ekz>
-        <tld/>a Johano
+        <ind><tld/>a Johano</ind>
         <fnt>
           <bib>PrV</bib>
         </fnt>;
+        <trd lng="id"><baz>santo</baz>Santo Yohanes</trd>
       </ekz>
       <ekz>
-        la <tld lit="S"/>a Virgulino
+        la <ind><tld lit="S"/>a Virgulino</ind>
         <fnt>
           <bib>FK</bib>
         </fnt>;
+        <trd lng="id"><baz>perawan</baz>Perawan Suci</trd>
       </ekz>
       <ekz>
-        la mona&hcirc;ejo de la <tld lit="S"/>a Stefano
+        la mona&hcirc;ejo de la <ind><tld lit="S"/>a Stefano</ind>
         <fnt>
           <bib>FK</bib>
         </fnt>.
+        <trd lng="id"><baz>santo</baz>Santo Stefanus</trd>
       </ekz>
     </dif>
     <trd lng="ru">&c_s;&c_v;&c_ja;&c_t;&c_o;&c_j;</trd>
@@ -149,6 +157,7 @@
         <trd lng="en">Maundy <ind>Thursday</ind></trd>
         <trd lng="de">Gr&uuml;ndonnerstag</trd>
         <trd lng="hu">nagycs&uuml;t&ouml;rt&ouml;k</trd>
+        <trd lng="id"><baz>Kamis</baz>Kamis Putih</trd>
         <trd lng="it"><ind>Gioved&igrave;</ind> Santo</trd>
         <trd lng="nl">Witte <ind>Donderdag</ind></trd>
         <trd lng="pl">Wielki Czwartek</trd>
@@ -163,6 +172,7 @@
         <trd lng="en">Good <ind>Friday</ind></trd>
         <trd lng="de">Karfreitag</trd>
         <trd lng="hu">nagyp&eacute;ntek</trd>
+        <trd lng="id"><baz>Jumat</baz>Jumat Agung</trd>
         <trd lng="it"><ind>Venerd&igrave;</ind> Santo</trd>
         <trd lng="nl">Goede <ind>Vrijdag</ind></trd>
         <trd lng="pl">Wielki Pi&aogonek;tek</trd>
@@ -182,6 +192,7 @@
         </fnt>.sankta
         <trd lng="be">&c_p;&c_a;&c_k;&c_u;&c_t;&c_n;&c_a;&c_ja; <ind>&c_s;&c_u;&c_b;&c_o;&c_t;&c_a;</ind></trd>
         <trd lng="hu">nagyszombat</trd>
+        <trd lng="id"><baz>Sabtu</baz>Sabtu Suci</trd>
         <trd lng="nl">paaszaterdag</trd>
         <trd lng="pl">Wielka Sobota</trd>
         <trdgrp lng="ru">
@@ -373,7 +384,11 @@
     <trd>sant&iacute;sima</trd>
   </trdgrp>
   <trd lng="fr">tr&egrave;s saint</trd>
-  <trd lng="id"><ind>maha</ind>suci</trd>
+  <trdgrp lng="id">
+    <trd>mahasuci</trd>,
+    <trd>mahakudus</trd>,
+    <trd>mahasakral</trd>
+  </trdgrp>
   <trd lng="it">santissimo</trd>
   <trd lng="nl">allerheiligst</trd>
   <trd lng="pl">przenaj&sacute;wi&eogonek;tszy</trd>
@@ -422,7 +437,11 @@
   <trd lng="es">santificar</trd>
   <trd lng="fr">sanctifier</trd>
   <trd lng="hu">megszentel</trd>
-  <trd lng="id"><baz>suci</baz>menyucikan</trd>
+  <trdgrp lng="id">
+    <trd><baz>kudus</baz>menguduskan</trd>,
+    <trd><baz>sakral</baz>menyakralkan</trd>,
+    <trd><baz>suci</baz>menyucikan</trd>
+  </trdgrp>
   <trd lng="it">santificare<klr> (rendere santo)</klr></trd>
   <trdgrp lng="ja">
     <trd>&#31070;&#32854;&#35222;&#12377;&#12427;  <pr>&#12375;&#12435;&#12379;&#12356;&#12375;&#12377;&#12427;</pr></trd>,
@@ -561,6 +580,7 @@
   </trdgrp>
   <trd lng="es">santuario</trd>
   <trd lng="fr">sanctuaire</trd>
+  <trd lng="id"><baz>tempat</baz>tempat suci</trd>
   <trd lng="it">santuario</trd>
   <trdgrp lng="ja">
     <trd>&#32854;&#25152;  <pr>&#12379;&#12356;&#12376;&#12423;</pr></trd>,
@@ -615,7 +635,7 @@
         </trd>
       </ekz>
       <ekz>
-        li rememoris, kiel la <tld/>a Elisabeto, kiam &scirc;i vivis
+        li rememoris, kiel la <ind><tld/>a Elisabeto</ind>, kiam &scirc;i vivis
         ankora&ubreve; sur la tero, &scirc;i, la <tld/>ulino de lia
         hejmo kaj de lia infaneco, la nobla dukino de Turingio, la alte
         eminenta sinjorino, mem iradis en la plej malri&ccirc;ajn
@@ -623,6 +643,10 @@
         refre&scirc;igon
         <fnt><bib>Fab3</bib>,
         <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok></fnt>;
+        <trdgrp lng="id">
+          <trd><baz>santa</baz>Santa Elisabet</trd>,
+          <trd>Elisabet dr Hongaria</trd>
+        </trdgrp>
       </ekz>
       <ekz>
         halovino <klr>[&#8230;]</klr>, vespero de &ccirc;iuj <tld/>uloj
@@ -643,6 +667,7 @@
           <lok>2007/02, p. 15</lok>
         </fnt>;
         <trd lng="de">Allerheiligen</trd>
+        <trd lng="id"><baz>hari</baz>Hari Raya Semua Orang Kudus</trd>
         <trd lng="nl">Allerheiligen</trd>
       </ekz>
       <ekz>
@@ -662,7 +687,7 @@
   <trdgrp lng="id">
     <trd>santa</trd>,
     <trd>santo</trd>,
-    <trd><ind>orang</ind> suci</trd>
+    <trd><baz>orang</baz>orang suci</trd>
   </trdgrp>
   <trd lng="it">santo<klr> (sost.)</klr></trd>
   <trd lng="ja">&#32854;&#20154;  <pr>&#12375;&#12423;&#12358;&#12395;&#12435;</pr></trd>
@@ -707,6 +732,10 @@
   <trd lng="es">santificar <klr tip="amb">(a una persona)</klr></trd>
   <trd lng="fr">canoniser</trd>
   <trd lng="hu">szentt&eacute; <ind>avat</ind></trd>
+  <trdgrp lng="id">
+    <trd><baz>kanonisasi</baz>menganosisasi</trd>,
+    <trd><baz>suci</baz>menyucikan<klr tip="amb"> (orang)</klr></trd>
+  </trdgrp>
   <trd lng="it">canonizzare</trd>
   <trd lng="ja">&#32854;&#21015;&#12395;&#21152;&#12360;&#12427;
   <pr>&#12402;&#12376;&#12426;&#12428;&#12388;&#12395;&#12367;&#12431;&#12360;&#12427;</pr></trd>
@@ -763,7 +792,14 @@
     <trd>diab&oacute;lico</trd>
   </trdgrp>
   <trd lng="fr">impie</trd>
-  <trd lng="id">najis</trd>
+  <trdgrp lng="id">
+    <trd>bidat</trd>,
+    <trd>duniawi</trd>,
+    <trd>profan</trd>,
+    <trd><baz>tidak</baz>tidak kudus</trd>,
+    <trd><baz>tidak</baz>tidak sakral</trd>,
+    <trd><baz>tidak</baz>tidak suci</trd>
+  </trdgrp>
   <trd lng="nl">heidens</trd>
   <trd lng="pl">bezbo&zdot;ny</trd>
   <trdgrp lng="zh">
@@ -808,6 +844,7 @@
   <trd lng="de">S&auml;ulenheiliger</trd>
   <trd lng="es">estilita</trd>
   <trd lng="fr">stylite</trd>
+  <trd lng="id"><baz>tapa</baz>petapa pilar</trd>
   <trd lng="pl">&sacute;wi&eogonek;ty z kolumny</trd>
 </drv>
 
@@ -862,6 +899,10 @@
     Templo de Jerusal&eacute;n)</klr></trd>
   </trdgrp>
   <trd lng="fr">saint des saints</trd>
+  <trdgrp lng="id">
+    <trd>debir<klr tip="amb"> (di dlm Bait Suci)</klr></trd>,
+    <trd><baz>ruang</baz>Ruang Mahakudus</trd>
+  </trdgrp>
   <trd lng="it">sancta santorum</trd>
   <trd lng="nl">allerheiligste<klr tip="ind"> (zn.)</klr></trd>
   <trd lng="pl">naj&sacute;wi&eogonek;tsze miejsce</trd>
@@ -911,6 +952,10 @@
   <trd lng="es">Semana Santa</trd>
   <trd lng="fr">semaine sainte</trd>
   <trd lng="hu">nagyh&eacute;t</trd>
+  <trdgrp lng="id">
+    <trd><baz>pekan</baz>Pekan Suci</trd>,
+    <trd>Semana Santa</trd>
+  </trdgrp>
   <trd lng="it"><ind>Settimana</ind> Santa</trd>
   <trd lng="nl">Goede <ind>Week</ind></trd>
   <trd lng="pl">Wielki Tydzie&nacute;</trd>
@@ -926,6 +971,9 @@
 </art>
 <!--
 $Log$
+versio 1.65 2025/09/19 10:34:27
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.64 2025/05/29 02:10:01
 Robert Baruch: +en
 
@@ -945,8 +993,5 @@ versio 1.56 2023/05/08 12:45:38
 Paul Peeraerts: + lok + url
 
 versio 1.55 2023/05/01 13:28:11
-Paul Peeraerts: Steloj -> monato
-
-versio 1.54 2023/04/23 08:29:39
 -->
 </vortaro>
