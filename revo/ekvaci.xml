@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekvaci.xml,v 1.42 2025/03/02 18:47:13 revo Exp $">
+<art mrk="$Id: ekvaci.xml,v 1.43 2025/09/22 16:38:12 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>ekvaci</rad>/o
@@ -14,9 +14,9 @@
     <dif>
       Matematika problemo, konsistanta en ser&ccirc;ado de
       <ref cel="bild.inversa0o.elemento">inversa bildo</ref> de iu
-      elemento 
-      <frm am="a"><k>a</k></frm> per iu <ref cel="bild.0igo.MAT">bildigo</ref>;      
-      <tld/>o ofte prezenti&gcirc;as sub formo de egala&jcirc;o 
+      elemento
+      <frm am="a"><k>a</k></frm> per iu <ref cel="bild.0igo.MAT">bildigo</ref>;
+      <tld/>o ofte prezenti&gcirc;as sub formo de egala&jcirc;o
       <frm am="f(x)=a"><k>f</k>(<k>x</k>) = <k>a</k></frm>,
       kie <frm am="x"><k>x</k></frm> estas
       la ser&ccirc;ata <ref cel="kon.ne0ato.ekvacio">nekonato</ref>
@@ -25,11 +25,11 @@
         solvi <tld/>on;
       </ekz>
       <ekz>
-        la <tld/>o <frm am="x^2+1=0"><k>x</k><sup>2</sup>+1 = 0</frm> ne akceptas 
+        la <tld/>o <frm am="x^2+1=0"><k>x</k><sup>2</sup>+1 = 0</frm> ne akceptas
         <klr>(ne havas) </klr> <ref cel="reel.0a">reelan</ref> solvon;
       </ekz>
       <ekz>
-        la nombro <frm>1</frm><klr> </klr><ref cel="ver.0igi.MAT">verigas</ref> la 
+        la nombro <frm>1</frm><klr> </klr><ref cel="ver.0igi.MAT">verigas</ref> la
         <tld/>on <frm am="x^2-1=0"><k>x</k><sup>2</sup>-1 = 0</frm>;
       </ekz>
       <ekz>
@@ -43,14 +43,14 @@
       </ekz>
       <ekz>
         algebra <tld/>o <klr>(kies solvo estas &ccirc;iu inversa bildo
-        de <frm>0</frm> per 
+        de <frm>0</frm> per
         <ref cel="funkci.polinoma0o">polinoma funkcio</ref>)</klr>,
       </ekz>
       <ekz>
         transcenda <tld/>o <klr>(ne estanta algebra)</klr>;
       </ekz>
       <ekz>
-        lineara <tld/>o <klr>(en kiu <frm am="f"><k>f</k></frm> estas 
+        lineara <tld/>o <klr>(en kiu <frm am="f"><k>f</k></frm> estas
         <ref cel="linear.0a.homomorfio">lineara</ref> funkcio)</klr>.
       </ekz>
     </dif>
@@ -68,15 +68,20 @@
   <trd lng="es">ecuaci&oacute;n</trd>
   <trd lng="fr">&eacute;quation</trd>
   <trd lng="hu">egyenlet</trd>
-  <trd lng="ja">&#x65B9;&#x7A0B;&#x5F0F;  <pr>&#x307B;&#x3046;&#x3066;&#x3044;&#x3057;&#x304D;</pr></trd>
+  <trdgrp lng="id">
+    <trd>ekuasi</trd>,
+    <trd><baz>sama</baz>penyamaan</trd>,
+    <trd><baz>sama</baz>persamaan</trd>
+  </trdgrp>
+  <trd lng="ja">&#x65B9;&#x7A0B;&#x5F0F;  <pr>&#x307B;&#12358;&#12390;&#12356;&#12375;&#x304D;</pr></trd>
   <trd lng="pl">r&oacute;wnanie</trd>
   <trd lng="pt">equa&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">rovnica</trd>
-  <trd lng="uk">&#x440;&#x456;&#x432;&#x43D;&#x44F;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_r;&c_ib;&c_v;&#x43D;&#x44F;&#x43D;&#x43D;&#x44F;</trd>
   <trdgrp lng="zh">
-    <trd>&#x6046;&#x7B49;&#x5F0F; <pr>h&#xE9;ngd&#x11B;ngsh&#xEC;</pr></trd>,
-    <trd>&#x65B9;&#x7A0B;&#x5F0F; <pr>f&#x101;ngch&#xE9;ngsh&#xEC;</pr></trd>
+    <trd>&#24646;&#x7B49;&#x5F0F; <pr>h&#xE9;ngd&#x11B;ngsh&#xEC;</pr></trd>,
+    <trd>&#x65B9;&#x7A0B;&#x5F0F; <pr>f&amacron;ngch&#xE9;ngsh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -86,7 +91,7 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      Aro da pluraj <ref cel="ekvaci.0o"><tld/>oj</ref> samtempe 
+      Aro da pluraj <ref cel="ekvaci.0o"><tld/>oj</ref> samtempe
       solvendaj:
       <ekz>
         lineara <tld/>aro kun du nekonatoj;
@@ -107,14 +112,19 @@
   <trd lng="he">&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA;
   &#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D5;&#x5EA;</trd>
   <trd lng="hu">egyenletrendszer</trd>
-  <trd lng="ja">&#x9023;&#x7ACB;&#x65B9;&#x7A0B;&#x5F0F;  <pr>&#x308C;&#x3093;&#x308A;&#x3064;&#x307B;&#x3046;&#x3066;&#x3044;&#x3057;&#x304D;</pr></trd>
+  <trdgrp lng="id">
+    <trd>sistem persamaan</trd>,
+    <trd><baz>sama</baz>persamaan simultan</trd>
+  </trdgrp>
+  <trd lng="ja">&#36899;&#x7ACB;&#x65B9;&#x7A0B;&#x5F0F; 
+  <pr>&#x308C;&#12435;&#x308A;&#12388;&#x307B;&#12358;&#12390;&#12356;&#12375;&#x304D;</pr></trd>
   <trd lng="pl">uk&lstroke;ad r&oacute;wna&nacute;</trd>
   <trd lng="pt">sistema de equa&ccedil;&otilde;es</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;
   &c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_j;</trd>
   <trd lng="sk">s&uacute;stava rovn&iacute;c</trd>
-  <trd lng="uk">&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430; &#x440;&#x456;&#x432;&#x43D;&#x44F;&#x43D;&#x44C;</trd>
-  <trd lng="zh">&#x65B9;&#x7A0B;&#x7D44; <pr>f&#x101;ngch&#xE9;ngz&#x1D4;</pr></trd>
+  <trd lng="uk">&c_s;&c_i;&c_s;&c_t;&c_je;&#x43C;&c_a; &c_r;&c_ib;&c_v;&#x43D;&#x44F;&#x43D;&#x44C;</trd>
+  <trd lng="zh">&#x65B9;&#x7A0B;&#x7D44; <pr>f&amacron;ngch&#xE9;ngz&#x1D4;</pr></trd>
 </drv>
 
 <drv mrk="ekvaci.0igi">
@@ -123,7 +133,7 @@
   <fnt><bib>MatTerm</bib><lok>p. 6</lok></fnt>
   <snc>
     <dif>
-      Trovi la <ref cel="ekvaci.0o"><tld/>ojn</ref>, 
+      Trovi la <ref cel="ekvaci.0o"><tld/>ojn</ref>,
       regantajn a&ubreve; figurantajn fenomenon:
       <ekz>
         <tld/>igi fizikajn fenomenojn.
@@ -141,7 +151,9 @@
   <trd lng="fr">mettre en <ind>&eacute;quations</ind></trd>
   <trd lng="he">&#x5DC;&#x5D4;&#x5E9;&#x5D5;&#x5D5;&#x5EA;</trd>
   <trd lng="hu">egyenletbe foglal</trd>
-  <trd lng="ja">&#x65B9;&#x7A0B;&#x5F0F;&#x306B;&#x3059;&#x308B;  <pr>&#x307B;&#x3046;&#x3066;&#x3044;&#x3057;&#x304D;&#x306B;&#x3059;&#x308B;</pr></trd>
+  <trd lng="id"><baz>masuk</baz>memasukkan ke dalam persamaan</trd>
+  <trd lng="ja">&#x65B9;&#x7A0B;&#x5F0F;&#x306B;&#12377;&#x308B; 
+  <pr>&#x307B;&#12358;&#12390;&#12356;&#12375;&#x304D;&#x306B;&#12377;&#x308B;</pr></trd>
   <trdgrp lng="pl">
     <trd>znajdowa&cacute; <ind>r&oacute;wnanie</ind><klr>
     (zdarzenie)</klr></trd>,
@@ -152,7 +164,7 @@
   <trd lng="ru"> &c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_i;&c_t;&c_mol;
   <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;</ind><klr tip="ind"> (&c_f;&c_je;&c_n;&c_o;&c_m;&c_je;&c_n;&c_a;)</klr></trd>
   <trd lng="sk">zostavi&tcaron; rovnicu</trd>
-  <trd lng="uk">&#x441;&#x43A;&#x43B;&#x430;&#x434;&#x430;&#x442;&#x438; &#x440;&#x456;&#x432;&#x43D;&#x44F;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_s;&#x43A;&#x43B;&c_a;&c_d;&c_a;&c_t;&c_i; &c_r;&c_ib;&c_v;&#x43D;&#x44F;&#x43D;&#x43D;&#x44F;</trd>
 </drv>
 
 <drv mrk="ekvaci.diferenciala0o">
@@ -170,8 +182,8 @@
         <frm am="F(x,y,y&minute;)=0">F(<k>x</k>,<k>y</k>,<k>y</k>&minute;) = 0</frm>;
       </ekz>
       <ekz>
-       <frm am="(del^2u)/(del x^2)+(del^2u)/(del y^2)=0">&#x2202;&quadrat;<k>u</k>/&#x2202;<k>x</k>&quadrat;+&#x2202;&quadrat;<k>u</k>/&#x2202;<k>y</k>&quadrat;
-       = 0</frm> 
+       <frm am="(del^2u)/(del x^2)+(del^2u)/(del y^2)=0">&#8706;&quadrat;<k>u</k>/&#8706;<k>x</k>&quadrat;+&#8706;&quadrat;<k>u</k>/&#8706;<k>y</k>&quadrat;
+       = 0</frm>
         estas elipsa <ind>diferenciala <tld/>o en partaj
         deriva&jcirc;oj</ind>
         <trd lng="be">&c_d;&c_y;&c_f;&c_e;&c_r;&c_e;&c_n;&c_c;&c_y;&c_ja;&c_l;&c_mol;&c_n;&c_a;&c_je; <ind>&c_r;&c_a;&c_w;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind> &c_w; &c_ch;&c_a;&c_s;&c_t;&c_k;&c_o;&c_v;&c_y;&c_h; &c_v;&c_y;&c_t;&c_v;&c_o;&c_r;&c_n;&c_y;&c_h;</trd>.
@@ -181,6 +193,7 @@
         partielles</trd>
         <trd lng="hu">parci&aacute;lis
         <ind>differenci&aacute;legyenlet</ind></trd>
+        <trd lng="id"><baz>sama</baz>persamaan diferensial parsial</trd>
         <trd lng="pl">r&oacute;wnanie r&oacute;&zdot;niczkowe cz&aogonek;stkowe</trd>
         <trd lng="pt">equa&ccedil;&atilde;o diferencial parcial</trd>
         <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
@@ -211,15 +224,16 @@
   <trd lng="he">&#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D4;
   &#x5D3;&#x5D9;&#x5E4;&#x5E8;&#x5E0;&#x5E6;&#x5D9;&#x5D0;&#x5DC;&#x5D9;&#x5EA;</trd>
   <trd lng="hu">differenci&aacute;legyenlet</trd>
-  <trd lng="ja">&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x5F0F;  <pr>&#x3073;&#x3076;&#x3093;&#x307B;&#x3046;&#x3066;&#x3044;&#x3057;&#x304D;</pr></trd>
+  <trd lng="ja">&#x5FAE;&#20998;&#x65B9;&#x7A0B;&#x5F0F;  <pr>&#12403;&#12406;&#12435;&#x307B;&#12358;&#12390;&#12356;&#12375;&#x304D;</pr></trd>
   <trd lng="pl">r&oacute;wnanie r&oacute;&zdot;niczkowe</trd>
   <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
   <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
   <trd lng="sk">diferenci&aacute;lna rovnica</trd>
   <trd lng="cs">diferenci&aacute;ln&iacute; rovnice</trd>
+  <trd lng="id"><baz>sama</baz>persamaan diferensial</trd>
   <trdgrp lng="zh">
-    <trd>&#x5FAE;&#x5206;&#x65B9;&#x7A0B; <pr>w&#x113;if&#x113;nf&#x101;ngch&#xE9;ng</pr></trd>,
-    <trd>&#x5FAE;&#x5206;&#x516C;&#x5F0F; <pr>w&#x113;if&#x113;ng&#x14D;ngsh&#xEC;</pr></trd>
+    <trd>&#x5FAE;&#20998;&#x65B9;&#x7A0B; <pr>w&emacron;if&emacron;nf&amacron;ngch&#xE9;ng</pr></trd>,
+    <trd>&#x5FAE;&#20998;&#x516C;&#x5F0F; <pr>w&emacron;if&emacron;ng&#x14D;ngsh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -234,7 +248,8 @@
       <ekz>
         en la integrala <tld/>o kun nekonato <frm am="phi">&phi;</frm> de la
         tipo
-        <frm am="int_a^b K(s,t)phi(t)dt =         f(s)">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup>K(<k>s</k>,<k>t</k>)&phi;(<k>t</k>)d<k>t</k>
+        <frm am="int_a^b K(s,t)phi(t)dt =        
+        f(s)">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup>K(<k>s</k>,<k>t</k>)&phi;(<k>t</k>)d<k>t</k>
         = <k>f</k>(<k>s</k>)</frm>
         oni nomas la funkcion <frm am="K">K</frm> &gcirc;ia kerno.
       </ekz>
@@ -249,12 +264,13 @@
   <trd lng="he">&#x5DE;&#x5E9;&#x5D5;&#x5D5;&#x5D0;&#x5D4;
   &#x5D0;&#x5D9;&#x5E0;&#x5D8;&#x5D2;&#x5E8;&#x5DC;&#x5D9;&#x5EA;</trd>
   <trd lng="hu">integr&aacute;legyenlet</trd>
+  <trd lng="id"><baz>sama</baz>persamaan integral</trd>
   <trd lng="pl">r&oacute;wnanie ca&lstroke;kowe</trd>
   <trd lng="pt">equa&ccedil;&atilde;o integral</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
   <ind>&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_je;</ind></trd>
   <trd lng="sk">integr&aacute;lna rovnica</trd>
-  <trd lng="zh">&#x79EF;&#x5206;&#x65B9;&#x7A0B; <pr>j&#x12B;f&#x113;nf&#x101;ngch&#xE9;ng</pr></trd>
+  <trd lng="zh">&#x79EF;&#20998;&#x65B9;&#x7A0B; <pr>j&#x12B;f&emacron;nf&amacron;ngch&#xE9;ng</pr></trd>
 </drv>
 
 <drv mrk="ekvaci.ne0o">
@@ -264,12 +280,12 @@
   <snc>
     <dif>
       Matematika problemo, konsistanta en ser&ccirc;ado de &ccirc;iuj
-      valoroj de nekonato, por kiuj validas iu 
+      valoroj de nekonato, por kiuj validas iu
       <ref cel="egal.ne0ajxo">neegala&jcirc;o</ref>:
       <ekz>
         la solvoj de ne<tld/>o
         <frm am="x^2+y^2 le 1"><k>x</k><sup>2</sup>+<k>y</k><sup>2</sup>
-        &lt; 1</frm> 
+        &lt; 1</frm>
         konsistigas malfermitan diskon.
       </ekz>
     </dif>
@@ -289,12 +305,16 @@
   <trd lng="ru">&c_n;&c_je;&c_r;&c_a;&c_v;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
   <trd lng="sk">nerovnos&tcaron;</trd>
   <trd lng="cs">nerovnost</trd>
+  <trd lng="id"><baz>tidak</baz>pertidaksamaan </trd>
   <trd lng="zh">&#x4E0D;&#x7B49;&#x5F0F; <pr>b&#xF9;d&#x11B;ngsh&#xEC;</pr></trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.43 2025/09/22 16:38:12
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.40 2023/10/14 15:34:42
 revo: transskribo per <pr>
 
@@ -314,8 +334,5 @@ Revision 1.32  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.31  2010/01/18 17:30:56  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.30  2007/06/24 16:30:37  revo
 -->
 </vortaro>
