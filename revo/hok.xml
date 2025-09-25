@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: hok.xml,v 1.53 2025/09/24 16:36:32 revo Exp $">
+<art mrk="$Id: hok.xml,v 1.54 2025/09/25 06:41:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>hok</rad>/o <fnt><bib>UV</bib></fnt>
@@ -424,11 +424,21 @@
   <snc mrk="hok.0eto.TIP">
    <uzo tip="fak">TIP</uzo>
    <dif>
-      <tld lit="H"/>forma kromsigno.
+      <tld lit="H"/>forma <ref tip="super" cel="sign.0o.KOMP">signo</ref> (&#x2713;):
+      <ekz>
+        <ind>marki per <tld/>eto</ind> la detalojn de la pre&gcirc;o
+        <fnt>
+          <aut>Mark Twain, trad. Dorothea kaj Hans-Georg Kaiser</aut>
+          <vrk><url ref="https://eduinf.waw.pl/esp/lern/librejo/0337/0006.php"
+              >La Aventuroj de Tom Sawyer</url></vrk>
+          <lok>&ccirc;ap. 5</lok>
+        </fnt>.
+        <trd lng="de">abhaken</trd>
+      </ekz>
     </dif>
     <subsnc mrk="hok.0o.kromsigno.ubreve">
       <dif>
-        Ronda <tld/>forma kromsigno kiel tiu super u &ccirc;e Esperanta
+        Ronda <tld/>forma <ref tip="super" cel="sign.krom0o.diakrita">kromsigno</ref> kiel tiu super u &ccirc;e Esperanta
         litero &ubreve;, unikoda mallongigo: <ctl>&amp;ubreve;</ctl>:
         <ekz>
           la ma&scirc;inoj de <nom>LinoType</nom> elskatole havis &ccirc;ion necesan: flosantajn cirkumflekson
@@ -483,7 +493,7 @@
     </subsnc>
     <subsnc mrk="hok.0o.kromsigno.ccaron">
       <dif>
-        Pinta <tld/>forma kromsigno kiel tiu super c &ccirc;e
+        Pinta <tld/>forma <ref tip="super" cel="sign.krom0o.diakrita">kromsigno</ref> kiel tiu super c &ccirc;e
         &ccirc;e&hcirc;a litero &ccaron;,
         unikoda mallongigo: <ctl>&amp;ccaron;</ctl>:
         <ekz>
@@ -820,6 +830,9 @@
 </art>
 <!--
 $Log$
+versio 1.54 2025/09/25 06:41:21
+Wolfram Diestel: +ekz, ref
+
 versio 1.53 2025/09/24 16:36:32
 Wolfram Diestel: ~eto, movis dif/ekz de ~o TIP tien
 
@@ -839,8 +852,5 @@ versio 1.48 2024/08/17 18:30:47
 Wolfram Diestel: +~ingo, sintakso
 
 versio 1.47 2024/03/04 11:15:04
-Dmitri Gabinski: + trd be
-
-versio 1.45 2023/10/16 05:55:56
 -->
 </vortaro>
