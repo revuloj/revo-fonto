@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bit.xml,v 1.33 2023/10/29 19:11:02 revo Exp $">
+<art mrk="$Id: bit.xml,v 1.34 2025/10/07 16:38:28 revo Exp $">
 <kap>
   <ofc>9</ofc>
   <rad>bit</rad>/o <fnt><bib>PV</bib></fnt>
@@ -26,6 +26,7 @@
           <trd>&a_b;&f_y;&a_t; &f_p;&a_r;&f_y;&a_t;&f_y;</trd>
         </trdgrp>
         <trd lng="fr"><ind>bit</ind> de parit&eacute;</trd>
+        <trd lng="id">bit paritas</trd>
       </ekz>
       <ekz>
         la tria <tld/>o de la nombroprezento
@@ -58,15 +59,17 @@
     <trd lng="ru">&c_b;&c_i;&c_t;</trd>
     <trd lng="sk">bit</trd>
     <trd lng="sv">bit</trd>
-    <trd lng="zh">&#x6BD4;&#x7279; <pr>b&#x1D0;t&#xE8;</pr></trd>
+    <trd lng="zh">&#x6BD4;&#29305; <pr>b&#x1D0;t&#xE8;</pr></trd>
 </snc>
-  <trd lng="he">&#x5D9;&#x5D7;&#x5D9;&#x5D3;&#x5EA; &#x5DE;&#x5D9;&#x5D3;&#x5E2; &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1;</trd>
+  <trd lng="he">&#x5D9;&#x5D7;&#x5D9;&#x5D3;&#x5EA; &#x5DE;&#x5D9;&#x5D3;&#x5E2;
+  &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1;</trd>
+  <trd lng="id">bit</trd>
   <trdgrp lng="ja">
     <trd>&#x30D3;&#x30C3;&#x30C8;</trd>,
-    <trd>&#x7E4B;&#x67F1;  <pr>&#x3064;&#x306A;&#x304C;&#x3061;&#x3085;&#x3046;</pr></trd>
+    <trd>&#x7E4B;&#x67F1;  <pr>&#12388;&#x306A;&#x304C;&#12385;&#12421;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="pt">bit</trd>
-  <trd lng="uk">&#x431;&#x456;&#x442;</trd>
+  <trd lng="uk">&c_b;&c_ib;&c_t;</trd>
 </drv>
 
 <drv mrk="bit.0oko">
@@ -74,7 +77,7 @@
   <snc mrk="bit.0oko.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
-      Opo el 8 <tld/>oj, 
+      Opo el 8 <tld/>oj,
       ok<tld/>a <ref tip="super" cel="bajt.0o">bajto</ref>.
     </dif>
     <trdgrp lng="be">
@@ -90,7 +93,7 @@
     <trd lng="en">byte</trd>
     <trd lng="es">octeto</trd>
     <trdgrp lng="fa">
-      <trd>&a_h;&a_sh;&a_t;&zwnj;&a_b;&f_y;&a_t;&f_y;</trd>,
+      <trd>&a_h;&a_sh;&a_t;&#8204;&a_b;&f_y;&a_t;&f_y;</trd>,
       <trd>&a_b;&a_A;&f_y;&a_t;</trd>
     </trdgrp>
     <trd lng="fr">octet</trd>
@@ -106,17 +109,22 @@
       <trd>byte</trd>
     </trdgrp>
   </snc>
-  <trd lng="he">&#x5E9;&#x5DE;&#x5D5;&#x5E0;&#x5D4; &#x5D1;&#x5D9;&#x5D8;&#x5D9;&#x5DD; &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1;</trd>
+  <trd lng="he">&#x5E9;&#x5DE;&#x5D5;&#x5E0;&#x5D4; &#x5D1;&#x5D9;&#x5D8;&#x5D9;&#x5DD;
+  &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1;</trd>
+  <trd lng="id">bita</trd>
   <trdgrp lng="ja">
-    <trd>&#xFF18;&#x30D3;&#x30C3;&#x30C8;&#x30D0;&#x30A4;&#x30C8;  <pr>&#x3084;&#x3063;&#x3073;&#x3063;&#x3068;&#x3070;&#x3044;&#x3068;</pr></trd>,
+    <trd>&#xFF18;&#x30D3;&#x30C3;&#x30C8;&#x30D0;&#x30A4;&#x30C8;  <pr>&#12420;&#12387;&#12403;&#12387;&#12392;&#12400;&#12356;&#12392;</pr></trd>,
     <trd>&#x30AA;&#x30AF;&#x30C6;&#x30C3;&#x30C8;</trd>
   </trdgrp>
   <trd lng="pt">byte</trd>
-  <trd lng="uk">&#x431;&#x430;&#x439;&#x442;</trd>
+  <trd lng="uk">&c_b;&c_a;&c_j;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2025/10/07 16:38:28
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.32 2023/10/14 08:39:48
 revo: transskribo per <pr>
 
@@ -135,9 +143,5 @@ Marc Rausell: ++ trd ca
 Revision 1.23  2010/08/05 16:30:20  revo
 Jeromo Vasxe: - mara snc -> propra art cxar oficialeco ne samas, + rim
 hom
-
-Revision 1.22  2009/06/29 18:06:29  revo
-Behnam Tabatabai: +trd fa
-
 -->
 </vortaro>
