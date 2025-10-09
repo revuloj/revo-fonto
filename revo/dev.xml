@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dev.xml,v 1.140 2025/07/14 22:33:37 revo Exp $">
+<art mrk="$Id: dev.xml,v 1.141 2025/10/09 13:00:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dev</rad>/i <fnt><bib>UV</bib></fnt>
@@ -519,8 +519,8 @@
     <trd>k&ouml;telezetts&eacute;g</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>ke<ind>harus</ind>an</trd>,
-    <trd>ke<ind>wajib</ind>an</trd>
+    <trd><baz>harus</baz>keharusan</trd>,
+    <trd><baz>wajib</baz>kewajiban</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#32681;&#21209;  <pr>&#12366;&#12416;</pr></trd>,
@@ -621,7 +621,9 @@
   <trd lng="hu">k&ouml;telez&odblac;</trd>
   <trdgrp lng="id">
     <trd>fardu</trd>,
-    <trd>wajib</trd>
+    <trd>wajib</trd>,
+    <trd><baz>wajib</baz>diwajibkan</trd>,
+    <trd><baz>harus</baz>diharuskan</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#32681;&#21209;&#30340;&#12394;  <pr>&#12366;&#12416;&#12390;&#12365;&#12394;</pr></trd>,
@@ -716,8 +718,9 @@
   <trd lng="he">&lamed;&he;&kaf;&resh;&yod;&het;</trd>
   <trd lng="hu">k&ouml;telez</trd>
   <trdgrp lng="id">
-    <trd>me<ind>wajib</ind>kan</trd>,
-    <trd>meng<ind>harus</ind>kan</trd>
+    <trd><baz>wajib</baz>mewajibkan</trd>,
+    <trd><baz>harus</baz>mengharuskan</trd>,
+    <trd><baz>paksa</baz>memaksakan</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#32681;&#21209;&#12389;&#12369;&#12427;  <pr>&#12366;&#12416;&#12389;&#12369;&#12427;</pr></trd>,
@@ -805,9 +808,9 @@
   <trd lng="he">&kaf;&#1468;&vav;&#1465;&resh;&#1463;&het;</trd>
   <trd lng="hu">k&ouml;telez&eacute;s</trd>
   <trdgrp lng="id">
-    <trd>ke<ind>harus</ind>an</trd>,
-    <trd>ke<ind>wajib</ind>an</trd>,
-    <trd><ind>paksa</ind>an</trd>
+    <trd><baz>harus</baz>keharusan</trd>,
+    <trd><baz>wajib</baz>kewajiban</trd>,
+    <trd>paksaan</trd>
   </trdgrp>
   <trd lng="ja">&#24375;&#21046;  <pr>&#12365;&#12423;&#12358;&#12379;&#12356;</pr></trd>
   <trdgrp lng="pl">
@@ -878,7 +881,8 @@
   <trd lng="hu">nem <ind>k&ouml;telez&odblac;</ind></trd>
   <trdgrp lng="id">
     <trd>fakultatif</trd>,
-    <trd>opsional</trd>
+    <trd>opsional</trd>,
+    <trd>sunah</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#20219;&#24847;&#12398;  <pr>&#12395;&#12435;&#12356;&#12398;</pr></trd>,
@@ -944,9 +948,9 @@
   <trd lng="fr">engager</trd>
   <trd lng="hu">elk&ouml;telez</trd>
   <trdgrp lng="id">
-    <trd>berikrar</trd>,
-    <trd>berjanji</trd>,
-    <trd>bersumpah</trd>
+    <trd><baz>ikrar</baz>berikrar</trd>,
+    <trd><baz>janji</baz>berjanji</trd>,
+    <trd><baz>sumpah</baz>bersumpah</trd>
   </trdgrp>
   <trd lng="ja">&#32004;&#26463;&#12373;&#12379;&#12427;
   <pr>&#12420;&#12367;&#12381;&#12367;&#12373;&#12379;&#12427;</pr></trd>
@@ -1004,8 +1008,10 @@
   </trdgrp>
   <trd lng="hu">kik&eacute;nyszer&iacute;t</trd>
   <trdgrp lng="id">
-    <trd>me<ind>rampas</ind></trd>,
-    <trd>me<ind>rebut</ind></trd>
+    <trd><baz>rampas</baz>merampas</trd>,
+    <trd>rampas</trd>,
+    <trd><baz>rebut</baz>merebut</trd>,
+    <trd>rebut</trd>
   </trdgrp>
   <trd lng="ja">&#24375;&#35531;&#12427;  <pr>&#12422;&#12377;&#12427;</pr></trd>
   <trdgrp lng="pl">
@@ -1056,6 +1062,10 @@
     <trd>entpflichten</trd>,
     <trd>von der Pflicht <ind>entbinden</ind></trd>,
     <trd>von einer Verpflichtung <ind>freistellen</ind></trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>bebas</baz>membebaskan</trd>,
+    <trd><baz>bebas</baz>membebastugaskan</trd>
   </trdgrp>
   <trd lng="pl">zwolni&cacute; z obowi&aogonek;zku</trd>
 </drv>
@@ -1139,7 +1149,7 @@
   </trdgrp>
   <trdgrp lng="id">
     <trd>komitmen</trd>,
-    <trd><ind>kendali</ind> diri</trd>
+    <trd>kendali diri</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#28961;&#29702;&#12395;&#12377;&#12427;&#12371;&#12392;  <pr>&#12416;&#12426;&#12395;&#12377;&#12427;&#12371;&#12392;</pr></trd>,
@@ -1225,6 +1235,9 @@
 </art>
 <!--
 $Log$
+versio 1.141 2025/10/09 13:00:12
+Eko Nur Syah Hidayat: +trd id 2
+
 versio 1.140 2025/07/14 22:33:37
 Vito Redsky: trd pl ro
 
@@ -1244,8 +1257,5 @@ versio 1.135 2024/03/18 17:11:23
 Warut Bunprasert: red +trd
 
 versio 1.133 2023/10/14 11:26:53
-revo: transskribo per <pr>
-
-versio 1.132 2023/09/15 05:25:56
 -->
 </vortaro>
