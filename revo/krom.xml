@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: krom.xml,v 1.129 2025/08/04 13:08:06 revo Exp $">
+  <art mrk="$Id: krom.xml,v 1.130 2025/10/18 14:28:25 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>krom</rad> <fnt><bib>UV</bib></fnt>
@@ -316,7 +316,6 @@
 
 <drv mrk="krom.0ke">
   <kap><tld/> ke,
-  <var><kap><tld/> se</kap></var>,
   <var><kap><tld/> tio ke</kap></var></kap>
   <gra><vspec>konjunkcio</vspec></gra>
   <snc mrk="krom.0ke.ARG">
@@ -336,13 +335,6 @@
           <aut>J. Valano</aut>
           <vrk>&Ccirc;u vi kuiras &ccirc;ine?</vrk>
           <lok>1976</lok>
-        </fnt>;
-      </ekz><ekz>
-        &scirc;i <klr>[&#8230;]</klr> malofte malfermis sian bu&scirc;on <tld/> se oni rekte alparolis &scirc;in
-        <fnt>
-          <aut>A. L&ouml;wenstein</aut>
-          <vrk>La &scirc;tona urbo</vrk>
-          <lok>1999</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -380,12 +372,47 @@
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_r;&c_o;&c_m;&c_je; &c_t;&c_o;&c_g;&c_o;, &c_ch;&c_t;&c_o;</trd>,
-    <trd>&c_z;&c_a; &c_i;&c_s;&c_k;&c_l;&c_ju;&c_ch;&c_je;&c_n;&c_i;&c_je;&c_m;
-    &c_t;&c_o;&c_g;&c_o;, &c_ch;&c_t;&c_o;</trd>,
+    <trd>&c_z;&c_a; &c_i;&c_s;&c_k;&c_l;&c_ju;&c_ch;&c_je;&c_n;&c_i;&c_je;&c_m; &c_t;&c_o;&c_g;&c_o;, &c_ch;&c_t;&c_o;</trd>,
     <trd>&c_n;&c_je; &c_s;&c_ch;&c_i;&c_t;&c_a;&c_ja; &c_t;&c_o;&c_g;&c_o;, &c_ch;&c_t;&c_o;</trd>
   </trdgrp>
   <trd lng="zh">&#38500;&#38750; <pr>ch&uacute;f&emacron;i</pr></trd>
 </drv>
+
+<drv mrk="krom.0se">
+  <kap><tld/> se</kap>
+  <gra><vspec>konjunkcio</vspec></gra>
+  <snc>
+    <dif>
+      Escepte &ccirc;e la kondi&ccirc;o ke &#8230;, nur se okazos ke &#8230;
+      <klr>(t.e. enkondukas cirkonstancojn a&ubreve; kondi&ccirc;ojn &ccirc;e kiuj la
+      priparolata evento <em>ne</em> okazos, a&ubreve; &ccirc;e kiuj io asertata malveras)</klr>:
+      <ekz>
+        mi ne uzos &gcirc;in, <tld/> se &gcirc;i estos absolute bezonata
+        <fnt>
+          <aut>A. Conan Doyle, tr. Paul Gubbins</aut>:
+          <vrk>La mistero de la valo Boskamo</vrk>
+          <lok>La aventuroj de &Scirc;erloko Holmso. Kaliningrado: Sezonoj, 2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld lit="K"/> se alio estas malimplice indikita en skriba formo, la
+        tenantoj de la a&ubreve;torrajto <klr>&#8230;</klr> disponigas la Programon
+        <klr>&#8230;</klr> sen ia ajn garantio
+        <fnt>
+          <vrk><url ref="http://www.esperanto.mv.ru/Cetero/gpl.html"
+              >&Gcirc;enerala Publika Permesilo</url></vrk>,
+          <lok>&para;12</lok>.
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">unless</trd>
+  <trdgrp lng="ru">
+    <trd>&c_je;&c_s;&c_l;&c_i; &c_n;&c_je;</trd>,
+    <trd>&c_je;&c_s;&c_l;&c_i; &c_t;&c_o;&c_l;&c_mol;&c_k;&c_o; &c_n;&c_je;</trd>
+  </trdgrp>
+</drv>
+
 </subart>
 
 <subart>
@@ -862,6 +889,9 @@
 
 <!--
 $Log$
+versio 1.130 2025/10/18 14:28:25
+Sergio Pokrovskij: apartigis ~se
+
 versio 1.129 2025/08/04 13:08:06
 Hector Alos i Font: +trd ca (kompletigo)
 
@@ -881,8 +911,5 @@ versio 1.123 2023/12/12 19:24:45
 revo: kor. lat. transskribo/latvaj literoj
 
 versio 1.121 2023/10/18 17:23:25
-revo: transskribo per <pr>
-
-versio 1.120 2023/10/05 05:26:40
 -->
 </vortaro>
