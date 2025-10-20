@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akcent.xml,v 1.56 2025/04/03 02:00:42 revo Exp $">
+<art mrk="$Id: akcent.xml,v 1.57 2025/10/20 08:39:47 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>akcent</rad>/i <fnt><bib>UV</bib></fnt>
 </kap>
@@ -239,8 +239,9 @@
   <trd lng="he">&mem;&vav;&dalet;&gimel;&shin;</trd>
   <trd lng="hu">hangs&uacute;lyos</trd>
   <trdgrp lng="id">
-    <trd>ber<ind>tekan</ind>an</trd>,
-    <trd>ber<ind>aksen</ind></trd>
+    <trd><baz>tekan</baz>bertekanan</trd>,
+    <trd><baz>aksen</baz>beraksen</trd>,
+    <trd>tonik</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#12450;&#12463;&#12475;&#12531;&#12488;&#12398;
@@ -417,6 +418,10 @@
         </fnt>.
       </ekz>
     </dif>
+  <trdgrp lng="id">
+    <trd>dialek</trd>,
+    <trd>logat</trd>
+  </trdgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>akcent</trd>,
@@ -435,8 +440,8 @@
   <trd lng="he">&mem;&#1460;&bet;&tet;&#1464;&alef;</trd>
   <trd lng="hu">nyomat&eacute;k</trd>
   <trdgrp lng="id">
-      <trd>aksen</trd>,
-      <trd><ind>tekan</ind>an</trd>
+    <trd>aksen</trd>,
+    <trd>tekanan</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#12450;&#12463;&#12475;&#12531;&#12488;</trd>,
@@ -500,6 +505,7 @@
     <trd>presyllabic</trd>
   </trdgrp>
   <trd lng="hu">f&eacute;lhangs&uacute;lyos</trd>
+  <trd lng="id">minor<klr tip="amb"> (suka kata)</klr></trd>
   <trdgrp lng="nl">
     <trd>met <ind>nevenklemtoon</ind></trd>,
     <trd>met <ind>nevenaccent</ind></trd>
@@ -555,6 +561,11 @@
     <trd>inaccentu&eacute;e</trd>
   </trdgrp>
   <trd lng="hu">hangs&uacute;lytalan</trd>
+  <trdgrp lng="id">
+    <trd>atonik</trd>,
+    <trd>tanpa aksen</trd>,
+    <trd>tanpa tekanan</trd>
+  </trdgrp>
   <trd lng="ja">&#12450;&#12463;&#12475;&#12531;&#12488;&#12398;&#12394;&#12356;
   <pr>&#12354;&#12367;&#12379;&#12435;&#12392;&#12398;&#12394;&#12356;</pr></trd>
   <trd lng="nl">onbeklemtoond</trd>
@@ -592,6 +603,7 @@
   <trd lng="en">stressed <ind>syllable</ind></trd>
   <trd lng="fr">accent d'intensit&eacute;</trd>
   <trd lng="hu">dinamikus <ind>hangs&uacute;ly</ind></trd>
+  <trd lng="id">suku kata bertekanan</trd>
   <trdgrp lng="nl">
     <trd>sterkteaccent</trd>,
     <trd>dynamisch <ind>accent</ind></trd>
@@ -650,6 +662,7 @@
   </trdgrp>
   <trd lng="fr">accent de hauteur</trd>
   <trd lng="hu">zenei <ind>hangs&uacute;ly</ind></trd>
+  <trd lng="id">aksen tonik</trd>
   <trd lng="nl">toonaccent</trd>
   <trd lng="pl"><ind>akcent</ind> toniczny</trd>
   <trd lng="pt">acento de altura</trd>
@@ -691,6 +704,7 @@
   <trd lng="en">main <ind>accent</ind></trd>
   <trd lng="fr">accent principal</trd>
   <trd lng="hu">f&odblac;hangs&uacute;ly</trd>
+  <trd lng="id">aksen utama</trd>
   <trd lng="nl">hoofdaccent</trd>
   <trd lng="pl">akcent g&lstroke;&oacute;wny</trd>
   <trd lng="pt">acento principal</trd>
@@ -738,6 +752,7 @@
     <trd><ind>accent</ind> drop</trd>
   </trdgrp>
   <trd lng="he">&alef;&vav;&bet;&dalet;&fnun; &mem;&bet;&tet;&alef;</trd>
+  <trd lng="id">awaaksen</trd>
   <trd lng="nl">accentverlies</trd>
   <trd lng="pl">utrata  <ind>akcentu</ind></trd>
   <trd lng="pt">perda de <ind>acento</ind></trd>
@@ -784,6 +799,7 @@
     <trd>Rhythmusakzent</trd>
   </trdgrp>
   <trd lng="en">rhythmic <ind>accent</ind> <klr>(poetry, music)</klr></trd>
+  <trd lng="id">aksen ritmik</trd>
   <trd lng="nl">ritmisch <ind>accent</ind></trd>
   <trd lng="pl"><ind>akcent</ind> rytmiczny</trd>
   <trd lng="pt">acento r&iacute;tmico</trd>
@@ -793,6 +809,9 @@
 </art>
 <!--
 $Log$
+versio 1.57 2025/10/20 08:39:47
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.56 2025/04/03 02:00:42
 Robert Baruch: +en
 
@@ -812,9 +831,6 @@ versio 1.48 2023/04/07 16:34:34
 Paul Peeraerts: &Monato;/
 
 versio 1.47 2023/01/18 22:29:21
-Vito Redsky: +trd pl + trd ro
-
-versio 1.46 2022/04/26 14:57:17
 -->
 
 </vortaro>
