@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akurat.xml,v 1.34 2025/03/02 07:39:32 revo Exp $">
+<art mrk="$Id: akurat.xml,v 1.35 2025/10/29 08:39:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>akurat</rad>/e <fnt><bib>JED</bib></fnt>
@@ -59,13 +59,13 @@
     </trdgrp>
     <trd lng="es">puntual</trd>
     <trdgrp lng="fa">
-      <trd>&a_w;&a_q;&a_t;&#x200C;&a_sh;&a_n;&a_A;&a_s;</trd>,
-      <trd>&a_kh;&a_w;&a_sh;&#x200C;&a_q;&a_w;&a_l;</trd>
+      <trd>&a_w;&a_q;&a_t;&zwnj;&a_sh;&a_n;&a_A;&a_s;</trd>,
+      <trd>&a_kh;&a_w;&a_sh;&zwnj;&a_q;&a_w;&a_l;</trd>
     </trdgrp>
     <trdgrp lng="zh">
-    <trd>&#x5B88;&#x65F6; <pr>sh&#x1D2;ush&#xED;</pr></trd>,
-    <trd>&#x5B88;&#x6642; <pr>sh&#x1D2;ush&#xED;</pr></trd>,
-    <trd>&#x5C16; <pr>ji&#x101;n</pr></trd>,
+    <trd>&#x5B88;&#x65F6; <pr>sh&#x1D2;ush&iacute;</pr></trd>,
+    <trd>&#x5B88;&#x6642; <pr>sh&#x1D2;ush&iacute;</pr></trd>,
+    <trd>&#x5C16; <pr>ji&amacron;n</pr></trd>,
     <trd>&#x5261; <pr>y&#x1CE;n</pr></trd>
   </trdgrp>
 </snc>
@@ -137,19 +137,79 @@
   <trd lng="ru">&c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">presn&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&c_a;&#x43A;&c_u;&c_r;&c_a;&c_t;&#x43D;&#x43E;</trd>,
-    <trd>&c_t;&#x43E;&c_ch;&#x43D;&#x43E;</trd>,
-    <trd>&c_a;&#x43A;&c_u;&c_r;&c_a;&c_t;</trd>
+    <trd>&c_a;&c_k;&c_u;&c_r;&c_a;&c_t;&c_n;&c_o;</trd>,
+    <trd>&c_t;&c_o;&c_ch;&c_n;&c_o;</trd>,
+    <trd>&c_a;&c_k;&c_u;&c_r;&c_a;&c_t;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="akurat.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Faranta farota&jcirc;on la&ubreve; la interkonsentita tempo:
+      <ekz>
+        persono bonorda, <tld/>a, lerta en kalkulado
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malagrabla&jcirc;oj pro ne<tld/>a ricevado de &ccirc;evaloj
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">p&uuml;nktlich</trd>
+  </snc>
+  <snc mrk="akurat.0a.ekzakta">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <ref tip="dif" cel="ekzakt.0a">Ekzakta</ref>, <ref tip="sin" cel="preciz.0a">preciza</ref>,
+      <ref tip="sin" cel="detal.0ema">detalema</ref>:
+      <ekz>
+        <tld/>a en la obeo al la reguloj
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj &scirc;tonaj vila&gcirc;anaj dometoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rakonto <klr>[&#x2026;]</klr> estas tiel <tld/>a, ke mi demandas min, kiu povis
+        liveri al vi tiajn sciigojn
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="asidu.0a">asidua</ref>,
+      <ref cel="zorg.0ema">zorgema</ref>
+    </refgrp>
+  </snc>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.35 2025/10/29 08:39:48
+Wolfram Diestel: +~a
+
 versio 1.32 2023/10/12 16:57:43
 revo: transskribo per <pr>
 
 versio 1.30 2023/04/23 07:23:20
-Paul Peeraerts: &Steloj -> monato.be
 
 versio 1.29 2022/04/25 15:10:59
 aktualigo ligvokodoj kaj URL-unuoj
@@ -165,7 +225,5 @@ Wolfram Diestel: adv; ekz-oj, ref-oj
 
 Revision 1.22  2013/08/21 16:10:13  revo
 Joop Eggen: +trd bg
-
-Revision 1.21  2010/05/04 16:30:39  revo
 -->
-</vortaro>
+</vortaro>
