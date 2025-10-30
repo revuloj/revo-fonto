@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ingred.xml,v 1.24 2025/08/14 22:32:08 revo Exp $">
+<art mrk="$Id: ingred.xml,v 1.25 2025/10/30 08:38:08 revo Exp $">
 <kap>
   <ofc>6</ofc>
   <rad>ingredienc</rad>/o
-  <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="ingred.0o">
   <kap><tld/>o</kap>
@@ -14,19 +14,75 @@
     <uzo tip="fak">MED</uzo>
     <dif>
       <ref tip="super" cel="konsis.0ajxo.KOMUNE">Konsista&jcirc;o</ref>;
-      &ccirc;iu aparta substanco en miksa&jcirc;o, trinka&jcirc;o, medikamento...:
+      &ccirc;iu aparta substanco en <ref tip="malprt" cel="miks.0ajxo">miksa&jcirc;o</ref>,
+      trinka&jcirc;o, medikamento...:
+      <ekz>
+        premu la kikerojn per premilo en ujo ampleksa, aldonu &ccirc;iujn aliajn <tld/>ojn kaj
+        miksu bone farante samecan paston
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Burgero el kikeroj, aveno kaj kareo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li subka&scirc;e observadis <klr>[&#x2026;]</klr> dum la miksado de la diversaj <tld/>oj kaj
+        eltrovis la sekretojn de la fabrikado
+        <fnt>
+          <bib>KKl</bib>
+          <lok>&Ccirc;apitro 1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la varmeta vento ekmovis la komplikan odormiksa&jcirc;on, kies &ccirc;efaj ingrediencoj
+        estis sango kaj urino
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="malprt" cel="recept.0o">recepto</ref>
+    <refgrp tip="vid">
+      <ref cel="elemen.0o">elemento</ref>,
+      <ref cel="er.0o">ero</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="ingred.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref cel="elemen.0o.de_sistemo">Elemento</ref>, <ref cel="don.al0o.ajxo">aldona&jcirc;o</ref>:
       <ekz>
         <uzo tip="stl">FIG</uzo>
+        la recepto, konsistanta el la sola vorto amu, helpas ne kontra&ubreve; &ccirc;iuj malsanoj,
+        eble ni aldonu al &gcirc;i ankora&ubreve; unu <tld/>on
+        <fnt>
+          <bib>Marta</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tipaj <tld/>oj de la tiama felietona romano: amo, pasio, romantiko,
+        aventuroj, krimoj, mistero, identkonfuzoj, ktp
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rigardo de Karlo klare dokumentas, ke li volas ion, momento tute ne sufi&ccirc;as
+        por analizi, kiaj psikologiaj <tld/>oj ka&scirc;as sin en tiu stranga alrigardo
+        <fnt>
+          <bib>LGA</bib>
+          <lok>II.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la plej maldol&ccirc;a <tld/>o en lia sortopokalo estis
         memripro&ccirc;oj pri nedireble blinda malsa&gcirc;o kaj malforteco
         de la volo
         <fnt><bib>I&scirc;tar</bib><lok>&ccirc;apitro 17a</lok></fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="elemen.0o">elemento</ref>,
-      <ref cel="er.0o">ero</ref>
-    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_n;&c_ib;&c_k;</trd>,
@@ -35,10 +91,10 @@
   </trdgrp>
   <trdgrp lng="cs">
     <trd>ingredience</trd>,
-    <trd>n&#xE1;poje a j.</trd>,
-    <trd>p&rcaron;im&#xED;&scaron;enina</trd>,
-    <trd>p&rcaron;&#xED;sada</trd>,
-    <trd>sou&#x10D;&#xE1;stka l&#xE9;ku</trd>
+    <trd>n&aacute;poje a j.</trd>,
+    <trd>p&rcaron;im&iacute;&scaron;enina</trd>,
+    <trd>p&rcaron;&iacute;sada</trd>,
+    <trd>sou&ccaron;&aacute;stka l&eacute;ku</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Zutat</trd>,
@@ -54,9 +110,9 @@
     <trd>hozz&aacute;val&oacute;</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#25104;&#20998;  <pr>&#x305B;&#12356;&#12406;&#12435;</pr></trd>,
-    <trd>&#26448;&#26009;  <pr>&#12374;&#12356;&#x308A;&#12423;&#12358;</pr></trd>,
-    <trd>&#x539F;&#26009;  <pr>&#12370;&#12435;&#x308A;&#12423;&#12358;</pr></trd>
+    <trd>&#x6210;&#x5206;  <pr>&#x305B;&#x3044;&#x3076;&#x3093;</pr></trd>,
+    <trd>&#x6750;&#x6599;  <pr>&#x3056;&#x3044;&#x308A;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x539F;&#x6599;  <pr>&#x3052;&#x3093;&#x308A;&#x3087;&#x3046;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>bestanddeel</trd>,
@@ -75,33 +131,36 @@
   <trdgrp lng="sk">
     <trd>ingrediencia</trd>,
     <trd>primie&scaron;anina</trd>,
-    <trd>pr&#xED;sada</trd>
+    <trd>pr&iacute;sada</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_ib;&#x43D;&c_gu;&c_r;&c_je;&c_d;&c_ib;&c_jeu;&#x43D;&c_t;</trd>,
-    <trd>&c_s;&#x43A;&#x43B;&c_a;&c_d;&#x43E;&c_v;&c_a; &c_ch;&c_a;&c_s;&c_t;&c_i;&#x43D;&c_a;</trd>,
-    <trd>&c_s;&#x43A;&#x43B;&c_a;&c_d;&#x43D;&c_i;&#x43A;</trd>
+    <trd>&c_ib;&c_n;&c_gu;&c_r;&c_je;&c_d;&c_ib;&c_jeu;&c_n;&c_t;</trd>,
+    <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_o;&c_v;&c_a; &c_ch;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a;</trd>,
+    <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x914D;&#26009; <pr>p&#xE8;ili&#xE0;o</pr></trd>,
-    <trd>&#29992;&#26009; <pr>y&#xF2;ngli&#xE0;o</pr></trd>,
-    <trd>&#25104;&#x4EFD; <pr>ch&#xE9;ngf&#xE8;n</pr></trd>,
-    <trd>&#25104;&#20998; <pr>ch&#xE9;ngf&#xE8;n</pr></trd>,
-    <trd>&#x98DF;&#26448; <pr>sh&#xED;c&#xE1;i</pr></trd>,
-    <trd>&#x836F;&#26448; <pr>y&#xE0;oc&#xE1;i</pr></trd>,
-    <trd>&#x8F14;&#26009; <pr>f&#x1D4;li&#xE0;o</pr></trd>,
-    <trd>&#20998; <pr>f&#xE8;n</pr></trd>,
-    <trd>&#x7D44;&#25104;&#x90E8;&#20998; <pr>z&#x1D4;ch&#xE9;ngb&#xF9;f&#xE8;n</pr></trd>,
-    <trd>&#21046;&#x4F5C;&#26448;&#26009; <pr>zh&#xEC;zu&#xF2;c&#xE1;ili&#xE0;o</pr></trd>,
-    <trd>&#x4F50;&#26009; <pr>zu&#x1D2;li&#xE0;o</pr></trd>,
-    <trd>&#x539F;&#26009; <pr>yu&#xE1;nli&#xE0;o</pr></trd>
+    <trd>&#x914D;&#x6599; <pr>p&egrave;ili&agrave;o</pr></trd>,
+    <trd>&#x7528;&#x6599; <pr>y&ograve;ngli&agrave;o</pr></trd>,
+    <trd>&#x6210;&#x4EFD; <pr>ch&eacute;ngf&egrave;n</pr></trd>,
+    <trd>&#x6210;&#x5206; <pr>ch&eacute;ngf&egrave;n</pr></trd>,
+    <trd>&#x98DF;&#x6750; <pr>sh&iacute;c&aacute;i</pr></trd>,
+    <trd>&#x836F;&#x6750; <pr>y&agrave;oc&aacute;i</pr></trd>,
+    <trd>&#x8F14;&#x6599; <pr>f&#x1D4;li&agrave;o</pr></trd>,
+    <trd>&#x5206; <pr>f&egrave;n</pr></trd>,
+    <trd>&#x7D44;&#x6210;&#x90E8;&#x5206; <pr>z&#x1D4;ch&eacute;ngb&ugrave;f&egrave;n</pr></trd>,
+    <trd>&#x5236;&#x4F5C;&#x6750;&#x6599; <pr>zh&igrave;zu&ograve;c&aacute;ili&agrave;o</pr></trd>,
+    <trd>&#x4F50;&#x6599; <pr>zu&#x1D2;li&agrave;o</pr></trd>,
+    <trd>&#x539F;&#x6599; <pr>yu&aacute;nli&agrave;o</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2025/10/30 08:38:08
+Wolfram Diestel: ekz-oj; +snc FIG
+
 versio 1.24 2025/08/14 22:32:08
-Vito Redsky: trd pl 
+Vito Redsky: trd pl
 
 versio 1.22 2023/10/17 16:46:14
 revo: transskribo per <pr>
@@ -119,8 +178,5 @@ Revision 1.15  2010/01/02 17:31:01  revo
 Jeromo Vasxe: + tez
 
 Revision 1.14  2005/11/02 17:31:30  revo
-Luiz Portella: +trd pt
-
-Revision 1.13  2004/01/21 19:02:05  revo
 -->
-</vortaro>
+</vortaro>
