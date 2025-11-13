@@ -1,34 +1,48 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: hierog.xml,v 1.25 2025/03/30 11:03:07 revo Exp $">
+<art mrk="$Id: hierog.xml,v 1.26 2025/11/13 22:33:21 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>hieroglif</rad>/o
-<fnt><bib>JED</bib></fnt></kap>
+  <rad>hieroglif</rad>/o <fnt><bib>JED</bib></fnt></kap>
 <drv mrk="hierog.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <uzo tip="fak">LIN</uzo>
+  <snc mrk="hierog.0o.TIP">
+    <uzo tip="fak">TIP</uzo>
     <dif>
-      Skriba sistemo, kiu uzas figurojn de homo, bestoj,
-      vegeta&jcirc;oj,
-      objektoj por reprezenti ideon a&ubreve; sonon:
+      <ref tip="super" cel="sign.skrib0o.TIP">Skribosigno</ref> kiu figuras homon, beston,
+      vegeta&jcirc;on, a&jcirc;on por prezenti vorton a&ubreve; sonon:
       <ekz>
-        egiptaj, meksikaj <tld/>oj.
+        &gcirc;isdate ankora&ubreve; ne difini&gcirc;is la <klr>[&#8230;]</klr> koderoj por la &ccirc;irka&ubreve; 5000 antikvaj egiptaj
+        <tld/>oj
+        <fnt>
+          <aut>Pejno S.</aut>
+          <vrk>Tekstotraktado</vrk>
+          <lok>Monato, 2001/04, p. 18a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kavaliro <nom>Botturini</nom> <klr>[&#8230;]</klr> kolektis la memora&jcirc;ojn de la azteka kulturo:
+        <tld/>ajn kotonfoliojn, bildojn, idolstatuojn
+        <fnt>
+          <bib>SatirRak</bib>
+          <vrk>La guarbo</vrk>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="ideogr.0o">ideografio</ref>,
-      <ref cel="foneti.0o">fonetiko 2</ref>.
-    </refgrp>
   </snc>
-  <snc>
+  <snc mrk="hierog.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Nelegebla skribo, nekomprenebla stilo:
       <ekz>
-        tio estas por mi puraj <tld/>oj.
+        tio estas por mi puraj <tld/>oj;
+      </ekz>
+      <ekz>
+        liaj manoj araneis sur la klavaro kaj balda&ubreve; la ekrano plenis je informikaj <tld/>oj.
+        <fnt>
+          <bib>MMa</bib>
+        </fnt>
       </ekz>
     </dif>
     <trd lng="nl">hi&euml;roglief</trd>
@@ -39,9 +53,8 @@
     </trdgrp>
   </snc>
   <rim>
-    La&#365; <fnt><bib>BL</bib></fnt>: Anka&#365; eblas diri <ke>egipta skribsigno</ke>.
+    La&ubreve; <fnt><bib>BL</bib></fnt>: Anka&ubreve; eblas diri <ke>egipta skribsigno</ke>.
   </rim>
-
   <trdgrp lng="be">
     <trd>&c_ib;&c_je;&c_r;&c_o;&c_g;&c_l;&c_ib;&c_f;</trd>,
     <trd>&c_g;&c_ib;&c_je;&c_r;&c_o;&c_g;&c_l;&c_ib;&c_f;</trd>
@@ -67,17 +80,20 @@
   <trd lng="pt">hier&oacute;glifo</trd>
   <trd lng="ru">&c_i;&c_je;&c_r;&c_o;&c_g;&c_l;&c_i;&c_f;</trd>
   <trd lng="sk">hieroglyf</trd>
-  <trd lng="uk">&c_ib;&c_jeu;&c_r;&#1086;&c_g;&#1083;&c_ib;&c_f;</trd>
-  <trd lng="zh">&#35937;&#24418;&#25991;&#23383; <pr>xi&#224;ngx&#237;ngw&#233;nz&#236;</pr></trd>
+  <trd lng="uk">&c_ib;&c_jeu;&c_r;&c_o;&c_g;&c_l;&c_ib;&c_f;</trd>
+  <trd lng="zh">&#35937;&#24418;&#25991;&#23383; <pr>xi&agrave;ngx&iacute;ngw&eacute;nz&igrave;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.26 2025/11/13 22:33:21
+Jeromo Vasxe: red dif, + ekz
+
 versio 1.22 2023/10/16 05:55:37
 revo: transskribo per <pr>
 
 versio 1.20 2023/08/04 20:25:59
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 Revision 1.17  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
@@ -92,8 +108,5 @@ Revision 1.14  2009/10/12 16:30:55  revo
 Russ Williams: +trd en
 
 Revision 1.13  2009/09/10 16:32:26  revo
-Antonio Codazzi: +trd it
-
-Revision 1.12  2004/01/10 17:34:28  revo
 -->
 </vortaro>
