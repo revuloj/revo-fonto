@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: loteri.xml,v 1.24 2025/03/06 19:21:57 revo Exp $">
+<art mrk="$Id: loteri.xml,v 1.25 2025/11/15 20:29:34 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>loteri</rad>/o <fnt><bib>JED</bib></fnt>
@@ -11,8 +11,23 @@
   <snc mrk="loteri.0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      Hazardludo la&ubreve; kiu la partoprenantoj ricevas numeritajn biletojn,
+      <ref tip="super" cel="lud.hazard0o">Hazardludo</ref>
+      la&ubreve; kiu la partoprenantoj ricevas numeritajn biletojn,
       kiuj rajtigas ilin al &scirc;ancoj pri gajno montrota de la sorto.
+      <ekz>
+        50000 frankojn <klr>[mi&#x2026;]</klr> gajnis en la <tld/>o
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        mi a&ccirc;etis bileton de <tld/>o, kaj sur &gcirc;in falis la granda premio
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Gewinnspiel</trd>,
@@ -22,13 +37,32 @@
   <snc mrk="loteri.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Afero de hazardo:
+      Afero de <ref cel="hazard.0o">hazardo</ref>:
       <ekz>
         edzi&gcirc;o estas nura <tld/>o;
       </ekz>
       <ekz>
-        la diverskolora <tld/>o de la vivo, en kiu multaj metas en la
-        ludon<fnt>Z</fnt>.
+        <klr>[la]</klr> diverskolora <tld/>o de la vivo, en kiu multaj metas en la
+        ludon sian senkulpecon
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum kelkaj semajnoj voja&gcirc;i per trajno fari&gcirc;is <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk>Politiko elreligita</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la minado <klr>[de bitmono]</klr> estas <tld/>o
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -56,30 +90,33 @@
   <trd lng="ro">loterie</trd>
   <trd lng="ru">&c_l;&c_o;&c_t;&c_je;&c_r;&c_je;&c_ja;</trd>
   <trd lng="sk">lot&eacute;ria</trd>
-  <trd lng="uk">&#x43B;&#x43E;&#x442;&#x435;&#x440;&#x435;&#x44F;</trd>
+  <trd lng="uk">&c_l;&c_o;&c_t;&c_je;&c_r;&c_je;&c_ja;</trd>
   <trdgrp lng="zh">
-    <trd>&#x6478;&#x5F69; <pr>m&#x14D;c&#x1CE;i</pr></trd>,
-    <trd>&#x6416;&#x734E; <pr>y&#xE1;oji&#x1CE;ng</pr></trd>,
-    <trd>&#x6447;&#x5956; <pr>y&#xE1;oji&#x1CE;ng</pr></trd>,
-    <trd>&#x62BD;&#x5956; <pr>ch&#x14D;uji&#x1CE;ng</pr></trd>,
-    <trd>&#x62BD;&#x734E; <pr>ch&#x14D;uji&#x1CE;ng</pr></trd>,
-    <trd>&#x535A;&#x5F69; <pr>b&#xF3;c&#x1CE;i</pr></trd>,
-    <trd>&#x5E78;&#x8FD0;&#x62BD;&#x5956; <pr>x&#xEC;ngy&#xF9;nch&#x14D;uji&#x1CE;ng</pr></trd>,
-    <trd>&#x5E78;&#x904B;&#x62BD;&#x734E; <pr>x&#xEC;ngy&#xF9;nch&#x14D;uji&#x1CE;ng</pr></trd>,
-    <trd>&#x6416;&#x865F; <pr>y&#xE1;oh&#xE0;o</pr></trd>,
-    <trd>&#x6447;&#x53F7; <pr>y&#xE1;oh&#xE0;o</pr></trd>,
-    <trd>&#x4E50;&#x900F; <pr>l&#xE8;t&#xF2;u</pr></trd>,
-    <trd>&#x6A02;&#x900F; <pr>l&#xE8;t&#xF2;u</pr></trd>
+    <trd>&#x6478;&#x5F69; <pr>m&omacron;c&#x1CE;i</pr></trd>,
+    <trd>&#x6416;&#x734E; <pr>y&aacute;oji&#x1CE;ng</pr></trd>,
+    <trd>&#x6447;&#x5956; <pr>y&aacute;oji&#x1CE;ng</pr></trd>,
+    <trd>&#x62BD;&#x5956; <pr>ch&omacron;uji&#x1CE;ng</pr></trd>,
+    <trd>&#x62BD;&#x734E; <pr>ch&omacron;uji&#x1CE;ng</pr></trd>,
+    <trd>&#x535A;&#x5F69; <pr>b&oacute;c&#x1CE;i</pr></trd>,
+    <trd>&#x5E78;&#x8FD0;&#x62BD;&#x5956; <pr>x&igrave;ngy&ugrave;nch&omacron;uji&#x1CE;ng</pr></trd>,
+    <trd>&#x5E78;&#x904B;&#x62BD;&#x734E; <pr>x&igrave;ngy&ugrave;nch&omacron;uji&#x1CE;ng</pr></trd>,
+    <trd>&#x6416;&#x865F; <pr>y&aacute;oh&agrave;o</pr></trd>,
+    <trd>&#x6447;&#x53F7; <pr>y&aacute;oh&agrave;o</pr></trd>,
+    <trd>&#x4E50;&#x900F; <pr>l&egrave;t&ograve;u</pr></trd>,
+    <trd>&#x6A02;&#x900F; <pr>l&egrave;t&ograve;u</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2025/11/15 20:29:34
+Wolfram Diestel: +ekz-oj
+
 versio 1.22 2023/10/19 14:32:17
 revo: transskribo per <pr>
 
 versio 1.19 2020/02/12 19:10:24
-Vito Redsky: +trd pl +trd ro  
+Vito Redsky: +trd pl +trd ro
 
 Revision 1.18  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
@@ -94,8 +131,5 @@ Revision 1.15 2004/06/01 17:23:17 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.14 2003/05/13 16:33:32 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13 2003/01/15 17:32:02 revo
 -->
-</vortaro>
+</vortaro>
