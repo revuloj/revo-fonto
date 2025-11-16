@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: propag1.xml,v 1.2 2025/11/16 12:53:09 afido Exp $">
+  <art mrk="$Id: propag1.xml,v 1.3 2025/11/16 15:48:01 afido Exp $">
     <kap>
       <rad>propag</rad>/i
       <fnt><bib>PIV1</bib></fnt>
@@ -10,8 +10,62 @@
 
 <drv mrk="propag1.0i">
   <kap><tld/>i</kap>
-  <snc>
-    <gra><vspec>tr</vspec></gra>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="propag1.0i.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      <klr>(pri medio)</klr> Peri, influi la disvasti&gcirc;on de io (ondo, energio, reakcio, organismo)
+    </dif>
+    <subsnc mrk="propag.0i.FIZ">
+      <uzo tip="fak">FIZ</uzo>
+      <dif>
+        (pri fizika medio, kampo) Peri la disvasti&gcirc;on de ondoj, energio ks:
+        <ekz>
+          lum<tld/>ado
+          <fnt>
+            <aut>Laurent Nottale</aut>
+            <vrk><url ref="https://www.bertin.biz/index.php?titre=gravlens.htm"
+                >Gravitecaj lensaroj</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          radio<tld/>ado en la tera atmosfero suferas la tagajn &scirc;an&gcirc;ojn de la jonigado de
+          la plej supraj tavoloj de la atmosfero
+          <fnt>
+            <aut>Lenio Marobin</aut>
+            <vrk><url ref="https://www.eventoj.hu/steb/ingxenierado/telekomuniko/radiopropagigxo.pdf"
+                >&Gcirc;eneralaj trajtoj de elektromagnetaj ondoj kaj radiopropagado</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">ausbreiten <klr>(Wellen)</klr></trd>
+      <trd lng="fr">propager <klr>(ondes)</klr></trd>
+    </subsnc>
+    <subsnc mrk="propag.0i.MED">
+      <uzo tip="fak">MED</uzo>
+      <dif>
+        (pri biologia medio) Peri la disvasti&gcirc;on de organismo (viruso k.a.):
+        <ekz>
+          la celo estas, surbaze de faktoj kaj respekto de scienco, disvolvi internacian
+          kunlaboron, ser&ccirc;i virusan originon, kompreni la mekanismon de virusa <tld/>ado
+          <fnt>
+            <bib>CRI</bib>
+            <aut>Lucia</aut>
+            <vrk><url ref="https://esperanto.cri.cn/komento/4174/20210603/671779.html"
+                >&Ccirc;u iuj usonaj politikistoj nepre kontra&ubreve;as al la homaro</url></vrk>
+            <lok>2021-06-03</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">ausbreiten <klr>(Krankheit)</klr></trd>
+    </subsnc>
+    <ref tip="sin" cel="vast.dis0igi.space">disvastigi<sncref/></ref>
+    <refgrp tip="vid">
+      <ref cel="radi.0i.elsendi">elradii</ref>,
+      <ref cel="komuni1.0i.transporti">komuniki<sncref/></ref>
+    </refgrp>
+  </snc>
+  <snc mrk="propag1.0i.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
       Strebi <ref tip="super" cel="vast.dis0igi.konigi">disvastigi</ref> ideon; <ref tip="sin" cel="propag.0i">propagandi</ref>:
@@ -61,74 +115,56 @@
     <trd lng="de">propagieren</trd>
     <trd lng="fr">propager</trd>
   </snc>
-  <snc mrk="propag.0i.FIZ">
-    <gra><vspec>x</vspec></gra>
-    <dif>
-      (pri ondoj) Disvastigi a&ubreve; disvasti&gcirc;i tra medio:
-      <ekz>
-        lum<tld/>ado
-        <fnt>
-          <aut>Laurent Nottale</aut>
-          <vrk><url ref="https://www.bertin.biz/index.php?titre=gravlens.htm"
-              >Gravitecaj lensaroj</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        radio<tld/>ado en la tera atmosfero suferas la tagajn &scirc;an&gcirc;ojn de la jonigado de
-        la plej supraj tavoloj de la atmosfero
-        <fnt>
-          <aut>Lenio Marobin</aut>
-          <vrk><url ref="https://www.eventoj.hu/steb/ingxenierado/telekomuniko/radiopropagigxo.pdf"
-              >&Gcirc;eneralaj trajtoj de elektromagnetaj ondoj kaj radiopropagado</url></vrk>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="de">ausbreiten <klr>(Wellen)</klr></trd>
-    <trd lng="en">propagate <klr>(waves)</klr></trd>
-    <trd lng="fr">propager <klr>(ondes)</klr></trd>
-  </snc>
-  <snc mrk="propag.0i.MED">
-    <gra><vspec>x</vspec></gra>
-    <dif>
-      (pri konta&gcirc;aj malsanoj) Disvasti&gcirc;i per multobligo:
-      <ekz>
-        la celo estas, surbaze de faktoj kaj respekto de scienco, disvolvi internacian
-        kunlaboron, ser&ccirc;i virusan originon, kompreni la mekanismon de virusa <tld/>ado
-        <fnt>
-          <bib>CRI</bib>
-          <aut>Lucia</aut>
-          <vrk><url ref="https://esperanto.cri.cn/komento/4174/20210603/671779.html"
-              >&Ccirc;u iuj usonaj politikistoj nepre kontra&ubreve;as al la homaro</url></vrk>
-          <lok>2021-06-03</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="de">ausbreiten <klr>(Krankheit)</klr></trd>
-    <trd lng="en">propagate <klr>(virus etc)</klr></trd>
-  </snc>
-  <rim>
-    La uzo de tiu vorto &scirc;ajnas problema la&ubreve; pluraj aspektoj: Precipe &gcirc;i estas uzata
-    kun la senco &leftquot;disvastigi&rightquot; a&ubreve; &leftquot;disvasti&gcirc;i&rightquot;, sed pro pa&ubreve;sado de nacilingva
-    uzado ne stabili&gcirc;is a&ubreve; transitiva a&ubreve; netransitiva uzo. Por uzo kiel pli
-    ne&ubreve;trala nocio anstata&ubreve; la trofervoreca &leftquot;propagandi&rightquot; &gcirc;i same ne ta&ubreve;gas: kiel
-    montras la cita&jcirc;oj &gcirc;i jam perdis sian ne&ubreve;tralecon. Do ni rekomendas uzi
-    &leftquot;disvastigi&rightquot; resp. &leftquot;disvasti&gcirc;i&rightquot; kun klara elmontro de transitiveco. Aldone, se
-    temas pri ideoj, oni povas uzi &leftquot;privarbi&rightquot;.
-    <aut>Wolfram Diestel</aut>
-  </rim>
   <trdgrp lng="en">
     <trd>propagate</trd>,
     <trd>spread</trd>
   </trdgrp>
 </drv>
 
+<drv mrk="propag1.0igxi">
+  <kap>
+    <tld/>i&gcirc;i
+  </kap>
+  <snc mrk="propag1.0igxi.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      <klr>(pri fenomeno: ondo, reakcio, malsano ktp)</klr> <ref cel="vast.dis0igxi">Disvasti&gcirc;i</ref>:
+      <ekz>
+        la <tld/>i&gcirc;o de me&hcirc;anikaj primaraj (premaj) kaj sekundaraj (transversaj) ondoj
+        studitaj de geofizikistoj
+        <fnt>
+          <aut>Endre Dudich</aut>
+          <vrk><url ref="https://scienca-revuo.info/files/177-1-315-1-10-20140426.pdf"
+              >Beda&ubreve;rinde movi&gcirc;as la Tero</url></vrk>
+          <lok>Scienca Revuo 3/2011, p. 140</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro la <tld/>i&gcirc;o de <nom>KOVIM-19</nom>, la Nobel-fonduso decidis nuligi la disdonan
+        ceremonion de Nobel-premio
+        <fnt>
+          <bib>EP&Ccirc;</bib>
+          <vrk><url ref="http://esperanto.china.org.cn/2020-09/27/content_76756901.htm"
+              >Nobel-premio estos disdonita perinterrete &ccirc;i-jare</url></vrk>
+          <lok>2020-09-27</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">sich <ind>ausbreiten</ind> <klr>(Wellen etc.)</klr></trd>
+  <trd lng="en">be <ind>propagate</ind>d</trd>
+  <trd lng="fr">se propager</trd>
+</drv>
+
   </art>
 
 <!--
 $Log$
-versio 1.2 2025/11/16 12:53:09
-Wolfram Diestel: forigis malĝustan citaĵon
+versio 1.3 2025/11/16 15:48:01
+Wolfram Diestel: rearanĝo de snc/dif; +~iĝi
 
+versio 1.2 2025/11/16 12:53:09
+Wolfram Diestel: forigis mal&gcirc;ustan cita&jcirc;on
 -->
 
 <!--
