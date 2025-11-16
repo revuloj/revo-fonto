@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nomina.xml,v 1.28 2025/03/07 16:21:52 revo Exp $">
+<art mrk="$Id: nomina.xml,v 1.29 2025/11/16 20:31:04 revo Exp $">
 <kap>
    <ofc>3</ofc>
    <rad>nominal</rad>/a
@@ -32,6 +32,7 @@
       <trd>nominell</trd>,
       <trd><klr>dem </klr>Namen <ind>nach</ind></trd>
    </trdgrp>
+  <trd lng="en">nominal <klr>(in name only)</klr></trd>
   </snc>
   <snc mrk="nomina.0a.EKON">
     <dif>
@@ -86,6 +87,7 @@
       <trd>Nominal-</trd>,
       <trd>Nenn-</trd>
     </trdgrp>
+  <trd lng="en">nominal <klr>(declared value)</klr></trd>
   </snc>
   <refgrp tip="vid">
     <ref cel="formal.0a">formala</ref>,
@@ -118,14 +120,14 @@
   </trdgrp>
   <trd lng="uk">&c_n;&c_o;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
   <trdgrp lng="zh">
-    <trd>&#x540D;&#x4E49; <pr>m&#xED;ngy&#xEC;</pr></trd>,
-    <trd>&#x540D;&#x7FA9; <pr>m&#xED;ngy&#xEC;</pr></trd>,
-    <trd>&#x6807;&#x79F0; <pr>bi&#x101;och&#x113;ng</pr></trd>,
-    <trd>&#x6A19;&#x7A31; <pr>bi&#x101;och&#x113;ng</pr></trd>,
-    <trd>&#x984D;&#x5B9A; <pr>&#xE9;d&#xEC;ng</pr></trd>,
-    <trd>&#x989D;&#x5B9A; <pr>&#xE9;d&#xEC;ng</pr></trd>,
-    <trd>&#x540D;&#x4E49;&#x4E0A; <pr>m&#xED;ngy&#xEC;sh&#xE0;ng</pr></trd>,
-    <trd>&#x540D;&#x7FA9;&#x4E0A; <pr>m&#xED;ngy&#xEC;sh&#xE0;ng</pr></trd>
+    <trd>&#x540D;&#x4E49; <pr>m&iacute;ngy&igrave;</pr></trd>,
+    <trd>&#x540D;&#x7FA9; <pr>m&iacute;ngy&igrave;</pr></trd>,
+    <trd>&#x6807;&#x79F0; <pr>bi&amacron;och&emacron;ng</pr></trd>,
+    <trd>&#x6A19;&#x7A31; <pr>bi&amacron;och&emacron;ng</pr></trd>,
+    <trd>&#x984D;&#x5B9A; <pr>&eacute;d&igrave;ng</pr></trd>,
+    <trd>&#x989D;&#x5B9A; <pr>&eacute;d&igrave;ng</pr></trd>,
+    <trd>&#x540D;&#x4E49;&#x4E0A; <pr>m&iacute;ngy&igrave;sh&agrave;ng</pr></trd>,
+    <trd>&#x540D;&#x7FA9;&#x4E0A; <pr>m&iacute;ngy&igrave;sh&agrave;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -149,12 +151,16 @@
       </ekz>
      </dif>
      <trd lng="de">Nennwert</trd>
+     <trdgrp lng="en">
+       <trd>declared <ind>value</ind></trd>,
+       <trd><ind>nominal</ind> value</trd>
+     </trdgrp>
      <trdgrp lng="zh">
-    <trd>&#x7968;&#x9762;&#x503C; <pr>pi&#xE0;omi&#xE0;nzh&#xED;</pr></trd>,
-    <trd>&#x7968;&#x9762;&#x4EF7;&#x503C; <pr>pi&#xE0;omi&#xE0;nji&#xE0;zh&#xED;</pr></trd>,
-    <trd>&#x7968;&#x9762;&#x50F9;&#x503C; <pr>pi&#xE0;omi&#xE0;nji&#xE0;zh&#xED;</pr></trd>,
-    <trd>&#x7968;&#x984D; <pr>pi&#xE0;o&#xE9;</pr></trd>,
-    <trd>&#x7968;&#x989D; <pr>pi&#xE0;o&#xE9;</pr></trd>
+    <trd>&#x7968;&#x9762;&#x503C; <pr>pi&agrave;omi&agrave;nzh&iacute;</pr></trd>,
+    <trd>&#x7968;&#x9762;&#x4EF7;&#x503C; <pr>pi&agrave;omi&agrave;nji&agrave;zh&iacute;</pr></trd>,
+    <trd>&#x7968;&#x9762;&#x50F9;&#x503C; <pr>pi&agrave;omi&agrave;nji&agrave;zh&iacute;</pr></trd>,
+    <trd>&#x7968;&#x984D; <pr>pi&agrave;o&eacute;</pr></trd>,
+    <trd>&#x7968;&#x989D; <pr>pi&agrave;o&eacute;</pr></trd>
   </trdgrp>
 </snc>
   <trd lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_v;&c_a;&c_r;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
@@ -177,10 +183,11 @@
    <snc mrk="nomina.0ismo.FIL">
      <uzo tip="fak">FIL</uzo>
      <dif>
-       Doktrino, la&ubreve; kiu la &gcirc;eneralaj ideoj estas nur 
+       Doktrino, la&ubreve; kiu la &gcirc;eneralaj ideoj estas nur
        nomoj, kaj ne posedas ian realan ekziston,
        kontraste al <ref tip="ant" cel="real.0ismo.FIL">realismo<sncref/></ref>.
      </dif>
+   <trd lng="en">nominalism</trd>
    </snc>
   <trd lng="be">&c_n;&c_a;&c_m;&c_ib;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
   <trd lng="cs">nominalizmus</trd>
@@ -199,6 +206,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2025/11/16 20:31:04
+Robert Baruch: +en
+
 versio 1.26 2023/10/20 05:22:00
 revo: transskribo per <pr>
 
@@ -218,8 +228,5 @@ Revision 1.18  2015/06/29 16:33:21  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.17  2009/10/15 16:31:55  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2006/07/02 16:31:45  revo
 -->
-</vortaro>
+</vortaro>
