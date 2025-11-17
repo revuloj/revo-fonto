@@ -1,55 +1,56 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: interp3.xml,v 1.34 2025/03/04 16:42:29 revo Exp $">
+<art mrk="$Id: interp3.xml,v 1.35 2025/11/17 22:33:56 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>interpunkci</rad>/o
 <fnt><bib>UV</bib></fnt></kap>
 <drv mrk="interp3.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="interp3.0o.TIP">
-  <uzo tip="fak">TIP</uzo>
-  <uzo tip="fak">GRA</uzo>
+  <snc mrk="interp3.0o.signo">
+    <uzo tip="fak">TIP</uzo>
+    <uzo tip="fak">GRA</uzo>
     <dif>
-      Sistemo da skribaj <ref cel="sign.0o.KOMP">signoj</ref>,
-      servantaj por apartigi la frazojn a&ubreve; la diversajn
-      partojn de la frazo:
+      Silenta <ref tip="super" cel="sign.skrib0o.TIP">skribosigno</ref>, kiu helpas al kompreno
+      de skriba&jcirc;o per apartigo a&ubreve; emfazo de vortoj kaj vortgrupoj:
       <ekz>
-        <tld/>o estas skribo de la silentoj en la parolado;
+        la reguloj pri la uzado de la <tld/>oj estas en nia lingvo
+        pli-malpli tiaj samaj, kiel en &ccirc;iuj aliaj
+        lingvoj<fnt><bib>LR</bib></fnt>;
       </ekz>
       <ekz>
-      la reguloj pri la uzado de la <tld/>oj estas en nia lingvo
-      pli-malpli tiaj samaj, kiel en &ccirc;iuj aliaj
-      lingvoj<fnt><bib>LR</bib></fnt>;
+        sekve &ccirc;iu povas uzadi en Esperanto la <tld/>ojn tiel, kiel li uzas
+        ilin en sia nacia lingvo<fnt><bib>LR</bib></fnt>.
       </ekz>
+    </dif>
+    <trd lng="fr">signe de ponctuation</trd>
+  </snc>
+  <snc mrk="interp3.0o.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      Interpunkciaro, sistemo de la signoj, per kiuj oni apartigas frazojn a&ubreve; la diversajn
+      partojn de frazo:
       <ekz>
-      sekve &ccirc;iu povas uzadi en Esperanto la <tld/>ojn tiel, kiel li uzas
-      ilin en sia nacia lingvo<fnt><bib>LR</bib></fnt>.
+        <tld/>o estas skribo de la silentoj en la parolado.
       </ekz>
     </dif>
     <refgrp tip="prt">
+      <ref cel="apostr.0o">apostrofo</ref>,
       <ref cel="cit.0ilo">citilo</ref>,
       <ref cel="demand.0osigno">demandosigno</ref>,
+      <ref cel="strek.divid0o">dividstreko</ref>,
       <ref cel="punkt.du0o">dupunkto</ref>,
+      <ref cel="strek.halto0o">haltostreko</ref>,
       <ref cel="kom.0o">komo</ref>,
-      <ref cel="kom.punkto0o">punktokomo</ref>,
-      <ref cel="kramp.0o.TIP">krampo</ref>,
+      <ref cel="kramp.0o.TIP">krampo<sncref/></ref>,
       <ref cel="sign.kri0o">krisigno</ref>,
       <ref cel="punkt.0o.interpunkcia">punkto</ref>,
-      <ref cel="punkt.tri0o">tripunkto</ref>,
-      <ref cel="parent.0o.subfrazo">parentezo</ref>,
-      <ref cel="strek.divid0o">dividstreko</ref>,
-      <ref cel="strek.halto0o">haltostreko</ref>,
-      <ref cel="apostr.0o">apostrofo</ref>,
+      <ref cel="kom.punkto0o">punktokomo</ref>,
       <ref cel="stel.0eto">steleto</ref>,
+      <ref cel="punkt.tri0o">tripunkto</ref>
     </refgrp>
-  <rim>
-  Ne ekzistas devigaj reguloj pri la uzado de helposignoj (<tld/>o) en
-  Esperanto. Tial ili estas &ccirc;i tie supra&jcirc;e klarigitaj
-  <fnt><bib>PMEG</bib></fnt>.
-  </rim>
-  </snc>
   <trd lng="be">&c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_c;&c_y;&c_ja;</trd>
   <trd lng="ca">puntuaci&oacute;</trd>
   <trd lng="cs">interpunkce</trd>
@@ -65,7 +66,7 @@
     <trd>k&ouml;zpontoz&aacute;s</trd>,
     <trd>interpunkci&oacute;</trd>
   </trdgrp>
-  <trd lng="ja">&#x53E5;&#x8AAD;&#x6CD5;  <pr>&#x304F;&#x3068;&#x3046;&#x307B;&#x3046;</pr></trd>
+  <trd lng="ja">&#x53E5;&#x8AAD;&#x6CD5;  <pr>&#x304F;&#12392;&#12358;&#x307B;&#12358;</pr></trd>
   <trd lng="nl">interpunctie</trd>
   <trdgrp lng="pl">
     <trd>interpunkcja</trd>,
@@ -78,7 +79,8 @@
     <trd>&c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_c;&c_ib;&c_ja;</trd>,
     <trd>&c_r;&c_o;&c_z;&c_d;&c_ib;&c_l;&c_o;&c_v;&c_ib; &c_z;&c_n;&c_a;&c_k;&c_i;</trd>
   </trdgrp>
-  <trd lng="zh">&#x6807;&#x70B9; <pr>bi&#x101;odi&#x1CE;n</pr></trd>
+  <trd lng="zh">&#26631;&#x70B9; <pr>bi&amacron;odi&#x1CE;n</pr></trd>
+  </snc>
 </drv>
 
 <drv mrk="interp3.0i">
@@ -88,7 +90,17 @@
   <uzo tip="fak">TIP</uzo>
   <uzo tip="fak">GRA</uzo>
     <dif>
-      Apartigi per <tld/>aj signoj la frazojn a&ubreve; erojn de frazo.
+      Apartigi per <tld/>aj signoj la frazojn a&ubreve; erojn de frazo:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li detale klarigis kiel fari&gcirc;is la afero, dum Patro <nom>Manganella</nom>
+        <tld/>is lian rakonton per serio da &leftquot;Aj!&rightquot;, &leftquot;U&ccirc;!&rightquot;, &leftquot;C, c, c!&rightquot;
+        <fnt>
+          <aut>C; Piron</aut>
+          <vrk>&Ccirc;u li bremsis sufi&ccirc;e?</vrk>
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -104,7 +116,7 @@
     <trd>k&ouml;zpontoz</trd>,
     <trd>pontot, vessz&odblac;t tesz</trd>
   </trdgrp>
-  <trd lng="ja">&#x53E5;&#x8AAD;&#x70B9;&#x3092;&#x6253;&#x3064;  <pr>&#x304F;&#x3068;&#x3046;&#x3066;&#x3093;&#x3092;&#x3046;&#x3064;</pr></trd>
+  <trd lng="ja">&#x53E5;&#x8AAD;&#x70B9;&#12434;&#25171;&#12388;  <pr>&#x304F;&#12392;&#12358;&#12390;&#12435;&#12434;&#12358;&#12388;</pr></trd>
   <trdgrp lng="nl">
     <trd>interpungeren</trd>,
     <trd>van <ind>leestekens</ind> voorzien</trd>
@@ -120,16 +132,19 @@
     &c_z;&c_n;&c_a;&c_k;&c_a;&c_m;&c_i;</trd>,
     <trd>&c_r;&c_o;&c_z;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_i; &c_r;&c_o;&c_z;&c_d;&c_ib;&c_l;&c_o;&c_v;&c_ib; &c_z;&c_n;&c_a;&c_k;&c_i;</trd>
   </trdgrp>
-  <trd lng="zh">&#x6807;&#x70B9; <pr>bi&#x101;odi&#x1CE;n</pr></trd>
+  <trd lng="zh">&#26631;&#x70B9; <pr>bi&amacron;odi&#x1CE;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2025/11/17 22:33:56
+Jeromo Vasxe: ~~o +snc unuopa signo, ~i +ekz
+
 versio 1.32 2023/10/17 16:46:14
 revo: transskribo per <pr>
 
 versio 1.31 2023/08/31 20:26:08
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.29 2023/06/11 19:19:41
 Wolfram Diestel: +spaco, snc-mrk
@@ -144,8 +159,5 @@ Revision 1.24  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.23  2014/05/03 19:10:19  revo
-Damien Brucker: +ekz
-
-Revision 1.22  2014/01/02 18:10:14  revo
 -->
 </vortaro>
