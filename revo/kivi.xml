@@ -1,18 +1,24 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kivi.xml,v 1.15 2023/12/03 09:58:50 revo Exp $">
+<art mrk="$Id: kivi.xml,v 1.16 2025/11/28 20:34:36 revo Exp $">
 <kap>
-  <rad>kivi</rad>/o <fnt><bib>PIV1</bib></fnt>
+  <rad>kivi</rad>/o <fnt><bib>PIV1</bib></fnt>,
+  <var><kap><rad var="g">apterig</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>,
+  <var><kap><rad var="ks">apteriks</rad>/o</kap></var>,
+  <var><kap><rad var="k">apterik</rad>/o <fnt><bib>PVEF</bib></fnt></kap></var>
 </kap>
 <drv mrk="kivi.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+  <var><kap><tld var="g"/>o</kap></var>,
+  <var><kap><tld var="ks"/>o</kap></var></kap>
   <snc mrk="kivi.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
       Novzelanda neflugipova nokta <ref tip="lst" lst="voko:birdoj" cel="bird.0o.ZOO">birdo</ref>,
       proksimume granda kiel koko,
-      simbolo de Novzelando, sola <ref tip="lst" lst="voko:zoologiaj_genroj" cel="genr.0o.BIO">genro</ref>
+      simbolo de Novzelando, sola <ref tip="lst" lst="voko:zoologiaj_genroj"
+      cel="genr.0o.BIO">genro</ref>
       de familio apterigedoj (<trd lng="la">Apteryx</trd>):
       <ekz>
         kun grando de &ccirc;irka&ubreve; hejma koko, <tld/>oj estas klare la plej malgrandaj inter
@@ -21,6 +27,21 @@
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=20070">Kivio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li aldonas, &leftquot;&ccirc;i tiuj fenomenoj skuas nian fidon pri la konkludo ke la <tld var="g"
+        lit="A"/>o de Nova Zelando
+        kaj la Ru&gcirc;a Lagopo de Anglio estis aparte kreitaj en kaj por iliaj respektivaj insuloj&rightquot;
+        <fnt><bib>OriginoDeSpecioj</bib></fnt>;
+      </ekz>
+      <ekz>
+        la <tld var="ks"/>o man&gcirc;as &ccirc;efe insektojn kaj lumbrikojn; &gcirc;i havas tre fortan flarpovon;
+        ser&ccirc;ante man&gcirc;a&jcirc;on en la krepusko &gcirc;i brue kaj kontinue flaradas
+        <fnt>
+          <aut>B. Clark</aut>
+          <vrk>Pratempaj postvivantoj en Nov-Zelando</vrk>
+          <lok>Malgranda Revuo, 1947/4</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -51,13 +72,16 @@
   <trdgrp lng="zh">
     <trd>&#x51E0;&#x7EF4;&#x9E1F; <pr>j&#x12B;w&#xE9;ini&#x1CE;o</pr></trd>,
     <trd>&#x9DF8;&#x9D15; <pr>y&#xF9;tu&#xF3;</pr></trd>,
-    <trd>&#x5947;&#x5F02;&#x9E1F; <pr>q&#xED;y&#xEC;ni&#x1CE;o</pr></trd>
+    <trd>&#22855;&#x5F02;&#x9E1F; <pr>q&#xED;y&#xEC;ni&#x1CE;o</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.16 2025/11/28 20:34:36
+Jeromo Vasxe: + var
+
 versio 1.13 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -77,8 +101,5 @@ Revision 1.6  2010/06/09 16:30:38  revo
 Agustin Garcia Lopez: +trd es
 
 Revision 1.5  2009/08/26 16:31:00  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.4  2009/08/23 16:31:47  revo
 -->
 </vortaro>
