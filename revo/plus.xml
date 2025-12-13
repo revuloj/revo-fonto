@@ -1,29 +1,52 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: plus.xml,v 1.41 2025/03/07 18:48:48 revo Exp $">
+<art mrk="$Id: plus.xml,v 1.42 2025/12/13 10:34:46 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>plus</rad> <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="plus.0">
   <kap><tld/></kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc mrk="plus.0.MAT">
+  <snc mrk="plus.0.MAT2">
+    <uzo tip="fak">MAT</uzo>
     <dif>
-      Konjunkcio indikanta <ref cel="adici.0o">adicion</ref> a&ubreve;
-      pozitivan <ref tip="super" cel="sign.0o.MAT">signon</ref>:
+      Konjunkcio indikanta <ref cel="adici.0o">adicion</ref>
+      (la duargumenta operacio):
       <ekz>
        <frm>4+5 = 9</frm>
-        <klr>(legu: kvar <tld/> kvin estas na&ubreve;)</klr>;
-      </ekz>
-      <ekz>
-        temperaturo je <frm>+25&#x2DA;C</frm>
-        <klr>(legu: <tld/> dudek kvin gradoj celsiaj)</klr>.
+        <klr>(legu: kvar <tld/> kvin estas na&ubreve;)</klr>.
       </ekz>
     </dif>
     <ref tip="ant" cel="minus.0">minus;</ref>
     <ref tip="vid" cel="kaj.0">kaj.</ref>
+  </snc>
+  <snc mrk="plus.0.MAT1">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Partikulo indikanta pozitivan
+      <ref cel="sign.0umo.KOMP">signumon<sncref/></ref>
+      de nombro, &scirc;ar&gcirc;o, temperaturo ktp:
+      <ekz>
+        la akvo bolas &ccirc;e <frm>+100&#730;C</frm>
+        <klr>(legu: <tld/> cent gradoj celsiaj)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="plus.0.KAJ">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+      Konjunkcio enkondukanta kroman, aldonan informon a&ubreve; objekton,
+      simile al &leftquot;<ref tip="sin" cel="kaj.0">kaj</ref>&rightquot;
+      <ekz>
+        &Scirc;i donis iliajn nomojn, <tld/> kelkajn personajn detalojn
+        <fnt><aut>Joh&aacute;n Valano</aut>: <vrk>&Ccirc;u vi kuiras &ccirc;ine?</vrk>.
+          <lok>Vieno:IEM, 1996. &Ccirc;ap. 15&#170;.</lok></fnt>;
+      </ekz><ekz>
+        la kosto estas 20 dolaroj <tld/> afranko
+        <fnt><bib>PIV2</bib></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_p;&c_l;&c_ju;&c_s;</trd>
   <trd lng="ca">m&eacute;s</trd>
@@ -37,8 +60,8 @@
     <trd>meg</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x30D7;&#x30E9;&#x30B9;  <pr>&#x3077;&#x3089;&#x3059;</pr></trd>,
-    <trd>&#xFF5E;<ind>&#x3092;&#x8DB3;&#x3057;&#x3066;  </ind><pr>&#x3092;&#x305F;&#x3057;&#x3066;</pr></trd>
+    <trd>&#x30D7;&#x30E9;&#x30B9;  <pr>&#12407;&#12425;&#12377;</pr></trd>,
+    <trd>&#xFF5E;<ind>&#12434;&#x8DB3;&#12375;&#12390;  </ind><pr>&#12434;&#x305F;&#12375;&#12390;</pr></trd>
   </trdgrp>
   <trd lng="nl">plus</trd>
   <trd lng="pl">plus</trd>
@@ -46,12 +69,12 @@
   <trd lng="ru">&c_p;&c_l;&c_ju;&c_s;</trd>
   <trd lng="sk">plus</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43B;&#x44E;&c_s;</trd>,
-    <trd>&c_v;&c_i;&c_shch;&c_je; &#x43D;&c_u;&#x43B;&#x44F;</trd>
+    <trd>&c_p;&c_l;&c_ju;&c_s;</trd>,
+    <trd>&c_v;&c_i;&c_shch;&c_je; &c_n;&c_u;&c_l;&c_ja;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x52A0; <pr>ji&#x101;</pr></trd>,
-    <trd>&#x52A0;&#x4E0A; <pr>ji&#x101;sh&#xE0;ng</pr></trd>
+    <trd>&#x52A0; <pr>ji&amacron;</pr></trd>,
+    <trd>&#x52A0;&#x4E0A; <pr>ji&amacron;sh&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -101,8 +124,8 @@
     <trdgrp lng="zh">
     <trd>&#x6B63;&#x53F7; <pr>zh&#xE8;ngh&#xE0;o</pr></trd>,
     <trd>&#x6B63;&#x865F; <pr>zh&#xE8;ngh&#xE0;o</pr></trd>,
-    <trd>&#x52A0;&#x53F7; <pr>ji&#x101;h&#xE0;o</pr></trd>,
-    <trd>&#x52A0;&#x865F; <pr>ji&#x101;h&#xE0;o</pr></trd>
+    <trd>&#x52A0;&#x53F7; <pr>ji&amacron;h&#xE0;o</pr></trd>,
+    <trd>&#x52A0;&#x865F; <pr>ji&amacron;h&#xE0;o</pr></trd>
   </trdgrp>
 </snc>
   <snc mrk="plus.0o.FIG">
@@ -151,14 +174,14 @@
       <trd>&c_p;&c_r;&c_je;&c_v;&c_y;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
     </trdgrp>
     <trdgrp lng="zh">
-    <trd>&#x8FC7;&#x5269; <pr>gu&#xF2;sh&#xE8;ng</pr></trd>,
-    <trd>&#x904E;&#x5269; <pr>gu&#xF2;sh&#xE8;ng</pr></trd>,
+    <trd>&#x8FC7;&#21097; <pr>gu&#xF2;sh&#xE8;ng</pr></trd>,
+    <trd>&#x904E;&#21097; <pr>gu&#xF2;sh&#xE8;ng</pr></trd>,
     <trd>&#x4EC2; <pr>l&#xE8;</pr></trd>,
-    <trd>&#x4F59;&#x5269; <pr>y&#xFA;sh&#xE8;ng</pr></trd>,
-    <trd>&#x9918;&#x5269; <pr>y&#xFA;sh&#xE8;ng</pr></trd>,
+    <trd>&#x4F59;&#21097; <pr>y&#xFA;sh&#xE8;ng</pr></trd>,
+    <trd>&#39192;&#21097; <pr>y&#xFA;sh&#xE8;ng</pr></trd>,
     <trd>&#x4F59;&#x88D5; <pr>y&#xFA;y&#xF9;</pr></trd>,
-    <trd>&#x9918;&#x88D5; <pr>y&#xFA;y&#xF9;</pr></trd>,
-    <trd>&#x76C8;&#x5229; <pr>y&#xED;ngl&#xEC;</pr></trd>
+    <trd>&#39192;&#x88D5; <pr>y&#xFA;y&#xF9;</pr></trd>,
+    <trd>&#x76C8;&#21033; <pr>y&#xED;ngl&#xEC;</pr></trd>
   </trdgrp>
 </snc>
   <trdgrp lng="ca">
@@ -170,8 +193,8 @@
     <trd>p&rcaron;&iacute;r&uring;stek</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x8D85;&#x904E;  <pr>&#x3061;&#x3087;&#x3046;&#x304B;</pr></trd>,
-    <trd>&#x4F59;&#x5270;  <pr>&#x3088;&#x3058;&#x3087;&#x3046;</pr></trd>
+    <trd>&#x8D85;&#x904E;  <pr>&#12385;&#12423;&#12358;&#x304B;</pr></trd>,
+    <trd>&#x4F59;&#21104;  <pr>&#12424;&#12376;&#12423;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="pl">plus</trd>
   <trd lng="sk">pr&iacute;rastok</trd>
@@ -180,6 +203,9 @@
 </art>
 <!--
 $Log$
+versio 1.42 2025/12/13 10:34:46
+Sergio Pokrovskij: + disigis en 3 sencojn
+
 versio 1.39 2023/10/20 16:38:17
 revo: transskribo per <pr>
 
@@ -199,8 +225,5 @@ Revision 1.31  2012/08/03 13:10:26  revo
 Marc Rausell: + trd ca
 
 Revision 1.30  2009/06/29 18:07:11  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.29  2009/03/06 17:30:43  revo
 -->
 </vortaro>
