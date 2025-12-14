@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: libr.xml,v 1.186 2025/12/14 11:09:27 revo Exp $">
+<art mrk="$Id: libr.xml,v 1.187 2025/12/14 12:57:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>libr</rad>/o <fnt><bib>UV</bib></fnt>
@@ -1035,7 +1035,7 @@
   <kap>
     kont<tld/>o, <var><kap>&ccirc;eflibro</kap></var>
   </kap>
-  <snc>
+  <snc mrk="libr.kont0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
       <ref tip="super" cel="regist.0olibro">Registrolibro</ref>
@@ -1631,6 +1631,38 @@
   </trdgrp>
 </drv>
 
+<drv mrk="libr.spez0o">
+  <kap>
+    spez<tld/>o
+  </kap>
+  <snc>
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      <ref tip="super" cel="regist.0olibro">Registrolibro</ref>,
+      en kiu estas enskribataj la enspezoj kaj elspezoj de iu:
+      <ekz>
+        mi eltrovis, sinjoro, en la spez<tld/>oj de mia mortinta patro, &scirc;uldon ne pagitan
+        <fnt>
+          <aut>Brueys kaj Palaprat, trad. M.-J. Evrot</aut>
+          <vrk><url ref="https://www.gutenberg.org/files/52876/52876-h/52876-h.htm"
+              >Advokato Patelin</url></vrk>
+          <lok>Sceno VI,  Patelin, Guillaume</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="libr.kont0o">kont<tld/>o, &ccirc;ef<tld/>o</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Grundbuch</trd>,
+    <trd>Journal <klr>(Buchf&uuml;hrung)</klr></trd>
+  </trdgrp>
+  <trd lng="en">journal</trd>
+  <trdgrp lng="ru">
+    <trd>&c_m;&c_je;&c_m;&c_o;&c_r;&c_i;&c_a;&c_l;</trd>,
+    <trd>&c_zh;&c_u;&c_r;&c_n;&c_a;&c_l;</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="libr.tag0o">
   <kap>tag<tld/>o, <var><kap>tago<tld/>o</kap></var></kap>
   <snc mrk="libr.tag0o.KOMUNE">
@@ -1837,9 +1869,13 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="libr.kont0o">kont<tld/>o, &ccirc;ef<tld/>o</ref>,
+      <ref cel="libr.spez0o">spez<tld/>o</ref>
+    </refgrp>
   </snc>
   <rim>
-    La&ubreve; <fnt><bib>BL</bib></fnt>: Anka&ubreve; eblas diri <ke>kontado</ke>.
+    La&ubreve; <fnt><bib>BL</bib></fnt>: Anka&ubreve; eblas diri <ke><ref tip="sin" cel="kont.0ado">kontado</ref></ke>.
   </rim>
   <trdgrp lng="be">
     <trd>&c_b;&c_u;&c_g;&c_a;&c_l;&c_mol;&c_t;&c_e;&c_r;&c_y;&c_ja;</trd>,
@@ -2052,8 +2088,11 @@
 </art>
 <!--
 $Log$
+versio 1.187 2025/12/14 12:57:31
+Wolfram Diestel: +spez~o; +ref
+
 versio 1.186 2025/12/14 11:09:27
-Wolfram Diestel: +kont~o/ĉef~o
+Wolfram Diestel: +kont~o/&ccirc;ef~o
 
 versio 1.185 2025/10/26 16:33:54
 Wolfram Diestel: drv-mrk
@@ -2071,8 +2110,5 @@ versio 1.181 2025/04/02 18:39:31
 Wolfram Diestel: +rim BL
 
 versio 1.179 2025/02/18 08:34:06
-Dmitri Gabinski: + trd be
-
-versio 1.177 2023/12/12 20:10:23
 -->
 </vortaro>
