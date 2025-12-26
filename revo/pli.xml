@@ -1,52 +1,63 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pli.xml,v 1.135 2025/10/29 16:42:54 revo Exp $">
+<art mrk="$Id: pli.xml,v 1.136 2025/12/26 18:43:15 revo Exp $">
 <kap>
-   <ofc>*</ofc>
-   <rad>pli</rad>
-<fnt><bib>UV</bib></fnt></kap>
+  <ofc>*</ofc>
+  <rad>pli</rad>
+  <fnt> <bib>UV</bib></fnt>
+</kap>
+
 <drv mrk="pli.0">
-   <kap><ofc>*</ofc><tld/></kap>
-   <gra><vspec>adverbo</vspec></gra>
-   <snc mrk="pli.0.KOMUNE">
-     <dif>
-       En grado a&ubreve; kvanto supera je iu alia:
-       <ekz>
-         &ccirc;u vi deziras <tld/> da pano?
-       </ekz><ekz>
-         <ind><tld/> da okuloj, <tld/> da certeco</ind>
-         <trd lng="hu">t&ouml;bb szem t&ouml;bbet l&aacute;t</trd>
-         <fnt><bib>PrV</bib></fnt>;
-       </ekz><ekz>
+  <kap><ofc>*</ofc><tld/></kap>
+  <gra><vspec>adverbo</vspec></gra>
+  <snc mrk="pli.0.KOMUNE">
+    <dif>
+      En grado a&ubreve; kvanto supera je iu alia:
+      <ekz>
          la papero estas tre blanka sed la ne&gcirc;o estas <tld/>
          blanka
          <fnt><bib>F</bib>, <lok>&FE; 10</lok></fnt>;
-       </ekz><ekz>
+      </ekz><ekz>
          lakto estas <tld/> nutra, ol vino
          <fnt><bib>F</bib>, <lok>&FE; 10</lok></fnt>;
-       </ekz><ekz>
+      </ekz>
+      <ekz>
+        &ccirc;u vi deziras <klr>[&#x2026;]</klr> <tld/> longan
+        <klr>(ol vi jam havis; a&ubreve; ol ordinaran)</klr>
+        prokraston
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
          li estas <tld/> stulta ol malica;
-       </ekz><ekz>
-         nu, iru <tld/> rapide
+      </ekz><ekz>
+         nu, iru <tld/> rapide <klr>(ol nun)</klr>
          <fnt><bib>F</bib>, <lok>&FE; 26</lok></fnt>!
-       </ekz><ekz>
+      </ekz><ekz>
          du homoj povas <tld/> multe fari ol unu
          <fnt><bib>F</bib>, <lok>&FE; 12</lok></fnt>;
-       </ekz><ekz>
+      </ekz><ekz>
          li estas la <tld/> a&gcirc;a el amba&ubreve;;
-       </ekz><ekz>
-         <tld/>beligi, <tld/>multigi, <tld/>grandigi;
-       </ekz><ekz>
+      </ekz><ekz>
+         <ref cel="bel.pli0igi">plibeligi</ref>,
+         <tld/>multigi, <tld/>grandigi;
+      </ekz><ekz>
          li amas lin <tld/>, ol sin mem
          <fnt><bib>F</bib>, <lok>&FE; 18</lok></fnt>;
-       </ekz><ekz>
-         ne estas permesite al mi <tld/> diri<fnt>Z</fnt>;
-       </ekz><ekz>
+      </ekz><ekz>
+         ne estas permesite al mi <tld/> diri
+         <fnt>
+           <bib>BdV</bib>
+           <lok>La Batalo de l' Vivo</lok>
+         </fnt>;
+      </ekz><ekz>
          li ne vivos <tld/>, ol unu tagon
          <fnt><bib>F</bib>, <lok>&FE; 31</lok></fnt>;
-       </ekz><ekz>
-        mi <klr>[&#8230;]</klr> nenion <tld/> postulus, krom ke oni montru al mi sindonecon
+      </ekz><ekz>
+        mi <klr>[&#x2026;]</klr> nenion <tld/> postulus, krom ke oni montru al mi sindonecon
         kaj estimon
         <fnt><bib>Revizoro</bib> <lok>Akto dua</lok></fnt>;
       </ekz><ekz>
@@ -64,14 +75,20 @@
         ne ripro&ccirc;u vian amikon, &ccirc;ar vi mem <tld/> multe meritas ripro&ccirc;on
         <fnt><bib>FK</bib></fnt>;
       </ekz><ekz>
-         li <tld/> <klr>(prefere)</klr> drinkas ol laboras.
+         li <tld/> <klr>(prefere)</klr> drinkas ol laboras;
+       </ekz>
+       <ekz>
+         <ind><tld/> da okuloj, <tld/> da certeco</ind>
+         <fnt><bib>PrV</bib></fnt>.
+         <trd lng="de">vier Augen sehen mehr als zwei</trd>
+         <trd lng="hu">t&ouml;bb szem t&ouml;bbet l&aacute;t</trd>
        </ekz>
      </dif>
      <ref tip="vid" cel="plu.0">plu</ref>
      <trd lng="ca">m&eacute;s</trd>
    </snc>
   <trd lng="af">beter</trd>
-  <trd lng="am">&#x12E8;&#4720;&#x123B;&#4616;</trd>
+  <trd lng="am">&#x12E8;&#x1270;&#x123B;&#x1208;</trd>
   <trd lng="ar">&a_A_hamza_sure;&a_f;&a_D;&a_l;</trd>
   <trd lng="az">yax&scedil;&inodot;</trd>
   <trdgrp lng="be">
@@ -88,22 +105,25 @@
   </trdgrp>
   <trd lng="cy">gwell</trd>
   <trd lng="da">bedre</trd>
-  <trd lng="de">mehr</trd>
+  <trdgrp lng="de">
+    <trd>mehr</trd>,
+    <trd>eher <klr>(mehr, bevorzugt)</klr></trd>
+  </trdgrp>
   <trd lng="en">more</trd>
   <trd lng="es">m&aacute;s</trd>
   <trd lng="et">rohkem</trd>
   <trd lng="eu">hobeto</trd>
   <trdgrp lng="fi">
-     <trd>enemm&auml;n</trd>,
-     <trd><klr tip="amb">(</klr>komparatiivi<klr>n merkki, suurempaa
+    <trd>enemm&auml;n</trd>,
+    <trd><klr tip="amb">(</klr>komparatiivi<klr>n merkki, suurempaa
        m&auml;&auml;r&auml;&auml; ilmaiseva partikkeli</klr>
        <klr tip="amb">)</klr>
-     </trd>
-   </trdgrp>
+    </trd>
+  </trdgrp>
   <trdgrp lng="fr">
-     <trd>davantage</trd>,
-     <trd>plus</trd>
-   </trdgrp>
+    <trd>davantage</trd>,
+    <trd>plus</trd>
+  </trdgrp>
   <trd lng="fy">mear</trd>
   <trd lng="ga">n&iacute;os fearr</trd>
   <trd lng="gd">nas fhe&agrave;rr</trd>
@@ -111,10 +131,10 @@
   <trd lng="gu">&#xAB8;&#xABE;&#xAB0;&#xAC0;</trd>
   <trd lng="ha">mafi alh&#x1EBD;ri</trd>
   <trdgrp lng="he">
-     <trd>&yod;&vav;&tav;&resh;</trd>,
-     <trd>&ayin;&vav;&dalet;</trd>
-   </trdgrp>
-  <trd lng="hi">&#x92C;&#2375;&#2361;&#2340;&#2352;</trd>
+    <trd>&yod;&vav;&tav;&resh;</trd>,
+    <trd>&ayin;&vav;&dalet;</trd>
+  </trdgrp>
+  <trd lng="hi">&#x92C;&#x947;&#x939;&#x924;&#x930;</trd>
   <trd lng="hmn">zoo dua</trd>
   <trd lng="hr">vi&scaron;e</trd>
   <trd lng="ht">pi bon</trd>
@@ -123,16 +143,16 @@
      <trd>t&ouml;bb</trd>,
      <trd>t&ouml;bbet</trd>
    </trdgrp>
-  <trd lng="hy">&#1377;&#x57E;&#1381;&#x56C;&#x56B; &#x56C;&#1377;&#x57E;</trd>
+  <trd lng="hy">&#x561;&#x57E;&#x565;&#x56C;&#x56B; &#x56C;&#x561;&#x57E;</trd>
   <trd lng="ig">mma</trd>
   <trd lng="is">betur</trd>
   <trd lng="it">pi&ugrave;</trd>
-  <trd lng="ja">&#x826F;&#12356; <pr>&#12424;&#12356;</pr></trd>
+  <trd lng="ja">&#x826F;&#x3044; <pr>&#x3088;&#x3044;</pr></trd>
   <trd lng="jv">luwih apik</trd>
   <trd lng="ka">&#x10E3;&#x10D9;&#x10D4;&#x10D7;&#x10D4;&#x10E1;&#x10D8;</trd>
   <trd lng="kk">&c_zh;&c_a;&#x49B;&c_s;&c_y;&c_r;&c_a;&#x49B;</trd>
   <trd
-  lng="km">&#6016;&#x17B6;&#6035;&#x17CB;&#x178F;&#x17C2;&#6036;&#x17D2;&#x179A;&#x179F;&#x17BE;&#x179A;&#x17A1;&#x17BE;&#6020;</trd>
+  lng="km">&#x1780;&#x17B6;&#x1793;&#x17CB;&#x178F;&#x17C2;&#x1794;&#x17D2;&#x179A;&#x179F;&#x17BE;&#x179A;&#x17A1;&#x17BE;&#x1784;</trd>
   <trd lng="kn">&#xC89;&#xCA4;&#xCCD;&#xCA4;&#xCAE;</trd>
   <trd lng="ko">&#xB354;</trd>
   <trd lng="ku">ba&scedil;tir</trd>
@@ -147,11 +167,11 @@
   <trd
   lng="ml">&#xD2E;&#xD46;&#xD1A;&#xD4D;&#xD1A;&#xD2A;&#xD4D;&#xD2A;&#xD46;&#xD1F;&#xD4D;&#xD1F;</trd>
   <trd lng="mn">&c_s;&c_a;&c_j;&c_n;</trd>
-  <trd lng="mr">&#x91A;&#x93E;&#2306;&#2327;&#2354;&#2375;</trd>
+  <trd lng="mr">&#x91A;&#x93E;&#x902;&#x917;&#x932;&#x947;</trd>
   <trd lng="ms">lebih baik</trd>
-  <trd lng="mt">a&#295;jar</trd>
-  <trd lng="my">&#4117;&#x102D;&#x102F;&#4096;&#4145;&#x102C;&#4100;&#x103A;&#4152;</trd>
-  <trd lng="ne">&#2352;&#x93E;&#x92E;&#x94D;&#2352;&#x94B;</trd>
+  <trd lng="mt">a&#x127;jar</trd>
+  <trd lng="my">&#x1015;&#x102D;&#x102F;&#x1000;&#x1031;&#x102C;&#x1004;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x930;&#x93E;&#x92E;&#x94D;&#x930;&#x94B;</trd>
   <trd lng="nl">meer</trd>
   <trd lng="ny">bwino</trd>
   <trd lng="pa">&#xA2C;&#xA3F;&#xA39;&#xA24;&#xA30;</trd>
@@ -170,7 +190,7 @@
      <trd>&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_je;</trd>
    </trdgrp>
   <trd lng="rw">byiza</trd>
-  <trd lng="sd">&#1664;&a_l;&a_y;</trd>
+  <trd lng="sd">&#x680;&a_l;&a_y;</trd>
   <trd lng="si">&#xDC0;&#xDA9;&#xDCF; &#xDC4;&#xDDC;&#xDB3;</trd>
   <trd lng="sk">viac</trd>
   <trd lng="sl">bolje</trd>
@@ -298,8 +318,8 @@
      <trd>supplementare</trd>
    </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#12424;&#x308A;&#x4EE5;&#x4E0A;&#x306E;  <pr>&#12424;&#x308A;&#12356;&#12376;&#12423;&#12358;&#x306E;</pr></trd>,
-    <trd>&#x8FFD;&#x52A0;&#x306E;  <pr>&#12388;&#12356;&#x304B;&#x306E;</pr></trd>
+    <trd>&#x3088;&#x308A;&#x4EE5;&#x4E0A;&#x306E;  <pr>&#x3088;&#x308A;&#x3044;&#x3058;&#x3087;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x8FFD;&#x52A0;&#x306E;  <pr>&#x3064;&#x3044;&#x304B;&#x306E;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
      <trd>extra</trd>,
@@ -323,10 +343,10 @@
     <trd>&c_d;&c_o;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_i;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#22806;&#x52A0; <pr>w&agrave;iji&amacron;</pr></trd>,
-    <trd>&#x984D;&#22806; <pr>&eacute;w&agrave;i</pr></trd>,
-    <trd>&#x989D;&#22806; <pr>&eacute;w&agrave;i</pr></trd>,
-    <trd>&#x53E6;&#22806; <pr>l&igrave;ngw&agrave;i</pr></trd>
+    <trd>&#x5916;&#x52A0; <pr>w&agrave;iji&amacron;</pr></trd>,
+    <trd>&#x984D;&#x5916; <pr>&eacute;w&agrave;i</pr></trd>,
+    <trd>&#x989D;&#x5916; <pr>&eacute;w&agrave;i</pr></trd>,
+    <trd>&#x53E6;&#x5916; <pr>l&igrave;ngw&agrave;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -393,22 +413,22 @@
      </trdgrp>
      <trd lng="th">&#xE19;&#xE2D;&#xE01;&#xE08;&#xE32;&#xE01;&#xE19;&#xE35;&#xE49;</trd>
      <trdgrp lng="zh">
-       <trd>&#x53E6;&#22806; <pr>l&igrave;ngw&agrave;i</pr></trd>,
-       <trd>&#x8FD8;&#26377; <pr>h&aacute;iy&#x1D2;u</pr></trd>,
-       <trd>&#36996;&#26377; <pr>h&aacute;iy&#x1D2;u</pr></trd>,
-       <trd>&#x6B64;&#22806; <pr>c&#x1D0;w&agrave;i</pr></trd>,
+       <trd>&#x53E6;&#x5916; <pr>l&igrave;ngw&agrave;i</pr></trd>,
+       <trd>&#x8FD8;&#x6709; <pr>h&aacute;iy&#x1D2;u</pr></trd>,
+       <trd>&#x9084;&#x6709; <pr>h&aacute;iy&#x1D2;u</pr></trd>,
+       <trd>&#x6B64;&#x5916; <pr>c&#x1D0;w&agrave;i</pr></trd>,
        <trd>&#x800C;&#x4E14; <pr>&eacute;rqi&ecaron;</pr></trd>,
        <trd>&#x52A0;&#x4EE5; <pr>ji&amacron;y&#x1D0;</pr></trd>,
-       <trd>&#x518D;&#32773; <pr>z&agrave;izh&ecaron;</pr></trd>,
+       <trd>&#x518D;&#x8005; <pr>z&agrave;izh&ecaron;</pr></trd>,
        <trd>&#x518D;&#x8AAA; <pr>z&agrave;ishu&omacron;</pr></trd>,
        <trd>&#x518D;&#x8BF4; <pr>z&agrave;ishu&omacron;</pr></trd>,
-       <trd>&#22806;&#x52A0; <pr>w&agrave;iji&amacron;</pr></trd>,
-       <trd>&#25233;&#x4E14; <pr>y&igrave;qi&ecaron;</pr></trd>,
+       <trd>&#x5916;&#x52A0; <pr>w&agrave;iji&amacron;</pr></trd>,
+       <trd>&#x6291;&#x4E14; <pr>y&igrave;qi&ecaron;</pr></trd>,
        <trd>&#x4E26;&#x4E14; <pr>b&igrave;ngqi&ecaron;</pr></trd>,
        <trd>&#x5E76;&#x4E14; <pr>b&igrave;ngqi&ecaron;</pr></trd>,
-       <trd>&#20854;&#x4ED6; <pr>q&iacute;t&amacron;</pr></trd>,
-       <trd>&#x518D;&#21017; <pr>z&agrave;iz&eacute;</pr></trd>,
-       <trd>&#x518D;&#21063; <pr>z&agrave;iz&eacute;</pr></trd>,
+       <trd>&#x5176;&#x4ED6; <pr>q&iacute;t&amacron;</pr></trd>,
+       <trd>&#x518D;&#x5219; <pr>z&agrave;iz&eacute;</pr></trd>,
+       <trd>&#x518D;&#x5247; <pr>z&agrave;iz&eacute;</pr></trd>,
        <trd>&#x518D;&#x52A0;&#x4E0A; <pr>z&agrave;iji&amacron;sh&agrave;ng</pr></trd>,
        <trd>&#x52A0;&#x4E4B; <pr>ji&amacron;zh&imacron;</pr></trd>,
        <trd>&#x51B5;&#x590D; <pr>ku&agrave;ngf&ugrave;</pr></trd>,
@@ -436,10 +456,10 @@
         </fnt>;
       </ekz><ekz>
         ne demande, sed <tld/>e aserte diris Pilato
-        <fnt><bib>MkM</bib> <lok>&ccirc;ap.&nbsp;26&#170;</lok></fnt>;
+        <fnt><bib>MkM</bib> <lok>&ccirc;ap.&nbsp;26&#xAA;</lok></fnt>;
       </ekz><ekz>
         &ccirc;u traduko devas prioritate peri &ccirc;iujn ecojn de la originalo
-        <klr>&#8230;</klr> a&ubreve; <tld/>e celi, ke &gcirc;i mem estu plenvalora teksto
+        <klr>&#x2026;</klr> a&ubreve; <tld/>e celi, ke &gcirc;i mem estu plenvalora teksto
         en la cellingvo
         <fnt>
           <vrk>Esperanto kaj la estonteca plurlingvismo: Diskuto de
@@ -513,8 +533,8 @@
     <trd>nav&iacute;c</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#12373;&#12425;&#x306B;</trd>,
-    <trd>&#12356;&#12387;&#x305D;&#12358;</trd>,
+    <trd>&#x3055;&#x3089;&#x306B;</trd>,
+    <trd>&#x3044;&#x3063;&#x305D;&#x3046;</trd>,
     <trd>&#x305D;&#x306E;&#x4E0A;  <pr>&#x305D;&#x306E;&#x304B;&#x307F;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
@@ -599,8 +619,8 @@
      <trd>aumentare<klr> (tr.)</klr></trd>
    </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#12405;&#12420;&#12377;</trd>,
-    <trd>&#22679;&#22823;&#12373;&#x305B;&#x308B;  <pr>&#x305E;&#12358;&#12384;&#12356;&#12373;&#x305B;&#x308B;</pr></trd>
+    <trd>&#x3075;&#x3084;&#x3059;</trd>,
+    <trd>&#x5897;&#x5927;&#x3055;&#x305B;&#x308B;  <pr>&#x305E;&#x3046;&#x3060;&#x3044;&#x3055;&#x305B;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">vermeerderen</trd>
   <trdgrp lng="pl">
@@ -609,7 +629,7 @@
    </trdgrp>
    <trdgrp lng="ro">
      <trd>m&abreve;ri</trd>,
-     <trd>cre&#537;te</trd>
+     <trd>cre&scomma;te</trd>
    </trdgrp>
   <trd lng="ru">&c_u;&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
@@ -623,17 +643,17 @@
     <trd>&c_p;&c_r;&c_i;&c_m;&c_n;&c_o;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x589E;&#38263; <pr>z&emacron;ngzh&#x1CE;ng</pr></trd>,
+    <trd>&#x589E;&#x9577; <pr>z&emacron;ngzh&#x1CE;ng</pr></trd>,
     <trd>&#x589E;&#x957F; <pr>z&emacron;ngzh&#x1CE;ng</pr></trd>,
     <trd>&#x589E;&#x52A0; <pr>z&emacron;ngji&amacron;</pr></trd>,
     <trd>&#x589E;&#x5F37; <pr>z&emacron;ngqi&aacute;ng</pr></trd>,
     <trd>&#x589E;&#x5F3A; <pr>z&emacron;ngqi&aacute;ng</pr></trd>,
     <trd>&#x62C9;&#x5F00; <pr>l&amacron;k&amacron;i</pr></trd>,
     <trd>&#x62C9;&#x958B; <pr>l&amacron;k&amacron;i</pr></trd>,
-    <trd>&#33537; <pr>zhu&oacute;</pr></trd>,
+    <trd>&#x8301; <pr>zhu&oacute;</pr></trd>,
     <trd>&#x589E; <pr>z&emacron;ng</pr></trd>,
     <trd>&#x6DFB;&#x52A0; <pr>ti&amacron;nji&amacron;</pr></trd>,
-    <trd>&#x52A0;&#22823; <pr>ji&amacron;d&agrave;</pr></trd>
+    <trd>&#x52A0;&#x5927; <pr>ji&amacron;d&agrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -690,8 +710,8 @@
      <trd>aumentare<klr> (intr.)</klr></trd>
    </trdgrp>
    <trdgrp lng="ja">
-    <trd>&#12405;&#12360;&#x308B;</trd>,
-    <trd>&#22679;&#22823;&#12377;&#x308B;  <pr>&#x305E;&#12358;&#12384;&#12356;&#12377;&#x308B;</pr></trd>
+    <trd>&#x3075;&#x3048;&#x308B;</trd>,
+    <trd>&#x5897;&#x5927;&#x3059;&#x308B;  <pr>&#x305E;&#x3046;&#x3060;&#x3044;&#x3059;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
      <trd>zwi&eogonek;ksza&cacute; si&eogonek;</trd>,
@@ -702,14 +722,14 @@
    <trdgrp lng="ro">
      <trd>spori</trd>,
      <trd>dezvolta</trd>,
-     <trd>cre&#537;te</trd>
+     <trd>cre&scomma;te</trd>
    </trdgrp>
    <trd lng="ru">&c_u;&c_v;&c_je;&c_l;&c_i;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
    <trd lng="th">&#xE21;&#xE32;&#xE01;&#xE02;&#xE36;&#xE49;&#xE19;</trd>
   <trdgrp lng="zh">
-    <trd>&#36882;&#x589E; <pr>d&igrave;z&emacron;ng</pr></trd>,
+    <trd>&#x9012;&#x589E; <pr>d&igrave;z&emacron;ng</pr></trd>,
     <trd>&#x905E;&#x589E; <pr>d&igrave;z&emacron;ng</pr></trd>,
-    <trd>&#x589E;&#38263; <pr>z&emacron;ngzh&#x1CE;ng</pr></trd>,
+    <trd>&#x589E;&#x9577; <pr>z&emacron;ngzh&#x1CE;ng</pr></trd>,
     <trd>&#x589E;&#x957F; <pr>z&emacron;ngzh&#x1CE;ng</pr></trd>,
     <trd>&#x6ECB; <pr>z&imacron;</pr></trd>
   </trdgrp>
@@ -729,7 +749,7 @@
           aliajn sencojn [PIV1]</url></vrk>
         </fnt>;
       </ekz><ekz>
-         ASCII: sepbita kodo <klr>[&#8230;]</klr> disponebla en la <tld/>opo
+         ASCII: sepbita kodo <klr>[&#x2026;]</klr> disponebla en la <tld/>opo
          de la nunaj komputiloj
          <fnt>
            <vrk>
@@ -776,14 +796,14 @@
      </dif>
    </snc>
   <trd lng="af">minder</trd>
-  <trd lng="am">&#x12EB;&#4752;&#4656;</trd>
+  <trd lng="am">&#x12EB;&#x1290;&#x1230;</trd>
   <trd lng="ar">&a_A_hamza_sure;&a_q;&a_l;</trd>
   <trd lng="az">az</trd>
   <trdgrp lng="be">
     <trd>&c_m;&c_je;&c_n;&c_je;&c_j;</trd>,
     <trd>&c_m;&c_je;&c_n;&c_sh;</trd>
   </trdgrp>
-  <trd lng="bn">&#2453;&#x9AE;</trd>
+  <trd lng="bn">&#x995;&#x9AE;</trd>
   <trd lng="bo">&t_nya;&t_shabchu;&t_nga;&t_tsheg;&t_nya;&t_shabchu;&t_nga;&t_tsheg;</trd>
   <trd lng="bs">manje</trd>
   <trd lng="ca">menys</trd>
@@ -792,9 +812,10 @@
   <trd lng="cy">llai</trd>
   <trd lng="da">mindre</trd>
   <trdgrp lng="de">
-     <trd>weniger</trd>,
-     <trd>minder-</trd>
-   </trdgrp>
+    <trd>weniger</trd>,
+    <trd>geringer</trd>,
+    <trd>minder-</trd>
+  </trdgrp>
   <trd lng="en">less</trd>
   <trd lng="es">menos</trd>
   <trd lng="et">v&auml;hem</trd>
@@ -811,7 +832,7 @@
   <trd lng="gu">&#xA93;&#xA9B;&#xAC0;</trd>
   <trd lng="ha">kasa</trd>
   <trd lng="he">&pe;&het;&vav;&tav;</trd>
-  <trd lng="hi">&#2325;&#x92E;</trd>
+  <trd lng="hi">&#x915;&#x92E;</trd>
   <trd lng="hmn">tsawg</trd>
   <trd lng="hr">manje</trd>
   <trd lng="ht">mwens</trd>
@@ -820,7 +841,7 @@
      <trd>kevesebb</trd>,
      <trd>kevesebbet</trd>
    </trdgrp>
-  <trd lng="hy">&#1377;&#x57E;&#1381;&#x56C;&#x56B; &#1412;&#x56B;&#1401;</trd>
+  <trd lng="hy">&#x561;&#x57E;&#x565;&#x56C;&#x56B; &#x584;&#x56B;&#x579;</trd>
   <trd lng="ig">Mpekar&#x1ECB;</trd>
   <trd lng="is">minna</trd>
   <trd lng="it">meno<klr> (avv.)</klr></trd>
@@ -828,7 +849,7 @@
   <trd lng="jv">kurang</trd>
   <trd lng="ka">&#x10DC;&#x10D0;&#x10D9;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10D0;,</trd>
   <trd lng="kk">&c_a;&c_z;&c_d;&c_a;&c_u;</trd>
-  <trd lng="km">&#x178F;&#x17B7;&#6021;</trd>
+  <trd lng="km">&#x178F;&#x17B7;&#x1785;</trd>
   <trd lng="kn">&#xC95;&#xCA1;&#xCBF;&#xCAE;&#xCC6;</trd>
   <trd lng="ko">&#xC774;&#xD558;</trd>
   <trd lng="ku">k&ecirc;mtir</trd>
@@ -842,16 +863,16 @@
   <trd lng="mk">&c_p;&c_o;&c_m;&c_a;&c_l;&c_k;&c_u;</trd>
   <trd lng="ml">&#xD15;&#xD41;&#xD31;&#xD35;&#xD4D;</trd>
   <trd lng="mn">&c_b;&c_a;&c_g;&c_a;</trd>
-  <trd lng="mr">&#2325;&#x92E;&#2368;</trd>
+  <trd lng="mr">&#x915;&#x92E;&#x940;</trd>
   <trd lng="ms">kurang</trd>
   <trd lng="mt">inqas</trd>
-  <trd lng="my">&#4116;&#x100A;&#x103A;&#4152;&#x101E;&#4145;&#x102C;</trd>
+  <trd lng="my">&#x1014;&#x100A;&#x103A;&#x1038;&#x101E;&#x1031;&#x102C;</trd>
   <trd lng="nl">minder</trd>
   <trd lng="ny">zochepa</trd>
   <trd lng="pa">&#xA18;&#xA71;&#xA1F;</trd>
   <trd lng="pl">mniej</trd>
-  <trd lng="ps">&a_l;&#1686;</trd>
-  <trd lng="ro">mai pu&#x21B;in</trd>
+  <trd lng="ps">&a_l;&#x696;</trd>
+  <trd lng="ro">mai pu&tcomma;in</trd>
   <trdgrp lng="ru">
      <trd>&c_m;&c_je;&c_n;&c_je;&c_je;</trd>,
      <trd>&c_m;&c_je;&c_n;&c_mol;&c_sh;&c_je;</trd>
@@ -901,7 +922,7 @@
          leptino
          <fnt><aut>CHO Sung Ho</aut>:
            <vrk>KOVIMO: Pandemia obezeco</vrk>. <bib>Monato</bib>
-           <lok>&#8470;012868</lok></fnt>;
+           <lok>&#x2116;012868</lok></fnt>;
       </ekz><ekz>
         komplekso de mal<tld/>a valoro
         <fnt><aut>Dragutin WRANKA</aut>: <vrk>La recenzo</vrk>.
@@ -932,6 +953,7 @@
      <trd>menor</trd>,
      <trd>inferior</trd>
    </trdgrp>
+<trd lng="de">geringerer</trd>
 </drv>
 
 <drv mrk="pli.mal0igato">
@@ -958,7 +980,7 @@
      <dif>
        Unua termo en <ref cel="subtra.0o">subtraho</ref>:
       <ekz>
-        &ccirc;e la subtraho: <frm am="9-6=3">9&#x202F;&#8722;&#x202F;6&#x202F;=&#x202F;3</frm> oni diras, ke
+        &ccirc;e la subtraho: <frm am="9-6=3">9&#x202F;&#x2212;&#x202F;6&#x202F;=&#x202F;3</frm> oni diras, ke
         <frm am="9">9</frm> estas la mal<tld/>igato, <frm am="6">6</frm> estas la
         subtrahanto, <frm am="3">3</frm> estas la diferenco
         <fnt>
@@ -975,8 +997,8 @@
      <trd lng="ro">desc&abreve;zut</trd>
      <trd lng="ru">&c_u;&c_m;&c_je;&c_n;&c_mol;&c_sh;&c_a;&c_je;&c_m;&c_o;&c_je;</trd>
      <trdgrp lng="zh">
-    <trd>&#x88AB;&#x51CF;&#25968; <pr>b&egrave;iji&#x1CE;nsh&ugrave;</pr></trd>,
-    <trd>&#x88AB;&#x6E1B;&#25976; <pr>b&egrave;iji&#x1CE;nsh&ugrave;</pr></trd>
+    <trd>&#x88AB;&#x51CF;&#x6570; <pr>b&egrave;iji&#x1CE;nsh&ugrave;</pr></trd>,
+    <trd>&#x88AB;&#x6E1B;&#x6578; <pr>b&egrave;iji&#x1CE;nsh&ugrave;</pr></trd>
   </trdgrp>
 </snc>
    <trd lng="be">&c_z;&c_mol;&c_m;&c_je;&c_n;&c_sh;&c_y;&c_v;&c_a;</trd>
@@ -1032,15 +1054,15 @@
      <trd>rimpicciolire<klr> (tr.)</klr></trd>
    </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x6E1B;&#12425;&#12377;  <pr>&#12408;&#12425;&#12377;</pr></trd>,
-    <trd>&#x5F31;&#12417;&#x308B;  <pr>&#12424;&#x308F;&#12417;&#x308B;</pr></trd>
+    <trd>&#x6E1B;&#x3089;&#x3059;  <pr>&#x3078;&#x3089;&#x3059;</pr></trd>,
+    <trd>&#x5F31;&#x3081;&#x308B;  <pr>&#x3088;&#x308F;&#x3081;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>zmniejsza&cacute;</trd>,
     <trd>pomniejsza&cacute;</trd>,
     <trd>umniejsza&cacute;</trd>
   </trdgrp>
-  <trd lng="ro">mic&#537;ora</trd>
+  <trd lng="ro">mic&scomma;ora</trd>
   <trd lng="ru">&c_u;&c_m;&c_je;&c_n;&c_mol;&c_sh;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">zmen&scaron;i&tcaron;</trd>
   <trd lng="th">&#xE17;&#xE33;&#xE43;&#xE2B;&#xE49;&#xE19;&#xE49;&#xE2D;&#xE22;&#xE25;&#xE07;</trd>
@@ -1106,8 +1128,8 @@
      <trd>rimpicciolire<klr> (intr.)</klr></trd>
    </trdgrp>
    <trdgrp lng="ja">
-    <trd>&#x6E1B;&#x308B;  <pr>&#12408;&#x308B;</pr></trd>,
-    <trd>&#x5F31;&#x307E;&#x308B;  <pr>&#12424;&#x308F;&#x307E;&#x308B;</pr></trd>
+    <trd>&#x6E1B;&#x308B;  <pr>&#x3078;&#x308B;</pr></trd>,
+    <trd>&#x5F31;&#x307E;&#x308B;  <pr>&#x3088;&#x308F;&#x307E;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>zmniejsza&cacute; si&eogonek;</trd>,
@@ -1117,15 +1139,15 @@
    <trdgrp lng="ro">
      <trd>sc&abreve;dea</trd>,
      <trd>reduce</trd>,
-     <trd>mic&#537;ora</trd>
+     <trd>mic&scomma;ora</trd>
    </trdgrp>
    <trd lng="ru">&c_u;&c_m;&c_je;&c_n;&c_mol;&c_sh;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
 <trd lng="th">&#xE19;&#xE49;&#xE2D;&#xE22;&#xE25;&#xE07;</trd>
   <trdgrp lng="zh">
     <trd>&#x51CF;&#x5C11; <pr>ji&#x1CE;nsh&#x1CE;o</pr></trd>,
     <trd>&#x6E1B;&#x5C11; <pr>ji&#x1CE;nsh&#x1CE;o</pr></trd>,
-    <trd>&#x51CF;&#36864; <pr>ji&#x1CE;ntu&igrave;</pr></trd>,
-    <trd>&#x6E1B;&#36864; <pr>ji&#x1CE;ntu&igrave;</pr></trd>,
+    <trd>&#x51CF;&#x9000; <pr>ji&#x1CE;ntu&igrave;</pr></trd>,
+    <trd>&#x6E1B;&#x9000; <pr>ji&#x1CE;ntu&igrave;</pr></trd>,
     <trd>&#x7E2E;&#x6E1B; <pr>su&omacron;ji&#x1CE;n</pr></trd>,
     <trd>&#x7F29;&#x51CF; <pr>su&omacron;ji&#x1CE;n</pr></trd>
   </trdgrp>
@@ -1175,14 +1197,14 @@
    </trdgrp>
   <trd lng="fr">de plus en plus</trd>
   <trd lng="it">sempre <ind>pi&ugrave;</ind></trd>
-  <trd lng="ja">&#x307E;&#12377;&#x307E;&#12377;</trd>
+  <trd lng="ja">&#x307E;&#x3059;&#x307E;&#x3059;</trd>
   <trdgrp lng="pl">
      <trd>coraz <ind>bardziej</ind></trd>,
      <trd>coraz <ind>wi&eogonek;cej</ind></trd>,
      <trd>coraz <ind>mocniej</ind></trd>
    </trdgrp>
    <trdgrp lng="ro">
-     <trd>mai mult &#537;i mai mult</trd>,
+     <trd>mai mult &scomma;i mai mult</trd>,
      <trd>din ce &icirc;n ce mai mult</trd>,
      <trd>din ce &icirc;n ce mai greu</trd>
    </trdgrp>
@@ -1205,7 +1227,7 @@
     <dif>
       <ref tip="dif" cel="proksi.0ume">Proksimume</ref>, ne tute ekzakte:
       <ekz>
-        la lernolibroj, kiujn mi eldonis mem, estas <klr>[&#8230;]</klr> faritaj nur por homoj
+        la lernolibroj, kiujn mi eldonis mem, estas <klr>[&#x2026;]</klr> faritaj nur por homoj
         <tld/>-mal<tld/> instruitaj
         <fnt><bib>DL</bib></fnt>;
       </ekz><ekz>
@@ -1233,10 +1255,10 @@
   <trd lng="en">more or less</trd>
   <trd lng="es">mas o menos</trd>
   <trdgrp lng="ja">
-    <trd>&#x591A;&#x304B;&#x308C;&#x5C11;&#x306A;&#x304B;&#x308C; 
-    <pr>&#x304A;&#x304A;&#x304B;&#x308C;&#12377;&#x304F;&#x306A;&#x304B;&#x308C;</pr></trd>,
-    <trd>&#x591A;&#x5C11;&#12392;&#12418;  <pr>&#x305F;&#12375;&#12423;&#12358;&#12392;&#12418;</pr></trd>,
-    <trd>&#12384;&#12356;&#x305F;&#12356;</trd>
+    <trd>&#x591A;&#x304B;&#x308C;&#x5C11;&#x306A;&#x304B;&#x308C;
+    <pr>&#x304A;&#x304A;&#x304B;&#x308C;&#x3059;&#x304F;&#x306A;&#x304B;&#x308C;</pr></trd>,
+    <trd>&#x591A;&#x5C11;&#x3068;&#x3082;  <pr>&#x305F;&#x3057;&#x3087;&#x3046;&#x3068;&#x3082;</pr></trd>,
+    <trd>&#x3060;&#x3044;&#x305F;&#x3044;</trd>
   </trdgrp>
   <trd lng="pl">mniej wi&eogonek;cej</trd>
   <trd lng="ro">mai mult sau mai putin</trd>
@@ -1245,9 +1267,9 @@
   <trd lng="uk">&c_b;&c_ib;&c_l;&c_mol;&c_sh;-&c_m;&c_je;&c_n;&c_sh;</trd>
   <trdgrp lng="zh">
     <trd>&#x591A;&#x591A;&#x5C11;&#x5C11; <pr>du&omacron;du&omacron;sh&#x1CE;osh&#x1CE;o</pr></trd>,
-    <trd>&#25110;&#x591A;&#25110;&#x5C11; <pr>hu&ograve;du&omacron;hu&ograve;sh&#x1CE;o</pr></trd>,
-    <trd>&#22823;&#x81F4; <pr>d&agrave;zh&igrave;</pr></trd>,
-    <trd>&#x591A;&#x5C11;&#26377;&#x4E9B; <pr>du&omacron;sh&#x1CE;oy&#x1D2;uxi&emacron;</pr></trd>,
+    <trd>&#x6216;&#x591A;&#x6216;&#x5C11; <pr>hu&ograve;du&omacron;hu&ograve;sh&#x1CE;o</pr></trd>,
+    <trd>&#x5927;&#x81F4; <pr>d&agrave;zh&igrave;</pr></trd>,
+    <trd>&#x591A;&#x5C11;&#x6709;&#x4E9B; <pr>du&omacron;sh&#x1CE;oy&#x1D2;uxi&emacron;</pr></trd>,
     <trd>&#x7A0B;&#x5EA6;&#x4E0D;&#x540C; <pr>ch&eacute;ngd&ugrave;b&ugrave;t&oacute;ng</pr></trd>,
     <trd>&#x53EF;&#x591A;&#x53EF;&#x5C11; <pr>k&ecaron;du&omacron;k&ecaron;sh&#x1CE;o</pr></trd>
   </trdgrp>
@@ -1256,6 +1278,9 @@
 </art>
 <!--
 $Log$
+versio 1.136 2025/12/26 18:43:15
+Wolfram Diestel: +fnt, ref, trd de
+
 versio 1.135 2025/10/29 16:42:54
 Sergio Pokrovskij: + 0e.prefere
 
@@ -1275,8 +1300,5 @@ versio 1.127 2023/09/01 14:29:11
 Dmitri Gabinski: + trd be
 
 versio 1.126 2023/08/29 20:28:03
-Wolfram Diestel: ja: prononco
-
-versio 1.125 2023/04/24 06:32:41
 -->
-</vortaro>
+</vortaro>
