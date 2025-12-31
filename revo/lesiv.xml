@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lesiv.xml,v 1.34 2025/03/06 16:35:08 revo Exp $">
+<art mrk="$Id: lesiv.xml,v 1.35 2025/12/31 20:34:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lesiv</rad>/o <fnt><bib>UV</bib></fnt>
@@ -51,6 +51,7 @@
       <ref cel="sap.0o">sapo</ref>
     </refgrp>
   <trd lng="de">Waschlauge</trd>
+  <trd lng="en">lye <klr>(alkaline liquid from ashes)</klr></trd>
   </snc>
   <snc mrk="lesiv.0o.KEM">
     <uzo tip="fak">KEM</uzo>
@@ -68,16 +69,19 @@
       </ekz>
     </dif>
   <trd lng="de">alkalische <ind>L&ouml;sung</ind></trd>
+    <trdgrp lng="en">
+      <trd>lye <klr>(sodium or potassium hydroxide)</klr></trd>,
+      <trd>caustic soda</trd>
+    </trdgrp>
     <trdgrp lng="zh">
-    <trd>&#x78B1;&#x6027;&#x6EB6;&#x6DB2; <pr>ji&#x1CE;nx&#xEC;ngr&#xF3;ngy&#xE8;</pr></trd>,
-    <trd>&#x9E7C;&#x6027;&#x6EB6;&#x6DB2; <pr>ji&#x1CE;nx&#xEC;ngr&#xF3;ngy&#xE8;</pr></trd>
+    <trd>&#x78B1;&#x6027;&#x6EB6;&#x6DB2; <pr>ji&#x1CE;nx&igrave;ngr&oacute;ngy&egrave;</pr></trd>,
+    <trd>&#x9E7C;&#x6027;&#x6EB6;&#x6DB2; <pr>ji&#x1CE;nx&igrave;ngr&oacute;ngy&egrave;</pr></trd>
   </trdgrp>
 </snc>
   <trd lng="be">&c_l;&c_u;&c_g;</trd>
   <trd lng="ca">lleixiu</trd>
   <trd lng="cs">louh</trd>
   <trd lng="de">Lauge</trd>
-  <trd lng="en">lye</trd>
   <trd lng="es">lej&iacute;a</trd>
   <trd lng="fr">lessive</trd>
   <trdgrp lng="hu">
@@ -101,7 +105,7 @@
     <trd>barrela</trd>,
     <trd>decoada</trd>
   </trdgrp>
-  <trd lng="ro">le&#x219;ie</trd>
+  <trd lng="ro">le&scomma;ie</trd>
   <trd lng="ru">&c_shch;&c_jo;&c_l;&c_o;&c_k;</trd>
   <trd lng="sk">l&uacute;h</trd>
   <trd lng="sv">lut</trd>
@@ -113,8 +117,8 @@
     <trd>&c_m;&c_i;&c_j;&c_n;&c_i;&c_j; &c_z;&c_a;&c_s;&c_ib;&c_b;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x78B1;&#x6DB2; <pr>ji&#x1CE;ny&#xE8;</pr></trd>,
-    <trd>&#x9E7C;&#x6DB2; <pr>ji&#x1CE;ny&#xE8;</pr></trd>
+    <trd>&#x78B1;&#x6DB2; <pr>ji&#x1CE;ny&egrave;</pr></trd>,
+    <trd>&#x9E7C;&#x6DB2; <pr>ji&#x1CE;ny&egrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -157,6 +161,7 @@
     <trd>einweichen</trd>,
     <trd><klr>(mit Lauge)</klr> waschen</trd>
   </trdgrp>
+  <trd lng="en">lye</trd>
   </snc>
   <snc mrk="lesiv.0i.KEM">
     <uzo tip="fak">KEM</uzo><uzo tip="fak">GEOL</uzo><uzo tip="fak">EKOL</uzo>
@@ -186,6 +191,7 @@
       <trd>auslaugen</trd>,
       <trd>auswaschen <klr>(Inhaltstoffe)</klr></trd>
     </trdgrp>
+  <trd lng="en">lye</trd>
   </snc>
   <trd lng="be">&c_l;&c_u;&c_g;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
@@ -229,6 +235,11 @@
         </fnt>.
       </ekz>
     </dif>
+  <trdgrp lng="en">
+    <trd><ind>dishwashing</ind> liquid</trd>,
+    <trd>dish <ind>soap</ind></trd>,
+    <trd>dish <ind>detergent</ind></trd>
+  </trdgrp>
   </snc>
   <trd lng="be">&c_m;&c_y;&c_j;&c_n;&c_y; &c_s;&c_r;&c_o;&c_d;&c_a;&c_k; &c_d;&c_l;&c_ja; &c_p;&c_o;&c_s;&c_u;&c_d;&c_u;</trd>
   <trd lng="fr">produit &agrave; vaiselle</trd>
@@ -240,6 +251,9 @@
 </art>
 <!--
 $Log$
+versio 1.35 2025/12/31 20:34:39
+Robert Baruch: +en
+
 versio 1.33 2024/06/02 20:25:53
 Vito Redsky: +trd pl
 
@@ -259,8 +273,5 @@ versio 1.26 2022/06/15 16:41:04
 Wolfram Diestel: pli simplaj dif, ~o: +snc KEM; ekz-oj, ref-oj, trd de
 
 versio 1.23 2021/05/26 22:01:02
-Jeromo Vasxe: + vaz~o
-
-Revision 1.21  2018/06/29 13:10:15  revo
 -->
-</vortaro>
+</vortaro>
