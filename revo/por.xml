@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: por.xml,v 1.119 2026/01/04 18:44:49 revo Exp $">
+<art mrk="$Id: por.xml,v 1.120 2026/01/07 20:40:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>por</rad>
@@ -15,7 +15,11 @@
     Prepozicio sekviganta substantivon, adverbon a&ubreve;
     infinitivon, kaj esprimanta:
   </dif>
-  <snc mrk="por.0.celo">
+  <snc mrk="por.0.uzo">
+    <dif>
+      Estontan uzon a&ubreve; utilon.
+    </dif>
+  <subsnc mrk="por.0.celo">
     <dif>
       <ref cel="cel.0o">Celo</ref>n:
       <ekz>
@@ -110,10 +114,10 @@
       <trd>&c_d;&c_l;&c_ja;</trd>;
       <trd>&c_ch;&c_t;&c_o;&c_b;&c_y; <klr tip="amb">(kun infinitivo)</klr></trd>
     </trdgrp>
-  </snc>
-  <snc mrk="por.0.destino">
+  </subsnc>
+  <subsnc mrk="por.0.destino">
     <dif>
-      <ref cel="destin.0o">Destino</ref>n, la adapti&gcirc;on al:
+      <ref cel="destin.0o">Destino</ref>n, adapti&gcirc;on al...:
       <ekz>
         tio estas mia kabineto <tld/> laboro;
       </ekz><ekz>
@@ -174,8 +178,13 @@
       <trd>&c_d;&c_l;&c_ja;</trd>;
       <trd>&c_ch;&c_t;&c_o;&c_b;&c_y; <klr tip="amb">(kun infinitivo)</klr></trd>
     </trdgrp>
+  </subsnc>
   </snc>
-  <snc mrk="por.0.acxetajxo">
+  <snc mrk="por.0.komercado">
+    <dif>
+      Objekton de komerca inter&scirc;an&gcirc;o (<ref tip="vid" cel="kontraux.0.page">kontra&ubreve;<sncref/></ref>).
+    </dif>
+  <subsnc mrk="por.0.acxetajxo">
     <uzo tip="fak">EKON</uzo>
     <dif>
       A&ccirc;etobjekton:
@@ -215,8 +224,8 @@
       <trd>&agrave;</trd>
     </trdgrp>
     <trd lng="ru">&c_z;&c_a; <klr tip="amb">(&c_o; &c_c;&c_je;&c_n;&c_je;)</klr></trd>
-  </snc>
-  <snc mrk="por.0.prezo">
+  </subsnc>
+  <subsnc mrk="por.0.prezo">
     <uzo tip="fak">EKON</uzo>
     <dif>
       A&ccirc;eto- a&ubreve; vendo-<ref cel="prez.0o">prezo</ref>n:
@@ -259,11 +268,11 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="kontraux.0.page">kontra&ubreve;<sncref/></ref>,
       <ref cel="po">po</ref>
     </refgrp>
     <trd lng="de">zu <klr>(Preis)</klr></trd>
     <trd lng="ru">&c_z;&c_a; <klr tip="amb">(&c_o; &c_c;&c_je;&c_n;&c_je;)</klr></trd>
+  </subsnc>
   </snc>
   <snc mrk="por.0.kiel">
     <dif>
@@ -299,7 +308,11 @@
     <trd lng="de">als <klr>(f&uuml;r)</klr></trd>
     <trd lng="ru">&c_z;&c_a;</trd>
   </snc>
-  <snc mrk="por.0.profite_al">
+  <snc mrk="por.0.persono">
+    <dif>
+      Personon kiu ricevos utilon a&ubreve; malutilon de ago.
+    </dif>
+  <subsnc mrk="por.0.profite_al">
     <dif>
       Personon, kiu ricevos profiton a&ubreve; kontentigon pro la ago:
       <ekz>
@@ -346,8 +359,8 @@
     </refgrp>
     <trd lng="de">zu <ind>Gunst</ind>en von</trd>
     <trd lng="ru">&c_z;&c_a;</trd>
-  </snc>
-  <snc mrk="por.0.rilate_al">
+  </subsnc>
+  <subsnc mrk="por.0.rilate_al">
     <dif>
       Personon, kiun trafos la rezulto de la ago:
       <ekz>
@@ -389,10 +402,11 @@
       <ref cel="rilat.0eal">rilate al</ref>
     </refgrp>
     <trd lng="ru">&c_d;&c_l;&c_ja;</trd>
+  </subsnc>
   </snc>
   <snc mrk="por.0.kiam">
     <dif>
-      Tempo<ref cel="dauxr.0o">da&ubreve;ro</ref>n, dum kiu da&ubreve;ros la ago:
+      Tempo<ref cel="dauxr.0o">da&ubreve;ro</ref>n, dum kiu da&ubreve;ros ago:
       <ekz>
         donu al mi lokon <tld/> unu nokto
         <fnt>
@@ -758,6 +772,9 @@
 </art>
 <!--
 $Log$
+versio 1.120 2026/01/07 20:40:00
+Jeromo Vasxe: snc/subsnc
+
 versio 1.119 2026/01/04 18:44:49
 Jeromo Vasxe: + ~ulo
 
@@ -777,8 +794,5 @@ versio 1.113 2023/11/15 09:28:02
 Sergio Pokrovskij: predikatIVon
 
 versio 1.112 2023/10/20 16:38:17
-revo: transskribo per <pr>
-
-versio 1.111 2023/09/05 06:31:10
 -->
 </vortaro>
