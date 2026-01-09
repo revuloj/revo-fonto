@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sekund.xml,v 1.34 2025/03/08 07:24:43 revo Exp $">
+<art mrk="$Id: sekund.xml,v 1.35 2026/01/09 20:37:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sekund</rad>/o
@@ -18,28 +18,65 @@
       <ref cel="temp.0o.FIZ">tempo</ref> en la Internacia Sistemo de
       unuoj:
       <ekz>
-        unu <tld/>o egalas al 31 556 925,9747-ono de iu tropika jaro;
+        unu <ref tip="malprt" cel="minut.0o.tempo">minuto</ref> konsistas el sesdek <tld/>oj
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 12</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>o estas sesdekono de <ref cel="minut.0o.tempo">minuto</ref>.
+        ok minutojn kaj kelke da <tld/>oj bezonas la sunlumo por voja&gcirc;o <klr>[al la
+        tero]</klr>
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>on! mi tuj havas!
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> ne deturnis de &scirc;i siajn okulojn e&ccirc; por unu <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Persista stana soldato</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per kolera movo li forpu&scirc;is &scirc;in, sed post <tld/>o li ree altiris &scirc;in al sia
+        brusto
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro IV</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="moment.0o">momento</ref>
+    </refgrp>
     <trd lng="de">Sekunde</trd>
     <trd lng="hu">m&aacute;sodperc</trd>
     <trdgrp lng="id">
       <trd>detik</trd>,
       <trd>sekon</trd>
     </trdgrp>
-    <adm>
-      Restas por difini ie, kio estas tropika jaro... <aut>MB</aut>
-    </adm>
   </snc>
   <snc mrk="sekund.0o.angulo">
     <uzo tip="fak">MAT</uzo>
     <dif>
       <ref tip="lst" cel="unu.mezur0o" lst="voko:mezurunuoj">Mezurunuo</ref> de
       <ref cel="angul.0o.MAT">angulo</ref>, egala al 3600-ono
-      de <ref tip="malprt" cel="grad.0o.unuo">grado</ref>.
+      de <ref tip="malprt" cel="grad.0o.unuo">grado</ref>:
+      <ekz>
+        desegna&jcirc;o de sep &ccirc;ielringoj kun gradoj, minutoj, <tld/>oj kaj <tld/>dekonoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vitalij kaj Anatolij Ionesov</aut>
+          <vrk><url ref="&Monato;/2010/009996.php"
+              >Mirzo Ulugbek: granda re&gcirc;o de astronomio</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Bogensekunde</trd>
     <trd lng="hu">sz&ouml;gm&aacute;sodperc</trd>
@@ -48,7 +85,7 @@
   </snc>
   <trd lng="be">&c_s;&c_je;&c_k;&c_u;&c_n;&c_d;&c_a;</trd>
   <trd lng="bg">&c_s;&c_je;&c_k;&c_u;&c_n;&c_d;&c_a;</trd>
-  <trd lng="bo">&#xF66;&#xF90;&#xF62;&#xF0B;&#xF46;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_kata;&t_ra;&t_tsheg;&t_cha;&t_tsheg;</trd>
   <trd lng="ca">segon</trd>
   <trdgrp lng="cs">
     <trd>sekunda</trd>,
@@ -67,12 +104,40 @@
   <trd lng="ro">secund&abreve;</trd>
   <trd lng="ru">&c_s;&c_je;&c_k;&c_u;&c_n;&c_d;&c_a;</trd>
   <trd lng="sk">sekunda</trd>
-  <trd lng="uk">&#x441;&#x435;&#x43A;&#x443;&#x43D;&#x434;&#x430;</trd>
+  <trd lng="uk">&c_s;&c_je;&c_k;&c_u;&c_n;&c_d;&c_a;</trd>
   <trd lng="zh">&#x79D2; <pr>mi&#x1CE;o</pr></trd>
 </drv>
+
+<drv mrk="sekund.super0o">
+  <kap>
+    super<tld/>o
+  </kap>
+  <snc mrk="sekund.super0o.KAL">
+    <uzo tip="fak">KAL</uzo>
+    <dif>
+      <tld lit="S"/>o aldonata la&ubreve;bezone en iuj monatfinoj, por sinkronigi la tempokalkulon
+      kun la tera rotacio:
+      <ekz>
+        super<tld/>o estos aldonita la 30-an de junio: la lasta minuto en tiu tago
+        da&ubreve;ros 61 <tld/>ojn
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Schaltsekunde</trd>
+  <trd lng="en">leap second</trd>
+  <trd lng="fr">seconde intercalaire</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.35 2026/01/09 20:37:00
+Wolfram Diestel: +ekz-oj; +super~o
+
 versio 1.33 2023/10/21 06:31:44
 revo: transskribo per <pr>
 
@@ -92,8 +157,5 @@ Revision 1.25  2013/09/15 11:10:20  revo
 Wolfram Diestel: ref al lst dauroj, mezurunuoj
 
 Revision 1.24  2013/03/27 16:10:15  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.23  2009/10/25 17:30:51  revo
 -->
-</vortaro>
+</vortaro>
