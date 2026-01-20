@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tir.xml,v 1.144 2025/12/08 20:35:44 revo Exp $">
+<art mrk="$Id: tir.xml,v 1.145 2026/01/20 06:17:55 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tir</rad>/i <fnt><bib>UV</bib></fnt>
@@ -355,8 +355,7 @@
         <tld/>i el <klr>[io]</klr> utilon
         <fnt>
           <bib>OV</bib>
-          <vrk><url ref="https://eo.wikisource.org/wiki/Originala_Verkaro/Kompleta_teksto"
-              >&Ccirc;u ni progresas?</url></vrk>
+          <vrk><url ref="https://eo.wikisource.org/wiki/Originala_Verkaro/Kompleta_teksto">&Ccirc;u ni progresas?</url></vrk>
           <lok>n-ro 65. pa&gcirc;. 129-130</lok>
         </fnt>;
       </ekz>
@@ -1824,26 +1823,34 @@
   <trd lng="sk">v&yacute;vrtka</trd>
 </drv>
 
+
 <drv mrk="tir.sangel0o">
   <kap>sangel<tld/>o</kap>
-  <snc mrk="tir.sangel0o.MED">
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="tir.sangel0o.punkcio">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Elpreno de ia kvanto da sango el korpo:
+      Elpreno de ia kvanto da sango el vejno, por diagnozo a&ubreve; sangkonservado; vejnopunkcio.
+    </dif>
+  </snc>
+  <snc mrk="tir.sangel0o.ellaso">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <ref tip="dif" cel="las.sangel0o">Sangellaso</ref>:
+      <ekz>
+        li volis plibonigi la tiaman medicinon (kiu foje estis e&ccirc; malutila, ekzemple per
+        sangel<tld/>oj), sed sian sistemon li elpensis en epoko, kiam oni ne sciis,
+        kio estas mikrobo
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         farinte lar&gcirc;an sangel<tld/>on, li eliris, dirante, ke li revenos dum la vespero
         <fnt>
           <bib>KPr</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        anka&ubreve; estis tuboj kun enspiriloj kiuj utilas
-        por fari sangel<tld/>ojn el la nuko
-        <fnt>
-          <aut>P. Carri&egrave;re</aut>,
-          <vrk>En Maroko - Mia kombisto</vrk>,
-          <bib>Esperanto</bib>,
-          <lok>1926-07 (311)</lok>
+          <lok>&Ccirc;apitro Dua</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -1851,19 +1858,21 @@
         praktiki la necesan sangel<tld/>on
         <fnt>
           <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>      
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        en tiu &ccirc;i batalo do pluraj bonaj kapoj <klr>[&#x2026;]</klr> dronas,
+        nur sen&ccirc;ese kaj abunde aganta klaso kapablas kompensi tiun &ccirc;i sensencan
+        sangel<tld/>on
+        <fnt>
+          <bib>VRA</bib>
+          <lok>Ivar Lo-johansson</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
-      <trd>Blutentnahme</trd>,
-      <trd>Aderlass</trd>
-    </trdgrp>
-    <trdgrp lng="zh">
-    <trd>&#x62BD;&#x8840; <pr>ch&omacron;uxi&ecaron;</pr></trd>,
-    <trd>&#x523A;&#x7D61; <pr>c&igrave;l&agrave;o</pr></trd>,
-    <trd>&#x523A;&#x7EDC; <pr>c&igrave;l&agrave;o</pr></trd>
-  </trdgrp>
-</snc>
+  </snc>
   <trdgrp lng="be">
     <trd>&c_u;&c_z;&c_ja;&c_c;&c_mol;&c_c;&c_je; &c_k;&c_r;&c_y;&c_v;&c_ib;</trd>,
     <trd>&c_a;&c_d;&c_b;&c_o;&c_r; &c_k;&c_r;&c_y;&c_v;&c_ib;</trd>
@@ -1888,10 +1897,18 @@
   </trdgrp>
   <trd lng="pl">puszczenie  <ind>krwi</ind></trd>
   <trd lng="sk">pusti&tcaron; &zcaron;ilu</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62BD;&#x8840; <pr>ch&omacron;uxi&ecaron;</pr></trd>,
+    <trd>&#x523A;&#x7D61; <pr>c&igrave;l&agrave;o</pr></trd>,
+    <trd>&#x523A;&#x7EDC; <pr>c&igrave;l&agrave;o</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.145 2026/01/20 06:17:55
+revo: movu drv sang.0eltiro al tir/
+
 versio 1.144 2025/12/08 20:35:44
 Wolfram Diestel: +fnt
 
@@ -1911,8 +1928,5 @@ versio 1.137 2024/02/23 01:21:55
 Vito Redsky: +trd pl
 
 versio 1.136 2023/11/07 06:32:23
-Eko Nur Syah Hidayat: +trd id
-
-versio 1.135 2023/10/21 13:52:03
 -->
-</vortaro>
+</vortaro>
