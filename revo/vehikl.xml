@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vehikl.xml,v 1.7 2024/05/20 18:31:51 afido Exp $">
+<art mrk="$Id: vehikl.xml,v 1.8 2026/01/25 22:34:15 afido Exp $">
 <kap>
   <rad>vehikl</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,16 +11,16 @@
   <uzo tip="stl">RAR</uzo>
   <snc mrk="vehikl.0o.KOMUNE">
     <dif>
-      <ref tip="super" cel="port.trans0ilo">Transportilo</ref>,
-      <ref tip="super" cel="per.0ilo">perilo</ref>:
+      Transiga <ref tip="super" cel="rimed.0o">rimedo</ref>, <ref tip="super" cel="per.0ilo">perilo</ref>,
+      <ref tip="super" cel="port.trans0ilo">transportilo</ref>:
       <ekz>
         la libro fakte traktas frazeologion kaj ne vere Esperanton, <klr>[kiu]</klr>
         servas nur kiel <tld/>o por esplori frazeologian terenon en planlingva medio
         <fnt>
-	<aut>Pejno Simono</aut>
-	<vrk><url ref="&Monato;/2000/006813.php">Plansprache und Phraseologie</url></vrk>
-	<bib>Monato</bib>
-	<lok>2000/06, p. 33</lok>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="&Monato;/2000/006813.php">Plansprache und Phraseologie</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/06, p. 33</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -34,27 +34,16 @@
         </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="fak">MED</uzo>
-        denga febro kaj flava febro, la <tld/>oj de iliaj virusoj estas kuloj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Vladimir Lemelev</aut>
-          <vrk><url ref="&Monato;/2007/009243.php">Epidemiaj sekvoj en E&ubreve;ropo</url></vrk>
-          <lok>2007</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
         mi do apogas la movadon sed beda&ubreve;ras ke &gcirc;i <tld/>as lingvon kiu pluraspekte ne
         ta&ubreve;gas por la tasko
         <fnt>
           <bib>LOdE</bib>
-          <lok>2002, &#8470;4</lok>
+          <lok>2002, &#x2116;4</lok>
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="help.0ilo">helpilo</ref>,
-      <ref cel="rimed.0o">rimedo</ref>
+    <refgrp tip="super">
+      <ref cel="help.0ilo">helpilo</ref>
     </refgrp>
     <trd lng="be">&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_a;&c_r;&c_t;&c_n;&c_y; <ind>&c_s;&c_r;&c_o;&c_d;&c_a;&c_k;</ind></trd>
     <trdgrp lng="de">
@@ -64,15 +53,38 @@
     <trd lng="fr">v&eacute;hicule<klr> (qui transporte, qui transmet)</klr></trd>
     <trd lng="pl">wehiku&lstroke;</trd>
   </snc>
+  <snc mrk="vehikl.0o.BAK">
+    <uzo tip="fak">BAK</uzo>
+    <dif>
+      <ref tip="dif" cel="trans.0igilo">Transigilo</ref> de patogeno;
+      <ref tip="dif" cel="vektor.0o.BAK">vektoro<sncref/></ref>:
+      <ekz>
+        denga febro kaj flava febro, la <tld/>oj de iliaj virusoj estas kuloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2007/009243.php">Epidemiaj sekvoj en E&ubreve;ropo</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>&Uuml;bertr&auml;ger <klr>(eines Patogens)</klr></trd>,
+      <trd>Zwischenwirt</trd>
+    </trdgrp>
+  </snc>
   <trdgrp lng="zh">
-    <trd>&#x8FD0;&#22312;&#x5DE5;&#20855; <pr>y&#xF9;nz&#xE0;ig&#x14D;ngj&#xF9;</pr></trd>,
-    <trd>&#x904B;&#22312;&#x5DE5;&#20855; <pr>y&#xF9;nz&#xE0;ig&#x14D;ngj&#xF9;</pr></trd>
+    <trd>&#x8FD0;&#x5728;&#x5DE5;&#x5177; <pr>y&ugrave;nz&agrave;ig&omacron;ngj&ugrave;</pr></trd>,
+    <trd>&#x904B;&#x5728;&#x5DE5;&#x5177; <pr>y&ugrave;nz&agrave;ig&omacron;ngj&ugrave;</pr></trd>
   </trdgrp>
 </drv>
   </art>
 
 <!--
 $Log$
+versio 1.8 2026/01/25 22:34:15
+Wolfram Diestel: dif-vortigo, apartigo snc BAK
+
 versio 1.7 2024/05/20 18:31:51
 Jeromo Vasxe: + fnt
 
@@ -89,5 +101,4 @@ versio 1.2 2023/04/11 19:23:02
 aktualigo Monato-URL
 -->
 
-
-</vortaro>
+</vortaro>
