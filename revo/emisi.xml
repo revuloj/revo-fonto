@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: emisi.xml,v 1.21 2025/07/08 08:00:21 revo Exp $">
+<art mrk="$Id: emisi.xml,v 1.22 2026/02/06 20:49:47 revo Exp $">
 <kap>
 <rad>emisi</rad>/i
 </kap>
 <drv mrk="emisi.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="emisi.0i.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
       Krei kaj cirkuligi monon a&ubreve; valorpaperojn:
@@ -48,7 +48,7 @@
       &c_o;&c_b;&c_r;&c_a;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="emisi.0i.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
       Ellasi gasojn a&ubreve; aliajn (plej ofte toksajn) substancojn:
@@ -64,13 +64,13 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="send">elsendi</ref>,
-      <ref cel="eman.0igi">emanigi</ref>.
+      <ref cel="send.el0i.KOMUNE">elsendi</ref>,
+      <ref cel="eman.0igi">emanigi</ref>
     </refgrp>
     <adm>
-    Necesas klarigi la rilatojn kun "elsendi" (kreota) kaj "emanigi".
-    Supozeble "emisiado" ne koncernas nur substancojn (ondoj?) kaj
-    ne nur toksajn. <aut>MB</aut>
+      Necesas klarigi la rilatojn kun "elsendi" (kreota) kaj "emanigi".
+      Supozeble "emisiado" ne koncernas nur substancojn (ondoj?) kaj
+      ne nur toksajn. <aut>MB</aut>
     </adm>
     <trdgrp lng="be">
       <trd>&c_e;&c_m;&c_ib;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -93,12 +93,16 @@
   </snc>
   <rim>
     La&ubreve; <fnt><bib>BL</bib></fnt>: (en la senco eldoni monon, bank-biletojn) prefere diru
-    <ke>eldoni</ke>; (en la senco de ellasado de radioj kaj similaj en fiziko) prefere diru
-    <ke>ellasi</ke>, <ke>elsendi</ke> , <ke>eligi</ke>; (en la senco de radia a&ubreve; televida dissendo)
-    prefere diru <ke>dissendo</ke>; (la&ubreve; la signifo en la unuopaj okazoj) prefere diru
-    <ke>eldoni</ke>, <ke>ellasi</ke>, <ke>eligi</ke>.
+    <ke><ref cel="don.el0i">eldoni</ref></ke>;
+    (en la senco de ellasado de radioj kaj similaj en fiziko) prefere diru
+    <ke><ref cel="las.el0i">ellasi</ref></ke>, <ke><ref cel="send.el0i">elsendi</ref></ke>,
+    <ke><ref cel="el.0igi">eligi</ref></ke>;
+    (en la senco de radia a&ubreve; televida dissendo) prefere diru
+    <ke><ref cel="send.dis0i">dissendi</ref></ke>;
+    (la&ubreve; la signifo en la unuopaj okazoj) prefere diru
+    <ke><ref cel="don.el0i">eldoni</ref></ke>, <ke><ref cel="las.el0i">ellasi</ref></ke>,
+    <ke><ref cel="el.0igi">eligi</ref></ke>.
   </rim>
-
   <trdgrp lng="cs">
     <trd>d&aacute;vat do ob&ecaron;hu</trd>,
     <trd>emitovat</trd>,
@@ -108,17 +112,17 @@
   <trd lng="es">emitir</trd>
   <trdgrp lng="fr">
     <trd>&eacute;mettre<klr tip="ind"> (de l'argent, des bruits, des
-ondes,...)</klr></trd>,
+    ondes,...)</klr></trd>,
     <trd>d&eacute;gager<klr tip="ind"> (&eacute;mettre)</klr></trd>,
     <trd>mettre en <ind>circulation</ind><klr tip="ind">
-(&eacute;mettre)</klr></trd>,
+    (&eacute;mettre)</klr></trd>,
     <trd>produire<klr tip="ind"> (&eacute;mettre)</klr></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#30330;&#34892;&#12377;&#12427;  <pr>&#12399;&#12387;&#12371;&#12358;&#12377;&#12427;</pr></trd>,
-    <trd>&#25391;&#12426;&#20986;&#12377;  <pr>&#12405;&#12426;&#12384;&#12377;</pr></trd>,
-    <trd>&#25918;&#20986;&#12377;&#12427;  <pr>&#12411;&#12358;&#12375;&#12421;&#12388;&#12377;&#12427;</pr></trd>,
-    <trd>&#25918;&#23556;&#12377;&#12427;  <pr>&#12411;&#12358;&#12375;&#12419;&#12377;&#12427;</pr></trd>
+    <trd>&#x767A;&#x884C;&#x3059;&#x308B;  <pr>&#x306F;&#x3063;&#x3053;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x632F;&#x308A;&#x51FA;&#x3059;  <pr>&#x3075;&#x308A;&#x3060;&#x3059;</pr></trd>,
+    <trd>&#x653E;&#x51FA;&#x3059;&#x308B;  <pr>&#x307B;&#x3046;&#x3057;&#x3085;&#x3064;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x653E;&#x5C04;&#x3059;&#x308B;  <pr>&#x307B;&#x3046;&#x3057;&#x3083;&#x3059;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>d&aacute;va&tcaron; do obehu</trd>,
@@ -131,11 +135,14 @@ ondes,...)</klr></trd>,
     <trd>&c_v;&c_i;&c_s;&c_i;&c_l;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_m;&c_je;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
-  <trd lng="zh">&#25918;&#23556; <pr>f&agrave;ngsh&egrave;</pr></trd>
+  <trd lng="zh">&#x653E;&#x5C04; <pr>f&agrave;ngsh&egrave;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2026/02/06 20:49:47
+Wolfram Diestel: ref
+
 versio 1.21 2025/07/08 08:00:21
 Hector Alos i Font: +trd ca
 
@@ -155,8 +162,5 @@ Revision 1.11  2009/02/11 19:42:30  revo
 Sebastian Cyprych: -fusxaj linirompoj en trd
 
 Revision 1.10  2007/06/28 16:31:38  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2006/05/23 16:32:59  revo
 -->
-</vortaro>
+</vortaro>
