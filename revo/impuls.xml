@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: impuls.xml,v 1.34 2026/02/09 20:49:11 revo Exp $">
+<art mrk="$Id: impuls.xml,v 1.35 2026/02/09 22:54:58 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>impuls</rad>/o <fnt><bib>JED</bib></fnt>
@@ -156,7 +156,7 @@
         </ekz>
         <ekz>
           <tld/>on verki la parton <klr>(de &leftquot;La dan&gcirc;era lingvo&rightquot;)</klr> pri persekutoj de Esperanto
-          en Sovetio donis al la a&ubreve;toro renkonti&gcirc;o kun Nikolaj Rytjkov
+          en Sovetio donis al la a&ubreve;toro renkonti&gcirc;o kun <nom>Nikolaj Rytjkov</nom>
           <fnt>
 
             <vrk><url ref="&Monato;/2001/007241.php">Aktoro
@@ -181,21 +181,38 @@
       <uzo tip="fak">ELE</uzo>
       <fnt><bib>PIV1</bib></fnt>
       <dif>
-        Mallongda&ubreve;ra kurento:
+        Mallongda&ubreve;ra kurento a&ubreve; radiado:
         <ekz>
           elektrokemiaj <tld/>oj fluas tra la ne&ubreve;ronoj,
           kaj donas al la homo konscion
           <fnt>
           <bib>Viki</bib>
-          <lok><url ref="&Viki;/Nerva_Sistemo">
-          Nerva sistemo</url></lok>
+            <lok><url ref="&Viki;/Nerva_Sistemo">
+            Nerva sistemo</url></lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ultrarapidaj laseraj <tld/>oj
+          <fnt>
+            <vrk><url ref="https://www.eventoj.hu/steb/fiziko/produktado_de_ultrarapidaj_laseraj_impulsoj.pdf"
+                >Produkto de ultrarapidaj laseraj impulsoj</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>-arka veldado
+          <fnt>
+            <aut>A. Kogan</aut>
+            <vrk><url ref="https://www.eventoj.hu/steb/ingxenierado/instrumentoj/veldadoenlakosmo-aest81/veldadoenlakosmo.htm"
+                >Pri veldado en la kosmo</url></vrk>
           </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="de">
-        <trd>Erregung</trd>,
-        <trd>Nervenerregung</trd>,
-        <trd>Nervenimpuls</trd>
+        <trd>Stromsto&szlig;</trd>,
+        <trd>elektromagnetischer <ind>Impuls</ind></trd>,
+        <trd>Puls <klr>(Sto&szlig;)</klr></trd>,
+        <trd><klr>(Laser)</klr>puls</trd>,
+        <trd>elektrische <ind>Erregung</ind></trd>
       </trdgrp>
       <trdgrp lng="hu">
         <trd>impulzus</trd>,
@@ -205,6 +222,12 @@
   </snc>
   <snc mrk="impuls.0o.FIZ">
     <uzo tip="fak">FIZ</uzo>
+    <fnt>
+      <aut>C. M. Bean k.a.</aut>
+      <vrk><url ref="https://www.eventoj.hu/steb/vortaroj/matematika-terminaro-jarlibro-1954.pdf"
+          >Matematika Terminaro</url></vrk>
+      <lok>p. 68</lok>
+    </fnt>
     <uzo tip="stl">EVI</uzo>
     <dif>
       <ref tip="dif" cel="kvant.movo0o">Movokvanto</ref>:
@@ -214,7 +237,7 @@
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=19450">Vektoro</url></lok>
-        </fnt>;
+        </fnt>.
       </ekz>
     </dif>
     <adm>
@@ -223,10 +246,16 @@
       Vd anka&ubreve; http://groups.yahoo.com/group/per-esperanto-bazascienco/message/295
       Tial mi &gcirc;in signas "evitinda".
       <aut>MB</aut>
+
       &Scirc;ajnas, ke germanoj kaj kelkaj slavaj lingvoj nomas la produton de maso kaj rapideco-vektor
       impulso, dum francoj k.a. nomas &gcirc;in movokvanto la&ubreve; Isaac Newton:
       &leftquot;Quantitas motus est mensura ejusdem orta ex velocitate et quantitate materiae conjunctim.&rightquot;
       <aut>WD</aut>
+
+      Mi nun aldonis fonton C. M. Bean: Matematika Terminaro. Ioma malavanta&gcirc;o de la termino "movokvanto" estas,
+      ke "kvanto" sugestas skalaran grandon, dum ja temas pri vektoro.
+      <aut>WD</aut>
+
     </adm>
     <trd lng="de">Impuls<klr> (physikalisch)</klr></trd>
     <trd lng="hu">mozg&aacute;smennyis&eacute;g</trd>
@@ -586,6 +615,9 @@
 </art>
 <!--
 $Log$
+versio 1.35 2026/02/09 22:54:58
+Wolfram Diestel: snc ELE: +ekz, trd de; snc FIZ: +fnt, rim
+
 versio 1.34 2026/02/09 20:49:11
 Wolfram Diestel: ref
 
@@ -605,7 +637,5 @@ versio 1.26 2023/04/09 08:28:59
 Paul Peeraerts: &Monato;/
 
 versio 1.25 2022/05/15 21:29:08
-Ulrich Fellmann: impulso: - 1 DE trd, impulso1a: 2 DE korektoj, impulso1b: -4, + 2 DE trdj,
-impulso1c: +3 DE trdj, impulso1d: +3 DE trdj, impulso2: sxangxo de DE trd
 -->
 </vortaro>
