@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: minor.xml,v 1.30 2025/04/04 05:06:05 revo Exp $">
+<art mrk="$Id: minor.xml,v 1.31 2026/02/12 20:53:25 revo Exp $">
 <kap>
   <rad>minor</rad>/a
 <fnt><bib>PVEF</bib></fnt></kap>
 <drv mrk="minor.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="minor.0a.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <uzo tip="klr">(pri gamo)</uzo>
     <dif>
@@ -36,14 +36,14 @@
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="minor.0a.tercio">
     <uzo tip="fak">MUZ</uzo>
     <uzo tip="klr">(p.p. tercio)</uzo>
     <dif>
       Konsistanta el unu duontono.
     </dif>
     <refgrp tip="vid">
-      <ref cel="majxor">ma&jcirc;ora</ref>.
+      <ref cel="majxor.0a.tercio">ma&jcirc;ora<sncref/></ref>
     </refgrp>
   </snc>
   <snc mrk="minor.0a.minoritata">
@@ -51,7 +51,7 @@
     <dif>
       <ref cel="minoritat.0o">Minoritata</ref>:
       <ekz>
-        la skotgaela <klr>[&#8230;]</klr> maksimume estis inkluzivita kiel
+        la skotgaela <klr>[&#x2026;]</klr> maksimume estis inkluzivita kiel
         <tld/>a parto de la
         studo pri la angla
         <fnt>
@@ -73,8 +73,9 @@
       </ekz>
     </dif>
     <rim>
-      La&#365; <fnt><bib>BL</bib></fnt>: (&#285;enerale) prefere diru <ke>malpli grava</ke>, <ke>malpli granda</ke>, <ke>malpli &#265;efa</ke>.
-    </rim>    
+      La&ubreve; <fnt><bib>BL</bib></fnt>: (&gcirc;enerale) prefere diru <ke>malpli grava</ke>,
+      <ke>malpli granda</ke>, <ke>malpli &ccirc;efa</ke>.
+    </rim>
   </snc>
 
   <trd lng="be">&c_m;&c_ib;&c_n;&c_o;&c_r;&c_n;&c_y;</trd>
@@ -86,8 +87,8 @@
   <trd lng="de">in <ind>Moll</ind></trd>
   <trd lng="hu">moll</trd>
   <trdgrp lng="ja">
-    <trd>&#30701;&#35519;&#12398;  <pr>&#12383;&#12435;&#12385;&#12423;&#12358;&#12398;</pr></trd>,
-    <trd>&#23567;&#12373;&#12356;  <pr>&#12385;&#12356;&#12373;&#12356;</pr></trd>
+    <trd>&#x77ED;&#x8ABF;&#x306E;  <pr>&#x305F;&#x3093;&#x3061;&#x3087;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x5C0F;&#x3055;&#x3044;  <pr>&#x3061;&#x3044;&#x3055;&#x3044;</pr></trd>
   </trdgrp>
   <trd lng="nl">mineur</trd>
   <trd lng="pt">menor <klr tip="amb">(m&uacute;s.)</klr></trd>
@@ -96,7 +97,7 @@
     <trd>men&scaron;&iacute; z dvoch</trd>,
     <trd>mlad&scaron;&iacute;</trd>
   </trdgrp>
-  <trd lng="uk">&#1084;&c_je;&#1085;&c_sh;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_m;&c_je;&c_n;&c_sh;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="minor.0o">
@@ -108,8 +109,8 @@
       <klr>(de elemento <frm am="a_(ij)">a<sub><k>ij</k></sub></frm> en
       <ref cel="matric.n_p0o">(n,n)-matrico</ref> <frm am="bb       A">A</frm>) </klr>
       <ref cel="determ.0anto.matrico">Determinanto</ref> de la
-      submatrico de <frm am="bb A">A</frm>, rezultanta el forigo de la 
-      <frm am="i"><k>i</k></frm>-a horizontalo kaj de la 
+      submatrico de <frm am="bb A">A</frm>, rezultanta el forigo de la
+      <frm am="i"><k>i</k></frm>-a horizontalo kaj de la
       <frm am="j"><k>j</k></frm>-a vertikalo.
     </dif>
     <ref tip="vid" cel="kofakt.0o.matrico">kofaktoro.</ref>
@@ -126,6 +127,9 @@
 </art>
 <!--
 $Log$
+versio 1.31 2026/02/12 20:53:25
+Wolfram Diestel: ref
+
 versio 1.28 2023/10/19 16:45:37
 revo: transskribo per <pr>
 
@@ -145,8 +149,5 @@ Revision 1.21  2019/06/30 18:21:48  revo
 adaptis URL de Monato
 
 Revision 1.20  2019/06/30 07:42:48  revo
-adaptis URL de Monato
-
-Revision 1.19  2018/12/05 19:10:15  revo
 -->
-</vortaro>
+</vortaro>
