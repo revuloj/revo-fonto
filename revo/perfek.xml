@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: perfek.xml,v 1.36 2025/03/07 17:52:25 revo Exp $">
+<art mrk="$Id: perfek.xml,v 1.37 2026/02/13 20:54:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>perfekt</rad>/a
@@ -122,9 +122,9 @@
       <ref cel="difekt.sen0a">sendifekta</ref>,
       <ref cel="pek.sen0a">senpeka</ref>,
       <ref cel="makul.sen0a">senmakula</ref>,
-      <ref cel="erar">senerara</ref>
+      <ref cel="erar.sen0a">senerara</ref>
     </refgrp>
-  <trd lng="de">perfekt</trd>
+    <trd lng="de">perfekt</trd>
   </snc>
   <snc mrk="perfek.0a.nombro">
     <uzo tip="fak">MAT</uzo>
@@ -137,8 +137,8 @@
         <frm am="28=2^2*7=1+2+4+7+14">28 = 2<sup>2</sup>&#xD7;7 =
         1+2+4+7+14</frm>.
       </ekz>
-    </dif>                                                   
-    <trd lng="br"><klr tip="ind">(niver) </klr>parfet</trd>    
+    </dif>
+    <trd lng="br"><klr tip="ind">(niver) </klr>parfet</trd>
     <trd lng="de">vollkommen<klr tip="ind"> (-e Zahl)</klr></trd>
     <trd lng="en">perfect<klr tip="ind"> (number)</klr></trd>
     <trd lng="fr"><klr tip="ind">(nombre) </klr>parfait</trd>
@@ -157,7 +157,7 @@
     <trd>mistrn&yacute;</trd>,
     <trd>perfektn&iacute;</trd>
   </trdgrp>
-  <trd lng="de">vollkommen</trd>  
+  <trd lng="de">vollkommen</trd>
   <trd lng="en">perfect</trd>
   <trd lng="es">perfecto</trd>
   <trd lng="fr">parfait</trd>
@@ -187,23 +187,59 @@
   </trdgrp>
   <trd lng="sk">dokonal&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x43E;&#x441;&#x43A;&#x43E;&#x43D;&#x430;&#x43B;&#x438;&#x439;</trd>,
-    <trd>&#x431;&#x435;&#x437;&#x434;&#x43E;&#x433;&#x430;&#x43D;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x434;&#x43E;&#x43A;&#x43E;&#x43D;&#x430;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_d;&c_o;&c_s;&c_k;&c_o;&c_n;&c_a;&c_l;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_je;&c_z;&c_d;&c_o;&c_g;&c_a;&c_n;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_d;&c_o;&c_k;&c_o;&c_n;&c_a;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x5341;&#x5168;&#x5341;&#x7F8E; <pr>sh&#xED;qu&#xE1;nsh&#xED;m&#x11B;i</pr></trd>,
-    <trd>&#x5B8C;&#x5099; <pr>w&#xE1;nb&#xE8;i</pr></trd>,
-    <trd>&#x5B8C;&#x5907; <pr>w&#xE1;nb&#xE8;i</pr></trd>,
-    <trd>&#x5B8C;&#x7F8E; <pr>w&#xE1;nm&#x11B;i</pr></trd>,
+    <trd>&#x5341;&#x5168;&#x5341;&#x7F8E; <pr>sh&iacute;qu&aacute;nsh&iacute;m&ecaron;i</pr></trd>,
+    <trd>&#x5B8C;&#x5099; <pr>w&aacute;nb&egrave;i</pr></trd>,
+    <trd>&#x5B8C;&#x5907; <pr>w&aacute;nb&egrave;i</pr></trd>,
+    <trd>&#x5B8C;&#x7F8E; <pr>w&aacute;nm&ecaron;i</pr></trd>,
     <trd>&#x7406;&#x60F3; <pr>l&#x1D0;xi&#x1CE;ng</pr></trd>,
-    <trd>&#x5341;&#x5168; <pr>sh&#xED;qu&#xE1;n</pr></trd>,
-    <trd>&#x5B8C;&#x5584; <pr>w&#xE1;nsh&#xE0;n</pr></trd>,
-    <trd>&#x5B8C;&#x7F8E;&#x65E0;&#x7F3A; <pr>w&#xE1;nm&#x11B;iw&#xFA;qu&#x113;</pr></trd>,
-    <trd>&#x5B8C;&#x7F8E;&#x7121;&#x7F3A; <pr>w&#xE1;nm&#x11B;iw&#xFA;qu&#x113;</pr></trd>,
-    <trd>&#x5927;&#x5099; <pr>d&#xE0;b&#xE8;i</pr></trd>,
-    <trd>&#x5927;&#x5907; <pr>d&#xE0;b&#xE8;i</pr></trd>
+    <trd>&#x5341;&#x5168; <pr>sh&iacute;qu&aacute;n</pr></trd>,
+    <trd>&#x5B8C;&#x5584; <pr>w&aacute;nsh&agrave;n</pr></trd>,
+    <trd>&#x5B8C;&#x7F8E;&#x65E0;&#x7F3A; <pr>w&aacute;nm&ecaron;iw&uacute;qu&emacron;</pr></trd>,
+    <trd>&#x5B8C;&#x7F8E;&#x7121;&#x7F3A; <pr>w&aacute;nm&ecaron;iw&uacute;qu&emacron;</pr></trd>,
+    <trd>&#x5927;&#x5099; <pr>d&agrave;b&egrave;i</pr></trd>,
+    <trd>&#x5927;&#x5907; <pr>d&agrave;b&egrave;i</pr></trd>
   </trdgrp>
+</drv>
+
+<drv mrk="perfek.0o">
+  <kap>
+    <tld/>o, <var><kap><tld/>eco</kap></var>
+  </kap>
+  <snc mrk="perfek.0o.kvalito">
+    <dif>
+      Kvalito tia, ke nenio mankas, nenio estas plibonigebla:
+      <ekz>
+        estetika <tld/>o
+        <fnt>
+          <bib>ChB</bib>
+          <lok>19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en simplo kaj modereco estas <tld/>o
+        <fnt>
+          <bib>KFl</bib>
+          <lok>VII. Gimnastiko por artaj sistemoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi povas plene kompreni la <tld/>econ de la Plejpotenculo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 11:7</lok>
+        </fnt>?
+      </ekz>
+    </dif>
+  </snc>
+  <ref tip="hom" cel="perfek1.0o">perfekto (verba tempo)</ref>
+  <trd lng="de">Perfektion</trd>
+  <trd lng="en">perfection</trd>
+  <trd lng="fr">perfection</trd>
 </drv>
 
 <drv mrk="perfek.0igi">
@@ -284,7 +320,7 @@
     <trd>udoskonala&cacute;</trd>,
     <trd>doskonali&cacute;</trd>
   </trdgrp>
-  <trd lng="ro">&icirc;mbun&abreve;t&abreve;&#x21B;i</trd>
+  <trd lng="ro">&icirc;mbun&abreve;t&abreve;&tcomma;i</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -294,14 +330,17 @@
     <trd>zdokona&lcaron;ova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x443;&#x434;&#x43E;&#x441;&#x43A;&#x43E;&#x43D;&#x430;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x431;&#x435;&#x437;&#x434;&#x43E;&#x433;&#x430;&#x43D;&#x43D;&#x438;&#x43C;</trd>
+    <trd>&c_u;&c_d;&c_o;&c_s;&c_k;&c_o;&c_n;&c_a;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&c_o;&c_b;&c_i;&c_t;&c_i; &c_b;&c_je;&c_z;&c_d;&c_o;&c_g;&c_a;&c_n;&c_n;&c_i;&c_m;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.37 2026/02/13 20:54:26
+Wolfram Diestel: +~o, ~eco
+
 versio 1.34 2023/10/20 14:25:20
 revo: transskribo per <pr>
 
@@ -321,8 +360,5 @@ Revision 1.26  2019/03/01 17:10:15  revo
 Wolfram Diestel: -perfekto
 
 Revision 1.25  2019/02/12 17:10:20  revo
-Sergio Pokrovskij: +rim
-
-Revision 1.24  2015/10/08 14:10:21  revo
 -->
-</vortaro>
+</vortaro>
