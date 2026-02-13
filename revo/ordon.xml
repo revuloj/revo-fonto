@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ordon.xml,v 1.37 2026/01/30 19:01:12 revo Exp $">
+<art mrk="$Id: ordon.xml,v 1.38 2026/02/13 07:14:37 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>ordon</rad>/i
@@ -80,7 +80,7 @@
        <ref cel="reg.0i">regi</ref>,
        <ref cel="dikt.0i">dikti</ref>,
        <ref cel="dekret.0i">dekreti</ref>,
-       <ref cel="instru1">instrukcii</ref>,
+       <ref tip="ant" cel="instru1.0i">instrukcii</ref>,
        <ref cel="komand.0i">komandi</ref>,
        <ref cel="obe.0igi">obeigi</ref>.
      </refgrp>
@@ -180,27 +180,14 @@
   </trdgrp>
 </drv>
 
- <drv mrk="ordon.0o">
- <kap><tld/>o</kap>
- <snc mrk="ordon.0o.volo">
-   <dif>
-     <ref tip="lst" lst="voko:komunikoj" cel="esprim.0o.ado">Esprimo</ref>
-     de ies estra <ref cel="vol.0o">volo</ref>:
-     <ekz>
-       bezono estas plej forta <tld/>o
-       <fnt><bib>PrV</bib></fnt>;
-      </ekz>
+<drv mrk="ordon.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="ordon.0o.volo">
+    <dif>
+      <ref tip="lst" lst="voko:komunikoj" cel="esprim.0o.ado">Esprimo</ref>
+      de ies estra <ref cel="vol.0o">volo</ref>:
       <ekz>
-        de la volo la <tld/>o pli efikas ol bastono
-        <fnt>
-          <bib>PrV</bib>
-        </fnt>;
-      </ekz><ekz>
-       deziro kaj inklino <tld/>on ne obeas
-       <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-       mi restas tie &ccirc;i la&ubreve; la <tld/>o de mia
-       estro
+        mi restas tie &ccirc;i la&ubreve; la <tld/>o de mia estro
         <fnt>
           <bib>F</bib>
           <lok>&FE; 26</lok>
@@ -233,7 +220,21 @@
           <aut>Michael Ende, trad. Wolfram Diestel</aut>
           <vrk>La Sen&ccirc;esa Rakonto</vrk>
           <lok>La Batalo je la Ebura Turo</lok>
-        </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+       bezono estas plej forta <tld/>o
+       <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        de la volo la <tld/>o pli efikas ol bastono
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        deziro kaj inklino <tld/>on ne obeas
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="sub">
@@ -343,7 +344,7 @@
     </trdgrp>
     <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
     <trd lng="zh">&#x547D;&#x4EE4; <pr>m&igrave;ngl&igrave;ng</pr></trd>
-</snc>
+  </snc>
   <trd lng="bo">&t_ba;&t_ka;&t_-a;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>na&rcaron;&iacute;zen&iacute;</trd>,
@@ -563,7 +564,7 @@
   <kap>
     pag<tld/>o
   </kap>
-  <snc>
+  <snc mrk="ordon.pag0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
       Instrukcio al banko pagi el sia konto sumon al alia persono:
@@ -591,6 +592,9 @@
 </art>
 <!--
 $Log$
+versio 1.38 2026/02/13 07:14:37
+Wolfram Diestel: ref
+
 versio 1.37 2026/01/30 19:01:12
 Wolfram Diestel: +pag~o
 
@@ -610,8 +614,5 @@ versio 1.30 2022/05/28 20:32:53
 Vito Redsky: + trd pl + trd ro
 
 versio 1.29 2022/05/01 17:17:01
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.25 2021/05/13 08:59:14
 -->
 </vortaro>
