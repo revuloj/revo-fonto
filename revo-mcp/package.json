@@ -1,0 +1,19 @@
+{
+  "name": "revo-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Reta Vortaro (Esperanto dictionary) lookup",
+  "type": "module",
+  "scripts": {
+    "setup": "bun run src/setup.ts",
+    "start": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "node-html-parser": "^7.0.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.0"
+  }
+}
