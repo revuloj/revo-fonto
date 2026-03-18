@@ -1,23 +1,62 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tonal.xml,v 1.22 2026/03/14 16:49:37 revo Exp $">
+<art mrk="$Id: tonal.xml,v 1.23 2026/03/18 07:17:14 revo Exp $">
 <kap>
   <rad>tonal</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="tonal.0o">
-  <kap><tld/>o<fnt><bib>MuzTerm</bib></fnt></kap>
+  <kap><tld/>o <fnt><bib>MuzTerm</bib></fnt></kap>
   <snc mrk="tonal.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Tona framo de muziko, kun propraj baza tono,
-      <ref tip="vid" cel="gam.0o">gamo</ref>, sonserioj, akordoj.
+      Hierarkia sistemo de tonoj grupigita &ccirc;irka&ubreve; la baza tono respektive la toniko
+      de la <ref cel="gam.0o.MUZ">gamo<sncref/></ref>:
+      <ekz>
+        G minora, C ma&jcirc;ora estas <tld/>oj;
+      </ekz>
+      <ekz>
+        la araba muziko karakterizi&gcirc;as per komplikaj ritmoj kaj e&ccirc; pli komplikaj
+        melodioj, kiuj &ccirc;erpas el pli ol cent <tld/>oj
+        <klr>(pli &gcirc;uste <ref cel="modal.0o.MUZ">modalo<sncref/></ref>j)</klr>,
+        el kiuj la e&ubreve;ropa muziko konas nur du (la ma&jcirc;oran kaj la minoran)
+        <fnt>
+          <bib>Monato</bib>
+          <vrk>Um Keltum'</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la hindemita <tld/>ismo &scirc;ajnis esti definitive venkita, lia verkaro aspektis
+        postrestinta
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2014/011202.php"
+              >Pura muziko por eonoj</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la oldulo gestis al la duonvidebla flutisto en la mallumo, kiu tuj &scirc;an&gcirc;is sian
+        malla&ubreve;tan flutadon al apena&ubreve; pli la&ubreve;ta zumo en alia <tld/>o
+        <fnt>
+          <bib>Sol</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="diaton.0a">diatona</ref>,
+      <ref cel="harmon.0a.gxenerale">harmona<sncref/></ref>,
+      <ref cel="modal.0o.MUZ">modalo<sncref/></ref>
+    </refgrp>
   </snc>
-
   <trd lng="be">&c_t;&c_a;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="ca">tonalitat</trd>
-  <trd lng="de">Tonart</trd>
+  <trdgrp lng="de">
+    <trd>Tonart</trd>,
+    <trd>Tongeschlecht</trd>,
+    <trd>Tonalit&auml;t</trd>
+  </trdgrp>
   <trd lng="en">key <klr>(musical)</klr></trd>
   <trd lng="es">tonalidad</trd>
   <trdgrp lng="fr">
@@ -28,25 +67,25 @@
     <trd>hangnem</trd>,
     <trd>tonalit&aacute;s</trd>
   </trdgrp>
-  <trd lng="ja">&#35519;  <pr>&#12385;&#12423;&#12358;</pr></trd>
+  <trd lng="ja">&#x8ABF;  <pr>&#x3061;&#x3087;&#x3046;</pr></trd>
   <trd lng="pl">tonacja</trd>
   <trdgrp lng="pt">
     <trd>tom</trd>,
     <trd>modo</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-  <trd lng="kek">aatinob&#789;aal</trd>
+  <trd lng="kek">aatinob&#x315;aal</trd>
   <trdgrp lng="uk">
     <trd>&c_l;&c_a;&c_d;</trd>,
     <trd>&c_l;&c_a;&c_d;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#20048;&#38899; <pr>yu&egrave;y&imacron;n</pr></trd>,
-    <trd>&#27138;&#38899; <pr>yu&egrave;y&imacron;n</pr></trd>,
-    <trd>&#35519;&#38272; <pr>di&agrave;om&eacute;n</pr></trd>,
-    <trd>&#35843;&#38376; <pr>di&agrave;om&eacute;n</pr></trd>,
-    <trd>&#21475;&#27668; <pr>k&#466;uq&igrave;</pr></trd>,
-    <trd>&#21475;&#27683; <pr>k&#466;uq&igrave;</pr></trd>
+    <trd>&#x4E50;&#x97F3; <pr>yu&egrave;y&imacron;n</pr></trd>,
+    <trd>&#x6A02;&#x97F3; <pr>yu&egrave;y&imacron;n</pr></trd>,
+    <trd>&#x8ABF;&#x9580; <pr>di&agrave;om&eacute;n</pr></trd>,
+    <trd>&#x8C03;&#x95E8; <pr>di&agrave;om&eacute;n</pr></trd>,
+    <trd>&#x53E3;&#x6C14; <pr>k&#x1D2;uq&igrave;</pr></trd>,
+    <trd>&#x53E3;&#x6C23; <pr>k&#x1D2;uq&igrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -60,7 +99,7 @@
       duarangajn tonojn, ne konsideras iujn akordojn kiel
       preferindajn:
       <ekz>
-        Arvo P&auml;rt <klr>...</klr> balda&ubreve; komprenis ke
+        <nom>Arvo P&auml;rt</nom> <klr>[&#x2026;]</klr> balda&ubreve; komprenis ke
         <ctl>lia persisto pri ne<tld/>a muziko kondukas lin
         en sakstrateton</ctl>
         <fnt>
@@ -72,6 +111,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_t;&c_a;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="de">atonal</trd>
   <trd lng="fr">atonal</trd>
   <trd lng="pl">atoniczny</trd>
 </drv>
@@ -79,6 +119,9 @@
 
 <!--
 $Log$
+versio 1.23 2026/03/18 07:17:14
+Wolfram Diestel: dif revortigo, +ekz-oj, ref-oj, trd de
+
 versio 1.22 2026/03/14 16:49:37
 Noam Mohr: firigis la ne plu validan BL rekomendon
 
@@ -98,8 +141,5 @@ Revision 1.12  2012/07/16 12:10:22  revo
 Marc Rausell: + trd ca
 
 Revision 1.11  2011/11/07 01:10:14  revo
- Anchise Inzaghi: traduko q'eqchi'
-
-Revision 1.10  2010/04/16 16:31:45  revo
 -->
-</vortaro>
+</vortaro>
