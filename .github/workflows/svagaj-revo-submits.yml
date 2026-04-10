@@ -83,14 +83,14 @@ jobs:
         fi
 
     - name: Konservu protokolojn
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: log-db
         path: .log
         include-hidden-files: true
 
     - name: Konservu la interrezultojn
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: tmp-db
         path: .tmp
@@ -175,14 +175,14 @@ jobs:
         ls -l .tgz/ .log/
 
     - name: Konservu rezultintajn arĥivojn
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: tgz
         path: .tgz
         include-hidden-files: true
 
     - name: Konservu protokolojn
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: log
         path: .log        
