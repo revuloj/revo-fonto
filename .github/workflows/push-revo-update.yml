@@ -133,7 +133,7 @@ jobs:
         path: .log        
         include-hidden-files: true
         
-    - uses: actions/github-script@v7
+    - uses: actions/github-script@v8
       if: steps.trovu_horan_formikon.outputs.sha_hf != steps.trovu_kapon.outputs.sha_hm
       name: Movu antaŭen la formikon
       with:
