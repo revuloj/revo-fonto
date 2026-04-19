@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: entjer.xml,v 1.32 2026/03/08 13:12:18 revo Exp $">
+<art mrk="$Id: entjer.xml,v 1.33 2026/04/19 13:44:49 revo Exp $">
 <kap>
   <rad>entjer</rad>/o
 <fnt><bib>PVEF</bib></fnt></kap>
@@ -15,13 +15,24 @@
       <frm am="0,1,2,3,...">0, 1, 2, 3,...</frm> a&ubreve; el la sinsekvo
       <frm am="-1,-2,-3,...">-1, -2, -3,...</frm>:
       <ekz>
-        la aron de <tld/>oj oni signas per <frm am="ZZ"><g>Z</g></frm>.
+        la aron de <tld/>oj oni signas per <frm am="ZZ"><g>Z</g></frm>;
+      </ekz>
+      <ekz>
+        la Granda Teoremo de Fermat, <klr>[diras]</klr> ke ne ekzistas pozitivaj
+        entjeroj <frm am="x">x</frm>, <frm am="y">y</frm> kaj <frm am="z">z</frm> tiaj,
+        ke validas <frm am="x^n + y^n = z^n">x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></frm>,
+        por ia natura nombro <frm am="n">n</frm> pli
+        granda ol 2
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Scienco</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="super" cel="racion.0o">racionalo</ref>
     <refgrp tip="vid">
       <ref cel="aritme.0o">aritmetiko</ref>,
-      <ref cel="kardin.0o.MAT">kardinalo</ref>.
+      <ref cel="kardinal1.0o.MAT">kardinalo</ref>
     </refgrp>
   </snc>
   <rim>
@@ -49,7 +60,7 @@
     <trd>entier rationnel</trd>
   </trdgrp>
   <trd lng="hu">eg&eacute;sz <ind>sz&aacute;m</ind></trd>
-  <trd lng="ja">&#25972;&#25968;  <pr>&#12379;&#12356;&#12377;&#12358;</pr></trd>
+  <trd lng="ja">&#x6574;&#x6570;  <pr>&#x305B;&#x3044;&#x3059;&#x3046;</pr></trd>
   <trd lng="pl">liczba ca&lstroke;kowita</trd>
   <trd lng="pt">inteiro</trd>
   <trd lng="ru">&c_c;&c_je;&c_l;&c_o;&c_je;
@@ -60,7 +71,7 @@
     <trd>&c_c;&c_ib;&c_l;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>,
     <trd>&c_a;&c_n;&c_t;&c_mol;&c_jeu;</trd>
   </trdgrp>
-  <trd lng="zh">&#25972;&#22411; <pr>zh&ecaron;ngx&iacute;ng</pr></trd>
+  <trd lng="zh">&#x6574;&#x578B; <pr>zh&ecaron;ngx&iacute;ng</pr></trd>
 </drv>
 
 <drv mrk="entjer.0a">
@@ -71,16 +82,20 @@
     <dif>
       Rilata al <tld/>o, estanta <tld/>o:
       <ekz>
-        <tld/>a nombro <klr>(<tld/>o)</klr>,
-      </ekz>
-      <ekz>
-        variablo,
-      </ekz>
-      <ekz>
+        <tld/>a nombro <klr>(<tld/>o)</klr>, variablo,
         funkcio <klr>(kies valoroj estas <tld/>aj)</klr>;
       </ekz>
       <ekz>
-        <ref cel="part.entjera0o">entjera parto</ref> de reelo.
+        <ref cel="part.entjera0o">entjera parto</ref> de reelo;
+      </ekz>
+      <ekz>
+        la celon (ekzemple maksimumon da enspezo, minimumon da konsumo) oni deklaras
+        anka&ubreve; lineare, la variabloj estas reelaj (kontinuaj), <tld/>aj a&ubreve; binaraj
+        (diskretaj)
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Matematiko</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -119,7 +134,7 @@
     <trd>&c_c;&c_ib;&c_l;&c_i;&c_j;</trd>,
     <trd>&c_c;&c_ib;&c_l;&c_o;&c_ch;&c_i;&c_s;&c_l;&c_o;&c_v;&c_i;&c_j;</trd>
   </trdgrp>
-  <trd lng="zh">&#25972;&#25968; <pr>zh&ecaron;ngsh&ugrave;</pr></trd>
+  <trd lng="zh">&#x6574;&#x6570; <pr>zh&ecaron;ngsh&ugrave;</pr></trd>
 </drv>
 
 <drv mrk="entjer.gauxsa0o">
@@ -131,7 +146,7 @@
       <ref tip="super" cel="komple.0o.MAT">Komplekso</ref>, kies
       entjera kaj imaginara partoj estas entjeroj.
     </dif>
-    <ref tip="vid" cel="gauxs.0o">Ga&ubreve;so.</ref>
+    <ref tip="vid" cel="gauxs.0o">Ga&ubreve;so</ref>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_w;&c_s;&c_a;&c_w; <ind>&c_l;&c_ib;&c_k;</ind></trd>
   <trd lng="ca">enter de Gauss</trd>
@@ -160,15 +175,15 @@
         <frm am="NN&quot;*&quot;"><g>N</g><sup>*</sup></frm>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="nombr.natura0o">natura nombro.</ref>
+    <ref tip="sin" cel="nombr.natura0o">natura nombro</ref>
     <rim>
       En elementa aritmetiko, oni ofte lasas la nombron <frm>0</frm>
-      ekster
-      la aro de naturaj <tld/>oj.
+      ekster la aro de naturaj <tld/>oj.
     </rim>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;
-<ind>&c_l;&c_ib;&c_k;</ind></trd>
+    <ind>&c_l;&c_ib;&c_k;</ind>
+  </trd>
   <trdgrp lng="cs">
     <trd>cel&eacute; kladn&eacute; &ccaron;&iacute;slo</trd>,
     <trd>p&rcaron;irozen&eacute; &ccaron;&iacute;slo</trd>
@@ -181,20 +196,24 @@
   <trd lng="hu">term&eacute;szetes <ind>sz&aacute;m</ind></trd>
   <trd lng="pl">liczba naturalna</trd>
   <trd lng="ru">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
-<ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
+    <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind>
+  </trd>
   <trdgrp lng="sk">
     <trd>cel&eacute; kladn&eacute; &ccaron;&iacute;slo</trd>,
     <trd>prirodzen&eacute; &ccaron;&iacute;slo</trd>
   </trdgrp>
   <trd lng="sv">naturligt tal</trd>
   <trdgrp lng="zh">
-    <trd>&#38605;&#23481; <pr>y&omacron;ngr&oacute;ng</pr></trd>,
-    <trd>&#33258;&#28982;&#25968; <pr>z&igrave;r&aacute;nsh&ugrave;</pr></trd>
+    <trd>&#x96CD;&#x5BB9; <pr>y&omacron;ngr&oacute;ng</pr></trd>,
+    <trd>&#x81EA;&#x7136;&#x6570; <pr>z&igrave;r&aacute;nsh&ugrave;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2026/04/19 13:44:49
+Wolfram Diestel: ref, +ekz-oj
+
 versio 1.32 2026/03/08 13:12:18
 Hector Alos i Font: +trd ca
 
@@ -214,8 +233,5 @@ Revision 1.21  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2007/10/20 18:54:25  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.19  2007/06/28 16:32:26  revo
 -->
-</vortaro>
+</vortaro>
