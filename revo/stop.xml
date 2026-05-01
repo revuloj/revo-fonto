@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: stop.xml,v 1.6 2025/10/20 13:00:31 afido Exp $">
+  <art mrk="$Id: stop.xml,v 1.7 2026/05/01 23:06:52 afido Exp $">
     <kap>
       <rad>stop</rad>
       <fnt> <bib>PVEF</bib></fnt>
@@ -9,7 +9,8 @@
 
 <drv mrk="stop.0">
   <kap><tld/></kap>
-  <snc>
+  <gra><vspec>ekkrio</vspec></gra>
+    <snc>
     <dif>
       <ref tip="sin" cel="halt.0">Halt</ref>signalo:
       <ekz>
@@ -37,16 +38,62 @@
     <trd>&c_s;&c_t;&c_o;&c_p;!</trd>,
     <trd>&c_s;&c_t;&c_o;&c_j;!</trd>
   </trdgrp>
+  <trd lng="fr">stop</trd>
   <trd lng="id">stop</trd>
   <trdgrp lng="zh">
     <trd>&#20840;&#x673A;&#x505C;&#x8F66; <pr>qu&#xE1;nj&#x12B;t&#xED;ngch&emacron;</pr></trd>,
     <trd>&#20840;&#x6A5F;&#x505C;&#x8ECA; <pr>qu&#xE1;nj&#x12B;t&#xED;ngch&emacron;</pr></trd>
   </trdgrp>
 </drv>
-  </art>
+
+<drv mrk="stop.0i">
+  <kap><tld/>i</kap>
+  <uzo tip="stl">RAR</uzo>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="stop.0i.KOMUNE">
+    <dif>
+      <ref tip="super" cel="halt.0igi.KOMUNE">Haltigi</ref> (precipe laborantan aparaton):
+      <ekz>
+        &scirc;tupareton tenu preta! ma&scirc;inojn <tld/>u!
+        <fnt>
+          <aut>M. Twain, trad. D. kaj H.-G. Kaiser</aut>
+          <vrk><url ref="https://satesperanto.org/spip.php?article5452">
+          La aventuroj de Tom Sawyer</url></vrk>
+          <lok>[2023?]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">stopper</trd>
+</drv>
+
+<drv mrk="stop.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <uzo tip="stl">RAR</uzo>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="stop.0igxi.KOMUNE">
+    <dif>
+      <ref tip="super" cel="halt.0igi.KOMUNE">Halti</ref>, ekmalfunkcii (precipe pri aparato):
+      <ekz>
+        tre dense ne&gcirc;is, la tramo <tld/>i&gcirc;is
+        <fnt>
+          <aut>F. Moln&aacute;r, trad. J. Horvath</aut>
+          <vrk><url ref="https://verkoj.com/tradukistoj/jozefo-horvath/jocxjo_kpl.pdf">
+          Jo&ccirc;jo kaj aliaj komedietoj</url></vrk>
+          <lok>2025</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">s'<ind>arr&ecirc;ter</ind></trd>
+</drv>
+</art>
 
 <!--
 $Log$
+versio 1.7 2026/05/01 23:06:52
+Jeromo Vasxe: + ~i ~igxi
+
 versio 1.6 2025/10/20 13:00:31
 Eko Nur Syah Hidayat: +trd id
 
