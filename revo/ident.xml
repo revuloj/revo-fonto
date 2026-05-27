@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ident.xml,v 1.52 2026/01/26 20:40:09 revo Exp $">
+<art mrk="$Id: ident.xml,v 1.53 2026/05/09 21:02:51 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>ident</rad>/a
@@ -67,7 +67,7 @@
       Tiu unika kaj ne alia ol tiu, pri kiu temas,
       tiu <ref tip="sin" cel="sam.0a.tiu">sama</ref>:
       <!--ekz>
-        Amalio, se nia amo estis perfekte <tld/>a, &mdash; <klr>[&#x2026;]</klr>, kiel do povas
+        Amalio, se nia amo estis perfekte <tld/>a, &mdash; <klr>[&#8230;]</klr>, kiel do povas
         diferenci la amantoj?
         <fnt><bib>Rabistoj</bib> <lok>Akto Unua</lok></fnt>;
         (ekster la kunteksto &ccirc;i tiu ekzemplo estas malklara kaj
@@ -121,12 +121,16 @@
   <trd lng="es">id&eacute;ntico<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="fr"><ofc>1</ofc>identique</trd>
   <trdgrp lng="ja">
-    <trd>&#x540C;&#x4E00;&#x306E;  <pr>&#x3069;&#x3046;&#x3044;&#x3064;&#x306E;</pr></trd>,
-    <trd>&#x540C;&#x69D8;&#x306E;  <pr>&#x3069;&#x3046;&#x3088;&#x3046;&#x306E;</pr></trd>,
-    <trd>&#x305D;&#x3063;&#x304F;&#x308A;&#x540C;&#x3058;&#x306E;
-    <pr>&#x305D;&#x3063;&#x304F;&#x308A;&#x304A;&#x306A;&#x3058;&#x306E;</pr></trd>
+    <trd>&#x540C;&#x4E00;&#x306E;  <pr>&#12393;&#12358;&#12356;&#12388;&#x306E;</pr></trd>,
+    <trd>&#x540C;&#x69D8;&#x306E;  <pr>&#12393;&#12358;&#12424;&#12358;&#x306E;</pr></trd>,
+    <trd>&#x305D;&#12387;&#x304F;&#x308A;&#x540C;&#12376;&#x306E;
+    <pr>&#x305D;&#12387;&#x304F;&#x308A;&#x304A;&#x306A;&#12376;&#x306E;</pr></trd>
   </trdgrp>
   <trd lng="nl">identiek</trd>
+  <trdgrp lng="pl">
+    <trd>identyczny</trd>,
+    <trd>r&oacute;wnoznaczny</trd>
+  </trdgrp>
   <trd lng="pt">id&ecirc;ntico<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="sk">
     <trd>identick&yacute;</trd>,
@@ -141,8 +145,8 @@
   <trdgrp lng="zh">
     <trd>&#x540C;&#x4E00; <pr>t&oacute;ngy&imacron;</pr></trd>,
     <trd>&#x76F8;&#x540C; <pr>xi&amacron;ngt&oacute;ng</pr></trd>,
-    <trd>&#x6046;&#x7B49; <pr>h&eacute;ngd&ecaron;ng</pr></trd>,
-    <trd>&#x5168;&#x540C; <pr>qu&aacute;nt&oacute;ng</pr></trd>,
+    <trd>&#24646;&#x7B49; <pr>h&eacute;ngd&ecaron;ng</pr></trd>,
+    <trd>&#20840;&#x540C; <pr>qu&aacute;nt&oacute;ng</pr></trd>,
     <trd>&#x96F7;&#x540C; <pr>l&eacute;it&oacute;ng</pr></trd>
   </trdgrp>
 </drv>
@@ -227,7 +231,7 @@
         grupo bezonas gardi koheron, <tld/>on &ndash; sed tio malhelpas kreskon
         <fnt>
           <bib>LOdE</bib>
-          <lok>2003, &#x2116; 2 (100)</lok>
+          <lok>2003, &#8470; 2 (100)</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -239,11 +243,15 @@
     <trd lng="zh">&#x5FC3;&#x795E; <pr>x&imacron;nsh&eacute;n</pr></trd>
 </snc>
 
-<trdgrp lng="be">
-  <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
-  <trd>&c_t;&c_o;&c_je;&c_s;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
-</trdgrp>
+  <trdgrp lng="be">
+    <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_t;&c_o;&c_je;&c_s;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="ca">identitat</trd>
+  <trdgrp lng="pl">
+    <trd>identyczno&sacute;&cacute;</trd>,
+    <trd>to&zdot;samo&sacute;&cacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ident.0ajxo">
@@ -261,6 +269,7 @@
     </dif>
     <trd lng="en">identity<klr> (instance of something identical)</klr></trd>
     <trd lng="hu">azonos dolog</trd>
+    <trd lng="pl">identyczno&sacute;&cacute;</trd>
   </snc>
   <snc mrk="ident.0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -289,14 +298,12 @@
     <trd lng="hu">azonoss&aacute;g</trd>
     <trd lng="nl">identiteit</trd>
     <trd lng="pt">identidade<klr tip="amb"> (matem&aacute;tica)</klr></trd>
-    <trdgrp lng="pl">
-      <trd>r&oacute;wno&sacute;&cacute; identyczno&sacute;ciowa</trd>,
-      <trd>identyczno&sacute;&cacute;</trd></trdgrp>
+    <trd lng="pl">r&oacute;wno&sacute;&cacute; identyczno&sacute;ciowa</trd>
     <trd lng="ru">&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
     <trdgrp lng="zh">
-    <trd>&#x6620;&#x4E0A;&#x6620;&#x5C04; <pr>y&igrave;ngsh&agrave;ngy&igrave;ngsh&egrave;</pr></trd>,
-    <trd>&#x5355;&#x4F4D;&#x7B97;&#x7B26; <pr>d&amacron;nw&egrave;isu&agrave;nf&uacute;</pr></trd>,
-    <trd>&#x6046;&#x7B49;&#x5F0F; <pr>h&eacute;ngd&ecaron;ngsh&igrave;</pr></trd>
+    <trd>&#26144;&#x4E0A;&#26144;&#x5C04; <pr>y&igrave;ngsh&agrave;ngy&igrave;ngsh&egrave;</pr></trd>,
+    <trd>&#21333;&#x4F4D;&#x7B97;&#x7B26; <pr>d&amacron;nw&egrave;isu&agrave;nf&uacute;</pr></trd>,
+    <trd>&#24646;&#x7B49;&#x5F0F; <pr>h&eacute;ngd&ecaron;ngsh&igrave;</pr></trd>
   </trdgrp>
 </snc>
 <trdgrp lng="be">
@@ -312,7 +319,7 @@
       La fakto, ke io estas <tld/>a kun io alia; nedistingebla egaleco, sameco:
       <ekz>
         la&ubreve; lia opinio, inter burokratismo kaj <nom>Mos&hcirc;ozupr</nom>
-        oni povas meti signon de l&#x2019; <tld/>eco!
+        oni povas meti signon de l&#8217; <tld/>eco!
         <fnt><bib>Metrop</bib></fnt>;
       </ekz><ekz>
         li kro&ccirc;is sin al la penso, ke tiu <tld/>eco
@@ -382,8 +389,8 @@
     <trd>&#x8EAB;&#x4EFD; <pr>sh&emacron;nf&egrave;n</pr></trd>,
     <trd>&#x5FC3;&#x795E; <pr>x&imacron;nsh&eacute;n</pr></trd>,
     <trd>&#x4EE5;&#x540C;&#x611F; <pr>y&#x1D0;t&oacute;ngg&#x1CE;n</pr></trd>,
-    <trd>&#x4E2A;&#x4EBA;&#x7684;&#x8EAB;&#x4EFD; <pr>g&egrave;r&eacute;ndesh&emacron;nf&egrave;n</pr></trd>,
-    <trd>&#x6587;&#x5316;&#x8A8D;&#x540C; <pr>w&eacute;nhu&agrave;r&egrave;nt&oacute;ng</pr></trd>
+    <trd>&#x4E2A;&#x4EBA;&#30340;&#x8EAB;&#x4EFD; <pr>g&egrave;r&eacute;ndesh&emacron;nf&egrave;n</pr></trd>,
+    <trd>&#25991;&#21270;&#x8A8D;&#x540C; <pr>w&eacute;nhu&agrave;r&egrave;nt&oacute;ng</pr></trd>
   </trdgrp>
 </snc>
   <snc mrk="ident.0eco.identigho">
@@ -443,10 +450,14 @@
     <trd>toto&zcaron;nost</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x540C;&#x4E00;&#x6027;  <pr>&#x3069;&#x3046;&#x3044;&#x3064;&#x305B;&#x3044;</pr></trd>,
-    <trd>&#x4E00;&#x81F4;  <pr>&#x3044;&#x3063;&#x3061;</pr></trd>,
-    <trd>&#x8EAB;&#x5143;  <pr>&#x307F;&#x3082;&#x3068;</pr></trd>,
-    <trd>&#x672C;&#x4EBA;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;  <pr>&#x307B;&#x3093;&#x306B;&#x3093;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;</pr></trd>
+    <trd>&#x540C;&#x4E00;&#24615;  <pr>&#12393;&#12358;&#12356;&#12388;&#x305B;&#12356;</pr></trd>,
+    <trd>&#x4E00;&#x81F4;  <pr>&#12356;&#12387;&#12385;</pr></trd>,
+    <trd>&#x8EAB;&#20803;  <pr>&#x307F;&#12418;&#12392;</pr></trd>,
+    <trd>&#x672C;&#x4EBA;&#12391;&#12354;&#x308B;&#12371;&#12392;  <pr>&#x307B;&#12435;&#x306B;&#12435;&#12391;&#12354;&#x308B;&#12371;&#12392;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>identyczno&sacute;&cacute;</trd>,
+    <trd>to&zdot;samo&sacute;&cacute;</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>identita</trd>,
@@ -472,7 +483,7 @@
       </ekz><ekz>
         la aktoro devas <tld/>igi sin kun la persono, kiun li ludas;
       </ekz><ekz>
-        mi devas <klr>[&#x2026;]</klr> nomi min &leftquot;liberkreda&rightquot;, ne <tld/>igante tamen la
+        mi devas <klr>[&#8230;]</klr> nomi min &leftquot;liberkreda&rightquot;, ne <tld/>igante tamen la
         liberkredon speciale kun ateismo, sed rezervante al mia kredado plenan
         liberecon
         <fnt><bib>Homaranismo</bib></fnt>;
@@ -537,7 +548,7 @@
           <tld/>igis novan specion de malgranda &scirc;arko, kiu &ccirc;asas iom
           nekutime
           <fnt><aut>Julius HAUSER</aut>: <vrk>Memluma &scirc;arketo</vrk>
-            <bib>Monato</bib>, <lok>&#x2116;012533</lok></fnt>;
+            <bib>Monato</bib>, <lok>&#8470;012533</lok></fnt>;
         </ekz><ekz>
           iom pli ol 8000 linioj de la diserta&jcirc;o (el 16325) estis
           <tld/>igitaj kiel plagiata&jcirc;oj
@@ -595,12 +606,12 @@
     kontra&ubreve;regula escepto, en kiu la sufikso -ig uzurpas la rolon de
     la sufikso -um. Tia pli regula formo sporade aperas:
     <ekz>
-      Tion klarigas kompreneble eksteraj bremsoj <klr>(&#x2026;)</klr> sed
+      Tion klarigas kompreneble eksteraj bremsoj <klr>(&#8230;)</klr> sed
       anka&ubreve; internaj limoj, kiun ni devas <tld/>umi por agi kontra&ubreve; ili
       <fnt><aut>Christophe Chazarein</aut>:
         <vrk>Instrui Esperanton: niaj defioj</vrk>.
         <lok><url ref="https://www.ins-eo.org/instrui-esperanton-defioj/">Esperanto-info</url>,
-        &#x2116;112, 2015-03-22</lok></fnt>
+        &#8470;112, 2015-03-22</lok></fnt>
     </ekz>
     (kp <tld/>igi<sncref ref="ident.0igi.apartigi"/>).
     Alia solvo estus enkonduki sensufiksan neologismon &leftquot;identifi&rightquot;.
@@ -617,12 +628,16 @@
   <trd lng="fr">identifier</trd>
   <trd lng="hu">azonos&iacute;t</trd>
   <trdgrp lng="ja">
-    <trd>&#x540C;&#x4E00;&#x8996;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3044;&#x3064;&#x3057;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x540C;&#x4E00;&#x5316;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3072;&#x3068;&#x304B;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x8EAB;&#x5143;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;
-    <pr>&#x307F;&#x3082;&#x3068;&#x3092;&#x304B;&#x304F;&#x306B;&#x3093;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x540C;&#x5B9A;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3066;&#x3044;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x9451;&#x5B9A;&#x3059;&#x308B;  <pr>&#x304B;&#x3093;&#x3066;&#x3044;&#x3059;&#x308B;</pr></trd>
+    <trd>&#x540C;&#x4E00;&#35222;&#12377;&#x308B;  <pr>&#12393;&#12358;&#12356;&#12388;&#12375;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x540C;&#x4E00;&#21270;&#12377;&#x308B;  <pr>&#12393;&#12358;&#12402;&#12392;&#x304B;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x8EAB;&#20803;&#12434;&#x78BA;&#x8A8D;&#12377;&#x308B;
+    <pr>&#x307F;&#12418;&#12392;&#12434;&#x304B;&#x304F;&#x306B;&#12435;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x540C;&#x5B9A;&#12377;&#x308B;  <pr>&#12393;&#12358;&#12390;&#12356;&#12377;&#x308B;</pr></trd>,
+    <trd>&#37969;&#x5B9A;&#12377;&#x308B;  <pr>&#x304B;&#12435;&#12390;&#12356;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>identyfikowa&cacute;</trd>,
+    <trd>uto&zdot;samia&cacute;</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>overi&tcaron;</trd>,
@@ -675,7 +690,7 @@
     <trd lng="en">identification<klr> (item which identifies a person)</klr></trd>
     <trd lng="fr">pi&egrave;ce d'identit&eacute;</trd>
     <trdgrp lng="zh">
-    <trd>&#x8B49;&#x660E;&#x6587;&#x4EF6; <pr>zh&egrave;ngm&iacute;ngw&eacute;nji&agrave;n</pr></trd>,
+    <trd>&#x8B49;&#x660E;&#25991;&#x4EF6; <pr>zh&egrave;ngm&iacute;ngw&eacute;nji&agrave;n</pr></trd>,
     <trd>&#x8EAB;&#x4EFD;&#x8B49;&#x660E; <pr>sh&emacron;nf&egrave;nzh&egrave;ngm&iacute;ng</pr></trd>,
     <trd>&#x8EAB;&#x4EFD;&#x8B49; <pr>sh&emacron;nf&egrave;nzh&egrave;ng</pr></trd>,
     <trd>&#x7D50;&#x55AE; <pr>ji&eacute;d&amacron;n</pr></trd>
@@ -718,8 +733,13 @@
     <ref cel="trajt.0o.karakteriza">trajto<sncref/></ref>
   </refgrp>
   <trdgrp lng="ja">
-    <trd>&#x8EAB;&#x5206;&#x8A3C;&#x660E;&#x66F8;  <pr>&#x307F;&#x3076;&#x3093;&#x3057;&#x3087;&#x3046;&#x3081;&#x3044;&#x3057;&#x3087;</pr></trd>,
-    <trd>&#x9451;&#x5B9A;&#x66F8;  <pr>&#x304B;&#x3093;&#x3066;&#x3044;&#x3057;&#x3087;</pr></trd>
+    <trd>&#x8EAB;&#20998;&#x8A3C;&#x660E;&#x66F8;  <pr>&#x307F;&#12406;&#12435;&#12375;&#12423;&#12358;&#12417;&#12356;&#12375;&#12423;</pr></trd>,
+    <trd>&#37969;&#x5B9A;&#x66F8;  <pr>&#x304B;&#12435;&#12390;&#12356;&#12375;&#12423;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>identyfikator</trd>,
+    <trd>legitymacja</trd>,
+    <trd>dow&oacute;d to&zdot;samo&sacute;ci</trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_ib;&c_k;&c_a;&c_c;&c_ib;&c_j;&c_n;&c_i;&c_j;
@@ -771,11 +791,15 @@
   <trd lng="fr">s'<ind>identifier</ind></trd>
   <trd lng="hu">azonosul</trd>
   <trdgrp lng="ja">
-    <trd>&#x540C;&#x4E00;&#x5316;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3072;&#x3068;&#x304B;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x4E00;&#x4F53;&#x5316;&#x3059;&#x308B;  <pr>&#x3044;&#x3063;&#x305F;&#x3044;&#x304B;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x8EAB;&#x5143;&#x304C;&#x5224;&#x660E;&#x3059;&#x308B;  <pr>&#x307F;&#x3082;&#x3068;&#x304C;&#x306F;&#x3093;&#x3081;&#x3044;&#x3059;&#x308B;</pr></trd>
+    <trd>&#x540C;&#x4E00;&#21270;&#12377;&#x308B;  <pr>&#12393;&#12358;&#12402;&#12392;&#x304B;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x4E00;&#x4F53;&#21270;&#12377;&#x308B;  <pr>&#12356;&#12387;&#x305F;&#12356;&#x304B;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x8EAB;&#20803;&#x304C;&#21028;&#x660E;&#12377;&#x308B;  <pr>&#x307F;&#12418;&#12392;&#x304C;&#x306F;&#12435;&#12417;&#12356;&#12377;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">zich <ind>identificeren</ind></trd>
+  <trdgrp lng="pl">
+    <trd>identyfikowa&cacute; si&eogonek;</trd>,
+    <trd>uto&zdot;samia&cacute; si&eogonek;</trd>
+  </trdgrp>
   <trd lng="pt">identificar-se</trd>
   <trd lng="ru">&c_o;&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trdgrp lng="uk">
@@ -787,6 +811,9 @@
 </art>
   <!--
   $Log$
+versio 1.53 2026/05/09 21:02:51
+Vito Redsky: trd pl 
+
 versio 1.52 2026/01/26 20:40:09
 Wolfram Diestel: +fnt
 
@@ -806,8 +833,5 @@ versio 1.44 2023/05/07 07:23:55
 Wolfram Diestel: Cxiurilate..., +ref-oj
 
 versio 1.43 2023/05/07 06:30:55
-Sergio Pokrovskij: ~igi subsnc
-
-versio 1.42 2023/05/06 14:26:00
 -->
-</vortaro>
+</vortaro>
