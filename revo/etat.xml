@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: etat.xml,v 1.37 2025/09/20 14:28:19 revo Exp $">
+<art mrk="$Id: etat.xml,v 1.38 2026/06/03 20:00:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>etat</rad>/o
@@ -37,6 +37,13 @@
       <ref cel="tabel.0o.TIP">tabelo</ref>,
       <ref cel="regist.0o.dokumento">registro</ref>
     </refgrp>
+    <trdgrp lng="ca">
+      <trd>estat</trd>,
+      <trd>inventari</trd>,
+      <trd>relaci&oacute;</trd>,
+      <trd>n&ograve;mina</trd>,
+      <trd>llista</trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>statement <klr>(financial)</klr></trd>,
       <trd>account <klr>(financial statement)</klr></trd>,
@@ -110,6 +117,7 @@
       <ref cel="labor.0antaro">laborantaro</ref>,
       <ref cel="person.0aro.EKON">personaro</ref>
     </refgrp>
+    <trd lng="ca">n&ograve;mina<klr tip="amb"> (relaci&oacute; del personal d&#8217;una empresa)</klr></trd>
     <trdgrp lng="en">
       <trd>register <klr>(of people)</klr></trd>,
       <trd>list <klr>(of people)</klr></trd>
@@ -216,7 +224,8 @@
     <trd>v&yacute;kaz k ur&ccaron;it&eacute;mu d&aacute;tumu</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_sh;&c_t;&c_a;&c_t;&c_i; (&c_o;&c_s;&c_o;&c_b;&c_o;&c_v;&c_i;&c_j; &c_s;&c_k;&c_l;&c_a;&c_d;)</trd>,
+    <trd>&c_sh;&c_t;&c_a;&c_t;&c_i; (&c_o;&c_s;&c_o;&c_b;&c_o;&c_v;&c_i;&c_j;
+    &c_s;&c_k;&c_l;&c_a;&c_d;)</trd>,
     <trd>&c_sh;&c_t;&c_a;&c_t;&c_n;&c_i;&c_j; &c_r;&c_o;&c_z;&c_p;&c_i;&c_s;</trd>,
     <trd>&c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_l;&c_ib;&c_k;</trd>,
@@ -268,6 +277,11 @@
     </dif>
     <ref tip="ant" cel="etat.ekster0a.EKON">ekster<tld/>a<sncref/></ref>
     <ref tip="vid" cel="dung.0i">dungita</ref>
+    <trdgrp lng="ca">
+      <trd>intern</trd>,
+      <trd>de <ind>plantilla</ind></trd>,
+      <trd>numerari</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>angestellt</trd>,
       <trd><ind>regul&auml;r</ind> bezahlt</trd>
@@ -388,9 +402,14 @@
       </ekz>
     </dif>
     <ref tip="ant" cel="etat.0a.salajrata"><tld/>a <sncref/></ref>
-  <trd lng="be">&c_p;&c_a;&c_z;&c_a;&c_sh;&c_t;&c_a;&c_t;&c_n;&c_y;</trd>
-  <trd lng="de">als freier <ind>Mitarbeiter</ind></trd>
-  <trd lng="en">contracted <klr>(as a contractor)</klr></trd>
+    <trd lng="be">&c_p;&c_a;&c_z;&c_a;&c_sh;&c_t;&c_a;&c_t;&c_n;&c_y;</trd>
+    <trdgrp lng="ca">
+      <trd>extern</trd>,
+      <trd>supernumerari</trd>,
+      <trd>no <ind>numerari</ind></trd>
+    </trdgrp>
+    <trd lng="de">als freier <ind>Mitarbeiter</ind></trd>
+    <trd lng="en">contracted <klr>(as a contractor)</klr></trd>
   </snc>
   <trdgrp lng="fr">
     <trd>prestataire<klr tip="ind"> (en contrat de
@@ -423,8 +442,11 @@
     </dif>
   <trd lng="en">full-time</trd>
   </snc>
-  <trd lng="be">&c_sh;&c_t;&c_a;&c_t;&c_n;&c_y; <klr>(&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_o;&c_w;&c_n;&c_ib;&c_k;)</klr></trd>
+  <trd lng="be">&c_sh;&c_t;&c_a;&c_t;&c_n;&c_y;
+  <klr>(&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_o;&c_w;&c_n;&c_ib;&c_k;)</klr></trd>
+  <trd lng="ca">a <ind>temps</ind> complet</trd>
   <trd lng="de">in <ind>Vollzeit</ind></trd>
+  <trd lng="es">a <ind>tiempo</ind> completo</trd>
   <trd lng="fr"><ind>employ&eacute;</ind> &agrave; plein temps</trd>
   <trd lng="pl"><klr>pracuj&aogonek;cy </klr>na pe&lstroke;nym
   <ind>etacie</ind></trd>
@@ -464,6 +486,9 @@
 </art>
 <!--
 $Log$
+versio 1.38 2026/06/03 20:00:21
+Hector Alos i Font: +trd ca,es
+
 versio 1.37 2025/09/20 14:28:19
 Wolfram Diestel: +trd de, ref
 
@@ -483,8 +508,5 @@ versio 1.28 2022/09/06 10:37:16
 Dmitri Gabinski: + trd be
 
 versio 1.27 2022/07/02 20:28:50
-Wolfram Diestel: +ekz-oj
-
-versio 1.26 2022/04/27 14:38:54
 -->
 </vortaro>
