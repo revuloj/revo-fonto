@@ -1,6 +1,6 @@
 name: akceptu-submetojn
 
-# Tiu ago unue rigardas per voko-afido ĉu novaj redaktoj alvenis (en gist.github.com)
+# Tiu ago per voko-afido akceptas redaktojn el la redaktiloj
 # kaj traktas tiujn. Poste ĝi aktualigas la artikolojn en Revo.
 
 on:
@@ -61,7 +61,7 @@ jobs:
         echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
         docker pull "ghcr.io/revuloj/voko-afido/voko-afido:${{ env.AFIDO_TAG }}"
 
-    - name: Akceptu redaktojn el gists.github.com, kontrolu, arĥivu kaj raportu al redaktantoj
+    - name: Akceptu redaktojn el revaj.steloj.de, kontrolu, arĥivu kaj raportu al redaktantoj
       run: |
         docker run --name afido \
         -e SMTP_SERVER=smtp.strato.de  \
