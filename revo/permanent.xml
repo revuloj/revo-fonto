@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: permanent.xml,v 1.14 2024/03/12 21:19:53 revo Exp $">
+<art mrk="$Id: permanent.xml,v 1.15 2026/06/19 14:44:41 revo Exp $">
 <kap>
   <rad>permanent</rad>/a <fnt><bib>PIV2</bib></fnt>
 </kap>
@@ -10,7 +10,16 @@
   <uzo tip="stl">RAR</uzo>
   <snc mrk="permanent.0a.konstanta">
     <dif>
-      <ke><ref tip="dif" cel="konsta.0a">Konstanta</ref></ke>:
+      Ne <ref tip="ant" cel="proviz1.0a">provizora</ref>:
+      <ekz>
+        <tld/>a parlamenta komisiono pri la konfesioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dimitar Ha&gcirc;iev</aut>
+          <vrk><url ref="&Monato;/2006/008957.php">Religioj en Bulgario</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <nom>Trockij</nom> estas konata pro aliaj elementoj de sia pensaro:
         <tld/>a revolucio, malebena kaj kombini&gcirc;a disvolvi&gcirc;o
@@ -48,15 +57,6 @@
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>a parlamenta komisiono pri la konfesioj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Dimitar Ha&gcirc;iev</aut>
-          <vrk><url ref="&Monato;/2006/008957.php">Religioj en Bulgario</url></vrk>
-          <lok>2006</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
         li konigas al ni iun sperton, kiu markas <tld/>e en lia memoro la etoson de tiu
         lando
         <fnt>
@@ -68,15 +68,25 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="ant">
-       <ref cel="dauxr.mal0a">malda&ubreve;ra</ref>,
-       <ref cel="proviz1.0a">provizora</ref>
-    </refgrp>
     <refgrp tip="vid">
       <ref cel="dauxr.0a">da&ubreve;ra</ref>,
+      <ref cel="defini.0a">definitiva</ref>,
+      <ref cel="konsta.0a.dauxra">konstanta<sncref/></ref>,
       <ref cel="kontin3.0a.KOMUNE">kontinua</ref>,
+      <ref cel="persis.0a">persista</ref>,
+      <ref tip="ant" cel="cxes.sen0a">sen&ccirc;esa</ref>,
       <ref cel="halt.sen0a">senhalta</ref>
     </refgrp>
+    <rim>
+      Io <em><tld/>a</em> konservas sian staton: kvankam &gcirc;i estas &scirc;an&gcirc;ebla, &gcirc;i ne estas
+      forigata: <em><tld/>a</em> servo da&ubreve;re funkcias, kvankam eble sub variaj kondi&ccirc;oj.
+      Alie ol <em>konstanta</em> rapido, kiu ne varias en sia grado, <em><tld/>a</em> rapido povas
+      varii sed ne &ccirc;esi. <em><tld lit="P"/>a</em> &scirc;an&gcirc;o havas <em>definitivan</em> rezulton,
+      dum <em>da&ubreve;ra</em> &scirc;an&gcirc;o povas kompreni&gcirc;i kiel <em>ofta</em> &scirc;an&gcirc;o. Do, kvankam tiuj esprimoj ofte estas
+      inter&scirc;an&gcirc;eblaj, <em><tld/>a</em> akcentas la definitivan staton de io, <em>konstanta</em>
+      akcentas kontinuan gradon, <em>da&ubreve;ra</em> akcentas longtempan ekziston.
+      <aut>Wolfram Diestel</aut>
+    </rim>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_ja;&c_z;&c_mol;&c_m;&c_je;&c_n;&c_n;&c_y;</trd>,
@@ -119,19 +129,22 @@
     <trd>&c_p;&c_je;&c_r;&c_m;&c_a;&c_n;&c_je;&c_n;&c_t;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#24120;&#20219; <pr>ch&aacute;ngr&egrave;n</pr></trd>,
-    <trd>&#24646; <pr>h&eacute;ng</pr></trd>,
-    <trd>&#24658; <pr>h&eacute;ng</pr></trd>,
-    <trd>&#25345;&#20037; <pr>ch&iacute;ji&#468;</pr></trd>,
-    <trd>&#27704;&#20037;&#24615; <pr>y&#466;ngji&#468;x&igrave;ng</pr></trd>,
-    <trd>&#27704;&#20037; <pr>y&#466;ngji&#468;</pr></trd>,
-    <trd>&#24120;&#20303; <pr>ch&aacute;ngzh&ugrave;</pr></trd>
+    <trd>&#x5E38;&#x4EFB; <pr>ch&aacute;ngr&egrave;n</pr></trd>,
+    <trd>&#x6046; <pr>h&eacute;ng</pr></trd>,
+    <trd>&#x6052; <pr>h&eacute;ng</pr></trd>,
+    <trd>&#x6301;&#x4E45; <pr>ch&iacute;ji&#x1D4;</pr></trd>,
+    <trd>&#x6C38;&#x4E45;&#x6027; <pr>y&#x1D2;ngji&#x1D4;x&igrave;ng</pr></trd>,
+    <trd>&#x6C38;&#x4E45; <pr>y&#x1D2;ngji&#x1D4;</pr></trd>,
+    <trd>&#x5E38;&#x4F4F; <pr>ch&aacute;ngzh&ugrave;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.15 2026/06/19 14:44:41
+Wolfram Diestel: dif revortigo, +rim, ref
+
 versio 1.14 2024/03/12 21:19:53
 Wolfram Diestel: +ref
 
@@ -151,8 +164,5 @@ Revision 1.6  2015/07/04 08:37:41  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.5  2015/06/29 16:40:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.4  2014/09/01 07:10:15  revo
 -->
-</vortaro>
+</vortaro>
