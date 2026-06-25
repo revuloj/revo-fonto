@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: plur.xml,v 1.104 2026/03/04 19:05:58 revo Exp $">
+<art mrk="$Id: plur.xml,v 1.105 2026/06/25 09:41:04 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>plur</rad>/aj <fnt><bib>PV</bib></fnt>
 </kap>
+<subart>
 <drv mrk="plur.0aj">
   <kap><tld/>aj</kap>
   <snc>
@@ -416,9 +417,47 @@
     <trd>&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
+</subart>
+<subart>
+  <drv mrk="plur.0_">
+  <kap>
+    <tld/>-
+  </kap>
+  <snc>
+    <dif>
+      Prefikso kun la signifo &leftquot;havanta <tld/>ajn ..., okazanta kun <tld/>aj ...&rightquot;:
+      <ekz>
+        ni ordonos kanti al ni <tld/>vo&ccirc;e tiun himnon al Apolono
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LI</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="edr.plur0o">pluredro</ref>,
+      <ref cel="edz.plur0eco">pluredzeco</ref>,
+      <ref cel="frukt.plur0o">plurfrukto</ref>,
+      <ref cel="kultiv.plur0o">plurkultivo</ref>,
+      <ref cel="later.plur0o">plurlatero</ref>,
+      <ref cel="lingv.plur0ulo">plurlingvulo</ref>,
+      <ref cel="nombr.multe0o">plurnombro</ref>,
+      <ref cel="parti.plur0ismo">plurpartiismo</ref>,
+      <ref cel="senc.plur0a">plursenca</ref>,
+      <ref cel="auxt.kombin0o">pluruza a&ubreve;to</ref>,
+      <ref cel="vocx.plur0e">plurvo&ccirc;e</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">mehr-</trd>
+</drv>
+
+</subart>
 </art>
 <!--
 $Log$
+versio 1.105 2026/06/25 09:41:04
+Wolfram Diestel: +prefikso ~-
+
 versio 1.104 2026/03/04 19:05:58
 Alain Gerard: + trd fr
 
@@ -438,8 +477,5 @@ versio 1.98 2023/10/20 16:38:17
 revo: transskribo per <pr>
 
 versio 1.96 2022/05/18 07:31:07
-Dmitri Gabinski: + trd be
-
-versio 1.95 2022/05/01 17:51:19
 -->
 </vortaro>
