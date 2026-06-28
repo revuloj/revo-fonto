@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: iteraci.xml,v 1.12 2025/10/03 08:37:14 revo Exp $">
+<art mrk="$Id: iteraci.xml,v 1.13 2026/06/28 23:19:16 revo Exp $">
 <kap>
   <rad>iteraci</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -26,6 +26,7 @@
         <ind>&c_c;&c_y;&c_k;&c_l;&c_mol;</ind></trd>
         <trd lng="ca">bucle infinit</trd>
         <trd lng="en">infinite loop</trd>
+        <trd lng="pl">p&eogonek;tla niesko&nacute;czona</trd>
         <trd lng="ru">&c_b;&c_je;&c_s;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_y;&c_j;
         &c_c;&c_i;&c_k;&c_l;</trd>
       </ekz>
@@ -91,6 +92,11 @@
     <trd>bucle <klr tip="amb">(inform&agrave;tica)</klr></trd>
   </trdgrp>
   <trd lng="de">Iteration</trd>
+  <trdgrp lng="pl">
+    <trd>iteracja</trd>,
+    <trd>polecenie <ind>p&eogonek;tli</ind></trd>,
+    <trd>rozkaz <ind>p&eogonek;tli</ind></trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_ib;&c_t;&c_je;&c_r;&c_a;&c_c;&c_ib;&c_ja;</trd>,
     <trd>&c_ib;&c_n;&c_f;&c_o;&c_r;&c_m;. &c_c;&c_i;&c_k;&c_l;</trd>
@@ -121,6 +127,7 @@
   <trd lng="ca">iteratiu</trd>
   <trd lng="de">iterativ</trd>
   <trd lng="en">iterative</trd>
+  <trd lng="pl">iteracyjny</trd>
   <trd lng="ru">&c_i;&c_t;&c_je;&c_r;&c_a;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
 
@@ -149,6 +156,7 @@
   <trd lng="ca">iterar</trd>
   <trd lng="de">iterieren</trd>
   <trd lng="en"><klr>to </klr>iterate</trd>
+  <trd lng="pl">iterowa&cacute;</trd>
   <trd lng="ru">&c_i;&c_t;&c_je;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
@@ -173,6 +181,7 @@
   <trd lng="be">&c_k;&c_r;&c_o;&c_k; &c_ib;&c_t;&c_e;&c_r;&c_a;&c_c;&c_y;&c_ib;</trd>
   <trd lng="de">Iterationsschritt</trd>
   <trd lng="en">iteration step</trd>
+  <trd lng="pl">obieg</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_i;&c_t;&c_o;&c_k; <ind>&c_i;&c_t;&c_je;&c_r;&c_a;&c_c;&c_i;&c_i;</ind></trd>,
     <trd>&c_sh;&c_a;&c_g; <ind>&c_i;&c_t;&c_je;&c_r;&c_a;&c_c;&c_i;&c_i;</ind></trd>
@@ -214,6 +223,7 @@
   <trd lng="ca">iterador</trd>
   <trd lng="de">Iterator</trd>
   <trd lng="en">iterator</trd>
+  <trd lng="pl">iterator</trd>
   <trd lng="ru">&c_i;&c_t;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
 </drv>
 
@@ -236,6 +246,7 @@
   <trd lng="be">&c_a;&c_p;&c_e;&c_r;&c_a;&c_t;&c_a;&c_r; &c_c;&c_y;&c_k;&c_l;&c_ju;</trd>
   <trd lng="de">Schleifenanweisung</trd>
   <trd lng="en">loop statement</trd>
+  <trd lng="pl">instrukcja <ind>p&eogonek;tli</ind></trd>
   <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r; &c_c;&c_i;&c_k;&c_l;&c_a;</trd>
 </drv>
 
@@ -258,6 +269,7 @@
   <trd lng="be">&c_c;&c_y;&c_k;&c_l;&c_mol; &c_z; &c_u;&c_m;&c_o;&c_v;&c_a;&c_j;</trd>
   <trd lng="de">bedingte <ind>Schleife</ind></trd>
   <trd lng="en">while-loop</trd>
+  <trd lng="pl">p&eogonek;tla while</trd>
   <trd lng="ru">&c_c;&c_i;&c_k;&c_l; &c_s; &c_u;&c_s;&c_l;&c_o;&c_v;&c_i;&c_je;&c_m;</trd>
 </drv>
 
@@ -288,6 +300,7 @@
     <trd>kopfgestuerte <ind>Schleife</ind></trd>
   </trdgrp>
   <trd lng="en">pre-test while-loop</trd>
+  <trd lng="pl">p&eogonek;tla while przed testem</trd>
 </drv>
 
 <drv mrk="iteraci.finkondicxa0o">
@@ -319,6 +332,7 @@
     <trd>post-test while-loop</trd>,
     <trd>do while loop</trd>
   </trdgrp>
+  <trd lng="pl">p&eogonek;tla while po te&sacute;cie</trd>
 </drv>
 
  <drv mrk="iteraci.nombrila0o">
@@ -345,13 +359,16 @@
   </trdgrp>
   <trd lng="de">Z&auml;hlschleife</trd>
   <trd lng="en">for-loop</trd>
+  <trd lng="pl">p&eogonek;tla for</trd>
   <trd lng="ru">&c_c;&c_i;&c_k;&c_l; &c_s; &c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;&c_o;&c_m;</trd>
 </drv>
-
 </art>
 
 <!--
 $Log$
+versio 1.13 2026/06/28 23:19:16
+Vito Redsky: trd pl 
+
 versio 1.12 2025/10/03 08:37:14
 Wolfram Diestel: +trd de
 
@@ -371,8 +388,5 @@ versio 1.6 2020/02/15 00:10:46
 Wolfram Diestel: formuloj per am
 
 Revision 1.5  2019/09/08 12:10:16  revo
-Wolfram Diestel: +ekz-oj
-
-Revision 1.4  2018/11/19 13:10:14  revo
 -->
 </vortaro>
