@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tornad.xml,v 1.16 2025/04/07 05:23:35 revo Exp $">
+<art mrk="$Id: tornad.xml,v 1.17 2026/07/13 07:36:10 revo Exp $">
 <kap>
   <rad>tornad</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,8 +10,8 @@
   <snc mrk="tornad.0o.MET">
     <uzo tip="fak">MET</uzo>
     <dif>
-      Tre vigla kirlovento,
-      <ref tip="vid" cel="vortic.0o.MET">vortico</ref>
+      Tre vigla kirlo<ref tip="sin" cel="vent.kirlo0ego">kirloventego</ref>,
+      <ref tip="super" cel="vortic.0o.MET">vortico</ref>
       suprenire turni&gcirc;anta inter la tero kaj
       &scirc;tormonubo kun loka forta detruemo:
       <ekz>
@@ -33,8 +33,11 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="ciklon.0o.MET">ciklono</ref>
-    <ref tip="vid" cel="tajfun.0o.MET">tajfuno</ref>
+    <refgrp tip="vid">
+      <ref cel="ciklon.0o.MET">ciklono</ref>,
+      <ref cel="tajfun.0o.MET">tajfuno</ref>,
+      <ref cel="tromb.0o">trombo</ref>
+    </refgrp>
     <rim>
       Ne konfuzu kun <ref tip="sin" cel="torn.0i">torn</ref>&middot;ado (prilaborado).
     </rim>
@@ -44,11 +47,12 @@
     </trdgrp>
   </snc>
   <rim>
-    La&#365; <fnt><bib>BL</bib></fnt>: Prefere diru <ke>ventego</ke>, <ke>kirla vento</ke>, <ke>funela vento</ke>.
+    La&ubreve; <fnt><bib>BL</bib></fnt>: Prefere diru <ke>ventego</ke>, <ke>kirla vento</ke>, <ke>funela
+    vento</ke>.
   </rim>
 
   <trd lng="be">&c_t;&c_a;&c_r;&c_n;&c_a;&c_d;&c_a;</trd>
-  <trd lng="bo">&#3938;&#4019;&#3956;&#3908;&#3851;&#3936;&#3905;&#3964;&#3938;&#3851;&#3936;&#3930;&#3956;&#3926;&#3851;&#3928;&#3851;</trd>
+  <trd lng="bo">&t_ra;&t_lata;&t_shabchu;&t_nga;&t_tsheg;&t_-a;&t_kha;&t_naro;&t_ra;&t_tsheg;&t_-a;&t_tsha;&t_shabchu;&t_ba;&t_tsheg;&t_ma;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>met. smr&scaron;&tcaron;</trd>,
     <trd>torn&aacute;do</trd>
@@ -68,24 +72,27 @@
     <trd>smr&scaron;&tcaron;</trd>,
     <trd>torn&aacute;do</trd>
   </trdgrp>
-  <trd lng="uk">&#1084;&c_je;&c_t;&c_je;&#1086; &c_t;&#1086;&c_r;&#1085;&c_a;&c_d;&#1086;</trd>
+  <trd lng="uk">&c_m;&c_je;&c_t;&c_je;&c_o; &c_t;&c_o;&c_r;&c_n;&c_a;&c_d;&c_o;</trd>
   <trdgrp lng="zh">
-    <trd>&#40845;&#25458;&#39080; <pr>l&#243;ngju&#462;nf&#275;ng</pr></trd>,
-    <trd>&#40857;&#21367;&#39118; <pr>l&#243;ngju&#462;nf&#275;ng</pr></trd>,
-    <trd>&#21367;&#25196; <pr>ju&#462;ny&#225;ng</pr></trd>,
-    <trd>&#25458;&#25562; <pr>ju&#462;ny&#225;ng</pr></trd>,
-    <trd>&#21367;&#39118; <pr>ju&#462;nf&#275;ng</pr></trd>,
-    <trd>&#25458;&#39080; <pr>ju&#462;nf&#275;ng</pr></trd>,
-    <trd>&#26059;&#39080; <pr>xu&#224;nf&#275;ng</pr></trd>,
-    <trd>&#26059;&#39118; <pr>xu&#224;nf&#275;ng</pr></trd>,
-    <trd>&#40845;&#25458; <pr>l&#243;ngju&#462;n</pr></trd>,
-    <trd>&#40857;&#21367; <pr>l&#243;ngju&#462;n</pr></trd>
+    <trd>&#40845;&#25458;&#39080; <pr>l&oacute;ngju&#462;nf&emacron;ng</pr></trd>,
+    <trd>&#40857;&#21367;&#39118; <pr>l&oacute;ngju&#462;nf&emacron;ng</pr></trd>,
+    <trd>&#21367;&#25196; <pr>ju&#462;ny&aacute;ng</pr></trd>,
+    <trd>&#25458;&#25562; <pr>ju&#462;ny&aacute;ng</pr></trd>,
+    <trd>&#21367;&#39118; <pr>ju&#462;nf&emacron;ng</pr></trd>,
+    <trd>&#25458;&#39080; <pr>ju&#462;nf&emacron;ng</pr></trd>,
+    <trd>&#26059;&#39080; <pr>xu&agrave;nf&emacron;ng</pr></trd>,
+    <trd>&#26059;&#39118; <pr>xu&agrave;nf&emacron;ng</pr></trd>,
+    <trd>&#40845;&#25458; <pr>l&oacute;ngju&#462;n</pr></trd>,
+    <trd>&#40857;&#21367; <pr>l&oacute;ngju&#462;n</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.17 2026/07/13 07:36:10
+Wolfram Diestel: ref
+
 versio 1.14 2023/10/21 14:37:42
 revo: transskribo per <pr>
 
@@ -105,8 +112,5 @@ Revision 1.5  2015/09/21 13:10:23  revo
 Cindy Moon McKee: +trd en
 
 Revision 1.4  2015/07/04 08:37:45  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.3  2015/06/29 16:40:20  revo
 -->
 </vortaro>
