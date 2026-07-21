@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxlos.xml,v 1.117 2026/01/14 20:00:20 revo Exp $">
+<art mrk="$Id: sxlos.xml,v 1.118 2026/07/21 06:41:02 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&scirc;los</rad>/i <fnt><bib>UV</bib></fnt>
@@ -71,11 +71,17 @@
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>itaj en la brusto, maturi&gcirc;as // nur malfacile kaj tre malrapide // la
+        <ind><tld/>ita</ind>j en la brusto, maturi&gcirc;as // nur malfacile kaj tre malrapide // la
         pensoj kaj decidoj
         <fnt>
           <bib>Ifigenio</bib>
         </fnt>;
+        <trd lng="en">locked</trd>
+        <trdgrp lng="ja">
+          <trd>&#37749;&#12364;&#25499;&#12363;&#12387;&#12383; <pr>&#12363;&#12366;&#12364;&#12363;&#12363;&#12387;&#12383;</pr></trd>
+          <trd>&#37749;&#12434;&#25499;&#12369;&#12383; <pr>&#12363;&#12366;&#12434;&#12363;&#12369;&#12383;</pr></trd>
+        </trdgrp>
+        <trd lng="nl">op slot</trd>
       </ekz>
       <ekz>
         ili perdis la vojon <klr>[kaj]</klr> la dezerto ilin <tld/>is
@@ -116,14 +122,19 @@
 \<ind>&nun;&ayin;&lamed;</ind>\</trd>
   <trd lng="hu">bez&aacute;r</trd>
   <trd lng="id"><baz>kunci</baz> mengunci</trd>
+  <trdgrp lng="io">
+    <trd>klefagar</trd>,
+    <trd>klefeklozar</trd>,
+    <trd>klefklozar</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#37749;&#12434;&#12363;&#12369;&#12427;  <pr>&#12363;&#12366;&#12434;&#12363;&#12369;&#12427;</pr></trd>,
     <trd>&#23553;&#12376;&#12427;  <pr>&#12411;&#12358;&#12376;&#12427;</pr></trd>,
     <trd>&#38281;&#12374;&#12377;  <pr>&#12392;&#12374;&#12377;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
-    <trd>sluiten</trd>,
-    <trd>op <ind>slot doen</ind></trd>
+    <trd>op slot doen</trd>,
+    <trd>sluiten<klr tip="amb"> (met een slot)</klr></trd>
   </trdgrp>
   <trd lng="pl">zamyka&cacute;<klr>  (na klucz)</klr></trd>
   <trdgrp lng="pt">
@@ -262,17 +273,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="bg">&c_k;&c_l;&c_ju;&c_ch;</trd>
-    <trd lng="en">key</trd>
-    <trd lng="es">llave</trd>
-    <trd lng="he">&mem;&pe;&tav;&het;</trd>
-    <trd lng="hu">kulcs</trd>
-    <trd lng="it">chiave</trd>
-    <trd lng="nl">sleutel</trd>
-    <trd lng="oc">clau</trd>
     <trd lng="pl">klucz</trd>
-    <trd lng="pt">chave</trd>
-    <trd lng="ru">&c_k;&c_l;&c_ju;&c_ch;</trd>
   </snc>
   <snc mrk="sxlos.0ilo.KOMP">
     <fnt>
@@ -303,7 +304,6 @@
     <ref tip="sin" cel="kon.0igilo.KOMP">konigilo</ref>
     <ref tip="vid" cel="etiked.0o.KOMP">etikedo</ref>
     <trd lng="de">Schl&uuml;sselfeld</trd>
-    <trd lng="en">key</trd>
     <trd lng="pl">klucz</trd>
   </snc>
   <snc mrk="sxlos.0ilo.de_cxifro">
@@ -339,7 +339,8 @@
   <trd lng="am">&#4673;&#4621;&#4941;</trd>
   <trd lng="ar">&a_m;&a_f;&a_t;&a_A;&a_H;</trd>
   <trd lng="az">a&ccedil;ar</trd>
-      <trd lng="be">&c_k;&c_l;&c_ju;&c_ch;</trd>
+  <trd lng="be">&c_k;&c_l;&c_ju;&c_ch;</trd>
+  <trd lng="bg">&c_k;&c_l;&c_ju;&c_ch;</trd>
   <trd lng="bn">&#2458;&#2494;&#2476;&#2495;</trd>
   <trd lng="bo">&t_la;&t_data;&t_drengbu;&t_tsheg;&t_ma;&t_gigu;&t_ga;&t_tsheg;</trd>
   <trd lng="bs">klju&ccaron;</trd>
@@ -349,6 +350,8 @@
   <trd lng="cy">allweddol</trd>
   <trd lng="da">n&oslash;gle</trd>
   <trd lng="de">Schl&uuml;ssel</trd>
+  <trd lng="en">key</trd>
+  <trd lng="es">llave</trd>
   <trd lng="et">v&otilde;ti</trd>
   <trd lng="eu">giltza</trd>
   <trdgrp lng="fr">
@@ -360,15 +363,22 @@
   <trd lng="gd">pr&igrave;omh</trd>
   <trd lng="gl">clave</trd>
   <trd lng="gu">&#2709;&#2752;</trd>
+  <trd lng="he">&mem;&pe;&tav;&het;</trd>
   <trd lng="hi">&#2325;&#2369;&#2306;&#2332;&#2368;</trd>
   <trd lng="hmn">tseem ceeb</trd>
   <trd lng="hr">klju&ccaron;</trd>
   <trd lng="ht">kle</trd>
+  <trd lng="hu">kulcs</trd>
   <trd lng="hy">&#1392;&#1387;&#1396;&#1398;&#1377;&#1391;&#1377;&#1398;</trd>
   <trd lng="id">kunci</trd>
   <trd lng="ig">igodo</trd>
+  <trd lng="io">klefo</trd>
   <trd lng="is">lykill</trd>
-  <trd lng="ja">&#12461;&#12540;</trd>
+  <trd lng="it">chiave</trd>
+  <trdgrp lng="ja">
+    <trd>&#37749; <pr>&#12363;&#12366;</pr></trd>,
+    <trd>&#12461;&#12540;</trd>
+  </trdgrp>
   <trd lng="jv">tombol</trd>
   <trd lng="ka">&#4315;&#4311;&#4304;&#4309;&#4304;&#4320;&#4312;</trd>
   <trd lng="kk">&c_k;&c_ib;&c_l;&c_t;</trd>
@@ -390,9 +400,13 @@
   <trd lng="mt">&#267;avetta</trd>
   <trd lng="my">&#4126;&#4145;&#4140;&#4151;</trd>
   <trd lng="ne">&#2346;&#2381;&#2352;&#2350;&#2369;&#2326;</trd>
+  <trd lng="nl">sleutel</trd>
   <trd lng="ny">chinsinsi</trd>
+  <trd lng="oc">clau</trd>
   <trd lng="pa">&#2581;&#2625;&#2672;&#2588;&#2624; &#2600;&#2626;&#2672;</trd>
   <trd lng="ps">&f_k;&a_l;&f_y;&a_d;&a_y;</trd>
+  <trd lng="pt">chave</trd>
+  <trd lng="ru">&c_k;&c_l;&c_ju;&c_ch;</trd>
   <trd lng="rw">urufunguzo</trd>
   <trd lng="sd">&a_A;&a_h;&a_m;</trd>
   <trd lng="si">&#3508;&#3530;&#3515;&#3504;&#3535;&#3505;</trd>
@@ -478,9 +492,18 @@
     <trd>einschlie&szlig;en</trd>,
     <trd>wegschlie&szlig;en</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>lock up</trd>,
+    <trd>lock in</trd>,
+    <trd>lock away</trd>
+  </trdgrp>
   <trd lng="fr">enfermer<klr> (&agrave; cl&eacute;)</klr></trd>
   <trd lng="id"><baz>kurung</baz>mengurung</trd>
   <trd lng="ja">&#38281;&#12376;&#36796;&#12417;&#12427;  <pr>&#12392;&#12376;&#12371;&#12417;&#12427;</pr></trd>
+  <trdgrp lng="nl">
+    <trd>opsluiten</trd>,
+    <trd>wegsluiten</trd>
+  </trdgrp>
   <trd lng="pl">zostawia&cacute;  <ind>zamkni&eogonek;te</ind><klr>  (na klucz)</klr></trd>
   <trd lng="sk">uzamkn&uacute;&tcaron;</trd>
   <trdgrp lng="uk">
@@ -527,12 +550,18 @@
   <trd lng="ca">obrir<klr tip="amb"> (amb una clau)</klr></trd>
   <trd lng="cs">odemknout</trd>
   <trd lng="de">aufschlie&szlig;en</trd>
+  <trd lng="en">unlock</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;verrouiller</trd>,
     <trd>ouvrir<klr> (avec une cl&eacute;)</klr></trd>
   </trdgrp>
   <trd lng="id"><baz>buka</baz>membuka kunci</trd>
+  <trd lng="io">desklefagar</trd>
   <trd lng="ja">&#37749;&#12434;&#12354;&#12369;&#12427;  <pr>&#12363;&#12366;&#12434;&#12354;&#12369;&#12427;</pr></trd>
+  <trdgrp lng="nl">
+    <trd>ontgrendelen</trd>,
+    <trd><klr tip="amb">(een slot) </klr>openen</trd>
+  </trdgrp>
   <trd lng="pl">odblokowa&cacute;</trd>
   <trd lng="sk">odomkn&uacute;&tcaron;</trd>
   <trd lng="uk">&c_v;&c_ib;&c_d;&c_m;&c_i;&c_k;&c_a;&c_t;&c_i;</trd>
@@ -572,11 +601,23 @@
   </trdgrp>
   <trd lng="en">master key</trd>
   <trd lng="fr">passepartout</trd>
+  <trd lng="io">chefa klefo</trd>
+  <trdgrp lng="ja">
+    <trd>&#35242;&#37749; <pr>&#12362;&#12420;&#12363;&#12366;</pr></trd>,
+    <trd>&#12510;&#12473;&#12479;&#12540;&#12461;&#12540;</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>moedersleutel</trd>,
+    <trd>loper<klr tip="ind"> (sleutel)</klr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.118 2026/07/21 06:41:02
+Sam Penter: trd
+
 versio 1.117 2026/01/14 20:00:20
 Hector Alos i Font: +trd ca
 
@@ -596,8 +637,5 @@ versio 1.110 2023/12/20 23:26:00
 Vito Redsky: +trd pl
 
 versio 1.109 2023/12/14 10:32:36
-Dmitri Gabinski: + trd be
-
-versio 1.108 2023/10/21 07:46:48
 -->
 </vortaro>
