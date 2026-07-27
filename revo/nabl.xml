@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nabl.xml,v 1.5 2023/01/26 09:27:13 revo Exp $">
+<art mrk="$Id: nabl.xml,v 1.6 2026/07/27 07:47:29 revo Exp $">
 <kap>
     <rad>nabl</rad>/o
 </kap>
@@ -12,7 +12,7 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatVort</bib></fnt>
     <dif>
-      La matematika simbolo &#8711; <tld/>o uzata por signi kelkajn
+      La matematika simbolo &#x2207; <tld/>o uzata por signi kelkajn
       vektorajn diferencialajn <ref cel="operat.0o">operatorojn</ref>:
       <ekz>
         la detale ellaboritaj eksplicitaj esprimoj por la necesaj
@@ -26,6 +26,7 @@ ref="&STEB;astronomio/perturboj_de_la_suncentraj_vektoraj_elementoj.pdf"
       </ekz>
     </dif>
     <trd lng="be">&c_n;&c_a;&c_b;&c_l;&c_a; <klr>(&c_m;&c_a;&c_t;. &c_a;&c_p;&c_e;&c_r;&c_a;&c_t;&c_a;&c_r;)</klr></trd>
+    <trd lng="de">Nabla</trd>
     <trd lng="el">&alfa;&ny;&alfa_ton;&delta;&epsilon;&lambda;&tau;&alfa;</trd>
     <trd lng="en">nabla</trd>
     <trd lng="pl">nabla <klr>(operator)</klr></trd>
@@ -36,11 +37,24 @@ ref="&STEB;astronomio/perturboj_de_la_suncentraj_vektoraj_elementoj.pdf"
     <uzo tip="fak">MUZ</uzo>
     <uzo tip="fak">HIS</uzo>
     <dif>
-      Fenicidevena antikva muzikilo simila al
-      <ref tip="super" cel="harp.0o">harpo</ref>
-      kun 10 a&ubreve; 12 kordoj, la fenica harpo.
+      Fenicidevena <ref tip="super" cel="psalte.0o">psaltero</ref>,
+      antikva muzikilo simila al <ref tip="super" cel="harp.0o">harpo</ref>
+      kun 10 a&ubreve; 12 kordoj, la fenica harpo:
+      <ekz>
+        Terpno, akompanonta lian ludon, proksimi&gcirc;is kun instrumento nomata <tld/>o
+        <fnt>
+          <aut>Henriko Senkivi&ccirc;, trad. Sergio Pokrovskij</aut>
+          <vrk><url ref="https://kovro.heliohost.org/books/QV/kien_ci_iras.pdf"
+              >Kien ci iras?</url></vrk>
+          <lok>Parto unua, &ccirc;apitro 7, p. 124</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_n;&c_a;&c_b;&c_l;&c_a; <klr>(&c_m;&c_u;&c_z;. &c_ib;&c_n;&c_s;&c_t;&c_r;&c_u;&c_m;&c_e;&c_n;&c_t;)</klr></trd>
+    <trdgrp lng="de">
+      <trd>Nabulum</trd>,
+      <trd>Psalterium</trd>
+    </trdgrp>
     <trdgrp lng="el">
       <trd>&ny;&alfa_ton;&beta;&lambda;&alfa;</trd>,
       <trd>&ny;&alfa_ton;&beta;&lambda;&omikron;&ny;</trd>
@@ -50,9 +64,10 @@ ref="&STEB;astronomio/perturboj_de_la_suncentraj_vektoraj_elementoj.pdf"
       <trd>nablum</trd>
     </trdgrp>
     <trd lng="en">psaltery</trd>
-    <trd lng="he">&nun;&#1461;&bet;&#1462;&lamed;</trd>
+    <trd lng="he">&nun;&#x5B5;&bet;&#x5B6;&lamed;</trd>
+    <trd lng="lat">nabulum</trd>
     <trd lng="pl">nabla <klr>(instrument)</klr></trd>
-    <trd lng="ro">nabla </trd>    
+    <trd lng="ro">nabla </trd>
     <trd lng="ru">&c_f;&c_i;&c_n;&c_i;&c_k;&c_i;&c_j;&c_s;&c_k;&c_a;&c_ja; &c_a;&c_r;&c_f;&c_a;</trd>
   </snc>
   <rim>
@@ -68,6 +83,9 @@ ref="&STEB;astronomio/perturboj_de_la_suncentraj_vektoraj_elementoj.pdf"
 
 <!--
 $Log$
+versio 1.6 2026/07/27 07:47:29
+Wolfram Diestel: +ekz, trd de, super psaltero
+
 versio 1.5 2023/01/26 09:27:13
 Dmitri Gabinski: + trd be
 
@@ -80,4 +98,4 @@ Vito Redsky: +trd pl +trd ro
 Revision 1.1  2019/12/28 15:10:14  revo
 Sergio Pokrovskij: nova artikolo
 -->
-</vortaro>
+</vortaro>
