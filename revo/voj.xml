@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: voj.xml,v 1.190 2026/06/27 19:45:40 revo Exp $">
+<art mrk="$Id: voj.xml,v 1.191 2026/07/31 19:51:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>voj</rad>/o <fnt><bib>UV</bib></fnt>
@@ -157,8 +157,10 @@
         <trd>&c_p;&c_malmol;&c_t;&c_je;&c_k;&c_a;</trd>
       </trdgrp>
       <trd lng="en">road</trd>
-      <trdgrp lng="fr">
-        <trd>route</trd>
+      <trd lng="fr">route</trd>
+      <trdgrp lng="it">
+        <trd>via</trd>,
+        <trd>strada</trd>
       </trdgrp>
       <trd lng="ku">re</trd>
       <trdgrp lng="pl">
@@ -167,9 +169,6 @@
         <trd>szosa</trd>,
         <trd>ulica</trd>,
         <trd>&sacute;cie&zdot;ka</trd>
-      </trdgrp>
-      <trdgrp lng="it">
-        <trd>via</trd>, <trd>strada</trd>
       </trdgrp>
       <trd lng="ru">&c_d;&c_o;&c_r;&c_o;&c_g;&c_a;</trd>
     </subsnc>
@@ -872,14 +871,14 @@
     <trd>d&eacute;vier<klr> (tr.)</klr></trd>,
     <trd>d&eacute;voyer</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>seleweng</baz>menyelewengkan</trd>,
+    <trd><baz>simpang</baz>menyimpangkan</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#36947;&#12363;&#12425;&#12381;&#12425;&#12379;&#12427;
     <pr>&#12393;&#12358;&#12363;&#12425;&#12381;&#12425;&#12379;&#12427;</pr></trd>,
     <trd>&#36947;&#12434;&#35492;&#12425;&#12379;&#12427;  <pr>&#12393;&#12358;&#12434;&#12354;&#12420;&#12414;&#12425;&#12379;&#12427;</pr></trd>
-  </trdgrp>
-  <trdgrp lng="id">
-    <trd><baz>seleweng</baz>menyelewengkan</trd>,
-    <trd><baz>simpang</baz>menyimpangkan</trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>odchyla&cacute;</trd>,
@@ -1237,7 +1236,7 @@
       </ekz>
     </dif>
     <trd lng="de"><ind>unterwegs</ind> sein</trd>
-  <trd lng="en">voyage</trd>
+    <trd lng="en">voyage</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_y;&c_c;&c_mol; &c_u; <ind>&c_d;&c_a;&c_r;&c_o;&c_z;&c_je;</ind></trd>,
@@ -1368,7 +1367,7 @@
       </ekz>
     </dif>
     <trd lng="de">Wasserweg</trd>
-  <trd lng="en">waterway <klr>(navigable)</klr></trd>
+    <trd lng="en">waterway <klr>(navigable)</klr></trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_o;&c_d;&c_n;&c_y; &c_sh;&c_l;&c_ja;&c_h;</trd>,
@@ -1816,9 +1815,6 @@
     <trd>ferroviaire</trd>,
     <trd>de <ind>chemin de fer</ind></trd>
   </trdgrp>
-  <trdgrp lng="it">
-    <trd>ferroviario</trd>
-  </trdgrp>
   <trdgrp lng="hu">
     <trd>vas&uacute;ti</trd>,
     <trd>vas&uacute;t-</trd>
@@ -1827,6 +1823,7 @@
     <trd>... <ind>rel</ind></trd>,
     <trd>... <ind>kereta</ind></trd>
   </trdgrp>
+  <trd lng="it">ferroviario</trd>
   <trd lng="ja">&#37444;&#36947;&#12398;  <pr>&#12390;&#12388;&#12393;&#12358;&#12398;</pr></trd>
   <trd lng="nl">spoor-</trd>
   <trd lng="pl">kolejowy</trd>
@@ -1875,7 +1872,7 @@
       </ekz>
     </dif>
     <trd lng="de">Eisenbahner</trd>
-  <trd lng="en"><ind>railway</ind> worker</trd>
+    <trd lng="en"><ind>railway</ind> worker</trd>
   </snc>
   <trd lng="be">&c_ch;&c_y;&c_g;&c_u;&c_n;&c_a;&c_ch;&c_n;&c_ib;&c_k;</trd>
   <trd lng="ca">ferroviari</trd>
@@ -2182,6 +2179,12 @@
     <trd>via</trd>,
     <trd>via f&egrave;rria</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>j&iacute;zdn&iacute; dr&aacute;ha</trd>,
+    <trd>kolej</trd>,
+    <trd>kolejov&aacute; dr&aacute;ha</trd>,
+    <trd>&zcaron;elezni&ccaron;n&iacute; tra&tcaron;</trd>
+  </trdgrp>
   <trd lng="es">ferrocarril</trd>
   <trdgrp lng="fr">
     <trd>voie<klr tip="ind"> (de chemin de fer)</klr></trd>,
@@ -2190,7 +2193,10 @@
     ferr&eacute;e)</klr></trd>
   </trdgrp>
   <trd lng="hu">v&aacute;g&aacute;ny</trd>
-  <trd lng="id">rel</trd>
+  <trdgrp lng="id">
+    <trd>rel</trd>,
+    <trd>rel kereta</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>ferrovia</trd>
   </trdgrp>
@@ -2209,16 +2215,6 @@
     <trd>ko&lcaron;aj</trd>,
     <trd>tra&tcaron;</trd>,
     <trd>&zcaron;elezni&ccaron;n&aacute; dr&aacute;ha</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>j&iacute;zdn&iacute; dr&aacute;ha</trd>,
-    <trd>kolej</trd>,
-    <trd>kolejov&aacute; dr&aacute;ha</trd>,
-    <trd>&zcaron;elezni&ccaron;n&iacute; tra&tcaron;</trd>
-  </trdgrp>
-  <trdgrp lng="id">
-    <trd>rel</trd>,
-    <trd>rel kereta</trd>
   </trdgrp>
   <trd lng="uk">&c_k;&c_o;&c_l;&c_ib;&c_ja;</trd>
   <trdgrp lng="zh">
@@ -2304,11 +2300,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_y; <ind>&c_sh;&c_l;&c_ja;&c_h;</ind></trd>
+  <trd lng="de">geschlossener <ind>Weg</ind></trd>
   <trdgrp lng="en">
     <trd>loop</trd>,
     <trd>closed <ind>path</ind></trd>
   </trdgrp>
-  <trd lng="de">geschlossener <ind>Weg</ind></trd>
   <trdgrp lng="fr">
     <trd>lacet<klr tip="ind"> (math.)</klr></trd>,
     <trd>chemin ferm&eacute;<klr tip="ind"> (math.)</klr></trd>
@@ -2404,6 +2400,9 @@
 </art>
 <!--
 $Log$
+versio 1.191 2026/07/31 19:51:22
+Vito Redsky: kor trd ordo 
+
 versio 1.190 2026/06/27 19:45:40
 Wolfram Diestel: trd de
 
@@ -2423,8 +2422,5 @@ versio 1.185 2025/11/05 04:36:45
 Eko Nur Syah Hidayat: +trd id 2
 
 versio 1.184 2025/09/17 06:42:47
-Hector Alos i Font: +trd cv
-
-versio 1.183 2025/07/20 10:00:25
 -->
 </vortaro>
