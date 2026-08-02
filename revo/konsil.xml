@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konsil.xml,v 1.47 2026/07/06 04:38:38 revo Exp $">
+<art mrk="$Id: konsil.xml,v 1.48 2026/08/02 10:09:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konsil</rad>/i <fnt><bib>UV</bib></fnt>
@@ -108,27 +108,30 @@
     <trd>&c_r;&c_a;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">radit</trd>
-  <trd lng="es">aconsejar</trd>
+  <trdgrp lng="cs">
+    <trd>radit</trd>,
+    <trd>poradit</trd>
+  </trdgrp>
   <trdgrp lng="de">
- <trd>raten</trd>,
- <trd>anraten</trd>,
- <trd>beraten</trd>
+     <trd>raten</trd>,
+     <trd>anraten</trd>,
+     <trd>beraten</trd>
   </trdgrp>
   <trdgrp lng="en"><trd>to advise</trd>, <trd>counsel</trd></trdgrp>
+  <trd lng="es">aconsejar</trd>
   <trd lng="fr">conseiller</trd>
   <trdgrp lng="id">
-    <trd>meng<ind>anjur</ind>kan</trd>,
-    <trd>me<ind>nasihat</ind>i</trd>
+    <trd><baz>saran</baz>menyarankan</trd>,
+    <trd><baz>anjur</baz>menganjurkan</trd>,
+    <trd><baz>nasihat</baz>menasihati</trd>
   </trdgrp>
-  <trd lng="id"><baz>saran</baz>menyarankan</trd>
   <trdgrp lng="ja">
     <trd>&#x52A9;&#x8A00;&#12377;&#x308B;  <pr>&#12376;&#12423;&#12370;&#12435;&#12377;&#x308B;</pr></trd>,
     <trd>&#x52E7;&#12417;&#x308B;  <pr>&#12377;&#12377;&#12417;&#x308B;</pr></trd>,
     <trd>&#x5FE0;&#x544A;&#12377;&#x308B;  <pr>&#12385;&#12421;&#12358;&#12371;&#x304F;&#12377;&#x308B;</pr></trd>
   </trdgrp>
-  <trd lng="nl">aanraden</trd>
   <trd lng="ms">menasihat</trd>
+  <trd lng="nl">aanraden</trd>
   <trdgrp lng="pl">
     <trd>radzi&cacute;</trd>,
     <trd>doradza&cacute;</trd>,
@@ -141,12 +144,6 @@
   </trdgrp>
   <trd lng="ru">&c_s;&c_o;&c_v;&c_je;&c_t;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">radi&tcaron;</trd>
-  <trd lng="cs">radit, poradit</trd>
-<trdgrp lng="id">
-  <trd><baz>saran</baz>menyarankan</trd>,
-  <trd><baz>anjur</baz>menganjurkan</trd>,
-  <trd><baz>nasihat</baz>menasihati</trd>
-</trdgrp>
   <trdgrp lng="zh">
     <trd>&#x529D;&#x8BF4; <pr>qu&agrave;nshu&omacron;</pr></trd>,
     <trd>&#x529D;&#x544A; <pr>qu&agrave;ng&agrave;o</pr></trd>,
@@ -216,13 +213,13 @@
       <trd>Ratschlag</trd>,
       <trd>Empfehlung</trd>
     </trdgrp>
-    <trd lng="ms">nashihat</trd>
     <trdgrp lng="en">
       <trd>advice</trd>,
       <trd>counsel</trd>, <trd>opinion</trd>
     </trdgrp>
     <trd lng="es">consejo</trd>
-      <trdgrp lng="nl">
+    <trd lng="ms">nashihat</trd>
+    <trdgrp lng="nl">
       <trd>raad</trd>,
       <trd>raadgeving</trd>
     </trdgrp>
@@ -546,9 +543,9 @@
     </dif>
     <trd lng="de">Rat</trd>
     <trd lng="nl">raadsman</trd>
-    <trd lng="ru">&c_s;&c_o;&c_v;&c_je;&c_t;&c_n;&c_i;&c_k;</trd>
     <trd lng="es">consejero<klr> (cargo, puesto)</klr></trd>
     <trd lng="pl">radca</trd>
+    <trd lng="ru">&c_s;&c_o;&c_v;&c_je;&c_t;&c_n;&c_i;&c_k;</trd>
   </snc>
   <snc mrk="konsil.0isto.persono">
     <dif>
@@ -639,12 +636,12 @@
     <trd>Ratsversammlung</trd>
   </trdgrp>
   <trd lng="en">council</trd>
+  <trd lng="es">consejo<klr> (grupo de consejeros)</klr></trd>
   <trd lng="fr">conseil<klr> (groupe de conseillers)</klr></trd>
   <trd lng="id">dewan</trd>
   <trd lng="nl">raad<klr tip="ind"> (raadgevend lichaam)</klr></trd>
   <trd lng="pl">rada</trd>
   <trd lng="ru">&c_s;&c_o;&c_v;&c_je;&c_t;</trd>
-  <trd lng="es">consejo<klr> (grupo de consejeros)</klr></trd>
   <trdgrp lng="zh">
     <trd>&#x4F1A;&#x8BAE; <pr>hu&igrave;y&igrave;</pr></trd>,
     <trd>&#29702;&#x4E8B;&#x4F1A; <pr>l&#x1D0;sh&igrave;hu&igrave;</pr></trd>,
@@ -841,8 +838,12 @@
 </art>
 <!--
 $Log$
+versio 1.48 2026/08/02 10:09:42
+Wolfram Diestel: trd-ordo
+
 versio 1.47 2026/07/06 04:38:38
-Sam Penter: movis la difinon de ~istaro al ~antaro (kaj aldonis fontojn), cxar tiu formo estas multege pli ofta en Tekstaro tra la tuta historio de Esperanto (kaj pli ofta en Vikipedio)
+Sam Penter: movis la difinon de ~istaro al ~antaro (kaj aldonis fontojn), cxar tiu formo estas
+multege pli ofta en Tekstaro tra la tuta historio de Esperanto (kaj pli ofta en Vikipedio)
 
 versio 1.46 2026/02/11 07:18:17
 Wolfram Diestel: ref
@@ -858,10 +859,5 @@ Eko Nur Syah Hidayat: +trd id 2
 
 versio 1.41 2023/10/18 17:23:24
 revo: transskribo per <pr>
-
-versio 1.40 2023/09/20 18:27:31
-Wolfram Diestel: +ekz-oj, ref-oj, trd de
-
-versio 1.39 2023/09/08 14:27:07
 -->
 </vortaro>
