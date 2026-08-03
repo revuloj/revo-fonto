@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lig.xml,v 1.94 2026/06/17 22:10:52 revo Exp $">
+<art mrk="$Id: lig.xml,v 1.95 2026/08/03 15:28:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lig</rad>/i <fnt><bib>UV</bib></fnt>
@@ -592,7 +592,6 @@
       <ref cel="konekt.0o">konekto</ref>,
       <ref cel="rilat.0o.interligo">rilato<sncref/></ref>
     </refgrp>
-    <trd lng="de">Verbindung</trd>
     <trd lng="be">&c_s;&c_u;&c_v;&c_ja;&c_z;&c_mol;</trd>
     <trdgrp lng="de">
       <trd>Verbindung</trd>,
@@ -671,11 +670,13 @@
       <trd>Liga</trd>
     </trdgrp>
     <trd lng="en">league</trd>
+    <trd lng="es">liga</trd>
     <trd lng="fr">ligue</trd>
     <trdgrp lng="hu">
       <trd>sz&ouml;vets&eacute;g</trd>,
       <trd>liga</trd>
     </trdgrp>
+    <trd lng="id">liga</trd>
     <trdgrp lng="nl">
       <trd>bond</trd>,
       <trd>liga</trd>
@@ -685,8 +686,6 @@
       <trd>zwi&aogonek;zek</trd>
     </trdgrp>
     <trd lng="pt">liga</trd>
-    <trd lng="es">liga</trd>
-    <trd lng="id">liga</trd>
     <trdgrp lng="ru">
       <trd>&c_s;&c_o;&c_ju;&c_z;</trd>,
       <trd>&c_l;&c_i;&c_g;&c_a;</trd>
@@ -1447,7 +1446,7 @@
   <trdgrp lng="nl">
     <trd>binden</trd>,
     <trd>aanbinden</trd>
-  </trdgrp><trd lng="nl">binden</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_v;&c_ja;&c_z;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>pripoji&tcaron;</trd>,
@@ -1714,16 +1713,16 @@
     <trd lng="be">&c_u;&c_z;&c_a;&c_je;&c_m;&c_a;&c_s;&c_u;&c_v;&c_ja;&c_z;&c_mol;</trd>
     <trd lng="de">Zusammenhang</trd>
     <trd lng="en">connection</trd>
+    <trdgrp lng="hu">
+      <trd>k&ouml;lcs&ouml;n&ouml;s kapcsolat</trd>,
+      <trd>&ouml;sszef&uuml;gg&eacute;s</trd>
+    </trdgrp>
+    <trd lng="id">koneksi</trd>
     <trdgrp lng="pl">
       <trd>powi&aogonek;zanie</trd>,
       <trd>po&lstroke;&aogonek;czenie</trd>
     </trdgrp>
     <trd lng="ru">&c_v;&c_z;&c_a;&c_i;&c_m;&c_o;&c_s;&c_v;&c_ja;&c_z;&c_mol;</trd>
-    <trdgrp lng="hu">
-      <trd>k&ouml;lcs&ouml;n&ouml;s kapcsolat</trd>,
-      <trd>&ouml;sszef&uuml;gg&eacute;s</trd>
-    </trdgrp>
-  <trd lng="id">koneksi</trd>
   </snc>
   <snc mrk="lig.inter0o.POL">
     <uzo tip="fak">POL</uzo>
@@ -2157,6 +2156,7 @@
         <trd>relative <ind>product</ind></trd>,
         <trd>composition <ind>product</ind> <klr tip="ind">(of mapping, relations)</klr></trd>
       </trdgrp>
+      <trd lng="es">composici&oacute;n (de funciones)</trd>
       <trdgrp lng="fr">
         <trd>application compos&eacute;e</trd>,
         <trd>relation compos&eacute;e</trd>,
@@ -2164,7 +2164,6 @@
             (d'applications, de relations)</klr></trd>
       </trdgrp>
       <trd lng="hu">kompoz&iacute;ci&oacute;</trd>
-      <trd lng="es">composici&oacute;n (de funciones)</trd>
       <trdgrp lng="pl">
         <trd>funkcja z&lstroke;o&zdot;ona</trd>,
         <trd>z&lstroke;o&zdot;enie<klr tip="ind"> (funkcji lub relacji)</klr></trd>
@@ -2605,8 +2604,11 @@
 </art>
 <!--
 $Log$
+versio 1.95 2026/08/03 15:28:27
+Wolfram Diestel: trd-ordo
+
 versio 1.94 2026/06/17 22:10:52
-Wolfram Diestel: +al~iĝi
+Wolfram Diestel: +al~i&gcirc;i
 
 versio 1.93 2026/04/14 06:08:44
 Wolfram Diestel: ref
@@ -2624,8 +2626,5 @@ versio 1.89 2025/08/25 20:47:15
 Wolfram Diestel: +trans~o
 
 versio 1.88 2025/04/13 18:35:22
-Robert Baruch: +en
-
-versio 1.87 2025/04/09 08:39:49
 -->
 </vortaro>
