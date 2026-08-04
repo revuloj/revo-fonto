@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekspon1.xml,v 1.31 2025/03/02 18:47:13 revo Exp $">
+<art mrk="$Id: ekspon1.xml,v 1.32 2026/08/04 19:55:37 revo Exp $">
 <kap>
 <rad>eksponencial</rad>/o
 <fnt><bib>PVEF</bib></fnt></kap>
@@ -11,22 +11,23 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      <klr>(kun <ref cel="baz.0o.logaritmo">bazo</ref> 
+      <klr>(kun <ref cel="baz.0o.logaritmo">bazo</ref>
       <frm am="a"><k>a</k></frm>)</klr>
-      Tia <ref cel="kontin3.0a.cxie">kontinua</ref> reela 
+      Tia <ref cel="kontin3.0a.cxie">kontinua</ref> reela
       <ref tip="super" cel="funkci.0o.MAT">funkcio</ref>
       <frm am="f"><k>f</k></frm>, ke
-      <frm am="f(x+y)=f(x)*f(y)"><k>f</k>(<k>x</k>+<k>y</k>) = 
+      <frm am="f(x+y)=f(x)*f(y)"><k>f</k>(<k>x</k>+<k>y</k>) =
       <k>f</k>(<k>x</k>)&middot;<k>f</k>(<k>y</k>)</frm>
       kaj <frm am="f(1)=a"><k>f</k>(1) = <k>a</k></frm>:
       <ekz>
-        <tld/>on de <frm am="x"><k>x</k></frm> kun bazo <frm am="a"><k>a</k></frm> oni kutime signas per
+        <tld/>on de <frm am="x"><k>x</k></frm> kun bazo <frm am="a"><k>a</k></frm> oni kutime signas
+        per
         <frm am="exp_a(x)">exp<sub><k>a</k></sub>(<k>x</k>)</frm>,
-        <frm am="&quot;eksp&quot;_a(x)">eksp<sub><k>a</k></sub>(<k>x</k>)</frm> 
-        a&ubreve; <frm am="a^x"><k>a</k><sup><k>x</k></sup></frm>; 
+        <frm am="&quot;eksp&quot;_a(x)">eksp<sub><k>a</k></sub>(<k>x</k>)</frm>
+        a&ubreve; <frm am="a^x"><k>a</k><sup><k>x</k></sup></frm>;
       </ekz>
       <ekz>
-        la&ubreve;difine, <tld/>o de sumo egalas al produto de <tld/>oj de la 
+        la&ubreve;difine, <tld/>o de sumo egalas al produto de <tld/>oj de la
         apartaj termoj, kaj <tld/>o de <frm>1</frm> egalas al la bazo;
       </ekz>
       <ekz>
@@ -34,7 +35,7 @@
         dividita per la bazo;
       </ekz>
       <ekz>
-         <tld/>o de logaritmo de <frm am="x"><k>x</k></frm> egalas al 
+         <tld/>o de logaritmo de <frm am="x"><k>x</k></frm> egalas al
          <frm am="x"><k>x</k></frm>;
       </ekz>
       <ekz>
@@ -61,7 +62,7 @@
       Eblas vastigi tiun funkcion al kompleksoj, uzante la identa&jcirc;on
       <frm am="e^(x+i*y)=e^x(cos y+i*sin y)"><k>e</k><sup><k>x</k>+<k>i</k>&middot;<k>y</k></sup> =
       <k>e</k><sup><k>x</k></sup>(cos<k>y</k> +
-      <k>i</k>&middot;sin<k>y</k>)</frm>, 
+      <k>i</k>&middot;sin<k>y</k>)</frm>,
       en kiu <frm am="e"><k>e</k></frm> estas la bazo de naturaj
       logaritmoj.
     </rim>
@@ -73,6 +74,11 @@
     <trd>&c_p;&c_a;&c_k;&c_a;&c_z;&c_mol;&c_n;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_y;&c_ja;</ind></trd>
   </trdgrp>
   <trd lng="ca">funci&oacute; <ind>exponencial</ind></trd>
+  <trdgrp lng="cs">
+    <trd>exponenci&aacute;l</trd>,
+    <trd>exponenci&aacute;ln&iacute; funkce</trd>,
+    <trd>exponenci&aacute;ln&iacute; rovnice</trd>
+  </trdgrp>
   <trd lng="de">Exponentialfunktion</trd>
   <trdgrp lng="en">
     <trd>exponential<klr tip="ind"> (to the base a)</klr></trd>,
@@ -83,7 +89,7 @@
   <trd lng="fr">exponentielle<klr tip="ind"> (subst., de base
   a)</klr></trd>
   <trd lng="hu">exponenci&aacute;lis<klr tip="ind"> (f&uuml;ggv&eacute;ny)</klr>&gt;</trd>
-  <trd lng="ja">&#x6307;&#x6570;&#x95A2;&#x6570;  <pr>&#x3057;&#x3059;&#x3046;&#x304B;&#x3093;&#x3059;&#x3046;</pr></trd>
+  <trd lng="ja">&#25351;&#25968;&#x95A2;&#25968;  <pr>&#12375;&#12377;&#12358;&#x304B;&#12435;&#12377;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>funkcja wyk&lstroke;adnicza</trd>,
     <trd>funkcja eksponencjalna</trd>
@@ -95,20 +101,19 @@
     <trd>&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</ind></trd>
   </trdgrp>
   <trd lng="sk">exponenci&aacute;l</trd>
-  <trdgrp lng="cs">
-    <trd>exponenci&aacute;l</trd>,
-    <trd>exponenci&aacute;ln&iacute; funkce</trd>,
-    <trd>exponenci&aacute;ln&iacute; rovnice</trd>
-  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x43E;&#x432;&#x430;</trd>,
-    <trd>&#x435;&#x43A;&#x441;&#x43F;&#x43E;&#x43D;&#x435;&#x43D;&#x446;&#x456;&#x430;&#x43B;&#x44C;&#x43D;&#x430; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x456;&#x44F;</trd>
+    <trd>&#x43F;&#x43E;&#x43A;&c_a;&c_z;&#x43E;&c_v;&c_a;</trd>,
+    <trd>&c_je;&#x43A;&c_s;&#x43F;&#x43E;&#x43D;&c_je;&#x43D;&c_c;&c_ib;&c_a;&#x43B;&#x44C;&#x43D;&c_a;
+    &c_f;&c_u;&#x43D;&#x43A;&c_c;&c_ib;&#x44F;</trd>
   </trdgrp>
-  <trd lng="zh">&#x6307;&#x6570;&#x51FD;&#x6570; <pr>zh&#x1D0;sh&#xF9;h&#xE1;nsh&#xF9;</pr></trd>
+  <trd lng="zh">&#25351;&#25968;&#x51FD;&#25968; <pr>zh&#x1D0;sh&#xF9;h&#xE1;nsh&#xF9;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2026/08/04 19:55:37
+Wolfram Diestel: trd-ordo
+
 versio 1.29 2023/10/14 15:34:42
 revo: transskribo per <pr>
 
@@ -128,8 +133,5 @@ Revision 1.22  2012/09/05 09:10:16  revo
 Marc Rausell: + trd ca
 
 Revision 1.21  2010/01/19 17:30:28  revo
-Mireille Corobu: + bld de Marc Bavant
-
-Revision 1.20  2007/06/23 16:31:02  revo
 -->
 </vortaro>
