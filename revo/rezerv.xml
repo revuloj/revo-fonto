@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rezerv.xml,v 1.43 2026/08/03 15:17:14 revo Exp $">
+<art mrk="$Id: rezerv.xml,v 1.44 2026/08/04 06:41:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rezerv</rad>/i
@@ -278,7 +278,6 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="en">reserve</trd>
   <trdgrp lng="be">
     <trd>&c_r;&c_e;&c_z;&c_e;&c_r;&c_v;&c_a;&c_v;&c_y;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_a;&c_s;&c_n;&c_y;</trd>
@@ -417,15 +416,23 @@
     <refgrp tip="vid">
       <ref cel="stok.0o">stoko</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_r;&c_e;&c_z;&c_e;&c_r;&c_v;</trd>,
+      <trd>&c_z;&c_a;&c_p;&c_a;&c_s;</trd>
+    </trdgrp>
+    <trdgrp lng="cs">
+      <trd>n&aacute;mitka</trd>,
+      <trd>v&yacute;hrada</trd>,
+      <trd>v&yacute;minka</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Zur&uuml;ckgelegtes</trd>,
       <trd>Reserve</trd>,
       <trd>Ersatz</trd>
     </trdgrp>
-    <trd lng="en">reserve</trd>
-    <trdgrp lng="be">
-      <trd>&c_r;&c_e;&c_z;&c_e;&c_r;&c_v;</trd>,
-      <trd>&c_z;&c_a;&c_p;&c_a;&c_s;</trd>
+    <trdgrp lng="en">
+      <trd>reserve</trd>,
+      <trd>fallback</trd>
     </trdgrp>
     <trd lng="es">reserva</trd>
     <trdgrp lng="fa">
@@ -437,6 +444,11 @@
       <trd>tartal&eacute;kol&aacute;s</trd>
       <trd>fenntart&aacute;s</trd>,
       <trd>biztos&iacute;t&aacute;s</trd>
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd>simpanan</trd>,
+      <trd>cadangan</trd>,
+      <trd>reserve</trd>
     </trdgrp>
     <trdgrp lng="pl">
       <trd>rezerwa</trd>,
@@ -451,20 +463,6 @@
       <trd>v&yacute;hrada</trd>,
       <trd>v&yacute;nimka</trd>
     </trdgrp>
-    <trdgrp lng="cs">
-      <trd>n&aacute;mitka</trd>,
-      <trd>v&yacute;hrada</trd>,
-      <trd>v&yacute;minka</trd>
-    </trdgrp>
-  <trdgrp lng="en">
-    <trd>reserve</trd>,
-    <trd>fallback</trd>
-  </trdgrp>
-  <trdgrp lng="id">
-    <trd>simpanan</trd>,
-    <trd>cadangan</trd>,
-    <trd>reserve</trd>
-  </trdgrp>
   </snc>
   <trd lng="en">reservation</trd>
   <trdgrp lng="ja">
@@ -803,18 +801,14 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_r;&c_z;&c_e;&c_r;&c_v;&c_a;&c_t;</trd>
-  <trdgrp lng="de">
-    <trd>Naturschutzgebiet</trd>,
-    <trd>Reservat</trd>
-    </trdgrp>
-  <trdgrp lng="en">
-     <trd>nature reserve</trd>,
-     <trd>nature preserve</trd>
-  </trdgrp>
   <trdgrp lng="cs">
     <trd>chr&aacute;n&ecaron;n&aacute; lesn&iacute; oblast</trd>,
     <trd>p&rcaron;&iacute;rodn&iacute; rezervace</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Naturschutzgebiet</trd>,
+    <trd>Reservat</trd>
+    </trdgrp>
   <trdgrp lng="en">
     <trd>nature <ind>reserve</ind></trd>,
     <trd>nature <ind>preserve</ind></trd>
@@ -842,6 +836,9 @@
 </art>
 <!--
 $Log$
+versio 1.44 2026/08/04 06:41:20
+Wolfram Diestel: trd-ordo
+
 versio 1.43 2026/08/03 15:17:14
 Eko Nur Syah Hidayat: +trd id
 
@@ -861,8 +858,5 @@ versio 1.36 2023/10/20 19:20:37
 revo: transskribo per <pr>
 
 versio 1.35 2023/09/04 21:19:30
-Wolfram Diestel: +sen~a
-
-versio 1.33 2023/06/18 21:24:08
 -->
 </vortaro>
