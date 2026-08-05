@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bil.xml,v 1.24 2025/03/02 11:21:24 revo Exp $">
+<art mrk="$Id: bil.xml,v 1.25 2026/08/05 17:52:57 revo Exp $">
 <kap>
   <rad>bil</rad>/o
   <fnt><bib>JED</bib></fnt>
@@ -9,10 +9,11 @@
 
 <drv mrk="bil.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="bil.0o.EKON">
   <uzo tip="fak">EKON</uzo>
     <dif>
-      Rajto pri kapitalo, kutime negocebla en la borso; valorpapero:
+      Rajto pri kapitalo, kutime negocebla en la borso;
+      <ref tip="super" cel="paper.valor0o.EKON">valorpapero</ref>:
       <ekz>
         investantoj <klr>[&#x2026;]</klr> a&ccirc;etas la diversajn <tld/>ojn emisiitajn dum la
         <tld/>iga proceduro
@@ -21,13 +22,17 @@
           <aut>Roland Rotsaert</aut>
           <vrk><url ref="&Monato;/2008/009505.php">Kreditkrizo da&ubreve;ras</url></vrk>
         </fnt>.
-      </ekz>  
+      </ekz>
     </dif>
   </snc>
   <refgrp tip="vid"><ref cel="akci.0o">akcio</ref>,
   <ref cel="obliga.0o">obligacio</ref></refgrp>
   <trd lng="be">&c_k;&c_a;&c_sh;&c_t;&c_o;&c_w;&c_n;&c_a;&c_ja;
-  &c_p;&c_a;&c_p;&c_je;&c_r;&c_a;</trd>
+    &c_p;&c_a;&c_p;&c_je;&c_r;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>cenn&yacute; pap&iacute;r</trd>,
+    <trd>sm&ecaron;nka</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Effekt</trd>,
     <trd>begebbares Wertpapier</trd>,
@@ -37,7 +42,7 @@
     <trd>negotiable document of value</trd>,
     <trd>negotiable instrument</trd></trdgrp>
   <trd lng="fr">titre<klr> (boursier)</klr></trd>
-  <trd lng="he">&#x5E9;&#x5D8;&#x5E8; &#x5D7;&#x5D5;&#x5D1;</trd>
+  <trd lng="he">&shin;&tet;&resh; &het;&vav;&bet;</trd>
   <trd lng="hu">&eacute;rt&eacute;kpap&iacute;r</trd>
   <trdgrp lng="ja">
     <trd>&#x8A3C;&#x5238;  <pr>&#x3057;&#x3087;&#x3046;&#x3051;&#x3093;</pr></trd>,
@@ -51,23 +56,19 @@
   <trd lng="ru">&c_c;&c_je;&c_n;&c_n;&c_a;&c_ja;
   &c_b;&c_u;&c_m;&c_a;&c_g;&c_a;</trd>
   <trd lng="sk">burzov&yacute; cenn&yacute; papier</trd>
-  <trdgrp lng="cs">
-    <trd>cenn&yacute; pap&iacute;r</trd>,
-    <trd>sm&ecaron;nka</trd>
-  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x446;&#x456;&#x43D;&#x43D;&#x438;&#x439; &#x43F;&#x430;&#x43F;&#x456;&#x440;</trd>,
-    <trd>&#x431;&#x456;&#x43B;&#x43B;&#x44C;</trd>,
-    <trd>&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43E;&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;</trd>
+    <trd>&c_c;&c_ib;&c_n;&c_n;&c_i;&c_j; &c_p;&c_a;&c_p;&c_ib;&c_r;</trd>,
+    <trd>&c_b;&c_ib;&c_l;&c_l;&c_mol;</trd>,
+    <trd>&c_z;&c_a;&c_k;&c_o;&c_n;&c_o;&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;</trd>
   </trdgrp>
 </drv>
-  
+
   <drv mrk="bil.0borso">
     <kap><tld/>oborso</kap>
-    <snc>
+    <snc mrk="bil.0borso.EKON">
     <uzo tip="fak">EKON</uzo>
       <dif>
-        Loko, kie oni negocas <tld/>ojn.  
+        Loko, kie oni negocas <tld/>ojn.
       </dif>
     </snc>
   <trd lng="be">&c_f;&c_o;&c_n;&c_d;&c_a;&c_v;&c_a;&c_ja;
@@ -79,11 +80,14 @@
   <trd lng="ja">&#x8A3C;&#x5238;&#x53D6;&#x5F15;&#x6240;  <pr>&#x3057;&#x3087;&#x3046;&#x3051;&#x3093;&#x3068;&#x308A;&#x3072;&#x304D;&#x3058;&#x3087;</pr></trd>
   <trd lng="nl">effectenbeurs</trd>
   <trd lng="sk">burza cenn&yacute;ch papierov</trd>
-  <trd lng="uk">&#x431;&#x456;&#x440;&#x436;&#x430; &#x446;&#x456;&#x43D;&#x43D;&#x438;&#x445; &#x43F;&#x430;&#x43F;&#x435;&#x440;&#x456;&#x432;</trd>
+  <trd lng="uk">&c_b;&c_ib;&c_r;&c_zh;&c_a; &c_c;&c_ib;&c_n;&c_n;&c_i;&c_h; &c_p;&c_a;&c_p;&c_je;&c_r;&c_ib;&c_v;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2026/08/05 17:52:57
+Wolfram Diestel: ref
+
 versio 1.23 2023/10/14 08:39:48
 revo: transskribo per <pr>
 
@@ -103,8 +107,5 @@ Revision 1.14  2015/04/17 15:10:17  revo
 Damien Brucker: +trd fr
 
 Revision 1.13  2009/07/05 16:40:24  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.12  2009/03/10 17:31:14  revo
 -->
-</vortaro>
+</vortaro>
