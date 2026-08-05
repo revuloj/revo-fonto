@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lum.xml,v 1.183 2026/08/04 18:06:08 revo Exp $">
+<art mrk="$Id: lum.xml,v 1.184 2026/08/05 06:42:04 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lum</rad>/i <fnt><bib>UV</bib></fnt>
@@ -471,11 +471,11 @@
       <trd>f&eacute;ny</trd>,
       <trd>vil&aacute;goss&aacute;g</trd>
     </trdgrp>
-    <trd lng="ru">&c_s;&c_v;&c_je;&c_t;</trd>
     <trdgrp lng="it">
       <trd>luce</trd>,
       <trd>lume</trd>
     </trdgrp>
+    <trd lng="ru">&c_s;&c_v;&c_je;&c_t;</trd>
   </snc>
   <snc mrk="lum.0o.vero">
     <uzo tip="fak">REL</uzo>
@@ -858,8 +858,8 @@
       <trd>terang</trd>,
       <trd>cerah</trd>
     </trdgrp>
-    <trd lng="pt">luminoso</trd>
     <trd lng="it">luminoso</trd>
+    <trd lng="pt">luminoso</trd>
     <trd lng="sv">ljus</trd>
   </snc>
   <snc mrk="lum.0a.idealo">
@@ -1146,12 +1146,12 @@
       <trd>alumbrar</trd>
     </trdgrp>
     <trd lng="hu">(meg)<ind>vil&aacute;g&iacute;t</ind></trd>
+    <trd lng="it">illuminare</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_s;&c_v;&c_je;&c_t;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_o;&c_s;&c_v;&c_je;&c_shch;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
     <trd lng="sv">belysa</trd>
-   <trd lng="it">illuminare</trd>
   </snc>
 <!-- ne trovi&gcirc;is ekz-oj, &ccirc;u tiu snc-o vere ekzistas en Eo?
   <snc mrk="lum.0igi.heligi">
@@ -1203,12 +1203,12 @@
     </trdgrp>
     <trd lng="de">beleuchten <klr>(kl&auml;ren)</klr></trd>
     <trd lng="hu">megvil&aacute;g&iacute;t <klr tip="ind">
-(&aacute;tv.)</klr></trd>
-    <trd lng="ru">&c_p;&c_r;&c_o;&c_ja;&c_s;&c_n;&c_i;&c_t;&c_mol;</trd>
+       (&aacute;tv.)</klr></trd>
     <trdgrp lng="it">
       <trd>illuminare</trd>
       <trd>chiarire</trd>
     </trdgrp>
+    <trd lng="ru">&c_p;&c_r;&c_o;&c_ja;&c_s;&c_n;&c_i;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="lum.0igi.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -1243,9 +1243,9 @@
       <trd>fer resplandir</trd>
     </trdgrp>
     <trd lng="hu">felder&iacute;t <klr tip="ind">(&aacute;tv.)</klr></trd>
+    <trd lng="it">illuminare</trd>
     <trd lng="ru">&c_o;&c_s;&c_v;&c_je;&c_t;&c_i;&c_t;&c_mol;
     <klr>(&c_p;&c_je;&c_r;&c_je;&c_n;.)</klr></trd>
-   <trd lng="it">illuminare</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>osv&ecaron;tlit</trd>,
@@ -1358,16 +1358,16 @@
       <trd>vil&aacute;g&iacute;t&oacute;eszk&ouml;z</trd>,
       <trd>l&aacute;mpa</trd>
     </trdgrp>
-    <trd lng="nl">lichtbron <klr tip="ind"> (arch.)</klr></trd>
-    <trd lng="ru">&c_s;&c_v;&c_je;&c_t;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
     <trdgrp lng="it">
       <trd>lampada</trd>,
       <trd>fanale</trd>,
       <trd>illuminatore</trd>
     </trdgrp>
+    <trd lng="nl">lichtbron <klr tip="ind"> (arch.)</klr></trd>
+    <trd lng="ru">&c_s;&c_v;&c_je;&c_t;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
     <trd lng="tr">&inodot;&scedil;&inodot;kland&inodot;rma</trd>
     <trd lng="zh">&#29031;&#x4EAE; <pr>zh&agrave;oli&agrave;ng</pr></trd>
-</snc>
+  </snc>
   <adm>
     PIV1 ne plu konas ~igilo kaj transdonas &gcirc;ian sencon al ~ilo.
     Necesas restudi per ekzemploj: ~o 3, ~ilo, ~ajxo, ~igilo. <aut>MB</aut>
@@ -1542,10 +1542,15 @@
   <trd lng="be">&c_k;&c_r;&c_y;&c_n;&c_ib;&c_c;&c_a;
   <ind>&c_s;&c_mol;&c_v;&c_ja;&c_t;&c_l;&c_a;</ind></trd>
   <trd lng="ca">llum<klr tip="amb"> (masc)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>osv&ecaron;tlovac&iacute; t&ecaron;leso</trd>,
+    <trd>sv&iacute;tilna</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Lichtquelle</trd>,
     <trd>Leuchte</trd>
   </trdgrp>
+  <trd lng="en">lamp</trd>
   <trd lng="es">lumbrera</trd>
   <trdgrp lng="fr">
     <trd>luminaire<klr tip="ind"> (source)</klr></trd>,
@@ -1555,6 +1560,7 @@
     <trd>vil&aacute;g&iacute;t&oacute; pont</trd>,
     <trd>f&eacute;nyforr&aacute;s</trd>
   </trdgrp>
+  <trd lng="id">sumber cahaya</trd>
   <trdgrp lng="it">
     <trd>lume<klr> (oggetto)</klr></trd>,
     <trd>sorgente luminosa</trd>,
@@ -1579,14 +1585,8 @@
     <trd>&c_s;&c_v;&c_je;&c_t;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_i;&c_s;&c_t;&c_o;&c_ch;&c_n;&c_i;&c_k; <ind>&c_s;&c_v;&c_je;&c_t;&c_a;</ind></trd>
   </trdgrp>
-  <trd lng="tr">&inodot;&scedil;&inodot;k kayna&gbreve;&inodot;</trd>
   <trd lng="sk">osvet&lcaron;ovacie teleso</trd>
-  <trdgrp lng="cs">
-    <trd>osv&ecaron;tlovac&iacute; t&ecaron;leso</trd>,
-    <trd>sv&iacute;tilna</trd>
-  </trdgrp>
-  <trd lng="en">lamp</trd>
-  <trd lng="id">sumber cahaya</trd>
+  <trd lng="tr">&inodot;&scedil;&inodot;k kayna&gbreve;&inodot;</trd>
   <trd lng="uk">&c_s;&c_v;&c_ib;&c_t;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
   <trd lng="zh">&#20809;&#x6E90; <pr>gu&amacron;ngyu&aacute;n</pr></trd>
 </drv>
@@ -2056,12 +2056,24 @@
   <trd lng="am">&#4904;&#4616;&#x121B;</trd>
   <trd lng="ar">&a_m;&a_Z;&a_l;&a_m;</trd>
   <trd lng="az">qaranl&inodot;q</trd>
+  <trd lng="be">&c_c;&c_jo;&c_m;&c_n;&c_y;</trd>
   <trd lng="bn">&#2437;&#x9A8;&#x9CD;&#x9A7;&#2453;&#x9BE;&#x9B0;</trd>
   <trd lng="bo">&t_na;&t_ga;&t_tsheg;&t_kha;&t_shabchu;&t_nga;&t_tsheg;</trd>
   <trd lng="co">scure</trd>
+  <trdgrp lng="cs">
+    <trd>neosv&ecaron;tlen&yacute;</trd>,
+    <trd>temn&yacute;</trd>
+  </trdgrp>
   <trd lng="cy">tywyll</trd>
   <trd lng="da">m&oslash;rk</trd>
+  <trd lng="de">dunkel</trd>
+  <trd lng="en">dark</trd>
+  <trdgrp lng="es">
+    <trd>oscuro</trd>,
+    <trd>obscuro</trd>
+  </trdgrp>
   <trd lng="et">tume</trd>
+  <trd lng="fr">obscur</trd>
   <trd lng="fy">tsjuster</trd>
   <trd lng="ga">dorcha</trd>
   <trd lng="gd">dorcha</trd>
@@ -2071,30 +2083,18 @@
   <trd lng="hmn">tsaus</trd>
   <trd lng="hr">mrak</trd>
   <trd lng="ht">f&egrave; nwa</trd>
+  <trd lng="hu">s&ouml;t&eacute;t</trd>
   <trd lng="hy">&#1396;&#1400;&#1410;&#1385;</trd>
   <trd lng="ig">gbara &#x1ECD;ch&#x1ECB;ch&#x1ECB;r&#x1ECB;</trd>
   <trd lng="is">d&ouml;kk</trd>
-  <trd lng="ja">&#26263;&#12356; <pr>&#x304F;&#12425;&#12356;</pr></trd>
-  <trd lng="jv">peteng</trd>
-  <trd lng="ka">&#x10DB;&#x10E3;&#x10E5;&#x10D8;</trd>
-  <trd lng="kek">aak&#789;ab&#789;</trd>
-  <trd lng="be">&c_c;&c_jo;&c_m;&c_n;&c_y;</trd>
-  <trdgrp lng="cs">
-    <trd>neosv&ecaron;tlen&yacute;</trd>,
-    <trd>temn&yacute;</trd>
-  </trdgrp>
-  <trd lng="de">dunkel</trd>
-  <trd lng="en">dark</trd>
-  <trdgrp lng="es">
-    <trd>oscuro</trd>,
-    <trd>obscuro</trd>
-  </trdgrp>
-  <trd lng="fr">obscur</trd>
-  <trd lng="hu">s&ouml;t&eacute;t</trd>
   <trdgrp lng="it">
     <trd>oscuro<klr> (agg.)</klr></trd>,
     <trd>buio<klr> (agg.)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#26263;&#12356; <pr>&#x304F;&#12425;&#12356;</pr></trd>
+  <trd lng="jv">peteng</trd>
+  <trd lng="ka">&#x10DB;&#x10E3;&#x10E5;&#x10D8;</trd>
+  <trd lng="kek">aak&#789;ab&#789;</trd>
   <trd lng="kk">&#x49B;&c_a;&c_r;&c_a;&#x4A3;&#1171;&c_y;</trd>
   <trd lng="km">&#6020;&#6020;&#x17B9;&#x178F;</trd>
   <trd lng="kn">&#xCA1;&#xCBE;&#xCB0;&#xCCD;&#xC95;&#xCCD;</trd>
@@ -3108,13 +3108,18 @@
   <trd lng="be">&c_p;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_je;
   <ind>&c_z;&c_mol;&c_z;&c_ja;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
   <trd lng="ca">aurora polar</trd>
+  <trd lng="cs">pol&aacute;rn&iacute; z&aacute;&rcaron;e</trd>
   <trd lng="de">Polarlicht</trd>
   <trdgrp lng="en">
-    <trd>polar light</trd>,
+    <trd>polar <ind>light</ind></trd>,
     <trd>aurora polaris</trd>
   </trdgrp>
   <trd lng="fr"><ind>aurore</ind> polaire</trd>
   <trd lng="hu">sarki f&eacute;ny</trd>
+  <trdgrp lng="id">
+    <trd>aurora</trd>,
+    <trd>cahaya kutub</trd>
+  </trdgrp>
   <trd lng="it">aurora polare</trd>
   <trdgrp lng="ja">
     <trd>&#26997;&#20809;  <pr>&#x304D;&#12423;&#12387;&#12371;&#12358;</pr></trd>,
@@ -3128,15 +3133,6 @@
   <trd lng="ro">auror&abreve; polar&abreve;</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_o;&c_je; &c_s;&c_i;&c_ja;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">pol&aacute;rna &zcaron;iara</trd>
-  <trd lng="cs">pol&aacute;rn&iacute; z&aacute;&rcaron;e</trd>
-<trdgrp lng="en">
-  <trd>polar <ind>light</ind></trd>,
-  <trd>aurora polaris</trd>
-</trdgrp>
-<trdgrp lng="id">
-  <trd>aurora</trd>,
-  <trd>cahaya kutub</trd>
-</trdgrp>
   <trdgrp lng="zh">
     <trd>&#26497;&#20809; <pr>j&iacute;gu&amacron;ng</pr></trd>,
     <trd>&#26997;&#20809; <pr>j&iacute;gu&amacron;ng</pr></trd>
@@ -3247,6 +3243,9 @@
 </art>
 <!--
 $Log$
+versio 1.184 2026/08/05 06:42:04
+Wolfram Diestel: trd-ordo
+
 versio 1.183 2026/08/04 18:06:08
 Eko Nur Syah Hidayat: +trd id 2
 
@@ -3266,8 +3265,5 @@ versio 1.178 2025/05/08 08:36:51
 Wolfram Diestel: ref
 
 versio 1.177 2025/05/08 06:18:40
-Wolfram Diestel: +mal~igi
-
-versio 1.176 2025/03/30 04:32:35
 -->
 </vortaro>
