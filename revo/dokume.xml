@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dokume.xml,v 1.34 2026/05/29 20:00:21 revo Exp $">
+<art mrk="$Id: dokume.xml,v 1.35 2026/08/06 06:45:15 revo Exp $">
 <kap>
 <ofc>*</ofc> <ofc>1</ofc> <ofc>7</ofc>
 <rad>dokument</rad>/o
@@ -112,10 +112,10 @@
 <drv mrk="dokume.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
-    <uzo tip="klr">(ion)</uzo>
+  <snc mrk="dokume.0i.pruvi">
+    <uzo tip="klr">(io)</uzo>
     <dif>
-      <ref tip="vid" cel="pruv.0i.KOMUNE_io">Pruvi</ref> per <tld/>oj:
+      <ref tip="super" cel="pruv.0i.KOMUNE_io">Pruvi</ref> per <tld/>oj:
       <ekz>
         fotoj, po&scirc;tkartoj, geografiaj mapoj <klr>[&#8230;]</klr> <tld/>as lian eksterordinaran voja&gcirc;on
         <fnt>
@@ -146,10 +146,10 @@
     <trd lng="de">beurkunden</trd>
     <trd lng="pl">udokumentowywa&cacute;</trd>
   </snc>
-  <snc>
-    <uzo tip="klr">(iun)</uzo>
+  <snc mrk="dokume.0i.noti">
+    <uzo tip="klr">(iu)</uzo>
     <dif>
-      Noti, fiksi en formo de <tld/>o:
+      <ref tip="super" cel="not.0i.skribi">Noti</ref>, fiksi en formo de <tld/>o:
       <ekz>
         por <tld/>i sian sindonecon al la nova religio, la konvertitoj kutimis meti
         krucon en la familian blazonon
@@ -176,6 +176,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="auxtor.0i">a&ubreve;tori</ref>,
+      <ref cel="protok.0i">protokoli</ref>,
       <ref cel="verk.0i">verki</ref>
     </refgrp>
     <trdgrp lng="de">
@@ -361,6 +362,9 @@
 </art>
 <!--
 $Log$
+versio 1.35 2026/08/06 06:45:15
+Wolfram Diestel: dokumenti: snc-mrk, ref, korekteto
+
 versio 1.34 2026/05/29 20:00:21
 Hector Alos i Font: +trd ca
 
@@ -380,7 +384,5 @@ Revision 1.22  2017/12/28 23:10:20  revo
 Vito Redsky: +trd ro +trd pl
 
 Revision 1.21  2017/12/11 17:10:13  revo
-Michel Cantigneaux: 1a OA kaj fundamentita per la 7a OA + dokumentujo +
-dokumentaro + fr + en
 -->
 </vortaro>
