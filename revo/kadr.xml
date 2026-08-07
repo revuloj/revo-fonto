@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kadr.xml,v 1.53 2025/10/20 08:39:41 revo Exp $">
+<art mrk="$Id: kadr.xml,v 1.54 2026/08/07 00:15:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kadr</rad>/o <fnt><bib>UV</bib></fnt>
@@ -49,11 +49,20 @@
     <trd lng="ca">marc</trd>
     <trd lng="de">Rahmen</trd>
     <trd lng="en">frame</trd>
+    <trdgrp lng="es">
+      <trd>marco</trd>,
+      <trd>cuadro</trd>
+    </trdgrp>
     <trdgrp lng="fi">
       <trd>kehys</trd>,
       <trd>kehykset</trd>,
       <trd>raami(t)</trd>,
       <trd>puitteet</trd>
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd>bingkai</trd>,
+      <trd>lis</trd>,
+      <trd>pigura</trd>
     </trdgrp>
     <trd lng="nl">lijst</trd>
     <trdgrp lng="pl">
@@ -71,15 +80,6 @@
     <trdgrp lng="ru">
       <trd>&c_r;&c_a;&c_m;&c_a;</trd>,
       <trd>&c_r;&c_a;&c_m;&c_k;&c_a;</trd>
-    </trdgrp>
-    <trdgrp lng="es">
-      <trd>marco</trd>,
-      <trd>cuadro</trd>
-    </trdgrp>
-    <trdgrp lng="id">
-      <trd>bingkai</trd>,
-      <trd>lis</trd>,
-      <trd>pigura</trd>
     </trdgrp>
     <trd lng="tr">&ccedil;er&ccedil;eve</trd>
   </snc>
@@ -213,9 +213,14 @@
      </trdgrp>
      <trd lng="de">Rahmen</trd>
      <trd lng="en">framework</trd>
+     <trd lng="es">marco</trd>
      <trdgrp lng="fi">
        <trd>puitteet <klr tip="amb"> (kuv.)</klr></trd>,
        <trd>olosuhteet</trd>
+     </trdgrp>
+     <trdgrp lng="id">
+       <trd>rangka</trd>,
+       <trd>kerangka</trd>
      </trdgrp>
      <trd lng="nl">kader</trd>
      <trdgrp lng="pl">
@@ -228,11 +233,6 @@
        <trd>&c_r;&c_a;&c_m;&c_k;&c_a;</trd>,
        <trd>&c_g;&c_r;&c_a;&c_n;&c_i;&c_c;&c_a;</trd>
      </trdgrp>
-     <trd lng="es">marco</trd>
-   <trdgrp lng="id">
-     <trd>rangka</trd>,
-     <trd>kerangka</trd>
-   </trdgrp>
    </snc>
   <trd lng="ca">marc</trd>
   <trdgrp lng="cs">
@@ -579,6 +579,9 @@
 </art>
 <!--
 $Log$
+versio 1.54 2026/08/07 00:15:06
+Wolfram Diestel: trd-ordo
+
 versio 1.53 2025/10/20 08:39:41
 Eko Nur Syah Hidayat: +trd id
 
@@ -598,8 +601,5 @@ versio 1.46 2023/09/01 18:29:19
 Wolfram Diestel: ja kor. ind
 
 versio 1.44 2023/05/04 16:53:13
-revo: aktualigo URL-unuoj
-
-versio 1.43 2023/04/25 12:45:50
 -->
 </vortaro>
