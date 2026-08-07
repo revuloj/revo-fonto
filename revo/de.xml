@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: de.xml,v 1.166 2026/05/27 18:39:42 revo Exp $">
+<art mrk="$Id: de.xml,v 1.167 2026/08/07 00:15:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>de</rad>
@@ -85,6 +85,7 @@
         <trd>von ... herab</trd>,
         <trd>aus</trd>
       </trdgrp>
+      <trd lng="en">from</trd>
       <trdgrp lng="hu">
         <trd>-<ind>t&oacute;l</ind></trd>,
         <trd>-<ind>t&odblac;l</ind></trd>,
@@ -95,7 +96,6 @@
         <trd>od</trd>,
         <trd>z</trd>
       </trdgrp>
-      <trd lng="en">from</trd>
       <trd lng="ru">&c_o;&c_t;</trd>
     </snc>
     <snc mrk="de.0.origino">
@@ -311,10 +311,6 @@
         tipo, sed &gcirc;i &ccirc;efe aperas kun verboj
         kaj adjektivoj.
       </rim>
-      <trdgrp lng="de">
-        <trd>vor</trd>,
-        <trd>aus</trd>
-      </trdgrp>
       <trdgrp lng="de">
         <trd>von</trd>,
         <trd>vor</trd>,
@@ -956,7 +952,7 @@
       </ekz>
       ktp.
     </rim>
-    <trd lng="af">van</trd>
+  <trd lng="af">van</trd>
   <trd lng="am">&#x12E8;</trd>
   <trd lng="ar">&a_m;&a_n;</trd>
   <trd lng="az">v&#601;</trd>
@@ -969,17 +965,22 @@
   <trd lng="bo">&t_na;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">od</trd>
   <trd lng="co">di</trd>
+  <trdgrp lng="cs">
+    <trd>od</trd>,
+    <trd>z</trd>,
+    <trd>ze</trd>
+  </trdgrp>
   <trd lng="cy">yr</trd>
   <trd lng="da">af</trd>
   <trdgrp lng="de">
       <trd>mit</trd>,
       <trd>des</trd>,
       <trd>der</trd>
-    </trdgrp>
-    <trd lng="et">kohta</trd>
+  </trdgrp>
+  <trd lng="es">de</trd>
+  <trd lng="et">kohta</trd>
   <trd lng="fr">de</trd>
-    <trd lng="es">de</trd>
-    <trd lng="fy">nei</trd>
+  <trd lng="fy">nei</trd>
   <trd lng="ga">ar</trd>
   <trd lng="gd">de</trd>
   <trd lng="gl">de</trd>
@@ -1030,16 +1031,11 @@
       <trd>dinspre</trd>,
       <trd>de</trd>
     </trdgrp>
-    <trd lng="rw">bya</trd>
+  <trd lng="rw">bya</trd>
   <trd lng="sd">&a_j;&a_y;</trd>
   <trd lng="si">&#xDB4;&#xDD2;&#xDC5;&#xDD2;&#xDB6;&#xDB3;</trd>
   <trd lng="sk">od</trd>
-    <trd lng="sl">od</trd>
-  <trdgrp lng="cs">
-    <trd>od</trd>,
-    <trd>z</trd>,
-    <trd>ze</trd>
-  </trdgrp>
+  <trd lng="sl">od</trd>
   <trd lng="sm">a</trd>
   <trd lng="sn">pamusoro</trd>
   <trd lng="so">ah</trd>
@@ -1189,19 +1185,19 @@
       </dif>
     <ref tip="vid" cel="post.de0.tempe"><tld/> post;</ref>
     <ref tip="ant" cel="gxis.0.prep">&gcirc;is</ref>
-    <trd lng="pl">od</trd>
-    <trdgrp lng="ru">
-      <trd>&c_o;&c_t;</trd>,
-      <trd>&c_s;<klr tip="amb"> (&c_o; &c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_i;)</klr></trd>,
-      <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_ja; &c_s;</trd>
-    </trdgrp>
     <trdgrp lng="de">
       <trd>seit<klr> [gestern, jetzt]</klr></trd>,
       <trd>ab<klr> [jetzt, morgen]</klr></trd>,
       <trd>von ... ab</trd>,
       <trd>von ... an</trd>
     </trdgrp>
-  <trd lng="en">since <klr>(starting from a time)</klr></trd>
+    <trd lng="en">since <klr>(starting from a time)</klr></trd>
+    <trd lng="pl">od</trd>
+    <trdgrp lng="ru">
+      <trd>&c_o;&c_t;</trd>,
+      <trd>&c_s;<klr tip="amb"> (&c_o; &c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_i;)</klr></trd>,
+      <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_ja; &c_s;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="de.ek0.loke">
     <uzo tip="stl">RAR</uzo>
@@ -1214,6 +1210,13 @@
         <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 13</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>ab</trd>,
+      <trd>von</trd>,
+      <trd>von ... ab</trd>,
+      <trd>von ... weg</trd>
+    </trdgrp>
+    <trd lng="en">starting <ind>from</ind></trd>
     <trdgrp lng="pl">
       <trd>od</trd>,
       <trd>z</trd>
@@ -1222,13 +1225,6 @@
       <trd>&c_o;&c_t;</trd>,
       <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_ja; &c_s;</trd>
     </trdgrp>
-    <trdgrp lng="de">
-      <trd>ab</trd>,
-      <trd>von</trd>,
-      <trd>von ... ab</trd>,
-      <trd>von ... weg</trd>
-    </trdgrp>
-  <trd lng="en">starting <ind>from</ind></trd>
   </snc>
   <snc mrk="de.ek0.diverse">
     <dif>
@@ -1268,7 +1264,7 @@
     <refgrp tip="vid">
       <ref cel="ek.0ede">eke de</ref>
     </refgrp>
-    <trd lng="af">sedert</trd>
+  <trd lng="af">sedert</trd>
   <trd lng="am">&#4864;&#x121D;&#x122E;</trd>
   <trd lng="ar">&a_m;&a_n;&a_dh;</trd>
   <trd lng="az">ild&#601;n</trd>
@@ -1281,11 +1277,34 @@
   <trd lng="bn">&#2454;&#x9AC;&#x9B0;</trd>
   <trd lng="bo">&t_na;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">s obzirom</trd>
+  <trd lng="ca">a <ind>partir</ind> de</trd>
   <trd lng="co">siccomu</trd>
+  <trdgrp lng="cs">
+    <trd>hned po</trd>,
+    <trd>hned po ,, z</trd>,
+    <trd>od</trd>
+  </trdgrp>
   <trd lng="cy">ers</trd>
   <trd lng="da">siden</trd>
+  <trdgrp lng="de">
+    <trd>von ... ab</trd>,
+    <trd>seit</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>a <ind>partir</ind> de ahora</trd>,
+    <trd>en seguida</trd>
+  </trdgrp>
   <trd lng="et">alates</trd>
   <trd lng="eu">geroztik</trd>
+  <trdgrp lng="fr">
+    <trd>&agrave; <ind>partir</ind> de</trd>,
+    <trd>depuis</trd>,
+    <trd>d&egrave;s</trd>,
+    <trd>aussit&ocirc;t<klr tip="ind"> (pr&eacute;p.)</klr></trd>,
+    <trd>sit&ocirc;t<klr tip="ind"> (pr&eacute;p.)</klr></trd>,
+    <trd>&agrave; <ind>partir</ind> du moment</trd>,
+    <trd><ind>depuis</ind> le d&eacute;but de</trd>
+  </trdgrp>
   <trd lng="fy">s&ucirc;nt</trd>
   <trd lng="ga">&oacute;s rud &eacute;</trd>
   <trd lng="gd">bho</trd>
@@ -1296,6 +1315,10 @@
   <trd lng="hmn">txij li thaum</trd>
   <trd lng="hr">budu&cacute;i</trd>
   <trd lng="ht">depi</trd>
+  <trdgrp lng="hu">
+    <trd>-<ind>t&oacute;l kezdve</ind></trd>,
+    <trd>-<ind>t&odblac;l kezdve</ind></trd>
+  </trdgrp>
   <trd lng="hy">&#1392;&#1381;&#x57F;&#1400;</trd>
   <trd lng="ig">ebe</trd>
   <trd lng="is">s&iacute;&#xF0;an</trd>
@@ -1326,45 +1349,18 @@
   <trd lng="my">&#4121;&#x103E;&#4101;.</trd>
   <trd lng="ne">&#x92A;&#x91B;&#x93F;</trd>
   <trd lng="ny">popeza</trd>
+  <trd lng="oc">a <ind>partir</ind> de</trd>
   <trd lng="pa">&#xA26;&#xA47; &#xA2C;&#xA3E;&#xA05;&#xA26;</trd>
   <trd lng="pl">od</trd>
-    <trd lng="ps">&a_r;&a_A;&a_h;&f_y;&a_s;&#x6D0;</trd>
+  <trd lng="ps">&a_r;&a_A;&a_h;&f_y;&a_s;&#x6D0;</trd>
   <trdgrp lng="ru">
       <trd>&c_o;&c_t;</trd>,
       <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_ja; &c_s;</trd>
     </trdgrp>
-  <trd lng="ca">a <ind>partir</ind> de</trd>
-  <trdgrp lng="de">
-    <trd>von ... ab</trd>,
-    <trd>seit</trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>a <ind>partir</ind> de ahora</trd>,
-    <trd>en seguida</trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>&agrave; <ind>partir</ind> de</trd>,
-    <trd>depuis</trd>,
-    <trd>d&egrave;s</trd>,
-    <trd>aussit&ocirc;t<klr tip="ind"> (pr&eacute;p.)</klr></trd>,
-    <trd>sit&ocirc;t<klr tip="ind"> (pr&eacute;p.)</klr></trd>,
-    <trd>&agrave; <ind>partir</ind> du moment</trd>,
-    <trd><ind>depuis</ind> le d&eacute;but de</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>-<ind>t&oacute;l kezdve</ind></trd>,
-    <trd>-<ind>t&odblac;l kezdve</ind></trd>
-  </trdgrp>
-  <trd lng="oc">a <ind>partir</ind> de</trd>
   <trd lng="rw">kuva</trd>
   <trd lng="sd">&f_k;&a_A;&a_n;</trd>
   <trd lng="si">&#xDC3;&#xDD2;&#xDA7;</trd>
   <trd lng="sk">od za&ccaron;iatku</trd>
-  <trdgrp lng="cs">
-    <trd>hned po</trd>,
-    <trd>hned po ,, z</trd>,
-    <trd>od</trd>
-  </trdgrp>
   <trd lng="sl">saj</trd>
   <trd lng="sm">talu</trd>
   <trd lng="sn">kubva</trd>
@@ -1874,6 +1870,9 @@
 </art>
 <!--
 $Log$
+versio 1.167 2026/08/07 00:15:43
+Vito Redsky: kor trd ordo 
+
 versio 1.166 2026/05/27 18:39:42
 Wolfram Diestel: III: +drv
 
@@ -1893,8 +1892,5 @@ versio 1.161 2024/09/12 09:30:01
 Dmitri Gabinski: + trd be
 
 versio 1.160 2023/10/14 11:26:53
-revo: transskribo per <pr>
-
-versio 1.159 2023/09/05 06:31:04
 -->
 </vortaro>
