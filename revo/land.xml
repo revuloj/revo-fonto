@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: land.xml,v 1.175 2026/08/09 09:00:20 revo Exp $">
+<art mrk="$Id: land.xml,v 1.176 2026/08/09 16:53:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>land</rad>/o
@@ -204,7 +204,12 @@
     <trd>territori</trd>
   </trdgrp>
   <trd lng="co">paese</trd>
-  <trd lng="cs">zem&ecaron;</trd>
+  <trdgrp lng="cs">
+    <trd>krajina</trd>,
+    <trd>st&aacute;t</trd>,
+    <trd>zem&ecaron;</trd>,
+    <trd>&uacute;zem&iacute;</trd>
+  </trdgrp>
   <trd lng="cv">&#x4AB;&#x4D7;&c_r;&c_sh;&c_y;&c_v;</trd>
   <trd lng="cy">gwlad</trd>
   <trd lng="da">land</trd>
@@ -227,14 +232,14 @@
   <trd lng="hr">zemlji&scaron;te</trd>
   <trd lng="ht">peyi</trd>
   <trd lng="hy">&#1381;&#1408;&#x56F;&#x56B;&#1408;</trd>
+  <trd lng="he">&alef;&resh;&ftsadi;</trd>
   <trdgrp lng="id">
     <trd>negara</trd>,
     <trd>negeri</trd>
   </trdgrp>
-  <trd lng="he">&alef;&resh;&ftsadi;</trd>
   <trd lng="ig">obodo</trd>
   <trdgrp lng="ils">
-    <trd
+    <trd   
     kod="M523x570S3770b485x530S37701479x527S15d01478x543S21100472x556S36d00479x524S2ff00480x483S15d09500x514"></trd>
     <trd kod="M524x571S36d00479x521S2ff00481x483S14e20460x540S24d06489x543"></trd>
   </trdgrp>
@@ -281,6 +286,10 @@
   <trd lng="sd">&a_m;&a_l;&#x6AA;</trd>
   <trd lng="sgn" kod="M529x518S2ff00482x483S36d00479x498S1dc50505x4532">l@14*</trd>
   <trd lng="si">&#xDBB;&#xDA7;</trd>
+  <trdgrp lng="sk">
+    <trd>krajina</trd>,
+    <trd>&scaron;t&aacute;t</trd>
+  </trdgrp>
   <trd lng="sl">dr&zcaron;ava</trd>
   <trd lng="sm">atunuu</trd>
   <trd lng="sn">nyika</trd>
@@ -303,16 +312,6 @@
   <trd lng="uz">mamlakat</trd>
   <trd lng="vi">n&#x1B0;&#x1EDB;c</trd>
   <trd lng="vo">laned</trd>
-  <trdgrp lng="sk">
-    <trd>krajina</trd>,
-    <trd>&scaron;t&aacute;t</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>krajina</trd>,
-    <trd>st&aacute;t</trd>,
-    <trd>zem&ecaron;</trd>,
-    <trd>&uacute;zem&iacute;</trd>
-  </trdgrp>
   <trd lng="xh">ilizwe</trd>
   <trd lng="yi">&lamed;&alef;&#x5B7;&nun;&dalet;</trd>
   <trd lng="yo">oril&#x1EB9;-ede</trd>
@@ -1187,8 +1186,9 @@
       <ref cel="bosx.0o">bo&scirc;o</ref>
     </refgrp>
   </snc>
-  <trd lng="de">Binnenland</trd>
   <trd lng="ca">interior del pa&iacute;s</trd>
+  <trd lng="cs">vnitrozem&iacute;</trd>
+  <trd lng="de">Binnenland</trd>
   <trdgrp lng="fr">
     <trd>arri&egrave;re-pays</trd>,
     <trd>hinterland</trd>,
@@ -1208,7 +1208,6 @@
     &c_m;&c_o;&c_r;&c_ja;)</klr></trd>
   </trdgrp>
   <trd lng="sk">vn&uacute;trozemie</trd>
-  <trd lng="cs">vnitrozem&iacute;</trd>
   <trd lng="id"><baz>dalam</baz>pedalaman</trd>
   <trdgrp lng="zh">
     <trd>&#20839;&#22320; <pr>n&egrave;id&igrave;</pr></trd>,
@@ -1625,6 +1624,9 @@
 </art>
 <!--
 $Log$
+versio 1.176 2026/08/09 16:53:25
+Wolfram Diestel: trd-ordo
+
 versio 1.175 2026/08/09 09:00:20
 Eko Nur Syah Hidayat: +trd id 2
 
@@ -1644,8 +1646,5 @@ versio 1.170 2025/02/05 08:32:29
 Dmitri Gabinski: + trd be
 
 versio 1.169 2025/01/30 10:29:29
-Dmitri Gabinski: + trd be
-
-versio 1.168 2025/01/24 08:32:52
 -->
 </vortaro>
