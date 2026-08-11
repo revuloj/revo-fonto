@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kanon.xml,v 1.43 2025/11/06 14:35:36 revo Exp $">
+<art mrk="$Id: kanon.xml,v 1.44 2026/08/11 02:38:08 revo Exp $">
 <kap>
   <rad>kanon</rad>/o
 <fnt><bib>JED</bib></fnt></kap>
@@ -94,18 +94,23 @@
   </rim>
   <trd lng="be">&c_k;&c_a;&c_n;&c_o;&c_n;</trd>
   <trd lng="ca">c&agrave;non</trd>
+  <trdgrp lng="cs">
+    <trd>d&ecaron;lo</trd>,
+    <trd>kan&oacute;n</trd>
+  </trdgrp>
   <trd lng="de">Kanon <klr>(religi&ouml;se Norm)</klr></trd>
   <trd lng="en">canon</trd>
   <trd lng="es">canon</trd>
   <trd lng="fr">canon<klr tip="ind"> (religion)</klr></trd>
   <trd lng="hu">k&aacute;non</trd>
+  <trd lng="id">kanon (2)</trd>
   <trd lng="it">canone</trd>
   <trdgrp lng="ja">
-    <trd>&#32854;&#26360;&#27491;&#20856;  <pr>&#12379;&#12356;&#12375;&#12423;&#12414;&#12373;&#12398;&#12426;</pr></trd>,
-    <trd>&#25945;&#20250;&#27861;&#35215;  <pr>&#12365;&#12423;&#12358;&#12363;&#12356;&#12411;&#12358;&#12365;</pr></trd>,
-    <trd>&#32854;&#20154;&#34920;  <pr>&#12379;&#12356;&#12376;&#12435;&#12362;&#12418;&#12390;</pr></trd>,
-    <trd>&#32854;&#21015;  <pr>&#12402;&#12376;&#12426;&#12428;&#12388;</pr></trd>,
-    <trd>&#12459;&#12494;&#12531;</trd>
+    <trd>&#x8056;&#x66F8;&#x6B63;&#x5178;  <pr>&#x305B;&#x3044;&#x3057;&#x3087;&#x307E;&#x3055;&#x306E;&#x308A;</pr></trd>,
+    <trd>&#x6559;&#x4F1A;&#x6CD5;&#x898F;  <pr>&#x304D;&#x3087;&#x3046;&#x304B;&#x3044;&#x307B;&#x3046;&#x304D;</pr></trd>,
+    <trd>&#x8056;&#x4EBA;&#x8868;  <pr>&#x305B;&#x3044;&#x3058;&#x3093;&#x304A;&#x3082;&#x3066;</pr></trd>,
+    <trd>&#x8056;&#x5217;  <pr>&#x3072;&#x3058;&#x308A;&#x308C;&#x3064;</pr></trd>,
+    <trd>&#x30AB;&#x30CE;&#x30F3;</trd>
   </trdgrp>
   <trd lng="nl">canon</trd>
   <trd lng="pl">kanon</trd>
@@ -114,16 +119,11 @@
     <trd>delo</trd>,
     <trd>kan&oacute;n</trd>
   </trdgrp>
-  <trdgrp lng="cs">
-    <trd>d&ecaron;lo</trd>,
-    <trd>kan&oacute;n</trd>
-  </trdgrp>
-  <trd lng="id">kanon (2)</trd>
   <trd lng="uk">&c_g;&c_a;&c_r;&c_m;&c_a;&c_t;&c_a;</trd>
   <trdgrp lng="zh">
-    <trd>&#20856; <pr>di&#462;n</pr></trd>,
-    <trd>&#25945;&#35215; <pr>ji&agrave;ogu&imacron;</pr></trd>,
-    <trd>&#22307;&#20856; <pr>sh&egrave;ngdi&#462;n</pr></trd>
+    <trd>&#x5178; <pr>di&#x1CE;n</pr></trd>,
+    <trd>&#x6559;&#x898F; <pr>ji&agrave;ogu&imacron;</pr></trd>,
+    <trd>&#x5723;&#x5178; <pr>sh&egrave;ngdi&#x1CE;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -142,9 +142,9 @@
         <klr>(destinitaj al pre&gcirc;o)</klr>.
         <trd lng="ca">hores can&ograve;niques</trd>
         <trd lng="de">kanonische Stunden</trd>
+        <trd lng="en">canonical hours</trd>
         <trd lng="hu">k&aacute;noni &oacute;r&aacute;k</trd>
         <trd lng="id">jam kanonis</trd>
-        <trd lng="en">canonical hours</trd>
         <trdgrp lng="nl">
           <trd>canonieke uren</trd>,
           <trd>daggetijden</trd>
@@ -221,8 +221,8 @@
       <ctl>naturaj</ctl>,
       <ctl>evidentaj</ctl>, <ctl>regulaj</ctl>, ktp.
     </rim>
-    <trd lng="en">canonical</trd>
     <trd lng="de">kanonisch</trd>
+    <trd lng="en">canonical</trd>
     <trd lng="hu">kanonikus</trd>
     <trd lng="nl">natuurlijk<klr tip="ind"> (wisk.)</klr></trd>
   </snc>
@@ -287,7 +287,7 @@
       kies a&ubreve;tento estas kontestata kaj kiujn la eklezio
       rigardas malpli a&ubreve;toritataj:
       <ekz>
-        aperis <klr>[&#8230;]</klr> ekumena eldono, t.e. kun tiu <klr>[konata]</klr>
+        aperis <klr>[&#x2026;]</klr> ekumena eldono, t.e. kun tiu <klr>[konata]</klr>
         <tld/>o, sed inter la Malnova kaj Nova Testamentoj staras la Dua<tld/>aj
         Libroj
         <fnt>
@@ -345,6 +345,9 @@
 </art>
 <!--
 $Log$
+versio 1.44 2026/08/11 02:38:08
+Wolfram Diestel: trd-ordo
+
 versio 1.43 2025/11/06 14:35:36
 Eko Nur Syah Hidayat: +trd id 2
 
@@ -364,8 +367,5 @@ versio 1.34 2022/05/01 08:09:23
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.32 2022/01/15 12:49:08
-Wolfram Diestel: +ref
-
-versio 1.31 2021/03/03 06:52:59
 -->
-</vortaro>
+</vortaro>
