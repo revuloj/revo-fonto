@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: antaux.xml,v 1.191 2026/05/27 18:39:48 revo Exp $">
+<art mrk="$Id: antaux.xml,v 1.192 2026/08/12 17:11:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>anta&ubreve;</rad>
@@ -57,10 +57,10 @@
       <ref cel="antaux.mal0">mal<tld/></ref>,
       <ref cel="post.0.loke">post<sncref/></ref>
     </refgrp>
+    <trd lng="de">vor</trd>
     <trdgrp lng="en">
       <trd>in front of</trd>
     </trdgrp>
-    <trd lng="de">vor</trd>
     <trd lng="es">ante</trd>
     <trd lng="no">foran</trd>
     <trd lng="pl">przed</trd>
@@ -641,6 +641,10 @@
   <trd lng="co">daretu &agrave;</trd>
   <trd lng="cy">y tu &ocirc;l i</trd>
   <trd lng="da">bag</trd>
+  <trdgrp lng="de">
+    <trd>nach</trd>,
+    <trd>hinter</trd>
+  </trdgrp>
   <trd lng="en">behind</trd>
   <trdgrp lng="es">
     <trd>detr&aacute;s</trd>,
@@ -648,10 +652,6 @@
     <trd>tras</trd>,
     <trd>en la <ind>parte</ind> trasera de</trd>,
     <trd>en la <ind>parte</ind> posterior a</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>nach</trd>,
-    <trd>hinter</trd>
   </trdgrp>
   <trd lng="et">taga</trd>
   <trd lng="eu">atzean</trd>
@@ -1061,13 +1061,13 @@
       <trd>davant</trd>,
       <trd>al <ind>davant</ind></trd>
     </trdgrp>
-    <trd lng="en">in front of</trd>
     <trdgrp lng="de">
       <trd>davor</trd>,
       <trd>vorn</trd>,
       <trd>vorne</trd>,
       <trd>vorweg</trd>
     </trdgrp>
+    <trd lng="en">in front of</trd>
     <trd lng="es">delante<klr tip="ind"> (en el espacio)</klr></trd>
     <trdgrp lng="fr">
       <trd>devant<klr tip="ind"> (adv.)</klr></trd>,
@@ -1133,6 +1133,7 @@
       <trd>&c_p;&c_o;-&c_r;&c_a;&c_n;&c_o;</trd>,
       <trd>&c_p;&c_r;&c_je;&c_d;&c_i;</trd>
     </trdgrp>
+    <trd lng="ca">abans</trd>
     <trdgrp lng="de">
       <trd>eher</trd>,
       <trd>vorher</trd>,
@@ -1158,8 +1159,6 @@
       <trd>kor&aacute;bban</trd>,
       <trd>el&odblac;z&odblac;leg</trd>
     </trdgrp>
-    <trd lng="id">se<ind>belum</ind>nya</trd>
-    <trd lng="ca">abans</trd>
     <trd lng="id"><baz>belum</baz>sebelumnya</trd>
     <trdgrp lng="nl">
       <trd>eerst<klr tip="ind"> (voordien)</klr></trd>,
@@ -1698,17 +1697,17 @@
       </ekz>
     </dif>
     <trd lng="be">&c_p;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ja;&c_ja; &c_ch;&c_a;&c_s;&c_t;&c_k;&c_a;</trd>
-    <trdgrp lng="de">
-      <trd>Vorderteil</trd>,
-      <trd>Vorderes</trd>,
-      <trd>Frontseite</trd>,
-      <trd>Front</trd>
-    </trdgrp>
     <trdgrp lng="ca">
       <trd>davant<klr tip="amb"> (masc.)</klr></trd>,
       <trd>part anterior</trd>,
       <trd>part del davant</trd>,
       <trd>part frontal</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Vorderteil</trd>,
+      <trd>Vorderes</trd>,
+      <trd>Frontseite</trd>,
+      <trd>Front</trd>
     </trdgrp>
     <trd lng="en">front</trd>
     <trdgrp lng="es">
@@ -2378,11 +2377,11 @@
     <trd>poprzednik</trd>,
     <trd>antenat</trd>
   </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_o;&c_k;</trd>
   <trdgrp lng="sk">
     <trd>predchodca</trd>,
     <trd>predok</trd>
   </trdgrp>
-  <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_o;&c_k;</trd>
   <trdgrp lng="uk">
     <trd>&c_p;&c_o;&c_p;&c_je;&c_r;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_p;&c_r;&c_je;&c_d;&c_o;&c_k;</trd>
@@ -2420,6 +2419,7 @@
     <trd>&c_t;&c_y;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
   <trd lng="bg">&c_z;&c_a;&c_d;&c_je;&c_n;</trd>
+  <trd lng="de">hinter</trd>
   <trdgrp lng="es">
     <trd>posterior <klr tip="ind">(solo espacio)</klr></trd>,
     <trd>de <ind>detr&aacute;s</ind></trd>
@@ -2434,13 +2434,12 @@
     <trd>h&aacute;tuls&oacute;</trd>,
     <trd>m&ouml;g&ouml;ttes</trd>
   </trdgrp>
-  <trd lng="nl">achterste</trd>
-  <trd lng="no">bakre</trd>
-  <trd lng="de">hinter</trd>
   <trdgrp lng="id">
     <trd>posterior</trd>,
     <trd>belakang</trd>
   </trdgrp>
+  <trd lng="nl">achterste</trd>
+  <trd lng="no">bakre</trd>
   <trdgrp lng="pl">
     <trd>tylni</trd>,
     <trd>p&oacute;&zacute;niejszy</trd>,
@@ -2493,6 +2492,11 @@
     <trd>endarrere</trd>,
     <trd>enrere</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>hinten</trd>,
+    <trd>hinterher</trd>,
+    <trd>hernach</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>detr&aacute;s</trd>,
     <trd>al <ind>dorso</ind></trd>,
@@ -2507,18 +2511,13 @@
     <trd>h&aacute;tul</trd>,
     <trd>m&ouml;g&ouml;tte</trd>
   </trdgrp>
+  <trd lng="id">di belakang</trd>
   <trd lng="nl">vanachter</trd>
   <trd lng="no">bak<klr tip="amb"> (sted)</klr></trd>
   <trdgrp lng="oc">
     <trd>darri&egrave;r</trd>,
     <trd>a l'endarri&egrave;r</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>hinten</trd>,
-    <trd>hinterher</trd>,
-    <trd>hernach</trd>
-  </trdgrp>
-  <trd lng="id">di belakang</trd>
   <trdgrp lng="pl">
     <trd>z ty&lstroke;u</trd>,
     <trd>w tyle</trd>,
@@ -2569,6 +2568,7 @@
     <trd>cap <ind>endarrere</ind></trd>,
     <trd>cap <ind>enrere</ind></trd>
   </trdgrp>
+  <trd lng="de">nach hinten</trd>
   <trdgrp lng="es">
     <trd>atr&aacute;s</trd>,
     <trd>hacia <ind>atr&aacute;s</ind></trd>,
@@ -2587,10 +2587,9 @@
     <trd>h&aacute;tulra</trd>,
     <trd>m&ouml;g&eacute;</trd>
   </trdgrp>
+  <trd lng="id">ke belakang</trd>
   <trd lng="nl">naar <ind>achter</ind></trd>
   <trd lng="no">bak<klr tip="amb"> (retning)</klr></trd>
-  <trd lng="de">nach hinten</trd>
-  <trd lng="id">ke belakang</trd>
   <trdgrp lng="pl">
     <trd>do ty&lstroke;u</trd>,
     <trd>wstecz</trd>
@@ -3041,6 +3040,9 @@
 </art>
 <!--
 $Log$
+versio 1.192 2026/08/12 17:11:19
+Wolfram Diestel: trd-ordo
+
 versio 1.191 2026/05/27 18:39:48
 Wolfram Diestel: III: +drv
 
@@ -3060,8 +3062,5 @@ versio 1.186 2025/10/08 08:39:32
 Dmitri Gabinski: + trd be
 
 versio 1.185 2025/10/07 06:42:38
-Hector Alos i Font: +trd ca
-
-versio 1.184 2025/10/06 13:00:01
 -->
 </vortaro>
