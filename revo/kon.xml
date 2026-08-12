@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kon.xml,v 1.89 2026/05/31 19:42:16 revo Exp $">
+<art mrk="$Id: kon.xml,v 1.90 2026/08/12 13:42:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kon</rad>/i <fnt><bib>UV</bib></fnt>
@@ -206,7 +206,11 @@
     &c_ch;&c_y;&c_m;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
   </trdgrp>
   <trd lng="bo">&t_-a;&t_da;&t_rata;&t_gigu;&t_sa;&t_tsheg;&t_pa;&t_tsheg;</trd>
-  <trd lng="cs">zn&aacute;t</trd>
+  <trdgrp lng="cs">
+    <trd>pozn&aacute;vat</trd>,
+    <trd>zn&aacute;t</trd>,
+    <trd>v&ecaron;d&ecaron;t</trd>
+  </trdgrp>
   <trd lng="de">kennen</trd>
   <trd lng="en">know</trd>
   <trd lng="es">conocer</trd>
@@ -214,7 +218,8 @@
   <trd lng="hu">ismer</trd>
   <trdgrp lng="id">
     <trd>kenal</trd>,
-    <trd><baz>kenal</baz>mengenal</trd>
+    <trd><baz>kenal</baz>mengenal</trd>,
+    <trd><baz>kenal</baz>mengenali</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x77E5;&#12387;&#12390;&#12356;&#x308B;  <pr>&#12375;&#12387;&#12390;&#12356;&#x308B;</pr></trd>,
@@ -240,15 +245,6 @@
     <trd>pozna&tcaron;</trd>,
     <trd>pozn&aacute;va&tcaron;</trd>,
     <trd>vedie&tcaron;</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>pozn&aacute;vat</trd>,
-    <trd>v&ecaron;d&ecaron;t</trd>
-  </trdgrp>
-  <trdgrp lng="id">
-    <trd>kenal</trd>,
-    <trd><baz>kenal</baz>mengenal</trd>,
-    <trd><baz>kenal</baz>mengenali</trd>
   </trdgrp>
   <trd lng="zh">&#x8BA4;&#x8BC6;</trd>
 </drv>
@@ -390,11 +386,11 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Bekanntschaft <klr>(Gruppe)</klr></trd>
     <trdgrp lng="be">
       <trd>&c_z;&c_n;&c_a;&c_jo;&c_m;&c_y;&c_ja; <klr>(&c_n;&c_a;&c_z;.)</klr></trd>,
       <trd>&c_k;&c_o;&c_l;&c_a; &c_z;&c_n;&c_a;&c_jo;&c_m;&c_y;&c_h;</trd>
     </trdgrp>
+    <trd lng="de">Bekanntschaft <klr>(Gruppe)</klr></trd>
   </snc>
   <trdgrp lng="es">
     <trd>red de <ind>relaciones</ind></trd>,
@@ -1482,13 +1478,13 @@
         <fnt><bib>BdV</bib></fnt>.
       </ekz>
     </dif>
-    <trd lng="ca">recon&egrave;ixer</trd>
     <trdgrp lng="be">
       <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_c;&c_mol;</trd>
     </trdgrp>
+    <trd lng="ca">recon&egrave;ixer</trd>
     <trd lng="de">erkennen</trd>
-  <trd lng="es">reconocer</trd>
+    <trd lng="es">reconocer</trd>
     <trdgrp lng="hu">
       <trd>felismer</trd>,
       <trd>r&aacute;ismer</trd>
@@ -1517,11 +1513,11 @@
         <fnt><bib>Kon11</bib></fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_c;&c_mol;</trd>
     <trdgrp lng="ca">
       <trd>recon&egrave;ixer</trd>,
       <trd>admetre</trd>
     </trdgrp>
-    <trd lng="be">&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_c;&c_mol;</trd>
     <trd lng="de">anerkennen</trd>
     <trd lng="en">acknowledge</trd>
     <trd lng="es">reconocer</trd>
@@ -1694,13 +1690,13 @@
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="ca">
-    <trd>reconeixement</trd>,
-    <trd>admissi&oacute;</trd>
-  </trdgrp>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>reconeixement</trd>,
+    <trd>admissi&oacute;</trd>
   </trdgrp>
   <trdgrp lng="cs">
     <trd>pozn&aacute;v&aacute;n&iacute;</trd>,
@@ -1765,13 +1761,13 @@
       </ekz><ekz>
         <uzo tip="fak">KOMP</uzo>
         la algoritmoj de <ind>formore<tld/>o</ind>.
-        <trdgrp lng="ca">
-          <trd>recononeixement de formes</trd>,
-          <trd>recononeixement de patrons</trd>
-        </trdgrp>
         <trdgrp lng="be">
           <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je; &c_v;&c_o;&c_b;&c_r;&c_a;&c_z;&c_a;&c_w;</trd>,
           <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je; &c_v;&c_o;&c_b;&c_r;&c_a;&c_z;&c_a;&c_w;</trd>
+        </trdgrp>
+        <trdgrp lng="ca">
+          <trd>recononeixement de formes</trd>,
+          <trd>recononeixement de patrons</trd>
         </trdgrp>
         <trd lng="en">pattern recognition</trd>
         <trd lng="es">reconocimiento de formas</trd>
@@ -1780,11 +1776,11 @@
         <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_o;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_i;&c_je; &c_o;&c_b;&c_r;&c_a;&c_z;&c_o;&c_v;</trd>
       </ekz>
     </dif>
-    <trd lng="ca">reconeixement <klr>(veure, adonar-se)</klr></trd>
     <trdgrp lng="be">
       <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
       <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
     </trdgrp>
+    <trd lng="ca">reconeixement <klr>(veure, adonar-se)</klr></trd>
     <trdgrp lng="cs">
       <trd>pozn&aacute;n&iacute;</trd>,
       <trd>rozpozn&aacute;n&iacute;</trd>,
@@ -1955,6 +1951,9 @@
 
 </art><!--
 $Log$
+versio 1.90 2026/08/12 13:42:32
+Wolfram Diestel: trd-ordo
+
 versio 1.89 2026/05/31 19:42:16
 Robin Hill: korektis tajperaron
 
@@ -1974,8 +1973,5 @@ versio 1.84 2025/05/06 18:37:20
 Robert Baruch: +en
 
 versio 1.83 2025/02/15 08:30:53
-Hector Alos i Font: +trd ca
-
-versio 1.82 2025/01/13 10:32:35
 -->
 </vortaro>
