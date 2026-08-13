@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konser.xml,v 1.126 2026/06/14 15:59:59 revo Exp $">
+<art mrk="$Id: konser.xml,v 1.127 2026/08/13 09:25:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konserv</rad>/i
@@ -420,10 +420,20 @@
   <trd lng="bo">&t_nya;&t_ra;&t_tsheg;</trd>
   <trd lng="bs">zadr&zcaron;ati</trd>
   <trd lng="co">teniri</trd>
-  <trd lng="cs">zachovat</trd>
+  <trdgrp lng="cs">
+    <trd>chr&aacute;nit</trd>,
+    <trd>konzervovat</trd>,
+    <trd>uchovat</trd>,
+    <trd>udr&zcaron;et</trd>,
+    <trd>udr&zcaron;ovat</trd>,
+    <trd>zachov&aacute;vat</trd>
+  </trdgrp>
   <trd lng="cy">cadw</trd>
   <trd lng="da">holde</trd>
-  <trd lng="en">conserve</trd>
+  <trdgrp lng="en">
+    <trd>conserve<klr> (vt)</klr></trd>,
+    <trd>keep<klr> (vt) (conserve)</klr></trd>
+  </trdgrp>
   <trd lng="et">hoida</trd>
   <trd lng="eu">mantentzeko</trd>
   <trdgrp lng="fr">
@@ -442,6 +452,14 @@
   <trd lng="hr">zadr&zcaron;ati</trd>
   <trd lng="ht">kenbe</trd>
   <trd lng="hy">&#x57A;&#1377;&#1392;&#1381;&#x56C;</trd>
+  <trdgrp lng="id">
+    <trd><baz>jaga</baz>menjaga</trd>,
+    <trd><baz>konservasi</baz>mengonservasi</trd>,
+    <trd><baz>lindung</baz>melindungi</trd>,
+    <trd><baz>pelihara</baz>memelihara</trd>,
+    <trd><baz>simpan</baz>menyimpan</trd>,
+    <trd><baz>rawat</baz>merawat</trd>
+  </trdgrp>
   <trd lng="ig">na-</trd>
   <trd lng="is">halda</trd>
   <trd lng="ja">&#x30AD;&#x30FC;&#x30D7;</trd>
@@ -498,26 +516,6 @@
     <trd>udr&zcaron;a&tcaron;</trd>,
     <trd>uschova&tcaron;</trd>,
     <trd>zachova&tcaron;</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>chr&aacute;nit</trd>,
-    <trd>konzervovat</trd>,
-    <trd>uchovat</trd>,
-    <trd>udr&zcaron;et</trd>,
-    <trd>udr&zcaron;ovat</trd>,
-    <trd>zachov&aacute;vat</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>conserve<klr> (vt)</klr></trd>,
-    <trd>keep<klr> (vt) (conserve)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="id">
-    <trd><baz>jaga</baz>menjaga</trd>,
-    <trd><baz>konservasi</baz>mengonservasi</trd>,
-    <trd><baz>lindung</baz>melindungi</trd>,
-    <trd><baz>pelihara</baz>memelihara</trd>,
-    <trd><baz>simpan</baz>menyimpan</trd>,
-    <trd><baz>rawat</baz>merawat</trd>
   </trdgrp>
   <trd lng="sl">hraniti</trd>
   <trd lng="sm">tausia</trd>
@@ -931,12 +929,12 @@ lng="th">&#xE01;&#xE32;&#xE23;&#xE40;&#xE01;&#xE47;&#xE1A;&#xE23;&#xE31;&#xE01;&
       <trd>&c_a;&c_h;&c_o;&c_w;&c_n;&c_ib;&c_k;</trd>,
       <trd>&c_z;&c_a;&c_h;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
     </trdgrp>
-    <trd lng="ru">&c_h;&c_r;&c_a;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
     <trdgrp lng="de">
       <trd>Konservator</trd>,
       <trd>Kustos</trd>,
       <trd>Verwalter</trd>
     </trdgrp>
+    <trd lng="ru">&c_h;&c_r;&c_a;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
   </snc>
   <snc mrk="konser.0isto.POL">
     <uzo tip="fak">POL</uzo>
@@ -1305,6 +1303,9 @@ lng="th">&#xE01;&#xE32;&#xE23;&#xE40;&#xE01;&#xE47;&#xE1A;&#xE23;&#xE31;&#xE01;&
 </art>
 <!--
 $Log$
+versio 1.127 2026/08/13 09:25:21
+Wolfram Diestel: trd-ordo
+
 versio 1.126 2026/06/14 15:59:59
 Wolfram Diestel: ref
 
@@ -1324,8 +1325,5 @@ versio 1.119 2023/09/30 16:25:52
 Robert Baruch: +trd: en
 
 versio 1.117 2023/05/10 15:30:34
-Paul Peeraerts: + lok
-
-versio 1.116 2023/04/23 06:30:51
 -->
 </vortaro>
