@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kurb.xml,v 1.64 2026/04/15 14:04:06 revo Exp $">
+<art mrk="$Id: kurb.xml,v 1.65 2026/08/14 09:20:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kurb</rad>/a <fnt><bib>UV</bib></fnt>
@@ -474,15 +474,15 @@
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="en">
-      <trd>curve</trd>,
-      <trd>graph of a <ind>function</ind></trd>
-    </trdgrp>
     <trdgrp lng="de">
       <trd>Kurve</trd>,
       <trd>Graph</trd>,
       <trd>Grafik</trd>,
       <trd>Linie</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>curve</trd>,
+      <trd>graph of a <ind>function</ind></trd>
     </trdgrp>
     <trdgrp lng="id">
       <trd>grafik</trd>,
@@ -545,10 +545,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Kr&uuml;mmung</trd>
     <trd lng="en">curvature</trd>
     <trd lng="es">curvatura</trd>
     <trd lng="hu">g&ouml;rbes&eacute;g</trd>
-    <trd lng="de">Kr&uuml;mmung</trd>
     <trdgrp lng="id">
       <trd><baz>bengkok</baz>kebengokan</trd>,
       <trd><baz>lengkung</baz>kelengkungan</trd>
@@ -907,17 +907,12 @@
     <trd>curva</trd>,
     <trd>recodo</trd>
   </trdgrp>
+  <trd lng="fr">courbure<klr tip="ind"> (partie courbe)</klr></trd>
   <trdgrp lng="hu">
     <trd>g&ouml;rb&uuml;let</trd>,
     <trd>hajlat</trd>,
     <trd>kanyar</trd>
   </trdgrp>
-  <trdgrp lng="ja">
-    <trd>&#x6E7E;&#x66F2;&#x90E8;  <pr>&#x308F;&#12435;&#x304D;&#12423;&#x304F;&#12406;</pr></trd>,
-    <trd>&#x66F2;&#x304C;&#x308A;&#x89D2;  <pr>&#x307E;&#x304C;&#x308A;&#x304B;&#12393;</pr></trd>
-  </trdgrp>
-  <trd lng="nl">kromming</trd>
-  <trd lng="fr">courbure<klr tip="ind"> (partie courbe)</klr></trd>
   <trdgrp lng="id">
     <trd><baz>bengkok</baz>pembengkokan</trd>,
     <trd><baz>kelok</baz>pengelokan</trd>,
@@ -925,6 +920,11 @@
     <trd><baz>lekuk</baz>pelekukan</trd>,
     <trd><baz>lengkung</baz>pelengkungan</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6E7E;&#x66F2;&#x90E8;  <pr>&#x308F;&#12435;&#x304D;&#12423;&#x304F;&#12406;</pr></trd>,
+    <trd>&#x66F2;&#x304C;&#x308A;&#x89D2;  <pr>&#x307E;&#x304C;&#x308A;&#x304B;&#12393;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">kromming</trd>
   <trdgrp lng="pl">
     <trd>zgi&eogonek;cie</trd>,
     <trd>zakr&eogonek;t</trd>,
@@ -1053,6 +1053,9 @@
 </art>
 <!--
 $Log$
+versio 1.65 2026/08/14 09:20:27
+Wolfram Diestel: trd-ordo
+
 versio 1.64 2026/04/15 14:04:06
 Wolfram Diestel: kor. ref
 
@@ -1072,8 +1075,5 @@ versio 1.59 2025/04/26 18:34:07
 Robert Baruch: +en
 
 versio 1.58 2024/02/22 09:25:04
-Dmitri Gabinski: + trd be
-
-versio 1.57 2024/02/08 21:19:47
 -->
 </vortaro>
