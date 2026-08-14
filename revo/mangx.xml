@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mangx.xml,v 1.212 2026/04/02 13:54:55 revo Exp $">
+<art mrk="$Id: mangx.xml,v 1.213 2026/08/14 09:20:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>man&gcirc;</rad>/i <fnt><bib>UV</bib></fnt>
@@ -169,12 +169,12 @@
   <trd lng="gl">comer</trd>
   <trd lng="gu">&#xA96;&#xABE;&#xAAF;</trd>
   <trd lng="ha">ku ci</trd>
+  <trd lng="he">&lamed;&alef;&kaf;&vav;&lamed;</trd>
   <trd lng="hi">&#2326;&#x93E;&#2344;&#2375;</trd>
   <trd lng="hmn">noj</trd>
   <trd lng="hr">jesti</trd>
   <trd lng="ht">manje</trd>
   <trd lng="hu">eszik</trd>
-  <trd lng="he">&lamed;&alef;&kaf;&vav;&lamed;</trd>
   <trd lng="hy">&#1400;&#1410;&#x57F;&#1381;&#x56C;</trd>
   <trdgrp lng="id">
     <trd>makan</trd>,
@@ -228,6 +228,7 @@
   <trd lng="sq">hani</trd>
   <trd lng="st">ja</trd>
   <trd lng="su">dahar</trd>
+  <trd lng="sv">&auml;ta</trd>
   <trd lng="sw">kula</trd>
   <trd lng="ta">&#xB9A;&#xBBE;&#xBAA;&#xBCD;&#xBAA;&#xBBF;&#xB9F;</trd>
   <trd lng="te">&#xC24;&#xC3F;&#xC28;&#xC21;&#xC3E;&#xC28;&#xC3F;&#xC15;&#xC3F;</trd>
@@ -238,12 +239,11 @@
   </trdgrp>
   <trd lng="tl">kumain</trd>
   <trd lng="tok">moku</trd>
-  <trd lng="sv">&auml;ta</trd>
- <trdgrp lng="tr">
-   <trd>yemek</trd>,
-   <trd>yemek yemek</trd>
- </trdgrp>
- <trd lng="tt">&c_a;&c_sh;&c_a;&c_u;</trd>
+  <trdgrp lng="tr">
+     <trd>yemek</trd>,
+     <trd>yemek yemek</trd>
+  </trdgrp>
+  <trd lng="tt">&c_a;&c_sh;&c_a;&c_u;</trd>
   <trd lng="uk">&c_z;&#8217;&c_ji;&c_s;&c_t;&c_i;</trd>
   <trd lng="ur">&f_k;&#x6BE;&a_A;&a_n;&#x6D2;</trd>
   <trd lng="uz">ovqat</trd>
@@ -625,6 +625,10 @@
     <trd>&zdot;arcie</trd>,
     <trd>po&zdot;ywienie</trd>
   </trdgrp>
+  <trdgrp lng="pt">
+    <trd>alimento</trd>,
+    <trd>comida</trd>
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>aliment</trd>,
     <trd>m&acirc;ncare </trd>,
@@ -640,19 +644,15 @@
       <klr>(&c_s;&c_malmol;&c_je;&c_s;&c_t;&c_n;&c_o;&c_je;)</klr></trd>,
     <trd>&c_k;&c_u;&c_sh;&c_a;&c_n;&c_mol;&c_je;</trd>
   </trdgrp>
-  <trdgrp lng="pt">
-    <trd>alimento</trd>,
-    <trd>comida</trd>
-  </trdgrp>
   <trd lng="sv">mat</trd>
   <trd lng="th">&#xE2D;&#xE32;&#xE2B;&#xE32;&#xE23;</trd>
   <trd lng="tok">moku</trd>
+  <trd lng="tr">yiyecek</trd>
   <trdgrp lng="uk">
     <trd>&c_ji;&c_zh;&c_a;</trd>,
     <trd>&c_s;&c_t;&c_r;&c_a;&c_v;&c_a;</trd>
   </trdgrp>
   <trd lng="vo">fid</trd>
-  <trd lng="tr">yiyecek</trd>
   <trd lng="zh">&#x98DF;&#29289; <pr>sh&iacute;w&ugrave;</pr></trd>
 </drv>
 
@@ -733,17 +733,17 @@
     <trd>cafeteria</trd>,
     <trd>bar</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Speisesaal</trd>,
+    <trd>Esszimmer</trd>,
+    <trd>Kantine</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>dining room</trd>,
     <trd>cafeteria</trd>,
     <trd>canteen</trd>
     <trd>dining hall</trd>,
     <trd>mess hall</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Speisesaal</trd>,
-    <trd>Esszimmer</trd>,
-    <trd>Kantine</trd>
   </trdgrp>
   <trdgrp lng="id">
     <trd><ind>ruang</ind> makan</trd>,
@@ -935,15 +935,15 @@
     <klr>(&c_je;&c_zh;&c_u;)</klr></trd>
   </trdgrp>
   <trd lng="br">krignat<klr tip="ind"> (debri&ntilde;
-  nebeut)</klr></trd>
-  <trdgrp lng="en">
-    <trd>snack</trd>,
-    <trd>nibble</trd>
-  </trdgrp>
+    nebeut)</klr></trd>
   <trdgrp lng="de">
     <trd>schnasseln</trd>,
     <trd>naschen</trd>,
     <trd>knabbern</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>snack</trd>,
+    <trd>nibble</trd>
   </trdgrp>
   <trd lng="fr">grignoter</trd>
   <trdgrp lng="id">
@@ -1376,11 +1376,11 @@
     <trd>voorafje</trd>,
     <trd>hors d'oeuvre</trd>
   </trdgrp>
-  <trdgrp lng="nl">
+  <trd lng="pl">przystawka</trd>
+  <trdgrp lng="pt">
     <trd>aperitivo<klr> (antepasto)</klr></trd>,
     <trd>entrada<klr> (refei&ccedil;&atilde;o)</klr></trd>,
   </trdgrp>
-  <trd lng="pl">przystawka</trd>
   <trd lng="ro">gustare</trd>
   <trd lng="ru">&c_z;&c_a;&c_k;&c_u;&c_s;&c_k;&c_a;</trd>
   <trdgrp lng="zh">
@@ -2299,12 +2299,12 @@
   lng="bo">&t_nya;&t_gigu;&t_na;&t_tsheg;&t_ga;&t_shabchu;&t_nga;&t_tsheg;&t_kha;&t_tsheg;&t_la;&t_ga;&t_tsheg;</trd>
   <trd lng="br">merenn</trd>
   <trd lng="ca">dinar</trd>
+  <trd lng="de">Mittagessen</trd>
+  <trd lng="en">lunch</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;jeuner<klr tip="ind"> (repas de midi)</klr></trd>,
     <trd>diner<klr tip="ind"> (repas de midi)</klr></trd>
   </trdgrp>
-  <trd lng="de">Mittagessen</trd>
-  <trd lng="en">lunch</trd>
   <trd lng="hu">eb&eacute;d</trd>
   <trdgrp lng="id">
     <trd><ind>makan</ind> siang</trd>,
@@ -2603,8 +2603,8 @@
     <trd lng="en">bee-eater</trd>
     <trd lng="fr">gu&ecirc;pier<klr> (oiseau)</klr></trd>
     <trd lng="hu">gyurgyalag</trd>
-    <trd lng="nl">bijeneter</trd>
     <trd lng="la">Merops apiaster</trd>
+    <trd lng="nl">bijeneter</trd>
     <trd lng="pl">&zdot;o&lstroke;na<klr> (nie: pszczo&lstroke;ojad!)</klr></trd>
     <trd lng="pt">abelaruco<klr> (comum)</klr></trd>
     <trd lng="ro">prigorie</trd>
@@ -2879,6 +2879,9 @@
 </art>
 <!--
 $Log$
+versio 1.213 2026/08/14 09:20:48
+Wolfram Diestel: trd-ordo
+
 versio 1.212 2026/04/02 13:54:55
 Dmitri Gabinski: + trd be
 
@@ -2898,8 +2901,5 @@ versio 1.207 2025/09/26 06:40:18
 Wolfram Diestel: +rapid~a&jcirc;/-ejo
 
 versio 1.206 2025/09/03 08:37:17
-Hector Alos i Font: +trd cv
-
-versio 1.205 2025/04/21 08:38:38
 -->
 </vortaro>
