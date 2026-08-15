@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nikola.xml,v 1.28 2026/08/08 05:10:40 revo Exp $">
+<art mrk="$Id: nikola.xml,v 1.29 2026/08/15 16:40:14 revo Exp $">
 <kap>
   <ofc>*</ofc><ofc>7</ofc><rad>Nikola</rad>/o
 </kap>
 
 <drv mrk="nikola.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">NOM</uzo>
-  <snc>
+  <snc mrk="nikola.0o.NOM">
+    <uzo tip="fak">NOM</uzo>
     <dif>
       Vira <ref tip="lst" cel="nom.antaux0o" lst="voko:personaj_nomoj">anta&ubreve;nomo</ref> grekdevena:
       <ekz>
@@ -94,7 +94,7 @@
   <var><kap> Nik&ccirc;jo</kap></var>,
   <var><kap> Ni&ccirc;jo</kap></var>
   </kap>
-  <snc>
+  <snc mrk="nikola.0cxjo.NOM">
     <dif>
       Karesnomo de <tld/>o:
       <ekz>
@@ -123,10 +123,12 @@
   <kap>
     Sankta <tld/>o
   </kap>
-  <snc>
+  <snc mrk="nikola.Sankta_0o.PERS">
+    <uzo tip="fak">KRI</uzo>
+    <uzo tip="fak">PERS</uzo>
     <dif>
       <ref tip="super" cel="sankt.0ulo">Sanktulo</ref>,
-      <tld/>o de Mira,  kun memortago je la 6a de Decembro,
+      <tld/>o de Mira,  kun memortago je la 6a de decembro,
       kiu la&ubreve; kristana kredo alportas donacojn:
       <ekz>
         li kolektas siajn fortojn kaj vokas pro helpo la sanktan <tld/>on
@@ -143,15 +145,6 @@
         </fnt>;
       </ekz>
       <ekz>
-        li alportas la donacojn nokte tra la fumtubo, a&ubreve; dumfeste vizitas Nigra
-        Petro mem, se Sankta <tld/>o ne havas sufi&ccirc;e da tempo por &ccirc;iujn viziti
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Gerrit Berveling</aut>
-          <vrk><url ref="&Monato;/2013/011169.php">&Ccirc;u rasisma? Neniel!</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
         inter la familiaj festoj estas tiuj de la sanktaj apostoloj
         Petro kaj Pa&ubreve;lo (12an de julio), Krucfestotago (27an de septembro),
         Demetrio (8an de novembro) kaj Sankta <tld/>o (19a de decembro)
@@ -160,6 +153,21 @@
           <aut>Dimitrije Jani&ccaron;i&cacute;</aut>
           <vrk><url ref="&Monato;/2015/011456.php">Festo festata</url></vrk>
         </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="nikola.Sankta_0o.MIT">
+    <uzo tip="fak">MIT</uzo>
+    <dif>
+      Popola figuro de la sanktulo kiel portanto de donacoj al infanoj okaze de jarfinaj festoj:
+      <ekz>
+        li alportas la donacojn nokte tra la fumtubo, a&ubreve; dumfeste vizitas Nigra
+        Petro mem, se Sankta <tld/>o ne havas sufi&ccirc;e da tempo por &ccirc;iujn viziti
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="&Monato;/2013/011169.php">&Ccirc;u rasisma? Neniel!</url></vrk>
+        </fnt>;
       </ekz>
     </dif>
   </snc>
@@ -172,6 +180,7 @@
     <trd>Saint <ind>Nicholas</ind></trd>,
     <trd>Santa <ind>Claus</ind></trd>
   </trdgrp>
+  <trd lng="fr">Saint Nicolas</trd>
   <trdgrp lng="id">
     <trd>Bapak Natal</trd>,
     <trd>Kris Kringle</trd>,
@@ -197,11 +206,13 @@
     <trd>&#32854;&#35477;&#32769;&#20154; <pr>sh&egrave;ngd&agrave;nl&#462;or&eacute;n</pr></trd>
   </trdgrp>
 </drv>
-
 </art>
 
 <!--
 $Log$
+versio 1.29 2026/08/15 16:40:14
+Jeromo Vasxe: s-ta ~o 2 snc
+
 versio 1.28 2026/08/08 05:10:40
 Eko Nur Syah Hidayat: korekteto
 
@@ -221,8 +232,5 @@ versio 1.21 2022/06/29 08:39:56
 Dmitri Gabinski: + trd be
 
 Revision 1.18  2018/01/11 18:10:14  revo
-Wolfram Diestel: +ref
-
-Revision 1.17  2018/01/10 21:10:15  revo
 -->
 </vortaro>
