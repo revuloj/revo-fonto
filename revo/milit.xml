@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: milit.xml,v 1.161 2026/03/02 14:00:21 revo Exp $">
+<art mrk="$Id: milit.xml,v 1.162 2026/08/15 18:48:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>milit</rad>/i
@@ -97,10 +97,10 @@
   <trd lng="vo">klig&ouml;n</trd>
   <trdgrp lng="zh">
     <trd>&#25171;&#20183; <pr>d&#462;zh&agrave;ng</pr></trd>,
-    <trd>&#20132;&#25112; <pr>ji&#257;ozh&agrave;n</pr></trd>,
-    <trd>&#20132;&#25136; <pr>ji&#257;ozh&agrave;n</pr></trd>,
-    <trd>&#20105;&#25112; <pr>zh&#275;ngzh&agrave;n</pr></trd>,
-    <trd>&#29229;&#25136; <pr>zh&#275;ngzh&agrave;n</pr></trd>,
+    <trd>&#20132;&#25112; <pr>ji&amacron;ozh&agrave;n</pr></trd>,
+    <trd>&#20132;&#25136; <pr>ji&amacron;ozh&agrave;n</pr></trd>,
+    <trd>&#20105;&#25112; <pr>zh&emacron;ngzh&agrave;n</pr></trd>,
+    <trd>&#29229;&#25136; <pr>zh&emacron;ngzh&agrave;n</pr></trd>,
     <trd>&#20316;&#25112; <pr>zu&ograve;zh&agrave;n</pr></trd>,
     <trd>&#20316;&#25136; <pr>zu&ograve;zh&agrave;n</pr></trd>,
     <trd>&#25112; <pr>zh&agrave;n</pr></trd>,
@@ -261,8 +261,8 @@
   <trd lng="yi">&mem;&lamed;&het;&mem;&he;</trd>
   <trd lng="yo">ogun</trd>
   <trdgrp lng="zh">
-    <trd>&#25112;&#20105; <pr>zh&agrave;nzh&#275;ng</pr></trd>,
-    <trd>&#25136;&#29229; <pr>zh&agrave;nzh&#275;ng</pr></trd>,
+    <trd>&#25112;&#20105; <pr>zh&agrave;nzh&emacron;ng</pr></trd>,
+    <trd>&#25136;&#29229; <pr>zh&agrave;nzh&emacron;ng</pr></trd>,
     <trd>&#25112; <pr>zh&agrave;n</pr></trd>,
     <trd>&#25136; <pr>zh&agrave;n</pr></trd>
   </trdgrp>
@@ -327,15 +327,15 @@
     <trd>military</trd>,
     <trd>war</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>guerrier</trd>,
-    <trd>martial</trd>,
-    <trd>militaire<klr tip="amb"> (adj.)</klr></trd>
-  </trdgrp>
   <trdgrp lng="es">
     <trd>militar</trd>,
     <trd>b&eacute;lico</trd>,
     <trd>guerrero</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>guerrier</trd>,
+    <trd>martial</trd>,
+    <trd>militaire<klr tip="amb"> (adj.)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>harci</trd>,
@@ -446,8 +446,8 @@
     <trd>&c_p;&c_o;&c_l;&c_k;&c_o;&c_v;&c_o;&c_d;&c_je;&c_c;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#20891;&#38400; <pr>j&#363;nf&aacute;</pr></trd>,
-    <trd>&#36557;&#38309; <pr>j&#363;nf&aacute;</pr></trd>
+    <trd>&#20891;&#38400; <pr>j&umacron;nf&aacute;</pr></trd>,
+    <trd>&#36557;&#38309; <pr>j&umacron;nf&aacute;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -498,18 +498,13 @@
     <trd>soldier</trd>
   </trdgrp>
   <trd lng="es">militar</trd>
-  <trdgrp lng="hu">
-    <trd>harcos</trd>,
-    <trd>katona</trd>
-  </trdgrp>
-  <trdgrp lng="ja">
-    <trd>&#36557;&#20154;  <pr>&#12368;&#12435;&#12376;&#12435;</pr></trd>,
-    <trd>&#36557;&#22269;&#20027;&#32681;&#32773;  <pr>&#12368;&#12435;&#12371;&#12367;&#12375;&#12421;&#12366;&#12375;&#12419;</pr></trd>
-  </trdgrp>
-  <trd lng="nl">beroeps<ind>militair</ind></trd>
   <trdgrp lng="fr">
     <trd>militaire<klr tip="ind"> (subst.)</klr></trd>,
     <trd>soldat<klr tip="ind"> (militaire)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>harcos</trd>,
+    <trd>katona</trd>
   </trdgrp>
   <trdgrp lng="id">
     <trd>pe<ind>juang</ind></trd>,
@@ -522,11 +517,16 @@
     <trd>soldato<klr> (militare)</klr></trd>,
     <trd>guerriero</trd>
   </trdgrp>
- <trdgrp lng="pl">
-   <trd>wojskowy</trd>
-   <trd>&zdot;o&lstroke;nierz</trd>
- </trdgrp>
- <trdgrp lng="pt">
+  <trdgrp lng="ja">
+    <trd>&#36557;&#20154;  <pr>&#12368;&#12435;&#12376;&#12435;</pr></trd>,
+    <trd>&#36557;&#22269;&#20027;&#32681;&#32773;  <pr>&#12368;&#12435;&#12371;&#12367;&#12375;&#12421;&#12366;&#12375;&#12419;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">beroeps<ind>militair</ind></trd>
+  <trdgrp lng="pl">
+    <trd>wojskowy</trd>
+    <trd>&zdot;o&lstroke;nierz</trd>
+  </trdgrp>
+  <trdgrp lng="pt">
     <trd>militar</trd>,
     <trd>soldado</trd>
   </trdgrp>
@@ -537,7 +537,7 @@
   <trdgrp lng="ru">
     <trd>&c_v;&c_o;&c_i;&c_n;</trd>,
     <trd>&c_v;&c_o;&c_je;&c_n;&c_n;&c_y;&c_j;<klr tip="amb">
-(&c_s;&c_u;&c_shch;.)</klr></trd>
+      (&c_s;&c_u;&c_shch;.)</klr></trd>
   </trdgrp>
   <trd lng="sk">vojak</trd>
   <trd lng="sv">milit&auml;r</trd>
@@ -549,10 +549,10 @@
   <trdgrp lng="zh">
     <trd>&#25112;&#22763; <pr>zh&agrave;nsh&igrave;</pr></trd>,
     <trd>&#25136;&#22763; <pr>zh&agrave;nsh&igrave;</pr></trd>,
-    <trd>&#20891;&#20154; <pr>j&#363;nr&eacute;n</pr></trd>,
-    <trd>&#36557;&#20154; <pr>j&#363;nr&eacute;n</pr></trd>,
-    <trd>&#20853; <pr>b&#299;ng</pr></trd>,
-    <trd>&#22763;&#20853; <pr>sh&igrave;b&#299;ng</pr></trd>,
+    <trd>&#20891;&#20154; <pr>j&umacron;nr&eacute;n</pr></trd>,
+    <trd>&#36557;&#20154; <pr>j&umacron;nr&eacute;n</pr></trd>,
+    <trd>&#20853; <pr>b&imacron;ng</pr></trd>,
+    <trd>&#22763;&#20853; <pr>sh&igrave;b&imacron;ng</pr></trd>,
     <trd>&#26007;&#22763; <pr>d&ograve;ush&igrave;</pr></trd>,
     <trd>&#39717;&#22763; <pr>d&ograve;ush&igrave;</pr></trd>
   </trdgrp>
@@ -665,16 +665,16 @@
   </trdgrp>
   <trd lng="uk">&c_v;&c_ib;&c_j;&c_s;&c_mol;&c_k;&c_o;</trd>
   <trdgrp lng="zh">
-    <trd>&#20853; <pr>b&#299;ng</pr></trd>,
-    <trd>&#20891; <pr>j&#363;n</pr></trd>,
-    <trd>&#36557; <pr>j&#363;n</pr></trd>,
+    <trd>&#20853; <pr>b&imacron;ng</pr></trd>,
+    <trd>&#20891; <pr>j&umacron;n</pr></trd>,
+    <trd>&#36557; <pr>j&umacron;n</pr></trd>,
     <trd>&#37096;&#38431; <pr>b&ugrave;du&igrave;</pr></trd>,
     <trd>&#37096;&#38538; <pr>b&ugrave;du&igrave;</pr></trd>,
-    <trd>&#27494;&#35013;&#37096;&#38431; <pr>w&#468;zhu&#257;ngb&ugrave;du&igrave;</pr></trd>,
-    <trd>&#27494;&#35037;&#37096;&#38538; <pr>w&#468;zhu&#257;ngb&ugrave;du&igrave;</pr></trd>,
-    <trd>&#20853;&#21147; <pr>b&#299;ngl&igrave;</pr></trd>,
-    <trd>&#38470;&#20891; <pr>l&ugrave;j&#363;n</pr></trd>,
-    <trd>&#38520;&#36557; <pr>l&ugrave;j&#363;n</pr></trd>
+    <trd>&#27494;&#35013;&#37096;&#38431; <pr>w&#468;zhu&amacron;ngb&ugrave;du&igrave;</pr></trd>,
+    <trd>&#27494;&#35037;&#37096;&#38538; <pr>w&#468;zhu&amacron;ngb&ugrave;du&igrave;</pr></trd>,
+    <trd>&#20853;&#21147; <pr>b&imacron;ngl&igrave;</pr></trd>,
+    <trd>&#38470;&#20891; <pr>l&ugrave;j&umacron;n</pr></trd>,
+    <trd>&#38520;&#36557; <pr>l&ugrave;j&umacron;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -745,21 +745,21 @@
     <trd>&c_z;&c_d;&c_o;&c_b;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#21147;&#25915; <pr>l&igrave;g&#333;ng</pr></trd>,
-    <trd>&#25256; <pr>p&#275;ng</pr></trd>,
-    <trd>&#36827;&#25915; <pr>j&igrave;ng&#333;ng</pr></trd>,
-    <trd>&#36914;&#25915; <pr>j&igrave;ng&#333;ng</pr></trd>,
-    <trd>&#20986;&#20987; <pr>ch&#363;j&#299;</pr></trd>,
-    <trd>&#20986;&#25802; <pr>ch&#363;j&#299;</pr></trd>,
-    <trd>&#25915;&#20240; <pr>g&#333;ngf&aacute;</pr></trd>,
+    <trd>&#21147;&#25915; <pr>l&igrave;g&omacron;ng</pr></trd>,
+    <trd>&#25256; <pr>p&emacron;ng</pr></trd>,
+    <trd>&#36827;&#25915; <pr>j&igrave;ng&omacron;ng</pr></trd>,
+    <trd>&#36914;&#25915; <pr>j&igrave;ng&omacron;ng</pr></trd>,
+    <trd>&#20986;&#20987; <pr>ch&umacron;j&imacron;</pr></trd>,
+    <trd>&#20986;&#25802; <pr>ch&umacron;j&imacron;</pr></trd>,
+    <trd>&#25915;&#20240; <pr>g&omacron;ngf&aacute;</pr></trd>,
     <trd>&#28024;&#34432; <pr>j&igrave;nsh&iacute;</pr></trd>,
     <trd>&#28024;&#34645; <pr>j&igrave;nsh&iacute;</pr></trd>,
-    <trd>&#34987;&#25256;&#20987; <pr>b&egrave;ip&#275;ngj&#299;</pr></trd>,
-    <trd>&#34987;&#25256;&#25802; <pr>b&egrave;ip&#275;ngj&#299;</pr></trd>,
-    <trd>&#34987;&#25915;&#20987; <pr>b&egrave;ig&#333;ngj&#299;</pr></trd>,
-    <trd>&#34987;&#25915;&#25802; <pr>b&egrave;ig&#333;ngj&#299;</pr></trd>,
-    <trd>&#34987;&#34989;&#20987; <pr>b&egrave;ix&iacute;j&#299;</pr></trd>,
-    <trd>&#34987;&#35186;&#25802; <pr>b&egrave;ix&iacute;j&#299;</pr></trd>,
+    <trd>&#34987;&#25256;&#20987; <pr>b&egrave;ip&emacron;ngj&imacron;</pr></trd>,
+    <trd>&#34987;&#25256;&#25802; <pr>b&egrave;ip&emacron;ngj&imacron;</pr></trd>,
+    <trd>&#34987;&#25915;&#20987; <pr>b&egrave;ig&omacron;ngj&imacron;</pr></trd>,
+    <trd>&#34987;&#25915;&#25802; <pr>b&egrave;ig&omacron;ngj&imacron;</pr></trd>,
+    <trd>&#34987;&#34989;&#20987; <pr>b&egrave;ix&iacute;j&imacron;</pr></trd>,
+    <trd>&#34987;&#35186;&#25802; <pr>b&egrave;ix&iacute;j&imacron;</pr></trd>,
     <trd>&#34987;&#36074;&#21839; <pr>b&egrave;izh&igrave;w&egrave;n</pr></trd>,
     <trd>&#34987;&#36136;&#38382; <pr>b&egrave;izh&igrave;w&egrave;n</pr></trd>
   </trdgrp>
@@ -817,8 +817,8 @@
   <trd lng="ru">&c_t;&c_je;&c_a;&c_t;&c_r; &c_v;&c_o;&c_je;&c_n;&c_n;&c_y;&c_h;
   &c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_j;</trd>
   <trdgrp lng="zh">
-    <trd>&#25112;&#21306; <pr>zh&agrave;nq&#363;</pr></trd>,
-    <trd>&#25136;&#21312; <pr>zh&agrave;nq&#363;</pr></trd>
+    <trd>&#25112;&#21306; <pr>zh&agrave;nq&umacron;</pr></trd>,
+    <trd>&#25136;&#21312; <pr>zh&agrave;nq&umacron;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -935,9 +935,9 @@
   </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_v;&c_o;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="zh">
-    <trd>&#24449;&#26381; <pr>zh&#275;ngf&uacute;</pr></trd>,
-    <trd>&#25915;&#28357; <pr>g&#333;ngmi&egrave;</pr></trd>,
-    <trd>&#25915;&#28781; <pr>g&#333;ngmi&egrave;</pr></trd>
+    <trd>&#24449;&#26381; <pr>zh&emacron;ngf&uacute;</pr></trd>,
+    <trd>&#25915;&#28357; <pr>g&omacron;ngmi&egrave;</pr></trd>,
+    <trd>&#25915;&#28781; <pr>g&omacron;ngmi&egrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1045,8 +1045,8 @@
   <trd lng="pt">guerrilha</trd>
   <trd lng="sk">partiz&aacute;nske boje</trd>
   <trdgrp lng="zh">
-    <trd>&#28216;&#20987;&#25112; <pr>y&oacute;uj&#299;zh&agrave;n</pr></trd>,
-    <trd>&#36938;&#25802;&#25136; <pr>y&oacute;uj&#299;zh&agrave;n</pr></trd>
+    <trd>&#28216;&#20987;&#25112; <pr>y&oacute;uj&imacron;zh&agrave;n</pr></trd>,
+    <trd>&#36938;&#25802;&#25136; <pr>y&oacute;uj&imacron;zh&agrave;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1137,8 +1137,8 @@
   <trd lng="sk">kr&iacute;&zcaron;ov&aacute; v&yacute;prava</trd>
   <trd lng="uk">&c_h;&c_r;&c_je;&c_s;&c_t;&c_o;&c_v;&c_i;&c_j; &c_p;&c_o;&c_h;&c_ib;&c_d;</trd>
   <trdgrp lng="zh">
-    <trd>&#21313;&#23383;&#20891;&#19996;&#24449; <pr>sh&iacute;z&igrave;j&#363;nd&#333;ngzh&#275;ng</pr></trd>,
-    <trd>&#21313;&#23383;&#36557;&#26481;&#24449; <pr>sh&iacute;z&igrave;j&#363;nd&#333;ngzh&#275;ng</pr></trd>
+    <trd>&#21313;&#23383;&#20891;&#19996;&#24449; <pr>sh&iacute;z&igrave;j&umacron;nd&omacron;ngzh&emacron;ng</pr></trd>,
+    <trd>&#21313;&#23383;&#36557;&#26481;&#24449; <pr>sh&iacute;z&igrave;j&umacron;nd&omacron;ngzh&emacron;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1330,10 +1330,10 @@
   <trd lng="en">civil war</trd>
   <trd lng="es">guerra <ind>civil</ind></trd>
   <trd lng="fr">guerre civile</trd>
+  <trd lng="he">&mem;&lamed;&het;&mem;&tav;
+      &alef;&zayin;&resh;&het;&yod;&fmem;</trd>
   <trd lng="id"><ind>perang</ind> sipil</trd>
   <trd lng="it">guerra civile</trd>
-  <trd lng="he">&mem;&lamed;&het;&mem;&tav;
-&alef;&zayin;&resh;&het;&yod;&fmem;</trd>
   <trd lng="nl">burgeroorlog</trd>
   <trd lng="pl">wojna domowa</trd>
   <trd lng="pt">guerra civil</trd>
@@ -1345,8 +1345,8 @@
   <trdgrp lng="zh">
     <trd>&#20839;&#25136; <pr>n&egrave;izh&agrave;n</pr></trd>,
     <trd>&#20869;&#25112; <pr>n&egrave;izh&agrave;n</pr></trd>,
-    <trd>&#22269;&#20869;&#25112;&#20105; <pr>gu&oacute;n&egrave;izh&agrave;nzh&#275;ng</pr></trd>,
-    <trd>&#22283;&#20839;&#25136;&#29229; <pr>gu&oacute;n&egrave;izh&agrave;nzh&#275;ng</pr></trd>
+    <trd>&#22269;&#20869;&#25112;&#20105; <pr>gu&oacute;n&egrave;izh&agrave;nzh&emacron;ng</pr></trd>,
+    <trd>&#22283;&#20839;&#25136;&#29229; <pr>gu&oacute;n&egrave;izh&agrave;nzh&emacron;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1406,10 +1406,10 @@
   <trd lng="ru">&c_P;&c_je;&c_r;&c_v;&c_a;&c_ja; &c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_ja;
   <ind>&c_v;&c_o;&c_j;&c_n;&c_a;</ind></trd>
   <trdgrp lng="zh">
-    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25112; <pr>D&igrave;y&#299;c&igrave;Sh&igrave;ji&egrave;D&agrave;zh&agrave;n</pr></trd>,
-    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25136; <pr>D&igrave;y&#299;c&igrave;Sh&igrave;ji&egrave;D&agrave;zh&agrave;n</pr></trd>,
-    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25112; <pr>d&igrave;y&#299;c&igrave;sh&igrave;ji&egrave;d&agrave;zh&agrave;n</pr></trd>,
-    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25136; <pr>d&igrave;y&#299;c&igrave;sh&igrave;ji&egrave;d&agrave;zh&agrave;n</pr></trd>
+    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25112; <pr>D&igrave;y&imacron;c&igrave;Sh&igrave;ji&egrave;D&agrave;zh&agrave;n</pr></trd>,
+    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25136; <pr>D&igrave;y&imacron;c&igrave;Sh&igrave;ji&egrave;D&agrave;zh&agrave;n</pr></trd>,
+    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25112; <pr>d&igrave;y&imacron;c&igrave;sh&igrave;ji&egrave;d&agrave;zh&agrave;n</pr></trd>,
+    <trd>&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25136; <pr>d&igrave;y&imacron;c&igrave;sh&igrave;ji&egrave;d&agrave;zh&agrave;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1478,6 +1478,9 @@
 </art>
 <!--
 $Log$
+versio 1.162 2026/08/15 18:48:00
+Wolfram Diestel: trd-ordo
+
 versio 1.161 2026/03/02 14:00:21
 Hector Alos i Font: +trd ca
 
@@ -1497,8 +1500,5 @@ versio 1.154 2023/09/07 04:28:42
 Eko Nur Syah Hidayat: +trd id
 
 versio 1.152 2023/08/29 17:27:05
-Wolfram Diestel: ja: prononco
-
-versio 1.151 2023/08/25 14:01:53
 -->
 </vortaro>
