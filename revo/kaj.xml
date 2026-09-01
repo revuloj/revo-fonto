@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kaj.xml,v 1.132 2026/08/12 13:42:15 revo Exp $">
+<art mrk="$Id: kaj.xml,v 1.133 2026/09/01 11:37:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kaj</rad> <fnt> <bib>UV</bib></fnt>
@@ -18,12 +18,10 @@
       <ekz>
         Sur la fenestro ku&scirc;as krajono <tld/> plumo
         <fnt><bib>F</bib>, <lok>&FE;6</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         Li koleras <tld/> insultas
         <fnt><bib>F</bib>, <lok>&FE;31</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ni disi&gcirc;is <tld/> iris en diversajn flankojn:
         mi iris dekstren, <tld/> li iris maldekstren
         <fnt><bib>F</bib>, <lok>&FE;28</lok></fnt>.
@@ -504,9 +502,44 @@
   </trdgrp>
 </drv>
 
+<drv mrk="kaj.el0igo">
+  <kap>el<tld/>igo <fnt><bib>KompLeks</bib></fnt></kap>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Ajna el la du inferencaj reguloj de propozicia kalkulo, kiu
+      ekstraktas veran argumenton el vera <tld/>o-propozicio:
+      <frm>A&amp;B&nbsp;&#8867;&nbsp;A</frm>; <frm>A&amp;B&nbsp;&#8867;&nbsp;B</frm>
+      (t.e. se veras kajo de du propozicioj, tiam veras ajna el tiuj
+      propozicioj).
+    </dif>
+  </snc>
+  <trd lng="en">conjunction elimination</trd>
+  <trd lng="fr">elimination de conjonction</trd>
+</drv>
+
+<drv mrk="kaj.kun0igo">
+  <kap>kun<tld/>igo <fnt><bib>KompLeks</bib></fnt></kap>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Inferencaj reguloj de propozicia kalkulo, kiu kunigas du
+      aparte pruveblajn propoziciojn en unu pruveblan <tld/>on:
+      <frm>(G&#8867;A;&nbsp;G&#8867;B)&nbsp;&#8867;&nbsp;(G&#8867;A&amp;B)</frm>
+      (t.e. se veras du propozicioj aparte, tiam anka&ubreve; veras la
+      <tld/>o de tiuj propozicioj).
+    </dif>
+  </snc>
+  <trd lng="en">conjunction introduction</trd>
+  <trd lng="fr">introduction de conjonction</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.133 2026/09/01 11:37:18
+Sergio Pokrovskij: +el~igo, +kun~igo
+
 versio 1.132 2026/08/12 13:42:15
 Wolfram Diestel: trd-ordo
 
@@ -526,8 +559,5 @@ versio 1.127 2025/04/27 12:49:40
 Wolfram Diestel: sintakso
 
 versio 1.126 2025/04/23 10:35:37
-Sergio Pokrovskij: +~...~
-
-versio 1.123 2023/10/18 14:48:09
 -->
 </vortaro>
