@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: alarm.xml,v 1.37 2025/09/27 14:00:21 revo Exp $">
+<art mrk="$Id: alarm.xml,v 1.38 2026/09/05 10:33:09 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>alarm</rad>/i <fnt><bib>JED</bib></fnt>
@@ -39,8 +39,8 @@
     </dif>
     <ref tip="super" cel="avert.0i.pridangxero">averti<sncref/></ref>
     <trdgrp lng="zh">
-    <trd>&#22823;&#22768;&#30142;&#21628; <pr>d&agrave;sh&emacron;ngj&iacute;h&#363;</pr></trd>,
-    <trd>&#22823;&#32882;&#30142;&#21628; <pr>d&agrave;sh&emacron;ngj&iacute;h&#363;</pr></trd>,
+    <trd>&#22823;&#22768;&#30142;&#21628; <pr>d&agrave;sh&emacron;ngj&iacute;h&umacron;</pr></trd>,
+    <trd>&#22823;&#32882;&#30142;&#21628; <pr>d&agrave;sh&emacron;ngj&iacute;h&umacron;</pr></trd>,
     <trd>&#22577;&#35686; <pr>b&agrave;oj&#464;ng</pr></trd>,
     <trd>&#25253;&#35686; <pr>b&agrave;oj&#464;ng</pr></trd>,
     <trd>&#24779; <pr>w&#462;n</pr></trd>
@@ -72,6 +72,7 @@
     <trd>riaszt</trd>,
     <trd>riad&oacute;ztat</trd>
   </trdgrp>
+  <trd lng="id"><baz>beri tahu</baz>memberitahukan bahaya</trd>
   <trd lng="ja">&#35686;&#22577;&#12434;&#20253;&#12360;&#12427;  <pr>&#12369;&#12356;&#12411;&#12358;&#12434;&#12388;&#12383;&#12360;&#12427;</pr></trd>
   <trd lng="nl">alarmeren</trd>
   <trdgrp lng="pl">
@@ -176,7 +177,10 @@
     <trd>riad&oacute;</trd>,
     <trd>riaszt&aacute;s</trd>
   </trdgrp>
-  <trd lng="id">alarm</trd>
+  <trdgrp lng="id">
+    <trd>alarm</trd>,
+    <trd>tanda bahaya</trd>
+  </trdgrp>
   <trd lng="it">allarme</trd>
   <trd lng="ja">&#35686;&#22577;  <pr>&#12369;&#12356;&#12411;&#12358;</pr></trd>
   <trd lng="nl">alarm</trd>
@@ -246,6 +250,11 @@
   <trd lng="en">alarming</trd>
   <trd lng="fr">alarmant</trd>
   <trd lng="hu">riaszt&oacute;</trd>
+  <trdgrp lng="id">
+    <trd><baz>gempar</baz>menggemparkan</trd>,
+    <trd><baz>gelisah</baz>menggelisahkan</trd>,
+    <trd><baz>resah</baz>meresahkan</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#35686;&#22577;&#12398;  <pr>&#12369;&#12356;&#12411;&#12358;&#12398;</pr></trd>,
     <trd>&#21361;&#24613;&#12434;&#21578;&#12370;&#12427;  <pr>&#12365;&#12365;&#12421;&#12358;&#12434;&#12388;&#12370;&#12427;</pr></trd>
@@ -314,6 +323,11 @@
     <trd>riaszt&oacute;berendez&eacute;s</trd>,
     <trd>riaszt&oacute;k&eacute;sz&uuml;l&eacute;k</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>alarm</trd>,
+    <trd>beker</trd>,
+    <trd>jam beker</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#35686;&#37912;  <pr>&#12369;&#12356;&#12375;&#12423;&#12358;</pr></trd>,
     <trd>&#35686;&#22577;&#22120;  <pr>&#12369;&#12356;&#12411;&#12358;&#12365;</pr></trd>
@@ -376,6 +390,7 @@
   <trd lng="ca">alarmista</trd>
   <trd lng="cs">panika&rcaron;</trd>
   <trd lng="es">alarmista</trd>
+  <trd lng="id">alarmis</trd>
   <trdgrp lng="ja">
     <trd>&#35686;&#22577;&#20418;  <pr>&#12369;&#12356;&#12411;&#12358;&#12363;&#12363;&#12426;</pr></trd>,
     <trd>&#19990;&#12398;&#19981;&#23433;&#12434;&#12363;&#12365;&#12383;&#12390;&#12427;&#20154;&#39442;&#12364;&#12379;&#12394;&#20154;
@@ -387,11 +402,14 @@
 </art>
 <!--
 $Log$
+versio 1.38 2026/09/05 10:33:09
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.37 2025/09/27 14:00:21
 Hector Alos i Font: +trd es,ca
 
 versio 1.35 2024/11/11 17:25:35
-Vito Redsky: + trd pl 
+Vito Redsky: + trd pl
 
 versio 1.34 2024/04/26 08:27:50
 Dmitri Gabinski: + trd be
@@ -406,8 +424,5 @@ versio 1.29 2022/04/25 15:10:59
 aktualigo ligvokodoj kaj URL-unuoj
 
 versio 1.26 2020/10/11 10:33:12
-Wolfram Diestel: +ekz-oj, ref-oj
-
-Revision 1.24  2016/11/30 16:10:17  revo
 -->
 </vortaro>
