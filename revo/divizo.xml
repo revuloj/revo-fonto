@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: divizo.xml,v 1.48 2026/09/04 11:14:28 revo Exp $">
+<art mrk="$Id: divizo.xml,v 1.49 2026/09/06 10:53:32 revo Exp $">
 <kap>
   <rad>divizor</rad>/o
 <fnt><bib>PVEF</bib></fnt></kap>
@@ -53,6 +53,7 @@
     <ref cel="divizo.nul0o">nul<tld/>o</ref>.
   </refgrp>
   <trd lng="be">&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="cs">d&ecaron;litel <klr>(beze zbytku)</klr></trd>
   <trdgrp lng="de">
     <trd>Teiler</trd>,
     <trd>Divisor</trd>
@@ -62,6 +63,10 @@
   <trd lng="fr">diviseur<klr tip="ind"> (qui divise
   exactement)</klr></trd>
   <trd lng="hu">oszt&oacute;</trd>
+  <trdgrp lng="id">
+    <trd><baz>bagi</baz>pembagi</trd>,
+    <trd>faktor</trd>
+  </trdgrp>
   <trd lng="ja">&#x7D04;&#25968;  <pr>&#12420;&#x304F;&#12377;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>dzielnik<klr tip="ind"> (liczby)</klr></trd>,
@@ -72,11 +77,6 @@
   <trdgrp lng="sk">
     <trd>deli&ccaron; nap&auml;tia</trd>,
     <trd>div&iacute;zor</trd>
-  </trdgrp>
-  <trd lng="cs">d&ecaron;litel <klr>(beze zbytku)</klr></trd>
-  <trdgrp lng="id">
-    <trd><baz>bagi</baz>pembagi</trd>,
-    <trd>faktor</trd>
   </trdgrp>
   <trd lng="uk">&c_c;&c_ib;&#x43B;&#x43E;&c_ch;&c_i;&c_s;&#x43B;&#x43E;&c_v;&c_i;&c_j; &c_d;&c_ib;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;</trd>
   <trd lng="zh">&#38500;&#25968; <pr>ch&#xFA;sh&#xF9;</pr></trd>
@@ -138,6 +138,7 @@
     <trd>&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_a;&c_c;&c_mol; <ind>&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;&c_a;&c_m;</ind></trd>,
     <trd>&c_d;&c_z;&c_ja;&c_l;&c_ib;&c_c;&c_mol; &c_b;&c_je;&c_z; &c_a;&c_s;&c_t;&c_a;&c_ch;&c_y;</trd>
   </trdgrp>
+  <trd lng="cs">b&yacute;t d&ecaron;litelem beze zbytku</trd>
   <trdgrp lng="de">
     <trd>aufgehen<klr tip="ind"> (ohne Rest teilen)</klr></trd>,
     <trd>ohne Rest <ind>teilen</ind></trd>
@@ -151,12 +152,11 @@
   <trd lng="fr">diviser<klr tip="ind"> (&ecirc;tre diviseur de)</klr></trd>
   <trd lng="he">&#x5DC;&#x5D7;&#x5DC;&#x5E7;</trd>
   <trd lng="hu">oszt<klr tip="ind"> (marad&eacute;k n&eacute;lk&uuml;l)</klr></trd>
+  <trd lng="id"><baz>bagi</baz>membagi habis</trd>
   <trd lng="ja">&#x7D04;&#25968;&#12391;&#12354;&#x308B;  <pr>&#12420;&#x304F;&#12377;&#12358;&#12391;&#12354;&#x308B;</pr></trd>
   <trd lng="pl">by&cacute; podzielnikiem</trd>
   <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_mol; &c_b;&c_je;&c_z; &c_o;&c_s;&c_t;&c_a;&c_t;&c_k;&c_a;</trd>
   <trd lng="sk">by&tcaron; delite&lcaron;n&yacute; bez zvy&scaron;ku</trd>
-  <trd lng="cs">b&yacute;t d&ecaron;litelem beze zbytku</trd>
-  <trd lng="id"><baz>bagi</baz>membagi habis</trd>
   <trdgrp lng="uk">
     <trd>&c_d;&c_ib;&#x43B;&c_i;&c_t;&c_i;</trd>,
     <trd>&c_v;&c_i;&c_s;&c_t;&c_u;&#x43F;&c_a;&c_t;&c_i; &c_d;&c_ib;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;&#x43E;&#x43C;</trd>
@@ -368,6 +368,9 @@
 </art>
 <!--
 $Log$
+versio 1.49 2026/09/06 10:53:32
+Wolfram Diestel: trd-ordo
+
 versio 1.48 2026/09/04 11:14:28
 Eko Nur Syah Hidayat: +trd id
 
@@ -387,8 +390,5 @@ Revision 1.38  2020/02/14 13:10:20  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.37  2015/07/04 08:37:32  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.36  2015/06/29 16:29:37  revo
 -->
 </vortaro>
