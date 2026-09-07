@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trezor.xml,v 1.39 2026/08/23 08:47:57 revo Exp $">
+<art mrk="$Id: trezor.xml,v 1.40 2026/09/07 12:24:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>trezor</rad>/o
@@ -195,16 +195,6 @@
     </subsnc>
   </snc>
 -->
-  <trdgrp lng="ja">
-    <trd>&#x5B9D;  <pr>&#x305F;&#x304B;&#12425;</pr></trd>,
-    <trd>&#x5B9D;&#29289;  <pr>&#x305F;&#x304B;&#12425;&#12418;&#x306E;</pr></trd>,
-    <trd>&#x79D8;&#x5B9D;  <pr>&#12402;&#x307B;&#12358;</pr></trd>,
-    <trd>&#x5BCC;  <pr>&#12392;&#x307F;</pr></trd>,
-    <trd>&#x8CA1;&#x5B9D;  <pr>&#12374;&#12356;&#x307B;&#12358;</pr></trd>,
-    <trd>&#x8CB4;&#x91CD;&#x306A;&#29289;  <pr>&#x304D;&#12385;&#12423;&#12358;&#x306A;&#12406;&#12388;</pr></trd>,
-    <trd>&#22823;&#x4E8B;&#x306A;&#x4EBA;  <pr>&#12384;&#12356;&#12376;&#x306A;&#12376;&#12435;</pr></trd>
-  </trdgrp>
-  <trd lng="lat">thesaurus, i</trd>
   <trd lng="be">&c_s;&c_k;&c_a;&c_r;&c_b;</trd>
   <trd lng="ca">tresor</trd>
   <trd lng="cs">poklad</trd>
@@ -216,6 +206,16 @@
     <trd>kincs</trd>,
     <trd>dr&aacute;gas&aacute;g</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5B9D;  <pr>&#x305F;&#x304B;&#12425;</pr></trd>,
+    <trd>&#x5B9D;&#29289;  <pr>&#x305F;&#x304B;&#12425;&#12418;&#x306E;</pr></trd>,
+    <trd>&#x79D8;&#x5B9D;  <pr>&#12402;&#x307B;&#12358;</pr></trd>,
+    <trd>&#x5BCC;  <pr>&#12392;&#x307F;</pr></trd>,
+    <trd>&#x8CA1;&#x5B9D;  <pr>&#12374;&#12356;&#x307B;&#12358;</pr></trd>,
+    <trd>&#x8CB4;&#x91CD;&#x306A;&#29289;  <pr>&#x304D;&#12385;&#12423;&#12358;&#x306A;&#12406;&#12388;</pr></trd>,
+    <trd>&#22823;&#x4E8B;&#x306A;&#x4EBA;  <pr>&#12384;&#12356;&#12376;&#x306A;&#12376;&#12435;</pr></trd>
+  </trdgrp>
+  <trd lng="lat">thesaurus, i</trd>
   <trd lng="nl">schat</trd>
   <trdgrp lng="pl">
     <trd>skarb</trd>,
@@ -289,7 +289,6 @@
       </ekz>
     </dif>
     <ref tip="sub" cel="fisk.0o.kaso">fisko<sncref/></ref>
-    <trd lng="de">Schatzamt</trd>
     <trdgrp lng="de">
       <trd>Fiskus</trd>,
       <trd>Staatskasse</trd>,
@@ -301,12 +300,6 @@
       <trd>&c_k;&c_a;&c_z;&c_n;&c_a;&c_ch;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
     </trdgrp>
   </snc>
-  <trdgrp lng="ja">
-    <trd>&#x5B9D;&#x5EAB;  <pr>&#x307B;&#12358;&#12371;</pr></trd>,
-    <trd>&#x5B9D;&#29289;&#x5EAB;  <pr>&#x307B;&#12358;&#12418;&#12388;&#12371;</pr></trd>,
-    <trd>&#x56FD;&#x5EAB;  <pr>&#12371;&#12387;&#12371;</pr></trd>
-  </trdgrp>
-  <trd lng="lat">aerarium, ii</trd>
   <trd lng="be">&c_s;&c_k;&c_a;&c_r;&c_b;&c_n;&c_ib;&c_c;&c_a;</trd>
   <trd lng="ca">erari</trd>
   <trdgrp lng="cs">
@@ -317,6 +310,12 @@
   <trd lng="en">treasury</trd>
   <trd lng="es">c&aacute;mara del tesoro</trd>
   <trd lng="hu">kincst&aacute;r</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5B9D;&#x5EAB;  <pr>&#x307B;&#12358;&#12371;</pr></trd>,
+    <trd>&#x5B9D;&#29289;&#x5EAB;  <pr>&#x307B;&#12358;&#12418;&#12388;&#12371;</pr></trd>,
+    <trd>&#x56FD;&#x5EAB;  <pr>&#12371;&#12387;&#12371;</pr></trd>
+  </trdgrp>
+  <trd lng="lat">aerarium, ii</trd>
   <trd lng="nl">schatkamer</trd>
   <trd lng="pl">skarbiec</trd>
   <trdgrp lng="sk">
@@ -378,6 +377,9 @@
   </art>
   <!--
   $Log$
+versio 1.40 2026/09/07 12:24:33
+Wolfram Diestel: trd-ordo
+
 versio 1.39 2026/08/23 08:47:57
 Eko Nur Syah Hidayat: +trd id
 
@@ -397,8 +399,5 @@ versio 1.31 2023/06/14 20:27:01
 Ulrich Fellmann: trezorejo: +3 pliaj DE trdj
 
   Revision 1.28  2018/08/02 13:10:13  revo
-  Guillermo Molleda Jimena: trd es
-
-  Revision 1.27  2015/07/04 08:37:45  revo
 -->
 </vortaro>
