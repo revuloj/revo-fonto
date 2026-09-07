@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: plant.xml,v 1.132 2025/09/29 16:31:34 revo Exp $">
+  <art mrk="$Id: plant.xml,v 1.133 2026/09/07 22:49:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>plant</rad>/i
@@ -65,14 +65,14 @@
       <trd>&c_s;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_u;)</klr></trd>,
       <trd>&c_v;&c_y;&c_s;&c_a;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>sadzi&cacute;</trd>,
+      <trd>nasadza&cacute;</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_a;&c_zh;&c_a;&c_t;&c_mol;<klr tip="ind">
       (&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>,
       <trd>&c_p;&c_o;&c_s;&c_a;&c_d;&c_i;&c_t;&c_mol; <klr tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>sadzi&cacute;</trd>,
-      <trd>nasadza&cacute;</trd>
     </trdgrp>
   </snc>
   <snc mrk="plant.0i.fiksi">
@@ -257,20 +257,19 @@
       <trd>&c_s;&c_a;&c_d;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>,
       <trd>&c_p;&c_a;&c_s;&c_a;&c_d;&c_k;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_y;)</klr></trd>
     </trdgrp>
-    <trd lng="en">planting</trd>
-    <trd lng="id"><baz>tanam</baz> penanaman</trd>
-    <trd lng="ru">&c_p;&c_o;&c_s;&c_a;&c_d;&c_k;&c_a;</trd>
-    <trd lng="pl">nasadzenie</trd>
     <trdgrp lng="de">
       <trd><klr>(das)</klr> Pflanzen</trd>,
       <trd>Pflanzung</trd>
     </trdgrp>
+    <trd lng="en">planting</trd>
     <trdgrp lng="id">
       <trd><baz>tanam</baz>penanaman</trd>,
       <trd><baz>tanam</baz>tanaman</trd>,
       <trd><baz>tumbuh</baz>tumbuhan</trd>,
       <trd><baz>tumbuh</baz>tumbuh-tumbuhan</trd>
     </trdgrp>
+    <trd lng="pl">nasadzenie</trd>
+    <trd lng="ru">&c_p;&c_o;&c_s;&c_a;&c_d;&c_k;&c_a;</trd>
     <trd lng="th">&#3585;&#3634;&#3619;&#3611;&#3621;&#3641;&#3585;&#3614;&#3639;&#3594;</trd>
     <trd lng="zh">&#26666; <pr>zh&umacron;</pr></trd>
   </snc>
@@ -421,7 +420,8 @@
   </trdgrp>
   <trd lng="cs">sazenice</trd>
   <trdgrp lng="de">
-    <trd>Sch&ouml;ssling</trd>, <trd>Spr&ouml;ssling</trd>
+    <trd>Sch&ouml;ssling</trd>,
+    <trd>Spr&ouml;ssling</trd>
   </trdgrp>
   <trd lng="en">seedling</trd>
   <trdgrp lng="fr">
@@ -647,10 +647,6 @@
         Enmeti objekton (protezon, histon, grefton) en vivan
         korpon.
       </dif>
-      <trdgrp lng="ru">
-        <trd>&c_v;&c_zh;&c_i;&c_v;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_i;&c_m;&c_p;&c_l;&c_a;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-      </trdgrp>
       <trdgrp lng="de">
         <trd>implantieren</trd>
       </trdgrp>
@@ -662,6 +658,10 @@
         <trd>szczepi&cacute;</trd>,
         <trd>wszczepia&cacute;</trd>,
         <trd>przeszczepia&cacute;</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_v;&c_zh;&c_i;&c_v;&c_i;&c_t;&c_mol;</trd>,
+        <trd>&c_i;&c_m;&c_p;&c_l;&c_a;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
       </trdgrp>
     </subsnc>
     <trd lng="hu">j&oacute;l <ind>el&uuml;ltet</ind></trd>
@@ -686,7 +686,7 @@
     <trd>einpflanzen</trd>
   </trdgrp>
   <trd lng="en">implant</trd>
-      <trd lng="fr">implanter</trd>
+  <trd lng="fr">implanter</trd>
   <trdgrp lng="ja">
     <trd>&#26893;&#12360;&#36796;&#12416;  <pr>&#12358;&#12360;&#12371;&#12416;</pr></trd>,
     <trd>&#26893;&#12360;&#12388;&#12369;&#12427;  <pr>&#12358;&#12360;&#12388;&#12369;&#12427;</pr></trd>,
@@ -870,10 +870,12 @@
     <trd>&#26685;&#26893; <pr>z&amacron;izh&iacute;</pr></trd>
   </trdgrp>
 </drv>
-
 </art>
   <!--
   $Log$
+versio 1.133 2026/09/07 22:49:52
+Vito Redsky: trd ordo
+
 versio 1.132 2025/09/29 16:31:34
 Eko Nur Syah Hidayat: +trd id 2
 
@@ -893,8 +895,5 @@ versio 1.127 2024/05/20 11:00:52
 revo: kor. lat. transskribo/latvaj literoj
 
 versio 1.125 2023/10/20 16:38:17
-revo: transskribo per <pr>
-
-versio 1.123 2023/08/29 16:34:53
 -->
 </vortaro>
