@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: zodiak.xml,v 1.38 2026/09/06 10:53:15 revo Exp $">
+<art mrk="$Id: zodiak.xml,v 1.39 2026/09/07 17:54:34 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>zodiak</rad>/o
@@ -9,7 +9,7 @@
 <drv mrk="zodiak.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">AST</uzo>
-  <snc>
+  <snc mrk="zodiak.0o.astronomia">
     <dif>
       &Ccirc;iela zono, kies mezon okupas la ekliptiko,
       kaj kiu enhavas &ccirc;iujn poziciojn de la planedoj,
@@ -18,7 +18,7 @@
     </dif>
     <trd lng="pt">zod&iacute;aco</trd>
   </snc>
-  <snc>
+  <snc mrk="zodiak.0o.astrologia">
     <dif>
       La sama &ccirc;iela zono, dividata ekde la printempa ekvinokso
       en 12 samlar&gcirc;ajn partojn
@@ -26,7 +26,30 @@
       <ekz>
         oni ne devas forgesi kiu stelo kaj kiu signo de la <tld lit="Z"/>o
         estras la malsanulon
-        <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 1</lok></fnt>.
+        <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 1</lok></fnt>;
+      </ekz>
+      <ekz>
+        la gravurita <tld/>o sur la dorsa flanko de la horlo&gcirc;o ka&ubreve;zis nenian surprizon,
+        &ccirc;ar &ccirc;iuj sciis, ke la princido havas fortan kredon je astrologio
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi naski&gcirc;is sub la <tld/>a signo de <nom>Libra</nom> (pesilo)
+        <fnt>
+          <bib>KrM</bib>
+          <lok>39. Ni Forton Pli Fre&scirc;an Akiras.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la suno trapasis ok stelbildojn de la zodiako, de kiam ni priparolis la staton
+        de nia lando
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -34,8 +57,7 @@
       2000 jaroj de la stelaroj kiuj tiutempe videblis en la
       koncernaj &ccirc;ielpartoj.
       Pro la malrapida movo de la ekvinoksoj la&ubreve;longe de la
-      ekliptiko,
-      la astronomia kaj astrologia zodiako ne plu koincidas.
+      ekliptiko, la astronomia kaj astrologia zodiako ne plu koincidas.
     </rim>
     <trd lng="pt">zod&iacute;aco</trd>
   </snc>
@@ -55,6 +77,11 @@
   </refgrp>
   <trd lng="be">&c_z;&c_a;&c_d;&c_y;&c_ja;&c_k;</trd>
   <trd lng="ca">zod&iacute;ac</trd>
+  <trdgrp lng="cs">
+    <trd>zodiak</trd>,
+    <trd>zv&iacute;&rcaron;etn&iacute;k</trd>,
+    <trd>zv&ecaron;rokruh</trd>
+  </trdgrp>
   <trd lng="de">Tierkreis</trd>
   <trd lng="el">&zeta;&omega_ton;&delta;&jota;&omikron;</trd>
   <trd lng="en">zodiac</trd>
@@ -65,7 +92,7 @@
   <trdgrp lng="fa">
     <trd>&a_d;&a_A;&f_y;&a_r;&a_t_marbuta;&a_A;&a_l;&a_b;&a_r;&a_w;&a_j;</trd>,
     <trd>&a_m;&a_n;&a_T;&a_q;&a_t_marbuta;&a_A;&a_l;&a_b;&a_r;&a_w;&a_j;</trd>,
-    <trd>&a_f;&a_l;&f_k;&#x200C;&a_A;&a_l;&a_b;&a_r;&a_w;&a_j;</trd>
+    <trd>&a_f;&a_l;&f_k;&zwnj;&a_A;&a_l;&a_b;&a_r;&a_w;&a_j;</trd>
   </trdgrp>
   <trd lng="fr">zodiaque</trd>
   <trd lng="he">&gimel;&lamed;&gimel;&lamed; &he;&mem;&zayin;&lamed;&vav;&tav;</trd>
@@ -73,10 +100,11 @@
     <trd>&aacute;llat&ouml;v</trd>,
     <trd>zodi&aacute;kus</trd>
   </trdgrp>
+  <trd lng="id">zodiak</trd>
   <trd lng="it">zodiaco</trd>
   <trdgrp lng="ja">
-    <trd>&#x9EC4;&#36947;&#x5E2F;  <pr>&#12371;&#12358;&#12393;&#12358;&#x305F;&#12356;</pr></trd>,
-    <trd>&#29539;&#x5E2F;  <pr>&#12376;&#12421;&#12358;&#x305F;&#12356;</pr></trd>
+    <trd>&#x9EC4;&#x9053;&#x5E2F;  <pr>&#x3053;&#x3046;&#x3069;&#x3046;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x7363;&#x5E2F;  <pr>&#x3058;&#x3085;&#x3046;&#x305F;&#x3044;</pr></trd>
   </trdgrp>
   <trd lng="nl">dierenriem</trd>
   <trdgrp lng="pl">
@@ -84,31 +112,25 @@
     <trd>zwierzyniec niebieski</trd>
   </trdgrp>
   <trd lng="ru">&c_z;&c_o;&c_d;&c_i;&c_a;&c_k;</trd>
-  <trdgrp lng="tr">
-    <trd>bur&ccedil;lar ku&scedil;a&gbreve;&inodot;</trd>,
-    <trd>Zodyak</trd>
-  </trdgrp>
-  <trdgrp lng="sv">
-    <trd>zodiak</trd>,
-    <trd>djurkrets</trd>
-  </trdgrp>
   <trdgrp lng="sk">
     <trd>zodiak</trd>,
     <trd>zverokurh</trd>,
     <trd>zvieratn&iacute;k</trd>
   </trdgrp>
-  <trdgrp lng="cs">
+  <trdgrp lng="sv">
     <trd>zodiak</trd>,
-    <trd>zv&iacute;&rcaron;etn&iacute;k</trd>,
-    <trd>zv&ecaron;rokruh</trd>
+    <trd>djurkrets</trd>
   </trdgrp>
-  <trd lng="id">zodiak</trd>
-  <trd lng="uk">&c_z;&#x43E;&c_d;&c_ib;&c_a;&#x43A;</trd>
+  <trdgrp lng="tr">
+    <trd>bur&ccedil;lar ku&scedil;a&gbreve;&inodot;</trd>,
+    <trd>Zodyak</trd>
+  </trdgrp>
+  <trd lng="uk">&c_z;&c_o;&c_d;&c_ib;&c_a;&c_k;</trd>
   <trdgrp lng="zh">
-    <trd>&#x9EC3;&#36947;&#21313;&#x4E8C;&#x5BAE; <pr>hu&#xE1;ngd&#xE0;osh&#xED;&#xE8;rg&#x14D;ng</pr></trd>,
-    <trd>&#x9EC4;&#36947;&#21313;&#x4E8C;&#x5BAB; <pr>hu&#xE1;ngd&#xE0;osh&#xED;&#xE8;rg&#x14D;ng</pr></trd>,
-    <trd>&#x5C5E;&#x76F8; <pr>sh&#x1D4;xi&#xE0;ng</pr></trd>,
-    <trd>&#x5C6C;&#x76F8; <pr>sh&#x1D4;xi&#xE0;ng</pr></trd>
+    <trd>&#x9EC3;&#x9053;&#x5341;&#x4E8C;&#x5BAE; <pr>hu&aacute;ngd&agrave;osh&iacute;&egrave;rg&omacron;ng</pr></trd>,
+    <trd>&#x9EC4;&#x9053;&#x5341;&#x4E8C;&#x5BAB; <pr>hu&aacute;ngd&agrave;osh&iacute;&egrave;rg&omacron;ng</pr></trd>,
+    <trd>&#x5C5E;&#x76F8; <pr>sh&#x1D4;xi&agrave;ng</pr></trd>,
+    <trd>&#x5C6C;&#x76F8; <pr>sh&#x1D4;xi&agrave;ng</pr></trd>
   </trdgrp>
 </drv>
 <bld lok="&WCU;/1/1a/Zodiako.svg" prm="CC BY-SA 4.0" lrg="360">Signoj de zodiako
@@ -120,6 +142,9 @@
 </art>
 <!--
 $Log$
+versio 1.39 2026/09/07 17:54:34
+Wolfram Diestel: +ekz-oj, trd-ordo
+
 versio 1.38 2026/09/06 10:53:15
 Eko Nur Syah Hidayat: +trd id
 
@@ -133,14 +158,11 @@ versio 1.32 2022/05/06 12:17:22
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.30 2020/01/08 18:10:37
-Lusi Rimon: aldono hebrea&bildo
 
 Revision 1.29  2015/07/04 08:37:46  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.28  2015/06/28 10:33:41  revo
 aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2012/01/05 16:10:16  revo
 -->
-  </vortaro>
+  </vortaro>
