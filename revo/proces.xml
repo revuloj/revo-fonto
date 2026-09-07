@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: proces.xml,v 1.33 2026/02/14 13:11:43 revo Exp $">
+<art mrk="$Id: proces.xml,v 1.34 2026/09/07 18:45:07 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>proces</rad>/o
@@ -25,7 +25,7 @@
           <lok>Readmono 17:8</lok>
         </fnt>;
       </ekz><ekz>
-        oni demandis pentriston, kiel oni povas <klr>[&#x2026;]</klr>
+        oni demandis pentriston, kiel oni povas <klr>[&#8230;]</klr>
         prezenti du <tld/>antojn, el kiuj unu gajnis la <tld/>on
         kaj la dua &gcirc;in perdis
         <fnt>
@@ -108,7 +108,7 @@
   <trd lng="de">Prozess</trd>
   <trd lng="es">proceso</trd>
   <trd lng="hu">folyamat</trd>
-  <trd lng="ja">&#x8A34;&#x8A1F;  <pr>&#x305D;&#x3057;&#x3087;&#x3046;</pr></trd>
+  <trd lng="ja">&#x8A34;&#x8A1F;  <pr>&#x305D;&#12375;&#12423;&#12358;</pr></trd>
   <trdgrp lng="nl">
     <trd>proces</trd>,
     <trd>verloop</trd>,
@@ -166,11 +166,6 @@
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="en">
-    <trd>to sue</trd>,
-    <trd>litigate</trd>,
-    <trd>bring suit</trd>
-  </trdgrp>
   <trd lng="be">&c_s;&c_u;&c_d;&c_z;&c_ib;&c_c;&c_c;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>p&rcaron;&iacute;t se <klr>(soudn&ecaron;)</klr></trd>,
@@ -180,6 +175,11 @@
     <trd>v&eacute;st spor soudn&iacute;</trd>
   </trdgrp>
   <trd lng="de">prozessieren</trd>
+  <trdgrp lng="en">
+    <trd>to sue</trd>,
+    <trd>litigate</trd>,
+    <trd>bring suit</trd>
+  </trdgrp>
   <trd lng="es">procesar</trd>
   <trd lng="fr">faire un proc&egrave;s</trd>
   <trdgrp lng="hu">
@@ -194,7 +194,7 @@
     <trd>tuntut</trd>,
     <trd><baz>tuntut</baz>menuntut</trd>
   </trdgrp>
-  <trd lng="ja">&#x8A34;&#x8A1F;&#x3092;&#x8D77;&#x3053;&#x3059;  <pr>&#x305D;&#x3057;&#x3087;&#x3046;&#x3092;&#x304A;&#x3053;&#x3059;</pr></trd>
+  <trd lng="ja">&#x8A34;&#x8A1F;&#12434;&#x8D77;&#12371;&#12377;  <pr>&#x305D;&#12375;&#12423;&#12358;&#12434;&#x304A;&#12371;&#12377;</pr></trd>
   <trd lng="nl">procederen</trd>
   <trd lng="pl">procesowa&cacute; si&eogonek;</trd>
   <trdgrp lng="ru">
@@ -209,7 +209,7 @@
   </trdgrp>
   <trd lng="uk">&c_v;&c_je;&c_s;&c_t;&c_i; &c_p;&c_r;&c_o;&c_c;&c_je;&c_s; (&c_u; &c_s;&c_u;&c_d;&c_ib;)</trd>
   <trdgrp lng="zh">
-    <trd>&#x6253;&#x5B98;&#x53F8; <pr>d&#x1CE;gu&amacron;nsi</pr></trd>,
+    <trd>&#25171;&#x5B98;&#x53F8; <pr>d&#x1CE;gu&amacron;nsi</pr></trd>,
     <trd>&#x544A; <pr>g&agrave;o</pr></trd>,
     <trd>&#x72B6;&#x544A; <pr>zhu&agrave;ngg&agrave;o</pr></trd>,
     <trd>&#x72C0;&#x544A; <pr>zhu&agrave;ngg&agrave;o</pr></trd>,
@@ -236,15 +236,15 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_u;&c_c;&c_ja;&c_zh;&c_n;&c_ib;&c_c;&c_k;&c_ib;</trd>
+  <trd lng="de">prozessfreudig</trd>
   <trdgrp lng="en">
     <trd>litigious</trd>,
     <trd>sue-happy <klr>(slang)</klr></trd>
   </trdgrp>
-  <trd lng="de">prozessfreudig</trd>
   <trd lng="hu">peresked&odblac;</trd>
   <trd lng="id">suka menuntut</trd>
   <trd lng="ja">&#x8A34;&#x8A1F;&#x597D;&#x304D;&#x306E;
-  <pr>&#x305D;&#x3057;&#x3087;&#x3046;&#x3059;&#x304D;&#x306E;</pr></trd>
+  <pr>&#x305D;&#12375;&#12423;&#12358;&#12377;&#x304D;&#x306E;</pr></trd>
   <trd lng="nl">tot <ind>procederen</ind> geneigd</trd>
   <trd lng="pl">pieniacki</trd>
   <trd lng="ru">&c_s;&c_u;&c_t;&c_ja;&c_zh;&c_n;&c_y;&c_j;</trd>
@@ -254,6 +254,9 @@
 
   <!--
   $Log$
+versio 1.34 2026/09/07 18:45:07
+Wolfram Diestel: trd-ordo
+
 versio 1.33 2026/02/14 13:11:43
 Wolfram Diestel: ref
 
@@ -273,8 +276,5 @@ Wolfram Diestel: ekz-oj
   Cindy Moon McKee: +trd en
 
   Revision 1.22  2015/07/04 08:37:42  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.21  2015/06/29 16:40:18  revo
 -->
-</vortaro>
+</vortaro>
