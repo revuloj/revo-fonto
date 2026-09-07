@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kant.xml,v 1.155 2026/08/23 16:41:13 revo Exp $">
+<art mrk="$Id: kant.xml,v 1.156 2026/09/07 12:24:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kant</rad>/i <fnt><bib>UV</bib></fnt>
@@ -199,8 +199,8 @@
       <trd>lloar</trd>,
       <trd>encomiar</trd>
     </trdgrp>
-    <trd lng="nl">bezingen</trd>
     <trd lng="de">besingen</trd>
+    <trd lng="nl">bezingen</trd>
     <trd lng="ru">&c_v;&c_o;&c_s;&c_p;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
     <trd lng="sv">besjunga</trd>
   </snc>
@@ -329,8 +329,8 @@
       <trd>&c_s;&c_mol;&c_p;&c_je;&c_v;&c_y;</trd>
     </trdgrp>
     <trd lng="ca">cant</trd>
-    <trd lng="hu">&eacute;nekl&eacute;s</trd>
     <trd lng="de">Gesang</trd>
+    <trd lng="hu">&eacute;nekl&eacute;s</trd>
     <trd lng="pl">&sacute;piew</trd>
     <trd lng="sv">s&aring;ng</trd>
   </snc>
@@ -583,6 +583,7 @@
   <trd lng="be">&c_p;&c_je;&c_s;&c_mol;&c_n;&c_ja;</trd>
   <trd lng="ca">can&ccedil;&oacute;</trd>
   <trd lng="cs">p&iacute;se&ncaron;</trd>
+  <trd lng="de">Lied</trd>
   <trd lng="en">song</trd>
   <trdgrp lng="es">
     <trd>canci&oacute;n</trd>,
@@ -595,7 +596,7 @@
   <trd lng="hu">&eacute;neksz&aacute;m</trd>
   <trdgrp lng="id">
     <trd>lagu</trd>,
-    <trd><ind>nyanyi</ind>an</trd>
+    <trd><baz>nyanyi</baz>nyanyian</trd>
   </trdgrp>
   <trdgrp lng="it">
     <trd>canto</trd>,
@@ -614,11 +615,6 @@
   <trdgrp lng="ru">
 	<trd>&c_p;&c_je;&c_s;&c_n;&c_ja;</trd>,
 	<trd>&c_p;&c_je;&c_s;&c_n;&c_mol;</trd>
-  </trdgrp>
-  <trd lng="de">Lied</trd>
-  <trdgrp lng="id">
-    <trd>lagu</trd>,
-    <trd><baz>nyanyi</baz>nyanyian</trd>
   </trdgrp>
   <trd lng="sv">s&aring;ng</trd>
   <trdgrp lng="zh">
@@ -682,8 +678,8 @@
   <trd lng="no">nynne</trd>
   <trd lng="pl">pod&sacute;piewywa&cacute;</trd>
   <trd lng="ru">&c_n;&c_a;&c_p;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sv">nynna</trd>
   <trd lng="sk">pospevova&tcaron;</trd>
+  <trd lng="sv">nynna</trd>
   <trd lng="uk">&c_n;&c_a;&c_s;&c_p;&c_ib;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   <trd lng="zh">&#21985; <pr>w&emacron;ng</pr></trd>
 </drv>
@@ -789,8 +785,8 @@
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_p;&c_ja;&c_v;&c_a;&c_c;&c_mol; &c_n;&c_a; &c_p;&c_u;&c_b;&c_l;&c_ib;&c_c;&c_y;</trd>
   <trd lng="ca">cantar en p&uacute;blic</trd>
-  <trd lng="fr">chanter<klr tip="ind"> (devant un public)</klr></trd>
   <trd lng="de">vorsingen</trd>
+  <trd lng="fr">chanter<klr tip="ind"> (devant un public)</klr></trd>
   <trdgrp lng="id">
     <trd><baz>nyanyi</baz>menyanyi <klr>(di depan publik)</klr></trd>,
     <trd><baz>nyanyi</baz>bernyanyi <klr>(di depan publik)</klr></trd>
@@ -1269,9 +1265,8 @@
   <klr>(&c_p;&c_je;&c_s;&c_mol;&c_n;&c_ja;)</klr></trd>
   <trd lng="de">Marschlied</trd>
   <trd lng="en">marching song</trd>
-  <trd lng="id"><ind>mars</ind><klr tip="amb"> (lagu)</klr></trd>
   <trd lng="fr">marche<klr> (chanson)</klr></trd>
-  <trd lng="id">mars</trd>
+  <trd lng="id"><ind>mars</ind><klr tip="amb"> (lagu)</klr></trd>
   <trd lng="pl">piosenka marszowa</trd>
   <trd lng="pt">marcha <klr>(can&ccedil;&atilde;o)</klr></trd>
 </drv>
@@ -1324,12 +1319,12 @@
     <trd>&egrave;xit</trd>,
     <trd>can&ccedil;&oacute; de moda</trd>
   </trdgrp>
-  <trdgrp lng="en">
-    <trd>hit<klr tip="ind"> (song)</klr></trd>
-  </trdgrp>
   <trdgrp lng="de">
 	<trd>Schlager</trd>,
 	<trd>Hit</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>hit<klr tip="ind"> (song)</klr></trd>
   </trdgrp>
   <trdgrp lng="es">
 	<trd>&eacute;xito<klr tip="ind"> (canci&oacute;n)</klr></trd>,
@@ -1368,13 +1363,13 @@
 	<trd>top</trd>,
 	<trd>sucesso da temporada</trd>
   </trdgrp>
-  <trdgrp lng="sv">
-	<trd>schlager</trd>,
-	<trd>hit</trd>
-  </trdgrp>
   <trdgrp lng="ru">
 	<trd>&c_sh;&c_l;&c_ja;&c_g;&c_je;&c_r;</trd>,
 	<trd>&c_h;&c_i;&c_t;</trd>
+  </trdgrp>
+  <trdgrp lng="sv">
+	<trd>schlager</trd>,
+	<trd>hit</trd>
   </trdgrp>
   <trd lng="th">&#3648;&#3614;&#3621;&#3591;&#3630;&#3636;&#3605;</trd>
   <trd lng="uk">&c_sh;&c_l;&c_ja;&c_g;&c_je;&c_r;</trd>
@@ -1487,6 +1482,9 @@
 </art>
 <!--
 $Log$
+versio 1.156 2026/09/07 12:24:34
+Wolfram Diestel: trd-ordo
+
 versio 1.155 2026/08/23 16:41:13
 Vito Redsky: trd pl
 
@@ -1506,8 +1504,5 @@ versio 1.150 2025/07/09 06:43:23
 Wolfram Diestel: +cigno~o
 
 versio 1.149 2025/02/13 10:31:52
-Dmitri Gabinski: + trd be
-
-versio 1.148 2024/12/29 14:23:14
 -->
 </vortaro>
