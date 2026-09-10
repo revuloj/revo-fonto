@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bild.xml,v 1.176 2026/01/21 04:00:21 revo Exp $">
+<art mrk="$Id: bild.xml,v 1.177 2026/09/10 11:14:45 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>bild</rad>/o <fnt><bib>JED</bib></fnt>
@@ -192,10 +192,10 @@
       <trd>Ansicht</trd>,
       <trd>Bild</trd>
     </trdgrp>
-    <trd lng="fr">image</trd>
     <trdgrp lng="en">
       <trd>image</trd>, <trd>picture</trd>
     </trdgrp>
+    <trd lng="fr">image</trd>
     <trdgrp lng="pl">
       <trd>obraz</trd>,
       <trd>wizerunek</trd>
@@ -291,10 +291,10 @@
 	punkcie)</klr></trd>
       </trdgrp>
     </subsnc>
-    <trd lng="en">image<klr tip="ind"> (by a mapping)</klr></trd>
     <trd lng="de">Bild</trd>
+    <trd lng="en">image<klr tip="ind"> (by a mapping)</klr></trd>
     <trd lng="fr">image (directe)<klr tip="ind">(par une
-    application)</klr></trd>
+      application)</klr></trd>
     <trd lng="id"><ind>gambar</ind>an</trd>
     <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_z;</trd>
   </snc>
@@ -742,6 +742,7 @@
     </trdgrp>
     <trd lng="en">mapping</trd>
     <trd lng="es">funci&oacute;n</trd>
+    <trd lng="fr">application<klr tip="ind"> (math.)</klr></trd>
     <trdgrp lng="hu">
       <trd>&aacute;br&aacute;zol&aacute;s</trd>,
       <trd>lek&eacute;pez&eacute;s</trd>,
@@ -751,7 +752,6 @@
       <trd>odwzorowanie</trd>,
       <trd>funkcja</trd>
     </trdgrp>
-    <trd lng="fr">application<klr tip="ind"> (math.)</klr></trd>
     <trd lng="ru">
     &c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
@@ -1203,12 +1203,12 @@
     <trd>animasi</trd>,
     <trd>kartun</trd>
   </trdgrp>
+  <trd lng="nl">tekenfilm</trd>
   <trdgrp lng="pl">
     <trd>film rysunkowy</trd>,
     <trd>film animowany</trd>,
     <trd>kresk&oacute;wka</trd>
   </trdgrp>
-  <trd lng="nl">tekenfilm</trd>
   <trd lng="ro">anima&#539;ie</trd>
 </drv>
 
@@ -1268,9 +1268,9 @@
     <trd lng="nl">audiovisueel</trd>
     <trd lng="pl">audiowizualny</trd>
     <trdgrp lng="zh">
-    <trd>&#35222;&#32893; <pr>sh&igrave;t&#299;ng</pr></trd>,
-    <trd>&#35222;&#32893;&#25945;&#23416; <pr>sh&igrave;t&#299;ngji&agrave;oxu&eacute;</pr></trd>,
-    <trd>&#38899;&#20687; <pr>y&#299;nxi&agrave;ng</pr></trd>
+    <trd>&#35222;&#32893; <pr>sh&igrave;t&imacron;ng</pr></trd>,
+    <trd>&#35222;&#32893;&#25945;&#23416; <pr>sh&igrave;t&imacron;ngji&agrave;oxu&eacute;</pr></trd>,
+    <trd>&#38899;&#20687; <pr>y&imacron;nxi&agrave;ng</pr></trd>
   </trdgrp>
 </snc>
   <trd lng="be">&c_a;&c_w;&c_d;&c_y;&c_jo;&c_v;&c_ib;&c_z;&c_u;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
@@ -1479,14 +1479,13 @@
   </adm>
   <trdgrp lng="ca">
     <trd>funci&oacute; <klr>(aplicaci&oacute;,
-  transformaci&oacute;)</klr>
-  d'identitat</trd>,
+       transformaci&oacute;)</klr>
+       d'identitat</trd>,
     <trd>funci&oacute; d'identitat</trd>
   </trdgrp>
-  <trd lng="en">identity <ind>mapping</ind></trd>
-  <trd lng="es">funci&oacute;n identidad</trd>
   <trd lng="de">identische <ind>Abbildung</ind></trd>
   <trd lng="en">identity <ind>mapping</ind></trd>
+  <trd lng="es">funci&oacute;n identidad</trd>
   <trdgrp lng="fr">
     <trd>identit&eacute;<klr tip="ind"> (application)</klr></trd>,
     <trd>application identique</trd>
@@ -1524,9 +1523,13 @@
   </adm>
   <trd lng="be">&c_z;&c_v;&c_u;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="ca">restricci&oacute; <klr>(del domini d'una
-  funci&oacute;)</klr></trd>
-  <trd lng="de">Einschr&auml;nkung<klr tip="ind"> (einer Abbildung)
-  </klr></trd>
+    funci&oacute;)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>restrikce</trd>,
+    <trd>z&uacute;&zcaron;en&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Einschr&auml;nkung<klr tip="ind">
+    (einer Abbildung)</klr></trd>
   <trdgrp lng="en">
     <trd>restriction<klr tip="ind"> (of a mapping)</klr></trd>,
     <trd>partial <ind>mapping</ind></trd>
@@ -1547,10 +1550,6 @@
   <trdgrp lng="sk">
     <trd>re&scaron;trikcia</trd>,
     <trd>z&uacute;&zcaron;enie</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>restrikce</trd>,
-    <trd>z&uacute;&zcaron;en&iacute;</trd>
   </trdgrp>
 </drv>
 
@@ -1687,6 +1686,9 @@
 </art>
 <!--
 $Log$
+versio 1.177 2026/09/10 11:14:45
+Wolfram Diestel: trd-ordo
+
 versio 1.176 2026/01/21 04:00:21
 Hector Alos i Font: +trd ca
 
@@ -1706,8 +1708,5 @@ versio 1.170 2024/05/09 07:23:53
 Wolfram Diestel: total~o: kor. dif, +trd de, en
 
 versio 1.169 2024/04/05 14:32:31
-Dmitri Gabinski: + trd be
-
-versio 1.168 2023/12/12 19:23:56
 -->
 </vortaro>
