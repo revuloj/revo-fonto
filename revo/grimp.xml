@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: grimp.xml,v 1.109 2025/11/24 10:38:51 revo Exp $">
+<art mrk="$Id: grimp.xml,v 1.110 2026/09/12 18:22:49 revo Exp $">
 <kap><ofc>3</ofc>
-<rad>grimp</rad>/i<fnt><bib>PVEF</bib></fnt></kap>
+  <rad>grimp</rad>/i
+  <fnt><bib>PVEF</bib></fnt>
+</kap>
+
 <drv mrk="grimp.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
@@ -331,13 +334,18 @@
     &c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_u;)</klr></trd>
     <trd lng="bg">&c_k;&c_a;&c_t;&c_je;&c_r;&c_l;&c_i;&c_v; (&c_z;&c_a; &c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</trd>
     <trd lng="ca">enfilad&iacute;s</trd>
+    <trdgrp lng="cs">
+      <trd>pop&iacute;nav&yacute;</trd>,
+      <trd>&scaron;plhav&yacute;</trd>
+    </trdgrp>
     <trdgrp lng="en">
-      <trd>creeping</trd>,
-      <trd>climbing <klr>(plant)</klr></trd>
+      <trd><ind>creep</ind>ing</trd>,
+      <trd><ind>climb</ind>ing <klr>(plant)</klr></trd>
     </trdgrp>
     <trd lng="es">trepadora</trd>
     <trd lng="fr">grimpant</trd>
     <trd lng="hu">k&uacute;sz&oacute;</trd>
+    <trd lng="id"><baz>rambat</baz>merambat (adj.)</trd>
     <trdgrp lng="ja">
       <trd>&#12399;&#12356;&#19978;&#12364;&#12427;  <pr>&#12399;&#12356;&#12354;&#12364;&#12427;</pr></trd>,
       <trd>&#12388;&#12427;&#12398;&#12354;&#12427;</trd>
@@ -348,15 +356,6 @@
     <trd lng="ru">&c_v;&c_mol;&c_ju;&c_shch;&c_i;&c_j;&c_s;&c_ja;
     <klr>(&c_o; &c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_i;)</klr></trd>
     <trd lng="sk">pop&iacute;nav&yacute;</trd>
-    <trdgrp lng="cs">
-      <trd>pop&iacute;nav&yacute;</trd>,
-      <trd>&scaron;plhav&yacute;</trd>
-    </trdgrp>
-  <trdgrp lng="en">
-    <trd><ind>creep</ind>ing</trd>,
-    <trd><ind>climb</ind>ing <klr>(plant)</klr></trd>
-  </trdgrp>
-  <trd lng="id"><baz>rambat</baz>merambat (adj.)</trd>
   </snc>
 </drv>
 
@@ -364,25 +363,43 @@
   <kap><tld/>iga</kap>
   <snc>
     <dif>
-      Karakterizas vojon, kiu devigas la vojirantojn <tld/>i.
+      Karakterizas vojon, kiu devigas la vojirantojn <tld/>i:
+      <ekz>
+        ni ne plu sidos en la ka&scirc;ita netrovebla <tld/>iga subtegmentejo, sed tereta&gcirc;e
+        <klr>[&#8230;]</klr> apud la Ministerio por Internaj Aferoj
+        <fnt>
+          <aut>Dafydd ap Fergus</aut>
+          <vrk><url ref="https://esperanto-aeh.eu/eo/informilo-10-2003/"
+              >Internacia Esperanto-Muzeo</url></vrk>
+          <lok>Informilo 10/2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="vid" cel="ascend.0i.supreniri">ascenda</ref>
+    <refgrp tip="vid">
+      <ref cel="ascend.0i.supreniri">ascenda</ref>,
+      <ref cel="krut.0a">kruta</ref>
+    </refgrp>
   </snc>
-  <adm>
-    Dubinda. <aut>MB</aut>
-  </adm>
   <trdgrp lng="be">
     <trd>&c_s;&c_t;&c_r;&c_o;&c_m;&c_y;</trd>,
     <trd>&c_s;&c_t;&c_r;&c_o;&c_m;&c_k;&c_ib;</trd>,
     <trd>&c_a;&c_b;&c_r;&c_y;&c_v;&c_ib;&c_s;&c_t;&c_y;</trd>
   </trdgrp>
+  <trd lng="cs">strm&yacute;</trd>
+  <trdgrp lng="de">
+    <trd>beschwerlich <klr>(hoch)</klr></trd>,
+    <trd>unwegsam <klr>(hoch)</klr></trd>,
+    <trd>hoch gelegen</trd>,
+    <trd>schwer erreichbar <klr>(hoch)</klr></trd>,
+    <trd>schroff</trd>,
+    <trd>absch&uuml;ssig</trd>
+  </trdgrp>
+  <trd lng="id"><baz>daki</baz>mendaki (adj.)</trd>
   <trd lng="ja">&#24613;&#12394;&#19978;&#12426;&#12398;
   <pr>&#12365;&#12421;&#12358;&#12394;&#12398;&#12412;&#12426;&#12398;</pr></trd>
   <trd lng="nl">klimmend</trd>
-  <trd lng="sk">strm&yacute;</trd>
-  <trd lng="cs">strm&yacute;</trd>
-  <trd lng="id"><baz>daki</baz>mendaki (adj.)</trd>
   <trd lng="pl">stromy</trd>
+  <trd lng="sk">strm&yacute;</trd>
 </drv>
 
 <drv mrk="grimp.0ulo">
@@ -397,21 +414,25 @@
     Dubinda, pli utila estus ~isto (SPO). <aut>MB</aut>
   </adm>
   <trd lng="ca">grimpador<klr> (animal)</klr></trd>
-  <trd lng="ja">&#25856;&#31165;&#39006;  <pr>&#12399;&#12435;&#12365;&#12435;&#12427;&#12356;</pr></trd>
-  <trd lng="sk">&scaron;plhavec</trd>
   <trdgrp lng="cs">
     <trd>lezec</trd>,
     <trd>&scaron;plhaj&iacute;c&iacute; &ccaron;l.</trd>
   </trdgrp>
+  <trd lng="de">Klettertier</trd>
   <trd lng="en"><ind>climb</ind>ing animal</trd>
-<trdgrp lng="id">
-  <trd>hewan pemanjat</trd>,
-  <trd>binatang pemanjat</trd>
-</trdgrp>
+  <trdgrp lng="id">
+    <trd>hewan pemanjat</trd>,
+    <trd>binatang pemanjat</trd>
+  </trdgrp>
+  <trd lng="ja">&#25856;&#31165;&#39006;  <pr>&#12399;&#12435;&#12365;&#12435;&#12427;&#12356;</pr></trd>
+  <trd lng="sk">&scaron;plhavec</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.110 2026/09/12 18:22:49
+Wolfram Diestel: trd-ordo, +trd de, +ekz
+
 versio 1.109 2025/11/24 10:38:51
 Eko Nur Syah Hidayat: +trd id
 
@@ -431,8 +452,5 @@ versio 1.102 2023/09/08 08:25:48
 Wolfram Diestel: ~i: +ekz-oj
 
 versio 1.100 2023/08/29 18:30:56
-Wolfram Diestel: ja: prononco
-
-versio 1.99 2022/04/30 08:42:40
 -->
 </vortaro>
