@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mezur.xml,v 1.160 2026/09/12 15:33:28 revo Exp $">
+<art mrk="$Id: mezur.xml,v 1.161 2026/09/12 18:23:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mezur</rad>/i <fnt><bib>UV</bib></fnt>
@@ -111,14 +111,14 @@
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_m;&c_je;&c_r;&c_y;&c_c;&c_mol;</trd>,
-    <trd>&c_v;&c_y;&c_m;&c_ja;&c_r;&c_a;&c_c;&c_mol;</trd>
-  </trdgrp>
   <trd lng="af">meet</trd>
   <trd lng="am">&#4632;&#4616;&#x12AB;&#4725;</trd>
   <trd lng="ar">&a_q;&a_y;&a_A;&a_s;</trd>
   <trd lng="az">&ouml;l&ccedil;m&#601;k</trd>
+  <trdgrp lng="be">
+    <trd>&c_m;&c_je;&c_r;&c_y;&c_c;&c_mol;</trd>,
+    <trd>&c_v;&c_y;&c_m;&c_ja;&c_r;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="bn">&#x9AA;&#x9B0;&#x9BF;&#x9AE;&#x9BE;&#x9AA;</trd>
   <trdgrp lng="br">
     <trd>menta&ntilde;</trd>,
@@ -551,6 +551,7 @@
     <trd>ment</trd>,
     <trd>muzul</trd>
   </trdgrp>
+  <trd lng="cs">metrum ver&scaron;e</trd>
   <trd lng="es">medida</trd>
   <trdgrp lng="fr">
     <trd>mesure</trd>,
@@ -568,7 +569,6 @@
     <trd>&#x62CD;&#x5B50;  <pr>&#12402;&#12423;&#12358;&#12375;</pr></trd>
   </trdgrp>
   <trd lng="sk">metrum ver&scaron;a</trd>
-  <trd lng="cs">metrum ver&scaron;e</trd>
   <trdgrp lng="uk">
     <trd>&c_m;&c_ib;&c_r;&c_a;</trd>,
     <trd>&c_m;&c_ib;&c_r;&c_k;&c_a;</trd>,
@@ -714,8 +714,8 @@
         <tld/>ebla.
       </ekz>
     </dif>
-    <trd lng="en">measurable<klr tip="ind"> (mapping)</klr></trd>
     <trd lng="de">messbar<klr tip="ind"> (-e Abbildung)</klr></trd>
+    <trd lng="en">measurable<klr tip="ind"> (mapping)</klr></trd>
     <trd lng="fr"><klr tip="ind">(application) </klr>mesurable</trd>
     <trd lng="nl">meetbaar</trd>
     <trd lng="pl"><klr tip="amb">(funkcja) </klr>mierzalna</trd>
@@ -806,12 +806,29 @@
     <trd>menter<klr tip="ind"> (benveg)</klr></trd>,
     <trd>muzulier<klr tip="ind"> (benveg)</klr></trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>m&iacute;ra</trd>,
+    <trd>m&ecaron;&rcaron;idlo</trd>,
+    <trd>m&ecaron;&rcaron;i&ccaron;</trd>,
+    <trd>m&ecaron;&rcaron;&iacute;c&iacute; p&rcaron;&iacute;stroj</trd>,
+    <trd>m&ecaron;&rcaron;&iacute;tko</trd>,
+    <trd>prav&iacute;tko</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Messstab</trd>,
     <trd>Meterma&szlig;</trd>,
     <trd>Zollstock</trd>
   </trdgrp>
   <trd lng="fr">mesure<klr tip="ind"> (ustensile)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>m&eacute;rce</trd>,
+    <trd>m&eacute;r&odblac;eszk&ouml;z</trd>,
+    <trd>m&eacute;r&odblac;m&udblac;szer</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>alat ukur</trd>,
+    <trd>meteran</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#12418;&#x306E;&#12373;&#12375;</trd>,
     <trd>&#x306F;&#x304B;&#x308A;</trd>,
@@ -821,11 +838,6 @@
     <trd>maat</trd>,
     <trd>maatstok</trd>,
     <trd>meetlat</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>m&eacute;rce</trd>,
-    <trd>m&eacute;r&odblac;eszk&ouml;z</trd>,
-    <trd>m&eacute;r&odblac;m&udblac;szer</trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>miara</trd>,
@@ -842,18 +854,6 @@
     <trd>meradlo</trd>,
     <trd>miera</trd>,
     <trd>mierka</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>m&iacute;ra</trd>,
-    <trd>m&ecaron;&rcaron;idlo</trd>,
-    <trd>m&ecaron;&rcaron;i&ccaron;</trd>,
-    <trd>m&ecaron;&rcaron;&iacute;c&iacute; p&rcaron;&iacute;stroj</trd>,
-    <trd>m&ecaron;&rcaron;&iacute;tko</trd>,
-    <trd>prav&iacute;tko</trd>
-  </trdgrp>
-  <trdgrp lng="id">
-    <trd>alat ukur</trd>,
-    <trd>meteran</trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_m;&c_ib;&c_r;&c_a;</trd>,
@@ -946,7 +946,7 @@
     <trd>hozz&aacute;m&eacute;r</trd>
   </trdgrp>
   <trd lng="id"><baz>pas</baz>mengepaskan</trd>
-  <trd lng="ja">&#x5BF8;&#x6CD5;&#12434;&#21512;&#x308F;&#x305B;&#x308B; 
+  <trd lng="ja">&#x5BF8;&#x6CD5;&#12434;&#21512;&#x308F;&#x305B;&#x308B;
   <pr>&#12377;&#12435;&#x307D;&#12358;&#12434;&#12354;&#x308F;&#x305B;&#x308B;</pr></trd>
   <trd lng="nl">aanpassen</trd>
   <trdgrp lng="pl">
@@ -990,8 +990,8 @@
     <trd>&c_d;&c_a;&c_w;&c_zh;&c_y;&c_n;&c_ja; <ind>&c_a;&c_k;&c_r;&c_u;&c_zh;&c_y;&c_n;&c_y;</ind></trd>,
     <trd>&c_a;&c_k;&c_r;&c_u;&c_zh;&c_y;&c_n;&c_a; <klr>(&c_ja;&c_k; &c_m;&c_je;&c_r;&c_a;)</klr></trd>
   </trdgrp>
-  <trd lng="fr">tour<klr tip="ind"> (mesure)</klr></trd>
   <trd lng="de">Umfang</trd>
+  <trd lng="fr">tour<klr tip="ind"> (mesure)</klr></trd>
   <trdgrp lng="hu">
     <trd>k&ouml;rm&eacute;ret</trd>,
     <trd>ker&uuml;let</trd>
@@ -1724,6 +1724,9 @@
 </art>
 <!--
 $Log$
+versio 1.161 2026/09/12 18:23:01
+Wolfram Diestel: trd-ordo
+
 versio 1.160 2026/09/12 15:33:28
 Eko Nur Syah Hidayat: +trd id
 
@@ -1743,8 +1746,5 @@ versio 1.155 2025/02/01 10:27:52
 Sergio Pokrovskij: +egal~a
 
 versio 1.154 2024/12/26 08:33:46
-Dmitri Gabinski: + trd be
-
-versio 1.153 2024/12/17 08:37:07
 -->
 </vortaro>
