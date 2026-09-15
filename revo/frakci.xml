@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: frakci.xml,v 1.135 2024/07/11 10:31:51 revo Exp $">
+<art mrk="$Id: frakci.xml,v 1.136 2026/09/15 21:21:37 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>frakci</rad>/o <fnt><bib>JED</bib></fnt>
@@ -450,17 +450,17 @@
     <trd>dividir</trd>,
     <trd>segmentar</trd>
   </trdgrp>
-  <trd lng="es">fraccionar</trd>
-  <trd lng="sk">vytv&aacute;ra&tcaron; frakcie</trd>
   <trdgrp lng="cs">
     <trd>frakcionovat</trd>,
     <trd>vytv&aacute;&rcaron;et frakce <klr>(v pol. stran&ecaron;)</klr></trd>
   </trdgrp>
-<trd lng="de">fragmentieren</trd>
-<trdgrp lng="en">
-  <trd>fraction<klr> (tr)</klr></trd>,
-  <trd>fragment<klr> (tr)</klr></trd>
-</trdgrp>
+  <trd lng="de">fragmentieren</trd>
+  <trdgrp lng="en">
+    <trd>fraction<klr> (tr)</klr></trd>,
+    <trd>fragment<klr> (tr)</klr></trd>
+  </trdgrp>
+  <trd lng="es">fraccionar</trd>
+  <trd lng="sk">vytv&aacute;ra&tcaron; frakcie</trd>
   <trdgrp lng="zh">
     <trd>&#20998;&#x993E; <pr>f&emacron;nli&#xFA;</pr></trd>,
     <trd>&#x74DC;&#20998; <pr>gu&amacron;f&emacron;n</pr></trd>
@@ -524,11 +524,11 @@
     </rim>
     <trd lng="be">&c_r;&c_y;&c_s;&c_a; &c_d;&c_r;&c_o;&c_b;&c_u;</trd>
     <trd lng="ca">barra</trd>
+    <trd lng="de">Bruchstrich</trd>
     <trdgrp lng="en">
       <trd>forward <ind>slash</ind></trd>,
       <trd>fraction bar</trd>
     </trdgrp>
-    <trd lng="de">Bruchstrich</trd>
     <trd lng="fr">barre de fraction</trd>
     <trd lng="nl">breukstreep</trd>
     <trd lng="pl">kreska u&lstroke;amkowa</trd>
@@ -801,13 +801,13 @@
       <ref cel="frakci.numa0o">n-uma <tld/>o</ref>.
     </refgrp>
     <ref tip="vid" cel="on.0o.cifero">ono.</ref>
-    <trd lng="de">systematischer <ind>Bruch</ind><klr tip="ind"> (zur
-    Basis b)</klr></trd>
     <trd lng="ca">nombre decimal <klr>(amb una part entera i una
-    fraccion&agrave;ria)</klr></trd>
+      fraccion&agrave;ria)</klr></trd>
+    <trd lng="de">systematischer <ind>Bruch</ind><klr tip="ind"> (zur
+      Basis b)</klr></trd>
     <trd lng="en">systematic <ind>fraction</ind></trd>
-    <trd lng="fr">fraction syst&eacute;matique<klr tip="ind"> (&agrave; base
-    b)</klr></trd>
+    <trd lng="fr">fraction syst&eacute;matique<klr tip="ind">
+      (&agrave; base b)</klr></trd>
     <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
     <ind>&c_d;&c_r;&c_o;&c_b;&c_mol;</ind></trd>
   </snc>
@@ -849,6 +849,9 @@
 </art>
 <!--
 $Log$
+versio 1.136 2026/09/15 21:21:37
+Wolfram Diestel: trd-ordo
+
 versio 1.135 2024/07/11 10:31:51
 Dmitri Gabinski: + trd be
 
@@ -868,8 +871,5 @@ versio 1.129 2023/04/07 12:43:23
 Paul Peeraerts: &Monato;
 
 versio 1.128 2023/02/07 07:23:39
-Wolfram Diestel: necesaj korektoj pri aldonoj sub ~a, ~igi, ~i&gcirc;i
-
-versio 1.127 2023/02/05 23:26:00
 -->
 </vortaro>
