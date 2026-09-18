@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: komut.xml,v 1.53 2024/09/10 18:34:16 revo Exp $">
+<art mrk="$Id: komut.xml,v 1.54 2026/09/18 17:42:53 revo Exp $">
 <kap>
   <rad>komut</rad>/i <fnt><bib>JED</bib></fnt>
 </kap>
@@ -61,27 +61,32 @@
         <klr>(<ref cel="vagon.0aro">vagonaron</ref>)</klr>
         Direkti sur alian <ref cel="voj.rel0o">relvojon</ref>:
       <ekz>
-        rel<tld/>isto estas dungito de fervoja kompanio, respondeca por <klr>[&#8230;]</klr>
+        <ind>rel<tld/>isto</ind> estas dungito de fervoja kompanio, respondeca por <klr>[&#8230;]</klr>
         la <tld/>ado de la trakforkoj
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=620055">Relkomutisto</url></lok>
         </fnt>.
+        <trd lng="de">Weichensteller</trd>
       </ekz>
       </dif>
       <adm>
         (a) La originala difino tekstis "vagonaron aux trajnon",
         ja sxajnas, ke la fervojistoj perceptas nuancon inter
         ambaux terminoj (vagonaro ne havas lokomotivon).
-        (b) Sxajnas, ke de faka vidpunkto la termino "trako" (ankoraux
-        ne ekzistanta en REVO) estus preferinda al "relvojo" (malsama
+        (b) Sxajnas, ke de faka vidpunkto la termino "trako"
+        estus preferinda al "relvojo" (malsama
         senco). Ja mi suspektas, ke relvojo povas porti plurajn trakojn.
         (c) La PIV2-a difino parolas pri "trajno aux alia trakveturilo",
         kio estas pli vasta, sed ne klaras pri tio, kion oni
         komutas (cxu la veturilon aux la nadlorelojn?).
         <aut>MB</aut>
       </adm>
-      <trd lng="de">umsetzen</trd>
+      <trdgrp lng="de">
+        <trd>umsetzen</trd>,
+        <trd>einen <ind>Gleiswechsel</ind> vornehmen</trd>,
+        <trd>rangieren</trd>
+      </trdgrp>
       <trd lng="fr">aiguiller<klr tip="ind"> (ferrov.)</klr></trd>
       <trd lng="hu">&aacute;tiraacute;nyiacute;t<klr tip="ind">
       (vonatot maacute;sik siacute;nre)</klr></trd>
@@ -113,7 +118,7 @@
         &gcirc;ian rezulton.
       </ekz>
     </dif>
-    <ref tip="vid" cel="permut.0i">permuti.</ref>
+    <ref tip="vid" cel="permut.0i">permuti</ref>
     <trd lng="de">austauschen</trd>
     <trd lng="fr">commuter<klr tip="ind"> (tr., math.)</klr></trd>
     <trd lng="hu">felcser&eacute;l<klr tip="ind">
@@ -522,8 +527,13 @@
     <trd>&c_k;&c_a;&c_m;&c_u;&c_t;&c_a;&c_c;&c_y;&c_j;&c_n;&c_y; <ind>&c_sh;&c_ch;&c_y;&c_t;</ind></trd>,
     <trd>&c_r;&c_a;&c_z;&c_mol;&c_m;&c_je;&c_r;&c_k;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_y; <ind>&c_sh;&c_ch;&c_y;&c_t;</ind></trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>komut&aacute;torov&yacute; panel</trd>,
+    <trd>&rcaron;&iacute;d&iacute;c&iacute; panel</trd>
+  </trdgrp>
+  <trd lng="de">Schalttafel</trd>
   <trd lng="fr">tableau de <ind>commutation</ind><klr tip="ind">
-  (&eacute;lectrotech.)</klr></trd>
+    (&eacute;lectrotech.)</klr></trd>
   <trd lng="hu">kapcsol&oacute;szekr&eacute;ny</trd>
   <trdgrp lng="ja">
     <trd>&#12473;&#12452;&#12483;&#12481;&#12497;&#12493;&#12523;</trd>,
@@ -533,11 +543,6 @@
   <trd lng="pl">tablica prze&lstroke;&aogonek;czeniowa</trd>
   <trd lng="ru">&c_k;&c_o;&c_m;&c_m;&c_u;&c_t;&c_a;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">riadiaci panel</trd>
-  <trdgrp lng="cs">
-    <trd>komut&aacute;torov&yacute; panel</trd>,
-    <trd>&rcaron;&iacute;d&iacute;c&iacute; panel</trd>
-  </trdgrp>
-<trd lng="de">Schalttafel</trd>
 </drv>
 
 <drv mrk="komut.rel0ilo">
@@ -572,7 +577,13 @@
     <aut>MB</aut>
   </adm>
   <trd lng="be">&c_s;&c_t;&c_r;&c_e;&c_l;&c_k;&c_a; <klr tip="amb">(&c_ch;&c_y;&c_g;&c_u;&c_n;&c_a;&c_ch;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trd lng="cs">jaz&yacute;&ccaron;ek kolej&iacute;</trd>
   <trd lng="de">Zungenvorrichtung <klr>(Weiche)</klr></trd>
+  <trdgrp lng="en">
+    <trd>switch device</trd>,
+    <trd>switch point</trd>,
+    <trd>switch rails</trd>
+  </trdgrp>
   <trd lng="fr">aiguillage<klr tip="ind"> (appareil)</klr></trd>
   <trd lng="hu">v&aacute;lt&oacute;<klr tip="ind"> (vas&uacute;ti)</klr>
   </trd>
@@ -580,17 +591,19 @@
   <trd lng="nl">wissel</trd>
   <trd lng="pl">zwrotnica</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_l;&c_k;&c_a;<klr tip="amb">
-  (&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_o;&c_d;&c_o;&c_r;&c_o;&c_zh;&c_n; &c_a;&c_ja;)</klr></trd>
+    (&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_o;&c_d;&c_o;&c_r;&c_o;&c_zh;&c_n; &c_a;&c_ja;)</klr></trd>
   <trdgrp lng="sk">
     <trd>prep&iacute;na&ccaron;</trd>,
     <trd>v&yacute;hybka</trd>
   </trdgrp>
-  <trd lng="cs">jaz&yacute;&ccaron;ek kolej&iacute;</trd>
   <trd lng="uk">&c_s;&c_t;&c_r;&c_ib;&c_l;&c_k;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.54 2026/09/18 17:42:53
+Wolfram Diestel: trd-ordo, trd de
+
 versio 1.53 2024/09/10 18:34:16
 Wolfram Diestel: fnt JED
 
@@ -610,8 +623,5 @@ versio 1.46 2023/08/25 15:24:17
 Wolfram Diestel: &scirc;oveto
 
 versio 1.45 2022/05/01 08:09:24
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.42 2020/09/27 16:32:24
 -->
 </vortaro>
