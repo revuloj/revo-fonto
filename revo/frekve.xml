@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: frekve.xml,v 1.33 2025/04/11 02:02:21 revo Exp $">
+<art mrk="$Id: frekve.xml,v 1.34 2026/09/19 12:31:21 revo Exp $">
 <kap>
   <rad>frekvenc</rad>/o
 </kap>
@@ -73,10 +73,10 @@
           </fnt>.
       </ekz>
     </dif>
-    <trd lng="fa">&a_b;&a_s;&a_A;&a_m;&a_d;</trd>
-    <trd lng="pt">freq&uuml;&ecirc;ncia</trd>
     <trd lng="de">Frequenz</trd>
+    <trd lng="fa">&a_b;&a_s;&a_A;&a_m;&a_d;</trd>
     <trd lng="pl">cz&eogonek;stotliwo&sacute;&cacute;</trd>
+    <trd lng="pt">freq&uuml;&ecirc;ncia</trd>
     <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>
     <trdgrp lng="zh">
     <trd>&#38971; <pr>p&iacute;n</pr></trd>,
@@ -113,15 +113,20 @@
     <aut>Sergio Pokrovskij</aut>
   </rim>
   <rim>
-    La&ubreve; <fnt><bib>BL</bib></fnt>: (en fiziko) anka&ubreve; eblas diri <ke>vibronombro</ke>; anka&ubreve; eblas diri <ke>ofteco</ke> ; (en la &gcirc;enerala lingvo kaj en statistika lingvo) anka&ubreve; eblas diri <ke>ofto</ke>.
+    La&ubreve; <fnt><bib>BL</bib></fnt>: (en fiziko) anka&ubreve; eblas diri <ke>vibronombro</ke>;
+    anka&ubreve; eblas diri <ke>ofteco</ke> ; (en la &gcirc;enerala lingvo kaj en statistika lingvo)
+    anka&ubreve; eblas diri <ke>ofto</ke>.
   </rim>
   <trd lng="be">&c_ch;&c_a;&c_s;&c_t;&c_a;&c_t;&c_a;</trd>
   <trdgrp lng="bg">
     <trd>&c_ch;&c_je;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>,
-    <trd>
-    &c_f;&c_r;&c_je;&c_k;&c_v;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;
-    </trd>
+    <trd>&c_f;&c_r;&c_je;&c_k;&c_v;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>frekvence</trd>,
+    <trd>&ccaron;etnost v&yacute;skytu</trd>
+  </trdgrp>
+  <trd lng="en">frequency</trd>
   <trd lng="es">frecuencia</trd>
   <trd lng="fr">fr&eacute;quence</trd>
   <trd lng="hu">frekvencia</trd>
@@ -132,13 +137,8 @@
   </trdgrp>
   <trd lng="nl">frequentie</trd>
   <trd lng="pt">freq&uuml;&ecirc;ncia</trd>
-  <trd lng="sv">frekvens</trd>
   <trd lng="sk">frekvencia</trd>
-  <trdgrp lng="cs">
-    <trd>frekvence</trd>,
-    <trd>&ccaron;etnost v&yacute;skytu</trd>
-  </trdgrp>
-  <trd lng="en">frequency</trd>
+  <trd lng="sv">frekvens</trd>
   <trdgrp lng="uk">
     <trd>&c_ch;&c_a;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>,
     <trd>&c_ch;&c_a;&c_s;&c_t;&c_o;&c_t;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
@@ -192,15 +192,11 @@
   </trdgrp>
   <trd lng="fr">haute <ind>fr&eacute;quence</ind></trd>
   <trd lng="he">&tav;&dalet;&resh; &gimel;&bet;&vav;&he;</trd>
+  <trd lng="hu">magas <ind>frekvencia</ind></trd>
   <trd lng="ja">&#39640;&#21608;&#27874;  <pr>&#12371;&#12358;&#12375;&#12421;&#12358;&#12399;</pr></trd>
   <trd lng="nl">hoge <ind>frequentie</ind></trd>
-  <trd lng="hu">magas <ind>frekvencia</ind></trd>
-  <trd lng="pl">
-  wysoka <ind>cz&eogonek;stotliwo&sacute;&cacute;</ind></trd>
-  <trd lng="ru">
-  &c_v;&c_y;&c_s;&c_o;&c_k;&c_a;&c_ja;
-  &c_ch;&c_a;&c_s;&c_t;&c_o;&c_t;&c_a;
-  </trd>
+  <trd lng="pl">wysoka <ind>cz&eogonek;stotliwo&sacute;&cacute;</ind></trd>
+  <trd lng="ru">&c_v;&c_y;&c_s;&c_o;&c_k;&c_a;&c_ja; &c_ch;&c_a;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>
   <trd lng="sv">h&ouml;gfrekvens</trd>
   <trdgrp lng="zh">
     <trd>&#39640;&#38971;&#29575; <pr>g&amacron;op&iacute;nl&uuml;</pr></trd>,
@@ -211,6 +207,9 @@
 </art>
   <!--
   $Log$
+versio 1.34 2026/09/19 12:31:21
+Wolfram Diestel: trd-ordo
+
 versio 1.33 2025/04/11 02:02:21
 Robert Baruch: +en
 
@@ -230,8 +229,5 @@ versio 1.25 2022/04/27 17:19:11
 aktualigo lingvokodoj kaj URL-unuoj
 
   Revision 1.21  2015/07/04 08:37:34  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.20  2015/06/29 16:29:38  revo
 -->
 </vortaro>
