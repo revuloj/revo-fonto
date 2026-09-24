@@ -1,17 +1,22 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: magnet.xml,v 1.102 2026/03/01 07:04:02 revo Exp $">
+<art mrk="$Id: magnet.xml,v 1.103 2026/09/24 10:30:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>magnet</rad>/o
-<fnt><bib>UV</bib></fnt></kap>
+  <fnt><bib>UV</bib></fnt>
+</kap>
+
 <drv mrk="magnet.0o">
   <kap>
     <ofc>*</ofc><tld/>o
   </kap>
+  <uzo tip="fak">FIZ</uzo>
+
+<!--
   <snc>
-  <uzo tip="fak">MIN</uzo>
+    <uzo tip="fak">MIN</uzo>
     <dif>
       Natura feroksida &scirc;tono havanta la proprecon altiri iujn metalojn,
       precipe feron.
@@ -20,86 +25,148 @@
     <trd lng="de">Magnetstein</trd>
     <trd lng="en">lodestone</trd>
     <trdgrp lng="fa">
-      <trd>&a_s;&a_n;&f_g; &a_A_madda;&a_h;&a_n;&#x200C;&a_r;&a_b;&a_A;</trd>&a_komo;
-      <trd>&a_A_madda;&a_h;&a_n;&#x200C;&f_k;&a_sh;</trd>
+      <trd>&a_s;&a_n;&f_g; &a_A_madda;&a_h;&a_n;&zwnj;&a_r;&a_b;&a_A;</trd>&a_komo;
+      <trd>&a_A_madda;&a_h;&a_n;&zwnj;&f_k;&a_sh;</trd>
     </trdgrp>
     <trd lng="fr">aimant naturel</trd>
   </snc>
-  <snc>
-  <uzo tip="fak">FIZ</uzo>
+-->
+  <snc mrk="magnet.0o.materialo">
     <dif>
-      Ferpeco al kiu oni komunikis tiun altiran proprecon.
+      <klr>(da&ubreve;ra)</klr> Objekto el materialo, kiu pro kunordo de la spinmomantoj de siaj elektronoj
+      &ccirc;irka&ubreve; si kreas fortokampon kaj tiel altiras aliaj <tld/>ojn:
+      <ekz>
+        la fortolinioj de la <tld/>o
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvina &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o-resonanc-tomografio
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Scienco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        bona patrino, jen estas pli forta <tld/>o
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> aperas anka&ubreve; sur turista brikabrako: T-&ccirc;emizoj, kru&ccirc;oj,
+        <tld/>oj por fridujo kaj bildpo&scirc;tkartoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2015/011540.php"
+              >Ampolaj paretoj</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <trdgrp lng="ca">
-      <trd>imant</trd>,
-      <trd>magnet</trd>
-    </trdgrp>
-    <trd lng="de">Magnet</trd>
-    <trd lng="en">magnet</trd>
-    <trdgrp lng="fa">
-      <trd>&a_A_madda;&a_h;&a_n;&#x200C;&a_r;&a_b;&a_A;</trd>&a_komo;
-      <trd>&a_m;&a_gh;&a_n;&a_A;&a_T;&f_y;&a_s;</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>aimant</trd>,
-      <trd>magnet</trd>
-    </trdgrp>
+    <refgrp tip="vid">
+      <ref cel="magnet2.0o">magnetito</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="magnet.0o.elektromagneto">
+    <uzo tip="fak">ELET</uzo>
+    <dif>
+      <klr>(elektra)</klr> Objekto, kiu per movataj elektraj &scirc;argoj kreas samspecan fortokampon;
+      <ref tip="sin" cel="magnet.elektro0o">elektro<tld/>o</ref>:
+      <ekz>
+        la fizikistoj fandas malgrandan kvanton da purega cezio, de kiu ioma kvanto
+        vapori&gcirc;as, per <tld/>o oni aliigas la energistaton de tiuj vapori&gcirc;intaj atomoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk>Tempo: Pli ekzakte ne eblas: Radi-regata horlo&gcirc;o</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj <tld/>e levitaj veturiloj (t. n. maglevo) uzos altiran kaj forpu&scirc;an fortojn
+        kreatajn de super-konduktanta <tld/>o en la vagonoj kun induktaj bobenoj sur
+        la gvidaj vojmuroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk>E&ccirc; pli rapide</vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="af">magnet</trd>
-  <trd lng="am">&#x121B;&#x130D;&#4756;&#4725;</trd>
-  <trd lng="ar">&a_m;&#x63A;&a_n;&a_A;&a_T;&#x64A;&a_s;</trd>
+  <trd lng="am">&#x121B;&#x130D;&#x1294;&#x1275;</trd>
+  <trd lng="ar">&a_m;&a_gh;&a_n;&a_A;&a_T;&a_y;&a_s;</trd>
   <trd lng="az">maqnit</trd>
   <trd lng="be">&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;</trd>
   <trd lng="bg">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;</trd>
-  <trd lng="bn">&#x99A;&#x9C1;&#x9AE;&#x9CD;&#x9AC;&#2453;</trd>
-  <trd lng="bo">&#xF41;&#xF56;&#xF0B;&#xF63;&#xF7A;&#xF53;&#xF0B;</trd>
+  <trd lng="bn">&#x99A;&#x9C1;&#x9AE;&#x9CD;&#x9AC;&#x995;</trd>
+  <trd lng="bo">&t_kha;&t_ba;&t_tsheg;&t_la;&t_drengbu;&t_na;&t_tsheg;</trd>
   <trd lng="bs">magnet</trd>
+  <trdgrp lng="ca">
+    <trd>imant</trd>,
+    <trd>magnet</trd>
+  </trdgrp>
   <trd lng="co">calamita</trd>
   <trd lng="da">magneten</trd>
+  <trd lng="de">Magnet</trd>
+  <trd lng="en">magnet</trd>
   <trd lng="es">im&aacute;n</trd>
   <trd lng="et">magnet</trd>
   <trd lng="eu">iman</trd>
+  <trdgrp lng="fa">
+    <trd>&a_A_madda;&a_h;&a_n;&zwnj;&a_r;&a_b;&a_A;</trd>&a_komo;
+    <trd>&a_m;&a_gh;&a_n;&a_A;&a_T;&f_y;&a_s;</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>aimant</trd>,
+    <trd>magnet</trd>
+  </trdgrp>
   <trd lng="fy">magneet</trd>
-  <trd lng="ga">maighn&#xE9;ad</trd>
-  <trd lng="gd">t&#xE0;ladh</trd>
-  <trd lng="gl">im&#xE1;n</trd>
+  <trd lng="ga">maighn&eacute;ad</trd>
+  <trd lng="gd">t&agrave;ladh</trd>
+  <trd lng="gl">im&aacute;n</trd>
   <trd lng="gu">&#xA9A;&#xAC1;&#xA82;&#xAAC;&#xA95;</trd>
   <trd lng="ha">maganadisu</trd>
-  <trd lng="hi">&#x91A;&#2369;&#2306;&#x92C;&#2325;</trd>
+  <trd lng="hi">&#x91A;&#x941;&#x902;&#x92C;&#x915;</trd>
   <trd lng="hmn">hlau nplaum</trd>
   <trd lng="hr">magnet</trd>
   <trd lng="ht">leman</trd>
   <trd lng="hu">m&aacute;gnes</trd>
-  <trd lng="hy">&#1396;&#1377;&#1379;&#1398;&#x56B;&#x57D;</trd>
+  <trd lng="hy">&#x574;&#x561;&#x563;&#x576;&#x56B;&#x57D;</trd>
   <trd lng="ig">nd&#x1ECD;ta</trd>
   <trd lng="is">segull</trd>
   <trd lng="ja">&#x30DE;&#x30B0;&#x30CD;&#x30C3;&#x30C8;</trd>
   <trd
   lng="ka">&#x10DB;&#x10D0;&#x10D2;&#x10DC;&#x10D8;&#x10E2;&#x10D8;&#x10D5;&#x10D8;&#x10D7;</trd>
-  <trd lng="kk">&#x43C;&c_a;&c_g;&#x43D;&c_i;&c_t;</trd>
-  <trd lng="km">&#6040;&#x17C1;&#x178A;&#x17C2;&#6016;</trd>
+  <trd lng="kk">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;</trd>
+  <trd lng="km">&#x1798;&#x17C1;&#x178A;&#x17C2;&#x1780;</trd>
   <trd lng="kn">&#xCAE;&#xCCD;&#xCAF;&#xCBE;&#xC97;&#xCCD;&#xCA8;&#xCC6;&#xC9F;&#xCCD;</trd>
   <trd lng="ko">&#xC790;&#xC11D;</trd>
-  <trd lng="ku">meknet&#xEE;s</trd>
-  <trd lng="ky">&#x43C;&c_a;&c_g;&#x43D;&c_i;&c_t;</trd>
+  <trd lng="ku">meknet&icirc;s</trd>
+  <trd lng="ky">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;</trd>
   <trd lng="lat">magnes</trd>
   <trd lng="lo">&#xE81;&#xEB2;&#xE99;&#xEAA;&#xEB0;&#xE81;&#xEBB;&#xE94;&#xE88;&#xEB4;&#xE94;</trd>
   <trd lng="lt">magnetas</trd>
   <trd lng="lv">magn&emacron;ts</trd>
   <trd lng="mg">andriamby</trd>
   <trd lng="mi">ovahine</trd>
-  <trd lng="mk">&#x43C;&c_a;&c_g;&#x43D;&c_je;&c_t;</trd>
+  <trd lng="mk">&c_m;&c_a;&c_g;&c_n;&c_je;&c_t;</trd>
   <trd lng="ml">&#xD15;&#xD3E;&#xD28;&#xD4D;&#xD24;&#xD02;</trd>
-  <trd lng="mn">&c_s;&#x43E;&c_r;&#x43E;&#x43D;&c_z;</trd>
-  <trd lng="mr">&#2354;&#x94B;&#2361;&#x91A;&#2369;&#2306;&#x92C;&#2325;</trd>
+  <trd lng="mn">&c_s;&c_o;&c_r;&c_o;&c_n;&c_z;</trd>
+  <trd lng="mr">&#x932;&#x94B;&#x939;&#x91A;&#x941;&#x902;&#x92C;&#x915;</trd>
   <trd lng="mt">kalamita</trd>
-  <trd lng="my">&#x101E;&#4150;&#x101C;&#x102D;&#x102F;&#4096;&#x103A;</trd>
-  <trd lng="ne">&#x91A;&#2369;&#x92E;&#x94D;&#x92C;&#2325;</trd>
+  <trd lng="my">&#x101E;&#x1036;&#x101C;&#x102D;&#x102F;&#x1000;&#x103A;</trd>
+  <trd lng="ne">&#x91A;&#x941;&#x92E;&#x94D;&#x92C;&#x915;</trd>
   <trd lng="nl">magneet</trd>
   <trd lng="ny">maginito</trd>
   <trd lng="pa">&#xA1A;&#xA41;&#xA70;&#xA2C;&#xA15;</trd>
   <trd lng="pl">magnes</trd>
-  <trd lng="ps">&a_m;&a_q;&a_n;&a_A;&a_T;&#x64A;&a_s;</trd>
+  <trd lng="ps">&a_m;&a_q;&a_n;&a_A;&a_T;&a_y;&a_s;</trd>
   <trdgrp lng="pt">
     <trd>magneto</trd>,
     <trd>&iacute;m&atilde;</trd>
@@ -107,7 +174,7 @@
   <trd lng="ro">magnet</trd>
   <trd lng="ru">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;</trd>
   <trd lng="rw">rukuruzi</trd>
-  <trd lng="sd">&a_m;&a_q;&a_n;&a_A;&a_T;&#x64A;&a_s;&#x64A;</trd>
+  <trd lng="sd">&a_m;&a_q;&a_n;&a_A;&a_T;&a_y;&a_s;&a_y;</trd>
   <trd lng="si">&#xDA0;&#xDD4;&#xDB8;&#xDCA;&#xDB7;&#xD9A;&#xDBA;&#xD9A;&#xDCA;</trd>
   <trd lng="sk">magnet</trd>
   <trd lng="sl">magnetni</trd>
@@ -121,22 +188,22 @@
   <trd lng="sw">sumaku</trd>
   <trd lng="ta">&#xB95;&#xBBF;&#xBB0;&#xBC7;&#xB9F;&#xBC1;</trd>
   <trd lng="te">&#xC05;&#xC2F;&#xC38;&#xC4D;&#xC15;&#xC3E;&#xC02;&#xC24;&#xC02;</trd>
-  <trd lng="tg">&#x43E;&#x4B3;&c_a;&#x43D;&c_r;&c_a;&c_b;&#x43E;</trd>
+  <trd lng="tg">&c_o;&#x4B3;&c_a;&c_n;&c_r;&c_a;&c_b;&c_o;</trd>
   <trd lng="th">&#xE41;&#xE21;&#xE48;&#xE40;&#xE2B;&#xE25;&#xE47;&#xE01;</trd>
   <trd lng="tl">magneto</trd>
-  <trd lng="tt">&#x43C;&c_a;&c_g;&#x43D;&c_i;&c_t;</trd>
-  <trd lng="uk">&#x41C;&c_a;&c_g;&#x43D;&c_i;&c_t;</trd>
-  <trd lng="ur">&a_m;&a_q;&a_n;&a_A;&a_T;&#x6CC;&a_s;</trd>
+  <trd lng="tt">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;</trd>
+  <trd lng="uk">&c_M;&c_a;&c_g;&c_n;&c_i;&c_t;</trd>
+  <trd lng="ur">&a_m;&a_q;&a_n;&a_A;&a_T;&f_y;&a_s;</trd>
   <trd lng="uz">magnit</trd>
-  <trd lng="vi">nam ch&#xE2;m</trd>
+  <trd lng="vi">nam ch&acirc;m</trd>
   <trd lng="xh">imagnethi</trd>
-  <trd lng="yi">&#x5DE;&#x5D0;&#x5B7;&#x5D2;&#x5E0;&#x5E2;&#x5D8;</trd>
+  <trd lng="yi">&mem;&alef;&#x5B7;&gimel;&nun;&ayin;&tet;</trd>
   <trd lng="yo">oofa</trd>
   <trdgrp lng="zh">
-    <trd>&#x78C1;&#37941; <pr>c&#xED;ti&#x11B;</pr></trd>,
-    <trd>&#x78C1;&#x94C1; <pr>c&#xED;ti&#x11B;</pr></trd>,
-    <trd>&#21560;&#37941;&#x77F3; <pr>x&#x12B;ti&#x11B;sh&#xED;</pr></trd>,
-    <trd>&#21560;&#x94C1;&#x77F3; <pr>x&#x12B;ti&#x11B;sh&#xED;</pr></trd>
+    <trd>&#x78C1;&#x9435; <pr>c&iacute;ti&ecaron;</pr></trd>,
+    <trd>&#x78C1;&#x94C1; <pr>c&iacute;ti&ecaron;</pr></trd>,
+    <trd>&#x5438;&#x9435;&#x77F3; <pr>x&imacron;ti&ecaron;sh&iacute;</pr></trd>,
+    <trd>&#x5438;&#x94C1;&#x77F3; <pr>x&imacron;ti&ecaron;sh&iacute;</pr></trd>
   </trdgrp>
   <trd lng="zu">uzibuthe</trd>
 </drv>
@@ -145,15 +212,23 @@
   <kap>
     <tld/>a
   </kap>
-  <snc>
+  <snc mrk="magnet.0a.fortokrea">
     <dif>
       Havanta la econ propran al <tld/>o:
       <ekz>
-        <tld/>a fero, <tld/>a montrilo de kompaso.
+        <tld/>a fero;
+      </ekz>
+      <ekz>
+        en la interspaco de ducent mejloj de la insulo <nom>Ferro</nom> komenci&gcirc;as deklini&gcirc;o de la
+        <tld/>a montrilo
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="magnet.0a.rilata">
     <dif>
       Rilata al <tld/>o:
       <ekz>
@@ -161,12 +236,20 @@
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="magnet.0a.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Mistere altiranta per nekontra&ubreve;starebla forto:
       <ekz>
-        <tld/>a rigardo.
+        <tld/>a rigardo;
+      </ekz>
+      <ekz>
+        la idilia pa&scirc;tistino havas <klr>[&#x2026;]</klr> <tld/>an inklinon al la monujo de sia
+        pa&scirc;tisto
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="ca">
@@ -184,7 +267,7 @@
   <trd lng="de">magnetisch</trd>
   <trd lng="en">magnetic</trd>
   <trdgrp lng="fa">
-    <trd>&a_A_madda;&a_h;&a_n;&#x200C;&a_r;&a_b;&a_A;&f_y;&f_y;</trd>&a_komo;
+    <trd>&a_A_madda;&a_h;&a_n;&zwnj;&a_r;&a_b;&a_A;&f_y;&f_y;</trd>&a_komo;
     <trd>&a_m;&a_gh;&a_n;&a_A;&a_T;&f_y;&a_s;&f_y;</trd>
   </trdgrp>
   <trd lng="fr">magn&eacute;tique</trd>
@@ -194,23 +277,23 @@
     <trd>magnetikus</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x78C1;&#x77F3;&#x306E;  <pr>&#12376;&#12375;&#12419;&#x304F;&#x306E;</pr></trd>,
-    <trd>&#x78C1;&#x6C17;&#12434;&#x5E2F;&#12403;&#x305F;  <pr>&#12376;&#x304D;&#12434;&#x304A;&#12403;&#x305F;</pr></trd>,
-    <trd>&#x78C1;&#x6C17;&#x306E;  <pr>&#12376;&#x304D;&#x306E;</pr></trd>,
-    <trd>&#x78C1;&#x529B;&#x306E;  <pr>&#12376;&#x308A;&#12423;&#x304F;&#x306E;</pr></trd>,
-    <trd>&#x78C1;&#24615;&#x306E;  <pr>&#12376;&#x305B;&#12356;&#x306E;</pr></trd>,
-    <trd>&#x4EBA;&#12434;&#x5F15;&#x304D;&#12388;&#12369;&#x308B;  <pr>&#12376;&#12435;&#12434;&#12402;&#x304D;&#12388;&#12369;&#x308B;</pr></trd>
+    <trd>&#x78C1;&#x77F3;&#x306E;  <pr>&#x3058;&#x3057;&#x3083;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x78C1;&#x6C17;&#x3092;&#x5E2F;&#x3073;&#x305F;  <pr>&#x3058;&#x304D;&#x3092;&#x304A;&#x3073;&#x305F;</pr></trd>,
+    <trd>&#x78C1;&#x6C17;&#x306E;  <pr>&#x3058;&#x304D;&#x306E;</pr></trd>,
+    <trd>&#x78C1;&#x529B;&#x306E;  <pr>&#x3058;&#x308A;&#x3087;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x78C1;&#x6027;&#x306E;  <pr>&#x3058;&#x305B;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x4EBA;&#x3092;&#x5F15;&#x304D;&#x3064;&#x3051;&#x308B;  <pr>&#x3058;&#x3093;&#x3092;&#x3072;&#x304D;&#x3064;&#x3051;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">magnetisch</trd>
   <trd lng="pl">magnetyczny</trd>
   <trd lng="ru">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">magnetick&yacute;</trd>
   <trd lng="sv">magnetisk</trd>
-  <trd lng="uk">&#x43C;&c_a;&c_g;&#x43D;&c_ib;&c_t;&#x43D;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;&c_n;&c_i;&c_j;</trd>
   <trdgrp lng="zh">
-    <trd>&#x78C1; <pr>c&#xED;</pr></trd>,
-    <trd>&#x78C1;&#24615; <pr>c&#xED;x&#xEC;ng</pr></trd>,
-    <trd>&#x78C1;&#x529B; <pr>c&#xED;l&#xEC;</pr></trd>
+    <trd>&#x78C1; <pr>c&iacute;</pr></trd>,
+    <trd>&#x78C1;&#x6027; <pr>c&iacute;x&igrave;ng</pr></trd>,
+    <trd>&#x78C1;&#x529B; <pr>c&iacute;l&igrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -237,7 +320,7 @@
     <trd>imantar</trd>
   </trdgrp>
   <trdgrp lng="fa">
-    <trd>&a_A_madda;&a_h;&a_n;&#x200C;&a_r;&a_b;&a_A; &f_k;&a_r;&a_d;&a_n;</trd>&a_komo;
+    <trd>&a_A_madda;&a_h;&a_n;&zwnj;&a_r;&a_b;&a_A; &f_k;&a_r;&a_d;&a_n;</trd>&a_komo;
     <trd>&a_m;&a_gh;&a_n;&a_A;&a_T;&f_y;&a_s;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
   </trdgrp>
   <trd lng="fr">magn&eacute;tiser</trd>
@@ -246,12 +329,168 @@
   <trd lng="pl">magnesowa&cacute;</trd>
   <trd lng="ru">&c_n;&c_a;&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sv">magnetisera</trd>
-  <trd lng="uk">&#x43D;&c_a;&#x43C;&c_a;&c_g;&#x43D;&c_ib;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
-  <trd lng="zh">&#x8D77;&#x78C1; <pr>q&#x1D0;c&#xED;</pr></trd>
+  <trd lng="uk">&c_n;&c_a;&c_m;&c_a;&c_g;&c_n;&c_ib;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trd lng="zh">&#x8D77;&#x78C1; <pr>q&#x1D0;c&iacute;</pr></trd>
 </drv>
+
+<drv mrk="magnet.elektro0o">
+  <kap>elektro<tld/>o</kap>
+  <uzo tip="fak">FIZ</uzo>
+  <uzo tip="fak">TEK</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="aparat.0o.TEK">Aparato</ref>,
+      konsistanta el drata bobeno
+      formanta <tld/>an kampon, kiam &gcirc;in trafluas elektro.
+    </dif>
+    <trd lng="en">electromagnet</trd>
+  </snc>
+  <trd lng="be">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;</trd>
+  <trd lng="cs">elektromagnet</trd>
+  <trd lng="de">Elektromagnet</trd>
+  <trd lng="es">electroim&aacute;n</trd>
+  <trd lng="fr">&eacute;lectroaimant</trd>
+  <trd lng="hu">elektrom&aacute;gnes</trd>
+  <trd lng="ja">&#x96FB;&#x78C1;&#x77F3;  <pr>&#x3067;&#x3093;&#x3058;&#x3057;&#x3083;&#x304F;</pr></trd>
+  <trd lng="pl">elektromagnes</trd>
+  <trdgrp lng="pt">
+    <trd>eletro&iacute;m&atilde;</trd>,
+    <trd>eletromagneto</trd>
+  </trdgrp>
+  <trd lng="ru">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;</trd>
+  <trd lng="sk">elektromagnet</trd>
+  <trd lng="uk">&c_je;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7535;&#x78C1;&#x77F3; <pr>di&agrave;nc&iacute;sh&iacute;</pr></trd>,
+    <trd>&#x7535;&#x78C1;&#x94C1; <pr>di&agrave;nc&iacute;ti&ecaron;</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="magnet.elektro0a">
+  <kap>elektro<tld/>a</kap>
+  <uzo tip="fak">FIZ</uzo>
+  <uzo tip="klr">(pri fenomenoj)</uzo>
+  <snc>
+    <dif>
+      Rilatanta al reciproka efiko de elektra kurento sur <tld/>on
+      a&ubreve; elektro<tld/>on, &ccirc;u per vario de la magneta alterno
+      al la indukto de elektromotora forto, &ccirc;u de kurento:
+      <ekz>
+        la sama elektro<tld/>a &scirc;an&gcirc;i&gcirc;o okazas anka&ubreve;
+        en la cerbo de paralizuloj, kvankam ili ne kapablas reale estigi
+        tiajn movojn
+        <fnt><aut>Gianfranco Cazzaro</aut>: <vrk>Nia cerbo "musos",
+        &ccirc;u?</vrk>, <bib>Monato</bib><lok>jaro 1997a, numero 4a, p.
+        14a</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="en">electromagnetic</trd>
+  </snc>
+  <adm>
+    Dubinda difino. <aut>MB</aut>
+  </adm>
+  <trd lng="be">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;&c_n;&c_y;</trd>
+  <trd lng="de">elektromagnetisch</trd>
+  <trd lng="es">electromagn&eacute;tico</trd>
+  <trd lng="fr">&eacute;lectromagn&eacute;tique</trd>
+  <trd lng="he">&alef;&lamed;&qof;&tet;&resh;&vav;&mem;&gimel;&nun;&tet;&yod;&tav;</trd>
+  <trd lng="hu">elektrom&aacute;gneses</trd>
+  <trdgrp lng="ja">
+    <trd>&#x96FB;&#x78C1;&#x77F3;&#x306E;  <pr>&#x3067;&#x3093;&#x3058;&#x3057;&#x3083;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x96FB;&#x78C1;&#x6C17;&#x306E;  <pr>&#x3067;&#x3093;&#x3058;&#x304D;&#x306E;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">elektromagnetyczny</trd>
+  <trd lng="ru">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trd lng="uk">&c_je;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;&c_n;&c_i;&c_j;</trd>
+</drv>
+
+<drv mrk="magnet.elektro0ismo">
+  <kap>
+    elektro<tld/>ismo
+  </kap>
+  <uzo tip="fak">FIZ</uzo>
+  <snc>
+    <dif>
+      Bran&ccirc;o de <ref tip="malprt" cel="fizik.0o">fiziko</ref>, kiu pritraktas la
+      interagojn inter elektraj kaj <tld/>aj kampoj, kaj iliaj fontoj, nome
+      elektraj &scirc;argoj kaj kurentoj:
+      <ekz>
+        <nom>Amp&egrave;re</nom> estas konsiderata unu el la malkovrintoj de la elektro<tld/>ismo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=127">Andr&eacute;-Marie Amp&egrave;re</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kvantuma elektrodinamiko estas la relativeca kvantuma kampa teorio de
+        elektro<tld/>ismo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=494781">Kvantuma elektrodinamiko</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="en">electromagnetism</trd>
+  </snc>
+  <trd lng="be">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_m;&c_a;&c_g;&c_n;&c_e;&c_t;&c_y;&c_z;&c_m;</trd>
+  <trd lng="bg">&c_je;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_je;&c_t;&c_i;&c_z;&c_malmol;&c_m;</trd>
+  <trd lng="cs">elektromagnetizmus</trd>
+  <trd lng="de">Elektromagnetismus</trd>
+  <trd lng="es">electromagnetismo</trd>
+  <trd lng="fr">&eacute;lectromagn&eacute;tisme</trd>
+  <trd lng="he">&alef;&lamed;&qof;&tet;&resh;&vav;&mem;&gimel;&nun;&tet;&yod;&vav;&tav;</trd>
+  <trdgrp lng="hu">
+    <trd>elektrom&aacute;gnesess&eacute;g</trd>,
+    <trd>elektromagnetizmus</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x96FB;&#x78C1;&#x6C17;  <pr>&#x3067;&#x3093;&#x3058;&#x304D;</pr></trd>,
+    <trd>&#x96FB;&#x78C1;&#x6C17;&#x5B66;  <pr>&#x3067;&#x3093;&#x3058;&#x304D;&#x304C;&#x304F;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">elektromagnetyzm</trd>
+  <trd lng="pt">eletromagnetismo</trd>
+  <trd lng="ru">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_je;&c_t;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">elektromagnetizmus</trd>
+  <trd lng="sv">elektromagnetism</trd>
+  <trd lng="uk">&c_je;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_je;&c_t;&c_i;&c_z;&c_m;</trd>
+  <trd lng="zh">&#x7535;&#x78C1;&#x5B66; <pr>di&agrave;nc&iacute;xu&eacute;</pr></trd>
+</drv>
+
+<drv mrk="magnet.elektro0akampo">
+  <kap>elektro<tld/>a kampo</kap>
+  <uzo tip="fak">FIZ</uzo>
+  <snc>
+    <dif>
+      Interligo de elektra kaj <tld/>a
+      <ref tip="super" cel="kamp.0o.FIZ">kampo</ref>j.
+    </dif>
+    <trd lng="en"><ind>electromagnetic</ind> field</trd>
+  </snc>
+  <adm>
+    movu al kamp/
+  </adm>
+  <trd lng="be">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;&c_n;&c_a;&c_je; &c_p;&c_o;&c_l;&c_je;</trd>
+  <trd lng="cs">elektromagnetick&eacute; pole</trd>
+  <trd lng="de">elektromagnetisches Feld</trd>
+  <trd lng="es">campo <ind>electromagn&eacute;tico</ind></trd>
+  <trd lng="fr">champ &eacute;lectromagn&eacute;tique</trd>
+  <trd lng="he">&shin;&dalet;&he; &alef;&lamed;&qof;&resh;&vav;&mem;&gimel;&nun;&tet;&yod;</trd>
+  <trd lng="hu">elektrom&aacute;gneses t&eacute;r</trd>
+  <trdgrp lng="ja">
+    <trd>&#x96FB;&#x78C1;&#x5834;  <pr>&#x3067;&#x3093;&#x3058;&#x3070;</pr></trd>,
+    <trd>&#x96FB;&#x78C1;&#x754C;  <pr>&#x3067;&#x3093;&#x3058;&#x304B;&#x3044;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">pole <ind>elektromagnetyczne</ind></trd>
+  <trd lng="ru">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;&c_n;&c_o;&c_je; &c_p;&c_o;&c_l;&c_je;</trd>
+  <trd lng="sk">elektromagnetick&eacute; pole</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.103 2026/09/24 10:30:19
+Wolfram Diestel: ~o: reverkita, ekz-oj; +elektro~*
+
 versio 1.102 2026/03/01 07:04:02
 Hector Alos i Font: trd ca (korektoj)
 
@@ -271,8 +510,5 @@ Revision 1.19  2011/12/05 01:10:34  revo
 Marc Rausell: kataluna traduko
 
 Revision 1.18  2009/06/25 16:30:44  revo
-Behnam Tabatabai: korr arabaj/persaj koderoj
-
-Revision 1.17  2009/04/29 16:31:03  revo
 -->
-</vortaro>
+</vortaro>
