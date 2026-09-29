@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ten.xml,v 1.210 2026/09/28 20:32:47 revo Exp $">
+<art mrk="$Id: ten.xml,v 1.211 2026/09/29 16:30:05 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>ten</rad>/i
   <fnt><bib>UV</bib></fnt>
@@ -879,6 +879,7 @@
   </snc>
   <snc mrk="ten.0o.FON">
     <uzo tip="fak">FON</uzo>
+    <fnt><bib>PV</bib></fnt>
     <dif>
       Tempo, dum kiu la vo&ccirc;organoj restas senmovaj &ccirc;e
       prononcado de konsonanto:
@@ -891,10 +892,14 @@
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
-      <trd>Innehalten</trd>,
-      <trd>Haltezeit</trd>
-    </trdgrp>
+    <adm>
+      La fonologia modelo el la 1930aj jaroj, la&ubreve; kiu ekzistas halta fazo,
+      ne plu estas konsiderata &gcirc;usta. Vikipedio pri tio referencas i.a.:
+      Herbert Pilch: Phonemtheorie. 2., verb. Auflage. Karger,
+      Basel / New York 1968. Zu Gleitlauten: S. 79ff.
+      <aut>WD</aut>
+    </adm>
+    <trd lng="de">Phonation</trd>
     <trdgrp lng="es">
       <trd>pausa</trd>
     </trdgrp>
@@ -1835,15 +1840,20 @@
   <kap>al<tld/>o</kap>
   <snc mrk="ten.al0o.FON">
     <uzo tip="fak">FON</uzo>
+    <fnt><bib>PV</bib></fnt>
     <dif>
       Ferma a&ubreve; malvastiga movo, kiu konsistigas la unuan parton
       el kompleta konsonanto.
     </dif>
   </snc>
-  <trd lng="de">Verschluss</trd>
+  <trdgrp lng="de">
+    <trd>Initiation</trd>,
+    <trd>Druckaufbau</trd>,
+    <trd>Anglitt</trd>
+  </trdgrp>
   <trd lng="en">occlusion</trd>
   <trd lng="es">implosi&oacute;n</trd>
-  <trd lng="fr">catastase</trd>
+  <trd lng="fr">catastase <klr>(phon.)</klr></trd>
   <trdgrp lng="hu">
     <trd>z&aacute;ralkot&aacute;s</trd>,
     <trd>impl&oacute;zi&oacute;</trd>
@@ -2965,12 +2975,30 @@
   </snc>
   <snc mrk="ten.for0o.FON">
     <uzo tip="fak">FON</uzo>
-    <fnt><bib>PIV1</bib></fnt>
+    <fnt><bib>PV</bib></fnt>
     <dif>
       Malferma a&ubreve; vastiga movo, kiu konsistigas la trian parton
       el kompleta konsonanto kaj preparas la gliton al sekvanta sono.
     </dif>
-    <trd lng="fr">d&eacute;tente<klr tip="ind"> (phon.)</klr></trd>
+    <rim>
+      Tiu termino aperas iom dubinda. Se oni celis ian simetreion kiel &ccirc;e
+      aliro &ndash; foriro, tio &ccirc;e &#x201A;<tld/>i&#x2018; ne funkcius.
+      &Gcirc;usta triopo estus io kiel ek-/al<tld/>o, <tld/>o, el-/forlaso (a&ubreve; transigo). Kp
+      ekzemple la francan terminon &leftquot;<nac>m&eacute;tastase</nac>&rightquot;, el la greka
+      &leftquot;<nac>&my;&epsilon;&tau;&alfa_ton;&sigma;&tau;&alfa;&sigma;&jota;&sigma_fina;</nac>&rightquot; signifanta migro, forloki&gcirc;o kaj la cita&jcirc;on sub
+      <ref cel="ten.0o.FON">teno<sncref/></ref>.
+
+      Cetere tiu trifaza fonologia modelo kun meza halta fazo el la 1930aj jaroj
+      intertempe estas konsiderata mal&gcirc;usta. Vikipedio referencas pri tio
+      <nom>Herbert Pilch</nom>, 1968
+      <aut>Wolfram Diestel</aut>
+    </rim>
+    <trdgrp lng="de">
+      <trd>Artikulation</trd>,
+      <trd>Sprengung</trd>,
+      <trd>Abglitt</trd>
+    </trdgrp>
+    <trd lng="fr">m&eacute;tastase (d'une consonne, phon.)</trd>
     <trdgrp lng="hu">
       <trd>z&aacute;r megsz&uuml;ntet&eacute;se</trd>,
       <trd>expl&oacute;zi&oacute;</trd>
@@ -5367,6 +5395,9 @@
 </art>
 <!--
 $Log$
+versio 1.211 2026/09/29 16:30:05
+Wolfram Diestel: terminoj FON: trd de, fr, rim/adm
+
 versio 1.210 2026/09/28 20:32:47
 Wolfram Diestel: for~o: +ekz
 
@@ -5386,8 +5417,5 @@ versio 1.205 2026/06/10 22:22:01
 Wolfram Diestel: ref
 
 versio 1.204 2026/02/16 20:46:52
-Wolfram Diestel: ref
-
-versio 1.203 2026/01/28 13:15:42
 -->
 </vortaro>
