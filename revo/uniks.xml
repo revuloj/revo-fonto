@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-    <art mrk="$Id: uniks.xml,v 1.25 2023/09/05 09:43:52 revo Exp $">
+    <art mrk="$Id: uniks.xml,v 1.26 2026/10/01 05:46:48 revo Exp $">
       <kap>
 	<rad>Uniks</rad>/o
       </kap>
@@ -12,7 +12,8 @@
         <snc>
         <uzo tip="fak">KOMP</uzo>
 	  <dif>
-	    Tre stabila multtaska, multuzanta, multsistema <ref tip="super" cel="operac.0umo">operaciumo</ref>, konformiganta
+	    Tre stabila multtaska, multuzanta, multsistema <ref tip="super"
+	    cel="operac.0umo">operaciumo</ref>, konformiganta
 	    sin al la normo POSIX (IEEE1003):
 
 <ekz>
@@ -25,9 +26,21 @@ ta&ubreve;gas, &ccirc;ar <tld/>o,
           Interreto: uniksulo ekspertas Unikodon</url></vrk>
           <bib>Monato</bib>
           <lok>2000/02, p. 20</lok>
-        </fnt>.
+        </fnt>;
 	    </ekz>
 
+<ekz>
+povus esti problemo, se java programo tradukita kaj provita &ccirc;e Makinto&scirc;o
+mendus iun mastruman servon, kiu ne trovi&gcirc;as &ccirc;e <tld/>o.
+<fnt>
+<aut>Klivo</aut>,
+          <vrk><url ref="&Monato;/1998/006022.html">
+          Kio estas Javo?</url></vrk>
+          <bib>Monato</bib>
+          <lok>1998/05, p. 13</lok>
+        </fnt>.
+
+</ekz>
 
 	  </dif>
         <ref tip="vid" cel="linuks.0o">Linukso</ref>
@@ -42,7 +55,7 @@ ta&ubreve;gas, &ccirc;ar <tld/>o,
 	<trd lng="fr">Unix</trd>
 	<trd lng="hu">Unix</trd>
         <trdgrp lng="it">
-        <trd>Unix<klr> (t.m.)</klr></trd>, 
+        <trd>Unix<klr> (t.m.)</klr></trd>,
         <trd>unix<klr> (o.s.)</klr></trd>
         </trdgrp>
 	<trdgrp lng="ja">
@@ -110,12 +123,15 @@ ta&ubreve;gas, &ccirc;ar <tld/>o,
 	<trdgrp lng="sv">
 	  <trd>Unix-anv&auml;ndare</trd>,
 	  <trd>Unix-anh&auml;ngare</trd>
-	</trdgrp> 
+	</trdgrp>
       </drv>
     </art>
 
     <!--
     $Log$
+versio 1.26 2026/10/01 05:46:48
+Paul Peeraerts: +dua ekz
+
 versio 1.24 2023/04/15 12:43:00
 Paul Peeraerts: Steloj -> monato.be
 
@@ -135,8 +151,5 @@ Damien Brucker: +dif en ~o
     Damien Brucker: Klarigo de la normo
 
     Revision 1.16  2013/09/13 08:10:16  revo
-    Damien Brucker: precizigo dela difino
-
-    Revision 1.15  2012/08/13 14:10:23  revo
 -->
 </vortaro>
