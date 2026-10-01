@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gramat.xml,v 1.57 2025/03/27 10:32:58 revo Exp $">
+<art mrk="$Id: gramat.xml,v 1.58 2026/10/01 22:00:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gramatik</rad>/o <fnt><bib>UV</bib></fnt>
@@ -94,6 +94,7 @@
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;</trd>
   <trd lng="bo">&t_ba;&t_ra;&t_data;&t_tsheg;&t_sa;&t_pata;&t_rata;&t_naro;&t_da;&t_tsheg;</trd>
+  <trd lng="ca">gram&agrave;tica</trd>
   <trdgrp lng="cs">
     <trd>gramatika</trd>,
     <trd>mluvnice</trd>
@@ -104,9 +105,9 @@
   </trdgrp>
   <trd lng="fr">grammaire</trd>
   <trdgrp lng="ja">
-    <trd>&#25991;&#x6CD5;  <pr>&#12406;&#12435;&#x307D;&#12358;</pr></trd>,
-    <trd>&#25991;&#x6CD5;&#x5B66;  <pr>&#12406;&#12435;&#x307D;&#12358;&#x304C;&#x304F;</pr></trd>,
-    <trd>&#25991;&#x6CD5;&#x66F8;  <pr>&#12406;&#12435;&#x307D;&#12358;&#12375;&#12423;</pr></trd>
+    <trd>&#25991;&#27861;  <pr>&#12406;&#12435;&#12413;&#12358;</pr></trd>,
+    <trd>&#25991;&#27861;&#23398;  <pr>&#12406;&#12435;&#12413;&#12358;&#12364;&#12367;</pr></trd>,
+    <trd>&#25991;&#27861;&#26360;  <pr>&#12406;&#12435;&#12413;&#12358;&#12375;&#12423;</pr></trd>
   </trdgrp>
   <trd lng="lat">grammatica, ae</trd>
   <trd lng="pl">gramatyka</trd>
@@ -116,11 +117,12 @@
   <trd lng="tr">dilbilgisi</trd>
   <trdgrp lng="uk">
     <trd>&c_ib;&c_s;&c_t;&c_o;&c_r;&c_i;&c_ch;&c_n;&c_a;</trd>,
-    <trd>&c_p;&c_o;&c_r;&c_ib;&c_v;&c_n;&c_ja;&c_l;&c_mol;&c_n;&c_a;/&c_z;&c_ib;&c_s;&c_t;&c_a;&c_v;&c_n;&c_a;&nbsp;&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</trd>
+    <trd>&c_p;&c_o;&c_r;&c_ib;&c_v;&c_n;&c_ja;&c_l;&c_mol;&c_n;&c_a;/&c_z;&c_ib;&c_s;&c_t;&c_a;&c_v;&c_n;&c_a;
+&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#25991;&#x6CD5; <pr>w&#xE9;nf&#x1CE;</pr></trd>,
-    <trd>&#x8A9E;&#x6CD5; <pr>y&#x1D4;f&#x1CE;</pr></trd>
+    <trd>&#25991;&#27861; <pr>w&eacute;nf&#462;</pr></trd>,
+    <trd>&#35486;&#27861; <pr>y&#468;f&#462;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -152,13 +154,17 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
+  <trdgrp lng="ca">
+    <trd>gramatical</trd>,
+    <trd>de <ind>gram&agrave;tica</ind></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>grammatisch</trd>,
     <trd>grammatikalisch</trd>
   </trdgrp>
   <trd lng="en">grammar<klr> (adj)</klr></trd>
   <trd lng="fr">grammatical</trd>
-  <trd lng="ja">&#25991;&#x6CD5;&#x4E0A;&#x306E;  <pr>&#12406;&#12435;&#x307D;&#12358;&#12376;&#12423;&#12358;&#x306E;</pr></trd>
+  <trd lng="ja">&#25991;&#27861;&#19978;&#12398;  <pr>&#12406;&#12435;&#12413;&#12358;&#12376;&#12423;&#12358;&#12398;</pr></trd>
   <trd lng="pl">gramatyczny</trd>
   <trdgrp lng="pt">
     <trd>gramatical</trd>,
@@ -166,7 +172,7 @@
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   <trd lng="uk">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>
-  <trd lng="zh">&#25991;&#x6CD5; <pr>w&#xE9;nf&#x1CE;</pr></trd>
+  <trd lng="zh">&#25991;&#27861; <pr>w&eacute;nf&#462;</pr></trd>
 </drv>
 
 <drv mrk="gramat.0ilo">
@@ -188,7 +194,13 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_s;&c_l;&c_u;&c_zh;&c_b;&c_o;&c_v;&c_a;&c_je; <ind>&c_s;&c_l;&c_o;&c_v;&c_a;</ind></trd>
+  <trd lng="be">&c_s;&c_l;&c_u;&c_zh;&c_b;&c_o;&c_v;&c_a;&c_je;
+  <ind>&c_s;&c_l;&c_o;&c_v;&c_a;</ind></trd>
+  <trdgrp lng="ca">
+    <trd>mot gramatical</trd>,
+    <trd>mot funcional</trd>,
+    <trd>functor</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Funktionswort</trd>,
     <trd>Synsemantikum</trd>,
@@ -202,7 +214,7 @@
   <trd lng="fr">mot grammatical</trd>
   <trd lng="pl">narz&eogonek;dzie  <ind>gramatyczne</ind></trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_zh;&c_je;&c_b;&c_n;&c_o;&c_je; &c_s;&c_l;&c_o;&c_v;&c_o;</trd>
-  <trd lng="zh">&#x529F;&#x80FD;&#x8A5E; <pr>g&#x14D;ngn&#xE9;ngc&#xED;</pr></trd>
+  <trd lng="zh">&#21151;&#33021;&#35422; <pr>g&#333;ngn&eacute;ngc&iacute;</pr></trd>
 </drv>
 
 <drv mrk="gramat.0isto">
@@ -212,7 +224,7 @@
       Spertulo en <tld/>a scienco:
       <ekz>
         la klasika formo de Sanskrito estis normigita de la fama <tld/>isto
-        <nom>P&amacron;&#x1E47;ini</nom> kelkcent jarojn anta&ubreve; nia erao
+        <nom>P&amacron;&#7751;ini</nom> kelkcent jarojn anta&ubreve; nia erao
         <fnt>
           <aut>J. Lindstedt</aut>
           <vrk><url
@@ -224,6 +236,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;</trd>
+  <trd lng="ca">gram&agrave;tic</trd>
   <trd lng="cs">gramatik&aacute;&rcaron;</trd>
   <trd lng="de">Grammatiker</trd>
   <trd lng="en">grammarian</trd>
@@ -232,7 +245,7 @@
     <trd>grammatikus</trd>,
     <trd>nyelvtan&iacute;r&oacute;</trd>
   </trdgrp>
-  <trd lng="ja">&#25991;&#x6CD5;&#x5B66;&#32773;  <pr>&#12406;&#12435;&#x307D;&#12358;&#x304C;&#x304F;&#12375;&#12419;</pr></trd>
+  <trd lng="ja">&#25991;&#27861;&#23398;&#32773;  <pr>&#12406;&#12435;&#12413;&#12358;&#12364;&#12367;&#12375;&#12419;</pr></trd>
   <trd lng="nl">grammaticus</trd>
   <trd lng="pl">gramatyk</trd>
   <trdgrp lng="pt">
@@ -243,9 +256,9 @@
   <trd lng="sk">gramatik&aacute;r</trd>
   <trd lng="uk">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_s;&c_t;</trd>
   <trdgrp lng="zh">
-    <trd>&#25991;&#x6CD5;&#x5BB6; <pr>w&#xE9;nf&#x1CE;ji&amacron;</pr></trd>,
-    <trd>&#x8A9E;&#x6CD5;&#25945;&#x5E2B; <pr>y&#x1D4;f&#x1CE;ji&#xE0;osh&#x12B;</pr></trd>,
-    <trd>&#25991;&#x6CD5;&#x5B66;&#32773; <pr>w&#xE9;nf&#x1CE;xu&#xE9;zh&#x11B;</pr></trd>
+    <trd>&#25991;&#27861;&#23478; <pr>w&eacute;nf&#462;ji&amacron;</pr></trd>,
+    <trd>&#35486;&#27861;&#25945;&#24107; <pr>y&#468;f&#462;ji&agrave;osh&#299;</pr></trd>,
+    <trd>&#25991;&#27861;&#23398;&#32773; <pr>w&eacute;nf&#462;xu&eacute;zh&ecaron;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -268,9 +281,18 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_c;&c_je;&c_j;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_c;&c_je;&c_j;</trd>
+  <trdgrp lng="ca">
+    <trd>gram&agrave;tica de depend&egrave;ncies</trd>,
+    <trd>gram&agrave;tica de val&egrave;ncies</trd>
+  </trdgrp>
   <trd lng="de">Dependenzgrammatik</trd>
   <trd lng="en">dependency grammar</trd>
+  <trdgrp lng="es">
+    <trd>gramatica de dependencias</trd>,
+    <trd>gram&aacute;tica de valencias</trd>
+  </trdgrp>
   <trd lng="fr">grammaire de d&eacute;pendance</trd>
   <trd lng="pl">gramatyka zale&zdot;na</trd>
 </drv>
@@ -296,12 +318,15 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_g;&c_je;&c_n;&c_e;&c_r;&c_a;&c_t;&c_y;&c_w;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_g;&c_je;&c_n;&c_e;&c_r;&c_a;&c_t;&c_y;&c_w;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="ca">gram&agrave;tica generativa</trd>
   <trd lng="de">generative Grammatik</trd>
   <trdgrp lng="en">
     <trd>generative grammar</trd>,
     <trd>generativism</trd>
   </trdgrp>
+  <trd lng="es">gram&aacute;tica generativa</trd>
   <trd lng="fr">gramaire g&eacute;n&eacute;rative</trd>
   <trd lng="pl">gramatyka generatywna</trd>
 </drv>
@@ -314,17 +339,23 @@
       Scienco pri la reguloj komunaj al &ccirc;iuj lingvoj.
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_a;&c_g;&c_u;&c_l;&c_mol;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_a;&c_g;&c_u;&c_l;&c_mol;&c_n;&c_a;&c_ja;</trd>
+  <trdgrp lng="ca">
+    <trd>ling&uuml;&iacute;stica general</trd>,
+    <trd>gram&agrave;tica general</trd>
+  </trdgrp>
   <trd lng="de">allgemeine Grammatik</trd>
   <trd lng="en">general grammar</trd>
   <trd lng="fr">grammaire g&eacute;n&eacute;rale</trd>
-  <trd lng="ja">&#x666E;&#x904D;&#25991;&#x6CD5;  <pr>&#12405;&#12408;&#12435;&#12406;&#12435;&#x307D;&#12358;</pr></trd>
+  <trd lng="ja">&#26222;&#36941;&#25991;&#27861;  <pr>&#12405;&#12408;&#12435;&#12406;&#12435;&#12413;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>gramatyka tradycyjna</trd>,
     <trd>gramatyka uniwersalna</trd>
   </trdgrp>
   <trd lng="pt">gram&aacute;tica geral</trd>
-  <trd lng="ru">&c_o;&c_b;&c_shch;&c_a;&c_ja; <ind>&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</ind></trd>
+  <trd lng="ru">&c_o;&c_b;&c_shch;&c_a;&c_ja;
+  <ind>&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="gramat.kompara0o">
@@ -337,11 +368,17 @@
       per alia.
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_p;&c_a;&c_r;&c_a;&c_w;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_p;&c_a;&c_r;&c_a;&c_w;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;</trd>
+  <trdgrp lng="ca">
+    <trd>gram&agrave;tica comparada</trd>,
+    <trd>ling&uuml;&iacute;stica comparada</trd>,
+    <trd>comparatisme</trd>
+  </trdgrp>
   <trd lng="de">vergleichende Grammatik</trd>
   <trd lng="en">comparitive grammar</trd>
   <trd lng="fr">grammaire compar&eacute;e</trd>
-  <trd lng="ja">&#x6BD4;&#x8F03;&#25991;&#x6CD5;  <pr>&#12402;&#x304B;&#x304F;&#12406;&#12435;&#x307D;&#12358;</pr></trd>
+  <trd lng="ja">&#27604;&#36611;&#25991;&#27861;  <pr>&#12402;&#12363;&#12367;&#12406;&#12435;&#12413;&#12358;</pr></trd>
   <trd lng="pl">gramatyka por&oacute;wnawcza</trd>
   <trd lng="pt">gram&aacute;tica comparada</trd>
   <trd lng="ru">&c_s;&c_r;&c_a;&c_v;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;
@@ -356,14 +393,16 @@
       Scienco studanta la historion de la &scirc;an&gcirc;oj en lingvaj reguloj.
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_g;&c_ib;&c_s;&c_t;&c_a;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_g;&c_ib;&c_s;&c_t;&c_a;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="ca">gram&agrave;tica hist&ograve;rica</trd>
   <trdgrp lng="de">
     <trd>historische Grammatik</trd>,
     <trd>geschichtliche Grammatik</trd>
   </trdgrp>
   <trd lng="en">history of grammar</trd>
   <trd lng="fr">grammaire historique</trd>
-  <trd lng="ja">&#x6B74;&#x53F2;&#25991;&#x6CD5;  <pr>&#x308C;&#x304D;&#12375;&#12406;&#12435;&#x307D;&#12358;</pr></trd>
+  <trd lng="ja">&#27508;&#21490;&#25991;&#27861;  <pr>&#12428;&#12365;&#12375;&#12406;&#12435;&#12413;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>gramatyka historyczna</trd>,
     <trd>gramatyka diachroniczna</trd>
@@ -380,7 +419,8 @@
     <dif>
       Ne konforma al la normala funkciado de la koncerna lingvo:
       <ekz>
-        mi ja rekomendas uzi &leftquot;mialande&rightquot; prefere al &leftquot;milande&rightquot;, ne
+        mi ja rekomendas uzi &leftquot;mialande&rightquot; prefere al &leftquot;milande&rightquot;,
+        ne
         &ccirc;ar tiu
         lasta estus kontra&ubreve;<tld/>a <klr>[&#8230;]</klr> sed &ccirc;ar la alia
         estas sankciita de la uzado
@@ -395,7 +435,9 @@
       <ref cel="gramat.laux0a.LIN">la&ubreve;gramatika</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a; &c_n;&c_ja;&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a;
+  &c_n;&c_ja;&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="ca">agramatical</trd>
   <trdgrp lng="de">
     <trd>ungrammatisch</trd>,
     <trd>ungrammatikalisch</trd>,
@@ -406,8 +448,10 @@
   <trd lng="fr">agrammatical</trd>
   <trd lng="pl">sprzeczny z  <ind>gramatyk&aogonek;</ind></trd>
   <trdgrp lng="uk">
-    <trd>&c_ja;&c_k;&c_i;&c_j; &c_n;&c_je; &c_v;&c_ib;&c_d;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_jeu;</trd>,
-    <trd>&c_s;&c_u;&c_p;&c_je;&c_r;&c_je;&c_ch;&c_i;&c_t;&c_mol; &c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_c;&c_ib;</trd>
+    <trd>&c_ja;&c_k;&c_i;&c_j; &c_n;&c_je;
+    &c_v;&c_ib;&c_d;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_jeu;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_je;&c_r;&c_je;&c_ch;&c_i;&c_t;&c_mol;
+    &c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_c;&c_ib;</trd>
   </trdgrp>
 </drv>
 
@@ -434,7 +478,9 @@
       <ref cel="gramat.kontraux0a.LIN">kontra&ubreve;gramatika</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a; &c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a;
+  &c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="ca">gramatical<klr tip="amb"> (correcte)</klr></trd>
   <trdgrp lng="de">
     <trd>grammatisch</trd>,
     <trd>grammatikalisch</trd>
@@ -442,9 +488,10 @@
   <trd lng="en">grammatical</trd>
   <trd lng="fr">grammatical<klr> (correct)</klr></trd>
   <trd lng="pl">zgodny z  <ind>gramatyk&aogonek;</ind></trd>
-  <trd lng="uk">&c_ja;&c_k;&c_i;&c_j; &c_v;&c_ib;&c_d;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_jeu; &c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_c;&c_ib;</trd>
-  <trd lng="zh">&#x7B26;&#21512;&#x8A9E;&#x6CD5;&#x898F;&#21063;
-  <pr>f&#xFA;h&#xE9;y&#x1D4;f&#x1CE;gu&#x12B;z&#xE9;</pr></trd>
+  <trd lng="uk">&c_ja;&c_k;&c_i;&c_j; &c_v;&c_ib;&c_d;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_jeu;
+  &c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_c;&c_ib;</trd>
+  <trd lng="zh">&#31526;&#21512;&#35486;&#27861;&#35215;&#21063;
+  <pr>f&uacute;h&eacute;y&#468;f&#462;gu&#299;z&eacute;</pr></trd>
 </drv>
 
 <drv mrk="gramat.mis0ajxo">
@@ -464,7 +511,12 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja; &c_p;&c_a;&c_m;&c_y;&c_l;&c_k;&c_a;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja;
+  &c_p;&c_a;&c_m;&c_y;&c_l;&c_k;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>error gramatical</trd>,
+    <trd>error de gram&agrave;tica</trd>
+  </trdgrp>
   <trd lng="de">Grammatikfehler</trd>
   <trd lng="en">grammatical error</trd>
   <trd lng="pl">b&lstroke;&aogonek;d <ind>gramatyczny</ind></trd>
@@ -500,12 +552,21 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_n;&c_a;&c_r;&c_m;&c_a;&c_t;&c_y;&c_w;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_n;&c_a;&c_r;&c_m;&c_a;&c_t;&c_y;&c_w;&c_n;&c_a;&c_ja;</trd>
+  <trdgrp lng="ca">
+    <trd>gram&agrave;tica normativa</trd>,
+    <trd>gram&agrave;tica prescriptiva</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>pr&auml;skriptive Grammatik</trd>,
     <trd>normative Grammatik</trd>
   </trdgrp>
   <trd lng="en">prescriptive grammar</trd>
+  <trdgrp lng="es">
+    <trd>gram&aacute;tica normativa</trd>,
+    <trd>gram&aacute;tica prescriptiva</trd>
+  </trdgrp>
   <trd lng="fr">grammaire normative</trd>
   <trdgrp lng="pl">
     <trd>gramatyka preskrypcyjna</trd>,
@@ -521,7 +582,9 @@
       Scienco priskribanta nur la momentan staton de lingvaj reguloj.
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_a;&c_p;&c_ib;&c_s;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_a;&c_p;&c_ib;&c_s;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="ca">gram&agrave;tica descriptiva</trd>
   <trd lng="cs">popisn&aacute; gramatika</trd>
   <trdgrp lng="de">
     <trd>deskriptive Linguistik</trd>,
@@ -529,8 +592,9 @@
     <trd>beschreibende Grammatik</trd>
   </trdgrp>
   <trd lng="en">descriptive grammar</trd>
+  <trd lng="es">gram&aacute;tica descriptiva</trd>
   <trd lng="fr">grammaire descriptive</trd>
-  <trd lng="ja">&#x8A18;&#x8FF0;&#25991;&#x6CD5;  <pr>&#x304D;&#12376;&#12421;&#12388;&#12406;&#12435;&#x307D;&#12358;</pr></trd>
+  <trd lng="ja">&#35352;&#36848;&#25991;&#27861;  <pr>&#12365;&#12376;&#12421;&#12388;&#12406;&#12435;&#12413;&#12358;</pr></trd>
   <trd lng="pl">gramatyka opisowa  <klr>(deskrypcyjna)</klr></trd>
   <trd lng="pt">gram&aacute;tica descritiva</trd>
   <trd lng="ru">&c_o;&c_p;&c_i;&c_s;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;
@@ -560,7 +624,13 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a; &c_t;&c_r;&c_a;&c_n;&c_s;&c_f;&c_a;&c_r;&c_m;&c_a;&c_c;&c_y;&c_j;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;
+  &c_t;&c_r;&c_a;&c_n;&c_s;&c_f;&c_a;&c_r;&c_m;&c_a;&c_c;&c_y;&c_j;&c_n;&c_a;&c_ja;</trd>
+  <trdgrp lng="ca">
+    <trd>gram&agrave;tica generativa transformacional</trd>,
+    <trd>gram&agrave;tica transformacional</trd>,
+    <trd>transformacionalisme</trd>
+  </trdgrp>
   <trd lng="de">Transformationsgrammatik</trd>
   <trd lng="en">transformational grammar</trd>
   <trd lng="fr">grammaire transformationnelle</trd>
@@ -587,6 +657,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">gram&agrave;tica d'estructura sintagm&agrave;tica</trd>
   <trd lng="de">Phrasenstrukturgrammatik</trd>
   <trd lng="en">phrase structure grammar</trd>
   <trd lng="fr">grammaire syntagmatique</trd>
@@ -598,6 +669,9 @@
 </art>
 <!--
 $Log$
+versio 1.58 2026/10/01 22:00:19
+Hector Alos i Font: +trd ca,es
+
 versio 1.57 2025/03/27 10:32:58
 Dmitri Gabinski: + trd be
 
@@ -617,8 +691,5 @@ versio 1.49 2023/08/04 20:23:22
 Jeromo Vasxe: ~isto + ekz
 
 versio 1.48 2023/05/04 16:16:10
-revo: aktualigo URL-unuoj
-
-versio 1.47 2023/02/07 16:39:09
 -->
 </vortaro>
