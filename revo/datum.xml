@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: datum.xml,v 1.34 2026/08/12 09:24:44 revo Exp $">
+<art mrk="$Id: datum.xml,v 1.35 2026/10/03 14:00:19 revo Exp $">
 <kap>
   <rad>datum</rad>/o <fnt><bib>SPIV</bib></fnt>
 </kap>
@@ -41,7 +41,7 @@
         <tld/>oj esprimantaj unu saman informon;
       </ekz>
       <ekz>
-        <tld/>oj &dash; de nefakula vidpunkto &dash; povas esti la literoj de teksto a&ubreve; eble iuj ciferoj,
+        <tld/>oj &#8208; de nefakula vidpunkto &#8208; povas esti la literoj de teksto a&ubreve; eble iuj ciferoj,
         sed eblas anka&ubreve; turni homan paroladon en fluon de ciferecaj <tld/>oj
         <fnt>
           <aut>Pejno Simono</aut>:
@@ -124,6 +124,7 @@
     <trd>&c_d;&c_a;&c_n;&c_ib;&c_ja;</trd>,
     <trd>&c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_k;&c_ib;</trd>
   </trdgrp>
+  <trd lng="ca">dada</trd>
   <trdgrp lng="de">
     <trd>Datum</trd>,
     <trd>Daten<klr> (pl)</klr></trd>
@@ -181,13 +182,14 @@
     <trd>&c_b;&c_a;&c_n;&c_k; &c_d;&c_a;&c_n;&c_ib;&c_h;</trd>,
     <trd>&c_b;&c_a;&c_n;&c_k; &c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_a;&c_k;</trd>
   </trdgrp>
+  <trd lng="ca">banc de dades</trd>
   <trdgrp lng="de">
     <trd>Datenbasis</trd>,
     <trd>Datensammlung</trd></trdgrp>
   <trd lng="en">data bank</trd>
   <trd lng="es">banco de <ind>datos</ind></trd>
   <trd lng="fr">banque de donn&eacute;es</trd>
-  <trd lng="he">&mem;&alef;&gimel;&resh;
+  <trd lng="he">&mem;&alef;&#8503;&resh;
   &mem;&yod;&dalet;&ayin;</trd>
   <trd lng="hu">adatbank</trd>
   <trd lng="ja">&#12487;&#12540;&#12479;&#12496;&#12531;&#12463;</trd>
@@ -226,7 +228,8 @@
     <trd>&c_b;&c_a;&c_z;&c_a; &c_d;&c_a;&c_n;&c_ib;&c_h;</trd>,
     <trd>&c_b;&c_a;&c_z;&c_a; &c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_a;&c_k;</trd>
   </trdgrp>
-   <trdgrp lng="cs">
+   <trd lng="ca">base de dades</trd>
+  <trdgrp lng="cs">
     <trd>datab&aacute;ze</trd>,
     <trd>soubor dat</trd>
   </trdgrp>
@@ -279,7 +282,13 @@
       preferi mallongigon: DBM.
     </rim>
   </snc>
-  <trd lng="be">&c_s;&c_y;&c_s;&c_t;&c_e;&c_m;&c_a; &c_k;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja; &c_b;&c_a;&c_z;&c_a;&c_m;&c_ib; &c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_a;&c_k;</trd>
+  <trd lng="be">&c_s;&c_y;&c_s;&c_t;&c_e;&c_m;&c_a;
+  &c_k;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja; &c_b;&c_a;&c_z;&c_a;&c_m;&c_ib;
+  &c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_a;&c_k;</trd>
+  <trdgrp lng="ca">
+    <trd>sistema de gesti&oacute; de bases de dades</trd>,
+    <trd>SGBD</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>data-base management system</trd>,
     <trd>DBMS</trd>
@@ -294,7 +303,8 @@
   <trd lng="pl">system zarz&aogonek;dzania baz&aogonek;
   <ind>danych</ind></trd>
   <trdgrp lng="ru">
-    <trd>&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_ja; &c_b;&c_a;&c_z;&c_a;&c_m;&c_i; &c_d;&c_a;&c_n;&c_n;&c_y;&c_h;</trd>,
+    <trd>&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_ja;
+    &c_b;&c_a;&c_z;&c_a;&c_m;&c_i; &c_d;&c_a;&c_n;&c_n;&c_y;&c_h;</trd>,
     <trd>&c_S;&c_U;&c_B;&c_D;</trd>
   </trdgrp>
 </drv>
@@ -333,6 +343,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_o;&c_s;&c_mol;&c_b;&c_ib;&c_t; &c_d;&c_a;&c_n;&c_ib;&c_h;</trd>
+  <trdgrp lng="ca">
+    <trd>suport</trd>,
+    <trd>suport d'informaci&oacute;</trd>
+  </trdgrp>
   <trd lng="cs">datov&yacute; nosi&ccaron;</trd>
   <trdgrp lng="de">
     <trd>Datentr&auml;ger</trd>,
@@ -351,7 +365,8 @@
   <trd lng="ru">&c_n;&c_o;&c_s;&c_i;&c_t;&c_je;&c_l;&c_mol; &c_d;&c_a;&c_n;&c_n;&c_y;&c_h;</trd>
   <trd lng="sk">d&aacute;tov&yacute; nosi&ccaron;</trd>
   <trdgrp lng="uk">
-    <trd>&c_z;&c_a;&c_s;&c_ib;&c_b; &c_z;&c_b;&c_je;&c_r;&c_je;&c_zh;&c_je;&c_n;&c_n;&c_ja; &c_ib;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_c;&c_ib;&c_ji; &c_p;&c_o;&c_z;&c_a;
+    <trd>&c_z;&c_a;&c_s;&c_ib;&c_b; &c_z;&c_b;&c_je;&c_r;&c_je;&c_zh;&c_je;&c_n;&c_n;&c_ja;
+    &c_ib;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_c;&c_ib;&c_ji; &c_p;&c_o;&c_z;&c_a;
     &c_k;&c_o;&c_m;&c_p;&#8217;&c_ju;&c_t;&c_je;&c_r;&c_o;&c_m;</trd>,
     <trd>&c_d;&c_i;&c_s;&c_k;</trd>,
     <trd>&c_d;&c_i;&c_s;&c_k;&c_je;&c_t;&c_a;</trd>
@@ -399,6 +414,7 @@
     </rim>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_u;&c_k;&c_t;&c_u;&c_r;&c_a; &c_d;&c_a;&c_n;&c_ib;&c_h;</trd>
+  <trd lng="ca">estructura de dades</trd>
   <trd lng="de">Datenstruktur</trd>
   <trd lng="en">data structure</trd>
   <trd lng="fr">structure de donn&eacute;es</trd>
@@ -418,6 +434,9 @@
 </art>
 <!--
 $Log$
+versio 1.35 2026/10/03 14:00:19
+Hector Alos i Font: +trd ca
+
 versio 1.34 2026/08/12 09:24:44
 Wolfram Diestel: trd-ordo
 
@@ -437,8 +456,5 @@ versio 1.26 2023/04/26 08:31:32
 Paul Peeraerts: kor de eraraj ref
 
 versio 1.25 2023/04/01 12:41:29
-Paul Peeraerts: &Monato;
-
-Revision 1.22  2015/07/04 08:37:32  revo
 -->
 </vortaro>
