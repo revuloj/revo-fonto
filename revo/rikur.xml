@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rikur.xml,v 1.10 2026/08/09 18:59:41 revo Exp $">
+<art mrk="$Id: rikur.xml,v 1.11 2026/10/04 08:25:47 revo Exp $">
 <kap>
   <rad>rikur</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
@@ -38,7 +38,7 @@
           am="f_n=f_(n-2)+f_(n-1)">f<sub>n</sub>&#x202F;=&#x202F;f<sub>n&#8722;2</sub>+f<sub>n&#8722;1</sub></frm>;
         </ekz><ekz>
           difino de la iteraciilo <frm>&#8721;</frm> per <tld/>o:
-          <frm am="sum_(i=0)^0=a_0,          
+          <frm am="sum_(i=0)^0=a_0,
           sum_(i=0)^(k+1)=sum_(i=0)^k+a_(k+1)">&#8721;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
             &#8721;<sup>k+1</sup><sub>i=0</sub>=&#8721;<sup>k</sup><sub>i=0</sub>+a<sub>k+1</sub>;
           </frm>
@@ -86,7 +86,17 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
           <frm am="a-:b">a&#xF7;b</frm>.
         </ekz>
       </dif>
-      <trdgrp lng="de">
+      <adm>
+           La PGKD-ekzemplo estas erara (mankas bazo de la indukto/rikuro,
+           la testo pri b=0; do, tio estas erara kaj matematike, kaj kompute).
+           En C mi korektus:
+           unsigned int PGKD(unsigned int a, unsigned int b) {
+                 return b ? PGKD(b, a % b) : a;
+           }
+           sed mi ne scias, kiel prezenti programpecon en ReVo.
+           <aut>Sergio Pokrovskij</aut>
+      </adm>
+     <trdgrp lng="de">
         <trd>vollst&auml;ndige <ind>Induktion</ind></trd>,
         <trd>induktive <ind>Definition</ind></trd>,
         <trd>rekursive <ind>Definition</ind></trd>
@@ -247,6 +257,9 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
 
 <!--
 $Log$
+versio 1.11 2026/10/04 08:25:47
+Sergio Pokrovskij: +adm
+
 versio 1.10 2026/08/09 18:59:41
 Wolfram Diestel: kor. snc-mrk
 
@@ -265,8 +278,5 @@ sintakson
 
 Revision 1.2  2018/11/18 04:10:15  revo
 Sergio Pokrovskij: subsnc
-
-Revision 1.1  2018/11/10 11:10:15  revo
-Sergio Pokrovskij: nova artikolo
 -->
 </vortaro>
