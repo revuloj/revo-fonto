@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: art.xml,v 1.176 2026/09/22 11:32:56 revo Exp $">
+<art mrk="$Id: art.xml,v 1.177 2026/10/11 18:52:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>art</rad>/o <fnt><bib>UV</bib></fnt>
@@ -250,6 +250,7 @@
   <trd lng="mt">arti</trd>
   <trd lng="my">&#4129;&#4112;&#4112;&#4154;&#4117;&#4106;&#4140;</trd>
   <trd lng="ne">&#2325;&#2354;&#2366;</trd>
+  <trd lng="nl">kunst</trd>
   <trd lng="ny">zojambulajambula</trd>
   <trd lng="pa">&#2581;&#2610;&#2622;</trd>
   <trdgrp lng="pl">
@@ -353,6 +354,10 @@
       <trd lng="hu">m&udblac;v&eacute;szi</trd>
       <trd lng="id">artistik</trd>
       <trd lng="it">artistico</trd>
+      <trdgrp lng="nl">
+        <trd>kunstig</trd>,
+        <trd>artistiek</trd>
+      </trdgrp>
       <trd lng="pl">artystyczny</trd>
       <trd lng="ro">artistic</trd>
       <trd lng="ru">&c_h;&c_u;&c_d;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y; &c_j;</trd>
@@ -427,6 +432,10 @@
       <trd lng="hu">m&udblac;-</trd>
       <trd lng="id">artifisial</trd>
       <trd lng="it">artificiale</trd>
+      <trdgrp lng="nl">
+        <trd>kunstmatig</trd>,
+        <trd>artificieel</trd>
+      </trdgrp>
       <trd lng="pl">sztuczny</trd>
       <trd lng="ro">artificial</trd>
       <trd lng="ru">&c_i;&c_s;&c_k;&c_u;&c_s;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
@@ -588,6 +597,7 @@
       <trd lng="fr">&oelig;uvre d'art</trd>
       <trd lng="hu">m&udblac;v&eacute;szi dolog</trd>
       <trd lng="id">karya seni</trd>
+      <trd lng="nl">kunstwerk</trd>
       <trd lng="ru">&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;
       &c_i;&c_s;&c_k;&c_u;&c_s;&c_s;&c_t;&c_v;&c_a;</trd>
       <trd lng="sk">umeleck&eacute; <ind>dielo</ind></trd>
@@ -815,6 +825,7 @@
       <trd>ahli seni</trd>
     </trdgrp>
     <trd lng="it">artista</trd>
+    <trd lng="nl">kunstenaar</trd>
     <trd lng="pl">artysta</trd>
     <trd lng="ro">artist</trd>
     <trdgrp lng="ru">
@@ -982,9 +993,10 @@
       <ekz>
         bel<tld/>aj konkursoj de UEA
         <fnt>
+          <aut>Grigori Arosev</aut>
+          <vrk><url ref="&Monato;/2000/monato200012.pdf#page=28">Poezio sed
+          ne poemoj</url></vrk>
           <bib>Monato</bib>
-          <vrk>Poezio sed
-          ne poemoj</vrk>
           <lok>2000/12, p. 28</lok>
         </fnt>.
       </ekz>
@@ -1054,6 +1066,7 @@
   <trd lng="hu">sz&eacute;pm&udblac;v&eacute;szet</trd>
   <trd lng="id">seni murni</trd>
   <trd lng="it">belle arti</trd>
+  <trd lng="nl">schone <ind>kunsten</ind></trd>
   <trd lng="pl"><ind>sztuka</ind> pi&eogonek;kna</trd>
   <trd lng="ro">art&abreve; de frumuse&#539;ea</trd>
   <trdgrp lng="ru">
@@ -1082,9 +1095,10 @@
         mortoj pro tuberkulozo fari&gcirc;is temo de multaj bel<tld/>a&jcirc;oj,
         ekzemple <nom>La Traviata</nom>, opero de <nom>Verdi</nom>
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Vladimir Lemelev</aut>
           <vrk><url ref="&Monato;/2011/010389.php">Dan&gcirc;era malamiko revenas</url></vrk>
+          <bib>Monato</bib>
           <lok>2011</lok>
         </fnt>;
       </ekz>
@@ -1108,6 +1122,7 @@
   <trd lng="fr">&oelig;uvre d'art</trd>
   <trd lng="hu">m&udblac;t&aacute;rgy</trd>
   <trd lng="id">karya seni</trd>
+  <trd lng="nl">kunstwerk</trd>
   <trd lng="pl">dzie&lstroke;o sztuki</trd>
   <trd lng="ro">oper&abreve; de art&abreve;</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;
@@ -1217,10 +1232,11 @@
         <klr>[&#8230;]</klr> tiu
         specifa karaktero de la dram<tld/>o estis observata e&ccirc; en la epoko de &Scirc;ekspiro
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Donald Broadribb</aut>
           <vrk><url ref="&Monato;/2005/008458.php">Modernantikva majstra greka
           dramo</url></vrk>
+          <bib>Monato</bib>
           <lok>2005</lok>
         </fnt>.
       </ekz>
@@ -1312,19 +1328,21 @@
       <ekz>
         en 1932 li anticipis <klr>[&#8230;]</klr> genetikan in&gcirc;enier<tld/>on
         <fnt>
-          <bib>Monato</bib>
+
           <aut>W. H. Simcock</aut>
           <vrk><url ref="&Monato;/2003/008033.html">Esti homa kaj
           literaturema</url></vrk>
+          <bib>Monato</bib>
           <lok>2003</lok>
         </fnt>;
       </ekz>
       <ekz>
         elita &ccirc;ina akademio pri in&gcirc;enier<tld/>o
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Alice Liu</aut>
           <vrk><url ref="&Monato;/2012/010706.php">Premio alfrontas premon</url></vrk>
+          <bib>Monato</bib>
           <lok>2012</lok>
         </fnt>;
       </ekz>
@@ -1455,10 +1473,11 @@
         ili mokas italojn kaj hispanojn, kiuj &ndash; la&ubreve; ili &ndash; e&ccirc; perfortas kin<tld/>on,
         sensciaj (fi!)
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Roberto Pigro</aut>
           <vrk><url ref="&Monato;/2011/010341.php">Kiom da homoj, tiom da
           gustoj</url></vrk>
+          <bib>Monato</bib>
           <lok>2011</lok>
         </fnt>.
       </ekz>
@@ -1481,6 +1500,7 @@
   </trdgrp>
   <trd lng="id">sinematografi</trd>
   <trd lng="it">cinematografia</trd>
+  <trd lng="nl">cinematografie</trd>
   <trdgrp lng="pl">
     <trd>film</trd>,
     <trd>sztuka filmowa</trd>,
@@ -1510,9 +1530,10 @@
         la ensemblo de tri medreseoj estas unika ekzemplo de la urba konstru<tld/>o kaj
         arkitektura planado de &ccirc;efa urba placo
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Anatoli Ionesov</aut>
           <vrk><url ref="&Monato;/2006/008920.php">Perlo &ccirc;e la Silka Vojo</url></vrk>
+          <bib>Monato</bib>
           <lok>2006</lok>
         </fnt>.
       </ekz>
@@ -1629,9 +1650,10 @@
       <ekz>
         dum la lastaj jaroj kukurboj eniris altnivelan kuir<tld/>on
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Walter Klag</aut>
           <vrk><url ref="&Monato;/2008/009386.php">La kukurbo frukto multviza&gcirc;a</url></vrk>
+          <bib>Monato</bib>
           <lok>2008</lok>
         </fnt>.
       </ekz>
@@ -1661,7 +1683,7 @@
   <trd lng="it"><ind>arte</ind> culinaria</trd>
   <trd lng="ja">&#26009;&#29702;&#27861;  <pr>&#12426;&#12423;&#12358;&#12426;&#12411;&#12358;</pr></trd>
   <trd lng="pl">sztuka kulinarna</trd>
-  <trd lng="ro">arte culinare</trd>
+  <trd lng="ro">art&abreve; culinare</trd>
   <trd lng="sk">kuch&aacute;rske umenie</trd>
   <trdgrp lng="uk">
     <trd>&c_m;&c_i;&c_s;&c_t;&c_je;&c_c;&c_t;&c_v;&c_o;
@@ -1802,10 +1824,11 @@
         Muzeo de la Skolo de <nom>Nancy</nom> &ndash; en kiu estas la plej belaj verkoj de lokaj
         Nov<tld/>o-metiistoj
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Roland Rotsaert</aut>
           <vrk><url ref="&Monato;/2006/008899.php">Vizito al Novarto-urbo
           Nancy</url></vrk>
+          <bib>Monato</bib>
           <lok>2006</lok>
         </fnt>;
       </ekz>
@@ -2230,6 +2253,9 @@
 </art>
 <!--
 $Log$
+versio 1.177 2026/10/11 18:52:21
+Paul Peeraerts: +nl
+
 versio 1.176 2026/09/22 11:32:56
 Wolfram Diestel: trd-ordo
 
@@ -2249,8 +2275,5 @@ versio 1.171 2026/03/09 07:16:38
 Wolfram Diestel: +~a&jcirc;a
 
 versio 1.170 2026/01/06 06:53:42
-Wolfram Diestel: rajd~o: +trd
-
-versio 1.169 2025/10/05 20:30:26
 -->
 </vortaro>
