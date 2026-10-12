@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: nov.xml,v 1.152 2026/08/09 07:14:45 revo Exp $">
+<art mrk="$Id: nov.xml,v 1.153 2026/10/12 22:57:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>nov</rad>/a <fnt><bib>UV</bib></fnt>
@@ -928,141 +928,181 @@
       <ref cel="re.0e">ree</ref>,
       <ref cel="foj.re0e">refoje</ref>
     </refgrp>
-  </snc>
-  <trd lng="af">weer</trd>
-  <trd lng="am">&#x12A5;&#4757;&#x12F0;&#4872;&#4755;</trd>
-  <trd lng="ar">&a_m;&a_r;&a_t_marbuta; &a_A_hamza_sure;&a_kh;&a_r;&a_A_maqsura;</trd>
-  <trd lng="az">yenid&#601;n</trd>
-  <trd lng="be">&c_z;&c_n;&c_o;&c_w;</trd>
-  <trd lng="bn">&#2438;&#x9AC;&#x9BE;&#x9B0;</trd>
-  <trd lng="bo">&t_ya;&t_nga;&t_tsheg;&t_sa;&t_kata;&t_yata;&t_ra;&t_tsheg;</trd>
-  <trdgrp lng="br">
-    <trd>a-nevez</trd>,
-    <trd>en-dro</trd>
-  </trdgrp>
-  <trd lng="bs">opet</trd>
-  <trd lng="co">di novu</trd>
-  <trdgrp lng="cs">
-  <trd>nanovo</trd>,
-  <trd>op&ecaron;t</trd>,
-  <trd>zas</trd>,
-  <trd>zase</trd>,
-  <trd>znovu</trd>
-  </trdgrp>
-  <trd lng="cy">eto</trd>
-  <trd lng="da">igen</trd>
-  <trdgrp lng="de">
-    <trd>erneut</trd>,
-    <trd>wieder</trd>,
-    <trd>noch einmal</trd>,
-    <trd>noch mal</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>again</trd>,
-    <trd>anew</trd>,
-    <trd>afresh</trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>de nuevo</trd>,
-    <trd>nuevamente</trd>
-  </trdgrp>
-  <trd lng="et">j&auml;lle</trd>
-  <trd lng="eu">berriro</trd>
-  <trdgrp lng="fr">
-    <trd>&agrave; nouveau</trd>,
-    <trd>de nouveau</trd>
-  </trdgrp>
-  <trd lng="fy">wer</trd>
-  <trd lng="ga">ar&iacute;s</trd>
-  <trd lng="gd">a-rithist</trd>
-  <trd lng="gl">novo</trd>
-  <trd lng="gu">&#xAAB;&#xAB0;&#xAC0;&#xAA5;&#xAC0;</trd>
-  <trd lng="ha">kuma</trd>
-  <trd lng="hi">&#x92B;&#x93F;&#2352;</trd>
-  <trd lng="hmn">dua</trd>
-  <trd lng="hr">opet</trd>
-  <trd lng="ht">ank&ograve;</trd>
-  <trd lng="hy">&#x56F;&#1408;&#x56F;&#x56B;&#1398;</trd>
-  <trd lng="id">lagi</trd>
-  <trd lng="ig">&#x1ECD;z&#x1ECD;</trd>
-  <trd lng="is">aftur</trd>
-  <trd lng="ja">&#x518D;&#12403; <pr>&#12405;&#x305F;&#x305F;&#12403;</pr></trd>
-  <trd lng="jv">maneh</trd>
-  <trd lng="ka">&#x10D4;&#x10E0;&#x10D7;&#x10EE;&#x10D4;&#x10DA;</trd>
-  <trd lng="kk">&#x49B;&c_a;&c_j;&c_t;&c_a;&c_d;&c_a;&c_n;</trd>
-  <trd lng="km">&#6023;&#x17B6;&#6032;&#x17D2;&#6040;&#x17B8;&#6040;&#x17D2;&#x178F;&#6020;&#6033;&#x17C0;&#x178F;</trd>
-  <trd lng="kn">&#xCAE;&#xCA4;&#xCCD;&#xCA4;&#xCC6;</trd>
-  <trd lng="ko">&#xB2E4;&#xC2DC;</trd>
-  <trd lng="ku">d&icirc;sa</trd>
-  <trd lng="ky">&c_d;&c_a;&c_g;&c_y; &c_b;&c_i;&c_r; &c_zh;&c_o;&c_l;&c_u;</trd>
-  <trd lng="lat">rursus</trd>
-  <trd
+    <trd lng="af">weer</trd>
+    <trd lng="am">&#x12A5;&#4757;&#x12F0;&#4872;&#4755;</trd>
+    <trd lng="ar">&a_m;&a_r;&a_t_marbuta; &a_A_hamza_sure;&a_kh;&a_r;&a_A_maqsura;</trd>
+    <trd lng="az">yenid&#601;n</trd>
+    <trd lng="be">&c_z;&c_n;&c_o;&c_w;</trd>
+    <trd lng="bn">&#2438;&#x9AC;&#x9BE;&#x9B0;</trd>
+    <trd lng="bo">&t_ya;&t_nga;&t_tsheg;&t_sa;&t_kata;&t_yata;&t_ra;&t_tsheg;</trd>
+    <trdgrp lng="br">
+      <trd>a-nevez</trd>,
+      <trd>en-dro</trd>
+    </trdgrp>
+    <trd lng="bs">opet</trd>
+    <trd lng="co">di novu</trd>
+    <trdgrp lng="cs">
+    <trd>nanovo</trd>,
+    <trd>op&ecaron;t</trd>,
+    <trd>zas</trd>,
+    <trd>zase</trd>,
+    <trd>znovu</trd>
+    </trdgrp>
+    <trd lng="cy">eto</trd>
+    <trd lng="da">igen</trd>
+    <trdgrp lng="de">
+      <trd>erneut</trd>,
+      <trd>wieder</trd>,
+      <trd>noch einmal</trd>,
+      <trd>noch mal</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>again</trd>,
+      <trd>once more</trd>,
+      <trd>anew</trd>,
+      <trd>afresh</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>de nuevo</trd>,
+      <trd>nuevamente</trd>
+    </trdgrp>
+    <trd lng="et">j&auml;lle</trd>
+    <trd lng="eu">berriro</trd>
+    <trdgrp lng="fr">
+      <trd>&agrave; nouveau</trd>,
+      <trd>de nouveau</trd>
+    </trdgrp>
+    <trd lng="fy">wer</trd>
+    <trd lng="ga">ar&iacute;s</trd>
+    <trd lng="gd">a-rithist</trd>
+    <trd lng="gl">novo</trd>
+    <trd lng="gu">&#xAAB;&#xAB0;&#xAC0;&#xAA5;&#xAC0;</trd>
+    <trd lng="ha">kuma</trd>
+    <trd lng="hi">&#x92B;&#x93F;&#2352;</trd>
+    <trd lng="hmn">dua</trd>
+    <trd lng="hr">opet</trd>
+    <trd lng="ht">ank&ograve;</trd>
+    <trd lng="hy">&#x56F;&#1408;&#x56F;&#x56B;&#1398;</trd>
+    <trd lng="id">lagi</trd>
+    <trd lng="ig">&#x1ECD;z&#x1ECD;</trd>
+    <trd lng="is">aftur</trd>
+    <trdgrp lng="ja">
+      <trd>&#21448; <pr>&#12414;&#12383;</pr></trd>,
+      <trd>&#x518D;&#12403; <pr>&#12405;&#x305F;&#x305F;&#12403;</pr></trd>,
+      <trd>&#12418;&#12358;&#19968;&#24230; <pr>&#12418;&#12358;&#12356;&#12385;&#12393;</pr></trd>,
+      <trd>&#25913;&#12417;&#12390; <pr>&#12354;&#12425;&#12383;&#12417;&#12390;</pr></trd>,
+      <trd>&#20877;&#24230; <pr>&#12373;&#12356;&#12393;</pr></trd>
+    </trdgrp>
+    <trd lng="jv">maneh</trd>
+    <trd lng="ka">&#x10D4;&#x10E0;&#x10D7;&#x10EE;&#x10D4;&#x10DA;</trd>
+    <trd lng="kk">&#x49B;&c_a;&c_j;&c_t;&c_a;&c_d;&c_a;&c_n;</trd>
+    <trd lng="km">&#6023;&#x17B6;&#6032;&#x17D2;&#6040;&#x17B8;&#6040;&#x17D2;&#x178F;&#6020;&#6033;&#x17C0;&#x178F;</trd>
+    <trd lng="kn">&#xCAE;&#xCA4;&#xCCD;&#xCA4;&#xCC6;</trd>
+    <trd lng="ko">&#xB2E4;&#xC2DC;</trd>
+    <trd lng="ku">d&icirc;sa</trd>
+    <trd lng="ky">&c_d;&c_a;&c_g;&c_y; &c_b;&c_i;&c_r; &c_zh;&c_o;&c_l;&c_u;</trd>
+    <trd lng="lat">rursus</trd>
+    <trd
   lng="lo">&#xEAD;&#xEB5;&#xE81;&#xEC0;&#xE97;&#xEB7;&#xEC8;&#xEAD;&#xEAB;&#xE99;&#xEB6;&#xEC8;&#xE87;</trd>
-  <trd lng="lt">v&#279;l</trd>
-  <trd lng="lv">atkal</trd>
-  <trd lng="mg">indray</trd>
-  <trd lng="mi">ano</trd>
-  <trd lng="mk">&c_p;&c_o;&c_v;&c_t;&c_o;&c_r;&c_n;&c_o;</trd>
-  <trd lng="ml">&#xD35;&#xD40;&#xD23;&#xD4D;&#xD1F;&#xD41;&#xD02;</trd>
-  <trd lng="mn">&c_d;&c_a;&c_h;&c_i;&c_n;</trd>
-  <trd lng="mr">&#x92A;&#2369;&#2344;&#x94D;&#2361;&#x93E;</trd>
-  <trd lng="ms">lagi</trd>
-  <trd lng="mt">darb&#8217;o&#295;ra</trd>
-  <trd lng="my">&#4116;&#4145;&#x102C;&#4096;&#x103A;&#4112;&#4118;&#4116;&#x103A;&#4129;</trd>
-  <trd lng="ne">&#x92B;&#2375;&#2352;&#x93F;</trd>
-  <trd lng="ny">kachiwiri</trd>
-  <trd lng="pa">&#xA28;&#xA42;&#xA70; &#xA2B;&#xA3F;&#xA30;</trd>
-  <trdgrp lng="pl">
-    <trd>na <ind>nowo</ind></trd>,
-    <trd>od <ind>nowa</ind></trd>,
-    <trd>znowu</trd>
-  </trdgrp>
-  <trd lng="ps">&a_b;&a_y;&a_A;</trd>
-  <trdgrp lng="ro">
-    <trd>din <ind>nou</ind></trd>,
-    <trd>totul din <ind>nou</ind></trd>,
-    <trd>iar&abreve;&#537;i</trd>
-  </trdgrp>
-  <trd lng="rw">na none</trd>
-  <trd lng="sd">&#x67B;&a_y;&a_h;&a_r;</trd>
-  <trd lng="si">&#xDB1;&#xDD0;&#xDC0;&#xDAD;</trd>
-  <trdgrp lng="sk">
-  <trd>nanovo</trd>,
-  <trd>op&auml;&tcaron;</trd>,
-  <trd>znova</trd>
-  </trdgrp>
-  <trd lng="sl">ponovno</trd>
-  <trd lng="sm">toe</trd>
-  <trd lng="sn">zvakare</trd>
-  <trd lng="so">mar kale</trd>
-  <trd lng="sq">p&euml;rs&euml;ri</trd>
-  <trd lng="st">hape</trd>
-  <trd lng="su">deui</trd>
-  <trd lng="sw">tena</trd>
-  <trd lng="ta">&#xBAE;&#xBC0;&#xBA3;&#xBCD;&#xB9F;&#xBC1;&#xBAE;&#xBCD;</trd>
-  <trd lng="te">&#xC2E;&#xC33;&#xC4D;&#xC33;&#xC40;</trd>
-  <trd lng="tg">&c_a;&c_z; &c_n;&c_a;&c_v;</trd>
-  <trd lng="th">&#xE2D;&#xE35;&#xE01;&#xE04;&#xE23;&#xE31;&#xE49;&#xE07;</trd>
-  <trd lng="tl">muli</trd>
-  <trd lng="tt">&c_t;&c_a;&c_g;&c_y;&c_n;</trd>
-  <trd lng="uk">&c_o;&c_v;&c_u;</trd>
-  <trd lng="ur">&f_p;&#x6BE;&a_r;</trd>
-  <trd lng="uz">yana</trd>
-  <trd lng="vi">m&#x1ED9;t l&#x1EA7;n n&#x1EEF;a</trd>
-  <trd lng="xh">kwakhona</trd>
-  <trd lng="yi">&vav;&vav;&yod;&dalet;&ayin;&resh;</trd>
-  <trd lng="yo">l&#x1EB9;&#x1EB9;kansi</trd>
-  <trdgrp lng="zh">
-    <trd>&#x4ECE;&#x65B0; <pr>c&oacute;ngx&imacron;n</pr></trd>,
-    <trd>&#x5F9E;&#x65B0; <pr>c&oacute;ngx&imacron;n</pr></trd>,
-    <trd>&#x91CD;&#x65B0; <pr>ch&oacute;ngx&imacron;n</pr></trd>,
-    <trd>&#x4ECE;&#22836; <pr>c&oacute;ngt&oacute;u</pr></trd>,
-    <trd>&#x5F9E;&#x982D; <pr>c&oacute;ngt&oacute;u</pr></trd>,
-    <trd>&#x518D;&#x4E00;&#x6B21; <pr>z&agrave;iy&imacron;c&igrave;</pr></trd>,
-    <trd>&#x518D;&#x6B21; <pr>z&agrave;ic&igrave;</pr></trd>,
-    <trd>&#x91CD;&#x53C8; <pr>ch&oacute;ngy&ograve;u</pr></trd>
-  </trdgrp>
-  <trd lng="zu">futhi</trd>
+    <trd lng="lt">v&#279;l</trd>
+    <trd lng="lv">atkal</trd>
+    <trd lng="mg">indray</trd>
+    <trd lng="mi">ano</trd>
+    <trd lng="mk">&c_p;&c_o;&c_v;&c_t;&c_o;&c_r;&c_n;&c_o;</trd>
+    <trd lng="ml">&#xD35;&#xD40;&#xD23;&#xD4D;&#xD1F;&#xD41;&#xD02;</trd>
+    <trd lng="mn">&c_d;&c_a;&c_h;&c_i;&c_n;</trd>
+    <trd lng="mr">&#x92A;&#2369;&#2344;&#x94D;&#2361;&#x93E;</trd>
+    <trd lng="ms">lagi</trd>
+    <trd lng="mt">darb&#8217;o&#295;ra</trd>
+    <trd lng="my">&#4116;&#4145;&#x102C;&#4096;&#x103A;&#4112;&#4118;&#4116;&#x103A;&#4129;</trd>
+    <trd lng="ne">&#x92B;&#2375;&#2352;&#x93F;</trd>
+    <trdgrp lng="nl">
+      <trd>weer</trd>,
+      <trd>alweer</trd>,
+      <trd>opnieuw</trd>,
+      <trd>nogmaals</trd>,
+      <trd>nog eens</trd>,
+      <trd>andermaal</trd>
+    </trdgrp>
+    <trd lng="ny">kachiwiri</trd>
+    <trd lng="pa">&#xA28;&#xA42;&#xA70; &#xA2B;&#xA3F;&#xA30;</trd>
+    <trdgrp lng="pl">
+      <trd>na <ind>nowo</ind></trd>,
+      <trd>od <ind>nowa</ind></trd>,
+      <trd>znowu</trd>
+    </trdgrp>
+    <trd lng="ps">&a_b;&a_y;&a_A;</trd>
+    <trdgrp lng="ro">
+      <trd>din <ind>nou</ind></trd>,
+      <trd>totul din <ind>nou</ind></trd>,
+      <trd>iar&abreve;&#537;i</trd>
+    </trdgrp>
+    <trd lng="rw">na none</trd>
+    <trd lng="sd">&#x67B;&a_y;&a_h;&a_r;</trd>
+    <trd lng="si">&#xDB1;&#xDD0;&#xDC0;&#xDAD;</trd>
+    <trdgrp lng="sk">
+    <trd>nanovo</trd>,
+    <trd>op&auml;&tcaron;</trd>,
+    <trd>znova</trd>
+    </trdgrp>
+    <trd lng="sl">ponovno</trd>
+    <trd lng="sm">toe</trd>
+    <trd lng="sn">zvakare</trd>
+    <trd lng="so">mar kale</trd>
+    <trd lng="sq">p&euml;rs&euml;ri</trd>
+    <trd lng="st">hape</trd>
+    <trd lng="su">deui</trd>
+    <trd lng="sw">tena</trd>
+    <trd lng="ta">&#xBAE;&#xBC0;&#xBA3;&#xBCD;&#xB9F;&#xBC1;&#xBAE;&#xBCD;</trd>
+    <trd lng="te">&#xC2E;&#xC33;&#xC4D;&#xC33;&#xC40;</trd>
+    <trd lng="tg">&c_a;&c_z; &c_n;&c_a;&c_v;</trd>
+    <trd lng="th">&#xE2D;&#xE35;&#xE01;&#xE04;&#xE23;&#xE31;&#xE49;&#xE07;</trd>
+    <trd lng="tl">muli</trd>
+    <trd lng="tt">&c_t;&c_a;&c_g;&c_y;&c_n;</trd>
+    <trd lng="uk">&c_o;&c_v;&c_u;</trd>
+    <trd lng="ur">&f_p;&#x6BE;&a_r;</trd>
+    <trd lng="uz">yana</trd>
+    <trd lng="vi">m&#x1ED9;t l&#x1EA7;n n&#x1EEF;a</trd>
+    <trd lng="xh">kwakhona</trd>
+    <trd lng="yi">&vav;&vav;&yod;&dalet;&ayin;&resh;</trd>
+    <trd lng="yo">l&#x1EB9;&#x1EB9;kansi</trd>
+    <trdgrp lng="zh">
+      <trd>&#x4ECE;&#x65B0; <pr>c&oacute;ngx&imacron;n</pr></trd>,
+      <trd>&#x5F9E;&#x65B0; <pr>c&oacute;ngx&imacron;n</pr></trd>,
+      <trd>&#x91CD;&#x65B0; <pr>ch&oacute;ngx&imacron;n</pr></trd>,
+      <trd>&#x4ECE;&#22836; <pr>c&oacute;ngt&oacute;u</pr></trd>,
+      <trd>&#x5F9E;&#x982D; <pr>c&oacute;ngt&oacute;u</pr></trd>,
+      <trd>&#x518D;&#x4E00;&#x6B21; <pr>z&agrave;iy&imacron;c&igrave;</pr></trd>,
+      <trd>&#x518D;&#x6B21; <pr>z&agrave;ic&igrave;</pr></trd>,
+      <trd>&#x91CD;&#x53C8; <pr>ch&oacute;ngy&ograve;u</pr></trd>
+    </trdgrp>
+    <trd lng="zu">futhi</trd>
+  </snc>
+  <snc mrk="nov.de0e.memoriga">
+    <dif>
+      Vorto uzata en demando, kies respondon oni forgesis a&ubreve; volas memorigi al la demandato:
+      <ekz>
+        kion vi volas de<tld/>e?
+        <fnt><bib>ChL</bib> <lok>&ccirc;apitro 13</lok></fnt>;
+      </ekz>
+      <ekz>
+        kio estas de<tld/>e?
+        <fnt><bib>Gmn</bib></fnt>;
+      </ekz>
+      <ekz>
+        kie de<tld/>e ekflamis la mondrevolucio?
+        <fnt><bib>Metrop</bib></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>nochmal</trd>,
+      <trd>noch</trd>
+    </trdgrp>
+    <trd lng="en">again</trd>
+    <trd lng="fr">d&eacute;j&agrave;</trd>
+    <trd lng="ja">&#12387;&#12369;</trd>
+    <trd lng="nl">ook alweer</trd>
+  </snc>
 </drv>
 
 <drv mrk="nov.en0ajxo">
@@ -1733,6 +1773,9 @@
 </art>
 <!--
 $Log$
+versio 1.153 2026/10/12 22:57:54
+Sam Penter: aldonis difinon por "denove" en memoriga demando
+
 versio 1.152 2026/08/09 07:14:45
 Wolfram Diestel: kor. snc-mrk
 
@@ -1752,8 +1795,5 @@ versio 1.147 2025/09/29 18:39:45
 Wolfram Diestel: +~igi
 
 versio 1.146 2025/09/28 08:31:56
-Wolfram Diestel: ~eca: precizigo, rim; +mal~eca
-
-versio 1.143 2023/12/12 20:10:25
 -->
 </vortaro>
