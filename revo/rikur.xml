@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rikur.xml,v 1.11 2026/10/04 08:25:47 revo Exp $">
+<art mrk="$Id: rikur.xml,v 1.12 2026/11/20 12:48:55 revo Exp $">
 <kap>
   <rad>rikur</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
@@ -27,9 +27,9 @@
     <subsnc mrk="rikur.0o.iteracio">
       <dif>
         <tld lit="R"/>o de la ordo <frm am="k"><k>k</k></frm> estas
-        difino de la
-        formo <frm am="a_n=f(n,a_(n-1),a_(n-2),...,a_(n-k))">a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
-        a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;<k>k</k></sub>)</frm>, kie
+        difino de la formo <frm
+        am="a_n=f(n,a_(n-1),a_(n-2),...,a_(n-k))">a<sub>n</sub> = f(n,
+        a<sub>n&#8722;1</sub>, a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;<k>k</k></sub>)</frm>, kie
         <frm am="n ge k+1 ge 0">n&#x202F;&#8805;&#x202F;<k>k</k>+1&#x202F;&#8805;&#x202F;0</frm>:
         <ekz>
           la difino de Fibona&ccirc;ia vico ekde la 3-a ano
@@ -44,9 +44,7 @@
           </frm>
         </ekz><ekz>
           por solvi la ekvacion <frm am="f(x)=0">f(x)&#x202F;=&#x202F;0</frm> ofte
-          eblas uzi
-          la iteracian <em>metodon Ne&ubreve;tonan</em>, difinitan per
-          la <tld/>o
+          eblas uzi la iteracian <em>metodon Ne&ubreve;tonan</em>, difinitan per la <tld/>o
            <frm am="x_(n+1)=x_n-f(x_n)//f&minute;(x_n)">x<sub>n+1</sub>&#x202F;=
 x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         </ekz>
@@ -170,6 +168,12 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
     <dif>
       Uzanta <tld/>on, karakterizata de <tld/>o:
       <ekz>
+        Serio, en kiu termo <frm>u<sub>n</sub></frm> estas difinata per rilato
+        inter <frm>k</frm> termoj intersekvaj:
+        <frm>f(u<sub>n-k+1</sub>,&#8230;,u<sub>n-1</sub>, u<sub>n</sub>)=0</frm>,
+        estas <em><tld/>a serio</em>
+        <fnt><bib>MatTerm</bib>, <lok>p.&nbsp;19</lok></fnt>;
+      </ekz><ekz>
         Tapi&scirc;o de <nom>Sjerpinski</nom> <klr>[&#8230;]</klr> ekestas per
         <tld/>a divido de kvadrato al
         3&#x202F;&#xD7;&#x202F;3 subkvadratoj kaj forpreno de la mezaj subkvadratoj
@@ -177,8 +181,7 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=132886">Tapi&scirc;o de Sjerpinski</url></lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>a difino de la faktorialo estas jena:
         (1) La faktorialo de 1 estas 1,
         (2) Se <frm am="n">n</frm> estas natura nombro, la faktorialo de
@@ -257,6 +260,9 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
 
 <!--
 $Log$
+versio 1.12 2026/11/20 12:48:55
+Sergio Pokrovskij: + MatTerm
+
 versio 1.11 2026/10/04 08:25:47
 Sergio Pokrovskij: +adm
 
@@ -275,8 +281,5 @@ Wolfram Diestel: formuloj per am
 Revision 1.3  2019/08/31 15:10:14  revo
 Wolfram Diestel: +germ trd-oj, +ekz-oj, korektis tajperarojn kaj
 sintakson
-
-Revision 1.2  2018/11/18 04:10:15  revo
-Sergio Pokrovskij: subsnc
 -->
 </vortaro>
